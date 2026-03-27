@@ -1,0 +1,164 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  generated_at: '2026-03-25T16:40:45Z'
+  generator: lane-local-marvin-sync
+summary:
+  marvin_root_present: true
+  marvin_problem_subtree_present: false
+  direct_ns_hits_in_v6: false
+  candidate_count: 3
+  selected_count: 3
+  role_split:
+    direct_proof_bearing_base: legacy-ns-tex-pdf-corpus
+    marvin_v6_role: synthesis-and-bridge-scaffolding
+  route_lock_present: true
+  primary_route_locked: true
+  recent_import_bucket_summary:
+    synthesis-only: 7
+  recent_slot_summary:
+    scale-barrier: 5
+    curvature-based-regularity: 7
+    closed-loop-warrant: 4
+    projected-nc-flow-d-route: 7
+    monotone-functional: 2
+    nonlinear-compactness: 2
+selected_sources:
+- path: "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.9-TheEntirePictureWorkingSpine.tex"
+  score: 60
+  theorem_env_count: 0
+  proof_env_count: 0
+  role: scale-coercivity-projection synthesis spine
+  import_targets:
+  - problems/navier-stokes/source-forensics/bridge-discharge-locus-map.md
+  - problems/navier-stokes/theorem-construction/curvature-to-scale-feedback-bridge.md
+  - problems/navier-stokes/marvin-adaptation-notes.md
+  honest_status: useful synthesis note, not direct NS theorem discharge
+- path: "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.11-ObstructionAlgebraizationBridge.tex"
+  score: 78
+  theorem_env_count: 144
+  proof_env_count: 78
+  role: obstruction-curvature bridge skeleton
+  import_targets:
+  - problems/navier-stokes/source-forensics/bridge-discharge-locus-map.md
+  - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+  - problems/navier-stokes/marvin-adaptation-notes.md
+  honest_status: theorem-heavy synthesis source, but not a direct Navier-Stokes proof
+    file
+- path: "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Audit/scale-resolution/ScaleResolution_Extracts.md"
+  score: 20
+  theorem_env_count: 0
+  proof_env_count: 0
+  role: generated keyword extract for scale/resolution language
+  import_targets:
+  - problems/navier-stokes/marvin-watchlist.yaml
+  - problems/navier-stokes/marvin-adaptation-notes.md
+  honest_status: search aide only
+missing_expected_sources:
+- "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/problems/navier-stokes/**"
+- Any V6 file that directly names the four NS bridge files or Theorem 2.1
+rationale: Marvin/V6 is available and should be watched continuously, but the current
+  V6 tree does not expose a direct Navier-Stokes problem subtree. The strongest V6
+  imports are therefore synthesis notes about scale/coercivity/projection and obstruction-curvature
+  bridges, while the actual proof-bearing NS material remains the legacy local Navier-Stokes
+  TeX/PDF family.
+recent_contributions:
+- path: "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.11-ObstructionAlgebraizationBridge.tex"
+  observed_at: '2026-03-25T16:40:44Z'
+  last_modified_at: '2026-03-24T21:19:49Z'
+  ns_relevance: high-synthesis
+  term_hit_count: 1
+  matched_slots:
+  - scale-barrier
+  - curvature-based-regularity
+  - closed-loop-warrant
+  - projected-nc-flow-d-route
+  import_bucket: synthesis-only
+  import_decision: promoted-as-refresh-of-existing-curvature-obstruction-skeleton
+  note: The refreshed obstruction/curvature note sharpens the fourth-bridge and warrant-side
+    obstruction language already used locally.
+- path: "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.20-SupportExtractionDescent.tex"
+  observed_at: '2026-03-25T16:40:44Z'
+  last_modified_at: '2026-03-18T23:36:10Z'
+  ns_relevance: low
+  term_hit_count: 0
+  matched_slots:
+  - curvature-based-regularity
+  - projected-nc-flow-d-route
+  import_bucket: synthesis-only
+  import_decision: observed-but-not-promoted
+  note: This contribution is support-extraction / torsor-descent work and is tracked
+    as watched sidecar material rather than an active Navier-Stokes bridge input.
+- path: "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/main.txt"
+  observed_at: '2026-03-25T16:40:45Z'
+  last_modified_at: '2026-03-17T23:58:30Z'
+  ns_relevance: medium-synthesis
+  term_hit_count: 3
+  matched_slots:
+  - scale-barrier
+  - monotone-functional
+  - nonlinear-compactness
+  - curvature-based-regularity
+  - closed-loop-warrant
+  - projected-nc-flow-d-route
+  import_bucket: synthesis-only
+  import_decision: promoted-as-synthesis-refresh
+  note: This V6 note sharpens local bridge semantics and is promoted as synthesis
+    rather than direct proof authority.
+- path: "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Audit/scale-resolution/ScaleResolution_Extracts.md"
+  observed_at: '2026-03-25T16:40:45Z'
+  last_modified_at: '2026-03-16T18:10:16Z'
+  ns_relevance: medium-synthesis
+  term_hit_count: 2
+  matched_slots:
+  - scale-barrier
+  - monotone-functional
+  - nonlinear-compactness
+  - curvature-based-regularity
+  - closed-loop-warrant
+  - projected-nc-flow-d-route
+  import_bucket: synthesis-only
+  import_decision: promoted-as-synthesis-refresh
+  note: This V6 note sharpens local bridge semantics and is promoted as synthesis
+    rather than direct proof authority.
+- path: "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.10-MassStabilizationForceUnification.tex"
+  observed_at: '2026-03-25T16:40:44Z'
+  last_modified_at: '2026-02-24T18:43:29Z'
+  ns_relevance: medium-synthesis
+  term_hit_count: 1
+  matched_slots:
+  - scale-barrier
+  - curvature-based-regularity
+  - closed-loop-warrant
+  - projected-nc-flow-d-route
+  import_bucket: synthesis-only
+  import_decision: promoted-as-synthesis-refresh
+  note: This V6 note sharpens local bridge semantics and is promoted as synthesis
+    rather than direct proof authority.
+- path: "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.9-TheEntirePictureWorkingSpine.tex"
+  observed_at: '2026-03-25T16:40:44Z'
+  last_modified_at: '2026-02-17T18:56:39Z'
+  ns_relevance: low
+  term_hit_count: 0
+  matched_slots:
+  - scale-barrier
+  - curvature-based-regularity
+  - projected-nc-flow-d-route
+  import_bucket: synthesis-only
+  import_decision: observed-but-not-promoted
+  note: Observed in the V6 watch roots, but it does not currently sharpen a named
+    Navier-Stokes bridge strongly enough to promote.
+- path: "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.6-IntrinsicHolonomyTwist.tex"
+  observed_at: '2026-03-25T16:40:44Z'
+  last_modified_at: '2026-02-17T18:56:25Z'
+  ns_relevance: medium-synthesis
+  term_hit_count: 1
+  matched_slots:
+  - curvature-based-regularity
+  - projected-nc-flow-d-route
+  import_bucket: synthesis-only
+  import_decision: promoted-as-synthesis-refresh
+  note: This V6 note sharpens local bridge semantics and is promoted as synthesis
+    rather than direct proof authority.

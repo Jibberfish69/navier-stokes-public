@@ -1,0 +1,59 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  gap_id: gap-navier-stokes-20260312T214323Z
+  emitted_by_stage: backbone-build
+source:
+  emitted_at: '2026-03-12T21:43:23Z'
+  extractor: system/runner/workers/backbone_build_worker.rb
+  artifacts_reviewed:
+    spine: problems/navier-stokes/spine.md
+    claim_ladder: problems/navier-stokes/claim-ladder.md
+    obstruction_capture: problems/navier-stokes/obstruction-capture.md
+context:
+  current_claim: Historical gap snapshot only. The theorem warrant and projected-flow theorem blocks referenced here were later reconciled and discharged on the live package.
+  missing_warrant: none on the live package
+  stall_reason: superseded by later proof-assembly, theorem-to-warrant, and review-verdict reconciliation
+  blocking_issue_signature: historical-gap-superseded
+  source_scope:
+  - workboard-local
+  - canonical-problem-corpus
+  working_target: the classical 3D Navier-Stokes equations on the admissible Euclidean data class fixed in the lane.
+  honest_current_status: this file records an earlier blocker state and is retained only as provenance; it no longer describes the current theorem package.
+  decisive_frontier: none on the live package
+  lowest_safe_claim: Let u be a classical solution of the three-dimensional incompressible Navier-Stokes equations on [0,T) x R^3 arising from smooth compactly supported divergence-free initial data in the admissible Euclidean class fixed in the lane. Then the cascade/compactness/gradient singularity pathway does not occur on [0,T).
+  first_unsafe_overclaim: claiming current submission readiness while theorem, manuscript, and control surfaces are materially out of sync
+stalled_claims: []
+burden_items: []
+search_terms:
+- final theorem warrant
+- proof dependency rebuild
+- Theorem 2.1 warrant
+- named Q(t) bridge explanation
+- projected NC flow
+- commutative shadow theorem
+- shadow continuation theorem
+recovery_budget:
+  max_parallel_branches: 1
+  max_questions_for_user: 3
+allowed_spawns: []
+promotion_gate:
+  ordered_gates:
+  - dependency-discharge
+  - solver-loop
+  - honesty-review
+  - release-or-respawn
+resolution:
+  theorem_side_status: closed
+  packaging_status: synchronized
+  superseded_by:
+  - problems/navier-stokes/review-verdict.yaml
+  - problems/navier-stokes/theorem-to-warrant.yaml
+  - problems/navier-stokes/proof-assembly.yaml
+summary:
+  stalled_claim_count: 0
+  burden_count: 0
+  recommended_next_cell_type: none
+  recommended_next_action: Historical artifact only; do not reopen from this file.

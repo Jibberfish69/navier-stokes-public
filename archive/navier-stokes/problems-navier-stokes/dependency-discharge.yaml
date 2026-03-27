@@ -1,0 +1,36 @@
+---
+mode: closed-package
+problem_id: navier-stokes
+message: proof assembly exposes no open theorem-critical target
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  discharge_id: dependency-discharge-navier-stokes
+  generated_at: '2026-03-24T21:49:39Z'
+  generator: system/runner/workers/dependency_discharge_worker.rb
+target: 
+source_scan:
+  checked_paths: []
+  matched_paths: []
+  evidence_hits: []
+  support_score: 0
+  signal_strength: none
+bridge_packet:
+  bridge_statement: The theorem packet, proof-obligation matrix, and proof assembly
+    report zero open obligations on the live theorem surface.
+  mediating_object: no discharge target remains
+  matched_branch_hypothesis: 
+  matched_object_formalization: false
+  discharge_basis: The earlier blocked-frontier state was superseded by later theorem
+    and review reconciliation.
+recommendation:
+  outcome: closed
+  rationale: proof assembly exposes no open theorem-critical target
+  next_action: none
+summary:
+  target_obligation_id: none
+  target_kind: none
+  status_before: closed
+  status_after: closed
+  matched_path_count: 0

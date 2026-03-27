@@ -1,0 +1,11 @@
+---
+version: 1
+problem_id: navier-stokes
+generated_at: '2026-03-24T21:56:36Z'
+status: exported
+render_quality: typeset
+overfull_box_count: 0
+overfull_box_count_gt_20pt: 0
+max_overfull_box_pt: 0.0
+undefined_control_sequence_count: 0
+missing_dollar_count: 0

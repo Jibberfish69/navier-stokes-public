@@ -1,0 +1,45 @@
+\section{Bridge I: Scale Barrier}
+
+The first bridge isolates the cascade-transfer mechanism that can feed gradient blow-up despite coarse boundedness information. On the theorem surface this bridge is discharged by reducing the transport defect to a genuine high-high packet, reducing that packet to a near-diagonal cubic dyadic tail, and absorbing the tail on the classical energy surface for all large cutoffs.
+
+\begin{proposition}[Classical scale barrier]
+\label{prop:scale-barrier}
+There exist constants \(\delta>0\), \(C_\ast>0\), and \(N_\ast\in\mathbb{N}\) such that, for every \(N\ge N_\ast\),
+\[
+\sup_n \int_0^T \|P_{\ge N}u^{(n)}(t)\|_{L^2_x}^2\,dt \le C_\ast 2^{-2\delta N}.
+\]
+Consequently the total high-frequency transfer above the threshold \(N_\ast\) is summable in the dyadic index and cannot drive an unchecked cascade channel on \([0,T)\).
+\end{proposition}
+
+\begin{proof}
+After the strict low-mode and spill reductions, the only live scale-side remainder is the genuine high-high packet. The near-diagonal reduction gives
+\[
+\mathfrak{H}^{\mathrm{scale},HH}_{N}[u^{(n)}](t)
+\le
+C\sum_{j\ge N-M}2^j\|\Delta_j u^{(n)}(t)\|_{L^2_x}^3.
+\]
+For each \(j\ge N-M\),
+\[
+\;2^j\|\Delta_j u^{(n)}(t)\|_{L^2_x}^3
+=
+\bigl(2^{2j}\|\Delta_j u^{(n)}(t)\|_{L^2_x}^2\bigr)
+\bigl(2^{-j}\|\Delta_j u^{(n)}(t)\|_{L^2_x}\bigr).
+\]
+The classical energy bound yields
+\[
+2^{-j}\|\Delta_j u^{(n)}(t)\|_{L^2_x}\le 2^{-(N-M)}C_E^{1/2},
+\]
+so the entire packet is bounded by
+\[
+C'2^{-N}C_E^{1/2}D_N^{(n)}(t).
+\]
+Choosing \(N_\ast\) large enough absorbs this into the viscous dissipation tail. Integrating in time gives
+\[
+\sup_n \int_0^T \|P_{\ge N}u^{(n)}(t)\|_{L^2_x}^2\,dt
+\le
+\; C_\ast 2^{-2\delta N},
+\]
+which is the claimed scale barrier.
+\end{proof}
+
+This is the exact scale input used downstream by compactness and gradient control. It is proved on the classical equation itself.

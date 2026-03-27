@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: navier-stokes-submission.aux
+The style file: alpha.bst
+Database file #1: ../external-paper/references.bib
+You've used 10 entries,
+            2543 wiz_defined-function locations,
+            638 strings with 6259 characters,
+and the built_in function-call counts, 3725 in all, are:
+= -- 382
+> -- 142
+< -- 6
++ -- 46
+- -- 45
+* -- 280
+:= -- 624
+add.period$ -- 31
+call.type$ -- 10
+change.case$ -- 56
+chr.to.int$ -- 10
+cite$ -- 10
+duplicate$ -- 148
+empty$ -- 283
+format.name$ -- 61
+if$ -- 741
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 12
+newline$ -- 54
+num.names$ -- 30
+pop$ -- 41
+preamble$ -- 1
+purify$ -- 67
+quote$ -- 0
+skip$ -- 112
+stack$ -- 0
+substring$ -- 250
+swap$ -- 10
+text.length$ -- 6
+text.prefix$ -- 6
+top$ -- 0
+type$ -- 72
+warning$ -- 0
+while$ -- 40
+width$ -- 13
+write$ -- 135

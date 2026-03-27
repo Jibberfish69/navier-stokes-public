@@ -1,0 +1,114 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  frontier_id: source-frontier-navier-stokes
+  generated_at: '2026-03-23T16:36:32Z'
+  generator: system/runner/lib/source_frontier_builder.rb
+  source_theorem_packet_id: theorem-packet-navier-stokes
+  source_matrix_id: proof-obligation-matrix-navier-stokes
+source_artifacts:
+- problems/navier-stokes/obstruction-capture.md
+- problems/navier-stokes/spine.md
+- problems/navier-stokes/claim-ladder.md
+- problems/navier-stokes/formalization-ledger.md
+- problems/navier-stokes/debt-map.yaml
+- system/meta/collaboration/marvin-feeds/navier-stokes.yaml
+- problems/navier-stokes/marvin-ingest-notes.yaml
+grounded_core:
+  theorem_statement: 'A serious source-grounded four-principle route exists in the
+    handed Navier-Stokes corpus: scale barrier, monotone functional Q(t), non-Sobolev
+    compactness, and curvature-based regularity.'
+  grounded_obligations:
+  - obligation_id: theorem-statement
+    kind: theorem-statement
+    label: 'A serious source-grounded four-principle route exists in the handed Navier-Stokes
+      corpus: scale barrier, monotone functional Q(t), non-Sobolev compactness, and
+      curvature-based regularity.'
+    status: grounded
+    source_anchor: problems/navier-stokes/claim-ladder.md
+  - obligation_id: marvin-upstream-8e939525d3f2
+    kind: definition
+    label: replace the torus carrier block by a continuum coherent sector for curved
+      D.
+    status: grounded
+    source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+  - obligation_id: marvin-upstream-2adc051dd3a8
+    kind: definition
+    label: construct theorem-grade measure / dynamics on the global twisted continuum
+    status: grounded
+    source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+  - obligation_id: marvin-upstream-16fa51055da0
+    kind: definition
+    label: The exact sector does not define the physical carrier.
+    status: grounded
+    source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+  - obligation_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
+    kind: lemma
+    label: Keep theorem scope below the first unsafe overclaim
+    status: grounded
+    source_anchor: problems/navier-stokes/debt-map.yaml
+  - obligation_id: warrant-theorem-2.1
+    kind: lemma
+    label: Theorem 2.1 (Classical Closure)
+    status: grounded
+    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  - obligation_id: debt-d1-projected-nc-flow-well-posedness
+    kind: lemma
+    label: Prove D.1 projected NC-flow well-posedness
+    status: grounded
+    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  - obligation_id: debt-d2-global-coercive-energy-estimate
+    kind: lemma
+    label: Prove D.2 global coercive energy estimate
+    status: grounded
+    source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+  last_source_supported_step:
+    obligation_id: warrant-theorem-2.1
+    kind: theorem-warrant
+    label: Theorem 2.1 (Classical Closure)
+    status: grounded
+    source_anchor: problems/navier-stokes/theorem-to-warrant.yaml
+frontier:
+  first_unresolved_obligation: &1
+    obligation_id: debt-d1-projected-nc-flow-well-posedness
+    kind: lemma
+    label: Prove D.1 projected NC-flow well-posedness
+    status: unresolved
+    source_anchor: problems/navier-stokes/theorem-construction/d1-projected-nc-flow-well-posedness.md
+  unresolved_obligations:
+  - *1
+  - obligation_id: debt-d2-global-coercive-energy-estimate
+    kind: lemma
+    label: Prove D.2 global coercive energy estimate
+    status: unresolved
+    source_anchor: problems/navier-stokes/theorem-construction/d2-global-coercive-energy-estimate.md
+  - obligation_id: warrant-theorem-2.1
+    kind: theorem-warrant
+    label: Theorem 2.1 (Classical Closure)
+    status: bridge-pending
+    source_anchor: problems/navier-stokes/theorem-to-warrant.yaml
+  focus_source: proof-assembly.remaining_open_obligations
+  active_frontier_labels: []
+  authoritative_topics:
+  - numerical validation
+  - compactness discrete solutions
+  - historical context broader implications
+  - compactness
+  - geometric reformulation
+  - interdependencies among principles
+  - monotone functional
+  missing_authoritative_topics: []
+  boundary_rule: Everything beyond the grounded core is machine extension until it
+    survives falsification and promotion; the live package currently exposes no unresolved
+    frontier.
+  extension_policy: Machine branches may build beyond this frontier, but they must
+    remain provenance-labeled and quarantined from the frozen core.
+summary:
+  grounded_count: 8
+  bridge_pending_count: 1
+  unresolved_count: 3
+  suppressed_unresolved_count: 0
+  authoritative_gap_count: 0
+  freeze_recommended: true

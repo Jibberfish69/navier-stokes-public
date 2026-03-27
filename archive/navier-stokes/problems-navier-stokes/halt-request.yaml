@@ -1,0 +1,37 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  halt_id: halt-navier-stokes-20260318T001036Z
+severity: math-idea-request
+dedupe_key:
+  problem_id: navier-stokes
+  current_stage: debt-map-built
+  blocking_issue_signature: curvature-first-fourth-bridge-and-final-warrant-open
+attention_contract:
+  kind: missing-warrant
+  discussion_scope: math-only
+  channel_policy: user-contact-permitted-only-for-precise-math-idea
+  internal_routes_exhausted: true
+  question_count: 1
+context:
+  what_was_tried:
+  - backbone-build emitted a typed gap ticket
+  - extraction-backfill searched the ranked local source pool
+  - provenance-check and merge-judge failed to recover grounded support strong enough
+    for autonomous continuation
+  unresolved_issue: curvature-first fourth bridge and final theorem warrant remain open
+  confidence: low
+  source_evidence:
+    imported_extract_paths_checked: []
+    imported_extract_paths_with_hits: []
+    imported_extract_count_checked: 0
+    imported_extract_count_with_hits: 0
+questions:
+- What exact already-existing local source or explicit bridge lemma closes the
+  curvature-first fourth bridge strongly enough to promote the final theorem warrant
+  without silently switching to the Euclidean fallback?
+delivery:
+  inbox_item: true
+  client_notifications_if_enabled: true
+  dedupe_suppressed: false

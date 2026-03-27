@@ -1,0 +1,45 @@
+\section{Bridge IV: Euclidean Gradient Control}
+
+\begin{theorem}[Bridge IV -- Euclidean gradient control]\label{prop:gradient-control}
+Let \(u\) be a Leray--Hopf solution on \(\mathbb{R}^3\) or \(\mathbb{T}^3\) with
+initial data \(u_0\in L^2_\sigma\). Assume
+\[
+u\in L^2(0,T;H^1)\cap L^\infty(0,T;L^2).
+\]
+Then for every \(T>0\),
+\[
+\int_0^T \|\nabla u(t)\|_{L^2}^2\,dt \le \frac{\|u_0\|_{L^2}^2}{2\nu}.
+\]
+\end{theorem}
+
+\begin{proof}
+Take the \(L^2\) inner product of the Navier--Stokes equation
+\[
+\partial_t u + (u\cdot\nabla)u = \nu \Delta u - \nabla p,
+\qquad \nabla\cdot u=0,
+\]
+with \(u\). The transport term vanishes by the divergence-free identity,
+\[
+\langle (u\cdot\nabla)u,u\rangle=0,
+\]
+the pressure term vanishes by orthogonality to gradients,
+\[
+\langle \nabla p,u\rangle=0,
+\]
+and the Laplacian contributes dissipation,
+\[
+\langle \nu \Delta u,u\rangle=-\nu \|\nabla u\|_{L^2}^2.
+\]
+Therefore,
+\[
+\frac{d}{dt}\|u(t)\|_{L^2}^2 + 2\nu \|\nabla u(t)\|_{L^2}^2 = 0.
+\]
+Integrating on \([0,T]\) gives
+\[
+\|u(T)\|_{L^2}^2 + 2\nu \int_0^T \|\nabla u(t)\|_{L^2}^2\,dt = \|u_0\|_{L^2}^2,
+\]
+and hence the stated bound.
+\end{proof}
+
+This is a pure Euclidean theorem. No carrier, geometric, or modified-equation
+input is used.

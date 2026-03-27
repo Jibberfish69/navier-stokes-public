@@ -1,0 +1,75 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  formalization_id: object-formalization-navier-stokes
+  generated_at: '2026-03-21T23:32:32Z'
+  generator: system/runner/lib/object_formalization_builder.rb
+  source_theorem_packet_id: theorem-packet-navier-stokes
+  source_frontier_id: source-frontier-navier-stokes
+  source_assembly_id: proof-assembly-navier-stokes
+target:
+  obligation_id: debt-d2-global-coercive-energy-estimate
+  label: Prove D.2 global coercive energy estimate
+  kind: lemma
+formalization_packet:
+  object_id: formal-object-d2-carrier-commutator-coercive-lemma
+  object_name: carrier_commutator_coercive_lemma
+  object_role: mediating bridge object
+  theorem_role: Make the carrier-commutator coercive lemma exact enough that dependency-discharge
+    can test the H.1 bilinear hinge locally.
+  machine_boundary: This packet is machine-derived beyond the frozen core and must
+    stay quarantined until later discharge promotes it.
+  slots:
+  - slot: domain
+    status: machine-proposed
+    description: State the exact domain on which the object exists.
+  - slot: codomain
+    status: machine-proposed
+    description: State the exact codomain or output surface.
+  - slot: admissibility
+    status: machine-proposed
+    description: List the admissibility or window constraints under which the object
+      is valid.
+  - slot: invariance
+    status: machine-proposed
+    description: State what the object is invariant under and what data it forgets.
+  - slot: theorem_interface
+    status: machine-proposed
+    description: Explain exactly how this object enters the current theorem target
+      without expanding scope.
+  - slot: critical_scale_measure
+    status: machine-proposed
+    description: Specify the critical-scale quantity this object controls.
+  - slot: closure_mechanism
+    status: machine-proposed
+    description: State how this object interacts with the nonlinear term on the classical
+      equation.
+  - slot: gradient_transfer
+    status: machine-proposed
+    description: State how gradient control is supposed to follow from this object.
+  problem_hint: Keep the object on the NS theorem surface and bind it to the H.1 /
+    D.2 carrier-commutator hinge only.
+grounded_basis:
+  labels:
+  - 'A serious source-grounded four-principle route exists in the handed Navier-Stokes
+    corpus: scale barrier, monotone functional Q(t), non-Sobolev compactness, and
+    curvature-based regularity.'
+  - The exact sector does not define the physical carrier.
+  - Keep theorem scope below the first unsafe overclaim
+  - Prove D.1 projected NC-flow well-posedness
+  - Prove D.2 global coercive energy estimate
+  - Theorem 2.1 (Classical Closure)
+  obligation_ids:
+  - theorem-statement
+  - marvin-upstream-16fa51055da0
+  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - warrant-theorem-2.1
+summary:
+  formalization_ready: true
+  recommended_next_cell_type: dependency-discharge
+  recommended_next_action: Use the carrier-commutator coercive lemma packet and rerun
+    dependency-discharge on the same D.2 obligation.

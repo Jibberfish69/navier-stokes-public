@@ -1,0 +1,83 @@
+---
+version: 2
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  generated_at: '2026-03-18T16:53:39Z'
+  generator: chat2-source-forensics-reset
+status:
+  campaign_mode: stabilized
+  campaign_target: classical-3d-navier-stokes-global-regularity
+  current_posture: full-claim-reconciled-pre-submission
+  checkpoint_surface: problems/navier-stokes/external-paper/main.tex
+  primary_manuscript_surface: problems/navier-stokes/draft-v8.md
+  authoritative_lifecycle_source: problems/navier-stokes/theorem-to-warrant.yaml
+roles:
+  orchestrator:
+    owner: chat2
+    responsibility: claim boundary, sequencing, promotion gates, and final acceptance
+  bridge_builder:
+    owner: chat2
+    responsibility: turn scale-barrier, monotone, compactness, and gradient fronts into explicit theorem objects and bridge proofs
+  state_reconciler:
+    owner: chat2
+    responsibility: keep theorem-to-warrant, campaign-status, claim-ladder, and lane runtime mutually consistent
+  manuscript_architect:
+    owner: chat2
+    responsibility: keep the full-claim manuscript, theorem notes, and external paper synchronized under referee-facing revision
+  automation_loop:
+    owner: chat2
+    responsibility: keep the lane daemon from reopening stale frontiers after the package is closed
+execution_protocol:
+  source_hierarchy:
+    - problems/navier-stokes/source-forensics/master-program-analysis.md
+    - problems/navier-stokes/source-forensics/canonical-equation-ledger.md
+    - Millennium Prize Problems/Navier-Stokes/** as provenance authority for the original framework
+    - problems/navier-stokes/** as working theorem and paper surfaces
+    - system/meta/alignment/** as read-only contract surfaces
+  promotion_rule: Only chat2 may promote local theorem work into canonical Navier-Stokes artifacts.
+  fresh_agent_rule: Every live turn may use bounded subagents, but the lane must survive without them.
+phases:
+  - phase_id: manuscript-bifurcation
+    status: completed
+    outputs:
+      - problems/navier-stokes/draft-v7.md
+      - problems/navier-stokes/draft-v8.md
+  - phase_id: source-forensics-extraction
+    status: completed
+    outputs:
+      - problems/navier-stokes/source-forensics/master-source-extraction.md
+      - problems/navier-stokes/source-forensics/master-tex-corpus.md
+      - problems/navier-stokes/source-forensics/master-pdf-corpus.md
+      - problems/navier-stokes/source-forensics/master-program-analysis.md
+      - problems/navier-stokes/source-forensics/canonical-equation-ledger.md
+  - phase_id: authority-reset
+    status: completed
+    outputs:
+      - problems/navier-stokes/theorem-to-warrant.yaml
+      - problems/navier-stokes/campaign-status.yaml
+      - problems/navier-stokes/claim-ladder.md
+  - phase_id: fourth-bridge-selection
+    status: completed
+    outputs:
+      - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+      - problems/navier-stokes/theorem-construction/curvature-based-gradient-bridge-object.md
+  - phase_id: theorem-upgrade
+    status: completed
+    outputs:
+      - problems/navier-stokes/proof-assembly.yaml
+      - problems/navier-stokes/proof-obligation-matrix.yaml
+      - problems/navier-stokes/source-frontier.yaml
+  - phase_id: external-release
+    status: completed
+acceptance_gates:
+  - 'The full-claim authoring surface must remain distinct from the conditional safe-output surface.'
+  - 'No Navier-Stokes artifact may claim ready-for-submission while theorem-to-warrant still marks the main theorem conditional or any bridge unresolved.'
+  - 'The original four-principle architecture must remain explicit: scale barrier, monotone functional, non-Sobolev compactness, curvature-based regularity.'
+  - '`Q(t)` may not be collapsed into unnamed baseline energy.'
+  - 'The fourth bridge is carried by the source-faithful curvature route first.'
+  - 'If the fourth bridge is carried by a Euclidean replacement rather than curvature-based regularity, that replacement must be labeled as a fallback theorem upgrade rather than the original framework itself.'
+resolution:
+  status: completed
+  completed_at: '2026-03-24T21:49:39Z'
+  note: The live package satisfied the full-claim gates and passed the external maximum-pre-submission adversarial audit.

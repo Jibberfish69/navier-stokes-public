@@ -1,0 +1,613 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  run_id: debt-derive-navier-stokes-20260318T165844Z
+  debt_id: debt-show-that-q-t-control-is-necessary-but-not-sufficient
+target_debt:
+  debt_id: debt-show-that-q-t-control-is-necessary-but-not-sufficient
+  label: Show that `Q(t)` control is necessary but not sufficient
+  priority_rank: 3
+  monograph_status: local theorem clarification still needed
+  primary_anchors:
+  - theorem-construction/energy-baseline-bridge-lemma.md
+  - theorem-construction/monotone-functional-insufficiency-lemma.md
+  - monotone-functional-discharge-source-pack.md
+search_scope:
+  generated_at: '2026-03-18T16:58:44Z'
+  files_checked:
+    workboard-local:
+    - problems/navier-stokes/obstruction-capture.md
+    - problems/navier-stokes/spine.md
+    - problems/navier-stokes/claim-ladder.md
+    - problems/navier-stokes/draft-v6.md
+    - problems/navier-stokes/draft-v7.md
+    - problems/navier-stokes/review-log.md
+    - problems/navier-stokes/formalization-ledger.md
+    - problems/navier-stokes/theorem-packet.yaml
+    - problems/navier-stokes/proof-obligation-matrix.yaml
+    - problems/navier-stokes/source-frontier.yaml
+    - problems/navier-stokes/frozen-core.md
+    - problems/navier-stokes/extension-branches.yaml
+    - problems/navier-stokes/lemma-falsification.yaml
+    - problems/navier-stokes/promotion-verdict.yaml
+    - problems/navier-stokes/proof-assembly.yaml
+    - problems/navier-stokes/submission-verdict.yaml
+    - problems/navier-stokes/closure-audit-source-pack.md
+    - problems/navier-stokes/compactness-discharge-source-pack.md
+    - problems/navier-stokes/energy-insufficiency-source-pack.md
+    - problems/navier-stokes/gradient-discharge-source-pack.md
+    - problems/navier-stokes/gradient-transfer-coercivity-source-pack.md
+    - problems/navier-stokes/monotone-functional-discharge-source-pack.md
+    - problems/navier-stokes/nonlinear-closure-discharge-source-pack.md
+    - problems/navier-stokes/scale-barrier-source-pack.md
+    - problems/navier-stokes/scale-barrier-tail-discharge-source-pack.md
+    - problems/navier-stokes/scale-high-side-remainder-source-pack.md
+    - problems/navier-stokes/target-fidelity-discharge-source-pack.md
+    - problems/navier-stokes/merge-verdict.yaml
+    - problems/navier-stokes/paper-quality-verdict.yaml
+    - problems/navier-stokes/review-verdict.yaml
+    canonical-problem-corpus:
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/01959DDB-A98E-4BA3-A11A-B5E32F4F82EC/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/05F47385-2D73-44C2-ACF8-F774EF33AFF6/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/0635F927-8EEF-4FD5-BF0C-164182D81343/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/07E9E3E3-194F-49A6-921C-F5667989F214/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/09034A09-BA25-49F6-8FB6-C6A90ACA0EDF/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/0A67DDCA-9AF3-49BE-8483-672C892E1EA8/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/0DEBB538-3525-4F8C-8437-4FBD035E0B40/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/14EC56C7-3A95-4D72-B5C6-769BAE050160/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/1A1458A4-98D4-47E5-927D-75B2E7AF7E13/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/1AC73A31-72A3-41A1-88BE-5B7E1D040549/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/1C068D6E-9707-4C0E-A19C-3C256EC6479A/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/1E2B5521-D7A3-476A-9D0A-9FD672B13F5C/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/22247F80-E8C5-4CC9-BA43-BFC599D19D1C/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/25F7B676-0FCD-4DF2-964F-395A3302979E/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/283A710B-DE5F-4B32-9F7A-47F08B8E8C3A/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/2BF5346F-B907-46BD-937D-26893F9200D8/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/2CAE7C89-B71A-4CF9-B588-DF1C9D5E1955/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/2ECA6E42-3DCC-453A-8CA5-F044320FF16B/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/32ACB418-5A06-400E-9D47-D33602AA82D5/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/3331E0D0-AA13-4653-B607-A1CE10DE1096/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/34E08C43-0F95-488D-99CB-2195BBBB69C7/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/38933B3B-0969-4B98-B9BF-FF8E37C800AA/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/3A1AE5A1-9378-41AC-A245-514C1E618F58/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/3B21CBC8-ABFA-4C73-9FDE-3338E2A1C131/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/3BE2E524-FBE2-4E4C-BBB8-7015A3A780DB/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/3DD85496-5040-41AA-9A19-306C115FE576/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/3DE1F994-2E4A-4F7D-83C6-F2D54A3C2816/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/3EF08615-7028-4D74-8B32-72E171E13531/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/4106C7BE-5736-448C-AF81-6BD69AC89E17/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/50B8639E-096A-450F-9A40-7A62E1A39C08/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/516B86D3-BE81-4039-A7D3-B4DBCBCE1773/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/536EEE38-3356-4886-B6B9-EF5EE9B4FBD5/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/5401BB40-5680-4763-AD60-D744B682A36F/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/56417016-C1F8-4D6B-991A-8F17529FC70C/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/56421FB1-8CEF-4276-A0B0-3380A639818E/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/583B3777-9197-4603-9516-5223A86D4732/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/583B3777-9197-4603-9516-5223A86D4732/notes.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/585DF63C-DEBA-4881-9436-8AEDFAE254DA/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/585DF63C-DEBA-4881-9436-8AEDFAE254DA/notes.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/59BF435A-232A-4D54-BCD4-42F186A8C7CF/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/5D6E24A0-1CA1-4370-A4C7-A6C0B79D9E8C/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/5D8E0756-3F6F-4987-9145-6E701AEB2F5B/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/5E22A631-D1E0-4ACD-8DD8-956AD9D3B702/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/63A04606-91B3-40DB-BCA7-68D34E6EFDF5/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/6D0EF5BC-051B-456E-8C1E-71BA1B130BA1/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/6DA3324E-530B-4B9B-93EC-763F87C25D00/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/6FDDE308-B6F7-4DE9-87EE-C555B6DCAFCD/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/7180274A-A764-4EE6-B878-BC76E18C105A/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/7182E87F-7F90-4143-B2F6-46984140486D/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/781ACB57-37E2-4927-99B8-DFD1D6785932/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/7ABBA089-833C-4A27-82D6-34C5F0B858F9/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/7B567107-6479-4738-9753-A408C9BACCAF/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/7C6A5CF9-DF49-44E4-803E-21290A6F8012/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/807F5B29-A760-492A-8C3B-427499C811EF/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/840DAD6E-BA31-47D6-ABC2-0BF52F9BBA2B/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/88C7FD9F-FFC7-46FB-80C2-F9C95320D431/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/8BD52013-34A8-4BB8-9949-68E924397D3B/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/8F8FB976-2A48-4916-A2B2-DE4260CF807A/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/93074EB9-DE26-4EF9-AA17-73C46D58BA90/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/96325AC7-2C87-4827-A8DF-93585DD5777D/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/96DB1647-D83F-4215-A304-07255B4000C7/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/98A4BBC2-8817-430A-BC25-4CA8C3359A73/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/9B213D7E-0264-4371-A65E-57EA661E4F0F/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/A09F929F-B49E-4D39-AD15-CB4B2E6132AB/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/A18891AE-DCB7-49B8-B8A2-21DC94861EAD/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/AD5A950A-4FB6-448E-BAFD-06D01A94FB2F/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/AF621794-7D82-4A10-A93C-092DDCDFFBF4/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/B0CD9500-4D6E-4FE0-AE96-6DFC04975CA7/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/B1A3F8BD-741C-4128-971C-FF37445A5CD5/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/B478BFC5-CE63-4B7C-86FB-9739CFC58710/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/B670E26B-2CFC-4870-936E-C3A94D4242A4/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/B808BCAD-8BCD-440D-ACD7-1C502CEBEF94/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/BD51CEFB-04E0-4CC3-9DCA-728DE9DA40A9/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/BFA9C076-FB33-4024-B68C-78CE74A32B4F/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/C2BB7606-193E-46AB-A32E-5381E2EAD08F/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/C3759477-45A9-4836-8D42-4143D53C22CA/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/CA2F1450-D23F-42D7-B8B3-8DE3411C0090/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/CA9A9D3E-A0C0-4D75-9E11-DA3568C38C3C/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/CAEC143A-CA50-4EFB-875A-6AF3B056A119/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/CC53D2C1-65CB-40E5-AD96-C571D0946724/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/CEEBA583-25B7-4CBC-964C-1D8118AE1D68/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/CEFA169B-3580-4EDA-9450-63BA23ADD1E2/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/D21BA91E-2D0F-4F85-AFEC-807FB3C625EE/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/D4509A7C-2354-48F1-9908-9439E1F7E866/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/D6A13B52-F190-4530-9C60-7D4C6DCDE628/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/D765AB88-FA38-4BC1-A382-5F8BD522716F/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/E7DB0738-0BBB-4E6B-B7FB-64227742B570/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/E8AD5C94-F2A4-4BCC-A854-E672C9BDECE8/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/E9A2124A-670D-449C-B193-997D54DFCCFF/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/EA2005C0-3190-4417-8697-845A97D365E3/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/EAA594B5-0C7F-417A-9BF4-BBBED9F4381B/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/EAC1A67A-FFE2-40CB-8E2C-DBFBB8963E51/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/EB4BBF2C-22F0-4B17-8064-ABF88AB2FF4F/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/EB8EC152-46D4-4C4C-8EF3-1AFE5AAE6298/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/EF499B1C-41AE-4ECF-8D8B-9130210E6EB7/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/F2968F47-5EA1-4A63-8BA6-692417090906/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/F3AFB259-EAF0-4413-8466-484C3829A913/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/F64228FD-29DA-4C83-83C0-074D2917DC19/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/F91DAC04-7547-4945-A851-D1FF12D21E1F/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/FCD6FA98-CD7A-4507-8EE6-2CF3BA529AFE/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/Data/FEFF1BE0-0533-4736-8DCC-69D77CDEADA7/content.rtf
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Files/version.txt
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Settings/recents.txt
+    - Millennium Prize Problems/Navier-Stokes/Projects/ALL OF CHATGPTS MESSAGES.scriv/Snapshots/B478BFC5-CE63-4B7C-86FB-9739CFC58710.snapshots/2006-08-23-19-33-44+0100.rtf
+    - Millennium Prize Problems/Navier-Stokes/TeX/A Framework Toward the Millennium
+      Prize Problem on the Navier–Stokes Equations.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/A Rigorous Theoretical Framework
+      for Global Regularity of the Navier–Stokes Equations.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/A Uniﬁed Framework for the Global
+      Regularity of 3D Navier–Stokes EquationsMoreover, the framework oﬀers a transferable
+      methodology for stabilizing other complex PDE system.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/A_Framework_Toward_the_Millennium_Prize_Problem_on_the_Navier-Stokes_Equations.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/A_Rigorous_Theoretical_Framework_for_Global_Regularity_of_the_Navier-Stokes_Equations
+      (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/A_Rigorous_Theoretical_Framework_for_Global_Regularity_of_the_Navier-Stokes_Equations.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/A_Uniﬁed_Framework_for_the_Global_Regularity_of_3D_Navier-Stokes_EquationsMoreover,_the_framework_oﬀers_a_transferable_methodology_for_stabilizing_other_complex_PDE_system
+      (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/A_Uniﬁed_Framework_for_the_Global_Regularity_of_3D_Navier-Stokes_EquationsMoreover,_the_framework_oﬀers_a_transferable_methodology_for_stabilizing_other_complex_PDE_system.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Chapter 11 Mapping Morality to Mathematics
+      - Extending the Morphic Framework.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Compactness Proof for Discrete Navier–Stokes
+      Solutions.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Compactness_Proof_for_Discrete_Navier-Stokes_Solutions
+      (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Compactness_Proof_for_Discrete_Navier-Stokes_Solutions.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Comparisons_to_Known_Results.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Conclusion-_Smooth_Solutions_for_All_Time.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Disseration 1 - first draft (TOE).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Energy Boundedness via Q(t) - A
+      Reﬁned Framework for Global Regularity.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Energy Boundedness via Q(t) for
+      Global Regularity.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Energy_Boundedness_via_Q(t)_-_A_Reﬁned_Framework_for_Global_Regularity
+      (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Energy_Boundedness_via_Q(t)_-_A_Reﬁned_Framework_for_Global_Regularity.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Energy_Boundedness_via_Q(t)_for_Global_Regularity
+      (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Energy_Boundedness_via_Q(t)_for_Global_Regularity.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/FINAL PROOF 20.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/General Framework for Partial Diﬀerential
+      Equations (PDEs).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/General_Framework_for_Partial_Diﬀerential_Equations_(PDEs)
+      (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/General_Framework_for_Partial_Diﬀerential_Equations_(PDEs).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Global Regularity Framework for
+      Arbitrary Initial Data in L2.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Global Regularity for the 3D Navier–Stokes
+      Equations.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Global Regularity of the 3D Navier–Stokes
+      Equations.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Global_Regularity_Framework_for_Arbitrary_Initial_Data_in_L2
+      (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Global_Regularity_Framework_for_Arbitrary_Initial_Data_in_L2.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Global_Regularity_for_the_3D_Navier-Stokes_Equations
+      (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Global_Regularity_for_the_3D_Navier-Stokes_Equations.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Global_Regularity_of_the_3D_Navier-Stokes_Equations
+      (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Global_Regularity_of_the_3D_Navier-Stokes_Equations.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Gradient Control Through Geometric
+      Arguments.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Gradient_Control_Through_Geometric_Arguments.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Mild Initial Conditions for Global
+      Regularity.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Mild_Initial_Conditions_for_Global_Regularity
+      (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Mild_Initial_Conditions_for_Global_Regularity.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/PROOF 1.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/PROOF 3.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/PROOF 4.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/PROOF 5.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Proof of Global Regularity for Morphic-Regularized
+      Navier-Stokes Equations.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Proof of Smoothness for Morphic-Regularized
+      Navier-Stokes Equations.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Proof_of_Global_Regularity_for_Morphic-Regularized_Navier-Stokes_Equations
+      (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Proof_of_Global_Regularity_for_Morphic-Regularized_Navier-Stokes_Equations.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Rigorous Mapping Between Discrete
+      and Continuous Representations of the Navier–Stokes Equations and Proof of Global
+      Smoothness.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discrete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_Global_Smoothness
+      (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discrete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_Global_Smoothness.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Section 5- Curvature-Based Regularity.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Section 6- Interdependencies Among
+      Principles.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Section_2-_Scale-Barrier_Principle.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Section_3-_Monotone_Functional.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Section_4-_Non-Sobolev_Compactness.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Section_5-_Curvature-Based_Regularity.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Section_6-_Interdependencies_Among_Principles.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Strong_Convergence_in_L2_Using_Compactness.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Synergistic_Framework_for_Decision_Structures_and_Computational_Limitations_in_Large_Language_Models.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Toward Global Regularity for Navier–Stokes
+      Equations.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Toward_Global_Regularity_for_Navier-Stokes_Equations
+      (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Toward_Global_Regularity_for_Navier-Stokes_Equations.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Towards a Proof of Global Regularity
+      for the Navier–Stokes Equations.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Towards_a_Proof_of_Global_Regularity_for_the_Navier-Stokes_Equations
+      (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Towards_a_Proof_of_Global_Regularity_for_the_Navier-Stokes_Equations.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Unifying_Stability_in_PDEs-_A_Single_Invariance_Perspective.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Uniﬁed Invariance in PDE Stability-
+      Dissolving the Cyclical Framework.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Uniﬁed_Invariance_in_PDE_Stability-_Dissolving_the_Cyclical_Framework
+      (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Uniﬁed_Invariance_in_PDE_Stability-_Dissolving_the_Cyclical_Framework.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Untitled 16.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Untitled 17.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Untitled 18.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Untitled 19.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Untitled 20.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Untitled 21.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Untitled 22.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Untitled 24.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Untitled 60.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Untitled-3.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/Untitled56.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/cmi_template (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/cmi_template (3).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/cmi_template (4).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/cmi_template (5).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/cmi_template.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/front3.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/intro.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/main.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/navier stokes - step 5.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/navier stokes -step 3.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/navier stokes step 1.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/navier stokes step 4.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/navier stokes step 5.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/navier-stokes-step2.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/navier_stokes_proo2f (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/navier_stokes_proo2f.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/navier_stokes_proof (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/navier_stokes_proof.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/navier_stokes_proof3 (2).tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/navier_stokes_proof3.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/navierstokes theorem proof - second
+      final draft.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/proof 2.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/proof 21.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/proof30.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/proof31.tex
+    - Millennium Prize Problems/Navier-Stokes/TeX/step 1.tex
+    - Millennium Prize Problems/Navier-Stokes/Text/extracted_navier_stokes.txt
+    - Millennium Prize Problems/Navier-Stokes/Text/please continue from where we left
+      off - remember that the ERROR(LHS, RHS is....rtf
+    conversation-direct:
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/001-docker-build-troubleshooting-guide-67b8c1a7-44d.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/002-ethical-dilemma-in-proofs-66f87594-8c9.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/003-yangmills-66e9b32c-879.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/004-blowup-contradiction-and-dissipation-677ea5ee-9ef.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/005-navier-stokes-convergence-proof-6771a8b6-c25.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/006-navier-stokes-proof-framework-67840e84-a0b.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/007-autogpt-latex-integration-67c87050-ae4.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/008-p-vs-np-conjecture-improvement-67020d2f-386.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/009-outline-discussion-summary-670054dd-8dd.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/010-ns-framework-cmi-expansion-67853a28-9fa.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/011-handling-elliptic-curves-66fc71a5-389.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/012-navier-stokes-solution-dispute-6776db09-513.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/013-blowup-time-argument-677ec3b8-a86.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/014-clock-angle-formula-66e46054-dea.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/015-morphic-regularization-for-ns-67742914-f32.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/016-uniform-bounds-and-convergence-6771b6e7-02e.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/017-navier-stokes-proof-summary-66e999bc-5a5.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/018-workflow-enhancement-plan-6723f8e3-2d4.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/019-3d-navier-stokes-proof-summary-67849c06-328.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/020-proof-writing-assistance-upgrade-6787ebc1-6b1.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/021-document-automation-enhancements-67267dcb-d4e.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/022-navier-stokes-proof-feedback-6776d84a-2c2.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/023-navier-stokes-regularity-framework-6784022c-310.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/024-millennium-prize-problems-document-672950fb-cdd.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/025-unifying-forces-and-problems-66df7794-cf6.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/026-energy-dissipation-lemma-proof-678acb0a-13f.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/027-submission-outline-review-66fd7104-ad9.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/028-navier-stokes-method-summaries-66f6e142-858.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/029-leveraging-ai-for-document-completion-6717d6cf-541.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/030-proof-refinement-strategy-677597b2-f5b.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/031-qhmf-solves-ymg-69400e59-ad7.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/032-millennium-prize-problems-inquiry-67080a5f-8fa.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/033-blowup-contradiction-framework-analysis-67788a03-5c8.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/034-collaboration-framework-refresh-671bc72f-c88.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/035-gpt-automation-task-execution-67a24733-78b.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/036-document-creation-ai-conversation-6716e846-c04.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/037-dimensionality-from-spectral-data-693affb9-f59.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/038-quick-od-advancement-strategy-672151a4-221.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/039-automorphic-equations-exploration-66e0c816-b96.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/040-unified-physics-theory-discussion-66e44feb-12b.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/041-json-correction-request-67296c42-278.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/042-black-holes-mhf-and-mpps-670d8eaf-2cf.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/043-1-7-to-volume-2-re-org-69501e97-584.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/044-document-compilation-request-67212094-8ba.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/045-od-and-coding-integration-678d2449-f77.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/046-toe-and-millennium-problems-report-6717d252-d9e.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/047-agentic-plan-optimization-678a55fe-d8b.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/048-document-automation-feasibility-67793341-35f.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/049-synthesizing-dissertation-outline-b144eba8-4bc.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/050-latex-compilation-issues-67c84bd1-ecf.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/051-bsdc-boolean-calculus-analysis-66f052ca-8de.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/052-toe-and-millennium-prize-problems-6717da81-437.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/053-compare-outline-and-toc-68d80302-b9c.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/054-mhmf-qhmf-and-mpp-overview-6712a87f-cbe.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/055-millennium-problems-recap-66f57856-183.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/056-framework-development-summary-66df5624-134.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/057-accusations-and-bulk-mass-670f0239-64c.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/058-refinement-of-dual-spacetime-677ac1bf-36e.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/059-01-dual-spacetime-refinement-qhmf-677ab4ce-570.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/060-python-script-evaluation-671a88f0-3d0.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/061-project-progress-and-clarity-67cc57f5-989.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/062-sagemath-elliptic-curve-errors-66f18b09-e4b.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/063-navier-stokes-proof-framework-678160c7-b01.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/064-dimension-limit-in-monograph-69653164-802.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/065-dual-spacetime-framework-677ab3ee-ff7.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/066-authorial-synthesis-challenge-69715568-a5f.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/067-email-request-toe-meeting-67d2d022-9f3.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/068-mpp-toe-progress-and-publishing-68178ff7-5a1.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/069-audit-monograph-structure-695064f9-bf4.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/070-hermit-crab-space-query-677ab9c7-a3f.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/071-universal-pde-framework-67858442-2a8.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/072-qhmf-geometry-and-dimensionality-6866862e-397.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/073-spacetime-construction-discussion-68ae2d8b-ab1.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/074-resulting-c-structure-rewrite-697d4b3f-aca.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/075-ontological-or-epistemological-distinction-6942fd39-433.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/076-dirac-operator-placement-discussion-686586df-868.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/077-monograph-drafting-plan-68c1cea3-7eb.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/078-anisotropic-regularization-in-fluids-6779d12e-460.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/079-ns-proof-validation-mpp-678d3428-069.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/080-monograph-rewriting-plan-68558ccf-de2.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/081-navier-stokes-proof-finalization-679b8ae4-494.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/082-qhmf-ideas-for-essay-67b28854-dab.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/083-corollary-proof-and-faithfulness-6977c7af-8d9.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/084-fractal-corrections-and-dynamics-677c1132-4e6.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/085-mpp-discussion-680d32f3-7e4.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/086-monograph-structuring-advice-697b94a0-053.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/087-scr-in-volume-3-68a203cc-218.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/088-automation-vs-manual-drafting-678410e2-ac1.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/089-formalizing-continuity-in-spacetime-68c8a71d-366.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/090-latex-document-revision-67c5f795-73a.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/091-od-discussion-with-stu-6838fffa-f29.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/092-qhmf-theory-clarification-68535a64-6e0.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/093-qhmf-vol-1-outline-68571bde-804.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/094-theory-of-everything-development-6717fe19-6ad.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/095-exact-commutation-examples-68a20574-e16.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/096-math-first-cmi-structure-672642e6-91b.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/097-5d-ads-cft-interpretation-69555579-ce3.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/098-navier-stokes-code-correction-66f9bbd0-92b.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/099-document-title-suggestion-672e3e75-8f5.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/100-millennium-prize-problems-overview-670d3a84-354.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/101-qhmf-3-0-improvements-685828aa-a7b.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/102-qhmf-hilbert-modules-justification-685991ce-bc9.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/103-solving-millennium-prize-problems-66f49174-ba6.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/104-mpps-solution-methods-682fccc5-ddb.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/105-nowhere-measurable-ideal-explanation-68fe4d10-b39.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/106-overall-document-structure-draft-671fe5d7-c86.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/107-pde-workflow-strategy-6776ec89-4be.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/108-refactor-gpt-automation-code-67226c1c-262.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/109-automating-writing-transformation-696fbebb-649.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/110-dirac-operator-variation-69093466-a3a.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/111-document-upload-inquiry-6869ac01-a4e.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/112-epistemology-and-ontology-review-690d1309-8c7.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/113-epistemology-vs-ontology-rewrite-690e3403-1eb.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/114-explain-sections-3-3-3-5-693c3f50-2c3.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/115-item-9-validity-694d51f4-00d.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/116-keep-responses-tight-696fcf42-bea.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/117-mindmap-relationship-analysis-68d41d29-ec7.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/118-monograph-completion-strategy-694dcc5d-44d.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/119-monograph-core-questions-694aa3ec-05b.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/120-monograph-questions-695970bd-ffb.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/121-monograph-structural-issues-69604ec5-837.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/122-monograph-update-confirmation-695d826a-c67.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/123-non-commutative-operator-algebras-69837ab9-73f.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/124-qhmf-dirac-operator-derivation-6866e255-1b4.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/125-reviewing-document-issues-6969525f-eee.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/126-rewriting-monograph-rigorously-68d0686f-28c.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/127-write-section-4-continuation-6896825e-c5f.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/128-writing-monograph-section-3-6-692de78c-3ac.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/129-anger-expression-68a8f1fd-31f.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/130-main-tex-summary-request-685dae6a-812.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/131-check-file-visibility-689cba80-7b4.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/132-monograph-framework-development-685615f9-ed2.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/133-universe-expansion-explanation-68ac8613-c6e.md
+    conversation-indirect:
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/indirect/134-matter-in-qhmf-topology-6851d261-9a4.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/indirect/135-meta-temporal-unified-field-theory-677d89a7-c08.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/indirect/136-qhmf-emergent-spacetime-overview-683cc3d5-19f.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/indirect/137-reclaiming-mpp-status-681b7885-276.md
+    conversation-speculative:
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/speculative/138-file-setup-confirmation-68b89e22-c75.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/speculative/139-od-content-summary-682220bd-a01.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/speculative/140-project-folder-update-68b89a3a-311.md
+    - Millennium Prize Problems/Navier-Stokes/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/speculative/141-theory-weaknesses-discussion-68828c49-ab0.md
+source_scope:
+  previous_evidence_paths: []
+  current_evidence_paths:
+  - problems/navier-stokes/claim-ladder.md
+  - problems/navier-stokes/spine.md
+  - problems/navier-stokes/formalization-ledger.md
+  - problems/navier-stokes/monotone-functional-discharge-source-pack.md
+  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/obstruction-capture.md
+  new_evidence_paths:
+  - problems/navier-stokes/claim-ladder.md
+  - problems/navier-stokes/spine.md
+  - problems/navier-stokes/formalization-ledger.md
+  - problems/navier-stokes/monotone-functional-discharge-source-pack.md
+  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/obstruction-capture.md
+  novel_support_found: true
+  source_sufficiency: sufficient
+search_terms:
+- theorem-construction/energy-baseline-bridge-lemma.md
+- theorem-construction/monotone-functional-insufficiency-lemma.md
+- monotone-functional-discharge-source-pack.md
+- Q(t)
+- show control
+- control necessary
+- necessary sufficient
+- show
+- control
+- necessary
+- sufficient
+- source-forensics/master-program-analysis.md
+- source-forensics/canonical-equation-ledger.md
+- bridge-memos/monotone-functional.md
+- show original
+- original framework
+evidence_hits:
+- source_path: problems/navier-stokes/claim-ladder.md
+  source_group: workboard-local
+  matched_terms:
+  - theorem-construction/energy-baseline-bridge-lemma.md
+  - theorem-construction/monotone-functional-insufficiency-lemma.md
+  - monotone-functional-discharge-source-pack.md
+  - show
+  - control
+  - necessary
+  - sufficient
+  - source-forensics/master-program-analysis.md
+  - source-forensics/canonical-equation-ledger.md
+  - bridge-memos/monotone-functional.md
+  - original framework
+  matched_origins:
+  - primary-anchor
+  - target-label
+  - related-anchor
+  - related-label
+  hit_kind: primary-anchor-exact
+  excerpt_note: 'trol is necessary but not sufficient | `obstruction-capture: Core
+    Mechanism`, `spine.4`, `theorem-construction/energy-baseline-bridge-lemma.md`,
+    `theorem-construction/monotone-functional-package.md` | route premise | shows
+    why the monotone bridge is infrastructure, not closure by itself | |'
+- source_path: problems/navier-stokes/spine.md
+  source_group: workboard-local
+  matched_terms:
+  - theorem-construction/energy-baseline-bridge-lemma.md
+  - theorem-construction/monotone-functional-insufficiency-lemma.md
+  - monotone-functional-discharge-source-pack.md
+  - control
+  - necessary
+  - sufficient
+  - source-forensics/master-program-analysis.md
+  - source-forensics/canonical-equation-ledger.md
+  - original framework
+  matched_origins:
+  - primary-anchor
+  - target-label
+  - related-anchor
+  - related-label
+  hit_kind: primary-anchor-exact
+  excerpt_note: rch-Consolidation/problems/navier-stokes/monotone-functional-discharge-source-pack.md)
+    - [theorem-construction/energy-baseline-bridge-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/energy-baseline-bridge-lemma.md)
+- source_path: problems/navier-stokes/formalization-ledger.md
+  source_group: workboard-local
+  matched_terms:
+  - theorem-construction/energy-baseline-bridge-lemma.md
+  - theorem-construction/monotone-functional-insufficiency-lemma.md
+  - monotone-functional-discharge-source-pack.md
+  - show
+  - control
+  - necessary
+  - sufficient
+  - source-forensics/master-program-analysis.md
+  - source-forensics/canonical-equation-ledger.md
+  - bridge-memos/monotone-functional.md
+  - original framework
+  matched_origins:
+  - primary-anchor
+  - target-label
+  - related-anchor
+  - related-label
+  hit_kind: primary-anchor-exact
+  excerpt_note: ntrol is necessary but not sufficient | local theorem clarification
+    still needed | yes | `theorem-construction/energy-baseline-bridge-lemma.md`, `theorem-construction/monotone-functional-insufficiency-lemma.md`,
+    `monotone-functional-discharge-source-pack.md` | | Localize the cascade burden
+    a
+- source_path: problems/navier-stokes/monotone-functional-discharge-source-pack.md
+  source_group: workboard-local
+  matched_terms:
+  - theorem-construction/energy-baseline-bridge-lemma.md
+  - theorem-construction/monotone-functional-insufficiency-lemma.md
+  - control
+  - necessary
+  - sufficient
+  - source-forensics/master-program-analysis.md
+  - source-forensics/canonical-equation-ledger.md
+  - bridge-memos/monotone-functional.md
+  - original framework
+  matched_origins:
+  - primary-anchor
+  - target-label
+  - related-anchor
+  - related-label
+  hit_kind: primary-anchor-exact
+  excerpt_note: roblems/navier-stokes/theorem-construction/monotone-functional-insufficiency-lemma.md)
+    - [theorem-construction/energy-baseline-bridge-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/energy-baseline-bridge-lemma.md)
+- source_path: problems/navier-stokes/proof-obligation-matrix.yaml
+  source_group: workboard-local
+  matched_terms:
+  - theorem-construction/energy-baseline-bridge-lemma.md
+  - show
+  - control
+  - necessary
+  - sufficient
+  - source-forensics/master-program-analysis.md
+  - source-forensics/canonical-equation-ledger.md
+  - original framework
+  matched_origins:
+  - primary-anchor
+  - target-label
+  - related-anchor
+  - related-label
+  hit_kind: primary-anchor-exact
+  excerpt_note: 'ckage.md - problems/navier-stokes/obstruction-capture.md - problems/navier-stokes/theorem-construction/energy-baseline-bridge-lemma.md
+    support_score: 331 signal_strength: strong evidence_hits: - path: problems/navier-stokes/frozen-core.md
+    line: 27 score: 7'
+- source_path: problems/navier-stokes/obstruction-capture.md
+  source_group: workboard-local
+  matched_terms:
+  - control
+  - necessary
+  - sufficient
+  - source-forensics/master-program-analysis.md
+  - source-forensics/canonical-equation-ledger.md
+  - original framework
+  matched_origins:
+  - target-label
+  - related-anchor
+  - related-label
+  hit_kind: related-anchor-exact
+  excerpt_note: "## The Real Obstruction - The original obstruction was finite-time
+    singularity through uncontrolled transfer of energy or enstrophy into arbitrarily
+    small scales. - In corpus terms, the pressure point was the gap between global
+    weak existence and"
+result:
+  support_strength: strong
+  disposition: localized-support
+  rationale: Local workboard and anchor-matched sources were found for this debt item,
+    so it is localized strongly enough to leave debt-derive.
+  unresolved_points: []

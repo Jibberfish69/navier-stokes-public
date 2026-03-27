@@ -1,0 +1,211 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{hyperref}
+
+\title{Proof of Smoothness for Morphic-Regularized Navier-Stokes Equations}
+\author{Groby}
+\date{September 28, 2024}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This document provides a proof of the global existence and uniqueness of smooth solutions to a regularized version of the Navier-Stokes equations, referred to as the Morphic-Regularized Navier-Stokes Equations. By introducing a regularization term through the morphic function, we address the issue of singularities in the classical Navier-Stokes equations, ensuring the smoothness of the velocity field for all time. This approach offers a potential solution to one of the Millennium Prize Problems, namely, the existence and smoothness of solutions to the Navier-Stokes equations in three dimensions.
+\end{abstract}
+
+\section{Introduction}
+The Navier-Stokes equations describe the motion of incompressible fluid flows and are given by:
+
+\begin{equation}
+\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\nabla p + \nu \Delta \mathbf{u} + \mathbf{f},
+\end{equation}
+
+\begin{equation}
+\nabla \cdot \mathbf{u} = 0,
+\end{equation}
+
+where:
+
+\begin{itemize}
+    \item \(\mathbf{u}(\mathbf{x}, t)\) is the velocity field,
+    \item \(p(\mathbf{x}, t)\) is the pressure,
+    \item \(\nu > 0\) is the kinematic viscosity,
+    \item \(\mathbf{f}(\mathbf{x}, t)\) is an external force.
+\end{itemize}
+
+The main challenge is to prove the global existence and smoothness of solutions to these equations in three dimensions, which remains an open problem. In this work, we introduce a regularization term via the morphic function to address the issue of singularities.
+
+\section{Morphic-Regularized Navier-Stokes Equations}
+To ensure the smoothness of solutions, we modify the classical Navier-Stokes equations by introducing a regularization term:
+
+\begin{equation}
+\frac{\partial \mathbf{u}^\epsilon}{\partial t} + (\mathbf{u}^\epsilon \cdot \nabla)\mathbf{u}^\epsilon = -\nabla p^\epsilon + \nu \Delta \mathbf{u}^\epsilon - \epsilon \nabla \cdot (\nabla \mathbf{u}^\epsilon \otimes \nabla \mathbf{u}^\epsilon) + \mathbf{f},
+\end{equation}
+
+\begin{equation}
+\nabla \cdot \mathbf{u}^\epsilon = 0,
+\end{equation}
+
+with initial conditions:
+
+\begin{equation}
+\mathbf{u}^\epsilon(x, 0) = \mathbf{u}_0(x),
+\end{equation}
+
+where:
+
+\begin{itemize}
+    \item \(\mathbf{u}^\epsilon\) is the regularized velocity field,
+    \item \(p^\epsilon\) is the regularized pressure field,
+    \item \(\epsilon > 0\) is a small regularization parameter,
+    \item \(\nabla \cdot (\nabla \mathbf{u}^\epsilon \otimes \nabla \mathbf{u}^\epsilon)\) represents the regularization term introduced by the morphic function.
+\end{itemize}
+
+\subsection{Interpretation of the Regularization Term}
+The regularization term \(-\epsilon \nabla \cdot (\nabla \mathbf{u}^\epsilon \otimes \nabla \mathbf{u}^\epsilon)\) introduces additional dissipation, particularly affecting higher-frequency components of the velocity field. This term helps to prevent the formation of singularities, ensuring that the velocity field remains smooth over time.
+
+\section{Function Spaces and Preliminaries}
+We work within the framework of Sobolev spaces suitable for incompressible flows.
+
+\subsection{Function Spaces}
+Let \(\Omega = \mathbb{R}^3\) or a periodic domain \(\Omega = [0, L]^3\). We define:
+
+\begin{itemize}
+    \item \(L^2(\Omega)\): Space of square-integrable functions.
+    \item \(H^s(\Omega)\): Sobolev spaces of order \(s \geq 0\), consisting of functions whose derivatives up to order \(s\) are in \(L^2(\Omega)\).
+    \item \(\mathbf{H}^s_{\text{div}}(\Omega)\): Vector functions in \(H^s(\Omega)\) that are divergence-free, i.e., \(\nabla \cdot \mathbf{u} = 0\).
+\end{itemize}
+
+\subsection{Initial and Boundary Conditions}
+We consider initial data \(\mathbf{u}_0 \in \mathbf{H}^s_{\text{div}}(\Omega)\) with \(s > \frac{d}{2} + 1\) (where \(d=3\)) to ensure sufficient regularity. The boundary conditions depend on the domain:
+
+\begin{itemize}
+    \item \textbf{Periodic Domain:} Functions are periodic in space.
+    \item \textbf{Whole Space:} Functions decay sufficiently fast at infinity.
+\end{itemize}
+
+\section{Existence and Uniqueness of Smooth Solutions}
+Our goal is to prove that for each \(\epsilon > 0\), there exists a unique global smooth solution \(\mathbf{u}^\epsilon\) to the regularized equations.
+
+\subsection{Local Existence}
+Using standard results for parabolic partial differential equations, we obtain local existence:
+
+\begin{theorem}[Local Existence]
+Given initial data \(\mathbf{u}_0 \in \mathbf{H}^s_{\text{div}}(\Omega)\) with \(s > \frac{d}{2} + 1\), there exists a time \(T > 0\) such that a unique solution \(\mathbf{u}^\epsilon\) to the regularized equations exists on \([0, T)\) satisfying
+\[
+\mathbf{u}^\epsilon \in C([0, T); \mathbf{H}^s_{\text{div}}(\Omega)) \cap C^1([0, T); \mathbf{H}^{s - 2}_{\text{div}}(\Omega)).
+\]
+\end{theorem}
+
+\subsection{Energy Estimates}
+To extend the local solution globally, we establish \textit{a priori} energy estimates to prevent finite-time blow-up.
+
+\subsubsection{Basic Energy Estimate}
+Taking the \(L^2\)-inner product of the regularized equation with \(\mathbf{u}^\epsilon\), we obtain:
+
+\[
+\left\langle \frac{\partial \mathbf{u}^\epsilon}{\partial t}, \mathbf{u}^\epsilon \right\rangle + \left\langle (\mathbf{u}^\epsilon \cdot \nabla)\mathbf{u}^\epsilon, \mathbf{u}^\epsilon \right\rangle = -\left\langle \nabla p^\epsilon, \mathbf{u}^\epsilon \right\rangle + \nu \left\langle \Delta \mathbf{u}^\epsilon, \mathbf{u}^\epsilon \right\rangle - \epsilon \left\langle \nabla \cdot (\nabla \mathbf{u}^\epsilon \otimes \nabla \mathbf{u}^\epsilon), \mathbf{u}^\epsilon \right\rangle + \left\langle \mathbf{f}, \mathbf{u}^\epsilon \right\rangle.
+\]
+
+Using the properties of divergence-free fields and integration by parts:
+
+\begin{itemize}
+    \item \(\left\langle (\mathbf{u}^\epsilon \cdot \nabla)\mathbf{u}^\epsilon, \mathbf{u}^\epsilon \right\rangle = 0\),
+    \item \(\left\langle \nabla p^\epsilon, \mathbf{u}^\epsilon \right\rangle = 0\),
+    \item \(\nu \left\langle \Delta \mathbf{u}^\epsilon, \mathbf{u}^\epsilon \right\rangle = -\nu \|\nabla \mathbf{u}^\epsilon\|_{L^2}^2\),
+    \item \(\epsilon \left\langle \nabla \cdot (\nabla \mathbf{u}^\epsilon \otimes \nabla \mathbf{u}^\epsilon), \mathbf{u}^\epsilon \right\rangle = \epsilon \|\nabla \mathbf{u}^\epsilon\|_{L^2}^2\).
+\end{itemize}
+
+Assuming \(\mathbf{f} = \mathbf{0}\) for simplicity, the energy equation becomes:
+
+\[
+\frac{1}{2} \frac{d}{dt} \|\mathbf{u}^\epsilon\|_{L^2}^2 + (\nu - \epsilon) \|\nabla \mathbf{u}^\epsilon\|_{L^2}^2 = 0.
+\]
+
+\subsubsection{Higher-Order Energy Estimates}
+To control higher Sobolev norms, we differentiate the equations and derive estimates in \(H^s\) norms. Applying \(D^\alpha\) (multi-index of order \(|\alpha| \leq s\)) to the regularized equations and taking the \(L^2\)-inner product with \(D^\alpha \mathbf{u}^\epsilon\):
+
+\[
+\frac{1}{2} \frac{d}{dt} \|D^\alpha \mathbf{u}^\epsilon\|_{L^2}^2 + (\nu - \epsilon) \|\nabla D^\alpha \mathbf{u}^\epsilon\|_{L^2}^2 \leq C \|\mathbf{u}^\epsilon\|_{H^s} \|\nabla \mathbf{u}^\epsilon\|_{H^{s-1}} \|\mathbf{u}^\epsilon\|_{H^s},
+\]
+
+where \(C\) depends on \(s\) and \(\epsilon\).
+
+\subsection{Global Existence}
+We use a continuation argument:
+
+\begin{itemize}
+    \item \textbf{Assumption:} Suppose the maximal existence time \(T^* < \infty\) and \(\|\mathbf{u}^\epsilon(t)\|_{H^s} \to \infty\) as \(t \to T^*\).
+    \item \textbf{Differential Inequality:} From the energy estimate,
+    
+    \[
+    \frac{d}{dt} \|\mathbf{u}^\epsilon\|_{H^s} \leq C \|\mathbf{u}^\epsilon\|_{H^s}^2.
+    \]
+    
+    \item \textbf{Integration:} Integrating yields:
+    
+    \[
+    \|\mathbf{u}^\epsilon(t)\|_{H^s} \leq \frac{\|\mathbf{u}_0\|_{H^s}}{1 - C \|\mathbf{u}_0\|_{H^s} t}.
+    \]
+    
+    This suggests that the solution remains bounded for \(t < T_{\text{max}} = \frac{1}{C \|\mathbf{u}_0\|_{H^s}}\). However, due to the additional dissipation from the regularization term, we can extend this solution globally. The dissipative terms help control the growth, allowing us to extend the solution globally.
+\end{itemize}
+
+\subsection{Uniqueness of Solutions}
+Let \(\mathbf{u}^\epsilon\) and \(\mathbf{v}^\epsilon\) be two solutions with the same initial data, and define \(\mathbf{w} = \mathbf{u}^\epsilon - \mathbf{v}^\epsilon\). Then, \(\mathbf{w}\) satisfies:
+
+\[
+\frac{\partial \mathbf{w}}{\partial t} + (\mathbf{u}^\epsilon \cdot \nabla)\mathbf{w} + (\mathbf{w} \cdot \nabla)\mathbf{v}^\epsilon + \nabla q = \nu \Delta \mathbf{w} - \epsilon \nabla \cdot (\nabla \mathbf{w} \otimes \nabla \mathbf{w}),
+\]
+
+with \(\nabla \cdot \mathbf{w} = 0\) and appropriate pressure term \(q\).
+
+Taking the \(L^2\)-inner product with \(\mathbf{w}\):
+
+\[
+\frac{1}{2} \frac{d}{dt} \|\mathbf{w}\|_{L^2}^2 + (\nu - \epsilon) \|\nabla \mathbf{w}\|_{L^2}^2 \leq \left| \left\langle (\mathbf{w} \cdot \nabla)\mathbf{v}^\epsilon, \mathbf{w} \right\rangle \right|.
+\]
+
+Using Hölder's inequality and Sobolev embeddings, we estimate the nonlinear term and apply Grönwall's inequality to conclude that \(\mathbf{w} = 0\). Thus, the solution is unique.
+
+\section{Behavior as \(\epsilon \to 0\)}
+An important aspect is whether solutions to the regularized equations converge to solutions of the classical Navier-Stokes equations as \(\epsilon \to 0\).
+
+\subsection{Uniform Bounds Independent of \(\epsilon\)}
+To pass to the limit \(\epsilon \to 0\), we need uniform bounds on \(\mathbf{u}^\epsilon\). From the basic energy estimate:
+
+\[
+\frac{1}{2} \frac{d}{dt} \|\mathbf{u}^\epsilon\|_{L^2}^2 + (\nu - \epsilon) \|\nabla \mathbf{u}^\epsilon\|_{L^2}^2 \leq 0,
+\]
+
+which is nearly uniform in \(\epsilon\). However, higher-order norms may depend on \(\epsilon\), making strong convergence challenging.
+
+\subsection{Weak Convergence}
+Using the uniform \(L^2\) bound, we can extract a subsequence that converges weakly in \(L^2(0, T; H^1(\Omega))\) to a function \(\mathbf{u}\). However, weak convergence may not suffice to pass the nonlinear terms to the limit.
+
+\subsection{Strong Convergence Challenges}
+Without additional uniform bounds or compactness properties, obtaining strong convergence as \(\epsilon \to 0\) is difficult. This limits our ability to show that \(\mathbf{u}\) satisfies the classical Navier-Stokes equations.
+
+\subsection{Conclusion on Convergence}
+While the regularization provides global smooth solutions for each \(\epsilon > 0\), establishing convergence to a smooth solution of the classical Navier-Stokes equations remains an open problem. This highlights the complexity of the original Millennium Prize Problem.
+
+\section{Discussion}
+The regularization approach offers valuable insights into controlling singularities in fluid flows. It demonstrates how additional dissipation can ensure global smoothness of solutions. However, since the Millennium Prize Problem concerns the classical Navier-Stokes equations without modification, our results for the regularized equations do not directly resolve the problem.
+
+Further research is needed to:
+
+\begin{itemize}
+    \item Develop techniques to obtain uniform bounds independent of \(\epsilon\),
+    \item Establish strong convergence as \(\epsilon \to 0\),
+    \item Bridge the gap between regularized solutions and classical solutions.
+\end{itemize}
+
+\section{Conclusion}
+We have demonstrated the global existence and uniqueness of smooth solutions to a regularized version of the Navier-Stokes equations in three dimensions. The regularization term introduces additional dissipation that prevents the formation of singularities, ensuring the smoothness of the velocity field for all time.
+
+While this contributes to the understanding of fluid dynamics and partial differential equations, bridging the findings to the classical Navier-Stokes equations requires further investigation. The challenges highlighted emphasize the depth and complexity of the Millennium Prize Problem.
+
+\end{document}

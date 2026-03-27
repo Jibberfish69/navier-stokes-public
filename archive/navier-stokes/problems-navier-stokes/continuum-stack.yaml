@@ -1,0 +1,20 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  artifact_id: continuum-stack
+shared_invariant:
+  file: working-notes/crosslane-spectral-gap.md
+  statement: H_\partial >= c_0 on Omega^\perp
+  meaning:
+  - coercive boundary sector
+  - no low-energy leakage outside kernel
+  - stable obstruction persistence
+consumers:
+  - YMG: mass gap carrier (transport-stable)
+  - NS: dissipation floor in projected sector
+  - Hodge: primitive obstruction rigidity
+links:
+  theorem_packet: problems/navier-stokes/theorem-packet.yaml
+  pipeline_state: problems/navier-stokes/pipeline-state.yaml

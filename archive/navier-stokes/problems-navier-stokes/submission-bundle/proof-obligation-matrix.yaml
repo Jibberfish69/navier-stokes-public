@@ -1,0 +1,149 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  matrix_id: proof-obligation-matrix-navier-stokes
+  generated_at: '2026-03-17T23:08:27Z'
+  generator: chat2/manual-reconciliation
+  source_theorem_packet_id: theorem-packet-navier-stokes
+  source_review_verdict_id: review-verdict-navier-stokes
+posture:
+  theorem_target: the classical 3D Navier-Stokes equations on the admissible Euclidean
+    data class fixed in the lane.
+  current_package_status: conditional
+  standalone_status: conditional
+  completion_tier_achieved: conditional-route-closure
+  review_verdict: conditional-pass
+obligations:
+- obligation_id: theorem-statement
+  kind: theorem-statement
+  label: If the scale-barrier, monotone-functional, nonlinear-compactness, and curvature-based-regularity
+    bridges all hold on one admissibility surface for the classical target class,
+    then the cascade/compactness/gradient singularity pathway does not occur on [0,T).
+  status: grounded
+  source_anchor: problems/navier-stokes/claim-ladder.md
+  blocking: false
+  notes: []
+- obligation_id: theorem-definition-classical-target-class
+  kind: definition
+  label: Classical target class on the admissible Euclidean theorem surface
+  status: grounded
+  source_anchor: problems/navier-stokes/draft-v8.md
+  blocking: false
+  notes: []
+- obligation_id: theorem-package-scale-barrier
+  kind: lemma
+  label: Classical scale-barrier package on the Euclidean theorem surface
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/scale-cubic-tail-absorption-lemma.md
+  blocking: false
+  notes: []
+- obligation_id: theorem-package-compactness
+  kind: lemma
+  label: Strong local compactness and nonlinear tensor closure on the fixed classical
+    approximation family
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/compactness-package.md
+  blocking: false
+  notes: []
+- obligation_id: theorem-package-gradient
+  kind: lemma
+  label: Euclidean gradient-control fourth bridge on the declared theorem surface
+  status: grounded
+  source_anchor: problems/navier-stokes/external-paper/sections/bridge-gradient-control.tex
+  blocking: false
+  notes: []
+- obligation_id: theorem-package-closure
+  kind: lemma
+  label: Closed-loop warrant discharge on the declared classical Euclidean theorem
+    surface
+  status: unresolved
+  source_anchor: problems/navier-stokes/theorem-construction/classical-closure-warrant-carrier.md
+  blocking: true
+  notes:
+  - The realized classical carrier removes model ambiguity but does not by itself
+    discharge the primary closed-loop warrant.
+- obligation_id: proof-dependency-1
+  kind: proof-dependency
+  label: The Clay target is the classical 3D equation on admissible data -> Success
+    for regularized or morphic-regularized equations does not close the original problem
+  status: grounded
+  source_anchor: problems/navier-stokes/claim-ladder.md
+  blocking: false
+  notes: []
+- obligation_id: proof-dependency-2
+  kind: proof-dependency
+  label: Success for regularized or morphic-regularized equations does not close the
+    original problem -> Global energy or enstrophy control is necessary but not sufficient
+  status: grounded
+  source_anchor: problems/navier-stokes/claim-ladder.md
+  blocking: false
+  notes: []
+- obligation_id: proof-dependency-3
+  kind: proof-dependency
+  label: Global energy or enstrophy control is necessary but not sufficient -> The
+    live obstruction is the small-scale or high-frequency cascade that feeds blow-up
+  status: grounded
+  source_anchor: problems/navier-stokes/claim-ladder.md
+  blocking: false
+  notes: []
+- obligation_id: proof-dependency-4
+  kind: proof-dependency
+  label: The live obstruction is the small-scale or high-frequency cascade that feeds
+    blow-up -> A classical dyadic tail or flux estimate must suppress dangerous high-frequency
+    transfer on the theorem surface
+  status: grounded
+  source_anchor: problems/navier-stokes/claim-ladder.md
+  blocking: false
+  notes: []
+- obligation_id: proof-dependency-5
+  kind: proof-dependency
+  label: A classical dyadic tail or flux estimate must suppress dangerous high-frequency
+    transfer on the theorem surface -> That scale-barrier input must yield strong
+    local compactness and nonlinear tensor closure on a classical approximation family
+  status: grounded
+  source_anchor: problems/navier-stokes/claim-ladder.md
+  blocking: false
+  notes: []
+- obligation_id: proof-dependency-6
+  kind: proof-dependency
+  label: That scale-barrier input must yield strong local compactness and nonlinear
+    tensor closure on a classical approximation family -> A same-surface Euclidean
+    gradient-transfer inequality must force continuation control without geometric
+    surrogate structure
+  status: grounded
+  source_anchor: problems/navier-stokes/claim-ladder.md
+  blocking: false
+  notes: []
+- obligation_id: proof-dependency-7
+  kind: proof-dependency
+  label: A same-surface Euclidean gradient-transfer inequality must force continuation
+    control without geometric surrogate structure -> If the scale-barrier, compactness,
+    gradient, and closure packages all hold on one admissibility surface, the live
+    singularity pathway is eliminated
+  status: grounded
+  source_anchor: problems/navier-stokes/claim-ladder.md
+  blocking: false
+  notes: []
+- obligation_id: packaging-metadata-alignment
+  kind: packaging
+  label: Venue-specific metadata and front-matter normalization
+  status: grounded
+  source_anchor: problems/navier-stokes/external-paper/metadata.tex
+  blocking: false
+  notes: []
+summary:
+  total_obligations: 14
+  grounded_count: 13
+  structural_only_count: 0
+  structurally_supported_count: 0
+  bridge_pending_count: 0
+  unresolved_count: 1
+  frontier_count: 0
+  bridge_discharge_blocking_count: 0
+  theorem_warrant_blocking_count: 1
+  blocking_count: 1
+  all_discharged: false
+submission_blockers:
+- There is 1 unresolved proof obligation.

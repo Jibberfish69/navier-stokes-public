@@ -1,0 +1,63 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,geometry,physics}
+\geometry{margin=1in}
+\title{The Yang--Mills Mass Gap Reinterpreted Through Emergent Spacetime Geometry}
+\author{Thomas Birnie}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Abstract}
+We reinterpret the Yang--Mills mass gap phenomenon using the operator-theoretic framework of emergent spacetime. Bulk decay and boundary field coherence are not separate from spacetime itself---they \\emph{generate} its dimensionality. By aligning the energy transfer dynamics of bulk--boundary field simulations with the embedding of non-commutative (NC) geometry into classical manifolds, we identify the mass gap as a spectral residue of emergent classicality from quantum operator space.
+
+\section{Introduction}
+The Clay Institute's Yang--Mills Gap problem posits the existence of a finite, non-zero lowest energy state (the ``mass gap'') in four-dimensional SU(N) Yang--Mills theory. Previous topological approaches often rely on the discretization of instanton sectors or geometric quantization. Our approach reinterprets this gap as a \\textit{consequence of the emergent nature of spacetime itself}, where dimensionality, curvature, and field coherence arise from operator-based interpolation mechanisms.
+
+\section{Bulk as a Non-Commutative Region}
+We interpret the ``bulk'' field region, where gauge configurations decay or destabilize, as an intrinsically non-commutative domain. Field operators \( \hat{A}_\mu \) evolve in imaginary time \( \tau \), and geometry is non-metric:
+\begin{equation}
+\lim_{\theta \to 0} [\hat{x}^\mu, \hat{x}^\nu] \neq 0
+\end{equation}
+Simulations show that bulk field energy decays monotonically, matching the expected dissipative behavior of operator domains without classical spacetime constraints.
+
+\section{Boundary as a Classical, Commutative Region}
+At the system boundary, we observe:
+\begin{itemize}
+    \item Convergence of field amplitudes
+    \item Persistent field coherence
+    \item Coupled growth following energy leakage from the bulk
+\end{itemize}
+This corresponds to the classical limit of the operator framework, where
+\begin{equation}
+\lim_{\theta \to \infty} [\hat{x}^\mu, \hat{x}^\nu] \to 0 \Rightarrow x^\mu \in \mathbb{R}^4
+\end{equation}
+Here, classical Yang--Mills dynamics emerge from the underlying operator space.
+
+\section{Embedding Function as Bulk--Boundary Mediator}
+We define the embedding function \( \mathcal{E} \) mapping from non-commutative manifold \( M_{NC} \) to classical manifold \( M_C \):
+\begin{equation}
+\mathcal{E}(M_{NC}, T^{\mu\nu}, R^{\mu\nu}, \theta, D_f) = \int_{M_{NC}} K(x,y,\theta) F(y) \dd{V}_y
+\end{equation}
+Where \( K \) is a kernel encoding coupling geometry, \( D_f \) is the interpolating Dirac operator, and \( \theta \) is a deformation parameter controlling the non-commutative to commutative transition.
+
+\section{The Gap as Spectral Signature}
+The ``gap'' emerges as a restriction on allowed transitions between field states:
+\begin{itemize}
+    \item In NC domain: transitions are unbounded but unstable
+    \item At boundary: only discrete stable configurations are realized
+\end{itemize}
+Thus, the Yang--Mills gap becomes a spectral residue---the lowest eigenvalue of boundary field coherence under the \( \mathcal{E} \) map.
+
+\section{Temporal Interpretation}
+Time is not intrinsic to either domain. It is regulated by the complexified time operator:
+\begin{equation}
+\Theta = T + i\tau
+\end{equation}
+where \( T \) governs classical progression and \( \tau \) encodes quantum decoherence. Bulk decay occurs dominantly along \( \tau \), while boundary stabilization tracks \( T \), giving rise to the arrow of time.
+
+\section{Conclusion}
+By reframing Yang--Mills theory within the emergent spacetime operator framework, we replace fixed spacetime assumptions with a dynamic field-driven geometry. The mass gap becomes a necessity of dimensional emergence, not a secondary effect of field topology.
+
+\end{document}

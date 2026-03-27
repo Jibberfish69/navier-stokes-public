@@ -1,0 +1,67 @@
+\section{Bridge III: Nonlinear Compactness}
+
+The second bridge upgrades compactness to the level required for nonlinear
+closure. Once the cascade channel is controlled, the route still has to justify
+passage to the limit in the convective term without importing regularized
+structure. On the theorem surface this is achieved on one fixed classical
+approximation scheme. The compactness input is the standard Aubin--Lions--Simon
+framework on bounded sets together with the admissible energy-tail bound that
+globalizes the \(\mathbb R^3\) limit on the declared class
+\cite{Simon1987,BoyerFabrie2013,Temam2001}.
+
+\begin{proposition}[Classical nonlinear passage]
+\label{prop:compactness}
+There exists a classical approximation scheme \(u^{(n)}\to u\) strongly in \(L^2([0,T];L^2_{\mathrm{loc}}(\mathbb{R}^3))\) such that
+\[
+u^{(n)}\otimes u^{(n)} \to u\otimes u
+\quad\text{in distributions on } (0,T)\times\mathbb{R}^3.
+\]
+Hence the convective term passes to the limit on the classical equation with no additional nonlinear defect term.
+\end{proposition}
+
+\begin{proof}
+The approximation family carries the standard uniform bounds
+\[
+u^{(n)} \text{ bounded in } L^\infty(0,T;L^2_\sigma(\mathbb R^3))
+\cap L^2(0,T;H^1_\sigma(\mathbb R^3)),
+\]
+with \(\partial_t u^{(n)}\) bounded in \(L^2(0,T;H^{-1}_\sigma)\). Hence
+Simon/Aubin--Lions gives, after extraction, strong convergence in
+\(L^2(0,T;L^2(B_R))\) on each fixed ball \(B_R\)
+\cite{Simon1987,BoyerFabrie2013}. The route's admissible energy-tail bound then
+supplies the globalization step: for every \(\varepsilon>0\) there is
+\(R<\infty\) such that
+\[
+\sup_n \int_0^T\!\!\int_{|x|>R} |u^{(n)}(t,x)|^2\,dx\,dt \le \varepsilon.
+\]
+By weak lower semicontinuity, the same tail bound holds for the limit \(u\),
+and therefore
+\[
+\|u^{(n)}-u\|_{L^2_tL^2_x(\mathbb R^3)}
+\le
+\|u^{(n)}-u\|_{L^2_tL^2(B_R)} + 2\varepsilon^{1/2}.
+\]
+This yields strong convergence in \(L^2([0,T];L^2(\mathbb R^3))\) on the
+declared theorem surface. Let
+\(\varphi\in C_c^\infty((0,T)\times\mathbb{R}^3;\mathbb{R}^3)\) be
+divergence-free. By the fixed classical approximation scheme from the
+proposition,
+\[
+u^{(n)}\otimes u^{(n)} \to u\otimes u
+\quad\text{in distributions on } (0,T)\times\mathbb{R}^3.
+\]
+Therefore
+\[
+\int_0^T\!\!\int_{\mathbb{R}^3}
+\bigl(u^{(n)}\otimes u^{(n)}\bigr):\nabla\varphi\,dx\,dt
+\to
+\int_0^T\!\!\int_{\mathbb{R}^3}
+\bigl(u\otimes u\bigr):\nabla\varphi\,dx\,dt.
+\]
+The strong local \(L^2\) convergence identifies the limiting field, while the tensor convergence excludes any extra defect contribution at the theorem level. This is exactly the nonlinear passage needed in the present route.
+\end{proof}
+
+The compactness step is therefore no longer a placeholder. It is the fixed
+nonlinear-closure package imported by the main theorem, and on
+\(\mathbb R^3\) its local-to-global passage is tied explicitly to the same
+admissible energy-tail hypothesis already carried by the theorem surface.

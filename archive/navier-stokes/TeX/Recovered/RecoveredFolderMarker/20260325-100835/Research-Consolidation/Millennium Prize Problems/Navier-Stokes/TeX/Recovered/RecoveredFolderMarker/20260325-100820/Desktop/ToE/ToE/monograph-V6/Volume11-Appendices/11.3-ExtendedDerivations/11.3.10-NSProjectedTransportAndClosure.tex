@@ -1,0 +1,92 @@
+% -------- Subsection 11.3.10 NS projected transport and closure packet --------
+% (File: 11.3.10-NSProjectedTransportAndClosure.tex | Volume 11)
+
+\subsection{NS projected transport and closure packet}\label{sub:NSProjectedTransportAndClosurePacket}
+
+This subsection isolates the Navier--Stokes lane-owned theorem packet.
+The shared physical-sector selector, the persistent invariant, and the exact/persistent/tail split are treated as imported objects.
+The present packet records the continuum coherent-sector route, the projected transport law, the shadow closure theorem, and the exact remaining analytic burdens.
+
+\begin{definition}[Continuum coherent sector and projected flow]\label{def:NSContinuumCoherentSectorAndProjectedFlow}
+Let
+\[
+  K_D
+  \subset
+  V_D
+\]
+denote the continuum coherent sector selected by the shared physical-sector gate and persistent-carrier extraction.
+Let
+\[
+  \Theta_D(X)
+\]
+denote the coherent transport readout on that sector, and let
+\[
+  \mathcal L_{\mathrm{coh}}
+\]
+denote the dissipative coherent-sector generator.
+The projected flow is the evolution on $K_D$ whose transport defect is measured against the coherent-sector equation
+\[
+  \partial_t \Theta_D(X)
+  =
+  - \nu \mathcal L_{\mathrm{coh}} \Theta_D(X)
+  + E_{\mathrm{sh}}(X)
+\]
+with shadow error term $E_{\mathrm{sh}}(X)$.
+\end{definition}
+
+\begin{assumption}[NS projected-transport closure inputs]\label{as:NSProjectedTransportClosureInputs}
+Assume the following packet on the continuum coherent sector.
+\begin{enumerate}
+  \item \textbf{Projected well-posedness.}
+  The projected flow on $K_D$ is locally well posed on the required $H_D^s$ core.
+  \item \textbf{Complement coercivity.}
+  There exists $c_{\perp}>0$ such that the transport complement obeys the coercive estimate
+  \[
+    \langle \Delta_{D,\omega} Y, Y \rangle
+    \ge
+    c_{\perp} \|Y\|^2
+  \]
+  for all $Y \in K_D^{\perp}$ in the graph domain.
+  \item \textbf{Lower-order leakage.}
+  The off-carrier transport leakage is lower order relative to the coherent-sector energy and can be absorbed into the global continuation norm.
+  \item \textbf{Exact shadow identity.}
+  The stabilized readout kills the pure non-classical shadow defect so that the commutative readout of the projected coherent flow satisfies the classical transport law.
+  \item \textbf{Continuation-level norm upgrade.}
+  The coherent-sector energy estimate upgrades to the classical continuation norm required by the Clay endpoint.
+\end{enumerate}
+\end{assumption}
+
+\begin{theorem}[Conditional projected transport]\label{thm:ConditionalNSProjectedTransportTheorem}
+Under \cref{as:NSProjectedTransportClosureInputs}, the projected flow on the continuum coherent sector satisfies a closed transport equation modulo lower-order leakage, and the stabilized readout solves the classical Navier--Stokes equation on the same admissible time interval.
+\end{theorem}
+
+\begin{proof}
+Projected well-posedness gives the local coherent-sector flow.
+Complement coercivity and lower-order leakage keep the transport defect from generating new unstable support outside the coherent sector except through the controlled error term.
+The exact shadow identity removes the pure non-classical remainder in the commutative readout.
+The transported readout therefore satisfies the classical Navier--Stokes equation while the coherent-sector energy controls the same interval of existence.
+\end{proof}
+
+\begin{theorem}[NS classical closure packet]\label{thm:ConditionalNSClassicalClosurePacket}
+Assume \cref{thm:ConditionalNSProjectedTransportTheorem} and the continuation-level norm upgrade from \cref{as:NSProjectedTransportClosureInputs}.
+Then the classical closure burden is reduced to the two named frontier obligations:
+\begin{enumerate}
+  \item projected NC-flow well-posedness on the coherent sector, and
+  \item the global coercive energy estimate that closes the continuation norm on the same theorem surface.
+\end{enumerate}
+If those two obligations are discharged, the projected-flow route eliminates the live singularity pathway on the classical surface.
+\end{theorem}
+
+\begin{proof}
+The projected transport theorem identifies the coherent-sector route as the governing transport object.
+Once projected well-posedness and the global coercive energy estimate both hold on that same route, the continuation norm closes and the classical blow-up mechanism is removed on the transported shadow surface.
+\end{proof}
+
+\begin{corollary}[NS import to the shared carrier picture]\label{cor:NSImportToTheSharedCarrierPicture}
+Under the same assumptions, the Navier--Stokes route uses the shared selector, persistent invariant, and exact/persistent/tail split through the coherent-sector transport law rather than through an independent compactness package.
+\end{corollary}
+
+\begin{proof}
+The coherent sector is selected by the shared physical-sector gate, the transport readout is carried by the same persistent layer used elsewhere in the appendix, and the exact and residual channels are controlled by the shared split assumptions.
+The NS route therefore lands on the common carrier picture.
+\end{proof}

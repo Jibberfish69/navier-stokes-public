@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage{amsmath, amsthm, amssymb}
+
+\title{Proof of the Yang-Mills Gap Theorem}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Chapter 2: Instantons and Tunneling in Yang-Mills Theory}
+
+\subsection*{2.1 Introduction to Instantons}
+Instantons are solutions to the Yang-Mills field equations in Euclidean space that represent tunneling events between different vacuum states. First introduced by Belavin, Polyakov, Schwarz, and Tyupkin in 1975, instantons have become a central tool in understanding non-perturbative effects in quantum field theory. Their importance lies in their ability to connect distinct vacua, thus providing a mechanism for phenomena such as quantum tunneling and the generation of a mass gap in Yang-Mills theory.
+
+\subsection*{2.2 Mathematical Formulation}
+The instanton solution in Euclidean Yang-Mills theory is obtained by considering the field strength tensor \( F_{\mu\nu}^a \) in the context of a gauge group \( SU(2) \). The field equations in Euclidean space are:
+\[
+D_\mu F^{\mu\nu} = 0
+\]
+where \( D_\mu \) is the covariant derivative. Instantons are self-dual solutions, satisfying:
+\[
+F_{\mu\nu} = \tilde{F}_{\mu\nu} = \frac{1}{2} \epsilon_{\mu\nu\rho\sigma} F^{\rho\sigma}
+\]
+This condition ensures that the Euclidean action \( S_E \) is minimized:
+\[
+S_E = \frac{1}{2g^2} \int d^4x \, F_{\mu\nu}^a F^{\mu\nu a} = \frac{8\pi^2 n}{g^2}
+\]
+where \( n \) is the topological charge, representing the winding number of the gauge field configuration.
+
+\subsection*{2.3 Topological Charge and Energy Quantization}
+The topological charge \( n \) is an integer that classifies the instanton solutions according to how many times they wrap around the vacuum manifold. This quantization leads to discrete energy levels associated with different instanton configurations:
+\[
+E_{\text{instanton}} = \frac{8\pi^2 n}{g^2}
+\]
+Since \( n \) is non-zero for non-trivial instanton configurations, the energy of the system is always positive, thereby preventing the existence of massless states. This quantization is key to establishing the mass gap in Yang-Mills theory.
+
+\subsection*{2.4 Implications for the Mass Gap}
+The existence of a positive energy contribution from instantons directly implies a positive mass gap in the theory. As instantons enforce energy quantization, they ensure that the vacuum cannot support excitations with zero energy. Therefore, the smallest possible energy of a non-trivial state is strictly positive, confirming the existence of a mass gap.
+
+\end{document}

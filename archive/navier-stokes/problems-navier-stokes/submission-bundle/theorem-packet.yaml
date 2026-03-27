@@ -1,0 +1,128 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  packet_id: theorem-packet-navier-stokes
+  generated_at: '2026-03-17T23:08:27Z'
+  generator: chat2/manual-reconciliation
+source_artifacts:
+- problems/navier-stokes/obstruction-capture.md
+- problems/navier-stokes/spine.md
+- problems/navier-stokes/claim-ladder.md
+- problems/navier-stokes/formalization-ledger.md
+- problems/navier-stokes/debt-map.yaml
+- problems/navier-stokes/theorem-construction/ns-closure-surfaces.md
+- problems/navier-stokes/theorem-construction/d6c-unconditional-low-tier-coercivity.md
+- problems/navier-stokes/theorem-construction/d8b-global-projected-wellposedness-decay.md
+posture:
+  theorem_target: the classical 3D Navier-Stokes equations on the admissible Euclidean
+    data class fixed in the lane.
+  current_package_status: conditional
+  standalone_status: conditional
+theorem_statement:
+  statement: If the scale-barrier, monotone-functional, nonlinear-compactness, and
+    curvature-based-regularity bridges all hold on one admissibility surface for the
+    classical target class, then the cascade/compactness/gradient singularity pathway
+    does not occur on [0,T).
+  lowest_safe_claim: If the scale-barrier, monotone-functional, nonlinear-compactness,
+    and curvature-based-regularity bridges all hold on one admissibility surface for
+    the classical target class, then the cascade/compactness/gradient singularity
+    pathway does not occur on [0,T).
+  first_unsafe_overclaim: Claiming the current conditional route theorem as an unconditional
+    Euclidean closure theorem, or treating the closed-loop warrant as already discharged
+    on the declared theorem surface.
+definitions:
+- definition_id: theorem-definition-classical-target-class
+  label: Classical target class on the admissible Euclidean theorem surface
+  status: grounded
+  source_anchor: problems/navier-stokes/draft-v8.md
+  source_class: theorem-surface
+lemmas:
+- lemma_id: theorem-package-scale-barrier
+  label: Classical scale-barrier package on the Euclidean theorem surface
+  status: grounded
+  support_strength: strong
+  priority_rank: 1
+  source_anchor: problems/navier-stokes/theorem-construction/scale-cubic-tail-absorption-lemma.md
+- lemma_id: theorem-package-compactness
+  label: Strong local compactness and nonlinear tensor closure on the fixed classical
+    approximation family
+  status: grounded
+  support_strength: strong
+  priority_rank: 2
+  source_anchor: problems/navier-stokes/theorem-construction/compactness-package.md
+- lemma_id: theorem-package-gradient
+  label: Euclidean gradient-control fourth bridge on the declared theorem surface
+  status: grounded
+  support_strength: strong
+  priority_rank: 3
+  source_anchor: problems/navier-stokes/external-paper/sections/bridge-gradient-control.tex
+- lemma_id: theorem-package-closure
+  label: No-hidden-modified-work audit and combined closure sufficiency
+  status: grounded
+  support_strength: strong
+  priority_rank: 4
+  source_anchor: problems/navier-stokes/theorem-construction/combined-closure-sufficiency-lemma.md
+- lemma_id: packaging-metadata-alignment
+  label: Venue-specific metadata and front-matter normalization
+  status: localized-support
+  support_strength: strong
+  priority_rank: 5
+  source_anchor: problems/navier-stokes/external-paper/metadata.tex
+proof_dependencies:
+- dependency_id: proof-dependency-1
+  from: The Clay target is the classical 3D equation on admissible data
+  to: Success for regularized or morphic-regularized equations does not close the
+    original problem
+  reason: The forward implication chain is discharged on the primary theorem surface.
+- dependency_id: proof-dependency-2
+  from: Success for regularized or morphic-regularized equations does not close the
+    original problem
+  to: Global energy or enstrophy control is necessary but not sufficient
+  reason: The forward implication chain is discharged on the primary theorem surface.
+- dependency_id: proof-dependency-3
+  from: Global energy or enstrophy control is necessary but not sufficient
+  to: The live obstruction is the small-scale or high-frequency cascade that feeds
+    blow-up
+  reason: The forward implication chain is discharged on the primary theorem surface.
+- dependency_id: proof-dependency-4
+  from: The live obstruction is the small-scale or high-frequency cascade that feeds
+    blow-up
+  to: A classical dyadic tail or flux estimate must suppress dangerous high-frequency
+    transfer on the theorem surface
+  reason: The forward implication chain is discharged on the primary theorem surface.
+- dependency_id: proof-dependency-5
+  from: A classical dyadic tail or flux estimate must suppress dangerous high-frequency
+    transfer on the theorem surface
+  to: That scale-barrier input must yield strong local compactness and nonlinear tensor
+    closure on a classical approximation family
+  reason: The forward implication chain is discharged on the primary theorem surface.
+- dependency_id: proof-dependency-6
+  from: That scale-barrier input must yield strong local compactness and nonlinear
+    tensor closure on a classical approximation family
+  to: A same-surface Euclidean gradient-transfer inequality must force continuation
+    control without geometric surrogate structure
+  reason: The forward implication chain is discharged on the primary theorem surface.
+- dependency_id: proof-dependency-7
+  from: A same-surface Euclidean gradient-transfer inequality must force continuation
+    control without geometric surrogate structure
+  to: If the scale-barrier, compactness, gradient, and closure packages all hold on
+    one admissibility surface, the live singularity pathway is eliminated
+  reason: The forward implication chain is discharged on the primary theorem surface.
+frontiers:
+  blocked_frontier: []
+  branch_choice:
+  - closed-loop warrant discharge on the declared theorem surface
+readiness:
+  theorem_statement_present: true
+  definitions_present: true
+  lemmas_present: true
+  proof_dependencies_present: true
+  unresolved_definition_count: 0
+  unresolved_lemma_count: 0
+  frontier_count: 1
+  packet_complete: false
+  export_ready: false
+  blockers:
+  - closed-loop warrant discharge on the declared theorem surface

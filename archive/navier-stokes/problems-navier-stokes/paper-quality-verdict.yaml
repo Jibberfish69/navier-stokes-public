@@ -1,0 +1,24 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  generated_at: '2026-03-25T00:55:10Z'
+  generator: system/runner/lib/paper_quality_verdict_builder.rb
+manuscript_kind: conditional-route-manuscript
+mainline_anchor_count: 0
+duplicate_heading_count: 0
+forward_reference_count: 0
+non_core_before_core_count: 0
+proof_explanation_score: 10
+typeset_status: typeset
+overfull_box_count: 0
+overfull_box_count_gt_20pt: 0
+max_overfull_box_pt: 0.0
+author_present: true
+paper_architecture_present: true
+pass: false
+required_fixes:
+- keep all export surfaces at the conditional route theorem boundary
+- promote the fourth bridge and the closed-loop warrant on the declared Euclidean theorem surface before release
+recommended_next_cell_type: honesty-review

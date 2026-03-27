@@ -1,0 +1,17 @@
+\section{Setup and Notation}
+
+We fix a time interval \([0,T)\) and a classical solution \(u\) on \([0,T)\times\mathbb{R}^3\) arising from smooth compactly supported divergence-free data. The background PDE framework is the standard one developed from Leray and Hopf weak solutions and organized in the monographs of Ladyzhenskaya and Temam \cite{Leray1934,Hopf1951,Ladyzhenskaya1969,Temam2001}. We write \(P_{\ge N}\) for a dyadic high-frequency projector and \(\Pi_{\ge N}(t)\) for the corresponding high-frequency flux quantity used in the scale-barrier hypothesis.
+
+\begin{definition}[Scale barrier]
+A scale barrier is a classical estimate on \(\Pi_{\ge N}(t)\) that blocks unbounded transfer of activity into dyadic scales associated with singularity formation.
+\end{definition}
+
+\begin{definition}[Nonlinear compactness upgrade]
+A nonlinear compactness upgrade is a classical approximation scheme \(u^{(n)}\to u\) whose convergence is strong enough to pass the nonlinear interaction \(u^{(n)}\otimes u^{(n)}\to u\otimes u\) at the theorem level.
+\end{definition}
+
+\begin{definition}[Classical gradient control]
+Classical gradient control is derivative-scale control, here measured by \(\|\nabla u(t)\|_{L^2(\mathbb{R}^3)}\), derived from the same classical dynamics and not from added regularization or geometry.
+\end{definition}
+
+The proof architecture below is built around these three bridges plus the non-dependence condition on modified equations.

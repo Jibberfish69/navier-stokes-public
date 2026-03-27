@@ -1,0 +1,17 @@
+A Source-Grounded Four-Bridge Route for 3D Navier-Stokes
+
+Dear Editor,
+
+Please find attached our manuscript, "A Source-Grounded Four-Bridge Route for 3D Navier-Stokes."
+The paper presents a source-grounded conditional route theorem for the classical three-dimensional incompressible Navier-Stokes equations, together with an explicit classical realization, compactness layer, and pullback package on the original equation.
+
+The manuscript is intentionally classical in scope. It keeps every theorem-critical step on the Euclidean Navier-Stokes equation itself and excludes theorem-critical dependence on modified dynamics, geometric surrogate structure, or stronger hidden hypotheses.
+
+The submission package contains:
+- a journal-neutral TeX source tree,
+- a bibliography positioned against the standard Navier-Stokes regularity literature,
+- a compiled PDF for referee review.
+
+Sincerely,
+
+Thomas Birnie

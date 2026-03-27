@@ -1,0 +1,35 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  decision_id: release-decision-navier-stokes
+  evaluated_at: '2026-03-25T00:55:10Z'
+  source_verdict_id: review-verdict-navier-stokes
+decision:
+  disposition: hold
+  release_posture: not-ready
+  completion_tier_target: full-mpp-closure
+  completion_tier_achieved: conditional-route-closure
+  next_cell_type: debt-derive
+  next_stage: theorem-reconciliation
+  next_action: 'Discharge the closed-loop warrant on the declared Euclidean theorem surface before reopening release.'
+  rationale: The realized classical carrier and export manuscript are now synchronized at the conditional route boundary, and Bridge IV is discharged as a pure Euclidean theorem. The package remains on hold because the closed-loop warrant has not yet been discharged on the declared theorem surface.
+artifacts:
+  draft: 
+  draft_v6: problems/navier-stokes/draft-v6.md
+  draft_v7: problems/navier-stokes/draft-v7.md
+  paper_architecture: problems/navier-stokes/paper-architecture.yaml
+  paper_quality_verdict: problems/navier-stokes/paper-quality-verdict.yaml
+  theorem_packet: problems/navier-stokes/theorem-packet.yaml
+  proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
+  submission_verdict: problems/navier-stokes/submission-verdict.yaml
+  submission_export_status: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+  typeset_audit: problems/navier-stokes/submission-bundle/typeset-audit.yaml
+  review_log: problems/navier-stokes/review-log.md
+  review_verdict: problems/navier-stokes/review-verdict.yaml
+blockers:
+- closed-loop warrant discharge on the declared theorem surface
+summary:
+  queue_effect: reopened
+  registry_note: problem remains synchronized at the conditional route boundary and is not yet hardened for full-claim pre-submission use

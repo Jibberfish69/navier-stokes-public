@@ -1,0 +1,17 @@
+---
+version: 1
+problem_id: navier-stokes
+display_name: Navier-Stokes Global Regularity
+generated_at: '2026-03-17T22:43:34Z'
+manuscript_source: problems/navier-stokes/external-paper/main.tex
+submission_metadata: problems/navier-stokes/submission-metadata.yaml
+outputs:
+  tex: problems/navier-stokes/external-paper/main.tex
+  pdf: problems/navier-stokes/external-paper/main.pdf
+copied_artifacts:
+  theorem_packet: problems/navier-stokes/submission-bundle/theorem-packet.yaml
+  proof_obligation_matrix: problems/navier-stokes/submission-bundle/proof-obligation-matrix.yaml
+  submission_verdict: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  frozen_core: problems/navier-stokes/submission-bundle/frozen-core.md
+  source_frontier: problems/navier-stokes/submission-bundle/source-frontier.yaml
+  promotion_verdict: problems/navier-stokes/submission-bundle/promotion-verdict.yaml

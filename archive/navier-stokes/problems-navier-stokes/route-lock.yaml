@@ -1,0 +1,52 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  artifact_id: route-lock-navier-stokes
+  updated_at: '2026-03-20T15:45:00Z'
+  generator: chat2-manual-route-lock
+primary_route:
+  route_id: source-grounded-four-bridge
+  status: locked-primary
+  theorem_surface: classical-euclidean-navier-stokes
+  corpus_root: "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes"
+  slots:
+    - slot_id: scale-barrier
+      canonical_label: Scale-Barrier Principle
+    - slot_id: monotone-functional
+      canonical_label: Monotone Functional Q(t)
+    - slot_id: nonlinear-compactness
+      canonical_label: Non-Sobolev Compactness
+    - slot_id: curvature-based-regularity
+      canonical_label: Curvature-Based Regularity
+    - slot_id: closed-loop-warrant
+      canonical_label: Closed-Loop Warrant
+import_policy:
+  direct_ns_legacy_corpus: authoritative
+  lane_local_theorem_construction: permitted-refinement
+  working_notes: ns-local-discharge-support
+  marvin_v6: synthesis-and-bridge-sharpening
+  cross_problem_imports:
+    allowed_role: operator-template-or-explanatory-only
+    forbidden_role: silent-claim-substitution
+sterilization_rule:
+  summary: Cross-problem ontology, YMG, and Hodge material may sharpen operator, coercivity, carrier, projection, continuation, or obstruction vocabulary, but must remain secondary to direct Navier-Stokes theorem content unless a direct NS theorem file appears.
+same_surface_requirements:
+  theorem_target: classical three-dimensional incompressible Navier-Stokes on the declared admissible Euclidean data class
+  preserve_equation: true
+  preserve_bridge_order: true
+  preserve_closed_loop_feedback: true
+  prohibit_silent_branch_switch: true
+  fallback_upgrade_rule: Euclidean replacements must remain explicitly labeled upgrades until a pullback theorem closes the source-faithful curvature route on the declared theorem surface.
+drift_failures:
+  - collapse the route into scale plus compactness plus gradient only
+  - replace Curvature-Based Regularity with a Euclidean package without an explicit upgrade marker
+  - let safe-output or synthesis surfaces overwrite the primary full-claim authoring surface
+  - treat ontology imports as direct proof authority without a direct NS theorem source
+enforcement_targets:
+  - problems/navier-stokes/source-grounded-framework-map.md
+  - problems/navier-stokes/proof-source-pack.md
+  - problems/navier-stokes/authoritative-source-discovery.yaml
+  - problems/navier-stokes/theorem-to-warrant.yaml
+  - problems/navier-stokes/campaign-status.yaml
+  - problems/navier-stokes/marvin-source-discovery.yaml
