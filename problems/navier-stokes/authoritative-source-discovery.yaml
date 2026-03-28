@@ -1,0 +1,269 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  generated_at: '2026-03-19T18:10:39Z'
+  generator: manual-chat2-marvin-intake-reconciliation
+  updated_at: '2026-03-24T21:49:39Z'
+summary:
+  proof_bearing_source: true
+  candidate_count: 106
+  selected_count: 9
+  selected_theorem_env_count: 11
+  selected_proof_env_count: 4
+  route_lock_path: problems/navier-stokes/route-lock.yaml
+  bridge_slot_map_path: problems/navier-stokes/bridge-slot-map.yaml
+  import_guard: preserve the legacy NS corpus as proof-bearing and treat Marvin/V6 plus cross-problem material as subordinate support unless a direct NS theorem source appears
+selected_sources:
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_3-_Monotone_Functional.tex"
+    score: 51
+    theorem_env_count: 1
+    proof_env_count: 1
+    path_keyword_hits: 3
+    content_keyword_hits: 42
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_6-_Interdependencies_Among_Principles.tex"
+    score: 48
+    theorem_env_count: 0
+    proof_env_count: 0
+    path_keyword_hits: 3
+    content_keyword_hits: 48
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_2-_Scale-Barrier_Principle.tex"
+    score: 35
+    theorem_env_count: 4
+    proof_env_count: 0
+    path_keyword_hits: 3
+    content_keyword_hits: 19
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Gradient_Control_Through_Geometric_Arguments.tex"
+    score: 35
+    theorem_env_count: 1
+    proof_env_count: 1
+    path_keyword_hits: 3
+    content_keyword_hits: 26
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Compactness Proof for Discrete Navier–Stokes Solutions.tex"
+    score: 32
+    theorem_env_count: 3
+    proof_env_count: 0
+    path_keyword_hits: 3
+    content_keyword_hits: 20
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Global Regularity Framework for Arbitrary Initial Data in L2.tex"
+    score: 28
+    theorem_env_count: 0
+    proof_env_count: 0
+    path_keyword_hits: 2
+    content_keyword_hits: 28
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_4-_Non-Sobolev_Compactness.tex"
+    score: 28
+    theorem_env_count: 1
+    proof_env_count: 1
+    path_keyword_hits: 3
+    content_keyword_hits: 19
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_5-_Curvature-Based_Regularity.tex"
+    score: 28
+    theorem_env_count: 1
+    proof_env_count: 1
+    path_keyword_hits: 3
+    content_keyword_hits: 19
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Energy_Boundedness_via_Q(t)_for_Global_Regularity.tex"
+    score: 18
+    theorem_env_count: 0
+    proof_env_count: 0
+    path_keyword_hits: 3
+    content_keyword_hits: 18
+supplementary_synthesis_sources:
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-clay-frontier-proof-pack.md"
+    score: 52
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: numbered NS Clay frontier proof pack
+    path_keyword_hits: 0
+    content_keyword_hits: 52
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-flow-closure-proof-spine.md"
+    score: 49
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: paper-facing closure proof spine
+    path_keyword_hits: 0
+    content_keyword_hits: 49
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/spectral-closure-and-unified-invariant.md"
+    score: 46
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: Appendix A projected-flow object package
+    path_keyword_hits: 0
+    content_keyword_hits: 46
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-nc-ns-ymg-hodge-program.md"
+    score: 45
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: ontic NC-NS / YMG / Hodge carrier synthesis
+    path_keyword_hits: 0
+    content_keyword_hits: 45
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-nc-ns-operator-tilt-note.md"
+    score: 44
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: projected transport operator diagnostic
+    path_keyword_hits: 0
+    content_keyword_hits: 44
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/projected-nonlinearity-diagnostic.md"
+    score: 42
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: projected nonlinearity checkpoint
+    path_keyword_hits: 0
+    content_keyword_hits: 42
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/refinement-commutator-estimate-and-scale-gap.md"
+    score: 41
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: refinement commutator / scale-gap estimate
+    path_keyword_hits: 0
+    content_keyword_hits: 41
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/projected-defect-growth-and-carrier-reduction.md"
+    score: 41
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: projected defect-growth / carrier reduction scaffold
+    path_keyword_hits: 0
+    content_keyword_hits: 41
+  - path: "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.9-TheEntirePictureWorkingSpine.tex"
+    score: 60
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: scale-coercivity-projection synthesis spine
+    path_keyword_hits: 0
+    content_keyword_hits: 60
+  - path: "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.11-ObstructionAlgebraizationBridge.tex"
+    score: 78
+    theorem_env_count: 144
+    proof_env_count: 78
+    role: obstruction-curvature bridge skeleton
+    path_keyword_hits: 1
+    content_keyword_hits: 78
+  - path: "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Audit/scale-resolution/ScaleResolution_Extracts.md"
+    score: 20
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: generated scale-resolution keyword index
+    path_keyword_hits: 1
+    content_keyword_hits: 2267
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/refinement-covariance-and-shadow-theorem-scaffold.md"
+    score: 44
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: projected-flow theorem scaffold
+    path_keyword_hits: 0
+    content_keyword_hits: 44
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/projected-generator-sector-invariance.md"
+    score: 36
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: projected generator / sector preservation scaffold
+    path_keyword_hits: 0
+    content_keyword_hits: 36
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/projected-defect-growth-and-carrier-reduction.md"
+    score: 41
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: projected defect-growth / coercive energy / shadow continuation scaffold
+    path_keyword_hits: 0
+    content_keyword_hits: 41
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/nc-3torus-concrete-model-evaluation.md"
+    score: 39
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: NC torus analytic testbed / compact derivation lab
+    path_keyword_hits: 0
+    content_keyword_hits: 39
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/model-ladder-beyond-nc-torus-aside.md"
+    score: 34
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: torus-to-higher-model selection aside
+    path_keyword_hits: 0
+    content_keyword_hits: 34
+  - path: "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/problems/yang-mills-gap/upstream-synthesis-feed.yaml"
+    score: 47
+    theorem_env_count: 0
+    proof_env_count: 0
+    role: cross-lane ontic NC-NS synthesis feed
+    path_keyword_hits: 0
+    content_keyword_hits: 47
+rationale: >-
+  The authoritative proof-bearing source for Navier-Stokes remains the legacy
+  NS TeX/PDF corpus, led by the four bridge files plus the interdependency and
+  framework files. Marvin/V6 and the shared working-note family now also carry a
+  projected-flow NS theorem scaffold through D.1--D.5, but that material still
+  functions as supplementary imports rather than as a replacement for the direct
+  theorem-bearing base.
+role_binding:
+  contract_path: problems/navier-stokes/agent-contract.yaml
+  title: MPP Referee, Auditor, and Independent External Mathematical Certifier
+  short_role: External Mathematician
+  review_mode: assistive-certification
+discovery_policy:
+  purpose: Use authoritative outside mathematics to validate, contextualize, or redirect Navier-Stokes theorem claims without widening the declared classical theorem surface.
+  source_priority:
+  - the selected legacy NS theorem-bearing corpus
+  - realized carrier and projected-flow theorem-construction surfaces
+  - canonical classical references needed for Leray/Stokes/Aubin-Lions or pressure recovery checks
+  pre_submission_audit_mode:
+    name: maximum-defensible-pre-submission
+    required_checks:
+    - dependency and circularity audit
+    - hidden-hypothesis audit
+    - quantifier/domain/regularity audit
+    - live manuscript and control-surface consistency audit
+    - typeset/export audit
+    - adversarial referee-objection audit
+    completion_rule: External validation is not complete until theorem, manuscript, and automation-control surfaces tell the same story.
+  acceptance_criteria:
+  - The source is tied to a named theorem surface, bridge, or obligation.
+  - The source has stable provenance and an exact retrievable path or citation.
+  - The comparison yields support, a bound, a redirect, a contradiction, or an explicit insufficiency finding.
+  rejection_criteria:
+  - The source only echoes lane-local claims without independent content.
+  - The source would widen the theorem target beyond the admissible Euclidean surface.
+  - The source cannot be cited precisely enough to support recertification.
+external_mathematician_review:
+  updated_at: '2026-03-24T21:49:39Z'
+  target_statement: Certify the live Navier-Stokes package to the maximum defensible pre-submission standard by checking the classical import layer, the four-bridge theorem route, the projected-flow sidecar surfaces, and the authoritative external paper for mathematical and control-surface consistency.
+  no_new_lemmas_claimed: true
+  active_review_surfaces:
+  - problems/navier-stokes/theorem-construction/carrier-realization-classical-identification.md
+  - problems/navier-stokes/theorem-construction/external-classical-validation-note.md
+  - problems/navier-stokes/theorem-construction/d3-commutative-shadow-theorem.md
+  - problems/navier-stokes/theorem-construction/d5-clay-theorem-integration.md
+  - problems/navier-stokes/theorem-construction/d1-projected-nc-flow-well-posedness.md
+  - problems/navier-stokes/theorem-construction/d2-global-coercive-energy-estimate.md
+  - problems/navier-stokes/theorem-construction/d4-shadow-continuation-theorem.md
+  - problems/navier-stokes/theorem-construction/d8a-strong-convergence-approximants.md
+  - problems/navier-stokes/draft-v8.md
+  - problems/navier-stokes/external-paper/sections/abstract.tex
+  - problems/navier-stokes/external-paper/sections/main-result.tex
+  - problems/navier-stokes/external-paper/sections/main-proof.tex
+  - problems/navier-stokes/external-paper/sections/conclusion.tex
+  - problems/navier-stokes/theorem-to-warrant.yaml
+  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/review-verdict.yaml
+  - problems/navier-stokes/pipeline-state.yaml
+  imported_classical_facts:
+  - Leray projector boundedness, self-adjointness, and idempotence on divergence-free Sobolev spaces
+  - Stokes operator positivity and analytic semigroup generation on `L^2_\sigma`
+  - Bilinear Navier-Stokes map `H^1_\sigma \times H^1_\sigma -> H^{-1}_\sigma` with classical cancellation
+  - Pressure recovery after Leray projection
+  - Aubin-Lions compactness with admissible tail globalization on `\mathbb R^3`
+  assessment: The classical-import layer is accepted; the live pre-submission task is to eliminate theorem-note, manuscript, and control-surface contradictions so that no unresolved theorem-critical vulnerability remains visible to a hostile referee.
+external_classical_validation_sources:
+- citation: J. Leray, Sur le mouvement d'un liquide visqueux emplissant l'espace, Acta Math. 63 (1934), 193-248.
+  role: original whole-space incompressible Navier-Stokes and Leray-projection framework
+- citation: R. Temam, Navier-Stokes Equations Theory and Numerical Analysis, Chapter I and Chapter III.
+  role: Stokes operator, analytic semigroup, bilinear map, and pressure recovery reference
+- citation: P. Constantin and C. Foias, Navier-Stokes Equations, Chapter I.
+  role: classical operator and energy-identity reference
+- citation: J. Simon, Compact sets in the space L^p(0,T;B), Ann. Mat. Pura Appl. 146 (1987), 65-96.
+  role: compactness reference for the Aubin-Lions-Simon step
+- citation: F. Boyer and P. Fabrie, Mathematical Tools for the Study of the Incompressible Navier-Stokes Equations and Related Models, Theorem II.5.16.
+  role: compactness reference in the NS functional setting

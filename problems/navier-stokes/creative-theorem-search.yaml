@@ -1,0 +1,261 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  search_id: creative-theorem-search-navier-stokes
+  generated_at: '2026-03-23T16:36:32Z'
+  generator: system/runner/lib/creative_theorem_search_builder.rb
+  source_frontier_id: source-frontier-navier-stokes
+  source_theorem_packet_id: theorem-packet-navier-stokes
+  source_proof_assembly_id: proof-assembly-navier-stokes
+intervention:
+  reason: frontier-expansion
+  review_posture: revise-loop
+  boundary_rule: Everything beyond the grounded core is machine extension until it
+    survives falsification and promotion.
+  provenance_rule: Machine-generated branches remain speculative until they survive
+    later discharge or review gates.
+  coverage_rule: Keep all candidate branch ideas on record even when only the top
+    bounded subset is actively pursued.
+sandbox:
+  mode: single-branch-sandbox
+  trigger: single-frontier
+  survivor_writeback: Keep only branches that survive discharge, falsification, or
+    refinement; demote the rest back into explicit debt.
+  independent_branch_ids: []
+  co_dependent_branch_ids:
+  - creative-branch-navier-stokes-1
+  - creative-branch-navier-stokes-2
+  - creative-branch-navier-stokes-3
+  - creative-branch-navier-stokes-4
+  branch_execution_order:
+  - creative-branch-navier-stokes-1
+  - creative-branch-navier-stokes-2
+  - creative-branch-navier-stokes-3
+  - creative-branch-navier-stokes-4
+branch_pool:
+- &1
+  branch_id: creative-branch-navier-stokes-1
+  origin_obligation_id: marvin-upstream-269065c546af
+  origin_kind: lemma
+  source_status: unresolved
+  branch_type: local-lemma
+  pursuit_mode: co-dependent
+  candidate_claim: Isolate a bounded lemma showing that + spectral floor on K_D^\perp.
+  creative_move: Generate 2-3 bounded variants of the lemma and keep only the weakest
+    one that advances the proof chain.
+  invention_packet:
+    candidate_statement: Isolate a bounded lemma showing that + spectral floor on
+      K_D^\perp.
+    mediating_object: formal_local_object
+    proof_sketch:
+    - State the weakest exact claim that would advance `marvin-upstream-269065c546af`
+      without expanding the theorem target.
+    - Define or isolate the mediating object on the current carrier/window/sector
+      only.
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `+ spectral floor on K_D^\perp`.
+    - Show how that object converts one already-grounded local statement into the
+      next missing step.
+    - Reject the move if it introduces new global scope, hidden imports, or a stronger
+      claim than the frozen frontier needs.
+    falsification_checks:
+    - Does the move preserve the frozen theorem target rather than redefining it?
+    - Can the candidate be stated on already-grounded objects without importing a
+      new theory chapter?
+    - Does it reduce at least one open obligation or turn a frontier statement into
+      a local discharge target?
+    scope_guard: Formalize only what the current theorem target needs next.
+  grounded_basis:
+  - warrant-theorem-2.1
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-269065c546af
+  risk_level: medium
+  notes:
+  - This branch starts at the first unresolved frontier.
+  - This branch is machine-derived beyond the current frozen core.
+  - Use the weakest sufficient move; do not inflate the theorem target.
+  recommended_next_cell_type: debt-extract
+  recommended_next_action: 'Creative theorem search selected `marvin-upstream-269065c546af`.
+    Reopen debt-extract and type the missing object or local lemma explicitly: + spectral
+    floor on K_D^\perp.'
+  merge_policy: quarantined-until-promoted
+- branch_id: creative-branch-navier-stokes-2
+  origin_obligation_id: marvin-upstream-558cbb8323fd
+  origin_kind: lemma
+  source_status: unresolved
+  branch_type: local-lemma
+  pursuit_mode: co-dependent
+  candidate_claim: Isolate a bounded lemma showing that with the coherent class controlling
+    `X_ pers  ` and the spectral floor.
+  creative_move: Generate 2-3 bounded variants of the lemma and keep only the weakest
+    one that advances the proof chain.
+  invention_packet:
+    candidate_statement: Isolate a bounded lemma showing that with the coherent class
+      controlling `X_ pers  ` and the spectral floor.
+    mediating_object: formal_local_object
+    proof_sketch:
+    - State the weakest exact claim that would advance `marvin-upstream-558cbb8323fd`
+      without expanding the theorem target.
+    - Define or isolate the mediating object on the current carrier/window/sector
+      only.
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `with the coherent class controlling
+      `X_ pers  ` and the spectral floor`.
+    - Show how that object converts one already-grounded local statement into the
+      next missing step.
+    - Reject the move if it introduces new global scope, hidden imports, or a stronger
+      claim than the frozen frontier needs.
+    falsification_checks:
+    - Does the move preserve the frozen theorem target rather than redefining it?
+    - Can the candidate be stated on already-grounded objects without importing a
+      new theory chapter?
+    - Does it reduce at least one open obligation or turn a frontier statement into
+      a local discharge target?
+    scope_guard: Formalize only what the current theorem target needs next.
+  grounded_basis:
+  - warrant-theorem-2.1
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-558cbb8323fd
+  risk_level: medium
+  notes:
+  - This branch is machine-derived beyond the current frozen core.
+  - Use the weakest sufficient move; do not inflate the theorem target.
+  recommended_next_cell_type: debt-extract
+  recommended_next_action: 'Creative theorem search selected `marvin-upstream-558cbb8323fd`.
+    Reopen debt-extract and type the missing object or local lemma explicitly: with
+    the coherent class controlling `X_ pers  ` and the spectral floor.'
+  merge_policy: quarantined-until-promoted
+- branch_id: creative-branch-navier-stokes-3
+  origin_obligation_id: marvin-upstream-5d4a55021542
+  origin_kind: lemma
+  source_status: unresolved
+  branch_type: local-lemma
+  pursuit_mode: co-dependent
+  candidate_claim: Isolate a bounded lemma showing that `Obs _ glue  `,.
+  creative_move: Generate 2-3 bounded variants of the lemma and keep only the weakest
+    one that advances the proof chain.
+  invention_packet:
+    candidate_statement: Isolate a bounded lemma showing that `Obs _ glue  `,.
+    mediating_object: formal_local_object
+    proof_sketch:
+    - State the weakest exact claim that would advance `marvin-upstream-5d4a55021542`
+      without expanding the theorem target.
+    - Define or isolate the mediating object on the current carrier/window/sector
+      only.
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for ``Obs _ glue  `,`.
+    - Show how that object converts one already-grounded local statement into the
+      next missing step.
+    - Reject the move if it introduces new global scope, hidden imports, or a stronger
+      claim than the frozen frontier needs.
+    falsification_checks:
+    - Does the move preserve the frozen theorem target rather than redefining it?
+    - Can the candidate be stated on already-grounded objects without importing a
+      new theory chapter?
+    - Does it reduce at least one open obligation or turn a frontier statement into
+      a local discharge target?
+    scope_guard: Formalize only what the current theorem target needs next.
+  grounded_basis:
+  - warrant-theorem-2.1
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-5d4a55021542
+  risk_level: medium
+  notes:
+  - This branch is machine-derived beyond the current frozen core.
+  - Use the weakest sufficient move; do not inflate the theorem target.
+  recommended_next_cell_type: debt-extract
+  recommended_next_action: 'Creative theorem search selected `marvin-upstream-5d4a55021542`.
+    Reopen debt-extract and type the missing object or local lemma explicitly: `Obs
+    _ glue  `,.'
+  merge_policy: quarantined-until-promoted
+- branch_id: creative-branch-navier-stokes-4
+  origin_obligation_id: marvin-upstream-8880078593dc
+  origin_kind: lemma
+  source_status: unresolved
+  branch_type: local-lemma
+  pursuit_mode: co-dependent
+  candidate_claim: Isolate a bounded lemma showing that prove that the persistent
+    obstruction/support readout globalizes strongly.
+  creative_move: Generate 2-3 bounded variants of the lemma and keep only the weakest
+    one that advances the proof chain.
+  invention_packet:
+    candidate_statement: Isolate a bounded lemma showing that prove that the persistent
+      obstruction/support readout globalizes strongly.
+    mediating_object: formal_local_object
+    proof_sketch:
+    - State the weakest exact claim that would advance `marvin-upstream-8880078593dc`
+      without expanding the theorem target.
+    - Define or isolate the mediating object on the current carrier/window/sector
+      only.
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `prove that the persistent
+      obstruction/support readout globalizes strongly`.
+    - Show how that object converts one already-grounded local statement into the
+      next missing step.
+    - Reject the move if it introduces new global scope, hidden imports, or a stronger
+      claim than the frozen frontier needs.
+    falsification_checks:
+    - Does the move preserve the frozen theorem target rather than redefining it?
+    - Can the candidate be stated on already-grounded objects without importing a
+      new theory chapter?
+    - Does it reduce at least one open obligation or turn a frontier statement into
+      a local discharge target?
+    scope_guard: Formalize only what the current theorem target needs next.
+  grounded_basis:
+  - warrant-theorem-2.1
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-8880078593dc
+  risk_level: medium
+  notes:
+  - This branch is machine-derived beyond the current frozen core.
+  - Use the weakest sufficient move; do not inflate the theorem target.
+  recommended_next_cell_type: debt-extract
+  recommended_next_action: 'Creative theorem search selected `marvin-upstream-8880078593dc`.
+    Reopen debt-extract and type the missing object or local lemma explicitly: prove
+    that the persistent obstruction/support readout globalizes strongly.'
+  merge_policy: quarantined-until-promoted
+candidate_archive:
+- origin_obligation_id: marvin-upstream-269065c546af
+  origin_kind: lemma
+  label: "+ spectral floor on K_D^\\perp"
+  status: unresolved
+  promoted_into_branch_pool: true
+- origin_obligation_id: marvin-upstream-558cbb8323fd
+  origin_kind: lemma
+  label: with the coherent class controlling `X_ pers  ` and the spectral floor
+  status: unresolved
+  promoted_into_branch_pool: true
+- origin_obligation_id: marvin-upstream-5d4a55021542
+  origin_kind: lemma
+  label: "`Obs _ glue  `,"
+  status: unresolved
+  promoted_into_branch_pool: true
+- origin_obligation_id: marvin-upstream-8880078593dc
+  origin_kind: lemma
+  label: prove that the persistent obstruction/support readout globalizes strongly
+  status: unresolved
+  promoted_into_branch_pool: true
+- origin_obligation_id: marvin-upstream-0fdc65ea42d5
+  origin_kind: lemma
+  label: but Hodge still has to prove that persistent support on that object globalizes
+  status: unresolved
+  promoted_into_branch_pool: false
+selected_branch: *1
+summary:
+  candidate_count: 5
+  candidate_archive_count: 5
+  sandbox_mode: single-branch-sandbox
+  active_branch_ids:
+  - creative-branch-navier-stokes-1
+  - creative-branch-navier-stokes-2
+  - creative-branch-navier-stokes-3
+  - creative-branch-navier-stokes-4
+  selected_branch_id: creative-branch-navier-stokes-1
+  selected_next_cell_type: debt-extract
+  intervention_needed: true

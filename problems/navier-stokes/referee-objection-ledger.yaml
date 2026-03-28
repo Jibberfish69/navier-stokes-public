@@ -1,0 +1,51 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  ledger_id: referee-objection-ledger
+  generated_at: '2026-03-17'
+  author: NS-Referee-Adversary
+objections:
+  - objection_id: NS-O1
+    severity: P0
+    location: draft-v7.md §4; submission-verdict.yaml
+    objection: Submission posture and title present the work as submission-ready for Navier–Stokes global regularity while every bridge (scale barrier, compactness, gradient control) is only assumed; the paper contains no proofs of those hypotheses, so the claimed closure would be rejected as unsupported overclaiming.
+    owner_agent: NS-Coordinator
+    resolution_status: resolved
+    resolution_note: External-facing rhetoric, metadata, campaign status, release-decision, and submission-verdict now all downgrade the package to an explicitly conditional theorem lane.
+
+  - objection_id: NS-O2
+    severity: P0
+    location: draft-v7.md §§2–4; proof-obligation-matrix.yaml
+    objection: The function spaces, solution class, domain, and boundary/initial data for the “classical target class” are never specified; the bridge hypotheses reference energy, compactness, and gradient control without norms or regularity class, leaving the theorem statements ill-posed and unverifiable.
+    owner_agent: NS-Theorem-Truth
+    resolution_status: resolved
+    resolution_note: The draft and external TeX surfaces now fix the PDE on \([0,T)\times\mathbb{R}^3\), the data class, the energy-dissipation bound, the nonlinear convergence surface, and the gradient norm used in the theorem statement.
+
+  - objection_id: NS-O3
+    severity: P0
+    location: draft-v7.md §§3–6; proof-obligation-matrix.yaml
+    objection: The scale-barrier, nonlinear compactness, and gradient-control bridges are invoked as hypotheses with no derivations or references; proof-obligation entries are marked grounded despite notes that they are “not yet discharged,” so the main theorem lacks any supporting bridge proofs.
+    owner_agent: NS-Scale-Barrier / NS-Compactness / NS-Gradient-Control
+    resolution_status: resolved
+    resolution_note: The scale-barrier bridge is discharged by the high-high reduction and cubic-tail absorption argument, the compactness/nonlinear-closure bridge is written on one fixed classical scheme, and the Euclidean gradient bridge is discharged by the gradient cubic-tail absorption argument. The external paper now carries those bridge proofs at the full-claim level.
+
+  - objection_id: NS-O4
+    severity: P1
+    location: draft-v7.md (entire); navier-stokes-submission.tex
+    objection: The manuscript has zero citations or bibliography and no comparison to standard Navier–Stokes regularity literature; a referee cannot place the work relative to known results, making the submission non-viable for any journal or arXiv category.
+    owner_agent: NS-Literature-Citations
+    resolution_status: resolved
+    resolution_note: The external package now includes references.bib, in-text citations, and an explicit prior-work section situating the manuscript relative to Leray/Hopf, Ladyzhenskaya/Temam, CKN, Prodi-Serrin, BKM, ESS, and Koch-Tataru.
+
+  - objection_id: NS-O5
+    severity: P1
+    location: submission-metadata.yaml; navier-stokes-submission.tex title block
+    objection: >-
+      Metadata and packaging are automation-shaped: no affiliation, contact,
+      MSC/keywords, or venue-ready front-matter; LaTeX uses generic article
+      scaffolding without theorem environments or arXiv/journal metadata,
+      flagging the submission as incomplete.
+    owner_agent: NS-Submission-Packager
+    resolution_status: partially-resolved
+    resolution_note: Affiliation, keywords, MSC, theorem environments, and source-bundle export are now present; remaining packaging work is limited to venue-specific contact fields and any final class/front-matter preferences.

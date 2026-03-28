@@ -1,0 +1,140 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  frontier_id: source-frontier-navier-stokes
+  generated_at: '2026-03-28T01:25:08Z'
+  generator: system/runner/lib/source_frontier_builder.rb
+  source_theorem_packet_id: theorem-packet-navier-stokes
+  source_matrix_id: proof-obligation-matrix-navier-stokes
+source_artifacts:
+- problems/navier-stokes/obstruction-capture.md
+- problems/navier-stokes/spine.md
+- problems/navier-stokes/claim-ladder.md
+- problems/navier-stokes/formalization-ledger.md
+- problems/navier-stokes/debt-map.yaml
+- system/meta/collaboration/marvin-feeds/navier-stokes.yaml
+- problems/navier-stokes/marvin-ingest-notes.yaml
+grounded_core:
+  theorem_statement: 'A serious source-grounded four-principle route exists in the
+    handed Navier-Stokes corpus: scale barrier, monotone functional Q(t), non-Sobolev
+    compactness, and curvature-based regularity.'
+  grounded_obligations:
+  - obligation_id: theorem-statement
+    kind: theorem-statement
+    label: 'A serious source-grounded four-principle route exists in the handed Navier-Stokes
+      corpus: scale barrier, monotone functional Q(t), non-Sobolev compactness, and
+      curvature-based regularity.'
+    status: grounded
+    source_anchor: problems/navier-stokes/claim-ladder.md
+  - obligation_id: warrant-theorem-2.1
+    kind: lemma
+    label: Theorem 2.1 (Classical Closure)
+    status: grounded
+    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  - obligation_id: debt-d1-projected-nc-flow-well-posedness
+    kind: lemma
+    label: Prove D.1 projected NC-flow well-posedness
+    status: grounded
+    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  - obligation_id: debt-d2-global-coercive-energy-estimate
+    kind: lemma
+    label: Prove D.2 global coercive energy estimate
+    status: grounded
+    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  last_source_supported_step:
+    obligation_id: debt-d2-global-coercive-energy-estimate
+    kind: lemma
+    label: Prove D.2 global coercive energy estimate
+    status: grounded
+    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+frontier:
+  first_unresolved_obligation:
+    obligation_id: marvin-upstream-8e939525d3f2
+    kind: definition
+    label: replace the torus carrier block by a continuum coherent sector for curved
+      D.
+    status: unresolved
+    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  unresolved_obligations:
+  - obligation_id: marvin-upstream-8e939525d3f2
+    kind: definition
+    label: replace the torus carrier block by a continuum coherent sector for curved
+      D.
+    status: unresolved
+    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  - obligation_id: marvin-upstream-2adc051dd3a8
+    kind: definition
+    label: construct theorem-grade measure / dynamics on the global twisted continuum
+    status: unresolved
+    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  - obligation_id: marvin-upstream-16fa51055da0
+    kind: definition
+    label: The exact sector does not define the physical carrier.
+    status: unresolved
+    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  - obligation_id: marvin-upstream-269065c546af
+    kind: lemma
+    label: "+ spectral floor on K_D^\\perp"
+    status: unresolved
+    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  - obligation_id: marvin-upstream-558cbb8323fd
+    kind: lemma
+    label: with the coherent class controlling `X_ pers  ` and the spectral floor
+    status: unresolved
+    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  - obligation_id: marvin-upstream-5d4a55021542
+    kind: lemma
+    label: "`Obs _ glue  `,"
+    status: unresolved
+    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  - obligation_id: marvin-upstream-8880078593dc
+    kind: lemma
+    label: prove that the persistent obstruction/support readout globalizes strongly
+    status: unresolved
+    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  - obligation_id: marvin-upstream-0fdc65ea42d5
+    kind: lemma
+    label: but Hodge still has to prove that persistent support on that object globalizes
+    status: unresolved
+    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  focus_source: marvin-ingest.promoted-proof-packets
+  active_frontier_labels:
+  - '{"burden_id"=>"burden-final-theorem-warrant", "label"=>"Promote the locally discharged
+    bridge family through the final theorem warrant", "kind"=>"theorem-warrant"}'
+  - '{"burden_id"=>"burden-named-monotone-bridge-explanation", "label"=>"Sync the
+    dedicated Q(t) bridge explanation into the rebuilt proof matrix", "kind"=>"paper-legibility"}'
+  - '{"burden_id"=>"burden-d1-projected-flow-well-posedness", "label"=>"Prove D.1
+    projected NC-flow well-posedness on a closed graph domain", "kind"=>"theorem-frontier"}'
+  - '{"burden_id"=>"burden-d2-global-coercive-energy", "label"=>"Prove D.2 global
+    coercive energy estimate for the projected NC flow", "kind"=>"theorem-frontier"}'
+  - '{"burden_id"=>"burden-h1-certification-inputs", "label"=>"Certify H.1 constants/domain
+    inputs A-E on the chosen NS theorem surface", "kind"=>"theorem-frontier"} (see
+    `theorem-construction/h1-carrier-leakage-direct-completion.md`, section `Certified
+    Hypothesis H`)'
+  - '{"burden_id"=>"burden-d3-d4-shadow-interface", "label"=>"Prove D.3 exact lift
+    descent and D.4 continuation from NC coercive control", "kind"=>"theorem-frontier"}'
+  authoritative_topics:
+  - interdependencies among principles
+  - monotone functional
+  - compactness discrete solutions
+  - curvature based
+  - gradient control through geometric
+  - initial data l2
+  - non sobolev compactness
+  - scale barrier principle
+  missing_authoritative_topics:
+  - interdependencies among principles
+  - compactness discrete solutions
+  boundary_rule: Everything beyond the grounded core is machine extension until it
+    survives falsification and promotion.
+  extension_policy: Machine branches may build beyond this frontier, but they must
+    remain provenance-labeled and quarantined from the frozen core.
+summary:
+  grounded_count: 4
+  bridge_pending_count: 0
+  unresolved_count: 8
+  suppressed_unresolved_count: 49
+  authoritative_gap_count: 2
+  freeze_recommended: true

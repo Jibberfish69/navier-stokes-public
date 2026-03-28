@@ -1,0 +1,784 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  matrix_id: proof-obligation-matrix-navier-stokes
+  generated_at: '2026-03-28T01:25:08Z'
+  generator: system/runner/lib/proof_obligation_matrix_builder.rb
+  source_theorem_packet_id: theorem-packet-navier-stokes
+  source_review_verdict_id: review-verdict-navier-stokes
+posture:
+  theorem_target: the classical 3D Navier-Stokes equations on the admissible Euclidean
+    data class fixed in the lane.
+  current_package_status: closed; scale, monotone, compactness, the post-monotone
+    cascade carrier, and the curvature-first fourth bridge are locally reconciled;
+    the projected NC-flow sidecar is now formalized as ontic theorem plus exact lift
+    plus classical corollary; the final theorem warrant and projected-flow theorems
+    are discharged.
+  standalone_status: closed
+  completion_tier_achieved: route-complete
+  review_verdict: conditional-pass
+obligations:
+- obligation_id: theorem-statement
+  kind: theorem-statement
+  label: 'A serious source-grounded four-principle route exists in the handed Navier-Stokes
+    corpus: scale barrier, monotone functional Q(t), non-Sobolev compactness, and
+    curvature-based regularity.'
+  status: grounded
+  source_anchor: problems/navier-stokes/claim-ladder.md
+  blocking: false
+  notes: []
+- obligation_id: debt-the-monotone-bridge-is-a-named-source-level-theorem-object-rather-than-generic-background-energy
+  kind: definition
+  label: The monotone bridge is a named source-level theorem object rather than generic
+    background energy.
+  status: unresolved
+  source_anchor: Millennium Prize Problems/Navier-Stokes/TeX/A Rigorous Theoretical
+    Framework for Global Regularity of the Navier–Stokes Equations.tex
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: debt-burden-id-burden-d1-projected-flow-well-posedness-label-prove-d-1-projected-nc-flow-well-posedness-on-a-closed-graph-domain-kind-theorem-frontier
+  kind: definition
+  label: '{"burden_id"=>"burden-d1-projected-flow-well-posedness", "label"=>"Prove
+    D.1 projected NC-flow well-posedness on a closed graph domain", "kind"=>"theorem-frontier"}'
+  status: unresolved
+  source_anchor: 'gap-ticket: burden-item'
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: required-definition-5
+  kind: definition
+  label: '{"burden_id"=>"burden-h1-certification-inputs", "label"=>"Certify H.1 constants/domain
+    inputs A-E on the chosen NS theorem surface", "kind"=>"theorem-frontier"} (see
+    `theorem-construction/h1-carrier-leakage-direct-completion.md`, section `Certified
+    Hypothesis H`)'
+  status: unresolved
+  source_anchor: 'formalization-ledger: Required Local Explanations For A Paper'
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: marvin-upstream-8e939525d3f2
+  kind: definition
+  label: replace the torus carrier block by a continuum coherent sector for curved
+    D.
+  status: unresolved
+  source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: marvin-upstream-2adc051dd3a8
+  kind: definition
+  label: construct theorem-grade measure / dynamics on the global twisted continuum
+  status: unresolved
+  source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: marvin-upstream-16fa51055da0
+  kind: definition
+  label: The exact sector does not define the physical carrier.
+  status: grounded
+  source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+  blocking: false
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+  - Local source evidence and the existing machine bridge hypothesis support promoting
+    this obligation from `unresolved` to `bridge-pending`.
+  - Local source evidence and the existing machine bridge hypothesis support promoting
+    this obligation from `bridge-pending` to `grounded`.
+  discharge_evidence:
+    matched_paths:
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-frontier.yaml"
+    - problems/navier-stokes/marvin-ingest-notes.yaml
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-priority-braids-note.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/four-body-regularity-circuit-and-ontic-extension.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/continuum-physical-sector-theorem-packet.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-flow-closure-proof-spine.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/persistent-carrier-projector-and-coercivity.md"
+    support_score: 155
+    signal_strength: strong
+    evidence_hits:
+    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+      line: 24
+      score: 25
+      label_overlap: 5
+      from_overlap: 5
+      to_overlap: 0
+      excerpt: "- The exact sector does not define the physical carrier. (`definition`;
+        `marvin-upstream-16fa51055da0`)"
+    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-frontier.yaml"
+      line: 74
+      score: 25
+      label_overlap: 5
+      from_overlap: 5
+      to_overlap: 0
+      excerpt: 'label: The exact sector does not define the physical carrier.'
+    - path: problems/navier-stokes/marvin-ingest-notes.yaml
+      line: 2754
+      score: 25
+      label_overlap: 5
+      from_overlap: 5
+      to_overlap: 0
+      excerpt: 'label: The exact sector does not define the physical carrier.'
+    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-priority-braids-note.md"
+      line: 29
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: "- `YMG` uses it to define the physical continuum sector and its carrier
+        closure;"
+    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/four-body-regularity-circuit-and-ontic-extension.md"
+      line: 150
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: The physical-sector defect budget, carrier energy, and leakage cost
+        remain
+    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/continuum-physical-sector-theorem-packet.md"
+      line: 284
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: "- Appendix B uses `E.2`, `E.3`, and `E.4` to turn the YMG carrier
+        into a physical-sector theorem package."
+    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-flow-closure-proof-spine.md"
+      line: 20
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: the Appendix A invariant `\mathcal I(X)`, the Appendix B carrier realization,
+        the Appendix C interface theorems, the Appendix D NS Clay frontier, and the
+        Appendix E continuum physical-sector packet determine a unique closed evolution
+        on the
+    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/persistent-carrier-projector-and-coercivity.md"
+      line: 318
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: 'Assume the persistent carrier is defined inside the co-closed physical
+        sector and exact modes carry trivial holonomy/support:'
+    discharge_id: dependency-discharge-navier-stokes
+    bridge_statement: Define the missing local object so that the exact sector does
+      not define the physical carrier. becomes explicit with domain, codomain, and
+      invariance conditions.
+- obligation_id: debt-the-source-faithful-curvature-based-fourth-bridge-is-explicit-selected-as-primary-and-locally-discharged
+  kind: lemma
+  label: The source-faithful curvature-based fourth bridge is explicit, selected as
+    primary, and locally discharged.
+  status: unresolved
+  source_anchor: ''
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: debt-the-projected-nc-flow-route-is-explicit-as-theorems-d-1-through-d-5-inside-the-ns-lane
+  kind: lemma
+  label: The projected NC-flow route is explicit as Theorems D.1 through D.5 inside
+    the NS lane.
+  status: unresolved
+  source_anchor: ''
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: debt-burden-id-burden-final-theorem-warrant-label-promote-the-locally-discharged-bridge-family-through-the-final-theorem-warrant-kind-theorem-warrant
+  kind: lemma
+  label: '{"burden_id"=>"burden-final-theorem-warrant", "label"=>"Promote the locally
+    discharged bridge family through the final theorem warrant", "kind"=>"theorem-warrant"}'
+  status: unresolved
+  source_anchor: 'gap-ticket: burden-item'
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: debt-burden-id-burden-named-monotone-bridge-explanation-label-sync-the-dedicated-q-t-bridge-explanation-into-the-rebuilt-proof-matrix-kind-paper-legibility
+  kind: lemma
+  label: '{"burden_id"=>"burden-named-monotone-bridge-explanation", "label"=>"Sync
+    the dedicated Q(t) bridge explanation into the rebuilt proof matrix", "kind"=>"paper-legibility"}'
+  status: unresolved
+  source_anchor: 'gap-ticket: burden-item'
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
+  kind: lemma
+  label: Keep theorem scope below the first unsafe overclaim
+  status: unresolved
+  source_anchor: 'claim-ladder: Lowest Safe Claim'
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: marvin-upstream-269065c546af
+  kind: lemma
+  label: "+ spectral floor on K_D^\\perp"
+  status: unresolved
+  source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+  - Local source evidence exists, but it is not yet specific enough to promote this
+    obligation beyond `unresolved` safely.
+  discharge_evidence:
+    matched_paths:
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-frontier.yaml"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/persistent-carrier-projector-and-coercivity.md"
+    - problems/navier-stokes/marvin-ingest-notes.yaml
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/braided-defect-readout-principle.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/clay-shared-core-theorem-library.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-priority-braids-note.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-shared-runner-transfer-note.md"
+    support_score: 100
+    signal_strength: strong
+    evidence_hits:
+    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+      line: 25
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: "- + spectral floor on K_D^\\perp (`lemma`; `marvin-upstream-269065c546af`)"
+    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-frontier.yaml"
+      line: 79
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: 'label: "+ spectral floor on K_D^\\perp"'
+    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/persistent-carrier-projector-and-coercivity.md"
+      line: 701
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: "- the spectral floor on `K_D^\\perp \\cap ker(\\delta_D)`,"
+    - path: problems/navier-stokes/marvin-ingest-notes.yaml
+      line: 2703
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: 'label: "+ spectral floor on K_D^\\perp"'
+    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/braided-defect-readout-principle.md"
+      line: 42
+      score: 10
+      label_overlap: 2
+      from_overlap: 2
+      to_overlap: 0
+      excerpt: "- spectral-floor persistence in `YMG`,"
+    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/clay-shared-core-theorem-library.md"
+      line: 53
+      score: 10
+      label_overlap: 2
+      from_overlap: 2
+      to_overlap: 0
+      excerpt: "- `YMG`: spectral-floor persistence on the carrier complement"
+    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-priority-braids-note.md"
+      line: 81
+      score: 10
+      label_overlap: 2
+      from_overlap: 2
+      to_overlap: 0
+      excerpt: controlled by no-leakage and spectral floor;
+    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-shared-runner-transfer-note.md"
+      line: 119
+      score: 10
+      label_overlap: 2
+      from_overlap: 2
+      to_overlap: 0
+      excerpt: so the spectral floor is visibly realized on the gauge-invariant witness
+    discharge_id: dependency-discharge-navier-stokes
+    bridge_statement: Discharge the local bridge for + spectral floor on K_D^\perp
+      without crossing the current safe-claim boundary.
+- obligation_id: marvin-upstream-558cbb8323fd
+  kind: lemma
+  label: with the coherent class controlling `X_ pers  ` and the spectral floor
+  status: unresolved
+  source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: marvin-upstream-5d4a55021542
+  kind: lemma
+  label: "`Obs _ glue  `,"
+  status: unresolved
+  source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: marvin-upstream-8880078593dc
+  kind: lemma
+  label: prove that the persistent obstruction/support readout globalizes strongly
+  status: unresolved
+  source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: marvin-upstream-0fdc65ea42d5
+  kind: lemma
+  label: but Hodge still has to prove that persistent support on that object globalizes
+  status: unresolved
+  source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: warrant-theorem-2.1
+  kind: lemma
+  label: Theorem 2.1 (Classical Closure)
+  status: grounded
+  source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+  - Theorem-to-warrant marks this theorem claim as `conditional`.
+  - The lane now contains concrete discharge loci for scale, monotone, compactness,
+    and the realized classical carrier sidecar. However, the authoritative export
+    theorem remains conditional, and the source-faithful curvature-based fourth bridge
+    has not yet been promoted to a same-surface Euclidean continuation theorem. The
+    realized carrier theorem in `theorem-construction/carrier-realization-classical-identification.md`
+    closes the classical import ambiguity for the projected-flow sidecar, but it does
+    not by itself discharge the primary fourth bridge or the closed-loop warrant on
+    the declared theorem surface.
+- obligation_id: debt-d1-projected-nc-flow-well-posedness
+  kind: lemma
+  label: Prove D.1 projected NC-flow well-posedness
+  status: grounded
+  source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+- obligation_id: debt-d2-global-coercive-energy-estimate
+  kind: lemma
+  label: Prove D.2 global coercive energy estimate
+  status: grounded
+  source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+- obligation_id: proof-dependency-1
+  kind: proof-dependency
+  label: The Clay target is the classical 3D equation on admissible data -> Success
+    for regularized or morphic-regularized equations does not close the original problem
+  status: unresolved
+  source_anchor: Later theorem prose depends on the earlier claim being localized
+    first.
+  blocking: true
+  notes:
+  - Dependency chain is still only structural; the proof links are not yet discharged
+    into a submission-safe theorem packet.
+- obligation_id: proof-dependency-2
+  kind: proof-dependency
+  label: Success for regularized or morphic-regularized equations does not close the
+    original problem -> The original framework names a monotone functional `Q(t)`
+    as a bridge, not just unnamed baseline energy
+  status: unresolved
+  source_anchor: Later theorem prose depends on the earlier claim being localized
+    first.
+  blocking: true
+  notes:
+  - Dependency chain is still only structural; the proof links are not yet discharged
+    into a submission-safe theorem packet.
+- obligation_id: proof-dependency-3
+  kind: proof-dependency
+  label: The original framework names a monotone functional `Q(t)` as a bridge, not
+    just unnamed baseline energy -> Global energy or enstrophy control is necessary
+    but not sufficient
+  status: structurally-supported
+  source_anchor: Later theorem prose depends on the earlier claim being localized
+    first.
+  blocking: false
+  notes:
+  - Dependency chain is strongly supported by the recovered local object layer, but
+    it is not yet discharged as a formal submission-safe bridge.
+- obligation_id: proof-dependency-4
+  kind: proof-dependency
+  label: Global energy or enstrophy control is necessary but not sufficient -> The
+    live obstruction is the small-scale or high-frequency cascade that feeds blow-up
+  status: unresolved
+  source_anchor: Later theorem prose depends on the earlier claim being localized
+    first.
+  blocking: true
+  notes:
+  - Dependency chain is still only structural; the proof links are not yet discharged
+    into a submission-safe theorem packet.
+- obligation_id: proof-dependency-5
+  kind: proof-dependency
+  label: The live obstruction is the small-scale or high-frequency cascade that feeds
+    blow-up -> A classical dyadic tail or flux estimate must suppress dangerous high-frequency
+    transfer on the theorem surface
+  status: unresolved
+  source_anchor: Later theorem prose depends on the earlier claim being localized
+    first.
+  blocking: true
+  notes:
+  - Dependency chain is still only structural; the proof links are not yet discharged
+    into a submission-safe theorem packet.
+- obligation_id: proof-dependency-6
+  kind: proof-dependency
+  label: A classical dyadic tail or flux estimate must suppress dangerous high-frequency
+    transfer on the theorem surface -> The monotone functional must stabilize the
+    global energy/enstrophy layer and enable the compactness package on the same classical
+    surface
+  status: bridge-pending
+  source_anchor: Later theorem prose depends on the earlier claim being localized
+    first.
+  blocking: true
+  notes:
+  - Dependency chain direction is visible in the recovered route, but this bridge
+    still needs explicit local discharge before submission.
+- obligation_id: proof-dependency-7
+  kind: proof-dependency
+  label: The monotone functional must stabilize the global energy/enstrophy layer
+    and enable the compactness package on the same classical surface -> The scale-barrier
+    plus monotone-functional input must yield strong local compactness and nonlinear
+    tensor closure on a classical approximation family
+  status: structurally-supported
+  source_anchor: Later theorem prose depends on the earlier claim being localized
+    first.
+  blocking: false
+  notes:
+  - Dependency chain is strongly supported by the recovered local object layer, but
+    it is not yet discharged as a formal submission-safe bridge.
+- obligation_id: proof-dependency-8
+  kind: proof-dependency
+  label: The scale-barrier plus monotone-functional input must yield strong local
+    compactness and nonlinear tensor closure on a classical approximation family ->
+    A gradient-control bridge must force continuation control on the same theorem
+    surface
+  status: unresolved
+  source_anchor: Later theorem prose depends on the earlier claim being localized
+    first.
+  blocking: true
+  notes:
+  - Dependency chain is still only structural; the proof links are not yet discharged
+    into a submission-safe theorem packet.
+- obligation_id: proof-dependency-9
+  kind: proof-dependency
+  label: A gradient-control bridge must force continuation control on the same theorem
+    surface -> If the scale-barrier, monotone-functional, compactness, and gradient
+    packages all hold on one admissibility surface, the live singularity pathway is
+    eliminated
+  status: unresolved
+  source_anchor: Later theorem prose depends on the earlier claim being localized
+    first.
+  blocking: true
+  notes:
+  - Dependency chain is still only structural; the proof links are not yet discharged
+    into a submission-safe theorem packet.
+- obligation_id: debt-burden-id-burden-d2-global-coercive-energy-label-prove-d-2-global-coercive-energy-estimate-for-the-projected-nc-flow-kind-theorem-frontier
+  kind: blocked-frontier
+  label: '{"burden_id"=>"burden-d2-global-coercive-energy", "label"=>"Prove D.2 global
+    coercive energy estimate for the projected NC flow", "kind"=>"theorem-frontier"}'
+  status: frontier
+  source_anchor: creative-theorem-search
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: debt-burden-id-burden-d3-d4-shadow-interface-label-prove-d-3-exact-lift-descent-and-d-4-continuation-from-nc-coercive-control-kind-theorem-frontier
+  kind: blocked-frontier
+  label: '{"burden_id"=>"burden-d3-d4-shadow-interface", "label"=>"Prove D.3 exact
+    lift descent and D.4 continuation from NC coercive control", "kind"=>"theorem-frontier"}'
+  status: frontier
+  source_anchor: creative-theorem-search
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-4
+  kind: branch-choice
+  label: 'Persistent alignment priority:'
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-5
+  kind: branch-choice
+  label: They do not replace the direct legacy `NS` theorem-bearing corpus unless
+    a direct `NS` theorem file appears.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-6
+  kind: branch-choice
+  label: "[ns-carrier-commutator-coercive-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/Research-Consolidation/working-notes/ns-carrier-commutator-coercive-lemma.md)."
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-7
+  kind: branch-choice
+  label: with next local target still centered on the continuum Euclidean Yang--Mills
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-8
+  kind: branch-choice
+  label: Its job is to define the non-commutative Leray / Hodge projector rigorously
+    enough that the ontic flow, `YMG` carrier closure, and `Hodge` obstruction split
+    can all use the same physical-sector selector.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-9
+  kind: branch-choice
+  label: The persistent-carrier prose companion is [`working-notes/persistent-carrier-conceptual-scaffolding.md`](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/persistent-carrier-conceptual-scaffolding.md).
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-10
+  kind: branch-choice
+  label: Its job is to state the physical reading of the ontic `NC-NS` lift so `YMG`
+    and `Chat Y` can treat the flow picture consistently before theorem closure.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-11
+  kind: branch-choice
+  label: spacetime evolution does not leak out of the admissible carrier
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-12
+  kind: branch-choice
+  label: Its job is to explain the carrier-level reading of the refinement defect
+    split so `YMG` and `Chat Y` can treat the persistent part, the residual part,
+    and the support extraction layer as one physical story before theorem closure.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-13
+  kind: branch-choice
+  label: the `\Delta_{D,\omega}^{1/2}` norm is the closed Hilbert/coercive realization
+    used in the proofs
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-14
+  kind: branch-choice
+  label: It does not replace the `V6` budget identity, and it does not replace the
+    theorem-facing exact/persistent/tail split.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-15
+  kind: branch-choice
+  label: Take a local defect packet that has stabilized into a matter-like carrier.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-16
+  kind: branch-choice
+  label: It formalizes the persistent-carrier projector, the coercive residual estimate,
+    and the H2/H3 carrier form for the ontic `NC-NS` braid.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-17
+  kind: branch-choice
+  label: It extends the projected-generator and persistent-carrier notes with the
+    quantitative defect-growth estimate, the residual absorption theorem, and the
+    first clean H2/H3 carrier reductions.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-18
+  kind: branch-choice
+  label: It explains the physical meaning of the quantitative defect-growth block
+    so `YMG` and `Chat Y` can treat it as carrier-language rather than raw operator
+    bookkeeping.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-19
+  kind: branch-choice
+  label: persistent carrier isolation
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-20
+  kind: branch-choice
+  label: The gradient mismatch says the flow is not yet perfectly aligned with the
+    refined carrier.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-21
+  kind: branch-choice
+  label: The globalization step is structurally reduced to sheafification, and the
+    terminal realization step is now stated as the terminal primitive realisation
+    theorem below.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-22
+  kind: branch-choice
+  label: It explains why the persistent carrier still needs a global Hodge completion
+    step after the refinement, defect, and direct-limit work are in place.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-23
+  kind: branch-choice
+  label: It hardens the persistent carrier layer so the global coverage class stops
+    being only a scaffold and becomes a sheaf-level theorem package.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-24
+  kind: branch-choice
+  label: It explains why the persistent carrier needs a sheaf layer, not just a direct-limit
+    carrier, before the global Hodge completion can close.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-25
+  kind: branch-choice
+  label: be the presheaf of persistent carrier sections, and define
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-26
+  kind: branch-choice
+  label: the Appendix A invariant `\mathcal I(X)`, the Appendix B carrier realization,
+    the Appendix C interface theorems, the Appendix D NS Clay frontier, and the Appendix
+    E continuum physical-sector packet determine a unique closed evolution on the
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-27
+  kind: branch-choice
+  label: It points to Appendix B in [`working-notes/ontic-flow-closure-proof-spine.md`](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-flow-closure-proof-spine.md),
+    where the Appendix A invariant is read as the YMG carrier
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-28
+  kind: branch-choice
+  label: It was unpacked into the operator, carrier, and continuum packets so the
+    braid could be built cleanly.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-29
+  kind: branch-choice
+  label: It is the transport-law realization itself.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-30
+  kind: branch-choice
+  label: defect decomposition into exact, carrier, and residual parts
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-31
+  kind: branch-choice
+  label: This note packages the continuum physical-sector packet in proof-facing form.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-32
+  kind: branch-choice
+  label: overlap/globalization selection in `Hodge`.
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: marvin-route-authority-33
+  kind: branch-choice
+  label: "[`working-notes/continuum-physical-sector-theorem-packet.md`](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/continuum-physical-sector-theorem-packet.md)"
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+summary:
+  total_obligations: 61
+  grounded_count: 5
+  structural_only_count: 0
+  structurally_supported_count: 2
+  bridge_pending_count: 1
+  unresolved_count: 21
+  frontier_count: 32
+  blocking_count: 54
+  all_discharged: false
+submission_blockers:
+- There are 21 unresolved proof obligations.
+- There are 1 bridge obligations still awaiting local discharge.
+- There are 32 frontier obligations still inside the theorem packet.

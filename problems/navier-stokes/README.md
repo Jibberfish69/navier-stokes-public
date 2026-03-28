@@ -14,3 +14,15 @@ It is not:
 - the shared theorem graph
 - the runtime or orchestration repo
 - the cross-project manuscript authority root
+
+## Imported Tranches
+
+- `import-v1-top-level-theorem-bootstrap`
+  - imports top-level NS theorem and source-recovery surfaces from the current
+    forensic-corpus-backed lane root
+  - excludes runtime control, external paper packaging, and heavy forensic bulk
+
+See:
+
+- `docs/import-plan-v1.md`
+- `docs/import-inventory-v1.yaml`

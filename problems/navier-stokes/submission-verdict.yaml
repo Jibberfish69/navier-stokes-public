@@ -1,0 +1,243 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  verdict_id: submission-verdict-navier-stokes
+  generated_at: '2026-03-28T01:25:08Z'
+  generator: system/runner/lib/submission_verdict_builder.rb
+  source_review_verdict_id: review-verdict-navier-stokes
+  source_theorem_packet_id: theorem-packet-navier-stokes
+  source_matrix_id: proof-obligation-matrix-navier-stokes
+submission_posture: not-ready
+submission_ready: false
+review_alignment:
+  review_verdict: conditional-pass
+  release_posture: revise-loop
+  completion_tier_achieved: route-complete
+  standalone_status: revise
+  current_package_status: closed; scale, monotone, compactness, the post-monotone
+    cascade carrier, and the curvature-first fourth bridge are locally reconciled;
+    the projected NC-flow sidecar is now formalized as ontic theorem plus exact lift
+    plus classical corollary; the final theorem warrant and projected-flow theorems
+    are discharged.
+manuscript_surface:
+  draft_v6:
+    path: problems/navier-stokes/draft-v6.md
+    kind: draft
+  draft_v7:
+    path: problems/navier-stokes/draft-v7.md
+    kind: draft
+  review_observations:
+    primary_manuscript:
+      artifact: 
+      path: problems/navier-stokes/draft-v8.md
+      present: true
+      role: primary-manuscript
+      sha1: 8d3c9970a5d9bab8122eea2900a4a1f6f216fea3
+      bytes: 9083
+      modified_at: '2026-03-24T21:52:19Z'
+    submission_export_status:
+      artifact: submission_export_status
+      path: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+      present: true
+      sha1: 636fa3354b60584c0d031bebd1c8a0575700e716
+      bytes: 476
+      modified_at: '2026-03-24T21:56:45Z'
+    typeset_audit:
+      artifact: typeset_audit
+      path: problems/navier-stokes/submission-bundle/typeset-audit.yaml
+      present: true
+      sha1: 39b5ebf595fd47645500fef6aba19bf7e12fbf87
+      bytes: 256
+      modified_at: '2026-03-24T21:56:45Z'
+  recommended_submission_surface: problems/navier-stokes/draft-v7.md
+manuscript_depth:
+  version: 1
+  identity:
+    problem_id: navier-stokes
+    display_name: Navier-Stokes Global Regularity
+    generated_at: '2026-03-28T01:25:08Z'
+    generator: system/runner/lib/manuscript_depth_builder.rb
+  surface_path: problems/navier-stokes/draft-v7.md
+  classification: proof-manuscript
+  metrics:
+    word_count: 3068
+    heading_count: 21
+    theorem_marker_count: 17
+    proof_heading_count: 8
+    summary_marker_count: 0
+    source_realization_marker_count: 0
+    source_anchor_count: 0
+  submission_safe: true
+  rationale: The manuscript is long enough and contains theorem/proof structure dense
+    enough to count as a real proof-bearing paper surface.
+lane_classification:
+  version: 1
+  identity:
+    problem_id: navier-stokes
+    display_name: Navier-Stokes Global Regularity
+    generated_at: '2026-03-17T00:55:52Z'
+    generator: system/runner/lib/lane_classification_builder.rb
+  mode: hybrid
+  source_authority: authoritative-external
+  proof_present: true
+  theorem_search_required: true
+  paperization_required: true
+  signals:
+    default_mode: theorem-open
+    proof_bearing_source: true
+    manuscript_classification: substantial-draft
+    blocking_count: 7
+    source_note_count: 0
+    paper_quality_pass: true
+paper_quality_verdict:
+  version: 1
+  identity:
+    problem_id: navier-stokes
+    display_name: Navier-Stokes Global Regularity
+    generated_at: '2026-03-25T00:55:10Z'
+    generator: system/runner/lib/paper_quality_verdict_builder.rb
+  manuscript_kind: conditional-route-manuscript
+  mainline_anchor_count: 0
+  duplicate_heading_count: 0
+  forward_reference_count: 0
+  non_core_before_core_count: 0
+  proof_explanation_score: 10
+  typeset_status: typeset
+  overfull_box_count: 0
+  overfull_box_count_gt_20pt: 0
+  max_overfull_box_pt: 0.0
+  author_present: true
+  paper_architecture_present: true
+  pass: false
+  required_fixes:
+  - keep all export surfaces at the conditional route theorem boundary
+  - promote the fourth bridge and the closed-loop warrant on the declared Euclidean
+    theorem surface before release
+  recommended_next_cell_type: honesty-review
+submission_export_status:
+  version: 1
+  problem_id: navier-stokes
+  generated_at: '2026-03-24T21:56:36Z'
+  status: exported
+  render_quality: typeset
+  manuscript_source: problems/navier-stokes/external-paper/main.tex
+  bundle_dir: problems/navier-stokes/external-paper
+  pdf: problems/navier-stokes/external-paper/main.pdf
+  compiler: "/Library/TeX/texbin/latexmk"
+  stdout: |
+    latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
+    Output written on main.pdf (9 pages, 313415 bytes).
+  stderr: ''
+  fallback: 
+typeset_audit:
+  version: 1
+  problem_id: navier-stokes
+  generated_at: '2026-03-24T21:56:36Z'
+  status: exported
+  render_quality: typeset
+  overfull_box_count: 0
+  overfull_box_count_gt_20pt: 0
+  max_overfull_box_pt: 0.0
+  undefined_control_sequence_count: 0
+  missing_dollar_count: 0
+target_fidelity:
+  class: authority-conflict
+  terminal_safe: false
+  explicit_nonterminal_overlay: true
+  issues:
+  - 'Target fidelity failure: authoritative lane overlays still mark the full-claim
+    package as conditional, externally overridden, blocked, or burdened by open critical
+    objections.'
+  required_before_terminal_release:
+  - Clear the authoritative nonterminal overlays by discharging the blocked theorem
+    bridges or keeping the package explicitly nonterminal.
+  signals:
+    conditional_main_theorem: false
+    overlay_block_risk: true
+    objective_collapse_risk: false
+    conditional_markers: []
+    strong_regularization_markers: []
+    regularization_markers:
+    - surrogate
+    transfer_markers:
+    - bridge
+    - comparison
+    authoritative_export_surface: problems/navier-stokes/external-paper/main.tex
+    bundle_manifest_source: problems/navier-stokes/external-paper/main.tex
+    bundle_source_mismatch: false
+    current_theorem_surface_id: theorem-surface-navier-stokes-a9e6645ebc56
+    bundle_theorem_surface_id: ''
+    current_route_signature: a9e6645ebc5665054de33c3ecc7cf66d168b98d7
+    bundle_route_signature: ''
+    bundle_surface_mismatch: false
+    open_critical_referee_objections: []
+theorem_packet:
+  packet_complete: false
+  export_ready: false
+  blocker_count: 4
+proof_obligation_summary:
+  total_obligations: 61
+  grounded_count: 4
+  structural_only_count: 0
+  structurally_supported_count: 2
+  bridge_pending_count: 1
+  unresolved_count: 22
+  frontier_count: 32
+  bridge_discharge_blocking_count: 0
+  theorem_warrant_blocking_count: 0
+  blocking_count: 55
+  all_discharged: false
+blockers:
+- There are 6 unresolved definition/object obligations.
+- There are 10 unresolved lemma obligations.
+- There are 33 frontier or route-choice blockers still inside the theorem packet.
+- 'The authoritative source stack still contains unmodeled theorem structures: interdependencies
+  among principles, compactness discrete solutions.'
+- There are 22 unresolved proof obligations.
+- There are 1 bridge obligations still awaiting local discharge.
+- There are 32 frontier obligations still inside the theorem packet.
+- Completion tier is still `route-complete`, below a paper-complete or full-closure
+  submission surface.
+- Honesty review verdict is still `conditional-pass`.
+- 'Target fidelity failure: authoritative lane overlays still mark the full-claim
+  package as conditional, externally overridden, blocked, or burdened by open critical
+  objections.'
+- Stand-alone status remains `revise`.
+- Paper quality verdict did not pass; the manuscript still fails architecture, prose,
+  or submission-shape checks.
+required_before_submission:
+- Discharge every unresolved proof obligation in `proof-obligation-matrix.yaml`.
+- Discharge the remaining bridge obligations in `proof-obligation-matrix.yaml` and
+  convert them from route support into explicit theorem-safe bridges.
+- Remove every frontier or route-choice blocker from the theorem packet.
+- Run the paperization stack until paper architecture, prose quality, and submission-shape
+  checks pass.
+- Clear the revise posture in the formalization and review surfaces.
+- Re-derive the result on the original MPP target rather than on a conditional or
+  regularized surrogate package.
+- 'Resolve theorem-packet blocker: closed-loop warrant discharge on the declared theorem
+  surface'
+- Keep the current primary prose surface live and rerun honesty-review against that
+  real draft rather than a planning surface.
+- Localize the proof debt named in `formalization-ledger.md` inside the local package.
+- Keep unresolved or extension-side routes explicitly outside the theorem spine.
+- Replace the conditional theorem posture with a derivation on the original MPP object,
+  or explicitly downgrade the package to a nonterminal conditional output.
+- Clear the authoritative nonterminal overlays by discharging the blocked theorem
+  bridges or keeping the package explicitly nonterminal.
+- Discharge the assumed bridge structure directly enough that the paper proves the
+  original MPP target rather than only a consequence of stronger assumed inputs.
+adversarial_findings:
+- The current package still outruns its locally discharged theorem support.
+- The route shape is strong, but key bridge steps are still only supported structurally
+  rather than discharged explicitly.
+- The theorem route may be closed, but the paper itself still fails architecture or
+  prose-quality standards.
+- The formal review surfaces would still let a referee attack undefined or weakly
+  grounded bridges.
+- The paper still does not prove the original MPP target directly; it remains conditional,
+  surrogate-scoped, or transfer-only.
+recommended_next_action: Return the package upstream and discharge the blockers named
+  in this verdict before attempting submission again.

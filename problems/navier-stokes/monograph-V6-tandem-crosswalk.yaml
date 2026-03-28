@@ -1,0 +1,77 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  artifact_id: monograph-V6-tandem-crosswalk-navier-stokes
+  generated_at: '2026-03-25T16:40:45Z'
+  generator: lane-local-marvin-sync
+purpose:
+  summary: Shared theorem crosswalk for `chat2` in Research-Consolidation and the
+    monograph-V6 extraction lane handled by Chat Y. The goal is to synchronize the
+    source-grounded four-bridge Navier-Stokes program without letting synthesis notes
+    silently replace the direct proof-bearing NS corpus.
+shared_bridge_interface:
+  summary: Chat 2 owns the direct Navier-Stokes theorem lane. Chat Y extracts and
+    synthesizes monograph-V6 notes. The two meet at one lane-local export pack that
+    names authoritative proof sources, current bridge state, and safe import targets.
+  interface_surfaces:
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/proof-source-pack.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/authoritative-source-discovery.yaml"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-grounded-framework-map.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-to-warrant.yaml"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/v6-four-bridge-source-note.md"
+  branch_split:
+  - 'direct-proof lane: legacy Navier-Stokes TeX/PDF corpus'
+  - 'synthesis lane: monograph-V6 / Marvin / Chat Y working notes'
+  - 'localization lane: Navier-Stokes bridge memos, theorem construction, and solver-facing
+    packet surfaces'
+shared_current_state:
+  monograph_v6_root_present: true
+  direct_ns_v6_problem_folder_present: false
+  direct_proof_pack_ready: true
+  source_grounded_loop_map_ready: true
+  recent_observed_contributions:
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.11-ObstructionAlgebraizationBridge.tex"
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.20-SupportExtractionDescent.tex"
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/main.txt"
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Audit/scale-resolution/ScaleResolution_Extracts.md"
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.10-MassStabilizationForceUnification.tex"
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.9-TheEntirePictureWorkingSpine.tex"
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.6-IntrinsicHolonomyTwist.tex"
+  current_frontier:
+  - proof-dependency rebuild around Theorem 2.1
+  - monotone-functional bridge naming and localization
+  - final warrant promotion
+  current_import_reading:
+  - '11.7.11-ObstructionAlgebraizationBridge.tex: promoted-as-refresh-of-existing-curvature-obstruction-skeleton'
+  - '11.7.20-SupportExtractionDescent.tex: observed-but-not-promoted'
+  - 'main.txt: promoted-as-synthesis-refresh'
+dual_track_rule:
+  summary: Keep the direct Navier-Stokes proof-bearing base distinct from V6 synthesis
+    imports. Chat 2 may import V6 language immediately when it sharpens a named bridge,
+    but only direct NS theorem material may upgrade proof authority.
+  why_the_split_is_honest: The legacy NS corpus already contains the direct theorem
+    family. V6 is valuable because it improves loop language, obstruction vocabulary,
+    and feedback structure, but it is not yet the direct theorem-bearing base for
+    this lane.
+joint_frontier:
+  theorem_object: source-grounded four-bridge classical closure
+  why_it_is_current: The loop shape is now explicit and source-grounded, but the live
+    solver packet still needs the bridge/warrant chain rebuilt cleanly from those
+    local truth surfaces.
+  local_chat2_frontier_surfaces:
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/proof-assembly.yaml"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/proof-obligation-matrix.yaml"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/dependency-discharge.yaml"
+what_chat_y_should_read_first:
+- "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/proof-source-pack.md"
+- "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/v6-four-bridge-source-note.md"
+- "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-forensics/bridge-discharge-locus-map.md"
+- "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/marvin-adaptation-notes.md"
+what_chat2_can_do_without_waiting:
+- Continue importing V6 synthesis into lane-local bridge notes immediately when useful.
+- Continue rebuilding theorem packets and proof dependencies from the direct NS base.
+- Continue theorem writing even if Chat Y questions remain unanswered.
+parallel_execution_rule:
+  chat_y_queries_block_local_work: false
+  import_immediately_when_useful: true

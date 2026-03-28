@@ -1,0 +1,183 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+source:
+  extracted_from: problems/navier-stokes/formalization-ledger.md
+  extracted_at: '2026-03-21T19:16:30Z'
+  extractor: system/runner/workers/debt_extract_worker.rb
+posture:
+  theorem_posture:
+    theorem_target: the classical 3D Navier-Stokes equations on the admissible Euclidean
+      data class fixed in the lane.
+    current_package_status: closed; scale, monotone, compactness, the post-monotone
+      cascade carrier, and the curvature-first fourth bridge are locally reconciled;
+      the projected NC-flow sidecar is now formalized as ontic theorem plus exact
+      lift plus classical corollary; the final theorem warrant and projected-flow
+      theorems are discharged.
+    support_basis: Recovered workboard-local support exists, so the backbone can be
+      rebuilt on grounded local material.
+    standalone_status: closed
+supporting_sections:
+  reviewer_risks:
+  - 'Do not overclaim beyond the lowest safe theorem surface: Let u be a classical
+    solution of the three-dimensional incompressible Navier-Stokes equations on [0,T)
+    x R^3 arising from smooth compactly supported divergence-free initial data in
+    the admissible Euclidean class fixed in the lane. Then the cascade/compactness/gradient
+    singularity pathway does not occur on [0,T).'
+  - 'First unsafe overclaim to avoid: Claiming that the full Clay theorem is already
+    proved on the live lane while the final theorem warrant and generated proof-dependency
+    chain remain unresolved.'
+  - Recovered support is still classified as strong, so the local package remains
+    a revise-stage workboard.
+  required_local_explanations:
+  - '{"burden_id"=>"burden-final-theorem-warrant", "label"=>"Promote the locally discharged
+    bridge family through the final theorem warrant", "kind"=>"theorem-warrant"}'
+  - '{"burden_id"=>"burden-named-monotone-bridge-explanation", "label"=>"Sync the
+    dedicated Q(t) bridge explanation into the rebuilt proof matrix", "kind"=>"paper-legibility"}'
+  - '{"burden_id"=>"burden-d1-projected-flow-well-posedness", "label"=>"Prove D.1
+    projected NC-flow well-posedness on a closed graph domain", "kind"=>"theorem-frontier"}'
+  - '{"burden_id"=>"burden-d2-global-coercive-energy", "label"=>"Prove D.2 global
+    coercive energy estimate for the projected NC flow", "kind"=>"theorem-frontier"}'
+  - '{"burden_id"=>"burden-h1-certification-inputs", "label"=>"Certify H.1 constants/domain
+    inputs A-E on the chosen NS theorem surface", "kind"=>"theorem-frontier"} (see
+    `theorem-construction/h1-carrier-leakage-direct-completion.md`, section `Certified
+    Hypothesis H`)'
+  - '{"burden_id"=>"burden-d3-d4-shadow-interface", "label"=>"Prove D.3 exact lift
+    descent and D.4 continuation from NC coercive control", "kind"=>"theorem-frontier"}'
+  promotion_rule:
+  - Do not promote beyond `revise` until each remaining debt row has either been
+    localized into the local package or explicitly parked below the theorem surface.
+  - Keep the lowest safe claim explicit and do not let recovered speculative material
+    masquerade as a proved bridge.
+  - Re-run honesty-review only after the local package has real prose and an explicit
+    debt map.
+debt_items:
+- debt_id: debt-the-source-faithful-curvature-based-fourth-bridge-is-explicit-selected-as-primary-and-locally-discharged
+  label: The source-faithful curvature-based fourth bridge is explicit, selected as
+    primary, and locally discharged.
+  source_section: proof-debt-ledger
+  monograph_status: discharged
+  standalone_need: 'yes'
+  primary_anchors: []
+  debt_class: local-derivable
+  recommended_stage: debt-derive
+  rationale: The debt is described as a targeted discharge rather than an open frontier,
+    so it can enter bounded derivation.
+  priority_rank: 1
+- debt_id: debt-the-monotone-bridge-is-a-named-source-level-theorem-object-rather-than-generic-background-energy
+  label: The monotone bridge is a named source-level theorem object rather than generic
+    background energy.
+  source_section: proof-debt-ledger
+  monograph_status: discharged
+  standalone_need: 'yes'
+  primary_anchors:
+  - Millennium Prize Problems/Navier-Stokes/TeX/A Rigorous Theoretical Framework for
+    Global Regularity of the Navier–Stokes Equations.tex
+  - Millennium Prize Problems/Navier-Stokes/TeX/A_Rigorous_Theoretical_Framework_for_Global_Regularity_of_the_Navier-Stokes_Equations.tex
+  debt_class: local-derivable
+  recommended_stage: debt-derive
+  rationale: The debt is described as a targeted discharge rather than an open frontier,
+    so it can enter bounded derivation.
+  priority_rank: 2
+- debt_id: debt-the-projected-nc-flow-route-is-explicit-as-theorems-d-1-through-d-5-inside-the-ns-lane
+  label: The projected NC-flow route is explicit as Theorems D.1 through D.5 inside
+    the NS lane.
+  source_section: proof-debt-ledger
+  monograph_status: discharged
+  standalone_need: 'yes'
+  primary_anchors: []
+  debt_class: local-derivable
+  recommended_stage: debt-derive
+  rationale: The debt is described as a targeted discharge rather than an open frontier,
+    so it can enter bounded derivation.
+  priority_rank: 3
+- debt_id: debt-burden-id-burden-final-theorem-warrant-label-promote-the-locally-discharged-bridge-family-through-the-final-theorem-warrant-kind-theorem-warrant
+  label: '{"burden_id"=>"burden-final-theorem-warrant", "label"=>"Promote the locally
+    discharged bridge family through the final theorem warrant", "kind"=>"theorem-warrant"}'
+  source_section: proof-debt-ledger
+  monograph_status: discharged
+  standalone_need: 'yes'
+  primary_anchors:
+  - 'gap-ticket: burden-item'
+  debt_class: local-derivable
+  recommended_stage: debt-derive
+  rationale: The debt is described as a targeted discharge rather than an open frontier,
+    so it can enter bounded derivation.
+  priority_rank: 4
+- debt_id: debt-burden-id-burden-named-monotone-bridge-explanation-label-sync-the-dedicated-q-t-bridge-explanation-into-the-rebuilt-proof-matrix-kind-paper-legibility
+  label: '{"burden_id"=>"burden-named-monotone-bridge-explanation", "label"=>"Sync
+    the dedicated Q(t) bridge explanation into the rebuilt proof matrix", "kind"=>"paper-legibility"}'
+  source_section: proof-debt-ledger
+  monograph_status: discharged
+  standalone_need: 'yes'
+  primary_anchors:
+  - 'gap-ticket: burden-item'
+  debt_class: local-derivable
+  recommended_stage: debt-derive
+  rationale: The debt is described as a targeted discharge rather than an open frontier,
+    so it can enter bounded derivation.
+  priority_rank: 5
+- debt_id: debt-burden-id-burden-d1-projected-flow-well-posedness-label-prove-d-1-projected-nc-flow-well-posedness-on-a-closed-graph-domain-kind-theorem-frontier
+  label: '{"burden_id"=>"burden-d1-projected-flow-well-posedness", "label"=>"Prove
+    D.1 projected NC-flow well-posedness on a closed graph domain", "kind"=>"theorem-frontier"}'
+  source_section: proof-debt-ledger
+  monograph_status: discharged
+  standalone_need: 'yes'
+  primary_anchors:
+  - 'gap-ticket: burden-item'
+  debt_class: blocked-frontier
+  recommended_stage: creative-theorem-search
+  rationale: The ledger describes this as a frontier-level burden, so it should remain
+    explicit rather than be treated as local derivation debt.
+  priority_rank: 6
+- debt_id: debt-burden-id-burden-d2-global-coercive-energy-label-prove-d-2-global-coercive-energy-estimate-for-the-projected-nc-flow-kind-theorem-frontier
+  label: '{"burden_id"=>"burden-d2-global-coercive-energy", "label"=>"Prove D.2 global
+    coercive energy estimate for the projected NC flow", "kind"=>"theorem-frontier"}'
+  source_section: proof-debt-ledger
+  monograph_status: discharged
+  standalone_need: 'yes'
+  primary_anchors:
+  - problems/navier-stokes/gap-ticket.yaml
+  - problems/navier-stokes/obstruction-capture.md
+  debt_class: blocked-frontier
+  recommended_stage: creative-theorem-search
+  rationale: The ledger describes this as a frontier-level burden, so it should remain
+    explicit rather than be treated as local derivation debt.
+  priority_rank: 7
+- debt_id: debt-burden-id-burden-d3-d4-shadow-interface-label-prove-d-3-exact-lift-descent-and-d-4-continuation-from-nc-coercive-control-kind-theorem-frontier
+  label: '{"burden_id"=>"burden-d3-d4-shadow-interface", "label"=>"Prove D.3 exact
+    lift descent and D.4 continuation from NC coercive control", "kind"=>"theorem-frontier"}'
+  source_section: proof-debt-ledger
+  monograph_status: discharged
+  standalone_need: 'yes'
+  primary_anchors:
+  - 'gap-ticket: burden-item'
+  debt_class: blocked-frontier
+  recommended_stage: creative-theorem-search
+  rationale: The ledger describes this as a frontier-level burden, so it should remain
+    explicit rather than be treated as local derivation debt.
+  priority_rank: 8
+- debt_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
+  label: Keep theorem scope below the first unsafe overclaim
+  source_section: proof-debt-ledger
+  monograph_status: theorem-level scope boundary already fixed
+  standalone_need: 'yes'
+  primary_anchors:
+  - 'claim-ladder: Lowest Safe Claim'
+  - 'claim-ladder: First Unsafe Overclaim'
+  debt_class: packaging
+  recommended_stage: prose-realization
+  rationale: The ledger says the material already exists in some proved or discharged
+    form, so the remaining work is localization, exposition, or packaging.
+  priority_rank: 9
+summary:
+  counts_by_class:
+    packaging: 1
+    local-derivable: 5
+    branch-choice: 0
+    blocked-frontier: 0
+  recommended_next_cell_type: none
+  recommended_next_action: No further debt-derive is required on the NS lane.
+  recommended_debt_ids: []
