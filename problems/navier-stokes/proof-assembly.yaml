@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-09T16:26:32Z'
+  generated_at: '2026-04-09T16:37:18Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -137,6 +137,7 @@ theorem_surface:
     - problems/navier-stokes/formalization-ledger.md
     - problems/navier-stokes/debt-map.yaml
     - system/meta/collaboration/marvin-feeds/navier-stokes.yaml
+    - "/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md"
     - problems/navier-stokes/proof-assembly.yaml
     - problems/navier-stokes/source-frontier.yaml
     - problems/navier-stokes/object-formalization.yaml

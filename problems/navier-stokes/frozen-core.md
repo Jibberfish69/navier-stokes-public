@@ -35,6 +35,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - `problems/navier-stokes/debt-map.yaml`
 - `system/meta/collaboration/marvin-feeds/navier-stokes.yaml`
 - `problems/navier-stokes/marvin-ingest-notes.yaml`
+- `/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md`
 
 ## Boundary Rule
 

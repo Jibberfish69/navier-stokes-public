@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   verdict_id: submission-verdict-navier-stokes
-  generated_at: '2026-04-09T16:26:32Z'
+  generated_at: '2026-04-09T16:37:18Z'
   generator: system/runner/lib/submission_verdict_builder.rb
   source_review_verdict_id: review-verdict-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -65,7 +65,7 @@ manuscript_depth:
   identity:
     problem_id: navier-stokes
     display_name: Navier-Stokes Global Regularity
-    generated_at: '2026-04-09T16:26:32Z'
+    generated_at: '2026-04-09T16:37:22Z'
     generator: system/runner/lib/manuscript_depth_builder.rb
   surface_path: problems/navier-stokes/draft-v7.md
   classification: proof-manuscript
@@ -186,29 +186,29 @@ theorem_packet:
   export_ready: false
   blocker_count: 4
 proof_obligation_summary:
-  total_obligations: 85
+  total_obligations: 87
   grounded_count: 4
   structural_only_count: 0
   structurally_supported_count: 2
   bridge_pending_count: 4
   unresolved_count: 17
-  frontier_count: 58
+  frontier_count: 60
   bridge_discharge_blocking_count: 0
   theorem_warrant_blocking_count: 0
-  blocking_count: 79
+  blocking_count: 81
   all_discharged: false
-  live_theorem_edge_present: false
-  live_theorem_edge_branch_count: 0
+  live_theorem_edge_present: true
+  live_theorem_edge_branch_count: 2
   live_theorem_edge_blocked_count: 0
 blockers:
 - There are 4 unresolved definition/object obligations.
 - There are 10 unresolved lemma obligations.
-- There are 59 frontier or route-choice blockers still inside the theorem packet.
+- There are 61 frontier or route-choice blockers still inside the theorem packet.
 - 'The authoritative source stack still contains unmodeled theorem structures: interdependencies
   among principles, compactness discrete solutions, initial data l2.'
 - There are 17 unresolved proof obligations.
 - There are 4 bridge obligations still awaiting local discharge.
-- There are 58 frontier obligations still inside the theorem packet.
+- There are 60 frontier obligations still inside the theorem packet.
 - Completion tier is still `route-complete`, below a paper-complete or full-closure
   submission surface.
 - Honesty review verdict is still `conditional-pass`.

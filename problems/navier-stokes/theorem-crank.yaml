@@ -4,10 +4,10 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-09T16:32:42Z'
+  generated_at: '2026-04-09T16:51:14Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
-  status: needs-sync
+  status: aligned
   theorem_surface:
     surface_id: theorem-surface-navier-stokes-7f782c61bd84
     route_signature: 7f782c61bd8475521f30bfb48b09548000a7116d
@@ -48,28 +48,17 @@ shared_alignment:
       kind: definition
       status: unresolved
       patch_surface: problems/navier-stokes/object-formalization.yaml
+  live_theorem_edge:
+    route_id: live-authority-edge-navier-stokes
+    route_label: "\\tag{WERS.3Cap-BO}"
+    current_route_name: "\\tag{WERS.3Cap-BO}"
+    exact_cut_summary: "\\tag{WERS.3Cap-BO}"
   promoted_obligation_count: 8
   missing_promoted_obligation_count: 0
   missing_promoted_obligations: []
   route_authority_candidate_count: 56
-  missing_route_authority_candidate_count: 13
-  missing_route_authority_candidates:
-  - directive_id: marvin-route-authority-34
-    headline: Research OS Theorem Packet
-    requested_frontier: 'Headline: Fixed-collar coefficient branch closes on upgraded
-      carrier; exact external bridge measures are nu_N and mu_N'
-  - directive_id: marvin-route-authority-35
-    headline: Research OS Route Pivot
-    requested_frontier: 'Live task: Pushed the far-corona route forward in theorem-grade
-      form. First, the amplitude-free shell-pair absorption fantasy is ruled out by
-      scaling: the shell-pair commutator is cubic in amplitude while D_j is quadratic,
-      so no estimate of'
-  - directive_id: marvin-route-authority-38
-    headline: Research OS Route Pivot
-    requested_frontier: 'Live task: Sharpened the reserve globalization program after
-      the capwise signed defect step. The safe sign scale is now the net cap-graph
-      coercive coefficient kappa_j^{net}=inf_omega(d_{j,omega}-o_{j,omega}) rather
-      than a prematurely fixed '
+  missing_route_authority_candidate_count: 0
+  missing_route_authority_candidates: []
   promoted_proof_packet_count: 2
   route_authority_candidates:
   - directive_id: marvin-route-authority-4
@@ -133,7 +122,7 @@ local_derivation:
     source_path: working-notes/ontic-nc-ns-ymg-hodge-program.md
   leadership_status: leading
   net_new_local_theorem_count: 3
-  recommended_next_cell_type: route-synthesis
+  recommended_next_cell_type: dependency-discharge
 cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 5
@@ -188,18 +177,18 @@ frontier_projection:
   - headline: NS Lane Sterilization Discovery Note
     requested_frontier: They do not replace the direct legacy `NS` theorem-bearing
       corpus unless a direct `NS` theorem file appears.
-  recommended_next_cell_type: route-synthesis
+  recommended_next_cell_type: dependency-discharge
 summary:
-  phase: shared-alignment
+  phase: local-derivation
   execution_state: needs-reroute
   leadership_status: leading
-  alignment_complete: false
+  alignment_complete: true
   exact_local_packet_count: 4
   net_new_local_theorem_count: 3
   projected_frontier_count: 2
   current_open_obligation_count: 7
   open_obligations_state: not-currently-worked
   on_recommended_track: false
-  recommended_next_cell_type: route-synthesis
+  recommended_next_cell_type: dependency-discharge
   current_next_cell_type: creative-theorem-search
   current_next_cell_is_theorem_work: true

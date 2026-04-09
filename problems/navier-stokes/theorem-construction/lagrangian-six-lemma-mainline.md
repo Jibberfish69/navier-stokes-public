@@ -688,25 +688,28 @@ of the classical carrier, rather than as a new carrier ontology.
 That selector packet now makes one further distinction explicit: the local and
 sign sides are reduced there to deterministic selector refinements, while the
 only genuinely bespoke remaining theorem input is the transport-decorrelation
-/ vanishing-bad-set lemma `(TPS.4c)`, now concretized there by the Lagrangian
-nonshadowing specialization `(TPS.4h)`-`(TPS.4i)` and sharpened further to the
-oriented pair-gap / derived-label criteria `(TPS.4j)`-`(TPS.4q)`, with reserve
-alternatives through measure-linearized transverse expansion
-`(TPS.4r)`-`(TPS.4w)` and coarea/transversality `(TPS.4x)`-`(TPS.4aa)`. Once
-any of those yields selector-gap growth, the endpoint collapse theorem
-`(TPS.4ab)`-`(TPS.4ah)` forces `\Gamma_J\to 0`, and the normalized family
-theorem `(TPS.4ai)`-`(TPS.4am)` now packages this as one common bad set, three
-dynamic mechanisms, and one conclusion. The conservative primary target inside
-that family is now the named good-set theorem `TPS-ns-good-set`.
+/ nonshadowing burden, now split there into a strong bad-set route and a weaker
+shadow-time route. The Lagrangian nonshadowing specialization `(TPS.4h)`-`(TPS.4i)`
+remains the strong gate, while the oriented pair-gap / derived-label criteria
+`(TPS.4j)`-`(TPS.4q)` and coarea/transversality `(TPS.4x)`-`(TPS.4aa)` now feed
+the weaker occupancy endpoint unless supplemented by a no-return theorem. The
+strong mechanism is measure-linearized transverse expansion `(TPS.4r)`-`(TPS.4w)`
+or any equivalent package, such as `TPS-strain-bundle`, that proves `(TPS.4i)`
+directly. The normalized family theorem `(TPS.4ai)`-`(TPS.4am)` therefore now
+packages one strong bad-set endpoint and one weak shadow-time endpoint. The
+conservative primary target inside that family is now the named good-set theorem
+`TPS-ns-good-set`.
 Scalar selector labels are treated there only as derived corollaries, chart
 refinements, or pair-gap potentials, not as primitive dynamic data. The
-remaining NS-specific burden inside `TPS-ns-good-set` is now further reduced to
-the lower-bound packets `(GS.15)` or `(GS.21)`.
+remaining NS-specific burden inside the strong route is now further reduced to
+the lower-bound packet `(GS.15)`, while `(GS.21)` remains the reserve coarea /
+occupancy route unless paired with an extra no-return input.
 The primary strain-side realization is now
 [tps-strain-bundle-packet.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-strain-bundle-packet.md),
 which packages `(GS.15)` as a bundle-localized strain theorem on the
 transported transverse bundle. The reserve alternative remains `(GS.21)` on the
-separation-map derivative side.
+separation-map derivative side, but only as an occupancy theorem unless it is
+strengthened by a separate no-return mechanism.
 There is also a weaker direct endpoint packet,
 [tps-shadow-time-budget-packet.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-shadow-time-budget-packet.md),
 which targets vanishing time-averaged shadow occupancy and time-averaged packet

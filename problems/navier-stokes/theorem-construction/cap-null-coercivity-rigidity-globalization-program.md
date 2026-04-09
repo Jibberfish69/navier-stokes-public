@@ -395,6 +395,49 @@ carrier:
 
 Once those two statements hold, the weighted boundary-transfer packet is
 absorbable into the coercive tail.
+This is the strong pointwise route.
+
+There is also a weaker honest averaged route. Define
+
+```math
+\overline{\Gamma}_J
+:=
+\frac1{T_J}\int_0^{T_J}\Gamma_J(t)\,dt,
+\qquad
+\overline{\beta}_J(\eta)
+:=
+\eta(1+C_B)+C_\eta C_C\,\overline{\Gamma}_J.
+\tag{CNCR.3o'}
+```
+
+and the averaged boundary-transfer packet
+
+```math
+\overline{\mathcal T}^{bdry}_{\ge J}
+:=
+\frac1{T_J}
+\int_0^{T_J}\mathcal T^{bdry}_{\ge J}(t)\,dt.
+\tag{CNCR.3o''}
+```
+
+If one proves instead
+
+```math
+\big|\overline{\mathcal T}^{bdry}_{\ge J}\big|
+\le
+\overline{\beta}_J(\eta)
+\sum_{j\ge J}w_{j-J}\kappa_j\mathcal E_j
++
+C_\eta o_J(1),
+\qquad
+\overline{\beta}_J(\eta)<1
+\text{ for large }J,
+\tag{CNCR.3o'''}
+```
+
+then the boundary packet is absorbable on the averaged ledger. So the weak
+shadow-time / occupancy route closes only `\overline{\beta}_J(\eta)`, not the
+old pointwise coefficient `\beta_J(\eta)`.
 The clean bundled geometric verification target for this dynamic gate is now
 recorded separately in
 [transported-phase-space-selector-theorem-candidate.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/transported-phase-space-selector-theorem-candidate.md),

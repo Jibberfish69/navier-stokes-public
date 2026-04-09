@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   discharge_id: dependency-discharge-navier-stokes
-  generated_at: '2026-04-09T16:32:33Z'
+  generated_at: '2026-04-09T16:51:12Z'
   generator: system/runner/lib/dependency_discharge_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_matrix_id: proof-obligation-matrix-navier-stokes
@@ -59,6 +59,13 @@ source_scan:
   - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/clay-shared-core-theorem-library.md"
   - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/continuum-physical-sector-theorem-packet.md"
   - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/projected-defect-growth-and-carrier-reduction.md"
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/weighted-exact-projection-commutator-theorem-candidate.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/derivative-lp-compatibility-bridge-note.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/frozen-cap-pair-bilinear-form-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/closure-execution-contract.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/capwise-signed-defect-positivity-theorem-candidate.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/transported-phase-space-selector-theorem-candidate.md"
   - problems/navier-stokes/target-fidelity-discharge-source-pack.md
   - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/target-fidelity-bridge-lemma.md"
   - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/claim-ladder.md"
@@ -127,11 +134,11 @@ source_scan:
   - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
   - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-frontier.yaml"
   - problems/navier-stokes/marvin-ingest-notes.yaml
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/transported-phase-space-selector-theorem-candidate.md"
   - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/braided-defect-readout-principle.md"
   - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/clay-shared-core-theorem-library.md"
   - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-priority-braids-note.md"
   - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-shared-runner-transfer-note.md"
-  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/claim-ladder.md"
   evidence_hits:
   - path: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
     line: 27
@@ -142,7 +149,7 @@ source_scan:
     excerpt: "- but Hodge still has to prove that persistent support on that object
       globalizes (`lemma`; `marvin-upstream-0fdc65ea42d5`)"
   - path: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-frontier.yaml"
-    line: 90
+    line: 91
     score: 30
     label_overlap: 6
     from_overlap: 6
@@ -157,6 +164,14 @@ source_scan:
     to_overlap: 0
     excerpt: 'label: but Hodge still has to prove that persistent support on that
       object globalizes'
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/transported-phase-space-selector-theorem-candidate.md"
+    line: 16
+    score: 15
+    label_overlap: 3
+    from_overlap: 3
+    to_overlap: 0
+    excerpt: the persistent carrier remains the classical divergence-free support
+      object,
   - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/braided-defect-readout-principle.md"
     line: 49
     score: 15
@@ -189,15 +204,7 @@ source_scan:
     to_overlap: 0
     excerpt: "- the persistent carrier sheaf and support functor as the `Hodge` consumer
       side"
-  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/claim-ladder.md"
-    line: 31
-    score: 10
-    label_overlap: 2
-    from_overlap: 2
-    to_overlap: 0
-    excerpt: "- curvature, ontic, Marvin, Hodge, and projected-flow sidecars retained
-      only as historical support"
-  support_score: 160
+  support_score: 165
   signal_strength: strong
 bridge_packet:
   bridge_statement: Discharge the local bridge for but Hodge still has to prove that

@@ -72,7 +72,7 @@ That is exactly the block-Gershgorin / diagonal-dominance test in
 
 The reserve dynamic route is not an exact telescoping shell flux law. It is a
 weighted boundary-transfer problem. The only dynamic quantity that counts as
-live progress is the boundary-transfer coefficient
+live progress on the strong route is the boundary-transfer coefficient
 
 ```math
 \beta_J(\eta)
@@ -100,6 +100,46 @@ C_\eta o_J(1),
 So the remaining dynamic work is exactly: verify `(CNCR.3e)` and force
 `\beta_J(\eta)` below the absorption threshold on the chosen carrier.
 
+There is also a weaker honest endpoint on an averaged ledger. Define
+
+```math
+\overline{\Gamma}_J
+:=
+\frac1{T_J}\int_0^{T_J}\Gamma_J(t)\,dt,
+\qquad
+\overline{\mathcal T}^{bdry}_{\ge J}
+:=
+\frac1{T_J}\int_0^{T_J}\mathcal T^{bdry}_{\ge J}(t)\,dt,
+\qquad
+\overline{\mathcal D}_{\ge J}
+:=
+\frac1{T_J}\int_0^{T_J}\sum_{j\ge J}w_{j-J}\kappa_j\mathcal E_j(t)\,dt,
+\qquad
+\overline{\beta}_J(\eta)
+:=
+\eta(1+C_B)+C_\eta C_C\,\overline{\Gamma}_J.
+\tag{EXEC-Davg}
+```
+
+The weak dynamic reserve packet is discharged when one proves the averaged
+boundary-transfer estimate
+
+```math
+\big|\overline{\mathcal T}^{bdry}_{\ge J}\big|
+\le
+\overline{\beta}_J(\eta)\,\overline{\mathcal D}_{\ge J}
++
+C_\eta o_J(1),
+\qquad
+\overline{\beta}_J(\eta)<1
+\text{ for large }J.
+\tag{EXEC-Davg+}
+```
+
+So the pointwise coefficient `\beta_J(\eta)` belongs only to the strong route,
+while the weak shadow-time / occupancy route closes only the averaged
+coefficient `\overline{\beta}_J(\eta)`.
+
 ## Execution Rule
 
 The live route is now reduced to three scalar gates:
@@ -109,7 +149,7 @@ The live route is now reduced to three scalar gates:
 \qquad
 m_j^{sign},
 \qquad
-\beta_J(\eta).
+\beta_J(\eta)\ \text{or}\ \overline{\beta}_J(\eta).
 ```
 
 Work should only be reported as theorem progress when at least one of the
@@ -118,8 +158,9 @@ following happens:
 1. `(WERS.3Cap-TT)` is proved on the chosen carrier, hence `(FCP.4)` is closed.
 2. `\varepsilon_j^{freeze}` is forced onto the `2^{-2j}` ledger.
 3. `m_j^{sign}` is proved positive.
-4. `(CNCR.3e)` is proved and `\beta_J(\eta)` is forced below the absorption
-   threshold.
+4. `(CNCR.3e)` is proved and either the strong coefficient `\beta_J(\eta)` or
+   the averaged coefficient `\overline{\beta}_J(\eta)` is forced below the
+   corresponding absorption threshold.
 
 Everything else is bookkeeping, source recovery, or route hygiene.
 
@@ -130,28 +171,32 @@ the remaining work as one selector/localizer theorem candidate on top of the
 classical carrier.
 Within that selector packet, the local and sign sides are now reduced to
 stopping-time and Gershgorin consequences, while the only genuinely bespoke
-remaining theorem input is the transport-decorrelation / vanishing-bad-set
-lemma `(TPS.4c)`, now concretized there by the Lagrangian nonshadowing
-specialization `(TPS.4h)`-`(TPS.4i)` and sharpened further to the oriented
-pair-gap / derived-label criteria `(TPS.4j)`-`(TPS.4q)`, with reserve
-alternatives through measure-linearized transverse expansion
-`(TPS.4r)`-`(TPS.4w)` and coarea/transversality `(TPS.4x)`-`(TPS.4aa)`. Once
-any of those yields selector-gap growth, the endpoint collapse theorem
-`(TPS.4ab)`-`(TPS.4ah)` forces `\Gamma_J\to 0`. The normalized family theorem
-`(TPS.4ai)`-`(TPS.4am)` now packages this as one common bad set, three dynamic
-mechanisms, and one conclusion. The conservative primary target inside that
-family is now the named good-set theorem `TPS-ns-good-set`,
-which bundles measurable pairwise linearization with either transverse
-expansion or coarea/transversality on active pairs. Scalar selector labels are
-now explicitly treated as derived corollaries, chart refinements, or pair-gap
-potentials, not as primitive dynamic data. The remaining NS-specific burden
-inside that theorem is now further reduced to proving either the bundle strain
-lower bound `(GS.15)` or the transverse derivative lower bound `(GS.21)`.
+remaining theorem input is the transport-decorrelation / nonshadowing burden,
+now split there into a strong bad-set route and a weaker occupancy route. The
+Lagrangian nonshadowing specialization `(TPS.4h)`-`(TPS.4i)` remains the strong
+gate, while the oriented pair-gap / derived-label criteria `(TPS.4j)`-`(TPS.4q)`
+and coarea/transversality `(TPS.4x)`-`(TPS.4aa)` now feed the weaker
+shadow-time / time-averaged overlap endpoint unless supplemented by a
+no-return theorem. The strong mechanism is measure-linearized transverse
+expansion `(TPS.4r)`-`(TPS.4w)` or any equivalent package, such as
+`TPS-strain-bundle`, that proves `(TPS.4i)` directly. The normalized family
+theorem `(TPS.4ai)`-`(TPS.4am)` therefore now packages one strong bad-set
+endpoint and one weak shadow-time endpoint, rather than one common bad set with
+three equal mechanisms. The conservative primary target inside that family is
+now the named good-set theorem `TPS-ns-good-set`, which bundles measurable
+pairwise linearization with either strong transverse expansion or weaker coarea
+control on active pairs. Scalar selector labels are now explicitly treated as
+derived corollaries, chart refinements, or pair-gap potentials, not as
+primitive dynamic data. The remaining NS-specific burden inside the strong
+route is now further reduced to the bundle strain lower bound `(GS.15)`, while
+the transverse derivative lower bound `(GS.21)` is the reserve coarea /
+occupancy route unless paired with an extra no-return input.
 The primary strain-side dynamic route is now the named packet
 [tps-strain-bundle-packet.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-strain-bundle-packet.md),
 which realizes the `(GS.15)` branch as a bundle-localized strain theorem on
 the transported transverse bundle. The reserve alternative remains the
-separation-map derivative bound `(GS.21)`.
+separation-map derivative bound `(GS.21)`, but only as a coarea / occupancy
+route unless it is strengthened by an extra no-return input.
 There is now also a weaker direct endpoint packet
 [tps-shadow-time-budget-packet.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-shadow-time-budget-packet.md):
 it does not prove the existential bad-set theorem, but it is the weakest
@@ -160,15 +205,15 @@ side. So the dynamic hierarchy is:
 
 1. weak endpoint route: shadow-time budget `\Rightarrow` time-averaged overlap collapse;
 2. primary strong route: `TPS-strain-bundle`;
-3. reserve strong route: `(GS.21)`;
+3. reserve weak route: `(GS.21)` / coarea occupancy;
 4. hybrid bridge: coarse-flow pair-gap + HFG deviation control.
 
 More precisely, the corrected weak-endpoint coarse theorem now needs:
 
 ```math
-\text{scale-local coarse repulsion}
+\text{coarea-in-time strip speed lower bound}
 \quad+\quad
-\text{controlled re-entry count}
+\text{packet-decay scale condition }2^{J/2}\sigma_J\to\infty
 \quad+\quad
 \delta_J=o(\sigma_J).
 ```

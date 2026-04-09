@@ -153,6 +153,33 @@ E_J^{ns}(\sigma)
 \tag{SM.5a}
 ```
 
+The same existential-time reduction may be phrased through a jointly measurable
+shadow-margin function `g_J(Q,t)` with continuous time sections, by writing
+
+```math
+E_J^{ns}(\sigma)
+=
+\Big\{
+Q:\inf_{0\le t\le T_J} g_J(Q,t)\le 0
+\Big\}.
+\tag{SM.5b}
+```
+
+Then
+
+```math
+E_J^{ns}(\sigma)
+=
+\bigcap_{m=1}^\infty
+\bigcup_{q\in\mathbb Q\cap[0,T_J]}
+\Big\{
+Q:g_J(Q,q)<\tfrac1m
+\Big\},
+\tag{SM.5c}
+```
+
+which is the exact rational-time reduction for an existential shadow event.
+
 ## Vertex projection
 
 Because each active-neighbor fiber is finite, the projection from pair space to

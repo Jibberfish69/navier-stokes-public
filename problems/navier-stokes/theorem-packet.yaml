@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   packet_id: theorem-packet-navier-stokes
-  generated_at: '2026-04-09T16:26:32Z'
+  generated_at: '2026-04-09T16:37:18Z'
   generator: system/runner/lib/theorem_packet_builder.rb
 source_artifacts:
 - problems/navier-stokes/obstruction-capture.md
@@ -14,7 +14,57 @@ source_artifacts:
 - problems/navier-stokes/debt-map.yaml
 - system/meta/collaboration/marvin-feeds/navier-stokes.yaml
 - problems/navier-stokes/marvin-ingest-notes.yaml
-live_theorem_edge: &1 {}
+- "/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md"
+live_theorem_edge: &1
+  status: active
+  current_route_name: "\\tag{WERS.3Cap-BO}"
+  exact_cut_summary: "\\tag{WERS.3Cap-BO}"
+  safe_claim_boundary: "\\tag{WERS.3Cap-BO}"
+  unsafe_claim_boundary: ''
+  paper_treatment: ''
+  branch_choice_items:
+  - &2
+    debt_id: preferred-branch
+    label: "\\tag{WERS.3Cap-BO}"
+    statement: "\\tag{WERS.3Cap-BO}"
+    status: live-authority
+    recommended_stage: route-synthesis
+    source_class: live-authority-edge
+    source_path: "/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md"
+    primary_surfaces:
+    - "/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md"
+  - &3
+    debt_id: fallback-branch
+    label: "\\tag{WERS.3R}"
+    statement: "\\tag{WERS.3R}"
+    status: context-only
+    recommended_stage: context-only
+    source_class: live-authority-edge
+    source_path: "/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md"
+    primary_surfaces:
+    - "/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md"
+  blocked_frontier_items: []
+  context_only_items: []
+  primary_surfaces:
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md"
+  source_excerpt: |-
+    \tag{WERS.3Cap-BO}
+    behind bare Coifman-Meyer and asks only for a capwise operator theorem on the
+    \tag{WERS.3R}
+    \tag{WERS.3Cap-BO}
+  route_label: "\\tag{WERS.3Cap-BO}"
+  route_id: live-authority-edge-navier-stokes
+  version: 1
+  problem_id: navier-stokes
+  surface_path: "/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md"
+  surface_kind: theorem-construction-note
+  source_artifacts:
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md"
+  provenance:
+    source_kind: theorem-construction-note
+    source_path: "/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md"
+    selection_reason: theorem-construction-fallback
+    score: 146
 live_authority_edge: *1
 posture:
   theorem_target: the official Clay Navier-Stokes problem in dimension 3 for the incompressible
@@ -786,6 +836,8 @@ frontiers:
     recommended_stage: route-synthesis
     source_class: marvin-route-authority
     source_path: working-notes/clay-three-endpoint-tracks.md
+  - *2
+  - *3
 readiness:
   theorem_statement_present: true
   definitions_present: true
@@ -793,13 +845,13 @@ readiness:
   proof_dependencies_present: true
   unresolved_definition_count: 4
   unresolved_lemma_count: 10
-  frontier_count: 59
+  frontier_count: 61
   authoritative_source_gap_count: 3
   packet_complete: false
   export_ready: false
   blockers:
   - There are 4 unresolved definition/object obligations.
   - There are 10 unresolved lemma obligations.
-  - There are 59 frontier or route-choice blockers still inside the theorem packet.
+  - There are 61 frontier or route-choice blockers still inside the theorem packet.
   - 'The authoritative source stack still contains unmodeled theorem structures: interdependencies
     among principles, compactness discrete solutions, initial data l2.'

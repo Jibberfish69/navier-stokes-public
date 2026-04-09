@@ -86,6 +86,63 @@ Define the normalized time-averaged active-pair overlap functional
 
 This is the correct overlap functional for a shadow-time budget theorem.
 
+If one later wants to attach parabolic observability or unique-continuation
+tools to this averaged overlap route, the canonical PDE object is now the
+two-point pair defect `W_J` recorded in
+[tps-pair-defect-pde-packet.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md).
+The present note itself remains kinematic: it converts shadow occupancy into
+overlap decay without using that defect PDE.
+
+## Thresholded de-averaging
+
+Define the selector-local shadow budget by
+
+```math
+\Theta_J(a)
+:=
+\frac{1}{T_J\,\max\{1,N(a)\}}
+\sum_{b\sim a}
+\int_0^{T_J}
+\mathbf 1_{\{|X(a,t)-X(b,t)|\le \sigma_J\}}\,dt,
+\tag{ST.4a}
+```
+
+where `N(a):=\#\{b:b\sim a\}` and `\Theta_J(a):=0` when `N(a)=0`.
+
+Then
+
+```math
+\int_{\mathcal C_j}\Theta_J(a)\,d\mu_j(a)
+\lesssim
+\mathfrak O_J(\sigma_J)\,\mu_j(\mathcal C_j).
+\tag{ST.4b}
+```
+
+Hence for every threshold `\varepsilon_J>0`,
+
+```math
+\mu_j\big(\{\Theta_J>\varepsilon_J\}\big)
+\le
+C\frac{\mathfrak O_J(\sigma_J)}{\varepsilon_J}\,\mu_j(\mathcal C_j).
+\tag{ST.4c}
+```
+
+Choosing
+
+```math
+\varepsilon_J:=\mathfrak O_J(\sigma_J)^{1/2}
+\tag{ST.4d}
+```
+
+produces a refined good family `G'_J\subseteq \mathcal C_j` with vanishing
+complement and
+
+```math
+\Theta_J(a)\le \mathfrak O_J(\sigma_J)^{1/2}
+\qquad\text{for all }a\in G'_J.
+\tag{ST.4e}
+```
+
 ## Theorem TPS-shadow-time-budget
 
 Assume there is a decomposition
@@ -235,6 +292,86 @@ C_N R_J^{-N}
 By `(ST.11)`, `R_J\to\infty`, and finite valence, the right-hand side tends to
 `0`. Hence `(ST.12)`.
 
+## Scale-local packet-decay realization
+
+The abstract step `(ST.9)`-`(ST.10)` closes on the live shell schedule once the
+packet metric is tied explicitly to physical separation.
+
+### Proposition TPS-shadow-to-overlap-scale
+
+Assume there is a frequency-collar remainder `\mathrm{collar}^{freq}_J\ge 0`
+and a packet-overlap remainder `\mathrm{collar}_J\ge 0` such that on the good
+active-pair domain
+
+```math
+d_g(z_a(t),z_b(t))
+\ge
+c_g\,2^{J/2}|X(a,t)-X(b,t)|
+-\mathrm{collar}^{freq}_J,
+\tag{ST.17a}
+```
+
+and
+
+```math
+\big|
+\langle U_J(t)\phi_a,U_J(t)\phi_b\rangle
+\big|
+\le
+C_N\big(1+d_g(z_a(t),z_b(t))\big)^{-N}
++
+\mathrm{collar}_J
+\qquad (N\ge 1).
+\tag{ST.17b}
+```
+
+Assume further that
+
+```math
+2^{J/2}\sigma_J\to\infty,
+\qquad
+\mathrm{collar}^{freq}_J=o(2^{J/2}\sigma_J),
+\qquad
+\mathrm{collar}_J\to 0.
+\tag{ST.17c}
+```
+
+Then outside the shadow tube `|X(a,t)-X(b,t)|\le \sigma_J`,
+
+```math
+\big|
+\langle U_J(t)\phi_a,U_J(t)\phi_b\rangle
+\big|
+\lesssim_N
+\big(1+2^{J/2}\sigma_J\big)^{-N}
++
+\mathrm{collar}_J.
+\tag{ST.17d}
+```
+
+Consequently,
+
+```math
+\overline{\Gamma}_J
+\lesssim
+\mathfrak O_J(\sigma_J)
++
+\big(1+2^{J/2}\sigma_J\big)^{-N}
++
+\mathrm{collar}_J.
+\tag{ST.17e}
+```
+
+In particular, if `\mathfrak O_J(\sigma_J)\to 0`, then `(ST.17c)` implies
+`\overline{\Gamma}_J\to 0`.
+
+### Proof
+
+If `|X(a,t)-X(b,t)|>\sigma_J`, then `(ST.17a)` and `(ST.17c)` give
+`d_g(z_a(t),z_b(t))\gtrsim 2^{J/2}\sigma_J`, so `(ST.17b)` yields `(ST.17d)`.
+Inside the shadow tube use the trivial bound by `1`. Averaging over pair-time
+gives `(ST.17e)`.
+
 ## Coarse-flow / HFG specialization
 
 The hybrid branch from
@@ -243,29 +380,47 @@ and
 [tps-coarse-flow-pair-gap-theorem-candidate.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md)
 fits this packet naturally.
 
-If the coarse flow `X_{\le J}` obeys a pair-gap growth law strong enough to
-imply a coarse shadow-time budget
+Define the coarse shadow occupancy by
 
 ```math
-\Big|
-\big\{
-t:|X_{\le J}(a,t)-X_{\le J}(b,t)|\le 2\sigma_J
-\big\}
-\Big|
+\mathfrak O_J^{coarse}(\rho)
+:=
+\frac{1}{T_J\,\mu_j(\mathcal C_j)}
+\int_0^{T_J}
+\nu_J^{act}\big(
+\{(a,b):|X_{\le J}(a,t)-X_{\le J}(b,t)|\le \rho\}
+\big)\,dt.
+\tag{ST.18A}
+```
+
+Writing `\mathfrak O_J^{act}(\sigma_J):=\mathfrak O_J(\sigma_J)`, the exact
+pair-level tube enlargement is
+
+```math
+|X(a,t)-X(b,t)|\le \sigma_J
+\Longrightarrow
+|X_{\le J}(a,t)-X_{\le J}(b,t)|
 \le
-\tau_J,
-\tag{ST.18}
+\sigma_J+2\delta_J(t).
+\tag{ST.18B}
 ```
 
-and if
+Hence
 
 ```math
-\sup_{0\le t\le T_J}\delta_J(t)=o(\sigma_J),
-\tag{ST.19}
+\mathfrak O_J^{act}(\sigma_J)
+\le
+\mathfrak O_J^{coarse}
+\big(\sigma_J+2\|\delta_J\|_{L_t^\infty}\big).
+\tag{ST.18C}
 ```
 
-then the full flow inherits `(ST.8)` after enlarging constants. So the hybrid
-coarse-flow route can target the occupancy packet directly.
+So the bridge closes once
+
+```math
+\|\delta_J\|_{L_t^\infty}=o(\sigma_J).
+\tag{ST.18D}
+```
 
 ## Limitation
 
@@ -314,7 +469,7 @@ There are three gaps:
 
 The corrected theorem is the following.
 
-### Theorem TPS-coarse-shadow-time-budget
+### Theorem TPS-coarse-shadow-time-budget-legacy
 
 Let
 
@@ -459,8 +614,8 @@ normalization exactly as in `(ST.15)`, and `(CS.10)` follows from `(ST.17)`.
 
 ## Interpretation
 
-This is the mathematically honest coarse-flow closure theorem suggested by the
-selector route:
+This is the first mathematically honest coarse-flow closure theorem suggested by
+the selector route:
 
 ```math
 \boxed{
@@ -475,12 +630,407 @@ selector route:
 \tag{CS.15}
 ```
 
+It is now superseded by the corrected averaged closure below, where the
+re-entry count is replaced by a coarea-in-time strip estimate and the dynamic
+contract is moved onto the averaged ledger.
+
 So the exact open burden at the weak endpoint is no longer “prove full
 nonshadowing.” It is:
 
 ```math
 \boxed{
-\text{prove a coarse repulsion law and a non-self-looping / bounded-entry theorem on good active pairs.}
+\text{prove a coarse strip-speed lower bound and the averaged packet-decay ledger on good active pairs.}
 }
 \tag{CS.16}
 ```
+
+### Theorem TPS-coarse-shadow-time-budget
+
+Let
+
+```math
+\Phi_J(t;a,b):=|X_{\le J}(a,t)-X_{\le J}(b,t)|
+\tag{CS.17}
+```
+
+be the coarse-flow pair gap on the good active-pair domain, and set
+
+```math
+\widetilde\sigma_J:=\sigma_J+2\|\delta_J\|_{L_t^\infty}.
+\tag{CS.18}
+```
+
+Assume `\Phi_J(\cdot;a,b)` is absolutely continuous and there exists a
+coarse-scale escape rate `c_J>0` such that
+
+```math
+\dot\Phi_J(t;a,b)\ge c_J
+\qquad
+\text{whenever }\Phi_J(t;a,b)\le 2\widetilde\sigma_J.
+\tag{CS.19}
+```
+
+Then every good active pair obeys the coarse shadow-time bound
+
+```math
+\Big|
+\big\{
+t\in[0,T_J]:
+\Phi_J(t;a,b)\le 2\widetilde\sigma_J
+\big\}
+\Big|
+\le
+\frac{2\widetilde\sigma_J}{c_J}.
+\tag{CS.20}
+```
+
+Consequently, by `(ST.18B)`,
+
+```math
+\Big|
+\big\{
+t\in[0,T_J]:
+|X(a,t)-X(b,t)|\le \sigma_J
+\big\}
+\Big|
+\le
+\frac{2\widetilde\sigma_J}{c_J}.
+\tag{CS.21}
+```
+
+In particular, if
+
+```math
+\frac{\widetilde\sigma_J}{c_J\,T_J}\to 0,
+\tag{CS.22}
+```
+
+then
+
+```math
+\mathfrak O_J(\sigma_J)\to 0.
+\tag{CS.23}
+```
+
+If moreover the scale-local packet-decay assumptions `(ST.17a)`-`(ST.17c)`
+hold, then
+
+```math
+\overline{\Gamma}_J\to 0.
+\tag{CS.24}
+```
+
+### Proof
+
+Fix one good active pair. On the set `\{\Phi_J\le 2\widetilde\sigma_J\}`, the
+lower bound `(CS.19)` makes `\Phi_J` strictly increasing. Therefore the
+one-dimensional coarea estimate for absolutely continuous functions gives
+
+```math
+\int_{\{\Phi_J\le 2\widetilde\sigma_J\}}\dot\Phi_J(t;a,b)\,dt
+\le
+2\widetilde\sigma_J.
+\tag{CS.25}
+```
+
+Using `(CS.19)` on the same set,
+
+```math
+c_J
+\Big|
+\big\{
+t:\Phi_J(t;a,b)\le 2\widetilde\sigma_J
+\big\}
+\Big|
+\le
+2\widetilde\sigma_J,
+\tag{CS.26}
+```
+
+which is `(CS.20)`. The exact tube enlargement `(ST.18B)` yields `(CS.21)`.
+Averaging `(CS.21)` over the active-pair domain and dividing by
+`T_J\,\mu_j(\mathcal C_j)` gives `(CS.23)` under `(CS.22)`. Then `(CS.24)`
+follows from `(ST.17e)`.
+
+### Corollary TPS-coarse-shadow-time-budget-rate
+
+Assume there is a scale-local repulsion law
+
+```math
+\dot\Phi_J(t;a,b)\ge c_0\lambda_J\sigma_J-\epsilon_J
+\qquad
+\text{whenever }\Phi_J(t;a,b)\le 2\widetilde\sigma_J,
+\tag{CS.27}
+```
+
+with `c_0>0`,
+
+```math
+\frac{\epsilon_J}{\lambda_J\sigma_J}\to 0,
+\qquad
+\|\delta_J\|_{L_t^\infty}=o(\sigma_J),
+\qquad
+\lambda_J T_J\to\infty.
+\tag{CS.28}
+```
+
+Then for large `J`, one may take `c_J=\tfrac12 c_0\lambda_J\sigma_J`, so
+
+```math
+\mathfrak O_J(\sigma_J)\to 0.
+\tag{CS.29}
+```
+
+If also `(ST.17a)`-`(ST.17c)` hold, then `\overline{\Gamma}_J\to 0`.
+
+## Corrected Averaged Weak-Endpoint Closure
+
+The genuinely honest weak endpoint does not close the old pointwise coefficient
+`\beta_J(\eta)`. It closes an averaged boundary-transfer ledger instead.
+
+### Proposition TPS-coarea-time. Coarea-In-Time Shadow Budget
+
+Let
+
+```math
+\Phi_J(t;a,b):=|X_{\le J}(a,t)-X_{\le J}(b,t)|
+\tag{CA.1}
+```
+
+on the good active-pair domain. Assume `t\mapsto \Phi_J(t;a,b)` is absolutely
+continuous and that there exists a strip speed `c_J>0` such that
+
+```math
+\dot\Phi_J(t;a,b)\ge c_J
+\qquad
+\text{whenever }\Phi_J(t;a,b)\in[\sigma_J,2\sigma_J].
+\tag{CA.2}
+```
+
+Then
+
+```math
+\Big|
+\big\{
+t\in[0,T_J]:
+\Phi_J(t;a,b)\le 2\sigma_J
+\big\}
+\Big|
+\le
+\frac{2\sigma_J}{c_J}.
+\tag{CA.3}
+```
+
+**Proof skeleton.**
+Apply the one-dimensional coarea estimate to the absolutely continuous map
+`t\mapsto \Phi_J(t;a,b)` on the strip `[\,\sigma_J,2\sigma_J\,]`. Since the
+derivative is bounded below there by `(CA.2)`, the total time spent in the strip
+is at most strip width divided by the lower speed.
+
+So no one-pass or no-reentry hypothesis is needed on the weak endpoint route.
+
+### Proposition TPS-shadow-transfer. Pair-Level Tube Enlargement
+
+Let
+
+```math
+\delta_J^{pair}(t;a,b)
+:=
+\big|
+\big(X(a,t)-X(b,t)\big)
+-\big(X_{\le J}(a,t)-X_{\le J}(b,t)\big)
+\big|.
+\tag{CA.4}
+```
+
+If
+
+```math
+|X(a,t)-X(b,t)|\le \sigma_J,
+\tag{CA.5}
+```
+
+then
+
+```math
+|X_{\le J}(a,t)-X_{\le J}(b,t)|
+\le
+\sigma_J+\delta_J^{pair}(t;a,b)
+\le
+\sigma_J+2\sup_{0\le s\le T_J}\delta_J(s),
+\tag{CA.6}
+```
+
+where `\delta_J(s)` is the pointwise actual/coarse flow deviation from `(CF.9)`.
+
+Consequently, the coarse occupancy at enlarged radius controls the actual
+occupancy:
+
+```math
+\mathfrak O_J^{act}(\sigma_J)
+\le
+\mathfrak O_J^{coarse}\!\Big(
+\sigma_J+2\|\delta_J\|_{L_t^\infty}
+\Big).
+\tag{CA.7}
+```
+
+Thus the bridge closes once
+
+```math
+\|\delta_J\|_{L_t^\infty}=o(\sigma_J).
+\tag{CA.8}
+```
+
+### Proposition TPS-occupancy-overlap. Occupancy Plus Packet Scale Implies `\overline{\Gamma}_J\to 0`
+
+Assume the packet metric satisfies
+
+```math
+d_g(z_a(t),z_b(t))
+\ge
+c_g\,2^{J/2}|X(a,t)-X(b,t)|-\mathrm{collar}_J
+\tag{CA.9}
+```
+
+outside the frequency collar remainder, with
+
+```math
+2^{J/2}\sigma_J\to\infty,
+\qquad
+\mathrm{collar}_J\to 0.
+\tag{CA.10}
+```
+
+Assume also packet overlap decay away from the shadow tube:
+
+```math
+|X(a,t)-X(b,t)|>\sigma_J
+\Longrightarrow
+\big|
+\langle U_J(t)\phi_a,U_J(t)\phi_b\rangle
+\big|
+\lesssim_N
+\big(1+2^{J/2}\sigma_J\big)^{-N}
++\mathrm{collar}_J.
+\tag{CA.11}
+```
+
+Then
+
+```math
+\overline{\Gamma}_J
+\lesssim
+\mathfrak O_J(\sigma_J)
++
+\big(1+2^{J/2}\sigma_J\big)^{-N}
++
+\mathrm{collar}_J.
+\tag{CA.12}
+```
+
+Hence
+
+```math
+\mathfrak O_J(\sigma_J)\to 0
+\Longrightarrow
+\overline{\Gamma}_J\to 0.
+\tag{CA.13}
+```
+
+This is the exact occupancy-to-overlap step on the weak endpoint route.
+
+### Corollary TPS-thresholded-good-set. Fubini-Markov De-Averaging
+
+Define the vertex occupancy functional
+
+```math
+\Theta_J(a)
+:=
+\frac1{T_J\,\#N(a)}
+\sum_{b\sim a}
+\int_0^{T_J}
+\mathbf 1_{\{|X(a,t)-X(b,t)|\le \sigma_J\}}\,dt.
+\tag{CA.14}
+```
+
+Then
+
+```math
+\int \Theta_J(a)\,d\mu_j(a)
+\lesssim
+\mathfrak O_J(\sigma_J)\,\mu_j(\mathcal C_j).
+\tag{CA.15}
+```
+
+For any threshold `\varepsilon_J>0`,
+
+```math
+\mu_j\big(\{\Theta_J>\varepsilon_J\}\big)
+\le
+\frac{C\,\mathfrak O_J(\sigma_J)}{\varepsilon_J}\,
+\mu_j(\mathcal C_j).
+\tag{CA.16}
+```
+
+Choosing
+
+```math
+\varepsilon_J:=\mathfrak O_J(\sigma_J)^{1/2}
+\tag{CA.17}
+```
+
+produces a refined good family `G'_J\subseteq G_J` with vanishing complement and
+
+```math
+\Theta_J(a)\le \mathfrak O_J(\sigma_J)^{1/2}
+\qquad\text{for }a\in G'_J.
+\tag{CA.18}
+```
+
+So the weak route de-averages only to a thresholded good family, not to the
+full existential bad-set theorem.
+
+### Corollary TPS-averaged-dynamic-contract. Honest Weak Dynamic Gate
+
+Define the averaged overlap coefficient
+
+```math
+\overline{\beta}_J(\eta)
+:=
+\eta(1+C_B)+C_\eta C_C\,\overline{\Gamma}_J,
+\tag{CA.19}
+```
+
+and the averaged boundary-transfer packet
+
+```math
+\overline{\mathcal T}^{bdry}_{\ge J}
+:=
+\frac1{T_J}
+\int_0^{T_J}\mathcal T^{bdry}_{\ge J}(t)\,dt.
+\tag{CA.20}
+```
+
+If the boundary-transfer estimate is organized on the averaged ledger as
+
+```math
+\big|\overline{\mathcal T}^{bdry}_{\ge J}\big|
+\le
+\overline{\beta}_J(\eta)
+\sum_{j\ge J}w_{j-J}\kappa_j\mathcal E_j
++
+C_\eta o_J(1),
+\tag{CA.21}
+```
+
+then `(CA.13)` yields
+
+```math
+\overline{\beta}_J(\eta)<1
+\qquad\text{for all large }J.
+\tag{CA.22}
+```
+
+This is the honest weak-endpoint replacement for the old pointwise dynamic gate
+`\beta_J(\eta)<1`.

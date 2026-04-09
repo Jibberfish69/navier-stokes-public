@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-09T16:26:32Z'
+  generated_at: '2026-04-09T16:37:18Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
@@ -19,9 +19,16 @@ posture:
   standalone_status: closed
   completion_tier_achieved: route-complete
   review_verdict: conditional-pass
-  live_theorem_edge_present: false
-  live_theorem_edge_route_label: ''
-live_theorem_edge: {}
+  live_theorem_edge_present: true
+  live_theorem_edge_route_label: "\\tag{WERS.3Cap-BO}"
+live_theorem_edge:
+  route_id: live-authority-edge-navier-stokes
+  route_label: "\\tag{WERS.3Cap-BO}"
+  current_route_name: "\\tag{WERS.3Cap-BO}"
+  exact_cut_summary: "\\tag{WERS.3Cap-BO}"
+  branch_choice_labels:
+  - "\\tag{WERS.3Cap-BO}"
+  - "\\tag{WERS.3R}"
 obligations:
 - obligation_id: theorem-statement
   kind: theorem-statement
@@ -362,12 +369,12 @@ obligations:
     - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
     - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-frontier.yaml"
     - problems/navier-stokes/marvin-ingest-notes.yaml
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/transported-phase-space-selector-theorem-candidate.md"
     - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/braided-defect-readout-principle.md"
     - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/clay-shared-core-theorem-library.md"
     - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-priority-braids-note.md"
     - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-shared-runner-transfer-note.md"
-    - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/claim-ladder.md"
-    support_score: 160
+    support_score: 165
     signal_strength: strong
     evidence_hits:
     - path: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
@@ -379,7 +386,7 @@ obligations:
       excerpt: "- but Hodge still has to prove that persistent support on that object
         globalizes (`lemma`; `marvin-upstream-0fdc65ea42d5`)"
     - path: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-frontier.yaml"
-      line: 90
+      line: 91
       score: 30
       label_overlap: 6
       from_overlap: 6
@@ -394,6 +401,14 @@ obligations:
       to_overlap: 0
       excerpt: 'label: but Hodge still has to prove that persistent support on that
         object globalizes'
+    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/transported-phase-space-selector-theorem-candidate.md"
+      line: 16
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: the persistent carrier remains the classical divergence-free support
+        object,
     - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/braided-defect-readout-principle.md"
       line: 49
       score: 15
@@ -426,14 +441,6 @@ obligations:
       to_overlap: 0
       excerpt: "- the persistent carrier sheaf and support functor as the `Hodge`
         consumer side"
-    - path: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/claim-ladder.md"
-      line: 31
-      score: 10
-      label_overlap: 2
-      from_overlap: 2
-      to_overlap: 0
-      excerpt: "- curvature, ontic, Marvin, Hodge, and projected-flow sidecars retained
-        only as historical support"
     discharge_id: dependency-discharge-navier-stokes
     bridge_statement: Discharge the local bridge for but Hodge still has to prove
       that persistent support on that object globalizes without crossing the current
@@ -1116,17 +1123,33 @@ obligations:
   blocking: true
   notes:
   - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: preferred-branch
+  kind: live-theorem-edge
+  label: "\\tag{WERS.3Cap-BO}"
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: fallback-branch
+  kind: live-theorem-edge
+  label: "\\tag{WERS.3R}"
+  status: frontier
+  source_anchor: context-only
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
 summary:
-  total_obligations: 85
+  total_obligations: 87
   grounded_count: 4
   structural_only_count: 0
   structurally_supported_count: 2
   bridge_pending_count: 4
   unresolved_count: 17
-  frontier_count: 58
-  blocking_count: 79
+  frontier_count: 60
+  blocking_count: 81
   all_discharged: false
 submission_blockers:
 - There are 17 unresolved proof obligations.
 - There are 4 bridge obligations still awaiting local discharge.
-- There are 58 frontier obligations still inside the theorem packet.
+- There are 60 frontier obligations still inside the theorem packet.

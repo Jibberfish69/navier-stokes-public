@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   frontier_id: source-frontier-navier-stokes
-  generated_at: '2026-04-09T16:26:32Z'
+  generated_at: '2026-04-09T16:37:18Z'
   generator: system/runner/lib/source_frontier_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_matrix_id: proof-obligation-matrix-navier-stokes
@@ -16,6 +16,7 @@ source_artifacts:
 - problems/navier-stokes/debt-map.yaml
 - system/meta/collaboration/marvin-feeds/navier-stokes.yaml
 - problems/navier-stokes/marvin-ingest-notes.yaml
+- "/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md"
 grounded_core:
   theorem_statement: For every smooth divergence-free rapidly decaying initial datum
     u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving
@@ -90,7 +91,7 @@ frontier:
     label: but Hodge still has to prove that persistent support on that object globalizes
     status: bridge-pending
     source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
-  focus_source: marvin-ingest.promoted-proof-packets
+  focus_source: live-theorem-edge
   active_frontier_labels:
   - '{"burden_id"=>"burden-final-theorem-warrant", "label"=>"Promote the locally discharged
     bridge family through the final theorem warrant", "kind"=>"theorem-warrant"}'
@@ -119,7 +120,15 @@ frontier:
   - interdependencies among principles
   - compactness discrete solutions
   - initial data l2
-  live_theorem_edge: {}
+  live_theorem_edge:
+    route_id: live-authority-edge-navier-stokes
+    route_label: "\\tag{WERS.3Cap-BO}"
+    current_route_name: "\\tag{WERS.3Cap-BO}"
+    exact_cut_summary: "\\tag{WERS.3Cap-BO}"
+    safe_claim_boundary: "\\tag{WERS.3Cap-BO}"
+    branch_choice_labels:
+    - "\\tag{WERS.3Cap-BO}"
+    - "\\tag{WERS.3R}"
   boundary_rule: Everything beyond the grounded core is machine extension until it
     survives falsification and promotion.
   extension_policy: Machine branches may build beyond this frontier, but they must
@@ -128,9 +137,9 @@ summary:
   grounded_count: 4
   bridge_pending_count: 1
   unresolved_count: 6
-  suppressed_unresolved_count: 75
+  suppressed_unresolved_count: 77
   authoritative_gap_count: 3
-  live_theorem_edge_present: false
-  live_theorem_edge_branch_count: 0
+  live_theorem_edge_present: true
+  live_theorem_edge_branch_count: 2
   live_theorem_edge_blocked_count: 0
   freeze_recommended: true

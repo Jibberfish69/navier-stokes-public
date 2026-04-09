@@ -81,6 +81,169 @@ for every `v\in N_a`, with
 \tag{CF.6}
 ```
 
+### Proposition CF-bundle-coercive. Coarse Expanding-Plane Coherence Implies `(CF.5)`
+
+Write the coarse strain tensor in Eulerian form and along the coarse flow as
+
+```math
+S_{\le J}(x,t)
+:=
+\operatorname{Sym}\nabla u_{\le J}(x,t),
+\qquad
+S_{\le J}(a,t)
+:=
+S_{\le J}(X_{\le J}(a,t),t).
+\tag{CF.6a}
+```
+
+For the live three-dimensional route, let `E_{\le J}^{+}(x,t)` denote the
+rank-two spectral plane of `S_{\le J}(x,t)` associated to its two largest
+eigenvalues, let `Q_{\le J}^{+}(x,t)` be the orthogonal projector onto
+`E_{\le J}^{+}(x,t)`, and let
+
+```math
+\lambda_{2,\le J}(x,t)
+:=
+\lambda_{\min}\!\big(S_{\le J}(x,t)\big|_{E_{\le J}^{+}(x,t)}\big).
+\tag{CF.6b}
+```
+
+Assume there exist a coarse rate `\Lambda_J(t)\ge 0` and a spectral defect
+`\varepsilon_J^{spec}(t,a)\ge 0` such that
+
+```math
+\lambda_{2,\le J}(X_{\le J}(a,t),t)
+\ge
+\Lambda_J(t)-\varepsilon_J^{spec}(t,a)
+\qquad\text{for a.e. }(t,a)\in[0,T_J]\times G_J.
+\tag{CF.6c}
+```
+
+Let
+
+```math
+M_J(t)
+:=
+\operatorname*{ess\,sup}_{a\in G_J}
+\big\|S_{\le J}(X_{\le J}(a,t),t)\big\|_{\mathrm{op}},
+\tag{CF.6d}
+```
+
+and quantify the selector-bundle angle defect by
+
+```math
+\vartheta_J(a,t)
+:=
+\big\|
+\big(I-Q_{\le J}^{+}(X_{\le J}(a,t),t)\big)P_{N_a}
+\big\|_{\mathrm{op}}.
+\tag{CF.6e}
+```
+
+Assume
+
+```math
+\vartheta_J(a,t)\le \theta_J(a,t).
+\tag{CF.6f}
+```
+
+Then for every `v\in N_a`,
+
+```math
+v^\top
+\operatorname{Sym}\!\big(
+P_{N_a}\nabla u_{\le J}(X_{\le J}(a,t),t)P_{N_a}
+\big)v
+\ge
+\big(
+\Lambda_J(t)-\varepsilon_J^{spec}(t,a)-2M_J(t)\theta_J(a,t)^2
+\big)|v|^2.
+\tag{CF.6g}
+```
+
+Hence `(CF.5)` holds with the explicit identification
+
+```math
+\lambda_J(t):=\Lambda_J(t),
+\qquad
+\varepsilon_J(t,a)
+:=
+\varepsilon_J^{spec}(t,a)+2M_J(t)\theta_J(a,t)^2.
+\tag{CF.6h}
+```
+
+**Proof skeleton.**
+Fix a unit `v\in N_a` and decompose it relative to the spectral splitting
+`v=v_++v_-` with
+`v_+:=Q_{\le J}^{+}(X_{\le J}(a,t),t)v` and
+`v_-:=(I-Q_{\le J}^{+}(X_{\le J}(a,t),t))v`. Since
+`Q_{\le J}^{+}(X_{\le J}(a,t),t)` is a spectral projector of the symmetric
+matrix `S_{\le J}(X_{\le J}(a,t),t)`,
+the mixed terms vanish:
+
+```math
+\langle S_{\le J}(X_{\le J}(a,t),t)v,v\rangle
+=
+\langle S_{\le J}(X_{\le J}(a,t),t)v_+,v_+\rangle
++
+\langle S_{\le J}(X_{\le J}(a,t),t)v_-,v_-\rangle.
+```
+
+By `(CF.6c)`,
+`\langle S_{\le J}(X_{\le J}(a,t),t)v_+,v_+\rangle\ge (\Lambda_J-\varepsilon_J^{spec})|v_+|^2`,
+while `(CF.6d)` gives
+`\langle S_{\le J}(X_{\le J}(a,t),t)v_-,v_-\rangle\ge -M_J|v_-|^2`. The angle control
+`(CF.6f)` implies `|v_-|\le \theta_J` and `|v_+|^2=1-|v_-|^2\ge 1-\theta_J^2`,
+so
+
+```math
+\langle S_{\le J}(X_{\le J}(a,t),t)v,v\rangle
+\ge
+(\Lambda_J-\varepsilon_J^{spec})(1-\theta_J^2)-M_J\theta_J^2.
+```
+
+Since `\Lambda_J-\varepsilon_J^{spec}\le M_J`, the quadratic error is bounded by
+`2M_J\theta_J^2`, yielding `(CF.6g)`.
+
+### Corollary CF-bundle-coercive-int. Minimal Integrated Coarse Closure Packet
+
+Define
+
+```math
+\varepsilon_J^{spec,*}(t)
+:=
+\operatorname*{ess\,sup}_{a\in G_J}\varepsilon_J^{spec}(t,a),
+\qquad
+\theta_J^*(t)
+:=
+\operatorname*{ess\,sup}_{a\in G_J}\theta_J(a,t).
+\tag{CF.6i}
+```
+
+If
+
+```math
+\int_0^{T_J}\Lambda_J(t)\,dt\to+\infty,
+\qquad
+\int_0^{T_J}\varepsilon_J^{spec,*}(t)\,dt=o_J(1),
+\qquad
+\int_0^{T_J}M_J(t)\theta_J^*(t)^2\,dt=o_J(1),
+\tag{CF.6j}
+```
+
+then `(CF.5)`-`(CF.6)` hold with
+
+```math
+\varepsilon_J^*(t)
+\le
+\varepsilon_J^{spec,*}(t)+2M_J(t)\theta_J^*(t)^2,
+\tag{CF.6k}
+```
+
+so the entire coarse bundle burden is reduced to a spectral floor for
+`\lambda_{2,\le J}` together with quadratic angle control of `N_a` against the
+coarse expanding plane `E_{\le J}^{+}`.
+
 ## Coarse pair-gap growth
 
 ### Proposition TPS-coarse-gap-growth. Initial Separation Plus Integrated Coarse Strain
@@ -175,6 +338,119 @@ and hence
 This is the cleanest scalarized replacement for any residual label-growth
 burden on the coarse-flow branch.
 
+### Corollary CF-pair-strain-segment. Segmentwise Spectral Coherence Implies `(CF.8c)`
+
+For a good active pair `(a,b)`, write
+
+```math
+y_a(t):=X_{\le J}(a,t),
+\qquad
+y_b(t):=X_{\le J}(b,t),
+\qquad
+e_{a,b}(t):=\frac{y_b(t)-y_a(t)}{|y_b(t)-y_a(t)|},
+\tag{CF.8g}
+```
+
+and parametrize the transported coarse segment by
+
+```math
+\gamma_{a,b}(\theta,t)
+:=
+(1-\theta)y_a(t)+\theta y_b(t),
+\qquad
+0\le \theta\le 1.
+\tag{CF.8h}
+```
+
+Assume there exists a pointwise coarse log-rate `\lambda_J^{seg}(t)\ge 0` such
+that for almost every `(t,\theta)` and every good active pair,
+
+```math
+\lambda_{2,\le J}(\gamma_{a,b}(\theta,t),t)
+\ge
+\lambda_J^{seg}(t)-\varepsilon_J^{seg}(a,b,\theta,t),
+\tag{CF.8i}
+```
+
+with
+
+```math
+\big\|
+\operatorname{Sym}\nabla u_{\le J}(\gamma_{a,b}(\theta,t),t)
+\big\|_{\mathrm{op}}
+\le
+M_J(t),
+\tag{CF.8j}
+```
+
+and the pair direction stays close to the local coarse expanding plane:
+
+```math
+\big|
+\big(I-Q_{\le J}^{+}(\gamma_{a,b}(\theta,t),t)\big)e_{a,b}(t)
+\big|
+\le
+\theta_J^{seg}(a,b,\theta,t).
+\tag{CF.8k}
+```
+
+Define the segment error ledger
+
+```math
+\overline{\varepsilon}_J^{pair}(a,b,t)
+:=
+\int_0^1 \varepsilon_J^{seg}(a,b,\theta,t)\,d\theta
++
+2M_J(t)\int_0^1\theta_J^{seg}(a,b,\theta,t)^2\,d\theta.
+\tag{CF.8l}
+```
+
+Then the exact logarithmic pair-strain integrand obeys
+
+```math
+\frac{
+\big(u_{\le J}(y_a(t),t)-u_{\le J}(y_b(t),t)\big)
+\cdot
+\big(y_a(t)-y_b(t)\big)
+}{
+|y_a(t)-y_b(t)|^2
+}
+\ge
+\lambda_J^{seg}(t)-\overline{\varepsilon}_J^{pair}(a,b,t),
+\tag{CF.8m}
+```
+
+and therefore `(CF.8c)` holds with
+
+```math
+\Lambda_J(t)
+:=
+\int_0^t \lambda_J^{seg}(s)\,ds,
+\qquad
+\mathcal E_J^{pair}(a,b,t)
+:=
+\int_0^t
+\overline{\varepsilon}_J^{pair}(a,b,s)\,ds.
+\tag{CF.8n}
+```
+
+**Proof skeleton.**
+By the fundamental theorem of calculus along the segment,
+
+```math
+u_{\le J}(y_b,t)-u_{\le J}(y_a,t)
+=
+\int_0^1
+\nabla u_{\le J}(\gamma_{a,b}(\theta,t),t)\,(y_b-y_a)\,d\theta.
+```
+
+Taking the inner product with `e_{a,b}(t)` kills the antisymmetric part of
+`\nabla u_{\le J}`, so the logarithmic pair-strain integrand is exactly the
+segment average of the quadratic form
+`e_{a,b}(t)^\top \operatorname{Sym}\nabla u_{\le J}(\gamma_{a,b}(\theta,t),t)e_{a,b}(t)`.
+Apply the same spectral-plane decomposition used in `(CF.6g)` pointwise in
+`\theta`, then integrate over `\theta\in[0,1]`.
+
 The high-frequency component `u_{>J}` does **not** enter `(CF.8c)` directly.
 It enters only through the actual-versus-coarse deviation estimate `\delta_J`
 below, via the bridge note
@@ -190,6 +466,29 @@ coarse-flow deviation bound
 :=
 \operatorname*{ess\,sup}_{a\in G_J}|X(a,t)-X_{\le J}(a,t)|.
 \tag{CF.9}
+```
+
+It is also convenient to record the sharper pairwise deviation modulus
+
+```math
+D_J
+:=
+\operatorname*{ess\,sup}_{(a,b)\in G_J^{pair}}
+\sup_{0\le t\le T_J}
+\frac{
+\big|
+\big(X(a,t)-X(b,t)\big)
+-\big(X_{\le J}(a,t)-X_{\le J}(b,t)\big)
+\big|
+}{\ell_J}.
+\tag{CF.9a}
+```
+
+By the triangle inequality,
+
+```math
+D_J\le 2\ell_J^{-1}\sup_{0\le t\le T_J}\delta_J(t).
+\tag{CF.9b}
 ```
 
 Then every good active pair satisfies
@@ -265,6 +564,37 @@ Equivalently,
 So the selector theorem may treat
 `\ell_J^{-1}(2\sigma_J+2\Delta_J)` as the exact dimensionless shadow threshold
 for the normalized coarse pair-gap.
+
+### Corollary TPS-shadow-exclusion-closure. Exact Coarse Closure Criterion
+
+Assume the normalized coarse gap lower bound
+
+```math
+\inf_{0\le t\le T_J}\Phi_J(t)\ge M_J,
+\tag{CF.11e}
+```
+
+and the pairwise deviation modulus bound
+
+```math
+D_J\le D_J^{max}.
+\tag{CF.11f}
+```
+
+If
+
+```math
+M_J-D_J^{max}
+\gg
+\frac{\sigma_J}{\ell_J\inf_{0\le t\le T_J}e_J(t)},
+\tag{CF.11g}
+```
+
+then the good active pairs avoid the shadow tube on `[0,T_J]`.
+
+This is the clean final hinge of the coarse-flow route: once the coarse
+normalized pair-gap dominates the normalized shadow threshold after subtracting
+the actual/coarse pairwise error, `TPS-shadow-exclusion` is automatic.
 
 ## Theorem candidate
 
@@ -403,6 +733,33 @@ uniform-in-time closure gate presently visible:
 
 That is the sharpest coarse-flow reformulation of the current `GS.15` /
 `GS.21` burden.
+
+## Exact Remaining Coarse Burden
+
+After `CF-bundle-coercive`, the open coarse-flow theorem is no longer a bare
+request for `(CF.5)` or `(CF.8c)`.
+
+The remaining honest packet is exactly one of the following two localized
+statements.
+
+1. Bundle version: prove a coarse second-eigenvalue floor `(CF.6c)` on an
+   asymptotically full good set and a quadratic bundle-angle control
+   `(CF.6f)` with the integrated defect ledger `(CF.6j)`.
+2. Scalarized version: prove the same coarse second-eigenvalue floor along the
+   transported pair segments `(CF.8i)` together with the pair-direction angle
+   control `(CF.8k)`, so that the direct pair-strain inequality `(CF.8m)` holds.
+
+Once either packet lands, the only remaining scale closure is the already-named
+shadow threshold:
+
+```math
+\inf_{0\le t\le T_J}\Phi_J(t)
+>
+\frac{2\sigma_J+2\Delta_J}{\ell_J},
+\tag{CF.16}
+```
+
+with `\Delta_J` supplied perturbatively by the bridge estimate `(HF.15)`.
 
 The broader source-backed frontier for this route is recorded in
 [tps-dynamic-source-fit-and-open-frontier.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md).
