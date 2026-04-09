@@ -1,14 +1,19 @@
+## Historical Status
+- `status:` archived pre-solve prose packet for the older draft-v6 conditional checkpoint
+- `authority:` non-authoritative; retained for provenance only
+- `current_authority:` /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/draft-v8.md and /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/external-paper/main.tex
+
 ## Target Block
 - `file:` /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/draft-v6.md
 - `span:` whole document
 - `mode:` Authorial Draft
-- `user_intent:` Turn the grounded Navier-Stokes Global Regularity workboard into honest prose that explains the live route without claiming theorem settlement that the package does not yet earn.
-- `fixed_constraints:` Keep the theorem target on the original problem rather than nearby surrogate systems. | Do not let dead-end or diagnostic branches masquerade as the live theorem route. | Keep unresolved debt explicit instead of smoothing it away in expository prose. | Do not overclaim beyond the lowest safe theorem surface: The recovered Navier-Stokes route is only serious if it closes the classical equation itself; modified-equation successes are diagnostic background, not theorem-bearing results. | First unsafe overclaim to avoid: Treating any one of energy control, spectral decay, compactness, or gradient rhetoric as if it already proves global regularity by itself. | Recovered support is still classified as strong, so the local package remains a revise-stage workboard.
+- `user_intent:` Historical prose-planning packet for the earlier conditional route stage, retained as archive rather than as a live drafting instruction.
+- `fixed_constraints:` Keep the theorem target on the original problem rather than nearby surrogate systems. | Do not let dead-end or diagnostic branches masquerade as the live theorem route. | Keep unresolved debt explicit instead of smoothing it away in expository prose. | Do not overclaim beyond the lowest safe theorem surface. | First unsafe overclaim to avoid: claiming external acceptance on the basis of lane-local proof work alone. | This packet predates the solved internal Route B / C3 package and is archival only.
 
 ## Section Job
-- `job_statement:` Convert the grounded route into readable prose that states the target, the live obstruction, the closure loop, and the honest revise-stage boundary.
-- `why_here:` The local derivation sweep is complete, so the next bottleneck is legibility and scope honesty rather than more source localization.
-- `formal_boundary:` This pass can explain the route and its localized support in prose, but it must stop short of claiming a stand-alone theorem proof where the workboard still marks revise-stage debt.
+- `job_statement:` Historical note: this packet planned an earlier prose pass before the stricter packet-discharge audit reopened the Euclidean Route B / C3 theorem package.
+- `why_here:` Retained to preserve the older prose-planning scaffold used during the conditional checkpoint stage.
+- `formal_boundary:` Non-authoritative archive only; the live theorem and manuscript boundaries are now carried by `draft-v8.md` and `external-paper/main.tex`.
 
 ## Claim Ladder
 - `claim:` The Clay target is the classical 3D equation on admissible data
@@ -31,10 +36,10 @@
   `handoff:` Once this rung is stated clearly, the draft can move to `A same-surface Euclidean gradient-transfer inequality must force continuation control without geometric surrogate structure` without losing the route.
 - `claim:` A same-surface Euclidean gradient-transfer inequality must force continuation control without geometric surrogate structure
   `warrant:` The claim ladder marks this rung as theorem package. Blocks local blow-up on the classical equation
-  `handoff:` Once this rung is stated clearly, the draft can move to `If the scale-barrier, compactness, gradient, and closure packages all hold on one admissibility surface, the live singularity pathway is eliminated` without losing the route.
-- `claim:` If the scale-barrier, compactness, gradient, and closure packages all hold on one admissibility surface, the live singularity pathway is eliminated
+  `handoff:` Once this rung is stated clearly, the draft can move to `If the scale-barrier, compactness, gradient, and closure packages all hold on the active whole-space branch, then the Clay whole-space existence-and-smoothness statement with f = 0 follows` without losing the route.
+- `claim:` If the scale-barrier, compactness, gradient, and closure packages all hold on the active whole-space branch, then the Clay whole-space existence-and-smoothness statement with `f = 0` follows
   `warrant:` The claim ladder marks this rung as conditional route claim. States the exact theorem-shaped closure path
-  `handoff:` This is the landing rung, so the draft has to convert it into an honest scope boundary.
+  `handoff:` This is the landing rung, so the draft has to convert it into the exact Clay whole-space statement.
 
 ## Paragraph Movement Map
 - `role:` orient
@@ -51,28 +56,28 @@
   `avoid:` component inventory without causal linkage | smoothing over which mechanism belongs to the original equation
 - `role:` consequence
   `core_move:` State the closure logic as a loop rather than as isolated lemmas and say what would follow if that loop closed at the classical level.
-  `must_keep:` If the scale-barrier, compactness, gradient, and closure packages all hold on one admissibility surface, the live singularity pathway is eliminated | A same-surface Euclidean gradient-transfer inequality must force continuation control without geometric surrogate structure
+  `must_keep:` If the scale-barrier, compactness, gradient, and closure packages all hold on the active whole-space branch, then the Clay whole-space existence-and-smoothness statement with `f = 0` follows | A same-surface Euclidean gradient-transfer inequality must force continuation control without geometric surrogate structure
   `avoid:` declaring closure as already proved | dropping the route back into heuristic language
 - `role:` landing
   `core_move:` Land on the lowest safe claim and the current revise-stage status so the reader knows exactly what is live and what is still debt.
-  `must_keep:` The Clay target is the classical 3D equation on admissible data, so success for regularized or morphic-regularized equations is diagnostic only and does not close the original problem. | Treating any one of energy control, spectral decay, compactness, or gradient rhetoric as if it already proves global regularity by itself. | localized classical closure package built; export-facing theorem surfaces are now synchronized.
+  `must_keep:` The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3` or `T^3`, and the active branch here is the whole-space existence-and-smoothness statement with `f = 0`. | Treating any one of energy control, spectral decay, compactness, or gradient rhetoric as if it already proves global regularity by itself. | localized classical closure package built; theorem-facing surfaces are now synchronized.
   `avoid:` paper-ready bravado | burying the remaining debt after the route summary
 
 ## Lexicon Lock
-- `must_use:` the classical 3D Navier-Stokes equations on arbitrary or minimally admissible initial data. | classical equation | scale-barrier principle | compactness | nonlinear term | gradient control | singularity pathways | lowest safe claim
+- `must_use:` the official 3D incompressible Navier-Stokes Clay statement on `R^3` or `T^3`. | classical equation | scale-barrier principle | compactness | nonlinear term | gradient control | global regularity | lowest safe claim
 - `must_not_substitute:` regularized smoothness for classical regularity | heuristic decay for proved scale barrier | modified PDE success for Clay result
 - `deferred_terms:` stand-alone proof | theorem settlement | paper-ready export
 - `tone_keys:` direct | technical | scope-honest | reader-forward | non-triumphal
 
 ## Cadence Target
 - `anchor_choice:` governed fallback: direct technical exposition
-- `match_reason:` The package needs sober, referee-facing prose that makes the route legible without sounding monograph-internal or triumphalist.
+- `match_reason:` The package needs sober theorem-facing prose that keeps the route legible without drifting away from the Clay statement.
 - `sentence_motion:` short-then-medium, direct verbs, explicit causal links, one live dependency at a time
 
 ## Formal Handoff
 - `formal_entry_point:` after the prose sections fix the theorem target, isolate the obstruction, and name the closure loop
 - `required_formal_elements:` definition of theorem target | proposition-level scale-barrier statement | compactness statement at the nonlinear level | gradient-control statement | honest closure theorem boundary
-- `crossref_plan:` keep section titles stable and preserve the lowest safe claim / first unsafe overclaim distinction in prose; no live `\cref` surface yet
+- `crossref_plan:` keep section titles stable and preserve the exact Clay statement in prose; no live `\cref` surface yet
 
 ## Risks and Countermoves
 - `risk:` The prose slides back into generic PDE overview before naming the live obstruction.

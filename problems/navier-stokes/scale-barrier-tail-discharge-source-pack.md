@@ -101,10 +101,9 @@ The readable part of the route is:
 
 1. The strict low-mode low-high and high-low pieces, isolated in `theorem-construction/scale-paraproduct-reduction-lemma.md`, obey
    `int_0^T sum_{j >= N} (|<\mathcal{T}^{SLH}_{j,n}, P_j u^(n)>| + |<\mathcal{T}^{SHL}_{j,n}, P_j u^(n)>|) dt <= C int_0^T \mathcal{L}_N^(n)(t) E_N^(n)(t) dt + eps int_0^T D_N^(n)(t) dt`.
-2. Replacing `S_{j-4}` by `S_{N-4}` creates only a finite-band spill, and that spill is reduced locally by `theorem-construction/scale-spill-reduction-lemma.md`.
-3. The exact remaining unresolved term is the genuine high-high packet
-   `int_0^T sum_{j >= N} |<\mathcal{T}^{HH}_{j,n}, P_j u^(n)>| dt <= eta nu int_0^T D_N^(n)(t) dt + C_0 2^{-2\delta N}`.
-4. The transport-defect estimate is complete only after that genuine high-high packet is bounded on the same classical approximation family, uniformly in `n` and `N`.
+2. Replacing `S_{j-4}` by `S_{N-4}` creates a repaired high-side packet split: a threshold-local spill collar tracked by `theorem-construction/scale-spill-reduction-lemma.md`, plus a lifted high-side remainder tracked by `theorem-construction/scale-high-side-remainder-packet.md`.
+3. The genuine high-high packet is kept separate from that lifted remainder and is tracked in `theorem-construction/scale-genuine-high-high-packet.md`.
+4. The transport-defect estimate is complete only after the threshold-local spill collar, the lifted high-side remainder, and the genuine high-high packet are all aligned on the same classical approximation family, uniformly in `n` and `N`.
 
 For this decomposition, use
 
@@ -159,7 +158,7 @@ The unresolved step is the actual proof of the dyadic transport/flux inequality 
 
 The exact residual local debt is: `Classical dyadic transport defect bound for the scale-barrier functional`.
 
-More precisely, the strict low-mode pieces and the finite-band spill are no longer part of the live frontier. The remaining open term is the genuine high-high packet tracked in `theorem-construction/scale-genuine-high-high-packet.md`.
+More precisely, the strict low-mode pieces are no longer the only live frontier, but the threshold-local spill collar and the repaired high-side packet remain theorem-critical. The genuine high-high packet is tracked in `theorem-construction/scale-genuine-high-high-packet.md`, while the lifted remainder is tracked in `theorem-construction/scale-high-side-remainder-packet.md`.
 
 ## Local Anchors
 

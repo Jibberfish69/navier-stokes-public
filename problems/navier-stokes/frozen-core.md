@@ -5,23 +5,21 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Theorem Target
 
-- `theorem_target`: the classical 3D Navier-Stokes equations on the admissible Euclidean data class fixed in the lane.
-- `lowest_safe_claim`: A serious source-grounded four-principle route exists in the handed Navier-Stokes corpus: scale barrier, monotone functional Q(t), non-Sobolev compactness, and curvature-based regularity.
-- `first_unsafe_overclaim`: Claiming that the live lane has already discharged the final Clay-level theorem while the final theorem warrant and generated proof-dependency surfaces still lag the stronger bridge-discharge record.
+- `theorem_target`: the official Clay Navier-Stokes problem in dimension 3 for the incompressible equations on R^3 or T^3.
+- `lowest_safe_claim`: For every smooth divergence-free rapidly decaying initial datum u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving the three-dimensional incompressible Navier-Stokes equations and satisfying int_{R^3} |u(x,t)|^2 dx < C for all t >= 0.
+- `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
 
 ## Grounded Core
 
-- A serious source-grounded four-principle route exists in the handed Navier-Stokes corpus: scale barrier, monotone functional Q(t), non-Sobolev compactness, and curvature-based regularity. (`theorem-statement`; `theorem-statement`)
+- For every smooth divergence-free rapidly decaying initial datum u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving the three-dimensional incompressible Navier-Stokes equations and satisfying int_{R^3} |u(x,t)|^2 dx < C for all t >= 0. (`theorem-statement`; `theorem-statement`)
+- replace the torus carrier block by a continuum coherent sector for curved D. (`definition`; `marvin-upstream-8e939525d3f2`)
+- The exact sector does not define the physical carrier. (`definition`; `marvin-upstream-16fa51055da0`)
 - Theorem 2.1 (Classical Closure) (`lemma`; `warrant-theorem-2.1`)
-- Prove D.1 projected NC-flow well-posedness (`lemma`; `debt-d1-projected-nc-flow-well-posedness`)
-- Prove D.2 global coercive energy estimate (`lemma`; `debt-d2-global-coercive-energy-estimate`)
 
 ## Source Frontier
 
-- `first_unresolved`: replace the torus carrier block by a continuum coherent sector for curved D. (`definition`; `marvin-upstream-8e939525d3f2`)
-- replace the torus carrier block by a continuum coherent sector for curved D. (`definition`; `marvin-upstream-8e939525d3f2`)
+- `first_unresolved`: construct theorem-grade measure / dynamics on the global twisted continuum (`definition`; `marvin-upstream-2adc051dd3a8`)
 - construct theorem-grade measure / dynamics on the global twisted continuum (`definition`; `marvin-upstream-2adc051dd3a8`)
-- The exact sector does not define the physical carrier. (`definition`; `marvin-upstream-16fa51055da0`)
 - + spectral floor on K_D^\perp (`lemma`; `marvin-upstream-269065c546af`)
 - with the coherent class controlling `X_ pers  ` and the spectral floor (`lemma`; `marvin-upstream-558cbb8323fd`)
 - `Obs _ glue  `, (`lemma`; `marvin-upstream-5d4a55021542`)

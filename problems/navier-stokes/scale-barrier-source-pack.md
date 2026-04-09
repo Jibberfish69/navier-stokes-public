@@ -35,9 +35,12 @@ If the classical scale-barrier functional satisfies the tail estimate above, the
 
 The unresolved burden is a uniform Euclidean dyadic transport or flux estimate strong enough to bound cumulative nonlinear transfer into the high-frequency block by an absorbable dissipation fraction plus a summable remainder on the classical equation itself.
 
+Sharpening: the failed local repair routes identify the more precise obstruction class as one-sided scale-memory, not just generic high-frequency cascade. The preferred failed-route repair target is the continuum cumulative-tail stress theorem `(CTS)`, with `(LPAS)` as its dyadic shadow; see [one-sided-scale-memory-obstruction-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/one-sided-scale-memory-obstruction-note.md).
+
 ## Local Anchors
 
 - [scale-barrier-package.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-barrier-package.md)
 - [scale-barrier.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/bridge-memos/scale-barrier.md)
 - [spine.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/spine.md)
 - [obstruction-capture.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/obstruction-capture.md)
+- [theorem-construction/one-sided-scale-memory-obstruction-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/one-sided-scale-memory-obstruction-note.md)

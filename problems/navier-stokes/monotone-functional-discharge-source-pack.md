@@ -21,6 +21,28 @@ So the live route has to establish two local claims:
 1. the original framework genuinely treats `Q(t)` as a named bridge, not just unnamed baseline energy;
 2. the boundedness of `Q(t)` is necessary but not sufficient, because it does not by itself suppress the high-frequency cascade or close the blow-up mechanism.
 
+## Legacy Source Companions
+
+The live monotone pack should carry the exact old source companions that make the
+`Q(t)` bridge explicit rather than inferred:
+
+- `Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Section 3- Monotone Functional__desktop_navier_stokes_zip__2025-01-12.tex`
+- `Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Energy Boundedness via Q(t) for Global Regularity__desktop_navier_stokes_zip__2025-01-12.tex`
+
+The second file is the cleaner standalone companion. It does not change the live
+route, but it fills the source gap for the exact global boundedness statement
+
+```math
+Q(t) \le Q(0)e^{-\nu t} + \int_0^t \|f(s)\|_{L^2_x}^2 ds,
+```
+
+and makes the intended handoff explicit:
+
+- `Q(t)` packages kinetic energy plus enstrophy into one named control quantity;
+- the dissipation terms dominate the forcing contribution at the level of the
+  global budget;
+- that budget then feeds the compactness side of the four-body route.
+
 ## Source Equations
 
 The canonical sources repeatedly use:
@@ -71,6 +93,10 @@ These equations justify the following local monotone-functional proposition:
 - But `Q(t)` control alone does not imply:
   - a dyadic tail or flux estimate suppressing dangerous transfer into arbitrarily high frequencies,
   - or a final continuation bridge excluding gradient blow-up.
+- The legacy companion source also states the boundedness claim in a standalone
+  form that feeds later compactness and interdependency arguments directly, so
+  the live corpus should treat it as theorem-bearing provenance rather than
+  background exposition.
 
 So the exact handoff after the monotone bridge is:
 
@@ -105,6 +131,7 @@ Once this bridge is localized correctly, the active route becomes:
 - [source-forensics/master-program-analysis.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-forensics/master-program-analysis.md)
 - [source-forensics/canonical-equation-ledger.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-forensics/canonical-equation-ledger.md)
 - [bridge-memos/monotone-functional.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/bridge-memos/monotone-functional.md)
+- [interdependencies-discharge-source-pack.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/interdependencies-discharge-source-pack.md)
 - [theorem-construction/monotone-functional-package.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/monotone-functional-package.md)
 - [theorem-construction/monotone-functional-insufficiency-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/monotone-functional-insufficiency-lemma.md)
 - [theorem-construction/energy-baseline-bridge-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/energy-baseline-bridge-lemma.md)

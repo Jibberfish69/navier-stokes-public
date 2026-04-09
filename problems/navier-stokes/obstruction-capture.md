@@ -7,11 +7,11 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 - `problem_id`: `navier-stokes`
 - `display_name`: `Navier-Stokes Global Regularity`
 - `date_opened`: `2026-03-11`
-- `status`: `source-grounded-authority-reset theorem-upgrade-open`
+- `status`: `classical-euclidean-route-b theorem-reopen-critical-packet-discharge`
 
 ## One-Sentence Thesis
 
-- The handed source stack routes the classical Navier-Stokes problem through four mutually supporting pieces: a scale-barrier principle, a monotone functional `Q(t)`, non-Sobolev compactness, and curvature-based regularity, and the live lane is now rebuilding that route honestly instead of compressing it into a drifted summary.
+- The handed source stack now routes the classical Navier-Stokes problem through four same-surface Euclidean pieces: a scale-barrier principle, a monotone functional `Q(t)`, non-Sobolev compactness, and Euclidean gradient-transfer coercivity, while the older curvature / ontic / Marvin / Hodge material is retained only as archived provenance.
 
 ## The Real Obstruction
 
@@ -33,7 +33,7 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
   - a classical scale-barrier principle,
   - bounded global energy / enstrophy tracking through the monotone functional `Q(t)`,
   - compactness strong enough to improve weak behavior into nonlinear closure,
-  - a fourth bridge that is source-groundedly curvature-based unless an explicit Euclidean upgrade is declared.
+  - a theorem-primary Euclidean fourth bridge, with the old curvature route retained only as deprecated provenance.
 
 ## Core Mechanism
 
@@ -43,8 +43,8 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
   3. compactness upgrades approximate behavior into strong local convergence and nonlinear tensor closure,
   4. the fourth bridge controls the gradient-growth channel that would otherwise reopen singularity.
 
-- The live theorem burden is not to rediscover that architecture.
-- The live theorem burden is to discharge it honestly on one declared theorem surface.
+- The live theorem burden was not to rediscover that architecture.
+- The live theorem burden is to discharge it honestly on one declared theorem surface, and the current lane treats the decisive packet reductions as reopened until they are line-by-line audited at theorem grade.
 
 ## Plain Path
 
@@ -54,7 +54,7 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 4. The main battlefield was small-scale behavior: turbulence, high-frequency cascade, and gradient growth.
 5. The original framework also made the `Q(t)` monotone-functional layer explicit rather than leaving it implicit as background energy bookkeeping.
 6. `Q(t)` is necessary but not sufficient, so the route must pass from that bridge to the cascade burden rather than pretending the monotone layer already closes the theorem.
-7. The fourth bridge in the source family is curvature-based regularity; any same-surface Euclidean replacement must be declared as a later theorem upgrade.
+7. The original source family used curvature-based regularity, but the live theorem route now promotes the same-surface Euclidean fourth bridge and deprecates the old curvature branch to provenance.
 
 ## Live Branches
 
@@ -74,40 +74,41 @@ Reason it is archived:
 - scale-barrier control
 - monotone functional `Q(t)`
 - non-Sobolev compactness
-- curvature-based regularity in the original source family
+- Euclidean gradient-transfer coercivity as the theorem-primary fourth bridge
 
 Reason it stays primary:
-- this is the architecture the handed TeX/PDF corpus actually names
+- this is the shortest same-surface closure path on the declared theorem surface
 
-### Branch C: Live Upgrade Question
+### Branch C: Quarantined Provenance
 
-- whether the fourth bridge should remain curvature-based on the declared theorem surface
-- or whether the live Euclidean gradient package is being advanced as an explicit theorem upgrade
+- curvature-based regularity as source provenance
+- ontic / Marvin / Hodge / projected-flow sidecars as archived support notes
 
-Reason it remains open:
-- source fidelity and live theorem packaging are not identical questions
+Reason it is quarantined:
+- it may inform exposition or provenance, but it is not active theorem authority for the main classical route
 
 ## Remaining Risks
 
-- Export surfaces must stay below the source-grounded theorem warrant.
+- Export surfaces must stay on the exact Clay statement and must not drift into weaker route-local claims.
 - Historical conditional checkpoints must remain archived rather than reintroduced as the primary theorem surface.
 - The monotone bridge cannot be omitted again.
-- The fourth bridge cannot be silently rewritten.
+- The deprecated curvature branch cannot be silently reintroduced as theorem-primary.
+- The archived ontic / Marvin / Hodge / projected-flow notes must stay quarantined from active blocker status.
 
 ## Existing Material
 
 - The raw corpus is now extracted in `problems/navier-stokes/source-forensics/`.
 - The source-grounded reconstruction is in `source-forensics/master-program-analysis.md` and `source-forensics/canonical-equation-ledger.md`.
-- The live theorem branch remains open in `proof-assembly.yaml`, `proof-obligation-matrix.yaml`, and `source-frontier.yaml`.
+- The live theorem branch is reopened in `proof-assembly.yaml`, `proof-obligation-matrix.yaml`, and `source-frontier.yaml` until the decisive packet reductions are fully discharged.
 
 ## Output Target
 
-- For this phase, the output is not a final release package.
-- It is a source-grounded, authority-consistent four-bridge theorem route that the runner can keep upgrading without overclaim.
+- For this phase, the output is a classical Euclidean Route B theorem package with sidecar provenance fenced off from active theorem authority.
+- The runner must preserve the reopened theorem-discharge posture and must not overclaim solved status while proof-critical packet reductions remain compressed.
 
 ## Instructions to Codex
 
 - Keep the regularized branch archived as a diagnostic failure branch.
 - Keep `Q(t)` explicit.
-- Preserve the source-grounded four-part architecture in every route summary.
-- Do not promote packaging above theorem authority.
+- Preserve the same-surface Euclidean four-part architecture in every route summary.
+- Do not promote archived provenance above theorem authority.

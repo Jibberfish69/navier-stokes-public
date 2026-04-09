@@ -2,31 +2,38 @@
 
 This file is the live full-claim authoring surface for the Navier-Stokes lane.
 It is distinct from the archived safe-output manuscript and now tracks the
-source-grounded four-bridge theorem target together with the realized-carrier
-and external-classical-validation surfaces.
+direct Euclidean four-bridge theorem attempt on the original Navier-Stokes
+surface under a reopened critical packet-discharge audit.
 
-## Target
+## Current Judgment
 
-Prove global regularity for the classical three-dimensional incompressible Navier-Stokes equation on the admissible Euclidean data class fixed elsewhere in the lane.
+The current judgment is narrower than a solved Clay claim:
 
-## External Validation Update
+For every smooth divergence-free rapidly decaying initial datum `u^0` on `R^3`,
+with `f = 0`, there should exist `u,p in C^\infty(R^3 x [0,\infty))` solving
+the three-dimensional incompressible Navier-Stokes equations and satisfying
+`int_{R^3} |u(x,t)|^2 dx < C` for all `t >= 0`. The manuscript presents a
+same-surface closure architecture intended to prove that exact whole-space Clay
+branch. It does not yet count as a fully settled theorem while the decisive
+reductions in Proposition 4.1, Proposition 6.1, and Proposition 6.2 remain
+compressed rather than line-by-line audited.
 
-The earlier blocker language on this surface is superseded by the realized
-carrier note
-`theorem-construction/carrier-realization-classical-identification.md` and the
-external certification note
-`theorem-construction/external-classical-validation-note.md`.
+## Current Honest Status
 
-Current honest status:
+The lane now treats the direct Euclidean four-bridge route as the authoritative
+theorem direction, but not as a fully discharged theorem package.
 
-1. The theorem packet, proof assembly, and proof-obligation matrix treat the
-   classical theorem surface as closed.
-2. The realized classical carrier now supplies the typed Leray/Stokes,
-   exact-pullback, and compactness layer consumed by `D.1`, `D.2`, `D.4`, and
-   `D.8a`.
-3. No new theorem-local lemma is being claimed here. The citation
-   normalization is now in place; the remaining exposure is external referee
-   scrutiny, not unresolved theorem-local mathematics.
+1. The theorem-construction surface carries the explicit Euclidean `C3` closure
+   theorem, the exact `4 -> 1` recertification lemma, and the tail-energy
+   strict-low/spill support lemmas.
+2. The paper surface must no longer overstate the theorem beyond the current
+   packet-discharge boundary.
+3. Curvature, ontic, Marvin, Hodge, and projected-flow material remain archived
+   provenance only.
+4. The theorem statement must remain the official Clay statement rather than a
+   weaker lane-local reformulation.
+5. Compressed named packet reductions do not count as discharged under the
+   current audit standard.
 
 ## Reconciled Downstream Component
 
@@ -36,103 +43,24 @@ Current honest status:
 - `problems/navier-stokes/theorem-construction/compactness-upgrade-lemma.md`
 - `problems/navier-stokes/theorem-construction/nonlinear-compactness-upgrade-operator.md`
 
-## Route Objects Retained On The Surface
+## Theorem Direction
 
-The following objects remain named on the surface because they organize the
-route and the proof narrative, not because they are still untreated theorem debt:
+The theorem-primary route is fixed:
 
-- `curvature_based_gradient_bridge_discharge`, recorded in `theorem-construction/curvature-based-gradient-bridge-object.md`
-- the final warrant integration for Theorem 2.1 on one uncontested theorem surface, now reconciled through `theorem-to-warrant.yaml` and the external-classical-validation note
+1. a classical dyadic scale barrier,
+2. the named monotone functional `Q(t)` and its explicit cascade handoff,
+3. nonlinear compactness and tensor closure on one classical approximation
+   family,
+4. the Euclidean gradient-transfer bridge together with the same-surface
+   `4 -> 1` tail-energy recertification.
 
-## Parallel NS-Only Dynamic Track
+No projected-flow, curvature-pullback, or ontic sidecar is allowed to outrank
+that chain on the main theorem surface.
 
-The lane now also carries a second, explicitly NS-only dynamic route recorded in
-`projected-nc-flow-clay-frontier.md`. That route does not replace the
-source-grounded four-bridge architecture; it packages the remaining
-Navier-Stokes burden as a projected-flow theorem chain:
+## Working Full-Claim Theorem
 
-1. `D.1` projected NC-flow well-posedness,
-2. `D.2` global coercive energy estimate,
-3. `D.3` commutative shadow theorem,
-4. `D.4` shadow continuation theorem,
-5. `D.5` final Clay integration theorem.
-
-The current honest read is that the four-bridge route remains the primary
-source-grounded legacy theorem base, while the projected-flow route is now a
-lane-local theorem scaffold extracted from the Marvin/V6 working-note family and
-made explicit inside `problems/navier-stokes/**`.
-
-## Projected-Flow Closure Package Used By Validation
-
-The projected-flow route remains explicit enough that the Clay-facing closure
-mechanism can be recorded without narrative slack. This package is now used as a
-validated interface rather than as a live theorem-debt list.
-
-The relevant theorem slots are:
-
-1. `D.1` projected NC-flow well-posedness on a closed graph domain.
-2. `D.2` global coercive energy estimate with the exact carrier hypothesis.
-3. `D.3` exact commutative shadow descent.
-4. `D.4` continuation from bounded ontic control to bounded classical control.
-5. `D.5` final integration into global classical regularity.
-
-The exact hard point remains the organizational center of the sidecar package,
-not an unresolved local gap. Its formal closure package is:
-
-```text
-\mathbb P_DN_D(X)=N_{\mathrm{coh}}(X)+N_{\mathrm{rem}}(X),
-```
-
-with
-
-```text
-\|[\nabla_{D,\omega},N_{\mathrm{coh}}(X)]\|
-+\|N_{\mathrm{rem}}(X)\|
-+\|[\nabla_{D,\omega},N_{\mathrm{rem}}(X)]\|
-\le
-\varepsilon\Big(
-\|\Delta_{D,\omega}X\|
-+\|\Delta_{D,\omega}^{1/2}\Omega_D(X)\|
-\Big)
-+C_\varepsilon\Psi(\mathcal E_D(X)).
-```
-
-where
-
-```text
-\mathcal E_D(X)
-:=
-\|\Delta_{D,\omega}^{1/2}X\|^2+\|\Omega_D(X)\|^2.
-```
-
-The exact lift package required downstream is:
-
-```text
-\mathcal C(\partial_t X)=\partial_t u,\quad
-\mathcal C(\Delta_DX)=\Delta u,\quad
-\mathcal C(\mathbb P_DX)=\mathbb P_{\mathrm{Leray}}u,\quad
-\mathcal C(\mathbb P_DN_D(X))=\mathbb P_{\mathrm{Leray}}(u\cdot\nabla u).
-```
-
-The continuation bridge is the norm comparison
-
-```text
-\|u\|_{H^s}\le C\|X\|_{H_D^s},
-\qquad
-s>\frac52.
-```
-
-That is the exact package consumed by the external validation pass. At the level
-of realized classical carrier identification, it no longer represents a new
-missing theorem-local lemma burden.
-
-## Working Full-Claim Theorem Target
-
-Let `u` be a classical solution of the three-dimensional incompressible Navier-Stokes equations on `[0,T) x R^3` arising from smooth compactly supported divergence-free initial data in the admissible Euclidean class fixed in the lane. Then the scale/monotone/compactness/gradient singularity pathway does not occur on `[0,T)`. The theorem is carried entirely on the classical Euclidean equation, with no theorem-critical dependence on modified dynamics, geometric surrogate structure, or stronger hidden hypotheses.
-
-This is the live target theorem for the primary authoring surface. The
-authoritative warrant state is recorded in `theorem-to-warrant.yaml`, which now
-tracks the same surface as externally validated rather than authority-conflicted.
+This is the live internal theorem statement for the primary authoring surface.
+The authoritative warrant state is recorded in `theorem-to-warrant.yaml`.
 
 ## Working Theorem Objects
 
@@ -152,31 +80,18 @@ The downstream compactness bridge is reconciled on one fixed classical approxima
 
 The exact carrier `Xi_N / Phi_N` that remains after the monotone bridge is already localized and discharged through `cascade-after-monotone-bridge-source-pack.md`, `theorem-construction/scale-barrier-transport-defect-lemma.md`, and `theorem-construction/scale-cubic-tail-absorption-lemma.md`. It is therefore no longer a separate frontier; it is the explicit handoff from the monotone layer into the discharged scale-side package.
 
-### Curvature-First Fourth Bridge
+### Euclidean Fourth Bridge
 
-The primary fourth bridge is the source-faithful curvature route, carried by `curvature_based_gradient_bridge_discharge` and recorded in `theorem-construction/curvature-based-gradient-bridge-object.md` together with `curvature-based-regularity-discharge-source-pack.md`. The later Euclidean gradient package remains in the folder only as an explicit fallback theorem-upgrade branch and is not the authoritative fourth slot at this stage.
-
-### Projected NC-Flow Dynamic Route
-
-The dynamic sidecar route is now localized in:
-
-- `projected-nc-flow-clay-frontier.md`
-- `theorem-construction/d1-projected-nc-flow-well-posedness.md`
-- `theorem-construction/d2-global-coercive-energy-estimate.md`
-- `theorem-construction/d3-commutative-shadow-theorem.md`
-- `theorem-construction/d4-shadow-continuation-theorem.md`
-- `theorem-construction/d5-clay-theorem-integration.md`
-
-Its current live claim is no longer "open at the level of missing local
-objects." The projected operator, coercive-energy target, commutative-shadow
-split, and continuation criterion are explicit theorem slots, and the realized
-carrier plus external validation note close the classical import layer behind
-them. What remains is external validation of the intended model reading, not a
-new theorem-local estimate packet.
+The theorem-primary fourth bridge is the direct Euclidean gradient-transfer
+package carried by `theorem-construction/route-b-euclidean-closure-theorem.md`,
+`theorem-construction/combined-closure-sufficiency-lemma.md`, and
+`theorem-construction/euclidean-scale-barrier-recertification-lemma.md`
+together with its exact tail-energy support lemmas. The old curvature route
+remains only as deprecated provenance and is not the authoritative fourth slot.
 
 ## Promotion Rule
 
-Do not rewrite this surface down to the conditional checkpoint. Preserve the
-restored four-bridge architecture, preserve the realized-carrier and external
-validation surfaces as first-class imports, and treat later revisions as
-referee-facing presentation rather than as missing theorem-local mathematics.
+Do not collapse this surface back into stale curvature-first or ontic-sidecar
+debt. Preserve the direct Euclidean four-bridge theorem, preserve the completed
+same-surface Route B packet, and treat sidecars as provenance rather than as
+active theorem debt.

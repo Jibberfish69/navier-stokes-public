@@ -16,15 +16,14 @@ route_lock:
   - Curvature-Based Regularity
   - Closed-Loop Warrant
 same_surface_check:
-  theorem_target: classical three-dimensional incompressible Navier-Stokes on the
-    declared admissible Euclidean data class
-  theorem_2_1_exact_statement: If the scale-barrier, monotone-functional, nonlinear-compactness,
-    and curvature-based-regularity bridges all hold on one admissibility surface for
-    the classical target class, then the source-grounded four-bridge singularity pathway
-    through the Scale-Barrier Principle, the monotone functional \(Q(t)\), Non-Sobolev
-    Compactness, and Curvature-Based Regularity does not occur on \([0,T)\).
+  theorem_target: the official Clay Navier-Stokes problem in dimension 3 for the
+    incompressible equations on R^3 or T^3
+  theorem_2_1_exact_statement: For every smooth divergence-free rapidly decaying initial
+    datum u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty))
+    solving the three-dimensional incompressible Navier-Stokes equations and satisfying
+    int_{R^3} |u(x,t)|^2 dx < C for all t >= 0.
   theorem_2_1_dependencies:
-  - Classical target class on the Euclidean 3D equation
+  - Clay whole-space existence-and-smoothness branch on R^3 with f = 0
   - Scale-barrier bridge
   - Monotone-functional Q(t) bridge
   - Non-Sobolev compactness bridge

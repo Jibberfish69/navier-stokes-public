@@ -9,8 +9,8 @@ source:
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
-    theorem_target: the classical 3D Navier-Stokes equations on the admissible Euclidean
-      data class fixed in the lane.
+    theorem_target: the official Clay Navier-Stokes problem in dimension 3 for the
+      incompressible equations on R^3 or T^3.
     current_package_status: closed; scale, monotone, compactness, the post-monotone
       cascade carrier, and the curvature-first fourth bridge are locally reconciled;
       the projected NC-flow sidecar is now formalized as ontic theorem plus exact
@@ -21,14 +21,12 @@ posture:
     standalone_status: closed
 supporting_sections:
   reviewer_risks:
-  - 'Do not overclaim beyond the lowest safe theorem surface: Let u be a classical
-    solution of the three-dimensional incompressible Navier-Stokes equations on [0,T)
-    x R^3 arising from smooth compactly supported divergence-free initial data in
-    the admissible Euclidean class fixed in the lane. Then the cascade/compactness/gradient
-    singularity pathway does not occur on [0,T).'
-  - 'First unsafe overclaim to avoid: Claiming that the full Clay theorem is already
-    proved on the live lane while the final theorem warrant and generated proof-dependency
-    chain remain unresolved.'
+  - 'Do not overclaim beyond the active Clay branch: for every smooth divergence-free
+    rapidly decaying initial datum u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3
+    x [0,\infty)) solving the three-dimensional incompressible Navier-Stokes equations
+    and satisfying int_{R^3} |u(x,t)|^2 dx < C for all t >= 0.'
+  - 'Do not replace the official Clay statement by a weaker route-local or data-class-local
+    statement.'
   - Recovered support is still classified as strong, so the local package remains
     a revise-stage workboard.
   required_local_explanations:

@@ -3,13 +3,16 @@
 Use this file as the single route surface for Navier-Stokes.
 It preserves the recovered live branch without letting modified-equation successes masquerade as a Clay result and without letting later lane summaries outrank the original source stack.
 
+For the folder-wide layer map that separates route authority, live frontier,
+modern overlays, sidecars, and stale generated surfaces, see
+[ns-layered-route-graph.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/ns-layered-route-graph.md).
+
 ## Route Summary
 
 - Working target: the classical 3D Navier-Stokes equations on arbitrary or minimally admissible initial data.
-- Honest current status: the original four-part framework is explicit again on the theorem surface, the scale/monotone/compactness/cascade loci are reconciled, and the lane is now carrying the source-faithful curvature route as the primary fourth-bridge branch.
-- Decisive frontier: carry the curvature-based fourth bridge through the same theorem surface and promote the final closed-loop warrant without falling back to the Euclidean replacement unless that fallback is explicitly invoked as an upgrade.
-- Frozen architecture note: the internal logic of the classical four-body circuit and its ontic extension is now fixed in
-  [four-body-regularity-circuit-and-ontic-extension.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/four-body-regularity-circuit-and-ontic-extension.md).
+- Honest current status: the original four-part framework is explicit again on the theorem surface, the scale/monotone/compactness/cascade loci are reconciled, and the lane promotes the direct Euclidean fourth bridge as theorem-primary, but the package does not yet count as fully discharged while the proof-critical packet reductions remain compressed.
+- Decisive frontier: proposition-level strict low-mode reduction, threshold-local spill collar alignment, repaired high-side packet absorption, and full manuscript propagation of the local `4 -> 1` theorem all still require line-by-line theorem-grade audit.
+- Frozen architecture note: the archived curvature / ontic extension is preserved only as provenance, while the live theorem surface stays classical and Euclidean.
 
 ## Spine
 
@@ -26,7 +29,7 @@ It preserves the recovered live branch without letting modified-equation success
    The boundedness of `Q(t)` is necessary infrastructure, but it does not by itself suppress the dangerous high-frequency cascade and it does not by itself force a continuation mechanism.
 
 5. Put the live obstruction at the cascade scale.
-   The real danger is uncontrolled transfer into high frequencies or small scales, because that is where gradient blow-up would be fed.
+   The real danger is not just generic high-frequency transfer. The sharper local burden is one-sided scale-memory: accumulated coarser-scale or lower-frequency transport/stress keeps acting against the active shell, so the route only closes if that lower-prefix burden is absorbed by local dissipation up to a summable remainder.
 
 6. Require a classical scale-barrier estimate.
    The route only survives if the original equation itself yields a dyadic tail or flux bound strong enough to suppress indefinite transfer into the dangerous scales on the actual approximation surface.
@@ -38,7 +41,7 @@ It preserves the recovered live branch without letting modified-equation success
    Weak existence is not enough; the route needs strong local `L^2_t L^2_{loc,x}` compactness and the nonlinear convergence `u^(n) tensor u^(n) -> u tensor u` at the exact classical level.
 
 9. Preserve the fourth bridge honestly.
-   In the original source family, the fourth bridge is curvature-based regularity. The lane now selects that curvature route first. If the live lane later needs a same-surface Euclidean replacement, that replacement must be labeled as a fallback theorem upgrade rather than silently substituted back into the original source framework.
+   In the original source family, the fourth bridge is curvature-based regularity. In the live lane, that old branch is now deprecated provenance only. The theorem-primary fourth bridge is the same-surface Euclidean gradient-transfer route recorded in `theorem-construction/route-b-euclidean-closure-theorem.md`.
 
 10. Close the loop rather than treating the pieces as isolated.
     Scale-barrier control, monotone-functional control, compactness, and the fourth bridge reinforce one another in the source family. A closure claim is source-aligned only when all four pieces are named honestly and discharged on one declared theorem surface.
@@ -50,25 +53,30 @@ It preserves the recovered live branch without letting modified-equation success
   - the `Q(t)` bridge is also marked as insufficient by itself, so the route passes honestly to the cascade burden,
   - a classical dyadic tail or flux estimate is proved rather than merely named,
   - that scale-side control feeds the compactness and nonlinear-term step on the classical equation,
-  - the fourth bridge is either preserved in its original curvature-based form or replaced by an explicitly declared Euclidean theorem upgrade,
-  - no modified-equation term is doing essential hidden work.
+  - the fourth bridge is carried by the Euclidean gradient-transfer route on the same theorem surface,
+  - no modified-equation term is doing essential hidden work,
+  - no ontic / Marvin / Hodge / projected-flow sidecar is doing essential hidden work.
 
 ## Current Exact Burdens
 
 - Monotone-functional side: restored and explicit, and the exact handoff `Q(t)` -> necessary but not sufficient -> cascade carrier is now explicit.
 - Cascade-localization side: the dyadic tail/transport object `Xi_N` with transport packet `Phi_N` is no longer an open frontier. It is localized in `cascade-after-monotone-bridge-source-pack.md` and discharged through `theorem-construction/scale-barrier-transport-defect-lemma.md` plus `theorem-construction/scale-cubic-tail-absorption-lemma.md`.
-- Scale side: the discharge locus is present, reconciled, and now explicitly consumes the post-monotone cascade carrier.
+- Scale side: the discharge locus is present, reconciled, and now explicitly consumes the post-monotone cascade carrier. Among the failed local repairs, the preferred repair surface is the continuum cumulative-tail stress theorem `(CTS)`, with the dyadic lower-prefix active-square theorem `(LPAS)` treated as its shadow rather than as the primary language.
+- Defect-loop side: the failed local repairs now read as successive normal-form reductions of the same one-sided scale-memory survivor, and the classical four-body packet is therefore still live as the defect-reduction pipeline rather than as obsolete architecture; see [theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md).
 - Compactness side: the downstream discharge locus is present and reconciled on one fixed classical approximation scheme.
-- Fourth-bridge side: the source-faithful curvature route is now primary; the Euclidean replacement is demoted to explicit fallback status.
-- Closure side: blocked only until the curvature-first route is carried through the final theorem surface and promoted into the final theorem warrant, or explicitly replaced by a declared fallback upgrade.
+- Fourth-bridge side: the direct Euclidean gradient-transfer route is now primary; the old curvature route is retained only as deprecated provenance.
+- Closure side: the Route B Euclidean closure chain is integrated as the authoritative theorem direction on the declared theorem surface, but not yet fully discharged at manuscript grade.
+- Sidecar hygiene: ontic / Marvin / Hodge / projected-flow material is archived provenance only and must not be treated as an active blocker.
 
 ## Do Not Collapse
 
 - `modified PDE smoothness` is not `classical Clay regularity`
 - `bounded energy` is not `global smoothness`
-- `named monotone bridge` is not `discharged theorem closure`
+- `named monotone bridge` is not `the whole theorem by itself`
 - `heuristic spectral decay` is not `a proved scale barrier`
-- `Euclidean gradient upgrade` is not automatically `the original curvature-based bridge`
+- `legacy curvature provenance` is not `the live theorem-primary fourth bridge`
+- `archived provenance` is not `an active theorem blocker`
+- `compressed packet reduction` is not `theorem-grade discharge`
 
 ## Source Anchors
 
@@ -84,7 +92,11 @@ It preserves the recovered live branch without letting modified-equation success
 - [theorem-construction/monotone-functional-package.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/monotone-functional-package.md)
 - [theorem-construction/monotone-functional-insufficiency-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/monotone-functional-insufficiency-lemma.md)
 - [theorem-construction/monotone-to-cascade-carrier.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/monotone-to-cascade-carrier.md)
+- [theorem-construction/one-sided-scale-memory-obstruction-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/one-sided-scale-memory-obstruction-note.md)
 - [monotone-functional-discharge-source-pack.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/monotone-functional-discharge-source-pack.md)
+- [compactness-discharge-source-pack.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/compactness-discharge-source-pack.md)
+- [curvature-based-regularity-discharge-source-pack.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md)
+- [interdependencies-discharge-source-pack.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/interdependencies-discharge-source-pack.md)
 - [cascade-after-monotone-bridge-source-pack.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md)
 - [theorem-construction/energy-baseline-bridge-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/energy-baseline-bridge-lemma.md)
 - [four-body-regularity-circuit-and-ontic-extension.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/four-body-regularity-circuit-and-ontic-extension.md)

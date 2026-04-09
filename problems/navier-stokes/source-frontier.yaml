@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   frontier_id: source-frontier-navier-stokes
-  generated_at: '2026-03-28T01:25:08Z'
+  generated_at: '2026-04-09T16:26:32Z'
   generator: system/runner/lib/source_frontier_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_matrix_id: proof-obligation-matrix-navier-stokes
@@ -17,68 +17,59 @@ source_artifacts:
 - system/meta/collaboration/marvin-feeds/navier-stokes.yaml
 - problems/navier-stokes/marvin-ingest-notes.yaml
 grounded_core:
-  theorem_statement: 'A serious source-grounded four-principle route exists in the
-    handed Navier-Stokes corpus: scale barrier, monotone functional Q(t), non-Sobolev
-    compactness, and curvature-based regularity.'
+  theorem_statement: For every smooth divergence-free rapidly decaying initial datum
+    u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving
+    the three-dimensional incompressible Navier-Stokes equations and satisfying int_{R^3}
+    |u(x,t)|^2 dx < C for all t >= 0.
   grounded_obligations:
   - obligation_id: theorem-statement
     kind: theorem-statement
-    label: 'A serious source-grounded four-principle route exists in the handed Navier-Stokes
-      corpus: scale barrier, monotone functional Q(t), non-Sobolev compactness, and
-      curvature-based regularity.'
+    label: For every smooth divergence-free rapidly decaying initial datum u^0 on
+      R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving the three-dimensional
+      incompressible Navier-Stokes equations and satisfying int_{R^3} |u(x,t)|^2 dx
+      < C for all t >= 0.
     status: grounded
     source_anchor: problems/navier-stokes/claim-ladder.md
+  - obligation_id: marvin-upstream-8e939525d3f2
+    kind: definition
+    label: replace the torus carrier block by a continuum coherent sector for curved
+      D.
+    status: grounded
+    source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+  - obligation_id: marvin-upstream-16fa51055da0
+    kind: definition
+    label: The exact sector does not define the physical carrier.
+    status: grounded
+    source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
   - obligation_id: warrant-theorem-2.1
     kind: lemma
     label: Theorem 2.1 (Classical Closure)
     status: grounded
     source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
-  - obligation_id: debt-d1-projected-nc-flow-well-posedness
-    kind: lemma
-    label: Prove D.1 projected NC-flow well-posedness
-    status: grounded
-    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
-  - obligation_id: debt-d2-global-coercive-energy-estimate
-    kind: lemma
-    label: Prove D.2 global coercive energy estimate
-    status: grounded
-    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
   last_source_supported_step:
-    obligation_id: debt-d2-global-coercive-energy-estimate
+    obligation_id: warrant-theorem-2.1
     kind: lemma
-    label: Prove D.2 global coercive energy estimate
+    label: Theorem 2.1 (Classical Closure)
     status: grounded
     source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
 frontier:
   first_unresolved_obligation:
-    obligation_id: marvin-upstream-8e939525d3f2
-    kind: definition
-    label: replace the torus carrier block by a continuum coherent sector for curved
-      D.
-    status: unresolved
-    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
-  unresolved_obligations:
-  - obligation_id: marvin-upstream-8e939525d3f2
-    kind: definition
-    label: replace the torus carrier block by a continuum coherent sector for curved
-      D.
-    status: unresolved
-    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
-  - obligation_id: marvin-upstream-2adc051dd3a8
+    obligation_id: marvin-upstream-2adc051dd3a8
     kind: definition
     label: construct theorem-grade measure / dynamics on the global twisted continuum
     status: unresolved
     source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
-  - obligation_id: marvin-upstream-16fa51055da0
+  unresolved_obligations:
+  - obligation_id: marvin-upstream-2adc051dd3a8
     kind: definition
-    label: The exact sector does not define the physical carrier.
+    label: construct theorem-grade measure / dynamics on the global twisted continuum
     status: unresolved
     source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
   - obligation_id: marvin-upstream-269065c546af
     kind: lemma
     label: "+ spectral floor on K_D^\\perp"
     status: unresolved
-    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+    source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
   - obligation_id: marvin-upstream-558cbb8323fd
     kind: lemma
     label: with the coherent class controlling `X_ pers  ` and the spectral floor
@@ -97,8 +88,8 @@ frontier:
   - obligation_id: marvin-upstream-0fdc65ea42d5
     kind: lemma
     label: but Hodge still has to prove that persistent support on that object globalizes
-    status: unresolved
-    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+    status: bridge-pending
+    source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
   focus_source: marvin-ingest.promoted-proof-packets
   active_frontier_labels:
   - '{"burden_id"=>"burden-final-theorem-warrant", "label"=>"Promote the locally discharged
@@ -127,14 +118,19 @@ frontier:
   missing_authoritative_topics:
   - interdependencies among principles
   - compactness discrete solutions
+  - initial data l2
+  live_theorem_edge: {}
   boundary_rule: Everything beyond the grounded core is machine extension until it
     survives falsification and promotion.
   extension_policy: Machine branches may build beyond this frontier, but they must
     remain provenance-labeled and quarantined from the frozen core.
 summary:
   grounded_count: 4
-  bridge_pending_count: 0
-  unresolved_count: 8
-  suppressed_unresolved_count: 49
-  authoritative_gap_count: 2
+  bridge_pending_count: 1
+  unresolved_count: 6
+  suppressed_unresolved_count: 75
+  authoritative_gap_count: 3
+  live_theorem_edge_present: false
+  live_theorem_edge_branch_count: 0
+  live_theorem_edge_blocked_count: 0
   freeze_recommended: true

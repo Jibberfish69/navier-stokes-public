@@ -7,7 +7,7 @@
 
 ## Exact Bridge Claim
 
-The Clay target is the classical three-dimensional incompressible Navier-Stokes equation on the admissible data class fixed by the lane. A proof that a modified equation is globally smooth after adding extra dissipation, hyper-viscosity, morphic smoothing, curvature terms, or any other non-classical correction does not close the original problem unless one also proves, on the same admissibility surface, that the modified solutions converge back to a smooth solution of the original classical equation with every theorem-critical bound preserved in the limit.
+The Clay target is the official three-dimensional incompressible Navier-Stokes problem on `R^3` or `T^3`. In the active whole-space branch, the statement is: for every smooth divergence-free rapidly decaying initial datum `u^0` on `R^3`, with `f = 0`, there exist `u,p in C^\infty(R^3 x [0,\infty))` solving the equation and satisfying `int_{R^3} |u(x,t)|^2 dx < C` for all `t >= 0`. A proof that a modified equation is globally smooth after adding extra dissipation, hyper-viscosity, morphic smoothing, curvature terms, or any other non-classical correction does not close the original problem unless one also proves, on the active Clay branch, that the modified solutions converge back to a smooth solution of the original classical equation with every theorem-critical bound preserved in the limit.
 
 Equivalently, theorem-target fidelity forces the route to distinguish:
 

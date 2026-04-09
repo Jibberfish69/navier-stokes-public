@@ -32,7 +32,7 @@ import_policy:
 sterilization_rule:
   summary: Cross-problem ontology, YMG, and Hodge material may sharpen operator, coercivity, carrier, projection, continuation, or obstruction vocabulary, but must remain secondary to direct Navier-Stokes theorem content unless a direct NS theorem file appears.
 same_surface_requirements:
-  theorem_target: classical three-dimensional incompressible Navier-Stokes on the declared admissible Euclidean data class
+  theorem_target: the official Clay Navier-Stokes problem in dimension 3 for the incompressible equations on R^3 or T^3
   preserve_equation: true
   preserve_bridge_order: true
   preserve_closed_loop_feedback: true

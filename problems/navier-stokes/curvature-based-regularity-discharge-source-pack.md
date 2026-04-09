@@ -64,6 +64,14 @@ The parallel geometric note also states the decay-type bound
 
 again under the positive-curvature hypothesis.
 
+So the old fourth-bridge source family contributes two distinct live ingredients
+that should remain explicit in the theorem corpus:
+
+1. `Section 5` gives the geometric reformulation and the Ricci-damped gradient
+   evolution law;
+2. `Gradient Control Through Geometric Arguments` states the decay-type
+   boundedness theorem that the loop later consumes.
+
 The interaction file then feeds that back into the loop:
 
 - curvature-based regularity controls gradient growth,
@@ -81,6 +89,12 @@ On the original source surface, the fourth bridge contributes the following loca
 2. an explicit Ricci-damped evolution law,
 3. a bounded-gradient theorem under positive curvature,
 4. a stated feedback arrow from gradient control back to the scale barrier.
+
+Section 6 is the file that makes the return arrow explicit rather than implicit:
+
+- curvature-based regularity controls gradient growth,
+- bounded gradients reinforce high-frequency suppression,
+- and that strengthening returns support to the scale-barrier principle.
 
 ## Local Discharge Verdict
 
@@ -118,10 +132,18 @@ surface without a hidden branch switch.
 
 ## Use In The Live Lane
 
-This file should be treated as the source-faithful fourth-bridge artifact surface.
+This file should now be treated as deprecated provenance only.
 
-If the lane chooses the original route first, this is the fourth-bridge branch to
-carry.
+The theorem-primary fourth bridge is the Euclidean Route B package on the
+declared theorem surface.
 
-If the lane chooses the Euclidean replacement instead, this file remains the
-provenance branch that must be explicitly superseded rather than silently erased.
+This curvature file remains in the corpus only to preserve:
+
+- the original source-family formulation,
+- the geometric provenance of the old fourth bridge,
+- and the historical feedback intuition from curvature control back to scale suppression.
+
+The live corpus should therefore treat `Section 5`, `Gradient Control Through
+Geometric Arguments`, and `Section 6` as one deprecated provenance packet: the
+bridge law, the bounded-gradient theorem, and the loop-closing feedback note of
+the old branch.

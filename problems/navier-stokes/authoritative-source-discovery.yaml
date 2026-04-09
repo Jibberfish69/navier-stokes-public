@@ -224,7 +224,7 @@ discovery_policy:
   - The comparison yields support, a bound, a redirect, a contradiction, or an explicit insufficiency finding.
   rejection_criteria:
   - The source only echoes lane-local claims without independent content.
-  - The source would widen the theorem target beyond the admissible Euclidean surface.
+  - The source would widen the theorem target beyond the official Clay statement carried by the lane.
   - The source cannot be cited precisely enough to support recertification.
 external_mathematician_review:
   updated_at: '2026-03-24T21:49:39Z'

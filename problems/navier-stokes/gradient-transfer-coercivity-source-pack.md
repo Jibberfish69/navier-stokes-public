@@ -54,10 +54,10 @@ for almost every `t`, on the same classical Euclidean surface and with no geomet
 This packet is strictly smaller than the whole gradient bridge:
 
 - the continuation criterion is already explicit;
-- the strict low-mode pieces are already reduced;
-- the spill contribution is already reduced;
+- the strict low-mode target is explicit, but coefficient-preserving alignment is still under audit;
+- the spill target is explicit, but the threshold-local collar is still open at proposition level;
 - the low-mode coefficient is already automatically integrable;
-- the live unresolved point is the genuine high-high packet inside the coercivity object.
+- the live unresolved points are the repaired high-side packet pieces inside the coercivity object: the spill collar, the lifted high-side remainder, and the propagation of the genuine high-high packet.
 
 ## Closure Interface
 

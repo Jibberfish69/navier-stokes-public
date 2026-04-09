@@ -47,7 +47,7 @@ theorem_warrants:
       tex_file: problems/navier-stokes/external-paper/sections/main-result.tex
       tex_section: Main Result
     exact_statement: |-
-      If the scale-barrier, monotone-functional, nonlinear-compactness, and curvature-based-regularity bridges all hold on one admissibility surface for the classical target class, then the source-grounded four-bridge singularity pathway through the Scale-Barrier Principle, the monotone functional \(Q(t)\), Non-Sobolev Compactness, and Curvature-Based Regularity does not occur on \([0,T)\).
+      If the scale-barrier, monotone-functional, nonlinear-compactness, and curvature-based-regularity bridges all hold on the active whole-space branch, then the Clay whole-space existence-and-smoothness statement with \(f = 0\) follows.
     dependencies:
       - Classical target class on the Euclidean 3D equation
       - Scale-barrier bridge

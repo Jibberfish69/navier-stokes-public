@@ -4,7 +4,7 @@ Archived conditional checkpoint only. This file is not the authoritative theorem
 
 ## Abstract
 
-This paper states a conditional classical-closure theorem for the three-dimensional incompressible Navier-Stokes equation on `R^3`. The target is fixed from the outset: the original Euclidean equation with divergence-free admissible data, positive viscosity, standard pressure recovery, and no theorem-critical reliance on regularized, filtered, hyper-viscous, or geometric surrogate dynamics. The main result is not an unconditional solution of the Millennium problem. Instead, it isolates the exact bridge statements that must hold on the classical equation in order to block the singularity route represented by dangerous-scale cascade, failure of nonlinear closure, and derivative blow-up. The theorem assumes a quantified high-frequency scale barrier, a classical approximation scheme with nonlinear tensor closure, same-surface Euclidean gradient control, and a no-hidden-modified-equation audit. Under those hypotheses, the candidate singularity route does not occur on the stated interval. The contribution of the manuscript is therefore structural and referee-facing: it puts the theorem on a precise PDE surface, states each bridge on that same surface, proves the reductions that make those bridges the decisive burdens, and keeps the claim boundary explicit. The paper should be read as a conditional theorem manuscript and as a disciplined description of what still has to be discharged before an unconditional Clay claim could be made honestly.
+This paper states a conditional route toward the official Clay whole-space existence-and-smoothness statement for the three-dimensional incompressible Navier-Stokes equation on `R^3`. The target is fixed from the outset: for every smooth divergence-free rapidly decaying initial datum `u^0` on `R^3`, with `f = 0`, there exist `u,p in C^\infty(R^3 x [0,\infty))` solving the equation and satisfying `int_{R^3} |u(x,t)|^2 dx < C` for all `t >= 0`. The manuscript isolates the exact bridge statements that must hold on the classical equation in order to reach that Clay statement. The theorem assumes a quantified high-frequency scale barrier, a classical approximation scheme with nonlinear tensor closure, same-surface Euclidean gradient control, and a no-hidden-modified-equation audit. Under those hypotheses, the active whole-space Clay branch follows. The contribution of the manuscript is therefore structural: it puts the route on a precise PDE surface, states each bridge on that same surface, proves the reductions that make those bridges the decisive burdens, and keeps the target fixed at the official Clay statement.
 
 ## Introduction
 
@@ -124,7 +124,7 @@ Therefore the entire route represented by those three obstructions is blocked. T
 
 The conclusion is conditional because each decisive bridge still appears as an assumption. But the logical assembly is complete: if the bridges are supplied on the classical surface, then the singularity route tracked by this paper is eliminated. That is exactly the conditional closure statement the manuscript is entitled to make.
 
-## Theorem: Conditional Classical Closure
+## Archived Checkpoint: Earlier Conditional Closure
 
 **Theorem 8 (Conditional classical closure).** Let `u` be a classical solution of the three-dimensional incompressible Navier-Stokes equation on `[0,T) x R^3` arising from smooth compactly supported divergence-free initial data in the target class above. Assume:
 

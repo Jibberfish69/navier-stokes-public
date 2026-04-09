@@ -7,6 +7,22 @@ Discharge the compactness/nonlinear-closure bridge on the classical Euclidean 3D
 - strong local compactness of the approximation family,
 - convergence of the nonlinear tensor to the classical limit tensor.
 
+## Legacy Source Companions
+
+The live compactness pack should explicitly carry the old compactness companions
+that were missing from the theorem-bearing side of the corpus:
+
+- `Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Strong Convergence in L2 Using Compactness__desktop_navier_stokes_zip__2025-01-12.tex`
+- `Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Compactness Proof for Discrete Navier-Stokes Solutions__desktop_navier_stokes_zip__2025-01-10.tex`
+
+These are not replacements for the current fixed-scheme Euclidean package. They
+fill two direct source gaps:
+
+- the old continuous-source statement that boundedness in the generalized `H`
+  packet plus `\partial_t u_n` control yields strong `L^2` convergence;
+- the old approximation/discrete Aubin-Lions variant that makes the same
+  compactness burden explicit for interpolated discrete families.
+
 ## Classical-Euclidean Setup
 
 Fix one approximation scheme once and for all. Let `u_0` be the theorem-target datum and define
@@ -50,6 +66,18 @@ Assume, uniformly in `n`:
 - dyadic tail estimate from the scale-barrier package:
   `sup_n int_0^T ||P_{>=N} u^(n)(t)||_{L^2_x}^2 dt <= C_* 2^{-2 delta N}` for all `N`.
 
+This matches the old strong-convergence companion at the level of structure: the
+legacy source states boundedness of `u_n` in the generalized space
+
+```math
+\|u\|_H = \|u\|_{L^2} + \|\nabla u\|_{L^2} + \sup_{k > k_0}\frac{E(k)}{k^\beta},
+```
+
+together with `\partial_t u_n` bounded in `L^2(0,T;H^{-1})`, and concludes
+strong `L^2(0,T;L^2)` convergence. The live pack keeps the same burden but
+recasts it on one fixed classical approximation scheme with an explicit dyadic
+tail hypothesis.
+
 ## Compactness Statement (C1)
 
 For every ball `B_R`, there is a subsequence (not relabeled) and `u` such that:
@@ -86,8 +114,16 @@ The compactness package is no longer open-ended. Its only upstream dependency is
 
 If that dyadic tail estimate is proved on the same surface, C1 and C2 follow by the decomposition argument above. The compactness/nonlinear-closure bridge is therefore discharged downstream of the scale-barrier input; it is not an independent frontier invention any more.
 
+The discrete companion fills the approximation-family variant of the same claim:
+uniform `L^2_t H^1_x` control together with discrete time-derivative control in
+`L^2_t H^{-1}_x` forces strong `L^2_t L^2_x` compactness of interpolated
+solutions. That source is not theorem-authoritative for the final classical
+Euclidean route, but it is still a live provenance companion for the compactness
+handoff.
+
 ## Local Anchors
 
 - [compactness-upgrade-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/compactness-upgrade-lemma.md)
 - [nonlinear-compactness-upgrade-operator.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/nonlinear-compactness-upgrade-operator.md)
 - [nonlinear-closure-discharge-source-pack.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/nonlinear-closure-discharge-source-pack.md)
+- [interdependencies-discharge-source-pack.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/interdependencies-discharge-source-pack.md)

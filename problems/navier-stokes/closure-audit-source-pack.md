@@ -4,8 +4,8 @@
 
 - `debt-frontier-no-modified-equation-or-stronger-hypothesis-term-is-doing-essential-hidden-work`
 - `Frontier: No modified-equation or stronger-hypothesis term is doing essential hidden work`
-- `debt-frontier-classical-closure-under-same-surface-bridge-discharge-eliminates-the-live-singularity-pathway`
-- `Frontier: Classical closure under same-surface bridge discharge eliminates the live singularity pathway`
+- `debt-frontier-classical-closure-under-same-surface-bridge-discharge-implies-the-clay-whole-space-branch`
+- `Frontier: Classical closure under same-surface bridge discharge implies the Clay whole-space existence-and-smoothness branch`
 
 ## Exact audit rule
 
@@ -28,19 +28,19 @@ Every critical closure estimate or bridge proposition must remain on the classic
 
 ## Closure proposition interface
 
-Use the closure package to produce the same-surface closure proposition `C3`: assume all bridge outputs `S1`, `S2`, `K1`, `K2`, `K3`, `G1`, `G2` are stated on the admissibility surface and `C1` (shared surface) plus `C2` (no hidden modified equation) already hold. The interface requires demonstrating that the cascade/compactness/gradient route is blocked on the classical equation by showing:
+Use the closure package to produce the same-surface closure proposition `C3`: assume all bridge outputs `S1`, `S2`, `K1`, `K2`, `K3`, `G1`, `G2` are stated on the active whole-space branch and `C1` (shared surface) plus `C2` (no hidden modified equation) already hold. The interface requires demonstrating that the route proves the Clay whole-space statement on the classical equation by showing:
 
 1. The same scale-barrier functional that delivers `S1` and `S2` feeds `K2` and `G2` without invoking new hypotheses.
 2. The high-frequency transfer is suppressed purely by classical dissipation and scale-barrier decay so that the nonlinear term `u^(n) ⊗ u^(n)` closes as in `K3`.
 3. The gradient-enstrophy mechanism from `G2` remains coercive with the exact Euclidean functional derived in `S2`.
-4. The live singularity pathway is eliminated (no blow-up scenario remains) on the same surface, yielding `Frontier: Classical closure under same-surface bridge discharge eliminates the live singularity pathway`.
+4. The active whole-space Clay branch follows on the same surface, yielding `Frontier: Classical closure under same-surface bridge discharge implies the Clay whole-space existence-and-smoothness branch`.
 
 The interface is now complete: `C1`, `C2`, and `C3` are checked inside the classical surface, with the final closure step recorded in `theorem-construction/combined-closure-sufficiency-lemma.md`.
 
 ## Remaining discharge gaps
 
 - **Proposition C2** (`Frontier: No modified-equation or stronger-hypothesis term is doing essential hidden work`) is discharged on the current theorem surface; the bridge packages now rely only on the classical equation and removable analytical devices.
-- **Proposition C3** (`Frontier: Classical closure under same-surface bridge discharge eliminates the live singularity pathway`) is discharged by `theorem-construction/combined-closure-sufficiency-lemma.md`.
+- **Proposition C3** (`Frontier: Classical closure under same-surface bridge discharge implies the Clay whole-space existence-and-smoothness branch`) is discharged by `theorem-construction/combined-closure-sufficiency-lemma.md`.
 
 ## Local anchors
 

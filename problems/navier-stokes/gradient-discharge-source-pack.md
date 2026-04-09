@@ -1,6 +1,8 @@
 # Gradient Discharge Source Pack
 
-Archived Euclidean theorem-upgrade residue. This note records the later same-surface Euclidean replacement candidate for the fourth bridge. While the lane is carrying the source-faithful curvature route first, this file is not the theorem-authoritative fourth slot.
+Theorem-primary Euclidean fourth-bridge pack. This note records the live
+same-surface Route B gradient-transfer closure package for the declared
+classical theorem surface.
 
 ## Target Obligation
 
@@ -17,12 +19,21 @@ We work with a classical approximation family `\{u^{(n)},p^{(n)}\}_{n\in\mathbb{
 on `(0,T)\times\mathbb{R}^3` with smooth divergence-free data and uniform energy/enstrophy control as in the scale-barrier surface. The desired continuation claim is an inequality of the form
 ```math
 \frac{d}{dt}E_N(t) + \nu\sum_{j\geq N}2^{4j}\|P_j u(t)\|_{L^2_x}^2
-\leq C\,\mathcal{L}_N(t)\,E_N(t) + C\,\mathcal{R}_N(t),
+\leq C\,\widetilde\Lambda_N^\sharp(t)\,E_N(t) + C\,\mathcal{R}_N(t),
 ```
-where `E_N(t) := \sum_{j\geq N}2^{2j}\|P_j u(t)\|_{L^2_x}^2` is the high-frequency enstrophy tail, and the low/high decomposition is
+where `E_N(t) := \sum_{j\geq N}2^{2j}\|P_j u(t)\|_{L^2_x}^2` is the
+high-frequency enstrophy tail, and the upgraded coefficient split is
 ```math
-\mathcal{L}_N(t) := 1 + \sum_{k\leq N-4} 2^{3k/2}\|P_k u(t)\|_{L^2_x},
+\Lambda_N(t) := 1 + \sum_{k\leq N-4} 2^{5k/2}\|P_k u(t)\|_{L^2_x},
 \qquad
+\Theta_N^\sharp(t) := 2^{3N}\sum_{m=N-M}^{N+M}\|P_m u(t)\|_{L^2_x}^2,
+\qquad
+\widetilde\Lambda_N^\sharp(t):=\Lambda_N(t)+\Theta_N^\sharp(t),
+```
+
+while
+
+```math
 \mathcal{R}_N(t) := \sum_{j\geq N}2^{2j}\,|\mathcal{C}_j(t)|.
 ```
 Here `\mathcal{C}_j(t)` is the commutator/high-high remainder from the dyadic Bony decomposition of `P_j((u\cdot\nabla)u)`. The intended closure is
@@ -31,13 +42,13 @@ Here `\mathcal{C}_j(t)` is the commutator/high-high remainder from the dyadic Bo
 ```
 for some fixed `\eta\in(0,1)` and `\delta>0` on the same classical surface. Once this holds, Proposition G.2 from the gradient-control bridge converts the estimate into Gronwall continuation for `\|\nabla u(t)\|_{L^2_x}`, with no geometric surrogate and no modified equation.
 
-For each fixed `N`, the low-mode coefficient is automatically integrable on the classical energy surface:
+For each fixed `N`, the upgraded coefficient is automatically integrable on the classical energy surface:
 ```math
-\mathcal{L}_N(t)
+\widetilde\Lambda_N^\sharp(t)
 \le
-1 + C\,2^{3N/2}\|u(t)\|_{L^2_x},
+1 + C_N^{str}\|u(t)\|_{L^2_x} + C_{N,M}\|u(t)\|_{L^2_x}^2,
 ```
-so `\mathcal{L}_N \in L^\infty(0,T)\cap L^1(0,T)` by the standard energy bound. The live gradient debt is therefore the high-side remainder packet, not low-mode integrability.
+so `\widetilde\Lambda_N^\sharp \in L^\infty(0,T)\cap L^1(0,T)` by the standard energy bound. The live gradient debt is therefore the high-side remainder packet, not fixed-threshold coefficient admissibility.
 
 ## Classical PDE Surface
 
@@ -65,7 +76,7 @@ Define
 :=
 \frac{d}{dt}E_N(t)
 + (1-\eta)\nu D_N(t)
-- C\,\mathcal{L}_N(t)\,E_N(t).
+- C\,\widetilde\Lambda_N^\sharp(t)\,E_N(t).
 ```
 
 The exact theorem-local coercivity carrier is the object `gradient_transfer_coercivity_lemma` recorded in [theorem-construction/gradient-transfer-coercivity-object.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-transfer-coercivity-object.md). The bridge-facing alias surface for the live solver is [gradient-control-bridge-discharge.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-control-bridge-discharge.md). Its first exact remainder surface is the high-side packet in [theorem-construction/gradient-high-side-remainder-packet.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-high-side-remainder-packet.md), and its exact remaining live burden is the genuine high-high packet in [theorem-construction/gradient-genuine-high-high-packet.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-genuine-high-high-packet.md).
@@ -76,20 +87,31 @@ The exact theorem-local coercivity carrier is the object `gradient_transfer_coer
 - Compactness ensures that the nonlinear product `u^{(n)}\otimes u^{(n)}\to u\otimes u` holds strongly enough so that the frequency-localized transport terms from `P_j((u^{(n)}\cdot\nabla)u^{(n)} )` converge to the classical quadratic flux appearing in the inequality. Without that closure, the gradient inequality could only be claimed for a surrogate equation rather than the classical PDE.
 - Together the two packages deliver the low-mode coefficients and summable remainders that turn the differential inequality above into a coercive continuation mechanism for `\|\nabla u(t)\|_{L^2_x}`.
 
-## Missing Coercive Estimate
+## Coercive Estimate Status
 
-- The remaining gap was the Euclidean coercive estimate behind Proposition G.1 of the bridge memo: show that
+- The remaining gap is the Euclidean coercive estimate behind Proposition G.1 of the bridge memo: show that
   `\mathcal{R}_N(t)` satisfies the absorbable-plus-summable bound above with constants independent of the approximation index `n` and with no extra regularity beyond the classical surface assumptions.
 - Equivalently, prove that the classical enstrophy differential inequality can be written in the concrete low/high form
 ```math
 \frac{d}{dt}E_N(t) + \nu\sum_{j\geq N}2^{4j}\|P_j u(t)\|_{L^2_x}^2
-\leq C\,\mathcal{L}_N(t)\,E_N(t) + C_*2^{-2\delta N},
+\leq C\,\widetilde\Lambda_N^\sharp(t)\,E_N(t) + C_*2^{-2\delta N},
 ```
-with `\mathcal{L}_N\in L^1(0,T)` determined by low modes on the same classical surface and `C_*2^{-2\delta N}` supplied by scale-barrier tail control. This coercive commutator estimate is now closed in the corpus: after the strict low-mode and spill reductions, the genuine high-high packet is reduced to a near-diagonal cubic tail and absorbed by `theorem-construction/gradient-cubic-tail-absorption-lemma.md`.
+with `\widetilde\Lambda_N^\sharp\in L^1(0,T)` determined by the strict low-mode
+strain core plus the finite threshold-collar coefficient on the same classical
+surface and `C_*2^{-2\delta N}` supplied by scale-barrier tail control. The
+current packet stack does isolate the strict low-mode target, the
+threshold-local spill collar, and the genuine high-high packet, and the
+cubic-tail absorption mechanism remains the intended high-high closure route.
+But the proposition-level coercive commutator estimate is not yet closed on the
+current theorem surface because the exact gradient-side strict low-mode shell
+algebra currently lands on the stronger low-mode strain coefficient
+`\Lambda_N`, the upgraded spill reduction adds the finite collar coefficient
+`\Theta_N^\sharp`, and the repaired high-side packet propagation is still under
+audit.
+The historical residual debt label was:
+`Euclidean commutator remainder bound for the gradient transfer operator`.
 
-The exact residual local debt is: `Euclidean commutator remainder bound for the gradient transfer operator`.
-
-More precisely, the strict low-mode low-high and high-low pieces are isolated in [theorem-construction/gradient-paraproduct-reduction-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-paraproduct-reduction-lemma.md) and reduced to `\mathcal{L}_N(t)E_N(t)` plus a harmless dissipative fraction. The finite-band spill is reduced by [theorem-construction/gradient-spill-reduction-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-spill-reduction-lemma.md). The genuine high-high packet `\sum_{j\ge N}|\mathcal{C}^{HH}_j|` is then reduced to a near-diagonal cubic tail and absorbed by [theorem-construction/gradient-cubic-tail-absorption-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-cubic-tail-absorption-lemma.md).
+More precisely, the strict low-mode low-high and high-low pieces are isolated in [theorem-construction/gradient-paraproduct-reduction-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-paraproduct-reduction-lemma.md), and the exact gradient-side shell computation currently yields the low-strain core `\Lambda_N(t)E_N(t)` rather than the declared linear `\mathcal{L}_N(t)E_N(t)` surface. The threshold-local spill collar is isolated in [theorem-construction/gradient-spill-reduction-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-spill-reduction-lemma.md), where the upgraded spill route now lands on `\Theta_N^\sharp(t)E_N(t)` and therefore on the minimal coherent interface `\widetilde\Lambda_N^\sharp E_N`. The genuine high-high packet `\sum_{j\ge N}|\mathcal{C}^{HH}_j|` is still intended to reduce to a near-diagonal cubic tail and be absorbed by [theorem-construction/gradient-cubic-tail-absorption-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-cubic-tail-absorption-lemma.md), but the full proposition-level propagation of that repaired packet remains open.
 
 ## Vorticity / Critical-Space Reformulation
 
@@ -105,7 +127,7 @@ More precisely, the strict low-mode low-high and high-low pieces are isolated in
   or an equivalent absorbable estimate from the classical equation itself.
 - No such critical-space bound is discharged in this packet. The unresolved burden remains the theorem-critical high-side remainder / gradient-transfer estimate already named above.
 
-## Link To New Lemma Surface
+## Link To Active Lemma Surface
 
 - A sharpened theorem-construction statement is now tracked in [theorem-construction/gradient-coercivity-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-coercivity-lemma.md).
 - The low-mode coefficient integrability is tracked in [theorem-construction/classical-low-mode-coefficient-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/classical-low-mode-coefficient-lemma.md).
@@ -131,3 +153,4 @@ More precisely, the strict low-mode low-high and high-low pieces are isolated in
 - [spine.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/spine.md)
 - [theorem-construction/scale-barrier-package.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-barrier-package.md)
 - [theorem-construction/compactness-package.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/compactness-package.md)
+- [theorem-construction/route-b-euclidean-closure-theorem.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/route-b-euclidean-closure-theorem.md)

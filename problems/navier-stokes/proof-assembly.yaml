@@ -4,52 +4,36 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-03-28T01:25:08Z'
+  generated_at: '2026-04-09T16:26:32Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
-theorem_statement: 'A serious source-grounded four-principle route exists in the handed
-  Navier-Stokes corpus: scale barrier, monotone functional Q(t), non-Sobolev compactness,
-  and curvature-based regularity.'
+theorem_statement: For every smooth divergence-free rapidly decaying initial datum
+  u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving the
+  three-dimensional incompressible Navier-Stokes equations and satisfying int_{R^3}
+  |u(x,t)|^2 dx < C for all t >= 0.
 source_grounded_chain:
-- 'A serious source-grounded four-principle route exists in the handed Navier-Stokes
-  corpus: scale barrier, monotone functional Q(t), non-Sobolev compactness, and curvature-based
-  regularity.'
+- For every smooth divergence-free rapidly decaying initial datum u^0 on R^3, with
+  f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving the three-dimensional
+  incompressible Navier-Stokes equations and satisfying int_{R^3} |u(x,t)|^2 dx <
+  C for all t >= 0.
+- replace the torus carrier block by a continuum coherent sector for curved D.
+- The exact sector does not define the physical carrier.
 - Theorem 2.1 (Classical Closure)
-- Prove D.1 projected NC-flow well-posedness
-- Prove D.2 global coercive energy estimate
 tentative_extension_chain:
 - branch_id: branch-navier-stokes-1
-  origin_obligation_id: marvin-upstream-8e939525d3f2
-  hypothesis: Define the missing local object so that replace the torus carrier block
-    by a continuum coherent sector for curved D. becomes explicit with domain, codomain,
-    and invariance conditions.
-- branch_id: branch-navier-stokes-2
   origin_obligation_id: marvin-upstream-2adc051dd3a8
   hypothesis: Define the missing local object so that construct theorem-grade measure
     / dynamics on the global twisted continuum becomes explicit with domain, codomain,
     and invariance conditions.
-- branch_id: branch-navier-stokes-3
-  origin_obligation_id: marvin-upstream-16fa51055da0
-  hypothesis: Define the missing local object so that the exact sector does not define
-    the physical carrier. becomes explicit with domain, codomain, and invariance conditions.
 remaining_open_obligations:
 - obligation_id: warrant-theorem-2.1
   label: Theorem 2.1 (Classical Closure)
   kind: theorem-warrant
   status: bridge-pending
-- obligation_id: marvin-upstream-8e939525d3f2
-  label: replace the torus carrier block by a continuum coherent sector for curved
-    D.
-  kind: definition
-  status: unresolved
 - obligation_id: marvin-upstream-2adc051dd3a8
   label: construct theorem-grade measure / dynamics on the global twisted continuum
-  kind: definition
-  status: unresolved
-- obligation_id: marvin-upstream-16fa51055da0
-  label: The exact sector does not define the physical carrier.
   kind: definition
   status: unresolved
 - obligation_id: marvin-upstream-269065c546af
@@ -71,30 +55,32 @@ remaining_open_obligations:
 - obligation_id: marvin-upstream-0fdc65ea42d5
   label: but Hodge still has to prove that persistent support on that object globalizes
   kind: lemma
-  status: unresolved
+  status: bridge-pending
 next_solver_targets:
 - obligation_id: warrant-theorem-2.1
   label: Theorem 2.1 (Classical Closure)
   kind: theorem-warrant
   status: bridge-pending
-- obligation_id: marvin-upstream-0fdc65ea42d5
-  label: but Hodge still has to prove that persistent support on that object globalizes
+- obligation_id: marvin-upstream-269065c546af
+  label: "+ spectral floor on K_D^\\perp"
   kind: lemma
   status: unresolved
-- obligation_id: marvin-upstream-16fa51055da0
-  label: The exact sector does not define the physical carrier.
+- obligation_id: marvin-upstream-2adc051dd3a8
+  label: construct theorem-grade measure / dynamics on the global twisted continuum
   kind: definition
   status: unresolved
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-a9e6645ebc56
-  route_signature: a9e6645ebc5665054de33c3ecc7cf66d168b98d7
-  theorem_target: the classical 3D Navier-Stokes equations on the admissible Euclidean
-    data class fixed in the lane.
-  theorem_statement: 'A serious source-grounded four-principle route exists in the
-    handed Navier-Stokes corpus: scale barrier, monotone functional Q(t), non-Sobolev
-    compactness, and curvature-based regularity.'
+  surface_id: theorem-surface-navier-stokes-7f782c61bd84
+  route_signature: 7f782c61bd8475521f30bfb48b09548000a7116d
+  theorem_target: the official Clay Navier-Stokes problem in dimension 3 for the incompressible
+    equations on R^3 or T^3.
+  theorem_statement: For every smooth divergence-free rapidly decaying initial datum
+    u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving
+    the three-dimensional incompressible Navier-Stokes equations and satisfying int_{R^3}
+    |u(x,t)|^2 dx < C for all t >= 0.
   route_chain:
-  - The Clay target is the classical 3D equation on admissible data
+  - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
+    or `T^3`
   - Success for regularized or morphic-regularized equations does not close the original
     problem
   - The original framework names a monotone functional `Q(t)` as a bridge, not just
@@ -110,7 +96,8 @@ theorem_surface:
   - A gradient-control bridge must force continuation control on the same theorem
     surface
   - If the scale-barrier, monotone-functional, compactness, and gradient packages
-    all hold on one admissibility surface, the live singularity pathway is eliminated
+    all hold on the active whole-space branch, then the Clay whole-space existence-and-smoothness
+    statement with `f = 0` follows
   route_slots:
   - slot_id: warrant-theorem-2.1
     label: Theorem 2.1 (Classical Closure)
@@ -118,14 +105,14 @@ theorem_surface:
     status: bridge-pending
     source_anchor: problems/navier-stokes/external-paper/sections/main-result.tex
     patch_surface: problems/navier-stokes/external-paper/sections/main-result.tex
-  - slot_id: marvin-upstream-0fdc65ea42d5
-    label: but Hodge still has to prove that persistent support on that object globalizes
+  - slot_id: marvin-upstream-269065c546af
+    label: "+ spectral floor on K_D^\\perp"
     kind: lemma
     status: unresolved
-    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+    source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
     patch_surface: problems/navier-stokes/object-formalization.yaml
-  - slot_id: marvin-upstream-16fa51055da0
-    label: The exact sector does not define the physical carrier.
+  - slot_id: marvin-upstream-2adc051dd3a8
+    label: construct theorem-grade measure / dynamics on the global twisted continuum
     kind: definition
     status: unresolved
     source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
@@ -159,16 +146,6 @@ theorem_surface:
     - working-notes/chat-y-monograph-synchronization-protocol.md
     - working-notes/theorem-pull-trigger-spec.md
     - working-notes/raw-user-working-theory-intake-log.md
-    - Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/proof-assembly.yaml
-    - Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-frontier.yaml
-    - Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/theorem-packet.yaml
-    - Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/claim-ladder.md
-    - Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/formalization-ledger.md
-    - Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/marvin-adaptation-notes.md
-    - Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/marvin-source-discovery.yaml
-    - Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/marvin-watchlist.yaml
-    - Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/marvin-v6-tandem-crosswalk.yaml
-    - Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/monograph-V6-tandem-crosswalk.yaml
     - working-notes/chat-y-layered-ontic-flow-extraction-note.md
     - working-notes/chat-y-deep-ontology-miss-delta-card.md
     - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-clay-frontier-proof-pack.md"
@@ -190,13 +167,13 @@ theorem_surface:
     status: ok
     route_locked: true
     cross_surface_splice: false
-    sterilized_synthesis_import_count: 31
+    sterilized_synthesis_import_count: 21
 summary:
   grounded_step_count: 4
-  promoted_extension_count: 3
+  promoted_extension_count: 1
   bridge_discharge_blocking_count: 1
-  open_obligation_count: 9
-  tracked_source_count: 64
-  synthesis_import_surface_count: 31
+  open_obligation_count: 7
+  tracked_source_count: 122
+  synthesis_import_surface_count: 21
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-a9e6645ebc56
+  theorem_surface_id: theorem-surface-navier-stokes-7f782c61bd84

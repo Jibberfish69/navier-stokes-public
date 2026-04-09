@@ -4,15 +4,16 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-03-28T17:13:29Z'
+  generated_at: '2026-04-09T16:32:42Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
-  status: aligned
+  status: needs-sync
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-a9e6645ebc56
-    route_signature: a9e6645ebc5665054de33c3ecc7cf66d168b98d7
+    surface_id: theorem-surface-navier-stokes-7f782c61bd84
+    route_signature: 7f782c61bd8475521f30bfb48b09548000a7116d
     route_chain:
-    - The Clay target is the classical 3D equation on admissible data
+    - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
+      or `T^3`
     - Success for regularized or morphic-regularized equations does not close the
       original problem
     - The original framework names a monotone functional `Q(t)` as a bridge, not just
@@ -29,30 +30,47 @@ shared_alignment:
     - A gradient-control bridge must force continuation control on the same theorem
       surface
     - If the scale-barrier, monotone-functional, compactness, and gradient packages
-      all hold on one admissibility surface, the live singularity pathway is eliminated
+      all hold on the active whole-space branch, then the Clay whole-space existence-and-smoothness
+      statement with `f = 0` follows
     route_slots:
     - slot_id: warrant-theorem-2.1
       label: Theorem 2.1 (Classical Closure)
       kind: theorem-warrant
       status: bridge-pending
       patch_surface: problems/navier-stokes/external-paper/sections/main-result.tex
-    - slot_id: marvin-upstream-0fdc65ea42d5
-      label: but Hodge still has to prove that persistent support on that object globalizes
+    - slot_id: marvin-upstream-269065c546af
+      label: "+ spectral floor on K_D^\\perp"
       kind: lemma
       status: unresolved
       patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: marvin-upstream-16fa51055da0
-      label: The exact sector does not define the physical carrier.
+    - slot_id: marvin-upstream-2adc051dd3a8
+      label: construct theorem-grade measure / dynamics on the global twisted continuum
       kind: definition
       status: unresolved
       patch_surface: problems/navier-stokes/object-formalization.yaml
   promoted_obligation_count: 8
   missing_promoted_obligation_count: 0
   missing_promoted_obligations: []
-  route_authority_candidate_count: 30
-  missing_route_authority_candidate_count: 0
-  missing_route_authority_candidates: []
-  promoted_proof_packet_count: 3
+  route_authority_candidate_count: 56
+  missing_route_authority_candidate_count: 13
+  missing_route_authority_candidates:
+  - directive_id: marvin-route-authority-34
+    headline: Research OS Theorem Packet
+    requested_frontier: 'Headline: Fixed-collar coefficient branch closes on upgraded
+      carrier; exact external bridge measures are nu_N and mu_N'
+  - directive_id: marvin-route-authority-35
+    headline: Research OS Route Pivot
+    requested_frontier: 'Live task: Pushed the far-corona route forward in theorem-grade
+      form. First, the amplitude-free shell-pair absorption fantasy is ruled out by
+      scaling: the shell-pair commutator is cubic in amplitude while D_j is quadratic,
+      so no estimate of'
+  - directive_id: marvin-route-authority-38
+    headline: Research OS Route Pivot
+    requested_frontier: 'Live task: Sharpened the reserve globalization program after
+      the capwise signed defect step. The safe sign scale is now the net cap-graph
+      coercive coefficient kappa_j^{net}=inf_omega(d_{j,omega}-o_{j,omega}) rather
+      than a prematurely fixed '
+  promoted_proof_packet_count: 2
   route_authority_candidates:
   - directive_id: marvin-route-authority-4
     headline: NS Clay Frontier Proof Pack
@@ -66,16 +84,16 @@ shared_alignment:
     requested_frontier: "[ns-carrier-commutator-coercive-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/Research-Consolidation/working-notes/ns-carrier-commutator-coercive-lemma.md)."
   compiled_import_summary:
     bucket_counts:
-      synthesis-or-explanatory-only: 16
-      local-discharge-support: 32
+      synthesis-or-explanatory-only: 6
+      local-discharge-support: 100
     route_slot_labels:
-    - Prove D.2 global coercive energy estimate
+    - construct theorem-grade measure / dynamics on the global twisted continuum
+    - "+ spectral floor on K_D^\\perp"
     - Theorem 2.1 (Classical Closure)
-    - Prove D.1 projected NC-flow well-posedness
   alignment_reroute: route-synthesis
 local_derivation:
   status: packetize-and-derive
-  required_packet_count: 3
+  required_packet_count: 4
   required_packets:
   - packet_id: warrant-theorem-2.1
     label: Theorem 2.1 (Classical Closure)
@@ -87,29 +105,45 @@ local_derivation:
     source_path: working-notes/ontic-nc-ns-ymg-hodge-program.md
     packet_strength: explicit-proof-route
     closure_signal: proof-route
-  - packet_id: marvin-upstream-0fdc65ea42d5
-    label: but Hodge still has to prove that persistent support on that object globalizes
+  - packet_id: marvin-upstream-269065c546af
+    label: "+ spectral floor on K_D^\\perp"
+    packet_kind: lemma
+    source_kind: promoted-proof-packet
+    recommended_stage: dependency-discharge
+    matched_route_slot_labels:
+    - "+ spectral floor on K_D^\\perp"
+    source_path: working-notes/ontic-nc-ns-ymg-hodge-program.md
+    packet_strength: explicit-proof-route
+    closure_signal: proof-route
+  - packet_id: marvin-upstream-269065c546af
+    label: "+ spectral floor on K_D^\\perp"
     packet_kind: lemma
     source_kind: promoted-shared-obligation
     recommended_stage: dependency-discharge
     matched_route_slot_labels:
-    - but Hodge still has to prove that persistent support on that object globalizes
+    - "+ spectral floor on K_D^\\perp"
     source_path: working-notes/ontic-nc-ns-ymg-hodge-program.md
-  - packet_id: marvin-upstream-16fa51055da0
-    label: The exact sector does not define the physical carrier.
+  - packet_id: marvin-upstream-2adc051dd3a8
+    label: construct theorem-grade measure / dynamics on the global twisted continuum
     packet_kind: definition
     source_kind: promoted-shared-obligation
     recommended_stage: object-formalization
     matched_route_slot_labels:
-    - The exact sector does not define the physical carrier.
+    - construct theorem-grade measure / dynamics on the global twisted continuum
     source_path: working-notes/ontic-nc-ns-ymg-hodge-program.md
   leadership_status: leading
-  net_new_local_theorem_count: 4
-  recommended_next_cell_type: dependency-discharge
+  net_new_local_theorem_count: 3
+  recommended_next_cell_type: route-synthesis
 cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 5
   local_consequences:
+  - label: replace the torus carrier block by a continuum coherent sector for curved
+      D.
+    kind: definition
+    status: localized-proof
+    origin: shared-import
+    source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
   - label: The exact sector does not define the physical carrier.
     kind: definition
     status: localized-proof
@@ -120,21 +154,17 @@ cross_lane_broadcast:
     status: localized-support
     origin: local
     source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
-  - label: Prove D.1 projected NC-flow well-posedness
+  - label: but Hodge still has to prove that persistent support on that object globalizes
     kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
-  - label: Prove D.2 global coercive energy estimate
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
-  - label: "+ spectral floor on K_D^\\perp"
-    kind: lemma
-    status: unresolved
+    status: bridge-pending
     origin: local
     source_anchor: problems/navier-stokes/dependency-discharge.yaml
+  - label: 'three-piece lifted-packet closure program: SS first, direct CTS second,
+      LPAS fallback'
+    kind: lemma
+    status: formalized
+    origin: local
+    source_anchor: problems/navier-stokes/object-formalization.yaml
   broadcast_paths:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
@@ -147,10 +177,10 @@ frontier_projection:
     label: Theorem 2.1 (Classical Closure)
     recommended_stage: dependency-discharge
   one_step_beyond:
-  - label: but Hodge still has to prove that persistent support on that object globalizes
+  - label: "+ spectral floor on K_D^\\perp"
     recommended_stage: dependency-discharge
   two_steps_beyond:
-  - label: The exact sector does not define the physical carrier.
+  - label: construct theorem-grade measure / dynamics on the global twisted continuum
     recommended_stage: object-formalization
   route_pressure:
   - headline: NS Clay Frontier Proof Pack
@@ -158,18 +188,18 @@ frontier_projection:
   - headline: NS Lane Sterilization Discovery Note
     requested_frontier: They do not replace the direct legacy `NS` theorem-bearing
       corpus unless a direct `NS` theorem file appears.
-  recommended_next_cell_type: dependency-discharge
+  recommended_next_cell_type: route-synthesis
 summary:
-  phase: local-derivation
+  phase: shared-alignment
   execution_state: needs-reroute
   leadership_status: leading
-  alignment_complete: true
-  exact_local_packet_count: 3
-  net_new_local_theorem_count: 4
+  alignment_complete: false
+  exact_local_packet_count: 4
+  net_new_local_theorem_count: 3
   projected_frontier_count: 2
-  current_open_obligation_count: 9
+  current_open_obligation_count: 7
   open_obligations_state: not-currently-worked
   on_recommended_track: false
-  recommended_next_cell_type: dependency-discharge
+  recommended_next_cell_type: route-synthesis
   current_next_cell_type: creative-theorem-search
   current_next_cell_is_theorem_work: true
