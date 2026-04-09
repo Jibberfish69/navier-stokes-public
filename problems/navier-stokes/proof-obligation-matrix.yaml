@@ -4,19 +4,14 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-09T16:37:18Z'
+  generated_at: '2026-04-09T21:19:17Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
 posture:
-  theorem_target: the official Clay Navier-Stokes problem in dimension 3 for the incompressible
-    equations on R^3 or T^3.
-  current_package_status: closed; scale, monotone, compactness, the post-monotone
-    cascade carrier, and the curvature-first fourth bridge are locally reconciled;
-    the projected NC-flow sidecar is now formalized as ontic theorem plus exact lift
-    plus classical corollary; the final theorem warrant and projected-flow theorems
-    are discharged.
-  standalone_status: closed
+  theorem_target: ''
+  current_package_status: ''
+  standalone_status: ''
   completion_tier_achieved: route-complete
   review_verdict: conditional-pass
   live_theorem_edge_present: true
@@ -37,43 +32,9 @@ obligations:
     incompressible Navier-Stokes equations and satisfying int_{R^3} |u(x,t)|^2 dx
     < C for all t >= 0.
   status: grounded
-  source_anchor: problems/navier-stokes/claim-ladder.md
+  source_anchor: problems/navier-stokes/marvin-ingest-notes.yaml
   blocking: false
   notes: []
-- obligation_id: debt-the-monotone-bridge-is-a-named-source-level-theorem-object-rather-than-generic-background-energy
-  kind: definition
-  label: The monotone bridge is a named source-level theorem object rather than generic
-    background energy.
-  status: unresolved
-  source_anchor: Millennium Prize Problems/Navier-Stokes/TeX/A Rigorous Theoretical
-    Framework for Global Regularity of the Navier–Stokes Equations.tex
-  blocking: true
-  notes:
-  - Current packet status is `needs-localization`.
-  - This obligation is not yet discharged locally.
-- obligation_id: debt-burden-id-burden-d1-projected-flow-well-posedness-label-prove-d-1-projected-nc-flow-well-posedness-on-a-closed-graph-domain-kind-theorem-frontier
-  kind: definition
-  label: '{"burden_id"=>"burden-d1-projected-flow-well-posedness", "label"=>"Prove
-    D.1 projected NC-flow well-posedness on a closed graph domain", "kind"=>"theorem-frontier"}'
-  status: unresolved
-  source_anchor: 'gap-ticket: burden-item'
-  blocking: true
-  notes:
-  - Current packet status is `needs-localization`.
-  - This obligation is not yet discharged locally.
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: required-definition-5
-  kind: definition
-  label: '{"burden_id"=>"burden-h1-certification-inputs", "label"=>"Certify H.1 constants/domain
-    inputs A-E on the chosen NS theorem surface", "kind"=>"theorem-frontier"} (see
-    `theorem-construction/h1-carrier-leakage-direct-completion.md`, section `Certified
-    Hypothesis H`)'
-  status: unresolved
-  source_anchor: 'formalization-ledger: Required Local Explanations For A Paper'
-  blocking: true
-  notes:
-  - Current packet status is `needs-localization`.
-  - This obligation is not yet discharged locally.
 - obligation_id: marvin-upstream-8e939525d3f2
   kind: definition
   label: replace the torus carrier block by a continuum coherent sector for curved
@@ -187,54 +148,70 @@ obligations:
     bridge_statement: Define the missing local object so that the exact sector does
       not define the physical carrier. becomes explicit with domain, codomain, and
       invariance conditions.
-- obligation_id: debt-the-source-faithful-curvature-based-fourth-bridge-is-explicit-selected-as-primary-and-locally-discharged
+- obligation_id: claim-ladder-1
   kind: lemma
-  label: The source-faithful curvature-based fourth bridge is explicit, selected as
-    primary, and locally discharged.
+  label: The Clay target is the official 3D incompressible Navier-Stokes problem on
+    `R^3` or `T^3`
   status: unresolved
-  source_anchor: ''
+  source_anchor: "`obstruction-capture: One-Sentence Thesis`, `spine.1`"
   blocking: true
   notes:
-  - Current packet status is `needs-localization`.
+  - Current packet status is `claim-ladder`.
   - This obligation is not yet discharged locally.
-- obligation_id: debt-the-projected-nc-flow-route-is-explicit-as-theorems-d-1-through-d-5-inside-the-ns-lane
+- obligation_id: claim-ladder-2
   kind: lemma
-  label: The projected NC-flow route is explicit as Theorems D.1 through D.5 inside
-    the NS lane.
+  label: Success for regularized or morphic-regularized equations does not close the
+    original problem
   status: unresolved
-  source_anchor: ''
+  source_anchor: "`obstruction-capture: Why Prior Attempts Fail`, `spine.2`, `target-fidelity-discharge-source-pack.md`,
+    `theorem-construction/target-fidelity-bridge-lemma.md`"
   blocking: true
   notes:
-  - Current packet status is `needs-localization`.
+  - Current packet status is `claim-ladder`.
   - This obligation is not yet discharged locally.
-- obligation_id: debt-burden-id-burden-final-theorem-warrant-label-promote-the-locally-discharged-bridge-family-through-the-final-theorem-warrant-kind-theorem-warrant
+- obligation_id: claim-ladder-3
   kind: lemma
-  label: '{"burden_id"=>"burden-final-theorem-warrant", "label"=>"Promote the locally
-    discharged bridge family through the final theorem warrant", "kind"=>"theorem-warrant"}'
+  label: The original framework names a monotone functional `Q(t)` as a bridge, not
+    just unnamed baseline energy
   status: unresolved
-  source_anchor: 'gap-ticket: burden-item'
+  source_anchor: "`source-grounded-framework-map.md`, `source-forensics/master-program-analysis.md`,
+    `source-forensics/canonical-equation-ledger.md`, `spine.3`, `theorem-construction/monotone-functional-package.md`,
+    `theorem-construction/named-monotone-bridge-explanation.md`, `bridge-memos/monotone-functional.md`"
   blocking: true
   notes:
-  - Current packet status is `needs-localization`.
+  - Current packet status is `claim-ladder`.
   - This obligation is not yet discharged locally.
-- obligation_id: debt-burden-id-burden-named-monotone-bridge-explanation-label-sync-the-dedicated-q-t-bridge-explanation-into-the-rebuilt-proof-matrix-kind-paper-legibility
+- obligation_id: claim-ladder-4
   kind: lemma
-  label: '{"burden_id"=>"burden-named-monotone-bridge-explanation", "label"=>"Sync
-    the dedicated Q(t) bridge explanation into the rebuilt proof matrix", "kind"=>"paper-legibility"}'
+  label: Global energy or enstrophy control is necessary but not sufficient
   status: unresolved
-  source_anchor: 'gap-ticket: burden-item'
+  source_anchor: "`obstruction-capture: Core Mechanism`, `spine.4`, `theorem-construction/energy-baseline-bridge-lemma.md`,
+    `theorem-construction/monotone-functional-package.md`"
   blocking: true
   notes:
-  - Current packet status is `needs-localization`.
+  - Current packet status is `claim-ladder`.
   - This obligation is not yet discharged locally.
-- obligation_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
+- obligation_id: claim-ladder-5
   kind: lemma
-  label: Keep theorem scope below the first unsafe overclaim
+  label: The live obstruction is the small-scale or high-frequency cascade that feeds
+    blow-up
   status: unresolved
-  source_anchor: 'claim-ladder: Lowest Safe Claim'
+  source_anchor: "`obstruction-capture: The Real Obstruction`, `spine.5`, `theorem-construction/energy-baseline-bridge-lemma.md`"
   blocking: true
   notes:
-  - Current packet status is `needs-localization`.
+  - Current packet status is `claim-ladder`.
+  - This obligation is not yet discharged locally.
+- obligation_id: claim-ladder-6
+  kind: lemma
+  label: A classical dyadic tail or flux estimate must suppress dangerous high-frequency
+    transfer on the theorem surface
+  status: unresolved
+  source_anchor: "`source-forensics/canonical-equation-ledger.md`, `theorem-construction/scale-barrier-package.md`,
+    `theorem-construction/scale-barrier-tail-lemma.md`, `bridge-memos/scale-barrier.md`,
+    `spine.6`"
+  blocking: true
+  notes:
+  - Current packet status is `claim-ladder`.
   - This obligation is not yet discharged locally.
 - obligation_id: marvin-upstream-269065c546af
   kind: lemma
@@ -579,24 +556,6 @@ obligations:
   notes:
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
-- obligation_id: debt-burden-id-burden-d2-global-coercive-energy-label-prove-d-2-global-coercive-energy-estimate-for-the-projected-nc-flow-kind-theorem-frontier
-  kind: blocked-frontier
-  label: '{"burden_id"=>"burden-d2-global-coercive-energy", "label"=>"Prove D.2 global
-    coercive energy estimate for the projected NC flow", "kind"=>"theorem-frontier"}'
-  status: frontier
-  source_anchor: creative-theorem-search
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: debt-burden-id-burden-d3-d4-shadow-interface-label-prove-d-3-exact-lift-descent-and-d-4-continuation-from-nc-coercive-control-kind-theorem-frontier
-  kind: blocked-frontier
-  label: '{"burden_id"=>"burden-d3-d4-shadow-interface", "label"=>"Prove D.3 exact
-    lift descent and D.4 continuation from NC coercive control", "kind"=>"theorem-frontier"}'
-  status: frontier
-  source_anchor: creative-theorem-search
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
 - obligation_id: marvin-route-authority-4
   kind: branch-choice
   label: 'Persistent alignment priority:'
@@ -1140,16 +1099,21 @@ obligations:
   notes:
   - This route choice or blocked frontier is still inside the theorem packet.
 summary:
-  total_obligations: 87
+  total_obligations: 83
   grounded_count: 4
   structural_only_count: 0
   structurally_supported_count: 2
   bridge_pending_count: 4
-  unresolved_count: 17
-  frontier_count: 60
-  blocking_count: 81
+  unresolved_count: 15
+  frontier_count: 58
+  bridge_discharge_blocking_count: 0
+  theorem_warrant_blocking_count: 0
+  blocking_count: 77
   all_discharged: false
+  live_theorem_edge_present: true
+  live_theorem_edge_branch_count: 2
+  live_theorem_edge_blocked_count: 0
 submission_blockers:
-- There are 17 unresolved proof obligations.
+- There are 15 unresolved proof obligations.
 - There are 4 bridge obligations still awaiting local discharge.
-- There are 60 frontier obligations still inside the theorem packet.
+- There are 58 frontier obligations still inside the theorem packet.

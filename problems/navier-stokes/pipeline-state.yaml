@@ -1,0 +1,100 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  folder_name: navier-stokes
+workflow:
+  status: ready
+  current_stage: paper-export
+  highest_artifact: submission_verdict
+  owner_cell: migration-bootstrap
+  next_cell_type: paper-polish
+  next_action: Keep navier-stokes synchronized across theorem, paper, and export surfaces.
+artifacts:
+  agent_contract:
+    path: problems/navier-stokes/agent-contract.yaml
+    status: present
+  authoritative_source_discovery:
+    path: problems/navier-stokes/authoritative-source-discovery.yaml
+    status: present
+  route_hypothesis:
+    path: problems/navier-stokes/route-hypothesis.yaml
+    status: present
+  theorem_crank:
+    path: problems/navier-stokes/theorem-crank.yaml
+    status: present
+  object_formalization:
+    path: problems/navier-stokes/object-formalization.yaml
+    status: present
+  source_ledger:
+    path: problems/navier-stokes/source-ledger.yaml
+    status: present
+  marvin_feed:
+    path: problems/navier-stokes/marvin-watchlist.yaml
+    status: present
+  marvin_ingest_notes:
+    path: problems/navier-stokes/marvin-ingest-notes.yaml
+    status: present
+  claim_ladder:
+    path: problems/navier-stokes/claim-ladder.md
+    status: present
+  exploration_graph:
+    path: problems/navier-stokes/exploration-graph.yaml
+    status: present
+  theorem_packet:
+    path: problems/navier-stokes/theorem-packet.yaml
+    status: present
+  proof_assembly:
+    path: problems/navier-stokes/proof-assembly.yaml
+    status: present
+  source_frontier:
+    path: problems/navier-stokes/source-frontier.yaml
+    status: present
+  proof_obligation_matrix:
+    path: problems/navier-stokes/proof-obligation-matrix.yaml
+    status: present
+  authority_reconciliation:
+    path: problems/navier-stokes/authority-reconciliation.yaml
+    status: present
+  promotion_verdict:
+    path: problems/navier-stokes/promotion-verdict.yaml
+    status: present
+  review_verdict:
+    path: problems/navier-stokes/review-verdict.yaml
+    status: present
+  monograph_v6_tandem_crosswalk:
+    path: problems/navier-stokes/monograph-v6-tandem-crosswalk.yaml
+    status: present
+  paper_architecture:
+    path: problems/navier-stokes/paper-architecture.yaml
+    status: present
+  draft_v7:
+    path: problems/navier-stokes/draft-v7.md
+    status: present
+  review_log:
+    path: problems/navier-stokes/review-log.md
+    status: present
+  manuscript_depth:
+    path: problems/navier-stokes/manuscript-depth.yaml
+    status: present
+  submission_verdict:
+    path: problems/navier-stokes/submission-verdict.yaml
+    status: present
+  submission_metadata:
+    path: problems/navier-stokes/submission-metadata.yaml
+    status: present
+  pipeline_state:
+    path: problems/navier-stokes/pipeline-state.yaml
+    status: present
+automation:
+  queue_state: ready
+  blocking_reasons: []
+  writable_targets:
+  - problems/navier-stokes/pipeline-state.yaml
+corpus:
+  corpus_root: Millennium Prize Problems/Navier-Stokes
+  source_mode: canonical-live-lane
+governance:
+  lease_group: problem-navier-stokes
+  single_writer: true

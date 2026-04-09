@@ -2,8 +2,8 @@
 version: 1
 publish_type: lane-repo-current-state
 problem_id: navier-stokes
-source_root: "/Users/thomasbirnie/Desktop/ToE/ToE/Research-Consolidation/problems/navier-stokes"
-repo_root: "/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns"
+source_root: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
+repo_root: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
 published_at: '2026-04-09T16:51:15Z'
 selection_rules:
   collision_policy: live-authority-overwrites-mirror
@@ -41,6 +41,7 @@ selection_rules:
 published_files:
 - NS working note - four body problem and braided ontology.md
 - NS working note - reconstruction method and thinking training.md
+- README.md
 - WIZARD-terminal-impasse-working-note.md
 - agent-contract.yaml
 - architecture-health.yaml
@@ -62,6 +63,9 @@ published_files:
 - curvature-based-regularity-discharge-source-pack.md
 - debt-map.yaml
 - dependency-discharge.yaml
+- docs/current-state-publish-manifest.yaml
+- docs/import-inventory-v1.yaml
+- docs/import-plan-v1.md
 - draft-v6.md
 - draft-v7.md
 - draft-v8.md
@@ -81,6 +85,7 @@ published_files:
 - lane-classification.yaml
 - layered-route-graph.yaml
 - lemma-falsification.yaml
+- live-theorem-edge.md
 - manuscript-depth.yaml
 - marvin-adaptation-notes.md
 - marvin-ingest-notes.yaml
@@ -94,6 +99,7 @@ published_files:
 - object-formalization.yaml
 - obstruction-capture.md
 - paper-architecture.yaml
+- paper-export-inputs.yaml
 - paper-quality-verdict.yaml
 - prewrite-packet.md
 - problem-intake.md

@@ -5,7 +5,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Theorem Target
 
-- `theorem_target`: the official Clay Navier-Stokes problem in dimension 3 for the incompressible equations on R^3 or T^3.
+- `theorem_target`: 
 - `lowest_safe_claim`: For every smooth divergence-free rapidly decaying initial datum u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving the three-dimensional incompressible Navier-Stokes equations and satisfying int_{R^3} |u(x,t)|^2 dx < C for all t >= 0.
 - `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
 
@@ -28,14 +28,10 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Source Surfaces
 
-- `problems/navier-stokes/obstruction-capture.md`
-- `problems/navier-stokes/spine.md`
 - `problems/navier-stokes/claim-ladder.md`
-- `problems/navier-stokes/formalization-ledger.md`
-- `problems/navier-stokes/debt-map.yaml`
-- `system/meta/collaboration/marvin-feeds/navier-stokes.yaml`
+- `problems/navier-stokes/marvin-watchlist.yaml`
 - `problems/navier-stokes/marvin-ingest-notes.yaml`
-- `/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md`
+- `problems/navier-stokes/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md`
 
 ## Boundary Rule
 

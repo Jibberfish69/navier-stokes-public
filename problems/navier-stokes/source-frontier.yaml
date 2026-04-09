@@ -4,19 +4,15 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   frontier_id: source-frontier-navier-stokes
-  generated_at: '2026-04-09T16:37:18Z'
+  generated_at: '2026-04-09T21:19:17Z'
   generator: system/runner/lib/source_frontier_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_matrix_id: proof-obligation-matrix-navier-stokes
 source_artifacts:
-- problems/navier-stokes/obstruction-capture.md
-- problems/navier-stokes/spine.md
 - problems/navier-stokes/claim-ladder.md
-- problems/navier-stokes/formalization-ledger.md
-- problems/navier-stokes/debt-map.yaml
-- system/meta/collaboration/marvin-feeds/navier-stokes.yaml
+- problems/navier-stokes/marvin-watchlist.yaml
 - problems/navier-stokes/marvin-ingest-notes.yaml
-- "/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md"
+- problems/navier-stokes/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md
 grounded_core:
   theorem_statement: For every smooth divergence-free rapidly decaying initial datum
     u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving
@@ -30,7 +26,7 @@ grounded_core:
       incompressible Navier-Stokes equations and satisfying int_{R^3} |u(x,t)|^2 dx
       < C for all t >= 0.
     status: grounded
-    source_anchor: problems/navier-stokes/claim-ladder.md
+    source_anchor: problems/navier-stokes/marvin-ingest-notes.yaml
   - obligation_id: marvin-upstream-8e939525d3f2
     kind: definition
     label: replace the torus carrier block by a continuum coherent sector for curved
@@ -92,21 +88,7 @@ frontier:
     status: bridge-pending
     source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
   focus_source: live-theorem-edge
-  active_frontier_labels:
-  - '{"burden_id"=>"burden-final-theorem-warrant", "label"=>"Promote the locally discharged
-    bridge family through the final theorem warrant", "kind"=>"theorem-warrant"}'
-  - '{"burden_id"=>"burden-named-monotone-bridge-explanation", "label"=>"Sync the
-    dedicated Q(t) bridge explanation into the rebuilt proof matrix", "kind"=>"paper-legibility"}'
-  - '{"burden_id"=>"burden-d1-projected-flow-well-posedness", "label"=>"Prove D.1
-    projected NC-flow well-posedness on a closed graph domain", "kind"=>"theorem-frontier"}'
-  - '{"burden_id"=>"burden-d2-global-coercive-energy", "label"=>"Prove D.2 global
-    coercive energy estimate for the projected NC flow", "kind"=>"theorem-frontier"}'
-  - '{"burden_id"=>"burden-h1-certification-inputs", "label"=>"Certify H.1 constants/domain
-    inputs A-E on the chosen NS theorem surface", "kind"=>"theorem-frontier"} (see
-    `theorem-construction/h1-carrier-leakage-direct-completion.md`, section `Certified
-    Hypothesis H`)'
-  - '{"burden_id"=>"burden-d3-d4-shadow-interface", "label"=>"Prove D.3 exact lift
-    descent and D.4 continuation from NC coercive control", "kind"=>"theorem-frontier"}'
+  active_frontier_labels: []
   authoritative_topics:
   - interdependencies among principles
   - monotone functional
@@ -119,6 +101,7 @@ frontier:
   missing_authoritative_topics:
   - interdependencies among principles
   - compactness discrete solutions
+  - curvature based
   - initial data l2
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
@@ -137,8 +120,8 @@ summary:
   grounded_count: 4
   bridge_pending_count: 1
   unresolved_count: 6
-  suppressed_unresolved_count: 77
-  authoritative_gap_count: 3
+  suppressed_unresolved_count: 73
+  authoritative_gap_count: 4
   live_theorem_edge_present: true
   live_theorem_edge_branch_count: 2
   live_theorem_edge_blocked_count: 0
