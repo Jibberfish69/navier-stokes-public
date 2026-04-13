@@ -520,8 +520,9 @@ through three synchronized readouts:
 ```
 
 Those three exposed faces are still the correct classical core. But they are
-not the whole loop by themselves: Body III remains the exact same-surface
-carrier/object-production passage for that same survivor. On the current
+not the whole loop by themselves: Body III remains the physical
+compactness/extraction passage that forces that same survivor onto the exact
+same-surface object. On the current
 torus-first selector route the live `SG.4` wall is the selector-facing face of
 that same survivor, and the pair-defect / projective packets refine that face
 further into the one-sided defect `[\lambda_J-\mathfrak s_J]_+`, the

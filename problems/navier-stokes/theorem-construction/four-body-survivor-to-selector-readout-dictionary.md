@@ -57,17 +57,19 @@ selector-good directional lower-envelope packet, while the older lifted
 high-side remainder remains one face of the same obstruction.
 
 Before that selector promotion, the modernized four-body packet already fixes
-the `Body III` role:
+the `Body III` role. In the original four-body meaning, this is not a sterile
+bookkeeping step. It is the physical compactness / extraction argument:
 
 ```math
 \boxed{
-\text{Body III is the exact same-surface carrier / object-production body.}
+\text{Body III is the compactness / exact-object-production body.}
 }
 \tag{FSD.2a}
 ```
 
-It is not a new exposed defect-face parallel to Body I, II, and IV. Its role
-is to preserve and pass the current survivor through exact-object production:
+Its job is to force the dangerous packet to survive the approximation-to-limit
+passage on a real same-surface field rather than disappearing into sequence
+artifacts. In the modernized wording this becomes:
 
 ```math
 u^{(n)}\to u,
@@ -76,11 +78,20 @@ u^{(n)}\to u,
 \tag{FSD.2b}
 ```
 
+So Body III is still a physical argument. It is the mechanism that says:
+
+```math
+\boxed{
+\text{the same survivor must reappear on the exact field after compactness/extraction.}
+}
+\tag{FSD.2b'}
+```
+
 So the correct four-body reading is:
 
 ```math
 \boxed{
-\text{Body I / II / IV expose survivor faces, while Body III supplies the same-surface carrier passage.}
+\text{Body I / II / IV expose survivor faces, while Body III is the compactness/extraction passage of that same survivor.}
 }
 \tag{FSD.2c}
 ```
@@ -233,8 +244,8 @@ So the correct lane reading is:
 
 - `SG.4` is the current selector-facing lower-envelope face of the classical
   survivor;
-- `Body III` is the exact same-surface carrier passage of that survivor, not a
-  separate defect-face;
+- `Body III` is the physical compactness/extraction passage of that survivor,
+  not a separate defect-face;
 - `PD.70` / `PD.70s` are the selector-calibration theorems converting the
   signless pair packet into the one-sided selector deficit;
 - `PSJ+` is the exact-potential synchronization/readout theorem for that same
