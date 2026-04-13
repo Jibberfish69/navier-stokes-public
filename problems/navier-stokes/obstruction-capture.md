@@ -7,11 +7,11 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 - `problem_id`: `navier-stokes`
 - `display_name`: `Navier-Stokes Global Regularity`
 - `date_opened`: `2026-03-11`
-- `status`: `classical-euclidean-route-b theorem-reopen-critical-packet-discharge`
+- `status`: `torus-first-internal-branch theorem-reopen-critical-packet-discharge`
 
 ## One-Sentence Thesis
 
-- The handed source stack now routes the classical Navier-Stokes problem through four same-surface Euclidean pieces: a scale-barrier principle, a monotone functional `Q(t)`, non-Sobolev compactness, and Euclidean gradient-transfer coercivity, while the older curvature / ontic / Marvin / Hodge material is retained only as archived provenance.
+- The handed source stack fixes the four body jobs, but the current live lane now routes them through a torus-first periodic internal branch: a scale-barrier principle, a monotone functional `Q(t)`, non-Sobolev compactness, and a heat-governed continuation bridge on the periodic/operator surface. Any whole-space Euclidean statement is downstream discharge/export rather than the internal proving surface.
 
 ## The Real Obstruction
 
@@ -30,10 +30,10 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 - Reject equation-modification as a final answer.
 - Work on the classical equation directly.
 - Keep the four-part route explicit:
-  - a classical scale-barrier principle,
+  - a periodic scale-barrier principle,
   - bounded global energy / enstrophy tracking through the monotone functional `Q(t)`,
   - compactness strong enough to improve weak behavior into nonlinear closure,
-  - a theorem-primary Euclidean fourth bridge, with the old curvature route retained only as deprecated provenance.
+  - a theorem-primary periodic continuation bridge, with Euclidean discharge/export kept explicit and downstream.
 
 ## Core Mechanism
 
@@ -44,7 +44,7 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
   4. the fourth bridge controls the gradient-growth channel that would otherwise reopen singularity.
 
 - The live theorem burden was not to rediscover that architecture.
-- The live theorem burden is to discharge it honestly on one declared theorem surface, and the current lane treats the decisive packet reductions as reopened until they are line-by-line audited at theorem grade.
+- The live theorem burden is to discharge it honestly on one declared theorem surface, and the current lane now takes that surface to be the periodic torus branch before any downstream whole-space export is claimed.
 
 ## Plain Path
 
@@ -54,7 +54,7 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 4. The main battlefield was small-scale behavior: turbulence, high-frequency cascade, and gradient growth.
 5. The original framework also made the `Q(t)` monotone-functional layer explicit rather than leaving it implicit as background energy bookkeeping.
 6. `Q(t)` is necessary but not sufficient, so the route must pass from that bridge to the cascade burden rather than pretending the monotone layer already closes the theorem.
-7. The original source family used curvature-based regularity, but the live theorem route now promotes the same-surface Euclidean fourth bridge and deprecates the old curvature branch to provenance.
+7. The original source family used curvature-based regularity, but the live theorem route now promotes a torus-first heat-governed continuation bridge and treats any Euclidean whole-space statement as downstream export rather than the active branch lock.
 
 ## Live Branches
 
@@ -74,26 +74,27 @@ Reason it is archived:
 - scale-barrier control
 - monotone functional `Q(t)`
 - non-Sobolev compactness
-- Euclidean gradient-transfer coercivity as the theorem-primary fourth bridge
+- torus-first heat-governed continuation as the theorem-primary fourth bridge
 
 Reason it stays primary:
-- this is the shortest same-surface closure path on the declared theorem surface
+- this is the chosen same-surface internal closure path on the declared theorem surface
 
-### Branch C: Quarantined Provenance
+### Branch C: Downstream discharge and provenance
 
+- Euclidean shadow/export as a downstream discharge theorem family
 - curvature-based regularity as source provenance
-- ontic / Marvin / Hodge / projected-flow sidecars as archived support notes
+- ontic / Marvin / Hodge notes as explanatory support
 
 Reason it is quarantined:
-- it may inform exposition or provenance, but it is not active theorem authority for the main classical route
+- it may inform downstream export or provenance, but it does not reset the active torus-first branch lock
 
 ## Remaining Risks
 
-- Export surfaces must stay on the exact Clay statement and must not drift into weaker route-local claims.
+- Export surfaces must stay on the exact Clay statement and must not silently replace the periodic internal branch by whole-space language.
 - Historical conditional checkpoints must remain archived rather than reintroduced as the primary theorem surface.
 - The monotone bridge cannot be omitted again.
-- The deprecated curvature branch cannot be silently reintroduced as theorem-primary.
-- The archived ontic / Marvin / Hodge / projected-flow notes must stay quarantined from active blocker status.
+- The Euclidean discharge track cannot be silently reintroduced as theorem-primary.
+- Cross-lane notes must not be treated as theorem-primary unless explicitly promoted into the branch.
 
 ## Existing Material
 
@@ -103,12 +104,13 @@ Reason it is quarantined:
 
 ## Output Target
 
-- For this phase, the output is a classical Euclidean Route B theorem package with sidecar provenance fenced off from active theorem authority.
+- For this phase, the output is a torus-first internal theorem package with any Euclidean whole-space statement fenced as downstream discharge/export.
 - The runner must preserve the reopened theorem-discharge posture and must not overclaim solved status while proof-critical packet reductions remain compressed.
 
 ## Instructions to Codex
 
 - Keep the regularized branch archived as a diagnostic failure branch.
 - Keep `Q(t)` explicit.
-- Preserve the same-surface Euclidean four-part architecture in every route summary.
+- Preserve the same-surface four-part architecture with the periodic branch as the internal route surface.
+- Keep Euclidean export explicitly downstream.
 - Do not promote archived provenance above theorem authority.

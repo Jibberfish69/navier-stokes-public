@@ -11,6 +11,11 @@ vanishing shadow-time occupancy on asymptotically full active-pair mass.
 Its role is to target the time-averaged overlap side of the dynamic gate
 directly.
 
+The canonical theorem-facing Navier--Stokes surfaces now place the live route on
+the TPS strong/defect bridge with `SG.4` as the exact unresolved obstruction.
+This packet is the weak TPS dynamic subroute only, and it remains subordinate to
+the lane-wide unsafe-overclaim guard.
+
 ## Purpose
 
 The stronger selector routes seek a pointwise-in-time transverse lower bound
@@ -30,6 +35,13 @@ This does **not** by itself imply the existential bad-set statement
 `\mu_j(E_J^{ns}(\sigma_J))/\mu_j(\mathcal C_j)\to 0`. But it is enough to force
 vanishing time-averaged packet overlap, which is the right scale for
 high-high packet remainders.
+
+The formal coupling between this weak route and the stronger no-entry barrier
+route is now recorded separately in
+[tps-shadow-barrier-formal-closure-packet.md](/Users/thomasbirnie/Desktop/ToE/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-shadow-barrier-formal-closure-packet.md):
+the strong side gives no-entry on the barrier subfamily, while the weak side
+records all remaining shadow episodes exactly through the averaged pair-time
+ledger.
 
 ## Active-pair shadow occupancy
 
@@ -89,7 +101,7 @@ This is the correct overlap functional for a shadow-time budget theorem.
 If one later wants to attach parabolic observability or unique-continuation
 tools to this averaged overlap route, the canonical PDE object is now the
 two-point pair defect `W_J` recorded in
-[tps-pair-defect-pde-packet.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md).
+[tps-pair-defect-pde-packet.md](/Users/thomasbirnie/Desktop/ToE/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md).
 The present note itself remains kinematic: it converts shadow occupancy into
 overlap decay without using that defect PDE.
 
@@ -292,6 +304,52 @@ C_N R_J^{-N}
 By `(ST.11)`, `R_J\to\infty`, and finite valence, the right-hand side tends to
 `0`. Hence `(ST.12)`.
 
+### Corollary TPS-shadow-time-budget-stripwise-occupancy-ledger
+
+Under the hypotheses `(ST.5)`-`(ST.8)`, the normalized occupancy itself admits
+the exact stripwise bound
+
+```math
+T_J\,\mu_j(\mathcal C_j)\,\mathfrak O_J(\sigma_J)
+\le
+T_J\,\nu_J^{act}(\mathfrak B_J)
++
+\tau_J\,\nu_J^{act}(\mathcal A_J^{act}).
+\tag{ST.12a}
+```
+
+Consequently, if a route-local strip budget `\mathcal B_J^{occ}(I)\ge 0`
+satisfies
+
+```math
+T_J\,\nu_J^{act}(\mathfrak B_J)
++
+\tau_J\,\nu_J^{act}(\mathcal A_J^{act})
+\le
+C_{\mathrm{occ}}\,
+\mathcal B_J^{occ}(I),
+\tag{ST.12b}
+```
+
+then the active-pair shadow occupancy is controlled by the same budget:
+
+```math
+T_J\,\mu_j(\mathcal C_j)\,\mathfrak O_J(\sigma_J)
+\le
+C_{\mathrm{occ}}\,
+\mathcal B_J^{occ}(I).
+\tag{ST.12c}
+```
+
+So the weak endpoint packet does not only give the asymptotic statement
+`\mathfrak O_J(\sigma_J)\to 0`; it also gives an exact finite-strip ledger once
+the bad-residue mass and the per-pair shadow-time cost are priced.
+
+**Proof.**
+Add `(ST.13)` and `(ST.15)`, then multiply by `T_J\,\mu_j(\mathcal C_j)`. This
+gives `(ST.12a)`. Statement `(ST.12c)` is the direct substitution of
+`(ST.12b)` into `(ST.12a)`. ∎
+
 ## Scale-local packet-decay realization
 
 The abstract step `(ST.9)`-`(ST.10)` closes on the live shell schedule once the
@@ -375,9 +433,9 @@ gives `(ST.17e)`.
 ## Coarse-flow / HFG specialization
 
 The hybrid branch from
-[tps-high-frequency-tail-to-coarse-flow-deviation-bridge.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-high-frequency-tail-to-coarse-flow-deviation-bridge.md)
+[tps-high-frequency-tail-to-coarse-flow-deviation-bridge.md](/Users/thomasbirnie/Desktop/ToE/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-high-frequency-tail-to-coarse-flow-deviation-bridge.md)
 and
-[tps-coarse-flow-pair-gap-theorem-candidate.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md)
+[tps-coarse-flow-pair-gap-theorem-candidate.md](/Users/thomasbirnie/Desktop/ToE/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md)
 fits this packet naturally.
 
 Define the coarse shadow occupancy by
@@ -783,6 +841,174 @@ Then for large `J`, one may take `c_J=\tfrac12 c_0\lambda_J\sigma_J`, so
 
 If also `(ST.17a)`-`(ST.17c)` hold, then `\overline{\Gamma}_J\to 0`.
 
+### Lemma TPS-fresh-return-decomposition
+
+Let `M_J(t)` be the coarse operator-norm bound from the coarse-flow note. For
+each `(a,b)` in an angular good-pair family `G_J^{\angle}`, assume there is a
+measurable decomposition
+
+```math
+[0,T_J]=\mathcal T_{ab}^{fresh}\cup\mathcal T_{ab}^{ret},
+\qquad
+\mathcal T_{ab}^{fresh}\cap\mathcal T_{ab}^{ret}=\varnothing.
+\tag{CS.29a}
+```
+
+Assume the total segmentwise coercivity defect satisfies
+
+```math
+\mathrm{angdef}_{ab}^{tot}(t)
+\le
+\mathrm{angdef}_{ab}(t)+M_J(t)\mathbf 1_{\mathcal T_{ab}^{ret}}(t)
+\tag{CS.29b}
+```
+
+for a.e. `t`, and define
+
+```math
+A_J(t)
+:=
+\sup_{(a,b)\in G_J^{\angle}}
+\int_0^t \mathrm{angdef}_{ab}(s)\,ds,
+\tag{CS.29c}
+```
+
+```math
+R_J(t)
+:=
+\sup_{(a,b)\in G_J^{\angle}}
+\int_{\mathcal T_{ab}^{ret}\cap[0,t]} M_J(s)\,ds.
+\tag{CS.29d}
+```
+
+Then
+
+```math
+\sup_{(a,b)\in G_J^{\angle}}
+\int_0^t \mathrm{angdef}_{ab}^{tot}(s)\,ds
+\le
+A_J(t)+R_J(t)
+\qquad (0\le t\le T_J).
+\tag{CS.29e}
+```
+
+If, in addition, the return times admit the coarse occupancy estimate
+
+```math
+|\mathcal T_{ab}^{ret}\cap[0,t]|
+\le
+\tau_J(t)
+\qquad
+\text{for every }(a,b)\in G_J^{\angle},
+\tag{CS.29f}
+```
+
+then
+
+```math
+R_J(t)
+\le
+\tau_J(t)\sup_{0\le s\le t}M_J(s).
+\tag{CS.29g}
+```
+
+This is the exact recurrence ledger used by the coarse `\lambda_{2,J}^{+}`
+route: return episodes are priced only through their weighted time occupancy.
+
+**Proof.**
+For each pair `(a,b)\in G_J^{\angle}`, integrate `(CS.29b)` on `[0,t]` to get
+
+```math
+\int_0^t \mathrm{angdef}_{ab}^{tot}(s)\,ds
+\le
+\int_0^t \mathrm{angdef}_{ab}(s)\,ds
++
+\int_{\mathcal T_{ab}^{ret}\cap[0,t]} M_J(s)\,ds.
+```
+
+Taking the supremum over `G_J^{\angle}` gives `(CS.29e)` by the definitions
+`(CS.29c)`-`(CS.29d)`. If `(CS.29f)` also holds, then
+
+```math
+\int_{\mathcal T_{ab}^{ret}\cap[0,t]} M_J(s)\,ds
+\le
+|\mathcal T_{ab}^{ret}\cap[0,t]|
+\sup_{0\le s\le t}M_J(s)
+\le
+\tau_J(t)\sup_{0\le s\le t}M_J(s),
+```
+
+and taking the supremum over pairs yields `(CS.29g)`. ∎
+
+### Lemma TPS-pair-direction-drift-bound
+
+Let
+
+```math
+r_{ab}(t):=X_{\le J}(a,t)-X_{\le J}(b,t),
+\qquad
+e_{ab}(t):=\frac{r_{ab}(t)}{|r_{ab}(t)|},
+```
+
+and assume `r_{ab}(t)\neq 0` on an interval `I`. Then for a.e. `t\in I`,
+
+```math
+\partial_t e_{ab}(t)
+=
+\big(I-e_{ab}(t)\otimes e_{ab}(t)\big)
+\Big(
+\int_0^1
+\nabla u_{\le J}(\gamma_{a,b}(\theta,t),t)\,d\theta
+\Big)e_{ab}(t),
+\tag{CS.29h}
+```
+
+hence
+
+```math
+|\partial_t e_{ab}(t)|
+\le
+2\|\nabla u_{\le J}(t)\|_{L^\infty_x}.
+\tag{CS.29i}
+```
+
+**Proof.**
+Differentiate `r_{ab}(t)=X_{\le J}(a,t)-X_{\le J}(b,t)` to obtain
+
+```math
+\partial_t r_{ab}(t)
+=
+u_{\le J}(X_{\le J}(a,t),t)-u_{\le J}(X_{\le J}(b,t),t)
+=
+\Big(
+\int_0^1
+\nabla u_{\le J}(\gamma_{a,b}(\theta,t),t)\,d\theta
+\Big)r_{ab}(t),
+```
+
+by the fundamental theorem of calculus along the transported segment. Writing
+`r_{ab}=|r_{ab}|e_{ab}` and differentiating,
+
+```math
+\partial_t e_{ab}
+=
+|r_{ab}|^{-1}
+\big(I-e_{ab}\otimes e_{ab}\big)\partial_t r_{ab},
+```
+
+which is exactly `(CS.29h)`. Since
+`\|I-e_{ab}\otimes e_{ab}\|_{\mathrm{op}}\le 1` and
+`\|\int_0^1 \nabla u_{\le J}(\gamma_{a,b}(\theta,t),t)\,d\theta\|_{\mathrm{op}}
+\le \|\nabla u_{\le J}(t)\|_{L^\infty_x}`, one gets `(CS.29i)` after absorbing
+harmless dimensional constants into `2`. ∎
+
+**Remark.**
+The drift bound `(CS.29i)` alone does **not** imply the return-time occupancy
+estimate `(CS.29f)`. To control the measure of return times one still needs
+either a direct shadow-time hypothesis or a one-sided angle-dynamics theorem.
+The present route therefore treats `(CS.29f)` as an independent quantitative
+input rather than deriving it from bare angular drift.
+
 ## Corrected Averaged Weak-Endpoint Closure
 
 The genuinely honest weak endpoint does not close the old pointwise coefficient
@@ -798,12 +1024,12 @@ Let
 ```
 
 on the good active-pair domain. Assume `t\mapsto \Phi_J(t;a,b)` is absolutely
-continuous and that there exists a strip speed `c_J>0` such that
+continuous and that there exists a tube speed `c_J>0` such that
 
 ```math
 \dot\Phi_J(t;a,b)\ge c_J
 \qquad
-\text{whenever }\Phi_J(t;a,b)\in[\sigma_J,2\sigma_J].
+\text{whenever }\Phi_J(t;a,b)\le 2\sigma_J.
 \tag{CA.2}
 ```
 
@@ -821,13 +1047,31 @@ t\in[0,T_J]:
 \tag{CA.3}
 ```
 
-**Proof skeleton.**
-Apply the one-dimensional coarea estimate to the absolutely continuous map
-`t\mapsto \Phi_J(t;a,b)` on the strip `[\,\sigma_J,2\sigma_J\,]`. Since the
-derivative is bounded below there by `(CA.2)`, the total time spent in the strip
-is at most strip width divided by the lower speed.
+**Proof.**
+Let
 
-So no one-pass or no-reentry hypothesis is needed on the weak endpoint route.
+```math
+E_{ab}:=\big\{t\in[0,T_J]:\Phi_J(t;a,b)\le 2\sigma_J\big\}.
+```
+
+Because `t\mapsto \Phi_J(t;a,b)` is absolutely continuous and `(CA.2)` gives
+`\dot\Phi_J(t;a,b)\ge c_J>0` throughout `E_{ab}`, the restriction of `\Phi_J`
+to `E_{ab}` is strictly increasing. Moreover,
+`\Phi_J(E_{ab})\subseteq [0,2\sigma_J]`, so the one-dimensional area formula
+gives
+
+```math
+c_J |E_{ab}|
+\le
+\int_{E_{ab}} \dot\Phi_J(t;a,b)\,dt
+\le
+\big|\Phi_J(E_{ab})\big|
+\le
+2\sigma_J.
+```
+
+Dividing by `c_J` yields `(CA.3)`. So no one-pass or no-reentry hypothesis is
+needed on the weak endpoint route. ∎
 
 ### Proposition TPS-shadow-transfer. Pair-Level Tube Enlargement
 

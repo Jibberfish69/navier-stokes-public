@@ -4,79 +4,58 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-09T21:19:17Z'
+  generated_at: '2026-04-12T20:18:53Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
-theorem_statement: For every smooth divergence-free rapidly decaying initial datum
-  u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving the
-  three-dimensional incompressible Navier-Stokes equations and satisfying int_{R^3}
-  |u(x,t)|^2 dx < C for all t >= 0.
+theorem_statement: The official Clay target allows either the whole-space branch on
+  R^3 or the periodic branch on T^3.
 source_grounded_chain:
-- For every smooth divergence-free rapidly decaying initial datum u^0 on R^3, with
-  f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving the three-dimensional
-  incompressible Navier-Stokes equations and satisfying int_{R^3} |u(x,t)|^2 dx <
-  C for all t >= 0.
-- replace the torus carrier block by a continuum coherent sector for curved D.
-- The exact sector does not define the physical carrier.
+- The official Clay target allows either the whole-space branch on R^3 or the periodic
+  branch on T^3.
 - Theorem 2.1 (Classical Closure)
-tentative_extension_chain:
-- branch_id: branch-navier-stokes-1
-  origin_obligation_id: marvin-upstream-2adc051dd3a8
-  hypothesis: Define the missing local object so that construct theorem-grade measure
-    / dynamics on the global twisted continuum becomes explicit with domain, codomain,
-    and invariance conditions.
+tentative_extension_chain: []
 remaining_open_obligations:
+- obligation_id: tps-one-sided-defect-bridge
+  label: selector-adapted defect-to-strain theorem
+  kind: live-theorem-edge
+  status: frontier
 - obligation_id: warrant-theorem-2.1
   label: Theorem 2.1 (Classical Closure)
   kind: theorem-warrant
   status: bridge-pending
-- obligation_id: marvin-upstream-2adc051dd3a8
-  label: construct theorem-grade measure / dynamics on the global twisted continuum
-  kind: definition
-  status: unresolved
-- obligation_id: marvin-upstream-269065c546af
-  label: "+ spectral floor on K_D^\\perp"
-  kind: lemma
-  status: unresolved
-- obligation_id: marvin-upstream-558cbb8323fd
-  label: with the coherent class controlling `X_ pers  ` and the spectral floor
-  kind: lemma
-  status: unresolved
-- obligation_id: marvin-upstream-5d4a55021542
-  label: "`Obs _ glue  `,"
-  kind: lemma
-  status: unresolved
-- obligation_id: marvin-upstream-8880078593dc
-  label: prove that the persistent obstruction/support readout globalizes strongly
-  kind: lemma
-  status: unresolved
-- obligation_id: marvin-upstream-0fdc65ea42d5
-  label: but Hodge still has to prove that persistent support on that object globalizes
-  kind: lemma
-  status: bridge-pending
+remaining_open_obligation_groups:
+  bridge_discharge_obligations: []
+  math_frontier_obligations:
+  - obligation_id: tps-one-sided-defect-bridge
+    label: selector-adapted defect-to-strain theorem
+    kind: live-theorem-edge
+    status: frontier
+  theorem_warrant_obligations:
+  - obligation_id: warrant-theorem-2.1
+    label: Theorem 2.1 (Classical Closure)
+    kind: theorem-warrant
+    status: bridge-pending
+frontier_context:
+  route_container_obligations: []
+  downstream_support_obligations: []
+  additional_context_obligations: []
 next_solver_targets:
+- obligation_id: tps-one-sided-defect-bridge
+  label: selector-adapted defect-to-strain theorem
+  kind: live-theorem-edge
+  status: frontier
 - obligation_id: warrant-theorem-2.1
   label: Theorem 2.1 (Classical Closure)
   kind: theorem-warrant
   status: bridge-pending
-- obligation_id: marvin-upstream-269065c546af
-  label: "+ spectral floor on K_D^\\perp"
-  kind: lemma
-  status: unresolved
-- obligation_id: marvin-upstream-2adc051dd3a8
-  label: construct theorem-grade measure / dynamics on the global twisted continuum
-  kind: definition
-  status: unresolved
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-969b079c3175
-  route_signature: 969b079c3175b429c6906ed2a51915c6d59184f1
+  surface_id: theorem-surface-navier-stokes-9b8afc2a2e3e
+  route_signature: 9b8afc2a2e3e0d9fd513b6184da56ee293c090ad
   theorem_target: ''
-  theorem_statement: For every smooth divergence-free rapidly decaying initial datum
-    u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving
-    the three-dimensional incompressible Navier-Stokes equations and satisfying int_{R^3}
-    |u(x,t)|^2 dx < C for all t >= 0.
+  theorem_statement: The official Clay target allows either the whole-space branch
+    on R^3 or the periodic branch on T^3.
   route_chain:
   - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
     or `T^3`
@@ -86,36 +65,31 @@ theorem_surface:
     unnamed baseline energy
   - Global energy or enstrophy control is necessary but not sufficient
   - The live obstruction is the small-scale or high-frequency cascade that feeds blow-up
-  - A classical dyadic tail or flux estimate must suppress dangerous high-frequency
-    transfer on the theorem surface
+  - A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
+    transfer on the chosen torus-first theorem surface
   - The monotone functional must stabilize the global energy/enstrophy layer and enable
-    the compactness package on the same classical surface
+    the compactness package on that same periodic classical surface
   - The scale-barrier plus monotone-functional input must yield strong local compactness
-    and nonlinear tensor closure on a classical approximation family
-  - A gradient-control bridge must force continuation control on the same theorem
-    surface
-  - If the scale-barrier, monotone-functional, compactness, and gradient packages
-    all hold on the active whole-space branch, then the Clay whole-space existence-and-smoothness
-    statement with `f = 0` follows
+    and nonlinear tensor closure on the periodic/operator approximation family
+  - A heat-governed deformation or continuation bridge must force continuation control
+    on the same periodic theorem surface
+  - If the scale-barrier, monotone-functional, compactness, and continuation packages
+    all hold on the active periodic branch, then the periodic Clay branch with `f
+    = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
+    not the internal branch itself
   route_slots:
+  - slot_id: tps-one-sided-defect-bridge
+    label: selector-adapted defect-to-strain theorem
+    kind: live-theorem-edge
+    status: frontier
+    source_anchor: route-synthesis
+    patch_surface: problems/navier-stokes/source-frontier.yaml
   - slot_id: warrant-theorem-2.1
     label: Theorem 2.1 (Classical Closure)
     kind: theorem-warrant
     status: bridge-pending
     source_anchor: problems/navier-stokes/external-paper/sections/main-result.tex
     patch_surface: problems/navier-stokes/external-paper/sections/main-result.tex
-  - slot_id: marvin-upstream-269065c546af
-    label: "+ spectral floor on K_D^\\perp"
-    kind: lemma
-    status: unresolved
-    source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
-    patch_surface: problems/navier-stokes/object-formalization.yaml
-  - slot_id: marvin-upstream-2adc051dd3a8
-    label: construct theorem-grade measure / dynamics on the global twisted continuum
-    kind: definition
-    status: unresolved
-    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
-    patch_surface: problems/navier-stokes/object-formalization.yaml
   authority_layers:
     authoritative_proof_surfaces:
     - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_3-_Monotone_Functional.tex"
@@ -132,21 +106,37 @@ theorem_surface:
     local_theorem_construction_surfaces:
     - problems/navier-stokes/claim-ladder.md
     - problems/navier-stokes/marvin-watchlist.yaml
-    - problems/navier-stokes/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md
+    - problems/navier-stokes/live-theorem-edge.yaml
+    - problems/navier-stokes/route-lock.yaml
+    - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
+    - problems/navier-stokes/theorem-construction/live-frontier-honest-cut-reduction.md
+    - problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md
+    - problems/navier-stokes/theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md
+    - problems/navier-stokes/theorem-construction/clay-discharge-ladder-from-current-reductions.md
+    - problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
+    - problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md
+    - problems/navier-stokes/theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md
+    - problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md
+    - problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md
+    - problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md
+    - problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md
     - problems/navier-stokes/proof-assembly.yaml
     - problems/navier-stokes/source-frontier.yaml
     - problems/navier-stokes/object-formalization.yaml
     safe_output_surface: problems/navier-stokes/external-paper/main.tex
     synthesis_import_surfaces:
-    - working-notes/marvin-tandem-collaboration-protocol.md
-    - working-notes/chat-y-monograph-synchronization-protocol.md
-    - working-notes/theorem-pull-trigger-spec.md
-    - working-notes/raw-user-working-theory-intake-log.md
-    - working-notes/chat-y-layered-ontic-flow-extraction-note.md
-    - working-notes/chat-y-deep-ontology-miss-delta-card.md
+    - working-notes/ns-clay-frontier-proof-pack.md
+    - working-notes/ontic-flow-closure-proof-spine.md
+    - working-notes/spectral-closure-and-unified-invariant.md
+    - working-notes/ontic-nc-ns-ymg-hodge-program.md
+    - working-notes/ontic-nc-ns-operator-tilt-note.md
+    - working-notes/projected-nonlinearity-diagnostic.md
+    - working-notes/refinement-commutator-estimate-and-scale-gap.md
+    - working-notes/projected-defect-growth-and-carrier-reduction.md
     - monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.9-TheEntirePictureWorkingSpine.tex
     - monograph-V6/Audit/scale-resolution/ScaleResolution_Extracts.md
     - working-notes/refinement-covariance-and-shadow-theorem-scaffold.md
+    - working-notes/projected-generator-sector-invariance.md
     - working-notes/nc-3torus-concrete-model-evaluation.md
     - working-notes/model-ladder-beyond-nc-torus-aside.md
     - monograph-V6/problems/yang-mills-gap/upstream-synthesis-feed.yaml
@@ -154,13 +144,19 @@ theorem_surface:
     status: ok
     route_locked: true
     cross_surface_splice: false
-    sterilized_synthesis_import_count: 12
+    sterilized_synthesis_import_count: 15
 summary:
-  grounded_step_count: 4
-  promoted_extension_count: 1
+  grounded_step_count: 2
+  promoted_extension_count: 0
   bridge_discharge_blocking_count: 1
-  open_obligation_count: 7
-  tracked_source_count: 113
-  synthesis_import_surface_count: 12
+  bridge_discharge_only_count: 0
+  theorem_warrant_blocking_count: 1
+  open_obligation_count: 2
+  math_frontier_open_count: 1
+  frontier_context_count: 0
+  frontier_route_container_count: 0
+  frontier_downstream_support_count: 0
+  tracked_source_count: 121
+  synthesis_import_surface_count: 15
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-969b079c3175
+  theorem_surface_id: theorem-surface-navier-stokes-9b8afc2a2e3e

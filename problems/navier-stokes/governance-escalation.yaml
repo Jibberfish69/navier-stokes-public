@@ -1,0 +1,44 @@
+---
+version: 1
+status: open
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  escalation_id: governance-escalation-navier-stokes
+  requested_by_chat_id: chat2
+  emitted_at: '2026-04-12T20:19:11Z'
+classification:
+  kind: shared-system-repair
+  severity: high
+  summary: Derived Marvin live_state frontier still advertises PSJ+.4 as the open
+    theorem after canonical Navier-Stokes surfaces were corrected back to overall
+    PSJ+; canonical YAMLs and promotion state now disagree with lane-digest live_state
+    text
+  reason_signature: 512e40411e5b6ece01b9abc1e5125b1217ef1742
+repair_surface:
+  suspect_paths:
+  - system/runner/lib/research_os_live_state_support.rb
+  - system/runner/bin/research_os_v2_bootstrap.rb
+  code_fingerprint_at_emit: a0e2c76848cc1998151fe7c94c254576c86816d3
+lane_snapshot:
+  queue_state: ready
+  current_stage: governance-recheck
+  next_cell_type: solver-loop
+  next_action: Marvin feed changed in capture-20260412T201839Z-1d8e774b6b8e.md for
+    Navier-Stokes Global Regularity, so rerun solver-loop and refresh the theorem-facing
+    artifacts from the updated ingest notes.
+  blocking_reasons: []
+resume:
+  current_stage: governance-recheck
+  next_cell_type: solver-loop
+  next_action: Marvin feed changed in capture-20260412T201839Z-1d8e774b6b8e.md for
+    Navier-Stokes Global Regularity, so rerun solver-loop and refresh the theorem-facing
+    artifacts from the updated ingest notes.
+open_paths:
+  pipeline_state: problems/navier-stokes/pipeline-state.yaml
+  supporting_artifacts:
+    theorem_packet: problems/navier-stokes/theorem-packet.yaml
+    proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
+    source_frontier: problems/navier-stokes/source-frontier.yaml
+    proof_assembly: problems/navier-stokes/proof-assembly.yaml
+    review_verdict: problems/navier-stokes/review-verdict.yaml

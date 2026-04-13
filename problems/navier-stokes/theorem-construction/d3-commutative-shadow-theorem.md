@@ -17,7 +17,7 @@ The concrete carrier realization and exact pullback identification are recorded
 in [carrier-realization-classical-identification.md](carrier-realization-classical-identification.md).
 
 The exact no-remainder consequence of the strict-shadow branch is isolated in
-[strict-shadow-no-shadowdef-corollary.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/strict-shadow-no-shadowdef-corollary.md).
+[strict-shadow-no-remainder-corollary.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md).
 
 ## Object
 
@@ -138,8 +138,8 @@ with
 ```
 
 Under the strict-shadow hypotheses used in the strong form above, this weaker
-remainder collapses to `\mathrm{ShadowDef}(X)=0`; the named remainder belongs
-only to the weaker robustness branch.
+remainder collapses to `\mathrm{ShadowDef}(X)=0` and `E_{\mathrm{sh}}(X)=0`; the
+named remainder belongs only to the weaker robustness branch.
 
 ## Interpretation Of The Split
 

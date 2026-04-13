@@ -52,6 +52,16 @@ published_files:
 - bridge-slot-map.yaml
 - campaign-status.yaml
 - cascade-after-monotone-bridge-source-pack.md
+- chat20-status.yaml
+- chat21-status.yaml
+- chat22-status.yaml
+- chat23-status.yaml
+- chat24-status.yaml
+- chat25-status.yaml
+- chat26-status.yaml
+- chat27-status.yaml
+- chat28-status.yaml
+- chat29-status.yaml
 - claim-ladder.md
 - closure-audit-source-pack.md
 - codex-question-chain-intent-delta-card.md
@@ -86,6 +96,7 @@ published_files:
 - layered-route-graph.yaml
 - lemma-falsification.yaml
 - live-theorem-edge.md
+- live-theorem-edge.yaml
 - manuscript-depth.yaml
 - marvin-adaptation-notes.md
 - marvin-ingest-notes.yaml
@@ -139,6 +150,7 @@ published_files:
 - submission-metadata.yaml
 - submission-verdict.yaml
 - target-fidelity-discharge-source-pack.md
+- theorem-construction/a1a-full-data-euclidean-lift-coverage.md
 - theorem-construction/active-coherent-projector-spectral-identification-theorem.md
 - theorem-construction/affine-quotient-kill-from-signed-scale-descent-audit.md
 - theorem-construction/affine-survivor-quotient-compactness-interface-note.md
@@ -185,6 +197,8 @@ published_files:
 - theorem-construction/curvature-based-gradient-bridge-object.md
 - theorem-construction/curvature-to-euclidean-pullback-target.md
 - theorem-construction/curvature-to-scale-feedback-bridge.md
+- theorem-construction/cycle-exact-angular-observability-packet.md
+- theorem-construction/cycle-exact-projective-synchronization-packet.md
 - theorem-construction/d1-projected-nc-flow-well-posedness.md
 - theorem-construction/d2-global-coercive-energy-estimate.md
 - theorem-construction/d3-commutative-shadow-theorem.md
@@ -240,6 +254,8 @@ published_files:
 - theorem-construction/holonomy-refinement-projector-spectral-realization-theorem.md
 - theorem-construction/hopf-shuffle-endgame-program.md
 - theorem-construction/hopf-shuffle-survivor-drain-program.md
+- theorem-construction/hwy-instability-attack-packet.md
+- theorem-construction/hwy-proof-audit-note.md
 - theorem-construction/infinite-jet-bicomplex-brst-survivor-route-note.md
 - theorem-construction/jet-substitution-and-exponential-closure-note.md
 - theorem-construction/lagrangian-material-derivative-recheck-note.md
@@ -258,6 +274,7 @@ published_files:
 - theorem-construction/lifted-packet-signed-continuous-scale-translation.md
 - theorem-construction/lifted-packet-three-piece-closure-program.md
 - theorem-construction/lifted-remainder-feedback-into-body1-audit.md
+- theorem-construction/live-frontier-honest-cut-reduction.md
 - theorem-construction/lower-prefix-active-square-theorem.md
 - theorem-construction/lower-triangular-scale-memory-formalization-note.md
 - theorem-construction/main-theorem-draft.md
@@ -293,8 +310,11 @@ published_files:
 - theorem-construction/ontic-projected-flow-exact-lift-package.md
 - theorem-construction/ontic-to-ns-sterile-theorem-map.md
 - theorem-construction/overlap-defect-observability-placement-note.md
+- theorem-construction/pair-to-cocycle-synchronization-braid-harvest.md
 - theorem-construction/paired-carrier-inequality.md
 - theorem-construction/parabolic-order-recursion-note.md
+- theorem-construction/pd70z-cycle-exact-closure-obstruction-note.md
+- theorem-construction/pd70z-cycle-exact-normal-covector-route.md
 - theorem-construction/persistent-support-transport-export-theorem.md
 - theorem-construction/persistent-weighted-quotient-kill-note.md
 - theorem-construction/persistent-weighted-quotient-kill-routes-audit.md
@@ -305,6 +325,7 @@ published_files:
 - theorem-construction/regularity-upgrade-schemas.md
 - theorem-construction/relative-band-quotient-compactness-formalization-note.md
 - theorem-construction/repo-wide-ns-idea-consolidation-and-proof-convergence.md
+- theorem-construction/route-b-b1-integrable-shadow-error-continuation-coupling.md
 - theorem-construction/route-b-euclidean-closure-theorem.md
 - theorem-construction/same-scale-coefficient-kill-into-weighted-carrier-note.md
 - theorem-construction/same-scale-edge-family-and-model-estimate-note.md
@@ -332,6 +353,8 @@ published_files:
 - theorem-construction/signed-lifted-band-scale-descent-identity.md
 - theorem-construction/spatial-derivative-curvature-dissipation-theorem-target.md
 - theorem-construction/spectral-carrier-floor-leakage-direction-note.md
+- theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md
+- theorem-construction/spectral-transversality-in-measure-implies-pd70.md
 - theorem-construction/ss-and-lpas-cts-blocker-demonstration-note.md
 - theorem-construction/ss-first-direct-cts-execution-order-note.md
 - theorem-construction/ss-first-direct-cts-lpas-fallback-execution-order-note.md
@@ -352,13 +375,17 @@ published_files:
 - theorem-construction/torus-projected-flow-extraction.md
 - theorem-construction/tower-rewrite-under-ym-heat-shadow-bridge.md
 - theorem-construction/tower-to-shuffle-to-deformation-endgame-program.md
+- theorem-construction/tps-alignment-to-strain-production-lemma.md
 - theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md
 - theorem-construction/tps-dynamic-source-fit-and-open-frontier.md
 - theorem-construction/tps-high-frequency-tail-to-coarse-flow-deviation-bridge.md
 - theorem-construction/tps-pair-defect-pde-packet.md
+- theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md
+- theorem-construction/tps-shadow-barrier-formal-closure-packet.md
 - theorem-construction/tps-shadow-time-budget-packet.md
 - theorem-construction/tps-shadow-tube-measurability-lemma.md
 - theorem-construction/tps-strain-bundle-packet.md
+- theorem-construction/tps-strong-bridge-sg-lemma-family.md
 - theorem-construction/transport-assisted-dissipation-target-note.md
 - theorem-construction/transport-frame-recentering-use-note.md
 - theorem-construction/transported-phase-space-selector-theorem-candidate.md

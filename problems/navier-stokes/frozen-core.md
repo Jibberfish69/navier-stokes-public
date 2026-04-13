@@ -6,32 +6,38 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 ## Theorem Target
 
 - `theorem_target`: 
-- `lowest_safe_claim`: For every smooth divergence-free rapidly decaying initial datum u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving the three-dimensional incompressible Navier-Stokes equations and satisfying int_{R^3} |u(x,t)|^2 dx < C for all t >= 0.
+- `lowest_safe_claim`: The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3.
 - `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
 
 ## Grounded Core
 
-- For every smooth divergence-free rapidly decaying initial datum u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving the three-dimensional incompressible Navier-Stokes equations and satisfying int_{R^3} |u(x,t)|^2 dx < C for all t >= 0. (`theorem-statement`; `theorem-statement`)
-- replace the torus carrier block by a continuum coherent sector for curved D. (`definition`; `marvin-upstream-8e939525d3f2`)
-- The exact sector does not define the physical carrier. (`definition`; `marvin-upstream-16fa51055da0`)
-- Theorem 2.1 (Classical Closure) (`lemma`; `warrant-theorem-2.1`)
+- The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3. (`theorem-statement`; `theorem-statement`)
+- Theorem 2.1 (Classical Closure) (`theorem-warrant`; `warrant-theorem-2.1`)
 
 ## Source Frontier
 
-- `first_unresolved`: construct theorem-grade measure / dynamics on the global twisted continuum (`definition`; `marvin-upstream-2adc051dd3a8`)
-- construct theorem-grade measure / dynamics on the global twisted continuum (`definition`; `marvin-upstream-2adc051dd3a8`)
-- + spectral floor on K_D^\perp (`lemma`; `marvin-upstream-269065c546af`)
-- with the coherent class controlling `X_ pers  ` and the spectral floor (`lemma`; `marvin-upstream-558cbb8323fd`)
-- `Obs _ glue  `, (`lemma`; `marvin-upstream-5d4a55021542`)
-- prove that the persistent obstruction/support readout globalizes strongly (`lemma`; `marvin-upstream-8880078593dc`)
-- but Hodge still has to prove that persistent support on that object globalizes (`lemma`; `marvin-upstream-0fdc65ea42d5`)
+- `first_unresolved`: selector-adapted defect-to-strain theorem (`live-theorem-edge`; `tps-one-sided-defect-bridge`)
+- selector-adapted defect-to-strain theorem (`live-theorem-edge`; `tps-one-sided-defect-bridge`)
 
 ## Source Surfaces
 
 - `problems/navier-stokes/claim-ladder.md`
 - `problems/navier-stokes/marvin-watchlist.yaml`
 - `problems/navier-stokes/marvin-ingest-notes.yaml`
-- `problems/navier-stokes/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md`
+- `problems/navier-stokes/live-theorem-edge.yaml`
+- `problems/navier-stokes/route-lock.yaml`
+- `problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md`
+- `problems/navier-stokes/theorem-construction/live-frontier-honest-cut-reduction.md`
+- `problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md`
+- `problems/navier-stokes/theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md`
+- `problems/navier-stokes/theorem-construction/clay-discharge-ladder-from-current-reductions.md`
+- `problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md`
+- `problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md`
+- `problems/navier-stokes/theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md`
+- `problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md`
+- `problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md`
+- `problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md`
+- `problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md`
 
 ## Boundary Rule
 

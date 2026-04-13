@@ -7,6 +7,10 @@ exists in the working-note corpus. This file is not a new proof. Its job is to
 keep the usable torus-route theorems inside `problems/navier-stokes/**` instead
 of leaving them stranded in side notes.
 
+For the current live lane, this is the primary internal branch surface. Any
+whole-space Euclidean theorem on `R^3` is downstream discharge/export from this
+periodic packet rather than the branch lock itself.
+
 ## Source anchors
 
 - `/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-clay-frontier-proof-pack.md`

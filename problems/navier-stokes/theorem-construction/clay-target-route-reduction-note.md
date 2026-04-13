@@ -540,7 +540,7 @@ The source-backed split is:
    be shown small or absorbable.
 
 The exact no-remainder consequence of Route A is now isolated in
-[strict-shadow-no-shadowdef-corollary.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/strict-shadow-no-shadowdef-corollary.md).
+[strict-shadow-no-remainder-corollary.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md).
 The classical forcing inequality attached to the weaker Route B branch is now
 isolated in
 [shadow-remainder-hs-forcing-estimate.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/shadow-remainder-hs-forcing-estimate.md).

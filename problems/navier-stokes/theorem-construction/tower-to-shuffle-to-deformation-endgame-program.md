@@ -744,7 +744,9 @@ really dominates the exported survivor family on the same classical surface.
 
 ## Step 10. Final closure stack
 
-If the above steps succeed, the remaining Euclidean stack becomes formal:
+If the above steps succeed, the remaining torus-first internal closure stack
+becomes formal, with any Euclidean whole-space theorem left as downstream
+export:
 
 ```math
 \text{survivor classifier}

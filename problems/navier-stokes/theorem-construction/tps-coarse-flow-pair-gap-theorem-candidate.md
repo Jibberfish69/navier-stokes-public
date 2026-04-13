@@ -8,6 +8,15 @@ This note isolates one sharpened version of the remaining dynamic burden inside
 The point is to replace a direct attack on unary selector labels by a
 coarse-flow pair-gap theorem with a uniform-in-time exclusion consequence.
 
+The canonical theorem-facing Navier--Stokes surfaces now place the live route on
+the TPS strong/defect bridge with `SG.4` as the exact unresolved obstruction.
+This note is therefore a local TPS dynamic burden packet inside that active
+route, not a separate lane-wide promotion surface.
+
+Throughout this note, the active surface is the periodic torus branch. Pair
+distances should therefore be read on the periodic lift / geodesic
+representative of `\mathbb T^3`, not as a whole-space-at-infinity object.
+
 ## Coarse flow and transverse pair-gap
 
 Let `u_{\le J}` denote a smooth low-frequency truncation of the live velocity,
@@ -27,16 +36,17 @@ G_J^{pair}:=\{(a,b)\in G_J\times G_J:\ b\sim a\},
 \tag{CF.2}
 ```
 
-with selector-neighbor scale `\ell_J` and measurable transverse bundle
-`a\mapsto N_a` as in `TPS-ns-good-set`.
+with selector-neighbor scale `\ell_J>0` and measurable transverse bundle
+`a\mapsto N_a` as in `TPS-ns-good-set`. The scale `\ell_J` is frozen in time and
+all good active pairs satisfy `|a-b|\simeq \ell_J` at the initial time.
 
-Define the coarse transverse separation functional
+Define the normalized coarse pair-gap functional
 
 ```math
 \Phi_J(t)
 :=
 \operatorname*{ess\,inf}_{(a,b)\in G_J^{pair}}
-\frac{|\Pi_{N_a}(X_{\le J}(b,t)-X_{\le J}(a,t))|}{\ell_J}.
+\frac{|X_{\le J}(b,t)-X_{\le J}(a,t)|}{\ell_J}.
 \tag{CF.3}
 ```
 
@@ -172,38 +182,84 @@ Hence `(CF.5)` holds with the explicit identification
 \tag{CF.6h}
 ```
 
-**Proof skeleton.**
-Fix a unit `v\in N_a` and decompose it relative to the spectral splitting
-`v=v_++v_-` with
-`v_+:=Q_{\le J}^{+}(X_{\le J}(a,t),t)v` and
-`v_-:=(I-Q_{\le J}^{+}(X_{\le J}(a,t),t))v`. Since
-`Q_{\le J}^{+}(X_{\le J}(a,t),t)` is a spectral projector of the symmetric
-matrix `S_{\le J}(X_{\le J}(a,t),t)`,
-the mixed terms vanish:
+**Proof.**
+Fix `a\in G_J`, a time `t`, and a unit vector `v\in N_a`. Abbreviate
 
 ```math
-\langle S_{\le J}(X_{\le J}(a,t),t)v,v\rangle
+x:=X_{\le J}(a,t),
+\qquad
+S:=S_{\le J}(x,t),
+\qquad
+Q:=Q_{\le J}^{+}(x,t).
+```
+
+Decompose `v=v_++v_-` with `v_+:=Qv` and `v_-:=(I-Q)v`. Since `Q` is the
+orthogonal spectral projector of the symmetric matrix `S`, the mixed terms
+vanish:
+
+```math
+\langle Sv,v\rangle
 =
-\langle S_{\le J}(X_{\le J}(a,t),t)v_+,v_+\rangle
-+
-\langle S_{\le J}(X_{\le J}(a,t),t)v_-,v_-\rangle.
+\langle Sv_+,v_+\rangle+\langle Sv_-,v_-\rangle.
 ```
 
-By `(CF.6c)`,
-`\langle S_{\le J}(X_{\le J}(a,t),t)v_+,v_+\rangle\ge (\Lambda_J-\varepsilon_J^{spec})|v_+|^2`,
-while `(CF.6d)` gives
-`\langle S_{\le J}(X_{\le J}(a,t),t)v_-,v_-\rangle\ge -M_J|v_-|^2`. The angle control
-`(CF.6f)` implies `|v_-|\le \theta_J` and `|v_+|^2=1-|v_-|^2\ge 1-\theta_J^2`,
-so
+By the definition of `\lambda_{2,\le J}` and the lower bound `(CF.6c)`,
 
 ```math
-\langle S_{\le J}(X_{\le J}(a,t),t)v,v\rangle
+\langle Sv_+,v_+\rangle
 \ge
-(\Lambda_J-\varepsilon_J^{spec})(1-\theta_J^2)-M_J\theta_J^2.
+\lambda_{2,\le J}(x,t)|v_+|^2
+\ge
+\big(\Lambda_J(t)-\varepsilon_J^{spec}(t,a)\big)|v_+|^2.
 ```
 
-Since `\Lambda_J-\varepsilon_J^{spec}\le M_J`, the quadratic error is bounded by
-`2M_J\theta_J^2`, yielding `(CF.6g)`.
+By `(CF.6d)`,
+
+```math
+\langle Sv_-,v_-\rangle\ge -M_J(t)|v_-|^2.
+```
+
+Moreover,
+
+```math
+|v_-|
+=
+\big|(I-Q)P_{N_a}v\big|
+\le
+\vartheta_J(a,t)|v|
+\le
+\theta_J(a,t)|v|,
+```
+
+by `(CF.6e)` and `(CF.6f)`. Since `|v|=1`, this implies
+`|v_-|^2\le \theta_J(a,t)^2` and hence
+
+```math
+|v_+|^2=1-|v_-|^2\ge 1-\theta_J(a,t)^2.
+```
+
+Combining the three estimates,
+
+```math
+\langle Sv,v\rangle
+\ge
+\big(\Lambda_J-\varepsilon_J^{spec}\big)\big(1-\theta_J^2\big)-M_J\theta_J^2
+=
+\big(\Lambda_J-\varepsilon_J^{spec}\big)
+-\big(\Lambda_J-\varepsilon_J^{spec}+M_J\big)\theta_J^2.
+```
+
+Since `(CF.6c)` and `(CF.6d)` imply
+`\Lambda_J(t)-\varepsilon_J^{spec}(t,a)\le \lambda_{2,\le J}(x,t)\le M_J(t)`,
+the coefficient of `\theta_J^2` is at most `2M_J(t)`. Therefore
+
+```math
+\langle Sv,v\rangle
+\ge
+\big(\Lambda_J(t)-\varepsilon_J^{spec}(t,a)-2M_J(t)\theta_J(a,t)^2\big)|v|^2,
+```
+
+which is `(CF.6g)`. The identification `(CF.6h)` is immediate. ∎
 
 ### Corollary CF-bundle-coercive-int. Minimal Integrated Coarse Closure Packet
 
@@ -244,103 +300,47 @@ so the entire coarse bundle burden is reduced to a spectral floor for
 `\lambda_{2,\le J}` together with quadratic angle control of `N_a` against the
 coarse expanding plane `E_{\le J}^{+}`.
 
-## Coarse pair-gap growth
+## Coarse `\lambda_{2,J}^{+}` feed packet
 
-### Proposition TPS-coarse-gap-growth. Initial Separation Plus Integrated Coarse Strain
-
-Assume the coarse transverse strain lower bound `(CF.5)`-`(CF.6)` and the
-selector-good-set initial separation `|\Pi_{N_a}(b-a)|\gtrsim \ell_J` on the
-good active graph. Then every good active pair obeys the Gronwall lower bound
+Define the positive part of the coarse middle eigenvalue by
 
 ```math
-|\Pi_{N_a}(X_{\le J}(b,t)-X_{\le J}(a,t))|
-\ge
-|\Pi_{N_a}(b-a)|
-\exp\!\Big(\int_0^t(\lambda_J(s)-\varepsilon_J^*(s))\,ds\Big)
-\tag{CF.7}
-```
-
-outside the negligible cone-failure set.
-
-In particular, since `|a-b|\simeq \ell_J` on the good active graph,
-
-```math
-\Phi_J(t)
-\ge
-c_0
-\exp\!\Big(\int_0^t(\lambda_J(s)-\varepsilon_J^*(s))\,ds\Big)
-\tag{CF.8}
-```
-
-for some selector constant `c_0>0`.
-
-So the coarse normalized pair-gap stays uniformly positive on `[0,T_J]` once
-the integrated coarse strain dominates the error ledger.
-
-### Corollary TPS-coarse-gap-growth-log. Scalarized Logarithmic Pair-Strain Form
-
-For a good active pair `(a,b)`, define the coarse pair distance
-
-```math
-d_J^{coarse}(a,b,t):=|X_{\le J}(a,t)-X_{\le J}(b,t)|.
-\tag{CF.8a}
-```
-
-Assume the initial separation
-
-```math
-d_J^{coarse}(a,b,0)\ge c_0\ell_J
-\qquad\text{for every }(a,b)\in G_J^{pair},
-\tag{CF.8b}
-```
-
-and the scalarized one-sided logarithmic strain bound
-
-```math
-\int_0^t
-\frac{
-\big(u_{\le J}(X_{\le J}(a,s),s)-u_{\le J}(X_{\le J}(b,s),s)\big)
-\cdot
-\big(X_{\le J}(a,s)-X_{\le J}(b,s)\big)
-}{
-|X_{\le J}(a,s)-X_{\le J}(b,s)|^2
-}\,ds
-\ge
-\Lambda_J(t)-\mathcal E_J^{pair}(a,b,t),
-\tag{CF.8c}
-```
-
-with
-
-```math
-\mathcal E_J^*(t)
+\lambda_{2,J}^{+}(x,t)
 :=
-\operatorname*{ess\,sup}_{(a,b)\in G_J^{pair}}\mathcal E_J^{pair}(a,b,t).
-\tag{CF.8d}
+\max\big(\lambda_{2,\le J}(x,t),0\big).
+\tag{CF.6l}
 ```
 
-Then
+The live selector route does not need a pointwise selector of one spatial point
+on the transported segment. It is enough to produce an angular-good sub-arc on
+which `\lambda_{2,J}^{+}` contributes positively to the exact logarithmic
+pair-strain identity.
+
+### Proposition TPS-coarse-gap-lambda2-plus-feed
+
+Assume there exist:
+
+1. an asymptotically full measurable angular good-pair family
+   `G_J^{pair,\angle}\subseteq G_J^{pair}`;
+2. measurable angular-good sub-arcs
+   `I_{ab}^{ang}(t)\subseteq[0,1]` for `(a,b)\in G_J^{pair,\angle}`;
+3. measurable fresh-time indicators `\chi_{ab}^{fresh}(t)\in\{0,1\}`;
+4. a constant `0<c_\angle\le 1`;
+5. measurable angular defect profiles `\vartheta_{ab}(\theta,t)\ge 0`;
+6. measurable angle-defect densities `\mathrm{angdef}_{ab}(t)\ge 0`;
+
+such that for a.e. `t\in[0,T_J]` and every `(a,b)\in G_J^{pair,\angle}`,
 
 ```math
-d_J^{coarse}(a,b,t)
-\ge
-c_0\ell_J\,\exp\!\big(\Lambda_J(t)-\mathcal E_J^*(t)\big),
-\tag{CF.8e}
+|I_{ab}^{ang}(t)|\ge \mu_J^{ang}(t)\chi_{ab}^{fresh}(t),
+\qquad
+0\le \mu_J^{ang}(t)\le 1,
+\tag{CF.6m}
 ```
 
-and hence
+By convention, `I_{ab}^{ang}(t)=\varnothing` whenever `\chi_{ab}^{fresh}(t)=0`.
 
-```math
-\Phi_J(t)\ge c_0\,\exp\!\big(\Lambda_J(t)-\mathcal E_J^*(t)\big).
-\tag{CF.8f}
-```
-
-This is the cleanest scalarized replacement for any residual label-growth
-burden on the coarse-flow branch.
-
-### Corollary CF-pair-strain-segment. Segmentwise Spectral Coherence Implies `(CF.8c)`
-
-For a good active pair `(a,b)`, write
+where
 
 ```math
 y_a(t):=X_{\le J}(a,t),
@@ -348,64 +348,46 @@ y_a(t):=X_{\le J}(a,t),
 y_b(t):=X_{\le J}(b,t),
 \qquad
 e_{a,b}(t):=\frac{y_b(t)-y_a(t)}{|y_b(t)-y_a(t)|},
-\tag{CF.8g}
-```
-
-and parametrize the transported coarse segment by
-
-```math
-\gamma_{a,b}(\theta,t)
-:=
-(1-\theta)y_a(t)+\theta y_b(t),
 \qquad
-0\le \theta\le 1.
-\tag{CF.8h}
+\gamma_{a,b}(\theta,t):=(1-\theta)y_a(t)+\theta y_b(t).
 ```
 
-Assume there exists a pointwise coarse log-rate `\lambda_J^{seg}(t)\ge 0` such
-that for almost every `(t,\theta)` and every good active pair,
+and, writing
 
 ```math
-\lambda_{2,\le J}(\gamma_{a,b}(\theta,t),t)
-\ge
-\lambda_J^{seg}(t)-\varepsilon_J^{seg}(a,b,\theta,t),
-\tag{CF.8i}
+\overline{\mathcal A}_{ab}^{fresh}(t)
+:=
+\chi_{ab}^{fresh}(t)
+\int_{I_{ab}^{ang}(t)}
+\lambda_{2,J}^{+}(\gamma_{a,b}(\theta,t),t)\,d\theta,
+\tag{CF.6n}
 ```
 
-with
-
-```math
-\big\|
-\operatorname{Sym}\nabla u_{\le J}(\gamma_{a,b}(\theta,t),t)
-\big\|_{\mathrm{op}}
-\le
-M_J(t),
-\tag{CF.8j}
-```
-
-and the pair direction stays close to the local coarse expanding plane:
+assume moreover that for a.e. `t` and a.e. `\theta\in I_{ab}^{ang}(t)`,
 
 ```math
 \big|
 \big(I-Q_{\le J}^{+}(\gamma_{a,b}(\theta,t),t)\big)e_{a,b}(t)
 \big|
 \le
-\theta_J^{seg}(a,b,\theta,t).
-\tag{CF.8k}
+\vartheta_{ab}(\theta,t),
+\tag{CF.6n1}
 ```
 
-Define the segment error ledger
+and that the angle-defect density absorbs both the quadratic angular loss on
+the fresh sub-arc and the coarse contribution of the complementary part of the
+segment:
 
 ```math
-\overline{\varepsilon}_J^{pair}(a,b,t)
-:=
-\int_0^1 \varepsilon_J^{seg}(a,b,\theta,t)\,d\theta
+\mathrm{angdef}_{ab}(t)
+\ge
+2M_J(t)\int_{I_{ab}^{ang}(t)}\vartheta_{ab}(\theta,t)^2\,d\theta
 +
-2M_J(t)\int_0^1\theta_J^{seg}(a,b,\theta,t)^2\,d\theta.
-\tag{CF.8l}
+M_J(t)\chi_{ab}^{fresh}(t)\big(1-|I_{ab}^{ang}(t)|\big).
+\tag{CF.6n2}
 ```
 
-Then the exact logarithmic pair-strain integrand obeys
+Then the exact segmentwise logarithmic pair-strain integrand obeys
 
 ```math
 \frac{
@@ -416,50 +398,535 @@ Then the exact logarithmic pair-strain integrand obeys
 |y_a(t)-y_b(t)|^2
 }
 \ge
-\lambda_J^{seg}(t)-\overline{\varepsilon}_J^{pair}(a,b,t),
+c_\angle\,\overline{\mathcal A}_{ab}^{fresh}(t)
+-\mathrm{angdef}_{ab}(t)
+-M_J(t)\big(1-\chi_{ab}^{fresh}(t)\big).
+\tag{CF.6o}
+```
+
+Define the angle-defect ledger
+
+```math
+A_J(t)
+:=
+\sup_{(a,b)\in G_J^{pair,\angle}}
+\int_0^t \mathrm{angdef}_{ab}(s)\,ds,
+\tag{CF.6p}
+```
+
+the recurrence ledger
+
+```math
+R_J(t)
+:=
+\sup_{(a,b)\in G_J^{pair,\angle}}
+\int_0^t M_J(s)\big(1-\chi_{ab}^{fresh}(s)\big)\,ds,
+\tag{CF.6q}
+```
+
+and the integrated angular-fresh gain
+
+```math
+\mathfrak M_J^{fresh,\angle}(t)
+:=
+\inf_{(a,b)\in G_J^{pair,\angle}}
+\int_0^t \overline{\mathcal A}_{ab}^{fresh}(s)\,ds.
+\tag{CF.6r}
+```
+
+Define also the normalized instantaneous fresh gain and its cumulative version
+
+```math
+g_J^{fresh,\angle}(t)
+:=
+c_\angle
+\inf_{(a,b)\in G_J^{pair,\angle}}
+\overline{\mathcal A}_{ab}^{fresh}(t),
+\qquad
+G_J^{fresh,\angle}(t)
+:=
+\int_0^t g_J^{fresh,\angle}(s)\,ds.
+\tag{CF.6r1}
+```
+
+Then the scalar packet closes on `G_J^{pair,\angle}` with pair-level error
+ledger
+
+```math
+\mathcal E_J^{pair}(a,b,t)
+:=
+\int_0^t \mathrm{angdef}_{ab}(s)\,ds
+\;+\;
+\int_0^t M_J(s)\big(1-\chi_{ab}^{fresh}(s)\big)\,ds.
+\tag{CF.6s}
+```
+
+Consequently,
+
+```math
+\Phi_J(t)
+\ge
+c_0\exp\!\Big(
+G_J^{fresh,\angle}(t)-A_J(t)-R_J(t)
+\Big)
+\tag{CF.6t}
+```
+
+on the refined good-pair family `G_J^{pair,\angle}`.
+
+**Proof.**
+Fix one pair `(a,b)\in G_J^{pair,\angle}`. By the exact segment formula
+`(CF.8c)`-`(CF.8d)`,
+
+```math
+\frac{
+\big(u_{\le J}(y_a(t),t)-u_{\le J}(y_b(t),t)\big)
+\cdot
+\big(y_a(t)-y_b(t)\big)
+}{
+|y_a(t)-y_b(t)|^2
+}
+=
+\int_0^1
+e_{a,b}(t)^\top
+\operatorname{Sym}\nabla u_{\le J}(\gamma_{a,b}(\theta,t),t)
+e_{a,b}(t)\,d\theta.
+```
+
+Fix such a time `t`. On the fresh sub-arc `I_{ab}^{ang}(t)`, abbreviate
+
+```math
+S(\theta,t)
+:=
+\operatorname{Sym}\nabla u_{\le J}(\gamma_{a,b}(\theta,t),t),
+\qquad
+Q(\theta,t)
+:=
+Q_{\le J}^{+}(\gamma_{a,b}(\theta,t),t),
+\qquad
+e:=e_{a,b}(t).
+```
+
+Decompose `e=e_+(\theta,t)+e_-(\theta,t)` with `e_+:=Qe` and
+`e_-:=(I-Q)e`. Since `Q` is the spectral projector of the symmetric matrix
+`S(\theta,t)`, the cross terms vanish and
+
+```math
+e^\top S(\theta,t)e
+=
+e_+(\theta,t)^\top S(\theta,t)e_+(\theta,t)
++
+e_-(\theta,t)^\top S(\theta,t)e_-(\theta,t).
+```
+
+By the definition of `\lambda_{2,J}^{+}`,
+
+```math
+e_+(\theta,t)^\top S(\theta,t)e_+(\theta,t)
+\ge
+\lambda_{2,J}^{+}(\gamma_{a,b}(\theta,t),t)|e_+(\theta,t)|^2,
+```
+
+while the operator-norm bound gives
+
+```math
+e_-(\theta,t)^\top S(\theta,t)e_-(\theta,t)
+\ge
+-M_J(t)|e_-(\theta,t)|^2.
+```
+
+Assumption `(CF.6n1)` implies `|e_-(\theta,t)|\le \vartheta_{ab}(\theta,t)` and
+hence `|e_+(\theta,t)|^2\ge 1-\vartheta_{ab}(\theta,t)^2`. Therefore, for
+a.e. `\theta\in I_{ab}^{ang}(t)`,
+
+```math
+e^\top S(\theta,t)e
+\ge
+\lambda_{2,J}^{+}(\gamma_{a,b}(\theta,t),t)
+-2M_J(t)\vartheta_{ab}(\theta,t)^2.
+```
+
+Integrating this over `I_{ab}^{ang}(t)` yields
+
+```math
+\int_{I_{ab}^{ang}(t)} e^\top S(\theta,t)e\,d\theta
+\ge
+\overline{\mathcal A}_{ab}^{fresh}(t)
+-2M_J(t)\int_{I_{ab}^{ang}(t)}\vartheta_{ab}(\theta,t)^2\,d\theta,
+```
+
+because `\overline{\mathcal A}_{ab}^{fresh}(t)=0` when
+`\chi_{ab}^{fresh}(t)=0`. On the complementary part of the segment,
+`[0,1]\setminus I_{ab}^{ang}(t)`, the operator-norm bound gives
+
+```math
+\int_{[0,1]\setminus I_{ab}^{ang}(t)} e^\top S(\theta,t)e\,d\theta
+\ge
+-M_J(t)\big(1-|I_{ab}^{ang}(t)|\big).
+```
+
+Combining the last two displays and using `(CF.6n2)` yields `(CF.6o)`; the
+factor `c_\angle\le 1` is harmless because
+`\overline{\mathcal A}_{ab}^{fresh}(t)\ge 0`. Integrating `(CF.6o)` from `0` to
+`t` gives
+
+```math
+\log\frac{d_J^{coarse}(a,b,t)}{d_J^{coarse}(a,b,0)}
+\ge
+c_\angle\int_0^t \overline{\mathcal A}_{ab}^{fresh}(s)\,ds
+-\int_0^t \mathrm{angdef}_{ab}(s)\,ds
+-\int_0^t M_J(s)\big(1-\chi_{ab}^{fresh}(s)\big)\,ds.
+```
+
+The definitions `(CF.6p)`-`(CF.6r1)` imply
+
+```math
+\int_0^t \overline{\mathcal A}_{ab}^{fresh}(s)\,ds
+\ge
+\int_0^t
+\inf_{(\alpha,\beta)\in G_J^{pair,\angle}}
+\overline{\mathcal A}_{\alpha\beta}^{fresh}(s)\,ds
+=
+c_\angle^{-1}G_J^{fresh,\angle}(t),
+```
+
+```math
+\int_0^t \mathrm{angdef}_{ab}(s)\,ds\le A_J(t),
+\qquad
+\int_0^t M_J(s)\big(1-\chi_{ab}^{fresh}(s)\big)\,ds\le R_J(t).
+```
+
+Hence
+
+```math
+d_J^{coarse}(a,b,t)
+\ge
+d_J^{coarse}(a,b,0)
+\exp\!\Big(
+G_J^{fresh,\angle}(t)-A_J(t)-R_J(t)
+\Big).
+```
+
+Using the initial lower bound `d_J^{coarse}(a,b,0)\ge c_0\ell_J` from `(CF.8b)`,
+dividing by `\ell_J`, and taking the infimum over
+`(a,b)\in G_J^{pair,\angle}` gives `(CF.6t)`. Also,
+`G_J^{fresh,\angle}(t)\le c_\angle\,\mathfrak M_J^{fresh,\angle}(t)`, so the
+older cumulative expression with `c_\angle\,\mathfrak M_J^{fresh,\angle}` is a
+strictly stronger variant whenever it is convenient. The definition `(CF.6s)`
+is exactly the pair-level error ledger required by the scalar packet. ∎
+
+## Coarse pair-gap growth
+
+### Proposition TPS-coarse-gap-growth. Exact logarithmic identity for the full coarse pair-gap
+
+For a good active pair `(a,b)`, define the full coarse pair distance
+
+```math
+d_J^{coarse}(a,b,t)
+:=
+|X_{\le J}(b,t)-X_{\le J}(a,t)|.
+\tag{CF.7}
+```
+
+Since `u_{\le J}` is smooth, `X_{\le J}(\cdot,t)` is a diffeomorphism for every
+fixed `t`, so `d_J^{coarse}(a,b,t)>0` whenever `a\neq b`. Writing
+
+```math
+y_a(t):=X_{\le J}(a,t),
+\qquad
+y_b(t):=X_{\le J}(b,t),
+\qquad
+z_{ab}(t):=y_b(t)-y_a(t),
+\tag{CF.8}
+```
+
+one has for almost every `t\in[0,T_J]`
+
+```math
+\frac{d}{dt}\log d_J^{coarse}(a,b,t)
+=
+\frac{
+\big(u_{\le J}(y_b(t),t)-u_{\le J}(y_a(t),t)\big)\cdot z_{ab}(t)
+}{
+|z_{ab}(t)|^2
+}.
+\tag{CF.8a}
+```
+
+**Proof.**
+The coarse flow equations imply
+`\dot z_{ab}(t)=u_{\le J}(y_b(t),t)-u_{\le J}(y_a(t),t)`. Hence
+
+```math
+\frac{d}{dt}|z_{ab}(t)|^2
+=
+2\dot z_{ab}(t)\cdot z_{ab}(t)
+=
+2\big(u_{\le J}(y_b(t),t)-u_{\le J}(y_a(t),t)\big)\cdot z_{ab}(t).
+```
+
+Divide by `2|z_{ab}(t)|^2`. ∎
+
+### Corollary TPS-coarse-gap-growth-segment. Segment formula for the logarithmic strain integrand
+
+Define
+
+```math
+e_{a,b}(t):=\frac{z_{ab}(t)}{|z_{ab}(t)|},
+\qquad
+\gamma_{a,b}(\theta,t):=(1-\theta)y_a(t)+\theta y_b(t),
+\qquad
+0\le \theta\le 1.
+\tag{CF.8b}
+```
+
+Then
+
+```math
+\frac{
+\big(u_{\le J}(y_b(t),t)-u_{\le J}(y_a(t),t)\big)\cdot z_{ab}(t)
+}{
+|z_{ab}(t)|^2
+}
+=
+\int_0^1
+e_{a,b}(t)^\top
+\nabla u_{\le J}(\gamma_{a,b}(\theta,t),t)
+e_{a,b}(t)\,d\theta,
+\tag{CF.8c}
+```
+
+and therefore
+
+```math
+\frac{
+\big(u_{\le J}(y_b(t),t)-u_{\le J}(y_a(t),t)\big)\cdot z_{ab}(t)
+}{
+|z_{ab}(t)|^2
+}
+=
+\int_0^1
+e_{a,b}(t)^\top
+\operatorname{Sym}\nabla u_{\le J}(\gamma_{a,b}(\theta,t),t)
+e_{a,b}(t)\,d\theta.
+\tag{CF.8d}
+```
+
+**Proof.**
+Apply the fundamental theorem of calculus along the segment
+`\theta\mapsto \gamma_{a,b}(\theta,t)`, take the inner product with `z_{ab}(t)`,
+and divide by `|z_{ab}(t)|^2`. The antisymmetric part drops out in the scalar
+quadratic form. ∎
+
+### Corollary CF-pair-strain-segment. Segmentwise spectral coherence implies differential gap production
+
+Assume there exists a measurable coarse log-rate `\lambda_J^{seg}(t)\ge 0`
+such that for almost every `(t,\theta)` and every good active pair,
+
+```math
+\lambda_{2,\le J}(\gamma_{a,b}(\theta,t),t)
+\ge
+\lambda_J^{seg}(t)-\varepsilon_J^{seg}(a,b,\theta,t),
+\tag{CF.8e}
+```
+
+with
+
+```math
+\big\|
+\operatorname{Sym}\nabla u_{\le J}(\gamma_{a,b}(\theta,t),t)
+\big\|_{\mathrm{op}}
+\le
+M_J(t),
+\tag{CF.8f}
+```
+
+and
+
+```math
+\big|
+\big(I-Q_{\le J}^{+}(\gamma_{a,b}(\theta,t),t)\big)e_{a,b}(t)
+\big|
+\le
+\theta_J^{seg}(a,b,\theta,t).
+\tag{CF.8g}
+```
+
+Define
+
+```math
+\overline{\varepsilon}_J^{pair}(a,b,t)
+:=
+\int_0^1 \varepsilon_J^{seg}(a,b,\theta,t)\,d\theta
++
+2M_J(t)\int_0^1\theta_J^{seg}(a,b,\theta,t)^2\,d\theta.
+\tag{CF.8h}
+```
+
+Then for almost every `t\in[0,T_J]`,
+
+```math
+\frac{d}{dt}\log d_J^{coarse}(a,b,t)
+\ge
+\lambda_J^{seg}(t)-\overline{\varepsilon}_J^{pair}(a,b,t).
+\tag{CF.8i}
+```
+
+**Proof.**
+Fix `(t,\theta)` and set
+
+```math
+S:=\operatorname{Sym}\nabla u_{\le J}(\gamma_{a,b}(\theta,t),t),
+\qquad
+Q:=Q_{\le J}^{+}(\gamma_{a,b}(\theta,t),t),
+\qquad
+e:=e_{a,b}(t).
+```
+
+Write `e=e_++e_-` with `e_+:=Qe` and `e_-:=(I-Q)e`. Since `Q` is a spectral
+projector of the symmetric matrix `S`, the cross terms vanish:
+
+```math
+e^\top S e = e_+^\top S e_+ + e_-^\top S e_-.
+```
+
+By `(CF.8e)`,
+`e_+^\top S e_+\ge(\lambda_J^{seg}(t)-\varepsilon_J^{seg}(a,b,\theta,t))|e_+|^2`,
+and by `(CF.8f)`,
+`e_-^\top S e_-\ge-M_J(t)|e_-|^2`. Because `|e|=1` and `(CF.8g)` gives
+`|e_-|\le \theta_J^{seg}(a,b,\theta,t)`, one has
+`|e_+|^2\ge 1-\theta_J^{seg}(a,b,\theta,t)^2`. Therefore
+
+```math
+e^\top S e
+\ge
+\big(\lambda_J^{seg}(t)-\varepsilon_J^{seg}(a,b,\theta,t)\big)
+\big(1-\theta_J^{seg}(a,b,\theta,t)^2\big)
+-M_J(t)\theta_J^{seg}(a,b,\theta,t)^2.
+```
+
+Since `\lambda_J^{seg}(t)-\varepsilon_J^{seg}(a,b,\theta,t)\le M_J(t)`, the
+quadratic loss is bounded by `2M_J(t)\theta_J^{seg}(a,b,\theta,t)^2`, so
+
+```math
+e^\top S e
+\ge
+\lambda_J^{seg}(t)-\varepsilon_J^{seg}(a,b,\theta,t)
+-2M_J(t)\theta_J^{seg}(a,b,\theta,t)^2.
+\tag{CF.8j}
+```
+
+Integrate `(CF.8j)` in `\theta`, invoke `(CF.8d)`, and combine with `(CF.8a)`.
+∎
+
+### Lemma CF-strip-ledger. Additive scalar packet on admissible strips
+
+Let `I=[t_0,t_1]\subseteq[0,T_J]` be an admissible strip on which the
+good-bundle chart is fixed and the hypotheses of `CF-pair-strain-segment` hold.
+Define
+
+```math
+L_I^{gain}(a,b)
+:=
+\int_I \lambda_J^{seg}(t)\,dt,
+\qquad
+L_I^{loss}(a,b)
+:=
+\int_I \overline{\varepsilon}_J^{pair}(a,b,t)\,dt,
+\tag{CF.8k}
+```
+
+and
+
+```math
+L_I^{net}(a,b):=L_I^{gain}(a,b)-L_I^{loss}(a,b).
+\tag{CF.8l}
+```
+
+If
+
+```math
+d_J^{coarse}(a,b,t_0)\ge c_0\ell_J,
 \tag{CF.8m}
 ```
 
-and therefore `(CF.8c)` holds with
+then
 
 ```math
-\Lambda_J(t)
-:=
-\int_0^t \lambda_J^{seg}(s)\,ds,
-\qquad
-\mathcal E_J^{pair}(a,b,t)
-:=
-\int_0^t
-\overline{\varepsilon}_J^{pair}(a,b,s)\,ds.
+d_J^{coarse}(a,b,t_1)
+\ge
+c_0\ell_J\,e^{L_I^{net}(a,b)}.
 \tag{CF.8n}
 ```
 
-**Proof skeleton.**
-By the fundamental theorem of calculus along the segment,
+Moreover, if
 
 ```math
-u_{\le J}(y_b,t)-u_{\le J}(y_a,t)
-=
-\int_0^1
-\nabla u_{\le J}(\gamma_{a,b}(\theta,t),t)\,(y_b-y_a)\,d\theta.
+0=t_0<t_1<\cdots<t_m=T_J
+\tag{CF.8o}
 ```
 
-Taking the inner product with `e_{a,b}(t)` kills the antisymmetric part of
-`\nabla u_{\le J}`, so the logarithmic pair-strain integrand is exactly the
-segment average of the quadratic form
-`e_{a,b}(t)^\top \operatorname{Sym}\nabla u_{\le J}(\gamma_{a,b}(\theta,t),t)e_{a,b}(t)`.
-Apply the same spectral-plane decomposition used in `(CF.6g)` pointwise in
-`\theta`, then integrate over `\theta\in[0,1]`.
+is a partition into admissible strips `I_r=[t_{r-1},t_r]`, then
 
-The high-frequency component `u_{>J}` does **not** enter `(CF.8c)` directly.
-It enters only through the actual-versus-coarse deviation estimate `\delta_J`
-below, via the bridge note
-[tps-high-frequency-tail-to-coarse-flow-deviation-bridge.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-high-frequency-tail-to-coarse-flow-deviation-bridge.md).
+```math
+\log\frac{d_J^{coarse}(a,b,T_J)}{d_J^{coarse}(a,b,0)}
+\ge
+\sum_{r=1}^m L_{I_r}^{net}(a,b).
+\tag{CF.8p}
+```
+
+So the scalar ledger is additive under concatenation and monotone under
+refinement.
+
+**Proof.**
+Integrate `(CF.8i)` on `I`:
+
+```math
+\log d_J^{coarse}(a,b,t_1)-\log d_J^{coarse}(a,b,t_0)
+\ge
+L_I^{net}(a,b).
+```
+
+Insert `(CF.8m)` and exponentiate to obtain `(CF.8n)`. Summing over the
+partition `(CF.8o)` yields `(CF.8p)` by telescoping. ∎
+
+### Corollary TPS-coarse-gap-growth-log. Canonical route-level scalar packet
+
+For an admissible strip `I`, define the route-level packet
+
+```math
+L_I^{net}
+:=
+\operatorname*{ess\,inf}_{(a,b)\in G_J^{pair}}L_I^{net}(a,b).
+\tag{CF.8q}
+```
+
+If `(CF.8m)` holds uniformly on the good active family, then
+
+```math
+\operatorname*{ess\,inf}_{(a,b)\in G_J^{pair}}
+\frac{d_J^{coarse}(a,b,t_1)}{\ell_J}
+\ge
+c_0\,e^{L_I^{net}}.
+\tag{CF.8r}
+```
+
+In particular, when `I=[0,t]`,
+
+```math
+\Phi_J(t)\ge c_0\,e^{L_{[0,t]}^{net}}.
+\tag{CF.8s}
+```
+
+This is the canonical scalar packet consumed by the downstream selector and
+shadow-time notes. The high-frequency component `u_{>J}` does not enter this
+packet directly; it enters only through the actual-versus-coarse deviation
+modulus below.
 
 ## Actual-versus-coarse deviation
 
 To compare the coarse flow to the full Lagrangian flow `X`, assume a
-coarse-flow deviation bound
+single-particle deviation bound
 
 ```math
 \delta_J(t)
@@ -491,110 +958,174 @@ D_J\le 2\ell_J^{-1}\sup_{0\le t\le T_J}\delta_J(t).
 \tag{CF.9b}
 ```
 
-Then every good active pair satisfies
+Hence every good active pair satisfies
 
 ```math
-|\Pi_{N_a}(X(b,t)-X(a,t))|
+|X(a,t)-X(b,t)|
 \ge
-\ell_J\,\Phi_J(t)-2\delta_J(t).
+d_J^{coarse}(a,b,t)-D_J\ell_J.
+\tag{CF.9c}
+```
+
+### Proposition TPS-shadow-exclusion. Threshold crossing on a strip implies actual separation
+
+Fix a target separation scale `R_{sep}>0` and define the strip threshold
+
+```math
+L_I^{thr}(R_{sep})
+:=
+\log\frac{R_{sep}}{c_0\ell_J}.
 \tag{CF.10}
 ```
 
-### Proposition TPS-shadow-exclusion. Uniform Pair-Gap Excludes The Shadow Tube
-
 If
 
 ```math
-\inf_{0\le t\le T_J}
-\big(
-\ell_J\,\Phi_J(t)-2\delta_J(t)
-\big)
->
+L_I^{net}(a,b)\ge L_I^{thr}(R_{sep}),
+\tag{CF.10a}
+```
+
+then
+
+```math
+d_J^{coarse}(a,b,t_1)\ge R_{sep}.
+\tag{CF.10b}
+```
+
+If, in addition,
+
+```math
+R_{sep}\ge 2\sigma_J + D_J^{max}\ell_J
+\qquad\text{and}\qquad
+D_J\le D_J^{max},
+\tag{CF.10c}
+```
+
+then
+
+```math
+|X(a,t_1)-X(b,t_1)|\ge 2\sigma_J.
+\tag{CF.10d}
+```
+
+**Proof.**
+By `(CF.8n)`,
+
+```math
+d_J^{coarse}(a,b,t_1)\ge c_0\ell_J\,e^{L_I^{net}(a,b)}.
+```
+
+Insert `(CF.10a)` and the definition `(CF.10)` to obtain `(CF.10b)`. Then
+combine `(CF.10b)` with `(CF.9c)` and `(CF.10c)`:
+
+```math
+|X(a,t_1)-X(b,t_1)|
+\ge
+d_J^{coarse}(a,b,t_1)-D_J^{max}\ell_J
+\ge
 2\sigma_J.
-\tag{CF.11}
 ```
 
-then every good active pair stays outside the selector shadow tube on the whole
-interval `[0,T_J]`.
+This is `(CF.10d)`. ∎
 
-**Proof skeleton.**
-If some good active pair entered the shadow tube, then for some
-`t_*\in[0,T_J]` one would have
-`|X(b,t_*)-X(a,t_*)|\le 2\sigma_J`. But `(CF.10)` gives
-`|X(b,t_*)-X(a,t_*)|\ge \ell_J\Phi_J(t_*)-2\delta_J(t_*)`, contradicting
-`(CF.11)`.
+### Corollary TPS-shadow-exclusion-envelope. Route-specific shadow threshold
 
-### Corollary TPS-shadow-exclusion-envelope. The Exact Scale Hinge
-
-Assume there is a lower envelope `e_J(t)` and a constant `c_\Phi>0` such that
+The shadow-exclusion threshold relevant for the Navier--Stokes selector packet
+is
 
 ```math
-\Phi_J(t)\ge c_\Phi e_J(t)
-\qquad\text{for all }0\le t\le T_J,
-\tag{CF.11a}
+L_J^{thr}
+:=
+\log\frac{2\sigma_J + D_J^{max}\ell_J}{c_0\ell_J}.
+\tag{CF.10e}
 ```
 
-and let
+So
 
 ```math
-\Delta_J:=\sup_{0\le t\le T_J}\delta_J(t).
-\tag{CF.11b}
+L_I^{net}(a,b)\ge L_J^{thr}
+\tag{CF.10f}
+```
+
+implies endpoint exclusion from the physical `2\sigma_J` shadow tube on the
+strip `I`.
+
+This is the exact scalar hinge shared by the strong and weak routes: once the
+stripwise packet clears `L_J^{thr}`, the coarse pair has reached the separation
+scale needed to survive the actual/coarse perturbation.
+
+### Corollary TPS-shadow-exclusion-uniform. Prefix-ledger criterion for whole-strip exclusion
+
+Fix an admissible strip `I=[t_0,t_1]`. For `t\in I`, define the prefix ledger
+
+```math
+L_{[t_0,t]}^{net}(a,b)
+:=
+\int_{t_0}^t \lambda_J^{seg}(s)\,ds
+-
+\int_{t_0}^t \overline{\varepsilon}_J^{pair}(a,b,s)\,ds,
+\tag{CF.10g}
+```
+
+and its minimum
+
+```math
+L_{I,\min}^{net}(a,b)
+:=
+\inf_{t\in I}L_{[t_0,t]}^{net}(a,b).
+\tag{CF.10h}
+```
+
+The pair-specific uniform shadow threshold is
+
+```math
+L_{I,\mathrm{unif}}^{thr}(a,b;t_0)
+:=
+\log\frac{2\sigma_J + D_J^{max}\ell_J}{d_J^{coarse}(a,b,t_0)}.
+\tag{CF.10i}
 ```
 
 If
 
 ```math
-c_\Phi \ell_J \inf_{0\le t\le T_J} e_J(t)-2\Delta_J
->
-2\sigma_J,
-\tag{CF.11c}
+L_{I,\min}^{net}(a,b)\ge L_{I,\mathrm{unif}}^{thr}(a,b;t_0)
+\qquad\text{and}\qquad
+D_J\le D_J^{max},
+\tag{CF.10j}
 ```
 
-then every good active pair avoids the shadow tube on `[0,T_J]`.
-
-Equivalently,
+then
 
 ```math
-\inf_{0\le t\le T_J}\Phi_J(t)
->
-\frac{2\sigma_J+2\Delta_J}{\ell_J}.
-\tag{CF.11d}
+|X(a,t)-X(b,t)|\ge 2\sigma_J
+\qquad\text{for every }t\in I.
+\tag{CF.10k}
 ```
 
-So the selector theorem may treat
-`\ell_J^{-1}(2\sigma_J+2\Delta_J)` as the exact dimensionless shadow threshold
-for the normalized coarse pair-gap.
-
-### Corollary TPS-shadow-exclusion-closure. Exact Coarse Closure Criterion
-
-Assume the normalized coarse gap lower bound
+**Proof.**
+For each `t\in I`, apply `(CF.8n)` to the prefix strip `[t_0,t]`:
 
 ```math
-\inf_{0\le t\le T_J}\Phi_J(t)\ge M_J,
-\tag{CF.11e}
+d_J^{coarse}(a,b,t)
+\ge
+d_J^{coarse}(a,b,t_0)e^{L_{[t_0,t]}^{net}(a,b)}
+\ge
+d_J^{coarse}(a,b,t_0)e^{L_{I,\min}^{net}(a,b)}.
 ```
 
-and the pairwise deviation modulus bound
+Now insert `(CF.10j)` and the definition `(CF.10i)` to obtain
 
 ```math
-D_J\le D_J^{max}.
-\tag{CF.11f}
+d_J^{coarse}(a,b,t)\ge 2\sigma_J + D_J^{max}\ell_J.
 ```
 
-If
+Combine this with `(CF.9c)` to conclude `(CF.10k)`. ∎
 
-```math
-M_J-D_J^{max}
-\gg
-\frac{\sigma_J}{\ell_J\inf_{0\le t\le T_J}e_J(t)},
-\tag{CF.11g}
-```
-
-then the good active pairs avoid the shadow tube on `[0,T_J]`.
-
-This is the clean final hinge of the coarse-flow route: once the coarse
-normalized pair-gap dominates the normalized shadow threshold after subtracting
-the actual/coarse pairwise error, `TPS-shadow-exclusion` is automatic.
+This is the honest whole-strip exclusion criterion. By contrast, the universal
+threshold `L_J^{thr}` in `(CF.10e)` is calibrated against the lower scale
+`c_0\ell_J`, so `(CF.10f)` is an endpoint statement unless one also has a
+prefix monotonicity / no-entry theorem or a stronger initial separation at the
+left endpoint of the strip.
 
 ## Theorem candidate
 
@@ -606,16 +1137,25 @@ Assume:
 
 1. `TPS-ns-good-set` holds through the measurable-good-set package
    `(GS.1)`-`(GS.7)`;
-2. the coarse transverse strain lower bound `(CF.5)` holds on the good set;
-3. the coarse/full deviation satisfies
+2. the segmentwise spectral hypotheses `(CF.8e)`-`(CF.8g)` hold on each
+   admissible shadow strip for the good active family;
+3. the initial selector-neighbor scale gives
 
 ```math
-\sup_{0\le t\le T_J}\delta_J(t)=o(\ell_J);
-\tag{CF.12}
+d_J^{coarse}(a,b,t_0)\ge c_0\ell_J
+\tag{CF.11}
 ```
 
-One exact source of `(CF.12)` is recorded separately in
-[tps-high-frequency-tail-to-coarse-flow-deviation-bridge.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-high-frequency-tail-to-coarse-flow-deviation-bridge.md):
+   at the left endpoint of every admissible strip `I=[t_0,t_1]`;
+4. the actual/coarse deviation satisfies
+
+```math
+D_J\le D_J^{max}.
+\tag{CF.11a}
+```
+
+One exact source of `(CF.11a)` is recorded separately in
+[tps-high-frequency-tail-to-coarse-flow-deviation-bridge.md](/Users/thomasbirnie/Desktop/ToE/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-high-frequency-tail-to-coarse-flow-deviation-bridge.md):
 any time-integrable high-frequency velocity tail, and in particular the dyadic
 gain package `HFG`, feeds directly into this deviation bound. More precisely,
 if
@@ -629,45 +1169,48 @@ if
 then
 
 ```math
-\sup_{0\le t\le T_J}\delta_J(t)
+D_J
 \lesssim
-\exp\!\big(C\mathcal H(T_J)\big)\,2^{-J}\mathcal H(T_J),
+\ell_J^{-1}\exp\!\big(C\mathcal H(T_J)\big)\,2^{-J}\mathcal H(T_J),
 ```
 
-so `(CF.12)` follows whenever this tail is `o(\ell_J)`.
+so `(CF.11a)` follows whenever this tail is `o(\ell_J)`.
 
-4. the uniform-in-time exclusion condition
+Then every good active pair satisfies the formal implication
 
 ```math
-\inf_{0\le t\le T_J}
-\left[
-c_0\ell_J
-\exp\!\Big(\int_0^t(\lambda_J(s)-\varepsilon_J^*(s))\,ds\Big)
--2\delta_J(t)
-\right]
-\gg
-\sigma_J
-\tag{CF.13}
+L_I^{net}(a,b)\ge L_J^{thr}
+\Longrightarrow
+|X(a,t_1)-X(b,t_1)|\ge 2\sigma_J
+\tag{CF.11b}
 ```
 
-holds, equivalently the hypothesis of `TPS-shadow-exclusion`.
+on every admissible strip `I=[t_0,t_1]`.
 
-Then the good active pairs avoid the shadow tube on the whole time interval
-`[0,T_J]`, and therefore the only contribution to `E_J^{ns}(\sigma_J)` comes
-from the vanishing bad bulk and the negligible cone/linearization exception
-sets already isolated in `TPS-ns-good-set`.
+To upgrade `(CF.11b)` from strip-end exclusion to exclusion on the whole strip,
+one needs the stronger prefix criterion `(CF.10j)` or an external no-entry /
+no-return theorem. So the packet now separates two formal outputs:
 
-So `(TPS.4i)` follows.
+```math
+\text{endpoint strip exclusion from }L_I^{net}\ge L_J^{thr}
+\qquad\text{versus}\qquad
+\text{whole-strip exclusion from }L_{I,\min}^{net}\ge L_{I,\mathrm{unif}}^{thr}.
+\tag{CF.11c}
+```
+
+So the full transport-stability part of the coarse-flow route is now formal:
+the only remaining theorem-grade inputs are those needed to force the stripwise
+packet inequality `L_I^{net}\ge L_J^{thr}` on an asymptotically full good
+family and to control the actual-solution strain budget downstream.
 
 The infimum-in-time bad set here is an honest measurable selector object: the
 time-slice shadow tube and the full infimum-in-time bad set admit Borel and
 rational-time descriptions as recorded in
-[tps-shadow-tube-measurability-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-shadow-tube-measurability-lemma.md).
+[tps-shadow-tube-measurability-lemma.md](/Users/thomasbirnie/Desktop/ToE/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-shadow-tube-measurability-lemma.md).
 
 ## Corollary TPS-ns-coarse-pair-gap-HFG
 
-Assume, in addition to the measurable-good-set package `(GS.1)`-`(GS.7)` and
-the coarse transverse strain lower bound `(CF.5)`, that the dyadic
+Assume, in addition to the good-set and strip hypotheses above, that the dyadic
 high-frequency gain quantity
 
 ```math
@@ -678,92 +1221,130 @@ high-frequency gain quantity
 
 is finite on `[0,T_J]`.
 
-Assume also the scale relation
-
-```math
-\inf_{0\le t\le T_J}
-\left[
-c_0\ell_J
-\exp\!\Big(\int_0^t(\lambda_J(s)-\varepsilon_J^*(s))\,ds\Big)
--C\,\exp\!\big(C\mathcal H(T_J)\big)\,2^{-J}\mathcal H(T_J)
-\right]
-\gg
-\sigma_J.
-\tag{CF.14}
-```
-
-Then `(TPS.4i)` follows.
-
-### Proof
-
-The bridge note
-[tps-high-frequency-tail-to-coarse-flow-deviation-bridge.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-high-frequency-tail-to-coarse-flow-deviation-bridge.md)
+Assume the bridge note
+[tps-high-frequency-tail-to-coarse-flow-deviation-bridge.md](/Users/thomasbirnie/Desktop/ToE/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-high-frequency-tail-to-coarse-flow-deviation-bridge.md)
 gives
 
 ```math
-\sup_{0\le t\le T_J}\delta_J(t)
-\le
-C\,\exp\!\big(C\mathcal H(T_J)\big)\,2^{-J}\mathcal H(T_J).
-\tag{CF.15}
+D_J^{max}
+\lesssim
+\ell_J^{-1}\exp\!\big(C\mathcal H(T_J)\big)\,2^{-J}\mathcal H(T_J).
+\tag{CF.11c}
 ```
 
-Insert `(CF.15)` into the uniform-in-time exclusion condition `(CF.13)`. The
-scale relation `(CF.14)` is exactly the resulting lower bound. So
-`TPS-ns-coarse-pair-gap` applies and yields `(TPS.4i)`.
+Then the route-specific threshold is
+
+```math
+L_J^{thr}
+=
+\log\!\Bigg(
+\frac{
+2\sigma_J
++
+C\,\exp\!\big(C\mathcal H(T_J)\big)\,2^{-J}\mathcal H(T_J)
+}{
+c_0\ell_J
+}
+\Bigg),
+\tag{CF.11d}
+```
+
+and any source of stripwise gain satisfying `L_I^{net}(a,b)\ge L_J^{thr}` now
+feeds the actual-flow shadow exclusion conclusion `(CF.11b)`.
+
+## Bridge to critical strain budget
+
+The geometric packet above does not by itself close Navier--Stokes. To align
+the route with the strongest current source-backed continuation surface, the
+loss ledger must also feed the actual-solution middle-eigenvalue budget.
+
+The live bridge target is
+
+```math
+B_J(I)
+\lesssim
+\mathcal E_I^{coarse}
++
+\mathcal E_I^{tail}
++
+\mathcal E_I^{bundle},
+\tag{CF.12}
+```
+
+followed by
+
+```math
+\int_I
+\big\|
+\lambda_2^+(\cdot,t)
+\big\|_{\dot B^{-1}_{\infty,\infty}}^2\,dt
+\lesssim
+B_J(I).
+\tag{CF.12a}
+```
+
+Here `\mathcal E_I^{coarse}` denotes the coarse approximation loss,
+`\mathcal E_I^{tail}` the high-frequency tail loss, and
+`\mathcal E_I^{bundle}` the bundle-angle / chart / spectral defect loss already
+encoded in `L_I^{loss}`. This is the missing PDE bridge from the coarse
+transport packet to the 2025 middle-eigenvalue continuation criterion.
 
 ## Meaning
 
-This theorem does not solve the dynamic problem, but it isolates the cleanest
-uniform-in-time closure gate presently visible:
+This note now proves the full coarse-flow transport mechanism, but not the
+Navier--Stokes production theorem. The proved chain is
 
 ```math
 \boxed{
-\text{initial selector separation + integrated coarse transverse strain + small high-frequency deviation}
+\text{segmentwise spectral coherence}
+\Longrightarrow
+\text{stripwise scalar packet }L_I^{net}
+\Longrightarrow
+\text{coarse separation threshold}
+\Longrightarrow
+\text{actual-flow shadow exclusion at strip exit.}
 }
 ```
 
-```math
-\boxed{
-\Longrightarrow
-\text{uniform pair-gap lower bound on the good set}
-\Longrightarrow
-\text{shadow-tube exclusion.}
-}
-```
-
-That is the sharpest coarse-flow reformulation of the current `GS.15` /
-`GS.21` burden.
+The remaining original Navier--Stokes burden is no longer hidden inside the
+transport argument.
 
 ## Exact Remaining Coarse Burden
 
-After `CF-bundle-coercive`, the open coarse-flow theorem is no longer a bare
-request for `(CF.5)` or `(CF.8c)`.
+Two theorem-grade inputs remain open.
 
-The remaining honest packet is exactly one of the following two localized
-statements.
-
-1. Bundle version: prove a coarse second-eigenvalue floor `(CF.6c)` on an
-   asymptotically full good set and a quadratic bundle-angle control
-   `(CF.6f)` with the integrated defect ledger `(CF.6j)`.
-2. Scalarized version: prove the same coarse second-eigenvalue floor along the
-   transported pair segments `(CF.8i)` together with the pair-direction angle
-   control `(CF.8k)`, so that the direct pair-strain inequality `(CF.8m)` holds.
-
-Once either packet lands, the only remaining scale closure is the already-named
-shadow threshold:
+1. **Good-bundle gap production.**
+   One needs a quantitative theorem that forces
 
 ```math
-\inf_{0\le t\le T_J}\Phi_J(t)
->
-\frac{2\sigma_J+2\Delta_J}{\ell_J},
-\tag{CF.16}
+L_I^{net}(a,b)\ge L_J^{thr}
+\tag{CF.13}
 ```
 
-with `\Delta_J` supplied perturbatively by the bridge estimate `(HF.15)`.
+   on an asymptotically full good active family for every admissible shadow
+   strip `I`. The current leading structural candidate is the transported
+   angular-fresh / `\lambda_{2,J}^{+}` gain packet already isolated in
+   `TPS-coarse-gap-lambda2-plus-feed`.
+
+2. **Critical strain-budget bridge.**
+   One needs the PDE estimate `(CF.12)`-`(CF.12a)` that converts the coarse
+   loss ledger into the actual-solution
+   `L_t^2\dot B^{-1}_{\infty,\infty}` budget for `\lambda_2^+`.
+
+So the open closure target can now be stated in one scalar form:
+
+```math
+\boxed{
+\text{produce }L_I^{net}\ge L_J^{thr}
+\text{ on the good bundle and show the accompanying loss ledger controls }
+\int_I\|\lambda_2^+\|_{\dot B^{-1}_{\infty,\infty}}^2\,dt.
+}
+```
+
+The corresponding theorem-shape closure implications, including the
+stopping-time barrier logic, coarse/true strip stability, and the honest
+strong/weak dichotomy on the occupancy ledger, are now packaged in
+[tps-shadow-barrier-formal-closure-packet.md](/Users/thomasbirnie/Desktop/ToE/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-shadow-barrier-formal-closure-packet.md).
 
 The broader source-backed frontier for this route is recorded in
-[tps-dynamic-source-fit-and-open-frontier.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md).
-The main conclusion there is that the most plausible first attack is exactly
-the coarse-field bundle theorem `CF-bundle-coercive`: prove selector-local
-bundle coercivity for the smoothed field `u_{\le J}`, then absorb the full
-high-frequency remainder through the `\delta_J` bridge.
+[tps-dynamic-source-fit-and-open-frontier.md](/Users/thomasbirnie/Desktop/ToE/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md).

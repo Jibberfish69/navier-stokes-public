@@ -2,8 +2,12 @@
 
 ## Purpose
 
-Record the clean same-surface Euclidean closure route for the classical
+Record the downstream Euclidean discharge/export route for the classical
 Navier-Stokes theorem without importing the old geometric carrier.
+
+This note is no longer the primary internal branch lock. It is the whole-space
+`R^3` export packet that would have to be proved after the torus-first internal
+route closes.
 
 This note is the repo-faithful Route B pipeline as a compressed theorem packet:
 

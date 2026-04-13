@@ -10,8 +10,8 @@ This note isolates one exact consequence of the strict-shadow package:
 }
 ```
 
-So the weak-form `ShadowDef` branch and the exact strict-shadow branch are not
-to be read at the same time.
+So the weak-form `ShadowDef` branch, the forcing-form `E_{\mathrm{sh}}` branch,
+and the exact strict-shadow branch are not to be read at the same time.
 
 ## Exact strict-shadow hypotheses
 
@@ -71,7 +71,7 @@ Equivalently,
 ## Weak-form remainder branch
 
 The weaker branch recorded in
-[d3-commutative-shadow-theorem.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/d3-commutative-shadow-theorem.md)
+[d3-commutative-shadow-theorem.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/d3-commutative-shadow-theorem.md)
 writes
 
 ```math
@@ -94,13 +94,34 @@ with
 \tag{7}
 ```
 
+## Forcing-form remainder branch
+
+The same weaker robustness surface also records the nonlinear descent with a
+shadow forcing term:
+
+```math
+\mathcal C(\mathbb P_DN_D(X))
+=
+\mathbb P_{\mathrm{Leray}}(u\cdot\nabla u)
++
+E_{\mathrm{sh}}(X).
+\tag{8}
+```
+
 ## Corollary
 
 If the exact strict-shadow hypotheses `(1)`--`(3)` hold, then
 
 ```math
 \mathrm{ShadowDef}(X)\equiv 0.
-\tag{8}
+\tag{9}
+```
+
+and
+
+```math
+E_{\mathrm{sh}}(X)\equiv 0.
+\tag{10}
 ```
 
 ### Proof
@@ -121,7 +142,14 @@ forces
 \mathrm{ShadowDef}(X)=0.
 ```
 
-That is all.
+Likewise, `(3)` is the exact projected nonlinear identity. Comparing it with the
+forcing-form robustness decomposition `(8)` forces
+
+```math
+E_{\mathrm{sh}}(X)=0.
+```
+
+So both remainder readouts disappear on the exact strict-shadow surface.
 
 ## Meaning
 
@@ -137,7 +165,7 @@ It proves a clean logical point:
 
 So:
 
-- `Route A` = exact strict-shadow, no remainder;
+- `Route A` = exact strict-shadow, no projected remainder and no forcing remainder;
 - `Route B` = weaker robustness branch with named leftovers.
 
 Those are separate theorem shapes.

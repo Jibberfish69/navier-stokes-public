@@ -4,19 +4,23 @@ This file exists to pin the live lane back to the original source stack when lat
 
 ## Original Four-Part Framework
 
-The handed Navier-Stokes theory is now treated as a same-surface Euclidean four-principle cycle:
+The handed Navier-Stokes theory fixes a four-principle cycle. In the recovered
+source stack that cycle is written on the classical Euclidean branch. In the
+current live lane, the body jobs are preserved but instantiated first on the
+periodic torus branch, with Euclidean whole-space discharge treated as a
+downstream export step rather than the internal proving surface:
 
 1. `Scale-Barrier Principle`
 2. `Monotone Functional`
 3. `Non-Sobolev Compactness`
-4. `Euclidean Gradient-Transfer Coercivity`
+4. `Continuation / Regularity Bridge`
 
 ## Arrow Structure From The Original Diagram
 
 - `Scale-Barrier Principle -> Monotone Functional` (`reinforces`)
 - `Monotone Functional -> Non-Sobolev Compactness` (`enables`)
-- `Non-Sobolev Compactness -> Euclidean Gradient-Transfer Coercivity` (`supports`)
-- `Euclidean Gradient-Transfer Coercivity -> Scale-Barrier Principle` (`strengthens`)
+- `Non-Sobolev Compactness -> Continuation / Regularity Bridge` (`supports`)
+- `Continuation / Regularity Bridge -> Scale-Barrier Principle` (`strengthens`)
 
 ## Local Source Anchors
 
@@ -37,8 +41,8 @@ The handed Navier-Stokes theory is now treated as a same-surface Euclidean four-
 
 These are synthesis anchors only.
 They can strengthen the language around coercivity, projection, obstruction, and
-feedback, but they are archived provenance and must not silently replace the direct
-Euclidean NS proof-bearing files.
+feedback, but they must not silently replace the direct source-grounded body
+jobs or the torus-first internal branch lock.
 
 ## Legacy Gap Fillers
 
@@ -73,5 +77,12 @@ the theorem-bearing side in one place. The import now lives in:
 
 ## Correction Rule For The Lane
 
-If a live theorem or paper surface describes the framework as only `scale + compactness + gradient`, that surface is source-misaligned and must be repaired before it is treated as authoritative.
-If a live theorem or paper surface promotes the archived curvature / ontic / Marvin / Hodge material as active blocker status, that surface is also source-misaligned.
+If a live theorem or paper surface describes the framework as only
+`scale + compactness + gradient`, that surface is source-misaligned and must be
+repaired before it is treated as authoritative.
+If a live theorem or paper surface silently promotes whole-space Euclidean
+discharge back into the internal branch lock, that surface is also
+source-misaligned.
+If a live theorem or paper surface promotes archived curvature / ontic / Marvin
+/ Hodge material as active blocker status without explicit route promotion, that
+surface is likewise source-misaligned.

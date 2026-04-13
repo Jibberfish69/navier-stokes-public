@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   frontier_id: source-frontier-navier-stokes
-  generated_at: '2026-04-09T21:19:17Z'
+  generated_at: '2026-04-12T20:18:53Z'
   generator: system/runner/lib/source_frontier_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_matrix_id: proof-obligation-matrix-navier-stokes
@@ -12,81 +12,69 @@ source_artifacts:
 - problems/navier-stokes/claim-ladder.md
 - problems/navier-stokes/marvin-watchlist.yaml
 - problems/navier-stokes/marvin-ingest-notes.yaml
-- problems/navier-stokes/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md
+- problems/navier-stokes/live-theorem-edge.yaml
+- problems/navier-stokes/route-lock.yaml
+- problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
+- problems/navier-stokes/theorem-construction/live-frontier-honest-cut-reduction.md
+- problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md
+- problems/navier-stokes/theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md
+- problems/navier-stokes/theorem-construction/clay-discharge-ladder-from-current-reductions.md
+- problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
+- problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md
+- problems/navier-stokes/theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md
+- problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md
+- problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md
+- problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md
+- problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md
 grounded_core:
-  theorem_statement: For every smooth divergence-free rapidly decaying initial datum
-    u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving
-    the three-dimensional incompressible Navier-Stokes equations and satisfying int_{R^3}
-    |u(x,t)|^2 dx < C for all t >= 0.
+  theorem_statement: The official Clay target allows either the whole-space branch
+    on R^3 or the periodic branch on T^3.
   grounded_obligations:
   - obligation_id: theorem-statement
     kind: theorem-statement
-    label: For every smooth divergence-free rapidly decaying initial datum u^0 on
-      R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving the three-dimensional
-      incompressible Navier-Stokes equations and satisfying int_{R^3} |u(x,t)|^2 dx
-      < C for all t >= 0.
+    label: The official Clay target allows either the whole-space branch on R^3 or
+      the periodic branch on T^3.
     status: grounded
     source_anchor: problems/navier-stokes/marvin-ingest-notes.yaml
-  - obligation_id: marvin-upstream-8e939525d3f2
-    kind: definition
-    label: replace the torus carrier block by a continuum coherent sector for curved
-      D.
-    status: grounded
-    source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
-  - obligation_id: marvin-upstream-16fa51055da0
-    kind: definition
-    label: The exact sector does not define the physical carrier.
-    status: grounded
-    source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
   - obligation_id: warrant-theorem-2.1
-    kind: lemma
+    kind: theorem-warrant
     label: Theorem 2.1 (Classical Closure)
     status: grounded
     source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
   last_source_supported_step:
     obligation_id: warrant-theorem-2.1
-    kind: lemma
+    kind: theorem-warrant
     label: Theorem 2.1 (Classical Closure)
     status: grounded
     source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
 frontier:
+  primary_math_obligation:
+    obligation_id: tps-one-sided-defect-bridge
+    kind: live-theorem-edge
+    label: selector-adapted defect-to-strain theorem
+    status: frontier
+    source_anchor: route-synthesis
   first_unresolved_obligation:
-    obligation_id: marvin-upstream-2adc051dd3a8
-    kind: definition
-    label: construct theorem-grade measure / dynamics on the global twisted continuum
-    status: unresolved
-    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
+    obligation_id: tps-one-sided-defect-bridge
+    kind: live-theorem-edge
+    label: selector-adapted defect-to-strain theorem
+    status: frontier
+    source_anchor: route-synthesis
   unresolved_obligations:
-  - obligation_id: marvin-upstream-2adc051dd3a8
-    kind: definition
-    label: construct theorem-grade measure / dynamics on the global twisted continuum
-    status: unresolved
-    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
-  - obligation_id: marvin-upstream-269065c546af
-    kind: lemma
-    label: "+ spectral floor on K_D^\\perp"
-    status: unresolved
-    source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
-  - obligation_id: marvin-upstream-558cbb8323fd
-    kind: lemma
-    label: with the coherent class controlling `X_ pers  ` and the spectral floor
-    status: unresolved
-    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
-  - obligation_id: marvin-upstream-5d4a55021542
-    kind: lemma
-    label: "`Obs _ glue  `,"
-    status: unresolved
-    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
-  - obligation_id: marvin-upstream-8880078593dc
-    kind: lemma
-    label: prove that the persistent obstruction/support readout globalizes strongly
-    status: unresolved
-    source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
-  - obligation_id: marvin-upstream-0fdc65ea42d5
-    kind: lemma
-    label: but Hodge still has to prove that persistent support on that object globalizes
-    status: bridge-pending
-    source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+  - obligation_id: tps-one-sided-defect-bridge
+    kind: live-theorem-edge
+    label: selector-adapted defect-to-strain theorem
+    status: frontier
+    source_anchor: route-synthesis
+  dashboard_unresolved_obligations:
+  - obligation_id: tps-one-sided-defect-bridge
+    kind: live-theorem-edge
+    label: selector-adapted defect-to-strain theorem
+    status: frontier
+    source_anchor: route-synthesis
+  route_container_obligations: []
+  downstream_support_obligations: []
+  additional_context_obligations: []
   focus_source: live-theorem-edge
   active_frontier_labels: []
   authoritative_topics:
@@ -102,27 +90,233 @@ frontier:
   - interdependencies among principles
   - compactness discrete solutions
   - curvature based
-  - initial data l2
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
-    route_label: "\\tag{WERS.3Cap-BO}"
-    current_route_name: "\\tag{WERS.3Cap-BO}"
-    exact_cut_summary: "\\tag{WERS.3Cap-BO}"
-    safe_claim_boundary: "\\tag{WERS.3Cap-BO}"
+    route_label: TPS strong/defect bridge route
+    current_route_name: TPS strong/defect bridge route
+    exact_cut_summary: 'The lane is now split honestly. The primary proving surface
+      remains the torus-first TPS strong/defect bridge route, where SG.4 is the exact
+      remaining geometric theorem slot on the active periodic/operator bundle and
+      the preferred next closable fix runs through a selector-adapted defect-to-strain
+      theorem from the pair-defect PDE, namely a spacetime bound on `[\lambda_J-\mathfrak
+      s_J]_+`. The current proof-attempt note shows that the large-good-family extraction
+      to `SG.4B` is already formal; the irreducible new step is the selector calibration
+      plus observability/coercivity package from `W_J` to `[\lambda_J-\mathfrak s_J]_+`.
+      More exactly, after the spectral floor and bundle-angle losses are peeled off,
+      the exact remaining pair-defect-facing theorem is the residual pairwise closure
+      `(PD.70q)` / `(PD.70s)` controlling `\mathcal E_J^{dir}+\mathcal E_J^{loop}`
+      by `\mathcal E_J^{obs}`. Concretely, that residual theorem packages direction
+      reconstruction for `M_J^2\Xi_J^2`, loop reconstruction for `\operatorname{Err}_J^{loop}`,
+      and augmented parabolic domination by the pair-defect observation packet. The
+      preferred local endgame is now the sign-compatible projective packet on the
+      exact-potential branch: from the signless pair-defect packet `W_J`, recover
+      a rank-one projector or projective line field on the transported good family
+      and compare it to the top strain projector, thereby forcing `1-(e_{ab}\cdot
+      n_J)^2\lesssim |W_J|^2+\mathrm{error}` and hence `\mathcal E_J^{dir}\lesssim
+      \mathcal E_J^{obs}`. The older cycle-exact polarization lemma with a measurable
+      polarity map remains an equivalent fallback formulation. At the abstract packet
+      level, transport coherence is now supportable as `TCJ''`, projector comparison
+      closes by Davis-Kahan once an observable symmetric surrogate is supplied. The
+      projective-surrogate construction side is now explicit on disk via the localized
+      projector-moment tensor `\widetilde S_J`, and the overall open theorem remains
+      `PSJ+`. On the localized projector-moment route this is the concentration estimate
+      `(PSJ+.6)`, with `PSJ+.4` retained only as one sufficient simple-top input.
+      Proposition `PSJ+.5` now reduces that input on the intended active family
+      to explicit strip-local data: a simple-top gap floor, a corotational drift
+      budget, and a theorem-safe entrance bound from `D.7ic` or `D.7ig`. On the
+      measurable-derivative Cauchy-Green route, Proposition `D.7mb` reduces the
+      remaining selector-strain compatibility theorem to the explicit residual budgets
+      `|m_J(t_0)|`, `\int |Q_J^{top}(W_J^N)^*S_J^N W_J^N n_J|`, and `\int |\mathcal
+      C_J^N|\,|\partial_t S_J^N|/g_J^{str}`. Corollaries `D.7md`-`D.7mm` now close
+      the local algebra on that branch: the off-axis forcing splits into a projective-angle
+      self-coupling term and a commutator-controlled Cauchy-Green-transverse term,
+      the transported-strain persistence variable is `B_J^N=(W_J^N)^{-1}S_J^N W_J^N`
+      rather than raw `S_J^N`, and the self-coupling itself refines to a linear-plus-quadratic
+      bootstrap packet driven by the transported top-mode coefficient `\sigma_J^{top}`,
+      the quadratic feedback coefficient `a_J^{quad}`, and the commutator/strain
+      source budget. The measurable-derivative-side tensor `\widetilde{\mathcal C}_J^N`
+      remains an alternate surrogate candidate, but that candidate does not close
+      the branch by itself, because the Cauchy-Green metric records finite-time stretching
+      while `P_{J,\top}^{seg}(a,b,t)` is the instantaneous top strain projector.
+      Accordingly, the exact remaining projective burden is now split explicitly
+      into pair-to-cocycle synchronization from the signless pair packet into a
+      transported projector field, and selector-strain compatibility comparing
+      the top Cauchy-Green projector to `P_{J,\top}^{seg}(a,b,t)` through the
+      sharper `D.7mm` bootstrap hypotheses. The pair-to-cocycle slot is itself
+      no longer monolithic: `D.7mn` reduces it to a cocycle linearization theorem
+      plus a selector-shape / selector-isotropy theorem, after which the projector
+      comparison is automatic by Davis-Kahan under the simple-top Cauchy-Green
+      gap floor. Corollary `D.7mq` packages those two pair hypotheses into a
+      single theorem that outputs `(D.7ma4)`, while Corollary `D.7mr` packages
+      the exact-potential closure chain into one theorem-facing packet: `D.7mq`
+      for the pair slot, `D.7mp` for the selector-good reference direction,
+      `D.7mo` for the reference-gap floor, and `D.7mm` for the linear-plus-quadratic
+      bootstrap, together yielding the `D.7mg` estimate with explicit pair and
+      strain ledgers. That gap floor is itself now best formulated by the reference-persistence
+      packet `D.7mo`, not by raw integrated instantaneous strain separation alone.
+      Outside that branch,
+      the exact remaining Hodge burden is best read in expanded form as directional
+      observability, harmonic observability, loop reconstruction from the harmonic
+      ledger, and a vanishing selector-calibration error budget. Equivalently, `SG.4P`
+      now consumes this branch-sensitive split directly; the exact-potential branch
+      closes with the projective line-recovery / polarization theorem, while on the
+      general Hodge branch the genuine new core is direction observability, harmonic
+      observability, and selector-ledger vanishing, with loop-from-harmonic serving
+      as the downstream export step. The abstract `\Xi_J` gap is now closed on the
+      theorem-shape side: on the simple-top branch one may take the concrete angle
+      defect `\Xi_J^{ang}=1-(e_{ab}\cdot n_J)^2`, equivalently the angular-forcing
+      budget `\beta_J^2/g_J`, and on the normal-covector branch one may take `\Xi_J^{\perp}=|n_J(a)\cdot
+      e_{ab}|^2`. The exact remaining theorem is therefore selector-adapted observability
+      from `W_J` to one of these concrete directional ledgers, together with the final
+      weighted-to-linear upgrade on the normal-covector subroute if that route is
+      used. On that subroute, the weighted `L^4` closure and its finite-measure square-root
+      upgrade are already formal; the exact remaining slot is the full linear upgrade
+      to `PD.70z`, now localized to three explicit sufficient routes: the strengthened
+      quadratic calibration `(CN.13j)`, the support-smallness self-improvement `(CN.13q)`,
+      or a weighted quadratic observability theorem under two-sided weight control
+      `(CN.13ab)`-`(CN.13ad)` on the transported good family. A formal no-go proposition
+      is now also on disk: signless `W_J` and its current PDE coercive bounds cannot
+      by themselves force the one-sided directional deficit, even on the cycle-exact
+      branch, so an added projective synchronization, projector-comparison, or alignment
+      theorem is mathematically necessary. YM-heat/deformation geometry now sits one
+      layer upstream as the supplier of the spectral floor/coherence packet consumed
+      by that residual closure, and the remaining theorem burdens on that upstream
+      route are now explicit: `DG-Line^{\sharp}` needs the in-plane anisotropy drain
+      law in a fixed carrier frame, `DG-Shadow^{\sharp}` needs approximate commutation
+      / plane leakage to transfer the line carrier to the true segment strain,
+      `DG-Cal^{\mathrm{exact},\sharp}` needs the anchored Hessian coercivity of
+      `|W_J|^2` on the exact branch, and the general branch needs local lifted
+      projector recovery plus graph-kernel comparison with the usual symmetry/connectivity
+      hypotheses. The older seven-item frontier count is only a route-level
+      dashboard: the torus-first internal branch, the TPS strong/defect bridge route,
+      strong-entry transfer, the conditional Leray/suitable-weak endpoint, the downstream
+      `\lambda_2^+` reduction, and the Euclidean strict-shadow branch are not six
+      additional independent live theorem lemmas. The irreducible live theorem frontier
+      is the selector-adapted defect-to-strain theorem alone, with exact cycle-exact
+      cuts on the projective-synchronization / normal-covector side and the three-slot
+      Hodge core `(PD.70z12)`-`(PD.70z14)` on the general branch. Separately, the
+      Euclidean strict-shadow discharge branch is preserved explicitly: once the exact
+      strict-shadow hypotheses are granted, `\mathrm{ShadowDef}(X)` and `E_{\mathrm{sh}}(X)`
+      vanish identically, so the unresolved whole-space burdens on that secondary
+      branch are full-data lift coverage, exact Euclidean strict shadow, and global
+      Euclidean carrier control. Any downstream `\lambda_2^+` continuation step on
+      the primary branch still requires the bridge `BR.lambda2` plus local strong-solution
+      entry on the time window.'
+    safe_claim_boundary: 'The lane is now split honestly. The primary proving surface
+      remains the torus-first TPS strong/defect bridge route, where SG.4 is the exact
+      remaining geometric theorem slot on the active periodic/operator bundle and
+      the preferred next closable fix runs through a selector-adapted defect-to-strain
+      theorem from the pair-defect PDE, namely a spacetime bound on `[\lambda_J-\mathfrak
+      s_J]_+`. The current proof-attempt note shows that the large-good-family extraction
+      to `SG.4B` is already formal; the irreducible new step is the selector calibration
+      plus observability/coercivity package from `W_J` to `[\lambda_J-\mathfrak s_J]_+`.
+      More exactly, after the spectral floor and bundle-angle losses are peeled off,
+      the exact remaining pair-defect-facing theorem is the residual pairwise closure
+      `(PD.70q)` / `(PD.70s)` controlling `\mathcal E_J^{dir}+\mathcal E_J^{loop}`
+      by `\mathcal E_J^{obs}`. Concretely, that residual theorem packages direction
+      reconstruction for `M_J^2\Xi_J^2`, loop reconstruction for `\operatorname{Err}_J^{loop}`,
+      and augmented parabolic domination by the pair-defect observation packet. The
+      preferred local endgame is now the sign-compatible projective packet on the
+      exact-potential branch: from the signless pair-defect packet `W_J`, recover
+      a rank-one projector or projective line field on the transported good family
+      and compare it to the top strain projector, thereby forcing `1-(e_{ab}\cdot
+      n_J)^2\lesssim |W_J|^2+\mathrm{error}` and hence `\mathcal E_J^{dir}\lesssim
+      \mathcal E_J^{obs}`. The older cycle-exact polarization lemma with a measurable
+      polarity map remains an equivalent fallback formulation. At the abstract packet
+      level, transport coherence is now supportable as `TCJ''`, projector comparison
+      closes by Davis-Kahan once an observable symmetric surrogate is supplied. The
+      projective-surrogate construction side is now explicit on disk via the localized
+      projector-moment tensor `\widetilde S_J`, and the overall open theorem remains
+      `PSJ+`. On the localized projector-moment route this is the concentration estimate
+      `(PSJ+.6)`, with `PSJ+.4` retained only as one sufficient simple-top input.
+      Proposition `PSJ+.5` now reduces that input on the intended active family
+      to explicit strip-local data: a simple-top gap floor, a corotational drift
+      budget, and a theorem-safe entrance bound from `D.7ic` or `D.7ig`. On the
+      measurable-derivative Cauchy-Green route, Proposition `D.7mb` reduces
+      the remaining selector-strain compatibility theorem to the explicit residual
+      budgets `|m_J(t_0)|`, `\int |Q_J^{top}(W_J^N)^*S_J^N W_J^N n_J|`, and `\int
+      |\mathcal C_J^N|\,|\partial_t S_J^N|/g_J^{str}`. The measurable-derivative-side
+      tensor `\widetilde{\mathcal C}_J^N` remains an alternate surrogate candidate,
+      but that candidate does not close the branch by itself, because the Cauchy-Green
+      metric records finite-time stretching while `P_{J,\top}^{seg}(a,b,t)` is the
+      instantaneous top strain projector. Accordingly, the exact remaining projective burden is
+      now split explicitly into pair-to-cocycle synchronization from the signless
+      pair packet into a transported projector field, and selector-strain compatibility
+      comparing the top Cauchy-Green projector to `P_{J,\top}^{seg}(a,b,t)`. Outside that branch,
+      the exact remaining Hodge burden is best read in expanded form as directional
+      observability, harmonic observability, loop reconstruction from the harmonic
+      ledger, and a vanishing selector-calibration error budget. Equivalently, `SG.4P`
+      now consumes this branch-sensitive split directly; the exact-potential branch
+      closes with the projective line-recovery / polarization theorem, while on the
+      general Hodge branch the genuine new core is direction observability, harmonic
+      observability, and selector-ledger vanishing, with loop-from-harmonic serving
+      as the downstream export step. The abstract `\Xi_J` gap is now closed on the
+      theorem-shape side: on the simple-top branch one may take the concrete angle
+      defect `\Xi_J^{ang}=1-(e_{ab}\cdot n_J)^2`, equivalently the angular-forcing
+      budget `\beta_J^2/g_J`, and on the normal-covector branch one may take `\Xi_J^{\perp}=|n_J(a)\cdot
+      e_{ab}|^2`. The exact remaining theorem is therefore selector-adapted observability
+      from `W_J` to one of these concrete directional ledgers, together with the final
+      weighted-to-linear upgrade on the normal-covector subroute if that route is
+      used. On that subroute, the weighted `L^4` closure and its finite-measure square-root
+      upgrade are already formal; the exact remaining slot is the full linear upgrade
+      to `PD.70z`, now localized to three explicit sufficient routes: the strengthened
+      quadratic calibration `(CN.13j)`, the support-smallness self-improvement `(CN.13q)`,
+      or a weighted quadratic observability theorem under two-sided weight control
+      `(CN.13ab)`-`(CN.13ad)` on the transported good family. A formal no-go proposition
+      is now also on disk: signless `W_J` and its current PDE coercive bounds cannot
+      by themselves force the one-sided directional deficit, even on the cycle-exact
+      branch, so an added projective synchronization, projector-comparison, or alignment
+      theorem is mathematically necessary. YM-heat/deformation geometry now sits one
+      layer upstream as the supplier of the spectral floor/coherence packet consumed
+      by that residual closure, and the remaining theorem burdens on that upstream
+      route are now explicit: `DG-Line^{\sharp}` needs the in-plane anisotropy drain
+      law in a fixed carrier frame, `DG-Shadow^{\sharp}` needs approximate commutation
+      / plane leakage to transfer the line carrier to the true segment strain,
+      `DG-Cal^{\mathrm{exact},\sharp}` needs the anchored Hessian coercivity of
+      `|W_J|^2` on the exact branch, and the general branch needs local lifted
+      projector recovery plus graph-kernel comparison with the usual symmetry/connectivity
+      hypotheses. The older seven-item frontier count is only a route-level
+      dashboard: the torus-first internal branch, the TPS strong/defect bridge route,
+      strong-entry transfer, the conditional Leray/suitable-weak endpoint, the downstream
+      `\lambda_2^+` reduction, and the Euclidean strict-shadow branch are not six
+      additional independent live theorem lemmas. The irreducible live theorem frontier
+      is the selector-adapted defect-to-strain theorem alone, with exact cycle-exact
+      cuts on the projective-synchronization / normal-covector side and the three-slot
+      Hodge core `(PD.70z12)`-`(PD.70z14)` on the general branch. Separately, the
+      Euclidean strict-shadow discharge branch is preserved explicitly: once the exact
+      strict-shadow hypotheses are granted, `\mathrm{ShadowDef}(X)` and `E_{\mathrm{sh}}(X)`
+      vanish identically, so the unresolved whole-space burdens on that secondary
+      branch are full-data lift coverage, exact Euclidean strict shadow, and global
+      Euclidean carrier control. Any downstream `\lambda_2^+` continuation step on
+      the primary branch still requires the bridge `BR.lambda2` plus local strong-solution
+      entry on the time window.'
+    unsafe_claim_boundary: Silently hybridizing the torus-first primary branch and
+      the Euclidean strict-shadow secondary branch, or claiming unconditional periodic
+      or whole-space regularity without the SG.4 directional lower-envelope theorem,
+      the bridge `BR.lambda2`, local strong-solution entry, and, for `R^3`, explicit
+      discharge of the Euclidean Route A burdens.
+    paper_treatment: '["problems/navier-stokes/theorem-construction/live-frontier-honest-cut-reduction.md",
+      "problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md",
+      "problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md",
+      "problems/navier-stokes/theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md",
+      "problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md"]'
     branch_choice_labels:
-    - "\\tag{WERS.3Cap-BO}"
-    - "\\tag{WERS.3R}"
+    - selector-adapted defect-to-strain theorem
   boundary_rule: Everything beyond the grounded core is machine extension until it
     survives falsification and promotion.
   extension_policy: Machine branches may build beyond this frontier, but they must
     remain provenance-labeled and quarantined from the frozen core.
 summary:
-  grounded_count: 4
-  bridge_pending_count: 1
-  unresolved_count: 6
-  suppressed_unresolved_count: 73
-  authoritative_gap_count: 4
+  grounded_count: 2
+  bridge_pending_count: 0
+  unresolved_count: 1
+  dashboard_unresolved_count: 1
+  route_container_count: 0
+  downstream_support_count: 0
+  additional_context_count: 0
+  suppressed_unresolved_count: 64
+  authoritative_gap_count: 3
   live_theorem_edge_present: true
-  live_theorem_edge_branch_count: 2
+  live_theorem_edge_branch_count: 1
   live_theorem_edge_blocked_count: 0
   freeze_recommended: true

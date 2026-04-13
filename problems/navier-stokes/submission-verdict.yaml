@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   verdict_id: submission-verdict-navier-stokes
-  generated_at: '2026-04-09T21:19:17Z'
+  generated_at: '2026-04-12T20:18:53Z'
   generator: system/runner/lib/submission_verdict_builder.rb
   source_review_verdict_id: review-verdict-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -19,14 +19,14 @@ review_alignment:
   current_package_status: ''
 manuscript_surface:
   draft_v6:
-    path: 
+    path:
     kind: missing
   draft_v7:
     path: problems/navier-stokes/draft-v7.md
     kind: draft
   review_observations:
     primary_manuscript:
-      artifact: 
+      artifact:
       path: problems/navier-stokes/draft-v8.md
       present: true
       role: primary-manuscript
@@ -39,7 +39,7 @@ manuscript_depth:
   identity:
     problem_id: navier-stokes
     display_name: Navier-Stokes Global Regularity
-    generated_at: '2026-04-09T21:19:18Z'
+    generated_at: '2026-04-12T20:18:54Z'
     generator: system/runner/lib/manuscript_depth_builder.rb
   surface_path: problems/navier-stokes/draft-v7.md
   classification: proof-manuscript
@@ -54,7 +54,26 @@ manuscript_depth:
   submission_safe: true
   rationale: The manuscript is long enough and contains theorem/proof structure dense
     enough to count as a real proof-bearing paper surface.
-lane_classification: {}
+lane_classification:
+  version: 1
+  identity:
+    problem_id: navier-stokes
+    display_name: Navier-Stokes Global Regularity
+    generated_at: '2026-04-12T17:15:21Z'
+    generator: system/runner/lib/lane_classification_builder.rb
+  mode: hybrid
+  source_authority: authoritative-external
+  proof_present: true
+  theorem_search_required: true
+  paperization_required: true
+  signals:
+    default_mode: theorem-open
+    proof_bearing_source: true
+    manuscript_classification: proof-manuscript
+    blocking_count: 61
+    theorem_upgrade_required: true
+    source_note_count: 1
+    paper_quality_pass: false
 paper_quality_verdict: {}
 submission_export_status: {}
 typeset_audit: {}
@@ -82,9 +101,9 @@ target_fidelity:
     authoritative_export_surface: problems/navier-stokes/external-paper/main.tex
     bundle_manifest_source: ''
     bundle_source_mismatch: false
-    current_theorem_surface_id: theorem-surface-navier-stokes-969b079c3175
+    current_theorem_surface_id: theorem-surface-navier-stokes-9b8afc2a2e3e
     bundle_theorem_surface_id: ''
-    current_route_signature: 969b079c3175b429c6906ed2a51915c6d59184f1
+    current_route_signature: 9b8afc2a2e3e0d9fd513b6184da56ee293c090ad
     bundle_route_signature: ''
     bundle_surface_mismatch: false
     open_critical_referee_objections: []
@@ -93,30 +112,29 @@ theorem_packet:
   export_ready: false
   blocker_count: 4
 proof_obligation_summary:
-  total_obligations: 83
-  grounded_count: 4
+  total_obligations: 67
+  grounded_count: 2
   structural_only_count: 0
-  structurally_supported_count: 2
-  bridge_pending_count: 4
-  unresolved_count: 15
-  frontier_count: 58
+  structurally_supported_count: 1
+  bridge_pending_count: 5
+  unresolved_count: 17
+  frontier_count: 42
   bridge_discharge_blocking_count: 0
   theorem_warrant_blocking_count: 0
-  blocking_count: 77
+  blocking_count: 64
   all_discharged: false
   live_theorem_edge_present: true
-  live_theorem_edge_branch_count: 2
+  live_theorem_edge_branch_count: 1
   live_theorem_edge_blocked_count: 0
 blockers:
-- There are 1 unresolved definition/object obligations.
-- There are 11 unresolved lemma obligations.
-- There are 58 frontier or route-choice blockers still inside the theorem packet.
+- There are 8 unresolved definition/object obligations.
+- There are 6 unresolved lemma obligations.
+- There are 42 frontier or route-choice blockers still inside the theorem packet.
 - 'The authoritative source stack still contains unmodeled theorem structures: interdependencies
-  among principles, compactness discrete solutions, curvature based, initial data
-  l2.'
-- There are 15 unresolved proof obligations.
-- There are 4 bridge obligations still awaiting local discharge.
-- There are 58 frontier obligations still inside the theorem packet.
+  among principles, compactness discrete solutions, curvature based.'
+- There are 17 unresolved proof obligations.
+- There are 5 bridge obligations still awaiting local discharge.
+- There are 42 frontier obligations still inside the theorem packet.
 - Completion tier is still `route-complete`, below a paper-complete or full-closure
   submission surface.
 - Honesty review verdict is still `conditional-pass`.

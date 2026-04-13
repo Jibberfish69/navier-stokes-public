@@ -19,6 +19,11 @@ D_t:=\partial_t+u\cdot\nabla.
 The point is to check whether the transport structure simplifies or whether the
 commutators make the tower worse.
 
+In the current live lane, this correction is read on the torus-first internal
+branch. The material-derivative reformulation is part of the periodic/operator
+route bookkeeping, and any whole-space Euclidean statement on `R^3` remains a
+downstream discharge/export issue rather than the theorem surface of this note.
+
 ## First gain
 
 The base velocity equation becomes

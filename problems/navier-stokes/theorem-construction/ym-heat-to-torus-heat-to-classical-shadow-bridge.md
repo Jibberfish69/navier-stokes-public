@@ -15,6 +15,10 @@ Yang-Mills heat on the carrier
 This note does **not** claim that the full bridge is already discharged.
 It records the exact bridge the lane is trying to make theorem-grade.
 
+For the current live lane, the torus spectral heat surface is the chosen
+internal branch surface. The classical whole-space `R^3` statement is a
+downstream discharge/export target rather than the internal proving surface.
+
 ## Purpose
 
 The current torus packet already uses a heat operator:
@@ -372,8 +376,9 @@ This bridge becomes fully discharged only when the lane proves:
 1. a theorem-grade physical-sector map `\Pi_{\mathrm{phys}}:A\mapsto X`,
 2. the exact or absorbable projection law `(11)`,
 3. the exact-shadow or controlled-shadow identity `(18)`,
-4. the lift from the torus derivation lab back to the declared classical
-   theorem surface on the chosen domain.
+4. the lift from the torus internal proving surface to the downstream
+   Euclidean strict-shadow/export surface, if whole-space discharge is still
+   demanded.
 
 So the current note should be read as:
 

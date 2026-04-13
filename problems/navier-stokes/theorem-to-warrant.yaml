@@ -8,7 +8,7 @@ route_lock:
   path: problems/navier-stokes/route-lock.yaml
   bridge_slot_map_path: problems/navier-stokes/bridge-slot-map.yaml
   primary_route_id: source-grounded-four-bridge
-  theorem_surface: classical-euclidean-navier-stokes
+  theorem_surface: classical-periodic-navier-stokes
 marvin_ingest:
   enabled: true
   proof_source_pack_path: problems/navier-stokes/proof-source-pack.md
@@ -47,27 +47,24 @@ theorem_warrants:
       tex_file: problems/navier-stokes/external-paper/sections/main-result.tex
       tex_section: Main Result
     exact_statement: |-
-      If the scale-barrier, monotone-functional, nonlinear-compactness, and curvature-based-regularity bridges all hold on the active whole-space branch, then the Clay whole-space existence-and-smoothness statement with \(f = 0\) follows.
+      If the scale-barrier, monotone-functional, nonlinear-compactness, and continuation/regularity bridges all hold on the active periodic torus branch, then the Clay periodic existence-and-smoothness statement with \(f = 0\) follows. Any whole-space Euclidean statement on \(R^3\) is a separate downstream discharge/export theorem.
     dependencies:
-      - Classical target class on the Euclidean 3D equation
+      - Classical target class on the periodic 3D equation
       - Scale-barrier bridge
       - Monotone-functional Q(t) bridge
       - Non-Sobolev compactness bridge
-      - Curvature-Based Regularity bridge
-      - Closed-loop warrant / same-surface pullback to the declared classical theorem surface
+      - Continuation / Regularity bridge
+      - Closed-loop warrant on the declared periodic theorem surface
       - No-hidden-modified-equation-work condition
     proof_status: conditional
     external_publication_risk: high
     warrant_note: >-
       The lane now contains concrete discharge loci for scale, monotone,
-      compactness, and the realized classical carrier sidecar. However, the
-      authoritative export theorem remains conditional, and the source-faithful
-      curvature-based fourth bridge has not yet been promoted to a same-surface
-      Euclidean continuation theorem. The realized carrier theorem in
-      `theorem-construction/carrier-realization-classical-identification.md`
-      closes the classical import ambiguity for the projected-flow sidecar, but
-      it does not by itself discharge the primary fourth bridge or the
-      closed-loop warrant on the declared theorem surface.
+      compactness, and the torus-first projected-flow continuation side. The
+      authoritative theorem remains conditional because SG.4 and its downstream
+      continuation handoff are still open. Any Euclidean whole-space theorem on
+      `R^3` is downstream export, not part of the internal warrant carried
+      here.
 bridge_obligations:
   - bridge_id: scale-barrier
     verdict: discharged
@@ -78,12 +75,12 @@ bridge_obligations:
       - Critical wave number \(k_{\mathrm{crit}}\)
       - Spectral decay \(E(k,t) \le C k^{-\beta}\) with \(\beta > 3\)
     warrant_note: >-
-      The live lane now contains a concrete classical discharge locus for this
+      The live lane now contains a concrete periodic/operator discharge locus for this
       bridge in `theorem-construction/scale-cubic-tail-absorption-lemma.md`,
       `theorem-construction/scale-barrier-package.md`, and
       `bridge-memos/scale-barrier.md`. The old heuristic spectral notes remain
-      motivation only, but the dyadic Euclidean bridge package itself is now
-      explicit enough to count as discharged on the lane-local theorem surface.
+      motivation only, but the active torus-first shell package is now explicit
+      enough to count as discharged on the lane-local theorem surface.
   - bridge_id: monotone-functional
     verdict: discharged
     primary_surface: problems/navier-stokes/theorem-construction/monotone-functional-package.md
@@ -93,7 +90,8 @@ bridge_obligations:
       - Dissipation dominance on the classical surface
       - Downstream feed into compactness
     warrant_note: >-
-      This bridge is now exact as a same-surface local theorem object. The
+      This bridge is now exact as a same-surface local theorem object on the
+      chosen periodic branch. The
       discharge locus is `monotone-functional-discharge-source-pack.md` plus
       `theorem-construction/monotone-functional-bridge-discharge.md`. Discharge
       here does not mean `Q(t)` closes the whole theorem; it means the bridge
@@ -125,11 +123,11 @@ bridge_obligations:
       - Divergence-free cancellation
       - Pressure orthogonality
     warrant_note: >-
-      Bridge IV is now stated and proved as a pure Euclidean energy theorem on
-      the declared classical surface. The proof uses only the classical
-      Navier--Stokes energy identity, divergence-free cancellation, and
-      pressure orthogonality. No carrier-specific or geometric surrogate
-      structure remains in this branch.
+      Bridge IV is now read on the chosen periodic branch through the
+      heat-governed deformation/continuation package. The torus-side projected
+      flow, deformation geometry, and YM-heat shadow notes are the active
+      surfaces here. Any Euclidean whole-space continuation theorem is a
+      separate downstream export step.
 summary:
   total_theorem_items: 1
   proved_count: 0
@@ -167,10 +165,8 @@ auxiliary_theorem_tracks:
         local_surface: problems/navier-stokes/theorem-construction/d5-clay-theorem-integration.md
         proof_status: conditional
     warrant_note: >-
-      This NS-only sidecar track packages the remaining dynamic burden in
-      projected-flow language: projected well-posedness, global coercive energy,
-      commutative shadow descent, continuation, and final integration. The
-      sidecar theorem chain is now aligned with the realized classical carrier
-      route, with D.1, D.2, and D.4 promoted through the exact lift and
-      continuation comparison. It does not by itself discharge the primary
-      Euclidean fourth bridge or the source-grounded closed-loop warrant.
+      This NS-only track packages the remaining dynamic burden in projected-flow
+      language: projected well-posedness, global coercive energy, commutative
+      shadow descent, continuation, and final integration. It is now part of
+      the active torus-first internal branch. It does not by itself discharge a
+      whole-space Euclidean endpoint.

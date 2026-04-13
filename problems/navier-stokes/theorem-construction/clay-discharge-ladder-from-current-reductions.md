@@ -178,6 +178,9 @@ So the exact remaining theorem on this branch is more precisely:
 \tag{A1}
 ```
 
+The datum-side component `(A1a)` is now isolated formally in
+[a1a-full-data-euclidean-lift-coverage.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/a1a-full-data-euclidean-lift-coverage.md).
+
 on the actual whole-space / Euclidean readout surface needed for the Clay
 statement.
 
@@ -228,6 +231,11 @@ u=\mathcal C(X)\text{ solves exact classical NS}
 So the exact unresolved burden on Route A is the theorem `(A1)`, not an
 additional classical remainder analysis.
 
+On the already realized classical carrier, Theorem `R4` makes the readout the
+identity, so `(A1a)` full-data lift coverage and `(A1b)` exact strict shadow
+collapse automatically. On that realized subbranch, Route `A` reduces to the
+single burden `(A1c)` global carrier control.
+
 ## IV. NC weaker shadow ladder
 
 The weaker `NC` branch now has a clean classical forcing interface:
@@ -252,6 +260,9 @@ So the exact remaining theorem on this branch is:
 }
 \tag{B1}
 ```
+
+This weaker-route burden is now isolated formally in
+[route-b-b1-integrable-shadow-error-continuation-coupling.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/route-b-b1-integrable-shadow-error-continuation-coupling.md).
 
 If `(B1)` is proved, then:
 

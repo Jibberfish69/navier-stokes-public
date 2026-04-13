@@ -12,6 +12,12 @@ classical packet through the newer languages now active in the lane:
 
 This note does **not** discard the classical four-body packet.
 It does **not** change the job of any body.
+It now does fix one branch choice explicitly:
+
+```text
+the current live lane runs this schema on the periodic torus branch first,
+and treats Euclidean whole-space closure as a downstream export problem.
+```
 
 Its purpose is narrower:
 
@@ -29,8 +35,9 @@ stay on one fixed accepted classical incompressible theorem surface,
 and do not silently switch surfaces mid-argument.
 ```
 
-So if this schema is run on the torus branch, then the torus is not merely a
-diagnostic lab. It is the chosen classical surface for that branch.
+This schema is run on the torus branch in the current lane, so the torus is not
+merely a diagnostic lab. It is the chosen classical surface for the internal
+proving branch.
 
 ## 1. Legacy packet versus modern packet
 
@@ -62,7 +69,7 @@ body is re-read through the newer theorem surfaces:
 
 ```math
 \boxed{
-\text{torus = derivation lab,}
+\text{torus = chosen internal classical surface and derivation lab,}
 \quad
 \text{tower = classical visible bookkeeping,}
 \quad
@@ -781,10 +788,11 @@ More concretely, the live burdens are:
 2. **same-surface object-production step still theorem-bearing**
    on the classical route this remains compactness/nonlinear closure;
    on the projected route it is D.3/D.4 shadow/exact-lift;
-3. **torus is still a derivation lab**
-   if torus is only the derivation lab, the mechanism found there must be
-   rewritten on the chosen classical target surface; if torus is the chosen
-   classical branch, then no extra whole-space rewrite is required.
+3. **torus-first branch still needs explicit export if whole-space closure is desired**
+   on the current route, torus is already the chosen internal classical branch,
+   so no same-stage whole-space rewrite is required inside the proof chain; a
+   separate Euclidean export theorem is only needed if whole-space discharge is
+   still demanded downstream.
 
 So yes, the obstruction is still there.
 But it is now much more focused and much more plausible.
@@ -794,7 +802,7 @@ But it is now much more focused and much more plausible.
 The modernization does **not** give a blank new obstruction.
 It inherits the exact live survivor already exposed by the classical packet.
 
-On the current whole-space theorem-primary stack, the live Body IV obstruction
+On the current torus-first theorem-primary stack, the live Body IV obstruction
 is still the lifted high-side remainder on the exact shell geometry
 
 ```math

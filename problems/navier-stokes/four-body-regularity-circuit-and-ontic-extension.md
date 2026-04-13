@@ -11,6 +11,10 @@ The classical circuit is stated here as the operative proof mechanism.
 The ontic extension is also stated here, but it still needs more theorem-grade
 detail before it can count as a complete proof surface.
 
+In the current live lane, this packet is instantiated first on the periodic
+torus branch. Any whole-space Euclidean closure on `R^3` is treated as a
+downstream discharge/export theorem rather than the internal proving surface.
+
 ## Classical Packet
 
 The classical four-body strategy should be read as one propagated bound packet
@@ -247,4 +251,3 @@ So the right sentence is:
 the packet logic already extends ontically,
 but the ontic packet and bridge still require more detail to complete.
 ```
-

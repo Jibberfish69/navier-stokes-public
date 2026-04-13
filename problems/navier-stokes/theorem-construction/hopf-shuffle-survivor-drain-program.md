@@ -37,6 +37,11 @@ The route described here is:
 This is not yet a proof.
 It is the cleanest current endgame program suggested by the live lane.
 
+In the current live lane, the program is staged on the torus-first internal
+branch. The survivor and drain objects are meant to control the periodic/operator
+route directly, with any whole-space Euclidean theorem on `R^3` treated only as
+downstream discharge/export after this internal stack closes.
+
 ## Step 1. The visible engine is still the mixed tower
 
 Define the time tower

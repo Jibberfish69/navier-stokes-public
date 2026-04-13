@@ -19,6 +19,10 @@ visible shadow theorem surface:
 Eulerian spatial derivative family {U_alpha}
 ```
 
+For the current live route, the chosen classical surface is the periodic torus
+branch. Any whole-space `R^3` formula is downstream export only unless
+explicitly labeled otherwise.
+
 Here
 
 ```math
@@ -206,9 +210,9 @@ There exist functionals
 \tag{13}
 ```
 
-defined on `(12)`, such that every smooth incompressible Navier--Stokes
-solution on a fixed accepted classical theorem surface `M^3`
-(`\mathbb R^3` or `\mathbb T^3`) satisfies
+defined on `(12)`, such that every smooth incompressible periodic
+Navier--Stokes solution on the current torus-first internal branch
+`\mathbb T^3` satisfies
 
 ```math
 \boxed{
@@ -277,7 +281,7 @@ energy:
 \mathcal D_r^{\mathrm{Lag}}[v,G]
 \sim
 \sum_{1\le |\alpha|\le r}
-\int_{\mathbb R^3}
+\int_{\mathbb T^3}
 G\,\nabla_a \partial_a^\alpha v : \nabla_a \partial_a^\alpha v\,da
 +
 \text{metric-control terms}.

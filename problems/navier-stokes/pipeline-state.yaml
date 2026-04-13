@@ -6,11 +6,12 @@ identity:
   folder_name: navier-stokes
 workflow:
   status: ready
-  current_stage: paper-export
-  highest_artifact: submission_verdict
-  owner_cell: migration-bootstrap
-  next_cell_type: paper-polish
-  next_action: Keep navier-stokes synchronized across theorem, paper, and export surfaces.
+  current_stage: governance-recheck
+  highest_artifact: proof-assembly
+  owner_cell: marvin-ingest
+  next_cell_type: solver-loop
+  next_action: Run solver-loop while shared/global reads stay redacted to lane-safe
+    summaries.
 artifacts:
   agent_contract:
     path: problems/navier-stokes/agent-contract.yaml
@@ -87,11 +88,188 @@ artifacts:
   pipeline_state:
     path: problems/navier-stokes/pipeline-state.yaml
     status: present
+  governance_escalation:
+    path: problems/navier-stokes/governance-escalation.yaml
+    status: present
+  frozen_core:
+    path: problems/navier-stokes/frozen-core.md
+    status: present
+  extension_branches:
+    path: problems/navier-stokes/extension-branches.yaml
+    status: present
+  lemma_falsification:
+    path: problems/navier-stokes/lemma-falsification.yaml
+    status: present
+  lane_classification:
+    path: problems/navier-stokes/lane-classification.yaml
+    status: present
+  finish_plan:
+    path: problems/navier-stokes/finish-plan.yaml
+    status: present
 automation:
   queue_state: ready
   blocking_reasons: []
   writable_targets:
   - problems/navier-stokes/pipeline-state.yaml
+  - problems/navier-stokes/marvin-ingest-notes.yaml
+  - problems/navier-stokes/marvin-watchlist.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/frozen-core.md
+  - problems/navier-stokes/extension-branches.yaml
+  - problems/navier-stokes/lemma-falsification.yaml
+  - problems/navier-stokes/promotion-verdict.yaml
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/submission-verdict.yaml
+  - problems/navier-stokes/lane-classification.yaml
+  - problems/navier-stokes/agent-contract.yaml
+  - problems/navier-stokes/finish-plan.yaml
+  governance_escalation:
+    status: open
+    requested_at: '2026-04-12T20:19:11Z'
+    requested_by: chat2
+    reason_signature: 512e40411e5b6ece01b9abc1e5125b1217ef1742
+    suspect_paths:
+    - system/runner/lib/research_os_live_state_support.rb
+    - system/runner/bin/research_os_v2_bootstrap.rb
+    code_fingerprint_at_emit: a0e2c76848cc1998151fe7c94c254576c86816d3
+    blocking_behavior: nonblocking
+    mode: shared-read-degraded-safe
+  degraded_safe_mode:
+    status: active
+    reason: Derived Marvin live_state frontier still advertises PSJ+.4 as the open
+      theorem after canonical Navier-Stokes surfaces were corrected back to overall
+      PSJ+; canonical YAMLs and promotion state now disagree with lane-digest live_state
+      text
+    governance_escalation_path: problems/navier-stokes/governance-escalation.yaml
+    incident_path: problems/navier-stokes/runtime/meta/scope-incidents.yaml
+    retry_shared_reads: true
+  marvin_ingest:
+    status: synced
+    last_synced_at: '2026-04-13T00:09:42Z'
+    manifest_path: problems/navier-stokes/marvin-watchlist.yaml
+    notes_path: problems/navier-stokes/marvin-ingest-notes.yaml
+    tracked_source_count: 124
+    trigger_source_count: 124
+    changed_source_count: 19
+    trigger_changed_source_count: 19
+    push_queue_path:
+    authority_revision: 52075366698051969a6c38b980b66518caed124b
+    chat_y_rethread_request_id: chat-y-rethread-navier-stokes-c324cca7e4be
+    changed_sources:
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T202555Z-647e8a6ce561.md
+      role: Research OS theorem packet
+      trigger: true
+      modified_at: '2026-04-12T20:25:55Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T214755Z-65641c00db34.md
+      role: Research OS structured route pivot
+      trigger: true
+      modified_at: '2026-04-12T21:47:55Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T215004Z-543242703ed5.md
+      role: Research OS theorem packet
+      trigger: true
+      modified_at: '2026-04-12T21:50:04Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T221013Z-9c28b0c55738.md
+      role: Research OS theorem packet
+      trigger: true
+      modified_at: '2026-04-12T22:10:13Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T221319Z-3d703e265530.md
+      role: Research OS theorem packet
+      trigger: true
+      modified_at: '2026-04-12T22:13:19Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T221320Z-90fdea9bf45b.md
+      role: Research OS structured route pivot
+      trigger: true
+      modified_at: '2026-04-12T22:13:20Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T222302Z-a71e3455ca6e.md
+      role: Research OS theorem packet
+      trigger: true
+      modified_at: '2026-04-12T22:23:02Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T224414Z-6fd4e4a0089c.md
+      role: Research OS theorem packet
+      trigger: true
+      modified_at: '2026-04-12T23:36:36Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T225707Z-e26c8a4bf92d.md
+      role: Research OS theorem packet
+      trigger: true
+      modified_at: '2026-04-12T22:57:08Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T225929Z-c2db83db9d71.md
+      role: Research OS theorem packet
+      trigger: true
+      modified_at: '2026-04-12T22:59:33Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T225933Z-aec6dcd89dd7.md
+      role: Research OS structured route pivot
+      trigger: true
+      modified_at: '2026-04-12T22:59:34Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T230003Z-622ead3e900e.md
+      role: Research OS theorem packet
+      trigger: true
+      modified_at: '2026-04-12T23:00:05Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T230640Z-5da5805d3b7a.md
+      role: Research OS theorem packet
+      trigger: true
+      modified_at: '2026-04-12T23:06:41Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T230641Z-a869deaf3b5c.md
+      role: Research OS structured route pivot
+      trigger: true
+      modified_at: '2026-04-12T23:06:41Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T230847Z-ac4393ec9415.md
+      role: Research OS theorem packet
+      trigger: true
+      modified_at: '2026-04-12T23:08:47Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T231536Z-8321e304008e.md
+      role: Research OS theorem packet
+      trigger: true
+      modified_at: '2026-04-12T23:36:24Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T233237Z-40462fd4d63c.md
+      role: Research OS theorem packet
+      trigger: true
+      modified_at: '2026-04-12T23:36:10Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T234252Z-7c667df92caa.md
+      role: Research OS structured route pivot
+      trigger: true
+      modified_at: '2026-04-12T23:42:53Z'
+    - path: system/meta/research-os/promotions/navier-stokes/capture-20260412T234252Z-8743281fa82b.md
+      role: Research OS theorem packet
+      trigger: true
+      modified_at: '2026-04-12T23:42:52Z'
+  chat_y_rethread:
+    status: pending
+    request_id: chat-y-rethread-navier-stokes-c324cca7e4be
+    request_signature: c324cca7e4be1520e54fdf7343e1642dad4010e0
+    requested_at: '2026-04-13T00:09:42Z'
+    problem_id: navier-stokes
+    display_name: Navier-Stokes Global Regularity
+    trigger_source_paths:
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T202555Z-647e8a6ce561.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T214755Z-65641c00db34.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T215004Z-543242703ed5.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T221013Z-9c28b0c55738.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T221319Z-3d703e265530.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T221320Z-90fdea9bf45b.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T222302Z-a71e3455ca6e.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T224414Z-6fd4e4a0089c.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T225707Z-e26c8a4bf92d.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T225929Z-c2db83db9d71.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T225933Z-aec6dcd89dd7.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T230003Z-622ead3e900e.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T230640Z-5da5805d3b7a.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T230641Z-a869deaf3b5c.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T230847Z-ac4393ec9415.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T231536Z-8321e304008e.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T233237Z-40462fd4d63c.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T234252Z-7c667df92caa.md
+    - system/meta/research-os/promotions/navier-stokes/capture-20260412T234252Z-8743281fa82b.md
+    trigger_source_count: 19
+    reason: route-authority-upgrade
+  finish_plan:
+    status: enacted
+    enacted_at: '2026-04-12T17:15:21Z'
+    entrypoint: enact-finish-plan
+    persistent_runtime_required: true
+    agent_contract_path: problems/navier-stokes/agent-contract.yaml
+    finish_plan_path: problems/navier-stokes/finish-plan.yaml
 corpus:
   corpus_root: Millennium Prize Problems/Navier-Stokes
   source_mode: canonical-live-lane

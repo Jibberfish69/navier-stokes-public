@@ -13,6 +13,11 @@ by source localization. It is blocked by:
 
 This note isolates the second theorem.
 
+For the current live route, this reserve theorem is formulated on the
+torus-first internal branch. All frequencies below are torus Fourier lattice
+modes, and every shell statement is a dyadic shell restriction on that periodic
+spectral surface. Any whole-space analogue is downstream export only.
+
 ## Carrier
 
 Assume the same metric hypotheses as in `(WEP.A1)`:
@@ -39,6 +44,9 @@ L_G f:=-\operatorname{div}_a(G\nabla_a f),
 \tag{WERS.0a}
 ```
 
+Here `L_G^{-1}` denotes the inverse of `L_G` on mean-zero scalar fields on
+`\mathbb T^3`.
+
 For shell-localized inputs define the pressure carrier by
 
 ```math
@@ -59,7 +67,8 @@ Only this packet is genuinely same-depth and same-scale on the reserve route.
 
 ## Projected Resonant Symbol
 
-Let `f_j,g_j` be shell-localized fields with
+Let `f_j,g_j` be torus shell-localized fields with Fourier support on lattice
+modes `\xi,\eta\in\mathbb Z^3\setminus\{0\}` satisfying
 `|\xi|\sim|\eta|\sim|\xi+\eta|\sim 2^j`. Denote by
 `b_G(a,\xi,\eta)` the bilinear symbol seen by the shellwise resonant pressure
 interaction after the exact projector carrier has been inserted into
@@ -72,7 +81,7 @@ Equivalently, `b_G` is the symbol governing the shellwise form
 :=
 \mathcal B_G(f_j,g_j)
 \qquad
-\text{with both inputs restricted to the resonant shell }|\xi|\sim 2^j.
+\text{with both inputs restricted to the torus lattice shell }|\xi|\sim 2^j.
 \tag{WERS.1}
 ```
 

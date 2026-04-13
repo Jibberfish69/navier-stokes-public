@@ -9,10 +9,10 @@ modern overlays, sidecars, and stale generated surfaces, see
 
 ## Route Summary
 
-- Working target: the classical 3D Navier-Stokes equations on arbitrary or minimally admissible initial data.
+- Working target: the official Clay target allows either the whole-space branch on `R^3` or the periodic branch on `T^3`; the active theorem-primary branch in this lane is currently the whole-space classical route.
 - Honest current status: the original four-part framework is explicit again on the theorem surface, the scale/monotone/compactness/cascade loci are reconciled, and the lane promotes the direct Euclidean fourth bridge as theorem-primary, but the package does not yet count as fully discharged while the proof-critical packet reductions remain compressed.
 - Decisive frontier: proposition-level strict low-mode reduction, threshold-local spill collar alignment, repaired high-side packet absorption, and full manuscript propagation of the local `4 -> 1` theorem all still require line-by-line theorem-grade audit.
-- Frozen architecture note: the archived curvature / ontic extension is preserved only as provenance, while the live theorem surface stays classical and Euclidean.
+- Frozen architecture note: the archived curvature / ontic extension is preserved only as provenance, while the live theorem surface stays classical and currently whole-space/Euclidean by branch choice rather than by Clay requirement.
 
 ## Spine
 

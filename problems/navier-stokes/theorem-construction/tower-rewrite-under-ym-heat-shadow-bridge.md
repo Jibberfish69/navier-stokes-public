@@ -18,6 +18,12 @@ the visible algebra does not change;
 the burden bookkeeping changes a great deal.
 ```
 
+In the current live lane, this whole comparison is read on the torus-first
+internal branch. The derivative tower is being audited as the periodic/operator
+shadow of the heat-governed carrier route, and any whole-space Euclidean claim
+on `R^3` is downstream discharge/export rather than the internal proving
+surface of this note.
+
 The right tower object is the derivative family itself, rung by rung and
 matrix-entry by matrix-entry, not a guessed power law for a single scalar
 profile.

@@ -51,8 +51,10 @@ layers:
     status: authoritative
     judgment: >
       The official Clay target is the incompressible 3D problem on R^3 or T^3,
-      but the currently locked theorem-primary branch is still the classical
-      Euclidean four-bridge route.
+      and the currently locked theorem-primary internal branch is now the
+      periodic torus-first four-packet route. Whole-space Euclidean closure is
+      treated as downstream discharge/export rather than the internal proving
+      surface.
     surfaces:
       - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/route-lock.yaml
       - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-packet.yaml
@@ -85,8 +87,10 @@ layers:
     status: authoritative
     judgment: >
       The source-faithful body jobs remain fixed: Scale Barrier, Monotone
-      Functional Q(t), Non-Sobolev Compactness, Curvature-Based Regularity, then
-      the closed-loop warrant.
+      Functional Q(t), Non-Sobolev Compactness, Continuation / Regularity, then
+      the closed-loop warrant. The original source stack presents these on the
+      Euclidean branch, but the live route instantiates them first on the
+      periodic torus surface and treats Euclidean closure as downstream export.
     surfaces:
       - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-grounded-framework-map.md
       - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/spine.md
@@ -103,13 +107,17 @@ layers:
     rank: 3
     status: live
     judgment: >
-      The current theorem-primary packet is the explicit proposition chain
-      P0 -> M1/M2 -> S1/S2 -> K1/K2/K3 -> G1/G2 -> C1/C2/C3 on the classical
-      branch.
+      The current theorem-primary packet is the torus-first internal spine:
+      periodic four-packet closure -> derivative tower -> material-derivative
+      correction -> Hopf/shuffle survivor program -> YM-heat / deformation
+      bridge -> TPS strong/defect bridge with SG.4 as the exact live edge.
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/main-theorem-draft.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/formalization-ledger.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/proof-assembly.yaml
+      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
+      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/torus-projected-flow-extraction.md
+      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tower-to-shuffle-to-deformation-endgame-program.md
+      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/ym-heat-to-torus-heat-to-classical-shadow-bridge.md
+      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
+      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/live-theorem-edge.md
     overwrite_rules:
       may_overwrite:
         - modernization-overlays
@@ -123,15 +131,18 @@ layers:
     rank: 4
     status: live-frontier
     judgment: >
-      The exact live survivor is still the lifted high-side remainder on
-      N+M<k<j-4. It is the current leading edge of the lane.
+      The exact live survivor is the SG.4 selector-good directional lower
+      envelope on the active periodic/operator bundle. The older lifted
+      high-side remainder language remains one face of the same obstruction, not
+      the full route description by itself.
     survivor_faces:
-      - label: Body I tail leakage / no-escape failure
+      - label: Body I tail leakage / periodic no-escape failure
       - label: Body II tower flux-debt packet
       - label: Body IV deformation-geometry commutator packet
+      - label: SG.4 selector-good directional lower-envelope packet
     surfaces:
       - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/route-b-euclidean-closure-theorem.md
+      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
       - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/lifted-remainder-feedback-into-body1-audit.md
       - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
     overwrite_rules:
@@ -149,8 +160,9 @@ layers:
     status: candidate-upgrade
     judgment: >
       The tower, cross-rung matrix, deformation-geometry, and YM-heat/torus
-      bridge notes sharpen the route but do not yet discharge the same-surface
-      obstruction.
+      bridge notes are now part of the active torus-first internal spine. They
+      still do not discharge SG.4 or any downstream Euclidean whole-space
+      export by themselves.
     sublayers:
       - sublayer_id: tower
         surfaces:
@@ -163,6 +175,9 @@ layers:
       - sublayer_id: ym-heat-torus-shadow
         surfaces:
           - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/ym-heat-to-torus-heat-to-classical-shadow-bridge.md
+      - sublayer_id: euclidean-shadow-discharge
+        surfaces:
+          - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/route-b-euclidean-closure-theorem.md
     overwrite_rules:
       may_overwrite:
         - cross-folder-sidecars
@@ -178,8 +193,9 @@ layers:
     status: support-only-unless-promoted
     judgment: >
       Projected-flow, working-note, and YMG/Hodge linked materials are real
-      support and derivation surfaces, but they do not become theorem authority
-      unless a lane-local NS theorem surface promotes them.
+      support and derivation surfaces. They may sharpen the torus-first branch
+      grammar or the downstream discharge contract, but they do not become
+      theorem authority unless a lane-local NS theorem surface promotes them.
     surfaces:
       - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/projected-nc-flow-clay-frontier.md
       - /Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-nc-ns-ymg-hodge-program.md
@@ -246,14 +262,14 @@ connections:
     label: re-read as tail leakage, flux-debt, and geometry commutator
   - from: modernization-overlays
     to: theorem-primary-current-route
-    label: candidate upgrade path if same-surface discharge is proved
+    label: active torus-first internal spine feeding the live route
   - from: cross-folder-sidecars
     to: modernization-overlays
     label: derivation support and vocabulary sharpening only
 warnings:
   - Generated builder output currently overstates closure relative to the release and review stack.
-  - Theorem-to-warrant and route-hypothesis carry stale route language and cannot be used as the sole live authority.
-  - System graph impacts for NS are lagging behind the lane's actual live obstruction map.
+  - Theorem-to-warrant and route-hypothesis can lag the torus-first branch lock and cannot be used as sole live authority.
+  - System graph impacts for NS have been lagging the torus-first internal route and SG.4 live obstruction map.
 current_leading_edge:
   label: one-survivor-family triangle
   statement: >

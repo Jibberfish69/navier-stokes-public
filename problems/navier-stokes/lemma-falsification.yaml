@@ -4,42 +4,17 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   falsification_id: lemma-falsification-navier-stokes
-  generated_at: '2026-04-09T21:19:17Z'
+  generated_at: '2026-04-12T20:18:53Z'
   generator: system/runner/lib/lemma_falsification_builder.rb
   source_branch_set_id: extension-branches-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
 results:
 - branch_id: branch-navier-stokes-1
-  origin_obligation_id: marvin-upstream-2adc051dd3a8
-  verdict: survives-first-pass
+  origin_obligation_id: tps-one-sided-defect-bridge
+  verdict: quarantine
   reasons:
-  - The branch stays close to the grounded lexicon and does not overclaim on its face.
-- branch_id: branch-navier-stokes-2
-  origin_obligation_id: marvin-upstream-269065c546af
-  verdict: reject
-  reasons:
-  - The branch leans into overclaim or unsafe-closure language.
-- branch_id: branch-navier-stokes-3
-  origin_obligation_id: marvin-upstream-558cbb8323fd
-  verdict: reject
-  reasons:
-  - The branch leans into overclaim or unsafe-closure language.
-- branch_id: branch-navier-stokes-4
-  origin_obligation_id: marvin-upstream-5d4a55021542
-  verdict: reject
-  reasons:
-  - The branch leans into overclaim or unsafe-closure language.
-- branch_id: branch-navier-stokes-5
-  origin_obligation_id: marvin-upstream-8880078593dc
-  verdict: reject
-  reasons:
-  - The branch leans into overclaim or unsafe-closure language.
-- branch_id: branch-navier-stokes-6
-  origin_obligation_id: marvin-upstream-0fdc65ea42d5
-  verdict: reject
-  reasons:
-  - The branch leans into overclaim or unsafe-closure language.
+  - This is a route branch rather than a local theorem bridge, so it stays quarantined.
 summary:
-  survives_first_pass_count: 1
-  quarantined_count: 0
-  rejected_count: 5
+  survives_first_pass_count: 0
+  quarantined_count: 1
+  rejected_count: 0

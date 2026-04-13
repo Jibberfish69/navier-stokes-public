@@ -11,17 +11,24 @@ The point is that the selector-local TPS route does not need a separate ad hoc
 control mechanism for `\delta_J`. It already receives one from any route that
 supplies a time-integrable high-frequency tail for the velocity.
 
+For the current live route, this bridge is internal to the torus-first branch.
+Any whole-space analogue belongs to a later export theorem, not to the primary
+TPS chain.
+
 ## Setup
 
-Fix a smooth solution `u` of three-dimensional incompressible Navier--Stokes on
-`[0,T_J]\times\mathbb R^3`. For one fixed frequency cutoff `J`, split
+Fix a smooth periodic solution `u` of three-dimensional incompressible
+Navier--Stokes on `[0,T_J]\times\mathbb T^3`, and use the same symbol for its
+periodic lift to `\mathbb R^3`. For one fixed frequency cutoff `J`, split
 
 ```math
 u=u_{\le J}+u_{>J}.
 \tag{HF.1}
 ```
 
-Let `X(a,t)` be the full Lagrangian flow and `X_{\le J}(a,t)` the coarse flow:
+Let `X(a,t)` be a chosen lift to `\mathbb R^3` of the full torus Lagrangian
+flow and `X_{\le J}(a,t)` the corresponding chosen lift of the coarse torus
+flow, both started from the same lifted initial point for each `a\in G_J`:
 
 ```math
 \partial_t X(a,t)=u(X(a,t),t),

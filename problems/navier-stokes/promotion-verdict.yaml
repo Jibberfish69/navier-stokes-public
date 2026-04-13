@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   verdict_id: promotion-verdict-navier-stokes
-  generated_at: '2026-04-09T21:19:17Z'
+  generated_at: '2026-04-12T20:18:53Z'
   generator: system/runner/lib/promotion_verdict_builder.rb
   source_branch_set_id: extension-branches-navier-stokes
   source_falsification_id: lemma-falsification-navier-stokes
@@ -12,42 +12,12 @@ promotion_policy: Promotion only moves a machine branch into tentative proof ass
   It does not merge the branch into the frozen core or discharge the originating obligation.
 branches:
 - branch_id: branch-navier-stokes-1
-  origin_obligation_id: marvin-upstream-2adc051dd3a8
-  promotion_status: promoted-to-assembly
-  merge_target: proof-assembly
+  origin_obligation_id: tps-one-sided-defect-bridge
+  promotion_status: quarantined
+  merge_target:
   reasons:
-  - The branch stays close to the grounded lexicon and does not overclaim on its face.
-- branch_id: branch-navier-stokes-2
-  origin_obligation_id: marvin-upstream-269065c546af
-  promotion_status: rejected
-  merge_target: 
-  reasons:
-  - The branch leans into overclaim or unsafe-closure language.
-- branch_id: branch-navier-stokes-3
-  origin_obligation_id: marvin-upstream-558cbb8323fd
-  promotion_status: rejected
-  merge_target: 
-  reasons:
-  - The branch leans into overclaim or unsafe-closure language.
-- branch_id: branch-navier-stokes-4
-  origin_obligation_id: marvin-upstream-5d4a55021542
-  promotion_status: rejected
-  merge_target: 
-  reasons:
-  - The branch leans into overclaim or unsafe-closure language.
-- branch_id: branch-navier-stokes-5
-  origin_obligation_id: marvin-upstream-8880078593dc
-  promotion_status: rejected
-  merge_target: 
-  reasons:
-  - The branch leans into overclaim or unsafe-closure language.
-- branch_id: branch-navier-stokes-6
-  origin_obligation_id: marvin-upstream-0fdc65ea42d5
-  promotion_status: rejected
-  merge_target: 
-  reasons:
-  - The branch leans into overclaim or unsafe-closure language.
+  - This is a route branch rather than a local theorem bridge, so it stays quarantined.
 summary:
-  promoted_count: 1
-  quarantined_count: 0
-  rejected_count: 5
+  promoted_count: 0
+  quarantined_count: 1
+  rejected_count: 0
