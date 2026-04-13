@@ -519,6 +519,16 @@ through three synchronized readouts:
 }
 ```
 
+That triangle is still the correct classical core. But on the current
+torus-first selector route it is no longer the full visible readout dictionary.
+The live `SG.4` wall is the selector-facing face of that same survivor, and the
+pair-defect / projective packets refine that face further into the one-sided
+defect `[\lambda_J-\mathfrak s_J]_+`, the directional defect `\Xi_J`, and, on
+the exact-potential branch, the projector gap
+`\frac12\|P_{ab}-P_{J,\top}^{seg}\|_F^2`, with `W_J` serving as the signless
+observable carrier rather than the defect itself. See
+[four-body-survivor-to-selector-readout-dictionary.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/four-body-survivor-to-selector-readout-dictionary.md).
+
 If a future note closes that triangle on one accepted classical theorem
 surface, that will be a genuine route upgrade.
 

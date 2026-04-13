@@ -23,6 +23,14 @@ spectral / bundle transversality
 -> SG.4
 ```
 
+This selector burden should be read as the current selector-adapted readout of
+the older four-body `4 -> 1` survivor family, not as a separate theorem
+program. On the source stack, the older lifted remainder / Body I leakage /
+flux-debt / geometry-commutator packets remain synchronized faces of that same
+survivor, while the current selector route refines the live face further
+through `PD.70`, `\Xi_J`, and on the exact-potential branch `PSJ+`. See
+[four-body-survivor-to-selector-readout-dictionary.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/four-body-survivor-to-selector-readout-dictionary.md).
+
 This is the only irreducible torus-first live theorem wall. The older
 seven-item frontier count should be read only as a route dashboard:
 torus-first branch lock, bridge-route label, strong-entry transfer, conditional

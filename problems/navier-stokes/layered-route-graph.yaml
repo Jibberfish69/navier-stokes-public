@@ -271,9 +271,12 @@ warnings:
   - Theorem-to-warrant and route-hypothesis can lag the torus-first branch lock and cannot be used as sole live authority.
   - System graph impacts for NS have been lagging the torus-first internal route and SG.4 live obstruction map.
 current_leading_edge:
-  label: one-survivor-family triangle
+  label: one-survivor-family selector readout
   statement: >
     The leading edge is the attempt to identify one same survivor family through
-    the synchronized readouts tail leakage <-> tower flux-debt <->
-    deformation-geometry commutator.
+    the synchronized classical readouts tail leakage <-> tower flux-debt <->
+    deformation-geometry commutator, and then carry that same survivor onto the
+    live selector surface as the SG.4 lower-envelope face refined by the
+    one-sided defect `[\lambda_J-\mathfrak s_J]_+`, the directional defect
+    `\Xi_J`, and on the exact-potential branch the projective selector readout.
   canonical_surface: /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/ns-layered-route-graph.md
