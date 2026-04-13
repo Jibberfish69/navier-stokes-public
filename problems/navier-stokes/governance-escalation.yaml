@@ -1,6 +1,6 @@
 ---
 version: 1
-status: open
+status: resolved
 identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
@@ -42,3 +42,8 @@ open_paths:
     source_frontier: problems/navier-stokes/source-frontier.yaml
     proof_assembly: problems/navier-stokes/proof-assembly.yaml
     review_verdict: problems/navier-stokes/review-verdict.yaml
+resolution:
+  resolved_at: '2026-04-13T00:10:14Z'
+  resolved_by_chat_id: chat2
+  resolution_kind: shared-code-changed-and-lane-advanced
+  current_code_fingerprint: 148b4d6eb8a21d236cad7bd0639bb3b237d6e055

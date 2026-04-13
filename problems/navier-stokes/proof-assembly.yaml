@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-12T20:18:53Z'
+  generated_at: '2026-04-13T00:10:00Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -156,7 +156,7 @@ summary:
   frontier_context_count: 0
   frontier_route_container_count: 0
   frontier_downstream_support_count: 0
-  tracked_source_count: 121
+  tracked_source_count: 140
   synthesis_import_surface_count: 15
   ready_for_submission: false
   theorem_surface_id: theorem-surface-navier-stokes-9b8afc2a2e3e

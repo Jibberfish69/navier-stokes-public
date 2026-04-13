@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-10T00:47:00Z'
+  generated_at: '2026-04-13T00:10:18Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-baf8c79465cb
-    route_signature: baf8c79465cb40283589480a238983289d1caacf
+    surface_id: theorem-surface-navier-stokes-9b8afc2a2e3e
+    route_signature: 9b8afc2a2e3e0d9fd513b6184da56ee293c090ad
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -21,39 +21,29 @@ shared_alignment:
     - Global energy or enstrophy control is necessary but not sufficient
     - The live obstruction is the small-scale or high-frequency cascade that feeds
       blow-up
-    - A classical dyadic tail or flux estimate must suppress dangerous high-frequency
-      transfer on the theorem surface
+    - A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
+      transfer on the chosen torus-first theorem surface
     - The monotone functional must stabilize the global energy/enstrophy layer and
-      enable the compactness package on the same classical surface
+      enable the compactness package on that same periodic classical surface
     - The scale-barrier plus monotone-functional input must yield strong local compactness
-      and nonlinear tensor closure on a classical approximation family
-    - A continuation bridge must force control on the same theorem surface
+      and nonlinear tensor closure on the periodic/operator approximation family
+    - A heat-governed deformation or continuation bridge must force continuation control
+      on the same periodic theorem surface
     - If the scale-barrier, monotone-functional, compactness, and continuation packages
       all hold on the active periodic branch, then the periodic Clay branch with `f
-      = 0` follows; any whole-space statement on `R^3` is a downstream discharge/export
-      theorem rather than the internal branch itself
+      = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
+      not the internal branch itself
     route_slots:
+    - slot_id: tps-one-sided-defect-bridge
+      label: selector-adapted defect-to-strain theorem
+      kind: live-theorem-edge
+      status: frontier
+      patch_surface: problems/navier-stokes/source-frontier.yaml
     - slot_id: warrant-theorem-2.1
       label: Theorem 2.1 (Classical Closure)
       kind: theorem-warrant
       status: bridge-pending
       patch_surface: problems/navier-stokes/external-paper/sections/main-result.tex
-    - slot_id: marvin-upstream-409f183ee495
-      label: 'Define or prove: Completed the Hopf/shuffle line as a theorem-program
-        refinement. The correct algebraic fit for the time tower is the divided-power
-        Hopf law on one primitive generator, and for the mixed jet tower it is the
-        shuffle/unshuffle'
-      kind: definition
-      status: unresolved
-      patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: marvin-upstream-6d929e8a052a
-      label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-        lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the
-        exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-        red'
-      kind: definition
-      status: unresolved
-      patch_surface: problems/navier-stokes/object-formalization.yaml
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
     route_label: TPS strong/defect bridge route
@@ -64,22 +54,87 @@ shared_alignment:
       the preferred next closable fix runs through a selector-adapted defect-to-strain
       theorem from the pair-defect PDE, namely a spacetime bound on `[\lambda_J-\mathfrak
       s_J]_+`. The current proof-attempt note shows that the large-good-family extraction
-      to `SG.4B` is already formal; the irreducible new step is a selector calibration
+      to `SG.4B` is already formal; the irreducible new step is the selector calibration
       plus observability/coercivity package from `W_J` to `[\lambda_J-\mathfrak s_J]_+`.
-      Separately, the Euclidean strict-shadow discharge branch is preserved explicitly:
-      once the exact strict-shadow hypotheses are granted, `\mathrm{ShadowDef}(X)`
-      and `E_{\mathrm{sh}}(X)` vanish identically, so the unresolved whole-space burdens
-      on that secondary branch are full-data lift coverage, exact Euclidean strict
-      shadow, and global Euclidean carrier control. Any downstream `\lambda_2^+` continuation
-      step on the primary branch still requires the bridge `BR.lambda2` plus local
-      strong-solution entry on the time window.'
-    paper_treatment: '["problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md",
+      More exactly, after the spectral floor and bundle-angle losses are peeled off,
+      the exact remaining pair-defect-facing theorem is the residual pairwise closure
+      `(PD.70q)` / `(PD.70s)` controlling `\mathcal E_J^{dir}+\mathcal E_J^{loop}`
+      by `\mathcal E_J^{obs}`. Concretely, that residual theorem packages direction
+      reconstruction for `M_J^2\Xi_J^2`, loop reconstruction for `\operatorname{Err}_J^{loop}`,
+      and augmented parabolic domination by the pair-defect observation packet. The
+      preferred local endgame is now the sign-compatible projective packet on the
+      exact-potential branch: from the signless pair-defect packet `W_J`, recover
+      a rank-one projector or projective line field on the transported good family
+      and compare it to the top strain projector, thereby forcing `1-(e_{ab}\cdot
+      n_J)^2\lesssim |W_J|^2+\mathrm{error}` and hence `\mathcal E_J^{dir}\lesssim
+      \mathcal E_J^{obs}`. The older cycle-exact polarization lemma with a measurable
+      polarity map remains an equivalent fallback formulation. At the abstract packet
+      level, transport coherence is now supportable as `TCJ''`, projector comparison
+      closes by Davis-Kahan once an observable symmetric surrogate is supplied. The
+      projective-surrogate construction side is now explicit on disk via the localized
+      projector-moment tensor `\widetilde S_J`, and the overall open theorem remains
+      `PSJ+`. On the localized projector-moment route this is the concentration estimate
+      `(PSJ+.6)`, with `PSJ+.4` retained only as one sufficient simple-top input.
+      On the measurable-derivative Cauchy-Green route, Proposition `D.7mb` reduces
+      the remaining selector-strain compatibility theorem to the explicit residual
+      budgets `|m_J(t_0)|`, `\int |Q_J^{top}(W_J^N)^*S_J^N W_J^N n_J|`, and `\int
+      |\mathcal C_J^N|\,|\partial_t S_J^N|/g_J^{str}`. The measurable-derivative-side
+      tensor `\widetilde{\mathcal C}_J^N` remains an alternate surrogate candidate,
+      but that candidate does not close the branch by itself, because the Cauchy-Green
+      metric records finite-time stretching while `P_{J,\top}^{seg}(a,b,t)` is the
+      instantaneous top strain projector. Accordingly, the exact remaining projective
+      burden is now split explicitly into pair-to-cocycle synchronization from the
+      signless pair packet into a transported projector field, and selector-strain
+      compatibility comparing the top Cauchy-Green projector to `P_{J,\top}^{seg}(a,b,t)`.
+      Outside that branch, the exact remaining Hodge burden is best read in expanded
+      form as directional observability, harmonic observability, loop reconstruction
+      from the harmonic ledger, and a vanishing selector-calibration error budget.
+      Equivalently, `SG.4P` now consumes this branch-sensitive split directly; the
+      exact-potential branch closes with the projective line-recovery / polarization
+      theorem, while on the general Hodge branch the genuine new core is direction
+      observability, harmonic observability, and selector-ledger vanishing, with loop-from-harmonic
+      serving as the downstream export step. The abstract `\Xi_J` gap is now closed
+      on the theorem-shape side: on the simple-top branch one may take the concrete
+      angle defect `\Xi_J^{ang}=1-(e_{ab}\cdot n_J)^2`, equivalently the angular-forcing
+      budget `\beta_J^2/g_J`, and on the normal-covector branch one may take `\Xi_J^{\perp}=|n_J(a)\cdot
+      e_{ab}|^2`. The exact remaining theorem is therefore selector-adapted observability
+      from `W_J` to one of these concrete directional ledgers, together with the final
+      weighted-to-linear upgrade on the normal-covector subroute if that route is
+      used. On that subroute, the weighted `L^4` closure and its finite-measure square-root
+      upgrade are already formal; the exact remaining slot is the full linear upgrade
+      to `PD.70z`, now localized to three explicit sufficient routes: the strengthened
+      quadratic calibration `(CN.13j)`, the support-smallness self-improvement `(CN.13q)`,
+      or a weighted quadratic observability theorem under two-sided weight control
+      `(CN.13ab)`-`(CN.13ad)` on the transported good family. A formal no-go proposition
+      is now also on disk: signless `W_J` and its current PDE coercive bounds cannot
+      by themselves force the one-sided directional deficit, even on the cycle-exact
+      branch, so an added projective synchronization, projector-comparison, or alignment
+      theorem is mathematically necessary. YM-heat/deformation geometry now sits one
+      layer upstream as the supplier of the spectral floor/coherence packet consumed
+      by that residual closure. The older seven-item frontier count is only a route-level
+      dashboard: the torus-first internal branch, the TPS strong/defect bridge route,
+      strong-entry transfer, the conditional Leray/suitable-weak endpoint, the downstream
+      `\lambda_2^+` reduction, and the Euclidean strict-shadow branch are not six
+      additional independent live theorem lemmas. The irreducible live theorem frontier
+      is the selector-adapted defect-to-strain theorem alone, with exact cycle-exact
+      cuts on the projective-synchronization / normal-covector side and the three-slot
+      Hodge core `(PD.70z12)`-`(PD.70z14)` on the general branch. Separately, the
+      Euclidean strict-shadow discharge branch is preserved explicitly: once the exact
+      strict-shadow hypotheses are granted, `\mathrm{ShadowDef}(X)` and `E_{\mathrm{sh}}(X)`
+      vanish identically, so the unresolved whole-space burdens on that secondary
+      branch are full-data lift coverage, exact Euclidean strict shadow, and global
+      Euclidean carrier control. Any downstream `\lambda_2^+` continuation step on
+      the primary branch still requires the bridge `BR.lambda2` plus local strong-solution
+      entry on the time window.'
+    paper_treatment: '["problems/navier-stokes/theorem-construction/live-frontier-honest-cut-reduction.md",
+      "problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md",
       "problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md",
-      "problems/navier-stokes/theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md"]'
+      "problems/navier-stokes/theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md",
+      "problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md"]'
   promoted_obligation_count: 8
   missing_promoted_obligation_count: 0
   missing_promoted_obligations: []
-  route_authority_candidate_count: 27
+  route_authority_candidate_count: 47
   missing_route_authority_candidate_count: 0
   missing_route_authority_candidates: []
   promoted_proof_packet_count: 0
@@ -101,58 +156,23 @@ shared_alignment:
       or sy'
   compiled_import_summary:
     bucket_counts:
-      local-discharge-support: 65
+      local-discharge-support: 124
     route_slot_labels:
-    - 'Define or prove: Reduced the live Navier-Stokes route stack against the Clay
-      whole-space target into exact source-backed ingredients already present on the
-      lane. On the classical side, isolated the mixed-jet system, the exact rung-level
-      can'
-    - 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    - 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    - 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-      and E_sh(X) vanish identically, so the exact Route '
-    - 'Define or prove: Added two new theorem-facing reductions on the active torus-first
-      internal branch.'
+    - Theorem 2.1 (Classical Closure)
+    - selector-adapted defect-to-strain theorem
   alignment_reroute: route-synthesis
 local_derivation:
   status: packetize-and-derive
-  required_packet_count: 3
+  required_packet_count: 2
   required_packets:
-  - packet_id: marvin-upstream-6d929e8a052a
-    label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    target_patch_surface: problems/navier-stokes/object-formalization.yaml
+  - packet_id: tps-one-sided-defect-bridge
+    label: selector-adapted defect-to-strain theorem
+    packet_kind: live-theorem-edge
+    source_kind: live-solver-target
+    recommended_stage: dependency-discharge
+    target_patch_surface: problems/navier-stokes/source-frontier.yaml
     matched_route_slot_labels:
-    - 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T020719Z-04949830208e.md
-  - packet_id: marvin-upstream-409f183ee495
-    label: 'Define or prove: Completed the Hopf/shuffle line as a theorem-program
-      refinement. The correct algebraic fit for the time tower is the divided-power
-      Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    target_patch_surface: problems/navier-stokes/object-formalization.yaml
-    matched_route_slot_labels:
-    - 'Define or prove: Reduced the live Navier-Stokes route stack against the Clay
-      whole-space target into exact source-backed ingredients already present on the
-      lane. On the classical side, isolated the mixed-jet system, the exact rung-level
-      can'
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260407T191622Z-e3045e4591c9.md
+    - selector-adapted defect-to-strain theorem
   - packet_id: warrant-theorem-2.1
     label: Theorem 2.1 (Classical Closure)
     packet_kind: theorem-warrant
@@ -163,7 +183,7 @@ local_derivation:
     - Theorem 2.1 (Classical Closure)
   leadership_status: leading
   net_new_local_theorem_count: 1
-  recommended_next_cell_type: object-formalization
+  recommended_next_cell_type: dependency-discharge
 cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 1
@@ -182,20 +202,13 @@ cross_lane_broadcast:
 frontier_projection:
   status: ready
   primary_target:
-    label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    recommended_stage: object-formalization
-    target_patch_surface: problems/navier-stokes/object-formalization.yaml
+    label: selector-adapted defect-to-strain theorem
+    recommended_stage: dependency-discharge
+    target_patch_surface: problems/navier-stokes/source-frontier.yaml
   one_step_beyond:
-  - label: 'Define or prove: Completed the Hopf/shuffle line as a theorem-program
-      refinement. The correct algebraic fit for the time tower is the divided-power
-      Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle'
-    recommended_stage: object-formalization
-  two_steps_beyond:
   - label: Theorem 2.1 (Classical Closure)
     recommended_stage: dependency-discharge
+  two_steps_beyond: []
   route_pressure:
   - headline: Research OS Theorem Packet
     requested_frontier: 'Theorem packet: Added four theorem-construction reductions.
@@ -204,18 +217,18 @@ frontier_projection:
       the exact Route A'
   - headline: Research OS Theorem Packet
     requested_frontier: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
-  recommended_next_cell_type: object-formalization
+  recommended_next_cell_type: dependency-discharge
 summary:
   phase: local-derivation
-  execution_state: needs-reroute
+  execution_state: blocked
   leadership_status: leading
   alignment_complete: true
-  exact_local_packet_count: 3
+  exact_local_packet_count: 2
   net_new_local_theorem_count: 1
-  projected_frontier_count: 2
-  current_open_obligation_count: 9
+  projected_frontier_count: 1
+  current_open_obligation_count: 2
   open_obligations_state: not-currently-worked
-  on_recommended_track: false
-  recommended_next_cell_type: object-formalization
-  current_next_cell_type: route-synthesis
+  on_recommended_track: true
+  recommended_next_cell_type: dependency-discharge
+  current_next_cell_type: dependency-discharge
   current_next_cell_is_theorem_work: true

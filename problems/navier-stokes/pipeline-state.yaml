@@ -6,12 +6,12 @@ identity:
   folder_name: navier-stokes
 workflow:
   status: ready
-  current_stage: governance-recheck
-  highest_artifact: proof-assembly
-  owner_cell: marvin-ingest
-  next_cell_type: solver-loop
-  next_action: Run solver-loop while shared/global reads stay redacted to lane-safe
-    summaries.
+  current_stage: theorem-crank-reroute
+  highest_artifact: theorem-crank
+  owner_cell: automation-auto-repair
+  next_cell_type: dependency-discharge
+  next_action: Run dependency-discharge and keep the lane on exact theorem discharge
+    until open obligations shrink.
 artifacts:
   agent_contract:
     path: problems/navier-stokes/agent-contract.yaml
@@ -107,8 +107,9 @@ artifacts:
     path: problems/navier-stokes/finish-plan.yaml
     status: present
 automation:
-  queue_state: ready
-  blocking_reasons: []
+  queue_state: blocked
+  blocking_reasons:
+  - awaiting shared governance repair
   writable_targets:
   - problems/navier-stokes/pipeline-state.yaml
   - problems/navier-stokes/marvin-ingest-notes.yaml
@@ -125,6 +126,7 @@ automation:
   - problems/navier-stokes/lane-classification.yaml
   - problems/navier-stokes/agent-contract.yaml
   - problems/navier-stokes/finish-plan.yaml
+  - problems/navier-stokes/theorem-crank.yaml
   governance_escalation:
     status: open
     requested_at: '2026-04-12T20:19:11Z'
@@ -270,6 +272,22 @@ automation:
     persistent_runtime_required: true
     agent_contract_path: problems/navier-stokes/agent-contract.yaml
     finish_plan_path: problems/navier-stokes/finish-plan.yaml
+  active_lease:
+  last_run:
+    status: completed
+    cell_id: solver-loop-navier-stokes-20260413T001000Z
+    cell_type: solver-loop
+    started_at: '2026-04-13T00:10:00Z'
+    completed_at: '2026-04-13T00:10:00Z'
+    event_file: problems/navier-stokes/runtime/meta/latest-event.yaml
+    next_cell_type: creative-theorem-search
+  theorem_crank_follow:
+    status: repaired
+    repaired_at: '2026-04-13T00:10:18Z'
+    repaired_by: chat2
+    from_next_cell_type: creative-theorem-search
+    to_next_cell_type: dependency-discharge
+    open_obligation_count: 2
 corpus:
   corpus_root: Millennium Prize Problems/Navier-Stokes
   source_mode: canonical-live-lane
