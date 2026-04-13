@@ -56,6 +56,35 @@ The layered route map now says the exact live survivor is the `SG.4`
 selector-good directional lower-envelope packet, while the older lifted
 high-side remainder remains one face of the same obstruction.
 
+Before that selector promotion, the modernized four-body packet already fixes
+the `Body III` role:
+
+```math
+\boxed{
+\text{Body III is the exact same-surface carrier / object-production body.}
+}
+\tag{FSD.2a}
+```
+
+It is not a new exposed defect-face parallel to Body I, II, and IV. Its role
+is to preserve and pass the current survivor through exact-object production:
+
+```math
+u^{(n)}\to u,
+\qquad
+\mathcal E_{\mathrm{live}}^{(n)}\to \mathcal E_{\mathrm{live}}[u].
+\tag{FSD.2b}
+```
+
+So the correct four-body reading is:
+
+```math
+\boxed{
+\text{Body I / II / IV expose survivor faces, while Body III supplies the same-surface carrier passage.}
+}
+\tag{FSD.2c}
+```
+
 So the lane has already moved from the three classical readouts in `(FSD.2)` to
 the selector-facing readout
 
@@ -166,6 +195,7 @@ selector-adapted normal-form reductions:
 \text{lifted remainder / Body I leakage}
 \leftrightarrow
 \text{tower flux/debt}
+\xrightarrow{\text{Body III same-surface passage}}
 \leftrightarrow
 \text{geometry commutator}
 \rightsquigarrow
@@ -185,15 +215,15 @@ selector-side chain; it is not by itself the survivor.
 
 **Proof.**
 The four-body recurrence and modernization notes already identify the classical
-survivor family `(FSD.1)`-`(FSD.2)`. The layered route map promotes that same
-obstruction to the `SG.4` selector-good lower-envelope face `(FSD.3)`. The
-pair-defect packet then refines the `SG.4` face to the one-sided selector
-deficit `(FSD.4)` and the residual pairwise closure `(FSD.6)`-`(FSD.7)`, with
-`W_J` as the signless pair observable feeding that reduction. Finally, the
-exact-potential projective packet rewrites the same directional face as the
-angular/projector defect `(FSD.8)` and isolates `PSJ+` plus selector-strain
-compatibility as the remaining theorem slots. This yields the readout chain
-`(FSD.9)`. ∎
+survivor family `(FSD.1)`-`(FSD.2)` and the Body III carrier passage
+`(FSD.2a)`-`(FSD.2c)`. The layered route map promotes that same obstruction to
+the `SG.4` selector-good lower-envelope face `(FSD.3)`. The pair-defect packet
+then refines the `SG.4` face to the one-sided selector deficit `(FSD.4)` and
+the residual pairwise closure `(FSD.6)`-`(FSD.7)`, with `W_J` as the signless
+pair observable feeding that reduction. Finally, the exact-potential
+projective packet rewrites the same directional face as the angular/projector
+defect `(FSD.8)` and isolates `PSJ+` plus selector-strain compatibility as the
+remaining theorem slots. This yields the readout chain `(FSD.9)`. ∎
 
 ## Important correction
 
@@ -203,6 +233,8 @@ So the correct lane reading is:
 
 - `SG.4` is the current selector-facing lower-envelope face of the classical
   survivor;
+- `Body III` is the exact same-surface carrier passage of that survivor, not a
+  separate defect-face;
 - `PD.70` / `PD.70s` are the selector-calibration theorems converting the
   signless pair packet into the one-sided selector deficit;
 - `PSJ+` is the exact-potential synchronization/readout theorem for that same
