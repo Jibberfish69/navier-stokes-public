@@ -4,6 +4,8 @@
 
 Separate theorem-facing note.
 
+Role: primitive statement surface for the class-membership route.
+
 This note is the route-faithful primitive surface for the current
 class-membership contradiction program. It does **not** replace the live
 selector/defect route. It does **not** introduce a generic witness bundle. Its

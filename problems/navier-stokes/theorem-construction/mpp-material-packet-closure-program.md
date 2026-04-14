@@ -4,6 +4,9 @@
 
 Candidate theorem-facing next-step note.
 
+Role: packet-program surface for the unified material packet
+`\mathcal H_N = E_N + \alpha A_F + \beta P_F`.
+
 This note does **not** claim closure of the class-membership route. Its job is
 more precise: replace the split packing/coherence discussion by one exact
 material packet carrying the three primitive laws in a single proof surface.
@@ -126,11 +129,39 @@ E_N(h,t;\psi)
 \tag{MP.9}
 ```
 
+Later, once the transported tower-defect ledger `\widetilde E_{N,r,\psi}` has
+been introduced in `(MP.26b)`, define the fused transported closure packet
+
+```math
+\widetilde{\mathcal H}_{N,r,\psi}(t)
+:=
+\widetilde E_{N,r,\psi}(t)
++
+\alpha\,A_F(t;\psi)
++
+\beta\,P_F(r,t;\psi).
+\tag{MP.9a}
+```
+
 This packet carries the primitive laws in one place:
 
 1. `E_N` carries neighboring-tower one-field coherence;
 2. `A_F` carries membership in a finite packing class;
 3. `P_F` carries shared local packing between neighboring parcels.
+
+The role split is therefore:
+
+```math
+\mathcal H_N
+\quad\text{= Eulerian-material derivation surface,}
+\tag{MP.9b}
+```
+
+```math
+\widetilde{\mathcal H}_{N,r,\psi}
+\quad\text{= transported closure surface.}
+\tag{MP.9c}
+```
 
 ## 1. Tower-Defect Evolution Law
 
@@ -305,17 +336,35 @@ C\int
 \tag{MP.20}
 ```
 
+The exact source term here is therefore
+
+```math
+\mathcal Q_{1,r,\psi}^{str}(t)
+:=
+\int
+\psi(a)^2
+\big|
+\Delta_r\big((\nabla u)\circ X\big)(a,t)
+\big|^2
+\,da.
+\tag{MP.20a}
+```
+
 This is the real bridge:
 
 ```math
 \boxed{
-\text{relative packing mismatch is driven by the rung-1 strain defect.}
+\text{relative packing mismatch is driven by the exact rung-1 material strain-defect source term }\mathcal Q_{1,r,\psi}^{str}(t).
 }
 \tag{MP.21}
 ```
 
 So the packet does not merely juxtapose packing and tower coherence. It couples
 them through the first-rung strain increment.
+
+In the transported bridge note, this exact source is bounded above by the
+larger transported rung-1 packet `\widetilde E_{1,r,\psi}(t)`. That upper bound
+is valid, but it is not the literal source term in `(MP.20)`.
 
 ## First-Exit Theorem Shape
 
@@ -380,8 +429,9 @@ inside a positive-time viscous field.
 
 ### Layer 2. Dynamical propagation
 
-Show that the strain-generated cascade cannot drive `E_N` and `P_F` out of
-control before `A_F` itself breaks.
+Show that the strain-generated cascade cannot drive the transported tower
+coherence ledger `\widetilde E_{N,r,\psi}` and `P_F` out of control before
+`A_F` itself breaks.
 
 So the route is no longer diffuse. The packet reduces it to one dynamical
 question.
@@ -390,35 +440,63 @@ question.
 
 The smallest presently visible packet-local closure hypothesis sits at rung `1`.
 
-Define the material strain-defect control
+Using the transported defect ledger from the bridge note,
 
 ```math
-\mathfrak S_1(\rho,I;\psi)
+\widetilde E_{1,r,\psi}(t)
 :=
-\sup_{t\in I}\sup_{0<|h|\le \rho} E_1(h,t;\psi)
+\sum_{k=0}^{1}\lambda_k
+\int_{\mathbf R^3}
+\psi(a)^2\,|\Delta_r^X U_k(a,t)|^2\,da,
+\tag{MP.26a}
+```
+
+and, more generally for finite depth `N`,
+
+```math
+\widetilde E_{N,r,\psi}(t)
+:=
+\sum_{k=0}^{N}\lambda_k
+\int_{\mathbf R^3}
+\psi(a)^2\,|\Delta_r^X U_k(a,t)|^2\,da,
+\tag{MP.26b}
+```
+
+define the fully fused material strain-defect control
+
+```math
+\widetilde{\mathfrak S}_1(\rho,I;\psi)
+:=
+\sup_{t\in I}\sup_{0<|r|\le \rho}\widetilde E_{1,r,\psi}(t)
 +
 \int_I
 \sup_{0<|r|\le \rho}
-\int
-\psi(a)^2
-\big|
-\Delta_r\big((\nabla u)\circ X\big)(a,t)
-\big|^2
-\,da\,dt.
+\mathcal Q_{1,r,\psi}^{str}(t)\,dt.
 \tag{MP.26}
 ```
 
+This is now fully in transported label-space:
+
+1. the first term is the transported rung-1 defect envelope;
+2. the second term is the exact rung-1 material source term from `(MP.20a)`.
+
+By the bridge inequality, the exact source term is controlled by the first term
+up to the factor `\lambda_1^{-1}`. But keeping both pieces visible preserves
+the exact source-versus-envelope hierarchy instead of flattening the source term
+into the larger packet.
+
 This is the smallest visible closure hypothesis because:
 
-1. the `E_1` term is the first tower-defect ledger that already sees strain;
-2. the material increment of `(\nabla u)\circ X` is exactly the driver in the
+1. `\widetilde E_{1,r,\psi}` is the transported rung-1 control envelope for
+   local tower coherence;
+2. the exact source term `\mathcal Q_{1,r,\psi}^{str}` is the driver in the
    relative deformation law `(MP.20)`.
 
 So the exact current frontier is:
 
 ```math
 \boxed{
-\text{what strain-defect control is sufficient to propagate both }E_N\text{ and }P_F\text{ on a material packet?}
+\text{what strain-defect control is sufficient to propagate both }\widetilde E_{N,r,\psi}\text{ and }P_F\text{ on a material packet?}
 }
 \tag{MP.27}
 ```
@@ -427,13 +505,20 @@ More concretely, the route now points at proving a theorem of the following
 shape:
 
 ```math
-\mathfrak S_1(\rho,I;\psi)<\infty
+\widetilde{\mathfrak S}_1(\rho,I;\psi)<\infty
 \Longrightarrow
-\sup_{t\in I}E_N(h,t;\psi)+\sup_{t\in I}P_F(r,t;\psi)<\infty
+\sup_{t\in I}\sup_{0<|r|\le \rho}\widetilde E_{N,r,\psi}(t)
++
+\sup_{t\in I}\sup_{0<|r|\le \rho}P_F(r,t;\psi)
++
+\sup_{t\in I}A_F(t;\psi)
+<\infty
 \tag{MP.28}
 ```
 
-for finite depth `N`, with quantitative smallness as `h,r\to 0`.
+for finite depth `N`, with quantitative smallness as `r\to 0`. Here the
+`A_F` term is propagated in parallel through the amplitude law `(MP.17)`, so
+the conclusion is now a true packet-propagation statement.
 
 ## Exact Boundary
 
@@ -448,20 +533,23 @@ It only sharpens the next proof surface:
 
 ```math
 \boxed{
-\text{the route should now be carried by one material packet }
-\mathcal H_N
-\text{ and by the rung-1 strain-defect bridge between }E_N\text{ and }P_F.
+\text{the live route should now be carried by the transported closure packet }
+\widetilde{\mathcal H}_{N,r,\psi}
+\text{ and by the rung-1 strain-defect bridge between }\widetilde E_{N,r,\psi}\text{ and }P_F,
 }
 \tag{MP.29}
 ```
+
+with `A_F` propagated in parallel by `(MP.17)`.
 
 ## Source Surfaces
 
 Primary source surfaces for this program:
 
 1. `problems/navier-stokes/theorem-construction/mpp-shared-participation-and-tower-coherence-law.md`
-2. `problems/navier-stokes/theorem-construction/mpp-scalarized-neighboring-tower-defect-energy-note.md`
+2. `problems/navier-stokes/theorem-construction/mpp-transported-material-packet-bridge-lemma.md`
 3. `problems/navier-stokes/theorem-construction/mpp-primitive-class-laws-note.md`
-4. `problems/navier-stokes/theorem-construction/mixed-jet-cross-rung-pairing-matrix.md`
-5. `problems/navier-stokes/theorem-construction/mixed-jet-across-rung-feed-picture.md`
-6. `problems/navier-stokes/theorem-construction/mpp-flow-map-and-tower-continuation-note.md`
+4. `problems/navier-stokes/theorem-construction/mpp-scalarized-neighboring-tower-defect-energy-note.md` (predecessor context)
+5. `problems/navier-stokes/theorem-construction/mixed-jet-cross-rung-pairing-matrix.md`
+6. `problems/navier-stokes/theorem-construction/mixed-jet-across-rung-feed-picture.md`
+7. `problems/navier-stokes/theorem-construction/mpp-flow-map-and-tower-continuation-note.md`

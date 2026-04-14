@@ -4,6 +4,8 @@
 
 Candidate leading-edge theorem-facing note.
 
+Role: PDE-native derivation surface for the primitive class laws.
+
 This note writes the PDE-native class-membership route now being developed in
 chat. The flow-map law, tower carrier law, and finite-difference tower law are
 direct consequences of the classical incompressible Navier--Stokes equations.
@@ -467,12 +469,15 @@ So the proof burden becomes:
 This is the sharp route-native question exposed by the PDE itself.
 
 The next packet-level sharpening of this question is recorded separately in
-`mpp-scalarized-neighboring-tower-defect-energy-note.md`, where the proof
-surface is upgraded to one material packet carrying:
+`mpp-material-packet-closure-program.md`, where the proof surface is upgraded
+to one material packet carrying:
 
 1. tower coherence through `E_N(h,t;\psi)`;
 2. absolute packing distortion through `A_F(t;\psi)`;
 3. relative packing mismatch through `P_F(r,t;\psi)`.
+
+The exact fusion identities tying that packet to transported parcel separation
+are then recorded in `mpp-transported-material-packet-bridge-lemma.md`.
 
 ## Boundary
 

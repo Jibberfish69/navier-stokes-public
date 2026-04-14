@@ -2,11 +2,17 @@
 
 ## Status
 
-Candidate leading-edge theorem-facing note.
+Candidate second-stage theorem-facing note.
 
-This note is the next layer after the material-packet surface in
-`mpp-scalarized-neighboring-tower-defect-energy-note.md`. Its purpose is
-narrow:
+Role: direct transported refinement surface for the material packet after the
+comparison layer.
+
+This note now sits after the comparison note
+`mpp-eulerian-to-transported-comparison-lemma.md`,
+which is the cleaner immediate next theorem because the Eulerian defect law
+already carries the native Navier--Stokes coercive structure.
+
+The purpose here is narrower:
 
 1. define the transported defect energy on one label-indexed packet;
 2. prove the exact bridge identities that fuse the label-space packing side and
@@ -317,6 +323,29 @@ Indeed,
 \tag{TB.26}
 ```
 
+Define the exact rung-1 geometric source term
+
+```math
+\mathcal Q_{1,r,\psi}^{str}(t)
+:=
+\int_{\mathbf R^3}
+\psi(a)^2\,|\Delta_r^X U_1(a,t)|^2\,da
+=
+\int_{\mathbf R^3}
+\psi(a)^2\,\big|\Delta_r((\nabla u)\circ X)(a,t)\big|^2\,da.
+\tag{TB.26a}
+```
+
+Since `\lambda_1>0` and `\widetilde E_{1,r,\psi}` contains the rung-1 term, one
+has the exact upper bound
+
+```math
+\mathcal Q_{1,r,\psi}^{str}(t)
+\le
+\lambda_1^{-1}\,\widetilde E_{1,r,\psi}(t).
+\tag{TB.26b}
+```
+
 ## Schematic Relative Packing Inequality
 
 Let
@@ -352,15 +381,17 @@ Young at the schematic level gives
 \lesssim
 \Lambda_{\psi,r}(t)\,P_F(r,t;\psi)
 +
-A_F^\sharp(t;\psi,r)\,\widetilde E_{1,r,\psi}(t),
+A_F^\sharp(t;\psi,r)\,\mathcal Q_{1,r,\psi}^{str}(t),
 \tag{TB.28}
 ```
 
 Here `A_F^\sharp` is the exact packetwise absolute distortion ledger after the
 harmless shift needed to compare the `a` and `a+r` locations.
 
-So the first-rung transported defect is the exact source term for relative
-packing mismatch.
+So the exact source term for relative packing mismatch is the rung-1 transported
+strain defect `\mathcal Q_{1,r,\psi}^{str}(t)`. The larger transported packet
+`\widetilde E_{1,r,\psi}(t)` is a valid controlling upper bound by `(TB.26b)`,
+but it is not literally the source term in `(TB.28)`.
 
 ## Schematic Packet Inequality
 
@@ -393,7 +424,7 @@ The theorem target now visible is:
 
 ```math
 \boxed{
-\text{control of the rung-1 transported defect should propagate both tower coherence and packing coherence on one material packet.}
+\text{control of the exact rung-1 transported source term should propagate both tower coherence and packing coherence on one material packet.}
 }
 \tag{TB.30}
 ```
@@ -402,12 +433,20 @@ Equivalently, the sharp local closure question is:
 
 ```math
 \boxed{
-\text{what exact control on }\widetilde E_{1,r,\psi}(t)\text{ is sufficient to keep }P_F(r,t;\psi)\text{ small and }A_F(t;\psi)\text{ finite?}
+\text{what exact control on }\mathcal Q_{1,r,\psi}^{str}(t)\text{ is sufficient to keep }P_F(r,t;\psi)\text{ small and }A_F(t;\psi)\text{ finite?}
 }
 \tag{TB.31}
 ```
 
-That is the fused packet frontier.
+If one prefers to work with the larger transported packet, `(TB.26b)` gives the
+conservative reformulation
+
+```math
+\mathcal Q_{1,r,\psi}^{str}(t)\ \text{controlled by}\ \widetilde E_{1,r,\psi}(t).
+\tag{TB.31a}
+```
+
+That is the exact sense in which `\widetilde E_{1,r,\psi}` may be used here.
 
 ## Boundary
 
@@ -430,7 +469,7 @@ What it does settle is narrower:
 
 ```math
 \boxed{
-\text{and the rung-1 transported defect is the exact bridge from tower coherence to relative packing mismatch.}
+\text{and the exact bridge from tower coherence to relative packing mismatch is the rung-1 source term }\mathcal Q_{1,r,\psi}^{str},\text{ which is controlled by }\widetilde E_{1,r,\psi}.
 }
 \tag{TB.32}
 ```

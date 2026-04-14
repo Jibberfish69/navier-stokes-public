@@ -4,6 +4,13 @@
 
 Candidate leading-edge update.
 
+Role: developmental predecessor into the material-packet program.
+
+This note should be read as stepping-stone context now that
+`mpp-material-packet-closure-program.md` carries the live packet-program
+surface and `mpp-transported-material-packet-bridge-lemma.md` carries the exact
+fusion identities.
+
 This note corrects the earlier scalarized neighboring-tower defect surface. The
 fixed Eulerian cutoff version was too weak for the current route because it did
 not yet carry:
@@ -450,6 +457,9 @@ That is the sharp bridge between one shared field and one shared packing law.
 The exact bridge identities and the fused transported packet
 `\widetilde E_{N,r,\psi}` are recorded separately in
 `mpp-transported-material-packet-bridge-lemma.md`.
+
+The live packet-program surface itself is now
+`mpp-material-packet-closure-program.md`.
 
 ## Boundary
 
