@@ -297,6 +297,8 @@ published_files:
 - theorem-construction/monotone-to-cascade-carrier.md
 - theorem-construction/moving-constraint-defect-program.md
 - theorem-construction/moving-spill-fixed-offset-reduction-lemma.md
+- theorem-construction/mpp-class-membership-endpoint-exclusion-note.md
+- theorem-construction/mpp-flow-map-and-tower-continuation-note.md
 - theorem-construction/named-monotone-bridge-explanation.md
 - theorem-construction/non-diagonal-tower-functional-preliminary-verdict.md
 - theorem-construction/noncoherent-leakage-export-theorem.md
