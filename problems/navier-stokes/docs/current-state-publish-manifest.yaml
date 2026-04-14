@@ -305,11 +305,13 @@ published_files:
 - theorem-construction/mpp-class-membership-contradiction-source-locked-note.md
 - theorem-construction/mpp-class-membership-endpoint-exclusion-note.md
 - theorem-construction/mpp-flow-map-and-tower-continuation-note.md
+- theorem-construction/mpp-material-packet-closure-program.md
 - theorem-construction/mpp-primitive-class-laws-note.md
 - theorem-construction/mpp-route-native-witness-bundle-note.md
 - theorem-construction/mpp-scalarized-neighboring-tower-defect-energy-note.md
 - theorem-construction/mpp-shared-packing-exact-predicate-draft.md
 - theorem-construction/mpp-shared-participation-and-tower-coherence-law.md
+- theorem-construction/mpp-transported-material-packet-bridge-lemma.md
 - theorem-construction/named-monotone-bridge-explanation.md
 - theorem-construction/non-diagonal-tower-functional-preliminary-verdict.md
 - theorem-construction/noncoherent-leakage-export-theorem.md
