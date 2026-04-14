@@ -64,6 +64,7 @@ published_files:
 - chat29-status.yaml
 - claim-ladder.md
 - closure-audit-source-pack.md
+- codex-approach-alignment-and-assent-delta-card.md
 - codex-question-chain-intent-delta-card.md
 - codex-route-fidelity-delta-card.md
 - compactness-discharge-source-pack.md
@@ -300,6 +301,7 @@ published_files:
 - theorem-construction/moving-constraint-defect-program.md
 - theorem-construction/moving-spill-fixed-offset-reduction-lemma.md
 - theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
+- theorem-construction/mpp-class-membership-contradiction-source-locked-note.md
 - theorem-construction/mpp-class-membership-endpoint-exclusion-note.md
 - theorem-construction/mpp-flow-map-and-tower-continuation-note.md
 - theorem-construction/mpp-primitive-class-laws-note.md
