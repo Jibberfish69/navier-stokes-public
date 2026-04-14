@@ -258,13 +258,40 @@ Those moves may become useful later, but they are not the primitive route.
 
 ## Exact Next Burden
 
-The next burden, still inside this primitive surface, is:
+The next sharpening step is now explicit:
+
+```math
+\boxed{
+\text{derive the primitive class laws directly from the PDE-generated packing and tower carriers,}
+}
+```
+
+```math
+\boxed{
+\text{and lead the proof engine with finite-difference tower coherence rather than a generic witness bundle.}
+}
+\tag{PL.20}
+```
+
+That PDE-native sharpening is recorded separately in
+`mpp-shared-participation-and-tower-coherence-law.md`. The role of that note is:
+
+1. flow-map / deformation law for shared packing;
+2. tower carrier law `D_t U_k = K_k + B_k` for shared participation;
+3. finite-difference tower law for one shared field coherence;
+4. localized tower-defect energy as the current proof-engine surface.
+
+So the present note remains the primitive statement surface, while the new note
+pushes the route one layer deeper into PDE-generated structure without
+collapsing it into a standard continuation package.
+
+Inside this primitive surface, the remaining burden is:
 
 ```math
 \boxed{
 \text{turn each primitive class law into an exact analytic predicate without replacing the law by a generic substitute.}
 }
-\tag{PL.20}
+\tag{PL.21}
 ```
 
 Meaning:
