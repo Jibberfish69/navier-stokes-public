@@ -2,15 +2,15 @@
 
 ## Status
 
-Candidate second-stage theorem-facing note.
+Candidate later-stage theorem-facing note.
 
 Role: direct transported refinement surface for the material packet after the
-comparison layer.
+comparison and increment-stability layers.
 
-This note now sits after the comparison note
-`mpp-eulerian-to-transported-comparison-lemma.md`,
-which is the cleaner immediate next theorem because the Eulerian defect law
-already carries the native Navier--Stokes coercive structure.
+This note now sits after the safe comparison repair
+`mpp-eulerian-to-transported-comparison-lemma.md`
+and the live quantitative bridge
+`mpp-increment-stability-lemma.md`.
 
 The purpose here is narrower:
 

@@ -415,6 +415,12 @@ with direction reconstruction and loop reconstruction now treated as the two
 concrete subproblems inside that residual pairwise closure, rather than a
 monolithic “prove `PD.70` from scratch” statement.
 
+The upstream MPP-side supplier packaging for this residual bridge is recorded
+separately in
+`mpp-fused-sg4-supplier-schema.md`. That schema treats the material
+class-membership packet as an upstream error ledger, but it does **not** claim
+that the selector readout slot is manufactured from `W_J` alone.
+
 On the exact-potential branch, the graph-Hodge harmonic part vanishes and the
 loop term drops out, so the residual theorem collapses further to the
 directional estimate

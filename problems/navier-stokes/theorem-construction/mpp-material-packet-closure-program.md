@@ -520,6 +520,9 @@ for finite depth `N`, with quantitative smallness as `r\to 0`. Here the
 `A_F` term is propagated in parallel through the amplitude law `(MP.17)`, so
 the conclusion is now a true packet-propagation statement.
 
+The next exact reduction targets are `\mathcal E^{ref}_{N,r,\psi}` and
+`\mathcal M^{seg}_{N+1,r,\psi}`, as isolated by the increment-stability bridge.
+
 ## Exact Boundary
 
 This note does **not** yet prove:
@@ -549,7 +552,10 @@ Primary source surfaces for this program:
 1. `problems/navier-stokes/theorem-construction/mpp-shared-participation-and-tower-coherence-law.md`
 2. `problems/navier-stokes/theorem-construction/mpp-transported-material-packet-bridge-lemma.md`
 3. `problems/navier-stokes/theorem-construction/mpp-primitive-class-laws-note.md`
-4. `problems/navier-stokes/theorem-construction/mpp-scalarized-neighboring-tower-defect-energy-note.md` (predecessor context)
-5. `problems/navier-stokes/theorem-construction/mixed-jet-cross-rung-pairing-matrix.md`
-6. `problems/navier-stokes/theorem-construction/mixed-jet-across-rung-feed-picture.md`
-7. `problems/navier-stokes/theorem-construction/mpp-flow-map-and-tower-continuation-note.md`
+4. `problems/navier-stokes/theorem-construction/mpp-fused-sg4-supplier-schema.md`
+5. `problems/navier-stokes/theorem-construction/mpp-reference-increment-and-bridge-tube-reduction.md`
+6. `problems/navier-stokes/theorem-construction/mpp-packet-local-propagation-lemma.md`
+7. `problems/navier-stokes/theorem-construction/mpp-scalarized-neighboring-tower-defect-energy-note.md` (predecessor context)
+8. `problems/navier-stokes/theorem-construction/mixed-jet-cross-rung-pairing-matrix.md`
+9. `problems/navier-stokes/theorem-construction/mixed-jet-across-rung-feed-picture.md`
+10. `problems/navier-stokes/theorem-construction/mpp-flow-map-and-tower-continuation-note.md`

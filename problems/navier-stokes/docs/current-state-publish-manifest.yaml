@@ -307,8 +307,14 @@ published_files:
 - theorem-construction/mpp-class-membership-endpoint-exclusion-note.md
 - theorem-construction/mpp-eulerian-to-transported-comparison-lemma.md
 - theorem-construction/mpp-flow-map-and-tower-continuation-note.md
+- theorem-construction/mpp-fused-sg4-supplier-schema.md
+- theorem-construction/mpp-increment-stability-and-transported-packet-comparison.md
+- theorem-construction/mpp-increment-stability-lemma.md
 - theorem-construction/mpp-material-packet-closure-program.md
+- theorem-construction/mpp-packet-local-propagation-lemma.md
 - theorem-construction/mpp-primitive-class-laws-note.md
+- theorem-construction/mpp-reference-increment-and-bridge-tube-reduction.md
+- theorem-construction/mpp-reference-increment-and-segment-packet-reduction.md
 - theorem-construction/mpp-route-native-witness-bundle-note.md
 - theorem-construction/mpp-scalarized-neighboring-tower-defect-energy-note.md
 - theorem-construction/mpp-shared-packing-exact-predicate-draft.md
