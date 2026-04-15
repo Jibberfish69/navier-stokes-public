@@ -38,7 +38,7 @@ split burdens:
 
 ## Purpose
 
-The exact burden discharged here is:
+The exact burden coordinated here is:
 
 ```math
 \boxed{

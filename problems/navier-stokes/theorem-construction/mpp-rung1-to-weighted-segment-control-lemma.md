@@ -17,7 +17,7 @@ The exact burden here is:
 
 ```math
 \boxed{
-\mathcal Q_{1,r,\psi}^{str},\ P_F^\ast,\ A_F,\ \text{next-rung packet control}
+\mathcal Q_{1,r,\psi}^{str},\ P_F^\ast,\ A_F,\ \text{next-rung segment control}
 \Longrightarrow
 \mathcal M^{wseg}_{N+1,r,\psi}.
 }
@@ -53,32 +53,33 @@ A_F(t;\psi).
 \tag{R1.2}
 ```
 
-Define the direct next-rung segment packet
+Define the direct next-rung segment envelope
 
 ```math
-\mathcal N^{seg}_{N+1,r,\psi}(t)
+\mathfrak N^{seg}_{N+1,r,\psi}(t)
 :=
+\operatorname*{ess\,sup}_{a\in\operatorname{supp}\psi}
 \sum_{k=0}^{N}\lambda_k
-\int \psi(a)^2
 \int_0^1
 \big|
 U_{k+1}\big(x(a,t)+F(a,t)r+\theta\varepsilon_h(a,r,t),t\big)
-\big|^2\,d\theta\,da.
+\big|^2\,d\theta.
 \tag{R1.3}
 ```
 
 For a scale window `0<|r|\le \rho`, define
 
 ```math
-\mathcal N^{seg}_{N+1,\rho,\psi}(t)
+\mathfrak N^{seg}_{N+1,\rho,\psi}(t)
 :=
 \sup_{0<|r|\le \rho}
-\mathcal N^{seg}_{N+1,r,\psi}(t).
+\mathfrak N^{seg}_{N+1,r,\psi}(t).
 \tag{R1.4}
 ```
 
-This is the exact packet-side next-rung object that sits one level above
-`\mathcal M^{wseg}` without passing through the stronger bridge-tube envelope.
+This is the exact packet-side next-rung segment-control object that sits one
+level above `\mathcal M^{wseg}` without passing through the stronger
+bridge-tube envelope.
 
 ## Exact Packet-Side Reduction
 
@@ -89,7 +90,7 @@ For every finite depth `N`, packet `\psi`, increment `r`, and time `t`,
 ```math
 \mathcal M^{wseg}_{N+1,r,\psi}(t)
 \le
-\mathcal N^{seg}_{N+1,r,\psi}(t)
+\mathfrak N^{seg}_{N+1,r,\psi}(t)
 \int \psi(a)^2\,|\varepsilon_h(a,r,t)|^2\,da.
 \tag{R1.5}
 ```
@@ -100,15 +101,15 @@ Hence, by the exact packing bridge `(IS.8)`,
 \mathcal M^{wseg}_{N+1,r,\psi}(t)
 \le
 |r|^2\,P_F^\ast(r,t;\psi)\,
-\mathcal N^{seg}_{N+1,r,\psi}(t).
+\mathfrak N^{seg}_{N+1,r,\psi}(t).
 \tag{R1.6}
 ```
 
 ### Proof
 
-The segment integral in `(R1.1)` is pointwise bounded by the corresponding
-integrand defining `(R1.3)`. Pulling that bound outside the `a`-integral gives
-`(R1.5)`. Combining with
+For a.e. `a`, the segment integral in `(R1.1)` is bounded by the envelope
+`\mathfrak N^{seg}_{N+1,r,\psi}(t)` from `(R1.3)`. Pulling that bound outside
+the `a`-integral gives `(R1.5)`. Combining with
 
 ```math
 \int \psi(a)^2\,|\varepsilon_h(a,r,t)|^2\,da
@@ -141,11 +142,11 @@ P_F^\ast(r,t;\psi)<\infty,
 
 and that the exact rung-1 material source
 `\mathcal Q_{1,r,\psi}^{str}` together with packet-side next-rung control
-propagates the direct segment packet:
+propagates the direct segment envelope:
 
 ```math
 \sup_{t\in I}
-\mathcal N^{seg}_{N+1,\rho,\psi}(t)<\infty.
+\mathfrak N^{seg}_{N+1,\rho,\psi}(t)<\infty.
 \tag{R1.10}
 ```
 
@@ -168,7 +169,7 @@ The live burden is now completely explicit:
 
 ```math
 \text{turn the exact rung-1 material source into interval control of }
-\mathcal N^{seg}_{N+1,\rho,\psi},
+\mathfrak N^{seg}_{N+1,\rho,\psi},
 \text{ then recover }\mathcal M^{wseg}_{N+1,\rho,\psi}
 \text{ by }(R1.6).
 \tag{R1.12}

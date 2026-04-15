@@ -96,6 +96,9 @@ Then
 
 This is the exact `RW.B` burden in packet form.
 
+The concrete next-step control surface for this burden is
+`mpp-rung1-to-weighted-segment-control-lemma.md`.
+
 ## Auxiliary Geometric Sufficiency
 
 The bridge-tube geometry remains auxiliary context, but it gives one exact
