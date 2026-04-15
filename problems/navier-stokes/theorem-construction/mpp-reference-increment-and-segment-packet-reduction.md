@@ -2,13 +2,15 @@
 
 ## Status
 
-Developmental predecessor to
-`mpp-reference-increment-and-bridge-tube-reduction.md`.
+Candidate theorem-facing reduction note.
 
-Role: earlier packetized reduction attempt. The live theorem-facing reduction
-surface is now the bridge-tube note above, because it makes the residual
-geometric set explicit as the exact Eulerian window object the branch still
-needs.
+Role: live reduction surface for the residual reference-increment and
+weighted-segment packet quantities.
+
+This note is now the live theorem-facing reduction surface for the standalone
+class-membership branch.
+`mpp-reference-increment-and-bridge-tube-reduction.md`
+is auxiliary geometric unpacking context only.
 
 This note does **not** yet close the transported packet. Its job is narrower:
 

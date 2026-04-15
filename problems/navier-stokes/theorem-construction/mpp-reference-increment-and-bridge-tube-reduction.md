@@ -2,10 +2,14 @@
 
 ## Status
 
-Candidate theorem-facing reduction note.
+Auxiliary geometric unpacking note.
 
-Role: reduce the residual reference-increment packet and bridge-tube envelope
-to explicit Eulerian window objects.
+Role: auxiliary geometry surface for the residual reference-increment and
+bridge-tube window objects.
+
+This note is not the live reduction surface.
+The live packet-facing reduction note is
+`mpp-reference-increment-and-segment-packet-reduction.md`.
 
 This note does **not** yet propagate the transported packet. Its job is to make
 the two residual quantities in `(IS.13)` explicit and geometric instead of

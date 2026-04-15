@@ -7,6 +7,10 @@ Candidate theorem-facing note.
 Role: first quantitative bridge from packetwise packing control to transported
 tower control on the standalone class-membership branch.
 
+This note isolates the first quantitative bridge. The live packetized
+reduction is carried downstream as `\widehat{\mathcal E}^{ref}_{N,r,\psi}` and
+`\mathcal M^{wseg}_{N+1,r,\psi}`.
+
 This note works only inside the current class-membership stack:
 
 1. `mpp-primitive-class-laws-note.md` as primitive statement surface;
@@ -295,7 +299,7 @@ It shows:
    increment and the finite-packing reference increment;
 3. `\mathcal M^{seg}_{N+1,r,\psi}` is the next-rung price for that mismatch.
 
-### Candidate theorem shape: transported packet comparison on an interval
+### Candidate Theorem IC.A: transported-defect comparison on an interval
 
 Fix `\rho>0` and a time interval `I`.
 
@@ -316,30 +320,46 @@ If
 \tag{IC.19}
 ```
 
-and
-
-```math
-\sup_{t\in I}A_F(t;\psi)<\infty,
-\tag{IC.20}
-```
-
 then
 
 ```math
-\sup_{t\in I}\sup_{0<|r|\le\rho}\widetilde E_{N,r,\psi}(t)<\infty,
+\sup_{t\in I}\sup_{0<|r|\le\rho}\widetilde E_{N,r,\psi}(t)<\infty.
+\tag{IC.20}
+```
+
+This is the transported-defect comparison theorem shape. It uses only the
+reference-increment packet, the geometric bridge packet, and the next-rung
+segment price.
+
+### Candidate Corollary IC.B: transported-packet upgrade
+
+If, in addition,
+
+```math
+\sup_{t\in I}A_F(t;\psi)<\infty,
 \tag{IC.21}
 ```
 
-and therefore
+and also
 
 ```math
-\sup_{t\in I}\sup_{0<|r|\le\rho}\widetilde{\mathcal H}_{N,r,\psi}(t)<\infty.
+P_F(r,t;\psi)\le P_F^\ast(r,t;\psi)
+\qquad
+\text{for every }r,
 \tag{IC.22}
 ```
 
-This is a candidate theorem shape because the interval control of
-`\mathcal E^{ref}` and `\mathcal M^{seg}` has not yet been propagated from the
-PDE-native Eulerian derivation surface.
+since the supremum defining `P_F^\ast` includes `\theta=1`, and therefore
+
+```math
+\sup_{t\in I}\sup_{0<|r|\le\rho}\widetilde{\mathcal H}_{N,r,\psi}(t)<\infty.
+\tag{IC.23}
+```
+
+This transported-packet corollary is a candidate theorem shape because the
+interval control of `\mathcal E^{ref}` and `\mathcal M^{seg}` has not yet been
+propagated from the PDE-native Eulerian derivation surface. The live
+packetization of those residual quantities is carried by the reduction note.
 
 ## Proof Skeleton
 
@@ -362,14 +382,14 @@ The exact source hierarchy is:
 ```math
 \mathcal Q_{1,r,\psi}^{str}
 \Longrightarrow
-P_F
+\text{relative-packing control}
 \Longrightarrow
 P_F^\ast
 \Longrightarrow
 \varepsilon_h
 \Longrightarrow
 \widetilde E_{N,r,\psi}\text{ comparison}.
-\tag{IC.23}
+\tag{IC.24}
 ```
 
 The present note uses only exact identities and exact inequalities through
@@ -403,7 +423,7 @@ So the live standalone branch question remains:
 \boxed{
 \text{what exact control on }\mathcal Q_{1,r,\psi}^{str}\text{ is sufficient to propagate both }P_F\text{ and }\widetilde E_{N,r,\psi}\text{ on a material packet?}
 }
-\tag{IC.24}
+\tag{IC.25}
 ```
 
 This note narrows that question by proving the exact bridge
@@ -414,5 +434,5 @@ P_F^\ast
 \text{transported increment control}
 \Longrightarrow
 \widetilde E_{N,r,\psi}\text{ comparison}.
-\tag{IC.25}
+\tag{IC.26}
 ```

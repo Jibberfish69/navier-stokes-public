@@ -239,8 +239,8 @@ Combining `(IS.10)` and `(IS.12)` yields
 \tag{IS.13}
 ```
 
-The remaining unresolved objects are the reference-increment packet
-`\mathcal E^{ref}_{N,r,\psi}` and the bridge-tube envelope
+The remaining unresolved objects at this stage are the raw reference-increment
+packet `\mathcal E^{ref}_{N,r,\psi}` and the raw segment envelope
 `\mathcal M^{seg}_{N+1,r,\psi}`.
 
 This is the quantitative theorem shape the comparison note could not yet reach.
@@ -253,7 +253,8 @@ The route is now explicit:
    finite packing reference increments;
 2. `P_F^\ast` measures how far the true transported increment departs from that
    finite packing reference;
-3. `\mathcal M^{seg}_{N+1,r,\psi}` is the next-rung price for that departure.
+3. `\mathcal M^{seg}_{N+1,r,\psi}` is the raw next-rung price for that
+   departure.
 
 So the real bridge is:
 
@@ -273,9 +274,11 @@ with the exact quantitative version recorded in `(IS.13)`.
 This note proves the exact pointwise increment-stability identity `(IS.3)` and
 the packetwise bound `(IS.13)`.
 
-The next exact reduction, namely isolating the reference-increment packet and
-the bridge-tube envelope as explicit Eulerian window objects, is recorded in
-`mpp-reference-increment-and-bridge-tube-reduction.md`.
+The live next reduction, namely reducing the raw reference-increment packet and
+the raw segment price to the packet quantities
+`\widehat{\mathcal E}^{ref}_{N,r,\psi}` and
+`\mathcal M^{wseg}_{N+1,r,\psi}`, is recorded in
+`mpp-reference-increment-and-segment-packet-reduction.md`.
 
 It does **not** yet prove:
 

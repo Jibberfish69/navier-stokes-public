@@ -230,6 +230,11 @@ and
 \tag{FS.15}
 ```
 
+So every integrated supplier conclusion below must carry the integrated
+branch-readout budget explicitly, either as
+`\int_{I_J}\!\!\int_{\mathcal G_J}\mathfrak e_J^{cm}` or, after invoking the
+transfer lemma `(FS.15)`, as `\mathcal E_J^{cm}+\mathcal E_J^{branch}`.
+
 Interpretation:
 
 1. `\mathfrak e_J^{pack}` pays for the packing-to-selector transfer error;
@@ -272,7 +277,7 @@ After integration on `\mathcal G_J`,
 +
 \mathcal E_J^{cal}
 \lesssim
-\mathcal E_J^{obs}(W_J)+\mathcal E_J^{cm}.
+\mathcal E_J^{obs}(W_J)+\mathcal E_J^{cm}+\mathcal E_J^{branch}.
 \tag{FS.17}
 ```
 
@@ -304,7 +309,7 @@ After integration,
 +
 \mathcal E_J^{cal}
 \lesssim
-\mathcal E_J^{obs}(W_J)+\mathcal E_J^{cm}.
+\mathcal E_J^{obs}(W_J)+\mathcal E_J^{cm}+\mathcal E_J^{branch}.
 \tag{FS.19}
 ```
 
@@ -323,7 +328,7 @@ On the general Hodge branch,
 +
 \mathcal E_J^{cal}
 \lesssim
-\mathcal E_J^{obs}(W_J)+\mathcal E_J^{cm}.
+\mathcal E_J^{obs}(W_J)+\mathcal E_J^{cm}+\mathcal E_J^{branch}.
 \tag{FS.20}
 ```
 
