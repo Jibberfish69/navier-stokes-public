@@ -1,0 +1,53 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  branch_set_id: extension-branches-navier-stokes
+  generated_at: '2026-04-13T00:10:00Z'
+  generator: system/runner/lib/lemma_synthesis_builder.rb
+  source_frontier_id: source-frontier-navier-stokes
+  source_theorem_packet_id: theorem-packet-navier-stokes
+provenance_policy:
+  branch_class: machine-derived-beyond-source-frontier
+  merge_rule: Do not merge any branch into the frozen core unless it survives falsification
+    and promotion.
+branches:
+- branch_id: branch-navier-stokes-1
+  origin_obligation_id: tps-one-sided-defect-bridge
+  branch_type: route-branch
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Open a quarantined side branch that tests whether selector-adapted defect-to-strain
+    theorem can be made explicit without crossing the current safe-claim boundary.
+  depends_on:
+  - theorem-statement
+  - warrant-theorem-2.1
+  - tps-one-sided-defect-bridge
+  risk_level: high
+  notes:
+  - This branch starts exactly at the first unresolved frontier for `tps-one-sided-defect-bridge`.
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-euler-mirror-chat20
+  origin_obligation_id: law13-surviving-endpoint-exclusion-pair
+  branch_type: route-branch
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: >-
+    Open a quarantined chat20 parallel-equation branch that mirrors the live
+    class-membership route under incompressible Euler: remove the viscosity
+    term, preserve the installed `Pack / Part / Field / Dead / Blown / Jump`
+    vocabulary and route order, and keep an explicit ledger for every place the
+    Navier-Stokes proof used diffusion, viscosity, or Stokes structure.
+  depends_on:
+  - theorem-statement
+  - law13-surviving-endpoint-exclusion-pair
+  - class-membership-forward-invariance-route
+  - tps-one-sided-defect-bridge
+  risk_level: high
+  notes:
+  - "Branch surface: problems/navier-stokes/euler-mirror"
+  - "First-wave mirror: source-locked contradiction note, frontier packet, CFI.A, and OFP.A"
+  - "First hard holdout: LCI.A and downstream top-viscous / static-diffusion packets"
+  - "Keep quarantined from live Navier-Stokes authority surfaces unless promoted"
+  merge_policy: quarantined-until-promoted
+summary:
+  branch_count: 2

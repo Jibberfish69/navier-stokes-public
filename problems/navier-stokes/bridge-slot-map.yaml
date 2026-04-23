@@ -1,0 +1,107 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  artifact_id: bridge-slot-map-navier-stokes
+  updated_at: '2026-03-20T15:45:00Z'
+  generator: chat2-manual-bridge-slot-map
+slots:
+  - slot_id: scale-barrier
+    canonical_label: Scale-Barrier Principle
+    terms:
+      - scale-barrier
+      - scale barrier
+      - spectral decay
+      - flux
+      - cascade
+      - dyadic tail
+      - resolution
+    direct_anchors:
+      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_2-_Scale-Barrier_Principle.tex"
+    local_targets:
+      - problems/navier-stokes/bridge-memos/scale-barrier.md
+      - problems/navier-stokes/theorem-construction/scale-barrier-package.md
+  - slot_id: monotone-functional
+    canonical_label: Monotone Functional Q(t)
+    terms:
+      - monotone functional
+      - q(t)
+      - energy boundedness
+      - enstrophy
+      - dissipation
+    direct_anchors:
+      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_3-_Monotone_Functional.tex"
+      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Energy_Boundedness_via_Q(t)_for_Global_Regularity.tex"
+    local_targets:
+      - problems/navier-stokes/theorem-construction/monotone-functional-package.md
+      - problems/navier-stokes/bridge-memos/monotone-functional.md
+  - slot_id: nonlinear-compactness
+    canonical_label: Non-Sobolev Compactness
+    terms:
+      - non-sobolev compactness
+      - compactness
+      - strong convergence
+      - tensor closure
+      - l2_tl2_x
+    direct_anchors:
+      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_4-_Non-Sobolev_Compactness.tex"
+      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Compactness Proof for Discrete Navier–Stokes Solutions.tex"
+    local_targets:
+      - problems/navier-stokes/bridge-memos/compactness.md
+      - problems/navier-stokes/theorem-construction/compactness-upgrade-lemma.md
+  - slot_id: curvature-based-regularity
+    canonical_label: Curvature-Based Regularity
+    terms:
+      - curvature-based regularity
+      - curvature
+      - geometric arguments
+      - gradient control
+      - holonomy
+      - obstruction
+    direct_anchors:
+      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_5-_Curvature-Based_Regularity.tex"
+      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Gradient_Control_Through_Geometric_Arguments.tex"
+    local_targets:
+      - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+      - problems/navier-stokes/theorem-construction/curvature-to-scale-feedback-bridge.md
+      - problems/navier-stokes/theorem-construction/curvature-to-euclidean-pullback-target.md
+  - slot_id: closed-loop-warrant
+    canonical_label: Closed-Loop Warrant
+    terms:
+      - interdependencies among principles
+      - loop closure
+      - feedback
+      - closed-loop
+      - warrant
+      - pullback
+    direct_anchors:
+      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_6-_Interdependencies_Among_Principles.tex"
+      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Global Regularity Framework for Arbitrary Initial Data in L2.tex"
+    local_targets:
+      - problems/navier-stokes/theorem-construction/classical-closure-warrant-carrier.md
+      - problems/navier-stokes/source-grounded-framework-map.md
+  - slot_id: projected-nc-flow-d-route
+    canonical_label: Projected NC-Flow D.1-D.5 Sidecar
+    terms:
+      - projected nc flow
+      - projected flow
+      - commutative shadow
+      - coercive energy
+      - continuation
+      - carrier
+      - defect
+      - ontic
+    direct_anchors: []
+    local_targets:
+      - problems/navier-stokes/projected-nc-flow-clay-frontier.md
+      - problems/navier-stokes/theorem-construction/d1-projected-nc-flow-well-posedness.md
+      - problems/navier-stokes/theorem-construction/d2-global-coercive-energy-estimate.md
+      - problems/navier-stokes/theorem-construction/d3-commutative-shadow-theorem.md
+      - problems/navier-stokes/theorem-construction/d4-shadow-continuation-theorem.md
+      - problems/navier-stokes/theorem-construction/d5-clay-theorem-integration.md
+import_buckets:
+  - direct-legacy-ns-source
+  - candidate-direct-v6-ns-source
+  - ns-local-discharge-support
+  - synthesis-only
+  - search-aide-only

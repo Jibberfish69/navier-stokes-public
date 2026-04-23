@@ -1,0 +1,99 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  artifact_id: route-lock-navier-stokes
+  updated_at: '2026-04-09T23:55:00Z'
+  generator: chat2-manual-route-lock
+governing_object_law:
+  status: active
+  summary: >-
+    The governing object is one smooth incompressible Navier-Stokes evolution
+    remaining internal to shared packing, shared participation, and shared
+    one-field coherence.
+  primitive_laws:
+    - shared packing law
+    - shared participation law
+    - shared one-field coherence
+  stable_carriers:
+    - u
+    - p
+    - Phi
+    - F
+  metric_rule: Any G-type metric is packet-local unless a theorem file proves lane-wide canonical status.
+  endpoint_reading:
+    dead: legacy participation-side class-exit label only; not a proved primitive biconditional with failure of shared participation law
+    blown: legacy packing-side class-exit label only; not a proved primitive biconditional with failure of shared packing law
+    jump: legacy one-field-side class-exit label only; not a proved primitive biconditional with failure of shared one-field law
+object_law_route_lock_sentence: >-
+  The Navier-Stokes program is governed by the class-membership object law:
+  prove that no finite-time evolution exits shared packing, shared
+  participation, or shared one-field coherence; with exact class-membership
+  witness, jet-to-difference bridge, neighboring-response ledgers, and the
+  separate no-drop theorem now installed, the honest live burden is the
+  unresolved law / endpoint proof matrix, with `(Part, Dead)` installed, the
+  pack-native blown branch `(Pack, packing-detached)` and `(Field, Jump)` as
+  the strongest open shell programs, and the mixed `tower-blown` branch still
+  explicit; only after those matrix burdens are actually closed may the torus-first
+  selector-adapted defect-to-strain route resume as the downstream one-field
+  consumer wall, while exact-potential,
+  normal-covector/Hodge, YM-heat/deformation, and Euclidean strict-shadow
+  surfaces remain derived readout, supplier, or export branches unless they
+  prove stronger ontic priority.
+object_law_theorem_queue:
+  - complete the law / endpoint proof matrix without assuming shell ownership; installed `(Part, Dead)`, open pack-native blown branch `(Pack, packing-detached)`, open `(Field, Jump)`, and the mixed `tower-blown` branch plus unresolved cross-entries remain explicit
+  - close exact-potential and normal-covector/Hodge witness-to-readout theorems on the surviving one-field readout branches
+  - close the selector-adapted defect-to-strain wall to SG.4 on the downstream Law-2-survivor one-field branch
+  - close BR.lambda2 plus local strong-solution entry
+  - discharge the downstream Euclidean strict-shadow export branch explicitly
+primary_route:
+  route_id: source-grounded-four-bridge
+  status: locked-primary
+  theorem_surface: classical-periodic-navier-stokes
+  internal_branch_mode: torus-first
+  downstream_discharge_surface: classical-euclidean-shadow-export
+  corpus_root: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
+  slots:
+    - slot_id: scale-barrier
+      canonical_label: Scale-Barrier Principle
+    - slot_id: monotone-functional
+      canonical_label: Monotone Functional Q(t)
+    - slot_id: nonlinear-compactness
+      canonical_label: Non-Sobolev Compactness
+    - slot_id: curvature-based-regularity
+      canonical_label: Continuation / Regularity Bridge
+    - slot_id: closed-loop-warrant
+      canonical_label: Closed-Loop Warrant
+import_policy:
+  direct_ns_legacy_corpus: authoritative
+  lane_local_theorem_construction: permitted-refinement
+  working_notes: ns-local-discharge-support
+  marvin_v6: synthesis-and-bridge-sharpening
+  cross_problem_imports:
+    allowed_role: operator-template-or-explanatory-only
+    forbidden_role: silent-claim-substitution
+sterilization_rule:
+  summary: Cross-problem ontology, YMG, and Hodge material may sharpen operator, coercivity, carrier, projection, continuation, or obstruction vocabulary, but must remain secondary to direct Navier-Stokes theorem content unless a direct NS theorem file appears.
+same_surface_requirements:
+  theorem_target: the official Clay Navier-Stokes problem in dimension 3 for the incompressible equations on R^3 or T^3
+  chosen_internal_surface: periodic branch on T^3
+  preserve_equation: true
+  preserve_bridge_order: true
+  preserve_closed_loop_feedback: true
+  prohibit_silent_branch_switch: true
+  downstream_export_rule: any whole-space R^3 statement must be presented as a downstream discharge/export theorem from the torus-first branch, not as an implicit reset of the primary route
+  fallback_upgrade_rule: Euclidean downstream discharge remains explicitly labeled until a full-data export theorem closes the torus-first branch on the whole-space datum class.
+drift_failures:
+  - treat the torus branch as a disposable proving-ground overlay after it has been chosen as the internal theorem surface
+  - silently let Euclidean shadow/export language retake the branch lock
+  - collapse the route into scale plus compactness plus gradient only
+  - replace the fourth bridge by a Euclidean package without explicit downstream-discharge labeling
+  - let safe-output or synthesis surfaces overwrite the primary full-claim authoring surface
+  - treat ontology imports as direct proof authority without a direct NS theorem source
+enforcement_targets:
+  - problems/navier-stokes/source-grounded-framework-map.md
+  - problems/navier-stokes/proof-source-pack.md
+  - problems/navier-stokes/authoritative-source-discovery.yaml
+  - problems/navier-stokes/theorem-to-warrant.yaml
+  - problems/navier-stokes/campaign-status.yaml
+  - problems/navier-stokes/marvin-source-discovery.yaml

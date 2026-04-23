@@ -1,0 +1,20 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  generated_at: '2026-04-12T17:15:21Z'
+  generator: system/runner/lib/lane_classification_builder.rb
+mode: hybrid
+source_authority: authoritative-external
+proof_present: true
+theorem_search_required: true
+paperization_required: true
+signals:
+  default_mode: theorem-open
+  proof_bearing_source: true
+  manuscript_classification: proof-manuscript
+  blocking_count: 61
+  theorem_upgrade_required: true
+  source_note_count: 1
+  paper_quality_pass: false

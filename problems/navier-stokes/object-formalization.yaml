@@ -1,0 +1,113 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  formalization_id: object-formalization-navier-stokes
+  generated_at: '2026-03-28T01:25:08Z'
+  generator: system/runner/lib/object_formalization_builder.rb
+  source_theorem_packet_id: theorem-packet-navier-stokes
+  source_frontier_id: source-frontier-navier-stokes
+  source_assembly_id: proof-assembly-navier-stokes
+target:
+  obligation_id: marvin-upstream-0fdc65ea42d5
+  label: "three-piece lifted-packet closure program: SS first, direct CTS second, LPAS fallback"
+  kind: lemma
+formalization_packet:
+  object_id: formal-object-global_signed_lifted_commutator_channel
+  object_name: global_signed_lifted_commutator_channel
+  object_role: explicit local mediating object
+  theorem_role: >-
+    Make the imported support/globalization obligation exact on the local Navier-Stokes
+    theorem surface by first installing the identity-first transpose/profile rewrite
+    and its four-step chain, and then reducing the lifted packet to the three-piece
+    closure program in execution order: `SS` first, direct `CTS` second, and `LPAS`
+    as the fallback debt.
+  machine_boundary: This packet is a local classical reinterpretation of a shared
+    upstream obligation. It must stay on the Euclidean Navier-Stokes surface and
+    must not smuggle in NC, Hodge, or projected-flow structure as theorem content.
+  slots:
+  - slot: domain
+    status: localized
+    description: Classical divergence-free Euclidean Navier-Stokes solutions `u`
+      on `(0,T) x R^3`, one fixed smooth continuous Littlewood-Paley family
+      `P_{<= ell} = varphi(ell D)`, active scales `0 < ell <= c 2^{-N}`, and the
+      lifted mesoscopic transport field `b_ell^{meso} = P_{<= c/ell}u - P_{<= 2^{N+M}}u`.
+  - slot: codomain
+    status: localized
+    description: The signed commutator density `c_ell`, its cumulative potential
+      `A_ell`, and the global signed balance identity `c_ell = (ell d_ell) Psi_ell
+      + div_x J_ell + d_t R_ell + S_ell^{spill} + E_ell`, together with the local
+      rewrite `c_ell^{transpose} + w_ell -> div_x J_ell + d_t R_ell + E_ell` as the
+      first theorem target.
+  - slot: admissibility
+    status: localized
+    description: The lifted packet geometry is exactly `N+M < k < j-4` in dyadic
+      language, equivalently `ell << r <= ell_bot` in continuous scale. The collar
+      class, moving spill reduction, and middle-band localization are already installed
+      and may be used, but the proof must stay before shellwise absolute-value flattening.
+  - slot: invariance
+    status: localized
+    description: Stable under equivalent smooth Littlewood-Paley choices and pressure
+      gauge, while forgetting shell labels as theorem language but preserving the
+      exact lifted support geometry and the split into upper boundary, moving spill,
+      and far-corona two-scale transport.
+  - slot: theorem_interface
+    status: localized
+    description: This is the local object that globalizes the imported support
+      obligation. It replaces the unresolved shellwise packet `H_N^{grad,lift}`
+      first by the exact identity-first chain `raw signed identity -> renormalization
+      -> low-pass PDE insertion -> flux/time extraction -> admissible residual`,
+      and then by the three-piece lifted-packet closure program
+      `B_N^{upper} + Pi_N^{mov-spill,L} + Pi_N^{mid,far,L}`.
+  - slot: critical_scale_measure
+    status: localized
+    description: The relevant scale measures are the weighted tail state `T_1`,
+      dissipation `Q_1`, dyadic dissipation `D_N`, the upper-boundary packet
+      `B_N^{upper}`, the middle-band flux `Pi_N^{mid}`, and the far-corona coupled
+      density `A_{ell,r}` with gap kernel `ell/r`.
+  - slot: closure_mechanism
+    status: localized
+    description: >-
+      First prove the identity-first transpose/profile local balance rewrite by
+      scale renormalization plus low-pass PDE insertion, then explicit residual
+      classification and no-free-far-scale audit, then global signed scale descent
+      and telescoping, and then close exactly three lifted-packet pieces in order:
+      same-scale first through frozen edge-family reduction, the coefficient-bearing
+      model packet estimate, finite lift, and carrier kill into
+      `widetilde Lambda_N^{sharp} E_N`; the coefficient-free theorem `(SS)` is now
+      an optional stronger same-scale upgrade rather than the barrier-scale minimum.
+      Then direct far-corona `CTS` stays second, and `LPAS` is the fallback debt
+      on the far-corona two-scale route. If these close, the integrated lifted
+      estimate is absorbed into `eps nu Q_1 + C_* 2^{-2 delta N}`.
+  - slot: gradient_transfer
+    status: localized
+    description: Once the integrated lifted estimate is proved on this object, the
+      weighted spectral leakage theorem closes on the honest carrier `Lambda_N^sharp`,
+      and the gradient/enstrophy transfer route reduces to the already-local strict-low,
+      spill, and genuine high-high packet estimates plus the lifted absorption.
+  problem_hint: Keep the object classical and local. Do not smuggle in modified-equation,
+    NC, Hodge, or projected-flow structure.
+grounded_basis:
+  labels:
+  - "three-piece lifted-packet closure program: SS first, direct CTS second, LPAS fallback"
+  - identity-first transpose/profile rewrite
+  - Theorem 2.1 (Classical Closure)
+  - Prove D.2 global coercive energy estimate
+  - signed continuous-scale closure of the lifted packet
+  obligation_ids:
+  - marvin-upstream-0fdc65ea42d5
+  - warrant-theorem-2.1
+  - debt-d2-global-coercive-energy-estimate
+  - bridge-d2-signed-lifted-closure
+summary:
+  formalization_ready: true
+  recommended_next_cell_type: dependency-discharge
+  recommended_next_action: >-
+    Use the object-formalization packet as the bounded tactic switch, then rerun
+    dependency-discharge on the same obligation using the already-installed identity-first
+    transpose/profile rewrite and the three-piece lifted-packet closure program:
+    exact same-scale family reduction, finite lift, and carrier kill are installed,
+    the remaining stronger same-scale target is coefficient-free `(SS)` only if a
+    standalone same-scale packet theorem is still needed, direct `CTS` stays second,
+    and `LPAS` remains fallback debt.

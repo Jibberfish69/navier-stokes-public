@@ -1,0 +1,337 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  search_id: creative-theorem-search-navier-stokes
+  generated_at: '2026-03-29T01:05:52Z'
+  generator: system/runner/lib/creative_theorem_search_builder.rb
+  source_frontier_id: source-frontier-navier-stokes
+  source_theorem_packet_id: theorem-packet-navier-stokes
+  source_proof_assembly_id: proof-assembly-navier-stokes
+intervention:
+  reason: frontier-expansion
+  review_posture: revise-loop
+  boundary_rule: Everything beyond the grounded core is machine extension until it
+    survives falsification and promotion.
+  provenance_rule: Machine-generated branches remain speculative until they survive
+    later discharge or review gates.
+  coverage_rule: Keep all candidate branch ideas on record even when only the top
+    bounded subset is actively pursued.
+sandbox:
+  mode: single-branch-sandbox
+  trigger: single-frontier
+  survivor_writeback: Keep only branches that survive discharge, falsification, or
+    refinement; demote the rest back into explicit debt.
+  independent_branch_ids:
+  - creative-branch-navier-stokes-1
+  - creative-branch-navier-stokes-2
+  co_dependent_branch_ids:
+  - creative-branch-navier-stokes-3
+  - creative-branch-navier-stokes-4
+  - creative-branch-navier-stokes-5
+  branch_execution_order:
+  - creative-branch-navier-stokes-5
+  - creative-branch-navier-stokes-1
+  - creative-branch-navier-stokes-2
+  - creative-branch-navier-stokes-3
+  - creative-branch-navier-stokes-4
+branch_pool:
+- &1
+  branch_id: creative-branch-navier-stokes-1
+  origin_obligation_id: marvin-upstream-8e939525d3f2
+  origin_kind: definition
+  source_status: unresolved
+  branch_type: object-definition
+  pursuit_mode: independent
+  candidate_claim: Define the missing local object so that replace the torus carrier
+    block by a continuum coherent sector for curved D. becomes exact on the present
+    theorem surface.
+  creative_move: Formalize domain, codomain, invariance conditions, and the exact
+    obstruction the object is meant to carry.
+  invention_packet:
+    candidate_statement: Define the missing local object so that replace the torus
+      carrier block by a continuum coherent sector for curved D. becomes exact on
+      the present theorem surface.
+    mediating_object: formal_local_object
+    proof_sketch:
+    - State the weakest exact claim that would advance `marvin-upstream-8e939525d3f2`
+      without expanding the theorem target.
+    - Define or isolate the mediating object on the current carrier/window/sector
+      only.
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `replace the torus carrier
+      block by a continuum coherent sector for curved D.`.
+    - Show how that object converts one already-grounded local statement into the
+      next missing step.
+    - Reject the move if it introduces new global scope, hidden imports, or a stronger
+      claim than the frozen frontier needs.
+    falsification_checks:
+    - Does the move preserve the frozen theorem target rather than redefining it?
+    - Can the candidate be stated on already-grounded objects without importing a
+      new theory chapter?
+    - Does it reduce at least one open obligation or turn a frontier statement into
+      a local discharge target?
+    scope_guard: Formalize only what the current theorem target needs next.
+  grounded_basis:
+  - warrant-theorem-2.1
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-8e939525d3f2
+  risk_level: medium
+  notes:
+  - This branch starts at the first unresolved frontier.
+  - This branch is machine-derived beyond the current frozen core.
+  - Use the weakest sufficient move; do not inflate the theorem target.
+  recommended_next_cell_type: object-formalization
+  recommended_next_action: 'Creative theorem search selected `marvin-upstream-8e939525d3f2`.
+    Formalize the invention packet''s exact missing object first, then return to the
+    same theorem target instead of reopening generic debt extraction: replace the
+    torus carrier block by a continuum coherent sector for curved D..'
+  merge_policy: quarantined-until-promoted
+- branch_id: creative-branch-navier-stokes-2
+  origin_obligation_id: marvin-upstream-2adc051dd3a8
+  origin_kind: definition
+  source_status: unresolved
+  branch_type: object-definition
+  pursuit_mode: independent
+  candidate_claim: Define the missing local object so that construct theorem-grade
+    measure / dynamics on the global twisted continuum becomes exact on the present
+    theorem surface.
+  creative_move: Formalize domain, codomain, invariance conditions, and the exact
+    obstruction the object is meant to carry.
+  invention_packet:
+    candidate_statement: Define the missing local object so that construct theorem-grade
+      measure / dynamics on the global twisted continuum becomes exact on the present
+      theorem surface.
+    mediating_object: formal_local_object
+    proof_sketch:
+    - State the weakest exact claim that would advance `marvin-upstream-2adc051dd3a8`
+      without expanding the theorem target.
+    - Define or isolate the mediating object on the current carrier/window/sector
+      only.
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `construct theorem-grade measure
+      / dynamics on the global twisted continuum`.
+    - Show how that object converts one already-grounded local statement into the
+      next missing step.
+    - Reject the move if it introduces new global scope, hidden imports, or a stronger
+      claim than the frozen frontier needs.
+    falsification_checks:
+    - Does the move preserve the frozen theorem target rather than redefining it?
+    - Can the candidate be stated on already-grounded objects without importing a
+      new theory chapter?
+    - Does it reduce at least one open obligation or turn a frontier statement into
+      a local discharge target?
+    scope_guard: Formalize only what the current theorem target needs next.
+  grounded_basis:
+  - warrant-theorem-2.1
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-2adc051dd3a8
+  risk_level: medium
+  notes:
+  - This branch is machine-derived beyond the current frozen core.
+  - Use the weakest sufficient move; do not inflate the theorem target.
+  recommended_next_cell_type: object-formalization
+  recommended_next_action: 'Creative theorem search selected `marvin-upstream-2adc051dd3a8`.
+    Formalize the invention packet''s exact missing object first, then return to the
+    same theorem target instead of reopening generic debt extraction: construct theorem-grade
+    measure / dynamics on the global twisted continuum.'
+  merge_policy: quarantined-until-promoted
+- branch_id: creative-branch-navier-stokes-3
+  origin_obligation_id: marvin-upstream-269065c546af
+  origin_kind: lemma
+  source_status: unresolved
+  branch_type: local-lemma
+  pursuit_mode: co-dependent
+  candidate_claim: Isolate a bounded lemma showing that + spectral floor on K_D^\perp.
+  creative_move: Generate 2-3 bounded variants of the lemma and keep only the weakest
+    one that advances the proof chain.
+  invention_packet:
+    candidate_statement: Isolate a bounded lemma showing that + spectral floor on
+      K_D^\perp.
+    mediating_object: formal_local_object
+    proof_sketch:
+    - State the weakest exact claim that would advance `marvin-upstream-269065c546af`
+      without expanding the theorem target.
+    - Define or isolate the mediating object on the current carrier/window/sector
+      only.
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `+ spectral floor on K_D^\perp`.
+    - Show how that object converts one already-grounded local statement into the
+      next missing step.
+    - Reject the move if it introduces new global scope, hidden imports, or a stronger
+      claim than the frozen frontier needs.
+    falsification_checks:
+    - Does the move preserve the frozen theorem target rather than redefining it?
+    - Can the candidate be stated on already-grounded objects without importing a
+      new theory chapter?
+    - Does it reduce at least one open obligation or turn a frontier statement into
+      a local discharge target?
+    scope_guard: Formalize only what the current theorem target needs next.
+  grounded_basis:
+  - warrant-theorem-2.1
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-269065c546af
+  risk_level: medium
+  notes:
+  - This branch is machine-derived beyond the current frozen core.
+  - Use the weakest sufficient move; do not inflate the theorem target.
+  recommended_next_cell_type: debt-extract
+  recommended_next_action: 'Creative theorem search selected `marvin-upstream-269065c546af`.
+    Reopen debt-extract and type the missing object or local lemma explicitly: + spectral
+    floor on K_D^\perp.'
+  merge_policy: quarantined-until-promoted
+- branch_id: creative-branch-navier-stokes-4
+  origin_obligation_id: marvin-upstream-558cbb8323fd
+  origin_kind: lemma
+  source_status: unresolved
+  branch_type: local-lemma
+  pursuit_mode: co-dependent
+  candidate_claim: Isolate a bounded lemma showing that with the coherent class controlling
+    `X_ pers  ` and the spectral floor.
+  creative_move: Generate 2-3 bounded variants of the lemma and keep only the weakest
+    one that advances the proof chain.
+  invention_packet:
+    candidate_statement: Isolate a bounded lemma showing that with the coherent class
+      controlling `X_ pers  ` and the spectral floor.
+    mediating_object: formal_local_object
+    proof_sketch:
+    - State the weakest exact claim that would advance `marvin-upstream-558cbb8323fd`
+      without expanding the theorem target.
+    - Define or isolate the mediating object on the current carrier/window/sector
+      only.
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `with the coherent class controlling
+      `X_ pers  ` and the spectral floor`.
+    - Show how that object converts one already-grounded local statement into the
+      next missing step.
+    - Reject the move if it introduces new global scope, hidden imports, or a stronger
+      claim than the frozen frontier needs.
+    falsification_checks:
+    - Does the move preserve the frozen theorem target rather than redefining it?
+    - Can the candidate be stated on already-grounded objects without importing a
+      new theory chapter?
+    - Does it reduce at least one open obligation or turn a frontier statement into
+      a local discharge target?
+    scope_guard: Formalize only what the current theorem target needs next.
+  grounded_basis:
+  - warrant-theorem-2.1
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-558cbb8323fd
+  risk_level: medium
+  notes:
+  - This branch is machine-derived beyond the current frozen core.
+  - Use the weakest sufficient move; do not inflate the theorem target.
+  recommended_next_cell_type: debt-extract
+  recommended_next_action: 'Creative theorem search selected `marvin-upstream-558cbb8323fd`.
+    Reopen debt-extract and type the missing object or local lemma explicitly: with
+    the coherent class controlling `X_ pers  ` and the spectral floor.'
+  merge_policy: quarantined-until-promoted
+- &5
+  branch_id: creative-branch-navier-stokes-5
+  origin_obligation_id: marvin-upstream-0fdc65ea42d5
+  origin_kind: lemma
+  source_status: bridge-pending
+  branch_type: local-lemma
+  pursuit_mode: co-dependent
+  candidate_claim: Isolate the weakest local bridge showing that the imported persistent-support globalization obligation is realized on the classical Navier-Stokes surface by the identity-first transpose/profile rewrite and its four-step chain.
+  creative_move: Replace the imported support/globalization phrasing by the fixed-LP signed commutator object, then renormalize the pure scale-primitive part, insert the low-pass PDE, integrate by parts, and classify the admissible residual before returning to upper boundary, moving spill, and far-corona `CTS/LPAS`.
+  invention_packet:
+    candidate_statement: Isolate the weakest local bridge showing that the imported
+      persistent-support globalization obligation is realized on the classical Navier-Stokes
+      surface by the identity-first transpose/profile rewrite and its four-step chain.
+    mediating_object: global_signed_lifted_commutator_channel
+    proof_sketch:
+    - Use one fixed smooth continuous Littlewood-Paley family and write the raw signed
+      identity globally on `c_ell`, `Psi_ell`, `J_ell`, and `R_ell`.
+    - Renormalize away the pure scale-primitive part before invoking the PDE.
+    - Insert the low-pass Navier-Stokes equation and integrate by parts to expose
+      the exact flux/time decomposition.
+    - Reduce the lifted packet to the finite-width upper-boundary packet and the
+      middle-band flux packet.
+    - Reduce the near corona to finite-offset same-scale spill packets and keep the
+      far corona on the coupled two-scale density `A_{ell,r}` with kernel `ell/r`.
+    - Close the far-corona route on `CTS` or its dyadic shadow `LPAS` rather than
+      on a one-scale upper-tail surrogate.
+    - Reject the move if it imports NC, Hodge, projected-flow, or modified-equation
+      structure into the local theorem claim.
+    falsification_checks:
+    - Does the move stay on the classical Euclidean theorem surface?
+    - Does the move preserve the exact lifted support geometry `N+M<k<j-4` while
+      changing only the proof language?
+    - Does it convert the imported obligation into a bounded local bridge that can
+      feed weighted leakage absorption?
+    scope_guard: Formalize only the local bridge needed for the present lifted-packet
+      frontier.
+  grounded_basis:
+  - warrant-theorem-2.1
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-0fdc65ea42d5
+  risk_level: medium
+  notes:
+  - This branch is machine-derived but now explicitly grounded in the local signed
+    continuous-scale notes.
+  - Keep the object classical and local; do not restate the imported Hodge obligation
+    as theorem content.
+  - Use the weakest sufficient bridge; do not inflate the theorem target.
+  recommended_next_cell_type: dependency-discharge
+  recommended_next_action: 'Creative theorem search selected `marvin-upstream-0fdc65ea42d5`.
+    Re-run dependency-discharge on the same obligation using the identity-first
+    transpose/profile rewrite, upper-boundary theorem, finite-offset moving-spill
+    stability, and far-corona `CTS/LPAS` route as the bounded local bridge.'
+  merge_policy: quarantined-until-promoted
+candidate_archive:
+- origin_obligation_id: marvin-upstream-8e939525d3f2
+  origin_kind: definition
+  label: replace the torus carrier block by a continuum coherent sector for curved
+    D.
+  status: unresolved
+  promoted_into_branch_pool: true
+- origin_obligation_id: marvin-upstream-2adc051dd3a8
+  origin_kind: definition
+  label: construct theorem-grade measure / dynamics on the global twisted continuum
+  status: unresolved
+  promoted_into_branch_pool: true
+- origin_obligation_id: marvin-upstream-269065c546af
+  origin_kind: lemma
+  label: "+ spectral floor on K_D^\\perp"
+  status: unresolved
+  promoted_into_branch_pool: true
+- origin_obligation_id: marvin-upstream-558cbb8323fd
+  origin_kind: lemma
+  label: with the coherent class controlling `X_ pers  ` and the spectral floor
+  status: unresolved
+  promoted_into_branch_pool: true
+- origin_obligation_id: marvin-upstream-5d4a55021542
+  origin_kind: lemma
+  label: "`Obs _ glue  `,"
+  status: unresolved
+  promoted_into_branch_pool: false
+- origin_obligation_id: marvin-upstream-8880078593dc
+  origin_kind: lemma
+  label: prove that the persistent obstruction/support readout globalizes strongly
+  status: unresolved
+  promoted_into_branch_pool: false
+- origin_obligation_id: marvin-upstream-0fdc65ea42d5
+  origin_kind: lemma
+  label: but Hodge still has to prove that persistent support on that object globalizes
+  status: unresolved
+  promoted_into_branch_pool: true
+selected_branch: *5
+summary:
+  candidate_count: 7
+  candidate_archive_count: 7
+  sandbox_mode: single-branch-sandbox
+  active_branch_ids:
+  - creative-branch-navier-stokes-5
+  - creative-branch-navier-stokes-1
+  - creative-branch-navier-stokes-2
+  - creative-branch-navier-stokes-3
+  - creative-branch-navier-stokes-4
+  selected_branch_id: creative-branch-navier-stokes-5
+  selected_next_cell_type: dependency-discharge
+  intervention_needed: true
