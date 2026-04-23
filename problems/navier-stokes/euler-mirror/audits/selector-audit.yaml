@@ -1,0 +1,51 @@
+---
+version: 1
+branch_id: euler-mirror-chat20
+family_id: selector
+family_label: selector
+parent_family_status: mapped-template-only
+summary:
+  dominant_classification: rewrite-needed
+  mirrored_count: 0
+  rewrite_needed_count: 3
+  blocked_by_non_euler_dependence_count: 1
+  provenance_only_count: 1
+  note: >-
+    The selector family survives mainly as transport/geometry scaffolding. No
+    selector theorem file has been mirrored into `euler-mirror/**` yet, and the
+    SG.4-facing observability packet still spends explicit parabolic structure.
+entries:
+  - source_path: problems/navier-stokes/theorem-construction/transported-phase-space-selector-theorem-candidate.md
+    theorem_role: selector-localization theorem candidate
+    classification: rewrite-needed
+    rationale: >-
+      The packet geometry is transport-facing and therefore potentially
+      reusable, but the file is still written as a Navier-Stokes theorem note
+      and has no Euler mirror counterpart on disk.
+  - source_path: problems/navier-stokes/theorem-construction/selector-balanced-frame-lemma.md
+    theorem_role: finite balanced selector frame supplier
+    classification: rewrite-needed
+    rationale: >-
+      This is a selector-good geometric lemma rather than a heat/Stokes packet,
+      so the content could be rerun on the Euler side, but the theorem is still
+      installed only on the parent Navier-Stokes branch.
+  - source_path: problems/navier-stokes/theorem-construction/selector-good-cocycle-operator-norm-bound.md
+    theorem_role: selector-good cocycle control supplier
+    classification: rewrite-needed
+    rationale: >-
+      The cocycle estimate is phrased as a transported-strip support note and
+      does not itself depend on a parabolic import, but it remains a
+      Navier-Stokes/exact-potential support packet with no Euler rewrite.
+  - source_path: problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md
+    theorem_role: selector observability to SG.4 bridge
+    classification: blocked-by-non-Euler-dependence
+    rationale: >-
+      The bridge uses the pair-defect PDE with explicit `-nu(Delta_x+Delta_y)`
+      terms and parabolic observability imports, so the installed proof burden
+      is not honest after viscosity removal.
+  - source_path: problems/navier-stokes/theorem-construction/carrier-selector-structural-audit.md
+    theorem_role: selector object-hierarchy audit
+    classification: provenance-only
+    rationale: >-
+      This file records selector object structure and route boundaries rather
+      than supplying an Euler theorem packet to mirror.

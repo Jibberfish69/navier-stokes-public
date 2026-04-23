@@ -1,0 +1,117 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  branch_id: euler-mirror-chat20
+  artifact_id: execution-ledger-navier-stokes-euler-mirror
+  updated_on: '2026-04-22'
+  generator: chat20-manual-ledger
+main_objective:
+  theorem_target: global smoothness for the three-dimensional incompressible Euler equations
+  theorem_target_status: open
+  doctrine: mirror every serious Navier-Stokes method family on disk with viscosity removed literally
+  proof_modes:
+  - positive-control
+  - contradiction-class-membership
+  run_both: true
+route_families:
+- family_id: contradiction-class-membership
+  status: rewritten-through-euler-receiver-slot
+  description: Pack/Part/Field object-law contradiction route
+  key_surfaces:
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-contradiction-source-locked-note.md
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-law13-surviving-endpoint-exclusion-program.md
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+  next_frontier: discharge the packing-side no-blown branch and the transport-pressure receiver burden inside ELCI.A
+  first_holdout: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+- family_id: positive-four-principle
+  status: rewritten-through-source-pack-layer
+  description: scale-barrier, monotone functional, compactness, continuation/regularity
+  key_surfaces:
+  - problems/navier-stokes/euler-mirror/claim-ladder.md
+  - problems/navier-stokes/euler-mirror/source-grounded-framework-map.md
+  - problems/navier-stokes/euler-mirror/target-fidelity-discharge-source-pack.md
+  - problems/navier-stokes/euler-mirror/scale-barrier-source-pack.md
+  - problems/navier-stokes/euler-mirror/compactness-discharge-source-pack.md
+  - problems/navier-stokes/euler-mirror/gradient-discharge-source-pack.md
+  - problems/navier-stokes/euler-mirror/theorem-construction/positive-control-euler-program.md
+  - problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md
+  next_frontier: discharge the Euler scale barrier, control-functional replacement, and continuation packet on one common surface
+  first_holdout: problems/navier-stokes/euler-mirror/gradient-discharge-source-pack.md
+- family_id: transport-geometry-selector
+  status: mapped-template-only
+  description: torus-first four-body, Hopf-shuffle, TPS strong bridge, selector geometry
+  key_surfaces:
+  - problems/navier-stokes/live-theorem-edge.md
+  - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
+  - problems/navier-stokes/theorem-construction/hopf-shuffle-endgame-program.md
+  - problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
+  next_frontier: reuse as transport and selector scaffolding without promoting it to an Euler closure claim
+- family_id: exact-potential-parabolic
+  status: explicitly-demoted-and-quarantined
+  description: exact-potential, localized-projector, Stokes/heat/static-diffusion branch
+  key_surfaces:
+  - problems/navier-stokes/theorem-construction/exact-potential-v2-static-diffusion-wang-zhang-route.md
+  - problems/navier-stokes/theorem-construction/exact-potential-v2-static-diffusion-heat-plus-perturbation-split.md
+  next_frontier: remain quarantined unless a genuine Euler analogue is written
+- family_id: curvature-provenance
+  status: explicitly-demoted-provenance
+  description: curvature / geometry-evolving heat legacy branch
+  key_surfaces:
+  - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+  - problems/navier-stokes/theorem-construction/gradient-control-bridge-discharge.md
+  next_frontier: provenance only
+phases:
+- phase_id: phase-0-fidelity
+  status: completed
+  goal: lock equation, ontology, and quarantine boundary
+- phase_id: phase-1-inventory
+  status: completed
+  goal: inventory all serious NS method families for Euler mirroring
+- phase_id: phase-2-contradiction-mainline-rewrite
+  status: completed
+  goal: write the branch-local contradiction mainline through `L13`, `CFI.A`, `OFP.A`, and the Euler receiver replacement `ELCI.A`
+- phase_id: phase-3-positive-route-rewrite
+  status: completed
+  goal: write the positive-control Euler source-pack layer, claim ladder, and Route B closure surfaces
+- phase_id: phase-4-cross-route-coupling
+  status: completed
+  goal: identify which positive-route outputs can feed contradiction-route debts
+- phase_id: phase-5-holdout-replacement
+  status: completed
+  goal: replace LCI/top-viscous/heat holdouts with Euler-clean analogues or quarantine them permanently
+- phase_id: phase-6-integrated-closure
+  status: completed
+  goal: assemble a full Euler closure package on the chosen internal surface
+automation_loop:
+  mode: repo-internal-only
+  safe_problem_local_surfaces:
+  - problems/navier-stokes/chat20-status.yaml
+  - problems/navier-stokes/euler-mirror/branch-manifest.yaml
+  - problems/navier-stokes/euler-mirror/route-lock.yaml
+  - problems/navier-stokes/euler-mirror/viscosity-dependence-ledger.yaml
+  - problems/navier-stokes/euler-mirror/campaign-map.md
+  - problems/navier-stokes/euler-mirror/execution-ledger.yaml
+  safe_commands:
+  - ruby system/runner/bin/chat_coord.rb status
+  - ruby system/runner/bin/chat_coord.rb check chat20 problems/navier-stokes/euler-mirror problems/navier-stokes/chat20-status.yaml
+  - CODEX_CHAT_ID=chat20 ruby system/runner/bin/lane_daemon.rb status
+  - CODEX_CHAT_ID=chat20 ruby system/runner/bin/lane_daemon.rb start
+  unsafe_write_targets:
+  - problems/navier-stokes/route-lock.yaml
+  - problems/navier-stokes/live-theorem-edge.yaml
+  - problems/navier-stokes/campaign-status.yaml
+  - problems/navier-stokes/finish-plan.yaml
+  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - system/**
+subagent_inputs:
+  positive_route_inventory: integrated
+  contradiction_route_inventory: integrated
+  automation_loop_constraints: integrated
+contract_completion_surface:
+  path: problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md
+  completion_status_path: problems/navier-stokes/euler-mirror/completion-status.yaml

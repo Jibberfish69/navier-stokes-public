@@ -1,0 +1,72 @@
+---
+version: 1
+branch_id: euler-mirror-chat20
+artifact_id: branch-audit-index
+updated_on: '2026-04-22'
+scope:
+  branch_root: problems/navier-stokes/euler-mirror
+  audit_root: problems/navier-stokes/euler-mirror/audits
+  source_root: problems/navier-stokes/theorem-construction
+summary:
+  mirrored_count: 0
+  rewrite_needed_count: 12
+  blocked_by_non_euler_dependence_count: 14
+  provenance_only_count: 6
+  representative_file_count: 32
+  note: >-
+    These counts apply only to the six audited parent-family file sets, not to
+    the separate positive-control source-pack ledger. Across those audited
+    parent families, no representative theorem-bearing file is already mirrored
+    one-for-one on disk outside the class-membership spine. The
+    transport/compactness side mostly needs explicit Euler rewrites, while the
+    exact-potential, Hopf-shuffle, gradient-coercivity, and export surfaces are
+    dominated by explicit non-Euler dependencies.
+families:
+  - family_id: selector
+    overall_assessment: transport scaffolding survives, but no selector theorem is mirrored on disk
+    audit_path: problems/navier-stokes/euler-mirror/audits/selector-audit.yaml
+    counts:
+      mirrored: 0
+      rewrite-needed: 3
+      blocked-by-non-Euler-dependence: 1
+      provenance-only: 1
+  - family_id: hopf-shuffle
+    overall_assessment: current route is blocked by differentiated Navier-Stokes and drain-side parabolic structure
+    audit_path: problems/navier-stokes/euler-mirror/audits/hopf-shuffle-audit.yaml
+    counts:
+      mirrored: 0
+      rewrite-needed: 0
+      blocked-by-non-Euler-dependence: 2
+      provenance-only: 0
+  - family_id: compactness
+    overall_assessment: compactness architecture looks mirrorable, but every theorem file still lives on the classical approximation surface
+    audit_path: problems/navier-stokes/euler-mirror/audits/compactness-audit.yaml
+    counts:
+      mirrored: 0
+      rewrite-needed: 4
+      blocked-by-non-Euler-dependence: 0
+      provenance-only: 2
+  - family_id: exact-potential
+    overall_assessment: family is explicitly demoted and quarantined because the live route is still heat, semigroup, Carleman, and Stokes heavy
+    audit_path: problems/navier-stokes/euler-mirror/audits/exact-potential-audit.yaml
+    counts:
+      mirrored: 0
+      rewrite-needed: 1
+      blocked-by-non-Euler-dependence: 4
+      provenance-only: 1
+  - family_id: gradient-continuation
+    overall_assessment: continuation endpoints are rewrite candidates, but the active gradient bridge is still viscous
+    audit_path: problems/navier-stokes/euler-mirror/audits/gradient-continuation-audit.yaml
+    counts:
+      mirrored: 0
+      rewrite-needed: 3
+      blocked-by-non-Euler-dependence: 4
+      provenance-only: 1
+  - family_id: export-whole-space-discharge
+    overall_assessment: export and consumer surfaces remain calibrated to classical Navier-Stokes low-mode and Clay discharge targets
+    audit_path: problems/navier-stokes/euler-mirror/audits/export-whole-space-discharge-audit.yaml
+    counts:
+      mirrored: 0
+      rewrite-needed: 1
+      blocked-by-non-Euler-dependence: 3
+      provenance-only: 1

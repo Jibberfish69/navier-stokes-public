@@ -1,0 +1,65 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  branch_id: euler-mirror-chat20
+  artifact_id: route-lock-navier-stokes-euler-mirror
+  updated_on: '2026-04-22'
+  generator: chat20-manual-route-lock
+governing_object_law:
+  status: active
+  summary: >-
+    The governing object is one smooth incompressible Euler evolution remaining
+    internal to a single coupled pressure field, with viscosity removed
+    altogether but the installed class-membership ontology preserved.
+  primitive_laws:
+  - shared packing law
+  - shared participation law
+  - shared one-field law
+  stable_carriers:
+  - u
+  - p
+  - Phi
+  - F
+  endpoint_reading:
+    dead: legacy participation-side class-exit label only; not a proved primitive biconditional with failure of shared participation law
+    blown: legacy packing-side class-exit label only; not a proved primitive biconditional with failure of shared packing law
+    jump: legacy one-field-side class-exit label only; not a proved primitive biconditional with failure of shared one-field law
+equation_fidelity:
+  parent_surface: classical incompressible Navier-Stokes
+  mirrored_surface: classical incompressible Euler
+  parent_term_removed: nu Delta u
+  preserve_transport: true
+  preserve_pressure: true
+  preserve_incompressibility: true
+  preserve_bridge_order: true
+  preserve_closed_loop_feedback: true
+  prohibit_silent_branch_switch: true
+  explicit_holdout_rule: >-
+    Any proof step whose current statement uses viscosity, dissipation,
+    diffusion, heat observability, or Stokes structure must either be rewritten
+    explicitly for Euler or left marked as a holdout.
+object_law_route_lock_sentence: >-
+  The chat20 Euler mirror is governed by the same class-membership object law
+  as the installed Navier-Stokes route, but with the governing PDE changed to
+  incompressible Euler. The route must preserve the same Pack / Part / Field
+  witness burden, the same surviving endpoint-exclusion queue, and the same
+  source/receiver split discipline. No step may import Navier-Stokes viscosity
+  back in implicitly through a renamed coercive or parabolic package.
+mirror_theorem_queue:
+  - keep the source-locked contradiction and frontier packet written literally with the Euler PDE
+  - keep `CFI.A` as forward-invariance of lawful class membership on same-fluid Euler families
+  - keep `OFP.A` as one-field forward preservation through the transport / packet law without silent viscous terms
+  - use branch-local `ELCI.A` as the receiver replacement for the parent `LCI.A` slot and keep the missing `2nu` absorption explicit
+  - only after the Euler mainline is honest may downstream exact-potential, Hodge, selector, or Euclidean export branches be mirrored
+current_receiver_and_holdout_surfaces:
+  branch_local_receiver_slot:
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+  parent_source_wall:
+  - problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+  downstream_viscous_packets:
+  - problems/navier-stokes/theorem-construction/mpp-lci-a-fixed-increment-top-viscous-readout-note.md
+  viscous_center_supplier_packets:
+  - problems/navier-stokes/theorem-construction/mpp-lci-a-first-rung-viscous-center-supplier-note.md
+  parabolic_heat_packets:
+  - problems/navier-stokes/theorem-construction/exact-potential-v2-static-diffusion-heat-plus-perturbation-split.md

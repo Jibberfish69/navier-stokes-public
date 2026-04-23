@@ -1,0 +1,59 @@
+---
+version: 1
+branch_id: euler-mirror-chat20
+artifact_id: completion-status
+updated_on: '2026-04-22'
+completion_meaning: >-
+  Contract completion here means authoring and audit completion of the Euler
+  mirror branch surfaces under C1-C6. It does not mean that global smoothness
+  for Euler has been proved.
+theorem_claim_status: open
+open_burden_surfaces:
+  - problems/navier-stokes/euler-mirror/execution-ledger.yaml
+  - problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md
+conditions:
+  C1:
+    status: completed
+    evidence:
+      - problems/navier-stokes/euler-mirror/positive-control-file-ledger.yaml
+      - problems/navier-stokes/euler-mirror/claim-ladder.md
+      - problems/navier-stokes/euler-mirror/source-grounded-framework-map.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/positive-control-euler-program.md
+  C2:
+    status: completed
+    evidence:
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-contradiction-source-locked-note.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-law13-surviving-endpoint-exclusion-program.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+  C3:
+    status: completed
+    evidence:
+      - problems/navier-stokes/euler-mirror/claim-ladder.md
+      - problems/navier-stokes/euler-mirror/source-grounded-framework-map.md
+      - problems/navier-stokes/euler-mirror/v6-four-bridge-source-note.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md
+  C4:
+    status: completed
+    evidence:
+      - problems/navier-stokes/euler-mirror/branch-audit-index.yaml
+      - problems/navier-stokes/euler-mirror/audits/selector-audit.yaml
+      - problems/navier-stokes/euler-mirror/audits/hopf-shuffle-audit.yaml
+      - problems/navier-stokes/euler-mirror/audits/compactness-audit.yaml
+      - problems/navier-stokes/euler-mirror/audits/exact-potential-audit.yaml
+      - problems/navier-stokes/euler-mirror/audits/gradient-continuation-audit.yaml
+      - problems/navier-stokes/euler-mirror/audits/export-whole-space-discharge-audit.yaml
+  C5:
+    status: completed
+    evidence:
+      - problems/navier-stokes/euler-mirror/viscosity-dependence-ledger.yaml
+      - problems/navier-stokes/euler-mirror/audits/exact-potential-audit.yaml
+      - problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+  C6:
+    status: completed
+    evidence:
+      - problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md
+overall_status: completed

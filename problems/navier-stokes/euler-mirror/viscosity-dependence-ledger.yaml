@@ -1,0 +1,87 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  branch_id: euler-mirror-chat20
+  artifact_id: viscosity-dependence-ledger-navier-stokes-euler-mirror
+  updated_on: '2026-04-22'
+  generator: chat20-manual-ledger
+entries:
+- source_path: problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-source-locked-note.md
+  mirror_status: rewritten-into-euler-mainline
+  dependence_class: governing-object-rewrite
+  reason: The governing object is stated as one pressure-viscosity field and must be rewritten literally for Euler.
+  target_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-contradiction-source-locked-note.md
+- source_path: problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
+  mirror_status: rewritten-into-euler-mainline
+  dependence_class: equation-statement-rewrite
+  reason: The frontier packet writes the Navier-Stokes PDE explicitly and must carry the Euler equation explicitly instead.
+  target_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-mirror-frontier-packet.md
+- source_path: problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
+  mirror_status: rewritten-into-euler-mainline
+  dependence_class: route-preserved-with-coercivity-audit
+  reason: The route survives, but every coercive or dissipative use of `nu` must be exposed rather than silently retained.
+  target_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
+- source_path: problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
+  mirror_status: rewritten-into-euler-mainline
+  dependence_class: transport-packet-friendly
+  reason: This is the least explicitly viscous mainline file and is the cleanest first packet/coherence transplant.
+  target_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
+- source_path: problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+  mirror_status: replaced-by-euler-conditional-receiver
+  dependence_class: explicit-pressure-viscosity-split
+  reason: The installed statement uses explicit `2nu` dissipation; the Euler mirror now replaces it by the transport-pressure-only theorem slot `ELCI.A`.
+  target_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+- source_path: problems/navier-stokes/theorem-construction/mpp-lci-a-fixed-increment-top-viscous-readout-note.md
+  mirror_status: demoted-provenance-only
+  dependence_class: top-viscous-readout
+  reason: The target ledger is defined directly through the top-viscous term and disappears when viscosity is removed.
+  target_surface: problems/navier-stokes/euler-mirror/viscosity-dependence-ledger.yaml
+- source_path: problems/navier-stokes/theorem-construction/mpp-lci-a-first-rung-viscous-center-supplier-note.md
+  mirror_status: demoted-provenance-only
+  dependence_class: viscous-center-supplier
+  reason: The packet is a direct viscous-center supplier and therefore cannot remain theorem-bearing after literal removal of viscosity.
+  target_surface: problems/navier-stokes/euler-mirror/viscosity-dependence-ledger.yaml
+- source_path: problems/navier-stokes/theorem-construction/exact-potential-v2-static-diffusion-heat-plus-perturbation-split.md
+  mirror_status: demoted-parabolic-provenance
+  dependence_class: heat-observability-and-diffusion
+  reason: The route is explicitly a heat-plus-perturbation / static-diffusion program, so it cannot be mirrored honestly without a new Euler analogue.
+  target_surface: problems/navier-stokes/euler-mirror/audits/exact-potential-audit.yaml
+- source_path: problems/navier-stokes/theorem-construction/exact-potential-v2-static-diffusion-wang-zhang-route.md
+  mirror_status: demoted-parabolic-provenance
+  dependence_class: heat-static-diffusion-route
+  reason: The route spends heat/static-diffusion structure explicitly and is therefore quarantined on the Euler branch.
+  target_surface: problems/navier-stokes/euler-mirror/audits/exact-potential-audit.yaml
+- source_path: problems/navier-stokes/theorem-construction/route-b-euclidean-closure-theorem.md
+  mirror_status: replaced-by-euler-route-b-packet
+  dependence_class: route-b-dissipation-and-ns-continuation
+  reason: The parent packet spends `nu D_N` and a Navier-Stokes continuation theorem; the Euler mirror now records the exact replacement burden in the Route B Euler theorem.
+  target_surface: problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md
+- source_path: problems/navier-stokes/gradient-discharge-source-pack.md
+  mirror_status: replaced-by-euler-continuation-pack
+  dependence_class: dissipative-gradient-continuation
+  reason: The parent continuation bridge closes through the coercive `nu D_N` term; the Euler mirror replaces it with an open transport-pressure continuation slot.
+  target_surface: problems/navier-stokes/euler-mirror/gradient-discharge-source-pack.md
+- source_path: problems/navier-stokes/gradient-transfer-coercivity-source-pack.md
+  mirror_status: replaced-by-euler-gradient-transfer-pack
+  dependence_class: coercivity-via-viscous-damping
+  reason: The parent source pack localizes the exact `eta nu D_N` coercive packet; the Euler mirror records the transport-pressure replacement burden instead.
+  target_surface: problems/navier-stokes/euler-mirror/gradient-transfer-coercivity-source-pack.md
+- source_path: problems/navier-stokes/scale-barrier-tail-discharge-source-pack.md
+  mirror_status: replaced-by-euler-scale-tail-pack
+  dependence_class: scale-tail-closure-via-viscous-absorption
+  reason: The parent tail discharge absorbs transport defect into viscosity; the Euler mirror now records the exact non-dissipative replacement burden.
+  target_surface: problems/navier-stokes/euler-mirror/scale-barrier-tail-discharge-source-pack.md
+- source_path: problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+  mirror_status: demoted-provenance-only
+  dependence_class: curvature-diffusion-fourth-bridge
+  reason: The parent fourth bridge remains valuable as source provenance, but it is not theorem-bearing on the Euler mirror once the parabolic damping is removed.
+  target_surface: problems/navier-stokes/euler-mirror/curvature-based-regularity-discharge-source-pack.md
+summary:
+  rewritten_mainline_count: 4
+  replacement_or_demotion_count: 10
+  first_literal_open_receiver_burden: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+  note: >-
+    Every active viscous or parabolic packet named by the branch now has either
+    an Euler replacement surface or an explicit demotion to provenance / audit
+    status.

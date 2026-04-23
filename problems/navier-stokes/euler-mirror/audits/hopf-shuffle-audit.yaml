@@ -1,0 +1,32 @@
+---
+version: 1
+branch_id: euler-mirror-chat20
+family_id: hopf-shuffle
+family_label: Hopf-shuffle
+parent_family_status: mapped-template-only
+summary:
+  dominant_classification: blocked-by-non-Euler-dependence
+  mirrored_count: 0
+  rewrite_needed_count: 0
+  blocked_by_non_euler_dependence_count: 2
+  provenance_only_count: 0
+  note: >-
+    The on-disk Hopf-shuffle route is still tied to the differentiated
+    Navier-Stokes tower and a final deformation-geometry drain driven by
+    viscous/parabolic terms, so this family is not yet an honest Euler mirror.
+entries:
+  - source_path: problems/navier-stokes/theorem-construction/hopf-shuffle-endgame-program.md
+    theorem_role: tower to shuffle/Hopf to drain endgame program
+    classification: blocked-by-non-Euler-dependence
+    rationale: >-
+      The route is organized around the differentiated Navier-Stokes tower with
+      explicit `nu Delta` terms and ends at a deformation-geometry dissipation
+      law, so the current theorem program does not survive literal viscosity
+      removal.
+  - source_path: problems/navier-stokes/theorem-construction/hopf-shuffle-survivor-drain-program.md
+    theorem_role: survivor extraction to drain program
+    classification: blocked-by-non-Euler-dependence
+    rationale: >-
+      The survivor is exported to a geometry-modified parabolic drain in the
+      evolving metric, which is exactly the non-Euler dependence the mirror
+      branch is meant to expose rather than retain.
