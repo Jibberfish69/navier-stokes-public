@@ -111,9 +111,9 @@ published_files:
 - euler-mirror/gradient-discharge-source-pack.md
 - euler-mirror/gradient-transfer-coercivity-source-pack.md
 - euler-mirror/interdependencies-discharge-source-pack.md
-- euler-mirror/literal-corpus-execution-contract.md
-- euler-mirror/literal-corpus-execution-status.yaml
-- euler-mirror/literal-corpus-gap-note.md
+- euler-mirror/methodology-aim-walkdown-contract.md
+- euler-mirror/methodology-aim-walkdown-gap-note.md
+- euler-mirror/methodology-aim-walkdown-status.yaml
 - euler-mirror/monotone-functional-discharge-source-pack.md
 - euler-mirror/nonlinear-closure-discharge-source-pack.md
 - euler-mirror/positive-control-file-ledger.yaml
@@ -123,7 +123,10 @@ published_files:
 - euler-mirror/scale-high-side-remainder-source-pack.md
 - euler-mirror/source-grounded-framework-map.md
 - euler-mirror/target-fidelity-discharge-source-pack.md
+- euler-mirror/theorem-construction/curvature-provenance-euler-support-note.md
 - euler-mirror/theorem-construction/euler-mirror-frontier-packet.md
+- euler-mirror/theorem-construction/exact-potential-euler-entry-obstruction-note.md
+- euler-mirror/theorem-construction/export-whole-space-euler-walkdown-program.md
 - euler-mirror/theorem-construction/integrated-euler-closure-program.md
 - euler-mirror/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
 - euler-mirror/theorem-construction/mpp-class-membership-contradiction-source-locked-note.md
@@ -134,6 +137,7 @@ published_files:
 - euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
 - euler-mirror/theorem-construction/positive-control-euler-program.md
 - euler-mirror/theorem-construction/route-b-euler-closure-theorem.md
+- euler-mirror/theorem-construction/selector-geometry-euler-walkdown-program.md
 - euler-mirror/v6-four-bridge-source-note.md
 - euler-mirror/viscosity-dependence-ledger.yaml
 - exploration-graph.yaml
