@@ -21,13 +21,17 @@ c_\nu\mathcal N
 \le
 L(t)\mathcal X^{exc}
 +
-C(\mathcal X^{exc})^{1/2}\mathcal N
+C_\ast(\mathcal X^{exc})^{1/2}\mathcal N
 +
 F(t),
 \qquad
 L,F\in L^1(I).
 \tag{RWS.0}
 ```
+
+Here `C_\ast=C_{cut}+C_{press}` after the core/buffer correction: the moving
+cutoff and local pressure remainder both contribute scale-small
+`\mathcal X^{exc\,1/2}\mathcal N` terms.
 
 The first-exit bootstrap closes on a subinterval `J=[s,t]` if
 
@@ -203,6 +207,87 @@ recover the fixed DTC radius by a separate scale-recovery theorem.}
 
 This is dangerous because the recovery step may spend exactly the regularity
 that `DTC.A` is trying to prove.
+
+### Lemma `RWS.B_shrink`
+
+The Taylor restart argument gives the following honest shrinkable-radius
+supplier.
+
+At a retained restart time `s_a`, assume the tower fields are smooth on a
+neighborhood of the transported center and reset the affine frame by
+
+```math
+G_a(s_a)=I,
+\qquad
+\dot G_a=A_aG_a,
+\qquad
+A_a(s_a)=U_1(c_a(s_a),s_a).
+\tag{RWS.14a}
+```
+
+For every `\varepsilon_\ast>0`, there exists a radius
+`0<R_a\le R_{\mathrm{req}}` such that the restarted affine-excess packet on the
+ball `B_{R_a}` satisfies
+
+```math
+\mathcal X_{a,R_a}^{exc}(s_a)<\varepsilon_\ast.
+\tag{RWS.14b}
+```
+
+Indeed, in reset coordinates `x=c_a(s_a)+y`,
+
+```math
+U_q(c_a+y,s_a)-U_q(c_a,s_a)=O(|y|)
+\qquad(q\ne1),
+\tag{RWS.14c}
+```
+
+and
+
+```math
+U_1(c_a+y,s_a)-U_1(c_a,s_a)=O(|y|).
+\tag{RWS.14d}
+```
+
+With the scale-normalized affine-excess weights, the `|\beta|\le2` pieces obey
+
+```math
+R_a^{2|\beta|-1}
+\int_{B_{R_a}}
+|\nabla^\beta R_{q,a}(y,s_a)|^2\,dy
+\longrightarrow 0
+\qquad(R_a\downarrow0),
+\tag{RWS.14e}
+```
+
+for every fixed center, rung, and derivative. Since there are finitely many of
+them, choose `R_a` so `(RWS.14b)` holds.
+
+This proves only the shrinkable-radius supplier:
+
+```math
+\boxed{RWS.B_{\mathrm{shrink}}.}
+\tag{RWS.14f}
+```
+
+It does not prove the fixed-scale theorem `(RWS.10)`--`(RWS.12a)` unless the
+route also installs one of the following additional bridges:
+
+```math
+\text{scale recovery from }R_a\text{ back to }R_{\mathrm{req}},
+\tag{RWS.14g}
+```
+
+or
+
+```math
+\text{permission to run all downstream DTC/EOC/AFD/RCF readouts at the restarted
+radius }R_a.
+\tag{RWS.14h}
+```
+
+Without such a bridge, shrinkable-radius smallness cannot be substituted for the
+required fixed transported-center ball scale.
 
 3. Non-small affine route:
 

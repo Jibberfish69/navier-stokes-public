@@ -251,7 +251,7 @@ DTC.PRE_{\mathfrak p}.
 Under the installed affine-excess route, the current noncircular subtargets are:
 
 ```math
-ACT.Actr,
+ACT.Actr_{\mathrm{core}},
 \qquad
 AXE.2\ /\ ACT.X\text{-}Press,
 \qquad
@@ -300,7 +300,7 @@ It is the precise scheduler/pressure/center-amplitude triad:
 +
 \boxed{AXE.2\ /\ ACT.X\text{-}Press}
 +
-\boxed{ACT.Actr}
+\boxed{ACT.Actr_{\mathrm{core}}}
 \quad
 \text{feeding}
 \quad

@@ -2430,6 +2430,13 @@ RWS.B:
 ```
 
 This is the part not supplied by absolute continuity of the `L,F` integrals.
+The Taylor restart argument supplies only the shrinkable-radius version
+`RWS.B_shrink`: after resetting the affine frame at `t_{r+1}`, one can choose a
+smaller affine ball so the scale-normalized excess is below
+`\varepsilon_\ast`. This is not yet the fixed-scale `RWS.B` needed here unless
+a scale-recovery theorem returns from the restarted radius to the required DTC
+radius, or the downstream DTC/EOC/AFD/RCF readouts are explicitly licensed at
+the restarted radius.
 
 With this bridge, the local analytic route is:
 

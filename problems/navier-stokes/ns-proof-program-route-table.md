@@ -212,8 +212,8 @@ dX_exc + cN <= L X_exc + (C_cut+C_press) X_exc^(1/2) N + F
 with `L,F in L1`. If the initial affine excess and additive source budget stay
 below the epsilon-star threshold, the `X_exc^(1/2)N` term is absorbed and
 `ACT.E1/E2` follows on that affine interval. This is excess-only: center zero
-modes must be gauged away or carried separately, and a full-strip proof needs a
-small-budget scheduler or retained-window decomposition.
+modes must be split into `A_core^ctr` and `A_buf^ctr`, and a full-strip proof
+needs a small-budget scheduler or retained-window decomposition.
 
 The named atom split is:
 

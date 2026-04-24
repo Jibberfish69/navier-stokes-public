@@ -2065,7 +2065,7 @@ c_\nu\mathcal N
 \le
 L\mathcal X^{exc}
 +
-C_\ast(\mathcal X^{exc})^{1/2}\mathcal N
+(C_{cut}+C_{press})(\mathcal X^{exc})^{1/2}\mathcal N
 +
 F;
 \tag{ACT.Scale6}
@@ -2113,6 +2113,8 @@ AXE.A
 +
 RWS.A
 +
+RWS.B
++
 ACT.X\text{-}Readout
 \Longrightarrow
 \mathfrak H^{osc,\alpha}\in L^2(I)
@@ -2138,6 +2140,8 @@ AXE.A
 +
 RWS.A
 +
+RWS.B
++
 ACT.X\text{-}Readout
 \Longrightarrow
 ACT.A
@@ -2149,7 +2153,7 @@ LCI.A.
 ```
 
 The sharp proof order is `ACT.Actr_core` first, then `AXE.2` / `ACT.X-Press`,
-plus the scheduler bridge `RWS.A`; `ACT.X-Cut` is the structurally favorable
+plus the scheduler bridge `RWS.B`; `ACT.X-Cut` is the structurally favorable
 companion estimate. Here `ACT.X-Press` is licensed by `ACT.Actr_core` and the
 local fixed-ball pressure response, while its remainder-remainder pressure term
 contributes `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N` to the same

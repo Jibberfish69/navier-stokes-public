@@ -1131,7 +1131,7 @@ c_\nu\mathcal N
 \le
 L\mathcal X^{exc}
 +
-C_\ast(\mathcal X^{exc})^{1/2}\mathcal N
+(C_{cut}+C_{press})(\mathcal X^{exc})^{1/2}\mathcal N
 +
 F.
 \tag{ACT.X8}
@@ -1186,7 +1186,7 @@ RWS.A:
 I=\bigcup_{r=0}^{M-1}I_r,\quad
 d\mathcal X^{exc}/dt+c_\nu\mathcal N
 \le
-L\mathcal X^{exc}+C_\ast(\mathcal X^{exc})^{1/2}\mathcal N+F,\\
+L\mathcal X^{exc}+(C_{cut}+C_{press})(\mathcal X^{exc})^{1/2}\mathcal N+F,\\
 (C_{cut}+C_{press})(2\varepsilon_\ast)^{1/2}\le c_\nu/2,\quad
 \bigl(\mathcal X^{exc}(t_r)+\|F\|_{L^1(I_r)}\bigr)
 e^{\|L\|_{L^1(I_r)}}<2\varepsilon_\ast
@@ -1234,6 +1234,8 @@ AXE.A
 +
 RWS.A
 +
+RWS.B
++
 ACT.X\text{-}Readout
 \Longrightarrow
 \left(
@@ -1271,6 +1273,8 @@ ACT.X\text{-}TopVisc
 +
 ACT.X\text{-}Boot
 +
+RWS.B
++
 ACT.X\text{-}Readout
 \Longrightarrow
 ACT.A
@@ -1282,7 +1286,7 @@ LCI.A.
 ```
 
 The next theorem-facing proof targets are `ACT.Actr_core`, `AXE.2` /
-`ACT.X-Press`, and `RWS.A`.
+`ACT.X-Press`, and `RWS.B`.
 In the sharpened ledger, `ACT.X-Press` requires exactly
 the local fixed-ball pressure response plus the scale-small pressure excess
 term `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`; the finite pressure
