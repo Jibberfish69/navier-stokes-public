@@ -216,3 +216,232 @@ ACT.X\text{-}Boot.
 
 The finite-window partition is easy after small starts; the small starts are
 the actual theorem. `L,F\in L^1` alone never supplies `ACT.X-Seed`.
+
+## Scale-Recovery / Readout-Compatibility Bridge `RWS.C_scale`
+
+`ACT.X-Scale` gives smallness only after choosing a sufficiently small affine
+radius. It does not imply that the original fixed-radius packet is small:
+
+```math
+\mathcal X^{exc}_{small}(s_a)<\eta_X
+\not\Longrightarrow
+\mathcal X^{exc}_{R_{\mathfrak p}^{TC}}(s_a)<\eta_X.
+\tag{RWS.C0}
+```
+
+The valid replacement is finite small-radius covering plus readout
+compatibility.
+
+### Theorem `RWS.C_scale`
+
+Fix a required transported-center radius `R_{\mathfrak p}^{TC}` and a retained
+window `I_a=[s_a,s_{a+1}]`. Assume:
+
+```math
+\Gamma_\sharp\in L^\infty(I_a).
+\tag{RWS.C1}
+```
+
+Assume a finite dynamic same-fluid subcenter cover of the fixed readout ball:
+there are labels `a^{j,b}` in the retained collar, centers
+`c_{j,b}(t)=\Phi(a^{j,b},t)`, radii `r_b`, and constants
+`N_{ov},N_{chain}<\infty` such that for every `t\in I_a`,
+
+```math
+B(c_j(t),R_{\mathfrak p}^{TC})
+\subset
+\bigcup_{b=1}^{B_j}B(c_{j,b}(t),\kappa_\sharp r_b),
+\tag{RWS.C2}
+```
+
+with overlap bounded by `N_{ov}` and with every two points in the large ball
+connectable by a chain of at most `N_{chain}` overlapping cover balls.
+
+This is the corrected cover hypothesis. A physical cover of
+`B(c_j(s_a),R_{\mathfrak p}^{TC})` at one time is not enough by itself; one needs
+either `(RWS.C2)` directly or a label-tube cover of
+
+```math
+\{a:\exists t\in I_a,\ \Phi(a,t)\in B(c_j(t),R_{\mathfrak p}^{TC})\}
+\tag{RWS.C2a}
+```
+
+whose transported images give `(RWS.C2)`.
+
+For every subcenter, assume `ACT.X-Scale` supplies a seed radius and
+`ACT.X-Boot` propagates the restarted excess packet:
+
+```math
+\mathcal X_{j,b}^{exc}\in L^\infty(I_a),
+\qquad
+\mathcal N_{j,b}\in L^1(I_a).
+\tag{RWS.C3}
+```
+
+Assume also the corresponding small-ball full readout packet is bounded:
+
+```math
+\mathcal Y_{j,b}^{read}
+:=
+\mathcal A_{j,b,\mathrm{core}}^{ctr}
++
+\mathcal A_{j,b,\mathrm{buf}}^{ctr}
++
+\mathcal X_{j,b}^{exc}
+\in L^\infty(I_a),
+\tag{RWS.C4}
+```
+
+where the core modes are supplied by `ACT.Actr_core` and the buffer modes
+`m+1,m+2` are readout/top-viscous data, not pre-pressure Gronwall data.
+
+Then the fixed-radius transported-center readouts on `I_a` hold:
+
+```math
+\mathfrak H_{N,m,\rho,\psi}^{osc,\alpha}\in L^2(I_a),
+\qquad
+\mathfrak D_{1,\rho,\psi}^{aff}\in L^1(I_a),
+\qquad
+\mathfrak F_{N,m,\rho,\psi}^{ctr,res}\in L^1(I_a).
+\tag{RWS.C5}
+```
+
+Equivalently,
+
+```math
+ACT.X\text{-}Scale
++
+ACT.X\text{-}Boot
++
+RWS.C_{\mathrm{scale}}
++
+ACT.Actr_{\mathrm{core}}
+\Longrightarrow
+\text{fixed-radius }ACT.X\text{-Readout on }I_a.
+\tag{RWS.C6}
+```
+
+### Proof
+
+Frame equivalence from `\Gamma_\sharp\in L^\infty(I_a)` converts each
+small-radius affine packet into physical Sobolev control on its transported
+cover ball:
+
+```math
+\sum_{q=0}^{m+2}\sum_{|\beta|\le2}
+\|\nabla^\beta U_q(\cdot,t)\|_{L^2(B(c_{j,b}(t),\kappa_\sharp r_b))}^2
+\le
+C_\sharp \mathcal Y_{j,b}^{read}(t).
+\tag{RWS.C7}
+```
+
+Finite overlap and `(RWS.C2)` give the fixed-radius Sobolev packet estimate
+
+```math
+\mathcal Z_{\mathfrak p}^{TC}(t)
+\le
+C_{\mathrm{cov}}
+\sum_{j,b}\mathcal Y_{j,b}^{read}(t).
+\tag{RWS.C8}
+```
+
+Thus `\mathcal Z_{\mathfrak p}^{TC}\in L^\infty(I_a)`.
+
+Local Morrey on each cover ball and the chain-overlap hypothesis give the
+fixed-radius oscillation readout:
+
+```math
+\mathfrak H_{N,m,\rho,\psi}^{osc,\alpha}(t)^2
+\le
+C_{\mathrm{cov}}
+\sum_{j,b}\mathcal Y_{j,b}^{read}(t).
+\tag{RWS.C9}
+```
+
+Since the right-hand side is bounded and `I_a` is finite,
+`\mathfrak H_{N,m,\rho,\psi}^{osc,\alpha}\in L^2(I_a)`.
+
+For the affine defect, the oscillation part is controlled by the same finite
+chain readout. The first-rung forcing part is read from the local center forcing
+identity, schematically
+
+```math
+\mathcal E_j^{(1)}
+=
+\text{local pressure response}
++
+\text{harmonic pressure tail}
++
+\text{viscous }U_3\text{ term}.
+\tag{RWS.C10}
+```
+
+The local pressure response is controlled by `(RWS.C9)` and the center-amplitude
+ledger, the harmonic tail by the energy bound, and the viscous `U_3` term by the
+small-ball readout packet. Hence
+
+```math
+\mathfrak D_{1,\rho,\psi}^{aff}(t)
+\le
+C_{\mathrm{cov}}
+\left(
+1+\sum_{j,b}\mathcal Y_{j,b}^{read}(t)
++\mathcal A_{\mathrm{core}}^{ctr}(t)^2
++\|u_0\|_{L^2}^2
+\right),
+\tag{RWS.C11}
+```
+
+which is in `L^1(I_a)`.
+
+For residual center forcing,
+
+```math
+\mathfrak F_{N,m,\rho,\psi}^{ctr,res}
+=
+\mathfrak K_{N,m,\rho,\psi}^{press,ctr}
++
+\mathfrak K_{N,m,\rho,\psi}^{visc,top,ctr}.
+\tag{RWS.C12}
+```
+
+The pressure-center part uses the same local pressure response and harmonic-tail
+bound. The top-viscous part reads `U_{m+1}` and `U_{m+2}` from the buffer modes
+inside `\mathcal Y_{j,b}^{read}`:
+
+```math
+\mathfrak K_{N,m,\rho,\psi}^{visc,top,ctr}(t)
+\le
+C_{\mathrm{cov}}
+\left(
+\sum_{j,b}\mathcal Y_{j,b}^{read}(t)
+\right)^{1/2}.
+\tag{RWS.C13}
+```
+
+Therefore `\mathfrak F_{N,m,\rho,\psi}^{ctr,res}\in L^1(I_a)`.
+
+This proves `(RWS.C5)`.
+
+### Route Consequence
+
+`RWS.C_scale` is the precise replacement for the invalid fixed-radius smallness
+step. The small-radius seed and bootstrap give local bounded packets; the
+dynamic finite cover and readout compatibility recover the fixed-radius outputs.
+Thus the scheduler branch becomes:
+
+```math
+ACT.X\text{-}Scale
++
+ACT.X\text{-}Boot
++
+RWS.C_{\mathrm{scale}}
+\Longrightarrow
+\text{fixed-radius }ACT.X\text{-Readout}.
+\tag{RWS.C14}
+```
+
+The remaining geometric input is the dynamic same-fluid cover `(RWS.C2)`. The
+remaining analytic input is the small-ball pressure/viscous readout already
+tracked in `AXE.2` / `ACT.X-Press`; no `LCI.A`, `CSP.A`, `OFP.A`, `Field`, or
+endpoint matrix input is allowed.

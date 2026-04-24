@@ -1171,15 +1171,14 @@ The readout requires the separate center-amplitude ledger
 `\mathcal A_{\mathfrak p}^{ctr}` to satisfy `(ACT.X7a)` or be carried in `L,F`;
 otherwise the scale-small excess bound does not recover the raw center modes.
 
-For a full interval, `ACT.X-Boot` also needs the small-budget scheduler:
-decompose `I` into affine budget intervals and restart the affine excess packet
-at each endpoint using the current center frame. The restarted variable is
-only `\mathcal X^{exc}`; the center ledger continues through `(ACT.X7a)`.
+For a full interval, `ACT.X-Boot` also needs `ACT.X-Scale` at every retained
+restart plus the small-budget scheduler. The restarted variable is only
+`\mathcal X^{exc}`; the center ledger continues through `(ACT.X7a)`.
 
-Record that scheduler as:
+Record that boot theorem as:
 
 ```math
-RWS.A:
+ACT.X\text{-}Boot:
 \quad
 \left[
 \begin{gathered}
@@ -1187,39 +1186,35 @@ I=\bigcup_{r=0}^{M-1}I_r,\quad
 d\mathcal X^{exc}/dt+c_\nu\mathcal N
 \le
 L\mathcal X^{exc}+(C_{cut}+C_{press})(\mathcal X^{exc})^{1/2}\mathcal N+F,\\
-(C_{cut}+C_{press})(2\varepsilon_\ast)^{1/2}\le c_\nu/2,\quad
-\bigl(\mathcal X^{exc}(t_r)+\|F\|_{L^1(I_r)}\bigr)
-e^{\|L\|_{L^1(I_r)}}<2\varepsilon_\ast
+(C_{cut}+C_{press})(4\eta_X)^{1/2}\le c_\nu/2,\quad
+\bigl(\eta_X+\|F\|_{L^1(I_r)}\bigr)
+e^{\|L\|_{L^1(I_r)}}\le2\eta_X
 \ \text{for all }r
 \end{gathered}
 \right]
 \Longrightarrow
-ACT.X\text{-}Boot\text{ on }I.
+\mathcal X^{exc}\in L^\infty(I),\quad \mathcal N\in L^1(I).
 \tag{ACT.X9a}
 ```
 
-`RWS.A` is separate from `AXE.A`: `AXE.A` proves the local differential
-inequality, while `RWS.A` supplies the small-budget first-exit hypotheses on the
-retained windows. Its active input is the window-start smallness and local
-`L^1` budget condition; it is not a consequence of `L,F\in L^1(I)` alone.
+`ACT.X-Boot` is separate from `AXE.A`: `AXE.A` proves the local differential
+inequality, while `ACT.X-Boot` supplies the Seed+Sched+Absorb first-exit
+theorem on retained windows. Its active seed input is `ACT.X-Scale`, not a
+consequence of `L,F\in L^1(I)` alone.
 
-The remaining scheduler bridge is:
+The remaining seed input is:
 
 ```math
-RWS.B:
+ACT.X\text{-}Scale:
 \quad
-\text{previous-window bounded affine packet}
-+
-\text{admissible transported-center recentering}
+\text{retained smooth center-ball regularity}
 \Longrightarrow
-\mathcal X^{exc}(t_{r+1})<\varepsilon_\ast
-\text{ for the next retained window.}
+\exists R_a>0:\ \mathcal X^{exc}(s_a;R_a)\le\eta_X.
 \tag{ACT.X9b}
 ```
 
-`RWS.B` is the restart/re-centering theorem. It supplies the next window-start
-smallness needed by `(RWS.3)`; absolute continuity of the `L,F` integrals
-supplies only the local budget part.
+`ACT.X-Scale` supplies the next window-start smallness; absolute continuity of
+the `L,F` integrals supplies only the local budget part.
 
 The named theorem target for this sufficient branch is:
 
@@ -1232,9 +1227,9 @@ ACT.X\text{-}Def
 +
 AXE.A
 +
-RWS.A
+ACT.X\text{-}Boot
 +
-RWS.B
+ACT.X\text{-}Scale
 +
 ACT.X\text{-}Readout
 \Longrightarrow
@@ -1273,8 +1268,6 @@ ACT.X\text{-}TopVisc
 +
 ACT.X\text{-}Boot
 +
-RWS.B
-+
 ACT.X\text{-}Readout
 \Longrightarrow
 ACT.A
@@ -1286,7 +1279,7 @@ LCI.A.
 ```
 
 The next theorem-facing proof targets are `ACT.Actr_core`, `AXE.2` /
-`ACT.X-Press`, and `RWS.B`.
+`ACT.X-Press`, and `ACT.X-Scale`.
 In the sharpened ledger, `ACT.X-Press` requires exactly
 the local fixed-ball pressure response plus the scale-small pressure excess
 term `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`; the finite pressure

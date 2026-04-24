@@ -210,7 +210,7 @@ dX_exc + cN <= L X_exc + (C_cut+C_press) X_exc^(1/2) N + F
 ```
 
 with `L,F in L1`. If the initial affine excess and additive source budget stay
-below the epsilon-star threshold, the `X_exc^(1/2)N` term is absorbed and
+below the `eta_X` threshold, the `X_exc^(1/2)N` term is absorbed and
 `ACT.E1/E2` follows on that affine interval. This is excess-only: center zero
 modes must be split into `A_core^ctr` and `A_buf^ctr`, and a full-strip proof
 needs a small-budget scheduler or retained-window decomposition.
@@ -228,7 +228,7 @@ ACT.X-Energy:
   dX_exc + cN <= L X_exc + (C_cut+C_press) X_exc^(1/2) N + F.
 
 ACT.X-Boot:
-  the epsilon-star first-exit argument absorbs only X_exc^(1/2)N.
+  the eta_X first-exit argument absorbs only X_exc^(1/2)N.
 
 ACT.X-Readout:
   spends Y_read; A_core^ctr is supplied by ACT.Actr_core and A_buf^ctr is
@@ -273,6 +273,7 @@ ACT.Actr_core
 + ACT.X-Press
 + ACT.X-Mid
 + ACT.X-TopVisc
++ ACT.X-Scale
 + ACT.X-Boot
 + ACT.X-Readout
 => ACT.A

@@ -2208,6 +2208,13 @@ core ledger satisfies `ACT.Actr_core` and the buffer modes are recovered through
 the bounded readout packet `\mathcal Y^{read}` rather than smuggled into the
 pre-pressure Gronwall step.
 
+When `ACT.X-Scale` chooses a smaller restart radius, the fixed-radius readout is
+not automatic. The compatibility bridge is `RWS.C_scale`: a finite dynamic
+same-fluid cover of the required fixed ball by small restarted affine packets,
+plus the small-ball full readout packets, recovers the fixed-radius
+`EOC/AFD/RCF` readouts. Thus the false implication
+`\mathcal X_{small}<\eta_X => \mathcal X_{fixed}<\eta_X` is never used.
+
 #### Theorem `AXP.A` (Affine-Excess Propagation)
 
 The scale-small branch is most cleanly recorded as the following theorem. On an
@@ -2270,6 +2277,8 @@ ACT.X\text{-}Scale
 +
 ACT.X\text{-}Boot
 +
+RWS.C_{\mathrm{scale}}
++
 ACT.X\text{-}Readout
 \Longrightarrow
 \left(
@@ -2285,8 +2294,9 @@ ACT.X\text{-}Readout
 This is a propagation theorem for the `DTC.MA-Energy` subledger. It does not
 prove `ACT.X-Energy`, does not install `(FCI.5f)`, and does not discharge the
 endpoint matrix. For a full strip, `AXP.A` needs `ACT.X-Scale` at each retained
-restart together with the scheduler budget condition, or a direct proof that
-`(AXP.1)` holds on all retained affine intervals.
+restart together with the scheduler budget condition and `RWS.C_scale` to
+recover the required fixed-radius readouts, or a direct proof that `(AXP.1)` and
+fixed-radius readout compatibility hold on all retained affine intervals.
 
 Proof. Let
 
@@ -2342,6 +2352,8 @@ ACT.X\text{-}Scale
 +
 ACT.X\text{-}Boot
 +
+RWS.C_{\mathrm{scale}}
++
 ACT.X\text{-}Readout
 \Longrightarrow
 AXP.A
@@ -2350,7 +2362,7 @@ ACT.A.
 \tag{DTC.AFF-XChain}
 ```
 
-Equivalently, the eleven-item completion ledger is:
+Equivalently, the twelve-item completion ledger is:
 
 ```text
 1. ACT.Actr_core: lower center-amplitude Gronwall rule.
@@ -2362,17 +2374,20 @@ Equivalently, the eleven-item completion ledger is:
 7. ACT.X-TopVisc: buffer m+2 center modes are readout modes, not pre-pressure ACT.Actr_core data.
 8. ACT.X-Scale: retained smooth center-ball regularity supplies a radius R_a with X_exc(s_a;R_a) <= eta_X at each restart.
 9. ACT.X-Boot: ACT.X-Seed + ACT.X-Sched + ACT.X-Absorb propagates X_exc and N after ACT.X-Scale supplies small starts.
-10. ACT.X-Readout: X_exc + A_core^ctr + A_buf^ctr gives D_1^aff, F_ctr_res, H_osc^alpha.
-11. ACT.A -> RCF.A -> LCI.A, while FCI.5f and endpoint cleanup remain separate.
+10. RWS.C_scale: finite dynamic small-radius cover recovers fixed-radius readouts; pointwise fixed-radius smallness is not claimed.
+11. ACT.X-Readout: X_exc + A_core^ctr + A_buf^ctr gives D_1^aff, F_ctr_res, H_osc^alpha at the licensed readout scale.
+12. ACT.A -> RCF.A -> LCI.A, while FCI.5f and endpoint cleanup remain separate.
 ```
 
 This ledger is a proof plan, not a discharge. The sharp next proof targets are
-`ACT.Actr_core`, `AXE.2` / `ACT.X-Press`, and `ACT.X-Scale`; `ACT.X-Cut` is
-structurally favorable because the moving cutoff sees the affine defect.
+`ACT.Actr_core`, `AXE.2` / `ACT.X-Press`, `ACT.X-Scale`, and `RWS.C_scale`;
+`ACT.X-Cut` is structurally favorable because the moving cutoff sees the affine
+defect.
 
 For a full interval `I`, this branch additionally needs `ACT.X-Scale` at every
-retained restart plus the scheduler budget condition. Finiteness of `F,L` alone
-is not the same as `ACT.X-Seed`.
+retained restart, the scheduler budget condition, and `RWS.C_scale` to transfer
+small-radius packets to the fixed-radius readouts. Finiteness of `F,L` alone is
+not the same as `ACT.X-Seed`.
 
 #### Theorem `ACT.X-Boot` (Seed + Scheduler + Absorption)
 
@@ -2432,9 +2447,12 @@ each retained interval, and the finite sum over intervals gives
 \tag{ACT.XBoot}
 ```
 
-The scheduler obstruction is therefore not `RWS.B`; it is the seed theorem
-`ACT.X-Scale`. Retained smooth center-ball regularity is the proof source for
-`ACT.X-Scale`, and `ACT.X-Boot` consumes only the resulting seed inequality.
+The scheduler obstruction is therefore not fixed-radius smallness of the
+original packet. It splits into the seed theorem `ACT.X-Scale` and the
+scale/readout compatibility theorem `RWS.C_scale`. Retained smooth center-ball
+regularity is the proof source for `ACT.X-Scale`, and `ACT.X-Boot` consumes only
+the resulting seed inequality; `RWS.C_scale` is what licenses the downstream
+fixed-radius `ACT.X-Readout`.
 
 With this bridge, the local analytic route is:
 
@@ -2444,6 +2462,8 @@ AXE.A
 ACT.X\text{-Scale}
 +
 ACT.X\text{-Boot}
++
+RWS.C_{\mathrm{scale}}
 +
 ACT.Actr_{\mathrm{core}}
 +

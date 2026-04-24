@@ -983,10 +983,10 @@ obligations:
     be split into `A_core^ctr` and `A_buf^ctr` because the raw `q=0` center term
     is not small as `R -> 0`, and a full-strip proof needs a small-budget
     scheduler, not merely finite `L,F`. The named atom split is `ACT.X-Def + ACT.X-Energy +
-    ACT.X-Boot + ACT.X-Readout`: `ACT.X-Def` separates the small affine excess
+    ACT.X-Scale + ACT.X-Boot + ACT.X-Readout`: `ACT.X-Def` separates the small affine excess
     `X_exc` from the readout packet `Y_read = A_core^ctr + A_buf^ctr + X_exc`;
     `ACT.X-Energy` proves the absorbable inequality for `X_exc`; `ACT.X-Boot`
-    performs the epsilon-star first-exit argument; and `ACT.X-Readout` spends
+    performs the `eta_X` first-exit argument; and `ACT.X-Readout` spends
     `Y_read`, so `A_core^ctr` must be supplied by `ACT.Actr_core` while
     `A_buf^ctr` remains readout/top-viscous buffer data.
     The scheduler restarts only `X_exc` at budget endpoints using the current

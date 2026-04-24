@@ -387,7 +387,7 @@ closure_ecology:
         ACT.ScaleSmall is a conditional sufficient branch: if the
         scale-normalized affine excess satisfies dX_exc + cN <= L X_exc +
         (C_cut+C_press) X_exc^(1/2) N + F with L,F in L1, and the initial excess
-        plus source budget is below the epsilon-star absorption threshold, then
+        plus source budget is below the eta_X absorption threshold, then
         the nonlinear excess term is absorbed and ACT.E1/E2 follows on that
         affine interval. X is excess-only; center zero modes must be split into
         A_core^ctr and A_buf^ctr rather than placed in the smallness variable,
@@ -397,7 +397,7 @@ closure_ecology:
         ACT.X-Def separates the small affine excess X_exc from the full readout
         packet Y_read = A_core^ctr + A_buf^ctr + X_exc. ACT.X-Energy is the
         inequality dX_exc + cN <= L X_exc + (C_cut+C_press) X_exc^(1/2) N + F.
-        ACT.X-Boot is the epsilon-star first-exit argument for X_exc with that
+        ACT.X-Boot is the eta_X first-exit argument for X_exc with that
         combined threshold. ACT.X-Readout spends Y_read, so A_core^ctr must be
         controlled by ACT.Actr_core and A_buf^ctr is readout/top-viscous buffer
         data; neither can be smuggled into the smallness variable. ACT.X-Scale
@@ -421,8 +421,8 @@ closure_ecology:
         LCI.A, CSP.A, OFP.A, or Field.
       act_compact_chain: >-
         ACT.Actr_core + ACT.X-Def + ACT.X-Energy + ACT.X-Cut + ACT.X-Press +
-        ACT.X-Mid + ACT.X-TopVisc + ACT.X-Boot + ACT.X-Readout => ACT.A =>
-        RCF.A => LCI.A. This is the receiver-side proof plan, not a discharge;
+        ACT.X-Mid + ACT.X-TopVisc + ACT.X-Scale + ACT.X-Boot + ACT.X-Readout =>
+        ACT.A => RCF.A => LCI.A. This is the receiver-side proof plan, not a discharge;
         the next proof targets are ACT.Actr_core, ACT.X-Press, and ACT.X-Scale
         as the seed input consumed by ACT.X-Boot.
       audit_correction: >-

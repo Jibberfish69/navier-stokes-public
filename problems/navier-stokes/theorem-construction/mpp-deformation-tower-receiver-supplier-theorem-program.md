@@ -2111,9 +2111,9 @@ ACT.X\text{-}Def
 +
 AXE.A
 +
-RWS.A
+ACT.X\text{-Boot}
 +
-RWS.B
+ACT.X\text{-Scale}
 +
 ACT.X\text{-}Readout
 \Longrightarrow
@@ -2138,9 +2138,9 @@ ACT.X\text{-}Def
 +
 AXE.A
 +
-RWS.A
+ACT.X\text{-Boot}
 +
-RWS.B
+ACT.X\text{-Scale}
 +
 ACT.X\text{-}Readout
 \Longrightarrow
@@ -2153,7 +2153,7 @@ LCI.A.
 ```
 
 The sharp proof order is `ACT.Actr_core` first, then `AXE.2` / `ACT.X-Press`,
-plus the scheduler bridge `RWS.B`; `ACT.X-Cut` is the structurally favorable
+plus the seed bridge `ACT.X-Scale`; `ACT.X-Cut` is the structurally favorable
 companion estimate. Here `ACT.X-Press` is licensed by `ACT.Actr_core` and the
 local fixed-ball pressure response, while its remainder-remainder pressure term
 contributes `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N` to the same
@@ -2161,40 +2161,39 @@ scale-small bootstrap as the cutoff term. The finite pressure far-tail ledger
 is energy-controlled in `L^\infty(I)\subset L^1(I)`. It does not spend
 `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
 
-For a full interval, `ACT.X-Boot` needs a small-budget scheduler: decompose the
-interval into affine budget subintervals, prove the first-exit bound on each,
-and restart the affine excess packet at every budget endpoint using the current
-transported center frame. The restarted small object is only
+For a full interval, `ACT.X-Boot` needs `ACT.X-Scale` at every retained restart
+plus a small-budget scheduler: decompose the interval into affine budget
+subintervals, prove the first-exit bound on each, and restart only
 `\mathcal X^{exc}`.
 
-Record the scheduler bridge as
+Record the boot bridge as
 
 ```math
-RWS.A:
+ACT.X\text{-}Boot:
 \quad
 \left[
-(C_{cut}+C_{press})(2\varepsilon_\ast)^{1/2}\le c_\nu/2,
+(C_{cut}+C_{press})(4\eta_X)^{1/2}\le c_\nu/2,
 \quad
-\bigl(\mathcal X^{exc}(t_r)+\|F\|_{L^1(I_r)}\bigr)
-e^{\|L\|_{L^1(I_r)}}<2\varepsilon_\ast
+\bigl(\eta_X+\|F\|_{L^1(I_r)}\bigr)
+e^{\|L\|_{L^1(I_r)}}\le2\eta_X
 \ \text{on every retained window}
 \right]
 \Longrightarrow
-ACT.X\text{-}Boot\text{ on }I.
+\mathcal X^{exc}\in L^\infty(I),\quad \mathcal N\in L^1(I).
 \tag{ACT.Scale7c}
 ```
 
-This bridge is active only after the window-start smallness and local budget
-condition are supplied. It is not implied by `L,F\in L^1(I)` alone.
+This bridge is active only after `ACT.X-Scale` supplies the window-start
+smallness. It is not implied by `L,F\in L^1(I)` alone.
 
-The remaining scheduler bridge is
+The seed theorem is
 
 ```math
-RWS.B:
+ACT.X\text{-}Scale:
 \quad
-\text{previous-window bounded affine packet plus admissible recentering}
+\text{retained smooth center-ball regularity}
 \Longrightarrow
-\mathcal X^{exc}(t_{r+1})<\varepsilon_\ast.
+\exists R_a>0:\ \mathcal X^{exc}(s_a;R_a)\le\eta_X.
 \tag{ACT.Scale7d}
 ```
 

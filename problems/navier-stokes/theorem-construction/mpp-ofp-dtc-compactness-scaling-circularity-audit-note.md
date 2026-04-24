@@ -255,7 +255,7 @@ ACT.Actr_{\mathrm{core}},
 \qquad
 AXE.2\ /\ ACT.X\text{-}Press,
 \qquad
-RWS.A,
+ACT.X\text{-}Scale,
 \qquad
 ACT.X\text{-}Readout.
 \tag{ODC.15b}
@@ -270,33 +270,33 @@ u(x,t)-u(c_j(t),t)-A_j(t)(x-c_j(t)),
 
 not the full center amplitude. So it is not the first audit failure candidate.
 
-The first compactness-critical object is instead the scheduler
+The first compactness-critical object is instead the scale seed
 
 ```math
-RWS.A:
+ACT.X\text{-}Scale:
 \quad
-\text{finite retained-window cover satisfying the affine small-budget condition}
+\text{retained smooth center-ball regularity}
 \Longrightarrow
-ACT.X\text{-}Boot.
+\exists R_a>0:\mathcal X^{exc}(s_a;R_a)\le\eta_X.
 \tag{ODC.15d}
 ```
 
-This bridge passes `ODC.A1` and `ODC.A2` only if the retained windows, restart
-frames, and small affine-excess budgets are produced from direct pre-output data.
-It fails the audit if the window selection uses `LCI.A`, `CSP.A`, `OFP.A`,
-`Field`, or an endpoint-exclusion conclusion.
+This bridge passes `ODC.A1` and `ODC.A2` only if the retained smooth
+center-ball admission and radius choice are produced from direct pre-output
+data. It fails the audit if the seed selection uses `LCI.A`, `CSP.A`,
+`OFP.A`, `Field`, or an endpoint-exclusion conclusion.
 
 The dedicated scheduler audit
 [mpp-lci-a-retained-window-small-budget-scheduler-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-retained-window-small-budget-scheduler-audit-note.md)
-shows that partitioning the `L,F` budget is not the hard part; the missing
-input is the restart smallness theorem `RWS.Reset`, unless the route bypasses
-the scale-small branch through a non-small `ACT.E2` closure.
+shows that partitioning the `L,F` budget is not the hard part; the live input
+is the scale-small seed theorem `ACT.X-Scale`, unless the route bypasses the
+scale-small branch through a non-small `ACT.E2` closure.
 
 Thus the current receiver-side analytic wall is not a vague compactness issue.
 It is the precise scheduler/pressure/center-amplitude triad:
 
 ```math
-\boxed{RWS.A}
+\boxed{ACT.X\text{-}Scale}
 +
 \boxed{AXE.2\ /\ ACT.X\text{-}Press}
 +
