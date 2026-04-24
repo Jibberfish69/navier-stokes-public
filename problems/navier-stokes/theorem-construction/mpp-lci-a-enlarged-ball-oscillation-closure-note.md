@@ -181,6 +181,148 @@ The dedicated theorem-facing surface for that wall is now
 [mpp-lci-a-variable-radius-center-ball-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-variable-radius-center-ball-note.md),
 whose target theorem `VCB.A` is the minimal carrier statement needed here.
 
+### Reduction `EOC.1d` (The pre-loop segment-thickness target is narrower than the returned collar fixed point)
+
+The one-field note now isolates the non-circular segment-thickness supplier
+before the `EOC.C` loop spends the thickened collar consumer. In the notation of
+`OFP.C1e1`--`OFP.CellA`, define the label halo
+
+```math
+A_{\rho}^{halo,ctr}
+:=
+\left\{
+a^j+\theta r:
+1\le j\le J,\ 0<|r|\le\rho,\ 0\le\theta\le1
+\right\},
+\tag{EOC.7a0}
+```
+
+and the label-halo deformation-gradient envelope
+
+```math
+\mathfrak L_{F,\rho}^{halo,ctr}(t)
+:=
+\sup_{a\in A_{\rho}^{halo,ctr}}
+\left|\nabla_aF(a,t)\right|
+=
+\sup_j\sup_{0<|r|\le\rho}\sup_{0\le\theta\le1}
+\left|\nabla_aF(a^j+\theta r,t)\right|.
+\tag{EOC.7b}
+```
+
+Then
+
+```math
+P_{F,\rho}^{ctr,\sharp}(t)^{1/2}
+\le
+\rho\,\mathfrak L_{F,\rho}^{halo,ctr}(t),
+\tag{EOC.7c}
+```
+
+and hence
+
+```math
+\Gamma_\sharp(t)\rho
++
+\rho P_{F,\rho}^{ctr,\sharp}(t)^{1/2}
+\le
+\rho\Gamma_\sharp(t)
++
+\rho^2\mathfrak L_{F,\rho}^{halo,ctr}(t).
+\tag{EOC.7d}
+```
+
+Therefore the segment-thickness condition needed by `OFP.C1f`,
+
+```math
+\Gamma_\sharp(t)\rho
++
+\rho P_{F,\rho}^{ctr,\sharp}(t)^{1/2}
+\le
+\delta_{seg},
+\tag{EOC.7e}
+```
+
+is supplied before using `CSP.A` if
+
+```math
+\Gamma_\sharp\in L^\infty(I),
+\qquad
+\mathfrak L_{F,\rho}^{halo,ctr}\in L^\infty(I).
+\tag{EOC.7f}
+```
+
+A route-native sufficient supplier for `(EOC.7f)` is the differentiated
+deformation law:
+
+```math
+\partial_t\nabla_aF
+=
+(\nabla_xU_1)(X)[F,F]
++
+U_1(X)\nabla_aF,
+\tag{EOC.7g}
+```
+
+which gives
+
+```math
+\Gamma_\sharp\in L^\infty(I),
+\qquad
+\mathfrak U_{1,\rho}^{halo,ctr}
++
+\mathfrak U_{2,\rho}^{halo,ctr}
+\in L^1(I),
+\qquad
+\mathfrak L_{F,\rho}^{halo,ctr}(t_0)<\infty
+\Longrightarrow
+\mathfrak L_{F,\rho}^{halo,ctr}\in L^\infty(I).
+\tag{EOC.7h}
+```
+
+Thus the sharpened pre-loop theorem target is not another enlarged-ball or
+halo-shell lemma. It is direct control of the extra transported segment
+thickness `\delta_{seg}` from label-halo deformation regularity.
+
+By itself, `(EOC.7h)` supplies only the segment-geometry input. It does
+**not** supply the separate thickened collar consumer
+
+```math
+\mathfrak C_{N+1,\rho,\psi}^{\delta+\delta_{seg}}\in L^1(I),
+\tag{EOC.7ha}
+```
+
+nor the stronger packet form
+
+```math
+\sup_{t\in I}\mathcal K_{N+1,m,\rho,\psi}^{\delta+\delta_{seg}}(t)<\infty.
+\tag{EOC.7hb}
+```
+
+Those remain separate receiver-side obligations, and the widened receiver
+return `(EOC.27)` remains separate as well.
+
+The bounded self-check on the existing halo-shell packet leaves one precise
+residue:
+
+```math
+\boxed{
+\mathfrak U_{2,\rho}^{halo,ctr}\in L^1(I)
+\text{ on the same-fluid label halo before }CSP.A_{\delta+\delta_{seg}}.
+}
+\tag{EOC.7i}
+```
+
+The first-rung halo carrier `\mathfrak U_{1,\rho}^{halo,ctr}` is already the
+object around which `VCB.A` / `HSP.A` are organized. The new ingredient in the
+pre-loop thickness route is the pulled-back `\nabla_xU_1` halo carrier
+`(EOC.7i)`.
+
+The companion still-live receiver-admission note now supplies `(EOC.7i)`, the
+thickened collar consumer, and `(EOC.27)` together under one retained-window
+hypothesis. Thus this paragraph remains the exact route-native split, while
+Theorem `EOC.D` below records the direct still-live discharge.
+
 ## Target Theorem
 
 ### Target Theorem `EOC.A` (Enlarged-ball oscillation closure on the transported-center balls)
@@ -751,6 +893,164 @@ Since `I` is finite, `(EOC.36)` implies
 the common consumer hypothesis `(EOC.29)`, so Corollary `EOC.C` gives `EOC.A`.
 ∎
 
+### Theorem `EOC.D` (Pre-`CSP.A` still-live receiver admission closes `EOC.A`)
+
+Assume the common still-live receiver-admission hypotheses from
+[mpp-lci-a-pre-csp-still-live-receiver-admission-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-pre-csp-still-live-receiver-admission-note.md):
+
+```math
+\mathcal R_{\rho,\psi}^{pre}(t)\subset Q_t^{rec,+}
+\qquad(t\in I),
+\tag{EOC.39}
+```
+
+with the finite support-volume and still-live smoothness bounds `(SLR.4)` and
+`(SLR.5)`. Assume also the transport-geometry hypotheses `(OFP.10bi)` and
+
+```math
+\Gamma_\sharp\in L^\infty(I),
+\qquad
+\mathfrak L_{F,\rho}^{halo,ctr}(t_0)<\infty,
+\qquad
+\mathfrak O_{F,\rho}^{ctr}(t_0)<\infty.
+\tag{EOC.40}
+```
+
+Then `EOC.A` holds.
+
+### Proof
+
+The still-live receiver-admission note gives three inputs on the same retained
+window:
+
+```math
+\mathfrak U_{2,\rho}^{halo,ctr}\in L^1(I)
+\Longrightarrow
+\text{segment geometry }(OFP.10cb),
+\tag{EOC.41}
+```
+
+```math
+\sup_{t\in I}
+\mathcal K_{N+1,m,\rho,\psi}^{\delta+\delta_{seg}}(t)<\infty,
+\tag{EOC.42}
+```
+
+and
+
+```math
+\sup_{t\in I}
+\mathcal G_{N+4,N+4,\rho,\psi}^{low,\delta+5\Lambda_{\delta,\rho}^{halo}}(t)
+<\infty.
+\tag{EOC.43}
+```
+
+Here `(EOC.41)` is Corollary `SLR.A1`, `(EOC.42)` is Lemma `SLR.B`, and
+`(EOC.43)` is Lemma `SLR.C`. Thus `(OFP.10cb)`, `(EOC.36)`, and `(EOC.27)` all
+hold. Together with `(OFP.10bi)` and `(EOC.30)`, Corollary `EOC.Ca` applies
+and yields `EOC.A`. ∎
+
+### Corollary `EOC.E` (Receiver recombination after the segment-thickness cell)
+
+After `OFP.CellA`, the enlarged-ball oscillation closure is exactly the
+following repo-native recombination:
+
+```math
+\boxed{\mathfrak U_{2,\rho}^{halo,ctr}\in L^1(I)}
+\Longrightarrow
+\boxed{(OFP.10cb)},
+\tag{EOC.46}
+```
+
+The new halo-gradient carrier return note sharpens the input in `(EOC.46)`:
+
+```math
+(EOC.27)
++
+\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I)
+\Longrightarrow
+\mathfrak U_{2,\rho}^{halo,ctr}\in L^1(I),
+\tag{EOC.46a}
+```
+
+for `2\le m\le N`; hence, with the first-rung and initial
+deformation-gradient hypotheses from `OFP.C1e2`,
+
+```math
+(EOC.27)
++
+\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I)
+\Longrightarrow
+(OFP.10cb).
+\tag{EOC.46b}
+```
+
+```math
+\boxed{
+\mathfrak C_{N+1,\rho,\psi}^{\delta+\delta_{seg}}\in L^1(I)
+\ \text{or}\
+\sup_I\mathcal K_{N+1,m,\rho,\psi}^{\delta+\delta_{seg}}<\infty
+},
+\tag{EOC.47}
+```
+
+Here the stronger packet form is the widened-thickness collar theorem
+`WTC.A` with
+`\delta_\ast:=\delta+\delta_{seg}`. Its separate source-side input is
+`(FCI.5f)`, and its only thickness-sensitive receiver slot is
+`WTC.4`,
+
+```math
+\Gamma_{N,m,\rho,\psi}^{low,\delta_\ast}\in L^1(I),
+\tag{EOC.47a}
+```
+
+which `WTL.A` identifies with `LCI.A_{\delta_\ast}`.
+
+```math
+\boxed{(EOC.27)}
+\tag{EOC.48}
+```
+
+The widened receiver return `(EOC.27)` is the old lower-order collar packet
+theorem `LCI.B` at enlarged parameters, equivalently `WRR.A` / `WRR.2`.
+
+Finally,
+
+```math
+(EOC.27)
++
+\mathfrak C_{N+1,\rho,\psi}^{\delta+\delta_{seg}}\in L^1(I)
++
+(OFP.10cb)
+\Longrightarrow
+EOC.A.
+\tag{EOC.49}
+```
+
+Thus `EOC.A` is no longer a monolithic receiver wall. Its immediate proof-cell
+order is: widened return as `WRR.A`, anchored-center ledger plus `U2H.A` to
+obtain the segment geometry `(OFP.10cb)`, thickened collar consumer as `WTC.A`
+with `WTC.4 -> WTL.A` and `(FCI.5f)` separate, then recombination. The
+still-live receiver-admission theorem `EOC.D` supplies the same inputs on
+retained still-live windows, but it is a sufficient bypass of this repo-native
+queue rather than its replacement.
+
+After `U2H.A`, the segment-thickness side of that queue is handled. The next
+live receiver-side cell is the thickness-sensitive lower-carrier slot
+
+```math
+\boxed{
+\Gamma_{N,m,\rho,\psi}^{low,\delta+\delta_{seg}}\in L^1(I),
+}
+\tag{EOC.49a}
+```
+
+equivalently `WTL.C` / `LCI.A_{\delta+\delta_{seg}}`, while `(FCI.5f)` remains
+the parallel source-side frozen-family burden. Supplying those two entries
+gives `CSP.A_{\delta+\delta_{seg}}` by `WTC.A`, and `(EOC.49)` then gives
+`EOC.A`.
+
 ## Honest Boundary
 
 The present widened-shell readout proposition `LCI.B2f3` does **not** prove
@@ -774,11 +1074,25 @@ vague larger-shell hope.
 What is **not** yet on disk is no longer a separate pre-`CSP.A` proof of the
 Eulerian increment envelope and the label-halo first-rung carrier once the
 widened receiver-side packet `(EOC.27)` is granted. Corollary `EOC.C` shows
-that those two suppliers are already downstream of that widened return. So
-`EOC.A` remains open only because the common thickened collar consumer
-`(EOC.29)` and the widened-return package itself are not yet discharged
-unconditionally on the current route; the live receiver is now that common
-consumer package, not a separate unresolved halo/increment supplier split.
+that those two suppliers are already downstream of that widened return.
+
+The pre-loop segment-thickness reduction above sharpens the remaining common
+consumer package one level further. It separates:
+
+1. the segment-geometry condition `(OFP.10cb)`, which is supplied by
+   `OFP.C1e3` once the pulled-back `\nabla_xU_1` halo carrier is available,
+   and the new `U2H.A` theorem supplies that carrier from `(EOC.27)` plus the
+   anchored-center ledger;
+2. the actual thickened collar consumer `(EOC.29)`, or equivalently
+   `CSP.A_{\delta+\delta_{seg}}`, which remains a separate receiver-side
+   obligation;
+3. the widened receiver-side return `(EOC.27)`, which also remains separate.
+
+The still-live receiver-admission theorem `EOC.D` discharges all three on one
+retained still-live route. The route-native `LCI` / `CSP` compression still
+terminates at the fixed point recorded below, but that retained-window
+admission route no longer leaves the segment residue, thickened consumer, or
+widened return open when its compact still-live receiver hypothesis is granted.
 
 The companion note
 [mpp-lci-a-widened-receiver-return-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-widened-receiver-return-note.md)
@@ -796,7 +1110,7 @@ records the exact consequence: this receiver compression has terminated at an
 
 In route-native theorem form, Corollary `EOC.Ca` shows that this common
 consumer is exactly `CSP.A` instantiated at thickness `\delta+\delta_{seg}`.
-So the honest `EOC`-surface wall is now:
+So the honest route-native `EOC`-surface wall is:
 
 ```math
 \boxed{
@@ -824,11 +1138,32 @@ widened receiver package, the only thickness-sensitive slot is the thicker
 lower same-fluid carrier ledger, which the companion widened-thickness
 lower-carrier note identifies as just `LCI.A` at the thicker radius.
 
-More sharply: there is no theorem currently on disk comparing
+The still-live receiver-admission note supplies that bypass directly on
+retained still-live windows and also supplies `(EOC.27)` and the segment
+geometry. Thus the receiver-side alternatives now split cleanly:
+
+```math
+\text{still-live receiver admission}
+\Longrightarrow
+EOC.A,
+\tag{EOC.44}
+```
+
+whereas the purely route-native widened-family compression remains the fixed
+point
+
+```math
+EOC.A
+\Longleftrightarrow
+LCI\text{-family receiver input at enlarged depth/thickness}.
+\tag{EOC.45}
+```
+
+Route-natively, there is still no theorem currently on disk comparing
 `\delta_{seg}` to `5\Lambda_{\delta,\rho}^{halo}` strongly enough to read
 `\mathfrak C_{N+1,\rho,\psi}^{\delta+\delta_{seg}}` directly off the widened
 receiver-side packet `(EOC.27)`. So the common thickened collar consumer
-remains a genuinely separate hypothesis at the `EOC` surface.
+remains a genuinely separate hypothesis at the route-native `EOC` surface.
 
 By `(OFP.10cb)`, such a comparison would in particular require a non-circular
 pre-`OFP.C1j` bound on

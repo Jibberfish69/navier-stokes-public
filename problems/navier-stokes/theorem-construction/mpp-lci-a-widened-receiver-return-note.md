@@ -100,12 +100,49 @@ families:
    the widened-thickness collar notes to `LCI.A` at thickness
    `\delta+\delta_{seg}` together with the separate source burden `(FCI.5f)`.
 
+### Lemma `WRR.C` (Still-live receiver admission supplies the widened return directly)
+
+The route-native identification above is not the only way to obtain `(EOC.27)`.
+The companion receiver-admission note
+[mpp-lci-a-pre-csp-still-live-receiver-admission-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-pre-csp-still-live-receiver-admission-note.md)
+proves the widened return directly on any retained window whose widened
+receiver cutoff stays inside one compact still-live collar.
+
+Concretely, if
+
+```math
+\operatorname{supp}\vartheta_{\rho,\psi,t}^{\delta+5\Lambda_{\delta,\rho}^{halo}}
+\subset Q_t^{rec,+}
+\qquad(t\in I)
+\tag{WRR.5}
+```
+
+with the finite support-volume and smoothness bounds `(SLR.4)`--`(SLR.5)`,
+then
+
+```math
+\sup_{t\in I}
+\mathcal G_{N+4,N+4,\rho,\psi}^{low,\delta+5\Lambda_{\delta,\rho}^{halo}}(t)
+<
+\infty.
+\tag{WRR.6}
+```
+
+Thus `(EOC.27)` is supplied without invoking the widened `LCI.B` instance.
+
+### Proof
+
+This is Lemma `SLR.C`. On the cutoff support, the terms
+`\nabla^\alpha U_q` with `q\le N+4` and `\alpha\le2` are bounded by the
+still-live smoothness constant on `Q^{rec,+}`, and the support volume is
+uniformly finite. ∎
+
 ## Honest Boundary
 
-This note does **not** prove the widened instance of `LCI.B`. It does **not**
-close `(EOC.27)`. It does **not** resolve the circularity already noted on the
-installed route between the enlarged-ball supplier and the lower-carrier
-receiver.
+This note does **not** prove the widened instance of `LCI.B`, and it does
+not resolve the route-native circularity already noted between the enlarged-ball
+supplier and the lower-carrier receiver. Lemma `WRR.C` closes `(EOC.27)` only
+on the direct still-live receiver-admission route.
 
 What it does prove is narrower and exact:
 
@@ -114,4 +151,6 @@ What it does prove is narrower and exact:
 2. it is exactly the old lower-order collar packet theorem `LCI.B` at enlarged
    depth and thickness;
 3. this means the remaining `EOC` receiver wall is now expressed entirely in
-   old theorem families rather than in a bespoke widened-return package.
+   old theorem families rather than in a bespoke widened-return package;
+4. on retained still-live windows, `(EOC.27)` also has the direct admission
+   proof `WRR.C`, which bypasses that old-family fixed point.

@@ -425,7 +425,7 @@ A_i(X):=Q_i\mathbb P_D N_D(X).
 - `/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/spectral-closure-and-unified-invariant.md`
 - `/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/projected-generator-sector-invariance.md`
 - `/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/refinement-covariance-and-shadow-theorem-scaffold.md`
-- `/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/nc-leray-hodge-projection.md`
+- `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/working-notes/nc-leray-hodge-projection.md`
 - `problems/navier-stokes/theorem-construction/torus-projected-flow-extraction.md`
 
 ## Imported theorem block

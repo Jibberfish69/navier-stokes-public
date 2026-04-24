@@ -7,6 +7,8 @@ identity:
   generator: chat2-manual-route-lock
 governing_object_law:
   status: active
+  route_table: problems/navier-stokes/ns-proof-program-route-table.yaml
+  closure_ecology: problems/navier-stokes/ns-proof-program-route-table.yaml#closure_ecology
   summary: >-
     The governing object is one smooth incompressible Navier-Stokes evolution
     remaining internal to shared packing, shared participation, and shared
@@ -39,7 +41,10 @@ object_law_route_lock_sentence: >-
   consumer wall, while exact-potential,
   normal-covector/Hodge, YM-heat/deformation, and Euclidean strict-shadow
   surfaces remain derived readout, supplier, or export branches unless they
-  prove stronger ontic priority.
+  prove stronger ontic priority. Cross-route imports require the explicit
+  bridge-license status recorded in `ns-proof-program-route-table.yaml`; its
+  closure-ecology contact points are supplier slots into `OFP.A` / `LCI.A`, not
+  a replacement route.
 object_law_theorem_queue:
   - complete the law / endpoint proof matrix without assuming shell ownership; installed `(Part, Dead)`, open pack-native blown branch `(Pack, packing-detached)`, open `(Field, Jump)`, and the mixed `tower-blown` branch plus unresolved cross-entries remain explicit
   - close exact-potential and normal-covector/Hodge witness-to-readout theorems on the surviving one-field readout branches

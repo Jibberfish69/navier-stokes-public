@@ -18,6 +18,8 @@ posture:
   live_theorem_edge_route_label: Class-membership forward-invariance / endpoint-exclusion route
 object_law_refoundation:
   status: active
+  route_table: problems/navier-stokes/ns-proof-program-route-table.yaml
+  closure_ecology: problems/navier-stokes/ns-proof-program-route-table.yaml#closure_ecology
   branch_status:
     class_membership_core: constitutive-root
     dead_blown_jump: object-law exclusion branch
@@ -44,20 +46,22 @@ live_theorem_edge:
     packing-detached)` and `(Field, Jump)`, while the mixed `tower-blown`
     branch remains explicit too.
     The
-    preferred compression target is `CFI.A`, forward-invariance of lawful class
-    membership on same-fluid still-live families. Inside that route the live
+    preferred compression target is `CFI.A`, forward-invariance of the local
+    class-membership target `M_Q(u,p)` as witnessed by `Pack` / `Part` /
+    `Field` on same-fluid still-live families. Inside that route the live
     one-field wall is `OFP.A`, and the receiver-side supplier beneath `OFP.A`
     is `LCI.A` together with the separate source-side frozen-family ledger
     `(FCI.5f)`, now sharpened on disk to the cutoff-absorbed source pair
     `FPCR.C` and `FSCR.C`; on the pressure half the exact frozen-net wall
     `FPCR.C` now has the single-increment exact smaller wall `FIRP.A0`, and
     the bounded exact self-attempt there records that the current installed
-    exact route does not lower further; the nearest stronger sufficient
-    route is `FFPR.B1`, already continuing through the fixed-radius pressure
-    stack to `FPL.C` before returning by `FPL.G` to `CSP.B3a1`, while on the
-    nonpressure half the adjacent sufficient export `FFSC.B1` / `FFSC.C1`
-    already sends the whole strain/cascade channel to the common collar
-    envelope and frozen-family packet aggregate. The strongest installed
+    exact route does not lower further; the adjacent stronger sufficient
+    pressure route is only `FFPR.B1` / `FFPR.C2`, already continuing through
+    the fixed-radius pressure stack to `FPL.C` before returning by `FPL.G` to
+    `CSP.B3a1`, and it does not replace `FPCR.C` as the exact same-depth
+    pressure wall; on the nonpressure half the adjacent sufficient export
+    `FFSC.B1` / `FFSC.C1` already sends the whole strain/cascade channel to the
+    common collar envelope and frozen-family packet aggregate. The strongest installed
     combined source-side package is now `FFSRC`; inside that strengthened
     source branch the exact remaining local pressure theorem is the
     widened-pressure bridge `FFPB.A0`, the first sharper packet-side attempted
@@ -75,7 +79,8 @@ live_theorem_edge:
   paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
     "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
     "problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md",
-    "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md"]'
+    "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md",
+    "problems/navier-stokes/theorem-construction/mpp-lci-a-pre-csp-still-live-receiver-admission-note.md"]'
   branch_choice_labels:
   - CFI.A / OFP.A / LCI.A class-membership route
 obligations:
@@ -879,6 +884,138 @@ obligations:
   - The Apr 19 class-membership packet set is route authority here; TPS / `SG.4`
     is downstream consumer status only after direct matrix work
     closes.
+  - The source/receiver split stays explicit under `OFP.A`; receiver-side `LCI.A`
+    remains separate from source-side `(FCI.5f)`, whose pressure child `FPCR.C`
+    is the exact same-depth frozen-net resonant wall; `FFPR.B1` / `FFPR.C2`
+    are only the adjacent stronger sufficient pressure route.
+  - >-
+    The receiver-side oscillation stack has now been sharpened past the
+    `VCB.A` / `HSP.A` / `FEI.A` return loop: after `OFP.CellA`, the immediate
+    repo-native queue is the widened receiver return `(EOC.27)` as `WRR.A`,
+    paired with the anchored-center ledger to close the pulled-back
+    `\nabla_xU_1` halo carrier through `U2H.A`; with the `OFP.C1e2`
+    first-rung/deformation inputs this obtains `(OFP.10cb)`. The segment side
+    is handled; the live next cell is `WTL.C`,
+    `\Gamma_{N,m,\rho,\psi}^{low,\delta+\delta_{seg}}\in L^1(I)`, with
+    `(FCI.5f)` as the parallel source-side burden. Together they give the
+    thickened consumer `CSP.A_{\delta+\delta_{seg}}` by `WTC.A` and recombine through
+    `EOC.C` / `EOC.Ca` to `EOC.A`. The retained still-live admission packet
+    `SLR.A`--`SLR.D` is only a sufficient shortcut for those inputs. Without
+    that admission, the route-native widened-family compression remains the
+    old `LCI` / `CSP` fixed point. The end-to-end certificate map records the
+    audit corrections: `U2H.A` closes only the pulled-back halo-gradient
+    residue, the enlarged `LCI` instances remain parameter-shifted obligations
+    of the same theorem family, and the terminal no-exit certificate remains
+    conditional on the endpoint-exclusion matrix. The finite-parameter
+    lower-carrier closure now discharges the uniform `LCI.B2d` / `LCI.C`
+    Gronwall step from the corresponding transported-center package. The
+    direct transported-center package note gives the non-smuggling reduction
+    `DTC.A_{\mathfrak p} => EOC.A_{\mathfrak p}+AFD.A_{\mathfrak p}/AFD.B_{\mathfrak p}+RCF.A_{\mathfrak p}`;
+    the remaining analytic target is now `DTC.A_{\mathfrak p}` for the finite
+    required parameter set, with the pre-base parameter subset used before
+    deriving base `EOC.A`. For the full lane, `(FCI.5f)` remains a separate
+    source-side block unless promoted as installed; with `(FCI.5f)` installed,
+    the terminal theorem blocks are exactly `DTC.A_{\mathfrak p}` across
+    `\mathscr P_{\rm req}` and `\mathsf{End}_{NS}`. The direct PDE core inside
+    `DTC.A` has sharpened further: `DTC.V`, `DTC.P`, and `DTC.F` are formal
+    consequences of the strengthened local tower carrier `DTC.M^\infty`, while
+    reading that carrier from `\mathcal Z^{TC}` alone gives the Osgood-risk
+    superlinear model. The surviving hard analytic theorem is `DTC.M-Linear`,
+    a direct affine-normalized `L^1` coefficient estimate that supplies
+    `DTC.M^\infty` without spending `EOC.A`, `AFD.A`, `RCF.A`, `LCI.A`,
+    `CSP.A`, `OFP.A`, or `Field`; once it lands, `DTC.PRE` follows. The
+    concrete candidate realization is now `DTC.M-Affine` / `(DTC.AFF9)`, the
+    affine-normalized local packet inequality carrying endpoint first-rung
+    action in the frame `G_j`; it remains conditional until
+    `B_{\mathfrak p}^{aff},F_{\mathfrak p}^{aff}\in L^1(I)` are proved by
+    direct pre-`DTC.A` estimates, and it does not itself install `(FCI.5f)` or
+    the endpoint block. The full bridge ledger expands this into
+    `DTC.MA-Energy -> DTC.MA-Readout -> DTC.M-to-VPF -> DTC.PRE-to-DTC.A`,
+    with the center zero-mode requirement for the affine readout explicit.
+    The endpoint tower face also keeps the separate `DTC-to-TowerBound`
+    bridge: finite-cover `DTC.A` must read out both `U_k` and `K_k`, including
+    local pressure/viscous response, before `END.TowerAmp` is available.
+    `FCI.Split` is closed as a formal source-ledger summation; if `(FCI.5f)` is
+    not installed, the open source-side content is `FPCR.C + FSCR.C + FCC.C1`,
+    not the split bridge itself. `END.Exh` is closed only as
+    witness-certificate completeness once the endpoint certificate maps are
+    accepted. Inside `DTC.MA-Energy`, the remaining noncircular affine-center
+    coefficient subledger is `\mathfrak D_1^{aff}\in L^1`,
+    `\mathfrak F^{ctr,res}\in L^1`, and `\mathfrak H^{osc,\alpha}\in L^2`,
+    with far pressure tail and zero-rung center ledger direct. The bundled
+    target for that subledger is now `ACT.A`: one affine-center master packet
+    should close all three ledgers together. It is conditional until `ACT.E1`
+    or `ACT.E2` proves the affine-center energy inequality with external or
+    dissipatively absorbed `L^1` coefficients; using
+    `E_ACT in L^\infty => B_ACT,F_ACT in L^1 => E_ACT in L^\infty` is marked
+    circular. The valid completion route is finite-stage:
+    `ACT.Stage(0)..ACT.Stage(m+2) => ACT.E2`, with lower affine rungs external
+    at each stage. The middle block is structurally triangular once
+    `DTC.AFF-L2` is accepted; the remaining live estimates are the stage
+    pressure response on affine balls and the stage cutoff/frame estimate,
+    without importing `CSP.A`, `OFP.A`, or `Field`. The structural affine-local-equation gate `DTC.AFF-L1` now passes
+    modulo the tower-tensor representation compatibility of `\mathcal C_G`:
+    the center `U_1(c_j)` endpoint action is absorbed by the frame derivative
+    and the moving affine cutoff sees only `u(x)-u(c_j)-A_j(x-c_j)`. If that
+    representation compatibility is not already installed, it is the first
+    sub-obligation; otherwise the remaining `DTC.MA-Energy` work is the
+    middle-block, pressure/forcing, and moving cutoff estimates. The
+    middle-block structural gate `DTC.AFF-L2` also passes the same-rung break
+    test: after endpoint removal, only lower affine rungs occur. However the
+    `L^1` middle-block coefficient estimate is still part of `ACT.E1` /
+    `ACT.E2`; it cannot be read back from the desired
+    `\mathcal E_{ACT}\in L^\infty` conclusion. The pressure/forcing gate
+    `DTC.AFF-L3` and moving-cutoff gate `DTC.AFF-L4` pass structurally:
+    pressure uses local Poisson response plus far-tail energy rather than
+    `CSP.A`, top viscosity is read from the included `m+2` rungs, and the
+    cutoff sees the affine defect rather than full center amplitude. Their
+    `L^1` coefficient estimates remain part of `ACT.E1` / `ACT.E2`.
+    A named affine-excess propagation theorem `AXP.A` now packages the
+    conditional scale-small alternative `ACT.ScaleSmall`:
+    if the scale-normalized affine excess obeys
+    `dX_exc+cN <= L X_exc + C X_exc^{1/2}N + F` with `L,F in L^1`, and the initial excess
+    plus additive source budget is below the absorption threshold, then the
+    nonlinear residue is absorbed and `X_exc in L^\infty`, `N in L^1` follow on
+    that affine interval. With `ACT.X-Readout`, `AXP.A` supplies exactly the
+    `DTC.MA-Energy` subledger readouts `H^{osc,alpha} in L2`, `D_1^aff in L1`,
+    and `F^{ctr,res} in L1`. This is not unconditional: center zero modes must
+    be gauged or carried separately because the raw `q=0` center term is not
+    small as `R -> 0`, and a full-strip proof needs a small-budget scheduler,
+    not merely finite `L,F`. The named atom split is `ACT.X-Def + ACT.X-Energy +
+    ACT.X-Boot + ACT.X-Readout`: `ACT.X-Def` separates the small affine excess
+    `X_exc` from the readout packet `Y_read = A_ctr + X_exc`, where `A_ctr`
+    already contains the unit seed; `ACT.X-Energy` proves the absorbable
+    inequality for `X_exc`; `ACT.X-Boot` performs the epsilon-star first-exit
+    argument; and `ACT.X-Readout` spends `Y_read`, so `A_ctr` must satisfy
+    `dA_ctr <= L_A A_ctr + F_A` with `L_A,F_A in L^1`, or be carried in `L,F`.
+    The scheduler restarts only `X_exc` at budget endpoints using the current
+    transported center frame. `AXP.A` does not prove `ACT.X-Energy`, `(FCI.5f)`,
+    or any endpoint entry.
+    The compact receiver plan is now `ACT.Actr + ACT.X-Def + AXE.A + RWS.A +
+    ACT.X-Readout => AXP.A => ACT.A => RCF.A => LCI.A`, where `AXE.A`
+    abbreviates `AXE.1+AXE.2+AXE.3+AXE.4 => ACT.X-Energy` and `RWS.A` is the
+    retained-window small-budget scheduler whose active input is window-start
+    smallness plus local `L,F` budgets. The remaining scheduler bridge is
+    `RWS.B`: restart/recenter the next affine packet so
+    `X_exc(t_{r+1})<eps_*` at the next retained-window start. This is a proof
+    plan, not a discharge; the next sharp targets are `ACT.Actr`, `AXE.2` /
+    `ACT.X-Press`, and `RWS.B`.
+    Sharpened obligations: `ACT.Actr` is reduced to
+    `K_{\le m}^{ctr} in L^1(I) + F_{top,A} in L^1(I) => A_ctr^p in
+    L^\infty(I)`, so the lower forcing ledger and top zero-mode source budget
+    are live; `ACT.X-Press` is reduced to the local fixed-ball pressure
+    response, because the finite pressure far-tail is energy-controlled in
+    `L^\infty(I)`. It spends no `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
+    The endpoint block is now `END.Exh + END.TowerAmp + END.Cross`;
+    `END.TowerBound` is formal from `END.TowerAmp`, `END.Cross` is formal once
+    the cross-entry certificate reductions are accepted, and `END.Pack` /
+    `END.Field` are formal once the native pack gauge and `OFP.A` field scale
+    are installed. The proposed `DTC.LINEAR` affine-frame route remains
+    conditional unless its displayed coefficients are supplied by direct
+    pre-`DTC.A` estimates, since those coefficients include `AFD.A`, `EOC.A`,
+    and `RCF.A`-level ledgers. `END.COMPLETE` is formal endpoint assembly from
+    `END.Exh + END.TowerAmp + END.Cross`, not a proof of semantic
+    exhaustiveness or tower amplitude.
 summary:
   total_obligations: 73
   grounded_count: 2

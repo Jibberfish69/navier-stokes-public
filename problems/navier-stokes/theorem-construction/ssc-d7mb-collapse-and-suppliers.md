@@ -15,7 +15,7 @@ faithful to the on-disk algebra, while keeping the post-`RPC.3` handoff
 visibly downstream:
 
 ```math
-\texttt{InitCollapse + MixCollapse + DriftCollapse}
+\texttt{InitCollapse + MixCollapse-Honest + DriftCollapse-Honest}
 \Longrightarrow
 \texttt{SSC-D7mb-collapse}
 \Longrightarrow
@@ -25,12 +25,15 @@ visibly downstream:
 \Longrightarrow
 \texttt{RPC.3}
 \Longrightarrow
-\texttt{downstream SG.4B export}.
+\texttt{downstream SG.4/BR.lambda2/continuation export}.
 \tag{SDC.0}
 ```
 
 The key correction is that the integrated collapse must use the squared
 `D.7mb10` residual packet, not the unsquared sum of `L^1` budgets.
+In this square-budget reading, `MixCollapse-Honest` is the hard supplier.
+`InitCollapse` and `DriftCollapse-Honest` are supporting suppliers for the
+same `SSC-D7mb-collapse` packet, not alternate route primitives.
 
 ## Pointwise `D.7mb` Packet
 
@@ -224,7 +227,9 @@ hence `D.7mr2`, then `RPC.3`, then the downstream handoff
 \Longrightarrow
 \texttt{SG.4}
 \Longrightarrow
-\texttt{BR.lambda2}.
+\texttt{BR.lambda2}
+\Longrightarrow
+\texttt{continuation}.
 \tag{SDC.13}
 ```
 
@@ -555,7 +560,8 @@ o_J(1),
 \tag{SDC.34}
 ```
 
-then `(SDC.21)` holds, hence `SSC`, `D.7mr2`, `RPC.3`, and `SG.4`.
+then `(SDC.21)` holds, hence `SSC`, `D.7mr2`, `RPC.3`, and the downstream
+`SG.4 -> BR.lambda2 -> continuation` export.
 
 #### Proof
 
@@ -591,7 +597,13 @@ the smallest honest theorem-facing packet:
 
 1. one integrated collapse proposition `SSC-D7mb-collapse`;
 2. one genuinely hard supplier `MixCollapse-Honest`;
-3. one soft drift supplier `DriftCollapse-Honest`;
-4. one exact corollary showing the installed `D.7mm` bootstrap collapses the
+3. one supporting entrance supplier `InitCollapse`;
+4. one supporting drift supplier `DriftCollapse-Honest`;
+5. one exact corollary showing the installed `D.7mm` bootstrap collapses the
    three supplier budgets under a weighted square envelope;
-5. the already audited splice from `SSC` to `D.7mr2`.
+6. the already audited splice from `SSC` to `D.7mr2`.
+
+The live simple-top burden is therefore still upstream under `PSJ+`: prove the
+square-budget supplier package strongly enough to feed `SSC`, together with
+`PTC-Lin + PTC-Shape => D.7mq`. The chain after `RPC.3` remains downstream
+export through `SG.4`, `BR.lambda2`, and continuation.

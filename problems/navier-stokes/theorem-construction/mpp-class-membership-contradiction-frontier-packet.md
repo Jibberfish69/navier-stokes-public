@@ -366,9 +366,12 @@ variable-radius center-ball theorem `VCB.A` for
 that geometric slot reduces further to the fixed halo-shell theorem `HSP.A`
 because the bounded pack-side gauge is already imported, and `HSP.A` is itself
 reduced on disk to the fixed-scale transported-center increment theorem
-`FEI.A`; but once the widened receiver-side return `(EOC.27)` is granted,
-Corollaries `EOC.C`--`EOC.Ca` make that old halo/increment supplier pair
-downstream, so the honest
+`FEI.A`; but once the widened receiver-side return `(EOC.27)` is granted, the
+new halo-gradient return theorem `U2H.A` pairs it with the anchored-center
+ledger to close the pulled-back `\nabla_xU_1` segment residue; with the
+already-separated `OFP.C1e2` first-rung and initial deformation-gradient
+inputs this gives `(OFP.10cb)`. Corollaries `EOC.C`--`EOC.Ca` then make that old halo/increment
+supplier pair downstream, so the honest
 `EOC`-surface receiver is now exactly the route-native package
 `CSP.A_{\delta+\delta_{seg}}` together with that widened return package, not
 `VCB.A` by itself; more sharply, `FEI.B3`, `FEI.C7`, and the pressure reductions
@@ -415,6 +418,15 @@ receiver now enters through `EOC.Ca`, and globally it returns to `CSP.A` once
 that receiver-side theorem is paired with the exact same-depth source ledger
 `(FCI.5f)`; on the installed strengthened source branch, that parallel source
 input is already compressed to `(FFSRC.A)`.
+
+The structural audit of this receiver/one-field seam is now explicit in
+[mpp-ofp-dtc-compactness-scaling-circularity-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-ofp-dtc-compactness-scaling-circularity-audit-note.md):
+`DTC.A` must be proved with fixed same-family covers, endpoint-independent
+scaling, direct pressure/viscous center ledgers, and no use of `LCI.A`,
+`CSP.A`, `OFP.A`, `Field`, or the endpoint matrix. `OFP.A` may keep its
+no-visible-jump branch hypothesis, but it cannot import the terminal endpoint
+exclusion theorem as a supplier.
+
 `AFD.A` is the
 sharpened first-center-rung core; `AFD.B` is the intermediate theorem-facing
 bridge from that core to the first center rung, and it is already closed in

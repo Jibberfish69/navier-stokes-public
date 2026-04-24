@@ -123,3 +123,9 @@ upstream burdens `PTC-Lin + PTC-Shape => D.7mq` and selector-strain
 sufficiency on the active strip, and from `RPC.3` onward the chain
 `SG.4 -> BR.lambda2 -> continuation` is downstream export rather than the live
 theorem wall.
+
+Relative to the current `PSJ+` square-budget surface, this note therefore begins
+only after `D.7mr2` has been supplied, for example by
+`D.7mq + SSC-D7mb-collapse`. It does not discharge `InitCollapse`,
+`MixCollapse-Honest`, `DriftCollapse-Honest`, or the
+`PTC-Lin + PTC-Shape => D.7mq` wall.

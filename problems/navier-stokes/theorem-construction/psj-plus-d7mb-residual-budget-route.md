@@ -620,7 +620,7 @@ Indeed, the companion note
 already packages
 
 ```math
-\texttt{InitCollapse + MixCollapse + DriftCollapse}
+\texttt{InitCollapse + MixCollapse-Honest + DriftCollapse-Honest}
 \Longrightarrow
 \texttt{SSC-D7mb-collapse}
 \Longrightarrow
@@ -641,6 +641,13 @@ budget” problem. It is exactly the three supplier theorems:
    `(PBR.10p2)` and `(PBR.10p4)`;
 3. `DriftCollapse-Honest`, controlling the weighted variation supplier
    `(PBR.10p9)`.
+
+The bare `MixCollapse` label is only the square budget
+`\mathcal R_{J,2}^{mix}=o_J(1)`. The theorem-facing hard supplier is
+`MixCollapse-Honest`, because it is the installed `D.7md` / `D.7me` split that
+actually controls that square budget without using the unjustified
+projector-angle domination shortcut. `InitCollapse` and `DriftCollapse-Honest`
+are supporting suppliers inside the same `SSC-D7mb-collapse` packet.
 
 Equivalently, one honest sufficient descendant under the projector-first splice
 may be read as
@@ -664,6 +671,11 @@ may be read as
 
 This is the honest measurable-derivative descendant inside the projector-first
 exact-potential path.
+
+It also fixes the route boundary: `D.7mr2` is the export supplied by
+`D.7mq + SSC`, and the later
+`RPC.3 -> SG.4 -> BR.lambda2 -> continuation` chain remains downstream export,
+not a replacement for the upstream `PSJ+` square-budget wall.
 
 ### Proposition PBR.10s (a common weighted bad-set theorem collapses the `D.7mb` square supplier budgets)
 
@@ -6249,16 +6261,25 @@ recorded in `(PBR.10u5)`, `(PBR.10u8e)`, `(PBR.10u11f)`, `(PBR.10u12j)`,
 
 ## Downstream Boundary
 
-This note does **not** change the downstream live wall:
+This note does **not** make the post-`RPC.3` chain the live simple-top wall:
 
 ```math
-D.7mr2 \Longrightarrow RPC.3 \Longrightarrow SG.4
+D.7mr2
+\Longrightarrow
+RPC.3
+\Longrightarrow
+SG.4
+\Longrightarrow
+BR.lambda2
+\Longrightarrow
+\text{continuation}
 \tag{PBR.11}
 ```
 
-remains the correct assembly read, and `SG.4 selector-good lower-envelope
-burden` remains the single live theorem wall on the lane-facing frontier after
-Law-2 survivor reduction.
+remains the correct downstream export read. The live simple-top burden in this
+note remains upstream under `PSJ+`: `PTC-Lin + PTC-Shape => D.7mq`, together
+with the square-budget selector-strain supplier package
+`SSC-D7mb-collapse`.
 
 ## Exact Repo-Facing Read
 
@@ -6266,10 +6287,11 @@ The clean closure state is therefore:
 
 1. the projector-first read is upstream-fixed by
    `PTC-Lin + PTC-Shape \Longrightarrow D.7mq`;
-2. packet normalization is discharged on the exact-potential branch;
+2. the active measurable-derivative descendant under `PSJ+` is the square-budget
+   packet `SSC-D7mb-collapse`, with `MixCollapse-Honest` as the hard supplier and
+   `InitCollapse` / `DriftCollapse-Honest` as supporting suppliers;
 3. `D.7mr2` is the stable branch-facing export;
-4. the `D.7mb` residual-budget packet is one sufficient descendant under the
-   projector-first splice, with minimal measurable-derivative read
-   `PTC-Lin + PTC-Shape + BootSquare`;
-5. the live theorem wall remains the selector-adapted defect-to-strain theorem
-   on the Law-2-survivor side, i.e. the `SG.4 selector-good lower-envelope burden`.
+4. `RPC.3 -> SG.4 -> BR.lambda2 -> continuation` is downstream export, not the
+   upstream theorem wall;
+5. `EP.11d + V1+V2` remains a stronger sufficient continuation beginning from
+   `D.7mr2`, not a replacement for the `PSJ+` square-budget burden.

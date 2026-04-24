@@ -725,12 +725,19 @@ The live queue under this compression route is:
    and that halo-shell theorem is itself reduced on disk to the fixed-scale
    transported-center increment theorem `FEI.A` in
    [mpp-lci-a-fixed-scale-eulerian-increment-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-fixed-scale-eulerian-increment-note.md);
-   but once the widened receiver-side return `(EOC.27)` is granted,
-   Corollaries `EOC.C`--`EOC.Ca` make that old halo/increment supplier pair
-   downstream, so the honest `EOC`-surface
+   but once the widened receiver-side return `(EOC.27)` is granted, the new
+   halo-gradient return theorem `U2H.A` pairs it with the anchored-center
+   ledger to close the pulled-back `\nabla_xU_1` segment residue; with the
+   already-separated `OFP.C1e2` first-rung and initial deformation-gradient
+   inputs this gives `(OFP.10cb)`. Corollaries `EOC.C`--`EOC.Ca` then make the old
+   halo/increment supplier pair downstream, so the honest `EOC`-surface
    receiver is now exactly the route-native package
    `CSP.A_{\delta+\delta_{seg}}` together with that widened return package,
-   not `VCB.A` by itself;
+   not `VCB.A` by itself; the direct still-live receiver-admission note
+   [mpp-lci-a-pre-csp-still-live-receiver-admission-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-pre-csp-still-live-receiver-admission-note.md)
+   now supplies the pulled-back `\nabla_xU_1` segment residue, the thickened
+   collar consumer, and `(EOC.27)` on retained still-live receiver windows, so
+   Theorem `EOC.D` closes `EOC.A` on that non-circular retained-window route;
    more sharply, `FEI.B3`, `FEI.C7`, and the pressure reductions
    `FPR.C3`--`FPR.C10` reduce that wall to the direct fixed-ball Holder theorem
    `FPC.H` on the pressure side, with the larger-radius transported-center
@@ -771,8 +778,10 @@ The live queue under this compression route is:
    `\delta+5\Lambda_{\delta,\rho}^{halo}`, this shifted-slab branch no longer
    leaves an independent live local wall and has returned to the receiver-side
    collar burden `CSP.B3a1`; on the transported-center oscillation side that
-   burden now enters through `EOC.Ca`, so globally it returns to `CSP.A` once
-   `(FCI.5f)` is paired with that receiver-side theorem;
+   burden now enters through `EOC.Ca`, so route-natively it returns to `CSP.A`
+   once `(FCI.5f)` is paired with that receiver-side theorem, while the
+   still-live receiver-admission route bypasses that fixed point through
+   `EOC.D`;
    once that package closes `EOC.A`, the first-center-rung side is attacked
    through the affine-frame defect core `AFD.A`, then the theorem-facing bridge
    `AFD.B`, then the residual center-forcing theorem `RCF.A`, then `LCI.A`;
@@ -903,6 +912,14 @@ The live queue under this compression route is:
 6. derive the manifestation bridge `(CFI.6)` and chronological shell `(CFI.6a)`
    as corollaries;
 7. only then return to excluding blown and jump themselves.
+
+The corrected receiver-to-class certificate map is now recorded in
+[mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md).
+It preserves the final endpoint as the conditional certificate
+`CFI.A+\mathsf{End}_{NS}`: the receiver side is compressed to the
+parameter-stable `LCI` theorem family plus `(FCI.5f)`, `AFD.A`, and `RCF.A`,
+while the endpoint-exclusion matrix still has open Pack, Field, blown, and
+cross-entry cells.
 
 ## Honest Position
 

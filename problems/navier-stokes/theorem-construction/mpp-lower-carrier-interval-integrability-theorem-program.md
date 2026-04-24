@@ -3451,7 +3451,15 @@ remaining receiver-side wall now has two honest forms:
    the smaller-thickness conservative read; that same companion note also makes
    the terminal point explicit: after those reads are identified, the FEI-return
    branch feeds back into the already-installed lower-carrier route rather than
-   opening any new lower-carrier supplier architecture; on the
+   opening any new lower-carrier supplier architecture; the finite-parameter
+   Gronwall closure for all these returned lower-carrier instances is now
+   isolated in
+   [mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md),
+   which proves the uniform `LCI.B2d` / `LCI.C` step from the corresponding
+   transported-center ledgers; the non-smuggling direct supplier for those
+   ledgers is now isolated in
+   [mpp-lci-a-direct-transported-center-package-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-direct-transported-center-package-note.md)
+   as `DTC.A_{\mathfrak p}`; on the
    first-center-rung side, the local pressure / harmonic reductions
    `LCI.B2g5b`--`LCI.B2g5f` and the affine-defect / affine-frame package
    `LCI.B2g5m`--`LCI.B2g5q` remain the live supplier chain, with the

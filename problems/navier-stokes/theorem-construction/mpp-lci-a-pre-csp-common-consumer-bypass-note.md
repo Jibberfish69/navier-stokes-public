@@ -154,11 +154,66 @@ lower same-fluid carrier ledger `\Gamma_{N,m,\rho,\psi}^{low,\delta+\delta_{seg}
 and the companion widened-thickness lower-carrier note reduces that slot to
 the old lower-carrier theorem `LCI.A` at the thicker radius.
 
+### Theorem `PCC.SLR.A` (Still-live receiver admission supplies the direct common consumer)
+
+The route-native reduction `(PCC.C)` returns to the old `LCI.A` / `CSP.A`
+family. The non-circular bypass is supplied instead by the still-live receiver
+admission theorem
+[mpp-lci-a-pre-csp-still-live-receiver-admission-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-pre-csp-still-live-receiver-admission-note.md).
+
+Assume the common receiver set
+
+```math
+\mathcal R_{\rho,\psi}^{pre}(t)
+=
+\mathcal H_{\rho}^{ctr}(t)
+\cup
+\operatorname{supp}\chi_{\rho,\psi,t}^{\delta+\delta_{seg}}
+\cup
+\operatorname{supp}\vartheta_{\rho,\psi,t}^{\delta+5\Lambda_{\delta,\rho}^{halo}}
+\tag{PCC.5}
+```
+
+is contained in one compact still-live receiver collar `Q^{rec,+}` for all
+`t\in I`, with the finite support-volume and smoothness bounds `(SLR.4)` and
+`(SLR.5)`. Then
+
+```math
+\sup_{t\in I}
+\mathcal K_{N+1,m,\rho,\psi}^{\delta+\delta_{seg}}(t)
+<
+\infty,
+\tag{PCC.6}
+```
+
+and hence
+
+```math
+\mathfrak C_{N+1,\rho,\psi}^{\delta+\delta_{seg}}\in L^1(I).
+\tag{PCC.7}
+```
+
+### Proof
+
+This is exactly Lemma `SLR.B`: still-live smoothness on the common receiver
+collar bounds every derivative in `(PC.9)`, and the finite volume of the
+thickened cutoff support bounds the integral. The embedding `(PC.14)` and
+finite length of `I` then give `(PCC.7)`. ∎
+
+### Corollary `PCC.SLR.B` (The common-consumer bypass no longer has a separate open wall on retained still-live windows)
+
+On a retained window satisfying the still-live receiver-admission hypotheses,
+the stronger bypass input `(PCC.3)` is no longer open. The only remaining
+question is whether the same retained window also supplies the segment geometry
+and widened receiver return; the companion note supplies those as `SLR.A1` and
+`SLR.C`.
+
 ## Honest Boundary
 
-This note does **not** prove `(PCC.1)`. It does **not** prove `(PCC.2)` or
-`(PCC.3)`. It does **not** claim that `CSP.A` has been removed from the
-installed route.
+This note does **not** prove `(PCC.1)` route-natively through the widened
+`LCI.B` family, and it does **not** claim that `CSP.A` has been removed from
+the installed `LCI` route. The new theorem `PCC.SLR.A` proves `(PCC.2)` / `(PCC.3)`
+only under the separate still-live receiver-admission hypothesis `(PCC.5)`.
 
 What it does prove is narrower and exact:
 
@@ -173,9 +228,12 @@ What it does prove is narrower and exact:
    instance of the already-existing common-object target `FCI.B`, hence
    exactly `CSP.A_{\delta+\delta_{seg}}`; and the companion widened-thickness
    collar wall note reduces that further to the old collar wall `CSP.8` at the
-   thicker radius.
+   thicker radius;
+5. on the direct still-live receiver-admission route, `(PCC.3)` is supplied
+   without passing through that route-native fixed point.
 
-So the honest remaining stronger bypass object is:
+So, absent the still-live receiver-admission hypothesis, the honest remaining
+stronger bypass object is:
 
 ```math
 \boxed{
@@ -187,7 +245,9 @@ So the honest remaining stronger bypass object is:
 \tag{PCC.4}
 ```
 
-That is the theorem-facing content still missing if `(LCI.3c3z20)` is to be
-imported upstream of `LCI.A` without recycling the collar theorem itself. In
-packet-theorem form, this is exactly the widened-thickness common-object target
-`FCI.B`, i.e. the widened-thickness instance `CSP.A_{\delta+\delta_{seg}}`.
+That was the theorem-facing content still missing if `(LCI.3c3z20)` was to be
+imported upstream of `LCI.A` without recycling the collar theorem itself. The
+new still-live receiver-admission theorem supplies this object directly on
+retained still-live windows. In packet-theorem form, the route-native version
+remains exactly the widened-thickness common-object target `FCI.B`, i.e. the
+widened-thickness instance `CSP.A_{\delta+\delta_{seg}}`.

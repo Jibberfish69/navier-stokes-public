@@ -109,6 +109,115 @@ route.” It is:
 \tag{WTL.4}
 ```
 
+## Post-`U2H.A` Live Cell
+
+The segment-thickness side is now handled upstream by `U2H.A` together with the
+already-separated `OFP.C1e2` first-rung and initial deformation-gradient
+inputs:
+
+```math
+(EOC.27)
++
+\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I)
+\Longrightarrow
+\mathfrak U_{2,\rho}^{halo,ctr}\in L^1(I)
+\Longrightarrow
+(OFP.10cb).
+\tag{WTL.5}
+```
+
+So the next receiver-side burden is not another halo or segment theorem. It is
+the thickened collar consumer at
+
+```math
+\delta_\ast:=\delta+\delta_{seg}.
+\tag{WTL.6}
+```
+
+By `WTC.A`,
+
+```math
+(WTC.1)+(FCI.5f)
+\Longrightarrow
+CSP.A_{\delta_\ast},
+\tag{WTL.7}
+```
+
+where
+
+```math
+(WTC.1):
+\qquad
+\Gamma_\sharp\in L^\infty(I),
+\quad
+\Gamma_{N,m,\rho,\psi}^{low,\delta_\ast}\in L^1(I),
+\quad
+P_{F,\rho,\psi}^{\ast}\in L^1(I).
+\tag{WTL.8}
+```
+
+The pack gauge and transport bridge entries are old non-thickness slots. The
+source-side ledger
+
+```math
+(FCI.5f):
+\qquad
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon}(\cdot;I)\in L^1(I)
+\tag{WTL.9}
+```
+
+remains a separate frozen-family obligation. Therefore the next live
+receiver-side cell is exactly:
+
+```math
+\boxed{
+\Gamma_{N,m,\rho,\psi}^{low,\delta+\delta_{seg}}\in L^1(I).
+}
+\tag{WTL.C}
+```
+
+Equivalently, by `WTL.A`, this is the widened-thickness lower-carrier theorem
+`LCI.A_{\delta_\ast}`.
+
+Once `(WTL.C)` and `(FCI.5f)` are both supplied, the recombination is:
+
+```math
+WTL.C
++
+(FCI.5f)
+\Longrightarrow
+CSP.A_{\delta_\ast},
+\tag{WTL.10}
+```
+
+and then
+
+```math
+CSP.A_{\delta_\ast}
++
+(EOC.27)
++
+(OFP.10cb)
+\Longrightarrow
+EOC.A.
+\tag{WTL.11}
+```
+
+The installed lower-carrier return then resumes:
+
+```math
+EOC.A
+\Longrightarrow
+AFD.A
+\Longrightarrow
+AFD.B
+\Longrightarrow
+RCF.A
+\Longrightarrow
+LCI.A.
+\tag{WTL.12}
+```
+
 ## Honest Boundary
 
 This note does **not** prove `(WTL.3a)` or `(WTL.3b)`. It does **not** close
@@ -120,5 +229,25 @@ What it does prove is narrower and exact:
 1. the only thickness-sensitive slot surviving in the widened-thickness collar
    package is the thicker lower same-fluid carrier ledger;
 2. that slot is itself not a new theorem family;
-3. the exact reopened carrier theorem is just `LCI.A` at thickness
-   `\delta_\ast`.
+3. after `U2H.A`, the exact next receiver-side cell is `(WTL.C)`, i.e.
+   `\Gamma_{N,m,\rho,\psi}^{low,\delta+\delta_{seg}}\in L^1(I)`;
+4. the exact reopened carrier theorem is just `LCI.A` at thickness
+   `\delta_\ast`, with `(FCI.5f)` kept as the parallel source-side burden.
+
+The companion end-to-end certificate map
+[mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md)
+records the downstream consequence of this boundary: the receiver subgraph
+requires a parameter-stable `LCI` family covering the base thickness, the
+thickened collar thickness, and the widened receiver-return depth, rather than
+one already-proved base `LCI.A` instance.
+
+That parameter-stable Gronwall step is now isolated in
+[mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md):
+once the transported-center package is supplied for the finite required
+parameter set, `WTL.C`, `(EOC.27)`, and the base lower-carrier readback all
+follow from one uniform finite-parameter `LCI.B2d` / `LCI.C` argument.
+The transported-center package itself is now routed through the direct
+non-smuggling target
+[mpp-lci-a-direct-transported-center-package-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-direct-transported-center-package-note.md),
+whose `DTC.A_{\mathfrak p}` theorem must be proved without using this widened
+collar consumer.

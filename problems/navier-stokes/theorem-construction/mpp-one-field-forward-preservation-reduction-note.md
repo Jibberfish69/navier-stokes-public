@@ -423,8 +423,11 @@ remaining geometry as the dedicated variable-radius center-ball theorem
 transported-center package reduces that geometric slot further to the fixed
 halo-shell successor `HSP.A`, and `HSP.A` is itself reduced to the fixed-scale
 increment theorem `FEI.A`; but once the widened receiver-side return
-`(EOC.27)` is granted, Corollaries `EOC.C`--`EOC.Ca` make that old
-halo/increment supplier pair downstream, so the honest `EOC`-surface receiver
+`(EOC.27)` is granted, the halo-gradient return theorem `U2H.A` pairs it with
+the anchored-center ledger to close the pulled-back `\nabla_xU_1` segment
+residue; with the already-separated `OFP.C1e2` first-rung and initial
+deformation-gradient inputs this gives `(OFP.10cb)`. Corollaries `EOC.C`--`EOC.Ca` then make that
+old halo/increment supplier pair downstream, so the honest `EOC`-surface receiver
 is now exactly the route-native package
 `CSP.A_{\delta+\delta_{seg}}` together with that widened return package, not
 `VCB.A` by itself; the companion enlarged shell is only a

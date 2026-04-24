@@ -122,6 +122,12 @@ installed no-jump proof route is blocked there. It is not yet licensed to read
 that blockage as jump manifestation. The exact converse-pivot theorem surface is
 [mpp-collar-to-jump-pivot-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md).
 
+The current compactness/scaling/circularity audit for the `OFP.A` seam with the
+direct transported-center package is recorded in
+[mpp-ofp-dtc-compactness-scaling-circularity-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-ofp-dtc-compactness-scaling-circularity-audit-note.md).
+That note keeps the no-visible-jump hypothesis as a branch condition only: it
+cannot be replaced by the endpoint theorem that `CFI.A` is meant to feed.
+
 ## Exact Proof Spine
 
 The route-native proof spine should be:
@@ -760,6 +766,632 @@ F(a+\theta r,t)-F(a,t)
 Set `a=a^j` and take the supremum over `j` and `0<|r|\le \rho` to obtain
 `(OFP.10by)`. ∎
 
+### Lemma `OFP.C1e1` (Pre-`CSP.A` segment-thickness control from label-halo deformation regularity)
+
+Define the center label halo
+
+```math
+A_{\rho}^{halo,ctr}
+:=
+\left\{
+a^j+\theta r:
+1\le j\le J,\ 0<|r|\le \rho,\ 0\le\theta\le1
+\right\}.
+\tag{OFP.10bya0}
+```
+
+Define the label-halo deformation-gradient envelope
+
+```math
+\mathfrak L_{F,\rho}^{halo,ctr}(t)
+:=
+\sup_{a\in A_{\rho}^{halo,ctr}}
+\big|\nabla_aF(a,t)\big|
+=
+\sup_{1\le j\le J}
+\sup_{0<|r|\le \rho}
+\sup_{0\le \theta\le 1}
+\big|
+\nabla_a F(a^j+\theta r,t)
+\big|.
+\tag{OFP.10bya}
+```
+
+Then for a.e. `t\in I`,
+
+```math
+P_{F,\rho}^{ctr,\sharp}(t)^{1/2}
+\le
+\rho\,\mathfrak L_{F,\rho}^{halo,ctr}(t).
+\tag{OFP.10byb}
+```
+
+Consequently,
+
+```math
+\Gamma_\sharp(t)\rho
++
+\rho\,P_{F,\rho}^{ctr,\sharp}(t)^{1/2}
+\le
+\rho\,\Gamma_\sharp(t)
++
+\rho^2\,\mathfrak L_{F,\rho}^{halo,ctr}(t).
+\tag{OFP.10byc}
+```
+
+Thus the fixed-thickness segment condition `(OFP.10cb)` is supplied before
+using `CSP.A` whenever
+
+```math
+\Gamma_\sharp\in L^\infty(I),
+\qquad
+\mathfrak L_{F,\rho}^{halo,ctr}\in L^\infty(I),
+\tag{OFP.10byd}
+```
+
+by taking
+
+```math
+\delta_{seg}
+:=
+\rho\|\Gamma_\sharp\|_{L^\infty(I)}
++
+\rho^2\|\mathfrak L_{F,\rho}^{halo,ctr}\|_{L^\infty(I)}.
+\tag{OFP.10bye}
+```
+
+With only
+`\mathfrak L_{F,\rho}^{halo,ctr}\in L^2(I)`, one still has the integrated
+pre-loop estimate
+
+```math
+\int_I
+\left(
+\Gamma_\sharp(t)\rho
++
+\rho P_{F,\rho}^{ctr,\sharp}(t)^{1/2}
+\right)^2\,dt
+\le
+2\rho^2 |I|\|\Gamma_\sharp\|_{L^\infty(I)}^2
++
+2\rho^4
+\|\mathfrak L_{F,\rho}^{halo,ctr}\|_{L^2(I)}^2.
+\tag{OFP.10byf}
+```
+
+The pointwise `L^\infty_t` form `(OFP.10byd)` is the one that directly
+instantiates the existing fixed-thickness consumer `CSP.A_{\delta+\delta_{seg}}`.
+The `L^2_t` form `(OFP.10byf)` is an adjacent integrated-collar variant; it does
+not by itself choose one fixed `\delta_{seg}` for `(OFP.10cb)`.
+
+### Proof
+
+For `0<|r|\le\rho`,
+
+```math
+F(a^j+\theta r,t)-F(a^j,t)
+=
+\int_0^\theta
+\nabla_aF(a^j+s r,t)r\,ds,
+\tag{OFP.10byg}
+```
+
+so
+
+```math
+\big|F(a^j+\theta r,t)-F(a^j,t)\big|
+\le
+\rho\,\mathfrak L_{F,\rho}^{halo,ctr}(t).
+\tag{OFP.10byh}
+```
+
+Insert this bound into `(OFP.10ca)` and take the supremum in `j,r` to obtain
+`(OFP.10byb)`. The segment-thickness bounds `(OFP.10byc)`-`(OFP.10byf)` then
+follow immediately. ∎
+
+### Lemma `OFP.C1e2` (Route-native supplier for the label-halo deformation-gradient envelope)
+
+Define
+
+```math
+\mathfrak U_{1,\rho}^{halo,ctr}(t)
+:=
+\sup_{a\in A_{\rho}^{halo,ctr}}
+\big|U_1(X(a,t),t)\big|
+=
+\sup_{1\le j\le J}
+\sup_{0<|r|\le \rho}
+\sup_{0\le\theta\le1}
+\big|U_1(X(a^j+\theta r,t),t)\big|,
+\tag{OFP.10byi}
+```
+
+and
+
+```math
+\mathfrak U_{2,\rho}^{halo,ctr}(t)
+:=
+\sup_{a\in A_{\rho}^{halo,ctr}}
+\big|\nabla_x U_1(X(a,t),t)\big|
+=
+\sup_{1\le j\le J}
+\sup_{0<|r|\le \rho}
+\sup_{0\le\theta\le1}
+\big|\nabla_x U_1(X(a^j+\theta r,t),t)\big|.
+\tag{OFP.10byj}
+```
+
+If
+
+```math
+\Gamma_\sharp\in L^\infty(I),
+\qquad
+\mathfrak U_{1,\rho}^{halo,ctr}
++
+\mathfrak U_{2,\rho}^{halo,ctr}
+\in L^1(I),
+\qquad
+\mathfrak L_{F,\rho}^{halo,ctr}(t_0)<\infty,
+\tag{OFP.10byk}
+```
+
+then
+
+```math
+\mathfrak L_{F,\rho}^{halo,ctr}\in L^\infty(I).
+\tag{OFP.10byl}
+```
+
+Consequently `(OFP.10cb)` holds with the finite pre-`CSP.A` thickness
+`(OFP.10bye)`.
+
+### Proof
+
+The deformation gradient satisfies
+
+```math
+\partial_t F(a,t)=U_1(X(a,t),t)F(a,t).
+\tag{OFP.10bym}
+```
+
+Differentiating in label variables gives schematically
+
+```math
+\partial_t\nabla_a F
+=
+\big(\nabla_xU_1\big)(X(a,t),t)[F,F]
++
+U_1(X(a,t),t)\nabla_aF.
+\tag{OFP.10byn}
+```
+
+Taking the label-halo supremum and using `|F|\le\Gamma_\sharp` yields the Dini
+inequality
+
+```math
+D^+\mathfrak L_{F,\rho}^{halo,ctr}(t)
+\le
+C\,\mathfrak U_{1,\rho}^{halo,ctr}(t)
+\mathfrak L_{F,\rho}^{halo,ctr}(t)
++
+C\,\Gamma_\sharp(t)^2
+\mathfrak U_{2,\rho}^{halo,ctr}(t).
+\tag{OFP.10byo}
+```
+
+Gronwall and `(OFP.10byk)` imply `(OFP.10byl)`. Lemma `OFP.C1e1` then gives
+the stated segment-thickness condition. ∎
+
+### Theorem `OFP.CellA` (Pre-`CSP.A` segment-thickness lemma)
+
+Assume
+
+```math
+\Gamma_\sharp\in L^\infty(I),
+\qquad
+\mathfrak U_{1,\rho}^{halo,ctr}
++
+\mathfrak U_{2,\rho}^{halo,ctr}
+\in L^1(I),
+\qquad
+\mathfrak L_{F,\rho}^{halo,ctr}(t_0)<\infty.
+\tag{OFP.10byoA}
+```
+
+Then there is a finite fixed segment thickness
+
+```math
+\delta_{seg}
+=
+\rho\|\Gamma_\sharp\|_{L^\infty(I)}
++
+\rho^2\|\mathfrak L_{F,\rho}^{halo,ctr}\|_{L^\infty(I)}
+\tag{OFP.10byoB}
+```
+
+such that for a.e. `t\in I`,
+
+```math
+\Gamma_\sharp(t)\rho
++
+\rho P_{F,\rho}^{ctr,\sharp}(t)^{1/2}
+\le
+\delta_{seg}.
+\tag{OFP.10byoC}
+```
+
+Equivalently, `(OFP.10cb)` holds before `CSP.A` is used.
+
+### Proof
+
+Lemma `OFP.C1e2` gives
+`\mathfrak L_{F,\rho}^{halo,ctr}\in L^\infty(I)` from `(OFP.10byoA)`.
+Lemma `OFP.C1e1` then gives
+
+```math
+\Gamma_\sharp(t)\rho
++
+\rho P_{F,\rho}^{ctr,\sharp}(t)^{1/2}
+\le
+\rho\Gamma_\sharp(t)
++
+\rho^2\mathfrak L_{F,\rho}^{halo,ctr}(t),
+\tag{OFP.10byoD}
+```
+
+and the right-hand side is bounded by `(OFP.10byoB)`. ∎
+
+### Corollary `OFP.C1e3` (The sufficient pre-loop segment-thickness target)
+
+The route-native pre-loop theorem needed to avoid spending `EOC.C` as an input
+is exactly `OFP.CellA`:
+
+```math
+\boxed{
+\Gamma_\sharp\in L^\infty(I)
+\quad+\quad
+\mathfrak U_{1,\rho}^{halo,ctr}
++
+\mathfrak U_{2,\rho}^{halo,ctr}
+\in L^1(I)
+\quad+\quad
+\mathfrak L_{F,\rho}^{halo,ctr}(t_0)<\infty
+}
+\Longrightarrow
+\boxed{
+\Gamma_\sharp\rho+\rho P_{F,\rho}^{ctr,\sharp\,1/2}
+\le
+\delta_{seg}
+\text{ before }CSP.A.
+}
+\tag{OFP.10byp}
+```
+
+This bypasses the circular route through the propagated pack-oscillation
+modulus `\mathfrak O_{F,\rho}^{ctr}` under the stated supplier hypotheses. It
+conditionally controls the transported segment thickness directly from
+label-halo deformation regularity.
+
+This proves only the segment-geometry hypothesis `(OFP.10cb)`. It does **not**
+prove the thickened collar consumer
+
+```math
+\mathfrak C_{N+1,\rho,\psi}^{\delta+\delta_{seg}}\in L^1(I),
+\tag{OFP.10bypa}
+```
+
+nor the stronger packet form
+
+```math
+\sup_{t\in I}\mathcal K_{N+1,m,\rho,\psi}^{\delta+\delta_{seg}}(t)<\infty.
+\tag{OFP.10bypb}
+```
+
+Those remain separate receiver-side obligations, along with the widened
+receiver return `(EOC.27)`.
+
+Thus after `OFP.CellA` the repo-native receiver proof splits exactly as
+follows:
+
+```math
+\mathfrak U_{2,\rho}^{halo,ctr}\in L^1(I)
+\Longrightarrow
+(OFP.10cb),
+\tag{OFP.10bypc}
+```
+
+separately
+
+```math
+\mathfrak C_{N+1,\rho,\psi}^{\delta+\delta_{seg}}\in L^1(I)
+\quad\text{or}\quad
+\sup_I\mathcal K_{N+1,m,\rho,\psi}^{\delta+\delta_{seg}}<\infty,
+\tag{OFP.10bypd}
+```
+
+and separately
+
+```math
+(EOC.27).
+\tag{OFP.10bype}
+```
+
+The third input is not a new widened-return family: the widened receiver return
+note identifies `(EOC.27)` with `WRR.A`, i.e. the enlarged-parameter `LCI.B`
+instance
+
+```math
+N\mapsto N+4,
+\qquad
+m\mapsto N+4,
+\qquad
+\delta\mapsto\delta+5\Lambda_{\delta,\rho}^{halo}.
+\tag{OFP.10bype1}
+```
+
+The second input is not a new thickness family either. With
+`\delta_\ast:=\delta+\delta_{seg}`, the widened-thickness collar wall note
+records
+
+```math
+(WTC.1)+(FCI.5f)\Longrightarrow CSP.A_{\delta_\ast},
+\tag{OFP.10bype2}
+```
+
+and the only thickness-sensitive entry of `(WTC.1)` is
+
+```math
+\Gamma_{N,m,\rho,\psi}^{low,\delta_\ast}\in L^1(I),
+\tag{OFP.10bype3}
+```
+
+which the widened-thickness lower-carrier note identifies as
+`LCI.A_{\delta_\ast}` through `WTL.A`.
+
+The pulled-back halo-gradient carrier in the first slot is now closed by the
+companion halo-gradient carrier return theorem `U2H.A` once the widened return
+and anchored-center ledger are granted:
+
+```math
+(EOC.27)
++
+\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I)
+\Longrightarrow
+\mathfrak U_{2,\rho}^{halo,ctr}\in L^1(I).
+\tag{OFP.10bype3a}
+```
+
+Therefore the route-native order after `OFP.CellA` is:
+
+```math
+\bigl((EOC.27)+\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I)\bigr)
+\quad+\quad
+WRR.A
+\quad+\quad
+\bigl(WTC.A\text{ with }WTC.4\rightsquigarrow WTL.A\bigr)
+\quad+\quad
+(FCI.5f)
+\Longrightarrow
+EOC.A.
+\tag{OFP.10bype4}
+```
+
+The companion still-live receiver-admission note supplies these same inputs
+directly on retained still-live receiver windows through `SLR.A`, `SLR.B`, and
+`SLR.C`. That is a sufficient bypass of the route-native fixed point, not a
+replacement for the repo-native `WRR` / `WTC` / `WTL` sequence.
+
+### Obstruction `OFP.C1e4` (The new pre-loop residue is the pulled-back `\nabla_xU_1` halo carrier)
+
+The packet `(OFP.10byp)` is strictly narrower than the old enlarged-ball /
+halo-shell loop, but it is not already closed by the installed first-rung halo
+packet.
+
+The existing halo carrier used by `VCB.A` and `HSP.A` is the first-rung object
+
+```math
+\mathfrak U_{1,\rho}^{halo,ctr}(t)
+=
+\sup_{j,r,\theta}
+\big|U_1(X(a^j+\theta r,t),t)\big|.
+\tag{OFP.10byq}
+```
+
+The pre-loop deformation-gradient supplier needs in addition the pulled-back
+first spatial derivative of that first-rung carrier:
+
+```math
+\mathfrak U_{2,\rho}^{halo,ctr}(t)
+=
+\sup_{j,r,\theta}
+\big|\nabla_xU_1(X(a^j+\theta r,t),t)\big|.
+\tag{OFP.10byr}
+```
+
+On the route-native halo-shell stack alone, no theorem supplies
+
+```math
+\mathfrak U_{2,\rho}^{halo,ctr}\in L^1(I)
+\tag{OFP.10bys}
+```
+
+before the collar loop. The existing lower-order halo-shell packet controls a
+first-rung `U_1` shell carrier. The occurrences of `U_2` inside the halo-shell
+energy law appear as higher-order energy summands, not as the pulled-back
+`L^1_tL^\infty` `\nabla_xU_1` halo carrier `(OFP.10bys)`.
+
+Therefore the direct pre-`CSP.A` segment-thickness route terminates, before one
+spends the thickened collar consumer, at the halo-gradient carrier theorem:
+
+```math
+\boxed{
+\mathfrak U_{2,\rho}^{halo,ctr}\in L^1(I)
+\text{ on the same-fluid label halo, before }CSP.A_{\delta+\delta_{seg}}
+}.
+\tag{OFP.10byt}
+```
+
+The companion halo-gradient carrier return note
+[mpp-lci-a-halo-gradient-carrier-return-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-halo-gradient-carrier-return-note.md)
+now closes this residue from the widened receiver return and anchored-center
+ledger:
+
+```math
+(EOC.27)
++
+\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I)
+\Longrightarrow
+\mathfrak U_{2,\rho}^{halo,ctr}\in L^1(I).
+\tag{OFP.10byt0}
+```
+
+So the non-circular segment-thickness route is now:
+
+```math
+(EOC.27)
++
+\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I)
+\Longrightarrow
+\mathfrak U_{2,\rho}^{halo,ctr}\in L^1(I)
+\Longrightarrow
+\mathfrak L_{F,\rho}^{halo,ctr}\in L^\infty(I)
+\Longrightarrow
+\text{segment geometry }(OFP.10cb),
+\tag{OFP.10byu}
+```
+
+while the thickened collar consumer and the widened receiver return remain
+separate inputs for `EOC.A`.
+
+### Corollary `OFP.C1e4a` (Widened receiver return closes the halo-gradient residue)
+
+Assume `2\le m\le N`, the widened receiver return `(EOC.27)`, and the
+anchored-center ledger
+
+```math
+\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I).
+\tag{OFP.10byu0}
+```
+
+Then `U2H.A` gives
+
+```math
+\mathfrak U_{2,\rho}^{halo,ctr}\in L^1(I).
+\tag{OFP.10byu1}
+```
+
+Consequently, with the already-separated hypotheses
+`\Gamma_\sharp\in L^\infty(I)`,
+`\mathfrak U_{1,\rho}^{halo,ctr}\in L^1(I)`, and
+`\mathfrak L_{F,\rho}^{halo,ctr}(t_0)<\infty`, Lemmas `OFP.C1e1`--`OFP.C1e2`
+give the fixed segment-thickness condition `(OFP.10cb)`.
+
+Thus the current target closes as
+
+```math
+(EOC.27)
++
+\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I)
+\quad\text{plus the first-rung and initial deformation-gradient inputs above}
+\Longrightarrow
+\mathfrak U_{2,\rho}^{halo,ctr}\in L^1(I)
+\Longrightarrow
+(OFP.10cb).
+\tag{OFP.10byu2}
+```
+
+The remaining receiver-side burden after this corollary is the thickened collar
+consumer `CSP.A_{\delta+\delta_{seg}}`, equivalently `WTC.A` with `(FCI.5f)`
+separate and `WTC.4 -> WTL.A -> LCI.A_{\delta+\delta_{seg}}`.
+
+More explicitly, after `U2H.A` the next concrete receiver-side cell is the
+thickness-sensitive lower-carrier target recorded as `WTL.C`:
+
+```math
+\boxed{
+\Gamma_{N,m,\rho,\psi}^{low,\delta+\delta_{seg}}\in L^1(I).
+}
+\tag{OFP.10byu3}
+```
+
+The source-side frozen-family burden `(FCI.5f)` remains parallel. With the old
+pack-gauge and transport-bridge entries in `(WTC.1)`, the recombination is
+
+```math
+WTL.C+(FCI.5f)
+\Longrightarrow
+CSP.A_{\delta+\delta_{seg}},
+\tag{OFP.10byu4}
+```
+
+and then
+
+```math
+CSP.A_{\delta+\delta_{seg}}
++
+(EOC.27)
++
+(OFP.10cb)
+\Longrightarrow
+EOC.A.
+\tag{OFP.10byu5}
+```
+
+### Corollary `OFP.C1e5` (Still-live receiver admission closes the segment residue)
+
+The companion receiver-admission note
+[mpp-lci-a-pre-csp-still-live-receiver-admission-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-pre-csp-still-live-receiver-admission-note.md)
+proves the exact missing supplier `(OFP.10bys)` on any retained window whose
+label halo lies inside one compact still-live receiver collar.
+
+In that notation,
+
+```math
+\mathcal H_{\rho}^{ctr}(t)
+\subset Q_t^{rec,+}
+\qquad(t\in I)
+\tag{OFP.10byv}
+```
+
+and the still-live classical bound on `Q^{rec,+}` imply
+
+```math
+\mathfrak U_{2,\rho}^{halo,ctr}
+\in L^\infty(I)
+\subset L^1(I).
+\tag{OFP.10byw}
+```
+
+Therefore, with
+`\Gamma_\sharp\in L^\infty(I)` and
+`\mathfrak L_{F,\rho}^{halo,ctr}(t_0)<\infty`, Lemmas `OFP.C1e1`--`OFP.C1e2`
+give the fixed segment-thickness condition `(OFP.10cb)` before `CSP.A` is
+used.
+
+This closes the segment-geometry part of the pre-loop packet under the
+still-live receiver-admission hypothesis. It does not by itself supply the
+route-native thickened collar consumer or the widened receiver return. Those
+remain the separate `WTC.A` / `WTL.A` and `WRR.A` obligations unless the
+retained-window still-live admission theorem is invoked, in which case Lemmas
+`SLR.B` and `SLR.C` supply them directly as a sufficient shortcut.
+
+The corrected end-to-end certificate map is recorded in
+[mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md).
+It keeps three distinctions explicit: `U2H.A` closes only the pulled-back
+halo-gradient residue, the widened `LCI` calls remain parameter-shifted
+obligations, and the final `CFI.A+\mathsf{End}_{NS}` lane certificate remains
+conditional on the endpoint-exclusion matrix.
+The finite lower-carrier Gronwall step across those widened calls is isolated
+in
+[mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md):
+it closes the `LCI.B2d` / `LCI.C` step uniformly once the transported-center
+package is supplied on the finite required parameter set.
+The non-smuggling supplier for that transported-center package is isolated in
+[mpp-lci-a-direct-transported-center-package-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-direct-transported-center-package-note.md):
+`DTC.A_{\mathfrak p}` must be proved directly from the PDE and localized
+transported-center estimates, not from `EOC.Ca`, `WRR.A`, `U2H.A`, `LCI.A`, or
+`CSP.A`.
+
 ### Lemma `OFP.C1f` (The centerwise segment density is automatically downstream of a thickened collar envelope)
 
 Retain the packet-collar thickness `\delta>0` from
@@ -953,7 +1585,8 @@ This is just `(OFP.10bs)` followed by `(OFP.10bv)`, `(OFP.10by)`, and
 
 ### Proposition `OFP.C1i` (Pointwise centerwise pack-oscillation propagation from the exact deformation law)
 
-Define the label-halo first-rung carrier
+Retain the label-halo first-rung carrier from `(OFP.10byi)`; for compatibility
+with the older pack-oscillation branch, write the same envelope as
 
 ```math
 \mathfrak U_{1,\rho}^{halo,ctr}(t)
@@ -1746,7 +2379,14 @@ On the collar side, the old monolithic burden `CSP.A` has been reduced further:
    supplier pair is already downstream, and the honest remaining `EOC`-surface
    consumer is exactly
    `CSP.A` instantiated at thickness `\delta+\delta_{seg}`, not `VCB.A` or
-   `FEI.A` as independent live walls.
+   `FEI.A` as independent live walls. Repo-natively, `(EOC.27)` is the widened
+   `LCI.B` instance `WRR.A`, while the thickened consumer is `WTC.A` with the
+   separate source burden `(FCI.5f)` and the thickness-sensitive slot
+   `WTC.4`, reduced by `WTL.A` to `LCI.A_{\delta+\delta_{seg}}`. The direct
+   still-live receiver-admission theorem `SLR.D` supplies `(EOC.27)`, the
+   thickened consumer, and the segment geometry together only as a retained
+   still-live shortcut, giving `EOC.A` without recycling the route-native
+   `LCI` / `CSP` fixed point.
 
 So the exact question is now:
 
@@ -1802,6 +2442,11 @@ So the one-field problem is no longer vague. Its exact live split is:
    oscillation receiver is no longer the old halo/increment supplier pair: by
    `EOC.Ca` it is exactly the widened receiver-side return `(EOC.27)` and
    `CSP.A` at thickness `\delta+\delta_{seg}`, which together imply `EOC.A`;
+   repo-natively `(EOC.27)` is `WRR.A`, the thickened consumer is `WTC.A`
+   together with `(FCI.5f)`, and the only thickness-sensitive receiver slot
+   is `WTC.4`, equivalently `LCI.A_{\delta+\delta_{seg}}` by `WTL.A`; the
+   still-live receiver-admission packet `SLR.A`--`SLR.D` supplies these inputs
+   directly only on retained still-live receiver windows;
 4. after that oscillation-side closure, the remaining transported-center
    receiver branch is now compressed to
    [mpp-lci-a-transported-center-residual-forcing-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-transported-center-residual-forcing-note.md):

@@ -3,6 +3,18 @@ version: 1
 identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
+authority_status:
+  status: stale-generated-snapshot
+  superseded_by:
+    - problems/navier-stokes/live-theorem-edge.yaml
+    - problems/navier-stokes/route-lock.yaml
+    - problems/navier-stokes/ns-proof-program-route-table.yaml
+  correction: >-
+    This file previously promoted TPS / SG.4 as the primary proving surface.
+    Current explicit live authority assigns primary status to the
+    class-membership / law-endpoint matrix route. TPS / SG.4 is downstream
+    one-field readout or consumer context unless a separate bridge theorem
+    proves stronger priority.
 source:
   synthesized_at: '2026-04-10T00:47:00Z'
   synthesizer: system/runner/workers/route_synthesis_worker.rb
@@ -10,43 +22,32 @@ source:
   workboard_surfaces:
   - problems/navier-stokes/claim-ladder.md
 target:
-  theorem_target: 
-  honest_current_status: 
-  decisive_frontier: 'The lane is now split honestly. The primary proving surface
-    remains the torus-first TPS strong/defect bridge route, where SG.4 is the exact
-    remaining geometric theorem slot on the active periodic/operator bundle and the
-    preferred next closable fix runs through a selector-adapted defect-to-strain theorem
-    from the pair-defect PDE, namely a spacetime bound on `[\lambda_J-\mathfrak s_J]_+`.
-    The current proof-attempt note shows that the large-good-family extraction to
-    `SG.4B` is already formal; the irreducible new step is a selector calibration
-    plus observability/coercivity package from `W_J` to `[\lambda_J-\mathfrak s_J]_+`.
-    Separately, the Euclidean strict-shadow discharge branch is preserved explicitly:
-    once the exact strict-shadow hypotheses are granted, `\mathrm{ShadowDef}(X)` and
-    `E_{\mathrm{sh}}(X)` vanish identically, so the unresolved whole-space burdens
-    on that secondary branch are full-data lift coverage, exact Euclidean strict shadow,
-    and global Euclidean carrier control. Any downstream `\lambda_2^+` continuation
-    step on the primary branch still requires the bridge `BR.lambda2` plus local strong-solution
-    entry on the time window.'
+  theorem_target: no finite-time class exit from the CM object; classical global smoothness only after the route closes
+  honest_current_status: >-
+    Stale route-hypothesis snapshot demoted. Use the live edge and the NS
+    proof-program route table for current authority.
+  decisive_frontier: >-
+    The current primary proving surface is the class-membership /
+    endpoint-exclusion route. The live frontier is the law / endpoint matrix:
+    `(Part, Dead)` is installed, the pack-native blown branch `(Pack,
+    packing-detached)` and `(Field, Jump)` remain open, and the mixed
+    `tower-blown` branch plus cross-entries remain explicit. The active
+    chain is `CFI.A -> OFP.A -> LCI.A` on the propagated object
+    `M_Q(u,p)` witnessed by `Pack / Part / Field`. TPS / SG.4 and Euclidean
+    strict-shadow remain downstream/readout/export contexts unless a named
+    bridge theorem licenses their transfer into the CM object.
 route:
-  live_route_summary: TPS strong/defect bridge route
+  live_route_summary: class-membership / law-endpoint matrix route
   branch_choice:
     selected_branch_id: live-authority-edge-navier-stokes
-    selected_branch_label: TPS strong/defect bridge route
-    rationale: 'The lane is now split honestly. The primary proving surface remains
-      the torus-first TPS strong/defect bridge route, where SG.4 is the exact remaining
-      geometric theorem slot on the active periodic/operator bundle and the preferred
-      next closable fix runs through a selector-adapted defect-to-strain theorem from
-      the pair-defect PDE, namely a spacetime bound on `[\lambda_J-\mathfrak s_J]_+`.
-      The current proof-attempt note shows that the large-good-family extraction to
-      `SG.4B` is already formal; the irreducible new step is a selector calibration
-      plus observability/coercivity package from `W_J` to `[\lambda_J-\mathfrak s_J]_+`.
-      Separately, the Euclidean strict-shadow discharge branch is preserved explicitly:
-      once the exact strict-shadow hypotheses are granted, `\mathrm{ShadowDef}(X)`
-      and `E_{\mathrm{sh}}(X)` vanish identically, so the unresolved whole-space burdens
-      on that secondary branch are full-data lift coverage, exact Euclidean strict
-      shadow, and global Euclidean carrier control. Any downstream `\lambda_2^+` continuation
-      step on the primary branch still requires the bridge `BR.lambda2` plus local
-      strong-solution entry on the time window.'
+    selected_branch_label: class-membership / law-endpoint matrix route
+    rationale: >-
+      Current explicit authority is `live-theorem-edge.yaml`, which has
+      `selection_priority: authoritative-explicit` and makes CM / law-endpoint
+      matrix work primary. TPS / SG.4 remains valuable downstream one-field
+      readout context, but this generated hypothesis surface is not licensed to
+      promote it over the propagated CM object without an explicit bridge
+      theorem.
   parked_branches: []
   blocked_frontiers:
   - 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
