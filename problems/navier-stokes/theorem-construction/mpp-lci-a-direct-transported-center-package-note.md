@@ -2229,20 +2229,20 @@ ACT.X\text{-}Energy
 \tag{AXP.0}
 ```
 
-with `L,F\in L^1` and with the center zero modes either gauge-fixed away from
-the small excess or supplied by the separate core/buffer readout ledger. Choose
-`\varepsilon_\ast>0` satisfying `(DTC.AFF-X9)`, and assume the small-budget
-condition
+with `L,F\in L^1` and with the center zero modes separated into the
+core/buffer readout ledger rather than included in the small excess. Choose
+`\eta_X=(c_\nu/(4C_X))^2`, assume `ACT.X-Scale` supplies the seed radius at
+`t_0`, and assume the small-budget condition
 
 ```math
-\mathcal X^{exc}(t_0)\le\varepsilon_\ast,
+\mathcal X^{exc}(t_0;R_0)\le\eta_X,
 \qquad
 \left(
-\mathcal X^{exc}(t_0)+\int_{t_0}^{t_1}F(s)\,ds
+\eta_X+\int_{t_0}^{t_1}F(s)\,ds
 \right)
 \exp\left(\int_{t_0}^{t_1}L(s)\,ds\right)
-<
-2\varepsilon_\ast.
+\le
+2\eta_X.
 \tag{AXP.1}
 ```
 
