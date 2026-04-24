@@ -2219,7 +2219,8 @@ RWS.C_{\mathrm{scale}}:
 ```
 
 It avoids the false inference from small-radius excess to fixed-radius packet
-smallness.
+smallness. The dynamic cover input is supplied by `RWS.C_cover` from compact
+retained label tubes and the pack gauge.
 
 If `(ACT.E1)` or `(ACT.E2)` lands, Gronwall gives
 `\mathcal E_{ACT}\in L^\infty(I)`. Then local Morrey gives the oscillation

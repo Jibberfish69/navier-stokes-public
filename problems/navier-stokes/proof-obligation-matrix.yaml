@@ -998,8 +998,9 @@ obligations:
     LCI.A`, where `AXE.A` abbreviates `AXE.1+AXE.2+AXE.3+AXE.4 =>
     ACT.X-Energy`, `ACT.X-Scale` supplies the scale-small restart seed from
     retained smooth center-ball regularity, and `ACT.X-Boot` is the
-    Seed+Sched+Absorb theorem. `RWS.C_scale` is the finite dynamic-cover bridge
-    that recovers fixed-radius readouts from small-radius restarted packets; it
+    Seed+Sched+Absorb theorem. `RWS.C_cover` supplies the dynamic same-fluid
+    cover from compact retained label tubes and the pack gauge. `RWS.C_scale` is
+    the finite-cover readout bridge that recovers fixed-radius readouts from small-radius restarted packets; it
     does not assert fixed-radius packet smallness. This
     is a proof plan, not a discharge; the next sharp targets are `ACT.Actr_core`,
     `AXE.2` / `ACT.X-Press`, `ACT.X-Scale`, and `RWS.C_scale`.

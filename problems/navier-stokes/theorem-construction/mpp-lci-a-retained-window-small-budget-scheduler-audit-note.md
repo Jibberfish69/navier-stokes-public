@@ -268,6 +268,63 @@ either `(RWS.C2)` directly or a label-tube cover of
 
 whose transported images give `(RWS.C2)`.
 
+### Supplier `RWS.C_cover`
+
+The dynamic cover `(RWS.C2)` is supplied by compactness of the retained label
+tube. Define
+
+```math
+\mathcal A_{j,R}^{tube}(I_a)
+:=
+\left\{
+a\ \text{in the retained same-fluid collar}:
+\exists t\in I_a,\ \Phi(a,t)\in B(c_j(t),R_{\mathfrak p}^{TC})
+\right\}.
+\tag{RWS.C2b}
+```
+
+Assume this label tube is compact and remains inside the retained collar. For
+each `a\in\mathcal A_{j,R}^{tube}(I_a)`, `ACT.X-Scale` at the restart time
+supplies an admissible radius `r(a)>0` with small affine seed. The label balls
+`B(a,r(a))` form an open cover of the compact tube, so choose a finite subcover
+with centers `a^{j,b}` and radii `r_b`.
+
+If `x\in B(c_j(t),R_{\mathfrak p}^{TC})`, then its label
+`a=\Phi_t^{-1}(x)` belongs to `\mathcal A_{j,R}^{tube}(I_a)`, hence
+`a\in B(a^{j,b},r_b)` for some `b`. The pack gauge gives
+
+```math
+|x-c_{j,b}(t)|
+=
+|\Phi(a,t)-\Phi(a^{j,b},t)|
+\le
+\Gamma_\sharp(t)r_b
+\le
+M_\sharp r_b.
+\tag{RWS.C2c}
+```
+
+Thus `(RWS.C2)` holds with `\kappa_\sharp=M_\sharp`. Since the subcover is
+finite, finite overlap and a finite chain constant are obtained after a standard
+finite refinement. Therefore
+
+```math
+RWS.C_{\mathrm{cover}}:
+\quad
+\text{compact retained label tube}
++
+\Gamma_\sharp\in L^\infty(I_a)
++
+ACT.X\text{-}Scale
+\Longrightarrow
+\text{dynamic same-fluid cover }(RWS.C2).
+\tag{RWS.C2d}
+```
+
+This is the repaired version of the flawed one-time physical cover argument:
+the cover is built in label space over the whole retained tube, not only on the
+single physical ball at the restart time.
+
 For every subcenter, assume `ACT.X-Scale` supplies a seed radius and
 `ACT.X-Boot` propagates the restarted excess packet:
 
@@ -441,7 +498,7 @@ RWS.C_{\mathrm{scale}}
 \tag{RWS.C14}
 ```
 
-The remaining geometric input is the dynamic same-fluid cover `(RWS.C2)`. The
-remaining analytic input is the small-ball pressure/viscous readout already
-tracked in `AXE.2` / `ACT.X-Press`; no `LCI.A`, `CSP.A`, `OFP.A`, `Field`, or
-endpoint matrix input is allowed.
+The geometric input `(RWS.C2)` is supplied by `RWS.C_cover` under the compact
+retained-label-tube hypothesis. The remaining analytic input is the small-ball
+pressure/viscous readout already tracked in `AXE.2` / `ACT.X-Press`; no
+`LCI.A`, `CSP.A`, `OFP.A`, `Field`, or endpoint matrix input is allowed.

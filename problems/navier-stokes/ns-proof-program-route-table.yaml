@@ -404,9 +404,11 @@ closure_ecology:
         data; neither can be smuggled into the smallness variable. ACT.X-Scale
         supplies the small restart seed from retained smooth center-ball
         regularity, and ACT.X-Boot propagates X_exc by the Seed+Sched+Absorb
-        theorem after the budget condition is met. RWS.C_scale is the finite
-        dynamic-cover bridge that transfers small-radius packets to the
-        fixed-radius readouts; it does not assert fixed-radius packet smallness.
+        theorem after the budget condition is met. RWS.C_cover supplies the
+        dynamic same-fluid cover from compact retained label tubes and the pack
+        gauge. RWS.C_scale is the finite-cover readout bridge that transfers
+        small-radius packets to the fixed-radius readouts; it does not assert
+        fixed-radius packet smallness.
       act_center_core_rule: >-
         The pre-pressure center-amplitude rule is now ACT.Actr_core:
         K_le_m^ctr in L1(I) implies A_core^ctr in Linfty(I). K_le_m^ctr consists

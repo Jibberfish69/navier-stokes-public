@@ -1231,7 +1231,9 @@ RWS.C_{\mathrm{scale}}:
 ```
 
 It replaces the invalid inference from small-radius excess to fixed-radius
-excess; it does not assert `\mathcal X_{fixed}<\eta_X`.
+excess; it does not assert `\mathcal X_{fixed}<\eta_X`. The dynamic cover input
+is supplied by `RWS.C_cover` from compact retained label tubes and the pack
+gauge.
 
 The named theorem target for this sufficient branch is:
 
