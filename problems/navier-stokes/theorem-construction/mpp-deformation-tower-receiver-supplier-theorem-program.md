@@ -2089,7 +2089,13 @@ viscous cutoff commutator estimate. These estimates are pre-receiver: they may
 not use `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
 
 ```math
-ACT.X\text{-}Boot+ACT.X\text{-}Readout
+ACT.X\text{-}Scale
++
+ACT.X\text{-}Boot
++
+RWS.C_{\mathrm{scale}}
++
+ACT.X\text{-}Readout
 \Longrightarrow
 ACT.A.
 \tag{ACT.Scale7}
@@ -2111,9 +2117,9 @@ ACT.X\text{-}Def
 +
 AXE.A
 +
-ACT.X\text{-Boot}
+ACT.X\text{-}Scale
 +
-ACT.X\text{-Scale}
+ACT.X\text{-}Boot
 +
 RWS.C_{\mathrm{scale}}
 +
@@ -2140,9 +2146,9 @@ ACT.X\text{-}Def
 +
 AXE.A
 +
-ACT.X\text{-Boot}
+ACT.X\text{-}Scale
 +
-ACT.X\text{-Scale}
+ACT.X\text{-}Boot
 +
 RWS.C_{\mathrm{scale}}
 +

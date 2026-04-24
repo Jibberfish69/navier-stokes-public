@@ -2459,9 +2459,9 @@ With this bridge, the local analytic route is:
 ```math
 AXE.A
 +
-ACT.X\text{-Scale}
+ACT.X\text{-}Scale
 +
-ACT.X\text{-Boot}
+ACT.X\text{-}Boot
 +
 RWS.C_{\mathrm{scale}}
 +
