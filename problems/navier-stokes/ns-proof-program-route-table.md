@@ -206,7 +206,7 @@ There is also a conditional scale-small branch:
 
 ```text
 ACT.ScaleSmall:
-dX_exc + cN <= L X_exc + C X_exc^(1/2) N + F
+dX_exc + cN <= L X_exc + (C_cut+C_press) X_exc^(1/2) N + F
 ```
 
 with `L,F in L1`. If the initial affine excess and additive source budget stay
@@ -220,18 +220,19 @@ The named atom split is:
 ```text
 ACT.X-Def:
   X_exc is the small affine excess.
-  Y_read = A_ctr + X_exc is the full readout packet.
-  A_ctr already contains the unit seed.
+  Y_read = A_core^ctr + A_buf^ctr + X_exc is the full readout packet.
+  A_core^ctr is the lower pre-pressure center ledger.
+  A_buf^ctr is the m+1,m+2 readout/top-viscous buffer ledger.
 
 ACT.X-Energy:
-  dX_exc + cN <= L X_exc + C X_exc^(1/2) N + F.
+  dX_exc + cN <= L X_exc + (C_cut+C_press) X_exc^(1/2) N + F.
 
 ACT.X-Boot:
   the epsilon-star first-exit argument absorbs only X_exc^(1/2)N.
 
 ACT.X-Readout:
-  spends Y_read, so A_ctr must satisfy dA_ctr <= L_A A_ctr + F_A
-  with L_A,F_A in L1, or be carried in L,F.
+  spends Y_read; A_core^ctr is supplied by ACT.Actr_core and A_buf^ctr is
+  recovered through readout/buffer control, not pre-pressure Gronwall data.
 
 Scheduler:
   restart only X_exc at budget endpoints using the current transported center frame.

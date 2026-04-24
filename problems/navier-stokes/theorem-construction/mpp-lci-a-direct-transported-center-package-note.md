@@ -2189,8 +2189,9 @@ ACT.X\text{-}Readout
 
 This is a propagation theorem for the `DTC.MA-Energy` subledger. It does not
 prove `ACT.X-Energy`, does not install `(FCI.5f)`, and does not discharge the
-endpoint matrix. For a full strip, `AXP.A` still needs a small-budget scheduler
-or a proof that `(AXP.1)` holds on the retained affine intervals.
+endpoint matrix. For a full strip, `AXP.A` needs `RWS.A` together with the
+separate restart/re-centering theorem `RWS.B`, or a direct proof that `(AXP.1)`
+holds on all retained affine intervals.
 
 Proof. Let
 
@@ -2244,6 +2245,8 @@ AXE.A
 +
 RWS.A
 +
+RWS.B
++
 ACT.X\text{-}Readout
 \Longrightarrow
 AXP.A
@@ -2252,7 +2255,7 @@ ACT.A.
 \tag{DTC.AFF-XChain}
 ```
 
-Equivalently, the ten-item completion ledger is:
+Equivalently, the eleven-item completion ledger is:
 
 ```text
 1. ACT.Actr_core: lower center-amplitude Gronwall rule.
@@ -2262,20 +2265,21 @@ Equivalently, the ten-item completion ledger is:
 5. ACT.X-Press: local Poisson response plus energy-controlled far-tail; pressure adds a C_press X_exc^(1/2) N term.
 6. ACT.X-Mid: triangular finite-depth middle block.
 7. ACT.X-TopVisc: buffer m+2 center modes are readout modes, not pre-pressure ACT.Actr_core data.
-8. RWS.A: retained-window small-budget scheduler absorbs (C_cut+C_press) X_exc^(1/2) N.
-9. ACT.X-Readout: X_exc + A_core^ctr + A_buf^ctr gives D_1^aff, F_ctr_res, H_osc^alpha.
-10. ACT.A -> RCF.A -> LCI.A, while FCI.5f and endpoint cleanup remain separate.
+8. RWS.A: retained-window small-budget scheduler absorbs (C_cut+C_press) X_exc^(1/2) N after small starts are supplied.
+9. RWS.B: restart/recenter the next affine packet so X_exc is below epsilon_star at the next retained-window start, or replace this branch with a non-small ACT.E2 bypass.
+10. ACT.X-Readout: X_exc + A_core^ctr + A_buf^ctr gives D_1^aff, F_ctr_res, H_osc^alpha.
+11. ACT.A -> RCF.A -> LCI.A, while FCI.5f and endpoint cleanup remain separate.
 ```
 
 This ledger is a proof plan, not a discharge. The sharp next proof targets are
-`ACT.Actr_core`, `AXE.2` / `ACT.X-Press`, and `RWS.A`; `ACT.X-Cut` is
+`ACT.Actr_core`, `AXE.2` / `ACT.X-Press`, and `RWS.B`; `ACT.X-Cut` is
 structurally favorable because the moving cutoff sees the affine defect.
 
-For a full interval `I`, this branch additionally needs a small-budget
-scheduler: either `(DTC.AFF-X10)` holds on all of `I`, or `I` is decomposed into
-subintervals on which the additive budget and transported affine excess remain
-below the absorption threshold. Finiteness of `F,L` alone is not the same as
-the smallness condition `(DTC.AFF-X10)`.
+For a full interval `I`, this branch additionally needs the small-budget
+scheduler plus restart theorem: either `(DTC.AFF-X10)` holds on all of `I`, or
+`I` is decomposed into subintervals on which `RWS.B` supplies small starts and
+the additive budget remains below the absorption threshold. Finiteness of `F,L`
+alone is not the same as the smallness condition `(DTC.AFF-X10)`.
 
 #### Theorem `RWS.A` (Retained-Window Small-Budget Scheduler)
 
@@ -2433,6 +2437,8 @@ With this bridge, the local analytic route is:
 AXE.A
 +
 RWS.A
++
+RWS.B
 +
 ACT.Actr_{\mathrm{core}}
 +

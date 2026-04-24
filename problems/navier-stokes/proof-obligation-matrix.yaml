@@ -973,8 +973,9 @@ obligations:
     A named affine-excess propagation theorem `AXP.A` now packages the
     conditional scale-small alternative `ACT.ScaleSmall`:
     if the scale-normalized affine excess obeys
-    `dX_exc+cN <= L X_exc + C X_exc^{1/2}N + F` with `L,F in L^1`, and the initial excess
-    plus additive source budget is below the absorption threshold, then the
+    `dX_exc+cN <= L X_exc + (C_cut+C_press) X_exc^{1/2}N + F` with
+    `L,F in L^1`, and the initial excess plus additive source budget is below
+    the absorption threshold, then the
     nonlinear residue is absorbed and `X_exc in L^\infty`, `N in L^1` follow on
     that affine interval. With `ACT.X-Readout`, `AXP.A` supplies exactly the
     `DTC.MA-Energy` subledger readouts `H^{osc,alpha} in L2`, `D_1^aff in L1`,
@@ -983,29 +984,32 @@ obligations:
     small as `R -> 0`, and a full-strip proof needs a small-budget scheduler,
     not merely finite `L,F`. The named atom split is `ACT.X-Def + ACT.X-Energy +
     ACT.X-Boot + ACT.X-Readout`: `ACT.X-Def` separates the small affine excess
-    `X_exc` from the readout packet `Y_read = A_ctr + X_exc`, where `A_ctr`
-    already contains the unit seed; `ACT.X-Energy` proves the absorbable
-    inequality for `X_exc`; `ACT.X-Boot` performs the epsilon-star first-exit
-    argument; and `ACT.X-Readout` spends `Y_read`, so `A_ctr` must satisfy
-    `dA_ctr <= L_A A_ctr + F_A` with `L_A,F_A in L^1`, or be carried in `L,F`.
+    `X_exc` from the readout packet `Y_read = A_core^ctr + A_buf^ctr + X_exc`;
+    `ACT.X-Energy` proves the absorbable inequality for `X_exc`; `ACT.X-Boot`
+    performs the epsilon-star first-exit argument; and `ACT.X-Readout` spends
+    `Y_read`, so `A_core^ctr` must be supplied by `ACT.Actr_core` while
+    `A_buf^ctr` remains readout/top-viscous buffer data.
     The scheduler restarts only `X_exc` at budget endpoints using the current
     transported center frame. `AXP.A` does not prove `ACT.X-Energy`, `(FCI.5f)`,
     or any endpoint entry.
-    The compact receiver plan is now `ACT.Actr + ACT.X-Def + AXE.A + RWS.A +
-    ACT.X-Readout => AXP.A => ACT.A => RCF.A => LCI.A`, where `AXE.A`
+    The compact receiver plan is now `ACT.Actr_core + ACT.X-Def + AXE.A +
+    RWS.A + ACT.X-Readout => AXP.A => ACT.A => RCF.A => LCI.A`, where `AXE.A`
     abbreviates `AXE.1+AXE.2+AXE.3+AXE.4 => ACT.X-Energy` and `RWS.A` is the
     retained-window small-budget scheduler whose active input is window-start
     smallness plus local `L,F` budgets. The remaining scheduler bridge is
     `RWS.B`: restart/recenter the next affine packet so
     `X_exc(t_{r+1})<eps_*` at the next retained-window start. This is a proof
-    plan, not a discharge; the next sharp targets are `ACT.Actr`, `AXE.2` /
-    `ACT.X-Press`, and `RWS.B`.
-    Sharpened obligations: `ACT.Actr` is reduced to
-    `K_{\le m}^{ctr} in L^1(I) + F_{top,A} in L^1(I) => A_ctr^p in
-    L^\infty(I)`, so the lower forcing ledger and top zero-mode source budget
-    are live; `ACT.X-Press` is reduced to the local fixed-ball pressure
-    response, because the finite pressure far-tail is energy-controlled in
-    `L^\infty(I)`. It spends no `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
+    plan, not a discharge; the next sharp targets are `ACT.Actr_core`,
+    `AXE.2` / `ACT.X-Press`, and `RWS.B`.
+    Sharpened obligations: `ACT.Actr_core` is reduced to
+    `K_{\le m}^{ctr} in L^1(I) => A_core^ctr in L^\infty(I)`. The top
+    `m+1,m+2` modes are `A_buf^ctr` readout/top-viscous buffer data, not
+    pre-pressure Gronwall data unless an optional stronger top-forcing route is
+    chosen. `ACT.X-Press` is reduced to the local fixed-ball pressure response
+    plus a `C_press X_exc^(1/2) N` scale-small term; the finite pressure
+    far-tail is energy-controlled in `L^\infty(I)`. `RWS.A` must absorb
+    `(C_cut+C_press)X_exc^(1/2)N`. It spends no `LCI.A`, `CSP.A`, `OFP.A`, or
+    `Field`.
     The endpoint block is now `END.Exh + END.TowerAmp + END.Cross`;
     `END.TowerBound` is formal from `END.TowerAmp`, `END.Cross` is formal once
     the cross-entry certificate reductions are accepted, and `END.Pack` /
