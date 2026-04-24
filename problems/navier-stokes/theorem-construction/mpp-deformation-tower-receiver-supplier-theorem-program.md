@@ -2115,6 +2115,8 @@ ACT.X\text{-Boot}
 +
 ACT.X\text{-Scale}
 +
+RWS.C_{\mathrm{scale}}
++
 ACT.X\text{-}Readout
 \Longrightarrow
 \mathfrak H^{osc,\alpha}\in L^2(I)
@@ -2142,6 +2144,8 @@ ACT.X\text{-Boot}
 +
 ACT.X\text{-Scale}
 +
+RWS.C_{\mathrm{scale}}
++
 ACT.X\text{-}Readout
 \Longrightarrow
 ACT.A
@@ -2153,7 +2157,8 @@ LCI.A.
 ```
 
 The sharp proof order is `ACT.Actr_core` first, then `AXE.2` / `ACT.X-Press`,
-plus the seed bridge `ACT.X-Scale`; `ACT.X-Cut` is the structurally favorable
+plus the seed bridge `ACT.X-Scale` and the readout-compatibility bridge
+`RWS.C_scale`; `ACT.X-Cut` is the structurally favorable
 companion estimate. Here `ACT.X-Press` is licensed by `ACT.Actr_core` and the
 local fixed-ball pressure response, while its remainder-remainder pressure term
 contributes `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N` to the same
@@ -2164,7 +2169,9 @@ is energy-controlled in `L^\infty(I)\subset L^1(I)`. It does not spend
 For a full interval, `ACT.X-Boot` needs `ACT.X-Scale` at every retained restart
 plus a small-budget scheduler: decompose the interval into affine budget
 subintervals, prove the first-exit bound on each, and restart only
-`\mathcal X^{exc}`.
+`\mathcal X^{exc}`. Because the seed radius may be smaller than the fixed
+transported-center readout radius, `RWS.C_scale` must recover the fixed-radius
+readouts from a finite dynamic cover by small restarted packets.
 
 Record the boot bridge as
 
@@ -2199,6 +2206,20 @@ ACT.X\text{-}Scale:
 
 This is the restart/re-centering theorem needed to feed the next retained
 window. Absolute continuity of the `L,F` integrals does not provide it.
+
+The companion readout-compatibility theorem is
+
+```math
+RWS.C_{\mathrm{scale}}:
+\quad
+\text{finite dynamic same-fluid cover by small restarted packets}
+\Longrightarrow
+\text{fixed-radius }ACT.X\text{-Readout}.
+\tag{ACT.Scale7e}
+```
+
+It avoids the false inference from small-radius excess to fixed-radius packet
+smallness.
 
 If `(ACT.E1)` or `(ACT.E2)` lands, Gronwall gives
 `\mathcal E_{ACT}\in L^\infty(I)`. Then local Morrey gives the oscillation

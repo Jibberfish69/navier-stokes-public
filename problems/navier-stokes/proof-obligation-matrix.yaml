@@ -983,23 +983,26 @@ obligations:
     be split into `A_core^ctr` and `A_buf^ctr` because the raw `q=0` center term
     is not small as `R -> 0`, and a full-strip proof needs a small-budget
     scheduler, not merely finite `L,F`. The named atom split is `ACT.X-Def + ACT.X-Energy +
-    ACT.X-Scale + ACT.X-Boot + ACT.X-Readout`: `ACT.X-Def` separates the small affine excess
+    ACT.X-Scale + ACT.X-Boot + RWS.C_scale + ACT.X-Readout`: `ACT.X-Def` separates the small affine excess
     `X_exc` from the readout packet `Y_read = A_core^ctr + A_buf^ctr + X_exc`;
     `ACT.X-Energy` proves the absorbable inequality for `X_exc`; `ACT.X-Boot`
-    performs the `eta_X` first-exit argument; and `ACT.X-Readout` spends
+    performs the `eta_X` first-exit argument; `RWS.C_scale` transfers the
+    small-radius cover to the fixed readout scale; and `ACT.X-Readout` spends
     `Y_read`, so `A_core^ctr` must be supplied by `ACT.Actr_core` while
     `A_buf^ctr` remains readout/top-viscous buffer data.
     The scheduler restarts only `X_exc` at budget endpoints using the current
     transported center frame. `AXP.A` does not prove `ACT.X-Energy`, `(FCI.5f)`,
     or any endpoint entry.
     The compact receiver plan is now `ACT.Actr_core + ACT.X-Def + AXE.A +
-    ACT.X-Scale + ACT.X-Boot + ACT.X-Readout => AXP.A => ACT.A => RCF.A =>
+    ACT.X-Scale + ACT.X-Boot + RWS.C_scale + ACT.X-Readout => AXP.A => ACT.A => RCF.A =>
     LCI.A`, where `AXE.A` abbreviates `AXE.1+AXE.2+AXE.3+AXE.4 =>
     ACT.X-Energy`, `ACT.X-Scale` supplies the scale-small restart seed from
     retained smooth center-ball regularity, and `ACT.X-Boot` is the
-    Seed+Sched+Absorb theorem. This
+    Seed+Sched+Absorb theorem. `RWS.C_scale` is the finite dynamic-cover bridge
+    that recovers fixed-radius readouts from small-radius restarted packets; it
+    does not assert fixed-radius packet smallness. This
     is a proof plan, not a discharge; the next sharp targets are `ACT.Actr_core`,
-    `AXE.2` / `ACT.X-Press`, and `ACT.X-Scale`.
+    `AXE.2` / `ACT.X-Press`, `ACT.X-Scale`, and `RWS.C_scale`.
     Sharpened obligations: `ACT.Actr_core` is reduced to
     `K_{\le m}^{ctr} in L^1(I) => A_core^ctr in L^\infty(I)`. The top
     `m+1,m+2` modes are `A_buf^ctr` readout/top-viscous buffer data, not

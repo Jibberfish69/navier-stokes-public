@@ -391,8 +391,9 @@ closure_ecology:
         the nonlinear excess term is absorbed and ACT.E1/E2 follows on that
         affine interval. X is excess-only; center zero modes must be split into
         A_core^ctr and A_buf^ctr rather than placed in the smallness variable,
-        and a full-strip proof needs ACT.X-Scale at each retained restart plus
-        ACT.X-Boot, not just a retained-window partition.
+        and a full-strip proof needs ACT.X-Scale at each retained restart,
+        ACT.X-Boot, and RWS.C_scale to recover fixed-radius readouts, not just a
+        retained-window partition.
       act_x_atom_split: >-
         ACT.X-Def separates the small affine excess X_exc from the full readout
         packet Y_read = A_core^ctr + A_buf^ctr + X_exc. ACT.X-Energy is the
@@ -403,7 +404,9 @@ closure_ecology:
         data; neither can be smuggled into the smallness variable. ACT.X-Scale
         supplies the small restart seed from retained smooth center-ball
         regularity, and ACT.X-Boot propagates X_exc by the Seed+Sched+Absorb
-        theorem after the budget condition is met.
+        theorem after the budget condition is met. RWS.C_scale is the finite
+        dynamic-cover bridge that transfers small-radius packets to the
+        fixed-radius readouts; it does not assert fixed-radius packet smallness.
       act_center_core_rule: >-
         The pre-pressure center-amplitude rule is now ACT.Actr_core:
         K_le_m^ctr in L1(I) implies A_core^ctr in Linfty(I). K_le_m^ctr consists
@@ -421,10 +424,11 @@ closure_ecology:
         LCI.A, CSP.A, OFP.A, or Field.
       act_compact_chain: >-
         ACT.Actr_core + ACT.X-Def + ACT.X-Energy + ACT.X-Cut + ACT.X-Press +
-        ACT.X-Mid + ACT.X-TopVisc + ACT.X-Scale + ACT.X-Boot + ACT.X-Readout =>
+        ACT.X-Mid + ACT.X-TopVisc + ACT.X-Scale + ACT.X-Boot + RWS.C_scale +
+        ACT.X-Readout =>
         ACT.A => RCF.A => LCI.A. This is the receiver-side proof plan, not a discharge;
-        the next proof targets are ACT.Actr_core, ACT.X-Press, and ACT.X-Scale
-        as the seed input consumed by ACT.X-Boot.
+        the next proof targets are ACT.Actr_core, ACT.X-Press, ACT.X-Scale,
+        and RWS.C_scale.
       audit_correction: >-
         DTR.A is only a supplier theorem. Bare TW_ctr supplies residual
         pressure/top-viscous forcing; the strong closure needs TW_ctr^aff,

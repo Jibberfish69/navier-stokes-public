@@ -114,7 +114,7 @@ ACT.X\text{-}Boot\text{ on the retained cover.}
 
 It does not prove the small starts.
 
-## Obstruction `RWS.C`
+## Obstruction `ACT.X-Seed`
 
 The hard compactness point is not the absolute-continuity partition of `L` and
 `F`. The hard point is the restart smallness condition `(RWS.5)`.

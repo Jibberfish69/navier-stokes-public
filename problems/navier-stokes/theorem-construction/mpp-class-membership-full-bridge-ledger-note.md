@@ -1173,7 +1173,10 @@ otherwise the scale-small excess bound does not recover the raw center modes.
 
 For a full interval, `ACT.X-Boot` also needs `ACT.X-Scale` at every retained
 restart plus the small-budget scheduler. The restarted variable is only
-`\mathcal X^{exc}`; the center ledger continues through `(ACT.X7a)`.
+`\mathcal X^{exc}`; the center ledger continues through `(ACT.X7a)`. Because the
+seed radius may be smaller than the fixed transported-center readout radius, the
+route also needs `RWS.C_scale` to recover fixed-radius readouts from the finite
+small-radius packet cover.
 
 Record that boot theorem as:
 
@@ -1216,6 +1219,20 @@ ACT.X\text{-}Scale:
 `ACT.X-Scale` supplies the next window-start smallness; absolute continuity of
 the `L,F` integrals supplies only the local budget part.
 
+The scale/readout compatibility bridge is:
+
+```math
+RWS.C_{\mathrm{scale}}:
+\quad
+\text{finite dynamic same-fluid cover by small restarted packets}
+\Longrightarrow
+\text{fixed-radius }ACT.X\text{-Readout}.
+\tag{ACT.X9c}
+```
+
+It replaces the invalid inference from small-radius excess to fixed-radius
+excess; it does not assert `\mathcal X_{fixed}<\eta_X`.
+
 The named theorem target for this sufficient branch is:
 
 ```math
@@ -1230,6 +1247,8 @@ AXE.A
 ACT.X\text{-}Boot
 +
 ACT.X\text{-}Scale
++
+RWS.C_{\mathrm{scale}}
 +
 ACT.X\text{-}Readout
 \Longrightarrow
@@ -1268,6 +1287,8 @@ ACT.X\text{-}TopVisc
 +
 ACT.X\text{-}Boot
 +
+RWS.C_{\mathrm{scale}}
++
 ACT.X\text{-}Readout
 \Longrightarrow
 ACT.A
@@ -1279,7 +1300,7 @@ LCI.A.
 ```
 
 The next theorem-facing proof targets are `ACT.Actr_core`, `AXE.2` /
-`ACT.X-Press`, and `ACT.X-Scale`.
+`ACT.X-Press`, `ACT.X-Scale`, and `RWS.C_scale`.
 In the sharpened ledger, `ACT.X-Press` requires exactly
 the local fixed-ball pressure response plus the scale-small pressure excess
 term `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`; the finite pressure
