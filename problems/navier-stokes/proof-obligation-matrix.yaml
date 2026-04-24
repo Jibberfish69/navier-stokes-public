@@ -1012,16 +1012,17 @@ obligations:
     far-tail is energy-controlled in `L^\infty(I)`. `RWS.A` must absorb
     `(C_cut+C_press)X_exc^(1/2)N`. It spends no `LCI.A`, `CSP.A`, `OFP.A`, or
     `Field`.
-    The endpoint block is now `END.Exh + END.TowerAmp + END.Cross`;
-    `END.TowerBound` is formal from `END.TowerAmp`, `END.Cross` is formal once
-    the cross-entry certificate reductions are accepted, and `END.Pack` /
-    `END.Field` are formal once the native pack gauge and `OFP.A` field scale
-    are installed. The proposed `DTC.LINEAR` affine-frame route remains
+    The endpoint block is now reduced to `END.TowerAmp` plus the certificate
+    maps behind `END.Exh` and `END.Cross`; `END.TowerBound` is formal from
+    `END.TowerAmp`, `END.Cross` is formal once the cross-entry certificate
+    reductions are accepted, and `END.Pack` / `END.Field` are formal once the
+    native pack gauge and `OFP.A` field scale are installed. The proposed
+    `DTC.LINEAR` affine-frame route remains
     conditional unless its displayed coefficients are supplied by direct
     pre-`DTC.A` estimates, since those coefficients include `AFD.A`, `EOC.A`,
     and `RCF.A`-level ledgers. `END.COMPLETE` is formal endpoint assembly from
-    `END.Exh + END.TowerAmp + END.Cross`, not a proof of semantic
-    exhaustiveness or tower amplitude.
+    `END.TowerAmp` plus the accepted `END.Exh` / `END.Cross` certificate maps,
+    not a proof of tower amplitude.
 summary:
   total_obligations: 73
   grounded_count: 2

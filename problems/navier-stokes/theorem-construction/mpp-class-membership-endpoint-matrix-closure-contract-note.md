@@ -6,9 +6,11 @@ Theorem-facing closure contract.
 
 Role: record the exact endpoint-exclusion block still needed after `CFI.A`.
 
-This note does **not** prove the endpoint matrix. It states the formal endpoint
-lemmas whose proofs would close the class-exit contradiction once
-class-membership forward invariance is installed.
+This note does **not** prove the endpoint matrix analytically. It separates the
+definition-level endpoint cells from the remaining analytic input. In the
+current witness vocabulary, `END.Exh`, `END.Cross`, and `END.TowerBound` are
+formal once the displayed certificate maps are accepted; the live endpoint-side
+analytic input is `END.TowerAmp`, supplied by `DTC-to-TowerBound`.
 
 ## Installed Entry
 
@@ -19,7 +21,9 @@ The installed endpoint exclusion is:
 \tag{END.0}
 ```
 
-All other entries below remain open.
+The non-formal remaining endpoint input is the tower-amplitude supplier
+`END.TowerAmp`; the native pack and field exclusions are spent downstream from
+pack preservation and `OFP.A`.
 
 ## Endpoint Matrix Block
 
@@ -76,8 +80,10 @@ Jump.
 \tag{END.3b}
 ```
 
-This is the endpoint exhaustiveness theorem. It is required before the final
-matrix contradiction is licensed.
+This is the endpoint exhaustiveness theorem. It is a definition-level theorem
+for the repo witness system once the certificate maps
+`\neg Part=>Dead`, `\neg Pack=>packing-detached\vee tower-blown`, and
+`\neg Field=>Jump` are accepted.
 
 ### Theorem Target `END.Pack`
 
@@ -181,6 +187,76 @@ END.TowerAmp
 Thus `END.TowerBound` is closed formally; the actual analytic input is
 `END.TowerAmp`.
 
+#### Bridge `DTC-to-TowerBound`
+
+The tower-amplitude input is supplied by a finite transported-center cover plus
+the pressure/viscous `K_k` readout.
+
+Assume that for every `t\in I`,
+
+```math
+Q_t\subset \bigcup_{i=1}^{J_Q}B(c_i(t),R_i/2),
+\tag{END.6d}
+```
+
+with `J_Q<\infty`, and that each cover ball is included in a transported-center
+instance `\mathfrak p_i=(n_i,\mu_i,\Delta_i)` with `\mu_i\ge N+2`. If
+
+```math
+DTC.A_{\mathfrak p_i}
+\qquad(1\le i\le J_Q)
+\tag{END.6e}
+```
+
+holds and the local pressure/viscous response supplies
+
+```math
+\sup_{t\in I}
+\sup_{1\le i\le J_Q}
+\sum_{k=0}^{N}
+\|K_k(\cdot,t)\|_{L^\infty(B(c_i(t),R_i/2))}
+<\infty,
+\tag{END.6f}
+```
+
+then
+
+```math
+END.TowerAmp:
+\qquad
+\mathfrak A_{N,Q}\in L^\infty(I).
+\tag{END.6g}
+```
+
+Indeed, `DTC.A_{\mathfrak p_i}` gives the local `H^2` transported-center packet
+for all `U_k`, `0\le k\le N`, on the larger ball. Fixed-radius local Sobolev
+gives
+
+```math
+\sup_{t\in I}
+\|U_k(\cdot,t)\|_{L^\infty(B(c_i(t),R_i/2))}
+<\infty
+\qquad(0\le k\le N).
+\tag{END.6h}
+```
+
+Together with `(END.6f)` and the finite cover `(END.6d)`, this yields
+`\mathfrak A_{N,Q}\in L^\infty(I)`. Thus the endpoint tower face reduces to:
+
+```math
+DTC\text{-}to\text{-}TowerBound:
+\quad
+\bigwedge_i DTC.A_{\mathfrak p_i}
++
+\text{local }K_k\text{ pressure/viscous readout}
+\Longrightarrow
+END.TowerAmp.
+\tag{END.6i}
+```
+
+This bridge does not add a new receiver loop: its analytic content is exactly
+the same local pressure/viscous readout already tracked in the `DTC` package.
+
 ### Theorem Target `END.Cross`
 
 ```math
@@ -257,10 +333,11 @@ and the one-field input `OFP.A` needed by `END.Field`. Then
 
 holds.
 
-This theorem is formal assembly. Its open semantic content is `END.Exh` and
-`END.Cross`; its non-endpoint input is `END.TowerAmp`, plus the already-tracked
-pack-gauge and one-field inputs. The implication `END.TowerAmp => END.Tower`
-is the closed definition-level cell `END.TowerBound`.
+This theorem is formal assembly. Its definition-level content is `END.Exh` and
+`END.Cross`; its non-endpoint analytic input is `END.TowerAmp`, plus the
+already-tracked pack-gauge and one-field inputs. The implication
+`END.TowerAmp => END.Tower` is the closed definition-level cell
+`END.TowerBound`.
 
 Assume a first finite-time class exit at `T_\ast`. If `CFI.A` is installed, then
 on every same-fluid still-live approach window before `T_\ast`,
@@ -302,8 +379,10 @@ The endpoint block is now reduced to:
 
 ```math
 \boxed{
-END.Exh,\qquad END.TowerAmp,\qquad END.Cross.
+END.TowerAmp
 }
+\quad
+\text{plus the certificate maps behind }END.Exh\text{ and }END.Cross.
 \tag{END.10}
 ```
 

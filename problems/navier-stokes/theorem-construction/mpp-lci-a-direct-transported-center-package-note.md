@@ -2061,8 +2061,9 @@ ACT.X\text{-}Energy.
 Thus `AXE.A` is the current theorem-facing wall beneath `AXP.A`. It is not a
 new readout theorem: it proves the affine-excess differential inequality only.
 
-The cutoff atom is the only atom allowed to keep the nonlinear excess factor.
-It comes from
+The only atoms allowed to keep a nonlinear scale-small excess factor are the
+moving cutoff atom and the local pressure remainder-remainder atom. The cutoff
+contribution comes from
 
 ```math
 D_ty
@@ -2078,33 +2079,134 @@ u(x,t)-u(c_j,t)-A_j(x-c_j)
 \tag{DTC.AFF-XCut0}
 ```
 
-`ACT.X-Boot` is the first-exit argument. If
+The pressure atom contributes the matching term
+`C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`, so the bootstrap constant is
 
 ```math
-\eta:=\left(\frac{c_\nu}{2C}\right)^2
+C_X:=C_{cut}+C_{press}.
 \tag{DTC.AFF-XBoot0}
 ```
 
-and
+The correct seed input is not retained smoothness itself, but the scale-small
+seed theorem proved from retained smoothness:
 
 ```math
-\left(
-\mathcal X^{exc}(t_0)+\int_I F(s)\,ds
-\right)
-\exp\left(\int_I L(s)\,ds\right)
-<
-\eta,
+ACT.X\text{-}Scale:
+\quad
+\forall s_a\in I,\ \forall \eta_X>0,\ \exists R_a>0
+\quad\text{such that}\quad
+\mathcal X^{exc}(s_a;R_a)\le\eta_X,
+\tag{DTC.AFF-XScale0}
+```
+
+with admissibility
+
+```math
+B(c_j(s_a),2R_a)\subset Q_{s_a}^{rec,+}
+\qquad(1\le j\le J).
+\tag{DTC.AFF-XScale1}
+```
+
+Retained smooth center-ball regularity is the proof source for
+`ACT.X-Scale`: for each fixed retained time, center, finite rung, and
+derivative in the packet, the affine remainder is locally continuous after the
+center and affine part are subtracted, so
+`\mathcal X^{exc}(s_a;R)\to0` as `R\downarrow0`; finite centers and rungs allow
+one common admissible `R_a`.
+
+`ACT.X-Boot` consumes only the resulting scale seed. Set
+
+```math
+\eta_X:=\left(\frac{c_\nu}{4C_X}\right)^2,
+\qquad
+\text{barrier}=4\eta_X.
 \tag{DTC.AFF-XBoot1}
 ```
 
-then
+The boot theorem is the three-part theorem
 
 ```math
+ACT.X\text{-}Seed
++
+ACT.X\text{-}Sched
++
+ACT.X\text{-}Absorb
+\Longrightarrow
 \mathcal X^{exc}\in L^\infty(I),
 \qquad
 \mathcal N\in L^1(I).
 \tag{DTC.AFF-XBoot2}
 ```
+
+`ACT.X-Seed` is exactly
+
+```math
+\mathcal X^{exc}(s_a;R_a)\le\eta_X
+\tag{DTC.AFF-XSeed}
+```
+
+at every retained restart, supplied by `ACT.X-Scale`. The center modes are not
+in `\mathcal X^{exc}`; they remain in the core/buffer center ledger.
+
+`ACT.X-Sched` chooses a finite retained partition
+
+```math
+I=\bigcup_a I_a,
+\qquad
+I_a=[s_a,s_{a+1}],
+\tag{DTC.AFF-XSched0}
+```
+
+such that
+
+```math
+\left(
+\eta_X+\int_{I_a}F(t)\,dt
+\right)
+\exp\left(\int_{I_a}L(t)\,dt\right)
+\le
+2\eta_X
+\tag{DTC.AFF-XSched1}
+```
+
+on every `I_a`. This partition uses only the `L^1` budgets after the small
+starts are supplied.
+
+`ACT.X-Absorb` fixes one retained interval and lets `T_\ast` be the first time
+with
+
+```math
+\mathcal X^{exc}(T_\ast)=4\eta_X.
+\tag{DTC.AFF-XAbs0}
+```
+
+Before `T_\ast`,
+
+```math
+C_X(\mathcal X^{exc})^{1/2}
+\le
+C_X(4\eta_X)^{1/2}
+=
+\frac{c_\nu}{2},
+\tag{DTC.AFF-XAbs1}
+```
+
+so
+
+```math
+\frac{d}{dt}\mathcal X^{exc}
++
+\frac{c_\nu}{2}\mathcal N
+\le
+L(t)\mathcal X^{exc}+F(t).
+\tag{DTC.AFF-XAbs2}
+```
+
+Gronwall plus `(DTC.AFF-XSched1)` gives
+`\mathcal X^{exc}(t)\le2\eta_X`, contradicting the first exit at `4\eta_X`.
+Hence `\sup_{I_a}\mathcal X^{exc}\le2\eta_X`, and integrating
+`(DTC.AFF-XAbs2)` gives `\mathcal N\in L^1(I_a)`. Summing over the finite
+retained partition gives `(DTC.AFF-XBoot2)`.
 
 `ACT.X-Readout` then uses the full readout packet `\mathcal Y^{read}`: local
 Morrey gives `\mathfrak H^{osc,\alpha}\in L^2(I)`, the affine first-rung
@@ -2173,6 +2275,8 @@ ACT.X\text{-}Def
 +
 ACT.X\text{-}Energy
 +
+ACT.X\text{-}Scale
++
 ACT.X\text{-}Boot
 +
 ACT.X\text{-}Readout
@@ -2189,9 +2293,9 @@ ACT.X\text{-}Readout
 
 This is a propagation theorem for the `DTC.MA-Energy` subledger. It does not
 prove `ACT.X-Energy`, does not install `(FCI.5f)`, and does not discharge the
-endpoint matrix. For a full strip, `AXP.A` needs `RWS.A` together with the
-separate restart/re-centering theorem `RWS.B`, or a direct proof that `(AXP.1)`
-holds on all retained affine intervals.
+endpoint matrix. For a full strip, `AXP.A` needs `ACT.X-Scale` at each retained
+restart together with the scheduler budget condition, or a direct proof that
+`(AXP.1)` holds on all retained affine intervals.
 
 Proof. Let
 
@@ -2200,17 +2304,17 @@ T_\ast
 :=
 \inf\left\{
 t\in[t_0,t_1]:
-\mathcal X^{exc}(t)=2\varepsilon_\ast
+\mathcal X^{exc}(t)=4\eta_X
 \right\}.
 \tag{AXP.4}
 ```
 
-On `[t_0,T_\ast)`, `(DTC.AFF-X9)` gives
+On `[t_0,T_\ast)`, `(DTC.AFF-XAbs1)` gives
 
 ```math
-C_\ast(\mathcal X^{exc})^{1/2}\mathcal N
+C_X(\mathcal X^{exc})^{1/2}\mathcal N
 \le
-\frac{c_\nu}{4}\mathcal N.
+\frac{c_\nu}{2}\mathcal N.
 \tag{AXP.5}
 ```
 
@@ -2227,7 +2331,7 @@ F(t).
 \tag{AXP.6}
 ```
 
-Gronwall and `(AXP.1)` imply `\mathcal X^{exc}(t)<2\varepsilon_\ast` before
+Gronwall and `(AXP.1)` imply `\mathcal X^{exc}(t)\le2\eta_X` before
 the putative exit, so `T_\ast` cannot occur. Integrating `(AXP.6)` then gives
 `\mathcal N\in L^1([t_0,t_1])`. The readouts in `(AXP.3)` are exactly the
 `ACT.X-Readout` hypotheses applied to the bounded full readout packet
@@ -2243,9 +2347,9 @@ ACT.X\text{-}Def
 +
 AXE.A
 +
-RWS.A
+ACT.X\text{-}Scale
 +
-RWS.B
+ACT.X\text{-}Boot
 +
 ACT.X\text{-}Readout
 \Longrightarrow
@@ -2265,187 +2369,90 @@ Equivalently, the eleven-item completion ledger is:
 5. ACT.X-Press: local Poisson response plus energy-controlled far-tail; pressure adds a C_press X_exc^(1/2) N term.
 6. ACT.X-Mid: triangular finite-depth middle block.
 7. ACT.X-TopVisc: buffer m+2 center modes are readout modes, not pre-pressure ACT.Actr_core data.
-8. RWS.A: retained-window small-budget scheduler absorbs (C_cut+C_press) X_exc^(1/2) N after small starts are supplied.
-9. RWS.B: restart/recenter the next affine packet so X_exc is below epsilon_star at the next retained-window start, or replace this branch with a non-small ACT.E2 bypass.
+8. ACT.X-Scale: retained smooth center-ball regularity supplies a radius R_a with X_exc(s_a;R_a) <= eta_X at each restart.
+9. ACT.X-Boot: ACT.X-Seed + ACT.X-Sched + ACT.X-Absorb propagates X_exc and N after ACT.X-Scale supplies small starts.
 10. ACT.X-Readout: X_exc + A_core^ctr + A_buf^ctr gives D_1^aff, F_ctr_res, H_osc^alpha.
 11. ACT.A -> RCF.A -> LCI.A, while FCI.5f and endpoint cleanup remain separate.
 ```
 
 This ledger is a proof plan, not a discharge. The sharp next proof targets are
-`ACT.Actr_core`, `AXE.2` / `ACT.X-Press`, and `RWS.B`; `ACT.X-Cut` is
+`ACT.Actr_core`, `AXE.2` / `ACT.X-Press`, and `ACT.X-Scale`; `ACT.X-Cut` is
 structurally favorable because the moving cutoff sees the affine defect.
 
-For a full interval `I`, this branch additionally needs the small-budget
-scheduler plus restart theorem: either `(DTC.AFF-X10)` holds on all of `I`, or
-`I` is decomposed into subintervals on which `RWS.B` supplies small starts and
-the additive budget remains below the absorption threshold. Finiteness of `F,L`
-alone is not the same as the smallness condition `(DTC.AFF-X10)`.
+For a full interval `I`, this branch additionally needs `ACT.X-Scale` at every
+retained restart plus the scheduler budget condition. Finiteness of `F,L` alone
+is not the same as `ACT.X-Seed`.
 
-#### Theorem `RWS.A` (Retained-Window Small-Budget Scheduler)
+#### Theorem `ACT.X-Boot` (Seed + Scheduler + Absorption)
 
-Let
+The retained-window scheduler naming is now decomposed into three atoms:
 
 ```math
-I=\bigcup_{r=0}^{M-1}I_r,
+ACT.X\text{-}Seed
++
+ACT.X\text{-}Sched
++
+ACT.X\text{-}Absorb
+\Longrightarrow
+\mathcal X^{exc}\in L^\infty(I),
 \qquad
-I_r=[t_r,t_{r+1}]
+\mathcal N\in L^1(I).
 \tag{DTC.AFF-XSched0}
 ```
 
-be a finite retained-window cover. Assume that on each `I_r` the affine-excess
-inequality holds:
+`ACT.X-Seed` is supplied by `ACT.X-Scale`:
 
 ```math
-\frac{d}{dt}\mathcal X^{exc}(t)
-+
-c_\nu\mathcal N(t)
-\le
-L(t)\mathcal X^{exc}(t)
-+
-C_\ast(\mathcal X^{exc}(t))^{1/2}\mathcal N(t)
-+
-F(t),
-\qquad
-L,F\in L^1(I_r).
-\tag{RWS.1}
+\mathcal X^{exc}(s_a;R_a)\le\eta_X
+\qquad\text{at every retained restart }s_a.
+\tag{DTC.AFF-XSeed2}
 ```
 
-Choose `\varepsilon_\ast>0` so that
-
-```math
-C_\ast(2\varepsilon_\ast)^{1/2}
-\le
-\frac{c_\nu}{2}.
-\tag{RWS.2}
-```
-
-Assume the retained-window budget condition
+`ACT.X-Sched` chooses the retained intervals so
 
 ```math
 \left(
-\mathcal X^{exc}(t_r)
-+
-\|F\|_{L^1(I_r)}
+\eta_X+\int_{I_a}F(t)\,dt
 \right)
-\exp\left(
-\|L\|_{L^1(I_r)}
-\right)
-<
-2\varepsilon_\ast
-\tag{RWS.3}
+\exp\left(\int_{I_a}L(t)\,dt\right)
+\le
+2\eta_X.
+\tag{DTC.AFF-XSched2}
 ```
 
-for every `r=0,\ldots,M-1`. Then
+`ACT.X-Absorb` is the first-exit proof with barrier `4\eta_X`. On the interval
+before first exit,
+
+```math
+C_X(\mathcal X^{exc})^{1/2}\mathcal N
+\le
+\frac{c_\nu}{2}\mathcal N,
+\tag{DTC.AFF-XAbs3}
+```
+
+so Gronwall gives `\mathcal X^{exc}\le2\eta_X`, contradicting an exit at
+`4\eta_X`. Integrating the absorbed inequality gives `\mathcal N\in L^1` on
+each retained interval, and the finite sum over intervals gives
 
 ```math
 \mathcal X^{exc}\in L^\infty(I),
 \qquad
 \mathcal N\in L^1(I).
-\tag{RWS.A}
+\tag{ACT.XBoot}
 ```
 
-Proof. Fix `I_r=[t_r,t_{r+1}]` and define
-
-```math
-\tau_r
-:=
-\inf\{t\in I_r:\mathcal X^{exc}(t)=2\varepsilon_\ast\}.
-\tag{RWS.4}
-```
-
-On `[t_r,\tau_r)`, `(RWS.2)` gives
-
-```math
-C_\ast(\mathcal X^{exc}(t))^{1/2}\mathcal N(t)
-\le
-\frac{c_\nu}{2}\mathcal N(t).
-\tag{RWS.5}
-```
-
-Thus `(RWS.1)` gives
-
-```math
-\frac{d}{dt}\mathcal X^{exc}(t)
-+
-\frac{c_\nu}{2}\mathcal N(t)
-\le
-L(t)\mathcal X^{exc}(t)+F(t).
-\tag{RWS.6}
-```
-
-Gronwall yields
-
-```math
-\mathcal X^{exc}(t)
-\le
-\left(
-\mathcal X^{exc}(t_r)+\int_{t_r}^{t}F(s)\,ds
-\right)
-\exp\left(\int_{t_r}^{t}L(s)\,ds\right).
-\tag{RWS.7}
-```
-
-By `(RWS.3)`, the right side is strictly below `2\varepsilon_\ast` on
-`[t_r,\tau_r)`, so the exit time cannot occur. Hence
-`\sup_{I_r}\mathcal X^{exc}<2\varepsilon_\ast`. Integrating `(RWS.6)` over
-`I_r` gives `\int_{I_r}\mathcal N(t)\,dt<\infty`. Since the retained cover is
-finite, `(RWS.A)` follows.
-
-`RWS.A` is not implied by `L,F\in L^1(I)` alone. Its active input is `(RWS.3)`:
-smallness of `\mathcal X^{exc}(t_r)` at each retained-window start and the
-local `L^1` budgets for `L` and `F`. At each budget endpoint `t_{r+1}`, the
-restarted small variable is only `\mathcal X^{exc}` in the current transported
-center frame. The center modes remain in `\mathcal A_{\mathfrak p}^{ctr}` and
-travel through the center rule.
-
-The bridge form is:
-
-```math
-RWS.A:
-\quad
-(RWS.1)+(RWS.2)+(RWS.3)
-\Longrightarrow
-ACT.X\text{-}Boot\text{ on }I.
-\tag{DTC.AFF-XSched2}
-```
-
-The scheduler obstruction is isolated in
-[mpp-lci-a-retained-window-small-budget-scheduler-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-retained-window-small-budget-scheduler-audit-note.md):
-finite partitioning of `L,F` is easy after small starts, but the actual missing
-theorem is the restart/re-centering input `RWS.B`, unless the route
-bypasses the scale-small branch through a non-small `ACT.E2` closure.
-
-The theorem-facing reset target is:
-
-```math
-RWS.B:
-\quad
-\text{previous-window bounded affine packet}
-+
-\text{admissible transported-center recentering}
-\Longrightarrow
-\mathcal X^{exc}(t_{r+1})<\varepsilon_\ast
-\text{ for the next retained window.}
-\tag{DTC.AFF-XSched4}
-```
-
-This is the part not supplied by absolute continuity of the `L,F` integrals.
-The Taylor restart argument supplies only the shrinkable-radius version
-`RWS.B_shrink`: after resetting the affine frame at `t_{r+1}`, one can choose a
-smaller affine ball so the scale-normalized excess is below
-`\varepsilon_\ast`. This is not yet the fixed-scale `RWS.B` needed here unless
-a scale-recovery theorem returns from the restarted radius to the required DTC
-radius, or the downstream DTC/EOC/AFD/RCF readouts are explicitly licensed at
-the restarted radius.
+The scheduler obstruction is therefore not `RWS.B`; it is the seed theorem
+`ACT.X-Scale`. Retained smooth center-ball regularity is the proof source for
+`ACT.X-Scale`, and `ACT.X-Boot` consumes only the resulting seed inequality.
 
 With this bridge, the local analytic route is:
 
 ```math
 AXE.A
 +
-RWS.A
+ACT.X\text{-Scale}
 +
-RWS.B
+ACT.X\text{-Boot}
 +
 ACT.Actr_{\mathrm{core}}
 +
