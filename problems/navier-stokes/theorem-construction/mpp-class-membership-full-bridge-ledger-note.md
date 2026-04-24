@@ -1161,7 +1161,13 @@ local Poisson response, far-tail energy, and the included `m+2` rungs, but not
 `LCI.A`, `CSP.A`, `OFP.A`, `Field`, `EOC.A`, `AFD.A`, or `RCF.A`.
 
 ```math
-ACT.X\text{-}Boot+ACT.X\text{-}Readout
+ACT.X\text{-}Scale
++
+ACT.X\text{-}Boot
++
+RWS.C_{\mathrm{scale}}
++
+ACT.X\text{-}Readout
 \Longrightarrow
 ACT.A.
 \tag{ACT.X9}
@@ -1286,6 +1292,8 @@ ACT.X\text{-}Press
 ACT.X\text{-}Mid
 +
 ACT.X\text{-}TopVisc
++
+ACT.X\text{-}Scale
 +
 ACT.X\text{-}Boot
 +

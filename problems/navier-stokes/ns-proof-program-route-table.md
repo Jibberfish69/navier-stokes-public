@@ -275,6 +275,7 @@ ACT.Actr_core
 + ACT.X-TopVisc
 + ACT.X-Scale
 + ACT.X-Boot
++ RWS.C_scale
 + ACT.X-Readout
 => ACT.A
 => RCF.A
@@ -282,8 +283,7 @@ ACT.Actr_core
 ```
 
 This is the proof plan, not a discharge. The next proof targets are
-`ACT.Actr_core`, `ACT.X-Press`, and `ACT.X-Scale` as the seed input consumed
-by `ACT.X-Boot`.
+`ACT.Actr_core`, `ACT.X-Press`, `ACT.X-Scale`, and `RWS.C_scale`.
 
 ## Exploratory Or Parked Branches
 
