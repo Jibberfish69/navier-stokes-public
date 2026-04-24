@@ -155,3 +155,10 @@ So the active exact-potential direct branch no longer terminates at an internal
 operator-class normalization theorem. It now terminates at one explicit
 two-import external packet, with the existing `(EP.8c)` gate supplying the
 installed `SG.4B` handoff.
+
+This note only closes the repaired direct `V2` leg inside the installed
+`V1`-`V3` descendant structure. It sits strictly beneath the simple-top
+exact-potential entry `D.7mr2` and does not replace the live upstream `PSJ+`
+burdens `PTC-Lin + PTC-Shape => D.7mq` and selector-strain sufficiency on the
+active strip. The resulting `SG.4B` remains the downstream export/handoff side
+once the post-`RPC.3` continuation package fires.

@@ -102,4 +102,10 @@ available.
 ## Boundary
 
 This note is downstream assembly only. It introduces no new synchronization or
-selector-strain debt.
+selector-strain debt. On the simple-top exact-potential route, the live
+upstream burdens remain the synchronization closure
+`PTC-Lin + PTC-Shape => D.7mq` and selector-strain sufficiency on the active
+strip. Once `RPC.3` is in hand, the chain
+`SG.4 -> BR.lambda2 -> continuation` is the downstream export/handoff recorded
+in
+[sg4-and-br-lambda2-handoff.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/sg4-and-br-lambda2-handoff.md).

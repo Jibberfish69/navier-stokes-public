@@ -27,7 +27,7 @@ RPC.3,
 ## Exact Inputs
 
 1. the exact-potential angular ledger from
-   [exact-potential-angular-ledger-from-selector-strain.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/exact-potential-angular-ledger-from-selector-strain.md);
+   [exact-potential-angular-ledger-discharge.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/exact-potential-angular-ledger-discharge.md);
 2. the residual pairwise closure formulas `(PD.70q)` and `(PD.70s)`;
 3. the integrated observation packet `\mathcal E_J^{obs}`.
 
@@ -78,19 +78,22 @@ on the same strip. Then `RPC.3` holds.
 
 ### Proof
 
-Corollary `EPA.B` in
-[exact-potential-angular-ledger-from-selector-strain.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/exact-potential-angular-ledger-from-selector-strain.md)
-turns those hypotheses into `D.7mr2`. Theorem `EPR.A` then gives `RPC.3`. ∎
+Corollary `D.7mr2` in
+[exact-potential-angular-ledger-discharge.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/exact-potential-angular-ledger-discharge.md)
+turns those hypotheses into the weighted angular ledger `D.7mr2`. Theorem
+`EPR.A` then gives `RPC.3`. ∎
 
 ## Interpretation
 
 This note carries no new projector mathematics. The hard theorem debt is
-strictly upstream. This note is the point where the exact-potential directional
-ledger becomes the SG.4-facing supplier packet.
+strictly upstream: close `PTC-Lin + PTC-Shape => D.7mq` and close the
+selector-strain sufficiency packet on the active strip. This note is the point
+where the exact-potential directional ledger becomes the downstream
+SG.4-facing supplier packet.
 
 ## Downstream Use
 
-The next step is the lower-envelope and continuation handoff:
+The next step is the downstream lower-envelope and continuation handoff:
 
 ```math
 EPR.A
@@ -104,11 +107,14 @@ BR.\lambda2
 \text{continuation}.
 ```
 
-That is written next in
-[lower-envelope-sg4-continuation-exact-potential.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/lower-envelope-sg4-continuation-exact-potential.md).
+That downstream export is written explicitly in
+[sg4-and-br-lambda2-handoff.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/sg4-and-br-lambda2-handoff.md).
+The older
+[lower-envelope-sg4-continuation-exact-potential.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/lower-envelope-sg4-continuation-exact-potential.md)
+surface is only a compact legacy alias of the same post-`RPC.3` packaging.
 
-On the installed exact-potential simple-top route, the same downstream handoff
-may therefore be read as
+On the installed exact-potential simple-top route, the same post-`RPC.3`
+package may therefore be read as downstream export:
 
 ```math
 D.7mq + (D.7mp + D.7mo + D.7mm)
@@ -121,3 +127,6 @@ BR.\lambda2
 \Longrightarrow
 \text{continuation}.
 ```
+
+It does not move the live theorem wall below the upstream `D.7mq` and
+selector-strain packets.

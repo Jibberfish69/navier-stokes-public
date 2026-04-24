@@ -11,7 +11,8 @@ proposition plus honest supplier lemmas.
 ## Purpose
 
 Write the next theorem-facing cut for `PSJ+` in a form that is both compact and
-faithful to the on-disk algebra:
+faithful to the on-disk algebra, while keeping the post-`RPC.3` handoff
+visibly downstream:
 
 ```math
 \texttt{InitCollapse + MixCollapse + DriftCollapse}
@@ -24,7 +25,7 @@ faithful to the on-disk algebra:
 \Longrightarrow
 \texttt{RPC.3}
 \Longrightarrow
-\texttt{SG.4B}.
+\texttt{downstream SG.4B export}.
 \tag{SDC.0}
 ```
 
@@ -212,7 +213,7 @@ Once `RefObs` is available from the audited projector-first note
 \tag{SDC.12}
 ```
 
-hence `D.7mr2`, then `RPC.3`, then the current live handoff
+hence `D.7mr2`, then `RPC.3`, then the downstream handoff
 
 ```math
 \texttt{D.7mr2}
@@ -226,6 +227,12 @@ hence `D.7mr2`, then `RPC.3`, then the current live handoff
 \texttt{BR.lambda2}.
 \tag{SDC.13}
 ```
+
+From `RPC.3` onward this note is only reading off the downstream export. The
+live simple-top burdens remain upstream at `PSJ+`: close
+`PTC-Lin + PTC-Shape => D.7mq` and force the selector-strain supplier on the
+active strip. The more explicit post-`RPC.3` handoff is recorded in
+[sg4-and-br-lambda2-handoff.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/sg4-and-br-lambda2-handoff.md).
 
 ## Supplier 1: Initial Alignment
 

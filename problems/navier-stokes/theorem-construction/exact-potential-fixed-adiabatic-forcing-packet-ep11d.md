@@ -116,3 +116,10 @@ repaired direct route recorded in
 [exact-potential-v2-repaired-direct-closure-from-ll-and-wz-imports.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/exact-potential-v2-repaired-direct-closure-from-ll-and-wz-imports.md),
 which closes `V2` under the explicit two-import packet `LL + WZ`, yields
 `PD.70z`, and under `(EP.8c)` gives the installed `SG.4B` handoff.
+
+This stronger adiabatic `V1+V2` package remains a descendant sufficient route
+beneath the same simple-top entry `D.7mr2`. It does not replace the live
+upstream burdens `PTC-Lin + PTC-Shape => D.7mq` and selector-strain
+sufficiency on the active strip, and from `RPC.3` onward the chain
+`SG.4 -> BR.lambda2 -> continuation` is downstream export rather than the live
+theorem wall.

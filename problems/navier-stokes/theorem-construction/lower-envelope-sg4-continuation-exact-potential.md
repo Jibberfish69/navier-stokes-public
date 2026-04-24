@@ -95,4 +95,8 @@ plus local strong-solution entry supply the continuation step. ∎
 
 This note is pure downstream assembly. It records the exact continuation route
 after the selector-strain wall and residual pairwise closure are already
-discharged.
+discharged. The live upstream burdens remain the synchronization closure
+`PTC-Lin + PTC-Shape => D.7mq` and selector-strain sufficiency on the active
+strip. For the full branch-facing downstream wording, treat this note as a
+compact alias of
+[sg4-and-br-lambda2-handoff.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/sg4-and-br-lambda2-handoff.md).
