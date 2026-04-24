@@ -998,8 +998,10 @@ obligations:
     retained-window small-budget scheduler whose active input is window-start
     smallness plus local `L,F` budgets. The remaining scheduler bridge is
     `RWS.B`: restart/recenter the next affine packet so
-    `X_exc(t_{r+1})<eps_*` at the next retained-window start. This is a proof
-    plan, not a discharge; the next sharp targets are `ACT.Actr_core`,
+    `X_exc(t_{r+1})<eps_*` at the next retained-window start. The Taylor
+    restart proof supplies only `RWS.B_shrink`; fixed-scale `RWS.B` still needs
+    scale recovery or downstream readouts licensed at the restarted radius. This
+    is a proof plan, not a discharge; the next sharp targets are `ACT.Actr_core`,
     `AXE.2` / `ACT.X-Press`, and `RWS.B`.
     Sharpened obligations: `ACT.Actr_core` is reduced to
     `K_{\le m}^{ctr} in L^1(I) => A_core^ctr in L^\infty(I)`. The top
