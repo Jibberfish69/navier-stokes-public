@@ -391,8 +391,8 @@ closure_ecology:
         the nonlinear excess term is absorbed and ACT.E1/E2 follows on that
         affine interval. X is excess-only; center zero modes must be split into
         A_core^ctr and A_buf^ctr rather than placed in the smallness variable,
-        and a full-strip proof needs RWS.A plus the separate RWS.B
-        restart/re-centering theorem, not just a retained-window partition.
+        and a full-strip proof needs ACT.X-Scale at each retained restart plus
+        ACT.X-Boot, not just a retained-window partition.
       act_x_atom_split: >-
         ACT.X-Def separates the small affine excess X_exc from the full readout
         packet Y_read = A_core^ctr + A_buf^ctr + X_exc. ACT.X-Energy is the
@@ -400,10 +400,10 @@ closure_ecology:
         ACT.X-Boot is the epsilon-star first-exit argument for X_exc with that
         combined threshold. ACT.X-Readout spends Y_read, so A_core^ctr must be
         controlled by ACT.Actr_core and A_buf^ctr is readout/top-viscous buffer
-        data; neither can be smuggled into the smallness variable. RWS.A
-        propagates a small X_exc on each retained window after the budget
-        condition is met; the still-live RWS.B theorem must restart/recenter the
-        next affine packet so X_exc is small at the next window start.
+        data; neither can be smuggled into the smallness variable. ACT.X-Scale
+        supplies the small restart seed from retained smooth center-ball
+        regularity, and ACT.X-Boot propagates X_exc by the Seed+Sched+Absorb
+        theorem after the budget condition is met.
       act_center_core_rule: >-
         The pre-pressure center-amplitude rule is now ACT.Actr_core:
         K_le_m^ctr in L1(I) implies A_core^ctr in Linfty(I). K_le_m^ctr consists
@@ -423,11 +423,8 @@ closure_ecology:
         ACT.Actr_core + ACT.X-Def + ACT.X-Energy + ACT.X-Cut + ACT.X-Press +
         ACT.X-Mid + ACT.X-TopVisc + ACT.X-Boot + ACT.X-Readout => ACT.A =>
         RCF.A => LCI.A. This is the receiver-side proof plan, not a discharge;
-        the next proof targets are ACT.Actr_core, ACT.X-Press, and RWS.B
-        restart/re-centering smallness. The Taylor restart argument supplies
-        only RWS.B_shrink unless scale recovery or restarted-radius downstream
-        readouts are installed; otherwise the route must switch to the non-small
-        ACT.E2 bypass.
+        the next proof targets are ACT.Actr_core, ACT.X-Press, and ACT.X-Scale
+        as the seed input consumed by ACT.X-Boot.
       audit_correction: >-
         DTR.A is only a supplier theorem. Bare TW_ctr supplies residual
         pressure/top-viscous forcing; the strong closure needs TW_ctr^aff,

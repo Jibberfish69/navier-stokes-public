@@ -281,8 +281,8 @@ ACT.Actr_core
 ```
 
 This is the proof plan, not a discharge. The next proof targets are
-`ACT.Actr_core`, `ACT.X-Press`, and the `RWS.A` threshold with
-`C_cut+C_press`.
+`ACT.Actr_core`, `ACT.X-Press`, and `ACT.X-Scale` as the seed input consumed
+by `ACT.X-Boot`.
 
 ## Exploratory Or Parked Branches
 

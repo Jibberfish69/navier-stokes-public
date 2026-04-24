@@ -7,7 +7,8 @@ Theorem-facing scheduler audit.
 Role: isolate the exact compactness burden inside the scale-small affine-excess
 route beneath `DTC.M-Affine`.
 
-This note audits the bridge named `RWS.A` in
+This note audits the bridge now decomposed as `ACT.X-Boot` plus its seed input
+`ACT.X-Scale` in
 [mpp-lci-a-direct-transported-center-package-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-direct-transported-center-package-note.md).
 
 ## Local Bootstrap Input
@@ -21,7 +22,7 @@ c_\nu\mathcal N
 \le
 L(t)\mathcal X^{exc}
 +
-C_\ast(\mathcal X^{exc})^{1/2}\mathcal N
+C_X(\mathcal X^{exc})^{1/2}\mathcal N
 +
 F(t),
 \qquad
@@ -29,14 +30,14 @@ L,F\in L^1(I).
 \tag{RWS.0}
 ```
 
-Here `C_\ast=C_{cut}+C_{press}` after the core/buffer correction: the moving
+Here `C_X=C_{cut}+C_{press}` after the core/buffer correction: the moving
 cutoff and local pressure remainder both contribute scale-small
 `\mathcal X^{exc\,1/2}\mathcal N` terms.
 
 The first-exit bootstrap closes on a subinterval `J=[s,t]` if
 
 ```math
-\mathcal X^{exc}(s)\le\eta_\ast
+\mathcal X^{exc}(s)\le\eta_X
 \tag{RWS.1}
 ```
 
@@ -48,7 +49,7 @@ and
 \right)
 \exp\left(\int_J L(\tau)\,d\tau\right)
 \le
-2\eta_\ast.
+2\eta_X.
 \tag{RWS.2}
 ```
 
@@ -61,7 +62,7 @@ Then
 \tag{RWS.3}
 ```
 
-This is `ACT.X-Boot`, not the scheduler itself.
+This is the local `ACT.X-Absorb` piece, not the seed theorem itself.
 
 ## Easy Partition Lemma `RWS.Part`
 
@@ -77,7 +78,7 @@ I_a=[s_a,s_{a+1}],
 has already been chosen, and assume the small-start condition
 
 ```math
-\mathcal X_a^{exc}(s_a)\le\eta_\ast
+\mathcal X_a^{exc}(s_a)\le\eta_X
 \qquad
 \text{for every retained restart }s_a.
 \tag{RWS.5}
@@ -93,7 +94,7 @@ one may arrange
 \right)
 \exp\left(\int_{I_a}L_a(t)\,dt\right)
 \le
-2\eta_\ast
+2\eta_X
 \tag{RWS.6}
 ```
 
@@ -121,202 +122,97 @@ The hard compactness point is not the absolute-continuity partition of `L` and
 On a completed bootstrap interval, `ACT.X-Boot` gives only
 
 ```math
-\mathcal X_a^{exc}(s_{a+1})\le2\eta_\ast.
+\mathcal X_a^{exc}(s_{a+1})\le2\eta_X.
 \tag{RWS.8}
 ```
 
 It does not give the next required input
 
 ```math
-\mathcal X_{a+1}^{exc}(s_{a+1})\le\eta_\ast.
+\mathcal X_{a+1}^{exc}(s_{a+1})\le\eta_X.
 \tag{RWS.9}
 ```
 
 Restarting the affine frame at `s_{a+1}` removes the center affine motion from
-the coordinate system, but it does not automatically erase the finite-radius
-nonlinear affine excess on the required transported-center ball. Therefore
-`L,F\in L^1(I)` plus frame restart is not enough to prove `RWS.A`.
+the coordinate system, but it does not by itself provide the small seed. The
+live input is `ACT.X-Scale`: choose an admissible radius at the retained smooth
+center ball so the affine excess is below `\eta_X`.
 
-## Required Reset Theorem `RWS.B`
+## Required Seed Theorem `ACT.X-Scale`
 
-The missing theorem beneath the scheduler is:
+The missing input beneath the scheduler is not a fixed-scale reset theorem. The
+bootstrap consumes only a scale-small affine-excess seed:
 
 ```math
-RWS.B:
-\quad
-\text{at each retained endpoint }s_a,\text{ construct the restarted/recentered affine packet}
+ACT.X\text{-}Scale:
+\qquad
+\forall s_a\in I,\ \forall \eta_X>0,\ \exists R_a>0
+\quad\text{such that}\quad
+\mathcal X^{exc}(s_a;R_a)\le\eta_X.
 \tag{RWS.10}
 ```
 
-on the same required same-fluid labels and with the same required transported
-center-ball scale, such that
+with admissibility
 
 ```math
-\mathcal X_a^{exc}(s_a)<\varepsilon_\ast,
+B(c_j(s_a),2R_a)\subset Q_{s_a}^{rec,+}
+\qquad(1\le j\le J).
 \tag{RWS.11}
 ```
 
-using only the transported center, the restarted affine frame, and finite local
-packet size already obtained on the previous retained window, plus pre-output
-data allowed by the `DTC.A` license.
+`ACT.X-Boot` consumes `(RWS.10)` as `ACT.X-Seed`; retained smooth center-ball
+regularity is the proof source for `(RWS.10)`.
 
-In particular, `RWS.B` may not use
+## Proof Source
+
+At a retained restart time `s_a`, reset the affine frame by
 
 ```math
-LCI.A,\quad CSP.A,\quad OFP.A,\quad Field,\quad \mathsf{End}_{NS}.
+G_j(s_a)=I,
+\qquad
+\dot G_j=A_jG_j,
+\qquad
+A_j(s_a)=U_1(c_j(s_a),s_a).
 \tag{RWS.12}
 ```
 
-Equivalently,
+The affine remainder is
 
 ```math
-RWS.B:
-\quad
-\mathcal X_a^{exc}\in L^\infty(I_{a-1})
-+\mathcal N_a\in L^1(I_{a-1})
-+\text{admissible transported-center recentering}
-\Longrightarrow
-\mathcal X_{a+1}^{exc}(s_a)<\varepsilon_\ast.
-\tag{RWS.12a}
-```
-
-This is the exact restart/re-centering theorem; it is not a consequence of the
-absolute continuity of `L` and `F`.
-
-## Candidate Supplier Modes
-
-There are three possible ways to discharge `RWS.B`.
-
-1. Fixed-radius reset:
-
-```math
-\text{prove fixed-radius affine excess is small at every retained restart.}
+R_{q,j}(y,s_a)
+=
+\mathcal C_{G_j(s_a)}^{-1}
+\left(
+U_q(c_j(s_a)+G_j(s_a)y,s_a)-U_q(c_j(s_a),s_a)
+\right).
 \tag{RWS.13}
 ```
 
-This is the strongest and cleanest supplier, but no such theorem is currently
-installed.
-
-2. Shrinkable-radius reset:
+On a retained smooth center ball, each finite-depth `U_q` has the local
+continuity required by the affine-excess packet after subtracting the center
+value, and for `q=1` after subtracting the affine part. Therefore
 
 ```math
-\text{shrink the affine ball at each restart until the excess is small, then
-recover the fixed DTC radius by a separate scale-recovery theorem.}
+\mathcal X^{exc}(s_a;R)\to0
+\qquad(R\downarrow0).
 \tag{RWS.14}
 ```
 
-This is dangerous because the recovery step may spend exactly the regularity
-that `DTC.A` is trying to prove.
-
-### Lemma `RWS.B_shrink`
-
-The Taylor restart argument gives the following honest shrinkable-radius
-supplier.
-
-At a retained restart time `s_a`, assume the tower fields are smooth on a
-neighborhood of the transported center and reset the affine frame by
-
-```math
-G_a(s_a)=I,
-\qquad
-\dot G_a=A_aG_a,
-\qquad
-A_a(s_a)=U_1(c_a(s_a),s_a).
-\tag{RWS.14a}
-```
-
-For every `\varepsilon_\ast>0`, there exists a radius
-`0<R_a\le R_{\mathrm{req}}` such that the restarted affine-excess packet on the
-ball `B_{R_a}` satisfies
-
-```math
-\mathcal X_{a,R_a}^{exc}(s_a)<\varepsilon_\ast.
-\tag{RWS.14b}
-```
-
-Indeed, in reset coordinates `x=c_a(s_a)+y`,
-
-```math
-U_q(c_a+y,s_a)-U_q(c_a,s_a)=O(|y|)
-\qquad(q\ne1),
-\tag{RWS.14c}
-```
-
-and
-
-```math
-U_1(c_a+y,s_a)-U_1(c_a,s_a)=O(|y|).
-\tag{RWS.14d}
-```
-
-With the scale-normalized affine-excess weights, the `|\beta|\le2` pieces obey
-
-```math
-R_a^{2|\beta|-1}
-\int_{B_{R_a}}
-|\nabla^\beta R_{q,a}(y,s_a)|^2\,dy
-\longrightarrow 0
-\qquad(R_a\downarrow0),
-\tag{RWS.14e}
-```
-
-for every fixed center, rung, and derivative. Since there are finitely many of
-them, choose `R_a` so `(RWS.14b)` holds.
-
-This proves only the shrinkable-radius supplier:
-
-```math
-\boxed{RWS.B_{\mathrm{shrink}}.}
-\tag{RWS.14f}
-```
-
-It does not prove the fixed-scale theorem `(RWS.10)`--`(RWS.12a)` unless the
-route also installs one of the following additional bridges:
-
-```math
-\text{scale recovery from }R_a\text{ back to }R_{\mathrm{req}},
-\tag{RWS.14g}
-```
-
-or
-
-```math
-\text{permission to run all downstream DTC/EOC/AFD/RCF readouts at the restarted
-radius }R_a.
-\tag{RWS.14h}
-```
-
-Without such a bridge, shrinkable-radius smallness cannot be substituted for the
-required fixed transported-center ball scale.
-
-3. Non-small affine route:
-
-```math
-\text{bypass }RWS.A\text{ by proving the finite-stage }ACT.E2\text{ route without
-scale-small restart hypotheses.}
-\tag{RWS.15}
-```
-
-This avoids the scheduler compactness problem, but it moves the burden back to
-the direct non-small affine estimates.
+Since the centers, rungs, and derivatives are finite, choose one admissible
+radius `R_a` so that `(RWS.10)` holds for every center and required rung.
 
 ## Audit Consequence
 
-The scale-small route currently proves a local bootstrap theorem, not a global
-full-strip `DTC.M-Affine` theorem. The exact remaining compactness obstruction
-is:
+The scale-small route now has the exact live input:
 
 ```math
-\boxed{RWS.Reset}
-\equiv
-\boxed{RWS.B}
-\quad
-\text{or}
-\quad
-\boxed{\text{non-small }ACT.E2\text{ closure}}.
-\tag{RWS.16}
+\boxed{ACT.X\text{-}Scale}
+\Longrightarrow
+ACT.X\text{-}Seed
+\Longrightarrow
+ACT.X\text{-}Boot.
+\tag{RWS.15}
 ```
 
-Thus `RWS.A` should not be treated as discharged merely because `L,F\in L^1`.
 The finite-window partition is easy after small starts; the small starts are
-the actual theorem.
+the actual theorem. `L,F\in L^1` alone never supplies `ACT.X-Seed`.

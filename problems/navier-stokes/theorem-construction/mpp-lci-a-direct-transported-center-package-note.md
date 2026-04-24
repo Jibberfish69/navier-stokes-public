@@ -1627,46 +1627,37 @@ where the local pressure response is fixed-ball affine Poisson response and the
 harmonic tail is supplied by far-field energy. No `CSP.A`, `LCI.A`, `OFP.A`, or
 `Field` input is allowed in `(DTC.AFF-X5)`--`(DTC.AFF-X8)`.
 
-Choose `\varepsilon_\ast>0` so that
+Set
 
 ```math
-C_\ast(2\varepsilon_\ast)^{1/2}
-\le
-\frac{c_\nu}{4}.
+\eta_X:=\left(\frac{c_\nu}{4(C_{cut}+C_{press})}\right)^2.
 \tag{DTC.AFF-X9}
-```
-
-where
-
-```math
-C_\ast:=C_{cut}+C_{press}.
-\tag{DTC.AFF-X9a}
 ```
 
 If on the interval under consideration
 
 ```math
 \left(
-\mathcal X(t_0)+\int_{t_0}^{t_1}F(s)\,ds
+\eta_X+\int_{t_0}^{t_1}F(s)\,ds
 \right)
 \exp\left(
 \int_{t_0}^{t_1}L(s)\,ds
 \right)
-<
-2\varepsilon_\ast,
+\le
+2\eta_X,
 \tag{DTC.AFF-X10}
 ```
 
-and `\mathcal X(t_0)\le\varepsilon_\ast`, then the first-exit argument gives
+and `\mathcal X(t_0)\le\eta_X`, then the first-exit argument gives
 
 ```math
-\sup_{t\in[t_0,t_1]}\mathcal X(t)\le2\varepsilon_\ast,
+\sup_{t\in[t_0,t_1]}\mathcal X(t)\le2\eta_X,
 \qquad
 \int_{t_0}^{t_1}\mathcal N(t)\,dt<\infty.
 \tag{DTC.AFF-X11}
 ```
 
-Indeed, before the first time when `\mathcal X=2\varepsilon_\ast`,
+Indeed, before the first time when `\mathcal X=4\eta_X`,
 `(C_{cut}+C_{press})\mathcal X^{1/2}\mathcal N` is absorbed into the left side of
 `(DTC.AFF-X4)`, and Gronwall plus `(DTC.AFF-X10)` prevents the exit.
 
@@ -1675,7 +1666,7 @@ Therefore:
 ```math
 ACT.ScaleSmall:
 \quad
-(DTC.AFF-X4)+(DTC.AFF-X9)+(DTC.AFF-X10)
+(DTC.AFF-X4)+(DTC.AFF-X9)+(DTC.AFF-X10)+ACT.X\text{-}Scale
 \Longrightarrow
 \mathcal X^{exc}\in L^\infty
 \quad\text{and}\quad
@@ -1748,7 +1739,7 @@ c_\nu\mathcal N
 \le
 L(t)\mathcal X^{exc}
 +
-C_\ast(\mathcal X^{exc})^{1/2}\mathcal N
+C_X(\mathcal X^{exc})^{1/2}\mathcal N
 +
 F(t),
 \qquad
