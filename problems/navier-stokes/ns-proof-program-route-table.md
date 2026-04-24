@@ -244,25 +244,28 @@ proved directly from the affine-center equations or explicitly paid for inside
 Sharper form:
 
 ```text
-ACT.Actr:
-  K_le_m^ctr in L1(I) + F_top,A in L1(I) => A_ctr^p in Linfty(I).
+ACT.Actr_core:
+  K_le_m^ctr in L1(I) => A_core^ctr in Linfty(I).
 
 K_le_m^ctr:
   K_0(c_j) + E_j^(1) + Ktilde_{q,j}, 2 <= q <= m.
 
-F_top,A:
-  carries Ktilde_{m+1,j} and Ktilde_{m+2,j} in L_t^2 ell_j^2 form,
-  unless A_top^ctr is placed directly in the source budget.
+A_buf^ctr:
+  contains the m+1 and m+2 readout/top-viscous buffer modes.
+  It is recovered through Y_read after ACT.X-Boot. A pre-boot proof would
+  require optional top forcing sum_{q=m+1}^{m+2}|Ktilde_q|^2 in L1(I), which
+  risks rung creep.
 
 ACT.X-Press:
-  ACT.Actr + local fixed-ball pressure response.
+  ACT.Actr_core + local fixed-ball pressure response.
   Finite pressure far-tail is energy-controlled in Linfty(I).
+  The remainder-remainder pressure term contributes C_press X_exc^(1/2) N.
 ```
 
 Compact receiver chain:
 
 ```text
-ACT.Actr
+ACT.Actr_core
 + ACT.X-Def
 + ACT.X-Energy
 + ACT.X-Cut
@@ -277,7 +280,8 @@ ACT.Actr
 ```
 
 This is the proof plan, not a discharge. The next proof targets are
-`ACT.Actr` and `ACT.X-Press`.
+`ACT.Actr_core`, `ACT.X-Press`, and the `RWS.A` threshold with
+`C_cut+C_press`.
 
 ## Exploratory Or Parked Branches
 

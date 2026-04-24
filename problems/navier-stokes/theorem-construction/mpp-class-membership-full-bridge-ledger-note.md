@@ -1087,19 +1087,18 @@ L_A,F_A\in L^1(I).
 \tag{ACT.X7a}
 ```
 
-Thus `\mathcal A_{\mathfrak p}^{ctr}` is controlled by its own Gronwall rule
-or carried in `L,F`; it is not absorbed by scale smallness.
+Thus the center ledger is controlled by its own Gronwall rule or carried in
+`L,F`; it is not absorbed by scale smallness. The noncircular pre-pressure
+piece is the lower core ledger, not the top buffer modes.
 
 The sharpened form is:
 
 ```math
-ACT.Actr:
+ACT.Actr_{\mathrm{core}}:
 \quad
 \mathcal K_{\le m}^{ctr}\in L^1(I)
-+
-F_{top,A}\in L^1(I)
 \Longrightarrow
-\mathcal A_{\mathfrak p}^{ctr}\in L^\infty(I),
+\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I),
 \tag{ACT.X7b}
 ```
 
@@ -1112,20 +1111,16 @@ where
 +
 \sum_j |\mathcal E_j^{(1)}|
 +
-\sum_{q=2}^{m}\sum_j|\widetilde K_{q,j}|,
-\qquad
-F_{top,A}
-\sim
-\sum_j
-\left(
-|\widetilde K_{m+1,j}|^2
-+
-|\widetilde K_{m+2,j}|^2
-\right).
+\sum_{q=2}^{m}\sum_j|\widetilde K_{q,j}|.
 \tag{ACT.X7c}
 ```
 
-This is now the immediate live obligation behind `ACT.Actr`.
+The top buffer modes `m+1,m+2` are readout/top-viscous modes inside
+`\mathcal Y^{read}=\mathcal A_{\mathrm{core}}^{ctr}
++\mathcal A_{\mathrm{buf}}^{ctr}+\mathcal X^{exc}`. Proving them before
+`ACT.X-Boot` would require the optional stronger input
+`\sum_{q=m+1}^{m+2}\sum_j|\widetilde K_{q,j}|^2\in L^1(I)` and risks rung
+creep. This is now the immediate live obligation behind `ACT.Actr_core`.
 
 ```math
 ACT.X\text{-}Energy:
@@ -1136,15 +1131,16 @@ c_\nu\mathcal N
 \le
 L\mathcal X^{exc}
 +
-C(\mathcal X^{exc})^{1/2}\mathcal N
+C_\ast(\mathcal X^{exc})^{1/2}\mathcal N
 +
 F.
 \tag{ACT.X8}
 ```
 
 This is supplied by `ACT.X-Mid`, `ACT.X-Cut`, `ACT.X-Press`, and
-`ACT.X-TopVisc`. The cutoff atom is the only one allowed to retain the
-absorbable `(\mathcal X^{exc})^{1/2}\mathcal N` residue.
+`ACT.X-TopVisc`. The cutoff and pressure atoms are allowed to retain the
+absorbable residues `C_{cut}(\mathcal X^{exc})^{1/2}\mathcal N` and
+`C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`; the scheduler absorbs their sum.
 
 The assembly theorem for the affine-excess differential inequality is:
 
@@ -1190,8 +1186,8 @@ RWS.A:
 I=\bigcup_{r=0}^{M-1}I_r,\quad
 d\mathcal X^{exc}/dt+c_\nu\mathcal N
 \le
-L\mathcal X^{exc}+C(\mathcal X^{exc})^{1/2}\mathcal N+F,\\
-C(2\varepsilon_\ast)^{1/2}\le c_\nu/2,\quad
+L\mathcal X^{exc}+C_\ast(\mathcal X^{exc})^{1/2}\mathcal N+F,\\
+(C_{cut}+C_{press})(2\varepsilon_\ast)^{1/2}\le c_\nu/2,\quad
 \bigl(\mathcal X^{exc}(t_r)+\|F\|_{L^1(I_r)}\bigr)
 e^{\|L\|_{L^1(I_r)}}<2\varepsilon_\ast
 \ \text{for all }r
@@ -1230,7 +1226,7 @@ The named theorem target for this sufficient branch is:
 ```math
 AXP.A:
 \quad
-ACT.Actr
+ACT.Actr_{\mathrm{core}}
 +
 ACT.X\text{-}Def
 +
@@ -1259,7 +1255,7 @@ bootstrap and on the separate center-amplitude ledger. It does not prove
 The compact completion chain is:
 
 ```math
-ACT.Actr
+ACT.Actr_{\mathrm{core}}
 +
 ACT.X\text{-}Def
 +
@@ -1285,12 +1281,13 @@ LCI.A.
 \tag{ACT.X10}
 ```
 
-The next theorem-facing proof targets are `ACT.Actr`, `AXE.2` / `ACT.X-Press`,
-and `RWS.A`.
+The next theorem-facing proof targets are `ACT.Actr_core`, `AXE.2` /
+`ACT.X-Press`, and `RWS.A`.
 In the sharpened ledger, `ACT.X-Press` requires exactly
-the local fixed-ball pressure response; the finite pressure far-tail ledger is
-energy-controlled in `L^\infty(I)\subset L^1(I)`. It may not spend `LCI.A`,
-`CSP.A`, `OFP.A`, or `Field`.
+the local fixed-ball pressure response plus the scale-small pressure excess
+term `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`; the finite pressure
+far-tail ledger is energy-controlled in `L^\infty(I)\subset L^1(I)`. It may not
+spend `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
 
 ### Finite-Stage `ACT.E2` Route
 

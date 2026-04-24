@@ -2032,27 +2032,29 @@ L_A,F_A\in L^1(I).
 ```
 
 The center ledger has its own Gronwall rule. It is not part of the smallness
-variable.
+variable. The noncircular pre-pressure piece is the lower core ledger; the top
+two modes are readout/top-viscous buffer modes.
 
 The sharpened center-amplitude target is:
 
 ```math
-ACT.Actr:
+ACT.Actr_{\mathrm{core}}:
 \quad
 \mathcal K_{\le m}^{ctr}\in L^1(I)
-+
-F_{top,A}\in L^1(I)
 \Longrightarrow
-\mathcal A_{\mathfrak p}^{ctr}\in L^\infty(I),
+\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I),
 \tag{ACT.Scale5b}
 ```
 
 where `\mathcal K_{\le m}^{ctr}` collects the zero-rung forcing `K_0(c_j)`,
 the first-rung affine-frame acceleration `\mathcal E_j^{(1)}`, and the
 transformed lower-rung forcings `\widetilde K_{q,j}` for `2\le q\le m`.
-The top modes require `F_{top,A}\in L^1(I)`, equivalently
-`\widetilde K_{m+1},\widetilde K_{m+2}\in L_t^2\ell_j^2`, unless
-`\mathcal A_{top}^{ctr}` is placed directly inside the source budget.
+The top modes belong to
+`\mathcal Y^{read}=\mathcal A_{\mathrm{core}}^{ctr}
++\mathcal A_{\mathrm{buf}}^{ctr}+\mathcal X^{exc}`. Proving them before
+`ACT.X-Boot` would require the optional stronger input
+`\sum_{q=m+1}^{m+2}\sum_j|\widetilde K_{q,j}|^2\in L^1(I)` and risks rung
+creep.
 
 ```math
 ACT.X\text{-}Energy:
@@ -2063,7 +2065,7 @@ c_\nu\mathcal N
 \le
 L\mathcal X^{exc}
 +
-C(\mathcal X^{exc})^{1/2}\mathcal N
+C_\ast(\mathcal X^{exc})^{1/2}\mathcal N
 +
 F;
 \tag{ACT.Scale6}
@@ -2094,15 +2096,16 @@ ACT.A.
 ```
 
 The readout step spends the full packet `\mathcal Y^{read}`, so the center
-amplitude ledger `\mathcal A_{\mathfrak p}^{ctr}` must be controlled directly
-by `(ACT.Scale5a)` or carried in `L,F`.
+amplitude core ledger must be controlled directly by `ACT.Actr_core`; the
+buffer modes are recovered through the readout packet rather than used as
+pre-pressure coefficients.
 
 The theorem-facing name for this propagation step is:
 
 ```math
 AXP.A:
 \quad
-ACT.Actr
+ACT.Actr_{\mathrm{core}}
 +
 ACT.X\text{-}Def
 +
@@ -2127,7 +2130,7 @@ endpoint matrix.
 The compact receiver chain is:
 
 ```math
-ACT.Actr
+ACT.Actr_{\mathrm{core}}
 +
 ACT.X\text{-}Def
 +
@@ -2145,13 +2148,14 @@ LCI.A.
 \tag{ACT.Scale7b}
 ```
 
-The sharp proof order is `ACT.Actr` first, then `AXE.2` / `ACT.X-Press`, plus
-the scheduler bridge `RWS.A`; `ACT.X-Cut` is the structurally favorable
-companion estimate.
-Here `ACT.X-Press` is licensed by `ACT.Actr` and the local fixed-ball pressure
-response. The finite pressure far-tail ledger is energy-controlled in
-`L^\infty(I)\subset L^1(I)`. It does not spend `LCI.A`, `CSP.A`, `OFP.A`, or
-`Field`.
+The sharp proof order is `ACT.Actr_core` first, then `AXE.2` / `ACT.X-Press`,
+plus the scheduler bridge `RWS.A`; `ACT.X-Cut` is the structurally favorable
+companion estimate. Here `ACT.X-Press` is licensed by `ACT.Actr_core` and the
+local fixed-ball pressure response, while its remainder-remainder pressure term
+contributes `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N` to the same
+scale-small bootstrap as the cutoff term. The finite pressure far-tail ledger
+is energy-controlled in `L^\infty(I)\subset L^1(I)`. It does not spend
+`LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
 
 For a full interval, `ACT.X-Boot` needs a small-budget scheduler: decompose the
 interval into affine budget subintervals, prove the first-exit bound on each,
@@ -2165,6 +2169,8 @@ Record the scheduler bridge as
 RWS.A:
 \quad
 \left[
+(C_{cut}+C_{press})(2\varepsilon_\ast)^{1/2}\le c_\nu/2,
+\quad
 \bigl(\mathcal X^{exc}(t_r)+\|F\|_{L^1(I_r)}\bigr)
 e^{\|L\|_{L^1(I_r)}}<2\varepsilon_\ast
 \ \text{on every retained window}

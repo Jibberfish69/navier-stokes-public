@@ -394,31 +394,35 @@ closure_ecology:
         decomposition.
       act_x_atom_split: >-
         ACT.X-Def separates the small affine excess X_exc from the full readout
-        packet Y_read = A_ctr + X_exc, where A_ctr already contains the unit
-        seed. ACT.X-Energy is the inequality
-        dX_exc + cN <= L X_exc + C X_exc^(1/2) N + F. ACT.X-Boot is the
-        epsilon-star first-exit argument for X_exc. ACT.X-Readout spends
-        Y_read, so A_ctr must satisfy dA_ctr <= L_A A_ctr + F_A with L_A,F_A in
-        L1(I), or be carried in L,F; it cannot be smuggled into the smallness
-        variable. The scheduler restarts only X_exc at budget endpoints using
-        the current transported center frame.
-      act_center_amplitude_rule: >-
-        The center-amplitude rule is now ACT.Actr with a lower/top split:
-        K_le_m^ctr in L1(I) plus F_top,A in L1(I) implies A_ctr^p in
-        Linfty(I). K_le_m^ctr consists of K_0(c_j), the first-rung affine-frame
-        acceleration E_j^(1), and transformed lower-rung forcings Ktilde_{q,j}
-        for 2<=q<=m. F_top,A carries the m+1 and m+2 zero-mode forcing unless a
-        higher forcing readout is added.
+        packet Y_read = A_core^ctr + A_buf^ctr + X_exc. ACT.X-Energy is the
+        inequality dX_exc + cN <= L X_exc + (C_cut+C_press) X_exc^(1/2) N + F.
+        ACT.X-Boot is the epsilon-star first-exit argument for X_exc with that
+        combined threshold. ACT.X-Readout spends Y_read, so A_core^ctr must be
+        controlled by ACT.Actr_core and A_buf^ctr is readout/top-viscous buffer
+        data; neither can be smuggled into the smallness variable. The scheduler
+        restarts only X_exc at budget endpoints using the current transported
+        center frame.
+      act_center_core_rule: >-
+        The pre-pressure center-amplitude rule is now ACT.Actr_core:
+        K_le_m^ctr in L1(I) implies A_core^ctr in Linfty(I). K_le_m^ctr consists
+        of K_0(c_j), the first-rung affine-frame acceleration E_j^(1), and
+        transformed lower-rung forcings Ktilde_{q,j} for 2<=q<=m. The m+1 and
+        m+2 modes are buffer/readout modes; proving them before ACT.X-Boot would
+        require the optional top forcing sum_{q=m+1}^{m+2}|Ktilde_q|^2 in L1(I)
+        and risks rung creep.
       act_x_press_rule: >-
-        ACT.X-Press is licensed by ACT.Actr and the local fixed-ball pressure
-        response. The finite pressure far-tail ledger is energy-controlled in
-        Linfty(I) and is no longer the live wall. It does not spend LCI.A,
-        CSP.A, OFP.A, or Field.
+        ACT.X-Press is licensed by ACT.Actr_core and the local fixed-ball
+        pressure response. The finite pressure far-tail ledger is
+        energy-controlled in Linfty(I) and is no longer the live wall. The
+        remainder-remainder pressure term contributes C_press X_exc^(1/2) N to
+        the same scale-small bootstrap as the cutoff term. It does not spend
+        LCI.A, CSP.A, OFP.A, or Field.
       act_compact_chain: >-
-        ACT.Actr + ACT.X-Def + ACT.X-Energy + ACT.X-Cut + ACT.X-Press +
+        ACT.Actr_core + ACT.X-Def + ACT.X-Energy + ACT.X-Cut + ACT.X-Press +
         ACT.X-Mid + ACT.X-TopVisc + ACT.X-Boot + ACT.X-Readout => ACT.A =>
         RCF.A => LCI.A. This is the receiver-side proof plan, not a discharge;
-        the next proof targets are ACT.Actr and ACT.X-Press.
+        the next proof targets are ACT.Actr_core, ACT.X-Press, and the combined
+        C_cut+C_press version of RWS.A.
       audit_correction: >-
         DTR.A is only a supplier theorem. Bare TW_ctr supplies residual
         pressure/top-viscous forcing; the strong closure needs TW_ctr^aff,
