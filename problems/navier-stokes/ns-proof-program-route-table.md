@@ -257,6 +257,10 @@ ACT.Kcore:
   Lower viscous recycle is core-controlled.
   The top-viscous m+1,m+2 line is forcing/readout, not A_buf amplitude.
 
+Routing:
+  ACT.Kcore => ACT.Actr_core.
+  ACT.Actr_core + ACT.X-Press => AXE.2.
+
 A_buf^ctr:
   contains the m+1 and m+2 readout/top-viscous buffer modes.
   It is recovered through Y_read after ACT.X-Boot. A pre-boot proof would

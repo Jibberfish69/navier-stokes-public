@@ -1415,9 +1415,10 @@ not part of the small factor. The full readout packet is
 \tag{DTC.AFF-X1c}
 ```
 
-Call the pre-pressure live estimate `ACT.Actr_core`. It is not bookkeeping: it
-must be proved from the affine-center zero-mode equations or explicitly paid
-for in the `L,F` budget before `ACT.X-Press` is promoted.
+Call the pre-pressure bridge `ACT.Actr_core`. It is not bookkeeping: it is the
+conditional affine-center Gronwall theorem that converts the direct lower
+center-forcing ledger `ACT.Kcore` into the bounded core center-amplitude
+coefficient spent by `ACT.X-Press`.
 
 For `ACT.Actr_core`, the core ledger is:
 
@@ -1458,7 +1459,7 @@ The lower forcing ledger is
 \tag{DTC.AFF-Actr0b}
 ```
 
-The honest noncircular theorem target is:
+The honest noncircular theorem is:
 
 ```math
 ACT.Actr_{\mathrm{core}}:
@@ -1559,10 +1560,11 @@ integrable on the finite interval, and
 `2\le q\le m` and proves `ACT.Actr_core`.
 
 The top rungs `m+1,m+2` are not licensed as pre-pressure coefficients by this
-lower induction. The remaining live obligation under `ACT.Actr_core` is exactly
-the direct lower center-forcing statement `\mathcal K_{\le m}^{ctr}\in L^1(I)`,
-with finite seed center data and `\Gamma_\sharp\in L^\infty(I)` kept as explicit
-inputs.
+lower induction. This proves the bridge
+`\mathcal K_{\le m}^{ctr}\in L^1(I) => \mathcal A_{\mathrm{core}}^{ctr}\in
+L^\infty(I)` under finite seed center data and `\Gamma_\sharp\in L^\infty(I)`.
+The remaining live obligation beneath `ACT.Actr_core` is exactly the direct
+lower center-forcing statement `\mathcal K_{\le m}^{ctr}\in L^1(I)`.
 
 Name the supplier for this forcing ledger:
 
@@ -1665,6 +1667,33 @@ K_{\mathrm{visc},top}^{ctr}
 
 is a forcing/readout supplier, not a pre-pressure amplitude ledger. This is the
 point of the core/buffer split: `A_buf` is not promoted to `ACT.Actr_core`.
+
+Thus `ACT.Kcore` is a ledger identity plus three supplier cells:
+
+```math
+\boxed{
+K0.Core+E1.Aff+Kmid.Core
+\Longrightarrow
+\mathcal K_{\le m}^{ctr}\in L^1(I).
+}
+\tag{DTC.AFF-Kcore8}
+```
+
+Combined with the conditional core-amplitude theorem,
+
+```math
+ACT.Kcore
+\Longrightarrow
+\mathcal K_{\le m}^{ctr}\in L^1(I)
+\Longrightarrow
+ACT.Actr_{\mathrm{core}}.
+\tag{DTC.AFF-Kcore9}
+```
+
+The pressure cells in `K0.Core`, `E1.Aff`, and
+`K_{\mathrm{press},\le m}^{ctr}` are not discharged here. They are routed into
+`ACT.X-Press`, where `ACT.Actr_core` may be spent as the already-controlled
+center-affine coefficient ledger.
 
 Let
 
@@ -2649,7 +2678,9 @@ Equivalently, the twelve-item completion ledger is:
 ```
 
 This ledger is a proof plan, not a discharge. The sharp next proof targets are
-`ACT.Actr_core`, `ACT.X-Scale`, and `RWS.C_scale`. `ACT.X-Press` is now recorded
+`ACT.Kcore`, `ACT.X-Scale`, and `RWS.C_scale`. `ACT.Actr_core` is now the
+conditional Gronwall bridge from `ACT.Kcore` to
+`\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty`; `ACT.X-Press` is now recorded
 as the affine local pressure decomposition whose only non-`L^1` residue is
 `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`, with top-viscous buffer modes
 read through `Y_read` rather than promoted into `ACT.Actr_core`. `ACT.X-Cut` is

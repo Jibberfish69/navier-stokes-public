@@ -1134,6 +1134,22 @@ top-viscous line
 `\nu\sum_j(|U_{m+1}(c_j)|+|U_{m+2}(c_j)|)` is carried as forcing/readout, not
 as a pre-pressure `A_buf` amplitude ledger.
 
+So the local center-amplitude routing is:
+
+```math
+ACT.Kcore
+\Longrightarrow
+\mathcal K_{\le m}^{ctr}\in L^1(I)
+\Longrightarrow
+ACT.Actr_{\mathrm{core}}.
+\tag{ACT.X7e}
+```
+
+The pressure parts of `K0.Core`, `E1.Aff`, and `Kmid.Core` are assigned to
+`ACT.X-Press`; after `ACT.Actr_core` is available, the pressure atom may spend
+`\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I)` and contributes the
+`C_{press}(\mathcal X^{exc})^{1/2}\mathcal N` term to the bootstrap.
+
 The top buffer modes `m+1,m+2` are readout/top-viscous modes inside
 `\mathcal Y^{read}=\mathcal A_{\mathrm{core}}^{ctr}
 +\mathcal A_{\mathrm{buf}}^{ctr}+\mathcal X^{exc}`. Proving them before

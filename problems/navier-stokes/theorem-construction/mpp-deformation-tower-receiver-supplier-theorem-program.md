@@ -2054,6 +2054,8 @@ The supplier theorem is `ACT.Kcore`: `K0.Core + E1.Aff + Kmid.Core` gives
 the local fixed-ball pressure response and energy-controlled harmonic tails;
 the lower viscous recycle is core-controlled, while the `m+1,m+2` viscous line
 is carried as forcing/readout, not as a pre-pressure `A_buf` amplitude ledger.
+Thus `ACT.Kcore => ACT.Actr_core`, and then `ACT.Actr_core` is the center
+coefficient input spent by `ACT.X-Press`.
 The top modes belong to
 `\mathcal Y^{read}=\mathcal A_{\mathrm{core}}^{ctr}
 +\mathcal A_{\mathrm{buf}}^{ctr}+\mathcal X^{exc}`. Proving them before
