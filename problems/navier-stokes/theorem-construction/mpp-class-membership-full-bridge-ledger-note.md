@@ -296,6 +296,13 @@ Indeed, by definition the source ledger splits pointwise as
 Thus `FPCR.C`, `FSCR.C`, and `FCC.C1` give the three `L^1(I)` summands, and
 finite summation gives `(FCI.5f)`.
 
+Route-license caution. A route-level closure packet may use the receiver output
+`LCI.A` later in the one-field assembly, but that does not by itself prove the
+source-only theorem `(FCI.5f)`. The exact source-side blocks remain the channel
+theorems `FPCR.C`, `FSCR.C`, and `FCC.C1`; any post-`LCI.A` sufficient shortcut
+must be recorded as a separate sufficient source route, not as a discharge of
+the exact frozen-family source ledger.
+
 ## C. Receiver-to-One-Field Bridge Stack
 
 ### 8. `LCI+FCI-to-CSP`

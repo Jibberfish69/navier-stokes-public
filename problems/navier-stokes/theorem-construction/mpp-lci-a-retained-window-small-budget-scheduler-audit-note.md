@@ -188,9 +188,13 @@ U_q(c_j(s_a)+G_j(s_a)y,s_a)-U_q(c_j(s_a),s_a)
 \tag{RWS.13}
 ```
 
-On a retained smooth center ball, each finite-depth `U_q` has the local
-continuity required by the affine-excess packet after subtracting the center
-value, and for `q=1` after subtracting the affine part. Therefore
+For `q=1`, this is the installed first-rung excess
+`U_1(c_j+G_jy,s_a)-U_1(c_j,s_a)`, conjugated by the frame. It does not subtract
+an additional `\nabla U_1(c_j,s_a)y` term; doing so would define a different
+packet. On a retained smooth center ball, each finite-depth `U_q` has the local
+continuity required by the installed affine-excess packet after subtracting the
+center value (and, for the velocity rung, after removing the transported center
+translation). Therefore
 
 ```math
 \mathcal X^{exc}(s_a;R)\to0

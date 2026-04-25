@@ -2398,8 +2398,11 @@ B(c_j(s_a),2R_a)\subset Q_{s_a}^{rec,+}
 
 Retained smooth center-ball regularity is the proof source for
 `ACT.X-Scale`: for each fixed retained time, center, finite rung, and
-derivative in the packet, the affine remainder is locally continuous after the
-center and affine part are subtracted, so
+derivative in the packet, the installed affine remainder is locally continuous
+after the appropriate center mode is subtracted. For `q=1`, the installed
+remainder is `U_1(c_j+G_jy,s_a)-U_1(c_j,s_a)` in the affine frame; subtracting
+an additional `\nabla U_1(c_j,s_a)y` would be a different packet, not this
+`ACT.X-Scale` theorem. With the installed packet,
 `\mathcal X^{exc}(s_a;R)\to0` as `R\downarrow0`; finite centers and rungs allow
 one common admissible `R_a`.
 
