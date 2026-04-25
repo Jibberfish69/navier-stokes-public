@@ -1676,11 +1676,56 @@ A direct sufficient retained-center condition is:
 \tag{DTC.AFF-NKF4ret}
 ```
 
-Under this retained smooth local forcing condition,
-`\mathcal P_{\le m}^{ctr,nat}\in L^1(I_r)` follows immediately from the
-definition of the packet. The mollified route below is a sufficient way to
-realize that retained-center forcing theorem without treating pointwise
-pressure derivatives as finite-energy consequences.
+The named retained smooth center-ball certificate is:
+
+```math
+RSCB.NKF:
+\qquad
+\text{retained smooth center-ball regularity}
+\Longrightarrow
+\mathcal P_{\le m}^{ctr,nat}\in L^1(I_r).
+\tag{DTC.AFF-RSCB0}
+```
+
+Indeed, for `0\le q\le m`,
+
+```math
+|\nabla^{q+1}p(c_j(t),t)|
+\le
+\|p(\cdot,t)\|_{C^{m+1}(B(c_j(t),2\rho_r))},
+\tag{DTC.AFF-RSCB1}
+```
+
+and, using the repo tower convention `U_q\sim\nabla^q u`,
+
+```math
+|\Delta U_q(c_j(t),t)|
+\le
+C_q\|u(\cdot,t)\|_{C^{q+2}(B(c_j(t),2\rho_r))}
+\le
+C_q\|u(\cdot,t)\|_{C^{m+2}(B(c_j(t),2\rho_r))}.
+\tag{DTC.AFF-RSCB2}
+```
+
+Summing in `j` and `q` gives
+
+```math
+\mathcal P_{\le m}^{ctr,nat}(t)
+\le
+C_{m,J,\nu}
+\left(
+\sum_j\|p(\cdot,t)\|_{C^{m+1}(B(c_j(t),2\rho_r))}
++
+\sum_j\|u(\cdot,t)\|_{C^{m+2}(B(c_j(t),2\rho_r))}
+\right),
+\tag{DTC.AFF-RSCB3}
+```
+
+which is integrable on `I_r` by `(DTC.AFF-NKF4ret)`. Thus
+`RSCB.NKF` is the live certificate for the native forcing packet. The
+mollified route below is a compatible realization/check of the same retained
+center forcing input without treating pointwise pressure derivatives as
+finite-energy consequences.
 
 The noncircular sufficient route is a mollified forcing bridge plus retained
 smooth point recovery:
@@ -1807,6 +1852,8 @@ seminorms, so choose `r` so that
 Thus
 
 ```math
+RSCB.NKF
+\Longrightarrow
 NKF.Moll+NKF.Point
 \Longrightarrow
 NKF.Native
