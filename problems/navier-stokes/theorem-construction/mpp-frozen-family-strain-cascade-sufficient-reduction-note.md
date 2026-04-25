@@ -183,6 +183,45 @@ Sum `(FFSC.A0)` over the frozen net `\Xi_{\rho,\psi}^{\varepsilon}(I)` and use
 the definitions `(FFSC.1)`--`(FFSC.2)`. The interval discharge `(FFSC.B1)`
 then follows immediately on the finite interval `I`. ∎
 
+### Corollary `FSCR.C_postLCI` (Post-`LCI.A` strain/cascade channel closure)
+
+On the post-`LCI.A` source lane, assume
+
+```math
+LCI.A:
+\qquad
+\mathfrak C_{N+1,\rho,\psi}^{\delta}\in L^1(I),
+\tag{FFSC.B2a}
+```
+
+and the frozen-family packet aggregate is bounded:
+
+```math
+\sup_{t\in I}
+\mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I)
+<\infty.
+\tag{FFSC.B2b}
+```
+
+Then
+
+```math
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,sc}(\cdot;I)
+\in L^1(I).
+\tag{FFSC.B2c}
+```
+
+This is the source-lane `FSCR.C` used in the ordered closure
+`FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`.
+
+### Proof
+
+Integrate `(FFSC.B0)` over `I`. The factor
+`1+\mathfrak C_{N+1,\rho,\psi}^{\delta}` belongs to `L^1(I)` by `(FFSC.B2a)`
+and finiteness of `I`, while `(FFSC.B2b)` bounds the frozen packet aggregate.
+Thus the right-hand side of `(FFSC.B0)` belongs to `L^1(I)`, proving
+`(FFSC.B2c)`. ∎
+
 ## Fixed-Family Differential-Law Reduction
 
 ### Corollary `FFSC.C` (On the fixed-family differential law, strain/cascade is already coefficient-side)
@@ -284,7 +323,10 @@ now combines this coefficient-side nonpressure realization with `FFPB.A0` and
 
 ## Boundary
 
-This note does **not** prove `(FSCR.C)` directly.
+This note does **not** prove `(FSCR.C)` as an unconditional exact same-depth
+theorem. It does prove the post-`LCI.A` source-lane instance
+`FSCR.C_postLCI`, which is the strain/cascade closure used in the current
+two-lane terminal program.
 
 It also does **not** identify a sharper same-depth descendant beneath
 `\mathcal N_{N,\rho,\psi}^{src,\varepsilon,sc}`. It only records the nearest

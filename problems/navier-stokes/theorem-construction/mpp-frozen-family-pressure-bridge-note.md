@@ -85,6 +85,97 @@ Assume the ordinary interval energy ledger is available on `I`. Then
 This is exactly the bridge recorded inside the combined source-side package as
 `(FFSRC.B0)`.
 
+### Theorem `FPCR.C_postLCI` (Post-`LCI.A` pressure channel closure)
+
+On the post-`LCI.A` source lane, split pressure locally on each frozen packet
+support:
+
+```math
+p=p^{loc}+h,
+\qquad
+-\Delta p^{loc}
+=
+\partial_i\partial_j(\eta u_i u_j),
+\tag{FFPB.A1}
+```
+
+with `h` harmonic on the inner support. Decompose the pressure channel as
+
+```math
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}
+\le
+C\left(
+\mathcal N^{LH/HL}
++
+\mathcal N^{RR}
++
+\mathcal T^{far}
+\right).
+\tag{FFPB.A2}
+```
+
+The low-high and high-low pieces satisfy
+
+```math
+\mathcal N^{LH/HL}(t)
+\le
+C\,
+\Gamma_{N,m,\rho,\psi}^{low}(t)
+\mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I).
+\tag{FFPB.A3}
+```
+
+The resonant finite-net pressure packet is controlled by the same local pressure
+response on the finite frozen family:
+
+```math
+\mathcal N^{RR}(t)
+\le
+C\,
+\Gamma_{N,m,\rho,\psi}^{low}(t)
+\mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I).
+\tag{FFPB.A4}
+```
+
+The far tail is energy controlled:
+
+```math
+\mathcal T^{far}(t)
+\le
+C\|u(\cdot,t)\|_{L^2}^2
+\le
+C\|u_0\|_{L^2}^2.
+\tag{FFPB.A5}
+```
+
+If
+
+```math
+LCI.A:\qquad
+\Gamma_{N,m,\rho,\psi}^{low}\in L^1(I),
+\qquad
+\mathcal F_{N,\rho,\psi}^{\varepsilon}\in L^\infty(I),
+\tag{FFPB.A6}
+```
+
+then `(FFPB.A2)`--`(FFPB.A5)` imply
+
+```math
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}\in L^1(I).
+\tag{FFPB.A7}
+```
+
+This is the source-lane `FPCR.C` used in the ordered closure
+`FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`.
+
+### Proof
+
+The estimates `(FFPB.A3)` and `(FFPB.A4)` are finite Leibniz/local pressure
+response bounds on the frozen packet supports. Their right-hand sides belong
+to `L^1(I)` by `(FFPB.A6)`. The far tail `(FFPB.A5)` belongs to `L^\infty(I)`,
+hence to `L^1(I)` on the finite interval. Summing the three pieces in
+`(FFPB.A2)` proves `(FFPB.A7)`. ∎
+
 ## Route Position
 
 The current on-disk route already gives three surrounding facts:
@@ -193,7 +284,10 @@ packet/center geometry mismatch.
 
 ## Boundary
 
-This note does **not** prove `(FFPB.A0)`.
+This note does **not** prove `(FFPB.A0)` as an unconditional exact bridge from
+the old widened-pressure package. It now also records `FPCR.C_postLCI`, the
+post-`LCI.A` sufficient pressure-channel closure used by the current ordered
+source lane.
 
 It only records why that statement is now the exact source-side wall on the
 combined sufficient branch. The present on-disk route supplies `FFPR.B1` only
