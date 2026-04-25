@@ -415,7 +415,7 @@ closure_ecology:
         of K_0(c_j), the first-rung affine-frame acceleration E_j^(1), and
         transformed lower-rung forcings Ktilde_{q,j} for 2<=q<=m. The joint
         supplier is ACT.KX after RSCB.NKF supplies NKF.Native: NKF.Native +
-        NKF.Ann + AXE.A + ACT.X-Scale + ACT.X-Boot + RWS.C_scale produce
+        NKF.Ann + NKF.Quad + AXE.A + ACT.X-Scale + ACT.X-Boot + RWS.C_scale produce
         ACT.X-Press_cell, then ACT.Kcore and ACT.Actr_core. Residual pressure is read from ACT.X-Press_cell after
         subtracting the native affine normal-form pressure p_j^aff from
         p_j^loc; this normal form annihilates affine and affine-linear center
@@ -430,7 +430,7 @@ closure_ecology:
         post-bootstrap ACT.X-Press_cell readout. The cell form supplies the
         residual P_le_m^cell only after ACT.X-Boot, controlling
         pi_j^loc=p_j^loc-p_j^aff by a quadratic affine-excess core plus
-        annular/harmonic/far-tail terms. The energy form is an AXE.A atom, not
+        projected annular/harmonic/far-tail terms. The energy form is an AXE.A atom, not
         an after-Actr_core theorem; finite pressure far-tail is energy-controlled
         in Linfty(I). The quadratic residual contributes C_press X_exc^(1/2) N
         to the same scale-small bootstrap as the cutoff term. It does not spend

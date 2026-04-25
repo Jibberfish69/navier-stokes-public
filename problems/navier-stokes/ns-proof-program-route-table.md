@@ -254,7 +254,7 @@ K_le_m^ctr:
 ACT.Kcore:
   K0.Core + E1.Aff + Kmid.Core => K_le_m^ctr in L1(I).
   This is supplied post-bootstrap by ACT.KX after RSCB.NKF supplies
-  NKF.Native: NKF.Native + NKF.Ann + AXE.A + ACT.X-Scale + ACT.X-Boot
+  NKF.Native: NKF.Native + NKF.Ann + NKF.Quad + AXE.A + ACT.X-Scale + ACT.X-Boot
   + RWS.C_scale first produce ACT.X-Press_cell.
   Residual pressure is read from ACT.X-Press_cell after subtracting the native
   affine normal-form pressure p_j^aff from p_j^loc.
@@ -264,7 +264,7 @@ ACT.Kcore:
 
 Routing:
   RSCB.NKF => NKF.Moll + NKF.Point => NKF.Native.
-  NKF.Native + NKF.Ann + AXE.A + ACT.X-Scale + ACT.X-Boot + RWS.C_scale
+  NKF.Native + NKF.Ann + NKF.Quad + AXE.A + ACT.X-Scale + ACT.X-Boot + RWS.C_scale
   => ACT.X-Press_cell => ACT.Kcore.
   ACT.Kcore => ACT.Actr_core.
   NKF.Native + ACT.X-Press_energy => AXE.2.
@@ -279,7 +279,7 @@ ACT.X-Press_cell:
   post-bootstrap finite residual pressure-cell ledger P_le_m^cell in L1(I),
   controlling
   pi_j^loc=p_j^loc-p_j^aff by a quadratic affine-excess core plus
-  annular/harmonic/far-tail terms after X_exc in Linfty and N in L1 are known.
+  projected annular/harmonic/far-tail terms after X_exc in Linfty and N in L1 are known.
 
 ACT.X-Press_energy:
   in-bootstrap local fixed-ball pressure response.

@@ -1015,7 +1015,7 @@ obligations:
     `m+1,m+2` modes are `A_buf^ctr` readout/top-viscous buffer data, not
     pre-pressure Gronwall data unless an optional stronger top-forcing route is
     chosen. The named joint supplier is `ACT.KX` after `RSCB.NKF` supplies
-    `NKF.Native`: `NKF.Native + NKF.Ann + AXE.A + ACT.X-Scale +
+    `NKF.Native`: `NKF.Native + NKF.Ann + NKF.Quad + AXE.A + ACT.X-Scale +
     ACT.X-Boot + RWS.C_scale => ACT.X-Press_cell +
     ACT.Kcore + ACT.Actr_core + ACT.A`. `ACT.Kcore` remains the ledger identity
     `K0.Core + E1.Aff + Kmid.Core`; its pressure cells are read as
@@ -1041,11 +1041,11 @@ obligations:
     native affine normal-form pressure `p_j^aff` is subtracted from `p_j^loc`,
     and its center-cell functionals annihilate both affine and affine-linear
     pressure modes. The cell theorem controls `pi_j^loc=p_j^loc-p_j^aff` through
-    a quadratic affine-excess core plus annular/harmonic/far-tail terms; its
+    a quadratic affine-excess core plus projected annular/harmonic/far-tail terms; its
     `L^1` consequence uses `X_exc in Linfty` and `N in L1` from `ACT.X-Boot`.
     The energy form is the same residual local pressure decomposition inside
     `AXE.A`: the quadratic core produces the scale-small residue
-    `C_press X_exc^(1/2) N`, while annular and harmonic terms enter the
+    `C_press X_exc^(1/2) N`, while projected annular and harmonic terms enter the
     `L_press X_exc + F_press` side. The finite pressure far-tail is
     energy-controlled in `L^\infty(I)`. The top-viscous part reads `m+1,m+2`
     only through `A_buf` inside `Y_read`, not through the pre-pressure core.

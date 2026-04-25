@@ -1980,10 +1980,12 @@ The native residual cell identity is
 \tag{DTC.AFF-Kcore1b6}
 ```
 
-Here `\Pi_j^{ann}` contains all cutoff-derivative contributions and all support
-outside the core pressure ball. This is the noncircular pressure-core rule:
-the `A_jw_j` cross coefficient is removed from the cell estimate, so
-`ACT.X-Press_cell` does not spend `ACT.Actr_core`.
+Here `\Pi_j^{ann}` is the projected annular remainder of
+`\eta_j w_j\otimes w_j`, after native affine and affine-linear pressure modes
+are removed. Harmonic/far-tail terms are assigned to their separate energy
+ledger. This is the noncircular pressure-core rule: the `A_jw_j` cross
+coefficient is removed from the cell estimate, so `ACT.X-Press_cell` does not
+spend `ACT.Actr_core`.
 
 With
 
@@ -2001,23 +2003,17 @@ With
 \tag{DTC.AFF-Kcore1c}
 ```
 
-The annular cutoff ledger is defined by
+The projected annular cutoff ledger is defined by
 
 ```math
-\mathcal P_{\mathfrak p}^{ann}(t)
+\mathcal P_{\mathfrak p}^{ann,proj}(t)
 :=
 \sum_j
 \sum_{r=0}^{m+1}
-\sum_{|\gamma|\le r}
+\sum_{|\gamma|\le r+2}
 \left\|
 \nabla^\gamma
-\left[
-u_j^{aff}\otimes u_j^{aff}
-+
-2u_j^{aff}\odot w_j
-+
-w_j\otimes w_j
-\right]
+\left(w_j\otimes w_j\right)
 \right\|_{L^1(A_j^{ann})},
 \qquad
 A_j^{ann}:=\operatorname{supp}\nabla\eta_j.
@@ -2025,16 +2021,40 @@ A_j^{ann}:=\operatorname{supp}\nabla\eta_j.
 ```
 
 Since `A_j^{ann}` is separated from the center by a fixed fraction of the
-pressure radius, the pressure kernel is smooth there. This proves the annular
-cell:
+pressure radius, the pressure kernel is smooth there. Thus
+
+```math
+\sum_{j,r}|\Lambda_{r,j}\Pi_j^{ann}|
+\le
+C_{\mathfrak p}\mathcal P_{\mathfrak p}^{ann,proj}(t).
+\tag{DTC.AFF-Kcore1d1}
+```
+
+The finite annular product estimate gives
+
+```math
+\mathcal P_{\mathfrak p}^{ann,proj}(t)
+\le
+C_{\mathfrak p}
+\left(
+X_{exc}^{1/2}N^{1/2}
++
+X_{exc}
+\right).
+\tag{DTC.AFF-Kcore1d1a}
+```
+
+Hence the in-bootstrap annular cell is
 
 ```math
 NKF.Ann:
 \quad
-\mathcal P_{\mathfrak p}^{ann}\in L^1(I)
-\Longrightarrow
-\sum_{j,r}|\Lambda_{r,j}\Pi_j^{ann}|\in L^1(I).
-\tag{DTC.AFF-Kcore1d1}
+\sum_{j,r}|\Lambda_{r,j}\Pi_j^{ann}|
+\le
+\varepsilon N
++
+C_\varepsilon X_{exc}.
+\tag{DTC.AFF-Kcore1d1b}
 ```
 
 For the native residual core, define `\pi_j^{quad}` by
@@ -2080,7 +2100,7 @@ estimate
 \le
 C_{\mathfrak p}X_{exc}^{1/2}N^{1/2}
 +
-C_{\mathfrak p}\mathcal P_{\mathfrak p}^{ann}
+C_{\mathfrak p}X_{exc}
 +
 C_{\mathfrak p}\|u(\cdot,t)\|_{L^2}^2.
 \tag{DTC.AFF-Kcore1f}
@@ -2092,6 +2112,8 @@ Therefore the `L^1` cell theorem is a bootstrap readout:
 ACT.X\text{-}Boot
 \quad+\quad
 NKF.Ann
+\quad+\quad
+NKF.Quad
 \quad+\quad
 \text{energy far-tail}
 \Longrightarrow
@@ -2105,8 +2127,6 @@ or explicitly,
 X_{exc}\in L^\infty(I),
 \qquad
 N\in L^1(I),
-\qquad
-\mathcal P_{\mathfrak p}^{ann}\in L^1(I)
 \Longrightarrow
 \mathcal P_{\le m}^{cell}\in L^1(I).
 \tag{DTC.AFF-Kcore1g}
@@ -2114,18 +2134,18 @@ N\in L^1(I),
 
 This is the pressure component of `NKF.Native`: the center pressure-cell
 functionals annihilate the affine and affine-linear source modes, leaving only
-quadratic affine excess plus annular/far-tail terms. `NKF.Quad` is an
-in-bootstrap estimate; its `L^1` consequence is not available before
-`ACT.X-Boot`.
+quadratic affine excess plus projected annular/far-tail terms. `NKF.Ann` and
+`NKF.Quad` are in-bootstrap estimates; their `L^1` consequences are not
+available before `ACT.X-Boot`.
 
 Equivalently, the solved pressure-cell block is
 
 ```math
 NKF.Native
 +
-NKF.Quad
+NKF.Ann
 +
-\mathcal P_{\mathfrak p}^{ann}\in L^1(I)
+NKF.Quad
 +
 \text{energy far-tail}
 \quad\text{inside }ACT.X\text{-Boot}\quad
@@ -2639,7 +2659,7 @@ C\left(\mathcal N_j^{1/2}+(\mathcal X_j^{exc})^{1/2}\right)
 for the finite pressure depths used in the packet. The center-affine
 coefficients are not spent as pressure coefficients here: the native normal
 form removes their center-cell pressure modes, and the annular remnant is
-carried by the annular pressure ledger.
+carried by the projected annular pressure ledger.
 
 After native affine normal-form subtraction, the local pressure variable in the
 energy atom is the residual
@@ -2703,34 +2723,33 @@ F_{rr}(t).
 ```
 
 The annular part is separated from the center, so the pressure kernel is smooth
-on its support. With the annular pressure ledger
+on its support. After the native affine normal-form projection, the annular
+energy ledger contains only the quadratic remainder
 
 ```math
-\mathcal P_{\mathfrak p}^{ann}
+\mathcal P_{\mathfrak p}^{ann,proj}
 :=
-\sum_j\sum_{r=0}^{m+1}\sum_{|\gamma|\le r}
+\sum_j\sum_{r=0}^{m+1}\sum_{|\gamma|\le r+2}
 \left\|
 \nabla^\gamma
-\left[
-u_j^{aff}\otimes u_j^{aff}
-+2u_j^{aff}\odot w_j+w_j\otimes w_j
-\right]
+\left(w_j\otimes w_j\right)
 \right\|_{L^1(A_j^{ann})},
 \tag{AXE.2c5}
 ```
 
-the annular contribution satisfies
+and the annular contribution satisfies
 
 ```math
 |\mathcal T_{press}^{ann}|
 \le
-\varepsilon\mathcal N
+C_{ann}(\mathcal X^{exc})^{1/2}\mathcal N
 +
-L_{ann}(t)\mathcal X^{exc}
+C_{ann}\mathcal X^{exc}
 +
 F_{ann}(t),
 \qquad
-L_{ann},F_{ann}\in L^1(I).
+F_{ann}=0
+\quad\text{except for separately declared harmonic/far-tail terms}.
 \tag{AXE.2c6}
 ```
 
