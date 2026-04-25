@@ -1010,10 +1010,14 @@ obligations:
     `m+1,m+2` modes are `A_buf^ctr` readout/top-viscous buffer data, not
     pre-pressure Gronwall data unless an optional stronger top-forcing route is
     chosen. The named supplier is the `ACT.Kcore` ledger identity
-    `K0.Core + E1.Aff + Kmid.Core`; its pressure cells are routed to
-    `ACT.X-Press`, and its top-viscous line is forcing/readout, not
-    pre-pressure `A_buf` amplitude.
-    `ACT.X-Press` is installed as the affine local pressure decomposition:
+    `K0.Core + E1.Aff + Kmid.Core`; its pressure cells are routed first to
+    `ACT.X-Press_cell`, and its top-viscous line is forcing/readout, not
+    pre-pressure `A_buf` amplitude. Any estimate of `ACT.Kcore` that spends
+    `A_core`, `H^{osc}`, or `Y_read` is only a post-readout bound, not the
+    pre-pressure supplier needed for `ACT.Actr_core`.
+    Pressure is split into `ACT.X-Press_cell` and `ACT.X-Press_energy`. The cell
+    form supplies the finite pressure-cell ledger behind `ACT.Kcore`. The energy
+    form is the affine local pressure decomposition after `ACT.Actr_core`:
     affine-affine terms enter `L_press X_exc + F_press`, affine-remainder terms
     enter `epsilon N + L_press X_exc`, and remainder-remainder terms produce the
     scale-small residue `C_press X_exc^(1/2) N`; the finite pressure far-tail is
