@@ -420,6 +420,7 @@ published_files:
 - theorem-construction/moving-constraint-defect-program.md
 - theorem-construction/moving-spill-fixed-offset-reduction-lemma.md
 - theorem-construction/mpp-act-kx-conditional-route-completion-packet.md
+- theorem-construction/mpp-act-kx-hidden-spending-audit-note.md
 - theorem-construction/mpp-class-membership-constitutive-import-map.md
 - theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
 - theorem-construction/mpp-class-membership-contradiction-source-locked-note.md
