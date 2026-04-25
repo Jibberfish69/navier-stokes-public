@@ -436,6 +436,7 @@ published_files:
 - theorem-construction/mpp-csp-b3a1-fei-return-instance-note.md
 - theorem-construction/mpp-dead-tower-rigidity-reduction-note.md
 - theorem-construction/mpp-deformation-tower-receiver-supplier-theorem-program.md
+- theorem-construction/mpp-dtc-to-towerbound-theorem-program.md
 - theorem-construction/mpp-eulerian-to-transported-comparison-lemma.md
 - theorem-construction/mpp-exact-class-membership-witness-theorem.md
 - theorem-construction/mpp-exact-potential-witness-to-readout-theorem.md
@@ -533,6 +534,7 @@ published_files:
 - theorem-construction/mpp-reference-comparison-propagation-lemma.md
 - theorem-construction/mpp-reference-increment-and-bridge-tube-reduction.md
 - theorem-construction/mpp-reference-increment-and-segment-packet-reduction.md
+- theorem-construction/mpp-retained-window-native-forcing-theorem-program.md
 - theorem-construction/mpp-reverse-four-body-class-membership-audit.md
 - theorem-construction/mpp-route-native-witness-bundle-note.md
 - theorem-construction/mpp-rung1-to-weighted-segment-control-lemma.md
