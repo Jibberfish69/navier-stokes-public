@@ -1676,7 +1676,8 @@ A direct sufficient retained-center condition is:
 \tag{DTC.AFF-NKF4ret}
 ```
 
-The named retained smooth center-ball certificate is:
+The named retained smooth center-ball certificate is the following point-forcing
+theorem.
 
 ```math
 RSCB.NKF:
@@ -1687,7 +1688,44 @@ RSCB.NKF:
 \tag{DTC.AFF-RSCB0}
 ```
 
-Indeed, for `0\le q\le m`,
+On a retained window `I_r`, assume there is `\rho_r>0` such that each
+transported center tube
+
+```math
+B_j(t):=B(c_j(t),2\rho_r),
+\qquad
+c_j(t)=\Phi(a^j,t),
+\tag{DTC.AFF-RSCB0a}
+```
+
+stays inside a retained smooth region and
+
+```math
+\sum_j
+\|u\|_{L^1_t C^{m+2,\alpha}(B_j(t))}
++
+\sum_j
+\|p\|_{L^1_t C^{m+1,\alpha}(B_j(t))}
+<\infty.
+\tag{DTC.AFF-RSCB0b}
+```
+
+For this certificate, read the native center forcing packet as the point
+pressure/viscous package
+
+```math
+\mathcal P_{\le m}^{ctr,nat}(t)
+:=
+\sum_{j=1}^{J}\sum_{q=0}^{m}
+\left(
+|\nabla^{q+1}p(c_j(t),t)|
++
+\nu|\Delta U_q(c_j(t),t)|
+\right).
+\tag{DTC.AFF-RSCB0c}
+```
+
+Then, for `0\le q\le m`,
 
 ```math
 |\nabla^{q+1}p(c_j(t),t)|
@@ -1722,10 +1760,39 @@ C_{m,J,\nu}
 ```
 
 which is integrable on `I_r` by `(DTC.AFF-NKF4ret)`. Thus
-`RSCB.NKF` is the live certificate for the native forcing packet. The
-mollified route below is a compatible realization/check of the same retained
-center forcing input without treating pointwise pressure derivatives as
-finite-energy consequences.
+`RSCB.NKF` proves `\mathcal P_{\le m}^{ctr,nat}\in L^1(I_r)`. Since
+
+```math
+K_q(c_j)
+=
+-\nabla^{q+1}p(c_j)+\nu\Delta U_q(c_j),
+\tag{DTC.AFF-RSCB4}
+```
+
+and the affine frame conversion is bounded by `\Gamma_\sharp`, this gives
+
+```math
+K0.Core+E1.Aff+Kmid.Core
+\le
+C_\sharp\mathcal P_{\le m}^{ctr,nat}.
+\tag{DTC.AFF-RSCB5}
+```
+
+Therefore
+
+```math
+RSCB.NKF
+\Longrightarrow
+ACT.Kcore
+\Longrightarrow
+ACT.Actr_{\mathrm{core}}.
+\tag{DTC.AFF-RSCB6}
+```
+
+`RSCB.NKF` is the live certificate for the native forcing packet. The mollified
+route below is a compatible realization/check of the same retained center
+forcing input without treating pointwise pressure derivatives as finite-energy
+consequences.
 
 The noncircular sufficient route is a mollified forcing bridge plus retained
 smooth point recovery:
@@ -4223,3 +4290,33 @@ Here `END.TowerAmp` denotes the actual tower-amplitude input
 `\mathfrak A_{N,Q}\in L^\infty(I)`. The definition-level implication
 `END.TowerAmp => \neg tower-blown` is formal and recorded in the endpoint
 matrix note as `END.TowerBound`.
+
+With `RSCB.NKF` installed, the receiver-side live chain is
+
+```math
+RSCB.NKF
+\Longrightarrow
+NKF.Moll+NKF.Point
+\Longrightarrow
+NKF.Native
+\Longrightarrow
+ACT.Kcore
+\Longrightarrow
+ACT.Actr_{\mathrm{core}}.
+\tag{DTC.40}
+```
+
+Thus the remaining parallel theorem blocks are exactly the post-`LCI.A` source
+channels
+
+```math
+FCC.C1,\qquad FSCR.C,\qquad FPCR.C,
+\tag{DTC.41a}
+```
+
+and the endpoint cells
+
+```math
+DTC\text{-to-TowerBound},\qquad END.Exh,\qquad END.Cross.
+\tag{DTC.41b}
+```
