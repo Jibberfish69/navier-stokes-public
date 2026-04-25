@@ -372,3 +372,32 @@ the route:
 No new fourth receiver theorem is introduced here. The note only makes explicit
 the conditions under which the existing `DTC.A -> LCI.A -> CSP.A -> OFP.A`
 assembly is allowed to be read as a valid proof spine.
+
+## Conditional Unified-Survivor Packet Interface
+
+The unified-survivor conditional theorem packet audit
+[mpp-unified-survivor-conditional-theorem-packet-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-unified-survivor-conditional-theorem-packet-audit-note.md)
+uses this seam as one of its load-bearing atoms. Its receiver export is valid
+only in the `ACT.KX` ordering:
+
+```math
+ACT.X\text{-Cut}
++ACT.X\text{-Press}
++ACT.X\text{-MidRaw}
++ACT.X\text{-TopVisc}
++ACT.X\text{-Scale}
++RWS.C_{\mathrm{scale}}
+\Longrightarrow
+ACT.KX
+\Longrightarrow
+ACT.A
+\Longrightarrow
+RCF.A
+\Longrightarrow
+LCI.A.
+\tag{ODC.22}
+```
+
+So the packet may say that a standalone fixed-scale `RWS.Reset` is not the
+chosen route, but it may not erase the scale-seed and readout-compatibility
+burdens `ACT.X-Scale` and `RWS.C_scale`.

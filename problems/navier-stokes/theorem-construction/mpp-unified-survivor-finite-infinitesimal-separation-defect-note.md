@@ -333,6 +333,23 @@ If these are proved as legal atlas edges, then Family A and Family B are not
 merely bridged by analogy. They are two readout cuts of one terminal survivor
 object.
 
+## Conditional Theorem Packet Audit
+
+The proposed completed `h/F` survivor packet is audited in
+[mpp-unified-survivor-conditional-theorem-packet-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-unified-survivor-conditional-theorem-packet-audit-note.md).
+The audit accepts the packet as a conditional theorem:
+
+```math
+USCP.A+USCP.B+USCP.C+ACT.KX+FCI.5f+\mathsf{End}_{NS}
+\Longrightarrow
+\text{no terminal same-fluid class exit},
+\tag{USS.23}
+```
+
+but keeps `(USCP.S1)`, `(USCP.S2)`, branch projection, and `(B1)`--`(B3)` as
+named theorem atoms rather than treating them as solved by the notation
+`\mathcal S_\ast^{h/F}`.
+
 ## Boundary
 
 This note does not prove:

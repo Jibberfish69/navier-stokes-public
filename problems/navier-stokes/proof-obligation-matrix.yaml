@@ -29,11 +29,8 @@ object_law_refoundation:
     ym_heat_shadow_carrier: derived supplier/export branch on the Law-2-survivor side
     euclidean_strict_shadow: downstream export branch on the Law-2-survivor side
   theorem_queue:
-    - paperize and audit the completed conditional two-lane terminal closure packet: source `FPCR.C+FSCR.C+FCC.C1 -> FCI.5f`, and endpoint `DTC-to-TowerBound + END.Exh + END.Cross + Pack/Part/Field endpoint matrix`
-    - close exact-potential and normal-covector/Hodge witness-to-readout theorems on the surviving one-field readout branches
-    - close the selector-adapted defect-to-strain wall to SG.4 on the downstream Law-2-survivor one-field branch
-    - close BR.lambda2 plus local strong-solution entry
-    - discharge the downstream Euclidean strict-shadow export branch explicitly
+    - paperize and audit the completed conditional two-lane terminal closure packet: receiver `RSCB.NKF => ACT.A => RCF.A => LCI.A`, source `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, and endpoint `DTC-to-TowerBound + END.Exh + END.Cross => End_NS`
+    - keep TPS / SG.4, exact-potential, Hodge / normal-covector, and Euclidean strict-shadow quarantined as downstream context only
 live_theorem_edge:
   route_id: live-authority-edge-navier-stokes
   route_label: Class-membership forward-invariance / endpoint-exclusion route
@@ -43,7 +40,7 @@ live_theorem_edge:
     packet. Receiver closure uses installed `RSCB.NKF` as the retained smooth
     center-ball native forcing certificate and runs
     `RSCB.NKF => ACT.A => RCF.A => LCI.A`. Source closure is the post-`LCI.A`
-    frozen-family packet `FPCR.C+FSCR.C+FCC.C1 => FCI.5f`, with cutoff
+    frozen-family packet `FCC.C1+FSCR.C+FPCR.C => FCI.5f`, with cutoff
     absorption, strain/cascade low-carrier control, and pressure
     low-high/high-low plus resonant/far-tail control. One-field assembly then
     runs `LCI.A+FCI.5f => CSP.A => OFP.A => CFI.A`. Endpoint closure runs
@@ -51,7 +48,7 @@ live_theorem_edge:
     accepted `END.Exh`, `END.Cross`, `END.Pack`, and `END.Field`, yielding
     `End_NS`. The two-lane terminal closure packet is now recorded as endpoint
     analytic readout (`DTC-to-TowerBound`) plus source channels
-    `FPCR.C+FSCR.C+FCC.C1 -> FCI.5f`, with `END.Exh` and `END.Cross`
+    `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, with `END.Exh` and `END.Cross`
     recorded in parallel as certificate/semantic cells. Therefore
     `CFI.A+End_NS => no finite-time class exit`. The older TPS / `SG.4`
     selector wall remains only downstream context.
@@ -914,11 +911,11 @@ obligations:
     The endpoint tower face also keeps the separate `DTC-to-TowerBound`
     bridge: finite-cover `DTC.A` must read out both `U_k` and `K_k`, including
     local pressure/viscous response, before `END.TowerAmp` is available.
-    `FCI.Split` is closed as a formal source-ledger summation; if `(FCI.5f)` is
-    not installed, the open source-side content is `FPCR.C + FSCR.C + FCC.C1`,
-    not the split bridge itself. `END.Exh` is closed only as
-    witness-certificate completeness once the endpoint certificate maps are
-    accepted. Inside `DTC.MA-Energy`, the remaining noncircular affine-center
+    In the current conditional completion packet, `(FCI.5f)` is supplied by
+    the exact three-channel source theorem `FPCR.C + FSCR.C + FCC.C1`, not by
+    the formal split bridge alone. `END.Exh` is recorded as
+    witness-certificate completeness under the accepted endpoint certificate
+    maps. Inside `DTC.MA-Energy`, the remaining noncircular affine-center
     coefficient subledger is `\mathfrak D_1^{aff}\in L^1`,
     `\mathfrak F^{ctr,res}\in L^1`, and `\mathfrak H^{osc,\alpha}\in L^2`,
     with far pressure tail and zero-rung center ledger direct. The bundled

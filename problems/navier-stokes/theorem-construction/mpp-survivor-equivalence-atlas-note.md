@@ -375,6 +375,23 @@ exclude the endpoint cells.}
 \tag{SEA.22}
 ```
 
+## Conditional Packet Interface
+
+The conditional unified-survivor packet audit is recorded in
+[mpp-unified-survivor-conditional-theorem-packet-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-unified-survivor-conditional-theorem-packet-audit-note.md).
+It adds no new edge type. Its role is to enforce the existing atlas law on the
+proposed theorem packet:
+
+```math
+\text{readout identity in }\pi_0(\mathsf{Surv})
+\not\Longrightarrow
+\text{reversible proof transport.}
+\tag{SEA.23}
+```
+
+Thus a proof may spend only directed `BridgeEdge` data, while lossy readout
+edges remain identity/classification data for the survivor component.
+
 ## Boundary
 
 This note does not prove:

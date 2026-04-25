@@ -254,6 +254,22 @@ The strongest current theorem-grade statement is:
 
 That is the sharpest current comparison I can defend on the live lane.
 
+The conditional unified-survivor theorem packet audit now records the promoted
+version of this wall as
+[mpp-unified-survivor-conditional-theorem-packet-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-unified-survivor-conditional-theorem-packet-audit-note.md):
+if `(B1)`, `(B2)`, and `(B3)` are proved as lawful atlas bridges into
+`\mathcal S_\ast^{h/F}`, then
+
+```math
+Family\ A=Family\ B=[\mathcal S_\ast^{h/F}]
+\quad\text{in}\quad
+\pi_0(\mathsf{Surv}).
+\tag{TFI.1}
+```
+
+Without those three bridges, the theorem-grade verdict remains the two-family
+impasse above.
+
 On the MPP object-law surface, this already has one additional consequence:
 because branch readouts are consumers rather than primitive starts, no third
 primitive blowup family is introduced downstream of class exit. The exact
