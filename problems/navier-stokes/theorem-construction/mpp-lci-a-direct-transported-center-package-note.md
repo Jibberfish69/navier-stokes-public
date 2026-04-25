@@ -1668,7 +1668,7 @@ A direct sufficient retained-center condition is:
 
 ```math
 \sum_j
-\|u\|_{L^2_t C^{m+3,\alpha}(B(c_j,r))}
+\|u\|_{L^1_t C^{m+2,\alpha}(B(c_j,r))}
 +
 \sum_j
 \|p\|_{L^1_t C^{m+1,\alpha}(B(c_j,r))}
@@ -1776,7 +1776,7 @@ and
 \le
 \|\Delta U_q(\cdot,t)\|_{L^\infty(B(c_j,r))}
 \le
-\|u(\cdot,t)\|_{C^{q+3}(B(c_j,2\rho_r))}.
+\|u(\cdot,t)\|_{C^{q+2}(B(c_j,2\rho_r))}.
 \tag{DTC.AFF-NKF4e1}
 ```
 
@@ -1793,9 +1793,10 @@ C r^\alpha [f(\cdot,t)]_{C^{0,\alpha}(B(c_j,r))}.
 \tag{DTC.AFF-NKF4f}
 ```
 
-Apply this to `f=K_q` and to the bounded affine-frame transformed components.
-Retained smoothness gives the required `L^1_tC^{0,\alpha}` seminorms, so choose
-`r` so that
+Apply this to the finitely many components of `K_q`, to
+`\mathcal E_j^{(1)}`, and to the bounded affine-frame transformed center
+components. Retained smoothness gives the required `L^1_tC^{0,\alpha}`
+seminorms, so choose `r` so that
 
 ```math
 \|\mathcal K_{\le m}^{ctr}-\mathcal K_{\le m}^{ctr,[r]}\|_{L^1(I_r)}
@@ -3209,9 +3210,13 @@ Equivalently, the completion ledger is:
 15. ACT.A -> RCF.A -> LCI.A, while FCI.5f and endpoint cleanup remain separate.
 ```
 
-This ledger is a proof plan, not a discharge. The sharp next proof targets are
-`NKF.Ann / NKF.Quad`, `ACT.X-Scale`, and `RWS.C_scale`. `ACT.Actr_core` is now the
-post-bootstrap conditional Gronwall bridge from `ACT.Kcore` to
+This ledger is a conditional receiver discharge under the retained-window
+hypotheses, not an unconditional energy result. The live input is the native
+retained smooth center-ball forcing route
+`NKF.Moll + NKF.Point => NKF.Native`, together with the scheduler budgets.
+`ACT.X-Scale` and `RWS.C_scale` are installed conditional bridges, not
+fixed-radius smallness claims. `ACT.Actr_core` is now the post-bootstrap
+conditional Gronwall bridge from `ACT.Kcore` to
 `\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty`; `ACT.X-Press_energy` is the
 in-bootstrap affine local pressure energy decomposition whose only non-`L^1` residue is
 `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`, with top-viscous buffer modes
