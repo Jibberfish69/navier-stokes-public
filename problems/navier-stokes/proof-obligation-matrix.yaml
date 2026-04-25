@@ -29,9 +29,12 @@ object_law_refoundation:
     ym_heat_shadow_carrier: derived supplier/export branch on the Law-2-survivor side
     euclidean_strict_shadow: downstream export branch on the Law-2-survivor side
   theorem_queue:
-    - "install `ORIGIN.Retain` as the final non-assembly mathematical item: derive retained-window hypotheses from the original maximal-solution/class-membership setup"
-    - "treat the conditional terminal packet as installed under `RSCB.NKF`, `ACT.KX-Boot`, bounded pack gauge, finite required parameter set, post-`LCI.A` source closure, and accepted endpoint certificate maps"
+    - "record `ORIGIN.Retain` as installed: original maximal-solution/class-membership setup supplies retained-window hypotheses on compact classical intervals and endpoint persistence follows from `CFI.A+End_NS`"
+    - "paperize the receiver spine as `RSCB.NKF => ACT.A => RCF.A => LCI.A`, with `NKF.Native`, `ACT.KX-Boot`, and `RWS.C_scale` kept as internal retained-window mechanisms"
     - "keep the source side post-`LCI.A`: `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`"
+    - "paperize the endpoint spine as `DTC-to-TowerBound + END.Exh + END.Cross => End_NS`, with `END.Pack` and `END.Field` as installed certificate exclusions"
+    - "paperize the terminal spine as `CFI.A + End_NS => no finite-time class exit`"
+    - "preserve the boundary: retained-window receiver hypotheses, bounded pack gauge, finite required parameter set, post-`LCI.A` source closure, and accepted endpoint certificate maps"
     - "keep TPS / SG.4, exact-potential, Hodge / normal-covector, and Euclidean strict-shadow quarantined as downstream context only"
 live_theorem_edge:
   route_id: live-authority-edge-navier-stokes
@@ -52,9 +55,11 @@ live_theorem_edge:
     analytic readout (`DTC-to-TowerBound`) plus source channels
     `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, with `END.Exh` and `END.Cross`
     recorded in parallel as certificate/semantic cells. Therefore
-    `CFI.A + End_NS => no finite-time class exit`. The final non-assembly
-    mathematical item beyond this conditional packet is `ORIGIN.Retain`. The
-    older TPS / `SG.4` selector wall remains only downstream context.
+    `CFI.A + End_NS => no finite-time class exit`. `ORIGIN.Retain` is now
+    installed as the original-data upgrade: it derives retained-window
+    hypotheses on compact classical intervals and uses `CFI.A+End_NS` to
+    exclude first finite retained-window/class endpoints. The older TPS /
+    `SG.4` selector wall remains only downstream context.
   paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
     "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
     "problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md",
