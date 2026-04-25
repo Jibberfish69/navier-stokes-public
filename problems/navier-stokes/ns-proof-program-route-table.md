@@ -215,7 +215,7 @@ below the `eta_X` threshold, the `X_exc^(1/2)N` term is absorbed and
 modes must be split into `A_core^ctr` and `A_buf^ctr`, and a full-strip proof
 needs a small-budget scheduler or retained-window decomposition.
 
-The named atom split is:
+The named atom split is now joint:
 
 ```text
 ACT.X-Def:
@@ -224,23 +224,24 @@ ACT.X-Def:
   A_core^ctr is the lower pre-pressure center ledger.
   A_buf^ctr is the m+1,m+2 readout/top-viscous buffer ledger.
 
-ACT.X-Energy:
-  dX_exc + cN <= L X_exc + (C_cut+C_press) X_exc^(1/2) N + F.
-
-ACT.X-Boot:
-  the eta_X first-exit argument absorbs only X_exc^(1/2)N.
+ACT.KX:
+  simultaneous core/excess block with
+  dX_exc + cN <= (L0+C A_core)X_exc + C_X X_exc^(1/2)N + F0,
+  dA_core <= K_le_m^ctr + T_tri(A_core),
+  K_le_m^ctr <= C(X_exc^(1/2)N^(1/2)+X_exc)+F_K.
+  The eta_X first-exit argument absorbs only X_exc^(1/2)N.
 
 ACT.X-Readout:
-  spends Y_read; A_core^ctr is supplied by ACT.Actr_core and A_buf^ctr is
-  recovered through readout/buffer control, not pre-pressure Gronwall data.
+  spends Y_read after ACT.KX supplies A_core^ctr; A_buf^ctr is recovered through
+  readout/buffer control, not pre-pressure Gronwall data.
 
 Scheduler:
   restart only X_exc at budget endpoints using the current transported center frame.
 ```
 
-The center-amplitude rule is a live estimate, not bookkeeping. It must be
-proved directly from the affine-center equations or explicitly paid for inside
-`L,F` before `ACT.X-Readout` is promoted.
+The center-amplitude rule is part of the live joint theorem, not bookkeeping.
+It is carried in `ACT.KX` because the middle block contains genuine zero-mode
+linear coefficients.
 
 Sharper form:
 
@@ -253,9 +254,8 @@ K_le_m^ctr:
 
 ACT.Kcore:
   K0.Core + E1.Aff + Kmid.Core => K_le_m^ctr in L1(I).
-  This is supplied post-bootstrap by ACT.KX after RSCB.NKF supplies
-  NKF.Native: NKF.Native + NKF.Ann + NKF.Quad + AXE.A + ACT.X-Scale + ACT.X-Boot
-  + RWS.C_scale first produce ACT.X-Press_cell.
+  This is read after ACT.KX supplies the joint bootstrap. It is not a
+  pre-ACT.KX supplier.
   Residual pressure is read from ACT.X-Press_cell after subtracting the native
   affine normal-form pressure p_j^aff from p_j^loc.
   This normal form annihilates affine and affine-linear center pressure modes.
@@ -264,14 +264,13 @@ ACT.Kcore:
 
 Routing:
   RSCB.NKF => NKF.Moll + NKF.Point => NKF.Native.
-  NKF.Native + NKF.Ann + NKF.Quad + AXE.A + ACT.X-Scale + ACT.X-Boot + RWS.C_scale
-  => ACT.X-Press_cell => ACT.Kcore.
-  ACT.Kcore => ACT.Actr_core.
-  NKF.Native + ACT.X-Press_energy => AXE.2.
+  NKF.Native + NKF.Ann + NKF.Quad + ACT.X-Cut + ACT.X-Press_energy
+  + ACT.X-MidRaw + ACT.X-TopVisc + ACT.X-Scale + RWS.C_scale => ACT.KX.
+  ACT.KX => ACT.X-Press_cell => ACT.Kcore => ACT.Actr_core.
 
 A_buf^ctr:
   contains the m+1 and m+2 readout/top-viscous buffer modes.
-  It is recovered through Y_read after ACT.X-Boot. A pre-boot proof would
+  It is recovered through Y_read after ACT.KX. A pre-boot proof would
   require optional top forcing sum_{q=m+1}^{m+2}|Ktilde_q|^2 in L1(I), which
   risks rung creep.
 
@@ -300,15 +299,12 @@ RSCB.NKF
 
 then
 
-ACT.Actr_core
-+ ACT.X-Def
-+ ACT.X-Energy
+ACT.KX
 + ACT.X-Cut
 + ACT.X-Press_energy
-+ ACT.X-Mid
++ ACT.X-MidRaw
 + ACT.X-TopVisc
 + ACT.X-Scale
-+ ACT.X-Boot
 + RWS.C_scale
 + ACT.X-Readout
 => ACT.A

@@ -982,22 +982,21 @@ obligations:
     `NKF.Moll + NKF.Point => NKF.Native`, together with the scheduler budgets.
     `ACT.X-Scale` and `RWS.C_scale` are installed conditional bridges, not
     fixed-radius smallness claims.
-    Sharpened obligations: `ACT.Actr_core` is now the conditional Gronwall
-    bridge `K_{\le m}^{ctr} in L^1(I) => A_core^ctr in L^\infty(I)`, so the
-    live residue beneath it is `ACT.Kcore`, now obtained post-bootstrap inside
-    `ACT.KX`, not from a pre-bootstrap pressure-cell ledger. The top
-    `m+1,m+2` modes are `A_buf^ctr` readout/top-viscous buffer data, not
-    pre-pressure Gronwall data unless an optional stronger top-forcing route is
-    chosen. The named joint supplier is `ACT.KX` after `RSCB.NKF` supplies
-    `NKF.Native`: `NKF.Native + NKF.Ann + NKF.Quad + AXE.A + ACT.X-Scale +
-    ACT.X-Boot + RWS.C_scale => ACT.X-Press_cell +
-    ACT.Kcore + ACT.Actr_core + ACT.A`. `ACT.Kcore` remains the ledger identity
-    `K0.Core + E1.Aff + Kmid.Core`; its pressure cells are read as
-    `ACT.X-Press_cell` only after `ACT.X-Boot`, and its top-viscous line is
-    forcing/readout, not
-    pre-pressure `A_buf` amplitude. Any estimate of `ACT.Kcore` that spends
-    `A_core`, `H^{osc}`, or `Y_read` is only a post-readout bound, not the
-    licensed source for `ACT.Kcore` before the `ACT.KX` bootstrap.
+    Sharpened obligations: `ACT.KX` is now the simultaneous core/excess theorem
+    replacing the linear route `AXE.A -> ACT.X-Boot -> ACT.Kcore ->
+    ACT.Actr_core`. This is necessary because `ACT.X-MidRaw` contains genuine
+    zero-mode linear terms `U_tilde R + R U_tilde`, so `A_core^ctr` is a live
+    coefficient in the affine-excess equation. The joint block uses
+    `J=X_exc+theta A_core` while only `X_exc` enters the small absorption term.
+    The top `m+1,m+2` modes remain `A_buf^ctr` readout/top-viscous buffer data,
+    not pre-pressure Gronwall data unless an optional stronger top-forcing route
+    is chosen. The named joint supplier is `ACT.KX` after `RSCB.NKF` supplies
+    `NKF.Native`: `NKF.Native + NKF.Ann + NKF.Quad + ACT.X-Cut +
+    ACT.X-Press_energy + ACT.X-MidRaw + ACT.X-TopVisc + ACT.X-Scale +
+    RWS.C_scale => ACT.KX`. `ACT.Kcore` remains the ledger identity
+    `K0.Core + E1.Aff + Kmid.Core`; its pressure cells are read after `ACT.KX`
+    supplies `X_exc in Linfty`, `N in L1`, `K_{\le m}^{ctr} in L1`, and
+    `A_core^ctr in Linfty`.
     `NKF.Native` is supplied by `RSCB.NKF`, the retained smooth center-ball
     certificate for pointwise center pressure/viscous forcing; finite energy
     plus pressure Poisson response alone does not supply those center
@@ -1016,14 +1015,14 @@ obligations:
     and its center-cell functionals annihilate both affine and affine-linear
     pressure modes. The cell theorem controls `pi_j^loc=p_j^loc-p_j^aff` through
     a quadratic affine-excess core plus projected annular/harmonic/far-tail terms; its
-    `L^1` consequence uses `X_exc in Linfty` and `N in L1` from `ACT.X-Boot`.
+    `L^1` consequence uses `X_exc in Linfty` and `N in L1` from `ACT.KX`.
     The energy form is the same residual local pressure decomposition inside
     `AXE.A`: the quadratic core produces the scale-small residue
     `C_press X_exc^(1/2) N`, while projected annular and harmonic terms enter the
     `L_press X_exc + F_press` side. The finite pressure far-tail is
     energy-controlled in `L^\infty(I)`. The top-viscous part reads `m+1,m+2`
     only through `A_buf` inside `Y_read`, not through the pre-pressure core.
-    `ACT.X-Boot` must absorb `(C_cut+C_press)X_exc^(1/2)N`. It spends no
+    `ACT.KX` must absorb `(C_cut+C_press)X_exc^(1/2)N`. It spends no
     `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
     The endpoint block is now closed under the endpoint packet:
     `DTC-to-TowerBound` supplies `END.TowerAmp` from a finite transported-center
