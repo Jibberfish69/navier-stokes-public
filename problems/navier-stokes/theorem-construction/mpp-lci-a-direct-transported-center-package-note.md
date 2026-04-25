@@ -3448,36 +3448,49 @@ bare coefficient slogan to a concrete affine packet theorem.
 ### Bridge-License Boundary
 
 The affine packet does **not** by itself install the source-side theorem
-`(FCI.5f)`. To promote the source side through the currently stated route, one
-must prove a separate post-`LCI.A` sufficient source bridge:
+`(FCI.5f)`. The separate post-`LCI.A` sufficient source bridge is now the
+three-channel frozen-family packet:
 
 ```math
 LCI.A
 \Longrightarrow
 FPCR.C+FSCR.C+FCC.C1
 \Longrightarrow
-(FCI.5f),
+(FCI.5f).
 \tag{DTC.AFF22}
 ```
 
-where `FSCR.C` and the low-high pressure pieces may spend the low-carrier
-ledger supplied after receiver closure. This is a sufficient source route, not
-a proof that `(FCI.5f)` was available before `LCI.A`; if an exact pre-receiver
-source theorem is wanted, `FPCR.C`, `FSCR.C`, and `FCC.C1` must be proved
-without importing the receiver conclusion back into the source ledger.
+Here `FCC.C1` absorbs the cutoff channel into viscous dissipation plus
+`\mathfrak b_\psi^{cut}\mathcal F_{N,\rho,\psi}^{\varepsilon}` with
+`\mathfrak b_\psi^{cut}\in L^1(I)`, `FSCR.C` is the finite strain/cascade
+Leibniz bound
+`C_N(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})\mathcal F_{N,\rho,\psi}^{\varepsilon}`,
+and `FPCR.C` is the frozen pressure split into low-high/high-low, resonant
+finite-net, and energy-controlled far-tail pieces. `FSCR.C` and the
+low-high/high-low pressure pieces may spend the low-carrier ledger supplied
+after receiver closure. This is a sufficient post-`LCI.A` source route, not a
+proof that `(FCI.5f)` was available before `LCI.A`.
 
-The affine packet also does **not** install the endpoint block. The endpoint
-status remains:
+The affine packet also does **not** itself install the endpoint block. The
+endpoint side is now discharged by the separate endpoint packet:
 
 ```math
-END.Exh+END.TowerAmp+END.Cross
+DTC\text{-to-TowerBound}
+\Longrightarrow
+END.TowerAmp
+\Longrightarrow
+END.TowerBound,
+\qquad
+END.Exh+END.Cross
 \tag{DTC.AFF23}
 ```
 
-with `END.TowerBound` formal only after `END.TowerAmp` supplies the actual
-finite-depth tower amplitude bound, and `END.Cross` formal only after the
-cross-entry certificate reductions are installed. The already-installed entry
-is still `(Part,Dead)`, not the full endpoint matrix.
+The `DTC-to-TowerBound` bridge uses a finite transported-center cover of `Q_t`,
+`DTC.A` at depth at least `N+2`, Morrey readout for the `U_k`, and the local
+pressure/viscous identity `K_k=-\nabla^{k+1}p+\nu\Delta U_k` for the `K_k`.
+`END.Exh` is the accepted witness-certificate completeness theorem, and
+`END.Cross` reduces blown, jump, and dead cross-entries to the installed native
+rows plus `END.TowerBound`, `END.Pack`, and `END.Field`.
 
 ## Theorem `DTC.B` (`DTC.A` supplies the transported-center package)
 
@@ -4000,47 +4013,64 @@ ULCI(\mathscr P_{\rm req}).
 ```
 
 Consequently the receiver side is formal after the ordered affine-excess package
-in `(DTC.36b)` is installed for every required parameter instance. The full lane
-then still spends `(FCI.5f)` in the collar/one-field assembly unless that
-source-side theorem is separately promoted as installed.
-
-With `(FCI.5f)` installed, the remaining theorem work is:
+in `(DTC.36b)` is installed for every required parameter instance. The
+source-side and endpoint-side packets are now separately promoted under the
+post-`LCI.A` source hypotheses and accepted endpoint certificates:
 
 ```math
-\boxed{
-NKF.Native
-+
-AXE.A
-+
-ACT.X\text{-}Scale
-+
-RWS.C_{\mathrm{scale}}
-}
+FCC.C1\to FSCR.C\to FPCR.C\to FCI.5f,
 \qquad
-\text{and}
+DTC\text{-to-TowerBound}\to END.TowerAmp\to END.TowerBound,
 \qquad
-\boxed{
-END.Exh+END.TowerAmp+END.Cross.
-}
+END.Exh+END.Cross.
 \tag{DTC.38}
 ```
 
-Without that source-side promotion, the honest terminal list is:
+The full terminal ledger is therefore:
 
 ```math
-\boxed{
-NKF.Native
-+
-AXE.A
-+
-ACT.X\text{-}Scale
-+
-RWS.C_{\mathrm{scale}}
-}
-+
-\boxed{FPCR.C+FSCR.C+FCC.C1}
-+
-\boxed{END.Exh+END.TowerAmp+END.Cross}.
+RSCB.NKF
+\Longrightarrow
+ACT.A
+\Longrightarrow
+RCF.A
+\Longrightarrow
+LCI.A,
+\tag{DTC.39a}
+```
+
+```math
+FCC.C1+FSCR.C+FPCR.C
+\Longrightarrow
+FCI.5f,
+\tag{DTC.39b}
+```
+
+```math
+LCI.A+FCI.5f
+\Longrightarrow
+CSP.A
+\Longrightarrow
+OFP.A
+\Longrightarrow
+CFI.A,
+\tag{DTC.39c}
+```
+
+```math
+DTC\text{-to-TowerBound}
++END.Exh+END.Cross+END.Pack+END.Field+END.TowerBound
+\Longrightarrow
+\mathsf{End}_{NS},
+\tag{DTC.39d}
+```
+
+and hence
+
+```math
+CFI.A+\mathsf{End}_{NS}
+\Longrightarrow
+\text{no finite-time class exit}.
 \tag{DTC.39}
 ```
 
