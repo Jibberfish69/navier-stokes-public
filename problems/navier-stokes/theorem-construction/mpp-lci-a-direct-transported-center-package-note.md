@@ -3171,8 +3171,8 @@ derivative slot with `\sigma_{\beta,q}=-3` is not part of
 `\mathcal X^{exc}`; it belongs in `Y_{\mathrm{read}}`, because radius shrink
 does not force it small.
 
-The `ACT.X-Boot` sublemma inside `ACT.KX` consumes only the resulting scale
-seed. Set
+The conditional route theorem `ACT.KX` consumes the resulting scale seed and
+the joint small-budget scheduler. Set
 
 ```math
 \eta_X:=\left(\frac{c_\nu}{4C_X}\right)^2,
@@ -3181,7 +3181,31 @@ seed. Set
 \tag{DTC.AFF-XBoot1}
 ```
 
-The boot theorem is the three-part theorem
+Use Young on the core forcing ledger:
+
+```math
+(\mathcal X^{exc})^{1/2}\mathcal N^{1/2}
+\le
+\delta\mathcal N+C_\delta\mathcal X^{exc}.
+\tag{DTC.AFF-KX4}
+```
+
+Thus the third line of `(DTC.AFF-KX0)` becomes
+
+```math
+\mathcal K_{\le m}^{ctr}
+\le
+\delta\mathcal N
++
+C_\delta\mathcal X^{exc}
++
+F_K(t).
+\tag{DTC.AFF-KX5}
+```
+
+This is an in-bootstrap estimate, not a post-readout pressure-cell input.
+
+The `ACT.KX` scheduler is the retained-window theorem
 
 ```math
 ACT.X\text{-}Seed
@@ -3192,7 +3216,11 @@ ACT.X\text{-}Absorb
 \Longrightarrow
 \mathcal X^{exc}\in L^\infty(I),
 \qquad
-\mathcal N\in L^1(I).
+\mathcal N\in L^1(I),
+\qquad
+\mathcal K_{\le m}^{ctr}\in L^1(I),
+\qquad
+\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I).
 \tag{DTC.AFF-XBoot2}
 ```
 
@@ -3227,8 +3255,22 @@ such that
 \tag{DTC.AFF-XSched1}
 ```
 
-on every `I_a`. This partition uses only the `L^1` budgets after the small
-starts are supplied.
+on every `I_a`, where `L` includes the active coefficient
+`L_0+C_A\mathcal A_{\mathrm{core}}^{ctr}` after the center ledger has been
+closed on that same interval. Equivalently, the retained partition is chosen so
+that the budgets
+
+```math
+\int_{I_a}(L_0+C_A\mathcal A_{\mathrm{core}}^{ctr})\,dt,
+\qquad
+\int_{I_a}F_0\,dt,
+\qquad
+\int_{I_a}F_K\,dt
+\tag{DTC.AFF-XSched2}
+```
+
+stay below the fixed absorption budget. This is why `ACT.KX` is simultaneous:
+the center coefficient is not an external pre-bootstrap input.
 
 `ACT.X-Absorb` fixes one retained interval and lets `T_\ast` be the first time
 with
@@ -3256,23 +3298,44 @@ so
 +
 \frac{c_\nu}{2}\mathcal N
 \le
-L(t)\mathcal X^{exc}+F(t).
+(L_0+C_A\mathcal A_{\mathrm{core}}^{ctr})\mathcal X^{exc}
++
+F_0(t).
 \tag{DTC.AFF-XAbs2}
 ```
 
-Gronwall plus `(DTC.AFF-XSched1)` gives
-`\mathcal X^{exc}(t)\le2\eta_X`, contradicting the first exit at `4\eta_X`.
-Hence `\sup_{I_a}\mathcal X^{exc}\le2\eta_X`, and integrating
-`(DTC.AFF-XAbs2)` gives `\mathcal N\in L^1(I_a)`. Summing over the finite
-retained partition gives `(DTC.AFF-XBoot2)`.
+Meanwhile the center equations are finite-depth triangular:
 
-`ACT.X-Readout` then uses the full readout packet `\mathcal Y^{read}`: local
-Morrey gives `\mathfrak H^{osc,\alpha}\in L^2(I)`, the affine first-rung
-response gives `\mathfrak D_1^{aff}\in L^1(I)`, and the local
-pressure/top-viscous response through the included `m+2` center modes gives
-`\mathfrak F^{ctr,res}\in L^1(I)`, provided the separate center-amplitude
-core ledger satisfies `ACT.Actr_core` and the buffer modes are recovered through
-the bounded readout packet `\mathcal Y^{read}` rather than smuggled into the
+```math
+\frac{d}{dt}\mathcal A_{\mathrm{core}}^{ctr}
+\le
+\mathcal K_{\le m}^{ctr}
++
+\mathcal T_{\mathrm{tri}}(\mathcal A_{\mathrm{core}}^{ctr}),
+\qquad
+\mathcal K_{\le m}^{ctr}
+\le
+\delta\mathcal N+C_\delta\mathcal X^{exc}+F_K.
+\tag{DTC.AFF-KX6}
+```
+
+Rung `q` depends only on lower center rungs and `\mathcal K_q`; finite induction
+over `q\le m`, together with `(DTC.AFF-KX6)`, gives
+`\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I_a)` and
+`\mathcal K_{\le m}^{ctr}\in L^1(I_a)` on the same scheduler interval once the
+budget in `(DTC.AFF-XSched2)` is imposed. Inserting this into
+`(DTC.AFF-XAbs2)`, Gronwall gives `\mathcal X^{exc}(t)\le2\eta_X`, contradicting
+the first exit at `4\eta_X`. Hence `\sup_{I_a}\mathcal X^{exc}\le2\eta_X`, and
+integrating `(DTC.AFF-XAbs2)` gives `\mathcal N\in L^1(I_a)`. Summing over the
+finite retained partition proves `(DTC.AFF-XBoot2)`.
+
+After `ACT.KX`, `ACT.X-Readout` uses the full readout packet
+`\mathcal Y^{read}`: local Morrey gives
+`\mathfrak H^{osc,\alpha}\in L^2(I)`, the affine first-rung response gives
+`\mathfrak D_1^{aff}\in L^1(I)`, and the local pressure/top-viscous response
+through the included `m+2` center modes gives
+`\mathfrak F^{ctr,res}\in L^1(I)`. The buffer modes are recovered through the
+bounded readout packet `\mathcal Y^{read}` rather than smuggled into the
 pre-pressure Gronwall step.
 
 When `ACT.X-Scale` chooses a smaller restart radius, the fixed-radius readout is
@@ -3284,39 +3347,42 @@ plus the small-ball full readout packets, recovers the fixed-radius
 
 #### Theorem `AXP.A` (Affine-Excess Propagation)
 
-The scale-small branch is most cleanly recorded as the following theorem. On an
-affine retained interval, assume:
+The scale-small branch is now recorded as the following theorem. On an affine
+retained interval, assume the conditional `ACT.KX` package has been run:
 
 ```math
-ACT.X\text{-}Def
-+
-ACT.X\text{-}Energy
+ACT.KX
 \tag{AXP.0}
 ```
 
-with `L,F\in L^1` and with the center zero modes separated into the
-core/buffer readout ledger rather than included in the small excess. Choose
-`\eta_X=(c_\nu/(4C_X))^2`, assume `ACT.X-Scale` supplies the seed radius at
-`t_0`, and assume the small-budget condition
+with the center zero modes separated into the core/buffer readout ledger rather
+than included in the small excess. Choose `\eta_X=(c_\nu/(4C_X))^2`, assume
+`ACT.X-Scale` supplies the seed radius at `t_0`, and assume the joint
+small-budget condition
 
 ```math
 \mathcal X^{exc}(t_0;R_0)\le\eta_X,
 \qquad
 \left(
-\eta_X+\int_{t_0}^{t_1}F(s)\,ds
+\eta_X+\int_{t_0}^{t_1}F_0(s)\,ds+\int_{t_0}^{t_1}F_K(s)\,ds
 \right)
-\exp\left(\int_{t_0}^{t_1}L(s)\,ds\right)
+\exp\left(\int_{t_0}^{t_1}
+(L_0(s)+C_A\mathcal A_{\mathrm{core}}^{ctr}(s))\,ds\right)
 \le
 2\eta_X.
 \tag{AXP.1}
 ```
 
-Then the first-exit argument gives
+Then the first-exit/triangular-center argument gives
 
 ```math
 \mathcal X^{exc}\in L^\infty([t_0,t_1]),
 \qquad
-\mathcal N\in L^1([t_0,t_1]).
+\mathcal N\in L^1([t_0,t_1]),
+\qquad
+\mathcal K_{\le m}^{ctr}\in L^1([t_0,t_1]),
+\qquad
+\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty([t_0,t_1]).
 \tag{AXP.2}
 ```
 
@@ -3379,23 +3445,25 @@ C_X(\mathcal X^{exc})^{1/2}\mathcal N
 \tag{AXP.5}
 ```
 
-Absorbing this term in the affine-excess line of `ACT.KX`, while the
-`\mathcal A_{\mathrm{core}}^{ctr}` coefficient is carried in the joint
-`\mathcal J` scheduler, yields
+Absorbing this term in the affine-excess line of `ACT.KX`, while the center
+system is controlled by `(DTC.AFF-KX6)`, yields
 
 ```math
 \frac{d}{dt}\mathcal X^{exc}
 +
 \frac{c_\nu}{2}\mathcal N
 \le
-L(t)\mathcal X^{exc}
+(L_0+C_A\mathcal A_{\mathrm{core}}^{ctr})\mathcal X^{exc}
 +
-F(t).
+F_0(t).
 \tag{AXP.6}
 ```
 
-Gronwall and `(AXP.1)` imply `\mathcal X^{exc}(t)\le2\eta_X` before
-the putative exit, so `T_\ast` cannot occur. Integrating `(AXP.6)` then gives
+The triangular center induction gives
+`\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty([t_0,t_1])` and
+`\mathcal K_{\le m}^{ctr}\in L^1([t_0,t_1])` on the same budget interval.
+Gronwall and `(AXP.1)` then imply `\mathcal X^{exc}(t)\le2\eta_X` before the
+putative exit, so `T_\ast` cannot occur. Integrating `(AXP.6)` gives
 `\mathcal N\in L^1([t_0,t_1])`. The readouts in `(AXP.3)` are exactly the
 `ACT.X-Readout` hypotheses applied to the bounded full readout packet
 `\mathcal Y^{read}=\mathcal A_{\mathrm{core}}^{ctr}
@@ -4320,3 +4388,236 @@ and the endpoint cells
 DTC\text{-to-TowerBound},\qquad END.Exh,\qquad END.Cross.
 \tag{DTC.41b}
 ```
+
+The ordered closure program splits those cells into two independent lanes.
+
+### Source Lane
+
+The source-side lane is
+
+```math
+FCC.C1
+\Longrightarrow
+FSCR.C
+\Longrightarrow
+FPCR.C
+\Longrightarrow
+(FCI.5f).
+\tag{DTC.42}
+```
+
+For `FCC.C1`, the frozen-net cutoff channel is localization-created:
+
+```math
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}
+=
+\sum_{\ell=1}^{M_\varepsilon}
+|\mathcal C_N^{cut}(\eta^\ell,t;\psi)|.
+\tag{DTC.42a}
+```
+
+The required estimate is the cutoff absorption
+
+```math
+|\mathcal C_N^{cut}(\eta^\ell,t;\psi)|
+\le
+\mathfrak b_\psi^{cut}(t)
+\mathcal F_{N,\rho,\psi}^{\varepsilon}(t),
+\qquad
+\mathfrak b_\psi^{cut}\in L^1(I),
+\qquad
+\mathcal F_{N,\rho,\psi}^{\varepsilon}\in L^\infty(I).
+\tag{DTC.42b}
+```
+
+With finite frozen net size this gives
+`\mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}\in L^1(I)`.
+
+For `FSCR.C`, the finite Leibniz/triangular algebra gives
+
+```math
+|\mathcal S_N(\eta^\ell,t;\psi)|
++
+|\mathcal R_N(\eta^\ell,t;\psi)|
+\le
+C\,
+\Gamma_{N,m,\rho,\psi}^{low}(t)
+\mathcal F_{N,\rho,\psi}^{\varepsilon}(t).
+\tag{DTC.42c}
+```
+
+After receiver closure, `LCI.A` supplies
+`\Gamma_{N,m,\rho,\psi}^{low}\in L^1(I)`, while the frozen packet aggregate is
+bounded. Therefore the strain/cascade channel lies in `L^1(I)`.
+
+For `FPCR.C`, split pressure on each frozen packet support as `p=p^{loc}+h`,
+with
+
+```math
+-\Delta p^{loc}
+=
+\partial_i\partial_j(\eta u_i u_j),
+\tag{DTC.42d}
+```
+
+and decompose
+
+```math
+\mathcal N^{press}
+\le
+C\left(
+\mathcal N^{LH/HL}
++
+\mathcal N^{RR}
++
+\mathcal T^{far}
+\right).
+\tag{DTC.42e}
+```
+
+The low-high/high-low and resonant finite-net pieces are controlled by the
+low-carrier ledger and the bounded frozen packet family, while the far tail
+satisfies
+
+```math
+\mathcal T^{far}(t)
+\le
+C\|u(\cdot,t)\|_{L^2}^2
+\le
+C\|u_0\|_{L^2}^2.
+\tag{DTC.42f}
+```
+
+Hence `FPCR.C` holds on the post-`LCI.A` source route, and `(FCI.5f)` follows by
+the already-closed source split.
+
+### Endpoint Lane
+
+The endpoint lane is
+
+```math
+DTC\text{-to-TowerBound}
+\Longrightarrow
+END.TowerBound,
+\qquad
+END.Exh,
+\qquad
+END.Cross.
+\tag{DTC.43}
+```
+
+For `DTC-to-TowerBound`, use a finite transported-center cover
+
+```math
+Q_t
+\subset
+\bigcup_{\mathfrak p\in\mathscr P_Q}
+B(c_{\mathfrak p}(t),R_{\mathfrak p}^{TC}).
+\tag{DTC.43a}
+```
+
+On each cover element, `DTC.A_{\mathfrak p}` gives
+`\mathcal Z_{\mathfrak p}^{TC}\in L^\infty(I)`. Morrey gives the `U_k`
+amplitudes:
+
+```math
+\sup_{B(c_{\mathfrak p},R)}
+|U_k|
+\le
+C(\mathcal Z_{\mathfrak p}^{TC})^{1/2}.
+\tag{DTC.43b}
+```
+
+For `K_k`, use
+
+```math
+K_k
+=
+-\nabla^{k+1}p+\nu\Delta U_k.
+\tag{DTC.43c}
+```
+
+Choose DTC depth at least `N+2`; the viscous part reads from `U_{k+2}`, and
+local pressure response plus energy far-tail gives
+
+```math
+\sup_{B(c_{\mathfrak p},R)}
+|\nabla^{k+1}p|
+\le
+C\left(
+1+\mathcal Z_{\mathfrak p}^{TC}+\|u_0\|_{L^2}^2
+\right).
+\tag{DTC.43d}
+```
+
+The finite cover yields
+
+```math
+\mathfrak A_{N,Q}\in L^\infty(I).
+\tag{DTC.43e}
+```
+
+Thus `END.TowerBound` is formal: bounded tower amplitude rules out
+`tower-blown`.
+
+For `END.Exh`, the witness identity
+
+```math
+CM
+=
+Pack\wedge Part\wedge Field
+\tag{DTC.43f}
+```
+
+and the accepted certificate maps give
+
+```math
+\neg CM
+\Longrightarrow
+Dead
+\vee
+packing\text{-}detached
+\vee
+tower\text{-}blown
+\vee
+Jump.
+\tag{DTC.43g}
+```
+
+For `END.Cross`, use the blown gauge split
+
+```math
+\mathfrak B_{N,Q}
+=
+\Gamma_{\mathrm{pack},Q}
++
+\mathfrak A_{N,Q},
+\tag{DTC.43h}
+```
+
+so blown reduces to packing-detached or tower-blown; jump cross-entries reduce
+by `Pack+Part+Jump => Field`-coherence fracture; and dead cross-entries reduce
+to the installed `(Part,Dead)` row. Hence
+
+```math
+DTC\text{-to-TowerBound}+END.Exh+END.Cross
+\Longrightarrow
+\mathsf{End}_{NS}.
+\tag{DTC.43i}
+```
+
+The preferred execution order is therefore
+
+```math
+DTC\text{-to-TowerBound}
+\to
+FCC.C1
+\to
+FSCR.C
+\to
+FPCR.C,
+\tag{DTC.44}
+```
+
+with `END.Exh` and `END.Cross` recorded in parallel as certificate/semantic
+cells.

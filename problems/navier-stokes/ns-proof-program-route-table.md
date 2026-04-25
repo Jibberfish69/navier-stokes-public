@@ -293,19 +293,16 @@ Compact receiver chain:
 RSCB.NKF
 => NKF.Moll + NKF.Point
 => NKF.Native
-=> NKF.A
-=> ACT.Kcore
-=> ACT.Actr_core
-
-then
-
-ACT.KX
 + ACT.X-Cut
 + ACT.X-Press_energy
 + ACT.X-MidRaw
 + ACT.X-TopVisc
 + ACT.X-Scale
 + RWS.C_scale
+=> ACT.KX
+=> ACT.X-Press_cell
+=> ACT.Kcore
+=> ACT.Actr_core
 + ACT.X-Readout
 => ACT.A
 => RCF.A

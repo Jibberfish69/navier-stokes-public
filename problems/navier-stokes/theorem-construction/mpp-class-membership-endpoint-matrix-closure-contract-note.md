@@ -215,50 +215,76 @@ DTC.A_{\mathfrak p_i}
 \tag{END.6e}
 ```
 
-holds and the local pressure/viscous response supplies
+holds, then the same DTC readout supplies the local tower amplitude, including
+the `K_k` terms. For `U_k`, `DTC.A_{\mathfrak p_i}` gives the local `H^2`
+transported-center packet for all `0\le k\le N+2` on the larger ball. Fixed
+radius Morrey gives
+
+```math
+\sup_{t\in I}
+\sup_{1\le i\le J_Q}
+\sum_{k=0}^{N}
+\|U_k(\cdot,t)\|_{L^\infty(B(c_i(t),R_i/2))}
+<\infty,
+\tag{END.6f}
+```
+
+and also bounds the viscous readout rungs `U_{k+2}`.
+
+For `K_k`, use
+
+```math
+K_k
+=
+-\nabla^{k+1}p+\nu\Delta U_k.
+\tag{END.6g}
+```
+
+The viscous part reads from `U_{k+2}` and is covered by the `N+2` depth. The
+pressure part is controlled on each fixed transported-center ball by the local
+pressure response plus the energy far tail:
+
+```math
+\sup_{B(c_i(t),R_i/2)}
+|\nabla^{k+1}p|
+\le
+C\left(
+1+\mathcal Z_{\mathfrak p_i}^{TC}(t)+\|u_0\|_{L^2}^2
+\right).
+\tag{END.6h}
+```
+
+Since `\mathcal Z_{\mathfrak p_i}^{TC}\in L^\infty(I)` for the finite cover,
 
 ```math
 \sup_{t\in I}
 \sup_{1\le i\le J_Q}
 \sum_{k=0}^{N}
 \|K_k(\cdot,t)\|_{L^\infty(B(c_i(t),R_i/2))}
-<\infty,
-\tag{END.6f}
+<\infty.
+\tag{END.6i}
 ```
 
-then
+Therefore
 
 ```math
 END.TowerAmp:
 \qquad
 \mathfrak A_{N,Q}\in L^\infty(I).
-\tag{END.6g}
+\tag{END.6j}
 ```
 
-Indeed, `DTC.A_{\mathfrak p_i}` gives the local `H^2` transported-center packet
-for all `U_k`, `0\le k\le N`, on the larger ball. Fixed-radius local Sobolev
-gives
-
-```math
-\sup_{t\in I}
-\|U_k(\cdot,t)\|_{L^\infty(B(c_i(t),R_i/2))}
-<\infty
-\qquad(0\le k\le N).
-\tag{END.6h}
-```
-
-Together with `(END.6f)` and the finite cover `(END.6d)`, this yields
-`\mathfrak A_{N,Q}\in L^\infty(I)`. Thus the endpoint tower face reduces to:
+by summing `(END.6f)` and `(END.6i)` over the finite cover `(END.6d)`. Thus the
+endpoint tower face reduces to:
 
 ```math
 DTC\text{-}to\text{-}TowerBound:
 \quad
 \bigwedge_i DTC.A_{\mathfrak p_i}
-+
-\text{local }K_k\text{ pressure/viscous readout}
+\text{ through depth }N+2
 \Longrightarrow
 END.TowerAmp.
-\tag{END.6i}
+\tag{END.6k}
 ```
 
 This bridge does not add a new receiver loop: its analytic content is exactly

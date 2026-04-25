@@ -29,7 +29,7 @@ object_law_refoundation:
     ym_heat_shadow_carrier: derived supplier/export branch on the Law-2-survivor side
     euclidean_strict_shadow: downstream export branch on the Law-2-survivor side
   theorem_queue:
-    - remaining terminal blocks are exactly the post-LCI.A source channels `FCC.C1`, `FSCR.C`, `FPCR.C`, plus endpoint cells `DTC-to-TowerBound`, `END.Exh`, and `END.Cross`
+    - solve remaining terminal blocks in two lanes: endpoint `DTC-to-TowerBound -> END.TowerBound` with `END.Exh`/`END.Cross`, and source `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`
     - close exact-potential and normal-covector/Hodge witness-to-readout theorems on the surviving one-field readout branches
     - close the selector-adapted defect-to-strain wall to SG.4 on the downstream Law-2-survivor one-field branch
     - close BR.lambda2 plus local strong-solution entry
@@ -49,8 +49,12 @@ live_theorem_edge:
     runs `LCI.A+FCI.5f => CSP.A => OFP.A => CFI.A`. Endpoint closure runs
     `DTC-to-TowerBound => END.TowerAmp => END.TowerBound` together with
     accepted `END.Exh`, `END.Cross`, `END.Pack`, and `END.Field`, yielding
-    `End_NS`. Therefore `CFI.A+End_NS => no finite-time class exit`. The older
-    TPS / `SG.4` selector wall remains only downstream context.
+    `End_NS`. The ordered closure program is endpoint analytic readout first
+    (`DTC-to-TowerBound`), then source channels
+    `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, with `END.Exh` and `END.Cross`
+    recorded in parallel as certificate/semantic cells. Therefore
+    `CFI.A+End_NS => no finite-time class exit`. The older TPS / `SG.4`
+    selector wall remains only downstream context.
   paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
     "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
     "problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md",
