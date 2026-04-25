@@ -29,7 +29,7 @@ object_law_refoundation:
     ym_heat_shadow_carrier: derived supplier/export branch on the Law-2-survivor side
     euclidean_strict_shadow: downstream export branch on the Law-2-survivor side
   theorem_queue:
-    - complete the law / endpoint proof matrix without assuming shell ownership; installed `(Part, Dead)`, open pack-native blown branch `(Pack, packing-detached)`, open `(Field, Jump)`, and the mixed `tower-blown` branch plus unresolved cross-entries remain explicit
+    - remaining terminal blocks are exactly the post-LCI.A source channels `FCC.C1`, `FSCR.C`, `FPCR.C`, plus endpoint cells `DTC-to-TowerBound`, `END.Exh`, and `END.Cross`
     - close exact-potential and normal-covector/Hodge witness-to-readout theorems on the surviving one-field readout branches
     - close the selector-adapted defect-to-strain wall to SG.4 on the downstream Law-2-survivor one-field branch
     - close BR.lambda2 plus local strong-solution entry
@@ -40,7 +40,8 @@ live_theorem_edge:
   current_route_name: Class-membership forward-invariance / endpoint-exclusion route
   exact_cut_summary: >-
     The class-membership route now carries a conditional terminal closure
-    packet. Receiver closure runs through
+    packet. Receiver closure uses installed `RSCB.NKF` as the retained smooth
+    center-ball native forcing certificate and runs
     `RSCB.NKF => ACT.A => RCF.A => LCI.A`. Source closure is the post-`LCI.A`
     frozen-family packet `FCC.C1+FSCR.C+FPCR.C => FCI.5f`, with cutoff
     absorption, strain/cascade low-carrier control, and pressure
