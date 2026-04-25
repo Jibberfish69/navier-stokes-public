@@ -2126,7 +2126,7 @@ or explicitly,
 ```math
 X_{exc}\in L^\infty(I),
 \qquad
-N\in L^1(I),
+N\in L^1(I)
 \Longrightarrow
 \mathcal P_{\le m}^{cell}\in L^1(I).
 \tag{DTC.AFF-Kcore1g}
@@ -2134,9 +2134,9 @@ N\in L^1(I),
 
 This is the pressure component of `NKF.Native`: the center pressure-cell
 functionals annihilate the affine and affine-linear source modes, leaving only
-quadratic affine excess plus projected annular/far-tail terms. `NKF.Ann` and
-`NKF.Quad` are in-bootstrap estimates; their `L^1` consequences are not
-available before `ACT.X-Boot`.
+quadratic affine excess plus projected annular/harmonic/far-tail terms.
+`NKF.Ann` and `NKF.Quad` are in-bootstrap estimates; their `L^1` consequences
+are not available before `ACT.X-Boot`.
 
 Equivalently, the solved pressure-cell block is
 
@@ -2147,8 +2147,9 @@ NKF.Ann
 +
 NKF.Quad
 +
+ACT.X\text{-}Boot
++
 \text{energy far-tail}
-\quad\text{inside }ACT.X\text{-Boot}\quad
 \Longrightarrow
 ACT.X\text{-}Press_{cell}.
 \tag{DTC.AFF-Kcore1h}
@@ -3245,6 +3246,8 @@ ACT.X\text{-}Boot
 RWS.C_{\mathrm{scale}}
 +
 NKF.Ann
++
+NKF.Quad
 \Longrightarrow
 ACT.X\text{-}Press_{cell}
 +
@@ -3265,7 +3268,7 @@ Equivalently, the completion ledger is:
 ```text
 0. RSCB.NKF: retained smooth center-ball regularity gives P_{\le m}^{ctr,nat} in L1.
 1. NKF.Moll + NKF.Point => NKF.Native: mollified forcing plus point recovery licenses native center forcing.
-2. NKF.Ann: annular pressure ledger controls Pi_ann.
+2. NKF.Ann: projected annular remainder controls Pi_ann without raw affine annular modes.
 3. NKF.Quad: pointwise-in-time quadratic pressure estimate feeds the bootstrap.
 4. ACT.X-Def: define X_exc, N, and Y_read = A_core^ctr + A_buf^ctr + X_exc.
 5. AXE.A: AXE.1--AXE.4 assemble ACT.X-Energy, with ACT.X-Press_energy as an in-bootstrap atom.
@@ -3274,7 +3277,7 @@ Equivalently, the completion ledger is:
 8. ACT.X-TopVisc: buffer m+2 center modes are readout modes, not pre-pressure ACT.Actr_core data.
 9. ACT.X-Scale: retained smooth center-ball regularity supplies a radius R_a with X_exc(s_a;R_a) <= eta_X at each restart.
 10. ACT.X-Boot: ACT.X-Seed + ACT.X-Sched + ACT.X-Absorb propagates X_exc and N after ACT.X-Scale supplies small starts.
-11. ACT.X-Press_cell: X_exc in Linfty, N in L1, NKF.Ann, and energy far-tail give P_cell in L1.
+11. ACT.X-Press_cell: X_exc in Linfty, N in L1, NKF.Ann, NKF.Quad, and energy far-tail give P_cell in L1.
 12. ACT.Kcore + ACT.Actr_core: the now-L1 pressure cell and viscous ledgers give the lower center-amplitude Gronwall rule.
 13. RWS.C_scale: finite dynamic small-radius cover recovers fixed-radius readouts; pointwise fixed-radius smallness is not claimed.
 14. ACT.X-Readout: X_exc + A_core^ctr + A_buf^ctr gives D_1^aff, F_ctr_res, H_osc^alpha at the licensed readout scale.
