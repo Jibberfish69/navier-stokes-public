@@ -10,8 +10,8 @@ identity:
   source_review_verdict_id: review-verdict-navier-stokes
 posture:
   theorem_target: no finite-time class exit from shared packing, shared participation, and shared one-field coherence
-  current_package_status: object-law refoundation active; no-drop installs only the `(Part, Dead)` matrix entry; the unresolved law / endpoint matrix remains theorem-critical, with strongest open shell programs the pack-native blown branch `(Pack, packing-detached)` and `(Field, Jump)`, while the mixed `tower-blown` branch remains explicit
-  standalone_status: class-membership governance installed; no-drop closed; `CFI.A` remains open, with `OFP.A` and the receiver-side `LCI.A` queue still unresolved
+  current_package_status: conditional lane-closure packet installed under retained-window receiver hypotheses, post-LCI.A source closure, and accepted endpoint certificates
+  standalone_status: receiver/source/endpoint assembly now records `CFI.A + End_NS => no finite-time class exit` conditionally on the installed theorem packets
   completion_tier_achieved: route-complete
   review_verdict: conditional-pass
   live_theorem_edge_present: true
@@ -39,43 +39,17 @@ live_theorem_edge:
   route_label: Class-membership forward-invariance / endpoint-exclusion route
   current_route_name: Class-membership forward-invariance / endpoint-exclusion route
   exact_cut_summary: >-
-    The lane is now split honestly. The primary theorem-facing frontier is the
-    law / endpoint proof matrix under the class-membership route. The only
-    installed discharge entry is `(Part, Dead)`. The strongest open shell
-    programs already organized on disk are the pack-native blown branch `(Pack,
-    packing-detached)` and `(Field, Jump)`, while the mixed `tower-blown`
-    branch remains explicit too.
-    The
-    preferred compression target is `CFI.A`, forward-invariance of the local
-    class-membership target `M_Q(u,p)` as witnessed by `Pack` / `Part` /
-    `Field` on same-fluid still-live families. Inside that route the live
-    one-field wall is `OFP.A`, and the receiver-side supplier beneath `OFP.A`
-    is `LCI.A` together with the separate source-side frozen-family ledger
-    `(FCI.5f)`, now sharpened on disk to the cutoff-absorbed source pair
-    `FPCR.C` and `FSCR.C`; on the pressure half the exact frozen-net wall
-    `FPCR.C` now has the single-increment exact smaller wall `FIRP.A0`, and
-    the bounded exact self-attempt there records that the current installed
-    exact route does not lower further; the adjacent stronger sufficient
-    pressure route is only `FFPR.B1` / `FFPR.C2`, already continuing through
-    the fixed-radius pressure stack to `FPL.C` before returning by `FPL.G` to
-    `CSP.B3a1`, and it does not replace `FPCR.C` as the exact same-depth
-    pressure wall; on the nonpressure half the adjacent sufficient export
-    `FFSC.B1` / `FFSC.C1` already sends the whole strain/cascade channel to the
-    common collar envelope and frozen-family packet aggregate. The strongest installed
-    combined source-side package is now `FFSRC`; inside that strengthened
-    source branch the exact remaining local pressure theorem is the
-    widened-pressure bridge `FFPB.A0`, the first sharper packet-side attempted
-    split beneath that wall is `FFPLB.A0`, and the exact smaller wall beneath
-    that theorem is already the single-increment bridge `FFPLB.B0`. On the
-    coarser installed energy-conditioned branch,
-    the terminal packet-to-center bridge is now `FIPCB.A0`, whose bounded
-    self-attempt `FIPCB.B1` records that the route does not lower further on
-    the current installed surfaces. Once that strengthened source package is
-    granted, the live one-field burden returns entirely to the receiver side.
-    Nothing on disk yet proves those bridges, `CFI.A`, `OFP.A`, or `LCI.A`.
-    The older TPS / `SG.4` selector wall remains preserved only as a
-    downstream Law-2-survivor consumer after the endpoint-exclusion pair
-    closes.
+    The class-membership route now carries a conditional terminal closure
+    packet. Receiver closure runs through
+    `RSCB.NKF => ACT.A => RCF.A => LCI.A`. Source closure is the post-`LCI.A`
+    frozen-family packet `FCC.C1+FSCR.C+FPCR.C => FCI.5f`, with cutoff
+    absorption, strain/cascade low-carrier control, and pressure
+    low-high/high-low plus resonant/far-tail control. One-field assembly then
+    runs `LCI.A+FCI.5f => CSP.A => OFP.A => CFI.A`. Endpoint closure runs
+    `DTC-to-TowerBound => END.TowerAmp => END.TowerBound` together with
+    accepted `END.Exh`, `END.Cross`, `END.Pack`, and `END.Field`, yielding
+    `End_NS`. Therefore `CFI.A+End_NS => no finite-time class exit`. The older
+    TPS / `SG.4` selector wall remains only downstream context.
   paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
     "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
     "problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md",
