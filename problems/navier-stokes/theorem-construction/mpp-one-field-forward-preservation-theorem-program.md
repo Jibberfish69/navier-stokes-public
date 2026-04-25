@@ -130,8 +130,9 @@ cannot be replaced by the endpoint theorem that `CFI.A` is meant to feed.
 
 ## Current Route Position
 
-In the completed conditional terminal packet, this one-field theorem is consumed
-only through the licensed chain
+In the conditional completion packet
+[mpp-act-kx-conditional-route-completion-packet.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md),
+this one-field theorem is consumed only through the licensed chain
 
 ```math
 LCI.A+FCI.5f
@@ -148,6 +149,12 @@ The upstream receiver/source suppliers are kept separate:
 
 ```math
 RSCB.NKF
+\Longrightarrow
+NKF.Native
+\Longrightarrow
+ACT.KX
+\Longrightarrow
+ACT.X\text{-Readout}
 \Longrightarrow
 ACT.A
 \Longrightarrow
@@ -183,7 +190,9 @@ CFI.A + \mathsf{End}_{NS}
 
 TPS / `SG.4`, exact-potential, Hodge / normal-covector, and Euclidean
 strict-shadow remain downstream context or export branches; they are not active
-inputs to `(OFP.3c)`.
+inputs to `(OFP.3c)`. This note's terminal use remains conditional lane closure
+under `RSCB.NKF`, bounded pack gauge, the finite required parameter set, and the
+accepted endpoint certificate maps; it is not an unconditional full claim.
 
 ## Exact Proof Spine
 
@@ -2595,7 +2604,10 @@ At that point the manifestation bridge is a corollary, not the primary wall.
 
 ## Boundary
 
-This note does **not** yet prove `OFP.A`.
+Standing alone, this note does **not** prove `OFP.A`. Its terminal use is
+licensed only by the `ACT.KX` conditional completion packet under `RSCB.NKF`,
+the bounded pack gauge, the finite required parameter set, and the accepted
+endpoint certificate maps.
 
 It fixes:
 

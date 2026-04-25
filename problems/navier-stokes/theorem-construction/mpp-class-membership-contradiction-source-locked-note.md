@@ -297,11 +297,20 @@ So the semantic program is already the theorem queue:
 3. remove the dead / participation-drop line;
 4. formalize the exclusion of the surviving blown and jump channels.
 
-The current theorem-facing formalization of that queue is the conditional
-terminal closure packet:
+The current theorem-facing formalization of that queue is controlled by the
+conditional completion packet
+[mpp-act-kx-conditional-route-completion-packet.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md).
+This source-locked note does not re-carry older receiver fragments as authority;
+it cites the `ACT.KX` packet for the ordered theorem-facing closure:
 
 ```math
 RSCB.NKF
+\Longrightarrow
+NKF.Native
+\Longrightarrow
+ACT.KX
+\Longrightarrow
+ACT.X\text{-Readout}
 \Longrightarrow
 ACT.A
 \Longrightarrow
@@ -342,9 +351,11 @@ CFI.A + \mathsf{End}_{NS}
 \tag{SC.14g}
 ```
 
-This is conditional on the retained-window receiver hypotheses, the
-post-`LCI.A` source closure, and the accepted endpoint certificate maps. It
-does not promote downstream supplier branches into the source semantic route.
+This is conditional lane closure under `RSCB.NKF`, the bounded pack gauge, the
+finite required parameter set, the post-`LCI.A` source closure, and the accepted
+endpoint certificate maps. It does not promote downstream supplier branches into
+the source semantic route, and it is not an unconditional full Navier--Stokes
+claim outside those named hypotheses.
 
 The theorem task is then:
 
@@ -363,7 +374,7 @@ downstream packaging of this same semantic contradiction.
 
 In particular, TPS / `SG.4`, exact-potential, Hodge / normal-covector, and
 Euclidean strict-shadow material remain downstream context or export branches;
-they do not replace the class-membership terminal packet above.
+they do not replace the `ACT.KX` conditional completion packet above.
 
 This is the exact program statement being formalized here.
 

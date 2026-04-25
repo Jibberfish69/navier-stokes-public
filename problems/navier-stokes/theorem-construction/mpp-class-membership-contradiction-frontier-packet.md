@@ -145,11 +145,20 @@ The steps already installed on disk are:
 ## Live Frontier
 
 After the installed no-drop theorem, the compactness-route bridge closes the
-manifestation step on still-live windows. The current theorem-facing packet now
-records the conditional terminal closure of that class-membership lane:
+manifestation step on still-live windows. The current theorem-facing authority
+for terminal synchronization is the conditional completion packet
+[mpp-act-kx-conditional-route-completion-packet.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md).
+This frontier packet is downstream packaging; any older local route fragments
+below are support/audit material and do not supersede that ordered packet:
 
 ```math
 RSCB.NKF
+\Longrightarrow
+NKF.Native
+\Longrightarrow
+ACT.KX
+\Longrightarrow
+ACT.X\text{-Readout}
 \Longrightarrow
 ACT.A
 \Longrightarrow
@@ -190,11 +199,12 @@ CFI.A + \mathsf{End}_{NS}
 \tag{CFP.4}
 ```
 
-This closure packet is conditional on the retained-window receiver hypotheses,
-the post-`LCI.A` source closure, and the accepted endpoint certificate maps. Any
-chronological shell or preferred compression remains subordinate to this
-object-law contradiction and is allowed only if it preserves the same route
-typing.
+This is conditional lane closure under `RSCB.NKF`, the bounded pack gauge, the
+finite required parameter set, the post-`LCI.A` source closure, and the accepted
+endpoint certificate maps. Any chronological shell or preferred compression
+remains subordinate to this object-law contradiction and is allowed only if it
+preserves the same route typing. Nothing here promotes the packet to an
+unconditional full Navier--Stokes claim outside those named hypotheses.
 
 The compactness-route bridge work surface remains available as historical
 support:

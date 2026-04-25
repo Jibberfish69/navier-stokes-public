@@ -134,15 +134,23 @@ Equivalently,
 ```
 
 This is the primitive dynamic closure statement now supplied conditionally by
-the terminal packet recorded below.
+the `ACT.KX` terminal packet recorded below.
 
 ## Current Conditional Terminal Packet
 
 The live theorem-facing compression no longer treats `CFI.A` as an isolated
-opaque sentence. It is read through the completed conditional terminal packet:
+opaque sentence. Its authority is the conditional completion packet
+[mpp-act-kx-conditional-route-completion-packet.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md),
+so older receiver/source fragments in this note are subordinate local support:
 
 ```math
 RSCB.NKF
+\Longrightarrow
+NKF.Native
+\Longrightarrow
+ACT.KX
+\Longrightarrow
+ACT.X\text{-Readout}
 \Longrightarrow
 ACT.A
 \Longrightarrow
@@ -196,11 +204,12 @@ CFI.A + \mathsf{End}_{NS}
 \tag{CFI.5e}
 ```
 
-The statement is conditional on the retained-window receiver hypotheses, the
-post-`LCI.A` source closure, and the accepted endpoint certificate maps. TPS /
-`SG.4`, exact-potential, Hodge / normal-covector, and Euclidean strict-shadow
-branches remain downstream context, not prerequisites for this class-membership
-terminal packet.
+The statement is conditional lane closure under `RSCB.NKF`, the bounded pack
+gauge, the finite required parameter set, the post-`LCI.A` source closure, and
+the accepted endpoint certificate maps. TPS / `SG.4`, exact-potential, Hodge /
+normal-covector, and Euclidean strict-shadow branches remain downstream context,
+not prerequisites for this class-membership terminal packet. The claim level is
+not unconditional full closure outside those named hypotheses.
 
 ## Installed Lemma Decomposition
 
@@ -992,8 +1001,11 @@ cross-entry cells.
 
 This note records the preferred compression direction.
 
-It does **not** yet prove `CFI.A`, and it does **not** yet define an accepted
-defect `\mathfrak D`.
+Standing alone, this note does **not** prove `CFI.A`, and it does **not** yet
+define an accepted defect `\mathfrak D`. Its terminal use of `CFI.A` is licensed
+only through the `ACT.KX` conditional completion packet under `RSCB.NKF`, the
+bounded pack gauge, the finite required parameter set, and the accepted endpoint
+certificate maps.
 
 The compactness-and-reconstitution route remains available as a fallback
 checkpoint if this forward-invariance extraction fails. But the live theorem
