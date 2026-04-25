@@ -3340,10 +3340,11 @@ bare coefficient slogan to a concrete affine packet theorem.
 ### Bridge-License Boundary
 
 The affine packet does **not** by itself install the source-side theorem
-`(FCI.5f)`. To promote the source side, one must prove a separate bridge
+`(FCI.5f)`. To promote the source side through the currently stated route, one
+must prove a separate post-`LCI.A` sufficient source bridge:
 
 ```math
-DTC.M\text{-}Affine
+LCI.A
 \Longrightarrow
 FPCR.C+FSCR.C+FCC.C1
 \Longrightarrow
@@ -3351,6 +3352,10 @@ FPCR.C+FSCR.C+FCC.C1
 \tag{DTC.AFF22}
 ```
 
+where `FSCR.C` and the low-high pressure pieces may spend the low-carrier
+ledger supplied after receiver closure. This is a sufficient source route, not
+a proof that `(FCI.5f)` was available before `LCI.A`; if an exact pre-receiver
+source theorem is wanted, `FPCR.C`, `FSCR.C`, and `FCC.C1` must be proved
 without importing the receiver conclusion back into the source ledger.
 
 The affine packet also does **not** install the endpoint block. The endpoint
