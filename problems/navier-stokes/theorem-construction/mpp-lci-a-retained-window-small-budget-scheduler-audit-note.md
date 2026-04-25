@@ -203,7 +203,12 @@ translation). Therefore
 ```
 
 Since the centers, rungs, and derivatives are finite, choose one admissible
-radius `R_a` so that `(RWS.10)` holds for every center and required rung.
+radius `R_a` so that `(RWS.10)` holds for every center and required rung. This
+is licensed only for shrink-admissible excess slots: derivative slots require
+`\sigma_{\beta,q}+3>0`, zero-order centered slots require
+`\sigma_{0,q}+5>0`, and any scale-invariant derivative slot with
+`\sigma_{\beta,q}=-3` must be carried by `Y_{\mathrm{read}}` rather than
+`\mathcal X^{exc}`.
 
 ## Audit Consequence
 

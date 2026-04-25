@@ -1645,9 +1645,45 @@ NKF.Native:
 \tag{DTC.AFF-NKF4}
 ```
 
-Finite energy and the pressure Poisson equation alone do not supply this
-pointwise center packet. The noncircular replacement is a mollified forcing
-bridge plus retained smooth point recovery:
+This is a genuine retained-center local forcing theorem, not a consequence of
+finite energy alone. The scaling obstruction is direct: take divergence-free
+`v\in C_c^\infty(\mathbb R^3)` with
+`\nabla^{q+1}R_iR_j(v_iv_j)(0)\ne0` and set
+`u_\lambda(x)=\lambda^{3/2}v(\lambda x)`. Then
+`\|u_\lambda\|_{L^2}=\|v\|_{L^2}`, while
+`p_\lambda=\lambda^3p_v(\lambda x)` and
+
+```math
+|\nabla^{q+1}p_\lambda(0)|
+=
+\lambda^{q+4}|\nabla^{q+1}p_v(0)|
+\to\infty.
+\tag{DTC.AFF-NKF4scale}
+```
+
+Thus finite energy plus `-\Delta p=\partial_i\partial_j(u_iu_j)` cannot bound
+the point-center pressure derivatives in `\mathcal P_{\le m}^{ctr,nat}`.
+
+A direct sufficient retained-center condition is:
+
+```math
+\sum_j
+\|u\|_{L^2_t C^{m+3,\alpha}(B(c_j,r))}
++
+\sum_j
+\|p\|_{L^1_t C^{m+1,\alpha}(B(c_j,r))}
+<\infty.
+\tag{DTC.AFF-NKF4ret}
+```
+
+Under this retained smooth local forcing condition,
+`\mathcal P_{\le m}^{ctr,nat}\in L^1(I_r)` follows immediately from the
+definition of the packet. The mollified route below is a sufficient way to
+realize that retained-center forcing theorem without treating pointwise
+pressure derivatives as finite-energy consequences.
+
+The noncircular sufficient route is a mollified forcing bridge plus retained
+smooth point recovery:
 
 ```math
 NKF.Moll:
@@ -1957,6 +1993,19 @@ This is the pressure component of `NKF.Native`: the center pressure-cell
 functionals annihilate the affine and affine-linear source modes, leaving only
 quadratic affine excess plus annular/far-tail terms. The energy form of the
 pressure theorem is used only after `ACT.Actr_core` is available.
+
+Equivalently, the solved pressure-cell block is
+
+```math
+NKF.Native
++
+\mathcal P_{\mathfrak p}^{ann}\in L^1(I)
++
+\text{energy far-tail}
+\Longrightarrow
+ACT.X\text{-}Press_{cell}.
+\tag{DTC.AFF-Kcore1h}
+```
 
 The zero-rung supplier is
 
@@ -2470,83 +2519,39 @@ C_{\mathrm{core}}\in L^\infty(I).
 \tag{AXE.2c0a}
 ```
 
-The product expansion
+After native affine normal-form subtraction, the local pressure variable in the
+energy atom is the residual
 
 ```math
-u\otimes u
+\pi_j^{loc}=p_j^{loc}-p_j^{aff},
+\qquad
+\Lambda_{r,j}p_j^{aff}
 =
-(u(c_j)+A_j(x-c_j))^{\otimes2}
-+
-2(u(c_j)+A_j(x-c_j))\otimes w_j
-+
-w_j\otimes w_j
+\Lambda_{r,j}(-\Delta)^{-1}\partial_a\partial_b
+\left[
+\eta_j\left(u_j^{aff}\otimes u_j^{aff}
++2u_j^{aff}\odot w_j\right)
+\right].
 \tag{AXE.2c1}
 ```
 
-splits the local pressure source into affine-affine, affine-remainder, and
-remainder-remainder pieces.
-
-The fixed-ball Calderon-Zygmund/Schauder estimate gives
+Thus the center-cell pressure functionals have no affine-affine or
+affine-remainder core. The residual equation is
 
 ```math
-\|\chi_j\nabla^{q+1}p_j^{loc}\|_{H^1(B_j)}
-\le
-C_{\mathfrak p}
-\|\eta_j u\otimes u\|_{H^{q+2}(2B_j)}.
+\Lambda_{r,j}\pi_j^{loc}
+=
+\Lambda_{r,j}(-\Delta)^{-1}\partial_a\partial_b
+\left(\eta_j w_j\otimes w_j\right)
++
+\Lambda_{r,j}\Pi_j^{ann}.
 \tag{AXE.2c2}
 ```
 
-For the affine-affine piece
-`\eta_j(b_j+A_jz)^{\otimes2}`, all derivatives fall on the cutoff or affine
-factor, so
+For the quadratic residual piece, the fixed-ball product estimate gives
 
 ```math
-\|P_{aa}\|_{H^{q+2}(2B_j)}
-\le
-C_{\mathfrak p,q}(1+C_{\mathrm{core}}(t)^2).
-\tag{AXE.2c3}
-```
-
-Pairing with the affine-excess energy variable and applying Young gives
-
-```math
-|\mathcal T_{press}^{aa}|
-\le
-L_{aa}(t)\mathcal X^{exc}
-+
-F_{aa}(t),
-\qquad
-L_{aa},F_{aa}\in L^1(I).
-\tag{AXE.2c4}
-```
-
-For the affine-remainder piece,
-
-```math
-\|P_{ar}\|_{H^{q+2}(2B_j)}
-\le
-C_{\mathfrak p,q}(1+C_{\mathrm{core}}(t))
-\left(\mathcal N_j^{1/2}+(\mathcal X_j^{exc})^{1/2}\right).
-\tag{AXE.2c5}
-```
-
-Pairing and Young yield
-
-```math
-|\mathcal T_{press}^{ar}|
-\le
-\varepsilon\mathcal N_j
-+
-L_{ar}(t)\mathcal X_j^{exc},
-\qquad
-L_{ar}\in L^1(I).
-\tag{AXE.2c6}
-```
-
-For the remainder-remainder piece, the fixed-ball product estimate gives
-
-```math
-\|P_{rr}\|_{H^{q+2}(2B_j)}
+\|P_{quad}\|_{H^{q+2}(2B_j)}
 \le
 C_{\mathfrak p,q}
 \|w_j\|_{H^2(B_j)}
@@ -2556,7 +2561,7 @@ C_{\mathfrak p,q}
 (\mathcal X_j^{exc})^{1/2}\mathcal N_j^{1/2}
 +
 C_{\mathfrak p,q}\mathcal X_j^{exc}.
-\tag{AXE.2c7}
+\tag{AXE.2c3}
 ```
 
 After pairing with `R_{q,j}`, the first term is bounded by
@@ -2565,14 +2570,46 @@ Poincare estimate in `ACT.X-Def` gives
 `\mathcal X_j^{exc}\le C_R\mathcal N_j` on the supported affine excess, hence
 
 ```math
-|\mathcal T_{press}^{rr}|
+|\mathcal T_{press}^{quad}|
 \le
 C_{\mathrm{press}}(\mathcal X_j^{exc})^{1/2}\mathcal N_j
 +
 L_{rr}(t)\mathcal X_j^{exc}
 +
 F_{rr}(t).
-\tag{AXE.2c8}
+\tag{AXE.2c4}
+```
+
+The annular part is separated from the center, so the pressure kernel is smooth
+on its support. With the annular pressure ledger
+
+```math
+\mathcal P_{\mathfrak p}^{ann}
+:=
+\sum_j\sum_{r=0}^{m+1}\sum_{|\gamma|\le r}
+\left\|
+\nabla^\gamma
+\left[
+u_j^{aff}\otimes u_j^{aff}
++2u_j^{aff}\odot w_j+w_j\otimes w_j
+\right]
+\right\|_{L^1(A_j^{ann})},
+\tag{AXE.2c5}
+```
+
+the annular contribution satisfies
+
+```math
+|\mathcal T_{press}^{ann}|
+\le
+\varepsilon\mathcal N
++
+L_{ann}(t)\mathcal X^{exc}
++
+F_{ann}(t),
+\qquad
+L_{ann},F_{ann}\in L^1(I).
+\tag{AXE.2c6}
 ```
 
 Summing over the finite centers and pressure depths gives the local pressure
@@ -2647,11 +2684,10 @@ F_{press}(t).
 \tag{AXE.2g}
 ```
 
-The far-tail half of `ACT.X-Press_energy` is handled by energy. The local fixed-ball
-pressure response is now reduced to the affine-affine / affine-remainder /
-remainder-remainder decomposition above; its only non-`L^1` residue is the
-scale-small absorbable term
-`C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`.
+The far-tail half of `ACT.X-Press_energy` is handled by energy. The local
+fixed-ball pressure response is reduced by the native affine normal form to the
+quadratic residual core plus annular terms; its only non-`L^1` residue is the
+scale-small absorbable term `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`.
 
 The top-viscous part of `AXE.2` is separate: it is read from the included
 `m+2` buffer modes inside `\mathcal Y^{read}`. In particular,
@@ -2750,7 +2786,7 @@ Thus `AXE.A` is the current theorem-facing wall beneath `AXP.A`. It is not a
 new readout theorem: it proves the affine-excess differential inequality only.
 
 The only atoms allowed to keep a nonlinear scale-small excess factor are the
-moving cutoff atom and the local pressure remainder-remainder atom. The cutoff
+moving cutoff atom and the local pressure quadratic-residual atom. The cutoff
 contribution comes from
 
 ```math
@@ -2803,7 +2839,14 @@ remainder is `U_1(c_j+G_jy,s_a)-U_1(c_j,s_a)` in the affine frame; subtracting
 an additional `\nabla U_1(c_j,s_a)y` would be a different packet, not this
 `ACT.X-Scale` theorem. With the installed packet,
 `\mathcal X^{exc}(s_a;R)\to0` as `R\downarrow0`; finite centers and rungs allow
-one common admissible `R_a`.
+one common admissible `R_a`. This uses the shrink-admissibility of the
+installed excess weights: for each slot
+`R^{\sigma_{\beta,q}}\int_{B_R}|\nabla^\beta R_{q,a}|^2`, the needed
+conditions are `\sigma_{\beta,q}+3>0` for derivative slots and
+`\sigma_{0,q}+5>0` for zero-order centered excess slots. Any scale-invariant
+derivative slot with `\sigma_{\beta,q}=-3` is not part of
+`\mathcal X^{exc}`; it belongs in `Y_{\mathrm{read}}`, because radius shrink
+does not force it small.
 
 `ACT.X-Boot` consumes only the resulting scale seed. Set
 
@@ -3069,8 +3112,8 @@ Equivalently, the twelve-item completion ledger is:
 2. ACT.X-Def: define X_exc, N, and Y_read = A_core^ctr + A_buf^ctr + X_exc.
 3. AXE.A: AXE.1--AXE.4 assemble ACT.X-Energy.
 4. ACT.X-Cut: cutoff sees affine defect, not full center U_1.
-5. ACT.X-Press_cell: finite residual pressure-cell ledger feeding ACT.Kcore after subtracting p_j^aff from p_j^loc.
-6. ACT.X-Press_energy: residual local Poisson energy response plus energy-controlled far-tail; pressure adds a C_press X_exc^(1/2) N term.
+5. ACT.X-Press_cell: finite residual pressure-cell ledger feeding ACT.Kcore after subtracting the native affine normal-form pressure p_j^aff from p_j^loc.
+6. ACT.X-Press_energy: quadratic residual local Poisson energy response plus annular/far-tail control; pressure adds a C_press X_exc^(1/2) N term.
 7. ACT.X-Mid: triangular finite-depth middle block.
 8. ACT.X-TopVisc: buffer m+2 center modes are readout modes, not pre-pressure ACT.Actr_core data.
 9. ACT.X-Scale: retained smooth center-ball regularity supplies a radius R_a with X_exc(s_a;R_a) <= eta_X at each restart.
