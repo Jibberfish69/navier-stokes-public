@@ -1946,7 +1946,7 @@ NKF.Ann
 \quad+\quad
 NKF.Quad
 \Longrightarrow
-ACT.X\text{-}Press_{cell}\ \text{after }ACT.X\text{-}Boot.
+ACT.X\text{-}Press_{cell}\ \text{after }ACT.KX.
 \tag{DTC.AFF-Kcore1a}
 ```
 
@@ -1959,7 +1959,7 @@ ACT.X\text{-}Press_{cell}:
 \tag{DTC.AFF-Kcore1b}
 ```
 
-It is now understood as a post-bootstrap `L^1` readout from the native
+It is now understood as a post-`ACT.KX` `L^1` readout from the native
 normal-form pressure identity, not as a pre-bootstrap supplier and not as a
 closed consequence of finite energy alone.
 
