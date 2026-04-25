@@ -1,400 +1,13 @@
-# ACT.KX Conditional Route Completion Packet
-
-This completes the list as a conditional route theorem packet. "Complete" here
-means each cell has a route-valid proof from its named inputs inside the repo
-vocabulary. It does not replace the theorem-facing status surfaces; it is the
-single ordered packet they cite.
-
-## Named Hypotheses Closing The Packet
-
-The packet closes under the retained-window hypothesis `RSCB.NKF`, bounded pack
-gauge, the finite required parameter set, and the accepted endpoint certificate
-maps.
-
-### 1. Retained-Window Admission
-
-`RSCB.NKF` supplies retained same-fluid windows
-
-```math
-I_a=[s_a,s_{a+1}]
-```
-
-with transported centers
-
-```math
-c_j(t)=\Phi(a^j,t)
-```
-
-and radii `r_a>0` such that
-
-```math
-B(c_j(t),2r_a)\subset Q_t^{rec,+}
-```
-
-for every center and every `t\in I_a`. Retained smooth center-ball regularity
-gives the finite local norms
-
-```math
-\sum_{q\le m+2}
-\|U_q\|_{L^\infty_t C^2_x(B(c_j(t),2r_a))}
-+
-\|p\|_{L^1_t C^{m+1,\alpha}_x(B(c_j(t),2r_a))}
-<\infty.
-```
-
-This is the local regularity used by `ACT.X-Scale`, `NKF.Moll`, and
-`NKF.Point`.
-
-### 2. `ACT.KX` Budget Realization
-
-On each retained interval, `ACT.KX` uses
-
-```math
-dX+c_\nu N
-\le
-(L_0+C A_{core})X+C_X X^{1/2}N+F_0,
-```
-
-```math
-dA_{core}\le \mathcal K_{\le m}^{ctr}+\mathcal T_{tri}(A_{core}),
-```
-
-```math
-\mathcal K_{\le m}^{ctr}
-\le C(X^{1/2}N^{1/2}+X)+F_K.
-```
-
-Young gives
-
-```math
-X^{1/2}N^{1/2}\le \delta N+C_\delta X.
-```
-
-With
-
-```math
-\eta_X=\left(\frac{c_\nu}{4C_X}\right)^2,
-```
-
-the scheduler chooses retained subintervals so that
-
-```math
-\left(
-\eta_X+\int_{I_a}(F_0+F_K)
-\right)
-\exp\left(
-\int_{I_a}(L_0+C A_{core}+1)
-\right)
-\le 2\eta_X.
-```
-
-The first-exit argument then gives
-
-```math
-X_{exc}\in L^\infty(I_a),
-\qquad
-N\in L^1(I_a),
-\qquad
-\mathcal K_{\le m}^{ctr}\in L^1(I_a),
-\qquad
-A_{core}^{ctr}\in L^\infty(I_a).
-```
-
-Finite summation over the retained cover gives the same bounds on `I`.
-
-### 3. `RSCB.NKF / NKF.Native`
-
-`RSCB.NKF` licenses
-
-```math
-NKF.Moll+NKF.Point\Longrightarrow NKF.Native.
-```
-
-`NKF.Moll` tests center forcing against transported mollifiers
-
-```math
-\varphi_{j,r}(x,t)=r^{-3}\varphi((x-c_j(t))/r).
-```
-
-The pressure part is handled by the local Poisson split plus finite-energy far
-tail. The viscous part is handled by integration by parts against the mollifier.
-Retained smoothness gives point recovery:
-
-```math
-K_{q,j}^{[r]}\to K_q(c_j)
-\quad\text{in }L^1_t
-```
-
-as `r\downarrow0`. Therefore the native center forcing and pressure-cell
-functionals used in `NKF.Native` are licensed.
-
-### 4. `RWS.C_scale` Cover Data
-
-For every fixed readout ball
-
-```math
-B(c_j(t),R_{fix}),
-```
-
-compactness of retained label tubes and bounded pack gauge give a finite
-same-fluid dynamic cover
-
-```math
-B(c_j(t),R_{fix})
-\subset
-\bigcup_{b=1}^{B}B(c_{j_b}(t),R_b).
-```
-
-The overlap number is bounded by the retained cover geometry. Each small packet
-supplies
-
-```math
-X_{exc,b}\in L^\infty,
-\qquad
-N_b\in L^1.
-```
-
-Finite overlap yields the fixed-radius readout packet, proving
-`RWS.C_scale`.
-
-### 5. `A_buf` Readout
-
-Define
-
-```math
-A_{buf}^{ctr}
-=
-\sum_j\left(|U_{m+1}(c_j)|^2+|U_{m+2}(c_j)|^2\right).
-```
-
-It appears only in
-
-```math
-Y_{read}=A_{core}^{ctr}+A_{buf}^{ctr}+X_{exc}.
-```
-
-The top buffer modes are recovered after `ACT.KX + RWS.C_scale` through
-fixed-radius readout. They feed top-viscous forcing and
-`\mathfrak F^{ctr,res}` while staying outside the pre-pressure `A_core` ledger.
-
-### 6. `DTC-to-TowerBound` Depth
-
-Use a finite transported-center cover
-
-```math
-Q_t\subset\bigcup_a B(c_a(t),R_a).
-```
-
-Choose DTC depth at least `N+2`. Morrey gives
-
-```math
-\sup_{Q_t}\sum_{k=0}^{N}|U_k|\in L^\infty(I).
-```
-
-For
-
-```math
-K_k=-\nabla^{k+1}p+\nu\Delta U_k,
-```
-
-the viscous term uses `U_{k+2}`, available by depth `N+2`; the pressure term
-uses local pressure response plus energy far tail. Hence
-
-```math
-\sup_{Q_t}\sum_{k=0}^{N}|K_k|\in L^\infty(I),
-```
-
-and therefore
-
-```math
-\mathfrak A_{N,Q}\in L^\infty(I).
-```
-
-This is `DTC-to-TowerBound`.
-
-### 7. `END.Pack`
-
-The bounded pack gauge is
-
-```math
-\Gamma_{\mathrm{pack},Q}\in L^\infty(I).
-```
-
-The endpoint pack certificate reads
-
-```math
-\Gamma_{\mathrm{pack},Q}\in L^\infty(I)
-\Longrightarrow
-\text{packing-detached face excluded}.
-```
-
-This supplies `END.Pack`.
-
-### 8. `END.Field`
-
-`OFP.A` supplies positive one-field coherence scale and bounded field carrier
-along the same-fluid family:
-
-```math
-OFP.A\Longrightarrow Field_{N,r,Q}\ \text{persists on }I.
-```
-
-The endpoint field certificate reads
-
-```math
-OFP.A\Longrightarrow \text{Jump face excluded}.
-```
-
-This supplies `END.Field`.
-
-### 9. `END` Certificate Maps
-
-The accepted maps are
-
-```math
-\neg Part_{N,Q}\Longrightarrow Dead,
-```
-
-```math
-\neg Pack_Q
-\Longrightarrow
-packing\text{-}detached\vee tower\text{-}blown,
-```
-
-```math
-\neg Field_{N,r,Q}\Longrightarrow Jump.
-```
-
-Together with
-
-```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
-```
-
-they give
-
-```math
-END.Exh:
-\quad
-\neg CM
-\Longrightarrow
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
-```
-
-`END.Cross` uses the accepted reductions
-
-```math
-Blown
-\Longleftrightarrow
-packing\text{-}detached\vee tower\text{-}blown,
-```
-
-```math
-Pack+Part+Jump
-\Longrightarrow
-Field\text{-coherence fracture},
-```
-
-and the installed `(Part,Dead)` row.
-
-### 10. `FCI.5f` Post-`LCI.A` Dependencies
-
-The source theorem is post-receiver:
-
-```math
-LCI.A\quad\text{feeds coefficient control for}\quad FPCR.C,\ FSCR.C,\ FCC.C1.
-```
-
-Cutoff:
-
-```math
-FCC.C1:
-\quad
-\mathcal N^{cut}
-\le
-\frac12\mathcal N^{visc}
-+
-\mathfrak b_\psi^{cut}\mathcal F^\varepsilon,
-```
-
-with `\mathfrak b_\psi^{cut}\in L^1(I)` from post-`LCI.A` packet-factor
-derivative control.
-
-Strain/cascade:
-
-```math
-FSCR.C:
-\quad
-\mathcal N^{sc}
-\le
-C(1+\mathfrak C_{N+1}^{\delta})\mathcal F^\varepsilon,
-```
-
-with
-
-```math
-\mathfrak C_{N+1}^{\delta}\in L^1(I)
-```
-
-from post-`LCI.A`.
-
-Pressure:
-
-```math
-FPCR.C:
-\quad
-\mathcal N^{press}
-=
-\mathcal N^{LH/HL}
-+
-\mathcal N^{RR}
-+
-\mathcal N^{far},
-```
-
-where the first two terms use post-`LCI.A` coefficient control and the far term
-uses energy. Thus
-
-```math
-FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f.
-```
-
-### 11. `CSP.A / OFP.A / CFI.A` Assembly
-
-The recombination spends exactly
-
-```math
-LCI.A+FCI.5f\Longrightarrow CSP.A.
-```
-
-Then
-
-```math
-CSP.A+FCI.5f\Longrightarrow OFP.A.
-```
-
-and
-
-```math
-OFP.A+CFI.B1+CFI.B2\Longrightarrow CFI.A.
-```
-
-Endpoint side:
-
-```math
-DTC\text{-to-TowerBound}+END.Exh+END.Cross+END.Pack+END.Field
-\Longrightarrow End_{NS}.
-```
-
-Terminal assembly:
-
-```math
-CFI.A+End_{NS}
-\Longrightarrow
-\text{no finite-time class exit}.
-```
-
-### Completed Conditional Closure
+# ACT.KX Conditional Route Completion Theorem
+
+This packet records the paper-grade conditional route theorem for the
+`ACT.KX` completion pass. The claim level is intentionally conditional:
+`RSCB.NKF`, bounded pack gauge, the finite required parameter set, and the
+accepted endpoint certificate maps are hypotheses of this packet, not
+conclusions proved here.
+
+The packet does not replace the theorem-facing status surfaces. It is the
+single ordered proof packet they cite for the route
 
 ```math
 RSCB.NKF
@@ -409,8 +22,257 @@ ACT.A
 \Longrightarrow
 RCF.A
 \Longrightarrow
+LCI.A
+\Longrightarrow
+FCI.5f
+\Longrightarrow
+CFI.A
+\Longrightarrow
+End_{NS}.
+```
+
+## Theorem Statement
+
+**Theorem 1 (`ACT.KX` conditional route completion).** Fix a classical
+Navier-Stokes solution on the working time interval `I`, a target spatial
+region `Q_t`, and the finite parameter set
+
+```math
+\Pi_{req}
+=
+\{m,N,\alpha,\nu,I,Q,\rho,\psi,\varepsilon,\delta,R_{fix},
+\eta_X,c_\nu,C_X\}
+\cup
+\{I_a,c_j,r_a,R_b\}_{finite}.
+```
+
+Assume the following hypotheses.
+
+**H1 (`RSCB.NKF`, retained-window admission).** There are retained same-fluid
+windows
+
+```math
+I_a=[s_a,s_{a+1}],
+\qquad
+c_j(t)=\Phi(a^j,t),
+```
+
+and radii `r_a>0` such that
+
+```math
+B(c_j(t),2r_a)\subset Q_t^{rec,+}
+```
+
+for every retained center and every `t\in I_a`. On these retained center
+balls,
+
+```math
+\sum_{q\le m+2}
+\|U_q\|_{L^\infty_t C^2_x(B(c_j(t),2r_a))}
++
+\|p\|_{L^1_t C^{m+1,\alpha}_x(B(c_j(t),2r_a))}
+<\infty.
+```
+
+This is the only smoothness input spent by `NKF.Native`, `ACT.X-Scale`, and
+the point-recovery step inside `RSCB.NKF`.
+
+**H2 (bounded pack gauge).** The retained pack geometry obeys
+
+```math
+\Gamma_{\mathrm{pack},Q}\in L^\infty(I),
+```
+
+and every fixed readout ball admits a finite same-fluid dynamic cover with
+bounded overlap:
+
+```math
+B(c_j(t),R_{fix})
+\subset
+\bigcup_{b=1}^{B}B(c_{j_b}(t),R_b).
+```
+
+No infinite cover, limiting parameter family, or fixed-radius smallness is
+assumed.
+
+**H3 (`ACT.KX` differential budget).** On each retained interval the excess
+and center ledgers satisfy
+
+```math
+dX+c_\nu N
+\le
+(L_0+C A_{core})X+C_X X^{1/2}N+F_0,
+```
+
+```math
+dA_{core}\le \mathcal K_{\le m}^{ctr}+\mathcal T_{tri}(A_{core}),
+```
+
+```math
+\mathcal K_{\le m}^{ctr}
+\le C(X^{1/2}N^{1/2}+X)+F_K,
+```
+
+with finite-depth triangular center forcing `\mathcal T_{tri}`.
+
+**H4 (scheduler and scale seeds).** With
+
+```math
+\eta_X=\left(\frac{c_\nu}{4C_X}\right)^2,
+```
+
+the retained scheduler chooses subintervals so that
+
+```math
+\left(
+\eta_X+\int_{I_a}(F_0+F_K)
+\right)
+\exp\left(
+\int_{I_a}(L_0+C A_{core}+1)
+\right)
+\le 2\eta_X.
+```
+
+At every restart time `s_a`, `ACT.X-Scale` supplies a retained radius `R_a`
+with
+
+```math
+B(c_j(s_a),2R_a)\subset Q_{s_a}^{rec,+},
+\qquad
+X_{exc}(s_a;R_a)\le\eta_X.
+```
+
+**H5 (post-receiver source inputs).** Once `LCI.A` is obtained, it supplies
+the coefficient controls required by `FPCR.C`, `FSCR.C`, and `FCC.C1`. In
+particular the pressure source splits into `LH/HL + RR + far`, the
+strain/cascade coefficient satisfies
+
+```math
+\mathfrak C_{N+1}^{\delta}\in L^1(I),
+```
+
+and the cutoff packet-factor derivative coefficient satisfies
+
+```math
+\mathfrak b_\psi^{cut}\in L^1(I).
+```
+
+**H6 (tower and endpoint certificates).** A finite transported-center cover
+
+```math
+Q_t\subset\bigcup_a B(c_a(t),R_a)
+```
+
+is fixed, the local DTC packet is available on each retained ball, the depth
+for `DTC-to-TowerBound` is at least `N+2`, and the accepted endpoint
+certificate maps are installed:
+
+```math
+\neg Part_{N,Q}\Longrightarrow Dead,
+```
+
+```math
+\neg Pack_Q
+\Longrightarrow
+packing\text{-}detached\vee tower\text{-}blown,
+```
+
+```math
+\neg Field_{N,r,Q}\Longrightarrow Jump,
+```
+
+```math
+Blown
+\Longleftrightarrow
+packing\text{-}detached\vee tower\text{-}blown,
+```
+
+```math
+Pack+Part+Jump
+\Longrightarrow
+Field\text{-coherence fracture},
+```
+
+together with the installed `(Part,Dead)` row. The endpoint faces are
+`END.Pack` and `END.Field`, with `END.Pack` spending the bounded pack gauge
+and `END.Field` spending `OFP.A`.
+
+Then the following conclusions hold, in the stated dependency order.
+
+**C1 (`RSCB.NKF` to `NKF.Native`).**
+
+```math
+RSCB.NKF
+\Longrightarrow
+NKF.Native.
+```
+
+The native forcing and native pressure-cell functionals are licensed by the
+retained mollifier limit and point recovery.
+
+**C2 (`ACT.X-Press`).**
+
+```math
+NKF.Native+NKF.Ann+NKF.Quad
+\Longrightarrow
+ACT.X\text{-Press}.
+```
+
+The pressure contribution has the route form
+
+```math
+|\mathcal T_{press}|
+\le
+\varepsilon N
++C_{press}X_{exc}^{1/2}N
++L_{press}X_{exc}
++F_{press},
+```
+
+with finite-energy far tail in `L^1(I)`.
+
+**C3 (`ACT.KX`).**
+
+```math
+ACT.X\text{-Cut}
++ACT.X\text{-Press}
++ACT.X\text{-MidRaw}
++ACT.X\text{-TopVisc}
+\Longrightarrow
+ACT.KX.
+```
+
+Consequently
+
+```math
+X_{exc}\in L^\infty(I),
+\qquad
+N\in L^1(I),
+\qquad
+\mathcal K_{\le m}^{ctr}\in L^1(I),
+\qquad
+A_{core}^{ctr}\in L^\infty(I).
+```
+
+**C4 (`ACT.X-Readout`, `ACT.A`, `RCF.A`, `LCI.A`).**
+
+```math
+ACT.KX+ACT.X\text{-Scale}+RWS.C\_scale
+\Longrightarrow
+ACT.X\text{-Readout}
+\Longrightarrow
+ACT.A
+\Longrightarrow
+RCF.A
+\Longrightarrow
 LCI.A.
 ```
+
+Here `RWS.C_scale` is the finite-overlap scale-transfer theorem from the
+small restarted packets to fixed-radius readout; it does not assert
+fixed-radius smallness.
+
+**C5 (`FCI.5f`).**
 
 ```math
 LCI.A
@@ -419,6 +281,8 @@ FPCR.C+FSCR.C+FCC.C1
 \Longrightarrow
 FCI.5f.
 ```
+
+**C6 (`CFI.A`).**
 
 ```math
 LCI.A+FCI.5f
@@ -430,19 +294,19 @@ OFP.A
 CFI.A.
 ```
 
+**C7 (`End_NS` and terminal class-exit contradiction).**
+
 ```math
 DTC\text{-to-TowerBound}
-+
-END.Exh
-+
-END.Cross
-+
-END.Pack
-+
-END.Field
++END.Exh
++END.Cross
++END.Pack
++END.Field
 \Longrightarrow
-End_{NS}.
+End_{NS},
 ```
+
+and therefore
 
 ```math
 CFI.A+End_{NS}
@@ -450,59 +314,61 @@ CFI.A+End_{NS}
 \text{no finite-time class exit}.
 ```
 
-## Dependency Skeleton
+This proves only the conditional route completion under H1-H6.
+
+## Proof Blocks
+
+### Lemma 1 (`RSCB.NKF` licenses `NKF.Native`)
+
+Under `RSCB.NKF`, the native center forcing and native pressure-cell
+functionals used by `NKF.Native` are well-defined in the retained center
+balls and are recovered as limits of transported mollifier tests.
+
+**Proof.** For a retained center define
 
 ```math
-NKF.Native+NKF.Ann+NKF.Quad
-\Longrightarrow
-ACT.X\text{-Press}.
+\varphi_{j,r}(x,t)=r^{-3}\varphi((x-c_j(t))/r).
 ```
+
+Testing the center forcing against `\varphi_{j,r}` gives the mollified
+quantity `K_{q,j}^{[r]}`. The viscous part is handled by integration by
+parts against the mollifier. The pressure part is handled by the local Poisson
+split on the retained ball plus the finite-energy far tail. Since H1 gives
+the required local `C^2` velocity and `C^{m+1,\alpha}` pressure regularity,
+the transported center point is a legitimate point of recovery:
 
 ```math
-ACT.X\text{-Cut}
-+ACT.X\text{-Press}
-+ACT.X\text{-MidRaw}
-+ACT.X\text{-TopVisc}
-\Longrightarrow
-ACT.KX.
+K_{q,j}^{[r]}\to K_q(c_j)
+\quad\text{in }L^1_t
+\qquad
+(r\downarrow0).
 ```
+
+Thus
 
 ```math
-ACT.KX+ACT.X\text{-Scale}+RWS.C_{scale}
+NKF.Moll+NKF.Point
 \Longrightarrow
-ACT.X\text{-Readout}
-\Longrightarrow
-ACT.A
-\Longrightarrow
-RCF.A
-\Longrightarrow
-LCI.A.
+NKF.Native.
 ```
+
+No global smoothness or endpoint certificate is spent in this step. `\square`
+
+### Lemma 2 (`NKF.Native` affine annihilation)
+
+The native pressure cell annihilates the affine and affine-linear center-cell
+pressure modes, leaving only the quadratic excess cell and the annular
+remainder.
+
+**Proof.** Let
 
 ```math
-FPCR.C+FSCR.C+FCC.C1
-\Longrightarrow
-FCI.5f.
+\Lambda_{r,j}f:=\nabla^r f(c_j),
+\qquad
+0\le r\le m+1,
 ```
 
-```math
-DTC\text{-to-TowerBound}
-+END.Exh
-+END.Cross
-+Pack/Part/Field\text{ endpoint matrix}
-\Longrightarrow
-End_{NS}.
-```
-
-## 1. `NKF.Native`
-
-Let
-
-```math
-\Lambda_{r,j}f:=\nabla^r f(c_j),\qquad 0\le r\le m+1.
-```
-
-Set
+and set
 
 ```math
 u_j^{aff}(x)=u(c_j)+A_j(x-c_j),
@@ -560,18 +426,27 @@ linearity of the local Poisson response gives
 \Lambda_{r,j}\Pi_j^{ann}.
 ```
 
-Thus the affine and affine-linear center-cell pressure modes are annihilated.
+The affine and affine-linear center-cell pressure modes are therefore
+removed before the pressure estimate is inserted into `ACT.X-Press`.
+`\square`
 
-## 2. `NKF.Ann`
+### Lemma 3 (`NKF.Ann`)
 
-The annular term is the projected annular remainder after `p_j^{aff}` removes
-the affine and affine-linear center-cell pressure modes. On
+The annular remainder satisfies the in-bootstrap estimate
+
+```math
+\sum_{j,r}|\Lambda_{r,j}\Pi_j^{ann}|
+\lesssim
+X_{exc}^{1/2}N^{1/2}+X_{exc}.
+```
+
+**Proof.** On
 
 ```math
 A_j^{ann}:=\operatorname{supp}\nabla\eta_j
 ```
 
-the kernel is smooth away from `c_j`, hence
+the kernel is smooth away from `c_j`, so
 
 ```math
 |\Lambda_{r,j}\Pi_j^{ann}|
@@ -581,7 +456,7 @@ C
 \|\nabla^\gamma(w_j\otimes w_j)\|_{L^1(A_j^{ann})}.
 ```
 
-The finite product estimate gives
+The retained finite product estimate yields
 
 ```math
 \|\nabla^\gamma(w_j\otimes w_j)\|_{L^1}
@@ -591,28 +466,29 @@ C X_{exc}^{1/2}N^{1/2}
 C X_{exc}.
 ```
 
-Therefore
+Summing over the finite centers and finite pressure depths gives the stated
+bound. After `ACT.KX` has supplied `X_{exc}\in L^\infty(I)` and
+`N\in L^1(I)`, this annular cell is in `L^1(I)`. `\square`
+
+### Lemma 4 (`NKF.Quad`)
+
+The quadratic native pressure cell satisfies
 
 ```math
-\sum_{j,r}|\Lambda_{r,j}\Pi_j^{ann}|
+|\Lambda_{r,j}\pi_j^{quad}|
 \lesssim
 X_{exc}^{1/2}N^{1/2}+X_{exc}.
 ```
 
-This is an in-bootstrap estimate; after `ACT.KX` supplies
-`X_{exc}\in L^\infty(I)` and `N\in L^1(I)`, the annular cell is in `L^1(I)`.
-
-## 3. `NKF.Quad`
-
-For
+**Proof.** The quadratic cell solves
 
 ```math
 -\Delta\pi_j^{quad}
 =
-\partial_a\partial_b(\eta_j w_{j,a}w_{j,b}),
+\partial_a\partial_b(\eta_j w_{j,a}w_{j,b}).
 ```
 
-fixed-ball elliptic response gives
+Fixed-ball elliptic response gives
 
 ```math
 |\Lambda_{r,j}\pi_j^{quad}|
@@ -620,7 +496,7 @@ fixed-ball elliptic response gives
 C\|w_j\otimes w_j\|_{H^{r+1}}.
 ```
 
-For the finite pressure depth,
+At the finite pressure depth used by the route,
 
 ```math
 \|w_j\|_{H^2}\lesssim X_{exc}^{1/2},
@@ -628,18 +504,15 @@ For the finite pressure depth,
 \|w_j\|_{H^{r+1}}\lesssim N^{1/2}+X_{exc}^{1/2}.
 ```
 
-Hence
+The product estimate therefore gives the claimed quadratic bound. `\square`
 
-```math
-|\Lambda_{r,j}\pi_j^{quad}|
-\lesssim
-X_{exc}^{1/2}N^{1/2}+X_{exc}.
-```
+### Proposition 5 (`ACT.X-Press`)
 
-## 4. `ACT.X-Press`
+`NKF.Native + NKF.Ann + NKF.Quad` prove `ACT.X-Press`.
 
-`NKF.Native + NKF.Ann + NKF.Quad` supplies the local pressure response.
-The energy form is
+**Proof.** Lemma 2 removes the affine and affine-linear pressure modes.
+Lemmas 3 and 4 control the remaining annular and quadratic cells. Their
+combined contribution has the energy form
 
 ```math
 |\mathcal T_{press}|
@@ -662,17 +535,37 @@ The finite far-tail contribution satisfies
 \in L^\infty(I)\subset L^1(I).
 ```
 
-The cell form is read after `ACT.KX`:
+After `ACT.KX` supplies
 
 ```math
-X_{exc}\in L^\infty(I),\quad N\in L^1(I)
-\Longrightarrow
+X_{exc}\in L^\infty(I),
+\qquad
+N\in L^1(I),
+```
+
+the pressure cell readout obeys
+
+```math
 \mathcal P_{\le m}^{cell}\in L^1(I).
 ```
 
-## 5. `ACT.X-Cut`
+This is exactly `ACT.X-Press`. `\square`
 
-The affine coordinate identity is
+### Lemma 6 (`ACT.X-Cut`)
+
+The moving cutoff contribution has the route-valid bound
+
+```math
+|\mathcal T_{cut}|
+\le
+C_{cut}X_{exc}^{1/2}N
++
+L_{cut}X_{exc}
++
+F_{cut}.
+```
+
+**Proof.** In affine coordinates,
 
 ```math
 D_ty
@@ -689,31 +582,38 @@ u-u(c_j)-A_j(x-c_j)
 (U_1(c_j+s(x-c_j))-A_j)(x-c_j)\,ds.
 ```
 
-Therefore
+Thus
 
 ```math
 |D_t\zeta|
 \lesssim
 \sup_{B(c_j,2R)}|U_1-A_j|
 \lesssim
-X_{exc}^{1/2},
+X_{exc}^{1/2}.
 ```
 
-and
+Pairing this cutoff velocity with the dissipative ledger gives the displayed
+`ACT.X-Cut` estimate. `\square`
+
+### Lemma 7 (`ACT.X-MidRaw`)
+
+The middle block satisfies
 
 ```math
-|\mathcal T_{cut}|
+|\mathcal T_{mid}|
 \le
-C_{cut}X_{exc}^{1/2}N
+C A_{core}X_{exc}
 +
-L_{cut}X_{exc}
+C_{mid}X_{exc}^{1/2}N
 +
-F_{cut}.
+\varepsilon N
++
+L_{mid}X_{exc}
++
+F_{mid}.
 ```
 
-## 6. `ACT.X-MidRaw`
-
-The middle block keeps the genuine zero-mode linear terms
+**Proof.** The route keeps the genuine zero-mode linear terms
 
 ```math
 \widetilde U_{\ell,j}R_{q+1-\ell,j}
@@ -721,7 +621,7 @@ The middle block keeps the genuine zero-mode linear terms
 R_{\ell,j}\widetilde U_{q+1-\ell,j}.
 ```
 
-They satisfy
+These terms are bounded by
 
 ```math
 |\mathcal T_{mid,lin}|
@@ -743,28 +643,13 @@ L_{mid}X_{exc}
 F_{mid}.
 ```
 
-Thus
+Adding the two pieces gives the displayed `ACT.X-MidRaw` estimate. This is
+the reason the packet uses the simultaneous `ACT.KX` block rather than a
+linear post-`AXE.A` route. `\square`
 
-```math
-|\mathcal T_{mid}|
-\le
-C A_{core}X_{exc}
-+
-C_{mid}X_{exc}^{1/2}N
-+
-\varepsilon N
-+
-L_{mid}X_{exc}
-+
-F_{mid}.
-```
+### Lemma 8 (`ACT.X-TopVisc`)
 
-This is why the current route uses the simultaneous block `ACT.KX`, not a
-linear post-`AXE.A` route.
-
-## 7. `ACT.X-TopVisc`
-
-The viscous term gives
+The top viscous block has the dissipative form
 
 ```math
 \nu\langle R,\Delta R\rangle_{H^2}
@@ -786,17 +671,30 @@ L_{top}X_{exc}
 F_{top}.
 ```
 
-The top buffer terms
+**Proof.** Integrating by parts gives the displayed negative top-order
+viscous term. All commutators either lose to `\varepsilon N`, enter the
+linear `X_{exc}` ledger, or remain in the finite forcing `F_{top}`. The top
+buffer modes
 
 ```math
 \nu\sum_j(|U_{m+1}(c_j)|+|U_{m+2}(c_j)|)
 ```
 
-remain top readout/forcing data and enter `Y_read`, not `A_core`.
+are not inserted into the pre-pressure `A_{core}` ledger; they remain
+top-readout and residual-forcing data inside
 
-## 8. `ACT.KX`
+```math
+Y_{read}=A_{core}^{ctr}+A_{buf}^{ctr}+X_{exc}.
+```
 
-Let
+This is `ACT.X-TopVisc`. `\square`
+
+### Proposition 9 (`ACT.KX`)
+
+The inputs `ACT.X-Cut`, `ACT.X-Press`, `ACT.X-MidRaw`, and
+`ACT.X-TopVisc` prove `ACT.KX` on the retained cover.
+
+**Proof.** Let
 
 ```math
 X:=X_{exc},
@@ -804,7 +702,7 @@ X:=X_{exc},
 A:=A_{core}^{ctr}.
 ```
 
-The live system is
+Combining Proposition 5 and Lemmas 6-8 gives the live system
 
 ```math
 dX+c_\nu N
@@ -822,31 +720,26 @@ dA\le \mathcal K_{\le m}^{ctr}+\mathcal T_{tri}(A),
 C(X^{1/2}N^{1/2}+X)+F_K.
 ```
 
-Use
+Use Young's inequality
 
 ```math
-X^{1/2}N^{1/2}\le \delta N+C_\delta X.
+X^{1/2}N^{1/2}\le \delta N+C_\delta X
 ```
 
-Choose
+and choose
 
 ```math
 \eta_X=\left(\frac{c_\nu}{4C_X}\right)^2.
 ```
 
-On each scheduler interval, assume
+On a scheduler interval with `X(s_a)\le\eta_X`, argue up to the first exit
+from `X\le4\eta_X`. Before that exit,
 
 ```math
-X(s_a)\le\eta_X.
+C_X X^{1/2}N\le \frac{c_\nu}{2}N,
 ```
 
-Before first exit from `X\le4\eta_X`,
-
-```math
-C_X X^{1/2}N\le \frac{c_\nu}{2}N.
-```
-
-Thus
+and therefore
 
 ```math
 dX+\frac{c_\nu}{2}N
@@ -856,30 +749,39 @@ dX+\frac{c_\nu}{2}N
 
 The center equation closes rung-by-rung because `\mathcal T_{tri}` is
 finite-depth triangular. The bound on `\mathcal K_{\le m}^{ctr}` gives its
-`L^1` control after the same absorption step. Scheduler budgets keep
+`L^1` control after the same absorption. The scheduler inequality from H4
+keeps
 
 ```math
-\int(L_0+C A),\qquad
-\int F_0,\qquad
-\int F_K
+\int_{I_a}(L_0+C A),
+\qquad
+\int_{I_a}F_0,
+\qquad
+\int_{I_a}F_K
 ```
 
-below the chosen threshold, so neither the excess nor the center ledger exits.
-Therefore
+below the chosen threshold. Thus neither the excess ledger nor the center
+ledger reaches the exit value. Hence, on each retained interval,
 
 ```math
-X_{exc}\in L^\infty(I),
+X_{exc}\in L^\infty(I_a),
 \qquad
-N\in L^1(I),
+N\in L^1(I_a),
 \qquad
-\mathcal K_{\le m}^{ctr}\in L^1(I),
+\mathcal K_{\le m}^{ctr}\in L^1(I_a),
 \qquad
-A_{core}^{ctr}\in L^\infty(I).
+A_{core}^{ctr}\in L^\infty(I_a).
 ```
 
-## 9. `ACT.X-Scale`
+The retained cover is finite, so summation over the cover gives the same
+bounds on `I`. `\square`
 
-At every restart time `s_a`, retained smooth center-ball regularity gives
+### Lemma 10 (`ACT.X-Scale`)
+
+`RSCB.NKF` supplies the scale seeds consumed by `ACT.KX`.
+
+**Proof.** At each restart time `s_a`, retained smooth center-ball
+regularity gives
 
 ```math
 X_{exc}(s_a;R)\to0
@@ -887,7 +789,7 @@ X_{exc}(s_a;R)\to0
 (R\downarrow0).
 ```
 
-Choose `R_a` with
+Choose `R_a` so that
 
 ```math
 B(c_j(s_a),2R_a)\subset Q_{s_a}^{rec,+},
@@ -895,20 +797,24 @@ B(c_j(s_a),2R_a)\subset Q_{s_a}^{rec,+},
 X_{exc}(s_a;R_a)\le\eta_X.
 ```
 
-This supplies the restart seed consumed by `ACT.KX`.
+This is precisely the `ACT.X-Scale` restart seed needed in Proposition 9.
+`\square`
 
-## 10. `RWS.C_scale`
+### Proposition 11 (`RWS.C_scale`)
 
-Use a finite same-fluid dynamic cover
+`RWS.C_scale` transfers small restarted packet bounds to fixed-radius
+readout through the finite same-fluid cover.
+
+**Proof.** H2 gives, for every fixed readout ball,
 
 ```math
 B(c_j(t),R_{fix})
 \subset
 \bigcup_{b=1}^{B}
-B(c_{j_b}(t),R_b).
+B(c_{j_b}(t),R_b),
 ```
 
-Each small packet has
+with bounded overlap. Each small retained packet from Proposition 9 supplies
 
 ```math
 X_{exc,b}\in L^\infty,
@@ -916,19 +822,23 @@ X_{exc,b}\in L^\infty,
 N_b\in L^1.
 ```
 
-Finite overlap gives the fixed-radius readout packet. Thus `RWS.C_scale` is the
-scale-transfer theorem from small restarted packets to fixed-radius readout; it
-does not assert fixed-radius smallness.
+Finite overlap sums these packet bounds to the fixed readout ball. This proves
+the scale-transfer theorem `RWS.C_scale`; it does not turn the fixed-radius
+readout into a smallness assumption. `\square`
 
-## 11. `ACT.X-Readout`
+### Proposition 12 (`ACT.X-Readout` to `LCI.A`)
 
-With
+`ACT.KX + ACT.X-Scale + RWS.C_scale` imply `ACT.X-Readout`, then `ACT.A`,
+then `RCF.A`, then `LCI.A`.
+
+**Proof.** With
 
 ```math
 Y_{read}=A_{core}^{ctr}+A_{buf}^{ctr}+X_{exc},
 ```
 
-and `RWS.C_scale`, local Morrey gives
+Proposition 9 and Proposition 11 give the fixed-radius readout packet. Local
+Morrey yields
 
 ```math
 \mathfrak H^{osc,\alpha}\in L^2.
@@ -946,37 +856,19 @@ The pressure and top-viscous readouts give
 \mathfrak F^{ctr,res}\in L^1.
 ```
 
-Therefore `ACT.A` holds.
-
-## 12. `ACT.A -> RCF.A -> LCI.A`
-
-`ACT.A` supplies
-
-```math
-\mathfrak H^{osc,\alpha}\in L^2,
-\qquad
-\mathfrak D_1^{aff}\in L^1,
-\qquad
-\mathfrak F^{ctr,res}\in L^1.
-```
-
-Then the affine-defect bridge gives
+These three readouts are `ACT.A`. The receiver bridge then gives
 
 ```math
 \mathfrak D_1^{aff}\in L^1
 \Longrightarrow
-\mathfrak A_1^{ctr}\in L^\infty.
+\mathfrak A_1^{ctr}\in L^\infty,
 ```
-
-Residual forcing gives
 
 ```math
 \mathfrak F^{ctr,res}\in L^1
 \Longrightarrow
-\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^2.
+\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^2,
 ```
-
-The oscillation ledger gives
 
 ```math
 \mathfrak H^{osc,\alpha}\in L^2
@@ -984,34 +876,44 @@ The oscillation ledger gives
 \Omega^{osc}\in L^2.
 ```
 
-So `RCF.A` holds. With bounded pack gauge, `LCI.B2e` and `LCI.C` give `LCI.A`.
+Thus `RCF.A` holds. With the bounded pack gauge from H2, `LCI.B2e` and
+`LCI.C` give `LCI.A`. `\square`
 
-## 13. `FPCR.C`
+### Proposition 13 (`FPCR.C`, `FSCR.C`, `FCC.C1`, and `FCI.5f`)
 
-The pressure source channel splits as
+Post-`LCI.A` coefficient control proves
+
+```math
+FPCR.C+FSCR.C+FCC.C1
+\Longrightarrow
+FCI.5f.
+```
+
+**Proof.** For `FPCR.C`, split the pressure source channel as
 
 ```math
 LH/HL + RR + far.
 ```
 
-Low-high/high-low obeys
+The low-high/high-low component obeys
 
 ```math
 \mathcal N_{LH/HL}^{press}
 \le
-C(1+\Gamma_{low})\mathcal F^\varepsilon.
+C(1+\Gamma_{low})\mathcal F^\varepsilon,
 ```
 
-Post-`LCI.A` gives `\Gamma_{low}\in L^1`, while the frozen packet energy is
-bounded. The resonant finite-net pressure packet satisfies
+and post-`LCI.A` gives `\Gamma_{low}\in L^1`. The resonant finite-net
+pressure packet satisfies
 
 ```math
 \mathcal N_{RR}^{press}
 \le
-C(1+\mathfrak C_{N+1}^{\delta})\mathcal F^\varepsilon.
+C(1+\mathfrak C_{N+1}^{\delta})\mathcal F^\varepsilon,
 ```
 
-The far-tail pressure term is energy-controlled:
+with `\mathfrak C_{N+1}^{\delta}\in L^1(I)`. The far-tail pressure term is
+energy-controlled:
 
 ```math
 \mathcal N_{far}^{press}
@@ -1020,29 +922,19 @@ The far-tail pressure term is energy-controlled:
 \in L^\infty(I).
 ```
 
-Thus `FPCR.C` holds on the post-`LCI.A` source branch.
+This proves `FPCR.C` on the post-`LCI.A` source branch.
 
-## 14. `FSCR.C`
-
-The strain/cascade channel satisfies
+For `FSCR.C`,
 
 ```math
 \mathcal N^{src,\varepsilon,sc}
 \le
-C(1+\mathfrak C_{N+1}^{\delta})\mathcal F^\varepsilon.
+C(1+\mathfrak C_{N+1}^{\delta})\mathcal F^\varepsilon,
 ```
 
-Post-`LCI.A` gives
+and the same `L^1` coefficient control closes the strain/cascade channel.
 
-```math
-\mathfrak C_{N+1}^{\delta}\in L^1(I),
-```
-
-and the frozen packet energy is bounded. Hence `FSCR.C` holds.
-
-## 15. `FCC.C1`
-
-The cutoff commutator satisfies
+For `FCC.C1`,
 
 ```math
 |\mathcal C_N^{cut}(h,t;\psi)|
@@ -1068,12 +960,8 @@ Summing over the frozen net gives
 \mathfrak b_\psi^{cut}\mathcal F^\varepsilon.
 ```
 
-Post-`LCI.A` supplies the packet-factor derivative bound, so
-`\mathfrak b_\psi^{cut}\in L^1(I)`. Gronwall and absorption give `FCC.C1`.
-
-## 16. `FCI.5f`
-
-The exact source split is
+Post-`LCI.A` supplies `\mathfrak b_\psi^{cut}\in L^1(I)`, so Gronwall and
+absorption give `FCC.C1`. The exact source split
 
 ```math
 \mathcal N^{src}
@@ -1082,29 +970,26 @@ The exact source split is
 +
 \mathcal N^{sc}
 +
-\mathcal N^{cut}.
+\mathcal N^{cut}
 ```
 
-Therefore
+then proves `FCI.5f`. `\square`
 
-```math
-FPCR.C+FSCR.C+FCC.C1
-\Longrightarrow
-FCI.5f.
-```
+### Proposition 14 (`DTC-to-TowerBound`)
 
-## 17. `DTC-to-TowerBound`
+The finite DTC depth gives the tower bound needed by the endpoint side.
 
-Use a finite transported-center cover
+**Proof.** Use a finite transported-center cover
 
 ```math
 Q_t\subset\bigcup_a B(c_a(t),R_a).
 ```
 
-`DTC.A` on each ball gives local Sobolev control, and Morrey gives
+`DTC.A` on each retained ball gives local Sobolev control. Since the depth is
+at least `N+2`, Morrey gives
 
 ```math
-\sup_{Q_t}\sum_{k\le N}|U_k|\in L^\infty(I).
+\sup_{Q_t}\sum_{k=0}^{N}|U_k|\in L^\infty(I).
 ```
 
 For
@@ -1113,27 +998,33 @@ For
 K_k=-\nabla^{k+1}p+\nu\Delta U_k,
 ```
 
-the pressure readout plus the `U_{k+2}` viscous readout give
+the viscous term uses `U_{k+2}` and the pressure term uses local pressure
+response plus the energy far tail. Hence
 
 ```math
-\sup_{Q_t}\sum_{k\le N}|K_k|\in L^\infty(I).
+\sup_{Q_t}\sum_{k=0}^{N}|K_k|\in L^\infty(I),
 ```
 
-Thus
+and therefore
 
 ```math
 \mathfrak A_{N,Q}\in L^\infty(I).
 ```
 
-## 18. `END.Exh`
+This is `DTC-to-TowerBound`. `\square`
 
-Since
+### Proposition 15 (`END.Exh` and `END.Cross`)
+
+The accepted endpoint certificate maps prove `END.Exh` and `END.Cross`.
+
+**Proof.** Let
 
 ```math
-CM=Pack\wedge Part\wedge Field,
+CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
-failure of `CM` gives a component failure. The certificate maps are
+If `CM` fails, at least one of `Pack`, `Part`, or `Field` fails. The accepted
+maps give
 
 ```math
 \neg Part\Longrightarrow Dead,
@@ -1143,37 +1034,27 @@ failure of `CM` gives a component failure. The certificate maps are
 \neg Field\Longrightarrow Jump.
 ```
 
-Therefore
+Thus
 
 ```math
+END.Exh:
+\quad
 \neg CM
 \Longrightarrow
 Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
-## 19. `END.Cross`
-
-The blown gauge split is
-
-```math
-\mathfrak B_{N,Q}
-=
-\Gamma_{pack,Q}
-+
-\mathfrak A_{N,Q}.
-```
-
-Thus
+For `END.Cross`, use the accepted blown split
 
 ```math
 Blown
 \Longleftrightarrow
 packing\text{-}detached
 \vee
-tower\text{-}blown.
+tower\text{-}blown,
 ```
 
-The jump cross-entry reduces by
+the jump cross-entry
 
 ```math
 Pack+Part+Jump
@@ -1181,16 +1062,19 @@ Pack+Part+Jump
 Field\text{-coherence fracture},
 ```
 
-and the dead cross-entry reduces through `(Part,Dead)`. Hence `END.Cross`
-closes as a formal cross-entry reduction.
+and the installed `(Part,Dead)` row. These are exactly the formal cross-entry
+reductions required by `END.Cross`. `\square`
 
-## 20. Pack/Part/Field Endpoint Matrix
+### Proposition 16 (`END.Pack`, `END.Field`, and `End_NS`)
 
-The endpoint faces close through
+`DTC-to-TowerBound`, `END.Exh`, `END.Cross`, `END.Pack`, and `END.Field`
+prove `End_NS`.
+
+**Proof.** The endpoint faces close through
 
 ```math
 END.Pack:
-\Gamma_{pack,Q}\in L^\infty
+\Gamma_{\mathrm{pack},Q}\in L^\infty(I)
 \Longrightarrow
 \neg packing\text{-}detached,
 ```
@@ -1199,37 +1083,93 @@ END.Pack:
 END.Field:
 OFP.A
 \Longrightarrow
+Field_{N,r,Q}\ \text{persists on }I
+\Longrightarrow
 \neg Jump,
 ```
 
+and the tower face from Proposition 14,
+
 ```math
-END.Tower:
-\mathfrak A_{N,Q}\in L^\infty
+\mathfrak A_{N,Q}\in L^\infty(I)
 \Longrightarrow
-\neg tower\text{-}blown,
+\neg tower\text{-}blown.
 ```
 
-plus `END.Exh` and `END.Cross`. Therefore `End_NS` holds.
+Together with `END.Exh` and `END.Cross`, these exclude every endpoint face in
+the accepted matrix. Therefore `End_NS` holds. `\square`
 
-## 21. Final Route Assembly
+## Proof of Theorem 1
 
-Receiver plus source gives
+By Lemma 1,
+
+```math
+RSCB.NKF
+\Longrightarrow
+NKF.Native.
+```
+
+Lemmas 2-4 and Proposition 5 give
+
+```math
+NKF.Native+NKF.Ann+NKF.Quad
+\Longrightarrow
+ACT.X\text{-Press}.
+```
+
+Combining Proposition 5 with Lemmas 6-8 gives
+
+```math
+ACT.X\text{-Cut}
++ACT.X\text{-Press}
++ACT.X\text{-MidRaw}
++ACT.X\text{-TopVisc}
+\Longrightarrow
+ACT.KX.
+```
+
+Lemma 10 and Proposition 11 add `ACT.X-Scale` and `RWS.C_scale`, so
+Proposition 12 yields
+
+```math
+ACT.KX+ACT.X\text{-Scale}+RWS.C\_scale
+\Longrightarrow
+ACT.X\text{-Readout}
+\Longrightarrow
+ACT.A
+\Longrightarrow
+RCF.A
+\Longrightarrow
+LCI.A.
+```
+
+Proposition 13 gives the post-receiver source closure:
+
+```math
+LCI.A
+\Longrightarrow
+FPCR.C+FSCR.C+FCC.C1
+\Longrightarrow
+FCI.5f.
+```
+
+The recombination spends exactly
 
 ```math
 LCI.A+FCI.5f
 \Longrightarrow
-CSP.A.
+CSP.A,
 ```
 
-Then
+then
 
 ```math
-CSP.A
+CSP.A+FCI.5f
 \Longrightarrow
 OFP.A,
 ```
 
-and
+and finally
 
 ```math
 OFP.A+CFI.B1+CFI.B2
@@ -1237,53 +1177,26 @@ OFP.A+CFI.B1+CFI.B2
 CFI.A.
 ```
 
-Endpoint closure gives `End_NS`. Hence
-
-```math
-CFI.A+End_{NS}
-\Longrightarrow
-\text{no finite-time class exit}.
-```
-
-The full conditional route is
-
-```math
-ACT.KX
-\Longrightarrow
-ACT.A
-\Longrightarrow
-RCF.A
-\Longrightarrow
-LCI.A,
-```
-
-```math
-FPCR.C+FSCR.C+FCC.C1
-\Longrightarrow
-FCI.5f,
-```
-
-```math
-LCI.A+FCI.5f
-\Longrightarrow
-CSP.A
-\Longrightarrow
-OFP.A
-\Longrightarrow
-CFI.A,
-```
+On the endpoint side, Propositions 14-16 give
 
 ```math
 DTC\text{-to-TowerBound}
 +END.Exh
 +END.Cross
-+Pack/Part/Field\text{ endpoint matrix}
++END.Pack
++END.Field
 \Longrightarrow
-End_{NS},
+End_{NS}.
 ```
+
+Therefore
 
 ```math
 CFI.A+End_{NS}
 \Longrightarrow
 \text{no finite-time class exit}.
 ```
+
+All dependencies have been used in the theorem order, and every non-derived
+input is one of H1-H6. This completes the conditional `ACT.KX` route theorem.
+`\square`
