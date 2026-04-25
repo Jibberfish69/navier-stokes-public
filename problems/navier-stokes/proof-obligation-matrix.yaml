@@ -29,7 +29,7 @@ object_law_refoundation:
     ym_heat_shadow_carrier: derived supplier/export branch on the Law-2-survivor side
     euclidean_strict_shadow: downstream export branch on the Law-2-survivor side
   theorem_queue:
-    - paperize and audit the completed conditional terminal closure packet: receiver `RSCB.NKF => NKF.Native => ACT.KX => ACT.X-Readout => ACT.A => RCF.A => LCI.A`, source post-`LCI.A` `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, and endpoint `DTC-to-TowerBound + END.Exh + END.Cross + END.Pack + END.Field => End_NS`
+    - treat the installed theorem-first conditional terminal closure packet and companion hidden-spending audit as governing authority: receiver `RSCB.NKF => NKF.Native => ACT.KX => ACT.X-Readout => ACT.A => RCF.A => LCI.A`, source post-`LCI.A` `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, and endpoint `DTC-to-TowerBound + END.Exh + END.Cross + END.Pack + END.Field => End_NS`
     - keep TPS / SG.4, exact-potential, Hodge / normal-covector, and Euclidean strict-shadow quarantined as downstream context only
 live_theorem_edge:
   route_id: live-authority-edge-navier-stokes
@@ -57,6 +57,7 @@ live_theorem_edge:
     "problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md",
     "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md",
     "problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md",
+    "problems/navier-stokes/theorem-construction/mpp-act-kx-hidden-spending-audit-note.md",
     "problems/navier-stokes/theorem-construction/mpp-lci-a-pre-csp-still-live-receiver-admission-note.md"]'
   branch_choice_labels:
   - CFI.A / OFP.A / LCI.A class-membership route
