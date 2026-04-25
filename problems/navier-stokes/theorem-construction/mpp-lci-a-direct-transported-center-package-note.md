@@ -1992,30 +1992,57 @@ The pressure part is the atom `ACT.X-Press`. Use the local split
 \tag{AXE.2a}
 ```
 
-On the affine ball, the fixed-ball pressure response target is
+On the affine ball, write
 
 ```math
-\|\zeta\nabla^{q+1}p_j^{loc}\|_{H^1_y}
-\le
-C\mathcal X^{1/2}\mathcal N^{1/2}
-+
-L_{press}^{loc}(t)\mathcal X^{1/2}
-+
-F_{press}^{loc}(t)^{1/2}.
+u(x,t)
+=
+b_j(t)+A_j(t)(x-c_j(t))+w_j(x,t),
+\qquad
+b_j(t):=u(c_j(t),t),
+\quad
+A_j(t):=U_1(c_j(t),t),
 \tag{AXE.2b}
 ```
 
-This is obtained by writing
+where
 
 ```math
-u(x,t)=u(c_j,t)+A_j(x-c_j)+w_j(x,t),
+w_j(c_j(t),t)=0,
 \qquad
-w_j:=u-u(c_j)-A_j(x-c_j),
+\nabla w_j(c_j(t),t)=0.
 \tag{AXE.2c}
 ```
 
-and routing center/affine coefficients through
-`\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I)`. The product expansion
+The first-rung affine excess represents `w_j` in the frame coordinates. In the
+scale-normalized affine packet,
+
+```math
+\|w_j\|_{H^2(B_j)}
++
+\|\nabla w_j\|_{H^1(B_j)}
+\le
+C(\mathcal X_j^{exc})^{1/2},
+\qquad
+\|w_j\|_{H^{q+2}(B_j)}
+\le
+C\left(\mathcal N_j^{1/2}+(\mathcal X_j^{exc})^{1/2}\right)
+\tag{AXE.2c0}
+```
+
+for the finite pressure depths used in the packet. The center and affine
+coefficients are routed through `ACT.Actr_core`:
+
+```math
+|b_j(t)|+|A_j(t)|+\sum_{q=2}^{m}|\widetilde U_{q,j}(t)|
+\le
+C_{\mathrm{core}}(t),
+\qquad
+C_{\mathrm{core}}\in L^\infty(I).
+\tag{AXE.2c0a}
+```
+
+The product expansion
 
 ```math
 u\otimes u
@@ -2028,25 +2055,100 @@ w_j\otimes w_j
 \tag{AXE.2c1}
 ```
 
-splits the local pressure atom into affine-affine, affine-remainder, and
-remainder-remainder pieces. The affine-affine piece contributes only an
-`L^1` coefficient against `\mathcal X`; the affine-remainder piece is absorbed
-by Young into `\varepsilon\mathcal N+L(t)\mathcal X+F(t)`. The
-remainder-remainder piece is the same scale-small obstruction as the moving
-cutoff:
+splits the local pressure source into affine-affine, affine-remainder, and
+remainder-remainder pieces.
+
+The fixed-ball Calderon-Zygmund/Schauder estimate gives
 
 ```math
-|\mathcal T_{press}^{ww}|
+\|\chi_j\nabla^{q+1}p_j^{loc}\|_{H^1(B_j)}
 \le
-C_{press}(\mathcal X^{exc})^{1/2}\mathcal N
-+
-L_{ww}(t)\mathcal X^{exc}
-+
-F_{ww}(t).
+C_{\mathfrak p}
+\|\eta_j u\otimes u\|_{H^{q+2}(2B_j)}.
 \tag{AXE.2c2}
 ```
 
-Pairing gives
+For the affine-affine piece
+`\eta_j(b_j+A_jz)^{\otimes2}`, all derivatives fall on the cutoff or affine
+factor, so
+
+```math
+\|P_{aa}\|_{H^{q+2}(2B_j)}
+\le
+C_{\mathfrak p,q}(1+C_{\mathrm{core}}(t)^2).
+\tag{AXE.2c3}
+```
+
+Pairing with the affine-excess energy variable and applying Young gives
+
+```math
+|\mathcal T_{press}^{aa}|
+\le
+L_{aa}(t)\mathcal X^{exc}
++
+F_{aa}(t),
+\qquad
+L_{aa},F_{aa}\in L^1(I).
+\tag{AXE.2c4}
+```
+
+For the affine-remainder piece,
+
+```math
+\|P_{ar}\|_{H^{q+2}(2B_j)}
+\le
+C_{\mathfrak p,q}(1+C_{\mathrm{core}}(t))
+\left(\mathcal N_j^{1/2}+(\mathcal X_j^{exc})^{1/2}\right).
+\tag{AXE.2c5}
+```
+
+Pairing and Young yield
+
+```math
+|\mathcal T_{press}^{ar}|
+\le
+\varepsilon\mathcal N_j
++
+L_{ar}(t)\mathcal X_j^{exc},
+\qquad
+L_{ar}\in L^1(I).
+\tag{AXE.2c6}
+```
+
+For the remainder-remainder piece, the fixed-ball product estimate gives
+
+```math
+\|P_{rr}\|_{H^{q+2}(2B_j)}
+\le
+C_{\mathfrak p,q}
+\|w_j\|_{H^2(B_j)}
+\|w_j\|_{H^{q+2}(B_j)}
+\le
+C_{\mathfrak p,q}
+(\mathcal X_j^{exc})^{1/2}\mathcal N_j^{1/2}
++
+C_{\mathfrak p,q}\mathcal X_j^{exc}.
+\tag{AXE.2c7}
+```
+
+After pairing with `R_{q,j}`, the first term is bounded by
+`C\mathcal X_j^{exc}\mathcal N_j^{1/2}`. The anchored scale-normalized
+Poincare estimate in `ACT.X-Def` gives
+`\mathcal X_j^{exc}\le C_R\mathcal N_j` on the supported affine excess, hence
+
+```math
+|\mathcal T_{press}^{rr}|
+\le
+C_{\mathrm{press}}(\mathcal X_j^{exc})^{1/2}\mathcal N_j
++
+L_{rr}(t)\mathcal X_j^{exc}
++
+F_{rr}(t).
+\tag{AXE.2c8}
+```
+
+Summing over the finite centers and pressure depths gives the local pressure
+bound
 
 ```math
 |\mathcal T_{press}^{loc}|
@@ -2117,12 +2219,47 @@ F_{press}(t).
 \tag{AXE.2g}
 ```
 
-The far-tail half of `ACT.X-Press` is handled by energy; the live pressure wall
-is the local fixed-ball pressure response.
+The far-tail half of `ACT.X-Press` is handled by energy. The local fixed-ball
+pressure response is now reduced to the affine-affine / affine-remainder /
+remainder-remainder decomposition above; its only non-`L^1` residue is the
+scale-small absorbable term
+`C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`.
 
 The top-viscous part of `AXE.2` is separate: it is read from the included
-`m+2` buffer modes inside `\mathcal Y^{read}`. Those buffer modes are not
-licensed as pre-pressure coefficients by `ACT.Actr_core`. No `LCI.A`, `CSP.A`,
+`m+2` buffer modes inside `\mathcal Y^{read}`. In particular,
+
+```math
+\|\chi_jU_{m+1}\|_{H^2(B_j)}
++
+\|\chi_jU_{m+2}\|_{H^2(B_j)}
+\le
+C_\sharp
+\left(
+(\mathcal X_j^{exc})^{1/2}
++
+\mathcal A_{\mathrm{buf}}^{ctr}(t)
+\right).
+\tag{AXE.2h}
+```
+
+Pairing with the top energy variables and applying Young gives
+
+```math
+|\mathcal T_{topvisc}|
+\le
+\varepsilon\mathcal N
++
+L_{top}(t)\mathcal X^{exc}
++
+F_{top}(t),
+\qquad
+L_{top},F_{top}\in L^1(I),
+\tag{AXE.2i}
+```
+
+provided the bounded readout packet `\mathcal Y^{read}` supplies the buffer
+ledger. Those buffer modes are not licensed as pre-pressure coefficients by
+`ACT.Actr_core`; their use here is forcing/readout only. No `LCI.A`, `CSP.A`,
 `OFP.A`, or `Field` input is allowed in either pressure or top-viscous estimate.
 
 ```math
