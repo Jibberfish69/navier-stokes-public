@@ -302,10 +302,6 @@ NKF.Native + NKF.Ann + NKF.Quad
 ACT.KX + ACT.X-Scale + RWS.C_scale
 => ACT.X-Readout
 => ACT.A
-
-=> ACT.X-Press_cell
-=> ACT.Kcore
-=> ACT.Actr_core
 => RCF.A
 => LCI.A
 ```
