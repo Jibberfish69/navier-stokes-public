@@ -5,6 +5,451 @@ means each cell has a route-valid proof from its named inputs inside the repo
 vocabulary. It does not replace the theorem-facing status surfaces; it is the
 single ordered packet they cite.
 
+## Named Hypotheses Closing The Packet
+
+The packet closes under the retained-window hypothesis `RSCB.NKF`, bounded pack
+gauge, the finite required parameter set, and the accepted endpoint certificate
+maps.
+
+### 1. Retained-Window Admission
+
+`RSCB.NKF` supplies retained same-fluid windows
+
+```math
+I_a=[s_a,s_{a+1}]
+```
+
+with transported centers
+
+```math
+c_j(t)=\Phi(a^j,t)
+```
+
+and radii `r_a>0` such that
+
+```math
+B(c_j(t),2r_a)\subset Q_t^{rec,+}
+```
+
+for every center and every `t\in I_a`. Retained smooth center-ball regularity
+gives the finite local norms
+
+```math
+\sum_{q\le m+2}
+\|U_q\|_{L^\infty_t C^2_x(B(c_j(t),2r_a))}
++
+\|p\|_{L^1_t C^{m+1,\alpha}_x(B(c_j(t),2r_a))}
+<\infty.
+```
+
+This is the local regularity used by `ACT.X-Scale`, `NKF.Moll`, and
+`NKF.Point`.
+
+### 2. `ACT.KX` Budget Realization
+
+On each retained interval, `ACT.KX` uses
+
+```math
+dX+c_\nu N
+\le
+(L_0+C A_{core})X+C_X X^{1/2}N+F_0,
+```
+
+```math
+dA_{core}\le \mathcal K_{\le m}^{ctr}+\mathcal T_{tri}(A_{core}),
+```
+
+```math
+\mathcal K_{\le m}^{ctr}
+\le C(X^{1/2}N^{1/2}+X)+F_K.
+```
+
+Young gives
+
+```math
+X^{1/2}N^{1/2}\le \delta N+C_\delta X.
+```
+
+With
+
+```math
+\eta_X=\left(\frac{c_\nu}{4C_X}\right)^2,
+```
+
+the scheduler chooses retained subintervals so that
+
+```math
+\left(
+\eta_X+\int_{I_a}(F_0+F_K)
+\right)
+\exp\left(
+\int_{I_a}(L_0+C A_{core}+1)
+\right)
+\le 2\eta_X.
+```
+
+The first-exit argument then gives
+
+```math
+X_{exc}\in L^\infty(I_a),
+\qquad
+N\in L^1(I_a),
+\qquad
+\mathcal K_{\le m}^{ctr}\in L^1(I_a),
+\qquad
+A_{core}^{ctr}\in L^\infty(I_a).
+```
+
+Finite summation over the retained cover gives the same bounds on `I`.
+
+### 3. `RSCB.NKF / NKF.Native`
+
+`RSCB.NKF` licenses
+
+```math
+NKF.Moll+NKF.Point\Longrightarrow NKF.Native.
+```
+
+`NKF.Moll` tests center forcing against transported mollifiers
+
+```math
+\varphi_{j,r}(x,t)=r^{-3}\varphi((x-c_j(t))/r).
+```
+
+The pressure part is handled by the local Poisson split plus finite-energy far
+tail. The viscous part is handled by integration by parts against the mollifier.
+Retained smoothness gives point recovery:
+
+```math
+K_{q,j}^{[r]}\to K_q(c_j)
+\quad\text{in }L^1_t
+```
+
+as `r\downarrow0`. Therefore the native center forcing and pressure-cell
+functionals used in `NKF.Native` are licensed.
+
+### 4. `RWS.C_scale` Cover Data
+
+For every fixed readout ball
+
+```math
+B(c_j(t),R_{fix}),
+```
+
+compactness of retained label tubes and bounded pack gauge give a finite
+same-fluid dynamic cover
+
+```math
+B(c_j(t),R_{fix})
+\subset
+\bigcup_{b=1}^{B}B(c_{j_b}(t),R_b).
+```
+
+The overlap number is bounded by the retained cover geometry. Each small packet
+supplies
+
+```math
+X_{exc,b}\in L^\infty,
+\qquad
+N_b\in L^1.
+```
+
+Finite overlap yields the fixed-radius readout packet, proving
+`RWS.C_scale`.
+
+### 5. `A_buf` Readout
+
+Define
+
+```math
+A_{buf}^{ctr}
+=
+\sum_j\left(|U_{m+1}(c_j)|^2+|U_{m+2}(c_j)|^2\right).
+```
+
+It appears only in
+
+```math
+Y_{read}=A_{core}^{ctr}+A_{buf}^{ctr}+X_{exc}.
+```
+
+The top buffer modes are recovered after `ACT.KX + RWS.C_scale` through
+fixed-radius readout. They feed top-viscous forcing and
+`\mathfrak F^{ctr,res}` while staying outside the pre-pressure `A_core` ledger.
+
+### 6. `DTC-to-TowerBound` Depth
+
+Use a finite transported-center cover
+
+```math
+Q_t\subset\bigcup_a B(c_a(t),R_a).
+```
+
+Choose DTC depth at least `N+2`. Morrey gives
+
+```math
+\sup_{Q_t}\sum_{k=0}^{N}|U_k|\in L^\infty(I).
+```
+
+For
+
+```math
+K_k=-\nabla^{k+1}p+\nu\Delta U_k,
+```
+
+the viscous term uses `U_{k+2}`, available by depth `N+2`; the pressure term
+uses local pressure response plus energy far tail. Hence
+
+```math
+\sup_{Q_t}\sum_{k=0}^{N}|K_k|\in L^\infty(I),
+```
+
+and therefore
+
+```math
+\mathfrak A_{N,Q}\in L^\infty(I).
+```
+
+This is `DTC-to-TowerBound`.
+
+### 7. `END.Pack`
+
+The bounded pack gauge is
+
+```math
+\Gamma_{\mathrm{pack},Q}\in L^\infty(I).
+```
+
+The endpoint pack certificate reads
+
+```math
+\Gamma_{\mathrm{pack},Q}\in L^\infty(I)
+\Longrightarrow
+\text{packing-detached face excluded}.
+```
+
+This supplies `END.Pack`.
+
+### 8. `END.Field`
+
+`OFP.A` supplies positive one-field coherence scale and bounded field carrier
+along the same-fluid family:
+
+```math
+OFP.A\Longrightarrow Field_{N,r,Q}\ \text{persists on }I.
+```
+
+The endpoint field certificate reads
+
+```math
+OFP.A\Longrightarrow \text{Jump face excluded}.
+```
+
+This supplies `END.Field`.
+
+### 9. `END` Certificate Maps
+
+The accepted maps are
+
+```math
+\neg Part_{N,Q}\Longrightarrow Dead,
+```
+
+```math
+\neg Pack_Q
+\Longrightarrow
+packing\text{-}detached\vee tower\text{-}blown,
+```
+
+```math
+\neg Field_{N,r,Q}\Longrightarrow Jump.
+```
+
+Together with
+
+```math
+CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+```
+
+they give
+
+```math
+END.Exh:
+\quad
+\neg CM
+\Longrightarrow
+Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+```
+
+`END.Cross` uses the accepted reductions
+
+```math
+Blown
+\Longleftrightarrow
+packing\text{-}detached\vee tower\text{-}blown,
+```
+
+```math
+Pack+Part+Jump
+\Longrightarrow
+Field\text{-coherence fracture},
+```
+
+and the installed `(Part,Dead)` row.
+
+### 10. `FCI.5f` Post-`LCI.A` Dependencies
+
+The source theorem is post-receiver:
+
+```math
+LCI.A\quad\text{feeds coefficient control for}\quad FPCR.C,\ FSCR.C,\ FCC.C1.
+```
+
+Cutoff:
+
+```math
+FCC.C1:
+\quad
+\mathcal N^{cut}
+\le
+\frac12\mathcal N^{visc}
++
+\mathfrak b_\psi^{cut}\mathcal F^\varepsilon,
+```
+
+with `\mathfrak b_\psi^{cut}\in L^1(I)` from post-`LCI.A` packet-factor
+derivative control.
+
+Strain/cascade:
+
+```math
+FSCR.C:
+\quad
+\mathcal N^{sc}
+\le
+C(1+\mathfrak C_{N+1}^{\delta})\mathcal F^\varepsilon,
+```
+
+with
+
+```math
+\mathfrak C_{N+1}^{\delta}\in L^1(I)
+```
+
+from post-`LCI.A`.
+
+Pressure:
+
+```math
+FPCR.C:
+\quad
+\mathcal N^{press}
+=
+\mathcal N^{LH/HL}
++
+\mathcal N^{RR}
++
+\mathcal N^{far},
+```
+
+where the first two terms use post-`LCI.A` coefficient control and the far term
+uses energy. Thus
+
+```math
+FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f.
+```
+
+### 11. `CSP.A / OFP.A / CFI.A` Assembly
+
+The recombination spends exactly
+
+```math
+LCI.A+FCI.5f\Longrightarrow CSP.A.
+```
+
+Then
+
+```math
+CSP.A+FCI.5f\Longrightarrow OFP.A.
+```
+
+and
+
+```math
+OFP.A+CFI.B1+CFI.B2\Longrightarrow CFI.A.
+```
+
+Endpoint side:
+
+```math
+DTC\text{-to-TowerBound}+END.Exh+END.Cross+END.Pack+END.Field
+\Longrightarrow End_{NS}.
+```
+
+Terminal assembly:
+
+```math
+CFI.A+End_{NS}
+\Longrightarrow
+\text{no finite-time class exit}.
+```
+
+### Completed Conditional Closure
+
+```math
+RSCB.NKF
+\Longrightarrow
+NKF.Native
+\Longrightarrow
+ACT.KX
+\Longrightarrow
+ACT.X\text{-Readout}
+\Longrightarrow
+ACT.A
+\Longrightarrow
+RCF.A
+\Longrightarrow
+LCI.A.
+```
+
+```math
+LCI.A
+\Longrightarrow
+FPCR.C+FSCR.C+FCC.C1
+\Longrightarrow
+FCI.5f.
+```
+
+```math
+LCI.A+FCI.5f
+\Longrightarrow
+CSP.A
+\Longrightarrow
+OFP.A
+\Longrightarrow
+CFI.A.
+```
+
+```math
+DTC\text{-to-TowerBound}
++
+END.Exh
++
+END.Cross
++
+END.Pack
++
+END.Field
+\Longrightarrow
+End_{NS}.
+```
+
+```math
+CFI.A+End_{NS}
+\Longrightarrow
+\text{no finite-time class exit}.
+```
+
 ## Dependency Skeleton
 
 ```math
