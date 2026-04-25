@@ -1155,7 +1155,8 @@ The top buffer modes `m+1,m+2` are readout/top-viscous modes inside
 +\mathcal A_{\mathrm{buf}}^{ctr}+\mathcal X^{exc}`. Proving them before
 `ACT.X-Boot` would require the optional stronger input
 `\sum_{q=m+1}^{m+2}\sum_j|\widetilde K_{q,j}|^2\in L^1(I)` and risks rung
-creep. This is now the immediate live obligation behind `ACT.Actr_core`.
+creep. The immediate live obligation beneath `ACT.Actr_core` is now the direct
+lower center-forcing ledger `ACT.Kcore`.
 
 ```math
 ACT.X\text{-}Energy:
@@ -1344,7 +1345,7 @@ LCI.A.
 \tag{ACT.X10}
 ```
 
-The next theorem-facing proof targets are `ACT.Actr_core`, `ACT.X-Scale`, and
+The next theorem-facing proof targets are `ACT.Kcore`, `ACT.X-Scale`, and
 `RWS.C_scale`.
 In the sharpened ledger, `ACT.X-Press` is now recorded as the affine local
 pressure decomposition: affine-affine terms enter `L_press X_exc+F_press`,

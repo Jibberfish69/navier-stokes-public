@@ -2169,9 +2169,11 @@ LCI.A.
 \tag{ACT.Scale7b}
 ```
 
-The sharp proof order is now `ACT.Actr_core`, then the seed bridge
-`ACT.X-Scale` and the readout-compatibility bridge `RWS.C_scale`; `ACT.X-Cut`
-is the structurally favorable companion estimate. `ACT.X-Press` is recorded as
+The sharp proof order is now `ACT.Kcore`, then the seed bridge `ACT.X-Scale`
+and the readout-compatibility bridge `RWS.C_scale`; `ACT.Actr_core` is the
+conditional Gronwall bridge from `ACT.Kcore` to the bounded core center
+coefficient. `ACT.X-Cut` is the structurally favorable companion estimate.
+`ACT.X-Press` is recorded as
 the affine local pressure decomposition: affine-affine terms enter
 `L_press X_exc+F_press`, affine-remainder terms enter
 `epsilon N+L_press X_exc`, and remainder-remainder terms produce

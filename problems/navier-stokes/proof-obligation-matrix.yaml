@@ -1002,10 +1002,11 @@ obligations:
     cover from compact retained label tubes and the pack gauge. `RWS.C_scale` is
     the finite-cover readout bridge that recovers fixed-radius readouts from small-radius restarted packets; it
     does not assert fixed-radius packet smallness. This
-    is a proof plan, not a discharge; the next sharp targets are `ACT.Actr_core`,
+    is a proof plan, not a discharge; the next sharp targets are `ACT.Kcore`,
     `ACT.X-Scale`, and `RWS.C_scale`.
-    Sharpened obligations: `ACT.Actr_core` is reduced to
-    `K_{\le m}^{ctr} in L^1(I) => A_core^ctr in L^\infty(I)`. The top
+    Sharpened obligations: `ACT.Actr_core` is now the conditional Gronwall
+    bridge `K_{\le m}^{ctr} in L^1(I) => A_core^ctr in L^\infty(I)`, so the
+    live residue beneath it is `ACT.Kcore`. The top
     `m+1,m+2` modes are `A_buf^ctr` readout/top-viscous buffer data, not
     pre-pressure Gronwall data unless an optional stronger top-forcing route is
     chosen. The named supplier is the `ACT.Kcore` ledger identity
