@@ -2925,8 +2925,8 @@ Equivalently, the twelve-item completion ledger is:
 2. ACT.X-Def: define X_exc, N, and Y_read = A_core^ctr + A_buf^ctr + X_exc.
 3. AXE.A: AXE.1--AXE.4 assemble ACT.X-Energy.
 4. ACT.X-Cut: cutoff sees affine defect, not full center U_1.
-5. ACT.X-Press_cell: finite pressure-cell ledger feeding ACT.Kcore.
-6. ACT.X-Press_energy: local Poisson energy response plus energy-controlled far-tail; pressure adds a C_press X_exc^(1/2) N term.
+5. ACT.X-Press_cell: finite residual pressure-cell ledger feeding ACT.Kcore after subtracting p_j^aff from p_j^loc.
+6. ACT.X-Press_energy: residual local Poisson energy response plus energy-controlled far-tail; pressure adds a C_press X_exc^(1/2) N term.
 7. ACT.X-Mid: triangular finite-depth middle block.
 8. ACT.X-TopVisc: buffer m+2 center modes are readout modes, not pre-pressure ACT.Actr_core data.
 9. ACT.X-Scale: retained smooth center-ball regularity supplies a radius R_a with X_exc(s_a;R_a) <= eta_X at each restart.
@@ -3643,7 +3643,7 @@ With `(FCI.5f)` installed, the remaining theorem work is:
 
 ```math
 \boxed{
-ACT.Kcore
+NKF.Native
 +
 AXE.A
 +
@@ -3664,7 +3664,7 @@ Without that source-side promotion, the honest terminal list is:
 
 ```math
 \boxed{
-ACT.Kcore
+NKF.Native
 +
 AXE.A
 +

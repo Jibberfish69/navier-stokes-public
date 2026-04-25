@@ -1002,26 +1002,34 @@ obligations:
     cover from compact retained label tubes and the pack gauge. `RWS.C_scale` is
     the finite-cover readout bridge that recovers fixed-radius readouts from small-radius restarted packets; it
     does not assert fixed-radius packet smallness. This
-    is a proof plan, not a discharge; the next sharp targets are `ACT.Kcore`,
-    `ACT.X-Scale`, and `RWS.C_scale`.
+    is a proof plan, not a discharge; the next sharp targets are `NKF.Native`
+    feeding `ACT.Kcore`, `ACT.X-Scale`, and `RWS.C_scale`.
     Sharpened obligations: `ACT.Actr_core` is now the conditional Gronwall
     bridge `K_{\le m}^{ctr} in L^1(I) => A_core^ctr in L^\infty(I)`, so the
-    live residue beneath it is `ACT.Kcore`. The top
+    live residue beneath it is `ACT.Kcore`, now factored through `NKF.A` from
+    the native forcing packet `P_{\le m}^{ctr,nat}`. The top
     `m+1,m+2` modes are `A_buf^ctr` readout/top-viscous buffer data, not
     pre-pressure Gronwall data unless an optional stronger top-forcing route is
-    chosen. The named supplier is the `ACT.Kcore` ledger identity
-    `K0.Core + E1.Aff + Kmid.Core`; its pressure cells are routed first to
-    `ACT.X-Press_cell`, and its top-viscous line is forcing/readout, not
+    chosen. The named supplier is `NKF.Native => NKF.A => ACT.Kcore`, where
+    `ACT.Kcore` is the ledger identity `K0.Core + E1.Aff + Kmid.Core`; its
+    pressure cells are routed first to `ACT.X-Press_cell`, and its top-viscous
+    line is forcing/readout, not
     pre-pressure `A_buf` amplitude. Any estimate of `ACT.Kcore` that spends
     `A_core`, `H^{osc}`, or `Y_read` is only a post-readout bound, not the
     pre-pressure supplier needed for `ACT.Actr_core`.
+    `NKF.Native` is the remaining native pointwise center pressure/viscous
+    forcing theorem; finite energy plus pressure Poisson response alone does
+    not supply those center derivatives.
     Pressure is split into `ACT.X-Press_cell` and `ACT.X-Press_energy`. The cell
-    form supplies the finite pressure-cell ledger behind `ACT.Kcore`. The energy
-    form is the affine local pressure decomposition after `ACT.Actr_core`:
-    affine-affine terms enter `L_press X_exc + F_press`, affine-remainder terms
-    enter `epsilon N + L_press X_exc`, and remainder-remainder terms produce the
-    scale-small residue `C_press X_exc^(1/2) N`; the finite pressure far-tail is
-    energy-controlled in `L^\infty(I)`. The top-viscous part reads `m+1,m+2`
+    form supplies the residual pressure-cell ledger behind `ACT.Kcore`: the
+    affine model pressure `p_j^aff` is subtracted from `p_j^loc`, and the cell
+    theorem controls `pi_j^loc=p_j^loc-p_j^aff` plus harmonic/far-tail terms.
+    The energy form is the same residual affine local pressure decomposition
+    after `ACT.Actr_core`: affine-remainder terms enter
+    `epsilon N + L_press X_exc`, and remainder-remainder terms produce the
+    scale-small residue `C_press X_exc^(1/2) N`; the pure affine pressure is
+    part of the model frame, not a pre-core forcing term. The finite pressure
+    far-tail is energy-controlled in `L^\infty(I)`. The top-viscous part reads `m+1,m+2`
     only through `A_buf` inside `Y_read`, not through the pre-pressure core.
     `ACT.X-Boot` must absorb `(C_cut+C_press)X_exc^(1/2)N`. It spends no
     `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.

@@ -1125,11 +1125,14 @@ where
 The named supplier for this ledger is:
 
 ```math
-ACT.Kcore:
+NKF.A:
 \quad
-K0.Core+E1.Aff+Kmid.Core
+\mathcal P_{\le m}^{ctr,nat}\in L^1(I)
 \Longrightarrow
-\mathcal K_{\le m}^{ctr}\in L^1(I).
+K0.Core+E1.Aff+Kmid.Core
+\in L^1(I)
+\Longrightarrow
+ACT.Kcore.
 \tag{ACT.X7d}
 ```
 
@@ -1145,9 +1148,19 @@ top-viscous line
 `\nu\sum_j(|U_{m+1}(c_j)|+|U_{m+2}(c_j)|)` is carried as forcing/readout, not
 as a pre-pressure `A_buf` amplitude ledger.
 
+The live native point is `NKF.Native`, namely
+`\mathcal P_{\le m}^{ctr,nat}\in L^1(I)`. Finite energy and the pressure
+Poisson equation supply the far-tail/distributional pieces, but not by
+themselves the pointwise center pressure derivatives and viscous center
+derivatives needed for this packet.
+
 So the local center-amplitude routing is:
 
 ```math
+NKF.Native
+\Longrightarrow
+NKF.A
+\Longrightarrow
 ACT.Kcore
 \Longrightarrow
 \mathcal K_{\le m}^{ctr}\in L^1(I)
@@ -1175,8 +1188,9 @@ Audit boundary. A displayed estimate for `K0.Core+E1.Aff+Kmid.Core` that uses
 `\mathcal A_{\mathrm{core}}^{ctr}`, `\mathfrak H^{osc,\alpha}`, or
 `Y_{\mathrm{read}}` is a post-readout estimate, not the direct pre-pressure
 proof of `ACT.Kcore`. The ordered bridge remains
-`ACT.Kcore => ACT.Actr_core => ACT.X-Press_energy => AXP.A`; reversing that
-dependency would smuggle the readout package into its own supplier.
+`NKF.Native => NKF.A => ACT.Kcore => ACT.Actr_core => ACT.X-Press_energy =>
+AXP.A`; reversing that dependency would smuggle the readout package into its
+own supplier.
 
 ```math
 ACT.X\text{-}Energy:
@@ -1365,8 +1379,8 @@ LCI.A.
 \tag{ACT.X10}
 ```
 
-The next theorem-facing proof targets are `ACT.Kcore`, `ACT.X-Scale`, and
-`RWS.C_scale`.
+The next theorem-facing proof targets are `NKF.Native / ACT.Kcore`, `ACT.X-Scale`,
+and `RWS.C_scale`.
 In the sharpened ledger, pressure is split into `ACT.X-Press_cell` and
 `ACT.X-Press_energy`. The cell form supplies the residual pressure cells in
 `ACT.Kcore` after subtracting the affine model pressure

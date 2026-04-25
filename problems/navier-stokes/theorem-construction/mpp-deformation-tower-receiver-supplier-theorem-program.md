@@ -2049,9 +2049,12 @@ ACT.Actr_{\mathrm{core}}:
 where `\mathcal K_{\le m}^{ctr}` collects the zero-rung forcing `K_0(c_j)`,
 the first-rung affine-frame acceleration `\mathcal E_j^{(1)}`, and the
 transformed lower-rung forcings `\widetilde K_{q,j}` for `2\le q\le m`.
-The supplier theorem is `ACT.Kcore`: `K0.Core + E1.Aff + Kmid.Core` gives
+The supplier theorem now factors through `NKF.A`: the native center-forcing
+packet `\mathcal P_{\le m}^{ctr,nat}\in L^1(I)` gives
+`K0.Core + E1.Aff + Kmid.Core\in L^1(I)`, hence
 `\mathcal K_{\le m}^{ctr}\in L^1(I)`. The pressure pieces are routed first
-through `ACT.X-Press_cell` in residual form: define the affine model pressure
+through the `ACT.X-Press_cell` component of `NKF.Native` in residual form:
+define the affine model pressure
 `p_j^{aff}` for the pure affine source and set
 `\pi_j^{loc}=p_j^{loc}-p_j^{aff}`. The cell theorem controls the
 `\pi_j^{loc}` center derivatives plus harmonic/far-tail terms, so the pure
@@ -2060,7 +2063,7 @@ pressure estimate is `ACT.X-Press_energy` after `ACT.Actr_core` is available.
 The harmonic tails are energy-controlled;
 the lower viscous recycle is core-controlled, while the `m+1,m+2` viscous line
 is carried as forcing/readout, not as a pre-pressure `A_buf` amplitude ledger.
-Thus `ACT.X-Press_cell => ACT.Kcore => ACT.Actr_core`, and then
+Thus `NKF.Native => NKF.A => ACT.Kcore => ACT.Actr_core`, and then
 `ACT.Actr_core` is the center coefficient input spent by `ACT.X-Press_energy`.
 The top modes belong to
 `\mathcal Y^{read}=\mathcal A_{\mathrm{core}}^{ctr}
@@ -2078,6 +2081,12 @@ readouts feed the later pressure/readout estimates. Therefore the direct
 `ACT.Kcore` proof must supply `K0.Core`, `E1.Aff`, and `Kmid.Core` before
 spending those downstream ledgers, unless the route is explicitly replaced by a
 simultaneous core/excess bootstrap theorem.
+
+The live native content is now `NKF.Native`: direct `L^1_t` control of the
+pointwise center pressure/viscous forcing packet. Finite energy plus
+`-\Delta p=\partial_i\partial_j(u_i u_j)` supplies distributional pressure
+control and far-tail bounds, but not by itself the pointwise center derivatives
+needed in `\mathcal P_{\le m}^{ctr,nat}`.
 
 ```math
 ACT.X\text{-}Energy:
@@ -2185,7 +2194,7 @@ LCI.A.
 \tag{ACT.Scale7b}
 ```
 
-The sharp proof order is now `ACT.X-Press_cell => ACT.Kcore => ACT.Actr_core
+The sharp proof order is now `NKF.Native => NKF.A => ACT.Kcore => ACT.Actr_core
 => ACT.X-Press_energy`, with `ACT.X-Press_cell` reading the residual pressure
 `\pi_j^{loc}=p_j^{loc}-p_j^{aff}` rather than raw local pressure. Then the seed bridge `ACT.X-Scale` and the
 readout-compatibility bridge `RWS.C_scale`. `ACT.X-Cut` is the structurally

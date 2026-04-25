@@ -415,22 +415,25 @@ closure_ecology:
         of K_0(c_j), the first-rung affine-frame acceleration E_j^(1), and
         transformed lower-rung forcings Ktilde_{q,j} for 2<=q<=m. The named
         supplier is the ACT.Kcore ledger identity K0.Core + E1.Aff + Kmid.Core:
-        pressure is routed first through ACT.X-Press_cell, lower viscous recycle is
-        core-controlled, and the top-viscous m+1,m+2 line is forcing/readout,
+        residual pressure is routed first through ACT.X-Press_cell after
+        subtracting the affine model pressure p_j^aff from p_j^loc, lower
+        viscous recycle is core-controlled, and the top-viscous m+1,m+2 line is forcing/readout,
         not pre-pressure A_buf amplitude. The m+1 and m+2 modes are
         buffer/readout modes; proving them before ACT.X-Boot would
         require the optional top forcing sum_{q=m+1}^{m+2}|Ktilde_q|^2 in L1(I)
         and risks rung creep.
       act_x_press_rule: >-
         Pressure is split into ACT.X-Press_cell and ACT.X-Press_energy. The
-        cell form supplies P_le_m^cell in L1(I) for ACT.Kcore. The energy form
-        is licensed only after ACT.Actr_core and the local fixed-ball pressure
-        response; finite pressure far-tail is energy-controlled in Linfty(I).
-        The remainder-remainder pressure term contributes C_press X_exc^(1/2) N
-        to the same scale-small bootstrap as the cutoff term. It does not spend
+        cell form supplies the residual P_le_m^cell in L1(I) for ACT.Kcore,
+        controlling pi_j^loc=p_j^loc-p_j^aff plus harmonic/far-tail terms rather
+        than raw local pressure. The energy form is licensed only after
+        ACT.Actr_core and the residual local fixed-ball pressure response;
+        finite pressure far-tail is energy-controlled in Linfty(I). The
+        remainder-remainder pressure term contributes C_press X_exc^(1/2) N to
+        the same scale-small bootstrap as the cutoff term. It does not spend
         LCI.A, CSP.A, OFP.A, or Field.
       act_compact_chain: >-
-        ACT.X-Press_cell + ACT.Kcore => ACT.Actr_core, then ACT.Actr_core +
+        ACT.X-Press_cell => ACT.Kcore => ACT.Actr_core, then ACT.Actr_core +
         ACT.X-Def + ACT.X-Energy + ACT.X-Cut + ACT.X-Press_energy + ACT.X-Mid
         + ACT.X-TopVisc + ACT.X-Scale + ACT.X-Boot + RWS.C_scale +
         ACT.X-Readout =>
