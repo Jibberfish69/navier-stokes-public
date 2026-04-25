@@ -291,6 +291,10 @@ The current candidate realization of that common class is the terminal
 finite--infinitesimal separation defect measure
 `\mathcal S_\ast^{h/F}` in
 [mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md).
+The conditional theorem-packet audit for this candidate is
+[mpp-unified-survivor-conditional-theorem-packet-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-unified-survivor-conditional-theorem-packet-audit-note.md);
+it records that the collapse becomes theorem-grade only after `USCP.A`,
+`USCP.B`, `USCP.C`, and the receiver/source/endpoint atoms are installed.
 Under that reading, `(B1)`--`(B3)` are not only arrows between two named
 families; they are tests that both families are scale cuts or readout shadows
 of the same `h/F` terminal defect.
