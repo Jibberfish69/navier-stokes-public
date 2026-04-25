@@ -6,6 +6,12 @@ Record the exact relation between the original classical `4 -> 1` survivor and
 the current torus-first selector wall, so the lane does not accidentally treat
 `PSJ+`, `PD.70`, or `SG.4` as a replacement program.
 
+In the survivor-equivalence atlas language of
+[mpp-survivor-equivalence-atlas-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-survivor-equivalence-atlas-note.md),
+this note supplies readout-edge compatibility among older four-body and
+selector/projective faces. It does not by itself prove that those faces have
+already been promoted to the same `Pack / Part / Field` endpoint cell.
+
 The point of this note is narrower and sharper:
 
 ```math

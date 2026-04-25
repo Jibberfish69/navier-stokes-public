@@ -4157,7 +4157,7 @@ ULCI(\mathscr P_{\rm req}).
 \tag{DTC.37}
 ```
 
-Consequently the receiver side is formal after the ordered affine-excess package
+Consequently the receiver side is formal after the simultaneous `ACT.KX` package
 in `(DTC.36b)` is installed for every required parameter instance. The
 source-side and endpoint-side packets are now separately promoted under the
 post-`LCI.A` source hypotheses and accepted endpoint certificates:

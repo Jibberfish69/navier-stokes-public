@@ -129,6 +129,13 @@ More exactly:
 \tag{MTS.7}
 ```
 
+In the terminology of
+[mpp-survivor-equivalence-atlas-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-survivor-equivalence-atlas-note.md),
+downstream branch defects are admissible only as identity, readout, or licensed
+bridge edges from the same `M_Q(u,p)` class-exit event. An unlicensed change of
+carrier, selector, scale-limit object, endpoint cell, or proof direction is an
+illegal carrier change rather than a new primitive family.
+
 ### Proof
 
 This is the direct content of the ontology ledger and branch-interface notes.

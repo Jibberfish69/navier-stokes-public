@@ -275,8 +275,10 @@ The live ledger that applies this audit language to the current survivor
 entries is
 [mpp-constitutive-first-survivor-ledger.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-constitutive-first-survivor-ledger.md).
 The older four-body / selector readout dictionary remains an important
-readout-edge surface, but its identifications become class-membership survivor
-edges only when their `Pack / Part / Field` endpoint cell is exhibited.
+readout-edge surface:
+[four-body-survivor-to-selector-readout-dictionary.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/four-body-survivor-to-selector-readout-dictionary.md).
+Its identifications become class-membership survivor edges only when their
+`Pack / Part / Field` endpoint cell is exhibited.
 
 ## Theorem Target `SEA.A` (Survivor Representation Independence)
 
