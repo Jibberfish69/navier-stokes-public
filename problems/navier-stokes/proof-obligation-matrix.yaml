@@ -40,13 +40,13 @@ live_theorem_edge:
     packet. Receiver closure uses installed `RSCB.NKF` as the retained smooth
     center-ball native forcing certificate and runs
     `RSCB.NKF => ACT.A => RCF.A => LCI.A`. Source closure is the post-`LCI.A`
-    frozen-family packet `FCC.C1+FSCR.C+FPCR.C => FCI.5f`, with cutoff
+    frozen-family packet `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, with cutoff
     absorption, strain/cascade low-carrier control, and pressure
     low-high/high-low plus resonant/far-tail control. One-field assembly then
     runs `LCI.A+FCI.5f => CSP.A => OFP.A => CFI.A`. Endpoint closure runs
-    `DTC-to-TowerBound => END.TowerAmp => END.TowerBound` together with
-    accepted `END.Exh`, `END.Cross`, `END.Pack`, and `END.Field`, yielding
-    `End_NS`. The two-lane terminal closure packet is now recorded as endpoint
+    `DTC-to-TowerBound + END.Exh + END.Cross => End_NS`, with `END.Pack` and
+    `END.Field` retained as accepted endpoint certificate rows. The two-lane
+    terminal closure packet is now recorded as endpoint
     analytic readout (`DTC-to-TowerBound`) plus source channels
     `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, with `END.Exh` and `END.Cross`
     recorded in parallel as certificate/semantic cells. Therefore
