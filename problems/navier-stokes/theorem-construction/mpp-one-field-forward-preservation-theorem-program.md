@@ -2,7 +2,7 @@
 
 ## Status
 
-Theorem-facing next-step note.
+Theorem-facing one-field supplier note.
 
 Role: isolate the exact one-field burden behind
 `CFI.B3` in
@@ -22,7 +22,7 @@ This note does **not** widen the route. Its job is narrower:
 On the forward-invariance route, the packing side already has a transport law
 and the participation side already has the Law 2 tethering/no-drop spine.
 
-So the live hard question is:
+The structural question isolated here is:
 
 ```math
 \boxed{
@@ -127,6 +127,63 @@ direct transported-center package is recorded in
 [mpp-ofp-dtc-compactness-scaling-circularity-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-ofp-dtc-compactness-scaling-circularity-audit-note.md).
 That note keeps the no-visible-jump hypothesis as a branch condition only: it
 cannot be replaced by the endpoint theorem that `CFI.A` is meant to feed.
+
+## Current Route Position
+
+In the completed conditional terminal packet, this one-field theorem is consumed
+only through the licensed chain
+
+```math
+LCI.A+FCI.5f
+\Longrightarrow
+CSP.A
+\Longrightarrow
+OFP.A
+\Longrightarrow
+CFI.A.
+\tag{OFP.3c}
+```
+
+The upstream receiver/source suppliers are kept separate:
+
+```math
+RSCB.NKF
+\Longrightarrow
+ACT.A
+\Longrightarrow
+RCF.A
+\Longrightarrow
+LCI.A,
+\qquad
+FCC.C1\to FSCR.C\to FPCR.C\to FCI.5f.
+\tag{OFP.3d}
+```
+
+Endpoint closure is a separate packet:
+
+```math
+DTC\text{-to-TowerBound}
++
+END.Exh
++
+END.Cross
+\Longrightarrow
+\mathsf{End}_{NS}.
+\tag{OFP.3e}
+```
+
+Thus the terminal use of this note is
+
+```math
+CFI.A+\mathsf{End}_{NS}
+\Longrightarrow
+\text{no finite-time class exit}.
+\tag{OFP.3f}
+```
+
+TPS / `SG.4`, exact-potential, Hodge / normal-covector, and Euclidean
+strict-shadow remain downstream context or export branches; they are not active
+inputs to `(OFP.3c)`.
 
 ## Exact Proof Spine
 

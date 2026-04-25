@@ -144,34 +144,62 @@ The steps already installed on disk are:
 
 ## Live Frontier
 
-After the installed no-drop theorem, the compactness-route bridge now closes the
-manifestation step on still-live windows. The remaining contradiction debt is
-therefore exactly:
+After the installed no-drop theorem, the compactness-route bridge closes the
+manifestation step on still-live windows. The current theorem-facing packet now
+records the conditional terminal closure of that class-membership lane:
 
 ```math
-\boxed{
-\text{exclude blown and jump class-violation on the surviving side.}
-}
+RSCB.NKF
+\Longrightarrow
+ACT.A
+\Longrightarrow
+RCF.A
+\Longrightarrow
+LCI.A,
+\tag{CFP.1}
 ```
 
-That is the direct restart burden. Any chronological shell or preferred
-compression is subordinate to this debt and is allowed only if it stays
-faithful to the same object-law contradiction.
+```math
+FCC.C1
+\Longrightarrow
+FSCR.C
+\Longrightarrow
+FPCR.C
+\Longrightarrow
+FCI.5f,
+\tag{CFP.2}
+```
 
-Equivalently, the open queue is:
+```math
+DTC\text{-to-TowerBound}
++
+END.Exh
++
+END.Cross
+\Longrightarrow
+\mathsf{End}_{NS},
+\tag{CFP.3}
+```
 
-1. no blown class-violation on still-live windows;
-2. no jump class-violation on still-live windows;
-3. in parallel, test whether `CFI.A` can recover the same bridge as a stronger
-   forward-invariance compression rather than a compactness-first route.
+and therefore
 
-The compactness-route bridge work surface is now:
+```math
+CFI.A+\mathsf{End}_{NS}
+\Longrightarrow
+\text{no finite-time class exit}.
+\tag{CFP.4}
+```
+
+This closure packet is conditional on the retained-window receiver hypotheses,
+the post-`LCI.A` source closure, and the accepted endpoint certificate maps. Any
+chronological shell or preferred compression remains subordinate to this
+object-law contradiction and is allowed only if it preserves the same route
+typing.
+
+The compactness-route bridge work surface remains available as historical
+support:
 
 1. [mpp-pde-nonsmoothness-to-surviving-class-violation-bridge-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-pde-nonsmoothness-to-surviving-class-violation-bridge-note.md)
-
-Meaning: on that surface, `MBR.C` and `MBR.E` now formalize the local
-reconstitution route, and `MBR.F` reads the same result chronologically as a
-first-remaining-exit shell.
 
 The auxiliary chronological outer shell is now:
 

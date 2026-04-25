@@ -133,12 +133,79 @@ Equivalently,
 \tag{CFI.5}
 ```
 
-This is the primitive dynamic closure statement missing from the present route.
+This is the primitive dynamic closure statement now supplied conditionally by
+the terminal packet recorded below.
 
-## Exact Next Theorem Chain
+## Current Conditional Terminal Packet
 
-The exact job from here is to stop treating `CFI.A` as one opaque sentence and
-split it into one carrier definition plus three forward-preservation lemmas.
+The live theorem-facing compression no longer treats `CFI.A` as an isolated
+opaque sentence. It is read through the completed conditional terminal packet:
+
+```math
+RSCB.NKF
+\Longrightarrow
+ACT.A
+\Longrightarrow
+RCF.A
+\Longrightarrow
+LCI.A,
+\tag{CFI.5a}
+```
+
+```math
+FCC.C1
+\Longrightarrow
+FSCR.C
+\Longrightarrow
+FPCR.C
+\Longrightarrow
+FCI.5f,
+\tag{CFI.5b}
+```
+
+```math
+LCI.A+FCI.5f
+\Longrightarrow
+CSP.A
+\Longrightarrow
+OFP.A
+\Longrightarrow
+CFI.A,
+\tag{CFI.5c}
+```
+
+and the endpoint packet
+
+```math
+DTC\text{-to-TowerBound}
++
+END.Exh
++
+END.Cross
+\Longrightarrow
+\mathsf{End}_{NS}.
+\tag{CFI.5d}
+```
+
+Thus
+
+```math
+CFI.A+\mathsf{End}_{NS}
+\Longrightarrow
+\text{no finite-time class exit}.
+\tag{CFI.5e}
+```
+
+The statement is conditional on the retained-window receiver hypotheses, the
+post-`LCI.A` source closure, and the accepted endpoint certificate maps. TPS /
+`SG.4`, exact-potential, Hodge / normal-covector, and Euclidean strict-shadow
+branches remain downstream context, not prerequisites for this class-membership
+terminal packet.
+
+## Installed Lemma Decomposition
+
+The internal decomposition of `CFI.A` is one carrier definition plus three
+forward-preservation lemmas.
 
 ### Definition `CFI.B0` (Same-fluid evolved still-live family)
 

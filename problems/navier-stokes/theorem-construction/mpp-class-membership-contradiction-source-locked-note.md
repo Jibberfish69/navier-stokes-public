@@ -295,7 +295,56 @@ So the semantic program is already the theorem queue:
 1. make lawful class membership exact;
 2. install it on still-live windows of the same fluid;
 3. remove the dead / participation-drop line;
-4. exclude the remaining blown and jump channels.
+4. formalize the exclusion of the surviving blown and jump channels.
+
+The current theorem-facing formalization of that queue is the conditional
+terminal closure packet:
+
+```math
+RSCB.NKF
+\Longrightarrow
+ACT.A
+\Longrightarrow
+RCF.A
+\Longrightarrow
+LCI.A,
+\tag{SC.14d}
+```
+
+```math
+FCC.C1
+\Longrightarrow
+FSCR.C
+\Longrightarrow
+FPCR.C
+\Longrightarrow
+FCI.5f,
+\tag{SC.14e}
+```
+
+```math
+DTC\text{-to-TowerBound}
++
+END.Exh
++
+END.Cross
+\Longrightarrow
+\mathsf{End}_{NS},
+\tag{SC.14f}
+```
+
+and hence
+
+```math
+CFI.A+\mathsf{End}_{NS}
+\Longrightarrow
+\text{no finite-time class exit}.
+\tag{SC.14g}
+```
+
+This is conditional on the retained-window receiver hypotheses, the
+post-`LCI.A` source closure, and the accepted endpoint certificate maps. It
+does not promote downstream supplier branches into the source semantic route.
 
 The theorem task is then:
 
@@ -311,6 +360,10 @@ surfaces for the exact class-membership witness, still-live admission,
 shared-participation no-drop, and the explicit law / endpoint proof matrix.
 Any later first-exit shell or forward-invariance compression is allowed only as
 downstream packaging of this same semantic contradiction.
+
+In particular, TPS / `SG.4`, exact-potential, Hodge / normal-covector, and
+Euclidean strict-shadow material remain downstream context or export branches;
+they do not replace the class-membership terminal packet above.
 
 This is the exact program statement being formalized here.
 
