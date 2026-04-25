@@ -131,6 +131,255 @@ inside the installed `ACT.KX` route.
 The retained-window theorem must be installed through the following named
 subtheorems.
 
+## Theorem-Grade Promotion Statement
+
+**Theorem 1 (`RSCB.NKF` retained-window native forcing).** Assume a finite
+retained same-fluid center-ball family on `I`,
+
+```math
+I=\bigcup_a I_a,
+\qquad
+I_a=[s_a,s_{a+1}],
+\qquad
+c_j(t)=\Phi(a^j,t),
+```
+
+with admissible balls
+
+```math
+B(c_j(t),2r_a)\subset Q_t^{rec,+}.
+```
+
+Assume the retained local smoothness bounds
+
+```math
+\sum_j\sum_{q\le m+2}
+\|U_q\|_{L^\infty_t C_x^2(B(c_j(t),2r_a))}
++
+\sum_j
+\|p\|_{L^1_t C_x^{m+1,\alpha}(B(c_j(t),2r_a))}
+<\infty,
+```
+
+the bounded affine-frame/pack gauge, the finite required parameter set, the
+local Poisson split, and the finite-energy pressure far-tail bound. Then:
+
+```math
+RSCB.NKF
+\Longrightarrow
+ACT.X\text{-}Scale
++
+NKF.Moll
++
+NKF.Point
++
+NKF.Native
++
+RWS.C_{scale}.
+```
+
+Consequently the installed conditional packet may spend `RSCB.NKF` as a
+theorem-grade receiver input:
+
+```math
+RSCB.NKF
+\Longrightarrow
+NKF.Native
+\Longrightarrow
+ACT.KX.
+```
+
+This theorem does not prove global retained-window existence. It proves that
+once the retained-window admission and local smooth center-ball regularity are
+available, the native forcing, scale seed, point recovery, and fixed-readout
+compatibility inputs used by the `ACT.KX` packet are theorem-grade consequences.
+
+### Proof Block A: `ACT.X-Scale`
+
+At a retained restart time `s_a`, reset the affine packet at the current
+transported center and affine frame. For every retained rung and center, the
+affine remainder has the form
+
+```math
+R_{q,j}(y,s_a)
+=
+\mathcal C_{G_j(s_a)}^{-1}
+\big(
+U_q(c_j(s_a)+G_j(s_a)y,s_a)-U_q(c_j(s_a),s_a)
+\big),
+```
+
+with the first velocity rung using the installed affine-defect convention of the
+`ACT.KX` packet. Retained smoothness gives continuity of the finite family of
+fields and derivatives used by `X_{exc}` at each retained center. Therefore
+
+```math
+X_{exc}(s_a;R)\to0
+\qquad(R\downarrow0)
+```
+
+for every shrink-admissible excess slot. Since the center set, rung set, and
+derivative set are finite, one admissible radius `R_a` can be chosen so that
+
+```math
+B(c_j(s_a),2R_a)\subset Q_{s_a}^{rec,+},
+\qquad
+X_{exc}(s_a;R_a)\le\eta_X
+```
+
+for every retained packet on that restart. This proves `ACT.X-Scale`.
+
+### Proof Block B: `NKF.Moll`
+
+Let
+
+```math
+\varphi_{j,r}(x,t)=r^{-3}\varphi((x-c_j(t))/r),
+\qquad
+0<r<r_a,
+```
+
+with support inside the retained ball. Define mollified center forcing
+functionals by testing the pressure and viscous pieces of the center equation
+against `\varphi_{j,r}` and the corresponding finite tower derivatives.
+
+For the pressure part, the local Poisson split gives the retained local
+response plus the finite-energy far tail. On the retained ball,
+
+```math
+|\nabla^{q+1}p|*\varphi_{j,r}
+\le
+C
+\|p(\cdot,t)\|_{C^{m+1}(B(c_j(t),2r_a))}
+```
+
+for `0\le q\le m`. The harmonic/far-tail contribution is bounded by the energy
+tail already licensed in the conditional packet. For the viscous part,
+integration by parts against the transported mollifier and retained local
+smoothness give
+
+```math
+|\Delta U_q|*\varphi_{j,r}
+\le
+C_q
+\|u(\cdot,t)\|_{C^{m+2}(B(c_j(t),2r_a))}.
+```
+
+The finite sum over centers and rungs is therefore dominated by an `L^1_t`
+function supplied by the retained smoothness norms and the energy far tail.
+Thus
+
+```math
+\mathcal K_{\le m}^{ctr,[r]}\in L^1(I_a)
+```
+
+uniformly for the retained mollifier family. This proves `NKF.Moll`.
+
+### Proof Block C: `NKF.Point`
+
+For each retained center, each finite rung, and each retained forcing component,
+the local smoothness assumptions make the tested field continuous in space on
+`B(c_j(t),2r_a)` for almost every `t`, with an `L^1_t` dominating norm. Hence
+standard approximate-identity convergence gives
+
+```math
+K_{q,j}^{[r]}(t)\to K_q(c_j(t),t)
+```
+
+for almost every `t`, and the same retained smoothness bounds dominate the
+convergence in time. Dominated convergence yields
+
+```math
+\mathcal K_{\le m}^{ctr,[r]}
+\to
+\mathcal K_{\le m}^{ctr}
+\qquad\text{in }L^1(I_a).
+```
+
+This proves `NKF.Point`.
+
+### Proof Block D: `NKF.Native`
+
+The native pressure normal form defines `p_j^{aff}` by matching the finite
+center-cell pressure functionals of the affine and affine-linear source modes.
+Therefore, by linearity of the localized Poisson response,
+
+```math
+\Lambda_{r,j}\pi_j^{loc}
+=
+\Lambda_{r,j}(-\Delta)^{-1}\partial_a\partial_b(\eta_j w_j\otimes w_j)
++
+\Lambda_{r,j}\Pi_j^{ann}.
+```
+
+The affine and affine-linear pressure modes are absent from the residual
+center-cell functionals by construction. Combining `NKF.Moll` with
+`NKF.Point`, the native point forcing ledger is in `L^1(I_a)`. The bounded
+affine-frame conversion then gives
+
+```math
+K0.Core+E1.Aff+Kmid.Core
+\le
+C_\sharp \mathcal P_{\le m}^{ctr,nat},
+```
+
+and therefore
+
+```math
+\mathcal K_{\le m}^{ctr}\in L^1(I_a).
+```
+
+This is exactly the pre-`LCI.A` input to the core line of `ACT.KX`. It proves
+`NKF.Native`.
+
+### Proof Block E: `RWS.C_scale`
+
+The finite same-fluid dynamic cover supplied by retained-window compactness and
+the bounded pack gauge has bounded overlap:
+
+```math
+B(c_j(t),R_{fix})
+\subset
+\bigcup_{b=1}^{B}B(c_{j_b}(t),R_b).
+```
+
+Each small restarted packet supplied by `ACT.X-Scale` and propagated by
+`ACT.KX` gives
+
+```math
+X_{exc,b}\in L^\infty(I_a),
+\qquad
+N_b\in L^1(I_a).
+```
+
+Finite overlap transfers the local Morrey, affine-defect, pressure-cell, and
+top-viscous readouts to the fixed readout ball. This proves `RWS.C_scale`. It is
+a finite-cover readout transfer theorem; it is not a fixed-radius smallness
+claim.
+
+### Theorem 1 Conclusion
+
+The five proof blocks give
+
+```math
+RSCB.NKF
+\Longrightarrow
+ACT.X\text{-}Scale
++
+NKF.Moll
++
+NKF.Point
++
+NKF.Native
++
+RWS.C_{scale}.
+```
+
+Together with the already-installed `ACT.KX` conditional packet, this promotes
+`H1` from a route assumption into a theorem-grade retained-window receiver
+input, conditional only on retained-window admission and local smooth
+center-ball regularity.
+
 ### 1. `ACT.X-Scale`
 
 Prove the restart seed theorem:
