@@ -1102,15 +1102,41 @@ the accepted matrix. Therefore `End_NS` holds. `\square`
 ## Conditional-to-Original Upgrade (`ORIGIN.Retain`)
 
 `ORIGIN.Retain` is not an extra assembly step inside Theorem 1. It is the
-remaining global upgrade needed when the target is original-data closure rather
-than conditional retained-window closure.
+route-completeness theorem upgrading the conditional retained-window packet to
+the original maximal-solution/class-membership setup.
 
-**Theorem 2 (`ORIGIN.Retain`).** Let `u_0` be smooth divergence-free data, and
-let `(u,p)` be the maximal classical Navier-Stokes solution on
-`[0,T_*)`. Assume `CFI.A` is established on every retained window and every
-first loss of retained smooth center-ball regularity is certified by `END.Exh`.
-Then the retained-window hypotheses H1-H4 follow from the original
-class-membership setup on every compact interval `I\Subset[0,T_*)`.
+**Theorem 2 (`ORIGIN.Retain`).** Let `u_0` be smooth divergence-free data on
+`\mathbb R^3` or `\mathbb T^3`, and let `(u,p)` be the maximal classical
+Navier-Stokes solution on `[0,T_*)`. Assume the installed class-membership
+witness
+
+```math
+CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}
+```
+
+and the accepted endpoint certificate maps. Then every compact classical
+interval `I=[a,b]\Subset[0,T_*)` admits a finite retained-window cover
+satisfying the retained hypotheses needed by the affine-excess route:
+
+```math
+RSCB.NKF,\qquad ACT.X\text{-Scale},\qquad
+ACT.KX\text{-Boot},\qquad RWS.C_{\mathrm{scale}}.
+```
+
+Moreover, if a first failure of retained-window hypotheses occurs at a finite
+class endpoint, that failure produces an endpoint certificate in
+
+```math
+Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+```
+
+Consequently,
+
+```math
+CFI.A+End_{NS}
+\Longrightarrow
+\text{retained-window hypotheses persist through every finite class interval}.
+```
 
 Equivalently, for every compact `I\Subset[0,T_*)`, there is a finite retained
 window cover `I=\bigcup_r I_r` such that, on each `I_r`,
@@ -1133,24 +1159,131 @@ and the retained budget satisfies
 e^{|L|_{L^1(I_r)}}<2\eta_X.
 ```
 
-**Proof structure.** On a compact classical subinterval, smoothness gives local
-`C^k` bounds on finitely many transported center tubes, so the retained
-center-ball regularity needed by `RSCB.NKF` holds. Absolute continuity of the
-`L^1` integrals of `L` and `F` gives a finite partition with the required local
-budget. At each restart, `ACT.X-Scale` supplies
+**Proof.** Fix a compact classical interval `I=[a,b]\Subset[0,T_*)`. Since
+`(u,p)` is classical on a neighbourhood of `I`, every finite spatial derivative
+of `u` and `p` is bounded on the compact retained packet supports. For the
+finitely many transported centers `c_j(t)=\Phi(a^j,t)`, smoothness of the
+center curves gives a radius `\rho_I>0` such that `B(c_j(t),2\rho_I)` remains
+inside a classical retained center tube for all `t\in I`. Hence
+
+```math
+\sum_j
+|u|_{L^1_t C^{m+2,\alpha}(B(c_j(t),2\rho_I))}
++
+\sum_j
+|p|_{L^1_t C^{m+1,\alpha}(B(c_j(t),2\rho_I))}
+<\infty.
+```
+
+This is exactly the retained smooth center-ball hypothesis used by
+`RSCB.NKF`, so `RSCB.NKF => NKF.Moll+NKF.Point => NKF.Native` is available on
+`I`.
+
+The compact classical flow also supplies the bounded pack gauge. The
+deformation gradient obeys
+
+```math
+\partial_t D_a\Phi(a,t)=\nabla u(\Phi(a,t),t)D_a\Phi(a,t),
+```
+
+and `\nabla u\in L^1_tL^\infty_x` on the retained tubes. Gronwall gives
+`D_a\Phi\in L^\infty(I)`, while incompressibility and smooth invertibility give
+`D_a\Phi^{-1}\in L^\infty(I)`. Thus
+
+```math
+\Gamma_{\mathrm{pack},Q}\in L^\infty(I).
+```
+
+At each restart time `s_a`, the installed affine-excess remainders vanish at
+the center. Classical local `H^2` control and shrink-admissibility of the
+excess slots imply that, for every `\eta_X>0`, there is a radius `R_a>0` with
 
 ```math
 \mathcal X^{exc}(t_r;R_r)\le\eta_X
 ```
 
-after admissible recentering and radius choice, and `RWS.C_scale` transfers
-the finite small-radius packet cover back to the fixed-radius readouts.
+after admissible recentering and radius choice. This is `ACT.X-Scale`.
+
+On each retained window, `AXE.A` gives
+
+```math
+D^+\mathcal X^{exc}
++c_\nu\mathcal N
+\le
+L(t)\mathcal X^{exc}
++C_X(\mathcal X^{exc})^{1/2}\mathcal N
++F(t),
+```
+
+with `L,F\in L^1(I)` from the retained smooth norms, finite energy tails,
+cutoff ledgers, and center forcing ledgers. Choose `\eta_X` so that
+
+```math
+C_X(2\eta_X)^{1/2}\le \frac{c_\nu}{2}.
+```
+
+Absolute continuity of the `L^1` integrals gives a finite partition of `I`
+with
+
+```math
+\left(
+\eta_X+|F|_{L^1(I_r)}
+\right)e^{|L|_{L^1(I_r)}}<2\eta_X.
+```
+
+Together with the restart smallness from `ACT.X-Scale`, the first-exit
+argument gives
+
+```math
+\mathcal X^{exc}\in L^\infty(I),
+\qquad
+\mathcal N\in L^1(I).
+```
+
+This is `ACT.KX-Boot` on compact classical intervals.
+
+For `RWS.C_scale`, compactness of the retained label tubes and the bounded
+pack gauge give a finite same-fluid dynamic cover of every fixed readout ball.
+Finite overlap transfers the small-radius readout packets to the fixed-radius
+transported-center packet, so
+
+```math
+\mathcal Z_{\mathfrak p}^{TC}\in L^\infty(I),
+\qquad
+\mathfrak H^{osc,\alpha}\in L^2(I),
+\qquad
+\mathfrak D_1^{aff}\in L^1(I),
+\qquad
+\mathfrak F^{ctr,res}\in L^1(I).
+```
+
+Thus `RWS.C_scale` holds on compact classical intervals. The receiver chain
+then gives
+
+```math
+DTC.A_{\mathfrak p}\quad(\mathfrak p\in\mathscr P_{\rm req}),
+\qquad
+ULCI(\mathscr P_{\rm req})\Longrightarrow LCI.A.
+```
 
 The only endpoint issue is a first failure of retained-window admissibility as
-`t` approaches `T_*`. By hypothesis, such a failure is certified by `END.Exh`; by
-Theorem 1 and Propositions 14-16, `CFI.A+End_NS` excludes every accepted
-endpoint certificate. Therefore no first retained-window failure occurs before
-`T_*`. This is the retained-window-to-original-data upgrade. `\square`
+`t` approaches a finite class endpoint. If such a first failure occurs, then
+`\neg CM` holds. Since `CM=Pack\wedge Part\wedge Field`, the accepted
+certificate maps give
+
+```math
+Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+```
+
+`END.Pack` excludes `packing-detached` from the bounded pack gauge,
+`DTC-to-TowerBound` excludes `tower-blown`, the installed `(Part,Dead)` row
+excludes `Dead`, and `END.Field` excludes `Jump` once `OFP.A` is installed.
+Thus `End_NS` excludes every endpoint certificate. Therefore no first
+retained-window/class endpoint occurs at finite time once `CFI.A+End_NS` is
+installed.
+
+This proves `ORIGIN.Retain`: the conditional retained-window route upgrades to
+the original-data route. `\square`
 
 ## Proof of Theorem 1
 
@@ -1254,6 +1387,5 @@ All dependencies have been used in the theorem order, and every non-derived
 input is one of H1-H6. This completes the conditional `ACT.KX` route theorem.
 `\square`
 
-Thus the final non-assembly mathematical item beyond the conditional theorem
-is exactly `ORIGIN.Retain`: deriving the retained-window hypotheses from the
-original maximal-solution/class-membership setup.
+Together with Theorem 2, the conditional retained-window theorem upgrades to
+the original-data route.
