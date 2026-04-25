@@ -1051,17 +1051,18 @@ obligations:
     only through `A_buf` inside `Y_read`, not through the pre-pressure core.
     `ACT.X-Boot` must absorb `(C_cut+C_press)X_exc^(1/2)N`. It spends no
     `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
-    The endpoint block is now reduced to `END.TowerAmp` plus the certificate
-    maps behind `END.Exh` and `END.Cross`; `END.TowerBound` is formal from
-    `END.TowerAmp`, `END.Cross` is formal once the cross-entry certificate
-    reductions are accepted, and `END.Pack` / `END.Field` are formal once the
-    native pack gauge and `OFP.A` field scale are installed. The proposed
+    The endpoint block is now closed under the endpoint packet:
+    `DTC-to-TowerBound` supplies `END.TowerAmp` from a finite transported-center
+    cover, `DTC.A` through depth `N+2`, Morrey readout for `U_k`, and the local
+    pressure/viscous readout for `K_k`; `END.TowerBound` is formal from
+    `END.TowerAmp`. `END.Exh` is witness-certificate completeness, and
+    `END.Cross` reduces blown, jump, and dead cross-entries to installed rows
+    plus `END.TowerBound`, `END.Pack`, and `END.Field`. The proposed
     `DTC.LINEAR` affine-frame route remains
     conditional unless its displayed coefficients are supplied by direct
     pre-`DTC.A` estimates, since those coefficients include `AFD.A`, `EOC.A`,
     and `RCF.A`-level ledgers. `END.COMPLETE` is formal endpoint assembly from
-    `END.TowerAmp` plus the accepted `END.Exh` / `END.Cross` certificate maps,
-    not a proof of tower amplitude.
+    `END.TowerAmp` plus the accepted `END.Exh` / `END.Cross` certificate maps.
 summary:
   total_obligations: 73
   grounded_count: 2

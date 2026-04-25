@@ -3903,12 +3903,10 @@ DTC.A_{\mathfrak p}
 
 The endpoint block `\mathsf{End}_{NS}` is recorded in
 [mpp-class-membership-endpoint-matrix-closure-contract-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-class-membership-endpoint-matrix-closure-contract-note.md):
-`(Part,Dead)` is installed, while `END.Exh`, `END.Pack`, `END.Field`,
-`END.Tower`, and `END.Cross` remain open. The two sharp analytic residues are
-the direct `L^1` coefficient theorem `(DTC.7f)` and the endpoint-matrix package
-`END.Exh + \mathfrak A_{N,Q}\in L^\infty(I) + END.Cross`, with the simple
-bounded-gauge exclusions `END.Pack` and `END.Field` formal once their inputs are
-installed.
+`END.Exh` and `END.Cross` are accepted certificate/cross-entry reductions,
+`END.Pack` and `END.Field` are native formal exclusions once their inputs are
+present, and `DTC-to-TowerBound` supplies the analytic tower amplitude input
+`\mathfrak A_{N,Q}\in L^\infty(I)`.
 
 ## Current Formal Breakdown
 
@@ -3964,6 +3962,10 @@ The current affine-excess refinement replaces that slogan with the joint
 `ACT.KX` finite-cell package:
 
 ```math
+RSCB.NKF
+\Longrightarrow
+NKF.Moll+NKF.Point
+\Longrightarrow
 NKF.Native
 +
 ACT.X\text{-}Def
