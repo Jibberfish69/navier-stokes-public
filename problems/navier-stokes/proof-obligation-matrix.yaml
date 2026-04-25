@@ -1014,8 +1014,9 @@ obligations:
     `ACT.KX`, not from a pre-bootstrap pressure-cell ledger. The top
     `m+1,m+2` modes are `A_buf^ctr` readout/top-viscous buffer data, not
     pre-pressure Gronwall data unless an optional stronger top-forcing route is
-    chosen. The named joint supplier is `ACT.KX`: `NKF.Native + NKF.Ann +
-    AXE.A + ACT.X-Scale + ACT.X-Boot + RWS.C_scale => ACT.X-Press_cell +
+    chosen. The named joint supplier is `ACT.KX` after `RSCB.NKF` supplies
+    `NKF.Native`: `NKF.Native + NKF.Ann + AXE.A + ACT.X-Scale +
+    ACT.X-Boot + RWS.C_scale => ACT.X-Press_cell +
     ACT.Kcore + ACT.Actr_core + ACT.A`. `ACT.Kcore` remains the ledger identity
     `K0.Core + E1.Aff + Kmid.Core`; its pressure cells are read as
     `ACT.X-Press_cell` only after `ACT.X-Boot`, and its top-viscous line is

@@ -3209,6 +3209,10 @@ the putative exit, so `T_\ast` cannot occur. Integrating `(AXP.6)` then gives
 Thus the corrected chain is the joint `ACT.KX` block:
 
 ```math
+RSCB.NKF
+\Longrightarrow
+NKF.Moll+NKF.Point
+\Longrightarrow
 NKF.Native
 +
 ACT.X\text{-}Def
@@ -3240,7 +3244,8 @@ ACT.A.
 Equivalently, the completion ledger is:
 
 ```text
-1. NKF.Native: native normal-form identity annihilates affine and affine-linear pressure modes.
+0. RSCB.NKF: retained smooth center-ball regularity gives P_{\le m}^{ctr,nat} in L1.
+1. NKF.Moll + NKF.Point => NKF.Native: mollified forcing plus point recovery licenses native center forcing.
 2. NKF.Ann: annular pressure ledger controls Pi_ann.
 3. NKF.Quad: pointwise-in-time quadratic pressure estimate feeds the bootstrap.
 4. ACT.X-Def: define X_exc, N, and Y_read = A_core^ctr + A_buf^ctr + X_exc.

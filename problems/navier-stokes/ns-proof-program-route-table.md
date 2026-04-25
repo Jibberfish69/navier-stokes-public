@@ -253,8 +253,9 @@ K_le_m^ctr:
 
 ACT.Kcore:
   K0.Core + E1.Aff + Kmid.Core => K_le_m^ctr in L1(I).
-  This is supplied post-bootstrap by ACT.KX: NKF.Native + NKF.Ann + AXE.A
-  + ACT.X-Scale + ACT.X-Boot + RWS.C_scale first produce ACT.X-Press_cell.
+  This is supplied post-bootstrap by ACT.KX after RSCB.NKF supplies
+  NKF.Native: NKF.Native + NKF.Ann + AXE.A + ACT.X-Scale + ACT.X-Boot
+  + RWS.C_scale first produce ACT.X-Press_cell.
   Residual pressure is read from ACT.X-Press_cell after subtracting the native
   affine normal-form pressure p_j^aff from p_j^loc.
   This normal form annihilates affine and affine-linear center pressure modes.
@@ -262,6 +263,7 @@ ACT.Kcore:
   The top-viscous m+1,m+2 line is forcing/readout, not A_buf amplitude.
 
 Routing:
+  RSCB.NKF => NKF.Moll + NKF.Point => NKF.Native.
   NKF.Native + NKF.Ann + AXE.A + ACT.X-Scale + ACT.X-Boot + RWS.C_scale
   => ACT.X-Press_cell => ACT.Kcore.
   ACT.Kcore => ACT.Actr_core.
@@ -289,10 +291,14 @@ ACT.X-Press_energy:
 Compact receiver chain:
 
 ```text
-NKF.Native
+RSCB.NKF
+=> NKF.Moll + NKF.Point
+=> NKF.Native
 => NKF.A
 => ACT.Kcore
 => ACT.Actr_core
+
+then
 
 ACT.Actr_core
 + ACT.X-Def
