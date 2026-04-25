@@ -2562,31 +2562,47 @@ F_{top}(t).
 \tag{DTC.AFF-XTop}
 ```
 
-#### Theorem `AXE.A` (Affine-Excess Energy Assembly)
+#### Theorem `AXE.A` (Affine-Excess Line Inside `ACT.KX`)
 
-The four local atoms used to prove `ACT.X-Energy` are:
+The four local atoms used to prove the affine-excess line of `ACT.KX` are:
 
 ```math
-AXE.1:
+AXE.1=ACT.X\text{-}MidRaw:
 \quad
 |\mathcal T_{mid}|
 \le
 \varepsilon\mathcal N
 +
-L_{mid}(t)\mathcal X^{exc}
+\left(
+L_{mid,0}(t)
 +
-F_{mid}(t),
+C\mathcal A_{\mathrm{core}}^{ctr}(t)
+\right)
+\mathcal X^{exc}
++
+F_{mid,0}(t),
 \qquad
-L_{mid},F_{mid}\in L^1(I).
+L_{mid,0},F_{mid,0}\in L^1(I).
 \tag{AXE.1}
 ```
 
 Here the endpoint `U_1(c_j)U_q` action is absent by the affine-frame
 cancellation, `q=0,1,2` have no middle block, and for `q\ge3` every middle
-interaction contains only lower affine rungs. The weight choice in the finite
-depth tower is used only to keep those lower-rung products subordinated to the
-already-controlled part of the packet; it is not a license to read back the
-same-rung `\mathcal X^{exc}` as an `L^1` coefficient.
+interaction is finite-depth triangular. However the local remainder expansion
+contains genuine zero-mode linear terms
+
+```math
+\widetilde U_{\ell,j}R_{q+1-\ell,j}
++
+R_{\ell,j}\widetilde U_{q+1-\ell,j}.
+\tag{AXE.1a}
+```
+
+These terms are coefficients in the affine-excess equation. They are controlled
+by the live core center amplitude in the same theorem block, not by pretending
+they are external `L^1` data. A theorem `ACT.X-MidNF` that removes these terms by
+a new nonlinear normal form is a separate possible route; it is not installed in
+the present packet.
 
 ```math
 AXE.2:
@@ -2915,19 +2931,31 @@ This is the static viscous cutoff commutator estimate from derivatives of
 `\zeta`; it is handled by Cauchy--Young and the fixed affine ball constants.
 
 Adding `(AXE.1)`--`(AXE.4)` and choosing `\varepsilon` small enough to absorb
-all dissipative pieces gives:
+all dissipative pieces gives the affine-excess line
 
 ```math
 AXE.A:
 \quad
 AXE.1+AXE.2+AXE.3+AXE.4
 \Longrightarrow
-ACT.X\text{-}Energy.
+{
+\frac{d}{dt}\mathcal X^{exc}
++
+c_\nu\mathcal N
+\le
+\left(
+L_0(t)+C\mathcal A_{\mathrm{core}}^{ctr}(t)
+\right)\mathcal X^{exc}
++
+C_X(\mathcal X^{exc})^{1/2}\mathcal N
++
+F_0(t)
+}.
 \tag{AXE.A}
 ```
 
-Thus `AXE.A` is the current theorem-facing wall beneath `AXP.A`. It is not a
-new readout theorem: it proves the affine-excess differential inequality only.
+Thus `AXE.A` is not a closed pre-core theorem. It is the excess equation inside
+the simultaneous core/excess theorem `ACT.KX`.
 
 The only atoms allowed to keep a nonlinear scale-small excess factor are the
 moving cutoff atom and the local pressure quadratic-residual atom. The cutoff
@@ -2954,6 +2982,86 @@ The pressure atom contributes the matching term
 C_X:=C_{cut}+C_{press}.
 \tag{DTC.AFF-XBoot0}
 ```
+
+The live theorem is the simultaneous core/excess block
+
+```math
+ACT.KX:
+\quad
+\begin{cases}
+\displaystyle
+\frac{d}{dt}\mathcal X^{exc}
++
+c_\nu\mathcal N
+\le
+\left(
+L_0(t)+C\mathcal A_{\mathrm{core}}^{ctr}(t)
+\right)\mathcal X^{exc}
++
+C_X(\mathcal X^{exc})^{1/2}\mathcal N
++
+F_0(t),
+\\[6pt]
+\displaystyle
+\frac{d}{dt}\mathcal A_{\mathrm{core}}^{ctr}
+\le
+\mathcal K_{\le m}^{ctr}
++
+\mathcal T_{\mathrm{tri}}(\mathcal A_{\mathrm{core}}^{ctr}),
+\\[6pt]
+\displaystyle
+\mathcal K_{\le m}^{ctr}
+\le
+C\left(
+(\mathcal X^{exc})^{1/2}\mathcal N^{1/2}
++
+\mathcal X^{exc}
+\right)
++
+F_K(t),
+\end{cases}
+\tag{DTC.AFF-KX0}
+```
+
+where `L_0,F_0,F_K\in L^1(I)`. The center term
+`\mathcal T_{\mathrm{tri}}` is the finite-depth triangular center-mode algebra.
+The variable used in the scheduler is
+
+```math
+\mathcal J(t)
+:=
+\mathcal X^{exc}(t)
++
+\theta\mathcal A_{\mathrm{core}}^{ctr}(t),
+\qquad
+0<\theta\ll1,
+\tag{DTC.AFF-KX1}
+```
+
+but the scale-small absorption uses only `\mathcal X^{exc}`:
+
+```math
+C_X(\mathcal X^{exc})^{1/2}\mathcal N.
+\tag{DTC.AFF-KX2}
+```
+
+Thus `\mathcal A_{\mathrm{core}}^{ctr}` travels as a live coefficient and
+center ledger, not as a small packet. This is exactly where `ACT.KX` replaces the
+linear route
+
+```math
+AXE.A
+\Longrightarrow
+ACT.X\text{-}Boot
+\Longrightarrow
+ACT.Kcore
+\Longrightarrow
+ACT.Actr_{\mathrm{core}}.
+\tag{DTC.AFF-KX3}
+```
+
+The latter route would be circular because `ACT.X-MidRaw` contains the
+zero-mode linearized middle terms in `(AXE.1a)`.
 
 The correct seed input is not retained smoothness itself, but the scale-small
 seed theorem proved from retained smoothness:
@@ -3156,13 +3264,7 @@ So the theorem-facing contraction is
 ```math
 AXP.A:
 \quad
-ACT.X\text{-}Def
-+
-ACT.X\text{-}Energy
-+
-ACT.X\text{-}Scale
-+
-ACT.X\text{-}Boot
+ACT.KX
 +
 RWS.C_{\mathrm{scale}}
 +
@@ -3178,12 +3280,11 @@ ACT.X\text{-}Readout
 \tag{AXP.A}
 ```
 
-This is a propagation theorem for the `DTC.MA-Energy` subledger. It does not
-prove `ACT.X-Energy`, does not install `(FCI.5f)`, and does not discharge the
-endpoint matrix. For a full strip, `AXP.A` needs `ACT.X-Scale` at each retained
-restart together with the scheduler budget condition and `RWS.C_scale` to
-recover the required fixed-radius readouts, or a direct proof that `(AXP.1)` and
-fixed-radius readout compatibility hold on all retained affine intervals.
+This is a propagation theorem for the `DTC.MA-Energy` subledger after the joint
+core/excess block. It does not install `(FCI.5f)` and does not discharge the
+endpoint matrix. For a full strip, `ACT.KX` needs `ACT.X-Scale` at each retained
+restart together with the scheduler budget condition, and `AXP.A` needs
+`RWS.C_scale` to recover the required fixed-radius readouts.
 
 Proof. Let
 
@@ -3206,7 +3307,9 @@ C_X(\mathcal X^{exc})^{1/2}\mathcal N
 \tag{AXP.5}
 ```
 
-Absorbing this term in `ACT.X-Energy` yields
+Absorbing this term in the affine-excess line of `ACT.KX`, while the
+`\mathcal A_{\mathrm{core}}^{ctr}` coefficient is carried in the joint
+`\mathcal J` scheduler, yields
 
 ```math
 \frac{d}{dt}\mathcal X^{exc}
@@ -3226,7 +3329,7 @@ the putative exit, so `T_\ast` cannot occur. Integrating `(AXP.6)` then gives
 `\mathcal Y^{read}=\mathcal A_{\mathrm{core}}^{ctr}
 +\mathcal A_{\mathrm{buf}}^{ctr}+\mathcal X^{exc}`. This proves `AXP.A`.
 
-Thus the corrected chain is the joint `ACT.KX` block:
+Thus the corrected chain is the simultaneous `ACT.KX` block:
 
 ```math
 RSCB.NKF
@@ -3235,32 +3338,51 @@ NKF.Moll+NKF.Point
 \Longrightarrow
 NKF.Native
 +
+NKF.Ann
++
+NKF.Quad
++
 ACT.X\text{-}Def
 +
 AXE.A
 +
+ACT.X\text{-}Cut
++
+ACT.X\text{-}Press_{energy}
++
+ACT.X\text{-}MidRaw
++
+ACT.X\text{-}TopVisc
++
 ACT.X\text{-}Scale
 +
-ACT.X\text{-}Boot
-+
 RWS.C_{\mathrm{scale}}
-+
-NKF.Ann
-+
-NKF.Quad
 \Longrightarrow
+\boxed{ACT.KX}
+\Longrightarrow
+\mathcal X^{exc}\in L^\infty(I)
++
+\mathcal N\in L^1(I)
++
+\mathcal K_{\le m}^{ctr}\in L^1(I)
++
+\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I).
+\tag{DTC.AFF-XChain}
+```
+
+After this joint block, the readout chain is
+
+```math
 ACT.X\text{-}Press_{cell}
-+
+\Longrightarrow
 ACT.Kcore
-+
+\Longrightarrow
 ACT.Actr_{\mathrm{core}}
-+
+\Longrightarrow
 ACT.X\text{-}Readout
 \Longrightarrow
-AXP.A
-\Longrightarrow
 ACT.A.
-\tag{DTC.AFF-XChain}
+\tag{DTC.AFF-XChainR}
 ```
 
 Equivalently, the completion ledger is:
@@ -3271,14 +3393,14 @@ Equivalently, the completion ledger is:
 2. NKF.Ann: projected annular remainder controls Pi_ann without raw affine annular modes.
 3. NKF.Quad: pointwise-in-time quadratic pressure estimate feeds the bootstrap.
 4. ACT.X-Def: define X_exc, N, and Y_read = A_core^ctr + A_buf^ctr + X_exc.
-5. AXE.A: AXE.1--AXE.4 assemble ACT.X-Energy, with ACT.X-Press_energy as an in-bootstrap atom.
+5. AXE.A: AXE.1--AXE.4 assemble the excess line of ACT.KX, with ACT.X-Press_energy as an in-bootstrap atom.
 6. ACT.X-Cut: cutoff sees affine defect, not full center U_1.
-7. ACT.X-Mid: triangular finite-depth middle block.
+7. ACT.X-MidRaw: triangular finite-depth middle block with real zero-mode linear coefficients carried by A_core.
 8. ACT.X-TopVisc: buffer m+2 center modes are readout modes, not pre-pressure ACT.Actr_core data.
 9. ACT.X-Scale: retained smooth center-ball regularity supplies a radius R_a with X_exc(s_a;R_a) <= eta_X at each restart.
-10. ACT.X-Boot: ACT.X-Seed + ACT.X-Sched + ACT.X-Absorb propagates X_exc and N after ACT.X-Scale supplies small starts.
+10. ACT.KX: joint core/excess scheduler propagates X_exc, N, K_le_m^ctr, and A_core.
 11. ACT.X-Press_cell: X_exc in Linfty, N in L1, NKF.Ann, NKF.Quad, and energy far-tail give P_cell in L1.
-12. ACT.Kcore + ACT.Actr_core: the now-L1 pressure cell and viscous ledgers give the lower center-amplitude Gronwall rule.
+12. ACT.Kcore + ACT.Actr_core: the pressure cell and viscous ledgers identify the lower center-amplitude Gronwall readout.
 13. RWS.C_scale: finite dynamic small-radius cover recovers fixed-radius readouts; pointwise fixed-radius smallness is not claimed.
 14. ACT.X-Readout: X_exc + A_core^ctr + A_buf^ctr gives D_1^aff, F_ctr_res, H_osc^alpha at the licensed readout scale.
 15. ACT.A -> RCF.A -> LCI.A, while FCI.5f and endpoint cleanup remain separate.
@@ -3289,13 +3411,17 @@ hypotheses, not an unconditional energy result. The live native forcing
 certificate is `RSCB.NKF`, which supplies the retained smooth center-ball route
 `NKF.Moll + NKF.Point => NKF.Native`, together with the scheduler budgets.
 `ACT.X-Scale` and `RWS.C_scale` are installed conditional bridges, not
-fixed-radius smallness claims. `ACT.Actr_core` is now the post-bootstrap
-conditional Gronwall bridge from `ACT.Kcore` to
-`\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty`; `ACT.X-Press_energy` is the
-in-bootstrap affine local pressure energy decomposition whose only non-`L^1` residue is
-`C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`, with top-viscous buffer modes
-read through `Y_read` rather than promoted into `ACT.Actr_core`. `ACT.X-Cut` is
-structurally favorable because the moving cutoff sees the affine defect.
+fixed-radius smallness claims. `ACT.Actr_core` is no longer ordered after a
+standalone `ACT.X-Boot`: the core amplitude is carried inside `ACT.KX` through
+the joint variable `\mathcal J=\mathcal X^{exc}+\theta\mathcal A_{\mathrm{core}}^{ctr}`.
+`ACT.Kcore` and `ACT.Actr_core` remain named readout/ledger identities once the
+joint block has supplied `\mathcal K_{\le m}^{ctr}\in L^1` and
+`\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty`. `ACT.X-Press_energy` is the
+in-bootstrap affine local pressure energy decomposition whose only non-`L^1`
+residue is `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`, with top-viscous
+buffer modes read through `Y_read` rather than promoted into
+`ACT.Actr_core`. `ACT.X-Cut` is structurally favorable because the moving cutoff
+sees the affine defect.
 
 For a full interval `I`, this branch additionally needs `ACT.X-Scale` at every
 retained restart, the scheduler budget condition, and `RWS.C_scale` to transfer
@@ -3968,17 +4094,27 @@ NKF.Moll+NKF.Point
 \Longrightarrow
 NKF.Native
 +
+NKF.Ann
++
+NKF.Quad
++
 ACT.X\text{-}Def
 +
 AXE.A
 +
+ACT.X\text{-}Cut
++
+ACT.X\text{-}Press_{energy}
++
+ACT.X\text{-}MidRaw
++
+ACT.X\text{-}TopVisc
++
 ACT.X\text{-}Scale
 +
-ACT.X\text{-}Boot
-+
 RWS.C_{\mathrm{scale}}
-+
-NKF.Ann
+\Longrightarrow
+ACT.KX
 \Longrightarrow
 ACT.X\text{-}Press_{cell}
 +
@@ -3998,7 +4134,8 @@ DTC.PRE_{\mathfrak p}.
 \tag{DTC.36b}
 ```
 
-Here `AXE.A` abbreviates `AXE.1+AXE.2+AXE.3+AXE.4 => ACT.X-Energy`.
+Here `AXE.A` abbreviates `AXE.1+AXE.2+AXE.3+AXE.4` as the excess line inside
+`ACT.KX`, not as a standalone pre-core energy theorem.
 `ACT.X-Scale` supplies only small-radius restart seeds, `RWS.C_scale` recovers
 fixed-radius readouts from a finite dynamic small-radius cover, and
 `ACT.X-Readout` spends the bounded full readout packet `Y_read`, not raw
