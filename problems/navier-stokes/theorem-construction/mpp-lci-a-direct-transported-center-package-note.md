@@ -4229,58 +4229,53 @@ The current affine-excess refinement replaces that slogan with the joint
 `ACT.KX` finite-cell package:
 
 ```math
-RSCB.NKF
-\Longrightarrow
-NKF.Moll+NKF.Point
-\Longrightarrow
 NKF.Native
 +
 NKF.Ann
 +
 NKF.Quad
-+
-ACT.X\text{-}Def
-+
-AXE.A
-+
+\Longrightarrow
+ACT.X\text{-}Press,
+\tag{DTC.36b-1}
+```
+
+```math
 ACT.X\text{-}Cut
 +
-ACT.X\text{-}Press_{energy}
+ACT.X\text{-}Press
 +
 ACT.X\text{-}MidRaw
 +
 ACT.X\text{-}TopVisc
+\Longrightarrow
+ACT.KX,
+\tag{DTC.36b-2}
+```
+
+```math
+ACT.KX
 +
 ACT.X\text{-}Scale
 +
 RWS.C_{\mathrm{scale}}
 \Longrightarrow
-ACT.KX
-\Longrightarrow
-ACT.X\text{-}Press_{cell}
-+
-ACT.Kcore
-+
-ACT.Actr_{\mathrm{core}}
-+
 ACT.X\text{-}Readout
-\Longrightarrow
-AXP.A
 \Longrightarrow
 ACT.A
 \Longrightarrow
 DTC.M\text{-}Affine_{\mathfrak p}
 \Longrightarrow
 DTC.PRE_{\mathfrak p}.
-\tag{DTC.36b}
+\tag{DTC.36b-3}
 ```
 
-Here `AXE.A` abbreviates `AXE.1+AXE.2+AXE.3+AXE.4` as the excess line inside
-`ACT.KX`, not as a standalone pre-core energy theorem.
-`ACT.X-Scale` supplies only small-radius restart seeds, `RWS.C_scale` recovers
-fixed-radius readouts from a finite dynamic small-radius cover, and
-`ACT.X-Readout` spends the bounded full readout packet `Y_read`, not raw
-small-radius excess alone.
+Here `ACT.X-Press` is the two-use pressure package. Its in-bootstrap energy
+form feeds `ACT.KX`; after `ACT.KX` gives `X_exc in L^\infty` and
+`N in L^1`, its cell form supplies the residual pressure ledger behind
+`ACT.Kcore`. `ACT.X-Scale` supplies only small-radius restart seeds,
+`RWS.C_scale` recovers fixed-radius readouts from a finite dynamic small-radius
+cover, and `ACT.X-Readout` spends the bounded full readout packet `Y_read`, not
+raw small-radius excess alone.
 
 Across the finite required parameter set,
 
