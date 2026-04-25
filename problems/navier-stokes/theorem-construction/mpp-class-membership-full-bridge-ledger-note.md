@@ -1328,13 +1328,16 @@ LCI.A.
 \tag{ACT.X10}
 ```
 
-The next theorem-facing proof targets are `ACT.Actr_core`, `AXE.2` /
-`ACT.X-Press`, `ACT.X-Scale`, and `RWS.C_scale`.
-In the sharpened ledger, `ACT.X-Press` requires exactly
-the local fixed-ball pressure response plus the scale-small pressure excess
-term `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`; the finite pressure
-far-tail ledger is energy-controlled in `L^\infty(I)\subset L^1(I)`. It may not
-spend `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
+The next theorem-facing proof targets are `ACT.Actr_core`, `ACT.X-Scale`, and
+`RWS.C_scale`.
+In the sharpened ledger, `ACT.X-Press` is now recorded as the affine local
+pressure decomposition: affine-affine terms enter `L_press X_exc+F_press`,
+affine-remainder terms enter `epsilon N+L_press X_exc`, and
+remainder-remainder terms produce the scale-small pressure residue
+`C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`; the finite pressure far-tail
+ledger is energy-controlled in `L^\infty(I)\subset L^1(I)`. The top-viscous
+endpoint reads `m+1,m+2` through `A_buf` inside `Y_read`, not through
+`ACT.Actr_core`. It may not spend `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
 
 ### Finite-Stage `ACT.E2` Route
 

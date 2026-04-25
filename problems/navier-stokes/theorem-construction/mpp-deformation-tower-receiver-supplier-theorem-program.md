@@ -2167,14 +2167,16 @@ LCI.A.
 \tag{ACT.Scale7b}
 ```
 
-The sharp proof order is `ACT.Actr_core` first, then `AXE.2` / `ACT.X-Press`,
-plus the seed bridge `ACT.X-Scale` and the readout-compatibility bridge
-`RWS.C_scale`; `ACT.X-Cut` is the structurally favorable
-companion estimate. Here `ACT.X-Press` is licensed by `ACT.Actr_core` and the
-local fixed-ball pressure response, while its remainder-remainder pressure term
-contributes `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N` to the same
-scale-small bootstrap as the cutoff term. The finite pressure far-tail ledger
-is energy-controlled in `L^\infty(I)\subset L^1(I)`. It does not spend
+The sharp proof order is now `ACT.Actr_core`, then the seed bridge
+`ACT.X-Scale` and the readout-compatibility bridge `RWS.C_scale`; `ACT.X-Cut`
+is the structurally favorable companion estimate. `ACT.X-Press` is recorded as
+the affine local pressure decomposition: affine-affine terms enter
+`L_press X_exc+F_press`, affine-remainder terms enter
+`epsilon N+L_press X_exc`, and remainder-remainder terms produce
+`C_{press}(\mathcal X^{exc})^{1/2}\mathcal N` for the same scale-small
+bootstrap as the cutoff term. The finite pressure far-tail ledger is
+energy-controlled in `L^\infty(I)\subset L^1(I)`, and top-viscous buffer modes
+are read through `Y_read`, not promoted into `ACT.Actr_core`. It does not spend
 `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
 
 For a full interval, `ACT.X-Boot` needs `ACT.X-Scale` at every retained restart

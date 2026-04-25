@@ -2649,9 +2649,11 @@ Equivalently, the twelve-item completion ledger is:
 ```
 
 This ledger is a proof plan, not a discharge. The sharp next proof targets are
-`ACT.Actr_core`, `AXE.2` / `ACT.X-Press`, `ACT.X-Scale`, and `RWS.C_scale`;
-`ACT.X-Cut` is structurally favorable because the moving cutoff sees the affine
-defect.
+`ACT.Actr_core`, `ACT.X-Scale`, and `RWS.C_scale`. `ACT.X-Press` is now recorded
+as the affine local pressure decomposition whose only non-`L^1` residue is
+`C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`, with top-viscous buffer modes
+read through `Y_read` rather than promoted into `ACT.Actr_core`. `ACT.X-Cut` is
+structurally favorable because the moving cutoff sees the affine defect.
 
 For a full interval `I`, this branch additionally needs `ACT.X-Scale` at every
 retained restart, the scheduler budget condition, and `RWS.C_scale` to transfer
