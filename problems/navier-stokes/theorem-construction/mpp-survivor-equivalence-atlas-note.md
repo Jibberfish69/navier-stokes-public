@@ -274,6 +274,9 @@ the same endpoint cell.
 The live ledger that applies this audit language to the current survivor
 entries is
 [mpp-constitutive-first-survivor-ledger.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-constitutive-first-survivor-ledger.md).
+The current candidate for the common source survivor is the terminal
+finite--infinitesimal separation defect measure recorded in
+[mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md).
 The older four-body / selector readout dictionary remains an important
 readout-edge surface:
 [four-body-survivor-to-selector-readout-dictionary.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/four-body-survivor-to-selector-readout-dictionary.md).

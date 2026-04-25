@@ -287,6 +287,14 @@ survivor class `\mathcal S_*`, and therefore:
 \tag{MTS.13}
 ```
 
+The current candidate realization of that common class is the terminal
+finite--infinitesimal separation defect measure
+`\mathcal S_\ast^{h/F}` in
+[mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md).
+Under that reading, `(B1)`--`(B3)` are not only arrows between two named
+families; they are tests that both families are scale cuts or readout shadows
+of the same `h/F` terminal defect.
+
 ### Proof
 
 `MTS.B` shows that every physical blowup picture already lands in `A\cup B`.

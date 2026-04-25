@@ -142,6 +142,13 @@ not as:
 \text{one already-proved common terminal survivor class.}
 ```
 
+The unified-survivor candidate in
+[mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md)
+reframes the bridge obligations below as attempts to construct one common
+source `\mathcal S_\ast^{h/F}` whose lower-prefix and gap-kernel projections are
+Family A and Family B. This does not close the bridge obligations; it gives
+them a sharper target.
+
 ## Bridge obligation I: signed-to-affine collapse
 
 The first exact bridge theorem needed is:
