@@ -10,7 +10,7 @@ identity:
   source_review_verdict_id: review-verdict-navier-stokes
 posture:
   theorem_target: no finite-time class exit from shared packing, shared participation, and shared one-field coherence
-  current_package_status: conditional lane-closure packet installed under retained-window receiver hypotheses, post-LCI.A source closure, and accepted endpoint certificates
+  current_package_status: conditional lane-closure packet installed under retained-window receiver hypotheses, bounded pack gauge, finite required parameter set, post-LCI.A source closure, and accepted endpoint certificates
   standalone_status: receiver/source/endpoint assembly now records `CFI.A + End_NS => no finite-time class exit` conditionally on the installed theorem packets
   completion_tier_achieved: route-complete
   review_verdict: conditional-pass
@@ -29,7 +29,7 @@ object_law_refoundation:
     ym_heat_shadow_carrier: derived supplier/export branch on the Law-2-survivor side
     euclidean_strict_shadow: downstream export branch on the Law-2-survivor side
   theorem_queue:
-    - paperize and audit the completed conditional two-lane terminal closure packet: receiver `RSCB.NKF => ACT.A => RCF.A => LCI.A`, source `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, and endpoint `DTC-to-TowerBound + END.Exh + END.Cross => End_NS`
+    - paperize and audit the completed conditional terminal closure packet: receiver `RSCB.NKF => NKF.Native => ACT.KX => ACT.X-Readout => ACT.A => RCF.A => LCI.A`, source post-`LCI.A` `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, and endpoint `DTC-to-TowerBound + END.Exh + END.Cross + END.Pack + END.Field => End_NS`
     - keep TPS / SG.4, exact-potential, Hodge / normal-covector, and Euclidean strict-shadow quarantined as downstream context only
 live_theorem_edge:
   route_id: live-authority-edge-navier-stokes
@@ -39,13 +39,13 @@ live_theorem_edge:
     The class-membership route now carries a conditional terminal closure
     packet. Receiver closure uses installed `RSCB.NKF` as the retained smooth
     center-ball native forcing certificate and runs
-    `RSCB.NKF => ACT.A => RCF.A => LCI.A`. Source closure is the post-`LCI.A`
+    `RSCB.NKF => NKF.Native => ACT.KX => ACT.X-Readout => ACT.A => RCF.A => LCI.A`. Source closure is the post-`LCI.A`
     frozen-family packet `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, with cutoff
     absorption, strain/cascade low-carrier control, and pressure
     low-high/high-low plus resonant/far-tail control. One-field assembly then
     runs `LCI.A+FCI.5f => CSP.A => OFP.A => CFI.A`. Endpoint closure runs
-    `DTC-to-TowerBound + END.Exh + END.Cross => End_NS`, with `END.Pack` and
-    `END.Field` retained as accepted endpoint certificate rows. The two-lane
+    `DTC-to-TowerBound + END.Exh + END.Cross + END.Pack + END.Field => End_NS`.
+    The two-lane
     terminal closure packet is now recorded as endpoint
     analytic readout (`DTC-to-TowerBound`) plus source channels
     `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, with `END.Exh` and `END.Cross`
