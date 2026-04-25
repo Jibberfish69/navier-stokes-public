@@ -58,6 +58,13 @@ END.Exh.
 \tag{END.3}
 ```
 
+The endpoint matrix is also the grammar used by the survivor-equivalence atlas
+in
+[mpp-survivor-equivalence-atlas-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-survivor-equivalence-atlas-note.md):
+branch readout packets may be identified only when their admissible maps
+preserve the same `Pack / Part / Field` endpoint cell on the same same-fluid
+family.
+
 ### Theorem Target `END.Exh`
 
 At the first class-exit time,

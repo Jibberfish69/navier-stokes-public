@@ -52,6 +52,52 @@ F:=D_a\Phi.
 The branch is not allowed to change that carrier silently. It may only project
 or consume it.
 
+## Survivor-Equivalence Atlas Overlay
+
+The carrier comparison language for this ledger is now fixed by
+[mpp-survivor-equivalence-atlas-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-survivor-equivalence-atlas-note.md).
+
+Each entry below should be read as a packet
+
+```math
+R=(F,I,\Lambda,C,W,E,\rho)
+\tag{SFL.2a}
+```
+
+and every map between entries must be classified as one of:
+
+```math
+\mathrm{IdEdge},\qquad
+\mathrm{ReadoutEdge},\qquad
+\mathrm{BridgeEdge},\qquad
+\mathrm{IllegalCarrierChange}.
+\tag{SFL.2b}
+```
+
+The current high-level edge audit is:
+
+1. `L2F.A` is a bridge edge removing the participation-side live branch after
+   the installed no-drop theorem; it does not by itself identify the remaining
+   pack and field survivors.
+2. `OFP.A` is a bridge edge from the lower-carrier / collar receiver packet to
+   the `Field / Jump` endpoint cell, conditional on the source-side and
+   receiver-side inputs named in the one-field program.
+3. `CSP.A / LCI.A` is a bridge edge from receiver/collar failure to the
+   one-field survivor packet, not a separate primitive endpoint row.
+4. The four-body / selector dictionary supplies readout edges from the older
+   tail, tower, deformation, and selector faces to one survivor family, but
+   those readouts become class-membership edges only after their endpoint cell
+   in `Pack / Part / Field` is exhibited.
+5. The affine transported-center route is a bridge edge into the receiver
+   packet only if its `DTC.A` license is obeyed; any use of `LCI.A`, `CSP.A`,
+   `OFP.A`, `Field`, or endpoint exclusion inside that supplier is an illegal
+   carrier change.
+
+So this ledger should no longer be read only as a list of branch residues. It is
+an atlas-compatibility ledger: every survivor entry must preserve the same
+carrier, endpoint cell, and proof direction before it can be identified with
+another entry.
+
 ## Mandatory Header For Every Entry
 
 Every survivor entry is read through the same seven constitutive questions from

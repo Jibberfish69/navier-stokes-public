@@ -348,6 +348,12 @@ The package `\mathfrak O_{\mathrm{NS}}^{\mathrm{work}}` means:
    neighboring response, and rung energy are not optional decorations but part
    of the law bundle that defines the working object.
 
+The survivor-equivalence atlas in
+[mpp-survivor-equivalence-atlas-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-survivor-equivalence-atlas-note.md)
+uses this same object package as the carrier-identity guard: branch readouts may
+be compared only when they remain readouts of the same
+`\mathfrak O_{\mathrm{NS}}^{\mathrm{work}}|_Q` / `M_Q(u,p)` object.
+
 The keeper doctrine inside this package is the joint
 
 ```math

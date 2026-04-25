@@ -964,7 +964,7 @@ obligations:
     readout scale; and `ACT.X-Readout` spends `Y_read` after `ACT.KX` supplies
     `A_core^ctr`.
     The scheduler restarts only `X_exc` at budget endpoints using the current
-    transported center frame. `AXP.A` does not prove `ACT.X-Energy`, `(FCI.5f)`,
+    transported center frame. `AXP.A` does not by itself prove `ACT.KX`, `(FCI.5f)`,
     or any endpoint entry.
     The compact receiver plan is now `ACT.KX + RWS.C_scale + ACT.X-Readout =>
     AXP.A => ACT.A => RCF.A => LCI.A`, where `AXE.A` abbreviates

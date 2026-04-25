@@ -7,6 +7,12 @@ Theorem-facing shell-program note.
 Role: isolate the two strongest open shell programs already on disk without
 pretending they are the whole remaining frontier.
 
+The survivor-equivalence atlas
+[mpp-survivor-equivalence-atlas-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-survivor-equivalence-atlas-note.md)
+records the broader audit language: these shell programs are endpoint charts,
+not permission to identify unrelated branch readouts unless the same
+same-fluid survivor and endpoint cell are preserved.
+
 ## Purpose
 
 After the installed `(Part, Dead)` entry, the current route already has two

@@ -1478,7 +1478,7 @@ The buffer modes are not a pre-pressure coefficient ledger. They are readout
 and top-viscous buffer modes inside `\mathcal Y^{read}`:
 
 ```math
-ACT.X\text{-}Boot
+ACT.KX
 +
 ACT.Actr_{\mathrm{core}}
 \Longrightarrow
@@ -1488,7 +1488,7 @@ ACT.Actr_{\mathrm{core}}
 ```
 
 If one insists on proving `\mathcal A_{\mathrm{buf}}^{ctr}` before
-`ACT.X-Boot`, then an additional external top-forcing input is required:
+`ACT.KX`, then an additional external top-forcing input is required:
 
 ```math
 \sum_{q=m+1}^{m+2}\sum_j|\widetilde K_{q,j}|^2\in L^1(I).
@@ -2136,7 +2136,7 @@ This is the pressure component of `NKF.Native`: the center pressure-cell
 functionals annihilate the affine and affine-linear source modes, leaving only
 quadratic affine excess plus projected annular/harmonic/far-tail terms.
 `NKF.Ann` and `NKF.Quad` are in-bootstrap estimates; their `L^1` consequences
-are not available before `ACT.X-Boot`.
+are not available before `ACT.KX`.
 
 Equivalently, the solved pressure-cell block is
 
@@ -2264,7 +2264,7 @@ ACT.Actr_{\mathrm{core}}.
 ```
 
 The pressure cells in `K0.Core`, `E1.Aff`, and
-`K_{\mathrm{press},\le m}^{ctr}` are discharged only after `ACT.X-Boot`
+`K_{\mathrm{press},\le m}^{ctr}` are discharged only after `ACT.KX`
 converts `NKF.Quad` into an `L^1` pressure-cell ledger. The energy form
 `ACT.X-Press_energy` is therefore an in-bootstrap atom of `AXE.A`, not a theorem
 that waits for `ACT.Actr_core`.
@@ -2487,35 +2487,39 @@ The normalized dissipation is
 \tag{DTC.AFF-XDef3}
 ```
 
-`ACT.X-Energy` is the affine excess inequality
+The affine-excess line inside `ACT.KX` is
 
 ```math
 \frac{d}{dt}\mathcal X^{exc}
 +
 c_\nu\mathcal N
 \le
-L(t)\mathcal X^{exc}
+\left(
+L_0(t)+C\mathcal A_{\mathrm{core}}^{ctr}(t)
+\right)\mathcal X^{exc}
 +
 C_X(\mathcal X^{exc})^{1/2}\mathcal N
 +
-F(t),
+F_0(t),
 \qquad
-L,F\in L^1(I).
+L_0,F_0\in L^1(I).
 \tag{DTC.AFF-XEnergy}
 ```
 
 It is proved by the four estimates:
 
 ```math
-ACT.X\text{-}Mid:
+ACT.X\text{-}MidRaw:
 \quad
 |\mathcal T_{mid}|
 \le
 \varepsilon\mathcal N
 +
-L_{mid}(t)\mathcal X^{exc}
+\left(
+L_{mid,0}(t)+C\mathcal A_{\mathrm{core}}^{ctr}(t)
+\right)\mathcal X^{exc}
 +
-F_{mid}(t),
+F_{mid,0}(t),
 \tag{DTC.AFF-XMid}
 ```
 
@@ -3100,7 +3104,8 @@ derivative slot with `\sigma_{\beta,q}=-3` is not part of
 `\mathcal X^{exc}`; it belongs in `Y_{\mathrm{read}}`, because radius shrink
 does not force it small.
 
-`ACT.X-Boot` consumes only the resulting scale seed. Set
+The `ACT.X-Boot` sublemma inside `ACT.KX` consumes only the resulting scale
+seed. Set
 
 ```math
 \eta_X:=\left(\frac{c_\nu}{4C_X}\right)^2,
@@ -3428,7 +3433,7 @@ retained restart, the scheduler budget condition, and `RWS.C_scale` to transfer
 small-radius packets to the fixed-radius readouts. Finiteness of `F,L` alone is
 not the same as `ACT.X-Seed`.
 
-#### Theorem `ACT.X-Boot` (Seed + Scheduler + Absorption)
+#### Sublemma `ACT.X-Boot` Inside `ACT.KX` (Seed + Scheduler + Absorption)
 
 The retained-window scheduler naming is now decomposed into three atoms:
 
@@ -3489,8 +3494,9 @@ each retained interval, and the finite sum over intervals gives
 The scheduler obstruction is therefore not fixed-radius smallness of the
 original packet. It splits into the seed theorem `ACT.X-Scale` and the
 scale/readout compatibility theorem `RWS.C_scale`. Retained smooth center-ball
-regularity is the proof source for `ACT.X-Scale`, and `ACT.X-Boot` consumes only
-the resulting seed inequality; `RWS.C_scale` is what licenses the downstream
+regularity is the proof source for `ACT.X-Scale`, and `ACT.KX` consumes the
+resulting seed inequality together with the joint center/excess budget;
+`RWS.C_scale` is what licenses the downstream
 fixed-radius `ACT.X-Readout`.
 
 With this bridge, the local analytic route is:

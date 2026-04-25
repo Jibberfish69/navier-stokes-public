@@ -139,6 +139,8 @@ The steps already installed on disk are:
    [mpp-shared-participation-no-drop-theorem.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-shared-participation-no-drop-theorem.md)
 7. surviving-side reduction:
    [mpp-law13-surviving-endpoint-exclusion-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-law13-surviving-endpoint-exclusion-program.md)
+8. survivor-equivalence atlas:
+   [mpp-survivor-equivalence-atlas-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-survivor-equivalence-atlas-note.md)
 
 ## Live Frontier
 
