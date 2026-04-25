@@ -917,14 +917,14 @@ obligations:
     source-side block unless promoted as installed; with `(FCI.5f)` installed,
     the terminal theorem blocks are exactly `DTC.A_{\mathfrak p}` across
     `\mathscr P_{\rm req}` and `\mathsf{End}_{NS}`. The direct PDE core inside
-    `DTC.A` has sharpened further: `DTC.V`, `DTC.P`, and `DTC.F` are formal
-    consequences of the strengthened local tower carrier `DTC.M^\infty`, while
-    reading that carrier from `\mathcal Z^{TC}` alone gives the Osgood-risk
-    superlinear model. The surviving hard analytic theorem is `DTC.M-Linear`,
-    a direct affine-normalized `L^1` coefficient estimate that supplies
-    `DTC.M^\infty` without spending `EOC.A`, `AFD.A`, `RCF.A`, `LCI.A`,
-    `CSP.A`, `OFP.A`, or `Field`; once it lands, `DTC.PRE` follows. The
-    concrete candidate realization is now `DTC.M-Affine` / `(DTC.AFF9)`, the
+    `DTC.A` has sharpened from the older `DTC.M-Linear` slogan into the ordered
+    affine-excess package `ACT.Actr_core + ACT.X-Def + AXE.A + ACT.X-Scale +
+    ACT.X-Boot + RWS.C_scale + ACT.X-Readout => AXP.A => ACT.A => DTC.M-Affine
+    => DTC.PRE`. This package supplies `DTC.M^\infty` without spending `EOC.A`,
+    `AFD.A`, `RCF.A`, `LCI.A`, `CSP.A`, `OFP.A`, or `Field`; it also keeps
+    `A_buf` as readout/top-viscous buffer data rather than pre-pressure
+    Gronwall data. `RWS.C_scale` is the fixed-readout compatibility bridge, not
+    a fixed-radius smallness theorem. The concrete realization is the
     affine-normalized local packet inequality carrying endpoint first-rung
     action in the frame `G_j`; it remains conditional until
     `B_{\mathfrak p}^{aff},F_{\mathfrak p}^{aff}\in L^1(I)` are proved by

@@ -1424,8 +1424,25 @@ For `ACT.Actr_core`, the core ledger is:
 ```math
 \mathcal A_{\mathrm{core}}^{ctr}
 :=
-1+\sum_j\sum_{q=0}^{m}|\widetilde U_{q,j}|^2.
+1
++
+\mathfrak A_{0,\rho,\psi}^{ctr}
++
+\mathfrak A_{1,\rho,\psi}^{ctr}
++
+\sum_{q=2}^{m}\sum_j|\widetilde U_{q,j}|.
 \tag{DTC.AFF-Actr0a}
+```
+
+Here
+
+```math
+\mathfrak A_{0,\rho,\psi}^{ctr}:=\sum_j|U_0(c_j,t)|,
+\qquad
+\mathfrak A_{1,\rho,\psi}^{ctr}:=\sum_j|A_j(t)|,
+\qquad
+A_j(t):=U_1(c_j(t),t).
+\tag{DTC.AFF-Actr0a1}
 ```
 
 The lower forcing ledger is
@@ -1446,6 +1463,10 @@ The honest noncircular theorem target is:
 ```math
 ACT.Actr_{\mathrm{core}}:
 \quad
+\text{finite seed center data}
++
+\Gamma_\sharp\in L^\infty(I)
++
 \mathcal K_{\le m}^{ctr}\in L^1(I)
 \Longrightarrow
 \mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I).
@@ -1480,15 +1501,17 @@ law gives
 ```math
 \frac{d}{dt}U_0(c_j,t)=K_0(c_j,t),
 \qquad
-\frac{d}{dt}|U_0(c_j,t)|^2
+\frac{d}{dt}|U_0(c_j,t)|
 \le
-|K_0(c_j,t)|(1+|U_0(c_j,t)|^2).
+|K_0(c_j,t)|.
 \tag{DTC.AFF-Actr2}
 ```
 
 For `q=1`, the affine-frame identity gives
 
 ```math
+\dot A_j=-A_j^2+\mathcal E_j^{(1)},
+\qquad
 \ddot G_j=\mathcal E_j^{(1)}G_j,
 \qquad
 A_j=\dot G_jG_j^{-1}.
@@ -1496,8 +1519,9 @@ A_j=\dot G_jG_j^{-1}.
 ```
 
 The pack gauge bounds `G_j` and `G_j^{-1}`. Thus
-`\sum_j|\mathcal E_j^{(1)}|\in L^1(I)` and finite seed data give
-`\mathfrak A_1^{ctr}\in L^\infty(I)`.
+`\sum_j|\mathcal E_j^{(1)}|\in L^1(I)` gives `\ddot G_j\in L^1(I)`;
+finite seed data gives `\dot G_j\in L^\infty(I)`, and therefore
+`\mathfrak A_1^{ctr}\in L^\infty(I)` from `A_j=\dot G_jG_j^{-1}`.
 
 For `q\ge2`,
 
@@ -1525,14 +1549,20 @@ C_q
 \tag{DTC.AFF-Actr5}
 ```
 
-Finite-depth triangular induction makes the middle block an already-controlled
-`L^1` coefficient for the lower rungs `2\le q\le m`. Pairing with
-`\widetilde U_{q,j}` and applying Gronwall gives
-`\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I)` from
-`\mathcal K_{\le m}^{ctr}\in L^1(I)`. The top rungs `m+1,m+2` are not licensed
-as pre-pressure coefficients by that lower induction. The remaining live
-obligation under `ACT.Actr_core` is exactly
-`\mathcal K_{\le m}^{ctr}\in L^1(I)`.
+For `q=2`, the middle sum is empty, so
+`\sum_j|\widetilde U_{2,j}|` is bounded by finite seed data plus
+`\int_I\sum_j|\widetilde K_{2,j}|`. Inductively, once all lower rungs
+`2,\ldots,q-1` are in `L^\infty(I)`, every product in `(DTC.AFF-Actr5)` is
+integrable on the finite interval, and
+`\sum_j|\widetilde K_{q,j}|\in L^1(I)` gives
+`\sum_j|\widetilde U_{q,j}|\in L^\infty(I)`. This closes
+`2\le q\le m` and proves `ACT.Actr_core`.
+
+The top rungs `m+1,m+2` are not licensed as pre-pressure coefficients by this
+lower induction. The remaining live obligation under `ACT.Actr_core` is exactly
+the direct lower center-forcing statement `\mathcal K_{\le m}^{ctr}\in L^1(I)`,
+with finite seed center data and `\Gamma_\sharp\in L^\infty(I)` kept as explicit
+inputs.
 
 Let
 
@@ -3010,7 +3040,7 @@ DTC.F_{\mathfrak p}.
 \tag{DTC.36}
 ```
 
-The sharper reduction is:
+The older slogan form was:
 
 ```math
 DTC.M\text{-}Linear_{\mathfrak p}
@@ -3029,8 +3059,39 @@ DTC.PRE_{\mathfrak p}.
 \tag{DTC.36a}
 ```
 
-Thus `DTC.M-Linear`, not the whole four-cell list, is the surviving hard
-analytic theorem in the direct transported-center block.
+The current affine-excess refinement replaces that slogan with the ordered
+finite-cell package:
+
+```math
+ACT.Actr_{\mathrm{core}}
++
+ACT.X\text{-}Def
++
+AXE.A
++
+ACT.X\text{-}Scale
++
+ACT.X\text{-}Boot
++
+RWS.C_{\mathrm{scale}}
++
+ACT.X\text{-}Readout
+\Longrightarrow
+AXP.A
+\Longrightarrow
+ACT.A
+\Longrightarrow
+DTC.M\text{-}Affine_{\mathfrak p}
+\Longrightarrow
+DTC.PRE_{\mathfrak p}.
+\tag{DTC.36b}
+```
+
+Here `AXE.A` abbreviates `AXE.1+AXE.2+AXE.3+AXE.4 => ACT.X-Energy`.
+`ACT.X-Scale` supplies only small-radius restart seeds, `RWS.C_scale` recovers
+fixed-radius readouts from a finite dynamic small-radius cover, and
+`ACT.X-Readout` spends the bounded full readout packet `Y_read`, not raw
+small-radius excess alone.
 
 Across the finite required parameter set,
 
@@ -3042,16 +3103,22 @@ ULCI(\mathscr P_{\rm req}).
 \tag{DTC.37}
 ```
 
-Consequently the receiver side is formal after
-`DTC.LINEAR + DTC.M-Linear`. The full lane then still spends `(FCI.5f)` in the
-collar/one-field assembly unless that source-side theorem is separately
-promoted as installed.
+Consequently the receiver side is formal after the ordered affine-excess package
+in `(DTC.36b)` is installed for every required parameter instance. The full lane
+then still spends `(FCI.5f)` in the collar/one-field assembly unless that
+source-side theorem is separately promoted as installed.
 
 With `(FCI.5f)` installed, the remaining theorem work is:
 
 ```math
 \boxed{
-DTC.M\text{-}Linear
+ACT.Actr_{\mathrm{core}}
++
+AXE.A
++
+ACT.X\text{-}Scale
++
+RWS.C_{\mathrm{scale}}
 }
 \qquad
 \text{and}
@@ -3065,9 +3132,17 @@ END.Exh+END.TowerAmp+END.Cross.
 Without that source-side promotion, the honest terminal list is:
 
 ```math
-\boxed{DTC.M\text{-}Linear}
+\boxed{
+ACT.Actr_{\mathrm{core}}
 +
-\boxed{(FCI.5f)}
+AXE.A
++
+ACT.X\text{-}Scale
++
+RWS.C_{\mathrm{scale}}
+}
++
+\boxed{FPCR.C+FSCR.C+FCC.C1}
 +
 \boxed{END.Exh+END.TowerAmp+END.Cross}.
 \tag{DTC.39}
