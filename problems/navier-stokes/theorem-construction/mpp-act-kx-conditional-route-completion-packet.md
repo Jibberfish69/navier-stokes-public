@@ -1147,7 +1147,7 @@ after admissible recentering and radius choice, and `RWS.C_scale` transfers
 the finite small-radius packet cover back to the fixed-radius readouts.
 
 The only endpoint issue is a first failure of retained-window admissibility as
-`t\uparrow T_*`. By hypothesis, such a failure is certified by `END.Exh`; by
+`t` approaches `T_*`. By hypothesis, such a failure is certified by `END.Exh`; by
 Theorem 1 and Propositions 14-16, `CFI.A+End_NS` excludes every accepted
 endpoint certificate. Therefore no first retained-window failure occurs before
 `T_*`. This is the retained-window-to-original-data upgrade. `\square`
