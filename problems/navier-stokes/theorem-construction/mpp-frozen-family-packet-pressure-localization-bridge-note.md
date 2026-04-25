@@ -245,6 +245,32 @@ coarser FEI-centerwise factorization `(FFPLB.C0)`, now isolated separately as
 `(FIPCB.A0)`. No theorem currently on disk proves that single-increment
 packet-to-center bridge either.
 
+## Conditional Source-Route Boundary
+
+This note remains a pressure-localization subwall beneath the older
+`FFPB.A0` bridge. It is not the source pressure cell used by the current
+conditional route packet.
+
+For that source packet, the pressure input is the post-`LCI.A` theorem
+`FPCR.C_postLCI` on
+[mpp-frozen-family-pressure-bridge-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-bridge-note.md):
+
+```math
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}
+\le
+C(\mathcal N^{LH/HL}+\mathcal N^{RR}+\mathcal T^{far}),
+\qquad
+\mathcal T^{far}(t)\lesssim \|u_0\|_{L^2}^2.
+\tag{FFPLB.D0}
+```
+
+Together with the post-`LCI.A` low-carrier coefficient and the bounded frozen
+packet aggregate, this yields the route pressure cell `FPCR.C`; the source
+ledger then closes only after the separate strain/cascade cell `FSCR.C` and
+cutoff absorption cell `FCC.C1` are paired through `FCI.Split`. Thus this
+localization-bridge note does not promote `FFPLB.A0`, and it imports no
+receiver `ACT.KX` or endpoint theorem.
+
 So the honest status is:
 
 ```math
