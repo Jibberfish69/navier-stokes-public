@@ -1133,10 +1133,14 @@ K0.Core+E1.Aff+Kmid.Core
 \tag{ACT.X7d}
 ```
 
-Here `K0.Core` supplies `\sum_j|\nabla p(c_j)|+\nu\sum_j|U_2(c_j)|`,
-`E1.Aff` supplies the local/harmonic pressure Hessian and `\nu U_3` terms in
-`\mathcal E_j^{(1)}`, and `Kmid.Core` supplies the pressure center forcing plus
-the viscous forcing split. The lower viscous part is core-controlled; the
+Here `K0.Core` supplies the residual pressure-gradient/harmonic split
+`\sum_j|\nabla\pi_j^{loc}(c_j)|+\sum_j|\nabla h_j(c_j)|
++\nu\sum_j|U_2(c_j)|`, where
+`\pi_j^{loc}=p_j^{loc}-p_j^{aff}` and the pure affine pressure has been moved
+into the affine model. `E1.Aff` supplies the corresponding residual/harmonic
+pressure Hessian and `\nu U_3` terms in `\mathcal E_j^{(1)}`, and `Kmid.Core`
+supplies the residual pressure center forcing plus the viscous forcing split.
+The lower viscous part is core-controlled; the
 top-viscous line
 `\nu\sum_j(|U_{m+1}(c_j)|+|U_{m+2}(c_j)|)` is carried as forcing/readout, not
 as a pre-pressure `A_buf` amplitude ledger.
@@ -1153,9 +1157,11 @@ ACT.Actr_{\mathrm{core}}.
 ```
 
 The pressure parts of `K0.Core`, `E1.Aff`, and `Kmid.Core` are assigned first to
-`ACT.X-Press_cell`; after `ACT.Actr_core` is available, `ACT.X-Press_energy`
-may spend `\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I)` and contributes
-the `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N` term to the bootstrap.
+`ACT.X-Press_cell` in residual form: the cell ledger controls
+`\pi_j^{loc}=p_j^{loc}-p_j^{aff}` plus harmonic/far-tail terms, not the raw
+local pressure. After `ACT.Actr_core` is available, `ACT.X-Press_energy` may
+spend `\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I)` and contributes the
+`C_{press}(\mathcal X^{exc})^{1/2}\mathcal N` term to the bootstrap.
 
 The top buffer modes `m+1,m+2` are readout/top-viscous modes inside
 `\mathcal Y^{read}=\mathcal A_{\mathrm{core}}^{ctr}
@@ -1362,11 +1368,13 @@ LCI.A.
 The next theorem-facing proof targets are `ACT.Kcore`, `ACT.X-Scale`, and
 `RWS.C_scale`.
 In the sharpened ledger, pressure is split into `ACT.X-Press_cell` and
-`ACT.X-Press_energy`. The cell form supplies the pressure cells in `ACT.Kcore`.
-The energy form is the affine local pressure decomposition: affine-affine terms
-enter `L_press X_exc+F_press`, affine-remainder terms enter
-`epsilon N+L_press X_exc`, and remainder-remainder terms produce the
-scale-small pressure residue `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`;
+`ACT.X-Press_energy`. The cell form supplies the residual pressure cells in
+`ACT.Kcore` after subtracting the affine model pressure
+`p_j^{aff}` from `p_j^{loc}`. The energy form is the same residual affine local
+pressure decomposition: affine-remainder terms enter
+`epsilon N+L_press X_exc`, remainder-remainder terms produce the scale-small
+pressure residue `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`, and the pure
+affine pressure is part of the model frame rather than a pre-core forcing term;
 the finite pressure far-tail ledger is energy-controlled in
 `L^\infty(I)\subset L^1(I)`. The top-viscous endpoint reads `m+1,m+2` through
 `A_buf` inside `Y_read`, not through `ACT.Actr_core`. It may not spend `LCI.A`,

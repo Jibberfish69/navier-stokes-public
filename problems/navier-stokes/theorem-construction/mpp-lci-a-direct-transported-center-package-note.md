@@ -1588,10 +1588,74 @@ Kmid.Core.
 \tag{DTC.AFF-Kcore1}
 ```
 
+The native forcing bridge beneath this ledger is:
+
+```math
+NKF.A:
+\quad
+\mathcal P_{\le m}^{ctr,nat}\in L^1(I_r)
+\Longrightarrow
+K0.Core+E1.Aff+Kmid.Core\in L^1(I_r).
+\tag{DTC.AFF-NKF1}
+```
+
+Here `\mathcal P_{\le m}^{ctr,nat}` is the retained-window center forcing
+packet built from the native local pressure response, harmonic tail, and
+viscous center readout:
+
+```math
+\mathcal P_{\le m}^{ctr,nat}
+:=
+\mathcal P_{\le m}^{cell}
++
+\sum_j\left(|\nabla h_j(c_j)|+|\nabla^2h_j(c_j)|\right)
++
+\sum_{q=2}^{m}\sum_j
+|\mathcal C_{G_j}^{-1}\nabla^{q+1}h_j(c_j)|
++
+K_{\mathrm{visc},core}^{ctr}
++
+K_{\mathrm{visc},top}^{ctr}
++
+\nu\sum_j\left(|U_2(c_j)|+|U_3(c_j)|\right).
+\tag{DTC.AFF-NKF2}
+```
+
+The implication `(DTC.AFF-NKF1)` is formal from
+
+```math
+K_q(c_j)
+=
+-\nabla^{q+1}p(c_j)+\nu\Delta U_q(c_j)
+\tag{DTC.AFF-NKF3}
+```
+
+and the bounded frame equivalence from `\Gamma_\sharp\in L^\infty(I_r)`.
+For `q=0` this reads `K_0=-\nabla p+\nu\Delta u`; for the first rung the
+affine cancellation isolates `\mathcal E_j^{(1)}` from the `-A_j^2` endpoint
+term; for `2\le q\le m`, `|\widetilde K_{q,j}|\le C_\sharp |K_q(c_j)|`.
+
+The live PDE content is not `(DTC.AFF-NKF1)` itself but the native pointwise
+forcing assertion
+
+```math
+NKF.Native:
+\quad
+\mathcal P_{\le m}^{ctr,nat}\in L^1(I_r).
+\tag{DTC.AFF-NKF4}
+```
+
+Finite energy and the pressure Poisson equation alone do not supply this
+pointwise center packet. `NKF.Native` must come from retained smooth center-ball
+regularity plus direct local pressure/viscous response, without spending
+`ACT.Actr_core`, `AXP.A`, `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
+
 The pressure-core dependency order is:
 
 ```math
-ACT.X\text{-}Press_{cell}
+NKF.Native
+\Longrightarrow
+NKF.A
 \Longrightarrow
 ACT.Kcore
 \Longrightarrow
@@ -1611,6 +1675,9 @@ ACT.X\text{-}Press_{cell}:
 \mathcal P_{\le m}^{cell}\in L^1(I),
 \tag{DTC.AFF-Kcore1b}
 ```
+
+and is now understood as the pressure component of `NKF.Native`, not as a
+closed consequence of finite energy alone.
 
 Fix one center and write
 
@@ -1684,7 +1751,7 @@ assigned to the fixed annular pressure ledger or the harmonic/far-tail ledger.
 This affine subtraction is the key pressure-core rule: the pure affine
 `A_j^2` pressure is part of the model frame, not a pre-core forcing term.
 
-where
+with
 
 ```math
 \mathcal P_{\le m}^{cell}
@@ -1728,12 +1795,12 @@ Thus the pressure-cell ledger is the pressure input behind `ACT.Kcore`; the
 energy form of the pressure theorem is used only after `ACT.Actr_core` is
 available.
 
-Equivalently,
+Equivalently, after the affine model pressure has been subtracted,
 
 ```math
 \mathcal P_{\le m}^{cell}
 \le
-P_{aff}^{cell}
+P_{aff\text{-}res}^{cell}
 +
 P_{excess}^{cell}
 +
@@ -1743,7 +1810,7 @@ P_{tail}^{cell}\in L^1(I),
 \tag{DTC.AFF-Kcore1f}
 ```
 
-with the affine and excess pieces carried by the direct affine pressure-response
+with the affine-residual and excess pieces carried by the direct affine pressure-response
 theorem. This is the live local fixed-ball pressure response behind both
 `ACT.X-Press_cell` and, after `ACT.Actr_core`, `ACT.X-Press_energy`.
 

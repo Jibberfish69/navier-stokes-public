@@ -2051,9 +2051,13 @@ the first-rung affine-frame acceleration `\mathcal E_j^{(1)}`, and the
 transformed lower-rung forcings `\widetilde K_{q,j}` for `2\le q\le m`.
 The supplier theorem is `ACT.Kcore`: `K0.Core + E1.Aff + Kmid.Core` gives
 `\mathcal K_{\le m}^{ctr}\in L^1(I)`. The pressure pieces are routed first
-through `ACT.X-Press_cell`; the energy pressure estimate is
-`ACT.X-Press_energy` after `ACT.Actr_core` is available. The harmonic tails are
-energy-controlled;
+through `ACT.X-Press_cell` in residual form: define the affine model pressure
+`p_j^{aff}` for the pure affine source and set
+`\pi_j^{loc}=p_j^{loc}-p_j^{aff}`. The cell theorem controls the
+`\pi_j^{loc}` center derivatives plus harmonic/far-tail terms, so the pure
+`A_j^2` pressure never enters `ACT.Kcore` as pre-core forcing. The energy
+pressure estimate is `ACT.X-Press_energy` after `ACT.Actr_core` is available.
+The harmonic tails are energy-controlled;
 the lower viscous recycle is core-controlled, while the `m+1,m+2` viscous line
 is carried as forcing/readout, not as a pre-pressure `A_buf` amplitude ledger.
 Thus `ACT.X-Press_cell => ACT.Kcore => ACT.Actr_core`, and then
@@ -2182,10 +2186,11 @@ LCI.A.
 ```
 
 The sharp proof order is now `ACT.X-Press_cell => ACT.Kcore => ACT.Actr_core
-=> ACT.X-Press_energy`, then the seed bridge `ACT.X-Scale` and the
+=> ACT.X-Press_energy`, with `ACT.X-Press_cell` reading the residual pressure
+`\pi_j^{loc}=p_j^{loc}-p_j^{aff}` rather than raw local pressure. Then the seed bridge `ACT.X-Scale` and the
 readout-compatibility bridge `RWS.C_scale`. `ACT.X-Cut` is the structurally
 favorable companion estimate. `ACT.X-Press_energy` is recorded as the affine
-local pressure decomposition: affine-affine terms enter `L_press X_exc+F_press`,
+local pressure decomposition after the affine model pressure has been removed:
 affine-remainder terms enter `epsilon N+L_press X_exc`, and
 remainder-remainder terms produce `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`
 for the same scale-small bootstrap as the cutoff term. The finite pressure
