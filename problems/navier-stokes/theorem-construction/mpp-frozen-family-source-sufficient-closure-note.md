@@ -214,6 +214,56 @@ which is the second part of `(FFSRC.A5)`. Finally, `(FCC.C1)` applies with
 `(FFSRC.A3)`, `(FFSRC.A5)`, and `(FFSRC.A4)` and gives the full source theorem
 `(FFSRC.A6)`. ∎
 
+### Corollary `FFSRC.B_postLCI` (Ordered post-`LCI.A` source-lane closure)
+
+On the current source lane, the three channel cells are used in the order
+
+```math
+FCC.C1
+\Longrightarrow
+FSCR.C
+\Longrightarrow
+FPCR.C
+\Longrightarrow
+(FCI.5f).
+\tag{FFSRC.B2}
+```
+
+Here `FCC.C1` is the cutoff absorption/Gronwall cell, `FSCR.C` is supplied by
+`FSCR.C_postLCI` from the bounded frozen packet aggregate and
+`\mathfrak C_{N+1,\rho,\psi}^{\delta}\in L^1(I)`, and `FPCR.C` is supplied by
+`FPCR.C_postLCI` from the local pressure split
+`LH/HL + RR + far` together with the low-carrier ledger.
+
+Thus, after `LCI.A`,
+
+```math
+FCC.C1+FSCR.C_{postLCI}+FPCR.C_{postLCI}
+\Longrightarrow
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon}(\cdot;I)\in L^1(I),
+\tag{FFSRC.B3}
+```
+
+i.e.
+
+```math
+FCC.C1+FSCR.C+FPCR.C
+\Longrightarrow
+(FCI.5f)
+\tag{FFSRC.B4}
+```
+
+on the post-`LCI.A` sufficient source route.
+
+### Proof
+
+`FCC.C1` absorbs the cutoff channel into the viscous/coefficient side and
+provides the Gronwall law for the frozen-family packet. `FSCR.C_postLCI`
+places the strain/cascade channel in `L^1(I)`. `FPCR.C_postLCI` places the
+pressure channel in `L^1(I)`. The formal source split `(FSL.A0)` / `FCI.Split`
+then identifies the full source ledger as the sum of the cutoff,
+strain/cascade, and pressure channels, proving `(FFSRC.B3)`--`(FFSRC.B4)`. ∎
+
 ## Route Position
 
 This note is a combined sufficient package. It does **not** alter the exact
