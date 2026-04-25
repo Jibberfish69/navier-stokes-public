@@ -1026,14 +1026,15 @@ obligations:
     smoothness at the restart scale.
     Pressure is split into `ACT.X-Press_cell` and `ACT.X-Press_energy`. The cell
     form supplies the residual pressure-cell ledger behind `ACT.Kcore`: the
-    affine model pressure `p_j^aff` is subtracted from `p_j^loc`, and the cell
-    theorem controls `pi_j^loc=p_j^loc-p_j^aff` plus harmonic/far-tail terms.
-    The energy form is the same residual affine local pressure decomposition
-    after `ACT.Actr_core`: affine-remainder terms enter
-    `epsilon N + L_press X_exc`, and remainder-remainder terms produce the
-    scale-small residue `C_press X_exc^(1/2) N`; the pure affine pressure is
-    part of the model frame, not a pre-core forcing term. The finite pressure
-    far-tail is energy-controlled in `L^\infty(I)`. The top-viscous part reads `m+1,m+2`
+    native affine normal-form pressure `p_j^aff` is subtracted from `p_j^loc`,
+    and its center-cell functionals annihilate both affine and affine-linear
+    pressure modes. The cell theorem controls `pi_j^loc=p_j^loc-p_j^aff` through
+    a quadratic affine-excess core plus annular/harmonic/far-tail terms. The
+    energy form is the same residual local pressure decomposition after
+    `ACT.Actr_core`: the quadratic core produces the scale-small residue
+    `C_press X_exc^(1/2) N`, while annular and harmonic terms enter the
+    `L_press X_exc + F_press` side. The finite pressure far-tail is
+    energy-controlled in `L^\infty(I)`. The top-viscous part reads `m+1,m+2`
     only through `A_buf` inside `Y_read`, not through the pre-pressure core.
     `ACT.X-Boot` must absorb `(C_cut+C_press)X_exc^(1/2)N`. It spends no
     `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.

@@ -254,7 +254,8 @@ K_le_m^ctr:
 ACT.Kcore:
   K0.Core + E1.Aff + Kmid.Core => K_le_m^ctr in L1(I).
   Residual pressure is routed first through ACT.X-Press_cell, after subtracting
-  the affine model pressure p_j^aff from p_j^loc.
+  the native affine normal-form pressure p_j^aff from p_j^loc.
+  This normal form annihilates affine and affine-linear center pressure modes.
   Lower viscous recycle is core-controlled.
   The top-viscous m+1,m+2 line is forcing/readout, not A_buf amplitude.
 
@@ -271,13 +272,14 @@ A_buf^ctr:
 
 ACT.X-Press_cell:
   finite residual pressure-cell ledger P_le_m^cell in L1(I), controlling
-  pi_j^loc=p_j^loc-p_j^aff plus harmonic/far-tail terms and feeding ACT.Kcore.
+  pi_j^loc=p_j^loc-p_j^aff by a quadratic affine-excess core plus
+  annular/harmonic/far-tail terms and feeding ACT.Kcore.
 
 ACT.X-Press_energy:
   ACT.Actr_core + local fixed-ball pressure response.
-  Pure affine pressure is model-frame data, not pre-core forcing.
+  Affine and affine-linear pressure modes are normal-form data, not pre-core forcing.
   Finite pressure far-tail is energy-controlled in Linfty(I).
-  The remainder-remainder pressure term contributes C_press X_exc^(1/2) N.
+  The quadratic residual pressure term contributes C_press X_exc^(1/2) N.
 ```
 
 Compact receiver chain:

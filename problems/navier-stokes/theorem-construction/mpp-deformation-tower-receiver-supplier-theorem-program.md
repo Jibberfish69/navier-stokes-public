@@ -2054,11 +2054,12 @@ packet `\mathcal P_{\le m}^{ctr,nat}\in L^1(I)` gives
 `K0.Core + E1.Aff + Kmid.Core\in L^1(I)`, hence
 `\mathcal K_{\le m}^{ctr}\in L^1(I)`. The pressure pieces are routed first
 through the `ACT.X-Press_cell` component of `NKF.Native` in residual form:
-define the affine model pressure
-`p_j^{aff}` for the pure affine source and set
+define the native affine normal-form pressure `p_j^{aff}` by matching the
+center-cell functionals of the affine and affine-linear pressure modes, then set
 `\pi_j^{loc}=p_j^{loc}-p_j^{aff}`. The cell theorem controls the
-`\pi_j^{loc}` center derivatives plus harmonic/far-tail terms, so the pure
-`A_j^2` pressure never enters `ACT.Kcore` as pre-core forcing. The energy
+`\pi_j^{loc}` center derivatives plus harmonic/far-tail terms, so neither the
+pure `A_j^2` pressure nor the `A_jw_j` cross coefficient enters `ACT.Kcore` as
+pre-core forcing. The energy
 pressure estimate is `ACT.X-Press_energy` after `ACT.Actr_core` is available.
 The harmonic tails are energy-controlled;
 the lower viscous recycle is core-controlled, while the `m+1,m+2` viscous line
@@ -2196,12 +2197,13 @@ LCI.A.
 
 The sharp proof order is now `NKF.Native => NKF.A => ACT.Kcore => ACT.Actr_core
 => ACT.X-Press_energy`, with `ACT.X-Press_cell` reading the residual pressure
-`\pi_j^{loc}=p_j^{loc}-p_j^{aff}` rather than raw local pressure. Then the seed bridge `ACT.X-Scale` and the
+`\pi_j^{loc}=p_j^{loc}-p_j^{aff}` after native affine normal-form
+normalization rather than raw local pressure. Then the seed bridge `ACT.X-Scale` and the
 readout-compatibility bridge `RWS.C_scale`. `ACT.X-Cut` is the structurally
 favorable companion estimate. `ACT.X-Press_energy` is recorded as the affine
-local pressure decomposition after the affine model pressure has been removed:
-affine-remainder terms enter `epsilon N+L_press X_exc`, and
-remainder-remainder terms produce `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`
+local pressure decomposition after affine and affine-linear pressure modes have
+been annihilated in the center-cell functionals: the quadratic residual produces
+`C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`
 for the same scale-small bootstrap as the cutoff term. The finite pressure
 far-tail ledger is energy-controlled in `L^\infty(I)\subset L^1(I)`, and
 top-viscous buffer modes are read through `Y_read`, not promoted into

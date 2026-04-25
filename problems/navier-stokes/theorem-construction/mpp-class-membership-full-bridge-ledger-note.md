@@ -1139,8 +1139,9 @@ ACT.Kcore.
 Here `K0.Core` supplies the residual pressure-gradient/harmonic split
 `\sum_j|\nabla\pi_j^{loc}(c_j)|+\sum_j|\nabla h_j(c_j)|
 +\nu\sum_j|U_2(c_j)|`, where
-`\pi_j^{loc}=p_j^{loc}-p_j^{aff}` and the pure affine pressure has been moved
-into the affine model. `E1.Aff` supplies the corresponding residual/harmonic
+`\pi_j^{loc}=p_j^{loc}-p_j^{aff}` and `p_j^{aff}` is the native affine
+normal-form pressure: its center-cell functionals match the affine and
+affine-linear pressure modes. `E1.Aff` supplies the corresponding residual/harmonic
 pressure Hessian and `\nu U_3` terms in `\mathcal E_j^{(1)}`, and `Kmid.Core`
 supplies the residual pressure center forcing plus the viscous forcing split.
 The lower viscous part is core-controlled; the
@@ -1171,8 +1172,10 @@ ACT.Actr_{\mathrm{core}}.
 
 The pressure parts of `K0.Core`, `E1.Aff`, and `Kmid.Core` are assigned first to
 `ACT.X-Press_cell` in residual form: the cell ledger controls
-`\pi_j^{loc}=p_j^{loc}-p_j^{aff}` plus harmonic/far-tail terms, not the raw
-local pressure. After `ACT.Actr_core` is available, `ACT.X-Press_energy` may
+`\pi_j^{loc}=p_j^{loc}-p_j^{aff}` plus harmonic/far-tail terms, with
+`p_j^{aff}` annihilating both affine and affine-linear center pressure modes.
+The remaining core pressure is quadratic in affine excess; the cutoff support is
+isolated in the annular pressure ledger. After `ACT.Actr_core` is available, `ACT.X-Press_energy` may
 spend `\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I)` and contributes the
 `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N` term to the bootstrap.
 
@@ -1383,12 +1386,13 @@ The next theorem-facing proof targets are `NKF.Native / ACT.Kcore`, `ACT.X-Scale
 and `RWS.C_scale`.
 In the sharpened ledger, pressure is split into `ACT.X-Press_cell` and
 `ACT.X-Press_energy`. The cell form supplies the residual pressure cells in
-`ACT.Kcore` after subtracting the affine model pressure
-`p_j^{aff}` from `p_j^{loc}`. The energy form is the same residual affine local
-pressure decomposition: affine-remainder terms enter
-`epsilon N+L_press X_exc`, remainder-remainder terms produce the scale-small
-pressure residue `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`, and the pure
-affine pressure is part of the model frame rather than a pre-core forcing term;
+`ACT.Kcore` after subtracting the native affine normal-form pressure
+`p_j^{aff}` from `p_j^{loc}`. The normal form removes both pure affine and
+affine-linear pressure modes, so the residual core is quadratic in affine
+excess plus annular/far-tail terms. The energy form is the same residual local
+pressure decomposition: the quadratic core produces the scale-small pressure
+residue `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`, while the annular and
+harmonic parts enter `epsilon N+L_press X_exc+F_press`;
 the finite pressure far-tail ledger is energy-controlled in
 `L^\infty(I)\subset L^1(I)`. The top-viscous endpoint reads `m+1,m+2` through
 `A_buf` inside `Y_read`, not through `ACT.Actr_core`. It may not spend `LCI.A`,

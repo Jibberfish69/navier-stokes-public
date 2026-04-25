@@ -1789,46 +1789,63 @@ p=p_j^{loc}+h_j,
 \tag{DTC.AFF-Kcore1b2}
 ```
 
-Define the affine model pressure by
+Define the native affine pressure model by matching center-cell functionals,
+not merely by solving for the pure affine polynomial pressure. Let
 
 ```math
--\Delta p_j^{aff}
-=
-\partial_a\partial_b
-\left(u_{j,a}^{aff}u_{j,b}^{aff}\right)
+\Lambda_{r,j}f:=\nabla^r f(c_j).
 \tag{DTC.AFF-Kcore1b3}
 ```
 
-on the fixed pressure ball, with the same polynomial normalization used in the
-affine-frame equation. Define the residual local pressure
+The normal-form pressure `p_j^{aff}` is defined by
 
 ```math
-\pi_j^{loc}:=p_j^{loc}-p_j^{aff}.
+\Lambda_{r,j}p_j^{aff}
+=
+\Lambda_{r,j}
+(-\Delta)^{-1}\partial_a\partial_b
+\left[
+\eta_j
+\left(
+u_j^{aff}\otimes u_j^{aff}
++
+2u_j^{aff}\odot w_j
+\right)
+\right],
+\qquad
+0\le r\le m+1.
 \tag{DTC.AFF-Kcore1b4}
 ```
 
-Then the live local pressure source is
+Thus `p_j^{aff}` annihilates both the affine and affine-linear pressure modes in
+the center-cell functionals. Define
 
 ```math
--\Delta\pi_j^{loc}
-=
-\partial_a\partial_b
-\left(
-2\eta_j u_j^{aff}\odot w_j
-+
-\eta_j w_j\otimes w_j
-\right)
-+
-\mathcal R_j^{cut}.
+\pi_j^{loc}:=p_j^{loc}-p_j^{aff}.
 \tag{DTC.AFF-Kcore1b5}
 ```
 
-The cutoff source is supported in the annulus where `\nabla\eta_j` lives and is
-assigned to the fixed annular pressure ledger or the harmonic/far-tail ledger.
-This affine subtraction is the key pressure-core rule: the pure affine
-`A_j^2` pressure is part of the model frame, not a pre-core forcing term.
+The native residual cell identity is
 
-with
+```math
+\Lambda_{r,j}\pi_j^{loc}
+=
+\Lambda_{r,j}
+(-\Delta)^{-1}\partial_a\partial_b
+\left(\eta_j w_j\otimes w_j\right)
++
+\Lambda_{r,j}\Pi_j^{ann},
+\qquad
+0\le r\le m+1.
+\tag{DTC.AFF-Kcore1b6}
+```
+
+Here `\Pi_j^{ann}` contains all cutoff-derivative contributions and all support
+outside the core pressure ball. This is the noncircular pressure-core rule:
+the `A_jw_j` cross coefficient is removed from the cell estimate, so
+`ACT.X-Press_cell` does not spend `ACT.Actr_core`.
+
+With
 
 ```math
 \mathcal P_{\le m}^{cell}
@@ -1844,18 +1861,60 @@ with
 \tag{DTC.AFF-Kcore1c}
 ```
 
-The residual local cell response is
+The annular cutoff ledger is defined by
 
 ```math
-|\nabla^{q+1}\pi_j^{loc}(c_j)|
+\mathcal P_{\mathfrak p}^{ann}(t)
+:=
+\sum_j
+\sum_{r=0}^{m+1}
+\sum_{|\gamma|\le r}
+\left\|
+\nabla^\gamma
+\left[
+u_j^{aff}\otimes u_j^{aff}
++
+2u_j^{aff}\odot w_j
++
+w_j\otimes w_j
+\right]
+\right\|_{L^1(A_j^{ann})},
+\qquad
+A_j^{ann}:=\operatorname{supp}\nabla\eta_j.
+\tag{DTC.AFF-Kcore1d}
+```
+
+Since `A_j^{ann}` is separated from the center by a fixed fraction of the
+pressure radius, the pressure kernel is smooth there, and
+
+```math
+\mathcal P_{\mathfrak p}^{ann}\in L^1(I)
+\Longrightarrow
+\sum_{j,r}|\Lambda_{r,j}\Pi_j^{ann}|\in L^1(I).
+\tag{DTC.AFF-Kcore1d1}
+```
+
+For the native residual core, define `\pi_j^{quad}` by
+
+```math
+-\Delta\pi_j^{quad}
+=
+\partial_a\partial_b(\eta_j w_{j,a}w_{j,b}).
+\tag{DTC.AFF-Kcore1d2}
+```
+
+Fixed-ball Calderon-Zygmund plus the finite product estimate gives, for the
+finite pressure-cell range,
+
+```math
+|\nabla^r\pi_j^{quad}(c_j)|
 \le
 C_{\mathfrak p}
-\left\|
-2u_j^{aff}\odot w_j+w_j\otimes w_j
-\right\|_{H^{q+1}(B_j)}
-+
-C_{\mathfrak p}\|\mathcal R_j^{cut}\|_{H^{q-1}}.
-\tag{DTC.AFF-Kcore1d}
+\|w_j\otimes w_j\|_{H^{r+1}(B_j)}
+\le
+C_{\mathfrak p}
+X_{exc}^{1/2}N^{1/2}.
+\tag{DTC.AFF-Kcore1d3}
 ```
 
 The harmonic/far-tail ledger satisfies
@@ -1864,32 +1923,40 @@ The harmonic/far-tail ledger satisfies
 \mathcal T_{\le m}^{press,far}
 \le
 C_{\mathfrak p,R}\|u(\cdot,t)\|_{L^2}^2
-\in L^\infty(I).
+\in L^\infty(I)\subset L^1(I).
 \tag{DTC.AFF-Kcore1e}
 ```
 
-Thus the pressure-cell ledger is the pressure input behind `ACT.Kcore`; the
-energy form of the pressure theorem is used only after `ACT.Actr_core` is
-available.
-
-Equivalently, after the affine model pressure has been subtracted,
+Combining the quadratic residual estimate, annular ledger, and far-tail bound,
 
 ```math
 \mathcal P_{\le m}^{cell}
 \le
-P_{aff\text{-}res}^{cell}
+C_{\mathfrak p}X_{exc}^{1/2}N^{1/2}
 +
-P_{excess}^{cell}
+C_{\mathfrak p}\mathcal P_{\mathfrak p}^{ann}
 +
-P_{tail}^{cell},
-\qquad
-P_{tail}^{cell}\in L^1(I),
+C_{\mathfrak p}\|u(\cdot,t)\|_{L^2}^2.
 \tag{DTC.AFF-Kcore1f}
 ```
 
-with the affine-residual and excess pieces carried by the direct affine pressure-response
-theorem. This is the live local fixed-ball pressure response behind both
-`ACT.X-Press_cell` and, after `ACT.Actr_core`, `ACT.X-Press_energy`.
+Therefore the cell theorem is
+
+```math
+X_{exc}\in L^\infty(I),
+\qquad
+N\in L^1(I),
+\qquad
+\mathcal P_{\mathfrak p}^{ann}\in L^1(I)
+\Longrightarrow
+\mathcal P_{\le m}^{cell}\in L^1(I).
+\tag{DTC.AFF-Kcore1g}
+```
+
+This is the pressure component of `NKF.Native`: the center pressure-cell
+functionals annihilate the affine and affine-linear source modes, leaving only
+quadratic affine excess plus annular/far-tail terms. The energy form of the
+pressure theorem is used only after `ACT.Actr_core` is available.
 
 The zero-rung supplier is
 
