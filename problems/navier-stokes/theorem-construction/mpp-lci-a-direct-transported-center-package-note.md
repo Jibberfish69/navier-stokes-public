@@ -4287,8 +4287,9 @@ ULCI(\mathscr P_{\rm req}).
 \tag{DTC.37}
 ```
 
-Consequently the receiver side is formal after the simultaneous `ACT.KX` package
-in `(DTC.36b)` is installed for every required parameter instance. The
+Consequently the receiver side is formal after the ordered `ACT.KX` package in
+`(DTC.36b-1)`--`(DTC.36b-3)` is installed for every required parameter
+instance. The
 source-side and endpoint-side packets are now separately promoted under the
 post-`LCI.A` source hypotheses and accepted endpoint certificates:
 
@@ -4304,7 +4305,7 @@ END.Exh+END.Cross+Pack/Part/Field\text{ endpoint matrix}.
 The full terminal ledger is therefore:
 
 ```math
-RSCB.NKF
+ACT.KX
 \Longrightarrow
 ACT.A
 \Longrightarrow
