@@ -413,8 +413,12 @@ closure_ecology:
         The pre-pressure center-amplitude rule is now ACT.Actr_core:
         K_le_m^ctr in L1(I) implies A_core^ctr in Linfty(I). K_le_m^ctr consists
         of K_0(c_j), the first-rung affine-frame acceleration E_j^(1), and
-        transformed lower-rung forcings Ktilde_{q,j} for 2<=q<=m. The m+1 and
-        m+2 modes are buffer/readout modes; proving them before ACT.X-Boot would
+        transformed lower-rung forcings Ktilde_{q,j} for 2<=q<=m. The named
+        supplier is ACT.Kcore = K0.Core + E1.Aff + Kmid.Core: pressure is routed
+        through ACT.X-Press/local response, lower viscous recycle is
+        core-controlled, and the top-viscous m+1,m+2 line is forcing/readout,
+        not pre-pressure A_buf amplitude. The m+1 and m+2 modes are
+        buffer/readout modes; proving them before ACT.X-Boot would
         require the optional top forcing sum_{q=m+1}^{m+2}|Ktilde_q|^2 in L1(I)
         and risks rung creep.
       act_x_press_rule: >-

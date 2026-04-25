@@ -1564,6 +1564,108 @@ the direct lower center-forcing statement `\mathcal K_{\le m}^{ctr}\in L^1(I)`,
 with finite seed center data and `\Gamma_\sharp\in L^\infty(I)` kept as explicit
 inputs.
 
+Name the supplier for this forcing ledger:
+
+```math
+ACT.Kcore:
+\quad
+\mathcal K_{\le m}^{ctr}\in L^1(I).
+\tag{DTC.AFF-Kcore0}
+```
+
+Its native split is
+
+```math
+ACT.Kcore
+=
+K0.Core
++
+E1.Aff
++
+Kmid.Core.
+\tag{DTC.AFF-Kcore1}
+```
+
+The zero-rung supplier is
+
+```math
+K0.Core:
+\quad
+\sum_j|\nabla p(c_j)|
++
+\nu\sum_j|U_2(c_j)|
+\in L^1(I).
+\tag{DTC.AFF-Kcore2}
+```
+
+The first-rung affine supplier is
+
+```math
+E1.Aff:
+\quad
+\sum_j|\nabla^2p_j^{loc}(c_j)|
++
+\sum_j|\nabla^2h_j(c_j)|
++
+\nu\sum_j|U_3(c_j)|
+\in L^1(I).
+\tag{DTC.AFF-Kcore3}
+```
+
+The lower center forcing supplier is
+
+```math
+Kmid.Core:
+\quad
+K_{\mathrm{press},\le m}^{ctr}
++
+K_{\mathrm{visc},core}^{ctr}
++
+K_{\mathrm{visc},top}^{ctr}
+\in L^1(I).
+\tag{DTC.AFF-Kcore4}
+```
+
+Here
+
+```math
+K_{\mathrm{press},\le m}^{ctr}
+:=
+\sum_{q=2}^{m}
+\sum_j
+|\mathcal C_{G_j}^{-1}\nabla^{q+1}p(c_j)|
+\tag{DTC.AFF-Kcore5}
+```
+
+belongs to `ACT.X-Press`,
+
+```math
+K_{\mathrm{visc},core}^{ctr}
+:=
+\nu
+\sum_{q=2}^{m-2}
+\sum_j
+|\mathcal C_{G_j}^{-1}\Delta U_q(c_j)|
+\tag{DTC.AFF-Kcore6}
+```
+
+is core-controlled through the `q+2` rungs, and
+
+```math
+K_{\mathrm{visc},top}^{ctr}
+:=
+\nu\sum_j
+\left(
+|U_{m+1}(c_j)|
++
+|U_{m+2}(c_j)|
+\right)
+\tag{DTC.AFF-Kcore7}
+```
+
+is a forcing/readout supplier, not a pre-pressure amplitude ledger. This is the
+point of the core/buffer split: `A_buf` is not promoted to `ACT.Actr_core`.
+
 Let
 
 ```math

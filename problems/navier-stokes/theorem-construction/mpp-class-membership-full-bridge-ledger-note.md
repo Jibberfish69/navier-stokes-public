@@ -1115,6 +1115,25 @@ where
 \tag{ACT.X7c}
 ```
 
+The named supplier for this ledger is:
+
+```math
+ACT.Kcore:
+\quad
+K0.Core+E1.Aff+Kmid.Core
+\Longrightarrow
+\mathcal K_{\le m}^{ctr}\in L^1(I).
+\tag{ACT.X7d}
+```
+
+Here `K0.Core` supplies `\sum_j|\nabla p(c_j)|+\nu\sum_j|U_2(c_j)|`,
+`E1.Aff` supplies the local/harmonic pressure Hessian and `\nu U_3` terms in
+`\mathcal E_j^{(1)}`, and `Kmid.Core` supplies the pressure center forcing plus
+the viscous forcing split. The lower viscous part is core-controlled; the
+top-viscous line
+`\nu\sum_j(|U_{m+1}(c_j)|+|U_{m+2}(c_j)|)` is carried as forcing/readout, not
+as a pre-pressure `A_buf` amplitude ledger.
+
 The top buffer modes `m+1,m+2` are readout/top-viscous modes inside
 `\mathcal Y^{read}=\mathcal A_{\mathrm{core}}^{ctr}
 +\mathcal A_{\mathrm{buf}}^{ctr}+\mathcal X^{exc}`. Proving them before

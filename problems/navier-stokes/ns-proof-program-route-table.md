@@ -251,6 +251,12 @@ ACT.Actr_core:
 K_le_m^ctr:
   K_0(c_j) + E_j^(1) + Ktilde_{q,j}, 2 <= q <= m.
 
+ACT.Kcore:
+  K0.Core + E1.Aff + Kmid.Core => K_le_m^ctr in L1(I).
+  Pressure is routed through ACT.X-Press/local response.
+  Lower viscous recycle is core-controlled.
+  The top-viscous m+1,m+2 line is forcing/readout, not A_buf amplitude.
+
 A_buf^ctr:
   contains the m+1 and m+2 readout/top-viscous buffer modes.
   It is recovered through Y_read after ACT.X-Boot. A pre-boot proof would

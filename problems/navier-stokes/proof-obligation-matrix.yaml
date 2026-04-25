@@ -1008,7 +1008,9 @@ obligations:
     `K_{\le m}^{ctr} in L^1(I) => A_core^ctr in L^\infty(I)`. The top
     `m+1,m+2` modes are `A_buf^ctr` readout/top-viscous buffer data, not
     pre-pressure Gronwall data unless an optional stronger top-forcing route is
-    chosen. `ACT.X-Press` is reduced to the local fixed-ball pressure response
+    chosen. The named supplier is `ACT.Kcore = K0.Core + E1.Aff + Kmid.Core`;
+    its top-viscous line is forcing/readout, not pre-pressure `A_buf` amplitude.
+    `ACT.X-Press` is reduced to the local fixed-ball pressure response
     plus a `C_press X_exc^(1/2) N` scale-small term; the finite pressure
     far-tail is energy-controlled in `L^\infty(I)`. `ACT.X-Boot` must absorb
     `(C_cut+C_press)X_exc^(1/2)N`. It spends no `LCI.A`, `CSP.A`, `OFP.A`, or

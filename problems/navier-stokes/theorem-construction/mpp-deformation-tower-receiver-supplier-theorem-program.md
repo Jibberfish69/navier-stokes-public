@@ -2049,6 +2049,11 @@ ACT.Actr_{\mathrm{core}}:
 where `\mathcal K_{\le m}^{ctr}` collects the zero-rung forcing `K_0(c_j)`,
 the first-rung affine-frame acceleration `\mathcal E_j^{(1)}`, and the
 transformed lower-rung forcings `\widetilde K_{q,j}` for `2\le q\le m`.
+The supplier theorem is `ACT.Kcore`: `K0.Core + E1.Aff + Kmid.Core` gives
+`\mathcal K_{\le m}^{ctr}\in L^1(I)`. The pressure pieces are routed through
+the local fixed-ball pressure response and energy-controlled harmonic tails;
+the lower viscous recycle is core-controlled, while the `m+1,m+2` viscous line
+is carried as forcing/readout, not as a pre-pressure `A_buf` amplitude ledger.
 The top modes belong to
 `\mathcal Y^{read}=\mathcal A_{\mathrm{core}}^{ctr}
 +\mathcal A_{\mathrm{buf}}^{ctr}+\mathcal X^{exc}`. Proving them before
