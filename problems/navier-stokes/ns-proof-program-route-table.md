@@ -263,10 +263,9 @@ ACT.Kcore:
   The top-viscous m+1,m+2 line is forcing/readout, not A_buf amplitude.
 
 Routing:
-  RSCB.NKF => NKF.Moll + NKF.Point => NKF.Native.
-  NKF.Native + NKF.Ann + NKF.Quad + ACT.X-Cut + ACT.X-Press_energy
-  + ACT.X-MidRaw + ACT.X-TopVisc + ACT.X-Scale + RWS.C_scale => ACT.KX.
-  ACT.KX => ACT.X-Press_cell => ACT.Kcore => ACT.Actr_core.
+  NKF.Native + NKF.Ann + NKF.Quad => ACT.X-Press.
+  ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX.
+  ACT.KX + ACT.X-Scale + RWS.C_scale => ACT.X-Readout => ACT.A.
 
 A_buf^ctr:
   contains the m+1 and m+2 readout/top-viscous buffer modes.
@@ -275,7 +274,7 @@ A_buf^ctr:
   risks rung creep.
 
 ACT.X-Press_cell:
-  post-bootstrap finite residual pressure-cell ledger P_le_m^cell in L1(I),
+  post-ACT.KX finite residual pressure-cell ledger P_le_m^cell in L1(I),
   controlling
   pi_j^loc=p_j^loc-p_j^aff by a quadratic affine-excess core plus
   projected annular/harmonic/far-tail terms after X_exc in Linfty and N in L1 are known.
