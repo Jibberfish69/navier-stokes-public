@@ -1646,9 +1646,86 @@ NKF.Native:
 ```
 
 Finite energy and the pressure Poisson equation alone do not supply this
-pointwise center packet. `NKF.Native` must come from retained smooth center-ball
-regularity plus direct local pressure/viscous response, without spending
-`ACT.Actr_core`, `AXP.A`, `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
+pointwise center packet. The noncircular replacement is a mollified forcing
+bridge plus retained smooth point recovery:
+
+```math
+NKF.Moll:
+\quad
+\mathcal K_{\le m}^{ctr,[r]}\in L^1(I_r),
+\qquad
+NKF.Point:
+\quad
+\mathcal K_{\le m}^{ctr,[r]}\to\mathcal K_{\le m}^{ctr}
+\text{ in }L^1(I_r),
+\tag{DTC.AFF-NKF4a}
+```
+
+where `\mathcal K_{\le m}^{ctr,[r]}` is obtained by testing `K_q` against
+transported mollifiers
+
+```math
+\varphi_{j,r}(x,t)=r^{-3}\varphi((x-c_j(t))/r).
+\tag{DTC.AFF-NKF4b}
+```
+
+For the pressure part,
+
+```math
+P_{q,j}^{[r]}
+:=
+\int \varphi_{j,r}\nabla^{q+1}p
+=
+(-1)^{q+1}\int \nabla^{q+1}\varphi_{j,r}\,p,
+\tag{DTC.AFF-NKF4c}
+```
+
+and the local split `p=p_{j,r}^{loc}+h_{j,r}` gives a fixed-radius Calderon-Zygmund
+response for the local term and the energy-controlled far-tail estimate
+
+```math
+|\nabla^{q+1}h_{j,r}|
+\le
+C_{q,r}\|u(\cdot,t)\|_{L^2}^2.
+\tag{DTC.AFF-NKF4d}
+```
+
+For the viscous part,
+
+```math
+\nu\int\varphi_{j,r}\Delta U_q
+=
+\nu\int\Delta\varphi_{j,r}\,U_q,
+\tag{DTC.AFF-NKF4e}
+```
+
+so retained smooth center-ball regularity gives the local `L^1_t` bound for
+the mollified ledger on each retained window. Finally, retained smoothness gives
+
+```math
+|K_q(c_j,t)-K_{q,j}^{[r]}(t)|
+\le
+C r^\alpha [K_q(\cdot,t)]_{C^{0,\alpha}(B(c_j,r))}
+\tag{DTC.AFF-NKF4f}
+```
+
+and the retained-window radius is chosen so the `L^1_t` error is arbitrarily
+small. Thus
+
+```math
+NKF.Moll+NKF.Point
+\Longrightarrow
+NKF.Native
+\Longrightarrow
+NKF.A
+\Longrightarrow
+ACT.Kcore.
+\tag{DTC.AFF-NKF4g}
+```
+
+This route uses retained smooth center-ball regularity plus direct local
+pressure/viscous response, without spending `ACT.Actr_core`, `AXP.A`, `LCI.A`,
+`CSP.A`, `OFP.A`, or `Field`.
 
 The pressure-core dependency order is:
 

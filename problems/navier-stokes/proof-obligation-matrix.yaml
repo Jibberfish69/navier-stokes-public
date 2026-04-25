@@ -1019,7 +1019,11 @@ obligations:
     pre-pressure supplier needed for `ACT.Actr_core`.
     `NKF.Native` is the remaining native pointwise center pressure/viscous
     forcing theorem; finite energy plus pressure Poisson response alone does
-    not supply those center derivatives.
+    not supply those center derivatives. The installed route to `NKF.Native`
+    is `NKF.Moll + NKF.Point`: prove a mollified transported-center forcing
+    ledger from local pressure response, finite-energy far tails, and viscous
+    integration by parts, then recover point-center forcing by retained
+    smoothness at the restart scale.
     Pressure is split into `ACT.X-Press_cell` and `ACT.X-Press_energy`. The cell
     form supplies the residual pressure-cell ledger behind `ACT.Kcore`: the
     affine model pressure `p_j^aff` is subtracted from `p_j^loc`, and the cell
