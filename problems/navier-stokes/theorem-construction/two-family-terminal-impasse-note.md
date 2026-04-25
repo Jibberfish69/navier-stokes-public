@@ -145,9 +145,12 @@ not as:
 The unified-survivor candidate in
 [mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md)
 reframes the bridge obligations below as attempts to construct one common
-source `\mathcal S_\ast^{h/F}` whose lower-prefix and gap-kernel projections are
-Family A and Family B. This does not close the bridge obligations; it gives
-them a sharper target.
+source `\mathbb S_\ast^{h/F}=(J_\ast,M_\ast)` whose lower-prefix and gap-kernel
+projections are Family A and Family B. Its scalar trace
+`\mathcal S_\ast^{h/F}=\operatorname{tr}M_\ast` records positive mass, while
+`J_\ast` and `M_\ast` carry the signed and tensor readouts needed by
+`(B1)`--`(B3)`. This does not close the bridge obligations; it gives them a
+sharper target.
 
 ## Bridge obligation I: signed-to-affine collapse
 
@@ -258,10 +261,10 @@ The conditional unified-survivor theorem packet audit now records the promoted
 version of this wall as
 [mpp-unified-survivor-conditional-theorem-packet-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-unified-survivor-conditional-theorem-packet-audit-note.md):
 if `(B1)`, `(B2)`, and `(B3)` are proved as lawful atlas bridges into
-`\mathcal S_\ast^{h/F}`, then
+`\mathbb S_\ast^{h/F}`, then
 
 ```math
-Family\ A=Family\ B=[\mathcal S_\ast^{h/F}]
+Family\ A=Family\ B=[\mathbb S_\ast^{h/F}]
 \quad\text{in}\quad
 \pi_0(\mathsf{Surv}).
 \tag{TFI.1}

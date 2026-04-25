@@ -150,6 +150,61 @@ In plain route language:
 \tag{USS.12}
 ```
 
+## Enhanced Survivor Refinement
+
+The scalar measure `\mathcal S_\ast^{h/F}` is not enough to carry all terminal
+readouts. It remembers positive defect mass, but it forgets signed and
+tensorial data. The theorem-facing survivor should therefore be the enhanced
+packet
+
+```math
+\boxed{
+\mathbb S_\ast^{h/F}:=(J_\ast,M_\ast).
+}
+\tag{USS.12a}
+```
+
+For a licensed logarithmic schedule, set
+
+```math
+V_n(a,\omega,\theta)
+:=
+\frac{\mathfrak D_{h/F}(a,r_n(\theta)\omega,t_n)}{r_n(\theta)}.
+\tag{USS.12b}
+```
+
+Then define vector and tensor Radon measures
+
+```math
+J_n:=V_n\,da\,d\omega\,d\theta,
+\qquad
+M_n:=V_n\otimes V_n\,da\,d\omega\,d\theta.
+\tag{USS.12c}
+```
+
+The finite `L^2` defect budget gives bounded total variation for `M_n`, and on
+the finite base packet also for `J_n` by Cauchy--Schwarz. Therefore, after
+subsequence extraction,
+
+```math
+J_n\stackrel{*}{\rightharpoonup}J_\ast,
+\qquad
+M_n\stackrel{*}{\rightharpoonup}M_\ast.
+\tag{USS.12d}
+```
+
+The old scalar survivor is the trace shadow:
+
+```math
+\mathcal S_\ast^{h/F}=\operatorname{tr}M_\ast.
+\tag{USS.12e}
+```
+
+This refinement is the correct common source object for signed gap-kernel,
+quadratic gap-flux, affine-moment, shell-stress, and selector readouts. Signed
+or cancellation-sensitive readouts factor through `J_\ast`; positive quadratic
+and stressified readouts factor through `M_\ast`.
+
 ## Relation To Existing Packets
 
 ### Pack Readout

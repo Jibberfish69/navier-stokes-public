@@ -56,9 +56,10 @@ or consume it.
 
 The carrier comparison language for this ledger is now fixed by
 [mpp-survivor-equivalence-atlas-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-survivor-equivalence-atlas-note.md).
-The current candidate for the unified survivor itself is the terminal
-finite--infinitesimal separation defect measure
-`\mathcal S_\ast^{h/F}` in
+The current candidate for the unified survivor itself is the enhanced terminal
+finite--infinitesimal separation survivor
+`\mathbb S_\ast^{h/F}=(J_\ast,M_\ast)`, with scalar trace
+`\mathcal S_\ast^{h/F}=\operatorname{tr}M_\ast`, in
 [mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md).
 
 Each entry below should be read as a packet

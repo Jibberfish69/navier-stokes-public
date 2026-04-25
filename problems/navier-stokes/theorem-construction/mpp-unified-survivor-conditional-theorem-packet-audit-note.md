@@ -558,3 +558,285 @@ ACT.KX,\quad FPCR.C+FSCR.C+FCC.C1,\quad
 In plain route language: the completion packet is a good assembly plan, but it
 has not yet solved the unified survivor representation theorem or the
 two-family collapse theorem. Those are the live mathematical atoms.
+
+## Sharpened Correction `USCP.Q`
+
+The enhanced-survivor correction repairs the main defect in the previous scalar
+packet. The correct terminal object is not only the scalar trace measure
+`\mathcal S_\ast^{h/F}` but the vector/tensor survivor
+
+```math
+\boxed{
+\mathbb S_\ast^{h/F}:=(J_\ast,M_\ast),
+\qquad
+\mathcal S_\ast^{h/F}=\operatorname{tr}M_\ast.
+}
+\tag{USCP.Q0}
+```
+
+For
+
+```math
+V_n(a,\omega,\theta)
+:=
+\frac{D_{h/F}(a,r_n(\theta)\omega,t_n)}{r_n(\theta)},
+\tag{USCP.Q1}
+```
+
+set
+
+```math
+J_n:=V_n\,da\,d\omega\,d\theta,
+\qquad
+M_n:=V_n\otimes V_n\,da\,d\omega\,d\theta.
+\tag{USCP.Q2}
+```
+
+The same finite defect budget that gives `(USCP.S2)` gives weak-star compactness
+for `M_n`; since the base scale packet has finite measure, it also gives
+bounded total variation for `J_n`. Hence, after subsequence extraction,
+
+```math
+J_n\stackrel{*}{\rightharpoonup}J_\ast,
+\qquad
+M_n\stackrel{*}{\rightharpoonup}M_\ast.
+\tag{USCP.Q3}
+```
+
+This repairs the signed/quadratic split:
+
+```math
+\text{signed readouts factor through }J_\ast,
+\qquad
+\text{quadratic and stress readouts factor through }M_\ast.
+\tag{USCP.Q4}
+```
+
+### Corrected `USCP.A2^\sharp`
+
+The nonzero-survival argument should be contrapositive:
+
+```math
+USCP.A2^\sharp:
+\qquad
+\mathcal S_\ast^{h/F}=0
+\Longrightarrow
+Pack\wedge Field
+\tag{USCP.Q5}
+```
+
+on the same still-live family. Together with the installed participation line,
+this gives
+
+```math
+\mathcal S_\ast^{h/F}=0
+\Longrightarrow
+Pack\wedge Part\wedge Field
+\Longrightarrow
+CM.
+\tag{USCP.Q6}
+```
+
+Therefore a first class exit forces nonzero `h/F` survivor mass, provided the
+two restoration lemmas below are installed.
+
+The pack restoration lemma is:
+
+```math
+USCP.A2\text{-}Pack:
+\quad
+\frac{D_{h/F}}{|r|}\to0
+\text{ on every licensed terminal scale window}
+\Longrightarrow
+Pack_Q(u,\Phi).
+\tag{USCP.Q7}
+```
+
+This is a native Pack-row theorem. It must say that terminal
+finite--infinitesimal compatibility restores the pack gauge, not merely that
+one scalar integral vanishes on one chosen subsequence.
+
+The field restoration lemma is:
+
+```math
+USCP.A2\text{-}Field:
+\quad
+\frac{D_{h/F}}{|r|}\to0
++
+\text{native segment tower coefficient control}
+\Longrightarrow
+Field_{N,r,Q}(u,p).
+\tag{USCP.Q8}
+```
+
+The formal identity
+
+```math
+\delta_hU_k-\delta_{Fr}U_k
+=
+\int_0^1\nabla U_k(x+Fr+sD_{h/F})\cdot D_{h/F}\,ds
+\tag{USCP.Q9}
+```
+
+is not enough by itself. The whole segment must remain inside the retained
+packet and the segment coefficient must be controlled in the tower-readout
+topology. With `(USCP.Q7)` and `(USCP.Q8)`, the circularity in the old
+`USCP.A2` argument is removed.
+
+### Corrected `USCP.B^\sharp`
+
+The branch-projection theorem now splits into direct, dominated, and visible
+readouts.
+
+Pack and affine/deformation are direct:
+
+```math
+D_{h/F}\neq0
+\Longrightarrow
+\text{failure of finite--infinitesimal separation coherence},
+\tag{USCP.Q10}
+```
+
+and
+
+```math
+\frac{D_{h/F}}{|r|}
+=
+\int_0^1(F(a+sr)-F(a))\frac{r}{|r|}\,ds.
+\tag{USCP.Q11}
+```
+
+The tower bridge is lawful under the native segment coefficient bound:
+
+```math
+\int_0^1
+|\nabla U_k(x+Fr+sD_{h/F})|^2\,ds
+\le C_k
+\tag{USCP.Q12}
+```
+
+on the same retained packet. Then
+
+```math
+\frac{|R_k|^2}{|r|^2}
+\le
+C_k\frac{|D_{h/F}|^2}{|r|^2},
+\qquad
+R_k:=\delta_hU_k-\delta_{Fr}U_k.
+\tag{USCP.Q13}
+```
+
+Thus the tower residue measure is absolutely continuous with respect to
+`\operatorname{tr}M_\ast`. Nonzero field projection additionally requires the
+tower observability condition
+
+```math
+\sum_k\int\frac{|R_k|^2}{|r|^2}>0.
+\tag{USCP.Q14}
+```
+
+The selector bridge is lawful under the nondegenerate pack gauge
+
+```math
+c|r|\le |Fr|,\ |h|\le C|r|.
+\tag{USCP.Q15}
+```
+
+Then
+
+```math
+|P_h-P_F|_F^2
+\lesssim
+\frac{|D_{h/F}|^2}{|r|^2}.
+\tag{USCP.Q16}
+```
+
+Nonzero selector projection requires transverse visibility:
+
+```math
+\int
+\frac{|P_{(Fr)^\perp}D_{h/F}|^2}{|r|^2}>0.
+\tag{USCP.Q17}
+```
+
+Pure radial distortion remains visible to pack/tower readouts but may have zero
+selector shadow.
+
+### Corrected `USCP.C^\sharp`
+
+The enhanced survivor turns `(B1)`--`(B3)` into plausible atlas bridges instead
+of one-sided scalar inequalities.
+
+The signed gap-kernel bridge is:
+
+```math
+(B1)^\sharp:
+\qquad
+\mathsf G_\kappa=\langle\kappa,J_\ast\rangle
+\text{ factors through }\mathbb S_\ast^{h/F}.
+\tag{USCP.Q18}
+```
+
+The positive gap-flux bridge is:
+
+```math
+(B2)^\sharp:
+\qquad
+\mathsf{Flux}_K=\int K:dM_\ast
+\text{ is the quadratic square-shadow of }\mathbb S_\ast^{h/F}.
+\tag{USCP.Q19}
+```
+
+The shell stress bridge is:
+
+```math
+(B3)^\sharp:
+\qquad
+\mathsf{Shell}_\rho
+=
+\int_{|r|\simeq\rho}\omega\otimes\omega:dM_\ast.
+\tag{USCP.Q20}
+```
+
+These are real bridge shapes because the signed object and the quadratic
+object now share one enhanced source. They still require a
+carrier-identification check: the historical Family A and Family B packets must
+be proved to use these same `J_\ast,M_\ast`, the same scale schedule, and the
+same endpoint cell.
+
+The corrected collapse theorem is therefore:
+
+```math
+USCP.C^\sharp:
+\qquad
+(B1)^\sharp+(B2)^\sharp+(B3)^\sharp
++
+\text{same-carrier identification}
+\Longrightarrow
+Family\ A=Family\ B=[\mathbb S_\ast^{h/F}]
+\text{ in }\pi_0(\mathsf{Surv}).
+\tag{USCP.Q21}
+```
+
+## Corrected Master Theorem
+
+With the sharpened atoms installed, the master implication is:
+
+```math
+\boxed{
+USCP.A2^\sharp
++USCP.B^\sharp
++USCP.C^\sharp
++ACT.KX
++FPCR.C+FSCR.C+FCC.C1
++\mathsf{End}_{NS}
+\Longrightarrow
+\text{absence of terminal same-fluid class exit}.
+}
+\tag{USCP.Q22}
+```
+
+This is now the preferred formulation. The enhancement
+`\mathbb S_\ast^{h/F}=(J_\ast,M_\ast)` fixes the scalar-survivor information
+loss; the remaining live burdens are the native restoration, visibility, and
+same-carrier bridge checks named above.

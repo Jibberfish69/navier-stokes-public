@@ -190,6 +190,10 @@ DTC\text{-to-TowerBound}
 END.Exh
 +
 END.Cross
++
+END.Pack
++
+END.Field
 \Longrightarrow
 \mathsf{End}_{NS}.
 \tag{CFI.5d}

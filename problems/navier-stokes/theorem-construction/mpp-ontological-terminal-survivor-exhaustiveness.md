@@ -287,10 +287,12 @@ survivor class `\mathcal S_*`, and therefore:
 \tag{MTS.13}
 ```
 
-The current candidate realization of that common class is the terminal
-finite--infinitesimal separation defect measure
-`\mathcal S_\ast^{h/F}` in
+The current candidate realization of that common class is the enhanced terminal
+finite--infinitesimal separation survivor
+`\mathbb S_\ast^{h/F}=(J_\ast,M_\ast)` in
 [mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md).
+Its scalar trace is `\mathcal S_\ast^{h/F}=\operatorname{tr}M_\ast`, but the
+enhanced object keeps the signed and tensor data needed for `(B1)`--`(B3)`.
 The conditional theorem-packet audit for this candidate is
 [mpp-unified-survivor-conditional-theorem-packet-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-unified-survivor-conditional-theorem-packet-audit-note.md);
 it records that the collapse becomes theorem-grade only after `USCP.A`,
