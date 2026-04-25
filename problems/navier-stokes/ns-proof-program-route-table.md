@@ -253,13 +253,14 @@ K_le_m^ctr:
 
 ACT.Kcore:
   K0.Core + E1.Aff + Kmid.Core => K_le_m^ctr in L1(I).
-  Pressure is routed through ACT.X-Press/local response.
+  Pressure is routed first through ACT.X-Press_cell.
   Lower viscous recycle is core-controlled.
   The top-viscous m+1,m+2 line is forcing/readout, not A_buf amplitude.
 
 Routing:
+  ACT.X-Press_cell => ACT.Kcore.
   ACT.Kcore => ACT.Actr_core.
-  ACT.Actr_core + ACT.X-Press => AXE.2.
+  ACT.Actr_core + ACT.X-Press_energy => AXE.2.
 
 A_buf^ctr:
   contains the m+1 and m+2 readout/top-viscous buffer modes.
@@ -267,7 +268,10 @@ A_buf^ctr:
   require optional top forcing sum_{q=m+1}^{m+2}|Ktilde_q|^2 in L1(I), which
   risks rung creep.
 
-ACT.X-Press:
+ACT.X-Press_cell:
+  finite pressure-cell ledger P_le_m^cell in L1(I), feeding ACT.Kcore.
+
+ACT.X-Press_energy:
   ACT.Actr_core + local fixed-ball pressure response.
   Finite pressure far-tail is energy-controlled in Linfty(I).
   The remainder-remainder pressure term contributes C_press X_exc^(1/2) N.
@@ -293,7 +297,7 @@ ACT.Actr_core
 ```
 
 This is the proof plan, not a discharge. The next proof targets are
-`ACT.Actr_core`, `ACT.X-Press`, `ACT.X-Scale`, and `RWS.C_scale`.
+`ACT.X-Press_cell`, `ACT.X-Scale`, and `RWS.C_scale`.
 
 ## Exploratory Or Parked Branches
 

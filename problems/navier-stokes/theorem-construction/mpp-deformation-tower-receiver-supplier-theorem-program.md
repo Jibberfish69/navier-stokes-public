@@ -2050,18 +2050,30 @@ where `\mathcal K_{\le m}^{ctr}` collects the zero-rung forcing `K_0(c_j)`,
 the first-rung affine-frame acceleration `\mathcal E_j^{(1)}`, and the
 transformed lower-rung forcings `\widetilde K_{q,j}` for `2\le q\le m`.
 The supplier theorem is `ACT.Kcore`: `K0.Core + E1.Aff + Kmid.Core` gives
-`\mathcal K_{\le m}^{ctr}\in L^1(I)`. The pressure pieces are routed through
-the local fixed-ball pressure response and energy-controlled harmonic tails;
+`\mathcal K_{\le m}^{ctr}\in L^1(I)`. The pressure pieces are routed first
+through `ACT.X-Press_cell`; the energy pressure estimate is
+`ACT.X-Press_energy` after `ACT.Actr_core` is available. The harmonic tails are
+energy-controlled;
 the lower viscous recycle is core-controlled, while the `m+1,m+2` viscous line
 is carried as forcing/readout, not as a pre-pressure `A_buf` amplitude ledger.
-Thus `ACT.Kcore => ACT.Actr_core`, and then `ACT.Actr_core` is the center
-coefficient input spent by `ACT.X-Press`.
+Thus `ACT.X-Press_cell => ACT.Kcore => ACT.Actr_core`, and then
+`ACT.Actr_core` is the center coefficient input spent by `ACT.X-Press_energy`.
 The top modes belong to
 `\mathcal Y^{read}=\mathcal A_{\mathrm{core}}^{ctr}
 +\mathcal A_{\mathrm{buf}}^{ctr}+\mathcal X^{exc}`. Proving them before
 `ACT.X-Boot` would require the optional stronger input
 `\sum_{q=m+1}^{m+2}\sum_j|\widetilde K_{q,j}|^2\in L^1(I)` and risks rung
 creep.
+
+Audit boundary for `ACT.Kcore`. A pressure/viscous estimate whose right-hand
+side contains `\mathcal A_{\mathrm{core}}^{ctr}`,
+`\mathfrak H^{osc,\alpha}`, or `Y_{\mathrm{read}}` is a post-readout estimate,
+not a proof of the pre-pressure supplier `ACT.Kcore`. In the ordered route,
+`ACT.Kcore` feeds `ACT.Actr_core`, while `ACT.Actr_core` and the affine-excess
+readouts feed the later pressure/readout estimates. Therefore the direct
+`ACT.Kcore` proof must supply `K0.Core`, `E1.Aff`, and `Kmid.Core` before
+spending those downstream ledgers, unless the route is explicitly replaced by a
+simultaneous core/excess bootstrap theorem.
 
 ```math
 ACT.X\text{-}Energy:
@@ -2169,19 +2181,17 @@ LCI.A.
 \tag{ACT.Scale7b}
 ```
 
-The sharp proof order is now `ACT.Kcore`, then the seed bridge `ACT.X-Scale`
-and the readout-compatibility bridge `RWS.C_scale`; `ACT.Actr_core` is the
-conditional Gronwall bridge from `ACT.Kcore` to the bounded core center
-coefficient. `ACT.X-Cut` is the structurally favorable companion estimate.
-`ACT.X-Press` is recorded as
-the affine local pressure decomposition: affine-affine terms enter
-`L_press X_exc+F_press`, affine-remainder terms enter
-`epsilon N+L_press X_exc`, and remainder-remainder terms produce
-`C_{press}(\mathcal X^{exc})^{1/2}\mathcal N` for the same scale-small
-bootstrap as the cutoff term. The finite pressure far-tail ledger is
-energy-controlled in `L^\infty(I)\subset L^1(I)`, and top-viscous buffer modes
-are read through `Y_read`, not promoted into `ACT.Actr_core`. It does not spend
-`LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
+The sharp proof order is now `ACT.X-Press_cell => ACT.Kcore => ACT.Actr_core
+=> ACT.X-Press_energy`, then the seed bridge `ACT.X-Scale` and the
+readout-compatibility bridge `RWS.C_scale`. `ACT.X-Cut` is the structurally
+favorable companion estimate. `ACT.X-Press_energy` is recorded as the affine
+local pressure decomposition: affine-affine terms enter `L_press X_exc+F_press`,
+affine-remainder terms enter `epsilon N+L_press X_exc`, and
+remainder-remainder terms produce `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`
+for the same scale-small bootstrap as the cutoff term. The finite pressure
+far-tail ledger is energy-controlled in `L^\infty(I)\subset L^1(I)`, and
+top-viscous buffer modes are read through `Y_read`, not promoted into
+`ACT.Actr_core`. It does not spend `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
 
 For a full interval, `ACT.X-Boot` needs `ACT.X-Scale` at every retained restart
 plus a small-budget scheduler: decompose the interval into affine budget

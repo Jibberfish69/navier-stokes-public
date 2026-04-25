@@ -1588,6 +1588,72 @@ Kmid.Core.
 \tag{DTC.AFF-Kcore1}
 ```
 
+The pressure-core dependency order is:
+
+```math
+ACT.X\text{-}Press_{cell}
+\Longrightarrow
+ACT.Kcore
+\Longrightarrow
+ACT.Actr_{\mathrm{core}}
+\Longrightarrow
+ACT.X\text{-}Press_{energy}
+\Longrightarrow
+AXE.A.
+\tag{DTC.AFF-Kcore1a}
+```
+
+The cell form of the pressure theorem is:
+
+```math
+ACT.X\text{-}Press_{cell}:
+\quad
+\mathcal P_{\le m}^{cell}\in L^1(I),
+\tag{DTC.AFF-Kcore1b}
+```
+
+where
+
+```math
+\mathcal P_{\le m}^{cell}
+:=
+\sum_j|\nabla p(c_j)|
++
+\sum_j|\nabla^2 p_j^{loc}(c_j)|
++
+\sum_{q=2}^{m}\sum_j
+|\mathcal C_{G_j}^{-1}\nabla^{q+1}p(c_j)|.
+\tag{DTC.AFF-Kcore1c}
+```
+
+It uses the same local split `p=p_j^{loc}+h_j`, with
+`-\Delta p_j^{loc}=\partial_a\partial_b(\eta_j u_a u_b)`. The local cell
+response is
+
+```math
+|\nabla^{q+1}p_j^{loc}(c_j)|
+\le
+C_{\mathfrak p}
+\|\eta_j u\otimes u\|_{H^{q+2}(B_j)}.
+\tag{DTC.AFF-Kcore1d}
+```
+
+The affine decomposition `u=u(c_j)+A_j(x-c_j)+w_j` splits the source into
+affine-affine, affine-remainder, and remainder-remainder cells. The harmonic
+tail satisfies
+
+```math
+|\nabla^{q+1}h_j(c_j,t)|
+\le
+C_{\mathfrak p,R}\|u(\cdot,t)\|_{L^2}^2
+\in L^\infty(I).
+\tag{DTC.AFF-Kcore1e}
+```
+
+Thus the pressure-cell ledger is the pressure input behind `ACT.Kcore`; the
+energy form of the pressure theorem is used only after `ACT.Actr_core` is
+available.
+
 The zero-rung supplier is
 
 ```math
@@ -1691,9 +1757,31 @@ ACT.Actr_{\mathrm{core}}.
 ```
 
 The pressure cells in `K0.Core`, `E1.Aff`, and
-`K_{\mathrm{press},\le m}^{ctr}` are not discharged here. They are routed into
-`ACT.X-Press`, where `ACT.Actr_core` may be spent as the already-controlled
-center-affine coefficient ledger.
+`K_{\mathrm{press},\le m}^{ctr}` are discharged by `ACT.X-Press_cell`, not by
+the energy form. After `ACT.Kcore => ACT.Actr_core`, the energy form
+`ACT.X-Press_energy` may spend the controlled center-affine coefficient ledger.
+
+Route-license caution. The bound
+
+```math
+K0.Core+E1.Aff+Kmid.Core
+\lesssim
+1+(\mathcal A_{\mathrm{core}}^{ctr})^2
++(\mathfrak H^{osc,\alpha})^2
++Y_{\mathrm{read}}
++|u_0|_{L^2}^2
+\tag{DTC.AFF-Kcore10}
+```
+
+is a valid post-readout estimate after `ACT.Actr_core`, `AXP.A`, and
+`Y_{\mathrm{read}}\in L^\infty` are already available. It is not a proof of the
+pre-pressure supplier `ACT.Kcore`, because the ordered route uses `ACT.Kcore`
+to obtain `ACT.Actr_core`. Promoting `(DTC.AFF-Kcore10)` to `ACT.Kcore` would
+spend the core amplitude and readout package that `ACT.Kcore` is supposed to
+feed. A noncircular closure must either prove the native supplier cells
+`K0.Core`, `E1.Aff`, and `Kmid.Core` directly before `ACT.Actr_core`, or replace
+the ordered route by an explicitly named simultaneous core/excess bootstrap
+theorem.
 
 Let
 
@@ -1937,7 +2025,7 @@ F_{cut}(t),
 ```
 
 ```math
-ACT.X\text{-}Press:
+ACT.X\text{-}Press_{energy}:
 \quad
 |\mathcal T_{press}|
 \le
@@ -1948,7 +2036,7 @@ C_{press}(\mathcal X^{exc})^{1/2}\mathcal N
 L_{press}(t)\mathcal X^{exc}
 +
 F_{press}(t),
-\tag{DTC.AFF-XPress}
+\tag{DTC.AFF-XPressEnergy}
 ```
 
 and
@@ -2011,7 +2099,8 @@ L_{press},F_{press}\in L^1(I).
 \tag{AXE.2}
 ```
 
-The pressure part is the atom `ACT.X-Press`. Use the local split
+The pressure part of `AXE.2` is the energy form `ACT.X-Press_energy`. It comes
+after the cell form has supplied `ACT.Kcore` and `ACT.Actr_core`. Use the local split
 `p=p_j^{loc}+h_j`, with
 
 ```math
@@ -2230,7 +2319,7 @@ The energy ledger therefore gives every finite far-tail required by the packet:
 Thus
 
 ```math
-ACT.X\text{-}Press:
+ACT.X\text{-}Press_{energy}:
 \quad
 ACT.Actr_{\mathrm{core}}
 +
@@ -2248,7 +2337,7 @@ F_{press}(t).
 \tag{AXE.2g}
 ```
 
-The far-tail half of `ACT.X-Press` is handled by energy. The local fixed-ball
+The far-tail half of `ACT.X-Press_energy` is handled by energy. The local fixed-ball
 pressure response is now reduced to the affine-affine / affine-remainder /
 remainder-remainder decomposition above; its only non-`L^1` residue is the
 scale-small absorbable term
@@ -2670,21 +2759,22 @@ Equivalently, the twelve-item completion ledger is:
 2. ACT.X-Def: define X_exc, N, and Y_read = A_core^ctr + A_buf^ctr + X_exc.
 3. AXE.A: AXE.1--AXE.4 assemble ACT.X-Energy.
 4. ACT.X-Cut: cutoff sees affine defect, not full center U_1.
-5. ACT.X-Press: local Poisson response plus energy-controlled far-tail; pressure adds a C_press X_exc^(1/2) N term.
-6. ACT.X-Mid: triangular finite-depth middle block.
-7. ACT.X-TopVisc: buffer m+2 center modes are readout modes, not pre-pressure ACT.Actr_core data.
-8. ACT.X-Scale: retained smooth center-ball regularity supplies a radius R_a with X_exc(s_a;R_a) <= eta_X at each restart.
-9. ACT.X-Boot: ACT.X-Seed + ACT.X-Sched + ACT.X-Absorb propagates X_exc and N after ACT.X-Scale supplies small starts.
-10. RWS.C_scale: finite dynamic small-radius cover recovers fixed-radius readouts; pointwise fixed-radius smallness is not claimed.
-11. ACT.X-Readout: X_exc + A_core^ctr + A_buf^ctr gives D_1^aff, F_ctr_res, H_osc^alpha at the licensed readout scale.
-12. ACT.A -> RCF.A -> LCI.A, while FCI.5f and endpoint cleanup remain separate.
+5. ACT.X-Press_cell: finite pressure-cell ledger feeding ACT.Kcore.
+6. ACT.X-Press_energy: local Poisson energy response plus energy-controlled far-tail; pressure adds a C_press X_exc^(1/2) N term.
+7. ACT.X-Mid: triangular finite-depth middle block.
+8. ACT.X-TopVisc: buffer m+2 center modes are readout modes, not pre-pressure ACT.Actr_core data.
+9. ACT.X-Scale: retained smooth center-ball regularity supplies a radius R_a with X_exc(s_a;R_a) <= eta_X at each restart.
+10. ACT.X-Boot: ACT.X-Seed + ACT.X-Sched + ACT.X-Absorb propagates X_exc and N after ACT.X-Scale supplies small starts.
+11. RWS.C_scale: finite dynamic small-radius cover recovers fixed-radius readouts; pointwise fixed-radius smallness is not claimed.
+12. ACT.X-Readout: X_exc + A_core^ctr + A_buf^ctr gives D_1^aff, F_ctr_res, H_osc^alpha at the licensed readout scale.
+13. ACT.A -> RCF.A -> LCI.A, while FCI.5f and endpoint cleanup remain separate.
 ```
 
 This ledger is a proof plan, not a discharge. The sharp next proof targets are
-`ACT.Kcore`, `ACT.X-Scale`, and `RWS.C_scale`. `ACT.Actr_core` is now the
+`ACT.X-Press_cell`, `ACT.X-Scale`, and `RWS.C_scale`. `ACT.Actr_core` is now the
 conditional Gronwall bridge from `ACT.Kcore` to
-`\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty`; `ACT.X-Press` is now recorded
-as the affine local pressure decomposition whose only non-`L^1` residue is
+`\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty`; `ACT.X-Press_energy` is the
+affine local pressure energy decomposition whose only non-`L^1` residue is
 `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`, with top-viscous buffer modes
 read through `Y_read` rather than promoted into `ACT.Actr_core`. `ACT.X-Cut` is
 structurally favorable because the moving cutoff sees the affine defect.
@@ -3387,7 +3477,7 @@ With `(FCI.5f)` installed, the remaining theorem work is:
 
 ```math
 \boxed{
-ACT.Actr_{\mathrm{core}}
+ACT.Kcore
 +
 AXE.A
 +
@@ -3408,7 +3498,7 @@ Without that source-side promotion, the honest terminal list is:
 
 ```math
 \boxed{
-ACT.Actr_{\mathrm{core}}
+ACT.Kcore
 +
 AXE.A
 +

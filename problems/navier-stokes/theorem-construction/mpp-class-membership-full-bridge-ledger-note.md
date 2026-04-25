@@ -1152,10 +1152,10 @@ ACT.Actr_{\mathrm{core}}.
 \tag{ACT.X7e}
 ```
 
-The pressure parts of `K0.Core`, `E1.Aff`, and `Kmid.Core` are assigned to
-`ACT.X-Press`; after `ACT.Actr_core` is available, the pressure atom may spend
-`\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I)` and contributes the
-`C_{press}(\mathcal X^{exc})^{1/2}\mathcal N` term to the bootstrap.
+The pressure parts of `K0.Core`, `E1.Aff`, and `Kmid.Core` are assigned first to
+`ACT.X-Press_cell`; after `ACT.Actr_core` is available, `ACT.X-Press_energy`
+may spend `\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I)` and contributes
+the `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N` term to the bootstrap.
 
 The top buffer modes `m+1,m+2` are readout/top-viscous modes inside
 `\mathcal Y^{read}=\mathcal A_{\mathrm{core}}^{ctr}
@@ -1164,6 +1164,13 @@ The top buffer modes `m+1,m+2` are readout/top-viscous modes inside
 `\sum_{q=m+1}^{m+2}\sum_j|\widetilde K_{q,j}|^2\in L^1(I)` and risks rung
 creep. The immediate live obligation beneath `ACT.Actr_core` is now the direct
 lower center-forcing ledger `ACT.Kcore`.
+
+Audit boundary. A displayed estimate for `K0.Core+E1.Aff+Kmid.Core` that uses
+`\mathcal A_{\mathrm{core}}^{ctr}`, `\mathfrak H^{osc,\alpha}`, or
+`Y_{\mathrm{read}}` is a post-readout estimate, not the direct pre-pressure
+proof of `ACT.Kcore`. The ordered bridge remains
+`ACT.Kcore => ACT.Actr_core => ACT.X-Press_energy => AXP.A`; reversing that
+dependency would smuggle the readout package into its own supplier.
 
 ```math
 ACT.X\text{-}Energy:
@@ -1354,14 +1361,16 @@ LCI.A.
 
 The next theorem-facing proof targets are `ACT.Kcore`, `ACT.X-Scale`, and
 `RWS.C_scale`.
-In the sharpened ledger, `ACT.X-Press` is now recorded as the affine local
-pressure decomposition: affine-affine terms enter `L_press X_exc+F_press`,
-affine-remainder terms enter `epsilon N+L_press X_exc`, and
-remainder-remainder terms produce the scale-small pressure residue
-`C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`; the finite pressure far-tail
-ledger is energy-controlled in `L^\infty(I)\subset L^1(I)`. The top-viscous
-endpoint reads `m+1,m+2` through `A_buf` inside `Y_read`, not through
-`ACT.Actr_core`. It may not spend `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
+In the sharpened ledger, pressure is split into `ACT.X-Press_cell` and
+`ACT.X-Press_energy`. The cell form supplies the pressure cells in `ACT.Kcore`.
+The energy form is the affine local pressure decomposition: affine-affine terms
+enter `L_press X_exc+F_press`, affine-remainder terms enter
+`epsilon N+L_press X_exc`, and remainder-remainder terms produce the
+scale-small pressure residue `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`;
+the finite pressure far-tail ledger is energy-controlled in
+`L^\infty(I)\subset L^1(I)`. The top-viscous endpoint reads `m+1,m+2` through
+`A_buf` inside `Y_read`, not through `ACT.Actr_core`. It may not spend `LCI.A`,
+`CSP.A`, `OFP.A`, or `Field`.
 
 ### Finite-Stage `ACT.E2` Route
 
