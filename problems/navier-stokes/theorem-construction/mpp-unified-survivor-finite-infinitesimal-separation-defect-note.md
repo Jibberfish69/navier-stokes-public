@@ -405,6 +405,12 @@ but keeps `(USCP.S1)`, `(USCP.S2)`, branch projection, and `(B1)`--`(B3)` as
 named theorem atoms rather than treating them as solved by the notation
 `\mathcal S_\ast^{h/F}`.
 
+The rigorous replacement packet inside that audit is `USCP.R`: it upgrades the
+scalar survivor to `\mathbb S_\ast^{h/F}=(J_\ast,M_\ast)` and localizes the live
+load to native pack norm restoration, native tower segment control, selector
+transverse visibility, and same-carrier identification of the historical
+Family A/B packets.
+
 ## Boundary
 
 This note does not prove:

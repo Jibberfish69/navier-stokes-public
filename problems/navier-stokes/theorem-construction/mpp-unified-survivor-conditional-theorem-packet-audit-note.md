@@ -836,7 +836,596 @@ USCP.A2^\sharp
 \tag{USCP.Q22}
 ```
 
-This is now the preferred formulation. The enhancement
+The stricter theorem-facing replacement is `USCP.R` below. The enhancement
 `\mathbb S_\ast^{h/F}=(J_\ast,M_\ast)` fixes the scalar-survivor information
-loss; the remaining live burdens are the native restoration, visibility, and
-same-carrier bridge checks named above.
+loss; the live burdens are localized there to native restoration, packet
+multiplier/visibility, and same-carrier identification.
+
+## Rigorous Correction Packet `USCP.R`
+
+The scalar survivor is only the trace shadow. The theorem-facing object is the
+vector/tensor survivor
+
+```math
+\boxed{
+\mathbb S_\ast^{h/F}:=(J_\ast,M_\ast),
+\qquad
+\mathcal S_\ast^{h/F}:=\operatorname{tr}M_\ast.
+}
+\tag{USCP.R0}
+```
+
+Let
+
+```math
+D(a,r,t):=h(a,r,t)-F(a,t)r,
+\qquad
+V_n(a,\omega,\theta)
+:=
+\frac{D(a,r_n(\theta)\omega,t_n)}{r_n(\theta)}.
+\tag{USCP.R1}
+```
+
+On
+
+```math
+X:=A\times S^2\times[0,1],
+\qquad
+d\lambda:=da\,d\omega\,d\theta,
+\tag{USCP.R2}
+```
+
+define
+
+```math
+J_n:=V_n\,d\lambda,
+\qquad
+M_n:=V_n\otimes V_n\,d\lambda.
+\tag{USCP.R3}
+```
+
+A uniform `L^2(X)` bound on `V_n` gives, after subsequence extraction,
+
+```math
+J_n\stackrel{*}{\rightharpoonup}J_\ast,
+\qquad
+M_n\stackrel{*}{\rightharpoonup}M_\ast.
+\tag{USCP.R4}
+```
+
+Here `J_\ast` carries signed and first-order data, while `M_\ast` carries
+quadratic and stress data.
+
+### `USCP.A2-Pack`
+
+Assume the native pack gauge has the form
+
+```math
+\Gamma_{\mathrm{pack}}(Q)
+\lesssim
+\|F\|_{L^\infty(Q)}
++
+\|F^{-1}\|_{L^\infty(Q)}
++
+\left\|\frac{h-Fr}{|r|}\right\|_{\mathsf P(Q)},
+\tag{USCP.R5}
+```
+
+where
+
+```math
+\mathsf P(Q)\hookrightarrow L^\infty_{a,\omega,\theta}
+\tag{USCP.R6}
+```
+
+is the pack-control norm on the licensed scale window. If
+
+```math
+\left\|\frac{h-Fr}{|r|}\right\|_{\mathsf P(Q)}\to0
+\tag{USCP.R7}
+```
+
+and
+
+```math
+\|F\|_{L^\infty(Q)}+\|F^{-1}\|_{L^\infty(Q)}<\infty,
+\tag{USCP.R8}
+```
+
+then
+
+```math
+\Gamma_{\mathrm{pack}}(Q)<\infty.
+\tag{USCP.R9}
+```
+
+Thus
+
+```math
+\boxed{
+\frac{h-Fr}{|r|}\to0\text{ in the native pack norm}
+\Longrightarrow
+Pack_Q(u,\Phi).
+}
+\tag{USCP.R10}
+```
+
+Proof sketch. Write `h=Fr+rV`. The nondegenerate `F` bounds give
+`c|r|\le |Fr|\le C|r|`, and the native pack norm gives `|rV|=o(|r|)`
+uniformly on the licensed window. Hence
+
+```math
+(c-o(1))|r|\le |h|\le (C+o(1))|r|,
+\tag{USCP.R11}
+```
+
+so the finite separation law remains bi-Lipschitz on the same label packet,
+with the same centers and scales.
+
+### `USCP.A2-Field`
+
+Assume the native segment packet condition
+
+```math
+x_s(a,r,t)
+:=
+\Phi(a,t)+F(a,t)r+s(h-Fr)
+\in Q_{\mathrm{seg}}
+\qquad(0\le s\le1),
+\tag{USCP.R12}
+```
+
+and the tower coefficient bound
+
+```math
+\sum_{k\le N}
+\int_0^1
+|\nabla U_k(x_s(a,r,t),t)|^2\,ds
+\le C_N
+\tag{USCP.R13}
+```
+
+on the same packet. Then
+
+```math
+R_k:=\delta_hU_k-\delta_{Fr}U_k
+=
+\int_0^1\nabla U_k(x_s)\cdot(h-Fr)\,ds,
+\tag{USCP.R14}
+```
+
+and therefore
+
+```math
+\frac{|R_k|^2}{|r|^2}
+\le
+C_N\frac{|h-Fr|^2}{|r|^2}.
+\tag{USCP.R15}
+```
+
+If `(h-Fr)/|r|\to0` in the native field/tower readout norm, then `R_k\to0`
+for every `k\le N`. The `h`-finite-difference law and the `Fr`-affine
+finite-difference law agree in the terminal packet. Hence
+
+```math
+\boxed{
+\frac{h-Fr}{|r|}\to0
++
+\text{native segment tower control}
+\Longrightarrow
+Field_{N,r,Q}(u,p).
+}
+\tag{USCP.R16}
+```
+
+The segment packet condition is essential: it keeps the whole integral inside
+the same same-fluid tower domain.
+
+### `USCP.A2^\sharp`
+
+With installed participation,
+
+```math
+Part_Q,
+\tag{USCP.R17}
+```
+
+the contrapositive nonzero-survival theorem is:
+
+```math
+\mathcal S_\ast^{h/F}=0
+\Longrightarrow
+Pack_Q\wedge Field_Q
+\Longrightarrow
+Pack_Q\wedge Part_Q\wedge Field_Q
+\Longrightarrow
+CM_Q.
+\tag{USCP.R18}
+```
+
+Therefore first class exit forces
+
+```math
+\boxed{
+\mathcal S_\ast^{h/F}\neq0.
+}
+\tag{USCP.R19}
+```
+
+This is no longer a representation-exhaustiveness loop; it is a native Pack and
+Field restoration theorem from vanishing `h/F` defect.
+
+### `USCP.B-Tower`
+
+Define the linear packet map
+
+```math
+L_{k,n}(a,\omega,\theta)V
+:=
+\int_0^1
+\nabla U_k(x_s(a,r_n\omega,t_n),t_n)\cdot V\,ds.
+\tag{USCP.R20}
+```
+
+Then
+
+```math
+\frac{\delta_hU_k-\delta_{Fr}U_k}{r_n}
+=
+L_{k,n}V_n.
+\tag{USCP.R21}
+```
+
+Assume
+
+```math
+L_{k,n}\to L_{k,\ast}
+\quad\text{strongly in the packet multiplier topology,}
+\qquad
+\sup_n\|L_{k,n}\|_{L^\infty(X)}<\infty.
+\tag{USCP.R22}
+```
+
+Then the tower residue measures converge to the pushforward
+
+```math
+\nu_{k,\ast}
+=
+(L_{k,\ast})_\#M_\ast,
+\tag{USCP.R23}
+```
+
+meaning
+
+```math
+\int \varphi\,d\nu_{k,\ast}
+=
+\int_X
+\varphi\,
+L_{k,\ast}\,dM_\ast\,L_{k,\ast}^{T}.
+\tag{USCP.R24}
+```
+
+Thus
+
+```math
+\boxed{
+R_{\mathrm{tower/field}}
+\text{ is a lawful pushforward of }
+\mathbb S_\ast^{h/F}.
+}
+\tag{USCP.R25}
+```
+
+The projection is nonzero under the visibility condition
+
+```math
+\operatorname{tr}
+\int_X
+L_{k,\ast}\,dM_\ast\,L_{k,\ast}^{T}
+>0
+\tag{USCP.R26}
+```
+
+for some `k\le N`.
+
+### `USCP.B-Selector`
+
+Let
+
+```math
+e_h:=\frac{h}{|h|},
+\qquad
+e_F:=\frac{Fr}{|Fr|}.
+\tag{USCP.R27}
+```
+
+Assume the nondegenerate pack gauge
+
+```math
+c|r|\le |Fr|\le C|r|,
+\qquad
+c|r|\le |h|\le C|r|.
+\tag{USCP.R28}
+```
+
+Then
+
+```math
+|e_h-e_F|
+\le
+C_c\frac{|h-Fr|}{|r|}.
+\tag{USCP.R29}
+```
+
+For projectors
+
+```math
+P_h=e_h\otimes e_h,
+\qquad
+P_F=e_F\otimes e_F,
+\tag{USCP.R30}
+```
+
+one gets
+
+```math
+|P_h-P_F|_F^2
+\le
+C_c\frac{|h-Fr|^2}{|r|^2}.
+\tag{USCP.R31}
+```
+
+Thus the selector defect is a pushforward dominated by `M_\ast`. The exact
+visible selector component is the transverse part
+
+```math
+V_n^\perp:=P_{(Fr)^\perp}V_n.
+\tag{USCP.R32}
+```
+
+If
+
+```math
+V_n^\perp\,d\lambda
+\stackrel{*}{\rightharpoonup}
+J_\ast^\perp
+\tag{USCP.R33}
+```
+
+and
+
+```math
+J_\ast^\perp\neq0,
+\tag{USCP.R34}
+```
+
+or equivalently
+
+```math
+\int_X
+P_{(Fr)^\perp}\,dM_\ast\,P_{(Fr)^\perp}>0,
+\tag{USCP.R35}
+```
+
+then
+
+```math
+\boxed{
+\mathbb S_\ast^{h/F}
+\to
+\Xi_J
+\to
+\frac12|P_{ab}-P_{J,\top}^{seg}|_F^2
+}
+\tag{USCP.R36}
+```
+
+is a nonzero selector readout. Radial `h/F` defect feeds pack/tower; transverse
+`h/F` defect feeds selector/projector.
+
+### `(B1)^\sharp` Signed Gap-Kernel Bridge
+
+Let the historical signed gap-kernel packet be a distribution
+`\mathsf G_{\rho}^{hist}`. The same-carrier identification is:
+
+```math
+\boxed{
+\langle \mathsf G_{\rho}^{hist},\varphi\rangle
+=
+\int_X
+\kappa_\rho^\varphi(a,\omega,\theta)\cdot dJ_\ast
+}
+\tag{USCP.R37}
+```
+
+for every test function `\varphi`.
+
+The operator-order mismatch is resolved by moving derivatives onto the kernel:
+
+```math
+\langle \partial^\alpha V,\kappa\rangle
+=
+(-1)^{|\alpha|}
+\langle V,\partial^\alpha\kappa\rangle,
+\tag{USCP.R38}
+```
+
+with boundary terms killed by the installed shell cutoffs. Therefore the signed
+first-order packet factors through `J_\ast`:
+
+```math
+\boxed{
+(B1)^\sharp:
+\mathsf G_\rho^{hist}
+=
+(\kappa_\rho)_\#J_\ast.
+}
+\tag{USCP.R39}
+```
+
+### `(B2)^\sharp` Positive Gap-Flux Carrier Bridge
+
+Let the historical positive gap-flux carrier be `\mathsf F_\rho^{hist}`. The
+same-carrier identification is:
+
+```math
+\boxed{
+\mathsf F_\rho^{hist}(\varphi)
+=
+\int_X
+\varphi(a,\omega,\theta)\,
+K_\rho(a,\omega,\theta):dM_\ast.
+}
+\tag{USCP.R40}
+```
+
+The homogeneity check is
+
+```math
+K_\rho
+\sim
+\frac{1}{|r|^2}\frac{dr}{|r|^3}
+\tag{USCP.R41}
+```
+
+in the same logarithmic scale variable. Under this match,
+
+```math
+\boxed{
+(B2)^\sharp:
+\mathsf F_\rho^{hist}
+=
+(K_\rho)_\#M_\ast.
+}
+\tag{USCP.R42}
+```
+
+So the positive gap-flux carrier is the quadratic square-shadow of the same
+`h/F` survivor.
+
+### `(B3)^\sharp` Shell Strain Barrier Bridge
+
+Let the historical shell strain barrier be `\mathsf B_\rho^{hist}`. Define
+
+```math
+\mathsf{Str}_\rho(M_\ast)
+:=
+\int_{|r|\simeq\rho}
+\omega\otimes\omega:dM_\ast.
+\tag{USCP.R43}
+```
+
+The same-carrier identification is:
+
+```math
+\boxed{
+\mathsf B_\rho^{hist}
+=
+\mathsf{Str}_\rho(M_\ast).
+}
+\tag{USCP.R44}
+```
+
+Thus
+
+```math
+\boxed{
+(B3)^\sharp:
+\mathsf B_\rho^{hist}
+=
+(\mathsf{Str}_\rho)_\#M_\ast.
+}
+\tag{USCP.R45}
+```
+
+### Collapse Theorem
+
+Let Family A be generated by the cumulative lower-prefix packets
+
+```math
+A_\rho
+=
+\int_{\theta\le\theta_\rho}d(J_\ast,M_\ast),
+\tag{USCP.R46}
+```
+
+and Family B by the upper-tail / gap-kernel packets
+
+```math
+B_\rho
+=
+\left(
+\int \kappa_\rho\,dJ_\ast,
+\int K_\rho:dM_\ast
+\right).
+\tag{USCP.R47}
+```
+
+By `(B1)^\sharp`, `(B2)^\sharp`, and `(B3)^\sharp`, the historical Family A and
+Family B packets are lawful readouts of the same enhanced survivor:
+
+```math
+A\leftarrow \mathbb S_\ast^{h/F}\rightarrow B.
+\tag{USCP.R48}
+```
+
+Hence
+
+```math
+\boxed{
+Family\ A=Family\ B=[\mathbb S_\ast^{h/F}]
+\quad\text{in}\quad
+\pi_0(\mathsf{Surv}).
+}
+\tag{USCP.R49}
+```
+
+### Corrected Master Cell
+
+The rigorous replacement for the loose promotions is:
+
+```math
+\boxed{
+\begin{aligned}
+&
+USCP.A2\text{-}Pack
++USCP.A2\text{-}Field\\
+&+
+USCP.B\text{-}Tower
++USCP.B\text{-}Selector\\
+&+
+(B1)^\sharp+(B2)^\sharp+(B3)^\sharp\\
+&\Longrightarrow
+USCP.A2^\sharp+USCP.B^\sharp+USCP.C^\sharp.
+\end{aligned}
+}
+\tag{USCP.R50}
+```
+
+Therefore the full conditional theorem becomes
+
+```math
+\boxed{
+USCP.A2^\sharp
++USCP.B^\sharp
++USCP.C^\sharp
++ACT.KX
++FPCR.C+FSCR.C+FCC.C1
++\mathsf{End}_{NS}
+\Longrightarrow
+\text{absence of terminal same-fluid class exit}.
+}
+\tag{USCP.R51}
+```
+
+The real mathematical load is exactly localized:
+
+```math
+\boxed{
+\text{native pack norm restoration, native tower segment control, selector
+transverse visibility, and same-carrier identification of the historical A/B
+packets.}
+}
+\tag{USCP.R52}
+```
