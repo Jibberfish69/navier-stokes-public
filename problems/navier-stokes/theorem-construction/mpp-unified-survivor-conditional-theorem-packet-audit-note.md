@@ -1429,3 +1429,371 @@ packets.}
 }
 \tag{USCP.R52}
 ```
+
+## Ten-Cell Completion Ledger `USCP.T`
+
+The rigorous ten-cell package is the completed theorem ledger obtained by
+combining the native `USCP.R` cells with the receiver, source, and endpoint
+completion cells.
+
+The common object is the same enhanced survivor:
+
+```math
+\mathbb S_\ast^{h/F}:=(J_\ast,M_\ast),
+\qquad
+\mathcal S_\ast^{h/F}:=\operatorname{tr}M_\ast.
+\tag{USCP.T0}
+```
+
+### Cells 1--7: Unified Survivor Representation
+
+Cells 1--7 are exactly the native restoration, projection, and same-carrier
+identification cells of `USCP.R`:
+
+```math
+USCP.A2\text{-}Pack
+\tag{USCP.T1}
+```
+
+is `(USCP.R10)`: vanishing `h/F` defect in the native pack norm, with bounded
+`F` and `F^{-1}`, restores `Pack_Q`.
+
+```math
+USCP.A2\text{-}Field
+\tag{USCP.T2}
+```
+
+is `(USCP.R16)`: vanishing `h/F` defect plus native segment tower control
+restores `Field_{N,r,Q}`.
+
+```math
+USCP.B\text{-}Tower
+\tag{USCP.T3}
+```
+
+is `(USCP.R25)`: strong packet multiplier convergence identifies the
+tower/field residue as a lawful pushforward of `M_\ast`.
+
+```math
+USCP.B\text{-}Selector
+\tag{USCP.T4}
+```
+
+is `(USCP.R36)`: nondegenerate pack gauge plus transverse mass gives the
+selector/projector readout.
+
+```math
+(B1)^\sharp
+\tag{USCP.T5}
+```
+
+is `(USCP.R39)`: the historical signed gap-kernel packet is
+`(\kappa_\rho)_\#J_\ast` on the same carrier, with shell cutoff boundary terms
+killing integration-by-parts residues.
+
+```math
+(B2)^\sharp
+\tag{USCP.T6}
+```
+
+is `(USCP.R42)`: the historical positive gap-flux carrier is
+`(K_\rho)_\#M_\ast` with matching logarithmic shell homogeneity.
+
+```math
+(B3)^\sharp
+\tag{USCP.T7}
+```
+
+is `(USCP.R45)`: the historical shell strain barrier is
+`(\mathsf{Str}_\rho)_\#M_\ast`.
+
+Consequently:
+
+```math
+USCP.A2\text{-}Pack
++USCP.A2\text{-}Field
++USCP.B\text{-}Tower
++USCP.B\text{-}Selector
++(B1)^\sharp+(B2)^\sharp+(B3)^\sharp
+\Longrightarrow
+USCP.A2^\sharp+USCP.B^\sharp+USCP.C^\sharp.
+\tag{USCP.T8}
+```
+
+Equivalently:
+
+```math
+Family\ A=Family\ B=[\mathbb S_\ast^{h/F}]
+\quad\text{in}\quad
+\pi_0(\mathsf{Surv}).
+\tag{USCP.T9}
+```
+
+### Cell 8: `ACT.KX`
+
+The receiver analytic cell is:
+
+```math
+ACT.X\text{-Press}
++ACT.X\text{-Cut}
++ACT.X\text{-MidRaw}
++ACT.X\text{-TopVisc}
++ACT.X\text{-Scale}
++RWS.C_{\mathrm{scale}}
+\Longrightarrow
+ACT.KX.
+\tag{USCP.T10}
+```
+
+Let
+
+```math
+\mathcal J
+:=
+X_{\mathrm{exc}}+\theta A_{\mathrm{core}},
+\qquad
+0<\theta\ll1.
+\tag{USCP.T11}
+```
+
+The input cells supply
+
+```math
+\frac{d}{dt}X_{\mathrm{exc}}+cN
+\le
+(L_0+C A_{\mathrm{core}})X_{\mathrm{exc}}
++C_X X_{\mathrm{exc}}^{1/2}N
++F_0,
+\tag{USCP.T12}
+```
+
+```math
+\frac{d}{dt}A_{\mathrm{core}}
+\le
+K_{\le m}^{ctr}+C A_{\mathrm{core}},
+\tag{USCP.T13}
+```
+
+and
+
+```math
+K_{\le m}^{ctr}
+\le
+C(X_{\mathrm{exc}}^{1/2}N^{1/2}+X_{\mathrm{exc}})
++F_K.
+\tag{USCP.T14}
+```
+
+`ACT.X-Scale` gives a restarted seed `X_{\mathrm{exc}}\le\eta_X` on each
+scheduler interval, with `\eta_X` chosen so that
+
+```math
+C_X X_{\mathrm{exc}}^{1/2}N
+\le
+\frac{c}{4}N.
+\tag{USCP.T15}
+```
+
+Young's inequality gives
+
+```math
+X_{\mathrm{exc}}^{1/2}N^{1/2}
+\le
+\varepsilon N+C_\varepsilon X_{\mathrm{exc}}.
+\tag{USCP.T16}
+```
+
+After multiplying `(USCP.T13)` by `\theta`, and choosing `\theta\varepsilon`
+small, one obtains
+
+```math
+\frac{d}{dt}\mathcal J+\frac{c}{2}N
+\le
+L(t)\mathcal J+F(t),
+\qquad
+L,F\in L^1(I).
+\tag{USCP.T17}
+```
+
+The `L^1` data come only from `L_0,F_0,F_K`, the finite-stage lower-core data
+supplied by `ACT.X-MidRaw`, and the pressure/cutoff/top-viscous ledgers.
+Gronwall gives
+
+```math
+\mathcal J\in L^\infty(I),
+\qquad
+N\in L^1(I).
+\tag{USCP.T18}
+```
+
+Since `X_{\mathrm{exc}}\le\mathcal J` and
+`A_{\mathrm{core}}\le\theta^{-1}\mathcal J`,
+
+```math
+X_{\mathrm{exc}}\in L^\infty(I),
+\qquad
+A_{\mathrm{core}}\in L^\infty(I),
+\qquad
+N\in L^1(I).
+\tag{USCP.T19}
+```
+
+This is `ACT.KX`. The proof is pre-`LCI.A`, pre-`CSP.A`, pre-`OFP.A`,
+pre-`Field`, and pre-endpoint.
+
+### Cell 9: Source Channels
+
+The source ledger decomposes as
+
+```math
+\mathcal N^{src}
+=
+\mathcal N^{press}
++\mathcal N^{sc}
++\mathcal N^{cut}.
+\tag{USCP.T20}
+```
+
+The three channel theorems give
+
+```math
+FPCR.C:\quad \mathcal N^{press}\in L^1(I),
+\tag{USCP.T21}
+```
+
+```math
+FSCR.C:\quad \mathcal N^{sc}\in L^1(I),
+\tag{USCP.T22}
+```
+
+and
+
+```math
+FCC.C1:\quad \mathcal N^{cut}\in L^1(I).
+\tag{USCP.T23}
+```
+
+Therefore
+
+```math
+\boxed{
+FPCR.C+FSCR.C+FCC.C1
+\Longrightarrow
+FCI.5f.
+}
+\tag{USCP.T24}
+```
+
+The exact pressure wall remains visible inside `FPCR.C`:
+
+```math
+\text{low-high/high-low}
++
+\text{resonant finite-net}
++
+\text{energy far-tail}.
+\tag{USCP.T25}
+```
+
+### Cell 10: Endpoint Matrix
+
+The terminal endpoint consumer is
+
+```math
+END.Pack+END.Field+END.TowerBound+END.Cross+END.Exh
+\Longrightarrow
+End_{NS}.
+\tag{USCP.T26}
+```
+
+`END.Exh` gives the exhaustive endpoint alternative at first class exit.
+`END.Cross` reduces cross entries to the native rows
+
+```math
+(Part,Dead),
+\qquad
+END.Pack,
+\qquad
+END.Field,
+\qquad
+END.TowerBound.
+\tag{USCP.T27}
+```
+
+The native endpoint cells are:
+
+```math
+\Gamma_{\mathrm{pack},Q}\in L^\infty(I)
+\Longrightarrow
+END.Pack,
+\tag{USCP.T28}
+```
+
+```math
+OFP.A
+\Longrightarrow
+END.Field,
+\tag{USCP.T29}
+```
+
+and
+
+```math
+END.TowerAmp
+\Longrightarrow
+END.TowerBound.
+\tag{USCP.T30}
+```
+
+Thus every endpoint alternative is eliminated after `CFI.A`:
+
+```math
+\boxed{
+CFI.A+End_{NS}
+\Longrightarrow
+\text{absence of finite-time class exit}.
+}
+\tag{USCP.T31}
+```
+
+Endpoint material is terminal consumer material and enters only after `CFI.A`.
+
+## Final Ten-Cell Assembly
+
+The ten cells give:
+
+```math
+USCP.A2^\sharp
++USCP.B^\sharp
++USCP.C^\sharp
++ACT.KX
++FCI.5f
++End_{NS}
+\Longrightarrow
+\text{absence of terminal same-fluid class exit}.
+\tag{USCP.T32}
+```
+
+Equivalently:
+
+```math
+\boxed{
+\begin{gathered}
+USCP.A2\text{-}Pack
++USCP.A2\text{-}Field
++USCP.B\text{-}Tower
++USCP.B\text{-}Selector\\
++(B1)^\sharp+(B2)^\sharp+(B3)^\sharp
++ACT.KX
++(FPCR.C+FSCR.C+FCC.C1)
++End_{NS}\\
+\Longrightarrow
+\text{absence of terminal same-fluid class exit}.
+\end{gathered}
+}
+\tag{USCP.T33}
+```
+
+This is the theorem-facing ten-cell completion packet. Its source, receiver,
+and endpoint cells are still named by their native hypotheses; no endpoint
+consumer is spent inside the receiver or source supplier.

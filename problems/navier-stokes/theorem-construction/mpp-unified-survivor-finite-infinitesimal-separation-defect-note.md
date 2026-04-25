@@ -410,6 +410,9 @@ scalar survivor to `\mathbb S_\ast^{h/F}=(J_\ast,M_\ast)` and localizes the live
 load to native pack norm restoration, native tower segment control, selector
 transverse visibility, and same-carrier identification of the historical
 Family A/B packets.
+The downstream ten-cell completion ledger is `USCP.T`, which appends
+`ACT.KX`, the source channel theorem `FPCR.C+FSCR.C+FCC.C1 -> FCI.5f`, and the
+terminal endpoint matrix `End_NS`.
 
 ## Boundary
 
