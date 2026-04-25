@@ -1820,20 +1820,18 @@ This route uses retained smooth center-ball regularity plus direct local
 pressure/viscous response, without spending `ACT.Actr_core`, `AXP.A`, `LCI.A`,
 `CSP.A`, `OFP.A`, or `Field`.
 
-The pressure-core dependency order is:
+The pressure-core dependency order is not a strictly pre-bootstrap
+`ACT.X-Press_cell => ACT.Kcore` chain. The pre-bootstrap object is the native
+normal-form identity and its in-bootstrap estimates:
 
 ```math
 NKF.Native
+\quad+\quad
+NKF.Ann
+\quad+\quad
+NKF.Quad
 \Longrightarrow
-NKF.A
-\Longrightarrow
-ACT.Kcore
-\Longrightarrow
-ACT.Actr_{\mathrm{core}}
-\Longrightarrow
-ACT.X\text{-}Press_{energy}
-\Longrightarrow
-AXE.A.
+ACT.X\text{-}Press_{cell}\ \text{after }ACT.X\text{-}Boot.
 \tag{DTC.AFF-Kcore1a}
 ```
 
@@ -1846,7 +1844,8 @@ ACT.X\text{-}Press_{cell}:
 \tag{DTC.AFF-Kcore1b}
 ```
 
-and is now understood as the pressure component of `NKF.Native`, not as a
+It is now understood as a post-bootstrap `L^1` readout from the native
+normal-form pressure identity, not as a pre-bootstrap supplier and not as a
 closed consequence of finite energy alone.
 
 Fix one center and write
@@ -1978,9 +1977,12 @@ A_j^{ann}:=\operatorname{supp}\nabla\eta_j.
 ```
 
 Since `A_j^{ann}` is separated from the center by a fixed fraction of the
-pressure radius, the pressure kernel is smooth there, and
+pressure radius, the pressure kernel is smooth there. This proves the annular
+cell:
 
 ```math
+NKF.Ann:
+\quad
 \mathcal P_{\mathfrak p}^{ann}\in L^1(I)
 \Longrightarrow
 \sum_{j,r}|\Lambda_{r,j}\Pi_j^{ann}|\in L^1(I).
@@ -1996,10 +1998,12 @@ For the native residual core, define `\pi_j^{quad}` by
 \tag{DTC.AFF-Kcore1d2}
 ```
 
-Fixed-ball Calderon-Zygmund plus the finite product estimate gives, for the
-finite pressure-cell range,
+Fixed-ball Calderon-Zygmund plus the finite product estimate gives the
+pointwise-in-time in-bootstrap quadratic cell
 
 ```math
+NKF.Quad:
+\quad
 |\nabla^r\pi_j^{quad}(c_j)|
 \le
 C_{\mathfrak p}
@@ -2020,7 +2024,8 @@ C_{\mathfrak p,R}\|u(\cdot,t)\|_{L^2}^2
 \tag{DTC.AFF-Kcore1e}
 ```
 
-Combining the quadratic residual estimate, annular ledger, and far-tail bound,
+Combining `NKF.Quad`, `NKF.Ann`, and the far-tail bound gives the pointwise cell
+estimate
 
 ```math
 \mathcal P_{\le m}^{cell}
@@ -2033,7 +2038,20 @@ C_{\mathfrak p}\|u(\cdot,t)\|_{L^2}^2.
 \tag{DTC.AFF-Kcore1f}
 ```
 
-Therefore the cell theorem is
+Therefore the `L^1` cell theorem is a bootstrap readout:
+
+```math
+ACT.X\text{-}Boot
+\quad+\quad
+NKF.Ann
+\quad+\quad
+\text{energy far-tail}
+\Longrightarrow
+ACT.X\text{-}Press_{cell},
+\tag{DTC.AFF-Kcore1g0}
+```
+
+or explicitly,
 
 ```math
 X_{exc}\in L^\infty(I),
@@ -2048,17 +2066,21 @@ N\in L^1(I),
 
 This is the pressure component of `NKF.Native`: the center pressure-cell
 functionals annihilate the affine and affine-linear source modes, leaving only
-quadratic affine excess plus annular/far-tail terms. The energy form of the
-pressure theorem is used only after `ACT.Actr_core` is available.
+quadratic affine excess plus annular/far-tail terms. `NKF.Quad` is an
+in-bootstrap estimate; its `L^1` consequence is not available before
+`ACT.X-Boot`.
 
 Equivalently, the solved pressure-cell block is
 
 ```math
 NKF.Native
 +
+NKF.Quad
++
 \mathcal P_{\mathfrak p}^{ann}\in L^1(I)
 +
 \text{energy far-tail}
+\quad\text{inside }ACT.X\text{-Boot}\quad
 \Longrightarrow
 ACT.X\text{-}Press_{cell}.
 \tag{DTC.AFF-Kcore1h}
@@ -2173,9 +2195,10 @@ ACT.Actr_{\mathrm{core}}.
 ```
 
 The pressure cells in `K0.Core`, `E1.Aff`, and
-`K_{\mathrm{press},\le m}^{ctr}` are discharged by `ACT.X-Press_cell`, not by
-the energy form. After `ACT.Kcore => ACT.Actr_core`, the energy form
-`ACT.X-Press_energy` may spend the controlled center-affine coefficient ledger.
+`K_{\mathrm{press},\le m}^{ctr}` are discharged only after `ACT.X-Boot`
+converts `NKF.Quad` into an `L^1` pressure-cell ledger. The energy form
+`ACT.X-Press_energy` is therefore an in-bootstrap atom of `AXE.A`, not a theorem
+that waits for `ACT.Actr_core`.
 
 Route-license caution. The bound
 
@@ -2515,8 +2538,9 @@ L_{press},F_{press}\in L^1(I).
 \tag{AXE.2}
 ```
 
-The pressure part of `AXE.2` is the energy form `ACT.X-Press_energy`. It comes
-after the cell form has supplied `ACT.Kcore` and `ACT.Actr_core`. Use the local split
+The pressure part of `AXE.2` is the in-bootstrap energy form
+`ACT.X-Press_energy`. It uses the same native normal-form identity as
+`NKF.Quad`; it does not wait for `ACT.Kcore` or `ACT.Actr_core`. Use the local split
 `p=p_j^{loc}+h_j`, with
 
 ```math
@@ -2564,17 +2588,10 @@ C\left(\mathcal N_j^{1/2}+(\mathcal X_j^{exc})^{1/2}\right)
 \tag{AXE.2c0}
 ```
 
-for the finite pressure depths used in the packet. The center and affine
-coefficients are routed through `ACT.Actr_core`:
-
-```math
-|b_j(t)|+|A_j(t)|+\sum_{q=2}^{m}|\widetilde U_{q,j}(t)|
-\le
-C_{\mathrm{core}}(t),
-\qquad
-C_{\mathrm{core}}\in L^\infty(I).
-\tag{AXE.2c0a}
-```
+for the finite pressure depths used in the packet. The center-affine
+coefficients are not spent as pressure coefficients here: the native normal
+form removes their center-cell pressure modes, and the annular remnant is
+carried by the annular pressure ledger.
 
 After native affine normal-form subtraction, the local pressure variable in the
 energy atom is the residual
@@ -2725,7 +2742,9 @@ Thus
 ```math
 ACT.X\text{-}Press_{energy}:
 \quad
-ACT.Actr_{\mathrm{core}}
+NKF.Native
++
+NKF.Ann
 +
 \text{local fixed-ball pressure response}
 \Longrightarrow
@@ -3139,10 +3158,10 @@ the putative exit, so `T_\ast` cannot occur. Integrating `(AXP.6)` then gives
 `\mathcal Y^{read}=\mathcal A_{\mathrm{core}}^{ctr}
 +\mathcal A_{\mathrm{buf}}^{ctr}+\mathcal X^{exc}`. This proves `AXP.A`.
 
-Thus the corrected chain is:
+Thus the corrected chain is the joint `ACT.KX` block:
 
 ```math
-ACT.Actr_{\mathrm{core}}
+NKF.Native
 +
 ACT.X\text{-}Def
 +
@@ -3154,6 +3173,14 @@ ACT.X\text{-}Boot
 +
 RWS.C_{\mathrm{scale}}
 +
+NKF.Ann
+\Longrightarrow
+ACT.X\text{-}Press_{cell}
++
+ACT.Kcore
++
+ACT.Actr_{\mathrm{core}}
++
 ACT.X\text{-}Readout
 \Longrightarrow
 AXP.A
@@ -3162,29 +3189,31 @@ ACT.A.
 \tag{DTC.AFF-XChain}
 ```
 
-Equivalently, the twelve-item completion ledger is:
+Equivalently, the completion ledger is:
 
 ```text
-1. ACT.Actr_core: lower center-amplitude Gronwall rule.
-2. ACT.X-Def: define X_exc, N, and Y_read = A_core^ctr + A_buf^ctr + X_exc.
-3. AXE.A: AXE.1--AXE.4 assemble ACT.X-Energy.
-4. ACT.X-Cut: cutoff sees affine defect, not full center U_1.
-5. ACT.X-Press_cell: finite residual pressure-cell ledger feeding ACT.Kcore after subtracting the native affine normal-form pressure p_j^aff from p_j^loc.
-6. ACT.X-Press_energy: quadratic residual local Poisson energy response plus annular/far-tail control; pressure adds a C_press X_exc^(1/2) N term.
+1. NKF.Native: native normal-form identity annihilates affine and affine-linear pressure modes.
+2. NKF.Ann: annular pressure ledger controls Pi_ann.
+3. NKF.Quad: pointwise-in-time quadratic pressure estimate feeds the bootstrap.
+4. ACT.X-Def: define X_exc, N, and Y_read = A_core^ctr + A_buf^ctr + X_exc.
+5. AXE.A: AXE.1--AXE.4 assemble ACT.X-Energy, with ACT.X-Press_energy as an in-bootstrap atom.
+6. ACT.X-Cut: cutoff sees affine defect, not full center U_1.
 7. ACT.X-Mid: triangular finite-depth middle block.
 8. ACT.X-TopVisc: buffer m+2 center modes are readout modes, not pre-pressure ACT.Actr_core data.
 9. ACT.X-Scale: retained smooth center-ball regularity supplies a radius R_a with X_exc(s_a;R_a) <= eta_X at each restart.
 10. ACT.X-Boot: ACT.X-Seed + ACT.X-Sched + ACT.X-Absorb propagates X_exc and N after ACT.X-Scale supplies small starts.
-11. RWS.C_scale: finite dynamic small-radius cover recovers fixed-radius readouts; pointwise fixed-radius smallness is not claimed.
-12. ACT.X-Readout: X_exc + A_core^ctr + A_buf^ctr gives D_1^aff, F_ctr_res, H_osc^alpha at the licensed readout scale.
-13. ACT.A -> RCF.A -> LCI.A, while FCI.5f and endpoint cleanup remain separate.
+11. ACT.X-Press_cell: X_exc in Linfty, N in L1, NKF.Ann, and energy far-tail give P_cell in L1.
+12. ACT.Kcore + ACT.Actr_core: the now-L1 pressure cell and viscous ledgers give the lower center-amplitude Gronwall rule.
+13. RWS.C_scale: finite dynamic small-radius cover recovers fixed-radius readouts; pointwise fixed-radius smallness is not claimed.
+14. ACT.X-Readout: X_exc + A_core^ctr + A_buf^ctr gives D_1^aff, F_ctr_res, H_osc^alpha at the licensed readout scale.
+15. ACT.A -> RCF.A -> LCI.A, while FCI.5f and endpoint cleanup remain separate.
 ```
 
 This ledger is a proof plan, not a discharge. The sharp next proof targets are
-`ACT.X-Press_cell`, `ACT.X-Scale`, and `RWS.C_scale`. `ACT.Actr_core` is now the
-conditional Gronwall bridge from `ACT.Kcore` to
+`NKF.Ann / NKF.Quad`, `ACT.X-Scale`, and `RWS.C_scale`. `ACT.Actr_core` is now the
+post-bootstrap conditional Gronwall bridge from `ACT.Kcore` to
 `\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty`; `ACT.X-Press_energy` is the
-affine local pressure energy decomposition whose only non-`L^1` residue is
+in-bootstrap affine local pressure energy decomposition whose only non-`L^1` residue is
 `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`, with top-viscous buffer modes
 read through `Y_read` rather than promoted into `ACT.Actr_core`. `ACT.X-Cut` is
 structurally favorable because the moving cutoff sees the affine defect.
@@ -3839,11 +3868,11 @@ DTC.PRE_{\mathfrak p}.
 \tag{DTC.36a}
 ```
 
-The current affine-excess refinement replaces that slogan with the ordered
-finite-cell package:
+The current affine-excess refinement replaces that slogan with the joint
+`ACT.KX` finite-cell package:
 
 ```math
-ACT.Actr_{\mathrm{core}}
+NKF.Native
 +
 ACT.X\text{-}Def
 +
@@ -3854,6 +3883,14 @@ ACT.X\text{-}Scale
 ACT.X\text{-}Boot
 +
 RWS.C_{\mathrm{scale}}
++
+NKF.Ann
+\Longrightarrow
+ACT.X\text{-}Press_{cell}
++
+ACT.Kcore
++
+ACT.Actr_{\mathrm{core}}
 +
 ACT.X\text{-}Readout
 \Longrightarrow
