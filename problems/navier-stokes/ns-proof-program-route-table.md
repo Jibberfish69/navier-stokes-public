@@ -311,7 +311,8 @@ ACT.Actr_core
 ```
 
 This is a conditional retained-window receiver discharge, not an unconditional
-energy result. The live input is the native retained smooth forcing route
+energy result. The live native forcing certificate is `RSCB.NKF`, which
+supplies the retained smooth forcing route
 `NKF.Moll + NKF.Point => NKF.Native`, together with the scheduler budgets;
 source-channel and endpoint blocks remain separate.
 

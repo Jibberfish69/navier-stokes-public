@@ -440,10 +440,10 @@ closure_ecology:
         RWS.C_scale => ACT.X-Press_cell + ACT.Kcore + ACT.Actr_core +
         ACT.X-Readout =>
         ACT.A => RCF.A => LCI.A. This is a conditional retained-window receiver
-        discharge, not an unconditional energy result. The live input is the
-        native retained smooth forcing route NKF.Moll + NKF.Point => NKF.Native,
-        together with the scheduler budgets; source-channel and endpoint blocks
-        remain separate.
+        discharge, not an unconditional energy result. The live native forcing
+        certificate is RSCB.NKF, which supplies the retained smooth forcing route
+        NKF.Moll + NKF.Point => NKF.Native, together with the scheduler budgets;
+        source-channel and endpoint blocks remain separate.
       audit_correction: >-
         DTR.A is only a supplier theorem. Bare TW_ctr supplies residual
         pressure/top-viscous forcing; the strong closure needs TW_ctr^aff,

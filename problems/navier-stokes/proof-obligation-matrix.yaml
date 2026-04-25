@@ -1003,10 +1003,11 @@ obligations:
     the finite-cover readout bridge that recovers fixed-radius readouts from small-radius restarted packets; it
     does not assert fixed-radius packet smallness. This
     is a conditional receiver discharge under the retained-window hypotheses,
-    not an unconditional energy result; the live input is the native retained
-    smooth center-ball forcing route `NKF.Moll + NKF.Point => NKF.Native`,
-    together with the scheduler budgets. `ACT.X-Scale` and `RWS.C_scale` are
-    installed conditional bridges, not fixed-radius smallness claims.
+    not an unconditional energy result; the live native forcing certificate is
+    `RSCB.NKF`, which supplies the retained smooth center-ball route
+    `NKF.Moll + NKF.Point => NKF.Native`, together with the scheduler budgets.
+    `ACT.X-Scale` and `RWS.C_scale` are installed conditional bridges, not
+    fixed-radius smallness claims.
     Sharpened obligations: `ACT.Actr_core` is now the conditional Gronwall
     bridge `K_{\le m}^{ctr} in L^1(I) => A_core^ctr in L^\infty(I)`, so the
     live residue beneath it is `ACT.Kcore`, now obtained post-bootstrap inside
@@ -1022,13 +1023,14 @@ obligations:
     pre-pressure `A_buf` amplitude. Any estimate of `ACT.Kcore` that spends
     `A_core`, `H^{osc}`, or `Y_read` is only a post-readout bound, not the
     licensed source for `ACT.Kcore` before the `ACT.KX` bootstrap.
-    `NKF.Native` is the remaining native pointwise center pressure/viscous
-    forcing theorem; finite energy plus pressure Poisson response alone does
-    not supply those center derivatives, as shown by the energy-preserving
-    rescaling obstruction for point pressure derivatives. A sufficient retained
-    condition is local `L^1_t C^{m+2,\alpha}` velocity plus local
-    `L^1_t C^{m+1,\alpha}` pressure near the retained centers. The installed
-    route to `NKF.Native` is `NKF.Moll + NKF.Point`: prove a mollified
+    `NKF.Native` is supplied by `RSCB.NKF`, the retained smooth center-ball
+    certificate for pointwise center pressure/viscous forcing; finite energy
+    plus pressure Poisson response alone does not supply those center
+    derivatives, as shown by the energy-preserving rescaling obstruction for
+    point pressure derivatives. The retained condition is local
+    `L^1_t C^{m+2,\alpha}` velocity plus local `L^1_t C^{m+1,\alpha}` pressure
+    near the retained centers. The installed route to `NKF.Native` is
+    `RSCB.NKF => NKF.Moll + NKF.Point`: prove a mollified
     transported-center forcing ledger from local pressure response,
     finite-energy far tails, and viscous integration by parts, then recover
     point-center forcing by retained smoothness at the restart scale.

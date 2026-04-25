@@ -3258,8 +3258,8 @@ Equivalently, the completion ledger is:
 ```
 
 This ledger is a conditional receiver discharge under the retained-window
-hypotheses, not an unconditional energy result. The live input is the native
-retained smooth center-ball forcing route
+hypotheses, not an unconditional energy result. The live native forcing
+certificate is `RSCB.NKF`, which supplies the retained smooth center-ball route
 `NKF.Moll + NKF.Point => NKF.Native`, together with the scheduler budgets.
 `ACT.X-Scale` and `RWS.C_scale` are installed conditional bridges, not
 fixed-radius smallness claims. `ACT.Actr_core` is now the post-bootstrap
