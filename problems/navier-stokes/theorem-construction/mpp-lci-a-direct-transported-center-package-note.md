@@ -4316,7 +4316,7 @@ LCI.A,
 ```
 
 ```math
-FCC.C1+FSCR.C+FPCR.C
+FPCR.C+FSCR.C+FCC.C1
 \Longrightarrow
 FCI.5f,
 \tag{DTC.39b}
@@ -4601,7 +4601,7 @@ to the installed `(Part,Dead)` row. Hence
 
 ```math
 DTC\text{-to-TowerBound}+END.Exh+END.Cross
-\ +\ Pack/Part/Field\text{ endpoint matrix}
++Pack/Part/Field\text{ endpoint matrix}
 \Longrightarrow
 \mathsf{End}_{NS}.
 \tag{DTC.43i}
