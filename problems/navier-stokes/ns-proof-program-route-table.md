@@ -290,21 +290,22 @@ ACT.X-Press_energy:
 Compact receiver chain:
 
 ```text
-RSCB.NKF
-=> NKF.Moll + NKF.Point
-=> NKF.Native
+NKF.Native + NKF.Ann + NKF.Quad
+=> ACT.X-Press
+
 + ACT.X-Cut
-+ ACT.X-Press_energy
++ ACT.X-Press
 + ACT.X-MidRaw
 + ACT.X-TopVisc
-+ ACT.X-Scale
-+ RWS.C_scale
 => ACT.KX
+
+ACT.KX + ACT.X-Scale + RWS.C_scale
+=> ACT.X-Readout
+=> ACT.A
+
 => ACT.X-Press_cell
 => ACT.Kcore
 => ACT.Actr_core
-+ ACT.X-Readout
-=> ACT.A
 => RCF.A
 => LCI.A
 ```

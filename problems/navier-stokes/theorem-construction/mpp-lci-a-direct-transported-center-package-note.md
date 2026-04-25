@@ -4293,11 +4293,11 @@ source-side and endpoint-side packets are now separately promoted under the
 post-`LCI.A` source hypotheses and accepted endpoint certificates:
 
 ```math
-FCC.C1\to FSCR.C\to FPCR.C\to FCI.5f,
+FPCR.C+FSCR.C+FCC.C1\to FCI.5f,
 \qquad
 DTC\text{-to-TowerBound}\to END.TowerAmp\to END.TowerBound,
 \qquad
-END.Exh+END.Cross.
+END.Exh+END.Cross+Pack/Part/Field\text{ endpoint matrix}.
 \tag{DTC.38}
 ```
 
@@ -4334,7 +4334,8 @@ CFI.A,
 
 ```math
 DTC\text{-to-TowerBound}
-+END.Exh+END.Cross+END.Pack+END.Field+END.TowerBound
++END.Exh+END.Cross
++Pack/Part/Field\text{ endpoint matrix}
 \Longrightarrow
 \mathsf{End}_{NS},
 \tag{DTC.39d}
@@ -4354,23 +4355,26 @@ Here `END.TowerAmp` denotes the actual tower-amplitude input
 `END.TowerAmp => \neg tower-blown` is formal and recorded in the endpoint
 matrix note as `END.TowerBound`.
 
-With `RSCB.NKF` installed, the receiver-side live chain is
+With the ordered pressure package and `ACT.KX` installed, the receiver-side
+live chain is
 
 ```math
-RSCB.NKF
+ACT.KX
 \Longrightarrow
-NKF.Moll+NKF.Point
+ACT.X\text{-}Readout
 \Longrightarrow
-NKF.Native
+ACT.A
 \Longrightarrow
-ACT.Kcore
+RCF.A
 \Longrightarrow
-ACT.Actr_{\mathrm{core}}.
+LCI.A.
 \tag{DTC.40}
 ```
 
-Thus the remaining parallel theorem blocks are exactly the post-`LCI.A` source
-channels
+The pressure-cell and core ledgers are consequences of the same package:
+`ACT.X-Press_cell => ACT.Kcore => ACT.Actr_core` after `ACT.KX`, not
+pre-`ACT.KX` suppliers. Thus the remaining parallel theorem blocks are exactly
+the post-`LCI.A` source channels
 
 ```math
 FCC.C1,\qquad FSCR.C,\qquad FPCR.C,
@@ -4388,18 +4392,18 @@ The ordered closure program splits those cells into two independent lanes.
 
 ### Source Lane
 
-The source-side lane is
+The source-side lane is the exact source split
 
 ```math
-FCC.C1
-\Longrightarrow
-FSCR.C
-\Longrightarrow
-FPCR.C
+FPCR.C+FSCR.C+FCC.C1
 \Longrightarrow
 (FCI.5f).
 \tag{DTC.42}
 ```
+
+The proof order below checks the cutoff, strain/cascade, and pressure cells;
+the implication itself is their ledger summation, not a dependency chain among
+the three cells.
 
 For `FCC.C1`, the frozen-net cutoff channel is localization-created:
 
@@ -4596,23 +4600,25 @@ to the installed `(Part,Dead)` row. Hence
 
 ```math
 DTC\text{-to-TowerBound}+END.Exh+END.Cross
+\ +\ Pack/Part/Field\text{ endpoint matrix}
 \Longrightarrow
 \mathsf{End}_{NS}.
 \tag{DTC.43i}
 ```
 
-The preferred execution order is therefore
+The preferred package order is therefore
 
 ```math
-DTC\text{-to-TowerBound}
+ACT.KX
 \to
-FCC.C1
+(FPCR.C+FSCR.C+FCC.C1)
 \to
-FSCR.C
-\to
-FPCR.C,
+\left(
+DTC\text{-to-TowerBound}+END.Exh+END.Cross
++Pack/Part/Field\text{ endpoint matrix}
+\right),
 \tag{DTC.44}
 ```
 
 with `END.Exh` and `END.Cross` recorded in parallel as certificate/semantic
-cells.
+cells inside the endpoint package.
