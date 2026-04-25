@@ -1418,7 +1418,7 @@ not part of the small factor. The full readout packet is
 Call the pre-pressure bridge `ACT.Actr_core`. It is not bookkeeping: it is the
 conditional affine-center Gronwall theorem that converts the direct lower
 center-forcing ledger `ACT.Kcore` into the bounded core center-amplitude
-coefficient spent by `ACT.X-Press`.
+coefficient spent by `ACT.X-Press_energy`.
 
 For `ACT.Actr_core`, the core ledger is:
 
@@ -1612,38 +1612,112 @@ ACT.X\text{-}Press_{cell}:
 \tag{DTC.AFF-Kcore1b}
 ```
 
+Fix one center and write
+
+```math
+z:=x-c_j(t),
+\qquad
+u_j^{aff}(x,t):=u(c_j,t)+A_j(t)z,
+\qquad
+A_j(t):=U_1(c_j(t),t).
+\tag{DTC.AFF-Kcore1b0}
+```
+
+Define
+
+```math
+w_j(x,t):=u(x,t)-u_j^{aff}(x,t),
+\qquad
+w_j(c_j,t)=0,
+\qquad
+\nabla w_j(c_j,t)=0.
+\tag{DTC.AFF-Kcore1b1}
+```
+
+Use the pressure split
+
+```math
+p=p_j^{loc}+h_j,
+\qquad
+-\Delta p_j^{loc}
+=
+\partial_a\partial_b(\eta_j u_a u_b).
+\tag{DTC.AFF-Kcore1b2}
+```
+
+Define the affine model pressure by
+
+```math
+-\Delta p_j^{aff}
+=
+\partial_a\partial_b
+\left(u_{j,a}^{aff}u_{j,b}^{aff}\right)
+\tag{DTC.AFF-Kcore1b3}
+```
+
+on the fixed pressure ball, with the same polynomial normalization used in the
+affine-frame equation. Define the residual local pressure
+
+```math
+\pi_j^{loc}:=p_j^{loc}-p_j^{aff}.
+\tag{DTC.AFF-Kcore1b4}
+```
+
+Then the live local pressure source is
+
+```math
+-\Delta\pi_j^{loc}
+=
+\partial_a\partial_b
+\left(
+2\eta_j u_j^{aff}\odot w_j
++
+\eta_j w_j\otimes w_j
+\right)
++
+\mathcal R_j^{cut}.
+\tag{DTC.AFF-Kcore1b5}
+```
+
+The cutoff source is supported in the annulus where `\nabla\eta_j` lives and is
+assigned to the fixed annular pressure ledger or the harmonic/far-tail ledger.
+This affine subtraction is the key pressure-core rule: the pure affine
+`A_j^2` pressure is part of the model frame, not a pre-core forcing term.
+
 where
 
 ```math
 \mathcal P_{\le m}^{cell}
 :=
-\sum_j|\nabla p(c_j)|
+\sum_j|\nabla\pi_j^{loc}(c_j)|
 +
-\sum_j|\nabla^2 p_j^{loc}(c_j)|
+\sum_j|\nabla^2\pi_j^{loc}(c_j)|
 +
 \sum_{q=2}^{m}\sum_j
-|\mathcal C_{G_j}^{-1}\nabla^{q+1}p(c_j)|.
+|\mathcal C_{G_j}^{-1}\nabla^{q+1}\pi_j^{loc}(c_j)|
++
+\mathcal T_{\le m}^{press,far}.
 \tag{DTC.AFF-Kcore1c}
 ```
 
-It uses the same local split `p=p_j^{loc}+h_j`, with
-`-\Delta p_j^{loc}=\partial_a\partial_b(\eta_j u_a u_b)`. The local cell
-response is
+The residual local cell response is
 
 ```math
-|\nabla^{q+1}p_j^{loc}(c_j)|
+|\nabla^{q+1}\pi_j^{loc}(c_j)|
 \le
 C_{\mathfrak p}
-\|\eta_j u\otimes u\|_{H^{q+2}(B_j)}.
+\left\|
+2u_j^{aff}\odot w_j+w_j\otimes w_j
+\right\|_{H^{q+1}(B_j)}
++
+C_{\mathfrak p}\|\mathcal R_j^{cut}\|_{H^{q-1}}.
 \tag{DTC.AFF-Kcore1d}
 ```
 
-The affine decomposition `u=u(c_j)+A_j(x-c_j)+w_j` splits the source into
-affine-affine, affine-remainder, and remainder-remainder cells. The harmonic
-tail satisfies
+The harmonic/far-tail ledger satisfies
 
 ```math
-|\nabla^{q+1}h_j(c_j,t)|
+\mathcal T_{\le m}^{press,far}
 \le
 C_{\mathfrak p,R}\|u(\cdot,t)\|_{L^2}^2
 \in L^\infty(I).
@@ -1654,12 +1728,33 @@ Thus the pressure-cell ledger is the pressure input behind `ACT.Kcore`; the
 energy form of the pressure theorem is used only after `ACT.Actr_core` is
 available.
 
+Equivalently,
+
+```math
+\mathcal P_{\le m}^{cell}
+\le
+P_{aff}^{cell}
++
+P_{excess}^{cell}
++
+P_{tail}^{cell},
+\qquad
+P_{tail}^{cell}\in L^1(I),
+\tag{DTC.AFF-Kcore1f}
+```
+
+with the affine and excess pieces carried by the direct affine pressure-response
+theorem. This is the live local fixed-ball pressure response behind both
+`ACT.X-Press_cell` and, after `ACT.Actr_core`, `ACT.X-Press_energy`.
+
 The zero-rung supplier is
 
 ```math
 K0.Core:
 \quad
-\sum_j|\nabla p(c_j)|
+\sum_j|\nabla\pi_j^{loc}(c_j)|
++
+\sum_j|\nabla h_j(c_j)|
 +
 \nu\sum_j|U_2(c_j)|
 \in L^1(I).
@@ -1671,7 +1766,7 @@ The first-rung affine supplier is
 ```math
 E1.Aff:
 \quad
-\sum_j|\nabla^2p_j^{loc}(c_j)|
+\sum_j|\nabla^2\pi_j^{loc}(c_j)|
 +
 \sum_j|\nabla^2h_j(c_j)|
 +
@@ -1701,11 +1796,15 @@ K_{\mathrm{press},\le m}^{ctr}
 :=
 \sum_{q=2}^{m}
 \sum_j
-|\mathcal C_{G_j}^{-1}\nabla^{q+1}p(c_j)|
+|\mathcal C_{G_j}^{-1}\nabla^{q+1}\pi_j^{loc}(c_j)|
++
+\sum_{q=2}^{m}
+\sum_j
+|\mathcal C_{G_j}^{-1}\nabla^{q+1}h_j(c_j)|
 \tag{DTC.AFF-Kcore5}
 ```
 
-belongs to `ACT.X-Press`,
+belongs to `ACT.X-Press_cell`,
 
 ```math
 K_{\mathrm{visc},core}^{ctr}

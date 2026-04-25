@@ -280,11 +280,15 @@ ACT.X-Press_energy:
 Compact receiver chain:
 
 ```text
+ACT.X-Press_cell
++ ACT.Kcore
+=> ACT.Actr_core
+
 ACT.Actr_core
 + ACT.X-Def
 + ACT.X-Energy
 + ACT.X-Cut
-+ ACT.X-Press
++ ACT.X-Press_energy
 + ACT.X-Mid
 + ACT.X-TopVisc
 + ACT.X-Scale

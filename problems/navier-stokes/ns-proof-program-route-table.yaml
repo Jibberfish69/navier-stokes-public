@@ -430,8 +430,9 @@ closure_ecology:
         to the same scale-small bootstrap as the cutoff term. It does not spend
         LCI.A, CSP.A, OFP.A, or Field.
       act_compact_chain: >-
-        ACT.Actr_core + ACT.X-Def + ACT.X-Energy + ACT.X-Cut + ACT.X-Press +
-        ACT.X-Mid + ACT.X-TopVisc + ACT.X-Scale + ACT.X-Boot + RWS.C_scale +
+        ACT.X-Press_cell + ACT.Kcore => ACT.Actr_core, then ACT.Actr_core +
+        ACT.X-Def + ACT.X-Energy + ACT.X-Cut + ACT.X-Press_energy + ACT.X-Mid
+        + ACT.X-TopVisc + ACT.X-Scale + ACT.X-Boot + RWS.C_scale +
         ACT.X-Readout =>
         ACT.A => RCF.A => LCI.A. This is the receiver-side proof plan, not a discharge;
         the next proof targets are ACT.X-Press_cell, ACT.X-Scale,

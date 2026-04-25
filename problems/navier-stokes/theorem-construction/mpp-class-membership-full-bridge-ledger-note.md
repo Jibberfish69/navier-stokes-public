@@ -1187,7 +1187,7 @@ F.
 \tag{ACT.X8}
 ```
 
-This is supplied by `ACT.X-Mid`, `ACT.X-Cut`, `ACT.X-Press`, and
+This is supplied by `ACT.X-Mid`, `ACT.X-Cut`, `ACT.X-Press_energy`, and
 `ACT.X-TopVisc`. The cutoff and pressure atoms are allowed to retain the
 absorbable residues `C_{cut}(\mathcal X^{exc})^{1/2}\mathcal N` and
 `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`; the scheduler absorbs their sum.
