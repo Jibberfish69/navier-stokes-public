@@ -1697,15 +1697,36 @@ NKF.Point:
 \tag{DTC.AFF-NKF4a}
 ```
 
-where `\mathcal K_{\le m}^{ctr,[r]}` is obtained by testing `K_q` against
-transported mollifiers
+Fix a retained window `I_r=[a,b]` and a radius `\rho_r>0` such that
+`B(c_j(t),2\rho_r)` stays inside the retained smooth region for
+`t\in I_r`. For `0<r<\rho_r`, define transported mollifiers
 
 ```math
 \varphi_{j,r}(x,t)=r^{-3}\varphi((x-c_j(t))/r).
 \tag{DTC.AFF-NKF4b}
 ```
 
-For the pressure part,
+For any field `f`, write
+
+```math
+f_j^{[r]}(t):=\int\varphi_{j,r}(x,t)f(x,t)\,dx.
+\tag{DTC.AFF-NKF4b1}
+```
+
+The mollified core forcing ledger is
+
+```math
+\mathcal K_{\le m}^{ctr,[r]}(t)
+:=
+\sum_j|K_{0,j}^{[r]}|
++
+\sum_j|\mathcal E_j^{(1),[r]}|
++
+\sum_{q=2}^{m}\sum_j|\widetilde K_{q,j}^{[r]}|.
+\tag{DTC.AFF-NKF4b2}
+```
+
+For the pressure part of `K_q=-\nabla^{q+1}p+\nu\Delta U_q`,
 
 ```math
 P_{q,j}^{[r]}
@@ -1716,8 +1737,20 @@ P_{q,j}^{[r]}
 \tag{DTC.AFF-NKF4c}
 ```
 
-and the local split `p=p_{j,r}^{loc}+h_{j,r}` gives a fixed-radius Calderon-Zygmund
-response for the local term and the energy-controlled far-tail estimate
+and retained smoothness directly gives
+
+```math
+|P_{q,j}^{[r]}(t)|
+\le
+\|\nabla^{q+1}p(\cdot,t)\|_{L^\infty(B(c_j,r))}
+\le
+\|p(\cdot,t)\|_{C^{m+1}(B(c_j,2\rho_r))}.
+\tag{DTC.AFF-NKF4c1}
+```
+
+Equivalently, the local split `p=p_{j,r}^{loc}+h_{j,r}` gives a fixed-radius
+Calderon-Zygmund response for the local term and the energy-controlled far-tail
+estimate
 
 ```math
 |\nabla^{q+1}h_{j,r}|
@@ -1726,7 +1759,8 @@ C_{q,r}\|u(\cdot,t)\|_{L^2}^2.
 \tag{DTC.AFF-NKF4d}
 ```
 
-For the viscous part,
+For the viscous part, either estimate directly from retained smoothness or
+integrate by parts onto the mollifier:
 
 ```math
 \nu\int\varphi_{j,r}\Delta U_q
@@ -1735,18 +1769,41 @@ For the viscous part,
 \tag{DTC.AFF-NKF4e}
 ```
 
-so retained smooth center-ball regularity gives the local `L^1_t` bound for
-the mollified ledger on each retained window. Finally, retained smoothness gives
+and
 
 ```math
-|K_q(c_j,t)-K_{q,j}^{[r]}(t)|
+\left|\int\varphi_{j,r}\Delta U_q\right|
 \le
-C r^\alpha [K_q(\cdot,t)]_{C^{0,\alpha}(B(c_j,r))}
+\|\Delta U_q(\cdot,t)\|_{L^\infty(B(c_j,r))}
+\le
+\|u(\cdot,t)\|_{C^{q+3}(B(c_j,2\rho_r))}.
+\tag{DTC.AFF-NKF4e1}
+```
+
+The retained condition `(DTC.AFF-NKF4ret)` therefore gives
+`\mathcal K_{\le m}^{ctr,[r]}\in L^1(I_r)` for each fixed
+`0<r<\rho_r`.
+
+For point recovery, if `f\in L^1_tC^{0,\alpha}(B(c_j,\rho_r))`, then
+
+```math
+|f(c_j(t),t)-f_j^{[r]}(t)|
+\le
+C r^\alpha [f(\cdot,t)]_{C^{0,\alpha}(B(c_j,r))}.
 \tag{DTC.AFF-NKF4f}
 ```
 
-and the retained-window radius is chosen so the `L^1_t` error is arbitrarily
-small. Thus
+Apply this to `f=K_q` and to the bounded affine-frame transformed components.
+Retained smoothness gives the required `L^1_tC^{0,\alpha}` seminorms, so choose
+`r` so that
+
+```math
+\|\mathcal K_{\le m}^{ctr}-\mathcal K_{\le m}^{ctr,[r]}\|_{L^1(I_r)}
+<\epsilon.
+\tag{DTC.AFF-NKF4f1}
+```
+
+Thus
 
 ```math
 NKF.Moll+NKF.Point

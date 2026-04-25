@@ -253,14 +253,17 @@ K_le_m^ctr:
 
 ACT.Kcore:
   K0.Core + E1.Aff + Kmid.Core => K_le_m^ctr in L1(I).
-  Residual pressure is routed first through ACT.X-Press_cell, after subtracting
-  the native affine normal-form pressure p_j^aff from p_j^loc.
+  This is supplied by NKF.Native through NKF.A: the retained-center native
+  forcing packet P_le_m^{ctr,nat} is in L1(I).
+  Residual pressure is routed first through the ACT.X-Press_cell component of
+  NKF.Native, after subtracting the native affine normal-form pressure p_j^aff
+  from p_j^loc.
   This normal form annihilates affine and affine-linear center pressure modes.
   Lower viscous recycle is core-controlled.
   The top-viscous m+1,m+2 line is forcing/readout, not A_buf amplitude.
 
 Routing:
-  ACT.X-Press_cell => ACT.Kcore.
+  NKF.Native => NKF.A => ACT.Kcore.
   ACT.Kcore => ACT.Actr_core.
   ACT.Actr_core + ACT.X-Press_energy => AXE.2.
 
@@ -273,7 +276,7 @@ A_buf^ctr:
 ACT.X-Press_cell:
   finite residual pressure-cell ledger P_le_m^cell in L1(I), controlling
   pi_j^loc=p_j^loc-p_j^aff by a quadratic affine-excess core plus
-  annular/harmonic/far-tail terms and feeding ACT.Kcore.
+  annular/harmonic/far-tail terms as the pressure component of NKF.Native.
 
 ACT.X-Press_energy:
   ACT.Actr_core + local fixed-ball pressure response.
@@ -285,7 +288,8 @@ ACT.X-Press_energy:
 Compact receiver chain:
 
 ```text
-ACT.X-Press_cell
+NKF.Native
+=> NKF.A
 => ACT.Kcore
 => ACT.Actr_core
 

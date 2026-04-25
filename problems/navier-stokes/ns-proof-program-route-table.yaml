@@ -414,18 +414,20 @@ closure_ecology:
         K_le_m^ctr in L1(I) implies A_core^ctr in Linfty(I). K_le_m^ctr consists
         of K_0(c_j), the first-rung affine-frame acceleration E_j^(1), and
         transformed lower-rung forcings Ktilde_{q,j} for 2<=q<=m. The named
-        supplier is the ACT.Kcore ledger identity K0.Core + E1.Aff + Kmid.Core:
-        residual pressure is routed first through ACT.X-Press_cell after
-        subtracting the native affine normal-form pressure p_j^aff from p_j^loc;
-        this normal form annihilates affine and affine-linear center pressure
-        modes. Lower viscous recycle is core-controlled, and the top-viscous m+1,m+2 line is forcing/readout,
+        supplier is NKF.Native through NKF.A: the retained-center native forcing
+        packet P_le_m^{ctr,nat} is in L1(I), giving the ACT.Kcore ledger identity
+        K0.Core + E1.Aff + Kmid.Core. Residual pressure is routed first through
+        the ACT.X-Press_cell component of NKF.Native after subtracting the native
+        affine normal-form pressure p_j^aff from p_j^loc; this normal form
+        annihilates affine and affine-linear center pressure modes. Lower viscous
+        recycle is core-controlled, and the top-viscous m+1,m+2 line is forcing/readout,
         not pre-pressure A_buf amplitude. The m+1 and m+2 modes are
         buffer/readout modes; proving them before ACT.X-Boot would
         require the optional top forcing sum_{q=m+1}^{m+2}|Ktilde_q|^2 in L1(I)
         and risks rung creep.
       act_x_press_rule: >-
         Pressure is split into ACT.X-Press_cell and ACT.X-Press_energy. The
-        cell form supplies the residual P_le_m^cell in L1(I) for ACT.Kcore,
+        cell form supplies the residual P_le_m^cell component of NKF.Native,
         controlling pi_j^loc=p_j^loc-p_j^aff by a quadratic affine-excess core
         plus annular/harmonic/far-tail terms. The energy form is licensed only
         after ACT.Actr_core and the residual local fixed-ball pressure response;
@@ -434,12 +436,12 @@ closure_ecology:
         scale-small bootstrap as the cutoff term. It does not spend
         LCI.A, CSP.A, OFP.A, or Field.
       act_compact_chain: >-
-        ACT.X-Press_cell => ACT.Kcore => ACT.Actr_core, then ACT.Actr_core +
+        NKF.Native => NKF.A => ACT.Kcore => ACT.Actr_core, then ACT.Actr_core +
         ACT.X-Def + ACT.X-Energy + ACT.X-Cut + ACT.X-Press_energy + ACT.X-Mid
         + ACT.X-TopVisc + ACT.X-Scale + ACT.X-Boot + RWS.C_scale +
         ACT.X-Readout =>
         ACT.A => RCF.A => LCI.A. This is the receiver-side proof plan, not a discharge;
-        the next proof targets are ACT.X-Press_cell, ACT.X-Scale,
+        the next proof targets are NKF.Native, ACT.X-Scale,
         and RWS.C_scale.
       audit_correction: >-
         DTR.A is only a supplier theorem. Bare TW_ctr supplies residual
