@@ -190,7 +190,7 @@ END.Cross
 Thus
 
 ```math
-CFI.A+\mathsf{End}_{NS}
+CFI.A + \mathsf{End}_{NS}
 \Longrightarrow
 \text{no finite-time class exit}.
 \tag{CFI.5e}
@@ -983,7 +983,7 @@ The live queue under this compression route is:
 The corrected receiver-to-class certificate map is now recorded in
 [mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md).
 It preserves the final endpoint as the conditional certificate
-`CFI.A+\mathsf{End}_{NS}`: the receiver side is compressed to the
+`CFI.A + \mathsf{End}_{NS}`: the receiver side is compressed to the
 parameter-stable `LCI` theorem family plus `(FCI.5f)`, `AFD.A`, and `RCF.A`,
 while the endpoint-exclusion matrix still has open Pack, Field, blown, and
 cross-entry cells.

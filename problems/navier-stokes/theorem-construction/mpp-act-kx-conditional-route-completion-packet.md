@@ -1,8 +1,7 @@
 # ACT.KX Conditional Route Completion Packet
 
-This packet records the completed conditional route theorem requested for the
-current class-membership lane. "Complete" here means that each named cell has a
-route-valid proof from its named inputs in the installed Navier-Stokes
+This completes the list as a conditional route theorem packet. "Complete" here
+means each cell has a route-valid proof from its named inputs inside the repo
 vocabulary. It does not replace the theorem-facing status surfaces; it is the
 single ordered packet they cite.
 

@@ -184,7 +184,7 @@ END.Cross
 and therefore
 
 ```math
-CFI.A+\mathsf{End}_{NS}
+CFI.A + \mathsf{End}_{NS}
 \Longrightarrow
 \text{no finite-time class exit}.
 \tag{CFP.4}

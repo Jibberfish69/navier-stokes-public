@@ -50,7 +50,7 @@ live_theorem_edge:
     analytic readout (`DTC-to-TowerBound`) plus source channels
     `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, with `END.Exh` and `END.Cross`
     recorded in parallel as certificate/semantic cells. Therefore
-    `CFI.A+End_NS => no finite-time class exit`. The older TPS / `SG.4`
+    `CFI.A + End_NS => no finite-time class exit`. The older TPS / `SG.4`
     selector wall remains only downstream context.
   paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
     "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",

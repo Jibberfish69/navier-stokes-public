@@ -336,7 +336,7 @@ END.Cross
 and hence
 
 ```math
-CFI.A+\mathsf{End}_{NS}
+CFI.A + \mathsf{End}_{NS}
 \Longrightarrow
 \text{no finite-time class exit}.
 \tag{SC.14g}

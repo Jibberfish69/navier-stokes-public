@@ -175,7 +175,7 @@ END.Cross
 Thus the terminal use of this note is
 
 ```math
-CFI.A+\mathsf{End}_{NS}
+CFI.A + \mathsf{End}_{NS}
 \Longrightarrow
 \text{no finite-time class exit}.
 \tag{OFP.3f}
@@ -1436,7 +1436,7 @@ The corrected end-to-end certificate map is recorded in
 [mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md).
 It keeps three distinctions explicit: `U2H.A` closes only the pulled-back
 halo-gradient residue, the widened `LCI` calls remain parameter-shifted
-obligations, and the final `CFI.A+\mathsf{End}_{NS}` lane certificate remains
+obligations, and the final `CFI.A + \mathsf{End}_{NS}` lane certificate remains
 conditional on the endpoint-exclusion matrix.
 The finite lower-carrier Gronwall step across those widened calls is isolated
 in
