@@ -891,10 +891,10 @@ obligations:
     source-side block unless promoted as installed; with `(FCI.5f)` installed,
     the terminal theorem blocks are exactly `DTC.A_{\mathfrak p}` across
     `\mathscr P_{\rm req}` and `\mathsf{End}_{NS}`. The direct PDE core inside
-    `DTC.A` has sharpened from the older `DTC.M-Linear` slogan into the ordered
-    affine-excess package `ACT.Actr_core + ACT.X-Def + AXE.A + ACT.X-Scale +
-    ACT.X-Boot + RWS.C_scale + ACT.X-Readout => AXP.A => ACT.A => DTC.M-Affine
-    => DTC.PRE`. This package supplies `DTC.M^\infty` without spending `EOC.A`,
+    `DTC.A` has sharpened from the older `DTC.M-Linear` slogan into the
+    simultaneous affine-center package `ACT.KX + RWS.C_scale + ACT.X-Readout =>
+    AXP.A => ACT.A => DTC.M-Affine => DTC.PRE`. This package supplies
+    `DTC.M^\infty` without spending `EOC.A`,
     `AFD.A`, `RCF.A`, `LCI.A`, `CSP.A`, `OFP.A`, or `Field`; it also keeps
     `A_buf` as readout/top-viscous buffer data rather than pre-pressure
     Gronwall data. `RWS.C_scale` is the fixed-readout compatibility bridge, not
@@ -956,23 +956,23 @@ obligations:
     and `F^{ctr,res} in L1`. This is not unconditional: center zero modes must
     be split into `A_core^ctr` and `A_buf^ctr` because the raw `q=0` center term
     is not small as `R -> 0`, and a full-strip proof needs a small-budget
-    scheduler, not merely finite `L,F`. The named atom split is `ACT.X-Def + ACT.X-Energy +
-    ACT.X-Scale + ACT.X-Boot + RWS.C_scale + ACT.X-Readout`: `ACT.X-Def` separates the small affine excess
-    `X_exc` from the readout packet `Y_read = A_core^ctr + A_buf^ctr + X_exc`;
-    `ACT.X-Energy` proves the absorbable inequality for `X_exc`; `ACT.X-Boot`
-    performs the `eta_X` first-exit argument; `RWS.C_scale` transfers the
-    small-radius cover to the fixed readout scale; and `ACT.X-Readout` spends
-    `Y_read`, so `A_core^ctr` must be supplied by `ACT.Actr_core` while
-    `A_buf^ctr` remains readout/top-viscous buffer data.
+    scheduler, not merely finite `L_0,F_0,F_K`. The named atom split is
+    `ACT.X-Def + AXE.A + ACT.X-Cut + ACT.X-Press_energy + ACT.X-MidRaw +
+    ACT.X-TopVisc + ACT.X-Scale + RWS.C_scale => ACT.KX`: `ACT.X-Def` separates
+    the small affine excess `X_exc` from the readout packet
+    `Y_read = A_core^ctr + A_buf^ctr + X_exc`; `AXE.A` proves the excess line
+    inside `ACT.KX`; `ACT.X-MidRaw` carries the zero-mode linearized middle terms
+    through `A_core`; `RWS.C_scale` transfers the small-radius cover to the fixed
+    readout scale; and `ACT.X-Readout` spends `Y_read` after `ACT.KX` supplies
+    `A_core^ctr`.
     The scheduler restarts only `X_exc` at budget endpoints using the current
     transported center frame. `AXP.A` does not prove `ACT.X-Energy`, `(FCI.5f)`,
     or any endpoint entry.
-    The compact receiver plan is now `ACT.Actr_core + ACT.X-Def + AXE.A +
-    ACT.X-Scale + ACT.X-Boot + RWS.C_scale + ACT.X-Readout => AXP.A => ACT.A => RCF.A =>
-    LCI.A`, where `AXE.A` abbreviates `AXE.1+AXE.2+AXE.3+AXE.4 =>
-    ACT.X-Energy`, `ACT.X-Scale` supplies the scale-small restart seed from
-    retained smooth center-ball regularity, and `ACT.X-Boot` is the
-    Seed+Sched+Absorb theorem. `RWS.C_cover` supplies the dynamic same-fluid
+    The compact receiver plan is now `ACT.KX + RWS.C_scale + ACT.X-Readout =>
+    AXP.A => ACT.A => RCF.A => LCI.A`, where `AXE.A` abbreviates
+    `AXE.1+AXE.2+AXE.3+AXE.4` as the excess line inside `ACT.KX`, and
+    `ACT.X-Scale` supplies the scale-small restart seed from retained smooth
+    center-ball regularity. `RWS.C_cover` supplies the dynamic same-fluid
     cover from compact retained label tubes and the pack gauge. `RWS.C_scale` is
     the finite-cover readout bridge that recovers fixed-radius readouts from small-radius restarted packets; it
     does not assert fixed-radius packet smallness. This
