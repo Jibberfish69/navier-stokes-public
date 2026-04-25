@@ -280,11 +280,11 @@ Combining `(EST.C1)`--`(EST.C4)` proves the terminal recombination. ∎
 
 ## Corollary: Conditional terminal lane closure
 
-Assume the retained-window receiver package has supplied `LCI.A`, the post-`LCI.A` source cells `(EST.5)` hold, and the endpoint input cells `(EST.4)` hold. Then there is no finite-time class exit.
+Assume the retained-window receiver package has supplied `LCI.A`, the post-`LCI.A` source cells `(EST.5)` hold, the endpoint input cells `(EST.4)` hold, and the class-membership forward inputs `CFI.B1` and `CFI.B2` hold. Then there is no finite-time class exit.
 
 ### Proof
 
-By Theorem B, `(EST.5)` gives `FCI.5f`. By Theorem A, `(EST.4)` gives `End_NS`. With `LCI.A`, `FCI.5f`, and `End_NS`, Theorem C gives no finite-time class exit. ∎
+By Theorem B, `(EST.5)` gives `FCI.5f`. By Theorem A, `(EST.4)` gives `End_NS`. The assumptions now include `LCI.A`, `CFI.B1`, and `CFI.B2`, so Theorem C applies with all required hypotheses. Therefore there is no finite-time class exit. ∎
 
 ## Boundary
 
