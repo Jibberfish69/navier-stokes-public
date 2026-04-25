@@ -1099,6 +1099,59 @@ and the tower face from Proposition 14,
 Together with `END.Exh` and `END.Cross`, these exclude every endpoint face in
 the accepted matrix. Therefore `End_NS` holds. `\square`
 
+## Conditional-to-Original Upgrade (`ORIGIN.Retain`)
+
+`ORIGIN.Retain` is not an extra assembly step inside Theorem 1. It is the
+remaining global upgrade needed when the target is original-data closure rather
+than conditional retained-window closure.
+
+**Theorem 2 (`ORIGIN.Retain`).** Let `u_0` be smooth divergence-free data, and
+let `(u,p)` be the maximal classical Navier-Stokes solution on
+`[0,T_*)`. Assume `CFI.A` is established on every retained window and every
+first loss of retained smooth center-ball regularity is certified by `END.Exh`.
+Then the retained-window hypotheses H1-H4 follow from the original
+class-membership setup on every compact interval `I\Subset[0,T_*)`.
+
+Equivalently, for every compact `I\Subset[0,T_*)`, there is a finite retained
+window cover `I=\bigcup_r I_r` such that, on each `I_r`,
+
+```math
+\sum_j
+|u|_{L^1_t C^{m+2,\alpha}(B(c_j,2\rho_r))}
++
+\sum_j
+|p|_{L^1_t C^{m+1,\alpha}(B(c_j,2\rho_r))}
+<\infty,
+```
+
+and the retained budget satisfies
+
+```math
+\left(
+\mathcal X^{exc}(t_r)+|F|_{L^1(I_r)}
+\right)
+e^{|L|_{L^1(I_r)}}<2\eta_X.
+```
+
+**Proof structure.** On a compact classical subinterval, smoothness gives local
+`C^k` bounds on finitely many transported center tubes, so the retained
+center-ball regularity needed by `RSCB.NKF` holds. Absolute continuity of the
+`L^1` integrals of `L` and `F` gives a finite partition with the required local
+budget. At each restart, `ACT.X-Scale` supplies
+
+```math
+\mathcal X^{exc}(t_r;R_r)\le\eta_X
+```
+
+after admissible recentering and radius choice, and `RWS.C_scale` transfers
+the finite small-radius packet cover back to the fixed-radius readouts.
+
+The only endpoint issue is a first failure of retained-window admissibility as
+`t\uparrow T_*`. By hypothesis, such a failure is certified by `END.Exh`; by
+Theorem 1 and Propositions 14-16, `CFI.A+End_NS` excludes every accepted
+endpoint certificate. Therefore no first retained-window failure occurs before
+`T_*`. This is the retained-window-to-original-data upgrade. `\square`
+
 ## Proof of Theorem 1
 
 By Lemma 1,
@@ -1200,3 +1253,7 @@ CFI.A+End_{NS}
 All dependencies have been used in the theorem order, and every non-derived
 input is one of H1-H6. This completes the conditional `ACT.KX` route theorem.
 `\square`
+
+Thus the final non-assembly mathematical item beyond the conditional theorem
+is exactly `ORIGIN.Retain`: deriving the retained-window hypotheses from the
+original maximal-solution/class-membership setup.

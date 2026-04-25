@@ -29,9 +29,9 @@ object_law_refoundation:
     ym_heat_shadow_carrier: derived supplier/export branch on the Law-2-survivor side
     euclidean_strict_shadow: downstream export branch on the Law-2-survivor side
   theorem_queue:
-    - "promote the installed conditional packet hypotheses to theorem-grade inputs, starting with `mpp-retained-window-native-forcing-theorem-program.md`: `RSCB.NKF => NKF.Moll + NKF.Point => NKF.Native => ACT.KX`"
-    - "install the endpoint tower/certificate side as theorem-grade input: `DTC-to-TowerBound + END.Exh + END.Cross + END.Pack + END.Field => End_NS`"
-    - "keep the source side downstream and post-`LCI.A`: `FCC.C1 + FSCR.C + FPCR.C => FCI.5f`"
+    - "install `ORIGIN.Retain` as the final non-assembly mathematical item: derive retained-window hypotheses from the original maximal-solution/class-membership setup"
+    - "treat the conditional terminal packet as installed under `RSCB.NKF`, `ACT.KX-Boot`, bounded pack gauge, finite required parameter set, post-`LCI.A` source closure, and accepted endpoint certificate maps"
+    - "keep the source side post-`LCI.A`: `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`"
     - "keep TPS / SG.4, exact-potential, Hodge / normal-covector, and Euclidean strict-shadow quarantined as downstream context only"
 live_theorem_edge:
   route_id: live-authority-edge-navier-stokes
