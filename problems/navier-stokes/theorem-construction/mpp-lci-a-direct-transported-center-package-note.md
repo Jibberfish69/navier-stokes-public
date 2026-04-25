@@ -4374,7 +4374,70 @@ LCI.A.
 
 The pressure-cell and core ledgers are consequences of the same package:
 `ACT.X-Press_cell => ACT.Kcore => ACT.Actr_core` after `ACT.KX`, not
-pre-`ACT.KX` suppliers. Thus the remaining parallel theorem blocks are exactly
+pre-`ACT.KX` suppliers.
+
+#### Receiver-Side Conditional Route Cells
+
+Worker R owns only the receiver-side portion of the user's 21-cell conditional
+route theorem. The route-valid receiver cells materialized here are:
+
+| Cell | Materialized object | Receiver-side assertion |
+| --- | --- | --- |
+| `NKF.Native` | `\mathcal P_{\le m}^{ctr,nat}\in L^1` from `RSCB.NKF` through `NKF.Moll + NKF.Point` | retained smooth center-ball forcing is the native input to the center ledger |
+| `NKF.Ann` | projected annular remainder `\Pi_{ann}` | annular pressure is controlled after affine modes are projected away |
+| `NKF.Quad` | pointwise quadratic pressure residual | quadratic pressure feeds the pressure package at the bootstrap scale |
+| `ACT.X-Press` | `ACT.X-Press_energy` plus post-`ACT.KX` `ACT.X-Press_cell` | the named pressure package is `NKF.Native+NKF.Ann+NKF.Quad => ACT.X-Press` |
+| `ACT.X-Cut` | moving-cutoff affine-defect term | contributes only the absorbable `C_{cut}(\mathcal X^{exc})^{1/2}\mathcal N` residue |
+| `ACT.X-MidRaw` | finite triangular middle block with zero-mode linear coefficients | carries those coefficients through `\mathcal A_{\mathrm{core}}^{ctr}` inside `ACT.KX` |
+| `ACT.X-TopVisc` | top `m+1,m+2` viscous buffer modes | keeps `\mathcal A_{\mathrm{buf}}^{ctr}` as readout/buffer data inside `Y_read` |
+| `ACT.KX` | `\mathcal X^{exc}\in L^\infty`, `\mathcal N\in L^1`, `\mathcal K_{\le m}^{ctr}\in L^1`, `\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty` | simultaneous core/excess theorem using `\mathcal J=\mathcal X^{exc}+\theta\mathcal A_{\mathrm{core}}^{ctr}` and absorbing only `(\mathcal X^{exc})^{1/2}\mathcal N` |
+| `ACT.X-Scale` | retained restart seed `\mathcal X^{exc}(s_a;R_a)\le\eta_X` | supplies scale-small initial data for each retained window |
+| `RWS.C_scale` | finite dynamic small-radius cover to fixed readout scale | recovers fixed-radius readouts without asserting fixed-radius smallness |
+| `ACT.X-Readout` | `Y_read=\mathcal A_{\mathrm{core}}^{ctr}+\mathcal A_{\mathrm{buf}}^{ctr}+\mathcal X^{exc}` | spends the full post-`ACT.KX` readout packet |
+| `ACT.A` | `\mathfrak D_1^{aff}\in L^1`, `\mathfrak F^{ctr,res}\in L^1`, `\mathfrak H^{osc,\alpha}\in L^2` | affine-center receiver packet produced by `ACT.X-Readout` |
+| `RCF.A` | residual center-forcing ledger | passes the affine-center packet to the transported-center forcing slot |
+| `LCI.A` | lower-carrier interval integrability | receiver-side output of this owned route portion |
+
+The owned receiver chain is therefore
+
+```math
+NKF.Native+NKF.Ann+NKF.Quad
+\Longrightarrow
+ACT.X\text{-}Press,
+\tag{DTC.40R1}
+```
+
+```math
+ACT.X\text{-}Cut
++
+ACT.X\text{-}Press
++
+ACT.X\text{-}MidRaw
++
+ACT.X\text{-}TopVisc
+\Longrightarrow
+ACT.KX,
+\tag{DTC.40R2}
+```
+
+```math
+ACT.KX
++
+ACT.X\text{-}Scale+RWS.C_{\mathrm{scale}}
+\Longrightarrow
+ACT.X\text{-}Readout
+\Longrightarrow
+ACT.A
+\Longrightarrow
+RCF.A
+\Longrightarrow
+LCI.A.
+\tag{DTC.40R3}
+```
+
+This is only the receiver side. The source-side `FCI` cells and the endpoint
+cells remain parallel theorem blocks outside this Worker R installation. Thus
+the remaining parallel theorem blocks are exactly
 the post-`LCI.A` source channels
 
 ```math

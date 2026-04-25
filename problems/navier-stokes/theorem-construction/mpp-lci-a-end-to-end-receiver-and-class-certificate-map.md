@@ -203,6 +203,22 @@ remaining terminal exclusions
 are still part of `\mathsf{End}_{NS}`. Therefore the final certificate is a
 conditional terminal assembly, not an installed conclusion.
 
+In the endpoint theorem packet, this is the conditional 21-cell
+Pack/Part/Field matrix:
+
+```math
+\{Pack,Part,Field\}
+\times
+\{
+Dead,\ packing\text{-}detached,\ tower\text{-}blown,\ Jump,\ Dead_\times,\ Blown_\times,\ Jump_\times
+\}.
+\tag{RCC.12a}
+```
+
+The cross slots are matrix-reduction slots, not new primitive failure laws.
+They are owned by `END.Cross`; the row-independent tower slot is owned by
+`DTC-to-TowerBound => END.TowerAmp => END.TowerBound`.
+
 ## Corrected Receiver Certificate
 
 Set
@@ -492,9 +508,10 @@ DTC.A_{\mathfrak p}
 The endpoint block is spelled out in
 [mpp-class-membership-endpoint-matrix-closure-contract-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-class-membership-endpoint-matrix-closure-contract-note.md):
 `(Part,Dead)` is already installed, while `END.Pack`, `END.Field`,
-`END.Tower`, and `END.Cross` remain the live endpoint entries.
+`END.TowerBound`, and `END.Cross` are the live endpoint entries in
+`End_NS`.
 
 This is the corrected reading of the proposed end-to-end route: the receiver
 subgraph is compressed to `DTC.A` plus formal `ULCI`/collar/one-field assembly,
 and the lane-level closure is the conditional certificate
-`CFI.A+\mathsf{End}_{NS}`.
+`CFI.A+\mathsf{End}_{NS}`, equivalently `CFI.A+End_NS`.

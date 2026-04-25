@@ -200,6 +200,53 @@ packet formula." It is:
 \tag{PCC.C}
 ```
 
+### Source-route insertion `PCC.C_postLCI` (Packet-factor derivative absorption)
+
+On the post-`LCI.A` source lane, the cutoff coefficient is not a new
+inhomogeneous packet. It is the transported packet-factor derivative ledger
+
+```math
+\mathfrak b_{\psi}^{cut}(t)
+=
+4\nu\big(\Phi_{\psi}^{glob,(1)}(t)\big)^2,
+\qquad
+\Phi_{\psi}^{glob,(1)}(t)=
+\|\nabla\phi_t(\cdot,t)\|_{L^\infty(\mathbf R^3)}.
+\tag{PCC.C1}
+```
+
+The transported packet-factor equations recorded on the companion cutoff note
+as `(FCC.A0)`--`(FCC.A5)` give the post-`LCI.A` coefficient input
+
+```math
+\mathfrak b_{\psi}^{cut}\in L^1(I).
+\tag{PCC.C2}
+```
+
+Summing `(PCC.B0)` over the frozen net gives the same absorption inequality as
+`(FCC.B2b)`:
+
+```math
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}(t;I)
+\le
+\frac12\mathcal N_{N,\rho,\psi}^{visc,\varepsilon}(t;I)
++
+\mathfrak b_{\psi}^{cut}(t)
+\mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I).
+\tag{PCC.C3}
+```
+
+Therefore, once the pressure and strain/cascade source channels are in
+`L^1(I)`, `(PCC.C2)` and `(PCC.C3)` are exactly the cutoff absorption used by
+`FCC.C1` in the source-side conditional route theorem:
+
+```math
+FPCR.C_{postLCI}+FSCR.C_{postLCI}+FCC.C1
+\Longrightarrow
+(FCI.5f).
+\tag{PCC.C4}
+```
+
 ### Obstruction `PCC.Ca` (The first direct packet bound is not yet an independent source-side discharge)
 
 The direct bounds `(PCC.B0)`--`(PCC.B1)` still feed the cutoff channel back into

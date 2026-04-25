@@ -354,6 +354,53 @@ CFI.A.
 
 ## D. Endpoint Bridge Stack
 
+### 11.0 Endpoint/Tower-Bound Conditional Packet
+
+The endpoint and tower-bound part of the conditional 21-cell route theorem is
+the finite Pack/Part/Field endpoint matrix plus the tower-amplitude bridge:
+
+```math
+\mathcal M_{End}^{21}
+:=
+\{Pack,Part,Field\}
+\times
+\{
+Dead,\ packing\text{-}detached,\ tower\text{-}blown,\ Jump,\ Dead_\times,\ Blown_\times,\ Jump_\times
+\}.
+\tag{BL.E0}
+```
+
+The native entries are `(Part,Dead)`, `(Pack,packing-detached)`,
+`(Field,Jump)`, and the row-independent mixed `tower-blown` slot. The remaining
+cells are cross entries, not new primitive law failures. The endpoint theorem
+packet is:
+
+```math
+DTC\text{-}to\text{-}TowerBound
+\Longrightarrow
+END.TowerAmp
+\Longrightarrow
+END.TowerBound,
+\tag{BL.E1}
+```
+
+```math
+END.Exh+END.Cross+END.Pack+END.Field+END.TowerBound
+\Longrightarrow
+End\_NS.
+\tag{BL.E2}
+```
+
+Here `End_NS` is the route-label notation for `\mathsf{End}_{NS}`. Thus the
+terminal class-membership route assembly is:
+
+```math
+CFI.A+End\_NS
+\Longrightarrow
+\text{no finite-time class exit}.
+\tag{BL.E3}
+```
+
 ### 11. `END.Exh`
 
 Endpoint exhaustiveness is:
@@ -528,6 +575,15 @@ CFI.A+\mathsf{End}_{NS}
 \Longrightarrow
 \text{no finite-time class exit}.
 \tag{BL.38}
+```
+
+Equivalently:
+
+```math
+CFI.A+End\_NS
+\Longrightarrow
+\text{no finite-time class exit}.
+\tag{BL.38label}
 ```
 
 ## Compressed Closure Ledger

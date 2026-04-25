@@ -214,31 +214,53 @@ which is the second part of `(FFSRC.A5)`. Finally, `(FCC.C1)` applies with
 `(FFSRC.A3)`, `(FFSRC.A5)`, and `(FFSRC.A4)` and gives the full source theorem
 `(FFSRC.A6)`. ∎
 
-### Corollary `FFSRC.B_postLCI` (Ordered post-`LCI.A` source-lane closure)
+### Corollary `FFSRC.B_postLCI` (Source-side cell of the conditional route theorem)
 
-On the current source lane, the three channel cells are used in the order
+On the post-`LCI.A` source lane, assume the source-side coefficient package
 
 ```math
-FCC.C1
-\Longrightarrow
-FSCR.C
-\Longrightarrow
-FPCR.C
-\Longrightarrow
-(FCI.5f).
+\mathfrak C_{N+1,\rho,\psi}^{\delta}\in L^1(I),
+\qquad
+\Gamma_{N,m,\rho,\psi}^{low}\in L^1(I),
+\qquad
+\mathfrak b_{\psi}^{cut}\in L^1(I),
+\qquad
+\sup_{t\in I}\mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I)<\infty.
 \tag{FFSRC.B2}
 ```
 
-Here `FCC.C1` is the cutoff absorption/Gronwall cell, `FSCR.C` is supplied by
-`FSCR.C_postLCI` from the bounded frozen packet aggregate and
-`\mathfrak C_{N+1,\rho,\psi}^{\delta}\in L^1(I)`, and `FPCR.C` is supplied by
-`FPCR.C_postLCI` from the local pressure split
-`LH/HL + RR + far` together with the low-carrier ledger.
-
-Thus, after `LCI.A`,
+Here `\mathfrak b_{\psi}^{cut}=4\nu(\Phi_{\psi}^{glob,(1)})^2` is the
+packet-factor cutoff coefficient supplied by the transported packet-factor
+derivative package `(FCC.A0)`--`(FCC.A5)`. Under `(FFSRC.B2)`, the source
+channel cells are:
 
 ```math
-FCC.C1+FSCR.C_{postLCI}+FPCR.C_{postLCI}
+FPCR.C_{postLCI}:
+\qquad
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}\in L^1(I),
+\tag{FFSRC.B2a}
+```
+
+```math
+FSCR.C_{postLCI}:
+\qquad
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,sc}\in L^1(I),
+\tag{FFSRC.B2b}
+```
+
+and
+
+```math
+FCC.C1:
+\qquad
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}\in L^1(I).
+\tag{FFSRC.B2c}
+```
+
+Consequently,
+
+```math
+FPCR.C_{postLCI}+FSCR.C_{postLCI}+FCC.C1
 \Longrightarrow
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon}(\cdot;I)\in L^1(I),
 \tag{FFSRC.B3}
@@ -247,22 +269,58 @@ FCC.C1+FSCR.C_{postLCI}+FPCR.C_{postLCI}
 i.e.
 
 ```math
-FCC.C1+FSCR.C+FPCR.C
+FPCR.C+FSCR.C+FCC.C1
 \Longrightarrow
 (FCI.5f)
 \tag{FFSRC.B4}
 ```
 
-on the post-`LCI.A` sufficient source route.
+on the post-`LCI.A` sufficient source route. The older route shorthand
+`FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f` is only an accounting order: the actual
+use of `FCC.C1` consumes the already obtained pressure and strain/cascade
+`L^1` controls and then absorbs the cutoff channel into the viscous/coefficient
+side.
 
 ### Proof
 
-`FCC.C1` absorbs the cutoff channel into the viscous/coefficient side and
-provides the Gronwall law for the frozen-family packet. `FSCR.C_postLCI`
-places the strain/cascade channel in `L^1(I)`. `FPCR.C_postLCI` places the
-pressure channel in `L^1(I)`. The formal source split `(FSL.A0)` / `FCI.Split`
-then identifies the full source ledger as the sum of the cutoff,
-strain/cascade, and pressure channels, proving `(FFSRC.B3)`--`(FFSRC.B4)`. ∎
+The strain/cascade cell is exactly `FSCR.C_postLCI`: integrating `(FFSC.B0)`
+and using
+`\mathfrak C_{N+1,\rho,\psi}^{\delta}\in L^1(I)` together with
+`\mathcal F_{N,\rho,\psi}^{\varepsilon}\in L^\infty(I)` gives `(FFSRC.B2b)`.
+
+The pressure cell is exactly `FPCR.C_postLCI`: the post-`LCI.A` pressure split
+on each frozen packet gives
+
+```math
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}
+\le
+C(\mathcal N^{LH/HL}+\mathcal N^{RR}+\mathcal T^{far}),
+\tag{FFSRC.B5}
+```
+
+where the low-high/high-low and resonant finite-net pieces are bounded by
+`\Gamma_{N,m,\rho,\psi}^{low}\mathcal F_{N,\rho,\psi}^{\varepsilon}` and the
+far-tail term obeys the energy bound
+
+```math
+\mathcal T^{far}(t)
+\le
+C\|u(\cdot,t)\|_{L^2}^2
+\le
+C\|u_0\|_{L^2}^2.
+\tag{FFSRC.B6}
+```
+
+Thus `(FFSRC.B2)` makes all three pressure pieces integrable on the finite
+interval, proving `(FFSRC.B2a)`.
+
+Now apply `FCC.C1` with `(FFSRC.B2a)`, `(FFSRC.B2b)`, and
+`\mathfrak b_{\psi}^{cut}\in L^1(I)`. The cutoff commutator is absorbed into
+half of the frozen-family viscous ledger plus the packet-factor coefficient
+times `\mathcal F_{N,\rho,\psi}^{\varepsilon}`, giving `(FFSRC.B2c)`. Finally,
+the formal source split `(FSL.A0)` / `FCI.Split` identifies the full frozen
+source ledger as pressure plus strain/cascade plus cutoff, proving
+`(FFSRC.B3)`--`(FFSRC.B4)`. ∎
 
 ## Route Position
 

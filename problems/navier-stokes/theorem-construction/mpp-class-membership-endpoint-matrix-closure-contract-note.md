@@ -50,12 +50,19 @@ END.Pack
 \wedge
 END.Field
 \wedge
-END.Tower
+END.TowerBound
 \wedge
 END.Cross
 \wedge
 END.Exh.
 \tag{END.3}
+```
+
+The route label `End_NS` denotes this same package:
+
+```math
+End\_NS\equiv\mathsf{End}_{NS}.
+\tag{END.3label}
 ```
 
 The endpoint matrix is also the grammar used by the survivor-equivalence atlas
@@ -64,6 +71,45 @@ in
 branch readout packets may be identified only when their admissible maps
 preserve the same `Pack / Part / Field` endpoint cell on the same same-fluid
 family.
+
+### Conditional 21-Cell Endpoint Matrix
+
+For the terminal route theorem, the Pack/Part/Field endpoint matrix is the
+finite bookkeeping object
+
+```math
+\mathcal M_{End}^{21}
+:=
+\{Pack,Part,Field\}
+\times
+\{
+Dead,\ packing\text{-}detached,\ tower\text{-}blown,\ Jump,\ Dead_\times,\ Blown_\times,\ Jump_\times
+\}.
+\tag{END.3m}
+```
+
+This is not seven new primitive endpoint laws. It is the three class rows
+tested against the native endpoint faces plus the three cross-entry bundles.
+The route-native cells are discharged by:
+
+| matrix block | discharge route |
+| --- | --- |
+| `(Part,Dead)` | installed entry `(END.0)` |
+| `(Pack,packing-detached)` | `END.Pack` |
+| `(Field,Jump)` | `END.Field` |
+| `tower-blown` row-independent slot | `DTC-to-TowerBound => END.TowerAmp => END.TowerBound` |
+| `Dead_x`, `Blown_x`, `Jump_x` cross bundles | `END.Cross` reduction to the installed/native rows |
+
+Thus the endpoint side of the 21-cell conditional theorem is exactly:
+
+```math
+DTC\text{-}to\text{-}TowerBound
++END.Exh+END.Cross
++Pack/Part/Field\text{ endpoint matrix}
+\Longrightarrow
+End\_NS.
+\tag{END.3n}
+```
 
 ### Theorem Target `END.Exh`
 
@@ -294,7 +340,7 @@ the same local pressure/viscous readout already tracked in the `DTC` package.
 
 ```math
 \text{Every non-native shell interaction reduces to }
-END.Pack,\ END.Field,\ END.Tower,\ \text{or }(Part,Dead).
+END.Pack,\ END.Field,\ END.TowerBound,\ \text{or }(Part,Dead).
 \tag{END.7}
 ```
 
@@ -334,7 +380,7 @@ field-coherence reduction and the installed `(Part,Dead)` row are accepted:
 END.Cross:
 \qquad
 \text{all cross entries reduce to }
-(Part,Dead),\ END.Pack,\ END.Field,\ END.Tower.
+(Part,Dead),\ END.Pack,\ END.Field,\ END.TowerBound.
 \tag{END.7c}
 ```
 
@@ -369,7 +415,7 @@ holds.
 This theorem is formal assembly. Its definition-level content is `END.Exh` and
 `END.Cross`; its non-endpoint analytic input is `END.TowerAmp`, plus the
 already-tracked pack-gauge and one-field inputs. The implication
-`END.TowerAmp => END.Tower` is the closed definition-level cell
+`END.TowerAmp => END.TowerBound` is the closed definition-level cell
 `END.TowerBound`.
 
 Assume a first finite-time class exit at `T_\ast`. If `CFI.A` is installed, then
@@ -391,7 +437,7 @@ is propagated forward.
 By `END.Exh`, the first exit has one of the endpoint shells. The installed entry
 `(Part,Dead)` removes the dead participation endpoint.
 `END.Pack` removes `(Pack,packing-detached)`. `END.Field` removes
-`(Field,Jump)`. `END.Tower` removes the mixed `tower-blown` endpoint. `END.Cross`
+`(Field,Jump)`. `END.TowerBound` removes the mixed `tower-blown` endpoint. `END.Cross`
 reduces every remaining shell interaction to one of those discharged entries.
 
 Thus the assumed first class exit has no endpoint shell left in the matrix.
@@ -404,6 +450,15 @@ CFI.A+\mathsf{End}_{NS}
 \Longrightarrow
 \text{no finite-time class exit}.
 \tag{END.9}
+```
+
+Equivalently, in route-label notation:
+
+```math
+CFI.A+End\_NS
+\Longrightarrow
+\text{no finite-time class exit}.
+\tag{END.9label}
 ```
 
 ## Remaining Content

@@ -305,6 +305,25 @@ ACT.KX + ACT.X-Scale + RWS.C_scale
 => LCI.A
 ```
 
+Receiver-side route-valid cells from the user's 21-cell conditional route theorem:
+
+| Cell | Receiver object materialized | Route-valid role |
+| --- | --- | --- |
+| `NKF.Native` | native center forcing `P_{\le m}^{ctr,nat}` from `RSCB.NKF` via `NKF.Moll + NKF.Point` | supplies point-center forcing without importing `LCI.A`, `CSP.A`, `OFP.A`, or `Field` |
+| `NKF.Ann` | projected annular pressure remainder `Pi_ann` | removes raw affine annular modes from the pressure supplier |
+| `NKF.Quad` | pointwise-in-time quadratic pressure residual | feeds the bootstrap pressure package before the residual cell readout |
+| `ACT.X-Press` | two-use pressure package: `ACT.X-Press_energy` inside the bootstrap and `ACT.X-Press_cell` after `ACT.KX` | routes `NKF.Native + NKF.Ann + NKF.Quad` into pressure control without making pressure a pre-`ACT.KX` closure theorem |
+| `ACT.X-Cut` | moving-cutoff affine-defect estimate | contributes only `C_cut X_exc^(1/2) N` to the absorbable excess line |
+| `ACT.X-MidRaw` | triangular finite-depth middle block with zero-mode linear terms | keeps `A_core^ctr` inside `ACT.KX` instead of smuggling it as pre-core data |
+| `ACT.X-TopVisc` | `m+1,m+2` viscous buffer/readout modes | keeps `A_buf^ctr` in `Y_read`, not in the smallness variable |
+| `ACT.KX` | simultaneous propagation of `X_exc`, `N`, `K_{\le m}^{ctr}`, and `A_core^ctr` | joint core/excess theorem using `J=X_exc+theta A_core` while absorbing only the `X_exc^(1/2)N` term |
+| `ACT.X-Scale` | small-radius retained restart seed `X_exc(s_a;R_a) <= eta_X` | supplies the seed for each retained restart; it is not fixed-radius smallness |
+| `RWS.C_scale` | finite dynamic small-radius cover to fixed readout scale | licenses fixed-radius readout after the scale-small run |
+| `ACT.X-Readout` | `Y_read=A_core^ctr+A_buf^ctr+X_exc` | spends the full bounded readout packet after `ACT.KX` |
+| `ACT.A` | `D_1^aff in L1`, `F_ctr_res in L1`, and `H_osc^alpha in L2` | packages the receiver output supplied by `ACT.X-Readout` |
+| `RCF.A` | residual center-forcing ledger | converts the affine-center receiver output into the transported-center residual forcing slot |
+| `LCI.A` | lower-carrier interval integrability readout | receiver-side endpoint of Worker R's route portion |
+
 This is a conditional retained-window receiver discharge, not an unconditional
 energy result. The live native forcing certificate is `RSCB.NKF`, which
 supplies the retained smooth forcing route

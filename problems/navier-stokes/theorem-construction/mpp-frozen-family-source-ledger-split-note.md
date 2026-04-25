@@ -135,6 +135,50 @@ channel, the next two form the strain/cascade interaction channel, and the last
 term is the viscous cutoff-commutator channel. So `(FSL.A0)` is immediate, and
 `(FSL.A1)`--`(FSL.A2)` follow by integrating on `I`. ∎
 
+## Conditional Source-Route Readout
+
+The source-side cell of the current conditional route theorem uses this formal
+split without adding a fourth source object. The post-`LCI.A` source package is:
+
+```math
+FPCR.C_{postLCI}:
+\quad
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}\in L^1(I),
+\tag{FSL.C1}
+```
+
+```math
+FSCR.C_{postLCI}:
+\quad
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,sc}\in L^1(I),
+\tag{FSL.C2}
+```
+
+```math
+FCC.C1:
+\quad
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}\in L^1(I),
+\tag{FSL.C3}
+```
+
+and therefore, by `(FSL.A0)`,
+
+```math
+FPCR.C_{postLCI}+FSCR.C_{postLCI}+FCC.C1
+\Longrightarrow
+(FCI.5f).
+\tag{FSL.C4}
+```
+
+The pressure cell is the local pressure split into low-high/high-low,
+resonant finite-net, and energy far-tail pieces; the strain/cascade cell is
+the finite frozen packet aggregate against the post-`LCI.A` collar coefficient;
+the cutoff cell is the packet-factor derivative/cutoff absorption through
+`\mathfrak b_{\psi}^{cut}=4\nu(\Phi_{\psi}^{glob,(1)})^2`. Thus the
+source-side contribution to the conditional route is exactly the three-channel
+frozen-family source split, not a receiver `ACT.KX` theorem and not an endpoint
+certificate.
+
 ## Route Position
 
 This note does **not** claim a new theorem below `(FCI.5f)`. It only records

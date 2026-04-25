@@ -176,6 +176,41 @@ to `L^1(I)` by `(FFPB.A6)`. The far tail `(FFPB.A5)` belongs to `L^\infty(I)`,
 hence to `L^1(I)` on the finite interval. Summing the three pieces in
 `(FFPB.A2)` proves `(FFPB.A7)`. ∎
 
+### Source-route readout for `FPCR.C`
+
+For the conditional source packet, `FPCR.C_postLCI` is the installed
+source-side pressure cell:
+
+```math
+FPCR.C_{postLCI}
+\equiv
+\left[
+\mathcal N^{LH/HL}+\mathcal N^{RR}+\mathcal T^{far}\in L^1(I)
+\right]
+\Longrightarrow
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}\in L^1(I).
+\tag{FFPB.A8}
+```
+
+The only post-`LCI.A` data spent here are the low-carrier coefficient
+`\Gamma_{N,m,\rho,\psi}^{low}\in L^1(I)`, the bounded frozen-family packet
+aggregate `\mathcal F_{N,\rho,\psi}^{\varepsilon}\in L^\infty(I)`, and the
+ordinary energy far-tail
+
+```math
+\mathcal T^{far}(t)
+\lesssim
+\|u(\cdot,t)\|_{L^2}^2
+\le
+\|u_0\|_{L^2}^2.
+\tag{FFPB.A9}
+```
+
+Thus the pressure contribution to
+`FPCR.C+FSCR.C+FCC.C1 -> (FCI.5f)` is a source/frozen-family pressure
+localization statement. It does not import a receiver `ACT.KX` theorem or any
+endpoint certificate.
+
 ## Route Position
 
 The current on-disk route already gives three surrounding facts:
