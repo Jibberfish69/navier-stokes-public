@@ -868,12 +868,10 @@ obligations:
     repo-native queue is the widened receiver return `(EOC.27)` as `WRR.A`,
     paired with the anchored-center ledger to close the pulled-back
     `\nabla_xU_1` halo carrier through `U2H.A`; with the `OFP.C1e2`
-    first-rung/deformation inputs this obtains `(OFP.10cb)`. The segment side
-    is handled; the live next cell is `WTL.C`,
-    `\Gamma_{N,m,\rho,\psi}^{low,\delta+\delta_{seg}}\in L^1(I)`, with
-    `(FCI.5f)` as the parallel source-side burden. Together they give the
-    thickened consumer `CSP.A_{\delta+\delta_{seg}}` by `WTC.A` and recombine through
-    `EOC.C` / `EOC.Ca` to `EOC.A`. The retained still-live admission packet
+    first-rung/deformation inputs this obtains `(OFP.10cb)`. This older
+    thickened-collar queue is now downstream context: the active retained-window
+    receiver/source packet supplies `LCI.A+FCI.5f => CSP.A => OFP.A => CFI.A`.
+    The retained still-live admission packet
     `SLR.A`--`SLR.D` is only a sufficient shortcut for those inputs. Without
     that admission, the route-native widened-family compression remains the
     old `LCI` / `CSP` fixed point. The end-to-end certificate map records the

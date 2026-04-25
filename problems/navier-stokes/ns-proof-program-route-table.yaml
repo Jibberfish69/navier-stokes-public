@@ -385,50 +385,50 @@ closure_ecology:
         cutoff/frame estimate.
       act_scale_small_alternative: >-
         ACT.ScaleSmall is a conditional sufficient branch: if the
-        scale-normalized affine excess satisfies dX_exc + cN <= L X_exc +
-        (C_cut+C_press) X_exc^(1/2) N + F with L,F in L1, and the initial excess
-        plus source budget is below the eta_X absorption threshold, then
-        the nonlinear excess term is absorbed and ACT.E1/E2 follows on that
-        affine interval. X is excess-only; center zero modes must be split into
-        A_core^ctr and A_buf^ctr rather than placed in the smallness variable,
-        and a full-strip proof needs ACT.X-Scale at each retained restart,
-        ACT.X-Boot, and RWS.C_scale to recover fixed-radius readouts, not just a
-        retained-window partition.
+        scale-normalized affine excess satisfies dX_exc + cN <=
+        (L0+C A_core)X_exc + (C_cut+C_press) X_exc^(1/2) N + F0, while the
+        core line and forcing line are carried in the same ACT.KX block. If the
+        initial excess plus source budget is below the eta_X absorption
+        threshold, then the nonlinear excess term is absorbed and ACT.E1/E2
+        follows on that affine interval. X is excess-only; center zero modes
+        split into A_core^ctr and A_buf^ctr rather than being placed in the
+        smallness variable, and a full-strip proof needs ACT.X-Scale at each
+        retained restart, ACT.KX, and RWS.C_scale to recover fixed-radius
+        readouts, not just a retained-window partition.
       act_x_atom_split: >-
         ACT.X-Def separates the small affine excess X_exc from the full readout
-        packet Y_read = A_core^ctr + A_buf^ctr + X_exc. ACT.X-Energy is the
-        inequality dX_exc + cN <= L X_exc + (C_cut+C_press) X_exc^(1/2) N + F.
-        ACT.X-Boot is the eta_X first-exit argument for X_exc with that
-        combined threshold. ACT.X-Readout spends Y_read, so A_core^ctr must be
-        controlled by ACT.Actr_core and A_buf^ctr is readout/top-viscous buffer
-        data; neither can be smuggled into the smallness variable. ACT.X-Scale
-        supplies the small restart seed from retained smooth center-ball
-        regularity, and ACT.X-Boot propagates X_exc by the Seed+Sched+Absorb
-        theorem after the budget condition is met. RWS.C_cover supplies the
+        packet Y_read = A_core^ctr + A_buf^ctr + X_exc. AXE.A is the excess
+        line inside ACT.KX; ACT.X-MidRaw contributes real zero-mode linear
+        terms controlled by A_core. ACT.KX uses the eta_X first-exit argument
+        for X_exc with that combined threshold and carries A_core in
+        J=X_exc+theta A_core. ACT.X-Readout spends Y_read after ACT.KX has
+        supplied A_core^ctr; A_buf^ctr is readout/top-viscous buffer data and
+        cannot be smuggled into the smallness variable. ACT.X-Scale supplies the
+        small restart seed from retained smooth center-ball regularity. RWS.C_cover supplies the
         dynamic same-fluid cover from compact retained label tubes and the pack
         gauge. RWS.C_scale is the finite-cover readout bridge that transfers
         small-radius packets to the fixed-radius readouts; it does not assert
         fixed-radius packet smallness.
       act_center_core_rule: >-
-        The post-bootstrap center-amplitude rule is now ACT.Actr_core:
-        K_le_m^ctr in L1(I) implies A_core^ctr in Linfty(I). K_le_m^ctr consists
-        of K_0(c_j), the first-rung affine-frame acceleration E_j^(1), and
-        transformed lower-rung forcings Ktilde_{q,j} for 2<=q<=m. The joint
-        supplier is ACT.KX after RSCB.NKF supplies NKF.Native: NKF.Native +
-        NKF.Ann + NKF.Quad + AXE.A + ACT.X-Scale + ACT.X-Boot + RWS.C_scale produce
-        ACT.X-Press_cell, then ACT.Kcore and ACT.Actr_core. Residual pressure is read from ACT.X-Press_cell after
+        The center-amplitude rule is now carried inside ACT.KX:
+        K_le_m^ctr in L1(I) and A_core^ctr in Linfty(I) are joint outputs.
+        K_le_m^ctr consists of K_0(c_j), the first-rung affine-frame acceleration
+        E_j^(1), and transformed lower-rung forcings Ktilde_{q,j} for 2<=q<=m.
+        RSCB.NKF supplies NKF.Native, then NKF.Native + NKF.Ann + NKF.Quad +
+        ACT.X-Cut + ACT.X-Press_energy + ACT.X-MidRaw + ACT.X-TopVisc +
+        ACT.X-Scale + RWS.C_scale produce ACT.KX. Residual pressure is read from ACT.X-Press_cell after
         subtracting the native affine normal-form pressure p_j^aff from
         p_j^loc; this normal form annihilates affine and affine-linear center
         pressure modes. Lower viscous recycle is core-controlled, and the
         top-viscous m+1,m+2 line is forcing/readout, not pre-pressure A_buf
         amplitude. The m+1 and m+2 modes are
-        buffer/readout modes; proving them before ACT.X-Boot would
+        buffer/readout modes; proving them before ACT.KX would
         require the optional top forcing sum_{q=m+1}^{m+2}|Ktilde_q|^2 in L1(I)
         and risks rung creep.
       act_x_press_rule: >-
         Pressure is split into in-bootstrap normal-form estimates and the
         post-bootstrap ACT.X-Press_cell readout. The cell form supplies the
-        residual P_le_m^cell only after ACT.X-Boot, controlling
+        residual P_le_m^cell only after ACT.KX, controlling
         pi_j^loc=p_j^loc-p_j^aff by a quadratic affine-excess core plus
         projected annular/harmonic/far-tail terms. The energy form is an AXE.A atom, not
         an after-Actr_core theorem; finite pressure far-tail is energy-controlled
@@ -436,10 +436,10 @@ closure_ecology:
         to the same scale-small bootstrap as the cutoff term. It does not spend
         LCI.A, CSP.A, OFP.A, or Field.
       act_compact_chain: >-
-        RSCB.NKF => NKF.Moll + NKF.Point => NKF.Native => NKF.A =>
-        ACT.Kcore => ACT.Actr_core; then ACT.Actr_core + ACT.X-Def + AXE.A +
-        ACT.X-Scale + ACT.X-Boot + RWS.C_scale => ACT.X-Press_cell +
-        ACT.X-Readout =>
+        RSCB.NKF => NKF.Moll + NKF.Point => NKF.Native; then NKF.Native +
+        NKF.Ann + NKF.Quad + ACT.X-Cut + ACT.X-Press_energy + ACT.X-MidRaw +
+        ACT.X-TopVisc + ACT.X-Scale + RWS.C_scale => ACT.KX =>
+        ACT.X-Press_cell + ACT.Kcore + ACT.Actr_core + ACT.X-Readout =>
         ACT.A => RCF.A => LCI.A. This is a conditional retained-window receiver
         discharge, not an unconditional energy result. The live native forcing
         certificate is RSCB.NKF, which supplies the retained smooth forcing route
