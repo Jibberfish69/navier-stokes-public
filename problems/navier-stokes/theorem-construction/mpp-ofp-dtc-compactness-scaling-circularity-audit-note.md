@@ -308,6 +308,68 @@ It is the precise scheduler/pressure/center-amplitude triad:
 \tag{ODC.15e}
 ```
 
+## Averaged Replacement Gate
+
+The 2026-04-26 audit splits the receiver route into two typed branches.
+
+The old branch is a retained local smoothness / center-ball forcing
+certificate:
+
+```math
+RSCB.NKF
+\Longrightarrow
+NKF.Native
+\Longrightarrow
+ACT.KX.
+\tag{ODC.15f}
+```
+
+It is clean only if retained center-ball smoothness is an allowed input. It is
+not a proof of point-center pressure or viscous forcing from finite energy,
+bounded pack gauge, same-fluid geometry, and pressure Poisson structure alone.
+
+The finite-energy-native branch must instead target the averaged packet:
+
+```math
+SCF_{\mathrm{avg}}
+\Longrightarrow
+AACT.KX
+\Longrightarrow
+DTC.A_{\mathrm{avg}}.
+\tag{ODC.15g}
+```
+
+The old pointwise object is separated as a later readout theorem:
+
+```math
+DTC.Read:
+\qquad
+DTC.A_{\mathrm{avg}}
+\Longrightarrow
+DTC.A.
+\tag{ODC.15h}
+```
+
+Thus `DTC.A` cannot be spent inside the proof of `SCF_avg`, `AACT.KX`, or
+`DTC.A_avg`. Likewise `DTC.A_avg` cannot feed the endpoint tower packet as
+pointwise `DTC.A` until `DTC.Read` is proved.
+
+The corresponding direct audit gate is:
+
+```math
+\boxed{
+\text{allowed global inputs}
+\Longrightarrow
+SCF_{\mathrm{avg}}\le\varepsilon_\ast
+\text{ or an equivalent scheduler-integrable }SCF_{\mathrm{avg}}
+}
+\tag{ODC.15i}
+```
+
+with no use of `LCI.A`, `CSP.A`, `OFP.A`, `Field`, endpoint exclusion,
+retained point-center smoothness, or subsequential compactness chosen after
+the target output.
+
 ## Failure Diagnostics
 
 If the audit fails, the failure should be recorded in the following precise
@@ -355,23 +417,40 @@ packet that supplies that same propagation.}
 \tag{ODC.20}
 ```
 
+6. Averaged-readout failure:
+
+```math
+DTC.A_{\mathrm{avg}}
+\text{ is treated as pointwise }DTC.A
+\text{ before }DTC.Read\text{ is proved.}
+\tag{ODC.20a}
+```
+
+7. Retained-smoothness smuggling failure:
+
+```math
+RSCB.NKF,\ NKF.Point,\text{ or point pressure-center smoothness}
+\text{ is used inside the finite-energy-native }SCF_{\mathrm{avg}}\text{ route.}
+\tag{ODC.20b}
+```
+
 ## Route Position
 
 This audit supports the current judgment that the route is structurally serious
-but not yet a completed proof. It sharpens the danger point rather than changing
-the route:
+but not yet a completed proof. It sharpens the danger point and changes the
+finite-energy-native receiver target:
 
 ```math
 \text{receiver-side substance}
 \Longleftrightarrow
-\text{noncircular proof of }DTC.M\text{-}Linear
-\text{ with }ODC.A1\text{--}ODC.A5.
+\text{noncircular proof of }SCF_{\mathrm{avg}}\to AACT.KX\to DTC.A_{\mathrm{avg}}
+\text{ with }ODC.A1\text{--}ODC.A5\text{ and }ODC.15i.
 \tag{ODC.21}
 ```
 
-No new fourth receiver theorem is introduced here. The note only makes explicit
-the conditions under which the existing `DTC.A -> LCI.A -> CSP.A -> OFP.A`
-assembly is allowed to be read as a valid proof spine.
+The retained pointwise assembly remains available only on the retained-smooth
+branch. The finite-energy-native assembly must carry `DTC.A_avg` until
+`DTC.Read` is separately proved.
 
 ## Conditional Unified-Survivor Packet Interface
 
@@ -401,3 +480,27 @@ LCI.A.
 So the packet may say that a standalone fixed-scale `RWS.Reset` is not the
 chosen route, but it may not erase the scale-seed and readout-compatibility
 burdens `ACT.X-Scale` and `RWS.C_scale`.
+
+For the averaged branch, the corresponding receiver export is:
+
+```math
+SCF_{\mathrm{avg}}
+\Longrightarrow
+AACT.KX
+\Longrightarrow
+X_R\in L^\infty,\quad
+N_R\in L^1,\quad
+\mathcal K_{\le m}^{avg,R}\in L^1,
+\tag{ODC.23}
+```
+
+followed by
+
+```math
+AACT.KX+RWS.C_{\mathrm{scale}}
+\Longrightarrow
+DTC.A_{\mathrm{avg}},
+\tag{ODC.24}
+```
+
+not by pointwise `DTC.A` unless `DTC.Read` is present.

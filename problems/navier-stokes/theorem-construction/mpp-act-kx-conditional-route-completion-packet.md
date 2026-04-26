@@ -7,7 +7,7 @@ accepted endpoint certificate maps are hypotheses of this packet, not
 conclusions proved here.
 
 The packet does not replace the theorem-facing status surfaces. It is the
-single ordered proof packet they cite for the route
+single ordered proof packet they cite for the retained-smoothness route
 
 ```math
 RSCB.NKF
@@ -29,6 +29,33 @@ FCI.5f
 CFI.A
 \Longrightarrow
 End_{NS}.
+```
+
+## Averaged-Route Boundary
+
+The route displayed above spends retained local smoothness through `RSCB.NKF`.
+It must not be cited as a proof of `NKF.Native`, `ACT.X-Scale`, point pressure
+center forcing, or pointwise `DTC.A` from finite energy, bounded pack gauge,
+same-fluid geometry, and pressure Poisson structure alone.
+
+When retained smoothness is not an allowed input, the receiver-side replacement
+target is the averaged packet recorded in
+[mpp-averaged-act-kx-scale-critical-forcing-packet-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-averaged-act-kx-scale-critical-forcing-packet-note.md):
+
+```math
+SCF_{\mathrm{avg}}
+\Longrightarrow
+AACT.KX
+\Longrightarrow
+DTC.A_{\mathrm{avg}}.
+```
+
+The old pointwise `DTC.A` remains quarantined behind the later readout theorem
+
+```math
+DTC.Read:
+\qquad
+DTC.A_{\mathrm{avg}}\Longrightarrow DTC.A.
 ```
 
 ## Theorem Statement

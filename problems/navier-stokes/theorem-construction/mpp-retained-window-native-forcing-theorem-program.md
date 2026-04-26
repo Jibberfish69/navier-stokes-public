@@ -2,20 +2,24 @@
 
 ## Status
 
-Theorem-facing next-frontier note.
+Theorem-facing retained-smoothness branch note.
 
-Role: promote hypothesis `H1` of the installed `ACT.KX` conditional completion
-packet into a theorem-grade input.
+Role: promote hypothesis `H1` of the installed retained-branch `ACT.KX`
+conditional completion packet into a theorem-grade input.
+
+This note is not the finite-energy-native receiver route. The averaged
+replacement route is recorded in
+[mpp-averaged-act-kx-scale-critical-forcing-packet-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-averaged-act-kx-scale-critical-forcing-packet-note.md).
 
 This note does not replace
 `mpp-act-kx-conditional-route-completion-packet.md`. It isolates the next
 analytic wall beneath that packet.
 
-## Frontier Position
+## Branch Position
 
-The installed packet is now a conditional terminal closure contract. The live
-frontier is no longer route cleanup inside that packet. The live frontier is
-theorem-grade promotion of its hypotheses, with priority order
+The installed retained packet is a conditional terminal closure contract. On
+the retained-smoothness branch, the frontier is theorem-grade promotion of its
+hypotheses, with priority order
 
 ```math
 RSCB.NKF
@@ -41,7 +45,44 @@ FCC.C1+FSCR.C+FPCR.C
 FCI.5f.
 ```
 
-It is not the first theorem wall anymore.
+It is not the first theorem wall on this retained branch anymore.
+
+For the finite-energy-native branch, this route is the wrong object. The new
+receiver target is not
+
+```math
+NKF.Native,
+```
+
+but
+
+```math
+SCF_{\mathrm{avg}}
+\Longrightarrow
+AACT.KX
+\Longrightarrow
+DTC.A_{\mathrm{avg}}.
+```
+
+The old pointwise `DTC.A` may be recovered only through a later `DTC.Read`
+bridge.
+
+## Audit Answer
+
+`RSCB.NKF` is a retained local smoothness / center-ball forcing certificate.
+It proves point-center forcing only after local smooth center-ball norms are
+available. It must not be cited as a theorem from finite energy, bounded pack
+gauge, same-fluid geometry, and pressure Poisson structure alone.
+
+The point-recovery step
+
+```math
+NKF.Moll\Longrightarrow NKF.Point\Longrightarrow NKF.Native
+```
+
+is exactly where retained smoothness is spent. If retained smoothness is not an
+allowed input, this branch is unavailable and the receiver side must use the
+averaged scale-critical packet route.
 
 ## Governing Target
 
@@ -561,7 +602,8 @@ Those are secondary to `RSCB.NKF`, not replacements for it.
 
 ```math
 \boxed{
-\text{The live frontier is theorem-grade installation of }RSCB.NKF
-\text{ and the endpoint tower/certificate side.}
+\text{Retained branch: theorem-grade installation of }RSCB.NKF.
+\quad
+\text{Finite-energy-native branch: }SCF_{\mathrm{avg}}\to AACT.KX\to DTC.A_{\mathrm{avg}}.
 }
 ```
