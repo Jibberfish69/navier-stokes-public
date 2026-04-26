@@ -28,8 +28,8 @@ Finite-energy-native branch: the old point-center route fails as stated,
 because NKF.Native and ACT.X-Scale spend retained local smoothness. The
 replacement target is SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m =>
 AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg =>
-CSP.A_avg => OFP.A_avg => CFI.A_avg. Concentration_avg is reduced to Jump_avg
-by CAVG.J. Finite energy supplies only SCF_base at good material restarts;
+CSP.A_avg => OFP.A_avg => CFI.A_avg. A nonempty B_epsilon^Phi is folded
+directly into Jump_avg by CAVG.J. Finite energy supplies only SCF_base at good material restarts;
 ATD_m^epsilon is the local epsilon-regularity tower supplier, while SGC.A_strong
 is off the main line as regularity-equivalent. DTC.Read is parked for pointwise
 endpoint/tower recovery, while Field.Read or CM.Read is required before
@@ -134,7 +134,7 @@ same-fluid cover/scale data, and bounded pack gauge where explicitly stated.
 
 For the averaged branch, replace "retained-window data" and "native center
 forcing" by `SCF_base + SGC.A_a.e + ATD_m^epsilon` on the SCF-good complement,
-with `CAVG.J` reducing `Concentration_avg` to `Jump_avg`. Finite energy
+with `CAVG.J` folding nonempty `B_epsilon^Phi` directly into `Jump_avg`. Finite energy
 supplies only `SCF_base`; `ATD_m^epsilon` is the local tower-density supplier.
 The averaged branch does
 not import `NKF.Point`, point pressure-center control, retained center-ball

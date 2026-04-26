@@ -797,7 +797,9 @@ ATD_m^\varepsilon
 AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi},
 \qquad
 CAVG.J:
-Concentration_{\mathrm{avg}}\Longrightarrow Jump_{\mathrm{avg}}.
+\mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing
+\Longrightarrow
+Jump_{\mathrm{avg}}.
 }
 ```
 
@@ -1043,12 +1045,15 @@ AACT.KX.
 This is local. The bad material set is
 
 ```math
+Good_{\varepsilon_m}^{\Phi}(a,t)
+:=
+\exists r>0
+\quad
+SCF_{\mathrm{base}}(Q_r^\Phi(a,t))\le\varepsilon_m,
+\qquad
 \mathcal B_{\varepsilon_m}^{\Phi}
 :=
-\left\{(a,t):
-\forall r>0,\ 
-SCF_{\mathrm{base}}(Q_r^\Phi(a,t))>\varepsilon_m
-\right\}.
+\{(a,t):Good_{\varepsilon_m}^{\Phi}(a,t)\text{ fails}\}.
 ```
 
 Finite energy gives `|\mathcal B_{\varepsilon_m}^{\Phi}|=0` in material
@@ -1070,20 +1075,24 @@ Q^\Phi(I,A_\sharp)\setminus\mathcal B_{\varepsilon_m}^{\Phi}
 }
 ```
 
-and the bad set is handled by the averaged endpoint grammar:
+and the bad set is folded directly into the averaged jump face:
 
 ```math
-Concentration_{\mathrm{avg}}
+Jump_{\mathrm{avg}}
 :=
-\mathcal B_{\varepsilon_m}^{\Phi}\cap Q^\Phi(I,A_\sharp)\ne\varnothing,
+\exists\text{ same-fluid approach tail }\mathcal T
+\text{ such that }
+\mathcal T\cap\mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing,
 \qquad
 CAVG.J:
-Concentration_{\mathrm{avg}}\Longrightarrow Jump_{\mathrm{avg}}.
+\mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing
+\Longrightarrow
+Jump_{\mathrm{avg}}.
 ```
 
-Here `Jump_avg` is read as persistent failure of every positive SCF-good
-averaged one-field coherence scale on the same-fluid tail. With that definition,
-`CAVG.J` is a grammar-level reduction rather than a new regularity theorem.
+Equivalently, the same-fluid tail contains a material point with no positive
+SCF-good coherence scale. With that definition, `CAVG.J` is a grammar-level
+reduction rather than a new regularity theorem.
 
 ## Non-Spending Gates
 
@@ -1154,9 +1163,9 @@ CFI.A_{\mathrm{avg}}
 AVG.END.A.
 ```
 
-The complement is not covered by `SGC.A_strong`; it is routed as
-`Concentration_avg` and discharged through `CAVG.J => Jump_avg` inside the
-averaged endpoint certificate.
+The complement is not covered by `SGC.A_strong`; by `CAVG.J`, a nonempty
+`\mathcal B_{\varepsilon_m}^{\Phi}` is already an instance of `Jump_avg`, so no
+separate concentration endpoint shell is carried.
 
 Only after `DTC.Read` can the old pointwise `DTC.A` and the endpoint
 `DTC-to-TowerBound` packet be invoked without changing their statements. Only

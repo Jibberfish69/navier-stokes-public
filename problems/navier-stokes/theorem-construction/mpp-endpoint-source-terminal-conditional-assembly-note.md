@@ -223,41 +223,45 @@ is finite on that cover:
 \tag{EST.Aavg1a}
 ```
 
-The averaged jump face is loss of every positive SCF-good averaged coherence
-scale:
+Define the SCF-good predicate by
 
 ```math
-Jump_{\mathrm{avg}}
-\quad\Longleftrightarrow\quad
-\forall R>0,\
-Field_{\mathrm{avg},N,R,Q}
-\text{ fails as an SCF-good averaged coherence cover on the same-fluid tail.}
-\tag{EST.Aavg1b}
+Good_{\varepsilon_m}^{\Phi}(a,t)
+:=
+\exists r>0
+\quad
+SCF_{\mathrm{base}}(Q_r^\Phi(a,t))\le \varepsilon_m.
+\tag{EST.Aavg1b0}
 ```
 
-The concentration face records the material SCF-base bad set:
+and the bad set by
 
 ```math
 \mathcal B_{\varepsilon_m}^{\Phi}
 :=
-\left\{(a,t):
-\forall r>0,\
-SCF_{\mathrm{base}}(Q_r^\Phi(a,t))>\varepsilon_m
-\right\},
-\qquad
-Concentration_{\mathrm{avg}}
-:=
-\mathcal B_{\varepsilon_m}^{\Phi}\cap Q^\Phi(I,A_\sharp)\ne\varnothing.
+\{(a,t):Good_{\varepsilon_m}^{\Phi}(a,t)\text{ fails}\}.
 \tag{EST.Aavg1bC}
 ```
 
-The concentration reduction is definition-level under the SCF-good reading of
-`Jump_avg`:
+The averaged jump face is persistent failure of averaged one-field coherence:
+
+```math
+Jump_{\mathrm{avg}}
+\quad\Longleftrightarrow\quad
+\exists\text{ same-fluid approach tail }\mathcal T
+\text{ such that }
+\mathcal T\cap\mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing.
+\tag{EST.Aavg1b}
+```
+
+Equivalently, the same-fluid tail contains a material point with no positive
+SCF-good coherence scale. The bad-set-to-jump reduction is therefore
+definition-level:
 
 ```math
 CAVG.J:
 \qquad
-Concentration_{\mathrm{avg}}
+\mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing
 \Longrightarrow
 Jump_{\mathrm{avg}}.
 \tag{EST.Aavg1bJ}
@@ -297,9 +301,7 @@ END.TowerBound_{\mathrm{avg}}
 \wedge
 END.Cross_{\mathrm{avg}}
 \wedge
-END.Exh_{\mathrm{avg}}
-\wedge
-CAVG.J.
+END.Exh_{\mathrm{avg}}.
 \tag{EST.Aavg2}
 ```
 
@@ -336,9 +338,7 @@ packing\text{-}detached
 \vee
 tower\text{-}blown_{\mathrm{avg}}
 \vee
-Jump_{\mathrm{avg}}
-\vee
-Concentration_{\mathrm{avg}}.
+Jump_{\mathrm{avg}}.
 }
 \tag{EST.Aavg5}
 ```
@@ -353,10 +353,9 @@ Pack\wedge Part\wedge Field_{\mathrm{avg}},
 
 failure of `CM_avg` is failure of at least one factor. Failure of `Part`
 is `Dead`. Failure of `Field_avg` at every positive SCF-good averaged
-coherence scale is `Jump_avg`; if the obstruction is a nonempty SCF-base bad
-material set, the shell is `Concentration_avg`, which reduces to `Jump_avg` by
-`CAVG.J`. Failure of `Pack` is routed through the averaged pack/tower
-certificate split
+coherence scale is `Jump_avg`; by `CAVG.J`, a nonempty SCF-base bad material set
+is already a `Jump_avg` instance, not a separate endpoint shell. Failure of
+`Pack` is routed through the averaged pack/tower certificate split
 
 ```math
 \neg Pack
@@ -453,8 +452,7 @@ END.Pack
 +END.Field_{\mathrm{avg}}
 +END.TowerBound_{\mathrm{avg}}
 +END.Cross_{\mathrm{avg}}
-+END.Exh_{\mathrm{avg}}
-+CAVG.J.
++END.Exh_{\mathrm{avg}}.
 \tag{EST.Aavg7}
 ```
 
@@ -475,8 +473,8 @@ End_{NS,\mathrm{avg}}.
 windows. If an averaged class exit occurs, `END.Exh_avg` produces one
 averaged endpoint shell. The installed `(Part,Dead)` row removes `Dead`;
 bounded pack gauge and `END.Pack` remove `packing-detached`;
-`CAVG.J` reduces `Concentration_avg` to `Jump_avg`; `END.Field_avg` removes
-`Jump_avg`; `END.TowerBound_avg` removes
+`END.Field_avg` removes `Jump_avg`, including the bad-set case folded into it
+by `CAVG.J`; `END.TowerBound_avg` removes
 `tower-blown_avg`; and `END.Cross_avg` reduces the cross cases to those same
 native rows. Therefore no averaged endpoint face remains, and
 `End_NS_avg` holds. ∎
@@ -583,7 +581,7 @@ AVG.RCV.A
 AVG.END.A,
 \qquad
 CAVG.J:
-Concentration_{\mathrm{avg}}\Longrightarrow Jump_{\mathrm{avg}}.
+\mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing\Longrightarrow Jump_{\mathrm{avg}}.
 }
 \tag{EST.Aread9}
 ```
