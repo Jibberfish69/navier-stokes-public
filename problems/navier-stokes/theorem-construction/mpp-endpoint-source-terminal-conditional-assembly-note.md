@@ -537,7 +537,7 @@ and the deeper analytic branch
 
 ```math
 \boxed{
-SCF_{\mathrm{avg}}\text{ supply}
+SCF_{\mathrm{base}}+ATD_m
 \Longrightarrow
 AACT.KX
 \Longrightarrow

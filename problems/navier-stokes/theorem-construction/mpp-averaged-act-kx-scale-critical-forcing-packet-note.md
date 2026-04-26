@@ -775,7 +775,7 @@ and the deeper analytic supply branch
 
 ```math
 \boxed{
-SCF_{\mathrm{avg}}\text{ supply}
+SCF_{\mathrm{base}}+ATD_m
 \Longrightarrow
 AACT.KX
 \Longrightarrow
@@ -787,7 +787,16 @@ AVG.END.A.
 
 ## Supply Wall
 
-Finite energy supplies only the global energy-class controls
+Sharp delimiter:
+
+```math
+\boxed{
+\text{finite energy supplies only the base scale-critical averaged packet,
+at good material restarts.}
+}
+```
+
+Finite energy supplies the global energy-class controls
 
 ```math
 u\in L_t^\infty L_x^2,
@@ -795,24 +804,169 @@ u\in L_t^\infty L_x^2,
 \nabla u\in L^2_{t,x}.
 ```
 
-Together with the pressure Poisson structure, same-fluid geometry, and bounded
-pack gauge, this can supply far-tail and energy-level localized estimates. It
-does not by itself prove the smallness or integrability of every component of
-`SCF_avg`, especially the higher affine tower modes, top-rung viscous packet,
-and pressure excess at scale-critical strength.
-
-Therefore the remaining theorem burden is precise:
+Together with interpolation,
 
 ```math
-\text{allowed global inputs}
-\Longrightarrow
-SCF_{\mathrm{avg}}\le\varepsilon_\ast
-\quad\text{or}\quad
-SCF_{\mathrm{avg}}\in L^1_{\mathrm{sched}}
+u\in L^{10/3}_{t,x},
 ```
 
-for the same-fluid moving cylinders, without using `DTC.A`, `LCI.A`, `CSP.A`,
-`OFP.A`, `Field`, endpoint exclusion, or retained point-center smoothness.
+and the pressure Poisson equation
+
+```math
+-\Delta p=\partial_i\partial_j(u_i u_j),
+```
+
+Calderon-Zygmund gives
+
+```math
+p\in L^{5/3}_{t,x}.
+```
+
+Therefore, at almost every spacetime point `z=(x,t)`,
+
+```math
+\lim_{r\downarrow0}
+r^{-2}\iint_{Q_r(z)}|u-u_{z,r}^{aff}|^3=0,
+```
+
+```math
+\lim_{r\downarrow0}
+r^{-2}\iint_{Q_r(z)}|p-p_{z,r}^{aff}|^{3/2}=0,
+```
+
+and, at finite-density points of `\nabla u`,
+
+```math
+\lim_{r\downarrow0}
+r^{-1}\iint_{Q_r(z)}|\nabla u|^2=0.
+```
+
+Thus finite energy proves only the base packet supply
+
+```math
+\boxed{
+SCF_{\mathrm{base}}(r,z)\to0
+\quad\text{at a.e. spacetime point.}
+}
+```
+
+Incompressibility and bounded pack gauge transport this statement to a.e.
+material label. At a good restart time `s_a`, the same-fluid good-label collar
+admits finite selected moving cylinders with
+
+```math
+SCF_{\mathrm{base}}(R_b,I_b)\le\varepsilon_\ast.
+```
+
+This is the valid energy-level supply theorem.
+
+Finite energy does not control the full averaged `ACT.KX` packet. For
+`m\ge1`, the full packet contains finite-depth averaged tower data beyond
+energy class:
+
+```math
+X_R,\qquad
+N_R,\qquad
+\mathcal K_{\le m}^{avg,R},\qquad
+F_R,
+```
+
+including derivative and pressure tower information
+
+```math
+\nabla^q u,\qquad
+\nabla^{q+1}p,\qquad q\ge1.
+```
+
+Hence the statement
+
+```math
+\text{finite energy}
++\text{Poisson}
++\Gamma_\sharp\in L^\infty
++\text{same-fluid geometry}
+\Longrightarrow
+SCF_{\mathrm{avg}}\le\varepsilon_\ast
+```
+
+is too strong.
+
+The required extra input is
+
+```math
+\boxed{
+ATD_m:
+\text{averaged tower-density supply through depth }m+2.
+}
+```
+
+Define
+
+```math
+SCF_{\mathrm{avg}}^m
+:=
+SCF_{\mathrm{base}}
++
+ATD_m.
+```
+
+Here `ATD_m(R,I_R)` means
+
+```math
+X_R(s_a)\le\eta_X,
+```
+
+```math
+X_R\in L^1_{\mathrm{sched}}(I_R),
+\qquad
+N_R\in L^1(I_R),
+```
+
+```math
+\mathcal K_{\le m}^{avg,R}\in L^1(I_R),
+\qquad
+F_R\in L^1(I_R),
+```
+
+with the scheduler bound
+
+```math
+\left(
+\eta_X+\int_{I_R}F_R
+\right)
+\exp\left(
+\int_{I_R}(1+A_R+V_R+P_R)
+\right)
+\le2\eta_X.
+```
+
+The valid supply theorem is therefore
+
+```math
+\boxed{
+SCF_{\mathrm{base}}
++
+ATD_m
+\Longrightarrow
+SCF_{\mathrm{avg}}^m
+\Longrightarrow
+AACT.KX.
+}
+```
+
+The live analytic obstruction is
+
+```math
+\boxed{
+ATD_m
+}
+```
+
+not pressure Poisson and not base finite energy. It must derive the
+finite-depth averaged affine tower packet on same-fluid moving cylinders
+without point-center forcing and without `DTC.Read`. The two possible route
+families are parabolic smoothing / local energy gain, or scale-critical
+compactness / epsilon-regularity.
 
 ## Non-Spending Gates
 
@@ -858,9 +1012,11 @@ The retained route remains available as a conditional smooth branch. The
 finite-energy-native route now has a different live theorem target:
 
 ```math
-SCF_{\mathrm{avg}}\text{ supply}
-\quad\text{then}\quad
-AACT.KX+RWS.C_{\mathrm{scale}}\Longrightarrow DTC.A_{\mathrm{avg}}
+SCF_{\mathrm{base}}+ATD_m
+\Longrightarrow
+AACT.KX
+\Longrightarrow
+DTC.A_{\mathrm{avg}}
 \Longrightarrow
 AVG.RCV.A
 \Longrightarrow
@@ -870,7 +1026,9 @@ CSP.A_{\mathrm{avg}}
 \Longrightarrow
 OFP.A_{\mathrm{avg}}
 \Longrightarrow
-CFI.A_{\mathrm{avg}}.
+CFI.A_{\mathrm{avg}}
+\Longrightarrow
+AVG.END.A.
 ```
 
 Only after `DTC.Read` can the old pointwise `DTC.A` and the endpoint

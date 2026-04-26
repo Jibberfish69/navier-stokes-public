@@ -268,7 +268,7 @@ Retained-branch routing:
   ACT.KX + ACT.X-Scale + RWS.C_scale => ACT.X-Readout => ACT.A.
 
 Averaged-branch routing:
-  SCF_avg => AACT.KX.
+  SCF_base + ATD_m => SCF_avg^m => AACT.KX.
   AACT.KX + RWS.C_scale => DTC.A_avg.
   DTC.A_avg => AVG.RCV.A => LCI.A_avg.
   LCI.A_avg + FCI.5f => CSP.A_avg => OFP.A_avg => CFI.A_avg.
@@ -277,7 +277,7 @@ Averaged-branch routing:
   Field.Read or CM.Read is required before old CFI.A.
   READ.END: End_NS_avg + Field.Read + DTC.Read => End_NS.
   END.Exh_avg and END.Cross_avg are locked endpoint cells.
-  Remaining hard branch: SCF_avg supply into AACT.KX.
+  Remaining hard branch: ATD_m theorem.
 
 A_buf^ctr:
   contains the m+1 and m+2 readout/top-viscous buffer modes.
@@ -367,6 +367,10 @@ route must instead prove the scale-critical averaged packet `SCF_avg`, then use
 `CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg`. `DTC.Read` is parked for
 endpoint/tower pointwise recovery; old `CFI.A` additionally needs `Field.Read`
 or `CM.Read`, and old `End_NS` is recovered only through `READ.END`.
+
+Finite energy supplies only `SCF_base` at good material restarts. The full
+`AACT.KX` input is `SCF_avg^m := SCF_base + ATD_m`; the unsupplied analytic
+wall is `ATD_m`, the averaged tower-density theorem through depth `m+2`.
 
 ## Exploratory Or Parked Branches
 

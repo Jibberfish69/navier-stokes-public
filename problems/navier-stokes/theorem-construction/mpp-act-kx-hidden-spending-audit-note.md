@@ -26,10 +26,12 @@ Retained-smooth branch: pass, with two hard ordering flags.
 
 Finite-energy-native branch: the old point-center route fails as stated,
 because NKF.Native and ACT.X-Scale spend retained local smoothness. The
-replacement target is SCF_avg => AACT.KX => DTC.A_avg => AVG.RCV.A =>
-LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg. DTC.Read is parked for
-pointwise endpoint/tower recovery, while Field.Read or CM.Read is required
-before recovering old CFI.A.
+replacement target is SCF_base + ATD_m => SCF_avg^m => AACT.KX =>
+DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg.
+Finite energy supplies only SCF_base at good material restarts; ATD_m is the
+live averaged tower-density wall. DTC.Read is parked for pointwise
+endpoint/tower recovery, while Field.Read or CM.Read is required before
+recovering old CFI.A.
 
 1. The source-side cells FPCR.C, FSCR.C, and FCC.C1 are post-LCI.A cells.
    They cannot be cited back into NKF.*, ACT.X-*, ACT.KX, ACT.X-Readout,
@@ -93,7 +95,8 @@ CFI.A + End_NS
 Averaged receiver replacement order:
 
 ```text
-SCF_avg
+SCF_base + ATD_m
+=> SCF_avg^m
 => AACT.KX
 => X_R in Linfty + N_R in L1 + K_le_m^{avg,R} in L1
 => DTC.A_avg
@@ -128,9 +131,10 @@ geometry, finite-depth affine-center equations, top-viscous readout data,
 same-fluid cover/scale data, and bounded pack gauge where explicitly stated.
 
 For the averaged branch, replace "retained-window data" and "native center
-forcing" by the scale-critical localized packet `SCF_avg`. The averaged branch
-does not import `NKF.Point`, point pressure-center control, or retained
-center-ball smoothness.
+forcing" by `SCF_base + ATD_m`. Finite energy supplies only `SCF_base`; the
+full averaged route needs `ATD_m` through depth `m+2`. The averaged branch does
+not import `NKF.Point`, point pressure-center control, retained center-ball
+smoothness, or `DTC.Read`.
 
 The following are forbidden as pre-`LCI.A` receiver inputs:
 
