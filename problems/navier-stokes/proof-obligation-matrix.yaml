@@ -54,7 +54,11 @@ live_theorem_edge:
     `Field.Read^epsilon` / `CM.Read` is required before old `CFI.A`. Retained source closure is the post-`LCI.A`
     frozen-family packet `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, with cutoff
     absorption, strain/cascade low-carrier control, and pressure
-    low-high/high-low plus resonant/far-tail control. Retained one-field assembly then
+    low-high/high-low plus resonant/far-tail control. The organized stronger
+    source branch also closes as `FFPB.A0+FFSC.C1+FCC.C1 => FFSRC.A => FCI.5f`,
+    with `FFPB.A0` solved by reading `H^{press,loc}` as the packet-local
+    weighted pressure carrier; a centerwise-only reading reopens `FIPCB.A0`.
+    Retained one-field assembly then
     runs `LCI.A+FCI.5f => CSP.A => OFP.A => CFI.A`; averaged assembly runs
     `LCI.A_avg+FCI.5f => CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg => AVG.MAIN.A`.
     Retained endpoint closure runs

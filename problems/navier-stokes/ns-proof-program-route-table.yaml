@@ -231,7 +231,7 @@ closure_ecology:
       name: tower / frozen family to source ledger
       source_program: tower / mixed jets and frozen-family Eulerian
       source_object: source transfer terms, pressure ledger, strain/cascade ledger, cutoff absorption
-      target_slot: FFSRC.A -> FCI.5f with FPCR.C / FFPB.A0 kept visible
+      target_slot: FFSRC.A -> FCI.5f with exact FPCR.C kept visible and packet-local FFPB.A0 solved on the stronger branch
       bridge_license_status: finite-packet source bridge
       current_status: real source-side contact point
       theorem_shape: tower coefficient control supplies the frozen-family source ledger and exact pressure wall input
@@ -285,7 +285,7 @@ closure_ecology:
         - OFP.A
         - CFI.A
         - endpoint exclusion
-      critical_theorem: FFPB.A0 or exact pressure wall path plus RCF.A / LCI.A, thickened collar consumer, and widened receiver return
+      critical_theorem: solved packet-local FFPB.A0 or exact pressure wall path plus RCF.A / LCI.A, thickened collar consumer, and widened receiver return
       authority_status: highest
     - loop_id: CE.B
       name: deformation-assisted receiver loop
