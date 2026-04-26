@@ -2,10 +2,10 @@
 
 ## Status
 
-Candidate theorem-facing reduction note.
+Historical diagnostic reduction note.
 
-Role: isolate the first sharper packet-side bridge beneath the full frozen-family
-pressure bridge `FFPB.A0`.
+Role: record the packet-localization descendant that would be needed only if
+the widened pressure carrier in `FFPB.A0` were read too narrowly.
 
 ## Installed Inputs
 
@@ -81,11 +81,12 @@ The installed route already says:
    `(FFPLB.1)`;
 2. the direct FEI pressure route introduces the localized increment-source
    ledger only after moving onto the FEI pressure surface `FPR.C3` / `FSP.A`;
-3. the current bridge note `FFPB` records that the full widened-carrier bridge
-   is still open.
+3. the current bridge note `FFPB` now solves the full widened-carrier bridge
+   by typing `\mathfrak H^{press,loc}` as a packet-local weighted carrier.
 
-So the first honest sharpening of `FFPB.A0` is not the centerwise FEI family.
-It is this packet-side question:
+So this note is no longer the live source-side bridge. It records the
+packet-side question that would reappear if the packet-local interpretation of
+`\mathfrak H^{press,loc}` were disallowed:
 
 ```math
 \boxed{
@@ -94,9 +95,8 @@ It is this packet-side question:
 \tag{FFPLB.B}
 ```
 
-If `FFPLB.A0` were installed, then the remaining source-side pressure bridge
-would immediately shrink from `FFPB.A0` to the widened-carrier comparison below
-the localized increment-source ledger.
+With the packet-local interpretation installed in `FFPB.A0`, this split is
+diagnostic only.
 
 ## Finite-Net Reduction To The Single-Increment Bridge
 
@@ -247,9 +247,9 @@ packet-to-center bridge either.
 
 ## Conditional Source-Route Boundary
 
-This note remains a pressure-localization subwall beneath the older
-`FFPB.A0` bridge. It is not the source pressure cell used by the current
-conditional route packet.
+This note remains a pressure-localization diagnostic beneath a centerwise-only
+misreading of the older `FFPB.A0` bridge. It is not the source pressure cell
+used by the current conditional route packet.
 
 For that source packet, the pressure input is the post-`LCI.A` theorem
 `FPCR.C_postLCI` on
@@ -275,7 +275,7 @@ So the honest status is:
 
 ```math
 \boxed{
-\text{the first sharper source-side subwall beneath }(FFPB.A0)\text{ is the absent packet-side bridge }(FFPLB.A0),}
+\text{after the packet-local solution of }(FFPB.A0),\text{ the absent packet-side bridge }(FFPLB.A0)\text{ is diagnostic only,}
 \newline
 \text{inside that theorem the exact smaller wall is already the absent single-increment bridge }(FFPLB.B0),\text{ and the bounded exact self-attempt shows the route does not lower further on the current exact surfaces,}}
 \newline
@@ -284,8 +284,8 @@ So the honest status is:
 \tag{FFPLB.C}
 ```
 
-These are still local pressure descendants beneath the strengthened source-side
-bridge `(FFPB.A0)`. Once that bridge is actually supplied and the companion
-closure note packages the full strengthened source branch as `(FFSRC.A)`, they
-do not remain separate downstream one-field walls: the live burden returns to
-the receiver side.
+These are local pressure descendants only under a centerwise-only reading of
+the pressure carrier. With the packet-local `FFPB.A0` bridge installed and the
+companion closure note packaging the full strengthened source branch as
+`(FFSRC.A)`, they do not remain separate downstream one-field walls: the live
+burden returns to the receiver side.

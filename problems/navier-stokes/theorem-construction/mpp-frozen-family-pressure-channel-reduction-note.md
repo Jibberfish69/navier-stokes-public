@@ -173,12 +173,9 @@ source closure note
 then packages this stronger pressure export together with `FFSC.C1` and
 `FCC.C1` into one combined source-side package, and records the exact
 pressure input there as the widened-pressure bridge `(FFPB.A0)`.
-That sufficient note begins only after the same-depth sharpening to the
-resonant packet sum. It does **not** yet supply a theorem-facing sufficient
-export for the whole frozen-family pressure channel `(FPCR.1)` itself, because
-the installed widened local carrier theorem `(FPR.C4c)` lives below the
-FEI-local pressure-response ledger `(FPR.C3)`, not directly below
-`\mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}`.
+That pressure bridge is now solved by reading
+`\mathfrak H^{press,loc}` as a packet-local weighted pressure carrier, so the
+organized stronger source branch closes as `(FFSRC.A)`.
 
 ## Boundary
 
@@ -205,17 +202,16 @@ only records the nearest stronger sufficient export currently visible beneath
 wall to the single-increment resonant packet theorem; it does not produce a
 smaller exact descendant on the current installed surfaces.
 
-The bounded self-attempt beneath `(FPCR.C)` also fixed the next bridge
-more sharply than before: the absent theorem-facing sufficient export was not
-on the resonant side anymore, but on the whole frozen-family pressure side. The
-exact bridge is the theorem reducing
-`\mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}` directly to the FEI-local
-pressure carrier pair behind `(FPR.C4c)`. That bridge is now isolated
-separately in
+The bounded self-attempt beneath `(FPCR.C)` also fixed the adjacent stronger
+source-side bridge more sharply than before: the theorem-facing sufficient
+export is on the whole frozen-family pressure side. The bridge reduces
+`\mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}` directly to the packet-local
+widened pressure carrier plus widened collar envelope. That bridge is now
+installed in
 [mpp-frozen-family-pressure-bridge-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-bridge-note.md)
 as `(FFPB.A0)`.
 
-### Target Theorem `FPCR.E` (Frozen-family pressure-to-FEI bridge)
+### Diagnostic theorem `FPCR.E` (Centerwise-only frozen-family pressure-to-FEI bridge)
 
 Define the frozen-net FEI pressure-response family by
 
@@ -227,7 +223,7 @@ Define the frozen-net FEI pressure-response family by
 \tag{FPCR.E0}
 ```
 
-The exact bridge is a theorem strong enough to compare the packet-level
+The centerwise-only bridge would compare the packet-level
 frozen-family pressure channel `(FPCR.1)` to `(FPCR.E0)` on `I`, so that the
 installed FEI route
 
@@ -239,20 +235,9 @@ installed FEI route
 can be imported theorem-facing beneath the full frozen-family pressure channel
 rather than only beneath the already-sharpened resonant survivor.
 
-That comparison theorem is isolated separately as `(FFPB.A0)`.
-What is still not on disk is a proof of that comparison theorem. The first
-sharper pressure-side subwall beneath that bridge is now isolated separately as
-the packet-side theorem `(FFPLB.A0)`, whose exact smaller wall is already the
-single-increment bridge `(FFPLB.B0)` and whose bounded exact self-attempt does
-not lower further on the current exact surfaces, while on the coarser
-energy-conditioned branch the terminal packet-to-center bridge is now isolated
-separately as `(FIPCB.A0)`, whose bounded coarser self-attempt now records
-that the route does not lower further on the current installed surfaces, and
-the further frozen-net FEI-centerwise split is now recorded on the companion
-bridge note as only a finite-net wrapper of that same absent packet-to-center
-bridge `(FIPCB.A0)`.
-These remain local pressure descendants beneath the
-strengthened source-side bridge `(FFPB.A0)`: once that bridge is supplied and
-the full strengthened source branch is packaged as `(FFSRC.A)`, they do not
-survive as separate downstream one-field walls, because the live burden then
-returns entirely to the receiver side.
+The installed `FFPB.A0` route no longer needs this centerwise-only comparison:
+the packet-local carrier already contains the frozen packet multipliers and
+finite-difference/tower weights. If that packet-local typing is rejected, the
+coarser centerwise path reopens `FIPCB.A0`; otherwise these descendants do not
+survive as separate downstream one-field walls, because the live burden returns
+entirely to the receiver side after `FFSRC.A`.

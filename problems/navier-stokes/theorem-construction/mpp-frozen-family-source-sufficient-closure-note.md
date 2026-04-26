@@ -2,11 +2,10 @@
 
 ## Status
 
-Candidate theorem-facing reduction note.
+Installed theorem-facing source-side closure note.
 
 Role: combine the installed stronger sufficient pressure and strain/cascade
-exports into one source-side near-closure package for `(FCI.5f)` and isolate
-the single remaining pressure bridge inside that package.
+exports into one source-side closure package for `(FCI.5f)`.
 
 This note does **not** replace the exact same-depth source branch with pressure
 wall `(FPCR.C)` with exact smaller wall `(FIRP.A0)` and nonpressure wall
@@ -29,7 +28,7 @@ combined source-side package currently visible on disk.
 \boxed{
 \text{if one leaves the exact same-depth source branch, then the installed stronger branches already reduce the full frozen-family source theorem}
 \newline
-\text{to one widened-pressure bridge plus one Gronwall closure on the frozen-family packet aggregate driven by the widened collar envelope, the widened local pressure carrier,}
+\text{to the installed packet-local widened-pressure bridge plus one Gronwall closure on the frozen-family packet aggregate driven by the widened collar envelope, the widened local pressure carrier,}
 \newline
 \text{and the cutoff coefficient.}
 }
@@ -79,7 +78,7 @@ By monotonicity of the collar envelopes,
 
 ## Main Sufficient Closure
 
-### Remaining Pressure Bridge On The Stronger Source Branch
+### Installed Packet-Local Pressure Bridge On The Stronger Source Branch
 
 The combined source-side package uses the following theorem-facing pressure
 input:
@@ -95,14 +94,16 @@ input:
 ```
 
 This bridge is sharper than reopening the whole exact pressure wall
-`(FPCR.C)`, whose exact smaller wall is now `(FIRP.A0)`, but it is still the
-exact remaining pressure-side theorem on this stronger branch. The bridge is
-isolated separately in
+`(FPCR.C)`, whose exact smaller wall is now `(FIRP.A0)`. It is installed as the
+packet-local widened pressure theorem
 [mpp-frozen-family-pressure-bridge-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-bridge-note.md)
-as `(FFPB.A0)`, and that companion note records that `(FFPB.A0)` is not proved
-on disk.
+as `(FFPB.A0)`. The key typing is that
+`\mathfrak H_{N,\rho,\psi}^{press,loc,4\Lambda,\varepsilon,\alpha}` already
+includes the frozen packet multipliers and finite-difference/tower weights
+appearing in the packet pressure channel. A centerwise-only reading would
+reopen `(FIPCB.A0)`.
 
-### Proposition `FFSRC.A` (Conditional combined source-side closure on the organized stronger source branch)
+### Proposition `FFSRC.A` (Combined source-side closure on the organized stronger source branch)
 
 Assume:
 
@@ -111,8 +112,6 @@ Assume:
 \quad\text{for some }t_0\in I,
 \tag{FFSRC.A0}
 ```
-
-the remaining pressure bridge `(FFPB.A0)` is available on `I`,
 
 the ordinary interval energy ledger is available on `I`,
 
@@ -158,7 +157,8 @@ that is, the full fixed-family source theorem `(FCI.5f)` closes.
 
 ### Proof
 
-By `(FFPB.A0)`, assumptions `(FFSRC.A1)`--`(FFSRC.A2)` give
+By the installed packet-local bridge `(FFPB.A0)`, assumptions
+`(FFSRC.A1)`--`(FFSRC.A2)` give
 
 ```math
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}\in L^1(I).
@@ -334,15 +334,14 @@ same-depth source branch
 
 What it does show is that the installed stronger branches already organize:
 
-1. pressure: the widened-collar / widened-local package together with the
-   remaining bridge `(FFPB.A0)`;
+1. pressure: the installed packet-local widened bridge `(FFPB.A0)`;
 2. nonpressure: `FFSC.B1` / `FFSC.C1`;
 3. cutoff: `FCC.C1`;
 
 into one combined source-side package for `(FCI.5f)`.
 
 So, if one leaves the exact same-depth source branch, the source side is no
-longer a pair of unrelated burdens. It is one combined near-closure package
+longer a pair of unrelated burdens. It is one combined closure package
 driven by:
 
 ```math
@@ -369,9 +368,9 @@ So the honest status is:
 
 ```math
 \boxed{
-\text{the exact source side remains pressure wall }(FPCR.C)\text{ with exact smaller wall }(FIRP.A0)\text{ together with nonpressure wall }(FSCR.C),\text{ while the organized stronger sufficient source-side package is now recorded as }(FFSRC.A),}
+\text{the exact source side remains pressure wall }(FPCR.C)\text{ with exact smaller wall }(FIRP.A0)\text{ together with nonpressure wall }(FSCR.C),\text{ while the organized stronger sufficient source-side package is now closed as }(FFSRC.A),}
 \newline
-\text{with the exact remaining pressure-side theorem on that stronger branch still isolated as }(FFPB.A0).}
+\text{using the solved packet-local widened-pressure bridge }(FFPB.A0).}
 }
 \tag{FFSRC.C}
 ```
