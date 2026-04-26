@@ -1094,6 +1094,30 @@ Equivalently, the same-fluid tail contains a material point with no positive
 SCF-good coherence scale. With that definition, `CAVG.J` is a grammar-level
 reduction rather than a new regularity theorem.
 
+The endpoint coverage bridge is therefore
+
+```math
+\boxed{
+AVG.COVER.A:
+SGC.A_{\mathrm{a.e.}}
++
+ATD_m^\varepsilon
++
+CAVG.J
+\Longrightarrow
+\text{every same-fluid approach tail is covered by the averaged route.}
+}
+```
+
+Indeed, on
+`\mathcal G_{\varepsilon_m}^{\Phi}
+=Q^\Phi(I,A_\sharp)\setminus\mathcal B_{\varepsilon_m}^{\Phi}`, compact
+subsets admit finite SCF-good covers by `SGC.A_a.e`; `ATD_m^\varepsilon`
+converts each good cylinder into the finite-depth tower packet needed by
+`AACT.KX`. If the tail meets `\mathcal B_{\varepsilon_m}^{\Phi}`, then
+`CAVG.J` gives `Jump_avg`. Thus the good region propagates and the bad region is
+an averaged endpoint face.
+
 ## Non-Spending Gates
 
 Any citation of this averaged branch must pass these gates.
@@ -1165,7 +1189,17 @@ AVG.END.A.
 
 The complement is not covered by `SGC.A_strong`; by `CAVG.J`, a nonempty
 `\mathcal B_{\varepsilon_m}^{\Phi}` is already an instance of `Jump_avg`, so no
-separate concentration endpoint shell is carried.
+separate concentration endpoint shell is carried. The coverage bridge is the
+side certificate
+
+```math
+SGC.A_{\mathrm{a.e.}}+ATD_m^\varepsilon+CAVG.J
+\Longrightarrow
+AVG.COVER.A,
+```
+
+which says that every same-fluid approach tail either lies in the propagated
+good-region route or enters the endpoint matrix through `Jump_avg`.
 
 Only after `DTC.Read` can the old pointwise `DTC.A` and the endpoint
 `DTC-to-TowerBound` packet be invoked without changing their statements. Only

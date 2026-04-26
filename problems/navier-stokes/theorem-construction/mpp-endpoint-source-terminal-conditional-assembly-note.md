@@ -267,6 +267,60 @@ Jump_{\mathrm{avg}}.
 \tag{EST.Aavg1bJ}
 ```
 
+Let
+
+```math
+\mathcal G_{\varepsilon_m}^{\Phi}
+:=
+Q^\Phi(I,A_\sharp)\setminus\mathcal B_{\varepsilon_m}^{\Phi}.
+\tag{EST.Aavg1bG}
+```
+
+The same-fluid endpoint coverage bridge is
+
+```math
+\boxed{
+AVG.COVER.A:
+SGC.A_{\mathrm{a.e.}}
++
+ATD_m^\varepsilon
++
+CAVG.J
+\Longrightarrow
+\text{the averaged endpoint route covers every same-fluid approach tail.}
+}
+\tag{EST.Aavg1bCover}
+```
+
+Proof. Let `\mathcal T` be a same-fluid approach tail. If
+`\mathcal T\cap\mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing`, then
+`CAVG.J` gives `Jump_avg`, so the tail is already in the averaged endpoint
+grammar. Otherwise the tail lies in the good material region
+`\mathcal G_{\varepsilon_m}^{\Phi}`. For every compact
+`K\Subset\mathcal G_{\varepsilon_m}^{\Phi}`, openness of the SCF-good predicate
+and `SGC.A_a.e` give a finite same-fluid cover
+
+```math
+K\subset\bigcup_{i=1}^M Q_{r_i}^{\Phi}(a_i,t_i),
+\qquad
+SCF_{\mathrm{base}}(Q_{r_i}^{\Phi})\le\varepsilon_m.
+\tag{EST.Aavg1bCover1}
+```
+
+On each selected cylinder, `ATD_m^\varepsilon` gives the finite-depth averaged
+tower packet on a smaller same-fluid cylinder, hence `AACT.KX` and then
+`AVG.RCV.A`. Finite overlap transfers the averaged lower-carrier and endpoint
+readouts across the compact good subwindow. Therefore the dichotomy is
+
+```math
+\text{good material region}\Longrightarrow\text{averaged propagation},
+\qquad
+\text{bad material region}\Longrightarrow Jump_{\mathrm{avg}}.
+\tag{EST.Aavg1bCover2}
+```
+
+This is exactly full averaged endpoint coverage for same-fluid approach tails. ∎
+
 The averaged tower-blown face is escape of the averaged tower packet:
 
 ```math
@@ -582,6 +636,10 @@ AVG.END.A,
 \qquad
 CAVG.J:
 \mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing\Longrightarrow Jump_{\mathrm{avg}}.
+\qquad
+SGC.A_{\mathrm{a.e.}}+ATD_m^\varepsilon+CAVG.J
+\Longrightarrow
+AVG.COVER.A.
 }
 \tag{EST.Aread9}
 ```

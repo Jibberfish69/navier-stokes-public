@@ -411,8 +411,9 @@ closure_ecology:
         retained branch. On the averaged branch this slot is replaced by
         SCF_base plus SGC.A_a.e plus ATD_m^epsilon, and the route is
         SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off
-        B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg, with CAVG.J
-        folding nonempty B_epsilon^Phi directly into Jump_avg and DTC.Read parked until
+        B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg. AVG.COVER.A
+        combines good-region propagation with the bad-region jump case via CAVG.J,
+        and DTC.Read is parked until
         endpoint/tower recovery needs pointwise DTC.A. RWS.C_cover supplies the
         dynamic same-fluid cover from compact retained label tubes and the pack
         gauge. RWS.C_scale is the finite-cover readout bridge that transfers
@@ -458,7 +459,8 @@ closure_ecology:
         branch: SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m =>
         AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg =>
         CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg, with
-        nonempty B_epsilon^Phi => Jump_avg handled by CAVG.J. DTC.Read is required
+        AVG.COVER.A covering every same-fluid approach tail by good-region
+        propagation or nonempty B_epsilon^Phi => Jump_avg via CAVG.J. DTC.Read is required
         before pointwise DTC.A or endpoint tower readout; Field.Read or CM.Read is
         required before old CFI.A; READ.END is required before old End_NS.
         END.Exh_avg and END.Cross_avg are locked endpoint cells; finite energy

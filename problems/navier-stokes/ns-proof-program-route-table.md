@@ -270,6 +270,7 @@ Retained-branch routing:
 Averaged-branch routing:
   SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi.
   CAVG.J folds nonempty B_epsilon^Phi directly into Jump_avg.
+  SGC.A_a.e + ATD_m^epsilon + CAVG.J => AVG.COVER.A.
   AACT.KX + RWS.C_scale => DTC.A_avg.
   DTC.A_avg => AVG.RCV.A => LCI.A_avg.
   LCI.A_avg + FCI.5f => CSP.A_avg => OFP.A_avg => CFI.A_avg.
@@ -279,7 +280,7 @@ Averaged-branch routing:
   READ.END: End_NS_avg + Field.Read + DTC.Read => End_NS.
   END.Exh_avg and END.Cross_avg are locked endpoint cells.
   SGC.A_strong is off the main line as regularity-equivalent.
-  Remaining cover logic: SGC.A_a.e on the good complement plus CAVG.J for the bad-set jump case.
+  Remaining cover logic: AVG.COVER.A, i.e. good-region averaged propagation plus bad-set Jump_avg.
 
 A_buf^ctr:
   contains the m+1 and m+2 readout/top-viscous buffer modes.
@@ -378,7 +379,9 @@ Finite energy supplies only `SCF_base` at good material restarts. The local
 epsilon-regularity theorem `ATD_m^epsilon` upgrades small `SCF_base` cylinders
 to tower-density packets on smaller cylinders. A full strong good-cylinder
 cover is regularity-equivalent and is not on the main line; the bad set is
-already a `Jump_avg` case by `CAVG.J`.
+already a `Jump_avg` case by `CAVG.J`. `AVG.COVER.A` is the bridge that combines
+the good-region propagation and bad-region jump alternatives into full averaged
+endpoint coverage for same-fluid approach tails.
 
 ## Exploratory Or Parked Branches
 
