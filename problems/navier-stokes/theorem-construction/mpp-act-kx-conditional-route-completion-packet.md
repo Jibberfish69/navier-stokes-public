@@ -43,7 +43,9 @@ target is the averaged packet recorded in
 [mpp-averaged-act-kx-scale-critical-forcing-packet-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-averaged-act-kx-scale-critical-forcing-packet-note.md):
 
 ```math
-SCF_{\mathrm{avg}}
+SCF_{\mathrm{base}}+ATD_m
+\Longrightarrow
+SCF_{\mathrm{avg}}^m
 \Longrightarrow
 AACT.KX
 \Longrightarrow

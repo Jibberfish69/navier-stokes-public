@@ -320,7 +320,8 @@ ACT.KX + ACT.X-Scale + RWS.C_scale
 Compact averaged replacement chain:
 
 ```text
-SCF_avg
+SCF_base + ATD_m
+=> SCF_avg^m
 => AACT.KX
 => X_R in Linfty + N_R in L1 + K_le_m^{avg,R} in L1
 => DTC.A_avg

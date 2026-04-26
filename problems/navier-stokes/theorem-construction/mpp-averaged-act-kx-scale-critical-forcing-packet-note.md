@@ -11,10 +11,12 @@ Role: replace the old native point-center forcing target
 NKF.Native
 ```
 
-by a localized averaged scale-critical forcing packet
+by a localized averaged scale-critical forcing branch
 
 ```math
-SCF_{\mathrm{avg}}(R,I_R)
+SCF_{\mathrm{base}}+ATD_m
+\Longrightarrow
+SCF_{\mathrm{avg}}^m(R,I_R)
 \Longrightarrow
 AACT.KX
 \Longrightarrow
@@ -118,7 +120,7 @@ N_R(t)
 \|\zeta_R\nabla_R^{\beta+1} R_{q,j}^R(t)\|_{\bar L^2}^2.
 ```
 
-The averaged scale-critical forcing packet is
+The first-exit AACT forcing subtotal is
 
 ```math
 SCF_{\mathrm{avg}}(R,I_R)
@@ -158,6 +160,10 @@ A_R(t)
 
 and `F_R` is the averaged viscous, top-rung, and moving-cutoff source packet
 obtained by testing the equations against the transported mollifiers.
+
+This subtotal is not the finite-energy supply theorem. The supplied full packet
+for the averaged branch is the sharpened object `SCF_avg^m=SCF_base+ATD_m`
+defined below.
 
 The old `ACT.X-Scale` seed is replaced on this branch by the first component
 `X_R(s_a)` inside `SCF_avg^m`. This supplies an averaged scale seed. It is not a
@@ -382,7 +388,9 @@ This proves `AACT.KX`.
 The replacement chain is
 
 ```math
-SCF_{\mathrm{avg}}
+SCF_{\mathrm{base}}+ATD_m
+\Longrightarrow
+SCF_{\mathrm{avg}}^m
 \Longrightarrow
 AACT.KX
 \Longrightarrow
@@ -415,7 +423,9 @@ Thus the new finite-energy-native wall is
 
 ```math
 \boxed{
-SCF_{\mathrm{avg}}
+SCF_{\mathrm{base}}+ATD_m
+\Longrightarrow
+SCF_{\mathrm{avg}}^m
 \Longrightarrow
 AACT.KX
 \Longrightarrow

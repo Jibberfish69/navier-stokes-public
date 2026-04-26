@@ -57,7 +57,9 @@ NKF.Native,
 but
 
 ```math
-SCF_{\mathrm{avg}}
+SCF_{\mathrm{base}}+ATD_m
+\Longrightarrow
+SCF_{\mathrm{avg}}^m
 \Longrightarrow
 AACT.KX
 \Longrightarrow

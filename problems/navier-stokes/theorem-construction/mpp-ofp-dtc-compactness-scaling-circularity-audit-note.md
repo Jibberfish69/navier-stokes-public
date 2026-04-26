@@ -331,7 +331,9 @@ bounded pack gauge, same-fluid geometry, and pressure Poisson structure alone.
 The finite-energy-native branch must instead target the averaged packet:
 
 ```math
-SCF_{\mathrm{avg}}
+SCF_{\mathrm{base}}+ATD_m
+\Longrightarrow
+SCF_{\mathrm{avg}}^m
 \Longrightarrow
 AACT.KX
 \Longrightarrow
@@ -506,7 +508,7 @@ finite-energy-native receiver target:
 ```math
 \text{receiver-side substance}
 \Longleftrightarrow
-\text{noncircular proof of }SCF_{\mathrm{avg}}\to AACT.KX\to DTC.A_{\mathrm{avg}}
+\text{noncircular proof of }SCF_{\mathrm{base}}+ATD_m\to SCF_{\mathrm{avg}}^m\to AACT.KX\to DTC.A_{\mathrm{avg}}
 \to AVG.RCV.A\to LCI.A_{\mathrm{avg}}
 \text{ with }ODC.A1\text{--}ODC.A5\text{ and }ODC.15i.
 \tag{ODC.21}
@@ -550,7 +552,9 @@ burdens `ACT.X-Scale` and `RWS.C_scale`.
 For the averaged branch, the corresponding receiver export is:
 
 ```math
-SCF_{\mathrm{avg}}
+SCF_{\mathrm{base}}+ATD_m
+\Longrightarrow
+SCF_{\mathrm{avg}}^m
 \Longrightarrow
 AACT.KX
 \Longrightarrow
