@@ -394,9 +394,10 @@ SCF_base + ATD_m^epsilon + CAVG.J => AVG.MAIN.A
 AVG.MAIN.A + READ.END => old endpoint closure
 ```
 
-The highest-leverage analytic theorem still carried by this branch is
-`ATD_m^epsilon`, the epsilon-regularity gain from small `SCF_base` cylinders to
-the finite-depth averaged affine tower packet.
+`ATD_m^epsilon` is installed as the local epsilon-regularity gain from small
+normalized `SCF_base` cylinders to the finite-depth averaged affine tower
+packet. The remaining global issue is coverage, handled on this branch by
+`SGC.A_a.e + CAVG.J => AVG.COVER.A`.
 
 ## Exploratory Or Parked Branches
 

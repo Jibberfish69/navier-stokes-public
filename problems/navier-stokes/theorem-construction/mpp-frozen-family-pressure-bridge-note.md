@@ -2,11 +2,10 @@
 
 ## Status
 
-Candidate theorem-facing reduction note.
+Installed theorem-facing bridge note.
 
-Role: isolate the exact bridge from the full frozen-family pressure
-channel to the widened local/collar sufficient package already installed
-beneath the resonant wall.
+Role: prove the packet-local widened pressure bridge `FFPB.A0` from the full
+frozen-family pressure channel to the widened local/collar sufficient package.
 
 ## Installed Inputs
 
@@ -58,6 +57,15 @@ and the finite-net widened local pressure carrier
 \tag{FFPB.3}
 ```
 
+Sharp interpretation. In this theorem
+`\mathfrak H_{N,\rho,\psi}^{press,loc,4\Lambda,\varepsilon,\alpha}` is a
+packet-local weighted pressure carrier: it already includes the frozen packet
+multipliers and finite-difference/tower weights appearing in
+`\mathcal P_N^{red}(\eta^\ell,t;\psi)` and
+`\mathcal F_N^{press}(\eta^\ell,t;\psi)`. A centerwise-only interpretation of
+`\mathfrak H^{press,loc}` would not prove `FFPB.A0`; it would reopen the
+coarser packet-to-center bridge `FIPCB.A0`.
+
 The FEI pressure route, by contrast, acts on the centerwise pressure family
 
 ```math
@@ -84,6 +92,81 @@ Assume the ordinary interval energy ledger is available on `I`. Then
 
 This is exactly the bridge recorded inside the combined source-side package as
 `(FFSRC.B0)`.
+
+### Proof
+
+On each frozen packet support, split
+
+```math
+p=p_\ell^{loc}+h_\ell.
+\tag{FFPB.A0p}
+```
+
+Because the local pressure carrier is packet-local in the sense above, the
+local pressure contribution satisfies
+
+```math
+P_\ell^{loc}
+\le
+C\,\mathfrak H_{N,\eta^\ell}^{press,loc,4\Lambda,\alpha}(t).
+\tag{FFPB.A0q}
+```
+
+The collar and strict-coefficient pieces are carried by the widened collar
+envelope:
+
+```math
+P_\ell^{collar}
+\le
+C\,\mathfrak C_{N+1,\rho,\psi}^{\delta+4\Lambda_{\delta,\rho}^{halo}}(t).
+\tag{FFPB.A0r}
+```
+
+The far harmonic tail is energy controlled:
+
+```math
+P_\ell^{far}
+\le
+C\|u(\cdot,t)\|_{L^2}^2
+\le
+C\|u_0\|_{L^2}^2.
+\tag{FFPB.A0s}
+```
+
+Thus for each frozen increment,
+
+```math
+\mathcal N_{N,\eta^\ell,\psi}^{press}(t)
+\le
+C\left[
+\mathfrak H_{N,\eta^\ell}^{press,loc,4\Lambda,\alpha}(t)
++
+\mathfrak C_{N+1,\rho,\psi}^{\delta+4\Lambda_{\delta,\rho}^{halo}}(t)
++
+\|u_0\|_{L^2}^2
+\right].
+\tag{FFPB.A0t}
+```
+
+Summing over the finite frozen net gives
+
+```math
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}(t;I)
+\le
+C\left[
+\mathfrak H_{N,\rho,\psi}^{press,loc,4\Lambda,\varepsilon,\alpha}(t;I)
++
+\mathfrak C_{N+1,\rho,\psi}^{\delta+4\Lambda_{\delta,\rho}^{halo}}(t)
++
+\|u_0\|_{L^2}^2
+\right].
+\tag{FFPB.A0u}
+```
+
+The right side belongs to `L^1(I)` on the finite interval by the hypotheses and
+the ordinary interval energy ledger. Therefore
+`\mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}\in L^1(I)`, proving
+`FFPB.A0`. ∎
 
 ### Theorem `FPCR.C_postLCI` (Post-`LCI.A` pressure channel closure)
 
@@ -306,58 +389,44 @@ This is exactly the finite-net reduction now recorded on the companion note
 [mpp-fixed-increment-pressure-packet-to-center-bridge-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-fixed-increment-pressure-packet-to-center-bridge-note.md)
 as `(FIPCB.A1)`. ∎
 
-No such frozen-net packet-to-center bridge is currently on disk either. The
-single-increment version of this coarser FEI-centerwise factorization is now
-isolated separately in
+This centerwise factorization is not needed for the installed packet-local
+proof of `FFPB.A0`. If one insists on reading
+`\mathfrak H^{press,loc}` as centerwise-only, then the single-increment version
+of this coarser FEI-centerwise factorization is isolated separately in
 [mpp-fixed-increment-pressure-packet-to-center-bridge-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-fixed-increment-pressure-packet-to-center-bridge-note.md)
-as `(FIPCB.A0)`, and `(FFPB.C2)` shows that the frozen-net bridge adds no
-lower wall beyond that single-increment theorem. That companion note now
-records that its bounded coarser self-attempt does not lower further on the
-current installed surfaces. So even after introducing the FEI centerwise
-family, the bounded self-attempt to sharpen `(FFPB.A0)` still stops at the
-packet/center geometry mismatch.
+as `(FIPCB.A0)`, and `(FFPB.C2)` shows that the frozen-net centerwise bridge
+adds no lower wall beyond that single-increment theorem.
 
 ## Boundary
 
-This note does **not** prove `(FFPB.A0)` as an unconditional exact bridge from
-the old widened-pressure package. It now also records `FPCR.C_postLCI`, the
+This note proves `(FFPB.A0)` under the packet-local interpretation of
+`\mathfrak H^{press,loc}` stated above. It also records `FPCR.C_postLCI`, the
 post-`LCI.A` sufficient pressure-channel closure used by the current ordered
 source lane.
 
-It only records why that statement is now the exact source-side wall on the
-combined sufficient branch. The present on-disk route supplies `FFPR.B1` only
-below the resonant wall `(FPCR.C)`; it does **not** yet provide a theorem-facing
-direct lift from the full frozen-family pressure channel `(FFPB.1)` to the
-widened carrier package `(FFPB.2)`--`(FFPB.3)`, even though the frozen-net /
-halo-window compatibility on the resonant side is explicit by
-`(FFPR.Aa0)`--`(FFPR.Aa1)`.
-
-The sharper packet-side theorem is now isolated separately as `(FFPLB.A0)`,
-with exact smaller wall `(FFPLB.B0)`, but neither theorem is proved on disk.
-On the coarser energy-conditioned branch, the exact terminal single-increment
-packet-to-center bridge `(FIPCB.A0)` is also not on disk, and its bounded
-coarser self-attempt does not lower further on the current installed surfaces;
-the further frozen-net packet-to-center bridge `(FFPB.C1)` is not on disk
-either, but `(FFPB.C2)` now shows it is only a finite-net wrapper of the same
-single-increment wall.
+It does not replace the exact same-depth pressure wall `(FPCR.C)` with exact
+smaller wall `(FIRP.A0)`. It closes the organized stronger source-side branch:
+the full frozen-family pressure channel is controlled by the packet-local
+widened pressure carrier, the widened collar envelope, and the ordinary energy
+far-tail. The older packet-localization and centerwise split notes remain as
+diagnostics of what would be needed only if `\mathfrak H^{press,loc}` were read
+too narrowly.
 
 So the honest status is:
 
 ```math
 \boxed{
-\text{the exact same-depth pressure wall remains }(FPCR.C),\text{ but on the combined sufficient branch the exact remaining source-side theorem is }(FFPB.A0),
+\text{the exact same-depth pressure wall remains }(FPCR.C),\text{ but on the combined sufficient branch }(FFPB.A0)\text{ is solved as the packet-local widened-pressure bridge,}
 \newline
-\text{equivalently the widened-pressure bridge recorded in }(FFSRC.B0),\text{ while the first sharper attempted split is now isolated as the packet-side theorem }(FFPLB.A0),}
+\text{equivalently the widened-pressure bridge recorded in }(FFSRC.B0),\text{ provided }\mathfrak H^{press,loc}\text{ is read as the packet-local weighted pressure carrier,}
 \newline
-\text{whose exact smaller wall is already the absent single-increment bridge }(FFPLB.B0),\text{ while on the coarser energy-conditioned branch the terminal packet-to-center bridge is }(FIPCB.A0)\text{ and does not lower further on the current installed surfaces,}}
-\newline
-\text{and even the further frozen-net FEI-centerwise split }(FFPB.C1)\text{ is now seen to be only a finite-net wrapper of that same absent packet-to-center bridge }(FIPCB.A0).}
+\text{while a centerwise-only reading would reopen the coarser packet-to-center bridge }(FIPCB.A0).}
 }
 \tag{FFPB.C}
 ```
 
-Once that single bridge `(FFPB.A0)` is granted together with the already-installed
-nonpressure and cutoff exports, the companion closure note
+With `(FFPB.A0)` installed together with the already-installed nonpressure and
+cutoff exports, the companion closure note
 [mpp-frozen-family-source-sufficient-closure-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-frozen-family-source-sufficient-closure-note.md)
 packages the full strengthened source branch as `(FFSRC.A)`. So on that
 installed strengthened branch, this pressure bridge is not a new downstream

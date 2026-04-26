@@ -939,7 +939,8 @@ SCF_{\mathrm{avg}}\le\varepsilon_\ast
 
 is too strong.
 
-The required local tower-density input is
+The required local tower-density input is now installed as a local
+epsilon-regularity theorem:
 
 ```math
 \boxed{
@@ -951,22 +952,31 @@ ATD_m\text{ on a smaller same-fluid cylinder.}
 ```
 
 More explicitly, let `(u,p)` be a suitable Navier-Stokes solution on a
-same-fluid moving cylinder `Q_R^\Phi(z_0)` with bounded pack gauge
-`\Gamma_\sharp\le M_\sharp`. If
+CKN-admissible same-fluid moving cylinder `Q_R^\Phi(a_0,t_0)` with bounded
+geometric distortion `\Gamma_\sharp\le M_\sharp`. Use the CKN-compatible
+normalization
 
 ```math
 SCF_{\mathrm{base}}(Q_R^\Phi)
 :=
 R^{-2}\iint_{Q_R^\Phi}|u-u_R^{aff}|^3
 +
-R^{-2}\iint_{Q_R^\Phi}|p-p_R^{aff}|^{3/2}
+R^{-2}\iint_{Q_R^\Phi}|p-p_R^{norm}|^{3/2}
 +
 R^{-1}\iint_{Q_R^\Phi}|\nabla u|^2
-\le \varepsilon_m,
 ```
 
-then there is `\theta_m\in(0,1/2)` such that on
-`Q_{\theta_m R}^\Phi`
+where `p_R^{norm}` is the pressure normalization allowed by the local CKN
+frame; affine pressure modes are absorbed into the moving/accelerated frame.
+If `SCF_base(Q_R^\Phi)\le\varepsilon_m`, then there are constants
+`\theta_m\in(0,1/2)` and `C_m<\infty`, depending only on `m,\nu,M_\sharp`,
+such that on `Q_{\theta_m R}^\Phi`
+
+```math
+ATD_m(Q_{\theta_m R}^{\Phi})
+```
+
+holds:
 
 ```math
 X_{\theta R}(s_a)\le\eta_X,
@@ -982,11 +992,22 @@ N_{\theta R}\in L^1(I_{\theta R}),
 F_{\theta R}\in L^1(I_{\theta R}).
 ```
 
-Proof sketch. Rescale to `R=1`. Bounded pack gauge changes constants only by
-`M_\sharp`, so the moving cylinder is equivalent to a fixed parabolic cylinder
-for local estimates. Choose `\varepsilon_m` below the CKN threshold. Interior
-epsilon-regularity gives smoothness on `Q_{1/2}`, and parabolic bootstrapping
-gives, for every `k\le m+2`,
+Proof. Rescale to `R=1`. Bounded pack gauge and CKN-admissibility transfer
+`Q_R^\Phi` to a standard parabolic cylinder with constants depending only on
+`M_\sharp`. The hypothesis becomes the normalized CKN smallness condition
+
+```math
+\iint_{Q_1}|u-u_1^{aff}|^3
++
+\iint_{Q_1}|p-p_1^{norm}|^{3/2}
++
+\iint_{Q_1}|\nabla u|^2
+\le\varepsilon_m.
+```
+
+Choose `\varepsilon_m` below the CKN epsilon-regularity threshold for this
+normalized frame. Interior regularity gives smoothness on `Q_{1/2}` and
+parabolic bootstrapping gives, for every `k\le m+2`,
 
 ```math
 \sup_{Q_{1/2}}|\nabla^k u|
@@ -1002,19 +1023,57 @@ Scaling back,
 R^{k+1}|\nabla^k u|
 +
 R^{k+3}|\nabla^{k+1}p|
-\le C_m.
+\le C_{m,M_\sharp,\nu}.
 ```
 
-Taylor/Poincare on the smaller cylinder gives
+Let `U_q` be the `q`-th tower rung, `q\le m+2`. The derivative bounds imply
+for every normalized affine residual `R_{q,j}^{\theta R}` and every slot in
+`X_{\theta R}`,
+
+```math
+|\zeta_{\theta R}\nabla_{\theta R}^{\beta}R_{q,j}^{\theta R}(s_a)|_{\bar L^2}^2
+\le C_m\theta^2.
+```
+
+Summing over the finite center/rung/derivative list gives
 
 ```math
 X_{\theta R}(s_a)\le C_m\theta^2.
 ```
 
 Choose `\theta_m` so that `C_m\theta_m^2\le\eta_X`. The same derivative bounds
-give `X_{\theta R}\in L^\infty`, `N_{\theta R}\in L^1`, and the averaged
-pressure, viscous, top-rung, and moving-cutoff ledgers by testing the equations
-against transported mollifiers. Hence `ATD_m(Q_{\theta_m R}^\Phi)` holds.
+give `X_{\theta R}\in L^\infty(I_{\theta R})` and, since
+`|I_{\theta R}|\simeq\theta^2R^2`, give
+`N_{\theta R}\in L^1(I_{\theta R})`.
+
+For the averaged center forcing, test the tower equations against transported
+mollifiers:
+
+```math
+\frac{d}{dt}\bar U_{q,j}^{\theta R}
+=
+\langle K_q,\varphi_{j,\theta R}\rangle
++
+\text{moving-frame terms},
+\qquad
+K_q=-\nabla^{q+1}p+\nu\Delta U_q.
+```
+
+The pressure term may be read either from the interior pressure derivative
+bounds or by integration onto the mollifier,
+
+```math
+\langle\nabla^{q+1}p,\varphi\rangle
+=
+(-1)^{q+1}\langle p,\nabla^{q+1}\varphi\rangle.
+```
+
+The viscous term reads from `U_{q+2}`, available because the tower packet
+reaches depth `m+2`; moving-frame terms are controlled by `M_\sharp` and the
+same interior derivative bounds. Thus
+`\mathcal K_{\le m}^{avg,\theta R}\in L^1(I_{\theta R})` and
+`F_{\theta R}\in L^1(I_{\theta R})`. Hence
+`ATD_m(Q_{\theta_m R}^\Phi)` holds. ∎
 
 Define
 
@@ -1262,6 +1321,8 @@ DTC.Read^\varepsilon
 End_{NS}.
 ```
 
-The single highest-leverage analytic theorem remains `ATD_m^epsilon`; its
-engine is the local CKN epsilon-regularity gain from small `SCF_base` to the
-finite-depth averaged affine tower packet.
+`ATD_m^epsilon` is now solved locally as the CKN epsilon-regularity gain from
+small normalized `SCF_base` cylinders to the finite-depth averaged affine tower
+packet. The remaining global issue is coverage: finite energy supplies
+SCF-good cylinders a.e. in material spacetime, and `CAVG.J` routes the bad
+material set into `Jump_avg` inside `AVG.COVER.A`.
