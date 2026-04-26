@@ -22,7 +22,12 @@ position at which that object is produced or explicitly authorized?
 Verdict:
 
 ```text
-Pass, with two hard ordering flags:
+Retained-smooth branch: pass, with two hard ordering flags.
+
+Finite-energy-native branch: the old point-center route fails as stated,
+because NKF.Native and ACT.X-Scale spend retained local smoothness. The
+replacement target is SCF_avg => AACT.KX => DTC.A_avg, with DTC.Read required
+before recovering pointwise DTC.A.
 
 1. The source-side cells FPCR.C, FSCR.C, and FCC.C1 are post-LCI.A cells.
    They cannot be cited back into NKF.*, ACT.X-*, ACT.KX, ACT.X-Readout,
@@ -83,12 +88,30 @@ CFI.A + End_NS
 => no finite-time class exit
 ```
 
+Averaged receiver replacement order:
+
+```text
+SCF_avg
+=> AACT.KX
+=> X_R in Linfty + N_R in L1 + K_le_m^{avg,R} in L1
+=> DTC.A_avg
+=> DTC.Read
+=> DTC.A
+```
+
+`DTC.A_avg` must remain typed as averaged data until `DTC.Read` is proved.
+
 ## Global Non-Spending Rule
 
 Before the cell that produces `LCI.A`, the only allowed receiver-side inputs are
 retained-window data, native center forcing, local pressure response, cutoff
 geometry, finite-depth affine-center equations, top-viscous readout data,
 same-fluid cover/scale data, and bounded pack gauge where explicitly stated.
+
+For the averaged branch, replace "retained-window data" and "native center
+forcing" by the scale-critical localized packet `SCF_avg`. The averaged branch
+does not import `NKF.Point`, point pressure-center control, or retained
+center-ball smoothness.
 
 The following are forbidden as pre-`LCI.A` receiver inputs:
 
@@ -127,7 +150,7 @@ endpoint closure.
 
 | # | Cell | Allowed inputs | Forbidden early spends checked | Verdict |
 | --- | --- | --- | --- | --- |
-| 1 | `NKF.Native` | `RSCB.NKF`, retained windows, transported mollifiers, point recovery, local Poisson split, finite-energy far tail. | No `LCI.A`, `CSP.A`, `OFP.A`, `Field`, source theorem, or endpoint closure. | Clean pre-`LCI.A` forcing supplier. |
+| 1 | `NKF.Native` | `RSCB.NKF`, retained windows, transported mollifiers, point recovery, local Poisson split, finite-energy far tail. | No `LCI.A`, `CSP.A`, `OFP.A`, `Field`, source theorem, or endpoint closure. | Clean pre-`LCI.A` forcing supplier only on the retained-smoothness branch; not a finite-energy-native proof. |
 | 2 | `NKF.Ann` | Affine pressure normal form, annular support away from the center, finite product estimate in `X_exc` and `N`. | No class-membership object and no endpoint object. | Clean in-bootstrap annular supplier. |
 | 3 | `NKF.Quad` | Local elliptic response for the quadratic pressure residual and finite-depth `X_exc`/`N` estimates. | No `LCI.A`, `CSP.A`, `OFP.A`, `Field`, or endpoint closure. | Clean in-bootstrap quadratic supplier. |
 | 4 | `ACT.X-Press` | `NKF.Native + NKF.Ann + NKF.Quad`, pressure energy form, energy far-tail, and post-`ACT.KX` cell readout as a consequence. | Does not use `LCI.A`; the cell form waits for `ACT.KX` outputs and is not a pre-`ACT.KX` closure theorem. | Clean pressure package. |
@@ -135,7 +158,7 @@ endpoint closure.
 | 6 | `ACT.X-MidRaw` | Finite triangular middle block, zero-mode linear terms, `A_core X_exc`, and absorbable pure-excess terms. | Does not import `A_core` from `LCI.A`; keeps `A_core` inside `ACT.KX`. | Clean middle-block package. |
 | 7 | `ACT.X-TopVisc` | Viscous commutator, top buffer modes as top readout/forcing data, and `Y_read` placement after the joint run. | Does not move `A_buf` into pre-pressure `A_core`; no `LCI.A` or endpoint spend. | Clean top-viscous package. |
 | 8 | `ACT.KX` | `ACT.X-Cut`, `ACT.X-Press_energy`, `ACT.X-MidRaw`, `ACT.X-TopVisc`, scheduler budgets, `eta_X` seed/smallness, triangular center equation, and `F0/F_K`. | Explicitly no `LCI.A`, `CSP.A`, `OFP.A`, `Field`, source theorem, `Y_read` readout, or endpoint closure. | Central clean pass. `ACT.KX` is a pre-`LCI.A` theorem. |
-| 9 | `ACT.X-Scale` | Retained smooth center-ball regularity at restart times and choice of small radii with `X_exc(s_a;R_a) <= eta_X`. | Does not assert fixed-radius smallness and does not spend endpoint exclusion. | Clean restart-seed theorem. |
+| 9 | `ACT.X-Scale` | Retained smooth center-ball regularity at restart times and choice of small radii with `X_exc(s_a;R_a) <= eta_X`. | Does not assert fixed-radius smallness and does not spend endpoint exclusion. | Clean restart-seed theorem only on the retained-smoothness branch. On the averaged branch, the seed is `X_R(s_a)` inside `SCF_avg`. |
 | 10 | `RWS.C_scale` | Finite same-fluid dynamic cover, small packets from the scale-small run, finite overlap, and retained cover geometry. | Uses no `LCI.A`, `CSP.A`, `OFP.A`, `Field`, or `End_NS`; bounded pack data here is not `END.Pack`. | Clean scale-transfer theorem. |
 | 11 | `ACT.X-Readout` | `ACT.KX` outputs, `ACT.X-Scale`, `RWS.C_scale`, local Morrey, affine-frame defect readout, pressure readout, and top-viscous readout. | Does not use `LCI.A`; it is the readout path toward `ACT.A`, not a consumer of the `LCI.A` result. | Clean post-`ACT.KX`, pre-`LCI.A` readout. |
 | 12 | `ACT.A -> RCF.A -> LCI.A` | `ACT.X-Readout`, affine-defect bridge, residual center forcing, oscillation ledger, bounded pack gauge, `LCI.B2e`, and `LCI.C`. | This is the first production of `LCI.A`; it does not cite `LCI.A` as an input. No `CSP.A`, `OFP.A`, `Field`, or endpoint closure. | Clean `LCI.A` production cell. |
@@ -143,7 +166,7 @@ endpoint closure.
 | 14 | `FSCR.C` | Post-`LCI.A` control of `C_{N+1}^delta` and bounded frozen packet energy. | Forbidden as a receiver input. No `CSP.A`, `OFP.A`, `Field`, or endpoint closure. | Clean only as post-`LCI.A` source-side cell. |
 | 15 | `FCC.C1` | Post-`LCI.A` packet-factor derivative bound, cutoff coefficient `b_psi^cut in L^1`, Gronwall, and absorption. | Forbidden as a receiver input. No endpoint spend. | Clean only as post-`LCI.A` source-side cell. |
 | 16 | `FCI.5f` | `FPCR.C + FSCR.C + FCC.C1` exact source split. | Inherits post-`LCI.A` status; cannot be cited into the proof of `LCI.A` or `ACT.KX`. | Clean post-`LCI.A` source assembly. |
-| 17 | `DTC-to-TowerBound` | Fixed transported-center cover, local `DTC.A` Sobolev control, Morrey, pressure readout, and `U_{k+2}` viscous readout. | `DTC.A` must remain clean of `LCI.A`, `CSP.A`, `OFP.A`, and `Field`; no endpoint closure is spent here. | Clean endpoint analytic input if `DTC.A` keeps its non-smuggling license. |
+| 17 | `DTC-to-TowerBound` | Fixed transported-center cover, local `DTC.A` Sobolev control, Morrey, pressure readout, and `U_{k+2}` viscous readout. | `DTC.A` must remain clean of `LCI.A`, `CSP.A`, `OFP.A`, and `Field`; no endpoint closure is spent here. `DTC.A_avg` is not enough unless `DTC.Read` has been proved. | Clean endpoint analytic input if pointwise `DTC.A` keeps its non-smuggling license. |
 | 18 | `END.Exh` | Formal certificate maps for `Pack`, `Part`, and `Field` and the identity `CM = Pack wedge Part wedge Field`. | The word `Field` appears only as an endpoint certificate component; no positive `Field` coherence is supplied or spent here. | Clean endpoint formal map. |
 | 19 | `END.Cross` | Blown gauge split, `Pack + Part + Jump => Field-coherence fracture`, and the installed `(Part, Dead)` row. | Endpoint-only cross-entry reduction; not a receiver or source supplier and not a proof of `Field`. | Clean endpoint formal reduction. |
 | 20 | Pack/Part/Field endpoint matrix | `END.Pack` from bounded pack gauge, `END.Field` from `OFP.A => no Jump`, and `END.Tower` from tower bound. | This is the only authorized spend of `OFP.A` for the endpoint `Field` face. It occurs after `OFP.A`, not inside `ACT.KX` or the source channel. | Clean endpoint matrix with explicit `OFP.A` dependency. |

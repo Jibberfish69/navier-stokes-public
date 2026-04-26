@@ -41,6 +41,32 @@ K_k=-\nabla^{k+1}p+\nu\Delta U_k.
 Thus the DTC depth must be at least `N+2`, and the same finite cover must supply
 the local pressure response for `\nabla^{k+1}p`.
 
+## Averaged-Route Boundary
+
+This endpoint packet consumes pointwise `DTC.A`. It cannot consume
+`DTC.A_avg` under the same name.
+
+The averaged receiver route now has the intermediate target
+
+```math
+SCF_{\mathrm{avg}}
+\Longrightarrow
+AACT.KX
+\Longrightarrow
+DTC.A_{\mathrm{avg}}.
+```
+
+To feed this endpoint theorem, a separate readout bridge is required:
+
+```math
+DTC.Read:
+\qquad
+DTC.A_{\mathrm{avg}}\Longrightarrow DTC.A.
+```
+
+Until `DTC.Read` is proved, `DTC.A_avg` is only an averaged transported-center
+packet and does not supply the Morrey/sup pressure-center readout used below.
+
 ## Theorem Statement
 
 **Theorem 1 (`DTC-to-TowerBound`).** Let

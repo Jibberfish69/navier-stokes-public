@@ -262,10 +262,15 @@ ACT.Kcore:
   Lower viscous recycle is core-controlled.
   The top-viscous m+1,m+2 line is forcing/readout, not A_buf amplitude.
 
-Routing:
+Retained-branch routing:
   NKF.Native + NKF.Ann + NKF.Quad => ACT.X-Press.
   ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX.
   ACT.KX + ACT.X-Scale + RWS.C_scale => ACT.X-Readout => ACT.A.
+
+Averaged-branch routing:
+  SCF_avg => AACT.KX.
+  AACT.KX + RWS.C_scale => DTC.A_avg.
+  DTC.Read is required before DTC.A or endpoint tower readout.
 
 A_buf^ctr:
   contains the m+1 and m+2 readout/top-viscous buffer modes.
@@ -286,7 +291,7 @@ ACT.X-Press_energy:
   The quadratic residual pressure term contributes C_press X_exc^(1/2) N.
 ```
 
-Compact receiver chain:
+Compact retained receiver chain:
 
 ```text
 NKF.Native + NKF.Ann + NKF.Quad
@@ -305,11 +310,23 @@ ACT.KX + ACT.X-Scale + RWS.C_scale
 => LCI.A
 ```
 
+Compact averaged replacement chain:
+
+```text
+SCF_avg
+=> AACT.KX
+=> X_R in Linfty + N_R in L1 + K_le_m^{avg,R} in L1
+=> DTC.A_avg
+
+DTC.Read:
+DTC.A_avg => DTC.A
+```
+
 Receiver-side route-valid cells from the user's 21-cell conditional route theorem:
 
 | Cell | Receiver object materialized | Route-valid role |
 | --- | --- | --- |
-| `NKF.Native` | native center forcing `P_{\le m}^{ctr,nat}` from `RSCB.NKF` via `NKF.Moll + NKF.Point` | supplies point-center forcing without importing `LCI.A`, `CSP.A`, `OFP.A`, or `Field` |
+| `NKF.Native` | native center forcing `P_{\le m}^{ctr,nat}` from `RSCB.NKF` via `NKF.Moll + NKF.Point` | supplies point-center forcing without importing `LCI.A`, `CSP.A`, `OFP.A`, or `Field`, but only on the retained-smoothness branch |
 | `NKF.Ann` | projected annular pressure remainder `Pi_ann` | removes raw affine annular modes from the pressure supplier |
 | `NKF.Quad` | pointwise-in-time quadratic pressure residual | feeds the bootstrap pressure package before the residual cell readout |
 | `ACT.X-Press` | two-use pressure package: `ACT.X-Press_energy` inside the bootstrap and `ACT.X-Press_cell` after `ACT.KX` | routes `NKF.Native + NKF.Ann + NKF.Quad` into pressure control without making pressure a pre-`ACT.KX` closure theorem |
@@ -317,7 +334,7 @@ Receiver-side route-valid cells from the user's 21-cell conditional route theore
 | `ACT.X-MidRaw` | triangular finite-depth middle block with zero-mode linear terms | keeps `A_core^ctr` inside `ACT.KX` instead of smuggling it as pre-core data |
 | `ACT.X-TopVisc` | `m+1,m+2` viscous buffer/readout modes | keeps `A_buf^ctr` in `Y_read`, not in the smallness variable |
 | `ACT.KX` | simultaneous propagation of `X_exc`, `N`, `K_{\le m}^{ctr}`, and `A_core^ctr` | joint core/excess theorem using `J=X_exc+theta A_core` while absorbing only the `X_exc^(1/2)N` term |
-| `ACT.X-Scale` | small-radius retained restart seed `X_exc(s_a;R_a) <= eta_X` | supplies the seed for each retained restart; it is not fixed-radius smallness |
+| `ACT.X-Scale` | small-radius retained restart seed `X_exc(s_a;R_a) <= eta_X` | supplies the seed for each retained restart; on the averaged branch this slot is replaced by the `X_R(s_a)` component of `SCF_avg` |
 | `RWS.C_scale` | finite dynamic small-radius cover to fixed readout scale | licenses fixed-radius readout after the scale-small run |
 | `ACT.X-Readout` | `Y_read=A_core^ctr+A_buf^ctr+X_exc` | spends the full bounded readout packet after `ACT.KX` |
 | `ACT.A` | `D_1^aff in L1`, `F_ctr_res in L1`, and `H_osc^alpha in L2` | packages the receiver output supplied by `ACT.X-Readout` |
@@ -325,10 +342,12 @@ Receiver-side route-valid cells from the user's 21-cell conditional route theore
 | `LCI.A` | lower-carrier interval integrability readout | receiver-side endpoint of Worker R's route portion |
 
 This is a conditional retained-window receiver discharge, not an unconditional
-energy result. The live native forcing certificate is `RSCB.NKF`, which
+energy result. The retained native forcing certificate is `RSCB.NKF`, which
 supplies the retained smooth forcing route
 `NKF.Moll + NKF.Point => NKF.Native`, together with the scheduler budgets;
-source-channel and endpoint blocks remain separate.
+source-channel and endpoint blocks remain separate. The finite-energy-native
+route must instead prove the scale-critical averaged packet `SCF_avg` and carry
+`DTC.A_avg` until `DTC.Read` recovers the pointwise object.
 
 ## Exploratory Or Parked Branches
 
