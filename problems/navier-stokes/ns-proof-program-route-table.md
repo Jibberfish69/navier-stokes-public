@@ -275,7 +275,7 @@ Averaged-branch routing:
   DTC.A_avg => AVG.RCV.A => LCI.A_avg.
   LCI.A_avg + FCI.5f => CSP.A_avg => OFP.A_avg => CFI.A_avg.
   CFI.A_avg + AVG.END.Cert => End_NS_avg.
-  AVG.MAIN.A: SCF_base + ATD_m^epsilon + CAVG.J + AVG.RCV.A + AVG.END.A
+  AVG.MAIN.A: SCF_base + ATD_m^epsilon + CAVG.J + AVG.RCV.A + AVG.END.A + FFSRC.A
   => no averaged finite-time class exit.
   DTC.Read is required before DTC.A or endpoint tower readout.
   Field.Read or CM.Read is required before old CFI.A.

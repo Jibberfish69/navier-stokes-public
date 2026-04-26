@@ -356,11 +356,13 @@ End_{NS,\mathrm{avg}}.
 The old pointwise object is separated as a later readout theorem:
 
 ```math
-DTC.Read^\varepsilon:
+DTC.Read:
 \qquad
 DTC.A_{\mathrm{avg}}
 +
-\text{uniform fixed-scale finite cover}
+\text{fixed-scale finite same-fluid cover}
++
+ATD_m^\varepsilon
 \Longrightarrow
 DTC.A.
 \tag{ODC.15h}
@@ -368,7 +370,7 @@ DTC.A.
 
 Thus `DTC.A` cannot be spent inside the proof of `SCF_avg^m`, `AACT.KX`, or
 `DTC.A_avg`. Likewise `DTC.A_avg` cannot feed the endpoint tower packet as
-pointwise `DTC.A` until `DTC.Read^epsilon` is proved.
+pointwise `DTC.A` outside the fixed-scale finite-cover readout `DTC.Read`.
 
 Similarly, `OFP.A_avg` supplies `Field_avg`, not the old pointwise `Field`.
 The averaged class-membership object is
@@ -383,9 +385,11 @@ Pack\wedge Part\wedge Field_{\mathrm{avg}}.
 Old `CFI.A` is recovered only after
 
 ```math
-Field.Read^\varepsilon:
+Field.Read:
 \qquad
-Field_{\mathrm{avg}}+\text{uniform SCF-good finite cover at positive scale}
+Field_{\mathrm{avg}}
++\text{uniform positive-scale SCF-good finite cover}
++ATD_m^\varepsilon
 \Longrightarrow Field
 \qquad
 \text{or}

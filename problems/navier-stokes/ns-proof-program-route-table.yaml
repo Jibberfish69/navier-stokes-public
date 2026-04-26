@@ -412,8 +412,8 @@ closure_ecology:
         SCF_base plus SGC.A_a.e plus ATD_m^epsilon, and the route is
         SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off
         B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg. AVG.MAIN.A compresses
-        SCF_base + ATD_m^epsilon + CAVG.J + AVG.RCV.A + AVG.END.A into no averaged
-        finite-time class exit. AVG.COVER.A
+        SCF_base + ATD_m^epsilon + CAVG.J + AVG.RCV.A + AVG.END.A + FFSRC.A
+        into no averaged finite-time class exit. AVG.COVER.A
         combines good-region propagation with the bad-region jump case via CAVG.J,
         and DTC.Read is the fixed-scale finite-cover readout when
         endpoint/tower recovery needs pointwise DTC.A. RWS.C_cover supplies the

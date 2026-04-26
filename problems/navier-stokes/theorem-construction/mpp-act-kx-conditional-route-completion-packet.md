@@ -65,18 +65,22 @@ CFI.A_{\mathrm{avg}}.
 The old pointwise `DTC.A` remains quarantined behind the later readout theorem
 
 ```math
-DTC.Read^\varepsilon:
+DTC.Read:
 \qquad
-DTC.A_{\mathrm{avg}}+\text{uniform fixed-scale finite cover}
+DTC.A_{\mathrm{avg}}
++\text{fixed-scale finite same-fluid cover}
++ATD_m^\varepsilon
 \Longrightarrow DTC.A.
 ```
 
 The old pointwise class-membership conclusion remains quarantined behind
 
 ```math
-Field.Read^\varepsilon:
+Field.Read:
 \qquad
-Field_{\mathrm{avg}}+\text{uniform SCF-good finite cover at positive scale}
+Field_{\mathrm{avg}}
++\text{uniform positive-scale SCF-good finite cover}
++ATD_m^\varepsilon
 \Longrightarrow Field
 \qquad\text{or}\qquad
 CM.Read:\ CM_{\mathrm{avg}}\Longrightarrow CM.

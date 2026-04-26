@@ -31,8 +31,8 @@ AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg =>
 CSP.A_avg => OFP.A_avg => CFI.A_avg => AVG.MAIN.A. A nonempty B_epsilon^Phi is folded
 directly into Jump_avg by CAVG.J. Finite energy supplies only SCF_base at good material restarts;
 ATD_m^epsilon is the local epsilon-regularity tower supplier, while SGC.A_strong
-is off the main line as regularity-equivalent. DTC.Read^epsilon is parked for pointwise
-endpoint/tower recovery, while Field.Read^epsilon or CM.Read is required before
+is off the main line as regularity-equivalent. DTC.Read is the fixed-scale
+finite-cover pointwise endpoint/tower recovery, while Field.Read or CM.Read is required before
 recovering old CFI.A.
 
 1. The source-side cells FPCR.C, FSCR.C, and FCC.C1 are post-LCI.A cells.
@@ -110,19 +110,19 @@ SCF_base + SGC.A_a.e + ATD_m^epsilon
 => End_NS_avg
 => AVG.MAIN.A
 
-DTC.Read^epsilon:
-DTC.A_avg + uniform fixed-scale finite cover => DTC.A
+DTC.Read:
+DTC.A_avg + fixed-scale finite same-fluid cover + ATD_m^epsilon => DTC.A
 
-Field.Read^epsilon / CM.Read:
-Field_avg + uniform SCF-good finite cover at positive scale => Field
+Field.Read / CM.Read:
+Field_avg + uniform positive-scale SCF-good finite cover + ATD_m^epsilon => Field
 CM_avg => CM
 
 READ.END:
-End_NS_avg + Field.Read^epsilon + DTC.Read^epsilon => End_NS
+End_NS_avg + Field.Read + DTC.Read => End_NS
 ```
 
-`DTC.A_avg` must remain typed as averaged data until `DTC.Read^epsilon` is proved.
-`CFI.A_avg` must remain typed as averaged class membership until `Field.Read^epsilon`
+`DTC.A_avg` must remain typed as averaged data unless `DTC.Read` is invoked.
+`CFI.A_avg` must remain typed as averaged class membership until `Field.Read`
 or `CM.Read` is proved. `End_NS_avg` must remain typed as averaged endpoint
 exclusion until `READ.END` is proved.
 

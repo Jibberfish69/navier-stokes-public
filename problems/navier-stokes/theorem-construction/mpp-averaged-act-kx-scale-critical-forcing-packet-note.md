@@ -23,14 +23,16 @@ AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi}
 DTC.A_{\mathrm{avg}},
 ```
 
-with the later pointwise readout isolated as a separate conditional theorem
+with the later pointwise readout isolated as a separate sufficient theorem
 
 ```math
 DTC.Read:
 \qquad
 DTC.A_{\mathrm{avg}}
 +
-\text{uniform fixed-scale finite cover}
+\text{fixed-scale finite same-fluid cover}
++
+ATD_m^\varepsilon
 \Longrightarrow
 DTC.A.
 ```
@@ -420,7 +422,9 @@ DTC.Read:
 \qquad
 DTC.A_{\mathrm{avg}}
 +
-\text{uniform fixed-scale finite cover}
+\text{fixed-scale finite same-fluid cover}
++
+ATD_m^\varepsilon
 \Longrightarrow
 DTC.A.
 ```
@@ -663,7 +667,9 @@ Field.Read:
 \qquad
 Field_{\mathrm{avg}}
 +
-\text{uniform SCF-good finite cover at positive scale}
+\text{uniform positive-scale SCF-good finite cover}
++
+ATD_m^\varepsilon
 \Longrightarrow Field,
 ```
 
@@ -686,7 +692,7 @@ Field.Read\text{ is required.}
 }
 ```
 
-`DTC.Read` stays parked for endpoint/tower pointwise recovery only. The main
+`DTC.Read` is the fixed-scale finite-cover endpoint/tower pointwise recovery. The main
 route should avoid pointwise recovery as long as the downstream consumers can
 be retyped to averaged objects.
 

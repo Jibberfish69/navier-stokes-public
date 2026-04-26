@@ -61,15 +61,17 @@ DTC.A_{\mathrm{avg}}.
 To feed this endpoint theorem, a separate readout bridge is required:
 
 ```math
-DTC.Read^\varepsilon:
+DTC.Read:
 \qquad
-DTC.A_{\mathrm{avg}}+\text{uniform fixed-scale finite cover}
+DTC.A_{\mathrm{avg}}
++\text{fixed-scale finite same-fluid cover}
++ATD_m^\varepsilon
 \Longrightarrow DTC.A.
 ```
 
-Until `DTC.Read^epsilon` is proved, `DTC.A_avg` is only an averaged
-transported-center packet and does not supply the Morrey/sup pressure-center
-readout used below.
+Unless `DTC.Read` is invoked with its fixed-scale finite-cover and
+`ATD_m^epsilon` hypotheses, `DTC.A_avg` is only an averaged transported-center
+packet and does not supply the Morrey/sup pressure-center readout used below.
 
 ## Theorem Statement
 
