@@ -96,6 +96,30 @@ The first term is the source-only neighboring-response ledger after deleting
 every direct viscous source term; the second is the Euler-facing replacement
 for the moving-collar lower-carrier theorem.
 
+The parent receiver side now feeding that theorem is the ordered chain
+
+```math
+RSCB.NKF
+\Longrightarrow
+NKF.Native
+\Longrightarrow
+ACT.KX
+\Longrightarrow
+ACT.X\text{-Readout}
+\Longrightarrow
+ACT.A
+\Longrightarrow
+RCF.A
+\Longrightarrow
+LCI.A.
+\tag{EOFR.4a}
+```
+
+On the Euler mirror this chain is comparison authority only. The route may reuse
+its ordering discipline, but it must replace the viscous native-forcing and
+`ACT.KX` absorption cells before it can use the downstream readout toward
+`ELCI.A`.
+
 ## Exact Source-Side Live Burden
 
 The source side is no longer allowed to hide behind the parent label
@@ -146,6 +170,11 @@ What does **not** survive automatically is the dissipative absorption step that
 the parent route obtained from the `2\nu` term in the moving-collar lower-order
 energy identity.
 
+Under the expanded parent packet, that same missing step appears inside the
+pre-`LCI.A` receiver theorem `ACT.KX`: the Euler mirror has no `c_\nu N`
+absorption budget, no `eta_X=(c_\nu/4C_X)^2` first-exit seed, and no
+`ACT.X-TopVisc` cell to feed top-viscous readout.
+
 ## Proposition `EOFR.B` (Transport-pressure execution order on the receiver side)
 
 The honest receiver-side order on the Euler mirror is:
@@ -153,6 +182,10 @@ The honest receiver-side order on the Euler mirror is:
 ```math
 \boxed{
 \text{bounded pack-side gauge}
+\;+\;
+\text{Euler-clean retained-center native forcing}
+\;+\;
+\text{Euler-clean simultaneous core/excess budget}
 \;+\;
 \text{transported-center carrier readout}
 \;+\;

@@ -138,4 +138,5 @@ supplier. So the honest mirror boundary is:
 
 That is why the Euler mirror continues directly to `EOFP`, with the no-jump
 branch now reduced further through `EOFR.A` and the Euler receiver slot
-`ELCI.A` instead of importing the parent `LCI` package unchanged.
+`ELCI.A` instead of importing the parent
+`RSCB.NKF -> NKF.Native -> ACT.KX -> ... -> LCI.A` receiver chain unchanged.

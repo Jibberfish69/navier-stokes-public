@@ -10,7 +10,27 @@ receiver side as far as transport/pressure-only structure honestly allows.
 
 ## Purpose
 
-The parent Navier-Stokes `LCI.A` package is the first mainline theorem that does
+The parent Navier-Stokes receiver package is no longer just a bare `LCI.A`
+label. The installed comparison route now runs
+
+```math
+RSCB.NKF
+\Longrightarrow
+NKF.Native
+\Longrightarrow
+ACT.KX
+\Longrightarrow
+ACT.X\text{-Readout}
+\Longrightarrow
+ACT.A
+\Longrightarrow
+RCF.A
+\Longrightarrow
+LCI.A.
+\tag{ELCI.0a}
+```
+
+This is the parent receiver chain that the Euler mirror must classify. It does
 not survive the Euler rewrite unchanged. The reason is specific:
 
 ```math
@@ -21,9 +41,22 @@ not survive the Euler rewrite unchanged. The reason is specific:
 \tag{ELCI.0}
 ```
 
-So the honest Euler task is not to copy `LCI.A` with `\nu=0` dropped from the
-equation and nothing else changed. It is to write the strongest transport /
-pressure replacement theorem that still sits in the same theorem slot.
+So the honest Euler task is not to copy
+`RSCB.NKF -> NKF.Native -> ACT.KX -> ... -> LCI.A` with `\nu=0` dropped from
+the equation and nothing else changed. It is to write the strongest transport /
+pressure replacement theorem that still sits in the same receiver slot.
+
+The classification is:
+
+1. retained-center geometry, local pressure response, transported mollifiers,
+   and point recovery remain useful proof patterns;
+2. native forcing cannot be imported as `NKF.Native` unchanged because the
+   parent `RSCB.NKF` proof includes viscous forcing/integration terms;
+3. the expanded `ACT.KX` packet is the sharp hard break, because its scheduler
+   uses the `c_\nu N` absorption term, the `eta_X` first-exit budget, and
+   `ACT.X-TopVisc` / top-viscous readout data;
+4. `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` remains downstream of that
+   missing Euler receiver budget.
 
 ## Exact Remaining Object
 
@@ -210,7 +243,9 @@ lower-order identity
 ```
 
 Compare this with the parent identity: the `2\nu` dissipation term and the
-viscous localization commutator are simply gone.
+viscous localization commutator are simply gone. In the expanded parent route,
+that same loss appears inside `ACT.KX` as the absence of the `c_\nu N`
+absorption budget and the top-viscous receiver cells.
 
 ## First Literal Viscous Obstruction
 
@@ -244,6 +279,24 @@ On Euler there is no such term. So the first literal obstruction is:
 
 That is the precise point where the initial Euler bootstrap hit the parent
 viscous wall.
+
+In today's installed Navier-Stokes route, the same obstruction is located more
+sharply:
+
+```math
+\boxed{
+\begin{gathered}
+\text{Euler has no unchanged analogue of the parent }ACT.KX\text{ budget}\\
+\text{until the }c_\nu N\text{ absorption and top-viscous cells are replaced}\\
+\text{by a direct transport/pressure estimate.}
+\end{gathered}
+}
+\tag{ELCI.12a}
+```
+
+Thus `ELCI.A` is the Euler replacement slot for the full
+`RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A`
+receiver spine.
 
 ## Transport/Pressure-Only Reduction
 
@@ -332,9 +385,12 @@ already proved. It isolates the exact remaining theorem debt:
 
 ```math
 \boxed{
-\text{replace viscous absorption by a direct transport/pressure theorem that makes }
+\begin{gathered}
+\text{replace the parent }ACT.KX\text{ viscous absorption and top-viscous readout}\\
+\text{by a direct transport/pressure theorem that makes }
 \mathfrak L_{N,m,\rho,\psi}^{E,ctr}
 \text{ integrable on still-live Euler intervals.}
+\end{gathered}
 }
 \tag{ELCI.17}
 ```
@@ -352,7 +408,11 @@ This note pushes the lower-carrier theorem as far as possible without cheating:
 
 ```math
 \boxed{
-\text{the Euler mirror of `LCI` is now reduced to an explicit transport/pressure ledger, and the first unresolved point is exactly the missing }2\nu\text{-absorption step.}
+\begin{gathered}
+\text{the Euler mirror of the parent receiver chain is reduced to}\\
+\text{an explicit transport/pressure ledger, and the first unresolved point is}\\
+\text{the missing }ACT.KX\text{ / }2\nu\text{ absorption and top-viscous replacement.}
+\end{gathered}
 }
 \tag{ELCI.18}
 ```

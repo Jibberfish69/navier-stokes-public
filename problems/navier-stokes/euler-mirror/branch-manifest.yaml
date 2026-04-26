@@ -52,6 +52,12 @@ fidelity_contract:
   - L13
   - CFI.A
   - OFP.A
+  - RSCB.NKF
+  - NKF.Native
+  - ACT.KX
+  - ACT.X-Readout
+  - ACT.A
+  - RCF.A
   - LCI.A
   current_branch_local_order:
   - ECFI.A
@@ -74,7 +80,13 @@ current_mirror_state:
     - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
     - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md
     - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
-    live_obstruction: missing literal `2\nu` absorption and top-viscous readout replacement inside the parent `LCI.A` slot, now exposed explicitly as the open burden in `ELCI.A`
+    parent_receiver_chain: RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A
+    euler_classification: >-
+      The retained-center pressure and point-recovery pattern is useful, but the
+      native forcing and simultaneous core/excess receiver packet must be
+      rewritten after deleting viscous forcing, `c_nu N` absorption, and
+      `ACT.X-TopVisc`.
+    live_obstruction: missing Euler transport/pressure replacement for the expanded parent `ACT.KX` / `2\nu` absorption and top-viscous readout chain, now exposed explicitly as the open burden in `ELCI.A`
   positive_control_route:
     status: rewritten-through-source-pack-layer
     branch_local_surfaces:

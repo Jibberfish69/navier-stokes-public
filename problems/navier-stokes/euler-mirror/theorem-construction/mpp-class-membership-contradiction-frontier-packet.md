@@ -125,6 +125,31 @@ supplier burdens inside `ELCI.A` and the source ledger beneath `EOFP.A`.}
 }
 ```
 
+Today's parent Navier-Stokes route makes the same point more finely. The
+receiver side now reaches `LCI.A` through
+
+```math
+RSCB.NKF
+\Longrightarrow
+NKF.Native
+\Longrightarrow
+ACT.KX
+\Longrightarrow
+ACT.X\text{-Readout}
+\Longrightarrow
+ACT.A
+\Longrightarrow
+RCF.A
+\Longrightarrow
+LCI.A.
+\tag{ECFP.1}
+```
+
+For the Euler mirror, this is an ordered comparison chain, not an importable
+proof. `RSCB.NKF -> NKF.Native` must be rewritten with all viscous forcing terms
+deleted, and `ACT.KX` is the first expanded receiver break because its installed
+budget spends `c_\nu N`, the `eta_X` absorption seed, and `ACT.X-TopVisc`.
+
 So this packet does **not** claim that the no-dead line, no-blown branch, or
 no-jump branch are already closed. It records the route-faithful order and the
 current contradiction posture now installed on disk.

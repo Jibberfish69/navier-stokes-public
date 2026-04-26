@@ -13,7 +13,8 @@ Identity:
 
 Branch contract:
 - preserve the exact `Pack / Part / Field / Dead / Blown / Jump` ontology
-- preserve the parent route labels `L13 -> CFI.A -> OFP.A -> LCI.A`
+- preserve the parent route labels, including `L13`, `CFI.A`, `OFP.A`, and the
+  receiver chain `RSCB.NKF -> NKF.Native -> ACT.KX -> ... -> LCI.A`
 - record the current branch-local execution order explicitly when it is refined
   on the Euler mirror
 - preserve pressure, incompressibility, flow-map, and same-fluid language
@@ -36,8 +37,9 @@ Current theorem-facing contradiction order:
 - `ECFI -> EL13 -> EOFR/EOFP -> ELCI`
 
 Current live obstructions:
-- `ELCI.A` now records the first literal missing `2\nu` absorption step on the
-  contradiction route instead of leaving the parent `LCI.A` wall implicit
+- `ELCI.A` now records the missing Euler replacement for the expanded parent
+  `ACT.KX` / `2\nu` absorption and top-viscous readout chain instead of leaving
+  the parent `LCI.A` wall implicit
 - the positive-control branch still carries explicit Euler gaps in the scale
   barrier, control-functional replacement, and continuation packet
 - exact-potential, top-viscous, and static-diffusion packets remain demoted or

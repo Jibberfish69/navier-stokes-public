@@ -1,14 +1,57 @@
 ---
-version: 1
+version: 2
 tranche_id: import-v1-top-level-theorem-bootstrap
 created_at: '2026-03-28T17:25:00Z'
-source_repo:
+updated_at: '2026-04-26T16:35:00Z'
+status: active-research-consolidation-authority-inventory
+authority_handoff:
+  previous_assumption:
+    external_repo_name: mpp-ns
+    external_workspace_paths_checked:
+      - path: /Users/thomasbirnie/Workspace/ToE/mpp-ns
+        exists: false
+      - path: /Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns
+        exists: false
+    disposition: retired-provenance-only
+  current_authority:
+    repo_name: Jibberfish69/Research-Consolidation
+    git_root: /Users/thomasbirnie/Workspace/ToE/Research-Consolidation
+    git_head_at_observation: cea3c132e62fe907a97004f275d0320cb37e9809
+    lane_root: /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes
+    lane_root_kind: real-directory
+    lane_root_git_owner: Research-Consolidation
+    workspace_dirty_at_observation: true
+  retired_provenance:
+    cutover_manifest_dir: system/meta/collaboration/lane-repo-cutover/20260415T010700Z/navier-stokes
+    history_bundle: system/meta/collaboration/lane-repo-cutover/20260415T010700Z/navier-stokes/history.bundle
+    retired_dotgit: system/meta/collaboration/lane-repo-cutover/20260415T010700Z/navier-stokes/dotgit-retired
+  repo_boundary_delta:
+    type: authority-metadata-correction
+    file_copy_required_now: false
+    from: missing external mpp-ns destination plus retired Desktop symlink source
+    to: canonical Research-Consolidation lane root
+    future_split_rule: seed any future standalone split from current_authority.lane_root and retired_provenance, not from a sibling mpp-ns path
+legacy_source_snapshot:
   name: Jibberfish69/ToE
   commit: c0fbb50c3cfa71bc4d3628b9a88329891cd2d07a
   workspace_root: /Users/thomasbirnie/Desktop/ToE/ToE
   source_workspace: /Users/thomasbirnie/Desktop/ToE/ToE/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes
-  source_path_note: Research-Consolidation/problems/navier-stokes is a symlink to the source workspace.
-  workspace_dirty: true
+  source_path_note: retired Desktop-era symlink source, preserved for provenance only
+current_on_disk_inventory:
+  observed_at: '2026-04-26T16:35:00Z'
+  import_plan: problems/navier-stokes/docs/import-plan-v1.md
+  complete_publish_manifest: problems/navier-stokes/docs/current-state-publish-manifest.yaml
+  shared_lane_root_inventory: system/specs/navier-stokes-lane-root-inventory-v1.yaml
+  top_level_entries: 118
+  top_level_files: 112
+  top_level_dirs: 6
+  total_files: 690
+  runtime_files: 14
+  non_runtime_files: 676
+  source_forensics_files: 15
+  theorem_construction_files: 489
+  docs_files: 3
+  euler_mirror_files: 55
 import_rules:
   include_globs:
     - '*.md'

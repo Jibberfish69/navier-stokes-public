@@ -96,6 +96,13 @@ available supplier theorem.
 The exact remaining obstruction inside that Euler receiver slot is the missing
 `2\nu` absorption step isolated in `ELCI.A`.
 
+With the installed parent route now sharpened, that obstruction should be read
+through the receiver chain
+`RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A`.
+The Euler mirror preserves that order but treats `ACT.KX` as a non-importable
+receiver packet until its `c_\nu N` absorption and `ACT.X-TopVisc` cells are
+replaced by transport/pressure-only estimates.
+
 ## Resulting Branch Discipline
 
 So the Euler mirror of `OFP` is honest if it does exactly these three things:

@@ -1,20 +1,41 @@
 # Navier-Stokes Lane Import Plan V1
 
-This document defines the first export/import tranche from the current
-Navier-Stokes lane root into `mpp-ns`.
+This document defines the current repo-boundary import handoff for the
+Navier-Stokes lane root.
+
+## Current Authority Correction
+
+As of 2026-04-26, this plan does not require, resolve through, or import into an
+external `mpp-ns` sibling path. The authoritative on-disk source is:
+
+- `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes`
+
+That directory is a real directory inside the `Research-Consolidation` git root,
+not the older Desktop symlink shell and not a standalone external repo. The old
+`mpp-ns` assumption survives only as retired lane-repo provenance recorded under:
+
+- `system/meta/collaboration/lane-repo-cutover/20260415T010700Z/navier-stokes/`
 
 ## Source Boundary
 
-The live `problems/navier-stokes` path in `Research-Consolidation` is currently a
-symlink to:
+The live `problems/navier-stokes` path in `Research-Consolidation` currently
+resolves to:
 
-- `Research-Consolidation/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes`
+- `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes`
 
-This tranche imports from that resolved source path, not from the symlink shell.
+The git root for that source is:
+
+- `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation`
+
+Future repo split or paper-workspace work must import from this canonical source
+root and the recorded cutover provenance, not from `/Users/thomasbirnie/Workspace/ToE/mpp-ns`,
+`/Users/thomasbirnie/Desktop/ToE/ToE/mpp-ns`, or the retired Desktop corpus
+symlink path.
 
 ## Scope
 
-Import the top-level authored lane surfaces from the resolved source path.
+Inventory the top-level authored lane surfaces already hosted under the
+canonical source path. No theorem text rewrite is part of this handoff.
 
 Include top-level:
 
@@ -52,7 +73,11 @@ Do not import these in tranche 1:
 
 ## Acceptance Criteria
 
-- the standalone repo contains the top-level NS theorem/source files
-- duplicate `* (1).*` conflict files are not imported
-- runtime and packaging directories are absent
-- the import inventory records the resolved source snapshot and exclusion policy
+- the canonical `Research-Consolidation/problems/navier-stokes` directory is the
+  authoritative source for the import inventory
+- duplicate `* (1).*` conflict files are not part of the future split/export
+  seed set
+- runtime and packaging directories are excluded from future split/export seed
+  sets unless a later plan explicitly scopes them
+- the import inventory records the current on-disk source snapshot, the retired
+  external-repo assumption, and the current exclusion policy

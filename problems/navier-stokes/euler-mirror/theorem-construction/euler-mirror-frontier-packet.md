@@ -47,6 +47,30 @@ Navier-Stokes class-membership spine:
 5. `EOFR.A` / `EOFP.A` one-field forward-preservation reduction;
 6. `ELCI.A` as the Euler receiver replacement inside the no-jump branch.
 
+The installed parent receiver side has now been sharpened before `LCI.A`:
+
+```math
+RSCB.NKF
+\Longrightarrow
+NKF.Native
+\Longrightarrow
+ACT.KX
+\Longrightarrow
+ACT.X\text{-Readout}
+\Longrightarrow
+ACT.A
+\Longrightarrow
+RCF.A
+\Longrightarrow
+LCI.A.
+\tag{EMF.1}
+```
+
+The Euler mirror keeps this as the comparison order. It does not import the
+chain as an Euler proof, because the middle receiver packet still contains the
+viscous absorption and top-viscous readout mechanisms that were removed with
+`\nu\Delta u`.
+
 The old temptation to jump directly to selector, exact-potential, Hodge, or
 Euclidean export branches stays forbidden here too. The Euler branch must first
 survive the same mainline queue.
@@ -71,28 +95,40 @@ surface `EOFR.A`, and the Euler receiver replacement slot `ELCI.A`.
 ## Honest Holdout
 
 The first exact wall is **not** vague “Euler is harder” rhetoric. In the parent
-route it was the raw `LCI.A` package; on the current Euler branch that slot has
-already been rewritten as `ELCI.A`, so the live obstruction is narrower.
+route the old coarse description was the raw `LCI.A` package. In the current
+installed route, that wall has been factored through
+`RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A`.
+On the Euler branch, `ELCI.A` is therefore the receiver replacement for this
+whole factored chain, not just for a bare old label.
 
 Why this is the first hard holdout:
 
-1. `LCI.A` carries an explicit pressure-viscosity split and an explicit
-   `2nu` dissipative term in the moving-collar energy identity.
-2. The top-viscous readout packet is defined directly through the viscous source
-   ledger.
-3. The exact-potential `V2` side packet is a heat-plus-perturbation /
+1. `RSCB.NKF -> NKF.Native` keeps a useful retained-center pressure and
+   point-recovery pattern, but its installed native-forcing proof includes
+   viscous forcing/integration terms and cannot be cited unchanged.
+2. `ACT.KX` is the sharp Euler break: the installed simultaneous core/excess
+   budget spends `c_\nu N`, the `eta_X` absorption seed, and
+   `ACT.X-TopVisc` / top-viscous readout data.
+3. `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` is downstream of that receiver
+   budget, so it is unavailable on Euler until the branch proves a direct
+   transport/pressure replacement.
+4. The exact-potential `V2` side packet is a heat-plus-perturbation /
    static-diffusion program, so its present proof method is genuinely
    parabolic.
-4. the current Euler replacement `ELCI.A` isolates the exact surviving defect:
-   the missing absorption step that the parent proof fed into `2\nu\mathcal D`.
+5. the current Euler replacement `ELCI.A` isolates the exact surviving defect:
+   the missing transport/oscillation absorption that the parent proof fed into
+   the `ACT.KX` / `2\nu\mathcal D` receiver budget.
 
 So the honest current stop line is:
 
 ```math
 \boxed{
-\text{mirror the class-membership spine first, replace raw `LCI.A` by `ELCI.A`,
-and keep the live receiver-side obstruction at the missing transport/oscillation
-defect absorption previously fed into }2\nu\mathcal D.
+\begin{gathered}
+\text{mirror the class-membership spine first, classify the parent}\\
+RSCB.NKF\to NKF.Native\to ACT.KX\text{ receiver chain under viscosity removal,}\\
+\text{and keep the live receiver-side obstruction at the missing}\\
+\text{transport/pressure replacement for the }ACT.KX\text{ absorption budget.}
+\end{gathered}
 }
 ```
 
@@ -107,3 +143,6 @@ Primary parent surfaces:
 5. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md`
 6. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-law13-surviving-endpoint-exclusion-program.md`
 7. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md`
+8. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-retained-window-native-forcing-theorem-program.md`
+9. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md`
+10. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-act-kx-hidden-spending-audit-note.md`

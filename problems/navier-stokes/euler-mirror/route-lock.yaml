@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   branch_id: euler-mirror-chat20
   artifact_id: route-lock-navier-stokes-euler-mirror
-  updated_on: '2026-04-22'
+  updated_on: '2026-04-26'
   generator: chat20-manual-route-lock
 governing_object_law:
   status: active
@@ -50,13 +50,23 @@ mirror_theorem_queue:
   - keep the source-locked contradiction and frontier packet written literally with the Euler PDE
   - keep `CFI.A` as forward-invariance of lawful class membership on same-fluid Euler families
   - keep `OFP.A` as one-field forward preservation through the transport / packet law without silent viscous terms
-  - use branch-local `ELCI.A` as the receiver replacement for the parent `LCI.A` slot and keep the missing `2nu` absorption explicit
+  - classify the installed parent receiver chain `RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` before any Euler use
+  - use branch-local `ELCI.A` as the receiver replacement for that full parent receiver chain and keep the missing `ACT.KX` / `2nu` absorption explicit
   - only after the Euler mainline is honest may downstream exact-potential, Hodge, selector, or Euclidean export branches be mirrored
 current_receiver_and_holdout_surfaces:
   branch_local_receiver_slot:
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
   parent_source_wall:
   - problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+  parent_receiver_upgrade:
+  - problems/navier-stokes/theorem-construction/mpp-retained-window-native-forcing-theorem-program.md
+  - problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md
+  - problems/navier-stokes/theorem-construction/mpp-act-kx-hidden-spending-audit-note.md
+  expanded_receiver_break: >-
+    The Euler mirror may preserve the order
+    `RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A`,
+    but it cannot import the chain unchanged because `ACT.KX` spends the
+    `c_nu N` / `2nu` absorption budget and `ACT.X-TopVisc` / top-viscous readout.
   downstream_viscous_packets:
   - problems/navier-stokes/theorem-construction/mpp-lci-a-fixed-increment-top-viscous-readout-note.md
   viscous_center_supplier_packets:

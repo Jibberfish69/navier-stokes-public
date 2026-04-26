@@ -122,6 +122,8 @@ The explicit gap rule is:
 
 That is why the initial Euler bootstrap started with the source-locked object
 note, the frontier packet, `ECFI`, and `EOFP`. The current branch keeps the
-same gap rule, but now reopens the old `LCI` slot explicitly as `ELCI.A`, where
-the exact unresolved point is the missing `2\nu` absorption step rather than a
-generic appeal to viscous difficulty.
+same gap rule, but now reopens the installed
+`RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A`
+receiver chain explicitly as `ELCI.A`, where the exact unresolved point is the
+missing Euler replacement for the `ACT.KX` / `2\nu` absorption and top-viscous
+readout budget rather than a generic appeal to viscous difficulty.
