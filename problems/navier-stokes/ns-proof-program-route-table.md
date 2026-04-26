@@ -317,9 +317,18 @@ SCF_avg
 => AACT.KX
 => X_R in Linfty + N_R in L1 + K_le_m^{avg,R} in L1
 => DTC.A_avg
+=> AVG.RCV.A
+=> LCI.A_avg
+=> CSP.A_avg
+=> OFP.A_avg
+=> CFI.A_avg
 
 DTC.Read:
 DTC.A_avg => DTC.A
+
+Field.Read / CM.Read:
+Field_avg => Field
+CM_avg => CM
 ```
 
 Receiver-side route-valid cells from the user's 21-cell conditional route theorem:
@@ -346,8 +355,10 @@ energy result. The retained native forcing certificate is `RSCB.NKF`, which
 supplies the retained smooth forcing route
 `NKF.Moll + NKF.Point => NKF.Native`, together with the scheduler budgets;
 source-channel and endpoint blocks remain separate. The finite-energy-native
-route must instead prove the scale-critical averaged packet `SCF_avg` and carry
-`DTC.A_avg` until `DTC.Read` recovers the pointwise object.
+route must instead prove the scale-critical averaged packet `SCF_avg`, then use
+`AVG.RCV.A` to reach `LCI.A_avg` and carry the averaged downstream chain
+`CSP.A_avg => OFP.A_avg => CFI.A_avg`. `DTC.Read` is parked for endpoint/tower
+pointwise recovery; old `CFI.A` additionally needs `Field.Read` or `CM.Read`.
 
 ## Exploratory Or Parked Branches
 

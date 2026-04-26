@@ -421,6 +421,252 @@ DTC.A_{\mathrm{avg}}
 
 with `DTC.Read` as a later pointwise/Morrey recovery bridge.
 
+## Averaged Transported-Center Bridge
+
+Define the averaged replacement for the old transported-center packet by
+
+```math
+DTC.A_{\mathrm{avg},\mathfrak p}:
+\qquad
+X_R\in L^\infty(I),
+\quad
+N_R\in L^1(I),
+\quad
+\mathcal K_{\le m}^{avg,R}\in L^1(I),
+```
+
+together with averaged pressure, viscous, and forcing readouts
+
+```math
+\mathfrak P_{\mathfrak p}^{avg}\in L^1(I),
+\qquad
+\mathfrak V_{\mathfrak p}^{avg}\in L^1(I),
+\qquad
+\mathfrak F_{\mathfrak p}^{avg}\in L^1(I).
+```
+
+Equivalently, on the receiver readout surface it contains the averaged
+objects
+
+```math
+\Omega_{\mathfrak p}^{avg}\in L^2(I),
+\qquad
+\mathfrak D_{1,\mathfrak p}^{aff,avg}\in L^1(I),
+\qquad
+\mathfrak F_{\mathfrak p}^{ctr,res,avg}\in L^1(I).
+```
+
+**Bridge `DTC.A_avg`.** The theorem target is
+
+```math
+AACT.KX+RWS.C_{\mathrm{scale}}
+\Longrightarrow
+DTC.A_{\mathrm{avg}}.
+```
+
+`AACT.KX` supplies
+
+```math
+X_R\in L^\infty,
+\qquad
+N_R\in L^1,
+\qquad
+\mathcal K_{\le m}^{avg,R}\in L^1.
+```
+
+`RWS.C_scale` transfers the small restarted packets to the fixed readout scale
+by finite same-fluid cover and bounded overlap. The local pressure terms are
+read through the affine-subtracted Poisson packet, while far pressure remains
+energy-controlled. Thus the transferred averaged packet gives
+`DTC.A_avg`.
+
+This bridge is averaged only. It does not recover point-center values,
+pointwise pressure derivatives, or the old endpoint tower readout.
+
+## Averaged Receiver Bridge
+
+The next main-route target avoids pointwise recovery:
+
+```math
+\boxed{
+AVG.RCV.A:
+AACT.KX+RWS.C_{\mathrm{scale}}
+\Longrightarrow
+DTC.A_{\mathrm{avg}}
+\Longrightarrow
+EOC.A_{\mathrm{avg}}
++AFD.A_{\mathrm{avg}}
++RCF.A_{\mathrm{avg}}
+\Longrightarrow
+LCI.A_{\mathrm{avg}}.
+}
+```
+
+For each averaged packet `\mathfrak p`, define
+
+```math
+EOC.A_{\mathrm{avg},\mathfrak p}:
+\qquad
+\Omega_{\mathfrak p}^{avg}\in L^2(I),
+```
+
+```math
+AFD.A_{\mathrm{avg},\mathfrak p}:
+\qquad
+\mathfrak D_{1,\mathfrak p}^{aff,avg}\in L^1(I),
+```
+
+and
+
+```math
+RCF.A_{\mathrm{avg},\mathfrak p}:
+\qquad
+\mathfrak F_{\mathfrak p}^{ctr,res,avg}\in L^1(I)
+\Longrightarrow
+\mathfrak A_{\mathfrak p}^{ctr,avg}\in L^2(I).
+```
+
+The averaged lower-carrier Gronwall coefficient is
+
+```math
+\mathfrak B_{\mathfrak p}^{avg}(t)
+=
+C_{\mathfrak p}
+\left[
+(1+\Gamma_\sharp)
+(1+\mathfrak A_{\mathfrak p}^{ctr,avg}
+  +\Omega_{\mathfrak p}^{avg})
++
+1+
+(\mathfrak A_{\mathfrak p}^{ctr,avg})^2
++
+(\Omega_{\mathfrak p}^{avg})^2
+\right].
+```
+
+Since
+
+```math
+\Gamma_\sharp\in L^\infty(I),
+\qquad
+\mathfrak A_{\mathfrak p}^{ctr,avg}\in L^2(I),
+\qquad
+\Omega_{\mathfrak p}^{avg}\in L^2(I),
+```
+
+one has
+
+```math
+\mathfrak B_{\mathfrak p}^{avg}\in L^1(I).
+```
+
+Finite `\mathscr P_{\rm req}` gives uniform Gronwall:
+
+```math
+\sup_{\mathfrak p\in\mathscr P_{\rm req}}
+\sup_{t\in I}
+\mathcal G_{\mathfrak p}^{avg}(t)<\infty.
+```
+
+The averaged lower-carrier readout then gives
+
+```math
+\Gamma_{\mathfrak p}^{low,avg}\in L^1(I),
+```
+
+which is the averaged lower-carrier conclusion
+
+```math
+\boxed{LCI.A_{\mathrm{avg}}.}
+```
+
+Thus the main averaged receiver route is
+
+```math
+\boxed{
+AVG.RCV.A:
+AACT.KX+RWS.C_{\mathrm{scale}}
+\Longrightarrow
+LCI.A_{\mathrm{avg}}.
+}
+```
+
+## Averaged Class-Membership Chain
+
+The averaged lower-carrier output may be passed downstream only through
+averaged consumers:
+
+```math
+LCI.A_{\mathrm{avg}}+FCI.5f
+\Longrightarrow
+CSP.A_{\mathrm{avg}}
+\Longrightarrow
+OFP.A_{\mathrm{avg}}
+\Longrightarrow
+CFI.A_{\mathrm{avg}}.
+```
+
+Here `CSP.A_avg` is an averaged collar envelope, not the old pointwise collar
+packet. Likewise `OFP.A_avg` propagates
+
+```math
+Field_{\mathrm{avg}},
+```
+
+not the old pointwise `Field`. The class-membership object produced by this
+chain is therefore
+
+```math
+CM_{\mathrm{avg}}
+=
+Pack\wedge Part\wedge Field_{\mathrm{avg}},
+```
+
+not
+
+```math
+CM=Pack\wedge Part\wedge Field.
+```
+
+Consequently the averaged chain stops at
+
+```math
+\boxed{
+CFI.A_{\mathrm{avg}}.
+}
+```
+
+It does not prove old `CFI.A` unless one of the readout bridges is proved:
+
+```math
+Field.Read:
+\qquad
+Field_{\mathrm{avg}}\Longrightarrow Field,
+```
+
+or equivalently
+
+```math
+CM.Read:
+\qquad
+CM_{\mathrm{avg}}\Longrightarrow CM.
+```
+
+The next class-membership target is therefore
+
+```math
+\boxed{
+AVG.CFI.A:
+CFI.A_{\mathrm{avg}}
+\text{ is sufficient for the endpoint matrix, or identify exactly where }
+Field.Read\text{ is required.}
+}
+```
+
+`DTC.Read` stays parked for endpoint/tower pointwise recovery only. The main
+route should avoid pointwise recovery as long as the downstream consumers can
+be retyped to averaged objects.
+
 ## Supply Wall
 
 Finite energy supplies only the global energy-class controls
