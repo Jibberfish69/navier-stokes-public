@@ -1176,7 +1176,7 @@ subsequence after endpoint exclusion.
 5. No class-membership readback:
 
 ```text
-CFI.A_avg cannot be cited as old CFI.A before Field.Read or CM.Read is proved.
+CFI.A_avg cannot be cited as old CFI.A before Field.Read^epsilon or CM.Read is proved.
 ```
 
 ## Handoff

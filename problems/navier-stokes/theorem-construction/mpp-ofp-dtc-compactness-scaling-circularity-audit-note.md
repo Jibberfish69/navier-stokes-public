@@ -394,7 +394,7 @@ Old `End_NS` is recovered only after
 ```math
 READ.END:
 \qquad
-End_{NS,\mathrm{avg}}+Field.Read+DTC.Read
+End_{NS,\mathrm{avg}}+Field.Read^\varepsilon+DTC.Read^\varepsilon
 \Longrightarrow
 End_{NS}.
 \tag{ODC.15h3}
