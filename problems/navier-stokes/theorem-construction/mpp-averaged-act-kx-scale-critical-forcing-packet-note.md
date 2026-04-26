@@ -60,9 +60,10 @@ DTC.A_{\mathrm{avg}}.
 ```
 
 This route does not recover the old pointwise `DTC.A` until the separate
-`DTC.Read` theorem is proved. No proof may spend `DTC.A`, `LCI.A`, `CSP.A`,
-`OFP.A`, `Field`, or endpoint exclusion to obtain `SCF_avg`, `AACT.KX`, or
-`DTC.A_avg`.
+`DTC.Read` theorem is proved, and it does not recover old `CFI.A` until
+`Field.Read` or `CM.Read` is proved. No proof may spend `DTC.A`, `LCI.A`,
+`CSP.A`, `OFP.A`, `Field`, or endpoint exclusion to obtain `SCF_avg`,
+`AACT.KX`, or `DTC.A_avg`.
 
 ## Geometry and Averaged Modes
 
@@ -667,6 +668,106 @@ Field.Read\text{ is required.}
 route should avoid pointwise recovery as long as the downstream consumers can
 be retyped to averaged objects.
 
+## Averaged Endpoint Lane
+
+The endpoint completion for the averaged route is
+
+```math
+\boxed{
+AVG.END.A:
+CFI.A_{\mathrm{avg}}+AVG.END.Cert
+\Longrightarrow
+End_{NS,\mathrm{avg}}.
+}
+```
+
+The averaged endpoint package is
+
+```math
+End_{NS,\mathrm{avg}}
+:=
+END.Pack
+\wedge
+END.Field_{\mathrm{avg}}
+\wedge
+END.TowerBound_{\mathrm{avg}}
+\wedge
+END.Cross_{\mathrm{avg}}
+\wedge
+END.Exh_{\mathrm{avg}}.
+```
+
+Its faces are:
+
+```math
+END.Field_{\mathrm{avg}}:
+\quad
+Field_{\mathrm{avg}}+OFP.A_{\mathrm{avg}}
+\Longrightarrow
+\neg Jump_{\mathrm{avg}},
+```
+
+```math
+END.TowerBound_{\mathrm{avg}}:
+\quad
+\mathfrak A_{N,Q}^{avg}\in L^\infty(I)
+\Longrightarrow
+\neg tower\text{-}blown_{\mathrm{avg}},
+```
+
+```math
+END.Exh_{\mathrm{avg}}:
+\quad
+\neg CM_{\mathrm{avg}}
+\Longrightarrow
+Dead\vee packing\text{-}detached\vee tower\text{-}blown_{\mathrm{avg}}\vee Jump_{\mathrm{avg}},
+```
+
+and
+
+```math
+END.Cross_{\mathrm{avg}}:
+\quad
+\text{cross entries reduce to }(Part,Dead),\ END.Pack,\ END.Field_{\mathrm{avg}},\
+END.TowerBound_{\mathrm{avg}}.
+```
+
+The proof is matrix-formal: `CFI.A_avg` makes `CM_avg` persist on same-fluid
+still-live windows; `END.Exh_avg` supplies the averaged endpoint shell if an
+averaged class exit occurs; `(Part,Dead)`, bounded pack gauge, `END.Field_avg`,
+`END.TowerBound_avg`, and `END.Cross_avg` remove all faces. Hence
+
+```math
+CFI.A_{\mathrm{avg}}+End_{NS,\mathrm{avg}}
+\Longrightarrow
+\text{no averaged finite-time class exit}.
+```
+
+Compatibility with the existing endpoint matrix is separate:
+
+```math
+\boxed{
+READ.END:
+End_{NS,\mathrm{avg}}
++
+Field.Read
++
+DTC.Read
+\Longrightarrow
+End_{NS}.
+}
+```
+
+`Field.Read` feeds `END.Field` and `END.Exh`; `DTC.Read` feeds
+`END.TowerAmp`. The next hard theorem is therefore
+
+```math
+\boxed{END.Exh_{\mathrm{avg}}}
+```
+
+because it determines whether averaged class failure has a complete endpoint
+grammar.
+
 ## Supply Wall
 
 Finite energy supplies only the global energy-class controls
@@ -726,6 +827,12 @@ averaged packet that is supposed to feed the receiver side.
 The centers, labels, scale, cylinders, cutoff family, and scheduler budget must
 be fixed from pre-output same-fluid geometry and pack data, not chosen by a
 subsequence after endpoint exclusion.
+```
+
+5. No class-membership readback:
+
+```text
+CFI.A_avg cannot be cited as old CFI.A before Field.Read or CM.Read is proved.
 ```
 
 ## Handoff

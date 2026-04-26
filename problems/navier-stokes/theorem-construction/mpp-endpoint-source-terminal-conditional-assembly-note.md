@@ -17,6 +17,30 @@ End_{NS}.
 \tag{EST.0}
 ```
 
+The averaged endpoint lane is separate:
+
+```math
+AVG.END.A:
+\qquad
+CFI.A_{\mathrm{avg}}+AVG.END.Cert
+\Longrightarrow
+End_{NS,\mathrm{avg}}.
+\tag{EST.0a}
+```
+
+It does not recover the old endpoint package until the readout bridge
+
+```math
+READ.END:
+\qquad
+End_{NS,\mathrm{avg}}+Field.Read+DTC.Read
+\Longrightarrow
+End_{NS}
+\tag{EST.0b}
+```
+
+is proved.
+
 ```math
 FPCR.C+FSCR.C+FCC.C1
 \Longrightarrow
@@ -167,6 +191,201 @@ Field\text{-coherence fracture},
 and the dead cross-entry reduces through the installed `(Part,Dead)` row.
 
 Thus every endpoint face supplied by `(EST.A2)` is excluded by `(EST.4)`. Therefore no endpoint face remains in the witness-certificate matrix, and `End_NS` holds. ∎
+
+## Theorem A_avg: Averaged endpoint conditional assembly
+
+Define the averaged class-membership witness by
+
+```math
+CM_{\mathrm{avg}}
+=
+Pack\wedge Part\wedge Field_{\mathrm{avg}}.
+\tag{EST.Aavg1}
+```
+
+Define the averaged endpoint package by
+
+```math
+End_{NS,\mathrm{avg}}
+:=
+END.Pack
+\wedge
+END.Field_{\mathrm{avg}}
+\wedge
+END.TowerBound_{\mathrm{avg}}
+\wedge
+END.Cross_{\mathrm{avg}}
+\wedge
+END.Exh_{\mathrm{avg}}.
+\tag{EST.Aavg2}
+```
+
+Here
+
+```math
+END.Field_{\mathrm{avg}}:
+\qquad
+Field_{\mathrm{avg}}+OFP.A_{\mathrm{avg}}
+\Longrightarrow
+\neg Jump_{\mathrm{avg}},
+\tag{EST.Aavg3}
+```
+
+```math
+END.TowerBound_{\mathrm{avg}}:
+\qquad
+\mathfrak A_{N,Q}^{avg}\in L^\infty(I)
+\Longrightarrow
+\neg tower\text{-}blown_{\mathrm{avg}},
+\tag{EST.Aavg4}
+```
+
+```math
+END.Exh_{\mathrm{avg}}:
+\qquad
+\neg CM_{\mathrm{avg}}
+\Longrightarrow
+Dead
+\vee
+packing\text{-}detached
+\vee
+tower\text{-}blown_{\mathrm{avg}}
+\vee
+Jump_{\mathrm{avg}},
+\tag{EST.Aavg5}
+```
+
+and
+
+```math
+END.Cross_{\mathrm{avg}}:
+\qquad
+\text{cross entries reduce to }(Part,Dead),\ END.Pack,\ END.Field_{\mathrm{avg}},\
+END.TowerBound_{\mathrm{avg}}.
+\tag{EST.Aavg6}
+```
+
+Let
+
+```math
+AVG.END.Cert
+:=
+END.Pack
++END.Field_{\mathrm{avg}}
++END.TowerBound_{\mathrm{avg}}
++END.Cross_{\mathrm{avg}}
++END.Exh_{\mathrm{avg}}.
+\tag{EST.Aavg7}
+```
+
+Then
+
+```math
+AVG.END.A:
+\qquad
+CFI.A_{\mathrm{avg}}+AVG.END.Cert
+\Longrightarrow
+End_{NS,\mathrm{avg}}.
+\tag{EST.Aavg8}
+```
+
+### Proof
+
+`CFI.A_avg` gives persistence of `CM_avg` on the same-fluid still-live
+windows. If an averaged class exit occurs, `END.Exh_avg` produces one
+averaged endpoint shell. The installed `(Part,Dead)` row removes `Dead`;
+bounded pack gauge and `END.Pack` remove `packing-detached`;
+`END.Field_avg` removes `Jump_avg`; `END.TowerBound_avg` removes
+`tower-blown_avg`; and `END.Cross_avg` reduces the cross cases to those same
+native rows. Therefore no averaged endpoint face remains, and
+`End_NS_avg` holds. ∎
+
+## Theorem A_read: Endpoint readout compatibility
+
+The compatibility bridge to the old endpoint package is
+
+```math
+READ.END:
+\qquad
+End_{NS,\mathrm{avg}}
++
+Field.Read
++
+DTC.Read
+\Longrightarrow
+End_{NS}.
+\tag{EST.Aread1}
+```
+
+where
+
+```math
+Field.Read:
+\qquad
+Field_{\mathrm{avg}}\Longrightarrow Field,
+\tag{EST.Aread2}
+```
+
+and
+
+```math
+DTC.Read:
+\qquad
+DTC.A_{\mathrm{avg}}\Longrightarrow DTC.A.
+\tag{EST.Aread3}
+```
+
+The readout locations are exact:
+
+```math
+Field.Read
+\text{ feeds }END.Field\text{ and }END.Exh,
+\tag{EST.Aread4}
+```
+
+while
+
+```math
+DTC.Read
+\text{ feeds }END.TowerAmp.
+\tag{EST.Aread5}
+```
+
+Thus the averaged endpoint lane is
+
+```math
+AVG.RCV.A
+\Longrightarrow
+LCI.A_{\mathrm{avg}}
+\Longrightarrow
+CSP.A_{\mathrm{avg}}
+\Longrightarrow
+OFP.A_{\mathrm{avg}}
+\Longrightarrow
+CFI.A_{\mathrm{avg}}
+\Longrightarrow
+End_{NS,\mathrm{avg}},
+\tag{EST.Aread6}
+```
+
+and the pointwise endpoint lane is
+
+```math
+READ.END
+\Longrightarrow
+End_{NS}.
+\tag{EST.Aread7}
+```
+
+The next hard averaged endpoint theorem is
+
+```math
+\boxed{END.Exh_{\mathrm{avg}}}
+\tag{EST.Aread8}
+```
+
+because it determines whether averaged class failure has a complete endpoint
+grammar.
 
 ## Theorem B: Source conditional assembly
 

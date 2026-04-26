@@ -270,7 +270,13 @@ Retained-branch routing:
 Averaged-branch routing:
   SCF_avg => AACT.KX.
   AACT.KX + RWS.C_scale => DTC.A_avg.
+  DTC.A_avg => AVG.RCV.A => LCI.A_avg.
+  LCI.A_avg + FCI.5f => CSP.A_avg => OFP.A_avg => CFI.A_avg.
+  CFI.A_avg + AVG.END.Cert => End_NS_avg.
   DTC.Read is required before DTC.A or endpoint tower readout.
+  Field.Read or CM.Read is required before old CFI.A.
+  READ.END: End_NS_avg + Field.Read + DTC.Read => End_NS.
+  Next hard averaged endpoint theorem: END.Exh_avg.
 
 A_buf^ctr:
   contains the m+1 and m+2 readout/top-viscous buffer modes.
@@ -357,8 +363,9 @@ supplies the retained smooth forcing route
 source-channel and endpoint blocks remain separate. The finite-energy-native
 route must instead prove the scale-critical averaged packet `SCF_avg`, then use
 `AVG.RCV.A` to reach `LCI.A_avg` and carry the averaged downstream chain
-`CSP.A_avg => OFP.A_avg => CFI.A_avg`. `DTC.Read` is parked for endpoint/tower
-pointwise recovery; old `CFI.A` additionally needs `Field.Read` or `CM.Read`.
+`CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg`. `DTC.Read` is parked for
+endpoint/tower pointwise recovery; old `CFI.A` additionally needs `Field.Read`
+or `CM.Read`, and old `End_NS` is recovered only through `READ.END`.
 
 ## Exploratory Or Parked Branches
 
