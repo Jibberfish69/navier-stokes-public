@@ -26,8 +26,10 @@ Retained-smooth branch: pass, with two hard ordering flags.
 
 Finite-energy-native branch: the old point-center route fails as stated,
 because NKF.Native and ACT.X-Scale spend retained local smoothness. The
-replacement target is SCF_avg => AACT.KX => DTC.A_avg, with DTC.Read required
-before recovering pointwise DTC.A.
+replacement target is SCF_avg => AACT.KX => DTC.A_avg => AVG.RCV.A =>
+LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg. DTC.Read is parked for
+pointwise endpoint/tower recovery, while Field.Read or CM.Read is required
+before recovering old CFI.A.
 
 1. The source-side cells FPCR.C, FSCR.C, and FCC.C1 are post-LCI.A cells.
    They cannot be cited back into NKF.*, ACT.X-*, ACT.KX, ACT.X-Readout,
@@ -95,11 +97,23 @@ SCF_avg
 => AACT.KX
 => X_R in Linfty + N_R in L1 + K_le_m^{avg,R} in L1
 => DTC.A_avg
-=> DTC.Read
-=> DTC.A
+=> AVG.RCV.A
+=> LCI.A_avg
+=> CSP.A_avg
+=> OFP.A_avg
+=> CFI.A_avg
+
+DTC.Read:
+DTC.A_avg => DTC.A
+
+Field.Read / CM.Read:
+Field_avg => Field
+CM_avg => CM
 ```
 
 `DTC.A_avg` must remain typed as averaged data until `DTC.Read` is proved.
+`CFI.A_avg` must remain typed as averaged class membership until `Field.Read`
+or `CM.Read` is proved.
 
 ## Global Non-Spending Rule
 

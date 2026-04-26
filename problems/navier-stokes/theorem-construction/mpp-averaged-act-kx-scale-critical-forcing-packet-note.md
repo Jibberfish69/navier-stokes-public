@@ -736,8 +736,20 @@ finite-energy-native route now has a different live theorem target:
 ```math
 SCF_{\mathrm{avg}}\text{ supply}
 \quad\text{then}\quad
-AACT.KX+RWS.C_{\mathrm{scale}}\Longrightarrow DTC.A_{\mathrm{avg}}.
+AACT.KX+RWS.C_{\mathrm{scale}}\Longrightarrow DTC.A_{\mathrm{avg}}
+\Longrightarrow
+AVG.RCV.A
+\Longrightarrow
+LCI.A_{\mathrm{avg}}
+\Longrightarrow
+CSP.A_{\mathrm{avg}}
+\Longrightarrow
+OFP.A_{\mathrm{avg}}
+\Longrightarrow
+CFI.A_{\mathrm{avg}}.
 ```
 
 Only after `DTC.Read` can the old pointwise `DTC.A` and the endpoint
-`DTC-to-TowerBound` packet be invoked without changing their statements.
+`DTC-to-TowerBound` packet be invoked without changing their statements. Only
+after `Field.Read` or `CM.Read` can the averaged class-membership chain be read
+as old `CFI.A`.

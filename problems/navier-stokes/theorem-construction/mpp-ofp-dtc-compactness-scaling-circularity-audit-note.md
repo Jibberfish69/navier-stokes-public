@@ -335,7 +335,17 @@ SCF_{\mathrm{avg}}
 \Longrightarrow
 AACT.KX
 \Longrightarrow
-DTC.A_{\mathrm{avg}}.
+DTC.A_{\mathrm{avg}}
+\Longrightarrow
+AVG.RCV.A
+\Longrightarrow
+LCI.A_{\mathrm{avg}}
+\Longrightarrow
+CSP.A_{\mathrm{avg}}
+\Longrightarrow
+OFP.A_{\mathrm{avg}}
+\Longrightarrow
+CFI.A_{\mathrm{avg}}.
 \tag{ODC.15g}
 ```
 
@@ -353,6 +363,27 @@ DTC.A.
 Thus `DTC.A` cannot be spent inside the proof of `SCF_avg`, `AACT.KX`, or
 `DTC.A_avg`. Likewise `DTC.A_avg` cannot feed the endpoint tower packet as
 pointwise `DTC.A` until `DTC.Read` is proved.
+
+Similarly, `OFP.A_avg` supplies `Field_avg`, not the old pointwise `Field`.
+The averaged class-membership object is
+
+```math
+CM_{\mathrm{avg}}
+=
+Pack\wedge Part\wedge Field_{\mathrm{avg}}.
+\tag{ODC.15h1}
+```
+
+Old `CFI.A` is recovered only after
+
+```math
+Field.Read:\ Field_{\mathrm{avg}}\Longrightarrow Field
+\qquad
+\text{or}
+\qquad
+CM.Read:\ CM_{\mathrm{avg}}\Longrightarrow CM.
+\tag{ODC.15h2}
+```
 
 The corresponding direct audit gate is:
 
@@ -434,6 +465,15 @@ RSCB.NKF,\ NKF.Point,\text{ or point pressure-center smoothness}
 \tag{ODC.20b}
 ```
 
+8. Averaged class-membership readback failure:
+
+```math
+CFI.A_{\mathrm{avg}}
+\text{ is treated as old }CFI.A
+\text{ before }Field.Read\text{ or }CM.Read\text{ is proved.}
+\tag{ODC.20c}
+```
+
 ## Route Position
 
 This audit supports the current judgment that the route is structurally serious
@@ -444,13 +484,15 @@ finite-energy-native receiver target:
 \text{receiver-side substance}
 \Longleftrightarrow
 \text{noncircular proof of }SCF_{\mathrm{avg}}\to AACT.KX\to DTC.A_{\mathrm{avg}}
+\to AVG.RCV.A\to LCI.A_{\mathrm{avg}}
 \text{ with }ODC.A1\text{--}ODC.A5\text{ and }ODC.15i.
 \tag{ODC.21}
 ```
 
 The retained pointwise assembly remains available only on the retained-smooth
 branch. The finite-energy-native assembly must carry `DTC.A_avg` until
-`DTC.Read` is separately proved.
+`DTC.Read` is separately proved, and must carry `CFI.A_avg` until
+`Field.Read` or `CM.Read` is separately proved.
 
 ## Conditional Unified-Survivor Packet Interface
 
@@ -503,4 +545,22 @@ DTC.A_{\mathrm{avg}},
 \tag{ODC.24}
 ```
 
-not by pointwise `DTC.A` unless `DTC.Read` is present.
+then
+
+```math
+DTC.A_{\mathrm{avg}}
+\Longrightarrow
+AVG.RCV.A
+\Longrightarrow
+LCI.A_{\mathrm{avg}}
+\Longrightarrow
+CSP.A_{\mathrm{avg}}
+\Longrightarrow
+OFP.A_{\mathrm{avg}}
+\Longrightarrow
+CFI.A_{\mathrm{avg}},
+\tag{ODC.25}
+```
+
+not by pointwise `DTC.A` unless `DTC.Read` is present, and not by old `CFI.A`
+unless `Field.Read` or `CM.Read` is present.

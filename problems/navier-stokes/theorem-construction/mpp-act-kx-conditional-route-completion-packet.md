@@ -47,7 +47,17 @@ SCF_{\mathrm{avg}}
 \Longrightarrow
 AACT.KX
 \Longrightarrow
-DTC.A_{\mathrm{avg}}.
+DTC.A_{\mathrm{avg}}
+\Longrightarrow
+AVG.RCV.A
+\Longrightarrow
+LCI.A_{\mathrm{avg}}
+\Longrightarrow
+CSP.A_{\mathrm{avg}}
+\Longrightarrow
+OFP.A_{\mathrm{avg}}
+\Longrightarrow
+CFI.A_{\mathrm{avg}}.
 ```
 
 The old pointwise `DTC.A` remains quarantined behind the later readout theorem
@@ -56,6 +66,14 @@ The old pointwise `DTC.A` remains quarantined behind the later readout theorem
 DTC.Read:
 \qquad
 DTC.A_{\mathrm{avg}}\Longrightarrow DTC.A.
+```
+
+The old pointwise class-membership conclusion remains quarantined behind
+
+```math
+Field.Read:\ Field_{\mathrm{avg}}\Longrightarrow Field
+\qquad\text{or}\qquad
+CM.Read:\ CM_{\mathrm{avg}}\Longrightarrow CM.
 ```
 
 ## Theorem Statement

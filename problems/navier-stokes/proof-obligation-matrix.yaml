@@ -31,7 +31,7 @@ object_law_refoundation:
   theorem_queue:
     - "record `ORIGIN.Retain` as installed: original maximal-solution/class-membership setup supplies retained-window hypotheses on compact classical intervals and endpoint persistence follows from `CFI.A+End_NS`"
     - "paperize the retained receiver spine as `RSCB.NKF => ACT.A => RCF.A => LCI.A`, with `NKF.Native`, `ACT.KX-Boot`, and `RWS.C_scale` kept as internal retained-window mechanisms"
-    - "paperize the finite-energy-native receiver replacement as `SCF_avg => AACT.KX => DTC.A_avg`, with `DTC.Read` required before pointwise `DTC.A` or endpoint tower readout"
+    - "paperize the finite-energy-native receiver replacement as `SCF_avg => AACT.KX => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg`, with `DTC.Read` parked for pointwise endpoint/tower readout and `Field.Read` / `CM.Read` required before old `CFI.A`"
     - "keep the source side post-`LCI.A`: `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`"
     - "paperize the endpoint spine as `DTC-to-TowerBound + END.Exh + END.Cross => End_NS`, with `END.Pack` and `END.Field` as installed certificate exclusions"
     - "paperize the terminal spine as `CFI.A + End_NS => no finite-time class exit`"
@@ -48,8 +48,9 @@ live_theorem_edge:
     forcing certificate and runs
     `RSCB.NKF => NKF.Native => ACT.KX => ACT.X-Readout => ACT.A => RCF.A => LCI.A`.
     The finite-energy-native replacement targets
-    `SCF_avg => AACT.KX => DTC.A_avg`, with `DTC.Read` required before
-    pointwise `DTC.A` or endpoint tower readout. Source closure is the post-`LCI.A`
+    `SCF_avg => AACT.KX => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg`.
+    `DTC.Read` stays parked for pointwise endpoint/tower readout, and
+    `Field.Read` / `CM.Read` is required before old `CFI.A`. Source closure is the post-`LCI.A`
     frozen-family packet `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, with cutoff
     absorption, strain/cascade low-carrier control, and pressure
     low-high/high-low plus resonant/far-tail control. One-field assembly then
@@ -978,8 +979,10 @@ obligations:
     `ACT.X-Cut+ACT.X-Press+ACT.X-MidRaw+ACT.X-TopVisc => ACT.KX`, then
     `ACT.KX+ACT.X-Scale+RWS.C_scale => ACT.X-Readout => ACT.A => RCF.A =>
     LCI.A`. The averaged replacement package is
-    `SCF_avg => AACT.KX`, then `AACT.KX+RWS.C_scale => DTC.A_avg`; it must not
-    be read as pointwise `DTC.A` until `DTC.Read` is proved.
+    `SCF_avg => AACT.KX`, then `AACT.KX+RWS.C_scale => DTC.A_avg`, then
+    `AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg`. It must not
+    be read as pointwise `DTC.A` until `DTC.Read` is proved, and it must not be
+    read as old `CFI.A` until `Field.Read` or `CM.Read` is proved.
     `ACT.X-MidRaw` carries the zero-mode linearized middle terms through
     `A_core`; `RWS.C_scale` transfers the small-radius cover to the fixed
     readout scale; and `ACT.X-Readout` spends
@@ -999,9 +1002,10 @@ obligations:
     `RSCB.NKF`, which supplies the retained smooth center-ball route
     `NKF.Moll + NKF.Point => NKF.Native`, together with the scheduler budgets.
     The finite-energy-native route must instead prove smallness or scheduler
-    integrability of `SCF_avg` from allowed global inputs. `ACT.X-Scale` and
-    `RWS.C_scale` are installed conditional bridges, not fixed-radius smallness
-    claims.
+    integrability of `SCF_avg` from allowed global inputs, then feed the
+    averaged receiver bridge `AVG.RCV.A` instead of forcing pointwise recovery.
+    `ACT.X-Scale` and `RWS.C_scale` are installed conditional bridges, not
+    fixed-radius smallness claims.
     Conditional closure: `ACT.KX` is now the simultaneous core/excess theorem
     replacing the linear route `AXE.A -> ACT.X-Boot -> ACT.Kcore ->
     ACT.Actr_core`. This is necessary because `ACT.X-MidRaw` contains genuine
@@ -1028,7 +1032,7 @@ obligations:
     finite-energy far tails, and viscous integration by parts, then recover
     point-center forcing by retained smoothness at the restart scale.
     On the averaged branch this point-center sentence is replaced by
-    `SCF_avg => AACT.KX => K_{\le m}^{avg,R} in L1`.
+    `SCF_avg => AACT.KX => K_{\le m}^{avg,R} in L1 => AVG.RCV.A => LCI.A_avg`.
     Pressure is split into the in-bootstrap normal-form estimates and the
     post-`ACT.KX` `ACT.X-Press_cell` readout. The cell form supplies the
     residual pressure-cell ledger behind `ACT.Kcore`: the

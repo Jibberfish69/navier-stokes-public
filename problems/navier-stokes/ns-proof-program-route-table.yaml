@@ -408,8 +408,9 @@ closure_ecology:
         cannot be smuggled into the smallness variable. ACT.X-Scale supplies the
         small restart seed from retained smooth center-ball regularity on the
         retained branch. On the averaged branch this slot is replaced by
-        SCF_avg, and the route is SCF_avg => AACT.KX => DTC.A_avg until
-        DTC.Read recovers pointwise DTC.A. RWS.C_cover supplies the
+        SCF_avg, and the route is SCF_avg => AACT.KX => DTC.A_avg =>
+        AVG.RCV.A => LCI.A_avg, with DTC.Read parked until endpoint/tower
+        recovery needs pointwise DTC.A. RWS.C_cover supplies the
         dynamic same-fluid cover from compact retained label tubes and the pack
         gauge. RWS.C_scale is the finite-cover readout bridge that transfers
         small-radius packets to the fixed-radius readouts; it does not assert
@@ -451,8 +452,10 @@ closure_ecology:
         certificate is RSCB.NKF, which supplies the retained smooth forcing route
         NKF.Moll + NKF.Point => NKF.Native, together with the scheduler budgets;
         source-channel and endpoint blocks remain separate. Finite-energy-native
-        branch: SCF_avg => AACT.KX => DTC.A_avg, with DTC.Read required before
-        pointwise DTC.A or endpoint tower readout.
+        branch: SCF_avg => AACT.KX => DTC.A_avg => AVG.RCV.A => LCI.A_avg =>
+        CSP.A_avg => OFP.A_avg => CFI.A_avg. DTC.Read is required before
+        pointwise DTC.A or endpoint tower readout; Field.Read or CM.Read is
+        required before old CFI.A.
       audit_correction: >-
         DTR.A is only a supplier theorem. Bare TW_ctr supplies residual
         pressure/top-viscous forcing; the strong closure needs TW_ctr^aff,
