@@ -392,9 +392,11 @@ closure_ecology:
         threshold, then the nonlinear excess term is absorbed and ACT.E1/E2
         follows on that affine interval. X is excess-only; center zero modes
         split into A_core^ctr and A_buf^ctr rather than being placed in the
-        smallness variable, and a full-strip proof needs ACT.X-Scale at each
-        retained restart, ACT.KX, and RWS.C_scale to recover fixed-radius
-        readouts, not just a retained-window partition.
+        smallness variable, and a full-strip retained-branch proof needs
+        ACT.X-Scale at each retained restart, ACT.KX, and RWS.C_scale to recover
+        fixed-radius readouts, not just a retained-window partition. On the
+        averaged branch, the restart seed is the X_R(s_a) component of SCF_avg,
+        not point-center retained smoothness.
       act_x_atom_split: >-
         ACT.X-Def separates the small affine excess X_exc from the full readout
         packet Y_read = A_core^ctr + A_buf^ctr + X_exc. AXE.A is the excess
@@ -404,7 +406,10 @@ closure_ecology:
         J=X_exc+theta A_core. ACT.X-Readout spends Y_read after ACT.KX has
         supplied A_core^ctr; A_buf^ctr is readout/top-viscous buffer data and
         cannot be smuggled into the smallness variable. ACT.X-Scale supplies the
-        small restart seed from retained smooth center-ball regularity. RWS.C_cover supplies the
+        small restart seed from retained smooth center-ball regularity on the
+        retained branch. On the averaged branch this slot is replaced by
+        SCF_avg, and the route is SCF_avg => AACT.KX => DTC.A_avg until
+        DTC.Read recovers pointwise DTC.A. RWS.C_cover supplies the
         dynamic same-fluid cover from compact retained label tubes and the pack
         gauge. RWS.C_scale is the finite-cover readout bridge that transfers
         small-radius packets to the fixed-radius readouts; it does not assert
@@ -414,7 +419,8 @@ closure_ecology:
         K_le_m^ctr in L1(I) and A_core^ctr in Linfty(I) are joint outputs.
         K_le_m^ctr consists of K_0(c_j), the first-rung affine-frame acceleration
         E_j^(1), and transformed lower-rung forcings Ktilde_{q,j} for 2<=q<=m.
-        RSCB.NKF supplies NKF.Native, then NKF.Native + NKF.Ann + NKF.Quad +
+        On the retained branch, RSCB.NKF supplies NKF.Native, then
+        NKF.Native + NKF.Ann + NKF.Quad +
         ACT.X-Cut + ACT.X-Press_energy + ACT.X-MidRaw + ACT.X-TopVisc +
         ACT.X-Scale + RWS.C_scale produce ACT.KX. Residual pressure is read from ACT.X-Press_cell after
         subtracting the native affine normal-form pressure p_j^aff from
@@ -436,15 +442,17 @@ closure_ecology:
         to the same scale-small bootstrap as the cutoff term. It does not spend
         LCI.A, CSP.A, OFP.A, or Field.
       act_compact_chain: >-
-        RSCB.NKF => NKF.Moll + NKF.Point => NKF.Native; then NKF.Native +
+        Retained branch: RSCB.NKF => NKF.Moll + NKF.Point => NKF.Native; then NKF.Native +
         NKF.Ann + NKF.Quad + ACT.X-Cut + ACT.X-Press_energy + ACT.X-MidRaw +
         ACT.X-TopVisc + ACT.X-Scale + RWS.C_scale => ACT.KX =>
         ACT.X-Press_cell + ACT.Kcore + ACT.Actr_core + ACT.X-Readout =>
         ACT.A => RCF.A => LCI.A. This is a conditional retained-window receiver
-        discharge, not an unconditional energy result. The live native forcing
+        discharge, not an unconditional energy result. The retained native forcing
         certificate is RSCB.NKF, which supplies the retained smooth forcing route
         NKF.Moll + NKF.Point => NKF.Native, together with the scheduler budgets;
-        source-channel and endpoint blocks remain separate.
+        source-channel and endpoint blocks remain separate. Finite-energy-native
+        branch: SCF_avg => AACT.KX => DTC.A_avg, with DTC.Read required before
+        pointwise DTC.A or endpoint tower readout.
       audit_correction: >-
         DTR.A is only a supplier theorem. Bare TW_ctr supplies residual
         pressure/top-viscous forcing; the strong closure needs TW_ctr^aff,

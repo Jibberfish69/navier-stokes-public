@@ -30,7 +30,8 @@ object_law_refoundation:
     euclidean_strict_shadow: downstream export branch on the Law-2-survivor side
   theorem_queue:
     - "record `ORIGIN.Retain` as installed: original maximal-solution/class-membership setup supplies retained-window hypotheses on compact classical intervals and endpoint persistence follows from `CFI.A+End_NS`"
-    - "paperize the receiver spine as `RSCB.NKF => ACT.A => RCF.A => LCI.A`, with `NKF.Native`, `ACT.KX-Boot`, and `RWS.C_scale` kept as internal retained-window mechanisms"
+    - "paperize the retained receiver spine as `RSCB.NKF => ACT.A => RCF.A => LCI.A`, with `NKF.Native`, `ACT.KX-Boot`, and `RWS.C_scale` kept as internal retained-window mechanisms"
+    - "paperize the finite-energy-native receiver replacement as `SCF_avg => AACT.KX => DTC.A_avg`, with `DTC.Read` required before pointwise `DTC.A` or endpoint tower readout"
     - "keep the source side post-`LCI.A`: `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`"
     - "paperize the endpoint spine as `DTC-to-TowerBound + END.Exh + END.Cross => End_NS`, with `END.Pack` and `END.Field` as installed certificate exclusions"
     - "paperize the terminal spine as `CFI.A + End_NS => no finite-time class exit`"
@@ -42,9 +43,13 @@ live_theorem_edge:
   current_route_name: Class-membership forward-invariance / endpoint-exclusion route
   exact_cut_summary: >-
     The class-membership route now carries a conditional terminal closure
-    packet. Receiver closure uses installed `RSCB.NKF` as the retained smooth
-    center-ball native forcing certificate and runs
-    `RSCB.NKF => NKF.Native => ACT.KX => ACT.X-Readout => ACT.A => RCF.A => LCI.A`. Source closure is the post-`LCI.A`
+    packet, with the receiver side split into two typed branches. The retained
+    branch uses installed `RSCB.NKF` as the retained smooth center-ball native
+    forcing certificate and runs
+    `RSCB.NKF => NKF.Native => ACT.KX => ACT.X-Readout => ACT.A => RCF.A => LCI.A`.
+    The finite-energy-native replacement targets
+    `SCF_avg => AACT.KX => DTC.A_avg`, with `DTC.Read` required before
+    pointwise `DTC.A` or endpoint tower readout. Source closure is the post-`LCI.A`
     frozen-family packet `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, with cutoff
     absorption, strain/cascade low-carrier control, and pressure
     low-high/high-low plus resonant/far-tail control. One-field assembly then
@@ -66,6 +71,7 @@ live_theorem_edge:
     "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md",
     "problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md",
     "problems/navier-stokes/theorem-construction/mpp-act-kx-hidden-spending-audit-note.md",
+    "problems/navier-stokes/theorem-construction/mpp-averaged-act-kx-scale-critical-forcing-packet-note.md",
     "problems/navier-stokes/theorem-construction/mpp-lci-a-pre-csp-still-live-receiver-admission-note.md"]'
   branch_choice_labels:
   - CFI.A / OFP.A / LCI.A class-membership route
@@ -967,11 +973,14 @@ obligations:
     and `F^{ctr,res} in L1`. This is not unconditional: center zero modes must
     be split into `A_core^ctr` and `A_buf^ctr` because the raw `q=0` center term
     is not small as `R -> 0`, and a full-strip proof needs a small-budget
-    scheduler, not merely finite `L_0,F_0,F_K`. The ordered receiver package is
+    scheduler, not merely finite `L_0,F_0,F_K`. The ordered retained-branch receiver package is
     `NKF.Native+NKF.Ann+NKF.Quad => ACT.X-Press`, then
     `ACT.X-Cut+ACT.X-Press+ACT.X-MidRaw+ACT.X-TopVisc => ACT.KX`, then
     `ACT.KX+ACT.X-Scale+RWS.C_scale => ACT.X-Readout => ACT.A => RCF.A =>
-    LCI.A`. `ACT.X-MidRaw` carries the zero-mode linearized middle terms through
+    LCI.A`. The averaged replacement package is
+    `SCF_avg => AACT.KX`, then `AACT.KX+RWS.C_scale => DTC.A_avg`; it must not
+    be read as pointwise `DTC.A` until `DTC.Read` is proved.
+    `ACT.X-MidRaw` carries the zero-mode linearized middle terms through
     `A_core`; `RWS.C_scale` transfers the small-radius cover to the fixed
     readout scale; and `ACT.X-Readout` spends
     `Y_read=A_core^ctr+A_buf^ctr+X_exc` after `ACT.KX` supplies `A_core^ctr`.
@@ -979,16 +988,20 @@ obligations:
     transported center frame. `AXP.A` does not by itself prove `ACT.KX`, `(FCI.5f)`,
     or any endpoint entry.
     `ACT.X-Scale` supplies the scale-small restart seed from retained smooth
-    center-ball regularity. `RWS.C_cover` supplies the dynamic same-fluid
+    center-ball regularity on the retained branch. On the averaged branch, the
+    seed is the `X_R(s_a)` component of `SCF_avg`, not point-center smoothness.
+    `RWS.C_cover` supplies the dynamic same-fluid
     cover from compact retained label tubes and the pack gauge. `RWS.C_scale` is
     the finite-cover readout bridge that recovers fixed-radius readouts from small-radius restarted packets; it
     does not assert fixed-radius packet smallness. This
     is a conditional receiver discharge under the retained-window hypotheses,
-    not an unconditional energy result; the live native forcing certificate is
+    not an unconditional energy result; the retained native forcing certificate is
     `RSCB.NKF`, which supplies the retained smooth center-ball route
     `NKF.Moll + NKF.Point => NKF.Native`, together with the scheduler budgets.
-    `ACT.X-Scale` and `RWS.C_scale` are installed conditional bridges, not
-    fixed-radius smallness claims.
+    The finite-energy-native route must instead prove smallness or scheduler
+    integrability of `SCF_avg` from allowed global inputs. `ACT.X-Scale` and
+    `RWS.C_scale` are installed conditional bridges, not fixed-radius smallness
+    claims.
     Conditional closure: `ACT.KX` is now the simultaneous core/excess theorem
     replacing the linear route `AXE.A -> ACT.X-Boot -> ACT.Kcore ->
     ACT.Actr_core`. This is necessary because `ACT.X-MidRaw` contains genuine
@@ -997,13 +1010,13 @@ obligations:
     `J=X_exc+theta A_core` while only `X_exc` enters the small absorption term.
     The top `m+1,m+2` modes remain `A_buf^ctr` readout/top-viscous buffer data,
     not pre-pressure Gronwall data unless an optional stronger top-forcing route
-    is chosen. The named pressure supplier is `NKF.Native+NKF.Ann+NKF.Quad =>
+    is chosen. On the retained branch, the named pressure supplier is `NKF.Native+NKF.Ann+NKF.Quad =>
     ACT.X-Press`; the energy atoms `ACT.X-Cut+ACT.X-Press+ACT.X-MidRaw+
     ACT.X-TopVisc` feed `ACT.KX`, and the joint block yields `X_exc in Linfty`,
     `N in L1`, `K_{\le m}^{ctr} in L1`, and `A_core^ctr in Linfty`.
     `ACT.Kcore` remains the ledger identity `K0.Core + E1.Aff + Kmid.Core`;
     its pressure cells are read after `ACT.KX`.
-    `NKF.Native` is supplied by `RSCB.NKF`, the retained smooth center-ball
+    `NKF.Native` is supplied only by `RSCB.NKF`, the retained smooth center-ball
     certificate for pointwise center pressure/viscous forcing; finite energy
     plus pressure Poisson response alone does not supply those center
     derivatives, as shown by the energy-preserving rescaling obstruction for
@@ -1014,6 +1027,8 @@ obligations:
     transported-center forcing ledger from local pressure response,
     finite-energy far tails, and viscous integration by parts, then recover
     point-center forcing by retained smoothness at the restart scale.
+    On the averaged branch this point-center sentence is replaced by
+    `SCF_avg => AACT.KX => K_{\le m}^{avg,R} in L1`.
     Pressure is split into the in-bootstrap normal-form estimates and the
     post-`ACT.KX` `ACT.X-Press_cell` readout. The cell form supplies the
     residual pressure-cell ledger behind `ACT.Kcore`: the
