@@ -49,11 +49,11 @@ This endpoint packet consumes pointwise `DTC.A`. It cannot consume
 The averaged receiver route now has the intermediate target
 
 ```math
-SCF_{\mathrm{base}}+ATD_m
+SCF_{\mathrm{base}}+SGC.A_{\mathrm{a.e.}}+ATD_m^\varepsilon
 \Longrightarrow
 SCF_{\mathrm{avg}}^m
 \Longrightarrow
-AACT.KX
+AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi}
 \Longrightarrow
 DTC.A_{\mathrm{avg}}.
 ```

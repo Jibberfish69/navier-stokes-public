@@ -57,11 +57,11 @@ NKF.Native,
 but
 
 ```math
-SCF_{\mathrm{base}}+ATD_m
+SCF_{\mathrm{base}}+SGC.A_{\mathrm{a.e.}}+ATD_m^\varepsilon
 \Longrightarrow
 SCF_{\mathrm{avg}}^m
 \Longrightarrow
-AACT.KX
+AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi}
 \Longrightarrow
 DTC.A_{\mathrm{avg}}.
 ```
@@ -606,6 +606,6 @@ Those are secondary to `RSCB.NKF`, not replacements for it.
 \boxed{
 \text{Retained branch: theorem-grade installation of }RSCB.NKF.
 \quad
-\text{Finite-energy-native branch: }SCF_{\mathrm{base}}+ATD_m\to SCF_{\mathrm{avg}}^m\to AACT.KX\to DTC.A_{\mathrm{avg}}.
+\text{Finite-energy-native branch: }SCF_{\mathrm{base}}+SGC.A_{\mathrm{a.e.}}+ATD_m^\varepsilon\to SCF_{\mathrm{avg}}^m\to AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi}\to DTC.A_{\mathrm{avg}}.
 }
 ```

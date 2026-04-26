@@ -14,11 +14,11 @@ NKF.Native
 by a localized averaged scale-critical forcing branch
 
 ```math
-SCF_{\mathrm{base}}+ATD_m
+SCF_{\mathrm{base}}+SGC.A_{\mathrm{a.e.}}+ATD_m^\varepsilon
 \Longrightarrow
 SCF_{\mathrm{avg}}^m(R,I_R)
 \Longrightarrow
-AACT.KX
+AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi}
 \Longrightarrow
 DTC.A_{\mathrm{avg}},
 ```
@@ -55,11 +55,11 @@ The finite-energy-native repair target is instead the sharpened averaged
 packet route:
 
 ```math
-SCF_{\mathrm{base}}+ATD_m
+SCF_{\mathrm{base}}+SGC.A_{\mathrm{a.e.}}+ATD_m^\varepsilon
 \Longrightarrow
 SCF_{\mathrm{avg}}^m
 \Longrightarrow
-AACT.KX
+AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi}
 \Longrightarrow
 DTC.A_{\mathrm{avg}}.
 ```
@@ -388,11 +388,11 @@ This proves `AACT.KX`.
 The replacement chain is
 
 ```math
-SCF_{\mathrm{base}}+ATD_m
+SCF_{\mathrm{base}}+SGC.A_{\mathrm{a.e.}}+ATD_m^\varepsilon
 \Longrightarrow
 SCF_{\mathrm{avg}}^m
 \Longrightarrow
-AACT.KX
+AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi}
 \Longrightarrow
 X_R\in L^\infty,\quad
 N_R\in L^1,\quad
@@ -423,11 +423,11 @@ Thus the new finite-energy-native wall is
 
 ```math
 \boxed{
-SCF_{\mathrm{base}}+ATD_m
+SCF_{\mathrm{base}}+SGC.A_{\mathrm{a.e.}}+ATD_m^\varepsilon
 \Longrightarrow
 SCF_{\mathrm{avg}}^m
 \Longrightarrow
-AACT.KX
+AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi}
 \Longrightarrow
 DTC.A_{\mathrm{avg}}
 }
@@ -786,20 +786,20 @@ End_{NS}
 
 and the deeper analytic supply branch
 
-	```math
-	\boxed{
-	SCF_{\mathrm{base}}
-	+
-	SGC.A_{\mathrm{a.e.}}
-	+
-	ATD_m^\varepsilon
-	\Longrightarrow
-	AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi},
-	\qquad
-	CAVG.J:
-	Concentration_{\mathrm{avg}}\Longrightarrow Jump_{\mathrm{avg}}.
-	}
-	```
+```math
+\boxed{
+SCF_{\mathrm{base}}
++
+SGC.A_{\mathrm{a.e.}}
++
+ATD_m^\varepsilon
+\Longrightarrow
+AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi},
+\qquad
+CAVG.J:
+Concentration_{\mathrm{avg}}\Longrightarrow Jump_{\mathrm{avg}}.
+}
+```
 
 ## Supply Wall
 
@@ -867,14 +867,16 @@ SCF_{\mathrm{base}}(r,z)\to0
 ```
 
 Incompressibility and bounded pack gauge transport this statement to a.e.
-material label. At a good restart time `s_a`, the same-fluid good-label collar
-admits finite selected moving cylinders with
+material label. At a good restart time `s_a`, SCF-good labels admit selected
+moving cylinders with
 
 ```math
 SCF_{\mathrm{base}}(R_b,I_b)\le\varepsilon_\ast.
 ```
 
-This is the valid energy-level supply theorem.
+Finite subcovers are available only after restricting to compact subsets of the
+good complement; a full cover of the approach window would be the
+regularity-equivalent strong cover and is not an energy-level theorem.
 
 Finite energy does not control the full averaged `ACT.KX` packet. For
 `m\ge1`, the full packet contains finite-depth averaged tower data beyond

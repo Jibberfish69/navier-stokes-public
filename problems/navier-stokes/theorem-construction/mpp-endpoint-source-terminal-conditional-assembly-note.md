@@ -297,7 +297,9 @@ END.TowerBound_{\mathrm{avg}}
 \wedge
 END.Cross_{\mathrm{avg}}
 \wedge
-END.Exh_{\mathrm{avg}}.
+END.Exh_{\mathrm{avg}}
+\wedge
+CAVG.J.
 \tag{EST.Aavg2}
 ```
 
@@ -451,7 +453,7 @@ END.Pack
 +END.Field_{\mathrm{avg}}
 +END.TowerBound_{\mathrm{avg}}
 +END.Cross_{\mathrm{avg}}
-+END.Exh_{\mathrm{avg}}.
++END.Exh_{\mathrm{avg}}
 +CAVG.J.
 \tag{EST.Aavg7}
 ```
@@ -572,13 +574,16 @@ and the deeper analytic branch
 
 ```math
 \boxed{
-SCF_{\mathrm{base}}+ATD_m
+SCF_{\mathrm{base}}+SGC.A_{\mathrm{a.e.}}+ATD_m^\varepsilon
 \Longrightarrow
-AACT.KX
+AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi},
 \Longrightarrow
 AVG.RCV.A
 \Longrightarrow
-AVG.END.A.
+AVG.END.A,
+\qquad
+CAVG.J:
+Concentration_{\mathrm{avg}}\Longrightarrow Jump_{\mathrm{avg}}.
 }
 \tag{EST.Aread9}
 ```

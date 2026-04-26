@@ -395,8 +395,9 @@ closure_ecology:
         smallness variable, and a full-strip retained-branch proof needs
         ACT.X-Scale at each retained restart, ACT.KX, and RWS.C_scale to recover
         fixed-radius readouts, not just a retained-window partition. On the
-        averaged branch, the restart seed is the X_R(s_a) component of SCF_avg^m,
-        not point-center retained smoothness.
+        averaged branch, the restart seed is the X_R(s_a) component of SCF_avg^m
+        on SCF-good cylinders supplied by SGC.A_a.e and ATD_m^epsilon, not
+        point-center retained smoothness.
       act_x_atom_split: >-
         ACT.X-Def separates the small affine excess X_exc from the full readout
         packet Y_read = A_core^ctr + A_buf^ctr + X_exc. AXE.A is the excess
@@ -408,9 +409,11 @@ closure_ecology:
         cannot be smuggled into the smallness variable. ACT.X-Scale supplies the
         small restart seed from retained smooth center-ball regularity on the
         retained branch. On the averaged branch this slot is replaced by
-        SCF_base plus ATD_m, and the route is SCF_base + ATD_m => SCF_avg^m =>
-        AACT.KX => DTC.A_avg => AVG.RCV.A => LCI.A_avg, with DTC.Read parked
-        until endpoint/tower recovery needs pointwise DTC.A. RWS.C_cover supplies the
+        SCF_base plus SGC.A_a.e plus ATD_m^epsilon, and the route is
+        SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off
+        B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg, with CAVG.J
+        reducing Concentration_avg to Jump_avg and DTC.Read parked until
+        endpoint/tower recovery needs pointwise DTC.A. RWS.C_cover supplies the
         dynamic same-fluid cover from compact retained label tubes and the pack
         gauge. RWS.C_scale is the finite-cover readout bridge that transfers
         small-radius packets to the fixed-radius readouts; it does not assert
@@ -452,14 +455,17 @@ closure_ecology:
         certificate is RSCB.NKF, which supplies the retained smooth forcing route
         NKF.Moll + NKF.Point => NKF.Native, together with the scheduler budgets;
         source-channel and endpoint blocks remain separate. Finite-energy-native
-        branch: SCF_base + ATD_m => SCF_avg^m => AACT.KX => DTC.A_avg =>
-        AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg =>
-        End_NS_avg. DTC.Read is required
+        branch: SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m =>
+        AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg =>
+        CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg, with
+        Concentration_avg => Jump_avg handled by CAVG.J. DTC.Read is required
         before pointwise DTC.A or endpoint tower readout; Field.Read or CM.Read is
         required before old CFI.A; READ.END is required before old End_NS.
         END.Exh_avg and END.Cross_avg are locked endpoint cells; finite energy
-        supplies only SCF_base at good material restarts, so the remaining hard
-        branch is the ATD_m averaged tower-density theorem.
+        supplies only SCF_base at good material restarts, ATD_m^epsilon is the
+        local epsilon-regularity tower supplier, and SGC.A_strong is off the
+        main line as regularity-equivalent. The bad set is routed as
+        Concentration_avg and reduced by CAVG.J.
       audit_correction: >-
         DTR.A is only a supplier theorem. Bare TW_ctr supplies residual
         pressure/top-viscous forcing; the strong closure needs TW_ctr^aff,

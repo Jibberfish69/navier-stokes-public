@@ -26,10 +26,12 @@ Retained-smooth branch: pass, with two hard ordering flags.
 
 Finite-energy-native branch: the old point-center route fails as stated,
 because NKF.Native and ACT.X-Scale spend retained local smoothness. The
-replacement target is SCF_base + ATD_m => SCF_avg^m => AACT.KX =>
-DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg.
-Finite energy supplies only SCF_base at good material restarts; ATD_m is the
-live averaged tower-density wall. DTC.Read is parked for pointwise
+replacement target is SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m =>
+AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg =>
+CSP.A_avg => OFP.A_avg => CFI.A_avg. Concentration_avg is reduced to Jump_avg
+by CAVG.J. Finite energy supplies only SCF_base at good material restarts;
+ATD_m^epsilon is the local epsilon-regularity tower supplier, while SGC.A_strong
+is off the main line as regularity-equivalent. DTC.Read is parked for pointwise
 endpoint/tower recovery, while Field.Read or CM.Read is required before
 recovering old CFI.A.
 
@@ -95,9 +97,9 @@ CFI.A + End_NS
 Averaged receiver replacement order:
 
 ```text
-SCF_base + ATD_m
+SCF_base + SGC.A_a.e + ATD_m^epsilon
 => SCF_avg^m
-=> AACT.KX
+=> AACT.KX off B_epsilon^Phi
 => X_R in Linfty + N_R in L1 + K_le_m^{avg,R} in L1
 => DTC.A_avg
 => AVG.RCV.A
@@ -131,8 +133,10 @@ geometry, finite-depth affine-center equations, top-viscous readout data,
 same-fluid cover/scale data, and bounded pack gauge where explicitly stated.
 
 For the averaged branch, replace "retained-window data" and "native center
-forcing" by `SCF_base + ATD_m`. Finite energy supplies only `SCF_base`; the
-full averaged route needs `ATD_m` through depth `m+2`. The averaged branch does
+forcing" by `SCF_base + SGC.A_a.e + ATD_m^epsilon` on the SCF-good complement,
+with `CAVG.J` reducing `Concentration_avg` to `Jump_avg`. Finite energy
+supplies only `SCF_base`; `ATD_m^epsilon` is the local tower-density supplier.
+The averaged branch does
 not import `NKF.Point`, point pressure-center control, retained center-ball
 smoothness, or `DTC.Read`.
 
