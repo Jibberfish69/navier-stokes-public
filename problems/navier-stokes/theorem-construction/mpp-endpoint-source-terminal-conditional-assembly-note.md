@@ -38,6 +38,7 @@ SCF_{\mathrm{base}}
 +CAVG.J
 +AVG.RCV.A
 +AVG.END.A
++FFSRC.A
 \Longrightarrow
 \text{no averaged finite-time class exit}.
 \tag{EST.0aMain}
@@ -61,6 +62,15 @@ FPCR.C+FSCR.C+FCC.C1
 \Longrightarrow
 FCI.5f.
 \tag{EST.1}
+```
+
+On the strengthened source branch the source supplier can instead be imported as
+
+```math
+FFSRC.A
+\Longrightarrow
+FCI.5f.
+\tag{EST.1s}
 ```
 
 ```math
@@ -691,6 +701,8 @@ CAVG.J
 AVG.RCV.A
 +
 AVG.END.A
++
+FFSRC.A
 \Longrightarrow
 \text{no averaged finite-time class exit}.
 }
@@ -725,14 +737,30 @@ AACT.KX
 \Longrightarrow
 AVG.RCV.A
 \Longrightarrow
-LCI.A_{\mathrm{avg}}
+LCI.A_{\mathrm{avg}}.
+\tag{EST.Amain4a}
+```
+
+The strengthened source branch supplies the frozen-family source ledger:
+
+```math
+FFSRC.A
+\Longrightarrow
+FCI.5f.
+\tag{EST.Amain4b}
+```
+
+Then the averaged source/collar chain is
+
+```math
+LCI.A_{\mathrm{avg}}+FCI.5f
 \Longrightarrow
 CSP.A_{\mathrm{avg}}
 \Longrightarrow
 OFP.A_{\mathrm{avg}}
 \Longrightarrow
 CFI.A_{\mathrm{avg}}.
-\tag{EST.Amain4}
+\tag{EST.Amain4c}
 ```
 
 On the bad material region,
@@ -770,6 +798,12 @@ SCF_{\mathrm{base}}
 ATD_m^\varepsilon
 +
 CAVG.J
++
+AVG.RCV.A
++
+AVG.END.A
++
+FFSRC.A
 \Longrightarrow
 AVG.MAIN.A.
 \tag{EST.Amain7}
@@ -799,6 +833,22 @@ so the averaged receiver route needs an `L^1` source ledger, not a pointwise
 receiver readout. An averaged source analogue `FCI.5f_avg` is optional symmetry,
 not a prerequisite for `AVG.MAIN.A`.
 
+On the strengthened branch this ledger is supplied by the already installed
+source closure:
+
+```math
+FFPB.A0+FFSC.C1+FCC.C1
+\Longrightarrow
+FFSRC.A
+\Longrightarrow
+FCI.5f.
+\tag{EST.Amain9s}
+```
+
+This import does not identify the strengthened branch with the exact old
+source wall. The exact same-depth source route remains the separate
+`FPCR.C+FSCR.C+FCC.C1` assembly recorded below.
+
 The promotion order is fixed:
 
 ```math
@@ -813,7 +863,7 @@ AACT.KX
 AVG.RCV.A
 \to
 LCI.A_{\mathrm{avg}}
-\to
+\xrightarrow{\ +\,FCI.5f\;(\text{from }FFSRC.A)\ }
 CSP.A_{\mathrm{avg}}
 \to
 OFP.A_{\mathrm{avg}}
@@ -829,6 +879,48 @@ AVG.MAIN.A.
 The averaged route may not spend `DTC.Read`, `Field.Read`, `DTC.A`, `Field`,
 `End_NS`, `LCI.A`, `CSP.A`, or `OFP.A` before their explicit readout or
 retained-branch cells are supplied.
+
+## Theorem B_str: Strengthened source branch import
+
+Assume `FFSRC.A`. Then `FCI.5f` holds.
+
+### Proof
+
+`FFSRC.A` is the combined source-side closure on the organized strengthened
+branch. Its pressure input is the widened packet-local pressure bridge
+`FFPB.A0`, its nonpressure input is `FFSC.C1`, and its cutoff input is
+`FCC.C1`. These give
+
+```math
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}\in L^1(I),
+\qquad
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,sc}\in L^1(I),
+\qquad
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}\in L^1(I).
+\tag{EST.Bstr1}
+```
+
+Using the frozen-family source split,
+
+```math
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon}
+=
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}
++
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,sc}
++
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut},
+\tag{EST.Bstr2}
+```
+
+each summand is integrable on `I`, hence
+
+```math
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon}(\cdot;I)\in L^1(I).
+\tag{EST.Bstr3}
+```
+
+This is exactly `FCI.5f`. ∎
 
 ## Theorem B: Source conditional assembly
 
