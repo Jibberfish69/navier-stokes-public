@@ -574,7 +574,7 @@ and the deeper analytic branch
 \boxed{
 SCF_{\mathrm{base}}+SGC.A_{\mathrm{a.e.}}+ATD_m^\varepsilon
 \Longrightarrow
-AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi},
+AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi}
 \Longrightarrow
 AVG.RCV.A
 \Longrightarrow
