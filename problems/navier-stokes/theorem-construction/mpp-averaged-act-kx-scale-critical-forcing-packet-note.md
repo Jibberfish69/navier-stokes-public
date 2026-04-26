@@ -23,12 +23,16 @@ AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi}
 DTC.A_{\mathrm{avg}},
 ```
 
-with the later pointwise readout isolated as a separate theorem
+with the later pointwise readout isolated as a separate conditional theorem
 
 ```math
-DTC.Read:
+DTC.Read^\varepsilon:
 \qquad
-DTC.A_{\mathrm{avg}}\Longrightarrow DTC.A.
+DTC.A_{\mathrm{avg}}
++
+\text{uniform fixed-scale finite cover}
+\Longrightarrow
+DTC.A.
 ```
 
 ## Audit Answer
@@ -65,10 +69,10 @@ DTC.A_{\mathrm{avg}}.
 ```
 
 This route does not recover the old pointwise `DTC.A` until the separate
-`DTC.Read` theorem is proved, and it does not recover old `CFI.A` until
-`Field.Read` or `CM.Read` is proved. No proof may spend `DTC.A`, `LCI.A`,
-`CSP.A`, `OFP.A`, `Field`, or endpoint exclusion to obtain `SCF_avg^m`,
-`AACT.KX`, or `DTC.A_avg`.
+`DTC.Read^epsilon` theorem is proved, and it does not recover old `CFI.A`
+until `Field.Read^epsilon` or `CM.Read` is proved. No proof may spend
+`DTC.A`, `LCI.A`, `CSP.A`, `OFP.A`, `Field`, or endpoint exclusion to obtain
+`SCF_avg^m`, `AACT.KX`, or `DTC.A_avg`.
 
 ## Geometry and Averaged Modes
 
@@ -763,22 +767,22 @@ Compatibility with the existing endpoint matrix is separate:
 READ.END:
 End_{NS,\mathrm{avg}}
 +
-Field.Read
+Field.Read^\varepsilon
 +
-DTC.Read
+DTC.Read^\varepsilon
 \Longrightarrow
 End_{NS}.
 }
 ```
 
-`Field.Read` feeds `END.Field` and `END.Exh`; `DTC.Read` feeds
+`Field.Read^epsilon` feeds `END.Field` and `END.Exh`; `DTC.Read^epsilon` feeds
 `END.TowerAmp`. With `END.Exh_avg`, `END.Cross_avg`, and `AVG.END.A` now
 theorem-facing endpoint cells, the remaining branches are
 
 ```math
 \boxed{
 READ.END:
-End_{NS,\mathrm{avg}}+Field.Read+DTC.Read
+End_{NS,\mathrm{avg}}+Field.Read^\varepsilon+DTC.Read^\varepsilon
 \Longrightarrow
 End_{NS}
 }
@@ -800,6 +804,25 @@ CAVG.J:
 \mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing
 \Longrightarrow
 Jump_{\mathrm{avg}}.
+}
+```
+
+The terminal averaged wrapper is
+
+```math
+\boxed{
+AVG.MAIN.A:
+SCF_{\mathrm{base}}
++
+ATD_m^\varepsilon
++
+CAVG.J
++
+AVG.RCV.A
++
+AVG.END.A
+\Longrightarrow
+\text{no averaged finite-time class exit}.
 }
 ```
 
@@ -1201,7 +1224,39 @@ AVG.COVER.A,
 which says that every same-fluid approach tail either lies in the propagated
 good-region route or enters the endpoint matrix through `Jump_avg`.
 
-Only after `DTC.Read` can the old pointwise `DTC.A` and the endpoint
+Only after `DTC.Read^epsilon` can the old pointwise `DTC.A` and the endpoint
 `DTC-to-TowerBound` packet be invoked without changing their statements. Only
-after `Field.Read` or `CM.Read` can the averaged class-membership chain be read
-as old `CFI.A`.
+after `Field.Read^epsilon` or `CM.Read` can the averaged class-membership chain
+be read as old `CFI.A`.
+
+The compressed terminal route is
+
+```math
+SCF_{\mathrm{base}}
++
+ATD_m^\varepsilon
++
+CAVG.J
+\Longrightarrow
+AVG.MAIN.A,
+\qquad
+AVG.MAIN.A+READ.END
+\Longrightarrow
+\text{old endpoint closure}.
+```
+
+Here `READ.END` means the conditional readout bridge
+
+```math
+End_{NS,\mathrm{avg}}
++
+Field.Read^\varepsilon
++
+DTC.Read^\varepsilon
+\Longrightarrow
+End_{NS}.
+```
+
+The single highest-leverage analytic theorem remains `ATD_m^epsilon`; its
+engine is the local CKN epsilon-regularity gain from small `SCF_base` to the
+finite-depth averaged affine tower packet.

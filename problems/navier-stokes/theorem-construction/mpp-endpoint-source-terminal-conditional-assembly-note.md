@@ -28,12 +28,27 @@ End_{NS,\mathrm{avg}}.
 \tag{EST.0a}
 ```
 
+The terminal averaged lane is:
+
+```math
+AVG.MAIN.A:
+\qquad
+SCF_{\mathrm{base}}
++ATD_m^\varepsilon
++CAVG.J
++AVG.RCV.A
++AVG.END.A
+\Longrightarrow
+\text{no averaged finite-time class exit}.
+\tag{EST.0aMain}
+```
+
 It does not recover the old endpoint package until the readout bridge
 
 ```math
 READ.END:
 \qquad
-End_{NS,\mathrm{avg}}+Field.Read+DTC.Read
+End_{NS,\mathrm{avg}}+Field.Read^\varepsilon+DTC.Read^\varepsilon
 \Longrightarrow
 End_{NS}
 \tag{EST.0b}
@@ -542,9 +557,9 @@ READ.END:
 \qquad
 End_{NS,\mathrm{avg}}
 +
-Field.Read
+Field.Read^\varepsilon
 +
-DTC.Read
+DTC.Read^\varepsilon
 \Longrightarrow
 End_{NS}.
 \tag{EST.Aread1}
@@ -553,25 +568,41 @@ End_{NS}.
 where
 
 ```math
-Field.Read:
+Field.Read^\varepsilon:
 \qquad
-Field_{\mathrm{avg}}\Longrightarrow Field,
+Field_{\mathrm{avg}}
++
+\text{uniform SCF-good finite cover at positive scale}
+\Longrightarrow
+Field,
 \tag{EST.Aread2}
 ```
 
 and
 
 ```math
-DTC.Read:
+DTC.Read^\varepsilon:
 \qquad
-DTC.A_{\mathrm{avg}}\Longrightarrow DTC.A.
+DTC.A_{\mathrm{avg}}
++
+\text{uniform fixed-scale finite cover}
+\Longrightarrow
+DTC.A.
 \tag{EST.Aread3}
 ```
+
+The `Field.Read^epsilon` proof uses the finite SCF-good cover to invoke
+`ATD_m^epsilon` on smaller cylinders, then Morrey/epsilon-regularity readout
+turns the averaged finite-difference coherence packet into pointwise `Field`.
+The `DTC.Read^epsilon` proof uses the fixed-scale averaged tower packet and
+the finite cover; on smaller balls the tower gives the required `H^2`-type
+control, the local Poisson split supplies the pressure derivatives, and the
+`q+2` depth supplies the viscous `K_q` readout.
 
 The readout locations are exact:
 
 ```math
-Field.Read
+Field.Read^\varepsilon
 \text{ feeds }END.Field\text{ and }END.Exh,
 \tag{EST.Aread4}
 ```
@@ -579,7 +610,7 @@ Field.Read
 while
 
 ```math
-DTC.Read
+DTC.Read^\varepsilon
 \text{ feeds }END.TowerAmp.
 \tag{EST.Aread5}
 ```
@@ -615,7 +646,7 @@ After `AVG.END.A`, the remaining branches are
 ```math
 \boxed{
 READ.END:
-End_{NS,\mathrm{avg}}+Field.Read+DTC.Read
+End_{NS,\mathrm{avg}}+Field.Read^\varepsilon+DTC.Read^\varepsilon
 \Longrightarrow
 End_{NS}
 }
@@ -643,6 +674,161 @@ AVG.COVER.A.
 }
 \tag{EST.Aread9}
 ```
+
+## Theorem A_main: Averaged terminal no-exit theorem
+
+The averaged terminal theorem is
+
+```math
+\boxed{
+AVG.MAIN.A:
+SCF_{\mathrm{base}}
++
+ATD_m^\varepsilon
++
+CAVG.J
++
+AVG.RCV.A
++
+AVG.END.A
+\Longrightarrow
+\text{no averaged finite-time class exit}.
+}
+\tag{EST.Amain1}
+```
+
+### Proof
+
+Finite-energy supply of the base packet gives the a.e. same-fluid good-cylinder
+cover:
+
+```math
+SCF_{\mathrm{base}}
+\Longrightarrow
+SGC.A_{\mathrm{a.e.}}.
+\tag{EST.Amain2}
+```
+
+On the good material region,
+
+```math
+SGC.A_{\mathrm{a.e.}}+ATD_m^\varepsilon
+\Longrightarrow
+AACT.KX.
+\tag{EST.Amain3}
+```
+
+The averaged receiver and downstream chain then run
+
+```math
+AACT.KX
+\Longrightarrow
+AVG.RCV.A
+\Longrightarrow
+LCI.A_{\mathrm{avg}}
+\Longrightarrow
+CSP.A_{\mathrm{avg}}
+\Longrightarrow
+OFP.A_{\mathrm{avg}}
+\Longrightarrow
+CFI.A_{\mathrm{avg}}.
+\tag{EST.Amain4}
+```
+
+On the bad material region,
+
+```math
+\mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing
+\Longrightarrow
+Jump_{\mathrm{avg}}
+\tag{EST.Amain5}
+```
+
+by `CAVG.J`. Thus `AVG.COVER.A` covers every same-fluid approach tail:
+the good-cover case supplies averaged propagation, while the bad-set case is
+already an averaged endpoint face.
+
+Finally,
+
+```math
+CFI.A_{\mathrm{avg}}+AVG.COVER.A+AVG.END.A
+\Longrightarrow
+End_{NS,\mathrm{avg}}.
+\tag{EST.Amain6}
+```
+
+In the good-cover case, `CFI.A_avg` persists and `AVG.END.A` excludes every
+averaged endpoint shell. In the bad-set case, `Jump_avg` is discharged by
+`END.Field_avg` inside `End_NS_avg`. Hence no averaged finite-time class exit
+remains. ∎
+
+Equivalently, the compressed averaged route is
+
+```math
+SCF_{\mathrm{base}}
++
+ATD_m^\varepsilon
++
+CAVG.J
+\Longrightarrow
+AVG.MAIN.A.
+\tag{EST.Amain7}
+```
+
+The old pointwise endpoint route is recovered only conditionally:
+
+```math
+AVG.MAIN.A+READ.END
+\Longrightarrow
+\text{old endpoint closure}.
+\tag{EST.Amain8}
+```
+
+## Source-side compatibility and promotion audit
+
+The existing source ledger `FCI.5f` can remain frozen-family / pointwise-source
+on the averaged branch. In `CSP.A_avg`, it enters only through the integrable
+source term
+
+```math
+F_{\mathrm{source}}\in L^1(I),
+\tag{EST.Amain9}
+```
+
+so the averaged receiver route needs an `L^1` source ledger, not a pointwise
+receiver readout. An averaged source analogue `FCI.5f_avg` is optional symmetry,
+not a prerequisite for `AVG.MAIN.A`.
+
+The promotion order is fixed:
+
+```math
+SCF_{\mathrm{base}}
+\to
+SGC.A_{\mathrm{a.e.}}
+\to
+ATD_m^\varepsilon
+\to
+AACT.KX
+\to
+AVG.RCV.A
+\to
+LCI.A_{\mathrm{avg}}
+\to
+CSP.A_{\mathrm{avg}}
+\to
+OFP.A_{\mathrm{avg}}
+\to
+CFI.A_{\mathrm{avg}}
+\to
+AVG.END.A
+\to
+AVG.MAIN.A.
+\tag{EST.Amain10}
+```
+
+The averaged route may not spend `DTC.Read`, `Field.Read`, `DTC.A`, `Field`,
+`End_NS`, `LCI.A`, `CSP.A`, or `OFP.A` before their explicit readout or
+retained-branch cells are supplied.
 
 ## Theorem B: Source conditional assembly
 

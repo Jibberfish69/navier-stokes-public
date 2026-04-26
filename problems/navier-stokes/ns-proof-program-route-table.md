@@ -275,9 +275,11 @@ Averaged-branch routing:
   DTC.A_avg => AVG.RCV.A => LCI.A_avg.
   LCI.A_avg + FCI.5f => CSP.A_avg => OFP.A_avg => CFI.A_avg.
   CFI.A_avg + AVG.END.Cert => End_NS_avg.
-  DTC.Read is required before DTC.A or endpoint tower readout.
-  Field.Read or CM.Read is required before old CFI.A.
-  READ.END: End_NS_avg + Field.Read + DTC.Read => End_NS.
+  AVG.MAIN.A: SCF_base + ATD_m^epsilon + CAVG.J + AVG.RCV.A + AVG.END.A
+  => no averaged finite-time class exit.
+  DTC.Read^epsilon is required before DTC.A or endpoint tower readout.
+  Field.Read^epsilon or CM.Read is required before old CFI.A.
+  READ.END: End_NS_avg + Field.Read^epsilon + DTC.Read^epsilon => End_NS.
   END.Exh_avg and END.Cross_avg are locked endpoint cells.
   SGC.A_strong is off the main line as regularity-equivalent.
   Remaining cover logic: AVG.COVER.A, i.e. good-region averaged propagation plus bad-set Jump_avg.
@@ -333,12 +335,13 @@ SCF_base + SGC.A_a.e + ATD_m^epsilon
 => CSP.A_avg
 => OFP.A_avg
 => CFI.A_avg
+=> AVG.MAIN.A
 
-DTC.Read:
-DTC.A_avg => DTC.A
+DTC.Read^epsilon:
+DTC.A_avg + uniform fixed-scale finite cover => DTC.A
 
-Field.Read / CM.Read:
-Field_avg => Field
+Field.Read^epsilon / CM.Read:
+Field_avg + uniform SCF-good finite cover at positive scale => Field
 CM_avg => CM
 ```
 
@@ -371,9 +374,10 @@ same-fluid good-cylinder cover `SGC.A_a.e`, and the local epsilon-regularity
 tower supplier `ATD_m^epsilon` to form `SCF_avg^m` off
 `\mathcal B_{\varepsilon_m}^{\Phi}`, then use
 `AVG.RCV.A` to reach `LCI.A_avg` and carry the averaged downstream chain
-`CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg`. `DTC.Read` is parked for
-endpoint/tower pointwise recovery; old `CFI.A` additionally needs `Field.Read`
-or `CM.Read`, and old `End_NS` is recovered only through `READ.END`.
+`CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg => AVG.MAIN.A`.
+`DTC.Read^epsilon` is parked for endpoint/tower pointwise recovery; old
+`CFI.A` additionally needs `Field.Read^epsilon` or `CM.Read`, and old `End_NS`
+is recovered only through `READ.END`.
 
 Finite energy supplies only `SCF_base` at good material restarts. The local
 epsilon-regularity theorem `ATD_m^epsilon` upgrades small `SCF_base` cylinders
@@ -382,6 +386,17 @@ cover is regularity-equivalent and is not on the main line; the bad set is
 already a `Jump_avg` case by `CAVG.J`. `AVG.COVER.A` is the bridge that combines
 the good-region propagation and bad-region jump alternatives into full averaged
 endpoint coverage for same-fluid approach tails.
+
+The route compression is:
+
+```text
+SCF_base + ATD_m^epsilon + CAVG.J => AVG.MAIN.A
+AVG.MAIN.A + READ.END => old endpoint closure
+```
+
+The highest-leverage analytic theorem still carried by this branch is
+`ATD_m^epsilon`, the epsilon-regularity gain from small `SCF_base` cylinders to
+the finite-depth averaged affine tower packet.
 
 ## Exploratory Or Parked Branches
 
