@@ -356,9 +356,11 @@ End_{NS,\mathrm{avg}}.
 The old pointwise object is separated as a later readout theorem:
 
 ```math
-DTC.Read:
+DTC.Read^\varepsilon:
 \qquad
 DTC.A_{\mathrm{avg}}
++
+\text{uniform fixed-scale finite cover}
 \Longrightarrow
 DTC.A.
 \tag{ODC.15h}
@@ -366,7 +368,7 @@ DTC.A.
 
 Thus `DTC.A` cannot be spent inside the proof of `SCF_avg^m`, `AACT.KX`, or
 `DTC.A_avg`. Likewise `DTC.A_avg` cannot feed the endpoint tower packet as
-pointwise `DTC.A` until `DTC.Read` is proved.
+pointwise `DTC.A` until `DTC.Read^epsilon` is proved.
 
 Similarly, `OFP.A_avg` supplies `Field_avg`, not the old pointwise `Field`.
 The averaged class-membership object is
@@ -381,7 +383,10 @@ Pack\wedge Part\wedge Field_{\mathrm{avg}}.
 Old `CFI.A` is recovered only after
 
 ```math
-Field.Read:\ Field_{\mathrm{avg}}\Longrightarrow Field
+Field.Read^\varepsilon:
+\qquad
+Field_{\mathrm{avg}}+\text{uniform SCF-good finite cover at positive scale}
+\Longrightarrow Field
 \qquad
 \text{or}
 \qquad
@@ -469,7 +474,7 @@ packet that supplies that same propagation.}
 ```math
 DTC.A_{\mathrm{avg}}
 \text{ is treated as pointwise }DTC.A
-\text{ before }DTC.Read\text{ is proved.}
+\text{ before }DTC.Read^\varepsilon\text{ is proved.}
 \tag{ODC.20a}
 ```
 
@@ -486,7 +491,7 @@ RSCB.NKF,\ NKF.Point,\text{ or point pressure-center smoothness}
 ```math
 CFI.A_{\mathrm{avg}}
 \text{ is treated as old }CFI.A
-\text{ before }Field.Read\text{ or }CM.Read\text{ is proved.}
+\text{ before }Field.Read^\varepsilon\text{ or }CM.Read\text{ is proved.}
 \tag{ODC.20c}
 ```
 

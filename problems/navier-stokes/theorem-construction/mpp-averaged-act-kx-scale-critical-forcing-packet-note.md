@@ -416,9 +416,11 @@ DTC.A_{\mathrm{avg}}.
 The old pointwise object remains quarantined behind
 
 ```math
-DTC.Read:
+DTC.Read^\varepsilon:
 \qquad
 DTC.A_{\mathrm{avg}}
++
+\text{uniform fixed-scale finite cover}
 \Longrightarrow
 DTC.A.
 ```
@@ -657,9 +659,12 @@ CFI.A_{\mathrm{avg}}.
 It does not prove old `CFI.A` unless one of the readout bridges is proved:
 
 ```math
-Field.Read:
+Field.Read^\varepsilon:
 \qquad
-Field_{\mathrm{avg}}\Longrightarrow Field,
+Field_{\mathrm{avg}}
++
+\text{uniform SCF-good finite cover at positive scale}
+\Longrightarrow Field,
 ```
 
 or equivalently
@@ -677,11 +682,11 @@ The next class-membership target is therefore
 AVG.CFI.A:
 CFI.A_{\mathrm{avg}}
 \text{ is sufficient for the endpoint matrix, or identify exactly where }
-Field.Read\text{ is required.}
+Field.Read^\varepsilon\text{ is required.}
 }
 ```
 
-`DTC.Read` stays parked for endpoint/tower pointwise recovery only. The main
+`DTC.Read^epsilon` stays parked for endpoint/tower pointwise recovery only. The main
 route should avoid pointwise recovery as long as the downstream consumers can
 be retyped to averaged objects.
 
