@@ -49,7 +49,7 @@ It does not recover the old endpoint package until the readout bridge
 ```math
 READ.END:
 \qquad
-End_{NS,\mathrm{avg}}+Field.Read^\varepsilon+DTC.Read^\varepsilon
+End_{NS,\mathrm{avg}}+Field.Read+DTC.Read
 \Longrightarrow
 End_{NS}
 \tag{EST.0b}
@@ -567,9 +567,9 @@ READ.END:
 \qquad
 End_{NS,\mathrm{avg}}
 +
-Field.Read^\varepsilon
+Field.Read
 +
-DTC.Read^\varepsilon
+DTC.Read
 \Longrightarrow
 End_{NS}.
 \tag{EST.Aread1}
@@ -578,11 +578,13 @@ End_{NS}.
 where
 
 ```math
-Field.Read^\varepsilon:
+Field.Read:
 \qquad
 Field_{\mathrm{avg}}
 +
-\text{uniform SCF-good finite cover at positive scale}
+\text{uniform positive-scale SCF-good finite cover}
++
+ATD_m^\varepsilon
 \Longrightarrow
 Field,
 \tag{EST.Aread2}
@@ -591,28 +593,104 @@ Field,
 and
 
 ```math
-DTC.Read^\varepsilon:
+DTC.Read:
 \qquad
 DTC.A_{\mathrm{avg}}
 +
-\text{uniform fixed-scale finite cover}
+\text{fixed-scale finite same-fluid cover}
++
+ATD_m^\varepsilon
 \Longrightarrow
 DTC.A.
 \tag{EST.Aread3}
 ```
 
-The `Field.Read^epsilon` proof uses the finite SCF-good cover to invoke
-`ATD_m^epsilon` on smaller cylinders, then Morrey/epsilon-regularity readout
-turns the averaged finite-difference coherence packet into pointwise `Field`.
-The `DTC.Read^epsilon` proof uses the fixed-scale averaged tower packet and
-the finite cover; on smaller balls the tower gives the required `H^2`-type
-control, the local Poisson split supplies the pressure derivatives, and the
-`q+2` depth supplies the viscous `K_q` readout.
+`Field.Read` is the positive-scale Morrey readout. Assume a finite same-fluid
+cover
+
+```math
+Q\subset\bigcup_{i=1}^{M}Q_{r_i}^{\Phi}(a_i,t_i),
+\qquad
+r_i\ge r_\ast>0,
+\tag{EST.Aread2a}
+```
+
+with bounded overlap and chain connectivity, and assume
+
+```math
+SCF_{\mathrm{base}}(Q_{r_i}^{\Phi})\le\varepsilon_m
+\qquad(1\le i\le M).
+\tag{EST.Aread2b}
+```
+
+By `ATD_m^epsilon`, each `Q_{r_i}^{\Phi}` yields
+`ATD_m(Q_{\theta r_i}^{\Phi})`. The averaged finite-depth tower packets then
+give local Sobolev control through depth `m+2`, and Morrey gives pointwise
+coherence on each shrunken cylinder:
+
+```math
+|\delta_h U_q(x,t)|
+\le
+C|h|^\alpha
+\qquad
+(q\le N,\ |h|\le c\theta r_i).
+\tag{EST.Aread2c}
+```
+
+Finite overlap and chain connectivity propagate these local coherence scales
+across `Q`. With
+
+```math
+r_{N,Q}:=c\theta r_\ast>0,
+\tag{EST.Aread2d}
+```
+
+the pointwise field row `Field_{N,r_{N,Q},Q}` holds.
+
+`DTC.Read` is the fixed-scale transported-center readout. Assume a fixed
+finite same-fluid cover
+
+```math
+Q_t\subset\bigcup_{i=1}^{M}B(c_i(t),R_i),
+\qquad
+R_i\ge R_\ast>0.
+\tag{EST.Aread3a}
+```
+
+On each cover element, `DTC.A_avg` gives averaged `H^2`-type tower packets for
+all required `U_q` through depth `N+2`; if a cover element is only supplied by
+SCF-good base data, `ATD_m^epsilon` supplies the same finite-depth local tower
+packet on the shrunken element. In dimension three, `H^2(B)\hookrightarrow
+L^\infty(B)`, hence on smaller balls
+
+```math
+\sup |U_q|<\infty
+\qquad(q\le N+2).
+\tag{EST.Aread3b}
+```
+
+For forcing rungs,
+
+```math
+K_q=-\nabla^{q+1}p+\nu\Delta U_q.
+\tag{EST.Aread3c}
+```
+
+The viscous part is controlled by the `U_{q+2}` readout. The pressure part is
+controlled by the local Poisson split together with the packet-local pressure
+carrier. Finite cover summation gives
+
+```math
+\mathfrak A_{N,Q}\in L^\infty(I),
+\tag{EST.Aread3d}
+```
+
+and the pointwise transported-center package `DTC.A` follows.
 
 The readout locations are exact:
 
 ```math
-Field.Read^\varepsilon
+Field.Read
 \text{ feeds }END.Field\text{ and }END.Exh,
 \tag{EST.Aread4}
 ```
@@ -620,10 +698,35 @@ Field.Read^\varepsilon
 while
 
 ```math
-DTC.Read^\varepsilon
+DTC.Read
 \text{ feeds }END.TowerAmp.
 \tag{EST.Aread5}
 ```
+
+Thus `Field.Read` supplies the exact field row used by
+
+```math
+END.Field:\qquad Field+OFP.A\Longrightarrow\neg Jump,
+\tag{EST.Aread5a}
+```
+
+and it supplies the exact `Field` factor in
+
+```math
+CM=Pack\wedge Part\wedge Field
+\tag{EST.Aread5b}
+```
+
+for `END.Exh`. Likewise `DTC.Read` supplies the pointwise tower amplitude input
+
+```math
+END.TowerAmp:\qquad \mathfrak A_{N,Q}\in L^\infty(I),
+\tag{EST.Aread5c}
+```
+
+hence `END.TowerBound`. The pack and participation rows are shared by the
+averaged and pointwise grammars, so `READ.END` is complete under the stated
+positive-scale cover hypotheses.
 
 Thus the averaged endpoint lane is
 
@@ -656,7 +759,7 @@ After `AVG.END.A`, the remaining branches are
 ```math
 \boxed{
 READ.END:
-End_{NS,\mathrm{avg}}+Field.Read^\varepsilon+DTC.Read^\varepsilon
+End_{NS,\mathrm{avg}}+Field.Read+DTC.Read
 \Longrightarrow
 End_{NS}
 }

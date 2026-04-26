@@ -415,7 +415,7 @@ closure_ecology:
         SCF_base + ATD_m^epsilon + CAVG.J + AVG.RCV.A + AVG.END.A into no averaged
         finite-time class exit. AVG.COVER.A
         combines good-region propagation with the bad-region jump case via CAVG.J,
-        and DTC.Read^epsilon is parked until
+        and DTC.Read is the fixed-scale finite-cover readout when
         endpoint/tower recovery needs pointwise DTC.A. RWS.C_cover supplies the
         dynamic same-fluid cover from compact retained label tubes and the pack
         gauge. RWS.C_scale is the finite-cover readout bridge that transfers
@@ -462,10 +462,10 @@ closure_ecology:
         AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg =>
         CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg => AVG.MAIN.A, with
         AVG.COVER.A covering every same-fluid approach tail by good-region
-        propagation or nonempty B_epsilon^Phi => Jump_avg via CAVG.J. DTC.Read^epsilon is required
-        before pointwise DTC.A or endpoint tower readout; Field.Read^epsilon or CM.Read is
+        propagation or nonempty B_epsilon^Phi => Jump_avg via CAVG.J. DTC.Read is required
+        before pointwise DTC.A or endpoint tower readout; Field.Read or CM.Read is
         required before old CFI.A; READ.END is required before old End_NS and has shape
-        End_NS_avg + Field.Read^epsilon + DTC.Read^epsilon => End_NS.
+        End_NS_avg + Field.Read + DTC.Read => End_NS.
         END.Exh_avg and END.Cross_avg are locked endpoint cells; finite energy
         supplies only SCF_base at good material restarts, ATD_m^epsilon is the
         local epsilon-regularity tower supplier, and SGC.A_strong is off the

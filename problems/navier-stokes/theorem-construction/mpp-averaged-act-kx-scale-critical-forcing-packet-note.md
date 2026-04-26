@@ -26,7 +26,7 @@ DTC.A_{\mathrm{avg}},
 with the later pointwise readout isolated as a separate conditional theorem
 
 ```math
-DTC.Read^\varepsilon:
+DTC.Read:
 \qquad
 DTC.A_{\mathrm{avg}}
 +
@@ -69,8 +69,8 @@ DTC.A_{\mathrm{avg}}.
 ```
 
 This route does not recover the old pointwise `DTC.A` until the separate
-`DTC.Read^epsilon` theorem is proved, and it does not recover old `CFI.A`
-until `Field.Read^epsilon` or `CM.Read` is proved. No proof may spend
+`DTC.Read` theorem is proved, and it does not recover old `CFI.A`
+until `Field.Read` or `CM.Read` is proved. No proof may spend
 `DTC.A`, `LCI.A`, `CSP.A`, `OFP.A`, `Field`, or endpoint exclusion to obtain
 `SCF_avg^m`, `AACT.KX`, or `DTC.A_avg`.
 
@@ -416,7 +416,7 @@ DTC.A_{\mathrm{avg}}.
 The old pointwise object remains quarantined behind
 
 ```math
-DTC.Read^\varepsilon:
+DTC.Read:
 \qquad
 DTC.A_{\mathrm{avg}}
 +
@@ -659,7 +659,7 @@ CFI.A_{\mathrm{avg}}.
 It does not prove old `CFI.A` unless one of the readout bridges is proved:
 
 ```math
-Field.Read^\varepsilon:
+Field.Read:
 \qquad
 Field_{\mathrm{avg}}
 +
@@ -682,11 +682,11 @@ The next class-membership target is therefore
 AVG.CFI.A:
 CFI.A_{\mathrm{avg}}
 \text{ is sufficient for the endpoint matrix, or identify exactly where }
-Field.Read^\varepsilon\text{ is required.}
+Field.Read\text{ is required.}
 }
 ```
 
-`DTC.Read^epsilon` stays parked for endpoint/tower pointwise recovery only. The main
+`DTC.Read` stays parked for endpoint/tower pointwise recovery only. The main
 route should avoid pointwise recovery as long as the downstream consumers can
 be retyped to averaged objects.
 
@@ -772,22 +772,22 @@ Compatibility with the existing endpoint matrix is separate:
 READ.END:
 End_{NS,\mathrm{avg}}
 +
-Field.Read^\varepsilon
+Field.Read
 +
-DTC.Read^\varepsilon
+DTC.Read
 \Longrightarrow
 End_{NS}.
 }
 ```
 
-`Field.Read^epsilon` feeds `END.Field` and `END.Exh`; `DTC.Read^epsilon` feeds
+`Field.Read` feeds `END.Field` and `END.Exh`; `DTC.Read` feeds
 `END.TowerAmp`. With `END.Exh_avg`, `END.Cross_avg`, and `AVG.END.A` now
 theorem-facing endpoint cells, the remaining branches are
 
 ```math
 \boxed{
 READ.END:
-End_{NS,\mathrm{avg}}+Field.Read^\varepsilon+DTC.Read^\varepsilon
+End_{NS,\mathrm{avg}}+Field.Read+DTC.Read
 \Longrightarrow
 End_{NS}
 }
@@ -826,6 +826,8 @@ CAVG.J
 AVG.RCV.A
 +
 AVG.END.A
++
+FFSRC.A
 \Longrightarrow
 \text{no averaged finite-time class exit}.
 }
@@ -1240,7 +1242,7 @@ subsequence after endpoint exclusion.
 5. No class-membership readback:
 
 ```text
-CFI.A_avg cannot be cited as old CFI.A before Field.Read^epsilon or CM.Read is proved.
+CFI.A_avg cannot be cited as old CFI.A before Field.Read or CM.Read is proved.
 ```
 
 ## Handoff
@@ -1288,9 +1290,9 @@ AVG.COVER.A,
 which says that every same-fluid approach tail either lies in the propagated
 good-region route or enters the endpoint matrix through `Jump_avg`.
 
-Only after `DTC.Read^epsilon` can the old pointwise `DTC.A` and the endpoint
+Only after `DTC.Read` can the old pointwise `DTC.A` and the endpoint
 `DTC-to-TowerBound` packet be invoked without changing their statements. Only
-after `Field.Read^epsilon` or `CM.Read` can the averaged class-membership chain
+after `Field.Read` or `CM.Read` can the averaged class-membership chain
 be read as old `CFI.A`.
 
 The compressed terminal route is
@@ -1301,6 +1303,12 @@ SCF_{\mathrm{base}}
 ATD_m^\varepsilon
 +
 CAVG.J
++
+AVG.RCV.A
++
+AVG.END.A
++
+FFSRC.A
 \Longrightarrow
 AVG.MAIN.A,
 \qquad
@@ -1309,14 +1317,19 @@ AVG.MAIN.A+READ.END
 \text{old endpoint closure}.
 ```
 
+Here `FFSRC.A` is used only as the strengthened source supplier
+`FFSRC.A -> FCI.5f` for the averaged source/collar chain
+`LCI.A_avg+FCI.5f -> CSP.A_avg`. It does not replace the separate old
+pointwise endpoint compatibility bridge `READ.END`.
+
 Here `READ.END` means the conditional readout bridge
 
 ```math
 End_{NS,\mathrm{avg}}
 +
-Field.Read^\varepsilon
+Field.Read
 +
-DTC.Read^\varepsilon
+DTC.Read
 \Longrightarrow
 End_{NS}.
 ```

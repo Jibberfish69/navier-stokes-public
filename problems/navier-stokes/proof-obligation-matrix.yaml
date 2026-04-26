@@ -31,10 +31,10 @@ object_law_refoundation:
   theorem_queue:
     - "record `ORIGIN.Retain` as installed: original maximal-solution/class-membership setup supplies retained-window hypotheses on compact classical intervals and endpoint persistence follows from `CFI.A+End_NS`"
     - "paperize the retained receiver spine as `RSCB.NKF => ACT.A => RCF.A => LCI.A`, with `NKF.Native`, `ACT.KX-Boot`, and `RWS.C_scale` kept as internal retained-window mechanisms"
-    - "paperize the finite-energy-native receiver replacement as `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg => AVG.MAIN.A`, with finite energy supplying only `SCF_base`, `ATD_m^epsilon` as the local epsilon-regularity tower supplier, `AVG.COVER.A := SGC.A_a.e + ATD_m^epsilon + CAVG.J => full same-fluid tail coverage`, `CAVG.J` folding nonempty `B_epsilon^Phi` directly into `Jump_avg`, `AVG.MAIN.A := SCF_base + ATD_m^epsilon + CAVG.J + AVG.RCV.A + AVG.END.A => no averaged finite-time class exit`, `DTC.Read^epsilon` parked for pointwise endpoint/tower readout, and `Field.Read^epsilon` / `CM.Read` required before old `CFI.A`"
+    - "paperize the finite-energy-native receiver replacement as `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg => AVG.MAIN.A`, with finite energy supplying only `SCF_base`, `ATD_m^epsilon` as the local epsilon-regularity tower supplier, `AVG.COVER.A := SGC.A_a.e + ATD_m^epsilon + CAVG.J => full same-fluid tail coverage`, `CAVG.J` folding nonempty `B_epsilon^Phi` directly into `Jump_avg`, `AVG.MAIN.A := SCF_base + ATD_m^epsilon + CAVG.J + AVG.RCV.A + AVG.END.A => no averaged finite-time class exit`, `DTC.Read` installed under fixed-scale cover plus `ATD_m^epsilon`, and `Field.Read` installed under uniform positive-scale SCF-good cover plus `ATD_m^epsilon` before old `CFI.A`"
     - "keep the source side post-`LCI.A`: `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`"
     - "paperize the retained endpoint spine as `DTC-to-TowerBound + END.Exh + END.Cross => End_NS`, with `END.Pack` and `END.Field` as installed certificate exclusions"
-    - "paperize the averaged endpoint spine as `CFI.A_avg + AVG.END.Cert => End_NS_avg`, with `END.Exh_avg` returning to the four faces `Dead | packing-detached | tower-blown_avg | Jump_avg`, `CAVG.J := B_epsilon^Phi nonempty => Jump_avg`, `END.Cross_avg` locked, `READ.END := End_NS_avg + Field.Read^epsilon + DTC.Read^epsilon => End_NS`, and `SGC.A_strong` parked off the main line as regularity-equivalent"
+    - "paperize the averaged endpoint spine as `CFI.A_avg + AVG.END.Cert => End_NS_avg`, with `END.Exh_avg` returning to the four faces `Dead | packing-detached | tower-blown_avg | Jump_avg`, `CAVG.J := B_epsilon^Phi nonempty => Jump_avg`, `END.Cross_avg` locked, `READ.END := End_NS_avg + Field.Read + DTC.Read => End_NS`, and `SGC.A_strong` parked off the main line as regularity-equivalent"
     - "paperize the terminal spine as `CFI.A + End_NS => no finite-time class exit`"
     - "preserve the boundary: retained-window receiver hypotheses, bounded pack gauge, finite required parameter set, post-`LCI.A` source closure, and accepted endpoint certificate maps"
     - "keep TPS / SG.4, exact-potential, Hodge / normal-covector, and Euclidean strict-shadow quarantined as downstream context only"
@@ -50,8 +50,8 @@ live_theorem_edge:
     `RSCB.NKF => NKF.Native => ACT.KX => ACT.X-Readout => ACT.A => RCF.A => LCI.A`.
     The finite-energy-native replacement targets
     `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg => AVG.MAIN.A`, with `AVG.COVER.A` covering every same-fluid approach tail: good material region gives averaged propagation and nonempty `B_epsilon^Phi` gives `Jump_avg` by `CAVG.J`, and `AVG.MAIN.A` compressing `SCF_base + ATD_m^epsilon + CAVG.J + AVG.RCV.A + AVG.END.A => no averaged finite-time class exit`.
-    `DTC.Read^epsilon` stays parked for pointwise endpoint/tower readout, and
-    `Field.Read^epsilon` / `CM.Read` is required before old `CFI.A`. Retained source closure is the post-`LCI.A`
+    `DTC.Read` is the fixed-scale finite-cover pointwise endpoint/tower readout, and
+    `Field.Read` / `CM.Read` is required before old `CFI.A`. Retained source closure is the post-`LCI.A`
     frozen-family packet `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, with cutoff
     absorption, strain/cascade low-carrier control, and pressure
     low-high/high-low plus resonant/far-tail control. The organized stronger
@@ -64,7 +64,7 @@ live_theorem_edge:
     Retained endpoint closure runs
     `DTC-to-TowerBound + END.Exh + END.Cross + END.Pack + END.Field => End_NS`;
     averaged endpoint closure runs `CFI.A_avg+AVG.END.Cert => End_NS_avg`,
-    with `READ.END := End_NS_avg+Field.Read^epsilon+DTC.Read^epsilon => End_NS`.
+    with `READ.END := End_NS_avg+Field.Read+DTC.Read => End_NS`.
     The two-lane
     terminal closure packet is now recorded as endpoint
     analytic readout (`DTC-to-TowerBound`) plus source channels
@@ -993,8 +993,8 @@ obligations:
     `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi`, then
     `AACT.KX+RWS.C_scale => DTC.A_avg`, then
     `AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg`. It must not
-    be read as pointwise `DTC.A` until `DTC.Read^epsilon` is proved, and it must not be
-    read as old `CFI.A` until `Field.Read^epsilon` or `CM.Read` is proved.
+    be read as pointwise `DTC.A` until `DTC.Read` is proved, and it must not be
+    read as old `CFI.A` until `Field.Read` or `CM.Read` is proved.
     `ACT.X-MidRaw` carries the zero-mode linearized middle terms through
     `A_core`; `RWS.C_scale` transfers the small-radius cover to the fixed
     readout scale; and `ACT.X-Readout` spends
