@@ -604,6 +604,6 @@ Those are secondary to `RSCB.NKF`, not replacements for it.
 \boxed{
 \text{Retained branch: theorem-grade installation of }RSCB.NKF.
 \quad
-\text{Finite-energy-native branch: }SCF_{\mathrm{avg}}\to AACT.KX\to DTC.A_{\mathrm{avg}}.
+\text{Finite-energy-native branch: }SCF_{\mathrm{base}}+ATD_m\to SCF_{\mathrm{avg}}^m\to AACT.KX\to DTC.A_{\mathrm{avg}}.
 }
 ```

@@ -350,7 +350,7 @@ Receiver-side route-valid cells from the user's 21-cell conditional route theore
 | `ACT.X-MidRaw` | triangular finite-depth middle block with zero-mode linear terms | keeps `A_core^ctr` inside `ACT.KX` instead of smuggling it as pre-core data |
 | `ACT.X-TopVisc` | `m+1,m+2` viscous buffer/readout modes | keeps `A_buf^ctr` in `Y_read`, not in the smallness variable |
 | `ACT.KX` | simultaneous propagation of `X_exc`, `N`, `K_{\le m}^{ctr}`, and `A_core^ctr` | joint core/excess theorem using `J=X_exc+theta A_core` while absorbing only the `X_exc^(1/2)N` term |
-| `ACT.X-Scale` | small-radius retained restart seed `X_exc(s_a;R_a) <= eta_X` | supplies the seed for each retained restart; on the averaged branch this slot is replaced by the `X_R(s_a)` component of `SCF_avg` |
+| `ACT.X-Scale` | small-radius retained restart seed `X_exc(s_a;R_a) <= eta_X` | supplies the seed for each retained restart; on the averaged branch this slot is replaced by the `X_R(s_a)` component of `SCF_avg^m` |
 | `RWS.C_scale` | finite dynamic small-radius cover to fixed readout scale | licenses fixed-radius readout after the scale-small run |
 | `ACT.X-Readout` | `Y_read=A_core^ctr+A_buf^ctr+X_exc` | spends the full bounded readout packet after `ACT.KX` |
 | `ACT.A` | `D_1^aff in L1`, `F_ctr_res in L1`, and `H_osc^alpha in L2` | packages the receiver output supplied by `ACT.X-Readout` |
@@ -362,7 +362,8 @@ energy result. The retained native forcing certificate is `RSCB.NKF`, which
 supplies the retained smooth forcing route
 `NKF.Moll + NKF.Point => NKF.Native`, together with the scheduler budgets;
 source-channel and endpoint blocks remain separate. The finite-energy-native
-route must instead prove the scale-critical averaged packet `SCF_avg`, then use
+route must instead combine the energy-level `SCF_base` supply with `ATD_m` to
+form `SCF_avg^m`, then use
 `AVG.RCV.A` to reach `LCI.A_avg` and carry the averaged downstream chain
 `CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg`. `DTC.Read` is parked for
 endpoint/tower pointwise recovery; old `CFI.A` additionally needs `Field.Read`

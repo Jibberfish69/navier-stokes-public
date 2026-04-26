@@ -34,7 +34,7 @@ object_law_refoundation:
     - "paperize the finite-energy-native receiver replacement as `SCF_base + ATD_m => SCF_avg^m => AACT.KX => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg`, with finite energy supplying only `SCF_base`, `ATD_m` as the live tower-density wall, `DTC.Read` parked for pointwise endpoint/tower readout, and `Field.Read` / `CM.Read` required before old `CFI.A`"
     - "keep the source side post-`LCI.A`: `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`"
     - "paperize the retained endpoint spine as `DTC-to-TowerBound + END.Exh + END.Cross => End_NS`, with `END.Pack` and `END.Field` as installed certificate exclusions"
-    - "paperize the averaged endpoint spine as `CFI.A_avg + AVG.END.Cert => End_NS_avg`, with `END.Exh_avg` and `END.Cross_avg` locked, `READ.END := End_NS_avg + Field.Read + DTC.Read => End_NS`, and `SCF_avg` supply as the remaining analytic branch"
+    - "paperize the averaged endpoint spine as `CFI.A_avg + AVG.END.Cert => End_NS_avg`, with `END.Exh_avg` and `END.Cross_avg` locked, `READ.END := End_NS_avg + Field.Read + DTC.Read => End_NS`, and `ATD_m` as the remaining analytic branch beyond the finite-energy `SCF_base` supply"
     - "paperize the terminal spine as `CFI.A + End_NS => no finite-time class exit`"
     - "preserve the boundary: retained-window receiver hypotheses, bounded pack gauge, finite required parameter set, post-`LCI.A` source closure, and accepted endpoint certificate maps"
     - "keep TPS / SG.4, exact-potential, Hodge / normal-covector, and Euclidean strict-shadow quarantined as downstream context only"
@@ -1000,7 +1000,7 @@ obligations:
     or any endpoint entry.
     `ACT.X-Scale` supplies the scale-small restart seed from retained smooth
     center-ball regularity on the retained branch. On the averaged branch, the
-    seed is the `X_R(s_a)` component of `SCF_avg`, not point-center smoothness.
+    seed is the `X_R(s_a)` component of `SCF_avg^m`, not point-center smoothness.
     `RWS.C_cover` supplies the dynamic same-fluid
     cover from compact retained label tubes and the pack gauge. `RWS.C_scale` is
     the finite-cover readout bridge that recovers fixed-radius readouts from small-radius restarted packets; it
@@ -1009,8 +1009,8 @@ obligations:
     not an unconditional energy result; the retained native forcing certificate is
     `RSCB.NKF`, which supplies the retained smooth center-ball route
     `NKF.Moll + NKF.Point => NKF.Native`, together with the scheduler budgets.
-    The finite-energy-native route must instead prove smallness or scheduler
-    integrability of `SCF_avg` from allowed global inputs, then feed the
+    The finite-energy-native route must instead combine the finite-energy
+    `SCF_base` supply with `ATD_m` to form `SCF_avg^m`, then feed the
     averaged receiver bridge `AVG.RCV.A` instead of forcing pointwise recovery.
     `ACT.X-Scale` and `RWS.C_scale` are installed conditional bridges, not
     fixed-radius smallness claims.

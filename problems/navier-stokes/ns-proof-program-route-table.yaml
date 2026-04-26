@@ -395,7 +395,7 @@ closure_ecology:
         smallness variable, and a full-strip retained-branch proof needs
         ACT.X-Scale at each retained restart, ACT.KX, and RWS.C_scale to recover
         fixed-radius readouts, not just a retained-window partition. On the
-        averaged branch, the restart seed is the X_R(s_a) component of SCF_avg,
+        averaged branch, the restart seed is the X_R(s_a) component of SCF_avg^m,
         not point-center retained smoothness.
       act_x_atom_split: >-
         ACT.X-Def separates the small affine excess X_exc from the full readout

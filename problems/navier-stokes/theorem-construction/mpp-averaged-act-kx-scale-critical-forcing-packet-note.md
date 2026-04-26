@@ -49,10 +49,13 @@ proved upstream. It is not a proof of point pressure-center forcing from finite
 energy, bounded pack gauge, same-fluid geometry, and the pressure Poisson
 structure alone.
 
-The finite-energy-native repair target is instead the averaged packet route:
+The finite-energy-native repair target is instead the sharpened averaged
+packet route:
 
 ```math
-SCF_{\mathrm{avg}}
+SCF_{\mathrm{base}}+ATD_m
+\Longrightarrow
+SCF_{\mathrm{avg}}^m
 \Longrightarrow
 AACT.KX
 \Longrightarrow
@@ -62,7 +65,7 @@ DTC.A_{\mathrm{avg}}.
 This route does not recover the old pointwise `DTC.A` until the separate
 `DTC.Read` theorem is proved, and it does not recover old `CFI.A` until
 `Field.Read` or `CM.Read` is proved. No proof may spend `DTC.A`, `LCI.A`,
-`CSP.A`, `OFP.A`, `Field`, or endpoint exclusion to obtain `SCF_avg`,
+`CSP.A`, `OFP.A`, `Field`, or endpoint exclusion to obtain `SCF_avg^m`,
 `AACT.KX`, or `DTC.A_avg`.
 
 ## Geometry and Averaged Modes
@@ -157,7 +160,7 @@ and `F_R` is the averaged viscous, top-rung, and moving-cutoff source packet
 obtained by testing the equations against the transported mollifiers.
 
 The old `ACT.X-Scale` seed is replaced on this branch by the first component
-`X_R(s_a)` inside `SCF_avg`. This supplies an averaged scale seed. It is not a
+`X_R(s_a)` inside `SCF_avg^m`. This supplies an averaged scale seed. It is not a
 pointwise retained-smoothness seed and it does not assert fixed-radius
 smallness.
 
@@ -166,7 +169,7 @@ smallness.
 Assume
 
 ```math
-SCF_{\mathrm{avg}}(R,I_R)\le \varepsilon_\ast
+SCF_{\mathrm{avg}}^m(R,I_R)\le \varepsilon_\ast
 ```
 
 and the scheduler bound
@@ -298,7 +301,7 @@ F_R.
 ```
 
 Choose `\varepsilon_\ast` and `\eta_X` so that on the first-exit interval
-`X_R\le 4\eta_X` and `SCF_avg\le\varepsilon_\ast`,
+`X_R\le 4\eta_X` and `SCF_avg^m\le\varepsilon_\ast`,
 
 ```math
 C_\ast
@@ -982,7 +985,7 @@ DTC.A_avg cannot be cited as DTC.A before DTC.Read is proved.
 
 ```text
 RSCB.NKF, NKF.Point, and point pressure-center smoothness are not inputs to
-SCF_avg or AACT.KX.
+SCF_avg^m or AACT.KX.
 ```
 
 3. No endpoint circularity:
@@ -1013,6 +1016,8 @@ finite-energy-native route now has a different live theorem target:
 
 ```math
 SCF_{\mathrm{base}}+ATD_m
+\Longrightarrow
+SCF_{\mathrm{avg}}^m
 \Longrightarrow
 AACT.KX
 \Longrightarrow

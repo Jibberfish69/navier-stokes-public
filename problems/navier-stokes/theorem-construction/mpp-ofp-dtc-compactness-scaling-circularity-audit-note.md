@@ -362,7 +362,7 @@ DTC.A.
 \tag{ODC.15h}
 ```
 
-Thus `DTC.A` cannot be spent inside the proof of `SCF_avg`, `AACT.KX`, or
+Thus `DTC.A` cannot be spent inside the proof of `SCF_avg^m`, `AACT.KX`, or
 `DTC.A_avg`. Likewise `DTC.A_avg` cannot feed the endpoint tower packet as
 pointwise `DTC.A` until `DTC.Read` is proved.
 
@@ -403,9 +403,10 @@ The corresponding direct audit gate is:
 ```math
 \boxed{
 \text{allowed global inputs}
+SCF_{\mathrm{base}}+ATD_m
 \Longrightarrow
-SCF_{\mathrm{avg}}\le\varepsilon_\ast
-\text{ or an equivalent scheduler-integrable }SCF_{\mathrm{avg}}
+SCF_{\mathrm{avg}}^m
+\text{ with the required scheduler-integrable tower packet}
 }
 \tag{ODC.15i}
 ```
@@ -474,7 +475,7 @@ DTC.A_{\mathrm{avg}}
 
 ```math
 RSCB.NKF,\ NKF.Point,\text{ or point pressure-center smoothness}
-\text{ is used inside the finite-energy-native }SCF_{\mathrm{avg}}\text{ route.}
+\text{ is used inside the finite-energy-native }SCF_{\mathrm{avg}}^m\text{ route.}
 \tag{ODC.20b}
 ```
 
