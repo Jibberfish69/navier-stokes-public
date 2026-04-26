@@ -31,7 +31,7 @@ object_law_refoundation:
   theorem_queue:
     - "record `ORIGIN.Retain` as installed: original maximal-solution/class-membership setup supplies retained-window hypotheses on compact classical intervals and endpoint persistence follows from `CFI.A+End_NS`"
     - "paperize the retained receiver spine as `RSCB.NKF => ACT.A => RCF.A => LCI.A`, with `NKF.Native`, `ACT.KX-Boot`, and `RWS.C_scale` kept as internal retained-window mechanisms"
-    - "paperize the finite-energy-native receiver replacement as `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg`, with finite energy supplying only `SCF_base`, `ATD_m^epsilon` as the local epsilon-regularity tower supplier, `CAVG.J` folding nonempty `B_epsilon^Phi` directly into `Jump_avg`, `DTC.Read` parked for pointwise endpoint/tower readout, and `Field.Read` / `CM.Read` required before old `CFI.A`"
+    - "paperize the finite-energy-native receiver replacement as `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg`, with finite energy supplying only `SCF_base`, `ATD_m^epsilon` as the local epsilon-regularity tower supplier, `AVG.COVER.A := SGC.A_a.e + ATD_m^epsilon + CAVG.J => full same-fluid tail coverage`, `CAVG.J` folding nonempty `B_epsilon^Phi` directly into `Jump_avg`, `DTC.Read` parked for pointwise endpoint/tower readout, and `Field.Read` / `CM.Read` required before old `CFI.A`"
     - "keep the source side post-`LCI.A`: `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`"
     - "paperize the retained endpoint spine as `DTC-to-TowerBound + END.Exh + END.Cross => End_NS`, with `END.Pack` and `END.Field` as installed certificate exclusions"
     - "paperize the averaged endpoint spine as `CFI.A_avg + AVG.END.Cert => End_NS_avg`, with `END.Exh_avg` returning to the four faces `Dead | packing-detached | tower-blown_avg | Jump_avg`, `CAVG.J := B_epsilon^Phi nonempty => Jump_avg`, `END.Cross_avg` locked, `READ.END := End_NS_avg + Field.Read + DTC.Read => End_NS`, and `SGC.A_strong` parked off the main line as regularity-equivalent"
@@ -49,7 +49,7 @@ live_theorem_edge:
     forcing certificate and runs
     `RSCB.NKF => NKF.Native => ACT.KX => ACT.X-Readout => ACT.A => RCF.A => LCI.A`.
     The finite-energy-native replacement targets
-    `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg`, with nonempty `B_epsilon^Phi => Jump_avg` handled by `CAVG.J`.
+    `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg`, with `AVG.COVER.A` covering every same-fluid approach tail: good material region gives averaged propagation and nonempty `B_epsilon^Phi` gives `Jump_avg` by `CAVG.J`.
     `DTC.Read` stays parked for pointwise endpoint/tower readout, and
     `Field.Read` / `CM.Read` is required before old `CFI.A`. Retained source closure is the post-`LCI.A`
     frozen-family packet `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, with cutoff
@@ -1041,7 +1041,7 @@ obligations:
     finite-energy far tails, and viscous integration by parts, then recover
     point-center forcing by retained smoothness at the restart scale.
     On the averaged branch this point-center sentence is replaced by
-    `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi => K_{\le m}^{avg,R} in L1 => AVG.RCV.A => LCI.A_avg`, with nonempty `B_epsilon^Phi => Jump_avg` handled by `CAVG.J`.
+    `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi => K_{\le m}^{avg,R} in L1 => AVG.RCV.A => LCI.A_avg`, with `AVG.COVER.A` covering every same-fluid approach tail: good material region gives averaged propagation and nonempty `B_epsilon^Phi` gives `Jump_avg` by `CAVG.J`.
     Pressure is split into the in-bootstrap normal-form estimates and the
     post-`ACT.KX` `ACT.X-Press_cell` readout. The cell form supplies the
     residual pressure-cell ledger behind `ACT.Kcore`: the
