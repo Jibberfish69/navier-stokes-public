@@ -453,9 +453,10 @@ closure_ecology:
         NKF.Moll + NKF.Point => NKF.Native, together with the scheduler budgets;
         source-channel and endpoint blocks remain separate. Finite-energy-native
         branch: SCF_avg => AACT.KX => DTC.A_avg => AVG.RCV.A => LCI.A_avg =>
-        CSP.A_avg => OFP.A_avg => CFI.A_avg. DTC.Read is required before
-        pointwise DTC.A or endpoint tower readout; Field.Read or CM.Read is
-        required before old CFI.A.
+        CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg. DTC.Read is required
+        before pointwise DTC.A or endpoint tower readout; Field.Read or CM.Read is
+        required before old CFI.A; READ.END is required before old End_NS. The
+        next hard averaged endpoint theorem is END.Exh_avg.
       audit_correction: >-
         DTR.A is only a supplier theorem. Bare TW_ctr supplies residual
         pressure/top-viscous forcing; the strong closure needs TW_ctr^aff,

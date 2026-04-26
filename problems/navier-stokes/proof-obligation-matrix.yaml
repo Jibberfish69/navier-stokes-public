@@ -33,7 +33,8 @@ object_law_refoundation:
     - "paperize the retained receiver spine as `RSCB.NKF => ACT.A => RCF.A => LCI.A`, with `NKF.Native`, `ACT.KX-Boot`, and `RWS.C_scale` kept as internal retained-window mechanisms"
     - "paperize the finite-energy-native receiver replacement as `SCF_avg => AACT.KX => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg`, with `DTC.Read` parked for pointwise endpoint/tower readout and `Field.Read` / `CM.Read` required before old `CFI.A`"
     - "keep the source side post-`LCI.A`: `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`"
-    - "paperize the endpoint spine as `DTC-to-TowerBound + END.Exh + END.Cross => End_NS`, with `END.Pack` and `END.Field` as installed certificate exclusions"
+    - "paperize the retained endpoint spine as `DTC-to-TowerBound + END.Exh + END.Cross => End_NS`, with `END.Pack` and `END.Field` as installed certificate exclusions"
+    - "paperize the averaged endpoint spine as `CFI.A_avg + AVG.END.Cert => End_NS_avg`, with `READ.END := End_NS_avg + Field.Read + DTC.Read => End_NS` and `END.Exh_avg` as the next hard theorem"
     - "paperize the terminal spine as `CFI.A + End_NS => no finite-time class exit`"
     - "preserve the boundary: retained-window receiver hypotheses, bounded pack gauge, finite required parameter set, post-`LCI.A` source closure, and accepted endpoint certificate maps"
     - "keep TPS / SG.4, exact-potential, Hodge / normal-covector, and Euclidean strict-shadow quarantined as downstream context only"
@@ -55,8 +56,11 @@ live_theorem_edge:
     absorption, strain/cascade low-carrier control, and pressure
     low-high/high-low plus resonant/far-tail control. Retained one-field assembly then
     runs `LCI.A+FCI.5f => CSP.A => OFP.A => CFI.A`; averaged assembly runs
-    `LCI.A_avg+FCI.5f => CSP.A_avg => OFP.A_avg => CFI.A_avg`. Endpoint closure runs
-    `DTC-to-TowerBound + END.Exh + END.Cross + END.Pack + END.Field => End_NS`.
+    `LCI.A_avg+FCI.5f => CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg`.
+    Retained endpoint closure runs
+    `DTC-to-TowerBound + END.Exh + END.Cross + END.Pack + END.Field => End_NS`;
+    averaged endpoint closure runs `CFI.A_avg+AVG.END.Cert => End_NS_avg`,
+    with `READ.END := End_NS_avg+Field.Read+DTC.Read => End_NS`.
     The two-lane
     terminal closure packet is now recorded as endpoint
     analytic readout (`DTC-to-TowerBound`) plus source channels

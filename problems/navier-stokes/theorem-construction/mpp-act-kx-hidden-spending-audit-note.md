@@ -102,6 +102,7 @@ SCF_avg
 => CSP.A_avg
 => OFP.A_avg
 => CFI.A_avg
+=> End_NS_avg
 
 DTC.Read:
 DTC.A_avg => DTC.A
@@ -109,11 +110,15 @@ DTC.A_avg => DTC.A
 Field.Read / CM.Read:
 Field_avg => Field
 CM_avg => CM
+
+READ.END:
+End_NS_avg + Field.Read + DTC.Read => End_NS
 ```
 
 `DTC.A_avg` must remain typed as averaged data until `DTC.Read` is proved.
 `CFI.A_avg` must remain typed as averaged class membership until `Field.Read`
-or `CM.Read` is proved.
+or `CM.Read` is proved. `End_NS_avg` must remain typed as averaged endpoint
+exclusion until `READ.END` is proved.
 
 ## Global Non-Spending Rule
 

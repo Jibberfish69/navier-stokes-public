@@ -345,7 +345,9 @@ CSP.A_{\mathrm{avg}}
 \Longrightarrow
 OFP.A_{\mathrm{avg}}
 \Longrightarrow
-CFI.A_{\mathrm{avg}}.
+CFI.A_{\mathrm{avg}}
+\Longrightarrow
+End_{NS,\mathrm{avg}}.
 \tag{ODC.15g}
 ```
 
@@ -383,6 +385,17 @@ Field.Read:\ Field_{\mathrm{avg}}\Longrightarrow Field
 \qquad
 CM.Read:\ CM_{\mathrm{avg}}\Longrightarrow CM.
 \tag{ODC.15h2}
+```
+
+Old `End_NS` is recovered only after
+
+```math
+READ.END:
+\qquad
+End_{NS,\mathrm{avg}}+Field.Read+DTC.Read
+\Longrightarrow
+End_{NS}.
+\tag{ODC.15h3}
 ```
 
 The corresponding direct audit gate is:
@@ -474,6 +487,15 @@ CFI.A_{\mathrm{avg}}
 \tag{ODC.20c}
 ```
 
+9. Averaged endpoint readback failure:
+
+```math
+End_{NS,\mathrm{avg}}
+\text{ is treated as old }End_{NS}
+\text{ before }READ.END\text{ is proved.}
+\tag{ODC.20d}
+```
+
 ## Route Position
 
 This audit supports the current judgment that the route is structurally serious
@@ -492,7 +514,8 @@ finite-energy-native receiver target:
 The retained pointwise assembly remains available only on the retained-smooth
 branch. The finite-energy-native assembly must carry `DTC.A_avg` until
 `DTC.Read` is separately proved, and must carry `CFI.A_avg` until
-`Field.Read` or `CM.Read` is separately proved.
+`Field.Read` or `CM.Read` is separately proved. It must carry `End_NS_avg`
+until `READ.END` is separately proved.
 
 ## Conditional Unified-Survivor Packet Interface
 
@@ -558,9 +581,13 @@ CSP.A_{\mathrm{avg}}
 \Longrightarrow
 OFP.A_{\mathrm{avg}}
 \Longrightarrow
-CFI.A_{\mathrm{avg}},
+CFI.A_{\mathrm{avg}}
+\Longrightarrow
+End_{NS,\mathrm{avg}},
 \tag{ODC.25}
 ```
 
 not by pointwise `DTC.A` unless `DTC.Read` is present, and not by old `CFI.A`
-unless `Field.Read` or `CM.Read` is present.
+unless `Field.Read` or `CM.Read` is present. The next hard averaged endpoint
+cell is `END.Exh_avg`, since it supplies the endpoint grammar for averaged
+class failure.
