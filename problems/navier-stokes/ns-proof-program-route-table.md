@@ -276,7 +276,8 @@ Averaged-branch routing:
   DTC.Read is required before DTC.A or endpoint tower readout.
   Field.Read or CM.Read is required before old CFI.A.
   READ.END: End_NS_avg + Field.Read + DTC.Read => End_NS.
-  Next hard averaged endpoint theorem: END.Exh_avg.
+  END.Exh_avg and END.Cross_avg are locked endpoint cells.
+  Remaining hard branch: SCF_avg supply into AACT.KX.
 
 A_buf^ctr:
   contains the m+1 and m+2 readout/top-viscous buffer modes.

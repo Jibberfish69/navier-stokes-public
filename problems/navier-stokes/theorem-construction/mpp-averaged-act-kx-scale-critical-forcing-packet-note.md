@@ -759,14 +759,31 @@ End_{NS}.
 ```
 
 `Field.Read` feeds `END.Field` and `END.Exh`; `DTC.Read` feeds
-`END.TowerAmp`. The next hard theorem is therefore
+`END.TowerAmp`. With `END.Exh_avg`, `END.Cross_avg`, and `AVG.END.A` now
+theorem-facing endpoint cells, the remaining branches are
 
 ```math
-\boxed{END.Exh_{\mathrm{avg}}}
+\boxed{
+READ.END:
+End_{NS,\mathrm{avg}}+Field.Read+DTC.Read
+\Longrightarrow
+End_{NS}
+}
 ```
 
-because it determines whether averaged class failure has a complete endpoint
-grammar.
+and the deeper analytic supply branch
+
+```math
+\boxed{
+SCF_{\mathrm{avg}}\text{ supply}
+\Longrightarrow
+AACT.KX
+\Longrightarrow
+AVG.RCV.A
+\Longrightarrow
+AVG.END.A.
+}
+```
 
 ## Supply Wall
 

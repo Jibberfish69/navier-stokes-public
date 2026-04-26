@@ -197,10 +197,62 @@ Thus every endpoint face supplied by `(EST.A2)` is excluded by `(EST.4)`. Theref
 Define the averaged class-membership witness by
 
 ```math
-CM_{\mathrm{avg}}
+CM_{\mathrm{avg},N,R,Q}
 =
-Pack\wedge Part\wedge Field_{\mathrm{avg}}.
+Pack_Q\wedge Part_{N,Q}\wedge Field_{\mathrm{avg},N,R,Q}.
 \tag{EST.Aavg1}
+```
+
+The averaged one-field coherence row means that there is a positive scale
+`R>0` and a finite same-fluid moving cover of `Q` such that the averaged
+finite-difference / affine-excess / pressure-normalized coherence packet
+propagated by
+
+```math
+LCI.A_{\mathrm{avg}}
+\Longrightarrow
+CSP.A_{\mathrm{avg}}
+\Longrightarrow
+OFP.A_{\mathrm{avg}}
+```
+
+is finite on that cover:
+
+```math
+\mathcal C^{avg}_{N,R,Q}(I)<\infty.
+\tag{EST.Aavg1a}
+```
+
+The averaged jump face is loss of every positive averaged coherence scale:
+
+```math
+Jump_{\mathrm{avg}}
+\quad\Longleftrightarrow\quad
+\forall R>0,\
+Field_{\mathrm{avg},N,R,Q}
+\text{ fails on the same-fluid tail.}
+\tag{EST.Aavg1b}
+```
+
+The averaged tower-blown face is escape of the averaged tower packet:
+
+```math
+tower\text{-}blown_{\mathrm{avg}}
+\quad\Longleftrightarrow\quad
+\forall M<\infty,\ \exists t\in I:
+\mathfrak A^{avg}_{N,Q}(t)>M.
+\tag{EST.Aavg1c}
+```
+
+The `Dead` and `packing-detached` faces keep their retained meanings:
+
+```math
+Dead:=\neg Part_{N,Q},
+\qquad
+packing\text{-}detached:=
+\Gamma_{\mathrm{pack},Q}
+\text{ escapes every finite bound.}
+\tag{EST.Aavg1d}
 ```
 
 Define the averaged endpoint package by
@@ -220,7 +272,7 @@ END.Exh_{\mathrm{avg}}.
 \tag{EST.Aavg2}
 ```
 
-Here
+The native averaged field and tower faces are
 
 ```math
 END.Field_{\mathrm{avg}}:
@@ -240,10 +292,12 @@ END.TowerBound_{\mathrm{avg}}:
 \tag{EST.Aavg4}
 ```
 
+The averaged endpoint exhaustiveness theorem is
+
 ```math
+\boxed{
 END.Exh_{\mathrm{avg}}:
-\qquad
-\neg CM_{\mathrm{avg}}
+\neg CM_{\mathrm{avg},N,R,Q}
 \Longrightarrow
 Dead
 \vee
@@ -251,19 +305,109 @@ packing\text{-}detached
 \vee
 tower\text{-}blown_{\mathrm{avg}}
 \vee
-Jump_{\mathrm{avg}},
+Jump_{\mathrm{avg}}.
+}
 \tag{EST.Aavg5}
 ```
 
-and
+Proof. Since
 
 ```math
+CM_{\mathrm{avg}}
+=
+Pack\wedge Part\wedge Field_{\mathrm{avg}},
+```
+
+failure of `CM_avg` is failure of at least one factor. Failure of `Part`
+is `Dead`. Failure of `Field_avg` at every positive averaged coherence scale
+is `Jump_avg`. Failure of `Pack` is routed through the averaged pack/tower
+certificate split
+
+```math
+\neg Pack
+\Longrightarrow
+packing\text{-}detached
+\vee
+tower\text{-}blown_{\mathrm{avg}}.
+\tag{EST.Aavg5a}
+```
+
+Combining these cases proves `END.Exh_avg`. ∎
+
+Define the averaged blown gauge by
+
+```math
+\mathfrak B^{avg}_{N,Q}(t)
+=
+\Gamma_{\mathrm{pack},Q}(t)
++
+\mathfrak A^{avg}_{N,Q}(t).
+\tag{EST.Aavg5b}
+```
+
+The averaged cross theorem is
+
+```math
+\boxed{
 END.Cross_{\mathrm{avg}}:
-\qquad
-\text{cross entries reduce to }(Part,Dead),\ END.Pack,\ END.Field_{\mathrm{avg}},\
-END.TowerBound_{\mathrm{avg}}.
+\text{every averaged cross-entry reduces to }
+(Part,Dead),\ END.Pack,\ END.TowerBound_{\mathrm{avg}},\ END.Field_{\mathrm{avg}}.
+}
 \tag{EST.Aavg6}
 ```
+
+Proof. A dead cross-entry carries participation failure, hence reduces to the
+installed native row
+
+```math
+Dead_\times\Longrightarrow(Part,Dead).
+\tag{EST.Aavg6a}
+```
+
+A blown cross-entry is escape of `\mathfrak B^{avg}_{N,Q}`. Escape of this sum
+forces escape of at least one summand:
+
+```math
+Blown_\times
+\Longrightarrow
+\Gamma_{\mathrm{pack},Q}\text{ escapes}
+\vee
+\mathfrak A^{avg}_{N,Q}\text{ escapes},
+```
+
+so
+
+```math
+Blown_\times
+\Longrightarrow
+packing\text{-}detached
+\vee
+tower\text{-}blown_{\mathrm{avg}}.
+\tag{EST.Aavg6b}
+```
+
+A jump cross-entry is a surviving one-field failure while the same-fluid
+carrier remains under the `Pack` and `Part` rows. In the averaged grammar the
+field row is `Field_avg`, so
+
+```math
+Jump_\times
+\Longrightarrow
+Jump_{\mathrm{avg}},
+\tag{EST.Aavg6c}
+```
+
+equivalently
+
+```math
+Jump_\times
+\Longrightarrow
+Field_{\mathrm{avg}}\text{-coherence fracture}.
+\tag{EST.Aavg6d}
+```
+
+Thus every averaged cross-entry reduces to the displayed native averaged
+endpoint rows. ∎
 
 Let
 
@@ -377,15 +521,32 @@ End_{NS}.
 \tag{EST.Aread7}
 ```
 
-The next hard averaged endpoint theorem is
+After `AVG.END.A`, the remaining branches are
 
 ```math
-\boxed{END.Exh_{\mathrm{avg}}}
+\boxed{
+READ.END:
+End_{NS,\mathrm{avg}}+Field.Read+DTC.Read
+\Longrightarrow
+End_{NS}
+}
 \tag{EST.Aread8}
 ```
 
-because it determines whether averaged class failure has a complete endpoint
-grammar.
+and the deeper analytic branch
+
+```math
+\boxed{
+SCF_{\mathrm{avg}}\text{ supply}
+\Longrightarrow
+AACT.KX
+\Longrightarrow
+AVG.RCV.A
+\Longrightarrow
+AVG.END.A.
+}
+\tag{EST.Aread9}
+```
 
 ## Theorem B: Source conditional assembly
 
