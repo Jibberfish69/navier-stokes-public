@@ -176,5 +176,9 @@ The further reduction in
 shows that the packet factor `A_J` is already controlled by the installed
 `PSJ+.1` packet design, so this stronger route really reduces to a radius-gap
 budget, and under a fixed gap floor plus finite active measure to a uniform
-shrinking-radius theorem. That remains a stronger sufficient realization, not
-the installed minimal live theorem statement.
+shrinking-radius theorem. That remains a stronger sufficient realization of the
+fine exact-geometry route, not the installed minimal live overlap statement.
+The live branch audit
+[psj-plus-1-overlap-live-frontier-branch-audit.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/psj-plus-1-overlap-live-frontier-branch-audit.md)
+keeps this radius-gap route as a sufficient continuation and prefers the coarse
+scalar retained-cover counting endpoint as the narrower current frontier.

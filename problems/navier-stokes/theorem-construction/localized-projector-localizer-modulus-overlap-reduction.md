@@ -232,6 +232,16 @@ The sharper split in
 shows that on the installed localized-projector packet this endpoint sharpens
 once more: the only genuinely new coarse-route wall is the overlapwise
 summability theorem.
+The endpoint sharpening in
+[localized-projector-coarse-route-collapses-to-one-retained-cover-counting-theorem.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/localized-projector-coarse-route-collapses-to-one-retained-cover-counting-theorem.md)
+then records the exact coarse normalized-kernel specialization: the only
+genuinely new theorem content is the scalar retained-cover counting law
+`\sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)`.
+The live branch audit
+[psj-plus-1-overlap-live-frontier-branch-audit.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/psj-plus-1-overlap-live-frontier-branch-audit.md)
+therefore prefers that coarse scalar endpoint as the minimal `PSJ+.1` overlap
+frontier, while retaining the present localizer-modulus theorem as the fine
+exact-geometry sibling branch.
 
 The stronger sufficient design note
 [compact-support-localizer-shrinking-radius-implies-center-spacing.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/compact-support-localizer-shrinking-radius-implies-center-spacing.md)

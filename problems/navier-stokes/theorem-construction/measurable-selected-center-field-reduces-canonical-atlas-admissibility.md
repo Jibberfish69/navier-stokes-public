@@ -138,8 +138,8 @@ directly.
 
 Equivalently:
 
-1. the honest default route is still one localizer-modulus theorem, or under
-   Lipschitz localizers one weighted center-spacing theorem;
+1. the fine exact-geometry route is still one localizer-modulus theorem, or
+   under Lipschitz localizers one weighted center-spacing theorem;
 2. the stronger canonical-center route collapses to the same weighted
    center-spacing theorem when the center field is chosen by measurable
    selection from the local window family.
@@ -148,3 +148,10 @@ The further stronger sufficient design note
 [compact-support-localizer-shrinking-radius-implies-center-spacing.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/compact-support-localizer-shrinking-radius-implies-center-spacing.md)
 then collapses both routes to the same weighted small-radius budget when the
 localizer is chosen compactly supported and Lipschitz at scale `r_J`.
+
+The branch audit
+[psj-plus-1-overlap-live-frontier-branch-audit.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/psj-plus-1-overlap-live-frontier-branch-audit.md)
+records the live-frontier decision after comparing this fine route with the
+coarse normalized-kernel route: the preferred minimal overlap endpoint is the
+scalar retained-cover counting law, while this note remains the fine
+exact-geometry sibling branch.
