@@ -268,7 +268,8 @@ Retained-branch routing:
   ACT.KX + ACT.X-Scale + RWS.C_scale => ACT.X-Readout => ACT.A.
 
 Averaged-branch routing:
-  SCF_base + ATD_m => SCF_avg^m => AACT.KX.
+  SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi.
+  Concentration_avg => Jump_avg closes the bad-set complement.
   AACT.KX + RWS.C_scale => DTC.A_avg.
   DTC.A_avg => AVG.RCV.A => LCI.A_avg.
   LCI.A_avg + FCI.5f => CSP.A_avg => OFP.A_avg => CFI.A_avg.
@@ -277,7 +278,8 @@ Averaged-branch routing:
   Field.Read or CM.Read is required before old CFI.A.
   READ.END: End_NS_avg + Field.Read + DTC.Read => End_NS.
   END.Exh_avg and END.Cross_avg are locked endpoint cells.
-  Remaining hard branch: ATD_m theorem.
+  SGC.A_strong is off the main line as regularity-equivalent.
+  Remaining cover logic: SGC.A_a.e on the good complement plus CAVG.J for concentration.
 
 A_buf^ctr:
   contains the m+1 and m+2 readout/top-viscous buffer modes.
@@ -320,9 +322,9 @@ ACT.KX + ACT.X-Scale + RWS.C_scale
 Compact averaged replacement chain:
 
 ```text
-SCF_base + ATD_m
+SCF_base + SGC.A_a.e + ATD_m^epsilon
 => SCF_avg^m
-=> AACT.KX
+=> AACT.KX off B_epsilon^Phi
 => X_R in Linfty + N_R in L1 + K_le_m^{avg,R} in L1
 => DTC.A_avg
 => AVG.RCV.A
@@ -363,16 +365,20 @@ energy result. The retained native forcing certificate is `RSCB.NKF`, which
 supplies the retained smooth forcing route
 `NKF.Moll + NKF.Point => NKF.Native`, together with the scheduler budgets;
 source-channel and endpoint blocks remain separate. The finite-energy-native
-route must instead combine the energy-level `SCF_base` supply with `ATD_m` to
-form `SCF_avg^m`, then use
+route must instead combine the energy-level `SCF_base` supply, the a.e.
+same-fluid good-cylinder cover `SGC.A_a.e`, and the local epsilon-regularity
+tower supplier `ATD_m^epsilon` to form `SCF_avg^m` off
+`\mathcal B_{\varepsilon_m}^{\Phi}`, then use
 `AVG.RCV.A` to reach `LCI.A_avg` and carry the averaged downstream chain
 `CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg`. `DTC.Read` is parked for
 endpoint/tower pointwise recovery; old `CFI.A` additionally needs `Field.Read`
 or `CM.Read`, and old `End_NS` is recovered only through `READ.END`.
 
-Finite energy supplies only `SCF_base` at good material restarts. The full
-`AACT.KX` input is `SCF_avg^m := SCF_base + ATD_m`; the unsupplied analytic
-wall is `ATD_m`, the averaged tower-density theorem through depth `m+2`.
+Finite energy supplies only `SCF_base` at good material restarts. The local
+epsilon-regularity theorem `ATD_m^epsilon` upgrades small `SCF_base` cylinders
+to tower-density packets on smaller cylinders. A full strong good-cylinder
+cover is regularity-equivalent and is not on the main line; the bad set is
+routed as `Concentration_avg` and reduced by `CAVG.J => Jump_avg`.
 
 ## Exploratory Or Parked Branches
 

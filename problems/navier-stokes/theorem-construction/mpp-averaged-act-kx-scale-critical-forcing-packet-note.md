@@ -786,17 +786,20 @@ End_{NS}
 
 and the deeper analytic supply branch
 
-```math
-\boxed{
-SCF_{\mathrm{base}}+ATD_m
-\Longrightarrow
-AACT.KX
-\Longrightarrow
-AVG.RCV.A
-\Longrightarrow
-AVG.END.A.
-}
-```
+	```math
+	\boxed{
+	SCF_{\mathrm{base}}
+	+
+	SGC.A_{\mathrm{a.e.}}
+	+
+	ATD_m^\varepsilon
+	\Longrightarrow
+	AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi},
+	\qquad
+	CAVG.J:
+	Concentration_{\mathrm{avg}}\Longrightarrow Jump_{\mathrm{avg}}.
+	}
+	```
 
 ## Supply Wall
 
@@ -904,14 +907,82 @@ SCF_{\mathrm{avg}}\le\varepsilon_\ast
 
 is too strong.
 
-The required extra input is
+The required local tower-density input is
 
 ```math
 \boxed{
-ATD_m:
-\text{averaged tower-density supply through depth }m+2.
+ATD_m^\varepsilon:
+SCF_{\mathrm{base}}\le\varepsilon_m
+\Longrightarrow
+ATD_m\text{ on a smaller same-fluid cylinder.}
 }
 ```
+
+More explicitly, let `(u,p)` be a suitable Navier-Stokes solution on a
+same-fluid moving cylinder `Q_R^\Phi(z_0)` with bounded pack gauge
+`\Gamma_\sharp\le M_\sharp`. If
+
+```math
+SCF_{\mathrm{base}}(Q_R^\Phi)
+:=
+R^{-2}\iint_{Q_R^\Phi}|u-u_R^{aff}|^3
++
+R^{-2}\iint_{Q_R^\Phi}|p-p_R^{aff}|^{3/2}
++
+R^{-1}\iint_{Q_R^\Phi}|\nabla u|^2
+\le \varepsilon_m,
+```
+
+then there is `\theta_m\in(0,1/2)` such that on
+`Q_{\theta_m R}^\Phi`
+
+```math
+X_{\theta R}(s_a)\le\eta_X,
+\qquad
+X_{\theta R}\in L^\infty(I_{\theta R}),
+\qquad
+N_{\theta R}\in L^1(I_{\theta R}),
+```
+
+```math
+\mathcal K_{\le m}^{avg,\theta R}\in L^1(I_{\theta R}),
+\qquad
+F_{\theta R}\in L^1(I_{\theta R}).
+```
+
+Proof sketch. Rescale to `R=1`. Bounded pack gauge changes constants only by
+`M_\sharp`, so the moving cylinder is equivalent to a fixed parabolic cylinder
+for local estimates. Choose `\varepsilon_m` below the CKN threshold. Interior
+epsilon-regularity gives smoothness on `Q_{1/2}`, and parabolic bootstrapping
+gives, for every `k\le m+2`,
+
+```math
+\sup_{Q_{1/2}}|\nabla^k u|
++
+\sup_{Q_{1/2}}|\nabla^{k+1}p|
+\le C_{m,M_\sharp,\nu}.
+```
+
+Scaling back,
+
+```math
+\sup_{Q_{R/2}^{\Phi}}
+R^{k+1}|\nabla^k u|
++
+R^{k+3}|\nabla^{k+1}p|
+\le C_m.
+```
+
+Taylor/Poincare on the smaller cylinder gives
+
+```math
+X_{\theta R}(s_a)\le C_m\theta^2.
+```
+
+Choose `\theta_m` so that `C_m\theta_m^2\le\eta_X`. The same derivative bounds
+give `X_{\theta R}\in L^\infty`, `N_{\theta R}\in L^1`, and the averaged
+pressure, viscous, top-rung, and moving-cutoff ledgers by testing the equations
+against transported mollifiers. Hence `ATD_m(Q_{\theta_m R}^\Phi)` holds.
 
 Define
 
@@ -959,7 +1030,7 @@ The valid supply theorem is therefore
 \boxed{
 SCF_{\mathrm{base}}
 +
-ATD_m
+ATD_m^\varepsilon
 \Longrightarrow
 SCF_{\mathrm{avg}}^m
 \Longrightarrow
@@ -967,19 +1038,50 @@ AACT.KX.
 }
 ```
 
-The live analytic obstruction is
+This is local. The bad material set is
+
+```math
+\mathcal B_{\varepsilon_m}^{\Phi}
+:=
+\left\{(a,t):
+\forall r>0,\ 
+SCF_{\mathrm{base}}(Q_r^\Phi(a,t))>\varepsilon_m
+\right\}.
+```
+
+Finite energy gives `|\mathcal B_{\varepsilon_m}^{\Phi}|=0` in material
+spacetime measure and finite SCF-good subcovers only on compact subsets of the
+good complement. The regularity-equivalent strong cover
+
+```math
+SGC.A_{\mathrm{strong}}:
+\mathcal B_{\varepsilon_m}^{\Phi}\cap Q^\Phi(I,A_\sharp)=\varnothing
+```
+
+is therefore off the main line. The energy-native cover theorem is instead
 
 ```math
 \boxed{
-ATD_m
+SGC.A_{\mathrm{a.e.}}:
+Q^\Phi(I,A_\sharp)\setminus\mathcal B_{\varepsilon_m}^{\Phi}
+\text{ admits finite SCF-good subcovers locally.}
 }
 ```
 
-not pressure Poisson and not base finite energy. It must derive the
-finite-depth averaged affine tower packet on same-fluid moving cylinders
-without point-center forcing and without `DTC.Read`. The two possible route
-families are parabolic smoothing / local energy gain, or scale-critical
-compactness / epsilon-regularity.
+and the bad set is handled by the averaged endpoint grammar:
+
+```math
+Concentration_{\mathrm{avg}}
+:=
+\mathcal B_{\varepsilon_m}^{\Phi}\cap Q^\Phi(I,A_\sharp)\ne\varnothing,
+\qquad
+CAVG.J:
+Concentration_{\mathrm{avg}}\Longrightarrow Jump_{\mathrm{avg}}.
+```
+
+Here `Jump_avg` is read as persistent failure of every positive SCF-good
+averaged one-field coherence scale on the same-fluid tail. With that definition,
+`CAVG.J` is a grammar-level reduction rather than a new regularity theorem.
 
 ## Non-Spending Gates
 
@@ -1025,11 +1127,15 @@ The retained route remains available as a conditional smooth branch. The
 finite-energy-native route now has a different live theorem target:
 
 ```math
-SCF_{\mathrm{base}}+ATD_m
+SCF_{\mathrm{base}}
+\Longrightarrow
+SGC.A_{\mathrm{a.e.}}
+,\qquad
+SCF_{\mathrm{base}}+ATD_m^\varepsilon
 \Longrightarrow
 SCF_{\mathrm{avg}}^m
 \Longrightarrow
-AACT.KX
+AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi}
 \Longrightarrow
 DTC.A_{\mathrm{avg}}
 \Longrightarrow
@@ -1045,6 +1151,10 @@ CFI.A_{\mathrm{avg}}
 \Longrightarrow
 AVG.END.A.
 ```
+
+The complement is not covered by `SGC.A_strong`; it is routed as
+`Concentration_avg` and discharged through `CAVG.J => Jump_avg` inside the
+averaged endpoint certificate.
 
 Only after `DTC.Read` can the old pointwise `DTC.A` and the endpoint
 `DTC-to-TowerBound` packet be invoked without changing their statements. Only
