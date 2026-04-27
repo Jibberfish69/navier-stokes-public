@@ -242,24 +242,84 @@ That is a proof-theorem statement, not yet a manifestation theorem.
 
 ## Exact Proof Program For The Pivot
 
-The pivot should therefore be attacked in this order:
+The narrowest honest target is the lower-carrier receiver, not the full collar
+packet at first. The pivot should therefore be recorded as the following
+theorem-facing subtarget.
 
-1. formulate the surviving positive coherence regime on the same still-live
-   family in the exact `Field^{\le C}` language already used by `MBR`;
-2. prove a converse bridge from that regime back to bounded next-rung collar /
-   segment control;
-3. sharpen that converse bridge until it recovers either the full collar packet
-   `\mathcal K_{N+1,m,\rho,\psi}^{\delta}` or the exact lower-carrier receiver
-   package now recorded under `LCI`;
-4. read the contrapositive as `jump` manifestation, not as a generic failure of
-   estimates.
+### Candidate Theorem `CJ.A_low` (Bounded one-field coherence recovers the lower-carrier receiver)
+
+Fix one same-fluid still-live family `\{Q_s\}_{s\in I}`, one interval `I`, one
+packet collar
+
+```math
+\mathcal C_{\rho,\psi}^{\delta,\vartheta}(t),
+\tag{CJ.9a}
+```
+
+and one finite transported cover of that collar. The cover labels, radii,
+multiplicity, and chain length must be fixed from pre-output data. No
+endpoint-dependent recentering and no refreshed cover chosen after the near-exit
+limit are allowed.
+
+Assume the surviving one-field hypothesis in the exact bounded-window form
+
+```math
+\forall s\in I,\qquad
+\mathrm{Field}^{\le C}_{N,\rho,Q_s}(u,p).
+\tag{CJ.9b}
+```
+
+Use retained `Part` only to discard the finite-difference tower-law half of
+`Field`. The usable content is the bounded neighboring-coherence estimate
+
+```math
+|\delta_h U_k(x,t)|+|\delta_h K_k(x,t)|
+\le C|h|
+\qquad
+(0\le k\le N,\ 0<|h|\le \rho).
+\tag{CJ.9c}
+```
+
+Assume also a pre-output source/bridge anchor on the same fixed transported
+cover, such as finite center values, seed values, or an initial lower-carrier
+packet strong enough to control the constant mode on every collar component.
+This anchor is indispensable: increment control alone does not control constant
+modes.
+
+Then prove the shell-supported lower-carrier receiver
+
+```math
+\Gamma^{low}_{N,m,\rho,\psi}(t)
+:=
+1+
+\sum_{q=0}^{m}
+\|U_q(\cdot,t)\|_{L^\infty(
+\mathcal C_{\rho,\psi}^{\delta,\vartheta}(t)
+)}
+\in L^1(I).
+\tag{CJ.9d}
+```
+
+This is the `LCI.A`-level converse target. Only after `(CJ.9d)` is obtained may
+the installed forward route be spent:
+
+```math
+LCI.A+FCI.5f
+\Longrightarrow
+CSP.A
+\Longrightarrow
+OFP.A
+\Longrightarrow
+CFI.A.
+\tag{CJ.9e}
+```
 
 So the real pivot debt is not “show collar failure means jump” in one leap. It
 is:
 
 ```math
 \boxed{
-\text{prove the coherence-to-collar converse supplier theorem.}
+\text{prove the bounded-Field-to-lower-carrier converse supplier theorem.}
 }
 \tag{CJ.9}
 ```
@@ -270,7 +330,8 @@ Until that converse exists, the operational attack order on this branch remains:
 2. route the packet-local closure through `LCI.A + FCI.5f \Rightarrow CSP.A`,
    with `EOC.Ca` as the exact transported-center oscillation consumer form of
    that collar theorem;
-3. only then revisit any jump-manifestation pivot.
+3. keep the contrapositive downstream, and only then revisit any
+   jump-manifestation pivot.
 
 ## Exact Obstruction
 
@@ -285,7 +346,23 @@ No theorem currently on disk runs in the converse direction
 
 The installed route only gives the forward supplier implication `(CJ.2)`. So
 the exact single missing object on this pivot line is the converse supplier
-theorem `(CJ.5)`.
+theorem `(CJ.5)`, sharpened first to the `CJ.A_low` target `(CJ.9d)`.
+
+Once `CJ.A_low` is proved, its contrapositive may be read only as:
+
+```math
+\text{source/bridge anchor installed}
+\;+\;
+\neg LCI.A
+\Longrightarrow
+\text{no uniform surviving }\mathrm{Field}^{\le C}\text{ regime.}
+\tag{CJ.10a}
+```
+
+Only after that consequence has been obtained may the endpoint vocabulary read
+the failure as one-field jump manifestation. Before `CJ.A_low`, collar or
+lower-carrier failure remains only blockage of the installed no-jump proof
+route.
 
 ## Boundary
 
