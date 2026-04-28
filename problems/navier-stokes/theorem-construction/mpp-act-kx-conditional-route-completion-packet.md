@@ -1178,8 +1178,21 @@ RSCB.NKF,\qquad ACT.X\text{-Scale},\qquad
 ACT.KX\text{-Boot},\qquad RWS.C_{\mathrm{scale}}.
 ```
 
-Moreover, if a first failure of retained-window hypotheses occurs at a finite
-class endpoint, that failure produces an endpoint certificate in
+Moreover, a first finite failure of retained-window hypotheses is endpoint
+captured only after it is reduced to one of the retained class faces:
+
+```math
+\neg Part_{N,Q},
+\qquad
+\neg Pack_Q,
+\qquad
+\neg Field_{N,r,Q},
+\qquad
+\mathfrak A_{N,Q}(t)\to\infty.
+```
+
+Under that reduction, the accepted endpoint certificate maps produce an
+endpoint certificate in
 
 ```math
 Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
@@ -1321,21 +1334,46 @@ DTC.A_{\mathfrak p}\quad(\mathfrak p\in\mathscr P_{\rm req}),
 ULCI(\mathscr P_{\rm req})\Longrightarrow LCI.A.
 ```
 
-The only endpoint issue is a first failure of retained-window admissibility as
-`t` approaches a finite class endpoint. If such a first failure occurs, then
-`\neg CM` holds. Since `CM=Pack\wedge Part\wedge Field`, the accepted
-certificate maps give
+It remains to spell out what is meant by endpoint capture. A retained-window
+failure cannot occur strictly inside a compact classical interval: the local
+smooth norms, positive tube radii, finite cover, bounded frame/pack gauge, and
+absolute-continuity scheduler budgets above persist after shrinking the window.
+Thus a finite failure can only be a failure to continue those retained
+structures at the class endpoint.
+
+This failure is not asserted to be a new primitive endpoint class. It must be
+typed through the installed retained class vocabulary. There are four possible
+typed failures:
+
+1. A loss of same-fluid participation/liveness is `\neg Part_{N,Q}`.
+2. A loss of retained packing or bounded pack gauge is `\neg Pack_Q`.
+3. A loss of every positive one-field coherence scale is `\neg Field_{N,r,Q}`.
+4. A loss of the finite tower/forcing readout while `Pack`, `Part`, and `Field`
+   remain meaningful is tower-amplitude escape,
+   `\mathfrak A_{N,Q}(t)\to\infty`, supplied to the endpoint matrix through
+   `DTC-to-TowerBound`.
+
+The first three are exactly the negation of
+
+```math
+CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+```
+
+The fourth is the separate mixed tower face already carried by
+`END.TowerAmp`. Therefore the accepted endpoint certificate maps give
 
 ```math
 Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
-`END.Pack` excludes `packing-detached` from the bounded pack gauge,
-`DTC-to-TowerBound` excludes `tower-blown`, the installed `(Part,Dead)` row
-excludes `Dead`, and `END.Field` excludes `Jump` once `OFP.A` is installed.
-Thus `End_NS` excludes every endpoint certificate. Therefore no first
-retained-window/class endpoint occurs at finite time once `CFI.A+End_NS` is
-installed.
+Here `\neg Part_{N,Q}` gives `Dead`; `\neg Pack_Q` gives the pack-side
+certificate split `packing-detached\vee tower-blown`; `\neg Field_{N,r,Q}`
+gives `Jump`; and tower-amplitude escape gives `tower-blown`. `END.Pack`
+excludes `packing-detached` from the bounded pack gauge, `DTC-to-TowerBound`
+excludes `tower-blown`, the installed `(Part,Dead)` row excludes `Dead`, and
+`END.Field` excludes `Jump` once `OFP.A` is installed. Thus `End_NS` excludes
+every endpoint certificate. Therefore no first retained-window/class endpoint
+occurs at finite time once `CFI.A+End_NS` is installed.
 
 This proves `ORIGIN.Retain`: the conditional retained-window route upgrades to
 the original-data route. `\square`
