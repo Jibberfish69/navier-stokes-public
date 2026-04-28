@@ -108,7 +108,7 @@ More exactly, the current route license is only:
 \tag{OFP.3a}
 ```
 
-No theorem currently on disk proves the converse bridge
+No unconditional theorem currently on disk proves the full converse bridge
 
 ```math
 \text{surviving one-field coherence regime}
@@ -117,10 +117,28 @@ No theorem currently on disk proves the converse bridge
 \tag{OFP.3b}
 ```
 
+The narrower conditional lower-carrier converse is now recorded in
+[mpp-collar-to-jump-pivot-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md):
+
+```math
+ACT.KX
++
+\mathrm{Field}^{\le C}\text{ on the synchronized fixed cover}
+\Longrightarrow
+\Gamma^{low}_{N,m,\rho,\psi}\in L^1(I).
+\tag{OFP.3b1}
+```
+
+Here `ACT.KX` supplies the raw anchored-center ledger, while
+`\mathrm{Field}^{\le C}` supplies only the fixed-cover oscillation. The cover
+labels are synchronized by `CJ.A_low.6`, so the anchor, `LCI` cover, and `Field`
+chains stay on one same-fluid family.
+
 So if the collar receiver branch stalls, the honest conclusion is that this
 installed no-jump proof route is blocked there. It is not yet licensed to read
-that blockage as jump manifestation. The exact converse-pivot theorem surface is
-[mpp-collar-to-jump-pivot-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md).
+that blockage as jump manifestation unless the hypotheses of the conditional
+converse above are actually installed and then contradicted. The exact
+converse-pivot theorem surface is the collar-to-jump note.
 
 The current compactness/scaling/circularity audit for the `OFP.A` seam with the
 direct transported-center package is recorded in

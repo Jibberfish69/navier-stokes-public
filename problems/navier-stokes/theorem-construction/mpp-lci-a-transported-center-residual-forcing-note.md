@@ -45,7 +45,7 @@ The installed route license is only:
 \tag{RCF.0a}
 ```
 
-No theorem currently on disk proves the converse bridge
+No theorem currently on disk proves the full converse bridge
 
 ```math
 \text{surviving one-field coherence regime}
@@ -53,6 +53,22 @@ No theorem currently on disk proves the converse bridge
 \text{imported transported-center package.}
 \tag{RCF.0b}
 ```
+
+The collar pivot now records a narrower conditional converse at lower-carrier
+strength:
+
+```math
+ACT.KX
++
+\mathrm{Field}^{\le C}\text{ on the synchronized fixed cover}
+\Longrightarrow
+\Gamma^{low}_{N,m,\rho,\psi}\in L^1(I).
+\tag{RCF.0c}
+```
+
+That statement uses `ACT.KX` only for the raw anchored-center ledger and uses
+`Field` only for fixed-cover oscillation. It does not prove the full imported
+transported-center package from `Field` alone.
 
 So failure to close `RCF.A` is a blockage of this current sufficient no-jump
 route, not yet a proof of jump manifestation. The exact converse-pivot surface

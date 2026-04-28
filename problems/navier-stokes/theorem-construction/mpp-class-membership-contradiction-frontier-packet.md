@@ -328,7 +328,7 @@ supplier direction:
 \text{surviving positive one-field coherence regime.}
 ```
 
-No theorem currently on disk proves the converse implication
+No unconditional theorem currently on disk proves the full converse implication
 
 ```math
 \text{surviving one-field coherence regime}
@@ -336,11 +336,27 @@ No theorem currently on disk proves the converse implication
 \text{collar packet / lower-carrier closure.}
 ```
 
+The collar pivot now records the narrower conditional lower-carrier converse:
+
+```math
+ACT.KX
++
+\mathrm{Field}^{\le C}\text{ on the synchronized fixed cover}
+\Longrightarrow
+\Gamma^{low}_{N,m,\rho,\psi}\in L^1(I).
+```
+
+This is not a proof that `Field` alone implies the full imported receiver
+package. It says the `ACT.KX` affine-center anchor plus fixed-cover one-field
+oscillation gives the `LCI.A`-level lower-carrier receiver, provided the `ACT`,
+`LCI`, and `Field` covers are the same parent transported cover.
+
 So the current `LCI/CSP` branch is a sufficient realization of the no-jump
 route, not yet a proved reduction of the full `Field` predicate. If `LCI.A` or
 `CSP.A` stalls, the honest conclusion is only that the installed no-jump proof
-route is blocked there; it is **not** yet jump manifestation. The exact pivot
-surface for that missing converse license is
+route is blocked there; it is **not** yet jump manifestation unless the
+conditional lower-carrier converse hypotheses have been installed and then
+contradicted. The exact pivot surface for that missing converse license is
 [mpp-collar-to-jump-pivot-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md).
 
 On the one-field packet branch, the local stretching gauge is no longer a third
