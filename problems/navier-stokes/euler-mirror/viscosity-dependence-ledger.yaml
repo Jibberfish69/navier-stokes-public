@@ -163,10 +163,10 @@ cj_a_low_comparison:
     - LCI.B2c
     - LCI.B2d
     statement: >-
-      The parent lower-carrier identity contains `2nu D_low`; the centered /
-      oscillation Young terms are absorbed with `epsilon <= nu`. This absorption
-      has no Euler counterpart and is exactly the first literal obstruction
-      recorded in `ELCI.A`.
+      The parent lower-carrier identity contains `2\nu\mathcal D^{low}`; the
+      centered / oscillation Young terms are absorbed with
+      `\varepsilon <= \nu`. This absorption has no Euler counterpart and is
+      exactly the first literal obstruction recorded in `ELCI.A`.
   - label: retained_native_forcing_to_act_kx
     source_labels:
     - RSCB.NKF
@@ -183,8 +183,8 @@ cj_a_low_comparison:
     - ACT.KX
     - ACT.X-Readout
     statement: >-
-      The installed `ACT.KX` packet spends the `c_nu N` term, the
-      `eta_X=(c_nu/4C_X)^2` first-exit seed, and the resulting small-excess
+      The installed `ACT.KX` packet spends the `c_\nu N` term, the
+      `eta_X=(c_\nu/4C_X)^2` first-exit seed, and the resulting small-excess
       scheduler before `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` becomes
       available.
   - label: residual_top_viscous_center_ledgers
@@ -203,7 +203,7 @@ cj_a_low_comparison:
     - FVR.F
     statement: >-
       The top-viscous fixed-increment readout is the ledger
-      `2nu lambda_N delta_eta U_N dot delta_eta Delta U_N`, reduced on the
+      `2\nu\lambda_N \delta_\eta U_N \cdot \delta_\eta\Delta U_N`, reduced on the
       parent route to one-rung-higher transported-center top-rung Sobolev /
       shifted-center data. This is provenance for where Navier-Stokes spends
       viscosity, not an Euler theorem-bearing input.
@@ -217,12 +217,14 @@ cj_a_low_comparison:
     response as ingredients.
   - >-
     The Euler mirror may not cite the parent `ACT.KX` chain, `ACT.X-TopVisc`,
-    top-two viscous center ledgers, or `2nu D_low` absorption as proved Euler
-    analogues.
+    top-two viscous center ledgers, or `2\nu\mathcal D^{low}` absorption as
+    proved Euler analogues.
 summary:
   rewritten_mainline_count: 4
   replacement_or_demotion_count: 10
   upstream_receiver_upgrade_classified_count: 3
+  comparison_addendum_count: 1
+  cj_a_low_comparison_status: comparison-only-no-proved-euler-analogue
   first_literal_open_receiver_burden: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
   expanded_receiver_break: ACT.KX viscous absorption and top-viscous readout under `RSCB.NKF -> NKF.Native -> ACT.KX -> ... -> LCI.A`
   note: >-

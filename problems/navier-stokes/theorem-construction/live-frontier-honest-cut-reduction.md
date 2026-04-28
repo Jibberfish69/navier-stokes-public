@@ -85,7 +85,7 @@ branch, with whole-space `\mathbb R^3` treated only as downstream export. The
 strong/defect bridge note then identifies `SG.4` as the exact unresolved
 geometric slot and localizes the missing pair-defect-side theorem to the
 selector-adapted defect bridge feeding `PD.70` and then `SG.4`. So these two
-labels specify *where* the live theorem work happens; they are not additional
+    labels specify *where* the branch theorem work happens; they are not additional
 independent theorem claims beyond that work. ∎
 
 ## Proposition `HC.3` Strong entry, weak endpoint, and `\lambda_2^+` are downstream
@@ -120,8 +120,8 @@ The label
 Euclidean strict-shadow discharge branch
 ```
 
-is a preserved secondary whole-space discharge branch, not the primary
-torus-first theorem wall.
+is a preserved secondary whole-space discharge branch, not the branch-local TPS
+theorem wall and not the current lane-wide class-membership edge.
 
 **Proof.**
 The lane is split honestly into a torus-first internal proving branch and a
@@ -132,8 +132,8 @@ only `(A1a)` full-data lift coverage, `(A1b)` exact Euclidean strict shadow, and
 `(A1c)` global Euclidean carrier control. Moreover, on the realized classical
 carrier, `(A1a)` and `(A1b)` collapse automatically, leaving only `(A1c)` on
 that realized subbranch. So this branch remains mathematically real, but it is
-secondary whole-space discharge context rather than the primary torus-first live
-theorem wall. ∎
+   secondary whole-space discharge context rather than the primary TPS-branch
+   theorem wall. ∎
 
 ## Corollary `HC.5` Honest reduction of the seven-item dashboard
 

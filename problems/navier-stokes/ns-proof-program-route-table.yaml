@@ -74,7 +74,7 @@ live_route_table:
       - problems/navier-stokes/proof-obligation-matrix.yaml
       - problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
     bridge_needed: estimates from other programs must bridge into the exact membership object before counting as closure
-    current_open_theorem: law / endpoint matrix, then CFI.A -> OFP.A -> LCI.A
+    current_open_theorem: object-law endpoint matrix outside the installed readout layer, then CFI.A -> OFP.A -> LCI.A
     allowed_imports: fixed-family, mixed-jet, Lagrangian, selector, and export estimates only through named bridge theorems
     forbidden_substitutions: positive smoothness control, readout objects, or one installed matrix entry cannot replace class-exit closure
   - program: mixed-jet positive controls
@@ -415,8 +415,10 @@ closure_ecology:
         SCF_base + ATD_m^epsilon + CAVG.J + AVG.RCV.A + AVG.END.A + FFSRC.A
         into no averaged finite-time class exit. AVG.COVER.A
         combines good-region propagation with the bad-region jump case via CAVG.J,
-        and DTC.Read is the fixed-scale finite-cover readout when
-        endpoint/tower recovery needs pointwise DTC.A. RWS.C_cover supplies the
+        and the installed DTC.Read bridge is the fixed-scale finite-cover
+        terminal readout when endpoint/tower recovery needs pointwise DTC.A; it
+        is not an upstream input to SCF_base, AACT.KX, AVG.RCV.A, LCI.A_avg,
+        CSP.A_avg, OFP.A_avg, CFI.A_avg, or End_NS_avg. RWS.C_cover supplies the
         dynamic same-fluid cover from compact retained label tubes and the pack
         gauge. RWS.C_scale is the finite-cover readout bridge that transfers
         small-radius packets to the fixed-radius readouts; it does not assert
@@ -462,10 +464,14 @@ closure_ecology:
         AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg =>
         CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg => AVG.MAIN.A, with
         AVG.COVER.A covering every same-fluid approach tail by good-region
-        propagation or nonempty B_epsilon^Phi => Jump_avg via CAVG.J. DTC.Read is required
-        before pointwise DTC.A or endpoint tower readout; Field.Read or CM.Read is
-        required before old CFI.A; READ.END is required before old End_NS and has shape
-        End_NS_avg + Field.Read + DTC.Read => End_NS.
+        propagation or nonempty B_epsilon^Phi => Jump_avg via CAVG.J. The
+        installed readout layer is terminal: DTC.Read supplies pointwise DTC.A
+        and endpoint tower readout under fixed-scale cover plus ATD_m^epsilon;
+        Field.Read supplies old Field under uniform positive-scale SCF-good
+        cover plus ATD_m^epsilon; READ.END has shape End_NS_avg + READ.COVER +
+        Field.Read + DTC.Read => End_NS; FULL.END has shape AVG.MAIN.A +
+        READ.COVER + READ.END => End_NS. These consequences do not promote
+        DTC.A_avg or CFI.A_avg into upstream pointwise objects.
         END.Exh_avg and END.Cross_avg are locked endpoint cells; finite energy
         supplies only SCF_base at good material restarts, ATD_m^epsilon is the
         local epsilon-regularity tower supplier, and SGC.A_strong is off the
@@ -496,7 +502,7 @@ programs:
       Local class membership M_Q(u,p) witnessed by Pack / Part / Field on
       same-fluid still-live families, with stable carriers u, p, Phi, and F.
     current_burdens:
-      - complete the law / endpoint proof matrix beyond the installed Part/Dead entry
+      - complete the law / endpoint proof matrix beyond the installed Part/Dead entry and installed readout-endpoint compatibility layer
       - prove CFI.A without assuming blown or jump absence for free
       - prove OFP.A as one-field forward preservation
       - prove LCI.A as receiver-side lower-carrier interval integrability

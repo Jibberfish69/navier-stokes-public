@@ -424,6 +424,71 @@ Taking the supremum over the collar and summing over `0\le q\le m` gives
 `(CJ.9i)`, and `(CJ.9h)` gives `(CJ.9j)`. This is exactly the `LCI.A`-level
 receiver output.
 
+### Contact With The Installed `LCI` Ledgers
+
+The anchor-chain lemma is not a new receiver architecture. It is the `CJ`-side
+readout of the finite transported cover already present in `LCI`.
+
+The installed `LCI` cover is
+
+```math
+\mathcal C_{\rho,\psi}^{\delta}(t)
+\subset
+\bigcup_{j=1}^{J}
+B(\Phi(a^j,t),r_\delta),
+\tag{LCI.3c3l}
+```
+
+and the installed anchored-center ledger is
+
+```math
+\mathfrak A_{N,m,\rho,\psi}^{ctr}(t)
+:=
+1+
+\sum_{j=1}^{J}\sum_{q=0}^{m}
+|U_q(\Phi(a^j,t),t)|.
+\tag{LCI.3c3m}
+```
+
+So `A^{low}_{m,\mathrm{anc}}` should be read as the minimal component-anchor
+projection of `\mathfrak A^{ctr}`. If the proof uses all `LCI` cover centers,
+then the anchor burden is simply
+
+```math
+\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I)
+\tag{CJ.9m0}
+```
+
+for the direct `CJ.A_low.1` readout, or the stronger
+`\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^2(I)` if one routes through the existing
+`LCI.B2e` sufficient closure.
+
+Likewise, the installed `LCI` oscillation coefficient is
+
+```math
+\Omega_{N,m,\rho,\psi}^{osc}(t)
+:=
+\sup_{1\le j\le J}
+\sum_{q=0}^{m}
+\|U_q(\cdot,t)-U_q(\Phi(a^j,t),t)\|_{L^\infty(B(\Phi(a^j,t),2R_\delta))}.
+\tag{LCI.3c3n}
+```
+
+Bounded `Field^{\le C}` on the same fixed cover supplies this oscillation half,
+provided the center-to-point paths stay inside the admissible `Field` scale:
+
+```math
+\Omega_{N,m,\rho,\psi}^{osc}(t)
+\le
+C(m+1)L_{\mathrm{cov}}\rho.
+\tag{CJ.9m1}
+```
+
+Thus the converse pivot no longer needs to rediscover the whole transported-center
+package. Its exact remaining non-oscillation burden is the anchored-center
+integrability `(CJ.9m0)` on the same fixed cover, produced without spending
+`LCI.A`, `CSP.A`, `OFP.A`, `CFI.A`, `Field`, or an endpoint exclusion theorem.
+
 ### Obstruction `CJ.A_low.2` (The anchor is not optional)
 
 Without an anchor, bounded `Field` cannot control the lower carrier. The constant
@@ -435,15 +500,16 @@ does. Therefore the missing burden inside `CJ.A_low` is now reduced to:
 
 ```math
 \boxed{
-\text{produce }A^{low}_{m,\mathrm{anc}}\in L^1(I)
+\text{produce }\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I)
+\text{, or its minimal }A^{low}_{m,\mathrm{anc}}\text{ projection,}
 \text{ from pre-output source/bridge data on the same fixed cover.}
 }
 \tag{CJ.9m}
 ```
 
-This anchor production may not spend `LCI.A`, `CSP.A`, `OFP.A`, `CFI.A`, or an
-endpoint exclusion theorem. Once `(CJ.9m)` is installed, `CJ.A_low.1` supplies
-the lower-carrier receiver and the route returns to
+This anchor production may not spend `LCI.A`, `CSP.A`, `OFP.A`, `CFI.A`,
+`Field`, or an endpoint exclusion theorem. Once `(CJ.9m)` is installed,
+`CJ.A_low.1` supplies the lower-carrier receiver and the route returns to
 `LCI.A+FCI.5f\Rightarrow CSP.A`.
 
 ## Exact Obstruction
