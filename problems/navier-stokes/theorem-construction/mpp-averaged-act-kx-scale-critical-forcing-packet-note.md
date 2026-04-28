@@ -70,9 +70,17 @@ AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi}
 DTC.A_{\mathrm{avg}}.
 ```
 
-This route does not recover the old pointwise `DTC.A` until the separate
-`DTC.Read` theorem is proved, and it does not recover old `CFI.A`
-until `Field.Read` or `CM.Read` is proved. No proof may spend
+This route recovers the old pointwise endpoint only through the installed
+readout layer
+
+```math
+READ.END:
+End_{NS,\mathrm{avg}}+READ.COVER+Field.Read+DTC.Read
+\Longrightarrow End_{NS}.
+```
+
+It does not recover the old pointwise `DTC.A` or old `CFI.A` as upstream inputs
+to the averaged branch. No proof may spend
 `DTC.A`, `LCI.A`, `CSP.A`, `OFP.A`, `Field`, or endpoint exclusion to obtain
 `SCF_avg^m`, `AACT.KX`, or `DTC.A_avg`.
 
@@ -778,6 +786,8 @@ Compatibility with the existing endpoint matrix is separate:
 READ.END:
 End_{NS,\mathrm{avg}}
 +
+READ.COVER
++
 Field.Read
 +
 DTC.Read
@@ -786,14 +796,15 @@ End_{NS}.
 }
 ```
 
-`Field.Read` feeds `END.Field` and `END.Exh`; `DTC.Read` feeds
-`END.TowerAmp`. With `END.Exh_avg`, `END.Cross_avg`, and `AVG.END.A` now
-theorem-facing endpoint cells, the remaining branches are
+`READ.COVER` is downstream of `End_NS_avg`. `Field.Read` feeds `END.Field` and
+the old pointwise `Field` row; `DTC.Read` feeds `END.TowerAmp`. With
+`END.Exh_avg`, `END.Cross_avg`, and `AVG.END.A` now theorem-facing endpoint
+cells, the terminal readout branch is installed as
 
 ```math
 \boxed{
 READ.END:
-End_{NS,\mathrm{avg}}+Field.Read+DTC.Read
+End_{NS,\mathrm{avg}}+READ.COVER+Field.Read+DTC.Read
 \Longrightarrow
 End_{NS}
 }
@@ -1212,6 +1223,166 @@ converts each good cylinder into the finite-depth tower packet needed by
 `AACT.KX`. If the tail meets `\mathcal B_{\varepsilon_m}^{\Phi}`, then
 `CAVG.J` gives `Jump_avg`. Thus the good region propagates and the bad region is
 an averaged endpoint face.
+
+## Theorem `AVG.UPSTREAM.A` (Installed Averaged Upstream Chain)
+
+On a retained same-fluid approach window, assume the original-data retained
+setup supplied by `ORIGIN.Retain`, the bounded pack gauge
+`\Gamma_\sharp\in L^\infty`, the finite required parameter set
+`\mathscr P_{\rm req}`, the strengthened source supplier
+`FFSRC.A => FCI.5f`, and the accepted averaged endpoint certificate cells
+`AVG.END.A`. Then the finite-energy-native averaged route proves exactly
+
+```math
+SCF_{\mathrm{base}},
+\quad
+SGC.A_{\mathrm{a.e.}},
+\quad
+ATD_m^\varepsilon,
+\quad
+AACT.KX,
+\quad
+AVG.RCV.A,
+\quad
+LCI.A_{\mathrm{avg}},
+\quad
+CSP.A_{\mathrm{avg}},
+\quad
+OFP.A_{\mathrm{avg}},
+\quad
+CFI.A_{\mathrm{avg}},
+\quad
+AVG.MAIN.A.
+```
+
+More explicitly,
+
+```math
+SCF_{\mathrm{base}}
++
+SGC.A_{\mathrm{a.e.}}
++
+ATD_m^\varepsilon
+\Longrightarrow
+SCF_{\mathrm{avg}}^m
+\Longrightarrow
+AACT.KX\text{ off }\mathcal B_{\varepsilon_m}^{\Phi}
+\Longrightarrow
+DTC.A_{\mathrm{avg}}
+\Longrightarrow
+AVG.RCV.A
+\Longrightarrow
+LCI.A_{\mathrm{avg}}
+\Longrightarrow
+CSP.A_{\mathrm{avg}}
+\Longrightarrow
+OFP.A_{\mathrm{avg}}
+\Longrightarrow
+CFI.A_{\mathrm{avg}}
+\Longrightarrow
+AVG.MAIN.A.
+```
+
+### Proof
+
+`ORIGIN.Retain` supplies the retained same-fluid window, the compact classical
+label geometry on finite class intervals, and the bounded pack gauge. The
+finite required parameter set is the fixed route set
+`\mathscr P_{\rm req}`; no compactness or endpoint choice enlarges it after the
+argument starts.
+
+Finite energy and suitability give
+
+```math
+u\in L^\infty_tL^2_x,\qquad
+\nabla u\in L^2_{t,x},
+\qquad
+u\in L^3_{\mathrm{loc}},
+\qquad
+p\in L^{3/2}_{\mathrm{loc}}.
+```
+
+In bounded-distortion same-fluid charts, parabolic Lebesgue differentiation
+implies that for material-a.e. point there is a positive radius on which
+
+```math
+SCF_{\mathrm{base}}(Q_r^\Phi)\le\varepsilon_m.
+```
+
+Thus finite energy supplies `SCF_base` on good material restarts and gives the
+a.e. finite-cover statement `SGC.A_a.e` on compact subsets of the good
+complement. Points with no positive `SCF_base` scale form
+`\mathcal B_{\varepsilon_m}^{\Phi}`, and `CAVG.J` routes any same-fluid
+approach tail meeting that set into `Jump_avg`.
+
+On every `SCF_base`-good cylinder, `ATD_m^\varepsilon` is the CKN
+epsilon-regularity gain proved above: after shrinking by `\theta_m`, the
+finite-depth averaged affine tower packet `ATD_m` holds, including the seed
+`X_R(s_a)\le\eta_X`, `X_R\in L^\infty`, `N_R\in L^1`, and the averaged forcing
+packet. Hence
+
+```math
+SCF_{\mathrm{base}}+ATD_m^\varepsilon
+\Longrightarrow
+SCF_{\mathrm{avg}}^m.
+```
+
+The `AACT.KX` first-exit calculation then applies on the good branch. Its
+differential inequality absorbs the nonlinear residue through the scale-small
+`X_R` term and gives
+
+```math
+X_R\in L^\infty,\qquad
+N_R\in L^1,\qquad
+\mathcal K_{\le m}^{avg,R}\in L^1.
+```
+
+This is `AACT.KX` off `\mathcal B_{\varepsilon_m}^{\Phi}`.
+
+`RWS.C_scale` transfers the restarted averaged packets through the finite
+same-fluid cover and bounded overlap. The affine-subtracted pressure packet and
+energy far-tail estimates give `DTC.A_avg`; the averaged receiver bridge reads
+this as
+
+```math
+DTC.A_{\mathrm{avg}}
+\Longrightarrow
+EOC.A_{\mathrm{avg}}+AFD.A_{\mathrm{avg}}+RCF.A_{\mathrm{avg}}
+\Longrightarrow
+LCI.A_{\mathrm{avg}}.
+```
+
+The finite set `\mathscr P_{\rm req}` lets the lower-carrier Gronwall constants
+be maximized once, so the averaged `LCI` conclusion is uniform across the
+route-required parameters. With the strengthened source supplier
+`FFSRC.A => FCI.5f`, the averaged consumer chain is formal and typed:
+
+```math
+LCI.A_{\mathrm{avg}}+FCI.5f
+\Longrightarrow
+CSP.A_{\mathrm{avg}}
+\Longrightarrow
+OFP.A_{\mathrm{avg}}
+\Longrightarrow
+CFI.A_{\mathrm{avg}}.
+```
+
+`AVG.END.A` turns `CFI.A_avg` and the averaged endpoint certificates into
+`End_NS_avg`. If the same-fluid tail is good, the chain above propagates it; if
+the tail meets the bad material set, `CAVG.J` makes it `Jump_avg`, which is an
+averaged endpoint face removed by `End_NS_avg`. Therefore no averaged
+finite-time class exit occurs. This is exactly
+
+```math
+AVG.MAIN.A:
+SCF_{\mathrm{base}}+ATD_m^\varepsilon+CAVG.J+AVG.RCV.A+AVG.END.A+FFSRC.A
+\Longrightarrow
+\text{no averaged finite-time class exit}.
+```
+
+This proves the requested averaged upstream chain. It proves the averaged
+objects named above; the old pointwise endpoint still enters only through
+`READ.COVER`, `Field.Read`, `DTC.Read`, and `READ.END`.
 
 ## Non-Spending Gates
 
