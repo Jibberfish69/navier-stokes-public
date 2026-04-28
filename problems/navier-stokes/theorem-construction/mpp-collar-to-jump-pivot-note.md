@@ -333,6 +333,119 @@ Until that converse exists, the operational attack order on this branch remains:
 3. keep the contrapositive downstream, and only then revisit any
    jump-manifestation pivot.
 
+## Immediate Attack Reduction
+
+The first thing to do with `CJ.A_low` is not to attempt the whole collar theorem.
+It is to prove the finite-cover anchor-chain lemma and expose the exact anchor
+burden.
+
+### Lemma `CJ.A_low.1` (Fixed-cover anchor-chain lower-carrier readout)
+
+Fix the same data as in `CJ.A_low`, and suppose the transported collar is covered
+by finitely many windows
+
+```math
+\mathcal C_{\rho,\psi}^{\delta,\vartheta}(t)
+\subset
+\bigcup_{j=1}^{J} Q_j(t),
+\tag{CJ.9f}
+```
+
+with `J`, overlap multiplicity, center labels `c_j(t)=\Phi(a_j,t)`, and the
+maximum chain length `L_{\mathrm{cov}}` fixed before the estimate. Assume that,
+for every point in the collar and every `0\le q\le m`, there is a chain of at
+most `L_{\mathrm{cov}}` admissible increments of length at most `\rho` joining
+that point to one anchor center in the same connected collar component.
+
+Define the lower-anchor ledger
+
+```math
+A^{low}_{m,\mathrm{anc}}(t)
+:=
+\sum_{\text{components }b}
+\sum_{q=0}^{m}
+|U_q(c_b(t),t)|.
+\tag{CJ.9g}
+```
+
+If
+
+```math
+A^{low}_{m,\mathrm{anc}}\in L^1(I)
+\tag{CJ.9h}
+```
+
+and the bounded `Field` estimate `(CJ.9c)` holds on the fixed cover, then
+
+```math
+\Gamma^{low}_{N,m,\rho,\psi}(t)
+\le
+1+
+A^{low}_{m,\mathrm{anc}}(t)
++
+C(m+1)L_{\mathrm{cov}}\rho
+\tag{CJ.9i}
+```
+
+for almost every `t\in I`. Hence
+
+```math
+\Gamma^{low}_{N,m,\rho,\psi}\in L^1(I).
+\tag{CJ.9j}
+```
+
+### Proof
+
+Fix `x\in\mathcal C_{\rho,\psi}^{\delta,\vartheta}(t)` and `0\le q\le m`.
+Follow the fixed cover chain from the anchor center `c_b(t)` to `x`. On each
+link, `(CJ.9c)` with `k=q` gives
+
+```math
+|U_q(y_{\ell+1},t)-U_q(y_\ell,t)|
+\le
+C|y_{\ell+1}-y_\ell|
+\le
+C\rho.
+\tag{CJ.9k}
+```
+
+Summing over at most `L_{\mathrm{cov}}` links yields
+
+```math
+|U_q(x,t)|
+\le
+|U_q(c_b(t),t)|
++
+C L_{\mathrm{cov}}\rho.
+\tag{CJ.9l}
+```
+
+Taking the supremum over the collar and summing over `0\le q\le m` gives
+`(CJ.9i)`, and `(CJ.9h)` gives `(CJ.9j)`. This is exactly the `LCI.A`-level
+receiver output.
+
+### Obstruction `CJ.A_low.2` (The anchor is not optional)
+
+Without an anchor, bounded `Field` cannot control the lower carrier. The constant
+mode obstruction is immediate: on a fixed collar, replace `U_q` by
+`U_q+M_q(t)` with `M_q(t)` spatially constant. The increments
+`\delta_hU_q` do not see `M_q(t)`, while the lower carrier
+`\|U_q(\cdot,t)\|_{L^\infty(\mathcal C_{\rho,\psi}^{\delta,\vartheta}(t))}`
+does. Therefore the missing burden inside `CJ.A_low` is now reduced to:
+
+```math
+\boxed{
+\text{produce }A^{low}_{m,\mathrm{anc}}\in L^1(I)
+\text{ from pre-output source/bridge data on the same fixed cover.}
+}
+\tag{CJ.9m}
+```
+
+This anchor production may not spend `LCI.A`, `CSP.A`, `OFP.A`, `CFI.A`, or an
+endpoint exclusion theorem. Once `(CJ.9m)` is installed, `CJ.A_low.1` supplies
+the lower-carrier receiver and the route returns to
+`LCI.A+FCI.5f\Rightarrow CSP.A`.
+
 ## Exact Obstruction
 
 No theorem currently on disk runs in the converse direction

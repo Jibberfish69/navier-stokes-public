@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   branch_id: euler-mirror-chat20
   artifact_id: viscosity-dependence-ledger-navier-stokes-euler-mirror
-  updated_on: '2026-04-26'
+  updated_on: '2026-04-28'
   generator: chat20-manual-ledger
 entries:
 - source_path: problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-source-locked-note.md
@@ -105,6 +105,120 @@ entries:
   dependence_class: curvature-diffusion-fourth-bridge
   reason: The parent fourth bridge remains valuable as source provenance, but it is not theorem-bearing on the Euler mirror once the parabolic damping is removed.
   target_surface: problems/navier-stokes/euler-mirror/curvature-based-regularity-discharge-source-pack.md
+cj_a_low_comparison:
+  source_path: problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md
+  parent_status: candidate-converse-pivot-not-closed
+  euler_status: comparison-only-no-proved-euler-analogue
+  comparison_surface_status: >-
+    This ledger isolates which ingredients of `CJ.A` / `CJ.A_low` are genuinely
+    transport-pressure-only and which parts of the Navier-Stokes converse still
+    spend viscosity through the parent receiver chain. It does not promote
+    `CJ.A`, `CJ.A_low`, `CJ.B`, or an Euler counterpart to proved status.
+  proved_parent_implications:
+  - label: CJ.forward-supplier-order
+    statement: >-
+      The installed direction remains `LCI.A + FCI.5f -> CSP.A -> OFP.A ->
+      CFI.A`; this is a no-jump-route supplier order, not a proved
+      collar-failure-to-jump theorem.
+  - label: CJ.A_low.contrapositive-if-proved
+    statement: >-
+      If `CJ.A_low` is proved from bounded one-field coherence plus the fixed
+      source/bridge anchor, then `source/bridge anchor + not LCI.A` may imply
+      no uniform surviving `Field^{<= C}` regime. Before that theorem exists,
+      lower-carrier failure is only blockage of the installed no-jump route.
+  transport_pressure_only_ingredients:
+  - label: fixed_same_fluid_window
+    statement: >-
+      One same-fluid still-live family, one interval, and one finite
+      transported cover with labels, radii, multiplicity, and chain length fixed
+      from pre-output data; no endpoint-dependent recentering or refreshed
+      cover is licensed.
+  - label: bounded_field_increment_coherence
+    statement: >-
+      The usable content of `Field^{<= C}` is the bounded neighboring-coherence
+      estimate for the finite `U_k` / `K_k` increment family on one common scale.
+      This is transport/coherence information only; it does not control constant
+      modes by itself.
+  - label: fixed_anchor_for_constant_modes
+    statement: >-
+      `CJ.A_low` still needs a pre-output source/bridge anchor on the same
+      transported cover, such as finite center values, seed values, or an
+      initial lower-carrier packet strong enough to control collar-component
+      constants.
+  - label: transported_center_geometry
+    statement: >-
+      The lower-carrier readout through transported center values plus local
+      oscillation, as in `LCI.B2c`, is transport-geometric and survives the
+      Euler comparison as the `ELCI.A` center/oscillation ledger shape.
+  - label: pressure_poisson_response
+    statement: >-
+      Pressure remains elliptic after viscosity removal, so localized
+      pressure-response and pressure-source packet decompositions remain
+      comparison-relevant provided they are stated as pressure estimates and
+      not as imports of a viscous receiver theorem.
+  navier_stokes_viscosity_spending:
+  - label: lower_collar_energy_sink
+    source_labels:
+    - LCI.B1
+    - LCI.B2c
+    - LCI.B2d
+    statement: >-
+      The parent lower-carrier identity contains `2nu D_low`; the centered /
+      oscillation Young terms are absorbed with `epsilon <= nu`. This absorption
+      has no Euler counterpart and is exactly the first literal obstruction
+      recorded in `ELCI.A`.
+  - label: retained_native_forcing_to_act_kx
+    source_labels:
+    - RSCB.NKF
+    - NKF.Native
+    - ACT.KX
+    statement: >-
+      The retained native-forcing path uses retained smooth center balls,
+      viscous forcing/integration terms, mollifier point recovery, and then the
+      `ACT.KX` differential budget. Euler may keep the retained-center pressure
+      and point-recovery pattern only as proof-pattern material, not as an
+      unchanged theorem import.
+  - label: act_kx_absorption_scheduler
+    source_labels:
+    - ACT.KX
+    - ACT.X-Readout
+    statement: >-
+      The installed `ACT.KX` packet spends the `c_nu N` term, the
+      `eta_X=(c_nu/4C_X)^2` first-exit seed, and the resulting small-excess
+      scheduler before `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` becomes
+      available.
+  - label: residual_top_viscous_center_ledgers
+    source_labels:
+    - RCF.A
+    - LCI.B2g4
+    statement: >-
+      After the transported-center pressure/viscosity split, the residual
+      Navier-Stokes center-forcing theorem is pressure-center readout at every
+      rung together with the top-two viscous center ledgers. The pressure side
+      is comparison-relevant; the top-two viscous ledgers are not
+      transport-pressure-only.
+  - label: fixed_increment_top_viscous_readout
+    source_labels:
+    - ACT.X-TopVisc
+    - FVR.F
+    statement: >-
+      The top-viscous fixed-increment readout is the ledger
+      `2nu lambda_N delta_eta U_N dot delta_eta Delta U_N`, reduced on the
+      parent route to one-rung-higher transported-center top-rung Sobolev /
+      shifted-center data. This is provenance for where Navier-Stokes spends
+      viscosity, not an Euler theorem-bearing input.
+  euler_comparison_boundary:
+  - >-
+    `ELCI.A` may aim for a direct transport/pressure theorem controlling the
+    Euler lower-carrier ledger, but that is an open Euler replacement slot.
+  - >-
+    The Euler mirror may reuse fixed-cover transport geometry, one-field
+    increment coherence, local oscillation structure, and pressure Poisson
+    response as ingredients.
+  - >-
+    The Euler mirror may not cite the parent `ACT.KX` chain, `ACT.X-TopVisc`,
+    top-two viscous center ledgers, or `2nu D_low` absorption as proved Euler
+    analogues.
 summary:
   rewritten_mainline_count: 4
   replacement_or_demotion_count: 10
