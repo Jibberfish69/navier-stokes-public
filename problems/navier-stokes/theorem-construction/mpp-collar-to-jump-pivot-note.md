@@ -718,6 +718,75 @@ post-`LCI.A` conclusion. Bounded `Field^{\le C}` supplies the fixed-cover
 oscillation estimate. Applying `CJ.A_low.1` gives `(CJ.9ac)`. This is precisely
 the `LCI.A`-level lower-carrier receiver needed by the converse pivot.
 
+### Synchronization `CJ.A_low.6` (Use one parent cover for `ACT.KX`, `LCI`, and `Field`)
+
+The remaining compatibility risk is cover drift. For `CJ.A_low.5`, all three
+pieces must be instantiated on the same same-fluid cover.
+
+Use the `LCI` transported cover `(LCI.3c3l)` as the parent cover:
+
+```math
+\mathcal C_{\rho,\psi}^{\delta}(t)
+\subset
+\bigcup_{j=1}^{J}
+B(\Phi(a^j,t),r_\delta),
+\qquad
+c_j(t):=\Phi(a^j,t).
+\tag{CJ.9ad}
+```
+
+Then impose the following synchronization conditions.
+
+1. The `ACT.KX` affine centers are exactly these labels `a^j`; its
+   `\mathcal A_{\mathrm{core}}^{ctr}` and `\mathcal K_{\le m}^{ctr}` are indexed
+   by the same `j=1,\dots,J`.
+2. `RWS.C_{\mathrm{scale}}`, if used, may introduce only subordinate finite
+   small-radius packets inside the balls of `(CJ.9ad)`; it may recover
+   fixed-radius readouts, but it may not replace the parent labels for the `CJ`
+   anchor.
+3. The bounded `Field^{\le C}` hypothesis is imposed on windows large enough to
+   contain the center-to-point chains inside the parent cover. Equivalently, for
+   each `x\in\mathcal C_{\rho,\psi}^{\delta,\vartheta}(t)` and each parent
+   anchor `c_b(t)` in its collar component, the chosen chain
+   `c_b(t)=y_0,\dots,y_\ell=x` satisfies
+
+```math
+\ell\le L_{\mathrm{cov}},
+\qquad
+|y_{r+1}-y_r|\le \rho,
+\qquad
+y_r,y_{r+1}\in Q_s(t)
+\tag{CJ.9ae}
+```
+
+for the same still-live family window where
+`\mathrm{Field}^{\le C}_{N,\rho,Q_s}` is being spent.
+
+Under these synchronization conditions, the hypotheses of `CJ.A_low.5` are
+coherent on one same-fluid family:
+
+```math
+\text{same parent labels for }ACT.KX
+\;+\;
+\text{same parent labels for }LCI
+\;+\;
+\text{Field chains inside the same windows}
+\Longrightarrow
+\text{no cover-change smuggling in }CJ.A_{\mathrm{low}}.
+\tag{CJ.9af}
+```
+
+### Proof
+
+The anchor ledger in `CJ.A_low.4` is indexed by the parent labels `a^j`. The
+lower-carrier cover in `CJ.A_low.1` is also indexed by those labels. The
+oscillation estimate from bounded `Field^{\le C}` is applied only along the
+finite chains `(CJ.9ae)` inside the same still-live windows. Therefore every
+term in the anchor-chain estimate is attached to one same-fluid family and one
+parent transported cover. Subordinate `RWS.C_{\mathrm{scale}}` packets affect
+only the proof of the `ACT.KX` readout at smaller radius; they do not change the
+labels or the parent cover used by the `CJ` converse.
+
 ## Exact Obstruction
 
 No unconditional theorem currently on disk runs in the full converse direction
