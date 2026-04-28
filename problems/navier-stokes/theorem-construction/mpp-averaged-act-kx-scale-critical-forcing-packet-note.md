@@ -2,8 +2,7 @@
 
 ## Status
 
-Theorem-facing replacement target for the receiver-side point-center forcing
-route.
+Installed theorem-facing finite-energy-native averaged replacement packet.
 
 Role: replace the old native point-center forcing target
 
@@ -689,7 +688,8 @@ CM.Read:
 CM_{\mathrm{avg}}\Longrightarrow CM.
 ```
 
-The next class-membership target is therefore
+The averaged endpoint/readout layer below resolves this class-membership target
+without silently promoting averaged objects to the old pointwise class:
 
 ```math
 \boxed{
@@ -700,9 +700,9 @@ Field.Read\text{ is required.}
 }
 ```
 
-`DTC.Read` is the fixed-scale finite-cover endpoint/tower pointwise recovery. The main
-route should avoid pointwise recovery as long as the downstream consumers can
-be retyped to averaged objects.
+`DTC.Read` is the fixed-scale finite-cover endpoint/tower pointwise recovery.
+The main averaged route stays typed to averaged objects until `READ.COVER`,
+`Field.Read`, `DTC.Read`, and `READ.END` are explicitly invoked.
 
 ## Averaged Endpoint Lane
 

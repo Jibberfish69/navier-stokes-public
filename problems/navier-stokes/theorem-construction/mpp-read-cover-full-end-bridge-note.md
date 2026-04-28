@@ -1,8 +1,8 @@
 # MPP READ.COVER / FULL.END Bridge Note
 
-Status: theorem-facing compatibility note, conditional on the averaged endpoint
-package and on the separately named readout suppliers. This file does not claim
-unconditional Navier-Stokes closure.
+Status: installed theorem-facing compatibility theorem, conditional on the
+averaged endpoint package and on the separately named readout suppliers. This
+file does not claim unconditional Navier-Stokes closure.
 
 Source anchors:
 
@@ -271,7 +271,7 @@ pointwise endpoint matrix only after the two readout suppliers are present.
 Current status:
 
 ```math
-\boxed{\text{Averaged route: conditionally assembled.}}
+\boxed{\text{Averaged route: installed as a typed conditional route.}}
 ```
 
 ```math

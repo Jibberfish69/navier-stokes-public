@@ -1,11 +1,11 @@
-# MPP DTC-to-TowerBound Theorem Program
+# MPP DTC-to-TowerBound Theorem
 
 ## Status
 
-Theorem-facing endpoint analytic promotion note.
+Installed theorem-facing endpoint analytic theorem.
 
-Role: promote the tower-amplitude part of hypothesis `H6` in the installed
-`ACT.KX` conditional completion packet.
+Role: install the tower-amplitude part of the endpoint packet in the retained
+route.
 
 This note is the endpoint-side companion to
 `mpp-retained-window-native-forcing-theorem-program.md`. It isolates the
@@ -227,7 +227,7 @@ The theorem may feed `END.TowerBound`; it does not prove `END.Exh`,
 
 ## Handoff
 
-After `DTC-to-TowerBound` is installed, the endpoint side reduces to the formal
+With `DTC-to-TowerBound` installed, the endpoint side reduces to the formal
 certificate theorem:
 
 ```math

@@ -1,16 +1,16 @@
-# MPP Class-Membership Endpoint Matrix Closure Contract
+# MPP Class-Membership Endpoint Matrix Closure Theorem
 
 ## Status
 
-Theorem-facing closure contract.
+Installed theorem-facing endpoint certificate theorem.
 
-Role: record the exact endpoint-exclusion block still needed after `CFI.A`.
+Role: close the exact endpoint-exclusion block used after `CFI.A`.
 
-This note does **not** prove the endpoint matrix analytically. It separates the
-definition-level endpoint cells from the remaining analytic input. In the
-current witness vocabulary, `END.Exh`, `END.Cross`, and `END.TowerBound` are
-formal once the displayed certificate maps are accepted; the live endpoint-side
-analytic input is `END.TowerAmp`, supplied by `DTC-to-TowerBound`.
+This note keeps the endpoint matrix inside the repo witness-certificate
+vocabulary. It does not replace the analytic tower supplier with a generic
+blowup classification: `END.TowerAmp` is supplied by the installed
+`DTC-to-TowerBound` theorem, while `END.Exh`, `END.Cross`, `END.Pack`,
+`END.Field`, and `END.TowerBound` are theorem-grade certificate cells.
 
 ## Installed Entry
 
@@ -21,9 +21,9 @@ The installed endpoint exclusion is:
 \tag{END.0}
 ```
 
-The non-formal remaining endpoint input is the tower-amplitude supplier
-`END.TowerAmp`; the native pack and field exclusions are spent downstream from
-pack preservation and `OFP.A`.
+The analytic tower-amplitude supplier is `END.TowerAmp`, now installed through
+`DTC-to-TowerBound`; the native pack and field exclusions are spent downstream
+from pack preservation and `OFP.A`.
 
 ## Endpoint Matrix Block
 
@@ -41,7 +41,7 @@ Dead,\qquad Blown,\qquad Jump.
 \tag{END.2}
 ```
 
-The remaining endpoint theorem block is
+The installed endpoint theorem block is
 
 ```math
 \mathsf{End}_{NS}
@@ -461,20 +461,21 @@ CFI.A+End\_NS
 \tag{END.9label}
 ```
 
-## Remaining Content
+## Installed Content
 
-The endpoint block is now reduced to:
+The endpoint block now closes from:
 
 ```math
 \boxed{
-END.TowerAmp
+END.Pack+END.Field+END.TowerBound+END.Cross+END.Exh
+\Longrightarrow
+End_{NS}.
 }
-\quad
-\text{plus the certificate maps behind }END.Exh\text{ and }END.Cross.
 \tag{END.10}
 ```
 
-`END.Pack` is formal once the native pack gauge
+The analytic tower input is the installed theorem
+`DTC-to-TowerBound => END.TowerAmp => END.TowerBound`. `END.Pack` is formal once the native pack gauge
 `\Gamma_{\mathrm{pack},Q}\in L^\infty(I)` is supplied. `END.Field` is formal
 once `OFP.A` supplies a positive field scale and finite coherence bound.
 `END.TowerBound` is formal once `END.TowerAmp` is supplied. `END.Cross` is

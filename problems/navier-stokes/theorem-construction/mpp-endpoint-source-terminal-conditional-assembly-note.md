@@ -8,6 +8,17 @@ Role: record the formal endpoint/source terminal assembly after the retained-win
 
 This note is deliberately conditional. It proves the assembly implications from the named input cells. It does **not** prove the analytic suppliers `DTC-to-TowerBound`, `FPCR.C`, `FSCR.C`, or `FCC.C1`, and it does **not** claim an independent classical blowup classification.
 
+Claim-level convention. The retained route uses the exact post-`LCI.A` source
+claim
+
+```math
+FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f
+```
+
+as its primary source closure. The stronger branch
+`FFSRC.A => FCI.5f` is an explicitly named import when cited; it does not erase
+or silently replace the exact post-`LCI.A` route.
+
 The governing conditional implications are:
 
 ```math
@@ -1145,7 +1156,7 @@ By Theorem B, `(EST.5)` gives `FCI.5f`. By Theorem A, `(EST.4)` gives `End_NS`. 
 
 ## Boundary
 
-This note proves only the formal endpoint/source terminal assembly from named input cells. It does not prove:
+This note proves only the formal endpoint/source terminal assembly from named input cells. The companion endpoint note now installs `DTC-to-TowerBound => END.TowerAmp => END.TowerBound`; this file does not reprove that analytic tower supplier. It also does not prove:
 
 ```math
 DTC\text{-}to\text{-}TowerBound,
@@ -1160,7 +1171,9 @@ FCC.C1.
 \tag{EST.D1}
 ```
 
-Those remain separate theorem-grade supplier cells. In particular, `DTC-to-TowerBound` must still read out both `U_k` and `K_k` on a finite transported-center cover, with depth at least `N+2` and local pressure/viscous response for
+The source cells remain separate theorem-grade post-`LCI.A` suppliers unless
+the stronger branch `FFSRC.A => FCI.5f` is explicitly invoked. In particular,
+`DTC-to-TowerBound` reads out both `U_k` and `K_k` on a finite transported-center cover, with depth at least `N+2` and local pressure/viscous response for
 
 ```math
 K_k=-\nabla^{k+1}p+\nu\Delta U_k.
