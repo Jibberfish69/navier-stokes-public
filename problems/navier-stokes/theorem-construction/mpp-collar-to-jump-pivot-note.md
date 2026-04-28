@@ -512,9 +512,215 @@ This anchor production may not spend `LCI.A`, `CSP.A`, `OFP.A`, `CFI.A`,
 `CJ.A_low.1` supplies the lower-carrier receiver and the route returns to
 `LCI.A+FCI.5f\Rightarrow CSP.A`.
 
+### Solution Route `CJ.A_low.3` (Produce the anchor through the pre-`LCI.A` affine-center core)
+
+The way to solve `(CJ.9m)` is not to derive absolute center amplitudes from
+`Field`. `Field` is used only for oscillation. The anchor should be produced
+from the clean pre-`LCI.A` affine-center block already isolated in the direct
+transported-center package.
+
+Use the receiver-side block only up to the `ACT.KX` core output:
+
+```math
+RSCB.NKF
+\Longrightarrow
+NKF.Native+NKF.Ann+NKF.Quad
++ACT.X\text{-Cut}
++ACT.X\text{-MidRaw}
++ACT.X\text{-TopVisc}
++ACT.X\text{-Scale}
++RWS.C_{\mathrm{scale}}
+\Longrightarrow
+ACT.KX.
+\tag{CJ.9n}
+```
+
+The licensed `ACT.KX` output is
+
+```math
+\mathcal K_{\le m}^{ctr}\in L^1(I),
+\qquad
+\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I),
+\tag{CJ.9o}
+```
+
+with no use of `LCI.A`, `CSP.A`, `OFP.A`, `Field`, the source theorem, the
+`ACT.X-Readout` consumer, or endpoint closure. The core center ledger is
+
+```math
+\mathcal A_{\mathrm{core}}^{ctr}
+=
+1+
+\mathfrak A_{0,\rho,\psi}^{ctr}
++
+\mathfrak A_{1,\rho,\psi}^{ctr}
++
+\sum_{q=2}^{m}\sum_j|\widetilde U_{q,j}|.
+\tag{CJ.9p}
+```
+
+Here the higher center rungs are affine-normalized:
+
+```math
+\widetilde U_{q,j}
+=
+\mathcal C_{G_j(t)}^{-1}U_q(c_j(t),t).
+\tag{CJ.9q}
+```
+
+Under the bounded pack-side gauge, the installed frame identity
+`G_j(t)=F(a^j,t)F(a^j,t_0)^{-1}` gives bounded tensor actions
+`\mathcal C_{G_j(t)}` and `\mathcal C_{G_j(t)}^{-1}`. Therefore
+
+```math
+\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I)
+\Longrightarrow
+\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^\infty(I)
+\Longrightarrow
+\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I)
+\tag{CJ.9r}
+```
+
+on the finite interval `I`. This proves the anchor burden `(CJ.9m)`.
+
+Then bounded `Field^{\le C}` on the same fixed cover supplies only the
+oscillation readout `(CJ.9m1)`, and `CJ.A_low.1` gives
+
+```math
+\Gamma^{low}_{N,m,\rho,\psi}\in L^1(I).
+\tag{CJ.9s}
+```
+
+So the desired execution order for the remaining burden is:
+
+```math
+\boxed{
+ACT.KX\ \text{for the anchor}
+\quad+\quad
+Field^{\le C}\ \text{for fixed-cover oscillation}
+\quad\Longrightarrow\quad
+CJ.A_{\mathrm{low}}
+\quad\Longrightarrow\quad
+LCI.A\text{-level receiver control.}
+}
+\tag{CJ.9t}
+```
+
+This route must stop before `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` when it is
+being used to prove the `CJ` anchor. Otherwise it would merely cite the old
+receiver closure instead of supplying the missing converse pivot.
+
+### Lemma `CJ.A_low.4` (Affine-core anchor implies the raw anchored-center ledger)
+
+Assume the same fixed cover, the bounded pack-side gauge, and the installed
+affine-frame identity
+
+```math
+G_j(t)=F(a^j,t)F(a^j,t_0)^{-1}.
+\tag{CJ.9u}
+```
+
+Assume also the licensed `ACT.KX` core output
+
+```math
+\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I).
+\tag{CJ.9v}
+```
+
+Then
+
+```math
+\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^\infty(I)
+\qquad\text{and hence}\qquad
+\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I).
+\tag{CJ.9w}
+```
+
+### Proof
+
+The `q=0` and `q=1` raw center pieces are already explicit summands in
+`\mathcal A_{\mathrm{core}}^{ctr}`:
+
+```math
+\mathfrak A_{0,\rho,\psi}^{ctr}
++
+\mathfrak A_{1,\rho,\psi}^{ctr}
+\le
+\mathcal A_{\mathrm{core}}^{ctr}.
+\tag{CJ.9x}
+```
+
+For `2\le q\le m`, the affine-normalized center variable satisfies
+
+```math
+\widetilde U_{q,j}
+=
+\mathcal C_{G_j(t)}^{-1}U_q(c_j(t),t).
+\tag{CJ.9y}
+```
+
+The bounded pack-side gauge gives, for each fixed rank `q`,
+
+```math
+\|\mathcal C_{G_j(t)}\|
++
+\|\mathcal C_{G_j(t)}^{-1}\|
+\le
+C_{q,\rho,\psi,I}.
+\tag{CJ.9z}
+```
+
+Therefore
+
+```math
+|U_q(c_j(t),t)|
+\le
+C_{q,\rho,\psi,I}
+|\widetilde U_{q,j}(t)|.
+\tag{CJ.9aa}
+```
+
+Summing over `j` and `2\le q\le m`, then adding the `q=0,1` pieces, yields
+
+```math
+\mathfrak A_{N,m,\rho,\psi}^{ctr}(t)
+\le
+C_{m,\rho,\psi,I}
+\mathcal A_{\mathrm{core}}^{ctr}(t).
+\tag{CJ.9ab}
+```
+
+The `L^\infty(I)` bound follows from `(CJ.9v)`, and `L^1(I)` follows because
+`I` is finite.
+
+### Corollary `CJ.A_low.5` (ACT.KX plus bounded Field closes the lower-carrier converse)
+
+On the fixed same-fluid cover, assume:
+
+1. the pre-`LCI.A` `ACT.KX` core output `(CJ.9o)`;
+2. the bounded pack-side gauge needed for `(CJ.9z)`;
+3. bounded `Field^{\le C}` on the same fixed cover, used only for the oscillation
+   estimate `(CJ.9m1)`;
+4. the cover-chain hypothesis from `CJ.A_low.1`.
+
+Then
+
+```math
+\Gamma^{low}_{N,m,\rho,\psi}\in L^1(I).
+\tag{CJ.9ac}
+```
+
+### Proof
+
+By `CJ.A_low.4`, `ACT.KX` supplies the raw anchored-center ledger
+`\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I)` without using `Field` or any
+post-`LCI.A` conclusion. Bounded `Field^{\le C}` supplies the fixed-cover
+oscillation estimate. Applying `CJ.A_low.1` gives `(CJ.9ac)`. This is precisely
+the `LCI.A`-level lower-carrier receiver needed by the converse pivot.
+
 ## Exact Obstruction
 
-No theorem currently on disk runs in the converse direction
+No unconditional theorem currently on disk runs in the full converse direction
 
 ```math
 \text{surviving coherence regime}
@@ -523,9 +729,23 @@ No theorem currently on disk runs in the converse direction
 \tag{CJ.10}
 ```
 
-The installed route only gives the forward supplier implication `(CJ.2)`. So
-the exact single missing object on this pivot line is the converse supplier
-theorem `(CJ.5)`, sharpened first to the `CJ.A_low` target `(CJ.9d)`.
+The installed route still does not give this from `Field` alone. What the
+immediate attack reduction above supplies is the conditional lower-carrier
+converse:
+
+```math
+ACT.KX
++
+\mathrm{Field}^{\le C}\text{ on the fixed cover}
+\Longrightarrow
+\Gamma^{low}_{N,m,\rho,\psi}\in L^1(I).
+\tag{CJ.10b}
+```
+
+So the exact remaining object on this pivot line is no longer an undifferentiated
+``coherence-to-collar'' theorem. It is the clean production and verification of
+the `ACT.KX` anchor hypotheses and the fixed-cover `Field` oscillation
+hypotheses on the same same-fluid family.
 
 Once `CJ.A_low` is proved, its contrapositive may be read only as:
 
@@ -552,7 +772,12 @@ This note does **not** claim:
    positive coherence regime;
 3. that the installed route already gives
    `\text{collar failure}\Rightarrow\text{jump manifestation}`;
-4. that `CJ.A` or `CJ.B` is closed.
+4. that the full unconditional `CJ.A` or endpoint-level `CJ.B` is closed.
+
+It does record the conditional lower-carrier converse `CJ.A_low.5`: under the
+pre-`LCI.A` `ACT.KX` anchor, bounded pack-side gauge, fixed-cover chain, and
+bounded `Field^{\le C}` oscillation hypothesis, the `LCI.A`-level lower-carrier
+receiver follows.
 
 It only fixes the honest pivot:
 
