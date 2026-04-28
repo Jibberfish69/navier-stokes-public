@@ -101,7 +101,11 @@ through the receiver chain
 `RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A`.
 The Euler mirror preserves that order but treats `ACT.KX` as a non-importable
 receiver packet until its `c_\nu N` absorption and `ACT.X-TopVisc` cells are
-replaced by transport/pressure-only estimates.
+replaced by transport/pressure-only estimates. The current parent packet also
+requires the ordered cells `ACT.X-Cut`, `ACT.X-Press`, and `ACT.X-MidRaw`
+inside `ACT.KX`, with `ACT.X-Readout` available only after
+`ACT.X-Scale + RWS.C_scale`; those cells are comparison authority, not Euler
+imports.
 
 ## Resulting Branch Discipline
 

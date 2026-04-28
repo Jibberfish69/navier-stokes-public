@@ -108,7 +108,9 @@ Why this is the first hard holdout:
    viscous forcing/integration terms and cannot be cited unchanged.
 2. `ACT.KX` is the sharp Euler break: the installed simultaneous core/excess
    budget spends `c_\nu N`, the `eta_X` absorption seed, and
-   `ACT.X-TopVisc` / top-viscous readout data.
+   `ACT.X-TopVisc` / top-viscous readout data. In the live packet the break is
+   cell-level: `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc`
+   feeds `ACT.KX`, followed only after scale transfer by `ACT.X-Readout`.
 3. `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` is downstream of that receiver
    budget, so it is unavailable on Euler until the branch proves a direct
    transport/pressure replacement.
@@ -125,7 +127,7 @@ So the honest current stop line is:
 \boxed{
 \begin{gathered}
 \text{mirror the class-membership spine first, classify the parent}\\
-RSCB.NKF\to NKF.Native\to ACT.KX\text{ receiver chain under viscosity removal,}\\
+RSCB.NKF\to NKF.Native\to ACT.KX\text{ expanded receiver chain under viscosity removal,}\\
 \text{and keep the live receiver-side obstruction at the missing}\\
 \text{transport/pressure replacement for the }ACT.KX\text{ absorption budget.}
 \end{gathered}

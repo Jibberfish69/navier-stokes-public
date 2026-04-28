@@ -39,7 +39,9 @@ Current theorem-facing contradiction order:
 Current live obstructions:
 - `ELCI.A` now records the missing Euler replacement for the expanded parent
   `ACT.KX` / `2\nu` absorption and top-viscous readout chain instead of leaving
-  the parent `LCI.A` wall implicit
+  the parent `LCI.A` wall implicit; the expanded comparison cell is
+  `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX`, followed
+  by `ACT.X-Scale + RWS.C_scale -> ACT.X-Readout`
 - the positive-control branch still carries explicit Euler gaps in the scale
   barrier, control-functional replacement, and continuation packet
 - exact-potential, top-viscous, and static-diffusion packets remain demoted or

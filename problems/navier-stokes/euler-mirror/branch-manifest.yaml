@@ -54,7 +54,15 @@ fidelity_contract:
   - OFP.A
   - RSCB.NKF
   - NKF.Native
+  - NKF.Ann
+  - NKF.Quad
+  - ACT.X-Press
+  - ACT.X-Cut
+  - ACT.X-MidRaw
+  - ACT.X-TopVisc
   - ACT.KX
+  - ACT.X-Scale
+  - RWS.C_scale
   - ACT.X-Readout
   - ACT.A
   - RCF.A
@@ -81,11 +89,13 @@ current_mirror_state:
     - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md
     - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
     parent_receiver_chain: RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A
+    expanded_act_kx_chain: NKF.Native + NKF.Ann + NKF.Quad -> ACT.X-Press; ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc -> ACT.KX; ACT.KX + ACT.X-Scale + RWS.C_scale -> ACT.X-Readout
     euler_classification: >-
       The retained-center pressure and point-recovery pattern is useful, but the
       native forcing and simultaneous core/excess receiver packet must be
       rewritten after deleting viscous forcing, `c_nu N` absorption, and
-      `ACT.X-TopVisc`.
+      `ACT.X-TopVisc`. The expanded `ACT.KX` cells are comparison order only
+      until `ELCI.A` supplies a transport/pressure replacement.
     live_obstruction: missing Euler transport/pressure replacement for the expanded parent `ACT.KX` / `2\nu` absorption and top-viscous readout chain, now exposed explicitly as the open burden in `ELCI.A`
   positive_control_route:
     status: rewritten-through-source-pack-layer

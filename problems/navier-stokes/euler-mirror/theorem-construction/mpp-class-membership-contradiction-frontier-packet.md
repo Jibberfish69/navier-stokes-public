@@ -149,6 +149,11 @@ For the Euler mirror, this is an ordered comparison chain, not an importable
 proof. `RSCB.NKF -> NKF.Native` must be rewritten with all viscous forcing terms
 deleted, and `ACT.KX` is the first expanded receiver break because its installed
 budget spends `c_\nu N`, the `eta_X` absorption seed, and `ACT.X-TopVisc`.
+The sharper installed packet is cell-ordered as
+`NKF.Native + NKF.Ann + NKF.Quad -> ACT.X-Press`, then
+`ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc -> ACT.KX`, so
+`ELCI.A` must replace that whole simultaneous receiver step under viscosity
+removal.
 
 So this packet does **not** claim that the no-dead line, no-blown branch, or
 no-jump branch are already closed. It records the route-faithful order and the

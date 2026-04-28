@@ -51,6 +51,7 @@ mirror_theorem_queue:
   - keep `CFI.A` as forward-invariance of lawful class membership on same-fluid Euler families
   - keep `OFP.A` as one-field forward preservation through the transport / packet law without silent viscous terms
   - classify the installed parent receiver chain `RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` before any Euler use
+  - classify the expanded `ACT.KX` cells `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX` as comparison authority, not Euler imports
   - use branch-local `ELCI.A` as the receiver replacement for that full parent receiver chain and keep the missing `ACT.KX` / `2nu` absorption explicit
   - only after the Euler mainline is honest may downstream exact-potential, Hodge, selector, or Euclidean export branches be mirrored
 current_receiver_and_holdout_surfaces:
@@ -65,8 +66,12 @@ current_receiver_and_holdout_surfaces:
   expanded_receiver_break: >-
     The Euler mirror may preserve the order
     `RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A`,
-    but it cannot import the chain unchanged because `ACT.KX` spends the
-    `c_nu N` / `2nu` absorption budget and `ACT.X-TopVisc` / top-viscous readout.
+    with the current internal split
+    `NKF.Native + NKF.Ann + NKF.Quad -> ACT.X-Press`, then
+    `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc -> ACT.KX`, then
+    `ACT.KX + ACT.X-Scale + RWS.C_scale -> ACT.X-Readout`; but it cannot import
+    the chain unchanged because `ACT.KX` spends the `c_nu N` / `2nu` absorption
+    budget and `ACT.X-TopVisc` / top-viscous readout.
   downstream_viscous_packets:
   - problems/navier-stokes/theorem-construction/mpp-lci-a-fixed-increment-top-viscous-readout-note.md
   viscous_center_supplier_packets:

@@ -30,6 +30,15 @@ LCI.A.
 \tag{ELCI.0a}
 ```
 
+At cell resolution, the retained receiver packet factors as
+
+```text
+NKF.Native + NKF.Ann + NKF.Quad => ACT.X-Press
+ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX
+ACT.KX + ACT.X-Scale + RWS.C_scale => ACT.X-Readout
+=> ACT.A => RCF.A => LCI.A.
+```
+
 This is the parent receiver chain that the Euler mirror must classify. It does
 not survive the Euler rewrite unchanged. The reason is specific:
 
@@ -54,7 +63,9 @@ The classification is:
    parent `RSCB.NKF` proof includes viscous forcing/integration terms;
 3. the expanded `ACT.KX` packet is the sharp hard break, because its scheduler
    uses the `c_\nu N` absorption term, the `eta_X` first-exit budget, and
-   `ACT.X-TopVisc` / top-viscous readout data;
+   `ACT.X-TopVisc` / top-viscous readout data; the live cell order also routes
+   `ACT.X-Cut`, `ACT.X-Press`, and `ACT.X-MidRaw` into the simultaneous
+   core/excess theorem before `ACT.X-Readout` can be spent;
 4. `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` remains downstream of that
    missing Euler receiver budget.
 
@@ -287,7 +298,7 @@ sharply:
 \boxed{
 \begin{gathered}
 \text{Euler has no unchanged analogue of the parent }ACT.KX\text{ budget}\\
-\text{until the }c_\nu N\text{ absorption and top-viscous cells are replaced}\\
+\text{until the }c_\nu N\text{ absorption, middle-block, and top-viscous cells are replaced}\\
 \text{by a direct transport/pressure estimate.}
 \end{gathered}
 }

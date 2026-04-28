@@ -48,17 +48,23 @@ entries:
   reason: >-
     The expanded `ACT.KX` packet spends the `c_nu N` absorption budget, the
     `eta_X=(c_nu/4C_X)^2` first-exit seed, and `ACT.X-TopVisc` / top-viscous
-    readout data. The Euler mirror needs a direct transport/pressure replacement
-    before `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` can be used.
+    readout data. The installed cell order is
+    `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX`, with
+    `ACT.X-Readout` available only after `ACT.X-Scale + RWS.C_scale`. The Euler
+    mirror needs a direct transport/pressure replacement before
+    `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` can be used.
   target_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
 - source_path: problems/navier-stokes/theorem-construction/mpp-act-kx-hidden-spending-audit-note.md
   mirror_status: comparison-order-authority-only
   dependence_class: pre-lci-ordering-discipline
   reason: >-
     The audit confirms the parent direction
-    `RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A`
-    and the no-spending rule before `LCI.A`. The Euler mirror preserves that
-    ordering discipline while reopening every viscous receiver cell.
+    `RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A`,
+    including the internal order
+    `NKF.Native + NKF.Ann + NKF.Quad -> ACT.X-Press`, then
+    `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc -> ACT.KX`. The
+    Euler mirror preserves that ordering discipline while reopening every
+    viscous receiver cell.
   target_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-mirror-frontier-packet.md
 - source_path: problems/navier-stokes/theorem-construction/mpp-lci-a-fixed-increment-top-viscous-readout-note.md
   mirror_status: demoted-provenance-only
@@ -171,22 +177,33 @@ cj_a_low_comparison:
     source_labels:
     - RSCB.NKF
     - NKF.Native
+    - NKF.Ann
+    - NKF.Quad
+    - ACT.X-Press
     - ACT.KX
     statement: >-
       The retained native-forcing path uses retained smooth center balls,
       viscous forcing/integration terms, mollifier point recovery, and then the
-      `ACT.KX` differential budget. Euler may keep the retained-center pressure
-      and point-recovery pattern only as proof-pattern material, not as an
-      unchanged theorem import.
+      `ACT.X-Press` and `ACT.KX` differential budget. Euler may keep the
+      retained-center pressure and point-recovery pattern only as proof-pattern
+      material, not as an unchanged theorem import.
   - label: act_kx_absorption_scheduler
     source_labels:
+    - ACT.X-Cut
+    - ACT.X-Press
+    - ACT.X-MidRaw
+    - ACT.X-TopVisc
     - ACT.KX
+    - ACT.X-Scale
+    - RWS.C_scale
     - ACT.X-Readout
     statement: >-
       The installed `ACT.KX` packet spends the `c_\nu N` term, the
       `eta_X=(c_\nu/4C_X)^2` first-exit seed, and the resulting small-excess
-      scheduler before `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` becomes
-      available.
+      scheduler. Its expanded cell order is
+      `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX`, then
+      `ACT.KX + ACT.X-Scale + RWS.C_scale => ACT.X-Readout`, before
+      `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` becomes available.
   - label: residual_top_viscous_center_ledgers
     source_labels:
     - RCF.A
@@ -216,7 +233,8 @@ cj_a_low_comparison:
     increment coherence, local oscillation structure, and pressure Poisson
     response as ingredients.
   - >-
-    The Euler mirror may not cite the parent `ACT.KX` chain, `ACT.X-TopVisc`,
+    The Euler mirror may not cite the parent `ACT.KX` chain, its internal
+    `ACT.X-Cut` / `ACT.X-Press` / `ACT.X-MidRaw` / `ACT.X-TopVisc` cells,
     top-two viscous center ledgers, or `2\nu\mathcal D^{low}` absorption as
     proved Euler analogues.
 summary:
@@ -226,7 +244,7 @@ summary:
   comparison_addendum_count: 1
   cj_a_low_comparison_status: comparison-only-no-proved-euler-analogue
   first_literal_open_receiver_burden: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
-  expanded_receiver_break: ACT.KX viscous absorption and top-viscous readout under `RSCB.NKF -> NKF.Native -> ACT.KX -> ... -> LCI.A`
+  expanded_receiver_break: ACT.KX viscous absorption and internal `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc` cell order under `RSCB.NKF -> NKF.Native -> ACT.KX -> ... -> LCI.A`
   note: >-
     Every active viscous or parabolic packet named by the branch now has either
     an Euler replacement surface or an explicit demotion to provenance / audit

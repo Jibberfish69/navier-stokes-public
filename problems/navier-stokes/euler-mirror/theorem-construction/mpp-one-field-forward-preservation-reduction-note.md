@@ -173,7 +173,10 @@ energy identity.
 Under the expanded parent packet, that same missing step appears inside the
 pre-`LCI.A` receiver theorem `ACT.KX`: the Euler mirror has no `c_\nu N`
 absorption budget, no `eta_X=(c_\nu/4C_X)^2` first-exit seed, and no
-`ACT.X-TopVisc` cell to feed top-viscous readout.
+`ACT.X-TopVisc` cell to feed top-viscous readout. It also cannot import the
+expanded `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX`
+cell packet unchanged, because that packet's absorption and readout order is
+the retained-viscous comparison object being replaced by `ELCI.A`.
 
 ## Proposition `EOFR.B` (Transport-pressure execution order on the receiver side)
 
