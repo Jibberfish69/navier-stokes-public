@@ -1391,7 +1391,8 @@ Any citation of this averaged branch must pass these gates.
 1. No point-center readback:
 
 ```text
-DTC.A_avg cannot be cited as DTC.A before DTC.Read is proved.
+DTC.A_avg cannot be cited as DTC.A outside the installed readout layer
+`DTC.Read` plus `READ.COVER`.
 ```
 
 2. No retained-smoothness import:
@@ -1419,7 +1420,8 @@ subsequence after endpoint exclusion.
 5. No class-membership readback:
 
 ```text
-CFI.A_avg cannot be cited as old CFI.A before Field.Read or CM.Read is proved.
+CFI.A_avg cannot be cited as old CFI.A outside the installed readout layer
+`Field.Read` / `CM.Read` plus `READ.COVER`.
 ```
 
 ## Handoff

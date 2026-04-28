@@ -275,5 +275,5 @@ Current status:
 ```
 
 ```math
-\boxed{\text{Old pointwise endpoint route: pending }Field.Read,\ DTC.Read,\ READ.END.}
+\boxed{\text{Old pointwise endpoint route: installed through }Field.Read,\ DTC.Read,\ READ.COVER,\ READ.END,\ FULL.END.}
 ```
