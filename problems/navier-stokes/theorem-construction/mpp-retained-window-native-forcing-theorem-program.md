@@ -1,8 +1,8 @@
-# MPP Retained-Window Native Forcing Theorem Program
+# MPP Retained-Window Native Forcing Theorem
 
 ## Status
 
-Theorem-facing retained-smoothness branch note.
+Installed theorem-facing retained-smoothness branch theorem.
 
 Role: promote hypothesis `H1` of the installed retained-branch `ACT.KX`
 conditional completion packet into a theorem-grade input.
@@ -12,8 +12,8 @@ replacement route is recorded in
 [mpp-averaged-act-kx-scale-critical-forcing-packet-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-averaged-act-kx-scale-critical-forcing-packet-note.md).
 
 This note does not replace
-`mpp-act-kx-conditional-route-completion-packet.md`. It isolates the next
-analytic wall beneath that packet.
+`mpp-act-kx-conditional-route-completion-packet.md`. It proves the retained
+smooth center-ball input consumed by that packet.
 
 ## Branch Position
 
@@ -149,7 +149,7 @@ installed affine packet:
 <\infty.
 ```
 
-Then the program target is to prove
+Then the theorem target is to prove
 
 ```math
 RSCB.NKF:
@@ -168,11 +168,6 @@ K0.Core+E1.Aff+Kmid.Core
 ```
 
 inside the installed `ACT.KX` route.
-
-## Subtheorem Stack
-
-The retained-window theorem must be installed through the following named
-subtheorems.
 
 ## Theorem-Grade Promotion Statement
 
@@ -208,8 +203,8 @@ the bounded affine-frame/pack gauge, the finite required parameter set, the
 local Poisson split, and the finite-energy pressure far-tail bound. Then:
 
 ```math
-RSCB.NKF
-\Longrightarrow
+RSCB.NKF:
+\qquad
 ACT.X\text{-}Scale
 +
 NKF.Moll
@@ -218,11 +213,25 @@ NKF.Point
 +
 NKF.Native
 +
+RWS.C_{scale}^{geom}.
+```
+
+Here `RWS.C_scale^{geom}` is the geometric finite-cover and bounded-overlap
+half of `RWS.C_scale`: it supplies the fixed-readout cover on which the
+post-`ACT.KX` packet bounds are transferred. The analytic readout half is the
+conditional implication
+
+```math
+RWS.C_{scale}^{geom}
++
+\{X_{exc,b}\in L^\infty,\ N_b\in L^1\}_{b=1}^{B}
+\Longrightarrow
 RWS.C_{scale}.
 ```
 
 Consequently the installed conditional packet may spend `RSCB.NKF` as a
-theorem-grade receiver input:
+theorem-grade receiver input without spending `ACT.KX`, `LCI.A`, or endpoint
+closure:
 
 ```math
 RSCB.NKF
@@ -234,8 +243,9 @@ ACT.KX.
 
 This theorem does not prove global retained-window existence. It proves that
 once the retained-window admission and local smooth center-ball regularity are
-available, the native forcing, scale seed, point recovery, and fixed-readout
-compatibility inputs used by the `ACT.KX` packet are theorem-grade consequences.
+available, the native forcing, scale seed, point recovery, and geometric
+fixed-readout compatibility inputs used by the `ACT.KX` packet are
+theorem-grade consequences.
 
 ### Proof Block A: `ACT.X-Scale`
 
@@ -287,7 +297,8 @@ functionals by testing the pressure and viscous pieces of the center equation
 against `\varphi_{j,r}` and the corresponding finite tower derivatives.
 
 For the pressure part, the local Poisson split gives the retained local
-response plus the finite-energy far tail. On the retained ball,
+response plus the finite-energy far tail. On the retained ball, for
+`0\le q\le m`,
 
 ```math
 |\nabla^{q+1}p|*\varphi_{j,r}
@@ -296,8 +307,9 @@ C
 \|p(\cdot,t)\|_{C^{m+1}(B(c_j(t),2r_a))}
 ```
 
-for `0\le q\le m`. The harmonic/far-tail contribution is bounded by the energy
-tail already licensed in the conditional packet. For the viscous part,
+and the right side is in `L^1_t` after summing over the finite center/rung set.
+The harmonic/far-tail contribution is bounded by the energy tail already
+licensed in the conditional packet. For the viscous part,
 integration by parts against the transported mollifier and retained local
 smoothness give
 
@@ -357,8 +369,29 @@ Therefore, by linearity of the localized Poisson response,
 
 The affine and affine-linear pressure modes are absent from the residual
 center-cell functionals by construction. Combining `NKF.Moll` with
-`NKF.Point`, the native point forcing ledger is in `L^1(I_a)`. The bounded
-affine-frame conversion then gives
+`NKF.Point`, the native point forcing ledger is in `L^1(I_a)`.
+
+More explicitly, the retained smoothness and finite-energy far tail give
+
+```math
+\mathcal P_{\le m}^{ctr,nat}(t)
+:=
+\sum_j\left(
+|\nabla\pi_j^{loc}(c_j)|
++
+|\nabla^2\pi_j^{loc}(c_j)|
+\right)
++
+\sum_{q=2}^{m}\sum_j
+|\mathcal C_{G_j}^{-1}\nabla^{q+1}\pi_j^{loc}(c_j)|
++
+\mathcal T_{\le m}^{press,far}(t)
+\in L^1(I_a).
+```
+
+The viscous parts are contractions of the retained smooth tower modes
+`U_{q+2}` for the finite center-rung set, hence also lie in `L^1(I_a)`. The
+bounded affine-frame conversion then gives
 
 ```math
 K0.Core+E1.Aff+Kmid.Core
@@ -375,7 +408,7 @@ and therefore
 This is exactly the pre-`LCI.A` input to the core line of `ACT.KX`. It proves
 `NKF.Native`.
 
-### Proof Block E: `RWS.C_scale`
+### Proof Block E: `RWS.C_scale^{geom}`
 
 The finite same-fluid dynamic cover supplied by retained-window compactness and
 the bounded pack gauge has bounded overlap:
@@ -386,8 +419,11 @@ B(c_j(t),R_{fix})
 \bigcup_{b=1}^{B}B(c_{j_b}(t),R_b).
 ```
 
-Each small restarted packet supplied by `ACT.X-Scale` and propagated by
-`ACT.KX` gives
+This is the geometric half of `RWS.C_scale`: the cover is finite, same-fluid,
+transported, and has a uniform overlap bound depending only on the retained
+cover geometry and the bounded pack gauge.
+
+After `ACT.KX` propagates the small restarted packets, each cover element gives
 
 ```math
 X_{exc,b}\in L^\infty(I_a),
@@ -395,10 +431,20 @@ X_{exc,b}\in L^\infty(I_a),
 N_b\in L^1(I_a).
 ```
 
-Finite overlap transfers the local Morrey, affine-defect, pressure-cell, and
-top-viscous readouts to the fixed readout ball. This proves `RWS.C_scale`. It is
-a finite-cover readout transfer theorem; it is not a fixed-radius smallness
-claim.
+Finite overlap then transfers the local Morrey, affine-defect, pressure-cell,
+and top-viscous readouts to the fixed readout ball. Thus `RSCB.NKF` proves
+`RWS.C_scale^{geom}`, and
+
+```math
+RWS.C_scale^{geom}
++
+ACT.KX
+\Longrightarrow
+RWS.C_scale.
+```
+
+This is a finite-cover readout transfer theorem; it is not a fixed-radius
+smallness claim.
 
 ### Theorem 1 Conclusion
 
@@ -415,109 +461,13 @@ NKF.Point
 +
 NKF.Native
 +
-RWS.C_{scale}.
+RWS.C_{scale}^{geom}.
 ```
 
 Together with the already-installed `ACT.KX` conditional packet, this promotes
 `H1` from a route assumption into a theorem-grade retained-window receiver
 input, conditional only on retained-window admission and local smooth
 center-ball regularity.
-
-### 1. `ACT.X-Scale`
-
-Prove the restart seed theorem:
-
-```math
-\forall s_a\in I,\ \forall \eta_X>0,\ \exists R_a>0
-\quad\text{such that}\quad
-X_{exc}(s_a;R_a)\le\eta_X
-```
-
-with admissibility
-
-```math
-B(c_j(s_a),2R_a)\subset Q_{s_a}^{rec,+}.
-```
-
-This uses retained smooth center-ball regularity. It is the exact seed consumed
-by `ACT.KX`; it is not a fixed-radius smallness theorem.
-
-### 2. `ACT.KX` budget realization
-
-On each retained interval, the joint excess/core scheduler must be licensed
-with the installed budget:
-
-```math
-dX+c_\nu N
-\le
-(L_0+C A_{core})X+C_X X^{1/2}N+F_0,
-```
-
-```math
-dA_{core}\le \mathcal K_{\le m}^{ctr}+\mathcal T_{tri}(A_{core}),
-```
-
-```math
-\mathcal K_{\le m}^{ctr}
-\le
-C(X^{1/2}N^{1/2}+X)+F_K.
-```
-
-The retained scheduler must realize the absorption budget on every retained
-window. This is the budget side of `RSCB.NKF`.
-
-### 3. `NKF.Moll`
-
-Construct transported mollifiers
-
-```math
-\varphi_{j,r}(x,t)=r^{-3}\varphi((x-c_j(t))/r)
-```
-
-and prove the mollified forcing ledger
-
-```math
-\mathcal K_{\le m}^{ctr,[r]}\in L^1(I_a)
-```
-
-from:
-
-- local Poisson response on retained affine balls,
-- finite-energy far-tail pressure control,
-- viscous integration by parts against the transported mollifier.
-
-This is the non-pointwise forcing theorem.
-
-### 4. `NKF.Point`
-
-Prove retained smooth point recovery:
-
-```math
-\mathcal K_{\le m}^{ctr,[r]}
-\to
-\mathcal K_{\le m}^{ctr}
-\quad\text{in }L^1(I_a)
-```
-
-as `r\downarrow0`.
-
-This is where retained smoothness does real work. It is the step that licenses
-native center forcing rather than merely mollified forcing.
-
-### 5. `RWS.C_scale`
-
-Prove the fixed-readout compatibility theorem:
-
-```math
-RWS.C_{scale}:
-\quad
-\text{finite same-fluid dynamic small-radius cover}
-\Longrightarrow
-\text{fixed-radius readout compatibility}.
-```
-
-This theorem transfers the small restarted packets to the fixed-radius readout
-surface. It does not assert fixed-radius smallness.
 
 ## Non-Spending Guardrail
 
@@ -539,8 +489,9 @@ FCI.5f
 
 Its allowed inputs are only retained-window geometry, local smoothness on the
 retained same-fluid center balls, transported mollifier identities, local
-pressure response, finite-energy far tails, the `ACT.X-Scale` restart seed, and
-the `ACT.KX` scheduler budgets.
+pressure response, finite-energy far tails, bounded pack/affine-frame gauge,
+and finite-cover compactness. It proves the `ACT.X-Scale` restart seed and
+native forcing point recovery; it does not use `ACT.KX` conclusions.
 
 ## Handoff
 
@@ -552,6 +503,12 @@ RSCB.NKF
 NKF.Native
 \Longrightarrow
 ACT.KX
+\quad\text{and}\quad
+ACT.KX+RWS.C_{scale}^{geom}
+\Longrightarrow
+RWS.C_{scale}
+\Longrightarrow
+ACT.X\text{-Readout}
 \Longrightarrow
 ACT.A
 \Longrightarrow
