@@ -1467,10 +1467,9 @@ AVG.COVER.A,
 which says that every same-fluid approach tail either lies in the propagated
 good-region route or enters the endpoint matrix through `Jump_avg`.
 
-Only after `DTC.Read` can the old pointwise `DTC.A` and the endpoint
-`DTC-to-TowerBound` packet be invoked without changing their statements. Only
-after `Field.Read` or `CM.Read` can the averaged class-membership chain
-be read as old `CFI.A`.
+Only through the installed readout layer can the old pointwise `DTC.A`, the
+endpoint `DTC-to-TowerBound` packet, and old pointwise `CFI.A` be invoked
+without changing their statements.
 
 The compressed terminal route is
 
@@ -1489,7 +1488,7 @@ FFSRC.A
 \Longrightarrow
 AVG.MAIN.A,
 \qquad
-AVG.MAIN.A+READ.END
+AVG.MAIN.A+READ.COVER+READ.END
 \Longrightarrow
 \text{old endpoint closure}.
 ```
@@ -1503,6 +1502,8 @@ Here `READ.END` means the conditional readout bridge
 
 ```math
 End_{NS,\mathrm{avg}}
++
+READ.COVER
 +
 Field.Read
 +
