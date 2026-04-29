@@ -50,7 +50,9 @@ promotes it again.
 - exact-potential / `PSJ+`: preserved as branch-specific readout and supplier
   support on the Law-2-survivor side. The `PSJ+.1` overlap refinements, including
   the fine `LOM.8` / `LOM.10` branch and the coarse `LRC.1` / `RCP.0`
-  retained-cover endpoint, remain branch-local downstream context.
+  retained-cover endpoint, remain branch-local downstream context. The terminal
+  branch assembly is recorded as `D.7mq+SSC-EP.A=>D.7mr2=>RPC.3`, with
+  `SSC-D7mb-collapse` as one installed selector-strain supplier.
 - Hodge / normal-covector: preserved as branch-specific readout support on the
   Law-2-survivor side, not as lane-wide route authority.
 - Euclidean strict-shadow: preserved as downstream export branch only.
