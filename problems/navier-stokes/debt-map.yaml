@@ -87,9 +87,9 @@ debt_items:
   rationale: The debt is described as a targeted discharge rather than an open frontier,
     so it can enter bounded derivation.
   priority_rank: 2
-  derivation_state: reopened-after-formalization-stall
-  derivation_attempts: 0
-  attempts_without_new_support: 0
+  derivation_state: localized-support
+  derivation_attempts: 1
+  attempts_without_new_support: 1
   support_strength: strong
   evidence_paths:
   - problems/navier-stokes/proof-assembly.yaml
@@ -99,8 +99,10 @@ debt_items:
   - problems/navier-stokes/formalization-ledger.md
   - problems/navier-stokes/frozen-core.md
   source_sufficiency: sufficient
-  source_scope_status: formalization-stalled
-  source_checks: 16
+  source_scope_status: no-new-support
+  source_checks: 17
+  last_derivation_run_id: debt-derive-navier-stokes-20260429T181747Z
+  new_evidence_paths: []
 - debt_id: debt-lower-carrier-receiver-wall
   label: lower-carrier receiver wall
   source_section: proof-debt-ledger
@@ -188,8 +190,13 @@ summary:
     local-derivable: 4
     branch-choice: 0
     blocked-frontier: 0
-  recommended_next_cell_type: debt-derive
-  recommended_next_action: Run debt-derive on the highest-priority local-derivable
-    items from debt-map.yaml before another honesty-review pass.
+  recommended_next_cell_type: dependency-discharge
+  recommended_next_action: Local derivation found support, but theorem-crank still
+    requires dependency-discharge on those obligations, so keep them on the theorem
+    track instead of demoting them to solver-loop packaging.
   recommended_debt_ids:
   - debt-one-field-forward-preservation-wall
+  - debt-lower-carrier-receiver-wall
+  - debt-collar-to-jump-converse-pivot
+  derivation_counts_by_state:
+    localized-support: 4

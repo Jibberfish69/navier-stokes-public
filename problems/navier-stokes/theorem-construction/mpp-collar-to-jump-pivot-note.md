@@ -496,7 +496,7 @@ mode obstruction is immediate: on a fixed collar, replace `U_q` by
 `U_q+M_q(t)` with `M_q(t)` spatially constant. The increments
 `\delta_hU_q` do not see `M_q(t)`, while the lower carrier
 `\|U_q(\cdot,t)\|_{L^\infty(\mathcal C_{\rho,\psi}^{\delta,\vartheta}(t))}`
-does. Therefore the missing burden inside `CJ.A_low` is now reduced to:
+does. Therefore the anchor burden isolated inside `CJ.A_low` is:
 
 ```math
 \boxed{
@@ -591,7 +591,7 @@ oscillation readout `(CJ.9m1)`, and `CJ.A_low.1` gives
 \tag{CJ.9s}
 ```
 
-So the desired execution order for the remaining burden is:
+So the desired execution order for the anchor discharge is:
 
 ```math
 \boxed{
@@ -608,7 +608,7 @@ LCI.A\text{-level receiver control.}
 
 This route must stop before `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` when it is
 being used to prove the `CJ` anchor. Otherwise it would merely cite the old
-receiver closure instead of supplying the missing converse pivot.
+receiver closure instead of supplying the converse pivot.
 
 ### Lemma `CJ.A_low.4` (Affine-core anchor implies the raw anchored-center ledger)
 
@@ -878,7 +878,7 @@ ACT.KX
 \tag{CJ.10b}
 ```
 
-So the exact remaining object on this pivot line is no longer an undifferentiated
+So the exact boundary on this pivot line is no longer an undifferentiated
 ``coherence-to-collar'' theorem. After `CJ.A_low.7`, the lower-carrier converse
 is recorded with its necessary hypotheses. What is still not claimed is the
 stronger theorem obtained by removing the `ACT.KX` anchor, changing covers, or

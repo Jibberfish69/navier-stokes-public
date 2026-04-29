@@ -356,7 +356,7 @@ route, not yet a proved reduction of the full `Field` predicate. If `LCI.A` or
 `CSP.A` stalls, the honest conclusion is only that the installed no-jump proof
 route is blocked there; it is **not** yet jump manifestation unless the
 conditional lower-carrier converse hypotheses have been installed and then
-contradicted. The exact pivot surface for that missing converse license is
+contradicted. The exact pivot surface for that installed conditional converse license is
 [mpp-collar-to-jump-pivot-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md).
 
 On the one-field packet branch, the local stretching gauge is no longer a third

@@ -2,7 +2,7 @@
 version: 1
 identity:
   problem_id: navier-stokes
-  run_id: debt-derive-navier-stokes-20260429T181631Z
+  run_id: debt-derive-navier-stokes-20260429T181747Z
   debt_id: debt-one-field-forward-preservation-wall
 target_debt:
   debt_id: debt-one-field-forward-preservation-wall
@@ -12,7 +12,7 @@ target_debt:
   primary_anchors:
   - 'gap-ticket: burden-item'
 search_scope:
-  generated_at: '2026-04-29T18:16:31Z'
+  generated_at: '2026-04-29T18:17:47Z'
   files_checked:
     workboard-local:
     - problems/navier-stokes/obstruction-capture.md
@@ -146,10 +146,10 @@ authority_provenance:
     database_path: problems/navier-stokes/runtime/meta/runtime-hot-state.sqlite3
     authoritative_storage: sqlite
     compatibility_shadow_status: fresh
-    indexed_event_count: 26661
-    indexed_lease_count: 18833
+    indexed_event_count: 26665
+    indexed_lease_count: 18836
     active_lease_count: 1
-    latest_active_lease_id: debt-derive-navier-stokes-20260429T181631Z
+    latest_active_lease_id: debt-derive-navier-stokes-20260429T181747Z
     status: ok
     error_class:
   roots:
