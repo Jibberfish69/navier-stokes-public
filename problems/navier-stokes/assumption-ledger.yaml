@@ -1,0 +1,91 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  artifact_id: assumption-ledger-navier-stokes
+  created_by: chatgpt
+  purpose: list every assumption or conditional bridge currently preventing clay-level release
+status:
+  ledger_status: blocked
+  all_assumptions_discharged: false
+  release_eligible: false
+source_evidence:
+  proof_promotion_packet_status: blocked
+  proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
+  gap_ticket: problems/navier-stokes/gap-ticket.yaml
+  auto_audit: problems/navier-stokes/auto-audit.yaml
+  review_verdict: problems/navier-stokes/review-verdict.yaml
+  submission_verdict: problems/navier-stokes/submission-verdict.yaml
+assumptions:
+  - id: branch-choice-periodic
+    label: periodic Clay branch with f=0 is the active internal theorem surface
+    status: scoped
+    scope: internal route surface
+    discharge_needed_for_release: true
+    release_requirement: final manuscript must state the periodic Clay branch cleanly and derive the Clay conclusion on that branch
+  - id: original-mpp-target-fidelity
+    label: result is derived on the original MPP object rather than a conditional transfer or surrogate
+    status: blocking
+    source: review-verdict target_fidelity conditional-transfer and submission-verdict authority-conflict
+    discharge_needed_for_release: true
+  - id: monotone-functional-q
+    label: monotone functional Q(t) exists and supplies the named bridge rather than baseline energy alone
+    status: bridge-pending
+    proof_obligation_id: proof-dependency-2
+    discharge_needed_for_release: true
+  - id: energy-enstrophy-insufficiency-to-cascade
+    label: global energy or enstrophy control leaves a small-scale/high-frequency cascade obstruction
+    status: bridge-pending
+    proof_obligation_id: proof-dependency-4
+    discharge_needed_for_release: true
+  - id: dyadic-tail-suppression
+    label: periodic shell or dyadic tail estimate suppresses dangerous high-frequency transfer
+    status: unresolved
+    proof_obligation_id: proof-dependency-5
+    discharge_needed_for_release: true
+  - id: monotone-compactness-bridge
+    label: monotone functional stabilizes energy/enstrophy and enables compactness on the same periodic surface
+    status: bridge-pending
+    proof_obligation_id: proof-dependency-6
+    discharge_needed_for_release: true
+  - id: scale-barrier-compactness-nonlinear-closure
+    label: scale-barrier plus monotone input yields strong local compactness and nonlinear tensor closure
+    status: bridge-pending
+    proof_obligation_id: proof-dependency-7
+    branch_status: quarantined
+    discharge_needed_for_release: true
+  - id: continuation-bridge
+    label: heat-governed deformation or continuation bridge forces continuation control on the same periodic theorem surface
+    status: unresolved
+    proof_obligation_id: proof-dependency-8
+    discharge_needed_for_release: true
+  - id: terminal-periodic-clay-bridge
+    label: scale-barrier, monotone-functional, compactness, and continuation packages imply periodic Clay branch with f=0
+    status: bridge-pending
+    proof_obligation_id: proof-dependency-9
+    discharge_needed_for_release: true
+  - id: one-field-forward-preservation-wall
+    label: one-field forward-preservation wall supplies the decisive missing warrant in the gap ticket
+    status: burden
+    source: problems/navier-stokes/gap-ticket.yaml
+    discharge_needed_for_release: true
+  - id: lower-carrier-receiver-wall
+    label: lower-carrier receiver wall is required by the gap ticket
+    status: burden
+    source: problems/navier-stokes/gap-ticket.yaml
+    discharge_needed_for_release: true
+  - id: collar-to-jump-converse-pivot
+    label: collar-to-jump converse pivot is required by the gap ticket
+    status: burden
+    source: problems/navier-stokes/gap-ticket.yaml
+    discharge_needed_for_release: true
+summary:
+  total_assumptions: 12
+  scoped_count: 1
+  blocking_or_unresolved_count: 11
+  release_blocking_count: 11
+required_next_actions:
+  - discharge proof-dependency-5 dyadic tail suppression
+  - discharge proof-dependency-8 continuation bridge
+  - replace quarantined branch-navier-stokes-4 with a classical compactness closure lemma
+  - convert one-field, lower-carrier, and collar-to-jump burdens into theorem-safe local discharge surfaces

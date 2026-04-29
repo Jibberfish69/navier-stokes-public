@@ -46,6 +46,7 @@ published_files:
 - agent-contract.yaml
 - architecture-health.yaml
 - artifact-self-repair.yaml
+- assumption-ledger.yaml
 - authoritative-source-discovery.yaml
 - authority-reconciliation.yaml
 - auto-audit.yaml
@@ -180,8 +181,10 @@ published_files:
 - problem-intake.md
 - projected-nc-flow-clay-frontier.md
 - promotion-blocker-burndown.md
+- promotion-blocker-ledger.yaml
 - promotion-verdict.yaml
 - proof-assembly.yaml
+- proof-matrix-blocker-close-plan.md
 - proof-obligation-matrix.yaml
 - proof-source-pack.md
 - public-research-frontier.md
@@ -406,6 +409,7 @@ published_files:
 - theorem-construction/main-theorem-draft.md
 - theorem-construction/material-derivative-tower-preliminary-algebra-note.md
 - theorem-construction/mcp-act-kx-conditional-route-completion-covering-items-1-12-cfi-a-b476f4bf8c.md
+- theorem-construction/mcp-analytic-ledger-smallness-scheduler-for-sg-4-tps-retained-family-ep-a-75a56069dd.md
 - theorem-construction/mcp-continuum-coherent-sector-replacement-theorem-note-read-end-97bea7829a.md
 - theorem-construction/mcp-density-selected-source-packet-closure-schedule-for-sg-4-tps-ep-a-2baab1f1b7.md
 - theorem-construction/mcp-four-estimate-supplier-proof-for-d-7mq-f2c39b58b0.md
@@ -548,6 +552,7 @@ published_files:
 - theorem-construction/mpp-ontological-terminal-survivor-exhaustiveness.md
 - theorem-construction/mpp-open-dead-patch-rigidity-theorem.md
 - theorem-construction/mpp-opr-completion-route-options-note.md
+- theorem-construction/mpp-original-smooth-data-production-proof-attempt-and-hfg-reduction.md
 - theorem-construction/mpp-pack-part-field-canonicality-reduction-note.md
 - theorem-construction/mpp-pack-part-field-primitive-minimality-note.md
 - theorem-construction/mpp-pack-part-field-route-noncollapse-note.md

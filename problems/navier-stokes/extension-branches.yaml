@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   branch_set_id: extension-branches-navier-stokes
-  generated_at: '2026-04-29T19:00:03Z'
+  generated_at: '2026-04-29T19:03:20Z'
   generator: system/runner/lib/lemma_synthesis_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes

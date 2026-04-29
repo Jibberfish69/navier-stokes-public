@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-29T19:00:15Z'
+  generated_at: '2026-04-29T19:03:21Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-fe502bb776bf
-    route_signature: fe502bb776bf9ef2a39c7c519041fdfa61a71c6e
+    surface_id: theorem-surface-navier-stokes-c91ebf1bbe67
+    route_signature: c91ebf1bbe6758ca2ba3bd88b70f261c279f796d
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -46,8 +46,8 @@ shared_alignment:
         the original problem -> The original framework names a monotone functional
         `Q(t)` as a bridge, not just unnamed baseline energy
       kind: proof-dependency
-      status: bridge-pending
-      patch_surface: problems/navier-stokes/claim-ladder.md
+      status: unresolved
+      patch_surface: problems/navier-stokes/formalization-ledger.md
     - slot_id: proof-dependency-4
       label: Global energy or enstrophy control is necessary but not sufficient ->
         The live obstruction is the small-scale or high-frequency cascade that feeds
@@ -110,7 +110,7 @@ local_derivation:
     packet_kind: proof-dependency
     source_kind: live-solver-target
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/claim-ladder.md
+    target_patch_surface: problems/navier-stokes/formalization-ledger.md
     matched_route_slot_labels:
     - Success for regularized or morphic-regularized equations does not close the
       original problem -> The original framework names a monotone functional `Q(t)`
@@ -229,18 +229,18 @@ frontier_projection:
   recommended_next_cell_type: dependency-discharge
 summary:
   phase: local-derivation
-  execution_state: needs-reroute
+  execution_state: actively-working
   leadership_status: lagging-shared-picture
   alignment_complete: true
   exact_local_packet_count: 3
   net_new_local_theorem_count: 0
   projected_frontier_count: 2
   current_open_obligation_count: 5
-  open_obligations_state: not-currently-worked
-  on_recommended_track: false
+  open_obligations_state: active-work
+  on_recommended_track: true
   recommended_next_cell_type: dependency-discharge
   audit_status: audited-needs-fix
   branch_terminal_status: needs-terminal-status
   unresolved_branch_terminal_count: 2
-  current_next_cell_type: solver-loop
+  current_next_cell_type: dependency-discharge
   current_next_cell_is_theorem_work: true
