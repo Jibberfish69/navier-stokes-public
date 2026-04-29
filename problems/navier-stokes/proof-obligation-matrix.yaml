@@ -38,6 +38,7 @@ object_law_refoundation:
   theorem_queue:
     - "record `ORIGIN.Retain` as installed: original maximal-solution/class-membership setup supplies retained-window hypotheses on compact classical intervals and endpoint persistence follows after `OFP.A + CFI.B1 + CFI.B2 => CFI.A` and `CFI.A+End_NS`"
     - "record `RSCB.NKF` as installed theorem-grade retained-window native forcing input; retained receiver spine now runs `RSCB.NKF => NKF.Native => ACT.KX => ACT.X-Readout => ACT.A => RCF.A => LCI.A`, with `RWS.C_scale` downstream of `ACT.KX+RWS.C_scale^geom`"
+    - "record `CJ.A_low` as the live collar-to-jump converse supplier burden: pre-`LCI.A` `ACT.KX` supplies the fixed-cover anchor, bounded `Field^{<= C}` supplies only fixed-cover oscillation, and together they target `Gamma_low in L1(I)` before the installed `LCI.A+FCI.5f => CSP.A => OFP.A => CFI.A` spend; its contrapositive is not installed jump fallout"
     - "record the finite-energy-native averaged replacement as installed typed route: `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg => AVG.MAIN.A`, with `READ.COVER`, `Field.Read`, `DTC.Read`, `READ.END`, and `FULL.END` as the explicit averaged-to-pointwise readout layer"
     - "record source closure at the exact post-`LCI.A` claim level: `FPCR.C + FSCR.C + FCC.C1 => FCI.5f`; `FFSRC.A => FCI.5f` is an explicit stronger import only when cited"
     - "record the retained endpoint spine as installed: `DTC-to-TowerBound + END.Exh + END.Cross + END.Pack + END.Field => End_NS`, with `END.TowerBound` supplied by finite transported-center cover, depth `N+2`, and pressure/viscous `K_k` readout"
@@ -55,6 +56,13 @@ live_theorem_edge:
     branch uses installed `RSCB.NKF` as the retained smooth center-ball native
     forcing certificate and runs
     `RSCB.NKF => NKF.Native => ACT.KX => ACT.X-Readout => ACT.A => RCF.A => LCI.A`.
+    The collar-to-jump pivot is a separate converse-supplier sidecar:
+    `CJ.A_low` targets `ACT.KX` fixed-anchor plus bounded `Field^{<= C}` on the
+    synchronized transported cover to produce the `LCI.A`-level lower-carrier
+    ledger `Gamma_low in L1(I)`. This does not replace the installed forward
+    chain and does not install `collar failure => jump manifestation`; its
+    available contrapositive boundary is only anchor plus `not LCI.A` forcing
+    no uniform bounded `Field^{<= C}` regime.
     The finite-energy-native averaged replacement is installed as
     `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg => AVG.MAIN.A`, with `AVG.COVER.A` covering every same-fluid approach tail: good material region gives averaged propagation and nonempty `B_epsilon^Phi` gives `Jump_avg` by `CAVG.J`, and `AVG.MAIN.A` compressing `SCF_base + ATD_m^epsilon + CAVG.J + AVG.RCV.A + AVG.END.A + FFSRC.A => no averaged finite-time class exit`.
     `DTC.Read` and `Field.Read` are installed terminal readout bridges under
@@ -90,12 +98,15 @@ live_theorem_edge:
     "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
     "problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md",
     "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md",
+    "problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md",
+    "problems/navier-stokes/theorem-construction/mpp-lci-a-transported-center-residual-forcing-note.md",
     "problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md",
     "problems/navier-stokes/theorem-construction/mpp-act-kx-hidden-spending-audit-note.md",
     "problems/navier-stokes/theorem-construction/mpp-averaged-act-kx-scale-critical-forcing-packet-note.md",
     "problems/navier-stokes/theorem-construction/mpp-lci-a-pre-csp-still-live-receiver-admission-note.md"]'
   branch_choice_labels:
   - CFI.A / OFP.A / LCI.A class-membership route
+  - CJ.A_low / bounded Field-to-lower-carrier converse supplier
 obligations:
 - obligation_id: theorem-statement
   kind: theorem-statement
@@ -105,6 +116,24 @@ obligations:
   source_anchor: problems/navier-stokes/marvin-ingest-notes.yaml
   blocking: false
   notes: []
+- obligation_id: cj-a-low-bounded-field-to-lower-carrier
+  kind: converse-supplier
+  label: >-
+    CJ.A_low / bounded Field^{<= C} plus ACT.KX fixed-anchor supplies
+    LCI.A-level lower-carrier control
+  status: frontier
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md
+  blocking: true
+  notes:
+  - Missing converse supplier, not a direct jump theorem.
+  - Uses pre-`LCI.A` `ACT.KX` only for the fixed-cover anchor ledger and
+    bounded `Field^{<= C}` only for fixed-cover oscillation.
+  - >-
+    Installed implications remain downstream of the lower-carrier output:
+    `LCI.A+FCI.5f => CSP.A => OFP.A => CFI.A`.
+  - The honest contrapositive boundary is anchor plus `not LCI.A` forcing no
+    uniform bounded `Field^{<= C}` regime; jump manifestation is downstream
+    endpoint vocabulary, not installed fallout.
 - obligation_id: marvin-upstream-eb3fabeeac46
   kind: definition
   label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
@@ -1097,16 +1126,16 @@ obligations:
     bounded pack gauge, finite required parameter set, or upstream construction
     of the averaged receiver/source spine.
 summary:
-  total_obligations: 73
+  total_obligations: 74
   grounded_count: 2
   structural_only_count: 0
   structurally_supported_count: 1
   bridge_pending_count: 5
   unresolved_count: 17
-  frontier_count: 48
+  frontier_count: 49
   bridge_discharge_blocking_count: 0
   theorem_warrant_blocking_count: 0
-  blocking_count: 70
+  blocking_count: 71
   all_discharged: false
   live_theorem_edge_present: true
   live_theorem_edge_branch_count: 1
@@ -1114,4 +1143,4 @@ summary:
 submission_blockers:
 - There are 17 unresolved proof obligations.
 - There are 5 bridge obligations still awaiting local discharge.
-- There are 48 frontier obligations still inside the theorem packet.
+- There are 49 frontier obligations still inside the theorem packet.
