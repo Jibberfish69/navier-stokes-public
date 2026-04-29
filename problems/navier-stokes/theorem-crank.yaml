@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-29T18:08:43Z'
+  generated_at: '2026-04-29T18:10:45Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -191,18 +191,18 @@ frontier_projection:
   recommended_next_cell_type: dependency-discharge
 summary:
   phase: local-derivation
-  execution_state: actively-working
+  execution_state: needs-reroute
   leadership_status: leading
   alignment_complete: true
   exact_local_packet_count: 3
   net_new_local_theorem_count: 4
   projected_frontier_count: 2
   current_open_obligation_count: 8
-  open_obligations_state: active-work
-  on_recommended_track: true
+  open_obligations_state: not-currently-worked
+  on_recommended_track: false
   recommended_next_cell_type: dependency-discharge
   audit_status: audited-needs-fix
   branch_terminal_status: all-terminal
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: dependency-discharge
+  current_next_cell_type: creative-theorem-search
   current_next_cell_is_theorem_work: true
