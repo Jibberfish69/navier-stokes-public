@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-29T18:25:53Z'
+  generated_at: '2026-04-29T18:27:55Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-1d4e40f49876
-    route_signature: 1d4e40f498768b494d97dab718d5a917c5b65175
+    surface_id: theorem-surface-navier-stokes-4c2d137c7c95
+    route_signature: 4c2d137c7c95b7163cadfbb7ad95f93421471039
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -40,7 +40,7 @@ shared_alignment:
         on the lane. On the classical side, isolated the mixed-jet system, the exact
         rung-level can'
       kind: definition
-      status: unresolved
+      status: bridge-pending
       patch_surface: problems/navier-stokes/marvin-ingest-notes.yaml
     - slot_id: marvin-upstream-ada9835aa864
       label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m
@@ -165,22 +165,22 @@ cross_lane_broadcast:
     kind: lemma
     status: localized-support
     origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+    source_anchor: 'gap-ticket: burden-item'
   - label: lower-carrier receiver wall
     kind: lemma
     status: localized-support
     origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+    source_anchor: 'gap-ticket: burden-item'
   - label: collar-to-jump converse pivot
     kind: lemma
     status: localized-support
     origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+    source_anchor: 'gap-ticket: burden-item'
   - label: Keep theorem scope below the first unsafe overclaim
     kind: lemma
     status: localized-support
     origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+    source_anchor: 'claim-ladder: Lowest Safe Claim'
   - label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
       Clay whole-space target into exact source-backed ingredients already present
       on the lane. On the classical side, isolated the mixed-jet system, the exact
@@ -250,5 +250,5 @@ summary:
   audit_status: audited-needs-fix
   branch_terminal_status: all-terminal
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: solver-loop
+  current_next_cell_type: dependency-discharge
   current_next_cell_is_theorem_work: true

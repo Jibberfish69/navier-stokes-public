@@ -4,14 +4,14 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T18:23:17Z'
+  generated_at: '2026-04-29T18:27:54Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
 posture:
   theorem_target: conditional terminal class-membership lane closure packet
-  current_package_status: conditional-terminal-locally-closed
-  standalone_status: conditional-only; not full-MPP export
+  current_package_status: active
+  standalone_status: revise
   completion_tier_achieved: route-complete
   review_verdict: conditional-pass
   live_theorem_edge_present: true
@@ -242,6 +242,7 @@ obligations:
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
+  - This obligation is not yet discharged locally.
 - obligation_id: debt-lower-carrier-receiver-wall
   kind: lemma
   label: lower-carrier receiver wall
@@ -251,6 +252,7 @@ obligations:
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
+  - This obligation is not yet discharged locally.
 - obligation_id: debt-collar-to-jump-converse-pivot
   kind: lemma
   label: collar-to-jump converse pivot
@@ -260,6 +262,7 @@ obligations:
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
+  - This obligation is not yet discharged locally.
 - obligation_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   kind: lemma
   label: Keep theorem scope below the first unsafe overclaim
@@ -269,6 +272,7 @@ obligations:
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
+  - This obligation is not yet discharged locally.
 - obligation_id: warrant-theorem-2.1
   kind: theorem-warrant
   label: Theorem 2.1 (Classical Closure)
@@ -824,11 +828,17 @@ summary:
   bridge_pending_count: 6
   unresolved_count: 10
   frontier_count: 40
+  bridge_discharge_blocking_count: 0
+  theorem_warrant_blocking_count: 0
   blocking_count: 57
   all_discharged: false
+  live_theorem_edge_present: true
+  live_theorem_edge_branch_count: 0
+  live_theorem_edge_blocked_count: 0
 submission_blockers:
 - There are 1 theorem-critical obligations that are only structurally supported and
   still need source-backed or discharge-backed grounding.
 - There are 10 unresolved proof obligations.
 - There are 6 bridge obligations still awaiting local discharge.
 - There are 40 frontier obligations still inside the theorem packet.
+- Stand-alone status remains `revise`.

@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-29T18:23:17Z'
+  generated_at: '2026-04-29T18:27:54Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -27,7 +27,7 @@ remaining_open_obligations:
     the lane. On the classical side, isolated the mixed-jet system, the exact rung-level
     can'
   kind: definition
-  status: unresolved
+  status: bridge-pending
 - obligation_id: marvin-upstream-ada9835aa864
   label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
     u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
@@ -84,7 +84,7 @@ remaining_open_obligation_groups:
       on the lane. On the classical side, isolated the mixed-jet system, the exact
       rung-level can'
     kind: definition
-    status: unresolved
+    status: bridge-pending
   - obligation_id: marvin-upstream-ada9835aa864
     label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
       u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
@@ -144,7 +144,7 @@ next_solver_targets:
     the lane. On the classical side, isolated the mixed-jet system, the exact rung-level
     can'
   kind: definition
-  status: unresolved
+  status: bridge-pending
 - obligation_id: marvin-upstream-ada9835aa864
   label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
     u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
@@ -159,8 +159,8 @@ next_solver_targets:
   kind: definition
   status: unresolved
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-1d4e40f49876
-  route_signature: 1d4e40f498768b494d97dab718d5a917c5b65175
+  surface_id: theorem-surface-navier-stokes-4c2d137c7c95
+  route_signature: 4c2d137c7c95b7163cadfbb7ad95f93421471039
   theorem_target: conditional terminal class-membership lane closure packet
   theorem_statement: The official Clay target allows either the whole-space branch
     on R^3 or the periodic branch on T^3.
@@ -192,7 +192,7 @@ theorem_surface:
       on the lane. On the classical side, isolated the mixed-jet system, the exact
       rung-level can'
     kind: definition
-    status: unresolved
+    status: bridge-pending
     source_anchor: problems/navier-stokes/marvin-ingest-notes.yaml
     patch_surface: problems/navier-stokes/marvin-ingest-notes.yaml
   - slot_id: marvin-upstream-ada9835aa864
@@ -306,4 +306,4 @@ summary:
   tracked_source_count: 141
   synthesis_import_surface_count: 15
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-1d4e40f49876
+  theorem_surface_id: theorem-surface-navier-stokes-4c2d137c7c95
