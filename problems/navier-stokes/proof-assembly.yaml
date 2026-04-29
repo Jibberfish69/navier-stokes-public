@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-29T19:06:17Z'
+  generated_at: '2026-04-29T19:09:28Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -43,34 +43,34 @@ source_grounded_chain:
 - collar-to-jump converse pivot
 - Keep theorem scope below the first unsafe overclaim
 - Theorem 2.1 (Classical Closure)
-- The original framework names a monotone functional `Q(t)` as a bridge, not just
-  unnamed baseline energy -> Global energy or enstrophy control is necessary but not
-  sufficient
+- The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
+  or `T^3` -> Success for regularized or morphic-regularized equations does not close
+  the original problem
 tentative_extension_chain:
-- branch_id: branch-navier-stokes-1
-  origin_obligation_id: proof-dependency-1
-  hypothesis: If the Clay target is the official 3D incompressible Navier-Stokes problem
-    on `R^3` or `T^3` and the mediating object is localized on the same theorem surface,
-    then success for regularized or morphic-regularized equations does not close the
-    original problem.
+- branch_id: branch-navier-stokes-2
+  origin_obligation_id: proof-dependency-3
+  hypothesis: If the original framework names a monotone functional `Q(t)` as a bridge,
+    not just unnamed baseline energy and the mediating object is localized on the
+    same theorem surface, then global energy or enstrophy control is necessary but
+    not sufficient.
 - branch_id: branch-navier-stokes-3
   origin_obligation_id: proof-dependency-4
   hypothesis: If global energy or enstrophy control is necessary but not sufficient
     and the mediating object is localized on the same theorem surface, then the live
     obstruction is the small-scale or high-frequency cascade that feeds blow-up.
 remaining_open_obligations:
-- obligation_id: proof-dependency-1
-  label: The Clay target is the official 3D incompressible Navier-Stokes problem on
-    `R^3` or `T^3` -> Success for regularized or morphic-regularized equations does
-    not close the original problem
-  kind: proof-dependency
-  status: bridge-pending
 - obligation_id: proof-dependency-2
   label: Success for regularized or morphic-regularized equations does not close the
     original problem -> The original framework names a monotone functional `Q(t)`
     as a bridge, not just unnamed baseline energy
   kind: proof-dependency
   status: unresolved
+- obligation_id: proof-dependency-3
+  label: The original framework names a monotone functional `Q(t)` as a bridge, not
+    just unnamed baseline energy -> Global energy or enstrophy control is necessary
+    but not sufficient
+  kind: proof-dependency
+  status: bridge-pending
 - obligation_id: proof-dependency-4
   label: Global energy or enstrophy control is necessary but not sufficient -> The
     live obstruction is the small-scale or high-frequency cascade that feeds blow-up
@@ -90,18 +90,18 @@ remaining_open_obligations:
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
   math_frontier_obligations:
-  - obligation_id: proof-dependency-1
-    label: The Clay target is the official 3D incompressible Navier-Stokes problem
-      on `R^3` or `T^3` -> Success for regularized or morphic-regularized equations
-      does not close the original problem
-    kind: proof-dependency
-    status: bridge-pending
   - obligation_id: proof-dependency-2
     label: Success for regularized or morphic-regularized equations does not close
       the original problem -> The original framework names a monotone functional `Q(t)`
       as a bridge, not just unnamed baseline energy
     kind: proof-dependency
     status: unresolved
+  - obligation_id: proof-dependency-3
+    label: The original framework names a monotone functional `Q(t)` as a bridge,
+      not just unnamed baseline energy -> Global energy or enstrophy control is necessary
+      but not sufficient
+    kind: proof-dependency
+    status: bridge-pending
   - obligation_id: proof-dependency-4
     label: Global energy or enstrophy control is necessary but not sufficient -> The
       live obstruction is the small-scale or high-frequency cascade that feeds blow-up
@@ -152,26 +152,26 @@ frontier_context:
     status: bridge-pending
   additional_context_obligations: []
 next_solver_targets:
-- obligation_id: proof-dependency-1
-  label: The Clay target is the official 3D incompressible Navier-Stokes problem on
-    `R^3` or `T^3` -> Success for regularized or morphic-regularized equations does
-    not close the original problem
-  kind: proof-dependency
-  status: bridge-pending
 - obligation_id: proof-dependency-2
   label: Success for regularized or morphic-regularized equations does not close the
     original problem -> The original framework names a monotone functional `Q(t)`
     as a bridge, not just unnamed baseline energy
   kind: proof-dependency
   status: unresolved
+- obligation_id: proof-dependency-3
+  label: The original framework names a monotone functional `Q(t)` as a bridge, not
+    just unnamed baseline energy -> Global energy or enstrophy control is necessary
+    but not sufficient
+  kind: proof-dependency
+  status: bridge-pending
 - obligation_id: proof-dependency-4
   label: Global energy or enstrophy control is necessary but not sufficient -> The
     live obstruction is the small-scale or high-frequency cascade that feeds blow-up
   kind: proof-dependency
   status: bridge-pending
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-c91ebf1bbe67
-  route_signature: c91ebf1bbe6758ca2ba3bd88b70f261c279f796d
+  surface_id: theorem-surface-navier-stokes-8fc6b50cb922
+  route_signature: 8fc6b50cb9228808d7f75c2d9e5b815c35f18f10
   theorem_target: conditional terminal class-membership lane closure packet
   theorem_statement: The official Clay target allows either the whole-space branch
     on R^3 or the periodic branch on T^3.
@@ -197,21 +197,21 @@ theorem_surface:
     = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
     not the internal branch itself
   route_slots:
-  - slot_id: proof-dependency-1
-    label: The Clay target is the official 3D incompressible Navier-Stokes problem
-      on `R^3` or `T^3` -> Success for regularized or morphic-regularized equations
-      does not close the original problem
-    kind: proof-dependency
-    status: bridge-pending
-    source_anchor: Later theorem prose depends on the earlier claim being localized
-      first.
-    patch_surface: problems/navier-stokes/formalization-ledger.md
   - slot_id: proof-dependency-2
     label: Success for regularized or morphic-regularized equations does not close
       the original problem -> The original framework names a monotone functional `Q(t)`
       as a bridge, not just unnamed baseline energy
     kind: proof-dependency
     status: unresolved
+    source_anchor: Later theorem prose depends on the earlier claim being localized
+      first.
+    patch_surface: problems/navier-stokes/formalization-ledger.md
+  - slot_id: proof-dependency-3
+    label: The original framework names a monotone functional `Q(t)` as a bridge,
+      not just unnamed baseline energy -> Global energy or enstrophy control is necessary
+      but not sufficient
+    kind: proof-dependency
+    status: bridge-pending
     source_anchor: Later theorem prose depends on the earlier claim being localized
       first.
     patch_surface: problems/navier-stokes/formalization-ledger.md
@@ -317,4 +317,4 @@ summary:
   tracked_source_count: 141
   synthesis_import_surface_count: 15
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-c91ebf1bbe67
+  theorem_surface_id: theorem-surface-navier-stokes-8fc6b50cb922

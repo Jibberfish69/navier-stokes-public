@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   branch_set_id: extension-branches-navier-stokes
-  generated_at: '2026-04-29T19:06:17Z'
+  generated_at: '2026-04-29T19:06:46Z'
   generator: system/runner/lib/lemma_synthesis_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -14,22 +14,6 @@ provenance_policy:
     and promotion.
 branches:
 - branch_id: branch-navier-stokes-1
-  origin_obligation_id: proof-dependency-1
-  branch_type: bridge-lemma
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: If the Clay target is the official 3D incompressible Navier-Stokes problem
-    on `R^3` or `T^3` and the mediating object is localized on the same theorem surface,
-    then success for regularized or morphic-regularized equations does not close the
-    original problem.
-  depends_on:
-  - warrant-theorem-2.1
-  - proof-dependency-3
-  - proof-dependency-1
-  risk_level: medium
-  notes:
-  - This branch starts exactly at the first unresolved frontier for `proof-dependency-1`.
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-2
   origin_obligation_id: proof-dependency-2
   branch_type: bridge-lemma
   provenance: machine-derived-beyond-source-frontier
@@ -39,8 +23,24 @@ branches:
     not just unnamed baseline energy.
   depends_on:
   - warrant-theorem-2.1
-  - proof-dependency-3
+  - proof-dependency-1
   - proof-dependency-2
+  risk_level: medium
+  notes:
+  - This branch starts exactly at the first unresolved frontier for `proof-dependency-2`.
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-2
+  origin_obligation_id: proof-dependency-3
+  branch_type: bridge-lemma
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: If the original framework names a monotone functional `Q(t)` as a bridge,
+    not just unnamed baseline energy and the mediating object is localized on the
+    same theorem surface, then global energy or enstrophy control is necessary but
+    not sufficient.
+  depends_on:
+  - warrant-theorem-2.1
+  - proof-dependency-1
+  - proof-dependency-3
   risk_level: medium
   notes: []
   merge_policy: quarantined-until-promoted
@@ -53,7 +53,7 @@ branches:
     obstruction is the small-scale or high-frequency cascade that feeds blow-up.
   depends_on:
   - warrant-theorem-2.1
-  - proof-dependency-3
+  - proof-dependency-1
   - proof-dependency-4
   risk_level: medium
   notes: []
@@ -69,7 +69,7 @@ branches:
     tensor closure on the periodic/operator approximation family.
   depends_on:
   - warrant-theorem-2.1
-  - proof-dependency-3
+  - proof-dependency-1
   - proof-dependency-7
   risk_level: medium
   notes:

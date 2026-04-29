@@ -23,10 +23,15 @@
 - First unsafe overclaim to avoid: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
 - Recovered support is still classified as strong, so the local package remains a revise-stage workboard.
 
-## Required Local Explanations For A Paper
+## Status Synchronization Notes
 
 - Six-burden labels are terminal/context under H1-H6 and must not be resurfaced as active local debt.
 - Global energy or enstrophy control is grounded locally by `MUP.EI` as necessary infrastructure, not as a closure mechanism.
+- "Scope below first unsafe overclaim" is prose/status hygiene, not a separate analytic obstruction.
+
+## Required Local Explanations For A Paper
+
+No active local explanation demand remains in this synchronization packet.
 
 ## Promotion Rule
 

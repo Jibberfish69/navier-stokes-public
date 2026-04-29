@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T19:06:17Z'
+  generated_at: '2026-04-29T19:09:28Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
@@ -194,13 +194,25 @@ obligations:
   label: The Clay target is the official 3D incompressible Navier-Stokes problem on
     `R^3` or `T^3` -> Success for regularized or morphic-regularized equations does
     not close the original problem
-  status: bridge-pending
+  status: grounded
   source_anchor: Later theorem prose depends on the earlier claim being localized
     first.
-  blocking: true
+  blocking: false
   notes:
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
+  - Dependency-discharge promoted this obligation to grounded in /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/dependency-discharge.yaml.
+  discharge_evidence:
+    matched_paths:
+    - problems/navier-stokes/target-fidelity-discharge-source-pack.md
+    - problems/navier-stokes/claim-ladder.md
+    - problems/navier-stokes/route-lock.yaml
+    - problems/navier-stokes/closure-audit-source-pack.md
+    - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+    - problems/navier-stokes/gradient-discharge-source-pack.md
+    - problems/navier-stokes/nonlinear-closure-discharge-source-pack.md
+    - problems/navier-stokes/projected-nc-flow-clay-frontier.md
+    source: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/dependency-discharge.yaml"
 - obligation_id: proof-dependency-2
   kind: proof-dependency
   label: Success for regularized or morphic-regularized equations does not close the
@@ -218,25 +230,13 @@ obligations:
   label: The original framework names a monotone functional `Q(t)` as a bridge, not
     just unnamed baseline energy -> Global energy or enstrophy control is necessary
     but not sufficient
-  status: grounded
+  status: bridge-pending
   source_anchor: Later theorem prose depends on the earlier claim being localized
     first.
-  blocking: false
+  blocking: true
   notes:
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
-  - Dependency-discharge promoted this obligation to grounded in /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/dependency-discharge.yaml.
-  discharge_evidence:
-    matched_paths:
-    - problems/navier-stokes/claim-ladder.md
-    - problems/navier-stokes/formalization-ledger.md
-    - problems/navier-stokes/monotone-functional-discharge-source-pack.md
-    - problems/navier-stokes/debt-map.yaml
-    - problems/navier-stokes/energy-insufficiency-source-pack.md
-    - problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
-    - problems/navier-stokes/interdependencies-discharge-source-pack.md
-    - problems/navier-stokes/gradient-discharge-source-pack.md
-    source: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/dependency-discharge.yaml"
 - obligation_id: proof-dependency-4
   kind: proof-dependency
   label: Global energy or enstrophy control is necessary but not sufficient -> The

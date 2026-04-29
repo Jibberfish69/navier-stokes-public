@@ -5,7 +5,7 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-04-29T19:05:03Z'
+  extracted_at: '2026-04-29T19:08:36Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
@@ -22,11 +22,7 @@ supporting_sections:
     route-local or data-class-local statement.'
   - Recovered support is still classified as strong, so the local package remains
     a revise-stage workboard.
-  required_local_explanations:
-  - Six-burden labels are terminal/context under H1-H6 and must not be resurfaced
-    as active local debt.
-  - Global energy or enstrophy control is grounded locally by `MUP.EI` as necessary
-    infrastructure, not as a closure mechanism.
+  required_local_explanations: []
   promotion_rule:
   - Do not promote beyond `revise` until every row marked as a live theorem burden
     has either been localized into the local package or explicitly parked below the
