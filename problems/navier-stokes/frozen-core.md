@@ -27,14 +27,18 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - Keep theorem scope below the first unsafe overclaim (`lemma`; `debt-keep-theorem-scope-below-the-first-unsafe-overclaim`)
 - Theorem 2.1 (Classical Closure) (`theorem-warrant`; `warrant-theorem-2.1`)
 - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3` or `T^3` -> Success for regularized or morphic-regularized equations does not close the original problem (`proof-dependency`; `proof-dependency-1`)
-
-## Source Frontier
-
-- `first_unresolved`: Success for regularized or morphic-regularized equations does not close the original problem -> The original framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy (`proof-dependency`; `proof-dependency-2`)
 - Success for regularized or morphic-regularized equations does not close the original problem -> The original framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy (`proof-dependency`; `proof-dependency-2`)
 - The original framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy -> Global energy or enstrophy control is necessary but not sufficient (`proof-dependency`; `proof-dependency-3`)
 - Global energy or enstrophy control is necessary but not sufficient -> The live obstruction is the small-scale or high-frequency cascade that feeds blow-up (`proof-dependency`; `proof-dependency-4`)
+- The live obstruction is the small-scale or high-frequency cascade that feeds blow-up -> A periodic shell or dyadic tail estimate must suppress dangerous high-frequency transfer on the chosen torus-first theorem surface (`proof-dependency`; `proof-dependency-5`)
+- A periodic shell or dyadic tail estimate must suppress dangerous high-frequency transfer on the chosen torus-first theorem surface -> The monotone functional must stabilize the global energy/enstrophy layer and enable the compactness package on that same periodic classical surface (`proof-dependency`; `proof-dependency-6`)
 - The monotone functional must stabilize the global energy/enstrophy layer and enable the compactness package on that same periodic classical surface -> The scale-barrier plus monotone-functional input must yield strong local compactness and nonlinear tensor closure on the periodic/operator approximation family (`proof-dependency`; `proof-dependency-7`)
+- The scale-barrier plus monotone-functional input must yield strong local compactness and nonlinear tensor closure on the periodic/operator approximation family -> A heat-governed deformation or continuation bridge must force continuation control on the same periodic theorem surface (`proof-dependency`; `proof-dependency-8`)
+- A heat-governed deformation or continuation bridge must force continuation control on the same periodic theorem surface -> If the scale-barrier, monotone-functional, compactness, and continuation packages all hold on the active periodic branch, then the periodic Clay branch with `f = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem, not the internal branch itself (`proof-dependency`; `proof-dependency-9`)
+
+## Source Frontier
+
+- No unresolved frontier obligations remain.
 
 ## Source Surfaces
 

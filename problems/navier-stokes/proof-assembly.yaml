@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-29T19:11:48Z'
+  generated_at: '2026-04-29T19:15:23Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -46,74 +46,43 @@ source_grounded_chain:
 - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
   or `T^3` -> Success for regularized or morphic-regularized equations does not close
   the original problem
-tentative_extension_chain:
-- branch_id: branch-navier-stokes-2
-  origin_obligation_id: proof-dependency-3
-  hypothesis: If the original framework names a monotone functional `Q(t)` as a bridge,
-    not just unnamed baseline energy and the mediating object is localized on the
-    same theorem surface, then global energy or enstrophy control is necessary but
-    not sufficient.
-- branch_id: branch-navier-stokes-3
-  origin_obligation_id: proof-dependency-4
-  hypothesis: If global energy or enstrophy control is necessary but not sufficient
-    and the mediating object is localized on the same theorem surface, then the live
-    obstruction is the small-scale or high-frequency cascade that feeds blow-up.
+- Success for regularized or morphic-regularized equations does not close the original
+  problem -> The original framework names a monotone functional `Q(t)` as a bridge,
+  not just unnamed baseline energy
+- The original framework names a monotone functional `Q(t)` as a bridge, not just
+  unnamed baseline energy -> Global energy or enstrophy control is necessary but not
+  sufficient
+- Global energy or enstrophy control is necessary but not sufficient -> The live obstruction
+  is the small-scale or high-frequency cascade that feeds blow-up
+- The live obstruction is the small-scale or high-frequency cascade that feeds blow-up
+  -> A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
+  transfer on the chosen torus-first theorem surface
+- A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
+  transfer on the chosen torus-first theorem surface -> The monotone functional must
+  stabilize the global energy/enstrophy layer and enable the compactness package on
+  that same periodic classical surface
+- The monotone functional must stabilize the global energy/enstrophy layer and enable
+  the compactness package on that same periodic classical surface -> The scale-barrier
+  plus monotone-functional input must yield strong local compactness and nonlinear
+  tensor closure on the periodic/operator approximation family
+- The scale-barrier plus monotone-functional input must yield strong local compactness
+  and nonlinear tensor closure on the periodic/operator approximation family -> A
+  heat-governed deformation or continuation bridge must force continuation control
+  on the same periodic theorem surface
+- A heat-governed deformation or continuation bridge must force continuation control
+  on the same periodic theorem surface -> If the scale-barrier, monotone-functional,
+  compactness, and continuation packages all hold on the active periodic branch, then
+  the periodic Clay branch with `f = 0` follows; any whole-space statement on `R^3`
+  is a downstream discharge theorem, not the internal branch itself
+tentative_extension_chain: []
 remaining_open_obligations:
-- obligation_id: proof-dependency-2
-  label: Success for regularized or morphic-regularized equations does not close the
-    original problem -> The original framework names a monotone functional `Q(t)`
-    as a bridge, not just unnamed baseline energy
-  kind: proof-dependency
-  status: unresolved
-- obligation_id: proof-dependency-3
-  label: The original framework names a monotone functional `Q(t)` as a bridge, not
-    just unnamed baseline energy -> Global energy or enstrophy control is necessary
-    but not sufficient
-  kind: proof-dependency
-  status: bridge-pending
-- obligation_id: proof-dependency-4
-  label: Global energy or enstrophy control is necessary but not sufficient -> The
-    live obstruction is the small-scale or high-frequency cascade that feeds blow-up
-  kind: proof-dependency
-  status: bridge-pending
-- obligation_id: proof-dependency-7
-  label: The monotone functional must stabilize the global energy/enstrophy layer
-    and enable the compactness package on that same periodic classical surface ->
-    The scale-barrier plus monotone-functional input must yield strong local compactness
-    and nonlinear tensor closure on the periodic/operator approximation family
-  kind: proof-dependency
-  status: bridge-pending
 - obligation_id: warrant-theorem-2.1
   label: Theorem 2.1 (Classical Closure)
   kind: theorem-warrant
   status: bridge-pending
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
-  math_frontier_obligations:
-  - obligation_id: proof-dependency-2
-    label: Success for regularized or morphic-regularized equations does not close
-      the original problem -> The original framework names a monotone functional `Q(t)`
-      as a bridge, not just unnamed baseline energy
-    kind: proof-dependency
-    status: unresolved
-  - obligation_id: proof-dependency-3
-    label: The original framework names a monotone functional `Q(t)` as a bridge,
-      not just unnamed baseline energy -> Global energy or enstrophy control is necessary
-      but not sufficient
-    kind: proof-dependency
-    status: bridge-pending
-  - obligation_id: proof-dependency-4
-    label: Global energy or enstrophy control is necessary but not sufficient -> The
-      live obstruction is the small-scale or high-frequency cascade that feeds blow-up
-    kind: proof-dependency
-    status: bridge-pending
-  - obligation_id: proof-dependency-7
-    label: The monotone functional must stabilize the global energy/enstrophy layer
-      and enable the compactness package on that same periodic classical surface ->
-      The scale-barrier plus monotone-functional input must yield strong local compactness
-      and nonlinear tensor closure on the periodic/operator approximation family
-    kind: proof-dependency
-    status: bridge-pending
+  math_frontier_obligations: []
   theorem_warrant_obligations:
   - obligation_id: warrant-theorem-2.1
     label: Theorem 2.1 (Classical Closure)
@@ -121,57 +90,16 @@ remaining_open_obligation_groups:
     status: bridge-pending
 frontier_context:
   route_container_obligations: []
-  downstream_support_obligations:
-  - obligation_id: proof-dependency-5
-    label: The live obstruction is the small-scale or high-frequency cascade that
-      feeds blow-up -> A periodic shell or dyadic tail estimate must suppress dangerous
-      high-frequency transfer on the chosen torus-first theorem surface
-    kind: proof-dependency
-    status: unresolved
-  - obligation_id: proof-dependency-6
-    label: A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
-      transfer on the chosen torus-first theorem surface -> The monotone functional
-      must stabilize the global energy/enstrophy layer and enable the compactness
-      package on that same periodic classical surface
-    kind: proof-dependency
-    status: bridge-pending
-  - obligation_id: proof-dependency-8
-    label: The scale-barrier plus monotone-functional input must yield strong local
-      compactness and nonlinear tensor closure on the periodic/operator approximation
-      family -> A heat-governed deformation or continuation bridge must force continuation
-      control on the same periodic theorem surface
-    kind: proof-dependency
-    status: unresolved
-  - obligation_id: proof-dependency-9
-    label: A heat-governed deformation or continuation bridge must force continuation
-      control on the same periodic theorem surface -> If the scale-barrier, monotone-functional,
-      compactness, and continuation packages all hold on the active periodic branch,
-      then the periodic Clay branch with `f = 0` follows; any whole-space statement
-      on `R^3` is a downstream discharge theorem, not the internal branch itself
-    kind: proof-dependency
-    status: bridge-pending
+  downstream_support_obligations: []
   additional_context_obligations: []
 next_solver_targets:
-- obligation_id: proof-dependency-2
-  label: Success for regularized or morphic-regularized equations does not close the
-    original problem -> The original framework names a monotone functional `Q(t)`
-    as a bridge, not just unnamed baseline energy
-  kind: proof-dependency
-  status: unresolved
-- obligation_id: proof-dependency-3
-  label: The original framework names a monotone functional `Q(t)` as a bridge, not
-    just unnamed baseline energy -> Global energy or enstrophy control is necessary
-    but not sufficient
-  kind: proof-dependency
-  status: bridge-pending
-- obligation_id: proof-dependency-4
-  label: Global energy or enstrophy control is necessary but not sufficient -> The
-    live obstruction is the small-scale or high-frequency cascade that feeds blow-up
-  kind: proof-dependency
+- obligation_id: warrant-theorem-2.1
+  label: Theorem 2.1 (Classical Closure)
+  kind: theorem-warrant
   status: bridge-pending
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-8fc6b50cb922
-  route_signature: 8fc6b50cb9228808d7f75c2d9e5b815c35f18f10
+  surface_id: theorem-surface-navier-stokes-cf4997bedc84
+  route_signature: cf4997bedc844c73652b372393b08f85eed61895
   theorem_target: conditional terminal class-membership lane closure packet
   theorem_statement: The official Clay target allows either the whole-space branch
     on R^3 or the periodic branch on T^3.
@@ -197,32 +125,12 @@ theorem_surface:
     = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
     not the internal branch itself
   route_slots:
-  - slot_id: proof-dependency-2
-    label: Success for regularized or morphic-regularized equations does not close
-      the original problem -> The original framework names a monotone functional `Q(t)`
-      as a bridge, not just unnamed baseline energy
-    kind: proof-dependency
-    status: unresolved
-    source_anchor: Later theorem prose depends on the earlier claim being localized
-      first.
-    patch_surface: problems/navier-stokes/formalization-ledger.md
-  - slot_id: proof-dependency-3
-    label: The original framework names a monotone functional `Q(t)` as a bridge,
-      not just unnamed baseline energy -> Global energy or enstrophy control is necessary
-      but not sufficient
-    kind: proof-dependency
+  - slot_id: warrant-theorem-2.1
+    label: Theorem 2.1 (Classical Closure)
+    kind: theorem-warrant
     status: bridge-pending
-    source_anchor: Later theorem prose depends on the earlier claim being localized
-      first.
-    patch_surface: problems/navier-stokes/formalization-ledger.md
-  - slot_id: proof-dependency-4
-    label: Global energy or enstrophy control is necessary but not sufficient -> The
-      live obstruction is the small-scale or high-frequency cascade that feeds blow-up
-    kind: proof-dependency
-    status: bridge-pending
-    source_anchor: Later theorem prose depends on the earlier claim being localized
-      first.
-    patch_surface: problems/navier-stokes/formalization-ledger.md
+    source_anchor: problems/navier-stokes/external-paper/sections/main-result.tex
+    patch_surface: problems/navier-stokes/external-paper/sections/main-result.tex
   authority_layers:
     authoritative_proof_surfaces:
     - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_3-_Monotone_Functional.tex"
@@ -304,17 +212,17 @@ theorem_surface:
     cross_surface_splice: false
     sterilized_synthesis_import_count: 15
 summary:
-  grounded_step_count: 16
-  promoted_extension_count: 2
+  grounded_step_count: 24
+  promoted_extension_count: 0
   bridge_discharge_blocking_count: 1
   bridge_discharge_only_count: 0
   theorem_warrant_blocking_count: 1
-  open_obligation_count: 5
-  math_frontier_open_count: 4
-  frontier_context_count: 4
+  open_obligation_count: 1
+  math_frontier_open_count: 0
+  frontier_context_count: 0
   frontier_route_container_count: 0
-  frontier_downstream_support_count: 4
+  frontier_downstream_support_count: 0
   tracked_source_count: 141
   synthesis_import_surface_count: 15
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-8fc6b50cb922
+  theorem_surface_id: theorem-surface-navier-stokes-cf4997bedc84

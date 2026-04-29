@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-04-29T18:56:36Z'
+  generated_at: '2026-04-29T19:16:34Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_proof_assembly_id: proof-assembly-navier-stokes
 intervention:
-  reason: formalization-stalled
+  reason: no-candidates
   review_posture: revise-loop
   boundary_rule: Everything beyond the grounded core is machine extension until it
     survives falsification and promotion.
@@ -20,300 +20,20 @@ intervention:
     bounded subset is actively pursued.
 sandbox:
   mode: single-branch-sandbox
-  trigger: formalization-stalled
+  trigger: none
   survivor_writeback: Keep only branches that survive discharge, falsification, or
     refinement; demote the rest back into explicit debt.
   independent_branch_ids: []
-  co_dependent_branch_ids:
-  - creative-branch-navier-stokes-1
-  - creative-branch-navier-stokes-2
-  - creative-branch-navier-stokes-3
-  - creative-branch-navier-stokes-4
-  branch_execution_order:
-  - creative-branch-navier-stokes-1
-  - creative-branch-navier-stokes-2
-  - creative-branch-navier-stokes-3
-  - creative-branch-navier-stokes-4
-branch_pool:
-- &1
-  branch_id: creative-branch-navier-stokes-1
-  origin_obligation_id: proof-dependency-2
-  origin_kind: proof-dependency
-  source_status: bridge-pending
-  branch_type: bridge-lemma
-  pursuit_mode: co-dependent
-  candidate_claim: Insert a local bridge from success for regularized or morphic-regularized
-    equations does not close the original problem to the original framework names
-    a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy using
-    an explicit mediating object rather than narrative implication.
-  creative_move: Search for the missing mediating object or bounded inequality that
-    makes the implication local and testable.
-  invention_packet:
-    candidate_statement: Insert a local bridge from success for regularized or morphic-regularized
-      equations does not close the original problem to the original framework names
-      a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy using
-      an explicit mediating object rather than narrative implication.
-    mediating_object: local_bridge_object
-    proof_sketch:
-    - State the weakest exact claim that would advance `proof-dependency-2` without
-      expanding the theorem target.
-    - Define or isolate the mediating object on the current carrier/window/sector
-      only.
-    - Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `Success for regularized or
-      morphic-regularized equations does not close the original problem -> The original
-      framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline
-      energy`.
-    - Show how that object converts one already-grounded local statement into the
-      next missing step.
-    - Reject the move if it introduces new global scope, hidden imports, or a stronger
-      claim than the frozen frontier needs.
-    falsification_checks:
-    - Does the move preserve the frozen theorem target rather than redefining it?
-    - Can the candidate be stated on already-grounded objects without importing a
-      new theory chapter?
-    - Does it reduce at least one open obligation or turn a frontier statement into
-      a local discharge target?
-    - Reject if the branch only rephrases the existing gap without a new mediating
-      object or bounded inequality.
-    scope_guard: Insert only the weakest bridge sufficient to connect the current
-      grounded chain.
-  grounded_basis:
-  - debt-collar-to-jump-converse-pivot
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - proof-dependency-2
-  risk_level: medium-low
-  notes:
-  - The current object-formalization packet already failed to promote this exact target,
-    so this pass must mutate the theorem move instead of regenerating the same object.
-  - This branch is machine-derived beyond the current frozen core.
-  - Use the weakest sufficient move; do not inflate the theorem target.
-  recommended_next_cell_type: debt-extract
-  recommended_next_action: Creative theorem search selected `proof-dependency-2`.
-    The current object-formalization packet already failed to promote this exact target,
-    so split Success for regularized or morphic-regularized equations does not close
-    the original problem -> The original framework names a monotone functional `Q(t)`
-    as a bridge, not just unnamed baseline energy into a sharper local debt or bridge
-    burden instead of regenerating the same object.
-  merge_policy: quarantined-until-promoted
-- branch_id: creative-branch-navier-stokes-2
-  origin_obligation_id: proof-dependency-1
-  origin_kind: proof-dependency
-  source_status: bridge-pending
-  branch_type: bridge-lemma
-  pursuit_mode: co-dependent
-  candidate_claim: Insert a local bridge from the Clay target is the official 3D incompressible
-    Navier-Stokes problem on `R^3` or `T^3` to success for regularized or morphic-regularized
-    equations does not close the original problem using an explicit mediating object
-    rather than narrative implication.
-  creative_move: Search for the missing mediating object or bounded inequality that
-    makes the implication local and testable.
-  invention_packet:
-    candidate_statement: Insert a local bridge from the Clay target is the official
-      3D incompressible Navier-Stokes problem on `R^3` or `T^3` to success for regularized
-      or morphic-regularized equations does not close the original problem using an
-      explicit mediating object rather than narrative implication.
-    mediating_object: local_bridge_object
-    proof_sketch:
-    - State the weakest exact claim that would advance `proof-dependency-1` without
-      expanding the theorem target.
-    - Define or isolate the mediating object on the current carrier/window/sector
-      only.
-    - Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `The Clay target is the official
-      3D incompressible Navier-Stokes problem on `R^3` or `T^3` -> Success for regularized
-      or morphic-regularized equations does not close the original problem`.
-    - Show how that object converts one already-grounded local statement into the
-      next missing step.
-    - Reject the move if it introduces new global scope, hidden imports, or a stronger
-      claim than the frozen frontier needs.
-    falsification_checks:
-    - Does the move preserve the frozen theorem target rather than redefining it?
-    - Can the candidate be stated on already-grounded objects without importing a
-      new theory chapter?
-    - Does it reduce at least one open obligation or turn a frontier statement into
-      a local discharge target?
-    - Reject if the branch only rephrases the existing gap without a new mediating
-      object or bounded inequality.
-    scope_guard: Insert only the weakest bridge sufficient to connect the current
-      grounded chain.
-  grounded_basis:
-  - debt-collar-to-jump-converse-pivot
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - proof-dependency-1
-  risk_level: medium-low
-  notes:
-  - This branch starts at the first unresolved frontier.
-  - This branch is machine-derived beyond the current frozen core.
-  - Use the weakest sufficient move; do not inflate the theorem target.
-  recommended_next_cell_type: dependency-discharge
-  recommended_next_action: Creative theorem search selected `proof-dependency-1`.
-    Use the invention packet to ground a new explicit bridge for The Clay target is
-    the official 3D incompressible Navier-Stokes problem on `R^3` or `T^3` -> Success
-    for regularized or morphic-regularized equations does not close the original problem
-    through dependency-discharge.
-  merge_policy: quarantined-until-promoted
-- branch_id: creative-branch-navier-stokes-3
-  origin_obligation_id: proof-dependency-3
-  origin_kind: proof-dependency
-  source_status: bridge-pending
-  branch_type: bridge-lemma
-  pursuit_mode: co-dependent
-  candidate_claim: Insert a local bridge from the original framework names a monotone
-    functional `Q(t)` as a bridge, not just unnamed baseline energy to global energy
-    or enstrophy control is necessary but not sufficient using an explicit mediating
-    object rather than narrative implication.
-  creative_move: Search for the missing mediating object or bounded inequality that
-    makes the implication local and testable.
-  invention_packet:
-    candidate_statement: Insert a local bridge from the original framework names a
-      monotone functional `Q(t)` as a bridge, not just unnamed baseline energy to
-      global energy or enstrophy control is necessary but not sufficient using an
-      explicit mediating object rather than narrative implication.
-    mediating_object: local_bridge_object
-    proof_sketch:
-    - State the weakest exact claim that would advance `proof-dependency-3` without
-      expanding the theorem target.
-    - Define or isolate the mediating object on the current carrier/window/sector
-      only.
-    - Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `The original framework names
-      a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy ->
-      Global energy or enstrophy control is necessary but not sufficient`.
-    - Show how that object converts one already-grounded local statement into the
-      next missing step.
-    - Reject the move if it introduces new global scope, hidden imports, or a stronger
-      claim than the frozen frontier needs.
-    falsification_checks:
-    - Does the move preserve the frozen theorem target rather than redefining it?
-    - Can the candidate be stated on already-grounded objects without importing a
-      new theory chapter?
-    - Does it reduce at least one open obligation or turn a frontier statement into
-      a local discharge target?
-    - Reject if the branch only rephrases the existing gap without a new mediating
-      object or bounded inequality.
-    scope_guard: Insert only the weakest bridge sufficient to connect the current
-      grounded chain.
-  grounded_basis:
-  - debt-collar-to-jump-converse-pivot
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - proof-dependency-3
-  risk_level: medium-low
-  notes:
-  - This branch is machine-derived beyond the current frozen core.
-  - Use the weakest sufficient move; do not inflate the theorem target.
-  recommended_next_cell_type: dependency-discharge
-  recommended_next_action: Creative theorem search selected `proof-dependency-3`.
-    Use the invention packet to ground a new explicit bridge for The original framework
-    names a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy
-    -> Global energy or enstrophy control is necessary but not sufficient through
-    dependency-discharge.
-  merge_policy: quarantined-until-promoted
-- branch_id: creative-branch-navier-stokes-4
-  origin_obligation_id: proof-dependency-4
-  origin_kind: proof-dependency
-  source_status: bridge-pending
-  branch_type: bridge-lemma
-  pursuit_mode: co-dependent
-  candidate_claim: Insert a local bridge from global energy or enstrophy control is
-    necessary but not sufficient to the live obstruction is the small-scale or high-frequency
-    cascade that feeds blow-up using an explicit mediating object rather than narrative
-    implication.
-  creative_move: Search for the missing mediating object or bounded inequality that
-    makes the implication local and testable.
-  invention_packet:
-    candidate_statement: Insert a local bridge from global energy or enstrophy control
-      is necessary but not sufficient to the live obstruction is the small-scale or
-      high-frequency cascade that feeds blow-up using an explicit mediating object
-      rather than narrative implication.
-    mediating_object: local_bridge_object
-    proof_sketch:
-    - State the weakest exact claim that would advance `proof-dependency-4` without
-      expanding the theorem target.
-    - Define or isolate the mediating object on the current carrier/window/sector
-      only.
-    - Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `Global energy or enstrophy
-      control is necessary but not sufficient -> The live obstruction is the small-scale
-      or high-frequency cascade that feeds blow-up`.
-    - Show how that object converts one already-grounded local statement into the
-      next missing step.
-    - Reject the move if it introduces new global scope, hidden imports, or a stronger
-      claim than the frozen frontier needs.
-    falsification_checks:
-    - Does the move preserve the frozen theorem target rather than redefining it?
-    - Can the candidate be stated on already-grounded objects without importing a
-      new theory chapter?
-    - Does it reduce at least one open obligation or turn a frontier statement into
-      a local discharge target?
-    - Reject if the branch only rephrases the existing gap without a new mediating
-      object or bounded inequality.
-    scope_guard: Insert only the weakest bridge sufficient to connect the current
-      grounded chain.
-  grounded_basis:
-  - debt-collar-to-jump-converse-pivot
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - proof-dependency-4
-  risk_level: medium-low
-  notes:
-  - This branch is machine-derived beyond the current frozen core.
-  - Use the weakest sufficient move; do not inflate the theorem target.
-  recommended_next_cell_type: dependency-discharge
-  recommended_next_action: Creative theorem search selected `proof-dependency-4`.
-    Use the invention packet to ground a new explicit bridge for Global energy or
-    enstrophy control is necessary but not sufficient -> The live obstruction is the
-    small-scale or high-frequency cascade that feeds blow-up through dependency-discharge.
-  merge_policy: quarantined-until-promoted
-candidate_archive:
-- origin_obligation_id: proof-dependency-2
-  origin_kind: proof-dependency
-  label: Success for regularized or morphic-regularized equations does not close the
-    original problem -> The original framework names a monotone functional `Q(t)`
-    as a bridge, not just unnamed baseline energy
-  status: bridge-pending
-  promoted_into_branch_pool: true
-- origin_obligation_id: proof-dependency-1
-  origin_kind: proof-dependency
-  label: The Clay target is the official 3D incompressible Navier-Stokes problem on
-    `R^3` or `T^3` -> Success for regularized or morphic-regularized equations does
-    not close the original problem
-  status: bridge-pending
-  promoted_into_branch_pool: true
-- origin_obligation_id: proof-dependency-3
-  origin_kind: proof-dependency
-  label: The original framework names a monotone functional `Q(t)` as a bridge, not
-    just unnamed baseline energy -> Global energy or enstrophy control is necessary
-    but not sufficient
-  status: bridge-pending
-  promoted_into_branch_pool: true
-- origin_obligation_id: proof-dependency-4
-  origin_kind: proof-dependency
-  label: Global energy or enstrophy control is necessary but not sufficient -> The
-    live obstruction is the small-scale or high-frequency cascade that feeds blow-up
-  status: bridge-pending
-  promoted_into_branch_pool: true
-- origin_obligation_id: proof-dependency-7
-  origin_kind: proof-dependency
-  label: The monotone functional must stabilize the global energy/enstrophy layer
-    and enable the compactness package on that same periodic classical surface ->
-    The scale-barrier plus monotone-functional input must yield strong local compactness
-    and nonlinear tensor closure on the periodic/operator approximation family
-  status: bridge-pending
-  promoted_into_branch_pool: false
-selected_branch: *1
+  co_dependent_branch_ids: []
+  branch_execution_order: []
+branch_pool: []
+candidate_archive: []
+selected_branch:
 summary:
-  candidate_count: 5
-  candidate_archive_count: 5
+  candidate_count: 0
+  candidate_archive_count: 0
   sandbox_mode: single-branch-sandbox
-  active_branch_ids:
-  - creative-branch-navier-stokes-1
-  - creative-branch-navier-stokes-2
-  - creative-branch-navier-stokes-3
-  - creative-branch-navier-stokes-4
-  selected_branch_id: creative-branch-navier-stokes-1
-  selected_next_cell_type: debt-extract
-  intervention_needed: true
+  active_branch_ids: []
+  selected_branch_id:
+  selected_next_cell_type:
+  intervention_needed: false

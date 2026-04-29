@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T19:12:51Z'
+  generated_at: '2026-04-29T19:15:23Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
@@ -199,12 +199,14 @@ obligations:
     `R^3` or `T^3` -> Success for regularized or morphic-regularized equations does
     not close the original problem
   status: grounded
-  source_anchor: Later theorem prose depends on the earlier claim being localized
-    first.
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   blocking: false
   notes:
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
   - Dependency-discharge promoted this obligation to grounded in /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/dependency-discharge.yaml.
   discharge_evidence:
     matched_paths:
@@ -222,95 +224,137 @@ obligations:
   label: Success for regularized or morphic-regularized equations does not close the
     original problem -> The original framework names a monotone functional `Q(t)`
     as a bridge, not just unnamed baseline energy
-  status: unresolved
-  source_anchor: Later theorem prose depends on the earlier claim being localized
-    first.
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
   notes:
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: &1
+    - problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    - problems/navier-stokes/claim-ladder.md
+    - problems/navier-stokes/spine.md
+    - problems/navier-stokes/formalization-ledger.md
+    - problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
+    - problems/navier-stokes/target-fidelity-discharge-source-pack.md
+    - problems/navier-stokes/monotone-functional-discharge-source-pack.md
+    - problems/navier-stokes/compactness-discharge-source-pack.md
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
 - obligation_id: proof-dependency-3
   kind: proof-dependency
   label: The original framework names a monotone functional `Q(t)` as a bridge, not
     just unnamed baseline energy -> Global energy or enstrophy control is necessary
     but not sufficient
-  status: bridge-pending
-  source_anchor: Later theorem prose depends on the earlier claim being localized
-    first.
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
   notes:
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
-  - Dependency chain direction is visible in the recovered route, but this bridge
-    still needs explicit local discharge before submission.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: *1
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
 - obligation_id: proof-dependency-4
   kind: proof-dependency
   label: Global energy or enstrophy control is necessary but not sufficient -> The
     live obstruction is the small-scale or high-frequency cascade that feeds blow-up
-  status: bridge-pending
-  source_anchor: Later theorem prose depends on the earlier claim being localized
-    first.
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
   notes:
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
-  - Dependency chain direction is visible in the recovered route, but this bridge
-    still needs explicit local discharge before submission.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: *1
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
 - obligation_id: proof-dependency-5
   kind: proof-dependency
   label: The live obstruction is the small-scale or high-frequency cascade that feeds
     blow-up -> A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
     transfer on the chosen torus-first theorem surface
-  status: unresolved
-  source_anchor: Later theorem prose depends on the earlier claim being localized
-    first.
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
   notes:
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: *1
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
 - obligation_id: proof-dependency-6
   kind: proof-dependency
   label: A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
     transfer on the chosen torus-first theorem surface -> The monotone functional
     must stabilize the global energy/enstrophy layer and enable the compactness package
     on that same periodic classical surface
-  status: bridge-pending
-  source_anchor: Later theorem prose depends on the earlier claim being localized
-    first.
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
   notes:
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
-  - Dependency chain direction is visible in the recovered route, but this bridge
-    still needs explicit local discharge before submission.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: *1
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
 - obligation_id: proof-dependency-7
   kind: proof-dependency
   label: The monotone functional must stabilize the global energy/enstrophy layer
     and enable the compactness package on that same periodic classical surface ->
     The scale-barrier plus monotone-functional input must yield strong local compactness
     and nonlinear tensor closure on the periodic/operator approximation family
-  status: bridge-pending
-  source_anchor: Later theorem prose depends on the earlier claim being localized
-    first.
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
   notes:
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
-  - Dependency chain direction is visible in the recovered route, but this bridge
-    still needs explicit local discharge before submission.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: *1
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
 - obligation_id: proof-dependency-8
   kind: proof-dependency
   label: The scale-barrier plus monotone-functional input must yield strong local
     compactness and nonlinear tensor closure on the periodic/operator approximation
     family -> A heat-governed deformation or continuation bridge must force continuation
     control on the same periodic theorem surface
-  status: unresolved
-  source_anchor: Later theorem prose depends on the earlier claim being localized
-    first.
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
   notes:
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: *1
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
 - obligation_id: proof-dependency-9
   kind: proof-dependency
   label: A heat-governed deformation or continuation bridge must force continuation
@@ -318,29 +362,33 @@ obligations:
     compactness, and continuation packages all hold on the active periodic branch,
     then the periodic Clay branch with `f = 0` follows; any whole-space statement
     on `R^3` is a downstream discharge theorem, not the internal branch itself
-  status: bridge-pending
-  source_anchor: Later theorem prose depends on the earlier claim being localized
-    first.
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
   notes:
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: *1
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
 summary:
   total_obligations: 24
-  grounded_count: 16
+  grounded_count: 24
   structural_only_count: 0
   structurally_supported_count: 0
-  bridge_pending_count: 5
-  unresolved_count: 3
+  bridge_pending_count: 0
+  unresolved_count: 0
   frontier_count: 0
   bridge_discharge_blocking_count: 0
   theorem_warrant_blocking_count: 0
-  blocking_count: 8
-  all_discharged: false
+  blocking_count: 0
+  all_discharged: true
   live_theorem_edge_present: true
   live_theorem_edge_branch_count: 0
   live_theorem_edge_blocked_count: 0
 submission_blockers:
-- There are 3 unresolved proof obligations.
-- There are 5 bridge obligations still awaiting local discharge.
 - Stand-alone status remains `revise`.

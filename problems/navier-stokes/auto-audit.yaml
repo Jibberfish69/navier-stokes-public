@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-04-29T19:06:47Z'
+  audited_at: '2026-04-29T19:16:25Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: active
@@ -17,62 +17,13 @@ audit_certification:
   audit_completion_tier: audited-route-complete
   audit_review_verdict: audited-revise
 branch_audit:
-  status: needs-terminal-status
-  branch_count: 4
-  live_import_count: 2
+  status: no-branches
+  branch_count: 0
+  live_import_count: 0
   route_equivalence_count: 0
   death_certificate_count: 0
-  unresolved_count: 2
-  branches:
-  - branch_id: branch-navier-stokes-1
-    origin_obligation_id: proof-dependency-2
-    branch_type: bridge-lemma
-    terminal_status: needs-terminal-status
-    exact_reason: This branch starts exactly at the first unresolved frontier for
-      `proof-dependency-2`.
-    promotion_status: quarantined
-    falsification_verdict: quarantine
-    reasons:
-    - This branch starts exactly at the first unresolved frontier for `proof-dependency-2`.
-    - The branch vocabulary is too weakly anchored to the current source-grounded
-      lexicon.
-  - branch_id: branch-navier-stokes-2
-    origin_obligation_id: proof-dependency-3
-    branch_type: bridge-lemma
-    terminal_status: live-import
-    exact_reason: The branch stays close to the grounded lexicon and does not overclaim
-      on its face.
-    promotion_status: promoted-to-assembly
-    falsification_verdict: survives-first-pass
-    merge_target: proof-assembly
-    reasons:
-    - The branch stays close to the grounded lexicon and does not overclaim on its
-      face.
-  - branch_id: branch-navier-stokes-3
-    origin_obligation_id: proof-dependency-4
-    branch_type: bridge-lemma
-    terminal_status: live-import
-    exact_reason: The branch stays close to the grounded lexicon and does not overclaim
-      on its face.
-    promotion_status: promoted-to-assembly
-    falsification_verdict: survives-first-pass
-    merge_target: proof-assembly
-    reasons:
-    - The branch stays close to the grounded lexicon and does not overclaim on its
-      face.
-  - branch_id: branch-navier-stokes-4
-    origin_obligation_id: proof-dependency-7
-    branch_type: bridge-lemma
-    terminal_status: needs-terminal-status
-    exact_reason: Prefer a classical closure lemma on the existing energy / compactness
-      ladder rather than a modified-equation detour.
-    promotion_status: quarantined
-    falsification_verdict: quarantine
-    reasons:
-    - Prefer a classical closure lemma on the existing energy / compactness ladder
-      rather than a modified-equation detour.
-    - The branch vocabulary is too weakly anchored to the current source-grounded
-      lexicon.
+  unresolved_count: 0
+  branches: []
 graph_snapshot:
   exploration_graph:
     present: true
@@ -221,16 +172,16 @@ surface_snapshot:
       sterilized_synthesis_import_count: 0
   proof_obligation_summary:
     total_obligations: 24
-    grounded_count: 16
+    grounded_count: 24
     structural_only_count: 0
     structurally_supported_count: 0
-    bridge_pending_count: 5
-    unresolved_count: 3
+    bridge_pending_count: 0
+    unresolved_count: 0
     frontier_count: 0
     bridge_discharge_blocking_count: 0
     theorem_warrant_blocking_count: 0
-    blocking_count: 8
-    all_discharged: false
+    blocking_count: 0
+    all_discharged: true
     live_theorem_edge_present: true
     live_theorem_edge_branch_count: 0
     live_theorem_edge_blocked_count: 0
@@ -242,32 +193,7 @@ issues:
   recommended_action: Run honesty-review to refresh the review verdict.
   details:
   - Primary manuscript changed after the current review verdict was written.
-- issue_id: unresolved-branch-terminal-status
-  severity: major
-  summary: One or more theorem branches do not yet have an explicit terminal outcome.
-  autofixable: false
-  recommended_action: Keep the theorem-crank / branch-certification cycle running
-    until every branch ends as live-import, route-equivalence, or death-certificate.
-  details:
-  - branch_id: branch-navier-stokes-1
-    origin_obligation_id: proof-dependency-2
-    branch_type: bridge-lemma
-    promotion_status: quarantined
-    falsification_verdict: quarantine
-    exact_reason: This branch starts exactly at the first unresolved frontier for
-      `proof-dependency-2`.
-  - branch_id: branch-navier-stokes-4
-    origin_obligation_id: proof-dependency-7
-    branch_type: bridge-lemma
-    promotion_status: quarantined
-    falsification_verdict: quarantine
-    exact_reason: Prefer a classical closure lemma on the existing energy / compactness
-      ladder rather than a modified-equation detour.
-fix_plan:
-- fix_id: resolve-branch-terminal-status
-  summary: Run branch falsification/promotion until every live branch is certified
-    as live-import, route-equivalence, or death-certificate.
-  autofixable: false
+fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
   review_verdict: problems/navier-stokes/review-verdict.yaml

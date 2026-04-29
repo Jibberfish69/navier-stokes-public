@@ -4,32 +4,12 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   falsification_id: lemma-falsification-navier-stokes
-  generated_at: '2026-04-29T19:06:46Z'
+  generated_at: '2026-04-29T19:15:23Z'
   generator: system/runner/lib/lemma_falsification_builder.rb
   source_branch_set_id: extension-branches-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
-results:
-- branch_id: branch-navier-stokes-1
-  origin_obligation_id: proof-dependency-2
-  verdict: quarantine
-  reasons:
-  - The branch vocabulary is too weakly anchored to the current source-grounded lexicon.
-- branch_id: branch-navier-stokes-2
-  origin_obligation_id: proof-dependency-3
-  verdict: survives-first-pass
-  reasons:
-  - The branch stays close to the grounded lexicon and does not overclaim on its face.
-- branch_id: branch-navier-stokes-3
-  origin_obligation_id: proof-dependency-4
-  verdict: survives-first-pass
-  reasons:
-  - The branch stays close to the grounded lexicon and does not overclaim on its face.
-- branch_id: branch-navier-stokes-4
-  origin_obligation_id: proof-dependency-7
-  verdict: quarantine
-  reasons:
-  - The branch vocabulary is too weakly anchored to the current source-grounded lexicon.
+results: []
 summary:
-  survives_first_pass_count: 2
-  quarantined_count: 2
+  survives_first_pass_count: 0
+  quarantined_count: 0
   rejected_count: 0
