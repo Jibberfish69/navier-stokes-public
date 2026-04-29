@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-29T18:35:44Z'
+  generated_at: '2026-04-29T18:38:24Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-22bb131a9e38
-    route_signature: 22bb131a9e38c1ee6b6ed0a9400dfe44503a2fc0
+    surface_id: theorem-surface-navier-stokes-7012e3bea295
+    route_signature: 7012e3bea29593d510268ae4ed8490081208c44e
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -53,7 +53,7 @@ shared_alignment:
         or sy'
       kind: branch-choice
       status: frontier
-      patch_surface: problems/navier-stokes/object-formalization.yaml
+      patch_surface: problems/navier-stokes/marvin-ingest-notes.yaml
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
     route_label: conditional terminal class-membership lane closure packet
@@ -133,7 +133,7 @@ local_derivation:
     packet_kind: branch-choice
     source_kind: live-solver-target
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/object-formalization.yaml
+    target_patch_surface: problems/navier-stokes/marvin-ingest-notes.yaml
     matched_route_slot_labels:
     - 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
       The correct algebraic fit for the time tower is the divided-power Hopf law on
@@ -263,5 +263,5 @@ summary:
   audit_status: audited-needs-fix
   branch_terminal_status: all-terminal
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: object-formalization
+  current_next_cell_type: debt-extract
   current_next_cell_is_theorem_work: true

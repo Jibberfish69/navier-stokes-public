@@ -5,35 +5,36 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-04-29T18:28:38Z'
+  extracted_at: '2026-04-29T18:38:15Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
     theorem_target: conditional terminal class-membership lane closure packet
-    current_package_status: conditional-terminal-locally-closed
-    support_basis: The six requested class-membership burdens are now localized into
-      the terminal conditional closure packet.
-    standalone_status: conditional-only; not full-MPP export
+    current_package_status: active
+    support_basis: Recovered source support converged with the speculative branch,
+      so the next safe move is a grounded backbone rebuild.
+    standalone_status: revise
 supporting_sections:
   reviewer_risks:
   - 'Do not overclaim beyond the lowest safe theorem surface: The official Clay target
     allows either the whole-space branch on `R^3` or the periodic branch on `T^3`.'
   - 'First unsafe overclaim to avoid: Replacing the official Clay statement by a weaker
     route-local or data-class-local statement.'
-  - The local packet is terminal only at the conditional H1-H6 level; full-MPP export
-    remains outside this closure.
+  - Recovered support is still classified as strong, so the local package remains
+    a revise-stage workboard.
   required_local_explanations:
+  - one-field forward-preservation wall
+  - lower-carrier receiver wall
+  - collar-to-jump converse pivot
   - Explain how 'Global energy or enstrophy control is necessary but not sufficient'
     is grounded locally without theorem inflation.
-  - 'State the six-burden terminal closure boundary: conditional H1-H6 closure, not
-    unconditional full-MPP export.'
   promotion_rule:
-  - Do not promote beyond conditional terminal local closure into full-MPP release
-    until the original-object theorem-upgrade burden is separately discharged.
+  - Do not promote beyond `revise` until each `ridge discharge required` row has either
+    been localized into the local package or explicitly parked below the theorem surface.
   - Keep the lowest safe claim explicit and do not let recovered speculative material
     masquerade as a proved bridge.
-  - Re-run honesty-review only after the regenerated packet reflects the six-burden
-    closure and preserves the conditional boundary.
+  - Re-run honesty-review only after the local package has real prose and an explicit
+    debt map.
 debt_items:
 - debt_id: debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
   label: Global energy or enstrophy control is necessary but not sufficient
@@ -77,16 +78,14 @@ debt_items:
 - debt_id: debt-one-field-forward-preservation-wall
   label: one-field forward-preservation wall
   source_section: proof-debt-ledger
-  monograph_status: discharged in the six-burden terminal packet under H1-H6
-  standalone_need: 'no'
+  monograph_status: ridge discharge required from current backbone
+  standalone_need: 'yes'
   primary_anchors:
-  - problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
-  - problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md
-  - problems/navier-stokes/theorem-construction/mpp-class-membership-full-bridge-ledger-note.md
-  debt_class: packaging
-  recommended_stage: prose-realization
-  rationale: The ledger says the material already exists in some proved or discharged
-    form, so the remaining work is localization, exposition, or packaging.
+  - 'gap-ticket: burden-item'
+  debt_class: local-derivable
+  recommended_stage: debt-derive
+  rationale: The debt is described as a targeted discharge rather than an open frontier,
+    so it can enter bounded derivation.
   priority_rank: 2
   derivation_state: localized-support
   derivation_attempts: 1
@@ -107,16 +106,14 @@ debt_items:
 - debt_id: debt-lower-carrier-receiver-wall
   label: lower-carrier receiver wall
   source_section: proof-debt-ledger
-  monograph_status: discharged in the six-burden terminal packet under H1-H6
-  standalone_need: 'no'
+  monograph_status: ridge discharge required from current backbone
+  standalone_need: 'yes'
   primary_anchors:
-  - problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
-  - problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md
-  - problems/navier-stokes/theorem-construction/mpp-lci-a-direct-transported-center-package-note.md
-  debt_class: packaging
-  recommended_stage: prose-realization
-  rationale: The ledger says the material already exists in some proved or discharged
-    form, so the remaining work is localization, exposition, or packaging.
+  - 'gap-ticket: burden-item'
+  debt_class: local-derivable
+  recommended_stage: debt-derive
+  rationale: The debt is described as a targeted discharge rather than an open frontier,
+    so it can enter bounded derivation.
   priority_rank: 3
   derivation_state: localized-support
   derivation_attempts: 1
@@ -143,17 +140,14 @@ debt_items:
 - debt_id: debt-collar-to-jump-converse-pivot
   label: collar-to-jump converse pivot
   source_section: proof-debt-ledger
-  monograph_status: discharged at CJ.A_low lower-carrier strength; jump contrapositive
-    unpromoted
-  standalone_need: 'no'
+  monograph_status: ridge discharge required from current backbone
+  standalone_need: 'yes'
   primary_anchors:
-  - problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
-  - problems/navier-stokes/theorem-construction/mpp-lci-a-transported-center-residual-forcing-note.md
-  - problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md
-  debt_class: packaging
-  recommended_stage: prose-realization
-  rationale: The ledger says the material already exists in some proved or discharged
-    form, so the remaining work is localization, exposition, or packaging.
+  - 'gap-ticket: burden-item'
+  debt_class: local-derivable
+  recommended_stage: debt-derive
+  rationale: The debt is described as a targeted discharge rather than an open frontier,
+    so it can enter bounded derivation.
   priority_rank: 4
   derivation_state: localized-support
   derivation_attempts: 1
@@ -180,11 +174,11 @@ debt_items:
 - debt_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   label: Keep theorem scope below the first unsafe overclaim
   source_section: proof-debt-ledger
-  monograph_status: theorem-level scope boundary fixed by the six-burden closure note
-  standalone_need: 'no'
+  monograph_status: theorem-level scope boundary already fixed
+  standalone_need: 'yes'
   primary_anchors:
-  - problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
-  - problems/navier-stokes/claim-ladder.md
+  - 'claim-ladder: Lowest Safe Claim'
+  - 'claim-ladder: First Unsafe Overclaim'
   debt_class: packaging
   recommended_stage: prose-realization
   rationale: The ledger says the material already exists in some proved or discharged
@@ -194,15 +188,12 @@ debt_items:
   support_strength: strong
 summary:
   counts_by_class:
-    packaging: 4
-    local-derivable: 1
+    packaging: 1
+    local-derivable: 4
     branch-choice: 0
     blocked-frontier: 0
   recommended_next_cell_type: solver-loop
   recommended_next_action: Packaging debt is the only visible remainder, so run solver-loop
     first and freeze the source-grounded theorem frontier before any more prose.
   recommended_debt_ids:
-  - debt-one-field-forward-preservation-wall
-  - debt-lower-carrier-receiver-wall
-  - debt-collar-to-jump-converse-pivot
   - debt-keep-theorem-scope-below-the-first-unsafe-overclaim

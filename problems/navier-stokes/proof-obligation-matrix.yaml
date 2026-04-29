@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T18:35:41Z'
+  generated_at: '2026-04-29T18:35:54Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
@@ -134,7 +134,7 @@ obligations:
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
-  - This obligation is not yet discharged locally.
+  - Discharged locally by `MUP.EI`.
 - obligation_id: debt-one-field-forward-preservation-wall
   kind: lemma
   label: one-field forward-preservation wall
@@ -415,10 +415,94 @@ obligations:
     one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
     or sy'
   status: frontier
-  source_anchor: route-synthesis
+  source_anchor: problems/navier-stokes/marvin-ingest-notes.yaml
   blocking: true
   notes:
   - This route choice or blocked frontier is still inside the theorem packet.
+  - Local source evidence exists, but it is not yet specific enough to promote this
+    obligation beyond `frontier` safely.
+  discharge_evidence:
+    matched_paths:
+    - problems/navier-stokes/marvin-ingest-notes.yaml
+    - problems/navier-stokes/theorem-construction/hopf-shuffle-survivor-drain-program.md
+    - problems/navier-stokes/live-theorem-edge.yaml
+    - problems/navier-stokes/route-lock.yaml
+    - problems/navier-stokes/theorem-construction/clay-discharge-ladder-from-current-reductions.md
+    - problems/navier-stokes/theorem-construction/lagrangian-material-derivative-recheck-note.md
+    - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
+    - problems/navier-stokes/theorem-construction/mpp-class-membership-endpoint-exclusion-note.md
+    support_score: 165
+    signal_strength: strong
+    evidence_hits:
+    - path: problems/navier-stokes/marvin-ingest-notes.yaml
+      line: 261
+      score: 55
+      label_overlap: 11
+      from_overlap: 11
+      to_overlap: 0
+      excerpt: Hopf law on one primitive generator, and for the mixed jet tower it
+        is the shuffle/unshuffle
+    - path: problems/navier-stokes/theorem-construction/hopf-shuffle-survivor-drain-program.md
+      line: 479
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: "\\text{one must prove that the primitive survivor from the tower/Hopf
+        side is exactly the same packet as the coefficient-commutator survivor on
+        }(v,G,q)."
+    - path: problems/navier-stokes/live-theorem-edge.yaml
+      line: 34
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: 'jump: legacy one-field-side class-exit label only; not a proved primitive
+        biconditional with failure of shared one-field law'
+    - path: problems/navier-stokes/route-lock.yaml
+      line: 29
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: 'jump: legacy one-field-side class-exit label only; not a proved primitive
+        biconditional with failure of shared one-field law'
+    - path: problems/navier-stokes/theorem-construction/clay-discharge-ladder-from-current-reductions.md
+      line: 39
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: 1. the full tower is measured by the weighted mixed-jet norm
+    - path: problems/navier-stokes/theorem-construction/lagrangian-material-derivative-recheck-note.md
+      line: 252
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: That makes it a real fork, but only if one is willing to replace the
+        mixed-jet
+    - path: problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
+      line: 482
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: "\\text{the monotone/coercive body, now upgraded from a named scalar
+        bridge to the search for the real one-sided drain law.}"
+    - path: problems/navier-stokes/theorem-construction/mpp-class-membership-endpoint-exclusion-note.md
+      line: 48
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: local mixed-jet tower by
+    discharge_id: dependency-discharge-navier-stokes
+    bridge_statement: 'Discharge the local bridge for Live task: Completed the Hopf/shuffle
+      line as a theorem-program refinement. The correct algebraic fit for the time
+      tower is the divided-power Hopf law on one primitive generator, and for the
+      mixed jet tower it is the shuffle/unshuffle or sy without crossing the current
+      safe-claim boundary.'
 - obligation_id: marvin-route-authority-8
   kind: branch-choice
   label: 'Live task: Built an honest attack package for the three remaining hopf/shuffle

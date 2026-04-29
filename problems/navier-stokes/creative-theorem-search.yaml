@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-04-29T18:35:41Z'
+  generated_at: '2026-04-29T18:35:54Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_proof_assembly_id: proof-assembly-navier-stokes
 intervention:
-  reason: multi-path-sandbox
+  reason: formalization-stalled
   review_posture: revise-loop
   boundary_rule: Everything beyond the grounded core is machine extension until it
     survives falsification and promotion.
@@ -20,7 +20,7 @@ intervention:
     bounded subset is actively pursued.
 sandbox:
   mode: multi-path-sandbox
-  trigger: forked-frontier
+  trigger: formalization-stalled
   survivor_writeback: Keep only branches that survive discharge, falsification, or
     refinement; demote the rest back into explicit debt.
   independent_branch_ids:
@@ -86,14 +86,17 @@ branch_pool:
   - marvin-route-authority-6
   risk_level: high
   notes:
+  - The current object-formalization packet already failed to promote this exact target,
+    so this pass must mutate the theorem move instead of regenerating the same object.
   - This branch is machine-derived beyond the current frozen core.
-  recommended_next_cell_type: object-formalization
+  recommended_next_cell_type: debt-extract
   recommended_next_action: 'Creative theorem search selected `marvin-route-authority-6`.
-    Formalize the invention packet''s exact missing object first, then return to the
-    same theorem target instead of reopening generic debt extraction: Live task: Completed
-    the Hopf/shuffle line as a theorem-program refinement. The correct algebraic fit
-    for the time tower is the divided-power Hopf law on one primitive generator, and
-    for the mixed jet tower it is the shuffle/unshuffle or sy.'
+    The current object-formalization packet already failed to promote this exact target,
+    so split Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
+    The correct algebraic fit for the time tower is the divided-power Hopf law on
+    one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
+    or sy into a sharper local debt or bridge burden instead of regenerating the same
+    object.'
   merge_policy: quarantined-until-promoted
 - branch_id: creative-branch-navier-stokes-2
   origin_obligation_id: marvin-route-authority-5
@@ -560,5 +563,5 @@ summary:
   - creative-branch-navier-stokes-3
   - creative-branch-navier-stokes-4
   selected_branch_id: creative-branch-navier-stokes-1
-  selected_next_cell_type: object-formalization
+  selected_next_cell_type: debt-extract
   intervention_needed: true
