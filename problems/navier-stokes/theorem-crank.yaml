@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-29T18:27:55Z'
+  generated_at: '2026-04-29T18:29:50Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -107,22 +107,8 @@ shared_alignment:
   alignment_reroute: route-synthesis
 local_derivation:
   status: packetize-and-derive
-  required_packet_count: 3
+  required_packet_count: 2
   required_packets:
-  - packet_id: marvin-upstream-eb3fabeeac46
-    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-      Clay whole-space target into exact source-backed ingredients already present
-      on the lane. On the classical side, isolated the mixed-jet system, the exact
-      rung-level can'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    matched_route_slot_labels:
-    - 'Define or prove: Reduced the live Navier-Stokes route stack against the Clay
-      whole-space target into exact source-backed ingredients already present on the
-      lane. On the classical side, isolated the mixed-jet system, the exact rung-level
-      can'
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T014725Z-6ece27230fc9.md
   - packet_id: marvin-upstream-ada9835aa864
     label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
       u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
@@ -165,22 +151,22 @@ cross_lane_broadcast:
     kind: lemma
     status: localized-support
     origin: local
-    source_anchor: 'gap-ticket: burden-item'
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
   - label: lower-carrier receiver wall
     kind: lemma
     status: localized-support
     origin: local
-    source_anchor: 'gap-ticket: burden-item'
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
   - label: collar-to-jump converse pivot
     kind: lemma
     status: localized-support
     origin: local
-    source_anchor: 'gap-ticket: burden-item'
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
   - label: Keep theorem scope below the first unsafe overclaim
     kind: lemma
     status: localized-support
     origin: local
-    source_anchor: 'claim-ladder: Lowest Safe Claim'
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
   - label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
       Clay whole-space target into exact source-backed ingredients already present
       on the lane. On the classical side, isolated the mixed-jet system, the exact
@@ -210,22 +196,17 @@ auditor:
 frontier_projection:
   status: ready
   primary_target:
-    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-      Clay whole-space target into exact source-backed ingredients already present
-      on the lane. On the classical side, isolated the mixed-jet system, the exact
-      rung-level can'
-    recommended_stage: object-formalization
-  one_step_beyond:
-  - label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
+    label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
       u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
       property and the order-1 Calderon-Zygmund bound for the pressure operator,'
     recommended_stage: object-formalization
-  two_steps_beyond:
+  one_step_beyond:
   - label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
       lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
       whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
       red'
     recommended_stage: object-formalization
+  two_steps_beyond: []
   route_pressure:
   - headline: Research OS Theorem Packet
     requested_frontier: 'Theorem packet: Added four theorem-construction reductions.
@@ -240,9 +221,9 @@ summary:
   execution_state: needs-reroute
   leadership_status: leading
   alignment_complete: true
-  exact_local_packet_count: 3
+  exact_local_packet_count: 2
   net_new_local_theorem_count: 6
-  projected_frontier_count: 2
+  projected_frontier_count: 1
   current_open_obligation_count: 9
   open_obligations_state: not-currently-worked
   on_recommended_track: false
