@@ -5,7 +5,7 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-04-29T18:15:24Z'
+  extracted_at: '2026-04-29T18:17:44Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
@@ -100,7 +100,7 @@ debt_items:
   - problems/navier-stokes/frozen-core.md
   source_sufficiency: sufficient
   source_scope_status: formalization-stalled
-  source_checks: 11
+  source_checks: 16
 - debt_id: debt-lower-carrier-receiver-wall
   label: lower-carrier receiver wall
   source_section: proof-debt-ledger

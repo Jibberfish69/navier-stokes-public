@@ -787,6 +787,73 @@ parent transported cover. Subordinate `RWS.C_{\mathrm{scale}}` packets affect
 only the proof of the `ACT.KX` readout at smaller radius; they do not change the
 labels or the parent cover used by the `CJ` converse.
 
+### Discharge Ledger `CJ.A_low.7` (Twelve-cell lower-carrier proof program)
+
+The twelve-cell burden is discharged at exactly the conditional
+lower-carrier strength of `CJ.A_low`. The proof uses the installed
+`ACT.KX` block for the absolute anchor, the fixed-cover `Field^{\le C}`
+hypothesis only for oscillation, and then returns to the already-installed
+`LCI` route without changing theorem strength.
+
+| # | Burden | Discharge |
+| --- | --- | --- |
+| 1 | `ACT.KX` anchor production on the `LCI.3c3l` parent cover. | Use the licensed pre-`LCI.A` output `\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I)` from `(CJ.9o)`, with the centers identified with the parent labels `a^j` by `CJ.A_low.6`. |
+| 2 | `ACT.KX` forcing input. | The same `ACT.KX` block supplies `\mathcal K_{\le m}^{ctr}\in L^1(I)` in `(CJ.9o)`. The forcing ledger is produced before `LCI.A` and before any `Field` spend. |
+| 3 | `RSCB.NKF -> NKF.Native`. | The installed hidden-spending audit records `NKF.Native` as a clean pre-`LCI.A` supplier from retained smooth center-ball regularity, transported mollifiers, point recovery, local Poisson split, and finite-energy far tail. |
+| 4 | `NKF.Ann` and `NKF.Quad`. | The annular and quadratic pressure pieces remain in-bootstrap suppliers for `ACT.KX`; neither imports `LCI.A`, `CSP.A`, `OFP.A`, `Field`, or endpoint closure. |
+| 5 | `ACT.X-Scale`. | Retained smooth center-ball regularity supplies restart-scale small affine-excess seeds `\mathcal X^{exc}(s_a;R_a)\le\eta_X`. This is a small-radius restart theorem, not endpoint exclusion and not fixed-radius smallness. |
+| 6 | `RWS.C_scale`. | Small-radius packets are transferred back to fixed-radius readouts through subordinate finite packets only. By `CJ.A_low.6`, this never changes the parent labels `a^j`. |
+| 7 | Cover synchronization. | `CJ.A_low.6` fixes the common parent cover: `ACT.KX`, `LCI.3c3l`, and the `Field^{\le C}` chains all run on the same same-fluid labels. |
+| 8 | Fixed-cover `Field^{\le C}` oscillation. | `Field` is spent only through `(CJ.9c)` along the fixed chains, giving `\Omega^{osc}_{N,m,\rho,\psi}(t)\le C(m+1)L_{\mathrm{cov}}\rho` as `(CJ.9m1)`. |
+| 9 | Raw anchor conversion. | `CJ.A_low.4` proves `\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty(I)\Rightarrow\mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I)` under the bounded pack-side gauge and affine-frame identity. |
+| 10 | `CJ.A_low` assembly. | `CJ.A_low.5` combines the raw anchor with the fixed-cover oscillation estimate and proves `\Gamma^{low}_{N,m,\rho,\psi}\in L^1(I)`. |
+| 11 | `LCI.A` return. | The output `\Gamma^{low}\in L^1(I)` is the `LCI.A`-level lower-carrier receiver. It may now feed the installed route `LCI.A+FCI.5f\Rightarrow CSP.A\Rightarrow OFP.A\Rightarrow CFI.A`; no receiver theorem is strengthened. |
+| 12 | Contrapositive boundary. | Only after cells 1--11 are installed may the route record `\neg LCI.A\Rightarrow` no uniform surviving `Field^{\le C}` regime, with the source/bridge anchor and cover synchronization hypotheses still attached. |
+
+Thus the solved statement is:
+
+```math
+\boxed{
+ACT.KX
++
+\mathrm{Field}^{\le C}\text{ on the synchronized parent cover}
+\Longrightarrow
+\Gamma^{low}_{N,m,\rho,\psi}\in L^1(I).
+}
+\tag{CJ.9ag}
+```
+
+Equivalently, the converse bridge closed here is the lower-carrier receiver
+bridge, not the full collar packet:
+
+```math
+\boxed{
+\text{pre-}LCI.A\text{ anchor}
++
+\text{fixed-cover one-field oscillation}
+\Longrightarrow
+LCI.A\text{-level lower-carrier control.}
+}
+\tag{CJ.9ah}
+```
+
+All uses are ordered as follows:
+
+```math
+RSCB.NKF
+\Rightarrow
+NKF.Native+NKF.Ann+NKF.Quad+ACT.X\text{-Scale}+RWS.C_{\mathrm{scale}}
+\Rightarrow
+ACT.KX
+\Rightarrow
+\mathfrak A^{ctr}\in L^1
+\quad\text{and}\quad
+Field^{\le C}\Rightarrow\Omega^{osc}\lesssim C(m+1)L_{\mathrm{cov}}\rho
+\Rightarrow
+\Gamma^{low}\in L^1.
+\tag{CJ.9ai}
+```
+
 ## Exact Obstruction
 
 No unconditional theorem currently on disk runs in the full converse direction
@@ -812,11 +879,12 @@ ACT.KX
 ```
 
 So the exact remaining object on this pivot line is no longer an undifferentiated
-``coherence-to-collar'' theorem. It is the clean production and verification of
-the `ACT.KX` anchor hypotheses and the fixed-cover `Field` oscillation
-hypotheses on the same same-fluid family.
+``coherence-to-collar'' theorem. After `CJ.A_low.7`, the lower-carrier converse
+is recorded with its necessary hypotheses. What is still not claimed is the
+stronger theorem obtained by removing the `ACT.KX` anchor, changing covers, or
+promoting the result to a full collar-packet converse.
 
-Once `CJ.A_low` is proved, its contrapositive may be read only as:
+Once `CJ.A_low.7` is installed, its contrapositive may be read only as:
 
 ```math
 \text{source/bridge anchor installed}
@@ -846,7 +914,8 @@ This note does **not** claim:
 It does record the conditional lower-carrier converse `CJ.A_low.5`: under the
 pre-`LCI.A` `ACT.KX` anchor, bounded pack-side gauge, fixed-cover chain, and
 bounded `Field^{\le C}` oscillation hypothesis, the `LCI.A`-level lower-carrier
-receiver follows.
+receiver follows. The twelve-cell proof program above records the same result
+as the installed lower-carrier discharge ledger `CJ.A_low.7`.
 
 It only fixes the honest pivot:
 
