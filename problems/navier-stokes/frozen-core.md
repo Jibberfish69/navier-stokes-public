@@ -12,18 +12,23 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 ## Grounded Core
 
 - The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3. (`theorem-statement`; `theorem-statement`)
+- one-field forward-preservation wall (`lemma`; `debt-one-field-forward-preservation-wall`)
+- lower-carrier receiver wall (`lemma`; `debt-lower-carrier-receiver-wall`)
+- collar-to-jump converse pivot (`lemma`; `debt-collar-to-jump-converse-pivot`)
+- Keep theorem scope below the first unsafe overclaim (`lemma`; `debt-keep-theorem-scope-below-the-first-unsafe-overclaim`)
 - Theorem 2.1 (Classical Closure) (`theorem-warrant`; `warrant-theorem-2.1`)
 
 ## Source Frontier
 
-- `first_unresolved`: one-field forward-preservation wall (`lemma`; `debt-one-field-forward-preservation-wall`)
-- one-field forward-preservation wall (`lemma`; `debt-one-field-forward-preservation-wall`)
-- lower-carrier receiver wall (`lemma`; `debt-lower-carrier-receiver-wall`)
-- collar-to-jump converse pivot (`lemma`; `debt-collar-to-jump-converse-pivot`)
-- one-field forward-preservation wall (`live-theorem-edge`; `ofp-one-field-forward-preservation`)
-- lower-carrier receiver wall (`live-theorem-edge`; `lci-lower-carrier-interval-integrability`)
-- collar-to-jump converse pivot (`live-theorem-edge`; `cj-a-low-collar-to-jump-converse-supplier`)
-- frozen-family source-side ledger beneath `OFP.A` (`live-theorem-edge`; `fci-frozen-family-source-ledger`)
+- `first_unresolved`: Define or prove: Reduced the live Navier-Stokes route stack against the Clay whole-space target into exact source-backed ingredients already present on the lane. On the classical side, isolated the mixed-jet system, the exact rung-level can (`definition`; `marvin-upstream-eb3fabeeac46`)
+- Define or prove: Reduced the live Navier-Stokes route stack against the Clay whole-space target into exact source-backed ingredients already present on the lane. On the classical side, isolated the mixed-jet system, the exact rung-level can (`definition`; `marvin-upstream-eb3fabeeac46`)
+- Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra property and the order-1 Calderon-Zygmund bound for the pressure operator, (`definition`; `marvin-upstream-ada9835aa864`)
+- Define or prove: Added three theorem-facing reductions on the Navier-Stokes lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2, red (`definition`; `marvin-upstream-6d929e8a052a`)
+- Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md: under the exact strict-shadow identities already present on the lane, ShadowDef(X) and E_sh(X) vanish identically, so the exact Route  (`definition`; `marvin-upstream-954339945793`)
+- Define or prove: Added two new theorem-facing reductions on the Clay whole-space target. (`definition`; `marvin-upstream-96892bab139f`)
+- Define or prove: Completed the Hopf/shuffle line as a theorem-program refinement. The correct algebraic fit for the time tower is the divided-power Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle (`definition`; `marvin-upstream-409f183ee495`)
+- Define or prove: Formalized the refined direct Lagrangian route as a six-lemma mainline: differentiated Lagrangian decomposition, deformation-adapted energy, ellipticity window, coefficient-commutator absorption, no-loss pressure recovery,  (`definition`; `marvin-upstream-c8f7cb511776`)
+- Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md with a geometry-testing ladder for the elliptic test field W_test = A^T grad Phi solving -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1) ene (`definition`; `marvin-upstream-e2f5b0a915cf`)
 
 ## Source Surfaces
 
@@ -42,6 +47,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - `problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md`
 - `problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md`
 - `problems/navier-stokes/theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md`
+- `problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md`
 - `problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md`
 - `problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md`
 - `problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md`

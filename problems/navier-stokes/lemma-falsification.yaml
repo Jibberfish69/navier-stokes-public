@@ -4,47 +4,52 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   falsification_id: lemma-falsification-navier-stokes
-  generated_at: '2026-04-29T17:18:12Z'
+  generated_at: '2026-04-29T18:22:45Z'
   generator: system/runner/lib/lemma_falsification_builder.rb
   source_branch_set_id: extension-branches-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
 results:
 - branch_id: branch-navier-stokes-1
-  origin_obligation_id: debt-one-field-forward-preservation-wall
+  origin_obligation_id: marvin-upstream-eb3fabeeac46
   verdict: reject
   reasons:
   - The branch leans into overclaim or unsafe-closure language.
 - branch_id: branch-navier-stokes-2
-  origin_obligation_id: debt-lower-carrier-receiver-wall
+  origin_obligation_id: marvin-upstream-ada9835aa864
   verdict: reject
   reasons:
   - The branch leans into overclaim or unsafe-closure language.
 - branch_id: branch-navier-stokes-3
-  origin_obligation_id: debt-collar-to-jump-converse-pivot
+  origin_obligation_id: marvin-upstream-6d929e8a052a
   verdict: reject
   reasons:
   - The branch leans into overclaim or unsafe-closure language.
 - branch_id: branch-navier-stokes-4
-  origin_obligation_id: ofp-one-field-forward-preservation
-  verdict: quarantine
+  origin_obligation_id: marvin-upstream-954339945793
+  verdict: reject
   reasons:
-  - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - The branch leans into overclaim or unsafe-closure language.
 - branch_id: branch-navier-stokes-5
-  origin_obligation_id: lci-lower-carrier-interval-integrability
-  verdict: quarantine
+  origin_obligation_id: marvin-upstream-96892bab139f
+  verdict: reject
   reasons:
-  - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - The branch leans into overclaim or unsafe-closure language.
 - branch_id: branch-navier-stokes-6
-  origin_obligation_id: cj-a-low-collar-to-jump-converse-supplier
-  verdict: quarantine
+  origin_obligation_id: marvin-upstream-409f183ee495
+  verdict: reject
   reasons:
-  - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - The branch leans into overclaim or unsafe-closure language.
 - branch_id: branch-navier-stokes-7
-  origin_obligation_id: fci-frozen-family-source-ledger
-  verdict: quarantine
+  origin_obligation_id: marvin-upstream-c8f7cb511776
+  verdict: reject
   reasons:
-  - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - The branch leans into overclaim or unsafe-closure language.
+- branch_id: branch-navier-stokes-8
+  origin_obligation_id: marvin-upstream-e2f5b0a915cf
+  verdict: reject
+  reasons:
+  - The branch leans into overclaim or unsafe-closure language.
 summary:
   survives_first_pass_count: 0
-  quarantined_count: 4
-  rejected_count: 3
+  quarantined_count: 0
+  rejected_count: 8

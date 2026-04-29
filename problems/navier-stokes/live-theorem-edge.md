@@ -25,6 +25,9 @@ The YAML edge file is the controlling surface:
   `READ.END := End_NS_avg+Field.Read+DTC.Read => End_NS`
 - Terminal packet:
   `CFI.A + End_NS => no finite-time class exit`
+- Six-burden closure:
+  `LCI.A + CJ.A_low.7 + FCI.5f + OFP.A + CFI.A + End_NS` is closed
+  conditionally under the retained H1-H6 packet.
 
 `ORIGIN.Retain` is installed as the original-data upgrade: retained-window
 hypotheses are supplied on compact classical intervals, and `CFI.A+End_NS`
@@ -61,9 +64,10 @@ promotes it again.
 ## Safe Claim Boundary
 
 It is safe to claim that the lane's current theorem-facing edge is the
-conditional class-membership closure packet, with retained and averaged receiver
-branches, post-`LCI.A` source closure, accepted endpoint certificate maps, and
-the original-data upgrade recorded explicitly.
+conditional class-membership closure packet, with the six requested burdens
+closed under H1-H6, retained and averaged receiver branches kept typed,
+post-`LCI.A` source closure, accepted endpoint certificate maps, and the
+original-data upgrade recorded explicitly.
 
 It is not safe to claim unconditional periodic or whole-space regularity from
 this packet alone, or to treat any downstream readout branch as a substitute for
@@ -81,6 +85,7 @@ class-membership route.
 - `problems/navier-stokes/live-theorem-edge.yaml`
 - `problems/navier-stokes/source-frontier.yaml`
 - `problems/navier-stokes/theorem-packet.yaml`
+- `problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md`
 - `problems/navier-stokes/theorem-construction/live-frontier-honest-cut-reduction.md`
 - `problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md`
 - `problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md`

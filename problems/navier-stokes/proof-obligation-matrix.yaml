@@ -4,14 +4,14 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T18:11:09Z'
+  generated_at: '2026-04-29T18:23:17Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
 posture:
   theorem_target: conditional terminal class-membership lane closure packet
-  current_package_status: active
-  standalone_status: revise
+  current_package_status: conditional-terminal-locally-closed
+  standalone_status: conditional-only; not full-MPP export
   completion_tier_achieved: route-complete
   review_verdict: conditional-pass
   live_theorem_edge_present: true
@@ -24,21 +24,16 @@ live_theorem_edge:
   exact_cut_summary: The primary theorem-facing packet is conditional terminal closure,
     not the TPS / `SG.4` consumer branch. The live local membership target remains
     `M_Q(u,p)`, witnessed through the exact `Pack` / `Part` / `Field` vocabulary.
-    `CFI.A`, `OFP.A`, and `LCI.A` are supplied through the retained-window receiver/source
-    chain. `CJ.A_low.7` is the installed conditional converse supplier from bounded `Field^{<=
-    C}` plus the fixed `ACT.KX` anchor into `LCI.A`-level lower-carrier control; the
-    older TPS / `SG.4` selector wall remains downstream consumer context rather than
-    the lane-wide frontier.
-  paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
+    The six-burden stack `LCI.A`, `CJ.A_low.7`, `FCI.5f`, `OFP.A`, `CFI.A`, and `End_NS`
+    is terminally closed under the retained H1-H6 conditional packet recorded in `mpp-terminal-class-membership-six-burden-closure-note.md`.
+    The older TPS / `SG.4` selector wall remains downstream consumer context rather
+    than the lane-wide frontier, and this packet is not an unconditional full-MPP
+    closure.
+  paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md",
+    "problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
     "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
     "problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md",
     "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md"]'
-  branch_choice_labels:
-  - class-membership forward-invariance route
-  - one-field forward-preservation wall
-  - lower-carrier receiver wall
-  - collar-to-jump converse pivot
-  - frozen-family source-side ledger beneath `OFP.A`
 obligations:
 - obligation_id: theorem-statement
   kind: theorem-statement
@@ -54,12 +49,102 @@ obligations:
     Clay whole-space target into exact source-backed ingredients already present on
     the lane. On the classical side, isolated the mixed-jet system, the exact rung-level
     can'
-  status: unresolved
-  source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T014725Z-6ece27230fc9.md
+  status: bridge-pending
+  source_anchor: problems/navier-stokes/marvin-ingest-notes.yaml
   blocking: true
   notes:
   - Current packet status is `needs-localization`.
   - This obligation is not yet discharged locally.
+  - Local source evidence exists, but it is not yet specific enough to promote this
+    obligation beyond `unresolved` safely.
+  - Local source evidence plus the machine formalization packet are strong enough
+    to promote this obligation from `unresolved` to `bridge-pending` without overclaiming
+    it as grounded.
+  discharge_evidence:
+    matched_paths:
+    - problems/navier-stokes/marvin-ingest-notes.yaml
+    - problems/navier-stokes/target-fidelity-discharge-source-pack.md
+    - problems/navier-stokes/claim-ladder.md
+    - problems/navier-stokes/theorem-construction/mpp-material-packet-closure-program.md
+    - problems/navier-stokes/closure-audit-source-pack.md
+    - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+    - problems/navier-stokes/formalization-ledger.md
+    - problems/navier-stokes/gradient-discharge-source-pack.md
+    support_score: 205
+    signal_strength: strong
+    evidence_hits:
+    - path: problems/navier-stokes/marvin-ingest-notes.yaml
+      line: 5977
+      score: 40
+      label_overlap: 8
+      from_overlap: 8
+      to_overlap: 0
+      excerpt: Clay whole-space target into exact source-backed ingredients already
+        present on
+    - path: problems/navier-stokes/target-fidelity-discharge-source-pack.md
+      line: 10
+      score: 35
+      label_overlap: 7
+      from_overlap: 7
+      to_overlap: 0
+      excerpt: 'The Clay target is the official three-dimensional incompressible Navier-Stokes
+        problem on `R^3` or `T^3`. In the active whole-space branch, the statement
+        is: for every smooth divergence-free rapidly decaying initial datum `u^0`
+        on `R^3`, wi'
+    - path: problems/navier-stokes/claim-ladder.md
+      line: 13
+      score: 25
+      label_overlap: 5
+      from_overlap: 5
+      to_overlap: 0
+      excerpt: "| 9 | A heat-governed deformation or continuation bridge must force
+        continuation control on the same periodic theorem surface | `source-forensics/master-program-analysis.md`,
+        `theorem-construction/torus-projected-flow-extraction.md`, `theor"
+    - path: problems/navier-stokes/theorem-construction/mpp-material-packet-closure-program.md
+      line: 594
+      score: 25
+      label_overlap: 5
+      from_overlap: 5
+      to_overlap: 0
+      excerpt: 10. `problems/navier-stokes/theorem-construction/mixed-jet-cross-rung-pairing-matrix.md`
+    - path: problems/navier-stokes/closure-audit-source-pack.md
+      line: 7
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: "- `debt-frontier-classical-closure-under-same-surface-bridge-discharge-implies-the-clay-whole-space-branch`"
+    - path: problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+      line: 11
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: The original Navier-Stokes source family does not present the fourth
+        bridge as a
+    - path: problems/navier-stokes/formalization-ledger.md
+      line: 22
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: "- Do not overclaim beyond the lowest safe theorem surface: The official
+        Clay target allows either the whole-space branch on `R^3` or the periodic
+        branch on `T^3`."
+    - path: problems/navier-stokes/gradient-discharge-source-pack.md
+      line: 14
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: We work with a classical approximation family `\{u^{(n)},p^{(n)}\}_{n\in\mathbb{N}}`
+        solving the original three-dimensional incompressible Navier-Stokes system
+    discharge_id: dependency-discharge-navier-stokes
+    bridge_statement: 'Discharge the local bridge for Define or prove: Reduced the
+      live Navier-Stokes route stack against the Clay whole-space target into exact
+      source-backed ingredients already present on the lane. On the classical side,
+      isolated the mixed-jet system, the exact rung-level can without crossing the
+      current safe-claim boundary.'
 - obligation_id: marvin-upstream-ada9835aa864
   kind: definition
   label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
@@ -151,196 +236,39 @@ obligations:
 - obligation_id: debt-one-field-forward-preservation-wall
   kind: lemma
   label: one-field forward-preservation wall
-  status: structural-only
-  source_anchor: problems/navier-stokes/debt-map.yaml
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+  blocking: false
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
-  - This obligation is not yet discharged locally.
-  - Local source evidence exists, but it is not yet specific enough to promote this
-    obligation beyond `structural-only` safely.
-  discharge_evidence:
-    matched_paths:
-    - problems/navier-stokes/debt-map.yaml
-    - problems/navier-stokes/formalization-ledger.md
-    - problems/navier-stokes/live-theorem-edge.yaml
-    - problems/navier-stokes/theorem-construction/mpp-collar-sobolev-packet-interval-propagation-theorem-program.md
-    - problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md
-    - problems/navier-stokes/marvin-ingest-notes.yaml
-    - problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
-    - problems/navier-stokes/theorem-construction/mpp-class-membership-full-bridge-ledger-note.md
-    support_score: 185
-    signal_strength: strong
-    evidence_hits:
-    - path: problems/navier-stokes/debt-map.yaml
-      line: 26
-      score: 25
-      label_overlap: 5
-      from_overlap: 5
-      to_overlap: 0
-      excerpt: "- one-field forward-preservation wall"
-    - path: problems/navier-stokes/formalization-ledger.md
-      line: 15
-      score: 25
-      label_overlap: 5
-      from_overlap: 5
-      to_overlap: 0
-      excerpt: "| one-field forward-preservation wall | ridge discharge required from
-        current backbone | yes | gap-ticket: burden-item |"
-    - path: problems/navier-stokes/live-theorem-edge.yaml
-      line: 202
-      score: 25
-      label_overlap: 5
-      from_overlap: 5
-      to_overlap: 0
-      excerpt: 'section_role: one-field forward-preservation wall'
-    - path: problems/navier-stokes/theorem-construction/mpp-collar-sobolev-packet-interval-propagation-theorem-program.md
-      line: 28
-      score: 25
-      label_overlap: 5
-      from_overlap: 5
-      to_overlap: 0
-      excerpt: The one-field forward-preservation note already reduces the coherence
-        wall to
-    - path: problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md
-      line: 537
-      score: 25
-      label_overlap: 5
-      from_overlap: 5
-      to_overlap: 0
-      excerpt: 1. the conversion wall for one-field forward preservation is `OFP.B4`;
-    - path: problems/navier-stokes/marvin-ingest-notes.yaml
-      line: 5353
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: yields `CSP.A`. The one-field forward preservation theorem consumes
-        `CSP.A`
-    - path: problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
-      line: 306
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: "### Lemma `CFI.B3` (One-field forward preservation)"
-    - path: problems/navier-stokes/theorem-construction/mpp-class-membership-full-bridge-ledger-note.md
-      line: 324
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: 'One-field forward preservation closes by:'
-    discharge_id: dependency-discharge-navier-stokes
-    bridge_statement: Discharge the local bridge for one-field forward-preservation
-      wall without crossing the current safe-claim boundary.
 - obligation_id: debt-lower-carrier-receiver-wall
   kind: lemma
   label: lower-carrier receiver wall
-  status: structural-only
-  source_anchor: problems/navier-stokes/debt-map.yaml
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+  blocking: false
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
-  - This obligation is not yet discharged locally.
-  - Local source evidence exists, but it is not yet specific enough to promote this
-    obligation beyond `structural-only` safely.
-  discharge_evidence:
-    matched_paths:
-    - problems/navier-stokes/debt-map.yaml
-    - problems/navier-stokes/formalization-ledger.md
-    - problems/navier-stokes/live-theorem-edge.yaml
-    - problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
-    - problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
-    - problems/navier-stokes/theorem-construction/mpp-collar-sobolev-packet-interval-propagation-theorem-program.md
-    - problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md
-    - problems/navier-stokes/theorem-construction/mpp-lci-a-direct-transported-center-package-note.md
-    support_score: 145
-    signal_strength: strong
-    evidence_hits:
-    - path: problems/navier-stokes/debt-map.yaml
-      line: 27
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: "- lower-carrier receiver wall"
-    - path: problems/navier-stokes/formalization-ledger.md
-      line: 16
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: "| lower-carrier receiver wall | ridge discharge required from current
-        backbone | yes | gap-ticket: burden-item |"
-    - path: problems/navier-stokes/live-theorem-edge.yaml
-      line: 210
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: 'section_role: lower-carrier receiver wall'
-    - path: problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
-      line: 369
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: one opaque block. Its remaining receiver-side wall is the lower-carrier
-    - path: problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
-      line: 2445
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: 4. the remaining receiver-side wall is now split inside the lower-carrier
-        note
-    - path: problems/navier-stokes/theorem-construction/mpp-collar-sobolev-packet-interval-propagation-theorem-program.md
-      line: 1155
-      score: 15
-      label_overlap: 3
-      from_overlap: 3
-      to_overlap: 0
-      excerpt: "### Corollary `CSP.B3a0a` (Receiver-side lower-carrier control forces
-        the packet-local pack gauge)"
-    - path: problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md
-      line: 137
-      score: 15
-      label_overlap: 3
-      from_overlap: 3
-      to_overlap: 0
-      excerpt: packet, with the sharper wall already reduced further to the lower-carrier
-    - path: problems/navier-stokes/theorem-construction/mpp-lci-a-direct-transported-center-package-note.md
-      line: 7
-      score: 15
-      label_overlap: 3
-      from_overlap: 3
-      to_overlap: 0
-      excerpt: 'Role: replace the receiver-loop shortcuts beneath the uniform lower-carrier'
-    discharge_id: dependency-discharge-navier-stokes
-    bridge_statement: Discharge the local bridge for lower-carrier receiver wall without
-      crossing the current safe-claim boundary.
 - obligation_id: debt-collar-to-jump-converse-pivot
   kind: lemma
   label: collar-to-jump converse pivot
-  status: structural-only
-  source_anchor: 'gap-ticket: burden-item'
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+  blocking: false
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
-  - This obligation is not yet discharged locally.
 - obligation_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   kind: lemma
   label: Keep theorem scope below the first unsafe overclaim
-  status: unresolved
-  source_anchor: 'claim-ladder: Lowest Safe Claim'
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+  blocking: false
   notes:
-  - Current packet status is `needs-localization`.
-  - This obligation is not yet discharged locally.
+  - Current packet status is `localized-support`.
+  - Support strength is `strong`.
 - obligation_id: warrant-theorem-2.1
   kind: theorem-warrant
   label: Theorem 2.1 (Classical Closure)
@@ -888,65 +816,19 @@ obligations:
   blocking: true
   notes:
   - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: cfi-forward-invariance-route
-  kind: live-theorem-edge
-  label: class-membership forward-invariance route
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: ofp-one-field-forward-preservation
-  kind: live-theorem-edge
-  label: one-field forward-preservation wall
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: lci-lower-carrier-interval-integrability
-  kind: live-theorem-edge
-  label: lower-carrier receiver wall
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: cj-a-low-collar-to-jump-converse-supplier
-  kind: live-theorem-edge
-  label: collar-to-jump converse pivot
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: fci-frozen-family-source-ledger
-  kind: live-theorem-edge
-  label: frozen-family source-side ledger beneath `OFP.A`
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
 summary:
-  total_obligations: 69
-  grounded_count: 2
-  structural_only_count: 4
+  total_obligations: 64
+  grounded_count: 6
+  structural_only_count: 1
   structurally_supported_count: 1
-  bridge_pending_count: 5
-  unresolved_count: 12
-  frontier_count: 45
-  bridge_discharge_blocking_count: 0
-  theorem_warrant_blocking_count: 0
-  blocking_count: 66
+  bridge_pending_count: 6
+  unresolved_count: 10
+  frontier_count: 40
+  blocking_count: 57
   all_discharged: false
-  live_theorem_edge_present: true
-  live_theorem_edge_branch_count: 5
-  live_theorem_edge_blocked_count: 0
 submission_blockers:
-- There are 4 theorem-critical obligations that are only structurally supported and
+- There are 1 theorem-critical obligations that are only structurally supported and
   still need source-backed or discharge-backed grounding.
-- There are 12 unresolved proof obligations.
-- There are 5 bridge obligations still awaiting local discharge.
-- There are 45 frontier obligations still inside the theorem packet.
-- Stand-alone status remains `revise`.
+- There are 10 unresolved proof obligations.
+- There are 6 bridge obligations still awaiting local discharge.
+- There are 40 frontier obligations still inside the theorem packet.

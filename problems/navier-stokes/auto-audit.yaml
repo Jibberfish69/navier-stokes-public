@@ -4,10 +4,10 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-04-29T18:11:10Z'
+  audited_at: '2026-04-29T18:23:28Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
-  current_package_status: active
+  current_package_status: conditional-terminal-locally-closed
   standalone_status: revise
   completion_tier_achieved: route-complete
   review_verdict: revise
@@ -18,26 +18,26 @@ audit_certification:
   audit_review_verdict: audited-revise
 branch_audit:
   status: all-terminal
-  branch_count: 7
+  branch_count: 8
   live_import_count: 0
-  route_equivalence_count: 4
-  death_certificate_count: 3
+  route_equivalence_count: 0
+  death_certificate_count: 8
   unresolved_count: 0
   branches:
   - branch_id: branch-navier-stokes-1
-    origin_obligation_id: debt-one-field-forward-preservation-wall
-    branch_type: local-lemma
+    origin_obligation_id: marvin-upstream-eb3fabeeac46
+    branch_type: object-definition
     terminal_status: death-certificate
     exact_reason: This branch starts exactly at the first unresolved frontier for
-      `debt-one-field-forward-preservation-wall`.
+      `marvin-upstream-eb3fabeeac46`.
     promotion_status: rejected
     falsification_verdict: reject
     reasons:
-    - This branch starts exactly at the first unresolved frontier for `debt-one-field-forward-preservation-wall`.
+    - This branch starts exactly at the first unresolved frontier for `marvin-upstream-eb3fabeeac46`.
     - The branch leans into overclaim or unsafe-closure language.
   - branch_id: branch-navier-stokes-2
-    origin_obligation_id: debt-lower-carrier-receiver-wall
-    branch_type: local-lemma
+    origin_obligation_id: marvin-upstream-ada9835aa864
+    branch_type: object-definition
     terminal_status: death-certificate
     exact_reason: The branch leans into overclaim or unsafe-closure language.
     promotion_status: rejected
@@ -45,8 +45,8 @@ branch_audit:
     reasons:
     - The branch leans into overclaim or unsafe-closure language.
   - branch_id: branch-navier-stokes-3
-    origin_obligation_id: debt-collar-to-jump-converse-pivot
-    branch_type: local-lemma
+    origin_obligation_id: marvin-upstream-6d929e8a052a
+    branch_type: object-definition
     terminal_status: death-certificate
     exact_reason: The branch leans into overclaim or unsafe-closure language.
     promotion_status: rejected
@@ -54,45 +54,50 @@ branch_audit:
     reasons:
     - The branch leans into overclaim or unsafe-closure language.
   - branch_id: branch-navier-stokes-4
-    origin_obligation_id: ofp-one-field-forward-preservation
-    branch_type: route-branch
-    terminal_status: route-equivalence
-    exact_reason: This is a route branch rather than a local theorem bridge, so it
-      stays quarantined.
-    promotion_status: quarantined
-    falsification_verdict: quarantine
+    origin_obligation_id: marvin-upstream-954339945793
+    branch_type: object-definition
+    terminal_status: death-certificate
+    exact_reason: The branch leans into overclaim or unsafe-closure language.
+    promotion_status: rejected
+    falsification_verdict: reject
     reasons:
-    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+    - The branch leans into overclaim or unsafe-closure language.
   - branch_id: branch-navier-stokes-5
-    origin_obligation_id: lci-lower-carrier-interval-integrability
-    branch_type: route-branch
-    terminal_status: route-equivalence
-    exact_reason: This is a route branch rather than a local theorem bridge, so it
-      stays quarantined.
-    promotion_status: quarantined
-    falsification_verdict: quarantine
+    origin_obligation_id: marvin-upstream-96892bab139f
+    branch_type: object-definition
+    terminal_status: death-certificate
+    exact_reason: The branch leans into overclaim or unsafe-closure language.
+    promotion_status: rejected
+    falsification_verdict: reject
     reasons:
-    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+    - The branch leans into overclaim or unsafe-closure language.
   - branch_id: branch-navier-stokes-6
-    origin_obligation_id: cj-a-low-collar-to-jump-converse-supplier
-    branch_type: route-branch
-    terminal_status: route-equivalence
-    exact_reason: This is a route branch rather than a local theorem bridge, so it
-      stays quarantined.
-    promotion_status: quarantined
-    falsification_verdict: quarantine
+    origin_obligation_id: marvin-upstream-409f183ee495
+    branch_type: object-definition
+    terminal_status: death-certificate
+    exact_reason: The branch leans into overclaim or unsafe-closure language.
+    promotion_status: rejected
+    falsification_verdict: reject
     reasons:
-    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+    - The branch leans into overclaim or unsafe-closure language.
   - branch_id: branch-navier-stokes-7
-    origin_obligation_id: fci-frozen-family-source-ledger
-    branch_type: route-branch
-    terminal_status: route-equivalence
-    exact_reason: This is a route branch rather than a local theorem bridge, so it
-      stays quarantined.
-    promotion_status: quarantined
-    falsification_verdict: quarantine
+    origin_obligation_id: marvin-upstream-c8f7cb511776
+    branch_type: bridge-lemma
+    terminal_status: death-certificate
+    exact_reason: The branch leans into overclaim or unsafe-closure language.
+    promotion_status: rejected
+    falsification_verdict: reject
     reasons:
-    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+    - The branch leans into overclaim or unsafe-closure language.
+  - branch_id: branch-navier-stokes-8
+    origin_obligation_id: marvin-upstream-e2f5b0a915cf
+    branch_type: bridge-lemma
+    terminal_status: death-certificate
+    exact_reason: The branch leans into overclaim or unsafe-closure language.
+    promotion_status: rejected
+    falsification_verdict: reject
+    reasons:
+    - The branch leans into overclaim or unsafe-closure language.
 graph_snapshot:
   exploration_graph:
     present: true
@@ -104,8 +109,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-ebd610b91b44
-    route_signature: ebd610b91b44c19dd24b3db850b92e8260dc537d
+    surface_id: theorem-surface-navier-stokes-97561b55b69b
+    route_signature: 97561b55b69b2ec301892d43c77eeae4854ddf20
     theorem_target: conditional terminal class-membership lane closure packet
     theorem_statement: The official Clay target allows either the whole-space branch
       on R^3 or the periodic branch on T^3.
@@ -139,8 +144,8 @@ surface_snapshot:
         rung-level can'
       kind: definition
       status: needs-localization
-      source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T014725Z-6ece27230fc9.md
-      patch_surface: problems/navier-stokes/object-formalization.yaml
+      source_anchor: problems/navier-stokes/marvin-ingest-notes.yaml
+      patch_surface: problems/navier-stokes/marvin-ingest-notes.yaml
     - slot_id: marvin-upstream-ada9835aa864
       label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m
         \partial_x^\alpha u and differentiated pressure \Pi_ m,alpha , fix s > 3/2.
@@ -202,6 +207,7 @@ surface_snapshot:
       - problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
       - problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md
       - problems/navier-stokes/theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md
+      - problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
       - problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
       - problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
       - problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
@@ -239,20 +245,15 @@ surface_snapshot:
       cross_surface_splice: false
       sterilized_synthesis_import_count: 0
   proof_obligation_summary:
-    total_obligations: 69
-    grounded_count: 2
-    structural_only_count: 4
+    total_obligations: 64
+    grounded_count: 6
+    structural_only_count: 1
     structurally_supported_count: 1
-    bridge_pending_count: 5
-    unresolved_count: 12
-    frontier_count: 45
-    bridge_discharge_blocking_count: 0
-    theorem_warrant_blocking_count: 0
-    blocking_count: 66
+    bridge_pending_count: 6
+    unresolved_count: 10
+    frontier_count: 40
+    blocking_count: 57
     all_discharged: false
-    live_theorem_edge_present: true
-    live_theorem_edge_branch_count: 5
-    live_theorem_edge_blocked_count: 0
 issues:
 - issue_id: stale-review-verdict
   severity: major
