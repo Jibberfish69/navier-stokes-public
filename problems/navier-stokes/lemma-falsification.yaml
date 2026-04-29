@@ -4,17 +4,32 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   falsification_id: lemma-falsification-navier-stokes
-  generated_at: '2026-04-13T00:10:00Z'
+  generated_at: '2026-04-29T16:34:58Z'
   generator: system/runner/lib/lemma_falsification_builder.rb
   source_branch_set_id: extension-branches-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
 results:
 - branch_id: branch-navier-stokes-1
-  origin_obligation_id: tps-one-sided-defect-bridge
+  origin_obligation_id: ofp-one-field-forward-preservation
+  verdict: quarantine
+  reasons:
+  - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+- branch_id: branch-navier-stokes-2
+  origin_obligation_id: lci-lower-carrier-interval-integrability
+  verdict: quarantine
+  reasons:
+  - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+- branch_id: branch-navier-stokes-3
+  origin_obligation_id: cj-a-low-collar-to-jump-converse-supplier
+  verdict: quarantine
+  reasons:
+  - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+- branch_id: branch-navier-stokes-4
+  origin_obligation_id: fci-frozen-family-source-ledger
   verdict: quarantine
   reasons:
   - This is a route branch rather than a local theorem bridge, so it stays quarantined.
 summary:
   survives_first_pass_count: 0
-  quarantined_count: 1
+  quarantined_count: 4
   rejected_count: 0

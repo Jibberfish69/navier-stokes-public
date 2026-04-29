@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-13T00:10:00Z'
+  generated_at: '2026-04-29T16:34:58Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -17,8 +17,20 @@ source_grounded_chain:
 - Theorem 2.1 (Classical Closure)
 tentative_extension_chain: []
 remaining_open_obligations:
-- obligation_id: tps-one-sided-defect-bridge
-  label: selector-adapted defect-to-strain theorem
+- obligation_id: ofp-one-field-forward-preservation
+  label: one-field forward-preservation wall
+  kind: live-theorem-edge
+  status: frontier
+- obligation_id: lci-lower-carrier-interval-integrability
+  label: lower-carrier receiver wall
+  kind: live-theorem-edge
+  status: frontier
+- obligation_id: cj-a-low-collar-to-jump-converse-supplier
+  label: collar-to-jump converse pivot
+  kind: live-theorem-edge
+  status: frontier
+- obligation_id: fci-frozen-family-source-ledger
+  label: frozen-family source-side ledger beneath `OFP.A`
   kind: live-theorem-edge
   status: frontier
 - obligation_id: warrant-theorem-2.1
@@ -28,8 +40,20 @@ remaining_open_obligations:
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
   math_frontier_obligations:
-  - obligation_id: tps-one-sided-defect-bridge
-    label: selector-adapted defect-to-strain theorem
+  - obligation_id: ofp-one-field-forward-preservation
+    label: one-field forward-preservation wall
+    kind: live-theorem-edge
+    status: frontier
+  - obligation_id: lci-lower-carrier-interval-integrability
+    label: lower-carrier receiver wall
+    kind: live-theorem-edge
+    status: frontier
+  - obligation_id: cj-a-low-collar-to-jump-converse-supplier
+    label: collar-to-jump converse pivot
+    kind: live-theorem-edge
+    status: frontier
+  - obligation_id: fci-frozen-family-source-ledger
+    label: frozen-family source-side ledger beneath `OFP.A`
     kind: live-theorem-edge
     status: frontier
   theorem_warrant_obligations:
@@ -38,21 +62,29 @@ remaining_open_obligation_groups:
     kind: theorem-warrant
     status: bridge-pending
 frontier_context:
-  route_container_obligations: []
+  route_container_obligations:
+  - obligation_id: cfi-forward-invariance-route
+    label: class-membership forward-invariance route
+    kind: live-theorem-edge
+    status: frontier
   downstream_support_obligations: []
   additional_context_obligations: []
 next_solver_targets:
-- obligation_id: tps-one-sided-defect-bridge
-  label: selector-adapted defect-to-strain theorem
+- obligation_id: ofp-one-field-forward-preservation
+  label: one-field forward-preservation wall
   kind: live-theorem-edge
   status: frontier
-- obligation_id: warrant-theorem-2.1
-  label: Theorem 2.1 (Classical Closure)
-  kind: theorem-warrant
-  status: bridge-pending
+- obligation_id: lci-lower-carrier-interval-integrability
+  label: lower-carrier receiver wall
+  kind: live-theorem-edge
+  status: frontier
+- obligation_id: cj-a-low-collar-to-jump-converse-supplier
+  label: collar-to-jump converse pivot
+  kind: live-theorem-edge
+  status: frontier
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-9b8afc2a2e3e
-  route_signature: 9b8afc2a2e3e0d9fd513b6184da56ee293c090ad
+  surface_id: theorem-surface-navier-stokes-a6f15cf32daf
+  route_signature: a6f15cf32daf30da580e51d2ede1661fbdab13c7
   theorem_target: ''
   theorem_statement: The official Clay target allows either the whole-space branch
     on R^3 or the periodic branch on T^3.
@@ -78,18 +110,24 @@ theorem_surface:
     = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
     not the internal branch itself
   route_slots:
-  - slot_id: tps-one-sided-defect-bridge
-    label: selector-adapted defect-to-strain theorem
+  - slot_id: ofp-one-field-forward-preservation
+    label: one-field forward-preservation wall
     kind: live-theorem-edge
     status: frontier
     source_anchor: route-synthesis
     patch_surface: problems/navier-stokes/source-frontier.yaml
-  - slot_id: warrant-theorem-2.1
-    label: Theorem 2.1 (Classical Closure)
-    kind: theorem-warrant
-    status: bridge-pending
-    source_anchor: problems/navier-stokes/external-paper/sections/main-result.tex
-    patch_surface: problems/navier-stokes/external-paper/sections/main-result.tex
+  - slot_id: lci-lower-carrier-interval-integrability
+    label: lower-carrier receiver wall
+    kind: live-theorem-edge
+    status: frontier
+    source_anchor: route-synthesis
+    patch_surface: problems/navier-stokes/source-frontier.yaml
+  - slot_id: cj-a-low-collar-to-jump-converse-supplier
+    label: collar-to-jump converse pivot
+    kind: live-theorem-edge
+    status: frontier
+    source_anchor: route-synthesis
+    patch_surface: problems/navier-stokes/source-frontier.yaml
   authority_layers:
     authoritative_proof_surfaces:
     - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_3-_Monotone_Functional.tex"
@@ -116,6 +154,26 @@ theorem_surface:
     - problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
     - problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md
     - problems/navier-stokes/theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md
+    - problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
+    - problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
+    - problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
+    - problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+    - problems/navier-stokes/theorem-construction/mpp-lci-a-enlarged-ball-oscillation-closure-note.md
+    - problems/navier-stokes/theorem-construction/mpp-lci-a-halo-gradient-carrier-return-note.md
+    - problems/navier-stokes/theorem-construction/mpp-lci-a-widened-receiver-return-note.md
+    - problems/navier-stokes/theorem-construction/mpp-lci-a-widened-thickness-collar-wall-note.md
+    - problems/navier-stokes/theorem-construction/mpp-lci-a-widened-thickness-lower-carrier-note.md
+    - problems/navier-stokes/theorem-construction/mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md
+    - problems/navier-stokes/theorem-construction/mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md
+    - problems/navier-stokes/theorem-construction/mpp-lci-a-direct-transported-center-package-note.md
+    - problems/navier-stokes/theorem-construction/mpp-class-membership-endpoint-matrix-closure-contract-note.md
+    - problems/navier-stokes/theorem-construction/mpp-class-membership-full-bridge-ledger-note.md
+    - problems/navier-stokes/theorem-construction/mpp-readout-endpoint-compatibility-completion-note.md
+    - problems/navier-stokes/theorem-construction/mpp-lci-a-pre-csp-still-live-receiver-admission-note.md
+    - problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md
+    - problems/navier-stokes/theorem-construction/mpp-lci-a-transported-center-residual-forcing-note.md
+    - problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-channel-reduction-note.md
+    - problems/navier-stokes/theorem-construction/mpp-frozen-family-resonant-pressure-sufficient-reduction-note.md
     - problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md
     - problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md
     - problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md
@@ -125,21 +183,21 @@ theorem_surface:
     - problems/navier-stokes/object-formalization.yaml
     safe_output_surface: problems/navier-stokes/external-paper/main.tex
     synthesis_import_surfaces:
-    - working-notes/ns-clay-frontier-proof-pack.md
-    - working-notes/ontic-flow-closure-proof-spine.md
-    - working-notes/spectral-closure-and-unified-invariant.md
-    - working-notes/ontic-nc-ns-ymg-hodge-program.md
-    - working-notes/ontic-nc-ns-operator-tilt-note.md
-    - working-notes/projected-nonlinearity-diagnostic.md
-    - working-notes/refinement-commutator-estimate-and-scale-gap.md
-    - working-notes/projected-defect-growth-and-carrier-reduction.md
-    - monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.9-TheEntirePictureWorkingSpine.tex
-    - monograph-V6/Audit/scale-resolution/ScaleResolution_Extracts.md
-    - working-notes/refinement-covariance-and-shadow-theorem-scaffold.md
-    - working-notes/projected-generator-sector-invariance.md
-    - working-notes/nc-3torus-concrete-model-evaluation.md
-    - working-notes/model-ladder-beyond-nc-torus-aside.md
-    - monograph-V6/problems/yang-mills-gap/upstream-synthesis-feed.yaml
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-clay-frontier-proof-pack.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-flow-closure-proof-spine.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/spectral-closure-and-unified-invariant.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-nc-ns-ymg-hodge-program.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-nc-ns-operator-tilt-note.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/projected-nonlinearity-diagnostic.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/refinement-commutator-estimate-and-scale-gap.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/projected-defect-growth-and-carrier-reduction.md"
+    - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.9-TheEntirePictureWorkingSpine.tex"
+    - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Audit/scale-resolution/ScaleResolution_Extracts.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/refinement-covariance-and-shadow-theorem-scaffold.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/projected-generator-sector-invariance.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/nc-3torus-concrete-model-evaluation.md"
+    - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/model-ladder-beyond-nc-torus-aside.md"
+    - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/problems/yang-mills-gap/upstream-synthesis-feed.yaml"
   same_surface_guard:
     status: ok
     route_locked: true
@@ -151,12 +209,12 @@ summary:
   bridge_discharge_blocking_count: 1
   bridge_discharge_only_count: 0
   theorem_warrant_blocking_count: 1
-  open_obligation_count: 2
-  math_frontier_open_count: 1
-  frontier_context_count: 0
-  frontier_route_container_count: 0
+  open_obligation_count: 5
+  math_frontier_open_count: 4
+  frontier_context_count: 1
+  frontier_route_container_count: 1
   frontier_downstream_support_count: 0
-  tracked_source_count: 140
+  tracked_source_count: 141
   synthesis_import_surface_count: 15
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-9b8afc2a2e3e
+  theorem_surface_id: theorem-surface-navier-stokes-a6f15cf32daf

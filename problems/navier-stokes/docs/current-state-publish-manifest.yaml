@@ -48,6 +48,7 @@ published_files:
 - artifact-self-repair.yaml
 - authoritative-source-discovery.yaml
 - authority-reconciliation.yaml
+- auto-audit.yaml
 - backfill-report.yaml
 - bridge-slot-map.yaml
 - campaign-status.yaml

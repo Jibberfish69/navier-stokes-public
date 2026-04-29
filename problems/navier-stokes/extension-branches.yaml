@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   branch_set_id: extension-branches-navier-stokes
-  generated_at: '2026-04-13T00:10:00Z'
+  generated_at: '2026-04-29T16:34:58Z'
   generator: system/runner/lib/lemma_synthesis_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -14,40 +14,58 @@ provenance_policy:
     and promotion.
 branches:
 - branch_id: branch-navier-stokes-1
-  origin_obligation_id: tps-one-sided-defect-bridge
+  origin_obligation_id: ofp-one-field-forward-preservation
   branch_type: route-branch
   provenance: machine-derived-beyond-source-frontier
-  hypothesis: Open a quarantined side branch that tests whether selector-adapted defect-to-strain
-    theorem can be made explicit without crossing the current safe-claim boundary.
+  hypothesis: Open a quarantined side branch that tests whether one-field forward-preservation
+    wall can be made explicit without crossing the current safe-claim boundary.
   depends_on:
   - theorem-statement
   - warrant-theorem-2.1
-  - tps-one-sided-defect-bridge
+  - ofp-one-field-forward-preservation
   risk_level: high
   notes:
-  - This branch starts exactly at the first unresolved frontier for `tps-one-sided-defect-bridge`.
+  - This branch starts exactly at the first unresolved frontier for `ofp-one-field-forward-preservation`.
   merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-euler-mirror-chat20
-  origin_obligation_id: law13-surviving-endpoint-exclusion-pair
+- branch_id: branch-navier-stokes-2
+  origin_obligation_id: lci-lower-carrier-interval-integrability
   branch_type: route-branch
   provenance: machine-derived-beyond-source-frontier
-  hypothesis: >-
-    Open a quarantined chat20 parallel-equation branch that mirrors the live
-    class-membership route under incompressible Euler: remove the viscosity
-    term, preserve the installed `Pack / Part / Field / Dead / Blown / Jump`
-    vocabulary and route order, and keep an explicit ledger for every place the
-    Navier-Stokes proof used diffusion, viscosity, or Stokes structure.
+  hypothesis: Open a quarantined side branch that tests whether lower-carrier receiver
+    wall can be made explicit without crossing the current safe-claim boundary.
   depends_on:
   - theorem-statement
-  - law13-surviving-endpoint-exclusion-pair
-  - class-membership-forward-invariance-route
-  - tps-one-sided-defect-bridge
+  - warrant-theorem-2.1
+  - lci-lower-carrier-interval-integrability
   risk_level: high
-  notes:
-  - "Branch surface: problems/navier-stokes/euler-mirror"
-  - "First-wave mirror: source-locked contradiction note, frontier packet, CFI.A, and OFP.A"
-  - "First hard holdout: LCI.A and downstream top-viscous / static-diffusion packets"
-  - "Keep quarantined from live Navier-Stokes authority surfaces unless promoted"
+  notes: []
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-3
+  origin_obligation_id: cj-a-low-collar-to-jump-converse-supplier
+  branch_type: route-branch
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Open a quarantined side branch that tests whether collar-to-jump converse
+    pivot can be made explicit without crossing the current safe-claim boundary.
+  depends_on:
+  - theorem-statement
+  - warrant-theorem-2.1
+  - cj-a-low-collar-to-jump-converse-supplier
+  risk_level: high
+  notes: []
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-4
+  origin_obligation_id: fci-frozen-family-source-ledger
+  branch_type: route-branch
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Open a quarantined side branch that tests whether frozen-family source-side
+    ledger beneath `OFP.A` can be made explicit without crossing the current safe-claim
+    boundary.
+  depends_on:
+  - theorem-statement
+  - warrant-theorem-2.1
+  - fci-frozen-family-source-ledger
+  risk_level: high
+  notes: []
   merge_policy: quarantined-until-promoted
 summary:
-  branch_count: 2
+  branch_count: 4

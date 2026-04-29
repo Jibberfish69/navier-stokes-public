@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-13T00:10:18Z'
+  generated_at: '2026-04-29T16:35:01Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-9b8afc2a2e3e
-    route_signature: 9b8afc2a2e3e0d9fd513b6184da56ee293c090ad
+    surface_id: theorem-surface-navier-stokes-a6f15cf32daf
+    route_signature: a6f15cf32daf30da580e51d2ede1661fbdab13c7
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -34,63 +34,41 @@ shared_alignment:
       = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
       not the internal branch itself
     route_slots:
-    - slot_id: class-membership-terminal-closure
-      label: conditional terminal class-membership lane closure packet
+    - slot_id: ofp-one-field-forward-preservation
+      label: one-field forward-preservation wall
       kind: live-theorem-edge
-      status: active
-      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
-    - slot_id: tps-one-sided-defect-bridge
-      label: selector-adapted defect-to-strain theorem
-      kind: downstream-context
-      status: context-only
-      patch_surface: problems/navier-stokes/theorem-construction/live-frontier-honest-cut-reduction.md
-    - slot_id: warrant-theorem-2.1
-      label: Theorem 2.1 (Classical Closure)
-      kind: theorem-warrant
-      status: bridge-pending
-      patch_surface: problems/navier-stokes/external-paper/sections/main-result.tex
-    rehydration_guard: >-
-      This crank file previously embedded the Apr 25 `NS 22` TPS /
-      exact-potential `PSJ+` reboot posture as the live edge. Under the current
-      authority surfaces, rehydrate from the class-membership terminal closure
-      slot and treat old TPS / `SG.4`, exact-potential / `PSJ+`, and Hodge /
-      normal-covector material as downstream context only.
+      status: frontier
+      patch_surface: problems/navier-stokes/source-frontier.yaml
+    - slot_id: lci-lower-carrier-interval-integrability
+      label: lower-carrier receiver wall
+      kind: live-theorem-edge
+      status: frontier
+      patch_surface: problems/navier-stokes/source-frontier.yaml
+    - slot_id: cj-a-low-collar-to-jump-converse-supplier
+      label: collar-to-jump converse pivot
+      kind: live-theorem-edge
+      status: frontier
+      patch_surface: problems/navier-stokes/source-frontier.yaml
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
-    route_label: Class-membership forward-invariance / endpoint-exclusion route
-    current_route_name: Class-membership forward-invariance / endpoint-exclusion route
-    exact_cut_summary: >-
-      The current lane-wide edge is the conditional terminal class-membership
-      closure packet. The retained receiver branch runs
-      `RSCB.NKF => NKF.Native => ACT.KX => ACT.X-Readout => ACT.A => RCF.A => LCI.A`.
-      The finite-energy-native averaged branch runs
-      `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi
-      => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg =>
-      CFI.A_avg => AVG.MAIN.A`. Retained source closure is
-      `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, and retained one-field assembly is
-      `LCI.A+FCI.5f => CSP.A => OFP.A => CFI.A`. Endpoint assembly is
-      `DTC-to-TowerBound + END.Exh + END.Cross + END.Pack + END.Field => End_NS`,
-      with `CFI.A + End_NS => no finite-time class exit`. `ORIGIN.Retain` is
-      installed as the original-data upgrade. The older TPS / `SG.4` selector
-      wall, exact-potential / `PSJ+` branch, and Hodge / normal-covector branch
-      remain preserved downstream/readout context only; they are not prerequisites
-      to `CFI.A`, `OFP.A`, or `LCI.A`, and they do not replace this
-      class-membership edge.
-    rehydration_guard: >-
-      Historical branch-choice material below this crank file may mention TPS /
-      `SG.4`, exact-potential / `PSJ+`, or Hodge as if they were live. Under the
-      current authority, read those entries as preserved branch-local context
-      unless a newer `live-theorem-edge.yaml` promotes them.
-    paper_treatment: '["problems/navier-stokes/live-theorem-edge.yaml",
-      "problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
+    route_label: conditional terminal class-membership lane closure packet
+    current_route_name: conditional terminal class-membership lane closure packet
+    exact_cut_summary: The primary theorem-facing packet is conditional terminal closure,
+      not the TPS / `SG.4` consumer branch. The live local membership target remains
+      `M_Q(u,p)`, witnessed through the exact `Pack` / `Part` / `Field` vocabulary.
+      `CFI.A`, `OFP.A`, and `LCI.A` are supplied through the retained-window receiver/source
+      chain. `CJ.A_low` is only the missing converse supplier from bounded `Field^{<=
+      C}` plus the fixed `ACT.KX` anchor into `LCI.A`-level lower-carrier control;
+      the older TPS / `SG.4` selector wall remains downstream consumer context rather
+      than the lane-wide frontier.
+    paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
       "problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md",
-      "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md",
-      "problems/navier-stokes/theorem-construction/live-frontier-honest-cut-reduction.md"]'
+      "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md"]'
   promoted_obligation_count: 8
   missing_promoted_obligation_count: 0
   missing_promoted_obligations: []
-  route_authority_candidate_count: 47
+  route_authority_candidate_count: 48
   missing_route_authority_candidate_count: 0
   missing_route_authority_candidates: []
   promoted_proof_packet_count: 0
@@ -112,31 +90,39 @@ shared_alignment:
       or sy'
   compiled_import_summary:
     bucket_counts:
-      local-discharge-support: 124
+      local-discharge-support: 125
     route_slot_labels:
     - Theorem 2.1 (Classical Closure)
     - selector-adapted defect-to-strain theorem
   alignment_reroute: route-synthesis
 local_derivation:
   status: packetize-and-derive
-  required_packet_count: 2
+  required_packet_count: 3
   required_packets:
-  - packet_id: tps-one-sided-defect-bridge
-    label: selector-adapted defect-to-strain theorem
+  - packet_id: ofp-one-field-forward-preservation
+    label: one-field forward-preservation wall
     packet_kind: live-theorem-edge
     source_kind: live-solver-target
     recommended_stage: dependency-discharge
     target_patch_surface: problems/navier-stokes/source-frontier.yaml
     matched_route_slot_labels:
-    - selector-adapted defect-to-strain theorem
-  - packet_id: warrant-theorem-2.1
-    label: Theorem 2.1 (Classical Closure)
-    packet_kind: theorem-warrant
+    - one-field forward-preservation wall
+  - packet_id: lci-lower-carrier-interval-integrability
+    label: lower-carrier receiver wall
+    packet_kind: live-theorem-edge
     source_kind: live-solver-target
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/external-paper/sections/main-result.tex
+    target_patch_surface: problems/navier-stokes/source-frontier.yaml
     matched_route_slot_labels:
-    - Theorem 2.1 (Classical Closure)
+    - lower-carrier receiver wall
+  - packet_id: cj-a-low-collar-to-jump-converse-supplier
+    label: collar-to-jump converse pivot
+    packet_kind: live-theorem-edge
+    source_kind: live-solver-target
+    recommended_stage: dependency-discharge
+    target_patch_surface: problems/navier-stokes/source-frontier.yaml
+    matched_route_slot_labels:
+    - collar-to-jump converse pivot
   leadership_status: leading
   net_new_local_theorem_count: 1
   recommended_next_cell_type: dependency-discharge
@@ -155,16 +141,30 @@ cross_lane_broadcast:
   - problems/navier-stokes/proof-assembly.yaml
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/object-formalization.yaml
+auditor:
+  status: needs-attention
+  audit_status: audited-needs-fix
+  branch_terminal_status: all-terminal
+  open_issue_count: 1
+  autofixable_issue_count: 0
+  fix_plan_count: 0
+  branch_count: 4
+  live_import_count: 0
+  route_equivalence_count: 4
+  death_certificate_count: 0
+  unresolved_branch_terminal_count: 0
 frontier_projection:
   status: ready
   primary_target:
-    label: selector-adapted defect-to-strain theorem
+    label: one-field forward-preservation wall
     recommended_stage: dependency-discharge
     target_patch_surface: problems/navier-stokes/source-frontier.yaml
   one_step_beyond:
-  - label: Theorem 2.1 (Classical Closure)
+  - label: lower-carrier receiver wall
     recommended_stage: dependency-discharge
-  two_steps_beyond: []
+  two_steps_beyond:
+  - label: collar-to-jump converse pivot
+    recommended_stage: dependency-discharge
   route_pressure:
   - headline: Research OS Theorem Packet
     requested_frontier: 'Theorem packet: Added four theorem-construction reductions.
@@ -176,15 +176,18 @@ frontier_projection:
   recommended_next_cell_type: dependency-discharge
 summary:
   phase: local-derivation
-  execution_state: blocked
+  execution_state: needs-reroute
   leadership_status: leading
   alignment_complete: true
-  exact_local_packet_count: 2
+  exact_local_packet_count: 3
   net_new_local_theorem_count: 1
-  projected_frontier_count: 1
-  current_open_obligation_count: 2
+  projected_frontier_count: 2
+  current_open_obligation_count: 5
   open_obligations_state: not-currently-worked
-  on_recommended_track: true
+  on_recommended_track: false
   recommended_next_cell_type: dependency-discharge
-  current_next_cell_type: dependency-discharge
+  audit_status: audited-needs-fix
+  branch_terminal_status: all-terminal
+  unresolved_branch_terminal_count: 0
+  current_next_cell_type: creative-theorem-search
   current_next_cell_is_theorem_work: true

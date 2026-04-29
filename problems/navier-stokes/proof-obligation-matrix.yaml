@@ -4,109 +4,41 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-13T00:10:00Z'
+  generated_at: '2026-04-29T16:34:58Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
 posture:
-  theorem_target: no finite-time class exit from shared packing, shared participation, and shared one-field coherence
-  current_package_status: conditional lane-closure packet installed under retained-window receiver hypotheses, bounded pack gauge, finite required parameter set, post-LCI.A source closure, and accepted endpoint certificates
-  standalone_status: receiver/source/endpoint assembly now records `CFI.A + End_NS => no finite-time class exit` conditionally on the installed theorem packets
+  theorem_target: ''
+  current_package_status: ''
+  standalone_status: ''
   completion_tier_achieved: route-complete
   review_verdict: conditional-pass
   live_theorem_edge_present: true
-  live_theorem_edge_route_label: Class-membership forward-invariance / endpoint-exclusion route
-  rehydration_guard: >-
-    Rehydrate from `live_theorem_edge_route_label` and the `live_theorem_edge`
-    block below. Older `kind: branch-choice` rows inherited from route-synthesis
-    may still say `status: frontier` / `blocking: true`, including TPS /
-    `SG.4`, exact-potential / `PSJ+`, and Hodge / normal-covector rows. Under
-    the current authority they are preserved downstream provenance only unless a
-    newer live authority edge promotes them.
-object_law_refoundation:
-  status: active
-  route_table: problems/navier-stokes/ns-proof-program-route-table.yaml
-  closure_ecology: problems/navier-stokes/ns-proof-program-route-table.yaml#closure_ecology
-  branch_status:
-    class_membership_core: constitutive-root
-    dead_blown_jump: object-law exclusion branch
-    selector_sg4: downstream one-field-coherence consumer wall after direct matrix work
-    exact_potential: derived readout subbranch on the Law-2-survivor side
-    hodge_normal_covector: derived readout subbranch on the Law-2-survivor side
-    ym_heat_shadow_carrier: derived supplier/export branch on the Law-2-survivor side
-    euclidean_strict_shadow: downstream export branch on the Law-2-survivor side
-  theorem_queue:
-    - "record `ORIGIN.Retain` as installed: original maximal-solution/class-membership setup supplies retained-window hypotheses on compact classical intervals and endpoint persistence follows after `OFP.A + CFI.B1 + CFI.B2 => CFI.A` and `CFI.A+End_NS`"
-    - "record `RSCB.NKF` as installed theorem-grade retained-window native forcing input; retained receiver spine now runs `RSCB.NKF => NKF.Native => ACT.KX => ACT.X-Readout => ACT.A => RCF.A => LCI.A`, with `RWS.C_scale` downstream of `ACT.KX+RWS.C_scale^geom`"
-    - "record `CJ.A_low` as the live collar-to-jump converse supplier burden: pre-`LCI.A` `ACT.KX` supplies the fixed-cover anchor, bounded `Field^{<= C}` supplies only fixed-cover oscillation, and together they target `Gamma_low in L1(I)` before the installed `LCI.A+FCI.5f => CSP.A => OFP.A => CFI.A` spend; its contrapositive is not installed jump fallout"
-    - "record the finite-energy-native averaged replacement as installed typed route: `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg => AVG.MAIN.A`, with `READ.COVER`, `Field.Read`, `DTC.Read`, `READ.END`, and `FULL.END` as the explicit averaged-to-pointwise readout layer"
-    - "record source closure at the exact post-`LCI.A` claim level: `FPCR.C + FSCR.C + FCC.C1 => FCI.5f`; `FFSRC.A => FCI.5f` is an explicit stronger import only when cited"
-    - "record the retained endpoint spine as installed: `DTC-to-TowerBound + END.Exh + END.Cross + END.Pack + END.Field => End_NS`, with `END.TowerBound` supplied by finite transported-center cover, depth `N+2`, and pressure/viscous `K_k` readout"
-    - "record the averaged endpoint/readout spine as installed: `CFI.A_avg + AVG.END.Cert => End_NS_avg`, then `READ.END := End_NS_avg + READ.COVER + Field.Read + DTC.Read => End_NS` and `FULL.END := AVG.MAIN.A + READ.COVER + READ.END => End_NS`"
-    - "record the terminal spine as installed with explicit inputs: `OFP.A + CFI.B1 + CFI.B2 => CFI.A` and `CFI.A + End_NS => no finite-time class exit`"
-    - "preserve the boundary: retained-window receiver hypotheses, bounded pack gauge, finite required parameter set, post-`LCI.A` source closure, and accepted endpoint certificate maps"
-    - "keep TPS / SG.4, exact-potential, Hodge / normal-covector, and Euclidean strict-shadow quarantined as downstream context only"
+  live_theorem_edge_route_label: conditional terminal class-membership lane closure
+    packet
 live_theorem_edge:
   route_id: live-authority-edge-navier-stokes
-  route_label: Class-membership forward-invariance / endpoint-exclusion route
-  current_route_name: Class-membership forward-invariance / endpoint-exclusion route
-  exact_cut_summary: >-
-    The class-membership route now carries a conditional terminal closure
-    packet, with the receiver side split into two typed branches. The retained
-    branch uses installed `RSCB.NKF` as the retained smooth center-ball native
-    forcing certificate and runs
-    `RSCB.NKF => NKF.Native => ACT.KX => ACT.X-Readout => ACT.A => RCF.A => LCI.A`.
-    The collar-to-jump pivot is a separate converse-supplier sidecar:
-    `CJ.A_low` targets `ACT.KX` fixed-anchor plus bounded `Field^{<= C}` on the
-    synchronized transported cover to produce the `LCI.A`-level lower-carrier
-    ledger `Gamma_low in L1(I)`. This does not replace the installed forward
-    chain and does not install `collar failure => jump manifestation`; its
-    available contrapositive boundary is only anchor plus `not LCI.A` forcing
-    no uniform bounded `Field^{<= C}` regime.
-    The finite-energy-native averaged replacement is installed as
-    `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg => AVG.MAIN.A`, with `AVG.COVER.A` covering every same-fluid approach tail: good material region gives averaged propagation and nonempty `B_epsilon^Phi` gives `Jump_avg` by `CAVG.J`, and `AVG.MAIN.A` compressing `SCF_base + ATD_m^epsilon + CAVG.J + AVG.RCV.A + AVG.END.A + FFSRC.A => no averaged finite-time class exit`.
-    `DTC.Read` and `Field.Read` are installed terminal readout bridges under
-    `READ.COVER` plus `ATD_m^epsilon`; they are not upstream suppliers for
-    `SCF_base`, `AACT.KX`, `AVG.RCV.A`, `LCI.A_avg`, `CSP.A_avg`,
-    `OFP.A_avg`, `CFI.A_avg`, or `End_NS_avg`. Retained source closure is the post-`LCI.A`
-    frozen-family packet `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, with cutoff
-    absorption, strain/cascade low-carrier control, and pressure
-    low-high/high-low plus resonant/far-tail control. The organized stronger
-    source branch also closes as `FFPB.A0+FFSC.C1+FCC.C1 => FFSRC.A => FCI.5f`,
-    with `FFPB.A0` solved by reading `H^{press,loc}` as the packet-local
-    weighted pressure carrier; a centerwise-only reading reopens `FIPCB.A0`.
-    Retained one-field assembly then
-    runs `LCI.A+FCI.5f => CSP.A => OFP.A => CFI.A`; averaged assembly runs
-    `LCI.A_avg+FCI.5f => CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg => AVG.MAIN.A`.
-    Retained endpoint closure runs
-    `DTC-to-TowerBound + END.Exh + END.Cross + END.Pack + END.Field => End_NS`;
-    averaged endpoint closure runs `CFI.A_avg+AVG.END.Cert => End_NS_avg`,
-    with `READ.END := End_NS_avg+READ.COVER+Field.Read+DTC.Read => End_NS`
-    and `FULL.END := AVG.MAIN.A+READ.COVER+READ.END => End_NS`.
-    The two-lane
-    terminal closure packet is now recorded as endpoint
-    analytic readout (`DTC-to-TowerBound`) plus source channels
-    `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f`, with `END.Exh` and `END.Cross`
-    recorded in parallel as certificate/semantic cells. Therefore
-    `CFI.A + End_NS => no finite-time class exit`. `ORIGIN.Retain` is now
-    installed as the original-data upgrade: it derives retained-window
-    hypotheses on compact classical intervals and uses
-    `OFP.A+CFI.B1+CFI.B2=>CFI.A` plus `CFI.A+End_NS` to exclude first finite
-    retained-window/class endpoints. The older TPS /
-    `SG.4` selector wall remains only downstream context.
+  route_label: conditional terminal class-membership lane closure packet
+  current_route_name: conditional terminal class-membership lane closure packet
+  exact_cut_summary: The primary theorem-facing packet is conditional terminal closure,
+    not the TPS / `SG.4` consumer branch. The live local membership target remains
+    `M_Q(u,p)`, witnessed through the exact `Pack` / `Part` / `Field` vocabulary.
+    `CFI.A`, `OFP.A`, and `LCI.A` are supplied through the retained-window receiver/source
+    chain. `CJ.A_low` is only the missing converse supplier from bounded `Field^{<=
+    C}` plus the fixed `ACT.KX` anchor into `LCI.A`-level lower-carrier control; the
+    older TPS / `SG.4` selector wall remains downstream consumer context rather than
+    the lane-wide frontier.
   paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
     "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
     "problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md",
-    "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md",
-    "problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md",
-    "problems/navier-stokes/theorem-construction/mpp-lci-a-transported-center-residual-forcing-note.md",
-    "problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md",
-    "problems/navier-stokes/theorem-construction/mpp-act-kx-hidden-spending-audit-note.md",
-    "problems/navier-stokes/theorem-construction/mpp-averaged-act-kx-scale-critical-forcing-packet-note.md",
-    "problems/navier-stokes/theorem-construction/mpp-lci-a-pre-csp-still-live-receiver-admission-note.md"]'
+    "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md"]'
   branch_choice_labels:
-  - CFI.A / OFP.A / LCI.A class-membership route
-  - CJ.A_low / bounded Field-to-lower-carrier converse supplier
+  - class-membership forward-invariance route
+  - one-field forward-preservation wall
+  - lower-carrier receiver wall
+  - collar-to-jump converse pivot
+  - frozen-family source-side ledger beneath `OFP.A`
 obligations:
 - obligation_id: theorem-statement
   kind: theorem-statement
@@ -116,24 +48,6 @@ obligations:
   source_anchor: problems/navier-stokes/marvin-ingest-notes.yaml
   blocking: false
   notes: []
-- obligation_id: cj-a-low-bounded-field-to-lower-carrier
-  kind: converse-supplier
-  label: >-
-    CJ.A_low / bounded Field^{<= C} plus ACT.KX fixed-anchor supplies
-    LCI.A-level lower-carrier control
-  status: frontier
-  source_anchor: problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md
-  blocking: true
-  notes:
-  - Missing converse supplier, not a direct jump theorem.
-  - Uses pre-`LCI.A` `ACT.KX` only for the fixed-cover anchor ledger and
-    bounded `Field^{<= C}` only for fixed-cover oscillation.
-  - >-
-    Installed implications remain downstream of the lower-carrier output:
-    `LCI.A+FCI.5f => CSP.A => OFP.A => CFI.A`.
-  - The honest contrapositive boundary is anchor plus `not LCI.A` forcing no
-    uniform bounded `Field^{<= C}` regime; jump manifestation is downstream
-    endpoint vocabulary, not installed fallout.
 - obligation_id: marvin-upstream-eb3fabeeac46
   kind: definition
   label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
@@ -908,239 +822,73 @@ obligations:
   blocking: true
   notes:
   - This route choice or blocked frontier is still inside the theorem packet.
-  - 'Exact branch reduced further: the Hessian/coercivity wall is equivalent to
-    a tangent-frame lower bound for the first derivative D W_J(N_J).'
-  - 'General branch reduced further: local projective gluing is an O(1) connection-Laplacian
-    synchronization theorem on overlap windows after local lifted recovery.'
-  - 'Upstream shadow transfer reduced further: the off-diagonal blocks are the
-    double commutators [N,[N,S]] and [P,[P,S]], so the live shadow wall is a
-    commutator plus plane-leakage theorem.'
-- obligation_id: class-membership-forward-invariance-route
-  kind: live-theorem-edge
-  label: CFI.A / OFP.A / LCI.A class-membership route
+- obligation_id: marvin-route-authority-125
+  kind: branch-choice
+  label: "`LCI.A` supplies lower-carrier integrability on the moving collar. `FCI.5f`
+    supplies the frozen-family source ledger. The collar Sobolev propagation theorem
+    yields `CSP.A`. The one-field forward preservation theorem consumes `CSP.A` and
+    the"
   status: frontier
   source_anchor: route-synthesis
   blocking: true
   notes:
   - This route choice or blocked frontier is still inside the theorem packet.
-  - The Apr 19 class-membership packet set is route authority here; TPS / `SG.4`
-    is downstream consumer status only after direct matrix work
-    closes.
-  - The source/receiver split stays explicit under `OFP.A`; receiver-side `LCI.A`
-    remains separate from source-side `(FCI.5f)`, whose pressure child `FPCR.C`
-    is the exact same-depth frozen-net resonant wall; `FFPR.B1` / `FFPR.C2`
-    are only the adjacent stronger sufficient pressure route.
-  - >-
-    The receiver-side oscillation stack has now been sharpened past the
-    `VCB.A` / `HSP.A` / `FEI.A` return loop: after `OFP.CellA`, the immediate
-    repo-native queue is the widened receiver return `(EOC.27)` as `WRR.A`,
-    paired with the anchored-center ledger to close the pulled-back
-    `\nabla_xU_1` halo carrier through `U2H.A`; with the `OFP.C1e2`
-    first-rung/deformation inputs this obtains `(OFP.10cb)`. This older
-    thickened-collar queue is now downstream context: the active retained-window
-    receiver/source packet supplies `LCI.A+FCI.5f => CSP.A => OFP.A => CFI.A`,
-    while the averaged branch supplies
-    `LCI.A_avg+FCI.5f => CSP.A_avg => OFP.A_avg => CFI.A_avg`.
-    The retained still-live admission packet
-    `SLR.A`--`SLR.D` is only a sufficient shortcut for those inputs. Without
-    that admission, the route-native widened-family compression remains the
-    old `LCI` / `CSP` fixed point. The end-to-end certificate map records the
-    audit corrections: `U2H.A` closes only the pulled-back halo-gradient
-    residue, the enlarged `LCI` instances remain parameter-shifted obligations
-    of the same theorem family, and the terminal no-exit certificate remains
-    conditional on the endpoint-exclusion matrix. The finite-parameter
-    lower-carrier closure now discharges the uniform `LCI.B2d` / `LCI.C`
-    Gronwall step from the corresponding transported-center package. The
-    direct transported-center package note gives the non-smuggling reduction
-    `DTC.A_{\mathfrak p} => EOC.A_{\mathfrak p}+AFD.A_{\mathfrak p}/AFD.B_{\mathfrak p}+RCF.A_{\mathfrak p}`;
-    the remaining analytic target is now `DTC.A_{\mathfrak p}` for the finite
-    required parameter set, with the pre-base parameter subset used before
-    deriving base `EOC.A`. For the full lane, `(FCI.5f)` remains a separate
-    source-side block unless promoted as installed; with `(FCI.5f)` installed,
-    the terminal theorem blocks are exactly `DTC.A_{\mathfrak p}` across
-    `\mathscr P_{\rm req}` and `\mathsf{End}_{NS}`. The direct PDE core inside
-    `DTC.A` has sharpened from the older `DTC.M-Linear` slogan into the
-    simultaneous affine-center package `ACT.KX => ACT.X-Press_cell =>
-    ACT.Kcore => ACT.Actr_core => ACT.X-Readout => ACT.A => DTC.M-Affine =>
-    DTC.PRE`. This package supplies
-    `DTC.M^\infty` without spending `EOC.A`,
-    `AFD.A`, `RCF.A`, `LCI.A`, `CSP.A`, `OFP.A`, or `Field`; it also keeps
-    `A_buf` as readout/top-viscous buffer data rather than pre-pressure
-    Gronwall data. `RWS.C_scale` is the fixed-readout compatibility bridge, not
-    a fixed-radius smallness theorem. The concrete realization is the
-    affine-normalized local packet inequality carrying endpoint first-rung
-    action in the frame `G_j`; it remains conditional until
-    `B_{\mathfrak p}^{aff},F_{\mathfrak p}^{aff}\in L^1(I)` are proved by
-    direct pre-`DTC.A` estimates, and it does not itself install `(FCI.5f)` or
-    the endpoint block. The full bridge ledger expands this into
-    `DTC.MA-Energy -> DTC.MA-Readout -> DTC.M-to-VPF -> DTC.PRE-to-DTC.A`,
-    with the center zero-mode requirement for the affine readout explicit.
-    The endpoint tower face also keeps the separate `DTC-to-TowerBound`
-    bridge: finite-cover `DTC.A` must read out both `U_k` and `K_k`, including
-    local pressure/viscous response, before `END.TowerAmp` is available.
-    In the current conditional completion packet, `(FCI.5f)` is supplied by
-    the exact three-channel source theorem `FPCR.C + FSCR.C + FCC.C1`, not by
-    the formal split bridge alone. `END.Exh` is recorded as
-    witness-certificate completeness under the accepted endpoint certificate
-    maps. Inside `DTC.MA-Energy`, the remaining noncircular affine-center
-    coefficient subledger is `\mathfrak D_1^{aff}\in L^1`,
-    `\mathfrak F^{ctr,res}\in L^1`, and `\mathfrak H^{osc,\alpha}\in L^2`,
-    with far pressure tail and zero-rung center ledger direct. The bundled
-    target for that subledger is now `ACT.A`: one affine-center master packet
-    should close all three ledgers together. It is conditional until `ACT.E1`
-    or `ACT.E2` proves the affine-center energy inequality with external or
-    dissipatively absorbed `L^1` coefficients; using
-    `E_ACT in L^\infty => B_ACT,F_ACT in L^1 => E_ACT in L^\infty` is marked
-    circular. The valid completion route is finite-stage:
-    `ACT.Stage(0)..ACT.Stage(m+2) => ACT.E2`, with lower affine rungs external
-    at each stage. The middle block is structurally triangular once
-    `DTC.AFF-L2` is accepted; the remaining live estimates are the stage
-    pressure response on affine balls and the stage cutoff/frame estimate,
-    without importing `CSP.A`, `OFP.A`, or `Field`. The structural affine-local-equation gate `DTC.AFF-L1` now passes
-    modulo the tower-tensor representation compatibility of `\mathcal C_G`:
-    the center `U_1(c_j)` endpoint action is absorbed by the frame derivative
-    and the moving affine cutoff sees only `u(x)-u(c_j)-A_j(x-c_j)`. If that
-    representation compatibility is not already installed, it is the first
-    sub-obligation; otherwise the remaining `DTC.MA-Energy` work is the
-    middle-block, pressure/forcing, and moving cutoff estimates. The
-    middle-block structural gate `DTC.AFF-L2` also passes the same-rung break
-    test: after endpoint removal, only lower affine rungs occur. However the
-    `L^1` middle-block coefficient estimate is still part of `ACT.E1` /
-    `ACT.E2`; it cannot be read back from the desired
-    `\mathcal E_{ACT}\in L^\infty` conclusion. The pressure/forcing gate
-    `DTC.AFF-L3` and moving-cutoff gate `DTC.AFF-L4` pass structurally:
-    pressure uses local Poisson response plus far-tail energy rather than
-    `CSP.A`, top viscosity is read from the included `m+2` rungs, and the
-    cutoff sees the affine defect rather than full center amplitude. Their
-    `L^1` coefficient estimates remain part of `ACT.E1` / `ACT.E2`.
-    A named affine-excess propagation theorem `AXP.A` now packages the
-    conditional scale-small alternative `ACT.ScaleSmall`:
-    if the scale-normalized affine excess obeys
-    `dX_exc+cN <= L X_exc + (C_cut+C_press) X_exc^{1/2}N + F` with
-    `L,F in L^1`, and the initial excess plus additive source budget is below
-    the absorption threshold, then the
-    nonlinear residue is absorbed and `X_exc in L^\infty`, `N in L^1` follow on
-    that affine interval. With `ACT.X-Readout`, `AXP.A` supplies exactly the
-    `DTC.MA-Energy` subledger readouts `H^{osc,alpha} in L2`, `D_1^aff in L1`,
-    and `F^{ctr,res} in L1`. This is not unconditional: center zero modes must
-    be split into `A_core^ctr` and `A_buf^ctr` because the raw `q=0` center term
-    is not small as `R -> 0`, and a full-strip proof needs a small-budget
-    scheduler, not merely finite `L_0,F_0,F_K`. The ordered retained-branch receiver package is
-    `NKF.Native+NKF.Ann+NKF.Quad => ACT.X-Press`, then
-    `ACT.X-Cut+ACT.X-Press+ACT.X-MidRaw+ACT.X-TopVisc => ACT.KX`, then
-    `ACT.KX+ACT.X-Scale+RWS.C_scale => ACT.X-Readout => ACT.A => RCF.A =>
-    LCI.A`. The averaged replacement package is
-    `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi`, then
-    `AACT.KX+RWS.C_scale => DTC.A_avg`, then
-    `AVG.RCV.A => LCI.A_avg => CSP.A_avg => OFP.A_avg => CFI.A_avg`. The
-    installed readout-compatibility note supplies terminal `DTC.Read` and
-    `Field.Read` under `READ.COVER` plus `ATD_m^epsilon`, so the averaged
-    branch enters the old pointwise endpoint only through
-    `READ.END := End_NS_avg+READ.COVER+Field.Read+DTC.Read => End_NS`. It still
-    must not be used as upstream pointwise `DTC.A` or old `CFI.A` inside
-    `SCF_base`, `AACT.KX`, `AVG.RCV.A`, `LCI.A_avg`, `CSP.A_avg`,
-    `OFP.A_avg`, `CFI.A_avg`, or `End_NS_avg`.
-    `ACT.X-MidRaw` carries the zero-mode linearized middle terms through
-    `A_core`; `RWS.C_scale` transfers the small-radius cover to the fixed
-    readout scale; and `ACT.X-Readout` spends
-    `Y_read=A_core^ctr+A_buf^ctr+X_exc` after `ACT.KX` supplies `A_core^ctr`.
-    The scheduler restarts only `X_exc` at budget endpoints using the current
-    transported center frame. `AXP.A` does not by itself prove `ACT.KX`, `(FCI.5f)`,
-    or any endpoint entry.
-    `ACT.X-Scale` supplies the scale-small restart seed from retained smooth
-    center-ball regularity on the retained branch. On the averaged branch, the
-    seed is the `X_R(s_a)` component of `SCF_avg^m`, not point-center smoothness.
-    `RWS.C_cover` supplies the dynamic same-fluid
-    cover from compact retained label tubes and the pack gauge. `RWS.C_scale` is
-    the finite-cover readout bridge that recovers fixed-radius readouts from small-radius restarted packets; it
-    does not assert fixed-radius packet smallness. This
-    is a conditional receiver discharge under the retained-window hypotheses,
-    not an unconditional energy result; the retained native forcing certificate is
-    `RSCB.NKF`, which supplies the retained smooth center-ball route
-    `NKF.Moll + NKF.Point => NKF.Native`, together with the scheduler budgets.
-    The finite-energy-native route must instead combine the finite-energy
-    `SCF_base` supply with `SGC.A_a.e` and `ATD_m^epsilon` to form
-    `SCF_avg^m` off `B_epsilon^Phi`, then feed the
-    averaged receiver bridge `AVG.RCV.A` instead of forcing pointwise recovery.
-    `ACT.X-Scale` and `RWS.C_scale` are installed conditional bridges, not
-    fixed-radius smallness claims.
-    Conditional closure: `ACT.KX` is now the simultaneous core/excess theorem
-    replacing the linear route `AXE.A -> ACT.X-Boot -> ACT.Kcore ->
-    ACT.Actr_core`. This is necessary because `ACT.X-MidRaw` contains genuine
-    zero-mode linear terms `U_tilde R + R U_tilde`, so `A_core^ctr` is a live
-    coefficient in the affine-excess equation. The joint block uses
-    `J=X_exc+theta A_core` while only `X_exc` enters the small absorption term.
-    The top `m+1,m+2` modes remain `A_buf^ctr` readout/top-viscous buffer data,
-    not pre-pressure Gronwall data unless an optional stronger top-forcing route
-    is chosen. On the retained branch, the named pressure supplier is `NKF.Native+NKF.Ann+NKF.Quad =>
-    ACT.X-Press`; the energy atoms `ACT.X-Cut+ACT.X-Press+ACT.X-MidRaw+
-    ACT.X-TopVisc` feed `ACT.KX`, and the joint block yields `X_exc in Linfty`,
-    `N in L1`, `K_{\le m}^{ctr} in L1`, and `A_core^ctr in Linfty`.
-    `ACT.Kcore` remains the ledger identity `K0.Core + E1.Aff + Kmid.Core`;
-    its pressure cells are read after `ACT.KX`.
-    `NKF.Native` is supplied only by `RSCB.NKF`, the retained smooth center-ball
-    certificate for pointwise center pressure/viscous forcing; finite energy
-    plus pressure Poisson response alone does not supply those center
-    derivatives, as shown by the energy-preserving rescaling obstruction for
-    point pressure derivatives. The retained condition is local
-    `L^1_t C^{m+2,\alpha}` velocity plus local `L^1_t C^{m+1,\alpha}` pressure
-    near the retained centers. The installed route to `NKF.Native` is
-    `RSCB.NKF => NKF.Moll + NKF.Point`: prove a mollified
-    transported-center forcing ledger from local pressure response,
-    finite-energy far tails, and viscous integration by parts, then recover
-    point-center forcing by retained smoothness at the restart scale.
-    On the averaged branch this point-center sentence is replaced by
-    `SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi => K_{\le m}^{avg,R} in L1 => AVG.RCV.A => LCI.A_avg`, with `AVG.COVER.A` covering every same-fluid approach tail: good material region gives averaged propagation and nonempty `B_epsilon^Phi` gives `Jump_avg` by `CAVG.J`, and `AVG.MAIN.A` as the terminal averaged no-class-exit wrapper.
-    Pressure is split into the in-bootstrap normal-form estimates and the
-    post-`ACT.KX` `ACT.X-Press_cell` readout. The cell form supplies the
-    residual pressure-cell ledger behind `ACT.Kcore`: the
-    native affine normal-form pressure `p_j^aff` is subtracted from `p_j^loc`,
-    and its center-cell functionals annihilate both affine and affine-linear
-    pressure modes. The cell theorem controls `pi_j^loc=p_j^loc-p_j^aff` through
-    a quadratic affine-excess core plus projected annular/harmonic/far-tail terms; its
-    `L^1` consequence uses `X_exc in Linfty` and `N in L1` from `ACT.KX`.
-    The energy form is the same residual local pressure decomposition inside
-    `AXE.A`: the quadratic core produces the scale-small residue
-    `C_press X_exc^(1/2) N`, while projected annular and harmonic terms enter the
-    `L_press X_exc + F_press` side. The finite pressure far-tail is
-    energy-controlled in `L^\infty(I)`. The top-viscous part reads `m+1,m+2`
-    only through `A_buf` inside `Y_read`, not through the pre-pressure core.
-    `ACT.KX` must absorb `(C_cut+C_press)X_exc^(1/2)N`. It spends no
-    `LCI.A`, `CSP.A`, `OFP.A`, or `Field`.
-    The endpoint block is now closed under the endpoint packet:
-    `DTC-to-TowerBound` supplies `END.TowerAmp` from a finite transported-center
-    cover, `DTC.A` through depth `N+2`, Morrey readout for `U_k`, and the local
-    pressure/viscous readout for `K_k`; `END.TowerBound` is formal from
-    `END.TowerAmp`. `END.Exh` is witness-certificate completeness, and
-    `END.Cross` reduces blown, jump, and dead cross-entries to installed rows
-    plus `END.TowerBound`, `END.Pack`, and `END.Field`. The proposed
-    `DTC.LINEAR` affine-frame route remains
-    conditional unless its displayed coefficients are supplied by direct
-    pre-`DTC.A` estimates, since those coefficients include `AFD.A`, `EOC.A`,
-    and `RCF.A`-level ledgers. `END.COMPLETE` is formal endpoint assembly from
-    `END.TowerAmp` plus the accepted `END.Exh` / `END.Cross` certificate maps.
-    The readout-endpoint compatibility note is the governing averaged-to-pointwise
-    endpoint authority: `Field.Read`, `DTC.Read`, `READ.END`, and `FULL.END`
-    are installed terminal consequences of `End_NS_avg`, `READ.COVER`, and
-    `ATD_m^epsilon`; they do not discharge the retained-window hypotheses,
-    bounded pack gauge, finite required parameter set, or upstream construction
-    of the averaged receiver/source spine.
+- obligation_id: cfi-forward-invariance-route
+  kind: live-theorem-edge
+  label: class-membership forward-invariance route
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: ofp-one-field-forward-preservation
+  kind: live-theorem-edge
+  label: one-field forward-preservation wall
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: lci-lower-carrier-interval-integrability
+  kind: live-theorem-edge
+  label: lower-carrier receiver wall
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: cj-a-low-collar-to-jump-converse-supplier
+  kind: live-theorem-edge
+  label: collar-to-jump converse pivot
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
+- obligation_id: fci-frozen-family-source-ledger
+  kind: live-theorem-edge
+  label: frozen-family source-side ledger beneath `OFP.A`
+  status: frontier
+  source_anchor: route-synthesis
+  blocking: true
+  notes:
+  - This route choice or blocked frontier is still inside the theorem packet.
 summary:
-  total_obligations: 74
+  total_obligations: 78
   grounded_count: 2
   structural_only_count: 0
   structurally_supported_count: 1
   bridge_pending_count: 5
   unresolved_count: 17
-  frontier_count: 49
+  frontier_count: 53
   bridge_discharge_blocking_count: 0
   theorem_warrant_blocking_count: 0
-  blocking_count: 71
+  blocking_count: 75
   all_discharged: false
   live_theorem_edge_present: true
-  live_theorem_edge_branch_count: 1
+  live_theorem_edge_branch_count: 5
   live_theorem_edge_blocked_count: 0
 submission_blockers:
 - There are 17 unresolved proof obligations.
 - There are 5 bridge obligations still awaiting local discharge.
-- There are 49 frontier obligations still inside the theorem packet.
+- There are 53 frontier obligations still inside the theorem packet.
