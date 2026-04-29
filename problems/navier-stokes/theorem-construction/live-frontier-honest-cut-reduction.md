@@ -206,7 +206,11 @@ Inside that branch:
 3. the narrowest installed coarse endpoint is the scalar retained-cover
    counting primitive;
 4. repaired direct exact-potential `V2` and `SG.4B` surfaces remain supplier or
-   readout context and do not replace the lane-wide class-membership frontier.
+   readout context and do not replace the lane-wide class-membership frontier;
+5. the branch-local `PSJ+` terminal assembly is now recorded in
+   [psj-plus-terminal-assembly.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/psj-plus-terminal-assembly.md):
+   `D.7mq + SSC-EP.A => D.7mr2 => RPC.3`, with the square-budget descendant
+   `SSC-D7mb-collapse` as one installed selector-strain supplier.
 
 ## Solver-Facing Conclusion
 

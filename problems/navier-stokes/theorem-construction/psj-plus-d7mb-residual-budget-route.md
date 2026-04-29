@@ -677,6 +677,27 @@ It also fixes the route boundary: `D.7mr2` is the export supplied by
 `RPC.3 -> SG.4 -> BR.lambda2 -> continuation` chain remains downstream export,
 not a replacement for the upstream `PSJ+` square-budget wall.
 
+The branch-local terminal assembly is now recorded in
+[psj-plus-terminal-assembly.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/psj-plus-terminal-assembly.md):
+
+```math
+\texttt{PTC-Lin}
++\texttt{PTC-Shape}
++\texttt{SSC-D7mb-collapse}
+\Longrightarrow
+\texttt{PSJ+.Terminal}
+\Longrightarrow
+D.7mr2
+\Longrightarrow
+RPC.3.
+\tag{PBR.10r'}
+```
+
+So this note supplies the square-budget selector-strain descendant consumed by
+that terminal assembly. The terminal assembly closes the branch-local `PSJ+`
+splice from installed inputs; it does not promote `PSJ+` above the current
+class-membership live edge.
+
 ### Proposition PBR.10s (a common weighted bad-set theorem collapses the `D.7mb` square supplier budgets)
 
 Let `d\nu_J:=M_J^2\,d\mu_J` on the selector-good family `\mathcal G_J`, and let
@@ -6295,3 +6316,6 @@ The clean closure state is therefore:
    upstream theorem wall;
 5. `EP.11d + V1+V2` remains a stronger sufficient continuation beginning from
    `D.7mr2`, not a replacement for the `PSJ+` square-budget burden.
+6. the terminal branch assembly from the projector-first and selector-strain
+   inputs is recorded in
+   [psj-plus-terminal-assembly.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/psj-plus-terminal-assembly.md).
