@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   branch_set_id: extension-branches-navier-stokes
-  generated_at: '2026-04-29T18:32:40Z'
+  generated_at: '2026-04-29T18:56:28Z'
   generator: system/runner/lib/lemma_synthesis_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -14,635 +14,82 @@ provenance_policy:
     and promotion.
 branches:
 - branch_id: branch-navier-stokes-1
-  origin_obligation_id: marvin-route-authority-4
-  branch_type: route-branch
+  origin_obligation_id: proof-dependency-1
+  branch_type: bridge-lemma
   provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether theorem packet: Added
-    four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-    under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-    and E_sh(X) vanish identically, so the exact Route A can be made explicit without
-    crossing the current safe-claim boundary.'
+  hypothesis: If the Clay target is the official 3D incompressible Navier-Stokes problem
+    on `R^3` or `T^3` and the mediating object is localized on the same theorem surface,
+    then success for regularized or morphic-regularized equations does not close the
+    original problem.
   depends_on:
   - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   - warrant-theorem-2.1
-  - marvin-route-authority-4
-  risk_level: high
+  - proof-dependency-1
+  risk_level: medium
   notes:
-  - This branch starts exactly at the first unresolved frontier for `marvin-route-authority-4`.
+  - This branch starts exactly at the first unresolved frontier for `proof-dependency-1`.
   merge_policy: quarantined-until-promoted
 - branch_id: branch-navier-stokes-2
-  origin_obligation_id: marvin-route-authority-5
-  branch_type: route-branch
+  origin_obligation_id: proof-dependency-2
+  branch_type: bridge-lemma
   provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether nC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md
-    can be made explicit without crossing the current safe-claim boundary.'
+  hypothesis: If success for regularized or morphic-regularized equations does not
+    close the original problem and the mediating object is localized on the same theorem
+    surface, then the original framework names a monotone functional `Q(t)` as a bridge,
+    not just unnamed baseline energy.
   depends_on:
   - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   - warrant-theorem-2.1
-  - marvin-route-authority-5
-  risk_level: high
+  - proof-dependency-2
+  risk_level: medium
   notes: []
   merge_policy: quarantined-until-promoted
 - branch_id: branch-navier-stokes-3
-  origin_obligation_id: marvin-route-authority-6
-  branch_type: route-branch
+  origin_obligation_id: proof-dependency-3
+  branch_type: bridge-lemma
   provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Completed
-    the Hopf/shuffle line as a theorem-program refinement. The correct algebraic fit
-    for the time tower is the divided-power Hopf law on one primitive generator, and
-    for the mixed jet tower it is the shuffle/unshuffle or sy can be made explicit
-    without crossing the current safe-claim boundary.'
+  hypothesis: If the original framework names a monotone functional `Q(t)` as a bridge,
+    not just unnamed baseline energy and the mediating object is localized on the
+    same theorem surface, then global energy or enstrophy control is necessary but
+    not sufficient.
   depends_on:
   - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   - warrant-theorem-2.1
-  - marvin-route-authority-6
-  risk_level: high
+  - proof-dependency-3
+  risk_level: medium
   notes: []
   merge_policy: quarantined-until-promoted
 - branch_id: branch-navier-stokes-4
-  origin_obligation_id: marvin-route-authority-8
-  branch_type: route-branch
+  origin_obligation_id: proof-dependency-4
+  branch_type: bridge-lemma
   provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Built
-    an honest attack package for the three remaining hopf/shuffle endgame gaps. Gap
-    1: the jet quotient is explicit after killing pressure and transport, but the
-    lifted quotient still fails to close because scale/time/divergenc can be made
-    explicit without crossing the current safe-claim boundary.'
+  hypothesis: If global energy or enstrophy control is necessary but not sufficient
+    and the mediating object is localized on the same theorem surface, then the live
+    obstruction is the small-scale or high-frequency cascade that feeds blow-up.
   depends_on:
   - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   - warrant-theorem-2.1
-  - marvin-route-authority-8
-  risk_level: high
+  - proof-dependency-4
+  risk_level: medium
   notes: []
   merge_policy: quarantined-until-promoted
 - branch_id: branch-navier-stokes-5
-  origin_obligation_id: marvin-route-authority-9
-  branch_type: route-branch
+  origin_obligation_id: proof-dependency-7
+  branch_type: bridge-lemma
   provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Formalized
-    the refined direct Lagrangian route as a six-lemma mainline: differentiated Lagrangian
-    decomposition, deformation-adapted energy, ellipticity window, coefficient-commutator
-    absorption, no-loss pressure recovery, and La can be made explicit without crossing
-    the current safe-claim boundary.'
+  hypothesis: If the monotone functional must stabilize the global energy/enstrophy
+    layer and enable the compactness package on that same periodic classical surface
+    and the mediating object is localized on the same theorem surface, then the scale-barrier
+    plus monotone-functional input must yield strong local compactness and nonlinear
+    tensor closure on the periodic/operator approximation family.
   depends_on:
   - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   - warrant-theorem-2.1
-  - marvin-route-authority-9
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-6
-  origin_obligation_id: marvin-route-authority-12
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Updated
-    lemma-4b-no-loss-pressure-recovery-attack.md with a geometry-testing ladder for
-    the elliptic test field W_test = A^T grad Phi solving -div_a(G grad Phi)=div_a
-    Z_alpha. The note now distinguishes three rungs: (1) energy-le can be made explicit
-    without crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-12
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-7
-  origin_obligation_id: marvin-route-authority-13
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether headline: Verified
-    Route A reduction and isolated the remaining coefficient-window obstruction can
-    be made explicit without crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-13
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-8
-  origin_obligation_id: marvin-route-authority-14
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Updated
-    lemma-4b-no-loss-pressure-recovery-attack.md to replace the old formal Route A
-    candidate with an exact verified reduction. The note now proves div X_pr = -L_G
-    P_alpha - div R_alpha for X_pr = div_a(AG∇_a U_alpha), P_alpha can be made explicit
-    without crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-14
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-9
-  origin_obligation_id: marvin-route-authority-19
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Pushed
-    the theory forward on the Lagrangian Stokes bridge. Verified that a genuine frozen
-    NS time slice with F_*=∇_a X_*, A_*=F_*^{-1}, G_*=A_*A_*^T is exactly conjugate
-    to classical Stokes by the frozen nonlinear map x=X_*(a); s can be made explicit
-    without crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-19
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-10
-  origin_obligation_id: marvin-route-authority-22
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Exact
-    frozen-flow-map reduction now discharges the genuine frozen spatially varying
-    slice: the frozen Lagrangian Stokes system is exactly conjugate to classical Stokes
-    by the frozen flow map. The evolving bridge is now rewritten can be made explicit
-    without crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-22
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-11
-  origin_obligation_id: marvin-route-authority-24
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: The short-slab
-    bridge has been sharpened again. U1 is now effectively discharged on the slab
-    surface: in the Bogovskii-corrected formulation one may take Pi = pi exactly,
-    so there is no independent pressure-transfer term, and the can be made explicit
-    without crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-24
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-12
-  origin_obligation_id: marvin-route-authority-25
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Current
-    far-corona route has been tightened materially. On the shell-pair commutator surface,
-    an amplitude-free absorption theorem |C_{m,j}| <= eps nu D_j + K_N is structurally
-    false by scaling, because C_{m,j} is cubic in the ve can be made explicit without
-    crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-25
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-13
-  origin_obligation_id: marvin-route-authority-26
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether headline: Far-corona
-    route pivot: amplitude-free shell absorption false; coefficient-bearing shell-pair
-    branch closes on upgraded carrier can be made explicit without crossing the current
-    safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-26
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-14
-  origin_obligation_id: marvin-route-authority-27
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether headline: Fixed-collar
-    coefficient branch closes on upgraded carrier; exact external bridge measures
-    are nu_N and mu_N can be made explicit without crossing the current safe-claim
-    boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-27
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-15
-  origin_obligation_id: marvin-route-authority-28
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Pushed
-    the far-corona route forward in theorem-grade form. First, the amplitude-free
-    shell-pair absorption fantasy is ruled out by scaling: the shell-pair commutator
-    is cubic in amplitude while D_j is quadratic, so no estimate of can be made explicit
-    without crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-28
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-16
-  origin_obligation_id: marvin-route-authority-31
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Sharpened
-    the reserve globalization program after the capwise signed defect step. The safe
-    sign scale is now the net cap-graph coercive coefficient kappa_j^{net}=inf_omega(d_{j,omega}-o_{j,omega})
-    rather than a prematurely fixed can be made explicit without crossing the current
-    safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-31
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-17
-  origin_obligation_id: marvin-route-authority-37
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether define or prove:
-    The Navier-Stokes selector program has been sharpened further on disk. The new
-    packet transported-phase-space-selector-theorem-candidate.md now treats the remaining
-    carrier verification as a selector/localizer theorem on to can be made explicit
-    without crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-37
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-18
-  origin_obligation_id: marvin-route-authority-38
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: The Navier-Stokes
-    selector program has been sharpened further on disk. The new packet transported-phase-space-selector-theorem-candidate.md
-    now treats the remaining carrier verification as a selector/localizer theorem
-    on top of t can be made explicit without crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-38
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-19
-  origin_obligation_id: marvin-route-authority-40
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Navier-Stokes
-    selector packet sharpened further. In transported-phase-space-selector-theorem-candidate.md,
-    the dynamic burden is no longer only the vanishing-bad-set lemma `(TPS.4h)`-`(TPS.4i)`.
-    Added `TPS-ns-crit`, reducing `(TP can be made explicit without crossing the current
-    safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-40
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-20
-  origin_obligation_id: marvin-route-authority-42
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Transported
-    selector dynamic packet improved further. In transported-phase-space-selector-theorem-candidate.md,
-    added two reserve sufficient mechanisms for the bespoke dynamic burden `(TPS.4i)`:
-    `(TPS.4r)`-`(TPS.4w)` measure-line can be made explicit without crossing the current
-    safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-42
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-21
-  origin_obligation_id: marvin-route-authority-44
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Further
-    dynamic-route sharpening landed. In transported-phase-space-selector-theorem-candidate.md,
-    added `TPS-drift-collapse` `(TPS.4ab)`-`(TPS.4ah)`: if bad-pair mass vanishes,
-    initial selector gaps are tight, good active pairs can be made explicit without
-    crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-44
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-22
-  origin_obligation_id: marvin-route-authority-45
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Internet-backed
-    route sweep integrated into the selector packet. Added normalized theorem family
-    `TPS.4(*)` `(TPS.4ai)`-`(TPS.4am)`: one common Lagrangian bad set, one common
-    overlap law, three dynamic mechanisms (selector-label can be made explicit without
-    crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-45
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-23
-  origin_obligation_id: marvin-route-authority-48
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Promoted
-    the remaining dynamic wall to a single named theorem in transported-phase-space-selector-theorem-candidate.md:
-    `TPS-ns-good-set-transversality`. This bundles the good-set measure condition
-    with pairwise measurable linear can be made explicit without crossing the current
-    safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-48
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-24
-  origin_obligation_id: marvin-route-authority-50
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Refined
-    the dynamic core theorem in transported-phase-space-selector-theorem-candidate.md.
-    Replaced the placeholder transversality theorem with a cleaner named packet `TPS-ns-good-set`
-    using dedicated GS.* hypotheses: good select can be made explicit without crossing
-    the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-50
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-25
-  origin_obligation_id: marvin-route-authority-51
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Further
-    corrected the dynamic selector packet. The scalar-label section in transported-phase-space-selector-theorem-candidate.md
-    no longer presents `alpha_j` as a candidate primitive object on the live carrier.
-    It now states expl can be made explicit without crossing the current safe-claim
-    boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-51
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-26
-  origin_obligation_id: marvin-route-authority-53
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: The dynamic
-    selector packet is now internally corrected and tightened. The local pairwise
-    nonshadowing criterion uses an oriented observable m_{Q,Q''} with one-sided drift
-    in the shadow zone, not d/dt|m|. The good-set theorem and can be made explicit
-    without crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-53
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-27
-  origin_obligation_id: marvin-route-authority-63
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether headline: Formalized
-    HWY contradiction packet and direct SG.4 realization from fresh-angle lambda2-plus
-    feed can be made explicit without crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-63
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-28
-  origin_obligation_id: marvin-route-authority-71
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Tightened
-    the live Navier-Stokes SG.4 bridge packet inside problems/navier-stokes only.
-    In the selector-observability proof attempt, promoted the already implicit residual
-    pairwise closure into the exact named theorem: after the can be made explicit
-    without crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-71
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-29
-  origin_obligation_id: marvin-route-authority-74
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Integrated
-    the user-supplied theorem-bearing refinement into the Navier-Stokes SG.4 packet.
-    The live theorem notes now make the branch-sensitive endgame explicit: the exact
-    remaining general burden is still the residual pairwise can be made explicit without
-    crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-74
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-30
-  origin_obligation_id: marvin-route-authority-79
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Integrated
-    the new theorem-bearing clarification of the open SG.4 bridge. The exact-potential
-    / cycle-exact branch is now packaged explicitly as the preferred local endgame:
-    a cycle-exact polarization lemma defines the expanding can be made explicit without
-    crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-79
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-31
-  origin_obligation_id: marvin-route-authority-82
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Refined
-    the exact-potential PD.70z endgame one step further. The selector bridge note
-    now proves the formal simple-top reduction from the angle variable alpha_J=1-(e_ab·n_J)^2
-    to the one-sided directional deficit and strip budget can be made explicit without
-    crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-82
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-32
-  origin_obligation_id: marvin-route-authority-84
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Refined
-    the cycle-exact normal-covector route further. The route note now proves a finite-measure
-    square-root upgrade from the weighted L4 closure CN.13 to the directional ledger
-    E_dir^perp on selector-good strips: if the pair/ti can be made explicit without
-    crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-84
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-33
-  origin_obligation_id: marvin-route-authority-86
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Integrated
-    the exact theorem-bearing closure the user supplied. The selector bridge note
-    now contains a formal theorem-schema no-go proposition: signless W_J, its current
-    PDE coercive bounds, and cycle exactness do not suffice to can be made explicit
-    without crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-86
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-34
-  origin_obligation_id: marvin-route-authority-90
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Searched
-    for abstract non-NS replacements for the cycle-exact alignment idea and did not
-    find a source-backed route that is genuinely better. The nearest abstract competitors
-    are Davis-Kahan style eigenspace perturbation, dominat can be made explicit without
-    crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-90
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-35
-  origin_obligation_id: marvin-route-authority-92
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Abstract
-    external search did not produce a source-backed proof of the final selector calibration,
-    but it did produce a cleaner theorem formulation than the older polarity-map packet.
-    The exact-potential simple-top branch is now b can be made explicit without crossing
-    the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-92
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-36
-  origin_obligation_id: marvin-route-authority-116
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Strengthened
-    the YM/deformation theorem schema in the spectral transversality bridge note.
-    The better repo-style target is not a monolithic theorem ''YM/deformation implies
-    PSJ+.SST''. That over-hides the live obligations. The shar can be made explicit
-    without crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-116
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-37
-  origin_obligation_id: marvin-route-authority-118
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether define or prove:
-    Improved the YM/deformation route target beyond the earlier DG-PSJ stack. The
-    sharper repo-native factorization is now DG-Line (deformation drain plus DG-SF
-    builds a rank-one carrier inside the coarse expanding plane with g can be made
-    explicit without crossing the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-118
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-38
-  origin_obligation_id: marvin-route-authority-119
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Improved
-    the YM/deformation route target beyond the earlier DG-PSJ stack. The sharper repo-native
-    factorization is now DG-Line (deformation drain plus DG-SF builds a rank-one carrier
-    inside the coarse expanding plane with gap/dri can be made explicit without crossing
-    the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-119
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-39
-  origin_obligation_id: marvin-route-authority-123
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: 'Open a quarantined side branch that tests whether live task: Sharpened
-    the YM/deformation exact-potential closure route on the Navier-Stokes lane. In
-    problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md,
-    replaced the vague A-D bridge discussion with can be made explicit without crossing
-    the current safe-claim boundary.'
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-123
-  risk_level: high
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-40
-  origin_obligation_id: marvin-route-authority-125
-  branch_type: route-branch
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: Open a quarantined side branch that tests whether `LCI.A` supplies lower-carrier
-    integrability on the moving collar. `FCI.5f` supplies the frozen-family source
-    ledger. The collar Sobolev propagation theorem yields `CSP.A`. The one-field forward
-    preservation theorem consumes `CSP.A` and the can be made explicit without crossing
-    the current safe-claim boundary.
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - marvin-route-authority-125
-  risk_level: high
-  notes: []
+  - proof-dependency-7
+  risk_level: medium
+  notes:
+  - Prefer a classical closure lemma on the existing energy / compactness ladder rather
+    than a modified-equation detour.
   merge_policy: quarantined-until-promoted
 summary:
-  branch_count: 40
+  branch_count: 5

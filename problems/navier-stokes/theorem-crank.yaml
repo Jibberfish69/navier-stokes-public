@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-29T18:49:44Z'
+  generated_at: '2026-04-29T18:56:43Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-7012e3bea295
-    route_signature: 7012e3bea29593d510268ae4ed8490081208c44e
+    surface_id: theorem-surface-navier-stokes-63fac93c6e9b
+    route_signature: 63fac93c6e9b8ede3baf68e06e7a79b439067769
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -34,26 +34,27 @@ shared_alignment:
       = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
       not the internal branch itself
     route_slots:
-    - slot_id: marvin-route-authority-4
-      label: 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-        under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-        and E_sh(X) vanish identically, so the exact Route A'
-      kind: branch-choice
-      status: frontier
-      patch_surface: problems/navier-stokes/marvin-ingest-notes.yaml
-    - slot_id: marvin-route-authority-5
-      label: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
-      kind: branch-choice
-      status: frontier
-      patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: marvin-route-authority-6
-      label: 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
-        The correct algebraic fit for the time tower is the divided-power Hopf law
-        on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
-        or sy'
-      kind: branch-choice
-      status: frontier
-      patch_surface: problems/navier-stokes/marvin-ingest-notes.yaml
+    - slot_id: proof-dependency-1
+      label: The Clay target is the official 3D incompressible Navier-Stokes problem
+        on `R^3` or `T^3` -> Success for regularized or morphic-regularized equations
+        does not close the original problem
+      kind: proof-dependency
+      status: bridge-pending
+      patch_surface: problems/navier-stokes/formalization-ledger.md
+    - slot_id: proof-dependency-2
+      label: Success for regularized or morphic-regularized equations does not close
+        the original problem -> The original framework names a monotone functional
+        `Q(t)` as a bridge, not just unnamed baseline energy
+      kind: proof-dependency
+      status: bridge-pending
+      patch_surface: problems/navier-stokes/claim-ladder.md
+    - slot_id: proof-dependency-3
+      label: The original framework names a monotone functional `Q(t)` as a bridge,
+        not just unnamed baseline energy -> Global energy or enstrophy control is
+        necessary but not sufficient
+      kind: proof-dependency
+      status: bridge-pending
+      patch_surface: problems/navier-stokes/formalization-ledger.md
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
     route_label: conditional terminal class-membership lane closure packet
@@ -74,71 +75,58 @@ shared_alignment:
   promoted_obligation_count: 8
   missing_promoted_obligation_count: 0
   missing_promoted_obligations: []
-  route_authority_candidate_count: 40
+  route_authority_candidate_count: 0
   missing_route_authority_candidate_count: 0
   missing_route_authority_candidates: []
   promoted_proof_packet_count: 0
-  route_authority_candidates:
-  - directive_id: marvin-route-authority-4
-    headline: Research OS Theorem Packet
-    requested_frontier: 'Theorem packet: Added four theorem-construction reductions.
-      (1) strict-shadow-no-remainder-corollary.md: under the exact strict-shadow identities
-      already present on the lane, ShadowDef(X) and E_sh(X) vanish identically, so
-      the exact Route A'
-  - directive_id: marvin-route-authority-5
-    headline: Research OS Theorem Packet
-    requested_frontier: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
-  - directive_id: marvin-route-authority-6
-    headline: Research OS Route Pivot
-    requested_frontier: 'Live task: Completed the Hopf/shuffle line as a theorem-program
-      refinement. The correct algebraic fit for the time tower is the divided-power
-      Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
-      or sy'
+  route_authority_candidates: []
   compiled_import_summary:
     bucket_counts:
       local-discharge-support: 125
     route_slot_labels:
     - Theorem 2.1 (Classical Closure)
     - selector-adapted defect-to-strain theorem
-  alignment_reroute: route-synthesis
+  alignment_reroute: solver-loop
 local_derivation:
   status: packetize-and-derive
   required_packet_count: 3
   required_packets:
-  - packet_id: marvin-route-authority-4
-    label: 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-      and E_sh(X) vanish identically, so the exact Route A'
-    packet_kind: branch-choice
+  - packet_id: proof-dependency-1
+    label: The Clay target is the official 3D incompressible Navier-Stokes problem
+      on `R^3` or `T^3` -> Success for regularized or morphic-regularized equations
+      does not close the original problem
+    packet_kind: proof-dependency
     source_kind: live-solver-target
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/marvin-ingest-notes.yaml
+    target_patch_surface: problems/navier-stokes/formalization-ledger.md
     matched_route_slot_labels:
-    - 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-      and E_sh(X) vanish identically, so the exact Route A'
-  - packet_id: marvin-route-authority-5
-    label: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
-    packet_kind: branch-choice
+    - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
+      or `T^3` -> Success for regularized or morphic-regularized equations does not
+      close the original problem
+  - packet_id: proof-dependency-2
+    label: Success for regularized or morphic-regularized equations does not close
+      the original problem -> The original framework names a monotone functional `Q(t)`
+      as a bridge, not just unnamed baseline energy
+    packet_kind: proof-dependency
     source_kind: live-solver-target
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/object-formalization.yaml
+    target_patch_surface: problems/navier-stokes/claim-ladder.md
     matched_route_slot_labels:
-    - 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
-  - packet_id: marvin-route-authority-6
-    label: 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
-      The correct algebraic fit for the time tower is the divided-power Hopf law on
-      one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
-      or sy'
-    packet_kind: branch-choice
+    - Success for regularized or morphic-regularized equations does not close the
+      original problem -> The original framework names a monotone functional `Q(t)`
+      as a bridge, not just unnamed baseline energy
+  - packet_id: proof-dependency-3
+    label: The original framework names a monotone functional `Q(t)` as a bridge,
+      not just unnamed baseline energy -> Global energy or enstrophy control is necessary
+      but not sufficient
+    packet_kind: proof-dependency
     source_kind: live-solver-target
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/marvin-ingest-notes.yaml
+    target_patch_surface: problems/navier-stokes/formalization-ledger.md
     matched_route_slot_labels:
-    - 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
-      The correct algebraic fit for the time tower is the divided-power Hopf law on
-      one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
-      or sy'
+    - The original framework names a monotone functional `Q(t)` as a bridge, not just
+      unnamed baseline energy -> Global energy or enstrophy control is necessary but
+      not sufficient
   leadership_status: lagging-shared-picture
   net_new_local_theorem_count: 0
   recommended_next_cell_type: dependency-discharge
@@ -213,40 +201,34 @@ cross_lane_broadcast:
 auditor:
   status: needs-attention
   audit_status: audited-needs-fix
-  branch_terminal_status: all-terminal
-  open_issue_count: 1
+  branch_terminal_status: needs-terminal-status
+  open_issue_count: 2
   autofixable_issue_count: 0
-  fix_plan_count: 0
-  branch_count: 40
-  live_import_count: 0
-  route_equivalence_count: 35
-  death_certificate_count: 5
-  unresolved_branch_terminal_count: 0
+  fix_plan_count: 1
+  branch_count: 5
+  live_import_count: 3
+  route_equivalence_count: 0
+  death_certificate_count: 0
+  unresolved_branch_terminal_count: 2
 frontier_projection:
   status: ready
   primary_target:
-    label: 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-      and E_sh(X) vanish identically, so the exact Route A'
+    label: The Clay target is the official 3D incompressible Navier-Stokes problem
+      on `R^3` or `T^3` -> Success for regularized or morphic-regularized equations
+      does not close the original problem
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/marvin-ingest-notes.yaml
+    target_patch_surface: problems/navier-stokes/formalization-ledger.md
   one_step_beyond:
-  - label: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
+  - label: Success for regularized or morphic-regularized equations does not close
+      the original problem -> The original framework names a monotone functional `Q(t)`
+      as a bridge, not just unnamed baseline energy
     recommended_stage: dependency-discharge
   two_steps_beyond:
-  - label: 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
-      The correct algebraic fit for the time tower is the divided-power Hopf law on
-      one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
-      or sy'
+  - label: The original framework names a monotone functional `Q(t)` as a bridge,
+      not just unnamed baseline energy -> Global energy or enstrophy control is necessary
+      but not sufficient
     recommended_stage: dependency-discharge
-  route_pressure:
-  - headline: Research OS Theorem Packet
-    requested_frontier: 'Theorem packet: Added four theorem-construction reductions.
-      (1) strict-shadow-no-remainder-corollary.md: under the exact strict-shadow identities
-      already present on the lane, ShadowDef(X) and E_sh(X) vanish identically, so
-      the exact Route A'
-  - headline: Research OS Theorem Packet
-    requested_frontier: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
+  route_pressure: []
   recommended_next_cell_type: dependency-discharge
 summary:
   phase: local-derivation
@@ -256,12 +238,12 @@ summary:
   exact_local_packet_count: 3
   net_new_local_theorem_count: 0
   projected_frontier_count: 2
-  current_open_obligation_count: 41
+  current_open_obligation_count: 6
   open_obligations_state: active-work
   on_recommended_track: true
   recommended_next_cell_type: dependency-discharge
   audit_status: audited-needs-fix
-  branch_terminal_status: all-terminal
-  unresolved_branch_terminal_count: 0
+  branch_terminal_status: needs-terminal-status
+  unresolved_branch_terminal_count: 2
   current_next_cell_type: dependency-discharge
   current_next_cell_is_theorem_work: true

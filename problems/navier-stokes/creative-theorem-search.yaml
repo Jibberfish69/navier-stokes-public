@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-04-29T18:49:42Z'
+  generated_at: '2026-04-29T18:56:36Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -19,16 +19,16 @@ intervention:
   coverage_rule: Keep all candidate branch ideas on record even when only the top
     bounded subset is actively pursued.
 sandbox:
-  mode: multi-path-sandbox
+  mode: single-branch-sandbox
   trigger: formalization-stalled
   survivor_writeback: Keep only branches that survive discharge, falsification, or
     refinement; demote the rest back into explicit debt.
-  independent_branch_ids:
+  independent_branch_ids: []
+  co_dependent_branch_ids:
   - creative-branch-navier-stokes-1
   - creative-branch-navier-stokes-2
   - creative-branch-navier-stokes-3
   - creative-branch-navier-stokes-4
-  co_dependent_branch_ids: []
   branch_execution_order:
   - creative-branch-navier-stokes-1
   - creative-branch-navier-stokes-2
@@ -37,35 +37,33 @@ sandbox:
 branch_pool:
 - &1
   branch_id: creative-branch-navier-stokes-1
-  origin_obligation_id: marvin-route-authority-6
-  origin_kind: branch-choice
-  source_status: frontier
-  branch_type: route-mutation
-  pursuit_mode: independent
-  candidate_claim: 'Mutate the route locally so that live task: Completed the Hopf/shuffle
-    line as a theorem-program refinement. The correct algebraic fit for the time tower
-    is the divided-power Hopf law on one primitive generator, and for the mixed jet
-    tower it is the shuffle/unshuffle or sy can be pursued without reopening the theorem
-    target.'
-  creative_move: Open a bounded side branch that changes representation but not the
-    theorem target, then compare whether it reduces proof obligations.
+  origin_obligation_id: proof-dependency-2
+  origin_kind: proof-dependency
+  source_status: bridge-pending
+  branch_type: bridge-lemma
+  pursuit_mode: co-dependent
+  candidate_claim: Insert a local bridge from success for regularized or morphic-regularized
+    equations does not close the original problem to the original framework names
+    a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy using
+    an explicit mediating object rather than narrative implication.
+  creative_move: Search for the missing mediating object or bounded inequality that
+    makes the implication local and testable.
   invention_packet:
-    candidate_statement: 'Mutate the route locally so that live task: Completed the
-      Hopf/shuffle line as a theorem-program refinement. The correct algebraic fit
-      for the time tower is the divided-power Hopf law on one primitive generator,
-      and for the mixed jet tower it is the shuffle/unshuffle or sy can be pursued
-      without reopening the theorem target.'
-    mediating_object: route_mutation_carrier
+    candidate_statement: Insert a local bridge from success for regularized or morphic-regularized
+      equations does not close the original problem to the original framework names
+      a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy using
+      an explicit mediating object rather than narrative implication.
+    mediating_object: local_bridge_object
     proof_sketch:
-    - State the weakest exact claim that would advance `marvin-route-authority-6`
-      without expanding the theorem target.
+    - State the weakest exact claim that would advance `proof-dependency-2` without
+      expanding the theorem target.
     - Define or isolate the mediating object on the current carrier/window/sector
       only.
-    - 'Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `Live task: Completed the
-      Hopf/shuffle line as a theorem-program refinement. The correct algebraic fit
-      for the time tower is the divided-power Hopf law on one primitive generator,
-      and for the mixed jet tower it is the shuffle/unshuffle or sy`.'
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `Success for regularized or
+      morphic-regularized equations does not close the original problem -> The original
+      framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline
+      energy`.
     - Show how that object converts one already-grounded local statement into the
       next missing step.
     - Reject the move if it introduces new global scope, hidden imports, or a stronger
@@ -78,47 +76,54 @@ branch_pool:
       a local discharge target?
     - Reject if the branch only rephrases the existing gap without a new mediating
       object or bounded inequality.
-    scope_guard: Representation may change, theorem target may not.
+    scope_guard: Insert only the weakest bridge sufficient to connect the current
+      grounded chain.
   grounded_basis:
   - debt-collar-to-jump-converse-pivot
   - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   - warrant-theorem-2.1
-  - marvin-route-authority-6
-  risk_level: high
+  - proof-dependency-2
+  risk_level: medium-low
   notes:
   - The current object-formalization packet already failed to promote this exact target,
     so this pass must mutate the theorem move instead of regenerating the same object.
   - This branch is machine-derived beyond the current frozen core.
+  - Use the weakest sufficient move; do not inflate the theorem target.
   recommended_next_cell_type: debt-extract
-  recommended_next_action: 'Creative theorem search selected `marvin-route-authority-6`.
+  recommended_next_action: Creative theorem search selected `proof-dependency-2`.
     The current object-formalization packet already failed to promote this exact target,
-    so split Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
-    The correct algebraic fit for the time tower is the divided-power Hopf law on
-    one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
-    or sy into a sharper local debt or bridge burden instead of regenerating the same
-    object.'
+    so split Success for regularized or morphic-regularized equations does not close
+    the original problem -> The original framework names a monotone functional `Q(t)`
+    as a bridge, not just unnamed baseline energy into a sharper local debt or bridge
+    burden instead of regenerating the same object.
   merge_policy: quarantined-until-promoted
 - branch_id: creative-branch-navier-stokes-2
-  origin_obligation_id: marvin-route-authority-5
-  origin_kind: branch-choice
-  source_status: frontier
-  branch_type: route-mutation
-  pursuit_mode: independent
-  candidate_claim: 'Mutate the route locally so that nC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md
-    can be pursued without reopening the theorem target.'
-  creative_move: Open a bounded side branch that changes representation but not the
-    theorem target, then compare whether it reduces proof obligations.
+  origin_obligation_id: proof-dependency-1
+  origin_kind: proof-dependency
+  source_status: bridge-pending
+  branch_type: bridge-lemma
+  pursuit_mode: co-dependent
+  candidate_claim: Insert a local bridge from the Clay target is the official 3D incompressible
+    Navier-Stokes problem on `R^3` or `T^3` to success for regularized or morphic-regularized
+    equations does not close the original problem using an explicit mediating object
+    rather than narrative implication.
+  creative_move: Search for the missing mediating object or bounded inequality that
+    makes the implication local and testable.
   invention_packet:
-    candidate_statement: 'Mutate the route locally so that nC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md
-      can be pursued without reopening the theorem target.'
-    mediating_object: route_mutation_carrier
+    candidate_statement: Insert a local bridge from the Clay target is the official
+      3D incompressible Navier-Stokes problem on `R^3` or `T^3` to success for regularized
+      or morphic-regularized equations does not close the original problem using an
+      explicit mediating object rather than narrative implication.
+    mediating_object: local_bridge_object
     proof_sketch:
-    - State the weakest exact claim that would advance `marvin-route-authority-5`
-      without expanding the theorem target.
+    - State the weakest exact claim that would advance `proof-dependency-1` without
+      expanding the theorem target.
     - Define or isolate the mediating object on the current carrier/window/sector
       only.
-    - 'Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md`.'
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `The Clay target is the official
+      3D incompressible Navier-Stokes problem on `R^3` or `T^3` -> Success for regularized
+      or morphic-regularized equations does not close the original problem`.
     - Show how that object converts one already-grounded local statement into the
       next missing step.
     - Reject the move if it introduces new global scope, hidden imports, or a stronger
@@ -131,50 +136,52 @@ branch_pool:
       a local discharge target?
     - Reject if the branch only rephrases the existing gap without a new mediating
       object or bounded inequality.
-    scope_guard: Representation may change, theorem target may not.
+    scope_guard: Insert only the weakest bridge sufficient to connect the current
+      grounded chain.
   grounded_basis:
   - debt-collar-to-jump-converse-pivot
   - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   - warrant-theorem-2.1
-  - marvin-route-authority-5
-  risk_level: high
+  - proof-dependency-1
+  risk_level: medium-low
   notes:
+  - This branch starts at the first unresolved frontier.
   - This branch is machine-derived beyond the current frozen core.
+  - Use the weakest sufficient move; do not inflate the theorem target.
   recommended_next_cell_type: dependency-discharge
-  recommended_next_action: 'Creative theorem search selected `marvin-route-authority-5`.
-    Use the invention packet to ground a new explicit bridge for NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md
-    through dependency-discharge.'
+  recommended_next_action: Creative theorem search selected `proof-dependency-1`.
+    Use the invention packet to ground a new explicit bridge for The Clay target is
+    the official 3D incompressible Navier-Stokes problem on `R^3` or `T^3` -> Success
+    for regularized or morphic-regularized equations does not close the original problem
+    through dependency-discharge.
   merge_policy: quarantined-until-promoted
 - branch_id: creative-branch-navier-stokes-3
-  origin_obligation_id: marvin-route-authority-8
-  origin_kind: branch-choice
-  source_status: frontier
-  branch_type: route-mutation
-  pursuit_mode: independent
-  candidate_claim: 'Mutate the route locally so that live task: Built an honest attack
-    package for the three remaining hopf/shuffle endgame gaps. Gap 1: the jet quotient
-    is explicit after killing pressure and transport, but the lifted quotient still
-    fails to close because scale/time/divergenc can be pursued without reopening the
-    theorem target.'
-  creative_move: Open a bounded side branch that changes representation but not the
-    theorem target, then compare whether it reduces proof obligations.
+  origin_obligation_id: proof-dependency-3
+  origin_kind: proof-dependency
+  source_status: bridge-pending
+  branch_type: bridge-lemma
+  pursuit_mode: co-dependent
+  candidate_claim: Insert a local bridge from the original framework names a monotone
+    functional `Q(t)` as a bridge, not just unnamed baseline energy to global energy
+    or enstrophy control is necessary but not sufficient using an explicit mediating
+    object rather than narrative implication.
+  creative_move: Search for the missing mediating object or bounded inequality that
+    makes the implication local and testable.
   invention_packet:
-    candidate_statement: 'Mutate the route locally so that live task: Built an honest
-      attack package for the three remaining hopf/shuffle endgame gaps. Gap 1: the
-      jet quotient is explicit after killing pressure and transport, but the lifted
-      quotient still fails to close because scale/time/divergenc can be pursued without
-      reopening the theorem target.'
-    mediating_object: route_mutation_carrier
+    candidate_statement: Insert a local bridge from the original framework names a
+      monotone functional `Q(t)` as a bridge, not just unnamed baseline energy to
+      global energy or enstrophy control is necessary but not sufficient using an
+      explicit mediating object rather than narrative implication.
+    mediating_object: local_bridge_object
     proof_sketch:
-    - State the weakest exact claim that would advance `marvin-route-authority-8`
-      without expanding the theorem target.
+    - State the weakest exact claim that would advance `proof-dependency-3` without
+      expanding the theorem target.
     - Define or isolate the mediating object on the current carrier/window/sector
       only.
-    - 'Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `Live task: Built an honest
-      attack package for the three remaining hopf/shuffle endgame gaps. Gap 1: the
-      jet quotient is explicit after killing pressure and transport, but the lifted
-      quotient still fails to close because scale/time/divergenc`.'
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `The original framework names
+      a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy ->
+      Global energy or enstrophy control is necessary but not sufficient`.
     - Show how that object converts one already-grounded local statement into the
       next missing step.
     - Reject the move if it introduces new global scope, hidden imports, or a stronger
@@ -187,52 +194,51 @@ branch_pool:
       a local discharge target?
     - Reject if the branch only rephrases the existing gap without a new mediating
       object or bounded inequality.
-    scope_guard: Representation may change, theorem target may not.
+    scope_guard: Insert only the weakest bridge sufficient to connect the current
+      grounded chain.
   grounded_basis:
   - debt-collar-to-jump-converse-pivot
   - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   - warrant-theorem-2.1
-  - marvin-route-authority-8
-  risk_level: high
+  - proof-dependency-3
+  risk_level: medium-low
   notes:
   - This branch is machine-derived beyond the current frozen core.
+  - Use the weakest sufficient move; do not inflate the theorem target.
   recommended_next_cell_type: dependency-discharge
-  recommended_next_action: 'Creative theorem search selected `marvin-route-authority-8`.
-    Use the invention packet to ground a new explicit bridge for Live task: Built
-    an honest attack package for the three remaining hopf/shuffle endgame gaps. Gap
-    1: the jet quotient is explicit after killing pressure and transport, but the
-    lifted quotient still fails to close because scale/time/divergenc through dependency-discharge.'
+  recommended_next_action: Creative theorem search selected `proof-dependency-3`.
+    Use the invention packet to ground a new explicit bridge for The original framework
+    names a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy
+    -> Global energy or enstrophy control is necessary but not sufficient through
+    dependency-discharge.
   merge_policy: quarantined-until-promoted
 - branch_id: creative-branch-navier-stokes-4
-  origin_obligation_id: marvin-route-authority-9
-  origin_kind: branch-choice
-  source_status: frontier
-  branch_type: route-mutation
-  pursuit_mode: independent
-  candidate_claim: 'Mutate the route locally so that live task: Formalized the refined
-    direct Lagrangian route as a six-lemma mainline: differentiated Lagrangian decomposition,
-    deformation-adapted energy, ellipticity window, coefficient-commutator absorption,
-    no-loss pressure recovery, and La can be pursued without reopening the theorem
-    target.'
-  creative_move: Open a bounded side branch that changes representation but not the
-    theorem target, then compare whether it reduces proof obligations.
+  origin_obligation_id: proof-dependency-4
+  origin_kind: proof-dependency
+  source_status: bridge-pending
+  branch_type: bridge-lemma
+  pursuit_mode: co-dependent
+  candidate_claim: Insert a local bridge from global energy or enstrophy control is
+    necessary but not sufficient to the live obstruction is the small-scale or high-frequency
+    cascade that feeds blow-up using an explicit mediating object rather than narrative
+    implication.
+  creative_move: Search for the missing mediating object or bounded inequality that
+    makes the implication local and testable.
   invention_packet:
-    candidate_statement: 'Mutate the route locally so that live task: Formalized the
-      refined direct Lagrangian route as a six-lemma mainline: differentiated Lagrangian
-      decomposition, deformation-adapted energy, ellipticity window, coefficient-commutator
-      absorption, no-loss pressure recovery, and La can be pursued without reopening
-      the theorem target.'
-    mediating_object: route_mutation_carrier
+    candidate_statement: Insert a local bridge from global energy or enstrophy control
+      is necessary but not sufficient to the live obstruction is the small-scale or
+      high-frequency cascade that feeds blow-up using an explicit mediating object
+      rather than narrative implication.
+    mediating_object: local_bridge_object
     proof_sketch:
-    - State the weakest exact claim that would advance `marvin-route-authority-9`
-      without expanding the theorem target.
+    - State the weakest exact claim that would advance `proof-dependency-4` without
+      expanding the theorem target.
     - Define or isolate the mediating object on the current carrier/window/sector
       only.
-    - 'Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `Live task: Formalized the
-      refined direct Lagrangian route as a six-lemma mainline: differentiated Lagrangian
-      decomposition, deformation-adapted energy, ellipticity window, coefficient-commutator
-      absorption, no-loss pressure recovery, and La`.'
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `Global energy or enstrophy
+      control is necessary but not sufficient -> The live obstruction is the small-scale
+      or high-frequency cascade that feeds blow-up`.
     - Show how that object converts one already-grounded local statement into the
       next missing step.
     - Reject the move if it introduces new global scope, hidden imports, or a stronger
@@ -245,318 +251,64 @@ branch_pool:
       a local discharge target?
     - Reject if the branch only rephrases the existing gap without a new mediating
       object or bounded inequality.
-    scope_guard: Representation may change, theorem target may not.
+    scope_guard: Insert only the weakest bridge sufficient to connect the current
+      grounded chain.
   grounded_basis:
   - debt-collar-to-jump-converse-pivot
   - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   - warrant-theorem-2.1
-  - marvin-route-authority-9
-  risk_level: high
+  - proof-dependency-4
+  risk_level: medium-low
   notes:
   - This branch is machine-derived beyond the current frozen core.
-  recommended_next_cell_type: object-formalization
-  recommended_next_action: 'Creative theorem search selected `marvin-route-authority-9`.
-    Formalize the invention packet''s exact missing object first, then return to the
-    same theorem target instead of reopening generic debt extraction: Live task: Formalized
-    the refined direct Lagrangian route as a six-lemma mainline: differentiated Lagrangian
-    decomposition, deformation-adapted energy, ellipticity window, coefficient-commutator
-    absorption, no-loss pressure recovery, and La.'
+  - Use the weakest sufficient move; do not inflate the theorem target.
+  recommended_next_cell_type: dependency-discharge
+  recommended_next_action: Creative theorem search selected `proof-dependency-4`.
+    Use the invention packet to ground a new explicit bridge for Global energy or
+    enstrophy control is necessary but not sufficient -> The live obstruction is the
+    small-scale or high-frequency cascade that feeds blow-up through dependency-discharge.
   merge_policy: quarantined-until-promoted
 candidate_archive:
-- origin_obligation_id: marvin-route-authority-6
-  origin_kind: branch-choice
-  label: 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
-    The correct algebraic fit for the time tower is the divided-power Hopf law on
-    one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
-    or sy'
-  status: frontier
+- origin_obligation_id: proof-dependency-2
+  origin_kind: proof-dependency
+  label: Success for regularized or morphic-regularized equations does not close the
+    original problem -> The original framework names a monotone functional `Q(t)`
+    as a bridge, not just unnamed baseline energy
+  status: bridge-pending
   promoted_into_branch_pool: true
-- origin_obligation_id: marvin-route-authority-5
-  origin_kind: branch-choice
-  label: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
-  status: frontier
+- origin_obligation_id: proof-dependency-1
+  origin_kind: proof-dependency
+  label: The Clay target is the official 3D incompressible Navier-Stokes problem on
+    `R^3` or `T^3` -> Success for regularized or morphic-regularized equations does
+    not close the original problem
+  status: bridge-pending
   promoted_into_branch_pool: true
-- origin_obligation_id: marvin-route-authority-8
-  origin_kind: branch-choice
-  label: 'Live task: Built an honest attack package for the three remaining hopf/shuffle
-    endgame gaps. Gap 1: the jet quotient is explicit after killing pressure and transport,
-    but the lifted quotient still fails to close because scale/time/divergenc'
-  status: frontier
+- origin_obligation_id: proof-dependency-3
+  origin_kind: proof-dependency
+  label: The original framework names a monotone functional `Q(t)` as a bridge, not
+    just unnamed baseline energy -> Global energy or enstrophy control is necessary
+    but not sufficient
+  status: bridge-pending
   promoted_into_branch_pool: true
-- origin_obligation_id: marvin-route-authority-9
-  origin_kind: branch-choice
-  label: 'Live task: Formalized the refined direct Lagrangian route as a six-lemma
-    mainline: differentiated Lagrangian decomposition, deformation-adapted energy,
-    ellipticity window, coefficient-commutator absorption, no-loss pressure recovery,
-    and La'
-  status: frontier
+- origin_obligation_id: proof-dependency-4
+  origin_kind: proof-dependency
+  label: Global energy or enstrophy control is necessary but not sufficient -> The
+    live obstruction is the small-scale or high-frequency cascade that feeds blow-up
+  status: bridge-pending
   promoted_into_branch_pool: true
-- origin_obligation_id: marvin-route-authority-12
-  origin_kind: branch-choice
-  label: 'Live task: Updated lemma-4b-no-loss-pressure-recovery-attack.md with a geometry-testing
-    ladder for the elliptic test field W_test = A^T grad Phi solving -div_a(G grad
-    Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1) energy-le'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-13
-  origin_kind: branch-choice
-  label: 'Headline: Verified Route A reduction and isolated the remaining coefficient-window
-    obstruction'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-14
-  origin_kind: branch-choice
-  label: 'Live task: Updated lemma-4b-no-loss-pressure-recovery-attack.md to replace
-    the old formal Route A candidate with an exact verified reduction. The note now
-    proves div X_pr = -L_G P_alpha - div R_alpha for X_pr = div_a(AG∇_a U_alpha),
-    P_alpha'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-19
-  origin_kind: branch-choice
-  label: 'Live task: Pushed the theory forward on the Lagrangian Stokes bridge. Verified
-    that a genuine frozen NS time slice with F_*=∇_a X_*, A_*=F_*^{-1}, G_*=A_*A_*^T
-    is exactly conjugate to classical Stokes by the frozen nonlinear map x=X_*(a);
-    s'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-22
-  origin_kind: branch-choice
-  label: 'Live task: Exact frozen-flow-map reduction now discharges the genuine frozen
-    spatially varying slice: the frozen Lagrangian Stokes system is exactly conjugate
-    to classical Stokes by the frozen flow map. The evolving bridge is now rewritten'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-24
-  origin_kind: branch-choice
-  label: 'Live task: The short-slab bridge has been sharpened again. U1 is now effectively
-    discharged on the slab surface: in the Bogovskii-corrected formulation one may
-    take Pi = pi exactly, so there is no independent pressure-transfer term, and the'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-25
-  origin_kind: branch-choice
-  label: 'Live task: Current far-corona route has been tightened materially. On the
-    shell-pair commutator surface, an amplitude-free absorption theorem |C_{m,j}|
-    <= eps nu D_j + K_N is structurally false by scaling, because C_{m,j} is cubic
-    in the ve'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-26
-  origin_kind: branch-choice
-  label: 'Headline: Far-corona route pivot: amplitude-free shell absorption false;
-    coefficient-bearing shell-pair branch closes on upgraded carrier'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-27
-  origin_kind: branch-choice
-  label: 'Headline: Fixed-collar coefficient branch closes on upgraded carrier; exact
-    external bridge measures are nu_N and mu_N'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-28
-  origin_kind: branch-choice
-  label: 'Live task: Pushed the far-corona route forward in theorem-grade form. First,
-    the amplitude-free shell-pair absorption fantasy is ruled out by scaling: the
-    shell-pair commutator is cubic in amplitude while D_j is quadratic, so no estimate
-    of'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-31
-  origin_kind: branch-choice
-  label: 'Live task: Sharpened the reserve globalization program after the capwise
-    signed defect step. The safe sign scale is now the net cap-graph coercive coefficient
-    kappa_j^{net}=inf_omega(d_{j,omega}-o_{j,omega}) rather than a prematurely fixed'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-37
-  origin_kind: branch-choice
-  label: 'Define or prove: The Navier-Stokes selector program has been sharpened further
-    on disk. The new packet transported-phase-space-selector-theorem-candidate.md
-    now treats the remaining carrier verification as a selector/localizer theorem
-    on to'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-38
-  origin_kind: branch-choice
-  label: 'Live task: The Navier-Stokes selector program has been sharpened further
-    on disk. The new packet transported-phase-space-selector-theorem-candidate.md
-    now treats the remaining carrier verification as a selector/localizer theorem
-    on top of t'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-40
-  origin_kind: branch-choice
-  label: 'Live task: Navier-Stokes selector packet sharpened further. In transported-phase-space-selector-theorem-candidate.md,
-    the dynamic burden is no longer only the vanishing-bad-set lemma `(TPS.4h)`-`(TPS.4i)`.
-    Added `TPS-ns-crit`, reducing `(TP'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-42
-  origin_kind: branch-choice
-  label: 'Live task: Transported selector dynamic packet improved further. In transported-phase-space-selector-theorem-candidate.md,
-    added two reserve sufficient mechanisms for the bespoke dynamic burden `(TPS.4i)`:
-    `(TPS.4r)`-`(TPS.4w)` measure-line'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-44
-  origin_kind: branch-choice
-  label: 'Live task: Further dynamic-route sharpening landed. In transported-phase-space-selector-theorem-candidate.md,
-    added `TPS-drift-collapse` `(TPS.4ab)`-`(TPS.4ah)`: if bad-pair mass vanishes,
-    initial selector gaps are tight, good active pairs'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-45
-  origin_kind: branch-choice
-  label: 'Live task: Internet-backed route sweep integrated into the selector packet.
-    Added normalized theorem family `TPS.4(*)` `(TPS.4ai)`-`(TPS.4am)`: one common
-    Lagrangian bad set, one common overlap law, three dynamic mechanisms (selector-label'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-48
-  origin_kind: branch-choice
-  label: 'Live task: Promoted the remaining dynamic wall to a single named theorem
-    in transported-phase-space-selector-theorem-candidate.md: `TPS-ns-good-set-transversality`.
-    This bundles the good-set measure condition with pairwise measurable linear'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-50
-  origin_kind: branch-choice
-  label: 'Live task: Refined the dynamic core theorem in transported-phase-space-selector-theorem-candidate.md.
-    Replaced the placeholder transversality theorem with a cleaner named packet `TPS-ns-good-set`
-    using dedicated GS.* hypotheses: good select'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-51
-  origin_kind: branch-choice
-  label: 'Live task: Further corrected the dynamic selector packet. The scalar-label
-    section in transported-phase-space-selector-theorem-candidate.md no longer presents
-    `alpha_j` as a candidate primitive object on the live carrier. It now states expl'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-53
-  origin_kind: branch-choice
-  label: 'Live task: The dynamic selector packet is now internally corrected and tightened.
-    The local pairwise nonshadowing criterion uses an oriented observable m_{Q,Q''}
-    with one-sided drift in the shadow zone, not d/dt|m|. The good-set theorem and'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-63
-  origin_kind: branch-choice
-  label: 'Headline: Formalized HWY contradiction packet and direct SG.4 realization
-    from fresh-angle lambda2-plus feed'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-71
-  origin_kind: branch-choice
-  label: 'Live task: Tightened the live Navier-Stokes SG.4 bridge packet inside problems/navier-stokes
-    only. In the selector-observability proof attempt, promoted the already implicit
-    residual pairwise closure into the exact named theorem: after the'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-74
-  origin_kind: branch-choice
-  label: 'Live task: Integrated the user-supplied theorem-bearing refinement into
-    the Navier-Stokes SG.4 packet. The live theorem notes now make the branch-sensitive
-    endgame explicit: the exact remaining general burden is still the residual pairwise'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-79
-  origin_kind: branch-choice
-  label: 'Live task: Integrated the new theorem-bearing clarification of the open
-    SG.4 bridge. The exact-potential / cycle-exact branch is now packaged explicitly
-    as the preferred local endgame: a cycle-exact polarization lemma defines the expanding'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-82
-  origin_kind: branch-choice
-  label: 'Live task: Refined the exact-potential PD.70z endgame one step further.
-    The selector bridge note now proves the formal simple-top reduction from the angle
-    variable alpha_J=1-(e_ab·n_J)^2 to the one-sided directional deficit and strip
-    budget'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-84
-  origin_kind: branch-choice
-  label: 'Live task: Refined the cycle-exact normal-covector route further. The route
-    note now proves a finite-measure square-root upgrade from the weighted L4 closure
-    CN.13 to the directional ledger E_dir^perp on selector-good strips: if the pair/ti'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-86
-  origin_kind: branch-choice
-  label: 'Live task: Integrated the exact theorem-bearing closure the user supplied.
-    The selector bridge note now contains a formal theorem-schema no-go proposition:
-    signless W_J, its current PDE coercive bounds, and cycle exactness do not suffice
-    to'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-90
-  origin_kind: branch-choice
-  label: 'Live task: Searched for abstract non-NS replacements for the cycle-exact
-    alignment idea and did not find a source-backed route that is genuinely better.
-    The nearest abstract competitors are Davis-Kahan style eigenspace perturbation,
-    dominat'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-92
-  origin_kind: branch-choice
-  label: 'Live task: Abstract external search did not produce a source-backed proof
-    of the final selector calibration, but it did produce a cleaner theorem formulation
-    than the older polarity-map packet. The exact-potential simple-top branch is now
-    b'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-116
-  origin_kind: branch-choice
-  label: 'Live task: Strengthened the YM/deformation theorem schema in the spectral
-    transversality bridge note. The better repo-style target is not a monolithic theorem
-    ''YM/deformation implies PSJ+.SST''. That over-hides the live obligations. The
-    shar'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-118
-  origin_kind: branch-choice
-  label: 'Define or prove: Improved the YM/deformation route target beyond the earlier
-    DG-PSJ stack. The sharper repo-native factorization is now DG-Line (deformation
-    drain plus DG-SF builds a rank-one carrier inside the coarse expanding plane with
-    g'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-119
-  origin_kind: branch-choice
-  label: 'Live task: Improved the YM/deformation route target beyond the earlier DG-PSJ
-    stack. The sharper repo-native factorization is now DG-Line (deformation drain
-    plus DG-SF builds a rank-one carrier inside the coarse expanding plane with gap/dri'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-123
-  origin_kind: branch-choice
-  label: 'Live task: Sharpened the YM/deformation exact-potential closure route on
-    the Navier-Stokes lane. In problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md,
-    replaced the vague A-D bridge discussion with'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-4
-  origin_kind: branch-choice
-  label: 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-    under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-    and E_sh(X) vanish identically, so the exact Route A'
-  status: frontier
-  promoted_into_branch_pool: false
-- origin_obligation_id: marvin-route-authority-125
-  origin_kind: branch-choice
-  label: "`LCI.A` supplies lower-carrier integrability on the moving collar. `FCI.5f`
-    supplies the frozen-family source ledger. The collar Sobolev propagation theorem
-    yields `CSP.A`. The one-field forward preservation theorem consumes `CSP.A` and
-    the"
-  status: frontier
+- origin_obligation_id: proof-dependency-7
+  origin_kind: proof-dependency
+  label: The monotone functional must stabilize the global energy/enstrophy layer
+    and enable the compactness package on that same periodic classical surface ->
+    The scale-barrier plus monotone-functional input must yield strong local compactness
+    and nonlinear tensor closure on the periodic/operator approximation family
+  status: bridge-pending
   promoted_into_branch_pool: false
 selected_branch: *1
 summary:
-  candidate_count: 40
-  candidate_archive_count: 40
-  sandbox_mode: multi-path-sandbox
+  candidate_count: 5
+  candidate_archive_count: 5
+  sandbox_mode: single-branch-sandbox
   active_branch_ids:
   - creative-branch-navier-stokes-1
   - creative-branch-navier-stokes-2

@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T18:48:39Z'
+  generated_at: '2026-04-29T18:56:36Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
@@ -210,14 +210,100 @@ obligations:
     original problem -> The original framework names a monotone functional `Q(t)`
     as a bridge, not just unnamed baseline energy
   status: bridge-pending
-  source_anchor: Later theorem prose depends on the earlier claim being localized
-    first.
+  source_anchor: problems/navier-stokes/claim-ladder.md
   blocking: true
   notes:
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
+  - Local source evidence exists, but it is not yet specific enough to promote this
+    obligation beyond `bridge-pending` safely.
+  discharge_evidence:
+    matched_paths:
+    - problems/navier-stokes/claim-ladder.md
+    - problems/navier-stokes/target-fidelity-discharge-source-pack.md
+    - problems/navier-stokes/monotone-functional-discharge-source-pack.md
+    - problems/navier-stokes/formalization-ledger.md
+    - problems/navier-stokes/proof-source-pack.md
+    - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+    - problems/navier-stokes/interdependencies-discharge-source-pack.md
+    - problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
+    support_score: 225
+    signal_strength: strong
+    evidence_hits:
+    - path: problems/navier-stokes/claim-ladder.md
+      line: 7
+      score: 52
+      label_overlap: 10
+      from_overlap: 1
+      to_overlap: 10
+      excerpt: "| 3 | The original framework names a monotone functional `Q(t)` as
+        a bridge, not just unnamed baseline energy | `source-grounded-framework-map.md`,
+        `source-forensics/master-program-analysis.md`, `source-forensics/canonical-equation-ledger.m"
+    - path: problems/navier-stokes/target-fidelity-discharge-source-pack.md
+      line: 6
+      score: 42
+      label_overlap: 8
+      from_overlap: 8
+      to_overlap: 1
+      excerpt: "- `The Clay target is the classical 3D equation on admissible data
+        -> Success for regularized or morphic-regularized equations does not close
+        the original problem`"
+    - path: problems/navier-stokes/monotone-functional-discharge-source-pack.md
+      line: 21
+      score: 37
+      label_overlap: 7
+      from_overlap: 1
+      to_overlap: 7
+      excerpt: 1. the original framework genuinely treats `Q(t)` as a named bridge,
+        not just unnamed baseline energy;
+    - path: problems/navier-stokes/formalization-ledger.md
+      line: 14
+      score: 25
+      label_overlap: 5
+      from_overlap: 0
+      to_overlap: 5
+      excerpt: "| Global energy or enstrophy control is necessary but not sufficient
+        | localized by `MUP.EI`; packaging debt discharged | yes | theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md,
+        obstruction-capture: Core Mechani"
+    - path: problems/navier-stokes/proof-source-pack.md
+      line: 51
+      score: 20
+      label_overlap: 4
+      from_overlap: 1
+      to_overlap: 3
+      excerpt: for the monotone-functional step and the exact bridge identity that
+        the rest
+    - path: problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+      line: 11
+      score: 17
+      label_overlap: 3
+      from_overlap: 2
+      to_overlap: 2
+      excerpt: The original Navier-Stokes source family does not present the fourth
+        bridge as a
+    - path: problems/navier-stokes/interdependencies-discharge-source-pack.md
+      line: 61
+      score: 17
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 1
+      excerpt: "- it does prove that the original source family intended those pieces
+        to close as"
+    - path: problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
+      line: 9
+      score: 15
+      label_overlap: 3
+      from_overlap: 0
+      to_overlap: 3
+      excerpt: After the monotone bridge has been installed, the unresolved singularity
+        mechanism is no longer generic lack of energy control.
+    discharge_id: dependency-discharge-navier-stokes
+    bridge_statement: If success for regularized or morphic-regularized equations
+      does not close the original problem on the same theorem surface, then the original
+      framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline
+      energy.
 - obligation_id: proof-dependency-3
   kind: proof-dependency
   label: The original framework names a monotone functional `Q(t)` as a bridge, not
@@ -306,591 +392,17 @@ obligations:
   notes:
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
-- obligation_id: marvin-route-authority-4
-  kind: branch-choice
-  label: 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-    under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-    and E_sh(X) vanish identically, so the exact Route A'
-  status: frontier
-  source_anchor: problems/navier-stokes/marvin-ingest-notes.yaml
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-  - Local source evidence exists, but it is not yet specific enough to promote this
-    obligation beyond `frontier` safely.
-  discharge_evidence:
-    matched_paths:
-    - problems/navier-stokes/marvin-ingest-notes.yaml
-    - problems/navier-stokes/live-theorem-edge.yaml
-    - problems/navier-stokes/theorem-construction/d3-commutative-shadow-theorem.md
-    - problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md
-    - problems/navier-stokes/scale-barrier-tail-discharge-source-pack.md
-    - problems/navier-stokes/theorem-construction/clay-discharge-ladder-from-current-reductions.md
-    - problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md
-    - problems/navier-stokes/gradient-discharge-source-pack.md
-    support_score: 195
-    signal_strength: strong
-    evidence_hits:
-    - path: problems/navier-stokes/marvin-ingest-notes.yaml
-      line: 148
-      score: 45
-      label_overlap: 9
-      from_overlap: 9
-      to_overlap: 0
-      excerpt: "- 'Theorem packet: Added four theorem-construction reductions. (1)
-        strict-shadow-no-remainder-corollary.md:"
-    - path: problems/navier-stokes/live-theorem-edge.yaml
-      line: 158
-      score: 25
-      label_overlap: 5
-      from_overlap: 5
-      to_overlap: 0
-      excerpt: "- problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md"
-    - path: problems/navier-stokes/theorem-construction/d3-commutative-shadow-theorem.md
-      line: 20
-      score: 25
-      label_overlap: 5
-      from_overlap: 5
-      to_overlap: 0
-      excerpt: "[strict-shadow-no-remainder-corollary.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md)."
-    - path: problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md
-      line: 50
-      score: 25
-      label_overlap: 5
-      from_overlap: 5
-      to_overlap: 0
-      excerpt: "[strict-shadow-no-remainder-corollary.md](/Users/thomasbirnie/Desktop/ToE/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md)"
-    - path: problems/navier-stokes/scale-barrier-tail-discharge-source-pack.md
-      line: 161
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: More precisely, the strict low-mode pieces are no longer the only live
-        frontier, but the threshold-local spill collar and the repaired high-side
-        packet remain theorem-critical. The genuine high-high packet is tracked in
-        `theorem-constructio
-    - path: problems/navier-stokes/theorem-construction/clay-discharge-ladder-from-current-reductions.md
-      line: 162
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: 3. strict-shadow no-remainder corollary
-    - path: problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md
-      line: 1
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: "# Strict-Shadow No-Remainder Consumer Corollary"
-    - path: problems/navier-stokes/gradient-discharge-source-pack.md
-      line: 82
-      score: 15
-      label_overlap: 3
-      from_overlap: 3
-      to_overlap: 0
-      excerpt: The exact theorem-local coercivity carrier is the object `gradient_transfer_coercivity_lemma`
-        recorded in [theorem-construction/gradient-transfer-coercivity-object.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-sto
-    discharge_id: dependency-discharge-navier-stokes
-    bridge_statement: 'Discharge the local bridge for Theorem packet: Added four theorem-construction
-      reductions. (1) strict-shadow-no-remainder-corollary.md: under the exact strict-shadow
-      identities already present on the lane, ShadowDef(X) and E_sh(X) vanish identically,
-      so the exact Route A without crossing the current safe-claim boundary.'
-- obligation_id: marvin-route-authority-5
-  kind: branch-choice
-  label: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-6
-  kind: branch-choice
-  label: 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
-    The correct algebraic fit for the time tower is the divided-power Hopf law on
-    one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
-    or sy'
-  status: frontier
-  source_anchor: problems/navier-stokes/marvin-ingest-notes.yaml
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-  - Local source evidence exists, but it is not yet specific enough to promote this
-    obligation beyond `frontier` safely.
-  discharge_evidence:
-    matched_paths:
-    - problems/navier-stokes/marvin-ingest-notes.yaml
-    - problems/navier-stokes/theorem-construction/hopf-shuffle-survivor-drain-program.md
-    - problems/navier-stokes/live-theorem-edge.yaml
-    - problems/navier-stokes/route-lock.yaml
-    - problems/navier-stokes/theorem-construction/clay-discharge-ladder-from-current-reductions.md
-    - problems/navier-stokes/theorem-construction/lagrangian-material-derivative-recheck-note.md
-    - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
-    - problems/navier-stokes/theorem-construction/mpp-class-membership-endpoint-exclusion-note.md
-    support_score: 165
-    signal_strength: strong
-    evidence_hits:
-    - path: problems/navier-stokes/marvin-ingest-notes.yaml
-      line: 261
-      score: 55
-      label_overlap: 11
-      from_overlap: 11
-      to_overlap: 0
-      excerpt: Hopf law on one primitive generator, and for the mixed jet tower it
-        is the shuffle/unshuffle
-    - path: problems/navier-stokes/theorem-construction/hopf-shuffle-survivor-drain-program.md
-      line: 479
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: "\\text{one must prove that the primitive survivor from the tower/Hopf
-        side is exactly the same packet as the coefficient-commutator survivor on
-        }(v,G,q)."
-    - path: problems/navier-stokes/live-theorem-edge.yaml
-      line: 34
-      score: 15
-      label_overlap: 3
-      from_overlap: 3
-      to_overlap: 0
-      excerpt: 'jump: legacy one-field-side class-exit label only; not a proved primitive
-        biconditional with failure of shared one-field law'
-    - path: problems/navier-stokes/route-lock.yaml
-      line: 29
-      score: 15
-      label_overlap: 3
-      from_overlap: 3
-      to_overlap: 0
-      excerpt: 'jump: legacy one-field-side class-exit label only; not a proved primitive
-        biconditional with failure of shared one-field law'
-    - path: problems/navier-stokes/theorem-construction/clay-discharge-ladder-from-current-reductions.md
-      line: 39
-      score: 15
-      label_overlap: 3
-      from_overlap: 3
-      to_overlap: 0
-      excerpt: 1. the full tower is measured by the weighted mixed-jet norm
-    - path: problems/navier-stokes/theorem-construction/lagrangian-material-derivative-recheck-note.md
-      line: 252
-      score: 15
-      label_overlap: 3
-      from_overlap: 3
-      to_overlap: 0
-      excerpt: That makes it a real fork, but only if one is willing to replace the
-        mixed-jet
-    - path: problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
-      line: 482
-      score: 15
-      label_overlap: 3
-      from_overlap: 3
-      to_overlap: 0
-      excerpt: "\\text{the monotone/coercive body, now upgraded from a named scalar
-        bridge to the search for the real one-sided drain law.}"
-    - path: problems/navier-stokes/theorem-construction/mpp-class-membership-endpoint-exclusion-note.md
-      line: 48
-      score: 15
-      label_overlap: 3
-      from_overlap: 3
-      to_overlap: 0
-      excerpt: local mixed-jet tower by
-    discharge_id: dependency-discharge-navier-stokes
-    bridge_statement: 'Discharge the local bridge for Live task: Completed the Hopf/shuffle
-      line as a theorem-program refinement. The correct algebraic fit for the time
-      tower is the divided-power Hopf law on one primitive generator, and for the
-      mixed jet tower it is the shuffle/unshuffle or sy without crossing the current
-      safe-claim boundary.'
-- obligation_id: marvin-route-authority-8
-  kind: branch-choice
-  label: 'Live task: Built an honest attack package for the three remaining hopf/shuffle
-    endgame gaps. Gap 1: the jet quotient is explicit after killing pressure and transport,
-    but the lifted quotient still fails to close because scale/time/divergenc'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-9
-  kind: branch-choice
-  label: 'Live task: Formalized the refined direct Lagrangian route as a six-lemma
-    mainline: differentiated Lagrangian decomposition, deformation-adapted energy,
-    ellipticity window, coefficient-commutator absorption, no-loss pressure recovery,
-    and La'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-12
-  kind: branch-choice
-  label: 'Live task: Updated lemma-4b-no-loss-pressure-recovery-attack.md with a geometry-testing
-    ladder for the elliptic test field W_test = A^T grad Phi solving -div_a(G grad
-    Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1) energy-le'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-13
-  kind: branch-choice
-  label: 'Headline: Verified Route A reduction and isolated the remaining coefficient-window
-    obstruction'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-14
-  kind: branch-choice
-  label: 'Live task: Updated lemma-4b-no-loss-pressure-recovery-attack.md to replace
-    the old formal Route A candidate with an exact verified reduction. The note now
-    proves div X_pr = -L_G P_alpha - div R_alpha for X_pr = div_a(AG∇_a U_alpha),
-    P_alpha'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-19
-  kind: branch-choice
-  label: 'Live task: Pushed the theory forward on the Lagrangian Stokes bridge. Verified
-    that a genuine frozen NS time slice with F_*=∇_a X_*, A_*=F_*^{-1}, G_*=A_*A_*^T
-    is exactly conjugate to classical Stokes by the frozen nonlinear map x=X_*(a);
-    s'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-22
-  kind: branch-choice
-  label: 'Live task: Exact frozen-flow-map reduction now discharges the genuine frozen
-    spatially varying slice: the frozen Lagrangian Stokes system is exactly conjugate
-    to classical Stokes by the frozen flow map. The evolving bridge is now rewritten'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-24
-  kind: branch-choice
-  label: 'Live task: The short-slab bridge has been sharpened again. U1 is now effectively
-    discharged on the slab surface: in the Bogovskii-corrected formulation one may
-    take Pi = pi exactly, so there is no independent pressure-transfer term, and the'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-25
-  kind: branch-choice
-  label: 'Live task: Current far-corona route has been tightened materially. On the
-    shell-pair commutator surface, an amplitude-free absorption theorem |C_{m,j}|
-    <= eps nu D_j + K_N is structurally false by scaling, because C_{m,j} is cubic
-    in the ve'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-26
-  kind: branch-choice
-  label: 'Headline: Far-corona route pivot: amplitude-free shell absorption false;
-    coefficient-bearing shell-pair branch closes on upgraded carrier'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-27
-  kind: branch-choice
-  label: 'Headline: Fixed-collar coefficient branch closes on upgraded carrier; exact
-    external bridge measures are nu_N and mu_N'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-28
-  kind: branch-choice
-  label: 'Live task: Pushed the far-corona route forward in theorem-grade form. First,
-    the amplitude-free shell-pair absorption fantasy is ruled out by scaling: the
-    shell-pair commutator is cubic in amplitude while D_j is quadratic, so no estimate
-    of'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-31
-  kind: branch-choice
-  label: 'Live task: Sharpened the reserve globalization program after the capwise
-    signed defect step. The safe sign scale is now the net cap-graph coercive coefficient
-    kappa_j^{net}=inf_omega(d_{j,omega}-o_{j,omega}) rather than a prematurely fixed'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-37
-  kind: branch-choice
-  label: 'Define or prove: The Navier-Stokes selector program has been sharpened further
-    on disk. The new packet transported-phase-space-selector-theorem-candidate.md
-    now treats the remaining carrier verification as a selector/localizer theorem
-    on to'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-38
-  kind: branch-choice
-  label: 'Live task: The Navier-Stokes selector program has been sharpened further
-    on disk. The new packet transported-phase-space-selector-theorem-candidate.md
-    now treats the remaining carrier verification as a selector/localizer theorem
-    on top of t'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-40
-  kind: branch-choice
-  label: 'Live task: Navier-Stokes selector packet sharpened further. In transported-phase-space-selector-theorem-candidate.md,
-    the dynamic burden is no longer only the vanishing-bad-set lemma `(TPS.4h)`-`(TPS.4i)`.
-    Added `TPS-ns-crit`, reducing `(TP'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-42
-  kind: branch-choice
-  label: 'Live task: Transported selector dynamic packet improved further. In transported-phase-space-selector-theorem-candidate.md,
-    added two reserve sufficient mechanisms for the bespoke dynamic burden `(TPS.4i)`:
-    `(TPS.4r)`-`(TPS.4w)` measure-line'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-44
-  kind: branch-choice
-  label: 'Live task: Further dynamic-route sharpening landed. In transported-phase-space-selector-theorem-candidate.md,
-    added `TPS-drift-collapse` `(TPS.4ab)`-`(TPS.4ah)`: if bad-pair mass vanishes,
-    initial selector gaps are tight, good active pairs'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-45
-  kind: branch-choice
-  label: 'Live task: Internet-backed route sweep integrated into the selector packet.
-    Added normalized theorem family `TPS.4(*)` `(TPS.4ai)`-`(TPS.4am)`: one common
-    Lagrangian bad set, one common overlap law, three dynamic mechanisms (selector-label'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-48
-  kind: branch-choice
-  label: 'Live task: Promoted the remaining dynamic wall to a single named theorem
-    in transported-phase-space-selector-theorem-candidate.md: `TPS-ns-good-set-transversality`.
-    This bundles the good-set measure condition with pairwise measurable linear'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-50
-  kind: branch-choice
-  label: 'Live task: Refined the dynamic core theorem in transported-phase-space-selector-theorem-candidate.md.
-    Replaced the placeholder transversality theorem with a cleaner named packet `TPS-ns-good-set`
-    using dedicated GS.* hypotheses: good select'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-51
-  kind: branch-choice
-  label: 'Live task: Further corrected the dynamic selector packet. The scalar-label
-    section in transported-phase-space-selector-theorem-candidate.md no longer presents
-    `alpha_j` as a candidate primitive object on the live carrier. It now states expl'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-53
-  kind: branch-choice
-  label: 'Live task: The dynamic selector packet is now internally corrected and tightened.
-    The local pairwise nonshadowing criterion uses an oriented observable m_{Q,Q''}
-    with one-sided drift in the shadow zone, not d/dt|m|. The good-set theorem and'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-63
-  kind: branch-choice
-  label: 'Headline: Formalized HWY contradiction packet and direct SG.4 realization
-    from fresh-angle lambda2-plus feed'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-71
-  kind: branch-choice
-  label: 'Live task: Tightened the live Navier-Stokes SG.4 bridge packet inside problems/navier-stokes
-    only. In the selector-observability proof attempt, promoted the already implicit
-    residual pairwise closure into the exact named theorem: after the'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-74
-  kind: branch-choice
-  label: 'Live task: Integrated the user-supplied theorem-bearing refinement into
-    the Navier-Stokes SG.4 packet. The live theorem notes now make the branch-sensitive
-    endgame explicit: the exact remaining general burden is still the residual pairwise'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-79
-  kind: branch-choice
-  label: 'Live task: Integrated the new theorem-bearing clarification of the open
-    SG.4 bridge. The exact-potential / cycle-exact branch is now packaged explicitly
-    as the preferred local endgame: a cycle-exact polarization lemma defines the expanding'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-82
-  kind: branch-choice
-  label: 'Live task: Refined the exact-potential PD.70z endgame one step further.
-    The selector bridge note now proves the formal simple-top reduction from the angle
-    variable alpha_J=1-(e_ab·n_J)^2 to the one-sided directional deficit and strip
-    budget'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-84
-  kind: branch-choice
-  label: 'Live task: Refined the cycle-exact normal-covector route further. The route
-    note now proves a finite-measure square-root upgrade from the weighted L4 closure
-    CN.13 to the directional ledger E_dir^perp on selector-good strips: if the pair/ti'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-86
-  kind: branch-choice
-  label: 'Live task: Integrated the exact theorem-bearing closure the user supplied.
-    The selector bridge note now contains a formal theorem-schema no-go proposition:
-    signless W_J, its current PDE coercive bounds, and cycle exactness do not suffice
-    to'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-90
-  kind: branch-choice
-  label: 'Live task: Searched for abstract non-NS replacements for the cycle-exact
-    alignment idea and did not find a source-backed route that is genuinely better.
-    The nearest abstract competitors are Davis-Kahan style eigenspace perturbation,
-    dominat'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-92
-  kind: branch-choice
-  label: 'Live task: Abstract external search did not produce a source-backed proof
-    of the final selector calibration, but it did produce a cleaner theorem formulation
-    than the older polarity-map packet. The exact-potential simple-top branch is now
-    b'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-116
-  kind: branch-choice
-  label: 'Live task: Strengthened the YM/deformation theorem schema in the spectral
-    transversality bridge note. The better repo-style target is not a monolithic theorem
-    ''YM/deformation implies PSJ+.SST''. That over-hides the live obligations. The
-    shar'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-118
-  kind: branch-choice
-  label: 'Define or prove: Improved the YM/deformation route target beyond the earlier
-    DG-PSJ stack. The sharper repo-native factorization is now DG-Line (deformation
-    drain plus DG-SF builds a rank-one carrier inside the coarse expanding plane with
-    g'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-119
-  kind: branch-choice
-  label: 'Live task: Improved the YM/deformation route target beyond the earlier DG-PSJ
-    stack. The sharper repo-native factorization is now DG-Line (deformation drain
-    plus DG-SF builds a rank-one carrier inside the coarse expanding plane with gap/dri'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-123
-  kind: branch-choice
-  label: 'Live task: Sharpened the YM/deformation exact-potential closure route on
-    the Navier-Stokes lane. In problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md,
-    replaced the vague A-D bridge discussion with'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-125
-  kind: branch-choice
-  label: "`LCI.A` supplies lower-carrier integrability on the moving collar. `FCI.5f`
-    supplies the frozen-family source ledger. The collar Sobolev propagation theorem
-    yields `CSP.A`. The one-field forward preservation theorem consumes `CSP.A` and
-    the"
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
 summary:
-  total_obligations: 64
+  total_obligations: 24
   grounded_count: 15
   structural_only_count: 0
   structurally_supported_count: 0
   bridge_pending_count: 7
   unresolved_count: 2
-  frontier_count: 40
+  frontier_count: 0
   bridge_discharge_blocking_count: 0
   theorem_warrant_blocking_count: 0
-  blocking_count: 49
+  blocking_count: 9
   all_discharged: false
   live_theorem_edge_present: true
   live_theorem_edge_branch_count: 0
@@ -898,5 +410,4 @@ summary:
 submission_blockers:
 - There are 2 unresolved proof obligations.
 - There are 7 bridge obligations still awaiting local discharge.
-- There are 40 frontier obligations still inside the theorem packet.
 - Stand-alone status remains `revise`.

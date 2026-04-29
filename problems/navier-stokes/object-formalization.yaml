@@ -4,26 +4,25 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   formalization_id: object-formalization-navier-stokes
-  generated_at: '2026-04-29T18:33:57Z'
+  generated_at: '2026-04-29T18:56:28Z'
   generator: system/runner/lib/object_formalization_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_frontier_id: source-frontier-navier-stokes
   source_assembly_id: proof-assembly-navier-stokes
 target:
-  obligation_id: marvin-route-authority-6
-  label: 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
-    The correct algebraic fit for the time tower is the divided-power Hopf law on
-    one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
-    or sy'
-  kind: branch-choice
+  obligation_id: proof-dependency-2
+  label: Success for regularized or morphic-regularized equations does not close the
+    original problem -> The original framework names a monotone functional `Q(t)`
+    as a bridge, not just unnamed baseline energy
+  kind: proof-dependency
 formalization_packet:
-  object_id: formal-object-live_task_completed_the_hopf_shuffle_line_as_a_theorem_program_refinement_the_correct_algebraic_fit_for_the_time_tower_is_the_divided_power_hopf_law_on_one_primitive_generator_and_for_the_mixed_jet_tower_it_is_the_shuffle_unshuffle_or_sy
-  object_name: live_task_completed_the_hopf_shuffle_line_as_a_theorem_program_refinement_the_correct_algebraic_fit_for_the_time_tower_is_the_divided_power_hopf_law_on_one_primitive_generator_and_for_the_mixed_jet_tower_it_is_the_shuffle_unshuffle_or_sy
-  object_role: local formalization object
-  theorem_role: 'Make `Live task: Completed the Hopf/shuffle line as a theorem-program
-    refinement. The correct algebraic fit for the time tower is the divided-power
-    Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
-    or sy` exact enough that later discharge can test it locally.'
+  object_id: formal-object-success_for_regularized_or_morphic_regularized_equations_does_not_close_the_original_problem_the_original_framework_names_a_monotone_functional_q_t_as_a_bridge_not_just_unnamed_baseline_energy
+  object_name: success_for_regularized_or_morphic_regularized_equations_does_not_close_the_original_problem_the_original_framework_names_a_monotone_functional_q_t_as_a_bridge_not_just_unnamed_baseline_energy
+  object_role: mediating bridge object
+  theorem_role: Make the bridge from `Success for regularized or morphic-regularized
+    equations does not close the original problem` to `The original framework names
+    a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy` explicit
+    on the current theorem surface.
   machine_boundary: This packet is machine-derived beyond the frozen core and must
     stay quarantined until later discharge promotes it.
   slots:
@@ -73,9 +72,8 @@ grounded_basis:
 summary:
   formalization_ready: true
   recommended_next_cell_type: dependency-discharge
-  recommended_next_action: 'Use the object-formalization packet for `Live task: Completed
-    the Hopf/shuffle line as a theorem-program refinement. The correct algebraic fit
-    for the time tower is the divided-power Hopf law on one primitive generator, and
-    for the mixed jet tower it is the shuffle/unshuffle or sy` as the bounded tactic
-    switch, then rerun dependency-discharge on the same obligation instead of reopening
-    another generic backbone loop.'
+  recommended_next_action: Use the object-formalization packet for `Success for regularized
+    or morphic-regularized equations does not close the original problem -> The original
+    framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline
+    energy` as the bounded tactic switch, then rerun dependency-discharge on the same
+    obligation instead of reopening another generic backbone loop.
