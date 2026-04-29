@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-29T16:35:01Z'
+  generated_at: '2026-04-29T16:40:38Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -133,13 +133,14 @@ cross_lane_broadcast:
   - label: 'three-piece lifted-packet closure program: SS first, direct CTS second,
       LPAS fallback'
     kind: lemma
-    status: formalized
+    status: structural-only
     origin: local
-    source_anchor: problems/navier-stokes/object-formalization.yaml
+    source_anchor: problems/navier-stokes/dependency-discharge.yaml
   broadcast_paths:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
   - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/dependency-discharge.yaml
   - problems/navier-stokes/object-formalization.yaml
 auditor:
   status: needs-attention
