@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T17:55:51Z'
+  generated_at: '2026-04-29T17:58:13Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
