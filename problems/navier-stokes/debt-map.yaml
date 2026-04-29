@@ -5,7 +5,7 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-04-29T19:29:12Z'
+  extracted_at: '2026-04-29T19:31:00Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
@@ -13,7 +13,7 @@ posture:
     current_package_status: active
     support_basis: Recovered source support converged with the speculative branch,
       so the next safe move is a grounded backbone rebuild.
-    standalone_status: revise
+    standalone_status: review-pass-export-gated
 supporting_sections:
   reviewer_risks:
   - 'Do not overclaim beyond the lowest safe theorem surface: The official Clay target

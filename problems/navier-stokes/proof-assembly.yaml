@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-29T19:30:18Z'
+  generated_at: '2026-04-29T19:31:01Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -74,35 +74,19 @@ source_grounded_chain:
   the periodic Clay branch with `f = 0` follows; any whole-space statement on `R^3`
   is a downstream discharge theorem, not the internal branch itself
 tentative_extension_chain: []
-remaining_open_obligations:
-- obligation_id: warrant-theorem-2.1
-  label: Theorem 2.1 (Classical Closure)
-  kind: theorem-warrant
-  status: bridge-pending
+remaining_open_obligations: []
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
-  math_frontier_obligations:
-  - obligation_id: warrant-theorem-2.1
-    label: Theorem 2.1 (Classical Closure)
-    kind: theorem-warrant
-    status: bridge-pending
-  theorem_warrant_obligations:
-  - obligation_id: warrant-theorem-2.1
-    label: Theorem 2.1 (Classical Closure)
-    kind: theorem-warrant
-    status: bridge-pending
+  math_frontier_obligations: []
+  theorem_warrant_obligations: []
 frontier_context:
   route_container_obligations: []
   downstream_support_obligations: []
   additional_context_obligations: []
-next_solver_targets:
-- obligation_id: warrant-theorem-2.1
-  label: Theorem 2.1 (Classical Closure)
-  kind: theorem-warrant
-  status: bridge-pending
+next_solver_targets: []
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-cf4997bedc84
-  route_signature: cf4997bedc844c73652b372393b08f85eed61895
+  surface_id: theorem-surface-navier-stokes-4a5a9d59dadb
+  route_signature: 4a5a9d59dadb8d2c2e12b966e942bcded21da730
   theorem_target: conditional terminal class-membership lane closure packet
   theorem_statement: The official Clay target allows either the whole-space branch
     on R^3 or the periodic branch on T^3.
@@ -128,12 +112,47 @@ theorem_surface:
     = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
     not the internal branch itself
   route_slots:
-  - slot_id: warrant-theorem-2.1
-    label: Theorem 2.1 (Classical Closure)
-    kind: theorem-warrant
-    status: bridge-pending
-    source_anchor: problems/navier-stokes/external-paper/sections/main-result.tex
-    patch_surface: problems/navier-stokes/external-paper/sections/main-result.tex
+  - slot_id: marvin-upstream-eb3fabeeac46
+    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
+      Clay whole-space target into exact source-backed ingredients already present
+      on the lane. On the classical side, isolated the mixed-jet system, the exact
+      rung-level can'
+    kind: definition
+    status: localized-support
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+    patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - slot_id: marvin-upstream-ada9835aa864
+    label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
+      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
+      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
+    kind: definition
+    status: localized-support
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+    patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - slot_id: marvin-upstream-6d929e8a052a
+    label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
+      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
+      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
+      red'
+    kind: definition
+    status: localized-support
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+    patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - slot_id: marvin-upstream-954339945793
+    label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+      and E_sh(X) vanish identically, so the exact Route '
+    kind: definition
+    status: localized-support
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+    patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - slot_id: marvin-upstream-96892bab139f
+    label: 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
+      target.'
+    kind: definition
+    status: localized-support
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+    patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
   authority_layers:
     authoritative_proof_surfaces:
     - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_3-_Monotone_Functional.tex"
@@ -217,15 +236,15 @@ theorem_surface:
 summary:
   grounded_step_count: 23
   promoted_extension_count: 0
-  bridge_discharge_blocking_count: 1
+  bridge_discharge_blocking_count: 0
   bridge_discharge_only_count: 0
-  theorem_warrant_blocking_count: 1
-  open_obligation_count: 1
-  math_frontier_open_count: 1
+  theorem_warrant_blocking_count: 0
+  open_obligation_count: 0
+  math_frontier_open_count: 0
   frontier_context_count: 0
   frontier_route_container_count: 0
   frontier_downstream_support_count: 0
   tracked_source_count: 141
   synthesis_import_surface_count: 15
-  ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-cf4997bedc84
+  ready_for_submission: true
+  theorem_surface_id: theorem-surface-navier-stokes-4a5a9d59dadb

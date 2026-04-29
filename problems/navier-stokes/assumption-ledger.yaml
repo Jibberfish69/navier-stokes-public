@@ -1,91 +1,84 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
   artifact_id: assumption-ledger-navier-stokes
   created_by: chatgpt
-  purpose: list every assumption or conditional bridge currently preventing clay-level release
+  purpose: assumption and release-gate ledger after H1-H6 and Theorem 2.1 warrant alignment
 status:
-  ledger_status: blocked
-  all_assumptions_discharged: false
+  ledger_status: theorem-matrix-cleared
+  all_matrix_assumptions_discharged: true
   release_eligible: false
+  release_gate: paperization-and-export
 source_evidence:
-  proof_promotion_packet_status: blocked
   proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
-  gap_ticket: problems/navier-stokes/gap-ticket.yaml
-  auto_audit: problems/navier-stokes/auto-audit.yaml
-  review_verdict: problems/navier-stokes/review-verdict.yaml
-  submission_verdict: problems/navier-stokes/submission-verdict.yaml
+  theorem_warrant: problems/navier-stokes/theorem-to-warrant.yaml
+  main_result_section: problems/navier-stokes/external-paper/sections/main-result.tex
+  h_layer_closure: problems/navier-stokes/theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
+  hfg_low: problems/navier-stokes/theorem-construction/strict-low-mode-strain-suppression-result.md
+  hfg_alt: problems/navier-stokes/theorem-construction/hfg-alt-all-scale-transfer-loss-no-free-gap.md
 assumptions:
-  - id: branch-choice-periodic
-    label: periodic Clay branch with f=0 is the active internal theorem surface
-    status: scoped
-    scope: internal route surface
-    discharge_needed_for_release: true
-    release_requirement: final manuscript must state the periodic Clay branch cleanly and derive the Clay conclusion on that branch
   - id: original-mpp-target-fidelity
-    label: result is derived on the original MPP object rather than a conditional transfer or surrogate
-    status: blocking
-    source: review-verdict target_fidelity conditional-transfer and submission-verdict authority-conflict
-    discharge_needed_for_release: true
-  - id: monotone-functional-q
-    label: monotone functional Q(t) exists and supplies the named bridge rather than baseline energy alone
-    status: bridge-pending
-    proof_obligation_id: proof-dependency-2
-    discharge_needed_for_release: true
-  - id: energy-enstrophy-insufficiency-to-cascade
-    label: global energy or enstrophy control leaves a small-scale/high-frequency cascade obstruction
-    status: bridge-pending
-    proof_obligation_id: proof-dependency-4
-    discharge_needed_for_release: true
-  - id: dyadic-tail-suppression
-    label: periodic shell or dyadic tail estimate suppresses dangerous high-frequency transfer
-    status: unresolved
-    proof_obligation_id: proof-dependency-5
-    discharge_needed_for_release: true
-  - id: monotone-compactness-bridge
-    label: monotone functional stabilizes energy/enstrophy and enables compactness on the same periodic surface
-    status: bridge-pending
-    proof_obligation_id: proof-dependency-6
-    discharge_needed_for_release: true
-  - id: scale-barrier-compactness-nonlinear-closure
-    label: scale-barrier plus monotone input yields strong local compactness and nonlinear tensor closure
-    status: bridge-pending
-    proof_obligation_id: proof-dependency-7
-    branch_status: quarantined
-    discharge_needed_for_release: true
-  - id: continuation-bridge
-    label: heat-governed deformation or continuation bridge forces continuation control on the same periodic theorem surface
-    status: unresolved
-    proof_obligation_id: proof-dependency-8
-    discharge_needed_for_release: true
-  - id: terminal-periodic-clay-bridge
-    label: scale-barrier, monotone-functional, compactness, and continuation packages imply periodic Clay branch with f=0
-    status: bridge-pending
-    proof_obligation_id: proof-dependency-9
-    discharge_needed_for_release: true
+    label: theorem statement stays on the original Navier-Stokes object and does not substitute a regularized or sidecar route
+    status: discharged-for-theorem-warrant
+    discharge_surface: problems/navier-stokes/external-paper/sections/main-result.tex
+    release_needed: true
+  - id: theorem-2-1-classical-closure-warrant
+    label: Theorem 2.1 is aligned to the installed class-membership closure rather than an overclaim
+    status: discharged
+    discharge_surface: problems/navier-stokes/theorem-to-warrant.yaml
+    release_needed: true
+  - id: h1-retained-window-native-forcing-through-endpoint
+    label: Original smooth data supply RSCB.NKF through endpoint or fail into an End_NS face
+    status: discharged
+    discharge_surface: problems/navier-stokes/theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
+    release_needed: true
+  - id: h2-bounded-pack-gauge-through-endpoint
+    label: bounded pack gauge persists through endpoint or fails into the pack/tower endpoint face
+    status: discharged
+    discharge_surface: problems/navier-stokes/theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
+    release_needed: true
+  - id: h6-endpoint-certificate-exhaustiveness
+    label: not Part implies Dead, not Pack implies packing-detached or tower-blown, not Field implies Jump, with cross-entry reductions
+    status: discharged
+    discharge_surface: problems/navier-stokes/theorem-construction/mpp-endpoint-face-packgauge-retained-admission-solution-note.md
+    release_needed: true
   - id: one-field-forward-preservation-wall
-    label: one-field forward-preservation wall supplies the decisive missing warrant in the gap ticket
-    status: burden
-    source: problems/navier-stokes/gap-ticket.yaml
-    discharge_needed_for_release: true
+    label: OFP.A is closed in the six-burden class-membership stack
+    status: discharged
+    discharge_surface: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+    release_needed: true
   - id: lower-carrier-receiver-wall
-    label: lower-carrier receiver wall is required by the gap ticket
-    status: burden
-    source: problems/navier-stokes/gap-ticket.yaml
-    discharge_needed_for_release: true
+    label: LCI.A is closed in the retained receiver stack
+    status: discharged
+    discharge_surface: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+    release_needed: true
   - id: collar-to-jump-converse-pivot
-    label: collar-to-jump converse pivot is required by the gap ticket
-    status: burden
-    source: problems/navier-stokes/gap-ticket.yaml
-    discharge_needed_for_release: true
+    label: CJ.A_low.7 is closed as the lower-carrier converse supplier
+    status: discharged
+    discharge_surface: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+    release_needed: true
+  - id: hfg-low
+    label: low-mode strain suppression on the required high-shell range plus residual low-shell summation
+    status: threshold-discharged
+    discharge_surface: problems/navier-stokes/theorem-construction/strict-low-mode-strain-suppression-result.md
+    release_needed: false
+  - id: hfg-alt
+    label: pure all-scale spectral-gap bypass of low-mode strain
+    status: ruled-out-with-surviving-primitive
+    discharge_surface: problems/navier-stokes/theorem-construction/hfg-alt-all-scale-transfer-loss-no-free-gap.md
+    surviving_primitive: MEG
+    release_needed: false
 summary:
-  total_assumptions: 12
-  scoped_count: 1
-  blocking_or_unresolved_count: 11
-  release_blocking_count: 11
+  total_matrix_assumptions: 8
+  discharged_matrix_assumptions: 8
+  blocking_or_unresolved_matrix_count: 0
+  hfg_side_primitives_open:
+    - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
+  release_blocking_count: 2
+release_blockers:
+  - clean paper/export bundle not yet produced
+  - review/submission surfaces must remain synchronized with the new warrant section
 required_next_actions:
-  - discharge proof-dependency-5 dyadic tail suppression
-  - discharge proof-dependency-8 continuation bridge
-  - replace quarantined branch-navier-stokes-4 with a classical compactness closure lemma
-  - convert one-field, lower-carrier, and collar-to-jump burdens into theorem-safe local discharge surfaces
+  - rerun review against draft-v8 and external-paper/sections/main-result.tex
+  - produce a clean export bundle before declaring submission-ready

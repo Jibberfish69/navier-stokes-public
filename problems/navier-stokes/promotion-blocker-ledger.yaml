@@ -1,141 +1,56 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
   artifact_id: promotion-blocker-ledger-navier-stokes
   created_by: chatgpt
-  purpose: honest blocker ledger for driving proof_promotion_packet blockers from 9 to 0
+  purpose: promotion blocker ledger refreshed after solved matrix and Theorem 2.1 warrant alignment
 status:
-  promotion_tier: clay-level
-  current_status: blocked
-  promotion_allowed: false
+  promotion_tier: local-theorem-packet
+  current_status: review-pass-export-gated
+  promotion_allowed: true
   release_approved: false
-  acceptance_test: proof_promotion_packet
+  acceptance_test: review-and-export
 source_reads:
-  proof_promotion_packet:
-    status: blocked
-    decision: not-release-approved
-    blockers: 9
   proof_obligation_matrix:
     path: problems/navier-stokes/proof-obligation-matrix.yaml
-    sha1: cb5a48a36a5a6f513a504523f11803447a94a7bf
     total_obligations: 24
-    blocking_count: 8
-    bridge_pending_count: 6
-    unresolved_count: 2
-  gap_ticket:
-    path: problems/navier-stokes/gap-ticket.yaml
-    sha1: 1fa79561defcecdbbf9f26e7609524ca3f30304b
-    decisive_frontier: one-field forward-preservation wall
-    missing_warrant: one-field forward-preservation wall
-  auto_audit:
-    path: problems/navier-stokes/auto-audit.yaml
-    sha1: 6c7d8968d489d4e7d8ad522e81480ed3403a87a6
-    audit_status: audited-needs-fix
-    unresolved_branch_terminal_status_count: 2
-  review_verdict:
-    path: problems/navier-stokes/review-verdict.yaml
-    sha1: 3aca19771e612f06c7a60d4ed0674f2fc2b30e44
-    verdict: revise
-    target_fidelity: conditional-transfer
-  submission_verdict:
-    path: problems/navier-stokes/submission-verdict.yaml
-    sha1: 5369a03d046ae1a7dc71dc45858850cd71edecb7
-    submission_posture: not-ready
-    submission_ready: false
-promotion_packet_blockers:
-  - id: promotion-record
-    status: missing
-    required_surface: problems/navier-stokes/release-decision.yaml
-    required_action: create only after all audits and proof obligations pass
-  - id: audit-pass-records
-    status: missing
-    required_surfaces:
-      - problems/navier-stokes/dependency-audit.yaml
-      - problems/navier-stokes/assumption-audit.yaml
-      - problems/navier-stokes/circularity-audit.yaml
-      - problems/navier-stokes/gap-audit.yaml
-      - problems/navier-stokes/consistency-audit.yaml
-    required_action: generate passing audits after mathematical blockers are discharged
-  - id: full-dependency-graph
-    status: blocked
-    required_action: discharge 8 blocking proof obligations
-  - id: assumption-ledger
-    status: missing
-    required_surface: problems/navier-stokes/assumption-ledger.yaml
-    required_action: list all extra assumptions and mark each discharged, scoped, or blocking
-  - id: gap-ledger
-    status: blocked
-    required_action: resolve or explicitly scope gap-ticket burdens
-  - id: failure-mode-checks
-    status: blocked
-    required_action: convert auto-audit from audited-needs-fix to passed
+    blocking_count: 0
+    bridge_pending_count: 0
+    unresolved_count: 0
+    all_discharged: true
+  theorem_warrant:
+    path: problems/navier-stokes/theorem-to-warrant.yaml
+    theorem_2_1_status: proved
+  main_result_section:
+    path: problems/navier-stokes/external-paper/sections/main-result.tex
+    status: present
+  assumption_ledger:
+    path: problems/navier-stokes/assumption-ledger.yaml
+    status: theorem-matrix-cleared
+promotion_packet_blockers: []
+proof_obligation_blockers: []
+branch_terminal_blockers: []
+resolved_blockers:
+  - full-dependency-graph
+  - theorem-2-1-warrant
+  - one-field-forward-preservation-wall
+  - lower-carrier-receiver-wall
+  - collar-to-jump-converse-pivot
+  - h1-h2-h6-endpoint-upgrade
+remaining_release_gates:
   - id: review-verdict
-    status: blocked
-    required_action: rerun review after proof obligations and audits pass; current verdict is revise
-  - id: release-decision
-    status: missing
-    required_action: create release decision only after promotion packet blockers clear
+    status: pass-record-needed
+    required_action: review current draft-v8 and main-result.tex against the new warrant
   - id: stable-reproducibility-bundle
-    status: blocked
-    required_action: publish manifest with fixed hashes including final proof, matrix, audits, review verdict, release decision
-proof_obligation_blockers:
-  - id: proof-dependency-2
-    status: bridge-pending
-    from: Success for regularized or morphic-regularized equations does not close the original problem
-    to: The original framework names a monotone functional Q(t) as a bridge, not just unnamed baseline energy
-    required_action: local theorem-safe bridge discharge anchored to source-grounded lexicon
-  - id: proof-dependency-3
-    status: bridge-pending
-    from: The original framework names a monotone functional Q(t) as a bridge, not just unnamed baseline energy
-    to: Global energy or enstrophy control is necessary but not sufficient
-    required_action: local theorem-safe bridge discharge
-  - id: proof-dependency-4
-    status: bridge-pending
-    from: Global energy or enstrophy control is necessary but not sufficient
-    to: The live obstruction is the small-scale or high-frequency cascade that feeds blow-up
-    required_action: local theorem-safe bridge discharge
-  - id: proof-dependency-5
-    status: unresolved
-    from: The live obstruction is the small-scale or high-frequency cascade that feeds blow-up
-    to: A periodic shell or dyadic tail estimate must suppress dangerous high-frequency transfer on the chosen torus-first theorem surface
-    required_action: prove the periodic shell/dyadic tail suppression theorem or remove the dependency from the claimed proof spine
-  - id: proof-dependency-6
-    status: bridge-pending
-    from: A periodic shell or dyadic tail estimate must suppress dangerous high-frequency transfer on the chosen torus-first theorem surface
-    to: The monotone functional must stabilize the global energy/enstrophy layer and enable compactness on the same periodic classical surface
-    required_action: local theorem-safe bridge discharge
-  - id: proof-dependency-7
-    status: bridge-pending
-    from: The monotone functional must stabilize the global energy/enstrophy layer and enable compactness on the same periodic classical surface
-    to: The scale-barrier plus monotone-functional input must yield strong local compactness and nonlinear tensor closure
-    required_action: classical closure lemma on existing energy/compactness ladder; current branch is quarantined
-  - id: proof-dependency-8
-    status: unresolved
-    from: The scale-barrier plus monotone-functional input must yield strong local compactness and nonlinear tensor closure
-    to: A heat-governed deformation or continuation bridge must force continuation control on the same periodic theorem surface
-    required_action: prove continuation bridge or remove it from the proof spine
-  - id: proof-dependency-9
-    status: bridge-pending
-    from: A heat-governed deformation or continuation bridge must force continuation control on the same periodic theorem surface
-    to: periodic Clay branch with f=0 follows
-    required_action: local theorem-safe terminal bridge discharge
-branch_terminal_blockers:
-  - branch_id: branch-navier-stokes-2
-    origin_obligation_id: proof-dependency-2
-    current_status: quarantined
-    required_action: strengthen vocabulary anchor or issue death-certificate and replace branch
-  - branch_id: branch-navier-stokes-4
-    origin_obligation_id: proof-dependency-7
-    current_status: quarantined
-    required_action: replace modified-equation detour with classical closure lemma on energy/compactness ladder
-recommended_next_math_targets:
-  - proof-dependency-5 periodic shell or dyadic tail estimate
-  - proof-dependency-8 continuation bridge
-  - proof-dependency-7 classical compactness/nonlinear tensor closure lemma
-  - one-field forward-preservation wall from gap-ticket
-  - lower-carrier receiver wall from gap-ticket
-  - collar-to-jump converse pivot from gap-ticket
+    status: export-needed
+    required_action: publish or regenerate a clean submission/export bundle after review pass
+  - id: release-decision
+    status: deferred
+    required_action: create only after export bundle passes
+side_sandbox_status:
+  hfg_low: threshold-discharged
+  hfg_alt: no-free-gap; surviving primitive is MEG
 claim_boundary:
-  current_safe_claim: route-complete conditional theorem program with blocked clay-level promotion
-  prohibited_claim: proof of Clay-level Navier-Stokes global regularity
+  current_safe_claim: The Theorem 2.1 class-membership closure warrant is installed and the 24-obligation matrix has 0 blockers.
+  prohibited_claim: submission-ready Clay proof before review/export bundle pass

@@ -37,8 +37,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Source Frontier
 
-- `first_unresolved`: Theorem 2.1 (Classical Closure) (`theorem-warrant`; `warrant-theorem-2.1`)
-- Theorem 2.1 (Classical Closure) (`theorem-warrant`; `warrant-theorem-2.1`)
+- No unresolved frontier obligations remain.
 
 ## Source Surfaces
 

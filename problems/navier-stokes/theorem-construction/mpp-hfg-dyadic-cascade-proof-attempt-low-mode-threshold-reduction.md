@@ -279,4 +279,16 @@ A dyadic transfer law with a summable spectral-gap kernel that converts upward c
 
 The high-high packet is no longer the live obstruction after near-diagonal reduction and cubic-tail absorption. The live obstruction is the strict low-mode strain coefficient and its residual low-shell sum below the dynamic absorption threshold.
 
-Thus the next mathematical target is the low-mode strain suppression theorem, or an all-scale transfer-loss theorem that implies it.
+The thresholded low-mode strain theorem is now recorded in
+`strict-low-mode-strain-suppression-result.md`. The all-scale transfer-loss
+alternative is tested in `hfg-alt-all-scale-transfer-loss-no-free-gap.md`; it
+does not bypass the diagonal low-strain term without an additional amplitude
+theorem.
+
+Thus the exact surviving HFG primitive is
+
+```math
+MEG:
+\qquad
+\int_0^T\|\omega(t)\|_2\|\nabla\omega(t)\|_2\,dt<\infty.
+```

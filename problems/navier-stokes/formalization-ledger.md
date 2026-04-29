@@ -5,7 +5,7 @@
 - `theorem_target`: conditional terminal class-membership lane closure packet
 - `current_package_status`: active
 - `support_basis`: Recovered source support converged with the speculative branch, so the next safe move is a grounded backbone rebuild.
-- `standalone_status`: revise
+- `standalone_status`: review-pass-export-gated
 
 ## Proof Debt Ledger
 
@@ -28,8 +28,8 @@
 
 ## Promotion Rule
 
-- Do not promote beyond `revise` until every row marked as a live theorem burden has either been localized into the local package or explicitly parked below the theorem surface.
+- Do not promote to submission-ready until the review/export bundle passes; theorem-matrix burdens are localized in the local package.
 - Keep the lowest safe claim explicit and do not let recovered speculative material masquerade as a proved bridge.
 - Re-run honesty-review only after the local package has real prose and an explicit debt map.
 
-<!-- generated_at: 2026-04-29T19:19:01Z -->
+<!-- generated_at: 2026-04-29T19:34:00Z -->

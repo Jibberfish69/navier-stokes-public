@@ -362,6 +362,7 @@ published_files:
 - theorem-construction/h1-carrier-leakage-direct-completion.md
 - theorem-construction/h2-standalone-half-derivative-bound.md
 - theorem-construction/heat-governed-carrier-synthesis-for-tower-and-shadow-route.md
+- theorem-construction/hfg-alt-all-scale-transfer-loss-no-free-gap.md
 - theorem-construction/high-frequency-enstrophy-to-h1-lemma.md
 - theorem-construction/holonomy-refinement-projector-spectral-realization-theorem.md
 - theorem-construction/hopf-shuffle-endgame-program.md
