@@ -47,14 +47,38 @@ debt_items:
     being typed directly from the active frontier while the theorem surface stays
     below inflation.'
   priority_rank: 1
+  derivation_state: localized-support
+  derivation_attempts: 1
+  attempts_without_new_support: 0
+  last_derivation_run_id: debt-derive-navier-stokes-20260429T164515Z
+  support_strength: strong
+  evidence_paths:
+  - problems/navier-stokes/draft-v6.md
+  - problems/navier-stokes/claim-ladder.md
+  - problems/navier-stokes/frozen-core.md
+  - problems/navier-stokes/obstruction-capture.md
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  new_evidence_paths:
+  - problems/navier-stokes/draft-v6.md
+  - problems/navier-stokes/claim-ladder.md
+  - problems/navier-stokes/frozen-core.md
+  - problems/navier-stokes/obstruction-capture.md
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  source_sufficiency: sufficient
+  source_scope_status: new-support-found
+  source_checks: 1
 summary:
   counts_by_class:
     packaging: 0
     local-derivable: 1
     branch-choice: 0
     blocked-frontier: 0
-  recommended_next_cell_type: debt-derive
-  recommended_next_action: Run debt-derive on the highest-priority local-derivable
-    items from debt-map.yaml before another honesty-review pass.
-  recommended_debt_ids:
-  - marvin-upstream-0fdc65ea42d5
+  recommended_next_cell_type: solver-loop
+  recommended_next_action: All local derivation debt is localized, so run solver-loop
+    before prose and freeze the source-grounded theorem frontier against the remaining
+    proof obligations.
+  recommended_debt_ids: []
+  derivation_counts_by_state:
+    localized-support: 1

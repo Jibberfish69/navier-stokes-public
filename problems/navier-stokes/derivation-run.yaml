@@ -1,0 +1,487 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  run_id: debt-derive-navier-stokes-20260429T164515Z
+  debt_id: marvin-upstream-0fdc65ea42d5
+target_debt:
+  debt_id: marvin-upstream-0fdc65ea42d5
+  label: 'three-piece lifted-packet closure program: SS first, direct CTS second,
+    LPAS fallback'
+  priority_rank: 1
+  monograph_status: formalization ledger missing; type the current live burden directly
+    from the active frontier
+  primary_anchors:
+  - problems/navier-stokes/dependency-discharge.yaml
+  - problems/navier-stokes/object-formalization.yaml
+  - problems/navier-stokes/proof-assembly.yaml
+search_scope:
+  generated_at: '2026-04-29T16:45:15Z'
+  files_checked:
+    workboard-local:
+    - problems/navier-stokes/obstruction-capture.md
+    - problems/navier-stokes/spine.md
+    - problems/navier-stokes/claim-ladder.md
+    - problems/navier-stokes/draft-v6.md
+    - problems/navier-stokes/draft-v7.md
+    - problems/navier-stokes/review-log.md
+    - problems/navier-stokes/formalization-ledger.md
+    - problems/navier-stokes/theorem-packet.yaml
+    - problems/navier-stokes/proof-obligation-matrix.yaml
+    - problems/navier-stokes/source-frontier.yaml
+    - problems/navier-stokes/frozen-core.md
+    - problems/navier-stokes/extension-branches.yaml
+    - problems/navier-stokes/lemma-falsification.yaml
+    - problems/navier-stokes/promotion-verdict.yaml
+    - problems/navier-stokes/proof-assembly.yaml
+    - problems/navier-stokes/submission-verdict.yaml
+    - problems/navier-stokes/v6-four-bridge-source-note.md
+    - problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
+    - problems/navier-stokes/closure-audit-source-pack.md
+    - problems/navier-stokes/compactness-discharge-source-pack.md
+    - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+    - problems/navier-stokes/energy-insufficiency-source-pack.md
+    - problems/navier-stokes/gradient-discharge-source-pack.md
+    - problems/navier-stokes/gradient-transfer-coercivity-source-pack.md
+    - problems/navier-stokes/interdependencies-discharge-source-pack.md
+    - problems/navier-stokes/monotone-functional-discharge-source-pack.md
+    - problems/navier-stokes/nonlinear-closure-discharge-source-pack.md
+    - problems/navier-stokes/proof-source-pack.md
+    - problems/navier-stokes/scale-barrier-source-pack.md
+    - problems/navier-stokes/scale-barrier-tail-discharge-source-pack.md
+    - problems/navier-stokes/scale-high-side-remainder-source-pack.md
+    - problems/navier-stokes/target-fidelity-discharge-source-pack.md
+    - problems/navier-stokes/merge-verdict.yaml
+    - problems/navier-stokes/paper-quality-verdict.yaml
+    - problems/navier-stokes/review-verdict.yaml
+    canonical-problem-corpus: []
+    conversation-direct: []
+    conversation-indirect: []
+    conversation-speculative: []
+  authority_roots_by_group:
+    workboard-local:
+    - contract_version: 1
+      authority_root: problems/navier-stokes
+      authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
+      surface_plane: lane_repo
+      classification: lane-local
+      authority_basis: split-lane-repo
+      authoritative: true
+      fallback_used: false
+      fallback_reason:
+      resolver_path: &2
+      - problem_surface_entries
+      - split-lane-repo
+      present: true
+    - contract_version: 1
+      authority_root: problems/navier-stokes
+      authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
+      surface_plane: workspace-problem-surface
+      classification: compatibility-only
+      authority_basis: workspace-problem-surface-fallback
+      authoritative: false
+      fallback_used: true
+      fallback_reason: workspace-problem-surface-fallback
+      resolver_path:
+      - problem_surface_entries
+      - workspace-problem-surface-fallback
+      present: true
+    canonical-problem-corpus: &1
+    - contract_version: 1
+      authority_root: RC-corpus-archive/Millennium Prize Problems/Navier-Stokes
+      authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium
+        Prize Problems/Navier-Stokes"
+      surface_plane: corpus_archive
+      classification: authoritative
+      authority_basis: split-corpus-archive
+      authoritative: true
+      fallback_used: false
+      fallback_reason:
+      resolver_path:
+      - corpus_root_entries
+      - split-corpus-archive
+      present: true
+    conversation-direct: *1
+    conversation-indirect: *1
+    conversation-speculative: *1
+source_scope:
+  previous_evidence_paths: []
+  current_evidence_paths:
+  - problems/navier-stokes/draft-v6.md
+  - problems/navier-stokes/claim-ladder.md
+  - problems/navier-stokes/frozen-core.md
+  - problems/navier-stokes/obstruction-capture.md
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  new_evidence_paths:
+  - problems/navier-stokes/draft-v6.md
+  - problems/navier-stokes/claim-ladder.md
+  - problems/navier-stokes/frozen-core.md
+  - problems/navier-stokes/obstruction-capture.md
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  novel_support_found: true
+  source_sufficiency: sufficient
+  fallback_used: false
+  fallback_reason:
+  authority_status: lane-local-only
+authority_provenance:
+  diagnostic_id: data-source-runtime-authority-diagnostic-v1
+  export_id: data-source-runtime-authority-export-v1
+  contract_version: 1
+  resolver: source_authority_resolver
+  runtime:
+    contract_version: 1
+    source: runtime_hot_state_status
+    scope: problem
+    authority_root: problems/navier-stokes
+    authority_root_absolute: problems/navier-stokes
+    surface_plane: runtime-hot-state
+    classification: authoritative
+    authority_basis: lane-problem-repo
+    authoritative: true
+    fallback_used: false
+    fallback_reason:
+    resolver_path:
+    - runtime_hot_state_status
+    - lane-problem-repo
+    authority_mode: lane-problem-repo
+    database_path: problems/navier-stokes/runtime/meta/runtime-hot-state.sqlite3
+    authoritative_storage: sqlite
+    compatibility_shadow_status: fresh
+    indexed_event_count: 24820
+    indexed_lease_count: 17679
+    active_lease_count: 1
+    latest_active_lease_id: debt-derive-navier-stokes-20260429T164515Z
+    status: ok
+    error_class:
+  roots:
+    corpus:
+    - contract_version: 1
+      authority_root: RC-corpus-archive/Millennium Prize Problems/Navier-Stokes
+      authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium
+        Prize Problems/Navier-Stokes"
+      surface_plane: corpus_archive
+      classification: authoritative
+      authority_basis: split-corpus-archive
+      authoritative: true
+      fallback_used: false
+      fallback_reason:
+      resolver_path: &3
+      - corpus_root_entries
+      - split-corpus-archive
+      present: true
+    problem_surfaces:
+    - contract_version: 1
+      authority_root: problems/navier-stokes
+      authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
+      surface_plane: lane_repo
+      classification: lane-local
+      authority_basis: split-lane-repo
+      authoritative: true
+      fallback_used: false
+      fallback_reason:
+      resolver_path: &4
+      - problem_surface_entries
+      - split-lane-repo
+      present: true
+    - contract_version: 1
+      authority_root: problems/navier-stokes
+      authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
+      surface_plane: workspace-problem-surface
+      classification: compatibility-only
+      authority_basis: workspace-problem-surface-fallback
+      authoritative: false
+      fallback_used: true
+      fallback_reason: workspace-problem-surface-fallback
+      resolver_path: &5
+      - problem_surface_entries
+      - workspace-problem-surface-fallback
+      present: true
+  selection_status:
+    status: lane-local-only
+    authoritative_present: true
+    lane_local_present: true
+    compatibility_present: true
+    archive_fallback_present: false
+    selected_classification_counts:
+      lane-local: 6
+    fallback_used: false
+    fallback_reason:
+    fallback_reasons: []
+    disagreement_visible: true
+    selected_roots:
+    - authority_root: problems/navier-stokes
+      surface_plane: lane_repo
+      classification: lane-local
+      authority_basis: split-lane-repo
+      fallback_used: false
+      resolver_path: *2
+      present: true
+      selected: true
+      preferred: false
+    preferred_roots:
+    - authority_root: RC-corpus-archive/Millennium Prize Problems/Navier-Stokes
+      surface_plane: corpus_archive
+      classification: authoritative
+      authority_basis: split-corpus-archive
+      fallback_used: false
+      resolver_path: *3
+      present: true
+      selected: false
+      preferred: true
+      group: corpus
+    - authority_root: problems/navier-stokes
+      surface_plane: lane_repo
+      classification: lane-local
+      authority_basis: split-lane-repo
+      fallback_used: false
+      resolver_path: *4
+      present: true
+      selected: false
+      preferred: true
+      group: problem_surfaces
+    considered_roots:
+    - authority_root: RC-corpus-archive/Millennium Prize Problems/Navier-Stokes
+      surface_plane: corpus_archive
+      classification: authoritative
+      authority_basis: split-corpus-archive
+      fallback_used: false
+      resolver_path: *3
+      present: true
+      selected: false
+      preferred: true
+    - authority_root: problems/navier-stokes
+      surface_plane: lane_repo
+      classification: lane-local
+      authority_basis: split-lane-repo
+      fallback_used: false
+      resolver_path: *4
+      present: true
+      selected: true
+      preferred: true
+    - authority_root: problems/navier-stokes
+      surface_plane: workspace-problem-surface
+      classification: compatibility-only
+      authority_basis: workspace-problem-surface-fallback
+      fallback_used: true
+      fallback_reason: workspace-problem-surface-fallback
+      resolver_path: *5
+      present: true
+      selected: false
+      preferred: false
+    warning_codes:
+    - unselected-fallback-present
+    - compatibility-shadow-present
+    - lane-local-archive-disagreement
+    warning_level: ok
+    resolver_path: &6
+    - derivation_run_builder
+  fallback_used: false
+  fallback_reason:
+  diagnostic_export:
+    export_id: data-source-runtime-authority-export-v1
+    owner: DATA
+    format: yaml
+    path: system/meta/runtime-state/data-source-runtime-authority/navier-stokes.yaml
+    absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/system/meta/runtime-state/data-source-runtime-authority/navier-stokes.yaml"
+    exists: true
+  resolver_path: *6
+search_terms:
+- problems/navier-stokes/dependency-discharge.yaml
+- problems/navier-stokes/object-formalization.yaml
+- problems/navier-stokes/proof-assembly.yaml
+- three-piece lifted-packet
+- lifted-packet closure
+- closure program
+- program direct
+- direct lpas
+- lpas fallback
+- three-piece
+- lifted-packet
+- closure
+- program
+evidence_hits:
+- source_path: problems/navier-stokes/draft-v6.md
+  source_group: workboard-local
+  matched_terms:
+  - closure program
+  - closure
+  - program
+  matched_origins:
+  - target-label
+  hit_kind: phrase-match
+  excerpt_note: "# Navier-Stokes Global Regularity: A Classical Closure Program >
+    Extraction notice: > For Marvin / Chat Y / monograph-V6 intake, treat > [proof-source-pack.md](/Users/thomasbirnie/Documents/Research-Consolidatio"
+  authority_root: problems/navier-stokes
+  authority_classification: lane-local
+  authority_basis: split-lane-repo
+  fallback_used: false
+  fallback_reason:
+  resolver_path: *2
+  authority_provenance:
+    contract_version: 1
+    authority_root: problems/navier-stokes
+    authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
+    surface_plane: lane_repo
+    classification: lane-local
+    authority_basis: split-lane-repo
+    authoritative: true
+    fallback_used: false
+    fallback_reason:
+    resolver_path: *2
+    present: true
+- source_path: problems/navier-stokes/claim-ladder.md
+  source_group: workboard-local
+  matched_terms:
+  - closure
+  - program
+  matched_origins:
+  - target-label
+  hit_kind: phrase-match
+  excerpt_note: 'kage.md` | localized route premise | shows why the monotone bridge
+    is infrastructure, not closure by itself | | 5 | The live obstruction is the small-scale
+    or high-frequency cascade that feeds blow-up | `obstruction-capture: The Real
+    Obstruction`,'
+  authority_root: problems/navier-stokes
+  authority_classification: lane-local
+  authority_basis: split-lane-repo
+  fallback_used: false
+  fallback_reason:
+  resolver_path: *2
+  authority_provenance:
+    contract_version: 1
+    authority_root: problems/navier-stokes
+    authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
+    surface_plane: lane_repo
+    classification: lane-local
+    authority_basis: split-lane-repo
+    authoritative: true
+    fallback_used: false
+    fallback_reason:
+    resolver_path: *2
+    present: true
+- source_path: problems/navier-stokes/frozen-core.md
+  source_group: workboard-local
+  matched_terms:
+  - closure
+  - program
+  matched_origins:
+  - target-label
+  hit_kind: phrase-match
+  excerpt_note: 'riodic branch on T^3. (`theorem-statement`; `theorem-statement`)
+    - Theorem 2.1 (Classical Closure) (`theorem-warrant`; `warrant-theorem-2.1`) ##
+    Source Frontier - `first_unresolved`: one-field forward-preservation wall (`live-theorem-edge`;
+    `ofp'
+  authority_root: problems/navier-stokes
+  authority_classification: lane-local
+  authority_basis: split-lane-repo
+  fallback_used: false
+  fallback_reason:
+  resolver_path: *2
+  authority_provenance:
+    contract_version: 1
+    authority_root: problems/navier-stokes
+    authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
+    surface_plane: lane_repo
+    classification: lane-local
+    authority_basis: split-lane-repo
+    authoritative: true
+    fallback_used: false
+    fallback_reason:
+    resolver_path: *2
+    present: true
+- source_path: problems/navier-stokes/obstruction-capture.md
+  source_group: workboard-local
+  matched_terms:
+  - closure
+  - program
+  matched_origins:
+  - target-label
+  hit_kind: phrase-match
+  excerpt_note: 'functional `Q(t)`, - compactness strong enough to improve weak behavior
+    into nonlinear closure, - a theorem-primary periodic continuation bridge, with
+    Euclidean discharge/export kept explicit and downstream. ## Core Mechanism - The
+    theorem-'
+  authority_root: problems/navier-stokes
+  authority_classification: lane-local
+  authority_basis: split-lane-repo
+  fallback_used: false
+  fallback_reason:
+  resolver_path: *2
+  authority_provenance:
+    contract_version: 1
+    authority_root: problems/navier-stokes
+    authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
+    surface_plane: lane_repo
+    classification: lane-local
+    authority_basis: split-lane-repo
+    authoritative: true
+    fallback_used: false
+    fallback_reason:
+    resolver_path: *2
+    present: true
+- source_path: problems/navier-stokes/proof-assembly.yaml
+  source_group: workboard-local
+  matched_terms:
+  - closure
+  - program
+  matched_origins:
+  - target-label
+  hit_kind: phrase-match
+  excerpt_note: 'r the whole-space branch on R^3 or the periodic branch on T^3. -
+    Theorem 2.1 (Classical Closure) tentative_extension_chain: [] remaining_open_obligations:
+    - obligation_id: ofp-one-field-forward-preservation label: one-field forward-preservatio'
+  authority_root: problems/navier-stokes
+  authority_classification: lane-local
+  authority_basis: split-lane-repo
+  fallback_used: false
+  fallback_reason:
+  resolver_path: *2
+  authority_provenance:
+    contract_version: 1
+    authority_root: problems/navier-stokes
+    authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
+    surface_plane: lane_repo
+    classification: lane-local
+    authority_basis: split-lane-repo
+    authoritative: true
+    fallback_used: false
+    fallback_reason:
+    resolver_path: *2
+    present: true
+- source_path: problems/navier-stokes/source-frontier.yaml
+  source_group: workboard-local
+  matched_terms:
+  - closure
+  - program
+  matched_origins:
+  - target-label
+  hit_kind: phrase-match
+  excerpt_note: gram.md - problems/navier-stokes/theorem-construction/mpp-lci-a-enlarged-ball-oscillation-closure-note.md
+    - problems/navier-stokes/theorem-construction/mpp-lci-a-halo-gradient-carrier-return-note.md
+    - problems/navier-stokes/theorem-construction/mp
+  authority_root: problems/navier-stokes
+  authority_classification: lane-local
+  authority_basis: split-lane-repo
+  fallback_used: false
+  fallback_reason:
+  resolver_path: *2
+  authority_provenance:
+    contract_version: 1
+    authority_root: problems/navier-stokes
+    authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
+    surface_plane: lane_repo
+    classification: lane-local
+    authority_basis: split-lane-repo
+    authoritative: true
+    fallback_used: false
+    fallback_reason:
+    resolver_path: *2
+    present: true
+result:
+  support_strength: strong
+  disposition: localized-support
+  rationale: Local workboard and anchor-matched sources were found for this debt item,
+    so it is localized strongly enough to leave debt-derive.
+  unresolved_points: []
