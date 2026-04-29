@@ -1,0 +1,21 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  gap_id: gap-navier-stokes-20260429T170728Z
+  candidate_id: hypothesis-navier-stokes-20260429T170732Z
+status: speculative
+proposal:
+  label: Intermediate Object Candidate
+  statement: Test whether `one-field forward-preservation wall` should be replaced
+    by one explicit intermediate object or lemma that can sit between the current
+    claim and the decisive frontier.
+  why_it_might_help: This keeps the candidate speculative but concrete enough for
+    provenance-check and merge-judge to compare against recovered sources.
+constraints:
+  must_not_self_confirm: true
+  derived_from_gap_ticket: true
+recommended_next_gate: provenance-check
+source:
+  generated_at: '2026-04-29T17:07:32Z'
+  generator: system/runner/workers/hypothesis_generation_worker.rb

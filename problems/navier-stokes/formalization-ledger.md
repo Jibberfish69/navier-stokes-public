@@ -2,32 +2,38 @@
 
 ## Current Theorem Posture
 
-- `theorem_target`: the official Clay Navier-Stokes problem in dimension `3` for the incompressible equations on `R^3` or `T^3`.
-- `current_package_status`: the direct Euclidean Route B / C3 theorem remains the authoritative route on the declared classical surface, but it is reopened because the decisive packet reductions remain compressed rather than fully discharged.
-- `support_basis`: Recovered workboard-local support and the Route B theorem packet exist on grounded local material.
-- `standalone_status`: not-solved-internal
+- `theorem_target`: conditional terminal class-membership lane closure packet
+- `current_package_status`: active
+- `support_basis`: Recovered source support converged with the speculative branch, so the next safe move is a grounded backbone rebuild.
+- `standalone_status`: revise
 
 ## Proof Debt Ledger
 
 | Label | Monograph Status | Stand-Alone Need | Existing Local Anchors |
 | --- | --- | --- | --- |
+| Global energy or enstrophy control is necessary but not sufficient | local source located; localization still required | yes | obstruction-capture: Core Mechanism, spine.4, theorem-construction/energy-baseline-bridge-lemma.md, theorem-construction/monotone-functional-package.md, problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md, problems/navier-stokes/claim-ladder.md |
+| one-field forward-preservation wall | ridge discharge required from current backbone | yes | gap-ticket: burden-item |
+| lower-carrier receiver wall | ridge discharge required from current backbone | yes | gap-ticket: burden-item |
+| collar-to-jump converse pivot | ridge discharge required from current backbone | yes | gap-ticket: burden-item |
 | Keep theorem scope below the first unsafe overclaim | theorem-level scope boundary already fixed | yes | claim-ladder: Lowest Safe Claim, claim-ladder: First Unsafe Overclaim |
-| Keep archived sidecars fenced off from active blockers | provenance quarantine required | yes | claim-ladder: Mechanism Option, frozen-core: Archived Provenance, source-frontier: Quarantined Sidecars |
 
 ## Reviewer-Facing Risks
 
-- Do not overclaim beyond the active Clay branch: for every smooth divergence-free rapidly decaying initial datum `u^0` on `R^3`, with `f = 0`, there exist `u,p in C^\infty(R^3 x [0,\infty))` solving the three-dimensional incompressible Navier-Stokes equations and satisfying `int_{R^3} |u(x,t)|^2 dx < C` for all `t >= 0`.
-- Do not replace the Clay statement by a weaker non-Clay statement.
-- Recovered support is synchronized into the reopened theorem, manuscript, and control surfaces.
-- Archived provenance is not an active blocker.
+- Do not overclaim beyond the lowest safe theorem surface: The official Clay target allows either the whole-space branch on `R^3` or the periodic branch on `T^3`.
+- First unsafe overclaim to avoid: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
+- Recovered support is still classified as strong, so the local package remains a revise-stage workboard.
 
 ## Required Local Explanations For A Paper
 
+- one-field forward-preservation wall
+- lower-carrier receiver wall
+- collar-to-jump converse pivot
+- Explain how 'Global energy or enstrophy control is necessary but not sufficient' is grounded locally without theorem inflation.
 
 ## Promotion Rule
 
-- The lane-local theorem surface remains Route B / C3 authoritative, but it is reopened until the packet reductions are fully discharged.
+- Do not promote beyond `revise` until each `ridge discharge required` row has either been localized into the local package or explicitly parked below the theorem surface.
 - Keep the lowest safe claim explicit and do not let recovered speculative material masquerade as a proved bridge.
-- Keep the theorem statement on the official Clay surface rather than drifting into a route-local variant.
+- Re-run honesty-review only after the local package has real prose and an explicit debt map.
 
-<!-- generated_at: 2026-03-27T23:44:15Z -->
+<!-- generated_at: 2026-04-29T17:08:11Z -->

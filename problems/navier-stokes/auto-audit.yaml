@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-04-29T16:47:57Z'
+  audited_at: '2026-04-29T17:07:37Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: formalization ledger missing; stay on the exact live burden
@@ -202,6 +202,7 @@ surface_snapshot:
       - problems/navier-stokes/proof-assembly.yaml
       - problems/navier-stokes/source-frontier.yaml
       - problems/navier-stokes/object-formalization.yaml
+      - problems/navier-stokes/formalization-ledger.md
       safe_output_surface: problems/navier-stokes/external-paper/main.tex
       synthesis_import_surfaces: []
     same_surface_guard:

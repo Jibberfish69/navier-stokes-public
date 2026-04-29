@@ -4,81 +4,115 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
 source:
-  extracted_from: problems/navier-stokes/dependency-discharge.yaml
-  extracted_at: '2026-04-29T16:45:02Z'
+  extracted_from: problems/navier-stokes/formalization-ledger.md
+  extracted_at: '2026-04-29T17:08:41Z'
   extractor: system/runner/workers/debt_extract_worker.rb
-  fallback_mode: missing-formalization-ledger
 posture:
   theorem_posture:
-    theorem_target: 'three-piece lifted-packet closure program: SS first, direct CTS
-      second, LPAS fallback'
-    current_package_status: formalization ledger missing; stay on the exact live burden
-      and keep the claim below theorem inflation until the local debt is typed explicitly.
+    theorem_target: conditional terminal class-membership lane closure packet
+    current_package_status: active
+    support_basis: Recovered source support converged with the speculative branch,
+      so the next safe move is a grounded backbone rebuild.
+    standalone_status: revise
 supporting_sections:
   reviewer_risks:
-  - No formalization ledger is present for this debt-extract pass, so the current
-    live theorem burden must remain explicit and cannot be treated as promoted or
-    globally discharged.
+  - 'Do not overclaim beyond the lowest safe theorem surface: The official Clay target
+    allows either the whole-space branch on `R^3` or the periodic branch on `T^3`.'
+  - 'First unsafe overclaim to avoid: Replacing the official Clay statement by a weaker
+    route-local or data-class-local statement.'
+  - Recovered support is still classified as strong, so the local package remains
+    a revise-stage workboard.
   required_local_explanations:
-  - 'Explain how `three-piece lifted-packet closure program: SS first, direct CTS
-    second, LPAS fallback` is localized into an explicit bounded local debt without
-    inflating the theorem target.'
+  - one-field forward-preservation wall
+  - lower-carrier receiver wall
+  - collar-to-jump converse pivot
+  - Explain how 'Global energy or enstrophy control is necessary but not sufficient'
+    is grounded locally without theorem inflation.
   promotion_rule:
-  - Do not promote beyond the current safe claim while the formalization ledger is
-    missing; keep the live burden explicit on the theorem surface.
-  - Rebuild or replace the missing formalization ledger once the exact local debt
-    has been typed and localized.
+  - Do not promote beyond `revise` until each `ridge discharge required` row has either
+    been localized into the local package or explicitly parked below the theorem surface.
+  - Keep the lowest safe claim explicit and do not let recovered speculative material
+    masquerade as a proved bridge.
+  - Re-run honesty-review only after the local package has real prose and an explicit
+    debt map.
 debt_items:
-- debt_id: marvin-upstream-0fdc65ea42d5
-  label: 'three-piece lifted-packet closure program: SS first, direct CTS second,
-    LPAS fallback'
-  source_section: live-frontier-fallback
-  monograph_status: formalization ledger missing; type the current live burden directly
-    from the active frontier
+- debt_id: debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
+  label: Global energy or enstrophy control is necessary but not sufficient
+  source_section: proof-debt-ledger
+  monograph_status: local source located; localization still required
   standalone_need: 'yes'
   primary_anchors:
-  - problems/navier-stokes/dependency-discharge.yaml
-  - problems/navier-stokes/object-formalization.yaml
-  - problems/navier-stokes/proof-assembly.yaml
+  - 'obstruction-capture: Core Mechanism'
+  - spine.4
+  - theorem-construction/energy-baseline-bridge-lemma.md
+  - theorem-construction/monotone-functional-package.md
+  - problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
+  - problems/navier-stokes/claim-ladder.md
   debt_class: local-derivable
   recommended_stage: debt-derive
-  rationale: 'No formalization ledger is present for this debt-extract pass, so `three-piece
-    lifted-packet closure program: SS first, direct CTS second, LPAS fallback` is
-    being typed directly from the active frontier while the theorem surface stays
-    below inflation.'
+  rationale: The entry is unresolved but not marked as a frontier-level block, so
+    it is treated as bounded derivation debt.
   priority_rank: 1
-  derivation_state: localized-support
-  derivation_attempts: 1
-  attempts_without_new_support: 0
-  last_derivation_run_id: debt-derive-navier-stokes-20260429T164515Z
-  support_strength: strong
-  evidence_paths:
-  - problems/navier-stokes/draft-v6.md
-  - problems/navier-stokes/claim-ladder.md
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/obstruction-capture.md
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  new_evidence_paths:
-  - problems/navier-stokes/draft-v6.md
-  - problems/navier-stokes/claim-ladder.md
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/obstruction-capture.md
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  source_sufficiency: sufficient
-  source_scope_status: new-support-found
-  source_checks: 1
+- debt_id: debt-one-field-forward-preservation-wall
+  label: one-field forward-preservation wall
+  source_section: proof-debt-ledger
+  monograph_status: ridge discharge required from current backbone
+  standalone_need: 'yes'
+  primary_anchors:
+  - 'gap-ticket: burden-item'
+  debt_class: local-derivable
+  recommended_stage: debt-derive
+  rationale: The debt is described as a targeted discharge rather than an open frontier,
+    so it can enter bounded derivation.
+  priority_rank: 2
+- debt_id: debt-lower-carrier-receiver-wall
+  label: lower-carrier receiver wall
+  source_section: proof-debt-ledger
+  monograph_status: ridge discharge required from current backbone
+  standalone_need: 'yes'
+  primary_anchors:
+  - 'gap-ticket: burden-item'
+  debt_class: local-derivable
+  recommended_stage: debt-derive
+  rationale: The debt is described as a targeted discharge rather than an open frontier,
+    so it can enter bounded derivation.
+  priority_rank: 3
+- debt_id: debt-collar-to-jump-converse-pivot
+  label: collar-to-jump converse pivot
+  source_section: proof-debt-ledger
+  monograph_status: ridge discharge required from current backbone
+  standalone_need: 'yes'
+  primary_anchors:
+  - 'gap-ticket: burden-item'
+  debt_class: local-derivable
+  recommended_stage: debt-derive
+  rationale: The debt is described as a targeted discharge rather than an open frontier,
+    so it can enter bounded derivation.
+  priority_rank: 4
+- debt_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
+  label: Keep theorem scope below the first unsafe overclaim
+  source_section: proof-debt-ledger
+  monograph_status: theorem-level scope boundary already fixed
+  standalone_need: 'yes'
+  primary_anchors:
+  - 'claim-ladder: Lowest Safe Claim'
+  - 'claim-ladder: First Unsafe Overclaim'
+  debt_class: packaging
+  recommended_stage: prose-realization
+  rationale: The ledger says the material already exists in some proved or discharged
+    form, so the remaining work is localization, exposition, or packaging.
+  priority_rank: 5
 summary:
   counts_by_class:
-    packaging: 0
-    local-derivable: 1
+    packaging: 1
+    local-derivable: 4
     branch-choice: 0
     blocked-frontier: 0
-  recommended_next_cell_type: solver-loop
-  recommended_next_action: All local derivation debt is localized, so run solver-loop
-    before prose and freeze the source-grounded theorem frontier against the remaining
-    proof obligations.
-  recommended_debt_ids: []
-  derivation_counts_by_state:
-    localized-support: 1
+  recommended_next_cell_type: debt-derive
+  recommended_next_action: Run debt-derive on the highest-priority local-derivable
+    items from debt-map.yaml before another honesty-review pass.
+  recommended_debt_ids:
+  - debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
+  - debt-one-field-forward-preservation-wall
+  - debt-lower-carrier-receiver-wall
+  - debt-collar-to-jump-converse-pivot

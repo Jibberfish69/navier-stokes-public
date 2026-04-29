@@ -151,6 +151,7 @@ published_files:
 - gradient-discharge-source-pack.md
 - gradient-transfer-coercivity-source-pack.md
 - halt-gist.md
+- hypothesis-candidate.yaml
 - interdependencies-discharge-source-pack.md
 - lane-classification.yaml
 - layered-route-graph.yaml

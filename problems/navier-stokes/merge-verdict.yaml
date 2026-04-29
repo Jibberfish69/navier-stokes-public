@@ -2,22 +2,29 @@
 version: 1
 identity:
   problem_id: navier-stokes
-  gap_id: gap-navier-stokes-20260312T214323Z
-  verdict_id: merge-navier-stokes-20260312T214331Z
+  gap_id: gap-navier-stokes-20260429T170728Z
+  verdict_id: merge-navier-stokes-20260429T170734Z
 provenance:
-  generated_matches_existing_source: unknown
+  generated_matches_existing_source: true
   recovered_support_strength: strong
-  convergence_status: none
+  convergence_status: convergent
 decision:
-  disposition: promote-recovered
+  disposition: promote-combined
   promoted_target: backbone-build
-  rationale: Recovered workboard-local support exists, so the backbone can be rebuilt
-    on grounded local material.
+  rationale: Recovered source support converged with the speculative branch, so the
+    next safe move is a grounded backbone rebuild.
 outputs:
   kept_candidate_ids:
-  - candidate-gap-ticket-yaml
-  - candidate-obstruction-capture-md
+  - candidate-cascade-after-monotone-bridge-source-pack-md
+  - candidate-claim-ladder-md
+  - candidate-monotone-functional-discharge-source-pack-md
   - candidate-spine-md
-  - candidate-pipeline-state-yaml
-  - candidate-problem-intake-md
+  - candidate-main-theorem-draft-md
+  - candidate-monotone-functional-bridge-discharge-md
+  - candidate-monotone-functional-insufficiency-lemma-md
+  - candidate-monotone-to-cascade-carrier-md
+  - candidate-energy-insufficiency-source-pack-md
+  - candidate-obstruction-capture-md
+  - candidate-prewrite-packet-md
+  - candidate-energy-baseline-bridge-lemma-md
   rejected_candidate_ids: []
