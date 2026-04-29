@@ -5,7 +5,7 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-04-29T17:47:47Z'
+  extracted_at: '2026-04-29T17:50:10Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
@@ -196,8 +196,11 @@ summary:
     local-derivable: 4
     branch-choice: 0
     blocked-frontier: 0
-  recommended_next_cell_type: solver-loop
-  recommended_next_action: Packaging debt is the only visible remainder, so run solver-loop
-    first and freeze the source-grounded theorem frontier before any more prose.
+  recommended_next_cell_type: dependency-discharge
+  recommended_next_action: Local support has been found, but theorem-crank still requires
+    dependency-discharge on those obligations, so keep them on the theorem track instead
+    of demoting them to solver-loop packaging.
   recommended_debt_ids:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
+  - debt-one-field-forward-preservation-wall
+  - debt-lower-carrier-receiver-wall
+  - debt-collar-to-jump-converse-pivot
