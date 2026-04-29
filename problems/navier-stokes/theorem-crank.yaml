@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-29T17:10:07Z'
+  generated_at: '2026-04-29T17:18:17Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-80f0e1e67756
-    route_signature: 80f0e1e677562728c22909e5e50afe6a841e7330
+    surface_id: theorem-surface-navier-stokes-8d2e55979d1e
+    route_signature: 8d2e55979d1e17b7432b23d19e2118dae15a3bae
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -34,21 +34,21 @@ shared_alignment:
       = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
       not the internal branch itself
     route_slots:
-    - slot_id: ofp-one-field-forward-preservation
+    - slot_id: debt-one-field-forward-preservation-wall
       label: one-field forward-preservation wall
-      kind: live-theorem-edge
-      status: frontier
-      patch_surface: problems/navier-stokes/debt-map.yaml
-    - slot_id: lci-lower-carrier-interval-integrability
+      kind: lemma
+      status: unresolved
+      patch_surface: problems/navier-stokes/object-formalization.yaml
+    - slot_id: debt-lower-carrier-receiver-wall
       label: lower-carrier receiver wall
-      kind: live-theorem-edge
-      status: frontier
-      patch_surface: problems/navier-stokes/debt-map.yaml
-    - slot_id: cj-a-low-collar-to-jump-converse-supplier
+      kind: lemma
+      status: unresolved
+      patch_surface: problems/navier-stokes/object-formalization.yaml
+    - slot_id: debt-collar-to-jump-converse-pivot
       label: collar-to-jump converse pivot
-      kind: live-theorem-edge
-      status: frontier
-      patch_surface: problems/navier-stokes/debt-map.yaml
+      kind: lemma
+      status: unresolved
+      patch_surface: problems/navier-stokes/object-formalization.yaml
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
     route_label: conditional terminal class-membership lane closure packet
@@ -99,43 +99,48 @@ local_derivation:
   status: packetize-and-derive
   required_packet_count: 3
   required_packets:
-  - packet_id: ofp-one-field-forward-preservation
+  - packet_id: debt-one-field-forward-preservation-wall
     label: one-field forward-preservation wall
-    packet_kind: live-theorem-edge
+    packet_kind: lemma
     source_kind: live-solver-target
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/debt-map.yaml
+    target_patch_surface: problems/navier-stokes/object-formalization.yaml
     matched_route_slot_labels:
     - one-field forward-preservation wall
-  - packet_id: lci-lower-carrier-interval-integrability
+  - packet_id: debt-lower-carrier-receiver-wall
     label: lower-carrier receiver wall
-    packet_kind: live-theorem-edge
+    packet_kind: lemma
     source_kind: live-solver-target
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/debt-map.yaml
+    target_patch_surface: problems/navier-stokes/object-formalization.yaml
     matched_route_slot_labels:
     - lower-carrier receiver wall
-  - packet_id: cj-a-low-collar-to-jump-converse-supplier
+  - packet_id: debt-collar-to-jump-converse-pivot
     label: collar-to-jump converse pivot
-    packet_kind: live-theorem-edge
+    packet_kind: lemma
     source_kind: live-solver-target
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/debt-map.yaml
+    target_patch_surface: problems/navier-stokes/object-formalization.yaml
     matched_route_slot_labels:
     - collar-to-jump converse pivot
   leadership_status: leading
-  net_new_local_theorem_count: 1
+  net_new_local_theorem_count: 2
   recommended_next_cell_type: dependency-discharge
 cross_lane_broadcast:
   status: publish-local-delta
-  local_consequence_count: 1
+  local_consequence_count: 2
   local_consequences:
+  - label: one-field forward-preservation wall
+    kind: lemma
+    status: unresolved
+    origin: local
+    source_anchor: problems/navier-stokes/dependency-discharge.yaml
   - label: 'three-piece lifted-packet closure program: SS first, direct CTS second,
       LPAS fallback'
     kind: lemma
-    status: localized-support
+    status: formalized
     origin: local
-    source_anchor: problems/navier-stokes/dependency-discharge.yaml
+    source_anchor: problems/navier-stokes/object-formalization.yaml
   broadcast_paths:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
@@ -149,17 +154,17 @@ auditor:
   open_issue_count: 1
   autofixable_issue_count: 0
   fix_plan_count: 0
-  branch_count: 4
+  branch_count: 7
   live_import_count: 0
   route_equivalence_count: 4
-  death_certificate_count: 0
+  death_certificate_count: 3
   unresolved_branch_terminal_count: 0
 frontier_projection:
   status: ready
   primary_target:
     label: one-field forward-preservation wall
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/debt-map.yaml
+    target_patch_surface: problems/navier-stokes/object-formalization.yaml
   one_step_beyond:
   - label: lower-carrier receiver wall
     recommended_stage: dependency-discharge
@@ -177,18 +182,18 @@ frontier_projection:
   recommended_next_cell_type: dependency-discharge
 summary:
   phase: local-derivation
-  execution_state: actively-working
+  execution_state: needs-reroute
   leadership_status: leading
   alignment_complete: true
   exact_local_packet_count: 3
-  net_new_local_theorem_count: 1
+  net_new_local_theorem_count: 2
   projected_frontier_count: 2
-  current_open_obligation_count: 5
-  open_obligations_state: active-work
-  on_recommended_track: true
+  current_open_obligation_count: 8
+  open_obligations_state: not-currently-worked
+  on_recommended_track: false
   recommended_next_cell_type: dependency-discharge
   audit_status: audited-needs-fix
   branch_terminal_status: all-terminal
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: dependency-discharge
+  current_next_cell_type: creative-theorem-search
   current_next_cell_is_theorem_work: true

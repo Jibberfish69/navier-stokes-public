@@ -4,16 +4,14 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T16:47:56Z'
+  generated_at: '2026-04-29T17:18:12Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
 posture:
-  theorem_target: 'three-piece lifted-packet closure program: SS first, direct CTS
-    second, LPAS fallback'
-  current_package_status: formalization ledger missing; stay on the exact live burden
-    and keep the claim below theorem inflation until the local debt is typed explicitly.
-  standalone_status: ''
+  theorem_target: conditional terminal class-membership lane closure packet
+  current_package_status: active
+  standalone_status: revise
   completion_tier_achieved: route-complete
   review_verdict: conditional-pass
   live_theorem_edge_present: true
@@ -47,7 +45,7 @@ obligations:
   label: The official Clay target allows either the whole-space branch on R^3 or the
     periodic branch on T^3.
   status: grounded
-  source_anchor: problems/navier-stokes/marvin-watchlist.yaml
+  source_anchor: problems/navier-stokes/debt-map.yaml
   blocking: false
   notes: []
 - obligation_id: marvin-upstream-eb3fabeeac46
@@ -140,16 +138,128 @@ obligations:
   notes:
   - Current packet status is `needs-localization`.
   - This obligation is not yet discharged locally.
-- obligation_id: marvin-upstream-0fdc65ea42d5
+- obligation_id: debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
   kind: lemma
-  label: 'three-piece lifted-packet closure program: SS first, direct CTS second,
-    LPAS fallback'
-  status: grounded
-  source_anchor: problems/navier-stokes/dependency-discharge.yaml
-  blocking: false
+  label: Global energy or enstrophy control is necessary but not sufficient
+  status: unresolved
+  source_anchor: 'obstruction-capture: Core Mechanism'
+  blocking: true
   notes:
-  - Current packet status is `localized-support`.
-  - Support strength is `strong`.
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: debt-one-field-forward-preservation-wall
+  kind: lemma
+  label: one-field forward-preservation wall
+  status: unresolved
+  source_anchor: problems/navier-stokes/debt-map.yaml
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+  - Local source evidence exists, but it is not yet specific enough to promote this
+    obligation beyond `unresolved` safely.
+  discharge_evidence:
+    matched_paths:
+    - problems/navier-stokes/debt-map.yaml
+    - problems/navier-stokes/formalization-ledger.md
+    - problems/navier-stokes/live-theorem-edge.yaml
+    - problems/navier-stokes/theorem-construction/mpp-collar-sobolev-packet-interval-propagation-theorem-program.md
+    - problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md
+    - problems/navier-stokes/marvin-ingest-notes.yaml
+    - problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
+    - problems/navier-stokes/theorem-construction/mpp-class-membership-full-bridge-ledger-note.md
+    support_score: 185
+    signal_strength: strong
+    evidence_hits:
+    - path: problems/navier-stokes/debt-map.yaml
+      line: 26
+      score: 25
+      label_overlap: 5
+      from_overlap: 5
+      to_overlap: 0
+      excerpt: "- one-field forward-preservation wall"
+    - path: problems/navier-stokes/formalization-ledger.md
+      line: 15
+      score: 25
+      label_overlap: 5
+      from_overlap: 5
+      to_overlap: 0
+      excerpt: "| one-field forward-preservation wall | ridge discharge required from
+        current backbone | yes | gap-ticket: burden-item |"
+    - path: problems/navier-stokes/live-theorem-edge.yaml
+      line: 200
+      score: 25
+      label_overlap: 5
+      from_overlap: 5
+      to_overlap: 0
+      excerpt: 'section_role: one-field forward-preservation wall'
+    - path: problems/navier-stokes/theorem-construction/mpp-collar-sobolev-packet-interval-propagation-theorem-program.md
+      line: 28
+      score: 25
+      label_overlap: 5
+      from_overlap: 5
+      to_overlap: 0
+      excerpt: The one-field forward-preservation note already reduces the coherence
+        wall to
+    - path: problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md
+      line: 537
+      score: 25
+      label_overlap: 5
+      from_overlap: 5
+      to_overlap: 0
+      excerpt: 1. the conversion wall for one-field forward preservation is `OFP.B4`;
+    - path: problems/navier-stokes/marvin-ingest-notes.yaml
+      line: 5353
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: yields `CSP.A`. The one-field forward preservation theorem consumes
+        `CSP.A`
+    - path: problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
+      line: 306
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: "### Lemma `CFI.B3` (One-field forward preservation)"
+    - path: problems/navier-stokes/theorem-construction/mpp-class-membership-full-bridge-ledger-note.md
+      line: 324
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: 'One-field forward preservation closes by:'
+    discharge_id: dependency-discharge-navier-stokes
+    bridge_statement: Discharge the local bridge for one-field forward-preservation
+      wall without crossing the current safe-claim boundary.
+- obligation_id: debt-lower-carrier-receiver-wall
+  kind: lemma
+  label: lower-carrier receiver wall
+  status: unresolved
+  source_anchor: 'gap-ticket: burden-item'
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: debt-collar-to-jump-converse-pivot
+  kind: lemma
+  label: collar-to-jump converse pivot
+  status: unresolved
+  source_anchor: 'gap-ticket: burden-item'
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
+- obligation_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
+  kind: lemma
+  label: Keep theorem scope below the first unsafe overclaim
+  status: unresolved
+  source_anchor: 'claim-ladder: Lowest Safe Claim'
+  blocking: true
+  notes:
+  - Current packet status is `needs-localization`.
+  - This obligation is not yet discharged locally.
 - obligation_id: warrant-theorem-2.1
   kind: theorem-warrant
   label: Theorem 2.1 (Classical Closure)
@@ -821,21 +931,17 @@ obligations:
   notes:
   - This route choice or blocked frontier is still inside the theorem packet.
 summary:
-  total_obligations: 73
-  grounded_count: 3
+  total_obligations: 77
+  grounded_count: 2
   structural_only_count: 0
   structurally_supported_count: 1
   bridge_pending_count: 5
-  unresolved_count: 11
+  unresolved_count: 16
   frontier_count: 53
-  bridge_discharge_blocking_count: 0
-  theorem_warrant_blocking_count: 0
-  blocking_count: 69
+  blocking_count: 74
   all_discharged: false
-  live_theorem_edge_present: true
-  live_theorem_edge_branch_count: 5
-  live_theorem_edge_blocked_count: 0
 submission_blockers:
-- There are 11 unresolved proof obligations.
+- There are 16 unresolved proof obligations.
 - There are 5 bridge obligations still awaiting local discharge.
 - There are 53 frontier obligations still inside the theorem packet.
+- Stand-alone status remains `revise`.

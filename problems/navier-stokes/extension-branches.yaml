@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   branch_set_id: extension-branches-navier-stokes
-  generated_at: '2026-04-29T16:47:56Z'
+  generated_at: '2026-04-29T17:18:12Z'
   generator: system/runner/lib/lemma_synthesis_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -14,46 +14,85 @@ provenance_policy:
     and promotion.
 branches:
 - branch_id: branch-navier-stokes-1
+  origin_obligation_id: debt-one-field-forward-preservation-wall
+  branch_type: local-lemma
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Prove a bounded local lemma establishing that one-field forward-preservation
+    wall.
+  depends_on:
+  - theorem-statement
+  - warrant-theorem-2.1
+  - debt-one-field-forward-preservation-wall
+  risk_level: medium-low
+  notes:
+  - This branch starts exactly at the first unresolved frontier for `debt-one-field-forward-preservation-wall`.
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-2
+  origin_obligation_id: debt-lower-carrier-receiver-wall
+  branch_type: local-lemma
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Prove a bounded local lemma establishing that lower-carrier receiver
+    wall.
+  depends_on:
+  - theorem-statement
+  - warrant-theorem-2.1
+  - debt-lower-carrier-receiver-wall
+  risk_level: medium-low
+  notes: []
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-3
+  origin_obligation_id: debt-collar-to-jump-converse-pivot
+  branch_type: local-lemma
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Prove a bounded local lemma establishing that collar-to-jump converse
+    pivot.
+  depends_on:
+  - theorem-statement
+  - warrant-theorem-2.1
+  - debt-collar-to-jump-converse-pivot
+  risk_level: medium-low
+  notes: []
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-4
   origin_obligation_id: ofp-one-field-forward-preservation
   branch_type: route-branch
   provenance: machine-derived-beyond-source-frontier
   hypothesis: Open a quarantined side branch that tests whether one-field forward-preservation
     wall can be made explicit without crossing the current safe-claim boundary.
   depends_on:
-  - marvin-upstream-0fdc65ea42d5
+  - theorem-statement
   - warrant-theorem-2.1
   - ofp-one-field-forward-preservation
   risk_level: high
-  notes:
-  - This branch starts exactly at the first unresolved frontier for `ofp-one-field-forward-preservation`.
+  notes: []
   merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-2
+- branch_id: branch-navier-stokes-5
   origin_obligation_id: lci-lower-carrier-interval-integrability
   branch_type: route-branch
   provenance: machine-derived-beyond-source-frontier
   hypothesis: Open a quarantined side branch that tests whether lower-carrier receiver
     wall can be made explicit without crossing the current safe-claim boundary.
   depends_on:
-  - marvin-upstream-0fdc65ea42d5
+  - theorem-statement
   - warrant-theorem-2.1
   - lci-lower-carrier-interval-integrability
   risk_level: high
   notes: []
   merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-3
+- branch_id: branch-navier-stokes-6
   origin_obligation_id: cj-a-low-collar-to-jump-converse-supplier
   branch_type: route-branch
   provenance: machine-derived-beyond-source-frontier
   hypothesis: Open a quarantined side branch that tests whether collar-to-jump converse
     pivot can be made explicit without crossing the current safe-claim boundary.
   depends_on:
-  - marvin-upstream-0fdc65ea42d5
+  - theorem-statement
   - warrant-theorem-2.1
   - cj-a-low-collar-to-jump-converse-supplier
   risk_level: high
   notes: []
   merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-4
+- branch_id: branch-navier-stokes-7
   origin_obligation_id: fci-frozen-family-source-ledger
   branch_type: route-branch
   provenance: machine-derived-beyond-source-frontier
@@ -61,11 +100,11 @@ branches:
     ledger beneath `OFP.A` can be made explicit without crossing the current safe-claim
     boundary.
   depends_on:
-  - marvin-upstream-0fdc65ea42d5
+  - theorem-statement
   - warrant-theorem-2.1
   - fci-frozen-family-source-ledger
   risk_level: high
   notes: []
   merge_policy: quarantined-until-promoted
 summary:
-  branch_count: 4
+  branch_count: 7

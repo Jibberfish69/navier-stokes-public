@@ -5,19 +5,21 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Theorem Target
 
-- `theorem_target`: three-piece lifted-packet closure program: SS first, direct CTS second, LPAS fallback
+- `theorem_target`: conditional terminal class-membership lane closure packet
 - `lowest_safe_claim`: The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3.
 - `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
 
 ## Grounded Core
 
 - The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3. (`theorem-statement`; `theorem-statement`)
-- three-piece lifted-packet closure program: SS first, direct CTS second, LPAS fallback (`lemma`; `marvin-upstream-0fdc65ea42d5`)
 - Theorem 2.1 (Classical Closure) (`theorem-warrant`; `warrant-theorem-2.1`)
 
 ## Source Frontier
 
-- `first_unresolved`: one-field forward-preservation wall (`live-theorem-edge`; `ofp-one-field-forward-preservation`)
+- `first_unresolved`: one-field forward-preservation wall (`lemma`; `debt-one-field-forward-preservation-wall`)
+- one-field forward-preservation wall (`lemma`; `debt-one-field-forward-preservation-wall`)
+- lower-carrier receiver wall (`lemma`; `debt-lower-carrier-receiver-wall`)
+- collar-to-jump converse pivot (`lemma`; `debt-collar-to-jump-converse-pivot`)
 - one-field forward-preservation wall (`live-theorem-edge`; `ofp-one-field-forward-preservation`)
 - lower-carrier receiver wall (`live-theorem-edge`; `lci-lower-carrier-interval-integrability`)
 - collar-to-jump converse pivot (`live-theorem-edge`; `cj-a-low-collar-to-jump-converse-supplier`)
@@ -26,6 +28,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 ## Source Surfaces
 
 - `problems/navier-stokes/claim-ladder.md`
+- `problems/navier-stokes/formalization-ledger.md`
 - `problems/navier-stokes/debt-map.yaml`
 - `problems/navier-stokes/marvin-watchlist.yaml`
 - `problems/navier-stokes/marvin-ingest-notes.yaml`
@@ -61,6 +64,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - `problems/navier-stokes/theorem-construction/mpp-frozen-family-resonant-pressure-sufficient-reduction-note.md`
 - `problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md`
 - `problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md`
+- `problems/navier-stokes/theorem-construction/psj-plus-terminal-assembly.md`
 - `problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md`
 - `problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md`
 

@@ -4,27 +4,42 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   falsification_id: lemma-falsification-navier-stokes
-  generated_at: '2026-04-29T16:34:58Z'
+  generated_at: '2026-04-29T17:18:12Z'
   generator: system/runner/lib/lemma_falsification_builder.rb
   source_branch_set_id: extension-branches-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
 results:
 - branch_id: branch-navier-stokes-1
+  origin_obligation_id: debt-one-field-forward-preservation-wall
+  verdict: reject
+  reasons:
+  - The branch leans into overclaim or unsafe-closure language.
+- branch_id: branch-navier-stokes-2
+  origin_obligation_id: debt-lower-carrier-receiver-wall
+  verdict: reject
+  reasons:
+  - The branch leans into overclaim or unsafe-closure language.
+- branch_id: branch-navier-stokes-3
+  origin_obligation_id: debt-collar-to-jump-converse-pivot
+  verdict: reject
+  reasons:
+  - The branch leans into overclaim or unsafe-closure language.
+- branch_id: branch-navier-stokes-4
   origin_obligation_id: ofp-one-field-forward-preservation
   verdict: quarantine
   reasons:
   - This is a route branch rather than a local theorem bridge, so it stays quarantined.
-- branch_id: branch-navier-stokes-2
+- branch_id: branch-navier-stokes-5
   origin_obligation_id: lci-lower-carrier-interval-integrability
   verdict: quarantine
   reasons:
   - This is a route branch rather than a local theorem bridge, so it stays quarantined.
-- branch_id: branch-navier-stokes-3
+- branch_id: branch-navier-stokes-6
   origin_obligation_id: cj-a-low-collar-to-jump-converse-supplier
   verdict: quarantine
   reasons:
   - This is a route branch rather than a local theorem bridge, so it stays quarantined.
-- branch_id: branch-navier-stokes-4
+- branch_id: branch-navier-stokes-7
   origin_obligation_id: fci-frozen-family-source-ledger
   verdict: quarantine
   reasons:
@@ -32,4 +47,4 @@ results:
 summary:
   survives_first_pass_count: 0
   quarantined_count: 4
-  rejected_count: 0
+  rejected_count: 3

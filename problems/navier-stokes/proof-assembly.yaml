@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-29T16:47:56Z'
+  generated_at: '2026-04-29T17:18:12Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -14,10 +14,21 @@ theorem_statement: The official Clay target allows either the whole-space branch
 source_grounded_chain:
 - The official Clay target allows either the whole-space branch on R^3 or the periodic
   branch on T^3.
-- 'three-piece lifted-packet closure program: SS first, direct CTS second, LPAS fallback'
 - Theorem 2.1 (Classical Closure)
 tentative_extension_chain: []
 remaining_open_obligations:
+- obligation_id: debt-one-field-forward-preservation-wall
+  label: one-field forward-preservation wall
+  kind: lemma
+  status: unresolved
+- obligation_id: debt-lower-carrier-receiver-wall
+  label: lower-carrier receiver wall
+  kind: lemma
+  status: unresolved
+- obligation_id: debt-collar-to-jump-converse-pivot
+  label: collar-to-jump converse pivot
+  kind: lemma
+  status: unresolved
 - obligation_id: ofp-one-field-forward-preservation
   label: one-field forward-preservation wall
   kind: live-theorem-edge
@@ -41,6 +52,18 @@ remaining_open_obligations:
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
   math_frontier_obligations:
+  - obligation_id: debt-one-field-forward-preservation-wall
+    label: one-field forward-preservation wall
+    kind: lemma
+    status: unresolved
+  - obligation_id: debt-lower-carrier-receiver-wall
+    label: lower-carrier receiver wall
+    kind: lemma
+    status: unresolved
+  - obligation_id: debt-collar-to-jump-converse-pivot
+    label: collar-to-jump converse pivot
+    kind: lemma
+    status: unresolved
   - obligation_id: ofp-one-field-forward-preservation
     label: one-field forward-preservation wall
     kind: live-theorem-edge
@@ -71,23 +94,22 @@ frontier_context:
   downstream_support_obligations: []
   additional_context_obligations: []
 next_solver_targets:
-- obligation_id: ofp-one-field-forward-preservation
+- obligation_id: debt-one-field-forward-preservation-wall
   label: one-field forward-preservation wall
-  kind: live-theorem-edge
-  status: frontier
-- obligation_id: lci-lower-carrier-interval-integrability
+  kind: lemma
+  status: unresolved
+- obligation_id: debt-lower-carrier-receiver-wall
   label: lower-carrier receiver wall
-  kind: live-theorem-edge
-  status: frontier
-- obligation_id: cj-a-low-collar-to-jump-converse-supplier
+  kind: lemma
+  status: unresolved
+- obligation_id: debt-collar-to-jump-converse-pivot
   label: collar-to-jump converse pivot
-  kind: live-theorem-edge
-  status: frontier
+  kind: lemma
+  status: unresolved
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-80f0e1e67756
-  route_signature: 80f0e1e677562728c22909e5e50afe6a841e7330
-  theorem_target: 'three-piece lifted-packet closure program: SS first, direct CTS
-    second, LPAS fallback'
+  surface_id: theorem-surface-navier-stokes-8d2e55979d1e
+  route_signature: 8d2e55979d1e17b7432b23d19e2118dae15a3bae
+  theorem_target: conditional terminal class-membership lane closure packet
   theorem_statement: The official Clay target allows either the whole-space branch
     on R^3 or the periodic branch on T^3.
   route_chain:
@@ -112,24 +134,24 @@ theorem_surface:
     = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
     not the internal branch itself
   route_slots:
-  - slot_id: ofp-one-field-forward-preservation
+  - slot_id: debt-one-field-forward-preservation-wall
     label: one-field forward-preservation wall
-    kind: live-theorem-edge
-    status: frontier
-    source_anchor: route-synthesis
-    patch_surface: problems/navier-stokes/debt-map.yaml
-  - slot_id: lci-lower-carrier-interval-integrability
+    kind: lemma
+    status: unresolved
+    source_anchor: 'gap-ticket: burden-item'
+    patch_surface: problems/navier-stokes/object-formalization.yaml
+  - slot_id: debt-lower-carrier-receiver-wall
     label: lower-carrier receiver wall
-    kind: live-theorem-edge
-    status: frontier
-    source_anchor: route-synthesis
-    patch_surface: problems/navier-stokes/debt-map.yaml
-  - slot_id: cj-a-low-collar-to-jump-converse-supplier
+    kind: lemma
+    status: unresolved
+    source_anchor: 'gap-ticket: burden-item'
+    patch_surface: problems/navier-stokes/object-formalization.yaml
+  - slot_id: debt-collar-to-jump-converse-pivot
     label: collar-to-jump converse pivot
-    kind: live-theorem-edge
-    status: frontier
-    source_anchor: route-synthesis
-    patch_surface: problems/navier-stokes/debt-map.yaml
+    kind: lemma
+    status: unresolved
+    source_anchor: 'gap-ticket: burden-item'
+    patch_surface: problems/navier-stokes/object-formalization.yaml
   authority_layers:
     authoritative_proof_surfaces:
     - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_3-_Monotone_Functional.tex"
@@ -145,6 +167,7 @@ theorem_surface:
     - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Energy_Boundedness_via_Q(t)_for_Global_Regularity.tex"
     local_theorem_construction_surfaces:
     - problems/navier-stokes/claim-ladder.md
+    - problems/navier-stokes/formalization-ledger.md
     - problems/navier-stokes/debt-map.yaml
     - problems/navier-stokes/marvin-watchlist.yaml
     - problems/navier-stokes/live-theorem-edge.yaml
@@ -179,6 +202,7 @@ theorem_surface:
     - problems/navier-stokes/theorem-construction/mpp-frozen-family-resonant-pressure-sufficient-reduction-note.md
     - problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md
     - problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md
+    - problems/navier-stokes/theorem-construction/psj-plus-terminal-assembly.md
     - problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md
     - problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md
     - problems/navier-stokes/proof-assembly.yaml
@@ -207,17 +231,17 @@ theorem_surface:
     cross_surface_splice: false
     sterilized_synthesis_import_count: 15
 summary:
-  grounded_step_count: 3
+  grounded_step_count: 2
   promoted_extension_count: 0
   bridge_discharge_blocking_count: 1
   bridge_discharge_only_count: 0
   theorem_warrant_blocking_count: 1
-  open_obligation_count: 5
-  math_frontier_open_count: 4
+  open_obligation_count: 8
+  math_frontier_open_count: 7
   frontier_context_count: 1
   frontier_route_container_count: 1
   frontier_downstream_support_count: 0
   tracked_source_count: 141
   synthesis_import_surface_count: 15
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-80f0e1e67756
+  theorem_surface_id: theorem-surface-navier-stokes-8d2e55979d1e
