@@ -30,7 +30,7 @@
 
 ## Promotion Rule
 
-- Do not promote beyond `revise` until each `ridge discharge required` row has either been localized into the local package or explicitly parked below the theorem surface.
+- Do not promote beyond `revise` until every row marked as a live theorem burden has either been localized into the local package or explicitly parked below the theorem surface.
 - Keep the lowest safe claim explicit and do not let recovered speculative material masquerade as a proved bridge.
 - Re-run honesty-review only after the local package has real prose and an explicit debt map.
 
