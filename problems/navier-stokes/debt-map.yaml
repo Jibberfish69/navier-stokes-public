@@ -5,7 +5,7 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-04-29T17:08:41Z'
+  extracted_at: '2026-04-29T17:20:48Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
@@ -53,6 +53,28 @@ debt_items:
   rationale: The entry is unresolved but not marked as a frontier-level block, so
     it is treated as bounded derivation debt.
   priority_rank: 1
+  derivation_state: localized-support
+  derivation_attempts: 1
+  attempts_without_new_support: 0
+  last_derivation_run_id: debt-derive-navier-stokes-20260429T172008Z
+  support_strength: strong
+  evidence_paths:
+  - problems/navier-stokes/claim-ladder.md
+  - problems/navier-stokes/spine.md
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/formalization-ledger.md
+  new_evidence_paths:
+  - problems/navier-stokes/claim-ladder.md
+  - problems/navier-stokes/spine.md
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/formalization-ledger.md
+  source_sufficiency: sufficient
+  source_scope_status: new-support-found
+  source_checks: 1
 - debt_id: debt-one-field-forward-preservation-wall
   label: one-field forward-preservation wall
   source_section: proof-debt-ledger
@@ -65,6 +87,28 @@ debt_items:
   rationale: The debt is described as a targeted discharge rather than an open frontier,
     so it can enter bounded derivation.
   priority_rank: 2
+  derivation_state: localized-support
+  derivation_attempts: 1
+  attempts_without_new_support: 0
+  last_derivation_run_id: debt-derive-navier-stokes-20260429T171942Z
+  support_strength: strong
+  evidence_paths:
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/formalization-ledger.md
+  - problems/navier-stokes/frozen-core.md
+  new_evidence_paths:
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/formalization-ledger.md
+  - problems/navier-stokes/frozen-core.md
+  source_sufficiency: sufficient
+  source_scope_status: new-support-found
+  source_checks: 1
 - debt_id: debt-lower-carrier-receiver-wall
   label: lower-carrier receiver wall
   source_section: proof-debt-ledger
@@ -77,6 +121,28 @@ debt_items:
   rationale: The debt is described as a targeted discharge rather than an open frontier,
     so it can enter bounded derivation.
   priority_rank: 3
+  derivation_state: localized-support
+  derivation_attempts: 1
+  attempts_without_new_support: 0
+  last_derivation_run_id: debt-derive-navier-stokes-20260429T171954Z
+  support_strength: strong
+  evidence_paths:
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/formalization-ledger.md
+  - problems/navier-stokes/frozen-core.md
+  new_evidence_paths:
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/formalization-ledger.md
+  - problems/navier-stokes/frozen-core.md
+  source_sufficiency: sufficient
+  source_scope_status: new-support-found
+  source_checks: 1
 - debt_id: debt-collar-to-jump-converse-pivot
   label: collar-to-jump converse pivot
   source_section: proof-debt-ledger
@@ -89,6 +155,28 @@ debt_items:
   rationale: The debt is described as a targeted discharge rather than an open frontier,
     so it can enter bounded derivation.
   priority_rank: 4
+  derivation_state: localized-support
+  derivation_attempts: 1
+  attempts_without_new_support: 0
+  last_derivation_run_id: debt-derive-navier-stokes-20260429T172000Z
+  support_strength: strong
+  evidence_paths:
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/formalization-ledger.md
+  - problems/navier-stokes/frozen-core.md
+  new_evidence_paths:
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/formalization-ledger.md
+  - problems/navier-stokes/frozen-core.md
+  source_sufficiency: sufficient
+  source_scope_status: new-support-found
+  source_checks: 1
 - debt_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   label: Keep theorem scope below the first unsafe overclaim
   source_section: proof-debt-ledger
@@ -108,11 +196,8 @@ summary:
     local-derivable: 4
     branch-choice: 0
     blocked-frontier: 0
-  recommended_next_cell_type: debt-derive
-  recommended_next_action: Run debt-derive on the highest-priority local-derivable
-    items from debt-map.yaml before another honesty-review pass.
+  recommended_next_cell_type: solver-loop
+  recommended_next_action: Packaging debt is the only visible remainder, so run solver-loop
+    first and freeze the source-grounded theorem frontier before any more prose.
   recommended_debt_ids:
-  - debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
-  - debt-one-field-forward-preservation-wall
-  - debt-lower-carrier-receiver-wall
-  - debt-collar-to-jump-converse-pivot
+  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim

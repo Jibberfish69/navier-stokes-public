@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-29T17:18:17Z'
+  generated_at: '2026-04-29T17:21:24Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-8d2e55979d1e
-    route_signature: 8d2e55979d1e17b7432b23d19e2118dae15a3bae
+    surface_id: theorem-surface-navier-stokes-4ad7701dd078
+    route_signature: 4ad7701dd07893e047223b6ed41c2c4a72749531
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -37,17 +37,17 @@ shared_alignment:
     - slot_id: debt-one-field-forward-preservation-wall
       label: one-field forward-preservation wall
       kind: lemma
-      status: unresolved
+      status: structural-only
       patch_surface: problems/navier-stokes/object-formalization.yaml
     - slot_id: debt-lower-carrier-receiver-wall
       label: lower-carrier receiver wall
       kind: lemma
-      status: unresolved
+      status: structural-only
       patch_surface: problems/navier-stokes/object-formalization.yaml
     - slot_id: debt-collar-to-jump-converse-pivot
       label: collar-to-jump converse pivot
       kind: lemma
-      status: unresolved
+      status: structural-only
       patch_surface: problems/navier-stokes/object-formalization.yaml
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
@@ -124,17 +124,32 @@ local_derivation:
     matched_route_slot_labels:
     - collar-to-jump converse pivot
   leadership_status: leading
-  net_new_local_theorem_count: 2
+  net_new_local_theorem_count: 5
   recommended_next_cell_type: dependency-discharge
 cross_lane_broadcast:
   status: publish-local-delta
-  local_consequence_count: 2
+  local_consequence_count: 5
   local_consequences:
+  - label: Global energy or enstrophy control is necessary but not sufficient
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: 'obstruction-capture: Core Mechanism'
   - label: one-field forward-preservation wall
     kind: lemma
-    status: unresolved
+    status: localized-support
     origin: local
-    source_anchor: problems/navier-stokes/dependency-discharge.yaml
+    source_anchor: 'gap-ticket: burden-item'
+  - label: lower-carrier receiver wall
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: 'gap-ticket: burden-item'
+  - label: collar-to-jump converse pivot
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: 'gap-ticket: burden-item'
   - label: 'three-piece lifted-packet closure program: SS first, direct CTS second,
       LPAS fallback'
     kind: lemma
@@ -186,7 +201,7 @@ summary:
   leadership_status: leading
   alignment_complete: true
   exact_local_packet_count: 3
-  net_new_local_theorem_count: 2
+  net_new_local_theorem_count: 5
   projected_frontier_count: 2
   current_open_obligation_count: 8
   open_obligations_state: not-currently-worked
@@ -195,5 +210,5 @@ summary:
   audit_status: audited-needs-fix
   branch_terminal_status: all-terminal
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: creative-theorem-search
+  current_next_cell_type: debt-extract
   current_next_cell_is_theorem_work: true

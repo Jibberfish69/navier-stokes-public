@@ -2,21 +2,22 @@
 version: 1
 identity:
   problem_id: navier-stokes
-  run_id: debt-derive-navier-stokes-20260429T164515Z
-  debt_id: marvin-upstream-0fdc65ea42d5
+  run_id: debt-derive-navier-stokes-20260429T172008Z
+  debt_id: debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
 target_debt:
-  debt_id: marvin-upstream-0fdc65ea42d5
-  label: 'three-piece lifted-packet closure program: SS first, direct CTS second,
-    LPAS fallback'
+  debt_id: debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
+  label: Global energy or enstrophy control is necessary but not sufficient
   priority_rank: 1
-  monograph_status: formalization ledger missing; type the current live burden directly
-    from the active frontier
+  monograph_status: local source located; localization still required
   primary_anchors:
-  - problems/navier-stokes/dependency-discharge.yaml
-  - problems/navier-stokes/object-formalization.yaml
-  - problems/navier-stokes/proof-assembly.yaml
+  - 'obstruction-capture: Core Mechanism'
+  - spine.4
+  - theorem-construction/energy-baseline-bridge-lemma.md
+  - theorem-construction/monotone-functional-package.md
+  - problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
+  - problems/navier-stokes/claim-ladder.md
 search_scope:
-  generated_at: '2026-04-29T16:45:15Z'
+  generated_at: '2026-04-29T17:20:08Z'
   files_checked:
     workboard-local:
     - problems/navier-stokes/obstruction-capture.md
@@ -54,7 +55,11 @@ search_scope:
     - problems/navier-stokes/merge-verdict.yaml
     - problems/navier-stokes/paper-quality-verdict.yaml
     - problems/navier-stokes/review-verdict.yaml
-    canonical-problem-corpus: []
+    canonical-problem-corpus:
+    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/theorem-construction/energy-baseline-bridge-lemma.md
+    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/theorem-construction/monotone-functional-package.md
+    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/cascade-after-monotone-bridge-source-pack.md
+    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/claim-ladder.md
     conversation-direct: []
     conversation-indirect: []
     conversation-speculative: []
@@ -107,19 +112,19 @@ search_scope:
 source_scope:
   previous_evidence_paths: []
   current_evidence_paths:
-  - problems/navier-stokes/draft-v6.md
   - problems/navier-stokes/claim-ladder.md
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/obstruction-capture.md
+  - problems/navier-stokes/spine.md
+  - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
   - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/formalization-ledger.md
   new_evidence_paths:
-  - problems/navier-stokes/draft-v6.md
   - problems/navier-stokes/claim-ladder.md
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/obstruction-capture.md
+  - problems/navier-stokes/spine.md
+  - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
   - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/formalization-ledger.md
   novel_support_found: true
   source_sufficiency: sufficient
   fallback_used: false
@@ -149,10 +154,10 @@ authority_provenance:
     database_path: problems/navier-stokes/runtime/meta/runtime-hot-state.sqlite3
     authoritative_storage: sqlite
     compatibility_shadow_status: fresh
-    indexed_event_count: 24820
-    indexed_lease_count: 17679
+    indexed_event_count: 25587
+    indexed_lease_count: 18074
     active_lease_count: 1
-    latest_active_lease_id: debt-derive-navier-stokes-20260429T164515Z
+    latest_active_lease_id: debt-derive-navier-stokes-20260429T172008Z
     status: ok
     error_class:
   roots:
@@ -288,61 +293,42 @@ authority_provenance:
     exists: true
   resolver_path: *6
 search_terms:
-- problems/navier-stokes/dependency-discharge.yaml
-- problems/navier-stokes/object-formalization.yaml
-- problems/navier-stokes/proof-assembly.yaml
-- three-piece lifted-packet
-- lifted-packet closure
-- closure program
-- program direct
-- direct lpas
-- lpas fallback
-- three-piece
-- lifted-packet
-- closure
-- program
+- 'obstruction-capture: Core Mechanism'
+- spine.4
+- theorem-construction/energy-baseline-bridge-lemma.md
+- theorem-construction/monotone-functional-package.md
+- problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
+- problems/navier-stokes/claim-ladder.md
+- global energy
+- energy enstrophy
+- enstrophy control
+- control necessary
+- necessary sufficient
+- global
+- energy
+- enstrophy
+- control
 evidence_hits:
-- source_path: problems/navier-stokes/draft-v6.md
-  source_group: workboard-local
-  matched_terms:
-  - closure program
-  - closure
-  - program
-  matched_origins:
-  - target-label
-  hit_kind: phrase-match
-  excerpt_note: "# Navier-Stokes Global Regularity: A Classical Closure Program >
-    Extraction notice: > For Marvin / Chat Y / monograph-V6 intake, treat > [proof-source-pack.md](/Users/thomasbirnie/Documents/Research-Consolidatio"
-  authority_root: problems/navier-stokes
-  authority_classification: lane-local
-  authority_basis: split-lane-repo
-  fallback_used: false
-  fallback_reason:
-  resolver_path: *2
-  authority_provenance:
-    contract_version: 1
-    authority_root: problems/navier-stokes
-    authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
-    surface_plane: lane_repo
-    classification: lane-local
-    authority_basis: split-lane-repo
-    authoritative: true
-    fallback_used: false
-    fallback_reason:
-    resolver_path: *2
-    present: true
 - source_path: problems/navier-stokes/claim-ladder.md
   source_group: workboard-local
   matched_terms:
-  - closure
-  - program
+  - 'obstruction-capture: Core Mechanism'
+  - spine.4
+  - theorem-construction/energy-baseline-bridge-lemma.md
+  - theorem-construction/monotone-functional-package.md
+  - global energy
+  - enstrophy control
+  - global
+  - energy
+  - enstrophy
+  - control
   matched_origins:
+  - primary-anchor
   - target-label
-  hit_kind: phrase-match
-  excerpt_note: 'kage.md` | localized route premise | shows why the monotone bridge
-    is infrastructure, not closure by itself | | 5 | The live obstruction is the small-scale
-    or high-frequency cascade that feeds blow-up | `obstruction-capture: The Real
-    Obstruction`,'
+  hit_kind: primary-anchor-exact
+  excerpt_note: "-part cycle | | 4 | Global energy or enstrophy control is necessary
+    but not sufficient | `obstruction-capture: Core Mechanism`, `spine.4`, `theorem-construction/energy-baseline-bridge-lemma.md`,
+    `theorem-construction/monotone-functional-package.md` | localized route premise"
   authority_root: problems/navier-stokes
   authority_classification: lane-local
   authority_basis: split-lane-repo
@@ -361,18 +347,25 @@ evidence_hits:
     fallback_reason:
     resolver_path: *2
     present: true
-- source_path: problems/navier-stokes/frozen-core.md
+- source_path: problems/navier-stokes/spine.md
   source_group: workboard-local
   matched_terms:
-  - closure
-  - program
+  - theorem-construction/energy-baseline-bridge-lemma.md
+  - theorem-construction/monotone-functional-package.md
+  - problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
+  - global energy
+  - enstrophy control
+  - global
+  - energy
+  - enstrophy
+  - control
   matched_origins:
+  - primary-anchor
   - target-label
-  hit_kind: phrase-match
-  excerpt_note: 'riodic branch on T^3. (`theorem-statement`; `theorem-statement`)
-    - Theorem 2.1 (Classical Closure) (`theorem-warrant`; `warrant-theorem-2.1`) ##
-    Source Frontier - `first_unresolved`: one-field forward-preservation wall (`live-theorem-edge`;
-    `ofp'
+  hit_kind: primary-anchor-exact
+  excerpt_note: rch-Consolidation/problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md)
+    - [theorem-construction/energy-baseline-bridge-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/energy-baseline-bridge-lemma.md)
+    - [four-body-regul
   authority_root: problems/navier-stokes
   authority_classification: lane-local
   authority_basis: split-lane-repo
@@ -391,18 +384,24 @@ evidence_hits:
     fallback_reason:
     resolver_path: *2
     present: true
-- source_path: problems/navier-stokes/obstruction-capture.md
+- source_path: problems/navier-stokes/theorem-packet.yaml
   source_group: workboard-local
   matched_terms:
-  - closure
-  - program
+  - 'obstruction-capture: Core Mechanism'
+  - problems/navier-stokes/claim-ladder.md
+  - global energy
+  - enstrophy control
+  - global
+  - energy
+  - enstrophy
+  - control
   matched_origins:
+  - primary-anchor
   - target-label
-  hit_kind: phrase-match
-  excerpt_note: 'functional `Q(t)`, - compactness strong enough to improve weak behavior
-    into nonlinear closure, - a theorem-primary periodic continuation bridge, with
-    Euclidean discharge/export kept explicit and downstream. ## Core Mechanism - The
-    theorem-'
+  hit_kind: primary-anchor-exact
+  excerpt_note: 'ent status: needs-localization support_strength: priority_rank: 1
+    source_anchor: ''obstruction-capture: Core Mechanism'' - lemma_id: debt-one-field-forward-preservation-wall
+    label: one-field forward-preservation wall status: needs-localization support_strength:'
   authority_root: problems/navier-stokes
   authority_classification: lane-local
   authority_basis: split-lane-repo
@@ -424,14 +423,20 @@ evidence_hits:
 - source_path: problems/navier-stokes/proof-assembly.yaml
   source_group: workboard-local
   matched_terms:
-  - closure
-  - program
+  - problems/navier-stokes/claim-ladder.md
+  - global energy
+  - enstrophy control
+  - global
+  - energy
+  - enstrophy
+  - control
   matched_origins:
+  - primary-anchor
   - target-label
-  hit_kind: phrase-match
-  excerpt_note: 'r the whole-space branch on R^3 or the periodic branch on T^3. -
-    Theorem 2.1 (Classical Closure) tentative_extension_chain: [] remaining_open_obligations:
-    - obligation_id: ofp-one-field-forward-preservation label: one-field forward-preservatio'
+  hit_kind: primary-anchor-exact
+  excerpt_note: 'edness_via_Q(t)_for_Global_Regularity.tex" local_theorem_construction_surfaces:
+    - problems/navier-stokes/claim-ladder.md - problems/navier-stokes/formalization-ledger.md
+    - problems/navier-stokes/debt-map.yaml - problems/navier-stokes/marvin-watchlist.yaml'
   authority_root: problems/navier-stokes
   authority_classification: lane-local
   authority_basis: split-lane-repo
@@ -453,14 +458,61 @@ evidence_hits:
 - source_path: problems/navier-stokes/source-frontier.yaml
   source_group: workboard-local
   matched_terms:
-  - closure
-  - program
+  - problems/navier-stokes/claim-ladder.md
+  - global energy
+  - enstrophy control
+  - global
+  - energy
+  - enstrophy
+  - control
   matched_origins:
+  - primary-anchor
   - target-label
-  hit_kind: phrase-match
-  excerpt_note: gram.md - problems/navier-stokes/theorem-construction/mpp-lci-a-enlarged-ball-oscillation-closure-note.md
-    - problems/navier-stokes/theorem-construction/mpp-lci-a-halo-gradient-carrier-return-note.md
-    - problems/navier-stokes/theorem-construction/mp
+  hit_kind: primary-anchor-exact
+  excerpt_note: 'vier-stokes source_matrix_id: proof-obligation-matrix-navier-stokes
+    source_artifacts: - problems/navier-stokes/claim-ladder.md - problems/navier-stokes/formalization-ledger.md
+    - problems/navier-stokes/debt-map.yaml - problems/navier-stokes/marvin-watchlist.yaml
+    - problems/nav'
+  authority_root: problems/navier-stokes
+  authority_classification: lane-local
+  authority_basis: split-lane-repo
+  fallback_used: false
+  fallback_reason:
+  resolver_path: *2
+  authority_provenance:
+    contract_version: 1
+    authority_root: problems/navier-stokes
+    authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
+    surface_plane: lane_repo
+    classification: lane-local
+    authority_basis: split-lane-repo
+    authoritative: true
+    fallback_used: false
+    fallback_reason:
+    resolver_path: *2
+    present: true
+- source_path: problems/navier-stokes/formalization-ledger.md
+  source_group: workboard-local
+  matched_terms:
+  - 'obstruction-capture: Core Mechanism'
+  - spine.4
+  - theorem-construction/energy-baseline-bridge-lemma.md
+  - theorem-construction/monotone-functional-package.md
+  - problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
+  - problems/navier-stokes/claim-ladder.md
+  - global energy
+  - enstrophy control
+  - global
+  - energy
+  - enstrophy
+  - control
+  matched_origins:
+  - primary-anchor
+  - target-label
+  hit_kind: primary-anchor-exact
+  excerpt_note: 'necessary but not sufficient | local source located; localization
+    still required | yes | obstruction-capture: Core Mechanism, spine.4, theorem-construction/energy-baseline-bridge-lemma.md,
+    theorem-construction/monotone-functional-package.md, problems/navier-stokes/cascade-a'
   authority_root: problems/navier-stokes
   authority_classification: lane-local
   authority_basis: split-lane-repo

@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-29T17:18:12Z'
+  generated_at: '2026-04-29T17:20:31Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -20,15 +20,15 @@ remaining_open_obligations:
 - obligation_id: debt-one-field-forward-preservation-wall
   label: one-field forward-preservation wall
   kind: lemma
-  status: unresolved
+  status: structural-only
 - obligation_id: debt-lower-carrier-receiver-wall
   label: lower-carrier receiver wall
   kind: lemma
-  status: unresolved
+  status: structural-only
 - obligation_id: debt-collar-to-jump-converse-pivot
   label: collar-to-jump converse pivot
   kind: lemma
-  status: unresolved
+  status: structural-only
 - obligation_id: ofp-one-field-forward-preservation
   label: one-field forward-preservation wall
   kind: live-theorem-edge
@@ -55,15 +55,15 @@ remaining_open_obligation_groups:
   - obligation_id: debt-one-field-forward-preservation-wall
     label: one-field forward-preservation wall
     kind: lemma
-    status: unresolved
+    status: structural-only
   - obligation_id: debt-lower-carrier-receiver-wall
     label: lower-carrier receiver wall
     kind: lemma
-    status: unresolved
+    status: structural-only
   - obligation_id: debt-collar-to-jump-converse-pivot
     label: collar-to-jump converse pivot
     kind: lemma
-    status: unresolved
+    status: structural-only
   - obligation_id: ofp-one-field-forward-preservation
     label: one-field forward-preservation wall
     kind: live-theorem-edge
@@ -97,18 +97,18 @@ next_solver_targets:
 - obligation_id: debt-one-field-forward-preservation-wall
   label: one-field forward-preservation wall
   kind: lemma
-  status: unresolved
+  status: structural-only
 - obligation_id: debt-lower-carrier-receiver-wall
   label: lower-carrier receiver wall
   kind: lemma
-  status: unresolved
+  status: structural-only
 - obligation_id: debt-collar-to-jump-converse-pivot
   label: collar-to-jump converse pivot
   kind: lemma
-  status: unresolved
+  status: structural-only
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-8d2e55979d1e
-  route_signature: 8d2e55979d1e17b7432b23d19e2118dae15a3bae
+  surface_id: theorem-surface-navier-stokes-4ad7701dd078
+  route_signature: 4ad7701dd07893e047223b6ed41c2c4a72749531
   theorem_target: conditional terminal class-membership lane closure packet
   theorem_statement: The official Clay target allows either the whole-space branch
     on R^3 or the periodic branch on T^3.
@@ -137,19 +137,19 @@ theorem_surface:
   - slot_id: debt-one-field-forward-preservation-wall
     label: one-field forward-preservation wall
     kind: lemma
-    status: unresolved
+    status: structural-only
     source_anchor: 'gap-ticket: burden-item'
     patch_surface: problems/navier-stokes/object-formalization.yaml
   - slot_id: debt-lower-carrier-receiver-wall
     label: lower-carrier receiver wall
     kind: lemma
-    status: unresolved
+    status: structural-only
     source_anchor: 'gap-ticket: burden-item'
     patch_surface: problems/navier-stokes/object-formalization.yaml
   - slot_id: debt-collar-to-jump-converse-pivot
     label: collar-to-jump converse pivot
     kind: lemma
-    status: unresolved
+    status: structural-only
     source_anchor: 'gap-ticket: burden-item'
     patch_surface: problems/navier-stokes/object-formalization.yaml
   authority_layers:
@@ -244,4 +244,4 @@ summary:
   tracked_source_count: 141
   synthesis_import_surface_count: 15
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-8d2e55979d1e
+  theorem_surface_id: theorem-surface-navier-stokes-4ad7701dd078
