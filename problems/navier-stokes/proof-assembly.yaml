@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-29T16:34:58Z'
+  generated_at: '2026-04-29T16:47:56Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -14,6 +14,7 @@ theorem_statement: The official Clay target allows either the whole-space branch
 source_grounded_chain:
 - The official Clay target allows either the whole-space branch on R^3 or the periodic
   branch on T^3.
+- 'three-piece lifted-packet closure program: SS first, direct CTS second, LPAS fallback'
 - Theorem 2.1 (Classical Closure)
 tentative_extension_chain: []
 remaining_open_obligations:
@@ -83,9 +84,10 @@ next_solver_targets:
   kind: live-theorem-edge
   status: frontier
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-a6f15cf32daf
-  route_signature: a6f15cf32daf30da580e51d2ede1661fbdab13c7
-  theorem_target: ''
+  surface_id: theorem-surface-navier-stokes-80f0e1e67756
+  route_signature: 80f0e1e677562728c22909e5e50afe6a841e7330
+  theorem_target: 'three-piece lifted-packet closure program: SS first, direct CTS
+    second, LPAS fallback'
   theorem_statement: The official Clay target allows either the whole-space branch
     on R^3 or the periodic branch on T^3.
   route_chain:
@@ -115,19 +117,19 @@ theorem_surface:
     kind: live-theorem-edge
     status: frontier
     source_anchor: route-synthesis
-    patch_surface: problems/navier-stokes/source-frontier.yaml
+    patch_surface: problems/navier-stokes/debt-map.yaml
   - slot_id: lci-lower-carrier-interval-integrability
     label: lower-carrier receiver wall
     kind: live-theorem-edge
     status: frontier
     source_anchor: route-synthesis
-    patch_surface: problems/navier-stokes/source-frontier.yaml
+    patch_surface: problems/navier-stokes/debt-map.yaml
   - slot_id: cj-a-low-collar-to-jump-converse-supplier
     label: collar-to-jump converse pivot
     kind: live-theorem-edge
     status: frontier
     source_anchor: route-synthesis
-    patch_surface: problems/navier-stokes/source-frontier.yaml
+    patch_surface: problems/navier-stokes/debt-map.yaml
   authority_layers:
     authoritative_proof_surfaces:
     - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_3-_Monotone_Functional.tex"
@@ -143,6 +145,7 @@ theorem_surface:
     - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Energy_Boundedness_via_Q(t)_for_Global_Regularity.tex"
     local_theorem_construction_surfaces:
     - problems/navier-stokes/claim-ladder.md
+    - problems/navier-stokes/debt-map.yaml
     - problems/navier-stokes/marvin-watchlist.yaml
     - problems/navier-stokes/live-theorem-edge.yaml
     - problems/navier-stokes/route-lock.yaml
@@ -204,7 +207,7 @@ theorem_surface:
     cross_surface_splice: false
     sterilized_synthesis_import_count: 15
 summary:
-  grounded_step_count: 2
+  grounded_step_count: 3
   promoted_extension_count: 0
   bridge_discharge_blocking_count: 1
   bridge_discharge_only_count: 0
@@ -217,4 +220,4 @@ summary:
   tracked_source_count: 141
   synthesis_import_surface_count: 15
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-a6f15cf32daf
+  theorem_surface_id: theorem-surface-navier-stokes-80f0e1e67756

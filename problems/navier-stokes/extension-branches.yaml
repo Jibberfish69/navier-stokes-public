@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   branch_set_id: extension-branches-navier-stokes
-  generated_at: '2026-04-29T16:34:58Z'
+  generated_at: '2026-04-29T16:47:56Z'
   generator: system/runner/lib/lemma_synthesis_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -20,7 +20,7 @@ branches:
   hypothesis: Open a quarantined side branch that tests whether one-field forward-preservation
     wall can be made explicit without crossing the current safe-claim boundary.
   depends_on:
-  - theorem-statement
+  - marvin-upstream-0fdc65ea42d5
   - warrant-theorem-2.1
   - ofp-one-field-forward-preservation
   risk_level: high
@@ -34,7 +34,7 @@ branches:
   hypothesis: Open a quarantined side branch that tests whether lower-carrier receiver
     wall can be made explicit without crossing the current safe-claim boundary.
   depends_on:
-  - theorem-statement
+  - marvin-upstream-0fdc65ea42d5
   - warrant-theorem-2.1
   - lci-lower-carrier-interval-integrability
   risk_level: high
@@ -47,7 +47,7 @@ branches:
   hypothesis: Open a quarantined side branch that tests whether collar-to-jump converse
     pivot can be made explicit without crossing the current safe-claim boundary.
   depends_on:
-  - theorem-statement
+  - marvin-upstream-0fdc65ea42d5
   - warrant-theorem-2.1
   - cj-a-low-collar-to-jump-converse-supplier
   risk_level: high
@@ -61,7 +61,7 @@ branches:
     ledger beneath `OFP.A` can be made explicit without crossing the current safe-claim
     boundary.
   depends_on:
-  - theorem-statement
+  - marvin-upstream-0fdc65ea42d5
   - warrant-theorem-2.1
   - fci-frozen-family-source-ledger
   risk_level: high

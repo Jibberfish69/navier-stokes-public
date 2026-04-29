@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-29T16:45:32Z'
+  generated_at: '2026-04-29T16:48:00Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-a6f15cf32daf
-    route_signature: a6f15cf32daf30da580e51d2ede1661fbdab13c7
+    surface_id: theorem-surface-navier-stokes-80f0e1e67756
+    route_signature: 80f0e1e677562728c22909e5e50afe6a841e7330
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -38,17 +38,17 @@ shared_alignment:
       label: one-field forward-preservation wall
       kind: live-theorem-edge
       status: frontier
-      patch_surface: problems/navier-stokes/source-frontier.yaml
+      patch_surface: problems/navier-stokes/debt-map.yaml
     - slot_id: lci-lower-carrier-interval-integrability
       label: lower-carrier receiver wall
       kind: live-theorem-edge
       status: frontier
-      patch_surface: problems/navier-stokes/source-frontier.yaml
+      patch_surface: problems/navier-stokes/debt-map.yaml
     - slot_id: cj-a-low-collar-to-jump-converse-supplier
       label: collar-to-jump converse pivot
       kind: live-theorem-edge
       status: frontier
-      patch_surface: problems/navier-stokes/source-frontier.yaml
+      patch_surface: problems/navier-stokes/debt-map.yaml
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
     route_label: conditional terminal class-membership lane closure packet
@@ -104,7 +104,7 @@ local_derivation:
     packet_kind: live-theorem-edge
     source_kind: live-solver-target
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/source-frontier.yaml
+    target_patch_surface: problems/navier-stokes/debt-map.yaml
     matched_route_slot_labels:
     - one-field forward-preservation wall
   - packet_id: lci-lower-carrier-interval-integrability
@@ -112,7 +112,7 @@ local_derivation:
     packet_kind: live-theorem-edge
     source_kind: live-solver-target
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/source-frontier.yaml
+    target_patch_surface: problems/navier-stokes/debt-map.yaml
     matched_route_slot_labels:
     - lower-carrier receiver wall
   - packet_id: cj-a-low-collar-to-jump-converse-supplier
@@ -120,7 +120,7 @@ local_derivation:
     packet_kind: live-theorem-edge
     source_kind: live-solver-target
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/source-frontier.yaml
+    target_patch_surface: problems/navier-stokes/debt-map.yaml
     matched_route_slot_labels:
     - collar-to-jump converse pivot
   leadership_status: leading
@@ -133,7 +133,7 @@ cross_lane_broadcast:
   - label: 'three-piece lifted-packet closure program: SS first, direct CTS second,
       LPAS fallback'
     kind: lemma
-    status: structural-only
+    status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/dependency-discharge.yaml
   broadcast_paths:
@@ -159,7 +159,7 @@ frontier_projection:
   primary_target:
     label: one-field forward-preservation wall
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/source-frontier.yaml
+    target_patch_surface: problems/navier-stokes/debt-map.yaml
   one_step_beyond:
   - label: lower-carrier receiver wall
     recommended_stage: dependency-discharge

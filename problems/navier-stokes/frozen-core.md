@@ -5,13 +5,14 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Theorem Target
 
-- `theorem_target`: 
+- `theorem_target`: three-piece lifted-packet closure program: SS first, direct CTS second, LPAS fallback
 - `lowest_safe_claim`: The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3.
 - `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
 
 ## Grounded Core
 
 - The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3. (`theorem-statement`; `theorem-statement`)
+- three-piece lifted-packet closure program: SS first, direct CTS second, LPAS fallback (`lemma`; `marvin-upstream-0fdc65ea42d5`)
 - Theorem 2.1 (Classical Closure) (`theorem-warrant`; `warrant-theorem-2.1`)
 
 ## Source Frontier
@@ -25,6 +26,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 ## Source Surfaces
 
 - `problems/navier-stokes/claim-ladder.md`
+- `problems/navier-stokes/debt-map.yaml`
 - `problems/navier-stokes/marvin-watchlist.yaml`
 - `problems/navier-stokes/marvin-ingest-notes.yaml`
 - `problems/navier-stokes/live-theorem-edge.yaml`
