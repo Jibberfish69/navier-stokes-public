@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-04-29T17:55:51Z'
+  generated_at: '2026-04-29T18:00:47Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -78,10 +78,11 @@ branch_pool:
   - This branch starts at the first unresolved frontier.
   - This branch is machine-derived beyond the current frozen core.
   - Use the weakest sufficient move; do not inflate the theorem target.
-  recommended_next_cell_type: debt-extract
+  recommended_next_cell_type: object-formalization
   recommended_next_action: 'Creative theorem search selected `debt-one-field-forward-preservation-wall`.
-    Reopen debt-extract and type the missing object or local lemma explicitly: one-field
-    forward-preservation wall.'
+    Formalize the invention packet''s exact missing object first, then return to the
+    same theorem target instead of reopening generic debt extraction: one-field forward-preservation
+    wall.'
   merge_policy: quarantined-until-promoted
 - branch_id: creative-branch-navier-stokes-2
   origin_obligation_id: debt-lower-carrier-receiver-wall
@@ -265,5 +266,5 @@ summary:
   - creative-branch-navier-stokes-3
   - creative-branch-navier-stokes-4
   selected_branch_id: creative-branch-navier-stokes-1
-  selected_next_cell_type: debt-extract
+  selected_next_cell_type: object-formalization
   intervention_needed: true
