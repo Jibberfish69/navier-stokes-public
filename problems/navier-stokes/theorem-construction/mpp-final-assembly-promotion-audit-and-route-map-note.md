@@ -4,7 +4,7 @@
 
 Theorem-facing final assembly note for the Navier-Stokes averaged-to-pointwise route.
 
-Role: assemble the final Clay-facing theorem from the installed averaged route, endpoint readout route, endpoint/classical-continuation equivalence, and explicit readout sublemmas.
+Role: prove the final Clay-facing theorem from the installed averaged route, endpoint readout route, endpoint/classical-continuation equivalence, and explicit readout sublemmas.
 
 ## Standing inputs
 
@@ -57,7 +57,7 @@ ECQ.A:
 T_*=\infty.
 $$
 
-## Theorem `FINAL.ASSEMBLY`
+## 1. Theorem `FINAL.ASSEMBLY`
 
 ### Statement
 
@@ -71,15 +71,15 @@ $$
 
 ### Proof
 
-From `AVG.MAIN.A` obtain
+From `AVG.MAIN.A`, obtain
 
 $$
 End_{NS,\mathrm{avg}}.
 $$
 
-From `READ.COVER` obtain the uniform positive-scale SCF-good finite cover required by `Field.Read` and `DTC.Read`.
+From `READ.COVER`, obtain the uniform positive-scale SCF-good finite cover required by `Field.Read` and `DTC.Read`.
 
-From `READ.END` obtain
+From `READ.END`, obtain
 
 $$
 End_{NS}.
@@ -103,7 +103,7 @@ The maximal classical solution is smooth on each compact time interval below \(T
 
 This proves `FINAL.ASSEMBLY`.
 
-## Theorem `CM.Readout`
+## 2. Theorem `CM.Readout`
 
 ### Statement
 
@@ -125,7 +125,7 @@ $$
 CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
 $$
 
-`Field` supplies a positive pointwise coherence scale and finite tower control through the route depth \(N\). `Pack` supplies one bounded same-fluid transported carrier and bounded cover distortion. `Part` supplies the shared participation law needed to read the tower on the same retained fluid object.
+`Field` supplies a positive pointwise coherence scale and finite tower control through route depth \(N\). `Pack` supplies one bounded same-fluid transported carrier and bounded cover distortion. `Part` supplies the shared participation law needed to read the tower on the same retained fluid object.
 
 On each retained same-fluid window, the pointwise tower readout gives a finite family of local Sobolev controls through depth \(s\):
 
@@ -149,7 +149,7 @@ $$
 
 This proves `CM.Readout`.
 
-## Lemma `DTC.Read.Press`
+## 3. Lemma `DTC.Read.Press`
 
 ### Statement
 
@@ -221,7 +221,7 @@ $$
 
 Finite cover summation gives the pointwise transported-center forcing readout. This proves `DTC.Read.Press`.
 
-## Lemma `Field.Read.Chain`
+## 4. Lemma `Field.Read.Chain`
 
 ### Statement
 
@@ -275,7 +275,7 @@ $$
 
 This proves `Field.Read.Chain`.
 
-## Theorem `READOUT.COMPLETE`
+## 5. Theorem `READOUT.COMPLETE`
 
 Combining `CM.Readout`, `DTC.Read.Press`, and `Field.Read.Chain` gives the full readout layer:
 
@@ -300,7 +300,7 @@ End_{NS,\mathrm{avg}}+READ.COVER+Field.Read+DTC.Read
 End_{NS}.
 $$
 
-## Route map
+## 6. Canonical route map
 
 The canonical route is
 
@@ -350,7 +350,7 @@ LCI.A_{\mathrm{avg}}+FCI.5f
 CSP.A_{\mathrm{avg}}.
 $$
 
-## Final promotion audit
+## 7. Final promotion audit
 
 The route is forward-only:
 
