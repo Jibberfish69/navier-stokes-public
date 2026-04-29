@@ -4,26 +4,26 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   formalization_id: object-formalization-navier-stokes
-  generated_at: '2026-04-29T18:23:17Z'
+  generated_at: '2026-04-29T18:33:57Z'
   generator: system/runner/lib/object_formalization_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_frontier_id: source-frontier-navier-stokes
   source_assembly_id: proof-assembly-navier-stokes
 target:
-  obligation_id: marvin-upstream-eb3fabeeac46
-  label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-    Clay whole-space target into exact source-backed ingredients already present on
-    the lane. On the classical side, isolated the mixed-jet system, the exact rung-level
-    can'
-  kind: definition
+  obligation_id: marvin-route-authority-6
+  label: 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
+    The correct algebraic fit for the time tower is the divided-power Hopf law on
+    one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
+    or sy'
+  kind: branch-choice
 formalization_packet:
-  object_id: formal-object-define_or_prove_reduced_the_live_navier_stokes_route_stack_against_the_clay_whole_space_target_into_exact_source_backed_ingredients_already_present_on_the_lane_on_the_classical_side_isolated_the_mixed_jet_system_the_exact_rung_level_can
-  object_name: define_or_prove_reduced_the_live_navier_stokes_route_stack_against_the_clay_whole_space_target_into_exact_source_backed_ingredients_already_present_on_the_lane_on_the_classical_side_isolated_the_mixed_jet_system_the_exact_rung_level_can
-  object_role: explicit theorem object
-  theorem_role: 'Make `Define or prove: Reduced the live Navier-Stokes route stack
-    against the Clay whole-space target into exact source-backed ingredients already
-    present on the lane. On the classical side, isolated the mixed-jet system, the
-    exact rung-level can` exact enough that later discharge can test it locally.'
+  object_id: formal-object-live_task_completed_the_hopf_shuffle_line_as_a_theorem_program_refinement_the_correct_algebraic_fit_for_the_time_tower_is_the_divided_power_hopf_law_on_one_primitive_generator_and_for_the_mixed_jet_tower_it_is_the_shuffle_unshuffle_or_sy
+  object_name: live_task_completed_the_hopf_shuffle_line_as_a_theorem_program_refinement_the_correct_algebraic_fit_for_the_time_tower_is_the_divided_power_hopf_law_on_one_primitive_generator_and_for_the_mixed_jet_tower_it_is_the_shuffle_unshuffle_or_sy
+  object_role: local formalization object
+  theorem_role: 'Make `Live task: Completed the Hopf/shuffle line as a theorem-program
+    refinement. The correct algebraic fit for the time tower is the divided-power
+    Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
+    or sy` exact enough that later discharge can test it locally.'
   machine_boundary: This packet is machine-derived beyond the frozen core and must
     stay quarantined until later discharge promotes it.
   slots:
@@ -57,15 +57,14 @@ formalization_packet:
   problem_hint: Keep the object classical. Do not smuggle in modified-equation structure.
 grounded_basis:
   labels:
-  - The official Clay target allows either the whole-space branch on R^3 or the periodic
-    branch on T^3.
+  - Global energy or enstrophy control is necessary but not sufficient
   - one-field forward-preservation wall
   - lower-carrier receiver wall
   - collar-to-jump converse pivot
   - Keep theorem scope below the first unsafe overclaim
   - Theorem 2.1 (Classical Closure)
   obligation_ids:
-  - theorem-statement
+  - debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
   - debt-one-field-forward-preservation-wall
   - debt-lower-carrier-receiver-wall
   - debt-collar-to-jump-converse-pivot
@@ -74,9 +73,9 @@ grounded_basis:
 summary:
   formalization_ready: true
   recommended_next_cell_type: dependency-discharge
-  recommended_next_action: 'Use the object-formalization packet for `Define or prove:
-    Reduced the live Navier-Stokes route stack against the Clay whole-space target
-    into exact source-backed ingredients already present on the lane. On the classical
-    side, isolated the mixed-jet system, the exact rung-level can` as the bounded
-    tactic switch, then rerun dependency-discharge on the same obligation instead
-    of reopening another generic backbone loop.'
+  recommended_next_action: 'Use the object-formalization packet for `Live task: Completed
+    the Hopf/shuffle line as a theorem-program refinement. The correct algebraic fit
+    for the time tower is the divided-power Hopf law on one primitive generator, and
+    for the mixed jet tower it is the shuffle/unshuffle or sy` as the bounded tactic
+    switch, then rerun dependency-discharge on the same obligation instead of reopening
+    another generic backbone loop.'

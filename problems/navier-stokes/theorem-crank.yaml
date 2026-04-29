@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-29T18:29:50Z'
+  generated_at: '2026-04-29T18:35:44Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-4c2d137c7c95
-    route_signature: 4c2d137c7c95b7163cadfbb7ad95f93421471039
+    surface_id: theorem-surface-navier-stokes-22bb131a9e38
+    route_signature: 22bb131a9e38c1ee6b6ed0a9400dfe44503a2fc0
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -34,29 +34,25 @@ shared_alignment:
       = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
       not the internal branch itself
     route_slots:
-    - slot_id: marvin-upstream-eb3fabeeac46
-      label: 'Define or prove: Reduced the live Navier-Stokes route stack against
-        the Clay whole-space target into exact source-backed ingredients already present
-        on the lane. On the classical side, isolated the mixed-jet system, the exact
-        rung-level can'
-      kind: definition
-      status: bridge-pending
+    - slot_id: marvin-route-authority-4
+      label: 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+        under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+        and E_sh(X) vanish identically, so the exact Route A'
+      kind: branch-choice
+      status: frontier
       patch_surface: problems/navier-stokes/marvin-ingest-notes.yaml
-    - slot_id: marvin-upstream-ada9835aa864
-      label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m
-        \partial_x^\alpha u and differentiated pressure \Pi_ m,alpha , fix s > 3/2.
-        Using the H^s algebra property and the order-1 Calderon-Zygmund bound for
-        the pressure operator,'
-      kind: definition
-      status: unresolved
+    - slot_id: marvin-route-authority-5
+      label: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
+      kind: branch-choice
+      status: frontier
       patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: marvin-upstream-6d929e8a052a
-      label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-        lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the
-        exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-        red'
-      kind: definition
-      status: unresolved
+    - slot_id: marvin-route-authority-6
+      label: 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
+        The correct algebraic fit for the time tower is the divided-power Hopf law
+        on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
+        or sy'
+      kind: branch-choice
+      status: frontier
       patch_surface: problems/navier-stokes/object-formalization.yaml
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
@@ -107,74 +103,107 @@ shared_alignment:
   alignment_reroute: route-synthesis
 local_derivation:
   status: packetize-and-derive
-  required_packet_count: 2
+  required_packet_count: 3
   required_packets:
-  - packet_id: marvin-upstream-ada9835aa864
-    label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
+  - packet_id: marvin-route-authority-4
+    label: 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+      and E_sh(X) vanish identically, so the exact Route A'
+    packet_kind: branch-choice
+    source_kind: live-solver-target
+    recommended_stage: dependency-discharge
+    target_patch_surface: problems/navier-stokes/marvin-ingest-notes.yaml
     matched_route_slot_labels:
-    - 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T015459Z-d5f90422800c.md
-  - packet_id: marvin-upstream-6d929e8a052a
-    label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
+    - 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+      and E_sh(X) vanish identically, so the exact Route A'
+  - packet_id: marvin-route-authority-5
+    label: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
+    packet_kind: branch-choice
+    source_kind: live-solver-target
+    recommended_stage: dependency-discharge
+    target_patch_surface: problems/navier-stokes/object-formalization.yaml
     matched_route_slot_labels:
-    - 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T020719Z-04949830208e.md
-  leadership_status: leading
-  net_new_local_theorem_count: 6
-  recommended_next_cell_type: object-formalization
+    - 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
+  - packet_id: marvin-route-authority-6
+    label: 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
+      The correct algebraic fit for the time tower is the divided-power Hopf law on
+      one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
+      or sy'
+    packet_kind: branch-choice
+    source_kind: live-solver-target
+    recommended_stage: dependency-discharge
+    target_patch_surface: problems/navier-stokes/object-formalization.yaml
+    matched_route_slot_labels:
+    - 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
+      The correct algebraic fit for the time tower is the divided-power Hopf law on
+      one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
+      or sy'
+  leadership_status: lagging-shared-picture
+  net_new_local_theorem_count: 0
+  recommended_next_cell_type: dependency-discharge
 cross_lane_broadcast:
   status: publish-local-delta
-  local_consequence_count: 6
+  local_consequence_count: 8
   local_consequences:
-  - label: Global energy or enstrophy control is necessary but not sufficient
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: 'obstruction-capture: Core Mechanism'
-  - label: one-field forward-preservation wall
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
-  - label: lower-carrier receiver wall
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
-  - label: collar-to-jump converse pivot
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
-  - label: Keep theorem scope below the first unsafe overclaim
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
   - label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
       Clay whole-space target into exact source-backed ingredients already present
       on the lane. On the classical side, isolated the mixed-jet system, the exact
       rung-level can'
     kind: definition
-    status: bridge-pending
-    origin: local
-    source_anchor: problems/navier-stokes/dependency-discharge.yaml
+    status: localized-support
+    origin: shared-import
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
+      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
+      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
+    kind: definition
+    status: localized-support
+    origin: shared-import
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
+      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
+      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
+      red'
+    kind: definition
+    status: localized-support
+    origin: shared-import
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+      and E_sh(X) vanish identically, so the exact Route '
+    kind: definition
+    status: localized-support
+    origin: shared-import
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - label: 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
+      target.'
+    kind: definition
+    status: localized-support
+    origin: shared-import
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - label: 'Define or prove: Completed the Hopf/shuffle line as a theorem-program
+      refinement. The correct algebraic fit for the time tower is the divided-power
+      Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle'
+    kind: definition
+    status: localized-support
+    origin: shared-import
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - label: 'Define or prove: Formalized the refined direct Lagrangian route as a six-lemma
+      mainline: differentiated Lagrangian decomposition, deformation-adapted energy,
+      ellipticity window, coefficient-commutator absorption, no-loss pressure recovery, '
+    kind: definition
+    status: localized-support
+    origin: shared-import
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - label: 'Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md
+      with a geometry-testing ladder for the elliptic test field W_test = A^T grad
+      Phi solving -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three
+      rungs: (1) ene'
+    kind: definition
+    status: localized-support
+    origin: shared-import
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
   broadcast_paths:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
@@ -188,25 +217,28 @@ auditor:
   open_issue_count: 1
   autofixable_issue_count: 0
   fix_plan_count: 0
-  branch_count: 8
+  branch_count: 40
   live_import_count: 0
-  route_equivalence_count: 0
-  death_certificate_count: 8
+  route_equivalence_count: 35
+  death_certificate_count: 5
   unresolved_branch_terminal_count: 0
 frontier_projection:
   status: ready
   primary_target:
-    label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    recommended_stage: object-formalization
+    label: 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+      and E_sh(X) vanish identically, so the exact Route A'
+    recommended_stage: dependency-discharge
+    target_patch_surface: problems/navier-stokes/marvin-ingest-notes.yaml
   one_step_beyond:
-  - label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    recommended_stage: object-formalization
-  two_steps_beyond: []
+  - label: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
+    recommended_stage: dependency-discharge
+  two_steps_beyond:
+  - label: 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
+      The correct algebraic fit for the time tower is the divided-power Hopf law on
+      one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
+      or sy'
+    recommended_stage: dependency-discharge
   route_pressure:
   - headline: Research OS Theorem Packet
     requested_frontier: 'Theorem packet: Added four theorem-construction reductions.
@@ -215,21 +247,21 @@ frontier_projection:
       the exact Route A'
   - headline: Research OS Theorem Packet
     requested_frontier: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
-  recommended_next_cell_type: object-formalization
+  recommended_next_cell_type: dependency-discharge
 summary:
   phase: local-derivation
   execution_state: needs-reroute
-  leadership_status: leading
+  leadership_status: lagging-shared-picture
   alignment_complete: true
-  exact_local_packet_count: 2
-  net_new_local_theorem_count: 6
-  projected_frontier_count: 1
-  current_open_obligation_count: 9
+  exact_local_packet_count: 3
+  net_new_local_theorem_count: 0
+  projected_frontier_count: 2
+  current_open_obligation_count: 41
   open_obligations_state: not-currently-worked
   on_recommended_track: false
-  recommended_next_cell_type: object-formalization
+  recommended_next_cell_type: dependency-discharge
   audit_status: audited-needs-fix
   branch_terminal_status: all-terminal
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: dependency-discharge
+  current_next_cell_type: object-formalization
   current_next_cell_is_theorem_work: true

@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T18:28:42Z'
+  generated_at: '2026-04-29T18:35:41Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
@@ -49,186 +49,88 @@ obligations:
     Clay whole-space target into exact source-backed ingredients already present on
     the lane. On the classical side, isolated the mixed-jet system, the exact rung-level
     can'
-  status: bridge-pending
-  source_anchor: problems/navier-stokes/marvin-ingest-notes.yaml
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
   notes:
-  - Current packet status is `needs-localization`.
-  - This obligation is not yet discharged locally.
-  - Local source evidence exists, but it is not yet specific enough to promote this
-    obligation beyond `unresolved` safely.
-  - Local source evidence plus the machine formalization packet are strong enough
-    to promote this obligation from `unresolved` to `bridge-pending` without overclaiming
-    it as grounded.
-  discharge_evidence:
-    matched_paths:
-    - problems/navier-stokes/marvin-ingest-notes.yaml
-    - problems/navier-stokes/target-fidelity-discharge-source-pack.md
-    - problems/navier-stokes/claim-ladder.md
-    - problems/navier-stokes/theorem-construction/mpp-material-packet-closure-program.md
-    - problems/navier-stokes/closure-audit-source-pack.md
-    - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
-    - problems/navier-stokes/formalization-ledger.md
-    - problems/navier-stokes/gradient-discharge-source-pack.md
-    support_score: 205
-    signal_strength: strong
-    evidence_hits:
-    - path: problems/navier-stokes/marvin-ingest-notes.yaml
-      line: 5977
-      score: 40
-      label_overlap: 8
-      from_overlap: 8
-      to_overlap: 0
-      excerpt: Clay whole-space target into exact source-backed ingredients already
-        present on
-    - path: problems/navier-stokes/target-fidelity-discharge-source-pack.md
-      line: 10
-      score: 35
-      label_overlap: 7
-      from_overlap: 7
-      to_overlap: 0
-      excerpt: 'The Clay target is the official three-dimensional incompressible Navier-Stokes
-        problem on `R^3` or `T^3`. In the active whole-space branch, the statement
-        is: for every smooth divergence-free rapidly decaying initial datum `u^0`
-        on `R^3`, wi'
-    - path: problems/navier-stokes/claim-ladder.md
-      line: 13
-      score: 25
-      label_overlap: 5
-      from_overlap: 5
-      to_overlap: 0
-      excerpt: "| 9 | A heat-governed deformation or continuation bridge must force
-        continuation control on the same periodic theorem surface | `source-forensics/master-program-analysis.md`,
-        `theorem-construction/torus-projected-flow-extraction.md`, `theor"
-    - path: problems/navier-stokes/theorem-construction/mpp-material-packet-closure-program.md
-      line: 594
-      score: 25
-      label_overlap: 5
-      from_overlap: 5
-      to_overlap: 0
-      excerpt: 10. `problems/navier-stokes/theorem-construction/mixed-jet-cross-rung-pairing-matrix.md`
-    - path: problems/navier-stokes/closure-audit-source-pack.md
-      line: 7
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: "- `debt-frontier-classical-closure-under-same-surface-bridge-discharge-implies-the-clay-whole-space-branch`"
-    - path: problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
-      line: 11
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: The original Navier-Stokes source family does not present the fourth
-        bridge as a
-    - path: problems/navier-stokes/formalization-ledger.md
-      line: 22
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: "- Do not overclaim beyond the lowest safe theorem surface: The official
-        Clay target allows either the whole-space branch on `R^3` or the periodic
-        branch on `T^3`."
-    - path: problems/navier-stokes/gradient-discharge-source-pack.md
-      line: 14
-      score: 20
-      label_overlap: 4
-      from_overlap: 4
-      to_overlap: 0
-      excerpt: We work with a classical approximation family `\{u^{(n)},p^{(n)}\}_{n\in\mathbb{N}}`
-        solving the original three-dimensional incompressible Navier-Stokes system
-    discharge_id: dependency-discharge-navier-stokes
-    bridge_statement: 'Discharge the local bridge for Define or prove: Reduced the
-      live Navier-Stokes route stack against the Clay whole-space target into exact
-      source-backed ingredients already present on the lane. On the classical side,
-      isolated the mixed-jet system, the exact rung-level can without crossing the
-      current safe-claim boundary.'
+  - Current packet status is `localized-support`.
 - obligation_id: marvin-upstream-ada9835aa864
   kind: definition
   label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
     u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
     property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-  status: unresolved
-  source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T015459Z-d5f90422800c.md
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
   notes:
-  - Current packet status is `needs-localization`.
-  - This obligation is not yet discharged locally.
+  - Current packet status is `localized-support`.
 - obligation_id: marvin-upstream-6d929e8a052a
   kind: definition
   label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
     lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
     whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
     red'
-  status: unresolved
-  source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T020719Z-04949830208e.md
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
   notes:
-  - Current packet status is `needs-localization`.
-  - This obligation is not yet discharged locally.
+  - Current packet status is `localized-support`.
 - obligation_id: marvin-upstream-954339945793
   kind: definition
   label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
     under the exact strict-shadow identities already present on the lane, ShadowDef(X)
     and E_sh(X) vanish identically, so the exact Route '
-  status: unresolved
-  source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T020853Z-1ed78e356031.md
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
   notes:
-  - Current packet status is `needs-localization`.
-  - This obligation is not yet discharged locally.
+  - Current packet status is `localized-support`.
 - obligation_id: marvin-upstream-96892bab139f
   kind: definition
   label: 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
     target.'
-  status: unresolved
-  source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T022825Z-ed5d2bb9bea4.md
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
   notes:
-  - Current packet status is `needs-localization`.
-  - This obligation is not yet discharged locally.
+  - Current packet status is `localized-support`.
 - obligation_id: marvin-upstream-409f183ee495
   kind: definition
   label: 'Define or prove: Completed the Hopf/shuffle line as a theorem-program refinement.
     The correct algebraic fit for the time tower is the divided-power Hopf law on
     one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle'
-  status: unresolved
-  source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260407T191622Z-e3045e4591c9.md
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
   notes:
-  - Current packet status is `needs-localization`.
-  - This obligation is not yet discharged locally.
+  - Current packet status is `localized-support`.
 - obligation_id: marvin-upstream-c8f7cb511776
   kind: definition
   label: 'Define or prove: Formalized the refined direct Lagrangian route as a six-lemma
     mainline: differentiated Lagrangian decomposition, deformation-adapted energy,
     ellipticity window, coefficient-commutator absorption, no-loss pressure recovery, '
-  status: unresolved
-  source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260407T194404Z-c14350fd2eb1.md
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
   notes:
-  - Current packet status is `needs-localization`.
-  - This obligation is not yet discharged locally.
+  - Current packet status is `localized-support`.
 - obligation_id: marvin-upstream-e2f5b0a915cf
   kind: definition
   label: 'Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md with
     a geometry-testing ladder for the elliptic test field W_test = A^T grad Phi solving
     -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1)
     ene'
-  status: unresolved
-  source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260407T201618Z-94497e50e8c4.md
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
   notes:
-  - Current packet status is `needs-localization`.
-  - This obligation is not yet discharged locally.
+  - Current packet status is `localized-support`.
 - obligation_id: debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
   kind: lemma
   label: Global energy or enstrophy control is necessary but not sufficient
-  status: structural-only
-  source_anchor: 'obstruction-capture: Core Mechanism'
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
@@ -413,10 +315,91 @@ obligations:
     under the exact strict-shadow identities already present on the lane, ShadowDef(X)
     and E_sh(X) vanish identically, so the exact Route A'
   status: frontier
-  source_anchor: route-synthesis
+  source_anchor: problems/navier-stokes/marvin-ingest-notes.yaml
   blocking: true
   notes:
   - This route choice or blocked frontier is still inside the theorem packet.
+  - Local source evidence exists, but it is not yet specific enough to promote this
+    obligation beyond `frontier` safely.
+  discharge_evidence:
+    matched_paths:
+    - problems/navier-stokes/marvin-ingest-notes.yaml
+    - problems/navier-stokes/live-theorem-edge.yaml
+    - problems/navier-stokes/theorem-construction/d3-commutative-shadow-theorem.md
+    - problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md
+    - problems/navier-stokes/scale-barrier-tail-discharge-source-pack.md
+    - problems/navier-stokes/theorem-construction/clay-discharge-ladder-from-current-reductions.md
+    - problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md
+    - problems/navier-stokes/gradient-discharge-source-pack.md
+    support_score: 195
+    signal_strength: strong
+    evidence_hits:
+    - path: problems/navier-stokes/marvin-ingest-notes.yaml
+      line: 148
+      score: 45
+      label_overlap: 9
+      from_overlap: 9
+      to_overlap: 0
+      excerpt: "- 'Theorem packet: Added four theorem-construction reductions. (1)
+        strict-shadow-no-remainder-corollary.md:"
+    - path: problems/navier-stokes/live-theorem-edge.yaml
+      line: 158
+      score: 25
+      label_overlap: 5
+      from_overlap: 5
+      to_overlap: 0
+      excerpt: "- problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md"
+    - path: problems/navier-stokes/theorem-construction/d3-commutative-shadow-theorem.md
+      line: 20
+      score: 25
+      label_overlap: 5
+      from_overlap: 5
+      to_overlap: 0
+      excerpt: "[strict-shadow-no-remainder-corollary.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md)."
+    - path: problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md
+      line: 50
+      score: 25
+      label_overlap: 5
+      from_overlap: 5
+      to_overlap: 0
+      excerpt: "[strict-shadow-no-remainder-corollary.md](/Users/thomasbirnie/Desktop/ToE/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md)"
+    - path: problems/navier-stokes/scale-barrier-tail-discharge-source-pack.md
+      line: 161
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: More precisely, the strict low-mode pieces are no longer the only live
+        frontier, but the threshold-local spill collar and the repaired high-side
+        packet remain theorem-critical. The genuine high-high packet is tracked in
+        `theorem-constructio
+    - path: problems/navier-stokes/theorem-construction/clay-discharge-ladder-from-current-reductions.md
+      line: 162
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: 3. strict-shadow no-remainder corollary
+    - path: problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md
+      line: 1
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: "# Strict-Shadow No-Remainder Consumer Corollary"
+    - path: problems/navier-stokes/gradient-discharge-source-pack.md
+      line: 82
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: The exact theorem-local coercivity carrier is the object `gradient_transfer_coercivity_lemma`
+        recorded in [theorem-construction/gradient-transfer-coercivity-object.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-sto
+    discharge_id: dependency-discharge-navier-stokes
+    bridge_statement: 'Discharge the local bridge for Theorem packet: Added four theorem-construction
+      reductions. (1) strict-shadow-no-remainder-corollary.md: under the exact strict-shadow
+      identities already present on the lane, ShadowDef(X) and E_sh(X) vanish identically,
+      so the exact Route A without crossing the current safe-claim boundary.'
 - obligation_id: marvin-route-authority-5
   kind: branch-choice
   label: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
@@ -818,22 +801,20 @@ obligations:
   - This route choice or blocked frontier is still inside the theorem packet.
 summary:
   total_obligations: 64
-  grounded_count: 6
-  structural_only_count: 1
+  grounded_count: 15
+  structural_only_count: 0
   structurally_supported_count: 1
-  bridge_pending_count: 6
-  unresolved_count: 10
+  bridge_pending_count: 5
+  unresolved_count: 3
   frontier_count: 40
   bridge_discharge_blocking_count: 0
   theorem_warrant_blocking_count: 0
-  blocking_count: 57
+  blocking_count: 48
   all_discharged: false
   live_theorem_edge_present: true
   live_theorem_edge_branch_count: 0
   live_theorem_edge_blocked_count: 0
 submission_blockers:
-- There are 1 theorem-critical obligations that are only structurally supported and
-  still need source-backed or discharge-backed grounding.
-- There are 10 unresolved proof obligations.
-- There are 6 bridge obligations still awaiting local discharge.
+- There are 3 unresolved proof obligations.
+- There are 5 bridge obligations still awaiting local discharge.
 - There are 40 frontier obligations still inside the theorem packet.

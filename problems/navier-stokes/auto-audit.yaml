@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-04-29T18:28:43Z'
+  audited_at: '2026-04-29T18:35:44Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: conditional-terminal-locally-closed
@@ -18,86 +18,408 @@ audit_certification:
   audit_review_verdict: audited-revise
 branch_audit:
   status: all-terminal
-  branch_count: 8
+  branch_count: 40
   live_import_count: 0
-  route_equivalence_count: 0
-  death_certificate_count: 8
+  route_equivalence_count: 35
+  death_certificate_count: 5
   unresolved_count: 0
   branches:
   - branch_id: branch-navier-stokes-1
-    origin_obligation_id: marvin-upstream-eb3fabeeac46
-    branch_type: object-definition
-    terminal_status: death-certificate
+    origin_obligation_id: marvin-route-authority-4
+    branch_type: route-branch
+    terminal_status: route-equivalence
     exact_reason: This branch starts exactly at the first unresolved frontier for
-      `marvin-upstream-eb3fabeeac46`.
-    promotion_status: rejected
-    falsification_verdict: reject
+      `marvin-route-authority-4`.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
     reasons:
-    - This branch starts exactly at the first unresolved frontier for `marvin-upstream-eb3fabeeac46`.
-    - The branch leans into overclaim or unsafe-closure language.
+    - This branch starts exactly at the first unresolved frontier for `marvin-route-authority-4`.
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
   - branch_id: branch-navier-stokes-2
-    origin_obligation_id: marvin-upstream-ada9835aa864
-    branch_type: object-definition
-    terminal_status: death-certificate
-    exact_reason: The branch leans into overclaim or unsafe-closure language.
-    promotion_status: rejected
-    falsification_verdict: reject
+    origin_obligation_id: marvin-route-authority-5
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
     reasons:
-    - The branch leans into overclaim or unsafe-closure language.
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
   - branch_id: branch-navier-stokes-3
-    origin_obligation_id: marvin-upstream-6d929e8a052a
-    branch_type: object-definition
-    terminal_status: death-certificate
-    exact_reason: The branch leans into overclaim or unsafe-closure language.
-    promotion_status: rejected
-    falsification_verdict: reject
+    origin_obligation_id: marvin-route-authority-6
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
     reasons:
-    - The branch leans into overclaim or unsafe-closure language.
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
   - branch_id: branch-navier-stokes-4
-    origin_obligation_id: marvin-upstream-954339945793
-    branch_type: object-definition
-    terminal_status: death-certificate
-    exact_reason: The branch leans into overclaim or unsafe-closure language.
-    promotion_status: rejected
-    falsification_verdict: reject
+    origin_obligation_id: marvin-route-authority-8
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
     reasons:
-    - The branch leans into overclaim or unsafe-closure language.
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
   - branch_id: branch-navier-stokes-5
-    origin_obligation_id: marvin-upstream-96892bab139f
-    branch_type: object-definition
-    terminal_status: death-certificate
-    exact_reason: The branch leans into overclaim or unsafe-closure language.
-    promotion_status: rejected
-    falsification_verdict: reject
+    origin_obligation_id: marvin-route-authority-9
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
     reasons:
-    - The branch leans into overclaim or unsafe-closure language.
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
   - branch_id: branch-navier-stokes-6
-    origin_obligation_id: marvin-upstream-409f183ee495
-    branch_type: object-definition
-    terminal_status: death-certificate
-    exact_reason: The branch leans into overclaim or unsafe-closure language.
-    promotion_status: rejected
-    falsification_verdict: reject
+    origin_obligation_id: marvin-route-authority-12
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
     reasons:
-    - The branch leans into overclaim or unsafe-closure language.
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
   - branch_id: branch-navier-stokes-7
-    origin_obligation_id: marvin-upstream-c8f7cb511776
-    branch_type: bridge-lemma
-    terminal_status: death-certificate
-    exact_reason: The branch leans into overclaim or unsafe-closure language.
-    promotion_status: rejected
-    falsification_verdict: reject
+    origin_obligation_id: marvin-route-authority-13
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
     reasons:
-    - The branch leans into overclaim or unsafe-closure language.
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
   - branch_id: branch-navier-stokes-8
-    origin_obligation_id: marvin-upstream-e2f5b0a915cf
-    branch_type: bridge-lemma
+    origin_obligation_id: marvin-route-authority-14
+    branch_type: route-branch
     terminal_status: death-certificate
     exact_reason: The branch leans into overclaim or unsafe-closure language.
     promotion_status: rejected
     falsification_verdict: reject
     reasons:
     - The branch leans into overclaim or unsafe-closure language.
+  - branch_id: branch-navier-stokes-9
+    origin_obligation_id: marvin-route-authority-19
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-10
+    origin_obligation_id: marvin-route-authority-22
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-11
+    origin_obligation_id: marvin-route-authority-24
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-12
+    origin_obligation_id: marvin-route-authority-25
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-13
+    origin_obligation_id: marvin-route-authority-26
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-14
+    origin_obligation_id: marvin-route-authority-27
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-15
+    origin_obligation_id: marvin-route-authority-28
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-16
+    origin_obligation_id: marvin-route-authority-31
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-17
+    origin_obligation_id: marvin-route-authority-37
+    branch_type: route-branch
+    terminal_status: death-certificate
+    exact_reason: The branch leans into overclaim or unsafe-closure language.
+    promotion_status: rejected
+    falsification_verdict: reject
+    reasons:
+    - The branch leans into overclaim or unsafe-closure language.
+  - branch_id: branch-navier-stokes-18
+    origin_obligation_id: marvin-route-authority-38
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-19
+    origin_obligation_id: marvin-route-authority-40
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-20
+    origin_obligation_id: marvin-route-authority-42
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-21
+    origin_obligation_id: marvin-route-authority-44
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-22
+    origin_obligation_id: marvin-route-authority-45
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-23
+    origin_obligation_id: marvin-route-authority-48
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-24
+    origin_obligation_id: marvin-route-authority-50
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-25
+    origin_obligation_id: marvin-route-authority-51
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-26
+    origin_obligation_id: marvin-route-authority-53
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-27
+    origin_obligation_id: marvin-route-authority-63
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-28
+    origin_obligation_id: marvin-route-authority-71
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-29
+    origin_obligation_id: marvin-route-authority-74
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-30
+    origin_obligation_id: marvin-route-authority-79
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-31
+    origin_obligation_id: marvin-route-authority-82
+    branch_type: route-branch
+    terminal_status: death-certificate
+    exact_reason: The branch leans into overclaim or unsafe-closure language.
+    promotion_status: rejected
+    falsification_verdict: reject
+    reasons:
+    - The branch leans into overclaim or unsafe-closure language.
+  - branch_id: branch-navier-stokes-32
+    origin_obligation_id: marvin-route-authority-84
+    branch_type: route-branch
+    terminal_status: death-certificate
+    exact_reason: The branch leans into overclaim or unsafe-closure language.
+    promotion_status: rejected
+    falsification_verdict: reject
+    reasons:
+    - The branch leans into overclaim or unsafe-closure language.
+  - branch_id: branch-navier-stokes-33
+    origin_obligation_id: marvin-route-authority-86
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-34
+    origin_obligation_id: marvin-route-authority-90
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-35
+    origin_obligation_id: marvin-route-authority-92
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-36
+    origin_obligation_id: marvin-route-authority-116
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-37
+    origin_obligation_id: marvin-route-authority-118
+    branch_type: route-branch
+    terminal_status: death-certificate
+    exact_reason: The branch leans into overclaim or unsafe-closure language.
+    promotion_status: rejected
+    falsification_verdict: reject
+    reasons:
+    - The branch leans into overclaim or unsafe-closure language.
+  - branch_id: branch-navier-stokes-38
+    origin_obligation_id: marvin-route-authority-119
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-39
+    origin_obligation_id: marvin-route-authority-123
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+  - branch_id: branch-navier-stokes-40
+    origin_obligation_id: marvin-route-authority-125
+    branch_type: route-branch
+    terminal_status: route-equivalence
+    exact_reason: This is a route branch rather than a local theorem bridge, so it
+      stays quarantined.
+    promotion_status: quarantined
+    falsification_verdict: quarantine
+    reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
 graph_snapshot:
   exploration_graph:
     present: true
@@ -109,8 +431,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-97561b55b69b
-    route_signature: 97561b55b69b2ec301892d43c77eeae4854ddf20
+    surface_id: theorem-surface-navier-stokes-4a5a9d59dadb
+    route_signature: 4a5a9d59dadb8d2c2e12b966e942bcded21da730
     theorem_target: conditional terminal class-membership lane closure packet
     theorem_statement: The official Clay target allows either the whole-space branch
       on R^3 or the periodic branch on T^3.
@@ -143,42 +465,42 @@ surface_snapshot:
         on the lane. On the classical side, isolated the mixed-jet system, the exact
         rung-level can'
       kind: definition
-      status: needs-localization
-      source_anchor: problems/navier-stokes/marvin-ingest-notes.yaml
-      patch_surface: problems/navier-stokes/marvin-ingest-notes.yaml
+      status: localized-support
+      source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+      patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
     - slot_id: marvin-upstream-ada9835aa864
       label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m
         \partial_x^\alpha u and differentiated pressure \Pi_ m,alpha , fix s > 3/2.
         Using the H^s algebra property and the order-1 Calderon-Zygmund bound for
         the pressure operator,'
       kind: definition
-      status: needs-localization
-      source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T015459Z-d5f90422800c.md
-      patch_surface: problems/navier-stokes/object-formalization.yaml
+      status: localized-support
+      source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+      patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
     - slot_id: marvin-upstream-6d929e8a052a
       label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
         lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the
         exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
         red'
       kind: definition
-      status: needs-localization
-      source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T020719Z-04949830208e.md
-      patch_surface: problems/navier-stokes/object-formalization.yaml
+      status: localized-support
+      source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+      patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
     - slot_id: marvin-upstream-954339945793
       label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
         under the exact strict-shadow identities already present on the lane, ShadowDef(X)
         and E_sh(X) vanish identically, so the exact Route '
       kind: definition
-      status: needs-localization
-      source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T020853Z-1ed78e356031.md
-      patch_surface: problems/navier-stokes/object-formalization.yaml
+      status: localized-support
+      source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+      patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
     - slot_id: marvin-upstream-96892bab139f
       label: 'Define or prove: Added two new theorem-facing reductions on the Clay
         whole-space target.'
       kind: definition
-      status: needs-localization
-      source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T022825Z-ed5d2bb9bea4.md
-      patch_surface: problems/navier-stokes/object-formalization.yaml
+      status: localized-support
+      source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+      patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
     authority_layers:
       authoritative_proof_surfaces:
       - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_3-_Monotone_Functional.tex"
@@ -246,15 +568,15 @@ surface_snapshot:
       sterilized_synthesis_import_count: 0
   proof_obligation_summary:
     total_obligations: 64
-    grounded_count: 6
-    structural_only_count: 1
+    grounded_count: 15
+    structural_only_count: 0
     structurally_supported_count: 1
-    bridge_pending_count: 6
-    unresolved_count: 10
+    bridge_pending_count: 5
+    unresolved_count: 3
     frontier_count: 40
     bridge_discharge_blocking_count: 0
     theorem_warrant_blocking_count: 0
-    blocking_count: 57
+    blocking_count: 48
     all_discharged: false
     live_theorem_edge_present: true
     live_theorem_edge_branch_count: 0

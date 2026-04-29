@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-29T18:27:54Z'
+  generated_at: '2026-04-29T18:33:57Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -14,6 +14,30 @@ theorem_statement: The official Clay target allows either the whole-space branch
 source_grounded_chain:
 - The official Clay target allows either the whole-space branch on R^3 or the periodic
   branch on T^3.
+- 'Define or prove: Reduced the live Navier-Stokes route stack against the Clay whole-space
+  target into exact source-backed ingredients already present on the lane. On the
+  classical side, isolated the mixed-jet system, the exact rung-level can'
+- 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
+  u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
+  property and the order-1 Calderon-Zygmund bound for the pressure operator,'
+- 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes lane.
+  First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact whole-tower
+  inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2, red'
+- 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+  under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+  and E_sh(X) vanish identically, so the exact Route '
+- 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
+  target.'
+- 'Define or prove: Completed the Hopf/shuffle line as a theorem-program refinement.
+  The correct algebraic fit for the time tower is the divided-power Hopf law on one
+  primitive generator, and for the mixed jet tower it is the shuffle/unshuffle'
+- 'Define or prove: Formalized the refined direct Lagrangian route as a six-lemma
+  mainline: differentiated Lagrangian decomposition, deformation-adapted energy, ellipticity
+  window, coefficient-commutator absorption, no-loss pressure recovery, '
+- 'Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md with a geometry-testing
+  ladder for the elliptic test field W_test = A^T grad Phi solving -div_a(G grad Phi)=div_a
+  Z_alpha. The note now distinguishes three rungs: (1) ene'
+- Global energy or enstrophy control is necessary but not sufficient
 - one-field forward-preservation wall
 - lower-carrier receiver wall
 - collar-to-jump converse pivot
@@ -21,56 +45,255 @@ source_grounded_chain:
 - Theorem 2.1 (Classical Closure)
 tentative_extension_chain: []
 remaining_open_obligations:
-- obligation_id: marvin-upstream-eb3fabeeac46
-  label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-    Clay whole-space target into exact source-backed ingredients already present on
-    the lane. On the classical side, isolated the mixed-jet system, the exact rung-level
-    can'
-  kind: definition
-  status: bridge-pending
-- obligation_id: marvin-upstream-ada9835aa864
-  label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-    u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-    property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-  kind: definition
-  status: unresolved
-- obligation_id: marvin-upstream-6d929e8a052a
-  label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-    lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-    whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-    red'
-  kind: definition
-  status: unresolved
-- obligation_id: marvin-upstream-954339945793
-  label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+- obligation_id: marvin-route-authority-4
+  label: 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
     under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-    and E_sh(X) vanish identically, so the exact Route '
-  kind: definition
-  status: unresolved
-- obligation_id: marvin-upstream-96892bab139f
-  label: 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
-    target.'
-  kind: definition
-  status: unresolved
-- obligation_id: marvin-upstream-409f183ee495
-  label: 'Define or prove: Completed the Hopf/shuffle line as a theorem-program refinement.
+    and E_sh(X) vanish identically, so the exact Route A'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-5
+  label: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-6
+  label: 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
     The correct algebraic fit for the time tower is the divided-power Hopf law on
-    one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle'
-  kind: definition
-  status: unresolved
-- obligation_id: marvin-upstream-c8f7cb511776
-  label: 'Define or prove: Formalized the refined direct Lagrangian route as a six-lemma
+    one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
+    or sy'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-8
+  label: 'Live task: Built an honest attack package for the three remaining hopf/shuffle
+    endgame gaps. Gap 1: the jet quotient is explicit after killing pressure and transport,
+    but the lifted quotient still fails to close because scale/time/divergenc'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-9
+  label: 'Live task: Formalized the refined direct Lagrangian route as a six-lemma
     mainline: differentiated Lagrangian decomposition, deformation-adapted energy,
-    ellipticity window, coefficient-commutator absorption, no-loss pressure recovery, '
-  kind: definition
-  status: unresolved
-- obligation_id: marvin-upstream-e2f5b0a915cf
-  label: 'Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md with
-    a geometry-testing ladder for the elliptic test field W_test = A^T grad Phi solving
-    -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1)
-    ene'
-  kind: definition
-  status: unresolved
+    ellipticity window, coefficient-commutator absorption, no-loss pressure recovery,
+    and La'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-12
+  label: 'Live task: Updated lemma-4b-no-loss-pressure-recovery-attack.md with a geometry-testing
+    ladder for the elliptic test field W_test = A^T grad Phi solving -div_a(G grad
+    Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1) energy-le'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-13
+  label: 'Headline: Verified Route A reduction and isolated the remaining coefficient-window
+    obstruction'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-14
+  label: 'Live task: Updated lemma-4b-no-loss-pressure-recovery-attack.md to replace
+    the old formal Route A candidate with an exact verified reduction. The note now
+    proves div X_pr = -L_G P_alpha - div R_alpha for X_pr = div_a(AG∇_a U_alpha),
+    P_alpha'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-19
+  label: 'Live task: Pushed the theory forward on the Lagrangian Stokes bridge. Verified
+    that a genuine frozen NS time slice with F_*=∇_a X_*, A_*=F_*^{-1}, G_*=A_*A_*^T
+    is exactly conjugate to classical Stokes by the frozen nonlinear map x=X_*(a);
+    s'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-22
+  label: 'Live task: Exact frozen-flow-map reduction now discharges the genuine frozen
+    spatially varying slice: the frozen Lagrangian Stokes system is exactly conjugate
+    to classical Stokes by the frozen flow map. The evolving bridge is now rewritten'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-24
+  label: 'Live task: The short-slab bridge has been sharpened again. U1 is now effectively
+    discharged on the slab surface: in the Bogovskii-corrected formulation one may
+    take Pi = pi exactly, so there is no independent pressure-transfer term, and the'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-25
+  label: 'Live task: Current far-corona route has been tightened materially. On the
+    shell-pair commutator surface, an amplitude-free absorption theorem |C_{m,j}|
+    <= eps nu D_j + K_N is structurally false by scaling, because C_{m,j} is cubic
+    in the ve'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-26
+  label: 'Headline: Far-corona route pivot: amplitude-free shell absorption false;
+    coefficient-bearing shell-pair branch closes on upgraded carrier'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-27
+  label: 'Headline: Fixed-collar coefficient branch closes on upgraded carrier; exact
+    external bridge measures are nu_N and mu_N'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-28
+  label: 'Live task: Pushed the far-corona route forward in theorem-grade form. First,
+    the amplitude-free shell-pair absorption fantasy is ruled out by scaling: the
+    shell-pair commutator is cubic in amplitude while D_j is quadratic, so no estimate
+    of'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-31
+  label: 'Live task: Sharpened the reserve globalization program after the capwise
+    signed defect step. The safe sign scale is now the net cap-graph coercive coefficient
+    kappa_j^{net}=inf_omega(d_{j,omega}-o_{j,omega}) rather than a prematurely fixed'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-37
+  label: 'Define or prove: The Navier-Stokes selector program has been sharpened further
+    on disk. The new packet transported-phase-space-selector-theorem-candidate.md
+    now treats the remaining carrier verification as a selector/localizer theorem
+    on to'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-38
+  label: 'Live task: The Navier-Stokes selector program has been sharpened further
+    on disk. The new packet transported-phase-space-selector-theorem-candidate.md
+    now treats the remaining carrier verification as a selector/localizer theorem
+    on top of t'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-40
+  label: 'Live task: Navier-Stokes selector packet sharpened further. In transported-phase-space-selector-theorem-candidate.md,
+    the dynamic burden is no longer only the vanishing-bad-set lemma `(TPS.4h)`-`(TPS.4i)`.
+    Added `TPS-ns-crit`, reducing `(TP'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-42
+  label: 'Live task: Transported selector dynamic packet improved further. In transported-phase-space-selector-theorem-candidate.md,
+    added two reserve sufficient mechanisms for the bespoke dynamic burden `(TPS.4i)`:
+    `(TPS.4r)`-`(TPS.4w)` measure-line'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-44
+  label: 'Live task: Further dynamic-route sharpening landed. In transported-phase-space-selector-theorem-candidate.md,
+    added `TPS-drift-collapse` `(TPS.4ab)`-`(TPS.4ah)`: if bad-pair mass vanishes,
+    initial selector gaps are tight, good active pairs'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-45
+  label: 'Live task: Internet-backed route sweep integrated into the selector packet.
+    Added normalized theorem family `TPS.4(*)` `(TPS.4ai)`-`(TPS.4am)`: one common
+    Lagrangian bad set, one common overlap law, three dynamic mechanisms (selector-label'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-48
+  label: 'Live task: Promoted the remaining dynamic wall to a single named theorem
+    in transported-phase-space-selector-theorem-candidate.md: `TPS-ns-good-set-transversality`.
+    This bundles the good-set measure condition with pairwise measurable linear'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-50
+  label: 'Live task: Refined the dynamic core theorem in transported-phase-space-selector-theorem-candidate.md.
+    Replaced the placeholder transversality theorem with a cleaner named packet `TPS-ns-good-set`
+    using dedicated GS.* hypotheses: good select'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-51
+  label: 'Live task: Further corrected the dynamic selector packet. The scalar-label
+    section in transported-phase-space-selector-theorem-candidate.md no longer presents
+    `alpha_j` as a candidate primitive object on the live carrier. It now states expl'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-53
+  label: 'Live task: The dynamic selector packet is now internally corrected and tightened.
+    The local pairwise nonshadowing criterion uses an oriented observable m_{Q,Q''}
+    with one-sided drift in the shadow zone, not d/dt|m|. The good-set theorem and'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-63
+  label: 'Headline: Formalized HWY contradiction packet and direct SG.4 realization
+    from fresh-angle lambda2-plus feed'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-71
+  label: 'Live task: Tightened the live Navier-Stokes SG.4 bridge packet inside problems/navier-stokes
+    only. In the selector-observability proof attempt, promoted the already implicit
+    residual pairwise closure into the exact named theorem: after the'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-74
+  label: 'Live task: Integrated the user-supplied theorem-bearing refinement into
+    the Navier-Stokes SG.4 packet. The live theorem notes now make the branch-sensitive
+    endgame explicit: the exact remaining general burden is still the residual pairwise'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-79
+  label: 'Live task: Integrated the new theorem-bearing clarification of the open
+    SG.4 bridge. The exact-potential / cycle-exact branch is now packaged explicitly
+    as the preferred local endgame: a cycle-exact polarization lemma defines the expanding'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-82
+  label: 'Live task: Refined the exact-potential PD.70z endgame one step further.
+    The selector bridge note now proves the formal simple-top reduction from the angle
+    variable alpha_J=1-(e_ab·n_J)^2 to the one-sided directional deficit and strip
+    budget'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-84
+  label: 'Live task: Refined the cycle-exact normal-covector route further. The route
+    note now proves a finite-measure square-root upgrade from the weighted L4 closure
+    CN.13 to the directional ledger E_dir^perp on selector-good strips: if the pair/ti'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-86
+  label: 'Live task: Integrated the exact theorem-bearing closure the user supplied.
+    The selector bridge note now contains a formal theorem-schema no-go proposition:
+    signless W_J, its current PDE coercive bounds, and cycle exactness do not suffice
+    to'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-90
+  label: 'Live task: Searched for abstract non-NS replacements for the cycle-exact
+    alignment idea and did not find a source-backed route that is genuinely better.
+    The nearest abstract competitors are Davis-Kahan style eigenspace perturbation,
+    dominat'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-92
+  label: 'Live task: Abstract external search did not produce a source-backed proof
+    of the final selector calibration, but it did produce a cleaner theorem formulation
+    than the older polarity-map packet. The exact-potential simple-top branch is now
+    b'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-116
+  label: 'Live task: Strengthened the YM/deformation theorem schema in the spectral
+    transversality bridge note. The better repo-style target is not a monolithic theorem
+    ''YM/deformation implies PSJ+.SST''. That over-hides the live obligations. The
+    shar'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-118
+  label: 'Define or prove: Improved the YM/deformation route target beyond the earlier
+    DG-PSJ stack. The sharper repo-native factorization is now DG-Line (deformation
+    drain plus DG-SF builds a rank-one carrier inside the coarse expanding plane with
+    g'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-119
+  label: 'Live task: Improved the YM/deformation route target beyond the earlier DG-PSJ
+    stack. The sharper repo-native factorization is now DG-Line (deformation drain
+    plus DG-SF builds a rank-one carrier inside the coarse expanding plane with gap/dri'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-123
+  label: 'Live task: Sharpened the YM/deformation exact-potential closure route on
+    the Navier-Stokes lane. In problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md,
+    replaced the vague A-D bridge discussion with'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-125
+  label: "`LCI.A` supplies lower-carrier integrability on the moving collar. `FCI.5f`
+    supplies the frozen-family source ledger. The collar Sobolev propagation theorem
+    yields `CSP.A`. The one-field forward preservation theorem consumes `CSP.A` and
+    the"
+  kind: branch-choice
+  status: frontier
 - obligation_id: warrant-theorem-2.1
   label: Theorem 2.1 (Classical Closure)
   kind: theorem-warrant
@@ -78,89 +301,552 @@ remaining_open_obligations:
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
   math_frontier_obligations:
-  - obligation_id: marvin-upstream-eb3fabeeac46
-    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-      Clay whole-space target into exact source-backed ingredients already present
-      on the lane. On the classical side, isolated the mixed-jet system, the exact
-      rung-level can'
-    kind: definition
-    status: bridge-pending
-  - obligation_id: marvin-upstream-ada9835aa864
-    label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    kind: definition
-    status: unresolved
-  - obligation_id: marvin-upstream-6d929e8a052a
-    label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    kind: definition
-    status: unresolved
-  - obligation_id: marvin-upstream-954339945793
-    label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+  - obligation_id: marvin-route-authority-4
+    label: 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
       under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-      and E_sh(X) vanish identically, so the exact Route '
-    kind: definition
-    status: unresolved
-  - obligation_id: marvin-upstream-96892bab139f
-    label: 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
-      target.'
-    kind: definition
-    status: unresolved
-  - obligation_id: marvin-upstream-409f183ee495
-    label: 'Define or prove: Completed the Hopf/shuffle line as a theorem-program
-      refinement. The correct algebraic fit for the time tower is the divided-power
-      Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle'
-    kind: definition
-    status: unresolved
-  - obligation_id: marvin-upstream-c8f7cb511776
-    label: 'Define or prove: Formalized the refined direct Lagrangian route as a six-lemma
+      and E_sh(X) vanish identically, so the exact Route A'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-5
+    label: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-6
+    label: 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
+      The correct algebraic fit for the time tower is the divided-power Hopf law on
+      one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
+      or sy'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-8
+    label: 'Live task: Built an honest attack package for the three remaining hopf/shuffle
+      endgame gaps. Gap 1: the jet quotient is explicit after killing pressure and
+      transport, but the lifted quotient still fails to close because scale/time/divergenc'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-9
+    label: 'Live task: Formalized the refined direct Lagrangian route as a six-lemma
       mainline: differentiated Lagrangian decomposition, deformation-adapted energy,
-      ellipticity window, coefficient-commutator absorption, no-loss pressure recovery, '
-    kind: definition
-    status: unresolved
-  - obligation_id: marvin-upstream-e2f5b0a915cf
-    label: 'Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md
-      with a geometry-testing ladder for the elliptic test field W_test = A^T grad
-      Phi solving -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three
-      rungs: (1) ene'
-    kind: definition
-    status: unresolved
+      ellipticity window, coefficient-commutator absorption, no-loss pressure recovery,
+      and La'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-12
+    label: 'Live task: Updated lemma-4b-no-loss-pressure-recovery-attack.md with a
+      geometry-testing ladder for the elliptic test field W_test = A^T grad Phi solving
+      -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1)
+      energy-le'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-13
+    label: 'Headline: Verified Route A reduction and isolated the remaining coefficient-window
+      obstruction'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-14
+    label: 'Live task: Updated lemma-4b-no-loss-pressure-recovery-attack.md to replace
+      the old formal Route A candidate with an exact verified reduction. The note
+      now proves div X_pr = -L_G P_alpha - div R_alpha for X_pr = div_a(AG∇_a U_alpha),
+      P_alpha'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-19
+    label: 'Live task: Pushed the theory forward on the Lagrangian Stokes bridge.
+      Verified that a genuine frozen NS time slice with F_*=∇_a X_*, A_*=F_*^{-1},
+      G_*=A_*A_*^T is exactly conjugate to classical Stokes by the frozen nonlinear
+      map x=X_*(a); s'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-22
+    label: 'Live task: Exact frozen-flow-map reduction now discharges the genuine
+      frozen spatially varying slice: the frozen Lagrangian Stokes system is exactly
+      conjugate to classical Stokes by the frozen flow map. The evolving bridge is
+      now rewritten'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-24
+    label: 'Live task: The short-slab bridge has been sharpened again. U1 is now effectively
+      discharged on the slab surface: in the Bogovskii-corrected formulation one may
+      take Pi = pi exactly, so there is no independent pressure-transfer term, and
+      the'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-25
+    label: 'Live task: Current far-corona route has been tightened materially. On
+      the shell-pair commutator surface, an amplitude-free absorption theorem |C_{m,j}|
+      <= eps nu D_j + K_N is structurally false by scaling, because C_{m,j} is cubic
+      in the ve'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-26
+    label: 'Headline: Far-corona route pivot: amplitude-free shell absorption false;
+      coefficient-bearing shell-pair branch closes on upgraded carrier'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-27
+    label: 'Headline: Fixed-collar coefficient branch closes on upgraded carrier;
+      exact external bridge measures are nu_N and mu_N'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-28
+    label: 'Live task: Pushed the far-corona route forward in theorem-grade form.
+      First, the amplitude-free shell-pair absorption fantasy is ruled out by scaling:
+      the shell-pair commutator is cubic in amplitude while D_j is quadratic, so no
+      estimate of'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-31
+    label: 'Live task: Sharpened the reserve globalization program after the capwise
+      signed defect step. The safe sign scale is now the net cap-graph coercive coefficient
+      kappa_j^{net}=inf_omega(d_{j,omega}-o_{j,omega}) rather than a prematurely fixed'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-37
+    label: 'Define or prove: The Navier-Stokes selector program has been sharpened
+      further on disk. The new packet transported-phase-space-selector-theorem-candidate.md
+      now treats the remaining carrier verification as a selector/localizer theorem
+      on to'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-38
+    label: 'Live task: The Navier-Stokes selector program has been sharpened further
+      on disk. The new packet transported-phase-space-selector-theorem-candidate.md
+      now treats the remaining carrier verification as a selector/localizer theorem
+      on top of t'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-40
+    label: 'Live task: Navier-Stokes selector packet sharpened further. In transported-phase-space-selector-theorem-candidate.md,
+      the dynamic burden is no longer only the vanishing-bad-set lemma `(TPS.4h)`-`(TPS.4i)`.
+      Added `TPS-ns-crit`, reducing `(TP'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-42
+    label: 'Live task: Transported selector dynamic packet improved further. In transported-phase-space-selector-theorem-candidate.md,
+      added two reserve sufficient mechanisms for the bespoke dynamic burden `(TPS.4i)`:
+      `(TPS.4r)`-`(TPS.4w)` measure-line'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-44
+    label: 'Live task: Further dynamic-route sharpening landed. In transported-phase-space-selector-theorem-candidate.md,
+      added `TPS-drift-collapse` `(TPS.4ab)`-`(TPS.4ah)`: if bad-pair mass vanishes,
+      initial selector gaps are tight, good active pairs'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-45
+    label: 'Live task: Internet-backed route sweep integrated into the selector packet.
+      Added normalized theorem family `TPS.4(*)` `(TPS.4ai)`-`(TPS.4am)`: one common
+      Lagrangian bad set, one common overlap law, three dynamic mechanisms (selector-label'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-48
+    label: 'Live task: Promoted the remaining dynamic wall to a single named theorem
+      in transported-phase-space-selector-theorem-candidate.md: `TPS-ns-good-set-transversality`.
+      This bundles the good-set measure condition with pairwise measurable linear'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-50
+    label: 'Live task: Refined the dynamic core theorem in transported-phase-space-selector-theorem-candidate.md.
+      Replaced the placeholder transversality theorem with a cleaner named packet
+      `TPS-ns-good-set` using dedicated GS.* hypotheses: good select'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-51
+    label: 'Live task: Further corrected the dynamic selector packet. The scalar-label
+      section in transported-phase-space-selector-theorem-candidate.md no longer presents
+      `alpha_j` as a candidate primitive object on the live carrier. It now states
+      expl'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-53
+    label: 'Live task: The dynamic selector packet is now internally corrected and
+      tightened. The local pairwise nonshadowing criterion uses an oriented observable
+      m_{Q,Q''} with one-sided drift in the shadow zone, not d/dt|m|. The good-set
+      theorem and'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-63
+    label: 'Headline: Formalized HWY contradiction packet and direct SG.4 realization
+      from fresh-angle lambda2-plus feed'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-71
+    label: 'Live task: Tightened the live Navier-Stokes SG.4 bridge packet inside
+      problems/navier-stokes only. In the selector-observability proof attempt, promoted
+      the already implicit residual pairwise closure into the exact named theorem:
+      after the'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-74
+    label: 'Live task: Integrated the user-supplied theorem-bearing refinement into
+      the Navier-Stokes SG.4 packet. The live theorem notes now make the branch-sensitive
+      endgame explicit: the exact remaining general burden is still the residual pairwise'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-79
+    label: 'Live task: Integrated the new theorem-bearing clarification of the open
+      SG.4 bridge. The exact-potential / cycle-exact branch is now packaged explicitly
+      as the preferred local endgame: a cycle-exact polarization lemma defines the
+      expanding'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-82
+    label: 'Live task: Refined the exact-potential PD.70z endgame one step further.
+      The selector bridge note now proves the formal simple-top reduction from the
+      angle variable alpha_J=1-(e_ab·n_J)^2 to the one-sided directional deficit and
+      strip budget'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-84
+    label: 'Live task: Refined the cycle-exact normal-covector route further. The
+      route note now proves a finite-measure square-root upgrade from the weighted
+      L4 closure CN.13 to the directional ledger E_dir^perp on selector-good strips:
+      if the pair/ti'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-86
+    label: 'Live task: Integrated the exact theorem-bearing closure the user supplied.
+      The selector bridge note now contains a formal theorem-schema no-go proposition:
+      signless W_J, its current PDE coercive bounds, and cycle exactness do not suffice
+      to'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-90
+    label: 'Live task: Searched for abstract non-NS replacements for the cycle-exact
+      alignment idea and did not find a source-backed route that is genuinely better.
+      The nearest abstract competitors are Davis-Kahan style eigenspace perturbation,
+      dominat'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-92
+    label: 'Live task: Abstract external search did not produce a source-backed proof
+      of the final selector calibration, but it did produce a cleaner theorem formulation
+      than the older polarity-map packet. The exact-potential simple-top branch is
+      now b'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-116
+    label: 'Live task: Strengthened the YM/deformation theorem schema in the spectral
+      transversality bridge note. The better repo-style target is not a monolithic
+      theorem ''YM/deformation implies PSJ+.SST''. That over-hides the live obligations.
+      The shar'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-118
+    label: 'Define or prove: Improved the YM/deformation route target beyond the earlier
+      DG-PSJ stack. The sharper repo-native factorization is now DG-Line (deformation
+      drain plus DG-SF builds a rank-one carrier inside the coarse expanding plane
+      with g'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-119
+    label: 'Live task: Improved the YM/deformation route target beyond the earlier
+      DG-PSJ stack. The sharper repo-native factorization is now DG-Line (deformation
+      drain plus DG-SF builds a rank-one carrier inside the coarse expanding plane
+      with gap/dri'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-123
+    label: 'Live task: Sharpened the YM/deformation exact-potential closure route
+      on the Navier-Stokes lane. In problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md,
+      replaced the vague A-D bridge discussion with'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-125
+    label: "`LCI.A` supplies lower-carrier integrability on the moving collar. `FCI.5f`
+      supplies the frozen-family source ledger. The collar Sobolev propagation theorem
+      yields `CSP.A`. The one-field forward preservation theorem consumes `CSP.A`
+      and the"
+    kind: branch-choice
+    status: frontier
   theorem_warrant_obligations:
   - obligation_id: warrant-theorem-2.1
     label: Theorem 2.1 (Classical Closure)
     kind: theorem-warrant
     status: bridge-pending
 frontier_context:
-  route_container_obligations: []
-  downstream_support_obligations: []
+  route_container_obligations:
+  - obligation_id: marvin-route-authority-4
+    label: 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+      and E_sh(X) vanish identically, so the exact Route A'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-5
+    label: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-6
+    label: 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
+      The correct algebraic fit for the time tower is the divided-power Hopf law on
+      one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
+      or sy'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-8
+    label: 'Live task: Built an honest attack package for the three remaining hopf/shuffle
+      endgame gaps. Gap 1: the jet quotient is explicit after killing pressure and
+      transport, but the lifted quotient still fails to close because scale/time/divergenc'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-9
+    label: 'Live task: Formalized the refined direct Lagrangian route as a six-lemma
+      mainline: differentiated Lagrangian decomposition, deformation-adapted energy,
+      ellipticity window, coefficient-commutator absorption, no-loss pressure recovery,
+      and La'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-12
+    label: 'Live task: Updated lemma-4b-no-loss-pressure-recovery-attack.md with a
+      geometry-testing ladder for the elliptic test field W_test = A^T grad Phi solving
+      -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1)
+      energy-le'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-13
+    label: 'Headline: Verified Route A reduction and isolated the remaining coefficient-window
+      obstruction'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-14
+    label: 'Live task: Updated lemma-4b-no-loss-pressure-recovery-attack.md to replace
+      the old formal Route A candidate with an exact verified reduction. The note
+      now proves div X_pr = -L_G P_alpha - div R_alpha for X_pr = div_a(AG∇_a U_alpha),
+      P_alpha'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-19
+    label: 'Live task: Pushed the theory forward on the Lagrangian Stokes bridge.
+      Verified that a genuine frozen NS time slice with F_*=∇_a X_*, A_*=F_*^{-1},
+      G_*=A_*A_*^T is exactly conjugate to classical Stokes by the frozen nonlinear
+      map x=X_*(a); s'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-22
+    label: 'Live task: Exact frozen-flow-map reduction now discharges the genuine
+      frozen spatially varying slice: the frozen Lagrangian Stokes system is exactly
+      conjugate to classical Stokes by the frozen flow map. The evolving bridge is
+      now rewritten'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-25
+    label: 'Live task: Current far-corona route has been tightened materially. On
+      the shell-pair commutator surface, an amplitude-free absorption theorem |C_{m,j}|
+      <= eps nu D_j + K_N is structurally false by scaling, because C_{m,j} is cubic
+      in the ve'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-26
+    label: 'Headline: Far-corona route pivot: amplitude-free shell absorption false;
+      coefficient-bearing shell-pair branch closes on upgraded carrier'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-27
+    label: 'Headline: Fixed-collar coefficient branch closes on upgraded carrier;
+      exact external bridge measures are nu_N and mu_N'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-28
+    label: 'Live task: Pushed the far-corona route forward in theorem-grade form.
+      First, the amplitude-free shell-pair absorption fantasy is ruled out by scaling:
+      the shell-pair commutator is cubic in amplitude while D_j is quadratic, so no
+      estimate of'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-31
+    label: 'Live task: Sharpened the reserve globalization program after the capwise
+      signed defect step. The safe sign scale is now the net cap-graph coercive coefficient
+      kappa_j^{net}=inf_omega(d_{j,omega}-o_{j,omega}) rather than a prematurely fixed'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-37
+    label: 'Define or prove: The Navier-Stokes selector program has been sharpened
+      further on disk. The new packet transported-phase-space-selector-theorem-candidate.md
+      now treats the remaining carrier verification as a selector/localizer theorem
+      on to'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-38
+    label: 'Live task: The Navier-Stokes selector program has been sharpened further
+      on disk. The new packet transported-phase-space-selector-theorem-candidate.md
+      now treats the remaining carrier verification as a selector/localizer theorem
+      on top of t'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-40
+    label: 'Live task: Navier-Stokes selector packet sharpened further. In transported-phase-space-selector-theorem-candidate.md,
+      the dynamic burden is no longer only the vanishing-bad-set lemma `(TPS.4h)`-`(TPS.4i)`.
+      Added `TPS-ns-crit`, reducing `(TP'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-42
+    label: 'Live task: Transported selector dynamic packet improved further. In transported-phase-space-selector-theorem-candidate.md,
+      added two reserve sufficient mechanisms for the bespoke dynamic burden `(TPS.4i)`:
+      `(TPS.4r)`-`(TPS.4w)` measure-line'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-44
+    label: 'Live task: Further dynamic-route sharpening landed. In transported-phase-space-selector-theorem-candidate.md,
+      added `TPS-drift-collapse` `(TPS.4ab)`-`(TPS.4ah)`: if bad-pair mass vanishes,
+      initial selector gaps are tight, good active pairs'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-45
+    label: 'Live task: Internet-backed route sweep integrated into the selector packet.
+      Added normalized theorem family `TPS.4(*)` `(TPS.4ai)`-`(TPS.4am)`: one common
+      Lagrangian bad set, one common overlap law, three dynamic mechanisms (selector-label'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-48
+    label: 'Live task: Promoted the remaining dynamic wall to a single named theorem
+      in transported-phase-space-selector-theorem-candidate.md: `TPS-ns-good-set-transversality`.
+      This bundles the good-set measure condition with pairwise measurable linear'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-50
+    label: 'Live task: Refined the dynamic core theorem in transported-phase-space-selector-theorem-candidate.md.
+      Replaced the placeholder transversality theorem with a cleaner named packet
+      `TPS-ns-good-set` using dedicated GS.* hypotheses: good select'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-51
+    label: 'Live task: Further corrected the dynamic selector packet. The scalar-label
+      section in transported-phase-space-selector-theorem-candidate.md no longer presents
+      `alpha_j` as a candidate primitive object on the live carrier. It now states
+      expl'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-53
+    label: 'Live task: The dynamic selector packet is now internally corrected and
+      tightened. The local pairwise nonshadowing criterion uses an oriented observable
+      m_{Q,Q''} with one-sided drift in the shadow zone, not d/dt|m|. The good-set
+      theorem and'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-63
+    label: 'Headline: Formalized HWY contradiction packet and direct SG.4 realization
+      from fresh-angle lambda2-plus feed'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-71
+    label: 'Live task: Tightened the live Navier-Stokes SG.4 bridge packet inside
+      problems/navier-stokes only. In the selector-observability proof attempt, promoted
+      the already implicit residual pairwise closure into the exact named theorem:
+      after the'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-74
+    label: 'Live task: Integrated the user-supplied theorem-bearing refinement into
+      the Navier-Stokes SG.4 packet. The live theorem notes now make the branch-sensitive
+      endgame explicit: the exact remaining general burden is still the residual pairwise'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-79
+    label: 'Live task: Integrated the new theorem-bearing clarification of the open
+      SG.4 bridge. The exact-potential / cycle-exact branch is now packaged explicitly
+      as the preferred local endgame: a cycle-exact polarization lemma defines the
+      expanding'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-82
+    label: 'Live task: Refined the exact-potential PD.70z endgame one step further.
+      The selector bridge note now proves the formal simple-top reduction from the
+      angle variable alpha_J=1-(e_ab·n_J)^2 to the one-sided directional deficit and
+      strip budget'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-84
+    label: 'Live task: Refined the cycle-exact normal-covector route further. The
+      route note now proves a finite-measure square-root upgrade from the weighted
+      L4 closure CN.13 to the directional ledger E_dir^perp on selector-good strips:
+      if the pair/ti'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-86
+    label: 'Live task: Integrated the exact theorem-bearing closure the user supplied.
+      The selector bridge note now contains a formal theorem-schema no-go proposition:
+      signless W_J, its current PDE coercive bounds, and cycle exactness do not suffice
+      to'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-90
+    label: 'Live task: Searched for abstract non-NS replacements for the cycle-exact
+      alignment idea and did not find a source-backed route that is genuinely better.
+      The nearest abstract competitors are Davis-Kahan style eigenspace perturbation,
+      dominat'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-92
+    label: 'Live task: Abstract external search did not produce a source-backed proof
+      of the final selector calibration, but it did produce a cleaner theorem formulation
+      than the older polarity-map packet. The exact-potential simple-top branch is
+      now b'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-116
+    label: 'Live task: Strengthened the YM/deformation theorem schema in the spectral
+      transversality bridge note. The better repo-style target is not a monolithic
+      theorem ''YM/deformation implies PSJ+.SST''. That over-hides the live obligations.
+      The shar'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-118
+    label: 'Define or prove: Improved the YM/deformation route target beyond the earlier
+      DG-PSJ stack. The sharper repo-native factorization is now DG-Line (deformation
+      drain plus DG-SF builds a rank-one carrier inside the coarse expanding plane
+      with g'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-119
+    label: 'Live task: Improved the YM/deformation route target beyond the earlier
+      DG-PSJ stack. The sharper repo-native factorization is now DG-Line (deformation
+      drain plus DG-SF builds a rank-one carrier inside the coarse expanding plane
+      with gap/dri'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-123
+    label: 'Live task: Sharpened the YM/deformation exact-potential closure route
+      on the Navier-Stokes lane. In problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md,
+      replaced the vague A-D bridge discussion with'
+    kind: branch-choice
+    status: frontier
+  - obligation_id: marvin-route-authority-125
+    label: "`LCI.A` supplies lower-carrier integrability on the moving collar. `FCI.5f`
+      supplies the frozen-family source ledger. The collar Sobolev propagation theorem
+      yields `CSP.A`. The one-field forward preservation theorem consumes `CSP.A`
+      and the"
+    kind: branch-choice
+    status: frontier
+  downstream_support_obligations:
+  - obligation_id: marvin-route-authority-24
+    label: 'Live task: The short-slab bridge has been sharpened again. U1 is now effectively
+      discharged on the slab surface: in the Bogovskii-corrected formulation one may
+      take Pi = pi exactly, so there is no independent pressure-transfer term, and
+      the'
+    kind: branch-choice
+    status: frontier
   additional_context_obligations: []
 next_solver_targets:
-- obligation_id: marvin-upstream-eb3fabeeac46
-  label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-    Clay whole-space target into exact source-backed ingredients already present on
-    the lane. On the classical side, isolated the mixed-jet system, the exact rung-level
-    can'
-  kind: definition
-  status: bridge-pending
-- obligation_id: marvin-upstream-ada9835aa864
-  label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-    u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-    property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-  kind: definition
-  status: unresolved
-- obligation_id: marvin-upstream-6d929e8a052a
-  label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-    lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-    whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-    red'
-  kind: definition
-  status: unresolved
+- obligation_id: marvin-route-authority-4
+  label: 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+    under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+    and E_sh(X) vanish identically, so the exact Route A'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-5
+  label: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
+  kind: branch-choice
+  status: frontier
+- obligation_id: marvin-route-authority-6
+  label: 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
+    The correct algebraic fit for the time tower is the divided-power Hopf law on
+    one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
+    or sy'
+  kind: branch-choice
+  status: frontier
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-4c2d137c7c95
-  route_signature: 4c2d137c7c95b7163cadfbb7ad95f93421471039
+  surface_id: theorem-surface-navier-stokes-22bb131a9e38
+  route_signature: 22bb131a9e38c1ee6b6ed0a9400dfe44503a2fc0
   theorem_target: conditional terminal class-membership lane closure packet
   theorem_statement: The official Clay target allows either the whole-space branch
     on R^3 or the periodic branch on T^3.
@@ -186,31 +872,28 @@ theorem_surface:
     = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
     not the internal branch itself
   route_slots:
-  - slot_id: marvin-upstream-eb3fabeeac46
-    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-      Clay whole-space target into exact source-backed ingredients already present
-      on the lane. On the classical side, isolated the mixed-jet system, the exact
-      rung-level can'
-    kind: definition
-    status: bridge-pending
+  - slot_id: marvin-route-authority-4
+    label: 'Theorem packet: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+      and E_sh(X) vanish identically, so the exact Route A'
+    kind: branch-choice
+    status: frontier
     source_anchor: problems/navier-stokes/marvin-ingest-notes.yaml
     patch_surface: problems/navier-stokes/marvin-ingest-notes.yaml
-  - slot_id: marvin-upstream-ada9835aa864
-    label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    kind: definition
-    status: unresolved
-    source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T015459Z-d5f90422800c.md
+  - slot_id: marvin-route-authority-5
+    label: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
+    kind: branch-choice
+    status: frontier
+    source_anchor: route-synthesis
     patch_surface: problems/navier-stokes/object-formalization.yaml
-  - slot_id: marvin-upstream-6d929e8a052a
-    label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    kind: definition
-    status: unresolved
-    source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T020719Z-04949830208e.md
+  - slot_id: marvin-route-authority-6
+    label: 'Live task: Completed the Hopf/shuffle line as a theorem-program refinement.
+      The correct algebraic fit for the time tower is the divided-power Hopf law on
+      one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
+      or sy'
+    kind: branch-choice
+    status: frontier
+    source_anchor: route-synthesis
     patch_surface: problems/navier-stokes/object-formalization.yaml
   authority_layers:
     authoritative_proof_surfaces:
@@ -293,17 +976,17 @@ theorem_surface:
     cross_surface_splice: false
     sterilized_synthesis_import_count: 15
 summary:
-  grounded_step_count: 6
+  grounded_step_count: 15
   promoted_extension_count: 0
   bridge_discharge_blocking_count: 1
   bridge_discharge_only_count: 0
   theorem_warrant_blocking_count: 1
-  open_obligation_count: 9
-  math_frontier_open_count: 8
-  frontier_context_count: 0
-  frontier_route_container_count: 0
-  frontier_downstream_support_count: 0
+  open_obligation_count: 41
+  math_frontier_open_count: 40
+  frontier_context_count: 40
+  frontier_route_container_count: 39
+  frontier_downstream_support_count: 1
   tracked_source_count: 141
   synthesis_import_surface_count: 15
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-4c2d137c7c95
+  theorem_surface_id: theorem-surface-navier-stokes-22bb131a9e38
