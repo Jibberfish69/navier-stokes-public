@@ -26,13 +26,13 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - collar-to-jump converse pivot (`lemma`; `debt-collar-to-jump-converse-pivot`)
 - Keep theorem scope below the first unsafe overclaim (`lemma`; `debt-keep-theorem-scope-below-the-first-unsafe-overclaim`)
 - Theorem 2.1 (Classical Closure) (`theorem-warrant`; `warrant-theorem-2.1`)
+- The original framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy -> Global energy or enstrophy control is necessary but not sufficient (`proof-dependency`; `proof-dependency-3`)
 
 ## Source Frontier
 
 - `first_unresolved`: The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3` or `T^3` -> Success for regularized or morphic-regularized equations does not close the original problem (`proof-dependency`; `proof-dependency-1`)
 - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3` or `T^3` -> Success for regularized or morphic-regularized equations does not close the original problem (`proof-dependency`; `proof-dependency-1`)
 - Success for regularized or morphic-regularized equations does not close the original problem -> The original framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy (`proof-dependency`; `proof-dependency-2`)
-- The original framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy -> Global energy or enstrophy control is necessary but not sufficient (`proof-dependency`; `proof-dependency-3`)
 - Global energy or enstrophy control is necessary but not sufficient -> The live obstruction is the small-scale or high-frequency cascade that feeds blow-up (`proof-dependency`; `proof-dependency-4`)
 - The monotone functional must stabilize the global energy/enstrophy layer and enable the compactness package on that same periodic classical surface -> The scale-barrier plus monotone-functional input must yield strong local compactness and nonlinear tensor closure on the periodic/operator approximation family (`proof-dependency`; `proof-dependency-7`)
 

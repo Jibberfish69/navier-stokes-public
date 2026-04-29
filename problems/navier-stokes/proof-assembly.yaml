@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-29T18:56:28Z'
+  generated_at: '2026-04-29T19:00:03Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -43,6 +43,9 @@ source_grounded_chain:
 - collar-to-jump converse pivot
 - Keep theorem scope below the first unsafe overclaim
 - Theorem 2.1 (Classical Closure)
+- The original framework names a monotone functional `Q(t)` as a bridge, not just
+  unnamed baseline energy -> Global energy or enstrophy control is necessary but not
+  sufficient
 tentative_extension_chain:
 - branch_id: branch-navier-stokes-1
   origin_obligation_id: proof-dependency-1
@@ -51,12 +54,6 @@ tentative_extension_chain:
     then success for regularized or morphic-regularized equations does not close the
     original problem.
 - branch_id: branch-navier-stokes-3
-  origin_obligation_id: proof-dependency-3
-  hypothesis: If the original framework names a monotone functional `Q(t)` as a bridge,
-    not just unnamed baseline energy and the mediating object is localized on the
-    same theorem surface, then global energy or enstrophy control is necessary but
-    not sufficient.
-- branch_id: branch-navier-stokes-4
   origin_obligation_id: proof-dependency-4
   hypothesis: If global energy or enstrophy control is necessary but not sufficient
     and the mediating object is localized on the same theorem surface, then the live
@@ -72,12 +69,6 @@ remaining_open_obligations:
   label: Success for regularized or morphic-regularized equations does not close the
     original problem -> The original framework names a monotone functional `Q(t)`
     as a bridge, not just unnamed baseline energy
-  kind: proof-dependency
-  status: bridge-pending
-- obligation_id: proof-dependency-3
-  label: The original framework names a monotone functional `Q(t)` as a bridge, not
-    just unnamed baseline energy -> Global energy or enstrophy control is necessary
-    but not sufficient
   kind: proof-dependency
   status: bridge-pending
 - obligation_id: proof-dependency-4
@@ -109,12 +100,6 @@ remaining_open_obligation_groups:
     label: Success for regularized or morphic-regularized equations does not close
       the original problem -> The original framework names a monotone functional `Q(t)`
       as a bridge, not just unnamed baseline energy
-    kind: proof-dependency
-    status: bridge-pending
-  - obligation_id: proof-dependency-3
-    label: The original framework names a monotone functional `Q(t)` as a bridge,
-      not just unnamed baseline energy -> Global energy or enstrophy control is necessary
-      but not sufficient
     kind: proof-dependency
     status: bridge-pending
   - obligation_id: proof-dependency-4
@@ -179,15 +164,14 @@ next_solver_targets:
     as a bridge, not just unnamed baseline energy
   kind: proof-dependency
   status: bridge-pending
-- obligation_id: proof-dependency-3
-  label: The original framework names a monotone functional `Q(t)` as a bridge, not
-    just unnamed baseline energy -> Global energy or enstrophy control is necessary
-    but not sufficient
+- obligation_id: proof-dependency-4
+  label: Global energy or enstrophy control is necessary but not sufficient -> The
+    live obstruction is the small-scale or high-frequency cascade that feeds blow-up
   kind: proof-dependency
   status: bridge-pending
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-63fac93c6e9b
-  route_signature: 63fac93c6e9b8ede3baf68e06e7a79b439067769
+  surface_id: theorem-surface-navier-stokes-fe502bb776bf
+  route_signature: fe502bb776bf9ef2a39c7c519041fdfa61a71c6e
   theorem_target: conditional terminal class-membership lane closure packet
   theorem_statement: The official Clay target allows either the whole-space branch
     on R^3 or the periodic branch on T^3.
@@ -230,10 +214,9 @@ theorem_surface:
     status: bridge-pending
     source_anchor: problems/navier-stokes/claim-ladder.md
     patch_surface: problems/navier-stokes/claim-ladder.md
-  - slot_id: proof-dependency-3
-    label: The original framework names a monotone functional `Q(t)` as a bridge,
-      not just unnamed baseline energy -> Global energy or enstrophy control is necessary
-      but not sufficient
+  - slot_id: proof-dependency-4
+    label: Global energy or enstrophy control is necessary but not sufficient -> The
+      live obstruction is the small-scale or high-frequency cascade that feeds blow-up
     kind: proof-dependency
     status: bridge-pending
     source_anchor: Later theorem prose depends on the earlier claim being localized
@@ -320,17 +303,17 @@ theorem_surface:
     cross_surface_splice: false
     sterilized_synthesis_import_count: 15
 summary:
-  grounded_step_count: 15
-  promoted_extension_count: 3
+  grounded_step_count: 16
+  promoted_extension_count: 2
   bridge_discharge_blocking_count: 1
   bridge_discharge_only_count: 0
   theorem_warrant_blocking_count: 1
-  open_obligation_count: 6
-  math_frontier_open_count: 5
+  open_obligation_count: 5
+  math_frontier_open_count: 4
   frontier_context_count: 4
   frontier_route_container_count: 0
   frontier_downstream_support_count: 4
   tracked_source_count: 141
   synthesis_import_surface_count: 15
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-63fac93c6e9b
+  theorem_surface_id: theorem-surface-navier-stokes-fe502bb776bf

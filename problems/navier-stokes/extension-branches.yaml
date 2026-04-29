@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   branch_set_id: extension-branches-navier-stokes
-  generated_at: '2026-04-29T18:56:28Z'
+  generated_at: '2026-04-29T19:00:03Z'
   generator: system/runner/lib/lemma_synthesis_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -22,8 +22,8 @@ branches:
     then success for regularized or morphic-regularized equations does not close the
     original problem.
   depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   - warrant-theorem-2.1
+  - proof-dependency-3
   - proof-dependency-1
   risk_level: medium
   notes:
@@ -38,28 +38,13 @@ branches:
     surface, then the original framework names a monotone functional `Q(t)` as a bridge,
     not just unnamed baseline energy.
   depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   - warrant-theorem-2.1
+  - proof-dependency-3
   - proof-dependency-2
   risk_level: medium
   notes: []
   merge_policy: quarantined-until-promoted
 - branch_id: branch-navier-stokes-3
-  origin_obligation_id: proof-dependency-3
-  branch_type: bridge-lemma
-  provenance: machine-derived-beyond-source-frontier
-  hypothesis: If the original framework names a monotone functional `Q(t)` as a bridge,
-    not just unnamed baseline energy and the mediating object is localized on the
-    same theorem surface, then global energy or enstrophy control is necessary but
-    not sufficient.
-  depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - warrant-theorem-2.1
-  - proof-dependency-3
-  risk_level: medium
-  notes: []
-  merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-4
   origin_obligation_id: proof-dependency-4
   branch_type: bridge-lemma
   provenance: machine-derived-beyond-source-frontier
@@ -67,13 +52,13 @@ branches:
     and the mediating object is localized on the same theorem surface, then the live
     obstruction is the small-scale or high-frequency cascade that feeds blow-up.
   depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   - warrant-theorem-2.1
+  - proof-dependency-3
   - proof-dependency-4
   risk_level: medium
   notes: []
   merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-5
+- branch_id: branch-navier-stokes-4
   origin_obligation_id: proof-dependency-7
   branch_type: bridge-lemma
   provenance: machine-derived-beyond-source-frontier
@@ -83,8 +68,8 @@ branches:
     plus monotone-functional input must yield strong local compactness and nonlinear
     tensor closure on the periodic/operator approximation family.
   depends_on:
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   - warrant-theorem-2.1
+  - proof-dependency-3
   - proof-dependency-7
   risk_level: medium
   notes:
@@ -92,4 +77,4 @@ branches:
     than a modified-equation detour.
   merge_policy: quarantined-until-promoted
 summary:
-  branch_count: 5
+  branch_count: 4

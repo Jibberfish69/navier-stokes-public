@@ -9,10 +9,10 @@ modern overlays, sidecars, and stale generated surfaces, see
 
 ## Route Summary
 
-- Working target: the official Clay target allows either the whole-space branch on `R^3` or the periodic branch on `T^3`; the active theorem-primary branch in this lane is currently the whole-space classical route.
-- Honest current status: the original four-part framework is explicit again on the theorem surface, the scale/monotone/compactness/cascade loci are reconciled, and the lane promotes the direct Euclidean fourth bridge as theorem-primary, but the package does not yet count as fully discharged while the proof-critical packet reductions remain compressed.
-- Decisive frontier: proposition-level strict low-mode reduction, threshold-local spill collar alignment, repaired high-side packet absorption, and full manuscript propagation of the local `4 -> 1` theorem all still require line-by-line theorem-grade audit.
-- Frozen architecture note: the archived curvature / ontic extension is preserved only as provenance, while the live theorem surface stays classical and currently whole-space/Euclidean by branch choice rather than by Clay requirement.
+- Working target: the official Clay target allows either the whole-space branch on `R^3` or the periodic branch on `T^3`; the active internal theorem-primary branch in this lane is the periodic zero-force branch, with any whole-space `R^3` statement downstream export/discharge only.
+- Honest current status: the original four-part framework is explicit again on the theorem surface, the scale/monotone/compactness/cascade loci are reconciled, and the current proof-dependency bridge spine is closed by `SYNC.2`; the retained six-burden stack remains terminal/context under H1-H6 rather than active debt.
+- Decisive frontier: current surface synchronization is the bridge-spine and route-authority cleanup recorded in `theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md`; strict-shadow, TPS/`SG.4`, exact-potential, YM/deformation, and whole-space export material remain sidecar or downstream unless promoted by a separate bridge theorem.
+- Frozen architecture note: the archived curvature / ontic extension and Euclidean shadow/export material are preserved only as provenance or downstream support, while the live theorem surface stays classical and torus-first by branch lock.
 
 ## Spine
 
@@ -41,7 +41,7 @@ modern overlays, sidecars, and stale generated surfaces, see
    Weak existence is not enough; the route needs strong local `L^2_t L^2_{loc,x}` compactness and the nonlinear convergence `u^(n) tensor u^(n) -> u tensor u` at the exact classical level.
 
 9. Preserve the fourth bridge honestly.
-   In the original source family, the fourth bridge is curvature-based regularity. In the live lane, that old branch is now deprecated provenance only. The theorem-primary fourth bridge is the same-surface Euclidean gradient-transfer route recorded in `theorem-construction/route-b-euclidean-closure-theorem.md`.
+   In the original source family, the fourth bridge is curvature-based regularity. In the live lane, that old branch is deprecated provenance only. The theorem-primary fourth bridge for this synchronized packet is same-surface heat-governed deformation or continuation on the periodic branch; Euclidean gradient-transfer and strict-shadow material are downstream export/support unless separately promoted.
 
 10. Close the loop rather than treating the pieces as isolated.
     Scale-barrier control, monotone-functional control, compactness, and the fourth bridge reinforce one another in the source family. A closure claim is source-aligned only when all four pieces are named honestly and discharged on one declared theorem surface.
@@ -53,7 +53,7 @@ modern overlays, sidecars, and stale generated surfaces, see
   - the `Q(t)` bridge is also marked as insufficient by itself, so the route passes honestly to the cascade burden,
   - a classical dyadic tail or flux estimate is proved rather than merely named,
   - that scale-side control feeds the compactness and nonlinear-term step on the classical equation,
-  - the fourth bridge is carried by the Euclidean gradient-transfer route on the same theorem surface,
+  - the fourth bridge is carried by heat-governed deformation or continuation on the same periodic theorem surface,
   - no modified-equation term is doing essential hidden work,
   - no ontic / Marvin / Hodge / projected-flow sidecar is doing essential hidden work.
 
@@ -64,8 +64,8 @@ modern overlays, sidecars, and stale generated surfaces, see
 - Scale side: the discharge locus is present, reconciled, and now explicitly consumes the post-monotone cascade carrier. Among the failed local repairs, the preferred repair surface is the continuum cumulative-tail stress theorem `(CTS)`, with the dyadic lower-prefix active-square theorem `(LPAS)` treated as its shadow rather than as the primary language.
 - Defect-loop side: the failed local repairs now read as successive normal-form reductions of the same one-sided scale-memory survivor, and the classical four-body packet is therefore still live as the defect-reduction pipeline rather than as obsolete architecture; see [theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md).
 - Compactness side: the downstream discharge locus is present and reconciled on one fixed classical approximation scheme.
-- Fourth-bridge side: the direct Euclidean gradient-transfer route is now primary; the old curvature route is retained only as deprecated provenance.
-- Closure side: the Route B Euclidean closure chain is integrated as the authoritative theorem direction on the declared theorem surface, but not yet fully discharged at manuscript grade.
+- Fourth-bridge side: same-surface heat-governed deformation or continuation is primary for the synchronized periodic branch; the old curvature route is retained only as deprecated provenance.
+- Closure side: the periodic bridge spine is integrated as the authoritative theorem direction on the declared theorem surface; Route B / Euclidean whole-space material remains downstream export/support.
 - Sidecar hygiene: ontic / Marvin / Hodge / projected-flow material is archived provenance only and must not be treated as an active blocker.
 
 ## Do Not Collapse

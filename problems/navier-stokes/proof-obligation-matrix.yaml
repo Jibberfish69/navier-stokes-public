@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T18:56:36Z'
+  generated_at: '2026-04-29T19:00:03Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
@@ -138,32 +138,29 @@ obligations:
   kind: lemma
   label: one-field forward-preservation wall
   status: grounded
-  source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+  source_anchor: theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
   blocking: false
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
-  - This obligation is not yet discharged locally.
 - obligation_id: debt-lower-carrier-receiver-wall
   kind: lemma
   label: lower-carrier receiver wall
   status: grounded
-  source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+  source_anchor: theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
   blocking: false
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
-  - This obligation is not yet discharged locally.
 - obligation_id: debt-collar-to-jump-converse-pivot
   kind: lemma
   label: collar-to-jump converse pivot
   status: grounded
-  source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+  source_anchor: theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
   blocking: false
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
-  - This obligation is not yet discharged locally.
 - obligation_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   kind: lemma
   label: Keep theorem scope below the first unsafe overclaim
@@ -197,13 +194,102 @@ obligations:
   label: The Clay target is the official 3D incompressible Navier-Stokes problem on
     `R^3` or `T^3` -> Success for regularized or morphic-regularized equations does
     not close the original problem
-  status: bridge-pending
-  source_anchor: Later theorem prose depends on the earlier claim being localized
-    first.
-  blocking: true
+  status: grounded
+  source_anchor: problems/navier-stokes/target-fidelity-discharge-source-pack.md
+  blocking: false
   notes:
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
+  - Local source evidence and the existing machine bridge hypothesis support promoting
+    this obligation from `bridge-pending` to `grounded`.
+  discharge_evidence:
+    matched_paths:
+    - problems/navier-stokes/target-fidelity-discharge-source-pack.md
+    - problems/navier-stokes/claim-ladder.md
+    - problems/navier-stokes/route-lock.yaml
+    - problems/navier-stokes/closure-audit-source-pack.md
+    - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+    - problems/navier-stokes/gradient-discharge-source-pack.md
+    - problems/navier-stokes/nonlinear-closure-discharge-source-pack.md
+    - problems/navier-stokes/projected-nc-flow-clay-frontier.md
+    support_score: 240
+    signal_strength: strong
+    evidence_hits:
+    - path: problems/navier-stokes/target-fidelity-discharge-source-pack.md
+      line: 10
+      score: 55
+      label_overlap: 11
+      from_overlap: 6
+      to_overlap: 5
+      excerpt: 'The Clay target is the official three-dimensional incompressible Navier-Stokes
+        problem on `R^3` or `T^3`. In the active whole-space branch, the statement
+        is: for every smooth divergence-free rapidly decaying initial datum `u^0`
+        on `R^3`, wi'
+    - path: problems/navier-stokes/claim-ladder.md
+      line: 6
+      score: 45
+      label_overlap: 9
+      from_overlap: 1
+      to_overlap: 8
+      excerpt: "| 2 | Success for regularized or morphic-regularized equations does
+        not close the original problem | `obstruction-capture: Why Prior Attempts
+        Fail`, `spine.2`, `target-fidelity-discharge-source-pack.md`, `theorem-construction/target-fidelit"
+    - path: problems/navier-stokes/route-lock.yaml
+      line: 83
+      score: 40
+      label_overlap: 8
+      from_overlap: 6
+      to_overlap: 2
+      excerpt: 'theorem_target: the official Clay Navier-Stokes problem in dimension
+        3 for the incompressible equations on R^3 or T^3'
+    - path: problems/navier-stokes/closure-audit-source-pack.md
+      line: 12
+      score: 20
+      label_overlap: 4
+      from_overlap: 3
+      to_overlap: 1
+      excerpt: Every critical closure estimate or bridge proposition must remain on
+        the classical three-dimensional incompressible Navier-Stokes equation and
+        may only rely on the classical data class, Euclidean pressure recovery, and
+        the exact viscosity r
+    - path: problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+      line: 11
+      score: 20
+      label_overlap: 4
+      from_overlap: 2
+      to_overlap: 2
+      excerpt: The original Navier-Stokes source family does not present the fourth
+        bridge as a
+    - path: problems/navier-stokes/gradient-discharge-source-pack.md
+      line: 14
+      score: 20
+      label_overlap: 4
+      from_overlap: 3
+      to_overlap: 1
+      excerpt: We work with a classical approximation family `\{u^{(n)},p^{(n)}\}_{n\in\mathbb{N}}`
+        solving the original three-dimensional incompressible Navier-Stokes system
+    - path: problems/navier-stokes/nonlinear-closure-discharge-source-pack.md
+      line: 10
+      score: 20
+      label_overlap: 4
+      from_overlap: 3
+      to_overlap: 1
+      excerpt: Let `u^(n)` be a classical approximation family on `(0,T) x R^3` solving
+        the **same** incompressible Navier-Stokes equation, sharing the divergence-free
+        initial data class, and carrying the uniform energy, temporal derivative,
+        and scale-bar
+    - path: problems/navier-stokes/projected-nc-flow-clay-frontier.md
+      line: 27
+      score: 20
+      label_overlap: 4
+      from_overlap: 3
+      to_overlap: 1
+      excerpt: global regularity for classical three-dimensional incompressible Navier-Stokes.
+    discharge_id: dependency-discharge-navier-stokes
+    bridge_statement: If the Clay target is the official 3D incompressible Navier-Stokes
+      problem on `R^3` or `T^3` and the mediating object is localized on the same
+      theorem surface, then success for regularized or morphic-regularized equations
+      does not close the original problem.
 - obligation_id: proof-dependency-2
   kind: proof-dependency
   label: Success for regularized or morphic-regularized equations does not close the
@@ -309,13 +395,25 @@ obligations:
   label: The original framework names a monotone functional `Q(t)` as a bridge, not
     just unnamed baseline energy -> Global energy or enstrophy control is necessary
     but not sufficient
-  status: bridge-pending
+  status: grounded
   source_anchor: Later theorem prose depends on the earlier claim being localized
     first.
-  blocking: true
+  blocking: false
   notes:
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
+  - Dependency-discharge promoted this obligation to grounded in /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/dependency-discharge.yaml.
+  discharge_evidence:
+    matched_paths:
+    - problems/navier-stokes/claim-ladder.md
+    - problems/navier-stokes/formalization-ledger.md
+    - problems/navier-stokes/monotone-functional-discharge-source-pack.md
+    - problems/navier-stokes/debt-map.yaml
+    - problems/navier-stokes/energy-insufficiency-source-pack.md
+    - problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
+    - problems/navier-stokes/interdependencies-discharge-source-pack.md
+    - problems/navier-stokes/gradient-discharge-source-pack.md
+    source: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/dependency-discharge.yaml"
 - obligation_id: proof-dependency-4
   kind: proof-dependency
   label: Global energy or enstrophy control is necessary but not sufficient -> The
@@ -394,20 +492,15 @@ obligations:
     still needs explicit local discharge before submission.
 summary:
   total_obligations: 24
-  grounded_count: 15
+  grounded_count: 17
   structural_only_count: 0
   structurally_supported_count: 0
-  bridge_pending_count: 7
+  bridge_pending_count: 5
   unresolved_count: 2
   frontier_count: 0
-  bridge_discharge_blocking_count: 0
-  theorem_warrant_blocking_count: 0
-  blocking_count: 9
+  blocking_count: 7
   all_discharged: false
-  live_theorem_edge_present: true
-  live_theorem_edge_branch_count: 0
-  live_theorem_edge_blocked_count: 0
 submission_blockers:
 - There are 2 unresolved proof obligations.
-- There are 7 bridge obligations still awaiting local discharge.
+- There are 5 bridge obligations still awaiting local discharge.
 - Stand-alone status remains `revise`.
