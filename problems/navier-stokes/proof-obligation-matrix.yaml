@@ -942,13 +942,8 @@ summary:
   bridge_pending_count: 5
   unresolved_count: 12
   frontier_count: 53
-  bridge_discharge_blocking_count: 0
-  theorem_warrant_blocking_count: 0
   blocking_count: 74
   all_discharged: false
-  live_theorem_edge_present: true
-  live_theorem_edge_branch_count: 5
-  live_theorem_edge_blocked_count: 0
 submission_blockers:
 - There are 4 theorem-critical obligations that are only structurally supported and
   still need source-backed or discharge-backed grounding.
