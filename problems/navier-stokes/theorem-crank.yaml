@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-29T17:23:08Z'
+  generated_at: '2026-04-29T17:24:54Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-4ad7701dd078
-    route_signature: 4ad7701dd07893e047223b6ed41c2c4a72749531
+    surface_id: theorem-surface-navier-stokes-b9dfd13de2cb
+    route_signature: b9dfd13de2cbf2e3c597ba2bb012df6eddfb0ebd
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -38,7 +38,7 @@ shared_alignment:
       label: one-field forward-preservation wall
       kind: lemma
       status: structural-only
-      patch_surface: problems/navier-stokes/object-formalization.yaml
+      patch_surface: problems/navier-stokes/debt-map.yaml
     - slot_id: debt-lower-carrier-receiver-wall
       label: lower-carrier receiver wall
       kind: lemma
@@ -104,7 +104,7 @@ local_derivation:
     packet_kind: lemma
     source_kind: live-solver-target
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/object-formalization.yaml
+    target_patch_surface: problems/navier-stokes/debt-map.yaml
     matched_route_slot_labels:
     - one-field forward-preservation wall
   - packet_id: debt-lower-carrier-receiver-wall
@@ -179,7 +179,7 @@ frontier_projection:
   primary_target:
     label: one-field forward-preservation wall
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/object-formalization.yaml
+    target_patch_surface: problems/navier-stokes/debt-map.yaml
   one_step_beyond:
   - label: lower-carrier receiver wall
     recommended_stage: dependency-discharge

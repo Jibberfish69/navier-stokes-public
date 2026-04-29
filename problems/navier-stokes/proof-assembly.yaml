@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-29T17:20:31Z'
+  generated_at: '2026-04-29T17:24:53Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -107,8 +107,8 @@ next_solver_targets:
   kind: lemma
   status: structural-only
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-4ad7701dd078
-  route_signature: 4ad7701dd07893e047223b6ed41c2c4a72749531
+  surface_id: theorem-surface-navier-stokes-b9dfd13de2cb
+  route_signature: b9dfd13de2cbf2e3c597ba2bb012df6eddfb0ebd
   theorem_target: conditional terminal class-membership lane closure packet
   theorem_statement: The official Clay target allows either the whole-space branch
     on R^3 or the periodic branch on T^3.
@@ -138,8 +138,8 @@ theorem_surface:
     label: one-field forward-preservation wall
     kind: lemma
     status: structural-only
-    source_anchor: 'gap-ticket: burden-item'
-    patch_surface: problems/navier-stokes/object-formalization.yaml
+    source_anchor: problems/navier-stokes/debt-map.yaml
+    patch_surface: problems/navier-stokes/debt-map.yaml
   - slot_id: debt-lower-carrier-receiver-wall
     label: lower-carrier receiver wall
     kind: lemma
@@ -244,4 +244,4 @@ summary:
   tracked_source_count: 141
   synthesis_import_surface_count: 15
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-4ad7701dd078
+  theorem_surface_id: theorem-surface-navier-stokes-b9dfd13de2cb
