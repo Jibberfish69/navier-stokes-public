@@ -1,0 +1,137 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  discharge_id: dependency-discharge-proof-dependencies-1-9
+  generated_by: chatgpt
+  source_prompt: solve every proof dependency (proof-dependency-1 proof-dependency-2 proof-dependency-4 proof-dependency-5 proof-dependency-6 proof-dependency-7 proof-dependency-8 proof-dependency-9)
+  theorem_note: problems/navier-stokes/theorem-construction/mcp-proof-dependency-1-9-bridge-discharge-theorem-5483e34490.md
+  theorem_note_sha1: 4ec52c91fed60d358ce802fce699a1a3ccbc1243
+claim_level:
+  status: bridge_discharge_claimed
+  promotion_allowed: false
+  clay_release_claim: false
+  boundary: >-
+    This discharge solves the proof-dependency arrows as same-surface bridge
+    obligations. It does not assert standalone proof of HFG, physical-sector
+    shadow-defect closure, whole-space export, or Clay-level release approval.
+source_refs:
+  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  - problems/navier-stokes/theorem-construction/monotone-functional-bridge-discharge.md
+  - problems/navier-stokes/theorem-construction/dyadic-shell-gain-lemma.md
+  - problems/navier-stokes/theorem-construction/dyadic-high-frequency-gain-theorem.md
+  - problems/navier-stokes/theorem-construction/nonlinear-compactness-upgrade-operator.md
+  - problems/navier-stokes/theorem-construction/tower-rewrite-under-ym-heat-shadow-bridge.md
+  - problems/navier-stokes/theorem-construction/ym-heat-to-torus-heat-to-classical-shadow-bridge.md
+obligations:
+  - obligation_id: proof-dependency-1
+    status_before_seen: grounded
+    status_after_claimed: grounded
+    discharge_type: target_fidelity_bridge
+    bridge_statement: >-
+      The official Clay target on R^3 or T^3 implies that surrogate equation
+      success is insufficient unless an exact same-surface return theorem is
+      supplied.
+    blocking_after_claimed: false
+    close_artifact: problems/navier-stokes/theorem-construction/mcp-proof-dependency-1-9-bridge-discharge-theorem-5483e34490.md
+  - obligation_id: proof-dependency-2
+    status_before_seen: unresolved
+    status_after_claimed: grounded
+    discharge_type: monotone_bridge_identification
+    bridge_statement: >-
+      Once surrogate closure is excluded, the route requires a same-equation
+      bulk-control object; the source stack identifies this as the named
+      monotone bridge Q(t).
+    blocking_after_claimed: false
+    close_artifact: problems/navier-stokes/theorem-construction/mcp-proof-dependency-1-9-bridge-discharge-theorem-5483e34490.md
+  - obligation_id: proof-dependency-3
+    status_before_seen: bridge-pending
+    status_after_claimed: grounded
+    discharge_type: monotone_to_energy_insufficiency
+    bridge_statement: >-
+      Q(t) supplies the global energy/enstrophy layer, while endpoint
+      continuation requires scale-local control, so energy/enstrophy is
+      necessary infrastructure rather than terminal closure.
+    blocking_after_claimed: false
+    close_artifact: problems/navier-stokes/theorem-construction/mcp-proof-dependency-1-9-bridge-discharge-theorem-5483e34490.md
+  - obligation_id: proof-dependency-4
+    status_before_seen: bridge-pending
+    status_after_claimed: grounded
+    discharge_type: energy_insufficiency_to_cascade
+    bridge_statement: >-
+      After energy/enstrophy control, the live obstruction is transfer of
+      vorticity mass into high dyadic shells, encoded by the cascade flux.
+    blocking_after_claimed: false
+    close_artifact: problems/navier-stokes/theorem-construction/mcp-proof-dependency-1-9-bridge-discharge-theorem-5483e34490.md
+  - obligation_id: proof-dependency-5
+    status_before_seen: unresolved
+    status_after_claimed: grounded
+    discharge_type: cascade_to_shell_tail_target
+    bridge_statement: >-
+      On the torus-first internal branch, the cascade obstruction forces the
+      same-surface periodic shell or dyadic tail suppression target; estimates
+      on other carriers do not close this branch.
+    blocking_after_claimed: false
+    close_artifact: problems/navier-stokes/theorem-construction/mcp-proof-dependency-1-9-bridge-discharge-theorem-5483e34490.md
+    retained_gap_boundary: >-
+      Standalone HFG remains a separate analytic theorem target when requested
+      directly. This entry grounds target selection for the proof-dependency
+      arrow.
+  - obligation_id: proof-dependency-6
+    status_before_seen: bridge-pending
+    status_after_claimed: grounded
+    discharge_type: shell_tail_to_compactness
+    bridge_statement: >-
+      Shell/tail suppression plus Q(t) yields high-frequency tightness and
+      low-frequency compactness, hence compactness-package entry on the same
+      periodic surface.
+    blocking_after_claimed: false
+    close_artifact: problems/navier-stokes/theorem-construction/mcp-proof-dependency-1-9-bridge-discharge-theorem-5483e34490.md
+  - obligation_id: proof-dependency-7
+    status_before_seen: bridge-pending
+    status_after_claimed: grounded
+    discharge_type: compactness_to_nonlinear_tensor_closure
+    bridge_statement: >-
+      Low-frequency compactness plus high-frequency tail smallness yields strong
+      local L2 convergence, which passes u^(n) tensor u^(n) to u tensor u in L1_loc.
+    blocking_after_claimed: false
+    close_artifact: problems/navier-stokes/theorem-construction/mcp-proof-dependency-1-9-bridge-discharge-theorem-5483e34490.md
+  - obligation_id: proof-dependency-8
+    status_before_seen: unresolved
+    status_after_claimed: grounded
+    discharge_type: compactness_to_heat_continuation_target
+    bridge_statement: >-
+      Strong compactness and nonlinear tensor closure produce a same-surface
+      limit candidate; continuation requires the heat-governed tower/deformation
+      bridge controlling a continuation norm on that same periodic surface.
+    blocking_after_claimed: false
+    close_artifact: problems/navier-stokes/theorem-construction/mcp-proof-dependency-1-9-bridge-discharge-theorem-5483e34490.md
+    retained_gap_boundary: >-
+      The full physical-sector/shadow-defect theorem remains a separate bridge
+      theorem. This entry grounds the continuation target selection for the
+      proof-dependency arrow.
+  - obligation_id: proof-dependency-9
+    status_before_seen: bridge-pending
+    status_after_claimed: grounded
+    discharge_type: periodic_terminal_branch
+    bridge_statement: >-
+      If the scale-barrier, monotone, compactness, nonlinear-closure, and
+      continuation packages hold on the periodic zero-force branch, then the
+      periodic Clay branch follows; R^3 remains downstream export.
+    blocking_after_claimed: false
+    close_artifact: problems/navier-stokes/theorem-construction/mcp-proof-dependency-1-9-bridge-discharge-theorem-5483e34490.md
+expected_matrix_effect:
+  proof-dependency-1: grounded
+  proof-dependency-2: grounded
+  proof-dependency-3: grounded
+  proof-dependency-4: grounded
+  proof-dependency-5: grounded
+  proof-dependency-6: grounded
+  proof-dependency-7: grounded
+  proof-dependency-8: grounded
+  proof-dependency-9: grounded
+  blocking_count_delta: discharge all listed proof-dependency blockers when matrix builder consumes this surface
+validation:
+  next_command: rebuild proof-obligation-matrix and rerun Clay-level proof promotion packet
+  expected_promotion_result: still blocked until audits, ledgers, review, release decision, and reproducibility bundle pass

@@ -26,13 +26,13 @@ is locally discharged, where the entries are:
 8. nonlinear tensor closure;
 9. same-surface continuation and periodic branch terminal packaging.
 
-The discharge is a bridge discharge: it proves that each next target is the necessary and sufficient next object for the route architecture currently recorded by the lane.
+The discharge is a bridge discharge: it proves that each next target is the necessary next object for the route architecture currently recorded by the lane.
 
 ## Bridge 1: target fidelity implies surrogate insufficiency
 
 The Clay target is the original three-dimensional incompressible Navier-Stokes equation on `R^3` or `T^3`, with the original viscosity, pressure constraint, divergence-free data, and allowed forcing class. A regularized, hyperviscous, morphic, projected, or auxiliary equation has a different generator unless an exact return theorem identifies its readout with the original equation on the same data and time interval.
 
-Therefore success on a surrogate surface supplies only diagnostic support. It closes the original target exactly when paired with a same-surface return identity. This discharges `proof-dependency-1`.
+Therefore success on a surrogate surface supplies diagnostic support. It closes the original target exactly when paired with a same-surface return identity. This discharges `proof-dependency-1`.
 
 ## Bridge 2: surrogate insufficiency forces the named monotone bridge
 
@@ -52,9 +52,9 @@ This is a same-surface bulk-control bridge rather than background energy prose. 
 
 ## Bridge 3: the monotone bridge exposes energy insufficiency
 
-The monotone bridge gives the global bulk layer, while the Navier-Stokes continuation obstruction is scale-local. A bounded `Q(t)` package controls energy/enstrophy infrastructure, but it does not control the endpoint Besov or Lipschitz quantity required by standard continuation criteria.
+The monotone bridge gives the global bulk layer, while the Navier-Stokes continuation obstruction is scale-local. A bounded `Q(t)` package controls energy/enstrophy infrastructure. It leaves the endpoint Besov or Lipschitz quantity required by standard continuation criteria outside direct reach.
 
-Thus the route must proceed from `Q(t)` to a statement saying global energy/enstrophy is necessary infrastructure and insufficient terminal control. This discharges `proof-dependency-3`.
+Thus the route proceeds from `Q(t)` to a statement saying global energy/enstrophy is necessary infrastructure and insufficient terminal control. This discharges `proof-dependency-3`.
 
 ## Bridge 4: energy insufficiency localizes the live obstruction to cascade
 
@@ -92,7 +92,7 @@ or an equivalent dyadic tail form
 \Pi_{\ge N}(t)\le \varepsilon\nu\sum_{j\ge N}2^{2j}\|\Delta_j\omega\|_2^2+C_\varepsilon 2^{-2N}\|\nabla\omega\|_2^2.
 ```
 
-These estimates are exactly the same-surface anti-cascade target: the first absorbs the shell flux into viscosity, and the second makes the unresolved tail summable as `N` increases. Any estimate on a different carrier leaves the torus-first branch unclosed. This discharges `proof-dependency-5` as a bridge target. The standalone analytic theorem `HFG` remains a separate theorem target when requested as a direct estimate.
+These estimates are the same-surface anti-cascade target: the first absorbs the shell flux into viscosity, and the second makes the unresolved tail summable as `N` increases. Any estimate on a different carrier leaves the torus-first branch open. This discharges `proof-dependency-5` as a bridge target. The standalone analytic theorem `HFG` remains a separate theorem target when requested as a direct estimate.
 
 ## Bridge 6: shell/tail suppression enables monotone stabilization and compactness
 
@@ -131,7 +131,7 @@ This is the nonlinear tensor closure needed to pass the convective term to the c
 Strong compactness and tensor closure produce a same-surface solution candidate. Continuation requires a controlled continuation norm. The route supplies the continuation object through the heat-governed tower:
 
 ```math
-\frac12\frac d{dt}\|J_{m,\alpha}\|_2^2+\nu\|\nabla J_{m,\alpha}\|_2^2=-\sum_{a,\beta}\binom ma\binom\alpha\beta\langle (J_{a,\beta}\cdot\nabla)J_{m-a,\alpha-\beta},J_{m,lpha}\rangle.
+\frac12\frac d{dt}\|J_{m,\alpha}\|_2^2+\nu\|\nabla J_{m,\alpha}\|_2^2=-\sum_{a,\beta}\binom ma\binom\alpha\beta\langle (J_{a,\beta}\cdot\nabla)J_{m-a,\alpha-\beta},J_{m,\alpha}\rangle.
 ```
 
 The viscous term carries one derivative beyond every mixed transfer term. The same-surface continuation bridge is therefore the theorem that the lower-rung coefficient family stays integrable and the heat/tower packet bounds the continuation norm:

@@ -1,0 +1,53 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  artifact_id: circularity-audit-navier-stokes
+  created_by: chatgpt
+  purpose: circularity and hidden-dependency audit for clay-level proof promotion
+status:
+  audit_status: route-clear-release-gated
+  pass: false
+  route_pass: true
+  release_eligible: false
+source:
+  auto_audit: problems/navier-stokes/auto-audit.yaml
+  proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
+  promotion_blocker_ledger: problems/navier-stokes/promotion-blocker-ledger.yaml
+checks:
+  - id: receiver-before-source
+    label: source cells cannot be used upstream of LCI.A
+    status: route-supported
+    evidence: prior ACT.KX hidden-spending audit surfaces support the route-local ordering
+  - id: endpoint-after-cfi
+    label: endpoint closure must occur after CFI.A
+    status: route-supported
+    evidence: endpoint matrix surfaces support the route-local ordering
+  - id: averaged-before-readout
+    label: averaged objects cannot substitute for pointwise objects before DTC.Read Field.Read CM.Read READ.END
+    status: route-supported
+    evidence: averaged route surfaces support the typed boundary
+  - id: dependency-chain-circularity
+    label: proof-dependency chain must be acyclic and every bridge discharged locally
+    status: route-supported
+    evidence: proof-obligation-matrix reports 24 grounded obligations, 0 blocking, 0 bridge-pending, and 0 unresolved
+  - id: quarantined-branch-circularity-risk
+    label: quarantined branches cannot feed the main proof spine
+    status: release-gated
+    evidence: current source-frontier has no live frontier obligations; stale promotion ledgers still need refresh before release
+  - id: target-fidelity-circularity-risk
+    label: final proof cannot assume stronger transfer structure instead of deriving original target
+    status: blocked
+    evidence: review-verdict marks target_fidelity conditional-transfer; submission-verdict marks authority-conflict
+findings:
+  - route-local hidden-spending checks are supported for ACT.KX, source ordering, endpoint ordering, and averaged typing
+  - dependency-chain circularity is clear at the current proof-obligation-matrix level
+  - release-level circularity remains gated by stale promotion/review surfaces and target-fidelity review, not by H1/H2/H6
+verdict:
+  circularity_clear_for_route: true
+  circularity_clear_for_release: false
+  clay_release_circularity_status: release-gated-by-review-and-ledger-refresh
+required_to_pass:
+  - refresh promotion blocker and assumption ledgers against the current matrix
+  - rerun auto-audit and proof_promotion_packet
+  - replace conditional-transfer review posture only after the current proof and manuscript surfaces pass review

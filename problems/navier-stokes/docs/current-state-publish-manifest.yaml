@@ -65,6 +65,7 @@ published_files:
 - chat27-status.yaml
 - chat28-status.yaml
 - chat29-status.yaml
+- circularity-audit.yaml
 - claim-ladder.md
 - closure-audit-source-pack.md
 - codex-approach-alignment-and-assent-delta-card.md
@@ -80,6 +81,7 @@ published_files:
 - curvature-based-regularity-discharge-source-pack.md
 - debt-map.yaml
 - dependency-audit.yaml
+- dependency-discharge-proof-dependencies-1-9.yaml
 - dependency-discharge.yaml
 - docs/current-state-publish-manifest.yaml
 - docs/import-inventory-v1.yaml
@@ -414,6 +416,7 @@ published_files:
 - theorem-construction/mcp-analytic-ledger-smallness-scheduler-for-sg-4-tps-retained-family-ep-a-75a56069dd.md
 - theorem-construction/mcp-continuum-coherent-sector-replacement-theorem-note-read-end-97bea7829a.md
 - theorem-construction/mcp-density-selected-source-packet-closure-schedule-for-sg-4-tps-ep-a-2baab1f1b7.md
+- theorem-construction/mcp-final-sg-4-tps-branch-squeeze-theorem-ep-a-6e8963b9ee.md
 - theorem-construction/mcp-four-estimate-supplier-proof-for-d-7mq-f2c39b58b0.md
 - theorem-construction/mcp-full-18-item-sg-4-tps-branch-solve-attempt-ep-a-3fd28b27e1.md
 - theorem-construction/mcp-ordered-qsp-11r-to-sg-4b-branch-local-completion-attempt-18d72fe7d8.md
@@ -541,6 +544,7 @@ published_files:
 - theorem-construction/mpp-lci-a-widened-receiver-return-note.md
 - theorem-construction/mpp-lci-a-widened-thickness-collar-wall-note.md
 - theorem-construction/mpp-lci-a-widened-thickness-lower-carrier-note.md
+- theorem-construction/mpp-live-status-sourcelock-clay-final-verification-note.md
 - theorem-construction/mpp-local-eulerian-reference-envelope-lemma.md
 - theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
 - theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md

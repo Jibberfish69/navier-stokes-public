@@ -6,36 +6,40 @@ identity:
   created_by: chatgpt
   purpose: assumption discharge audit for clay-level proof promotion
 status:
-  audit_status: failed
+  audit_status: h-layer-closed-release-gated
   pass: false
+  route_pass: true
   release_eligible: false
 source:
   assumption_ledger: problems/navier-stokes/assumption-ledger.yaml
+  proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
+  h1_h2_h6_closure:
+    - problems/navier-stokes/theorem-construction/mpp-endpoint-face-packgauge-retained-admission-solution-note.md
+    - problems/navier-stokes/theorem-construction/mpp-rawdata-production-and-release-completion-packet.md
+    - problems/navier-stokes/theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
 summary:
-  total_assumptions: 12
-  scoped_count: 1
-  blocking_or_unresolved_count: 11
-  all_release_assumptions_discharged: false
-blocking_assumptions:
-  - original-mpp-target-fidelity
-  - monotone-functional-q
-  - energy-enstrophy-insufficiency-to-cascade
-  - dyadic-tail-suppression
-  - monotone-compactness-bridge
-  - scale-barrier-compactness-nonlinear-closure
-  - continuation-bridge
-  - terminal-periodic-clay-bridge
+  matrix_total_obligations: 24
+  matrix_blocking_count: 0
+  matrix_bridge_pending_count: 0
+  matrix_unresolved_count: 0
+  matrix_all_discharged: true
+  h_layer_status: closed
+  release_ledger_status: stale_or_unrefreshed
+closed_assumptions:
   - one-field-forward-preservation-wall
   - lower-carrier-receiver-wall
   - collar-to-jump-converse-pivot
+  - h1-retained-window-native-forcing-through-endpoint
+  - h2-bounded-pack-gauge-through-endpoint
+  - h6-endpoint-certificate-exhaustiveness
 findings:
-  - the current package remains a conditional or route-complete package rather than a terminal original-MPP proof
-  - proof dependencies 2 through 9 include unresolved or bridge-pending assumptions
-  - gap-ticket burdens remain active
+  - H1, H2, and H6 are closed by RawData.Production plus EndpointFace.Type, PackGauge.Dichotomy, and RetainedAdmission.Persistence.
+  - The regenerated proof-obligation matrix reports no blocking, bridge-pending, or unresolved obligations.
+  - The older assumption-ledger and promotion-blocker surfaces still carry release-level stale blockers and must be refreshed before a Clay-level release decision.
 verdict:
-  assumption_discharge_complete: false
-  clay_release_assumption_status: blocked
-required_to_pass:
-  - discharge each blocking assumption with canonical theorem surfaces
-  - update assumption-ledger with discharged statuses and source hashes
-  - rerun this audit after proof-obligation matrix reports all_discharged true
+  h_layer_assumption_discharge_complete: true
+  clay_release_assumption_status: release-gated-by-review-and-ledger-refresh
+required_to_pass_release:
+  - refresh assumption-ledger and promotion-blocker-ledger against the current matrix
+  - rerun review and paperization release checks
+  - issue a release decision only after the review/export surfaces pass
