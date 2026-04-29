@@ -46,6 +46,7 @@ published_files:
 - agent-contract.yaml
 - architecture-health.yaml
 - artifact-self-repair.yaml
+- assumption-audit.yaml
 - assumption-ledger.yaml
 - authoritative-source-discovery.yaml
 - authority-reconciliation.yaml
@@ -78,6 +79,7 @@ published_files:
 - crosslane-extractor-contract.md
 - curvature-based-regularity-discharge-source-pack.md
 - debt-map.yaml
+- dependency-audit.yaml
 - dependency-discharge.yaml
 - docs/current-state-publish-manifest.yaml
 - docs/import-inventory-v1.yaml

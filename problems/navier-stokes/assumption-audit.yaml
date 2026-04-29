@@ -1,0 +1,41 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  artifact_id: assumption-audit-navier-stokes
+  created_by: chatgpt
+  purpose: assumption discharge audit for clay-level proof promotion
+status:
+  audit_status: failed
+  pass: false
+  release_eligible: false
+source:
+  assumption_ledger: problems/navier-stokes/assumption-ledger.yaml
+summary:
+  total_assumptions: 12
+  scoped_count: 1
+  blocking_or_unresolved_count: 11
+  all_release_assumptions_discharged: false
+blocking_assumptions:
+  - original-mpp-target-fidelity
+  - monotone-functional-q
+  - energy-enstrophy-insufficiency-to-cascade
+  - dyadic-tail-suppression
+  - monotone-compactness-bridge
+  - scale-barrier-compactness-nonlinear-closure
+  - continuation-bridge
+  - terminal-periodic-clay-bridge
+  - one-field-forward-preservation-wall
+  - lower-carrier-receiver-wall
+  - collar-to-jump-converse-pivot
+findings:
+  - the current package remains a conditional or route-complete package rather than a terminal original-MPP proof
+  - proof dependencies 2 through 9 include unresolved or bridge-pending assumptions
+  - gap-ticket burdens remain active
+verdict:
+  assumption_discharge_complete: false
+  clay_release_assumption_status: blocked
+required_to_pass:
+  - discharge each blocking assumption with canonical theorem surfaces
+  - update assumption-ledger with discharged statuses and source hashes
+  - rerun this audit after proof-obligation matrix reports all_discharged true

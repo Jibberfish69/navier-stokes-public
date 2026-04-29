@@ -11,11 +11,11 @@
 
 | Label | Monograph Status | Stand-Alone Need | Existing Local Anchors |
 | --- | --- | --- | --- |
-| Global energy or enstrophy control is necessary but not sufficient | local source located; localization still required | yes | obstruction-capture: Core Mechanism, spine.4, theorem-construction/energy-baseline-bridge-lemma.md, theorem-construction/monotone-functional-package.md, problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md, problems/navier-stokes/claim-ladder.md |
-| one-field forward-preservation wall | ridge discharge required from current backbone | yes | gap-ticket: burden-item |
-| lower-carrier receiver wall | ridge discharge required from current backbone | yes | gap-ticket: burden-item |
-| collar-to-jump converse pivot | ridge discharge required from current backbone | yes | gap-ticket: burden-item |
-| Keep theorem scope below the first unsafe overclaim | theorem-level scope boundary already fixed | yes | claim-ladder: Lowest Safe Claim, claim-ladder: First Unsafe Overclaim |
+| Global energy or enstrophy control is necessary but not sufficient | localized by `MUP.EI`; packaging debt discharged | no | theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md, theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md, problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md, problems/navier-stokes/claim-ladder.md |
+| one-field forward-preservation wall | discharged terminal context under H1-H6; context only | no | theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md, theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md |
+| lower-carrier receiver wall | discharged terminal context under H1-H6; context only | no | theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md, theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md |
+| collar-to-jump converse pivot | discharged terminal context under H1-H6; context only | no | theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md, theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md |
+| Keep theorem scope below the first unsafe overclaim | theorem-level scope boundary already fixed; prose/status hygiene only | no | claim-ladder: Lowest Safe Claim, claim-ladder: First Unsafe Overclaim, theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md |
 
 ## Reviewer-Facing Risks
 
@@ -25,15 +25,11 @@
 
 ## Required Local Explanations For A Paper
 
-- one-field forward-preservation wall
-- lower-carrier receiver wall
-- collar-to-jump converse pivot
-- Explain how 'Global energy or enstrophy control is necessary but not sufficient' is grounded locally without theorem inflation.
 
 ## Promotion Rule
 
-- Do not promote beyond `revise` until each `ridge discharge required` row has either been localized into the local package or explicitly parked below the theorem surface.
+- Do not promote beyond `revise` until every row marked as a live theorem burden has either been localized into the local package or explicitly parked below the theorem surface.
 - Keep the lowest safe claim explicit and do not let recovered speculative material masquerade as a proved bridge.
 - Re-run honesty-review only after the local package has real prose and an explicit debt map.
 
-<!-- generated_at: 2026-04-29T19:14:15Z -->
+<!-- generated_at: 2026-04-29T19:19:01Z -->

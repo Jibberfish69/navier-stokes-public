@@ -1,0 +1,43 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  artifact_id: dependency-audit-navier-stokes
+  created_by: chatgpt
+  purpose: dependency audit for clay-level proof promotion
+status:
+  audit_status: failed
+  pass: false
+  release_eligible: false
+source:
+  proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
+  promotion_blocker_ledger: problems/navier-stokes/promotion-blocker-ledger.yaml
+summary:
+  total_obligations: 24
+  blocking_count: 8
+  bridge_pending_count: 6
+  unresolved_count: 2
+  all_discharged: false
+blocking_dependencies:
+  - proof-dependency-2
+  - proof-dependency-3
+  - proof-dependency-4
+  - proof-dependency-5
+  - proof-dependency-6
+  - proof-dependency-7
+  - proof-dependency-8
+  - proof-dependency-9
+findings:
+  - proof-dependency-2 remains bridge-pending and has a quarantined branch vocabulary issue in auto-audit branch-navier-stokes-2
+  - proof-dependency-5 remains unresolved and requires a periodic shell or dyadic tail suppression theorem
+  - proof-dependency-7 remains bridge-pending and is associated with quarantined branch-navier-stokes-4
+  - proof-dependency-8 remains unresolved and requires a continuation bridge
+  - proof-dependency-9 remains bridge-pending as the terminal periodic Clay implication
+verdict:
+  dependency_graph_closed: false
+  dependency_direction_clean: unverified
+  clay_release_dependency_status: blocked
+required_to_pass:
+  - discharge every proof-dependency-2 through proof-dependency-9 obligation or remove it from the proof spine with an accepted replacement
+  - certify terminal branch status for branch-navier-stokes-2 and branch-navier-stokes-4
+  - rerun proof_obligation_matrix_builder and proof_promotion_packet

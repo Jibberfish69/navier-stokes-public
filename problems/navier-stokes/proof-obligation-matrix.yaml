@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T19:15:23Z'
+  generated_at: '2026-04-29T19:19:07Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
@@ -134,7 +134,6 @@ obligations:
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
-  - This obligation is not yet discharged locally.
 - obligation_id: debt-one-field-forward-preservation-wall
   kind: lemma
   label: one-field forward-preservation wall
@@ -144,7 +143,6 @@ obligations:
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
-  - This obligation is not yet discharged locally.
 - obligation_id: debt-lower-carrier-receiver-wall
   kind: lemma
   label: lower-carrier receiver wall
@@ -154,7 +152,6 @@ obligations:
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
-  - This obligation is not yet discharged locally.
 - obligation_id: debt-collar-to-jump-converse-pivot
   kind: lemma
   label: collar-to-jump converse pivot
@@ -164,7 +161,6 @@ obligations:
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
-  - This obligation is not yet discharged locally.
 - obligation_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   kind: lemma
   label: Keep theorem scope below the first unsafe overclaim
@@ -254,6 +250,8 @@ obligations:
   source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   blocking: false
   notes:
+  - Dependency chain direction is visible in the recovered route, but this bridge
+    still needs explicit local discharge before submission.
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
   - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
@@ -271,6 +269,8 @@ obligations:
   source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   blocking: false
   notes:
+  - Dependency chain direction is visible in the recovered route, but this bridge
+    still needs explicit local discharge before submission.
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
   - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
@@ -308,6 +308,8 @@ obligations:
   source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   blocking: false
   notes:
+  - Dependency chain direction is visible in the recovered route, but this bridge
+    still needs explicit local discharge before submission.
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
   - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
@@ -327,6 +329,8 @@ obligations:
   source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   blocking: false
   notes:
+  - Dependency chain direction is visible in the recovered route, but this bridge
+    still needs explicit local discharge before submission.
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
   - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.

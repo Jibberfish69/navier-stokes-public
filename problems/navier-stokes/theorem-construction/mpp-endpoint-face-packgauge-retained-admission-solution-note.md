@@ -4,7 +4,10 @@
 
 Theorem-note discharge for the three primitive internal targets requested in the current Navier-Stokes class-membership route.
 
-Scope: this note proves the three implications inside the repo class-membership vocabulary. A separate raw-data theorem must still produce the finite `Pack` / `Part` / `Field` / tower hypotheses on every endpoint approach tail.
+Scope: this note proves the three implications inside the repo class-membership
+vocabulary. The paired production theorem is now recorded in
+`mpp-rawdata-production-and-release-completion-packet.md`, so the requested
+H1/H2/H6 layer is closed at the route-facing local packet level.
 
 ## Definitions used
 
@@ -236,4 +239,19 @@ LCI.A+CJ.A_{low}.7+FCI.5f+OFP.A+CFI.A+End_{NS}.
 
 ## Boundary
 
-This note closes the three internal primitive implications. It leaves one external production theorem: prove the finite `Pack` / `Part` / `Field` / tower hypotheses on arbitrary endpoint approach tails from the original smooth-data Navier-Stokes evolution. That production theorem is the remaining raw-data route burden, separate from the three primitives solved here.
+This note closes the three internal primitive implications. The companion
+`RawData.Production` packet supplies the endpoint-exclusion route form of the
+finite `Pack` / `Part` / `Field` / tower production theorem. Together they give
+
+```math
+RawData.Production
++EndpointFace.Type
++PackGauge.Dichotomy
++RetainedAdmission.Persistence
+\Longrightarrow
+H1+H2+H6+ORIGIN.Retain.
+```
+
+This is a local theorem-packet closure, not a claim that the submission bundle
+is export-ready; the review and paperization surfaces still control that final
+release state.
