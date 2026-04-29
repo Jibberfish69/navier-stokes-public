@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T18:02:55Z'
+  generated_at: '2026-04-29T18:05:56Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
@@ -189,7 +189,7 @@ obligations:
       excerpt: "| one-field forward-preservation wall | ridge discharge required from
         current backbone | yes | gap-ticket: burden-item |"
     - path: problems/navier-stokes/live-theorem-edge.yaml
-      line: 200
+      line: 202
       score: 25
       label_overlap: 5
       from_overlap: 5
@@ -239,12 +239,89 @@ obligations:
   kind: lemma
   label: lower-carrier receiver wall
   status: structural-only
-  source_anchor: 'gap-ticket: burden-item'
+  source_anchor: problems/navier-stokes/debt-map.yaml
   blocking: true
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
   - This obligation is not yet discharged locally.
+  - Local source evidence exists, but it is not yet specific enough to promote this
+    obligation beyond `structural-only` safely.
+  discharge_evidence:
+    matched_paths:
+    - problems/navier-stokes/debt-map.yaml
+    - problems/navier-stokes/formalization-ledger.md
+    - problems/navier-stokes/live-theorem-edge.yaml
+    - problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
+    - problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
+    - problems/navier-stokes/theorem-construction/mpp-collar-sobolev-packet-interval-propagation-theorem-program.md
+    - problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md
+    - problems/navier-stokes/theorem-construction/mpp-lci-a-direct-transported-center-package-note.md
+    support_score: 145
+    signal_strength: strong
+    evidence_hits:
+    - path: problems/navier-stokes/debt-map.yaml
+      line: 27
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: "- lower-carrier receiver wall"
+    - path: problems/navier-stokes/formalization-ledger.md
+      line: 16
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: "| lower-carrier receiver wall | ridge discharge required from current
+        backbone | yes | gap-ticket: burden-item |"
+    - path: problems/navier-stokes/live-theorem-edge.yaml
+      line: 210
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: 'section_role: lower-carrier receiver wall'
+    - path: problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
+      line: 369
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: one opaque block. Its remaining receiver-side wall is the lower-carrier
+    - path: problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
+      line: 2445
+      score: 20
+      label_overlap: 4
+      from_overlap: 4
+      to_overlap: 0
+      excerpt: 4. the remaining receiver-side wall is now split inside the lower-carrier
+        note
+    - path: problems/navier-stokes/theorem-construction/mpp-collar-sobolev-packet-interval-propagation-theorem-program.md
+      line: 1155
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: "### Corollary `CSP.B3a0a` (Receiver-side lower-carrier control forces
+        the packet-local pack gauge)"
+    - path: problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md
+      line: 137
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: packet, with the sharper wall already reduced further to the lower-carrier
+    - path: problems/navier-stokes/theorem-construction/mpp-lci-a-direct-transported-center-package-note.md
+      line: 7
+      score: 15
+      label_overlap: 3
+      from_overlap: 3
+      to_overlap: 0
+      excerpt: 'Role: replace the receiver-loop shortcuts beneath the uniform lower-carrier'
+    discharge_id: dependency-discharge-navier-stokes
+    bridge_statement: Discharge the local bridge for lower-carrier receiver wall without
+      crossing the current safe-claim boundary.
 - obligation_id: debt-collar-to-jump-converse-pivot
   kind: lemma
   label: collar-to-jump converse pivot

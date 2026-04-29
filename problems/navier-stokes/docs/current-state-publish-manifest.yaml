@@ -602,6 +602,7 @@ published_files:
 - theorem-construction/projected-generator-sector-invariance.md
 - theorem-construction/projected-nonlinearity-diagnostic.md
 - theorem-construction/psj-plus-1-overlap-live-frontier-branch-audit.md
+- theorem-construction/psj-plus-1-overlap-terminal-closure.md
 - theorem-construction/psj-plus-d7mb-residual-budget-route.md
 - theorem-construction/psj-plus-off-axis-smallness-implies-bootstrap-envelope.md
 - theorem-construction/psj-plus-terminal-assembly.md

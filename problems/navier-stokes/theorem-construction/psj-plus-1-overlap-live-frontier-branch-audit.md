@@ -10,6 +10,13 @@ and the coarse retained-cover notes are read together. This note does not add a
 new packet. It only records which already-installed branch is the narrower
 honest live wall.
 
+Closure update: the terminal overlap closure is now recorded in
+[psj-plus-1-overlap-terminal-closure.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/psj-plus-1-overlap-terminal-closure.md).
+The installed close chooses the coarse normalized-kernel realization and routes
+the scalar retained-cover object to the retained-family supplier layer. The fine
+localizer-modulus route remains a sharper sibling, not a live blocker for the
+installed `PSJ+.1` branch.
+
 ## Fine Branch
 
 The fine route keeps the exact `PSJ+.1` localizer geometry:
@@ -118,5 +125,7 @@ require preserving pointwise localizer comparison.
 3. Do not promote the compact-support radius or adiabatic packing schedules as
    the minimal wall. They are stronger sufficient continuations beyond the
    installed endpoint.
-4. Do not claim `(PBA.6)` is proved here. This note only identifies it as the
-   sharpest current `PSJ+.1` overlap primitive on disk.
+4. Do not claim `(PBA.6)` is proved here from weaker hypotheses. The terminal
+   closure note closes `PSJ+.1` by routing that scalar object to the admitted
+   retained-family supplier layer, not by erasing the distinction between
+   `PSJ+.1` overlap debt and retained-cover infrastructure.

@@ -200,11 +200,13 @@ class-membership edge.
 Inside that branch:
 
 1. the fine `PSJ+.1` overlap route lives at weighted localizer-modulus /
-   weighted center-spacing, `LOM.8` / `LOM.10`;
-2. the coarse route sharpens past `LOS.1` to scalar retained-cover counting,
-   `LRC.1` / `RCP.0`;
-3. the narrowest installed coarse endpoint is the scalar retained-cover
-   counting primitive;
+   weighted center-spacing, `LOM.8` / `LOM.10`, as a sharper nonminimal sibling;
+2. the installed coarse route sharpens past `LOS.1` to scalar retained-cover
+   counting, `LRC.1` / `RCP.0`, and is now terminalized in
+   [psj-plus-1-overlap-terminal-closure.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/psj-plus-1-overlap-terminal-closure.md);
+3. the scalar retained-cover object is retained-family supplier infrastructure,
+   not an independent live `PSJ+.1` overlap theorem after the installed coarse
+   normalization route is chosen;
 4. repaired direct exact-potential `V2` and `SG.4B` surfaces remain supplier or
    readout context and do not replace the lane-wide class-membership frontier;
 5. the branch-local `PSJ+` terminal assembly is now recorded in

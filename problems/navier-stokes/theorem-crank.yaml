@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-29T18:03:19Z'
+  generated_at: '2026-04-29T18:06:17Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-b9dfd13de2cb
-    route_signature: b9dfd13de2cbf2e3c597ba2bb012df6eddfb0ebd
+    surface_id: theorem-surface-navier-stokes-4bc9c0ed9220
+    route_signature: 4bc9c0ed92206585ee8187061b1462a9c3fdbf95
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -43,7 +43,7 @@ shared_alignment:
       label: lower-carrier receiver wall
       kind: lemma
       status: structural-only
-      patch_surface: problems/navier-stokes/object-formalization.yaml
+      patch_surface: problems/navier-stokes/debt-map.yaml
     - slot_id: debt-collar-to-jump-converse-pivot
       label: collar-to-jump converse pivot
       kind: lemma
@@ -112,7 +112,7 @@ local_derivation:
     packet_kind: lemma
     source_kind: live-solver-target
     recommended_stage: dependency-discharge
-    target_patch_surface: problems/navier-stokes/object-formalization.yaml
+    target_patch_surface: problems/navier-stokes/debt-map.yaml
     matched_route_slot_labels:
     - lower-carrier receiver wall
   - packet_id: debt-collar-to-jump-converse-pivot

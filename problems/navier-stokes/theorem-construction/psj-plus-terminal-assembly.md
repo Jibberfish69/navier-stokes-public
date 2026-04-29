@@ -186,6 +186,9 @@ The following Marvin route-authority directives are absorbed by
   sufficient supplier, not as a live blocker.
 
 The remaining caution is about authority, not assembly: `PSJ+` remains a
-downstream exact-potential branch under the current class-membership edge, and
-the `PSJ+.1` overlap refinements still keep their own fine/coarse split
-(`LOM.8` / `LOM.10` versus `LRC.1` / `RCP.0`).
+downstream exact-potential branch under the current class-membership edge. The
+`PSJ+.1` overlap refinements are now terminalized in
+[psj-plus-1-overlap-terminal-closure.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/psj-plus-1-overlap-terminal-closure.md):
+the installed coarse normalized-kernel branch closes overlap as a retained-family
+supplier consumer, while the fine `LOM.8` / `LOM.10` route remains a sharper
+nonminimal sibling.

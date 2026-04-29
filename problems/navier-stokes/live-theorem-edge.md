@@ -48,11 +48,12 @@ promotes it again.
   downstream geometric slot and one-field-coherence consumer context. It is not
   a prerequisite to `CFI.A`, `OFP.A`, or `LCI.A`.
 - exact-potential / `PSJ+`: preserved as branch-specific readout and supplier
-  support on the Law-2-survivor side. The `PSJ+.1` overlap refinements, including
-  the fine `LOM.8` / `LOM.10` branch and the coarse `LRC.1` / `RCP.0`
-  retained-cover endpoint, remain branch-local downstream context. The terminal
-  branch assembly is recorded as `D.7mq+SSC-EP.A=>D.7mr2=>RPC.3`, with
-  `SSC-D7mb-collapse` as one installed selector-strain supplier.
+  support on the Law-2-survivor side. The terminal branch assembly is recorded
+  as `D.7mq+SSC-EP.A=>D.7mr2=>RPC.3`, with `SSC-D7mb-collapse` as one installed
+  selector-strain supplier. The `PSJ+.1` overlap refinements are terminalized
+  branch-local context: the installed coarse normalized-kernel branch closes
+  overlap as a retained-family supplier consumer, while the fine `LOM.8` /
+  `LOM.10` route remains a sharper nonminimal sibling.
 - Hodge / normal-covector: preserved as branch-specific readout support on the
   Law-2-survivor side, not as lane-wide route authority.
 - Euclidean strict-shadow: preserved as downstream export branch only.

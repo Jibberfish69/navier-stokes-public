@@ -65,6 +65,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - `problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md`
 - `problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md`
 - `problems/navier-stokes/theorem-construction/psj-plus-terminal-assembly.md`
+- `problems/navier-stokes/theorem-construction/psj-plus-1-overlap-terminal-closure.md`
 - `problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md`
 - `problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md`
 

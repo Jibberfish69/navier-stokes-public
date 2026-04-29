@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-29T17:24:53Z'
+  generated_at: '2026-04-29T18:04:25Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -107,8 +107,8 @@ next_solver_targets:
   kind: lemma
   status: structural-only
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-b9dfd13de2cb
-  route_signature: b9dfd13de2cbf2e3c597ba2bb012df6eddfb0ebd
+  surface_id: theorem-surface-navier-stokes-4bc9c0ed9220
+  route_signature: 4bc9c0ed92206585ee8187061b1462a9c3fdbf95
   theorem_target: conditional terminal class-membership lane closure packet
   theorem_statement: The official Clay target allows either the whole-space branch
     on R^3 or the periodic branch on T^3.
@@ -144,8 +144,8 @@ theorem_surface:
     label: lower-carrier receiver wall
     kind: lemma
     status: structural-only
-    source_anchor: 'gap-ticket: burden-item'
-    patch_surface: problems/navier-stokes/object-formalization.yaml
+    source_anchor: problems/navier-stokes/debt-map.yaml
+    patch_surface: problems/navier-stokes/debt-map.yaml
   - slot_id: debt-collar-to-jump-converse-pivot
     label: collar-to-jump converse pivot
     kind: lemma
@@ -203,6 +203,7 @@ theorem_surface:
     - problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md
     - problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md
     - problems/navier-stokes/theorem-construction/psj-plus-terminal-assembly.md
+    - problems/navier-stokes/theorem-construction/psj-plus-1-overlap-terminal-closure.md
     - problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md
     - problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md
     - problems/navier-stokes/proof-assembly.yaml
@@ -244,4 +245,4 @@ summary:
   tracked_source_count: 141
   synthesis_import_surface_count: 15
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-b9dfd13de2cb
+  theorem_surface_id: theorem-surface-navier-stokes-4bc9c0ed9220
