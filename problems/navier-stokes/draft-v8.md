@@ -62,6 +62,44 @@ that chain on the main theorem surface.
 This is the live internal theorem statement for the primary authoring surface.
 The authoritative warrant state is recorded in `theorem-to-warrant.yaml`.
 
+### Theorem 2.1 Warrant Alignment
+
+Theorem 2.1 is now read through the installed class-membership closure route,
+not as a free-standing Euclidean four-bridge overclaim. The export-facing
+statement is:
+
+```math
+RawData.Production
++EndpointFace.Type
++PackGauge.Dichotomy
++RetainedAdmission.Persistence
+\Rightarrow
+H1+H2+H6+ORIGIN.Retain
+```
+
+together with
+
+```math
+RSCB.NKF
+\Rightarrow NKF.Native
+\Rightarrow ACT.KX
+\Rightarrow ACT.X\text{-Readout}
+\Rightarrow ACT.A
+\Rightarrow RCF.A
+\Rightarrow LCI.A
+\Rightarrow FCI.5f
+\Rightarrow OFP.A
+\Rightarrow CFI.A
+\Rightarrow End_{NS}.
+```
+
+The theorem warrant is therefore: under the installed original-data
+class-membership packet, no finite first class-membership endpoint remains.
+Every first retained-route failure is typed into `Dead`,
+`packing-detached`, `tower-blown`, or `Jump`, and `End_NS` removes those faces.
+This is a route-accurate closure statement; paper export and Clay-level release
+still require the review and release ledgers to agree with this theorem surface.
+
 ## Working Theorem Objects
 
 ### Classical Scale-Barrier Functional

@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-29T19:15:23Z'
+  generated_at: '2026-04-29T19:30:18Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -42,7 +42,6 @@ source_grounded_chain:
 - lower-carrier receiver wall
 - collar-to-jump converse pivot
 - Keep theorem scope below the first unsafe overclaim
-- Theorem 2.1 (Classical Closure)
 - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
   or `T^3` -> Success for regularized or morphic-regularized equations does not close
   the original problem
@@ -82,7 +81,11 @@ remaining_open_obligations:
   status: bridge-pending
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
-  math_frontier_obligations: []
+  math_frontier_obligations:
+  - obligation_id: warrant-theorem-2.1
+    label: Theorem 2.1 (Classical Closure)
+    kind: theorem-warrant
+    status: bridge-pending
   theorem_warrant_obligations:
   - obligation_id: warrant-theorem-2.1
     label: Theorem 2.1 (Classical Closure)
@@ -212,13 +215,13 @@ theorem_surface:
     cross_surface_splice: false
     sterilized_synthesis_import_count: 15
 summary:
-  grounded_step_count: 24
+  grounded_step_count: 23
   promoted_extension_count: 0
   bridge_discharge_blocking_count: 1
   bridge_discharge_only_count: 0
   theorem_warrant_blocking_count: 1
   open_obligation_count: 1
-  math_frontier_open_count: 0
+  math_frontier_open_count: 1
   frontier_context_count: 0
   frontier_route_container_count: 0
   frontier_downstream_support_count: 0

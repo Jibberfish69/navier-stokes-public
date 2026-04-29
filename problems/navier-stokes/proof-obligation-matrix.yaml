@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T19:19:07Z'
+  generated_at: '2026-04-29T19:30:18Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
@@ -174,9 +174,9 @@ obligations:
 - obligation_id: warrant-theorem-2.1
   kind: theorem-warrant
   label: Theorem 2.1 (Classical Closure)
-  status: grounded
-  source_anchor: working-notes/ontic-nc-ns-ymg-hodge-program.md
-  blocking: false
+  status: bridge-pending
+  source_anchor: problems/navier-stokes/external-paper/sections/main-result.tex
+  blocking: true
   notes:
   - Theorem-to-warrant marks this theorem claim as `conditional`.
   - The lane now contains concrete discharge loci for scale, monotone, compactness,
@@ -184,11 +184,6 @@ obligations:
     remains conditional because SG.4 and its downstream continuation handoff are still
     open. Any Euclidean whole-space theorem on `R^3` is downstream export, not part
     of the internal warrant carried here.
-  - The lane now contains concrete discharge loci for scale, monotone, compactness,
-    and the torus-first continuation side. However, the authoritative theorem remains
-    conditional because SG.4 and its continuation handoff are still open, and any
-    whole-space Euclidean claim remains downstream discharge/export.
-  - Current packet status is `localized-support`.
 - obligation_id: proof-dependency-1
   kind: proof-dependency
   label: The Clay target is the official 3D incompressible Navier-Stokes problem on
@@ -381,18 +376,21 @@ obligations:
     closure_kind: local-bridge-spine-status-proof
 summary:
   total_obligations: 24
-  grounded_count: 24
+  grounded_count: 23
   structural_only_count: 0
   structurally_supported_count: 0
-  bridge_pending_count: 0
+  bridge_pending_count: 1
   unresolved_count: 0
   frontier_count: 0
   bridge_discharge_blocking_count: 0
-  theorem_warrant_blocking_count: 0
-  blocking_count: 0
-  all_discharged: true
+  theorem_warrant_blocking_count: 1
+  blocking_count: 1
+  all_discharged: false
   live_theorem_edge_present: true
   live_theorem_edge_branch_count: 0
   live_theorem_edge_blocked_count: 0
 submission_blockers:
+- Theorem-to-warrant still records 0 unresolved bridge discharges and 1 non-proved
+  theorem warrants.
+- There are 1 bridge obligations still awaiting local discharge.
 - Stand-alone status remains `revise`.

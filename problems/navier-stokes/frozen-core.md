@@ -25,7 +25,6 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - lower-carrier receiver wall (`lemma`; `debt-lower-carrier-receiver-wall`)
 - collar-to-jump converse pivot (`lemma`; `debt-collar-to-jump-converse-pivot`)
 - Keep theorem scope below the first unsafe overclaim (`lemma`; `debt-keep-theorem-scope-below-the-first-unsafe-overclaim`)
-- Theorem 2.1 (Classical Closure) (`theorem-warrant`; `warrant-theorem-2.1`)
 - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3` or `T^3` -> Success for regularized or morphic-regularized equations does not close the original problem (`proof-dependency`; `proof-dependency-1`)
 - Success for regularized or morphic-regularized equations does not close the original problem -> The original framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy (`proof-dependency`; `proof-dependency-2`)
 - The original framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy -> Global energy or enstrophy control is necessary but not sufficient (`proof-dependency`; `proof-dependency-3`)
@@ -38,7 +37,8 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Source Frontier
 
-- No unresolved frontier obligations remain.
+- `first_unresolved`: Theorem 2.1 (Classical Closure) (`theorem-warrant`; `warrant-theorem-2.1`)
+- Theorem 2.1 (Classical Closure) (`theorem-warrant`; `warrant-theorem-2.1`)
 
 ## Source Surfaces
 
