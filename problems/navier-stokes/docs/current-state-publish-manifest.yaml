@@ -691,6 +691,7 @@ published_files:
 - theorem-construction/ss-first-direct-cts-lpas-fallback-execution-order-note.md
 - theorem-construction/ssc-d7mb-collapse-and-suppliers.md
 - theorem-construction/stable-projector-recovery-via-davis-kahan.md
+- theorem-construction/strict-low-mode-strain-suppression-result.md
 - theorem-construction/strict-low-sum-level-cancellation-audit.md
 - theorem-construction/strict-shadow-no-remainder-corollary.md
 - theorem-construction/strict-shadow-no-shadowdef-corollary.md
