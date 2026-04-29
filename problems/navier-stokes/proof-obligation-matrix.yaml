@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T18:42:07Z'
+  generated_at: '2026-04-29T18:43:50Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
@@ -129,13 +129,11 @@ obligations:
   kind: lemma
   label: Global energy or enstrophy control is necessary but not sufficient
   status: grounded
-  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  source_anchor: theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
   blocking: false
   notes:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
-  - This obligation is not yet discharged locally.
-  - Discharged locally by `MUP.EI`.
 - obligation_id: debt-one-field-forward-preservation-wall
   kind: lemma
   label: one-field forward-preservation wall
@@ -225,26 +223,24 @@ obligations:
   label: The original framework names a monotone functional `Q(t)` as a bridge, not
     just unnamed baseline energy -> Global energy or enstrophy control is necessary
     but not sufficient
-  status: structurally-supported
-  source_anchor: Later theorem prose depends on the earlier claim being localized
-    first.
-  blocking: false
-  notes:
-  - Dependency chain is still only structural; the proof links are not yet discharged
-    into a submission-safe theorem packet.
-  - Dependency chain is strongly supported by the recovered local object layer, but
-    it is not yet discharged as a formal submission-safe bridge.
-- obligation_id: proof-dependency-4
-  kind: proof-dependency
-  label: Global energy or enstrophy control is necessary but not sufficient -> The
-    live obstruction is the small-scale or high-frequency cascade that feeds blow-up
-  status: unresolved
+  status: bridge-pending
   source_anchor: Later theorem prose depends on the earlier claim being localized
     first.
   blocking: true
   notes:
-  - Dependency chain is still only structural; the proof links are not yet discharged
-    into a submission-safe theorem packet.
+  - Dependency chain direction is visible in the recovered route, but this bridge
+    still needs explicit local discharge before submission.
+- obligation_id: proof-dependency-4
+  kind: proof-dependency
+  label: Global energy or enstrophy control is necessary but not sufficient -> The
+    live obstruction is the small-scale or high-frequency cascade that feeds blow-up
+  status: bridge-pending
+  source_anchor: Later theorem prose depends on the earlier claim being localized
+    first.
+  blocking: true
+  notes:
+  - Dependency chain direction is visible in the recovered route, but this bridge
+    still needs explicit local discharge before submission.
 - obligation_id: proof-dependency-5
   kind: proof-dependency
   label: The live obstruction is the small-scale or high-frequency cascade that feeds
@@ -268,8 +264,6 @@ obligations:
     first.
   blocking: true
   notes:
-  - Dependency chain is still only structural; the proof links are not yet discharged
-    into a submission-safe theorem packet.
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
 - obligation_id: proof-dependency-7
@@ -283,8 +277,6 @@ obligations:
     first.
   blocking: true
   notes:
-  - Dependency chain is still only structural; the proof links are not yet discharged
-    into a submission-safe theorem packet.
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
 - obligation_id: proof-dependency-8
@@ -892,19 +884,19 @@ summary:
   total_obligations: 64
   grounded_count: 15
   structural_only_count: 0
-  structurally_supported_count: 1
-  bridge_pending_count: 5
-  unresolved_count: 3
+  structurally_supported_count: 0
+  bridge_pending_count: 7
+  unresolved_count: 2
   frontier_count: 40
   bridge_discharge_blocking_count: 0
   theorem_warrant_blocking_count: 0
-  blocking_count: 48
+  blocking_count: 49
   all_discharged: false
   live_theorem_edge_present: true
   live_theorem_edge_branch_count: 0
   live_theorem_edge_blocked_count: 0
 submission_blockers:
-- There are 3 unresolved proof obligations.
-- There are 5 bridge obligations still awaiting local discharge.
+- There are 2 unresolved proof obligations.
+- There are 7 bridge obligations still awaiting local discharge.
 - There are 40 frontier obligations still inside the theorem packet.
 - Stand-alone status remains `revise`.

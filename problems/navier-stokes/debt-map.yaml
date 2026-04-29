@@ -5,7 +5,7 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-04-29T18:42:04Z'
+  extracted_at: '2026-04-29T18:43:57Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
@@ -26,8 +26,8 @@ supporting_sections:
   - one-field forward-preservation wall
   - lower-carrier receiver wall
   - collar-to-jump converse pivot
-  - Explain how 'Global energy or enstrophy control is necessary but not sufficient'
-    is grounded locally without theorem inflation.
+  - Global energy or enstrophy control is grounded locally by `MUP.EI` as necessary
+    infrastructure, not as a closure mechanism.
   promotion_rule:
   - Do not promote beyond `revise` until each `ridge discharge required` row has either
     been localized into the local package or explicitly parked below the theorem surface.
@@ -39,19 +39,20 @@ debt_items:
 - debt_id: debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
   label: Global energy or enstrophy control is necessary but not sufficient
   source_section: proof-debt-ledger
-  monograph_status: local source located; localization still required
+  monograph_status: localized by `MUP.EI`; packaging debt discharged
   standalone_need: 'yes'
   primary_anchors:
+  - theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
   - 'obstruction-capture: Core Mechanism'
   - spine.4
   - theorem-construction/energy-baseline-bridge-lemma.md
   - theorem-construction/monotone-functional-package.md
   - problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
   - problems/navier-stokes/claim-ladder.md
-  debt_class: local-derivable
-  recommended_stage: debt-derive
-  rationale: The entry is unresolved but not marked as a frontier-level block, so
-    it is treated as bounded derivation debt.
+  debt_class: packaging
+  recommended_stage: prose-realization
+  rationale: The ledger says the material already exists in some proved or discharged
+    form, so the remaining work is localization, exposition, or packaging.
   priority_rank: 1
   derivation_state: localized-support
   derivation_attempts: 1
@@ -188,12 +189,13 @@ debt_items:
   support_strength: strong
 summary:
   counts_by_class:
-    packaging: 1
-    local-derivable: 4
+    packaging: 2
+    local-derivable: 3
     branch-choice: 0
     blocked-frontier: 0
   recommended_next_cell_type: solver-loop
   recommended_next_action: Packaging debt is the only visible remainder, so run solver-loop
     first and freeze the source-grounded theorem frontier before any more prose.
   recommended_debt_ids:
+  - debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
   - debt-keep-theorem-scope-below-the-first-unsafe-overclaim

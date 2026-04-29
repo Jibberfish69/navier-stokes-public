@@ -11,7 +11,7 @@
 
 | Label | Monograph Status | Stand-Alone Need | Existing Local Anchors |
 | --- | --- | --- | --- |
-| Global energy or enstrophy control is necessary but not sufficient | local source located; localization still required | yes | obstruction-capture: Core Mechanism, spine.4, theorem-construction/energy-baseline-bridge-lemma.md, theorem-construction/monotone-functional-package.md, problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md, problems/navier-stokes/claim-ladder.md |
+| Global energy or enstrophy control is necessary but not sufficient | localized by `MUP.EI`; packaging debt discharged | yes | theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md, obstruction-capture: Core Mechanism, spine.4, theorem-construction/energy-baseline-bridge-lemma.md, theorem-construction/monotone-functional-package.md, problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md, problems/navier-stokes/claim-ladder.md |
 | one-field forward-preservation wall | ridge discharge required from current backbone | yes | gap-ticket: burden-item |
 | lower-carrier receiver wall | ridge discharge required from current backbone | yes | gap-ticket: burden-item |
 | collar-to-jump converse pivot | ridge discharge required from current backbone | yes | gap-ticket: burden-item |
@@ -28,7 +28,7 @@
 - one-field forward-preservation wall
 - lower-carrier receiver wall
 - collar-to-jump converse pivot
-- Explain how 'Global energy or enstrophy control is necessary but not sufficient' is grounded locally without theorem inflation.
+- Global energy or enstrophy control is grounded locally by `MUP.EI` as necessary infrastructure, not as a closure mechanism.
 
 ## Promotion Rule
 
