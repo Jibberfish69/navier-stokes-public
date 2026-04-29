@@ -163,6 +163,28 @@ Equivalently, on the square-budget measurable-derivative descendant:
 \tag{PSJT.11}
 ```
 
+## Route-Authority Closure Ledger
+
+The following Marvin route-authority directives are absorbed by
+`PSJ+.Terminal` and are no longer live `PSJ+` blockers:
+
+- `marvin-route-authority-96`: projective endgame split; consumed by the
+  `D.7mq + SSC-EP.A => D.7mr2` terminal assembly.
+- `marvin-route-authority-98`: explicit `PSJ+` open-theorem wording; closed by
+  `(PSJT.10)`.
+- `marvin-route-authority-99`: normalized Cauchy-Green lift / `D.7ma` supplier;
+  retained only as upstream local support for the selector-strain input.
+- `marvin-route-authority-101`: localized projector-moment tensor supplier;
+  retained only as upstream local support for the projector packet.
+- `marvin-route-authority-104`: persistent simple-top route into `PSJ+.6`;
+  retained as a sufficient supplier for `SSC-EP.A`, not as the terminal burden.
+- `marvin-route-authority-105`: route wording that fixed the target as `PSJ+`;
+  superseded by the terminal completion statement.
+- `marvin-route-authority-107`: named `PSJ+.SST` assumption packet; consumed as
+  a supplier route below `SSC-EP.A`.
+- `marvin-route-authority-111`: `PSJ+.5` route into `PSJ+.SST`; retained as a
+  sufficient supplier, not as a live blocker.
+
 The remaining caution is about authority, not assembly: `PSJ+` remains a
 downstream exact-potential branch under the current class-membership edge, and
 the `PSJ+.1` overlap refinements still keep their own fine/coarse split

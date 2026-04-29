@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-29T17:40:19Z'
+  generated_at: '2026-04-29T17:42:45Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -68,7 +68,7 @@ shared_alignment:
   promoted_obligation_count: 8
   missing_promoted_obligation_count: 0
   missing_promoted_obligations: []
-  route_authority_candidate_count: 48
+  route_authority_candidate_count: 40
   missing_route_authority_candidate_count: 0
   missing_route_authority_candidates: []
   promoted_proof_packet_count: 0

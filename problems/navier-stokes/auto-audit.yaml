@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-04-29T17:35:51Z'
+  audited_at: '2026-04-29T17:42:34Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: active
@@ -238,15 +238,20 @@ surface_snapshot:
       cross_surface_splice: false
       sterilized_synthesis_import_count: 0
   proof_obligation_summary:
-    total_obligations: 77
+    total_obligations: 69
     grounded_count: 2
     structural_only_count: 4
     structurally_supported_count: 1
     bridge_pending_count: 5
     unresolved_count: 12
-    frontier_count: 53
-    blocking_count: 74
+    frontier_count: 45
+    bridge_discharge_blocking_count: 0
+    theorem_warrant_blocking_count: 0
+    blocking_count: 66
     all_discharged: false
+    live_theorem_edge_present: true
+    live_theorem_edge_branch_count: 5
+    live_theorem_edge_blocked_count: 0
 issues:
 - issue_id: stale-review-verdict
   severity: major

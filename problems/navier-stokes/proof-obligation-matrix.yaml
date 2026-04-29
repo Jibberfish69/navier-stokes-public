@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T17:34:07Z'
+  generated_at: '2026-04-29T17:42:31Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
@@ -758,89 +758,6 @@ obligations:
   blocking: true
   notes:
   - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-96
-  kind: branch-choice
-  label: 'Live task: Audited the projective endgame against the external sources and
-    split the remaining burden formally. In problems/navier-stokes/theorem-construction/cycle-exact-projective-synchronization-packet.md,
-    transport coherence is now clos'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-98
-  kind: branch-choice
-  label: 'Live task: Updated the projective synchronization packet and canonical Navier-Stokes
-    surfaces so the live open theorem is explicitly PSJ+, not the vague older request
-    for some synchronization observable from W_J. The exact remaining burden'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-99
-  kind: branch-choice
-  label: 'Define or prove: Audited the proposed normalized Cauchy-Green lift against
-    the live exact-potential packet. Formalized Proposition D.7ma in problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.m'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-101
-  kind: branch-choice
-  label: 'Live task: Updated the cycle-exact projective packet so the surrogate-construction
-    side is now formal: the localized projector-moment tensor \widetilde S_J built
-    from transported pair geometry is measurable, symmetric, and PSD, and local co'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-104
-  kind: branch-choice
-  label: 'Live task: Updated the cycle-exact projective packet so the open burden
-    is no longer raw projector concentration in the abstract. The packet now proves
-    that if one has a persistent simple-top local strain regime, then PSJ+.6 follows
-    by pair'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-105
-  kind: branch-choice
-  label: 'Live task: Corrected the theorem-facing route wording across the canonical
-    Navier-Stokes surfaces. The overall exact-potential open theorem remains PSJ+,
-    not the narrower persistent simple-top local strain regime PSJ+.4. On the localized
-    pr'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-107
-  kind: branch-choice
-  label: 'Live task: Tightened the cycle-exact projective synchronization packet to
-    make the persistent simple-top regime a named assumption packet `PSJ+.SST` rather
-    than an anonymous inline hypothesis block. `PSJ+.4` now explicitly depends on
-    `PSJ+.'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
-- obligation_id: marvin-route-authority-111
-  kind: branch-choice
-  label: 'Live task: Added Proposition PSJ+.5 to the cycle-exact projective packet.
-    It shows that on the intended active family, Assumption PSJ+.SST follows from
-    exact segment transport (eta=0), a simple-top gap floor, a corotational drift
-    budget der'
-  status: frontier
-  source_anchor: route-synthesis
-  blocking: true
-  notes:
-  - This route choice or blocked frontier is still inside the theorem packet.
 - obligation_id: marvin-route-authority-116
   kind: branch-choice
   label: 'Live task: Strengthened the YM/deformation theorem schema in the spectral
@@ -935,19 +852,24 @@ obligations:
   notes:
   - This route choice or blocked frontier is still inside the theorem packet.
 summary:
-  total_obligations: 77
+  total_obligations: 69
   grounded_count: 2
   structural_only_count: 4
   structurally_supported_count: 1
   bridge_pending_count: 5
   unresolved_count: 12
-  frontier_count: 53
-  blocking_count: 74
+  frontier_count: 45
+  bridge_discharge_blocking_count: 0
+  theorem_warrant_blocking_count: 0
+  blocking_count: 66
   all_discharged: false
+  live_theorem_edge_present: true
+  live_theorem_edge_branch_count: 5
+  live_theorem_edge_blocked_count: 0
 submission_blockers:
 - There are 4 theorem-critical obligations that are only structurally supported and
   still need source-backed or discharge-backed grounding.
 - There are 12 unresolved proof obligations.
 - There are 5 bridge obligations still awaiting local discharge.
-- There are 53 frontier obligations still inside the theorem packet.
+- There are 45 frontier obligations still inside the theorem packet.
 - Stand-alone status remains `revise`.
