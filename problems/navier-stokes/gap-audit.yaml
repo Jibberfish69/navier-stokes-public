@@ -1,0 +1,22 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  audit_id: gap-audit-navier-stokes
+  generated_at: '2026-04-29T20:18:00Z'
+pass: false
+release_eligible: false
+theorem_matrix:
+  total_obligations: 24
+  grounded_count: 23
+  blocking_count: 1
+  all_discharged: false
+release_gaps:
+- id: pctp-hard-terminal-tail-uniformization
+  status: open
+  release_blocking: true
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-pctp-hard-endpoint-face-audit.md
+side_sandbox_gaps:
+- id: MEG
+  status: open-side-primitive
+  release_blocking: false

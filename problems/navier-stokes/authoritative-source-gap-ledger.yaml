@@ -1,0 +1,198 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  ledger_id: ns-authoritative-source-gap-ledger
+  generated_at: '2026-04-30T22:36:00Z'
+  generator: manual-source-gap-classification
+purpose: Classify authoritative-source coverage gaps without converting them into
+  proof-obligation blockers after the proof matrix is discharged.
+status_values:
+  localized: Exact source burden has been placed on a lane-local theorem-facing
+    surface; it no longer blocks export as an unidentified source gap.
+  demoted: Source is retained as provenance or downstream context, but it is not
+    part of the active proof-obligation matrix.
+  explicitly-covered: The current lane surfaces directly cover the source topic
+    and keep its release boundary explicit.
+release_rule: A topic blocks export readiness only while it remains unclassified;
+  localized, demoted, and explicitly-covered topics are not theorem-work blockers.
+topics:
+  - classification_id: ns-src-gap-interdependencies
+    topic: interdependencies among principles
+    status: explicitly-covered
+    matrix_role: non-proof-obligation
+    source_paths:
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_6-_Interdependencies_Among_Principles.tex
+    local_anchors:
+      - problems/navier-stokes/interdependencies-discharge-source-pack.md
+      - problems/navier-stokes/source-grounded-framework-map.md
+      - problems/navier-stokes/full-proof-campaign.yaml
+    rationale: The source-level four-principle cycle is explicitly carried by the
+      interdependencies discharge pack and framework map. It records architecture
+      and dependency topology; it is not a new theorem-work burden.
+    release_rule: covered as route architecture, not as an active proof obligation.
+  - classification_id: ns-src-gap-compactness-discrete
+    topic: compactness discrete solutions
+    status: demoted
+    matrix_role: non-proof-obligation
+    source_paths:
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Compactness Proof for Discrete Navier-Stokes Solutions.tex
+    local_anchors:
+      - problems/navier-stokes/compactness-discharge-source-pack.md
+      - problems/navier-stokes/theorem-construction/compactness-upgrade-lemma.md
+      - problems/navier-stokes/theorem-construction/nonlinear-compactness-upgrade-operator.md
+    rationale: The discrete Aubin-Lions compactness source is retained as a
+      provenance companion for the compactness handoff. The active proof route uses
+      a fixed classical approximation family and dyadic tail input, so the discrete
+      variant is not a separate matrix obligation.
+    release_rule: demoted to provenance companion for compactness, not an export blocker.
+  - classification_id: ns-src-gap-curvature-based
+    topic: curvature based
+    status: localized
+    matrix_role: non-proof-obligation
+    source_paths:
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_5-_Curvature-Based_Regularity.tex
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Gradient_Control_Through_Geometric_Arguments.tex
+    local_anchors:
+      - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+      - problems/navier-stokes/theorem-construction/curvature-based-gradient-bridge-object.md
+      - problems/navier-stokes/theorem-construction/curvature-to-scale-feedback-bridge.md
+    rationale: The old curvature fourth bridge is localized as a source-faithful
+      branch/provenance object. It remains visible as the original fourth-slot
+      mechanism, while any Euclidean replacement must stay labeled as replacement
+      or downstream theorem upgrade.
+    release_rule: localized source branch; does not reopen the discharged proof matrix.
+  - classification_id: ns-src-gap-initial-data-l2
+    topic: initial data l2
+    status: demoted
+    matrix_role: non-proof-obligation
+    source_paths:
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Global Regularity Framework for Arbitrary Initial Data in L2.tex
+    local_anchors:
+      - problems/navier-stokes/source-grounded-framework-map.md
+      - problems/navier-stokes/proof-assembly.yaml
+      - problems/navier-stokes/scale-barrier-source-pack.md
+      - problems/navier-stokes/compactness-discharge-source-pack.md
+    rationale: The arbitrary L2 whole-space source is retained as the broad Clay
+      ambition and approximation-family provenance. The current internal route is
+      torus-first/conditional packet; whole-space and arbitrary-L2 release remain
+      downstream and must not be read as active theorem-work blockage.
+    release_rule: demoted to downstream/global-scope context until the whole-space branch is promoted.
+  - classification_id: ns-src-gap-non-sobolev-compactness
+    topic: non sobolev compactness
+    status: explicitly-covered
+    matrix_role: non-proof-obligation
+    source_paths:
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_4-_Non-Sobolev_Compactness.tex
+    local_anchors:
+      - problems/navier-stokes/compactness-discharge-source-pack.md
+      - problems/navier-stokes/interdependencies-discharge-source-pack.md
+      - problems/navier-stokes/source-grounded-framework-map.md
+    rationale: The generalized-H/non-Sobolev compactness content is explicitly
+      carried into the compactness discharge pack and translated into the fixed
+      low/high dyadic compactness operator used by the live route.
+    release_rule: explicitly covered by the compactness source pack; no source-gap blocker remains.
+  - classification_id: ns-src-gap-discrete-continuous-mapping
+    topic: rigorous mapping between discrete continuous
+    status: demoted
+    matrix_role: non-proof-obligation
+    source_paths:
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Rigorous Mapping Between Discrete and Continuous Representations of the Navier-Stokes Equations and Proof of Global Smoothness__desktop_navier_stokes_zip__2025-01-10.tex
+    local_anchors:
+      - problems/navier-stokes/compactness-discharge-source-pack.md
+      - problems/navier-stokes/source-grounded-framework-map.md
+      - problems/navier-stokes/proof-assembly.yaml
+    rationale: The discrete-to-continuous mapping source is preserved as legacy
+      compactness/Galerkin provenance. The live route does not use the discrete
+      scheme as an active terminal proof obligation; it keeps compactness support
+      on fixed classical approximation and downstream dyadic/retained-cover packets.
+    release_rule: demoted to provenance context for the compactness bridge; does
+      not reopen the proof matrix.
+  - classification_id: ns-src-gap-master-corpus
+    topic: master corpus
+    status: demoted
+    matrix_role: non-proof-obligation
+    source_paths:
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-conversation-corpus.md
+    local_anchors:
+      - problems/navier-stokes/source-forensics/master-tex-corpus.md
+      - problems/navier-stokes/source-forensics/master-conversation-corpus.md
+      - problems/navier-stokes/source-grounded-framework-map.md
+    rationale: Master-corpus surfaces are inventories and provenance routers,
+      not independent theorem claims. They must stay searchable but cannot become
+      release blockers unless they identify a specific unclassified source topic.
+    release_rule: retained as source-forensics context, not an active proof obligation.
+  - classification_id: ns-src-gap-aubin-lions-lemma
+    topic: aubin lions lemma
+    status: demoted
+    matrix_role: non-proof-obligation
+    source_paths:
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Rigorous Mapping Between Discrete and Continuous Representations of the Navier-Stokes Equations and Proof of Global Smoothness__desktop_navier_stokes_zip__2025-01-10.tex
+    local_anchors:
+      - problems/navier-stokes/compactness-discharge-source-pack.md
+      - problems/navier-stokes/theorem-construction/compactness-upgrade-lemma.md
+      - problems/navier-stokes/theorem-construction/nonlinear-compactness-upgrade-operator.md
+    rationale: Aubin-Lions compactness is retained as the legacy compactness
+      mechanism behind the source corpus. The current theorem packet treats it
+      as provenance for compactness support, not as a separate live matrix row.
+    release_rule: demoted to compactness provenance; no source-gap blocker remains.
+  - classification_id: ns-src-gap-discrete-energy-estimates
+    topic: discrete energy estimates
+    status: demoted
+    matrix_role: non-proof-obligation
+    source_paths:
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Rigorous Mapping Between Discrete and Continuous Representations of the Navier-Stokes Equations and Proof of Global Smoothness__desktop_navier_stokes_zip__2025-01-10.tex
+    local_anchors:
+      - problems/navier-stokes/compactness-discharge-source-pack.md
+      - problems/navier-stokes/source-grounded-framework-map.md
+      - problems/navier-stokes/proof-assembly.yaml
+    rationale: Discrete energy estimates belong to the legacy approximation
+      scaffold. The active proof matrix is governed by the retained/averaged
+      route surfaces and does not spend a discrete-scheme energy row as a terminal
+      theorem burden.
+    release_rule: demoted to provenance context for approximation/compactness.
+  - classification_id: ns-src-gap-discrete-formulations
+    topic: discrete formulations
+    status: demoted
+    matrix_role: non-proof-obligation
+    source_paths:
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Rigorous Mapping Between Discrete and Continuous Representations of the Navier-Stokes Equations and Proof of Global Smoothness__desktop_navier_stokes_zip__2025-01-10.tex
+    local_anchors:
+      - problems/navier-stokes/compactness-discharge-source-pack.md
+      - problems/navier-stokes/source-grounded-framework-map.md
+      - problems/navier-stokes/proof-assembly.yaml
+    rationale: Discrete formulations are retained as source-history and
+      approximation context. They do not supersede the current torus-first
+      classical/retained-cover theorem packet.
+    release_rule: demoted to source-history context; not a proof-obligation blocker.
+  - classification_id: ns-src-gap-energy-bounds
+    topic: energy bounds
+    status: explicitly-covered
+    matrix_role: non-proof-obligation
+    source_paths:
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Rigorous Mapping Between Discrete and Continuous Representations of the Navier-Stokes Equations and Proof of Global Smoothness__desktop_navier_stokes_zip__2025-01-10.tex
+    local_anchors:
+      - problems/navier-stokes/scale-barrier-source-pack.md
+      - problems/navier-stokes/compactness-discharge-source-pack.md
+      - problems/navier-stokes/proof-assembly.yaml
+    rationale: Energy bounds are covered inside the compactness and scale-side
+      source packs. The current blocker is not an unnamed energy estimate; it is
+      the explicit PCTP.hard terminal-tail uniformization frontier.
+    release_rule: explicitly covered by source packs; no separate source-gap blocker remains.
+  - classification_id: ns-src-gap-galerkin-approximation
+    topic: galerkin approximation
+    status: demoted
+    matrix_role: non-proof-obligation
+    source_paths:
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Rigorous Mapping Between Discrete and Continuous Representations of the Navier-Stokes Equations and Proof of Global Smoothness__desktop_navier_stokes_zip__2025-01-10.tex
+    local_anchors:
+      - problems/navier-stokes/compactness-discharge-source-pack.md
+      - problems/navier-stokes/source-grounded-framework-map.md
+      - problems/navier-stokes/proof-assembly.yaml
+    rationale: Galerkin approximation remains provenance for the legacy
+      discrete/compactness pipeline. The live theorem packet uses the retained
+      class-membership and averaged readout route and therefore does not promote
+      Galerkin approximation to an independent active matrix row.
+    release_rule: demoted to compactness/approximation provenance.

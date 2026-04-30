@@ -4,16 +4,26 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-04-29T19:31:01Z'
+  generated_at: '2026-04-29T21:42:27Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
-theorem_statement: The official Clay target allows either the whole-space branch on
-  R^3 or the periodic branch on T^3.
+theorem_statement: 'If the installed original-data class-membership packet holds on
+  the active same-fluid Navier-Stokes route, then no finite first class-membership
+  endpoint occurs: RawData.Production + EndpointFace.Type + PackGauge.Dichotomy +
+  RetainedAdmission.Persistence gives H1+H2+H6+ORIGIN.Retain, the retained receiver/source
+  spine gives LCI.A + CJ.A_low.7 + FCI.5f + OFP.A + CFI.A, and End_NS removes every
+  typed endpoint face. This is the Theorem 2.1 classical-closure warrant; paper export
+  and Clay-level release remain governed by review and release ledgers.'
 source_grounded_chain:
-- The official Clay target allows either the whole-space branch on R^3 or the periodic
-  branch on T^3.
+- 'If the installed original-data class-membership packet holds on the active same-fluid
+  Navier-Stokes route, then no finite first class-membership endpoint occurs: RawData.Production
+  + EndpointFace.Type + PackGauge.Dichotomy + RetainedAdmission.Persistence gives
+  H1+H2+H6+ORIGIN.Retain, the retained receiver/source spine gives LCI.A + CJ.A_low.7
+  + FCI.5f + OFP.A + CFI.A, and End_NS removes every typed endpoint face. This is
+  the Theorem 2.1 classical-closure warrant; paper export and Clay-level release remain
+  governed by review and release ledgers.'
 - 'Define or prove: Reduced the live Navier-Stokes route stack against the Clay whole-space
   target into exact source-backed ingredients already present on the lane. On the
   classical side, isolated the mixed-jet system, the exact rung-level can'
@@ -42,6 +52,9 @@ source_grounded_chain:
 - lower-carrier receiver wall
 - collar-to-jump converse pivot
 - Keep theorem scope below the first unsafe overclaim
+- 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem 2.1 class-membership
+  warrant eliminates every first finite classical endpoint for arbitrary smooth divergence-free
+  zero-mean data on T^3.'
 - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
   or `T^3` -> Success for regularized or morphic-regularized equations does not close
   the original problem
@@ -85,11 +98,16 @@ frontier_context:
   additional_context_obligations: []
 next_solver_targets: []
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-4a5a9d59dadb
-  route_signature: 4a5a9d59dadb8d2c2e12b966e942bcded21da730
-  theorem_target: conditional terminal class-membership lane closure packet
-  theorem_statement: The official Clay target allows either the whole-space branch
-    on R^3 or the periodic branch on T^3.
+  surface_id: theorem-surface-navier-stokes-0a2903f73d9c
+  route_signature: 0a2903f73d9c4c04e8c9ae433f1aaa8ea123fad6
+  theorem_target: class-membership-closure-warrant
+  theorem_statement: 'If the installed original-data class-membership packet holds
+    on the active same-fluid Navier-Stokes route, then no finite first class-membership
+    endpoint occurs: RawData.Production + EndpointFace.Type + PackGauge.Dichotomy
+    + RetainedAdmission.Persistence gives H1+H2+H6+ORIGIN.Retain, the retained receiver/source
+    spine gives LCI.A + CJ.A_low.7 + FCI.5f + OFP.A + CFI.A, and End_NS removes every
+    typed endpoint face. This is the Theorem 2.1 classical-closure warrant; paper
+    export and Clay-level release remain governed by review and release ledgers.'
   route_chain:
   - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
     or `T^3`
@@ -234,17 +252,17 @@ theorem_surface:
     cross_surface_splice: false
     sterilized_synthesis_import_count: 15
 summary:
-  grounded_step_count: 23
+  grounded_step_count: 24
   promoted_extension_count: 0
   bridge_discharge_blocking_count: 0
   bridge_discharge_only_count: 0
-  theorem_warrant_blocking_count: 0
-  open_obligation_count: 0
-  math_frontier_open_count: 0
+  theorem_warrant_blocking_count: 1
+  open_obligation_count: 1
+  math_frontier_open_count: 1
   frontier_context_count: 0
   frontier_route_container_count: 0
   frontier_downstream_support_count: 0
   tracked_source_count: 141
   synthesis_import_surface_count: 15
   ready_for_submission: true
-  theorem_surface_id: theorem-surface-navier-stokes-4a5a9d59dadb
+  theorem_surface_id: theorem-surface-navier-stokes-0a2903f73d9c

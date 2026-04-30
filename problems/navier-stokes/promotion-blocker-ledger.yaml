@@ -4,21 +4,22 @@ identity:
   problem_id: navier-stokes
   artifact_id: promotion-blocker-ledger-navier-stokes
   created_by: chatgpt
-  purpose: promotion blocker ledger refreshed after solved matrix and Theorem 2.1 warrant alignment
+  purpose: promotion blocker ledger refreshed after solved matrix and Theorem 2.1
+    warrant alignment
 status:
   promotion_tier: local-theorem-packet
-  current_status: review-pass-export-gated
-  promotion_allowed: true
+  current_status: blocked-by-pctp-hard
+  promotion_allowed: false
   release_approved: false
-  acceptance_test: review-and-export
+  acceptance_test: prove-pctp-hard
 source_reads:
   proof_obligation_matrix:
     path: problems/navier-stokes/proof-obligation-matrix.yaml
     total_obligations: 24
-    blocking_count: 0
+    blocking_count: 1
     bridge_pending_count: 0
-    unresolved_count: 0
-    all_discharged: true
+    unresolved_count: 1
+    all_discharged: false
   theorem_warrant:
     path: problems/navier-stokes/theorem-to-warrant.yaml
     theorem_2_1_status: proved
@@ -27,30 +28,25 @@ source_reads:
     status: present
   assumption_ledger:
     path: problems/navier-stokes/assumption-ledger.yaml
-    status: theorem-matrix-cleared
-promotion_packet_blockers: []
-proof_obligation_blockers: []
+    status: nonterminal-pctp-hard-open
+promotion_packet_blockers:
+- pctp-hard-terminal-tail-uniformization
+proof_obligation_blockers:
+- pctp-hard-terminal-tail-uniformization
 branch_terminal_blockers: []
 resolved_blockers:
-  - full-dependency-graph
-  - theorem-2-1-warrant
-  - one-field-forward-preservation-wall
-  - lower-carrier-receiver-wall
-  - collar-to-jump-converse-pivot
-  - h1-h2-h6-endpoint-upgrade
+- full-dependency-graph
+- theorem-2-1-warrant
+- one-field-forward-preservation-wall
+- lower-carrier-receiver-wall
+- collar-to-jump-converse-pivot
+- h1-h2-h6-endpoint-upgrade
 remaining_release_gates:
-  - id: review-verdict
-    status: pass-record-needed
-    required_action: review current draft-v8 and main-result.tex against the new warrant
-  - id: stable-reproducibility-bundle
-    status: export-needed
-    required_action: publish or regenerate a clean submission/export bundle after review pass
-  - id: release-decision
-    status: deferred
-    required_action: create only after export bundle passes
+- prove PCTP.hard terminal-tail uniformization
 side_sandbox_status:
   hfg_low: threshold-discharged
   hfg_alt: no-free-gap; surviving primitive is MEG
 claim_boundary:
-  current_safe_claim: The Theorem 2.1 class-membership closure warrant is installed and the 24-obligation matrix has 0 blockers.
+  current_safe_claim: The Theorem 2.1 class-membership closure warrant is installed
+    and the 24-obligation matrix has 0 blockers.
   prohibited_claim: submission-ready Clay proof before review/export bundle pass

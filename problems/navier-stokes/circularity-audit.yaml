@@ -1,53 +1,53 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
   artifact_id: circularity-audit-navier-stokes
   created_by: chatgpt
-  purpose: circularity and hidden-dependency audit for clay-level proof promotion
+  purpose: circularity and hidden-dependency audit for Clay-level proof promotion
 status:
-  audit_status: route-clear-release-gated
+  audit_status: nonterminal
   pass: false
-  route_pass: true
+  route_pass: false
   release_eligible: false
 source:
   auto_audit: problems/navier-stokes/auto-audit.yaml
   proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
-  promotion_blocker_ledger: problems/navier-stokes/promotion-blocker-ledger.yaml
+  assumption_audit: problems/navier-stokes/assumption-audit.yaml
+  gap_audit: problems/navier-stokes/gap-audit.yaml
+  consistency_audit: problems/navier-stokes/consistency-audit.yaml
 checks:
   - id: receiver-before-source
     label: source cells cannot be used upstream of LCI.A
-    status: route-supported
-    evidence: prior ACT.KX hidden-spending audit surfaces support the route-local ordering
+    status: passed
+    evidence: ACT.KX and retained route ordering keep LCI.A before source closure FCI.5f.
   - id: endpoint-after-cfi
     label: endpoint closure must occur after CFI.A
-    status: route-supported
-    evidence: endpoint matrix surfaces support the route-local ordering
+    status: passed
+    evidence: End_NS remains downstream of CFI.A and endpoint certificate maps.
   - id: averaged-before-readout
     label: averaged objects cannot substitute for pointwise objects before DTC.Read Field.Read CM.Read READ.END
-    status: route-supported
-    evidence: averaged route surfaces support the typed boundary
+    status: passed
+    evidence: averaged route enters pointwise endpoint only through READ.END.
   - id: dependency-chain-circularity
     label: proof-dependency chain must be acyclic and every bridge discharged locally
-    status: route-supported
-    evidence: proof-obligation-matrix reports 24 grounded obligations, 0 blocking, 0 bridge-pending, and 0 unresolved
+    status: blocked
+    evidence: proof-obligation-matrix now reports PCTP.hard as the blocking theorem frontier.
   - id: quarantined-branch-circularity-risk
     label: quarantined branches cannot feed the main proof spine
-    status: release-gated
-    evidence: current source-frontier has no live frontier obligations; stale promotion ledgers still need refresh before release
+    status: passed
+    evidence: HFG/MEG and side sandbox primitives remain quarantined outside the accepted Theorem 2.1 release packet.
   - id: target-fidelity-circularity-risk
     label: final proof cannot assume stronger transfer structure instead of deriving original target
-    status: blocked
-    evidence: review-verdict marks target_fidelity conditional-transfer; submission-verdict marks authority-conflict
+    status: passed
+    evidence: target-fidelity bridge is grounded and surrogate routes require explicit same-surface return before use.
 findings:
-  - route-local hidden-spending checks are supported for ACT.KX, source ordering, endpoint ordering, and averaged typing
-  - dependency-chain circularity is clear at the current proof-obligation-matrix level
-  - release-level circularity remains gated by stale promotion/review surfaces and target-fidelity review, not by H1/H2/H6
+  - Route-local hidden-spending checks pass for ACT.KX, source ordering, endpoint ordering, and averaged typing.
+  - READ.COVER is noncircular downstream of End_NS_avg, but this does not prove PCTP.hard.
+  - Release remains blocked by terminal-tail uniformization, not by a local readout-cycle defect.
 verdict:
-  circularity_clear_for_route: true
+  circularity_clear_for_route: false
   circularity_clear_for_release: false
-  clay_release_circularity_status: release-gated-by-review-and-ledger-refresh
+  clay_release_circularity_status: blocked-by-pctp-hard
 required_to_pass:
-  - refresh promotion blocker and assumption ledgers against the current matrix
-  - rerun auto-audit and proof_promotion_packet
-  - replace conditional-transfer review posture only after the current proof and manuscript surfaces pass review
+- Prove PCTP.hard or keep the package explicitly nonterminal.

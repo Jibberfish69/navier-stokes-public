@@ -4,17 +4,17 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-04-29T19:31:03Z'
+  audited_at: '2026-04-30T22:30:26Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: active
-  standalone_status: revise
-  completion_tier_achieved: route-complete
+  standalone_status: nonterminal
+  completion_tier_achieved: conditional-class-membership-packet
   review_verdict: revise
-  theorem_packet_status: incomplete
+  theorem_packet_status: export-ready
 audit_certification:
-  audit_status: audited-needs-fix
-  audit_completion_tier: audited-route-complete
+  audit_status: audited-ok
+  audit_completion_tier: audited-conditional-class-membership-packet
   audit_review_verdict: audited-revise
 branch_audit:
   status: no-branches
@@ -107,17 +107,27 @@ surface_snapshot:
       patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
     authority_layers:
       authoritative_proof_surfaces:
-      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_3-_Monotone_Functional.tex"
-      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_6-_Interdependencies_Among_Principles.tex"
-      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_2-_Scale-Barrier_Principle.tex"
-      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Gradient_Control_Through_Geometric_Arguments.tex"
-      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Compactness
-        Proof for Discrete Navier–Stokes Solutions.tex"
-      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Global
-        Regularity Framework for Arbitrary Initial Data in L2.tex"
-      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_4-_Non-Sobolev_Compactness.tex"
-      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_5-_Curvature-Based_Regularity.tex"
-      - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Energy_Boundedness_via_Q(t)_for_Global_Regularity.tex"
+      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
+      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-conversation-corpus.md"
+      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/077-monograph-drafting-plan-68c1cea3-7eb.md"
+      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Rigorous
+        Mapping Between Discrete and Continuous Representations of the Navier-Stokes
+        Equations and Proof of Global Smoothness__desktop_navier_stokes_zip__2025-01-10.tex"
+      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium
+        Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Desktop/Navier-stokes/Rigorous
+        Mapping Between Discrete and Continuous Representations of the Navier–Stokes
+        Equations and Proof of Global Smoothness.tex"
+      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium
+        Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium
+        Prize Problems/Navier-Stokes/TeX/Rigorous Mapping Between Discrete and Continuous
+        Representations of the Navier–Stokes Equations and Proof of Global Smoothness.tex"
+      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium
+        Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium
+        Prize Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discrete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_Global_Smoothness
+        (2).tex"
+      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium
+        Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium
+        Prize Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discrete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_Global_Smoothness.tex"
       local_theorem_construction_surfaces:
       - problems/navier-stokes/claim-ladder.md
       - problems/navier-stokes/formalization-ledger.md
@@ -171,28 +181,21 @@ surface_snapshot:
       cross_surface_splice: false
       sterilized_synthesis_import_count: 0
   proof_obligation_summary:
-    total_obligations: 23
-    grounded_count: 23
+    total_obligations: 25
+    grounded_count: 24
     structural_only_count: 0
     structurally_supported_count: 0
     bridge_pending_count: 0
     unresolved_count: 0
-    frontier_count: 0
+    frontier_count: 1
     bridge_discharge_blocking_count: 0
     theorem_warrant_blocking_count: 0
-    blocking_count: 0
-    all_discharged: true
+    blocking_count: 1
+    all_discharged: false
     live_theorem_edge_present: true
     live_theorem_edge_branch_count: 0
-    live_theorem_edge_blocked_count: 0
-issues:
-- issue_id: stale-review-verdict
-  severity: major
-  summary: Review verdict is stale relative to the current manuscript artifacts.
-  autofixable: false
-  recommended_action: Run honesty-review to refresh the review verdict.
-  details:
-  - Primary manuscript changed after the current review verdict was written.
+    live_theorem_edge_blocked_count: 1
+issues: []
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml

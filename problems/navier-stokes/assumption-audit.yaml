@@ -1,45 +1,33 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
   artifact_id: assumption-audit-navier-stokes
-  created_by: chatgpt
-  purpose: assumption discharge audit for clay-level proof promotion
+  refreshed_by: chatgpt
+  purpose: assumption discharge audit for the current Theorem 2.1 class-membership closure warrant and periodic terminal-promotion bridge
 status:
-  audit_status: h-layer-closed-release-gated
+  audit_status: nonterminal
   pass: false
-  route_pass: true
+  route_pass: false
   release_eligible: false
+  release_scope: pctp-hard-terminal-tail-uniformization
 source:
   assumption_ledger: problems/navier-stokes/assumption-ledger.yaml
   proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
-  h1_h2_h6_closure:
-    - problems/navier-stokes/theorem-construction/mpp-endpoint-face-packgauge-retained-admission-solution-note.md
-    - problems/navier-stokes/theorem-construction/mpp-rawdata-production-and-release-completion-packet.md
-    - problems/navier-stokes/theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
+  terminal_promotion_bridge: problems/navier-stokes/theorem-construction/mpp-periodic-terminal-promotion-bridge.md
+  theorem_to_warrant: problems/navier-stokes/theorem-to-warrant.yaml
 summary:
-  matrix_total_obligations: 24
-  matrix_blocking_count: 0
-  matrix_bridge_pending_count: 0
-  matrix_unresolved_count: 0
-  matrix_all_discharged: true
+  matrix_assumptions_discharged: false
   h_layer_status: closed
-  release_ledger_status: stale_or_unrefreshed
-closed_assumptions:
-  - one-field-forward-preservation-wall
-  - lower-carrier-receiver-wall
-  - collar-to-jump-converse-pivot
-  - h1-retained-window-native-forcing-through-endpoint
-  - h2-bounded-pack-gauge-through-endpoint
-  - h6-endpoint-certificate-exhaustiveness
+  periodic_terminal_bridge: blocked-by-pctp-hard
+  theorem_2_1_scope: class-membership closure warrant
+  clay_full_mpp_scope: blocked-until-terminal-tail-uniformization
 findings:
-  - H1, H2, and H6 are closed by RawData.Production plus EndpointFace.Type, PackGauge.Dichotomy, and RetainedAdmission.Persistence.
-  - The regenerated proof-obligation matrix reports no blocking, bridge-pending, or unresolved obligations.
-  - The older assumption-ledger and promotion-blocker surfaces still carry release-level stale blockers and must be refreshed before a Clay-level release decision.
+  - The assumption ledger reports all matrix assumptions discharged.
+  - The H1/H2/H6 retained endpoint-admission layer is closed for the installed route.
+  - The periodic terminal-promotion bridge does not yet carry the local class-membership
+    warrant to exclusion of first finite classical endpoints from original data.
+  - HFG/MEG is kept outside this release scope.
 verdict:
-  h_layer_assumption_discharge_complete: true
-  clay_release_assumption_status: release-gated-by-review-and-ledger-refresh
-required_to_pass_release:
-  - refresh assumption-ledger and promotion-blocker-ledger against the current matrix
-  - rerun review and paperization release checks
-  - issue a release decision only after the review/export surfaces pass
+  assumption_discharge_complete_for_release_scope: false
+  stronger_clay_promotion_status: blocked-by-pctp-hard

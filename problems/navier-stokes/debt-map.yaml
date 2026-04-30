@@ -5,7 +5,7 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-04-29T19:31:00Z'
+  extracted_at: '2026-04-29T21:47:45Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
@@ -13,7 +13,7 @@ posture:
     current_package_status: active
     support_basis: Recovered source support converged with the speculative branch,
       so the next safe move is a grounded backbone rebuild.
-    standalone_status: review-pass-export-gated
+    standalone_status: revise
 supporting_sections:
   reviewer_risks:
   - 'Do not overclaim beyond the lowest safe theorem surface: The official Clay target
@@ -23,6 +23,10 @@ supporting_sections:
   - Recovered support is still classified as strong, so the local package remains
     a revise-stage workboard.
   required_local_explanations: []
+  post_release_theorem_upgrade_gaps:
+  - 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem 2.1
+    class-membership warrant eliminates every first finite classical endpoint for
+    arbitrary smooth divergence-free zero-mean data on T^3.'
   promotion_rule:
   - Do not promote beyond `revise` until every row marked as a live theorem burden
     has either been localized into the local package or explicitly parked below the
@@ -185,9 +189,47 @@ debt_items:
   priority_rank: 5
   derivation_state: localized-support
   support_strength: strong
+- debt_id: debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
+  label: 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem
+    2.1 class-membership warrant eliminates every first finite classical endpoint
+    for arbitrary smooth divergence-free zero-mean data on T^3.'
+  source_section: post-release-theorem-upgrade
+  monograph_status: reopened from post-release theorem-upgrade plan
+  standalone_need: 'yes'
+  primary_anchors:
+  - problems/navier-stokes/post-release-plan.yaml
+  debt_class: packaging
+  recommended_stage: prose-realization
+  rationale: The post-release plan says this gap remains outside the accepted checkpoint
+    package, so it must stay on the theorem-upgrade path instead of being demoted
+    to packaging debt.
+  priority_rank: 6
+  derivation_state: localized-support
+  derivation_attempts: 1
+  attempts_without_new_support: 0
+  last_derivation_run_id: debt-derive-navier-stokes-20260429T213615Z
+  support_strength: strong
+  evidence_paths:
+  - problems/navier-stokes/frozen-core.md
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/claim-ladder.md
+  - problems/navier-stokes/obstruction-capture.md
+  new_evidence_paths:
+  - problems/navier-stokes/frozen-core.md
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/claim-ladder.md
+  - problems/navier-stokes/obstruction-capture.md
+  source_sufficiency: sufficient
+  source_scope_status: proof-obligation-grounded
+  source_checks: 1
+  reclassified_from: local-derivable
 summary:
   counts_by_class:
-    packaging: 5
+    packaging: 6
     local-derivable: 0
     branch-choice: 0
     blocked-frontier: 0
@@ -200,3 +242,4 @@ summary:
   - debt-lower-carrier-receiver-wall
   - debt-collar-to-jump-converse-pivot
   - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
+  - debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3

@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-29T19:31:03Z'
+  generated_at: '2026-04-30T22:30:26Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-4a5a9d59dadb
-    route_signature: 4a5a9d59dadb8d2c2e12b966e942bcded21da730
+    surface_id: theorem-surface-navier-stokes-0a2903f73d9c
+    route_signature: 0a2903f73d9c4c04e8c9ae433f1aaa8ea123fad6
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -240,10 +240,10 @@ cross_lane_broadcast:
   - problems/navier-stokes/dependency-discharge.yaml
   - problems/navier-stokes/object-formalization.yaml
 auditor:
-  status: needs-attention
-  audit_status: audited-needs-fix
+  status: ok
+  audit_status: audited-ok
   branch_terminal_status: no-branches
-  open_issue_count: 1
+  open_issue_count: 0
   autofixable_issue_count: 0
   fix_plan_count: 0
   branch_count: 0
@@ -274,18 +274,24 @@ frontier_projection:
   recommended_next_cell_type: object-formalization
 summary:
   phase: local-derivation
-  execution_state: needs-reroute
+  execution_state: blocked
   leadership_status: lagging-shared-picture
   alignment_complete: true
+  proof_matrix_all_discharged: false
+  proof_assembly_open_obligation_count: 1
+  authoritative_source_gap_count: 7
+  export_readiness_hold_state: none
   exact_local_packet_count: 5
   net_new_local_theorem_count: 0
   projected_frontier_count: 2
-  current_open_obligation_count: 0
-  open_obligations_state: cleared
+  current_open_obligation_count: 1
+  open_obligations_state: not-currently-worked
+  theorem_work_blocked: true
+  blocked_queue_interpretation: theorem-work blockage
   on_recommended_track: false
   recommended_next_cell_type: object-formalization
-  audit_status: audited-needs-fix
+  audit_status: audited-ok
   branch_terminal_status: no-branches
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: prose-realization
+  current_next_cell_type: ''
   current_next_cell_is_theorem_work: false

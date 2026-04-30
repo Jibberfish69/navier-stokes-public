@@ -6,8 +6,8 @@ identity:
   created_by: chatgpt
   purpose: dependency audit for clay-level proof promotion
 status:
-  audit_status: dependency-graph-closed-release-gated
-  pass: true
+  audit_status: dependency-graph-nonterminal
+  pass: false
   release_eligible: false
 source:
   proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
@@ -15,20 +15,21 @@ source:
   theorem_note: problems/navier-stokes/theorem-construction/mcp-proof-dependency-1-9-bridge-discharge-theorem-5483e34490.md
 summary:
   total_obligations: 24
-  blocking_count: 0
+  blocking_count: 1
   bridge_pending_count: 0
-  unresolved_count: 0
-  all_discharged: true
-blocking_dependencies: []
+  unresolved_count: 1
+  all_discharged: false
+blocking_dependencies:
+- pctp-hard-terminal-tail-uniformization
 findings:
   - proof-dependencies 1 through 9 are grounded in the current proof-obligation matrix.
   - H1, H2, and H6 are not dependency blockers after the endpoint-face and raw-data production packets.
   - Clay-level release is still gated by review, paperization, and release-decision surfaces rather than by this dependency graph.
 verdict:
-  dependency_graph_closed: true
+  dependency_graph_closed: false
   dependency_direction_clean: true
-  clay_release_dependency_status: dependency-closed-release-gated
+  clay_release_dependency_status: blocked-by-pctp-hard
 required_for_release:
-  - refresh stale promotion ledgers that still quote older blocking counts
+  - prove PCTP.hard terminal-tail uniformization
   - rerun honesty review on the current theorem and manuscript surfaces
   - produce a clean release decision and reproducibility bundle after review passes

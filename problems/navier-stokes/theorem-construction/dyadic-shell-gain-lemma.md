@@ -1,110 +1,84 @@
-# Dyadic Shell Gain Lemma
+# Dyadic Shell-Tail Suppression Lemma
 
 ## Status
 
-Frontier shell-level estimate for the high-frequency gain needed to force the
-endpoint Besov control on the classical three-dimensional incompressible
-Navier-Stokes equation.
+Repaired theorem-facing shell/tail suppression surface for the active periodic cascade route.
 
-This note does not prove the gain. It isolates the exact shellwise estimate
-whose proof would imply the dyadic high-frequency gain theorem `HFG` and, in
-turn, the critical-space continuation bound.
+This file no longer treats the endpoint Besov gain theorem `HFG` as the active blocker. The active route uses the repaired gradient commutator estimate `GC.A`, coefficient admissibility `Coeff.A`, and scheduler theorem `Sched.A` to obtain fixed-threshold periodic shell/tail suppression `PST.A`.
 
-## Classical Surface
+## Active Surface
 
-Let `u` be a smooth classical solution on `[0,T]\times\mathbb R^3` and let
-`ω = \nabla\times u`. Fix a homogeneous Littlewood-Paley decomposition
-`ω = \sum_{j\ge -1} \Delta_j ω`.
-
-## Shell-Level Target
-
-For each dyadic shell `j`, define the cascade defect
+Let `u` be a smooth periodic solution on a finite classical interval `I`. Define
 
 ```math
-\mathrm{cascade}_j(t)
-:=
-\langle \Delta_j((\omega\cdot\nabla)u), \Delta_j\omega\rangle
-+ \mathrm{Comm}_j(t),
+E_N(t):=\sum_{j\ge N}2^{2j}\|\Delta_j u(t)\|_2^2,
+\qquad
+D_N(t):=\sum_{j\ge N}2^{4j}\|\Delta_j u(t)\|_2^2.
 ```
 
-where `\mathrm{Comm}_j` denotes the commutator contribution in the localized
-vorticity energy identity.
-
-The exact shellwise gain target is:
+The repaired commutator route gives
 
 ```math
-\mathrm{cascade}_j(t)
+\frac{d}{dt}E_N(t)+(1-\eta)\nu D_N(t)
 \le
-\varepsilon \nu 2^{2j}\|\Delta_j\omega(t)\|_{L^2_x}^2
-+
-C_\varepsilon 2^{-2j}\|\nabla\omega(t)\|_{L^2_x}^2
+C_{\eta,M,\nu}\widetilde\Lambda_N^\sharp(t)E_N(t)+C_*2^{-2\delta N}.
 ```
 
-for almost every `t`, uniformly for `j` in the high-frequency regime and with
-constants independent of the approximation index.
-
-## Equivalent Integrated Form
-
-If the shell gain target holds, then the dyadic energy inequality becomes
+For fixed scheduler threshold `N`,
 
 ```math
-\frac{d}{dt}\|\Delta_j\omega(t)\|_{L^2_x}^2
-+
-c\nu 2^{2j}\|\Delta_j\omega(t)\|_{L^2_x}^2
+\widetilde\Lambda_N^\sharp\in L^1(I).
+```
+
+## Theorem `PST.A`
+
+For every finite classical interval `I` and every `\rho>0`, the scheduler selects a threshold `N` and a finite partition of `I` such that
+
+```math
+\sup_{t\in I}E_N(t)+\int_I D_N(t)\,dt\le \rho.
+```
+
+Consequently the high-frequency cascade flux is integrable and budget-small on the chosen periodic threshold:
+
+```math
+|\Pi_{\ge N}(t)|
 \le
-C 2^{-2j}\|\nabla\omega(t)\|_{L^2_x}^2.
+C\widetilde\Lambda_N^\sharp(t)E_N(t)+\eta\nu D_N(t)+C_*2^{-2\delta N}.
 ```
-
-Integrating in time and summing over `j` yields
-
-```math
-\sum_{j\ge 0} 2^{\frac32 j}\,\|\Delta_j\omega\|_{L^1_tL^2_x(0,T)} < \infty,
-```
-
-which is exactly the endpoint high-frequency gain statement recorded in
-`dyadic-high-frequency-gain-theorem.md`.
-
-## Shell-Closed Interpretation
-
-The shell gain target is the local form of the same commutator problem. After
-splitting the dyadic commutator into a local block and a tail block, the local
-piece is controlled by the usual Lipschitz coefficient `|\nabla u|_{L^\infty}`
-times the shell energy. The live obstruction is the tail piece, which only
-closes if one can insert a half-derivative gain of the form
-
-```math
-\|\Delta_k\omega\|_{L^\infty_x}
-\lesssim
-2^{-\frac12 k}\times(\text{controlled quantity})
-```
-
-or an equivalent shellwise decay statement that makes the tail kernel
-summable. That is precisely the missing gain behind the endpoint theorem.
-
-The broader route candidate `all-scale-frequency-transfer-inefficiency-theorem.md`
-should be read as a global transport-law cousin of this same obstruction. The
-present shell-gain lemma asks for a local anti-cascade estimate at each high
-shell `j`; the all-scale theorem would instead impose a directional
-transport-loss law across every dyadic pair `k<j`, with the shell gain then
-appearing as a high-frequency corollary.
 
 ## Proof Interface
 
-The shell gain lemma is equivalent to controlling the genuine high-high packet
-after the strict low-mode and spill pieces have been removed:
+The active proof chain is:
 
-- `gradient-paraproduct-reduction-lemma.md` isolates the strict low-mode terms;
-- `gradient-spill-reduction-lemma.md` removes the finite-band spill;
-- `exact-dyadic-interaction-decomposition.md` records the unconditional
-  shellwise identity and the low-high obstruction;
-- `gradient-commutator-remainder-lemma.md` records the remaining cascade bound;
-- `dyadic-high-frequency-gain-theorem.md` packages the endpoint integrated gain;
-- `all-scale-frequency-transfer-inefficiency-theorem.md` records the stronger
-  transport-direction formulation in which nonlocal upward transfer pays a
-  summable spectral-gap cost globally across scales.
+```math
+LowMode.A + SP.A + HH.Abs.Q \Longrightarrow GC.A,
+```
 
-## Honest Boundary
+```math
+GC.A + Coeff.A + Sched.A \Longrightarrow PST.A.
+```
 
-This lemma is still open. The obstruction is the same half-derivative gap that
-prevents `\omega \in L^\infty_t L^2_x \cap L^2_t \dot H^1_x` from implying
-`L^1_t B^0_{\infty,1}` by static interpolation alone.
+The components are recorded in:
+
+- `gradient-paraproduct-reduction-lemma.md` for `LowMode.A`;
+- `gradient-spill-reduction-lemma.md` for `SP.A`;
+- `gradient-high-high-near-diagonal-reduction-lemma.md` and `gradient-cubic-tail-absorption-lemma.md` for `HH.Abs.Q`;
+- `mcp-full-gradient-commutator-estimate-from-repaired-packet-split-gc-a-50abab3b85.md` for `GC.A`;
+- `mcp-augmented-coefficient-admissibility-for-lambda_n-sharp-92fdd9321d.md` for `Coeff.A`;
+- `mcp-threshold-scheduler-theorem-for-repaired-gradient-tail-pst-a-482005ac54.md` for `Sched.A`.
+
+## Relation To Endpoint HFG
+
+The stronger endpoint Besov gain theorem `HFG` remains a different theorem target. It asks for all-threshold summability strong enough to imply an endpoint continuation criterion directly. The active route requires only scheduled fixed-threshold shell/tail suppression on the periodic branch.
+
+Thus the old statement
+
+```math
+\sum_{j\ge0}2^{3j/2}\|\Delta_j\omega\|_{L^1_tL^2}<\infty
+```
+
+is not the current proof dependency. The current proof dependency is the route-level `PST.A` suppression estimate above.
+
+## Boundary
+
+`PST.A` is a route-level periodic shell/tail suppression theorem. It is not an all-threshold endpoint Besov theorem, and it does not by itself export the result to `R^3`.

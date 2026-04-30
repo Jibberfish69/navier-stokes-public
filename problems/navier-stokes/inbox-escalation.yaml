@@ -1,0 +1,50 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  escalation_id: inbox-escalation-navier-stokes
+  halt_id: halt-navier-stokes-20260429T210036Z
+  emitted_at: '2026-04-29T21:00:36Z'
+delivery:
+  channel: codex-inbox
+  severity: math-idea-request
+  notify_if_enabled: true
+  dedupe_key:
+    problem_id: navier-stokes
+    current_stage: debt-map-built
+    blocking_issue_signature: exhausted-debt-theorem-upgrade-4-clear-the-authoritative-nonterminal-overlays-by-discharging-the-blocked-theorem-bridges-or-keeping-the-package-explicitly-nonterminal-local-derivable
+presentation:
+  title: Navier-Stokes Global Regularity precise math idea request
+  summary: Internal repair is exhausted; the remaining blocker is one exact math idea
+    question.
+  open_paths:
+    halt_request: problems/navier-stokes/halt-request.yaml
+    halt_gist: problems/navier-stokes/halt-gist.md
+    pipeline_state: problems/navier-stokes/pipeline-state.yaml
+body:
+  gist_markdown: problems/navier-stokes/halt-gist.md
+  questions:
+  - What exact math idea or already-existing local source should ground `Clear the
+    authoritative nonterminal overlays by discharging the blocked theorem bridges
+    or keeping the package explicitly nonterminal.`, or should it be removed from
+    the live theorem target?
+  unresolved_issue: dependency-discharge did not promote this obligation after localized
+    support was found
+  what_was_tried:
+  - debt-extract typed the remaining formal debt from formalization-ledger.md
+  - debt-derive ran bounded local source searches against the workboard and canonical
+    corpus
+  - 1 bounded derivation attempt(s) were consumed, with 0 attempt(s) failing to find
+    new support
+  source_evidence:
+    imported_extract_paths_checked: []
+    imported_extract_paths_with_hits: []
+    imported_extract_count_checked: 0
+    imported_extract_count_with_hits: 0
+    last_evidence_paths: []
+action:
+  requested_response: Reply with one concise math idea or exact target decision that
+    resolves the listed question.
+  unblock_condition: The response materially changes the mathematical blocker named
+    in halt-request.yaml.

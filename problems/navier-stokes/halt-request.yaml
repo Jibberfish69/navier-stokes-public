@@ -1,0 +1,40 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  halt_id: halt-navier-stokes-20260429T210036Z
+severity: math-idea-request
+dedupe_key:
+  problem_id: navier-stokes
+  current_stage: debt-map-built
+  blocking_issue_signature: exhausted-debt-theorem-upgrade-4-clear-the-authoritative-nonterminal-overlays-by-discharging-the-blocked-theorem-bridges-or-keeping-the-package-explicitly-nonterminal-local-derivable
+attention_contract:
+  kind: exhausted-derivation
+  discussion_scope: math-only
+  channel_policy: user-contact-permitted-only-for-precise-math-idea
+  internal_routes_exhausted: true
+  question_count: 1
+context:
+  what_was_tried:
+  - debt-extract typed the remaining formal debt from formalization-ledger.md
+  - debt-derive ran bounded local source searches against the workboard and canonical
+    corpus
+  - 1 bounded derivation attempt(s) were consumed, with 0 attempt(s) failing to find
+    new support
+  unresolved_issue: dependency-discharge did not promote this obligation after localized
+    support was found
+  confidence: low
+  source_evidence:
+    imported_extract_paths_checked: []
+    imported_extract_paths_with_hits: []
+    imported_extract_count_checked: 0
+    imported_extract_count_with_hits: 0
+    last_evidence_paths: []
+questions:
+- What exact math idea or already-existing local source should ground `Clear the authoritative
+  nonterminal overlays by discharging the blocked theorem bridges or keeping the package
+  explicitly nonterminal.`, or should it be removed from the live theorem target?
+delivery:
+  inbox_item: true
+  client_notifications_if_enabled: true
+  dedupe_suppressed: false

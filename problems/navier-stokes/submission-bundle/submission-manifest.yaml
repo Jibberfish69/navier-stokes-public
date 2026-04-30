@@ -1,0 +1,28 @@
+---
+version: 1
+problem_id: navier-stokes
+display_name: Navier-Stokes Global Regularity
+generated_at: '2026-04-29T21:48:56Z'
+manuscript_source: problems/navier-stokes/external-paper/main.tex
+manuscript_source_kind: tex
+manuscript_source_reason: campaign-status.current_manuscript_surface.external_surface
+submission_metadata: problems/navier-stokes/submission-metadata.yaml
+outputs:
+  tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
+theorem_surface:
+  surface_id: theorem-surface-navier-stokes-0a2903f73d9c
+  route_signature: 0a2903f73d9c4c04e8c9ae433f1aaa8ea123fad6
+  slot_ids:
+  - marvin-upstream-eb3fabeeac46
+  - marvin-upstream-ada9835aa864
+  - marvin-upstream-6d929e8a052a
+  - marvin-upstream-954339945793
+  - marvin-upstream-96892bab139f
+copied_artifacts:
+  theorem_packet: problems/navier-stokes/submission-bundle/theorem-packet.yaml
+  proof_obligation_matrix: problems/navier-stokes/submission-bundle/proof-obligation-matrix.yaml
+  submission_verdict: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  frozen_core: problems/navier-stokes/submission-bundle/frozen-core.md
+  source_frontier: problems/navier-stokes/submission-bundle/source-frontier.yaml
+  promotion_verdict: problems/navier-stokes/submission-bundle/promotion-verdict.yaml

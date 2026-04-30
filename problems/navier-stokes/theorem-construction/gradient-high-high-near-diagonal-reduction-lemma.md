@@ -2,153 +2,132 @@
 
 ## Purpose
 
-This note records the genuine gradient-side high-high commutator packet after
-the strict low-mode and threshold-local spill collar have been separated. Its
-job is only to prove the dyadic support reduction for the genuine high-high
-term itself. The lifted high-side remainder is a separate packet and is not
-collapsed here.
+This note records the genuine gradient-side high-high commutator packet after the strict low-mode and threshold-local spill collar have been separated. It fixes the gradient-energy convention and the Bernstein powers feeding the absorption lemma.
+
+## Convention
+
+For the gradient-energy estimate, define
+
+```math
+\mathcal C^{\nabla,HH}_j(t)
+:=
+\sum_k
+\left\langle
+\Delta_j\big(\Delta_k u(t)\cdot\nabla\widetilde\Delta_k u(t)\big),
+-\Delta\Delta_j u(t)
+\right\rangle,
+```
+
+where
+
+```math
+\widetilde\Delta_k:=\Delta_{k-1}+\Delta_k+\Delta_{k+1}.
+```
+
+The genuine gradient high-high packet is
+
+```math
+\mathfrak H^{grad,HH}_N[u](t)
+:=
+\sum_{j\ge N}\left|\mathcal C^{\nabla,HH}_j(t)\right|.
+```
+
+This convention uses the `-\Delta\Delta_j u` test inside `\mathcal C^{\nabla,HH}_j`; it carries no extra outside `2^{2j}` weight.
 
 ## Exact Statement
 
-Let `u = u(t,x)` be a classical Euclidean solution and fix `N`. After the
-strict low-mode gradient reduction and the threshold-local spill reduction have
-both been applied, define the genuine high-high commutator packet by
+There exist a universal collar width `M\ge4` and a constant `C>0` such that for every `j\ge N`,
 
 ```math
-\mathfrak{H}^{grad,HH}_{N}[u](t)
-:=
-\sum_{j\ge N}2^{2j}\big|\mathcal{C}^{HH}_j(t)\big|,
+\left|\mathcal C^{\nabla,HH}_j(t)\right|
+\le
+C\sum_{|k-j|\le M}
+2^{\frac92j}
+\|\Delta_k u(t)\|_2
+\|\widetilde\Delta_k u(t)\|_2
+\|\Delta_j u(t)\|_2.
 ```
 
-where `\mathcal{C}^{HH}_j` is the genuine high-high commutator remainder.
-
-Here `\widetilde{\Delta}_k := \Delta_{k-1}+\Delta_k+\Delta_{k+1}`.
-
-Then there exist a universal collar width `M \ge 4` and a constant `C > 0`
-such that for every `j \ge N`,
+Consequently,
 
 ```math
-2^{2j}\big|\mathcal{C}^{HH}_j(t)\big|
+\mathfrak H^{grad,HH}_N[u](t)
 \le
-C
-\sum_{|k-j|\le M}
-2^{3j}
-\|\Delta_k u(t)\|_{L^2_x}\,
-\|\widetilde{\Delta}_k u(t)\|_{L^2_x}\,
-\|\Delta_j u(t)\|_{L^2_x}.
-```
-
-In particular,
-
-```math
-\mathfrak{H}^{grad,HH}_{N}[u](t)
-\le
-C \sum_{j\ge N-M} 2^{3j}\|\Delta_j u(t)\|_{L^2_x}^3.
+C_M\sum_{j\ge N-M}2^{\frac92j}\|\Delta_j u(t)\|_2^3.
 ```
 
 ## Proof
 
-Fix `j \ge N`. The genuine high-high commutator remainder has the standard
-dyadic form
+Fix `j\ge N`. Fourier support gives near-diagonal survival only: after applying `\Delta_j`, the product
 
 ```math
-\mathcal{C}^{HH}_j(t)
-=
-\sum_{k\ge j-3}
-\left\langle
-\Delta_j\big(\Delta_k u(t)\cdot\nabla \widetilde{\Delta}_k u(t)\big),
--\Delta \Delta_j u(t)
-\right\rangle.
+\Delta_k u\cdot\nabla\widetilde\Delta_k u
 ```
 
-Only near-diagonal shells can survive the projection `\Delta_j`. Indeed, the
-Fourier support of
-`\Delta_k u(t)\cdot\nabla \widetilde{\Delta}_k u(t)` lies in an annulus of
-size comparable to `2^k`, so after applying `\Delta_j` the term vanishes unless
-`|k-j|\le M` for a universal collar width `M` depending only on the dyadic
-partition. Therefore
+contributes only when `|k-j|\le M`, with `M` depending only on the dyadic partition. Hence
 
 ```math
-\mathcal{C}^{HH}_j(t)
+\mathcal C^{\nabla,HH}_j(t)
 =
 \sum_{|k-j|\le M}
 \left\langle
-\Delta_j\big(\Delta_k u(t)\cdot\nabla \widetilde{\Delta}_k u(t)\big),
--\Delta \Delta_j u(t)
+\Delta_j\big(\Delta_k u\cdot\nabla\widetilde\Delta_k u\big),
+-\Delta\Delta_j u
 \right\rangle.
 ```
 
-For each surviving shell,
+For each surviving shell, Bernstein and the `L^\infty\times L^2\to L^2` product bound give
 
 ```math
-2^{2j}
-\left|
-\left\langle
-\Delta_j\big(\Delta_k u(t)\cdot\nabla \widetilde{\Delta}_k u(t)\big),
--\Delta \Delta_j u(t)
-\right\rangle
-\right|
+\|\Delta_k u\cdot\nabla\widetilde\Delta_k u\|_2
 \le
-2^{2j}
-\|\Delta_k u(t)\|_{L^2_x}\,
-\|\nabla \widetilde{\Delta}_k u(t)\|_{L^2_x}\,
-\|\Delta \Delta_j u(t)\|_{L^2_x}.
-```
-
-By Bernstein and `|k-j|\le M`,
-
-```math
-\|\nabla \widetilde{\Delta}_k u(t)\|_{L^2_x}
+\|\Delta_k u\|_\infty\,\|\nabla\widetilde\Delta_k u\|_2
 \lesssim
-2^k\|\widetilde{\Delta}_k u(t)\|_{L^2_x}
-\lesssim
-2^j\|\widetilde{\Delta}_k u(t)\|_{L^2_x},
+2^{\frac32k}\|\Delta_k u\|_2\,2^k\|\widetilde\Delta_k u\|_2.
 ```
 
-and `\|\Delta \Delta_j u(t)\|_{L^2_x}\sim 2^{2j}\|\Delta_j u(t)\|_{L^2_x}`.
-Hence
+Since `|k-j|\le M`, this is bounded by
 
 ```math
-2^{2j}\big|\mathcal{C}^{HH}_j(t)\big|
-\le
-C
-\sum_{|k-j|\le M}
-2^{3j}
-\|\Delta_k u(t)\|_{L^2_x}\,
-\|\widetilde{\Delta}_k u(t)\|_{L^2_x}\,
-\|\Delta_j u(t)\|_{L^2_x}.
+C_M2^{\frac52j}\|\Delta_k u\|_2\|\widetilde\Delta_k u\|_2.
 ```
 
-This proves the first displayed estimate. Because `\widetilde{\Delta}_k`
-contains only `O_M(1)` neighboring shells and `|k-j|\le M`, the finite collar
-collapses into
+Also
 
 ```math
-\mathfrak{H}^{grad,HH}_{N}[u](t)
+\|\Delta\Delta_j u\|_2\sim2^{2j}\|\Delta_j u\|_2.
+```
+
+Multiplying these estimates yields
+
+```math
+\left|\left\langle
+\Delta_j(\Delta_k u\cdot\nabla\widetilde\Delta_k u),
+-\Delta\Delta_j u
+\right\rangle\right|
 \le
-C \sum_{j\ge N-M} 2^{3j}\|\Delta_j u(t)\|_{L^2_x}^3.
+C_M2^{\frac92j}
+\|\Delta_k u\|_2\|\widetilde\Delta_k u\|_2\|\Delta_j u\|_2.
+```
+
+Summing over the finite collar proves the first estimate. The finite overlap of `\widetilde\Delta_k` collapses the collar to
+
+```math
+\mathfrak H^{grad,HH}_N[u](t)
+\le
+C_M\sum_{j\ge N-M}2^{\frac92j}\|\Delta_j u(t)\|_2^3.
 ```
 
 ## Consequence
 
-The genuine gradient-side high-high burden is now exactly the near-diagonal
-cubic dyadic packet
+The genuine high-high burden is the near-diagonal cubic packet
 
 ```math
-\sum_{j\ge N-M} 2^{3j}\|\Delta_j u(t)\|_{L^2_x}^3.
+\sum_{j\ge N-M}2^{\frac92j}\|\Delta_j u(t)\|_2^3.
 ```
 
-That is the correct support-geometry reduction surface for the genuine
-high-high commutator packet. The later coercive step is the separate cubic-tail
-absorption lemma, and the lifted high-side remainder remains a separate open
-packet.
+The corrected absorption step is supplied by `mcp-corrected-high-high-absorption-via-enstrophy-half-tail-8c28e55d7d.md` and by the patched `gradient-cubic-tail-absorption-lemma.md`.
 
-## Honest Boundary
+## Boundary
 
-This note is fully discharged as a dyadic support reduction for the genuine
-high-high commutator packet.
-
-It does not by itself prove the final absorbable estimate against `D_N(t)` and
-the summable remainder; that later step is delegated to
-`gradient-cubic-tail-absorption-lemma.md`. It also does not resolve the
-separate lifted high-side remainder packet.
+This note proves the support-geometry and Bernstein reduction for the genuine high-high packet. The strict low-mode, spill, and lifted high-side remainder packets remain in their separate slots.

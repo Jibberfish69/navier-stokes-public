@@ -4,21 +4,25 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   formalization_id: object-formalization-navier-stokes
-  generated_at: '2026-04-29T19:30:36Z'
+  generated_at: '2026-04-29T21:34:24Z'
   generator: system/runner/lib/object_formalization_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_frontier_id: source-frontier-navier-stokes
   source_assembly_id: proof-assembly-navier-stokes
 target:
-  obligation_id: warrant-theorem-2.1
-  label: Theorem 2.1 (Classical Closure)
-  kind: theorem-warrant
+  obligation_id: debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
+  label: 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem
+    2.1 class-membership warrant eliminates every first finite classical endpoint
+    for arbitrary smooth divergence-free zero-mean data on T^3.'
+  kind: blocked-frontier
 formalization_packet:
-  object_id: formal-object-theorem_2_1_classical_closure
-  object_name: theorem_2_1_classical_closure
+  object_id: formal-object-route_mutation_carrier
+  object_name: route_mutation_carrier
   object_role: local formalization object
-  theorem_role: Make `Theorem 2.1 (Classical Closure)` exact enough that later discharge
-    can test it locally.
+  theorem_role: 'Make `Periodic Clay terminal-promotion bridge: prove that the installed
+    Theorem 2.1 class-membership warrant eliminates every first finite classical endpoint
+    for arbitrary smooth divergence-free zero-mean data on T^3.` exact enough that
+    later discharge can test it locally.'
   machine_boundary: This packet is machine-derived beyond the frozen core and must
     stay quarantined until later discharge promotes it.
   slots:
@@ -84,6 +88,9 @@ grounded_basis:
 summary:
   formalization_ready: true
   recommended_next_cell_type: dependency-discharge
-  recommended_next_action: Use the object-formalization packet for `Theorem 2.1 (Classical
-    Closure)` as the bounded tactic switch, then rerun dependency-discharge on the
-    same obligation instead of reopening another generic backbone loop.
+  recommended_next_action: 'Use the object-formalization packet for `Periodic Clay
+    terminal-promotion bridge: prove that the installed Theorem 2.1 class-membership
+    warrant eliminates every first finite classical endpoint for arbitrary smooth
+    divergence-free zero-mean data on T^3.` as the bounded tactic switch, then rerun
+    dependency-discharge on the same obligation instead of reopening another generic
+    backbone loop.'

@@ -1,0 +1,21 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  audit_id: consistency-audit-navier-stokes
+  generated_at: '2026-04-29T20:18:00Z'
+pass: false
+release_eligible: false
+submission_ready: false
+release_decision_present: true
+export_bundle_verified: true
+promotion_packet_blocked: true
+checks:
+  theorem_warrant_aligned: true
+  proof_obligation_matrix_closed: false
+  review_verdict_accept: false
+  submission_verdict_ready: false
+  paper_quality_pass: true
+  hfg_side_sandbox_quarantined: true
+blockers:
+- PCTP.hard terminal-tail uniformization remains open.

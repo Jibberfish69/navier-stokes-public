@@ -4,14 +4,14 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-04-29T19:30:56Z'
+  generated_at: '2026-04-29T21:42:27Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_proof_assembly_id: proof-assembly-navier-stokes
 intervention:
-  reason: formalization-stalled
-  review_posture: revise-loop
+  reason: no-candidates
+  review_posture: local-release-pass
   boundary_rule: Everything beyond the grounded core is machine extension until it
     survives falsification and promotion.
   provenance_rule: Machine-generated branches remain speculative until they survive
@@ -20,79 +20,20 @@ intervention:
     bounded subset is actively pursued.
 sandbox:
   mode: single-branch-sandbox
-  trigger: formalization-stalled
+  trigger: none
   survivor_writeback: Keep only branches that survive discharge, falsification, or
     refinement; demote the rest back into explicit debt.
-  independent_branch_ids:
-  - creative-branch-navier-stokes-1
+  independent_branch_ids: []
   co_dependent_branch_ids: []
-  branch_execution_order:
-  - creative-branch-navier-stokes-1
-branch_pool:
-- &1
-  branch_id: creative-branch-navier-stokes-1
-  origin_obligation_id: warrant-theorem-2.1
-  origin_kind: theorem-warrant
-  source_status: bridge-pending
-  branch_type: route-mutation
-  pursuit_mode: independent
-  candidate_claim: Mutate the route locally so that theorem 2.1 (Classical Closure)
-    can be pursued without reopening the theorem target.
-  creative_move: Open a bounded side branch that changes representation but not the
-    theorem target, then compare whether it reduces proof obligations.
-  invention_packet:
-    candidate_statement: Mutate the route locally so that theorem 2.1 (Classical Closure)
-      can be pursued without reopening the theorem target.
-    mediating_object: route_mutation_carrier
-    proof_sketch:
-    - State the weakest exact claim that would advance `warrant-theorem-2.1` without
-      expanding the theorem target.
-    - Define or isolate the mediating object on the current carrier/window/sector
-      only.
-    - Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `Theorem 2.1 (Classical Closure)`.
-    - Show how that object converts one already-grounded local statement into the
-      next missing step.
-    - Reject the move if it introduces new global scope, hidden imports, or a stronger
-      claim than the frozen frontier needs.
-    falsification_checks:
-    - Does the move preserve the frozen theorem target rather than redefining it?
-    - Can the candidate be stated on already-grounded objects without importing a
-      new theory chapter?
-    - Does it reduce at least one open obligation or turn a frontier statement into
-      a local discharge target?
-    - Reject if the branch only rephrases the existing gap without a new mediating
-      object or bounded inequality.
-    scope_guard: Representation may change, theorem target may not.
-  grounded_basis:
-  - proof-dependency-7
-  - proof-dependency-8
-  - proof-dependency-9
-  - warrant-theorem-2.1
-  risk_level: high
-  notes:
-  - This branch starts at the first unresolved frontier.
-  - The current object-formalization packet already failed to promote this exact target,
-    so this pass must mutate the theorem move instead of regenerating the same object.
-  - This branch is machine-derived beyond the current frozen core.
-  recommended_next_cell_type: dependency-discharge
-  recommended_next_action: Creative theorem search selected `warrant-theorem-2.1`.
-    Use the invention packet to ground a new explicit bridge for Theorem 2.1 (Classical
-    Closure) through dependency-discharge.
-  merge_policy: quarantined-until-promoted
-candidate_archive:
-- origin_obligation_id: warrant-theorem-2.1
-  origin_kind: theorem-warrant
-  label: Theorem 2.1 (Classical Closure)
-  status: bridge-pending
-  promoted_into_branch_pool: true
-selected_branch: *1
+  branch_execution_order: []
+branch_pool: []
+candidate_archive: []
+selected_branch:
 summary:
-  candidate_count: 1
-  candidate_archive_count: 1
+  candidate_count: 0
+  candidate_archive_count: 0
   sandbox_mode: single-branch-sandbox
-  active_branch_ids:
-  - creative-branch-navier-stokes-1
-  selected_branch_id: creative-branch-navier-stokes-1
-  selected_next_cell_type: dependency-discharge
-  intervention_needed: true
+  active_branch_ids: []
+  selected_branch_id:
+  selected_next_cell_type:
+  intervention_needed: false

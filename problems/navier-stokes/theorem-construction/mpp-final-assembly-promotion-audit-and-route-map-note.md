@@ -1,14 +1,17 @@
-# MPP Final Assembly, Promotion Audit, And Route Map Note
+# MPP Conditional Final Assembly, Promotion Audit, And Route Map Note
 
 ## Status
 
-Theorem-facing final assembly note for the Navier-Stokes averaged-to-pointwise route.
+Theorem-facing conditional assembly note for the Navier-Stokes averaged-to-pointwise route.
 
-Role: prove the final Clay-facing theorem from the installed averaged route, endpoint readout route, endpoint/classical-continuation equivalence, and explicit readout sublemmas.
+Role: record the implication from the named route inputs to classical
+continuation. This file does not prove `PCTP.hard`; it becomes a Clay-facing
+theorem only after the terminal-tail retained readout, or the equivalent direct
+endpoint-face impossibility theorem, is supplied.
 
 ## Standing inputs
 
-The completed averaged route is
+The conditional averaged route input is
 
 $$
 AVG.MAIN.A:
@@ -57,7 +60,7 @@ ECQ.A:
 T_*=\infty.
 $$
 
-## 1. Theorem `FINAL.ASSEMBLY`
+## 1. Theorem `FINAL.ASSEMBLY.cond`
 
 ### Statement
 
@@ -68,6 +71,9 @@ AVG.MAIN.A+READ.COVER+READ.END+CFI.A+ECQ.A
 \text{global smooth classical Navier-Stokes solution}.
 }
 $$
+
+provided the standing inputs are genuine terminal-tail inputs for the original
+periodic Navier-Stokes dynamics.
 
 ### Proof
 
@@ -101,7 +107,9 @@ $$
 
 The maximal classical solution is smooth on each compact time interval below \(T_*\), hence \(T_*=\infty\) gives a global smooth classical solution.
 
-This proves `FINAL.ASSEMBLY`.
+This proves the conditional assembly implication. It does not prove that
+original smooth data supply `AVG.MAIN.A`, `CFI.A`, and the retained
+terminal-tail readout unconditionally; that remaining theorem is `PCTP.hard`.
 
 ## 2. Theorem `CM.Readout`
 
@@ -333,7 +341,8 @@ OLD.MAIN.A
 \to
 ECQ.A
 \to
-\text{global smooth classical Navier-Stokes solution}.
+\text{global smooth classical Navier-Stokes solution}
+\quad\text{(conditional on }PCTP.hard\text{)}.
 $$
 
 The source-side input entering the collar step is
