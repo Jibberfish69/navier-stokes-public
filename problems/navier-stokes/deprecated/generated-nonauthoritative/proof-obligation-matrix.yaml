@@ -4,14 +4,19 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-05-01T21:46:09Z'
+  generated_at: '2026-05-01T21:55:13Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
+authority_status:
+  mode: legacy-compatibility-only
+  publication_role: generated-nonauthoritative
+  authoritative_truth_surface: problems/navier-stokes/live-theorem-edge.yaml
+  frontier_truth_surface: problems/navier-stokes/source-frontier.yaml
 posture:
   theorem_target: full-mpp-closure
-  current_package_status: full-mpp-closure-ready
-  standalone_status: accept
+  current_package_status: local-packet-export-ready
+  standalone_status: local-packet-export-ready
   completion_tier_achieved: conditional-terminal-packet
   review_verdict: revise
   live_theorem_edge_present: true
