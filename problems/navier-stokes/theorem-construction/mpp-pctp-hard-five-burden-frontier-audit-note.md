@@ -235,6 +235,12 @@ OriginalSmoothData\Longrightarrow S_{pack,Q}\in L^1([t_0,T_*)).
 That fallback should be pursued only if the averaged TGC/AACT/AVG/READ assembly
 is rejected or a new gap is found in the dependency collapse.
 
+The fallback has now been executed in
+`mpp-pack-ttu-fallback-closure-note.md`. It does not supply an independent
+proof from `OriginalSmoothData`; direct `Pack.TTU` closes to
+`EndpointSelector.TTU`, `UniformStrainTail.TTU`, or the stronger
+`QDrain.A/SOURCE.NO-PULSE.A` compression.
+
 There is also a stronger single-target presentation:
 
 ```math

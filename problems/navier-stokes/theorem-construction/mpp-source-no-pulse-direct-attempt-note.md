@@ -188,6 +188,24 @@ short windows where }\gamma_j\text{ is large.}
 }
 ```
 
+The coefficient-splitting attempt
+`mpp-msc-spill-nopulse-bad-set-domination-attempt-note.md` sharpens this to:
+
+```math
+MSC.BadAC:
+\quad
+\int_{Bad_N(\eta)}
+\mathfrak B_N^\sigma(t)\,dt
+\le
+o_N(1)
++\eta\int_0^{T_\ast}\mathfrak B_N^\sigma(t)\,dt.
+```
+
+On the complement of `Bad_N(\eta)`, the spill term is absorbed directly. Hence
+`MSC.BadAC=>MSC.Spill.NoPulse`. The current energy-dissipation surface supplies
+only small Lebesgue measure for `Bad_N(\eta)`, not small
+`\mathfrak B_N^\sigma(t)dt`-measure.
+
 ## Closed Direct Verdict
 
 The direct attempt reduces to the same primitive:
@@ -220,7 +238,9 @@ equivalent source-control presentations:
 - signed weighted strain cancellation plus active-square residual-tail,
 - monotone/source-dominance for `F_j`,
 - `QDrain.A` one-sided enstrophy drain,
-- `MSC.Spill.NoPulse` mixed-shell spill-coefficient domination.
+- `MSC.Spill.NoPulse` mixed-shell spill-coefficient domination,
+- `MSC.BadAC` bad-set absolute continuity for the mixed bilinear dissipation
+  measure.
 
 This is the closed primitive for the current branch. Further progress now
 requires proving `SOURCE.NO-PULSE.A` itself, not re-routing through an already
