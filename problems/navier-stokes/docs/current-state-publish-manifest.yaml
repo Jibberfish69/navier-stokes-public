@@ -1029,6 +1029,7 @@ published_files:
 - theorem-construction/mpp-act-kx-hidden-spending-audit-note.md
 - theorem-construction/mpp-active-square-terminal-charge-audit-note.md
 - theorem-construction/mpp-averaged-act-kx-scale-critical-forcing-packet-note.md
+- theorem-construction/mpp-awg-supplier-ladder-closure-note.md
 - theorem-construction/mpp-class-membership-constitutive-import-map.md
 - theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
 - theorem-construction/mpp-class-membership-contradiction-source-locked-note.md
@@ -1045,6 +1046,7 @@ published_files:
 - theorem-construction/mpp-csp-b3a1-fei-return-instance-note.md
 - theorem-construction/mpp-dead-tower-rigidity-reduction-note.md
 - theorem-construction/mpp-deformation-tower-receiver-supplier-theorem-program.md
+- theorem-construction/mpp-direct-active-window-carleson-attempt-note.md
 - theorem-construction/mpp-dtc-m-affine-direct-proof-note.md
 - theorem-construction/mpp-dtc-read-pressure-local-poisson-estimate.md
 - theorem-construction/mpp-dtc-to-towerbound-theorem-program.md
@@ -1078,6 +1080,7 @@ published_files:
 - theorem-construction/mpp-fused-sg4-supplier-schema.md
 - theorem-construction/mpp-h1-h2-h6-origin-retain-source-attack-note.md
 - theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
+- theorem-construction/mpp-heat-scale-square-source-terminal-attempt-note.md
 - theorem-construction/mpp-hfg-dyadic-cascade-proof-attempt-low-mode-threshold-reduction.md
 - theorem-construction/mpp-increment-stability-and-transported-packet-comparison.md
 - theorem-construction/mpp-increment-stability-lemma.md
@@ -1141,6 +1144,7 @@ published_files:
 - theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
 - theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
 - theorem-construction/mpp-material-packet-closure-program.md
+- theorem-construction/mpp-monotone-source-dominance-no-pulse-attempt-note.md
 - theorem-construction/mpp-mq-local-membership-canonical-surface.md
 - theorem-construction/mpp-nohop-active-window-chain-attempt-note.md
 - theorem-construction/mpp-nonlinear-shell-flux-source-theorem-attempt-note.md
@@ -1230,6 +1234,7 @@ published_files:
 - theorem-construction/mpp-shared-packing-exact-predicate-draft.md
 - theorem-construction/mpp-shared-participation-and-tower-coherence-law.md
 - theorem-construction/mpp-shared-participation-no-drop-theorem.md
+- theorem-construction/mpp-signed-lifted-remainder-residual-tail-attempt-note.md
 - theorem-construction/mpp-six-item-decoupled-quarantine-note.md
 - theorem-construction/mpp-source-export-review-terminal-tail-and-collar.md
 - theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
