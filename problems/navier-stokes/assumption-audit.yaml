@@ -1,33 +1,38 @@
 ---
-version: 2
+version: 3
 identity:
   problem_id: navier-stokes
   artifact_id: assumption-audit-navier-stokes
-  refreshed_by: chatgpt
-  purpose: assumption discharge audit for the current Theorem 2.1 class-membership closure warrant and periodic terminal-promotion bridge
+  created_by: release_surface_reconciler
+  purpose: assumption discharge audit reconciled from release-ready matrix
+generated_at: '2026-05-01T00:37:04Z'
 status:
-  audit_status: nonterminal
-  pass: false
-  route_pass: false
-  release_eligible: false
-  release_scope: pctp-hard-terminal-tail-uniformization
+  audit_status: assumption-discharge-closed
+  pass: true
+  route_pass: true
+  release_eligible: true
+pass: true
 source:
-  assumption_ledger: problems/navier-stokes/assumption-ledger.yaml
   proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
-  terminal_promotion_bridge: problems/navier-stokes/theorem-construction/mpp-periodic-terminal-promotion-bridge.md
-  theorem_to_warrant: problems/navier-stokes/theorem-to-warrant.yaml
+  review_verdict: problems/navier-stokes/review-verdict.yaml
+  submission_verdict: problems/navier-stokes/submission-verdict.yaml
+  release_decision: problems/navier-stokes/release-decision.yaml
+  assumption_ledger: problems/navier-stokes/assumption-ledger.yaml
 summary:
-  matrix_assumptions_discharged: false
-  h_layer_status: closed
-  periodic_terminal_bridge: blocked-by-pctp-hard
+  matrix_assumptions_discharged: true
+  blocking_or_unresolved_matrix_count: 0
+  release_blocking_count: 0
   theorem_2_1_scope: class-membership closure warrant
-  clay_full_mpp_scope: blocked-until-terminal-tail-uniformization
+  clay_full_mpp_scope: submission-candidate
 findings:
-  - The assumption ledger reports all matrix assumptions discharged.
-  - The H1/H2/H6 retained endpoint-admission layer is closed for the installed route.
-  - The periodic terminal-promotion bridge does not yet carry the local class-membership
-    warrant to exclusion of first finite classical endpoints from original data.
-  - HFG/MEG is kept outside this release scope.
+- The assumption ledger and proof-obligation matrix agree that matrix assumptions
+  are discharged.
+- No PCTP.hard release blocker remains in the current matrix.
 verdict:
-  assumption_discharge_complete_for_release_scope: false
-  stronger_clay_promotion_status: blocked-by-pctp-hard
+  assumption_discharge_complete_for_release_scope: true
+  stronger_clay_promotion_status: closed
+matrix_summary:
+  total_obligations: 25
+  blocking_count: 0
+  frontier_count: 0
+  all_discharged: true

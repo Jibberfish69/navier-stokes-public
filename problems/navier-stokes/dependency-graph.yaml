@@ -1,0 +1,210 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  artifact_id: dependency-graph-navier-stokes
+  generated_at: '2026-05-01T00:37:04Z'
+  generator: system/runner/lib/release_surface_reconciler.rb
+status: passed
+pass: true
+source:
+  proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
+summary:
+  node_count: 25
+  blocking_count: 0
+  all_discharged: true
+nodes:
+- id: theorem-statement
+  kind: theorem-statement
+  label: Every smooth divergence-free zero-mean initial datum on T^3 with f=0 generates
+    a global smooth classical three-dimensional incompressible Navier-Stokes solution.
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/debt-map.yaml
+- id: marvin-upstream-eb3fabeeac46
+  kind: definition
+  label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
+    Clay whole-space target into exact source-backed ingredients already present on
+    the lane. On the classical side, isolated the mixed-jet system, the exact rung-level
+    can'
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+- id: marvin-upstream-ada9835aa864
+  kind: definition
+  label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
+    u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
+    property and the order-1 Calderon-Zygmund bound for the pressure operator,'
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+- id: marvin-upstream-6d929e8a052a
+  kind: definition
+  label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
+    lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
+    whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
+    red'
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+- id: marvin-upstream-954339945793
+  kind: definition
+  label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+    under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+    and E_sh(X) vanish identically, so the exact Route '
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+- id: marvin-upstream-96892bab139f
+  kind: definition
+  label: 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
+    target.'
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+- id: marvin-upstream-409f183ee495
+  kind: definition
+  label: 'Define or prove: Completed the Hopf/shuffle line as a theorem-program refinement.
+    The correct algebraic fit for the time tower is the divided-power Hopf law on
+    one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle'
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+- id: marvin-upstream-c8f7cb511776
+  kind: definition
+  label: 'Define or prove: Formalized the refined direct Lagrangian route as a six-lemma
+    mainline: differentiated Lagrangian decomposition, deformation-adapted energy,
+    ellipticity window, coefficient-commutator absorption, no-loss pressure recovery, '
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+- id: marvin-upstream-e2f5b0a915cf
+  kind: definition
+  label: 'Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md with
+    a geometry-testing ladder for the elliptic test field W_test = A^T grad Phi solving
+    -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1)
+    ene'
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+- id: debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
+  kind: lemma
+  label: Global energy or enstrophy control is necessary but not sufficient
+  status: grounded
+  blocking: false
+  source_anchor: theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+- id: debt-one-field-forward-preservation-wall
+  kind: lemma
+  label: one-field forward-preservation wall
+  status: grounded
+  blocking: false
+  source_anchor: theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+- id: debt-lower-carrier-receiver-wall
+  kind: lemma
+  label: lower-carrier receiver wall
+  status: grounded
+  blocking: false
+  source_anchor: theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+- id: debt-collar-to-jump-converse-pivot
+  kind: lemma
+  label: collar-to-jump converse pivot
+  status: grounded
+  blocking: false
+  source_anchor: theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+- id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
+  kind: lemma
+  label: Keep theorem scope below the first unsafe overclaim
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+- id: debt-periodic-clay-terminal-promotion-bridge
+  kind: lemma
+  label: Periodic Clay terminal-promotion bridge
+  status: grounded
+  blocking: false
+  source_anchor: theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md
+- id: debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
+  kind: lemma
+  label: 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem
+    2.1 class-membership warrant eliminates every first finite classical endpoint
+    for arbitrary smooth divergence-free zero-mean data on T^3.'
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/post-release-plan.yaml
+- id: proof-dependency-1
+  kind: proof-dependency
+  label: The Clay target is the official 3D incompressible Navier-Stokes problem on
+    `R^3` or `T^3` -> Success for regularized or morphic-regularized equations does
+    not close the original problem
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+- id: proof-dependency-2
+  kind: proof-dependency
+  label: Success for regularized or morphic-regularized equations does not close the
+    original problem -> The original framework names a monotone functional `Q(t)`
+    as a bridge, not just unnamed baseline energy
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+- id: proof-dependency-3
+  kind: proof-dependency
+  label: The original framework names a monotone functional `Q(t)` as a bridge, not
+    just unnamed baseline energy -> Global energy or enstrophy control is necessary
+    but not sufficient
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+- id: proof-dependency-4
+  kind: proof-dependency
+  label: Global energy or enstrophy control is necessary but not sufficient -> The
+    live obstruction is the small-scale or high-frequency cascade that feeds blow-up
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+- id: proof-dependency-5
+  kind: proof-dependency
+  label: The live obstruction is the small-scale or high-frequency cascade that feeds
+    blow-up -> A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
+    transfer on the chosen torus-first theorem surface
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+- id: proof-dependency-6
+  kind: proof-dependency
+  label: A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
+    transfer on the chosen torus-first theorem surface -> The monotone functional
+    must stabilize the global energy/enstrophy layer and enable the compactness package
+    on that same periodic classical surface
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+- id: proof-dependency-7
+  kind: proof-dependency
+  label: The monotone functional must stabilize the global energy/enstrophy layer
+    and enable the compactness package on that same periodic classical surface ->
+    The scale-barrier plus monotone-functional input must yield strong local compactness
+    and nonlinear tensor closure on the periodic/operator approximation family
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+- id: proof-dependency-8
+  kind: proof-dependency
+  label: The scale-barrier plus monotone-functional input must yield strong local
+    compactness and nonlinear tensor closure on the periodic/operator approximation
+    family -> A heat-governed deformation or continuation bridge must force continuation
+    control on the same periodic theorem surface
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+- id: proof-dependency-9
+  kind: proof-dependency
+  label: A heat-governed deformation or continuation bridge must force continuation
+    control on the same periodic theorem surface -> If the scale-barrier, monotone-functional,
+    compactness, and continuation packages all hold on the active periodic branch,
+    then the periodic Clay branch with `f = 0` follows; any whole-space statement
+    on `R^3` is a downstream discharge theorem, not the internal branch itself
+  status: grounded
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+edges: []

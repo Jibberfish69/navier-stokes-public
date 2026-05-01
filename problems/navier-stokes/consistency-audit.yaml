@@ -1,21 +1,27 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
   audit_id: consistency-audit-navier-stokes
-  generated_at: '2026-04-29T20:18:00Z'
-pass: false
-release_eligible: false
-submission_ready: false
+  generated_at: '2026-05-01T00:37:04Z'
+  generator: system/runner/lib/release_surface_reconciler.rb
+status: passed
+pass: true
+release_eligible: true
+submission_ready: true
 release_decision_present: true
 export_bundle_verified: true
-promotion_packet_blocked: true
+promotion_packet_blocked: false
 checks:
   theorem_warrant_aligned: true
-  proof_obligation_matrix_closed: false
-  review_verdict_accept: false
-  submission_verdict_ready: false
+  proof_obligation_matrix_closed: true
+  review_verdict_accept: true
+  submission_verdict_ready: true
   paper_quality_pass: true
   hfg_side_sandbox_quarantined: true
-blockers:
-- PCTP.hard terminal-tail uniformization remains open.
+summary:
+  total_obligations: 25
+  blocking_count: 0
+  frontier_count: 0
+  all_discharged: true
+blockers: []

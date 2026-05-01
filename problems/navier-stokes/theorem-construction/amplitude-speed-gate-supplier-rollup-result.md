@@ -60,51 +60,68 @@ or the lower-order ledger is extended by
 
 then the finite low-shell residual is lower order and the amplitude gate holds with `\Phi_* = \Phi` in the first case and `\Phi_* = \Phi_{low}` in the second case.
 
-## Branch 3: weighted direct branch
+## Branch 3: preferred weighted branch by plateau containment
 
-Assume
+Let the fixed collar support be
 
 ```math
-\|w_j u_{coh}\|_{L^\infty(\Gamma_j(t))}
-\le
-\kappa_W\nu2^j+C_W2^{-j}\Phi(\mathcal E_D(X)),
+K_{i,j}(t):=
+\operatorname{supp}(\widetilde Q_iP_{\le j}v_{coh}(t))^{+M}.
 \tag{ASR.7}
 ```
 
-and the selector weight has a positive lower envelope
+Assume the selector plateau construction supplies
 
 ```math
-w_j(x,t)\ge m_j>0
-\qquad (x,t)\in\Gamma_j(t)\times I_j.
+K_{i,j}(t)\subseteq\mathcal P_j(t),
+\qquad
+w_j=1\text{ on }\mathcal P_j(t).
 \tag{ASR.8}
 ```
 
-If
+Then
 
 ```math
-m_j^{-1}\kappa_W\le\kappa_U,
+w_j=1\text{ on }K_{i,j}(t),
+\qquad
+(1-w_j)u_{coh}=0\text{ on }K_{i,j}(t).
 \tag{ASR.9}
 ```
 
-then the weighted direct branch supplies `ASR.1`.
+Consequently, plateau containment supplies both weighted closures:
 
-## Branch 4: weighted collar residual branch
+```math
+\|w_j u_{coh}\|_\infty=\|u_{coh}\|_\infty
+\quad\text{on the collar support},
+\tag{ASR.10}
+```
 
-The weighted collar branch supplies the collar coefficient inputs directly when
+and
+
+```math
+C^{res}_{i,j}=0.
+\tag{ASR.11}
+```
+
+This is the preferred weighted branch, because one geometric containment gives the lower envelope and the zero residual simultaneously.
+
+## Branch 4: fallback weighted collar residual branch
+
+If plateau containment is unavailable, the weighted collar branch supplies the collar coefficient inputs directly when
 
 ```math
 \|\nabla(w_j u_{coh})\|_\infty
 +2^j\|P_{>j-M}(w_j u_{coh})\|_\infty
 \le
-c_w\nu2^{2j}+C_w\Phi(\mathcal E_D(X)),
-\tag{ASR.10}
+c_w\nu2^{2j}+C_w\Phi_*(\mathcal E_D(X)),
+\tag{ASR.12}
 ```
 
 and the residual coefficient
 
 ```math
 a^{res}:=(1-w_j)u_{coh}
-\tag{ASR.11}
+\tag{ASR.13}
 ```
 
 satisfies
@@ -113,21 +130,21 @@ satisfies
 \|\nabla a^{res}\|_\infty
 +2^j\|P_{>j-M}a^{res}\|_\infty
 \le
-C\Phi(\mathcal E_D(X)).
-\tag{ASR.12}
+C\Phi_*(\mathcal E_D(X)).
+\tag{ASR.14}
 ```
 
-This branch gives the same collar consequence as `ASR.1`, even when it bypasses the unweighted amplitude gate.
+This branch gives the same collar consequence as `ASR.1` through the weighted-principal plus residual collar estimate.
 
 ## Theorem ASR
 
-For each active shell `j`, assume at least one of the four branches above holds. Then the coherent coefficient inputs required by the low-pass commutator collar closure are supplied:
+For each active shell `j`, assume Branch 1, Branch 2, Branch 3, or Branch 4 holds. Then the coherent coefficient inputs required by the low-pass commutator collar closure are supplied:
 
 ```math
 \|\nabla u_{coh}\|_\infty
 \le
 c_0\nu2^{2j}+C\Phi_*(\mathcal E_D(X)),
-\tag{ASR.13}
+\tag{ASR.15}
 ```
 
 and
@@ -136,27 +153,20 @@ and
 2^j\|P_{>j-M}u_{coh}\|_\infty
 \le
 c_1\nu2^{2j}+C\Phi_*(\mathcal E_D(X)),
-\tag{ASR.14}
+\tag{ASR.16}
 ```
 
 or, in Branch 4, the corresponding weighted-principal plus residual collar estimate supplies the same commutator absorption.
 
 ## Boundary
 
-The roll-up is conditional branch bookkeeping. The live supplier choices are:
-
-```text
-prove uniform H_D^s control and handle finite low shells;
-prove low-shell amplitude domination;
-prove positive selector-weight lower envelope;
-prove weighted collar residual smallness.
-```
+The roll-up is conditional branch bookkeeping. The preferred weighted route is plateau containment on the fixed collar support. The finite low-shell route uses either original-ledger domination `M_{low}\le C\Phi` or the extended ledger `\Phi_{low}`.
 
 ## Source surfaces
 
 - `problems/navier-stokes/theorem-construction/uniform-hds-threshold-to-speed-gate-result.md`
 - `problems/navier-stokes/theorem-construction/finite-low-shell-residual-closure-result.md`
 - `problems/navier-stokes/theorem-construction/finite-low-shell-ledger-inclusion-result.md`
-- `problems/navier-stokes/theorem-construction/selector-weight-lower-envelope-result.md`
-- `problems/navier-stokes/theorem-construction/weighted-collar-alternative-result.md`
+- `problems/navier-stokes/theorem-construction/selector-plateau-fixed-collar-buffer-construction-result.md`
+- `problems/navier-stokes/theorem-construction/weighted-branch-final-closure-from-plateau-result.md`
 - `problems/navier-stokes/theorem-construction/weighted-collar-residual-supplier-result.md`

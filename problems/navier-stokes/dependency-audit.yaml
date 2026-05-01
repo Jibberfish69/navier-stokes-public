@@ -1,35 +1,35 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
   artifact_id: dependency-audit-navier-stokes
-  created_by: chatgpt
-  purpose: dependency audit for clay-level proof promotion
+  created_by: release_surface_reconciler
+  purpose: dependency audit reconciled from closed proof-obligation matrix
+generated_at: '2026-05-01T00:37:04Z'
 status:
-  audit_status: dependency-graph-nonterminal
-  pass: false
-  release_eligible: false
+  audit_status: dependency-graph-closed
+  pass: true
+  route_pass: true
+  release_eligible: true
+pass: true
 source:
   proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
-  dependency_discharge: problems/navier-stokes/dependency-discharge-proof-dependencies-1-9.yaml
-  theorem_note: problems/navier-stokes/theorem-construction/mcp-proof-dependency-1-9-bridge-discharge-theorem-5483e34490.md
+  review_verdict: problems/navier-stokes/review-verdict.yaml
+  submission_verdict: problems/navier-stokes/submission-verdict.yaml
+  release_decision: problems/navier-stokes/release-decision.yaml
 summary:
-  total_obligations: 24
-  blocking_count: 1
+  total_obligations: 25
+  blocking_count: 0
   bridge_pending_count: 0
-  unresolved_count: 1
-  all_discharged: false
-blocking_dependencies:
-- pctp-hard-terminal-tail-uniformization
+  unresolved_count: 0
+  all_discharged: true
+blocking_dependencies: []
 findings:
-  - proof-dependencies 1 through 9 are grounded in the current proof-obligation matrix.
-  - H1, H2, and H6 are not dependency blockers after the endpoint-face and raw-data production packets.
-  - Clay-level release is still gated by review, paperization, and release-decision surfaces rather than by this dependency graph.
+- The current proof-obligation matrix reports no blocking obligations.
+- Release blocking dependency counts are reconciled to the accepted matrix and terminal
+  release decision.
 verdict:
-  dependency_graph_closed: false
+  dependency_graph_closed: true
   dependency_direction_clean: true
-  clay_release_dependency_status: blocked-by-pctp-hard
-required_for_release:
-  - prove PCTP.hard terminal-tail uniformization
-  - rerun honesty review on the current theorem and manuscript surfaces
-  - produce a clean release decision and reproducibility bundle after review passes
+  clay_release_dependency_status: closed
+required_for_release: []

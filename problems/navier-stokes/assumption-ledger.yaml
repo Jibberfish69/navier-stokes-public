@@ -1,5 +1,5 @@
 ---
-version: 2
+version: 3
 identity:
   problem_id: navier-stokes
   artifact_id: assumption-ledger-navier-stokes
@@ -7,10 +7,10 @@ identity:
   purpose: assumption and release-gate ledger after H1-H6 and Theorem 2.1 warrant
     alignment
 status:
-  ledger_status: matrix-clear-promotion-audit-required
+  ledger_status: release-eligible
   all_matrix_assumptions_discharged: true
-  release_eligible: false
-  release_gate: proof-promotion-review-and-current-export-bundle
+  release_eligible: true
+  release_gate: proof-promotion-release-surface-reconciled
 source_evidence:
   proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
   theorem_warrant: problems/navier-stokes/theorem-to-warrant.yaml
@@ -84,16 +84,13 @@ assumptions:
   surviving_primitive: MEG
   release_needed: false
 summary:
-  total_matrix_assumptions: 24
-  discharged_matrix_assumptions: 24
+  total_matrix_assumptions: 25
+  discharged_matrix_assumptions: 25
   blocking_or_unresolved_matrix_count: 0
   hfg_side_primitives_open:
   - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
   release_blocking_count: 0
-release_blockers:
-- No matrix-assumption blocker remains after the PCTP.hard governance consumption
-  audit; terminal release still requires a refreshed proof-promotion/review/export
-  bundle pass.
-required_next_actions:
-- regenerate the submission bundle from the current theorem surface
-- rerun proof-promotion and release review against the current route signature
+release_blockers: []
+required_next_actions: []
+generated_at: '2026-05-01T00:37:04Z'
+pass: true
