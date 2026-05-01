@@ -173,3 +173,54 @@ bridge-license audit discharges, the still-open mathematical cells are
 `PCTP.5.A` and `PCTP.5.C`. Until those two cells are discharged, `TTU.A`,
 `PCTP.hard`, full periodic Navier-Stokes closure, export readiness, and release
 readiness remain nonterminal.
+
+## Executable Target Queue After The Support Closures
+
+The support rows are no longer next targets:
+
+```math
+PCTP.5.B,\qquad PCTP.5.D,\qquad PCTP.5.E
+```
+
+are discharged for the selected route by the restart-scheduler cover theorem,
+the strengthened `FFSRC.A=>FCI.5f` source verification, and the bridge-license
+audit into `CM=Pack+Part+Field`.
+
+The remaining route-native queue is exactly:
+
+```math
+\boxed{PCTP.5.C:\ OriginalSmoothData\Longrightarrow AWG.A/SOURCE.NO\text{-}PULSE.A}
+```
+
+which gives
+
+```math
+AWG.A\Longrightarrow JAVG.1+JAVG.2\Longrightarrow(Jump_{avg}\Rightarrow\bot),
+```
+
+and
+
+```math
+\boxed{PCTP.5.A:\ OriginalSmoothData\Longrightarrow TTU.A}
+```
+
+with the direct subtarget
+
+```math
+Pack.TTU:
+\quad
+OriginalSmoothData\Longrightarrow S_{pack,Q}\in L^1([t_0,T_*)).
+```
+
+There is also a stronger single-target presentation:
+
+```math
+OriginalSmoothData\Longrightarrow QDrain.A.
+```
+
+By `mpp-qdrain-source-no-pulse-closure-note.md`, this gives
+`QDrain.A=>QBound.A=>AWG.A`, hence closes `PCTP.5.C`; the same `QBound.A` is a
+uniform periodic `H^1` bound and therefore gives the terminal continuation
+needed for `PCTP.5.A`. This is a valid compression, but it is stronger than the
+route-native class-membership package and should not be confused with a proof of
+the pack strain ledger `Pack.TTU`.

@@ -1145,6 +1145,7 @@ published_files:
 - theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
 - theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
 - theorem-construction/mpp-material-packet-closure-program.md
+- theorem-construction/mpp-mixed-shell-spill-coefficient-scheduler-attempt-note.md
 - theorem-construction/mpp-monotone-source-dominance-no-pulse-attempt-note.md
 - theorem-construction/mpp-mq-local-membership-canonical-surface.md
 - theorem-construction/mpp-nohop-active-window-chain-attempt-note.md
@@ -1201,6 +1202,7 @@ published_files:
 - theorem-construction/mpp-periodic-terminal-promotion-bridge.md
 - theorem-construction/mpp-primitive-class-laws-note.md
 - theorem-construction/mpp-qbound-to-awg-and-qdrain-wall-note.md
+- theorem-construction/mpp-qdrain-source-no-pulse-closure-note.md
 - theorem-construction/mpp-quantitative-neighboring-response-witness-theorem.md
 - theorem-construction/mpp-r3-conditional-status-and-t3-closure-boundary.md
 - theorem-construction/mpp-r3-exterior-cascade-theorem-final-status.md
@@ -1239,6 +1241,7 @@ published_files:
 - theorem-construction/mpp-signed-lifted-remainder-residual-tail-attempt-note.md
 - theorem-construction/mpp-six-item-decoupled-quarantine-note.md
 - theorem-construction/mpp-source-export-review-terminal-tail-and-collar.md
+- theorem-construction/mpp-source-no-pulse-direct-attempt-note.md
 - theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
 - theorem-construction/mpp-still-live-smooth-window-implies-class-membership-theorem.md
 - theorem-construction/mpp-surface-ontology-ledger.md
