@@ -603,6 +603,7 @@ published_files:
 - theorem-construction/mcp-classical-closure-warrant-final-pass-ecq-a-18affdb00d.md
 - theorem-construction/mcp-clean-near-pressure-summability-from-weighted-annular-l4-source-3c8cd94116.md
 - theorem-construction/mcp-compact-endpoint-matrix-formalization-read-end-1a51c290af.md
+- theorem-construction/mcp-component-selection-jumpavg-frontier-loop-final-failure.md
 - theorem-construction/mcp-component-selection-nuscf-obstruction-jump-avg-branch-elimination-cf942d4591.md
 - theorem-construction/mcp-compressed-periodic-navier-stokes-theorem-chain-cfi-a-eb0637f226.md
 - theorem-construction/mcp-compressed-whole-space-r3-conditional-theorem-and-analytic-gap-exh-r3-17be03dcd1.md
@@ -863,6 +864,7 @@ published_files:
 - theorem-construction/mcp-release-governance-refresh-result-ecq-a-ad7173568e.md
 - theorem-construction/mcp-remaining-source-packet-closure-audit-for-qsp-11r-to-sg-4b-a99d570ec9.md
 - theorem-construction/mcp-requested-terminal-sg4-tps-proof-packet-and-source-boundary-ep-a-e2af5d871f.md
+- theorem-construction/mcp-residual-tail-active-square-carleson-obstruction-residual-tail-estimate-for-active-square-carleson-bfa9ca14bb.md
 - theorem-construction/mcp-retained-common-good-family-mass-lemma-for-sg-4-tps-ep-a-0a3b4e36e6.md
 - theorem-construction/mcp-retained-family-intersection-certificate-for-sg4-tps-discharge-8f88994675.md
 - theorem-construction/mcp-returned-pressure-lower-carrier-to-act-kx-conditional-closure.md
@@ -909,11 +911,13 @@ published_files:
 - theorem-construction/mcp-signed-weighted-commutator-defect-frontier-loop-failure.md
 - theorem-construction/mcp-single-final-conditional-averaged-route-theorem-avg-main-a-d000abfe2f.md
 - theorem-construction/mcp-single-proof-skeleton-with-inline-lemmas-read-end-4369efa4a9.md
+- theorem-construction/mcp-single-shell-active-square-estimate-obstruction-single-shell-active-square-estimate-e819d3573c.md
 - theorem-construction/mcp-six-target-completion-pass-for-sg4-tps-branch-ep-a-ff1acdbdc4.md
 - theorem-construction/mcp-source-branch-final-bookkeeping.md
 - theorem-construction/mcp-source-branch-proof-decision-cfi-a_-9e35a24378.md
 - theorem-construction/mcp-source-packet-nonclosure-and-exact-primitive-boundary-2a4f79a676.md
 - theorem-construction/mcp-source-theorem-frontier-for-active-shell-amplitude-gain-originalsmoothdata-active-shell-amplitude-gain-d2cc70c759.md
+- theorem-construction/mcp-square-source-estimate-with-amplitude-normalization-square-source-estimate-with-amplitude-normalization-5146a2c26a.md
 - theorem-construction/mcp-standalone-aact-kx-local-proof.md
 - theorem-construction/mcp-standalone-ckn-to-atd-moving-cylinder-theorem.md
 - theorem-construction/mcp-straintail-ttu-bad-strain-tail-definition.md
