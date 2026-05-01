@@ -506,7 +506,9 @@ published_files:
 - theorem-construction/mcp-aact-kx-scheduler-seed-obstruction-aact-kx-f4eff31d09.md
 - theorem-construction/mcp-act-kx-affine-normalized-conditional-discharge-rscb-nkf-b2a6241f24.md
 - theorem-construction/mcp-act-kx-conditional-route-completion-covering-items-1-12-cfi-a-b476f4bf8c.md
+- theorem-construction/mcp-active-shell-amplitude-gain-from-originalsmoothdata-obstruction-originalsmoothdata-active-shell-amplitude-gain-85a8547090.md
 - theorem-construction/mcp-active-shell-amplitude-gain-hard-obstruction-for-nu_scf-carleson-active-shell-amplitude-gain-for-nu_scf-carleson-51312fcf31.md
+- theorem-construction/mcp-active-shell-amplitude-gain-implies-nu_scf-carleson-active-shell-amplitude-gain-scale-normalized-nu_scf-carleson-estimate-b42419075e.md
 - theorem-construction/mcp-affine-excess-coefficient-dependence-audit.md
 - theorem-construction/mcp-affine-pressure-normalization-compatibility-lemma-846fdf37af.md
 - theorem-construction/mcp-aligned-alpha-moving-threshold-measure-boundary-db53457065.md
@@ -659,6 +661,8 @@ published_files:
 - theorem-construction/mcp-endpointselector-tower-blown-finite-selector-test.md
 - theorem-construction/mcp-endpointselector-ttu-facewise-selector-test.md
 - theorem-construction/mcp-endpointselector-ttu-general-test.md
+- theorem-construction/mcp-enlarged-scf-charge-with-eu-upper-bound-obstruction-jump-avg-branch-elimination-e444b62ca0.md
+- theorem-construction/mcp-eu-to-dup-or-additive-carrier-obstruction-jump-avg-branch-elimination-63d034ea4b.md
 - theorem-construction/mcp-euclidean-cascade-analogue-with-localization-and-exterior-tails-pst-a-2dec751149.md
 - theorem-construction/mcp-euclidean-export-packet-audit-read-cover-78226be3a6.md
 - theorem-construction/mcp-exact-attempts-on-terminal-sg4-tps-premises-ep-a-5a510590d1.md
