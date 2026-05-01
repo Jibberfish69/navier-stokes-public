@@ -104,6 +104,16 @@ local-energy iteration does not itself rule out an infinite chain of uncharged
 affine-amplitude hops; doing so again requires the same source-normalization /
 active-window Carleson primitive.
 
+The four native supplier attempts after `AWG.A` are recorded in:
+
+- `mpp-heat-scale-square-source-terminal-attempt-note.md`
+- `mpp-direct-active-window-carleson-attempt-note.md`
+- `mpp-signed-lifted-remainder-residual-tail-attempt-note.md`
+- `mpp-monotone-source-dominance-no-pulse-attempt-note.md`
+
+Their combined closure is recorded in
+`mpp-awg-supplier-ladder-closure-note.md`.
+
 ## Final Remaining Theorem
 
 The no-`Field_avg` `Jump_avg` branch is closed if and only if the route installs

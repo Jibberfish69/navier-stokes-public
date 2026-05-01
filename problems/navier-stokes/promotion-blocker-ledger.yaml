@@ -43,7 +43,8 @@ resolved_blockers:
 - h1-h2-h6-endpoint-upgrade
 remaining_release_gates:
 - prove PCTP.hard terminal-tail uniformization
-- prove AWG.A / NOHOP.A active-window source normalization and eliminate Jump_avg
+- prove AWG.A / NOHOP.A active-window source normalization (supplier ladder
+  closed in mpp-awg-supplier-ladder-closure-note.md), then eliminate Jump_avg
   without assuming Field_avg on the Jump_avg branch
 side_sandbox_status:
   hfg_low: threshold-discharged

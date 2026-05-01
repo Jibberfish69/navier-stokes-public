@@ -22,6 +22,11 @@ May 1 MCP reattempts are recorded in:
 - `mpp-nonlinear-shell-flux-source-theorem-attempt-note.md`
 - `mpp-jump-avg-final-active-window-source-wall-note.md`
 - `mpp-nohop-active-window-chain-attempt-note.md`
+- `mpp-heat-scale-square-source-terminal-attempt-note.md`
+- `mpp-direct-active-window-carleson-attempt-note.md`
+- `mpp-signed-lifted-remainder-residual-tail-attempt-note.md`
+- `mpp-monotone-source-dominance-no-pulse-attempt-note.md`
+- `mpp-awg-supplier-ladder-closure-note.md`
 
 The target remains
 
