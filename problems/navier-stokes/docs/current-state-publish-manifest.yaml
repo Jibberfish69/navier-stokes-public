@@ -506,6 +506,7 @@ published_files:
 - theorem-construction/mcp-aact-kx-scheduler-seed-obstruction-aact-kx-f4eff31d09.md
 - theorem-construction/mcp-act-kx-affine-normalized-conditional-discharge-rscb-nkf-b2a6241f24.md
 - theorem-construction/mcp-act-kx-conditional-route-completion-covering-items-1-12-cfi-a-b476f4bf8c.md
+- theorem-construction/mcp-active-shell-amplitude-gain-hard-obstruction-for-nu_scf-carleson-active-shell-amplitude-gain-for-nu_scf-carleson-51312fcf31.md
 - theorem-construction/mcp-affine-excess-coefficient-dependence-audit.md
 - theorem-construction/mcp-affine-pressure-normalization-compatibility-lemma-846fdf37af.md
 - theorem-construction/mcp-aligned-alpha-moving-threshold-measure-boundary-db53457065.md
@@ -633,6 +634,7 @@ published_files:
 - theorem-construction/mcp-direct-aact-kx-local-classical-variables.md
 - theorem-construction/mcp-direct-aligned-residual-square-budget-attempt-3ff9f3b5cb.md
 - theorem-construction/mcp-direct-m_q-to-sobolev-readout-constants-68fcd15030.md
+- theorem-construction/mcp-direct-nu_scf-active-square-carleson-obstruction-direct-active-square-carleson-theorem-for-nu_scf-ee9cb12a8a.md
 - theorem-construction/mcp-direct-pack-native-strain-estimate-sharpened-target-f1fed5e55b.md
 - theorem-construction/mcp-direct-proof-attempt-for-seven-sg4-tps-source-estimates-ep-a-1bcef110a6.md
 - theorem-construction/mcp-direct-strain-side-route-via-vorticity-alignment-depletion-d69c5103c4.md
@@ -732,6 +734,7 @@ published_files:
 - theorem-construction/mcp-jump_avg-branch-elimination-direct-route-obstruction-aact-kx-6e96200b80.md
 - theorem-construction/mcp-jump_avg-defect-charge-pressure-source-upper-bound-obstruction-ffsrc-a-e46335c312.md
 - theorem-construction/mcp-jump_avg-separated-positive-defect-charge-lower-bound-obstruction-jump_avg-to-separated-positive-defect-charge-lower-bound-dcd5b58afe.md
+- theorem-construction/mcp-jumpavg-final-elimination-audit-after-threshold-extraction-jump-avg-branch-elimination-ab04250550.md
 - theorem-construction/mcp-jumpavg-threshold-scf-concentration-extraction-jump-avg-branch-elimination-de2b395025.md
 - theorem-construction/mcp-jumpexclusion-upstream-test.md
 - theorem-construction/mcp-latex-compile-status-after-manuscript-edits.md
