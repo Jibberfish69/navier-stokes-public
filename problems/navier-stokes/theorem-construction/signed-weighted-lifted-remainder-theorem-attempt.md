@@ -74,3 +74,11 @@ or
 ```
 
 The next branch is the positive-carrier replacement.
+
+## Superseding MPP Closure
+
+The positive-carrier branch has now been executed inside
+`mpp-awg-deep-source-frontier-closure-note.md`. It closes only conditionally on
+active-square residual-tail control, which is again the same
+`SOURCE.NO-PULSE.A` source-control atom. Retrying the positive-carrier branch in
+its current form does not eliminate `Jump_avg` without that atom.

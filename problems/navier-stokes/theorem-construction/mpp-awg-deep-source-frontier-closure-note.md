@@ -12,7 +12,8 @@ targets were executed against the installed source packets:
 2. signed weighted lifted-remainder / strain-sign cancellation,
 3. active-square residual-tail control,
 4. monotone/source-dominance no-pulse,
-5. direct active-shell source normalization.
+5. direct active-shell source normalization,
+6. the monotone-functional `QDrain.A` route.
 
 The result is one exact remaining primitive, not five independent walls.
 
@@ -175,6 +176,21 @@ NOHOP.A,
 \qquad
 \text{monotone/source-dominance for }F_j.
 ```
+
+The monotone-functional alternate route is recorded in
+`mpp-qdrain-source-no-pulse-closure-note.md` and closes to the same atom:
+
+```math
+QDrain.A
+\Longleftrightarrow_{\text{route level}}
+SOURCE.NO-PULSE.A.
+```
+
+The direct atom attempt is recorded in
+`mpp-source-no-pulse-direct-attempt-note.md`. It verifies that finite energy,
+preterminal smoothness from original data, pressure Poisson structure, unweighted
+dyadic exchange, and the monotone-functional identity do not install
+`SOURCE.NO-PULSE.A` in the current repo.
 
 ## Consequence for `Jump_avg`
 

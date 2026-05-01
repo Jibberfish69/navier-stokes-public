@@ -33,3 +33,10 @@ A valid proof needs one of:
 
 ## Consequence
 The nonlinear shell-flux/source frontier remains open. The remaining supplied route is active-square residual-tail control.
+
+## Superseding MPP Closure
+
+The active-square residual-tail route is now audited in
+`mpp-awg-deep-source-frontier-closure-note.md`. It is not a separate installed
+escape from the strain-sign obstruction; it is equivalent at this route level
+to `SOURCE.NO-PULSE.A`, the no-pulse nonlinear shell-flux/source theorem.

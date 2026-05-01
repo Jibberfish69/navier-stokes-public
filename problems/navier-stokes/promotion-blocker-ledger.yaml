@@ -46,8 +46,10 @@ remaining_release_gates:
 - prove AWG.A / NOHOP.A active-window source normalization (supplier ladder
   closed in mpp-awg-supplier-ladder-closure-note.md and deep source frontier
   closed in mpp-awg-deep-source-frontier-closure-note.md to
-  SOURCE.NO-PULSE.A), then eliminate Jump_avg without assuming Field_avg on the
-  Jump_avg branch
+  SOURCE.NO-PULSE.A; monotone-functional QDrain route closed in
+  mpp-qdrain-source-no-pulse-closure-note.md to the same atom; direct atom
+  attempt recorded in mpp-source-no-pulse-direct-attempt-note.md), then
+  eliminate Jump_avg without assuming Field_avg on the Jump_avg branch
 side_sandbox_status:
   hfg_low: threshold-discharged
   hfg_alt: no-free-gap; surviving primitive is MEG

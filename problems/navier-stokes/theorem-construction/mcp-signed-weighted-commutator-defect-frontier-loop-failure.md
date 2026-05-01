@@ -54,6 +54,14 @@ A valid continuation needs one of the following:
 2. a positive-carrier replacement controlling the active-square envelope;
 3. a residual tail estimate strong enough to imply active-square Carleson.
 
+## Superseding MPP Closure
+
+These three continuations are now consolidated in
+`mpp-awg-deep-source-frontier-closure-note.md`. Each requires the same
+`SOURCE.NO-PULSE.A` primitive: nonlinear shell-flux/source control excluding
+source-balanced active pulses. The note is therefore historical obstruction
+evidence, not a fresh independent next-target menu.
+
 ## Status
 
 `Signed weighted commutator-defect theorem` is a failed loop item. It should not be promoted as a discharge of `Jump_avg branch elimination`.

@@ -237,3 +237,25 @@ QDrain.A
 
 where `QDrain.A` is a one-sided enstrophy-drain theorem strong enough to make
 `Q(t)` bounded through the terminal time.
+
+## MPP Closure Update
+
+The `QDrain.A` continuation was executed in
+`mpp-qdrain-source-no-pulse-closure-note.md`. The result is that the
+monotone-functional route is not an independent escape from `AWG.A`; it is the
+enstrophy-level presentation of the same source-control atom recorded in
+`mpp-awg-deep-source-frontier-closure-note.md`:
+
+```math
+SOURCE.NO-PULSE.A.
+```
+
+Thus the conditional route remains valid:
+
+```math
+QDrain.A\Longrightarrow QBound.A\Longrightarrow AWG.A
+\Longrightarrow (Jump_{avg}\Rightarrow\bot),
+```
+
+but `OriginalSmoothData=>QDrain.A` is not installed by the current energy
+identity, interpolation estimate, or dyadic exchange algebra.

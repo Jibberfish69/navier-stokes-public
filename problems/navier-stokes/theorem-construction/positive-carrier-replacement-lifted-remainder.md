@@ -103,3 +103,12 @@ The signed lifted-remainder branch has an exact positive replacement. The next t
 ```
 
 with a reserve strong enough to absorb the remaining tail dissipation term.
+
+## Superseding MPP Closure
+
+The upper-tail-square carrier target has now been tested in the no-`Field_avg`
+`Jump_avg` branch and is recorded in
+`mpp-awg-deep-source-frontier-closure-note.md`. It is not discharged by the
+installed first-moment dissipation reserve; it is one presentation of
+`SOURCE.NO-PULSE.A`, the nonlinear shell-flux/source control theorem ruling out
+source-balanced active pulses.

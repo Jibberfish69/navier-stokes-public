@@ -66,3 +66,13 @@ The shell identity permits short pulses whenever the flux source supplies matchi
 ## Result
 
 Current surfaces do not prove the flux-source Carleson bound. The exact next theorem is the signed weighted commutator-defect theorem with a residual tail estimate strong enough to imply active-square Carleson control.
+
+## Superseding MPP Closure
+
+The signed weighted commutator-defect plus residual-tail target has now been
+executed in `mpp-awg-deep-source-frontier-closure-note.md`. The commutator
+branch, positive-carrier branch, residual-tail branch, monotone/source-dominance
+branch, and direct active-shell normalization branch all close to
+`SOURCE.NO-PULSE.A`. The flux-source Carleson estimate should therefore be read
+as conditional on that source-control atom, not as an independently installed
+next theorem.
