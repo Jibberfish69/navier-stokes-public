@@ -4,17 +4,16 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-05-01T21:24:16Z'
+  generated_at: '2026-05-01T22:35:18Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
-theorem_statement: Every smooth divergence-free zero-mean initial datum on T^3 with
-  f=0 generates a global smooth classical three-dimensional incompressible Navier-Stokes
-  solution.
+theorem_statement: The official Clay target allows either the whole-space branch on
+  R^3 or the periodic branch on T^3.
 source_grounded_chain:
-- Every smooth divergence-free zero-mean initial datum on T^3 with f=0 generates a
-  global smooth classical three-dimensional incompressible Navier-Stokes solution.
+- The official Clay target allows either the whole-space branch on R^3 or the periodic
+  branch on T^3.
 - 'Define or prove: Reduced the live Navier-Stokes route stack against the Clay whole-space
   target into exact source-backed ingredients already present on the lane. On the
   classical side, isolated the mixed-jet system, the exact rung-level can'
@@ -79,23 +78,35 @@ source_grounded_chain:
   the periodic Clay branch with `f = 0` follows; any whole-space statement on `R^3`
   is a downstream discharge theorem, not the internal branch itself
 tentative_extension_chain: []
-remaining_open_obligations: []
+remaining_open_obligations:
+- obligation_id: warrant-theorem-2.1
+  label: Theorem 2.1 (Classical Closure)
+  kind: theorem-warrant
+  status: bridge-pending
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
   math_frontier_obligations: []
-  theorem_warrant_obligations: []
+  theorem_warrant_obligations:
+  - obligation_id: warrant-theorem-2.1
+    label: Theorem 2.1 (Classical Closure)
+    kind: theorem-warrant
+    status: bridge-pending
 frontier_context:
   route_container_obligations: []
   downstream_support_obligations: []
   additional_context_obligations: []
-next_solver_targets: []
+next_solver_targets:
+- obligation_id: warrant-theorem-2.1
+  label: Theorem 2.1 (Classical Closure)
+  kind: theorem-warrant
+  status: bridge-pending
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-eeac2572c4ba
-  route_signature: eeac2572c4baadbc618c3adae6800393eca70f41
-  theorem_target: full-mpp-closure
-  theorem_statement: Every smooth divergence-free zero-mean initial datum on T^3 with
-    f=0 generates a global smooth classical three-dimensional incompressible Navier-Stokes
-    solution.
+  surface_id: theorem-surface-navier-stokes-58a5bddadd50
+  route_signature: 58a5bddadd502d2dc76116be6a2fca29c1a09251
+  theorem_target: full-MPP periodic Clay closure via terminal promotion from the installed
+    Theorem 2.1 class-membership warrant
+  theorem_statement: The official Clay target allows either the whole-space branch
+    on R^3 or the periodic branch on T^3.
   route_chain:
   - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
     or `T^3`
@@ -118,47 +129,12 @@ theorem_surface:
     = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
     not the internal branch itself
   route_slots:
-  - slot_id: marvin-upstream-eb3fabeeac46
-    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-      Clay whole-space target into exact source-backed ingredients already present
-      on the lane. On the classical side, isolated the mixed-jet system, the exact
-      rung-level can'
-    kind: definition
-    status: localized-support
-    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-    patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-  - slot_id: marvin-upstream-ada9835aa864
-    label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    kind: definition
-    status: localized-support
-    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-    patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-  - slot_id: marvin-upstream-6d929e8a052a
-    label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    kind: definition
-    status: localized-support
-    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-    patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-  - slot_id: marvin-upstream-954339945793
-    label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-      and E_sh(X) vanish identically, so the exact Route '
-    kind: definition
-    status: localized-support
-    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-    patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-  - slot_id: marvin-upstream-96892bab139f
-    label: 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
-      target.'
-    kind: definition
-    status: localized-support
-    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-    patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - slot_id: warrant-theorem-2.1
+    label: Theorem 2.1 (Classical Closure)
+    kind: theorem-warrant
+    status: bridge-pending
+    source_anchor: problems/navier-stokes/external-paper/sections/main-result.tex
+    patch_surface: problems/navier-stokes/external-paper/sections/main-result.tex
   authority_layers:
     authoritative_proof_surfaces:
     - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
@@ -244,15 +220,15 @@ theorem_surface:
 summary:
   grounded_step_count: 25
   promoted_extension_count: 0
-  bridge_discharge_blocking_count: 0
+  bridge_discharge_blocking_count: 1
   bridge_discharge_only_count: 0
-  theorem_warrant_blocking_count: 0
-  open_obligation_count: 0
+  theorem_warrant_blocking_count: 1
+  open_obligation_count: 1
   math_frontier_open_count: 0
   frontier_context_count: 0
   frontier_route_container_count: 0
   frontier_downstream_support_count: 0
   tracked_source_count: 125
   synthesis_import_surface_count: 0
-  ready_for_submission: true
-  theorem_surface_id: theorem-surface-navier-stokes-eeac2572c4ba
+  ready_for_submission: false
+  theorem_surface_id: theorem-surface-navier-stokes-58a5bddadd50

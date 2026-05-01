@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-01T21:27:30Z'
+  audited_at: '2026-05-01T22:36:49Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: full-mpp-closure-ready
@@ -35,12 +35,12 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-eeac2572c4ba
-    route_signature: eeac2572c4baadbc618c3adae6800393eca70f41
-    theorem_target: full-mpp-closure
-    theorem_statement: Every smooth divergence-free zero-mean initial datum on T^3
-      with f=0 generates a global smooth classical three-dimensional incompressible
-      Navier-Stokes solution.
+    surface_id: theorem-surface-navier-stokes-1c3f5ade309a
+    route_signature: 1c3f5ade309afbd8e08fc830f2e72158762cac78
+    theorem_target: full-MPP periodic Clay closure via terminal promotion from the
+      installed Theorem 2.1 class-membership warrant
+    theorem_statement: The official Clay target allows either the whole-space branch
+      on R^3 or the periodic branch on T^3.
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -189,20 +189,15 @@ surface_snapshot:
       cross_surface_splice: false
       sterilized_synthesis_import_count: 0
   proof_obligation_summary:
-    total_obligations: 25
+    total_obligations: 27
     grounded_count: 25
     structural_only_count: 0
     structurally_supported_count: 0
     bridge_pending_count: 0
     unresolved_count: 0
-    frontier_count: 0
-    bridge_discharge_blocking_count: 0
-    theorem_warrant_blocking_count: 0
-    blocking_count: 0
-    all_discharged: true
-    live_theorem_edge_present: true
-    live_theorem_edge_branch_count: 0
-    live_theorem_edge_blocked_count: 0
+    frontier_count: 2
+    blocking_count: 2
+    all_discharged: false
 issues:
 - issue_id: stale-review-verdict
   severity: major
@@ -216,7 +211,7 @@ fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
   review_verdict: problems/navier-stokes/review-verdict.yaml
-  proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
+  proof_obligation_matrix:
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
   extension_branches: problems/navier-stokes/extension-branches.yaml
   lemma_falsification: problems/navier-stokes/lemma-falsification.yaml

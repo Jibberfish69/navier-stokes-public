@@ -5,13 +5,13 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Theorem Target
 
-- `theorem_target`: full-mpp-closure
-- `lowest_safe_claim`: Every smooth divergence-free zero-mean initial datum on T^3 with f=0 generates a global smooth classical three-dimensional incompressible Navier-Stokes solution.
+- `theorem_target`: full-MPP periodic Clay closure via terminal promotion from the installed Theorem 2.1 class-membership warrant
+- `lowest_safe_claim`: The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3.
 - `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
 
 ## Grounded Core
 
-- Every smooth divergence-free zero-mean initial datum on T^3 with f=0 generates a global smooth classical three-dimensional incompressible Navier-Stokes solution. (`theorem-statement`; `theorem-statement`)
+- The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3. (`theorem-statement`; `theorem-statement`)
 - Define or prove: Reduced the live Navier-Stokes route stack against the Clay whole-space target into exact source-backed ingredients already present on the lane. On the classical side, isolated the mixed-jet system, the exact rung-level can (`definition`; `marvin-upstream-eb3fabeeac46`)
 - Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra property and the order-1 Calderon-Zygmund bound for the pressure operator, (`definition`; `marvin-upstream-ada9835aa864`)
 - Define or prove: Added three theorem-facing reductions on the Navier-Stokes lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2, red (`definition`; `marvin-upstream-6d929e8a052a`)

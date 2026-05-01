@@ -59,6 +59,11 @@ The existing `AACT.Global` note proves only the conditional finite-cover
 scheduler statement. It does not derive the required uniform terminal finite
 cover and common scheduler from `OriginalSmoothData`.
 
+**Current discharge status.** On the no-`Jump_avg` branch, this cell is
+discharged by `mpp-aact-global-nojump-restart-scheduler-closure-note.md`, using
+`TGC.A.cover`, `ATD_m^\varepsilon`, and the local averaged ACT term audit. The
+complementary `Jump_avg` branch remains open.
+
 ## PCTP.5.C — `Jump_avg` branch elimination
 
 Eliminate the `Jump_avg` branch without assuming `Field_avg` on that same
@@ -111,6 +116,11 @@ FFPB.A0+FFSC.C1+FCC.C1\Longrightarrow FFSRC.A\Longrightarrow FCI.5f
 is the organized strengthened import. Neither branch may be silently used as
 the other.
 
+**Current discharge status.** For the selected averaged route that imports
+`FFSRC.A`, this cell is discharged by
+`mpp-pctp-hard-source-supplier-verification-note.md`. The exact same-depth
+reconstruction remains open at `FIRP.A0` if that stricter route is required.
+
 ## PCTP.5.E — bridge-license audit into class membership
 
 Audit every support branch used by the main proof and require an explicit bridge
@@ -138,6 +148,15 @@ field packets, tower amplitude packets, selector/projector readouts, frozen
 Eulerian source ledgers, deformation/Lagrangian packets, exact-potential/Hodge
 readouts, and Euclidean strict-shadow exports.
 
+**Current discharge status.** This audit cell is discharged by
+`mpp-pctp-hard-bridge-license-into-cm-audit-note.md`. The main route now lands
+in `CM` only through `Pack.TTU => Pack`, shared participation no-drop
+`=> Part`, and
+`Field_avg+READ.COVER+ATD_m^epsilon => Field`. `DTC.Read` remains a tower
+endpoint readout. TPS / `SG.4`, exact-potential/Hodge, mixed-jet, Lagrangian,
+and Euclidean strict-shadow branches are fenced as downstream or context-only
+unless a later theorem installs a new `CM` bridge.
+
 ## Consequence
 
 The conditional averaged route can be recorded as:
@@ -149,7 +168,8 @@ TTU.A.
 \tag{PCTP.5.F}
 ```
 
-Until all five cells are discharged, `TTU.A`, `PCTP.hard`, full periodic
-Navier-Stokes closure, export readiness, and release readiness remain
-nonterminal.
-
+After the source-supplier, no-`Jump_avg` averaged ACT globalization, and
+bridge-license audit discharges, the still-open mathematical cells are
+`PCTP.5.A` and `PCTP.5.C`. Until those two cells are discharged, `TTU.A`,
+`PCTP.hard`, full periodic Navier-Stokes closure, export readiness, and release
+readiness remain nonterminal.

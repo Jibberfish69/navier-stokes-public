@@ -1,0 +1,240 @@
+# MPP Jump_avg Branch-Native No-Escape Hard Wall Note
+
+## Status
+
+Theorem-facing reduction and obstruction note.
+
+This note does not eliminate `Jump_avg`. It records the bounded self-attempts
+already checked and narrows the live mathematical burden to the exact shared
+charge problem.
+
+The target remains
+
+```math
+Jump_{avg}
+\Longrightarrow
+\bot
+```
+
+without assuming `Field_avg` on the `Jump_avg` branch.
+
+## Forbidden Circular Routes
+
+The following routes are rejected.
+
+```math
+Jump_{avg}
+\Longrightarrow
+Field_{avg}
+\Longrightarrow
+CFI.A_{avg}
+\Longrightarrow
+\bot.
+```
+
+This spends the predicate whose failure defines the branch.
+
+```math
+Jump_{avg}
+\Longrightarrow
+AACT.Global.noJump.
+```
+
+This spends the finite positive-scale SCF-good cover denied on the branch.
+
+```math
+CAVG.J
+\Longrightarrow
+\neg Jump_{avg}.
+```
+
+`CAVG.J` is a typing lemma. It classifies bad material contact or terminal
+SCF-good radius collapse as `Jump_avg`; it does not exclude that face.
+
+`AVG.END.A` is also downstream. It removes averaged endpoint faces only after
+the averaged class spine has supplied the endpoint package. It is not a
+branch-native proof of `Jump_avg => false`.
+
+## Candidate Shared Charge
+
+The strongest installed upper carrier is
+
+```math
+\nu_{SCF}
+:=
+\mu_D+\sum_\chi \mu_{P,\chi},
+```
+
+where
+
+```math
+\mu_D=|\nabla u|^2\,dx\,dt,
+\qquad
+\mu_{P,\chi}=|p_\chi^{loc}|^{3/2}\,dx\,dt.
+```
+
+On separated or bounded-overlap terminal windows inside the finite transported
+atlas,
+
+```math
+\sum_k \nu_{SCF}(Q_k)
+\le
+C_{atlas}\nu_{SCF}([t_0,T_\ast)\times\mathbb T^3)
+<\infty.
+```
+
+This is a raw finite-measure upper bound. It is installed only for the
+dissipation/local-pressure carrier.
+
+## Failed Lower Route
+
+`Jump_avg` gives a terminal sequence of SCF-base threshold failures:
+
+```math
+SCF_{base}(Q_{r_k}^{\Phi}(a_k,t_k))>\varepsilon_m,
+\qquad r_k\downarrow0,\quad t_k\uparrow T_\ast.
+```
+
+The native component split is schematically
+
+```math
+SCF_{base}
+=
+E_u+D_u+P+G_\Phi.
+```
+
+Pack stabilization controls the geometric term `G_\Phi`. The charge
+`\nu_{SCF}` controls `D_u` and the local-pressure part of `P`.
+
+The escape channel is the velocity-energy / local-amplitude component `E_u`.
+Even when the installed `SCF_base` is read in the affine-normalized CKN form
+
+```math
+R^{-2}\iint |u-u_R^{aff}|^3
++
+R^{-2}\iint |p-p_R^{norm}|^{3/2}
++
+R^{-1}\iint |\nabla u|^2,
+```
+
+the standard interpolation still leaves a local-energy or sup-time channel.
+Poincare closes that channel only with a zero-mode/affine residual theorem
+strong enough to control the local energy component on the same terminal
+schedule. That theorem is not installed from `OriginalSmoothData`.
+
+Therefore
+
+```math
+SCF_{base}\text{ threshold}
+\not\Longrightarrow
+\nu_{SCF}\text{ positive lower mass}
+```
+
+under the current surfaces.
+
+## Failed Enlarged-Charge Route
+
+One could enlarge the charge to include `E_u`:
+
+```math
+\nu_{SCF}^{+}
+=
+E_u\text{-carrier}+\mu_D+\sum_\chi\mu_{P,\chi}.
+```
+
+This fixes component selection only formally. The `E_u` packet is a
+scale-critical time-slice or cylinder-size readout, not an installed additive
+finite Radon measure with bounded-overlap summability. Global energy controls
+the total time-slice size, but it does not give
+
+```math
+\sum_k E_u(Q_k)\le C(E_0)
+```
+
+for terminal moving windows. The local energy inequality supplies balances, but
+not the required recurrence, decay, or conversion theorem.
+
+Thus the enlarged-charge route lacks a matching upper estimate.
+
+## Failed Raw-Upper Route
+
+The installed raw upper bound controls
+
+```math
+\sum_k \nu_{SCF}(Q_k).
+```
+
+The `Jump_avg` lower side, if component selection were proved, would be
+scale-normalized:
+
+```math
+\sum_k \operatorname{Norm}_{SCF}(Q_k)
+\gtrsim
+\sum_k c_m.
+```
+
+Raw finite mass does not imply the corresponding scale-normalized Carleson
+bound. Shrinking terminal windows can have finite raw mass while the weighted
+or normalized sum diverges. The missing theorem is a genuine
+scale-normalized upper estimate, not a restatement of finite energy.
+
+## Exact Remaining Theorem
+
+The branch-native no-escape route will close if the following same-carrier pair
+is proved.
+
+### `JAVG.1` Component Selection / Lower Production
+
+```math
+Jump_{avg}
+\Longrightarrow
+\text{separated terminal windows }Q_k
+\text{ with }
+\operatorname{Norm}_{SCF}^{\nu}(Q_k)\ge c_m>0.
+```
+
+The lower density must use the same carrier that appears in the upper theorem.
+
+### `JAVG.2` Scale-Normalized Upper Control
+
+```math
+\sum_k
+\operatorname{Norm}_{SCF}^{\nu}(Q_k)
+\le
+C(E_0,\text{source},\text{atlas})
+```
+
+for the same separated or bounded-overlap terminal windows.
+
+Equivalently, one may replace `JAVG.1` and `JAVG.2` by either of the following
+single-carrier repairs:
+
+```math
+E_u\text{ terminal threshold}
+\Longrightarrow
+D_u/P\text{ terminal mass}
+```
+
+on the same terminal schedule, or
+
+```math
+\sum_k E_u(Q_k)\le C(E_0)
+```
+
+for the same terminal schedule, with the enlarged charge then used on both
+sides.
+
+## Verdict
+
+`Jump_avg` remains open, but the hard wall is now exact:
+
+```math
+\boxed{
+\text{prove same-carrier lower production and scale-normalized upper control,}
+}
+```
+
+or install an equivalent `E_u` conversion/additive-carrier theorem.
+
+No current note may promote `Jump_avg` elimination without one of these
+theorems.

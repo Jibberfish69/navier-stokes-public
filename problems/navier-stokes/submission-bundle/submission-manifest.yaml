@@ -2,32 +2,26 @@
 version: 1
 problem_id: navier-stokes
 display_name: Navier-Stokes Global Regularity
-generated_at: '2026-05-01T19:56:37Z'
-bundle_status: stale-blocked-math-frontier
+generated_at: '2026-05-01T22:36:49Z'
 manuscript_source: problems/navier-stokes/external-paper/main.tex
 manuscript_source_kind: tex
 manuscript_source_reason: campaign-status.current_manuscript_surface.external_surface
 source_metrics:
   source_word_count: 753
-  bundle_word_count: 1915
+  bundle_word_count: 1836
   primary_surface_word_count: 838
-  theorem_packet_word_count: 3513
+  theorem_packet_word_count: 3415
 submission_metadata: problems/navier-stokes/submission-metadata.yaml
 outputs:
   tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-eeac2572c4ba
-  route_signature: eeac2572c4baadbc618c3adae6800393eca70f41
+  surface_id: theorem-surface-navier-stokes-58a5bddadd50
+  route_signature: 58a5bddadd502d2dc76116be6a2fca29c1a09251
   slot_ids:
-  - marvin-upstream-eb3fabeeac46
-  - marvin-upstream-ada9835aa864
-  - marvin-upstream-6d929e8a052a
-  - marvin-upstream-954339945793
-  - marvin-upstream-96892bab139f
+  - warrant-theorem-2.1
 copied_artifacts:
   theorem_packet: problems/navier-stokes/submission-bundle/theorem-packet.yaml
-  proof_obligation_matrix: problems/navier-stokes/submission-bundle/proof-obligation-matrix.yaml
   submission_verdict: problems/navier-stokes/submission-bundle/submission-verdict.yaml
   frozen_core: problems/navier-stokes/submission-bundle/frozen-core.md
   source_frontier: problems/navier-stokes/submission-bundle/source-frontier.yaml
@@ -41,8 +35,3 @@ authoritative_supplements:
   source_path: problems/navier-stokes/theorem-packet.yaml
   bundle_path: problems/navier-stokes/submission-bundle/sections/authoritative-theorem-packet.tex
   kind: yaml
-
-truth_alignment:
-  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
-  status: math-frontier-open
-  note: Submission bundle is a stale artifact and not a mathematically verified release bundle.

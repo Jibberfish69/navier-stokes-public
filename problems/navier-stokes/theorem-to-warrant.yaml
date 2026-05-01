@@ -63,10 +63,12 @@ theorem_warrants:
       independent five-burden audit. The bridge `TGC.A + AACT.Global.noJump +
       AVG.END.A + READ.END => PCTP.hard / TTU.A` remains a conditional
       theorem-program spine, not a mathematical discharge. The active blockers
-      are terminal-tail Pack/Part/Field/tower production from OriginalSmoothData,
-      AACT.KX / AACT.Global.noJump globalization, branch-native Jump_avg
-      elimination, pressure/source supplier verification, and bridge-license
-      audit into CM.
+      are terminal-tail Pack/Part/Field/tower production from OriginalSmoothData
+      and branch-native Jump_avg elimination. The source supplier cell is
+      discharged for the selected strengthened route `FFSRC.A=>FCI.5f`, the
+      no-`Jump_avg` `AACT.Global` cell is discharged by the restart-scheduler
+      cover note, and the bridge-license audit into CM is discharged by
+      `mpp-pctp-hard-bridge-license-into-cm-audit-note.md`.
 bridge_obligations:
   - bridge_id: scale-barrier
     verdict: discharged
@@ -142,10 +144,7 @@ summary:
   full_claim_lane_blocked: true
   blocking_basis:
     - pctp-hard-terminal-tail-production
-    - aact-kx-global-nojump
     - jump-avg-branch-elimination
-    - pressure-source-supplier-line-by-line
-    - bridge-license-audit-into-cm
 auxiliary_theorem_tracks:
   - track_id: projected-nc-flow-d-route
     status: scaffolded

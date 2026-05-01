@@ -43,15 +43,13 @@ resolved_blockers:
 - h1-h2-h6-endpoint-upgrade
 remaining_release_gates:
 - prove PCTP.hard terminal-tail uniformization
-- repair AACT.KX / AACT.Global.noJump globalization
 - eliminate Jump_avg without assuming Field_avg on the Jump_avg branch
-- verify FCC.C1 / FSCR.C / FPCR.C and any FFSRC.A import line by line
-- audit bridges from support branches into Pack / Part / Field class membership
 side_sandbox_status:
   hfg_low: threshold-discharged
   hfg_alt: no-free-gap; surviving primitive is MEG
 claim_boundary:
   current_safe_claim: Conditional theorem-program packets are installed, but
-    PCTP.hard / TTU.A remains blocked by the five active mathematical burdens.
+    PCTP.hard / TTU.A remains blocked by terminal-tail production and
+    branch-native Jump_avg elimination.
   prohibited_claim: full periodic Navier-Stokes closure, export readiness, or
-    submission readiness before the five PCTP.hard burdens are discharged.
+    submission readiness before the remaining PCTP.hard burdens are discharged.

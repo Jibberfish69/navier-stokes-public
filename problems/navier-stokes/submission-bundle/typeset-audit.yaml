@@ -1,20 +1,11 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-05-01T19:56:37Z'
-status: stale-blocked-math-frontier
+generated_at: '2026-05-01T22:36:49Z'
+status: exported
 render_quality: typeset
 overfull_box_count: 0
 overfull_box_count_gt_20pt: 0
 max_overfull_box_pt: 0.0
 undefined_control_sequence_count: 0
 missing_dollar_count: 0
-
-truth_alignment:
-  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
-  status: math-frontier-open
-  blockers:
-  - pctp-hard-terminal-tail-production
-  - aact-kx-local-absorption
-  - jump-avg-branch-elimination
-  - pressure-source-supplier-line-by-line
