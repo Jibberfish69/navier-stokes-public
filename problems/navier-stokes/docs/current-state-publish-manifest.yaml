@@ -498,6 +498,7 @@ published_files:
 - theorem-construction/mcp-aact-global-nojump-lock-dtc-a-04b45d4d1d.md
 - theorem-construction/mcp-aact-global-promotion-audit.md
 - theorem-construction/mcp-aact-kx-constants-scale-bookkeeping.md
+- theorem-construction/mcp-aact-kx-local-absorption-aact-kx-c150948e89.md
 - theorem-construction/mcp-aact-kx-local-absorption-discharge-via-coefficient-demotion.md
 - theorem-construction/mcp-aact-kx-local-absorption-repaired-bootstrap-lemma-aact-kx-1ccded98f4.md
 - theorem-construction/mcp-aact-kx-local-averaged-budget-audit.md
@@ -715,12 +716,14 @@ published_files:
 - theorem-construction/mcp-goodscale-scfbad-concentration-upgrade.md
 - theorem-construction/mcp-goodscale-ttu-under-selector-finite-complexity.md
 - theorem-construction/mcp-hardened-dtc-read-and-field-read-readout-theorem-read-end-0fd3598d66.md
+- theorem-construction/mcp-hf-scfbase-charge-bridge-obstruction-jump-avg-branch-elimination-0be0f2d904.md
 - theorem-construction/mcp-in-plane-anisotropy-drain-reduction-083c72dc6a.md
 - theorem-construction/mcp-in-plane-anisotropy-drain-source-boundary-026d03b3a8.md
 - theorem-construction/mcp-independent-current-cg-tensor-comparison-obstruction-ep-a-cc4550d28d.md
 - theorem-construction/mcp-independent-tensor-comparison-reread-decision-1a5327f3b4.md
 - theorem-construction/mcp-integrable-label-modulus-strain-test.md
 - theorem-construction/mcp-jump-avg-branch-elimination-aact-kx-2d9a5f194f.md
+- theorem-construction/mcp-jump-avg-to-scfbase-charge-lower-accumulation-obstruction-jump-avg-branch-elimination-5bb3fb9613.md
 - theorem-construction/mcp-jump_avg-branch-elimination-direct-route-obstruction-aact-kx-6e96200b80.md
 - theorem-construction/mcp-jump_avg-defect-charge-pressure-source-upper-bound-obstruction-ffsrc-a-e46335c312.md
 - theorem-construction/mcp-jump_avg-separated-positive-defect-charge-lower-bound-obstruction-jump_avg-to-separated-positive-defect-charge-lower-bound-dcd5b58afe.md
@@ -786,6 +789,7 @@ published_files:
 - theorem-construction/mcp-pctp-hard-discharge-via-averaged-terminal-tail-uniformization-avg-end-a-a92107787f.md
 - theorem-construction/mcp-pctp-hard-final-obstruction-and-ttu-target.md
 - theorem-construction/mcp-pctp-hard-isolated-terminal-tail-obstruction.md
+- theorem-construction/mcp-pctp-hard-next-targets-and-scf-charge-upper-carrier-pctp-hard-terminal-tail-production-ff5624245d.md
 - theorem-construction/mcp-pctp-hard-paper-grade-proof.md
 - theorem-construction/mcp-pctp-hard-regenerated-matrix-pass.md
 - theorem-construction/mcp-pctp-hard-solve-path-through-dtc-a-act-kx-rscb-nkf-c589793f9a.md
@@ -843,6 +847,7 @@ published_files:
 - theorem-construction/mcp-scfbad-upgrade-remaining-obstruction.md
 - theorem-construction/mcp-scfbase-concentrationcompactness-final-blocker.md
 - theorem-construction/mcp-scfbase-defect-measure-construction.md
+- theorem-construction/mcp-scfbase-defect-measure-upper-carrier-jump-avg-branch-elimination-b6c6ece70d.md
 - theorem-construction/mcp-scfbase-defect-to-jumpavg-typing.md
 - theorem-construction/mcp-scfbase-defect-to-towerblown-typing.md
 - theorem-construction/mcp-scfbase-epsilon-defect-typing-route.md
