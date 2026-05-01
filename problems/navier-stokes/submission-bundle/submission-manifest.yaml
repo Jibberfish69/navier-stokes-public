@@ -2,7 +2,7 @@
 version: 1
 problem_id: navier-stokes
 display_name: Navier-Stokes Global Regularity
-generated_at: '2026-04-29T21:48:56Z'
+generated_at: '2026-04-30T23:54:09Z'
 manuscript_source: problems/navier-stokes/external-paper/main.tex
 manuscript_source_kind: tex
 manuscript_source_reason: campaign-status.current_manuscript_surface.external_surface
@@ -11,8 +11,8 @@ outputs:
   tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-0a2903f73d9c
-  route_signature: 0a2903f73d9c4c04e8c9ae433f1aaa8ea123fad6
+  surface_id: theorem-surface-navier-stokes-eeac2572c4ba
+  route_signature: eeac2572c4baadbc618c3adae6800393eca70f41
   slot_ids:
   - marvin-upstream-eb3fabeeac46
   - marvin-upstream-ada9835aa864

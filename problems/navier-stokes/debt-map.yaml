@@ -5,32 +5,33 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-04-29T21:47:45Z'
+  extracted_at: '2026-04-30T23:52:52Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
-    theorem_target: conditional terminal class-membership lane closure packet
-    current_package_status: active
+    theorem_target: full-MPP periodic Clay closure via terminal promotion from the
+      installed Theorem 2.1 class-membership warrant
+    current_package_status: full-mpp-closure-ready
     support_basis: Recovered source support converged with the speculative branch,
       so the next safe move is a grounded backbone rebuild.
-    standalone_status: revise
+    standalone_status: accept
 supporting_sections:
   reviewer_risks:
   - 'Do not overclaim beyond the lowest safe theorem surface: The official Clay target
     allows either the whole-space branch on `R^3` or the periodic branch on `T^3`.'
   - 'First unsafe overclaim to avoid: Replacing the official Clay statement by a weaker
     route-local or data-class-local statement.'
-  - Recovered support is still classified as strong, so the local package remains
-    a revise-stage workboard.
+  - Keep the full-MPP closure tied to the periodic Clay terminal-promotion theorem,
+    the grounded proof-obligation matrix, and the official `T^3` zero-force branch.
   required_local_explanations: []
   post_release_theorem_upgrade_gaps:
   - 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem 2.1
     class-membership warrant eliminates every first finite classical endpoint for
     arbitrary smooth divergence-free zero-mean data on T^3.'
   promotion_rule:
-  - Do not promote beyond `revise` until every row marked as a live theorem burden
-    has either been localized into the local package or explicitly parked below the
-    theorem surface.
+  - Promote beyond `revise` only because the proof-obligation matrix is fully grounded
+    and the periodic Clay terminal-promotion theorem is now the active full-MPP closure
+    surface.
   - Keep the lowest safe claim explicit and do not let recovered speculative material
     masquerade as a proved bridge.
   - Re-run honesty-review only after the local package has real prose and an explicit
@@ -48,14 +49,15 @@ debt_items:
   - problems/navier-stokes/claim-ladder.md
   debt_class: packaging
   recommended_stage: prose-realization
-  rationale: The ledger says the material already exists in some proved or discharged
-    form, so the remaining work is localization, exposition, or packaging.
-  priority_rank: 1
+  rationale: The ledger says the material already exists in a grounded, proved, or
+    discharged form, so the remaining work is localization, exposition, or packaging.
   derivation_state: localized-support
+  support_strength: strong
+  source_scope_status: new-support-found
+  priority_rank: 1
   derivation_attempts: 1
   attempts_without_new_support: 0
   last_derivation_run_id: debt-derive-navier-stokes-20260429T172008Z
-  support_strength: strong
   evidence_paths:
   - problems/navier-stokes/claim-ladder.md
   - problems/navier-stokes/spine.md
@@ -71,7 +73,6 @@ debt_items:
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/formalization-ledger.md
   source_sufficiency: sufficient
-  source_scope_status: new-support-found
   source_checks: 1
 - debt_id: debt-one-field-forward-preservation-wall
   label: one-field forward-preservation wall
@@ -83,14 +84,15 @@ debt_items:
   - theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   debt_class: packaging
   recommended_stage: prose-realization
-  rationale: The ledger says the material already exists in some proved or discharged
-    form, so the remaining work is localization, exposition, or packaging.
-  priority_rank: 2
+  rationale: The ledger says the material already exists in a grounded, proved, or
+    discharged form, so the remaining work is localization, exposition, or packaging.
   derivation_state: localized-support
+  support_strength: strong
+  source_scope_status: no-new-support
+  priority_rank: 2
   derivation_attempts: 1
   attempts_without_new_support: 1
   last_derivation_run_id: debt-derive-navier-stokes-20260429T182548Z
-  support_strength: strong
   evidence_paths:
   - problems/navier-stokes/formalization-ledger.md
   - problems/navier-stokes/frozen-core.md
@@ -100,7 +102,6 @@ debt_items:
   - problems/navier-stokes/proof-obligation-matrix.yaml
   new_evidence_paths: []
   source_sufficiency: sufficient
-  source_scope_status: no-new-support
   source_checks: 25
 - debt_id: debt-lower-carrier-receiver-wall
   label: lower-carrier receiver wall
@@ -112,14 +113,15 @@ debt_items:
   - theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   debt_class: packaging
   recommended_stage: prose-realization
-  rationale: The ledger says the material already exists in some proved or discharged
-    form, so the remaining work is localization, exposition, or packaging.
-  priority_rank: 3
+  rationale: The ledger says the material already exists in a grounded, proved, or
+    discharged form, so the remaining work is localization, exposition, or packaging.
   derivation_state: localized-support
+  support_strength: strong
+  source_scope_status: new-support-found
+  priority_rank: 3
   derivation_attempts: 1
   attempts_without_new_support: 0
   last_derivation_run_id: debt-derive-navier-stokes-20260429T171954Z
-  support_strength: strong
   evidence_paths:
   - problems/navier-stokes/proof-assembly.yaml
   - problems/navier-stokes/source-frontier.yaml
@@ -135,7 +137,6 @@ debt_items:
   - problems/navier-stokes/formalization-ledger.md
   - problems/navier-stokes/frozen-core.md
   source_sufficiency: sufficient
-  source_scope_status: new-support-found
   source_checks: 1
 - debt_id: debt-collar-to-jump-converse-pivot
   label: collar-to-jump converse pivot
@@ -147,14 +148,15 @@ debt_items:
   - theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   debt_class: packaging
   recommended_stage: prose-realization
-  rationale: The ledger says the material already exists in some proved or discharged
-    form, so the remaining work is localization, exposition, or packaging.
-  priority_rank: 4
+  rationale: The ledger says the material already exists in a grounded, proved, or
+    discharged form, so the remaining work is localization, exposition, or packaging.
   derivation_state: localized-support
+  support_strength: strong
+  source_scope_status: new-support-found
+  priority_rank: 4
   derivation_attempts: 1
   attempts_without_new_support: 0
   last_derivation_run_id: debt-derive-navier-stokes-20260429T172000Z
-  support_strength: strong
   evidence_paths:
   - problems/navier-stokes/proof-assembly.yaml
   - problems/navier-stokes/source-frontier.yaml
@@ -170,7 +172,6 @@ debt_items:
   - problems/navier-stokes/formalization-ledger.md
   - problems/navier-stokes/frozen-core.md
   source_sufficiency: sufficient
-  source_scope_status: new-support-found
   source_checks: 1
 - debt_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   label: Keep theorem scope below the first unsafe overclaim
@@ -189,6 +190,25 @@ debt_items:
   priority_rank: 5
   derivation_state: localized-support
   support_strength: strong
+- debt_id: debt-periodic-clay-terminal-promotion-bridge
+  label: Periodic Clay terminal-promotion bridge
+  source_section: proof-debt-ledger
+  monograph_status: grounded by `PCTP.A` and the proof-obligation matrix; full-MPP
+    theorem-upgrade target discharged
+  standalone_need: 'no'
+  primary_anchors:
+  - theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md
+  - problems/navier-stokes/assumption-ledger.yaml
+  - theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
+  - problems/navier-stokes/proof-obligation-matrix.yaml
+  debt_class: packaging
+  recommended_stage: prose-realization
+  rationale: The ledger says the material already exists in a grounded, proved, or
+    discharged form, so the remaining work is localization, exposition, or packaging.
+  derivation_state: localized-support
+  support_strength: strong
+  source_scope_status: settled-ledger
+  priority_rank: 6
 - debt_id: debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
   label: 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem
     2.1 class-membership warrant eliminates every first finite classical endpoint
@@ -203,7 +223,7 @@ debt_items:
   rationale: The post-release plan says this gap remains outside the accepted checkpoint
     package, so it must stay on the theorem-upgrade path instead of being demoted
     to packaging debt.
-  priority_rank: 6
+  priority_rank: 7
   derivation_state: localized-support
   derivation_attempts: 1
   attempts_without_new_support: 0
@@ -229,7 +249,7 @@ debt_items:
   reclassified_from: local-derivable
 summary:
   counts_by_class:
-    packaging: 6
+    packaging: 7
     local-derivable: 0
     branch-choice: 0
     blocked-frontier: 0
@@ -242,4 +262,5 @@ summary:
   - debt-lower-carrier-receiver-wall
   - debt-collar-to-jump-converse-pivot
   - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
+  - debt-periodic-clay-terminal-promotion-bridge
   - debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3

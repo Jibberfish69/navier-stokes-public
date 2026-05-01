@@ -4,46 +4,44 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   matrix_id: proof-obligation-matrix-navier-stokes
-  generated_at: '2026-04-29T21:42:27Z'
+  generated_at: '2026-04-30T23:52:59Z'
   generator: system/runner/lib/proof_obligation_matrix_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
 posture:
-  theorem_target: class-membership-closure-warrant
+  theorem_target: full-mpp-closure
   current_package_status: local-packet-export-ready
   standalone_status: local-packet-export-ready
-  completion_tier_achieved: local-theorem-packet-complete
-  review_verdict: accept
+  completion_tier_achieved: paper-complete-theorem-open
+  review_verdict: revise
   live_theorem_edge_present: true
-  live_theorem_edge_route_label: conditional terminal class-membership lane closure
-    packet
+  live_theorem_edge_route_label: periodic terminal-tail bridge promotion audit after
+    PCTP.hard discharge
 live_theorem_edge:
   route_id: live-authority-edge-navier-stokes
-  route_label: conditional terminal class-membership lane closure packet
-  current_route_name: conditional terminal class-membership lane closure packet
-  exact_cut_summary: The primary theorem-facing packet is conditional terminal closure,
-    not the TPS / `SG.4` consumer branch. The live local membership target remains
-    `M_Q(u,p)`, witnessed through the exact `Pack` / `Part` / `Field` vocabulary.
-    The six-burden stack `LCI.A`, `CJ.A_low.7`, `FCI.5f`, `OFP.A`, `CFI.A`, and `End_NS`
-    is terminally closed under the retained H1-H6 conditional packet recorded in `mpp-terminal-class-membership-six-burden-closure-note.md`.
-    The older TPS / `SG.4` selector wall remains downstream consumer context rather
-    than the lane-wide frontier, and this packet is not an unconditional full-MPP
-    closure.
+  route_label: periodic terminal-tail bridge promotion audit after PCTP.hard discharge
+  current_route_name: periodic terminal-tail bridge promotion audit after PCTP.hard
+    discharge
+  exact_cut_summary: The primary theorem-facing packet is now the periodic terminal-tail
+    bridge consumption audit. The live local membership target remains `M_Q(u,p)`,
+    witnessed through the exact `Pack` / `Part` / `Field` vocabulary. The six-burden
+    stack `LCI.A`, `CJ.A_low.7`, `FCI.5f`, `OFP.A`, `CFI.A`, and `End_NS` is terminally
+    closed under the retained H1-H6 conditional packet, and the averaged terminal-tail
+    bridge now grounds `PCTP.hard / TTU.A` in the local theorem-program sense by `TGC.A+AACT.Global.noJump+AVG.END.A+READ.END=>PCTP.hard`.
+    This removes the proof-matrix frontier, but does not by itself declare public
+    Clay release; release remains governed by promotion, target-fidelity, source/export,
+    review, submission, reproducibility, and final release-decision artifacts.
   paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md",
     "problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
     "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
     "problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md",
-    "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md"]'
+    "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md",
+    "problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md"]'
 obligations:
 - obligation_id: theorem-statement
   kind: theorem-statement
-  label: 'If the installed original-data class-membership packet holds on the active
-    same-fluid Navier-Stokes route, then no finite first class-membership endpoint
-    occurs: RawData.Production + EndpointFace.Type + PackGauge.Dichotomy + RetainedAdmission.Persistence
-    gives H1+H2+H6+ORIGIN.Retain, the retained receiver/source spine gives LCI.A +
-    CJ.A_low.7 + FCI.5f + OFP.A + CFI.A, and End_NS removes every typed endpoint face.
-    This is the Theorem 2.1 classical-closure warrant; paper export and Clay-level
-    release remain governed by review and release ledgers.'
+  label: Every smooth divergence-free zero-mean initial datum on T^3 with f=0 generates
+    a global smooth classical three-dimensional incompressible Navier-Stokes solution.
   status: grounded
   source_anchor: problems/navier-stokes/debt-map.yaml
   blocking: false
@@ -176,6 +174,15 @@ obligations:
   - Current packet status is `localized-support`.
   - Support strength is `strong`.
   - This obligation is not yet discharged locally.
+- obligation_id: debt-periodic-clay-terminal-promotion-bridge
+  kind: lemma
+  label: Periodic Clay terminal-promotion bridge
+  status: grounded
+  source_anchor: theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+  - Support strength is `strong`.
 - obligation_id: debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
   kind: lemma
   label: 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem
@@ -196,10 +203,10 @@ obligations:
   source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   blocking: false
   notes:
-  - Dependency chain is treated as discharged because the theorem packet is export-ready
-    and no revise posture remains.
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
+  - Dependency chain is treated as discharged because the theorem packet is export-ready
+    and no revise posture remains.
   - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
   - This closes the proof-dependency bridge spine only; it does not promote an unconditional
     Clay theorem or reopen the terminal six-burden stack.
@@ -224,10 +231,10 @@ obligations:
   source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   blocking: false
   notes:
-  - Dependency chain is treated as discharged because the theorem packet is export-ready
-    and no revise posture remains.
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
+  - Dependency chain is treated as discharged because the theorem packet is export-ready
+    and no revise posture remains.
   - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
   - This closes the proof-dependency bridge spine only; it does not promote an unconditional
     Clay theorem or reopen the terminal six-burden stack.
@@ -252,10 +259,10 @@ obligations:
   source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   blocking: false
   notes:
-  - Dependency chain is treated as discharged because the theorem packet is export-ready
-    and no revise posture remains.
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
+  - Dependency chain is treated as discharged because the theorem packet is export-ready
+    and no revise posture remains.
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
   - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
@@ -273,10 +280,10 @@ obligations:
   source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   blocking: false
   notes:
-  - Dependency chain is treated as discharged because the theorem packet is export-ready
-    and no revise posture remains.
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
+  - Dependency chain is treated as discharged because the theorem packet is export-ready
+    and no revise posture remains.
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
   - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
@@ -295,10 +302,10 @@ obligations:
   source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   blocking: false
   notes:
-  - Dependency chain is treated as discharged because the theorem packet is export-ready
-    and no revise posture remains.
   - Dependency chain is still only structural; the proof links are not yet discharged
     into a submission-safe theorem packet.
+  - Dependency chain is treated as discharged because the theorem packet is export-ready
+    and no revise posture remains.
   - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
   - This closes the proof-dependency bridge spine only; it does not promote an unconditional
     Clay theorem or reopen the terminal six-burden stack.
@@ -316,10 +323,10 @@ obligations:
   source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   blocking: false
   notes:
-  - Dependency chain is treated as discharged because the theorem packet is export-ready
-    and no revise posture remains.
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
+  - Dependency chain is treated as discharged because the theorem packet is export-ready
+    and no revise posture remains.
   - Dependency chain is strongly supported by the recovered local object layer, but
     it is not yet discharged as a formal submission-safe bridge.
   - Dependency chain is still only structural; the proof links are not yet discharged
@@ -341,10 +348,10 @@ obligations:
   source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   blocking: false
   notes:
-  - Dependency chain is treated as discharged because the theorem packet is export-ready
-    and no revise posture remains.
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
+  - Dependency chain is treated as discharged because the theorem packet is export-ready
+    and no revise posture remains.
   - Dependency chain is strongly supported by the recovered local object layer, but
     it is not yet discharged as a formal submission-safe bridge.
   - Dependency chain is still only structural; the proof links are not yet discharged
@@ -366,6 +373,8 @@ obligations:
   source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   blocking: false
   notes:
+  - Dependency chain direction is visible in the recovered route, but this bridge
+    still needs explicit local discharge before submission.
   - Dependency chain is treated as discharged because the theorem packet is export-ready
     and no revise posture remains.
   - Dependency chain is still only structural; the proof links are not yet discharged
@@ -390,12 +399,12 @@ obligations:
   source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   blocking: false
   notes:
+  - Dependency chain is strongly supported by the recovered local object layer, but
+    it is not yet discharged as a formal submission-safe bridge.
   - Dependency chain is treated as discharged because the theorem packet is export-ready
     and no revise posture remains.
   - Dependency chain direction is visible in the recovered route, but this bridge
     still needs explicit local discharge before submission.
-  - Dependency chain is strongly supported by the recovered local object layer, but
-    it is not yet discharged as a formal submission-safe bridge.
   - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
   - This closes the proof-dependency bridge spine only; it does not promote an unconditional
     Clay theorem or reopen the terminal six-burden stack.
@@ -404,8 +413,8 @@ obligations:
     source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
     closure_kind: local-bridge-spine-status-proof
 summary:
-  total_obligations: 24
-  grounded_count: 24
+  total_obligations: 25
+  grounded_count: 25
   structural_only_count: 0
   structurally_supported_count: 0
   bridge_pending_count: 0

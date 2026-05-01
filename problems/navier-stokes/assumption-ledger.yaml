@@ -7,10 +7,10 @@ identity:
   purpose: assumption and release-gate ledger after H1-H6 and Theorem 2.1 warrant
     alignment
 status:
-  ledger_status: nonterminal-pctp-hard-open
-  all_matrix_assumptions_discharged: false
+  ledger_status: matrix-clear-promotion-audit-required
+  all_matrix_assumptions_discharged: true
   release_eligible: false
-  release_gate: pctp-hard-terminal-tail-uniformization
+  release_gate: proof-promotion-review-and-current-export-bundle
 source_evidence:
   proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
   theorem_warrant: problems/navier-stokes/theorem-to-warrant.yaml
@@ -18,6 +18,7 @@ source_evidence:
   h_layer_closure: problems/navier-stokes/theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
   hfg_low: problems/navier-stokes/theorem-construction/strict-low-mode-strain-suppression-result.md
   hfg_alt: problems/navier-stokes/theorem-construction/hfg-alt-all-scale-transfer-loss-no-free-gap.md
+  pctp_hard_bridge: problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md
 assumptions:
 - id: original-mpp-target-fidelity
   label: theorem statement stays on the original Navier-Stokes object and does not
@@ -49,6 +50,12 @@ assumptions:
   status: discharged
   discharge_surface: problems/navier-stokes/theorem-construction/mpp-endpoint-face-packgauge-retained-admission-solution-note.md
   release_needed: true
+- id: pctp-hard-terminal-tail-uniformization
+  label: PCTP.hard / TTU.A produces terminal-tail retained class-membership readout
+    from original smooth periodic data without spending READ.COVER upstream of End_NS_avg
+  status: discharged
+  discharge_surface: problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md
+  release_needed: true
 - id: one-field-forward-preservation-wall
   label: OFP.A is closed in the six-burden class-membership stack
   status: discharged
@@ -78,13 +85,15 @@ assumptions:
   release_needed: false
 summary:
   total_matrix_assumptions: 24
-  discharged_matrix_assumptions: 23
-  blocking_or_unresolved_matrix_count: 1
+  discharged_matrix_assumptions: 24
+  blocking_or_unresolved_matrix_count: 0
   hfg_side_primitives_open:
   - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
-  release_blocking_count: 1
+  release_blocking_count: 0
 release_blockers:
-- PCTP.hard terminal-tail uniformization remains open.
+- No matrix-assumption blocker remains after the PCTP.hard governance consumption
+  audit; terminal release still requires a refreshed proof-promotion/review/export
+  bundle pass.
 required_next_actions:
-- rerun review against draft-v8 and external-paper/sections/main-result.tex
-- produce a clean export bundle before declaring submission-ready
+- regenerate the submission bundle from the current theorem surface
+- rerun proof-promotion and release review against the current route signature

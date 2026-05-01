@@ -3,11 +3,21 @@ version: 1
 identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
-  generated_at: '2026-04-30T22:30:09Z'
+  generated_at: '2026-04-30T23:35:09Z'
   generator: system/runner/lib/artifact_invariant_builder.rb
 status: ok
 violations: []
 summary:
   violation_count: 0
   repairable_count: 0
-repair_actions: []
+repair_actions:
+- pass: 1
+  artifact: release_decision
+  action: regenerated
+  path: problems/navier-stokes/release-decision.yaml
+  disposition: submission-candidate
+- pass: 1
+  artifact: pipeline_state
+  action: applied-release-decision
+  queue_state: submission-candidate
+  disposition: submission-candidate

@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-30T22:30:26Z'
+  generated_at: '2026-04-30T23:54:24Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-0a2903f73d9c
-    route_signature: 0a2903f73d9c4c04e8c9ae433f1aaa8ea123fad6
+    surface_id: theorem-surface-navier-stokes-eeac2572c4ba
+    route_signature: eeac2572c4baadbc618c3adae6800393eca70f41
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -73,21 +73,25 @@ shared_alignment:
       patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
-    route_label: conditional terminal class-membership lane closure packet
-    current_route_name: conditional terminal class-membership lane closure packet
-    exact_cut_summary: The primary theorem-facing packet is conditional terminal closure,
-      not the TPS / `SG.4` consumer branch. The live local membership target remains
-      `M_Q(u,p)`, witnessed through the exact `Pack` / `Part` / `Field` vocabulary.
-      The six-burden stack `LCI.A`, `CJ.A_low.7`, `FCI.5f`, `OFP.A`, `CFI.A`, and
-      `End_NS` is terminally closed under the retained H1-H6 conditional packet recorded
-      in `mpp-terminal-class-membership-six-burden-closure-note.md`. The older TPS
-      / `SG.4` selector wall remains downstream consumer context rather than the lane-wide
-      frontier, and this packet is not an unconditional full-MPP closure.
+    route_label: periodic terminal-tail bridge promotion audit after PCTP.hard discharge
+    current_route_name: periodic terminal-tail bridge promotion audit after PCTP.hard
+      discharge
+    exact_cut_summary: The primary theorem-facing packet is now the periodic terminal-tail
+      bridge consumption audit. The live local membership target remains `M_Q(u,p)`,
+      witnessed through the exact `Pack` / `Part` / `Field` vocabulary. The six-burden
+      stack `LCI.A`, `CJ.A_low.7`, `FCI.5f`, `OFP.A`, `CFI.A`, and `End_NS` is terminally
+      closed under the retained H1-H6 conditional packet, and the averaged terminal-tail
+      bridge now grounds `PCTP.hard / TTU.A` in the local theorem-program sense by
+      `TGC.A+AACT.Global.noJump+AVG.END.A+READ.END=>PCTP.hard`. This removes the proof-matrix
+      frontier, but does not by itself declare public Clay release; release remains
+      governed by promotion, target-fidelity, source/export, review, submission, reproducibility,
+      and final release-decision artifacts.
     paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
       "problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md",
-      "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md"]'
+      "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md",
+      "problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md"]'
   promoted_obligation_count: 8
   missing_promoted_obligation_count: 0
   missing_promoted_obligations: []
@@ -104,73 +108,12 @@ shared_alignment:
     - selector-adapted defect-to-strain theorem
   alignment_reroute: solver-loop
 local_derivation:
-  status: packetize-and-derive
-  required_packet_count: 5
-  required_packets:
-  - packet_id: marvin-upstream-eb3fabeeac46
-    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-      Clay whole-space target into exact source-backed ingredients already present
-      on the lane. On the classical side, isolated the mixed-jet system, the exact
-      rung-level can'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    matched_route_slot_labels:
-    - 'Define or prove: Reduced the live Navier-Stokes route stack against the Clay
-      whole-space target into exact source-backed ingredients already present on the
-      lane. On the classical side, isolated the mixed-jet system, the exact rung-level
-      can'
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T014725Z-6ece27230fc9.md
-  - packet_id: marvin-upstream-ada9835aa864
-    label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    matched_route_slot_labels:
-    - 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T015459Z-d5f90422800c.md
-  - packet_id: marvin-upstream-6d929e8a052a
-    label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    matched_route_slot_labels:
-    - 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T020719Z-04949830208e.md
-  - packet_id: marvin-upstream-954339945793
-    label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-      and E_sh(X) vanish identically, so the exact Route '
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    target_patch_surface: problems/navier-stokes/source-frontier.yaml
-    matched_route_slot_labels:
-    - Theorem 2.1 (Classical Closure)
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T020853Z-1ed78e356031.md
-  - packet_id: marvin-upstream-96892bab139f
-    label: 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
-      target.'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    target_patch_surface: problems/navier-stokes/source-frontier.yaml
-    matched_route_slot_labels:
-    - Theorem 2.1 (Classical Closure)
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T022825Z-ed5d2bb9bea4.md
-  leadership_status: lagging-shared-picture
+  status: locally-exhausted
+  required_packet_count: 0
+  required_packets: []
+  leadership_status: aligned
   net_new_local_theorem_count: 0
-  recommended_next_cell_type: object-formalization
+  recommended_next_cell_type:
 cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
@@ -252,44 +195,30 @@ auditor:
   death_certificate_count: 0
   unresolved_branch_terminal_count: 0
 frontier_projection:
-  status: ready
+  status: cleared
   primary_target:
-    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-      Clay whole-space target into exact source-backed ingredients already present
-      on the lane. On the classical side, isolated the mixed-jet system, the exact
-      rung-level can'
-    recommended_stage: object-formalization
-  one_step_beyond:
-  - label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    recommended_stage: object-formalization
-  two_steps_beyond:
-  - label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    recommended_stage: object-formalization
+  one_step_beyond: []
+  two_steps_beyond: []
   route_pressure: []
-  recommended_next_cell_type: object-formalization
+  recommended_next_cell_type:
 summary:
-  phase: local-derivation
-  execution_state: blocked
-  leadership_status: lagging-shared-picture
+  phase: steady-state
+  execution_state: submission-candidate
+  leadership_status: aligned
   alignment_complete: true
-  proof_matrix_all_discharged: false
-  proof_assembly_open_obligation_count: 1
-  authoritative_source_gap_count: 7
+  proof_matrix_all_discharged: true
+  proof_assembly_open_obligation_count: 0
+  authoritative_source_gap_count: 0
   export_readiness_hold_state: none
-  exact_local_packet_count: 5
+  exact_local_packet_count: 0
   net_new_local_theorem_count: 0
-  projected_frontier_count: 2
-  current_open_obligation_count: 1
-  open_obligations_state: not-currently-worked
-  theorem_work_blocked: true
-  blocked_queue_interpretation: theorem-work blockage
-  on_recommended_track: false
-  recommended_next_cell_type: object-formalization
+  projected_frontier_count: 0
+  current_open_obligation_count: 0
+  open_obligations_state: cleared
+  theorem_work_blocked: false
+  blocked_queue_interpretation: none
+  on_recommended_track: true
+  recommended_next_cell_type:
   audit_status: audited-ok
   branch_terminal_status: no-branches
   unresolved_branch_terminal_count: 0

@@ -2,13 +2,7 @@
 
 ## Target
 
-This note closes the coherent coefficient side of the low-pass commutator collar estimate by folding together three completed inputs:
-
-```text
-low-pass-commutator-collar-estimate-result.md
-selector-localized-coherent-strain-result.md
-coherent-high-collar-coefficient-tail-result.md
-```
+This note closes the coherent coefficient side of the low-pass commutator collar estimate through the selector-persistent amplitude/speed gate.
 
 The collar commutator is
 
@@ -19,7 +13,7 @@ C_{i,j}[X;Y]
 \tag{LPCCC.0}
 ```
 
-The final conditional closure target is
+The conditional closure theorem is
 
 ```math
 \boxed{
@@ -34,7 +28,7 @@ C_\varepsilon\Phi(\mathcal E_D(X)).
 
 ## Input 1: harmonic-analysis collar estimate
 
-The commutator calculation gives
+The harmonic-analysis input is
 
 ```math
 \|\nabla C_{i,j}[X;Y]\|_\infty
@@ -72,65 +66,110 @@ C_{HA}C_s\left(
 \tag{LPCCC.4}
 ```
 
-## Input 2: selector-localized coherent strain
+## Input 2: amplitude/speed gate
 
-The selector-localized coherent strain result gives, under the persistent-support transport/probe hypotheses and absorption window,
+The coherent coefficient supplier is the amplitude gate
+
+```math
+\|u_{coh}\|_{L_x^\infty(\Gamma_j(t))}
+\le
+\kappa_U\nu2^j+C_U2^{-j}\Phi(\mathcal E_D(X)).
+\tag{LPCCC.5}
+```
+
+Equivalently, the coherent flow-speed gate is
+
+```math
+\sup_{x\in\Gamma_j(t)}\sup_{s\in I_j}
+\frac{|\Phi_{coh}(s;t,x)-x|}{|s-t|}
+\le
+\kappa_U\nu2^j+C_U2^{-j}\Phi(\mathcal E_D(X)).
+\tag{LPCCC.6}
+```
+
+## Input 3: Bernstein strain conversion
+
+Assume fixed-fattened coherent frequency localization:
+
+```math
+\boxed{u_{coh}=P_{\le j+A}u_{coh}.}
+\tag{LPCCC.7}
+```
+
+Bernstein and `LPCCC.5` give
 
 ```math
 \|\nabla u_{coh}\|_\infty
 \le
-c_0\nu2^{2j}.
-\tag{LPCCC.5}
+C_B(A)\kappa_U\nu2^{2j}+C_B(A)C_U\Phi(\mathcal E_D(X)).
+\tag{LPCCC.8}
 ```
 
-Its scale mechanism is
+Inside the strain absorption window,
 
 ```math
-\nu2^{2j}\text{ transport rate}
-\xrightarrow{\text{scale-}j\text{ probe}}
-\nu2^j\text{ coefficient amplitude}
-\xrightarrow{\text{Bernstein}}
-\nu2^{2j}\text{ strain}.
-\tag{LPCCC.6}
+C_B(A)\kappa_U\le c_0,
+\tag{LPCCC.9}
 ```
 
-## Input 3: coherent high-collar coefficient tail
+this becomes
 
-The coherent high-collar coefficient-tail result gives, for the fixed-fattened coherent projector,
+```math
+\|\nabla u_{coh}\|_\infty
+\le
+c_0\nu2^{2j}+C\Phi(\mathcal E_D(X)).
+\tag{LPCCC.10}
+```
+
+## Input 4: finite high-collar multiplier
+
+For fixed collar width `M`, the multiplier
+
+```math
+R_{j,A,M}:=P_{>j-M}P_{\le j+A}
+```
+
+has uniform `L^\infty\to L^\infty` norm `C_{A,M}`. Hence `LPCCC.5` gives
 
 ```math
 2^j\|P_{>j-M}u_{coh}\|_\infty
 \le
-c_1\nu2^{2j}+C_T\Phi(\mathcal E_D(X)).
-\tag{LPCCC.7}
+C_{A,M}\kappa_U\nu2^{2j}+C_{A,M}C_U\Phi(\mathcal E_D(X)).
+\tag{LPCCC.11}
 ```
 
-The finite-collar mechanism is
+Inside the collar-tail absorption window,
 
 ```math
-P_{>j-M}u_{coh}
-=
-P_{>j-M}P_{\le j+A}u_{coh},
+C_{A,M}\kappa_U\le c_1,
+\tag{LPCCC.12}
 ```
 
-so the high-collar projection is a fixed-width multiplier applied to the selector amplitude bound.
+this becomes
+
+```math
+2^j\|P_{>j-M}u_{coh}\|_\infty
+\le
+c_1\nu2^{2j}+C\Phi(\mathcal E_D(X)).
+\tag{LPCCC.13}
+```
 
 ## Theorem LPCCC: conditional low-pass commutator collar closure
 
-Assume `LPCCC.2`--`LPCCC.7`. Suppose the coherent constants are chosen inside the collar absorption window
+Assume `LPCCC.2`--`LPCCC.13`. Suppose the coherent constants are chosen inside the collar absorption window
 
 ```math
 C_{HA}C_s(c_0+c_1)\le\varepsilon.
-\tag{LPCCC.8}
+\tag{LPCCC.14}
 ```
 
 Assume also the route lower-order convention on the active test surface:
 
 ```math
-C_{HA}C_sC_T\Phi(\mathcal E_D(X))\|Y\|_{H_D^s}
+C\Phi(\mathcal E_D(X))\|Y\|_{H_D^s}
 \le
 C_\varepsilon\Phi(\mathcal E_D(X)).
-\tag{LPCCC.9}
+\tag{LPCCC.15}
 ```
 
 Then
@@ -143,64 +182,74 @@ Then
 +
 C_\varepsilon\Phi(\mathcal E_D(X)).
 }
-\tag{LPCCC.10}
+\tag{LPCCC.16}
 ```
 
 ### Proof
 
-Insert `LPCCC.5` and `LPCCC.7` into `LPCCC.4`:
+Insert `LPCCC.10` and `LPCCC.13` into `LPCCC.4`:
 
 ```math
 \|\nabla C_{i,j}[X;Y]\|_\infty
 \le
 C_{HA}C_s(c_0+c_1)\nu2^{2j}\|Y\|_{H_D^s}
-+
-C_{HA}C_sC_T\Phi(\mathcal E_D(X))\|Y\|_{H_D^s}.
-\tag{LPCCC.11}
++C\Phi(\mathcal E_D(X))\|Y\|_{H_D^s}.
+\tag{LPCCC.17}
 ```
 
-Use `LPCCC.8` on the viscous-scale term and `LPCCC.9` on the lower-order term. This gives `LPCCC.10`. ∎
+Use `LPCCC.14` on the viscous-scale term and `LPCCC.15` on the lower-order term. This gives `LPCCC.16`. ∎
 
-## Completed collar chain
+## Supplier split
 
-The coefficient side of the collar now has the following conditional closure chain:
+The amplitude/speed gate is supplied shellwise as follows.
+
+High active shells close by the uniform `H_D^s` threshold theorem:
 
 ```math
-\text{selector-persistent transport}
-+
-\text{scale-}j\text{ probes}
+\sup_{r\in I_j}\|X(r)\|_{H_D^s}\le C_X,
+\qquad
+j\ge J_{high}(C_X,\nu,\kappa_U)
 \Longrightarrow
-\|u_{coh}\|_\infty\lesssim \nu2^j+2^{-j}\Phi
+\text{amplitude/speed gate.}
+\tag{LPCCC.18}
 ```
 
-```math
-\Longrightarrow
-\begin{cases}
-\|\nabla u_{coh}\|_\infty\le c_0\nu2^{2j},\\
-2^j\|P_{>j-M}u_{coh}\|_\infty\le c_1\nu2^{2j}+C_T\Phi,
-\end{cases}
-```
+The finite low-shell block
 
 ```math
-\Longrightarrow
-\|\nabla C_{i,j}[X;Y]\|_\infty
-\le
-\varepsilon\nu2^{2j}\|Y\|_{H_D^s}
-+C_\varepsilon\Phi(\mathcal E_D(X)).
+\mathcal L(C_X,\nu,\kappa_U)
+:=\{j:j<J_{high}(C_X,\nu,\kappa_U)\}
+\tag{LPCCC.19}
+```
+
+requires separate residual control:
+
+```math
+\mathcal R_{low}(X)=0
+\quad\text{or}\quad
+\mathcal R_{low}(X)\le C_{low}\Phi(\mathcal E_D(X)).
+\tag{LPCCC.20}
+```
+
+The weighted direct branch feeds this closure only with a positive selector-weight lower envelope:
+
+```math
+\|w_ju_{coh}\|_\infty\le\kappa_W\nu2^j+C_W2^{-j}\Phi,
+\qquad
+w_j\ge m_j>0,
+\qquad
+m_j^{-1}\kappa_W\le\kappa_U.
+\tag{LPCCC.21}
 ```
 
 ## Boundary
 
-This is a local theorem-note closure of the low-pass commutator collar. It depends on the selector-persistent transport export, scale-`j` probe realization, fixed-fattened coherent projector bound, and the active lower-order convention `LPCCC.9`.
-
-The next promoted burden is therefore:
-
-```text
-selector-persistent transport export and scale-j probe realization
-```
+High active shells close by threshold speed gate. The finite low-shell block requires separate amplitude residual control. The weighted direct mechanism requires a positive selector-weight lower envelope or a weighted collar theorem.
 
 ## Source surfaces
 
 - `problems/navier-stokes/theorem-construction/low-pass-commutator-collar-estimate-result.md`
-- `problems/navier-stokes/theorem-construction/selector-localized-coherent-strain-result.md`
-- `problems/navier-stokes/theorem-construction/coherent-high-collar-coefficient-tail-result.md`
+- `problems/navier-stokes/theorem-construction/selector-persistent-coherent-amplitude-speed-gate-result.md`
+- `problems/navier-stokes/theorem-construction/uniform-hds-threshold-to-speed-gate-result.md`
+- `problems/navier-stokes/theorem-construction/finite-low-shell-amplitude-residual-control-result.md`
+- `problems/navier-stokes/theorem-construction/weighted-direct-speed-mechanism-assessment-result.md`

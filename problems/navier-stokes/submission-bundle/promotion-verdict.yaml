@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   verdict_id: promotion-verdict-navier-stokes
-  generated_at: '2026-04-29T21:42:27Z'
+  generated_at: '2026-04-30T23:52:59Z'
   generator: system/runner/lib/promotion_verdict_builder.rb
   source_branch_set_id: extension-branches-navier-stokes
   source_falsification_id: lemma-falsification-navier-stokes

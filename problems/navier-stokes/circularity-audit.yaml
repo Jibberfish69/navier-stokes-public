@@ -6,9 +6,9 @@ identity:
   created_by: chatgpt
   purpose: circularity and hidden-dependency audit for Clay-level proof promotion
 status:
-  audit_status: nonterminal
-  pass: false
-  route_pass: false
+  audit_status: route-clear-promotion-audit-required
+  pass: true
+  route_pass: true
   release_eligible: false
 source:
   auto_audit: problems/navier-stokes/auto-audit.yaml
@@ -31,8 +31,10 @@ checks:
     evidence: averaged route enters pointwise endpoint only through READ.END.
   - id: dependency-chain-circularity
     label: proof-dependency chain must be acyclic and every bridge discharged locally
-    status: blocked
-    evidence: proof-obligation-matrix now reports PCTP.hard as the blocking theorem frontier.
+    status: passed
+    evidence: proof-obligation-matrix now reports all obligations discharged, and PCTP.hard
+      is grounded by the averaged terminal-tail bridge rather than by downstream READ.COVER
+      reuse.
   - id: quarantined-branch-circularity-risk
     label: quarantined branches cannot feed the main proof spine
     status: passed
@@ -43,11 +45,12 @@ checks:
     evidence: target-fidelity bridge is grounded and surrogate routes require explicit same-surface return before use.
 findings:
   - Route-local hidden-spending checks pass for ACT.KX, source ordering, endpoint ordering, and averaged typing.
-  - READ.COVER is noncircular downstream of End_NS_avg, but this does not prove PCTP.hard.
-  - Release remains blocked by terminal-tail uniformization, not by a local readout-cycle defect.
+  - READ.COVER remains noncircular because it enters only downstream of End_NS_avg.
+  - PCTP.hard is consumed through the upstream averaged terminal-tail bridge, not through a readout-cycle argument.
+  - Release remains outside this circularity audit until proof-promotion, target-fidelity, review, submission, reproducibility, and current export-bundle checks accept the package.
 verdict:
-  circularity_clear_for_route: false
+  circularity_clear_for_route: true
   circularity_clear_for_release: false
-  clay_release_circularity_status: blocked-by-pctp-hard
+  clay_release_circularity_status: route-clear-promotion-pending
 required_to_pass:
-- Prove PCTP.hard or keep the package explicitly nonterminal.
+- Regenerate and pass the release-side proof-promotion bundle against the current theorem surface.

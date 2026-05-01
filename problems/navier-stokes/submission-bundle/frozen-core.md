@@ -5,13 +5,13 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Theorem Target
 
-- `theorem_target`: class-membership-closure-warrant
-- `lowest_safe_claim`: If the installed original-data class-membership packet holds on the active same-fluid Navier-Stokes route, then no finite first class-membership endpoint occurs: RawData.Production + EndpointFace.Type + PackGauge.Dichotomy + RetainedAdmission.Persistence gives H1+H2+H6+ORIGIN.Retain, the retained receiver/source spine gives LCI.A + CJ.A_low.7 + FCI.5f + OFP.A + CFI.A, and End_NS removes every typed endpoint face. This is the Theorem 2.1 classical-closure warrant; paper export and Clay-level release remain governed by review and release ledgers.
-- `first_unsafe_overclaim`: Promoting the TPS / `SG.4` selector wall back to lane-wide leading-edge status, treating `SG.4` as a prerequisite to `CFI.A` / `OFP.A` / `LCI.A`, or inferring from the installed `(Part, Dead)` entry that the whole frontier has collapsed to a surviving pair; treating the `CJ.A_low` contrapositive boundary as installed jump manifestation.
+- `theorem_target`: full-mpp-closure
+- `lowest_safe_claim`: Every smooth divergence-free zero-mean initial datum on T^3 with f=0 generates a global smooth classical three-dimensional incompressible Navier-Stokes solution.
+- `first_unsafe_overclaim`: Promoting the TPS / `SG.4` selector wall back to lane-wide leading-edge status, treating `SG.4` as a prerequisite to `CFI.A` / `OFP.A` / `LCI.A`, or inferring from the installed `(Part, Dead)` entry that the whole frontier has collapsed to a surviving pair; treating the `CJ.A_low` contrapositive boundary as installed jump manifestation; claiming public Clay/full-MPP release merely from the averaged terminal-tail tranche before the proof-promotion packet, target-fidelity audit, source/export checks, review verdict, submission verdict, reproducibility surfaces, and final release decision accept the promoted package.
 
 ## Grounded Core
 
-- If the installed original-data class-membership packet holds on the active same-fluid Navier-Stokes route, then no finite first class-membership endpoint occurs: RawData.Production + EndpointFace.Type + PackGauge.Dichotomy + RetainedAdmission.Persistence gives H1+H2+H6+ORIGIN.Retain, the retained receiver/source spine gives LCI.A + CJ.A_low.7 + FCI.5f + OFP.A + CFI.A, and End_NS removes every typed endpoint face. This is the Theorem 2.1 classical-closure warrant; paper export and Clay-level release remain governed by review and release ledgers. (`theorem-statement`; `theorem-statement`)
+- Every smooth divergence-free zero-mean initial datum on T^3 with f=0 generates a global smooth classical three-dimensional incompressible Navier-Stokes solution. (`theorem-statement`; `theorem-statement`)
 - Define or prove: Reduced the live Navier-Stokes route stack against the Clay whole-space target into exact source-backed ingredients already present on the lane. On the classical side, isolated the mixed-jet system, the exact rung-level can (`definition`; `marvin-upstream-eb3fabeeac46`)
 - Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra property and the order-1 Calderon-Zygmund bound for the pressure operator, (`definition`; `marvin-upstream-ada9835aa864`)
 - Define or prove: Added three theorem-facing reductions on the Navier-Stokes lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2, red (`definition`; `marvin-upstream-6d929e8a052a`)
@@ -25,6 +25,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - lower-carrier receiver wall (`lemma`; `debt-lower-carrier-receiver-wall`)
 - collar-to-jump converse pivot (`lemma`; `debt-collar-to-jump-converse-pivot`)
 - Keep theorem scope below the first unsafe overclaim (`lemma`; `debt-keep-theorem-scope-below-the-first-unsafe-overclaim`)
+- Periodic Clay terminal-promotion bridge (`lemma`; `debt-periodic-clay-terminal-promotion-bridge`)
 - Periodic Clay terminal-promotion bridge: prove that the installed Theorem 2.1 class-membership warrant eliminates every first finite classical endpoint for arbitrary smooth divergence-free zero-mean data on T^3. (`lemma`; `debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3`)
 - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3` or `T^3` -> Success for regularized or morphic-regularized equations does not close the original problem (`proof-dependency`; `proof-dependency-1`)
 - Success for regularized or morphic-regularized equations does not close the original problem -> The original framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy (`proof-dependency`; `proof-dependency-2`)
@@ -78,6 +79,12 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - `problems/navier-stokes/theorem-construction/mpp-lci-a-transported-center-residual-forcing-note.md`
 - `problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-channel-reduction-note.md`
 - `problems/navier-stokes/theorem-construction/mpp-frozen-family-resonant-pressure-sufficient-reduction-note.md`
+- `problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md`
+- `problems/navier-stokes/theorem-construction/mcp-canonical-pctp-hard-bridge-from-averaged-terminal-tail-route-cfi-a-1500f83b37.md`
+- `problems/navier-stokes/theorem-construction/mpp-pctp-hard-matrix-readable-discharge.md`
+- `problems/navier-stokes/theorem-construction/mpp-pctp-hard-terminal-tail-uniformization-assembly.md`
+- `problems/navier-stokes/theorem-construction/mcp-pctp-hard-discharge-via-averaged-terminal-tail-uniformization-avg-end-a-a92107787f.md`
+- `problems/navier-stokes/theorem-construction/mcp-pctp-hard-averaged-assembly-through-read-end.md`
 - `problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md`
 - `problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md`
 - `problems/navier-stokes/theorem-construction/psj-plus-terminal-assembly.md`
