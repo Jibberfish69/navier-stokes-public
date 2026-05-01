@@ -22,7 +22,7 @@ source_reads:
     all_discharged: false
   theorem_warrant:
     path: problems/navier-stokes/theorem-to-warrant.yaml
-    theorem_2_1_status: proved
+    theorem_2_1_status: conditional
   main_result_section:
     path: problems/navier-stokes/external-paper/sections/main-result.tex
     status: present
@@ -43,10 +43,15 @@ resolved_blockers:
 - h1-h2-h6-endpoint-upgrade
 remaining_release_gates:
 - prove PCTP.hard terminal-tail uniformization
+- repair AACT.KX / AACT.Global.noJump globalization
+- eliminate Jump_avg without assuming Field_avg on the Jump_avg branch
+- verify FCC.C1 / FSCR.C / FPCR.C and any FFSRC.A import line by line
+- audit bridges from support branches into Pack / Part / Field class membership
 side_sandbox_status:
   hfg_low: threshold-discharged
   hfg_alt: no-free-gap; surviving primitive is MEG
 claim_boundary:
-  current_safe_claim: The Theorem 2.1 class-membership closure warrant is installed
-    and the 24-obligation matrix has 0 blockers.
-  prohibited_claim: submission-ready Clay proof before review/export bundle pass
+  current_safe_claim: Conditional theorem-program packets are installed, but
+    PCTP.hard / TTU.A remains blocked by the five active mathematical burdens.
+  prohibited_claim: full periodic Navier-Stokes closure, export readiness, or
+    submission readiness before the five PCTP.hard burdens are discharged.

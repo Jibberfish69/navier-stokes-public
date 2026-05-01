@@ -56,16 +56,17 @@ theorem_warrants:
       - Continuation / Regularity bridge
       - Closed-loop warrant on the declared periodic theorem surface
       - No-hidden-modified-equation-work condition
-    proof_status: proved
-    external_publication_risk: promotion-review-required
+    proof_status: conditional
+    external_publication_risk: blocked-by-pctp-hard-five-burden-frontier
     warrant_note: >-
-      The April 30 terminal-tail governance consumption accepts the canonical
-      bridge `TGC.A + AACT.Global.noJump + AVG.END.A + READ.END => PCTP.hard
-      / TTU.A` as the theorem-program discharge of the prior terminal-tail
-      uniformization wall. The proof matrix is therefore closed on the periodic
-      Theorem 2.1 warrant. Public release still remains governed by promotion,
-      target-fidelity, source/export, review, submission, reproducibility, and
-      final release-decision artifacts.
+      The April 30 terminal-tail governance consumption is superseded by the
+      independent five-burden audit. The bridge `TGC.A + AACT.Global.noJump +
+      AVG.END.A + READ.END => PCTP.hard / TTU.A` remains a conditional
+      theorem-program spine, not a mathematical discharge. The active blockers
+      are terminal-tail Pack/Part/Field/tower production from OriginalSmoothData,
+      AACT.KX / AACT.Global.noJump globalization, branch-native Jump_avg
+      elimination, pressure/source supplier verification, and bridge-license
+      audit into CM.
 bridge_obligations:
   - bridge_id: scale-barrier
     verdict: discharged
@@ -131,15 +132,20 @@ bridge_obligations:
       separate downstream export step.
 summary:
   total_theorem_items: 1
-  proved_count: 1
-  conditional_count: 0
+  proved_count: 0
+  conditional_count: 1
   heuristic_count: 0
   unsupported_count: 0
   bridge_count: 4
   bridge_conditionally_stated_count: 0
   bridge_not_discharged_count: 0
-  full_claim_lane_blocked: false
-  blocking_basis: []
+  full_claim_lane_blocked: true
+  blocking_basis:
+    - pctp-hard-terminal-tail-production
+    - aact-kx-global-nojump
+    - jump-avg-branch-elimination
+    - pressure-source-supplier-line-by-line
+    - bridge-license-audit-into-cm
 auxiliary_theorem_tracks:
   - track_id: projected-nc-flow-d-route
     status: scaffolded

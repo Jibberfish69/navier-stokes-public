@@ -80,8 +80,9 @@ shared_alignment:
     exact_cut_summary: Conditional theorem-program packets are recorded, but the full
       periodic Navier-Stokes closure is not mathematically verified. The active frontier
       is `OriginalSmoothData => uniform terminal-tail retained Pack/Part/Field/tower
-      readout`; the immediate unresolved burdens are local `AACT.KX` absorption, valid
-      `Jump_avg` branch elimination, and pressure/source supplier line-by-line verification.
+      readout`; the immediate unresolved burdens are `PCTP.hard / TTU.A`, `AACT.KX
+      / AACT.Global.noJump`, branch-native `Jump_avg` elimination, pressure/source
+      supplier line-by-line verification, and bridge-license audit into CM.
     paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
