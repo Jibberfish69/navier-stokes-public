@@ -510,6 +510,7 @@ published_files:
 - theorem-construction/mcp-active-shell-amplitude-gain-frontier-loop-failure.md
 - theorem-construction/mcp-active-shell-amplitude-gain-hard-obstruction-for-nu_scf-carleson-active-shell-amplitude-gain-for-nu_scf-carleson-51312fcf31.md
 - theorem-construction/mcp-active-shell-amplitude-gain-implies-nu_scf-carleson-active-shell-amplitude-gain-scale-normalized-nu_scf-carleson-estimate-b42419075e.md
+- theorem-construction/mcp-active-shell-amplitude-gain-source-normalization-obstruction-active-shell-amplitude-gain-09ae95f994.md
 - theorem-construction/mcp-affine-excess-coefficient-dependence-audit.md
 - theorem-construction/mcp-affine-pressure-normalization-compatibility-lemma-846fdf37af.md
 - theorem-construction/mcp-aligned-alpha-moving-threshold-measure-boundary-db53457065.md
@@ -538,6 +539,7 @@ published_files:
 - theorem-construction/mcp-atd_m-epsilon-ckn-admissible-local-completion-read-cover-4fd93155f1.md
 - theorem-construction/mcp-atd_m-epsilon-moving-same-fluid-cylinder-gain-cavg-j-1cfbe84bbd.md
 - theorem-construction/mcp-augmented-coefficient-admissibility-for-lambda_n-sharp-92fdd9321d.md
+- theorem-construction/mcp-authority-surface-digest-and-exact-source-branch-completion-ffsrc-a-62eb68bca2.md
 - theorem-construction/mcp-averaged-consumer-chain-avg-end-a-6ee93788bd.md
 - theorem-construction/mcp-averaged-consumer-chain-completion-read-end-81e0696c04.md
 - theorem-construction/mcp-averaged-endpoint-matrix-formalization-read-cover-5ccb749170.md
@@ -636,6 +638,7 @@ published_files:
 - theorem-construction/mcp-dg-line-sharp-reduced-cocycle-packet-2dfa0e10fd.md
 - theorem-construction/mcp-dg-line-source-estimates-pass-f4e57aa92f.md
 - theorem-construction/mcp-direct-aact-kx-local-classical-variables.md
+- theorem-construction/mcp-direct-active-square-upper-tail-carleson-obstruction-direct-active-square-upper-tail-carleson-e15c502f75.md
 - theorem-construction/mcp-direct-aligned-residual-square-budget-attempt-3ff9f3b5cb.md
 - theorem-construction/mcp-direct-m_q-to-sobolev-readout-constants-68fcd15030.md
 - theorem-construction/mcp-direct-nu_scf-active-square-carleson-obstruction-direct-active-square-carleson-theorem-for-nu_scf-ee9cb12a8a.md
