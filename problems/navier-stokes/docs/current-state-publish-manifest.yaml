@@ -498,6 +498,7 @@ published_files:
 - theorem-construction/mcp-aact-global-nojump-lock-dtc-a-04b45d4d1d.md
 - theorem-construction/mcp-aact-global-promotion-audit.md
 - theorem-construction/mcp-aact-kx-constants-scale-bookkeeping.md
+- theorem-construction/mcp-aact-kx-local-absorption-discharge-via-coefficient-demotion.md
 - theorem-construction/mcp-aact-kx-local-absorption-repaired-bootstrap-lemma-aact-kx-1ccded98f4.md
 - theorem-construction/mcp-aact-kx-local-averaged-budget-audit.md
 - theorem-construction/mcp-aact-kx-restart-seed-theorem-hard-obstruction-aact-kx-57197f572b.md
@@ -578,6 +579,7 @@ published_files:
 - theorem-construction/mcp-bootsquare-weighted-mass-source-boundary-a61f5e26df.md
 - theorem-construction/mcp-branch-native-averaged-no-escape-defect-charge-lemma-obstruction-branch-native-averaged-no-escape-defect-charge-lemma-a6dac2a073.md
 - theorem-construction/mcp-branch-native-averaged-no-escape-defect-charge-obstruction-cavg-j-b5d4802a17.md
+- theorem-construction/mcp-branch-native-jump_avg-no-escape-theorem-obstruction-tgc-a-11b0bc9129.md
 - theorem-construction/mcp-bridgea-comparison-expansion-against-epf-components-1e7a4e4619.md
 - theorem-construction/mcp-bridgea-comparison-first-source-estimate-pass-4dc2096bff.md
 - theorem-construction/mcp-bridgea-dg-line-bootsquare-terminal-proof-packet-ep-a-c67cb0ac60.md
@@ -798,12 +800,14 @@ published_files:
 - theorem-construction/mcp-pointwise-class-readout-to-h-s-continuation-norm-ecq-a-08ac0ba729.md
 - theorem-construction/mcp-pressure-readout-all-endpoint-rungs-final.md
 - theorem-construction/mcp-pressure-side-collar-return-to-strengthened-source-closure.md
+- theorem-construction/mcp-pressure-source-supplier-line-by-line-aact-kx-5ccc977444.md
 - theorem-construction/mcp-pressure-source-supplier-line-by-line-partial-verification-fpcr-c-ba6226cc5d.md
 - theorem-construction/mcp-pressure-tail-convergence-from-exterior-tightness-and-local-hs-bounds-a8b39229f3.md
 - theorem-construction/mcp-promotion-audit-math-for-theorem-facing-dependencies-dtc-a-7b85b8890c.md
 - theorem-construction/mcp-proof-dependency-1-9-bridge-discharge-theorem-5483e34490.md
 - theorem-construction/mcp-ptc-shape-conditional-finite-frame-proof-d91bffaa55.md
 - theorem-construction/mcp-ptc-shape-suppliers-plus-ptc-lin-to-d-7mq-attempt-2ecf7f3d5a.md
+- theorem-construction/mcp-quantified-defect-charge-flux-machinery-hard-obstruction-jump-avg-branch-elimination-fbb028784b.md
 - theorem-construction/mcp-quantitative-defect-charge-lower-bound-and-separation-hard-obstruction-quantitative-defect-charge-lower-bound-and-separation-theorem-ac44cdc83d.md
 - theorem-construction/mcp-quantitative-field-avg-cover-theorem.md
 - theorem-construction/mcp-quantitative-terminal-good-cover-theorem-aact-kx-49426cd81d.md
