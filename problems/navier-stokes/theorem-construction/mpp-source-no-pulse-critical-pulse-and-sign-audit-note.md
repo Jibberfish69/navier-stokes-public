@@ -239,7 +239,10 @@ The exact missing content is:
 
 The installed energy, same-scale coefficient estimates, dyadic exchange
 antisymmetry, pressure Poisson structure, and algebraic strain identities do not
-prove this atom.
+prove this atom. The abstract scheduler countermodel in
+`mpp-msc-badac-energy-measure-countermodel-note.md` shows that small bad-time
+Lebesgue measure alone cannot imply the required mixed-dissipation
+bad-set domination.
 
 The May 1 continuation executed the three genuinely different follow-up
 routes:
@@ -257,8 +260,9 @@ mathematical route cannot be another coefficient scheduler, pointwise sign
 check, pressure recovery estimate, or bare compactness extraction.  It must be
 one of:
 
-1. a signed weighted commutator theorem for the true lifted remainder before
+1. `MSC.BadAC`, a direct mixed-measure domination theorem;
+2. a signed weighted commutator theorem for the true lifted remainder before
    absolute values;
-2. a pressure-strain structural cancellation theorem tied to the active packet;
-3. a compactness/ancient-solution exclusion theorem for the critical pulse
+3. a pressure-strain structural cancellation theorem tied to the active packet;
+4. a compactness/ancient-solution exclusion theorem for the critical pulse
    profile above.
