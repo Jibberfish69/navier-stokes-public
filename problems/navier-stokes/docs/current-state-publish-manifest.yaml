@@ -1086,7 +1086,9 @@ published_files:
 - theorem-construction/mpp-javg-amp-local-energy-conversion-attempt-note.md
 - theorem-construction/mpp-javg2-active-shell-gain-to-carleson-note.md
 - theorem-construction/mpp-jet-to-finite-difference-bridge-theorem.md
+- theorem-construction/mpp-jump-avg-active-window-gain-reduction-note.md
 - theorem-construction/mpp-jump-avg-branch-native-noescape-hard-wall-note.md
+- theorem-construction/mpp-jump-avg-final-active-window-source-wall-note.md
 - theorem-construction/mpp-jump-avg-no-field-branch-elimination-audit-note.md
 - theorem-construction/mpp-law-endpoint-proof-matrix-note.md
 - theorem-construction/mpp-law13-surviving-endpoint-exclusion-program.md
@@ -1140,6 +1142,7 @@ published_files:
 - theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
 - theorem-construction/mpp-material-packet-closure-program.md
 - theorem-construction/mpp-mq-local-membership-canonical-surface.md
+- theorem-construction/mpp-nonlinear-shell-flux-source-theorem-attempt-note.md
 - theorem-construction/mpp-normal-covector-witness-to-readout-theorem.md
 - theorem-construction/mpp-object-law-corpus-refoundation.md
 - theorem-construction/mpp-ofp-dtc-compactness-scaling-circularity-audit-note.md
@@ -1150,6 +1153,7 @@ published_files:
 - theorem-construction/mpp-ontological-terminal-survivor-exhaustiveness.md
 - theorem-construction/mpp-open-dead-patch-rigidity-theorem.md
 - theorem-construction/mpp-opr-completion-route-options-note.md
+- theorem-construction/mpp-original-data-to-awg-attempt-note.md
 - theorem-construction/mpp-original-smooth-data-production-proof-attempt-and-hfg-reduction.md
 - theorem-construction/mpp-pack-part-field-canonicality-reduction-note.md
 - theorem-construction/mpp-pack-part-field-primitive-minimality-note.md

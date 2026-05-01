@@ -18,6 +18,9 @@ May 1 MCP reattempts are recorded in:
 - `mpp-javg-amp-local-energy-conversion-attempt-note.md`
 - `mpp-aag-original-data-active-shell-attempt-note.md`
 - `mpp-jump-avg-active-window-gain-reduction-note.md`
+- `mpp-nonlinear-shell-flux-source-theorem-attempt-note.md`
+- `mpp-jump-avg-final-active-window-source-wall-note.md`
+- `mpp-jump-avg-active-window-gain-reduction-note.md`
 - `mpp-original-data-to-awg-attempt-note.md`
 
 The target remains
@@ -328,3 +331,21 @@ production and scale-normalized upper control.
 
 No current note may promote `Jump_avg` elimination without one of these
 theorems.
+
+The May 1 continuation collapses these alternatives to the single active-window
+source-normalization target:
+
+```math
+OriginalSmoothData\Longrightarrow AWG.A.
+```
+
+Under `AWG.A`,
+
+```math
+AWG.A\Longrightarrow JAVG.1+JAVG.2\Longrightarrow(Jump_{avg}\Rightarrow\bot).
+```
+
+The currently missing source theorem is exactly a heat-scale square-source,
+direct active-square / active-window Carleson, signed weighted
+lifted-remainder-plus-residual-tail, or monotone/source-dominance theorem
+forbidding source-balanced active pulses.
