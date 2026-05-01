@@ -513,6 +513,7 @@ published_files:
 - theorem-construction/mcp-active-shell-amplitude-gain-source-normalization-obstruction-active-shell-amplitude-gain-09ae95f994.md
 - theorem-construction/mcp-active-shell-source-normalization-obstruction-active-shell-source-normalization-fdd05c46cc.md
 - theorem-construction/mcp-active-square-residual-tail-theorem-obstruction-active-square-residual-tail-theorem-6553e8f1da.md
+- theorem-construction/mcp-active-window-amplitude-gain-hard-obstruction-jump-avg-branch-elimination-a4f8f27ccf.md
 - theorem-construction/mcp-affine-excess-coefficient-dependence-audit.md
 - theorem-construction/mcp-affine-pressure-normalization-compatibility-lemma-846fdf37af.md
 - theorem-construction/mcp-aligned-alpha-moving-threshold-measure-boundary-db53457065.md
@@ -612,6 +613,7 @@ published_files:
 - theorem-construction/mcp-compressed-periodic-navier-stokes-theorem-chain-cfi-a-eb0637f226.md
 - theorem-construction/mcp-compressed-whole-space-r3-conditional-theorem-and-analytic-gap-exh-r3-17be03dcd1.md
 - theorem-construction/mcp-concrete-rate-estimate-boundary-for-aligned-alpha-517306d7ef.md
+- theorem-construction/mcp-conditional-final-charge-upper-control-from-active-window-gain-jump-avg-branch-elimination-fe03f0dfc4.md
 - theorem-construction/mcp-conditional-jump_avg-no-escape-from-nu_scf-carleson-control-jump_avg-branch-elimination-a3978562ed.md
 - theorem-construction/mcp-conditional-pctp-hard-discharge-modulo-nu_scf-carleson-cfi-a-5e972c869b.md
 - theorem-construction/mcp-continuum-coherent-sector-replacement-theorem-note-read-end-97bea7829a.md
