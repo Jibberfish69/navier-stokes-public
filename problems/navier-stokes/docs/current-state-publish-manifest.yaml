@@ -602,6 +602,7 @@ published_files:
 - theorem-construction/mcp-compressed-periodic-navier-stokes-theorem-chain-cfi-a-eb0637f226.md
 - theorem-construction/mcp-compressed-whole-space-r3-conditional-theorem-and-analytic-gap-exh-r3-17be03dcd1.md
 - theorem-construction/mcp-concrete-rate-estimate-boundary-for-aligned-alpha-517306d7ef.md
+- theorem-construction/mcp-conditional-jump_avg-no-escape-from-nu_scf-carleson-control-jump_avg-branch-elimination-a3978562ed.md
 - theorem-construction/mcp-continuum-coherent-sector-replacement-theorem-note-read-end-97bea7829a.md
 - theorem-construction/mcp-convective-weighted-flux-bound-for-moment-w-34dd16d732.md
 - theorem-construction/mcp-corrected-high-high-absorption-via-enstrophy-half-tail-8c28e55d7d.md
@@ -761,6 +762,8 @@ published_files:
 - theorem-construction/mcp-normalized-finite-window-aligned-rate-split-ad0c034ce6.md
 - theorem-construction/mcp-normalized-material-cone-rate-theorem-5ca183ec07.md
 - theorem-construction/mcp-normalized-short-window-carrier-mismatch-rate-theorem-89c294642c.md
+- theorem-construction/mcp-nu_scf-scale-normalized-carleson-upper-estimate-obstruction-scale-normalized-carleson-upper-estimate-for-nu_scf-95c4eb720a.md
+- theorem-construction/mcp-nuscfc-final-charge-pressure-source-upper-bound-jump-avg-branch-elimination-f64b5014ad.md
 - theorem-construction/mcp-official-target-scope-torus-surface.md
 - theorem-construction/mcp-ordered-direct-attack-on-seven-sg4-tps-source-estimates-ep-a-ce13d6287e.md
 - theorem-construction/mcp-ordered-qsp-11r-to-sg-4b-branch-local-completion-attempt-18d72fe7d8.md
@@ -789,6 +792,7 @@ published_files:
 - theorem-construction/mcp-pctp-hard-discharge-via-averaged-terminal-tail-uniformization-avg-end-a-a92107787f.md
 - theorem-construction/mcp-pctp-hard-final-obstruction-and-ttu-target.md
 - theorem-construction/mcp-pctp-hard-isolated-terminal-tail-obstruction.md
+- theorem-construction/mcp-pctp-hard-jump_avg-nu_scf-lower-mass-attempt-pctp-hard-terminal-tail-production-ce902985f9.md
 - theorem-construction/mcp-pctp-hard-next-targets-and-scf-charge-upper-carrier-pctp-hard-terminal-tail-production-ff5624245d.md
 - theorem-construction/mcp-pctp-hard-paper-grade-proof.md
 - theorem-construction/mcp-pctp-hard-regenerated-matrix-pass.md
