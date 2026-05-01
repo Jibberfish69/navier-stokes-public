@@ -30,8 +30,8 @@ source_summary:
     modified_at: '2026-04-29T19:14:09Z'
   theorem_authority_frontier:
     total_obligations: 29
-    blocking_count: 4
-    frontier_count: 4
+    blocking_count: 3
+    frontier_count: 3
     all_discharged: false
   review_verdict:
     verdict: revise

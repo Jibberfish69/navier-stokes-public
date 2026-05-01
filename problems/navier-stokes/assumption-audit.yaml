@@ -21,7 +21,7 @@ source:
 summary:
   matrix_assumptions_discharged: true
   blocking_or_unresolved_matrix_count: 0
-  release_blocking_count: 4
+  release_blocking_count: 3
   theorem_2_1_scope: class-membership closure warrant
   clay_full_mpp_scope: submission-candidate
 findings:

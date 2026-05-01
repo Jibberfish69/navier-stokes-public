@@ -1,5 +1,14 @@
 # FIRP.A0 exact same-depth discharge via fixed-threshold weighted-shell absorption
 
+## Status
+
+Unpromoted local proof attempt. This file records a proposed fixed-threshold
+argument for `FIRP.A0`, but the installed exact reduction note
+`mpp-fixed-increment-resonant-pressure-integrability-note.md` still treats
+`FIRP.A0` as open. Do not cite this note as a promoted closure of the exact
+pressure branch unless a separate route audit accepts the fixed-threshold
+weighted-shell absorption step.
+
 ## Target
 
 Prove the exact same-depth pressure branch
@@ -136,15 +145,20 @@ For the finite frozen net `\Xi_{\rho,\psi}^\varepsilon(I)=\{\eta^\ell\}_{\ell=1}
 
 which is `FPCR.C`.
 
-## Verdict
+## Local Attempt Verdict
 
-The exact same-depth pressure branch is discharged at fixed finite theorem depth and fixed scheduler threshold:
+If the fixed-threshold weighted-shell absorption step is accepted, the exact
+same-depth pressure branch would be discharged at fixed finite theorem depth and
+fixed scheduler threshold:
 
 ```math
 FIRP.A0\Longrightarrow FPCR.C.
 ```
 
-This closes the exact pressure-source supplier line for `pressure-source-supplier-line-by-line` without using the strengthened `FFSRC.A` replacement route.
+This would close the exact pressure-source supplier line for
+`pressure-source-supplier-line-by-line` without using the strengthened
+`FFSRC.A` replacement route. The current source-supplier audit does not promote
+that conclusion.
 
 ## Scope
 

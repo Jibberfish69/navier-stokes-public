@@ -14,7 +14,7 @@ signals:
   default_mode: theorem-open
   proof_bearing_source: true
   manuscript_classification: proof-manuscript
-  blocking_count: 4
+  blocking_count: 3
   theorem_upgrade_required: true
   source_note_count: 1
   paper_quality_pass: true

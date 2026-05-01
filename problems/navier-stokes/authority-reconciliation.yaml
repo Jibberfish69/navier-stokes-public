@@ -17,7 +17,7 @@ inputs:
 summary:
   proof_ready: false
   matrix_blocking_count: 1
-  bridge_discharge_blocking_count: 4
+  bridge_discharge_blocking_count: 3
   theorem_packet_export_ready: false
   target_fidelity_terminal_safe: false
   target_fidelity_class: authority-conflict

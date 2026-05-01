@@ -11,7 +11,7 @@ source:
   theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
 summary:
   node_count: 25
-  blocking_count: 4
+  blocking_count: 3
   all_discharged: false
 nodes:
 - id: theorem-statement
