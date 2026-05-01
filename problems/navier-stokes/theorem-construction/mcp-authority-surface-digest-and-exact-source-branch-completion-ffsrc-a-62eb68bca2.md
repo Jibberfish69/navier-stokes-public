@@ -40,7 +40,9 @@ SCF_{base}+SGC.A_{a.e.}+ATD_m^\varepsilon
 => \cdots => CFI.A_{avg} => AVG.MAIN.A.
 ```
 
-The post-`LCI.A` source branch is the branch solved in this note.
+The post-`LCI.A` source branch is the branch surveyed in this note. Its exact
+pressure closure is not promoted here; the selected route uses the strengthened
+source import `FFSRC.A=>FCI.5f`.
 
 ## Exact source target
 
@@ -75,7 +77,9 @@ The new write
 problems/navier-stokes/theorem-construction/mcp-firp-a0-ffsrc-a-17084be8a3.md
 ```
 
-claims and records `FIRP.A0` at fixed finite theorem depth and fixed scheduler threshold.
+records a proposed fixed-threshold proof of `FIRP.A0`, but that claim is now
+classified as an unpromoted local attempt. The installed exact reduction note
+still treats `FIRP.A0` as open.
 
 By finite frozen-net summation over
 
@@ -83,7 +87,7 @@ By finite frozen-net summation over
 \Xi_{\rho,\psi}^\varepsilon(I)=\{\eta^\ell\}_{\ell=1}^{M_\varepsilon},
 ```
 
-this gives
+acceptance of that local attempt would give
 
 ```math
 FPCR.C:
@@ -92,7 +96,7 @@ FPCR.C:
 
 ## Strain/cascade channel
 
-`FSCR.C` supplies
+The exact same-depth `FSCR.C` target would supply
 
 ```math
 \mathcal N^{sc}\in L^1(I).
@@ -116,7 +120,7 @@ Insert the three source-channel estimates into the frozen-family source split:
 \mathcal N^{press}+\mathcal N^{sc}+\mathcal N^{cut}.
 ```
 
-Therefore
+Therefore, if the exact pressure and strain/cascade walls are accepted,
 
 ```math
 \mathcal N^{src}\in L^1(I),
@@ -128,7 +132,7 @@ which is exactly
 FCI.5f.
 ```
 
-Thus
+Thus the stricter exact reconstruction remains the conditional branch
 
 ```math
 FPCR.C/FIRP.A0+FSCR.C+FCC.C1
@@ -144,8 +148,12 @@ The stronger source import
 FFSRC.A => FCI.5f
 ```
 
-remains a valid conditional import when cited. The exact branch above now closes through `FIRP.A0`, so this note does not spend `FFSRC.A` as a replacement for the exact pressure wall.
+is the route-selected supplier import when cited. The exact branch above does
+not close through `FIRP.A0` unless the separate fixed-threshold local attempt is
+accepted, so this note cannot outrank the installed `FIRP.A0` open-wall status.
 
 ## Remaining live work
 
-The source branch row is discharged. The remaining live theorem-facing work lies in `Jump_avg` branch elimination and terminal-tail production assembly.
+The source branch row is discharged for `FFSRC.A=>FCI.5f`. The stricter exact
+source reconstruction remains separate. The remaining live theorem-facing work
+lies in `Jump_avg` branch elimination and terminal-tail production assembly.

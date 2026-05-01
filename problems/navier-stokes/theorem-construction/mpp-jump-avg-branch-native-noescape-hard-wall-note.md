@@ -17,6 +17,8 @@ May 1 MCP reattempts are recorded in:
 - `mpp-active-square-terminal-charge-audit-note.md`
 - `mpp-javg-amp-local-energy-conversion-attempt-note.md`
 - `mpp-aag-original-data-active-shell-attempt-note.md`
+- `mpp-jump-avg-active-window-gain-reduction-note.md`
+- `mpp-original-data-to-awg-attempt-note.md`
 
 The target remains
 
@@ -273,17 +275,56 @@ on the same terminal schedule, or
 for the same terminal schedule, with the enlarged charge then used on both
 sides.
 
+The active-window reduction note proves that these are not genuinely separate
+frontiers. The lower amplitude channel and the upper active-square channel are
+two faces of the same estimate:
+
+```math
+AWG.A:
+\quad
+\text{terminal active-window gain / heat-scale square-source control}.
+```
+
+In theorem-facing form,
+
+```math
+AWG.A
+\Longrightarrow
+JAVG.1+JAVG.2
+\Longrightarrow
+(Jump_{avg}\Rightarrow\bot).
+```
+
+Thus the live target may be written equivalently as
+
+```math
+\boxed{
+OriginalSmoothData\Longrightarrow AWG.A.
+}
+```
+
+The direct original-data attempt is recorded in
+`mpp-original-data-to-awg-attempt-note.md`. It fails at the no-hopping /
+square-source wall:
+
+```math
+NOHOP.A
+\quad\text{or equivalently}\quad
+\text{heat-scale square-source / active-window Carleson control}.
+```
+
 ## Verdict
 
 `Jump_avg` remains open, but the hard wall is now exact:
 
 ```math
 \boxed{
-\text{prove same-carrier lower production and scale-normalized upper control,}
+\text{prove active-window gain / no-hopping,}
 }
 ```
 
-or install an equivalent `E_u` conversion/additive-carrier theorem.
+or install an equivalent same-carrier theorem that supplies both lower
+production and scale-normalized upper control.
 
 No current note may promote `Jump_avg` elimination without one of these
 theorems.
