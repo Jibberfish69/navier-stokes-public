@@ -738,6 +738,7 @@ published_files:
 - theorem-construction/mcp-jump_avg-branch-elimination-direct-route-obstruction-aact-kx-6e96200b80.md
 - theorem-construction/mcp-jump_avg-defect-charge-pressure-source-upper-bound-obstruction-ffsrc-a-e46335c312.md
 - theorem-construction/mcp-jump_avg-separated-positive-defect-charge-lower-bound-obstruction-jump_avg-to-separated-positive-defect-charge-lower-bound-dcd5b58afe.md
+- theorem-construction/mcp-jumpavg-final-audit-after-eu-and-recurrence-tests-jump-avg-branch-elimination-abf18b2ff8.md
 - theorem-construction/mcp-jumpavg-final-elimination-audit-after-threshold-extraction-jump-avg-branch-elimination-ab04250550.md
 - theorem-construction/mcp-jumpavg-threshold-scf-concentration-extraction-jump-avg-branch-elimination-de2b395025.md
 - theorem-construction/mcp-jumpexclusion-upstream-test.md
@@ -878,6 +879,7 @@ published_files:
 - theorem-construction/mcp-scfbase-pressure-defect-compatibility.md
 - theorem-construction/mcp-scfbase-pressure-oscillation-modulus-test.md
 - theorem-construction/mcp-separated-lower-accumulation-nuscf-obstruction-jump-avg-branch-elimination-2d309bc842.md
+- theorem-construction/mcp-separated-recurrence-final-charge-obstruction-jump-avg-branch-elimination-140e8ad8ec.md
 - theorem-construction/mcp-seven-loss-budgets-for-sg-4-tps-retained-family-ep-a-b4208cdf26.md
 - theorem-construction/mcp-seven-source-estimates-direct-terminal-attempt-ep-a-366ac73b59.md
 - theorem-construction/mcp-sg-4-tps-completion-attempt-sgh-c-84027bca7c.md
