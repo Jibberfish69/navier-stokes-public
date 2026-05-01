@@ -226,6 +226,14 @@ same-scale spill estimates do not install `MSC.BadAC`: they either require
 continuation-grade `QBound.A` or retain a coefficient term instead of proving
 absolute continuity of `\mathfrak B_N^\sigma(t)dt` on the spill-bad set.
 
+The pulse-charge route is recorded in
+`mpp-msc-pulsecharge-attempt-note.md`. It gives a valid heat-scale stopping-time
+localization of `Bad_N(\eta)`, but the charge lemma fails from the installed
+reserves: energy has only first-moment cost, the mixed boundary can be balanced
+by the spill source on bad windows, and the separated barrier packets cannot pay
+for order-one bad-pulse dissipation. Thus `PulseCharge.A` is route-equivalent
+to `MSC.BadAC` / `SOURCE.NO-PULSE.A`.
+
 ## Consequence for `Jump_avg`
 
 The branch-native theorem remains conditional:

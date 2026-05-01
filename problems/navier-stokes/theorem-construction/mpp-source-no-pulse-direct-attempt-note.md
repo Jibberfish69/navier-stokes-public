@@ -244,9 +244,15 @@ equivalent source-control presentations:
 - `MSC.Spill.NoPulse` mixed-shell spill-coefficient domination,
 - `MSC.BadAC` bad-set absolute continuity for the mixed bilinear dissipation
   measure,
+- `PulseCharge.A` for source-balanced bad heat-scale intervals,
 - pressure-strain depletion of active vortex stretching,
 - `Ancient.NoPulse` exclusion of nontrivial critical pulse limits.
 
 This is the closed primitive for the current branch. Further progress now
 requires proving `SOURCE.NO-PULSE.A` itself, not re-routing through an already
 audited supplier formulation.
+
+The consolidated terminal target stack is recorded in
+`mpp-source-no-pulse-terminal-target-stack-note.md`. It separates the installed
+pressure/source supplier cell `FFSRC.A=>FCI.5f` from the branch-native no-pulse
+atom and records `MSC.BadAC` as the sharpest current formulation.
