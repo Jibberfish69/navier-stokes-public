@@ -171,7 +171,7 @@ unless a later theorem installs a new `CM` bridge.
 
 ## Consequence
 
-The conditional averaged route can be recorded as:
+The older five-cell bookkeeping recorded the conditional averaged route as:
 
 ```math
 PCTP.5.A+PCTP.5.B+PCTP.5.C+PCTP.5.D+PCTP.5.E
@@ -181,10 +181,13 @@ TTU.A.
 ```
 
 After the source-supplier, no-`Jump_avg` averaged ACT globalization, and
-bridge-license audit discharges, the still-open mathematical cells are
-`PCTP.5.A` and `PCTP.5.C`. Until those two cells are discharged, `TTU.A`,
-`PCTP.hard`, full periodic Navier-Stokes closure, export readiness, and release
-readiness remain nonterminal.
+bridge-license audit discharges, `PCTP.5.A` remains a blocked output but is no
+longer an independent active primitive on the averaged route: by
+`mpp-pctp-hard-collapse-to-jumpavg-source-primitive.md`, branch-native
+`PCTP.5.C` supplies the no-jump input that triggers the TGC/AACT/AVG/READ
+assembly and produces `PCTP.hard / TTU.A`. Until `PCTP.5.C` is discharged,
+`TTU.A`, `PCTP.hard`, full periodic Navier-Stokes closure, export readiness, and
+release readiness remain nonterminal.
 
 ## Executable Target Queue After The Support Closures
 

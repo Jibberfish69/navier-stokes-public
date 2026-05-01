@@ -128,6 +128,66 @@ velocity products and supports the local pressure packets used downstream. It
 does not create a sign or monotone law for the nonlinear shell source. Pressure
 normalization therefore does not exclude source-balanced active pulses.
 
+## Post-PCTP-Collapse Route Status
+
+The dependency normalization
+`mpp-pctp-hard-collapse-to-jumpavg-source-primitive.md` now shows that the
+active averaged route closes terminal-tail production after branch-native
+`Jump_avg` elimination:
+
+```math
+AWG.A+TGC.A+AACT.Global.noJump+AVG.END.A+READ.END
+\Longrightarrow
+PCTP.hard/TTU.A.
+```
+
+Thus the current lane does not need an independent direct `Pack.TTU` proof
+unless the averaged TGC bridge is rejected. It needs the source atom in this
+note.
+
+The sharpest mixed-shell presentation is:
+
+```math
+MSC.Spill.NoPulse:
+\quad
+\int_0^{T_\ast}
+\sum_{N<j\le \ell}
+\gamma_j(t)\mathfrak B_{j,\ell}^\sigma(t)\,dt
+\le
+\varepsilon
+\int_0^{T_\ast}\mathfrak B_N^\sigma(t)\,dt
++C_\varepsilon2^{-2\delta N},
+```
+
+where
+
+```math
+\gamma_j(t):=2^{-j}\sum_{m=j-M}^{j+M}E_m(t).
+```
+
+The installed energy-dissipation surface gives only
+
+```math
+\int_0^{T_\ast}\sum_{j>N}\gamma_j(t)\,dt=o_N(1).
+```
+
+That is Lebesgue-time smallness of the spill coefficient. It does not imply
+absolute continuity of the target measure
+
+```math
+\mathfrak B_N^\sigma(t)\,dt
+```
+
+with respect to the large-coefficient set. The exact surviving obstruction is
+therefore:
+
+```math
+\boxed{
+\text{prove that mixed bilinear dissipation cannot concentrate on the same
+short windows where }\gamma_j\text{ is large.}
+}
+```
+
 ## Closed Direct Verdict
 
 The direct attempt reduces to the same primitive:
