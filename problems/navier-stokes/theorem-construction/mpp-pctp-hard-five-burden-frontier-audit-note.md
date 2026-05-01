@@ -83,6 +83,18 @@ must use a native lower-bound/upper-bound conflict, a terminal-cover
 contradiction, or another same-carrier mechanism that does not spend the field
 predicate whose failure defines the branch.
 
+The May 1 supplier audits now identify the active source atom for this cell as
+
+```math
+SOURCE.NO\text{-}PULSE.A
+\quad\text{or its mixed-shell presentation}\quad
+MSC.Spill.NoPulse.
+```
+
+The latter says that the mixed bilinear dissipation measure cannot concentrate
+on large spill-coefficient pulses. It is not installed from energy dissipation
+alone.
+
 ## PCTP.5.D — pressure/source supplier verification
 
 Expand and verify every source supplier used by the main proof:
@@ -186,7 +198,7 @@ are discharged for the selected route by the restart-scheduler cover theorem,
 the strengthened `FFSRC.A=>FCI.5f` source verification, and the bridge-license
 audit into `CM=Pack+Part+Field`.
 
-The remaining route-native queue is exactly:
+The active averaged-route primitive is now exactly:
 
 ```math
 \boxed{PCTP.5.C:\ OriginalSmoothData\Longrightarrow AWG.A/SOURCE.NO\text{-}PULSE.A}
@@ -198,19 +210,27 @@ which gives
 AWG.A\Longrightarrow JAVG.1+JAVG.2\Longrightarrow(Jump_{avg}\Rightarrow\bot),
 ```
 
-and
+and then, by `mpp-pctp-hard-collapse-to-jumpavg-source-primitive.md`,
 
 ```math
-\boxed{PCTP.5.A:\ OriginalSmoothData\Longrightarrow TTU.A}
+AWG.A+TGC.A+AACT.Global.noJump+AVG.END.A+READ.END
+\Longrightarrow PCTP.hard/TTU.A.
 ```
 
-with the direct subtarget
+Thus `PCTP.5.A` remains a release-facing blocked output, but on the active
+averaged route it is no longer an independent analytic primitive once
+`PCTP.5.C` is supplied.
+
+The direct pointwise fallback route remains:
 
 ```math
 Pack.TTU:
 \quad
 OriginalSmoothData\Longrightarrow S_{pack,Q}\in L^1([t_0,T_*)).
 ```
+
+That fallback should be pursued only if the averaged TGC/AACT/AVG/READ assembly
+is rejected or a new gap is found in the dependency collapse.
 
 There is also a stronger single-target presentation:
 
@@ -224,3 +244,8 @@ uniform periodic `H^1` bound and therefore gives the terminal continuation
 needed for `PCTP.5.A`. This is a valid compression, but it is stronger than the
 route-native class-membership package and should not be confused with a proof of
 the pack strain ledger `Pack.TTU`.
+
+By `mpp-mixed-shell-spill-coefficient-scheduler-attempt-note.md`,
+`QBound.A=>MSC.Spill.Close`; the unconditional mixed-shell route requires
+`MSC.Spill.NoPulse`, which is another presentation of the same source no-pulse
+atom rather than a separate discharged theorem.

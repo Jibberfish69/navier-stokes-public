@@ -365,3 +365,23 @@ QDrain.A\Longrightarrow QBound.A\Longrightarrow AWG.A
 
 Here `QDrain.A` is the missing one-sided enstrophy drain controlling the
 vortex-stretching cubic in the `Q(t)` identity. It is not currently installed.
+
+The mixed-shell identity gives one further equivalent presentation. The
+continuation note
+`mpp-mixed-shell-spill-coefficient-scheduler-attempt-note.md` proves
+
+```math
+QBound.A\Longrightarrow MSC.Spill.Close,
+```
+
+but the attempt to replace pointwise spill-coefficient smallness by
+energy-dissipation scheduling fails unless one proves
+
+```math
+MSC.Spill.NoPulse:
+\quad
+\text{mixed bilinear dissipation does not concentrate on large spill pulses}.
+```
+
+Thus the mixed-shell branch also closes back to the same active source
+no-pulse atom, rather than eliminating `Jump_avg` unconditionally.

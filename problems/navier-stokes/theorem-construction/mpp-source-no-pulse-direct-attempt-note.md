@@ -159,7 +159,8 @@ equivalent source-control presentations:
 - direct active-window Carleson,
 - signed weighted strain cancellation plus active-square residual-tail,
 - monotone/source-dominance for `F_j`,
-- `QDrain.A` one-sided enstrophy drain.
+- `QDrain.A` one-sided enstrophy drain,
+- `MSC.Spill.NoPulse` mixed-shell spill-coefficient domination.
 
 This is the closed primitive for the current branch. Further progress now
 requires proving `SOURCE.NO-PULSE.A` itself, not re-routing through an already

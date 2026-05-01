@@ -192,6 +192,24 @@ preterminal smoothness from original data, pressure Poisson structure, unweighte
 dyadic exchange, and the monotone-functional identity do not install
 `SOURCE.NO-PULSE.A` in the current repo.
 
+The mixed-shell alternate route is recorded in
+`mpp-mixed-shell-spill-coefficient-scheduler-attempt-note.md`. It proves the
+conditional closure
+
+```math
+QBound.A\Longrightarrow MSC.Spill.Close
+```
+
+and shows that the unconditional scheduler route requires
+
+```math
+MSC.Spill.NoPulse,
+```
+
+the domination theorem preventing mixed bilinear dissipation mass from
+concentrating on large spill-coefficient pulses. This is the mixed-shell
+presentation of the same source no-pulse atom.
+
 ## Consequence for `Jump_avg`
 
 The branch-native theorem remains conditional:

@@ -1173,6 +1173,7 @@ published_files:
 - theorem-construction/mpp-pctp-consumption-mq-export-release-consistency-note.md
 - theorem-construction/mpp-pctp-hard-bridge-license-into-cm-audit-note.md
 - theorem-construction/mpp-pctp-hard-canonical-v2-failure-modes-export-release-note.md
+- theorem-construction/mpp-pctp-hard-collapse-to-jumpavg-source-primitive.md
 - theorem-construction/mpp-pctp-hard-common-scheduler-verification.md
 - theorem-construction/mpp-pctp-hard-cover-degeneration-as-jump-avg.md
 - theorem-construction/mpp-pctp-hard-cover-degeneration-to-jumpavg-verification.md
