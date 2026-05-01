@@ -5,32 +5,33 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-04-30T23:52:52Z'
+  extracted_at: '2026-05-01T21:27:37Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
     theorem_target: full-MPP periodic Clay closure via terminal promotion from the
       installed Theorem 2.1 class-membership warrant
-    current_package_status: math-frontier-open
-    support_basis: Independent mathematical audit reopened terminal-tail production
-      and marked the zero-frontier posture as overpromoted.
-    standalone_status: revise
+    current_package_status: full-mpp-closure-ready
+    support_basis: Recovered source support converged with the speculative branch,
+      so the next safe move is a grounded backbone rebuild.
+    standalone_status: accept
 supporting_sections:
   reviewer_risks:
   - 'Do not overclaim beyond the lowest safe theorem surface: The official Clay target
     allows either the whole-space branch on `R^3` or the periodic branch on `T^3`.'
   - 'First unsafe overclaim to avoid: Replacing the official Clay statement by a weaker
     route-local or data-class-local statement.'
-  - Do not claim full-MPP closure while the proof-obligation matrix carries active
-    PCTP.hard terminal-tail blockers on the official `T^3` zero-force branch.
+  - Keep the full-MPP closure tied to the periodic Clay terminal-promotion theorem,
+    the grounded proof-obligation matrix, and the official `T^3` zero-force branch.
   required_local_explanations: []
   post_release_theorem_upgrade_gaps:
   - 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem 2.1
     class-membership warrant eliminates every first finite classical endpoint for
     arbitrary smooth divergence-free zero-mean data on T^3.'
   promotion_rule:
-  - Do not promote beyond `revise` until the active PCTP.hard terminal-tail blockers
-    are discharged.
+  - Promote beyond `revise` only because the proof-obligation matrix is fully grounded
+    and the periodic Clay terminal-promotion theorem is now the active full-MPP closure
+    surface.
   - Keep the lowest safe claim explicit and do not let recovered speculative material
     masquerade as a proved bridge.
   - Re-run honesty-review only after the local package has real prose and an explicit

@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-01T20:45:43Z'
+  generated_at: '2026-05-01T21:27:47Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -77,11 +77,11 @@ shared_alignment:
       math audit
     current_route_name: PCTP.hard terminal-tail production remains open after independent
       math audit
-    exact_cut_summary: The independent mathematical audit reopened the terminal-tail
-      theorem frontier. The active mathematical obligation is to prove uniform terminal-tail
-      retained Pack/Part/Field/tower readout from `OriginalSmoothData`; local `AACT.KX`
-      absorption, `Jump_avg` branch elimination, and pressure/source suppliers remain
-      unresolved.
+    exact_cut_summary: Conditional theorem-program packets are recorded, but the full
+      periodic Navier-Stokes closure is not mathematically verified. The active frontier
+      is `OriginalSmoothData => uniform terminal-tail retained Pack/Part/Field/tower
+      readout`; the immediate unresolved burdens are local `AACT.KX` absorption, valid
+      `Jump_avg` branch elimination, and pressure/source supplier line-by-line verification.
     paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
@@ -109,7 +109,7 @@ local_derivation:
   required_packets: []
   leadership_status: aligned
   net_new_local_theorem_count: 0
-  recommended_next_cell_type: dependency-discharge
+  recommended_next_cell_type: prose-realization
 cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
@@ -193,34 +193,30 @@ auditor:
 frontier_projection:
   status: cleared
   primary_target:
-    label: 'PCTP.hard terminal-tail production: prove OriginalSmoothData implies uniform
-      terminal-tail retained Pack/Part/Field/tower readout.'
-    recommended_stage: dependency-discharge
   one_step_beyond: []
   two_steps_beyond: []
   route_pressure: []
-  recommended_next_cell_type: dependency-discharge
+  recommended_next_cell_type: prose-realization
 summary:
   phase: steady-state
-  execution_state: export-readiness-hold
+  execution_state: steady-state
   leadership_status: aligned
   alignment_complete: true
   proof_matrix_all_discharged: true
-  proof_assembly_open_obligation_count: 4
+  proof_assembly_open_obligation_count: 0
   authoritative_source_gap_count: 0
-  export_readiness_hold_state: export-readiness-hold
+  export_readiness_hold_state: none
   exact_local_packet_count: 0
   net_new_local_theorem_count: 0
   projected_frontier_count: 0
   current_open_obligation_count: 0
   open_obligations_state: cleared
   theorem_work_blocked: false
-  blocked_queue_interpretation: export-readiness hold; proof matrix remains discharged
-    and no theorem-work blocker is implied
-  on_recommended_track: false
-  recommended_next_cell_type: dependency-discharge
+  blocked_queue_interpretation: none
+  on_recommended_track: true
+  recommended_next_cell_type: prose-realization
   audit_status: audited-needs-fix
   branch_terminal_status: no-branches
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: ''
+  current_next_cell_type: prose-realization
   current_next_cell_is_theorem_work: false

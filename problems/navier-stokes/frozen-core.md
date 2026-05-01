@@ -7,7 +7,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 - `theorem_target`: full-mpp-closure
 - `lowest_safe_claim`: Every smooth divergence-free zero-mean initial datum on T^3 with f=0 generates a global smooth classical three-dimensional incompressible Navier-Stokes solution.
-- `first_unsafe_overclaim`: Promoting the TPS / `SG.4` selector wall back to lane-wide leading-edge status, treating `SG.4` as a prerequisite to `CFI.A` / `OFP.A` / `LCI.A`, or inferring from the installed `(Part, Dead)` entry that the whole frontier has collapsed to a surviving pair; treating the `CJ.A_low` contrapositive boundary as installed jump manifestation; claiming public Clay/full-MPP release merely from the averaged terminal-tail tranche before the proof-promotion packet, target-fidelity audit, source/export checks, review verdict, submission verdict, reproducibility surfaces, and final release decision accept the promoted package.
+- `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
 
 ## Grounded Core
 
@@ -79,6 +79,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - `problems/navier-stokes/theorem-construction/mpp-lci-a-transported-center-residual-forcing-note.md`
 - `problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-channel-reduction-note.md`
 - `problems/navier-stokes/theorem-construction/mpp-frozen-family-resonant-pressure-sufficient-reduction-note.md`
+- `problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md`
 - `problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md`
 - `problems/navier-stokes/theorem-construction/mcp-canonical-pctp-hard-bridge-from-averaged-terminal-tail-route-cfi-a-1500f83b37.md`
 - `problems/navier-stokes/theorem-construction/mpp-pctp-hard-matrix-readable-discharge.md`

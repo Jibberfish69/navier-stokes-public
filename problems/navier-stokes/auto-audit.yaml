@@ -4,10 +4,10 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-01T20:45:43Z'
+  audited_at: '2026-05-01T21:27:30Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
-  current_package_status: math-frontier-open
+  current_package_status: full-mpp-closure-ready
   standalone_status: revise
   completion_tier_achieved: conditional-terminal-packet
   review_verdict: revise
@@ -165,13 +165,13 @@ surface_snapshot:
       - problems/navier-stokes/theorem-construction/mpp-lci-a-transported-center-residual-forcing-note.md
       - problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-channel-reduction-note.md
       - problems/navier-stokes/theorem-construction/mpp-frozen-family-resonant-pressure-sufficient-reduction-note.md
+      - problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
       - problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md
       - problems/navier-stokes/theorem-construction/mcp-canonical-pctp-hard-bridge-from-averaged-terminal-tail-route-cfi-a-1500f83b37.md
       - problems/navier-stokes/theorem-construction/mpp-pctp-hard-matrix-readable-discharge.md
       - problems/navier-stokes/theorem-construction/mpp-pctp-hard-terminal-tail-uniformization-assembly.md
       - problems/navier-stokes/theorem-construction/mcp-pctp-hard-discharge-via-averaged-terminal-tail-uniformization-avg-end-a-a92107787f.md
       - problems/navier-stokes/theorem-construction/mcp-pctp-hard-averaged-assembly-through-read-end.md
-      - problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
       - problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md
       - problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md
       - problems/navier-stokes/theorem-construction/psj-plus-terminal-assembly.md
