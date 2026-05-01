@@ -748,6 +748,7 @@ published_files:
 - theorem-construction/mcp-jump_avg-branch-elimination-direct-route-obstruction-aact-kx-6e96200b80.md
 - theorem-construction/mcp-jump_avg-defect-charge-pressure-source-upper-bound-obstruction-ffsrc-a-e46335c312.md
 - theorem-construction/mcp-jump_avg-separated-positive-defect-charge-lower-bound-obstruction-jump_avg-to-separated-positive-defect-charge-lower-bound-dcd5b58afe.md
+- theorem-construction/mcp-jumpavg-final-audit-after-active-window-gain-reduction-jump-avg-branch-elimination-473496bb03.md
 - theorem-construction/mcp-jumpavg-final-audit-after-conditional-eu-route-jump-avg-branch-elimination-8f6369a401.md
 - theorem-construction/mcp-jumpavg-final-audit-after-eu-and-recurrence-tests-jump-avg-branch-elimination-abf18b2ff8.md
 - theorem-construction/mcp-jumpavg-final-audit-after-original-data-eu-obstruction-jump-avg-branch-elimination-68ea9ffdad.md
@@ -777,6 +778,7 @@ published_files:
 - theorem-construction/mcp-maximal-hardening-pass-on-seven-sg4-tps-source-estimates-ep-a-bd2df82e04.md
 - theorem-construction/mcp-minimal-dependency-graph-for-averaged-pctp-hard-route-dtc-a-6ec61a7517.md
 - theorem-construction/mcp-minimal-final-lemma-inventory-ecq-a-d69389d993.md
+- theorem-construction/mcp-monotone-source-dominance-theorem-obstruction-monotone-source-dominance-theorem-b2f48373cf.md
 - theorem-construction/mcp-moving-concentration-compactness-test.md
 - theorem-construction/mcp-moving-cylinder-ckn-admissibility-lemma-f2a546e26f.md
 - theorem-construction/mcp-near-pressure-summability-from-weighted-annular-l4-source-82ac41a679.md
