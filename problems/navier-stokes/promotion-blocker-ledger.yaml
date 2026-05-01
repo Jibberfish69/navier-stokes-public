@@ -44,14 +44,17 @@ resolved_blockers:
 remaining_release_gates:
 - prove PCTP.hard terminal-tail uniformization
 - prove AWG.A / NOHOP.A active-window source normalization (supplier ladder
-  closed in mpp-awg-supplier-ladder-closure-note.md), then eliminate Jump_avg
-  without assuming Field_avg on the Jump_avg branch
+  closed in mpp-awg-supplier-ladder-closure-note.md and deep source frontier
+  closed in mpp-awg-deep-source-frontier-closure-note.md to
+  SOURCE.NO-PULSE.A), then eliminate Jump_avg without assuming Field_avg on the
+  Jump_avg branch
 side_sandbox_status:
   hfg_low: threshold-discharged
   hfg_alt: no-free-gap; surviving primitive is MEG
 claim_boundary:
   current_safe_claim: Conditional theorem-program packets are installed, but
     PCTP.hard / TTU.A remains blocked by terminal-tail production and
-    branch-native Jump_avg elimination.
+    branch-native Jump_avg elimination, whose supplier ladder now closes to
+    SOURCE.NO-PULSE.A nonlinear shell-flux/source no-pulse control.
   prohibited_claim: full periodic Navier-Stokes closure, export readiness, or
     submission readiness before the remaining PCTP.hard burdens are discharged.
