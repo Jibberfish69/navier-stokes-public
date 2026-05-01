@@ -25,7 +25,7 @@ sha1=0f74c1242c626dcc061d4183065b4e4970e0029d
 ```
 
 ```text
-problems/navier-stokes/proof-obligation-matrix.yaml
+problems/navier-stokes/source-frontier.yaml
 sha1=5f8063efddb303946dd838c615bcf2a43d957abb
 ```
 

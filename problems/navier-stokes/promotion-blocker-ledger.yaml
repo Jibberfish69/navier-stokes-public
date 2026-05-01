@@ -13,8 +13,8 @@ status:
   release_approved: false
   acceptance_test: prove-pctp-hard
 source_reads:
-  proof_obligation_matrix:
-    path: problems/navier-stokes/proof-obligation-matrix.yaml
+  theorem_authority_frontier:
+    path: problems/navier-stokes/source-frontier.yaml
     total_obligations: 24
     blocking_count: 1
     bridge_pending_count: 0

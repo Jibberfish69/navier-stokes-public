@@ -14,15 +14,15 @@ export_bundle_verified: true
 promotion_packet_blocked: false
 checks:
   theorem_warrant_aligned: true
-  proof_obligation_matrix_closed: true
+  theorem_authority_closed: true
   review_verdict_accept: true
   submission_verdict_ready: true
   paper_quality_pass: false
   hfg_side_sandbox_quarantined: true
 summary:
   total_obligations: 25
-  blocking_count: 4
-  frontier_count: 4
+  blocking_count: 3
+  frontier_count: 3
   all_discharged: false
 blockers: []
 
@@ -33,4 +33,3 @@ truth_alignment:
   - pctp-hard-terminal-tail-production
   - aact-kx-local-absorption
   - jump-avg-branch-elimination
-  - pressure-source-supplier-line-by-line

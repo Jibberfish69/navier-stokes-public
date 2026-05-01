@@ -8,6 +8,16 @@ This note does not eliminate `Jump_avg`. It records the bounded self-attempts
 already checked and narrows the live mathematical burden to the exact shared
 charge problem.
 
+May 1 MCP reattempts are recorded in:
+
+- `mpp-jump-avg-no-field-branch-elimination-audit-note.md`
+- `mpp-component-selection-scfbase-to-nuscf-audit-note.md`
+- `mpp-scale-normalized-nuscf-carleson-audit-note.md`
+- `mpp-eu-replacement-charge-audit-note.md`
+- `mpp-active-square-terminal-charge-audit-note.md`
+- `mpp-javg-amp-local-energy-conversion-attempt-note.md`
+- `mpp-aag-original-data-active-shell-attempt-note.md`
+
 The target remains
 
 ```math
@@ -132,6 +142,29 @@ SCF_{base}\text{ threshold}
 
 under the current surfaces.
 
+The bounded direct test is recorded in
+`mpp-javg-affine-poincare-component-selection-attempt-note.md`. Its native
+estimate is
+
+```math
+R^{-2}\iint|u-u_R^{aff}|^3
+\le
+C(A_R^{aff}D_R)^{3/4},
+```
+
+so the velocity part of `SCF_base` creates an affine-amplitude channel
+`A_R^{aff}`. This gives the exact replacement target
+
+```math
+JAVG.Amp:
+\quad
+A_R^{aff}\text{ terminal threshold}
+\Longrightarrow
+D_R+P_R^{loc}\text{ mass on a comparable same-fluid window}.
+```
+
+No current surface proves `JAVG.Amp`.
+
 ## Failed Enlarged-Charge Route
 
 One could enlarge the charge to include `E_u`:
@@ -205,6 +238,22 @@ C(E_0,\text{source},\text{atlas})
 ```
 
 for the same separated or bounded-overlap terminal windows.
+
+The conditional upper-side bridge is installed in
+`mpp-javg2-active-shell-gain-to-carleson-note.md`:
+
+```math
+AAG.A\Longrightarrow JAVG.2.
+```
+
+The unsolved part is not this bridge. It is the active-shell amplitude gain
+itself:
+
+```math
+OriginalSmoothData\Longrightarrow AAG.A,
+```
+
+or an equivalent heat-scale square-source / direct active-square theorem.
 
 Equivalently, one may replace `JAVG.1` and `JAVG.2` by either of the following
 single-carrier repairs:

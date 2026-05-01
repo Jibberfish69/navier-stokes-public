@@ -25,7 +25,7 @@ search_scope:
     - problems/navier-stokes/review-log.md
     - problems/navier-stokes/formalization-ledger.md
     - problems/navier-stokes/theorem-packet.yaml
-    - problems/navier-stokes/proof-obligation-matrix.yaml
+    - problems/navier-stokes/source-frontier.yaml
     - problems/navier-stokes/source-frontier.yaml
     - problems/navier-stokes/frozen-core.md
     - problems/navier-stokes/extension-branches.yaml

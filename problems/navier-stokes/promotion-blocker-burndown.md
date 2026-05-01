@@ -36,7 +36,7 @@ Generated from the current `proof_promotion_packet` fallback route through `ask_
 | Blocking | 49 |
 | All discharged | false |
 
-Current matrix artifact: `problems/navier-stokes/proof-obligation-matrix.yaml`  
+Current matrix artifact: `problems/navier-stokes/source-frontier.yaml`  
 SHA: `88f18f065a549f8042b76cce9ac7c7ff3453d06c`
 
 Current route graph artifact: `problems/navier-stokes/layered-route-graph.yaml`  

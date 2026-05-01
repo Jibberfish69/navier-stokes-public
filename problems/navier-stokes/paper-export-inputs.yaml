@@ -12,7 +12,7 @@ export_planes:
     - problems/navier-stokes/theorem-packet.yaml
     - problems/navier-stokes/proof-assembly.yaml
     - problems/navier-stokes/source-frontier.yaml
-    - problems/navier-stokes/proof-obligation-matrix.yaml
+    - problems/navier-stokes/source-frontier.yaml
     - problems/navier-stokes/authority-reconciliation.yaml
     - problems/navier-stokes/route-hypothesis.yaml
     - problems/navier-stokes/object-formalization.yaml
@@ -47,8 +47,8 @@ inputs:
     role: proof-assembly
   - path: problems/navier-stokes/source-frontier.yaml
     role: source-frontier
-  - path: problems/navier-stokes/proof-obligation-matrix.yaml
-    role: proof-obligation-matrix
+  - path: problems/navier-stokes/source-frontier.yaml
+    role: source-frontier
   - path: problems/navier-stokes/authority-reconciliation.yaml
     role: authority-reconciliation
   - path: problems/navier-stokes/route-hypothesis.yaml

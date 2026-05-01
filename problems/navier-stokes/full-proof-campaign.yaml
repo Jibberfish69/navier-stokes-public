@@ -66,7 +66,7 @@ phases:
     status: completed
     outputs:
       - problems/navier-stokes/proof-assembly.yaml
-      - problems/navier-stokes/proof-obligation-matrix.yaml
+      - problems/navier-stokes/source-frontier.yaml
       - problems/navier-stokes/source-frontier.yaml
   - phase_id: external-release
     status: completed

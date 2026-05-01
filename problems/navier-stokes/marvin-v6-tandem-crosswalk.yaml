@@ -62,7 +62,7 @@ joint_frontier:
     local truth surfaces.
   local_chat2_frontier_surfaces:
   - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/proof-assembly.yaml"
-  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/proof-obligation-matrix.yaml"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-frontier.yaml"
   - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/dependency-discharge.yaml"
 what_chat_y_should_read_first:
 - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/proof-source-pack.md"

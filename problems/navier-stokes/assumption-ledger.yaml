@@ -12,7 +12,7 @@ status:
   release_eligible: false
   release_gate: proof-promotion-release-surface-reconciled
 source_evidence:
-  proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
+  theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_warrant: problems/navier-stokes/theorem-to-warrant.yaml
   main_result_section: problems/navier-stokes/external-paper/sections/main-result.tex
   h_layer_closure: problems/navier-stokes/theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
@@ -89,7 +89,7 @@ summary:
   blocking_or_unresolved_matrix_count: 0
   hfg_side_primitives_open:
   - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
-  release_blocking_count: 4
+  release_blocking_count: 3
 release_blockers: []
 required_next_actions: []
 generated_at: '2026-05-01T16:36:50Z'
@@ -102,4 +102,3 @@ truth_alignment:
   - pctp-hard-terminal-tail-production
   - aact-kx-local-absorption
   - jump-avg-branch-elimination
-  - pressure-source-supplier-line-by-line

@@ -28,7 +28,7 @@ source_summary:
     sha1: 3182d49d4443781aed2fdf480508afe7b41b1b18
     bytes: 19101258
     modified_at: '2026-04-29T19:14:09Z'
-  proof_obligation_matrix:
+  theorem_authority_frontier:
     total_obligations: 29
     blocking_count: 4
     frontier_count: 4
@@ -72,7 +72,7 @@ artifacts:
   sha1: 0f74c1242c626dcc061d4183065b4e4970e0029d
   bytes: 44868
   modified_at: '2026-04-30T23:54:18Z'
-- path: problems/navier-stokes/proof-obligation-matrix.yaml
+- path: problems/navier-stokes/source-frontier.yaml
   present: true
   sha1: 5f8063efddb303946dd838c615bcf2a43d957abb
   bytes: 24160
@@ -147,7 +147,6 @@ math_frontier_blockers:
 - pctp-hard-terminal-tail-production
 - aact-kx-local-absorption
 - jump-avg-branch-elimination
-- pressure-source-supplier-line-by-line
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
   status: release-blocked-by-math-frontier

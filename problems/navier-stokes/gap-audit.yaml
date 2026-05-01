@@ -11,7 +11,7 @@ release_eligible: false
 theorem_matrix:
   total_obligations: 25
   grounded_count: 25
-  blocking_count: 4
+  blocking_count: 3
   all_discharged: false
 release_gaps: []
 side_sandbox_gaps:
@@ -29,4 +29,3 @@ truth_alignment:
   - pctp-hard-terminal-tail-production
   - aact-kx-local-absorption
   - jump-avg-branch-elimination
-  - pressure-source-supplier-line-by-line

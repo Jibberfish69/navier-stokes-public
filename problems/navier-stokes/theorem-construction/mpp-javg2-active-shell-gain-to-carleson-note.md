@@ -1,0 +1,228 @@
+# MPP JAVG.2 Active-Shell Gain To Carleson Note
+
+## Status
+
+Theorem-facing conditional discharge of the upper side of the `Jump_avg`
+no-escape route.
+
+This note proves:
+
+```math
+AAG.A
+\Longrightarrow
+JAVG.2.
+```
+
+It does not prove `AAG.A` from `OriginalSmoothData`.
+
+## Target
+
+For the final pressure/dissipation charge
+
+```math
+\nu_{SCF}
+=
+|\nabla u|^2\,dx\,dt
++
+\sum_\chi |p_\chi^{loc}|^{3/2}\,dx\,dt,
+```
+
+`JAVG.2` asks for a scale-normalized upper estimate on separated terminal
+same-fluid windows:
+
+```math
+\sum_\ell SCF_{norm}(Q_\ell)
+\le
+C(E_0,\nu,\text{atlas},\text{source}).
+```
+
+Raw finite mass gives only
+
+```math
+\sum_\ell \nu_{SCF}(Q_\ell)\le C\nu_{SCF}(\text{total}),
+```
+
+which is not scale-normalized and is therefore insufficient.
+
+## Active-Shell Gain Hypothesis `AAG.A`
+
+Let `Q_\ell` have radius `r_\ell\simeq 2^{-k_\ell}`. Assume the terminal atlas
+has the shell-to-window comparison
+
+```math
+SCF_{norm}(Q_\ell)
+\le
+C\int_{I_\ell}\sum_{j\ge k_\ell-C_0}2^{-j}D_j(t)^2\,dt
++R_\ell,
+\tag{AAG.1}
+```
+
+with
+
+```math
+\sum_\ell R_\ell\le C_R.
+```
+
+Assume active-shell amplitude gain:
+
+```math
+2^{-j}D_j(t)^2
+\le
+\varepsilon\nu D_j(t)+r_j(t),
+\tag{AAG.2}
+```
+
+and the reserve summability
+
+```math
+\int_{I_\ell}\sum_{j\ge k_\ell-C_0}r_j(t)\,dt
+\le
+C2^{-2\delta k_\ell}.
+\tag{AAG.3}
+```
+
+Finally assume heat-scale dissipation-tail control on active intervals:
+
+```math
+\int_{I_\ell}\sum_{j\ge k_\ell-C_0}D_j(t)\,dt
+\le
+C2^{2k_\ell}|I_\ell|.
+\tag{AAG.4}
+```
+
+## Theorem `JAVG.2|AAG`
+
+Under `(AAG.1)`--`(AAG.4)`, for every separated terminal window family
+`{Q_\ell}`,
+
+```math
+\boxed{
+\sum_\ell SCF_{norm}(Q_\ell)
+\le
+C(E_0,\nu,\text{atlas},C_R).
+}
+```
+
+## Proof
+
+Sum `(AAG.1)` over `\ell`. Bounded overlap and the finite terminal atlas reduce
+the sum to finitely many dyadic active-tail integrals:
+
+```math
+\sum_\ell SCF_{norm}(Q_\ell)
+\le
+C\sum_\ell
+\int_{I_\ell}\sum_{j\ge k_\ell-C_0}2^{-j}D_j(t)^2\,dt
++C_R.
+```
+
+Use `(AAG.2)`:
+
+```math
+\int_{I_\ell}\sum_{j\ge k_\ell-C_0}2^{-j}D_j^2
+\le
+\varepsilon\nu
+\int_{I_\ell}\sum_{j\ge k_\ell-C_0}D_j
++
+\int_{I_\ell}\sum_{j\ge k_\ell-C_0}r_j.
+```
+
+Apply `(AAG.3)`--`(AAG.4)`:
+
+```math
+\int_{I_\ell}\sum_{j\ge k_\ell-C_0}2^{-j}D_j^2
+\le
+C\varepsilon\nu\,2^{2k_\ell}|I_\ell|
++C2^{-2\delta k_\ell}.
+```
+
+For heat-scale terminal windows,
+
+```math
+|I_\ell|\simeq 2^{-2k_\ell}.
+```
+
+Separated or bounded-overlap terminal packing makes the first term summable,
+and the dyadic reserve term is summable. Therefore
+
+```math
+\sum_\ell SCF_{norm}(Q_\ell)
+\le
+C(E_0,\nu,\text{atlas},C_R).
+```
+
+This proves `JAVG.2` under `AAG.A`.
+
+## Why `AAG.A` Is Not Installed From Original Data
+
+`OriginalSmoothData` gives smoothness on compact preterminal intervals and the
+energy/dissipation ledgers
+
+```math
+u\in L_t^\infty L_x^2,
+\qquad
+\nabla u\in L^2_{t,x}.
+```
+
+These supply raw mass and fixed-shell preterminal control. They do not supply
+decay on terminal active shells whose frequencies drift to infinity as
+`t\uparrow T_\ast`.
+
+The scalar active-shell model
+
+```math
+E_j'(t)+c\nu 2^{2j}E_j(t)=F_j(t)
+```
+
+shows the obstruction. A source term can sustain an active amplitude on a
+heat-scale interval while preserving raw source/dissipation mass. The desired
+Carleson estimate needs square control
+
+```math
+\int_I 2^{-j}D_j(t)^2\,dt,
+```
+
+not only first-moment source or dissipation control.
+
+Thus `AAG.A` requires one of:
+
+```math
+\text{heat-scale square-source estimate},
+```
+
+```math
+\text{direct active-square Carleson theorem},
+```
+
+```math
+\text{terminal active-shell amplitude decay},
+```
+
+or
+
+```math
+\text{monotone-dominance law whose dissipation controls the active square}.
+```
+
+No current surface proves any of these from `OriginalSmoothData`.
+
+## Verdict
+
+The upper theorem is conditionally solved:
+
+```math
+\boxed{
+AAG.A\Longrightarrow JAVG.2.
+}
+```
+
+The remaining analytic target for the upper side is:
+
+```math
+\boxed{
+OriginalSmoothData\Longrightarrow AAG.A
+}
+```
+
+or any equivalent heat-scale square-source / direct active-square theorem.
+

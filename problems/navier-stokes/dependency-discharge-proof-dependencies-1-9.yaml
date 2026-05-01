@@ -16,7 +16,7 @@ claim_level:
     obligations. It does not assert standalone proof of HFG, physical-sector
     shadow-defect closure, whole-space export, or Clay-level release approval.
 source_refs:
-  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
   - problems/navier-stokes/theorem-construction/monotone-functional-bridge-discharge.md
   - problems/navier-stokes/theorem-construction/dyadic-shell-gain-lemma.md
@@ -133,5 +133,5 @@ expected_matrix_effect:
   proof-dependency-9: grounded
   blocking_count_delta: discharge all listed proof-dependency blockers when matrix builder consumes this surface
 validation:
-  next_command: rebuild proof-obligation-matrix and rerun Clay-level proof promotion packet
+  next_command: refresh source-frontier and rerun Clay-level proof promotion packet
   expected_promotion_result: still blocked until audits, ledgers, review, release decision, and reproducibility bundle pass

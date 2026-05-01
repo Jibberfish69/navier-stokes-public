@@ -22,6 +22,11 @@ FPCR.C\text{ exact pressure wall below }FIRP.A0.
 \tag{PCTP.SRC.0e}
 ```
 
+This note verifies the source suppliers at the route ledger level. It does not
+promote the stricter exact branch: `FIRP.A0` remains the exact pressure wall
+unless separately proved, and exact same-depth `FSCR.C` remains distinct from
+the post-`LCI.A` sufficient readout `FSCR.C_postLCI`.
+
 ## Source Split
 
 The frozen-family source ledger splits as
@@ -225,6 +230,11 @@ The pressure input is the packet-local widened bridge:
 The carrier `\mathfrak H^{press,loc}` must be read packet-locally: it includes
 the frozen packet multipliers and finite-difference/tower weights appearing in
 the packet pressure channel. A centerwise-only reading would reopen `FIPCB.A0`.
+Likewise, the post-`LCI.A` pressure bounds for the `LH/HL` and `RR` pieces are
+accepted here as the installed finite Leibniz/local pressure-response estimates
+`FFPB.A3`--`FFPB.A4`; a literal term-by-term pressure expansion would be a
+separate sharpening of that bridge, not an objection to the selected
+`FFSRC.A` import.
 
 After `(PCTP.SRC.16)`, `FFSC.C1` supplies
 
@@ -272,4 +282,3 @@ FCI.5f\quad\text{with }FSCR.C+FCC.C1.
 
 Thus `PCTP.5.D` is closed for the selected strengthened source branch and
 remains open only for a stricter exact-source-route reconstruction.
-

@@ -99,7 +99,7 @@ debt_items:
   - problems/navier-stokes/proof-assembly.yaml
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/source-frontier.yaml
   new_evidence_paths: []
   source_sufficiency: sufficient
   source_checks: 25
@@ -126,14 +126,14 @@ debt_items:
   - problems/navier-stokes/proof-assembly.yaml
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/formalization-ledger.md
   - problems/navier-stokes/frozen-core.md
   new_evidence_paths:
   - problems/navier-stokes/proof-assembly.yaml
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/formalization-ledger.md
   - problems/navier-stokes/frozen-core.md
   source_sufficiency: sufficient
@@ -161,14 +161,14 @@ debt_items:
   - problems/navier-stokes/proof-assembly.yaml
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/formalization-ledger.md
   - problems/navier-stokes/frozen-core.md
   new_evidence_paths:
   - problems/navier-stokes/proof-assembly.yaml
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/formalization-ledger.md
   - problems/navier-stokes/frozen-core.md
   source_sufficiency: sufficient
@@ -200,7 +200,7 @@ debt_items:
   - theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md
   - problems/navier-stokes/assumption-ledger.yaml
   - theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
-  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/source-frontier.yaml
   debt_class: packaging
   recommended_stage: prose-realization
   rationale: The ledger says the material already exists in a grounded, proved, or

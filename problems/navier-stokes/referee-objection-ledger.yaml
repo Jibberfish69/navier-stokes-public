@@ -16,7 +16,7 @@ objections:
 
   - objection_id: NS-O2
     severity: P0
-    location: draft-v7.md §§2–4; proof-obligation-matrix.yaml
+    location: draft-v7.md §§2–4; source-frontier.yaml
     objection: The function spaces, solution class, domain, and boundary/initial data for the “classical target class” are never specified; the bridge hypotheses reference energy, compactness, and gradient control without norms or regularity class, leaving the theorem statements ill-posed and unverifiable.
     owner_agent: NS-Theorem-Truth
     resolution_status: resolved
@@ -24,7 +24,7 @@ objections:
 
   - objection_id: NS-O3
     severity: P0
-    location: draft-v7.md §§3–6; proof-obligation-matrix.yaml
+    location: draft-v7.md §§3–6; source-frontier.yaml
     objection: The scale-barrier, nonlinear compactness, and gradient-control bridges are invoked as hypotheses with no derivations or references; proof-obligation entries are marked grounded despite notes that they are “not yet discharged,” so the main theorem lacks any supporting bridge proofs.
     owner_agent: NS-Scale-Barrier / NS-Compactness / NS-Gradient-Control
     resolution_status: resolved

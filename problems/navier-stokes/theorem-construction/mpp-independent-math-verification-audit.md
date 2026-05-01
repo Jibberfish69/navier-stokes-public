@@ -258,9 +258,14 @@ Under `aact-kx-local-absorption`, the proof still needs a replacement for the
 invalid step that absorbs a pointwise coefficient multiplying `N_R` using only
 `L^1_t` smallness of `V_R` and `P_R`.
 
-Under `pressure-source-supplier-line-by-line`, the proof still needs direct
-pressure/source estimates for the exact branch being used, not just named
-supplier labels.
+Post-audit repair note. The row `pressure-source-supplier-line-by-line` has now
+been expanded for the route-selected strengthened import
+`FFSRC.A=>FCI.5f` in
+`mpp-pctp-hard-source-supplier-verification-note.md` and
+`mcp-pressure-source-supplier-verification-fcc-fscr-fpcr-ffsrc-20260501.md`.
+That repair does not promote the stricter exact reconstruction through
+`FIRP.A0`; it only closes the source supplier used by the selected strengthened
+route.
 
 These are not separate final targets from the four blockers above; they are the
 minimum sub-burdens that make those blockers precise.

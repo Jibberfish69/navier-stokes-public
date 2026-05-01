@@ -1,6 +1,6 @@
 # Navier-Stokes Proof Matrix Blocker Close Plan
 
-Source: `problems/navier-stokes/proof-obligation-matrix.yaml`  
+Source: `problems/navier-stokes/source-frontier.yaml`  
 Source SHA: `b79ba37b6e9029784daaa70d7846ed5bba9c57dd`  
 Generated from matrix timestamp: `2026-04-29T19:00:03Z`
 

@@ -12,7 +12,7 @@ SLOT_MAP_PATH = PROBLEM_ROOT.join("bridge-slot-map.yaml").freeze
 WARRANT_PATH = PROBLEM_ROOT.join("theorem-to-warrant.yaml").freeze
 CAMPAIGN_STATUS_PATH = PROBLEM_ROOT.join("campaign-status.yaml").freeze
 PROOF_ASSEMBLY_PATH = PROBLEM_ROOT.join("proof-assembly.yaml").freeze
-PROOF_OBLIGATION_MATRIX_PATH = PROBLEM_ROOT.join("proof-obligation-matrix.yaml").freeze
+THEOREM_AUTHORITY_FRONTIER_PATH = PROBLEM_ROOT.join("source-frontier.yaml").freeze
 SOURCE_FRONTIER_PATH = PROBLEM_ROOT.join("source-frontier.yaml").freeze
 OBJECT_FORMALIZATION_PATH = PROBLEM_ROOT.join("object-formalization.yaml").freeze
 DEPENDENCY_DISCHARGE_PATH = PROBLEM_ROOT.join("dependency-discharge.yaml").freeze
@@ -287,7 +287,7 @@ def sanitize_dependency_discharge(discharge)
   discharge
 end
 
-def sanitize_proof_obligation_matrix(matrix)
+def sanitize_theorem_authority_frontier(matrix)
   return matrix unless matrix.is_a?(Hash)
 
   obligations = Array(matrix["obligations"]).map do |entry|
@@ -489,7 +489,7 @@ def refresh!
   warrant = load_yaml(WARRANT_PATH)
   campaign = load_yaml(CAMPAIGN_STATUS_PATH)
   proof_assembly = sanitize_proof_assembly(load_yaml(PROOF_ASSEMBLY_PATH))
-  proof_obligation_matrix = sanitize_proof_obligation_matrix(load_yaml(PROOF_OBLIGATION_MATRIX_PATH))
+  theorem_authority_frontier = sanitize_theorem_authority_frontier(load_yaml(THEOREM_AUTHORITY_FRONTIER_PATH))
   source_frontier = sanitize_source_frontier(load_yaml(SOURCE_FRONTIER_PATH))
   object_formalization = sanitize_object_formalization(load_yaml(OBJECT_FORMALIZATION_PATH))
   dependency_discharge = sanitize_dependency_discharge(load_yaml(DEPENDENCY_DISCHARGE_PATH))
@@ -497,7 +497,7 @@ def refresh!
   authoritative_source_discovery = load_yaml(AUTHORITATIVE_SOURCE_DISCOVERY_PATH)
 
   write_yaml(PROOF_ASSEMBLY_PATH, proof_assembly)
-  write_yaml(PROOF_OBLIGATION_MATRIX_PATH, proof_obligation_matrix)
+  write_yaml(THEOREM_AUTHORITY_FRONTIER_PATH, theorem_authority_frontier)
   write_yaml(SOURCE_FRONTIER_PATH, source_frontier)
   write_yaml(OBJECT_FORMALIZATION_PATH, object_formalization)
   write_yaml(DEPENDENCY_DISCHARGE_PATH, dependency_discharge)

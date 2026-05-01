@@ -2,7 +2,12 @@
 
 ## Status
 
-This is a local theorem/audit note for the `pressure-source-supplier-line-by-line` frontier item. The current generated live and review surfaces still list this item as open, while local theorem notes contain both a strengthened-route verification and a newer exact-branch claim. This note records the line-by-line supplier status and the authority conflict plainly.
+This is a local theorem/audit note for the `pressure-source-supplier-line-by-line`
+frontier item. The current root live/review surfaces close this item for the
+route-selected strengthened import `FFSRC.A=>FCI.5f`, while stale generated or
+submission-bundle surfaces may still list the old audit row as open. This note
+records the line-by-line supplier status and the exact/strengthened branch
+boundary plainly.
 
 ## Source split
 
@@ -141,7 +146,13 @@ The exact same-depth pressure reduction also identifies the frozen-net resonant 
 \sum_{\ell=1}^{M_\varepsilon}\mathfrak Q_{N,\eta^\ell}^{press,loc,src,RR,\alpha}(t).
 ```
 
-Finite frozen-net summation gives `FPCR.C` from `FIRP.A0(\eta^\ell)` for each frozen increment. A newer local note claims `FIRP.A0` at fixed finite theorem depth and fixed scheduler threshold via fixed-threshold weighted-shell absorption. Older pressure decision surfaces record `FIRP.A0` as open. The generated live surfaces still retain the source row as an active blocker, so this exact-branch claim needs status reconciliation before route promotion.
+Finite frozen-net summation gives `FPCR.C` from `FIRP.A0(\eta^\ell)` for each
+frozen increment. The installed exact reduction note
+`mpp-fixed-increment-resonant-pressure-integrability-note.md` records
+`FIRP.A0` as the smaller exact wall and explicitly does not prove it. A separate
+local attempt claims a fixed-threshold proof of `FIRP.A0`, but that claim is not
+promoted by this audit. Therefore the exact branch remains unclosed here unless
+`FIRP.A0` is separately accepted.
 
 ## Line 4: stronger FFSRC.A import actually used
 
@@ -186,16 +197,38 @@ After `FFPB.A0`, `FFSC.C1` gives the frozen-family differential law
 \mathcal F_{N,\rho,\psi}^{\varepsilon}.
 ```
 
-Gronwall gives `\mathcal F^\varepsilon\in L^\infty(I)` and `\mathcal N^{visc,\varepsilon}\in L^1(I)`. Then `FSCR.C_postLCI` and `FCC.C1` place the strain/cascade and cutoff channels in `L^1(I)`. The full source split gives `FCI.5f`.
+Gronwall gives `\mathcal F^\varepsilon\in L^\infty(I)` and
+`\mathcal N^{visc,\varepsilon}\in L^1(I)`. Then `FSCR.C_postLCI` and `FCC.C1`
+place the strain/cascade and cutoff channels in `L^1(I)`. The full source split
+gives `FCI.5f`.
+
+## Expansion boundary
+
+The expanded estimates are verified at the route ledger level:
+
+1. `FCC.C1` is fully expanded: exact commutator formula, Young absorption,
+   finite-net summation, Gronwall, and cutoff absorption.
+2. `FSCR.C_postLCI` is expanded through the representative triangular
+   strain/cascade packets and the finite weighted Cauchy--Schwarz estimate.
+   The exact same-depth theorem `FSCR.C` is not proved here.
+3. `FPCR.C_postLCI` is expanded through the `LH/HL + RR + far` split. The
+   installed pressure bridge note still treats the `LH/HL` and `RR` bounds
+   `FFPB.A3`--`FFPB.A4` as finite Leibniz/local pressure-response estimates,
+   rather than writing every Leibniz summand and tower weight separately.
+4. `FFSRC.A` is verified only under the packet-local reading of
+   `\mathfrak H^{press,loc}`. A centerwise-only reading reopens `FIPCB.A0`.
 
 ## Verification verdict
 
 1. `FCC.C1` is line-by-line verified as cutoff absorption after pressure and strain/cascade source controls plus `\mathfrak b_\psi^{cut}\in L^1(I)`.
-2. `FSCR.C_postLCI` is line-by-line verified from the coefficient-side estimate `(1+\mathfrak C^\delta)\mathcal F^\varepsilon`.
-3. `FPCR.C_postLCI` is line-by-line verified from the `LH/HL + RR + far` pressure split under `\Gamma^{low}\in L^1(I)` and bounded `\mathcal F^\varepsilon`.
-4. The exact `FIRP.A0 => FPCR.C` branch has a newer fixed-threshold local claim and older open-branch records; current live/review surfaces still list the pressure/source row as open.
+2. `FSCR.C_postLCI` is verified from the coefficient-side estimate `(1+\mathfrak C^\delta)\mathcal F^\varepsilon`; the exact same-depth `FSCR.C` wall is not proved.
+3. `FPCR.C_postLCI` is verified from the `LH/HL + RR + far` pressure split under `\Gamma^{low}\in L^1(I)` and bounded `\mathcal F^\varepsilon`, with the noted `FFPB.A3`--`FFPB.A4` expansion boundary.
+4. The exact `FIRP.A0 => FPCR.C` branch is not promoted by this audit. `FIRP.A0` remains the exact smaller pressure theorem unless the separate fixed-threshold local attempt is accepted.
 5. The stronger `FFSRC.A` import is actually used in the existing line-by-line note, through `FFPB.A0 + FFSC.C1 + FCC.C1 => FFSRC.A => FCI.5f`, with the packet-local pressure-carrier interpretation as a required typing condition.
 
 ## Local conclusion
 
-The supplier algebra is verified under the stated route assumptions and under the route-selected stronger import. The repo-wide live status remains conditional because generated live/review surfaces still classify `pressure-source-supplier-line-by-line` as an active blocker and because the exact `FIRP.A0` claim has conflicting local status records.
+The supplier algebra is verified under the stated route assumptions and under
+the route-selected stronger import. This closes the pressure/source supplier row
+for `FFSRC.A=>FCI.5f`. It does not close the stricter exact source reconstruction
+unless `FIRP.A0` and the exact same-depth `FSCR.C` route are separately accepted.

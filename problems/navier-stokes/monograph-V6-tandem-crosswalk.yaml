@@ -20,7 +20,7 @@ shared_current_state:
     - /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-packet.yaml
     - /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/proof-assembly.yaml
     - /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/source-frontier.yaml
-    - /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/proof-obligation-matrix.yaml
+    - /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/source-frontier.yaml
   parallel_manuscript_surfaces:
     - /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/paper-architecture.yaml
     - /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/draft-v7.md

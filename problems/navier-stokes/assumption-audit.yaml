@@ -13,7 +13,7 @@ status:
   release_eligible: false
 pass: false
 source:
-  proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
+  theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
   review_verdict: problems/navier-stokes/review-verdict.yaml
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
   release_decision: problems/navier-stokes/release-decision.yaml
@@ -33,8 +33,8 @@ verdict:
   stronger_clay_promotion_status: closed
 matrix_summary:
   total_obligations: 25
-  blocking_count: 4
-  frontier_count: 4
+  blocking_count: 3
+  frontier_count: 3
   all_discharged: false
 
 truth_alignment:
@@ -44,4 +44,3 @@ truth_alignment:
   - pctp-hard-terminal-tail-production
   - aact-kx-local-absorption
   - jump-avg-branch-elimination
-  - pressure-source-supplier-line-by-line

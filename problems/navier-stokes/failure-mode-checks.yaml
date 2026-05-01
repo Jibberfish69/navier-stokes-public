@@ -10,7 +10,7 @@ pass: false
 release_eligible: false
 source:
   auto_audit: problems/navier-stokes/auto-audit.yaml
-  proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
+  theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
   circularity_audit: problems/navier-stokes/circularity-audit.yaml
   consistency_audit: problems/navier-stokes/consistency-audit.yaml
 checks:
@@ -37,10 +37,10 @@ auto_audit_certification:
   theorem_packet_status: export-ready
 summary:
   total_obligations: 25
-  blocking_count: 4
-  frontier_count: 4
+  blocking_count: 3
+  frontier_count: 3
   all_discharged: false
-  failure_mode_blocking_count: 4
+  failure_mode_blocking_count: 3
 
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
@@ -49,4 +49,3 @@ truth_alignment:
   - pctp-hard-terminal-tail-production
   - aact-kx-local-absorption
   - jump-avg-branch-elimination
-  - pressure-source-supplier-line-by-line

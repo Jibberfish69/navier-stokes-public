@@ -16,7 +16,7 @@
 | lower-carrier receiver wall | discharged terminal context under H1-H6; context only | no | theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md, theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md |
 | collar-to-jump converse pivot | discharged terminal context under H1-H6; context only | no | theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md, theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md |
 | Keep theorem scope below the first unsafe overclaim | theorem-level scope boundary already fixed; prose/status hygiene only | no | claim-ladder: Lowest Safe Claim, claim-ladder: First Unsafe Overclaim, theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md |
-| Periodic Clay terminal-promotion bridge | grounded by `PCTP.A` and the proof-obligation matrix; full-MPP theorem-upgrade target discharged | no | theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md, problems/navier-stokes/assumption-ledger.yaml, theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md, problems/navier-stokes/proof-obligation-matrix.yaml |
+| Periodic Clay terminal-promotion bridge | grounded by `PCTP.A` and the proof-obligation matrix; full-MPP theorem-upgrade target discharged | no | theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md, problems/navier-stokes/assumption-ledger.yaml, theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md, problems/navier-stokes/source-frontier.yaml |
 
 ## Reviewer-Facing Risks
 

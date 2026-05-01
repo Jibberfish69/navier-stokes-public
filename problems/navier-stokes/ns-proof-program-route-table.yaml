@@ -20,7 +20,7 @@ authority_surface_audit:
     - conflict_id: route_hypothesis_vs_current_matrix
       current_surface:
         - problems/navier-stokes/live-theorem-edge.yaml
-        - problems/navier-stokes/proof-obligation-matrix.yaml
+        - problems/navier-stokes/source-frontier.yaml
       current_reading: class-membership / law-endpoint matrix is primary; TPS/SG.4 is downstream consumer context
       conflicting_surface: problems/navier-stokes/route-hypothesis.yaml
       conflicting_reading: stale TPS/SG.4 primary proving surface
@@ -71,7 +71,7 @@ live_route_table:
     propagated_object: M_Q(u,p) membership witnessed by Pack / Part / Field on same-fluid families
     surface:
       - problems/navier-stokes/live-theorem-edge.yaml
-      - problems/navier-stokes/proof-obligation-matrix.yaml
+      - problems/navier-stokes/source-frontier.yaml
       - problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
     bridge_needed: estimates from other programs must bridge into the exact membership object before counting as closure
     current_open_theorem: object-law endpoint matrix outside the installed readout layer, then CFI.A -> OFP.A -> LCI.A
@@ -516,7 +516,7 @@ programs:
       - treating mixed-jet smoothness estimates as direct Pack/Part/Field persistence
     anchor_paths:
       - problems/navier-stokes/live-theorem-edge.yaml
-      - problems/navier-stokes/proof-obligation-matrix.yaml
+      - problems/navier-stokes/source-frontier.yaml
       - problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
       - problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
       - problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
