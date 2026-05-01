@@ -511,6 +511,7 @@ published_files:
 - theorem-construction/mcp-active-shell-amplitude-gain-hard-obstruction-for-nu_scf-carleson-active-shell-amplitude-gain-for-nu_scf-carleson-51312fcf31.md
 - theorem-construction/mcp-active-shell-amplitude-gain-implies-nu_scf-carleson-active-shell-amplitude-gain-scale-normalized-nu_scf-carleson-estimate-b42419075e.md
 - theorem-construction/mcp-active-shell-amplitude-gain-source-normalization-obstruction-active-shell-amplitude-gain-09ae95f994.md
+- theorem-construction/mcp-active-shell-source-normalization-obstruction-active-shell-source-normalization-fdd05c46cc.md
 - theorem-construction/mcp-affine-excess-coefficient-dependence-audit.md
 - theorem-construction/mcp-affine-pressure-normalization-compatibility-lemma-846fdf37af.md
 - theorem-construction/mcp-aligned-alpha-moving-threshold-measure-boundary-db53457065.md
@@ -638,6 +639,7 @@ published_files:
 - theorem-construction/mcp-dg-line-sharp-reduced-cocycle-packet-2dfa0e10fd.md
 - theorem-construction/mcp-dg-line-source-estimates-pass-f4e57aa92f.md
 - theorem-construction/mcp-direct-aact-kx-local-classical-variables.md
+- theorem-construction/mcp-direct-active-square-carleson-via-monotone-source-dominance-obstruction-direct-active-square-carleson-via-monotone-source-dominance-64754d49ab.md
 - theorem-construction/mcp-direct-active-square-upper-tail-carleson-obstruction-direct-active-square-upper-tail-carleson-e15c502f75.md
 - theorem-construction/mcp-direct-aligned-residual-square-budget-attempt-3ff9f3b5cb.md
 - theorem-construction/mcp-direct-m_q-to-sobolev-readout-constants-68fcd15030.md
@@ -667,6 +669,7 @@ published_files:
 - theorem-construction/mcp-endpointselector-ttu-facewise-selector-test.md
 - theorem-construction/mcp-endpointselector-ttu-general-test.md
 - theorem-construction/mcp-enlarged-scf-charge-with-eu-upper-bound-obstruction-jump-avg-branch-elimination-e444b62ca0.md
+- theorem-construction/mcp-eu-additive-carrier-reduces-to-active-window-amplitude-gain-jump-avg-branch-elimination-54b3f13ec0.md
 - theorem-construction/mcp-eu-conversion-conditional-route-obstruction-jump-avg-branch-elimination-94944c5535.md
 - theorem-construction/mcp-eu-to-dup-or-additive-carrier-obstruction-jump-avg-branch-elimination-63d034ea4b.md
 - theorem-construction/mcp-euclidean-cascade-analogue-with-localization-and-exterior-tails-pst-a-2dec751149.md
@@ -893,6 +896,7 @@ published_files:
 - theorem-construction/mcp-scfbase-pressure-defect-compatibility.md
 - theorem-construction/mcp-scfbase-pressure-oscillation-modulus-test.md
 - theorem-construction/mcp-separated-lower-accumulation-nuscf-obstruction-jump-avg-branch-elimination-2d309bc842.md
+- theorem-construction/mcp-separated-recurrence-after-active-window-gain-reduction-jump-avg-branch-elimination-f800a3b698.md
 - theorem-construction/mcp-separated-recurrence-after-eu-conditional-route-jump-avg-branch-elimination-fe6f5b8ddb.md
 - theorem-construction/mcp-separated-recurrence-after-original-data-eu-obstruction-jump-avg-branch-elimination-8b3473ef28.md
 - theorem-construction/mcp-separated-recurrence-final-charge-obstruction-jump-avg-branch-elimination-140e8ad8ec.md
@@ -912,6 +916,7 @@ published_files:
 - theorem-construction/mcp-shifted-aligned-finite-window-anchor-efb405b834.md
 - theorem-construction/mcp-signed-weighted-commutator-defect-estimate-obstruction-signed-weighted-commutator-defect-estimate-06b754fd7e.md
 - theorem-construction/mcp-signed-weighted-commutator-defect-frontier-loop-failure.md
+- theorem-construction/mcp-signed-weighted-lifted-remainder-cancellation-plus-residual-tail-obstruction-signed-weighted-lifted-remainder-cancellation-plus-residual-tail-control-4cc0b43cb9.md
 - theorem-construction/mcp-single-final-conditional-averaged-route-theorem-avg-main-a-d000abfe2f.md
 - theorem-construction/mcp-single-proof-skeleton-with-inline-lemmas-read-end-4369efa4a9.md
 - theorem-construction/mcp-single-shell-active-square-estimate-obstruction-single-shell-active-square-estimate-e819d3573c.md
