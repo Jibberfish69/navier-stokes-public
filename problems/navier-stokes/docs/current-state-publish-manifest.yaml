@@ -86,6 +86,7 @@ published_files:
 - dependency-discharge-proof-dependencies-1-9.yaml
 - dependency-discharge.yaml
 - dependency-graph.yaml
+- deprecated/generated-nonauthoritative/proof-obligation-matrix.yaml
 - docs/current-state-publish-manifest.yaml
 - docs/import-inventory-v1.yaml
 - docs/import-plan-v1.md
@@ -195,7 +196,6 @@ published_files:
 - promotion-verdict.yaml
 - proof-assembly.yaml
 - proof-matrix-blocker-close-plan.md
-- proof-obligation-matrix.yaml
 - proof-source-pack.md
 - public-research-frontier.md
 - referee-objection-ledger.yaml
@@ -507,6 +507,7 @@ published_files:
 - theorem-construction/mcp-act-kx-affine-normalized-conditional-discharge-rscb-nkf-b2a6241f24.md
 - theorem-construction/mcp-act-kx-conditional-route-completion-covering-items-1-12-cfi-a-b476f4bf8c.md
 - theorem-construction/mcp-active-shell-amplitude-gain-from-originalsmoothdata-obstruction-originalsmoothdata-active-shell-amplitude-gain-85a8547090.md
+- theorem-construction/mcp-active-shell-amplitude-gain-frontier-loop-failure.md
 - theorem-construction/mcp-active-shell-amplitude-gain-hard-obstruction-for-nu_scf-carleson-active-shell-amplitude-gain-for-nu_scf-carleson-51312fcf31.md
 - theorem-construction/mcp-active-shell-amplitude-gain-implies-nu_scf-carleson-active-shell-amplitude-gain-scale-normalized-nu_scf-carleson-estimate-b42419075e.md
 - theorem-construction/mcp-affine-excess-coefficient-dependence-audit.md
@@ -662,6 +663,7 @@ published_files:
 - theorem-construction/mcp-endpointselector-ttu-facewise-selector-test.md
 - theorem-construction/mcp-endpointselector-ttu-general-test.md
 - theorem-construction/mcp-enlarged-scf-charge-with-eu-upper-bound-obstruction-jump-avg-branch-elimination-e444b62ca0.md
+- theorem-construction/mcp-eu-conversion-conditional-route-obstruction-jump-avg-branch-elimination-94944c5535.md
 - theorem-construction/mcp-eu-to-dup-or-additive-carrier-obstruction-jump-avg-branch-elimination-63d034ea4b.md
 - theorem-construction/mcp-euclidean-cascade-analogue-with-localization-and-exterior-tails-pst-a-2dec751149.md
 - theorem-construction/mcp-euclidean-export-packet-audit-read-cover-78226be3a6.md
@@ -739,7 +741,9 @@ published_files:
 - theorem-construction/mcp-jump_avg-branch-elimination-direct-route-obstruction-aact-kx-6e96200b80.md
 - theorem-construction/mcp-jump_avg-defect-charge-pressure-source-upper-bound-obstruction-ffsrc-a-e46335c312.md
 - theorem-construction/mcp-jump_avg-separated-positive-defect-charge-lower-bound-obstruction-jump_avg-to-separated-positive-defect-charge-lower-bound-dcd5b58afe.md
+- theorem-construction/mcp-jumpavg-final-audit-after-conditional-eu-route-jump-avg-branch-elimination-8f6369a401.md
 - theorem-construction/mcp-jumpavg-final-audit-after-eu-and-recurrence-tests-jump-avg-branch-elimination-abf18b2ff8.md
+- theorem-construction/mcp-jumpavg-final-audit-after-original-data-eu-obstruction-jump-avg-branch-elimination-68ea9ffdad.md
 - theorem-construction/mcp-jumpavg-final-elimination-audit-after-threshold-extraction-jump-avg-branch-elimination-ab04250550.md
 - theorem-construction/mcp-jumpavg-threshold-scf-concentration-extraction-jump-avg-branch-elimination-de2b395025.md
 - theorem-construction/mcp-jumpexclusion-upstream-test.md
@@ -770,6 +774,7 @@ published_files:
 - theorem-construction/mcp-moving-cylinder-ckn-admissibility-lemma-f2a546e26f.md
 - theorem-construction/mcp-near-pressure-summability-from-weighted-annular-l4-source-82ac41a679.md
 - theorem-construction/mcp-near-pressure-summability-hard-remainder-near-pressure-summability-26147f0506.md
+- theorem-construction/mcp-nonlinear-shell-flux-source-theorem-obstruction-nonlinear-shell-flux-source-theorem-ruling-out-source-balanced-active-pulses-b7a448a51e.md
 - theorem-construction/mcp-normalized-epf-comparison-boundary-for-bridgea-ee51e9d739.md
 - theorem-construction/mcp-normalized-exact-potential-comparison-attempt-for-bridgea-ep-a-3ae8cfcbe1.md
 - theorem-construction/mcp-normalized-exact-potential-tensor-comparison-attempt-ep-a-77800520a2.md
@@ -784,6 +789,7 @@ published_files:
 - theorem-construction/mcp-ordered-sg4-tps-completion-queue-pass-ep-a-43ef6d950d.md
 - theorem-construction/mcp-ordered-sg4-tps-source-estimate-work-queue-ep-a-55a0779fa9.md
 - theorem-construction/mcp-ordinary-theorem-work-blocker-conversion-after-release-checklist-firewall-patch-act-kx-97ecffd312.md
+- theorem-construction/mcp-original-data-eu-conversion-additive-carrier-obstruction-jump-avg-branch-elimination-ef64f9fa9a.md
 - theorem-construction/mcp-originalsmoothdata-to-active-shell-amplitude-gain-mechanism-audit-originalsmoothdata-active-shell-amplitude-gain-59f7dccc80.md
 - theorem-construction/mcp-pack-native-strain-bound-attempt-and-exact-obstruction-read-cover-4c37d8a45c.md
 - theorem-construction/mcp-pack-ttu-bkm-route-check.md
@@ -824,6 +830,7 @@ published_files:
 - theorem-construction/mcp-periodic-terminal-tail-bridge-promotion-status-firp-a0-89eed8efb6.md
 - theorem-construction/mcp-periodic-to-r3-exhaustion-theorem-and-required-uniform-estimates-exh-r3-a3b5f5c22f.md
 - theorem-construction/mcp-pointwise-class-readout-to-h-s-continuation-norm-ecq-a-08ac0ba729.md
+- theorem-construction/mcp-positive-carrier-active-square-carleson-frontier-loop-failure.md
 - theorem-construction/mcp-pressure-readout-all-endpoint-rungs-final.md
 - theorem-construction/mcp-pressure-side-collar-return-to-strengthened-source-closure.md
 - theorem-construction/mcp-pressure-source-supplier-line-by-line-aact-kx-5ccc977444.md
@@ -881,6 +888,8 @@ published_files:
 - theorem-construction/mcp-scfbase-pressure-defect-compatibility.md
 - theorem-construction/mcp-scfbase-pressure-oscillation-modulus-test.md
 - theorem-construction/mcp-separated-lower-accumulation-nuscf-obstruction-jump-avg-branch-elimination-2d309bc842.md
+- theorem-construction/mcp-separated-recurrence-after-eu-conditional-route-jump-avg-branch-elimination-fe6f5b8ddb.md
+- theorem-construction/mcp-separated-recurrence-after-original-data-eu-obstruction-jump-avg-branch-elimination-8b3473ef28.md
 - theorem-construction/mcp-separated-recurrence-final-charge-obstruction-jump-avg-branch-elimination-140e8ad8ec.md
 - theorem-construction/mcp-seven-loss-budgets-for-sg-4-tps-retained-family-ep-a-b4208cdf26.md
 - theorem-construction/mcp-seven-source-estimates-direct-terminal-attempt-ep-a-366ac73b59.md
@@ -896,6 +905,7 @@ published_files:
 - theorem-construction/mcp-sharp-pressure-readout-elliptic-package.md
 - theorem-construction/mcp-sharp-pressure-readout-for-all-endpoint-rungs-read-cover-7bb03f0f70.md
 - theorem-construction/mcp-shifted-aligned-finite-window-anchor-efb405b834.md
+- theorem-construction/mcp-signed-weighted-commutator-defect-estimate-obstruction-signed-weighted-commutator-defect-estimate-06b754fd7e.md
 - theorem-construction/mcp-signed-weighted-commutator-defect-frontier-loop-failure.md
 - theorem-construction/mcp-single-final-conditional-averaged-route-theorem-avg-main-a-d000abfe2f.md
 - theorem-construction/mcp-single-proof-skeleton-with-inline-lemmas-read-end-4369efa4a9.md
@@ -903,6 +913,7 @@ published_files:
 - theorem-construction/mcp-source-branch-final-bookkeeping.md
 - theorem-construction/mcp-source-branch-proof-decision-cfi-a_-9e35a24378.md
 - theorem-construction/mcp-source-packet-nonclosure-and-exact-primitive-boundary-2a4f79a676.md
+- theorem-construction/mcp-source-theorem-frontier-for-active-shell-amplitude-gain-originalsmoothdata-active-shell-amplitude-gain-d2cc70c759.md
 - theorem-construction/mcp-standalone-aact-kx-local-proof.md
 - theorem-construction/mcp-standalone-ckn-to-atd-moving-cylinder-theorem.md
 - theorem-construction/mcp-straintail-ttu-bad-strain-tail-definition.md
