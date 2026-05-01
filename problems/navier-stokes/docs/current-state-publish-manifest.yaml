@@ -512,6 +512,7 @@ published_files:
 - theorem-construction/mcp-active-shell-amplitude-gain-implies-nu_scf-carleson-active-shell-amplitude-gain-scale-normalized-nu_scf-carleson-estimate-b42419075e.md
 - theorem-construction/mcp-active-shell-amplitude-gain-source-normalization-obstruction-active-shell-amplitude-gain-09ae95f994.md
 - theorem-construction/mcp-active-shell-source-normalization-obstruction-active-shell-source-normalization-fdd05c46cc.md
+- theorem-construction/mcp-active-square-residual-tail-theorem-obstruction-active-square-residual-tail-theorem-6553e8f1da.md
 - theorem-construction/mcp-affine-excess-coefficient-dependence-audit.md
 - theorem-construction/mcp-affine-pressure-normalization-compatibility-lemma-846fdf37af.md
 - theorem-construction/mcp-aligned-alpha-moving-threshold-measure-boundary-db53457065.md
@@ -930,6 +931,7 @@ published_files:
 - theorem-construction/mcp-square-source-estimate-with-amplitude-normalization-square-source-estimate-with-amplitude-normalization-5146a2c26a.md
 - theorem-construction/mcp-standalone-aact-kx-local-proof.md
 - theorem-construction/mcp-standalone-ckn-to-atd-moving-cylinder-theorem.md
+- theorem-construction/mcp-strain-sign-cancellation-obstruction-for-weighted-lifted-remainder-strain-sign-cancellation-theorem-for-weighted-lifted-remainder-d0434cd9e2.md
 - theorem-construction/mcp-straintail-ttu-bad-strain-tail-definition.md
 - theorem-construction/mcp-straintail-ttu-endpoint-face-typing.md
 - theorem-construction/mcp-straintail-ttu-route-to-pack-and-downstream.md
