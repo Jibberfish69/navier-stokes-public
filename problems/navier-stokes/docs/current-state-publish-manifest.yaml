@@ -707,6 +707,7 @@ published_files:
 - theorem-construction/mcp-full-gradient-commutator-estimate-from-repaired-packet-split-gc-a-50abab3b85.md
 - theorem-construction/mcp-full-pflux-supplier-closure-from-near-and-far-pressure-summability-1694a49cc0.md
 - theorem-construction/mcp-fully-quantified-threshold-scheduler-theorem-pst-a-8fad5bf7a1.md
+- theorem-construction/mcp-global-terminal-cover-scheduler-nojump-discharge-and-seed-boundary.md
 - theorem-construction/mcp-goodscale-closure-from-towerbound-and-scfbad-typing.md
 - theorem-construction/mcp-goodscale-downstream-endpoint-contradiction-after-badset-typing.md
 - theorem-construction/mcp-goodscale-finite-complexity-scfbase-test.md
@@ -721,6 +722,8 @@ published_files:
 - theorem-construction/mcp-integrable-label-modulus-strain-test.md
 - theorem-construction/mcp-jump-avg-branch-elimination-aact-kx-2d9a5f194f.md
 - theorem-construction/mcp-jump_avg-branch-elimination-direct-route-obstruction-aact-kx-6e96200b80.md
+- theorem-construction/mcp-jump_avg-defect-charge-pressure-source-upper-bound-obstruction-ffsrc-a-e46335c312.md
+- theorem-construction/mcp-jump_avg-separated-positive-defect-charge-lower-bound-obstruction-jump_avg-to-separated-positive-defect-charge-lower-bound-dcd5b58afe.md
 - theorem-construction/mcp-jumpexclusion-upstream-test.md
 - theorem-construction/mcp-latex-compile-status-after-manuscript-edits.md
 - theorem-construction/mcp-latex-safe-four-lemma-statements.md
