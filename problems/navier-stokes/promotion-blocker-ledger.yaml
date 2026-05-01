@@ -51,8 +51,10 @@ remaining_release_gates:
   attempt recorded in mpp-source-no-pulse-direct-attempt-note.md; mixed-shell
   spill scheduler attempt recorded in
   mpp-mixed-shell-spill-coefficient-scheduler-attempt-note.md and closed to
-  MSC.Spill.NoPulse, the same no-pulse atom), then eliminate Jump_avg without
-  assuming Field_avg on the Jump_avg branch
+  MSC.Spill.NoPulse, the same no-pulse atom; critical-pulse, pressure-strain,
+  and compactness audits sharpen the live forms to MSC.BadAC,
+  pressure-strain depletion, or Ancient.NoPulse), then eliminate Jump_avg
+  without assuming Field_avg on the Jump_avg branch
 side_sandbox_status:
   hfg_low: threshold-discharged
   hfg_alt: no-free-gap; surviving primitive is MEG
@@ -61,6 +63,7 @@ claim_boundary:
     PCTP.hard / TTU.A remains blocked by terminal-tail production and
     branch-native Jump_avg elimination, whose supplier ladder now closes to
     SOURCE.NO-PULSE.A nonlinear shell-flux/source no-pulse control, with
-    MSC.Spill.NoPulse as the mixed-shell spill-coefficient presentation.
+    MSC.BadAC / pressure-strain depletion / Ancient.NoPulse as equivalent
+    sharpened presentations.
   prohibited_claim: full periodic Navier-Stokes closure, export readiness, or
     submission readiness before the remaining PCTP.hard burdens are discharged.

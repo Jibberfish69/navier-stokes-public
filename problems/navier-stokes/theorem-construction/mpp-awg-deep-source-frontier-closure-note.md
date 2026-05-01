@@ -210,6 +210,22 @@ the domination theorem preventing mixed bilinear dissipation mass from
 concentrating on large spill-coefficient pulses. This is the mixed-shell
 presentation of the same source no-pulse atom.
 
+The follow-up audits
+`mpp-source-no-pulse-critical-pulse-and-sign-audit-note.md`,
+`mpp-pressure-strain-no-pulse-attempt-note.md`, and
+`mpp-critical-pulse-compactness-no-pulse-attempt-note.md` test the remaining
+natural escape routes. They show that the energy scheduler, pointwise strain
+sign, pressure recovery, and local-suitable compactness do not prove the atom.
+The equivalent residual presentations are `MSC.BadAC`, pressure-strain
+depletion of active vortex stretching, or `Ancient.NoPulse` for the critical
+pulse limit.
+
+The same-scale import audit
+`mpp-msc-badac-same-scale-import-audit-note.md` verifies that existing
+same-scale spill estimates do not install `MSC.BadAC`: they either require
+continuation-grade `QBound.A` or retain a coefficient term instead of proving
+absolute continuity of `\mathfrak B_N^\sigma(t)dt` on the spill-bad set.
+
 ## Consequence for `Jump_avg`
 
 The branch-native theorem remains conditional:

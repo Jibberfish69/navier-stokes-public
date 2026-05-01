@@ -204,7 +204,10 @@ o_N(1)
 On the complement of `Bad_N(\eta)`, the spill term is absorbed directly. Hence
 `MSC.BadAC=>MSC.Spill.NoPulse`. The current energy-dissipation surface supplies
 only small Lebesgue measure for `Bad_N(\eta)`, not small
-`\mathfrak B_N^\sigma(t)dt`-measure.
+`\mathfrak B_N^\sigma(t)dt`-measure. The countermodel note
+`mpp-msc-badac-energy-measure-countermodel-note.md` shows this is not a
+bookkeeping gap: the scheduler data alone permits order-one mixed-dissipation
+mass to sit on a heat-scale bad-coefficient pulse.
 
 ## Closed Direct Verdict
 
@@ -240,7 +243,9 @@ equivalent source-control presentations:
 - `QDrain.A` one-sided enstrophy drain,
 - `MSC.Spill.NoPulse` mixed-shell spill-coefficient domination,
 - `MSC.BadAC` bad-set absolute continuity for the mixed bilinear dissipation
-  measure.
+  measure,
+- pressure-strain depletion of active vortex stretching,
+- `Ancient.NoPulse` exclusion of nontrivial critical pulse limits.
 
 This is the closed primitive for the current branch. Further progress now
 requires proving `SOURCE.NO-PULSE.A` itself, not re-routing through an already

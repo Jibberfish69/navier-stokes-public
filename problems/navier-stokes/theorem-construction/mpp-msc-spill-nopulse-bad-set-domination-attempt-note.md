@@ -145,7 +145,11 @@ K_{j,\ell}^\sigma D_j(t)D_\ell(t)\,dt.
 
 The current inputs contain no absolute-continuity theorem saying that this
 measure cannot concentrate on the small Lebesgue-time set where the spill
-coefficient is large.
+coefficient is large. The follow-up note
+`mpp-msc-badac-energy-measure-countermodel-note.md` makes this insufficiency
+formal: an abstract heat-scale pulse can satisfy the scheduler estimate
+`\int\sum_{j>N}\gamma_j=o_N(1)` while carrying order-one
+`\mathfrak B_N^\sigma(t)dt` mass entirely on `Bad_N(\eta)`.
 
 ## Self-Damping Attempt
 
@@ -214,5 +218,6 @@ using the already installed PCTP collapse note.
 
 This attempt does not prove `MSC.BadAC` from the inherited energy-dissipation
 surface. It removes the good-coefficient part and names the exact remaining
-measure-domination theorem. Further attempts should attack `MSC.BadAC` directly,
-not retry the Lebesgue-measure scheduler.
+measure-domination theorem. The energy-measure countermodel rules out any
+closure that uses only the current Lebesgue bad-time scheduler; further attempts
+must attack `MSC.BadAC` through a structural PDE coupling.
