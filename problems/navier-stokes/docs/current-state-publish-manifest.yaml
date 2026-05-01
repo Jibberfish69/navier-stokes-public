@@ -1044,6 +1044,7 @@ published_files:
 - theorem-construction/mpp-component-selection-scfbase-to-nuscf-audit-note.md
 - theorem-construction/mpp-constitutive-first-rederivation-note.md
 - theorem-construction/mpp-constitutive-first-survivor-ledger.md
+- theorem-construction/mpp-critical-pulse-compactness-no-pulse-attempt-note.md
 - theorem-construction/mpp-csp-b3a1-fei-return-instance-note.md
 - theorem-construction/mpp-dead-tower-rigidity-reduction-note.md
 - theorem-construction/mpp-deformation-tower-receiver-supplier-theorem-program.md
@@ -1094,6 +1095,7 @@ published_files:
 - theorem-construction/mpp-jump-avg-branch-native-noescape-hard-wall-note.md
 - theorem-construction/mpp-jump-avg-final-active-window-source-wall-note.md
 - theorem-construction/mpp-jump-avg-no-field-branch-elimination-audit-note.md
+- theorem-construction/mpp-label-finite-complexity-modulus-direct-attempt-note.md
 - theorem-construction/mpp-law-endpoint-proof-matrix-note.md
 - theorem-construction/mpp-law13-surviving-endpoint-exclusion-program.md
 - theorem-construction/mpp-law2-survivor-reduction-to-one-field-frontier.md
@@ -1148,6 +1150,8 @@ published_files:
 - theorem-construction/mpp-mixed-shell-spill-coefficient-scheduler-attempt-note.md
 - theorem-construction/mpp-monotone-source-dominance-no-pulse-attempt-note.md
 - theorem-construction/mpp-mq-local-membership-canonical-surface.md
+- theorem-construction/mpp-msc-badac-same-scale-import-audit-note.md
+- theorem-construction/mpp-msc-spill-nopulse-bad-set-domination-attempt-note.md
 - theorem-construction/mpp-nohop-active-window-chain-attempt-note.md
 - theorem-construction/mpp-nonlinear-shell-flux-source-theorem-attempt-note.md
 - theorem-construction/mpp-normal-covector-witness-to-readout-theorem.md
@@ -1167,6 +1171,8 @@ published_files:
 - theorem-construction/mpp-pack-part-field-route-noncollapse-note.md
 - theorem-construction/mpp-pack-part-field-triadicity-audit-note.md
 - theorem-construction/mpp-pack-side-forward-preservation-reduction-note.md
+- theorem-construction/mpp-pack-ttu-fallback-closure-note.md
+- theorem-construction/mpp-pack-ttu-selector-uniformity-closure-note.md
 - theorem-construction/mpp-packet-collar-next-rung-control.md
 - theorem-construction/mpp-packet-local-propagation-lemma.md
 - theorem-construction/mpp-participation-tethering-theorem-program.md
@@ -1201,6 +1207,7 @@ published_files:
 - theorem-construction/mpp-periodic-main-theorem-manuscript-grade-package.md
 - theorem-construction/mpp-periodic-t3-closed-surface-after-r3-conditional-branch.md
 - theorem-construction/mpp-periodic-terminal-promotion-bridge.md
+- theorem-construction/mpp-pressure-strain-no-pulse-attempt-note.md
 - theorem-construction/mpp-primitive-class-laws-note.md
 - theorem-construction/mpp-qbound-to-awg-and-qdrain-wall-note.md
 - theorem-construction/mpp-qdrain-source-no-pulse-closure-note.md
@@ -1242,6 +1249,7 @@ published_files:
 - theorem-construction/mpp-signed-lifted-remainder-residual-tail-attempt-note.md
 - theorem-construction/mpp-six-item-decoupled-quarantine-note.md
 - theorem-construction/mpp-source-export-review-terminal-tail-and-collar.md
+- theorem-construction/mpp-source-no-pulse-critical-pulse-and-sign-audit-note.md
 - theorem-construction/mpp-source-no-pulse-direct-attempt-note.md
 - theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
 - theorem-construction/mpp-still-live-smooth-window-implies-class-membership-theorem.md

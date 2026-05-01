@@ -226,6 +226,10 @@ IntegrableLabelModulus.TTU.
 
 Both are conditional structures preventing moving strain spikes across a
 continuum label family; neither is installed from `OriginalSmoothData`.
+The direct test
+`mpp-label-finite-complexity-modulus-direct-attempt-note.md` further reduces
+them to `LabelNoMovingSpike.TTU`, which is not supplied by the current
+endpoint definitions or original-data estimates.
 
 ## Consequence
 

@@ -163,6 +163,19 @@ IntegrableLabelModulus.TTU.
 
 Neither is currently installed from `OriginalSmoothData`.
 
+The direct attempt on these structural hypotheses is recorded in
+`mpp-label-finite-complexity-modulus-direct-attempt-note.md`. It reduces them to
+one no-moving-spike structural atom:
+
+```math
+LabelNoMovingSpike.TTU.
+```
+
+That atom is not installed from `OriginalSmoothData`; an integrable label
+modulus would require continuation-grade material-coordinate control such as
+terminal `\nabla_x^2u` and pack-gauge bounds, while finite complexity is not a
+consequence of the endpoint threshold-witness definitions.
+
 Therefore the direct pointwise fallback remains:
 
 ```math

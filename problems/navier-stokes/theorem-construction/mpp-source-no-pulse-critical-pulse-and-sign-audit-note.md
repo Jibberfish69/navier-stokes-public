@@ -241,8 +241,21 @@ The installed energy, same-scale coefficient estimates, dyadic exchange
 antisymmetry, pressure Poisson structure, and algebraic strain identities do not
 prove this atom.
 
-Consequently, the next genuine mathematical route cannot be another
-coefficient scheduler or pointwise sign check.  It must be one of:
+The May 1 continuation executed the three genuinely different follow-up
+routes:
+
+1. the signed weighted commutator route is already audited in
+   `signed-weighted-lifted-remainder-theorem-attempt.md` and
+   `mcp-signed-weighted-commutator-defect-frontier-loop-failure.md`;
+2. the pressure-strain route is audited in
+   `mpp-pressure-strain-no-pulse-attempt-note.md`;
+3. the compactness/ancient-limit route is audited in
+   `mpp-critical-pulse-compactness-no-pulse-attempt-note.md`.
+
+All three reduce back to the same primitive.  Therefore the next genuine
+mathematical route cannot be another coefficient scheduler, pointwise sign
+check, pressure recovery estimate, or bare compactness extraction.  It must be
+one of:
 
 1. a signed weighted commutator theorem for the true lifted remainder before
    absolute values;
