@@ -3,14 +3,14 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: release-manifest-navier-stokes
-  generated_at: '2026-05-01T00:37:04Z'
+  generated_at: '2026-05-01T16:36:50Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: passed
-pass: true
-release_eligible: true
-bundle_status: stable-reproducibility-bundle
-source_fingerprint: 7e965a0c475191ebc509dafea30e3917ee5079d2
-bundle_sha1: 1bbd204bd82a7f2439cfda26eb84cd0d5bdc394c
+status: failed
+pass: false
+release_eligible: false
+bundle_status: math-frontier-open
+source_fingerprint: 0f26144d5bb2b87185a47d2c22ff4deef561575d
+bundle_sha1: 6a837064d9e14f654dfeae5557d44d745f45f745
 summary:
   artifact_count: 17
   missing_artifact_count: 0
@@ -19,9 +19,9 @@ source_summary:
   proof_artifact:
     path: problems/navier-stokes/external-paper/main.tex
     present: true
-    sha1: 6d4ed6ee65de2fcc67be68a9a3afd120eab0d4ee
-    bytes: 155
-    modified_at: '2026-04-29T19:33:50Z'
+    sha1: ed77cff806ce81c69d5d40c54aa336491df51993
+    bytes: 250
+    modified_at: '2026-05-01T16:01:05Z'
   source_trace:
     path: problems/navier-stokes/source-ledger.yaml
     present: true
@@ -29,39 +29,39 @@ source_summary:
     bytes: 19101258
     modified_at: '2026-04-29T19:14:09Z'
   proof_obligation_matrix:
-    total_obligations: 25
-    blocking_count: 0
-    frontier_count: 0
-    all_discharged: true
+    total_obligations: 29
+    blocking_count: 4
+    frontier_count: 4
+    all_discharged: false
   review_verdict:
-    verdict: accept
-    release_posture: export-ready
-    completion_tier_achieved: full-mpp-closure
+    verdict: revise
+    release_posture: not-export-ready
+    completion_tier_achieved: conditional-terminal-packet
     terminal_safe: true
   submission_verdict:
-    submission_ready: true
+    submission_ready: false
   release_decision:
-    disposition: submission-candidate
-    release_posture: export-ready
-    completion_tier_achieved: full-mpp-closure
+    disposition: blocked-math-frontier
+    release_posture: not-export-ready
+    completion_tier_achieved: conditional-terminal-packet
   existing_assumption_ledger_status:
-    ledger_status: release-eligible
-    all_matrix_assumptions_discharged: true
-    release_eligible: true
-    release_gate: proof-promotion-release-surface-reconciled
+    ledger_status: math-frontier-open
+    all_matrix_assumptions_discharged: false
+    release_eligible: false
+    release_gate: blocked-by-independent-math-audit
   auto_audit_certification:
-    current_package_status: full-mpp-closure-ready
-    standalone_status: accept
-    completion_tier_achieved: full-mpp-closure
-    review_verdict: accept
-    theorem_packet_status: export-ready
-  source_fingerprint: 7e965a0c475191ebc509dafea30e3917ee5079d2
+    current_package_status: math-frontier-open
+    standalone_status: revise
+    completion_tier_achieved: conditional-terminal-packet
+    review_verdict: revise
+    theorem_packet_status: not-export-ready
+  source_fingerprint: 0f26144d5bb2b87185a47d2c22ff4deef561575d
 artifacts:
 - path: problems/navier-stokes/external-paper/main.tex
   present: true
-  sha1: 6d4ed6ee65de2fcc67be68a9a3afd120eab0d4ee
-  bytes: 155
-  modified_at: '2026-04-29T19:33:50Z'
+  sha1: ed77cff806ce81c69d5d40c54aa336491df51993
+  bytes: 250
+  modified_at: '2026-05-01T16:01:05Z'
 - path: problems/navier-stokes/source-ledger.yaml
   present: true
   sha1: 3182d49d4443781aed2fdf480508afe7b41b1b18
@@ -94,52 +94,60 @@ artifacts:
   modified_at: '2026-04-30T23:54:20Z'
 - path: problems/navier-stokes/assumption-ledger.yaml
   present: true
-  sha1: 83e6720b1331cbd7c94abc24045f0117268a76ff
+  sha1: f96fac9936fdeb277e5a5098ca71eeb79c90833d
   bytes: 4692
-  modified_at: '2026-05-01T00:37:04Z'
+  modified_at: '2026-05-01T16:36:50Z'
 - path: problems/navier-stokes/dependency-audit.yaml
   present: true
-  sha1: 6fa1d56a8664f495cbb3f7f24ac39a4df8665937
+  sha1: 20ff6fa1d128683a15957d225400ef26d03e1951
   bytes: 1131
-  modified_at: '2026-05-01T00:37:04Z'
+  modified_at: '2026-05-01T16:36:50Z'
 - path: problems/navier-stokes/assumption-audit.yaml
   present: true
-  sha1: 3b738e6cc88b0def36ab130ef29823d8712f2313
+  sha1: 78a005c2240074be004a894fc59e762f21f353bc
   bytes: 1316
-  modified_at: '2026-05-01T00:37:04Z'
+  modified_at: '2026-05-01T16:36:50Z'
 - path: problems/navier-stokes/circularity-audit.yaml
   present: true
-  sha1: d20a38e2e2432df99a3fd9fe01c85e1af4734a68
+  sha1: ae2b6acff4fbc6bbb8f14d67935b106daf66d6fe
   bytes: 1639
-  modified_at: '2026-05-01T00:37:04Z'
+  modified_at: '2026-05-01T16:36:50Z'
 - path: problems/navier-stokes/gap-audit.yaml
   present: true
-  sha1: 601465d6b06be23a78fad4b0cc072ff35bf0cbe2
+  sha1: 064623ff65af51a5bd6e5092b5912312ed3ac533
   bytes: 527
-  modified_at: '2026-05-01T00:37:04Z'
+  modified_at: '2026-05-01T16:36:50Z'
 - path: problems/navier-stokes/gap-ticket.yaml
   present: true
-  sha1: bc22b129e0deb7363414bc6436a96d582d83516b
+  sha1: 2b3816fe6a5f3ffc0dece2a85ffce677010b465c
   bytes: 1080
-  modified_at: '2026-05-01T00:37:04Z'
+  modified_at: '2026-05-01T16:36:50Z'
 - path: problems/navier-stokes/consistency-audit.yaml
   present: true
-  sha1: b247e2df8aa8fe176d3d112409bcb6d635a45bb5
+  sha1: 95b2a74f5566126a46dc60874ddcc3eb36dfe0b8
   bytes: 676
-  modified_at: '2026-05-01T00:37:04Z'
+  modified_at: '2026-05-01T16:36:50Z'
 - path: problems/navier-stokes/dependency-graph.yaml
   present: true
-  sha1: f9905ebacc9e262e1a2a45359de0a04e53cd8b75
+  sha1: c9554116d67a4c6dc6100d2e5f1fa389ec1ef43a
   bytes: 10752
-  modified_at: '2026-05-01T00:37:04Z'
+  modified_at: '2026-05-01T16:36:50Z'
 - path: problems/navier-stokes/failure-mode-checks.yaml
   present: true
-  sha1: 2f67ce390e36e73a264718b15fb573272d1dd743
+  sha1: ed62b80423c7273d62f0c4669d886eed5d3be11b
   bytes: 1368
-  modified_at: '2026-05-01T00:37:04Z'
+  modified_at: '2026-05-01T16:36:50Z'
 - path: problems/navier-stokes/auto-audit.yaml
   present: true
   sha1: 3f40c5a97a3a1a89fedaf045ff741d8443e25058
   bytes: 14748
   modified_at: '2026-04-30T23:54:24Z'
 missing_artifacts: []
+math_frontier_blockers:
+- pctp-hard-terminal-tail-production
+- aact-kx-local-absorption
+- jump-avg-branch-elimination
+- pressure-source-supplier-line-by-line
+truth_alignment:
+  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
+  status: release-blocked-by-math-frontier

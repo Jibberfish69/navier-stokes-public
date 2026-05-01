@@ -1,85 +1,219 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-04-30T23:54:09Z'
-status: exported
-render_quality: typeset
+generated_at: '2026-05-01T19:56:37Z'
+status: stale-blocked-math-frontier
+render_quality: stale-typeset-artifact
 manuscript_source: problems/navier-stokes/external-paper/main.tex
 bundle_dir: problems/navier-stokes/submission-bundle
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
-compiler: "/Library/TeX/texbin/pdflatex"
-stdout: |
-  This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
-   restricted \write18 enabled.
-  entering extended mode
-  (./navier-stokes-submission.tex
-  LaTeX2e <2025-11-01>
-  L3 programming layer <2025-10-24>
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
-  Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo))
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
-  For additional information on amsmath, use the `?' option.
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amscls/amsthm.sty)
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
-  No file navier-stokes-submission.aux.
-  (./sections/main-result.tex
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/usr/local/t
-  exlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) [2]
-  (./navier-stokes-submission.aux) )</usr/local/texlive/2025/texmf-dist/fonts/typ
-  e1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type
-  1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1
-  /public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/
-  public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pu
-  blic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ
-  ic/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/
-  amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/a
-  msfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams
-  fonts/cm/cmti10.pfb>
-  Output written on navier-stokes-submission.pdf (2 pages, 116508 bytes).
-  Transcript written on navier-stokes-submission.log.
-
-  This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
-   restricted \write18 enabled.
-  entering extended mode
-  (./navier-stokes-submission.tex
-  LaTeX2e <2025-11-01>
-  L3 programming layer <2025-10-24>
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
-  Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo))
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
-  For additional information on amsmath, use the `?' option.
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amscls/amsthm.sty)
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
-  (./navier-stokes-submission.aux) (./sections/main-result.tex
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
-  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/usr/local/t
-  exlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) [2]
-  (./navier-stokes-submission.aux) )</usr/local/texlive/2025/texmf-dist/fonts/typ
-  e1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type
-  1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1
-  /public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/
-  public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pu
-  blic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ
-  ic/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/
-  amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/a
-  msfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams
-  fonts/cm/cmti10.pfb>
-  Output written on navier-stokes-submission.pdf (2 pages, 116508 bytes).
-  Transcript written on navier-stokes-submission.log.
+compiler: "/Library/TeX/texbin/xelatex"
+source_metrics:
+  source_word_count: 753
+  bundle_word_count: 1915
+  primary_surface_word_count: 838
+  theorem_packet_word_count: 3513
+skeletal_source_detected: true
+authoritative_content_included: true
+truth_alignment:
+  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
+  status: math-frontier-open
+  note: Existing PDF/export artifacts are stale reproducibility artifacts only; they
+    are not a mathematically verified submission bundle.
+authoritative_supplements:
+- id: authoritative-authoring-surface
+  source_path: problems/navier-stokes/draft-v8.md
+  bundle_path: problems/navier-stokes/submission-bundle/sections/authoritative-authoring-surface.tex
+  kind: markdown
+- id: authoritative-theorem-packet
+  source_path: problems/navier-stokes/theorem-packet.yaml
+  bundle_path: problems/navier-stokes/submission-bundle/sections/authoritative-theorem-packet.tex
+  kind: yaml
+stdout: "This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded
+  format=xelatex)\n restricted \\write18 enabled.\nentering extended mode\n(./navier-stokes-submission.tex\nLaTeX2e
+  <2025-11-01>\nL3 programming layer <2025-10-24>\n(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls\nDocument
+  Class: article 2025/01/22 v1.4n Standard LaTeX document class\n(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo))\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty\nFor
+  additional information on amsmath, use the `?' option.\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty))\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amscls/amsthm.sty)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)\nNo
+  file navier-stokes-submission.aux.\n(./sections/roadmap.tex\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)\nOverfull
+  \\hbox (10.89005pt too wide) in paragraph at lines 7--8\n\\TU/lmr/m/n/10 smallness
+  condition gives finite-depth local regularity. Testing\n the affine-subtracted\n)
+  (./sections/main-result.tex [1] [2]) (./sections/notation-appendix.tex)\n[3] (./sections/authoritative-authoring-surface.tex
+  [4]\nOverfull \\hbox (31.01001pt too wide) in paragraph at lines 55--56\n[]\\TU/lmr/m/n/10
+  ‘problems/navier-stokes/theorem-construction/compactness-upgra\nde-lemma.md‘ \n\nOverfull
+  \\hbox (26.60999pt too wide) in paragraph at lines 56--57\n[]\\TU/lmr/m/n/10 ‘problems/navier-stokes/theorem-construction/nonlinear-compact\nness-upgrade-\n[5]\nOverfull
+  \\hbox (46.542pt too wide) in paragraph at lines 128--129\n\\TU/lmr/m/n/10 construction/monotone-functional-package.md‘,
+  ‘bridge-memos/mono\ntone-functional.md‘,\n\nOverfull \\hbox (6.90999pt too wide)
+  in paragraph at lines 128--129\n\\TU/lmr/m/n/10 and the exact post-‘Q(t)‘ handoff
+  object in ‘theorem-constructio\nn/post-monotone-\n\nOverfull \\hbox (0.26399pt too
+  wide) in paragraph at lines 136--137\n\\TU/lmr/m/n/10 pack.md‘, ‘theorem-construction/scale-barrier-transport-defect-l\nemma.md‘,
+  and\n\nOverfull \\hbox (7.53pt too wide) in paragraph at lines 140--146\n\\TU/lmr/m/n/10
+  package carried by ‘theorem-construction/route-b-euclidean-closu\nre-theorem.md‘,\n[6])
+  (./sections/authoritative-theorem-packet.tex\nOverfull \\hbox (69.09001pt too wide)
+  in paragraph at lines 13--14\n\\TU/lmr/m/n/10 program sense by ‘TGC.A+AACT.Global.noJump+AVG.END.A+READ.END=>P\nCTP.hard‘.\n\nOverfull
+  \\hbox (69.09001pt too wide) in paragraph at lines 17--18\n\\TU/lmr/m/n/10 program
+  sense by ‘TGC.A+AACT.Global.noJump+AVG.END.A+READ.END=>P\nCTP.hard‘.\n[7]\nOverfull
+  \\hbox (178.75pt too wide) in paragraph at lines 43--44\n[]\\TU/lmtt/m/n/10 problems/navier-stokes/theorem-construction/modernized-four-b\nody-schema-torus-tower-geometry.md
+  \n\nOverfull \\hbox (105.25pt too wide) in paragraph at lines 45--46\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/live-frontier-hon\nest-cut-reduction.md
+  \n\nOverfull \\hbox (115.75pt too wide) in paragraph at lines 47--48\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/strict-shadow-no-\nremainder-corollary.md
+  \n\nOverfull \\hbox (178.75pt too wide) in paragraph at lines 49--50\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/euclidean-strict-\nshadow-clay-discharge-criterion.md
+  \n\nOverfull \\hbox (163.0pt too wide) in paragraph at lines 51--52\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/clay-discharge-la\ndder-from-current-reductions.md
+  \n\nOverfull \\hbox (100.0pt too wide) in paragraph at lines 53--54\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/tps-strong-bridge\n-sg-lemma-family.md
+  \n\nOverfull \\hbox (136.75pt too wide) in paragraph at lines 55--56\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/tps-dynamic-sourc\ne-fit-and-open-frontier.md
+  \n\nOverfull \\hbox (147.25pt too wide) in paragraph at lines 57--58\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/tps-coarse-flow-p\nair-gap-theorem-candidate.md
+  \n\nOverfull \\hbox (205.0pt too wide) in paragraph at lines 59--60\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/mpp-terminal-clas\ns-membership-six-burden-closure-note.md
+  \n[8]\nOverfull \\hbox (189.25pt too wide) in paragraph at lines 61--62\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/mpp-class-members\nhip-contradiction-frontier-packet.md
+  \n\nOverfull \\hbox (215.5pt too wide) in paragraph at lines 63--64\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/mpp-class-members\nhip-forward-invariance-theorem-program.md
+  \n\nOverfull \\hbox (189.25pt too wide) in paragraph at lines 65--66\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/mpp-one-field-for\nward-preservation-theorem-program.md
+  \n\nOverfull \\hbox (220.75pt too wide) in paragraph at lines 67--68\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/mpp-lower-carrier\n-interval-integrability-theorem-program.md
+  \n\nOverfull \\hbox (5.5pt too wide) in paragraph at lines 75--76\n[]\\TU/lmtt/m/n/10
+  /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull \\hbox
+  (247.0pt too wide) in paragraph at lines 75--76\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier\n-stokes/source-forensics/master-tex-corpus.md
+  \n\nOverfull \\hbox (5.5pt too wide) in paragraph at lines 77--78\n[]\\TU/lmtt/m/n/10
+  /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull \\hbox
+  (294.25pt too wide) in paragraph at lines 77--78\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier\n-stokes/source-forensics/master-conversation-corpus.md
+  \n\nOverfull \\hbox (5.5pt too wide) in paragraph at lines 79--80\n[]\\TU/lmtt/m/n/10
+  /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull \\hbox
+  (1013.5pt too wide) in paragraph at lines 79--80\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Conversations/C\nhatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-\n2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/077-monogr\naph-drafting-plan-68c1cea3-7eb.md
+  \n\nOverfull \\hbox (5.5pt too wide) in paragraph at lines 81--82\n[]\\TU/lmtt/m/n/10
+  /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull \\hbox
+  (136.75pt too wide) in paragraph at lines 81--82\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS\n-TEX-PDF-Corpus/Rigorous\n\nOverfull
+  \\hbox (5.5pt too wide) in paragraph at lines 81--82\n\\TU/lmtt/m/n/10 Mapping Between
+  Discrete and Continuous Representations of the\n\nOverfull \\hbox (189.25pt too
+  wide) in paragraph at lines 81--82\n\\TU/lmtt/m/n/10 Navier-Stokes Equations and
+  Proof of Global Smoothness__desktop\n_navier_stokes_zip__2025-01-10.tex \n\nOverfull
+  \\hbox (5.5pt too wide) in paragraph at lines 83--84\n[]\\TU/lmtt/m/n/10 /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull
+  \\hbox (378.25pt too wide) in paragraph at lines 83--84\n\\TU/lmtt/m/n/10 Prize
+  Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/R\necoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium\n\nOverfull
+  \\hbox (262.75pt too wide) in paragraph at lines 83--84\n\\TU/lmtt/m/n/10 Prize
+  Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarke\nr/20260325-100820/Desktop/Navier-stokes/Rigorous\n\nOverfull
+  \\hbox (5.5pt too wide) in paragraph at lines 83--84\n\\TU/lmtt/m/n/10 Mapping Between
+  Discrete and Continuous Representations of the\n\nOverfull \\hbox (5.5pt too wide)
+  in paragraph at lines 85--86\n[]\\TU/lmtt/m/n/10 /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull
+  \\hbox (378.25pt too wide) in paragraph at lines 85--86\n\\TU/lmtt/m/n/10 Prize
+  Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/R\necoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium\n\nOverfull
+  \\hbox (278.5pt too wide) in paragraph at lines 85--86\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarke\nr/20260325-100820/Research-Consolidation/Millennium\n\nOverfull
+  \\hbox (26.5pt too wide) in paragraph at lines 85--86\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/TeX/Rigorous
+  Mapping Between Discr\nete\n\nOverfull \\hbox (0.25pt too wide) in paragraph at
+  lines 85--86\n\\TU/lmtt/m/n/10 and Continuous Representations of the Navier–Stokes
+  Equations\n\nOverfull \\hbox (5.5pt too wide) in paragraph at lines 87--88\n[]\\TU/lmtt/m/n/10
+  /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull \\hbox
+  (378.25pt too wide) in paragraph at lines 87--88\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/R\necoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium\n\nOverfull
+  \\hbox (278.5pt too wide) in paragraph at lines 87--88\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarke\nr/20260325-100820/Research-Consolidation/Millennium\n\nOverfull
+  \\hbox (514.75pt too wide) in paragraph at lines 87--88\n\\TU/lmtt/m/n/10 Prize
+  Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discr\nete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_\nGlobal_Smoothness\n\nOverfull
+  \\hbox (5.5pt too wide) in paragraph at lines 89--90\n[]\\TU/lmtt/m/n/10 /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull
+  \\hbox (378.25pt too wide) in paragraph at lines 89--90\n\\TU/lmtt/m/n/10 Prize
+  Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/R\necoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium\n\nOverfull
+  \\hbox (278.5pt too wide) in paragraph at lines 89--90\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarke\nr/20260325-100820/Research-Consolidation/Millennium\n\nOverfull
+  \\hbox (535.75pt too wide) in paragraph at lines 89--90\n\\TU/lmtt/m/n/10 Prize
+  Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discr\nete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_\nGlobal_Smoothness.tex
+  \n) [9] (./navier-stokes-submission.aux) )\n(see the transcript file for additional
+  information)\nOutput written on navier-stokes-submission.pdf (9 pages).\nTranscript
+  written on navier-stokes-submission.log.\n\nThis is XeTeX, Version 3.141592653-2.6-0.999997
+  (TeX Live 2025) (preloaded format=xelatex)\n restricted \\write18 enabled.\nentering
+  extended mode\n(./navier-stokes-submission.tex\nLaTeX2e <2025-11-01>\nL3 programming
+  layer <2025-10-24>\n(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls\nDocument
+  Class: article 2025/01/22 v1.4n Standard LaTeX document class\n(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo))\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty\nFor
+  additional information on amsmath, use the `?' option.\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty))\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amscls/amsthm.sty)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)\n(./navier-stokes-submission.aux)
+  (./sections/roadmap.tex\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)\nOverfull
+  \\hbox (10.89005pt too wide) in paragraph at lines 7--8\n\\TU/lmr/m/n/10 smallness
+  condition gives finite-depth local regularity. Testing\n the affine-subtracted\n)
+  (./sections/main-result.tex [1] [2]) (./sections/notation-appendix.tex)\n[3] (./sections/authoritative-authoring-surface.tex
+  [4]\nOverfull \\hbox (31.01001pt too wide) in paragraph at lines 55--56\n[]\\TU/lmr/m/n/10
+  ‘problems/navier-stokes/theorem-construction/compactness-upgra\nde-lemma.md‘ \n\nOverfull
+  \\hbox (26.60999pt too wide) in paragraph at lines 56--57\n[]\\TU/lmr/m/n/10 ‘problems/navier-stokes/theorem-construction/nonlinear-compact\nness-upgrade-\n[5]\nOverfull
+  \\hbox (46.542pt too wide) in paragraph at lines 128--129\n\\TU/lmr/m/n/10 construction/monotone-functional-package.md‘,
+  ‘bridge-memos/mono\ntone-functional.md‘,\n\nOverfull \\hbox (6.90999pt too wide)
+  in paragraph at lines 128--129\n\\TU/lmr/m/n/10 and the exact post-‘Q(t)‘ handoff
+  object in ‘theorem-constructio\nn/post-monotone-\n\nOverfull \\hbox (0.26399pt too
+  wide) in paragraph at lines 136--137\n\\TU/lmr/m/n/10 pack.md‘, ‘theorem-construction/scale-barrier-transport-defect-l\nemma.md‘,
+  and\n\nOverfull \\hbox (7.53pt too wide) in paragraph at lines 140--146\n\\TU/lmr/m/n/10
+  package carried by ‘theorem-construction/route-b-euclidean-closu\nre-theorem.md‘,\n[6])
+  (./sections/authoritative-theorem-packet.tex\nOverfull \\hbox (69.09001pt too wide)
+  in paragraph at lines 13--14\n\\TU/lmr/m/n/10 program sense by ‘TGC.A+AACT.Global.noJump+AVG.END.A+READ.END=>P\nCTP.hard‘.\n\nOverfull
+  \\hbox (69.09001pt too wide) in paragraph at lines 17--18\n\\TU/lmr/m/n/10 program
+  sense by ‘TGC.A+AACT.Global.noJump+AVG.END.A+READ.END=>P\nCTP.hard‘.\n[7]\nOverfull
+  \\hbox (178.75pt too wide) in paragraph at lines 43--44\n[]\\TU/lmtt/m/n/10 problems/navier-stokes/theorem-construction/modernized-four-b\nody-schema-torus-tower-geometry.md
+  \n\nOverfull \\hbox (105.25pt too wide) in paragraph at lines 45--46\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/live-frontier-hon\nest-cut-reduction.md
+  \n\nOverfull \\hbox (115.75pt too wide) in paragraph at lines 47--48\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/strict-shadow-no-\nremainder-corollary.md
+  \n\nOverfull \\hbox (178.75pt too wide) in paragraph at lines 49--50\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/euclidean-strict-\nshadow-clay-discharge-criterion.md
+  \n\nOverfull \\hbox (163.0pt too wide) in paragraph at lines 51--52\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/clay-discharge-la\ndder-from-current-reductions.md
+  \n\nOverfull \\hbox (100.0pt too wide) in paragraph at lines 53--54\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/tps-strong-bridge\n-sg-lemma-family.md
+  \n\nOverfull \\hbox (136.75pt too wide) in paragraph at lines 55--56\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/tps-dynamic-sourc\ne-fit-and-open-frontier.md
+  \n\nOverfull \\hbox (147.25pt too wide) in paragraph at lines 57--58\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/tps-coarse-flow-p\nair-gap-theorem-candidate.md
+  \n\nOverfull \\hbox (205.0pt too wide) in paragraph at lines 59--60\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/mpp-terminal-clas\ns-membership-six-burden-closure-note.md
+  \n[8]\nOverfull \\hbox (189.25pt too wide) in paragraph at lines 61--62\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/mpp-class-members\nhip-contradiction-frontier-packet.md
+  \n\nOverfull \\hbox (215.5pt too wide) in paragraph at lines 63--64\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/mpp-class-members\nhip-forward-invariance-theorem-program.md
+  \n\nOverfull \\hbox (189.25pt too wide) in paragraph at lines 65--66\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/mpp-one-field-for\nward-preservation-theorem-program.md
+  \n\nOverfull \\hbox (220.75pt too wide) in paragraph at lines 67--68\n[]\\TU/lmtt/m/n/10
+  problems/navier-stokes/theorem-construction/mpp-lower-carrier\n-interval-integrability-theorem-program.md
+  \n\nOverfull \\hbox (5.5pt too wide) in paragraph at lines 75--76\n[]\\TU/lmtt/m/n/10
+  /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull \\hbox
+  (247.0pt too wide) in paragraph at lines 75--76\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier\n-stokes/source-forensics/master-tex-corpus.md
+  \n\nOverfull \\hbox (5.5pt too wide) in paragraph at lines 77--78\n[]\\TU/lmtt/m/n/10
+  /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull \\hbox
+  (294.25pt too wide) in paragraph at lines 77--78\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier\n-stokes/source-forensics/master-conversation-corpus.md
+  \n\nOverfull \\hbox (5.5pt too wide) in paragraph at lines 79--80\n[]\\TU/lmtt/m/n/10
+  /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull \\hbox
+  (1013.5pt too wide) in paragraph at lines 79--80\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Conversations/C\nhatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-\n2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/077-monogr\naph-drafting-plan-68c1cea3-7eb.md
+  \n\nOverfull \\hbox (5.5pt too wide) in paragraph at lines 81--82\n[]\\TU/lmtt/m/n/10
+  /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull \\hbox
+  (136.75pt too wide) in paragraph at lines 81--82\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS\n-TEX-PDF-Corpus/Rigorous\n\nOverfull
+  \\hbox (5.5pt too wide) in paragraph at lines 81--82\n\\TU/lmtt/m/n/10 Mapping Between
+  Discrete and Continuous Representations of the\n\nOverfull \\hbox (189.25pt too
+  wide) in paragraph at lines 81--82\n\\TU/lmtt/m/n/10 Navier-Stokes Equations and
+  Proof of Global Smoothness__desktop\n_navier_stokes_zip__2025-01-10.tex \n\nOverfull
+  \\hbox (5.5pt too wide) in paragraph at lines 83--84\n[]\\TU/lmtt/m/n/10 /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull
+  \\hbox (378.25pt too wide) in paragraph at lines 83--84\n\\TU/lmtt/m/n/10 Prize
+  Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/R\necoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium\n\nOverfull
+  \\hbox (262.75pt too wide) in paragraph at lines 83--84\n\\TU/lmtt/m/n/10 Prize
+  Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarke\nr/20260325-100820/Desktop/Navier-stokes/Rigorous\n\nOverfull
+  \\hbox (5.5pt too wide) in paragraph at lines 83--84\n\\TU/lmtt/m/n/10 Mapping Between
+  Discrete and Continuous Representations of the\n\nOverfull \\hbox (5.5pt too wide)
+  in paragraph at lines 85--86\n[]\\TU/lmtt/m/n/10 /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull
+  \\hbox (378.25pt too wide) in paragraph at lines 85--86\n\\TU/lmtt/m/n/10 Prize
+  Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/R\necoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium\n\nOverfull
+  \\hbox (278.5pt too wide) in paragraph at lines 85--86\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarke\nr/20260325-100820/Research-Consolidation/Millennium\n\nOverfull
+  \\hbox (26.5pt too wide) in paragraph at lines 85--86\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/TeX/Rigorous
+  Mapping Between Discr\nete\n\nOverfull \\hbox (0.25pt too wide) in paragraph at
+  lines 85--86\n\\TU/lmtt/m/n/10 and Continuous Representations of the Navier–Stokes
+  Equations\n\nOverfull \\hbox (5.5pt too wide) in paragraph at lines 87--88\n[]\\TU/lmtt/m/n/10
+  /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull \\hbox
+  (378.25pt too wide) in paragraph at lines 87--88\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/R\necoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium\n\nOverfull
+  \\hbox (278.5pt too wide) in paragraph at lines 87--88\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarke\nr/20260325-100820/Research-Consolidation/Millennium\n\nOverfull
+  \\hbox (514.75pt too wide) in paragraph at lines 87--88\n\\TU/lmtt/m/n/10 Prize
+  Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discr\nete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_\nGlobal_Smoothness\n\nOverfull
+  \\hbox (5.5pt too wide) in paragraph at lines 89--90\n[]\\TU/lmtt/m/n/10 /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull
+  \\hbox (378.25pt too wide) in paragraph at lines 89--90\n\\TU/lmtt/m/n/10 Prize
+  Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/R\necoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium\n\nOverfull
+  \\hbox (278.5pt too wide) in paragraph at lines 89--90\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarke\nr/20260325-100820/Research-Consolidation/Millennium\n\nOverfull
+  \\hbox (535.75pt too wide) in paragraph at lines 89--90\n\\TU/lmtt/m/n/10 Prize
+  Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discr\nete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_\nGlobal_Smoothness.tex
+  \n) [9] (./navier-stokes-submission.aux) )\n(see the transcript file for additional
+  information)\nOutput written on navier-stokes-submission.pdf (9 pages).\nTranscript
+  written on navier-stokes-submission.log.\n"
 stderr: "\n"
 fallback:

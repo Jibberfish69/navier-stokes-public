@@ -3,21 +3,30 @@ version: 2
 identity:
   problem_id: navier-stokes
   audit_id: gap-audit-navier-stokes
-  generated_at: '2026-05-01T00:37:04Z'
+  generated_at: '2026-05-01T16:36:50Z'
   generator: system/runner/lib/release_surface_reconciler.rb
 status: passed
-pass: true
-release_eligible: true
+pass: false
+release_eligible: false
 theorem_matrix:
   total_obligations: 25
   grounded_count: 25
-  blocking_count: 0
-  all_discharged: true
+  blocking_count: 4
+  all_discharged: false
 release_gaps: []
 side_sandbox_gaps:
 - id: MEG
   status: open-side-primitive
   release_blocking: false
 verdict:
-  gaps_resolved_for_current_release_scope: true
+  gaps_resolved_for_current_release_scope: false
   use_as_gap_ledger: true
+
+truth_alignment:
+  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
+  status: math-frontier-open
+  blockers:
+  - pctp-hard-terminal-tail-production
+  - aact-kx-local-absorption
+  - jump-avg-branch-elimination
+  - pressure-source-supplier-line-by-line

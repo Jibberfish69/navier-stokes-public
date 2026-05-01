@@ -4,20 +4,19 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-04-30T23:54:19Z'
+  evaluated_at: '2026-05-01T20:45:40Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
-  disposition: submission-candidate
-  release_posture: export-ready
+  disposition: blocked
+  release_posture: not-export-ready
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: full-mpp-closure
+  completion_tier_achieved: conditional-terminal-packet
   next_cell_type:
-  next_stage: submission-candidate
-  next_action: Hold the package as a submission candidate for a full-MPP closure paper
-    until internal export or submission handling is scheduled.
-  rationale: Honesty review returned a full-MPP closure completion tier, the proof-obligation
-    matrix is fully discharged, and the submission verdict cleared the manuscript
-    as a submission candidate.
+  next_stage: release-blocked
+  next_action: Hold the package blocked until the release blocker changes materially
+    or an internal reroute becomes available.
+  rationale: Honesty review did not define a safe upstream respawn path, so the package
+    is parked explicitly.
 artifacts:
   draft:
   draft_v6: problems/navier-stokes/draft-v6.md
@@ -31,8 +30,24 @@ artifacts:
   typeset_audit: problems/navier-stokes/submission-bundle/typeset-audit.yaml
   review_log: problems/navier-stokes/review-log.md
   review_verdict: problems/navier-stokes/review-verdict.yaml
-blockers: []
+blockers:
+- The theorem packet remains useful as a conditional theorem-program index, but it
+  is not export-ready as a full-MPP proof.
+- The independent audit identifies active mathematical blockers in PCTP.hard, AACT.KX,
+  Jump_avg, and pressure/source supplier verification.
+- Draft/export artifacts may remain reproducible as files, but they cannot be treated
+  as a mathematically verified release bundle.
+- pctp-hard-terminal-tail-production
+- aact-kx-local-absorption
+- jump-avg-branch-elimination
+- pressure-source-supplier-line-by-line
+- Stand-alone status remains `revise`.
+- Completion tier is still `conditional-terminal-packet`, below a paper-complete or
+  full-closure submission surface.
+- Honesty review verdict is still `revise`.
+- Submission export status changed after the current review verdict was written.
+- Typeset audit changed after the current review verdict was written.
+- Submission export is not a clean typeset export yet.
 summary:
-  queue_effect: submission-candidate
-  registry_note: problem is terminal until internal export or submission handling
-    is scheduled
+  queue_effect: blocked
+  registry_note: problem is blocked at release gate

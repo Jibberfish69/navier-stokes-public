@@ -243,11 +243,11 @@ theorem_surface:
 summary:
   grounded_step_count: 25
   promoted_extension_count: 0
-  bridge_discharge_blocking_count: 0
+  bridge_discharge_blocking_count: 4
   bridge_discharge_only_count: 0
-  theorem_warrant_blocking_count: 0
-  open_obligation_count: 0
-  math_frontier_open_count: 0
+  theorem_warrant_blocking_count: 4
+  open_obligation_count: 4
+  math_frontier_open_count: 4
   frontier_context_count: 0
   frontier_route_container_count: 0
   frontier_downstream_support_count: 0
@@ -255,3 +255,12 @@ summary:
   synthesis_import_surface_count: 0
   ready_for_submission: true
   theorem_surface_id: theorem-surface-navier-stokes-eeac2572c4ba
+
+truth_alignment:
+  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
+  status: math-frontier-open
+  blockers:
+  - pctp-hard-terminal-tail-production
+  - aact-kx-local-absorption
+  - jump-avg-branch-elimination
+  - pressure-source-supplier-line-by-line

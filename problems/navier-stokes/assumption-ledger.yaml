@@ -7,9 +7,9 @@ identity:
   purpose: assumption and release-gate ledger after H1-H6 and Theorem 2.1 warrant
     alignment
 status:
-  ledger_status: release-eligible
+  ledger_status: math-frontier-open
   all_matrix_assumptions_discharged: true
-  release_eligible: true
+  release_eligible: false
   release_gate: proof-promotion-release-surface-reconciled
 source_evidence:
   proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
@@ -89,8 +89,17 @@ summary:
   blocking_or_unresolved_matrix_count: 0
   hfg_side_primitives_open:
   - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
-  release_blocking_count: 0
+  release_blocking_count: 4
 release_blockers: []
 required_next_actions: []
-generated_at: '2026-05-01T00:37:04Z'
-pass: true
+generated_at: '2026-05-01T16:36:50Z'
+pass: false
+
+truth_alignment:
+  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
+  status: math-frontier-open
+  blockers:
+  - pctp-hard-terminal-tail-production
+  - aact-kx-local-absorption
+  - jump-avg-branch-elimination
+  - pressure-source-supplier-line-by-line

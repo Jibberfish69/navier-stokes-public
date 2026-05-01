@@ -5,13 +5,13 @@ identity:
   artifact_id: assumption-audit-navier-stokes
   created_by: release_surface_reconciler
   purpose: assumption discharge audit reconciled from release-ready matrix
-generated_at: '2026-05-01T00:37:04Z'
+generated_at: '2026-05-01T16:36:50Z'
 status:
   audit_status: assumption-discharge-closed
-  pass: true
-  route_pass: true
-  release_eligible: true
-pass: true
+  pass: false
+  route_pass: false
+  release_eligible: false
+pass: false
 source:
   proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
   review_verdict: problems/navier-stokes/review-verdict.yaml
@@ -21,7 +21,7 @@ source:
 summary:
   matrix_assumptions_discharged: true
   blocking_or_unresolved_matrix_count: 0
-  release_blocking_count: 0
+  release_blocking_count: 4
   theorem_2_1_scope: class-membership closure warrant
   clay_full_mpp_scope: submission-candidate
 findings:
@@ -33,6 +33,15 @@ verdict:
   stronger_clay_promotion_status: closed
 matrix_summary:
   total_obligations: 25
-  blocking_count: 0
-  frontier_count: 0
-  all_discharged: true
+  blocking_count: 4
+  frontier_count: 4
+  all_discharged: false
+
+truth_alignment:
+  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
+  status: math-frontier-open
+  blockers:
+  - pctp-hard-terminal-tail-production
+  - aact-kx-local-absorption
+  - jump-avg-branch-elimination
+  - pressure-source-supplier-line-by-line

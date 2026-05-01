@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-04-30T23:54:24Z'
+  generated_at: '2026-05-01T20:45:43Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -73,19 +73,15 @@ shared_alignment:
       patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
-    route_label: periodic terminal-tail bridge promotion audit after PCTP.hard discharge
-    current_route_name: periodic terminal-tail bridge promotion audit after PCTP.hard
-      discharge
-    exact_cut_summary: The primary theorem-facing packet is now the periodic terminal-tail
-      bridge consumption audit. The live local membership target remains `M_Q(u,p)`,
-      witnessed through the exact `Pack` / `Part` / `Field` vocabulary. The six-burden
-      stack `LCI.A`, `CJ.A_low.7`, `FCI.5f`, `OFP.A`, `CFI.A`, and `End_NS` is terminally
-      closed under the retained H1-H6 conditional packet, and the averaged terminal-tail
-      bridge now grounds `PCTP.hard / TTU.A` in the local theorem-program sense by
-      `TGC.A+AACT.Global.noJump+AVG.END.A+READ.END=>PCTP.hard`. This removes the proof-matrix
-      frontier, but does not by itself declare public Clay release; release remains
-      governed by promotion, target-fidelity, source/export, review, submission, reproducibility,
-      and final release-decision artifacts.
+    route_label: PCTP.hard terminal-tail production remains open after independent
+      math audit
+    current_route_name: PCTP.hard terminal-tail production remains open after independent
+      math audit
+    exact_cut_summary: The independent mathematical audit reopened the terminal-tail
+      theorem frontier. The active mathematical obligation is to prove uniform terminal-tail
+      retained Pack/Part/Field/tower readout from `OriginalSmoothData`; local `AACT.KX`
+      absorption, `Jump_avg` branch elimination, and pressure/source suppliers remain
+      unresolved.
     paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
@@ -113,7 +109,7 @@ local_derivation:
   required_packets: []
   leadership_status: aligned
   net_new_local_theorem_count: 0
-  recommended_next_cell_type:
+  recommended_next_cell_type: dependency-discharge
 cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
@@ -183,10 +179,10 @@ cross_lane_broadcast:
   - problems/navier-stokes/dependency-discharge.yaml
   - problems/navier-stokes/object-formalization.yaml
 auditor:
-  status: ok
-  audit_status: audited-ok
+  status: needs-attention
+  audit_status: audited-needs-fix
   branch_terminal_status: no-branches
-  open_issue_count: 0
+  open_issue_count: 1
   autofixable_issue_count: 0
   fix_plan_count: 0
   branch_count: 0
@@ -197,29 +193,33 @@ auditor:
 frontier_projection:
   status: cleared
   primary_target:
+    label: 'PCTP.hard terminal-tail production: prove OriginalSmoothData implies uniform
+      terminal-tail retained Pack/Part/Field/tower readout.'
+    recommended_stage: dependency-discharge
   one_step_beyond: []
   two_steps_beyond: []
   route_pressure: []
-  recommended_next_cell_type:
+  recommended_next_cell_type: dependency-discharge
 summary:
   phase: steady-state
-  execution_state: submission-candidate
+  execution_state: export-readiness-hold
   leadership_status: aligned
   alignment_complete: true
   proof_matrix_all_discharged: true
-  proof_assembly_open_obligation_count: 0
+  proof_assembly_open_obligation_count: 4
   authoritative_source_gap_count: 0
-  export_readiness_hold_state: none
+  export_readiness_hold_state: export-readiness-hold
   exact_local_packet_count: 0
   net_new_local_theorem_count: 0
   projected_frontier_count: 0
   current_open_obligation_count: 0
   open_obligations_state: cleared
   theorem_work_blocked: false
-  blocked_queue_interpretation: none
-  on_recommended_track: true
-  recommended_next_cell_type:
-  audit_status: audited-ok
+  blocked_queue_interpretation: export-readiness hold; proof matrix remains discharged
+    and no theorem-work blocker is implied
+  on_recommended_track: false
+  recommended_next_cell_type: dependency-discharge
+  audit_status: audited-needs-fix
   branch_terminal_status: no-branches
   unresolved_branch_terminal_count: 0
   current_next_cell_type: ''

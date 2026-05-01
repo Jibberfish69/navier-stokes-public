@@ -3,12 +3,12 @@ version: 2
 identity:
   problem_id: navier-stokes
   audit_id: consistency-audit-navier-stokes
-  generated_at: '2026-05-01T00:37:04Z'
+  generated_at: '2026-05-01T16:36:50Z'
   generator: system/runner/lib/release_surface_reconciler.rb
 status: passed
-pass: true
-release_eligible: true
-submission_ready: true
+pass: false
+release_eligible: false
+submission_ready: false
 release_decision_present: true
 export_bundle_verified: true
 promotion_packet_blocked: false
@@ -17,11 +17,20 @@ checks:
   proof_obligation_matrix_closed: true
   review_verdict_accept: true
   submission_verdict_ready: true
-  paper_quality_pass: true
+  paper_quality_pass: false
   hfg_side_sandbox_quarantined: true
 summary:
   total_obligations: 25
-  blocking_count: 0
-  frontier_count: 0
-  all_discharged: true
+  blocking_count: 4
+  frontier_count: 4
+  all_discharged: false
 blockers: []
+
+truth_alignment:
+  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
+  status: math-frontier-open
+  blockers:
+  - pctp-hard-terminal-tail-production
+  - aact-kx-local-absorption
+  - jump-avg-branch-elimination
+  - pressure-source-supplier-line-by-line

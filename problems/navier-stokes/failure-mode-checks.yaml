@@ -3,11 +3,11 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: failure-mode-checks-navier-stokes
-  generated_at: '2026-05-01T00:37:04Z'
+  generated_at: '2026-05-01T16:36:50Z'
   generator: system/runner/lib/release_surface_reconciler.rb
 status: passed
-pass: true
-release_eligible: true
+pass: false
+release_eligible: false
 source:
   auto_audit: problems/navier-stokes/auto-audit.yaml
   proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
@@ -30,14 +30,23 @@ checks:
   status: passed
   surface: problems/navier-stokes/consistency-audit.yaml
 auto_audit_certification:
-  current_package_status: full-mpp-closure-ready
-  standalone_status: accept
-  completion_tier_achieved: full-mpp-closure
-  review_verdict: accept
+  current_package_status: math-frontier-open
+  standalone_status: revise
+  completion_tier_achieved: conditional-terminal-packet
+  review_verdict: revise
   theorem_packet_status: export-ready
 summary:
   total_obligations: 25
-  blocking_count: 0
-  frontier_count: 0
-  all_discharged: true
-  failure_mode_blocking_count: 0
+  blocking_count: 4
+  frontier_count: 4
+  all_discharged: false
+  failure_mode_blocking_count: 4
+
+truth_alignment:
+  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
+  status: math-frontier-open
+  blockers:
+  - pctp-hard-terminal-tail-production
+  - aact-kx-local-absorption
+  - jump-avg-branch-elimination
+  - pressure-source-supplier-line-by-line

@@ -2,10 +2,16 @@
 version: 1
 problem_id: navier-stokes
 display_name: Navier-Stokes Global Regularity
-generated_at: '2026-04-30T23:54:09Z'
+generated_at: '2026-05-01T19:56:37Z'
+bundle_status: stale-blocked-math-frontier
 manuscript_source: problems/navier-stokes/external-paper/main.tex
 manuscript_source_kind: tex
 manuscript_source_reason: campaign-status.current_manuscript_surface.external_surface
+source_metrics:
+  source_word_count: 753
+  bundle_word_count: 1915
+  primary_surface_word_count: 838
+  theorem_packet_word_count: 3513
 submission_metadata: problems/navier-stokes/submission-metadata.yaml
 outputs:
   tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -26,3 +32,17 @@ copied_artifacts:
   frozen_core: problems/navier-stokes/submission-bundle/frozen-core.md
   source_frontier: problems/navier-stokes/submission-bundle/source-frontier.yaml
   promotion_verdict: problems/navier-stokes/submission-bundle/promotion-verdict.yaml
+authoritative_supplements:
+- id: authoritative-authoring-surface
+  source_path: problems/navier-stokes/draft-v8.md
+  bundle_path: problems/navier-stokes/submission-bundle/sections/authoritative-authoring-surface.tex
+  kind: markdown
+- id: authoritative-theorem-packet
+  source_path: problems/navier-stokes/theorem-packet.yaml
+  bundle_path: problems/navier-stokes/submission-bundle/sections/authoritative-theorem-packet.tex
+  kind: yaml
+
+truth_alignment:
+  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
+  status: math-frontier-open
+  note: Submission bundle is a stale artifact and not a mathematically verified release bundle.

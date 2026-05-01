@@ -11,27 +11,26 @@ posture:
   theorem_posture:
     theorem_target: full-MPP periodic Clay closure via terminal promotion from the
       installed Theorem 2.1 class-membership warrant
-    current_package_status: full-mpp-closure-ready
-    support_basis: Recovered source support converged with the speculative branch,
-      so the next safe move is a grounded backbone rebuild.
-    standalone_status: accept
+    current_package_status: math-frontier-open
+    support_basis: Independent mathematical audit reopened terminal-tail production
+      and marked the zero-frontier posture as overpromoted.
+    standalone_status: revise
 supporting_sections:
   reviewer_risks:
   - 'Do not overclaim beyond the lowest safe theorem surface: The official Clay target
     allows either the whole-space branch on `R^3` or the periodic branch on `T^3`.'
   - 'First unsafe overclaim to avoid: Replacing the official Clay statement by a weaker
     route-local or data-class-local statement.'
-  - Keep the full-MPP closure tied to the periodic Clay terminal-promotion theorem,
-    the grounded proof-obligation matrix, and the official `T^3` zero-force branch.
+  - Do not claim full-MPP closure while the proof-obligation matrix carries active
+    PCTP.hard terminal-tail blockers on the official `T^3` zero-force branch.
   required_local_explanations: []
   post_release_theorem_upgrade_gaps:
   - 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem 2.1
     class-membership warrant eliminates every first finite classical endpoint for
     arbitrary smooth divergence-free zero-mean data on T^3.'
   promotion_rule:
-  - Promote beyond `revise` only because the proof-obligation matrix is fully grounded
-    and the periodic Clay terminal-promotion theorem is now the active full-MPP closure
-    surface.
+  - Do not promote beyond `revise` until the active PCTP.hard terminal-tail blockers
+    are discharged.
   - Keep the lowest safe claim explicit and do not let recovered speculative material
     masquerade as a proved bridge.
   - Re-run honesty-review only after the local package has real prose and an explicit
