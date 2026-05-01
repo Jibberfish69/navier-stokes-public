@@ -1,0 +1,37 @@
+# E_u additive carrier reduces to active-window amplitude gain
+
+## Target
+
+Construct an additive `E_u` carrier with bounded-overlap upper control for the `Jumpavg` no-escape route.
+
+## Test
+
+Raw finite carriers can control unweighted sums over bounded-overlap windows. This is the mechanism behind the installed `nu_SCF` upper estimate.
+
+The branch contradiction requires more: a terminal scale-normalized upper estimate compatible with shrinking active windows. Schematically, for terminal windows `Q_k`, one needs an estimate of the form
+
+```math
+sum_k r_k^{-alpha} C_final(Q_k) <= C(E0,source).
+```
+
+For `E_u`, no additive carrier with this scale-normalized bounded-overlap estimate is installed.
+
+## Obstruction
+
+The active-square / Carleson surfaces identify the exact missing ingredient. Raw finite mass does not provide the missing scale factor. To gain it, one needs an active-window amplitude gain or a heat-scale square-source theorem. Finite energy permits concentration on shrinking windows, so the desired estimate cannot be obtained from the global energy ledger alone.
+
+Adding `E_u` to the charge fixes component coverage only formally. It does not produce the scale-normalized upper estimate needed for a contradiction.
+
+## Verdict
+
+The additive `E_u` carrier theorem remains open. It reduces to:
+
+```math
+active-window amplitude gain
+```
+
+or an equivalent heat-scale square-source estimate.
+
+## Boundary
+
+This note records a failed construction of the additive E_u carrier and narrows the replacement theorem needed for the original-data branch.
