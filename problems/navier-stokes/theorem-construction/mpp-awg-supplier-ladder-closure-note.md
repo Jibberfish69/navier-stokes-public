@@ -74,3 +74,30 @@ JAVG.1+JAVG.2
 
 Without it, `Jump_avg` is not eliminated without assuming `Field_avg` on that
 branch.
+
+## Deep Source Follow-Up
+
+The deeper supplier targets were also executed in
+`mpp-awg-deep-source-frontier-closure-note.md`:
+
+- positive-carrier replacement,
+- signed weighted lifted-remainder / strain-sign cancellation,
+- active-square residual-tail control,
+- monotone/source-dominance no-pulse,
+- direct active-shell source normalization.
+
+They close to one sharper primitive:
+
+```math
+\boxed{
+SOURCE.NO-PULSE.A:
+OriginalSmoothData
+\Longrightarrow
+\text{nonlinear shell-flux/source control ruling out source-balanced active pulses.}
+}
+```
+
+Thus `AWG.A`, `NOHOP.A`, heat-scale square-source, direct active-window
+Carleson, signed strain cancellation plus residual-tail, and monotone/source
+dominance are currently equivalent route presentations of the same missing
+source-control theorem.

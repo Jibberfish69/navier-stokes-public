@@ -114,6 +114,13 @@ The four native supplier attempts after `AWG.A` are recorded in:
 Their combined closure is recorded in
 `mpp-awg-supplier-ladder-closure-note.md`.
 
+The deeper source-frontier closure is recorded in
+`mpp-awg-deep-source-frontier-closure-note.md`. It verifies that positive-carrier
+replacement, signed strain cancellation, active-square residual-tail,
+monotone/source-dominance, and direct active-shell normalization do not provide
+separate installed escapes from `AWG.A`; all reduce to the same no-pulse source
+atom.
+
 ## Final Remaining Theorem
 
 The no-`Field_avg` `Jump_avg` branch is closed if and only if the route installs
@@ -145,6 +152,17 @@ or
 
 ```math
 \text{monotone/source domination forbidding source-balanced active pulses}.
+```
+
+Equivalently:
+
+```math
+\boxed{
+SOURCE.NO-PULSE.A:
+OriginalSmoothData
+\Longrightarrow
+\text{nonlinear shell-flux/source control ruling out source-balanced active pulses.}
+}
 ```
 
 ## Verdict

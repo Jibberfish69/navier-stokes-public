@@ -22,6 +22,7 @@ May 1 MCP reattempts are recorded in:
 - `mpp-nonlinear-shell-flux-source-theorem-attempt-note.md`
 - `mpp-jump-avg-final-active-window-source-wall-note.md`
 - `mpp-nohop-active-window-chain-attempt-note.md`
+- `mpp-qbound-to-awg-and-qdrain-wall-note.md`
 - `mpp-heat-scale-square-source-terminal-attempt-note.md`
 - `mpp-direct-active-window-carleson-attempt-note.md`
 - `mpp-signed-lifted-remainder-residual-tail-attempt-note.md`
@@ -354,3 +355,13 @@ The currently missing source theorem is exactly a heat-scale square-source,
 direct active-square / active-window Carleson, signed weighted
 lifted-remainder-plus-residual-tail, or monotone/source-dominance theorem
 forbidding source-balanced active pulses.
+
+The monotone-functional route gives an equivalent stronger supplier path:
+
+```math
+QDrain.A\Longrightarrow QBound.A\Longrightarrow AWG.A
+\Longrightarrow(Jump_{avg}\Rightarrow\bot).
+```
+
+Here `QDrain.A` is the missing one-sided enstrophy drain controlling the
+vortex-stretching cubic in the `Q(t)` identity. It is not currently installed.
