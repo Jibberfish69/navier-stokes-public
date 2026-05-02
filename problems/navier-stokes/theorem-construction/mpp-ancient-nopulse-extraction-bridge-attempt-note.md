@@ -230,14 +230,15 @@ Thus the direct compactness route now reads:
 
 ```math
 \boxed{
-(DiagDom.A\ \text{or}\ LocalSource.NoPulse.A)
-+
-Ancient.NoPulse^{src}
+(DiagDom.A+Ancient.NoPulse^{src})
+\quad\text{or}\quad
+LocalSource.NoPulse.A
 \Longrightarrow
 MSC.BadAC.
 }
 ```
 
 Here `DiagDom.A` would recover a diagonal local carrier from the global product,
-while `LocalSource.NoPulse.A` bypasses the global product and proves the
-branch-native no-pulse theorem on the pre-Cauchy same-fluid source packet.
+which would still need `Ancient.NoPulse^{src}`.  `LocalSource.NoPulse.A`
+bypasses the global product and proves the branch-native no-pulse theorem
+directly on the pre-Cauchy same-fluid source packet.

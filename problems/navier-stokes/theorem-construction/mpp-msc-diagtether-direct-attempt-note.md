@@ -137,9 +137,9 @@ compactness dependency is:
 
 ```math
 \boxed{
-(DiagDom.A\ \text{or}\ LocalSource.NoPulse.A)
-+
-Ancient.NoPulse^{src}
+(DiagDom.A+Ancient.NoPulse^{src})
+\quad\text{or}\quad
+LocalSource.NoPulse.A
 \Longrightarrow
 SOURCE.NO\text{-}PULSE.A.
 }

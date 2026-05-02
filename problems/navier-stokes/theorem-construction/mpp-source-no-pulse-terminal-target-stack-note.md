@@ -209,6 +209,19 @@ SourceParent.A:
 a same-fluid predecessor pulse.}
 ```
 
+The follow-up audit
+`mpp-sourceparent-positive-measure-audit-note.md` shows that this parent step is
+not discharged by the installed signed commutator, positive-carrier, pressure,
+cutoff, or local-energy inputs.  The theorem-facing replacement is the positive
+measure version:
+
+```math
+SourceParent.Measure:
+\quad
+\text{construct a positive same-fluid source-parent measure with finite
+branching and summable loss.}
+```
+
 If this parent theorem is installed, the remaining rigidity is not broad
 `Ancient.NoPulse`, but the narrower source-residue statement
 
@@ -230,7 +243,39 @@ MSC.BadAC.
 With the diagonal slot exposed, the sharper ancestry package is:
 
 ```math
-MSC.DiagTether^{src}+SourceParent.A+Ancestral.NoPulse^{src}
+MSC.DiagTether^{src}+SourceParent.Measure+Ancestral.NoPulse^{src}
+\Longrightarrow
+MSC.BadAC.
+```
+
+The audit `mpp-ancestral-nopulse-source-rigidity-audit-note.md` then splits
+`Ancestral.NoPulse^{src}` into its actual theorem load.  Local compactness
+extracts a local suitable ancient source-residue object; it does not exclude
+that object.  The ancestry branch therefore needs either
+
+```math
+AncestryDrain.A
+```
+
+or
+
+```math
+AncestryCompactBound.A+SourceResidueLiouville.A.
+```
+
+Thus the currently sharp ancestry branch is:
+
+```math
+MSC.DiagTether^{src}+SourceParent.Measure+AncestryDrain.A
+\Longrightarrow
+MSC.BadAC,
+```
+
+or the Liouville version
+
+```math
+MSC.DiagTether^{src}+SourceParent.Measure
++AncestryCompactBound.A+SourceResidueLiouville.A
 \Longrightarrow
 MSC.BadAC.
 ```
@@ -266,9 +311,14 @@ MSC.Localize^{src}+Ancient.NoPulse^{src},
 \qquad
 MSC.Localize^{src}+SourceParent.A+Ancestral.NoPulse^{src},
 \qquad
-MSC.DiagTether^{src}+SourceParent.A+Ancestral.NoPulse^{src},
+MSC.DiagTether^{src}+SourceParent.Measure+AncestryDrain.A,
 \qquad
-(DiagDom.A\ \text{or}\ LocalSource.NoPulse.A)+Ancient.NoPulse^{src}.
+MSC.DiagTether^{src}+SourceParent.Measure
++AncestryCompactBound.A+SourceResidueLiouville.A,
+\qquad
+DiagDom.A+Ancient.NoPulse^{src},
+\qquad
+LocalSource.NoPulse.A.
 ```
 
 The signed commutator theorem remains a possible new theorem only if it proves

@@ -221,11 +221,13 @@ near-diagonal same-fluid mass is not forced by a global product of shell norms.
 The viable compactness repair is:
 
 ```math
-(DiagDom.A\ \text{or}\ LocalSource.NoPulse.A)
-+
-Ancient.NoPulse^{src}.
+(DiagDom.A+Ancient.NoPulse^{src})
+\quad\text{or}\quad
+LocalSource.NoPulse.A.
 ```
 
 This is a stricter dependency list than the original `Ancient.NoPulse` target:
-ancient rigidity is only useful after the route preserves physical co-location
-and source residue through localization.
+ancient rigidity is only useful after `DiagDom.A` preserves physical
+co-location and source residue through localization.  `LocalSource.NoPulse.A`
+is the direct pre-Cauchy source theorem and would close the no-pulse atom
+without passing through ancient compactness.

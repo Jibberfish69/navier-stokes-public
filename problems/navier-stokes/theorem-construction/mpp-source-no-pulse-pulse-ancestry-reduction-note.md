@@ -163,13 +163,17 @@ distributed across many triads, and no single parent pulse is forced.
 ## Reduction
 
 The pulse-ancestry route therefore does not close from the installed inputs.
-It sharpens the compactness route to the following theorem package:
+The follow-up audit
+`mpp-sourceparent-positive-measure-audit-note.md` shows that the installed
+signed, positive-carrier, pressure, cutoff, and local-energy packages do not
+yet construct a positive same-fluid source-parent measure.  The ancestry route
+therefore sharpens the compactness route to the following theorem package:
 
 ```math
 \boxed{
-MSC.Localize^{src}
+MSC.DiagTether^{src}
 +
-SourceParent.A
+SourceParent.Measure
 +
 Ancestral.NoPulse^{src}
 \Longrightarrow
@@ -178,20 +182,24 @@ MSC.BadAC.
 \tag{PA.10}
 ```
 
-Here `SourceParent.A` is the missing positive parent-selection theorem:
+Here `SourceParent.Measure` is the missing positive parent-measure theorem:
 
 ```math
-\textbf{SourceParent.A:}
+\textbf{SourceParent.Measure:}
 \quad
-\text{a source-residue localized source-balanced bad pulse has either finite reserve
-charge or a same-fluid predecessor pulse carrying comparable normalized source
-strength.}
+\text{construct a positive same-fluid source-parent measure with finite
+branching and summable loss for source-residue localized bad pulses.}
 \tag{PA.11}
 ```
 
 This is strictly sharper than broad `Ancient.NoPulse`: the ancient object to
 exclude is not arbitrary; it is an ancestry-generated source-balanced
 source-residue critical pulse.
+
+The follow-up `mpp-ancestral-nopulse-source-rigidity-audit-note.md` shows that
+`Ancestral.NoPulse^{src}` is also not automatic from local compactness.  It
+requires either a strict backward-drain theorem or a bounded-ancient plus
+source-residue Liouville package.
 
 ## Verdict
 
@@ -215,5 +223,12 @@ OriginalSmoothData\Longrightarrow MSC.BadAC,
 with the most focused ancestry version:
 
 ```math
-MSC.Localize^{src}+SourceParent.A+Ancestral.NoPulse^{src}.
+MSC.DiagTether^{src}+SourceParent.Measure+AncestryDrain.A
+```
+
+or
+
+```math
+MSC.DiagTether^{src}+SourceParent.Measure+AncestryCompactBound.A
++SourceResidueLiouville.A.
 ```

@@ -160,7 +160,7 @@ MSC.DiagTether^{src}
 +
 SourceParent.Measure
 +
-Ancestral.NoPulse
+Ancestral.NoPulse^{src}
 \Longrightarrow
 MSC.BadAC.
 ```
