@@ -1148,8 +1148,10 @@ published_files:
 - theorem-construction/mpp-leading-edge-math-targets-audit-note.md
 - theorem-construction/mpp-live-status-sourcelock-clay-final-verification-note.md
 - theorem-construction/mpp-local-eulerian-reference-envelope-lemma.md
+- theorem-construction/mpp-localactive-carleson-audit-note.md
 - theorem-construction/mpp-localsource-nopulse-direct-attempt-note.md
 - theorem-construction/mpp-localsource-nopulse-reduction-note.md
+- theorem-construction/mpp-localstrain-depletion-audit-note.md
 - theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
 - theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
 - theorem-construction/mpp-material-packet-closure-program.md
@@ -1260,6 +1262,7 @@ published_files:
 - theorem-construction/mpp-shared-participation-and-tower-coherence-law.md
 - theorem-construction/mpp-shared-participation-no-drop-theorem.md
 - theorem-construction/mpp-signed-lifted-remainder-residual-tail-attempt-note.md
+- theorem-construction/mpp-signedlocalsource-final-collapse-note.md
 - theorem-construction/mpp-six-item-decoupled-quarantine-note.md
 - theorem-construction/mpp-source-export-review-terminal-tail-and-collar.md
 - theorem-construction/mpp-source-no-pulse-critical-pulse-and-sign-audit-note.md

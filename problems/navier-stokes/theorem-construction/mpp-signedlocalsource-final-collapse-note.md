@@ -8,7 +8,7 @@ Final bounded pass through the direct pre-Cauchy source route for eliminating
 The preceding reductions are:
 
 ```math
-MSC.DiagTether \not\leftarrow MSC.BadAC
+MSC.DiagTether^{src} \not\leftarrow MSC.BadAC
 ```
 
 from the installed global product,

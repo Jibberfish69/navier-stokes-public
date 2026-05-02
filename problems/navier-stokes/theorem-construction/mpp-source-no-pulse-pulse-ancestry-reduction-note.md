@@ -71,7 +71,7 @@ P \text{ spends a fixed positive amount of a finite route reserve;}
 ```
 
 such that `P^{-}` carries comparable normalized source/mixed-measure strength
-and is again same-fluid carrier-localized.
+and is again same-fluid source-residue localized.
 
 The parent may be at a comparable or lower dyadic scale, but it must be tied to
 the actual nonlinear source feeding `P`, not merely to a large global shell norm.

@@ -146,6 +146,12 @@ No installed note proves this Carleson smallness.  The existing source closure
 only gives integrability for selected frozen families, not uniform decay of the
 active local source over all bad terminal windows.
 
+The dedicated audit `mpp-localactive-carleson-audit-note.md` checks the existing
+flux-source Carleson, square-source, SCF-good cover, and averaged-cover routes.
+It finds that all of them either remain conditional on `SOURCE.NO-PULSE.A` or
+belong to the good branch downstream of the very `Jump_avg` alternative that
+the local-source theorem is supposed to eliminate.
+
 ## Reduction
 
 The pre-Cauchy bypass has now been reduced to one of the following genuine
