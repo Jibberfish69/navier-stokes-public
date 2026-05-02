@@ -249,7 +249,9 @@ equivalent source-control presentations:
 - `MSC.Localize^{src}+Ancient.NoPulse^{src}` for source-residue critical pulse
   compactness,
 - `DiagDom.A` or `LocalSource.NoPulse.A` to preserve near-diagonal same-fluid
-  co-location before compactness consumes the source-residue pulse.
+  co-location before compactness consumes the source-residue pulse,
+- `SignedLocalSource.A`, equivalently signed weighted lifted-remainder
+  cancellation or active-square residual-tail / square-source Carleson control.
 
 This is the closed primitive for the current branch. Further progress now
 requires proving `SOURCE.NO-PULSE.A` itself, not re-routing through an already

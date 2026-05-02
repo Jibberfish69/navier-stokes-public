@@ -318,12 +318,45 @@ MSC.DiagTether^{src}+SourceParent.Measure
 \qquad
 DiagDom.A+Ancient.NoPulse^{src},
 \qquad
-LocalSource.NoPulse.A.
+LocalSource.NoPulse.A,
+\qquad
+SignedLocalSource.A.
 ```
 
 The signed commutator theorem remains a possible new theorem only if it proves
 the true lifted signed estimate before absolute values. In the installed route,
 it is not an independent closed supplier.
+
+The pre-Cauchy bypass `LocalSource.NoPulse.A` is audited directly in
+`mpp-localsource-nopulse-direct-attempt-note.md`.  That note separates it from
+the downstream supplier `FFSRC.A=>FCI.5f`: source integrability for a frozen
+family is not bad-set vanishing of the active local source.  The bypass reduces
+to one of
+
+```math
+LocalStrainDepletion.A,
+\qquad
+LocalActiveCarleson.A,
+\qquad
+QDrain.A,
+\qquad
+MSC.BadAC.
+```
+
+The final collapse note `mpp-signedlocalsource-final-collapse-note.md` identifies
+this bypass with the already audited signed/local source wall:
+
+```math
+SignedLocalSource.A
+\Longleftrightarrow_{\mathrm{route}}
+LocalSource.NoPulse.A
+\Longleftrightarrow_{\mathrm{route}}
+SOURCE.NO\text{-}PULSE.A.
+```
+
+So the narrowest live source theorem is now the signed weighted lifted-remainder
+estimate, or an equivalent active-square residual-tail / square-source Carleson
+theorem, from `OriginalSmoothData`.
 
 ## Exact Obstruction
 

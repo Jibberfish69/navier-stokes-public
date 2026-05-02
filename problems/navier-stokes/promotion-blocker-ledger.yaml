@@ -58,7 +58,9 @@ remaining_release_gates:
   MSC.DiagTether^src+SourceParent.Measure+(AncestryDrain.A or
   AncestryCompactBound.A+SourceResidueLiouville.A), or
   the repaired compactness carrier DiagDom.A+Ancient.NoPulse^src, or
-  the direct pre-Cauchy source theorem LocalSource.NoPulse.A),
+  the direct pre-Cauchy source theorem LocalSource.NoPulse.A / SignedLocalSource.A
+  (itself reduced to signed weighted lifted-remainder cancellation or
+  active-square residual-tail / square-source Carleson control)),
   then eliminate Jump_avg without assuming Field_avg on the Jump_avg branch
 side_sandbox_status:
   hfg_low: threshold-discharged
@@ -72,7 +74,7 @@ claim_boundary:
     MSC.Localize^src+Ancient.NoPulse^src /
     MSC.DiagTether^src+SourceParent.Measure+(AncestryDrain.A or
     AncestryCompactBound.A+SourceResidueLiouville.A) /
-    DiagDom.A+Ancient.NoPulse^src / LocalSource.NoPulse.A as equivalent
-    sharpened presentations.
+    DiagDom.A+Ancient.NoPulse^src / LocalSource.NoPulse.A /
+    SignedLocalSource.A as equivalent sharpened presentations.
   prohibited_claim: full periodic Navier-Stokes closure, export readiness, or
     submission readiness before the remaining PCTP.hard burdens are discharged.

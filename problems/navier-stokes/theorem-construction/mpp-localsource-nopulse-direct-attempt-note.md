@@ -117,6 +117,11 @@ The missing signed theorem would be:
 This is a genuine new PDE assertion.  It is not a formal consequence of the
 pressure/source supplier ledger.
 
+The dedicated audit `mpp-localstrain-depletion-audit-note.md` confirms that
+the installed signed weighted commutator material does not prove this
+positive-part depletion: signed cancellation of a total weighted sum is weaker
+than smallness of the positive active source on the selected bad windows.
+
 ## Carleson Route Test
 
 A second possible route is a local active-source Carleson theorem:
@@ -195,3 +200,19 @@ QDrain.A
 MSC.BadAC.
 }
 ```
+
+## Final Collapse Update
+
+The follow-up `mpp-signedlocalsource-final-collapse-note.md` identifies this
+local-source burden with the already audited signed/local source wall:
+
+```math
+SignedLocalSource.A
+\Longleftrightarrow_{\mathrm{route}}
+LocalSource.NoPulse.A.
+```
+
+In concrete terms, the shortest current formulation is now either signed
+weighted lifted-remainder cancellation with reserve, or active-square
+residual-tail / square-source Carleson control.  The named alternatives above
+are retained as route-equivalent presentations of that same no-pulse atom.

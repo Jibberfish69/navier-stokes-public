@@ -227,6 +227,10 @@ The carrier-localization follow-ups
 more: the installed global product `D_jD_\ell` does not force near-diagonal
 same-fluid co-location, so the viable compactness repair must first prove
 `DiagDom.A` or bypass the product with `LocalSource.NoPulse.A`.
+The follow-up `mpp-diagdom-direct-attempt-note.md` closes `DiagDom.A` negatively
+from the same off-diagonal all-pairs obstruction, and
+`mpp-signedlocalsource-final-collapse-note.md` identifies the bypass with the
+same signed/local source wall already visible in this note.
 
 The same-scale import audit
 `mpp-msc-badac-same-scale-import-audit-note.md` verifies that existing
