@@ -62,7 +62,8 @@ remaining_release_gates:
   the direct pre-Cauchy source theorem LocalSource.NoPulse.A / SignedLocalSource.A
   (itself reduced to signed weighted lifted-remainder cancellation with
   positive/residual reserve or active-square residual-tail / square-source /
-  active-window Carleson control)),
+  active-window Carleson control, sharpened to SignedRemainderReserve.A /
+  ActiveSquareCarleson.A / SquareSource.A / ActiveShellAmplitudeGain.A)),
   then eliminate Jump_avg without assuming Field_avg on the Jump_avg branch
 side_sandbox_status:
   hfg_low: threshold-discharged

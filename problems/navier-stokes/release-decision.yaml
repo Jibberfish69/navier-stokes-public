@@ -36,7 +36,9 @@ blockers:
   because branch-native `Jump_avg` is not eliminated; the active primitive is
   `OriginalSmoothData=>SignedLocalSource.A`, reduced to signed weighted
   lifted-remainder cancellation with positive/residual reserve or active-square
-  residual-tail / square-source / active-window Carleson control.
+  residual-tail / square-source / active-window Carleson control; the direct
+  original-data split is `SignedRemainderReserve.A`, `ActiveSquareCarleson.A`,
+  `SquareSource.A`, or `ActiveShellAmplitudeGain.A`.
 - Draft/export artifacts may remain reproducible as files, but they cannot be treated
   as a mathematically verified release bundle.
 - 'Downstream PCTP.hard / TTU.A: first prove OriginalSmoothData=>SignedLocalSource.A,

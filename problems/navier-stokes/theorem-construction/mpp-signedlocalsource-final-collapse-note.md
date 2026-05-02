@@ -145,5 +145,21 @@ LocalStrainDepletion.A
 LocalActiveCarleson.A.
 ```
 
+The direct original-data attempt is recorded in
+`mpp-signedlocalsource-originalsmoothdata-direct-attempt-note.md`.  It shows
+that original smoothness, finite energy, pressure Poisson structure, compact
+preterminal regularity, and the downstream `FFSRC.A=>FCI.5f` source ledger do
+not imply the signed/local source theorem.  The direct target splits into:
+
+```math
+SignedRemainderReserve.A,
+\qquad
+ActiveSquareCarleson.A,
+\qquad
+SquareSource.A,
+\qquad
+ActiveShellAmplitudeGain.A.
+```
+
 This is now the sharp active theorem target for branch-native `Jump_avg`
 elimination.
