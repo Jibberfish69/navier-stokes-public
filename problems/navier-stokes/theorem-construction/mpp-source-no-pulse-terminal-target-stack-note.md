@@ -282,11 +282,11 @@ MSC.BadAC.
 
 ## Remaining Terminal Target
 
-The live atom is therefore:
+The post-collapse live primitive is therefore:
 
 ```math
 \boxed{
-OriginalSmoothData\Longrightarrow SOURCE.NO\text{-}PULSE.A.
+OriginalSmoothData\Longrightarrow SignedLocalSource.A.
 }
 ```
 
@@ -294,7 +294,7 @@ The sharpest current formulation is:
 
 ```math
 \boxed{
-OriginalSmoothData\Longrightarrow MSC.BadAC.
+OriginalSmoothData\Longrightarrow SignedLocalSource.A.
 }
 ```
 

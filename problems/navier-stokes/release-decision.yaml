@@ -32,19 +32,15 @@ artifacts:
 blockers:
 - The theorem packet remains useful as a conditional theorem-program index, but it
   is not export-ready as a full-MPP proof.
-- The independent audit still blocks release at PCTP.hard terminal-tail production
-  and Jump_avg; the active averaged-route primitive is now branch-native
-  `Jump_avg` elimination via `AWG.A/SOURCE.NO-PULSE.A`, sharpened to `MSC.BadAC`,
-  pressure-strain depletion, `MSC.Localize^src+Ancient.NoPulse^src`,
-  `DiagDom.A+Ancient.NoPulse^src`, `LocalSource.NoPulse.A` /
-  `SignedLocalSource.A` reduced to signed weighted lifted-remainder cancellation
-  or active-square residual-tail / square-source Carleson control, or the ancestry
-  branch `MSC.DiagTether^src+SourceParent.Measure+(AncestryDrain.A or
-  AncestryCompactBound.A+SourceResidueLiouville.A)`.
+- The independent audit still blocks release at downstream PCTP.hard / TTU.A
+  because branch-native `Jump_avg` is not eliminated; the active primitive is
+  `OriginalSmoothData=>SignedLocalSource.A`, reduced to signed weighted
+  lifted-remainder cancellation with positive/residual reserve or active-square
+  residual-tail / square-source / active-window Carleson control.
 - Draft/export artifacts may remain reproducible as files, but they cannot be treated
   as a mathematically verified release bundle.
-- 'PCTP.hard terminal-tail production: prove OriginalSmoothData implies uniform terminal-tail
-  retained Pack/Part/Field/tower readout.'
+- 'Downstream PCTP.hard / TTU.A: first prove OriginalSmoothData=>SignedLocalSource.A,
+  then consume the installed PCTP collapse.'
 - Eliminate Jump_avg without assuming Field_avg on that branch.
 - Completion tier is still `conditional-terminal-packet`, below a paper-complete or
   full-closure submission surface.
