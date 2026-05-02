@@ -118,6 +118,27 @@ No installed Liouville theorem excludes that object without extra hypotheses
 such as boundedness, Type I control, axisymmetry, self-similarity, or critical
 smallness.
 
+The extraction bridge audit
+`mpp-ancient-nopulse-extraction-bridge-attempt-note.md` adds one more necessary
+license.  `MSC.BadAC` is currently a global shell-time statement; to rescale a
+local suitable pulse one also needs
+
+```math
+MSC.Localize:
+\quad
+\neg MSC.BadAC
+\Longrightarrow
+\text{localized nonzero critical pulse packet}.
+```
+
+Thus the compactness route is really
+
+```math
+MSC.Localize+Ancient.NoPulse
+\Longrightarrow
+MSC.BadAC.
+```
+
 ## Remaining Terminal Target
 
 The live atom is therefore:
@@ -145,7 +166,7 @@ PulseCharge.A,
 \qquad
 \text{pressure-strain depletion of active vortex stretching},
 \qquad
-Ancient.NoPulse.
+MSC.Localize+Ancient.NoPulse.
 ```
 
 The signed commutator theorem remains a possible new theorem only if it proves

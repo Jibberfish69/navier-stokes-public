@@ -169,3 +169,35 @@ Ancient.NoPulse:
 This target is equivalent at route level to the active no-pulse atom.  It is
 not currently installed by the finite-energy, local-suitability, pressure, or
 endpoint packages.
+
+## May 1 Extraction Bridge Audit
+
+The follow-up note
+`mpp-ancient-nopulse-extraction-bridge-attempt-note.md` sharpens this compactness
+route one step further.  Failure of `MSC.BadAC` is currently phrased using the
+global dyadic shell-time measure
+
+```math
+\mathfrak B_N^\sigma(t)\,dt.
+```
+
+That object is not yet a spatial Radon measure on physical cylinders.  Therefore
+the blow-up extraction also needs
+
+```math
+MSC.Localize:
+\quad
+\neg MSC.BadAC
+\Longrightarrow
+\text{localized nonzero critical pulse packet}.
+```
+
+Only after `MSC.Localize` is supplied can the existing local compactness
+machinery extract a local suitable ancient pulse limit.  The compactness route
+therefore has two exact burdens:
+
+```math
+MSC.Localize
+\quad\text{and}\quad
+Ancient.NoPulse.
+```
