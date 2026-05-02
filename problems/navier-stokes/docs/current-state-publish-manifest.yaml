@@ -1028,6 +1028,7 @@ published_files:
 - theorem-construction/mpp-act-kx-conditional-route-completion-packet.md
 - theorem-construction/mpp-act-kx-hidden-spending-audit-note.md
 - theorem-construction/mpp-active-square-terminal-charge-audit-note.md
+- theorem-construction/mpp-ancestral-nopulse-source-rigidity-audit-note.md
 - theorem-construction/mpp-ancient-nopulse-extraction-bridge-attempt-note.md
 - theorem-construction/mpp-ancient-nopulse-rigidity-audit-note.md
 - theorem-construction/mpp-averaged-act-kx-scale-critical-forcing-packet-note.md
@@ -1050,6 +1051,7 @@ published_files:
 - theorem-construction/mpp-csp-b3a1-fei-return-instance-note.md
 - theorem-construction/mpp-dead-tower-rigidity-reduction-note.md
 - theorem-construction/mpp-deformation-tower-receiver-supplier-theorem-program.md
+- theorem-construction/mpp-diagdom-direct-attempt-note.md
 - theorem-construction/mpp-direct-active-window-carleson-attempt-note.md
 - theorem-construction/mpp-dtc-m-affine-direct-proof-note.md
 - theorem-construction/mpp-dtc-read-pressure-local-poisson-estimate.md
@@ -1146,6 +1148,8 @@ published_files:
 - theorem-construction/mpp-leading-edge-math-targets-audit-note.md
 - theorem-construction/mpp-live-status-sourcelock-clay-final-verification-note.md
 - theorem-construction/mpp-local-eulerian-reference-envelope-lemma.md
+- theorem-construction/mpp-localsource-nopulse-direct-attempt-note.md
+- theorem-construction/mpp-localsource-nopulse-reduction-note.md
 - theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
 - theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
 - theorem-construction/mpp-material-packet-closure-program.md
