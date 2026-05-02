@@ -298,7 +298,7 @@ OriginalSmoothData\Longrightarrow MSC.BadAC.
 }
 ```
 
-Equivalently, prove one of:
+The executed sibling presentations are:
 
 ```math
 MSC.BadAC,
@@ -318,9 +318,7 @@ MSC.DiagTether^{src}+SourceParent.Measure
 \qquad
 DiagDom.A+Ancient.NoPulse^{src},
 \qquad
-LocalSource.NoPulse.A,
-\qquad
-SignedLocalSource.A.
+LocalSource.NoPulse.A/SignedLocalSource.A.
 ```
 
 The signed commutator theorem remains a possible new theorem only if it proves
@@ -343,20 +341,44 @@ QDrain.A,
 MSC.BadAC.
 ```
 
+The first two local-source subroutes are now audited separately:
+`mpp-localstrain-depletion-audit-note.md` shows that current signed commutator
+material does not prove positive-part strain depletion, and
+`mpp-localactive-carleson-audit-note.md` shows that existing Carleson/SCF/source
+surfaces do not prove active-window Carleson smallness.
+
 The final collapse note `mpp-signedlocalsource-final-collapse-note.md` identifies
 this bypass with the already audited signed/local source wall:
 
 ```math
+\boxed{
 SignedLocalSource.A
 \Longleftrightarrow_{\mathrm{route}}
 LocalSource.NoPulse.A
 \Longleftrightarrow_{\mathrm{route}}
 SOURCE.NO\text{-}PULSE.A.
+}
 ```
 
-So the narrowest live source theorem is now the signed weighted lifted-remainder
-estimate, or an equivalent active-square residual-tail / square-source Carleson
-theorem, from `OriginalSmoothData`.
+So the narrowest live source theorem is now:
+
+```math
+\boxed{
+OriginalSmoothData\Longrightarrow SignedLocalSource.A.
+}
+```
+
+Concrete sufficient forms are exactly:
+
+```math
+\text{signed weighted lifted-remainder cancellation with a usable positive/residual reserve,}
+```
+
+or
+
+```math
+\text{active-square residual-tail / square-source / active-window Carleson control.}
+```
 
 ## Exact Obstruction
 

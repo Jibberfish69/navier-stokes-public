@@ -219,6 +219,7 @@ LocalSource.NoPulse.A.
 ```
 
 In concrete terms, the shortest current formulation is now either signed
-weighted lifted-remainder cancellation with reserve, or active-square
-residual-tail / square-source Carleson control.  The named alternatives above
-are retained as route-equivalent presentations of that same no-pulse atom.
+weighted lifted-remainder cancellation with a positive/residual reserve, or
+active-square residual-tail / square-source / active-window Carleson control.
+The named alternatives above are retained as route-equivalent presentations of
+that same no-pulse atom.

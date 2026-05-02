@@ -80,12 +80,20 @@ flux-source-to-active-square-carleson-result.md
 active-square-upper-tail-carleson-blocked-by-square-source.md
 active-square-control-blocked-by-square-source.md
 square-source-to-active-square-control-result.md
+mpp-localsource-nopulse-direct-attempt-note.md
+mpp-localstrain-depletion-audit-note.md
+mpp-localactive-carleson-audit-note.md
+mpp-awg-deep-source-frontier-closure-note.md
 ```
 
 Those notes show that source-mass or flux-source Carleson control alone does not
-give the shell-amplitude gain needed for active-square Carleson.  The missing
-input is a genuine heat-scale square-source theorem, active-shell amplitude
-gain, or direct active-square Carleson estimate.
+give the shell-amplitude gain needed for active-square Carleson, and that local
+positive-part strain depletion and local active-window Carleson smallness are
+not supplied by the signed commutator, SCF-good cover, averaged-cover, or
+downstream source-integrability material.
+The missing input is a genuine heat-scale square-source theorem, active-shell
+amplitude gain, direct active-square Carleson estimate, or a new positive-part
+strain depletion theorem.
 
 ## Final Collapse
 
@@ -120,13 +128,21 @@ OriginalSmoothData\Longrightarrow SignedLocalSource.A,
 equivalently, prove from original smooth data either:
 
 ```math
-\text{signed weighted lifted-remainder cancellation with reserve}
+\text{signed weighted lifted-remainder cancellation with positive/residual reserve}
 ```
 
 or
 
 ```math
-\text{active-square residual-tail / square-source Carleson control}.
+\text{active-square residual-tail / square-source / active-window Carleson control}.
+```
+
+Equivalently in the local-source language, prove:
+
+```math
+LocalStrainDepletion.A
+\qquad\text{or}\qquad
+LocalActiveCarleson.A.
 ```
 
 This is now the sharp active theorem target for branch-native `Jump_avg`

@@ -36,10 +36,11 @@ blockers:
   and Jump_avg; the active averaged-route primitive is now branch-native
   `Jump_avg` elimination via `AWG.A/SOURCE.NO-PULSE.A`, sharpened to `MSC.BadAC`,
   pressure-strain depletion, `MSC.Localize^src+Ancient.NoPulse^src`,
-  `DiagDom.A+Ancient.NoPulse^src`, `LocalSource.NoPulse.A` reduced to
-  `LocalStrainDepletion.A` / `LocalActiveCarleson.A` / `QDrain.A` / `MSC.BadAC`,
-  or the ancestry branch `MSC.DiagTether^src+SourceParent.Measure+(AncestryDrain.A
-  or AncestryCompactBound.A+SourceResidueLiouville.A)`.
+  `DiagDom.A+Ancient.NoPulse^src`, `LocalSource.NoPulse.A` /
+  `SignedLocalSource.A` reduced to signed weighted lifted-remainder cancellation
+  or active-square residual-tail / square-source Carleson control, or the ancestry
+  branch `MSC.DiagTether^src+SourceParent.Measure+(AncestryDrain.A or
+  AncestryCompactBound.A+SourceResidueLiouville.A)`.
 - Draft/export artifacts may remain reproducible as files, but they cannot be treated
   as a mathematically verified release bundle.
 - 'PCTP.hard terminal-tail production: prove OriginalSmoothData implies uniform terminal-tail
