@@ -86,10 +86,11 @@ q_n(y,s)=r_n^2p(x_n+r_ny,t_n+r_n^2s)
 
 can produce a local suitable ancient limit carrying a nonzero pulse residue.
 
-Thus the missing first bridge is:
+Thus the missing first bridge is the carrier-tether version sharpened in
+`mpp-msc-localize-carrier-tether-audit-note.md`:
 
 ```math
-\textbf{MSC.Localize:}
+\textbf{MSC.Localize}^{carrier}:
 \quad
 \neg MSC.BadAC
 \Longrightarrow
@@ -174,7 +175,7 @@ Equivalently:
 Then
 
 ```math
-MSC.Localize+Ancient.NoPulse
+MSC.Localize^{carrier}+Ancient.NoPulse
 \Longrightarrow
 MSC.BadAC
 \Longrightarrow
@@ -188,7 +189,7 @@ precise theorem burdens:
 
 ```math
 \boxed{
-MSC.Localize:
+MSC.Localize^{carrier}:
 \neg MSC.BadAC
 \Longrightarrow
 \text{localized nonzero critical pulse packet};
@@ -206,5 +207,6 @@ Ancient.NoPulse:
 
 The current repo contains enough compactness machinery to pass to a local
 suitable limit after a localized critical packet is produced.  It does not
-currently prove the localization bridge from the global mixed-shell
-time-measure, and it does not prove the ancient-pulse rigidity theorem.
+currently prove the carrier-tether localization bridge from the global
+mixed-shell time-measure, and it does not prove the ancient-pulse rigidity
+theorem.

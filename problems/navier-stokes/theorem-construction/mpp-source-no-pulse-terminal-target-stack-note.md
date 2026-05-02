@@ -120,11 +120,12 @@ smallness.
 
 The extraction bridge audit
 `mpp-ancient-nopulse-extraction-bridge-attempt-note.md` adds one more necessary
+license, and `mpp-msc-localize-carrier-tether-audit-note.md` sharpens that
 license.  `MSC.BadAC` is currently a global shell-time statement; to rescale a
 local suitable pulse one also needs
 
 ```math
-MSC.Localize:
+MSC.Localize^{carrier}:
 \quad
 \neg MSC.BadAC
 \Longrightarrow
@@ -134,7 +135,7 @@ MSC.Localize:
 Thus the compactness route is really
 
 ```math
-MSC.Localize+Ancient.NoPulse
+MSC.Localize^{carrier}+Ancient.NoPulse
 \Longrightarrow
 MSC.BadAC.
 ```
@@ -166,7 +167,7 @@ PulseCharge.A,
 \qquad
 \text{pressure-strain depletion of active vortex stretching},
 \qquad
-MSC.Localize+Ancient.NoPulse.
+MSC.Localize^{carrier}+Ancient.NoPulse.
 ```
 
 The signed commutator theorem remains a possible new theorem only if it proves

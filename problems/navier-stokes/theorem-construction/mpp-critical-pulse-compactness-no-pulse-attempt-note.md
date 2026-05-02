@@ -182,22 +182,23 @@ global dyadic shell-time measure
 ```
 
 That object is not yet a spatial Radon measure on physical cylinders.  Therefore
-the blow-up extraction also needs
+the blow-up extraction also needs the carrier-tether form audited in
+`mpp-msc-localize-carrier-tether-audit-note.md`:
 
 ```math
-MSC.Localize:
+MSC.Localize^{carrier}:
 \quad
 \neg MSC.BadAC
 \Longrightarrow
 \text{localized nonzero critical pulse packet}.
 ```
 
-Only after `MSC.Localize` is supplied can the existing local compactness
-machinery extract a local suitable ancient pulse limit.  The compactness route
-therefore has two exact burdens:
+Only after `MSC.Localize^{carrier}` is supplied can the existing local
+compactness machinery extract a local suitable ancient pulse limit.  The
+compactness route therefore has two exact burdens:
 
 ```math
-MSC.Localize
+MSC.Localize^{carrier}
 \quad\text{and}\quad
 Ancient.NoPulse.
 ```
