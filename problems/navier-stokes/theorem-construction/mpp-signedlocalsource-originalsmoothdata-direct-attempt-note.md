@@ -166,6 +166,12 @@ active-square control.}
 These are route-equivalent presentations of the same source no-pulse atom at
 the current frontier.
 
+The first branch is audited directly in
+`mpp-signed-remainder-reserve-direct-attempt-note.md`: the positive/residual
+reserve required to repair the signed lifted remainder is itself
+`ActiveSquareCarleson.A` or an equivalent source-normalization theorem, while
+the signed part still needs a new strain-sign cancellation theorem.
+
 ## Verdict
 
 `OriginalSmoothData=>SignedLocalSource.A` is not solved by the installed

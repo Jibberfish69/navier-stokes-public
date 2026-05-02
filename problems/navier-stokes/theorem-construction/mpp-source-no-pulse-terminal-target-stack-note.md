@@ -380,6 +380,20 @@ or
 \text{active-square residual-tail / square-source / active-window Carleson control.}
 ```
 
+The subtarget pass in
+`mpp-positive-residual-reserve-direct-attempt-note.md`,
+`mpp-activesquare-residualtail-final-collapse-note.md`, and
+`mpp-sourcepulse-exclusion-active-target-note.md` collapses those forms to the
+single source-pulse theorem:
+
+```math
+\boxed{
+OriginalSmoothData\Longrightarrow SourcePulseExclusion.A
+\Longleftrightarrow_{\mathrm{route}}
+OriginalSmoothData\Longrightarrow SignedLocalSource.A.
+}
+```
+
 ## Exact Obstruction
 
 The exact obstruction is not the pressure/source supplier cell and not the

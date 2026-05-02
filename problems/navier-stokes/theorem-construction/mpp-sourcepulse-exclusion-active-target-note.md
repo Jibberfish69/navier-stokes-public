@@ -11,6 +11,10 @@ PositiveResidualReserve.A,
 \qquad
 ActiveSquareResidualTail.A,
 \qquad
+SquareSource.A,
+\qquad
+ActiveShellAmplitudeGain.A,
+\qquad
 LocalSource.NoPulse.A,
 \qquad
 SignedLocalSource.A,
@@ -23,11 +27,14 @@ source-balanced active pulses must be excluded from original smooth data.
 
 ## Definition
 
-Define:
+Define `SourcePulseExclusion.A` as the same theorem called
+`ActiveShellSourceNormalize.A` in the terminal-reserve collapse packet:
 
 ```math
 \boxed{
 SourcePulseExclusion.A
+\equiv_{\mathrm{route}}
+ActiveShellSourceNormalize.A
 }
 ```
 
@@ -87,6 +94,14 @@ tail-square reserve alone, because the target is shellwise square-dissipation
 on shrinking active windows.  This is recorded in
 `mpp-activesquare-residualtail-final-collapse-note.md` and the active-square /
 square-source obstruction notes.
+
+The direct original-data route splits into
+`SignedRemainderReserve.A`, `ActiveSquareCarleson.A`, `SquareSource.A`, and
+`ActiveShellAmplitudeGain.A`, but
+`mpp-signedlocalsource-originalsmoothdata-direct-attempt-note.md` shows that
+original smoothness, finite energy, pressure Poisson structure, preterminal
+regularity, and the downstream `FFSRC.A=>FCI.5f` ledger do not install any of
+those inputs.
 
 ## The Exact Remaining Theorem
 

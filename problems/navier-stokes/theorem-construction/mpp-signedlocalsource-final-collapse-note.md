@@ -149,7 +149,7 @@ The direct original-data attempt is recorded in
 `mpp-signedlocalsource-originalsmoothdata-direct-attempt-note.md`.  It shows
 that original smoothness, finite energy, pressure Poisson structure, compact
 preterminal regularity, and the downstream `FFSRC.A=>FCI.5f` source ledger do
-not imply the signed/local source theorem.  The direct target splits into:
+not imply the signed/local source theorem.  The direct target first splits into:
 
 ```math
 SignedRemainderReserve.A,
@@ -159,6 +159,15 @@ ActiveSquareCarleson.A,
 SquareSource.A,
 \qquad
 ActiveShellAmplitudeGain.A.
+```
+
+The follow-up target note `mpp-sourcepulse-exclusion-active-target-note.md`
+closes that split to one route-equivalent theorem:
+
+```math
+SourcePulseExclusion.A
+\Longleftrightarrow_{\mathrm{route}}
+SignedLocalSource.A.
 ```
 
 This is now the sharp active theorem target for branch-native `Jump_avg`
