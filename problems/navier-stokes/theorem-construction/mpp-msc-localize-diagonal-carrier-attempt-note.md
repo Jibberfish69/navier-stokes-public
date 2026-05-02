@@ -18,7 +18,9 @@ MSC.Localize^{carrier}:
 This note tests whether the global mixed-shell bad measure already contains a
 physical heat-scale carrier. It does not. The global object naturally localizes
 first to a double-space product carrier, not to one physical cylinder. The
-missing theorem is a diagonal/co-location tether.
+missing theorem is a diagonal/co-location tether. After the rigidity audit, the
+usable compactness route needs the source-residue version of this tether, not
+merely a nonzero local energy carrier.
 
 ## Global Mixed-Shell Measure
 
@@ -137,7 +139,7 @@ merely spatial.
 
 ## Closed Reduction
 
-The localization branch reduces to:
+The localization branch reduces first to:
 
 ```math
 \boxed{
@@ -161,18 +163,36 @@ MSC.Localize^{carrier}
 Without `MSC.DiagTether`, the compactness route remains blocked before
 `Ancient.NoPulse` can be applied.
 
+For the no-pulse route after `mpp-ancient-nopulse-rigidity-audit-note.md`, this
+must be strengthened to the source-residue version:
+
+```math
+\boxed{
+MSC.DiagTether^{src}:
+\neg MSC.BadAC
+\Longrightarrow
+\text{nonzero near-diagonal same-fluid local source-residue carrier}.
+}
+```
+
 ## Consequence
+
+The near-diagonal import audit
+`mpp-msc-diagtether-near-diagonal-import-audit-note.md` verifies that the
+installed high-high near-diagonal lemmas do not discharge this tether: they are
+frequency-support reductions, not spatial co-location theorems for the positive
+double-space carrier.
 
 The compactness route now has the exact dependency:
 
 ```math
-MSC.DiagTether
-+Ancient.NoPulse
+MSC.DiagTether^{src}
++Ancient.NoPulse^{src}
 \Longrightarrow
 MSC.BadAC
 \Longrightarrow
 SOURCE.NO\text{-}PULSE.A.
 ```
 
-Neither `MSC.DiagTether` nor `Ancient.NoPulse` is installed from
+Neither `MSC.DiagTether^{src}` nor `Ancient.NoPulse^{src}` is installed from
 `OriginalSmoothData` in the current repo.

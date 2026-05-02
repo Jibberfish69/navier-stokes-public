@@ -219,3 +219,22 @@ Equivalently, the route needs a theorem that turns global mixed-shell
 bad-measure failure into a same-fluid local critical pulse before ancient
 rigidity can be used.  Without that carrier tether, the no-pulse atom remains
 `OriginalSmoothData=>MSC.BadAC` / `SOURCE.NO-PULSE.A`.
+
+## Diagonal Follow-Up
+
+The follow-up note `mpp-msc-localize-diagonal-carrier-attempt-note.md` sharpens
+`MSC.Localize^{carrier}` to a near-diagonal co-location theorem:
+
+```math
+MSC.DiagTether:
+\neg MSC.BadAC
+\Longrightarrow
+\text{nonzero near-diagonal same-fluid local carrier}.
+```
+
+The direct attempt `mpp-msc-diagtether-direct-attempt-note.md` shows that this
+does not follow from the installed global product `D_jD_\ell`.  That product is
+a double-space carrier after global Cauchy multiplication and can lose the
+physical co-location needed by one blow-up cylinder.  The compactness repair
+therefore needs either `DiagDom.A` for a local diagonal mixed-shell carrier, or
+`LocalSource.NoPulse.A` at the pre-Cauchy same-fluid source-packet level.

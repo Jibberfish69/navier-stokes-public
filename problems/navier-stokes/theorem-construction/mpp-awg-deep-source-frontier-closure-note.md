@@ -221,6 +221,12 @@ depletion of active vortex stretching, or
 `MSC.Localize^src+Ancient.NoPulse^src` for the critical-pulse compactness
 route. The broad ancient no-pulse statement is rejected in
 `mpp-ancient-nopulse-rigidity-audit-note.md`.
+The carrier-localization follow-ups
+`mpp-msc-localize-diagonal-carrier-attempt-note.md` and
+`mpp-msc-diagtether-direct-attempt-note.md` sharpen that compactness route once
+more: the installed global product `D_jD_\ell` does not force near-diagonal
+same-fluid co-location, so the viable compactness repair must first prove
+`DiagDom.A` or bypass the product with `LocalSource.NoPulse.A`.
 
 The same-scale import audit
 `mpp-msc-badac-same-scale-import-audit-note.md` verifies that existing

@@ -155,22 +155,46 @@ The diagonal-carrier attempt
 `mpp-msc-localize-diagonal-carrier-attempt-note.md` sharpens the localization
 slot. Expanding `D_jD_\ell` gives a positive double-space carrier, but a
 physical compactness cylinder requires near-diagonal same-fluid mass. Thus
-`MSC.Localize^{carrier}` is reduced to:
+`MSC.Localize^{src}` is reduced first to a source-residue diagonal tether:
 
 ```math
-MSC.DiagTether:
+MSC.DiagTether^{src}:
 \quad
 \neg MSC.BadAC
 \Longrightarrow
-\text{nonzero near-diagonal same-fluid local carrier}.
+\text{nonzero near-diagonal same-fluid source-residue local carrier}.
 ```
 
 With that tether,
 
 ```math
-MSC.DiagTether
+MSC.DiagTether^{src}
 \Longrightarrow
-MSC.Localize^{carrier}.
+MSC.Localize^{src}.
+```
+
+The import audit `mpp-msc-diagtether-near-diagonal-import-audit-note.md`
+verifies that existing high-high near-diagonal lemmas do not supply this
+theorem; they are frequency-support reductions, not spatial co-location lower
+bounds for the positive carrier.  The direct attempt
+`mpp-msc-diagtether-direct-attempt-note.md` closes the route from the installed
+global product negatively: `D_jD_\ell` is a double-space all-pairs carrier after
+global Cauchy multiplication, so it does not force near-diagonal same-fluid
+mass.  The repaired compactness route must therefore prove either
+
+```math
+DiagDom.A:
+\quad
+\mathfrak B_N^\sigma\ \text{is dominated, on bad windows, by a local diagonal
+mixed-shell carrier},
+```
+
+or bypass the global product with
+
+```math
+LocalSource.NoPulse.A:
+\quad
+\text{the pre-Cauchy same-fluid active source packet has no terminal bad pulse}.
 ```
 
 The pulse-ancestry refinement in
@@ -206,7 +230,7 @@ MSC.BadAC.
 With the diagonal slot exposed, the sharper ancestry package is:
 
 ```math
-MSC.DiagTether+SourceParent.A+Ancestral.NoPulse
+MSC.DiagTether^{src}+SourceParent.A+Ancestral.NoPulse
 \Longrightarrow
 MSC.BadAC.
 ```
@@ -242,7 +266,9 @@ MSC.Localize^{src}+Ancient.NoPulse^{src},
 \qquad
 MSC.Localize^{carrier}+SourceParent.A+Ancestral.NoPulse,
 \qquad
-MSC.DiagTether+SourceParent.A+Ancestral.NoPulse.
+MSC.DiagTether^{src}+SourceParent.A+Ancestral.NoPulse,
+\qquad
+(DiagDom.A\ \text{or}\ LocalSource.NoPulse.A)+Ancient.NoPulse^{src}.
 ```
 
 The signed commutator theorem remains a possible new theorem only if it proves

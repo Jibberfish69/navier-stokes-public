@@ -217,3 +217,27 @@ suitable limit after a localized source-residue critical packet is produced. It
 does not currently prove the source-residue localization bridge from the global
 mixed-shell time-measure, and it does not prove the source-residue ancient-pulse
 rigidity theorem.
+
+## Diagonal Carrier Refinement
+
+The later notes `mpp-msc-localize-diagonal-carrier-attempt-note.md` and
+`mpp-msc-diagtether-direct-attempt-note.md` refine the localization burden.  The
+global mixed-shell object expands as a double-space product `D_jD_\ell`; a local
+compactness extraction needs near-diagonal, same-fluid co-location before the
+source-residue ancient limit can even be formed.
+
+Thus the direct compactness route now reads:
+
+```math
+\boxed{
+(DiagDom.A\ \text{or}\ LocalSource.NoPulse.A)
++
+Ancient.NoPulse^{src}
+\Longrightarrow
+MSC.BadAC.
+}
+```
+
+Here `DiagDom.A` would recover a diagonal local carrier from the global product,
+while `LocalSource.NoPulse.A` bypasses the global product and proves the
+branch-native no-pulse theorem on the pre-Cauchy same-fluid source packet.

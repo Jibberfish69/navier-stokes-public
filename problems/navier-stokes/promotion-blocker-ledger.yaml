@@ -53,8 +53,10 @@ remaining_release_gates:
   mpp-mixed-shell-spill-coefficient-scheduler-attempt-note.md and closed to
   MSC.Spill.NoPulse, the same no-pulse atom; critical-pulse, pressure-strain,
   and compactness audits sharpen the live forms to MSC.BadAC, PulseCharge.A,
-  pressure-strain depletion, MSC.Localize^src+Ancient.NoPulse^src, or the
-  ancestry refinement MSC.DiagTether+SourceParent.A+Ancestral.NoPulse),
+  pressure-strain depletion, MSC.Localize^src+Ancient.NoPulse^src, the
+  ancestry refinement MSC.DiagTether^src+SourceParent.A+Ancestral.NoPulse, or
+  the repaired compactness carrier
+  (DiagDom.A or LocalSource.NoPulse.A)+Ancient.NoPulse^src),
   then eliminate Jump_avg without assuming Field_avg on the Jump_avg branch
 side_sandbox_status:
   hfg_low: threshold-discharged
@@ -66,7 +68,8 @@ claim_boundary:
     SOURCE.NO-PULSE.A nonlinear shell-flux/source no-pulse control, with
     MSC.BadAC / PulseCharge.A / pressure-strain depletion /
     MSC.Localize^src+Ancient.NoPulse^src /
-    MSC.DiagTether+SourceParent.A+Ancestral.NoPulse as equivalent sharpened
-    presentations.
+    MSC.DiagTether^src+SourceParent.A+Ancestral.NoPulse /
+    (DiagDom.A or LocalSource.NoPulse.A)+Ancient.NoPulse^src as equivalent
+    sharpened presentations.
   prohibited_claim: full periodic Navier-Stokes closure, export readiness, or
     submission readiness before the remaining PCTP.hard burdens are discharged.

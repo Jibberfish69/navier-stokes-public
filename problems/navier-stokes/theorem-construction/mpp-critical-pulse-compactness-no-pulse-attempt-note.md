@@ -207,3 +207,25 @@ MSC.Localize^{src}
 \quad\text{and}\quad
 Ancient.NoPulse^{src}.
 ```
+
+## May 1 Diagonal Carrier Audit
+
+The follow-up notes `mpp-msc-localize-diagonal-carrier-attempt-note.md` and
+`mpp-msc-diagtether-direct-attempt-note.md` sharpen the first burden again.
+The global mixed-shell product `D_jD_\ell` localizes first to a double-space
+carrier, not to one physical heat-scale cylinder.  Therefore `MSC.Localize^{src}`
+requires a co-location theorem before compactness can start.
+
+The direct diagonal attempt closes negatively from the installed estimates:
+near-diagonal same-fluid mass is not forced by a global product of shell norms.
+The viable compactness repair is:
+
+```math
+(DiagDom.A\ \text{or}\ LocalSource.NoPulse.A)
++
+Ancient.NoPulse^{src}.
+```
+
+This is a stricter dependency list than the original `Ancient.NoPulse` target:
+ancient rigidity is only useful after the route preserves physical co-location
+and source residue through localization.

@@ -134,3 +134,10 @@ No installed high-high near-diagonal lemma discharges `MSC.DiagTether`.
 The compactness/ancestry branch remains blocked at the carrier selection layer
 before `SourceParent.A`, `Ancestral.NoPulse`, or `Ancient.NoPulse^{src}` can
 act.
+
+The follow-up direct attempt
+`mpp-msc-diagtether-direct-attempt-note.md` sharpens this verdict: the installed
+global shell product itself has erased physical co-location.  The next viable
+carrier theorem is not another frequency near-diagonal import, but either
+`DiagDom.A` for a local diagonal mixed-shell carrier or `LocalSource.NoPulse.A`
+for the pre-Cauchy same-fluid source packet.

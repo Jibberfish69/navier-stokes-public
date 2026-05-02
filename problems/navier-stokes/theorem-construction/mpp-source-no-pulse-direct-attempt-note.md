@@ -246,7 +246,10 @@ equivalent source-control presentations:
   measure,
 - `PulseCharge.A` for source-balanced bad heat-scale intervals,
 - pressure-strain depletion of active vortex stretching,
-- `Ancient.NoPulse` exclusion of nontrivial critical pulse limits.
+- `MSC.Localize^{src}+Ancient.NoPulse^{src}` for source-residue critical pulse
+  compactness,
+- `DiagDom.A` or `LocalSource.NoPulse.A` to preserve near-diagonal same-fluid
+  co-location before compactness consumes the source-residue pulse.
 
 This is the closed primitive for the current branch. Further progress now
 requires proving `SOURCE.NO-PULSE.A` itself, not re-routing through an already
