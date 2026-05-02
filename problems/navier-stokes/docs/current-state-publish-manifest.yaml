@@ -1154,7 +1154,9 @@ published_files:
 - theorem-construction/mpp-mq-local-membership-canonical-surface.md
 - theorem-construction/mpp-msc-badac-energy-measure-countermodel-note.md
 - theorem-construction/mpp-msc-badac-same-scale-import-audit-note.md
+- theorem-construction/mpp-msc-diagtether-near-diagonal-import-audit-note.md
 - theorem-construction/mpp-msc-localize-carrier-tether-audit-note.md
+- theorem-construction/mpp-msc-localize-diagonal-carrier-attempt-note.md
 - theorem-construction/mpp-msc-pulsecharge-attempt-note.md
 - theorem-construction/mpp-msc-spill-nopulse-bad-set-domination-attempt-note.md
 - theorem-construction/mpp-nohop-active-window-chain-attempt-note.md
