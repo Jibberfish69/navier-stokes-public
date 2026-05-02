@@ -54,7 +54,7 @@ remaining_release_gates:
   MSC.Spill.NoPulse, the same no-pulse atom; critical-pulse, pressure-strain,
   and compactness audits sharpen the live forms to MSC.BadAC, PulseCharge.A,
   pressure-strain depletion, MSC.Localize^src+Ancient.NoPulse^src, the
-  ancestry refinement MSC.DiagTether^src+SourceParent.A+Ancestral.NoPulse, or
+  ancestry refinement MSC.DiagTether^src+SourceParent.A+Ancestral.NoPulse^src, or
   the repaired compactness carrier
   (DiagDom.A or LocalSource.NoPulse.A)+Ancient.NoPulse^src),
   then eliminate Jump_avg without assuming Field_avg on the Jump_avg branch
@@ -68,7 +68,7 @@ claim_boundary:
     SOURCE.NO-PULSE.A nonlinear shell-flux/source no-pulse control, with
     MSC.BadAC / PulseCharge.A / pressure-strain depletion /
     MSC.Localize^src+Ancient.NoPulse^src /
-    MSC.DiagTether^src+SourceParent.A+Ancestral.NoPulse /
+    MSC.DiagTether^src+SourceParent.A+Ancestral.NoPulse^src /
     (DiagDom.A or LocalSource.NoPulse.A)+Ancient.NoPulse^src as equivalent
     sharpened presentations.
   prohibited_claim: full periodic Navier-Stokes closure, export readiness, or

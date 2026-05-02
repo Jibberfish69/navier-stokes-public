@@ -199,8 +199,8 @@ LocalSource.NoPulse.A:
 
 The pulse-ancestry refinement in
 `mpp-source-no-pulse-pulse-ancestry-reduction-note.md` narrows the ancient side
-further.  Once `MSC.Localize^{carrier}` supplies actual same-fluid pulse
-cylinders, the desired one-step theorem is a parent/charge dichotomy:
+further.  Once `MSC.Localize^{src}` supplies actual same-fluid source-residue
+pulse cylinders, the desired one-step theorem is a parent/charge dichotomy:
 
 ```math
 SourceParent.A:
@@ -210,19 +210,19 @@ a same-fluid predecessor pulse.}
 ```
 
 If this parent theorem is installed, the remaining rigidity is not broad
-`Ancient.NoPulse`, but the narrower statement
+`Ancient.NoPulse`, but the narrower source-residue statement
 
 ```math
-Ancestral.NoPulse:
+Ancestral.NoPulse^{src}:
 \quad
 \text{no infinite source-balanced same-fluid pulse ancestry has a nontrivial
-ancient critical limit.}
+ancient source-residue critical limit.}
 ```
 
 Thus the ancestry route would close as
 
 ```math
-MSC.Localize^{carrier}+SourceParent.A+Ancestral.NoPulse
+MSC.Localize^{src}+SourceParent.A+Ancestral.NoPulse^{src}
 \Longrightarrow
 MSC.BadAC.
 ```
@@ -230,7 +230,7 @@ MSC.BadAC.
 With the diagonal slot exposed, the sharper ancestry package is:
 
 ```math
-MSC.DiagTether^{src}+SourceParent.A+Ancestral.NoPulse
+MSC.DiagTether^{src}+SourceParent.A+Ancestral.NoPulse^{src}
 \Longrightarrow
 MSC.BadAC.
 ```
@@ -264,9 +264,9 @@ PulseCharge.A,
 \qquad
 MSC.Localize^{src}+Ancient.NoPulse^{src},
 \qquad
-MSC.Localize^{carrier}+SourceParent.A+Ancestral.NoPulse,
+MSC.Localize^{src}+SourceParent.A+Ancestral.NoPulse^{src},
 \qquad
-MSC.DiagTether^{src}+SourceParent.A+Ancestral.NoPulse,
+MSC.DiagTether^{src}+SourceParent.A+Ancestral.NoPulse^{src},
 \qquad
 (DiagDom.A\ \text{or}\ LocalSource.NoPulse.A)+Ancient.NoPulse^{src}.
 ```
