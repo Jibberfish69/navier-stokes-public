@@ -141,6 +141,7 @@ The mixed-shell identity has the form
 
 ```math
 \partial_t\mathfrak M_N^\sigma
++
 \nu\mathfrak B_N^\sigma
 \le
 C\sum_{N<j\le\ell}

@@ -166,9 +166,12 @@ Ancient.NoPulse:
 }
 ```
 
-This target is equivalent at route level to the active no-pulse atom.  It is
-not currently installed by the finite-energy, local-suitability, pressure, or
-endpoint packages.
+The follow-up rigidity audit `mpp-ancient-nopulse-rigidity-audit-note.md` shows
+that this broad form is too strong: smooth nonzero ancient Navier-Stokes
+profiles exist.  The only viable version is the source-residue theorem
+`Ancient.NoPulse^{src}`.  That sharper target is equivalent at route level to
+the active no-pulse atom and is not currently installed by the finite-energy,
+local-suitability, pressure, or endpoint packages.
 
 ## May 1 Extraction Bridge Audit
 
@@ -193,12 +196,14 @@ MSC.Localize^{carrier}:
 \text{localized nonzero critical pulse packet}.
 ```
 
-Only after `MSC.Localize^{carrier}` is supplied can the existing local
-compactness machinery extract a local suitable ancient pulse limit.  The
-compactness route therefore has two exact burdens:
+The rigidity audit also shows that the carrier must preserve source residue,
+not merely nonzero local energy.  Only after `MSC.Localize^{src}` is supplied
+can the existing local compactness machinery extract the needed local suitable
+ancient source-residue pulse limit.  The compactness route therefore has two
+exact burdens:
 
 ```math
-MSC.Localize^{carrier}
+MSC.Localize^{src}
 \quad\text{and}\quad
-Ancient.NoPulse.
+Ancient.NoPulse^{src}.
 ```

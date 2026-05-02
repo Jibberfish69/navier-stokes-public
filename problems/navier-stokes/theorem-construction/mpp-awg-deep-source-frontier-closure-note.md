@@ -218,8 +218,9 @@ natural escape routes. They show that the energy scheduler, pointwise strain
 sign, pressure recovery, and local-suitable compactness do not prove the atom.
 The equivalent residual presentations are `MSC.BadAC`, pressure-strain
 depletion of active vortex stretching, or
-`MSC.Localize^carrier+Ancient.NoPulse` for the critical-pulse compactness
-route.
+`MSC.Localize^src+Ancient.NoPulse^src` for the critical-pulse compactness
+route. The broad ancient no-pulse statement is rejected in
+`mpp-ancient-nopulse-rigidity-audit-note.md`.
 
 The same-scale import audit
 `mpp-msc-badac-same-scale-import-audit-note.md` verifies that existing

@@ -105,8 +105,8 @@ law for active vortex stretching. No installed `FCC.C1`, `FSCR.C`, `FPCR.C`, or
 
 ### 6. Compactness route rejected as an installed discharge
 
-The compactness route converts failure of no-pulse into a nontrivial local
-suitable ancient critical pulse object. The missing theorem is
+The compactness route tries to convert failure of no-pulse into a nontrivial
+local suitable ancient critical pulse object. The broad missing theorem was
 
 ```math
 Ancient.NoPulse:
@@ -114,9 +114,20 @@ Ancient.NoPulse:
 \text{every same-fluid critical pulse limit has zero active source residue.}
 ```
 
+The rigidity audit `mpp-ancient-nopulse-rigidity-audit-note.md` rejects the
+broad form: smooth nonzero ancient Navier-Stokes profiles exist. The viable
+version is source-residue typed:
+
+```math
+Ancient.NoPulse^{src}:
+\quad
+\text{every terminal-generated same-fluid source-residue critical pulse limit
+has zero active source residue.}
+```
+
 No installed Liouville theorem excludes that object without extra hypotheses
-such as boundedness, Type I control, axisymmetry, self-similarity, or critical
-smallness.
+such as boundedness, Type I control, axisymmetry, self-similarity, critical
+smallness, or a terminal-generation law.
 
 The extraction bridge audit
 `mpp-ancient-nopulse-extraction-bridge-attempt-note.md` adds one more necessary
@@ -125,19 +136,41 @@ license.  `MSC.BadAC` is currently a global shell-time statement; to rescale a
 local suitable pulse one also needs
 
 ```math
-MSC.Localize^{carrier}:
+MSC.Localize^{src}:
 \quad
 \neg MSC.BadAC
 \Longrightarrow
-\text{localized nonzero critical pulse packet}.
+\text{localized nonzero source-residue critical pulse packet}.
 ```
 
 Thus the compactness route is really
 
 ```math
-MSC.Localize^{carrier}+Ancient.NoPulse
+MSC.Localize^{src}+Ancient.NoPulse^{src}
 \Longrightarrow
 MSC.BadAC.
+```
+
+The diagonal-carrier attempt
+`mpp-msc-localize-diagonal-carrier-attempt-note.md` sharpens the localization
+slot. Expanding `D_jD_\ell` gives a positive double-space carrier, but a
+physical compactness cylinder requires near-diagonal same-fluid mass. Thus
+`MSC.Localize^{carrier}` is reduced to:
+
+```math
+MSC.DiagTether:
+\quad
+\neg MSC.BadAC
+\Longrightarrow
+\text{nonzero near-diagonal same-fluid local carrier}.
+```
+
+With that tether,
+
+```math
+MSC.DiagTether
+\Longrightarrow
+MSC.Localize^{carrier}.
 ```
 
 The pulse-ancestry refinement in
@@ -170,6 +203,14 @@ MSC.Localize^{carrier}+SourceParent.A+Ancestral.NoPulse
 MSC.BadAC.
 ```
 
+With the diagonal slot exposed, the sharper ancestry package is:
+
+```math
+MSC.DiagTether+SourceParent.A+Ancestral.NoPulse
+\Longrightarrow
+MSC.BadAC.
+```
+
 ## Remaining Terminal Target
 
 The live atom is therefore:
@@ -197,9 +238,11 @@ PulseCharge.A,
 \qquad
 \text{pressure-strain depletion of active vortex stretching},
 \qquad
-MSC.Localize^{carrier}+Ancient.NoPulse,
+MSC.Localize^{src}+Ancient.NoPulse^{src},
 \qquad
-MSC.Localize^{carrier}+SourceParent.A+Ancestral.NoPulse.
+MSC.Localize^{carrier}+SourceParent.A+Ancestral.NoPulse,
+\qquad
+MSC.DiagTether+SourceParent.A+Ancestral.NoPulse.
 ```
 
 The signed commutator theorem remains a possible new theorem only if it proves

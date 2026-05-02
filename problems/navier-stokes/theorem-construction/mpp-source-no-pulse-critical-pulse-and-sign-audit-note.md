@@ -264,5 +264,5 @@ one of:
 2. a signed weighted commutator theorem for the true lifted remainder before
    absolute values;
 3. a pressure-strain structural cancellation theorem tied to the active packet;
-4. a carrier-tether compactness theorem plus ancient-solution exclusion for the
-   critical pulse profile above.
+4. a source-residue carrier-tether compactness theorem plus
+   `Ancient.NoPulse^{src}` for the critical pulse profile above.
