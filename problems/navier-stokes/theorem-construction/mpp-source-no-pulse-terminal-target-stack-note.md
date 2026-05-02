@@ -140,6 +140,36 @@ MSC.Localize^{carrier}+Ancient.NoPulse
 MSC.BadAC.
 ```
 
+The pulse-ancestry refinement in
+`mpp-source-no-pulse-pulse-ancestry-reduction-note.md` narrows the ancient side
+further.  Once `MSC.Localize^{carrier}` supplies actual same-fluid pulse
+cylinders, the desired one-step theorem is a parent/charge dichotomy:
+
+```math
+SourceParent.A:
+\quad
+\text{a source-balanced localized bad pulse either spends finite reserve or has
+a same-fluid predecessor pulse.}
+```
+
+If this parent theorem is installed, the remaining rigidity is not broad
+`Ancient.NoPulse`, but the narrower statement
+
+```math
+Ancestral.NoPulse:
+\quad
+\text{no infinite source-balanced same-fluid pulse ancestry has a nontrivial
+ancient critical limit.}
+```
+
+Thus the ancestry route would close as
+
+```math
+MSC.Localize^{carrier}+SourceParent.A+Ancestral.NoPulse
+\Longrightarrow
+MSC.BadAC.
+```
+
 ## Remaining Terminal Target
 
 The live atom is therefore:
@@ -167,7 +197,9 @@ PulseCharge.A,
 \qquad
 \text{pressure-strain depletion of active vortex stretching},
 \qquad
-MSC.Localize^{carrier}+Ancient.NoPulse.
+MSC.Localize^{carrier}+Ancient.NoPulse,
+\qquad
+MSC.Localize^{carrier}+SourceParent.A+Ancestral.NoPulse.
 ```
 
 The signed commutator theorem remains a possible new theorem only if it proves
