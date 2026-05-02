@@ -123,9 +123,10 @@ This does not prove such a configuration solves Navier-Stokes.  It proves the
 logical insufficiency of the current global shell-time data for a local blow-up
 extraction.
 
-## Conditional Extraction Once `MSC.Localize` Is Supplied
+## Conditional Extraction Once `MSC.Localize^{carrier}` Is Supplied
 
-Assume `MSC.Localize`.  Then there are cylinders satisfying `(2)`.  Rescale as
+Assume `MSC.Localize^{carrier}`.  Then there are cylinders satisfying `(2)`.
+Rescale as
 above.  The local energy inequality, pressure Poisson recovery, and uniform
 scale-critical bounds on fixed subcylinders give a local suitable subsequential
 limit
@@ -148,7 +149,7 @@ So the compactness part of the route becomes:
 
 ```math
 \neg MSC.BadAC
-+MSC.Localize
++MSC.Localize^{carrier}
 \Longrightarrow
 \text{nontrivial local suitable critical pulse limit}.
 \tag{5}

@@ -34,7 +34,7 @@ blockers:
   is not export-ready as a full-MPP proof.
 - The independent audit still blocks release at PCTP.hard terminal-tail production
   and Jump_avg; the active averaged-route primitive is now branch-native
-  `Jump_avg` elimination via `AWG.A/SOURCE.NO-PULSE.A`, sharpened to `MSC.BadAC`, pressure-strain depletion, or `MSC.Localize+Ancient.NoPulse`.
+  `Jump_avg` elimination via `AWG.A/SOURCE.NO-PULSE.A`, sharpened to `MSC.BadAC`, pressure-strain depletion, or `MSC.Localize^carrier+Ancient.NoPulse`.
 - Draft/export artifacts may remain reproducible as files, but they cannot be treated
   as a mathematically verified release bundle.
 - 'PCTP.hard terminal-tail production: prove OriginalSmoothData implies uniform terminal-tail
