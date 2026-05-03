@@ -4,6 +4,26 @@
 
 Substantive leading-edge audit for the current Navier-Stokes frontier.
 
+## NS 25 Route-Faithfulness Correction
+
+This audit predates the explicit CM-contrapositive polarity correction now
+recorded in
+`mpp-cm-contrapositive-route-faithfulness-audit-note-20260503.md`.
+
+Its line-by-line terminal-tail and release-boundary checks remain useful, but
+the final work queue below is superseded wherever it treats proof-polish,
+terminal-tail production, or absolute no-pulse exclusion as the route root.  The
+route-faithful primitive is:
+
+```math
+\text{terminal source-pulse non-smooth witness}
+\Longrightarrow
+\neg Pack\vee\neg Part\vee\neg Field.
+```
+
+`OriginalSmoothData=>SourcePulseExclusion.A` is retained only as a strong
+sufficient supplier presentation of that source-pulse class-exit target.
+
 Read sources:
 
 | Surface | SHA |
@@ -95,17 +115,17 @@ $$
 
 | Layer | Current repo status | Manuscript-facing consequence |
 |---|---|---|
-| Local terminal-tail theorem | `PCTP.hard / TTU.A` discharged on the periodic terminal branch. | Can serve as the local theorem-program closure packet. |
+| Local terminal-tail theorem | `PCTP.hard / TTU.A` remains blocked downstream of the CM primitive `SourcePulseCMExit.A`. The current direct supplier presentation `OriginalSmoothData=>SourcePulseExclusion.A` is seated under the `SourcePulseFieldExit.A` face. | Cannot serve as a closed local theorem-program packet until `SourcePulseFieldExit.A` or an alternate `SourcePulsePartExit.A` / `SourcePulsePackExit.A` face is proved. |
 | Target fidelity | Periodic zero-force branch explicitly matched by target-fidelity surface. | Manuscript statement should stay periodic zero-force unless a separate whole-space target bridge is cited. |
-| Release decision | `submission-candidate`, `export-ready`, full-MPP closure achieved, blockers empty. | Public-facing action is export/submission handling, not further proof-matrix closure. |
-| Review artifacts | `review-verdict`, `submission-verdict`, `typeset-audit`, and export status are listed by `release-decision.yaml`. | The proof package has moved from theorem-construction risk to submission-management risk. |
+| Release decision | Review/release surfaces remain blocked by the independent math audit; release is not mathematically cleared while `SourcePulseCMExit.A` remains open. | Public-facing action remains theorem repair first, then export/submission handling. |
+| Review artifacts | `review-verdict`, `release-decision`, and the live theorem surfaces now agree that the completion tier achieved is only `conditional-terminal-packet`. | The proof package is still in theorem-construction risk, not just submission-management risk. |
 
 ### Conclusion
 
 The repo state now separates two claims:
 
-1. periodic terminal-tail theorem closure is installed;
-2. public release status is submission-candidate / export-ready, governed by submission handling and manuscript packaging.
+1. conditional theorem-program packets are installed on the periodic branch;
+2. the active mathematical frontier is still `SourcePulseCMExit.A`, with `OriginalSmoothData=>SourcePulseExclusion.A` as the current `SourcePulseFieldExit.A` supplier presentation, so public release remains subordinate to theorem repair rather than pure submission handling.
 
 ## 3. `Classical closure warrant carrier`
 
@@ -207,8 +227,16 @@ The curvature/Route B/C3 objects are best handled as support/export material und
 
 ## Final prioritized work queue
 
-1. `PCTP.hard / TTU.A` line-by-line proof polish.
-2. `Continuum no-escape compactness packet` red-team expansion.
-3. `Classical closure warrant carrier` PDE-norm export proof.
-4. `Target-fidelity / release` manuscript table.
-5. Route B/C3 curvature corollary demotion/export note.
+1. Re-seat the source-pulse stack through `SourcePulseCMExit.A`: a terminal
+   source-pulse non-smooth witness must fail `Pack`, `Part`, or `Field`.
+2. Treat `OriginalSmoothData=>SourcePulseExclusion.A`,
+   `mu_*^sing=0`, remove / charge / rigidify, and native trilinear domination as
+   sufficient supplier languages for that class-exit target, not as the proof
+   program root.
+3. Only after the class-exit classification is settled should `PCTP.hard /
+   TTU.A`, continuum no-escape, and classical closure-warrant polish be promoted
+   back to final proof/export work.
+4. Keep target-fidelity / release handling blocked until the route-faithful
+   source-pulse class-exit target or a stronger sufficient supplier is installed.
+5. Keep Route B/C3 curvature material as support/export context unless live
+   authority promotes it through an explicit `Pack / Part / Field` bridge.
