@@ -10,14 +10,14 @@ identity:
   source_review_verdict_id: review-verdict-navier-stokes
 posture:
   theorem_target: full-mpp-closure
-  current_package_status: local-theorem-program-closed
-  standalone_status: local-theorem-program-closed
-  completion_tier_achieved: local-theorem-program-closure
-  review_verdict: local-theorem-program-closed
+  current_package_status: blocked-by-pctp5c-jumpavg-elimination
+  standalone_status: theorem-open-at-pctp5c
+  completion_tier_achieved: conditional-terminal-consumption-bridge
+  review_verdict: theorem-open-at-pctp5c
   live_theorem_edge_present: true
-  live_theorem_edge_route_label: Local theorem-program closure after retained-field tower anchoring
-    and SourcePulseCMExit.A discharge; SourcePulseExclusion.A retained as nonblocking
-    strong supplier context
+  live_theorem_edge_route_label: Full route open at PCTP.5.C / SOURCE.NO-PULSE.A
+    / AWG.A; retained-field tower anchoring discharges SourcePulseCMExit.A only
+    on the local class-membership branch
 live_theorem_edge:
   route_id: live-authority-edge-navier-stokes
   route_label: Local theorem-program closure after retained-field tower anchoring and
