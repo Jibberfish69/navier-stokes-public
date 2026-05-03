@@ -56,19 +56,22 @@ theorem_warrants:
       - Continuation / Regularity bridge
       - Closed-loop warrant on the declared periodic theorem surface
       - No-hidden-modified-equation-work condition
-    proof_status: conditional
-    external_publication_risk: blocked-by-pctp-hard-five-burden-frontier
+    proof_status: conditional-on-pctp-hard-ttu
+    external_publication_risk: blocked-by-pctp5c-jumpavg-elimination
     warrant_note: >-
-      The April 30 terminal-tail governance consumption is superseded by the
-      independent five-burden audit. The bridge `TGC.A + AACT.Global.noJump +
-      AVG.END.A + READ.END => PCTP.hard / TTU.A` remains a conditional
-      theorem-program spine, not a mathematical discharge. The active blockers
-      are terminal-tail Pack/Part/Field/tower production from OriginalSmoothData
-      and branch-native Jump_avg elimination. The source supplier cell is
-      discharged for the selected strengthened route `FFSRC.A=>FCI.5f`, the
-      no-`Jump_avg` `AACT.Global` cell is discharged by the restart-scheduler
-      cover note, and the bridge-license audit into CM is discharged by
-      `mpp-pctp-hard-bridge-license-into-cm-audit-note.md`.
+      The conditional terminal-consumption bridge consumes `PCTP.hard / TTU.A`
+      if that terminal-tail production input is installed on the same periodic
+      family. The retained-field tower anchoring closes the local
+      `SourcePulseCMExit.A` branch, and `KC.Place_ret` places an already retained
+      `Pack/Part/Field` source-pulse family into the quantitative CKN criterion.
+      The noncircularity audits
+      `mpp-sourcepulse-knowncriterion-placement-boundary-audit-note-20260503.md`
+      and `mpp-pctp5c-kc-place-noncircularity-audit-note-20260503.md` record that
+      this retained-field placement does not discharge field-free
+      `PCTP.5.C`. The full periodic zero-force Theorem 2.1 warrant therefore
+      remains conditional on `PCTP.5.C / SOURCE.NO-PULSE.A / AWG.A`, equivalently
+      branch-native `Jump_avg` elimination without spending `Field_avg`,
+      `CFI.A_avg`, `READ.COVER`, or `End_NS_avg` upstream.
 bridge_obligations:
   - bridge_id: scale-barrier
     verdict: discharged
@@ -143,8 +146,9 @@ summary:
   bridge_not_discharged_count: 0
   full_claim_lane_blocked: true
   blocking_basis:
-    - pctp-hard-terminal-tail-production
-    - jump-avg-branch-elimination
+    - PCTP.5.C / SOURCE.NO-PULSE.A / AWG.A remains open; retained `KC.Place_ret`
+      is conditional on the field/coherence data denied on the branch-native
+      `Jump_avg` carrier.
 auxiliary_theorem_tracks:
   - track_id: projected-nc-flow-d-route
     status: scaffolded
