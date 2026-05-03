@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-03T19:06:14Z'
+  generated_at: '2026-05-03T19:13:41Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-35dc33398f11
-    route_signature: 35dc33398f11201f8e22a46c49f4016a5bbd7f1e
+    surface_id: theorem-surface-navier-stokes-1c3f5ade309a
+    route_signature: 1c3f5ade309afbd8e08fc830f2e72158762cac78
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -58,6 +58,19 @@ shared_alignment:
       kind: definition
       status: localized-support
       patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+    - slot_id: marvin-upstream-954339945793
+      label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+        under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+        and E_sh(X) vanish identically, so the exact Route '
+      kind: definition
+      status: localized-support
+      patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+    - slot_id: marvin-upstream-96892bab139f
+      label: 'Define or prove: Added two new theorem-facing reductions on the Clay
+        whole-space target.'
+      kind: definition
+      status: localized-support
+      patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
     route_label: full route open at PCTP.5.C / SOURCE.NO-PULSE.A / AWG.A; retained-field
@@ -101,52 +114,12 @@ shared_alignment:
     - selector-adapted defect-to-strain theorem
   alignment_reroute: solver-loop
 local_derivation:
-  status: packetize-and-derive
-  required_packet_count: 3
-  required_packets:
-  - packet_id: marvin-upstream-eb3fabeeac46
-    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-      Clay whole-space target into exact source-backed ingredients already present
-      on the lane. On the classical side, isolated the mixed-jet system, the exact
-      rung-level can'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    matched_route_slot_labels:
-    - 'Define or prove: Reduced the live Navier-Stokes route stack against the Clay
-      whole-space target into exact source-backed ingredients already present on the
-      lane. On the classical side, isolated the mixed-jet system, the exact rung-level
-      can'
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T014725Z-6ece27230fc9.md
-  - packet_id: marvin-upstream-ada9835aa864
-    label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    matched_route_slot_labels:
-    - 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T015459Z-d5f90422800c.md
-  - packet_id: marvin-upstream-6d929e8a052a
-    label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    matched_route_slot_labels:
-    - 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T020719Z-04949830208e.md
-  leadership_status: lagging-shared-picture
+  status: locally-exhausted
+  required_packet_count: 0
+  required_packets: []
+  leadership_status: aligned
   net_new_local_theorem_count: 0
-  recommended_next_cell_type: object-formalization
+  recommended_next_cell_type: prose-realization
 cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
@@ -228,46 +201,32 @@ auditor:
   death_certificate_count: 0
   unresolved_branch_terminal_count: 0
 frontier_projection:
-  status: ready
+  status: cleared
   primary_target:
-    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-      Clay whole-space target into exact source-backed ingredients already present
-      on the lane. On the classical side, isolated the mixed-jet system, the exact
-      rung-level can'
-    recommended_stage: object-formalization
-  one_step_beyond:
-  - label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    recommended_stage: object-formalization
-  two_steps_beyond:
-  - label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    recommended_stage: object-formalization
+  one_step_beyond: []
+  two_steps_beyond: []
   route_pressure: []
-  recommended_next_cell_type: object-formalization
+  recommended_next_cell_type: prose-realization
 summary:
-  phase: local-derivation
-  execution_state: blocked
-  leadership_status: lagging-shared-picture
+  phase: steady-state
+  execution_state: steady-state
+  leadership_status: aligned
   alignment_complete: true
-  proof_matrix_all_discharged: false
-  proof_assembly_open_obligation_count: 1
+  proof_matrix_all_discharged: true
+  proof_assembly_open_obligation_count: 0
   authoritative_source_gap_count: 0
-  export_readiness_hold_state: none
-  exact_local_packet_count: 3
+  export_readiness_hold_state: export-readiness-hold
+  exact_local_packet_count: 0
   net_new_local_theorem_count: 0
-  projected_frontier_count: 2
-  current_open_obligation_count: 1
-  open_obligations_state: not-currently-worked
-  theorem_work_blocked: true
-  blocked_queue_interpretation: theorem-work blockage
-  on_recommended_track: false
-  recommended_next_cell_type: object-formalization
+  projected_frontier_count: 0
+  current_open_obligation_count: 0
+  open_obligations_state: cleared
+  theorem_work_blocked: false
+  blocked_queue_interpretation: none
+  on_recommended_track: true
+  recommended_next_cell_type: prose-realization
   audit_status: audited-ok
   branch_terminal_status: no-branches
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: theorem-repair
+  current_next_cell_type: prose-realization
   current_next_cell_is_theorem_work: false
