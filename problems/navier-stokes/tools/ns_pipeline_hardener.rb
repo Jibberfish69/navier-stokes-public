@@ -5,7 +5,7 @@ require "pathname"
 require "time"
 require "yaml"
 
-ROOT = Pathname.new("/Users/thomasbirnie/Documents/Research-Consolidation").freeze
+ROOT = Pathname.new("/Users/thomasbirnie/Workspace/ToE/Research-Consolidation").freeze
 PROBLEM_ROOT = ROOT.join("problems/navier-stokes").freeze
 ROUTE_LOCK_PATH = PROBLEM_ROOT.join("route-lock.yaml").freeze
 SLOT_MAP_PATH = PROBLEM_ROOT.join("bridge-slot-map.yaml").freeze
@@ -21,37 +21,40 @@ AUTHORITATIVE_SOURCE_DISCOVERY_PATH = PROBLEM_ROOT.join("authoritative-source-di
 ROUTE_REPORT_PATH = PROBLEM_ROOT.join("route-integrity-report.yaml").freeze
 WARRANT_COMPILATION_PATH = PROBLEM_ROOT.join("warrant-compilation.yaml").freeze
 
-CORE_OPEN_OBLIGATIONS = [
-  {
-    "obligation_id" => "warrant-theorem-2.1",
-    "label" => "Theorem 2.1 (Classical Closure)",
-    "kind" => "theorem-warrant",
-    "status" => "bridge-pending"
-  },
-  {
-    "obligation_id" => "debt-d1-projected-nc-flow-well-posedness",
-    "label" => "Prove D.1 projected NC-flow well-posedness",
-    "kind" => "blocked-frontier",
-    "status" => "frontier"
-  },
-  {
-    "obligation_id" => "debt-d2-global-coercive-energy-estimate",
-    "label" => "Prove D.2 global coercive energy estimate",
-    "kind" => "blocked-frontier",
-    "status" => "frontier"
-  }
+CURRENT_SOURCEPULSE_FRONTIER = {
+  "obligation_id" => "sourcepulse-dtc-placement",
+  "label" => "SourcePulseDTCPlacement.A",
+  "kind" => "theorem-obligation",
+  "status" => "open",
+  "source_anchor" => "problems/navier-stokes/theorem-construction/mpp-sourcepulse-dtc-placement-license-audit-note-20260503.md",
+  "route_faithfulness_status" => "exact same-family tower-placement license needed for SourcePulseCMExit.A; strong source-exclusion supplier remains nonblocking",
+  "route_governing_primitive" => "SourcePulseCMExit.A",
+  "current_direct_supplier_target" => "OriginalSmoothData=>SourcePulseExclusion.A (nonblocking strong supplier)"
+}.freeze
+
+TERMINAL_WARRANT_OBLIGATION = {
+  "obligation_id" => "warrant-theorem-2.1",
+  "label" => "Theorem 2.1 (Classical Closure)",
+  "kind" => "theorem-warrant",
+  "status" => "bridge-pending"
+}.freeze
+
+OPEN_ASSEMBLY_OBLIGATIONS = [
+  CURRENT_SOURCEPULSE_FRONTIER,
+  TERMINAL_WARRANT_OBLIGATION
 ].freeze
-CORE_OPEN_OBLIGATION_IDS = CORE_OPEN_OBLIGATIONS.map { |entry| entry.fetch("obligation_id") }.freeze
-CORE_SLOT_PATCH_SURFACE = {
-  "warrant-theorem-2.1" => "problems/navier-stokes/external-paper/sections/main-result.tex",
-  "debt-d1-projected-nc-flow-well-posedness" => "problems/navier-stokes/object-formalization.yaml",
-  "debt-d2-global-coercive-energy-estimate" => "problems/navier-stokes/object-formalization.yaml"
+OPEN_ASSEMBLY_OBLIGATION_IDS = OPEN_ASSEMBLY_OBLIGATIONS.map { |entry| entry.fetch("obligation_id") }.freeze
+ROUTE_SLOT_OBLIGATIONS = [
+  TERMINAL_WARRANT_OBLIGATION
+].freeze
+ROUTE_SLOT_PATCH_SURFACE = {
+  "warrant-theorem-2.1" => "problems/navier-stokes/external-paper/sections/main-result.tex"
 }.freeze
-CORE_SLOT_SOURCE_ANCHOR = {
-  "warrant-theorem-2.1" => "problems/navier-stokes/external-paper/sections/main-result.tex",
-  "debt-d1-projected-nc-flow-well-posedness" => "dependency-discharge",
-  "debt-d2-global-coercive-energy-estimate" => "creative-theorem-search"
+ROUTE_SLOT_SOURCE_ANCHOR = {
+  "warrant-theorem-2.1" => "problems/navier-stokes/external-paper/sections/main-result.tex"
 }.freeze
+TERMINAL_PROMOTION_OBLIGATION_ID = "debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3"
+TERMINAL_PROMOTION_LABEL = "Periodic Clay terminal-promotion bridge: prove that the installed Theorem 2.1 class-membership warrant eliminates every first finite classical endpoint for arbitrary smooth divergence-free zero-mean data on T^3."
 
 def utc_now
   Time.now.utc.iso8601
@@ -123,9 +126,9 @@ def index_by_id(entries, key)
   end
 end
 
-def core_open_obligations_with_existing(existing_entries)
+def open_assembly_obligations_with_existing(existing_entries)
   existing = index_by_id(existing_entries, "obligation_id")
-  CORE_OPEN_OBLIGATIONS.map do |template|
+  OPEN_ASSEMBLY_OBLIGATIONS.map do |template|
     obligation_id = template.fetch("obligation_id")
     existing.fetch(obligation_id, {}).merge(template)
   end
@@ -133,7 +136,7 @@ end
 
 def core_route_slots_with_existing(existing_slots)
   existing = index_by_id(existing_slots, "slot_id")
-  CORE_OPEN_OBLIGATIONS.map do |template|
+  ROUTE_SLOT_OBLIGATIONS.map do |template|
     obligation_id = template.fetch("obligation_id")
     slot = existing.fetch(obligation_id, {})
     slot = slot.merge(
@@ -142,8 +145,8 @@ def core_route_slots_with_existing(existing_slots)
       "kind" => template.fetch("kind"),
       "status" => template.fetch("status")
     )
-    slot["source_anchor"] = CORE_SLOT_SOURCE_ANCHOR.fetch(obligation_id) if slot.fetch("source_anchor", "").to_s.empty?
-    slot["patch_surface"] = CORE_SLOT_PATCH_SURFACE.fetch(obligation_id) if slot.fetch("patch_surface", "").to_s.empty?
+    slot["source_anchor"] = ROUTE_SLOT_SOURCE_ANCHOR.fetch(obligation_id) if slot.fetch("source_anchor", "").to_s.empty?
+    slot["patch_surface"] = ROUTE_SLOT_PATCH_SURFACE.fetch(obligation_id) if slot.fetch("patch_surface", "").to_s.empty?
     slot
   end
 end
@@ -151,8 +154,32 @@ end
 def sanitize_proof_assembly(proof_assembly)
   return proof_assembly unless proof_assembly.is_a?(Hash)
 
-  proof_assembly["remaining_open_obligations"] = core_open_obligations_with_existing(proof_assembly["remaining_open_obligations"])
-  proof_assembly["next_solver_targets"] = core_open_obligations_with_existing(proof_assembly["next_solver_targets"])
+  proof_assembly["remaining_open_obligations"] = open_assembly_obligations_with_existing(proof_assembly["remaining_open_obligations"])
+  proof_assembly["next_solver_targets"] = open_assembly_obligations_with_existing(proof_assembly["next_solver_targets"])
+  proof_assembly["remaining_open_obligation_groups"] ||= {}
+  proof_assembly["remaining_open_obligation_groups"]["bridge_discharge_obligations"] ||= []
+  proof_assembly["remaining_open_obligation_groups"]["math_frontier_obligations"] = [
+    {
+      "obligation_id" => CURRENT_SOURCEPULSE_FRONTIER.fetch("obligation_id"),
+      "label" => CURRENT_SOURCEPULSE_FRONTIER.fetch("label"),
+      "kind" => CURRENT_SOURCEPULSE_FRONTIER.fetch("kind"),
+      "status" => CURRENT_SOURCEPULSE_FRONTIER.fetch("status")
+    }
+  ]
+  proof_assembly["remaining_open_obligation_groups"]["theorem_warrant_obligations"] = [
+    TERMINAL_WARRANT_OBLIGATION.dup
+  ]
+  proof_assembly["frontier_context"] ||= {}
+  proof_assembly["frontier_context"]["route_container_obligations"] ||= []
+  proof_assembly["frontier_context"]["downstream_support_obligations"] ||= []
+  proof_assembly["frontier_context"]["additional_context_obligations"] = [
+    {
+      "obligation_id" => CURRENT_SOURCEPULSE_FRONTIER.fetch("obligation_id"),
+      "label" => CURRENT_SOURCEPULSE_FRONTIER.fetch("label"),
+      "kind" => CURRENT_SOURCEPULSE_FRONTIER.fetch("kind"),
+      "status" => CURRENT_SOURCEPULSE_FRONTIER.fetch("status")
+    }
+  ]
 
   theorem_surface = proof_assembly["theorem_surface"]
   if theorem_surface.is_a?(Hash)
@@ -161,7 +188,7 @@ def sanitize_proof_assembly(proof_assembly)
 
   source_grounded_chain = Array(proof_assembly["source_grounded_chain"])
     .reject { |entry| entry.to_s.downcase.include?("marvin-upstream") }
-  CORE_OPEN_OBLIGATIONS.each do |entry|
+  OPEN_ASSEMBLY_OBLIGATIONS.each do |entry|
     label = entry.fetch("label")
     source_grounded_chain << label unless source_grounded_chain.include?(label)
   end
@@ -173,8 +200,10 @@ def sanitize_proof_assembly(proof_assembly)
 
   summary = proof_assembly["summary"]
   if summary.is_a?(Hash)
-    summary["open_obligation_count"] = CORE_OPEN_OBLIGATIONS.length
+    summary["open_obligation_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
     summary["bridge_discharge_blocking_count"] = 1
+    summary["math_frontier_open_count"] = 1
+    summary["frontier_context_count"] = 1
   end
 
   proof_assembly
@@ -186,33 +215,11 @@ def sanitize_source_frontier(source_frontier)
   unresolved_lookup = index_by_id(source_frontier.dig("frontier", "unresolved_obligations"), "obligation_id")
 
   unresolved_obligations = [
-    {
-      "obligation_id" => "debt-d1-projected-nc-flow-well-posedness",
-      "kind" => "lemma",
-      "label" => "Prove D.1 projected NC-flow well-posedness",
-      "status" => "unresolved",
-      "source_anchor" => "problems/navier-stokes/theorem-construction/d1-projected-nc-flow-well-posedness.md"
-    },
-    {
-      "obligation_id" => "debt-d2-global-coercive-energy-estimate",
-      "kind" => "lemma",
-      "label" => "Prove D.2 global coercive energy estimate",
-      "status" => "unresolved",
-      "source_anchor" => "problems/navier-stokes/theorem-construction/d2-global-coercive-energy-estimate.md"
-    },
-    {
-      "obligation_id" => "warrant-theorem-2.1",
-      "kind" => "theorem-warrant",
-      "label" => "Theorem 2.1 (Classical Closure)",
-      "status" => "bridge-pending",
-      "source_anchor" => "problems/navier-stokes/theorem-to-warrant.yaml"
-    }
-  ].map do |template|
-    unresolved_lookup.fetch(template.fetch("obligation_id"), {}).merge(template)
-  end
+    unresolved_lookup.fetch(CURRENT_SOURCEPULSE_FRONTIER.fetch("obligation_id"), {}).merge(CURRENT_SOURCEPULSE_FRONTIER)
+  ]
 
   source_frontier["frontier"] ||= {}
-  source_frontier["frontier"]["first_unresolved_obligation"] = unresolved_obligations.first
+  source_frontier["frontier"]["first_unresolved_obligation"] = CURRENT_SOURCEPULSE_FRONTIER.fetch("obligation_id")
   source_frontier["frontier"]["unresolved_obligations"] = unresolved_obligations
   source_frontier["frontier"]["focus_source"] = "proof-assembly.remaining_open_obligations"
 
@@ -223,7 +230,7 @@ def sanitize_source_frontier(source_frontier)
 
   summary = source_frontier["summary"]
   if summary.is_a?(Hash)
-    summary["bridge_pending_count"] = 1
+    summary["bridge_pending_count"] = 0
     summary["unresolved_count"] = unresolved_obligations.length
   end
 
@@ -237,23 +244,23 @@ def sanitize_object_formalization(object_formalization)
   return object_formalization unless target.is_a?(Hash)
   return object_formalization unless starts_with_marvin_upstream?(target.fetch("obligation_id", ""))
 
-  target["obligation_id"] = "debt-d2-global-coercive-energy-estimate"
-  target["label"] = "Prove D.2 global coercive energy estimate"
-  target["kind"] = "lemma"
+  target["obligation_id"] = TERMINAL_PROMOTION_OBLIGATION_ID
+  target["label"] = TERMINAL_PROMOTION_LABEL
+  target["kind"] = "blocked-frontier"
 
   packet = object_formalization["formalization_packet"]
   if packet.is_a?(Hash)
-    packet["object_id"] = "formal-object-d2-coherent-remainder-split"
-    packet["object_name"] = "d2_coherent_remainder_split"
+    packet["object_id"] = "formal-object-route_mutation_carrier"
+    packet["object_name"] = "route_mutation_carrier"
     packet["object_role"] = "explicit theorem object"
-    packet["theorem_role"] = "Make the D.2 coherent/remainder split exact enough that dependency-discharge can test the H.1 bilinear hinge locally."
-    packet["problem_hint"] = "Keep the object on the NS theorem surface and bound it to H.1 / D.2 only."
+    packet["theorem_role"] = "Make the periodic Clay terminal-promotion bridge exact enough that later discharge can test it locally."
+    packet["problem_hint"] = "Keep the object classical. Do not smuggle in modified-equation structure."
   end
 
   summary = object_formalization["summary"]
   if summary.is_a?(Hash)
     summary["recommended_next_cell_type"] = "dependency-discharge"
-    summary["recommended_next_action"] = "Use the D.2 coherent/remainder object packet and rerun dependency-discharge on the same D.2 obligation."
+    summary["recommended_next_action"] = "Use the terminal-promotion object packet and rerun dependency-discharge on the same obligation instead of reopening a stale sidecar theorem."
   end
 
   object_formalization
@@ -267,21 +274,21 @@ def sanitize_dependency_discharge(discharge)
   return discharge unless starts_with_marvin_upstream?(target.fetch("obligation_id", ""))
 
   discharge["mode"] = "no-target"
-  target["obligation_id"] = "debt-d2-global-coercive-energy-estimate"
-  target["kind"] = "lemma"
-  target["label"] = "Prove D.2 global coercive energy estimate"
-  target["status"] = "unresolved"
-  target["source_anchor"] = "problems/navier-stokes/theorem-construction/d2-global-coercive-energy-estimate.md"
+  target["obligation_id"] = TERMINAL_PROMOTION_OBLIGATION_ID
+  target["kind"] = "blocked-frontier"
+  target["label"] = TERMINAL_PROMOTION_LABEL
+  target["status"] = "structural-only"
+  target["source_anchor"] = ""
   target["blocking"] = true
-  target["status_after"] = "unresolved"
+  target["status_after"] = "structural-only"
   target["promoted"] = false
   target["promotion_distance"] = 0
 
   recommendation = discharge["recommendation"]
   if recommendation.is_a?(Hash)
     recommendation["outcome"] = "no-target"
-    recommendation["rationale"] = "The prior target was a Marvin upstream spillover. Keep the lane on D.2 and rerun dependency-discharge on the exact theorem-crank obligations."
-    recommendation["next_action"] = "Run follow-theorem-crank, then dependency-discharge on D.2 / D.1 / Theorem 2.1 only."
+    recommendation["rationale"] = "The prior target was a Marvin upstream spillover. Keep the lane on the periodic Clay terminal-promotion bridge instead of reopening a stale sidecar theorem."
+    recommendation["next_action"] = "Reopen debt-extract on the same terminal-promotion obligation and split it into a sharper bounded local debt or bridge burden before another discharge attempt."
   end
 
   discharge
@@ -294,7 +301,7 @@ def sanitize_theorem_authority_frontier(matrix)
     next entry unless entry.is_a?(Hash)
 
     obligation_id = entry.fetch("obligation_id", "").to_s
-    next entry unless CORE_OPEN_OBLIGATION_IDS.include?(obligation_id)
+    next entry unless OPEN_ASSEMBLY_OBLIGATION_IDS.include?(obligation_id)
 
     sanitized = entry.dup
     notes = Array(sanitized["notes"]).dup
@@ -305,16 +312,11 @@ def sanitize_theorem_authority_frontier(matrix)
       sanitized["status"] = "bridge-pending"
       sanitized["blocking"] = true
       notes << "The theorem warrant remains bridge-pending on the current theorem-crank surface." unless notes.include?("The theorem warrant remains bridge-pending on the current theorem-crank surface.")
-    when "debt-d1-projected-nc-flow-well-posedness"
-      sanitized["kind"] = "lemma"
-      sanitized["status"] = "unresolved"
+    when "sourcepulse-dtc-placement"
+      sanitized["kind"] = "theorem-obligation"
+      sanitized["status"] = "open"
       sanitized["blocking"] = true
-      notes << "This lane-local core obligation remains open on the theorem-crank surface." unless notes.include?("This lane-local core obligation remains open on the theorem-crank surface.")
-    when "debt-d2-global-coercive-energy-estimate"
-      sanitized["kind"] = "lemma"
-      sanitized["status"] = "unresolved"
-      sanitized["blocking"] = true
-      notes << "This lane-local core obligation remains open on the theorem-crank surface." unless notes.include?("This lane-local core obligation remains open on the theorem-crank surface.")
+      notes << "This is the current active same-family tower-placement license reducing SourcePulseCMExit.A on the live theorem surface." unless notes.include?("This is the current active same-family tower-placement license reducing SourcePulseCMExit.A on the live theorem surface.")
     end
 
     sanitized["notes"] = notes.uniq
