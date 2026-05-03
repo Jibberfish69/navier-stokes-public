@@ -3,675 +3,753 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: ns-proof-program-route-table
-  updated_on: '2026-04-24'
-  purpose: >-
-    Explicit NS-only table separating proof-program authority, proof mode,
-    propagated object, target chain, and bridge requirements so progress in one
-    program is not silently treated as closure in another.
+  updated_on: '2026-05-03'
+  purpose: Explicit NS-only table separating proof-program authority, proof mode,
+    propagated object, target chain, and bridge requirements so progress in one program
+    is not silently treated as closure in another.
+primary_objective:
+  status: local-theorem-program-closed
+  proof_polarity: contrapositive_class_membership
+  theorem_program: 'Prove that every genuine PDE non-smooth occurrence exits the local
+    class-membership witness: GenuineNonSmoothOccurrence => not CM_{N,r,Q}.'
+  cm_witness: CM_{N,r,Q} means Pack_Q plus Part_{N,Q} plus Field_{N,r,Q} on the same-fluid
+    family.
+  sourcepulse_frontier_reading: SourcePulseCMExit.A is discharged in the route-governing
+    manifestation sense by retained-field tower anchoring plus the endpoint class-membership
+    rows; SourcePulseExclusion.A remains stronger nonblocking supplier context.
+  positive_program_status: Positive or forward estimates are secondary supplier/readout
+    programs. They may install, transport, or consume Pack / Part / Field through
+    explicit bridge theorems, but they may not replace the contrapositive class-exit
+    objective.
+course_correction_protocol:
+  status: inactive-no-open-local-frontier
+  rule: If a new theorem target is introduced later, it must still bridge into Pack,
+    Part, or Field before it can count as CM closure.
+  stale_surface_rewrite: Any surface that names OriginalSmoothData=>SourcePulseExclusion.A
+    as a primary obligation should be read as naming the current strong supplier presentation
+    for SourcePulseCMExit.A, not as replacing the CM contrapositive target.
+  sourcepulse_reseat:
+    primary_target: none-active; SourcePulseCMExit.A discharged
+    supplier_target: OriginalSmoothData=>SourcePulseExclusion.A (nonblocking stronger
+      supplier context)
+    required_exit_witness: not Pack_Q or not Part_{N,Q} or not Field_{N,r,Q}
+    exit_face_target_map: problems/navier-stokes/theorem-construction/mpp-sourcepulse-cm-three-exit-target-map-note-20260503.md
+    current_primary_face: closed by retained-field tower anchoring
+    explicit_alternate_faces:
+    - SourcePulsePartExit.A
+    - SourcePulsePackExit.A
+  next_theorem_filter:
+  - Does the argument start from a genuine non-smooth occurrence?
+  - Does it force failure of Pack, Part, or Field on the same-fluid window?
+  - If it proves a positive estimate instead, what explicit bridge turns that estimate
+    into a CM-exit witness?
 authority_surface_audit:
-  current_highest_priority_reading: class-membership-endpoint-exclusion
+  current_highest_priority_reading: class-membership-contrapositive-endpoint-exclusion
   observed_conflicts:
-    - conflict_id: live_edge_yaml_vs_live_edge_md
-      newer_or_more_explicit_surface: problems/navier-stokes/live-theorem-edge.yaml
-      newer_reading: class-membership forward-invariance / endpoint-exclusion route
-      conflicting_surface: problems/navier-stokes/live-theorem-edge.md
-      conflicting_reading: TPS strong/defect bridge route with SG.4 as live wall
-      action: record as authority conflict; do not use the markdown surface alone as the live route
-    - conflict_id: route_hypothesis_vs_current_matrix
-      current_surface:
-        - problems/navier-stokes/live-theorem-edge.yaml
-        - problems/navier-stokes/source-frontier.yaml
-      current_reading: class-membership / law-endpoint matrix is primary; TPS/SG.4 is downstream consumer context
-      conflicting_surface: problems/navier-stokes/route-hypothesis.yaml
-      conflicting_reading: stale TPS/SG.4 primary proving surface
-      action: demoted as stale-generated snapshot; live authority is the CM / law-endpoint matrix route
-    - conflict_id: route_lock_internal_split
-      surface: problems/navier-stokes/route-lock.yaml
-      object_law_reading: class-membership object law governs finite-time class exit
-      primary_route_block_reading: source-grounded four-bridge positive program remains locked-primary
-      action: do not collapse object-law authority and four-bridge source program into one theorem
-    - conflict_id: route_integrity_report_stale_four_bridge
-      surface: problems/navier-stokes/route-integrity-report.yaml
-      reading: source-grounded four-bridge is primary route
-      action: treat as older route-integrity snapshot unless refreshed against current class-membership surfaces
+  - conflict_id: live_edge_yaml_vs_live_edge_md
+    newer_or_more_explicit_surface: problems/navier-stokes/live-theorem-edge.yaml
+    newer_reading: class-membership forward-invariance / endpoint-exclusion route
+    conflicting_surface: problems/navier-stokes/live-theorem-edge.md
+    conflicting_reading: TPS strong/defect bridge route with SG.4 as live wall
+    action: record as authority conflict; do not use the markdown surface alone as
+      the live route
+  - conflict_id: route_hypothesis_vs_current_matrix
+    current_surface:
+    - problems/navier-stokes/live-theorem-edge.yaml
+    - problems/navier-stokes/source-frontier.yaml
+    current_reading: class-membership / law-endpoint matrix is primary; TPS/SG.4 is
+      downstream consumer context
+    conflicting_surface: problems/navier-stokes/route-hypothesis.yaml
+    conflicting_reading: stale TPS/SG.4 primary proving surface
+    action: demoted as stale-generated snapshot; live authority is the CM / law-endpoint
+      matrix route
+  - conflict_id: route_lock_internal_split
+    surface: problems/navier-stokes/route-lock.yaml
+    object_law_reading: class-membership object law governs finite-time class exit
+    primary_route_block_reading: stale source-grounded four-bridge positive program
+      claims locked-primary status
+    action: Preserve object-law authority, but do not let positive four-bridge language
+      replace the CM contrapositive objective; positive routes are supplier/readout
+      programs unless an explicit class-membership bridge is proved.
+  - conflict_id: route_integrity_report_stale_four_bridge
+    surface: problems/navier-stokes/route-integrity-report.yaml
+    reading: source-grounded four-bridge is primary route
+    action: treat as older route-integrity snapshot unless refreshed against current
+      class-membership surfaces
 object_transfer_guard:
   danger_pattern: estimate_for_A_used_as_closure_of_B
-  rule: >-
-    A theorem or estimate closes only the object it actually propagates. It may
+  rule: A theorem or estimate closes only the object it actually propagates. It may
     support a different program only through an explicit bridge theorem.
   core_risk_name: bridge-license failure
   required_bridge_fields:
-    - source_program_id
-    - source_controlled_object
-    - target_program_id
-    - target_object_to_be_closed
-    - carrier_or_coordinate_transfer
-    - scale_or_threshold_conversion
-    - pressure_or_source_transfer
-    - endpoint_or_continuation_compatibility
-    - noncircularity_check
+  - source_program_id
+  - source_controlled_object
+  - target_program_id
+  - target_object_to_be_closed
+  - carrier_or_coordinate_transfer
+  - scale_or_threshold_conversion
+  - pressure_or_source_transfer
+  - endpoint_or_continuation_compatibility
+  - noncircularity_check
   forbidden_shortcuts:
-    - using fixed Eulerian packet control as transported one-field coherence without the moving-collar bridge
-    - using SG.4 selector-defect progress as closure of CFI.A, OFP.A, or LCI.A without a class-membership bridge
-    - using mixed-jet tower control as Pack / Part / Field persistence without a membership bridge
-    - using Lagrangian deformation estimates as receiver-side LCI.A closure without pressure/source and collar transfer
-    - using Euclidean strict-shadow export as internal torus-first closure without explicit downstream export theorem
+  - using fixed Eulerian packet control as transported one-field coherence without
+    the moving-collar bridge
+  - using SG.4 selector-defect progress as closure of CFI.A, OFP.A, or LCI.A without
+    a class-membership bridge
+  - using mixed-jet tower control as Pack / Part / Field persistence without a membership
+    bridge
+  - using Lagrangian deformation estimates as receiver-side LCI.A closure without
+    pressure/source and collar transfer
+  - using Euclidean strict-shadow export as internal torus-first closure without explicit
+    downstream export theorem
 live_route_table_columns:
-  - program
-  - authority_status
-  - propagated_object
-  - surface
-  - bridge_needed
-  - current_open_theorem
-  - allowed_imports
-  - forbidden_substitutions
+- program
+- authority_status
+- propagated_object
+- surface
+- bridge_needed
+- current_open_theorem
+- allowed_imports
+- forbidden_substitutions
 live_route_table:
-  - program: class-membership / endpoint-exclusion
-    authority_status: primary live authority
-    propagated_object: M_Q(u,p) membership witnessed by Pack / Part / Field on same-fluid families
-    surface:
-      - problems/navier-stokes/live-theorem-edge.yaml
-      - problems/navier-stokes/source-frontier.yaml
-      - problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
-    bridge_needed: estimates from other programs must bridge into the exact membership object before counting as closure
-    current_open_theorem: object-law endpoint matrix outside the installed readout layer, then CFI.A -> OFP.A -> LCI.A
-    allowed_imports: fixed-family, mixed-jet, Lagrangian, selector, and export estimates only through named bridge theorems
-    forbidden_substitutions: positive smoothness control, readout objects, or one installed matrix entry cannot replace class-exit closure
-  - program: mixed-jet positive controls
-    authority_status: active engine / support candidate
-    propagated_object: Sobolev or analytic mixed-jet tower norms
-    surface:
-      - problems/navier-stokes/theorem-construction/weighted-mixed-jet-radius-loss-energy-reduction.md
-      - problems/navier-stokes/theorem-construction/mixed-jet-hs-quadratic-convolution-reduction.md
-    bridge_needed: theorem that tower control preserves Pack / Part / Field membership or supplies a declared continuation route
-    current_open_theorem: full mixed-jet convolution / radius-loss closure
-    allowed_imports: positive continuation support or CM support through a membership bridge
-    forbidden_substitutions: tower boundedness cannot be read as direct CM persistence
-  - program: frozen-family Eulerian source route
-    authority_status: active engine inside OFP.A
-    propagated_object: fixed Eulerian packet increments, frozen-net source ledgers, pressure and strain/cascade channels
-    surface:
-      - problems/navier-stokes/theorem-construction/mpp-frozen-family-source-ledger-split-note.md
-      - problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-channel-reduction-note.md
-      - problems/navier-stokes/theorem-construction/mpp-frozen-family-strain-cascade-channel-reduction-note.md
-    bridge_needed: flow-map, collar, pressure/source, and scale-conversion bridge into transported one-field coherence
-    current_open_theorem: noncircular source-side interval control feeding receiver-side LCI.A
-    allowed_imports: source estimates feeding OFP.A / LCI.A through explicit bridge lemmas
-    forbidden_substitutions: fixed-family control cannot be used as transported coherence without the moving-collar bridge
-  - program: Lagrangian / deformation route
-    authority_status: active deep-engine candidate below route lock
-    propagated_object: pulled-back velocity/pressure, F, A, G, ellipticity, commutators, pressure recovery
-    surface:
-      - problems/navier-stokes/theorem-construction/lagrangian-six-lemma-mainline.md
-      - problems/navier-stokes/theorem-construction/lagrangian-stokes-bridge-program.md
-    bridge_needed: collar and pressure-transfer theorem into Pack / Part / Field or receiver-side LCI.A
-    current_open_theorem: no-loss pressure recovery and evolving-coordinate absorption on the same surface
-    allowed_imports: flow-map, deformation, and pressure-transfer support where explicitly proved
-    forbidden_substitutions: Lagrangian energy closure cannot be read as CM or LCI.A closure without bridge
-  - program: TPS / SG.4 selector-defect
-    authority_status: downstream / readout context; stale-primary on older generated surfaces
-    propagated_object: selector-good pair defect W_J, [lambda_J - s_J]_+, PD.70, Xi_J, SG.4 data
-    surface:
-      - problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
-      - problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md
-    bridge_needed: class-membership bridge from selector readout to exact Pack / Part / Field object
-    current_open_theorem: selector calibration / observability before SG.4 and downstream BR.lambda2
-    allowed_imports: one-field readout support after direct matrix work or after an explicit CM bridge
-    forbidden_substitutions: SG.4 cannot close CFI.A, OFP.A, or LCI.A merely by being proved
-  - program: Euclidean strict-shadow / Route A-B export
-    authority_status: downstream / export context
-    propagated_object: ShadowDef, E_sh, Euclidean carrier control, robustness errors, whole-space data
-    surface:
-      - problems/navier-stokes/theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md
-      - problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md
-    bridge_needed: explicit export theorem from the internal surface to the whole-space surface
-    current_open_theorem: full-data lift, strict shadow, global carrier control, and shadow-error coupling
-    allowed_imports: downstream whole-space discharge after internal closure supplies export data
-    forbidden_substitutions: Euclidean export cannot replace torus-first or CM internal closure
-  - program: Exact-potential / Hodge / normal-covector readouts
-    authority_status: downstream / readout support
-    propagated_object: branch-specific one-field readout objects and moment/covector witnesses
-    surface:
-      - problems/navier-stokes/theorem-construction/mpp-exact-potential-witness-to-readout-theorem.md
-      - problems/navier-stokes/theorem-construction/mpp-normal-covector-witness-to-readout-theorem.md
-    bridge_needed: readout-to-Field bridge on the live CM object
-    current_open_theorem: branch-specific observability and readout closure
-    allowed_imports: support one-field readout after bridge license is named
-    forbidden_substitutions: readout witnesses cannot be treated as the propagated CM object
-  - program: Exploratory / classifier families
-    authority_status: exploratory / classifier
-    propagated_object: parallel-equation, coarse, algebraic, or classifier objects
-    surface:
-      - problems/navier-stokes/euler-mirror
-      - problems/navier-stokes/theorem-construction/localized-projector-coarse-route-collapses-to-one-familywise-summability-theorem.md
-      - problems/navier-stokes/theorem-construction/hopf-shuffle-endgame-program.md
-    bridge_needed: no live closure role unless promoted by a direct NS theorem bridge
-    current_open_theorem: classification, obstruction finding, or structural refinement
-    allowed_imports: vocabulary and diagnostics only when source-labeled
-    forbidden_substitutions: exploratory objects cannot be used as live NS authority
+- program: class-membership / endpoint-exclusion
+  authority_status: primary live authority; local theorem-program closed
+  propagated_object: M_Q(u,p) membership witnessed by Pack / Part / Field on same-fluid
+    families
+  surface:
+  - problems/navier-stokes/live-theorem-edge.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
+  bridge_needed: estimates from other programs must bridge into the exact membership
+    object before counting as closure
+  current_open_theorem: none-active; SourcePulseCMExit.A is discharged by retained-field
+    tower anchoring and terminal consumption.
+  allowed_imports: fixed-family, mixed-jet, Lagrangian, selector, and export estimates
+    only through named bridge theorems
+  forbidden_substitutions: positive smoothness control, readout objects, or one installed
+    matrix entry cannot replace class-exit closure
+- program: mixed-jet positive controls
+  authority_status: active engine / support candidate
+  propagated_object: Sobolev or analytic mixed-jet tower norms
+  surface:
+  - problems/navier-stokes/theorem-construction/weighted-mixed-jet-radius-loss-energy-reduction.md
+  - problems/navier-stokes/theorem-construction/mixed-jet-hs-quadratic-convolution-reduction.md
+  bridge_needed: theorem that tower control preserves Pack / Part / Field membership
+    or supplies a declared continuation route
+  current_open_theorem: full mixed-jet convolution / radius-loss closure
+  allowed_imports: positive continuation support or CM support through a membership
+    bridge
+  forbidden_substitutions: tower boundedness cannot be read as direct CM persistence
+- program: frozen-family Eulerian source route
+  authority_status: active engine inside OFP.A
+  propagated_object: fixed Eulerian packet increments, frozen-net source ledgers,
+    pressure and strain/cascade channels
+  surface:
+  - problems/navier-stokes/theorem-construction/mpp-frozen-family-source-ledger-split-note.md
+  - problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-channel-reduction-note.md
+  - problems/navier-stokes/theorem-construction/mpp-frozen-family-strain-cascade-channel-reduction-note.md
+  bridge_needed: flow-map, collar, pressure/source, and scale-conversion bridge into
+    transported one-field coherence
+  current_open_theorem: noncircular source-side interval control feeding receiver-side
+    LCI.A
+  allowed_imports: source estimates feeding OFP.A / LCI.A through explicit bridge
+    lemmas
+  forbidden_substitutions: fixed-family control cannot be used as transported coherence
+    without the moving-collar bridge
+- program: Lagrangian / deformation route
+  authority_status: active deep-engine candidate below route lock
+  propagated_object: pulled-back velocity/pressure, F, A, G, ellipticity, commutators,
+    pressure recovery
+  surface:
+  - problems/navier-stokes/theorem-construction/lagrangian-six-lemma-mainline.md
+  - problems/navier-stokes/theorem-construction/lagrangian-stokes-bridge-program.md
+  bridge_needed: collar and pressure-transfer theorem into Pack / Part / Field or
+    receiver-side LCI.A
+  current_open_theorem: no-loss pressure recovery and evolving-coordinate absorption
+    on the same surface
+  allowed_imports: flow-map, deformation, and pressure-transfer support where explicitly
+    proved
+  forbidden_substitutions: Lagrangian energy closure cannot be read as CM or LCI.A
+    closure without bridge
+- program: TPS / SG.4 selector-defect
+  authority_status: downstream / readout context; stale-primary on older generated
+    surfaces
+  propagated_object: selector-good pair defect W_J, [lambda_J - s_J]_+, PD.70, Xi_J,
+    SG.4 data
+  surface:
+  - problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
+  - problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md
+  bridge_needed: class-membership bridge from selector readout to exact Pack / Part
+    / Field object
+  current_open_theorem: selector calibration / observability before SG.4 and downstream
+    BR.lambda2
+  allowed_imports: one-field readout support after direct matrix work or after an
+    explicit CM bridge
+  forbidden_substitutions: SG.4 cannot close CFI.A, OFP.A, or LCI.A merely by being
+    proved
+- program: Euclidean strict-shadow / Route A-B export
+  authority_status: downstream / export context
+  propagated_object: ShadowDef, E_sh, Euclidean carrier control, robustness errors,
+    whole-space data
+  surface:
+  - problems/navier-stokes/theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md
+  - problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md
+  bridge_needed: explicit export theorem from the internal surface to the whole-space
+    surface
+  current_open_theorem: full-data lift, strict shadow, global carrier control, and
+    shadow-error coupling
+  allowed_imports: downstream whole-space discharge after internal closure supplies
+    export data
+  forbidden_substitutions: Euclidean export cannot replace torus-first or CM internal
+    closure
+- program: Exact-potential / Hodge / normal-covector readouts
+  authority_status: downstream / readout support
+  propagated_object: branch-specific one-field readout objects and moment/covector
+    witnesses
+  surface:
+  - problems/navier-stokes/theorem-construction/mpp-exact-potential-witness-to-readout-theorem.md
+  - problems/navier-stokes/theorem-construction/mpp-normal-covector-witness-to-readout-theorem.md
+  bridge_needed: readout-to-Field bridge on the live CM object
+  current_open_theorem: branch-specific observability and readout closure
+  allowed_imports: support one-field readout after bridge license is named
+  forbidden_substitutions: readout witnesses cannot be treated as the propagated CM
+    object
+- program: Exploratory / classifier families
+  authority_status: exploratory / classifier
+  propagated_object: parallel-equation, coarse, algebraic, or classifier objects
+  surface:
+  - problems/navier-stokes/euler-mirror
+  - problems/navier-stokes/theorem-construction/localized-projector-coarse-route-collapses-to-one-familywise-summability-theorem.md
+  - problems/navier-stokes/theorem-construction/hopf-shuffle-endgame-program.md
+  bridge_needed: no live closure role unless promoted by a direct NS theorem bridge
+  current_open_theorem: classification, obstruction finding, or structural refinement
+  allowed_imports: vocabulary and diagnostics only when source-labeled
+  forbidden_substitutions: exploratory objects cannot be used as live NS authority
 closure_ecology:
   status: route-facing bridge map under live CM authority
   central_live_junction: OFP.A
-  audit_verdict: >-
-    The synthesis is correct as a closure ecology rather than a merged theorem.
-    Its improvement is to make every cooperation point a licensed supplier slot
-    into the native live route, with no transfer allowed unless the source
-    object, target slot, and noncircularity check are named.
-  governing_rule: >-
-    Each program keeps its native object. A contact point is valid only where a
-    theorem shows that one native burden supplies a named missing input for
+  audit_verdict: The synthesis is correct as a closure ecology rather than a merged
+    theorem. Its improvement is to make every cooperation point a licensed supplier
+    slot into the native live route, with no transfer allowed unless the source object,
+    target slot, and noncircularity check are named.
+  governing_rule: Each program keeps its native object. A contact point is valid only
+    where a theorem shows that one native burden supplies a named missing input for
     another native burden without spending the target conclusion.
   live_chain:
-    - FCI.5f + LCI.A
+  - FCI.5f + LCI.A
+  - CSP.A
+  - OFP.A
+  - CFI.B3
+  - CFI.A
+  - endpoint exclusion
+  native_burdens:
+  - program: class-membership
+    native_object: Pack / Part / Field witnessing M_Q(u,p)
+    natural_role: final contradiction frame
+  - program: tower / mixed jets
+    native_object: transfer matrix and finite-difference defect energy
+    natural_role: visible analytic bookkeeping and Field supplier
+  - program: Lagrangian deformation
+    native_object: pulled-back velocity, pressure, F, A, G, strain, coefficient commutator
+    natural_role: deep drain mechanism and receiver-geometry supplier
+  - program: frozen-family Eulerian
+    native_object: fixed packet family plus pressure, strain, and cutoff ledgers
+    natural_role: source-side accounting for FCI.5f
+  - program: receiver / collar
+    native_object: LCI.A, CSP.A, widened receiver return, transported-center controls
+    natural_role: local one-field closure under OFP.A
+  - program: TPS / SG.4
+    native_object: selector defect and strain readout
+    natural_role: downstream survivor consumer
+  - program: Euclidean strict shadow
+    native_object: strict export / lift carrier and shadow errors
+    natural_role: downstream whole-space export
+  contact_points:
+  - contact_id: CE.1
+    name: deformation geometry to Pack
+    source_program: Lagrangian deformation
+    source_object: flow map, F, deformation gauge, collar strain
+    target_slot: CFI.B1 / pack-side gauge survival
+    bridge_license_status: support bridge; must stay on the same label collar
+    current_status: structurally reliable because it uses the exact flow-map ODE
+    theorem_shape: collar strain in L1 controls Gamma_sharp, hence Pack survives
+    forbidden_overclaim: deformation gauge control does not close CM, OFP.A, or endpoint
+      exclusion
+  - contact_id: CE.2
+    name: deformation geometry to receiver segment geometry
+    source_program: Lagrangian deformation
+    source_object: label-halo gradient control and deformation halo regularity
+    target_slot: OFP.C1e3 / OFP.C1e4 / WTC.4 -> WTL.A -> LCI.A_{delta+delta_seg};
+      DG_rec beneath RCF.A
+    bridge_license_status: genuine contact point; supplies only segment geometry unless
+      strengthened to exact RCF.1 / affine-defect inputs
+    current_status: useful against the receiver circularity
+    theorem_shape: U2 halo carrier in L1 gives label-halo nabla F control and segment-thickness
+      control
+    forbidden_overclaim: segment thickness alone is not LCI.A, CSP.A, or Field
+  - contact_id: CE.3
+    name: deformation drain to tower matrix
+    source_program: Lagrangian deformation
+    source_object: v, G, coefficient commutator, Lagrangian drain functional
+    target_slot: Eulerian mixed-source transfer matrix and finite-difference defect
+      energy
+    bridge_license_status: unproved high-leverage bridge
+    current_status: least proved, but best candidate for a genuinely new mechanism
+    theorem_shape: K_Lag + D_Lag + C_Lag one-sided inequality shadows into Eulerian
+      tower control
+    forbidden_overclaim: shared heat language is not a theorem bridge
+  - contact_id: CE.4
+    name: tower / finite differences to Field
+    source_program: tower / mixed jets
+    source_object: mixed-jet transfer matrix and localized defect-energy propagation
+    target_slot: finite-difference coherence modulus inside OFP.A; TW_ctr beneath
+      RCF.A
+    bridge_license_status: route-native if it controls the same finite-difference
+      escalation or exact transported-center pressure/top-viscous ledgers
+    current_status: direct support path with lower-rung coefficient risk
+    theorem_shape: mixed-jet transfer control implies localized defect-energy propagation,
+      hence Field support
+    forbidden_overclaim: tower boundedness is not direct CM persistence
+  - contact_id: CE.5
+    name: tower / frozen family to source ledger
+    source_program: tower / mixed jets and frozen-family Eulerian
+    source_object: source transfer terms, pressure ledger, strain/cascade ledger,
+      cutoff absorption
+    target_slot: FFSRC.A -> FCI.5f with exact FPCR.C kept visible and packet-local
+      FFPB.A0 solved on the stronger branch
+    bridge_license_status: finite-packet source bridge
+    current_status: real source-side contact point
+    theorem_shape: tower coefficient control supplies the frozen-family source ledger
+      and exact pressure wall input
+    forbidden_overclaim: source closure cannot be asserted independently of collar
+      data
+  - contact_id: CE.6
+    name: frozen-family plus receiver/collar to OFP.A
+    source_program: frozen-family Eulerian plus receiver / collar
+    source_object: FCI.5f source ledger and LCI.A receiver closure
+    target_slot: CSP.A -> OFP.A -> CFI.B3
+    bridge_license_status: live recombination theorem
+    current_status: highest-authority executable junction
+    theorem_shape: FCI.5f + LCI.A -> CSP.A -> OFP.A
+    forbidden_overclaim: fixed-family control is not transported one-field coherence
+      by itself
+  - contact_id: CE.7
+    name: TPS / SG.4 after endpoint progress
+    source_program: TPS / SG.4 selector-defect
+    source_object: selector defect / strain readout
+    target_slot: downstream survivor branch certification
+    bridge_license_status: downstream only unless a new CM bridge is proved
+    current_status: preserved as survivor consumer context
+    theorem_shape: endpoint survivor branch feeds selector-defect / strain consumer,
+      hence SG.4
+    forbidden_overclaim: SG.4 cannot retake route authority
+  - contact_id: CE.8
+    name: Euclidean strict shadow after internal closure
+    source_program: Euclidean strict-shadow export
+    source_object: full-data lift, strict shadow, global carrier control, shadow-error
+      coupling
+    target_slot: whole-space export after torus/internal closure
+    bridge_license_status: downstream export theorem
+    current_status: export mechanism, not live internal closure
+    theorem_shape: internal closure gives full-data lift/readout and exact strict
+      shadow for R3 export
+    forbidden_overclaim: Euclidean shadow cannot replace the internal CM route
+  rejected_superficial_bridges:
+  - move: deformation language and tower language both mention heat
+    missing_theorem: shadow inequality from (v,G) to the tower matrix
+  - move: TPS / SG.4 becomes route authority again
+    missing_theorem: direct priority theorem over CFI.A / OFP.A / LCI.A
+  - move: Euclidean strict shadow replaces torus/internal route
+    missing_theorem: full direct theorem changing branch authority
+  - move: full Field coherence proves a pre-Field receiver input
+    missing_theorem: noncircular receiver proof independent of OFP.A output
+  - move: source closure independent of collar data
+    missing_theorem: source-to-OFP bridge that does not spend receiver closure
+  closure_loops:
+  - loop_id: CE.A
+    name: route-native OFP loop
+    role: executable live-edge closure
+    chain:
+    - FFSRC.A or exact FCI.5f
+    - LCI.A / receiver closure
     - CSP.A
     - OFP.A
-    - CFI.B3
     - CFI.A
     - endpoint exclusion
-  native_burdens:
-    - program: class-membership
-      native_object: Pack / Part / Field witnessing M_Q(u,p)
-      natural_role: final contradiction frame
-    - program: tower / mixed jets
-      native_object: transfer matrix and finite-difference defect energy
-      natural_role: visible analytic bookkeeping and Field supplier
-    - program: Lagrangian deformation
-      native_object: pulled-back velocity, pressure, F, A, G, strain, coefficient commutator
-      natural_role: deep drain mechanism and receiver-geometry supplier
-    - program: frozen-family Eulerian
-      native_object: fixed packet family plus pressure, strain, and cutoff ledgers
-      natural_role: source-side accounting for FCI.5f
-    - program: receiver / collar
-      native_object: LCI.A, CSP.A, widened receiver return, transported-center controls
-      natural_role: local one-field closure under OFP.A
-    - program: TPS / SG.4
-      native_object: selector defect and strain readout
-      natural_role: downstream survivor consumer
-    - program: Euclidean strict shadow
-      native_object: strict export / lift carrier and shadow errors
-      natural_role: downstream whole-space export
-  contact_points:
-    - contact_id: CE.1
-      name: deformation geometry to Pack
-      source_program: Lagrangian deformation
-      source_object: flow map, F, deformation gauge, collar strain
-      target_slot: CFI.B1 / pack-side gauge survival
-      bridge_license_status: support bridge; must stay on the same label collar
-      current_status: structurally reliable because it uses the exact flow-map ODE
-      theorem_shape: collar strain in L1 controls Gamma_sharp, hence Pack survives
-      forbidden_overclaim: deformation gauge control does not close CM, OFP.A, or endpoint exclusion
-    - contact_id: CE.2
-      name: deformation geometry to receiver segment geometry
-      source_program: Lagrangian deformation
-      source_object: label-halo gradient control and deformation halo regularity
-      target_slot: OFP.C1e3 / OFP.C1e4 / WTC.4 -> WTL.A -> LCI.A_{delta+delta_seg}; DG_rec beneath RCF.A
-      bridge_license_status: genuine contact point; supplies only segment geometry unless strengthened to exact RCF.1 / affine-defect inputs
-      current_status: useful against the receiver circularity
-      theorem_shape: U2 halo carrier in L1 gives label-halo nabla F control and segment-thickness control
-      forbidden_overclaim: segment thickness alone is not LCI.A, CSP.A, or Field
-    - contact_id: CE.3
-      name: deformation drain to tower matrix
-      source_program: Lagrangian deformation
-      source_object: v, G, coefficient commutator, Lagrangian drain functional
-      target_slot: Eulerian mixed-source transfer matrix and finite-difference defect energy
-      bridge_license_status: unproved high-leverage bridge
-      current_status: least proved, but best candidate for a genuinely new mechanism
-      theorem_shape: K_Lag + D_Lag + C_Lag one-sided inequality shadows into Eulerian tower control
-      forbidden_overclaim: shared heat language is not a theorem bridge
-    - contact_id: CE.4
-      name: tower / finite differences to Field
-      source_program: tower / mixed jets
-      source_object: mixed-jet transfer matrix and localized defect-energy propagation
-      target_slot: finite-difference coherence modulus inside OFP.A; TW_ctr beneath RCF.A
-      bridge_license_status: route-native if it controls the same finite-difference escalation or exact transported-center pressure/top-viscous ledgers
-      current_status: direct support path with lower-rung coefficient risk
-      theorem_shape: mixed-jet transfer control implies localized defect-energy propagation, hence Field support
-      forbidden_overclaim: tower boundedness is not direct CM persistence
-    - contact_id: CE.5
-      name: tower / frozen family to source ledger
-      source_program: tower / mixed jets and frozen-family Eulerian
-      source_object: source transfer terms, pressure ledger, strain/cascade ledger, cutoff absorption
-      target_slot: FFSRC.A -> FCI.5f with exact FPCR.C kept visible and packet-local FFPB.A0 solved on the stronger branch
-      bridge_license_status: finite-packet source bridge
-      current_status: real source-side contact point
-      theorem_shape: tower coefficient control supplies the frozen-family source ledger and exact pressure wall input
-      forbidden_overclaim: source closure cannot be asserted independently of collar data
-    - contact_id: CE.6
-      name: frozen-family plus receiver/collar to OFP.A
-      source_program: frozen-family Eulerian plus receiver / collar
-      source_object: FCI.5f source ledger and LCI.A receiver closure
-      target_slot: CSP.A -> OFP.A -> CFI.B3
-      bridge_license_status: live recombination theorem
-      current_status: highest-authority executable junction
-      theorem_shape: FCI.5f + LCI.A -> CSP.A -> OFP.A
-      forbidden_overclaim: fixed-family control is not transported one-field coherence by itself
-    - contact_id: CE.7
-      name: TPS / SG.4 after endpoint progress
-      source_program: TPS / SG.4 selector-defect
-      source_object: selector defect / strain readout
-      target_slot: downstream survivor branch certification
-      bridge_license_status: downstream only unless a new CM bridge is proved
-      current_status: preserved as survivor consumer context
-      theorem_shape: endpoint survivor branch feeds selector-defect / strain consumer, hence SG.4
-      forbidden_overclaim: SG.4 cannot retake route authority
-    - contact_id: CE.8
-      name: Euclidean strict shadow after internal closure
-      source_program: Euclidean strict-shadow export
-      source_object: full-data lift, strict shadow, global carrier control, shadow-error coupling
-      target_slot: whole-space export after torus/internal closure
-      bridge_license_status: downstream export theorem
-      current_status: export mechanism, not live internal closure
-      theorem_shape: internal closure gives full-data lift/readout and exact strict shadow for R3 export
-      forbidden_overclaim: Euclidean shadow cannot replace the internal CM route
-  rejected_superficial_bridges:
-    - move: deformation language and tower language both mention heat
-      missing_theorem: shadow inequality from (v,G) to the tower matrix
-    - move: TPS / SG.4 becomes route authority again
-      missing_theorem: direct priority theorem over CFI.A / OFP.A / LCI.A
-    - move: Euclidean strict shadow replaces torus/internal route
-      missing_theorem: full direct theorem changing branch authority
-    - move: full Field coherence proves a pre-Field receiver input
-      missing_theorem: noncircular receiver proof independent of OFP.A output
-    - move: source closure independent of collar data
-      missing_theorem: source-to-OFP bridge that does not spend receiver closure
-  closure_loops:
-    - loop_id: CE.A
-      name: route-native OFP loop
-      role: executable live-edge closure
-      chain:
-        - FFSRC.A or exact FCI.5f
-        - LCI.A / receiver closure
-        - CSP.A
-        - OFP.A
-        - CFI.A
-        - endpoint exclusion
-      critical_theorem: solved packet-local FFPB.A0 or exact pressure wall path plus RCF.A / LCI.A, thickened collar consumer, and widened receiver return
-      authority_status: highest
-    - loop_id: CE.B
-      name: deformation-assisted receiver loop
-      role: targeted supplier search
-      chain:
-        - deformation strain / halo-gradient control
-        - DG_rec
-        - RCF.1 + affine-defect first-rung input
-        - RCF.A / LCI.A
-        - CSP.A / OFP.A
-      critical_theorem: prove DG_rec noncircularly; then decide whether it gives only DTR.A supplier form or the true DTR.C receiver closure
-      authority_status: promising supplier loop
-    - loop_id: CE.C
-      name: deformation-to-tower drain loop
-      role: high-risk mechanism search
-      chain:
-        - Lagrangian drain on (v,G)
-        - Eulerian tower shadow inequality
-        - local TW_ctr
-        - pressure-center + top-viscous center forcing
-        - RCF.A or Field
-        - OFP.A
-      critical_theorem: K_Lag drain shadows to Eulerian defect-energy or local TW_ctr control without spending LCI.A / CSP.A
-      authority_status: speculative high payoff
-    - loop_id: CE.D
-      name: tower-to-source loop
-      role: narrow source-side support
-      chain:
-        - mixed-jet transfer control
-        - fixed-family packet source bounds
-        - pressure / strain / cutoff source ledger
-        - FCI.5f
-      critical_theorem: tower coefficient control gives widened pressure bridge or exact frozen-net pressure wall
-      authority_status: useful but not whole-route closure
-    - loop_id: CE.E
-      name: survivor dictionary loop
-      role: obstruction alignment
-      chain:
-        - tail leakage
-        - tower flux / debt
-        - deformation commutator
-        - frozen-family source debt
-        - receiver collar defect
-      critical_theorem: one-way translations first; full equivalence only after proof
-      authority_status: organizing only
+    critical_theorem: solved packet-local FFPB.A0 or exact pressure wall path plus
+      RCF.A / LCI.A, thickened collar consumer, and widened receiver return
+    authority_status: highest
+  - loop_id: CE.B
+    name: deformation-assisted receiver loop
+    role: targeted supplier search
+    chain:
+    - deformation strain / halo-gradient control
+    - DG_rec
+    - RCF.1 + affine-defect first-rung input
+    - RCF.A / LCI.A
+    - CSP.A / OFP.A
+    critical_theorem: prove DG_rec noncircularly; then decide whether it gives only
+      DTR.A supplier form or the true DTR.C receiver closure
+    authority_status: promising supplier loop
+  - loop_id: CE.C
+    name: deformation-to-tower drain loop
+    role: high-risk mechanism search
+    chain:
+    - Lagrangian drain on (v,G)
+    - Eulerian tower shadow inequality
+    - local TW_ctr
+    - pressure-center + top-viscous center forcing
+    - RCF.A or Field
+    - OFP.A
+    critical_theorem: K_Lag drain shadows to Eulerian defect-energy or local TW_ctr
+      control without spending LCI.A / CSP.A
+    authority_status: speculative high payoff
+  - loop_id: CE.D
+    name: tower-to-source loop
+    role: narrow source-side support
+    chain:
+    - mixed-jet transfer control
+    - fixed-family packet source bounds
+    - pressure / strain / cutoff source ledger
+    - FCI.5f
+    critical_theorem: tower coefficient control gives widened pressure bridge or exact
+      frozen-net pressure wall
+    authority_status: useful but not whole-route closure
+  - loop_id: CE.E
+    name: survivor dictionary loop
+    role: obstruction alignment
+    chain:
+    - tail leakage
+    - tower flux / debt
+    - deformation commutator
+    - frozen-family source debt
+    - receiver collar defect
+    critical_theorem: one-way translations first; full equivalence only after proof
+    authority_status: organizing only
   corrected_synthesis:
     closure_kernel:
-      - deformation drain
-      - tower flux control
-      - source ledger + receiver collar closure
-      - one-field preservation
-      - class-membership forward invariance
-      - endpoint exclusion
-    immediate_theorem_facing_question: >-
-      Can deformation geometry or tower control prove the remaining
-      receiver/collar theorem feeding LCI.A?
+    - deformation drain
+    - tower flux control
+    - source ledger + receiver collar closure
+    - one-field preservation
+    - class-membership forward invariance
+    - endpoint exclusion
+    immediate_theorem_facing_question: Can deformation geometry or tower control prove
+      the remaining receiver/collar theorem feeding LCI.A?
     sharpened_receiver_theorem:
       theorem_note: problems/navier-stokes/theorem-construction/mpp-deformation-tower-receiver-supplier-theorem-program.md
       supplier_form: DTR.A proves DG_rec + TW_ctr -> (RCF.1) + (RCF.2) + (RCF.A0)
       assembly_form: DTR.B proves DTR.A + RCF.A -> LCI.A
       true_closure_form: DTR.C+ proves DG_rec + TW_ctr^aff -> A_ctr in L2 directly
-      concrete_packet_form: DTR.E proves ATE.A affine-normalized receiver packet inequality -> RCF.A -> LCI.A
-      bookkeeping_packet_form: DTR.Eb proves Dini inequality for full affine bookkeeping energy -> RCF.A -> LCI.A
-      packet_correction: >-
-        DTR.E splits the affine-normalized receiver object into a differentiable
-        state packet and a source ledger; affine-defect, pressure-tail, and
-        tower remainders must not be treated as state variables unless separate
-        evolution laws are proved. DTR.Eb is the licensed exception: it may use
-        the full bookkeeping packet only if its Dini inequality is proved
-        directly.
-      local_packet_correction: >-
-        ATE.1 closes only the center-state affine identity and has zero
-        intrinsic point-center dissipation. The usable ATE.A closure must be
-        the local affine receiver packet on enlarged transported-center balls,
+      concrete_packet_form: DTR.E proves ATE.A affine-normalized receiver packet inequality
+        -> RCF.A -> LCI.A
+      bookkeeping_packet_form: DTR.Eb proves Dini inequality for full affine bookkeeping
+        energy -> RCF.A -> LCI.A
+      packet_correction: 'DTR.E splits the affine-normalized receiver object into
+        a differentiable state packet and a source ledger; affine-defect, pressure-tail,
+        and tower remainders must not be treated as state variables unless separate
+        evolution laws are proved. DTR.Eb is the licensed exception: it may use the
+        full bookkeeping packet only if its Dini inequality is proved directly.'
+      local_packet_correction: ATE.1 closes only the center-state affine identity
+        and has zero intrinsic point-center dissipation. The usable ATE.A closure
+        must be the local affine receiver packet on enlarged transported-center balls,
         with H2/H3 parabolic dissipation controlling ATE.2 and ATE.3.
-      local_packet_reduction: >-
-        After the local packet refinement, ATE.2-ATE.5 reduce to two live
-        estimates: localized tower/pressure response
-        S_press^aff + S_top-visc^aff in L1(I), and local affine
-        commutator/cutoff control S_mid^aff + Cut_mid + Cut_osc + Cut_visc in
-        L1(I). ATE.4 is a local Sobolev/Morrey readout; ATE.5 is a source-ledger
-        readout from ATE.3, pressure-tail input, m>=3, and the local Gronwall
-        bound.
-      act_master_target: >-
-        ACT.A is the bundled affine-center theorem target: one master packet
-        should close D_1^aff in L1(I), F_ctr_res in L1(I), and H_osc^alpha in
-        L2(I). It is not promoted by the circular implication E_ACT in Linfty
-        implies B_ACT,F_ACT in L1 and then Gronwall implies E_ACT in Linfty.
-        Promotion requires ACT.E1 or ACT.E2, a term-by-term affine-center energy
-        estimate with external or dissipatively absorbed L1 coefficients.
-      act_finite_stage_route: >-
-        The valid ACT.E2 completion is finite-stage:
-        ACT.Stage(0)..ACT.Stage(m+2) implies ACT.E2. Each rung may use lower
-        affine rungs already controlled, but not the desired same-stage E_ACT
-        bound as a coefficient. The middle block is triangular; the live checks
-        are the stage pressure response on affine balls and the stage
-        cutoff/frame estimate.
-      act_scale_small_alternative: >-
-        ACT.ScaleSmall is a conditional sufficient branch: if the
-        scale-normalized affine excess satisfies dX_exc + cN <=
-        (L0+C A_core)X_exc + (C_cut+C_press) X_exc^(1/2) N + F0, while the
-        core line and forcing line are carried in the same ACT.KX block. If the
-        initial excess plus source budget is below the eta_X absorption
-        threshold, then the nonlinear excess term is absorbed and ACT.E1/E2
-        follows on that affine interval. X is excess-only; center zero modes
-        split into A_core^ctr and A_buf^ctr rather than being placed in the
-        smallness variable, and a full-strip retained-branch proof needs
-        ACT.X-Scale at each retained restart, ACT.KX, and RWS.C_scale to recover
-        fixed-radius readouts, not just a retained-window partition. On the
-        averaged branch, the restart seed is the X_R(s_a) component of SCF_avg^m
-        on SCF-good cylinders supplied by SGC.A_a.e and ATD_m^epsilon, not
-        point-center retained smoothness.
-      act_x_atom_split: >-
-        ACT.X-Def separates the small affine excess X_exc from the full readout
-        packet Y_read = A_core^ctr + A_buf^ctr + X_exc. AXE.A is the excess
-        line inside ACT.KX; ACT.X-MidRaw contributes real zero-mode linear
-        terms controlled by A_core. ACT.KX uses the eta_X first-exit argument
-        for X_exc with that combined threshold and carries A_core in
-        J=X_exc+theta A_core. ACT.X-Readout spends Y_read after ACT.KX has
-        supplied A_core^ctr; A_buf^ctr is readout/top-viscous buffer data and
-        cannot be smuggled into the smallness variable. ACT.X-Scale supplies the
-        small restart seed from retained smooth center-ball regularity on the
-        retained branch. On the averaged branch this slot is replaced by
-        SCF_base plus SGC.A_a.e plus ATD_m^epsilon, and the route is
-        SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off
-        B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg. AVG.MAIN.A compresses
-        SCF_base + ATD_m^epsilon + CAVG.J + AVG.RCV.A + AVG.END.A + FFSRC.A
-        into no averaged finite-time class exit. AVG.COVER.A
-        combines good-region propagation with the bad-region jump case via CAVG.J,
-        and the installed DTC.Read bridge is the fixed-scale finite-cover
-        terminal readout when endpoint/tower recovery needs pointwise DTC.A; it
-        is not an upstream input to SCF_base, AACT.KX, AVG.RCV.A, LCI.A_avg,
-        CSP.A_avg, OFP.A_avg, CFI.A_avg, or End_NS_avg. RWS.C_cover supplies the
-        dynamic same-fluid cover from compact retained label tubes and the pack
-        gauge. RWS.C_scale is the finite-cover readout bridge that transfers
-        small-radius packets to the fixed-radius readouts; it does not assert
-        fixed-radius packet smallness.
-      act_center_core_rule: >-
-        The center-amplitude rule is now carried inside ACT.KX:
-        K_le_m^ctr in L1(I) and A_core^ctr in Linfty(I) are joint outputs.
-        K_le_m^ctr consists of K_0(c_j), the first-rung affine-frame acceleration
-        E_j^(1), and transformed lower-rung forcings Ktilde_{q,j} for 2<=q<=m.
-        On the retained branch, RSCB.NKF supplies NKF.Native, then
-        NKF.Native + NKF.Ann + NKF.Quad +
-        ACT.X-Cut + ACT.X-Press_energy + ACT.X-MidRaw + ACT.X-TopVisc +
-        ACT.X-Scale + RWS.C_scale produce ACT.KX. Residual pressure is read from ACT.X-Press_cell after
-        subtracting the native affine normal-form pressure p_j^aff from
-        p_j^loc; this normal form annihilates affine and affine-linear center
-        pressure modes. Lower viscous recycle is core-controlled, and the
-        top-viscous m+1,m+2 line is forcing/readout, not pre-pressure A_buf
-        amplitude. The m+1 and m+2 modes are
-        buffer/readout modes; proving them before ACT.KX would
-        require the optional top forcing sum_{q=m+1}^{m+2}|Ktilde_q|^2 in L1(I)
-        and risks rung creep.
-      act_x_press_rule: >-
-        Pressure is split into in-bootstrap normal-form estimates and the
-        post-bootstrap ACT.X-Press_cell readout. The cell form supplies the
-        residual P_le_m^cell only after ACT.KX, controlling
-        pi_j^loc=p_j^loc-p_j^aff by a quadratic affine-excess core plus
-        projected annular/harmonic/far-tail terms. The energy form is an AXE.A atom, not
-        an after-Actr_core theorem; finite pressure far-tail is energy-controlled
-        in Linfty(I). The quadratic residual contributes C_press X_exc^(1/2) N
-        to the same scale-small bootstrap as the cutoff term. It does not spend
-        LCI.A, CSP.A, OFP.A, or Field.
-      act_compact_chain: >-
-        Retained branch: RSCB.NKF => NKF.Moll + NKF.Point => NKF.Native; then NKF.Native +
-        NKF.Ann + NKF.Quad + ACT.X-Cut + ACT.X-Press_energy + ACT.X-MidRaw +
-        ACT.X-TopVisc + ACT.X-Scale + RWS.C_scale => ACT.KX =>
-        ACT.X-Press_cell + ACT.Kcore + ACT.Actr_core + ACT.X-Readout =>
-        ACT.A => RCF.A => LCI.A. This is a conditional retained-window receiver
-        discharge, not an unconditional energy result. The retained native forcing
-        certificate is RSCB.NKF, which supplies the retained smooth forcing route
-        NKF.Moll + NKF.Point => NKF.Native, together with the scheduler budgets;
-        source-channel and endpoint blocks remain separate. Finite-energy-native
-        branch: SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m =>
-        AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg =>
-        CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg => AVG.MAIN.A, with
-        AVG.COVER.A covering every same-fluid approach tail by good-region
-        propagation or nonempty B_epsilon^Phi => Jump_avg via CAVG.J. The
-        installed readout layer is terminal: DTC.Read supplies pointwise DTC.A
-        and endpoint tower readout under fixed-scale cover plus ATD_m^epsilon;
-        Field.Read supplies old Field under uniform positive-scale SCF-good
-        cover plus ATD_m^epsilon; READ.END has shape End_NS_avg + READ.COVER +
-        Field.Read + DTC.Read => End_NS; FULL.END has shape AVG.MAIN.A +
-        READ.COVER + READ.END => End_NS. These consequences do not promote
-        DTC.A_avg or CFI.A_avg into upstream pointwise objects.
-        END.Exh_avg and END.Cross_avg are locked endpoint cells; finite energy
-        supplies only SCF_base at good material restarts, ATD_m^epsilon is the
-        local epsilon-regularity tower supplier, and SGC.A_strong is off the
-        main line as regularity-equivalent. The bad set is folded directly into
-        Jump_avg by CAVG.J.
-      audit_correction: >-
-        DTR.A is only a supplier theorem. Bare TW_ctr supplies residual
-        pressure/top-viscous forcing; the strong closure needs TW_ctr^aff,
-        which also closes the affine-frame transformed forcing/recycle problem;
-        DTR.E gives the concrete ATE.A packet target for that closure.
-    reason_for_priority: >-
-      The source side already has an organized near-closure package. Once the
-      strengthened source branch is granted, the live burden returns to the
-      receiver side, so deformation and tower ideas should be tested first as
-      suppliers for LCI.A / RCF.A / the thickened collar consumer.
+      local_packet_reduction: 'After the local packet refinement, ATE.2-ATE.5 reduce
+        to two live estimates: localized tower/pressure response S_press^aff + S_top-visc^aff
+        in L1(I), and local affine commutator/cutoff control S_mid^aff + Cut_mid +
+        Cut_osc + Cut_visc in L1(I). ATE.4 is a local Sobolev/Morrey readout; ATE.5
+        is a source-ledger readout from ATE.3, pressure-tail input, m>=3, and the
+        local Gronwall bound.'
+      act_master_target: 'ACT.A is the bundled affine-center theorem target: one master
+        packet should close D_1^aff in L1(I), F_ctr_res in L1(I), and H_osc^alpha
+        in L2(I). It is not promoted by the circular implication E_ACT in Linfty implies
+        B_ACT,F_ACT in L1 and then Gronwall implies E_ACT in Linfty. Promotion requires
+        ACT.E1 or ACT.E2, a term-by-term affine-center energy estimate with external
+        or dissipatively absorbed L1 coefficients.'
+      act_finite_stage_route: 'The valid ACT.E2 completion is finite-stage: ACT.Stage(0)..ACT.Stage(m+2)
+        implies ACT.E2. Each rung may use lower affine rungs already controlled, but
+        not the desired same-stage E_ACT bound as a coefficient. The middle block
+        is triangular; the live checks are the stage pressure response on affine balls
+        and the stage cutoff/frame estimate.'
+      act_scale_small_alternative: 'ACT.ScaleSmall is a conditional sufficient branch:
+        if the scale-normalized affine excess satisfies dX_exc + cN <= (L0+C A_core)X_exc
+        + (C_cut+C_press) X_exc^(1/2) N + F0, while the core line and forcing line
+        are carried in the same ACT.KX block. If the initial excess plus source budget
+        is below the eta_X absorption threshold, then the nonlinear excess term is
+        absorbed and ACT.E1/E2 follows on that affine interval. X is excess-only;
+        center zero modes split into A_core^ctr and A_buf^ctr rather than being placed
+        in the smallness variable, and a full-strip retained-branch proof needs ACT.X-Scale
+        at each retained restart, ACT.KX, and RWS.C_scale to recover fixed-radius
+        readouts, not just a retained-window partition. On the averaged branch, the
+        restart seed is the X_R(s_a) component of SCF_avg^m on SCF-good cylinders
+        supplied by SGC.A_a.e and ATD_m^epsilon, not point-center retained smoothness.'
+      act_x_atom_split: ACT.X-Def separates the small affine excess X_exc from the
+        full readout packet Y_read = A_core^ctr + A_buf^ctr + X_exc. AXE.A is the
+        excess line inside ACT.KX; ACT.X-MidRaw contributes real zero-mode linear
+        terms controlled by A_core. ACT.KX uses the eta_X first-exit argument for
+        X_exc with that combined threshold and carries A_core in J=X_exc+theta A_core.
+        ACT.X-Readout spends Y_read after ACT.KX has supplied A_core^ctr; A_buf^ctr
+        is readout/top-viscous buffer data and cannot be smuggled into the smallness
+        variable. ACT.X-Scale supplies the small restart seed from retained smooth
+        center-ball regularity on the retained branch. On the averaged branch this
+        slot is replaced by SCF_base plus SGC.A_a.e plus ATD_m^epsilon, and the route
+        is SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m => AACT.KX off B_epsilon^Phi
+        => DTC.A_avg => AVG.RCV.A => LCI.A_avg. AVG.MAIN.A compresses SCF_base + ATD_m^epsilon
+        + CAVG.J + AVG.RCV.A + AVG.END.A + FFSRC.A into no averaged finite-time class
+        exit. AVG.COVER.A combines good-region propagation with the bad-region jump
+        case via CAVG.J, and the installed DTC.Read bridge is the fixed-scale finite-cover
+        terminal readout when endpoint/tower recovery needs pointwise DTC.A; it is
+        not an upstream input to SCF_base, AACT.KX, AVG.RCV.A, LCI.A_avg, CSP.A_avg,
+        OFP.A_avg, CFI.A_avg, or End_NS_avg. RWS.C_cover supplies the dynamic same-fluid
+        cover from compact retained label tubes and the pack gauge. RWS.C_scale is
+        the finite-cover readout bridge that transfers small-radius packets to the
+        fixed-radius readouts; it does not assert fixed-radius packet smallness.
+      act_center_core_rule: 'The center-amplitude rule is now carried inside ACT.KX:
+        K_le_m^ctr in L1(I) and A_core^ctr in Linfty(I) are joint outputs. K_le_m^ctr
+        consists of K_0(c_j), the first-rung affine-frame acceleration E_j^(1), and
+        transformed lower-rung forcings Ktilde_{q,j} for 2<=q<=m. On the retained
+        branch, RSCB.NKF supplies NKF.Native, then NKF.Native + NKF.Ann + NKF.Quad
+        + ACT.X-Cut + ACT.X-Press_energy + ACT.X-MidRaw + ACT.X-TopVisc + ACT.X-Scale
+        + RWS.C_scale produce ACT.KX. Residual pressure is read from ACT.X-Press_cell
+        after subtracting the native affine normal-form pressure p_j^aff from p_j^loc;
+        this normal form annihilates affine and affine-linear center pressure modes.
+        Lower viscous recycle is core-controlled, and the top-viscous m+1,m+2 line
+        is forcing/readout, not pre-pressure A_buf amplitude. The m+1 and m+2 modes
+        are buffer/readout modes; proving them before ACT.KX would require the optional
+        top forcing sum_{q=m+1}^{m+2}|Ktilde_q|^2 in L1(I) and risks rung creep.'
+      act_x_press_rule: Pressure is split into in-bootstrap normal-form estimates
+        and the post-bootstrap ACT.X-Press_cell readout. The cell form supplies the
+        residual P_le_m^cell only after ACT.KX, controlling pi_j^loc=p_j^loc-p_j^aff
+        by a quadratic affine-excess core plus projected annular/harmonic/far-tail
+        terms. The energy form is an AXE.A atom, not an after-Actr_core theorem; finite
+        pressure far-tail is energy-controlled in Linfty(I). The quadratic residual
+        contributes C_press X_exc^(1/2) N to the same scale-small bootstrap as the
+        cutoff term. It does not spend LCI.A, CSP.A, OFP.A, or Field.
+      act_compact_chain: 'Retained branch: RSCB.NKF => NKF.Moll + NKF.Point => NKF.Native;
+        then NKF.Native + NKF.Ann + NKF.Quad + ACT.X-Cut + ACT.X-Press_energy + ACT.X-MidRaw
+        + ACT.X-TopVisc + ACT.X-Scale + RWS.C_scale => ACT.KX => ACT.X-Press_cell
+        + ACT.Kcore + ACT.Actr_core + ACT.X-Readout => ACT.A => RCF.A => LCI.A. This
+        is a conditional retained-window receiver discharge, not an unconditional
+        energy result. The retained native forcing certificate is RSCB.NKF, which
+        supplies the retained smooth forcing route NKF.Moll + NKF.Point => NKF.Native,
+        together with the scheduler budgets; source-channel and endpoint blocks remain
+        separate. Finite-energy-native branch: SCF_base + SGC.A_a.e + ATD_m^epsilon
+        => SCF_avg^m => AACT.KX off B_epsilon^Phi => DTC.A_avg => AVG.RCV.A => LCI.A_avg
+        => CSP.A_avg => OFP.A_avg => CFI.A_avg => End_NS_avg => AVG.MAIN.A, with AVG.COVER.A
+        covering every same-fluid approach tail by good-region propagation or nonempty
+        B_epsilon^Phi => Jump_avg via CAVG.J. The installed readout layer is terminal:
+        DTC.Read supplies pointwise DTC.A and endpoint tower readout under fixed-scale
+        cover plus ATD_m^epsilon; Field.Read supplies old Field under uniform positive-scale
+        SCF-good cover plus ATD_m^epsilon; READ.END has shape End_NS_avg + READ.COVER
+        + Field.Read + DTC.Read => End_NS; FULL.END has shape AVG.MAIN.A + READ.COVER
+        + READ.END => End_NS. These consequences do not promote DTC.A_avg or CFI.A_avg
+        into upstream pointwise objects. END.Exh_avg and END.Cross_avg are locked
+        endpoint cells; finite energy supplies only SCF_base at good material restarts,
+        ATD_m^epsilon is the local epsilon-regularity tower supplier, and SGC.A_strong
+        is off the main line as regularity-equivalent. The bad set is folded directly
+        into Jump_avg by CAVG.J.'
+      audit_correction: DTR.A is only a supplier theorem. Bare TW_ctr supplies residual
+        pressure/top-viscous forcing; the strong closure needs TW_ctr^aff, which also
+        closes the affine-frame transformed forcing/recycle problem; DTR.E gives the
+        concrete ATE.A packet target for that closure.
+    reason_for_priority: The source side already has an organized near-closure package.
+      Once the strengthened source branch is granted, the live burden returns to the
+      receiver side, so deformation and tower ideas should be tested first as suppliers
+      for LCI.A / RCF.A / the thickened collar consumer.
 programs:
-  - program_id: class_membership_endpoint_exclusion
-    short_name: CM endpoint-exclusion
-    authority_status: primary_live_program_on_current_yaml_surfaces
-    proof_mode: contradiction / endpoint exclusion
-    target_chain:
-      - law / endpoint matrix
-      - CFI.A
-      - OFP.A
-      - LCI.A
-      - endpoint exclusion
-    propagated_object: >-
-      Local class membership M_Q(u,p) witnessed by Pack / Part / Field on
-      same-fluid still-live families, with stable carriers u, p, Phi, and F.
-    current_burdens:
-      - complete the law / endpoint proof matrix beyond the installed Part/Dead entry and installed readout-endpoint compatibility layer
-      - prove CFI.A without assuming blown or jump absence for free
-      - prove OFP.A as one-field forward preservation
-      - prove LCI.A as receiver-side lower-carrier interval integrability
-      - avoid receiver-loop circularity through CSP.A or LCI.A consumers
-    bridge_imports_allowed:
-      - fixed-family source estimates only through OFP/LCI bridge theorems
-      - selector/SG.4 only as downstream one-field readout after direct matrix work
-      - Euclidean export only after torus-first internal closure and explicit export
-    bridge_imports_forbidden:
-      - treating SG.4 as prerequisite closure for CFI.A/OFP.A/LCI.A
-      - treating mixed-jet smoothness estimates as direct Pack/Part/Field persistence
-    anchor_paths:
-      - problems/navier-stokes/live-theorem-edge.yaml
-      - problems/navier-stokes/source-frontier.yaml
-      - problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
-      - problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
-      - problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
-      - problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
-  - program_id: positive_mixed_jet_controls
-    short_name: Mixed-jet positive controls
-    authority_status: active_positive_alternative_or_supplier
-    proof_mode: direct estimates / control
-    target_chain:
-      - differentiated mixed-jet equations
-      - rung energy inequality
-      - weighted tower energy
-      - binomial convolution closure
-      - continuation
-    propagated_object: >-
-      Sobolev or analytic mixed-jet tower norms for
-      partial_t^m partial_x^alpha u and differentiated pressure packets.
-    current_burdens:
-      - control the full mixed-jet binomial convolution
-      - handle radius loss and tower weights without hidden target weakening
-      - connect any tower control to the currently live theorem object only through an explicit bridge
-    bridge_imports_allowed:
-      - can support positive smoothness or continuation if its tower estimate closes on the declared NS surface
-      - can feed class-membership only through a theorem proving tower control implies the required Pack/Part/Field membership
-    bridge_imports_forbidden:
-      - silently replacing CM endpoint exclusion with mixed-jet tower boundedness
-    anchor_paths:
-      - problems/navier-stokes/theorem-construction/weighted-mixed-jet-radius-loss-energy-reduction.md
-      - problems/navier-stokes/theorem-construction/mixed-jet-hs-quadratic-convolution-reduction.md
-      - problems/navier-stokes/theorem-construction/weighted-mixed-jet-next-time-envelope-reduction.md
-      - problems/navier-stokes/theorem-construction/weighted-mixed-jet-closure-implies-classical-continuation.md
-  - program_id: eulerian_fixed_family_source
-    short_name: Fixed-family packet/source closure
-    authority_status: active_supplier_inside_CM_OFP_LCI
-    proof_mode: Eulerian fixed-family packet estimates feeding moving-collar closure
-    target_chain:
-      - fixed-scale Eulerian increment envelopes
-      - frozen-family source ledgers
-      - FPCR.C / FSCR.C / FFSRC.A style source splits
-      - OFP.A source-side support
-      - LCI.A receiver-side use
-    propagated_object: >-
-      Fixed Eulerian packet increments, frozen-net source ledgers, pressure
-      channels, strain/cascade channels, and cutoff/coefficient ledgers.
-    current_burdens:
-      - prove fixed-family source interval integrability without reusing the receiver conclusion
-      - bridge fixed Eulerian packet control into transported collar and one-field coherence
-      - keep source-side ledgers separate from receiver-side LCI.A consumers
-    bridge_imports_allowed:
-      - direct support to OFP.A/LCI.A only after flow-map, collar, pressure/source, and scale-conversion bridges
-    bridge_imports_forbidden:
-      - using FCI.5f, FPCR.C, FSCR.C, or FFSRC.A as if they directly prove transported one-field coherence
-    anchor_paths:
-      - problems/navier-stokes/theorem-construction/mpp-fixed-family-and-collar-interval-propagation.md
-      - problems/navier-stokes/theorem-construction/mpp-frozen-family-source-ledger-split-note.md
-      - problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-channel-reduction-note.md
-      - problems/navier-stokes/theorem-construction/mpp-frozen-family-strain-cascade-channel-reduction-note.md
-      - problems/navier-stokes/theorem-construction/mpp-lci-a-fixed-scale-eulerian-increment-note.md
-  - program_id: lagrangian_deformation_positive
-    short_name: Lagrangian/deformation estimate closure
-    authority_status: active_positive_alternative_or_supplier
-    proof_mode: direct Lagrangian / deformation-adapted estimates
-    target_chain:
-      - flow-map pullback
-      - deformation-adapted energy
-      - ellipticity window
-      - coefficient-commutator absorption
-      - no-loss pressure recovery
-      - Lagrangian Stokes or evolving-coordinate bridge
-    propagated_object: >-
-      Lagrangian pulled-back velocity/pressure, deformation tensor F, inverse
-      A, metric G, coefficient commutators, ellipticity windows, and pressure recovery packets.
-    current_burdens:
-      - keep the moving-coordinate object distinct from Eulerian packet and CM membership objects
-      - prove no-loss pressure recovery and evolving-coordinate absorption on the same surface
-      - bridge any deformation estimate into Pack/Part/Field or LCI.A explicitly
-    bridge_imports_allowed:
-      - can support CM where it proves exact flow-map, collar, or pressure-transfer statements
-      - can support positive smoothness if it closes the deformation energy directly
-    bridge_imports_forbidden:
-      - treating Lagrangian energy closure as LCI.A or OFP.A without the receiver bridge
-    anchor_paths:
-      - problems/navier-stokes/theorem-construction/lagrangian-material-derivative-recheck-note.md
-      - problems/navier-stokes/theorem-construction/lagrangian-six-lemma-mainline.md
-      - problems/navier-stokes/theorem-construction/lagrangian-stokes-bridge-program.md
-      - problems/navier-stokes/theorem-construction/lagrangian-material-package-preliminary-verdict.md
-  - program_id: tps_sg4_selector_defect
-    short_name: TPS / SG.4 selector-defect
-    authority_status: conflicting_or_downstream_context
-    proof_mode: selector-defect / downstream one-field readout
-    target_chain:
-      - selector-adapted defect-to-strain
-      - SG.4
-      - BR.lambda2
-      - continuation
-    propagated_object: >-
-      Selector-good pair defect W_J, directional deficit
-      [lambda_J - s_J]_+, PD.70, Xi_J, projective readout packets, and SG.4 lower-envelope data.
-    current_burdens:
-      - resolve the authority conflict where older surfaces still mark TPS/SG.4 primary
-      - keep selector progress downstream of class-membership matrix work on current YAML authority
-      - prove the selector calibration / observability package before SG.4 fires
-    bridge_imports_allowed:
-      - one-field readout support after endpoint-exclusion pair closes or after an explicit class-membership bridge
-    bridge_imports_forbidden:
-      - closing CFI.A, OFP.A, or LCI.A merely by proving a selector-defect theorem
-    anchor_paths:
-      - problems/navier-stokes/live-theorem-edge.md
-      - problems/navier-stokes/route-hypothesis.yaml
-      - problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
-      - problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md
-      - problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md
-  - program_id: euclidean_strict_shadow_export
-    short_name: Euclidean strict-shadow / Route A-B export
-    authority_status: downstream_export_program
-    proof_mode: projected strict-shadow or robustness-shadow export
-    target_chain:
-      - full-data Euclidean lift coverage
-      - exact Euclidean strict shadow or robustness shadow
-      - global carrier control
-      - integrable shadow-error continuation coupling
-      - whole-space discharge
-    propagated_object: >-
-      Euclidean strict-shadow variables, ShadowDef, E_sh, carrier control,
-      robustness errors, and whole-space continuation/export data.
-    current_burdens:
-      - keep Route A and Route B distinct
-      - do not let whole-space export replace the torus-first internal theorem surface
-      - prove full-data lift, exact shadow, and global carrier control before Clay discharge claims
-    bridge_imports_allowed:
-      - downstream discharge after internal torus-first or CM route supplies the required export data
-    bridge_imports_forbidden:
-      - reading exact strict shadow as primary internal closure of the periodic branch
-    anchor_paths:
-      - problems/navier-stokes/theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md
-      - problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md
-      - problems/navier-stokes/theorem-construction/strict-shadow-no-shadowdef-theorem.md
-      - problems/navier-stokes/theorem-construction/route-b-b1-integrable-shadow-error-continuation-coupling.md
+- program_id: class_membership_endpoint_exclusion
+  short_name: CM endpoint-exclusion
+  authority_status: primary_live_program_closed_on_current_yaml_surfaces
+  proof_mode: contrapositive / class-exit endpoint exclusion
+  primary_objective: Prove genuine PDE non-smoothness implies failure of the Pack
+    / Part / Field class-membership witness; smoothness is then read by contraposition,
+    not by making positive continuation programs primary.
+  target_chain:
+  - genuine non-smooth occurrence
+  - failure of Pack_Q, Part_{N,Q}, or Field_{N,r,Q}
+  - law / endpoint matrix
+  - CFI.A
+  - OFP.A
+  - LCI.A
+  - endpoint exclusion
+  propagated_object: Local class membership M_Q(u,p) witnessed by Pack / Part / Field
+    on same-fluid still-live families, with stable carriers u, p, Phi, and F.
+  current_burdens:
+  - none-active at the local theorem-program layer; review/export/release refresh
+    remains downstream.
+  bridge_imports_allowed:
+  - fixed-family source estimates only through OFP/LCI bridge theorems
+  - selector/SG.4 only as downstream one-field readout after direct matrix work
+  - Euclidean export only after torus-first internal closure and explicit export
+  bridge_imports_forbidden:
+  - treating SG.4 as prerequisite closure for CFI.A/OFP.A/LCI.A
+  - treating mixed-jet smoothness estimates as direct Pack/Part/Field persistence
+  anchor_paths:
+  - problems/navier-stokes/live-theorem-edge.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
+  - problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
+  - problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
+  - problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+- program_id: positive_mixed_jet_controls
+  short_name: Mixed-jet positive controls
+  authority_status: active_positive_alternative_or_supplier
+  proof_mode: direct estimates / control
+  target_chain:
+  - differentiated mixed-jet equations
+  - rung energy inequality
+  - weighted tower energy
+  - binomial convolution closure
+  - continuation
+  propagated_object: Sobolev or analytic mixed-jet tower norms for partial_t^m partial_x^alpha
+    u and differentiated pressure packets.
+  current_burdens:
+  - control the full mixed-jet binomial convolution
+  - handle radius loss and tower weights without hidden target weakening
+  - connect any tower control to the currently live theorem object only through an
+    explicit bridge
+  bridge_imports_allowed:
+  - can support positive smoothness or continuation if its tower estimate closes on
+    the declared NS surface
+  - can feed class-membership only through a theorem proving tower control implies
+    the required Pack/Part/Field membership
+  bridge_imports_forbidden:
+  - silently replacing CM endpoint exclusion with mixed-jet tower boundedness
+  anchor_paths:
+  - problems/navier-stokes/theorem-construction/weighted-mixed-jet-radius-loss-energy-reduction.md
+  - problems/navier-stokes/theorem-construction/mixed-jet-hs-quadratic-convolution-reduction.md
+  - problems/navier-stokes/theorem-construction/weighted-mixed-jet-next-time-envelope-reduction.md
+  - problems/navier-stokes/theorem-construction/weighted-mixed-jet-closure-implies-classical-continuation.md
+- program_id: eulerian_fixed_family_source
+  short_name: Fixed-family packet/source closure
+  authority_status: active_supplier_inside_CM_OFP_LCI
+  proof_mode: Eulerian fixed-family packet estimates feeding moving-collar closure
+  target_chain:
+  - fixed-scale Eulerian increment envelopes
+  - frozen-family source ledgers
+  - FPCR.C / FSCR.C / FFSRC.A style source splits
+  - OFP.A source-side support
+  - LCI.A receiver-side use
+  propagated_object: Fixed Eulerian packet increments, frozen-net source ledgers,
+    pressure channels, strain/cascade channels, and cutoff/coefficient ledgers.
+  current_burdens:
+  - prove fixed-family source interval integrability without reusing the receiver
+    conclusion
+  - bridge fixed Eulerian packet control into transported collar and one-field coherence
+  - keep source-side ledgers separate from receiver-side LCI.A consumers
+  bridge_imports_allowed:
+  - direct support to OFP.A/LCI.A only after flow-map, collar, pressure/source, and
+    scale-conversion bridges
+  bridge_imports_forbidden:
+  - using FCI.5f, FPCR.C, FSCR.C, or FFSRC.A as if they directly prove transported
+    one-field coherence
+  anchor_paths:
+  - problems/navier-stokes/theorem-construction/mpp-fixed-family-and-collar-interval-propagation.md
+  - problems/navier-stokes/theorem-construction/mpp-frozen-family-source-ledger-split-note.md
+  - problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-channel-reduction-note.md
+  - problems/navier-stokes/theorem-construction/mpp-frozen-family-strain-cascade-channel-reduction-note.md
+  - problems/navier-stokes/theorem-construction/mpp-lci-a-fixed-scale-eulerian-increment-note.md
+- program_id: lagrangian_deformation_positive
+  short_name: Lagrangian/deformation estimate closure
+  authority_status: active_positive_alternative_or_supplier
+  proof_mode: direct Lagrangian / deformation-adapted estimates
+  target_chain:
+  - flow-map pullback
+  - deformation-adapted energy
+  - ellipticity window
+  - coefficient-commutator absorption
+  - no-loss pressure recovery
+  - Lagrangian Stokes or evolving-coordinate bridge
+  propagated_object: Lagrangian pulled-back velocity/pressure, deformation tensor
+    F, inverse A, metric G, coefficient commutators, ellipticity windows, and pressure
+    recovery packets.
+  current_burdens:
+  - keep the moving-coordinate object distinct from Eulerian packet and CM membership
+    objects
+  - prove no-loss pressure recovery and evolving-coordinate absorption on the same
+    surface
+  - bridge any deformation estimate into Pack/Part/Field or LCI.A explicitly
+  bridge_imports_allowed:
+  - can support CM where it proves exact flow-map, collar, or pressure-transfer statements
+  - can support positive smoothness if it closes the deformation energy directly
+  bridge_imports_forbidden:
+  - treating Lagrangian energy closure as LCI.A or OFP.A without the receiver bridge
+  anchor_paths:
+  - problems/navier-stokes/theorem-construction/lagrangian-material-derivative-recheck-note.md
+  - problems/navier-stokes/theorem-construction/lagrangian-six-lemma-mainline.md
+  - problems/navier-stokes/theorem-construction/lagrangian-stokes-bridge-program.md
+  - problems/navier-stokes/theorem-construction/lagrangian-material-package-preliminary-verdict.md
+- program_id: tps_sg4_selector_defect
+  short_name: TPS / SG.4 selector-defect
+  authority_status: conflicting_or_downstream_context
+  proof_mode: selector-defect / downstream one-field readout
+  target_chain:
+  - selector-adapted defect-to-strain
+  - SG.4
+  - BR.lambda2
+  - continuation
+  propagated_object: Selector-good pair defect W_J, directional deficit [lambda_J
+    - s_J]_+, PD.70, Xi_J, projective readout packets, and SG.4 lower-envelope data.
+  current_burdens:
+  - resolve the authority conflict where older surfaces still mark TPS/SG.4 primary
+  - keep selector progress downstream of class-membership matrix work on current YAML
+    authority
+  - prove the selector calibration / observability package before SG.4 fires
+  bridge_imports_allowed:
+  - one-field readout support after endpoint-exclusion pair closes or after an explicit
+    class-membership bridge
+  bridge_imports_forbidden:
+  - closing CFI.A, OFP.A, or LCI.A merely by proving a selector-defect theorem
+  anchor_paths:
+  - problems/navier-stokes/live-theorem-edge.md
+  - problems/navier-stokes/route-hypothesis.yaml
+  - problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
+  - problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md
+  - problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md
+- program_id: euclidean_strict_shadow_export
+  short_name: Euclidean strict-shadow / Route A-B export
+  authority_status: downstream_export_program
+  proof_mode: projected strict-shadow or robustness-shadow export
+  target_chain:
+  - full-data Euclidean lift coverage
+  - exact Euclidean strict shadow or robustness shadow
+  - global carrier control
+  - integrable shadow-error continuation coupling
+  - whole-space discharge
+  propagated_object: Euclidean strict-shadow variables, ShadowDef, E_sh, carrier control,
+    robustness errors, and whole-space continuation/export data.
+  current_burdens:
+  - keep Route A and Route B distinct
+  - do not let whole-space export replace the torus-first internal theorem surface
+  - prove full-data lift, exact shadow, and global carrier control before Clay discharge
+    claims
+  bridge_imports_allowed:
+  - downstream discharge after internal torus-first or CM route supplies the required
+    export data
+  bridge_imports_forbidden:
+  - reading exact strict shadow as primary internal closure of the periodic branch
+  anchor_paths:
+  - problems/navier-stokes/theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md
+  - problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md
+  - problems/navier-stokes/theorem-construction/strict-shadow-no-shadowdef-theorem.md
+  - problems/navier-stokes/theorem-construction/route-b-b1-integrable-shadow-error-continuation-coupling.md
 exploratory_or_parked_programs:
-  - program_id: euler_mirror
-    status: quarantined_exploratory_parallel_equation_branch
-    anchor_paths:
-      - problems/navier-stokes/euler-mirror
-  - program_id: exact_potential_v2
-    status: supplier_or_readout_branch_not_lane_authority
-    anchor_paths:
-      - problems/navier-stokes/theorem-construction/exact-potential-v2-static-diffusion-wang-zhang-route.md
-      - problems/navier-stokes/theorem-construction/mpp-exact-potential-witness-to-readout-theorem.md
-  - program_id: localized_projector_coarse
-    status: exploratory_or_supplier_branch
-    anchor_paths:
-      - problems/navier-stokes/theorem-construction/localized-projector-coarse-route-collapses-to-one-familywise-summability-theorem.md
-  - program_id: exterior_algebra_hopf_shuffle_brst
-    status: exploratory_or_structural_refinement
-    anchor_paths:
-      - problems/navier-stokes/theorem-construction/hopf-shuffle-endgame-program.md
-      - problems/navier-stokes/theorem-construction/exterior-algebra-extraction-for-ns-route.md
-      - problems/navier-stokes/theorem-construction/infinite-jet-bicomplex-brst-survivor-route-note.md
+- program_id: euler_mirror
+  status: quarantined_exploratory_parallel_equation_branch
+  anchor_paths:
+  - problems/navier-stokes/euler-mirror
+- program_id: exact_potential_v2
+  status: supplier_or_readout_branch_not_lane_authority
+  anchor_paths:
+  - problems/navier-stokes/theorem-construction/exact-potential-v2-static-diffusion-wang-zhang-route.md
+  - problems/navier-stokes/theorem-construction/mpp-exact-potential-witness-to-readout-theorem.md
+- program_id: localized_projector_coarse
+  status: exploratory_or_supplier_branch
+  anchor_paths:
+  - problems/navier-stokes/theorem-construction/localized-projector-coarse-route-collapses-to-one-familywise-summability-theorem.md
+- program_id: exterior_algebra_hopf_shuffle_brst
+  status: exploratory_or_structural_refinement
+  anchor_paths:
+  - problems/navier-stokes/theorem-construction/hopf-shuffle-endgame-program.md
+  - problems/navier-stokes/theorem-construction/exterior-algebra-extraction-for-ns-route.md
+  - problems/navier-stokes/theorem-construction/infinite-jet-bicomplex-brst-survivor-route-note.md
