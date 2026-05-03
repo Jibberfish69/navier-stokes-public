@@ -4,25 +4,24 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-04-29T21:42:27Z'
+  generated_at: '2026-05-03T18:51:23Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_proof_assembly_id: proof-assembly-navier-stokes
 intervention:
-  reason: no-candidates
-  review_posture: local-release-pass
-  boundary_rule: Everything beyond the grounded core is machine extension until it
-    survives falsification and promotion.
+  reason: none-active
+  review_posture: local-theorem-program-closed
+  boundary_rule: No active local theorem-search sandbox is authorized unless a new
+    concrete proof burden appears on live theorem surfaces.
   provenance_rule: Machine-generated branches remain speculative until they survive
     later discharge or review gates.
   coverage_rule: Keep all candidate branch ideas on record even when only the top
     bounded subset is actively pursued.
 sandbox:
-  mode: single-branch-sandbox
-  trigger: none
-  survivor_writeback: Keep only branches that survive discharge, falsification, or
-    refinement; demote the rest back into explicit debt.
+  mode: none-active
+  trigger: local-theorem-program-closed
+  survivor_writeback: No active branches.
   independent_branch_ids: []
   co_dependent_branch_ids: []
   branch_execution_order: []
@@ -32,8 +31,8 @@ selected_branch:
 summary:
   candidate_count: 0
   candidate_archive_count: 0
-  sandbox_mode: single-branch-sandbox
+  sandbox_mode: none-active
   active_branch_ids: []
   selected_branch_id:
-  selected_next_cell_type:
+  selected_next_cell_type: none-active
   intervention_needed: false
