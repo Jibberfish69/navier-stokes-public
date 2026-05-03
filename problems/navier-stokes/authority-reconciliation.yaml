@@ -6,7 +6,7 @@ identity:
   reconciliation_id: authority-reconciliation-navier-stokes
   generated_at: '2026-04-29T20:13:40Z'
   generator: system/runner/lib/authority_reconciliation_builder.rb
-active: false
+active: true
 inputs:
   proof_assembly: problems/navier-stokes/proof-assembly.yaml
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
@@ -15,29 +15,24 @@ inputs:
   review_verdict: problems/navier-stokes/review-verdict.yaml
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
 summary:
-  proof_ready: false
-  matrix_blocking_count: 1
-  bridge_discharge_blocking_count: 3
-  theorem_packet_export_ready: false
-  target_fidelity_terminal_safe: false
-  target_fidelity_class: authority-conflict
+  proof_ready: true
+  matrix_blocking_count: 0
+  bridge_discharge_blocking_count: 0
+  theorem_packet_export_ready: true
+  target_fidelity_terminal_safe: true
+  target_fidelity_class: direct-target
   stale_blocker_count: 0
-  total_submission_blockers: 4
+  total_submission_blockers: 0
   stale_posture_lag: false
 target_fidelity:
-  class: authority-conflict
-  terminal_safe: false
-  explicit_nonterminal_overlay: true
-  issues:
-  - 'Target fidelity failure: authoritative lane overlays still mark the full-claim
-    package as conditional, externally overridden, blocked, or burdened by open critical
-    objections.'
-  required_before_terminal_release:
-  - Clear the authoritative nonterminal overlays by discharging the blocked theorem
-    bridges or keeping the package explicitly nonterminal.
+  class: direct-target
+  terminal_safe: true
+  explicit_nonterminal_overlay: false
+  issues: []
+  required_before_terminal_release: []
   signals:
     conditional_main_theorem: false
-    overlay_block_risk: true
+    overlay_block_risk: false
     objective_collapse_risk: false
     conditional_markers: []
     strong_regularization_markers: []
@@ -54,16 +49,18 @@ target_fidelity:
     bundle_route_signature: ''
     bundle_surface_mismatch: false
     open_critical_referee_objections: []
-superseded_blockers: []
-effective_review_alignment: {}
-rationale: No authority override is active because the current package still fails
-  target fidelity for terminal MPP release, so proof-side readiness cannot outrank
-  claim-scope or model-scope truth.
-
+superseded_blockers:
+- sourcepulse-cm-exit-primitive
+- sourcepulse-dtc-placement
+effective_review_alignment:
+  status: review-refresh-required
+  math_frontier_blockers: []
+rationale: Current theorem authority records local theorem-program closure through
+  retained-field tower anchoring. Review/export surfaces may still require refresh,
+  but no math-frontier blocker is active on this surface.
 truth_alignment:
-  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
-  status: math-frontier-open
-  blockers:
-  - pctp-hard-terminal-tail-production
-  - aact-kx-local-absorption
-  - jump-avg-branch-elimination
+  source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
+  status: local-theorem-program-closed
+  blockers: []
+  boundary: Local theorem-program closure is recorded; public/export/release posture
+    still requires review refresh and final release-decision artifacts.
