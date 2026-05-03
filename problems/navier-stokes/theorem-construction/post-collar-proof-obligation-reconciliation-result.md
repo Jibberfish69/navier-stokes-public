@@ -1,5 +1,22 @@
 # Post-Collar Proof-Obligation Reconciliation Result
 
+## Supersession
+
+This note is superseded by the live proof-obligation matrix, source frontier,
+and live theorem edge after the source-pulse audits.  The current live status is:
+
+```text
+unresolved_count: 1
+frontier_count: 1
+blocking_count: 1
+all_discharged: false
+active theorem: OriginalSmoothData=>SourcePulseExclusion.A
+measure form: OriginalSmoothData=>mu_*^sing=0
+```
+
+The historical zero-frontier report below should not be used as current
+authority.
+
 ## Target
 
 Check whether the final collar-route artifacts and the periodic terminal-tail bridge audit are reflected in the current governance surfaces:
@@ -20,14 +37,15 @@ problems/navier-stokes/source-frontier.yaml
 
 ## Proof-obligation matrix status
 
-The proof-obligation matrix reports:
+The historical proof-obligation matrix report below is superseded.  Current
+authority reports one unresolved blocking source-pulse obligation.
 
 ```text
-current route: periodic terminal-tail bridge promotion audit after PCTP.hard discharge
-unresolved_count: 0
-frontier_count: 0
-blocking_count: 0
-all_discharged: true
+current route: SourcePulseCMExit.A route-governing primitive with SourcePulseExclusion.A as strong supplier blocks downstream PCTP.hard / TTU.A
+unresolved_count: 1
+frontier_count: 1
+blocking_count: 1
+all_discharged: false
 ```
 
 It also records the live theorem edge summary:
@@ -40,15 +58,15 @@ and identifies the live local membership target as `M_Q(u,p)` witnessed through 
 
 ## Theorem packet status
 
-The theorem packet reports:
+The theorem packet now reports:
 
 ```text
-current_package_status: full-mpp-closure-ready
-standalone_status: accept
-frontier_count: 0
-packet_complete: true
-export_ready: true
-blockers: []
+current_package_status: blocked-by-sourcepulse-cm-exit-primitive
+standalone_status: revise
+frontier_count: 1
+packet_complete: false for full MPP closure
+export_ready: false
+blockers: [SourcePulseCMExit.A, with current direct supplier target OriginalSmoothData=>SourcePulseExclusion.A]
 ```
 
 It lists the periodic terminal-tail bridge route as the live theorem edge. It also carries the safe boundary that release remains governed by promotion, target-fidelity, source/export, review, submission, reproducibility, and final release-decision artifacts.
