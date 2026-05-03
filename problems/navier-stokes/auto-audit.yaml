@@ -4,18 +4,18 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-03T18:57:40Z'
+  audited_at: '2026-05-03T19:09:42Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
-  current_package_status: local-packet-export-ready
-  standalone_status: local-theorem-program-closed
-  completion_tier_achieved: local-theorem-program-closure
-  review_verdict: local-theorem-program-closed-review-refresh-required
-  theorem_packet_status: export-ready-local-theorem-packet
+  current_package_status: blocked-by-pctp5c-jumpavg-elimination
+  standalone_status: theorem-open-at-pctp5c
+  completion_tier_achieved: paper-complete-theorem-open
+  review_verdict: accept
+  theorem_packet_status: export-ready
 audit_certification:
   audit_status: audited-ok
-  audit_completion_tier: audited-local-theorem-program-closure
-  audit_review_verdict: audited-local-theorem-program-closed-review-refresh-required
+  audit_completion_tier: audited-paper-complete-theorem-open
+  audit_review_verdict: audited-accept
 branch_audit:
   status: no-branches
   branch_count: 0
@@ -35,12 +35,12 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-eeac2572c4ba
-    route_signature: eeac2572c4baadbc618c3adae6800393eca70f41
-    theorem_target: full-mpp-closure
-    theorem_statement: Every smooth divergence-free zero-mean initial datum on T^3
-      with f=0 generates a global smooth classical three-dimensional incompressible
-      Navier-Stokes solution.
+    surface_id: theorem-surface-navier-stokes-1c3f5ade309a
+    route_signature: 1c3f5ade309afbd8e08fc830f2e72158762cac78
+    theorem_target: full-MPP periodic Clay closure via terminal promotion from the
+      installed Theorem 2.1 class-membership warrant
+    theorem_statement: The official Clay target allows either the whole-space branch
+      on R^3 or the periodic branch on T^3.
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -190,8 +190,8 @@ surface_snapshot:
       cross_surface_splice: false
       sterilized_synthesis_import_count: 0
   proof_obligation_summary:
-    total_obligations: 13
-    grounded_count: 13
+    total_obligations: 14
+    grounded_count: 14
     structural_only_count: 0
     structurally_supported_count: 0
     bridge_pending_count: 0
