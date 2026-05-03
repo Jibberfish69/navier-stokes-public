@@ -1,15 +1,25 @@
 # Final Periodic T3 Release Snapshot
 
+## Supersession
+
+This snapshot is superseded.  Current live authority blocks full proof/release
+on:
+
+```text
+OriginalSmoothData=>SourcePulseExclusion.A
+OriginalSmoothData=>mu_*^sing=0
+```
+
 ## Promotion packet
 
 ```text
 problem: navier-stokes
 tier: clay-level
-status: passed
-decision: release-approved
-promotion_allowed: true
-release_approved: true
-blockers: 0
+status: blocked
+decision: not-release-approved
+promotion_allowed: false
+release_approved: false
+blockers: OriginalSmoothData=>SourcePulseExclusion.A
 ```
 
 ## Core release artifacts
