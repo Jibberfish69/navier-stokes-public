@@ -3,9 +3,9 @@
 ## Current Theorem Posture
 
 - `theorem_target`: full-MPP periodic Clay closure via terminal promotion from the installed Theorem 2.1 class-membership warrant
-- `current_package_status`: full-mpp-closure-ready
-- `support_basis`: Recovered source support converged with the speculative branch, so the next safe move is a grounded backbone rebuild.
-- `standalone_status`: accept
+- `current_package_status`: local-theorem-program-closed
+- `support_basis`: Live route authority records the retained-field tower anchoring closure as discharging the route-governing `SourcePulseCMExit.A` primitive, while `OriginalSmoothData=>SourcePulseExclusion.A` remains only nonblocking stronger supplier context.
+- `standalone_status`: local-theorem-program-closed
 
 ## Proof Debt Ledger
 
@@ -16,20 +16,20 @@
 | lower-carrier receiver wall | discharged terminal context under H1-H6; context only | no | theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md, theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md |
 | collar-to-jump converse pivot | discharged terminal context under H1-H6; context only | no | theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md, theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md |
 | Keep theorem scope below the first unsafe overclaim | theorem-level scope boundary already fixed; prose/status hygiene only | no | claim-ladder: Lowest Safe Claim, claim-ladder: First Unsafe Overclaim, theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md |
-| Periodic Clay terminal-promotion bridge | grounded by `PCTP.A` and the proof-obligation matrix; full-MPP theorem-upgrade target discharged | no | theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md, problems/navier-stokes/assumption-ledger.yaml, theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md, problems/navier-stokes/source-frontier.yaml |
+| Periodic Clay terminal-promotion bridge | discharged / consumed by the retained-field tower anchoring and terminal-consumption closure notes for the local theorem-program route | no | theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md, problems/navier-stokes/assumption-ledger.yaml, theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md, problems/navier-stokes/source-frontier.yaml, theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md |
 
 ## Reviewer-Facing Risks
 
 - Do not overclaim beyond the lowest safe theorem surface: The official Clay target allows either the whole-space branch on `R^3` or the periodic branch on `T^3`.
 - First unsafe overclaim to avoid: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
-- Keep the full-MPP closure tied to the periodic Clay terminal-promotion theorem, the grounded proof-obligation matrix, and the official `T^3` zero-force branch.
+- Keep the full-MPP closure tied to the periodic Clay terminal-promotion theorem and the official `T^3` zero-force branch; do not promote nonblocking `SourcePulseExclusion.A` supplier context into a live blocker.
 
 ## Required Local Explanations For A Paper
 
 
 ## Promotion Rule
 
-- Promote beyond `revise` only because the proof-obligation matrix is fully grounded and the periodic Clay terminal-promotion theorem is now the active full-MPP closure surface.
+- Do not promote beyond local theorem-program closure into public release/submission claims until the review/export/release artifacts are refreshed against the current theorem packet.
 - Keep the lowest safe claim explicit and do not let recovered speculative material masquerade as a proved bridge.
 - Re-run honesty-review only after the local package has real prose and an explicit debt map.
 
