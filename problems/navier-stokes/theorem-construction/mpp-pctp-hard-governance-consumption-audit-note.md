@@ -79,19 +79,21 @@ objects. They are not spent upstream to produce the averaged endpoint package.
 
 ## Matrix Effect
 
-The live proof-obligation matrix should no longer treat
+The live proof-obligation matrix should no longer treat the bridge-order problem
 
 ```text
 pctp-hard-terminal-tail-uniformization
 ```
 
-as a blocked frontier. It should be grounded by the canonical PCTP bridge and
-the matrix-readable discharge note.
+as the blocked frontier. It should be grounded conditionally by the canonical
+PCTP bridge and the matrix-readable discharge note, while the remaining active
+frontier is the branch-native no-`Jump_avg` / terminal-tail production input
+identified in the five-burden audit.
 
 ## Release Effect
 
-This removes the local theorem-program matrix blocker. It does not by itself
-declare public release or whole-space export.
+This removes the bridge-order blocker. It does not by itself declare
+`PCTP.hard / TTU.A`, public release, or whole-space export.
 
 Release remains governed by the proof-promotion packet, target-fidelity audit,
 source/export coverage, review verdict, submission verdict, reproducibility
@@ -99,6 +101,7 @@ surfaces, and final release decision.
 
 ## Verdict
 
-Consume the later PCTP bridge tranche as a local theorem-program discharge of
-`PCTP.hard / TTU.A`, with the exact legal order above. Do not collapse that
-into an unaudited public Clay release claim.
+Consume the later PCTP bridge tranche as a conditional local theorem-program
+bridge for `PCTP.hard / TTU.A`, with the exact legal order above. Do not
+collapse that into an unconditional terminal-tail production theorem or an
+unaudited public Clay release claim.
