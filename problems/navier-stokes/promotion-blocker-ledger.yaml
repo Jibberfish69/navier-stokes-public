@@ -7,32 +7,30 @@ identity:
   purpose: promotion blocker ledger refreshed after solved matrix and Theorem 2.1
     warrant alignment
 status:
-  promotion_tier: local-theorem-packet
-  current_status: blocked-by-signedlocalsource-for-pctp-hard
+  promotion_tier: local-theorem-program-closure
+  current_status: no-active-math-blocker-review-refresh-required
   promotion_allowed: false
   release_approved: false
-  acceptance_test: prove-signedlocalsource-then-rerun-pctp-collapse
+  acceptance_test: refresh-review-export-release-surfaces
 source_reads:
   theorem_authority_frontier:
     path: problems/navier-stokes/source-frontier.yaml
     total_obligations: 24
-    blocking_count: 1
+    blocking_count: 0
     bridge_pending_count: 0
-    unresolved_count: 1
-    all_discharged: false
+    unresolved_count: 0
+    all_discharged: true
   theorem_warrant:
     path: problems/navier-stokes/theorem-to-warrant.yaml
-    theorem_2_1_status: conditional
+    theorem_2_1_status: local-theorem-program-closed
   main_result_section:
     path: problems/navier-stokes/external-paper/sections/main-result.tex
     status: present
   assumption_ledger:
     path: problems/navier-stokes/assumption-ledger.yaml
-    status: nonterminal-pctp-hard-open
-promotion_packet_blockers:
-- pctp-hard-terminal-tail-uniformization
-proof_obligation_blockers:
-- pctp-hard-terminal-tail-uniformization
+    status: local-theorem-program-closed
+promotion_packet_blockers: []
+proof_obligation_blockers: []
 branch_terminal_blockers: []
 resolved_blockers:
 - full-dependency-graph
@@ -42,42 +40,16 @@ resolved_blockers:
 - collar-to-jump-converse-pivot
 - h1-h2-h6-endpoint-upgrade
 remaining_release_gates:
-- prove `OriginalSmoothData=>SignedLocalSource.A`, then consume the installed
-  PCTP.hard collapse
-- prove the signed/local source no-pulse primitive (supplier ladder
-  closed in mpp-awg-supplier-ladder-closure-note.md and deep source frontier
-  closed in mpp-awg-deep-source-frontier-closure-note.md to
-  SOURCE.NO-PULSE.A; monotone-functional QDrain route closed in
-  mpp-qdrain-source-no-pulse-closure-note.md to the same atom; direct atom
-  attempt recorded in mpp-source-no-pulse-direct-attempt-note.md; mixed-shell
-  spill scheduler attempt recorded in
-  mpp-mixed-shell-spill-coefficient-scheduler-attempt-note.md and closed to
-  MSC.Spill.NoPulse, the same no-pulse atom; critical-pulse, pressure-strain,
-  and compactness audits sharpen the live forms to MSC.BadAC, PulseCharge.A,
-  pressure-strain depletion, MSC.Localize^src+Ancient.NoPulse^src, the
-  ancestry refinement
-  MSC.DiagTether^src+SourceParent.Measure+(AncestryDrain.A or
-  AncestryCompactBound.A+SourceResidueLiouville.A), or
-  the repaired compactness carrier DiagDom.A+Ancient.NoPulse^src, or
-  the direct pre-Cauchy source theorem LocalSource.NoPulse.A / SignedLocalSource.A
-  (itself reduced to signed weighted lifted-remainder cancellation with
-  positive/residual reserve or active-square residual-tail / square-source /
-  active-window Carleson control, sharpened to SignedRemainderReserve.A /
-  ActiveSquareCarleson.A / SquareSource.A / ActiveShellAmplitudeGain.A)),
-  then eliminate Jump_avg without assuming Field_avg on the Jump_avg branch
+- Refresh review/export/release surfaces against the current local theorem-program
+  closure; no active local math frontier.
 side_sandbox_status:
   hfg_low: threshold-discharged
   hfg_alt: no-free-gap; surviving primitive is MEG
 claim_boundary:
-  current_safe_claim: Conditional theorem-program packets are installed, but
-    PCTP.hard / TTU.A remains blocked by terminal-tail production and
-    branch-native Jump_avg elimination, whose supplier ladder now closes to
-    SOURCE.NO-PULSE.A nonlinear shell-flux/source no-pulse control, with
-    MSC.BadAC / PulseCharge.A / pressure-strain depletion /
-    MSC.Localize^src+Ancient.NoPulse^src /
-    MSC.DiagTether^src+SourceParent.Measure+(AncestryDrain.A or
-    AncestryCompactBound.A+SourceResidueLiouville.A) /
-    DiagDom.A+Ancient.NoPulse^src / LocalSource.NoPulse.A /
-    SignedLocalSource.A as equivalent sharpened presentations.
-  prohibited_claim: full periodic Navier-Stokes closure, export readiness, or
-    submission readiness before the remaining PCTP.hard burdens are discharged.
+  current_safe_claim: Local theorem-program closure is recorded. SourcePulseCMExit.A
+    is discharged by retained-field tower anchoring; OriginalSmoothData=>SourcePulseExclusion.A
+    remains nonblocking stronger supplier context. Public release/submission claims
+    require refreshed review/export/release artifacts.
+  first_unsafe_overclaim: Treating local theorem-program closure as independent public
+    validation, whole-space R^3 closure, or final release approval without the final
+    release-decision artifact.
