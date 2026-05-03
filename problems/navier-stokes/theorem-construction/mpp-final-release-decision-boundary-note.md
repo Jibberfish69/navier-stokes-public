@@ -3,8 +3,9 @@
 ## Non-Overclaiming Statement
 
 ```text
-local theorem-program closure and export readiness are recorded;
-public proof/release claim requires final release-decision artifact.
+conditional route packets are recorded;
+full theorem-program closure and export readiness are blocked by SourcePulseExclusion.A;
+public proof/release claim is not licensed.
 ```
 
 ## Current Reading
@@ -12,16 +13,17 @@ public proof/release claim requires final release-decision artifact.
 The local theorem-program surfaces record:
 
 ```text
-proof matrix: no unresolved frontier
-theorem packet: export_ready
-source frontier: no active labels
-review verdict: accept
-release manifest: stable-reproducibility-bundle
+proof matrix: unresolved frontier present
+active theorem: OriginalSmoothData=>SourcePulseExclusion.A
+native measure form: OriginalSmoothData=>mu_*^sing=0
+theorem packet: not export_ready for full MPP closure
+source frontier: active source-pulse terminal primitive
+review verdict: revise / blocked
 ```
 
-These records support export readiness inside the repository governance stack.
-They do not, by themselves, authorize public proof/release rhetoric outside the
-final release-decision boundary.
+These records do not support export readiness for a full proof claim.  They
+support only the conditional/downstream route material already separated from
+the unresolved source-pulse primitive.
 
 ## Release Boundary
 
