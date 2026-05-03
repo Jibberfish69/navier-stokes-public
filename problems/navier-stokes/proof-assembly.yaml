@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-05-01T22:35:18Z'
+  generated_at: '2026-05-03T18:51:23Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -41,68 +41,20 @@ source_grounded_chain:
 - one-field forward-preservation wall
 - lower-carrier receiver wall
 - collar-to-jump converse pivot
-- Keep theorem scope below the first unsafe overclaim
-- Periodic Clay terminal-promotion bridge
-- 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem 2.1 class-membership
-  warrant eliminates every first finite classical endpoint for arbitrary smooth divergence-free
-  zero-mean data on T^3.'
-- The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
-  or `T^3` -> Success for regularized or morphic-regularized equations does not close
-  the original problem
-- Success for regularized or morphic-regularized equations does not close the original
-  problem -> The original framework names a monotone functional `Q(t)` as a bridge,
-  not just unnamed baseline energy
-- The original framework names a monotone functional `Q(t)` as a bridge, not just
-  unnamed baseline energy -> Global energy or enstrophy control is necessary but not
-  sufficient
-- Global energy or enstrophy control is necessary but not sufficient -> The live obstruction
-  is the small-scale or high-frequency cascade that feeds blow-up
-- The live obstruction is the small-scale or high-frequency cascade that feeds blow-up
-  -> A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
-  transfer on the chosen torus-first theorem surface
-- A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
-  transfer on the chosen torus-first theorem surface -> The monotone functional must
-  stabilize the global energy/enstrophy layer and enable the compactness package on
-  that same periodic classical surface
-- The monotone functional must stabilize the global energy/enstrophy layer and enable
-  the compactness package on that same periodic classical surface -> The scale-barrier
-  plus monotone-functional input must yield strong local compactness and nonlinear
-  tensor closure on the periodic/operator approximation family
-- The scale-barrier plus monotone-functional input must yield strong local compactness
-  and nonlinear tensor closure on the periodic/operator approximation family -> A
-  heat-governed deformation or continuation bridge must force continuation control
-  on the same periodic theorem surface
-- A heat-governed deformation or continuation bridge must force continuation control
-  on the same periodic theorem surface -> If the scale-barrier, monotone-functional,
-  compactness, and continuation packages all hold on the active periodic branch, then
-  the periodic Clay branch with `f = 0` follows; any whole-space statement on `R^3`
-  is a downstream discharge theorem, not the internal branch itself
 tentative_extension_chain: []
-remaining_open_obligations:
-- obligation_id: warrant-theorem-2.1
-  label: Theorem 2.1 (Classical Closure)
-  kind: theorem-warrant
-  status: bridge-pending
+remaining_open_obligations: []
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
   math_frontier_obligations: []
-  theorem_warrant_obligations:
-  - obligation_id: warrant-theorem-2.1
-    label: Theorem 2.1 (Classical Closure)
-    kind: theorem-warrant
-    status: bridge-pending
+  theorem_warrant_obligations: []
 frontier_context:
   route_container_obligations: []
   downstream_support_obligations: []
   additional_context_obligations: []
-next_solver_targets:
-- obligation_id: warrant-theorem-2.1
-  label: Theorem 2.1 (Classical Closure)
-  kind: theorem-warrant
-  status: bridge-pending
+next_solver_targets: []
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-58a5bddadd50
-  route_signature: 58a5bddadd502d2dc76116be6a2fca29c1a09251
+  surface_id: theorem-surface-navier-stokes-35dc33398f11
+  route_signature: 35dc33398f11201f8e22a46c49f4016a5bbd7f1e
   theorem_target: full-MPP periodic Clay closure via terminal promotion from the installed
     Theorem 2.1 class-membership warrant
   theorem_statement: The official Clay target allows either the whole-space branch
@@ -129,12 +81,32 @@ theorem_surface:
     = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
     not the internal branch itself
   route_slots:
-  - slot_id: warrant-theorem-2.1
-    label: Theorem 2.1 (Classical Closure)
-    kind: theorem-warrant
-    status: bridge-pending
-    source_anchor: problems/navier-stokes/external-paper/sections/main-result.tex
-    patch_surface: problems/navier-stokes/external-paper/sections/main-result.tex
+  - slot_id: marvin-upstream-eb3fabeeac46
+    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
+      Clay whole-space target into exact source-backed ingredients already present
+      on the lane. On the classical side, isolated the mixed-jet system, the exact
+      rung-level can'
+    kind: definition
+    status: localized-support
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+    patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - slot_id: marvin-upstream-ada9835aa864
+    label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
+      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
+      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
+    kind: definition
+    status: localized-support
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+    patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - slot_id: marvin-upstream-6d929e8a052a
+    label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
+      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
+      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
+      red'
+    kind: definition
+    status: localized-support
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+    patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
   authority_layers:
     authoritative_proof_surfaces:
     - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
@@ -194,6 +166,7 @@ theorem_surface:
     - problems/navier-stokes/theorem-construction/mpp-lci-a-transported-center-residual-forcing-note.md
     - problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-channel-reduction-note.md
     - problems/navier-stokes/theorem-construction/mpp-frozen-family-resonant-pressure-sufficient-reduction-note.md
+    - problems/navier-stokes/theorem-construction/mpp-pressure-source-supplier-verification-ledger-note.md
     - problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
     - problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md
     - problems/navier-stokes/theorem-construction/mcp-canonical-pctp-hard-bridge-from-averaged-terminal-tail-route-cfi-a-1500f83b37.md
@@ -218,17 +191,19 @@ theorem_surface:
     cross_surface_splice: false
     sterilized_synthesis_import_count: 0
 summary:
-  grounded_step_count: 25
+  grounded_step_count: 13
   promoted_extension_count: 0
-  bridge_discharge_blocking_count: 1
+  bridge_discharge_blocking_count: 0
   bridge_discharge_only_count: 0
   theorem_warrant_blocking_count: 1
   open_obligation_count: 1
-  math_frontier_open_count: 0
+  math_frontier_open_count: 1
   frontier_context_count: 0
   frontier_route_container_count: 0
   frontier_downstream_support_count: 0
   tracked_source_count: 125
   synthesis_import_surface_count: 0
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-58a5bddadd50
+  active_frontier: PCTP.5.C / SOURCE.NO-PULSE.A / AWG.A
+  high_power_attack_surface: problems/navier-stokes/theorem-construction/mpp-pctp5c-known-criteria-source-nopulse-attack-note-20260503.md
+  theorem_surface_id: theorem-surface-navier-stokes-35dc33398f11
