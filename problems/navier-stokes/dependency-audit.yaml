@@ -7,9 +7,9 @@ identity:
   purpose: dependency audit reconciled from live proof-obligation matrix
 generated_at: '2026-05-03T17:29:26Z'
 status:
-  audit_status: dependency-graph-closed-local-theorem-program
-  pass: true
-  route_pass: true
+  audit_status: primitive-seat-repair-required
+  pass: false
+  route_pass: false
   release_eligible: false
 pass: true
 source:
@@ -19,28 +19,30 @@ source:
   release_decision: problems/navier-stokes/release-decision.yaml
 summary:
   total_obligations: 26
-  blocking_count: 0
+  blocking_count: 1
   bridge_pending_count: 0
   unresolved_count: 0
-  all_discharged: true
-blocking_dependencies: []
+  all_discharged: false
+blocking_dependencies:
+- cm-primitive-seat-repair
 current_direct_supplier_targets:
 - OriginalSmoothData=>SourcePulseExclusion.A (nonblocking strong supplier context)
 findings:
-- The current proof-obligation matrix reports no blocking mathematical obligation
-  at the local theorem-program layer.
-- SourcePulseCMExit.A is discharged by retained-field tower anchoring; SourcePulseDTCPlacement.A
-  and native positive source-measure forms remain stronger supplier-side context only.
+- The previous no-blocker reading depended on seating SourcePulseCMExit.A as the
+  governing CM primitive. That seating is invalid.
+- Re-audit the dependency graph against Exit(Q):=not Member(Q), witnessed by
+  not CM_{N,r,Q}=not(Pack_Q+Part_{N,Q}+Field_{N,r,Q}).
 verdict:
-  dependency_graph_closed: true
-  dependency_direction_clean: true
-  clay_release_dependency_status: local-theorem-program-closed-review-refresh-required
+  dependency_graph_closed: false
+  dependency_direction_clean: false
+  clay_release_dependency_status: primitive-seat-repair-required
 required_for_release:
 - Refresh review/export/release artifacts before any public release claim.
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-contrapositive-terminal-consumption-closure-note-20260503.md
-  status: local-theorem-program-closed
-  blockers: []
+  status: primitive-seat-repair-required
+  blockers:
+  - cm-primitive-seat-repair
   current_direct_supplier_targets:
   - OriginalSmoothData=>SourcePulseExclusion.A (nonblocking strong supplier context)
   active_measure_form: none-active at local theorem-program layer
