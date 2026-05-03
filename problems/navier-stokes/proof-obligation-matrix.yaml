@@ -1,0 +1,745 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  matrix_id: proof-obligation-matrix-navier-stokes
+  generated_at: '2026-05-02T16:17:31Z'
+  generator: system/runner/lib/proof_obligation_matrix_builder.rb
+  source_theorem_packet_id: theorem-packet-navier-stokes
+  source_review_verdict_id: review-verdict-navier-stokes
+posture:
+  theorem_target: full-mpp-closure
+  current_package_status: local-theorem-program-closed
+  standalone_status: local-theorem-program-closed
+  completion_tier_achieved: local-theorem-program-closure
+  review_verdict: local-theorem-program-closed
+  live_theorem_edge_present: true
+  live_theorem_edge_route_label: Local theorem-program closure after retained-field tower anchoring
+    and SourcePulseCMExit.A discharge; SourcePulseExclusion.A retained as nonblocking
+    strong supplier context
+live_theorem_edge:
+  route_id: live-authority-edge-navier-stokes
+  route_label: Local theorem-program closure after retained-field tower anchoring and
+    SourcePulseCMExit.A discharge
+  current_route_name: Local theorem-program closure after retained-field tower anchoring
+    and SourcePulseCMExit.A discharge
+  exact_cut_summary: >-
+    Local theorem-program closure is recorded.
+    `mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md`
+    shows that retained finite-depth `Field`, the energy anchor, and retained
+    `Part` exclude `tower-blown` on the same source-pulse family. Combined with
+    `MBR.E` and the endpoint manifestation rows, this discharges
+    `SourcePulseCMExit.A`; `SourcePulseDTCPlacement.A` remains an optional
+    stronger DTC/tower supplier route. The upstream/downstream audit now fixes
+    all route language against `SourcePulseCMExit.A`: only `Pack/Part/Field`
+    faces and same-family tower reductions are upstream of the governing
+    primitive, while `AWG.A / SOURCE.NO-PULSE.A`,
+    `TGC.A+AACT.Global.noJump+AVG.END.A+READ.END`, and `PCTP.hard / TTU.A` are
+    downstream consumer-route objects.
+  paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md",
+    "problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
+    "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
+    "problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md",
+    "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md",
+    "problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md"]'
+obligations:
+- obligation_id: theorem-statement
+  kind: theorem-statement
+  label: Every smooth divergence-free zero-mean initial datum on T^3 with f=0 generates
+    a global smooth classical three-dimensional incompressible Navier-Stokes solution.
+  status: grounded
+  source_anchor: problems/navier-stokes/debt-map.yaml
+  blocking: false
+  notes: []
+- obligation_id: marvin-upstream-eb3fabeeac46
+  kind: definition
+  label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
+    Clay whole-space target into exact source-backed ingredients already present on
+    the lane. On the classical side, isolated the mixed-jet system, the exact rung-level
+    can'
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+- obligation_id: marvin-upstream-ada9835aa864
+  kind: definition
+  label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
+    u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
+    property and the order-1 Calderon-Zygmund bound for the pressure operator,'
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+- obligation_id: marvin-upstream-6d929e8a052a
+  kind: definition
+  label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
+    lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
+    whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
+    red'
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+- obligation_id: marvin-upstream-954339945793
+  kind: definition
+  label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+    under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+    and E_sh(X) vanish identically, so the exact Route '
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+- obligation_id: marvin-upstream-96892bab139f
+  kind: definition
+  label: 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
+    target.'
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+- obligation_id: marvin-upstream-409f183ee495
+  kind: definition
+  label: 'Define or prove: Completed the Hopf/shuffle line as a theorem-program refinement.
+    The correct algebraic fit for the time tower is the divided-power Hopf law on
+    one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle'
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+- obligation_id: marvin-upstream-c8f7cb511776
+  kind: definition
+  label: 'Define or prove: Formalized the refined direct Lagrangian route as a six-lemma
+    mainline: differentiated Lagrangian decomposition, deformation-adapted energy,
+    ellipticity window, coefficient-commutator absorption, no-loss pressure recovery, '
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+- obligation_id: marvin-upstream-e2f5b0a915cf
+  kind: definition
+  label: 'Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md with
+    a geometry-testing ladder for the elliptic test field W_test = A^T grad Phi solving
+    -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1)
+    ene'
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+- obligation_id: debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
+  kind: lemma
+  label: Global energy or enstrophy control is necessary but not sufficient
+  status: grounded
+  source_anchor: theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+  - Support strength is `strong`.
+- obligation_id: debt-one-field-forward-preservation-wall
+  kind: lemma
+  label: one-field forward-preservation wall
+  status: grounded
+  source_anchor: theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+  - Support strength is `strong`.
+- obligation_id: debt-lower-carrier-receiver-wall
+  kind: lemma
+  label: lower-carrier receiver wall
+  status: grounded
+  source_anchor: theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+  - Support strength is `strong`.
+- obligation_id: debt-collar-to-jump-converse-pivot
+  kind: lemma
+  label: collar-to-jump converse pivot
+  status: grounded
+  source_anchor: theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+  - Support strength is `strong`.
+- obligation_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
+  kind: lemma
+  label: Keep theorem scope below the first unsafe overclaim
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+  - Support strength is `strong`.
+  - This obligation is not yet discharged locally.
+- obligation_id: debt-periodic-clay-terminal-promotion-bridge
+  kind: lemma
+  label: Periodic Clay terminal-promotion bridge
+  status: grounded
+  source_anchor: theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+  - Support strength is `strong`.
+- obligation_id: debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
+  kind: lemma
+  label: 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem
+    2.1 class-membership warrant eliminates every first finite classical endpoint
+    for arbitrary smooth divergence-free zero-mean data on T^3.'
+  status: grounded
+  source_anchor: problems/navier-stokes/post-release-plan.yaml
+  blocking: false
+  notes:
+  - Current packet status is `localized-support`.
+  - Support strength is `strong`.
+- obligation_id: proof-dependency-1
+  kind: proof-dependency
+  label: The Clay target is the official 3D incompressible Navier-Stokes problem on
+    `R^3` or `T^3` -> Success for regularized or morphic-regularized equations does
+    not close the original problem
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
+  notes:
+  - Dependency chain direction is visible in the recovered route, but this bridge
+    still needs explicit local discharge before submission.
+  - Dependency chain was previously treated as discharged, but the independent math
+    audit now reopens the terminal proof frontier and no revise posture remains.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  - Dependency-discharge promoted this obligation to grounded in /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/dependency-discharge.yaml.
+  discharge_evidence:
+    matched_paths:
+    - problems/navier-stokes/target-fidelity-discharge-source-pack.md
+    - problems/navier-stokes/claim-ladder.md
+    - problems/navier-stokes/route-lock.yaml
+    - problems/navier-stokes/closure-audit-source-pack.md
+    - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+    - problems/navier-stokes/gradient-discharge-source-pack.md
+    - problems/navier-stokes/nonlinear-closure-discharge-source-pack.md
+    - problems/navier-stokes/projected-nc-flow-clay-frontier.md
+    source: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/dependency-discharge.yaml"
+- obligation_id: proof-dependency-2
+  kind: proof-dependency
+  label: Success for regularized or morphic-regularized equations does not close the
+    original problem -> The original framework names a monotone functional `Q(t)`
+    as a bridge, not just unnamed baseline energy
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
+  notes:
+  - Dependency chain is still only structural; the proof links are not yet discharged
+    into a submission-safe theorem packet.
+  - Dependency chain was previously treated as discharged, but the independent math
+    audit now reopens the terminal proof frontier and no revise posture remains.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: &1
+    - problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    - problems/navier-stokes/claim-ladder.md
+    - problems/navier-stokes/spine.md
+    - problems/navier-stokes/formalization-ledger.md
+    - problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
+    - problems/navier-stokes/target-fidelity-discharge-source-pack.md
+    - problems/navier-stokes/monotone-functional-discharge-source-pack.md
+    - problems/navier-stokes/compactness-discharge-source-pack.md
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
+- obligation_id: proof-dependency-3
+  kind: proof-dependency
+  label: The original framework names a monotone functional `Q(t)` as a bridge, not
+    just unnamed baseline energy -> Global energy or enstrophy control is necessary
+    but not sufficient
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
+  notes:
+  - Dependency chain direction is visible in the recovered route, but this bridge
+    still needs explicit local discharge before submission.
+  - Dependency chain was previously treated as discharged, but the independent math
+    audit now reopens the terminal proof frontier and no revise posture remains.
+  - Dependency chain is still only structural; the proof links are not yet discharged
+    into a submission-safe theorem packet.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: *1
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
+- obligation_id: proof-dependency-4
+  kind: proof-dependency
+  label: Global energy or enstrophy control is necessary but not sufficient -> The
+    live obstruction is the small-scale or high-frequency cascade that feeds blow-up
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
+  notes:
+  - Dependency chain direction is visible in the recovered route, but this bridge
+    still needs explicit local discharge before submission.
+  - Dependency chain was previously treated as discharged, but the independent math
+    audit now reopens the terminal proof frontier and no revise posture remains.
+  - Dependency chain is still only structural; the proof links are not yet discharged
+    into a submission-safe theorem packet.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: *1
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
+- obligation_id: proof-dependency-5
+  kind: proof-dependency
+  label: The live obstruction is the small-scale or high-frequency cascade that feeds
+    blow-up -> A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
+    transfer on the chosen torus-first theorem surface
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
+  notes:
+  - Dependency chain is still only structural; the proof links are not yet discharged
+    into a submission-safe theorem packet.
+  - Dependency chain was previously treated as discharged, but the independent math
+    audit now reopens the terminal proof frontier and no revise posture remains.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: *1
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
+- obligation_id: proof-dependency-6
+  kind: proof-dependency
+  label: A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
+    transfer on the chosen torus-first theorem surface -> The monotone functional
+    must stabilize the global energy/enstrophy layer and enable the compactness package
+    on that same periodic classical surface
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
+  notes:
+  - Dependency chain direction is visible in the recovered route, but this bridge
+    still needs explicit local discharge before submission.
+  - Dependency chain was previously treated as discharged, but the independent math
+    audit now reopens the terminal proof frontier and no revise posture remains.
+  - Dependency chain is strongly supported by the recovered local object layer, but
+    it is not yet discharged as a formal submission-safe bridge.
+  - Dependency chain is still only structural; the proof links are not yet discharged
+    into a submission-safe theorem packet.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: *1
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
+- obligation_id: proof-dependency-7
+  kind: proof-dependency
+  label: The monotone functional must stabilize the global energy/enstrophy layer
+    and enable the compactness package on that same periodic classical surface ->
+    The scale-barrier plus monotone-functional input must yield strong local compactness
+    and nonlinear tensor closure on the periodic/operator approximation family
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
+  notes:
+  - Dependency chain direction is visible in the recovered route, but this bridge
+    still needs explicit local discharge before submission.
+  - Dependency chain was previously treated as discharged, but the independent math
+    audit now reopens the terminal proof frontier and no revise posture remains.
+  - Dependency chain is strongly supported by the recovered local object layer, but
+    it is not yet discharged as a formal submission-safe bridge.
+  - Dependency chain is still only structural; the proof links are not yet discharged
+    into a submission-safe theorem packet.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: *1
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
+- obligation_id: proof-dependency-8
+  kind: proof-dependency
+  label: The scale-barrier plus monotone-functional input must yield strong local
+    compactness and nonlinear tensor closure on the periodic/operator approximation
+    family -> A heat-governed deformation or continuation bridge must force continuation
+    control on the same periodic theorem surface
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
+  notes:
+  - Dependency chain direction is visible in the recovered route, but this bridge
+    still needs explicit local discharge before submission.
+  - Dependency chain was previously treated as discharged, but the independent math
+    audit now reopens the terminal proof frontier and no revise posture remains.
+  - Dependency chain is still only structural; the proof links are not yet discharged
+    into a submission-safe theorem packet.
+  - Dependency chain is strongly supported by the recovered local object layer, but
+    it is not yet discharged as a formal submission-safe bridge.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: *1
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
+- obligation_id: proof-dependency-9
+  kind: proof-dependency
+  label: A heat-governed deformation or continuation bridge must force continuation
+    control on the same periodic theorem surface -> If the scale-barrier, monotone-functional,
+    compactness, and continuation packages all hold on the active periodic branch,
+    then the periodic Clay branch with `f = 0` follows; any whole-space statement
+    on `R^3` is a downstream discharge theorem, not the internal branch itself
+  status: grounded
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+  blocking: false
+  notes:
+  - Dependency chain is strongly supported by the recovered local object layer, but
+    it is not yet discharged as a formal submission-safe bridge.
+  - Dependency chain was previously treated as discharged, but the independent math
+    audit now reopens the terminal proof frontier and no revise posture remains.
+  - Dependency chain direction is visible in the recovered route, but this bridge
+    still needs explicit local discharge before submission.
+  - Discharged by `SYNC.2` in problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md.
+  - This closes the proof-dependency bridge spine only; it does not promote an unconditional
+    Clay theorem or reopen the terminal six-burden stack.
+  discharge_evidence:
+    matched_paths: *1
+    source: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
+    closure_kind: local-bridge-spine-status-proof
+- obligation_id: sourcepulse-cmexit-retained-field-toweramp
+  kind: theorem-obligation
+  label: SourcePulseCMExit.A retained-field tower anchoring
+  current_direct_supplier_target: OriginalSmoothData=>SourcePulseExclusion.A (nonblocking strong supplier; downstream PCTP.5.C consumer only if used live)
+  sourcepulse_cmexit_tower_residue_closure: problems/navier-stokes/theorem-construction/mpp-sourcepulse-cmexit-tower-residue-closure-note-20260503.md
+  sourcepulse_cm_three_exit_target_map: problems/navier-stokes/theorem-construction/mpp-sourcepulse-cm-three-exit-target-map-note-20260503.md
+  sourcepulse_dtc_placement_license_audit: problems/navier-stokes/theorem-construction/mpp-sourcepulse-dtc-placement-license-audit-note-20260503.md
+  sourcepulse_retained_field_toweramp_closure: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
+  current_primary_exit_face: SourcePulseCMExit.A discharged through retained Field tower anchoring + MBR.E + CMW
+  explicit_alternate_exit_faces:
+  - SourcePulsePartExit.A
+  - SourcePulsePackExit.A
+  route_reading: >-
+    The CM-contrapositive primitive is discharged locally through retained
+    `Pack+Part+Field` tower anchoring plus `MBR.E` and the endpoint rows;
+    absolute source-pulse exclusion is only a nonblocking stronger supplier
+    presentation.
+  status: discharged
+  blocking: false
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
+  route_equivalence_ledger: problems/navier-stokes/theorem-construction/mpp-sourcepulse-irreducible-core-and-route-equivalence-note.md
+  direct_core_self_attempt: problems/navier-stokes/theorem-construction/mpp-sourcepulse-direct-core-self-attempt-note.md
+  sourcepulse_normal_form_unspent_reserve_audit: problems/navier-stokes/theorem-construction/mpp-sourcepulse-normal-form-and-unspent-reserve-audit-note.md
+  sourcepulse_native_source_measure_decomposition: problems/navier-stokes/theorem-construction/mpp-sourcepulse-native-source-measure-decomposition-note.md
+  nativesourceac_direct_attempt: problems/navier-stokes/theorem-construction/mpp-nativesourceac-direct-attempt-note.md
+  native_trilinear_defect_domination_attempt: problems/navier-stokes/theorem-construction/mpp-native-trilinear-defect-domination-direct-attempt-note.md
+  native_trilinear_defect_alignment_split: problems/navier-stokes/theorem-construction/mpp-native-trilinear-defect-alignment-split-note.md
+  native_trilinear_face_logic_alias_audit: problems/navier-stokes/theorem-construction/mpp-native-trilinear-face-logic-and-alias-audit-note.md
+  coeffbound_terminal_strain_direct_attempt: problems/navier-stokes/theorem-construction/mpp-coeffbound-terminal-strain-direct-attempt-note.md
+  activeamplitude_carleson_direct_attempt: problems/navier-stokes/theorem-construction/mpp-activeamplitude-carleson-direct-attempt-note.md
+  alignmentdecorrel_direct_attempt: problems/navier-stokes/theorem-construction/mpp-alignmentdecorrel-direct-attempt-note.md
+  native_trilinear_defect_local_no_hidden_frontier: problems/navier-stokes/theorem-construction/mpp-native-trilinear-defect-local-no-hidden-frontier-note.md
+  native_trilinear_three_exit_execution: problems/navier-stokes/theorem-construction/mpp-native-trilinear-three-exit-execution-note-20260503.md
+  native_singular_source_defect_terminal_loop: problems/navier-stokes/theorem-construction/mpp-native-singular-source-defect-terminal-loop-note-20260503.md
+  native_sourcepulse_minimal_frontier_execution: problems/navier-stokes/theorem-construction/mpp-native-sourcepulse-minimal-frontier-execution-note.md
+  sourcepulse_cmexit_three_face_execution: problems/navier-stokes/theorem-construction/mpp-sourcepulse-cmexit-three-face-execution-note.md
+  terminal_slot_no_hidden_frontier: problems/navier-stokes/theorem-construction/mpp-sourcepulse-terminal-slot-no-hidden-frontier-note.md
+  terminal_slot_measure_obstruction_audit: problems/navier-stokes/theorem-construction/mpp-sourcepulse-three-slot-measure-obstruction-audit-note.md
+  immediate_source_targets_execution: problems/navier-stokes/theorem-construction/mpp-immediate-source-targets-execution-note-20260503.md
+  sourcepulse_direct_target_loop_mcp_audit: problems/navier-stokes/theorem-construction/mcp-sourcepulse-direct-target-loop-audit-20260503.md
+  nonlinear_shell_flux_source_control_mcp_attempt: problems/navier-stokes/theorem-construction/mcp-nonlinear-shell-flux-source-control-nonlinear-shell-source-control-theorem-82302d46dc.md
+  direct_heat_scale_sourcepulse_mcp_attempt: problems/navier-stokes/theorem-construction/mcp-sourcepulseexclusion-a-direct-heat-scale-nonlinear-source-pulse-exclusion-ttu-a-fb50a7f170.md
+  source_no_pulse_terminal_target_stack: problems/navier-stokes/theorem-construction/mpp-source-no-pulse-terminal-target-stack-note.md
+  source_no_pulse_direct_attempt: problems/navier-stokes/theorem-construction/mpp-source-no-pulse-direct-attempt-note.md
+  source_no_pulse_critical_pulse_sign_audit: problems/navier-stokes/theorem-construction/mpp-source-no-pulse-critical-pulse-and-sign-audit-note.md
+  source_no_pulse_root_route_audit_map: problems/navier-stokes/theorem-construction/mpp-source-no-pulse-root-route-audit-map-note.md
+  sharpest_mixed_shell_formulation: OriginalSmoothData=>MSC.BadAC
+  msc_spill_nopulse_badset_attempt: problems/navier-stokes/theorem-construction/mpp-msc-spill-nopulse-bad-set-domination-attempt-note.md
+  msc_badac_energy_measure_countermodel: problems/navier-stokes/theorem-construction/mpp-msc-badac-energy-measure-countermodel-note.md
+  msc_badac_structural_coupling_direct_audit: problems/navier-stokes/theorem-construction/mpp-msc-badac-structural-coupling-direct-audit-note.md
+  msc_badac_same_scale_import_audit: problems/navier-stokes/theorem-construction/mpp-msc-badac-same-scale-import-audit-note.md
+  msc_localize_carrier_tether_audit: problems/navier-stokes/theorem-construction/mpp-msc-localize-carrier-tether-audit-note.md
+  msc_localize_diagonal_carrier_attempt: problems/navier-stokes/theorem-construction/mpp-msc-localize-diagonal-carrier-attempt-note.md
+  msc_diagtether_near_diagonal_import_audit: problems/navier-stokes/theorem-construction/mpp-msc-diagtether-near-diagonal-import-audit-note.md
+  msc_diagtether_direct_attempt: problems/navier-stokes/theorem-construction/mpp-msc-diagtether-direct-attempt-note.md
+  diagdom_direct_attempt: problems/navier-stokes/theorem-construction/mpp-diagdom-direct-attempt-note.md
+  current_diag_tether_rescue: LocalSource.NoPulse.A / pre-Cauchy same-fluid active source theorem
+  current_msc_badac_atom: "mixed bilinear dissipation cannot concentrate on the same short windows where the spill coefficient is large"
+  current_measure_form_subtarget: NativeSourceAC.A / eliminate singular native positive active source measure
+  current_measure_form_survivor: NativeTrilinearDefectDomination.A / singular native positive source component vanishing
+  current_trilinear_defect_split:
+  - CoeffBound.A
+  - ActiveAmplitudeCarleson.A
+  - AlignmentDecorrel.A
+  current_trilinear_defect_source_weighted_entrances:
+  - CoeffBound.A
+  - PositiveActiveCarlesonReserve.A
+  - PositiveStrainDecorrelation.A
+  current_trilinear_defect_split_audits:
+    CoeffBound.A: problems/navier-stokes/theorem-construction/mpp-coeffbound-terminal-strain-direct-attempt-note.md
+    ActiveAmplitudeCarleson.A: problems/navier-stokes/theorem-construction/mpp-activeamplitude-carleson-direct-attempt-note.md
+    AlignmentDecorrel.A: problems/navier-stokes/theorem-construction/mpp-alignmentdecorrel-direct-attempt-note.md
+  current_native_trilinear_local_split:
+  - PositiveStrainDecorrelation.A
+  - PositiveActiveCarlesonReserve.A
+  - MSC.Localize^{src}+ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+  current_native_trilinear_rigidify_split:
+  - MSC.Localize^{src}
+  - ZenoBoundedClass_B.A
+  - ZenoResidueLiouville_B.A
+  native_trilinear_rigidify_exit_closure: problems/navier-stokes/theorem-construction/mpp-native-trilinear-rigidify-exit-closure-note-20260503.md
+  current_native_rigidify_verdict: MSC.DiagTether^{src} and rigid-class production are not installed; ZenoCompactnessExtraction.A is conditional after localization
+  current_native_rigidify_operational_residue:
+  - LocalSource.NoPulse.A
+  - new explicit rigid Zeno ancient class with native source-residue Liouville
+  current_native_trilinear_execution_verdict: three route-native exits and their supplier loops fully pursued; none installed from current allowed inputs
+  current_native_trilinear_post_execution_target: nonblocking strong supplier presentation OriginalSmoothData=>SourcePulseExclusion.A / OriginalSmoothData=>mu_*^sing=0; no unpursued route-governing local-exit target remains beneath NativeTrilinearDefectDomination.A
+  current_native_trilinear_closed_supplier_exits:
+  - PositiveStrainDecorrelation.A
+  - PositiveActiveCarlesonReserve.A
+  - MSC.Localize^{src}+ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+  current_closest_sourcepulse_suppliers:
+  - TerminalSourceCoherence.A
+  - ScaleCriticalTreeCarleson.A
+  - ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+  current_minimal_sourcepulse_primitive: "localized native positive source estimate (NSP.1) on terminal same-fluid active packets, or rigid-class production killing the same extracted positive source residue"
+  current_sourcepulse_cmexit_closure: "SourcePulseCMExit.A is discharged by mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md plus MBR.E: retained Field tower anchoring excludes tower-blown on the Pack+Part+Field branch, jump gives Field exit, and packing-detached gives Pack exit"
+  current_native_measure_target: "OriginalSmoothData=>mu_*^sing=0 for the singular native positive active source component"
+  current_badac_repair_split:
+  - "direct mixed-measure domination for the bad set"
+  - "signed lifted commutator cancellation before absolute values"
+  - "pressure-strain / positive-source depletion on active windows"
+  - "LocalSource.NoPulse.A / pre-Cauchy same-fluid active source theorem"
+  local_source_nopulse_direct_attempt: problems/navier-stokes/theorem-construction/mpp-localsource-nopulse-direct-attempt-note.md
+  signed_local_source_final_collapse: problems/navier-stokes/theorem-construction/mpp-signedlocalsource-final-collapse-note.md
+  signed_local_source_originaldata_attempt: problems/navier-stokes/theorem-construction/mpp-signedlocalsource-originalsmoothdata-direct-attempt-note.md
+  signed_remainder_reserve_direct_attempt: problems/navier-stokes/theorem-construction/mpp-signed-remainder-reserve-direct-attempt-note.md
+  positive_residual_reserve_direct_attempt: problems/navier-stokes/theorem-construction/mpp-positive-residual-reserve-direct-attempt-note.md
+  signed_lifted_remainder_residual_tail_attempt: problems/navier-stokes/theorem-construction/mpp-signed-lifted-remainder-residual-tail-attempt-note.md
+  signed_weighted_lifted_remainder_mcp_audit: problems/navier-stokes/theorem-construction/mcp-signed-weighted-lifted-remainder-cancellation-before-absolute-values-signed-cancellation-theorem-for-g_n-lift-sigma-before-absolute-values-30f4757569.md
+  strain_sign_cancellation_mcp_audit: problems/navier-stokes/theorem-construction/mcp-strain-sign-cancellation-obstruction-for-weighted-lifted-remainder-strain-sign-cancellation-theorem-for-weighted-lifted-remainder-d0434cd9e2.md
+  pressure_strain_no_pulse_attempt: problems/navier-stokes/theorem-construction/mpp-pressure-strain-no-pulse-attempt-note.md
+  sourcepulse_pressure_vortex_depletion_audit: problems/navier-stokes/theorem-construction/mpp-sourcepulse-pressure-vortex-depletion-final-audit-note.md
+  local_strain_depletion_audit: problems/navier-stokes/theorem-construction/mpp-localstrain-depletion-audit-note.md
+  local_active_carleson_audit: problems/navier-stokes/theorem-construction/mpp-localactive-carleson-audit-note.md
+  current_local_source_sharp_descendants:
+  - "QDrain.A"
+  - "MSC.BadAC"
+  - "SignedLocalSource.A"
+  - "LocalStrainDepletion.A"
+  - "LocalActiveCarleson.A"
+  qdrain_source_no_pulse_closure: problems/navier-stokes/theorem-construction/mpp-qdrain-source-no-pulse-closure-note.md
+  qbound_to_awg_qdrain_wall: problems/navier-stokes/theorem-construction/mpp-qbound-to-awg-and-qdrain-wall-note.md
+  sourcepulse_monotone_dominance_final_collapse: problems/navier-stokes/theorem-construction/mpp-sourcepulse-monotone-dominance-final-collapse-note.md
+  terminal_sourcepulse_slots:
+  - remove-active-mass
+  - charge-active-mass
+  - rigidify-active-mass
+  remove_active_mass_attempt: problems/navier-stokes/theorem-construction/mpp-sourcepulse-remove-active-mass-direct-attempt-note.md
+  charge_active_mass_attempt: problems/navier-stokes/theorem-construction/mpp-sourcepulse-charge-active-mass-direct-attempt-note.md
+  rigidify_active_mass_attempt: problems/navier-stokes/theorem-construction/mpp-sourcepulse-rigidify-active-mass-direct-attempt-note.md
+  ancestry_formalization: problems/navier-stokes/theorem-construction/mpp-sourceparent-measure-formal-definition-note.md
+  ancestry_axiom_audit: problems/navier-stokes/theorem-construction/mpp-sourceparent-measure-axiom-direct-audit-note.md
+  localized_core_bypass: problems/navier-stokes/theorem-construction/mpp-sourcepulse-localized-core-bypass-of-msclocalize-note.md
+  parent_measure_split: problems/navier-stokes/theorem-construction/mpp-sourceparent-edge-disintegration-and-antidiffuse-split-note.md
+  current_ancestry_subtarget: AntiDiffuseParent.A
+  antidiffuse_attempt: problems/navier-stokes/theorem-construction/mpp-antidiffuseparent-a-direct-attempt-note.md
+  current_antidiffuse_subtarget: ParentConcentrationOrDiffuseCharge.A
+  parent_concentration_or_diffuse_charge_audit: problems/navier-stokes/theorem-construction/mpp-parent-concentration-or-diffuse-charge-direct-audit-note.md
+  donor_depletion_formalization: problems/navier-stokes/theorem-construction/mpp-two-tower-donor-depletion-formalization-note.md
+  donor_balance_modulo_refill: problems/navier-stokes/theorem-construction/mpp-two-tower-donor-balance-modulo-refill-note.md
+  current_sufficient_donor_package: TwoTowerDonorDepletion.A
+  current_donor_subtarget: RefillTreeWellFounded.A
+  refilltree_wellfounded_attempt: problems/navier-stokes/theorem-construction/mpp-refilltree-wellfounded-direct-attempt-note.md
+  entrance_leaf_decay_nonzeno_proof: problems/navier-stokes/theorem-construction/mpp-entrance-leaf-decay-nonzeno-proof-note.md
+  zeno_refill_alternatives_audit: problems/navier-stokes/theorem-construction/mpp-zeno-refill-branch-alternatives-direct-attempt-note.md
+  terminal_zeno_no_hidden_frontier: problems/navier-stokes/theorem-construction/mpp-terminal-zeno-source-refill-no-hidden-frontier-note.md
+  scalecritical_tree_carleson_equivalence: problems/navier-stokes/theorem-construction/mpp-scalecritical-tree-carleson-equivalence-note.md
+  local_positive_precauchy_source_carleson_attempt: problems/navier-stokes/theorem-construction/mpp-local-positive-precauchy-source-carleson-direct-attempt-note.md
+  current_local_positive_source_target: LocalPositiveSourceCarleson.A
+  local_positive_source_carleson_final_collapse: problems/navier-stokes/theorem-construction/mpp-local-positive-source-carleson-final-collapse-note.md
+  current_single_source_atom: SOURCE.NO-PULSE.A / SourcePulseExclusion.A (downstream PCTP.5.C source-side consumer, not governing CM primitive)
+  current_root_no_pulse_failed_direct_mechanisms:
+  - energy-dissipation scheduler / bad-time Lebesgue smallness
+  - pointwise strain/enstrophy cubic sign
+  - same-scale coefficient upgrade without source-pulse exclusion
+  current_root_no_pulse_remaining_routes:
+  - MSC.BadAC / mixed-measure domination
+  - signed weighted commutator before absolute values
+  - pressure-strain structural cancellation on active packets
+  - source-residue carrier-tether compactness plus Ancient.NoPulse^{src}
+  current_root_no_pulse_route_audits:
+    mixed_measure_domination:
+    - problems/navier-stokes/theorem-construction/mpp-msc-spill-nopulse-bad-set-domination-attempt-note.md
+    - problems/navier-stokes/theorem-construction/mpp-msc-badac-energy-measure-countermodel-note.md
+    signed_weighted_commutator:
+    - problems/navier-stokes/theorem-construction/signed-weighted-lifted-remainder-theorem-attempt.md
+    - problems/navier-stokes/theorem-construction/signed-weighted-commutator-defect-theorem-attempt.md
+    - problems/navier-stokes/theorem-construction/mcp-signed-weighted-commutator-defect-frontier-loop-failure.md
+    pressure_strain:
+    - problems/navier-stokes/theorem-construction/mpp-pressure-strain-no-pulse-attempt-note.md
+    - problems/navier-stokes/theorem-construction/mpp-sourcepulse-pressure-vortex-depletion-final-audit-note.md
+    source_residue_compactness:
+    - problems/navier-stokes/theorem-construction/mpp-critical-pulse-compactness-no-pulse-attempt-note.md
+    - problems/navier-stokes/theorem-construction/mpp-ancient-nopulse-rigidity-audit-note.md
+    - problems/navier-stokes/theorem-construction/mpp-msc-localize-carrier-tether-audit-note.md
+    - problems/navier-stokes/theorem-construction/mpp-diagdom-direct-attempt-note.md
+  positive_remainder_depletion_attack: problems/navier-stokes/theorem-construction/mpp-positive-remainder-depletion-target-attack-note.md
+  active_square_residual_tail_scalecritical_reserve: problems/navier-stokes/theorem-construction/mcp-active-square-residual-tail-scalecriticaltreecarleson-reserve-pulse-a-18e4d10c64.md
+  active_square_residual_tail_final_collapse: problems/navier-stokes/theorem-construction/mpp-activesquare-residualtail-final-collapse-note.md
+  active_square_carleson_final_collapse: problems/navier-stokes/theorem-construction/mpp-activesquare-carleson-direct-collapse-note.md
+  active_shell_amplitude_gain_final_collapse: problems/navier-stokes/theorem-construction/mpp-activeshell-amplitude-gain-final-collapse-note.md
+  square_source_originaldata_final_collapse: problems/navier-stokes/theorem-construction/mpp-square-source-originaldata-final-collapse-note.md
+  local_positive_source_equivalent_targets:
+  - "ScaleCriticalTreeCarleson.A"
+  - "ActiveSquareResidualTail.A"
+  - "ActiveSquareCarleson.A"
+  - "ActiveShellAmplitudeGain.A"
+  - "SquareSource^{norm}.A"
+  - "PositiveActiveCarlesonReserve.A"
+  - "SOURCE.NO-PULSE.A / SourcePulseExclusion.A"
+  current_local_source_theorem_facing_split:
+  - QDrain.A
+  - MSC.BadAC
+  current_compactness_side_reopenings:
+  - LocalSource.NoPulse.A
+  - ParentConcentrationOrDiffuseCharge.A+BackwardDrainFunctional.A
+  - ParentConcentrationOrDiffuseCharge.A+BoundedAncestryClass.A+SourceResidueLiouville.A
+  current_packet_source_subtarget: PositiveRemainderDepletion.A
+  current_packet_source_survivors:
+  - PositiveStrainDecorrelation.A
+  - PositiveActiveCarlesonReserve.A
+  current_prd_local_survivors:
+  - PositiveStrainDecorrelation.A
+  - PositiveActiveCarlesonReserve.A
+  positive_strain_decorrelation_audit: problems/navier-stokes/theorem-construction/mpp-positive-strain-decorrelation-direct-audit-note.md
+  positive_strain_decorrelation_supplier_loop_closure: problems/navier-stokes/theorem-construction/mpp-positive-strain-decorrelation-supplier-loop-closure-note-20260503.md
+  current_positive_strain_decorrelation_supplier_loop:
+  - EigenDecorrel.A
+  - SignedPositiveBalance.A
+  - LocalPressureStrainDeplete.A
+  - ActiveVorticityCoherence.A
+  - AntiBeltramiCarleson.A
+  current_positive_strain_decorrelation_verdict: supplier loop pursued; no installed supplier from current allowed inputs
+  positive_active_carleson_reserve_audit: problems/navier-stokes/theorem-construction/mpp-positive-active-carleson-reserve-direct-audit-note.md
+  positive_active_carleson_reserve_supplier_loop_closure: problems/navier-stokes/theorem-construction/mpp-positive-active-carleson-reserve-supplier-loop-closure-note-20260503.md
+  current_positive_active_carleson_supplier_loop:
+  - ScaleCriticalTreeCarleson.A
+  - ActiveSquareResidualTail.A
+  - ActiveSquareCarleson.A
+  - ActiveShellAmplitudeGain.A
+  - SquareSource^{norm}.A
+  - TwoTowerDonorDepletion.A
+  current_positive_active_carleson_verdict: supplier loop pursued; route-equivalent to SourcePulseExclusion.A, not installed
+  positive_source_depletion_coherence_bridge: problems/navier-stokes/theorem-construction/mpp-positive-source-depletion-coherence-bridge-note.md
+  terminal_source_coherence_audit: problems/navier-stokes/theorem-construction/mpp-terminal-source-coherence-direct-audit-note.md
+  terminal_source_coherence_supplier_split_audit: problems/navier-stokes/theorem-construction/mpp-terminal-source-coherence-supplier-split-audit-note.md
+  reverseholder_parent_concentration_attempt: problems/navier-stokes/theorem-construction/mpp-reverseholder-parent-concentration-direct-attempt-note.md
+  current_positive_source_split:
+  - PositiveSourceDepletion.A
+  - ReverseHolderParentConcentration.A
+  current_coherence_subtarget: TerminalSourceCoherence.A
+  current_terminal_coherence_supplier_split:
+  - EigenDecorrel.A
+  - SignedPositiveBalance.A
+  - LocalPressureStrainDeplete.A
+  - ActiveVorticityCoherence.A
+  - AntiBeltramiCarleson.A
+  zeno_source_residue_compactness_extraction: problems/navier-stokes/theorem-construction/mpp-zeno-source-residue-compactness-extraction-note.md
+  zeno_residue_liouville_attack: problems/navier-stokes/theorem-construction/mpp-zeno-residue-liouville-target-attack-note.md
+  zeno_residue_liouville_direct_attempt: problems/navier-stokes/theorem-construction/mpp-zeno-residue-liouville-direct-attempt-note.md
+  zeno_cancellation_class_license_audit: problems/navier-stokes/theorem-construction/mpp-zeno-cancellation-class-production-license-audit-note.md
+  zeno_rigid_class_candidate_audit: problems/navier-stokes/theorem-construction/mpp-zeno-rigid-class-candidates-direct-audit-note.md
+  current_zeno_rigidity_subtarget: ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+  current_operational_zeno_target: LocalPositiveSourceCarleson.A unless a new explicit rigid-class production theorem is supplied
+  current_zeno_liouville_survivors:
+  - ZenoBoundedClass_B.A
+  - ZenoResidueLiouville_B.A
+  zeno_rigid_class_candidates:
+  - TypeI
+  - finite-global-ancient-energy
+  - critical-smallness
+  - bounded-ancient-vorticity
+  - self-similar
+  - axisymmetric-or-two-dimensional
+  current_zeno_refill_split:
+  - LocalPositiveSourceCarleson.A
+  - ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+  current_zeno_refill_no_hidden_split:
+  - LocalPositiveSourceCarleson.A
+  - ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+  current_parent_charge_split:
+  - ParentConcentration.A
+  - DiffuseParentCharge.A
+  ancestry_closure_audit: problems/navier-stokes/theorem-construction/mpp-ancestry-drain-liouville-alternatives-direct-audit-note.md
+  ancestry_drain_attempt: problems/navier-stokes/theorem-construction/mpp-ancestrydrain-a-direct-attempt-note.md
+  ancestry_compact_liouville_attempt: problems/navier-stokes/theorem-construction/mpp-ancestrycompactbound-liouville-direct-attempt-note.md
+  backward_drain_functional_direct_audit: problems/navier-stokes/theorem-construction/mpp-backward-drain-functional-direct-audit-note.md
+  bounded_ancestry_liouville_direct_audit: problems/navier-stokes/theorem-construction/mpp-bounded-ancestry-class-source-residue-liouville-direct-audit-note.md
+  current_ancestry_closure_split:
+  - BackwardDrainFunctional.A
+  - BoundedAncestryClass.A+SourceResidueLiouville.A
+  ancestry_conditional_closure: problems/navier-stokes/theorem-construction/mpp-sourcepulse-ancestry-route-conditional-closure-note.md
+  negative_mechanism_audits:
+  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-pressure-vortex-depletion-final-audit-note.md
+  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-beltrami-helical-alignment-audit-note.md
+  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-vorticity-direction-coherence-audit-note.md
+  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-localized-drain-packstrain-final-audit-note.md
+  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-parabolic-local-energy-ckn-audit-note.md
+  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-compactness-liouville-final-audit-note.md
+  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-viscous-duhamel-no-pulse-audit-note.md
+  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-nohop-transport-chain-audit-note.md
+  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-q-dissipation-dominance-source-recovery-audit-note.md
+  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-classical-criteria-bkm-serrin-audit-note.md
+  blocking: false
+  notes:
+  - >-
+    Reduced by `mpp-sourcepulse-cmexit-tower-residue-closure-note-20260503.md`
+    and discharged by
+    `mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md`
+    through retained-field tower anchoring on the same family.
+  - >-
+    `OriginalSmoothData=>SourcePulseExclusion.A` and
+    `OriginalSmoothData=>SignedLocalSource.A` remain nonblocking stronger
+    sufficient supplier presentations.
+  - Pressure-vortex, helical/Beltrami, vorticity-direction, localized-drain,
+    local-energy / CKN, compactness / Liouville, viscous-Duhamel, and no-hop
+    mechanism audits are recorded as non-independent sufficient languages, not
+    installed discharges.
+  - The source-parent ancestry subcase is formalized, but its recovery,
+    lower-density, same-fluid fidelity, summable-loss, and charge-alternative
+    axioms are not installed.
+summary:
+  total_obligations: 27
+  grounded_count: 26
+  structural_only_count: 0
+  structurally_supported_count: 0
+  bridge_pending_count: 0
+  unresolved_count: 1
+  frontier_count: 1
+  bridge_discharge_blocking_count: 0
+  theorem_warrant_blocking_count: 1
+  blocking_count: 1
+  all_discharged: false
+  active_frontier: PCTP.5.C / SOURCE.NO-PULSE.A / AWG.A
+  high_power_attack_surface:
+  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-knowncriterion-placement-boundary-audit-note-20260503.md
+  - problems/navier-stokes/theorem-construction/mpp-pctp5c-kc-place-noncircularity-audit-note-20260503.md
+  local_cm_route_discharged: true
+  local_cm_route_note: SourcePulseCMExit.A remains discharged by retained-field tower anchoring; the full-route PCTP.5.C branch-native Jump_avg elimination is not discharged.
+  live_theorem_edge_present: true
+  live_theorem_edge_branch_count: 0
+  live_theorem_edge_blocked_count: 1
+submission_blockers:
+- PCTP.5.C / SOURCE.NO-PULSE.A / AWG.A branch-native Jump_avg elimination
