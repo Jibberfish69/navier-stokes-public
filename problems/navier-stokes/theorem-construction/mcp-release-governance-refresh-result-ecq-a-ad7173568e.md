@@ -1,6 +1,13 @@
 # Release-Governance Refresh Result
 
-Status: discharged by MCP promotion packet.
+Status: superseded by live source-pulse frontier.
+
+Current live authority blocks release on:
+
+```text
+OriginalSmoothData=>SourcePulseExclusion.A
+OriginalSmoothData=>mu_*^sing=0
+```
 
 ## Refresh result
 
@@ -9,11 +16,11 @@ The release-governance check was run through `proof_promotion_packet` at tier `t
 The returned decision was:
 
 ```text
-status: passed
-decision: release-approved
-promotion_allowed: true
-release_approved: true
-blockers: 0
+status: blocked
+decision: not-release-approved
+promotion_allowed: false
+release_approved: false
+blockers: OriginalSmoothData=>SourcePulseExclusion.A
 ```
 
 ## Passed surfaces
@@ -21,12 +28,12 @@ blockers: 0
 The packet reported the following passed or accepted surfaces:
 
 ```text
-proof-obligation-matrix.yaml: all obligations discharged
-gap-ticket.yaml: passed
-assumption-ledger.yaml: passed
-review-verdict.yaml: accept
-release-decision.yaml: submission-candidate / export-ready
-release-manifest.yaml: passed
+proof-obligation-matrix.yaml: one blocking obligation
+gap-ticket.yaml: blocked by SourcePulseExclusion.A
+assumption-ledger.yaml: conditional support only
+review-verdict.yaml: revise
+release-decision.yaml: blocked / not-export-ready
+release-manifest.yaml: superseded
 ```
 
 The audit records also passed:
