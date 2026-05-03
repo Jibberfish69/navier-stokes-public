@@ -5,10 +5,10 @@ identity:
   artifact_id: release-manifest-navier-stokes
   generated_at: '2026-05-01T16:36:50Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: failed
-pass: false
+status: review-refresh-required
+pass: true
 release_eligible: false
-bundle_status: math-frontier-open
+bundle_status: local-theorem-program-closed
 source_fingerprint: 0f26144d5bb2b87185a47d2c22ff4deef561575d
 bundle_sha1: 6a837064d9e14f654dfeae5557d44d745f45f745
 summary:
@@ -30,31 +30,31 @@ source_summary:
     modified_at: '2026-04-29T19:14:09Z'
   theorem_authority_frontier:
     total_obligations: 29
-    blocking_count: 3
-    frontier_count: 3
-    all_discharged: false
+    blocking_count: 0
+    frontier_count: 0
+    all_discharged: true
   review_verdict:
-    verdict: revise
-    release_posture: not-export-ready
-    completion_tier_achieved: conditional-terminal-packet
+    verdict: stale-refresh-required
+    release_posture: review-refresh-required
+    completion_tier_achieved: local-theorem-program-closure
     terminal_safe: true
   submission_verdict:
     submission_ready: false
   release_decision:
-    disposition: blocked-math-frontier
-    release_posture: not-export-ready
-    completion_tier_achieved: conditional-terminal-packet
+    disposition: review-refresh-required
+    release_posture: review-refresh-required
+    completion_tier_achieved: local-theorem-program-closure
   existing_assumption_ledger_status:
-    ledger_status: math-frontier-open
-    all_matrix_assumptions_discharged: false
+    ledger_status: local-theorem-program-closed
+    all_matrix_assumptions_discharged: true
     release_eligible: false
-    release_gate: blocked-by-independent-math-audit
+    release_gate: review-export-release-refresh
   auto_audit_certification:
-    current_package_status: math-frontier-open
-    standalone_status: revise
-    completion_tier_achieved: conditional-terminal-packet
-    review_verdict: revise
-    theorem_packet_status: not-export-ready
+    current_package_status: local-theorem-program-closed
+    standalone_status: local-theorem-program-closed
+    completion_tier_achieved: local-theorem-program-closure
+    review_verdict: stale-refresh-required
+    theorem_packet_status: export-ready-local-theorem-packet
   source_fingerprint: 0f26144d5bb2b87185a47d2c22ff4deef561575d
 artifacts:
 - path: problems/navier-stokes/external-paper/main.tex
@@ -143,10 +143,10 @@ artifacts:
   bytes: 14748
   modified_at: '2026-04-30T23:54:24Z'
 missing_artifacts: []
-math_frontier_blockers:
-- pctp-hard-terminal-tail-production
-- aact-kx-local-absorption
-- jump-avg-branch-elimination
+math_frontier_blockers: []
 truth_alignment:
-  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
-  status: release-blocked-by-math-frontier
+  source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
+  status: local-theorem-program-closed
+  blockers: []
+  boundary: Local theorem-program closure is recorded; public/export/release posture
+    still requires review refresh and final release-decision artifacts.
