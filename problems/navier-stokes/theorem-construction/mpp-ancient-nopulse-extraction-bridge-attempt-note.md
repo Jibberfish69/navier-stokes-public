@@ -189,6 +189,27 @@ MSC.BadAC
 SOURCE.NO\text{-}PULSE.A.
 ```
 
+At the current route resolution this is not the sharpest surviving
+compactness-side package.  The diagonal/global-product repair has already been
+closed negatively, so the viable descendants beneath `MSC.BadAC` are:
+
+```math
+LocalSource.NoPulse.A,
+```
+
+or, on the localized ancestry side,
+
+```math
+ParentConcentrationOrDiffuseCharge.A+BackwardDrainFunctional.A
+```
+
+or
+
+```math
+ParentConcentrationOrDiffuseCharge.A
++BoundedAncestryClass.A+SourceResidueLiouville.A.
+```
+
 ## Verdict
 
 The compactness route does not yet solve the no-pulse atom.  It splits into two
@@ -241,4 +262,10 @@ MSC.BadAC.
 Here `DiagDom.A` would recover a diagonal local carrier from the global product,
 which would still need `Ancient.NoPulse^{src}`.  `LocalSource.NoPulse.A`
 bypasses the global product and proves the branch-native no-pulse theorem
-directly on the pre-Cauchy same-fluid source packet.
+directly on the pre-Cauchy same-fluid source packet.  The later
+localized-core/ancestry notes then sharpen the second branch further: once a
+source-residue pulse packet is kept physical, the remaining theorem-facing
+ancestor closures are
+`ParentConcentrationOrDiffuseCharge.A+BackwardDrainFunctional.A` or
+`ParentConcentrationOrDiffuseCharge.A+BoundedAncestryClass.A+SourceResidueLiouville.A`,
+not the older coarse `SourceParent.Measure` package.
