@@ -40,16 +40,15 @@ resolved_blockers:
 - collar-to-jump-converse-pivot
 - h1-h2-h6-endpoint-upgrade
 remaining_release_gates:
-- Refresh review/export/release surfaces against the current local theorem-program
-  closure; no active local math frontier.
+- Prove `PCTP.5.C / SOURCE.NO-PULSE.A / AWG.A` by eliminating branch-native
+  `Jump_avg` without assuming `Field_avg`.
 side_sandbox_status:
   hfg_low: threshold-discharged
   hfg_alt: no-free-gap; surviving primitive is MEG
 claim_boundary:
-  current_safe_claim: Local theorem-program closure is recorded. SourcePulseCMExit.A
-    is discharged by retained-field tower anchoring; OriginalSmoothData=>SourcePulseExclusion.A
-    remains nonblocking stronger supplier context. Public release/submission claims
-    require refreshed review/export/release artifacts.
-  first_unsafe_overclaim: Treating local theorem-program closure as independent public
-    validation, whole-space R^3 closure, or final release approval without the final
-    release-decision artifact.
+  current_safe_claim: Local class-membership closure is recorded. SourcePulseCMExit.A
+    is discharged by retained-field tower anchoring; full MPP promotion remains
+    blocked at `PCTP.5.C / SOURCE.NO-PULSE.A / AWG.A`.
+  first_unsafe_overclaim: Treating retained-field `KC.Place_ret` or local CM-exit
+    closure as branch-native `Jump_avg` elimination, whole-space R^3 closure, or
+    final release approval.
