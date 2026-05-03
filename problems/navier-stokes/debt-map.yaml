@@ -207,6 +207,7 @@ debt_items:
   - theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
   - theorem-construction/mpp-sourcepulse-knowncriterion-placement-boundary-audit-note-20260503.md
   - theorem-construction/mpp-pctp5c-kc-place-noncircularity-audit-note-20260503.md
+  - theorem-construction/mpp-pctp5c-signedlocal-javg-live-target-stack-20260503.md
   debt_class: blocked-frontier
   recommended_stage: theorem-repair
   rationale: The retained-field known-criteria route is conditional on field/coherence
