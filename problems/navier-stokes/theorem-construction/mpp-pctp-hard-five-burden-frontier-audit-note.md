@@ -17,6 +17,14 @@ OriginalSmoothData
 
 The active frontier is exactly the following five-cell burden.
 
+Against the governing contrapositive primitive
+`SourcePulseCMExit.A`, the entire `PCTP.5.*` stack is downstream. In this note
+the words `upstream` and `downstream` refer only to the internal order of the
+averaged terminal-tail consumer route. In particular,
+`AWG.A / SOURCE.NO-PULSE.A` is not being promoted back to an upstream
+route-governing source-pulse primitive here; it survives only as the
+downstream source-side theorem consumed by `PCTP.5.C`.
+
 ## PCTP.5.A — terminal-tail production
 
 Prove
@@ -206,6 +214,10 @@ The active averaged-route primitive is now exactly:
 ```math
 \boxed{PCTP.5.C:\ OriginalSmoothData\Longrightarrow AWG.A/SOURCE.NO\text{-}PULSE.A}
 ```
+
+This is a primitive only for the downstream averaged `PCTP.hard` consumer
+route. It is not upstream of `SourcePulseCMExit.A`, which is already
+discharged locally.
 
 which gives
 
