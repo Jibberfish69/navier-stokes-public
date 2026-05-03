@@ -124,27 +124,23 @@ The current repo does not install either `AncestryCompactBound.A` or
 The ancestry route therefore closes only conditionally:
 
 ```math
-MSC.DiagTether^{src}
+ParentConcentrationOrDiffuseCharge.A
 +
-SourceParent.Measure
-+
-AncestryDrain.A
+BackwardDrainFunctional.A
 \Longrightarrow
-MSC.BadAC,
+SourcePulseExclusion.A,
 ```
 
 or
 
 ```math
-MSC.DiagTether^{src}
+ParentConcentrationOrDiffuseCharge.A
 +
-SourceParent.Measure
-+
-AncestryCompactBound.A
+BoundedAncestryClass.A
 +
 SourceResidueLiouville.A
 \Longrightarrow
-MSC.BadAC.
+SourcePulseExclusion.A.
 ```
 
 Equivalently, one may bypass the ancestry chain entirely with the direct local
@@ -160,19 +156,23 @@ pulse.}
 ## Verdict
 
 `Ancestral.NoPulse^{src}` is not solved from the installed compactness,
-same-fluid, local-energy, or source-parent framework.
+same-fluid, local-energy, or source-parent framework.  The older
+`SourceParent.Measure` label is now only an intermediate parent-measure layer:
+`mpp-sourceparent-edge-disintegration-and-antidiffuse-split-note.md` reduces it
+to `EdgeDisintegrate.A+AntiDiffuseParent.A`, and the direct attempt sharpens
+the live parent theorem further to `ParentConcentrationOrDiffuseCharge.A`.
 
 The live ancestry branch now has two exact missing atoms:
 
 ```math
 \boxed{
-SourceParent.Measure
+ParentConcentrationOrDiffuseCharge.A
 }
 \qquad\text{and}\qquad
 \boxed{
-AncestryDrain.A
+BackwardDrainFunctional.A
 \ \text{or}\
-(AncestryCompactBound.A+SourceResidueLiouville.A).
+(BoundedAncestryClass.A+SourceResidueLiouville.A).
 }
 ```
 
@@ -180,13 +180,11 @@ The shortest theorem-facing replacement is:
 
 ```math
 \boxed{
-MSC.DiagTether^{src}
+ParentConcentrationOrDiffuseCharge.A
 +
-SourceParent.Measure
-+
-AncestryDrain.A
+BackwardDrainFunctional.A
 \Longrightarrow
-MSC.BadAC.
+SourcePulseExclusion.A.
 }
 ```
 
