@@ -5,33 +5,34 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-05-01T21:33:03Z'
+  extracted_at: '2026-05-03T18:53:37Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
     theorem_target: full-MPP periodic Clay closure via terminal promotion from the
       installed Theorem 2.1 class-membership warrant
-    current_package_status: full-mpp-closure-ready
-    support_basis: Recovered source support converged with the speculative branch,
-      so the next safe move is a grounded backbone rebuild.
-    standalone_status: accept
+    current_package_status: blocked-by-pctp5c-jumpavg-elimination
+    support_basis: Live route authority records the retained-field tower anchoring
+      closure as discharging the route-governing `SourcePulseCMExit.A` primitive.
+      The remaining full-route blocker is downstream `PCTP.5.C`, equivalently
+      `SOURCE.NO-PULSE.A` / `AWG.A`; the broad attack surface is
+      `SourcePulseKnownCriterionPlacement.A`.
+    standalone_status: theorem-open-at-pctp5c
 supporting_sections:
   reviewer_risks:
   - 'Do not overclaim beyond the lowest safe theorem surface: The official Clay target
     allows either the whole-space branch on `R^3` or the periodic branch on `T^3`.'
   - 'First unsafe overclaim to avoid: Replacing the official Clay statement by a weaker
     route-local or data-class-local statement.'
-  - Keep the full-MPP closure tied to the periodic Clay terminal-promotion theorem,
-    the grounded proof-obligation matrix, and the official `T^3` zero-force branch.
+  - Keep the full-MPP closure tied to the periodic Clay terminal-promotion theorem
+    and the official `T^3` zero-force branch; do not promote nonblocking `SourcePulseExclusion.A`
+    supplier context into a live blocker.
   required_local_explanations: []
-  post_release_theorem_upgrade_gaps:
-  - 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem 2.1
-    class-membership warrant eliminates every first finite classical endpoint for
-    arbitrary smooth divergence-free zero-mean data on T^3.'
+  post_release_theorem_upgrade_gaps: []
   promotion_rule:
-  - Promote beyond `revise` only because the proof-obligation matrix is fully grounded
-    and the periodic Clay terminal-promotion theorem is now the active full-MPP closure
-    surface.
+  - Do not promote beyond local theorem-program closure into public release/submission
+    claims until the review/export/release artifacts are refreshed against the current
+    theorem packet.
   - Keep the lowest safe claim explicit and do not let recovered speculative material
     masquerade as a proved bridge.
   - Re-run honesty-review only after the local package has real prose and an explicit
@@ -193,74 +194,32 @@ debt_items:
 - debt_id: debt-periodic-clay-terminal-promotion-bridge
   label: Periodic Clay terminal-promotion bridge
   source_section: proof-debt-ledger
-  monograph_status: grounded by `PCTP.A` and the proof-obligation matrix; full-MPP
-    theorem-upgrade target discharged
+  monograph_status: consumed by retained-field tower anchoring and terminal-consumption
+    closure for the local theorem-program route
   standalone_need: 'no'
   primary_anchors:
   - theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md
   - problems/navier-stokes/assumption-ledger.yaml
   - theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
   - problems/navier-stokes/source-frontier.yaml
+  - theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
   debt_class: packaging
-  recommended_stage: prose-realization
-  rationale: The ledger says the material already exists in a grounded, proved, or
-    discharged form, so the remaining work is localization, exposition, or packaging.
-  derivation_state: localized-support
+  recommended_stage: review-refresh
+  rationale: The bridge is consumed in the current local theorem-program closure;
+    remaining work is review/export synchronization, not theorem invention.
+  derivation_state: localized-proof
   support_strength: strong
-  source_scope_status: settled-ledger
+  source_scope_status: closed-local-theorem-program
   priority_rank: 6
-- debt_id: debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
-  label: 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem
-    2.1 class-membership warrant eliminates every first finite classical endpoint
-    for arbitrary smooth divergence-free zero-mean data on T^3.'
-  source_section: post-release-theorem-upgrade
-  monograph_status: reopened from post-release theorem-upgrade plan
-  standalone_need: 'yes'
-  primary_anchors:
-  - problems/navier-stokes/post-release-plan.yaml
-  debt_class: packaging
-  recommended_stage: prose-realization
-  rationale: The post-release plan says this gap remains outside the accepted checkpoint
-    package, so it must stay on the theorem-upgrade path instead of being demoted
-    to packaging debt.
-  priority_rank: 7
-  derivation_state: localized-support
-  derivation_attempts: 1
+  derivation_attempts: 0
   attempts_without_new_support: 0
-  last_derivation_run_id: debt-derive-navier-stokes-20260429T213615Z
-  support_strength: strong
-  evidence_paths:
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/claim-ladder.md
-  - problems/navier-stokes/obstruction-capture.md
-  new_evidence_paths:
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/claim-ladder.md
-  - problems/navier-stokes/obstruction-capture.md
-  source_sufficiency: sufficient
-  source_scope_status: proof-obligation-grounded
-  source_checks: 1
-  reclassified_from: local-derivable
 summary:
   counts_by_class:
-    packaging: 7
+    packaging: 6
     local-derivable: 0
     branch-choice: 0
     blocked-frontier: 0
-  recommended_next_cell_type: solver-loop
-  recommended_next_action: Packaging debt is the only visible remainder, so run solver-loop
-    first and freeze the source-grounded theorem frontier before any more prose.
-  recommended_debt_ids:
-  - debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
-  - debt-one-field-forward-preservation-wall
-  - debt-lower-carrier-receiver-wall
-  - debt-collar-to-jump-converse-pivot
-  - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
-  - debt-periodic-clay-terminal-promotion-bridge
-  - debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
+  recommended_next_cell_type: review-refresh
+  recommended_next_action: Refresh review/export/release surfaces against the current
+    local theorem-program closure.
+  recommended_debt_ids: []
