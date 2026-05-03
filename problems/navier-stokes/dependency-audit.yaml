@@ -4,40 +4,43 @@ identity:
   problem_id: navier-stokes
   artifact_id: dependency-audit-navier-stokes
   created_by: release_surface_reconciler
-  purpose: dependency audit reconciled from closed proof-obligation matrix
-generated_at: '2026-05-01T16:36:50Z'
+  purpose: dependency audit reconciled from live proof-obligation matrix
+generated_at: '2026-05-03T17:29:26Z'
 status:
-  audit_status: dependency-graph-closed
-  pass: false
-  route_pass: false
+  audit_status: dependency-graph-closed-local-theorem-program
+  pass: true
+  route_pass: true
   release_eligible: false
-pass: false
+pass: true
 source:
   theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
   review_verdict: problems/navier-stokes/review-verdict.yaml
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
   release_decision: problems/navier-stokes/release-decision.yaml
 summary:
-  total_obligations: 25
-  blocking_count: 3
+  total_obligations: 26
+  blocking_count: 0
   bridge_pending_count: 0
   unresolved_count: 0
-  all_discharged: false
+  all_discharged: true
 blocking_dependencies: []
+current_direct_supplier_targets:
+- OriginalSmoothData=>SourcePulseExclusion.A (nonblocking strong supplier context)
 findings:
-- The current proof-obligation matrix reports no blocking obligations.
-- Release blocking dependency counts are reconciled to the accepted matrix and terminal
-  release decision.
+- The current proof-obligation matrix reports no blocking mathematical obligation
+  at the local theorem-program layer.
+- SourcePulseCMExit.A is discharged by retained-field tower anchoring; SourcePulseDTCPlacement.A
+  and native positive source-measure forms remain stronger supplier-side context only.
 verdict:
   dependency_graph_closed: true
   dependency_direction_clean: true
-  clay_release_dependency_status: closed
-required_for_release: []
-
+  clay_release_dependency_status: local-theorem-program-closed-review-refresh-required
+required_for_release:
+- Refresh review/export/release artifacts before any public release claim.
 truth_alignment:
-  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
-  status: math-frontier-open
-  blockers:
-  - pctp-hard-terminal-tail-production
-  - aact-kx-local-absorption
-  - jump-avg-branch-elimination
+  source: problems/navier-stokes/theorem-construction/mpp-contrapositive-terminal-consumption-closure-note-20260503.md
+  status: local-theorem-program-closed
+  blockers: []
+  current_direct_supplier_targets:
+  - OriginalSmoothData=>SourcePulseExclusion.A (nonblocking strong supplier context)
+  active_measure_form: none-active at local theorem-program layer
