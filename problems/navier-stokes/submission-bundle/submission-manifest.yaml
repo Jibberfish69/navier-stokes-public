@@ -2,24 +2,26 @@
 version: 1
 problem_id: navier-stokes
 display_name: Navier-Stokes Global Regularity
-generated_at: '2026-05-01T22:36:49Z'
+generated_at: '2026-05-03T18:55:58Z'
 manuscript_source: problems/navier-stokes/external-paper/main.tex
 manuscript_source_kind: tex
 manuscript_source_reason: campaign-status.current_manuscript_surface.external_surface
 source_metrics:
   source_word_count: 753
-  bundle_word_count: 1836
+  bundle_word_count: 1918
   primary_surface_word_count: 838
-  theorem_packet_word_count: 3415
+  theorem_packet_word_count: 3506
 submission_metadata: problems/navier-stokes/submission-metadata.yaml
 outputs:
   tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-58a5bddadd50
-  route_signature: 58a5bddadd502d2dc76116be6a2fca29c1a09251
+  surface_id: theorem-surface-navier-stokes-35dc33398f11
+  route_signature: 35dc33398f11201f8e22a46c49f4016a5bbd7f1e
   slot_ids:
-  - warrant-theorem-2.1
+  - marvin-upstream-eb3fabeeac46
+  - marvin-upstream-ada9835aa864
+  - marvin-upstream-6d929e8a052a
 copied_artifacts:
   theorem_packet: problems/navier-stokes/submission-bundle/theorem-packet.yaml
   submission_verdict: problems/navier-stokes/submission-bundle/submission-verdict.yaml
