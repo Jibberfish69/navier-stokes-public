@@ -4,20 +4,22 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-05-03T19:12:32Z'
+  evaluated_at: '2026-05-03T19:14:08Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
-  disposition: respawn
-  release_posture: revise-loop
+  disposition: blocked
+  release_posture: export-ready
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: route-complete
-  next_cell_type: solver-loop
-  next_stage: checkpoint-resumed
-  next_action: The current package is only a lower-tier checkpoint, so resume solver-loop
-    and keep pushing theorem obligations toward full closure before more publication-only
-    compression.
-  rationale: Honesty review did not clear the package for release, so work returns
-    upstream on the typed respawn target.
+  completion_tier_achieved: paper-complete-theorem-open
+  next_cell_type:
+  next_stage: accepted-nonterminal-hold
+  next_action: Hold the accepted checkpoint package as a stable nonterminal paper.
+    Do not rerun honesty-review or reopen theorem search automatically; only resume
+    after an explicit theorem-upgrade request, a real theorem-bearing source delta,
+    or a manuscript/export change.
+  rationale: The package is an accepted export-ready checkpoint, but the remaining
+    barrier is full-MPP closure or target fidelity on the original object rather than
+    a local paper repair. Prime parks it instead of relooping review/release.
 artifacts:
   draft:
   draft_v6: problems/navier-stokes/draft-v6.md
@@ -31,25 +33,23 @@ artifacts:
   review_log: problems/navier-stokes/review-log.md
   review_verdict: problems/navier-stokes/review-verdict.yaml
 blockers:
-- A theorem packet exists, but it is still incomplete, so prose alone cannot count
-  as real paper progress.
-- The local package is stable enough to review, and `draft-v8.md` now carries real
-  prose, but it is still a revise-stage draft rather than an export-ready paper.
-- The `draft-v7.md` surface is now a prose artifact, so this pass can review a real
-  package rather than only planning notes.
-- 'This matches the previous review posture: the route is viable locally, but stand-alone
-  export is still premature.'
-- The theorem route is coherent, but the package is not yet compressed into a safe
-  stand-alone paper surface.
-- 'Theorem-packet blocker: There are 1 frontier or route-choice blockers still inside
-  the theorem packet.'
+- The theorem packet localizes definitions, lemma surfaces, theorem statement, and
+  proof dependencies strongly enough to support export-facing review.
+- The local package is stable enough to review, and `draft-v8.md` now serves as the
+  export-ready paper source for this package.
+- The `draft-v7.md` surface is now a live manuscript artifact aligned with the current
+  export-ready bundle.
+- The current package is coherent enough to stand as a real paper, but the remaining
+  barrier is still an unresolved theorem burden rather than a manuscript defect.
 - 'Target fidelity failure: authoritative lane overlays still mark the full-claim
   package as conditional, externally overridden, blocked, or burdened by open critical
   objections.'
 - There are 1 frontier or route-choice blockers still inside the theorem packet.
-- Completion tier is still `route-complete`, below a paper-complete or full-closure
-  submission surface.
-- Honesty review verdict is still `revise`.
+- 'Completion tier is `paper-complete-theorem-open`: the manuscript/export stack is
+  paper-complete, but unresolved theorem burdens still block terminal submission.'
+- Clear the authoritative nonterminal overlays by discharging the blocked theorem
+  bridges or keeping the package explicitly nonterminal.
 summary:
-  queue_effect: ready
-  registry_note: problem is re-queued on the upstream stage named by the review verdict
+  queue_effect: blocked
+  registry_note: problem is parked at an accepted nonterminal checkpoint until an
+    explicit theorem-upgrade or material theorem delta appears
