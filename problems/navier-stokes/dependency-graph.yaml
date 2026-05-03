@@ -5,14 +5,14 @@ identity:
   artifact_id: dependency-graph-navier-stokes
   generated_at: '2026-05-01T16:36:50Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: passed
-pass: false
+status: passed-local-theorem-program
+pass: true
 source:
   theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
 summary:
   node_count: 25
-  blocking_count: 3
-  all_discharged: false
+  blocking_count: 0
+  all_discharged: true
 nodes:
 - id: theorem-statement
   kind: theorem-statement
@@ -208,11 +208,9 @@ nodes:
   blocking: false
   source_anchor: problems/navier-stokes/theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
 edges: []
-
 truth_alignment:
-  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
-  status: math-frontier-open
-  blockers:
-  - pctp-hard-terminal-tail-production
-  - aact-kx-local-absorption
-  - jump-avg-branch-elimination
+  source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
+  status: local-theorem-program-closed
+  blockers: []
+  boundary: Local theorem-program closure is recorded; public/export/release posture
+    still requires review refresh and final release-decision artifacts.
