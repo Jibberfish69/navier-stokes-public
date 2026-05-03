@@ -5,16 +5,16 @@ identity:
   display_name: Navier-Stokes Global Regularity
   generated_at: '2026-05-01T21:54:56Z'
   generator: system/runner/lib/lane_classification_builder.rb
-mode: proof-present-local-theorem-program-closed
+mode: proof-present-theorem-open-at-pctp5c
 source_authority: authoritative-external
 proof_present: true
-theorem_search_required: false
+theorem_search_required: true
 paperization_required: true
 signals:
-  default_mode: local-theorem-program-closed
+  default_mode: theorem-open-at-pctp5c
   proof_bearing_source: true
   manuscript_classification: proof-manuscript
-  blocking_count: 0
-  theorem_upgrade_required: false
+  blocking_count: 1
+  theorem_upgrade_required: true
   source_note_count: 1
   paper_quality_pass: true
