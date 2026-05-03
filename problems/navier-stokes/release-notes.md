@@ -1,5 +1,15 @@
 # Navier--Stokes Periodic Release Notes
 
+## Supersession
+
+These release notes are not current release authority.  The live theorem stack
+is blocked by:
+
+```text
+OriginalSmoothData=>SourcePulseExclusion.A
+OriginalSmoothData=>mu_*^sing=0
+```
+
 ## Release scope
 
 This release is scoped to the periodic branch on `T^3`:
@@ -47,11 +57,11 @@ problems/navier-stokes/external-paper/periodic-appendix-bundle.md
 The MCP promotion packet reports:
 
 ```text
-status: passed
-decision: release-approved
-promotion_allowed: true
-release_approved: true
-blockers: 0
+status: blocked
+decision: not-release-approved
+promotion_allowed: false
+release_approved: false
+blockers: OriginalSmoothData=>SourcePulseExclusion.A
 ```
 
 The release manifest is:
