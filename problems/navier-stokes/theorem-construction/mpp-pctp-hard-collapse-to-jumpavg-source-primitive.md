@@ -10,6 +10,12 @@ elimination theorem is supplied. The direct `Pack.TTU` route remains a valid
 fallback route, but it is not the next active primitive under the installed
 TGC/AACT/AVG/READ assembly.
 
+Against the governing contrapositive primitive `SourcePulseCMExit.A`, the whole
+note is downstream. The phrase `source primitive` in this note means only the
+remaining source-side input internal to the averaged `PCTP.hard` consumer
+route. It does not mean the route-governing source-pulse primitive for the
+class-membership contradiction program.
+
 ## Inputs
 
 Use the installed support chain:
@@ -68,6 +74,10 @@ current active primitive to:
 ```math
 OriginalSmoothData\Longrightarrow AWG.A.
 ```
+
+Again, this is the active primitive only for the downstream averaged
+terminal-tail route; it is not upstream of the already-discharged
+`SourcePulseCMExit.A`.
 
 ## Proof
 
