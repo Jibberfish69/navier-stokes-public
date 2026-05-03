@@ -16,6 +16,10 @@ This note checks the legal order of the terminal-good-cover branch used in
 TGC.A+AACT.Global.noJump+AVG.END.A+READ.END\Longrightarrow PCTP.hard.
 ```
 
+Here `upstream` means upstream of `End_NS_avg` and `READ.END` inside the
+downstream `PCTP.hard` consumer route only. It does not mean upstream of the
+governing contrapositive primitive `SourcePulseCMExit.A`.
+
 ## Source anchors
 
 | Surface | SHA |
