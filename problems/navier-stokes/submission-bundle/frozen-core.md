@@ -24,6 +24,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - one-field forward-preservation wall (`lemma`; `debt-one-field-forward-preservation-wall`)
 - lower-carrier receiver wall (`lemma`; `debt-lower-carrier-receiver-wall`)
 - collar-to-jump converse pivot (`lemma`; `debt-collar-to-jump-converse-pivot`)
+- Periodic Clay terminal-promotion bridge (`lemma`; `debt-periodic-clay-terminal-promotion-bridge`)
 
 ## Source Frontier
 
