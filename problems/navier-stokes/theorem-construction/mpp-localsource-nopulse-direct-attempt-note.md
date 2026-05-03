@@ -154,14 +154,17 @@ the local-source theorem is supposed to eliminate.
 
 ## Reduction
 
-The pre-Cauchy bypass has now been reduced to one of the following genuine
-no-pulse atoms:
+The pre-Cauchy bypass has now split into two direct local mechanism spellings
 
 ```math
 LocalStrainDepletion.A,
 \qquad
 LocalActiveCarleson.A,
-\qquad
+```
+
+and two sharper theorem-facing descendants
+
+```math
 QDrain.A,
 \qquad
 MSC.BadAC.
@@ -197,15 +200,16 @@ Equivalently, the shortest remaining local-source burdens are:
 
 ```math
 \boxed{
-LocalStrainDepletion.A
-\quad\text{or}\quad
-LocalActiveCarleson.A
-\quad\text{or}\quad
 QDrain.A
 \quad\text{or}\quad
 MSC.BadAC.
 }
 ```
+
+The local mechanism spellings `LocalStrainDepletion.A` and
+`LocalActiveCarleson.A` remain on record as direct presentations of the same
+no-pulse burden, but they are not sharper theorem-facing descendants than
+`QDrain.A` and `MSC.BadAC`.
 
 ## Final Collapse Update
 
