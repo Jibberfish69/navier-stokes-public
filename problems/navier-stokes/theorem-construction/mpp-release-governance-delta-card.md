@@ -3,15 +3,17 @@
 ## Current State
 
 ```text
-proof matrix: no unresolved frontier
-theorem packet: export_ready
-source frontier: no active labels
-release boundary: still governed by target fidelity, source/export review, review verdict, reproducibility, final decision
+proof matrix: unresolved frontier present
+active theorem: OriginalSmoothData=>SourcePulseExclusion.A
+measure form: OriginalSmoothData=>mu_*^sing=0
+theorem packet: not export_ready for full MPP closure
+source frontier: active source-pulse terminal primitive
+release boundary: blocked by mathematics before target fidelity/export/review/reproducibility/final decision
 ```
 
 ## MCP Frontier Recheck
 
-The MCP frontier packet reports the promoted frontier as release/governance
+Earlier MCP frontier packets reported the promoted frontier as release/governance
 hold, not a new theorem burden:
 
 ```text
@@ -20,9 +22,18 @@ signal: steady
 burden: release_hold
 ```
 
-Therefore no new theorem solve branch is opened from this check.
+That report is superseded by the live source-frontier and proof-obligation
+matrix, which both retain the source-pulse terminal primitive.  The active
+theorem work is not governance; it is the singular native positive source
+defect:
+
+```text
+OriginalSmoothData=>SourcePulseExclusion.A
+NativeTrilinearDefectDomination.A
+OriginalSmoothData=>mu_*^sing=0
+```
 
 ## Boundary
 
-This card records governance posture only. It does not convert export readiness
-into a public proof or release claim.
+This card records route posture only. It does not convert conditional packets
+or stale export snapshots into a proof/release claim.
