@@ -4,25 +4,23 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   formalization_id: object-formalization-navier-stokes
-  generated_at: '2026-04-29T21:34:24Z'
+  generated_at: '2026-05-03T18:51:39Z'
   generator: system/runner/lib/object_formalization_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_frontier_id: source-frontier-navier-stokes
   source_assembly_id: proof-assembly-navier-stokes
 target:
-  obligation_id: debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
-  label: 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem
-    2.1 class-membership warrant eliminates every first finite classical endpoint
-    for arbitrary smooth divergence-free zero-mean data on T^3.'
-  kind: blocked-frontier
+  obligation_id: debt-periodic-clay-terminal-promotion-bridge
+  label: Mutate the route locally so that periodic Clay terminal-promotion bridge
+    can be pursued without reopening the theorem target.
+  kind: branch-choice
 formalization_packet:
   object_id: formal-object-route_mutation_carrier
   object_name: route_mutation_carrier
   object_role: local formalization object
-  theorem_role: 'Make `Periodic Clay terminal-promotion bridge: prove that the installed
-    Theorem 2.1 class-membership warrant eliminates every first finite classical endpoint
-    for arbitrary smooth divergence-free zero-mean data on T^3.` exact enough that
-    later discharge can test it locally.'
+  theorem_role: Make `Mutate the route locally so that periodic Clay terminal-promotion
+    bridge can be pursued without reopening the theorem target.` exact enough that
+    later discharge can test it locally.
   machine_boundary: This packet is machine-derived beyond the frozen core and must
     stay quarantined until later discharge promotes it.
   slots:
@@ -56,41 +54,28 @@ formalization_packet:
   problem_hint: Keep the object classical. Do not smuggle in modified-equation structure.
 grounded_basis:
   labels:
-  - Global energy or enstrophy control is necessary but not sufficient -> The live
-    obstruction is the small-scale or high-frequency cascade that feeds blow-up
-  - The live obstruction is the small-scale or high-frequency cascade that feeds blow-up
-    -> A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
-    transfer on the chosen torus-first theorem surface
-  - A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
-    transfer on the chosen torus-first theorem surface -> The monotone functional
-    must stabilize the global energy/enstrophy layer and enable the compactness package
-    on that same periodic classical surface
-  - The monotone functional must stabilize the global energy/enstrophy layer and enable
-    the compactness package on that same periodic classical surface -> The scale-barrier
-    plus monotone-functional input must yield strong local compactness and nonlinear
-    tensor closure on the periodic/operator approximation family
-  - The scale-barrier plus monotone-functional input must yield strong local compactness
-    and nonlinear tensor closure on the periodic/operator approximation family ->
-    A heat-governed deformation or continuation bridge must force continuation control
-    on the same periodic theorem surface
-  - A heat-governed deformation or continuation bridge must force continuation control
-    on the same periodic theorem surface -> If the scale-barrier, monotone-functional,
-    compactness, and continuation packages all hold on the active periodic branch,
-    then the periodic Clay branch with `f = 0` follows; any whole-space statement
-    on `R^3` is a downstream discharge theorem, not the internal branch itself
+  - 'Define or prove: Formalized the refined direct Lagrangian route as a six-lemma
+    mainline: differentiated Lagrangian decomposition, deformation-adapted energy,
+    ellipticity window, coefficient-commutator absorption, no-loss pressure recovery, '
+  - 'Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md with a
+    geometry-testing ladder for the elliptic test field W_test = A^T grad Phi solving
+    -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1)
+    ene'
+  - Global energy or enstrophy control is necessary but not sufficient
+  - one-field forward-preservation wall
+  - lower-carrier receiver wall
+  - collar-to-jump converse pivot
   obligation_ids:
-  - proof-dependency-4
-  - proof-dependency-5
-  - proof-dependency-6
-  - proof-dependency-7
-  - proof-dependency-8
-  - proof-dependency-9
+  - marvin-upstream-c8f7cb511776
+  - marvin-upstream-e2f5b0a915cf
+  - debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
+  - debt-one-field-forward-preservation-wall
+  - debt-lower-carrier-receiver-wall
+  - debt-collar-to-jump-converse-pivot
 summary:
   formalization_ready: true
   recommended_next_cell_type: dependency-discharge
-  recommended_next_action: 'Use the object-formalization packet for `Periodic Clay
-    terminal-promotion bridge: prove that the installed Theorem 2.1 class-membership
-    warrant eliminates every first finite classical endpoint for arbitrary smooth
-    divergence-free zero-mean data on T^3.` as the bounded tactic switch, then rerun
-    dependency-discharge on the same obligation instead of reopening another generic
-    backbone loop.'
+  recommended_next_action: Use the object-formalization packet for `Mutate the route
+    locally so that periodic Clay terminal-promotion bridge can be pursued without
+    reopening the theorem target.` as the bounded tactic switch, then rerun dependency-discharge
+    on the same obligation instead of reopening another generic backbone loop.
