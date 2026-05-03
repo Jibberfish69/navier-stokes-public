@@ -15,8 +15,9 @@ posture:
     support_basis: Live route authority records the retained-field tower anchoring
       closure as discharging the route-governing `SourcePulseCMExit.A` primitive.
       The remaining full-route blocker is downstream `PCTP.5.C`, equivalently
-      `SOURCE.NO-PULSE.A` / `AWG.A`; the broad attack surface is
-      `SourcePulseKnownCriterionPlacement.A`.
+      `SOURCE.NO-PULSE.A` / `AWG.A`; the retained-field known-criteria route is
+      conditional, and the sharp branch-native targets are `SignedLocalSource.A`,
+      `LocalSource.NoPulse.A`, or the same-carrier `JAVG.1+JAVG.2` pair.
     standalone_status: theorem-open-at-pctp5c
 supporting_sections:
   reviewer_risks:
@@ -194,32 +195,39 @@ debt_items:
 - debt_id: debt-periodic-clay-terminal-promotion-bridge
   label: Periodic Clay terminal-promotion bridge
   source_section: proof-debt-ledger
-  monograph_status: consumed by retained-field tower anchoring and terminal-consumption
-    closure for the local theorem-program route
-  standalone_need: 'no'
+  monograph_status: conditional on `PCTP.5.C / SOURCE.NO-PULSE.A / AWG.A`;
+    retained-field tower anchoring closes the local CM-exit branch, but full
+    terminal-tail production still needs branch-native `Jump_avg` elimination.
+  standalone_need: 'yes'
   primary_anchors:
   - theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md
   - problems/navier-stokes/assumption-ledger.yaml
   - theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
   - problems/navier-stokes/source-frontier.yaml
   - theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
-  debt_class: packaging
-  recommended_stage: review-refresh
-  rationale: The bridge is consumed in the current local theorem-program closure;
-    remaining work is review/export synchronization, not theorem invention.
-  derivation_state: localized-proof
-  support_strength: strong
-  source_scope_status: closed-local-theorem-program
+  - theorem-construction/mpp-sourcepulse-knowncriterion-placement-boundary-audit-note-20260503.md
+  - theorem-construction/mpp-pctp5c-kc-place-noncircularity-audit-note-20260503.md
+  debt_class: blocked-frontier
+  recommended_stage: theorem-repair
+  rationale: The retained-field known-criteria route is conditional on field/coherence
+    data denied on the raw `Jump_avg` branch. Full route closure requires
+    `SignedLocalSource.A`, `LocalSource.NoPulse.A`, or same-carrier
+    `JAVG.1+JAVG.2` from `OriginalSmoothData`.
+  derivation_state: open
+  support_strength: insufficient
+  source_scope_status: theorem-open-at-pctp5c
   priority_rank: 6
   derivation_attempts: 0
   attempts_without_new_support: 0
 summary:
   counts_by_class:
-    packaging: 6
+    packaging: 5
     local-derivable: 0
     branch-choice: 0
-    blocked-frontier: 0
-  recommended_next_cell_type: review-refresh
-  recommended_next_action: Refresh review/export/release surfaces against the current
-    local theorem-program closure.
-  recommended_debt_ids: []
+    blocked-frontier: 1
+  recommended_next_cell_type: theorem-repair
+  recommended_next_action: Prove branch-native `Jump_avg` elimination through
+    `SignedLocalSource.A`, `LocalSource.NoPulse.A`, or same-carrier `JAVG.1+JAVG.2`;
+    retained `Field`/`Field_avg` cannot be spent on that branch.
+  recommended_debt_ids:
+  - debt-periodic-clay-terminal-promotion-bridge
