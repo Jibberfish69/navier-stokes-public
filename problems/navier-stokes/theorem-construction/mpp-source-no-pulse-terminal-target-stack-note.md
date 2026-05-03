@@ -8,6 +8,22 @@ and the `MSC.BadAC` scheduler countermodel.
 This note lists the next targets and records what was closed before returning
 to the only remaining theorem atom.
 
+## NS 25 Route-Faithfulness Correction
+
+The no-pulse atom below is a strong sufficient supplier, not the primitive
+class-membership theorem shape.  The CM-contrapositive target is:
+
+```math
+\text{terminal source-pulse non-smooth witness}
+\Longrightarrow
+\neg Pack\vee\neg Part\vee\neg Field.
+```
+
+The source-control stack should therefore be read as possible ways to prove or
+exhaust that class-exit classification.  It should not be read as replacing the
+original proof program with an absolute "no terminal source pulse from original
+data" program.
+
 ## Closed In The Current Stack
 
 ### 1. Pressure/source supplier verification
@@ -248,36 +264,51 @@ MSC.DiagTether^{src}+SourceParent.Measure+Ancestral.NoPulse^{src}
 MSC.BadAC.
 ```
 
+That package is now sharpened one more step.  The parent-measure layer is
+reduced by
+
+```math
+EdgeDisintegrate.A+AntiDiffuseParent.A
+\Longrightarrow
+SourceParent.Measure,
+```
+
+and the live ancestry-side parent theorem is
+
+```math
+ParentConcentrationOrDiffuseCharge.A.
+```
+
 The audit `mpp-ancestral-nopulse-source-rigidity-audit-note.md` then splits
 `Ancestral.NoPulse^{src}` into its actual theorem load.  Local compactness
 extracts a local suitable ancient source-residue object; it does not exclude
 that object.  The ancestry branch therefore needs either
 
 ```math
-AncestryDrain.A
+BackwardDrainFunctional.A
 ```
 
 or
 
 ```math
-AncestryCompactBound.A+SourceResidueLiouville.A.
+BoundedAncestryClass.A+SourceResidueLiouville.A.
 ```
 
 Thus the currently sharp ancestry branch is:
 
 ```math
-MSC.DiagTether^{src}+SourceParent.Measure+AncestryDrain.A
+ParentConcentrationOrDiffuseCharge.A+BackwardDrainFunctional.A
 \Longrightarrow
-MSC.BadAC,
+SourcePulseExclusion.A,
 ```
 
 or the Liouville version
 
 ```math
-MSC.DiagTether^{src}+SourceParent.Measure
-+AncestryCompactBound.A+SourceResidueLiouville.A
+ParentConcentrationOrDiffuseCharge.A
++BoundedAncestryClass.A+SourceResidueLiouville.A
 \Longrightarrow
-MSC.BadAC.
+SourcePulseExclusion.A.
 ```
 
 ## Remaining Terminal Target
@@ -286,14 +317,17 @@ The post-collapse live primitive is therefore:
 
 ```math
 \boxed{
-OriginalSmoothData\Longrightarrow SignedLocalSource.A.
+OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 }
 ```
 
-The sharpest current formulation is:
+At the current route resolution this is equivalent to the signed/local source
+form:
 
 ```math
 \boxed{
+OriginalSmoothData\Longrightarrow SourcePulseExclusion.A
+\Longleftrightarrow_{\mathrm{route}}
 OriginalSmoothData\Longrightarrow SignedLocalSource.A.
 }
 ```
@@ -311,10 +345,10 @@ MSC.Localize^{src}+Ancient.NoPulse^{src},
 \qquad
 MSC.Localize^{src}+SourceParent.A+Ancestral.NoPulse^{src},
 \qquad
-MSC.DiagTether^{src}+SourceParent.Measure+AncestryDrain.A,
+ParentConcentrationOrDiffuseCharge.A+BackwardDrainFunctional.A,
 \qquad
-MSC.DiagTether^{src}+SourceParent.Measure
-+AncestryCompactBound.A+SourceResidueLiouville.A,
+ParentConcentrationOrDiffuseCharge.A
++BoundedAncestryClass.A+SourceResidueLiouville.A,
 \qquad
 DiagDom.A+Ancient.NoPulse^{src},
 \qquad
@@ -360,11 +394,11 @@ SOURCE.NO\text{-}PULSE.A.
 }
 ```
 
-So the narrowest live source theorem is now:
+So the narrowest live source theorem is now the active source-pulse label:
 
 ```math
 \boxed{
-OriginalSmoothData\Longrightarrow SignedLocalSource.A.
+OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 }
 ```
 
@@ -383,12 +417,73 @@ or
 The subtarget pass in
 `mpp-positive-residual-reserve-direct-attempt-note.md`,
 `mpp-activesquare-residualtail-final-collapse-note.md`, and
-`mpp-sourcepulse-exclusion-active-target-note.md` collapses those forms to the
-single source-pulse theorem:
+`mpp-sourcepulse-monotone-dominance-final-collapse-note.md`, followed by
+`mpp-activesquare-carleson-direct-collapse-note.md`,
+`mpp-square-source-originaldata-final-collapse-note.md`, and
+`mpp-activeshell-amplitude-gain-final-collapse-note.md`, collapses the signed
+reserve, active-square residual, monotone source-dominance, direct
+active-square Carleson, square-source, and active-shell amplitude forms to the
+single source-pulse theorem recorded in
+`mpp-sourcepulse-exclusion-active-target-note.md`:
+
+The additional mechanism audits
+`mpp-sourcepulse-pressure-vortex-depletion-final-audit-note.md`,
+`mpp-sourcepulse-beltrami-helical-alignment-audit-note.md`, and
+`mpp-sourcepulse-vorticity-direction-coherence-audit-note.md` close the
+pressure-vortex, helical/Beltrami, and vorticity-direction-coherence attempts
+as separate routes: each requires a new terminal active-window depletion or
+coherence theorem and therefore reduces back to the same source-pulse target.
+The localized-drain/pack-strain side is the same kind of sufficient mechanism:
+`mpp-sourcepulse-localized-drain-packstrain-final-audit-note.md` records that
+`mcp-localized-strain-depletion-target-and-partial-criterion-packstrain-crit.md`
+proves the conditional pack-strain criterion, but it does not derive the
+terminal localized `L^1_tL^\infty_x` positive-strain depletion estimate from
+`OriginalSmoothData`; consequently it also reduces back to
+`SourcePulseExclusion.A` / `QDrain.A` rather than closing the atom.
+The parabolic local-energy / CKN mechanism is also only a sufficient language:
+`mpp-sourcepulse-parabolic-local-energy-ckn-audit-note.md` records that CKN
+gives good-scale regularity and endpoint typing, while local energy gives
+balances, but neither excludes source-balanced heat-scale pulses without a new
+`ParabolicNoPulse.A` theorem.
+The compactness / Liouville mechanism is likewise only a sufficient language:
+`mpp-sourcepulse-compactness-liouville-final-audit-note.md` records that it
+requires source-residue localization plus source-residue ancient rigidity
+(`MSC.Localize^{src}+Ancient.NoPulse^{src}`), or the ancestry alternatives,
+before it can exclude the same source-pulse object.
+The viscous-Duhamel mechanism is also only a sufficient language:
+`mpp-sourcepulse-viscous-duhamel-no-pulse-audit-note.md` records that heat
+damping excludes inherited shell energy, not nonlinear source-balanced refill.
+Its needed `ViscousNoRefill.A` theorem is again the source-pulse target.
+The no-hop transport-chain mechanism is also only a sufficient language:
+`mpp-sourcepulse-nohop-transport-chain-audit-note.md` records that local-energy
+iteration does not force finite terminal-chain termination unless summable
+charge/reserve or source-parent control is already supplied.  Its needed
+`NOHOP.A` theorem is again the source-pulse target.
+The irreducible-core ledger
+`mpp-sourcepulse-irreducible-core-and-route-equivalence-note.md` collects these
+equivalences around one terminal source-pulse packet: every audited
+presentation must remove, charge, or rigidify the same active source mass.
+The direct slot attempts
+`mpp-sourcepulse-remove-active-mass-direct-attempt-note.md`,
+`mpp-sourcepulse-charge-active-mass-direct-attempt-note.md`, and
+`mpp-sourcepulse-rigidify-active-mass-direct-attempt-note.md` confirm that none
+of those three jobs is discharged by the installed energy, pressure, dyadic
+exchange, reserve, scheduler, compactness, or source-supplier surfaces.
+The source-recovered monotone-functional route is recorded in
+`mpp-sourcepulse-q-dissipation-dominance-source-recovery-audit-note.md`: the
+old `Q(t)` / scale-barrier language asks for dissipation dominance of the
+nonlinear enstrophy/source term, which is precisely `QDrain.A` /
+`SourcePulseExclusion.A`.
+The classical criteria route is recorded in
+`mpp-sourcepulse-classical-criteria-bkm-serrin-audit-note.md`: BKM,
+Prodi-Serrin, and critical regularity are endpoint consumers, not original-data
+source-pulse suppliers.
 
 ```math
 \boxed{
 OriginalSmoothData\Longrightarrow SourcePulseExclusion.A
+\Longleftrightarrow_{\mathrm{route}}
+OriginalSmoothData\Longrightarrow ActiveShellSourceNormalize.A
 \Longleftrightarrow_{\mathrm{route}}
 OriginalSmoothData\Longrightarrow SignedLocalSource.A.
 }
