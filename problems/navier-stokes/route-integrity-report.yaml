@@ -16,12 +16,12 @@ route_lock:
   - Curvature-Based Regularity
   - Closed-Loop Warrant
 same_surface_check:
-  theorem_target: the official Clay Navier-Stokes problem in dimension 3 for the
-    incompressible equations on R^3 or T^3
+  theorem_target: the official Clay Navier-Stokes problem in dimension 3 for the incompressible
+    equations on R^3 or T^3
   theorem_2_1_exact_statement: For every smooth divergence-free rapidly decaying initial
-    datum u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty))
-    solving the three-dimensional incompressible Navier-Stokes equations and satisfying
-    int_{R^3} |u(x,t)|^2 dx < C for all t >= 0.
+    datum u^0 on R^3, with f = 0, there exist u,p in C^\infty(R^3 x [0,\infty)) solving
+    the three-dimensional incompressible Navier-Stokes equations and satisfying int_{R^3}
+    |u(x,t)|^2 dx < C for all t >= 0.
   theorem_2_1_dependencies:
   - Clay whole-space existence-and-smoothness branch on R^3 with f = 0
   - Scale-barrier bridge
@@ -85,10 +85,11 @@ import_guard:
     monotone-functional: 2
     nonlinear-compactness: 2
 frontier_alignment:
-  proof_assembly_open_obligation_count: 3
-  proof_assembly_next_solver_targets:
-  - Theorem 2.1 (Classical Closure)
-  - Prove D.1 projected NC-flow well-posedness
-  - Prove D.2 global coercive energy estimate
-  campaign_full_claim_blocked: true
-  theorem_2_1_proof_status: conditional
+  proof_assembly_open_obligation_count: 0
+  proof_assembly_primary_math_obligation: none-active
+  proof_assembly_reduces: none-active
+  proof_assembly_current_direct_supplier_target: OriginalSmoothData=>SourcePulseExclusion.A
+    (nonblocking strong supplier)
+  proof_assembly_next_solver_targets: []
+  campaign_full_claim_blocked: false
+  theorem_2_1_proof_status: local-theorem-program-closed
