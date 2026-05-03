@@ -74,7 +74,7 @@ The square-source route would supply the residual-tail estimate if one had
 \int_I |F_j(t)|^2\,dt
 \le
 c\varepsilon\nu^3 2^{3j}|I|
-C\nu^2 2^j2^{-2\delta j}.
++C\nu^2 2^j2^{-2\delta j}.
 ```
 
 But `square-source-shell-flux-estimate-result.md` shows that the universal
