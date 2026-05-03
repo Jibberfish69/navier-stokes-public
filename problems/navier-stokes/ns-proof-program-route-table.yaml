@@ -8,28 +8,29 @@ identity:
     propagated object, target chain, and bridge requirements so progress in one program
     is not silently treated as closure in another.
 primary_objective:
-  status: local-theorem-program-closed
+  status: primitive-seat-repair-required
   proof_polarity: contrapositive_class_membership
-  theorem_program: 'Prove that every genuine PDE non-smooth occurrence exits the local
-    class-membership witness: GenuineNonSmoothOccurrence => not CM_{N,r,Q}.'
+  theorem_program: 'Prove the CM contrapositive primitive: Exit(Q;O_NS^work):=not
+    Member(Q;O_NS^work), witnessed analytically by not CM_{N,r,Q}.'
   cm_witness: CM_{N,r,Q} means Pack_Q plus Part_{N,Q} plus Field_{N,r,Q} on the same-fluid
     family.
-  sourcepulse_frontier_reading: SourcePulseCMExit.A is discharged in the route-governing
-    manifestation sense by retained-field tower anchoring plus the endpoint class-membership
-    rows; SourcePulseExclusion.A remains stronger nonblocking supplier context.
+  sourcepulse_frontier_reading: SourcePulseCMExit.A is a source-pulse manifestation
+    / branch theorem under the CM-exit grammar. It is not the governing CM
+    contrapositive primitive and cannot by itself close Exit(Q):=not Member(Q).
   positive_program_status: Positive or forward estimates are secondary supplier/readout
     programs. They may install, transport, or consume Pack / Part / Field through
     explicit bridge theorems, but they may not replace the contrapositive class-exit
     objective.
 course_correction_protocol:
-  status: inactive-no-open-local-frontier
-  rule: If a new theorem target is introduced later, it must still bridge into Pack,
-    Part, or Field before it can count as CM closure.
+  status: active-primitive-seat-repair
+  rule: Every theorem target must be typed against Exit(Q):=not Member(Q) and the
+    witness split not Pack_Q or not Part_{N,Q} or not Field_{N,r,Q} before it can
+    count as CM closure.
   stale_surface_rewrite: Any surface that names OriginalSmoothData=>SourcePulseExclusion.A
     as a primary obligation should be read as naming the current strong supplier presentation
-    for SourcePulseCMExit.A, not as replacing the CM contrapositive target.
+    for a source-pulse branch, not as replacing the CM contrapositive primitive.
   sourcepulse_reseat:
-    primary_target: none-active; SourcePulseCMExit.A discharged
+    primary_target: quarantined-as-branch-support; full CM primitive re-audit required
     supplier_target: OriginalSmoothData=>SourcePulseExclusion.A (nonblocking stronger
       supplier context)
     required_exit_witness: not Pack_Q or not Part_{N,Q} or not Field_{N,r,Q}
@@ -113,7 +114,7 @@ live_route_table_columns:
 - forbidden_substitutions
 live_route_table:
 - program: class-membership / endpoint-exclusion
-  authority_status: primary live authority; local theorem-program closed
+  authority_status: primary live authority; primitive-seat repair required
   propagated_object: M_Q(u,p) membership witnessed by Pack / Part / Field on same-fluid
     families
   surface:
@@ -122,8 +123,8 @@ live_route_table:
   - problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
   bridge_needed: estimates from other programs must bridge into the exact membership
     object before counting as closure
-  current_open_theorem: none-active; SourcePulseCMExit.A is discharged by retained-field
-    tower anchoring and terminal consumption.
+  current_open_theorem: re-audit Exit(Q):=not Member(Q) against the full witness
+    split; SourcePulseCMExit.A is only branch support.
   allowed_imports: fixed-family, mixed-jet, Lagrangian, selector, and export estimates
     only through named bridge theorems
   forbidden_substitutions: positive smoothness control, readout objects, or one installed
