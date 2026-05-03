@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-05-03T18:51:23Z'
+  generated_at: '2026-05-03T19:10:48Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -53,8 +53,8 @@ frontier_context:
   additional_context_obligations: []
 next_solver_targets: []
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-35dc33398f11
-  route_signature: 35dc33398f11201f8e22a46c49f4016a5bbd7f1e
+  surface_id: theorem-surface-navier-stokes-1c3f5ade309a
+  route_signature: 1c3f5ade309afbd8e08fc830f2e72158762cac78
   theorem_target: full-MPP periodic Clay closure via terminal promotion from the installed
     Theorem 2.1 class-membership warrant
   theorem_statement: The official Clay target allows either the whole-space branch
@@ -103,6 +103,21 @@ theorem_surface:
       lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
       whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
       red'
+    kind: definition
+    status: localized-support
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+    patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - slot_id: marvin-upstream-954339945793
+    label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+      and E_sh(X) vanish identically, so the exact Route '
+    kind: definition
+    status: localized-support
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+    patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  - slot_id: marvin-upstream-96892bab139f
+    label: 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
+      target.'
     kind: definition
     status: localized-support
     source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
@@ -205,5 +220,5 @@ summary:
   synthesis_import_surface_count: 0
   ready_for_submission: false
   active_frontier: PCTP.5.C / SOURCE.NO-PULSE.A / AWG.A
-  high_power_attack_surface: problems/navier-stokes/theorem-construction/mpp-pctp5c-known-criteria-source-nopulse-attack-note-20260503.md
-  theorem_surface_id: theorem-surface-navier-stokes-35dc33398f11
+  high_power_attack_surface: problems/navier-stokes/theorem-construction/mpp-sourcepulse-knowncriterion-placement-boundary-audit-note-20260503.md
+  theorem_surface_id: theorem-surface-navier-stokes-1c3f5ade309a
