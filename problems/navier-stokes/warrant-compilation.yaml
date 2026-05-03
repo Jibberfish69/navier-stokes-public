@@ -63,12 +63,16 @@ campaign_alignment:
 active_frontier:
   open_obligation_count: 1
   next_solver_targets:
-  - Prove the broad placement theorem `SourcePulseKnownCriterionPlacement.A`
-    from `mpp-pctp5c-known-criteria-source-nopulse-attack-note-20260503.md`,
-    which is the high-power route to PCTP.5.C / branch-native Jump_avg elimination
+  - Prove branch-native `Jump_avg` elimination without assuming `Field_avg` on
+    that branch; the sharp targets are `SignedLocalSource.A`,
+    `LocalSource.NoPulse.A`, or the same-carrier `JAVG.1+JAVG.2` pair.
   - Then consume PCTP.hard / TTU.A through the conditional contrapositive terminal-consumption bridge
-  - Keep SourcePulseDTCPlacement.A and OriginalSmoothData=>SourcePulseExclusion.A as nonblocking stronger supplier routes unless explicitly selected
+  - Keep retained-field `KC.Place_ret`, SourcePulseDTCPlacement.A, and
+    OriginalSmoothData=>SourcePulseExclusion.A as conditional/stronger supplier
+    routes unless explicitly selected
   high_power_attack_surface:
+  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-knowncriterion-placement-boundary-audit-note-20260503.md
+  - problems/navier-stokes/theorem-construction/mpp-pctp5c-kc-place-noncircularity-audit-note-20260503.md
   - problems/navier-stokes/theorem-construction/mpp-pctp5c-known-criteria-source-nopulse-attack-note-20260503.md
   exact_current_atom:
   - PCTP.5.C
@@ -79,6 +83,9 @@ active_frontier:
   closed_sourcepulse_by:
   - problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
   current_source_theorem_facing_split:
+  - SignedLocalSource.A
+  - LocalSource.NoPulse.A
+  - JAVG.1+JAVG.2
   - QDrain.A
   - MSC.BadAC
   current_compactness_side_reopenings:
