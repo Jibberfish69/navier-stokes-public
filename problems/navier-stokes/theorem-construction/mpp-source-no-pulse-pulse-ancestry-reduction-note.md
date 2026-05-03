@@ -13,6 +13,12 @@ The route is useful, but it does not start from bare `MSC.BadAC`.  The current
 needs a physical source-residue carrier, so the first input is the sharpened
 localization theorem isolated by the compactness and rigidity audits.
 
+For the localized `SourcePulseExclusion.A` presentation, the child pulse is
+already part of the irreducible core.  The refinement
+`mpp-sourcepulse-localized-core-bypass-of-msclocalize-note.md` records that
+`MSC.Localize^{src}` is only needed for the older global `MSC.BadAC`
+presentation, not for ancestry started from the localized source-pulse core.
+
 ## Starting Point
 
 Assume the source-residue localization theorem:
@@ -169,6 +175,16 @@ signed, positive-carrier, pressure, cutoff, and local-energy packages do not
 yet construct a positive same-fluid source-parent measure.  The ancestry route
 therefore sharpens the compactness route to the following theorem package:
 
+The formal definition of the missing parent object is recorded in
+`mpp-sourceparent-measure-formal-definition-note.md`.  There a pulse packet
+`P`, predecessor region `\mathsf{Pred}(P)`, positive edge measure
+`d\pi_P(P^-)`, source recovery, parent lower-density, same-fluid edge fidelity,
+summable-loss, and charge alternative are stated explicitly.
+The direct axiom audit
+`mpp-sourceparent-measure-axiom-direct-audit-note.md` records that these
+conditions are not consequences of the installed signed commutator,
+positive-carrier, pressure/cutoff, local-energy, or finite-reserve ledgers.
+
 ```math
 \boxed{
 MSC.DiagTether^{src}
@@ -192,6 +208,20 @@ branching and summable loss for source-residue localized bad pulses.}
 \tag{PA.11}
 ```
 
+The current route is sharper than `(PA.10)`.  The parent theorem is reduced by
+
+```math
+EdgeDisintegrate.A+AntiDiffuseParent.A
+\Longrightarrow
+SourceParent.Measure,
+```
+
+and the live ancestry-side parent subtarget is then sharpened further to
+
+```math
+ParentConcentrationOrDiffuseCharge.A.
+```
+
 This is strictly sharper than broad `Ancient.NoPulse`: the ancient object to
 exclude is not arbitrary; it is an ancestry-generated source-balanced
 source-residue critical pulse.
@@ -200,6 +230,10 @@ The follow-up `mpp-ancestral-nopulse-source-rigidity-audit-note.md` shows that
 `Ancestral.NoPulse^{src}` is also not automatic from local compactness.  It
 requires either a strict backward-drain theorem or a bounded-ancient plus
 source-residue Liouville package.
+The alternatives are audited directly in
+`mpp-ancestry-drain-liouville-alternatives-direct-audit-note.md`; neither is
+installed by the current energy, local-energy, compactness, same-fluid, or
+source-supplier surfaces.
 
 ## Verdict
 
@@ -223,12 +257,12 @@ OriginalSmoothData\Longrightarrow MSC.BadAC,
 with the most focused ancestry version:
 
 ```math
-MSC.DiagTether^{src}+SourceParent.Measure+AncestryDrain.A
+ParentConcentrationOrDiffuseCharge.A+BackwardDrainFunctional.A
 ```
 
 or
 
 ```math
-MSC.DiagTether^{src}+SourceParent.Measure+AncestryCompactBound.A
+ParentConcentrationOrDiffuseCharge.A+BoundedAncestryClass.A
 +SourceResidueLiouville.A.
 ```
