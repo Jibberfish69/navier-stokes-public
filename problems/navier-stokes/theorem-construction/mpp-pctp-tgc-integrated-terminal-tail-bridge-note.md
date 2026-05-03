@@ -24,6 +24,11 @@ This note integrates:
 5. `AVG.END.A`;
 6. `READ.END`.
 
+Everything in this note is downstream of the governing contrapositive
+primitive `SourcePulseCMExit.A`. The words `upstream`, `cover`, and `readout`
+here refer only to the internal order of the averaged terminal-tail consumer
+route.
+
 ## Source anchors
 
 | Surface | SHA |
