@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-03T19:13:41Z'
+  generated_at: '2026-05-03T19:14:28Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -119,7 +119,7 @@ local_derivation:
   required_packets: []
   leadership_status: aligned
   net_new_local_theorem_count: 0
-  recommended_next_cell_type: prose-realization
+  recommended_next_cell_type: theorem-repair
 cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
@@ -206,14 +206,14 @@ frontier_projection:
   one_step_beyond: []
   two_steps_beyond: []
   route_pressure: []
-  recommended_next_cell_type: prose-realization
+  recommended_next_cell_type: theorem-repair
 summary:
   phase: steady-state
   execution_state: steady-state
   leadership_status: aligned
   alignment_complete: true
   proof_matrix_all_discharged: true
-  proof_assembly_open_obligation_count: 0
+  proof_assembly_open_obligation_count: 1
   authoritative_source_gap_count: 0
   export_readiness_hold_state: export-readiness-hold
   exact_local_packet_count: 0
@@ -224,9 +224,9 @@ summary:
   theorem_work_blocked: false
   blocked_queue_interpretation: none
   on_recommended_track: true
-  recommended_next_cell_type: prose-realization
+  recommended_next_cell_type: theorem-repair
   audit_status: audited-ok
   branch_terminal_status: no-branches
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: prose-realization
+  current_next_cell_type: theorem-repair
   current_next_cell_is_theorem_work: false
