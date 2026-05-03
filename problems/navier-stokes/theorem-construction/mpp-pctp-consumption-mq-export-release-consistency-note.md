@@ -137,6 +137,21 @@ T_*=\infty,
 | `Pack` | bounded transported finite-cover geometry and finite overlap |
 | `Part` | same retained fluid object across the approach window |
 | `Field` | pointwise coherence and finite-depth tower controls |
+## Supersession
+
+This release/export consistency note is superseded by the live source-pulse
+frontier.  Current live authority is:
+
+```text
+packet_complete: false for full MPP closure
+export_ready: false
+blocker: OriginalSmoothData=>SourcePulseExclusion.A
+measure form: OriginalSmoothData=>mu_*^sing=0
+```
+
+The older promotion-pass excerpts below have been rewritten to the current
+blocked status and are not independent theorem authority.
+
 | tower base rung | `H^s` norm control |
 | `s>5/2` | classical Sobolev continuation regime |
 
@@ -152,37 +167,38 @@ The route-native objects have already been exported before classical continuatio
 
 ### Theorem packet
 
-The theorem packet reports:
+The theorem packet now reports:
 
 ```yaml
-packet_complete: true
-export_ready: true
-blockers: []
+packet_complete: false
+export_ready: false
+blockers:
+- OriginalSmoothData=>SourcePulseExclusion.A
 ```
 
 and states the safe theorem claim as global smooth classical Navier-Stokes on the periodic zero-mean zero-force branch.
 
 ### Review verdict
 
-The review verdict reports:
+The review verdict now reports:
 
 ```yaml
-verdict: accept
-release_posture: export-ready
-completion_tier_achieved: full-mpp-closure
-standalone_status: accept
+verdict: revise
+release_posture: not-export-ready
+completion_tier_achieved: conditional-terminal-packet
+standalone_status: revise
 target_fidelity.class: direct-target
 ```
 
 ### Submission verdict
 
-The submission verdict reports:
+The submission verdict now reports:
 
 ```yaml
-submission_posture: submission-candidate
-submission_ready: true
-review_alignment.review_verdict: accept
-review_alignment.release_posture: export-ready
+submission_posture: not-ready
+submission_ready: false
+review_alignment.review_verdict: revise
+review_alignment.release_posture: not-export-ready
 ```
 
 ### Release decision
@@ -190,10 +206,11 @@ review_alignment.release_posture: export-ready
 The release decision reports:
 
 ```yaml
-disposition: submission-candidate
-release_posture: export-ready
-completion_tier_achieved: full-mpp-closure
-blockers: []
+disposition: blocked
+release_posture: not-export-ready
+completion_tier_achieved: conditional-terminal-packet
+blockers:
+- OriginalSmoothData=>SourcePulseExclusion.A
 ```
 
 ### Result
@@ -419,33 +436,35 @@ Export table:
 The theorem packet reports:
 
 ```yaml
-packet_complete: true
-export_ready: true
-blockers: []
+packet_complete: false
+export_ready: false
+blockers:
+- OriginalSmoothData=>SourcePulseExclusion.A
 ```
 
 Review verdict:
 
 ```yaml
-verdict: accept
-release_posture: export-ready
-completion_tier_achieved: full-mpp-closure
-standalone_status: accept
+verdict: revise
+release_posture: not-export-ready
+completion_tier_achieved: conditional-terminal-packet
+standalone_status: revise
 ```
 
 Submission verdict:
 
 ```yaml
-submission_posture: submission-candidate
-submission_ready: true
+submission_posture: not-ready
+submission_ready: false
 ```
 
 Release decision:
 
 ```yaml
-disposition: submission-candidate
-release_posture: export-ready
-blockers: []
+disposition: blocked
+release_posture: not-export-ready
+blockers:
+- OriginalSmoothData=>SourcePulseExclusion.A
 ```
 
 Result:
