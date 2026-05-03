@@ -8,35 +8,38 @@ identity:
   source_release_decision_id: release-decision-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
 current_release:
-  disposition: nonterminal-theorem-frontier
-  release_posture: blocked
+  disposition: local-theorem-program-closed
+  release_posture: review-refresh-required
   completion_tier_target: class-membership-closure-warrant
-  completion_tier_achieved: local-theorem-packet-complete
+  completion_tier_achieved: local-theorem-program-closure
 tracks:
   theorem-upgrade:
-    applicable: true
-    target_tier: full-mpp-closure
-    theorem_gap:
-    - 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem 2.1 class-membership warrant eliminates every first finite classical endpoint for arbitrary smooth divergence-free zero-mean data on T^3.'
-    reviewer_risks:
-    - Do not replace the official Clay target with a route-local checkpoint.
-    - Do not let stale full-MPP closure language outrank the explicit PCTP.hard blocker.
-    recommended_next_cell_type: debt-extract
-    recommended_next_stage: theorem-upgrade-requested
-    recommended_next_action: Reopen debt-extract on the periodic Clay terminal-promotion bridge and localize the exact remaining dependency if the bridge does not discharge.
-    rationale: The accepted Theorem 2.1 packet is checkpoint evidence below full-MPP closure; PCTP.hard is the active blocker for terminal promotion to the periodic Clay branch.
-  publication-finalize:
     applicable: false
-    target_tier: local-theorem-packet-complete
-    missing_publishability_surfaces: []
-    recommended_next_cell_type: prose-realization
-    recommended_next_stage: publication-finalize-requested
-    recommended_next_action: Publication finalization is parked until PCTP.hard is resolved.
-    rationale: The user selected full Clay closure rather than nonterminal/local publication.
-selected_track: theorem-upgrade
+    target_tier: none-active
+    theorem_gap: []
+    reviewer_risks:
+    - Do not promote local theorem-program closure into a public/export/release claim
+      without refreshed review artifacts.
+    recommended_next_cell_type: none-active
+    recommended_next_stage: closed-local-theorem-program
+    recommended_next_action: No active theorem-upgrade action.
+    rationale: Retained-field tower anchoring closed the source-pulse CM-exit primitive.
+  publication-finalize:
+    applicable: true
+    target_tier: local-theorem-program-closure
+    missing_publishability_surfaces:
+    - review/export/release refresh
+    recommended_next_cell_type: review-refresh
+    recommended_next_stage: publication-refresh-requested
+    recommended_next_action: Refresh review/export/release artifacts against the current
+      theorem packet.
+    rationale: Mathematical local closure is recorded; publication posture is a separate
+      release boundary.
+selected_track: publication-finalize
 summary:
-  reopen_track: theorem-upgrade
-  reopen_next_cell_type: debt-extract
-  reopen_next_stage: theorem-upgrade-requested
-  reopen_next_action: Reopen debt-extract on the periodic Clay terminal-promotion bridge and localize the exact remaining dependency if the bridge does not discharge.
-  rationale: Full Clay closure is the active objective; the local packet is retained only as checkpoint evidence and is nonterminal until PCTP.hard is proved.
+  reopen_track: none-active-theorem
+  reopen_next_cell_type: review-refresh
+  reopen_next_stage: publication-refresh-requested
+  reopen_next_action: Refresh review/export/release artifacts against the current
+    theorem packet.
+  rationale: No active local math frontier remains.
