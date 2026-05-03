@@ -1,5 +1,24 @@
 # PCTP.hard Regenerated Matrix Pass
 
+## Supersession
+
+This MCP regenerated matrix pass is superseded by the live source-pulse audit
+chain.  The current canonical proof-obligation matrix and source frontier keep
+one unresolved blocking theorem:
+
+```math
+OriginalSmoothData\Longrightarrow SourcePulseExclusion.A,
+```
+
+equivalently:
+
+```math
+OriginalSmoothData\Longrightarrow \mu_{\ast}^{sing}=0.
+```
+
+The historical regenerated matrix output below is retained only as provenance;
+it is not current theorem authority.
+
 ## Status
 
 MCP regenerated promotion/matrix pass after the averaged-route theorem notes.
@@ -29,16 +48,18 @@ mcp-pctp-hard-averaged-assembly-through-read-end.md
 
 ## Regenerated proof-matrix result
 
-The refreshed MCP promotion packet reports:
+The refreshed MCP promotion packet historically reported a zero-frontier
+summary.  That report is superseded.  Current authority reports:
 
 ```yaml
 proof_matrix_summary:
-  total_obligations: 25
+  total_obligations: 26
   grounded_count: 25
-  unresolved_count: 0
-  frontier_count: 0
-  blocking_count: 0
-  all_discharged: true
+  unresolved_count: 1
+  frontier_count: 1
+  blocking_count: 1
+  all_discharged: false
+  active_blocker: OriginalSmoothData=>SourcePulseExclusion.A
 ```
 
 Thus the previous `PCTP.hard` blocker no longer appears as an open proof-obligation-matrix item in the refreshed surface.
@@ -65,21 +86,23 @@ release-manifest: passed
 The refreshed packet reports:
 
 ```yaml
-review_verdict: accept
-release_posture: export-ready
-completion_tier_achieved: full-mpp-closure
-terminal_safe: true
-release_decision: submission-candidate
-promotion_allowed: true
-release_approved: true
+review_verdict: revise
+release_posture: not-export-ready
+completion_tier_achieved: conditional-terminal-packet
+terminal_safe: false for full MPP closure
+release_decision: blocked
+promotion_allowed: false
+release_approved: false
+active_blocker: OriginalSmoothData=>SourcePulseExclusion.A
 ```
 
 The proof-promotion packet status is:
 
 ```yaml
-status: passed
-decision: release-approved
-blockers: []
+status: blocked
+decision: not-release-approved
+blockers:
+- OriginalSmoothData=>SourcePulseExclusion.A
 ```
 
 ## Mathematical interpretation
