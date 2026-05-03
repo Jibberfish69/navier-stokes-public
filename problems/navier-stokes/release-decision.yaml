@@ -4,19 +4,20 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-05-03T18:57:36Z'
+  evaluated_at: '2026-05-03T19:12:32Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
-  disposition: blocked
-  release_posture: not-export-ready
+  disposition: respawn
+  release_posture: revise-loop
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: conditional-terminal-consumption-bridge
-  next_cell_type: theorem-repair
-  next_stage: theorem-open-at-pctp5c
-  next_action: Attack `SourcePulseKnownCriterionPlacement.A` as the broad route to
-    `PCTP.5.C` / `SOURCE.NO-PULSE.A`.
-  rationale: Source-pulse CM exit is closed, but release remains blocked because
-    `PCTP.hard / TTU.A` still depends on branch-native `Jump_avg` elimination.
+  completion_tier_achieved: route-complete
+  next_cell_type: solver-loop
+  next_stage: checkpoint-resumed
+  next_action: The current package is only a lower-tier checkpoint, so resume solver-loop
+    and keep pushing theorem obligations toward full closure before more publication-only
+    compression.
+  rationale: Honesty review did not clear the package for release, so work returns
+    upstream on the typed respawn target.
 artifacts:
   draft:
   draft_v6: problems/navier-stokes/draft-v6.md
@@ -30,11 +31,25 @@ artifacts:
   review_log: problems/navier-stokes/review-log.md
   review_verdict: problems/navier-stokes/review-verdict.yaml
 blockers:
-- Review/export/release artifacts require refresh against the current local theorem-program
-  closure.
-- Do not claim public submission or whole-space release without the final release-decision
-  artifact.
+- A theorem packet exists, but it is still incomplete, so prose alone cannot count
+  as real paper progress.
+- The local package is stable enough to review, and `draft-v8.md` now carries real
+  prose, but it is still a revise-stage draft rather than an export-ready paper.
+- The `draft-v7.md` surface is now a prose artifact, so this pass can review a real
+  package rather than only planning notes.
+- 'This matches the previous review posture: the route is viable locally, but stand-alone
+  export is still premature.'
+- The theorem route is coherent, but the package is not yet compressed into a safe
+  stand-alone paper surface.
+- 'Theorem-packet blocker: There are 1 frontier or route-choice blockers still inside
+  the theorem packet.'
+- 'Target fidelity failure: authoritative lane overlays still mark the full-claim
+  package as conditional, externally overridden, blocked, or burdened by open critical
+  objections.'
+- There are 1 frontier or route-choice blockers still inside the theorem packet.
+- Completion tier is still `route-complete`, below a paper-complete or full-closure
+  submission surface.
+- Honesty review verdict is still `revise`.
 summary:
-  queue_effect: review-refresh-required
-  registry_note: local theorem-program closure recorded; release held for artifact
-    refresh, not math-frontier work
+  queue_effect: ready
+  registry_note: problem is re-queued on the upstream stage named by the review verdict
