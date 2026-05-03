@@ -7,10 +7,10 @@ identity:
   purpose: assumption and release-gate ledger after H1-H6 and Theorem 2.1 warrant
     alignment
 status:
-  ledger_status: math-frontier-open
+  ledger_status: local-theorem-program-closed
   all_matrix_assumptions_discharged: true
   release_eligible: false
-  release_gate: proof-promotion-release-surface-reconciled
+  release_gate: review-export-release-refresh
 source_evidence:
   theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_warrant: problems/navier-stokes/theorem-to-warrant.yaml
@@ -89,16 +89,16 @@ summary:
   blocking_or_unresolved_matrix_count: 0
   hfg_side_primitives_open:
   - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
-  release_blocking_count: 3
+  release_blocking_count: 0
 release_blockers: []
-required_next_actions: []
+required_next_actions:
+- Refresh review/export/release surfaces against the current theorem packet; no active
+  local math frontier.
 generated_at: '2026-05-01T16:36:50Z'
-pass: false
-
+pass: true
 truth_alignment:
-  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
-  status: math-frontier-open
-  blockers:
-  - pctp-hard-terminal-tail-production
-  - aact-kx-local-absorption
-  - jump-avg-branch-elimination
+  source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
+  status: local-theorem-program-closed
+  blockers: []
+  boundary: Local theorem-program closure is recorded; public/export/release posture
+    still requires review refresh and final release-decision artifacts.
