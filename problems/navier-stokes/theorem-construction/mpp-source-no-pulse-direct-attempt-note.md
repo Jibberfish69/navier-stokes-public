@@ -261,3 +261,12 @@ The consolidated terminal target stack is recorded in
 `mpp-source-no-pulse-terminal-target-stack-note.md`. It separates the installed
 pressure/source supplier cell `FFSRC.A=>FCI.5f` from the branch-native no-pulse
 atom and records `MSC.BadAC` as the sharpest current formulation.
+The normal-form audit
+`mpp-sourcepulse-normal-form-and-unspent-reserve-audit-note.md` further records
+that any failed no-pulse packet can be selected after the installed
+original-data reserves have been spent, absorbed as legal losses, or shown not
+to charge the native positive active source carrier.
+The measure-form equivalent is recorded in
+`mpp-sourcepulse-native-source-measure-decomposition-note.md`: the remaining
+assertion is the absence of a singular native positive active source measure
+relative to all installed route ledgers.
