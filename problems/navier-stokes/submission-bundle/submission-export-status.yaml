@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-05-03T18:55:58Z'
+generated_at: '2026-05-03T19:09:06Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/external-paper/main.tex
@@ -10,9 +10,9 @@ pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 compiler: "/Library/TeX/texbin/xelatex"
 source_metrics:
   source_word_count: 753
-  bundle_word_count: 1918
+  bundle_word_count: 1937
   primary_surface_word_count: 838
-  theorem_packet_word_count: 3506
+  theorem_packet_word_count: 3584
 skeletal_source_detected: true
 authoritative_content_included: true
 authoritative_supplements:
@@ -43,13 +43,13 @@ stdout: "This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloa
   wide) in paragraph at lines 136--137\n\\TU/lmr/m/n/10 pack.md‘, ‘theorem-construction/scale-barrier-transport-defect-l\nemma.md‘,
   and\n\nOverfull \\hbox (7.53pt too wide) in paragraph at lines 140--146\n\\TU/lmr/m/n/10
   package carried by ‘theorem-construction/route-b-euclidean-closu\nre-theorem.md‘,\n[6])
-  (./sections/authoritative-theorem-packet.tex\nOverfull \\hbox (4.20001pt too wide)
-  in paragraph at lines 13--14\n\\TU/lmr/m/n/10 Local theorem-program closure is recorded
-  for the class-membersh\nip route. ‘Sour-\n\nOverfull \\hbox (127.67001pt too wide)
+  (./sections/authoritative-theorem-packet.tex\nOverfull \\hbox (2.164pt too wide)
+  in paragraph at lines 13--14\n\\TU/lmr/m/n/10 ‘SourcePulseDTCCover.A‘, the retained-field
+  tower anchoring clos\nure, and ‘Sour-\n\nOverfull \\hbox (127.67001pt too wide)
   in paragraph at lines 13--14\n\\TU/lmr/m/n/10 pctp-hard-bridge-license-into-cm-audit-note.md‘.
-  Absolute ‘Origi\nnalSmoothData=>SourcePulseExclusion.A‘\n\nOverfull \\hbox (4.20001pt
-  too wide) in paragraph at lines 17--18\n\\TU/lmr/m/n/10 Local theorem-program closure
-  is recorded for the class-membersh\nip route. ‘Sour-\n\nOverfull \\hbox (127.67001pt
+  Absolute ‘Origi\nnalSmoothData=>SourcePulseExclusion.A‘\n\nOverfull \\hbox (2.164pt
+  too wide) in paragraph at lines 17--18\n\\TU/lmr/m/n/10 ‘SourcePulseDTCCover.A‘,
+  the retained-field tower anchoring clos\nure, and ‘Sour-\n\nOverfull \\hbox (127.67001pt
   too wide) in paragraph at lines 17--18\n\\TU/lmr/m/n/10 pctp-hard-bridge-license-into-cm-audit-note.md‘.
   Absolute ‘Origi\nnalSmoothData=>SourcePulseExclusion.A‘\n[7]\nOverfull \\hbox (178.75pt
   too wide) in paragraph at lines 43--44\n[]\\TU/lmtt/m/n/10 problems/navier-stokes/theorem-construction/modernized-four-b\nody-schema-torus-tower-geometry.md
@@ -59,13 +59,13 @@ stdout: "This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloa
   problems/navier-stokes/theorem-construction/strict-shadow-no-\nremainder-corollary.md
   \n\nOverfull \\hbox (178.75pt too wide) in paragraph at lines 49--50\n[]\\TU/lmtt/m/n/10
   problems/navier-stokes/theorem-construction/euclidean-strict-\nshadow-clay-discharge-criterion.md
-  \n\nOverfull \\hbox (163.0pt too wide) in paragraph at lines 51--52\n[]\\TU/lmtt/m/n/10
+  \n[8]\nOverfull \\hbox (163.0pt too wide) in paragraph at lines 51--52\n[]\\TU/lmtt/m/n/10
   problems/navier-stokes/theorem-construction/clay-discharge-la\ndder-from-current-reductions.md
   \n\nOverfull \\hbox (100.0pt too wide) in paragraph at lines 53--54\n[]\\TU/lmtt/m/n/10
   problems/navier-stokes/theorem-construction/tps-strong-bridge\n-sg-lemma-family.md
   \n\nOverfull \\hbox (136.75pt too wide) in paragraph at lines 55--56\n[]\\TU/lmtt/m/n/10
   problems/navier-stokes/theorem-construction/tps-dynamic-sourc\ne-fit-and-open-frontier.md
-  \n[8]\nOverfull \\hbox (147.25pt too wide) in paragraph at lines 57--58\n[]\\TU/lmtt/m/n/10
+  \n\nOverfull \\hbox (147.25pt too wide) in paragraph at lines 57--58\n[]\\TU/lmtt/m/n/10
   problems/navier-stokes/theorem-construction/tps-coarse-flow-p\nair-gap-theorem-candidate.md
   \n\nOverfull \\hbox (205.0pt too wide) in paragraph at lines 59--60\n[]\\TU/lmtt/m/n/10
   problems/navier-stokes/theorem-construction/mpp-terminal-clas\ns-membership-six-burden-closure-note.md
@@ -112,14 +112,14 @@ stdout: "This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloa
   (378.25pt too wide) in paragraph at lines 87--88\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/R\necoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium\n\nOverfull
   \\hbox (278.5pt too wide) in paragraph at lines 87--88\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarke\nr/20260325-100820/Research-Consolidation/Millennium\n\nOverfull
   \\hbox (514.75pt too wide) in paragraph at lines 87--88\n\\TU/lmtt/m/n/10 Prize
-  Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discr\nete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_\nGlobal_Smoothness\n\nOverfull
+  Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discr\nete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_\nGlobal_Smoothness\n[9]\nOverfull
   \\hbox (5.5pt too wide) in paragraph at lines 89--90\n[]\\TU/lmtt/m/n/10 /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull
   \\hbox (378.25pt too wide) in paragraph at lines 89--90\n\\TU/lmtt/m/n/10 Prize
   Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/R\necoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium\n\nOverfull
   \\hbox (278.5pt too wide) in paragraph at lines 89--90\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarke\nr/20260325-100820/Research-Consolidation/Millennium\n\nOverfull
   \\hbox (535.75pt too wide) in paragraph at lines 89--90\n\\TU/lmtt/m/n/10 Prize
   Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discr\nete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_\nGlobal_Smoothness.tex
-  \n[9]) [10] (./navier-stokes-submission.aux) )\n(see the transcript file for additional
+  \n) [10] (./navier-stokes-submission.aux) )\n(see the transcript file for additional
   information)\nOutput written on navier-stokes-submission.pdf (10 pages).\nTranscript
   written on navier-stokes-submission.log.\n\nThis is XeTeX, Version 3.141592653-2.6-0.999997
   (TeX Live 2025) (preloaded format=xelatex)\n restricted \\write18 enabled.\nentering
@@ -141,13 +141,13 @@ stdout: "This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloa
   wide) in paragraph at lines 136--137\n\\TU/lmr/m/n/10 pack.md‘, ‘theorem-construction/scale-barrier-transport-defect-l\nemma.md‘,
   and\n\nOverfull \\hbox (7.53pt too wide) in paragraph at lines 140--146\n\\TU/lmr/m/n/10
   package carried by ‘theorem-construction/route-b-euclidean-closu\nre-theorem.md‘,\n[6])
-  (./sections/authoritative-theorem-packet.tex\nOverfull \\hbox (4.20001pt too wide)
-  in paragraph at lines 13--14\n\\TU/lmr/m/n/10 Local theorem-program closure is recorded
-  for the class-membersh\nip route. ‘Sour-\n\nOverfull \\hbox (127.67001pt too wide)
+  (./sections/authoritative-theorem-packet.tex\nOverfull \\hbox (2.164pt too wide)
+  in paragraph at lines 13--14\n\\TU/lmr/m/n/10 ‘SourcePulseDTCCover.A‘, the retained-field
+  tower anchoring clos\nure, and ‘Sour-\n\nOverfull \\hbox (127.67001pt too wide)
   in paragraph at lines 13--14\n\\TU/lmr/m/n/10 pctp-hard-bridge-license-into-cm-audit-note.md‘.
-  Absolute ‘Origi\nnalSmoothData=>SourcePulseExclusion.A‘\n\nOverfull \\hbox (4.20001pt
-  too wide) in paragraph at lines 17--18\n\\TU/lmr/m/n/10 Local theorem-program closure
-  is recorded for the class-membersh\nip route. ‘Sour-\n\nOverfull \\hbox (127.67001pt
+  Absolute ‘Origi\nnalSmoothData=>SourcePulseExclusion.A‘\n\nOverfull \\hbox (2.164pt
+  too wide) in paragraph at lines 17--18\n\\TU/lmr/m/n/10 ‘SourcePulseDTCCover.A‘,
+  the retained-field tower anchoring clos\nure, and ‘Sour-\n\nOverfull \\hbox (127.67001pt
   too wide) in paragraph at lines 17--18\n\\TU/lmr/m/n/10 pctp-hard-bridge-license-into-cm-audit-note.md‘.
   Absolute ‘Origi\nnalSmoothData=>SourcePulseExclusion.A‘\n[7]\nOverfull \\hbox (178.75pt
   too wide) in paragraph at lines 43--44\n[]\\TU/lmtt/m/n/10 problems/navier-stokes/theorem-construction/modernized-four-b\nody-schema-torus-tower-geometry.md
@@ -157,13 +157,13 @@ stdout: "This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloa
   problems/navier-stokes/theorem-construction/strict-shadow-no-\nremainder-corollary.md
   \n\nOverfull \\hbox (178.75pt too wide) in paragraph at lines 49--50\n[]\\TU/lmtt/m/n/10
   problems/navier-stokes/theorem-construction/euclidean-strict-\nshadow-clay-discharge-criterion.md
-  \n\nOverfull \\hbox (163.0pt too wide) in paragraph at lines 51--52\n[]\\TU/lmtt/m/n/10
+  \n[8]\nOverfull \\hbox (163.0pt too wide) in paragraph at lines 51--52\n[]\\TU/lmtt/m/n/10
   problems/navier-stokes/theorem-construction/clay-discharge-la\ndder-from-current-reductions.md
   \n\nOverfull \\hbox (100.0pt too wide) in paragraph at lines 53--54\n[]\\TU/lmtt/m/n/10
   problems/navier-stokes/theorem-construction/tps-strong-bridge\n-sg-lemma-family.md
   \n\nOverfull \\hbox (136.75pt too wide) in paragraph at lines 55--56\n[]\\TU/lmtt/m/n/10
   problems/navier-stokes/theorem-construction/tps-dynamic-sourc\ne-fit-and-open-frontier.md
-  \n[8]\nOverfull \\hbox (147.25pt too wide) in paragraph at lines 57--58\n[]\\TU/lmtt/m/n/10
+  \n\nOverfull \\hbox (147.25pt too wide) in paragraph at lines 57--58\n[]\\TU/lmtt/m/n/10
   problems/navier-stokes/theorem-construction/tps-coarse-flow-p\nair-gap-theorem-candidate.md
   \n\nOverfull \\hbox (205.0pt too wide) in paragraph at lines 59--60\n[]\\TU/lmtt/m/n/10
   problems/navier-stokes/theorem-construction/mpp-terminal-clas\ns-membership-six-burden-closure-note.md
@@ -210,14 +210,14 @@ stdout: "This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloa
   (378.25pt too wide) in paragraph at lines 87--88\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/R\necoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium\n\nOverfull
   \\hbox (278.5pt too wide) in paragraph at lines 87--88\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarke\nr/20260325-100820/Research-Consolidation/Millennium\n\nOverfull
   \\hbox (514.75pt too wide) in paragraph at lines 87--88\n\\TU/lmtt/m/n/10 Prize
-  Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discr\nete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_\nGlobal_Smoothness\n\nOverfull
+  Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discr\nete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_\nGlobal_Smoothness\n[9]\nOverfull
   \\hbox (5.5pt too wide) in paragraph at lines 89--90\n[]\\TU/lmtt/m/n/10 /Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millenniu\nm\n\nOverfull
   \\hbox (378.25pt too wide) in paragraph at lines 89--90\n\\TU/lmtt/m/n/10 Prize
   Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/R\necoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium\n\nOverfull
   \\hbox (278.5pt too wide) in paragraph at lines 89--90\n\\TU/lmtt/m/n/10 Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarke\nr/20260325-100820/Research-Consolidation/Millennium\n\nOverfull
   \\hbox (535.75pt too wide) in paragraph at lines 89--90\n\\TU/lmtt/m/n/10 Prize
   Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discr\nete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_\nGlobal_Smoothness.tex
-  \n[9]) [10] (./navier-stokes-submission.aux) )\n(see the transcript file for additional
+  \n) [10] (./navier-stokes-submission.aux) )\n(see the transcript file for additional
   information)\nOutput written on navier-stokes-submission.pdf (10 pages).\nTranscript
   written on navier-stokes-submission.log.\n"
 stderr: "\n"
