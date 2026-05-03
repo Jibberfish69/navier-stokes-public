@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-03T19:09:42Z'
+  audited_at: '2026-05-03T19:13:55Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: blocked-by-pctp5c-jumpavg-elimination
@@ -190,8 +190,8 @@ surface_snapshot:
       cross_surface_splice: false
       sterilized_synthesis_import_count: 0
   proof_obligation_summary:
-    total_obligations: 14
-    grounded_count: 14
+    total_obligations: 13
+    grounded_count: 13
     structural_only_count: 0
     structurally_supported_count: 0
     bridge_pending_count: 0
