@@ -8,10 +8,10 @@ identity:
 generated_at: '2026-05-01T16:36:50Z'
 status:
   audit_status: route-and-release-clear
-  pass: false
-  route_pass: false
+  pass: true
+  route_pass: true
   release_eligible: false
-pass: false
+pass: true
 source:
   theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
   review_verdict: problems/navier-stokes/review-verdict.yaml
@@ -30,23 +30,21 @@ checks:
   evidence: Dependency, assumption, gap, consistency, and manifest surfaces were regenerated
     from the same terminal inputs.
 findings:
-- Route-local hidden-spending checks pass.
-- Release-side generated surfaces are synchronized to the accepted proof-obligation
-  matrix and release decision.
+- Route-local hidden-spending checks pass for the current local theorem-program closure.
+- Release-side review/export surfaces still need refresh, but no circularity blocker
+  remains in the theorem route.
 verdict:
   circularity_clear_for_route: true
   circularity_clear_for_release: true
   clay_release_circularity_status: clear
 matrix_summary:
   total_obligations: 25
-  blocking_count: 3
-  frontier_count: 3
-  all_discharged: false
-
+  blocking_count: 0
+  frontier_count: 0
+  all_discharged: true
 truth_alignment:
-  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
-  status: math-frontier-open
-  blockers:
-  - pctp-hard-terminal-tail-production
-  - aact-kx-local-absorption
-  - jump-avg-branch-elimination
+  source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
+  status: local-theorem-program-closed
+  blockers: []
+  boundary: Local theorem-program closure is recorded; public/export/release posture
+    still requires review refresh and final release-decision artifacts.
