@@ -153,6 +153,16 @@ branching and summable loss.}
 }
 ```
 
+The formal object is defined in
+`mpp-sourceparent-measure-formal-definition-note.md`: `SourceParent.Measure`
+is a positive directed edge measure `d\Pi(P^-\to P)` on localized
+source-residue pulse packets, satisfying source recovery, parent lower density,
+same-fluid edge fidelity, summable loss, and a named charge alternative.
+The axiom-level audit
+`mpp-sourceparent-measure-axiom-direct-audit-note.md` tests those five
+conditions directly and records that none is supplied by the installed
+signed/positive-carrier/local-energy machinery.
+
 Then
 
 ```math
