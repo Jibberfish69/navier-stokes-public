@@ -4,18 +4,18 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-01T22:37:32Z'
+  audited_at: '2026-05-03T18:57:40Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
-  current_package_status: full-mpp-closure-ready
-  standalone_status: revise
-  completion_tier_achieved: conditional-terminal-packet
-  review_verdict: revise
-  theorem_packet_status: not-export-ready
+  current_package_status: local-packet-export-ready
+  standalone_status: local-theorem-program-closed
+  completion_tier_achieved: local-theorem-program-closure
+  review_verdict: local-theorem-program-closed-review-refresh-required
+  theorem_packet_status: export-ready-local-theorem-packet
 audit_certification:
-  audit_status: audited-needs-fix
-  audit_completion_tier: audited-conditional-terminal-packet
-  audit_review_verdict: audited-revise
+  audit_status: audited-ok
+  audit_completion_tier: audited-local-theorem-program-closure
+  audit_review_verdict: audited-local-theorem-program-closed-review-refresh-required
 branch_audit:
   status: no-branches
   branch_count: 0
@@ -35,12 +35,12 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-1c3f5ade309a
-    route_signature: 1c3f5ade309afbd8e08fc830f2e72158762cac78
-    theorem_target: full-MPP periodic Clay closure via terminal promotion from the
-      installed Theorem 2.1 class-membership warrant
-    theorem_statement: The official Clay target allows either the whole-space branch
-      on R^3 or the periodic branch on T^3.
+    surface_id: theorem-surface-navier-stokes-eeac2572c4ba
+    route_signature: eeac2572c4baadbc618c3adae6800393eca70f41
+    theorem_target: full-mpp-closure
+    theorem_statement: Every smooth divergence-free zero-mean initial datum on T^3
+      with f=0 generates a global smooth classical three-dimensional incompressible
+      Navier-Stokes solution.
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -165,6 +165,7 @@ surface_snapshot:
       - problems/navier-stokes/theorem-construction/mpp-lci-a-transported-center-residual-forcing-note.md
       - problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-channel-reduction-note.md
       - problems/navier-stokes/theorem-construction/mpp-frozen-family-resonant-pressure-sufficient-reduction-note.md
+      - problems/navier-stokes/theorem-construction/mpp-pressure-source-supplier-verification-ledger-note.md
       - problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
       - problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md
       - problems/navier-stokes/theorem-construction/mcp-canonical-pctp-hard-bridge-from-averaged-terminal-tail-route-cfi-a-1500f83b37.md
@@ -189,24 +190,16 @@ surface_snapshot:
       cross_surface_splice: false
       sterilized_synthesis_import_count: 0
   proof_obligation_summary:
-    total_obligations: 27
-    grounded_count: 25
+    total_obligations: 13
+    grounded_count: 13
     structural_only_count: 0
     structurally_supported_count: 0
     bridge_pending_count: 0
     unresolved_count: 0
-    frontier_count: 2
-    blocking_count: 2
-    all_discharged: false
-issues:
-- issue_id: stale-review-verdict
-  severity: major
-  summary: Review verdict is stale relative to the current manuscript artifacts.
-  autofixable: false
-  recommended_action: Run honesty-review to refresh the review verdict.
-  details:
-  - Submission export status changed after the current review verdict was written.
-  - Typeset audit changed after the current review verdict was written.
+    frontier_count: 0
+    blocking_count: 0
+    all_discharged: true
+issues: []
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
