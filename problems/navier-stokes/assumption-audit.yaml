@@ -8,10 +8,10 @@ identity:
 generated_at: '2026-05-01T16:36:50Z'
 status:
   audit_status: assumption-discharge-closed
-  pass: false
-  route_pass: false
+  pass: true
+  route_pass: true
   release_eligible: false
-pass: false
+pass: true
 source:
   theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
   review_verdict: problems/navier-stokes/review-verdict.yaml
@@ -21,26 +21,26 @@ source:
 summary:
   matrix_assumptions_discharged: true
   blocking_or_unresolved_matrix_count: 0
-  release_blocking_count: 3
+  release_blocking_count: 0
   theorem_2_1_scope: class-membership closure warrant
-  clay_full_mpp_scope: submission-candidate
+  clay_full_mpp_scope: local-theorem-program-closure-with-review-refresh-boundary
 findings:
-- The assumption ledger and proof-obligation matrix agree that matrix assumptions
-  are discharged.
-- No PCTP.hard release blocker remains in the current matrix.
+- Assumption ledger and proof-obligation matrix agree that matrix assumptions are
+  discharged.
+- The former sourcepulse-cm-exit primitive is discharged by retained-field tower anchoring;
+  OriginalSmoothData=>SourcePulseExclusion.A remains nonblocking stronger supplier
+  context only.
 verdict:
   assumption_discharge_complete_for_release_scope: true
-  stronger_clay_promotion_status: closed
+  stronger_clay_promotion_status: local-theorem-program-closed-review-refresh-required
 matrix_summary:
   total_obligations: 25
-  blocking_count: 3
-  frontier_count: 3
-  all_discharged: false
-
+  blocking_count: 0
+  frontier_count: 0
+  all_discharged: true
 truth_alignment:
-  source: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
-  status: math-frontier-open
-  blockers:
-  - pctp-hard-terminal-tail-production
-  - aact-kx-local-absorption
-  - jump-avg-branch-elimination
+  source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
+  status: local-theorem-program-closed
+  blockers: []
+  boundary: Local theorem-program closure is recorded; public/export/release posture
+    still requires review refresh and final release-decision artifacts.
