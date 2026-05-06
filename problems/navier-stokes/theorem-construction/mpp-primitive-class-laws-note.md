@@ -136,6 +136,64 @@ This is the route's exact reading of "kept in motion." It does **not** mean
 every point has large speed. It means the point has not dropped out of the same
 pressure-viscosity carrier that is acting on the surrounding field.
 
+### Law 2a. Fixed-Viscosity Carrier Law
+
+Within the shared participation law, the viscosity slot is not free to mutate.
+It is the fixed classical term from `(PL.0)`:
+
+```math
+\operatorname{Visc}^{fix}_{\nu}(Q)
+:\Longleftrightarrow
+D_tu+\nabla p=\nu\Delta u,
+\qquad
+\nabla\cdot u=0,
+\qquad
+\nu>0
+\text{ fixed.}
+\tag{PL.9a}
+```
+
+The route-level class law is:
+
+```math
+\boxed{
+Member(Q;\mathfrak O^{work}_{NS})
+\Longrightarrow
+\operatorname{Visc}^{fix}_{\nu}(Q).
+}
+\tag{PL.9b}
+```
+
+Therefore the viscosity-side class-exit readout is:
+
+```math
+\boxed{
+\neg\operatorname{Visc}^{fix}_{\nu}(Q)
+\Longrightarrow
+Exit(Q;\mathfrak O^{work}_{NS})
+:=
+\neg Member(Q;\mathfrak O^{work}_{NS}).
+}
+\tag{PL.9c}
+```
+
+This is a discharged definitional theorem, not the analytic exclusion theorem.
+It says that if the evolution stops obeying the fixed law `\nu\Delta u` inside
+the same pressure-viscosity carrier, then it has left the working class. It
+does not yet prove that such a viscosity-side break cannot be approached from
+smooth initial data:
+
+```math
+OriginalSmoothData
+\Longrightarrow
+\operatorname{Visc}^{fix}_{\nu}
+\quad
+\text{up to the alleged terminal time}
+\tag{PL.9d}
+```
+
+remains an exclusion burden for the surrounding program.
+
 ### Law 3. Shared One-Field Law
 
 The third law says:

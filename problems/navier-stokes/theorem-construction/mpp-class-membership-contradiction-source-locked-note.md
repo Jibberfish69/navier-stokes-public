@@ -103,6 +103,81 @@ should be treated as scenarios that have already left that object. The point is
 not merely that they become non-smooth. The point is that they stop qualifying
 as this specific fluid object.
 
+## Fixed-Viscosity Carrier Class-Exit Theorem
+
+On a candidate window `I`, write
+
+```math
+\operatorname{Visc}^{fix}_{\nu}(u,p;I)
+```
+
+for the assertion that the same coupled pressure-viscosity carrier is still
+obeying the fixed viscosity law from `(SC.0)`:
+
+```math
+D_tu+\nabla p=\nu\Delta u,
+\qquad
+\nabla\cdot u=0,
+\qquad
+\nu>0
+\text{ fixed by the original problem.}
+\tag{SC.3a}
+```
+
+Here "viscosity-side" does not name a separate local mini-law. It names the
+viscosity slot inside the same shared incompressible pressure-viscosity carrier.
+Thus replacing `\nu\Delta u`, dropping it, making it variable, filtered,
+delayed, locally decoupled, or otherwise no longer the fixed law in `(SC.0)` is
+not a new internal behavior of the same object.
+
+The completed class-exit theorem is:
+
+```math
+\boxed{
+Member(Q;\mathfrak O^{work}_{NS})
+\Longrightarrow
+\operatorname{Visc}^{fix}_{\nu}(Q)
+}
+\tag{SC.3b}
+```
+
+and hence, by contraposition at the definitional level,
+
+```math
+\boxed{
+\neg\operatorname{Visc}^{fix}_{\nu}(Q)
+\Longrightarrow
+Exit(Q;\mathfrak O^{work}_{NS})
+:=
+\neg Member(Q;\mathfrak O^{work}_{NS}).
+}
+\tag{SC.3c}
+```
+
+Proof. Membership in the working NS/MPP object means membership in the fixed
+fluid object defined above: one incompressible velocity field, one
+pressure-viscosity-velocity evolution closed by incompressibility, and the fixed
+equation `(SC.0)`. The viscosity side of that object is exactly
+`\nu\Delta u` with the same scalar `\nu>0` fixed by the problem data. Therefore
+an evolution that no longer obeys that fixed viscosity law inside the shared
+carrier is no longer an evolution of the same working object. This proves
+`(SC.3b)` and `(SC.3c)`. `\square`
+
+Burden separation:
+
+```math
+\boxed{
+\text{fixed-viscosity failure implies class exit, but smooth-data exclusion of
+such a failure remains a separate theorem burden.}
+}
+\tag{SC.3d}
+```
+
+In particular, `(SC.3c)` does **not** prove that a smooth initial datum cannot
+evolve toward a viscosity-side break. It only says that if such a break occurs,
+the trajectory has exited the fixed NS/MPP class rather than produced an
+internal behavior of that class.
+
 ## Semantic Restart Chain
 
 Yes.

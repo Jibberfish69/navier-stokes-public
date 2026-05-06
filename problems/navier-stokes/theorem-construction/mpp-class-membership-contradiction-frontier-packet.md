@@ -54,6 +54,26 @@ The route says:
 The NS object is being read here as one shared incompressible-pressure-viscosity
 field, not as a collection of locally unrelated laws.
 
+## Fixed-Viscosity Class-Exit Insert
+
+The source-locked note now installs the fixed-viscosity carrier theorem:
+
+```math
+Member(Q;\mathfrak O^{work}_{NS})
+\Longrightarrow
+\operatorname{Visc}^{fix}_{\nu}(Q),
+\qquad
+\neg\operatorname{Visc}^{fix}_{\nu}(Q)
+\Longrightarrow
+Exit(Q;\mathfrak O^{work}_{NS}).
+\tag{CFP.0a}
+```
+
+This insertion is definitional. It closes the class-exit direction for a
+viscosity-side break inside the shared pressure-viscosity carrier. It does not
+claim that smooth initial data cannot produce or approach such a break; that
+remains part of the surrounding exclusion burden.
+
 ## Semantic Restart Order
 
 The restart authority is the direct semantic chain, not the later packaging:

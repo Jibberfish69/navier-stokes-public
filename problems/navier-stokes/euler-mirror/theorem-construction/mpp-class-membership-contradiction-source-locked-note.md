@@ -32,6 +32,31 @@ The mirror equation stays fixed:
 \tag{ESC.0}
 ```
 
+It is also fixed as the clean zero-viscosity boundary equation of the
+Navier-Stokes family:
+
+```math
+\partial_t u^{\nu_j}+(u^{\nu_j}\cdot\nabla)u^{\nu_j}
++\nabla p^{\nu_j}
+=
+\nu_j\Delta u^{\nu_j},
+\qquad
+\nu_j\downarrow0,
+\tag{ESC.0a}
+```
+
+with a clean Euler boundary limit only when
+
+```math
+\nu_j\Delta u^{\nu_j}\to0
+\quad\text{and}\quad
+(u^{\nu_j}\cdot\nabla)u^{\nu_j}\to(u^0\cdot\nabla)u^0
+\tag{ESC.0b}
+```
+
+in the theorem-facing topology. If a viscous or energy defect survives, the
+limit is not this Euler mirror object.
+
 The mirror target stays fixed:
 
 ```math
@@ -69,6 +94,25 @@ The decisive change from the Navier-Stokes source note is explicit:
 
 So this mirror note is not allowed to borrow drag, damping, heat smoothing, or
 Stokes structure without naming that import as a holdout.
+
+Relative to a fixed positive-viscosity parent object, the zero-viscosity mirror
+is a class-exit surface:
+
+```math
+\boxed{
+\neg Visc^{fix}_{\nu_\ast}(Q^0)
+\Longrightarrow
+Exit(Q^0;\mathfrak O_{NS}^{work,\nu_\ast}),
+\qquad
+\nu_\ast>0.
+}
+\tag{ESC.2b}
+```
+
+This does not assert Euler global smoothness. It only says the non-viscous
+Euler law is well typed as the `\nu=0` boundary of the NS family and as outside
+any fixed-positive-viscosity NS class unless a separate fixed-`\nu_\ast` lift is
+proved.
 
 ## Core Membership Claim
 

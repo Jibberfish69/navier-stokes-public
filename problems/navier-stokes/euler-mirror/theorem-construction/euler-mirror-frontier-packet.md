@@ -28,6 +28,43 @@ The mirror branch replaces that equation by incompressible Euler
 \nabla\cdot u = 0.
 ```
 
+## Vanishing-Viscosity Boundary Lock
+
+This mirror is also the clean `\nu=0` boundary class of the parameterized
+Navier-Stokes family. A sequence of fixed-viscosity NS windows
+`Q_j\in\mathfrak O_{NS}^{work,\nu_j}` with `\nu_j\downarrow0` lands on this
+mirror only when the nonlinear term, pressure gradient, and packing law pass to
+the limit and the viscous carrier vanishes:
+
+```math
+\nu_j\Delta u^{\nu_j}\longrightarrow0.
+\tag{EMF.0a}
+```
+
+The boundary equation is then
+
+```math
+\partial_t u^0+(u^0\cdot\nabla)u^0+\nabla p^0=0,
+\qquad
+\nabla\cdot u^0=0.
+\tag{EMF.0b}
+```
+
+Relative to any fixed positive viscosity `\nu_\ast>0`, this boundary object is
+not an internal NS member unless it is separately lifted to the fixed
+`\nu_\ast\Delta u` carrier. The parent class-exit readout is therefore:
+
+```math
+\neg Visc^{fix}_{\nu_\ast}(Q^0)
+\Longrightarrow
+Exit(Q^0;\mathfrak O_{NS}^{work,\nu_\ast}).
+\tag{EMF.0c}
+```
+
+If the vanishing-viscosity sequence leaves a nonzero viscous or energy-defect
+measure, the limit is not this clean Euler mirror surface. It must be recorded
+as a separate defect-boundary object.
+
 Nothing else is allowed to drift silently:
 
 1. keep the same `Pack / Part / Field / Dead / Blown / Jump` vocabulary;
