@@ -47,16 +47,16 @@ remaining_open_obligations:
     route needs TerminalSourceReverseHolder.A / UniformTemporalSourceIntegrability_p.A
     or a produced rigid residue class with Liouville. The equality route under SourceWeightedTerminalAngularDepletion.A
     now has ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A installed.
-    The May 19 shared-participation update classifies any B_ASAC^closed terminal atom:
-    retained Pack+Field supplies no incoming participation flux, finite CM contradicts
-    positive terminal mass by the residence bound, and otherwise it lands as incoming
-    flux, CM-envelope blowout, or paid exit, then in Pack/Part/Field by BASACTerminalAtomCMFaceLabeling.A,
-    RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A.
-    This closes the B_ASAC^closed atom at CM-exit level while leaving the stronger
-    forward positive supplier open. The May 17 eigenframe and pressure-Hessian attempts
-    add OneSidedNearBandMaterialStrainBV.A / TerminalPressureHessianNoSustain.A as
-    a signed near-band source-current obstruction, not a new CM face or an installed
-    pressure-sustain theorem.'
+    The May 21 terminal Zeno correction classifies any B_ASAC^closed terminal atom
+    as endpoint Pack failure: finite Zeno ancestry packets may be legal, but the terminal
+    zero-radius residue is not a retained positive-radius packet. BASACTerminalAtomCMFaceLabeling.A,
+    RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
+    remain upstream finite-ancestry accounting or downstream post-exit readout, not
+    a retained Field-packet conversion of the terminal residue. This closes terminal
+    CM-legality while leaving the stronger forward positive supplier open. The May
+    17 eigenframe and pressure-Hessian attempts add OneSidedNearBandMaterialStrainBV.A
+    / TerminalPressureHessianNoSustain.A as a signed near-band source-current obstruction,
+    not a new CM face or an installed pressure-sustain theorem.'
   program_id: source-wall-residual-root-group
   proof_mode: branch_native_supplier_or_cm_landing_support
   propagated_object: source-reserve / Field-face residual support, not the whole NS
@@ -136,16 +136,17 @@ remaining_open_obligation_groups:
       Zeno route needs TerminalSourceReverseHolder.A / UniformTemporalSourceIntegrability_p.A
       or a produced rigid residue class with Liouville. The equality route under SourceWeightedTerminalAngularDepletion.A
       now has ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A
-      installed. The May 19 shared-participation update classifies any B_ASAC^closed
-      terminal atom: retained Pack+Field supplies no incoming participation flux,
-      finite CM contradicts positive terminal mass by the residence bound, and otherwise
-      it lands as incoming flux, CM-envelope blowout, or paid exit, then in Pack/Part/Field
-      by BASACTerminalAtomCMFaceLabeling.A, RetainedPackFieldNoIncomingParticipationFlux.A,
-      and BASACLiouvilleCMParticipationBridge.A. This closes the B_ASAC^closed atom
-      at CM-exit level while leaving the stronger forward positive supplier open.
-      The May 17 eigenframe and pressure-Hessian attempts add OneSidedNearBandMaterialStrainBV.A
-      / TerminalPressureHessianNoSustain.A as a signed near-band source-current obstruction,
-      not a new CM face or an installed pressure-sustain theorem.'
+      installed. The May 21 terminal Zeno correction classifies any B_ASAC^closed
+      terminal atom as endpoint Pack failure: finite Zeno ancestry packets may be
+      legal, but the terminal zero-radius residue is not a retained positive-radius
+      packet. BASACTerminalAtomCMFaceLabeling.A, RetainedPackFieldNoIncomingParticipationFlux.A,
+      and BASACLiouvilleCMParticipationBridge.A remain upstream finite-ancestry accounting
+      or downstream post-exit readout, not a retained Field-packet conversion of the
+      terminal residue. This closes terminal CM-legality while leaving the stronger
+      forward positive supplier open. The May 17 eigenframe and pressure-Hessian attempts
+      add OneSidedNearBandMaterialStrainBV.A / TerminalPressureHessianNoSustain.A
+      as a signed near-band source-current obstruction, not a new CM face or an installed
+      pressure-sustain theorem.'
     program_id: source-wall-residual-root-group
     proof_mode: branch_native_supplier_or_cm_landing_support
     propagated_object: source-reserve / Field-face residual support, not the whole
@@ -194,16 +195,17 @@ frontier_context:
       Zeno route needs TerminalSourceReverseHolder.A / UniformTemporalSourceIntegrability_p.A
       or a produced rigid residue class with Liouville. The equality route under SourceWeightedTerminalAngularDepletion.A
       now has ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A
-      installed. The May 19 shared-participation update classifies any B_ASAC^closed
-      terminal atom: retained Pack+Field supplies no incoming participation flux,
-      finite CM contradicts positive terminal mass by the residence bound, and otherwise
-      it lands as incoming flux, CM-envelope blowout, or paid exit, then in Pack/Part/Field
-      by BASACTerminalAtomCMFaceLabeling.A, RetainedPackFieldNoIncomingParticipationFlux.A,
-      and BASACLiouvilleCMParticipationBridge.A. This closes the B_ASAC^closed atom
-      at CM-exit level while leaving the stronger forward positive supplier open.
-      The May 17 eigenframe and pressure-Hessian attempts add OneSidedNearBandMaterialStrainBV.A
-      / TerminalPressureHessianNoSustain.A as a signed near-band source-current obstruction,
-      not a new CM face or an installed pressure-sustain theorem.'
+      installed. The May 21 terminal Zeno correction classifies any B_ASAC^closed
+      terminal atom as endpoint Pack failure: finite Zeno ancestry packets may be
+      legal, but the terminal zero-radius residue is not a retained positive-radius
+      packet. BASACTerminalAtomCMFaceLabeling.A, RetainedPackFieldNoIncomingParticipationFlux.A,
+      and BASACLiouvilleCMParticipationBridge.A remain upstream finite-ancestry accounting
+      or downstream post-exit readout, not a retained Field-packet conversion of the
+      terminal residue. This closes terminal CM-legality while leaving the stronger
+      forward positive supplier open. The May 17 eigenframe and pressure-Hessian attempts
+      add OneSidedNearBandMaterialStrainBV.A / TerminalPressureHessianNoSustain.A
+      as a signed near-band source-current obstruction, not a new CM face or an installed
+      pressure-sustain theorem.'
     program_id: source-wall-residual-root-group
     proof_mode: branch_native_supplier_or_cm_landing_support
     propagated_object: source-reserve / Field-face residual support, not the whole
@@ -536,12 +538,12 @@ frontier_context:
         source-ancestry compactness, branch-entropy/tree-Carleson, transported no-flux,
         pressure/Leray, local-energy-trace, and rigid-subclass production doors all
         fail from installed inputs or remain conditional production imports. The May
-        19 shared-participation update classifies the completed CM-exit branch as
-        B_ASAC^closed -> BASACClosedTerminalAtomCMExitClassification.A + BASACTerminalAtomCMFaceLabeling.A
-        + RetainedPackFieldNoIncomingParticipationFlux.A + BASACLiouvilleCMParticipationBridge.A:
-        retained Pack+Field supplies no incoming participation flux, finite CM kills
-        the terminal atom by the residence bound, and positive terminal mass is a
-        paid exit or typed Pack/Part/Field face. A general TerminalSourceReverseHolder.A
+        21 terminal Zeno correction classifies the endpoint as `not Pack_Q`: finite
+        Zeno ancestry packets may be legal, but the terminal zero-radius residue is
+        not a retained positive-radius packet. BASACTerminalAtomCMFaceLabeling.A,
+        RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
+        are upstream finite-ancestry accounting or downstream post-exit readout, not
+        a retained terminal Field packet. A general TerminalSourceReverseHolder.A
         remains an external new theorem, not a consequence of the installed B_ASAC
         bookkeeping. LocalPositiveSourceCarleson.A collapses to PositiveRemainderDepletion.A;
         SquareSourceEstimate.A and ActiveShellAmplitudeGain.A collapse to ActiveShellSourceNormalize.A
@@ -789,16 +791,16 @@ next_solver_targets:
     route needs TerminalSourceReverseHolder.A / UniformTemporalSourceIntegrability_p.A
     or a produced rigid residue class with Liouville. The equality route under SourceWeightedTerminalAngularDepletion.A
     now has ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A installed.
-    The May 19 shared-participation update classifies any B_ASAC^closed terminal atom:
-    retained Pack+Field supplies no incoming participation flux, finite CM contradicts
-    positive terminal mass by the residence bound, and otherwise it lands as incoming
-    flux, CM-envelope blowout, or paid exit, then in Pack/Part/Field by BASACTerminalAtomCMFaceLabeling.A,
-    RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A.
-    This closes the B_ASAC^closed atom at CM-exit level while leaving the stronger
-    forward positive supplier open. The May 17 eigenframe and pressure-Hessian attempts
-    add OneSidedNearBandMaterialStrainBV.A / TerminalPressureHessianNoSustain.A as
-    a signed near-band source-current obstruction, not a new CM face or an installed
-    pressure-sustain theorem.'
+    The May 21 terminal Zeno correction classifies any B_ASAC^closed terminal atom
+    as endpoint Pack failure: finite Zeno ancestry packets may be legal, but the terminal
+    zero-radius residue is not a retained positive-radius packet. BASACTerminalAtomCMFaceLabeling.A,
+    RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
+    remain upstream finite-ancestry accounting or downstream post-exit readout, not
+    a retained Field-packet conversion of the terminal residue. This closes terminal
+    CM-legality while leaving the stronger forward positive supplier open. The May
+    17 eigenframe and pressure-Hessian attempts add OneSidedNearBandMaterialStrainBV.A
+    / TerminalPressureHessianNoSustain.A as a signed near-band source-current obstruction,
+    not a new CM face or an installed pressure-sustain theorem.'
   program_id: source-wall-residual-root-group
   proof_mode: branch_native_supplier_or_cm_landing_support
   propagated_object: source-reserve / Field-face residual support, not the whole NS
