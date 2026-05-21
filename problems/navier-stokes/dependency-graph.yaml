@@ -50,16 +50,16 @@ summary:
     route needs TerminalSourceReverseHolder.A / UniformTemporalSourceIntegrability_p.A
     or a produced rigid residue class with Liouville. The equality route under SourceWeightedTerminalAngularDepletion.A
     now has ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A installed.
-    The May 19 shared-participation update classifies any B_ASAC^closed terminal atom:
-    retained Pack+Field supplies no incoming participation flux, finite CM contradicts
-    positive terminal mass by the residence bound, and otherwise it lands as incoming
-    flux, CM-envelope blowout, or paid exit, then in Pack/Part/Field by BASACTerminalAtomCMFaceLabeling.A,
-    RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A.
-    This closes the B_ASAC^closed atom at CM-exit level while leaving the stronger
-    forward positive supplier open. The May 17 eigenframe and pressure-Hessian attempts
-    add OneSidedNearBandMaterialStrainBV.A / TerminalPressureHessianNoSustain.A as
-    a signed near-band source-current obstruction, not a new CM face or an installed
-    pressure-sustain theorem.'
+    The May 21 terminal Zeno correction classifies any B_ASAC^closed terminal atom
+    as endpoint Pack failure: finite Zeno ancestry packets may be legal, but the terminal
+    zero-radius residue is not a retained positive-radius packet. BASACTerminalAtomCMFaceLabeling.A,
+    RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
+    remain upstream finite-ancestry accounting or downstream post-exit readout, not
+    a retained Field-packet conversion of the terminal residue. This closes terminal
+    CM-legality while leaving the stronger forward positive supplier open. The May
+    17 eigenframe and pressure-Hessian attempts add OneSidedNearBandMaterialStrainBV.A
+    / TerminalPressureHessianNoSustain.A as a signed near-band source-current obstruction,
+    not a new CM face or an installed pressure-sustain theorem.'
 nodes:
 - id: theorem-statement
   kind: theorem-statement
