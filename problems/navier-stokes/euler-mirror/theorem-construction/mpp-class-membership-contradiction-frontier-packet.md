@@ -1,132 +1,122 @@
-# MPP Class-Membership Contradiction Frontier Packet (Euler Mirror)
+# MPP Euler Membership / Regularity Frontier Packet
 
 ## Status
 
-Route-faithful frontier packet for the Euler mirror contradiction stack.
+Route repair packet for the Euler mirror contradiction stack.
 
-This packet mirrors the live Navier-Stokes class-membership contradiction route
-while keeping the equation literally Euler and keeping every viscous dependency
-visible.
+This packet supersedes the older mirror posture that treated Euler
+non-smoothness as automatic class exit through copied `Pack / Part / Field`
+faces.
 
 ## Fixed Target
 
-The mirror equation stays fixed:
+The mirror equation is:
 
 ```math
-\partial_t u + (u\cdot\nabla)u + \nabla p = 0,
+\partial_t u+\nabla\cdot(u\otimes u)+\nabla p=0,
 \qquad
-\nabla\cdot u = 0.
+\nabla\cdot u=0.
+\tag{ECFP.0}
 ```
 
-The mirror target stays fixed:
+The target remains Euler regularity / smoothness, but the base class is no
+longer a smooth class.
 
-```math
-\text{global smoothness for the classical incompressible Euler problem on the same theorem-facing surface.}
-```
+## Repaired Core Claim
 
-What changes is only the proof architecture:
-
-```math
-\boxed{
-\text{attack singularity as class exit from the Euler mirror fluid object.}
-}
-```
-
-## Core Claim
-
-The route says:
+Euler has a smaller primitive membership object than Navier-Stokes:
 
 ```math
 \boxed{
-\text{the dangerous endpoint should be treated as leaving the Euler mirror object, not as an event occurring inside it.}
+\mathrm{Member}_E(Q)
+=
+\mathrm{EVol}_Q(u)
+\wedge
+\mathrm{EMom}_Q(u,p).
 }
+\tag{ECFP.1}
 ```
 
-The Euler mirror object is one shared incompressible pressure-transport field,
-not a collection of locally unrelated laws.
+`EVol` is Eulerian flux-volume balance. `EMom` is the weak
+momentum-pressure law. Neither term contains viscosity-level participation,
+one-field coherence, a Lagrangian carrier, or smoothness.
 
-## Semantic Restart Order
+Pressure/incompressibility participation is allowed only in this weak sense:
+it enforces volume and normal compatibility, not one-carrier shear response.
+Thus a jet-driven slip layer or vortex-sheet-like jump can remain compatible
+with `Member_E` until a stronger Euler regularity class has been chosen and
+proved.
 
-The mirrored semantic order is:
+## Endpoint Vocabulary Demotion
 
-1. the branch names one particular Euler mirror fluid object;
-2. every evolution that remains smooth remains internal to that object;
-3. any genuine dead / blown / jump event is already a local departure from the
-   same coupled incompressible-pressure-transport law;
-4. so genuine non-smoothness is read as class exit rather than as an internal
-   singular event of the object;
-5. theorem work therefore means: install lawful class membership on still-live
-   windows, preserve the no-dead line if the route can support it, and close the
-   surviving blown / jump pair.
-
-## Endpoint Reading
-
-The singular route keeps the canonical endpoint trio:
+The old words
 
 ```math
-\text{dead endpoint},\qquad
-\text{blown endpoint},\qquad
-\text{jump endpoint}.
+\text{dead},\qquad \text{blown},\qquad \text{jump}
 ```
 
-The intended meanings are unchanged:
+are now parent-route comparison labels only.
 
-1. `dead endpoint`: failure of shared participation inside a still-live
-   neighborhood;
-2. `blown endpoint`: failure of the shared packing law / common deformation
-   class;
-3. `jump endpoint`: failure of the one-field law.
+They may describe live failures of stronger regularity structures:
 
-## Exact Route Chain
+1. a Lagrangian-carrier failure;
+2. a pressure-viscosity-style carrier failure that Euler pressure does not
+   repair;
+3. a positive-scale coherence failure;
+4. a continuation / compactness failure.
 
-The mirrored theorem chain stays:
+They do not define primitive Euler membership exits.
 
-1. define lawful class membership;
-2. define endpoint-style failure as class exit;
-3. make class membership exact through the predicates
-   `Pack / Part / Field`;
-4. install class membership on still-live approach windows;
-5. preserve the participation side if the same law survives the Euler rewrite;
-6. reduce the surviving class-violation burden to the packing side and the
-   one-field side;
-7. show that any genuine PDE non-smooth scenario must manifest one of those
-   surviving class-violating geometries on still-live windows;
-8. rule out blown class-violation on still-live windows;
-9. rule out jump class-violation on still-live windows.
+## Correct Route Chain
+
+The repaired Euler theorem chain is:
+
+1. define `Member_E` by flux-volume and weak momentum-pressure fidelity;
+2. define any desired smoothness class separately, for example through
+   Lagrangian carrier, positive-scale coherence, or a continuation criterion;
+3. prove that the desired regularity class propagates from Euler controls;
+4. only then interpret loss of that stronger class as a regularity failure.
+
+The invalid copied chain was:
+
+```math
+\mathrm{Pack}\wedge\mathrm{Part}\wedge\mathrm{Field}
+\Longrightarrow
+\text{Euler membership.}
+```
+
+The valid Euler split is:
+
+```math
+\boxed{
+\mathrm{Member}_E
+\quad\text{first,}
+\qquad
+\mathrm{ELag},\ \mathrm{EReg},\ \text{one-field coherence}
+\quad\text{only as extra regularity burdens.}
+}
+\tag{ECFP.2}
+```
 
 ## Live Frontier
 
-The currently installed Euler queue is therefore:
+The current contradiction-family files now have these roles:
 
-1. write the Euler source-locked contradiction note exactly;
-2. write the Euler forward-invariance program `ECFI`;
-3. isolate the surviving-side split `EL13.A` after the no-dead line;
-4. reduce the no-jump branch through `EOFR.A` to the source ledger
-   `\mathcal N_{N,\rho,\psi}^{E,\mathrm{src}}(\cdot;I)\in L^1(I)` and the
-   Euler receiver theorem `ELCI.A`;
-5. keep the no-blown branch separate as the remaining pack-side debt.
+1. [mpp-euler-class-membership-flux-volume-definition.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-class-membership-flux-volume-definition.md)
+   is the membership authority.
+2. [mpp-class-membership-forward-invariance-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md)
+   is demoted to a regularity-forward-invariance boundary.
+3. [mpp-one-field-forward-preservation-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md)
+   is demoted to an optional one-field regularity theorem.
+4. [mpp-one-field-forward-preservation-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md)
+   records supplier burdens only after one-field coherence has been separately
+   selected as the regularity target.
+5. [mpp-lower-carrier-interval-integrability-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md)
+   remains a possible regularity-support program, not a membership theorem.
 
-The parent raw obstruction was:
+## Parent Receiver Chain Boundary
 
-```math
-\boxed{
-\text{`LCI.A` as presently written, because the installed moving-collar identity uses explicit viscosity.}
-}
-```
-
-The current Euler branch does **not** import that packet unchanged. It rewrites
-that theorem slot as `ELCI.A` and records the surviving open burden more
-narrowly:
-
-```math
-\boxed{
-\text{the live Euler debts are pack-side no-blown, plus the transport/pressure
-supplier burdens inside `ELCI.A` and the source ledger beneath `EOFP.A`.}
-}
-```
-
-Today's parent Navier-Stokes route makes the same point more finely. The
-receiver side now reaches `LCI.A` through
+The parent Navier-Stokes receiver chain
 
 ```math
 RSCB.NKF
@@ -141,20 +131,17 @@ ACT.A
 \Longrightarrow
 RCF.A
 \Longrightarrow
-LCI.A.
-\tag{ECFP.1}
+LCI.A
+\tag{ECFP.3}
 ```
 
-For the Euler mirror, this is an ordered comparison chain, not an importable
-proof. `RSCB.NKF -> NKF.Native` must be rewritten with all viscous forcing terms
-deleted, and `ACT.KX` is the first expanded receiver break because its installed
-budget spends `c_\nu N`, the `eta_X` absorption seed, and `ACT.X-TopVisc`.
-The sharper installed packet is cell-ordered as
-`NKF.Native + NKF.Ann + NKF.Quad -> ACT.X-Press`, then
-`ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc -> ACT.KX`, so
-`ELCI.A` must replace that whole simultaneous receiver step under viscosity
-removal.
+is comparison authority only. On Euler, `ACT.KX` still marks the sharp
+non-importable point because its installed proof spends `c_\nu N`, the
+absorption seed, and top-viscous readout. Even if an Euler replacement is found,
+it would support a regularity upgrade, not primitive `Member_E`.
 
-So this packet does **not** claim that the no-dead line, no-blown branch, or
-no-jump branch are already closed. It records the route-faithful order and the
-current contradiction posture now installed on disk.
+## Honest Current Posture
+
+The Euler mirror no longer claims that roughness exits the Euler object. The
+honest task is to prove that the flux-volume Euler member gains or preserves the
+extra regularity needed for smoothness.
