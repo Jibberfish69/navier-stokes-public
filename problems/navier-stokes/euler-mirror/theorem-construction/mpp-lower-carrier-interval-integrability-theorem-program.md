@@ -427,12 +427,13 @@ The nonpressure terms close by finite transported-cover geometry and local
 oscillation. The pressure term closes after affine center-cell subtraction
 through the centered pressure-return coefficient `Pi_E_ctr`.
 
-The attempt does not prove `L_E_ctr in L^1(I)` from weak Euler membership or
-from the current lower packet. The exact surviving target inside `ELCI.A` is
+The attempt does not prove `L_E_ctr in L^1(I)` from base Euler membership or
+from the current lower packet. The May 21 scenario map now requires the target to
+be split:
 
 ```math
 \boxed{
-\mathrm{ELCI.CP.A}:
+\mathrm{ELCI.CP.A\text{-}Separation}:
 \quad
 \mathfrak A^{E,ctr}
 +
@@ -444,8 +445,13 @@ from the current lower packet. The exact surviving target inside `ELCI.A` is
 \tag{ELCI.16c}
 ```
 
-on the same finite transported Euler cover, without the parent `ACT.KX` /
-`2nu` absorption or `ACT.X-TopVisc` readout.
+on the same finite transported Euler cover, with exact added regularity
+hypotheses on the positive side and explicit nonsmooth `Member_E` scenario
+routing on the negative side, without the parent `ACT.KX` / `2nu` absorption or
+`ACT.X-TopVisc` readout.
+
+Scenario authority:
+[euler-ns-viscosity-scenario-separation-map-20260521.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md).
 
 ## Honest Remaining Theorem Debt
 
@@ -465,8 +471,8 @@ isolates the exact remaining theorem debt:
 \tag{ELCI.17}
 ```
 
-That debt is now the single supplier target `ELCI.CP.A`, with three visible
-components:
+That debt is now the split supplier target `ELCI.CP.A-Separation`, with three
+visible regularity-side components:
 
 1. transported-center carrier integrability for the lower family;
 2. local oscillation integrability on transported balls of radius `2R_\delta`;
@@ -489,4 +495,4 @@ This note pushes the lower-carrier theorem as far as possible without cheating:
 ```
 
 So the receiver side is no longer blocked by a vague slogan. Its honest open
-burden is the direct Euler theorem `ELCI.A`.
+burden is the direct Euler split theorem `ELCI.CP.A-Separation`.
