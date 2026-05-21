@@ -556,14 +556,14 @@ surface_snapshot:
           temporal reverse-Holder, no-incoming source-drain, source-ancestry compactness,
           branch-entropy/tree-Carleson, transported no-flux, pressure/Leray, local-energy-trace,
           and rigid-subclass production doors all fail from installed inputs or remain
-          conditional production imports. The May 19 shared-participation update classifies
-          the completed CM-exit branch as B_ASAC^closed -> BASACClosedTerminalAtomCMExitClassification.A
-          + BASACTerminalAtomCMFaceLabeling.A + RetainedPackFieldNoIncomingParticipationFlux.A
-          + BASACLiouvilleCMParticipationBridge.A: retained Pack+Field supplies no
-          incoming participation flux, finite CM kills the terminal atom by the residence
-          bound, and positive terminal mass is a paid exit or typed Pack/Part/Field
-          face. A general TerminalSourceReverseHolder.A remains an external new theorem,
-          not a consequence of the installed B_ASAC bookkeeping. LocalPositiveSourceCarleson.A
+          conditional production imports. The May 21 terminal Zeno correction classifies
+          the endpoint as `not Pack_Q`: finite Zeno ancestry packets may be legal,
+          but the terminal zero-radius residue is not a retained positive-radius packet.
+          BASACTerminalAtomCMFaceLabeling.A, RetainedPackFieldNoIncomingParticipationFlux.A,
+          and BASACLiouvilleCMParticipationBridge.A are upstream finite-ancestry accounting
+          or downstream post-exit readout, not a retained terminal Field packet. A
+          general TerminalSourceReverseHolder.A remains an external new theorem, not
+          a consequence of the installed B_ASAC bookkeeping. LocalPositiveSourceCarleson.A
           collapses to PositiveRemainderDepletion.A; SquareSourceEstimate.A and ActiveShellAmplitudeGain.A
           collapse to ActiveShellSourceNormalize.A / active-square reserve; the broader
           Zeno branch collapses to TerminalSourceReverseHolder.A / UniformTemporalSourceIntegrability_p.A
