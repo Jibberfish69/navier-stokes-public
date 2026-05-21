@@ -247,12 +247,18 @@ entries:
     derivation_class: parent-role-euler-mirror
     audit_verdict: refined-this-pass
     refinement_verdict: current-live-order-restored
+  - path: theorem-construction/mpp-euler-class-membership-flux-volume-definition.md
+    family: contradiction
+    role: Euler-native membership authority
+    derivation_class: euler-ontology-repair
+    audit_verdict: created-this-pass
+    refinement_verdict: Member_E-defined-as-EVol-plus-EMom
   - path: theorem-construction/mpp-law13-surviving-endpoint-exclusion-program.md
     family: contradiction
-    role: surviving endpoint-exclusion program
-    derivation_class: parent-role-euler-mirror
+    role: endpoint vocabulary demotion note
+    derivation_class: euler-ontology-repair
     audit_verdict: refined-this-pass
-    refinement_verdict: stale-first-wave-language-removed
+    refinement_verdict: dead-blown-jump-demoted-from-membership-to-regularity-labels
   - path: theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
     family: contradiction
     role: Euler receiver replacement theorem
@@ -261,16 +267,16 @@ entries:
     refinement_verdict: exact-missing-2nu-absorption-step-emphasized
   - path: theorem-construction/mpp-one-field-forward-preservation-reduction-note.md
     family: contradiction
-    role: one-field reduction note
-    derivation_class: parent-role-euler-mirror
+    role: one-field regularity reduction note
+    derivation_class: euler-regularity-support
     audit_verdict: refined-this-pass
-    refinement_verdict: stale-first-wave-language-removed
+    refinement_verdict: regularity-support-only-not-membership
   - path: theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
     family: contradiction
-    role: one-field forward-preservation theorem
-    derivation_class: parent-role-euler-mirror
+    role: optional one-field regularity preservation theorem
+    derivation_class: euler-regularity-support
     audit_verdict: refined-this-pass
-    refinement_verdict: live-order-and-holdout-language-tightened
+    refinement_verdict: field-demoted-from-membership-to-regularity-upgrade
   - path: theorem-construction/positive-control-euler-program.md
     family: positive-control
     role: positive-control theorem program
@@ -295,4 +301,3 @@ entries:
     derivation_class: branch-local-ledger-surface
     audit_verdict: refined-this-pass
     refinement_verdict: replacement-and-demotion-bookkeeping-synchronized
-
