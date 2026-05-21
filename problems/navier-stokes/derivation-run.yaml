@@ -2,19 +2,21 @@
 version: 1
 identity:
   problem_id: navier-stokes
-  run_id: debt-derive-navier-stokes-20260429T213615Z
-  debt_id: debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
+  run_id: debt-derive-navier-stokes-20260518T080826Z
+  debt_id: source-wall-root-after-reconcile
 target_debt:
-  debt_id: debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
-  label: 'Periodic Clay terminal-promotion bridge: prove that the installed Theorem
-    2.1 class-membership warrant eliminates every first finite classical endpoint
-    for arbitrary smooth divergence-free zero-mean data on T^3.'
-  priority_rank: 6
-  monograph_status: reopened from post-release theorem-upgrade plan
+  debt_id: source-wall-root-after-reconcile
+  label: source-wall-root-after-reconcile
+  priority_rank: 3
+  monograph_status: reopened from a stalled object-formalization/dependency-discharge
+    handoff
   primary_anchors:
-  - problems/navier-stokes/post-release-plan.yaml
+  - problems/navier-stokes/creative-theorem-search.yaml
+  - problems/navier-stokes/dependency-discharge.yaml
+  - problems/navier-stokes/object-formalization.yaml
+  - problems/navier-stokes/proof-assembly.yaml
 search_scope:
-  generated_at: '2026-04-29T21:36:15Z'
+  generated_at: '2026-05-18T08:08:26Z'
   files_checked:
     workboard-local:
     - problems/navier-stokes/obstruction-capture.md
@@ -25,7 +27,6 @@ search_scope:
     - problems/navier-stokes/review-log.md
     - problems/navier-stokes/formalization-ledger.md
     - problems/navier-stokes/theorem-packet.yaml
-    - problems/navier-stokes/source-frontier.yaml
     - problems/navier-stokes/source-frontier.yaml
     - problems/navier-stokes/frozen-core.md
     - problems/navier-stokes/extension-branches.yaml
@@ -53,23 +54,10 @@ search_scope:
     - problems/navier-stokes/paper-quality-verdict.yaml
     - problems/navier-stokes/review-verdict.yaml
     canonical-problem-corpus:
-    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/post-release-plan.yaml
-    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Global
-      Regularity Framework for Arbitrary Initial Data in L2__desktop_navier_stokes_zip__2025-01-12.tex
-    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium
-      Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Desktop/Navier-stokes/Global
-      Regularity Framework for Arbitrary Initial Data in L2.tex
-    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium
-      Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium
-      Prize Problems/Navier-Stokes/TeX/Global Regularity Framework for Arbitrary Initial
-      Data in L2.tex
-    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium
-      Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium
-      Prize Problems/Navier-Stokes/TeX/Global_Regularity_Framework_for_Arbitrary_Initial_Data_in_L2.tex
-    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium
-      Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium
-      Prize Problems/Navier-Stokes/TeX/Global_Regularity_Framework_for_Arbitrary_Initial_Data_in_L2
-      (2).tex
+    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/proof-assembly.yaml
+    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/dependency-discharge.yaml
+    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/object-formalization.yaml
+    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/creative-theorem-search.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/debt-map.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/gap-ticket.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/route-lock.yaml
@@ -82,7 +70,6 @@ search_scope:
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/agent-contract.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/derivation-run.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/pipeline-state.yaml
-    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/proof-assembly.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/review-verdict.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/theorem-packet.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/backfill-report.yaml
@@ -95,6 +82,7 @@ search_scope:
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/marvin-watchlist.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/release-decision.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/route-hypothesis.yaml
+    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/post-release-plan.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/promotion-verdict.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/extension-branches.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/paper-architecture.yaml
@@ -104,6 +92,8 @@ search_scope:
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/full-proof-campaign.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/lane-classification.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/lemma-falsification.yaml
+    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/marvin-ingest-notes.yaml
+    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/submission-metadata.yaml
     conversation-direct: []
     conversation-indirect: []
     conversation-speculative: []
@@ -160,15 +150,15 @@ source_scope:
   - problems/navier-stokes/proof-assembly.yaml
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/claim-ladder.md
-  - problems/navier-stokes/obstruction-capture.md
+  - problems/navier-stokes/extension-branches.yaml
+  - problems/navier-stokes/lemma-falsification.yaml
   new_evidence_paths:
   - problems/navier-stokes/frozen-core.md
   - problems/navier-stokes/proof-assembly.yaml
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/claim-ladder.md
-  - problems/navier-stokes/obstruction-capture.md
+  - problems/navier-stokes/extension-branches.yaml
+  - problems/navier-stokes/lemma-falsification.yaml
   novel_support_found: true
   source_sufficiency: sufficient
   fallback_used: false
@@ -198,10 +188,10 @@ authority_provenance:
     database_path: problems/navier-stokes/runtime/meta/runtime-hot-state.sqlite3
     authoritative_storage: sqlite
     compatibility_shadow_status: fresh
-    indexed_event_count: 27524
-    indexed_lease_count: 19539
+    indexed_event_count: 32910
+    indexed_lease_count: 24912
     active_lease_count: 1
-    latest_active_lease_id: debt-derive-navier-stokes-20260429T213615Z
+    latest_active_lease_id: debt-derive-navier-stokes-20260518T080826Z
     status: ok
     error_class:
   roots:
@@ -335,39 +325,30 @@ authority_provenance:
     path: system/meta/runtime-state/data-source-runtime-authority/navier-stokes.yaml
     absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/system/meta/runtime-state/data-source-runtime-authority/navier-stokes.yaml"
     exists: true
+    active_export_root: system/meta/runtime-state/data-source-runtime-authority
+    active_export_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/system/meta/runtime-state/data-source-runtime-authority"
+    export_root_mode: workspace-authority-surface
+    legacy_runtime_root_policy: deprecated-ignored
   resolver_path: *6
 search_terms:
+- problems/navier-stokes/creative-theorem-search.yaml
+- problems/navier-stokes/dependency-discharge.yaml
+- problems/navier-stokes/object-formalization.yaml
+- problems/navier-stokes/proof-assembly.yaml
+- source-wall-root-after-reconcile
 - problems/navier-stokes/post-release-plan.yaml
-- periodic clay
-- clay terminal-promotion
-- terminal-promotion bridge
-- bridge prove
-- prove installed
-- installed class-membership
-- periodic
-- clay
-- terminal-promotion
-- bridge
-- debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
 evidence_hits:
 - source_path: problems/navier-stokes/frozen-core.md
   source_group: workboard-local
   matched_terms:
-  - periodic clay
-  - clay terminal-promotion
-  - terminal-promotion bridge
-  - periodic
-  - clay
-  - terminal-promotion
-  - bridge
-  - debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
+  - source-wall-root-after-reconcile
   matched_origins:
   - target-label
-  - solver-target-id
   hit_kind: phrase-match
-  excerpt_note: ", compactness, and continuation packages all hold on the active periodic
-    branch, then the periodic Clay branch with `f = 0` follows; any whole-space statement
-    on `R^3` is a downstream discharge theorem, not the internal branch itself (`proof-dependency`"
+  excerpt_note: "(`definition`; `marvin-upstream-e2f5b0a915cf`) ## Source Frontier
+    - `first_unresolved`: source-wall-root-after-reconcile (`live-theorem-frontier`;
+    `source-wall-root-after-reconcile`) - source-wall-root-after-reconcile (`live-theorem-frontier`;
+    `source-wall-root-after-re"
   authority_root: problems/navier-stokes
   authority_classification: lane-local
   authority_basis: split-lane-repo
@@ -389,21 +370,14 @@ evidence_hits:
 - source_path: problems/navier-stokes/proof-assembly.yaml
   source_group: workboard-local
   matched_terms:
-  - periodic clay
-  - clay terminal-promotion
-  - terminal-promotion bridge
-  - periodic
-  - clay
-  - terminal-promotion
-  - bridge
-  - debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
+  - source-wall-root-after-reconcile
   matched_origins:
   - target-label
-  - solver-target-id
   hit_kind: phrase-match
-  excerpt_note: compactness, and continuation packages all hold on the active periodic
-    branch, then the periodic Clay branch with `f = 0` follows; any whole-space statement
-    on `R^3` is a downstream discharge theorem, not the internal branch itself tentative_extensi
+  excerpt_note: 'ungs: (1) ene'' tentative_extension_chain: [] remaining_open_obligations:
+    - obligation_id: source-wall-root-after-reconcile label: source-wall-root-after-reconcile
+    kind: live-theorem-frontier status: frontier-open remaining_open_obligation_groups:
+    bridge_discharge_'
   authority_root: problems/navier-stokes
   authority_classification: lane-local
   authority_basis: split-lane-repo
@@ -425,22 +399,13 @@ evidence_hits:
 - source_path: problems/navier-stokes/source-frontier.yaml
   source_group: workboard-local
   matched_terms:
-  - periodic clay
-  - clay terminal-promotion
-  - terminal-promotion bridge
-  - periodic
-  - clay
-  - terminal-promotion
-  - bridge
-  - debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
+  - source-wall-root-after-reconcile
   matched_origins:
   - target-label
-  - solver-target-id
   hit_kind: phrase-match
-  excerpt_note: 'actness, and continuation packages all hold on the active periodic
-    branch, then the periodic Clay branch with `f = 0` follows; any whole-space statement
-    on `R^3` is a downstream discharge theorem, not the internal branch itself status:
-    g'
+  excerpt_note: 'ect-formalization-closure-note.md frontier: primary_math_obligation:
+    obligation_id: source-wall-root-after-reconcile kind: live-theorem-frontier label:
+    source-wall-root-after-reconcile status: frontier-open source_anchor: problems/navier-stokes/live-'
   authority_root: problems/navier-stokes
   authority_classification: lane-local
   authority_basis: split-lane-repo
@@ -462,22 +427,14 @@ evidence_hits:
 - source_path: problems/navier-stokes/theorem-packet.yaml
   source_group: workboard-local
   matched_terms:
-  - periodic clay
-  - clay terminal-promotion
-  - terminal-promotion bridge
-  - periodic
-  - clay
-  - terminal-promotion
-  - bridge
-  - debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3
+  - source-wall-root-after-reconcile
   matched_origins:
   - target-label
-  - solver-target-id
   hit_kind: phrase-match
-  excerpt_note: 'mpactness, and continuation packages all hold on the active periodic
-    branch, then the periodic Clay branch with `f = 0` follows; any whole-space statement
-    on `R^3` is a downstream discharge theorem, not the internal branch itself reason:
-    '''
+  excerpt_note: 'smooth-hierarchy-20260509.md live_theorem_edge: &1 status: active
+    current_route_name: source-wall-root-after-reconcile exact_cut_summary: ''The
+    CM primitive remains `Exit(Q):=not Member(Q)`. The theorem-grade installed CM
+    direction is only `forall N exists r_N: C'
   authority_root: problems/navier-stokes
   authority_classification: lane-local
   authority_basis: split-lane-repo
@@ -496,19 +453,16 @@ evidence_hits:
     fallback_reason:
     resolver_path: *2
     present: true
-- source_path: problems/navier-stokes/claim-ladder.md
+- source_path: problems/navier-stokes/extension-branches.yaml
   source_group: workboard-local
   matched_terms:
-  - periodic clay
-  - periodic
-  - clay
-  - bridge
+  - source-wall-root-after-reconcile
   matched_origins:
   - target-label
   hit_kind: phrase-match
-  excerpt_note: ", compactness, and continuation packages all hold on the active periodic
-    branch, then the periodic Clay branch with `f = 0` follows; any whole-space statement
-    on `R^3` is a downstream discharge theorem, not the internal branch itself | `theorem-construc"
+  excerpt_note: 'and promotion. branches: - branch_id: branch-navier-stokes-1 origin_obligation_id:
+    source-wall-root-after-reconcile branch_type: route-branch provenance: machine-derived-beyond-source-frontier
+    hypothesis: Open a quarantined side branch that tests whether sour'
   authority_root: problems/navier-stokes
   authority_classification: lane-local
   authority_basis: split-lane-repo
@@ -527,19 +481,17 @@ evidence_hits:
     fallback_reason:
     resolver_path: *2
     present: true
-- source_path: problems/navier-stokes/obstruction-capture.md
+- source_path: problems/navier-stokes/lemma-falsification.yaml
   source_group: workboard-local
   matched_terms:
-  - periodic
-  - clay
-  - bridge
+  - source-wall-root-after-reconcile
   matched_origins:
   - target-label
   hit_kind: phrase-match
-  excerpt_note: 'fixes the four body jobs, but the current live lane now routes them
-    through a torus-first periodic internal branch: a scale-barrier principle, a monotone
-    functional `Q(t)`, non-Sobolev compactness, and a heat-governed continuation bridge
-    on the per'
+  excerpt_note: 'packet-navier-stokes results: - branch_id: branch-navier-stokes-1
+    origin_obligation_id: source-wall-root-after-reconcile verdict: quarantine reasons:
+    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+    summary: survives_first_pa'
   authority_root: problems/navier-stokes
   authority_classification: lane-local
   authority_basis: split-lane-repo
