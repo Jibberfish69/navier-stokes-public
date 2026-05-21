@@ -1,48 +1,39 @@
 ---
-version: 2
+version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: dependency-audit-navier-stokes
-  created_by: release_surface_reconciler
-  purpose: dependency audit reconciled from live proof-obligation matrix
-generated_at: '2026-05-03T17:29:26Z'
+  generated_at: '2026-05-07T00:51:03Z'
+  generator: system/runner/lib/release_surface_reconciler.rb
+  purpose: dependency graph remains open under direct-live authority
 status:
-  audit_status: primitive-seat-repair-required
+  audit_status: direct-live-frontier-open
   pass: false
-  route_pass: false
   release_eligible: false
-pass: true
+pass: false
+release_eligible: false
 source:
-  theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
-  review_verdict: problems/navier-stokes/review-verdict.yaml
+  live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
+  source_frontier: problems/navier-stokes/source-frontier.yaml
+  theorem_packet: problems/navier-stokes/theorem-packet.yaml
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
   release_decision: problems/navier-stokes/release-decision.yaml
 summary:
-  total_obligations: 26
+  total_obligations: 15
   blocking_count: 1
-  bridge_pending_count: 0
-  unresolved_count: 0
+  frontier_count: 1
   all_discharged: false
-blocking_dependencies:
-- cm-primitive-seat-repair
-current_direct_supplier_targets:
-- OriginalSmoothData=>SourcePulseExclusion.A (nonblocking strong supplier context)
+  authority_mode: direct-live-surfaces
+  unresolved_count: 1
+  bridge_discharge_blocking_count: 1
+  theorem_warrant_blocking_count: 1
+  open_frontier_labels: &1
+  - source-wall-root-after-reconcile
 findings:
-- The previous no-blocker reading depended on seating SourcePulseCMExit.A as the
-  governing CM primitive. That seating is invalid.
-- Re-audit the dependency graph against Exit(Q):=not Member(Q), witnessed by
-  not CM_{N,r,Q}=not(Pack_Q+Part_{N,Q}+Field_{N,r,Q}).
+- Direct-live theorem authority reports open frontier obligations; stale terminal
+  release overlays are demoted.
 verdict:
   dependency_graph_closed: false
-  dependency_direction_clean: false
-  clay_release_dependency_status: primitive-seat-repair-required
-required_for_release:
-- Refresh review/export/release artifacts before any public release claim.
-truth_alignment:
-  source: problems/navier-stokes/theorem-construction/mpp-contrapositive-terminal-consumption-closure-note-20260503.md
-  status: primitive-seat-repair-required
-  blockers:
-  - cm-primitive-seat-repair
-  current_direct_supplier_targets:
-  - OriginalSmoothData=>SourcePulseExclusion.A (nonblocking strong supplier context)
-  active_measure_form: none-active at local theorem-program layer
+  release_eligible: false
+  all_discharged: false
+required_for_release: *1
