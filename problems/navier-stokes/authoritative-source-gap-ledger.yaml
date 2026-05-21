@@ -7,12 +7,12 @@ identity:
   generated_at: '2026-04-30T22:36:00Z'
   generator: manual-source-gap-classification
 purpose: Classify authoritative-source coverage gaps without converting them into
-  proof-obligation blockers after the proof matrix is discharged.
+  direct-live frontier blockers after the authority frontier is discharged.
 status_values:
   localized: Exact source burden has been placed on a lane-local theorem-facing
     surface; it no longer blocks export as an unidentified source gap.
   demoted: Source is retained as provenance or downstream context, but it is not
-    part of the active proof-obligation matrix.
+    part of the active direct-live authority frontier.
   explicitly-covered: The current lane surfaces directly cover the source topic
     and keep its release boundary explicit.
 release_rule: A topic blocks export readiness only while it remains unclassified;
@@ -62,7 +62,7 @@ topics:
       branch/provenance object. It remains visible as the original fourth-slot
       mechanism, while any Euclidean replacement must stay labeled as replacement
       or downstream theorem upgrade.
-    release_rule: localized source branch; does not reopen the discharged proof matrix.
+    release_rule: localized source branch; does not reopen the discharged direct-live frontier.
   - classification_id: ns-src-gap-initial-data-l2
     topic: initial data l2
     status: demoted
@@ -105,10 +105,10 @@ topics:
       - problems/navier-stokes/proof-assembly.yaml
     rationale: The discrete-to-continuous mapping source is preserved as legacy
       compactness/Galerkin provenance. The live route does not use the discrete
-      scheme as an active terminal proof obligation; it keeps compactness support
+      scheme as an active terminal direct-live burden; it keeps compactness support
       on fixed classical approximation and downstream dyadic/retained-cover packets.
     release_rule: demoted to provenance context for the compactness bridge; does
-      not reopen the proof matrix.
+      not reopen the direct-live frontier.
   - classification_id: ns-src-gap-master-corpus
     topic: master corpus
     status: demoted
@@ -123,7 +123,7 @@ topics:
     rationale: Master-corpus surfaces are inventories and provenance routers,
       not independent theorem claims. They must stay searchable but cannot become
       release blockers unless they identify a specific unclassified source topic.
-    release_rule: retained as source-forensics context, not an active proof obligation.
+    release_rule: retained as source-forensics context, not an active direct-live burden.
   - classification_id: ns-src-gap-aubin-lions-lemma
     topic: aubin lions lemma
     status: demoted
@@ -136,7 +136,7 @@ topics:
       - problems/navier-stokes/theorem-construction/nonlinear-compactness-upgrade-operator.md
     rationale: Aubin-Lions compactness is retained as the legacy compactness
       mechanism behind the source corpus. The current theorem packet treats it
-      as provenance for compactness support, not as a separate live matrix row.
+      as provenance for compactness support, not as a separate direct-live authority row.
     release_rule: demoted to compactness provenance; no source-gap blocker remains.
   - classification_id: ns-src-gap-discrete-energy-estimates
     topic: discrete energy estimates
@@ -149,7 +149,7 @@ topics:
       - problems/navier-stokes/source-grounded-framework-map.md
       - problems/navier-stokes/proof-assembly.yaml
     rationale: Discrete energy estimates belong to the legacy approximation
-      scaffold. The active proof matrix is governed by the retained/averaged
+      scaffold. The active direct-live authority frontier is governed by the retained/averaged
       route surfaces and does not spend a discrete-scheme energy row as a terminal
       theorem burden.
     release_rule: demoted to provenance context for approximation/compactness.
@@ -166,7 +166,7 @@ topics:
     rationale: Discrete formulations are retained as source-history and
       approximation context. They do not supersede the current torus-first
       classical/retained-cover theorem packet.
-    release_rule: demoted to source-history context; not a proof-obligation blocker.
+    release_rule: demoted to source-history context; not a direct-live frontier blocker.
   - classification_id: ns-src-gap-energy-bounds
     topic: energy bounds
     status: explicitly-covered
