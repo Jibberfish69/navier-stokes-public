@@ -1,5 +1,5 @@
 ---
-version: 3
+version: 4
 identity:
   problem_id: navier-stokes
   artifact_id: assumption-ledger-navier-stokes
@@ -7,10 +7,10 @@ identity:
   purpose: assumption and release-gate ledger after H1-H6 and Theorem 2.1 warrant
     alignment
 status:
-  ledger_status: local-theorem-program-closed
-  all_matrix_assumptions_discharged: true
+  ledger_status: blocked-direct-live-frontier-open
+  direct_live_authority_all_discharged: false
   release_eligible: false
-  release_gate: review-export-release-refresh
+  release_gate: direct-live-frontier-open
 source_evidence:
   theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_warrant: problems/navier-stokes/theorem-to-warrant.yaml
@@ -84,18 +84,18 @@ assumptions:
   surviving_primitive: MEG
   release_needed: false
 summary:
-  total_matrix_assumptions: 25
-  discharged_matrix_assumptions: 25
-  blocking_or_unresolved_matrix_count: 0
+  total_direct_live_assumptions: 10
+  discharged_direct_live_assumptions: 10
+  blocking_or_unresolved_authority_count: 1
   hfg_side_primitives_open:
   - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
-  release_blocking_count: 0
-release_blockers: []
-required_next_actions:
-- Refresh review/export/release surfaces against the current theorem packet; no active
-  local math frontier.
-generated_at: '2026-05-01T16:36:50Z'
-pass: true
+  release_blocking_count: 1
+  all_discharged: false
+release_blockers: &1
+- source-wall-root-after-reconcile
+required_next_actions: *1
+generated_at: '2026-05-07T00:51:03Z'
+pass: false
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
   status: local-theorem-program-closed
