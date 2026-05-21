@@ -12,7 +12,9 @@ The canonical obstruction class is
 B_{ASAC}^{closed}.
 ```
 
-It is already landed as a Zeno terminal atom Field-face diagnostic. The six audited production doors are:
+It is already identified as a Zeno terminal zero-radius residue, hence terminal
+`not Pack_Q` rather than a retained Field-face packet. The six audited production
+doors are:
 
 ```text
 temporal anti-concentration;
