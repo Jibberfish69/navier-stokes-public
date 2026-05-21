@@ -5,176 +5,31 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-05-03T18:53:37Z'
+  extracted_at: '2026-05-18T08:08:13Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
-    theorem_target: full-MPP periodic Clay closure via terminal promotion from the
-      installed Theorem 2.1 class-membership warrant
-    current_package_status: blocked-by-pctp5c-jumpavg-elimination
-    support_basis: Live route authority records the retained-field tower anchoring
-      closure as discharging the route-governing `SourcePulseCMExit.A` primitive.
-      The remaining full-route blocker is downstream `PCTP.5.C`, equivalently
-      `SOURCE.NO-PULSE.A` / `AWG.A`; the retained-field known-criteria route is
-      conditional, and the sharp branch-native targets are `SignedLocalSource.A`,
-      `LocalSource.NoPulse.A`, or the same-carrier `JAVG.1+JAVG.2` pair.
-    standalone_status: theorem-open-at-pctp5c
+    theorem_target: current route target
+    current_package_status: backbone grounded from recovered support
+    support_basis: Recovered source support converged with the speculative branch,
+      so the next safe move is a grounded backbone rebuild.
+    standalone_status: revise
 supporting_sections:
   reviewer_risks:
-  - 'Do not overclaim beyond the lowest safe theorem surface: The official Clay target
-    allows either the whole-space branch on `R^3` or the periodic branch on `T^3`.'
-  - 'First unsafe overclaim to avoid: Replacing the official Clay statement by a weaker
-    route-local or data-class-local statement.'
-  - Keep the full-MPP closure tied to the periodic Clay terminal-promotion theorem
-    and the official `T^3` zero-force branch; do not promote nonblocking `SourcePulseExclusion.A`
-    supplier context into a live blocker.
+  - Recovered support is still classified as strong, so the local package remains
+    a revise-stage workboard.
   required_local_explanations: []
-  post_release_theorem_upgrade_gaps: []
+  post_release_theorem_upgrade_gaps:
+  - source-wall-root-after-reconcile
   promotion_rule:
-  - Do not promote beyond local theorem-program closure into public release/submission
-    claims until the review/export/release artifacts are refreshed against the current
-    theorem packet.
+  - Do not promote beyond `revise` until every row marked as a live theorem burden
+    has either been localized into the local package or explicitly parked below the
+    theorem surface.
   - Keep the lowest safe claim explicit and do not let recovered speculative material
     masquerade as a proved bridge.
   - Re-run honesty-review only after the local package has real prose and an explicit
     debt map.
 debt_items:
-- debt_id: debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
-  label: Global energy or enstrophy control is necessary but not sufficient
-  source_section: proof-debt-ledger
-  monograph_status: localized by `MUP.EI`; packaging debt discharged
-  standalone_need: 'no'
-  primary_anchors:
-  - theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-  - theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
-  - problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
-  - problems/navier-stokes/claim-ladder.md
-  debt_class: packaging
-  recommended_stage: prose-realization
-  rationale: The ledger says the material already exists in a grounded, proved, or
-    discharged form, so the remaining work is localization, exposition, or packaging.
-  derivation_state: localized-support
-  support_strength: strong
-  source_scope_status: new-support-found
-  priority_rank: 1
-  derivation_attempts: 1
-  attempts_without_new_support: 0
-  last_derivation_run_id: debt-derive-navier-stokes-20260429T172008Z
-  evidence_paths:
-  - problems/navier-stokes/claim-ladder.md
-  - problems/navier-stokes/spine.md
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/formalization-ledger.md
-  new_evidence_paths:
-  - problems/navier-stokes/claim-ladder.md
-  - problems/navier-stokes/spine.md
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/formalization-ledger.md
-  source_sufficiency: sufficient
-  source_checks: 1
-- debt_id: debt-one-field-forward-preservation-wall
-  label: one-field forward-preservation wall
-  source_section: proof-debt-ledger
-  monograph_status: discharged terminal context under H1-H6; context only
-  standalone_need: 'no'
-  primary_anchors:
-  - theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
-  - theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
-  debt_class: packaging
-  recommended_stage: prose-realization
-  rationale: The ledger says the material already exists in a grounded, proved, or
-    discharged form, so the remaining work is localization, exposition, or packaging.
-  derivation_state: localized-support
-  support_strength: strong
-  source_scope_status: no-new-support
-  priority_rank: 2
-  derivation_attempts: 1
-  attempts_without_new_support: 1
-  last_derivation_run_id: debt-derive-navier-stokes-20260429T182548Z
-  evidence_paths:
-  - problems/navier-stokes/formalization-ledger.md
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  new_evidence_paths: []
-  source_sufficiency: sufficient
-  source_checks: 25
-- debt_id: debt-lower-carrier-receiver-wall
-  label: lower-carrier receiver wall
-  source_section: proof-debt-ledger
-  monograph_status: discharged terminal context under H1-H6; context only
-  standalone_need: 'no'
-  primary_anchors:
-  - theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
-  - theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
-  debt_class: packaging
-  recommended_stage: prose-realization
-  rationale: The ledger says the material already exists in a grounded, proved, or
-    discharged form, so the remaining work is localization, exposition, or packaging.
-  derivation_state: localized-support
-  support_strength: strong
-  source_scope_status: new-support-found
-  priority_rank: 3
-  derivation_attempts: 1
-  attempts_without_new_support: 0
-  last_derivation_run_id: debt-derive-navier-stokes-20260429T171954Z
-  evidence_paths:
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/formalization-ledger.md
-  - problems/navier-stokes/frozen-core.md
-  new_evidence_paths:
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/formalization-ledger.md
-  - problems/navier-stokes/frozen-core.md
-  source_sufficiency: sufficient
-  source_checks: 1
-- debt_id: debt-collar-to-jump-converse-pivot
-  label: collar-to-jump converse pivot
-  source_section: proof-debt-ledger
-  monograph_status: discharged terminal context under H1-H6; context only
-  standalone_need: 'no'
-  primary_anchors:
-  - theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
-  - theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md
-  debt_class: packaging
-  recommended_stage: prose-realization
-  rationale: The ledger says the material already exists in a grounded, proved, or
-    discharged form, so the remaining work is localization, exposition, or packaging.
-  derivation_state: localized-support
-  support_strength: strong
-  source_scope_status: new-support-found
-  priority_rank: 4
-  derivation_attempts: 1
-  attempts_without_new_support: 0
-  last_derivation_run_id: debt-derive-navier-stokes-20260429T172000Z
-  evidence_paths:
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/formalization-ledger.md
-  - problems/navier-stokes/frozen-core.md
-  new_evidence_paths:
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/formalization-ledger.md
-  - problems/navier-stokes/frozen-core.md
-  source_sufficiency: sufficient
-  source_checks: 1
 - debt_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   label: Keep theorem scope below the first unsafe overclaim
   source_section: proof-debt-ledger
@@ -189,46 +44,70 @@ debt_items:
   recommended_stage: prose-realization
   rationale: The ledger says the material already exists in some proved or discharged
     form, so the remaining work is localization, exposition, or packaging.
-  priority_rank: 5
-  derivation_state: localized-support
-  support_strength: strong
-- debt_id: debt-periodic-clay-terminal-promotion-bridge
-  label: Periodic Clay terminal-promotion bridge
-  source_section: proof-debt-ledger
-  monograph_status: conditional on `PCTP.5.C / SOURCE.NO-PULSE.A / AWG.A`;
-    retained-field tower anchoring closes the local CM-exit branch, but full
-    terminal-tail production still needs branch-native `Jump_avg` elimination.
+  priority_rank: 1
+- debt_id: debt-theorem-upgrade-1-source-wall-root-after-reconcile
+  label: source-wall-root-after-reconcile
+  source_section: post-release-theorem-upgrade
+  monograph_status: reopened from post-release theorem-upgrade plan
   standalone_need: 'yes'
   primary_anchors:
-  - theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md
-  - problems/navier-stokes/assumption-ledger.yaml
-  - theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
-  - problems/navier-stokes/source-frontier.yaml
-  - theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
-  - theorem-construction/mpp-sourcepulse-knowncriterion-placement-boundary-audit-note-20260503.md
-  - theorem-construction/mpp-pctp5c-kc-place-noncircularity-audit-note-20260503.md
-  - theorem-construction/mpp-pctp5c-signedlocal-javg-live-target-stack-20260503.md
+  - problems/navier-stokes/post-release-plan.yaml
   debt_class: blocked-frontier
-  recommended_stage: theorem-repair
-  rationale: The retained-field known-criteria route is conditional on field/coherence
-    data denied on the raw `Jump_avg` branch. Full route closure requires
-    `SignedLocalSource.A`, `LocalSource.NoPulse.A`, or same-carrier
-    `JAVG.1+JAVG.2` from `OriginalSmoothData`.
-  derivation_state: open
-  support_strength: insufficient
-  source_scope_status: theorem-open-at-pctp5c
-  priority_rank: 6
-  derivation_attempts: 0
+  recommended_stage: creative-theorem-search
+  rationale: The post-release plan says this gap remains outside the accepted checkpoint
+    package, so it must stay on the theorem-upgrade path instead of being demoted
+    to packaging debt.
+  priority_rank: 2
+- debt_id: source-wall-root-after-reconcile
+  label: source-wall-root-after-reconcile
+  source_section: formalization-reentry
+  monograph_status: reopened from a stalled object-formalization/dependency-discharge
+    handoff
+  standalone_need: 'yes'
+  primary_anchors:
+  - problems/navier-stokes/creative-theorem-search.yaml
+  - problems/navier-stokes/dependency-discharge.yaml
+  - problems/navier-stokes/object-formalization.yaml
+  - problems/navier-stokes/proof-assembly.yaml
+  debt_class: local-derivable
+  derivation_state: localized-support
+  source_scope_status: new-support-found
+  derivation_attempts: 1
   attempts_without_new_support: 0
+  recommended_stage: debt-derive
+  rationale: A matched object-formalization packet failed to promote this exact target,
+    so the runner must split it into a sharper local derivation debt before trying
+    another object or discharge pass.
+  priority_rank: 3
+  last_derivation_run_id: debt-derive-navier-stokes-20260518T080826Z
+  support_strength: strong
+  evidence_paths:
+  - problems/navier-stokes/frozen-core.md
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/extension-branches.yaml
+  - problems/navier-stokes/lemma-falsification.yaml
+  new_evidence_paths:
+  - problems/navier-stokes/frozen-core.md
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/extension-branches.yaml
+  - problems/navier-stokes/lemma-falsification.yaml
+  source_sufficiency: sufficient
+  source_checks: 1
 summary:
   counts_by_class:
-    packaging: 5
-    local-derivable: 0
+    packaging: 1
+    local-derivable: 1
     branch-choice: 0
     blocked-frontier: 1
-  recommended_next_cell_type: theorem-repair
-  recommended_next_action: Prove branch-native `Jump_avg` elimination through
-    `SignedLocalSource.A`, `LocalSource.NoPulse.A`, or same-carrier `JAVG.1+JAVG.2`;
-    retained `Field`/`Field_avg` cannot be spent on that branch.
+  recommended_next_cell_type: backbone-build
+  recommended_next_action: Local derivation debt is cleared, but branch-choice or
+    frontier debt still remains, so rerun backbone-build to route that non-local debt
+    through recovery or escalation.
   recommended_debt_ids:
-  - debt-periodic-clay-terminal-promotion-bridge
+  - debt-theorem-upgrade-1-source-wall-root-after-reconcile
+  derivation_counts_by_state:
+    localized-support: 1
