@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: warrant-compilation-navier-stokes
-  generated_at: '2026-05-21T22:29:21Z'
+  generated_at: '2026-05-21T23:35:01Z'
   generator: tools/ns_pipeline_hardener.rb
 primary_track:
   route_id: source-grounded-four-bridge
@@ -139,9 +139,11 @@ active_frontier:
       - ScaleCriticalTreeCarleson.A as diagnostic positive source-control language
         with selected failure sorted to Field by RawSCTCFailurePartition.A + SCTCFailureToFaceWitness.A
         + RetainedSCTCFailureFieldExit.A
-      - ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A as diagnostic/source-residue
-        language with selected terminal-atom failure sorted to Field by RawZenoFailurePartition.A
-        + ZenoAtomFailureToFaceWitness.A + RetainedZenoAtomFieldExit.A
+      - 'ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A as diagnostic/source-residue
+        language: finite Zeno ancestry is sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A,
+        while the terminal zero-radius residue is not Pack_Q and Field/Jump language
+        is post-exit readout unless a positive-scale retained carrier is separately
+        proved'
       - RetainedFaceAmplitudeGain.A as a PackGainLedger/PartEnvelopeAmplitudeConservation
         boundary, not a new face
       - ActiveHeightFluxTrichotomy.A as Pack/Part/legal-Field/Zeno face routing
@@ -391,12 +393,12 @@ active_frontier:
         source-ancestry compactness, branch-entropy/tree-Carleson, transported no-flux,
         pressure/Leray, local-energy-trace, and rigid-subclass production doors all
         fail from installed inputs or remain conditional production imports. The May
-        19 shared-participation update classifies the completed CM-exit branch as
-        B_ASAC^closed -> BASACClosedTerminalAtomCMExitClassification.A + BASACTerminalAtomCMFaceLabeling.A
-        + RetainedPackFieldNoIncomingParticipationFlux.A + BASACLiouvilleCMParticipationBridge.A:
-        retained Pack+Field supplies no incoming participation flux, finite CM kills
-        the terminal atom by the residence bound, and positive terminal mass is a
-        paid exit or typed Pack/Part/Field face. A general TerminalSourceReverseHolder.A
+        21 terminal Zeno correction classifies the endpoint as `not Pack_Q`: finite
+        Zeno ancestry packets may be legal, but the terminal zero-radius residue is
+        not a retained positive-radius packet. BASACTerminalAtomCMFaceLabeling.A,
+        RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
+        are upstream finite-ancestry accounting or downstream post-exit readout, not
+        a retained terminal Field packet. A general TerminalSourceReverseHolder.A
         remains an external new theorem, not a consequence of the installed B_ASAC
         bookkeeping. LocalPositiveSourceCarleson.A collapses to PositiveRemainderDepletion.A;
         SquareSourceEstimate.A and ActiveShellAmplitudeGain.A collapse to ActiveShellSourceNormalize.A
