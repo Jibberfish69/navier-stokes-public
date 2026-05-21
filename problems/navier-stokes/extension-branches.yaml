@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   branch_set_id: extension-branches-navier-stokes
-  generated_at: '2026-04-30T23:52:59Z'
+  generated_at: '2026-05-18T08:07:20Z'
   generator: system/runner/lib/lemma_synthesis_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -12,6 +12,20 @@ provenance_policy:
   branch_class: machine-derived-beyond-source-frontier
   merge_rule: Do not merge any branch into the frozen core unless it survives falsification
     and promotion.
-branches: []
+branches:
+- branch_id: branch-navier-stokes-1
+  origin_obligation_id: source-wall-root-after-reconcile
+  branch_type: route-branch
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Open a quarantined side branch that tests whether source-wall-root-after-reconcile
+    can be made explicit without crossing the current safe-claim boundary.
+  depends_on:
+  - marvin-upstream-c8f7cb511776
+  - marvin-upstream-e2f5b0a915cf
+  - source-wall-root-after-reconcile
+  risk_level: high
+  notes:
+  - This branch starts exactly at the first unresolved frontier for `source-wall-root-after-reconcile`.
+  merge_policy: quarantined-until-promoted
 summary:
-  branch_count: 0
+  branch_count: 1
