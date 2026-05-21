@@ -1,0 +1,14 @@
+---
+version: 1
+problem_id: navier-stokes
+records:
+- obligation_id: cm-witness-face-bridge-installed-membersmooth-a-gives-forall-n-cm-witness-smoothness-and-witnessface-a-gives-nonsmooth-not-pack-or-not-part-or-not-field
+  status: discharged
+  evidence_path: problems/navier-stokes/theorem-construction/mpp-live-edge-obligation-evidence-20260504.md
+  evidence_sha1: 30d76762ba694b1968899df02cc005624a944281
+  evidence_kind: direct-live-authority-fallback-discharge
+  accepted_at: '2026-05-04T20:58:00Z'
+  updated_at: '2026-05-04T20:58:00Z'
+summary:
+  accepted_count: 1
+  updated_at: '2026-05-04T20:58:00Z'

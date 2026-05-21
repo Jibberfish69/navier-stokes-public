@@ -1,0 +1,412 @@
+---
+version: 5
+artifact_id: navier-stokes-current-route-dependency-graph-20260505
+generated_at: '2026-05-05T19:20:00Z'
+generated_by: codex-chat26
+status: current-lane-authority-overlay
+scope: problems/navier-stokes
+authority_mode: non_generated_theorem_facing_overlay
+purpose: >-
+  Record the current Navier-Stokes route graph after SourceWall.Reconcile.A was
+  resolved by demoting normalized-adjoint source-drain to conditional support.
+  The companion CM convergence atlas records the same graph as an audit-open
+  target-refinement surface for automation and subagent theorem-crank passes.
+primary_frontier:
+  obligation_id: source-wall-root-after-reconcile
+  status: live
+  exact_choice:
+    - PositiveRemainderDepletion.A
+    - ScaleCriticalTreeCarleson.A
+    - ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+  statement: >-
+    Prove the reopened source-wall root through the native positive-remainder
+    source-reserve atom, through the direct scale-critical Carleson reserve, or
+    through a genuinely produced Zeno temporal anti-concentration / rigid-class
+    residue route. The May 16 run proves the surrounding routes only
+    conditionally: ASAC pays alignment and one-sided pair-weight defects, while
+    the remaining branch is terminal Zeno source residence. This root is a
+    Field-face residual branch under the CM contrapositive witness split, not
+    the primitive OriginalSmoothData positive-bootstrap direction.
+nodes:
+  cm_convergence_atlas:
+    status: audit-open-target-refinement-surface
+    theorem_ids:
+      - CM.ConvergenceAtlas.TargetRefinement
+    source:
+      - theorem-construction/mpp-gods-eye-cm-convergence-atlas-20260506.md
+      - cm-convergence-atlas.yaml
+    role: >-
+      Audit-open atlas that connects the primitive Member/CM witness graph,
+      Pack/Part/Field face split, receiver/source/readout/endpoint layers,
+      Field-face source-wall gate, alias-collapse table, and theorem-crank
+      method. It does not discharge the source wall and is not a theorem-grade
+      promotion surface; it points audit-open analytic effort to
+      DonorHeightCreation.A / ReserveCreationCharge.A through a real structural
+      HeightFluxControl.A mechanism, TemporalNonAtomicSource.A, or an
+      independent WeightedLiftedSkewDefectLegal.A route.
+  cm_witness_face_bridge:
+    status: installed
+    theorem_ids:
+      - MemberSmooth.A
+      - WitnessFace.A
+    source:
+      - theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
+    role: >-
+      Governing CM bridge: all-depth CM witness membership implies Smooth(Q),
+      and NonSmooth(Q) forces a Pack/Part/Field witness-face exit.
+  sourcewall_reconcile_resolution:
+    status: resolved-by-demotion
+    theorem_ids:
+      - SourceWall.Reconcile.A
+    source:
+      - theorem-construction/mpp-sourcewall-reconcile-a-resolution-and-root-reopen-20260505.md
+      - live-theorem-edge.yaml
+      - source-frontier.yaml
+    role: >-
+      Demotes normalized-adjoint source-drain from unconditional source-wall
+      proof to conditional analytic support because FirstPulseKill.A lacks
+      source-parent compactness / no-diffuse-ancestry.
+  normalized_adjoint_source_drain_support:
+    status: conditional-support
+    theorem_ids:
+      - CoeffStop.A
+      - WeightedAdjBessel.A
+      - WeightedAdjRes.A
+      - GainStop.A
+      - ParentKernel.A
+      - FirstPulseKill.A
+      - LemmaB.SourceDrain
+    source:
+      - theorem-construction/mpp-normalized-adjoint-amplitude-four-certificate-discharge-20260504.md
+      - theorem-construction/mpp-source-drain-definition-alignment-and-discharge-20260504.md
+      - theorem-construction/mpp-sourcewall-reconcile-a-resolution-and-root-reopen-20260505.md
+    role: >-
+      Accepted conditional analytic parent-or-charge mechanism. It does not
+      prove SOURCE.NO-PULSE.A from OriginalSmoothData without an additional
+      source-wall root theorem.
+  direct_carleson_root:
+    status: live-branch
+    theorem_ids:
+      - ParentSquareEmbed.A
+      - SquareReserveEvolution.A
+      - ReserveCreationCharge.A
+      - DonorHeightCreation.A
+      - HeightFluxControl.A
+      - ActiveWindowHeight.A
+      - ScaleCriticalTreeCarleson.A
+      - LocalPositiveSourceCarleson.A
+    source:
+      - theorem-construction/mpp-parent-square-embed-and-scalecritical-reserve-reduction-20260505.md
+      - theorem-construction/mpp-sourcewall-reconcile-a-resolution-and-root-reopen-20260505.md
+      - theorem-construction/mpp-sourcewall-root-postreconcile-direct-attempt-20260505.md
+      - theorem-construction/mpp-scalecritical-tree-carleson-bellman-reserve-attempt-20260505.md
+      - theorem-construction/mpp-scalecritical-tree-carleson-direct-irreducibility-note-20260505.md
+      - theorem-construction/mpp-scalecritical-tree-carleson-next-attempt-20260505.md
+      - theorem-construction/mpp-square-reserve-evolution-next-attempt-20260505.md
+      - theorem-construction/mpp-reserve-creation-charge-height-variation-reduction-20260506.md
+      - theorem-construction/mpp-heightflux-synthesis-adversarial-audit-20260506.md
+      - theorem-construction/mpp-firstheightcreation-dichotomy-terminal-attempt-and-collapse-20260506.md
+      - theorem-construction/mpp-donorheightcreation-shellbalance-direct-attempt-20260506.md
+      - theorem-construction/mpp-positive-remainder-source-supplier-handoff-20260516.md
+      - theorem-construction/mcp-scalecriticaltreecarleson-a-activesquarereserve-a-scalecriticaltreecarleson-a-d3e81f46a9.md
+      - live-theorem-edge.yaml
+      - source-frontier.yaml
+    installed_part: >-
+      ParentSquareEmbed.A controls the full diffuse parent cloud under packet
+      Bessel hypotheses.
+    open_part: >-
+      ScaleCriticalTreeCarleson.A remains the scalar reserve needed to close
+      LocalPositiveSourceCarleson.A. The tree-Bellman reserve attempt is
+      circular unless an independent active-window Carleson reserve,
+      active-shell amplitude gain, normalized square-source theorem,
+      branch-reserve theorem, or Zeno rigidity theorem is installed. The direct
+      irreducibility note rules out tracking ScaleCriticalPulseReserve.A as a
+      separate theorem object below ScaleCriticalTreeCarleson.A. The latest
+      scalar dynamic attempt shows SquareReserveEvolution.A is not installed:
+      it reduces to the missing ReserveCreationCharge.A, with
+      DonorHeightCreation.A as the audit-open first-creation target and
+      HeightFluxControl.A as the shell-balance obstruction beneath that atom.
+      FirstHeightCreationDichotomy.A has been terminally attempted and collapsed
+      as an independent lower theorem: it is either tautological shell-flux
+      accounting or it spends the same active-alignment / TPNI / retained-pack
+      gain / Zeno machinery.
+      ActiveWindowHeight.A remains a stronger scalar sufficient condition.
+      The May 16 active-square attempt confirms that Bellman/endpoint control
+      pays only first-moment tail unless a functional already contains the
+      scale-critical active-square reserve.
+  parabolic_source_current_root:
+    status: conditional-support-after-collapse
+    theorem_ids:
+      - ParabolicSourceCurrent.A
+      - BareDyadicSkewCurrent.0
+      - LocalizedSkewCurrent.A
+      - TerminalSkewLocalizationLedger.A
+      - TerminalSignedSaturation.A
+      - ParabolicNoFreeSink.A
+      - CycleHeatAction.A
+      - ParabolicCycleCoercivity.A
+      - ParabolicEdgeResistance.A
+      - TerminalParabolicSignedSaturation.A
+      - FirstCurrentPruning.A
+      - OffFamilyCounteredgeCharge.A
+      - WeightedLiftedDefectCarleson.A
+    source:
+      - theorem-construction/mpp-parabolic-source-current-route-note-20260505.md
+      - theorem-construction/mpp-cycle-heat-action-proof-plan-after-think-again-20260505.md
+      - theorem-construction/mpp-localized-skew-current-theorem-grade-audit-20260505.md
+      - theorem-construction/mpp-cycle-heat-action-direct-attempt-20260505.md
+      - theorem-construction/mpp-cycleheataction-direct-attempt-no-free-sink-obstruction-20260505.md
+      - theorem-construction/mpp-terminal-skew-localization-ledger-direct-attempt-20260505.md
+      - theorem-construction/mpp-first-current-pruning-audit-20260505.md
+      - theorem-construction/mpp-parabolic-cycle-coercivity-direct-attempt-20260505.md
+      - theorem-construction/mpp-parabolic-edge-resistance-direct-attempt-20260505.md
+      - theorem-construction/mpp-terminal-signed-saturation-direct-attempt-20260505.md
+      - theorem-construction/mpp-parabolic-no-free-sink-direct-attempt-20260505.md
+      - theorem-construction/mpp-off-family-counteredge-charge-direct-attempt-20260505.md
+      - theorem-construction/mpp-weighted-lifted-defect-carleson-direct-attempt-20260505.md
+      - theorem-construction/mpp-sourcewall-signed-current-collapse-ledger-20260505.md
+      - live-theorem-edge.yaml
+      - source-frontier.yaml
+    installed_part: >-
+      Only BareDyadicSkewCurrent.0 is presently installed: before one-sided
+      weights, lifted/cutoff reductions, positive-part extraction, and terminal
+      same-fluid selection, incompressible dyadic advective exchange is
+      zero-sum and may be represented as an antisymmetric edge current.
+    open_part: >-
+      The signed-current branch has been audited through its natural lower
+      targets. LocalizedSkewCurrent.A requires TerminalSkewLocalizationLedger.A
+      / TerminalSignedSaturation.A. CycleHeatAction.A requires no-free-sink and
+      cycle-coercivity input. FirstCurrentPruning.A, ParabolicNoFreeSink.A, and
+      OffFamilyCounteredgeCharge.A all collapse to TerminalSignedSaturation.A.
+      WeightedLiftedDefectCarleson.A fails at the native positive active
+      strain-production carrier and returns to ScaleCriticalTreeCarleson.A or
+      the Zeno pair. ParabolicEdgeResistance.A also returns to
+      ScaleCriticalTreeCarleson.A. Therefore this route is conditional support,
+      not a lower installed root.
+  zeno_root:
+    status: live-alternate-branch
+    theorem_ids:
+      - ZenoBoundedClass_B.A
+      - ZenoResidueLiouville_B.A
+      - UniformTemporalSourceIntegrability_p.A
+      - TemporalNonAtomicSource.A
+      - HeatScaleSquareSource.A
+    source:
+      - theorem-construction/mpp-sourcewall-reconcile-a-resolution-and-root-reopen-20260505.md
+      - live-theorem-edge.yaml
+      - source-frontier.yaml
+      - theorem-construction/mpp-zeno-rigid-class-candidates-direct-audit-note.md
+      - theorem-construction/mpp-zeno-residue-liouville-target-attack-note.md
+      - theorem-construction/mpp-zeno-rigid-class-next-attempt-20260505.md
+      - theorem-construction/mpp-uniform-temporal-integrability-next-attempt-20260505.md
+      - theorem-construction/mcp-temporal-integrability-square-source-chain-solver-20260505.md
+      - theorem-construction/mcp-zenosourceresiduerigidity-a-7a97f81431.md
+      - theorem-construction/mcp-uniformtemporalsourceintegrability-a-terminalresidueatomexclusion-a-uniformtemporalsourceintegrability-a-892a3622a3.md
+      - theorem-construction/mcp-zenocancellationclassproduction-a-8df8798dfd.md
+    role: >-
+      Alternative root closure: produce a rigid ancient class B for the terminal
+      Zeno source-residue limit and prove residue Liouville in that class. The
+      temporal-support candidate class would close through
+      TemporalNonAtomicSource.A, but the latest direct temporal attempt shows
+      that UniformTemporalSourceIntegrability_p.A is not installed. The May 16
+      version proves the temporal-non-atom implication but records that installed
+      control is only L1_t; terminal atoms require super-L1 residence such as
+      Lp_t, p>1, or an independently produced rigid residue class with Liouville.
+  native_trilinear_source_wall:
+    status: equivalent-open-presentation
+    theorem_ids:
+      - PositiveRemainderDepletion.A
+      - NativeTrilinearDefectDomination.A
+      - CoeffBound.A
+      - ActiveAmplitudeCarleson.A
+      - AlignmentDecorrel.A
+      - PositiveStrainDecorrelation.A
+      - PositiveActiveCarlesonReserve.A
+      - TerminalAngularMixing.A
+      - OneSidedSelectedWindowNegativePartComparison.A
+    source:
+      - theorem-construction/mpp-sourcewall-proceed-pass-uniform-temporal-zero-loss-profile-20260505.md
+      - theorem-construction/mpp-native-trilinear-defect-domination-direct-attempt-note.md
+      - theorem-construction/mpp-native-trilinear-defect-alignment-split-note.md
+      - theorem-construction/mpp-native-trilinear-defect-domination-next-attempt-20260505.md
+      - theorem-construction/mpp-positive-remainder-source-supplier-handoff-20260516.md
+      - theorem-construction/mcp-positiveremainderdepletion-a-97b674fc40.md
+      - theorem-construction/mcp-terminalangularmixing-a-alignmentdecorrel-a-asac-a-5b08228909.md
+      - theorem-construction/mcp-onesidedselectedwindownegativepartcomparison-a-asac-a-9eade42309.md
+      - theorem-construction/mpp-five-supplier-parallel-completion-ledger-20260517.md
+      - theorem-construction/mpp-prd-completion-attempt-20260517.md
+      - theorem-construction/mpp-localpositivesourcecarleson-completion-attempt-20260517.md
+      - theorem-construction/mpp-squaresourceestimate-completion-attempt-20260517.md
+      - theorem-construction/mpp-activeshellamplitudegain-completion-attempt-20260517.md
+      - theorem-construction/mpp-noncarleson-zeno-temporal-anticoncentration-completion-attempt-20260517.md
+      - theorem-construction/mpp-sourceweighted-terminal-angular-depletion-solve-route-20260517.md
+      - theorem-construction/mpp-asac-defect-measure-equality-class-production-20260517.md
+      - theorem-construction/mpp-zenoresidue-liouville-basac-direct-attempt-20260517.md
+      - theorem-construction/mpp-terminal-source-reverse-holder-basac-direct-attempt-20260517.md
+    role: >-
+      Native zero-loss PDE face of the same positive source-control wall. The
+      direct attempt fails at the singular positive product
+      |w_j|^2[e_j.S_<j^loc e_j]_+. The May 16 handoff makes
+      PositiveRemainderDepletion.A the current native source-reserve atom.
+      TerminalAngularMixing.A / AlignmentDecorrel.A and the one-sided
+      selected-window negative-part comparison both close only conditionally
+      after ZenoSourceResidueRigidity.A. The May 17 parallel completion pass
+      tests PositiveRemainderDepletion.A, LocalPositiveSourceCarleson.A,
+      SquareSourceEstimate.A, ActiveShellAmplitudeGain.A, and non-Carleson Zeno
+      temporal anti-concentration; none closes unconditionally from installed
+      inputs. The sharper PRD primitive is
+      SourceWeightedTerminalAngularDepletion.A, LPSC returns to PRD, Square and
+      ASAG return to ActiveShellSourceNormalize.A / active-square reserve, and
+      the Zeno route requires TerminalSourceReverseHolder.A /
+      UniformTemporalSourceIntegrability_p.A or a produced rigid residue class
+      with Liouville. The equality route under
+      SourceWeightedTerminalAngularDepletion.A installs ASACDefectMeasure.A and
+      TerminalNoFreeSinkEqualityClassProduction.A, producing B_ASAC, but the
+      direct ZenoResidueLiouville_{B_ASAC}.A attempt fails because B_ASAC still
+      permits a zero-thickness terminal source atom and does not supply global
+      no-incoming flux. The B_ASAC-specialized TerminalSourceReverseHolder.A
+      attempt also fails because zero ASAC defect does not upgrade the temporal
+      source marginal beyond L1_t; the BASAC-local result is
+      B_ASAC^closed -> BASACClosedAtomCMFieldFaceDiagnostic.A, and forward
+      progress requires an external new-production theorem.
+  downstream_no_jump_readout:
+    status: conditional-downstream
+    theorem_ids:
+      - SOURCE.NO-PULSE.A
+      - AWG.A
+      - Jump_avg=>bot
+      - PCTP.hard
+      - TTU.A
+    source:
+      - live-theorem-edge.yaml
+      - source-frontier.yaml
+      - theorem-construction/mpp-sourcewall-reconcile-a-resolution-and-root-reopen-20260505.md
+      - theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md
+    role: >-
+      Downstream source-pulse/no-Jump_avg terminal-tail consumer. It becomes
+      active only after the reopened source-wall root is proved.
+  readout_scale_interface:
+    status: replacement-interface-not-root
+    theorem_ids:
+      - GoodScaleNonCollapse.A
+      - UniformReadCover.A
+      - READ.COVER
+    source:
+      - theorem-construction/mpp-good-scale-noncollapse-replacement-target-audit-20260505.md
+      - live-theorem-edge.yaml
+    role: >-
+      GoodScaleNonCollapse.A is the correct replacement interface for READ.COVER
+      and terminal scale noncollapse. Proving it from OriginalSmoothData still
+      requires ScaleCriticalTreeCarleson.A or the Zeno rigid-class pair.
+  typed_cm_rows:
+    status: typed-conditional-inputs
+    theorem_ids:
+      - Pack.TTU=>Pack_Q
+      - Part.NoDrop=>Part_N_Q
+      - Field.Readout=>Field_N_r_Q
+      - CM.CrossFaceSynthesis.A
+    source:
+      - theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
+      - theorem-construction/mpp-cm-cross-face-synthesis-bridge-license-audit-20260505.md
+      - theorem-construction/mcp-explicit-cm-witness-face-bridge-after-source-pulse-20260504.md
+      - theorem-construction/mcp-part-row-nodrop-to-part-n-q-20260504.md
+    role: >-
+      Typed Pack/Part/Field row inputs into the CM witness. CM.CrossFaceSynthesis.A
+      only synchronizes already-certified faces on the same witness ledger; it
+      does not discharge the source-wall root. The Field source readout remains
+      conditional on root source-wall closure, now typed by
+      FieldFaceResidueReduction.A as a residual Field-face branch after
+      visible-jump / receiver / read-cover / legal-loss alternatives are routed.
+      FieldSourceResidueJump.A classifies a native Field-face source residue as
+      `(Field,Jump)`, but classification alone is not endpoint exclusion.
+  clay_target:
+    status: target
+    theorem_ids:
+      - Smooth(Q)
+      - Clay
+    source:
+      - theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
+      - live-theorem-edge.yaml
+    role: >-
+      Final manuscript target after source-wall readout and CM witness rows are
+      reconciled.
+  generated_surface_drift:
+    status: open-shared-system-repair
+    source:
+      - governance-escalation.yaml
+    role: >-
+      Non-math blocker: shared formalization/theorem-repair routing must
+      recognize CM.CrossFaceSynthesis.A as installed and return the lane to
+      source-wall-root-after-reconcile instead of replaying a bridge-license
+      failure.
+edges:
+  - from: sourcewall_reconcile_resolution
+    to: direct_carleson_root
+    kind: reopened_root_branch
+  - from: cm_convergence_atlas
+    to: direct_carleson_root
+    kind: live_direct_atom_selection
+    condition: ReserveCreationCharge.A / SquareReserveEvolution.A path
+  - from: cm_convergence_atlas
+    to: zeno_root
+    kind: live_alternate_atom_selection
+    condition: TemporalNonAtomicSource.A / residue Liouville path
+  - from: cm_convergence_atlas
+    to: parabolic_source_current_root
+    kind: conditional_support_selection
+    condition: independent WeightedLiftedSkewDefectLegal.A or source-current geometry
+  - from: sourcewall_reconcile_resolution
+    to: parabolic_source_current_root
+    kind: preferred_direct_attack
+  - from: sourcewall_reconcile_resolution
+    to: zeno_root
+    kind: reopened_root_branch
+  - from: sourcewall_reconcile_resolution
+    to: native_trilinear_source_wall
+    kind: equivalent_native_pde_presentation
+  - from: normalized_adjoint_source_drain_support
+    to: downstream_no_jump_readout
+    kind: conditional_support
+    condition: reopened source-wall root proved
+  - from: direct_carleson_root
+    to: downstream_no_jump_readout
+    kind: source_wall_closure
+    condition: ScaleCriticalTreeCarleson.A proved
+  - from: parabolic_source_current_root
+    to: direct_carleson_root
+    kind: conditional_signed_current_support
+    condition: genuine new signed-saturation plus edge-resistance source-control theorem supplied
+  - from: native_trilinear_source_wall
+    to: direct_carleson_root
+    kind: equivalent_source_control_closure
+    condition: PositiveRemainderDepletion.A / NativeTrilinearDefectDomination.A proved, with May 17 PRD sharpened to SourceWeightedTerminalAngularDepletion.A
+  - from: zeno_root
+    to: downstream_no_jump_readout
+    kind: source_wall_closure
+    condition: ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A proved
+  - from: zeno_root
+    to: downstream_no_jump_readout
+    kind: conditional_temporal_support_route
+    condition: TemporalNonAtomicSource.A proved for native positive source-residue measures
+  - from: downstream_no_jump_readout
+    to: readout_scale_interface
+    kind: feeds_field_readout
+  - from: readout_scale_interface
+    to: typed_cm_rows
+    kind: supplies_read_cover_interface
+  - from: typed_cm_rows
+    to: cm_witness_face_bridge
+    kind: supplies_cm_witness_rows
+  - from: cm_witness_face_bridge
+    to: clay_target
+    kind: installed_smoothness_bridge
+  - from: generated_surface_drift
+    to: clay_target
+    kind: release_blocker_not_math_blocker
+boundary:
+  - >-
+    This graph supersedes stale generated dependency-graph surfaces only as a
+    lane-local authority overlay; it does not edit shared system builders.
+  - >-
+    The graph intentionally keeps the reopened root source wall live until
+    ScaleCriticalTreeCarleson.A or the Zeno rigid-class pair is proved.

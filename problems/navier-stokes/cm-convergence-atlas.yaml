@@ -1,0 +1,197 @@
+---
+version: 1
+artifact_id: navier-stokes-cm-convergence-atlas-20260506
+generated_at: '2026-05-06T21:23:17Z'
+generated_by: codex-chat29
+status: audit-open-target-refinement-atlas
+scope: problems/navier-stokes
+purpose: >-
+  Machine-readable audit-open node/edge atlas for the Navier-Stokes CM
+  contrapositive program. This surface proposes target refinements for primitive
+  CM direction, Field-face source-wall routing, receiver/readout endpoint
+  direction, source-wall alias collapse, and theorem-crank rules; it does not
+  discharge or promote the source-wall root.
+authority:
+  governing_primitive: "Exit(Q;O_NS^work):=not Member(Q;O_NS^work)"
+  certificate: "CM_{N,r,Q}=Pack_Q and Part_{N,Q} and Field_{N,r,Q}"
+  installed_direction: "CM=>Member"
+  installed_witness_use: "first class exit / NonSmooth(Q)=>not Pack or not Part or not Field"
+  not_installed:
+    - "arbitrary not CM=>not Member"
+    - "OriginalSmoothData=>NativePositiveSourceControl.A as primitive proof direction"
+    - "source residue classification=>endpoint contradiction without END.Field"
+    - "READ.COVER as upstream cover production"
+primary_open_root:
+  obligation_id: source-wall-root-after-reconcile
+  typed_role: audit-open source-wall residual requiring known CM-exit landing before
+    any branch presentation may steer the proof
+  cm_exit_discipline: A source-wall surface is live for the CM program only when it
+    is forced by first-exit analysis or lands in Pack, Part, or Field.
+  diagnostic_source_control_presentation: ScaleCriticalTreeCarleson.A
+  diagnostic_residue_presentation: ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+  diagnostic_atoms_pending_cm_exit_landing:
+    - theorem_id: ReserveCreationCharge.A
+      role: diagnostic subtheorem inside the positive source-control presentation;
+        does not steer the CM route until it lands in Pack, Part, or Field
+      positive_control_consequences_if_proved:
+        - SquareReserveEvolution.A
+        - ScaleCriticalTreeCarleson.A
+        - LocalPositiveSourceCarleson.A
+    - theorem_id: ActiveWindowHeight.A
+      role: diagnostic realization of ReserveCreationCharge.A inside positive source-control
+        language
+    - theorem_id: DonorReserveAdjointTrace.A
+      role: diagnostic realization of ReserveCreationCharge.A inside positive source-control
+        language
+    - theorem_id: DonorHeightCreation.A
+      role: audit-open first-creation theorem for scale-normalized donor height; usable for first-pulse ReserveCreationCharge.A only after a real structural HeightFluxControl.A mechanism
+    - theorem_id: HeightFluxControl.A
+      role: shell-balance obstruction beneath DonorHeightCreation.A; must control positive weighted shell flux noncircularly
+    - theorem_id: FirstHeightCreationDichotomy.A
+      role: collapsed as independent target; terminal attempt shows it is tautological unless it spends HeightFluxControl.A / ActiveStrainAlignmentCost.A / TPNI.A / RetainedPackGainProduction.A / Zeno evacuation
+    - theorem_id: TemporalNonAtomicSource.A
+      role: Zeno route atom needed to upgrade to time-rigid source-residue class
+    - theorem_id: TerminalResidueAtomExclusion.A
+      role: Zeno terminal atom exclusion target; should imply TemporalNonAtomicSource.A without square-source integrability
+    - theorem_id: ResidueEvacuationWithoutSquareSource.A
+      role: independent Zeno evacuation route avoiding hidden dependence on ScaleCriticalTreeCarleson.A
+    - theorem_id: WeightedLiftedSkewDefectLegal.A
+      role: signed-current gate; independent only through new geometry/cancellation input
+    - theorem_id: ActiveStrainAlignmentCost.A
+      role: geometric cost theorem for positive alignment with expanding low-strain directions
+    - theorem_id: TerminalTangentNoIncomingRigidity.A
+      role: candidate rigidity mechanism behind signed-current legality and the structural HeightFluxControl.A route
+layers:
+  primitive_cm:
+    nodes:
+      - O_NS^work
+      - Member
+      - CM
+      - Pack
+      - Part
+      - Field
+    installed_edges:
+      - "CM=>Member"
+      - "first class exit=>not Pack or not Part or not Field"
+    forbidden_edges:
+      - "not CM=>not Member without WitnessFace/first-exit structure"
+  receiver_source:
+    upstream_chain: "RSCB.NKF=>NKF.Native=>ACT.KX=>ACT.X-Readout=>ACT.A=>RCF.A=>LCI.A"
+    recombination_chain: "LCI.A+FCI.5f=>CSP.A=>OFP.A=>CFI.A"
+    source_supplier: "FPCR.C+FSCR.C+FCC.C1=>FCI.5f; stronger import FFSRC.A=>FCI.5f when explicitly cited"
+    forbidden_edges:
+      - "endpoint rows feeding ACT.KX or LCI.A"
+      - "READ.COVER feeding averaged receiver closure"
+  field_face_source_wall:
+    route_typing:
+      - FieldFaceResidueReduction.A
+      - FieldSourceResidueJump.A
+    lawful_entry: >-
+      not Field=>VisibleJump_Field or not ReceiverFieldSupplier or not
+      ReadCover/NoJumpSupplier or not NativePositiveSourceControl.A or
+      ZenoResidue_B
+    live_residual_after_routing:
+      - ScaleCriticalTreeCarleson.A
+      - ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+    classification_only:
+      - "FieldSourceResidueJump.A lands source residue in (Field,Jump)"
+      - "classification is not contradiction until END.Field is supplied"
+  readout_endpoint:
+    downstream_readout:
+      - "End_NS_avg=>READ.COVER_downstream=>Field.Read+DTC.Read=>READ.END"
+    upstream_cover_replacement:
+      - GoodScaleNonCollapse.A
+      - UniformReadCover.A
+    endpoint_rows:
+      END.Pack: "spends pack gauge"
+      END.Field: "spends Field+OFP.A"
+      END.TowerBound: "spends pointwise DTC.A plus pressure/viscous K_k readout"
+      END.Cross: "formal endpoint reduction"
+      END.Exh: "witness-certificate grammar"
+    forbidden_edges:
+      - "READ.COVER_downstream=>AACT.KX"
+      - "READ.COVER_downstream=>AVG.RCV.A"
+      - "READ.COVER_downstream=>End_NS_avg"
+      - "Field.Read=>Field_avg"
+      - "DTC.Read=>DTC.A_avg"
+      - "END.Field=>Field"
+alias_collapse:
+  positive_source_packet:
+    aliases:
+      - LocalPositiveSourceCarleson.A
+      - SOURCE.NO-PULSE.A
+      - SourcePulseExclusion.A
+    collapse: operational positive source estimate on selected terminal packets
+  scale_critical_tree:
+    aliases:
+      - ScaleCriticalTreeCarleson.A
+      - ActiveSquareCarleson.A
+      - SourcePulseExclusion.A
+    collapse: scale-critical tree/source-pulse carrier after edge disintegration
+  active_square_density:
+    aliases:
+      - ActiveSquareResidualTail.A
+      - ActiveShellAmplitudeGain.A
+      - SquareSource^norm.A
+      - SignedLocalSource.A
+    collapse: active pulse / square-density obstruction
+  signed_counteredge:
+    aliases:
+      - ParabolicNoFreeSink.A
+      - TerminalSignedSaturation.A
+      - SignedPositiveBalance.A
+    collapse: missing signed counter-edge / no-free-sink law
+  amplitude_reserve:
+    aliases:
+      - CriticalFluxAmplitudeSmall.A
+      - ParabolicEdgeResistance.A
+      - TerminalAmplitudeGain.A
+    collapse: scale-critical amplitude/source reserve unless independently proved
+promotion_rules:
+  required_for_promotion:
+    - bridge-license gate
+    - endpoint-spend gate
+    - source-wall Field-face gate
+    - alias-collapse gate
+    - noncircularity boundary
+    - adversarial math audit of new target refinements before theorem-grade use
+  demote_if_claims:
+    - "bridge_pending_count: 0 while source-wall-root-after-reconcile is open"
+    - "export-ready while source-wall root is open"
+    - "paper-grade global smoothness while source-wall root is open"
+    - "OriginalSmoothData=>Member=>Smooth as installed theorem"
+    - "PCTP.hard / TTU.A as primitive CM bridge"
+    - "READ.COVER as upstream supplier"
+    - "Field source residue as endpoint contradiction without END.Field"
+automation_crank:
+  loop:
+    - intake candidate theorem or note
+    - classify role as primitive, face supplier, source root, readout, endpoint, export, or quarantine
+    - run bridge-license gate
+    - run direction gate
+    - run alias-collapse gate
+    - attempt one bounded theorem atom
+    - record installed part and exact failed atom
+    - synchronize live theorem surfaces
+  subagent_roles:
+    cm_core_agent: audits Member/CM/Pack/Part/Field direction and false converses
+    source_wall_agent: attacks HeightFluxControl.A through ActiveStrainAlignmentCost.A / RetainedPackGainProduction.A / TPNI.A, TemporalNonAtomicSource.A / TerminalResidueAtomExclusion.A, or WeightedLiftedSkewDefectLegal.A
+    receiver_endpoint_agent: audits ACT/LCI/OFP/CFI/readout/endpoint direction and circularity
+    corpus_recovery_agent: recovers source-backed proof atoms and attaches them to a CM face
+    skeptic_agent: searches for illegal carrier change, endpoint spending, stale generated promotion, or alias proliferation
+current_safe_posture:
+  - coherent theorem program
+  - CM route aligned
+  - source-wall root open
+  - new synthesis atoms are target refinements, not theorem-grade discharges
+  - not publication-complete
+source_notes:
+  convergence_note: theorem-construction/mpp-gods-eye-cm-convergence-atlas-20260506.md
+  adversarial_audit_note: theorem-construction/mpp-heightflux-synthesis-adversarial-audit-20260506.md
+  senior_research_architect_memo: theorem-construction/mpp-senior-research-architect-synthesis-memo-20260506.md
+  actual_synthesis_memo: theorem-construction/mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md
+  cm_field_face_note: theorem-construction/mpp-cm-field-face-sourcewall-reorientation-note-20260505.md
+  field_jump_note: theorem-construction/mpp-field-source-residue-jump-classification-note-20260505.md
+  donor_height_creation_note: theorem-construction/mpp-reserve-creation-charge-height-variation-reduction-20260506.md
+  firstheight_terminal_attempt_note: theorem-construction/mpp-firstheightcreation-dichotomy-terminal-attempt-and-collapse-20260506.md
+  height_flux_control_note: theorem-construction/mpp-donorheightcreation-shellbalance-direct-attempt-20260506.md
