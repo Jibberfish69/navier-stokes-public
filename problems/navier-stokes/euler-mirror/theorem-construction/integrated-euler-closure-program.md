@@ -1,166 +1,138 @@
-# Integrated Euler Closure Program
+# Integrated Euler Regularity Program
 
 ## Purpose
 
-Assemble the positive-control and class-membership mirrors into one live
-theorem-facing Euler closure surface.
+Assemble the Euler positive-control road and the repaired Euler membership road
+without pretending that membership is already smoothness.
 
-This file does **not** claim that Euler global smoothness is proved. It fixes
-the exact shared burdens whose discharge would close the branch honestly.
+This file does not claim Euler global regularity. It fixes the exact burdens
+whose discharge would upgrade an Euler member into the desired smooth class.
 
 ## Fixed Surface
 
-Work on the three-dimensional incompressible Euler equation:
+Work on incompressible Euler:
 
 ```math
-\partial_t u + (u\cdot\nabla)u + \nabla p = 0,
+\partial_t u+\nabla\cdot(u\otimes u)+\nabla p=0,
 \qquad
-\nabla\cdot u = 0.
+\nabla\cdot u=0.
+\tag{IEC.0}
 ```
 
-Preserve:
+Base membership is:
 
-1. the positive-control theorem order;
-2. the class-membership vocabulary `Pack / Part / Field / Dead / Blown / Jump`;
-3. same-fluid / transported-carrier geometry;
-4. the rule that no hidden viscous or parabolic theorem labor is allowed.
+```math
+\mathrm{Member}_E
+=
+\mathrm{EVol}
+\wedge
+\mathrm{EMom}.
+\tag{IEC.1}
+```
+
+Admissibility, when needed, is a separate layer:
+
+```math
+\mathrm{EAdm}
+=
+\text{chosen energy / circulation / local-balance selection rule.}
+\tag{IEC.1a}
+```
 
 ## Route A: Positive-Control Package
 
-The positive route is now fixed by the Euler mirrors:
-
-As on the parent live lane, the internal positive-control branch remains
-torus-first. The Route B file listed here is the downstream whole-space
-continuation/export packet, not a silent replacement of the internal branch
-lock.
+The positive route still asks for Euler-native controls:
 
 1. [target-fidelity-discharge-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/target-fidelity-discharge-source-pack.md)
 2. [monotone-functional-discharge-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/monotone-functional-discharge-source-pack.md)
 3. [scale-barrier-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/scale-barrier-source-pack.md)
 4. [compactness-discharge-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/compactness-discharge-source-pack.md)
 5. [gradient-discharge-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/gradient-discharge-source-pack.md)
-6. [theorem-construction/route-b-euler-closure-theorem.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md)
+6. [route-b-euler-closure-theorem.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md)
 
-Its integrated target is:
+Its integrated shape is:
 
 ```math
 \boxed{
-\text{Euler scale barrier}
-+
-\text{Euler control functional}
-+
-\text{Euler compactness / nonlinear closure}
-+
-\text{Euler continuation bridge}
+\mathrm{Member}_E
++ \mathrm{EAdm}\ \text{when selected}
++ \text{Euler scale barrier}
++ \text{Euler control functional}
++ \text{Euler compactness / nonlinear closure}
++ \text{Euler continuation bridge}
 \Longrightarrow
-\text{no positive-route Euler blow-up on }[0,T).
+\text{regularity continuation.}
 }
 \tag{IEC.A}
 ```
 
-## Route B: Class-Membership Package
+## Route B: Repaired Membership / Regularity Package
 
-The contradiction route is now fixed by the Euler mirrors:
+The repaired membership road is now:
 
-1. [mpp-class-membership-forward-invariance-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md)
-2. [mpp-law13-surviving-endpoint-exclusion-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-law13-surviving-endpoint-exclusion-program.md)
-3. [mpp-one-field-forward-preservation-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md)
-4. [mpp-one-field-forward-preservation-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md)
-5. [mpp-lower-carrier-interval-integrability-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md)
+1. [mpp-euler-class-membership-flux-volume-definition.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-class-membership-flux-volume-definition.md)
+2. [mpp-class-membership-forward-invariance-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md)
+3. [mpp-law13-surviving-endpoint-exclusion-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-law13-surviving-endpoint-exclusion-program.md)
+4. [mpp-one-field-forward-preservation-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md)
+5. [mpp-one-field-forward-preservation-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md)
+6. [mpp-lower-carrier-interval-integrability-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md)
 
-Its integrated target is:
+Its integrated shape is:
 
 ```math
 \boxed{
-\text{no dead}
-\;+\;
-\text{no blown endpoint}
-\;+\;
-\text{no jump endpoint}
+\mathrm{Member}_E
++ \mathrm{EAdm}\ \text{when selected}
++ \text{chosen Lagrangian / one-field / continuation regularity class}
++ \text{Euler-native propagation estimates}
 \Longrightarrow
-\text{no first Euler class exit.}
+\text{regularity persists.}
 }
 \tag{IEC.B}
 ```
 
 ## Shared Decisive Burdens
 
-The two routes are not independent. Their decisive shared burdens are:
+The decisive burdens are:
 
-### 1. Euler dangerous-scale suppression
-
-The positive route needs it as the scale barrier; the contradiction route needs
-it whenever packet growth or source-ledger escape threatens forward
-preservation.
-
-### 2. Same-surface Euler control object
-
-The positive route needs a named control functional stronger than bare `L^2`
-whenever compactness or continuation asks for it; the contradiction route needs
-the same control whenever pack / field propagation asks for integrable carrier
-data.
-
-### 3. Euler fixed-family compactness / no-escape limit
-
-The positive route needs strong enough compactness for tensor closure; the
-contradiction route needs the same no-escape discipline to keep its same-fluid
-families honest.
-
-### 4. Euler transport-pressure continuation / receiver theorem
-
-On the positive side this is Route B continuation. On the contradiction side it
-appears first as the moving-collar lower-carrier theorem `ELCI.A`.
-
-### 5. Euler packing-side blowup exclusion
-
-The contradiction route still needs no blown endpoint on the packing side; the
-positive route reads the same burden as a continuation / no-loss theorem for
-transported geometric control.
+1. an Euler scale or cascade barrier that does not use viscous damping;
+2. a control functional stronger than bare flux-volume membership wherever
+   continuation needs it;
+3. compactness / nonlinear closure without hidden parabolic smoothing;
+4. an Euler transport-pressure continuation theorem;
+5. optional Lagrangian or one-field persistence only after the relevant
+   regularity class is explicitly chosen.
 
 ## Combined Closure Target
 
-If the shared decisive burdens are discharged on one common Euler surface, then
-both route families close simultaneously:
+The honest closure target is:
 
 ```math
 \boxed{
-IEC.A + IEC.B
+\mathrm{Member}_E
++ \mathrm{EAdm}\ \text{when selected}
++ IEC.A
++ IEC.B
 \Longrightarrow
-\text{global smoothness for the three-dimensional incompressible Euler equations.}
+\text{the desired classical Euler regularity.}
 }
 \tag{IEC.C}
 ```
 
+This is a regularity theorem over Euler membership. It is not a proof that rough
+Euler behavior fails to be Euler.
+
 ## Auxiliary Roads
 
-The remaining parent roads are now also classified theorem-locally on the Euler
-side. They do not currently close `IEC.C`, but they no longer sit only as
-audits or route labels:
+The auxiliary parent roads remain comparison/support only unless rewritten on
+the exact Euler surface:
 
 1. [selector-geometry-euler-walkdown-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/selector-geometry-euler-walkdown-program.md)
-   preserves the transport/selector road through the Euler pair-defect stage
-   and names the exact break at the parent observability/coercivity-to-`SG.4`
-   bridge.
 2. [export-whole-space-euler-walkdown-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/export-whole-space-euler-walkdown-program.md)
-   preserves the readout/export interfaces and names the exact break at the
-   viscous low-mode consumer.
 3. [exact-potential-euler-entry-obstruction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/exact-potential-euler-entry-obstruction-note.md)
-   preserves the upstream witness-to-readout target and names the exact
-   non-Euler entry at the static-diffusion/heat packet.
 4. [curvature-provenance-euler-support-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/curvature-provenance-euler-support-note.md)
-   preserves the architectural feedback role of the curvature branch while
-   classifying the installed parent PDE packet as provenance rather than live
-   Euler closure.
 
 ## Honest Current Posture
 
-This integrated closure surface now exists on disk. The theorem remains open.
-
-The exact live burdens are:
-
-1. an Euler-clean dangerous-scale barrier;
-2. an Euler control functional beyond bare `L^2` wherever genuinely needed;
-3. Euler compactness on one fixed family with no hidden viscous smoothing;
-4. an Euler transport-pressure continuation theorem replacing the parent
-   dissipation-backed packets;
-5. pack-side no-blown closure on the class-membership branch.
+The base object is now correct. The theorem remains open because the missing
+work is a real Euler regularity upgrade, not a membership-definition trick.
