@@ -3,7 +3,7 @@
 ## Identity
 
 This is the theorem-facing frontier packet for the Euler mirror after the May 16
-ontology repair.
+ontology repair and the May 21 Euler/NS viscosity scenario separation.
 
 Role:
 
@@ -130,15 +130,16 @@ theorem.
 
 ## Active Next Theorem Target
 
-The branch-local target has now narrowed one step inside `ELCI.A`:
+The branch-local target has now narrowed one step inside `ELCI.A`, and the May
+21 scenario map prevents reading it as a full-general smoothness claim:
 
 ```math
-\boxed{\mathrm{ELCI.CP.A}}
+\boxed{\mathrm{ELCI.CP.A\text{-}Separation}}
 ```
 
 The May 19 direct attempt proved the Euler packet inequality and Gronwall
 closure once the center/oscillation/pressure ledger is integrable. The remaining
-target is to prove
+target is to split
 
 ```math
 \mathfrak A^{E,ctr}
@@ -149,13 +150,21 @@ target is to prove
 \in L^1(I)
 ```
 
-on the same finite transported Euler cover.
+on the same finite transported Euler cover into:
+
+1. exact regularity-conditional hypotheses under which the ledger is provably
+   `L^1`;
+2. base `Member_E` nonsmooth cases, such as pressure-compatible slip/jump or
+   defect-boundary scenarios, where that `L^1` control is not forced.
 
 This is still the local replacement for the parent
 `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX` and
 `ACT.KX + ACT.X-Scale + RWS.C_scale => ACT.X-Readout` receiver chain. Until
-`ELCI.CP.A` is proved, `ACT.X-Readout`, `ACT.A`, `RCF.A`, and `LCI.A` remain
-comparison order rather than Euler inputs.
+`ELCI.CP.A-Separation` is discharged, `ACT.X-Readout`, `ACT.A`, `RCF.A`, and
+`LCI.A` remain comparison order rather than Euler inputs.
+
+Scenario authority:
+[euler-ns-viscosity-scenario-separation-map-20260521.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md).
 
 ## Current Stop Line
 
@@ -163,4 +172,4 @@ The Euler mirror cannot prove smoothness by declaring non-smoothness outside the
 Euler object. Non-smooth weak Euler behavior can still satisfy `Member_E`, so
 the current theorem-facing stop line is the `ELCI.A` replacement for the parent
 `ACT.KX` / `2nu` absorption and top-viscous receiver chain, now sharpened to
-`ELCI.CP.A`.
+`ELCI.CP.A-Separation`.
