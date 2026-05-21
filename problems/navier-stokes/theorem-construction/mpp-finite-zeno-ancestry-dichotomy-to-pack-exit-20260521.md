@@ -45,8 +45,28 @@ Then the selected same-fluid packet family has a positive-scale terminal
 subsequence. After passing to the terminal subsequence, the source residue is
 carried by an ordinary positive-radius packet, not by a Zeno endpoint.
 
-At positive radius, it must be seen by the finite packet source-accounting
-ledger. Therefore one of the finite outcomes occurs:
+The proof here is a finite transported-ledger contradiction.
+
+Choose a transported cutoff adapted to the positive-radius tail. Because
+`r_m>=r_0`, the cutoff constants, overlap constants, and same-fluid coordinate
+constants are uniform on the tail. Apply the finite packet source balance on
+each selected packet:
+
+```text
+selected positive source charge
+  = reserve increment
+    + dissipation payment
+    + incoming flux
+    + legal/cutoff/boundary payment
+    + finite CM-face defect
+    + terminal error_m.
+```
+
+The terminal errors vanish or are summable on the positive-radius tail by the
+same finite-packet compactness used to keep the tail inside ordinary CM packet
+grammar.
+
+The no-pay hypothesis kills every term on the right:
 
 ```text
 reserve paid,
@@ -56,8 +76,8 @@ legal/boundary exit,
 finite Pack/Part/Field exit.
 ```
 
-That contradicts the assumption that the ancestry stayed unpaid, unfluxed, and
-inside CM through every finite stage.
+But the selected ancestry has positive terminal source residue, so the left
+side has a positive lower bound along a subsequence. Contradiction.
 
 So an unpaid all-internal ancestry cannot keep a positive lower radius.
 
@@ -82,6 +102,13 @@ terminal CM object, this endpoint is
 ```math
 \neg Pack_Q.
 ```
+
+Equivalently, prove it by contradiction. If `Pack_Q` held at the endpoint, then
+there would be a positive retained carrier radius `r_Q>0` and a finite
+same-fluid cover through the terminal window. For all sufficiently large `m`,
+the selected ancestry would have a legal representative inside that cover with
+radius bounded below by a fixed fraction of `r_Q`, contradicting
+`r_m\downarrow0`. Thus the terminal object cannot satisfy Pack.
 
 It is already CM exit. Any Field/Jump language applied to the terminal residue
 is post-exit readout unless a separate theorem produces a positive-scale retained
