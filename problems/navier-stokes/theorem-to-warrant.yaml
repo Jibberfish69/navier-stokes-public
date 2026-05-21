@@ -164,6 +164,8 @@ theorem_warrants:
     remain support context only. They are not stand-alone proof authority while source-wall-root-after-reconcile
     is open. Demotion repair: historical four-bridge and positive-support warrants
     remain support context only. They are not stand-alone proof authority while source-wall-root-after-reconcile
+    is open. Demotion repair: historical four-bridge and positive-support warrants
+    remain support context only. They are not stand-alone proof authority while source-wall-root-after-reconcile
     is open. The normalized-adjoint source-drain package discharges the source-pulse
     / no-`Jump_avg` supplier route through `LemmaB.SourceDrain`, and the separate
     MemberSmooth.A / WitnessFace.A note installs the governing CM bridge: all-depth
@@ -492,12 +494,12 @@ theorem_warrants:
         source-ancestry compactness, branch-entropy/tree-Carleson, transported no-flux,
         pressure/Leray, local-energy-trace, and rigid-subclass production doors all
         fail from installed inputs or remain conditional production imports. The May
-        19 shared-participation update classifies the completed CM-exit branch as
-        B_ASAC^closed -> BASACClosedTerminalAtomCMExitClassification.A + BASACTerminalAtomCMFaceLabeling.A
-        + RetainedPackFieldNoIncomingParticipationFlux.A + BASACLiouvilleCMParticipationBridge.A:
-        retained Pack+Field supplies no incoming participation flux, finite CM kills
-        the terminal atom by the residence bound, and positive terminal mass is a
-        paid exit or typed Pack/Part/Field face. A general TerminalSourceReverseHolder.A
+        21 terminal Zeno correction classifies the endpoint as `not Pack_Q`: finite
+        Zeno ancestry packets may be legal, but the terminal zero-radius residue is
+        not a retained positive-radius packet. BASACTerminalAtomCMFaceLabeling.A,
+        RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
+        are upstream finite-ancestry accounting or downstream post-exit readout, not
+        a retained terminal Field packet. A general TerminalSourceReverseHolder.A
         remains an external new theorem, not a consequence of the installed B_ASAC
         bookkeeping. LocalPositiveSourceCarleson.A collapses to PositiveRemainderDepletion.A;
         SquareSourceEstimate.A and ActiveShellAmplitudeGain.A collapse to ActiveShellSourceNormalize.A
