@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   branch_id: euler-mirror-chat20
   artifact_id: route-lock-navier-stokes-euler-mirror
-  updated_on: '2026-05-19'
+  updated_on: '2026-05-21'
   generator: codex-euler-ontology-repair
 governing_object_law:
   status: active
@@ -76,7 +76,7 @@ object_law_route_lock_sentence: >-
   parent Pack / Part / Field route, but it must not preserve Part or Field as
   primitive Euler membership faces, and it must not let pressure alone imply
   one-field participation.
-mirror_theorem_queue:
+  mirror_theorem_queue:
   - keep the source-locked contradiction note written literally with the Euler weak equation and flux-volume membership
   - use the smooth shear-layer bridge as a singular-limit route to the slip-sheet witness, not as fixed-datum blow-up
   - keep fixed-datum classical blowup split by domain: boundary/axisymmetric known externally, no-boundary smooth finite-energy still open
@@ -87,10 +87,26 @@ mirror_theorem_queue:
   - classify the expanded `ACT.KX` cells `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX` as non-importable NS receiver machinery
   - rebuild any Euler smoothness claim as a regularity upgrade from Member_E plus earned Euler controls
   - only after the Euler membership layer is honest may downstream exact-potential, Hodge, selector, or Euclidean export branches be mirrored
+holistic_scenario_separation_lock:
+  status: active
+  authority_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
+  governing_readback: >-
+    The Euler mirror now separates every repo-visible Euler/NS contact point into
+    smooth-or-regularity-conditional cases, nonsmooth-or-not-forced-smooth cases,
+    and explicit viscosity jobs. Base Member_E is equation fidelity only. The
+    clean nonsmooth control case is pressure-compatible tangential slip / one-field
+    failure. Viscosity is doing proof labor as shear participation, lower-collar
+    sink, ACT.KX scheduler, top-viscous supplier, dyadic damping, parabolic
+    observability, and fixed-nu class discriminator.
+  readback_sentence: >-
+    Euler meets NS smoothly only under stated classical or regularity hypotheses;
+    Euler also meets NS through base Member_E nonsmooth slip/jump/defect scenarios.
+    The branch must split those cases before using any comparison theorem.
 active_next_theorem_target:
-  target_id: ELCI.CP.A
+  target_id: ELCI.CP.A-Separation
   authority_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
   attempt_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-a-direct-transport-pressure-attempt-20260519.md
+  scenario_map_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
   comparison_source_chain: >-
     RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A
   expanded_parent_break: >-
@@ -98,12 +114,15 @@ active_next_theorem_target:
     ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX,
     followed by ACT.KX + ACT.X-Scale + RWS.C_scale => ACT.X-Readout.
   exact_burden: >-
-    Prove integrability of the branch-local Euler center/oscillation/pressure
-    ledger L_E_ctr = A_E_ctr + Omega_E_osc + Pi_E_ctr on the same finite
-    transported Euler cover. The May 19 direct attempt closed the packet
-    inequality and Gronwall step once this ledger is integrable; this supplier
-    is the remaining replacement for the parent ACT.KX / 2nu absorption
-    scheduler and top-viscous readout.
+    Split the branch-local Euler center/oscillation/pressure ledger statement
+    L_E_ctr = A_E_ctr + Omega_E_osc + Pi_E_ctr into its honest scenario classes:
+    prove L1 integrability on the same finite transported Euler cover under the
+    exact additional EReg / ELag / EAdm / pressure-control hypotheses needed, and
+    exhibit or route base Member_E slip, jump, or defect-boundary scenarios where
+    that integrability is not forced. The May 19 direct attempt closed the packet
+    inequality and Gronwall step once this ledger is integrable; the May 21
+    scenario map forbids treating that supplier as automatic from inviscid
+    membership.
   allowed_ingredients:
   - fixed-cover transport geometry
   - transported-center carrier and oscillation estimates
@@ -116,9 +135,10 @@ active_next_theorem_target:
   - unchanged RSCB.NKF -> NKF.Native import
   - downstream ACT.X-Readout, ACT.A, RCF.A, or LCI.A before ELCI.A
   readback_sentence: >-
-    Chat20's next theorem target is ELCI.CP.A: prove the Euler
-    center/oscillation/pressure ledger L_E_ctr is L1 on the same finite
-    transported cover, without ACT.KX / ACT.X-TopVisc / 2nu absorption.
+    Chat20's next theorem target is ELCI.CP.A-Separation: split the Euler
+    center/oscillation/pressure ledger into the regularity-conditional cases
+    where it is L1 and the base Member_E nonsmooth cases where L1 is not forced,
+    without ACT.KX / ACT.X-TopVisc / 2nu absorption.
 current_receiver_and_holdout_surfaces:
   branch_local_receiver_slot:
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
