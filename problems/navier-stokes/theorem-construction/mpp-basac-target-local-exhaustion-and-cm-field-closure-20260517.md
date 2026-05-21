@@ -1,0 +1,104 @@
+# MPP B_ASAC Target-Local Exhaustion and CM Field Closure
+
+Date: 2026-05-17
+
+## Status
+
+Completed target-local exhaustion for the `B_ASAC` endpoint.
+
+The forward theorem
+
+```math
+ZenoResidueLiouville_{B_{ASAC}}.A
+```
+
+is not proved from installed inputs. The local search is nevertheless closed at the current resolution: every installed `B_ASAC` continuation returns to the same terminal zero-thickness native source atom, and the surviving all-doors-closed atom has a CM Field-face diagnostic landing.
+
+## Starting point
+
+The installed equality-class production is:
+
+```math
+ASACDefectMeasure.A
++
+TerminalNoFreeSinkEqualityClassProduction.A
+\Longrightarrow
+B_{ASAC}.
+```
+
+The produced class has zero ASAC defect, legal/projected/boundary exits routed away, no finite or non-Zeno donor refill, no earlier selected source slice, and terminal Zeno source support.
+
+## Exhausted local doors
+
+The following target-local doors were checked and do not close from the installed `B_ASAC` clauses:
+
+```text
+temporal anti-concentration / reverse Holder;
+branch entropy / source-tree Carleson reserve;
+transported no-flux without a terminal time-face anti-atom;
+production into a rigid time-face anti-atom subclass;
+pressure/Leray source tether or pressure time-face spread;
+local energy trace no-positive-jump;
+pure pressure/source singular residue classification.
+```
+
+The common counter-shape is the terminal source marginal
+
+```math
+g_m(s)=m\,1_{(-1/m,0]}(s),
+```
+
+which has unit `L^1_s` mass, no fixed preterminal residence, and weak limit a nonzero source atom at `s=0`. For every `p>1`,
+
+```math
+\|g_m\|_{L^p(-1,0)}=m^{1-1/p}\to\infty.
+```
+
+Diffuse legal parent clouds give the parallel source-tree obstruction: a legal same-fluid parent cloud can split total positive source into many small parents, so bounded selectors and quadratic branch charges see `M^{-1}` while the linear source remains order one.
+
+## What is closed
+
+The all-doors-closed survivor is
+
+```math
+B_{ASAC}^{closed}.
+```
+
+It is not a forward positive-supplier discharge. It is a selected terminal Zeno source atom. Under the installed CM-exit discipline, that survivor lands as:
+
+```math
+BASACClosedAtomCMFieldFaceDiagnostic.A:
+B_{ASAC}^{closed}
+\Rightarrow
+Field_{N,r,Q}\text{-face selected Zeno terminal atom diagnostic.}
+```
+
+This is the correct local closure state for the current branch.
+
+## What remains external
+
+Further forward positive-supplier progress now requires a genuinely new production theorem excluding terminal zero-thickness native source concentration in `B_ASAC`. Equivalent usable forms are:
+
+```math
+UniformTemporalSourceIntegrability_{p,B_{ASAC}}.A,
+\qquad
+TerminalSourceReverseHolder_{B_{ASAC}}.A,
+\qquad
+ScaleNormalizedBranchEntropyReserve.A,
+\qquad
+TransportedCylinderNoFlux_{B_{ASAC}}.A\text{ with terminal time-face anti-atom},
+\qquad
+ProductionIntoRigidBASACTimeFaceSubclass.A,
+\qquad
+PressureTimeFaceSpread.A,
+\qquad
+BASACLocalEnergyTraceNoPositiveJump.A.
+```
+
+None is installed by the current route inputs.
+
+## Repository instruction
+
+Do not advertise `BASACSourceTreeCarleson.A` as the active next lower bookkeeping atom by itself. It is one expression of the missing new-production theorem, alongside temporal anti-concentration, pressure time-face spread, transported time-face anti-atom, and rigid subclass production.
+
+The target-local `B_ASAC` descent is complete at obstruction plus CM Field diagnostic. The forward supplier route remains open only at the external new-production theorem level.
