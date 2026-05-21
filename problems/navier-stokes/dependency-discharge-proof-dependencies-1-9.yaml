@@ -7,6 +7,13 @@ identity:
   source_prompt: solve every proof dependency (proof-dependency-1 proof-dependency-2 proof-dependency-4 proof-dependency-5 proof-dependency-6 proof-dependency-7 proof-dependency-8 proof-dependency-9)
   theorem_note: problems/navier-stokes/theorem-construction/mcp-proof-dependency-1-9-bridge-discharge-theorem-5483e34490.md
   theorem_note_sha1: 4ec52c91fed60d358ce802fce699a1a3ccbc1243
+non_euler_surface_face_sweep_boundary:
+  status: support_surface_quarantined
+  theorem: AllNonEulerNSSurfaceFaceSweep.A
+  index: problems/navier-stokes/non-euler-surface-face-sweep-index-20260514.yaml
+  rule: This dependency-discharge artifact is support/history for the current CM
+    program. It does not become an independent Pack, Part, Field, or Member face
+    unless a named theorem promotes one of its obligations through that gate.
 claim_level:
   status: bridge_discharge_claimed
   promotion_allowed: false
