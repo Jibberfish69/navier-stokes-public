@@ -1,121 +1,119 @@
-# MPP One-Field Forward-Preservation Theorem Program (Euler Mirror)
+# MPP Euler One-Field Regularity Preservation Program
 
 ## Status
 
-Theorem-facing one-field note for the Euler mirror contradiction stack.
+Theorem-facing demotion note for the old Euler mirror `EOFP` surface.
 
-Role: mirror the live one-field burden behind `CFI.B3`, keeping the same
-packet/coherence route but removing every silent appeal to viscosity.
+Role: preserve the useful one-field question while removing it from primitive
+Euler membership.
 
-## Purpose
+## Repaired Purpose
 
-On the mirrored forward-invariance route, the exact live question is still:
+The one-field question is a regularity question:
 
 ```math
 \boxed{
-\text{when one field starts coherent on a still-live seed window, what dynamic law keeps that coherence from collapsing into visible jump manifestation along the same-fluid Euler evolution?}
+\text{if an Euler member starts with one coherent positive-scale field, what
+Euler-native estimates keep that coherence from collapsing?}
 }
 \tag{EOFP.1}
 ```
 
-That remains the exact content of the mirrored one-field wall.
+It is not a membership question. `Member_E` has already been defined by
+flux-volume and weak momentum-pressure fidelity.
 
-## Exact Theorem Target
+## Optional Regularity Target
 
-### Theorem `EOFP.A` (One-field forward preservation for Euler)
-
-Fix a same-fluid evolved still-live family `\{Q_s\}_{0\le s\le \sigma}` for
-the same Euler solution.
-
-Assume:
-
-1. `\mathrm{Field}_{N,r_0,Q_0}(u,p)` on the seed window;
-2. the finite-difference defect-energy packet laws remain available on the
-   transported collars issued from the seed carrier;
-3. no visible jump manifestation occurs on the family.
-
-Then there exist `r_{N,\sigma}>0` and `C_{N,\sigma}<\infty` such that
+If this branch chooses a one-field regularity class, write it as:
 
 ```math
-\mathrm{Field}^{\le C_{N,\sigma}}_{N,r_{N,\sigma},Q_s}(u,p)
-\qquad
-\text{for every }0\le s\le \sigma.
+\mathrm{EReg}_{N,r,Q}(u,p)
 \tag{EOFP.2}
 ```
 
-## What Still Looks Route-Native
-
-The cleanest part of the parent route to transplant is the packet/coherence
-spine:
-
-1. transported increment reduction;
-2. reference-increment comparison;
-3. localized defect-energy propagation;
-4. conversion from packet defect control to a positive coherence modulus.
-
-At that level the mirror program still reads:
+or, when comparison with the old route is useful,
 
 ```math
-\boxed{
-\text{propagate the transported finite-difference defect strongly enough that one positive coherence regime survives.}
-}
+\mathrm{EField}_{N,r,Q}(u,p).
 \tag{EOFP.3}
 ```
 
-## Honest Holdout Inside `EOFP`
+Both names mean extra positive-scale coherence over `Member_E`; neither is
+primitive membership.
 
-The parent Navier-Stokes route then feeds `OFP` through the fixed finite packet
-family and the collar receiver package. The mirror cannot import that whole
-closure verbatim.
-
-The honest installed replacement is:
+The honest theorem target is:
 
 ```math
 \boxed{
-\text{the parent lower-carrier / moving-collar closure is not imported
-unchanged; on the Euler branch its supplier side is reopened through `EOFR.A`
-and the receiver slot `ELCI.A`.}
+\mathrm{Member}_E
++ \mathrm{EReg}_{N,r_0,Q_0}
++ \text{Euler control estimates}
+\Longrightarrow
+\mathrm{EReg}_{N,r_{N,\sigma},Q_s}
+\text{ on the evolved window.}
 }
 \tag{EOFP.4}
 ```
 
-Concretely, the mirror branch keeps the theorem shape
+## What Still Looks Route-Native
+
+The old packet/coherence spine may still be a useful regularity mechanism:
+
+1. transported increment reduction, if the transport carrier is available;
+2. reference-increment comparison, if the reference family is Euler-native;
+3. localized defect propagation, without viscous absorption;
+4. conversion from defect control to a positive coherence modulus.
+
+At that level the live regularity question is:
 
 ```math
-\text{packet defect control}
-\Longrightarrow
-\text{positive coherence regime}
-\Longrightarrow
-\text{no jump manifestation}
+\boxed{
+\text{can transport, pressure, and inviscid structure alone preserve a positive
+coherence scale?}
+}
 \tag{EOFP.5}
 ```
 
-but does **not** yet claim the full Navier-Stokes collar receiver package as an
-available supplier theorem.
+## What Was Removed
 
-The exact remaining obstruction inside that Euler receiver slot is the missing
-`2\nu` absorption step isolated in `ELCI.A`.
+This file no longer claims:
 
-With the installed parent route now sharpened, that obstruction should be read
-through the receiver chain
-`RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A`.
-The Euler mirror preserves that order but treats `ACT.KX` as a non-importable
-receiver packet until its `c_\nu N` absorption and `ACT.X-TopVisc` cells are
-replaced by transport/pressure-only estimates. The current parent packet also
-requires the ordered cells `ACT.X-Cut`, `ACT.X-Press`, and `ACT.X-MidRaw`
-inside `ACT.KX`, with `ACT.X-Readout` available only after
-`ACT.X-Scale + RWS.C_scale`; those cells are comparison authority, not Euler
-imports.
+1. that failure of one-field coherence is base Euler class exit;
+2. that `Field` is a primitive Euler face;
+3. that `EOFP.A` is part of a `Pack / Part / Field` membership witness;
+4. that pressure alone supplies the missing viscous participation.
+
+## Honest Holdout
+
+The parent Navier-Stokes route fed one-field preservation through the receiver
+chain
+
+```math
+RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X\text{-Readout} -> ACT.A -> RCF.A -> LCI.A.
+\tag{EOFP.6}
+```
+
+On Euler this chain is only comparison order. The `ACT.KX` cell spends viscous
+absorption and top-viscous readout, and the surrounding route assumes the old
+NS-style field/participation package. Any Euler replacement would be a
+regularity-support theorem, not a membership theorem.
 
 ## Resulting Branch Discipline
 
-So the Euler mirror of `OFP` is honest if it does exactly these three things:
+The one-field program is allowed to continue only in this form:
 
-1. preserve the packet/coherence proof architecture;
-2. route the supplier handoff through `EOFR.A` and `ELCI.A` rather than through
-   an unchanged Navier-Stokes collar packet;
-3. keep the exact unresolved point at the missing dissipative absorption step,
-   rather than treating the whole receiver side as an undifferentiated holdout.
+```math
+\boxed{
+\mathrm{Member}_E
+\quad+\quad
+\text{chosen one-field regularity hypotheses}
+\quad+\quad
+\text{Euler-native estimates}
+\Longrightarrow
+\text{persistence of that regularity.}
+}
+\tag{EOFP.7}
+```
 
-That keeps the route faithful in spirit and in theorem order, while making the
-actual Euler obstruction visible instead of narrating around it.
+That keeps the useful question alive while removing the false membership
+ontology.
