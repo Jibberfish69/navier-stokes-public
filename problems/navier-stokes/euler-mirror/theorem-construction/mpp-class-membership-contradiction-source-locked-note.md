@@ -2,175 +2,151 @@
 
 ## Status
 
-Sterile source-locked restart note for the `chat20` Euler mirror.
+Theorem-facing ontology repair note for the Euler mirror.
 
-This note starts from the live Navier-Stokes class-membership restart and
-changes only the governing PDE:
-
-```math
-\boxed{
-\text{remove viscosity entirely and test the same object-law route on incompressible Euler.}
-}
-```
-
-Its job is narrower than later theorem packaging:
-
-```math
-\boxed{
-\text{state the Euler mirror class-membership contradiction program exactly and keep the restart anchored there.}
-}
-```
+Role: restart the Euler mirror class-membership program from the actual inviscid
+object instead of from the copied Navier-Stokes `Pack / Part / Field` row.
 
 ## Fixed Problem
 
-The mirror equation stays fixed:
+The mirror equation is incompressible Euler, read at the base membership level in
+weak / distributional form:
 
 ```math
-\partial_t u + (u\cdot\nabla)u + \nabla p = 0,
+\partial_t u+\nabla\cdot(u\otimes u)+\nabla p=0,
 \qquad
-\nabla\cdot u = 0.
+\nabla\cdot u=0.
 \tag{ESC.0}
 ```
 
-It is also fixed as the clean zero-viscosity boundary equation of the
-Navier-Stokes family:
+This file no longer assumes a smooth Euler evolution as the membership object.
+Smoothness is a theorem target or a regularity upgrade; it is not part of the
+definition of belonging to the Euler equation.
 
-```math
-\partial_t u^{\nu_j}+(u^{\nu_j}\cdot\nabla)u^{\nu_j}
-+\nabla p^{\nu_j}
-=
-\nu_j\Delta u^{\nu_j},
-\qquad
-\nu_j\downarrow0,
-\tag{ESC.0a}
-```
+## Euler Membership Object
 
-with a clean Euler boundary limit only when
+The Euler object is:
 
-```math
-\nu_j\Delta u^{\nu_j}\to0
-\quad\text{and}\quad
-(u^{\nu_j}\cdot\nabla)u^{\nu_j}\to(u^0\cdot\nabla)u^0
-\tag{ESC.0b}
-```
+1. a velocity field with enough local integrability for the fluxes in `(ESC.0)`;
+2. distributional incompressibility / local flux-volume balance;
+3. a pressure multiplier enforcing the incompressibility constraint;
+4. the Euler momentum law in weak form;
+5. boundary no-penetration where a boundary is present.
 
-in the theorem-facing topology. If a viscous or energy defect survives, the
-limit is not this Euler mirror object.
+It is not:
 
-The mirror target stays fixed:
+1. a pressure-viscosity participation carrier;
+2. a smooth one-field coherence class;
+3. a Lagrangian flow-map class;
+4. a no-slip or tangential-shear law.
 
-```math
-\text{global smoothness for the classical incompressible Euler problem on the same theorem surface.}
-\tag{ESC.1}
-```
-
-What changes is only the proof concept:
+The primitive membership predicate is therefore:
 
 ```math
 \boxed{
-\text{attack blowup as exit from the Euler mirror fluid object.}
+\mathrm{Member}_E(Q)
+:=
+\mathrm{EVol}_Q(u)
+\wedge
+\mathrm{EMom}_Q(u,p).
+}
+\tag{ESC.1}
+```
+
+as defined in
+[mpp-euler-class-membership-flux-volume-definition.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-class-membership-flux-volume-definition.md).
+
+## Participation Repair
+
+The Navier-Stokes `Part` row is not available on Euler.
+
+In the NS route, participation meant that nearby points remain dynamically tied
+through the same pressure-viscosity carrier. Removing viscosity removes the
+mechanism that transfers tangential shear and enforces no-slip style
+participation. Pressure alone enforces incompressibility and normal compatibility
+but does not prevent inviscid slip past neighboring material sheets.
+
+So Euler may have pressure/incompressibility participation without
+one-field participation. A localized jet can force pressure and momentum balance
+while still producing slip-like or jump-like shear relative to a stronger
+carrier picture.
+
+So an Euler theorem may prove pressure compatibility, vorticity transport,
+Kelvin circulation, or a continuation estimate, but none of those is the old
+`Part` primitive.
+
+## Field Repair
+
+The old `Field` row is also not primitive membership.
+
+One coherent smooth `(u,p)` field is a regularity conclusion or continuation
+hypothesis. Euler membership may still make sense for a rough or sheet-like
+configuration satisfying the weak flux-volume and momentum laws. Therefore a
+loss of positive-scale smooth coherence is not automatically exit from
+`Member_E`; it is failure of an extra regularity class.
+
+## Packing Repair
+
+The only primitive packing content that survives is Eulerian flux-volume balance.
+
+The Lagrangian reading of `Pack` requires enough velocity regularity to define a
+flow map and finite deformation gauge. That can be used later as an optional
+regularity structure, but it cannot sit inside base Euler membership.
+
+## Couette / Slip Sanity Check
+
+Couette-type shear in Navier-Stokes is a viscous participation phenomenon. On
+Euler, the natural wall condition is no-penetration, and tangential slip is
+allowed unless imposed as an external boundary condition. This is the concrete
+reason the old `Part` row must be removed from Euler membership.
+
+## Correct Contradiction Posture
+
+The old mirror sentence
+
+```math
+\text{singularity is class exit from the Euler object}
+```
+
+is too strong unless "class" means a separately defined smooth or regularity
+class.
+
+The repaired statement is:
+
+```math
+\boxed{
+\text{Euler equation membership is } \mathrm{Member}_E;
+\quad
+\text{smoothness is a further regularity problem over } \mathrm{Member}_E.
 }
 \tag{ESC.2}
 ```
 
-## The Euler Mirror Fluid Object
-
-The present note fixes the mirror object to mean:
-
-1. smooth initial data;
-2. one incompressible velocity field;
-3. pressure enforcing the common volume constraint;
-4. one shared transport law and one shared flow map;
-5. one shared coupled smooth evolution rather than locally disconnected laws.
-
-The decisive change from the Navier-Stokes source note is explicit:
+There may be an intermediate admissibility layer:
 
 ```math
-\boxed{
-\text{pressure and incompressibility remain, but viscosity is gone.}
-}
+\mathrm{Member}_E(Q)
++ \mathrm{EAdm}_Q(u,p),
 \tag{ESC.2a}
 ```
 
-So this mirror note is not allowed to borrow drag, damping, heat smoothing, or
-Stokes structure without naming that import as a holdout.
+where `EAdm` names energy balance, local energy inequality/equality, Kelvin
+circulation, or another explicit selection rule. That layer is still not
+smoothness; it is a physical or theorem-selection condition above weak
+membership.
 
-Relative to a fixed positive-viscosity parent object, the zero-viscosity mirror
-is a class-exit surface:
+So theorem work cannot close Euler smoothness by proving that roughness exits
+base membership. It must prove a genuine Euler regularity upgrade:
 
 ```math
-\boxed{
-\neg Visc^{fix}_{\nu_\ast}(Q^0)
+\mathrm{Member}_E(Q)
++ \mathrm{EAdm}_Q(u,p)
++ \text{Euler controls}
 \Longrightarrow
-Exit(Q^0;\mathfrak O_{NS}^{work,\nu_\ast}),
-\qquad
-\nu_\ast>0.
-}
-\tag{ESC.2b}
-```
-
-This does not assert Euler global smoothness. It only says the non-viscous
-Euler law is well typed as the `\nu=0` boundary of the NS family and as outside
-any fixed-positive-viscosity NS class unless a separate fixed-`\nu_\ast` lift is
-proved.
-
-## Core Membership Claim
-
-The governing mirror claim is:
-
-```math
-\boxed{
-\text{every evolution that remains smooth stays inside the Euler mirror object.}
-}
+\text{classical / positive-scale regularity on }Q.
 \tag{ESC.3}
 ```
 
-The class-membership contradiction program says that alleged singular scenarios
-should be treated as scenarios that have already left that object.
-
-## Endpoint-Exclusion Reading
-
-Any smoothness-breaking event is read here as class exit from the
-pressure-transport-incompressibility object above.
-
-The same canonical endpoint trio is preserved:
-
-1. `dead endpoint`: failure of shared participation in the same transport law;
-2. `blown endpoint`: failure of the shared packing law / common deformation
-   class;
-3. `jump endpoint`: failure of the one-field law.
-
-Compressed mirror reading:
-
-```math
-\boxed{
-\text{pressure and incompressibility organize one common transport-coupled field, and any genuine dead / blown / jump event is already exit from that field-law.}
-}
-\tag{ESC.4}
-```
-
-## Honest Gap Marker
-
-This Euler mirror restart keeps the same semantic route as the live
-Navier-Stokes restart, but it does **not** inherit the same closure package for
-free.
-
-The explicit gap rule is:
-
-```math
-\boxed{
-\text{any place the parent route used viscosity must be reopened explicitly on the Euler branch rather than silently kept as a coercive black box.}
-}
-\tag{ESC.5}
-```
-
-That is why the initial Euler bootstrap started with the source-locked object
-note, the frontier packet, `ECFI`, and `EOFP`. The current branch keeps the
-same gap rule, but now reopens the installed
-`RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A`
-receiver chain explicitly as `ELCI.A`, where the exact unresolved point is the
-missing Euler replacement for the `ACT.KX` / `2\nu` absorption and top-viscous
-readout budget rather than a generic appeal to viscous difficulty. At today's
-installed packet resolution this includes the ordered
-`ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX` cell, not
-only the downstream `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` readout.
+Every old `CFI`, `OFP`, `EL13`, and `ELCI` mirror surface must be read through
+this repair: those files may be useful as regularity sidecars, not as primitive
+membership faces.
