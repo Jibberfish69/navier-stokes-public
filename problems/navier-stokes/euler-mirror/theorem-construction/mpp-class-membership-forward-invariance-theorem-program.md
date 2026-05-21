@@ -1,104 +1,96 @@
-# MPP Class-Membership Forward-Invariance Theorem Program (Euler Mirror)
+# MPP Euler Membership / Regularity Forward-Invariance Boundary
 
 ## Status
 
-Theorem-facing compression note for the `chat20` Euler mirror.
+Theorem-facing demotion note for the old Euler mirror `ECFI` surface.
 
-Role: mirror the live `CFI` route with the same class-membership ontology and
-the same same-fluid family language, but with incompressible Euler as the
-governing PDE.
+Role: record that the copied Navier-Stokes class-membership forward-invariance
+theorem is not valid as an Euler membership theorem. It can only be used as a
+regularity-forward-invariance target after the extra regularity class is named.
 
 ## Governing Reading
 
-The installed witness family is kept unchanged at the ontology level:
+Euler base membership is:
 
 ```math
-\mathrm{CM}_{N,r,Q}(u,p,\Phi)
+\mathrm{Member}_E(Q)
 =
-\mathrm{Pack}_Q(u,\Phi)
+\mathrm{EVol}_Q(u)
 \wedge
-\mathrm{Part}_{N,Q}(u,p)
-\wedge
-\mathrm{Field}_{N,r,Q}(u,p).
+\mathrm{EMom}_Q(u,p).
 \tag{ECFI.1}
 ```
 
-The mirror upgrade is:
+It is not:
+
+```math
+\mathrm{Pack}_Q
+\wedge
+\mathrm{Part}_{N,Q}
+\wedge
+\mathrm{Field}_{N,r,Q}.
+\tag{ECFI.bad}
+```
+
+The old row imports three extra assumptions: a Lagrangian carrier, a
+pressure-viscosity participation law, and positive-scale one-field coherence.
+Euler may name pressure/incompressibility participation, but that is only
+volume and normal-force compatibility. It does not rebuild the NS
+pressure-viscosity row. The Lagrangian carrier and one-field coherence can be
+rebuilt only as regularity upgrades rather than membership.
+
+## What Is Trivially Forward-Invariant
+
+If one already has a single distributional Euler solution on a spacetime region,
+then `Member_E` holds on every subwindow where the weak equation and flux-volume
+law are meaningful. That is restriction of the equation, not a smoothness
+theorem.
 
 ```math
 \boxed{
-\text{if lawful class membership is installed on a still-live window, then the same-fluid Euler evolution keeps that lawful membership installed on evolved still-live windows unless blown or jump has already manifested.}
+\mathrm{Member}_E(Q)
+\Longrightarrow
+\mathrm{Member}_E(Q')\quad (Q'\subset Q)
 }
 \tag{ECFI.2}
 ```
 
-## Exact Theorem Target
+This does not propagate smoothness, prevent slip, create a flow map, or preserve
+one-field coherence.
 
-### Theorem `ECFI.A` (Forward-invariance of lawful class membership for Euler)
+## What Becomes A Real Euler Theorem
 
-Assume:
-
-1. `\mathrm{CM}_{N,r_0,Q_0}(u,p,\Phi)` holds for some `r_0>0`;
-2. `\{Q_s\}_{0\le s\le \sigma}` is a same-fluid evolved still-live family for
-   the same Euler solution and the same transport `\Phi`;
-3. no blown manifestation occurs on the family;
-4. no jump manifestation occurs on the family.
-
-Then there exists `r_{N,\sigma}>0` such that
+Any nontrivial forward-invariance statement must first name a stronger class:
 
 ```math
-\mathrm{CM}_{N,r_{N,\sigma},Q_s}(u,p,\Phi)
+\mathrm{ELag}_Q(u,\Phi),
 \qquad
-\text{for every }0\le s\le \sigma.
+\mathrm{EReg}_{N,r,Q}(u,p),
+\qquad
+\text{or a concrete Euler continuation norm.}
 \tag{ECFI.3}
 ```
 
-Equivalently,
+The theorem then has the form:
 
 ```math
 \boxed{
-\text{lawful class membership, once installed on a still-live window, is forward-invariant along the same-fluid Euler evolution until a surviving class-violation has already become visible.}
+\mathrm{Member}_E
++ \text{Euler control estimates}
++ \text{initial regularity}
+\Longrightarrow
+\text{persistence of the chosen regularity class.}
 }
 \tag{ECFI.4}
 ```
 
-## Exact Mirror Split
+That is a regularity theorem over Euler membership. It is not base membership
+preservation.
 
-The proof still separates into three preservation lemmas:
+## Kinematic Flow-Map Boundary
 
-1. packing-side forward preservation;
-2. participation-side forward preservation;
-3. one-field forward preservation.
-
-In particular, the one-field side remains the same named hard wall:
-
-```math
-\text{ECFI.B3}
-\leadsto
-\text{Euler mirror of `OFP.A`.}
-\tag{ECFI.5}
-```
-
-On the current branch, the installed Euler reduction beneath that wall is the
-pair `EOFR.A` / `ELCI.A`, rather than an unchanged import of the parent
-lower-carrier packet.
-
-## Exact Dynamic Engine That Survives Verbatim
-
-One useful point of route fidelity is that the kinematic packing-side transport
-law survives literally.
-
-Define
-
-```math
-\Gamma_\sharp(t)
-:=
-\sup_{a\in A_\sharp}
-\max\{|F(a,t)|,\ |F(a,t)^{-1}|\}.
-\tag{ECFI.6}
-```
-
-Then along the same-fluid Euler carrier,
+The old packing-side transport identity survives only after one has enough
+regularity to define the flow map:
 
 ```math
 \Gamma_\sharp(t_2)
@@ -109,34 +101,45 @@ Then along the same-fluid Euler carrier,
 \|\nabla u(\tau)\|_{L^\infty(\Phi(A_\sharp,\tau))}
 \;d\tau
 \Big).
-\tag{ECFI.7}
+\tag{ECFI.5}
 ```
 
-This survives because it is a flow-map identity, not a viscous identity.
+This is useful, but it is conditional on a Lagrangian carrier. It cannot be a
+primitive Euler membership clause.
 
-So the mirror route keeps at least one exact theorem-facing engine:
+## Participation Boundary
+
+There is no NS-style `Part_E` theorem hiding here.
+
+Without viscosity, the equation has transport, pressure projection, and
+incompressibility. It does not have the pressure-viscosity participation carrier
+that the Navier-Stokes row used. Pressure may couple the field globally through
+the elliptic constraint, but it does not enforce tangential no-slip or viscous
+shear sharing.
+
+A jet or injection makes the distinction concrete: Euler can register the
+momentum and pressure response while neighboring material fails to participate
+as one smooth carrier. That is not a failure of equation fidelity unless the
+weak flux-volume or momentum law itself breaks.
+
+## Honest Stop Line
+
+The old statement
+
+```math
+\text{lawful class membership is forward-invariant along same-fluid Euler families}
+```
+
+is stale. The repaired statement is:
 
 ```math
 \boxed{
-\text{the transport/deformation side of `CFI` still reduces to interval control of the deformation-driving gradient on one common label collar.}
+\text{Euler membership is equation fidelity; Euler smoothness requires a
+separate regularity-forward-invariance theorem.}
 }
-\tag{ECFI.8}
+\tag{ECFI.6}
 ```
 
-## Honest Mirror Stop Line
-
-What does **not** survive automatically is any step that the parent
-Navier-Stokes route closed by explicit viscosity, dissipation, or a parabolic
-supplier. So the honest mirror boundary is:
-
-```math
-\boxed{
-\text{keep the class-membership theorem shape, keep the kinematic transport laws, and reopen every dissipative closure step explicitly instead of pretending it came along for free.}
-}
-\tag{ECFI.9}
-```
-
-That is why the Euler mirror continues directly to `EOFP`, with the no-jump
-branch now reduced further through `EOFR.A` and the Euler receiver slot
-`ELCI.A` instead of importing the parent
-`RSCB.NKF -> NKF.Native -> ACT.KX -> ... -> LCI.A` receiver chain unchanged.
+The successor work is therefore to pick the exact regularity class needed for
+smoothness and prove its Euler-native propagation from flux-volume membership
+plus genuine Euler controls.
