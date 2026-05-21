@@ -1,36 +1,51 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
   branch_id: euler-mirror-chat20
   artifact_id: execution-ledger-navier-stokes-euler-mirror
-  updated_on: '2026-04-22'
-  generator: chat20-manual-ledger
+  updated_on: '2026-05-19'
+  generator: codex-euler-ontology-repair
 main_objective:
-  theorem_target: global smoothness for the three-dimensional incompressible Euler equations
+  theorem_target: regularity for the three-dimensional incompressible Euler equations
   theorem_target_status: open
-  doctrine: mirror every serious Navier-Stokes method family on disk with viscosity removed literally
+  doctrine: define Euler membership natively, then prove smoothness as an extra regularity upgrade
   proof_modes:
   - positive-control
-  - contradiction-class-membership
+  - euler-membership-plus-regularity
   run_both: true
+active_next_theorem_target:
+  target_id: ELCI.CP.A
+  authority_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+  attempt_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-a-direct-transport-pressure-attempt-20260519.md
+  route_family: euler-membership-plus-regularity
+  exact_burden: >-
+    Prove L1 integrability of the Euler center/oscillation/pressure ledger
+    L_E_ctr on the same finite transported cover; the direct ELCI.A packet
+    inequality and Gronwall step now reduce to this supplier.
+  parent_comparison_order: RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A
+  readback: >-
+    Do not fan out into scattered comparison notes; the runnable theorem target
+    is ELCI.CP.A until that center/oscillation/pressure supplier is proved or
+    fails as stated.
 route_families:
-- family_id: contradiction-class-membership
-  status: rewritten-through-euler-receiver-slot
-  description: Pack/Part/Field object-law contradiction route
+- family_id: euler-membership-plus-regularity
+  status: ontology-repaired
+  description: Member_E is flux-volume plus weak momentum-pressure; Euler pressure participation is only incompressibility/normal compatibility, while smoothness, Lagrangian carriers, and one-field coherence are regularity upgrades
   key_surfaces:
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-class-membership-flux-volume-definition.md
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-contradiction-source-locked-note.md
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
-  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-law13-surviving-endpoint-exclusion-program.md
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
-  next_frontier: discharge the packing-side no-blown branch and the transport-pressure receiver burden inside ELCI.A
-  first_holdout: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+  next_frontier: prove ELCI.CP.A, the L1 center/oscillation/pressure supplier inside ELCI.A
+  first_holdout: no primitive Euler Part or Field theorem exists; pressure alone does not give one-field participation, so Dead/Jump-like behavior remains live for stronger carrier/coherence classes
 - family_id: positive-four-principle
-  status: rewritten-through-source-pack-layer
-  description: scale-barrier, monotone functional, compactness, continuation/regularity
+  status: regularity-support-only
+  description: scale-barrier, control functional, compactness, continuation/regularity
   key_surfaces:
   - problems/navier-stokes/euler-mirror/claim-ladder.md
   - problems/navier-stokes/euler-mirror/source-grounded-framework-map.md
@@ -40,17 +55,17 @@ route_families:
   - problems/navier-stokes/euler-mirror/gradient-discharge-source-pack.md
   - problems/navier-stokes/euler-mirror/theorem-construction/positive-control-euler-program.md
   - problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md
-  next_frontier: discharge the Euler scale barrier, control-functional replacement, and continuation packet on one common surface
-  first_holdout: problems/navier-stokes/euler-mirror/gradient-discharge-source-pack.md
+  next_frontier: discharge an Euler scale/control/compactness/continuation package on one common surface
+  first_holdout: no viscous damping, no Stokes smoothing, no NS participation row
 - family_id: transport-geometry-selector
   status: mapped-template-only
-  description: torus-first four-body, Hopf-shuffle, TPS strong bridge, selector geometry
+  description: transport and selector scaffolding; not Euler membership
   key_surfaces:
   - problems/navier-stokes/live-theorem-edge.md
   - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
   - problems/navier-stokes/theorem-construction/hopf-shuffle-endgame-program.md
   - problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
-  next_frontier: reuse as transport and selector scaffolding without promoting it to an Euler closure claim
+  next_frontier: reuse as optional regularity support only after Euler-native rewriting
 - family_id: exact-potential-parabolic
   status: explicitly-demoted-and-quarantined
   description: exact-potential, localized-projector, Stokes/heat/static-diffusion branch
@@ -68,25 +83,16 @@ route_families:
 phases:
 - phase_id: phase-0-fidelity
   status: completed
-  goal: lock equation, ontology, and quarantine boundary
-- phase_id: phase-1-inventory
+  goal: lock equation and quarantine boundary
+- phase_id: phase-1-euler-membership-repair
   status: completed
-  goal: inventory all serious NS method families for Euler mirroring
-- phase_id: phase-2-contradiction-mainline-rewrite
+  goal: replace copied Pack/Part/Field membership with Member_E = EVol and EMom
+- phase_id: phase-2-regularity-retarget
   status: completed
-  goal: write the branch-local contradiction mainline through `L13`, `CFI.A`, `OFP.A`, and the Euler receiver replacement `ELCI.A`
+  goal: demote ECFI/EL13/EOFP/EOFR/ELCI to regularity support above Member_E
 - phase_id: phase-3-positive-route-rewrite
-  status: completed
-  goal: write the positive-control Euler source-pack layer, claim ladder, and Route B closure surfaces
-- phase_id: phase-4-cross-route-coupling
-  status: completed
-  goal: identify which positive-route outputs can feed contradiction-route debts
-- phase_id: phase-5-holdout-replacement
-  status: completed
-  goal: replace LCI/top-viscous/heat holdouts with Euler-clean analogues or quarantine them permanently
-- phase_id: phase-6-integrated-closure
-  status: completed
-  goal: assemble a full Euler closure package on the chosen internal surface
+  status: open
+  goal: prove ELCI.CP.A before downstream integrated Euler closure
 automation_loop:
   mode: repo-internal-only
   safe_problem_local_surfaces:
@@ -106,12 +112,8 @@ automation_loop:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/campaign-status.yaml
   - problems/navier-stokes/finish-plan.yaml
-  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/source-frontier.yaml
   - system/**
-subagent_inputs:
-  positive_route_inventory: integrated
-  contradiction_route_inventory: integrated
-  automation_loop_constraints: integrated
 contract_completion_surface:
   path: problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md
   completion_status_path: problems/navier-stokes/euler-mirror/completion-status.yaml
