@@ -1,223 +1,139 @@
-# MPP Law 1 / Law 3 Surviving Endpoint Exclusion Program (Euler Mirror)
+# MPP Euler Endpoint Vocabulary Demotion Note
 
 ## Status
 
-Theorem-facing reduction note for the Euler mirror.
+Theorem-facing repair note for the old `EL13` endpoint split.
 
-Role: continue the class-membership contradiction stack beyond the initial Euler
-bootstrap by isolating the two surviving endpoint-exclusion burdens on the
-incompressible Euler branch:
+Role: remove `dead / blown / jump` from primitive Euler membership while
+preserving them as live possible failures of stronger Euler regularity or
+NS-style comparison classes.
 
-1. no blown endpoint on the packing side;
-2. no jump endpoint on the one-field side.
+## Core Repair
 
-## Purpose
-
-Once the participation-side no-dead line is installed on the Euler mirror,
-the contradiction route is not allowed to skip directly to downstream consumer
-branches.
-
-The surviving-side theorem burden is:
+The old statement was:
 
 ```math
-\boxed{
-\text{after no-dead on the Euler branch, close only the two remaining endpoint exclusions: no blown endpoint and no jump endpoint.}
-}
-\tag{EL13.0}
+\text{no dead}+\text{no blown}+\text{no jump}
+\Longrightarrow
+\text{no Euler class exit.}
+\tag{EL13.bad}
 ```
 
-## Installed Inputs
+That statement copied the Navier-Stokes class-exit grammar. It is not Euler
+truth.
 
-Use only the already-installed Euler-mirror contradiction surfaces together
-with the two new successor reductions below.
-
-1. [mpp-class-membership-contradiction-source-locked-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-contradiction-source-locked-note.md)
-2. [mpp-class-membership-contradiction-frontier-packet.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md)
-3. [mpp-class-membership-forward-invariance-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md)
-4. [mpp-one-field-forward-preservation-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md)
-5. [mpp-one-field-forward-preservation-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md)
-6. [mpp-lower-carrier-interval-integrability-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md)
-
-## Surviving Endpoint Split
-
-### Theorem `EL13.A` (Law 1 / Law 3 surviving split for Euler)
-
-Assume the participation-side no-dead line has already been proved on every
-still-live Euler interval below a candidate exit time.
-
-Then every remaining positive-time class-exit scenario lies on the surviving
-Law 1 / Law 3 side:
+Euler base membership is:
 
 ```math
-\boxed{
-\text{any remaining Euler class exit}
-\Longrightarrow
-\text{blown endpoint or jump endpoint.}
-}
+\mathrm{Member}_E
+=
+\mathrm{EVol}
+\wedge
+\mathrm{EMom}.
 \tag{EL13.1}
 ```
 
-Equivalently, the honest remaining theorem burden on the Euler mirror is:
+There is no primitive `dead` face because Euler pressure participation is only
+incompressibility / normal compatibility, not viscosity-level participation.
+There is no primitive `jump` face because one-field coherence is regularity,
+not base membership. There is no primitive Lagrangian `blown` face because
+flow-map control is also extra regularity.
+
+## Repaired Endpoint Reading
+
+The endpoint words may still be used in this restricted way:
+
+1. `dead`: failure of an added participation-like regularity theorem, if one is
+   explicitly defined; relative to an NS-style carrier this is a live Euler
+   possibility, not a contradiction of pressure incompressibility;
+2. `blown`: failure of an added Lagrangian carrier / deformation-control theorem;
+3. `jump`: failure of an added one-field coherence theorem; this can coexist
+   with weak Euler membership unless an Euler-native regularity theorem excludes
+   it.
+
+They are labels for stronger classes above `Member_E`.
+
+The endpoint cover taxonomy is recorded in
+[mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md).
+Under that taxonomy, Euler tangential slip is a `jump` reading for an added
+one-field regularity class, while remaining compatible with weak `Member_E`.
+
+## Consequence For The Old No-Dead Line
+
+The old no-dead line disappears from primitive Euler membership. The correct
+statement is:
 
 ```math
 \boxed{
-\text{no blown endpoint}
-\qquad\text{and}\qquad
-\text{no jump endpoint.}
+\text{Euler has no base participation face to preserve; participation-like
+claims must name pressure/incompressibility compatibility, vorticity,
+transport, boundary flux, or a separate regularity mechanism.}
 }
 \tag{EL13.2}
 ```
 
-This is the same surviving split as the parent route, but now read with the
-governing PDE literally equal to Euler.
+Couette/slip is the sanity check: inviscid Euler imposes no-penetration at a
+wall, not tangential no-slip, unless the tangential condition is added from
+outside the Euler membership law.
 
-## Packing-Side Burden
+A sharp jet gives the same test in the interior. It can force a pressure
+response and still fail to entrain neighboring material into one smooth
+carrier; pressure participation alone does not rule out that
+dead-relative-to-carrier behavior.
 
-The packing predicate stays the same object:
+## Consequence For The Old No-Blown Line
 
-```math
-\mathrm{Pack}_Q(u,\Phi).
-\tag{EL13.3}
-```
-
-On the Euler mirror, the cleanest sufficient continuation law remains purely
-kinematic:
-
-```math
-\int_0^T \|\nabla u(\tau)\|_{L^\infty_x}\,d\tau < \infty
-\Longrightarrow
-\text{no blown endpoint can occur before }T.
-\tag{EL13.4}
-```
-
-So the packing-side exclusion is not the first explicit viscous wall. Its
-theorem-facing debt is still:
+The old packing-side line becomes:
 
 ```math
 \boxed{
-\text{propagate the shared packing witness to first candidate exit on the Euler branch.}
+\text{flux-volume balance is primitive; Lagrangian flow-map control is a
+regularity upgrade.}
+}
+\tag{EL13.3}
+```
+
+If the branch wants no-blown as a theorem, it must prove an Euler flow-map or
+continuation estimate, for example from an integrable gradient condition. That
+theorem would not define base membership.
+
+## Consequence For The Old No-Jump Line
+
+The old one-field line becomes:
+
+```math
+\boxed{
+\text{one-field coherence is optional regularity over } \mathrm{Member}_E,
+\text{ not a membership face.}
+}
+\tag{EL13.4}
+```
+
+`EOFP` and `EOFR` remain useful only as a possible route to such a regularity
+upgrade.
+
+Slip lands here in its native readout: it is a base-rung velocity jump /
+one-field split, not a Pack failure and not a primitive Euler membership
+failure. If a stronger Euler comparison class separately defines
+participation failure, slip may also be a cross-entry for that stronger class;
+it still does not become base `Member_E` failure.
+
+So the honest Euler reading is that `dead` and `jump` are not primitive exit
+faces, but they remain meaningful nonsmoothness scenarios for stronger classes.
+
+## Honest Current Burden
+
+The Euler contradiction package now has one honest burden:
+
+```math
+\boxed{
+\mathrm{Member}_E
++ \text{Euler-native regularity controls}
+\Longrightarrow
+\text{the desired smooth / coherent class persists.}
 }
 \tag{EL13.5}
 ```
 
-Nothing in this note claims that debt is closed. It records only that the
-packing side remains transport-native once viscosity is removed.
-
-## One-Field Burden
-
-The one-field predicate also stays exact:
-
-```math
-\mathrm{Field}_{N,r,Q}(u,p).
-\tag{EL13.6}
-```
-
-The Euler mirror of the no-jump implication is:
-
-### Reduction `EL13.B` (No-jump exclusion reduces to Euler one-field forward preservation)
-
-Assume `EOFP.A` on every still-live Euler window below a candidate exit time
-`T`.
-
-Then no jump endpoint can occur before `T`:
-
-```math
-\boxed{
-\text{`EOFP.A' on all still-live Euler windows up to }T
-\Longrightarrow
-\text{no jump endpoint before }T.
-}
-\tag{EL13.7}
-```
-
-### Proof
-
-`EOFP.A` is exactly the forward propagation law for the one-field predicate
-`Field` on same-fluid Euler families. A jump endpoint is exactly the surviving
-class exit realized by failure of that same one-field law. So if `Field`
-propagates on every still-live window up to `T`, then remaining class exit
-cannot be realized through jump before `T`. ∎
-
-## Exact Euler No-Jump Queue
-
-The one-field burden is no longer allowed to stop at the older bootstrap
-sentence "LCI is the first viscous wall." The honest next-form queue is now:
-
-```math
-\boxed{
-\text{transport/pressure source ledger}
-\;+\;
-\text{Euler lower-carrier receiver theorem }ELCI.A
-\Longrightarrow
-EOFP.A
-\Longrightarrow
-\text{no jump endpoint.}
-}
-\tag{EL13.8}
-```
-
-The transport/pressure source ledger is the source-only interval-integrability
-burden named precisely in the companion reduction note as
-`\mathcal N_{N,\rho,\psi}^{E,\mathrm{src}}(\cdot;I)\in L^1(I)`, while the
-receiver side is the new Euler-facing replacement program `ELCI.A`.
-
-## Exact Euler Execution Order
-
-The contradiction stack on the Euler mirror therefore runs in the same theorem
-order as the parent route:
-
-```math
-\boxed{
-\text{no-dead}
-\Longrightarrow
-\text{no blown endpoint / no jump endpoint}
-\Longrightarrow
-\text{only then downstream consumer branches.}
-}
-\tag{EL13.9}
-```
-
-More explicitly, the still-live surviving-side queue is:
-
-```math
-\boxed{
-\text{pack-side forward preservation}
-\qquad\parallel\qquad
-\big(
-\mathcal N_{N,\rho,\psi}^{E,\mathrm{src}}(\cdot;I)\in L^1(I)
-+
-ELCI.A
-\big)
-\Longrightarrow
-EOFP.A.
-}
-\tag{EL13.10}
-```
-
-This keeps the class-membership stack honest on the Euler branch without
-pretending that the parent viscous receiver package survived intact.
-
-## Honest Boundary
-
-This note does **not** claim that either surviving exclusion is closed.
-
-It sharpens the Euler mirror to the exact pair of remaining theorem debts:
-
-```math
-\boxed{
-\text{no blown endpoint on the packing side,}
-}
-```
-
-```math
-\boxed{
-\text{no jump endpoint on the one-field side through }
-\mathcal N_{N,\rho,\psi}^{E,\mathrm{src}}
-\text{ and }ELCI.A.
-}
-```
-
-The first literal obstruction on the no-jump branch is not a vague statement
-that "Euler is harder." It is the precise point recorded in `ELCI.A` where the
-parent Navier-Stokes proof used the dissipative `2\nu` sink and the associated
-top-viscous readout to close the moving-collar lower-carrier packet.
+The old endpoint split is no longer allowed to stand in for the missing
+regularity theorem.
