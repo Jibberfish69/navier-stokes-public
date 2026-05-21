@@ -106,6 +106,39 @@ commutator has a sign-indefinite strain principal form. After absolute values,
 the route collapses back to the positive carrier / active-square tail, which is
 the same no-pulse wall.
 
+The NS 25 continuation
+`mpp-tangent-weight-rigidity-for-signed-lifted-exchange-note-20260504.md`
+keeps this route alive only as a new theorem attack, not as an installed
+discharge.  Its correction is that the raw SDS shell weight does not flatten;
+the theorem must instead prove epsilon rigidity for the total localized lifted
+coefficient after active-window rescaling, including cutoff, packet, projector,
+Jacobian, transported-frame, and window-normalization factors.  If that total
+coefficient is reduced to the frozen Euclidean lifted strain object, the
+remaining hard gate is `ASAC.A`: positive expanding-strain alignment must have
+absorbable dissipation cost.  Thus tangent-weight rigidity supplies the
+geometry/transport gate, while active strain-alignment cost is the actual
+Euclidean signed PDE gate needed for `SignedLocalSource.A`.  The target theorem
+is isolated in
+`mpp-active-strain-alignment-cost-target-note-20260504.md`, whose sharp missing
+object is `TPNI.A`: a terminal positive-alignment tangent packet with a
+sufficiently strong no-incoming high-frequency/source condition must be zero.
+That target still needs both `NoIncomingLicense.A` from the terminal rescaling
+and `AnisotropicBackwardUniqueness.A` for the exact transformed frozen-strain
+Stokes system.  The source-residue drain route to the same target is isolated in
+`mpp-source-residue-drain-inequality-lemma-b-note-20260504.md`: prove a positive
+Radon source-residue measure on same-fluid heat cylinders and the first-pulse
+drain inequality `\nu_*\le\theta\mathcal D_*` with `\theta` below the normalized
+source-production threshold.  The selected no-free-creation mechanism for that
+drain is the principal-flow adjoint parent-or-charge theorem in
+`mpp-principal-flow-adjoint-parent-or-charge-note-20260504.md`, whose core
+estimate is square-summability of residual pairings against backward adjoint
+packets.  The first analytic layer of that route is coefficient stopping,
+recorded in
+`mpp-coefficient-stopping-for-strain-gauged-packets-note-20260504.md`: tiles
+whose affine-frame coefficient budget `r_T^2\nabla^2b_k+r_T\nabla A_k` is too
+large must be stopped and converted into residual charge or earlier source-pulse
+ancestry before `WeightedAdjBessel.A` is allowed to run.
+
 ### 5. Pressure-strain depletion route rejected as an installed discharge
 
 Pressure recovery supplies elliptic and local response ledgers. It does not
@@ -162,7 +195,9 @@ MSC.Localize^{src}:
 Thus the compactness route is really
 
 ```math
-MSC.Localize^{src}+Ancient.NoPulse^{src}
+MSC.Localize^{src}
+\quad+\quad
+\text{first-pulse source drain}
 \Longrightarrow
 MSC.BadAC.
 ```
@@ -447,9 +482,10 @@ balances, but neither excludes source-balanced heat-scale pulses without a new
 `ParabolicNoPulse.A` theorem.
 The compactness / Liouville mechanism is likewise only a sufficient language:
 `mpp-sourcepulse-compactness-liouville-final-audit-note.md` records that it
-requires source-residue localization plus source-residue ancient rigidity
-(`MSC.Localize^{src}+Ancient.NoPulse^{src}`), or the ancestry alternatives,
-before it can exclude the same source-pulse object.
+requires same-fluid source-residue localization plus the sourced first-pulse
+drain form of `Ancient.NoPulse^{src}` (`MSC.Localize^{src}` plus first-pulse
+source drain), or the ancestry alternatives, before it can exclude the same
+source-pulse object.
 The viscous-Duhamel mechanism is also only a sufficient language:
 `mpp-sourcepulse-viscous-duhamel-no-pulse-audit-note.md` records that heat
 damping excludes inherited shell energy, not nonlinear source-balanced refill.

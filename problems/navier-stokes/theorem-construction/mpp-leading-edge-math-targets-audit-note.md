@@ -2,241 +2,1021 @@
 
 ## Status
 
-Substantive leading-edge audit for the current Navier-Stokes frontier.
+Repo-bounded audit against the current Navier-Stokes authority surfaces.
 
-## NS 25 Route-Faithfulness Correction
+This note does three things only:
 
-This audit predates the explicit CM-contrapositive polarity correction now
-recorded in
-`mpp-cm-contrapositive-route-faithfulness-audit-note-20260503.md`.
+1. separates the current live-edge claim from preserved source-wall subtarget
+   inventory;
+2. classifies each target on the present repo surfaces as live governing edge,
+   conditional support, preserved alternate subtarget, downstream consumer,
+   installed bridge, or stale overlay;
+3. records the exact release-surface reconciliation burden still visible on
+   disk.
 
-Its line-by-line terminal-tail and release-boundary checks remain useful, but
-the final work queue below is superseded wherever it treats proof-polish,
-terminal-tail production, or absolute no-pulse exclusion as the route root.  The
-route-faithful primitive is:
+Scope boundary: this is an on-repo surface audit.  It does not prove or refute
+the 20260504 normalized-adjoint source-drain discharge from first principles.
+It classifies what the current theorem notes and generated YAMLs actually say.
 
-```math
-\text{terminal source-pulse non-smooth witness}
-\Longrightarrow
-\neg Pack\vee\neg Part\vee\neg Field.
+## Chunk 0. Current Surface Split
+
+The current repo has three different layers in play.
+
+The theorem-facing live cluster
+
+```text
+live-theorem-edge.yaml
+source-frontier.yaml
+proof-obligation-matrix.yaml
+promotion-blocker-ledger.yaml
+route-integrity-report.yaml
+warrant-compilation.yaml
 ```
 
-`OriginalSmoothData=>SourcePulseExclusion.A` is retained only as a strong
-sufficient supplier presentation of that source-pulse class-exit target.
+currently says:
 
-Read sources:
+```math
+\boxed{
+\text{CM certificate direction installed}
+\quad+\quad
+\text{source-wall root reopened after SourceWall.Reconcile.A demotion}.
+}
+```
 
-| Surface | SHA |
-|---|---|
-| `mcp-pctp-hard-discharge-via-averaged-terminal-tail-uniformization-avg-end-a-a92107787f.md` | `a92107787fd2b95ee9beb76b4ef2b5cc8a00790c` |
-| `mcp-aact-global-nojump-finite-cover-scheduler-theorem-avg-end-a-b464d2cdf8.md` | `b464d2cdf8572332a1ae0871a682d19022db4dc4` |
-| `mcp-avg-end-a-hardened-averaged-endpoint-rows-tgc-a-b13bc3ecf3.md` | `b13bc3ecf3c2f5f7d28aa1dd13dcb915b4469184` |
-| `mpp-read-cover-full-end-bridge-note.md` | `8c37039c9245b5e7a3ef0d06342c1c222b04bcbb` |
-| `mpp-readout-endpoint-compatibility-completion-note.md` | `2deb108308c11d6ee6ffa1ed44e14fc2d24a1d4d` |
-| `release-decision.yaml` | `2b4a62c38e0aad4ab285728972103c195b42aab2` |
-| `mcp-target-fidelity-bridge-for-periodic-zero-force-branch-e8879ab68c.md` | `e8879ab68c9cbf52226eecb778d31c9c5990b297` |
+Concretely:
 
-## 1. `PCTP.hard / TTU.A audit`
+```math
+CMCert.A
+\quad+\quad
+\text{first-exit Pack/Part/Field witness envelope}
+```
 
-The live theorem-facing bridge is
+are treated as the governing CM bridge.  The blunt converse
+`\neg CM=>\neg Member` is not installed.
 
-$$
-TGC.A+AACT.Global.noJump+AVG.END.A+READ.END\Rightarrow PCTP.hard.
-$$
+The source-wall side now says:
 
-### Line-by-line audit
+```math
+\boxed{
+CycleHeatAction.A\Longrightarrow ScaleCriticalTreeCarleson.A
+\quad\text{or}\quad
+ScaleCriticalTreeCarleson.A
+\quad\text{or}\quad
+ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+}
+```
 
-| Line | Supplies | Use in bridge | Risk status |
-|---|---|---|---|
-| `TGC.A` | Terminal good-cylinder classification. Radius degeneration and bad material contact are typed as `Jump_avg`; the complementary branch carries finite SCF-good cover data. | Produces the terminal-tail finite same-fluid cover on the no-`Jump_avg` branch, including positive lower radius and bounded overlap. | Discharged by the terminal-tail and scheduler surfaces. |
-| `AACT.Global.noJump` | Finite-cover scheduler globalization. From local `ATD_m^epsilon` and local `AACT.KX`, it yields `X in Linfty`, `N in L1`, averaged `K_{<=m} in L1`, then `DTC.A_avg`. | Converts local averaged cylinder packets into a global averaged dynamic tower certificate. | Discharged by common `B_*`, `F_*`, finite route parameter set, and absorption with `eta_X`. |
-| `AVG.END.A` | `CFI.A_avg+AVG.END.Cert => End_NS_avg`. It contains `END.Exh_avg`, `END.Cross_avg`, `END.Pack`, `END.Field_avg`, and `END.TowerBound_avg`. | Consumes averaged endpoint faces after averaged production: `Jump_avg`, `tower-blown_avg`, packing-detached, and dead. | Discharged by endpoint rows in the hardened averaged endpoint surface. |
-| `READ.END` | `End_NS_avg+READ.COVER+Field.Read+DTC.Read => End_NS`. | Converts averaged endpoint data to the old pointwise endpoint matrix only after `End_NS_avg`. | Discharged by the readout compatibility surface and `READ.COVER`. |
+The newest live direct attack on the first branch is:
 
-### Conclusion
+```math
+ParabolicSourceCurrent.A
+:=
+LocalizedSkewCurrent.A+CycleHeatAction.A,
+```
 
-The bridge is valid as a terminal-tail route:
+where `LocalizedSkewCurrent.A` is the signed-current ledger and
+`CycleHeatAction.A` is the heat-action interface.  The follow-up audits show
+that this route remains conditional: its lower targets collapse to
+`TerminalSignedSaturation.A`, `ParabolicEdgeResistance.A`,
+`ScaleCriticalTreeCarleson.A`, or the Zeno pair.
 
-$$
-TGC.A+AACT.Global.noJump+AVG.END.A+READ.END
+The normalized-adjoint source-drain chain is retained only as conditional
+analytic support:
+
+```math
+CoeffStop.A
+\Longrightarrow
+WeightedAdjBessel.A
+\Longrightarrow
+WeightedAdjRes.A
+\Longrightarrow
+GainStop.A
+\Longrightarrow
+ParentKernel.A
+\Longrightarrow
+FirstPulseKill.A
+\Longrightarrow
+LemmaB.SourceDrain.
+```
+
+But `SourceWall.Reconcile.A` is no longer merely an open acceptance gate.  It is
+resolved by demotion:
+
+```math
+\boxed{
+\text{normalized-adjoint source-drain is conditional support, not an
+unconditional proof of } SOURCE.NO\text{-}PULSE.A.
+}
+```
+
+But the generated packet/release cluster
+
+```text
+theorem-packet.yaml
+review-verdict.yaml
+submission-verdict.yaml
+authority-reconciliation.yaml
+auto-audit.yaml
+```
+
+is currently being reflatted by the automation pipeline back to
+`packet_complete/export_ready` or `submission-candidate` posture, despite the
+theorem-facing live cluster above.  That mismatch is now recorded in:
+
+```text
+problems/navier-stokes/governance-escalation.yaml
+```
+
+But the preserved matrix/inventory layer
+
+```text
+proof-obligation-matrix.yaml
+mpp-source-no-pulse-terminal-target-stack-note.md
+mpp-source-no-pulse-root-route-audit-map-note.md
+```
+
+still keeps a detailed source-wall subtarget ladder on record.  That ladder is
+not presented there as the governing CM primitive.  After the reconciliation
+demotion, the exact live source-wall burden is now the sharpened root choice:
+
+```math
+ScaleCriticalTreeCarleson.A
+\quad\text{or}\quad
+ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+```
+
+So the honest audit posture is:
+
+```math
+\boxed{
+\text{governing live edge} \neq \text{preserved source-wall subtarget inventory}.
+}
+```
+
+The rest of this note classifies the user's items under that split.
+
+## Chunk A. Source-Wall Math Inventory
+
+### A1. `SOURCE.NO-PULSE.A`
+
+Current classification:
+
+```math
+\textbf{downstream target conditional on the reopened source-wall root.}
+```
+
+Evidence:
+
+- `mpp-sourcewall-reconcile-a-resolution-and-root-reopen-20260505.md`
+- `mpp-source-drain-definition-alignment-and-discharge-20260504.md`
+- `mpp-normalized-adjoint-amplitude-four-certificate-discharge-20260504.md`
+- `live-theorem-edge.yaml`
+- `proof-obligation-matrix.yaml`
+
+Audit reading:
+
+- it is not the governing CM primitive;
+- it is not currently discharged from `OriginalSmoothData` alone;
+- the normalized-adjoint chain remains conditional support for it;
+- the live root route to it is now `ScaleCriticalTreeCarleson.A` or
+  `ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A`.
+- the current preferred direct attack on `ScaleCriticalTreeCarleson.A` is
+  `CycleHeatAction.A` through the parabolic source-current route.
+
+### A2. `LocalPositiveSourceCarleson.A`
+
+Current classification:
+
+```math
+\textbf{direct source-wall branch container reduced to
+ScaleCriticalTreeCarleson.A.}
+```
+
+Evidence:
+
+- `proof-obligation-matrix.yaml`:
+  `current_local_positive_source_target: LocalPositiveSourceCarleson.A`
+- `mpp-parent-square-embed-and-scalecritical-reserve-reduction-20260505.md`
+- `mpp-sourcewall-reconcile-a-resolution-and-root-reopen-20260505.md`
+- `mpp-local-positive-source-carleson-final-collapse-note.md`
+- `mpp-local-positive-precauchy-source-carleson-direct-attempt-note.md`
+
+Audit reading:
+
+- `ParentSquareEmbed.A` is installed and controls diffuse parentage in square
+  norm;
+- the direct branch closes only if the scalar reserve
+  `ScaleCriticalTreeCarleson.A` is proved;
+- it is one live root route, not a stale alternate.
+
+### A3. `TerminalSourceCoherence.A`
+
+Current classification:
+
+```math
+\textbf{preserved coherence-side supplier subtarget.}
+```
+
+Evidence:
+
+- `proof-obligation-matrix.yaml`:
+  `current_coherence_subtarget: TerminalSourceCoherence.A`
+- `mpp-terminal-source-coherence-direct-audit-note.md`
+- `mpp-terminal-source-coherence-supplier-split-audit-note.md`
+
+Audit reading:
+
+- still preserved as the coherence-side child burden;
+- not the selected direct-live governing edge.
+
+### A4. `ScaleCriticalTreeCarleson.A`
+
+Current classification:
+
+```math
+\textbf{live direct source-wall root.}
+```
+
+Evidence:
+
+- `proof-obligation-matrix.yaml`
+- `mpp-sourcewall-reconcile-a-resolution-and-root-reopen-20260505.md`
+- `mpp-parent-square-embed-and-scalecritical-reserve-reduction-20260505.md`
+- `mpp-sourcewall-root-postreconcile-direct-attempt-20260505.md`
+- `mpp-scalecritical-tree-carleson-bellman-reserve-attempt-20260505.md`
+- `mpp-scalecritical-tree-carleson-direct-irreducibility-note-20260505.md`
+- `mpp-scalecritical-tree-carleson-next-attempt-20260505.md`
+- `mpp-square-reserve-evolution-next-attempt-20260505.md`
+- `mpp-parabolic-source-current-route-note-20260505.md`
+- `mpp-cycle-heat-action-proof-plan-after-think-again-20260505.md`
+- `mcp-scalecriticaltreecarleson-child-loop-audit-20260503.md`
+- `mpp-scalecritical-tree-carleson-equivalence-note.md`
+
+Audit reading:
+
+- this is the sharpened scalar reserve left after `ParentSquareEmbed.A`;
+- it is the direct branch of the current live root;
+- the post-reconcile direct attempt and tree-Bellman attempt do not prove it
+  from installed inputs; the Bellman route is circular unless an independent
+  active-window Carleson reserve, active-shell amplitude gain, normalized
+  square-source theorem, branch-reserve theorem, or Zeno rigidity theorem is
+  installed;
+- `ScaleCriticalPulseReserve.A` is only a descriptive alias here, not a separate
+  live theorem object below `ScaleCriticalTreeCarleson.A`;
+- the latest direct attempt reduces the same reserve to a scale-critical
+  active-window height / donor-tail estimate, which is not installed by current
+  first-moment, local-energy, donor-balance, normalized-adjoint, active-shell,
+  square-source, branch-reserve, or Zeno compactness inputs.
+- the signed-current route remains the most structural direct attack, but its
+  subtargets are conditional route pieces rather than lower installed roots.
+
+### A4B. `ParabolicSourceCurrent.A` / `CycleHeatAction.A`
+
+Current classification:
+
+```math
+\textbf{conditional structural direct attack into ScaleCriticalTreeCarleson.A.}
+```
+
+Evidence:
+
+- `source-frontier.yaml`
+- `proof-obligation-matrix.yaml`
+- `live-theorem-edge.yaml`
+- `mpp-parabolic-source-current-route-note-20260505.md`
+- `mpp-cycle-heat-action-proof-plan-after-think-again-20260505.md`
+- `mpp-localized-skew-current-theorem-grade-audit-20260505.md`
+- `mpp-cycle-heat-action-direct-attempt-20260505.md`
+- `mpp-cycleheataction-direct-attempt-no-free-sink-obstruction-20260505.md`
+- `mpp-terminal-skew-localization-ledger-direct-attempt-20260505.md`
+- `mpp-parabolic-cycle-coercivity-direct-attempt-20260505.md`
+- `mpp-terminal-signed-saturation-direct-attempt-20260505.md`
+- `mpp-parabolic-no-free-sink-direct-attempt-20260505.md`
+- `mpp-off-family-counteredge-charge-direct-attempt-20260505.md`
+- `mpp-weighted-lifted-defect-carleson-direct-attempt-20260505.md`
+- `mpp-sourcewall-signed-current-collapse-ledger-20260505.md`
+
+Audit reading:
+
+- only `BareDyadicSkewCurrent.0` is installed;
+- `LocalizedSkewCurrent.A` requires `TerminalSkewLocalizationLedger.A`, which
+  reduces to `TerminalSignedSaturation.A`;
+- `CycleHeatAction.A`, strong `FirstCurrentPruning.A`,
+  `ParabolicCycleCoercivity.A`, and `ParabolicNoFreeSink.A` all fail unless the
+  same donor-sink / terminal signed-saturation wall is supplied;
+- `OffFamilyCounteredgeCharge.A` reduces to `TerminalSignedSaturation.A`;
+- `WeightedLiftedDefectCarleson.A` fails at
+  `|w_j|^2[e_j\cdot S^{loc}_{<j}e_j]_+` and returns to the native positive
+  source-control wall;
+- `ParabolicEdgeResistance.A` leaves a scale-critical flux-amplitude remainder
+  equivalent to `ScaleCriticalTreeCarleson.A`;
+- the honest conditional chain is
+
+  ```math
+  TerminalSignedSaturation.A
+  +ParabolicEdgeResistance.A
+  \Longrightarrow
+  ParabolicSourceCurrent.A
+  \Longrightarrow
+  ScaleCriticalTreeCarleson.A
+  \Longrightarrow
+  LocalPositiveSourceCarleson.A.
+  ```
+
+- this is not yet a discharge; it is a sharper route into the direct source
+  wall than `SquareReserveEvolution.A`.
+
+### A5. `ReverseHolderParentConcentration.A`
+
+Current classification:
+
+```math
+\textbf{historical bounded-selector obstruction; diffuse parentage is now paid
+by ParentSquareEmbed.A, leaving the square reserve.}
+```
+
+Evidence:
+
+- `proof-obligation-matrix.yaml`
+- `mpp-reverseholder-parent-concentration-direct-attempt-note.md`
+
+Audit reading:
+
+- bounded parent selection failed against diffuse legal parentage;
+- `ParentSquareEmbed.A` replaces bounded selection by full diffuse parent
+  square control;
+- the remaining direct burden is `ScaleCriticalTreeCarleson.A`.
+
+### A6. `RefillTreeWellFounded.A`
+
+Current classification:
+
+```math
+\textbf{preserved donor/refill child target.}
+```
+
+Evidence:
+
+- `proof-obligation-matrix.yaml`:
+  `current_donor_subtarget: RefillTreeWellFounded.A`
+- `mpp-refilltree-wellfounded-direct-attempt-note.md`
+- `mpp-terminal-zeno-source-refill-no-hidden-frontier-note.md`
+
+Audit reading:
+
+- non-Zeno leaf decay is recorded separately;
+- the live preserved difficulty is the terminal Zeno refill branch.
+
+### A7. `ZenoBoundedClass.A`
+
+Current repo spelling:
+
+```math
+ZenoBoundedClass_B.A.
+```
+
+Current classification:
+
+```math
+\textbf{preserved rigid-class production target on the Zeno route.}
+```
+
+Evidence:
+
+- `proof-obligation-matrix.yaml`
+- `mpp-zeno-rigid-class-candidates-direct-audit-note.md`
+- `mpp-zeno-cancellation-class-production-license-audit-note.md`
+- `mpp-zeno-rigid-class-next-attempt-20260505.md`
+
+### A8. `ZenoResidueLiouville.A`
+
+Current repo spelling:
+
+```math
+ZenoResidueLiouville_B.A.
+```
+
+Current classification:
+
+```math
+\textbf{preserved rigid-class Liouville companion target on the Zeno route.}
+```
+
+Evidence:
+
+- `proof-obligation-matrix.yaml`
+- `mpp-zeno-residue-liouville-target-attack-note.md`
+- `mpp-zeno-residue-liouville-direct-attempt-note.md`
+- `mpp-zeno-rigid-class-next-attempt-20260505.md`
+
+Combined Zeno reading:
+
+```math
+ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+```
+
+is the rigid-class side of the reopened root.  The latest attempt gives a
+conditional temporal-support class `B_time`: the residue Liouville implication
+is valid for that class, but producing the class requires the uninstalled native
+anti-atom theorem
+
+```math
+TemporalNonAtomicSource.A.
+```
+
+### A9. `TwoTowerDonorDepletion.A`
+
+Current classification:
+
+```math
+\textbf{preserved stronger sufficient donor package, not selected governing edge.}
+```
+
+Evidence:
+
+- `proof-obligation-matrix.yaml`:
+  `current_sufficient_donor_package: TwoTowerDonorDepletion.A`
+- `mpp-two-tower-donor-depletion-formalization-note.md`
+- `mpp-ancestrydrain-a-direct-attempt-note.md`
+
+Audit reading:
+
+- still carried as the stronger donor/refill sufficient theorem;
+- not installed by current ordinary finite-energy bookkeeping.
+
+### A10. `FPK.A`
+
+Current repo spelling:
+
+```math
+FirstPulseKill.A.
+```
+
+Current classification:
+
+```math
+\textbf{conditional source-drain rung; its unconditional no-diffuse-ancestry
+certificate failed.}
+```
+
+Evidence:
+
+- `mpp-source-drain-definition-alignment-and-discharge-20260504.md`
+- `mcp-weightedadjres-source-drain-core-assembly-20260504.md`
+- `mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md`
+
+Audit reading:
+
+- finite-window first-pulse selection remains useful;
+- it does not rule out diffuse legal source-parent measures in the terminal
+  ancient limit;
+- this is why `SourceWall.Reconcile.A` demotes the normalized-adjoint route to
+  conditional support.
+
+### A11. `LemmaB.SourceDrain`
+
+Current classification:
+
+```math
+\textbf{conditional source-drain pivot, not an unconditional source-wall closure.}
+```
+
+Evidence:
+
+- `mpp-source-drain-definition-alignment-and-discharge-20260504.md`
+- `mpp-source-residue-drain-inequality-lemma-b-note-20260504.md`
+- `review-verdict.yaml`
+
+Audit reading:
+
+- this is the exact pivot between the source-wall supplier chain and the
+  downstream no-`Jump_avg` consumer chain;
+- the normalized-adjoint package proves a conditional analytic mechanism toward
+  it;
+- it does not imply `SOURCE.NO-PULSE.A` from `OriginalSmoothData` until the
+  reopened source-wall root closes.
+
+### A12. `AWG.A` / `Jump_avg=>\bot`
+
+Current classification:
+
+```math
+\textbf{downstream supplier/readout consequences, not governing primitive.}
+```
+
+Evidence:
+
+- `live-theorem-edge.yaml`
+- `proof-obligation-matrix.yaml`
+- `mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md`
+
+Audit reading:
+
+- on the current direct-live cluster, these remain typed downstream objects
+  after source-wall root closure;
+- they are not the CM primitive;
+- they are still the internal no-`Jump_avg` outputs of the supplier/readout
+  chain.
+
+### A13. `PCTP.hard / TTU.A`
+
+Current classification:
+
+```math
+\textbf{downstream terminal-tail consumer/readout.}
+```
+
+Evidence:
+
+- `live-theorem-edge.yaml`
+- `proof-obligation-matrix.yaml`
+- `mpp-pctp-hard-governance-consumption-audit-note.md`
+
+Audit reading:
+
+- current live edge explicitly demotes this from governing frontier status;
+- it remains the downstream terminal-tail consumer once the reopened source wall
+  supplies `SOURCE.NO-PULSE.A`.
+
+### Chunk A Verdict
+
+The user's source-wall inventory is justified, and after the reconciliation
+demotion it is no longer merely preserved alternate inventory.  The exact split
+on disk is:
+
+```math
+\boxed{
+\text{installed CM bridge: }
+CMCert.A\text{ plus first-exit witness envelope}
+}
+```
+
+versus
+
+```math
+\boxed{
+\text{live source-wall root: }
+ScaleCriticalTreeCarleson.A
+\quad\text{or}\quad
+ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+}
+```
+
+with conditional support:
+
+```math
+\boxed{
+\text{normalized-adjoint source-drain package}
 \Rightarrow
-PCTP.hard.
-$$
+\text{conditional } LemmaB.SourceDrain \text{ support only}.
+}
+```
 
-The legal order is:
+with the coherence, donor, parent, and tree-Carleson targets still preserved as
+subtargets beneath the reopened source wall.
 
-$$
-TGC.A
-\Rightarrow
-\text{finite SCF-good terminal cover or }Jump_{avg},
-$$
+## Chunk B. CM / Witness-Face Targets
 
-$$
-\neg Jump_{avg}+AACT.Global.noJump
-\Rightarrow
-DTC.A_{avg},
-$$
+### B14. `TRI.E1` / witness-carrying triadicity ceiling
 
-$$
-DTC.A_{avg}\Rightarrow AVG.RCV.A\Rightarrow LCI.A_{avg}\Rightarrow CSP.A_{avg}\Rightarrow OFP.A_{avg}\Rightarrow CFI.A_{avg},
-$$
+Current classification:
 
-$$
-CFI.A_{avg}+AVG.END.Cert\Rightarrow End_{NS,avg},
-$$
+```math
+\textbf{installed route-relative stable-carrier canonicality, with one stronger
+mixed-clause residual still open.}
+```
 
-$$
-End_{NS,avg}\Rightarrow READ.COVER\Rightarrow READ.END\Rightarrow End_{NS}\Rightarrow PCTP.hard.
-$$
+Evidence:
 
-## 2. `Target-fidelity / Clay-release gap`
+- `mpp-pack-part-field-triadicity-audit-note.md`
 
-The current release surface reports:
+Installed ceiling:
 
-$$
-\text{release posture} = \text{export-ready},
-\qquad
-\text{next stage} = \text{submission-candidate},
-$$
+```math
+\text{any lawful primitive local-law factorization built from }(u,p,\Phi,F)
+\text{ collapses, after lawful regrouping, to }
+\mathrm{Pack}/\mathrm{Part}/\mathrm{Field}.
+```
 
-with blocker list empty.
+Remaining stronger residual:
 
-The target-fidelity bridge read in this pass is periodic zero-force:
+```math
+\text{rule out the irreducible mixed primitive clause obstruction }(TRI.12b).
+```
 
-$$
-M=T^3,
-\qquad
-f=0,
-\qquad
-\nu>0.
-$$
+So item 14 is not the CM bridge.  It is the triadicity / stable-carrier
+canonicality ceiling plus its mixed-clause residual.
 
-### Gap table
+### B15A. `CMCert.A` / first-exit witness envelope
 
-| Layer | Current repo status | Manuscript-facing consequence |
-|---|---|---|
-| Local terminal-tail theorem | `PCTP.hard / TTU.A` remains blocked downstream of the CM primitive `SourcePulseCMExit.A`. The current direct supplier presentation `OriginalSmoothData=>SourcePulseExclusion.A` is seated under the `SourcePulseFieldExit.A` face. | Cannot serve as a closed local theorem-program packet until `SourcePulseFieldExit.A` or an alternate `SourcePulsePartExit.A` / `SourcePulsePackExit.A` face is proved. |
-| Target fidelity | Periodic zero-force branch explicitly matched by target-fidelity surface. | Manuscript statement should stay periodic zero-force unless a separate whole-space target bridge is cited. |
-| Release decision | Review/release surfaces remain blocked by the independent math audit; release is not mathematically cleared while `SourcePulseCMExit.A` remains open. | Public-facing action remains theorem repair first, then export/submission handling. |
-| Review artifacts | `review-verdict`, `release-decision`, and the live theorem surfaces now agree that the completion tier achieved is only `conditional-terminal-packet`. | The proof package is still in theorem-construction risk, not just submission-management risk. |
+Current classification:
 
-### Conclusion
+```math
+\textbf{installed one-way CM certificate bridge on the current live edge.}
+```
 
-The repo state now separates two claims:
+Evidence:
 
-1. conditional theorem-program packets are installed on the periodic branch;
-2. the active mathematical frontier is still `SourcePulseCMExit.A`, with `OriginalSmoothData=>SourcePulseExclusion.A` as the current `SourcePulseFieldExit.A` supplier presentation, so public release remains subordinate to theorem repair rather than pure submission handling.
+- `mpp-cm-certificate-direction-correction-20260506.md`
+- `live-theorem-edge.yaml`
+- `source-frontier.yaml`
+- `proof-obligation-matrix.yaml`
 
-## 3. `Classical closure warrant carrier`
+Installed statement on disk:
 
-The classical closure warrant is the route from internal endpoint language to a standard PDE continuation norm:
+```math
+\forall N\ \exists r_N:\ CM_{N,r_N,Q}
+\Longrightarrow
+Member(Q;\mathfrak O_{NS}^{work}),
+```
 
-$$
-CM_{N,r,Q}\Rightarrow \sup_{t<T_*}\|u(t)\|_{H^s}<\infty,
-\qquad s>\frac52.
-$$
+and first-exit witness envelope
 
-### Audit
+```math
+\text{first class-exit}
+\Longrightarrow
+\text{first failure of }Pack\text{ or }Part\text{ or }Field.
+```
 
-| Component | PDE translation |
-|---|---|
-| `Pack` | Bounded transported geometry and finite cover comparison. |
-| `Part` | Same-fluid attachment of the tower data. |
-| `Field` | Pointwise one-field coherence and finite-depth tower control. |
-| weighted mixed-jet surface | Base `H^s` norm is a rung of the closed tower. |
-| classical continuation lemma | Uniform `H^s`, `s>5/2`, extends the classical solution. |
+The blunt converse `\neg CM=>\neg Member` is not installed.
 
-### Conclusion
+Audit note:
 
-The final continuation warrant is expressed in the standard norm
+- this is the clearest currently installed CM bridge in the repo;
+- older `cm-direction-alignment` / witness-face-needed language is stale where
+  it survives in older release or consistency surfaces.
 
-$$
-\sup_{t<T_*}\|u(t)\|_{H^s}<\infty.
-$$
+### B15B. Typed row bridges into CM
 
-Route-native vocabulary is consumed upstream by `CM.Readout`; the final continuation step uses the standard Sobolev criterion.
+Current classification:
 
-## 4. `Continuum no-escape compactness packet`
+```math
+\textbf{explicitly typed, with CM.CrossFaceSynthesis.A installed only as the
+same-ledger Pack/Part/Field bookkeeping bridge.}
+```
 
-### Hidden-compactness attack
+Evidence:
 
-The risky move is turning a.e. good material points into a uniform terminal cover. The route avoids this by splitting the terminal tail:
+- `mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md`
+- `mpp-cm-cross-face-synthesis-bridge-license-audit-20260505.md`
+- `mcp-explicit-cm-witness-face-bridge-after-source-pulse-20260504.md`
+- `mcp-part-row-nodrop-to-part-n-q-20260504.md`
+- `live-theorem-edge.yaml`
 
-$$
-\mathcal B_{\varepsilon}^{\Phi}\ne\varnothing\Rightarrow Jump_{avg},
-$$
+Typed spellings on disk:
 
-and by using `TGC.A` to type terminal good-radius degeneration as `Jump_avg`. On the complementary branch, `READ.COVER` gives a finite positive-scale cover from `End_NS_avg`.
+```math
+Pack.TTU\Longrightarrow Pack_Q,
+```
 
-### Endpoint-exclusion attack
+```math
+Part.NoDrop\Longrightarrow Part_{N,Q},
+```
 
-The route uses averaged endpoint exclusion only after averaged production:
+and
 
-$$
-DTC.A_{avg}\Rightarrow AVG.RCV.A\Rightarrow \cdots \Rightarrow CFI.A_{avg}\Rightarrow AVG.END.A.
-$$
+```math
+LemmaB.SourceDrain
++TGC.A+AACT.Global.noJump+SRC.Final+AVG.END.Cert
++READ.COVER+ATD_m^\varepsilon+Field.Read
+\Longrightarrow
+Field_{N,r,Q}.
+```
 
-Pointwise readout enters later:
+Audit reading:
 
-$$
-End_{NS,avg}\Rightarrow READ.COVER\Rightarrow Field.Read+DTC.Read\Rightarrow READ.END\Rightarrow End_{NS}.
-$$
+- `Pack.TTU=>Pack_Q` is used as a row input inside the CM bridge note, but the
+  live edge still treats `Pack.TTU` as a separate fallback/direct branch rather
+  than a promoted primitive.
+- `Part.NoDrop=>Part_{N,Q}` is still conditional in its own theorem-facing note.
+- `Field.Readout_{source-pulse}=>Field_{N,r,Q}` is also conditional and is fed
+  by root source-wall closure plus terminal-tail readout rather than by an
+  independent installed field theorem.
+- `CM.CrossFaceSynthesis.A` is installed only after Pack, Part, and Field are
+  certified on the same witness ledger; it is not a source-wall theorem.
 
-So endpoint exclusion is terminal in the branch order.
+### B15D. `GoodScaleNonCollapse.A`
 
-### Scale-loss attack
+Current classification:
 
-The scale controls are explicit:
+```math
+\textbf{downstream replacement interface for READ.COVER, not a lower
+source-wall root.}
+```
 
-$$
-r_j\ge r_*>0,
-\qquad
-\rho_j=\theta_m r_j\ge \theta_m r_*>0.
-$$
+Evidence:
 
-The scheduler uses finite cover size `J`, finite parameter set `P`, finite overlap `Omega`, and common `L^1` majorants
+- `mpp-good-scale-noncollapse-replacement-target-audit-20260505.md`
+- `live-theorem-edge.yaml`
+- `source-frontier.yaml`
 
-$$
-B_*,F_*\in L^1.
-$$
+Audit reading:
 
-### Conclusion
+- it gives the clean readout interface
+  `GoodScaleNonCollapse.A=>UniformReadCover.A=>READ.COVER`;
+- it is implied by no terminal scale collapse / no-`Jump_avg` on the retained
+  terminal tail;
+- proving it from `OriginalSmoothData` still requires
+  `ScaleCriticalTreeCarleson.A` or
+  `ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A`.
 
-The continuum no-escape compactness packet is supported at the theorem-program level by three safeguards:
+### B15E. Stale export/bundle overlays
 
-1. bad set and radius collapse are typed as `Jump_avg`;
-2. no-`Jump_avg` branch gives finite positive-scale cover;
-3. global scheduler uses finite cover and finite parameter set.
+Current classification:
 
-## 5. `Route B / C3 and curvature-based discharge`
+```math
+\textbf{release-surface cleanup only, not a live math burden.}
+```
 
-The live frontier packet still lists `route_b_c3`, `body2_q_bridge`, and `body4_curvature` as route objects. The current authority edge places the averaged terminal-tail route at the theorem-facing frontier.
+Evidence:
 
-### Classification
+- `submission-verdict.yaml`
+- `submission-bundle/submission-verdict.yaml`
 
-| Object | Current role | Action |
-|---|---|---|
-| `route_b_c3` | discovery / alternate route support | Keep as support lane unless live authority promotes it. |
-| `body2_q_bridge` | bridge/support object near route graph | Treat as export/support input, not mainline burden. |
-| `body4_curvature` | curvature-based discharge support | Convert to corollary or supporting proposition when needed. |
-| curvature-based discharge surfaces | source/support artifacts | Use for paper exposition or alternate proof branches. |
+The live theorem side promotes `CMCert.A` plus the first-exit witness envelope,
+while older bundle overlays may still contain stale conflict language.
 
-### Conclusion
+### Chunk B Verdict
 
-The curvature/Route B/C3 objects are best handled as support/export material under the current edge. They should become corollaries or appendix propositions unless a future live authority update promotes them back into the proof mainline.
+Item 14 is the `TRI.E1` canonicality ceiling, not the CM bridge.  The CM bridge
+belongs under item 15.  Inside item 15, the one-way certificate theorem is
+installed, but the typed Pack/Part/Field feed-in rows are still conditional row
+inputs rather than separately promoted live primitives, and the blunt converse
+`not CM=>not Member` is absent.
 
-## Final prioritized work queue
+## Chunk C. Paper / Clay-Readiness Targets
 
-1. Re-seat the source-pulse stack through `SourcePulseCMExit.A`: a terminal
-   source-pulse non-smooth witness must fail `Pack`, `Part`, or `Field`.
-2. Treat `OriginalSmoothData=>SourcePulseExclusion.A`,
-   `mu_*^sing=0`, remove / charge / rigidify, and native trilinear domination as
-   sufficient supplier languages for that class-exit target, not as the proof
-   program root.
-3. Only after the class-exit classification is settled should `PCTP.hard /
-   TTU.A`, continuum no-escape, and classical closure-warrant polish be promoted
-   back to final proof/export work.
-4. Keep target-fidelity / release handling blocked until the route-faithful
-   source-pulse class-exit target or a stronger sufficient supplier is installed.
-5. Keep Route B/C3 curvature material as support/export context unless live
-   authority promotes it through an explicit `Pack / Part / Field` bridge.
+### C16. Authority reconciliation
+
+Current classification:
+
+```math
+\textbf{real repo-cleanup task; theorem-facing sources are synchronized on the
+reopened root, but shared routing still misrecognizes the installed cross-face
+bridge.}
+```
+
+Current state:
+
+- `live-theorem-edge.yaml`, `source-frontier.yaml`,
+  `proof-obligation-matrix.yaml`, `promotion-blocker-ledger.yaml`,
+  `route-integrity-report.yaml`, and `warrant-compilation.yaml` now agree on the
+  same theorem-facing package:
+
+  ```math
+  \text{CM bridge installed}
+  \quad+\quad
+  \text{source-wall root reopened after SourceWall.Reconcile.A demotion.}
+  ```
+
+- `route-integrity-report.yaml` and `warrant-compilation.yaml` were refreshed
+  through the local Navier-Stokes hardener so they preserve the one-burden
+  reopened source-wall root posture.
+- `CM.CrossFaceSynthesis.A` is now installed as the synchronized
+  Pack/Part/Field bookkeeping bridge into `CM_{N,r,Q}`.
+- the current open shared-system drift is that the formalization/theorem-repair
+  loop still treats the lane as bridge-license-failed instead of routing it to
+  `source-wall-root-after-reconcile`.
+- that shared-system drift is recorded as an open governance repair in
+  `problems/navier-stokes/governance-escalation.yaml`.
+- `proof-obligation-matrix.yaml` still preserves the older detailed source-wall
+  subtarget inventory.
+- secondary generated release surfaces such as `release-manifest.yaml`,
+  `failure-mode-checks.yaml`, some submission-bundle mirrors, and similar bundle
+  overlays still lag behind the theorem-facing live cluster as well.
+
+Therefore the honest reconciliation burden is not “all surfaces disagree
+equally.”  It is:
+
+```math
+\boxed{
+\text{teach shared routing that CM.CrossFaceSynthesis.A is installed, then keep
+the lane pointed at source-wall-root-after-reconcile.}
+}
+```
+
+### C17. Supersession classification
+
+Current classification:
+
+```math
+\textbf{repo-cleanup task completed for the current lane-local audit layer.}
+```
+
+Current state:
+
+- `theorem-construction/mpp-conditional-branch-supersession-ledger-20260504.md`
+  now classifies older source-wall and conditional notes under the
+  `SourceWall.Reconcile.A` resolution posture.
+- the ledger separates `conditional-support`, `live-root`,
+  `installed-subcore`, `preserved-alternate`, `branch-local context`,
+  `historical failed attempt`, `downstream consumer`, and
+  `stale generated overlay`.
+- the classification reflects the live demotion: normalized-adjoint
+  source-drain is conditional support, `ParentSquareEmbed.A` is installed, and
+  the live root is `ScaleCriticalTreeCarleson.A` or the Zeno rigid-class pair.
+- the ledger now also classifies the signed-current route: its subtargets are
+  conditional structural support, but not lower installed roots after direct
+  attempts returned to `TerminalSignedSaturation.A`,
+  `ScaleCriticalTreeCarleson.A`, or the Zeno pair.
+
+Remaining boundary:
+
+- shared-generated packet/release surfaces still need builder repair before
+  they reliably consume this ledger.
+
+### C18. Final dependency graph under the current route
+
+Current classification:
+
+```math
+\textbf{repo artifact completed as a lane-local authority overlay.}
+```
+
+Current state:
+
+- `current-route-dependency-graph.yaml` records the current graph without
+  relying on stale generated `dependency-graph.yaml` output.
+- it separates the installed CM witness-face bridge, the resolved
+  `SourceWall.Reconcile.A` demotion, the conditional normalized-adjoint
+  source-drain support, the conditional signed-current route, the live direct
+  root `ScaleCriticalTreeCarleson.A`, the live alternate Zeno rigid-class pair,
+  downstream no-`Jump_avg` readout, and release-surface drift.
+
+Graph boundary:
+
+- this is a non-generated theorem-facing overlay;
+- it does not repair the shared formalization/theorem-repair routing that still
+  treats the cross-face bridge as missing.
+
+### C19. Final paper proof integration
+
+Current classification:
+
+```math
+\textbf{paper-integration order completed as a current-route note.}
+```
+
+Current state:
+
+- `theorem-construction/mpp-current-route-linear-proof-order-note-20260505.md`
+  gives the single manuscript-facing order after source-wall root reopening:
+
+  ```math
+  TerminalSignedSaturation.A
+  +ParabolicEdgeResistance.A
+  \to
+  ParabolicSourceCurrent.A
+  \to
+  ScaleCriticalTreeCarleson.A
+  ```
+
+  as conditional signed-current support, followed by the live scalar direct
+  route:
+
+  ```math
+  ParentSquareEmbed.A
+  +
+  ScaleCriticalTreeCarleson.A
+  \to
+  LocalPositiveSourceCarleson.A
+  \to
+  SOURCE.NO\text{-}PULSE.A
+  ```
+
+  or
+
+  ```math
+  ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+  \to
+  SOURCE.NO\text{-}PULSE.A.
+  ```
+
+- after that root closure, the downstream order is:
+
+  ```math
+  SOURCE.NO\text{-}PULSE.A
+  \to
+  AWG.A
+  \to
+  Jump_{avg}\Rightarrow\bot
+  \to
+  PCTP.hard/TTU.A
+  \to
+  Field.Readout
+  \to
+  CM
+  \to
+  Smooth
+  \to
+  Clay.
+  ```
+
+- the same note records normalized-adjoint source-drain as conditional support:
+
+  ```math
+  CoeffStop.A
+  \to
+  WeightedAdjBessel.A
+  \to
+  WeightedAdjRes.A
+  \to
+  GainStop.A
+  \to
+  ParentKernel.A
+  \to
+  FirstPulseKill.A
+  \to
+  LemmaB.SourceDrain.
+  ```
+
+### C20. Independent review / reproducibility bundle
+
+Current classification:
+
+```math
+\textbf{lane-local reproducibility overlay completed; generated bundle refresh
+still blocked by shared routing drift.}
+```
+
+Current state:
+
+- `current-route-reproducibility-bundle.yaml` records fixed hashes for the
+  theorem-facing live cluster, `SourceWall.Reconcile.A` resolution, current
+  graph, supersession ledger, linear proof-order note, signed-current collapse
+  ledger, CM bridge, conditional source-drain support notes, and governance
+  escalation;
+- the bundle records the exact theorem posture:
+  `CMCert.A` plus first-exit witness envelope installed, while
+  `SourceWall.Reconcile.A` is resolved by demotion and the source wall remains
+  open at `ScaleCriticalTreeCarleson.A` or the Zeno rigid-class pair;
+- the current open issue is not missing hashes but a routing mismatch:
+  shared formalization/theorem-repair still treats `CM.CrossFaceSynthesis.A` as
+  missing instead of routing to `source-wall-root-after-reconcile`;
+- that routing mismatch is escalated in
+  `problems/navier-stokes/governance-escalation.yaml`.
+
+### Chunk C Verdict
+
+The remaining paper/release work is real, but it is mostly authority cleanup and
+bundle refresh, not new theorem invention:
+
+```math
+\boxed{
+\text{release-surface reconciliation}
+\quad+\quad
+\text{bundle refresh}.
+}
+```
+
+The supersession ledger, current route graph, and linear proof-order note now
+exist as lane-local theorem-facing artifacts, and
+`current-route-reproducibility-bundle.yaml` indexes them with hashes.  The
+unsolved release-side work is the shared routing mismatch recorded in
+`governance-escalation.yaml`, plus second-tier bundle overlay refresh after
+that routing repair.
+
+## Bottom Line
+
+The user's list is not wrong, but it mixes two different layers that the repo is
+currently carrying at once.
+
+If one reads the preserved detailed matrix and route notes, the sharp alternate
+source-wall inventory has now become the reopened live root:
+
+```math
+\boxed{
+ScaleCriticalTreeCarleson.A
+\quad\text{or}\quad
+ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A,
+}
+```
+
+with supporting preserved subtargets:
+
+```math
+TerminalSourceCoherence.A,\
+ReverseHolderParentConcentration.A,\
+ScaleCriticalTreeCarleson.A,\
+TwoTowerDonorDepletion.A,\
+FirstPulseKill.A,\
+LemmaB.SourceDrain.
+```
+
+But if one reads the current direct-live edge cluster literally, the CM
+certificate direction is already installed, `SourceWall.Reconcile.A` has resolved
+by demoting normalized-adjoint source-drain to conditional support, and one
+explicit theorem-facing root remains:
+
+```math
+\boxed{
+\text{prove } ScaleCriticalTreeCarleson.A
+\quad\text{or}\quad
+ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+}
+```
+
+Only after that root source-wall theorem closes does the remaining repo burden
+move purely to downstream proof integration and release refresh.
+
+That split is the actual current state of the repo.

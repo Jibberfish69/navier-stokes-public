@@ -142,13 +142,17 @@ positive/residual reserve, or to active-square/square-source Carleson control.
 Targets:
 
 ```math
-MSC.Localize^{src}+Ancient.NoPulse^{src},
+MSC.Localize^{src}
+\quad+\quad
+\text{first-pulse source drain form of }Ancient.NoPulse^{src},
 ```
 
 or
 
 ```math
-DiagDom.A+Ancient.NoPulse^{src},
+DiagDom.A
+\quad+\quad
+\text{first-pulse source drain form of }Ancient.NoPulse^{src},
 ```
 
 or the bypass:
@@ -389,9 +393,13 @@ source-parent reserve theorem.
 The concrete rigidify-slot descendants are:
 
 ```math
-MSC.Localize^{src}+Ancient.NoPulse^{src},
+MSC.Localize^{src}
+\quad+\quad
+\text{first-pulse source drain form of }Ancient.NoPulse^{src},
 \qquad
-DiagDom.A+Ancient.NoPulse^{src},
+DiagDom.A
+\quad+\quad
+\text{first-pulse source drain form of }Ancient.NoPulse^{src},
 ```
 
 ```math

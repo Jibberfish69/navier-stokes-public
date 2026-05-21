@@ -145,13 +145,17 @@ Verdict:
 Route name:
 
 ```math
-MSC.Localize^{src}+Ancient.NoPulse^{src}.
+MSC.Localize^{src}
+\quad+\quad
+\text{first-pulse source drain form of }Ancient.NoPulse^{src}.
 ```
 
 or, after the carrier audit:
 
 ```math
-DiagDom.A+Ancient.NoPulse^{src}
+DiagDom.A
+\quad+\quad
+\text{first-pulse source drain form of }Ancient.NoPulse^{src}
 \quad\text{or}\quad
 LocalSource.NoPulse.A.
 ```
@@ -171,13 +175,17 @@ Result: compactness can extract only after a localized source-residue carrier is
 available.  The global mixed-shell carrier first gives a double-space or
 shell-time product, not a same physical heat-scale source-residue cylinder.
 Broad ancient no-pulse is too strong because nonzero smooth ancient profiles
-exist.  The viable ancient theorem must be source-residue typed, and it is not
-installed without the missing carrier localization or rigid-class production.
+exist.  The viable ancient theorem must be source-residue typed and proved by a
+first-pulse drain contradiction, and it is not installed without the missing
+carrier localization or rigid-class production.
 
 Verdict:
 
 ```math
-MSC.Localize^{src}+Ancient.NoPulse^{src}\ \text{is open.}
+MSC.Localize^{src}
+\quad+\quad
+\text{first-pulse source drain}
+\ \text{is open.}
 ```
 
 ## Root Verdict

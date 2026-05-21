@@ -24,10 +24,9 @@ This note integrates:
 5. `AVG.END.A`;
 6. `READ.END`.
 
-Everything in this note is downstream of the governing contrapositive
-primitive `SourcePulseCMExit.A`. The words `upstream`, `cover`, and `readout`
-here refer only to the internal order of the averaged terminal-tail consumer
-route.
+Everything in this note is downstream of the governing CM primitive
+`Exit(Q):=not Member(Q)`. The words `upstream`, `cover`, and `readout` here
+refer only to the internal order of the averaged terminal-tail consumer route.
 
 ## Source anchors
 
@@ -45,7 +44,7 @@ route.
 
 ```math
 \boxed{
-TGC.A.noEscape+TGC.A.cover+AACT.Global.noJump+AVG.END.A+READ.END
+TGC.A.noEscape+TGC.A.cover+AACT.Global.noJump+\text{Jump}_{avg}\text{ branch eliminator}+AVG.END.A+READ.END
 \Longrightarrow
 PCTP.hard.
 }
@@ -55,7 +54,7 @@ Equivalently, with `TGC.A` denoting the union of the no-escape split and the no-
 
 ```math
 \boxed{
-TGC.A+AACT.Global.noJump+AVG.END.A+READ.END
+TGC.A+AACT.Global.noJump+\text{Jump}_{avg}\text{ branch eliminator}+AVG.END.A+READ.END
 \Longrightarrow
 PCTP.hard / TTU.A.
 }
@@ -171,7 +170,11 @@ tower\text{-}blown_{avg},
 Jump_{avg}.
 ```
 
-Thus the `Jump_avg` branch created in Step 1 is discharged only after averaged production has reached the endpoint package.
+This removes `Jump_avg` only on a produced averaged endpoint package, i.e. after
+`CFI.A_avg` / `Field_avg` exists. It is not an upstream eliminator for a branch
+that has already entered `Jump_avg` before the no-`Jump_avg` averaged production
+spine runs. That branch still needs a separate no-pulse/no-jump supplier or a
+licensed CM-exit consumption.
 
 ### Step 6: pointwise readout
 
@@ -235,7 +238,7 @@ PCTP.hard.
 
 ```math
 \boxed{
-TGC.A+AACT.Global.noJump+AVG.END.A+READ.END
+TGC.A+AACT.Global.noJump+\text{Jump}_{avg}\text{ branch eliminator}+AVG.END.A+READ.END
 \Longrightarrow
 PCTP.hard / TTU.A.
 }

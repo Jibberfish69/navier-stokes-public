@@ -6,10 +6,22 @@ Target consolidation after the `SignedLocalSource.A` subtarget pass.
 
 ## NS 25 Route-Faithfulness Correction
 
-This note records a strong sufficient source-control presentation.  Under the
-CM-contrapositive proof program, it is not the governing primitive by itself.
-The route-governing primitive is now recorded in
-`mpp-cm-contrapositive-route-faithfulness-audit-note-20260503.md` as
+This note records a strong sufficient source-control presentation. Under the
+installed CM primitive seat repair, it is not the governing primitive by
+itself. The governing CM primitive is now
+
+```math
+Exit(Q;O_{NS}^{work}) := \neg Member(Q;O_{NS}^{work}),
+```
+
+witnessed at analytic row level by
+
+```math
+\neg CM_{N,r,Q}=\neg(Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}).
+```
+
+The source-pulse manifestation theorem addressed by this note sits only under
+that larger grammar:
 
 ```math
 SourcePulseCMExit.A:
@@ -20,8 +32,8 @@ SourcePulseCMExit.A:
 ```
 
 Thus `OriginalSmoothData=>SourcePulseExclusion.A` remains a possible sufficient
-supplier, but the faithful proof seat is: classify any genuine terminal
-source-pulse non-smooth witness as a `CM=Pack+Part+Field` exit.
+supplier for the source-pulse branch, but it is not the route-wide CM
+primitive.
 
 The exact three-face target map is now recorded separately in
 `mpp-sourcepulse-cm-three-exit-target-map-note-20260503.md`.  In that map, the
@@ -38,11 +50,10 @@ SourcePulseFieldExit.A.
 Under the upstream/downstream audit recorded in
 `mpp-upstream-downstream-audit-against-sourcepulse-cmexit-note-20260503.md`,
 this note no longer names the live next target of the governing
-contrapositive program. That local source-pulse program is already closed at
-`SourcePulseCMExit.A`. The role of the present note is narrower:
+contrapositive program. Its role is narrower:
 
 1. record the historical theorem seat of the stronger no-pulse theorem under
-   the `Field` face;
+   the source-pulse `Field` face;
 2. record its current live use as a downstream source-side supplier for
    `PCTP.5.C / AWG.A`.
 
@@ -122,7 +133,7 @@ DTC.A_{\mathfrak p}
 
 The cover half is now installed in
 [mpp-sourcepulse-dtc-cover-extraction-theorem-20260503.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-sourcepulse-dtc-cover-extraction-theorem-20260503.md).
-The manifestation-level CM-exit route is also closed by the retained-field
+The source-pulse manifestation route is also closed by the retained-field
 tower-readout shortcut recorded in
 [mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md):
 
@@ -132,8 +143,8 @@ Pack+Part+Field
 \neg tower\text{-}blown.
 ```
 
-Thus the remaining live work in this note is not the CM-exit manifestation
-theorem. It is the stronger source-control supplier theorem
+Thus the remaining live work in this note is not the governing CM primitive.
+It is the stronger source-control supplier theorem
 `OriginalSmoothData=>SourcePulseExclusion.A`, equivalently the open native
 positive-source / no-pulse forms below. Relative to the live repo-level
 frontier, that supplier is now consumed only downstream through
@@ -146,9 +157,9 @@ PCTP.5.C
 PCTP.hard / TTU.A.
 ```
 
-So in this note the no-pulse theorem is not upstream of the governing
-contrapositive primitive; it is a stronger source-side theorem whose only live
-remaining use is on the downstream `PCTP.hard` consumer route.
+So in this note the no-pulse theorem is not upstream of the governing CM
+primitive `Exit(Q):=not Member(Q)`; it is a stronger source-side theorem whose
+only live remaining use is on the downstream `PCTP.hard` consumer route.
 
 with explicit alternate faces retained as:
 
@@ -325,12 +336,14 @@ wall.
 
 The compactness / Liouville route is also not an installed discharge.
 `mpp-sourcepulse-compactness-liouville-final-audit-note.md` records that the
-route needs both source-residue localization and source-residue ancient
-rigidity.  The broad ancient no-pulse theorem is false, and the current global
-mixed-shell carrier does not by itself select a physical same-fluid cylinder
-carrying nonzero local source residue.  Thus the compactness spelling reduces
-to `MSC.Localize^{src}+Ancient.NoPulse^{src}` or the ancestry alternatives,
-again presentations of the same source-pulse wall.
+route needs same-fluid source-residue localization and then a first-pulse
+source-drain contradiction on the resulting ancient local suitable limit.  The
+broad ancient no-pulse theorem is false, and the current global mixed-shell
+carrier does not by itself select a physical same-fluid cylinder carrying
+nonzero local source residue.  Thus the compactness spelling reduces to
+`MSC.Localize^{src}` plus a sourced first-pulse drain form of
+`Ancient.NoPulse^{src}`, or to the ancestry alternatives, again presentations
+of the same source-pulse wall.
 
 The viscous-Duhamel route is also not an installed discharge.
 `mpp-sourcepulse-viscous-duhamel-no-pulse-audit-note.md` records that heat

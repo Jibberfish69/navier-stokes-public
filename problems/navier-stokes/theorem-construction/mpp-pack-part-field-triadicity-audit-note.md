@@ -31,6 +31,81 @@ The sharp triadicity question splits into four distinct debts:
 The present route answers some of these questions, but not all of them. This
 note records the exact split.
 
+## May 15 Witness-Face Nuance
+
+The triad should be audited as three witness axes, not as three mutually
+exclusive doors.
+
+`Pack` is the incompressible packing / control-volume axis. It has both an
+Eulerian fixed-box flux reading and a finite-window Lagrangian coordinate
+reading for following the same labels. The Lagrangian reading is not a demand
+that material packets keep a nice shape forever.
+
+`Part` is the pressure-viscosity participation axis: the local towers remain
+driven by the same differentiated Navier--Stokes carrier law.
+
+`Field` is the neighboring-coherence axis: those lawful local towers still
+read as one smooth field at positive scale.
+
+Consequently, overlap is expected. A finite-time material distortion blow-up
+is Pack-facing because it breaks usable common packing coordinates, while its
+analytic cause is the strain/tower channel and must be checked against
+`Field` or the tower-amplitude slot. It does not automatically break `Part`
+only when `Part` is read as the formal carrier-law clause.
+
+For terminal theorem use, the note distinguishes:
+
+```math
+\mathrm{Part}^{carrier}_{N,Q}
+\quad\text{the same differentiated pressure-viscosity law is still the carrier law,}
+\tag{TRI.N1}
+```
+
+from
+
+```math
+\mathrm{Part}^{terminal}_{N,Q}
+\quad\text{the carrier law is retained with the terminal tower/readout control needed by the CM witness.}
+\tag{TRI.N2}
+```
+
+Under the terminal reading, a genuine finite Pack exit cannot be advertised as
+"Pack-only" while both participation and Field strain readout remain retained.
+The pack-side Gronwall engine in `CFI.C1` and `CFI.C1b` gives the route-native
+bridge:
+
+```math
+\mathrm{Part}^{terminal}_{N,Q}
++\mathrm{Field}^{strain}_{N,r,Q}
+\Longrightarrow
+\mathrm{Pack}_Q\text{ retained on the finite terminal collar.}
+\tag{TRI.N3}
+```
+
+Thus:
+
+```math
+\neg\mathrm{Pack}^{\mathrm{genuine\ finite}}_Q
+\Longrightarrow
+\neg\mathrm{Part}^{terminal}_{N,Q}
+\ \text{or}\
+\neg\mathrm{Field}^{strain}_{N,r,Q}.
+\tag{TRI.N4}
+```
+
+This is not pairwise independence and not a fourth primitive. It is the custody
+rule preventing the weak formal reading of `Part` from being mistaken for
+terminal pressure-viscosity participation.
+
+The endpoint words keep the same status:
+
+```math
+Dead,\quad Blown,\quad Jump
+```
+
+are readout labels. They are not primitive laws and they are not disjoint
+logical doors.
+
 ## Installed Inputs
 
 Use only the currently installed class-membership surfaces:
@@ -335,6 +410,27 @@ synthesis in
 
 That is an admissibility-relative / proof-theoretic minimality statement, not
 yet full semantic pairwise nonredundancy.
+
+The May 15 audit also sharpens what "nonredundancy" should mean here. It
+should not mean disjointness of endpoint events. The route only needs each face
+to expose a different witness burden. The same finite terminal behavior may
+activate multiple faces:
+
+```math
+\text{finite material distortion}
+\leadsto
+\text{Pack readout}
+\quad\text{and}\quad
+\text{Field/tower-amplitude pressure.}
+\tag{TRI.13b}
+```
+
+The useful question is therefore not whether `Pack` can fail in total
+isolation from every `Field` quantity, or whether weak carrier-law `Part`
+survives as a formal identity. The useful question is whether a Pack-facing
+failure has a route-native proof role distinct from the neighboring-coherence
+estimates that also see its strain source, while terminal participation is kept
+separate from that weak formal carrier-law reading.
 
 ### 3. No-Fourth-Primitive-Law Theorem
 

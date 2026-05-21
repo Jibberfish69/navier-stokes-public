@@ -17,9 +17,17 @@ with the explicit side condition
 
 ## Diligence gate
 
-Status: failed discharge / conditional no-escape bridge only.
+Status: failed discharge / conditional no-escape bridge only for the stronger
+no-field/no-pulse task.
 
-The MCP-visible route surfaces do not currently prove a branch-native contradiction from `Jump_avg` and original-data inputs alone. The only non-circular route is a shared-charge contradiction for one object, and the required lower/upper pair for that same object is not installed.
+The MCP-visible route surfaces do not currently prove a branch-native
+contradiction from `Jump_avg` and original-data inputs alone. The only
+non-circular route for that stronger no-field/no-pulse task is a shared-charge
+contradiction for one object, and the required lower/upper pair for that same
+object is not installed.
+
+This audit does not block the CM-retained branch split: that later split is
+handled by `SourcePulseCMExit.A`.
 
 ## Non-circular route
 

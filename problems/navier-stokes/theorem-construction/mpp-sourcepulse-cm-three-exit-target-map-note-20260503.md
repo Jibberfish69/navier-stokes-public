@@ -4,18 +4,18 @@
 
 Theorem-facing leading-edge target map for the CM-contrapositive proof program.
 
-Role: turn the route-governing primitive
+Role: turn the source-pulse branch theorem
 
 ```math
 SourcePulseCMExit.A
 ```
 
-into the exact next exit-face targets, and seat the current source-no-pulse
-stack under the correct face.
+into the exact branch-local exit-face targets, and seat the current
+source-no-pulse stack under the correct face.
 
 ## Governing Primitive
 
-The live contrapositive target is:
+The live source-pulse branch target is:
 
 ```math
 \boxed{
@@ -88,7 +88,7 @@ at any uniform positive coherence scale. This is the one-field fracture face.
 
 ## Immediate Reduction
 
-Any one of the three faces closes the route-governing primitive:
+Any one of the three faces closes the source-pulse branch theorem:
 
 ```math
 \boxed{
@@ -126,19 +126,28 @@ The stronger direct source-control theorem remains open:
 OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 ```
 
-So the target distinction is now:
+So the source-pulse branch distinction is now:
 
 ```math
 \boxed{
-SourcePulseCMExit.A\text{ closed in the manifestation/contrapositive seat;}
+SourcePulseCMExit.A\text{ closed in the source-pulse manifestation seat;}
 \qquad
 SourcePulseExclusion.A\text{ still open as a stronger supplier.}
 }
 ```
 
-Against that same primitive, all later `PCTP.hard / TTU.A`,
+Against that same source-pulse branch theorem, all later `PCTP.hard / TTU.A`,
 `TGC.A+AACT.Global.noJump+AVG.END.A+READ.END`, and `AWG.A / SOURCE.NO-PULSE.A`
 usage is downstream consumer logic, not upstream source-pulse route authority.
+
+The governing CM primitive is now separate:
+
+```math
+Exit(Q;O_{NS}^{work}) := \neg Member(Q;O_{NS}^{work}),
+```
+
+with the installed witness-face bridge recorded in
+`mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md`.
 
 ## Where The Current Repo Actually Sits
 
@@ -296,7 +305,8 @@ So the honest next-target stack is:
 This note does **not** prove any of the three exit faces. It only fixes the
 leading-edge theorem map:
 
-- the governing primitive is `SourcePulseCMExit.A`;
+- the source-pulse branch theorem is `SourcePulseCMExit.A`, while the
+  governing CM primitive is `Exit(Q):=not Member(Q)`;
 - the current direct attack belongs to the `Field` face;
 - `Part` and `Pack` exits remain explicit alternate faces rather than hidden
   background hopes.

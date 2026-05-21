@@ -58,6 +58,14 @@ This is the exact coefficient family that feeds:
 So the coefficient-side target isolated here is the conditional lower-carrier
 theorem on intervals where the common-label pack gauge is already propagated:
 
+For the live retained receiver route, that theorem-level target is still the
+exact frontier item. The installed converse sidecar `CJ.A_low.7` does not
+replace the forward burden, and the retained completion packet already treats
+the transported-center residual theorem `RCF.A` as an imported upstream
+supplier to `LCI.A`. So the smaller packets displayed below, including the
+nonlinear estimate `LCI.B2a`, are honest theorem-internal decomposition rather
+than separate live frontier primitives.
+
 ### Target Theorem `LCI.A` (Conditional lower-carrier interval integrability on the moving collar)
 
 Assume on the same-fluid interval `I` that
@@ -3413,8 +3421,11 @@ note exposes two receiver-side closure branches: the sharper coefficient
 branch `(LCI.3c3v)`--`(LCI.3c3x)`, and the coarser direct-readout scalar
 branch viewed through Proposition `LCI.B3a`.
 
-What this note does **not** yet prove is the target theorem `LCI.A`. The exact
-remaining receiver-side wall now has two honest forms:
+What this note does **not** yet prove is the target theorem `LCI.A`. On the
+live retained receiver route that theorem remains the active frontier burden:
+the smaller statements below describe honest internal proof organization
+beneath `LCI.A`, not a sharper surviving live frontier primitive. Within this
+note, the remaining internal proof work can be organized in two honest forms:
 
 1. the sharper coefficient branch: prove
    `\mathfrak B_{N,m,\rho,\psi}^{coef,\varepsilon}\in L^1(I)` in

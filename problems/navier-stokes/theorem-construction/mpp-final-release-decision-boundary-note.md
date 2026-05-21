@@ -4,7 +4,7 @@
 
 ```text
 conditional route packets are recorded;
-full theorem-program closure and export readiness are blocked by SourcePulseExclusion.A;
+full theorem-program closure and export readiness are blocked by cm-direction-alignment;
 public proof/release claim is not licensed.
 ```
 
@@ -14,16 +14,17 @@ The local theorem-program surfaces record:
 
 ```text
 proof matrix: unresolved frontier present
-active theorem: OriginalSmoothData=>SourcePulseExclusion.A
+active theorem: cm-direction-alignment against Exit(Q):=not Member(Q)
+source-pulse branch support: OriginalSmoothData=>SourcePulseExclusion.A
 native measure form: OriginalSmoothData=>mu_*^sing=0
 theorem packet: not export_ready for full MPP closure
-source frontier: active source-pulse terminal primitive
+source frontier: active CM direction-alignment primitive
 review verdict: revise / blocked
 ```
 
 These records do not support export readiness for a full proof claim.  They
 support only the conditional/downstream route material already separated from
-the unresolved source-pulse primitive.
+the unresolved CM direction-alignment primitive.
 
 ## Release Boundary
 

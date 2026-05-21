@@ -2,6 +2,13 @@
 
 ## Status
 
+Supersession status (2026-05-04): historical / branch-local context. The selected
+source-pulse route is now discharged by the normalized-adjoint source-drain package
+in `mpp-normalized-adjoint-amplitude-four-certificate-discharge-20260504.md` and
+`mpp-source-drain-definition-alignment-and-discharge-20260504.md`. This note is not
+an active theorem blocker unless a current live authority surface explicitly
+re-promotes the ancestry route.
+
 Conditional closure theorem for the ancestry route around the live source-pulse
 frontier:
 

@@ -48,7 +48,8 @@ ZenoBoundedClass_{\mathcal B}.A
 ZenoResidueLiouville_{\mathcal B}.A.
 ```
 
-They correspond to the three possible jobs:
+Inside this positive supplier target, they correspond to the three possible
+jobs:
 
 ```math
 \text{decorrelate}
@@ -58,7 +59,7 @@ They correspond to the three possible jobs:
 \text{rigidify}.
 ```
 
-No fourth local exit is present in the current theorem stack.
+No fourth local positive-supplier exit is present in the current theorem stack.
 
 ## 1. Decorrelation Exit
 
@@ -237,7 +238,8 @@ SourcePulseExclusion.A.
 }
 ```
 
-Any future successful proof must perform exactly one of the three jobs above:
+Any future successful positive-supplier proof of this exact target must perform
+one of the three jobs above:
 
 ```math
 \text{decorrelate}
@@ -247,4 +249,7 @@ Any future successful proof must perform exactly one of the three jobs above:
 \text{rigidify}.
 ```
 
-The present theorem stack does not contain that proof.
+The present theorem stack does not contain that positive supplier proof.  The
+CM use of a surviving measure still has to route the survivor through a
+Pack/Part/Field class-exit witness rather than treating absolute vanishing as
+the contrapositive primitive.

@@ -62,7 +62,7 @@ This is the strong form. It is not the weaker inviscid-limit stability statement
 viscosity should not create a singularity in a scenario where the non-viscous
 Euler carrier is already smooth.
 
-## Euler Nonsmooth Scenario Family
+## Euler Regularity-Failure Scenario Family
 
 Separately, define
 
@@ -70,7 +70,8 @@ Separately, define
 \mathcal E_{\mathrm{nsing}}(S)
 ```
 
-to mean Euler-side nonsmoothness on `S`.
+to mean Euler-side regularity failure on `S`, without treating that failure as
+Euler membership exit.
 
 This includes candidate Euler failures such as:
 
@@ -102,7 +103,8 @@ S_{\nu_j}\longrightarrow S_0\in\mathcal E_{\mathrm{nsing}}.
 ```
 
 That is a `\nu\to0` boundary statement. It is not the assertion that
-Euler-nonsmoothness is already a fixed-positive-viscosity NS singularity.
+Euler regularity failure is already a fixed-positive-viscosity NS singularity or
+an exit from Euler membership.
 
 ## Contrapositive Trick
 
@@ -111,8 +113,8 @@ The proposed proof mechanism is:
 ```math
 \boxed{
 \text{If every possible Navier--Stokes nonsmooth scenario is forced into the
-}\nu\to0\text{ Euler-nonsmooth class-exit family, then fixed positive-viscosity
-Navier--Stokes is smooth.}
+}\nu\to0\text{ boundary or defect-boundary family outside fixed-positive-viscosity
+NS membership, then fixed positive-viscosity Navier--Stokes is smooth.}
 }
 \tag{ESNS.4}
 ```
@@ -207,7 +209,7 @@ The route now has five clean theorem burdens:
 ```math
 \mathcal E_{\mathrm{nsing}}
 =
-\text{classified Euler nonsmooth scenario family.}
+\text{classified Euler regularity-failure scenario family.}
 \tag{ESNS.B2}
 ```
 
@@ -251,18 +253,19 @@ Visc^{fix}_{\nu},
 \qquad
 CM^\nu=Pack+Part^\nu+Field^\nu,
 \qquad
-CM^E=Pack+Part^E+Field^E.
+\mathrm{Member}_E=EVol+EMom.
 \tag{ESNS.9}
 ```
 
 It interfaces with the Euler mirror through the exact removal of the viscosity
-carrier:
+carrier and the demotion of copied NS witness rows into optional regularity
+layers:
 
 ```math
 Part^\nu/Field^\nu
 \quad\leadsto\quad
-Part^E/Field^E
-\quad\text{only at the }\nu=0\text{ boundary.}
+EAdm/ELag/EReg
+\quad\text{only after those Euler layers are separately defined and proved.}
 \tag{ESNS.10}
 ```
 

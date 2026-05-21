@@ -149,6 +149,114 @@ So on the installed object surface the actual extra burden carried by `Field`
 beyond `Part` is not the neighboring law itself. It is the bounded
 neighboring-coherence regime.
 
+## Boundary `FCR.B1` (Reverse Part-to-Field depends on terminal strength)
+
+The implication in `FCR.A` is one-way:
+
+```math
+\mathrm{Part}_{N,Q}
+\Longrightarrow
+\text{the law half of }\mathrm{Field}_{N,r,Q}.
+\tag{FCR.4a}
+```
+
+Its failure cannot be reversed without naming which part of participation has
+failed. There are three different cases.
+
+First, define the one-point participation residual
+
+```math
+R_k:=D_tU_k-K_k-B_k.
+\tag{FCR.4b}
+```
+
+`Part` contains the assertion `R_k=0`. The law half of `Field` only sees
+neighboring differences of this residual. In residual language:
+
+```math
+\text{Field-law holds}
+\quad\Longleftrightarrow\quad
+\delta_h R_k=0
+\text{ on the comparison window.}
+\tag{FCR.4c}
+```
+
+Therefore a localized or spatially varying participation-law defect breaks
+`Field` on any positive-scale window that sees the variation:
+
+```math
+\delta_h R_k\ne 0
+\Longrightarrow
+\neg\text{Field-law}.
+\tag{FCR.4d}
+```
+
+But a common-mode participation-law defect on the whole comparison component,
+
+```math
+R_k(x,t)=R_k(t)\ne 0
+\quad\text{on every window connected by the Field comparisons,}
+\tag{FCR.4e}
+```
+
+does not break `Field` by the finite-difference law alone, because neighboring
+subtractions cancel the same wrong residual. It is still a `Part` failure: the
+comparison component is coherently obeying the wrong carrier law.
+
+A merely local bad block is not enough for this separation. If neighboring
+blocks carry a different residual, then a positive-scale comparison across the
+interface sees
+
+```math
+\delta_hR_k\ne 0,
+\tag{FCR.4e'}
+```
+
+and the defect is Field-visible at that boundary.
+
+Second, if `Part` fails because the participation envelope or terminal tower
+readout is no longer finite,
+
+```math
+\mathfrak P_{N,Q}(t)=\infty
+\quad\text{or the terminal tower/readout control is lost,}
+\tag{FCR.4f}
+```
+
+then raw `Field` still need not fail as neighboring decoupling only if the
+loss is common-mode across the whole comparison component. If the amplitude or
+readout loss changes from one block to its neighbors, Field sees the boundary
+contrast. The non-Field alternative is therefore a global/common-mode
+calibration failure on the retained comparison component, not a single isolated
+local block.
+
+Thus the correct reverse statement is:
+
+```math
+\neg \mathrm{Part}_{N,Q}
+\Longrightarrow
+\big(
+\text{spatially varying Field-law rupture}
+\big)
+\ \text{or}\
+\big(
+\text{common-mode carrier-law defect}
+\big)
+\ \text{or}\
+\big(
+\text{tower/participation-amplitude failure}
+\big).
+\tag{FCR.4g}
+```
+
+Only the first alternative is literally `\neg Field` by the law clause. The
+second and third alternatives can coexist with retained `Field` as a
+neighboring-coherence predicate only when they are common-mode across the whole
+retained comparison component. They are still class-exit candidates through
+`Part`, because `Field` compares nearby towers to each other while `Part` asks
+whether those towers participate in the correct pressure-viscosity carrier law
+with the needed absolute readout.
+
 ## Corollary `FCR.C` (Under `Pack + Part`, the surviving jump channel is coherence fracture)
 
 Assume `\mathrm{Pack}_Q(u,\Phi)` and `\mathrm{Part}_{N,Q}(u,p)`. If

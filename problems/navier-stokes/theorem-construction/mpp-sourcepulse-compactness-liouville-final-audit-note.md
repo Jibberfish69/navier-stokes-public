@@ -33,6 +33,8 @@ CompactSourceNoPulse.A:
 \quad
 MSC.Localize^{src}
 +
+\text{first-pulse source drain}
+\Longrightarrow
 Ancient.NoPulse^{src}
 \Longrightarrow
 SourcePulseExclusion.A.
@@ -47,8 +49,8 @@ the no-pulse atom plausibly produces a rescaled critical object only after the
 bad source packet has been localized to physical same-fluid cylinders.
 
 The extraction bridge
-`mpp-ancient-nopulse-extraction-bridge-attempt-note.md` records the missing
-first arrow:
+`mpp-ancient-nopulse-extraction-bridge-attempt-note.md` now records the exact
+source-residue compactness proof shape.  Its first missing arrow is still:
 
 ```math
 MSC.Localize^{src}:
@@ -62,10 +64,11 @@ The current mixed-shell carrier is global shell-time data.  It is not yet a
 spatial Radon measure on heat-scale cylinders, and it does not by itself select
 a physical center carrying nonzero local source residue.
 
-The rigidity audit `mpp-ancient-nopulse-rigidity-audit-note.md` records the
-missing second arrow.  The broad Liouville theorem is false: smooth nonzero
-ancient Beltrami/Stokes-mode examples can carry nonzero local packets.  The
-only viable rigidity target is source-residue-specific:
+The rigidity audit `mpp-ancient-nopulse-rigidity-audit-note.md` records why the
+broad Liouville theorem is false: smooth nonzero ancient Beltrami/Stokes-mode
+examples can carry nonzero local packets.  The extraction bridge note sharpens
+the surviving second arrow to a first-pulse source-residue drain statement,
+whose theorem-facing consequence is:
 
 ```math
 Ancient.NoPulse^{src}:
@@ -90,7 +93,7 @@ installed exclusion mechanism.  It splits the live theorem into:
 \boxed{
 MSC.Localize^{src}
 \quad+\quad
-Ancient.NoPulse^{src}
+\text{first-pulse source drain}
 }
 ```
 

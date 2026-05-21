@@ -114,6 +114,45 @@ and the same `\Phi_t` carries the whole field.
 
 This law is what the route means by "one common incompressible packing class."
 
+### Law 1a. Fixed Box / Material Packet Boundary
+
+There are two lawful ways to read the packing law, and this note must not
+silently exchange them.
+
+The fixed-box reading is Eulerian: keep a spatial control volume in place and
+use incompressibility as flux balance through its faces. This is the clean
+local control-volume meaning of "a cube stays a cube." It records that the
+field is not creating or destroying volume inside the box.
+
+The material-packet reading is Lagrangian: follow the same fluid labels by
+`\Phi_t` and use `D_a\Phi_t` only as finite-window coordinate bookkeeping for
+the same fluid parcel. This is useful for identity and comparison of the same
+carried packet, but it is not a demand that a tracked blob keep a nice shape
+for all time.
+
+Thus `Pack` has the following custody boundary:
+
+```math
+\boxed{
+\text{infinite smooth distortion over an infinite time tail is not a Pack exit by itself.}
+}
+\tag{PL.7a}
+```
+
+The pack-side geometric exit is finite-endpoint loss of usable common packing
+coordinates or fixed-box flux bookkeeping:
+
+```math
+\boxed{
+\text{at a finite terminal edge, no common controlled packing/flux chart remains for the selected packet.}
+}
+\tag{PL.7b}
+```
+
+So `Pack` should not be narrated as "the material cube must remain a cube."
+It should be narrated as the incompressible packing / control-volume law
+remaining usable in the proof.
+
 ### Law 2. Shared Participation Law
 
 The momentum equation is read as
@@ -311,6 +350,39 @@ the three sides:
 In particular, `velocity-jump` is reserved for the base velocity rung, while
 `tower-jump` or `derivative-jump` names the same endpoint type on higher jet
 rungs.
+
+Tangential slip is a `velocity-jump` subtype whenever the normal component
+remains compatible but the tangential trace does not:
+
+```math
+[u\cdot n]=0,\qquad [u_{\tan}]\ne0
+\Longrightarrow
+\text{jump endpoint in base-rung local form.}
+\tag{PL.14d-slip}
+```
+
+So slip has native `Jump` readout: it is visible failure of one-field
+coherence, not raw stagnation. If the same slip is used as evidence of local
+participation failure, that is a cross-entry / mechanism reading and must be
+reduced through the endpoint matrix rather than treated as a disjoint
+primitive door.
+
+### Endpoint Overlap Boundary
+
+The endpoint words are readouts, not mutually exclusive doors. A finite
+terminal event may activate more than one readout:
+
+```math
+\boxed{
+\text{packing-detached, tower-blown, dead, and jump are endpoint readings of class exit, not disjoint primitive laws.}
+}
+\tag{PL.14e}
+```
+
+In particular, finite-time material-packet distortion is pack-facing because it
+breaks the usable common packing chart. Its analytic driver is the strain /
+tower channel, so the same event can also touch the Field/tower side. It does
+not automatically mean the pressure-viscosity participation law has changed.
 
 ## Primitive Contradiction Schema
 

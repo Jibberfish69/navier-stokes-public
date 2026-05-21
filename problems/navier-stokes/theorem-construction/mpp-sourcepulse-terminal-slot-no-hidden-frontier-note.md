@@ -133,11 +133,13 @@ nonzero inherited residue.  The corresponding ancient or ancestry exclusion
 theorem forces that residue to vanish, contradicting inheritance.  Thus the
 counterpacket cannot exist.
 
-These alternatives cover the route because a proof must deal with the same
-nonzero active source mass `(SPS.2)`: either make it vanish, pay for it from a
-finite installed ledger, or pass it to a rigid limit and rule out that limit.
-No fourth route-local object remains once sibling mechanism labels have been
-collapsed by `mpp-sourcepulse-irreducible-core-and-route-equivalence-note.md`.
+The RN bookkeeping proof for these alternatives is recorded in
+`mpp-rn-three-exit-exhaustiveness-proof-20260516.md`.  Once the survivor is the
+native positive source measure against the installed ledger, remove kills the
+source mass, charge gives uniform ledger absolute continuity, and failure of
+charge leaves exactly the singular residue used by rigidify.  The broader
+route-local collapse of sibling mechanism labels remains the audit content of
+`mpp-sourcepulse-irreducible-core-and-route-equivalence-note.md`.
 
 ## Installed Status Of The Slots
 

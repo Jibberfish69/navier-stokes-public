@@ -4,6 +4,12 @@
 
 Conditional boundary note.
 
+Supersession status (2026-05-04): historical / branch-local context. The current
+MPP package state is governed by the 20260504 source-drain and
+MemberSmooth/WitnessFace live theorem surfaces. This note is not an active theorem
+blocker unless a current live authority surface explicitly re-promotes the R3 export
+branch.
+
 The `R^3` extension branch is organized but remains conditional. The periodic `T^3` branch remains the closed theorem-program surface.
 
 ## R3 status

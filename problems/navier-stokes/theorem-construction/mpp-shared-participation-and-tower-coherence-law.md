@@ -127,6 +127,13 @@ This is the primitive shared packing law:
 \tag{TC.9}
 ```
 
+There is also a fixed-control-volume version of the same incompressibility
+content: a spatial box can be held fixed and the proof can account for flux
+through its faces. That Eulerian box picture is often the cleanest way to say
+what incompressibility buys locally. The Lagrangian parcel picture below is a
+coordinate and identity device for the same fluid labels, not a replacement for
+fixed-box flux bookkeeping.
+
 Semantic boundary:
 
 ```math
@@ -148,8 +155,8 @@ So any transported packet or "material tube" in this route means only:
 2. bookkeeping for the same velocity-pressure-viscosity field;
 3. not an added physical object with its own boundary dynamics.
 
-In this language, geometric packing failure is naturally read through the
-deformation class:
+In this language, geometric packing failure is naturally read through finite
+terminal loss of the deformation class:
 
 ```math
 |F(a,t)|+|F(a,t)^{-1}|\to\infty
@@ -159,7 +166,8 @@ F(a,t)\text{ ceases to stay invertible.}
 ```
 
 That is the route-native geometric version of a blown endpoint in its
-packing-side local form.
+packing-side local form. It is a finite-endpoint statement. Smooth unbounded
+distortion along an infinite time tail is not a class exit by this line alone.
 
 ## 2. Shared Participation / Tower Law
 
@@ -230,6 +238,104 @@ primitive laws:
 }
 \tag{TC.16a}
 ```
+
+### 2.1 Pack / Part / Field Overlap Boundary
+
+The three faces are witness axes, not disjoint physical doors.
+
+`Pack` records the usable incompressible packing / control-volume structure.
+`Part` records that the towers are still driven by the same pressure-viscosity
+carrier law. `Field` records neighboring tower coherence through finite
+differences on that same carried field.
+
+Finite-time material-packet distortion therefore has two readings at once:
+
+```math
+\boxed{
+\text{it is Pack-facing because the common packing chart loses finite-window usability,}
+}
+\tag{TC.16b}
+```
+
+and
+
+```math
+\boxed{
+\text{its analytic driver is the strain / tower channel, hence it must be audited against Field/tower coherence.}
+}
+\tag{TC.16c}
+```
+
+It does not by itself assert failure of formal carrier-law `Part`. The same
+differentiated Navier--Stokes law may remain the written carrier law while the
+strain/tower channel drives loss of usable packing or neighbor coherence.
+
+This is only the weak reading of `Part`. For terminal theorem use there is a
+stronger participation reading:
+
+```math
+\mathrm{Part}^{carrier}_{N,Q}
+\quad\text{means the one-point tower law remains the common pressure-viscosity carrier law,}
+\tag{TC.16d}
+```
+
+while
+
+```math
+\mathrm{Part}^{terminal}_{N,Q}
+\quad\text{means that carrier law is retained with the terminal tower/readout control needed by the CM witness.}
+\tag{TC.16e}
+```
+
+Under the terminal reading, a genuine finite Pack exit through deformation
+blowout is not allowed to be called "Part intact" without also losing the
+strain/readout bridge. The pack transport estimate `CFI.C1` gives:
+
+```math
+\int_I
+\|\nabla u(\tau)\|_{L^\infty(\Phi(A_\sharp,\tau))}
+\,d\tau<\infty
+\Longrightarrow
+\Gamma_\sharp\in L^\infty(I),
+\tag{TC.16f}
+```
+
+and the symmetric-strain version `CFI.C1b` gives the same conclusion from the
+collar strain ledger. Therefore the theorem-facing bridge is:
+
+```math
+\mathrm{Part}^{terminal}_{N,Q}
++\mathrm{Field}^{strain}_{N,r,Q}
+\Longrightarrow
+\mathrm{Pack}_Q\text{ is retained on the finite terminal collar.}
+\tag{TC.16g}
+```
+
+Equivalently:
+
+```math
+\neg\mathrm{Pack}^{\mathrm{genuine\ finite}}_Q
+\Longrightarrow
+\neg\mathrm{Part}^{terminal}_{N,Q}
+\ \text{or}\
+\neg\mathrm{Field}^{strain}_{N,r,Q}.
+\tag{TC.16h}
+```
+
+Here `Field^{strain}` is not a fourth primitive law. It names the existing
+Field/tower/strain readout strong enough to feed the pack transport estimate.
+
+The reverse Part-to-Field question has the same custody rule. If the
+one-point participation residual is `R_k:=D_tU_k-K_k-B_k`, then the law half of
+`Field` sees `\delta_hR_k`, not `R_k` itself. So a localized or spatially
+varying participation defect breaks `Field`, including at the boundary with
+neighboring blocks. A common-mode carrier-law defect can leave neighboring
+differences coupled only when it is common-mode across the whole retained
+comparison component. Likewise, a terminal participation-envelope failure can
+avoid jump-style neighboring decoupling only when the loss is common-mode on
+that component. Thus `\neg Part` avoids Field rupture only in the absolute
+calibration/common-mode case; a single bad local block is Field-visible once
+its neighbors are included.
 
 ## 3. Shared One-Field Law Through Tower Differences
 
@@ -405,7 +511,13 @@ or, in the sharper geometric form,
 \tag{TC.28}
 ```
 
-This is the exact packing-failure channel.
+This is the exact packing-failure channel, with one important custody rule:
+finite-time geometric distortion of the material packet is pack-facing, while
+the mechanism producing it is the gradient/strain tower. Therefore a terminal
+`Pack` failure of this kind is not cleanly independent of `Field` or of the
+row-independent tower-amplitude slot. It can occur with `Part^{carrier}` still
+reading as the same pressure-viscosity carrier law, but it cannot be treated as
+preserving `Part^{terminal}` once the retained strain/readout bridge is present.
 
 ### 5.4 Coherence Fracture
 

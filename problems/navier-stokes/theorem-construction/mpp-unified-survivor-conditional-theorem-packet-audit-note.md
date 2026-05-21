@@ -2,6 +2,11 @@
 
 ## Status
 
+Supersession status (2026-05-04): historical / branch-local context. This remains
+a useful conditional assembly audit, but the current live MPP package state is
+governed by the installed 20260504 source-drain and MemberSmooth/WitnessFace theorem
+surfaces.
+
 Theorem-facing audit of the proposed completed `h/F` survivor theorem packet.
 
 Verdict: the packet is a coherent conditional assembly theorem, but it is not an
