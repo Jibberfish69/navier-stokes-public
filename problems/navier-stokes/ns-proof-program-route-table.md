@@ -20,8 +20,9 @@ The current repo picture is internally inconsistent.
 
 | Surface | Reading |
 | --- | --- |
-| `live-theorem-edge.yaml` | class-membership / law-endpoint matrix is primary |
-| `proof-obligation-matrix.yaml` | class-membership route is primary; TPS/SG.4 is downstream |
+| `live-theorem-edge.yaml` | class-membership / law-endpoint authority is primary |
+| `source-frontier.yaml` | direct-live frontier carries the open theorem burden |
+| `theorem-packet.yaml` | direct-live theorem packet carries the safe claim boundary |
 | `route-lock.yaml` object-law block | class-membership object law governs finite-time class exit |
 | `route-lock.yaml` primary-route block | source-grounded four-bridge remains locked-primary |
 | `live-theorem-edge.md` | TPS strong/defect bridge is primary |
@@ -64,15 +65,35 @@ still fail to prove the propagated object currently needed by the live route.
 Every import must therefore carry an explicit bridge license before it is used
 as closure.
 
+## Continuation-Packet Generation Rule
+
+The CM-exit program should get its failure surfaces by negating the sufficient
+packet for classical continuation.
+
+The live test is:
+
+```text
+Which continuation-packet slot does this surface negate?
+```
+
+Acceptable answers are the carrier/Pack slot, the participation/Part slot, or
+the one-field/Field slot. The `H^s`, `s>5/2`, readout bridge is
+proof-licensing work from CM to continuation, not a fourth CM failure face. A
+surface that only suppresses a possible analytic pathology stays supplier or
+diagnostic until that slot landing is proved.
+
+The theorem-facing note is
+`theorem-construction/mpp-continuation-packet-generated-cm-contrapositive-20260514.md`.
+
 ## Program Table
 
 | Program | Authority Status | Propagated Object | Surface | Bridge Needed | Current Open Theorem | Allowed Imports | Forbidden Substitutions |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Class-membership / endpoint-exclusion | primary live authority | `M_Q(u,p)` membership witnessed by `Pack / Part / Field` on same-fluid families | `live-theorem-edge.yaml`, `proof-obligation-matrix.yaml`, `mpp-class-membership-contradiction-frontier-packet.md` | bridge estimates into the exact membership object before using them as closure | law / endpoint matrix; then `CFI.A -> OFP.A -> LCI.A` | fixed-family, mixed-jet, Lagrangian, selector, and export estimates only through named bridge theorems | replacing class exit with positive smoothness control; treating one matrix entry as a whole-row discharge |
+| Class-membership / endpoint-exclusion | primary live authority | `M_Q(u,p)` membership witnessed by `Pack / Part / Field` on same-fluid families | `live-theorem-edge.yaml`, `source-frontier.yaml`, `theorem-packet.yaml`, `mpp-class-membership-contradiction-frontier-packet.md` | bridge estimates into the exact membership object before using them as closure | law / endpoint direct-live frontier; then `CFI.A -> OFP.A -> LCI.A` | fixed-family, mixed-jet, Lagrangian, selector, and export estimates only through named bridge theorems | replacing class exit with positive smoothness control; treating one frontier entry as a whole-row discharge |
 | Mixed-jet positive controls | active engine / support candidate | Sobolev or analytic mixed-jet tower norms | mixed-jet tower and weighted-envelope theorem notes | theorem that tower control preserves `Pack / Part / Field` membership or supplies a declared continuation route | full mixed-jet convolution / radius-loss closure | support positive continuation or feed CM through a membership bridge | treating tower boundedness as direct CM persistence |
 | Frozen-family Eulerian source route | active engine inside `OFP.A` | fixed Eulerian packet increments, frozen-net source ledgers, pressure and strain/cascade channels | `FCI.5f`, `FPCR.C`, `FSCR.C`, `FFSRC.A` surfaces | flow-map, collar, pressure/source, and scale-conversion bridge into transported one-field coherence | noncircular source-side interval control feeding receiver-side `LCI.A` | source estimates feeding `OFP.A` / `LCI.A` through explicit bridge lemmas | using fixed-family control as transported coherence without the moving-collar bridge |
 | Lagrangian / deformation route | active deep-engine candidate below route lock | pulled-back velocity/pressure, `F`, `A`, `G`, ellipticity, commutators, pressure recovery | Lagrangian six-lemma, deformation, and Stokes bridge notes | collar and pressure-transfer theorem into `Pack / Part / Field` or receiver-side `LCI.A` | no-loss pressure recovery and evolving-coordinate absorption on the same surface | flow-map, deformation, and pressure-transfer support where explicitly proved | reading Lagrangian energy closure as CM or `LCI.A` closure without bridge |
-| TPS / SG.4 selector-defect | downstream / readout context, stale-primary on older generated surfaces | selector-good pair defect `W_J`, `[lambda_J - s_J]_+`, `PD.70`, `Xi_J`, `SG.4` data | TPS strong/defect and selector observability notes | class-membership bridge from selector readout to exact `Pack / Part / Field` object | selector calibration / observability before `SG.4`; downstream `BR.lambda2` | one-field readout support after direct matrix work or after an explicit CM bridge | treating `SG.4` as prerequisite closure for `CFI.A`, `OFP.A`, or `LCI.A` |
+| TPS / SG.4 selector-defect | downstream / readout context, stale-primary on older generated surfaces | selector-good pair defect `W_J`, `[lambda_J - s_J]_+`, `PD.70`, `Xi_J`, `SG.4` data | TPS strong/defect and selector observability notes | class-membership bridge from selector readout to exact `Pack / Part / Field` object | selector calibration / observability before `SG.4`; downstream `BR.lambda2` | one-field readout support after direct-live CM work or after an explicit CM bridge | treating `SG.4` as prerequisite closure for `CFI.A`, `OFP.A`, or `LCI.A` |
 | Euclidean strict-shadow / Route A-B export | downstream / export context | `ShadowDef`, `E_sh`, Euclidean carrier control, robustness errors, whole-space data | strict-shadow and Euclidean discharge notes | explicit export theorem from the internal surface to the whole-space surface | full-data lift, strict shadow, global carrier control, and shadow-error coupling | downstream whole-space discharge after internal closure supplies export data | replacing torus-first or CM internal closure with Euclidean export |
 | Exact-potential / Hodge / normal-covector readouts | downstream / readout support | branch-specific one-field readout objects and moment/covector witnesses | exact-potential and Hodge witness-to-readout notes | readout-to-`Field` bridge on the live CM object | branch-specific observability and readout closure | support one-field readout after bridge license is named | treating a readout witness as the propagated CM object |
 | Euler mirror / localized projector / exterior algebra / Hopf-shuffle / BRST | exploratory / classifier | parallel-equation, coarse, algebraic, or classifier objects | mirror and exploratory theorem notes | none for live closure unless promoted by a direct NS theorem bridge | classification, obstruction finding, or structural refinement | vocabulary and diagnostics only when source-labeled | using exploratory objects as live NS authority |

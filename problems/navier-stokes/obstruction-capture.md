@@ -100,7 +100,7 @@ Reason it is quarantined:
 
 - The raw corpus is now extracted in `problems/navier-stokes/source-forensics/`.
 - The source-grounded reconstruction is in `source-forensics/master-program-analysis.md` and `source-forensics/canonical-equation-ledger.md`.
-- The live theorem branch is reopened in `proof-assembly.yaml`, `proof-obligation-matrix.yaml`, and `source-frontier.yaml` until the decisive packet reductions are fully discharged.
+- The live theorem branch is reopened in `proof-assembly.yaml`, `live-theorem-edge.yaml`, `source-frontier.yaml`, and `theorem-packet.yaml` until the decisive packet reductions are fully discharged.
 
 ## Output Target
 

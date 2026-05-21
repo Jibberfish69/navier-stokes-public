@@ -4,23 +4,23 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   formalization_id: object-formalization-navier-stokes
-  generated_at: '2026-05-03T18:51:39Z'
+  generated_at: '2026-05-04T19:59:00Z'
   generator: system/runner/lib/object_formalization_builder.rb
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_frontier_id: source-frontier-navier-stokes
   source_assembly_id: proof-assembly-navier-stokes
 target:
-  obligation_id: debt-periodic-clay-terminal-promotion-bridge
-  label: Mutate the route locally so that periodic Clay terminal-promotion bridge
-    can be pursued without reopening the theorem target.
-  kind: branch-choice
+  obligation_id: source-wall-root-after-reconcile
+  label: Recenter source-wall-root-after-reconcile on known CM-exit discipline before
+    treating source-pileup, source-control, or supplier presentations as theorem targets.
+  kind: live-theorem-frontier
 formalization_packet:
-  object_id: formal-object-route_mutation_carrier
-  object_name: route_mutation_carrier
-  object_role: local formalization object
-  theorem_role: Make `Mutate the route locally so that periodic Clay terminal-promotion
-    bridge can be pursued without reopening the theorem target.` exact enough that
-    later discharge can test it locally.
+  object_id: formal-object-source_wall_root_accountability
+  object_name: source_wall_root_accountability
+  object_role: theorem-target accountability object
+  theorem_role: Separate known CM-exit modes from diagnostic source-control language;
+    keep only surfaces forced by first-exit analysis or landing in Pack, Part, Field,
+    or Member.
   machine_boundary: This packet is machine-derived beyond the frozen core and must
     stay quarantined until later discharge promotes it.
   slots:
@@ -54,6 +54,17 @@ formalization_packet:
   problem_hint: Keep the object classical. Do not smuggle in modified-equation structure.
 grounded_basis:
   labels:
+  - 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes lane.
+    First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact whole-tower
+    inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2, red'
+  - 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+    under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+    and E_sh(X) vanish identically, so the exact Route '
+  - 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
+    target.'
+  - 'Define or prove: Completed the Hopf/shuffle line as a theorem-program refinement.
+    The correct algebraic fit for the time tower is the divided-power Hopf law on
+    one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle'
   - 'Define or prove: Formalized the refined direct Lagrangian route as a six-lemma
     mainline: differentiated Lagrangian decomposition, deformation-adapted energy,
     ellipticity window, coefficient-commutator absorption, no-loss pressure recovery, '
@@ -61,21 +72,16 @@ grounded_basis:
     geometry-testing ladder for the elliptic test field W_test = A^T grad Phi solving
     -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1)
     ene'
-  - Global energy or enstrophy control is necessary but not sufficient
-  - one-field forward-preservation wall
-  - lower-carrier receiver wall
-  - collar-to-jump converse pivot
   obligation_ids:
+  - marvin-upstream-6d929e8a052a
+  - marvin-upstream-954339945793
+  - marvin-upstream-96892bab139f
+  - marvin-upstream-409f183ee495
   - marvin-upstream-c8f7cb511776
   - marvin-upstream-e2f5b0a915cf
-  - debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient
-  - debt-one-field-forward-preservation-wall
-  - debt-lower-carrier-receiver-wall
-  - debt-collar-to-jump-converse-pivot
 summary:
   formalization_ready: true
   recommended_next_cell_type: dependency-discharge
-  recommended_next_action: Use the object-formalization packet for `Mutate the route
-    locally so that periodic Clay terminal-promotion bridge can be pursued without
-    reopening the theorem target.` as the bounded tactic switch, then rerun dependency-discharge
-    on the same obligation instead of reopening another generic backbone loop.
+  recommended_next_action: Use this packet to demote source-pileup/source-control
+    presentations that do not land in Pack, Part, or Field, and keep only known CM-exit
+    modes live.

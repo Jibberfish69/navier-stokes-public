@@ -24,20 +24,19 @@ Generated from the current `proof_promotion_packet` fallback route through `ask_
 | Source trace | `problems/navier-stokes/source-ledger.yaml` | `599fa51eaa321f68ec95794c39969be8d409650e` |
 | Callable promotion surfaces | `proof_promotion_packet`, `promotion_state`, `theorem_work_brief`, theorem write/stage tools | available through promotion fallback |
 
-## Proof Matrix State
+## Direct-Live Authority State
 
 | Count | Value |
 |---|---:|
-| Total obligations | 64 |
-| Grounded | 15 |
-| Bridge pending | 7 |
-| Unresolved | 2 |
-| Frontier | 40 |
-| Blocking | 49 |
+| Tracked source-frontier obligations | 10 |
+| Grounded | 9 |
+| Bridge pending | 0 |
+| Unresolved | 1 |
+| Frontier | 1 |
+| Blocking | 1 |
 | All discharged | false |
 
-Current matrix artifact: `problems/navier-stokes/source-frontier.yaml`  
-SHA: `88f18f065a549f8042b76cce9ac7c7ff3453d06c`
+Current direct-live authority artifacts: `problems/navier-stokes/live-theorem-edge.yaml`, `problems/navier-stokes/source-frontier.yaml`, `problems/navier-stokes/theorem-packet.yaml`, `problems/navier-stokes/submission-verdict.yaml`
 
 Current route graph artifact: `problems/navier-stokes/layered-route-graph.yaml`  
 SHA: `34c6e18928972d0f13a8bfa7e3f92bf3d2cb7216`
@@ -51,7 +50,7 @@ SHA: `34c6e18928972d0f13a8bfa7e3f92bf3d2cb7216`
 - Required artifact: `problems/navier-stokes/release-decision.yaml`
 - Current evidence: missing
 - Pass condition: release decision exists, identifies actor/timestamp/rationale, and authorizes submission-candidate full-MPP promotion only after every upstream gate passes.
-- Owner action: create `release-decision.yaml` last, after audits, ledgers, matrix closure, review, and reproducibility bundle pass.
+- Owner action: create `release-decision.yaml` last, after audits, ledgers, direct-live frontier closure, review, and reproducibility bundle pass.
 - Validation command: ask Marvin, `For Navier-Stokes, give me the Clay-level proof promotion packet.`
 
 ### 2. Audit pass records
@@ -74,12 +73,12 @@ SHA: `34c6e18928972d0f13a8bfa7e3f92bf3d2cb7216`
 - Gate requirement: `full-dependency-graph`
 - Current status: `blocked`
 - Current evidence:
-  - `proof-obligation-matrix.yaml` present, SHA `88f18f065a549f8042b76cce9ac7c7ff3453d06c`
+  - direct-live authority surfaces present: `live-theorem-edge.yaml`, `source-frontier.yaml`, `theorem-packet.yaml`, `submission-verdict.yaml`
   - `layered-route-graph.yaml` present, SHA `34c6e18928972d0f13a8bfa7e3f92bf3d2cb7216`
-- Current blocker: matrix still has `49` blocking obligations, `7` bridge-pending obligations, and `2` unresolved obligations.
-- Pass condition: every theorem, lemma, bridge, and inference in the matrix/graph has closed status and no blocking entries remain.
-- Owner action: enumerate the 49 blockers by obligation id, attach a required close artifact to each, discharge or downgrade every bridge-pending and unresolved entry with evidence.
-- Validation command: run the promotion packet and confirm `proof_matrix_summary.all_discharged == true`.
+- Current blocker: `source-wall-root-after-reconcile` remains open on the direct-live frontier.
+- Pass condition: every theorem, lemma, bridge, and inference in the direct-live frontier and route graph has closed status and no blocking entries remain.
+- Owner action: enumerate the direct-live frontier blocker by obligation id, attach a required close artifact, and discharge or downgrade every unresolved entry with evidence.
+- Validation command: run the promotion packet and confirm `source-frontier.summary.unresolved_count == 0` and `submission-verdict.submission_ready == true`.
 
 ### 4. Assumption ledger
 
@@ -88,7 +87,7 @@ SHA: `34c6e18928972d0f13a8bfa7e3f92bf3d2cb7216`
 - Required artifact: `problems/navier-stokes/assumption-ledger.yaml`
 - Current evidence: missing
 - Pass condition: every retained, averaged, endpoint, smoothness, pack-gauge, scheduler, source, and readout assumption is listed as discharged, scoped, or release-waived with source links.
-- Owner action: create the assumption ledger from H1-H6 plus every extra assumption in the proof matrix and theorem packet.
+- Owner action: create the assumption ledger from H1-H6 plus every extra assumption in the direct-live authority surfaces and theorem packet.
 - Validation command: run the promotion packet and confirm `assumption-ledger.status == passed`.
 
 ### 5. Gap ledger
@@ -119,7 +118,7 @@ SHA: `34c6e18928972d0f13a8bfa7e3f92bf3d2cb7216`
   - `problems/navier-stokes/review-verdict.yaml` present, SHA `3aca19771e612f06c7a60d4ed0674f2fc2b30e44`, status `revise`
   - `problems/navier-stokes/submission-verdict.yaml` present, SHA `9cf41ad93a475464d7c70dc709f609274fecb16c`
 - Current blocker: review/submission verdicts do not clear terminal release.
-- Pass condition: review verdict records a passing acceptance state after audits and matrix closure.
+- Pass condition: review verdict records a passing acceptance state after audits and direct-live frontier closure.
 - Owner action: rerun review only after blockers 1-6 are resolved.
 - Validation command: run the promotion packet and confirm `review_summary.verdict` clears terminal release.
 
@@ -130,7 +129,7 @@ SHA: `34c6e18928972d0f13a8bfa7e3f92bf3d2cb7216`
 - Required artifact: `problems/navier-stokes/release-decision.yaml`
 - Current evidence: missing
 - Pass condition: final release-decision surface authorizes submission-candidate promotion.
-- Owner action: generate after audit pass records, matrix closure, assumption ledger, gap ledger, failure-mode checks, review verdict, and reproducibility bundle pass.
+- Owner action: generate after audit pass records, direct-live frontier closure, assumption ledger, gap ledger, failure-mode checks, review verdict, and reproducibility bundle pass.
 - Validation command: run the promotion packet and confirm `release_approved == true`.
 
 ### 9. Stable reproducibility bundle
@@ -140,19 +139,19 @@ SHA: `34c6e18928972d0f13a8bfa7e3f92bf3d2cb7216`
 - Current evidence:
   - `draft-v8.md` SHA `ae00c69baded61f7e89523ae74ad0a682a8e79eb`
   - `theorem-packet.yaml` SHA `727d98e7a4e161bba95e4000b813db70ec89bc95`
-  - `proof-obligation-matrix.yaml` SHA `88f18f065a549f8042b76cce9ac7c7ff3453d06c`
+  - direct-live authority surfaces: `live-theorem-edge.yaml`, `source-frontier.yaml`, `theorem-packet.yaml`, `submission-verdict.yaml`
   - `review-verdict.yaml` SHA `3aca19771e612f06c7a60d4ed0674f2fc2b30e44`, status `revise`
   - `release-decision.yaml` missing
   - `docs/current-state-publish-manifest.yaml` SHA `8b4f70ba516414ef7ea1d17b6dbbd4019de2eb4a`
 - Current blocker: required hashed bundle artifacts are incomplete and review/release surfaces have not passed.
-- Pass condition: final proof files, theorem packet, matrix, audit logs, review verdict, release decision, and manifest are fixed under hashes and mutually consistent.
+- Pass condition: final proof files, theorem packet, direct-live authority surfaces, audit logs, review verdict, release decision, and manifest are fixed under hashes and mutually consistent.
 - Owner action: rebuild manifest after every upstream artifact is final and passing.
 - Validation command: run the promotion packet and confirm `stable-reproducibility-bundle.status == passed`.
 
 ## Recommended Work Order
 
-1. Extract the 49 proof-matrix blockers and produce a close plan per obligation id.
-2. Build `dependency-audit.yaml` from the matrix and layered route graph.
+1. Extract the direct-live frontier blocker and produce a close plan for its obligation id.
+2. Build `dependency-audit.yaml` from the source frontier and layered route graph.
 3. Build `assumption-ledger.yaml`, then `assumption-audit.yaml`.
 4. Resolve the gap ledger and emit `gap-audit.yaml`.
 5. Emit `circularity-audit.yaml` and `consistency-audit.yaml` after dependency and assumption data are stable.

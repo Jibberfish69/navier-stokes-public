@@ -1,6 +1,6 @@
 # Public Research Frontier
 
-Updated: 2026-04-14
+Updated: 2026-05-18
 
 Purpose: record the current live public Navier-Stokes research frontier relevant to this lane.
 This is a live support surface, not the proof-bearing authority corpus.
@@ -11,6 +11,7 @@ It is intentionally frontier-focused rather than an exhaustive all-time bibliogr
 - Treat the legacy Navier-Stokes corpus and lane-local theorem surfaces as the proof-bearing base.
 - Treat the papers below as external public research that can invalidate, sharpen, redirect, or supply machinery for the live route.
 - Separate claim-level papers from machinery papers and from obstruction papers.
+- Current public status remains unsolved: Clay still lists the Navier-Stokes problem as unsolved and says there is no proof for the basic existence/uniqueness questions.
 
 ## 1. Direct claim-level pathology papers
 
@@ -58,6 +59,11 @@ It is intentionally frontier-focused rather than an exhaustive all-time bibliogr
   Link: [arXiv:2201.04656](https://arxiv.org/abs/2201.04656)
   Why it matters: Tao-style quantitative regularity in critical Lorentz spaces.
 
+- Classical class-exit analogue backbone.
+  Link: [local audit note](theorem-construction/mpp-public-class-exit-analogue-audit-20260518.md)
+  Components: Escauriaza-Seregin-Sverak / Tao critical `L^3`; Kenig-Koch concentration-compactness plus critical element rigidity; Gallagher-Koch-Planchon critical Besov exit; Seregin `H^{1/2}` necessary condition; Barker-Prange spatial concentration; Barker-Fernandez-Dalgo-Prange dynamically restricted critical norms; Feng-He-Wang critical Lorentz quantitative exit.
+  Why it matters: the exact MCP/CM label has zero public matches, but the public proof pattern is real: finite singularity forces exit from an unavoidable class. Repo use is strict analogy only; public critical-norm exit becomes CM progress only after a lane-local bridge lands it in `Pack`, `Part`, or `Field`.
+
 - Tobias Barker, Henry Popkin, "Quantitative estimates for the forced Navier-Stokes equations and applications," arXiv:2602.09951, submitted 2026-02-10.
   Link: [arXiv:2602.09951](https://arxiv.org/abs/2602.09951)
   Why it matters: current strongest public quantitative continuation / localisation / forced-Carleman machinery.
@@ -102,26 +108,100 @@ It is intentionally frontier-focused rather than an exhaustive all-time bibliogr
   Link: [arXiv:2406.12788](https://arxiv.org/abs/2406.12788)
   Why it matters: strong transport/Lagrangian uniqueness input. For this repo, this is one of the clearest external supports for any route that needs transport coherence rather than pure critical-space uniqueness.
 
-## 6. Strategic compression for this lane
+## 6. Active blowup/search programs (2026 audit)
 
-- The public field is not one program. It is at least four overlapping lanes:
+- Yongji Wang, Mehdi Bennani, James Martens, Sebastien Racaniere, Sam Blackwell, Alex Matthews, Stanislav Nikolov, Gonzalo Cao-Labora, Daniel S. Park, Martin Arjovsky, Daniel Worrall, Chongli Qin, Ferran Alet, Borislav Kozlovskii, Nenad Tomasev, Alex Davies, Pushmeet Kohli, Tristan Buckmaster, Bogdan Georgiev, Javier Gomez-Serrano, Ray Jiang, Ching-Yao Lai, "Discovery of Unstable Singularities," arXiv:2509.14185, submitted 2025-09-17.
+  Link: [arXiv:2509.14185](https://arxiv.org/abs/2509.14185)
+  Why it matters: the DeepMind/Buckmaster/Gomez-Serrano/Lai/Wang/Cao-Labora direction is candidate-profile discovery for unstable self-similar blowup geometries. It is not a Clay resolution, but it is a serious machinery import: terminal geometry first, then proof certification.
+
+- Google DeepMind / Gomez-Serrano / Buckmaster public program.
+  Link: [EL PAIS English, 2025-06-24](https://english.elpais.com/science-tech/2025-06-24/spanish-mathematician-javier-gomez-serrano-and-google-deepmind-team-up-to-solve-the-navier-stokes-million-dollar-problem.html)
+  Why it matters: public reporting identifies a multi-year "Navier-Stokes Operation" around AI-assisted singularity search. Repo use: threat model and candidate-generation discipline only; proof status still requires independent mathematical certification.
+
+- Thomas Hou singularity / rigorous numerics program.
+  Link: [NTU IAS overview](https://www.ntu.edu.sg/ias/news-events/news/detail/recent-progress-on-potential-singularity-of-the-3d-navier-stokes-equation-and-related-models-by-prof-thomas-hou)
+  Why it matters: best external model for candidate profile -> rescaled variables -> adaptive numerical resolution -> computer-assisted proof discipline. Import the certification standard, not any unproved classical-NS conclusion.
+
+- Tarek Elgindi and Federico Pasqualotto, "From Instability to Singularity Formation in Incompressible Fluids," arXiv:2310.19780, submitted 2023-10-30.
+  Link: [arXiv:2310.19780](https://arxiv.org/abs/2310.19780)
+  Why it matters: mechanism paper for instability overcoming transport regularization in Boussinesq and 3D Euler settings. Repo use: source-residue and terminal-carrier mechanism extraction; not a Navier-Stokes closure.
+
+- Diego Cordoba, Luis Martinez-Zoroa, Fan Zheng, "Finite Time Blow-Up for the Hypodissipative Navier Stokes Equations with a Force in L1_t C_x^{1,epsilon} cap L^\infty_t L^2_x," Archive for Rational Mechanics and Analysis, published 2026-05-11.
+  Link: [Springer](https://link.springer.com/article/10.1007/s00205-026-02198-0)
+  Why it matters: serious dissipation-threshold testing. It is outside the classical Clay viscous equation, but it exposes which reduced-dissipation regimes permit source amplification.
+
+- Princeton/NYU/Brown/FRG incompressible-fluids network.
+  Link: [FRG GMT people page](https://web.math.princeton.edu/~aionescu/FRG_home.html)
+  Why it matters: this is the active ecosystem around Leray-Hopf nonuniqueness, Euler singularity formation, and PINN optimization. Repo use: literature map and program surveillance.
+
+## 7. Claimed-proof quarantine bucket (2026 audit)
+
+- Rishad Shahmurov, arXiv:2605.09797.
+  Link: [arXiv:2605.09797](https://arxiv.org/abs/2605.09797)
+  Handling: already quarantined in `theorem-construction/mpp-shahmurov-2605-09797-quarantine-audit-20260517.md`. Useful residue is temporal source-to-score and finite-overlap descendant language; no installed discharge of the local terminal time-face source atom.
+
+- Myong-Hwan Ri, arXiv:2601.15685.
+  Link: [arXiv:2601.15685](https://arxiv.org/abs/2601.15685)
+  Handling: quarantine. Useful only as a failure checklist around sparse inverse-log supercritical norms, viscosity-independent estimates, compactness of nonlinear products, and rescaling/vanishing-viscosity passage.
+
+- Mohammad Abu-Ghuwaleh, ScienceOpen / Sciety DOI 10.14293/pr2199.003375.v1.
+  Link: [Sciety activity page](https://sciety.org/articles/activity/10.14293/pr2199.003375.v1)
+  Handling: quarantine. Useful residue is shell bridge / finite packet exhaustion vocabulary for periodic frequency-lattice audits; no promotion without independent shell-constant and packet-exhaustion verification.
+
+- Jia Hong Zhang, Preprints.org 202601.0992.
+  Link: [Preprints.org](https://www.preprints.org/manuscript/202601.0992)
+  Handling: quarantine. Failure pattern to watch: regularization plus Galerkin plus energy estimates being presented as global smoothness without a proof-grade scale-critical nonlinear closure.
+
+- Hua-Shu Dou, Preprints.org 202509.1747.v2.
+  Link: [Preprints.org](https://www.preprints.org/manuscript/202509.1747/v2)
+  Handling: quarantine. It is a pressure-driven/no-slip-flow breakdown claim, not an accepted Clay-resolution branch; it also conflicts with standard 2D/global-regularity expectations if generalized too far.
+
+- Shin-Ichi Inage, Preprints.org 202603.1824.
+  Link: [Preprints.org](https://www.preprints.org/manuscript/202603.1824)
+  Handling: quarantine. Useful residue is triadic phase-coherence / high-high core vocabulary; decisive burden is a proof-grade non-persistence theorem, not a narrative phase-decorrelation claim.
+
+- Linga Murthy Narlagiri, ResearchGate DOI 10.13140/RG.2.2.10886.54086.
+  Link: [ResearchGate](https://www.researchgate.net/publication/403874604_TOWARD_GLOBAL_REGULARITY_OF_THE_3D_INCOMPRESSIBLE_NAVIER-STOKES_EQUATIONS_A_GEOMETRIC-RIEMANNIAN_FRAMEWORK_WITH_SOURCE-SIDE_SCREENING_AND_A_PROGRAMMATIC_NON-ABELIAN_HELICAL_GAUGE_ROUTE)
+  Handling: conditional-mechanism quarantine. Useful residue is source-side screening and vorticity-direction coherence; the Screening-Coherence Condition is an assumption until proved.
+
+- Romulo Damasclin Chaves dos Santos, Preprints.org 202604.1762.
+  Link: [Preprints.org](https://www.preprints.org/manuscript/202604.1762)
+  Handling: external continuation criterion, not a full proof. Useful residue is dyadic energy-flux decay as a diagnostic for source-carrier audits.
+
+- Xingjian Zhang, Figshare DOI 10.6084/m9.figshare.32141038.
+  Link: [Figshare](https://figshare.com/articles/preprint/Global_Regularity_of_the_Three-Dimensional_Navier-Stokes_Equations_via_Vortex_Fission_Dynamics/32141038)
+  Handling: quarantine. Failure pattern to watch: topological/dynamical re-description of vortex stretching must be converted into a PDE estimate before it can affect the lane.
+
+## 8. Strategic compression for this lane
+
+- The public field is not one program. It is at least seven overlapping lanes:
   1. direct pathology / nonuniqueness claims,
   2. pathology mechanisms and obstruction-building,
   3. quantitative regularity / rigidity / continuation machinery,
-  4. axisymmetric and geometric singularity testing.
+  4. axisymmetric and geometric singularity testing,
+  5. AI-assisted unstable singularity discovery,
+  6. rigorous numerics / computer-assisted certification,
+  7. claimed-proof quarantine and failure-pattern extraction.
 
 - The most dangerous public claim-level papers right now are `2511.09556` and `2509.25116`.
 
-- The strongest public positive-route machinery paper right now is `2602.09951`.
+- The strongest public positive-route machinery paper right now is still `2602.09951`; the strongest public singularity-discovery machinery import is `2509.14185`.
 
 - The most strategically important obstruction papers for this lane's function-space hygiene are `2602.19846`, `2603.03666`, and `2503.14699`.
 
 - The most relevant transport/geometric import for routes that need real flow coherence is `2406.12788`.
 
-## 7. Repo-use policy
+- The classical class-exit analogue backbone is the right public comparison for MCP/CM: not a matching label, and not proof authority, but a useful design test that any CM route must make its class unavoidable and its terminal carrier visible.
+
+- The claimed-proof bucket should be mined only for audit burdens: scaling closure, endpoint compactness, hidden regularity assumptions, noncircular rigidity, pressure/source carrier handling, and terminal positive source-carrier payment.
+
+## 9. Repo-use policy
 
 - Use claim-level pathology papers as external threat monitoring, not as theorem authority.
 - Use obstruction papers to kill false uniqueness or critical-space route drift early.
 - Use quantitative regularity papers as machinery imports and benchmark surfaces.
+- Use class-exit analogue papers as unavoidability and terminal-carrier design tests; do not translate critical `L^3`, Besov, Lorentz, or `H^{1/2}` exit into CM exit without a repo-local `Pack` / `Part` / `Field` bridge.
 - Use axisymmetric/geometric papers as singularity-lab constraints and candidate-exclusion surfaces.
+- Use AI/PINN and computer-assisted programs as candidate-generation and certification-discipline imports.
+- Use claimed regularity/disproof papers as quarantine audits and failure ledgers only.
 - Do not let this public frontier note silently replace the lane's proof-bearing source base.

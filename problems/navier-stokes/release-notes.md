@@ -2,12 +2,14 @@
 
 ## Supersession
 
-These release notes are not current release authority.  The live theorem stack
-is blocked by:
+These release notes are not current release authority.  The current controlling
+release stack is single-valued as nonterminal:
 
 ```text
-OriginalSmoothData=>SourcePulseExclusion.A
-OriginalSmoothData=>mu_*^sing=0
+release-decision: blocked
+submission-verdict: not-ready
+release_eligible: false
+active blocker: cm-direction-alignment
 ```
 
 ## Release scope
@@ -61,7 +63,7 @@ status: blocked
 decision: not-release-approved
 promotion_allowed: false
 release_approved: false
-blockers: OriginalSmoothData=>SourcePulseExclusion.A
+blockers: cm-direction-alignment
 ```
 
 The release manifest is:
@@ -95,6 +97,6 @@ R3 conditional notes are excluded from this periodic release claim.
 ## Final status
 
 ```text
-periodic T3 theorem surface: release-approved
+periodic T3 theorem-program surface: scoped nonterminal package; not release-approved
 whole-space R3 extension: conditional branch, excluded from this release
 ```

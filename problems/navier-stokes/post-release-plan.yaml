@@ -4,42 +4,49 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   plan_id: post-release-plan-navier-stokes
-  generated_at: '2026-04-29T21:30:00Z'
+  generated_at: '2026-05-04T20:44:00Z'
   source_release_decision_id: release-decision-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
 current_release:
-  disposition: local-theorem-program-closed
-  release_posture: review-refresh-required
-  completion_tier_target: class-membership-closure-warrant
-  completion_tier_achieved: local-theorem-program-closure
+  disposition: blocked
+  release_posture: blocked-source-wall-root-open
+  completion_tier_target: full-mpp-closure
+  completion_tier_achieved: source-wall-root-open
 tracks:
   theorem-upgrade:
-    applicable: false
-    target_tier: none-active
-    theorem_gap: []
-    reviewer_risks:
-    - Do not promote local theorem-program closure into a public/export/release claim
-      without refreshed review artifacts.
-    recommended_next_cell_type: none-active
-    recommended_next_stage: closed-local-theorem-program
-    recommended_next_action: No active theorem-upgrade action.
-    rationale: Retained-field tower anchoring closed the source-pulse CM-exit primitive.
-  publication-finalize:
     applicable: true
-    target_tier: local-theorem-program-closure
+    target_tier: full-mpp-closure
+    theorem_gap:
+    - source-wall-root-after-reconcile
+    reviewer_risks:
+    - Do not reopen cm-witness-face-bridge-required or source-drain unless a current live theorem surface retracts the 20260504 notes.
+    recommended_next_cell_type: source-wall-root-theorem
+    recommended_next_stage: direct-source-wall-supplier
+    recommended_next_action: Prove the separate positive supplier theorem
+      OriginalSmoothData=>ScaleCriticalTreeCarleson.A, or a genuinely non-Carleson
+      TemporalNonAtomicSource.A / ZenoSourceResidueRigidity.A supplier theorem.
+    rationale: The live theorem edge installs MemberSmooth.A / WitnessFace.A and
+      the all-non-Euler face sweep; ParabolicEdgeResistance.A, height, signed-current,
+      manuscript/export, and generated surfaces are support unless promoted through
+      the face index.
+  publication-finalize:
+    applicable: false
+    target_tier: blocked-source-wall-root-open
     missing_publishability_surfaces:
-    - review/export/release refresh
-    recommended_next_cell_type: review-refresh
-    recommended_next_stage: publication-refresh-requested
-    recommended_next_action: Refresh review/export/release artifacts against the current
-      theorem packet.
-    rationale: Mathematical local closure is recorded; publication posture is a separate
-      release boundary.
-selected_track: publication-finalize
+    - regenerated theorem packet without stale theorem-upgrade debt
+    - review verdict refreshed against the current theorem packet
+    - release/submission/export surfaces refreshed against the current theorem packet
+    recommended_next_cell_type: blocked
+    recommended_next_stage: theorem-open
+    recommended_next_action: Do not publish or export as a full-MPP closure while
+      the source-wall root remains open.
+    rationale: Publication finalize is suspended by the live theorem blocker.
+selected_track: theorem-upgrade
 summary:
-  reopen_track: none-active-theorem
-  reopen_next_cell_type: review-refresh
-  reopen_next_stage: publication-refresh-requested
-  reopen_next_action: Refresh review/export/release artifacts against the current
-    theorem packet.
-  rationale: No active local math frontier remains.
+  reopen_track: source-wall-root-theorem
+  reopen_next_cell_type: source-wall-root-theorem
+  reopen_next_stage: direct-source-wall-supplier
+  reopen_next_action: Prove the separate positive source-wall supplier theorem; do
+    not reopen already face-sorted support presentations as independent surfaces.
+  rationale: The all-non-Euler surface sweep closes sorting, not the positive supplier
+    theorem.

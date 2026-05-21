@@ -40,7 +40,7 @@ u\in C^\infty([0,\infty)\times\mathbb T^3).
 external-paper/main.tex sha1=ed77cff806ce81c69d5d40c54aa336491df51993
 release-manifest.yaml sha1=690c4e6525160dae90b3b61811d907c7652ee76e
 release-decision.yaml sha1=2b4a62c38e0aad4ab285728972103c195b42aab2
-proof-obligation-matrix.yaml sha1=5f8063efddb303946dd838c615bcf2a43d957abb
+source-frontier.yaml sha1=5f8063efddb303946dd838c615bcf2a43d957abb
 theorem-packet.yaml sha1=0f74c1242c626dcc061d4183065b4e4970e0029d
 review-verdict.yaml sha1=37c2778c04e95956e6da64be4964cf3db384b792
 ```

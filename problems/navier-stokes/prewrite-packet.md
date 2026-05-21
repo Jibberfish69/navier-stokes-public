@@ -3,7 +3,7 @@
 - `span:` whole document
 - `mode:` Authorial Draft
 - `user_intent:` Turn the grounded Navier-Stokes Global Regularity workboard into honest prose that explains the live route without claiming theorem settlement that the package does not yet earn.
-- `fixed_constraints:` Keep the theorem target on the original problem rather than nearby surrogate systems. | Do not let dead-end or diagnostic branches masquerade as the live theorem route. | Keep unresolved debt explicit instead of smoothing it away in expository prose. | Avoid package, route, or pass narration; keep the pressure on the mathematical object itself. | Do not open or land with stage-announcement prose. | Do not overclaim beyond the lowest safe theorem surface: The official Clay target allows either the whole-space branch on `R^3` or the periodic branch on `T^3`. | First unsafe overclaim to avoid: Replacing the official Clay statement by a weaker route-local or data-class-local statement. | Keep the full-MPP closure tied to the periodic Clay terminal-promotion theorem and the official `T^3` zero-force branch; do not promote nonblocking `SourcePulseExclusion.A` supplier context into a live blocker.
+- `fixed_constraints:` Keep the theorem target on the original problem rather than nearby surrogate systems. | Do not let dead-end or diagnostic branches masquerade as the live theorem route. | Keep unresolved debt explicit instead of smoothing it away in expository prose. | Avoid package, route, or pass narration; keep the pressure on the mathematical object itself. | Do not open or land with stage-announcement prose. | Derived runner artifacts may still replay the pre-install cross-face debt if they read stale theorem-repair state; current live authority treats cross-face as installed and keeps the source-wall root open.
 
 ## Section Job
 - `job_statement:` Convert the grounded route into readable prose that states the target, the live obstruction, the closure loop, and the honest revise-stage boundary.
@@ -45,7 +45,7 @@
 ## Paragraph Movement Map
 - `role:` orient
   `core_move:` Fix the theorem target and separate the live classical branch from the nearby regularized dead-end branch.
-  `must_keep:` full-MPP periodic Clay closure via terminal promotion from the installed Theorem 2.1 class-membership warrant | The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3` or `T^3` | Success for regularized or morphic-regularized equations does not close the original problem
+  `must_keep:` `source-wall-root-after-reconcile` | The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3` or `T^3` | Success for regularized or morphic-regularized equations does not close the original problem
   `avoid:` opening with proof language | treating diagnostic regularized work as theorem-bearing
 - `role:` setup
   `core_move:` Explain why energy control alone does not settle global regularity and localize the live obstruction at the dangerous cascade scales.
@@ -61,11 +61,11 @@
   `avoid:` declaring closure as already proved | dropping the route back into heuristic language
 - `role:` landing
   `core_move:` Land on the lowest safe claim and the current revise-stage status so the reader knows exactly what is live and what is still debt.
-  `must_keep:` The official Clay target allows either the whole-space branch on `R^3` or the periodic branch on `T^3`. - The active internal theorem branch in this repo is the periodic zero-force statement on `T^3`; any whole-space statement on `R^3` is downstream discharge/export, not the branch lock. | Replacing the official Clay statement by a weaker route-local or data-class-local statement. | blocked-by-pctp5c-jumpavg-elimination
+  `must_keep:` The official Clay target allows either the whole-space branch on `R^3` or the periodic branch on `T^3`. - The active internal theorem branch in this repo is the periodic zero-force statement on `T^3`; any whole-space statement on `R^3` is downstream discharge/export, not the branch lock. | Replacing the official Clay statement by a weaker route-local or data-class-local statement. | `CM.CrossFaceSynthesis.A` and `MemberSmooth.A / WitnessFace.A` are installed; source-wall root remains open
   `avoid:` paper-ready bravado | burying the remaining debt after the route summary
 
 ## Lexicon Lock
-- `must_use:` full-MPP periodic Clay closure via terminal promotion from the installed Theorem 2.1 class-membership warrant | classical equation | scale-barrier principle | compactness | nonlinear term | gradient control | singularity pathways | lowest safe claim
+- `must_use:` `source-wall-root-after-reconcile` | classical equation | scale-barrier principle | compactness | nonlinear term | gradient control | singularity pathways | lowest safe claim
 - `must_not_substitute:` regularized smoothness for classical regularity | heuristic decay for proved scale barrier | modified PDE success for Clay result
 - `deferred_terms:` stand-alone proof | theorem settlement | paper-ready export
 - `tone_keys:` direct | technical | scope-honest | reader-forward | non-triumphal | object-specific
@@ -92,4 +92,4 @@
 - `pass_if:` the draft fixes the theorem target, makes the cascade obstruction explicit, names the scale-barrier / compactness / gradient-control loop in readable prose, and lands below the first unsafe overclaim
 - `fail_if:` the draft treats regularized branches as theorem-bearing, loses the classical-equation target, or sounds as though global regularity has already been proved
 
-<!-- generated_at: 2026-05-03T19:13:49Z -->
+<!-- generated_at: 2026-05-05T18:08:46Z -->
