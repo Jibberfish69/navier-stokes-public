@@ -6,7 +6,7 @@ Status: burden sharpened. The live theorem target is narrower than broad `Pressu
 
 ## Current canonical obstruction
 
-The source-wall root now has a canonical Field-face obstruction:
+The source-wall root now has a canonical terminal Pack-failure obstruction:
 
 ```math
 B_{ASAC}^{closed}.
