@@ -76,17 +76,17 @@ object_law_route_lock_sentence: >-
   parent Pack / Part / Field route, but it must not preserve Part or Field as
   primitive Euler membership faces, and it must not let pressure alone imply
   one-field participation.
-  mirror_theorem_queue:
-  - keep the source-locked contradiction note written literally with the Euler weak equation and flux-volume membership
-  - use the smooth shear-layer bridge as a singular-limit route to the slip-sheet witness, not as fixed-datum blow-up
-  - keep fixed-datum classical blowup split by domain: boundary/axisymmetric known externally, no-boundary smooth finite-energy still open
-  - use Euler as a control case for the NS attack map: slip/vortex-sheet targets Field/Jump first, Dead and Blown only through their typed rows/cross-entries
-  - treat old `CFI.A` as a regularity-forward-invariance candidate, not base membership preservation
-  - treat old `OFP.A` as an optional one-field regularity theorem, not a membership theorem
-  - classify the parent receiver chain `RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` as comparison authority only
-  - classify the expanded `ACT.KX` cells `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX` as non-importable NS receiver machinery
-  - rebuild any Euler smoothness claim as a regularity upgrade from Member_E plus earned Euler controls
-  - only after the Euler membership layer is honest may downstream exact-potential, Hodge, selector, or Euclidean export branches be mirrored
+mirror_theorem_queue:
+- keep the source-locked contradiction note written literally with the Euler weak equation and flux-volume membership
+- use the smooth shear-layer bridge as a singular-limit route to the slip-sheet witness, not as fixed-datum blow-up
+- keep fixed-datum classical blowup split by domain: boundary/axisymmetric known externally, no-boundary smooth finite-energy still open
+- use Euler as a control case for the NS attack map: slip/vortex-sheet targets Field/Jump first, Dead and Blown only through their typed rows/cross-entries
+- treat old `CFI.A` as a regularity-forward-invariance candidate, not base membership preservation
+- treat old `OFP.A` as an optional one-field regularity theorem, not a membership theorem
+- classify the parent receiver chain `RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` as comparison authority only
+- classify the expanded `ACT.KX` cells `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX` as non-importable NS receiver machinery
+- rebuild any Euler smoothness claim as a regularity upgrade from Member_E plus earned Euler controls
+- only after the Euler membership layer is honest may downstream exact-potential, Hodge, selector, or Euclidean export branches be mirrored
 holistic_scenario_separation_lock:
   status: active
   authority_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
