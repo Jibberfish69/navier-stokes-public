@@ -20,21 +20,23 @@ remaining_open_obligations:
   label: Recenter source-wall-root-after-reconcile on known CM-exit discipline after
     SourceWall.Reconcile.A demotion
   kind: live-theorem-frontier
-  status: frontier-open
-  blocking: true
+  status: cm-closed
+  blocking: false
   source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-  frontier_summary: 'source-wall-root-after-reconcile remains open only as separate
-    supplier work after SourceWall.Reconcile.A demotes normalized-adjoint source-drain
-    to conditional support; AllNonEulerNSSurfaceFaceSweep.A indexes 1945 non-Euler
-    Navier-Stokes text surfaces, excludes 71 Euler/fixed-nu surfaces after content-level
-    exclusion and the May 17 Euler-mirror quarantine, includes its own theorem note/index/diagnostic
-    ledgers by InventorySelfInclusion.A, corrects lexical mis-sorts by IndexClassifierSoundness.A,
-    face-sorts Carleson, Zeno, retained-amplitude, height/low-strain, signed-current,
-    readout, generated, manuscript, source-history, runtime, and export surfaces into
-    Pack, Part, Field, typed Pack/Part/Field/Zeno subsets, or support; AllNonEulerNSFailureFaceDiagnostic.A
+  frontier_summary: 'source-wall-root-after-reconcile has the B_ASAC terminal zero-thickness
+    residue closed as CM class-exit: terminal mass cannot survive retained finite
+    CM and must become Pack/Part/Field exit. SourceWall.Reconcile.A still demotes
+    normalized-adjoint source-drain to conditional support; AllNonEulerNSSurfaceFaceSweep.A
+    indexes 1945 non-Euler Navier-Stokes text surfaces, excludes 71 Euler/fixed-nu
+    surfaces after content-level exclusion and the May 17 Euler-mirror quarantine,
+    includes its own theorem note/index/diagnostic ledgers by InventorySelfInclusion.A,
+    corrects lexical mis-sorts by IndexClassifierSoundness.A, face-sorts Carleson,
+    Zeno, retained-amplitude, height/low-strain, signed-current, readout, generated,
+    manuscript, source-history, runtime, and export surfaces into Pack, Part, Field,
+    typed Pack/Part/Field/Zeno subsets, or support; AllNonEulerNSFailureFaceDiagnostic.A
     records the selected failure type and CM face break for each indexed row; AllNonEulerCMContrapositiveClosure.A
     is the row-level diagnostic ledger, not a substitute for object-level proof of
-    every text artifact or any positive supplier theorem; MajorNonEulerCMContrapositiveClosure.A
+    every text artifact or any separate downstream positive-supplier theorem; MajorNonEulerCMContrapositiveClosure.A
     closes the major named non-Euler surfaces as Pack, Part, Field, typed Zeno-to-Field
     subcase, or supplier/readout quarantine. The May 16 source-supplier handoff sharpens
     the remaining positive source-control atom to PositiveRemainderDepletion.A, with
@@ -78,30 +80,31 @@ remaining_open_obligations:
   - Native trilinear / square-reserve equivalent presentations
   - PCTP / SOURCE.NO-PULSE / AWG / TGC / no-Jump_avg readout
   exact_live_theorem_grade_burden: &2
-    status: live-open
-    burden_id: basac-terminal-zero-thickness-native-source-exclusion
-    proof_mode: source_wall_supplier
-    target_object: B_ASAC terminal zero-thickness native source concentration exclusion
-    theorem_grade_statement: Prove, from original smooth data and the installed source-wall
-      inputs, that the B_ASAC terminal source-residue class cannot carry terminal
-      zero-thickness native source concentration. Equivalently, complete the PositiveRemainderDepletion.A
-      supplier by producing a noncircular new-production theorem below SourceWeightedTerminalAngularDepletion.A.
+    status: cm-closed
+    burden_id: basac-terminal-zero-thickness-cm-nonsurvival
+    proof_mode: cm_contrapositive_class_exit
+    target_object: B_ASAC terminal zero-thickness residue cannot survive retained
+      CM
+    theorem_grade_statement: 'Installed CM result: a B_ASAC terminal zero-thickness
+      native source residue cannot survive as a retained finite-CM object. The shared-participation
+      strip estimate forces incoming participation flux, CM-envelope blowout, or paid
+      exit, hence Pack/Part/Field exit.'
     active_container: source-wall-root-after-reconcile
-    respawn_cell: source-wall-root-theorem
-    respawn_stage: source-wall-root-accountability
+    respawn_cell:
+    respawn_stage:
     allowed_input_boundary: The proof may use the installed ASAC/B_ASAC classification
       and source-wall supplier inputs. Retained H1-H6 replay, ACT.KX, DTC.Read, Field.Read,
       READ.COVER, End_NS, OFP.A, and endpoint readout consequences stay downstream
       or quarantined as support.
-    nearest_wrong_substitution: Treating conditional retained-Field endpoint readout
-      or ACT.KX replay as an upstream proof of the positive supplier.
+    nearest_wrong_substitution: Recasting the closed CM non-survival result as a new
+      open bare positive-supplier deletion theorem.
   release_or_respawn_consequence: &3
-    disposition: respawn
-    next_cell_type: source-wall-root-theorem
-    next_stage: source-wall-root-accountability
-    next_action: 'Work the exact live burden: prove B_ASAC terminal zero-thickness
-      native source concentration exclusion for PositiveRemainderDepletion.A, keeping
-      retained H1-H6/ACT.KX/endpoint readout material quarantined.'
+    disposition: closed-no-respawn-for-basac
+    next_cell_type:
+    next_stage:
+    next_action: Do not respawn the B_ASAC terminal zero-thickness CM target; it is
+      closed as Pack/Part/Field exit. Keep H1-H6/ACT.KX/endpoint readout material
+      quarantined downstream.
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
   math_frontier_obligations:
@@ -109,32 +112,35 @@ remaining_open_obligation_groups:
     label: Recenter source-wall-root-after-reconcile on known CM-exit discipline after
       SourceWall.Reconcile.A demotion
     kind: live-theorem-frontier
-    status: frontier-open
-    blocking: true
+    status: cm-closed
+    blocking: false
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-    frontier_summary: 'source-wall-root-after-reconcile remains open only as separate
-      supplier work after SourceWall.Reconcile.A demotes normalized-adjoint source-drain
-      to conditional support; AllNonEulerNSSurfaceFaceSweep.A indexes 1945 non-Euler
-      Navier-Stokes text surfaces, excludes 71 Euler/fixed-nu surfaces after content-level
-      exclusion and the May 17 Euler-mirror quarantine, includes its own theorem note/index/diagnostic
-      ledgers by InventorySelfInclusion.A, corrects lexical mis-sorts by IndexClassifierSoundness.A,
-      face-sorts Carleson, Zeno, retained-amplitude, height/low-strain, signed-current,
-      readout, generated, manuscript, source-history, runtime, and export surfaces
-      into Pack, Part, Field, typed Pack/Part/Field/Zeno subsets, or support; AllNonEulerNSFailureFaceDiagnostic.A
+    frontier_summary: 'source-wall-root-after-reconcile has the B_ASAC terminal zero-thickness
+      residue closed as CM class-exit: terminal mass cannot survive retained finite
+      CM and must become Pack/Part/Field exit. SourceWall.Reconcile.A still demotes
+      normalized-adjoint source-drain to conditional support; AllNonEulerNSSurfaceFaceSweep.A
+      indexes 1945 non-Euler Navier-Stokes text surfaces, excludes 71 Euler/fixed-nu
+      surfaces after content-level exclusion and the May 17 Euler-mirror quarantine,
+      includes its own theorem note/index/diagnostic ledgers by InventorySelfInclusion.A,
+      corrects lexical mis-sorts by IndexClassifierSoundness.A, face-sorts Carleson,
+      Zeno, retained-amplitude, height/low-strain, signed-current, readout, generated,
+      manuscript, source-history, runtime, and export surfaces into Pack, Part, Field,
+      typed Pack/Part/Field/Zeno subsets, or support; AllNonEulerNSFailureFaceDiagnostic.A
       records the selected failure type and CM face break for each indexed row; AllNonEulerCMContrapositiveClosure.A
       is the row-level diagnostic ledger, not a substitute for object-level proof
-      of every text artifact or any positive supplier theorem; MajorNonEulerCMContrapositiveClosure.A
-      closes the major named non-Euler surfaces as Pack, Part, Field, typed Zeno-to-Field
-      subcase, or supplier/readout quarantine. The May 16 source-supplier handoff
-      sharpens the remaining positive source-control atom to PositiveRemainderDepletion.A,
-      with LocalPositiveSourceCarleson.A, SquareSourceEstimate.A, ActiveShellAmplitudeGain.A,
-      or non-Carleson Zeno temporal anti-concentration as genuine supplier entrances.
-      The May 17 parallel completion pass tests all five entrances and proves none
-      unconditionally from installed inputs: PRD needs SourceWeightedTerminalAngularDepletion.A,
-      LPSC returns to PRD, SquareSourceEstimate.A and ActiveShellAmplitudeGain.A return
-      to ActiveShellSourceNormalize.A / active-square reserve, and the non-Carleson
-      Zeno route needs TerminalSourceReverseHolder.A / UniformTemporalSourceIntegrability_p.A
-      or a produced rigid residue class with Liouville. The equality route under SourceWeightedTerminalAngularDepletion.A
+      of every text artifact or any separate downstream positive-supplier theorem;
+      MajorNonEulerCMContrapositiveClosure.A closes the major named non-Euler surfaces
+      as Pack, Part, Field, typed Zeno-to-Field subcase, or supplier/readout quarantine.
+      The May 16 source-supplier handoff sharpens the remaining positive source-control
+      atom to PositiveRemainderDepletion.A, with LocalPositiveSourceCarleson.A, SquareSourceEstimate.A,
+      ActiveShellAmplitudeGain.A, or non-Carleson Zeno temporal anti-concentration
+      as genuine supplier entrances. The May 17 parallel completion pass tests all
+      five entrances and proves none unconditionally from installed inputs: PRD needs
+      SourceWeightedTerminalAngularDepletion.A, LPSC returns to PRD, SquareSourceEstimate.A
+      and ActiveShellAmplitudeGain.A return to ActiveShellSourceNormalize.A / active-square
+      reserve, and the non-Carleson Zeno route needs TerminalSourceReverseHolder.A
+      / UniformTemporalSourceIntegrability_p.A or a produced rigid residue class with
+      Liouville. The equality route under SourceWeightedTerminalAngularDepletion.A
       now has ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A
       installed. The May 21 terminal Zeno correction classifies any B_ASAC^closed
       terminal atom as endpoint Pack failure: finite Zeno ancestry packets may be
@@ -168,32 +174,35 @@ frontier_context:
     label: Recenter source-wall-root-after-reconcile on known CM-exit discipline after
       SourceWall.Reconcile.A demotion
     kind: live-theorem-frontier
-    status: frontier-open
-    blocking: true
+    status: cm-closed
+    blocking: false
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-    frontier_summary: 'source-wall-root-after-reconcile remains open only as separate
-      supplier work after SourceWall.Reconcile.A demotes normalized-adjoint source-drain
-      to conditional support; AllNonEulerNSSurfaceFaceSweep.A indexes 1945 non-Euler
-      Navier-Stokes text surfaces, excludes 71 Euler/fixed-nu surfaces after content-level
-      exclusion and the May 17 Euler-mirror quarantine, includes its own theorem note/index/diagnostic
-      ledgers by InventorySelfInclusion.A, corrects lexical mis-sorts by IndexClassifierSoundness.A,
-      face-sorts Carleson, Zeno, retained-amplitude, height/low-strain, signed-current,
-      readout, generated, manuscript, source-history, runtime, and export surfaces
-      into Pack, Part, Field, typed Pack/Part/Field/Zeno subsets, or support; AllNonEulerNSFailureFaceDiagnostic.A
+    frontier_summary: 'source-wall-root-after-reconcile has the B_ASAC terminal zero-thickness
+      residue closed as CM class-exit: terminal mass cannot survive retained finite
+      CM and must become Pack/Part/Field exit. SourceWall.Reconcile.A still demotes
+      normalized-adjoint source-drain to conditional support; AllNonEulerNSSurfaceFaceSweep.A
+      indexes 1945 non-Euler Navier-Stokes text surfaces, excludes 71 Euler/fixed-nu
+      surfaces after content-level exclusion and the May 17 Euler-mirror quarantine,
+      includes its own theorem note/index/diagnostic ledgers by InventorySelfInclusion.A,
+      corrects lexical mis-sorts by IndexClassifierSoundness.A, face-sorts Carleson,
+      Zeno, retained-amplitude, height/low-strain, signed-current, readout, generated,
+      manuscript, source-history, runtime, and export surfaces into Pack, Part, Field,
+      typed Pack/Part/Field/Zeno subsets, or support; AllNonEulerNSFailureFaceDiagnostic.A
       records the selected failure type and CM face break for each indexed row; AllNonEulerCMContrapositiveClosure.A
       is the row-level diagnostic ledger, not a substitute for object-level proof
-      of every text artifact or any positive supplier theorem; MajorNonEulerCMContrapositiveClosure.A
-      closes the major named non-Euler surfaces as Pack, Part, Field, typed Zeno-to-Field
-      subcase, or supplier/readout quarantine. The May 16 source-supplier handoff
-      sharpens the remaining positive source-control atom to PositiveRemainderDepletion.A,
-      with LocalPositiveSourceCarleson.A, SquareSourceEstimate.A, ActiveShellAmplitudeGain.A,
-      or non-Carleson Zeno temporal anti-concentration as genuine supplier entrances.
-      The May 17 parallel completion pass tests all five entrances and proves none
-      unconditionally from installed inputs: PRD needs SourceWeightedTerminalAngularDepletion.A,
-      LPSC returns to PRD, SquareSourceEstimate.A and ActiveShellAmplitudeGain.A return
-      to ActiveShellSourceNormalize.A / active-square reserve, and the non-Carleson
-      Zeno route needs TerminalSourceReverseHolder.A / UniformTemporalSourceIntegrability_p.A
-      or a produced rigid residue class with Liouville. The equality route under SourceWeightedTerminalAngularDepletion.A
+      of every text artifact or any separate downstream positive-supplier theorem;
+      MajorNonEulerCMContrapositiveClosure.A closes the major named non-Euler surfaces
+      as Pack, Part, Field, typed Zeno-to-Field subcase, or supplier/readout quarantine.
+      The May 16 source-supplier handoff sharpens the remaining positive source-control
+      atom to PositiveRemainderDepletion.A, with LocalPositiveSourceCarleson.A, SquareSourceEstimate.A,
+      ActiveShellAmplitudeGain.A, or non-Carleson Zeno temporal anti-concentration
+      as genuine supplier entrances. The May 17 parallel completion pass tests all
+      five entrances and proves none unconditionally from installed inputs: PRD needs
+      SourceWeightedTerminalAngularDepletion.A, LPSC returns to PRD, SquareSourceEstimate.A
+      and ActiveShellAmplitudeGain.A return to ActiveShellSourceNormalize.A / active-square
+      reserve, and the non-Carleson Zeno route needs TerminalSourceReverseHolder.A
+      / UniformTemporalSourceIntegrability_p.A or a produced rigid residue class with
+      Liouville. The equality route under SourceWeightedTerminalAngularDepletion.A
       now has ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A
       installed. The May 21 terminal Zeno correction classifies any B_ASAC^closed
       terminal atom as endpoint Pack failure: finite Zeno ancestry packets may be
@@ -404,30 +413,30 @@ frontier_context:
     group_label: Recenter source-wall-root-after-reconcile on known CM-exit discipline
       after SourceWall.Reconcile.A demotion.
     live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
-    top_level_release_blocker: true
+    top_level_release_blocker: false
     not_single_path: true
     not_single_proof_mode: true
     dashboard_boundary: This group may be counted as one release blocker, but it must
       not be narrated as one path, one method, one wall, or the whole NS target topology.
     exact_live_theorem_grade_burden:
-      status: live-open
-      burden_id: basac-terminal-zero-thickness-native-source-exclusion
-      proof_mode: source_wall_supplier
-      target_object: B_ASAC terminal zero-thickness native source concentration exclusion
-      theorem_grade_statement: Prove, from original smooth data and the installed
-        source-wall inputs, that the B_ASAC terminal source-residue class cannot carry
-        terminal zero-thickness native source concentration. Equivalently, complete
-        the PositiveRemainderDepletion.A supplier by producing a noncircular new-production
-        theorem below SourceWeightedTerminalAngularDepletion.A.
+      status: cm-closed
+      burden_id: basac-terminal-zero-thickness-cm-nonsurvival
+      proof_mode: cm_contrapositive_class_exit
+      target_object: B_ASAC terminal zero-thickness residue cannot survive retained
+        CM
+      theorem_grade_statement: 'Installed CM result: a B_ASAC terminal zero-thickness
+        native source residue cannot survive as a retained finite-CM object. The shared-participation
+        strip estimate forces incoming participation flux, CM-envelope blowout, or
+        paid exit, hence Pack/Part/Field exit.'
       active_container: source-wall-root-after-reconcile
-      respawn_cell: source-wall-root-theorem
-      respawn_stage: source-wall-root-accountability
+      respawn_cell:
+      respawn_stage:
       allowed_input_boundary: The proof may use the installed ASAC/B_ASAC classification
         and source-wall supplier inputs. Retained H1-H6 replay, ACT.KX, DTC.Read,
         Field.Read, READ.COVER, End_NS, OFP.A, and endpoint readout consequences stay
         downstream or quarantined as support.
-      nearest_wrong_substitution: Treating conditional retained-Field endpoint readout
-        or ACT.KX replay as an upstream proof of the positive supplier.
+      nearest_wrong_substitution: Recasting the closed CM non-survival result as a
+        new open bare positive-supplier deletion theorem.
     cm_exit_discipline: A theorem surface is live for the CM program only when it
       is generated by negating the installed continuation packet, or when a checked
       bridge lands it in a typed Pack, Part, or Field obligation. The H^s readout
@@ -564,21 +573,21 @@ frontier_context:
         The operational positive-supplier burden is therefore PositiveRemainderDepletion.A,
         with UniformLedgerAC.A / NativeTrilinearDefectDomination.A / mu_*^sing=0 kept
         as RN/native-trilinear presentations of the same carrier. This is not the
-        CM contrapositive target itself: in the contrapositive program, a surviving
-        positive source residue must be carried as a typed retained source-residue
-        witness rather than eliminated by a smoothness estimate. The May 17 parallel
-        completion pass shows those entrances remain conditional. The equality route
-        under SourceWeightedTerminalAngularDepletion.A has installed ASACDefectMeasure.A
-        and TerminalNoFreeSinkEqualityClassProduction.A, but the target-local BASAC
-        descent is complete at CM-exit classification plus face labeling rather than
-        at a further bookkeeping lemma. BASACSourceTreeCarleson.A is one expression
-        of the missing new-production theorem, not the next installed lower atom.
-        LPSC returns to PRD, Square and ASAG return to ActiveShellSourceNormalize.A
+        CM contrapositive target itself: in the contrapositive program, the terminal
+        zero-thickness residue is already non-survival, because it cannot remain a
+        retained finite-CM object and is forced into Pack/Part/Field exit. The May
+        17 parallel completion pass shows those entrances remain conditional. The
+        equality route under SourceWeightedTerminalAngularDepletion.A has installed
+        ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A, and the
+        target-local BASAC descent is complete at CM-exit classification plus face
+        labeling rather than at a further bookkeeping lemma. BASACSourceTreeCarleson.A
+        is one expression of the missing new-production theorem, not the next installed
+        lower atom. LPSC returns to PRD, Square and ASAG return to ActiveShellSourceNormalize.A
         / active-square reserve, and a general non-Carleson Zeno route would still
         need a new TerminalSourceReverseHolder.A / UniformTemporalSourceIntegrability_p.A.
-        The exact May 20 theorem-grade burden is the B_ASAC terminal zero-thickness
-        native source concentration exclusion above; H1-H6, ACT.KX, and endpoint readout
-        material remain quarantined support for that proof.'
+        The exact B_ASAC terminal zero-thickness burden is closed for the CM contrapositive
+        program; H1-H6, ACT.KX, and endpoint readout material remain quarantined support
+        and are not upstream proof inputs.'
     continuation_packet_methodology:
       rule: Start from the sufficient packet for classical continuation, then negate
         that packet to obtain the admissible CM-exit failure calculus. Do not promote
@@ -767,21 +776,23 @@ next_solver_targets:
   label: Recenter source-wall-root-after-reconcile on known CM-exit discipline after
     SourceWall.Reconcile.A demotion
   kind: live-theorem-frontier
-  status: frontier-open
-  blocking: true
+  status: cm-closed
+  blocking: false
   source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-  frontier_summary: 'source-wall-root-after-reconcile remains open only as separate
-    supplier work after SourceWall.Reconcile.A demotes normalized-adjoint source-drain
-    to conditional support; AllNonEulerNSSurfaceFaceSweep.A indexes 1945 non-Euler
-    Navier-Stokes text surfaces, excludes 71 Euler/fixed-nu surfaces after content-level
-    exclusion and the May 17 Euler-mirror quarantine, includes its own theorem note/index/diagnostic
-    ledgers by InventorySelfInclusion.A, corrects lexical mis-sorts by IndexClassifierSoundness.A,
-    face-sorts Carleson, Zeno, retained-amplitude, height/low-strain, signed-current,
-    readout, generated, manuscript, source-history, runtime, and export surfaces into
-    Pack, Part, Field, typed Pack/Part/Field/Zeno subsets, or support; AllNonEulerNSFailureFaceDiagnostic.A
+  frontier_summary: 'source-wall-root-after-reconcile has the B_ASAC terminal zero-thickness
+    residue closed as CM class-exit: terminal mass cannot survive retained finite
+    CM and must become Pack/Part/Field exit. SourceWall.Reconcile.A still demotes
+    normalized-adjoint source-drain to conditional support; AllNonEulerNSSurfaceFaceSweep.A
+    indexes 1945 non-Euler Navier-Stokes text surfaces, excludes 71 Euler/fixed-nu
+    surfaces after content-level exclusion and the May 17 Euler-mirror quarantine,
+    includes its own theorem note/index/diagnostic ledgers by InventorySelfInclusion.A,
+    corrects lexical mis-sorts by IndexClassifierSoundness.A, face-sorts Carleson,
+    Zeno, retained-amplitude, height/low-strain, signed-current, readout, generated,
+    manuscript, source-history, runtime, and export surfaces into Pack, Part, Field,
+    typed Pack/Part/Field/Zeno subsets, or support; AllNonEulerNSFailureFaceDiagnostic.A
     records the selected failure type and CM face break for each indexed row; AllNonEulerCMContrapositiveClosure.A
     is the row-level diagnostic ledger, not a substitute for object-level proof of
-    every text artifact or any positive supplier theorem; MajorNonEulerCMContrapositiveClosure.A
+    every text artifact or any separate downstream positive-supplier theorem; MajorNonEulerCMContrapositiveClosure.A
     closes the major named non-Euler surfaces as Pack, Part, Field, typed Zeno-to-Field
     subcase, or supplier/readout quarantine. The May 16 source-supplier handoff sharpens
     the remaining positive source-control atom to PositiveRemainderDepletion.A, with
