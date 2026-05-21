@@ -4,11 +4,12 @@
 
 Separate conditional branch matrix for the whole-space `R^3` extension.
 
-This matrix is explicitly outside the closed periodic `T^3` release surface.
+This matrix is explicitly outside the closed periodic `T^3` theorem-program surface
+and outside the current nonterminal release authority.
 
 ## Closed branch boundary
 
-The current release-approved theorem surface is periodic:
+The current closed theorem-program surface is periodic:
 
 ```math
 u_0\in C^\infty_\sigma(\mathbb T^3),
@@ -19,6 +20,8 @@ u\in C^\infty([0,\infty)\times\mathbb T^3).
 ```
 
 The following R3 branch must not be used as release evidence for that periodic surface.
+It also does not change the current release authority, which remains blocked /
+not-ready until the CM direction-alignment gate is discharged.
 
 ## R3 target
 
@@ -80,4 +83,4 @@ remains unproved from current inputs.
 
 ## Promotion rule
 
-A future R3 proof-promotion packet must require this R3 matrix and must show `Tail.Hs_R3` or `TailFace_R3^Hs` closed. The periodic promotion packet remains scoped to the closed `T^3` theorem surface.
+A future R3 proof-promotion packet must require this R3 matrix and must show `Tail.Hs_R3` or `TailFace_R3^Hs` closed. The periodic promotion packet remains scoped to the closed `T^3` theorem-program surface and cannot use R3 conditional rows as periodic release evidence.

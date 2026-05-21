@@ -6,7 +6,7 @@ require "pathname"
 require "time"
 require "yaml"
 
-ROOT = Pathname.new(ENV.fetch("RESEARCH_CONSOLIDATION_ROOT", "/Users/thomasbirnie/Documents/Research-Consolidation")).freeze
+ROOT = Pathname.new(ENV.fetch("RESEARCH_CONSOLIDATION_ROOT", "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation")).freeze
 PROBLEM_ROOT = ROOT.join("problems/navier-stokes").freeze
 WATCHLIST_PATH = PROBLEM_ROOT.join("marvin-watchlist.yaml").freeze
 SOURCE_DISCOVERY_PATH = PROBLEM_ROOT.join("marvin-source-discovery.yaml").freeze

@@ -52,9 +52,10 @@ The governing statement there is the strong scenario implication
 ```
 
 not merely the small-viscosity overlap theorem. The zero-viscosity material in
-this audit is support for the second half of the route: Euler-nonsmooth
-scenarios define the `\nu\to0` class-exit family, and if all possible
-Navier--Stokes nonsmoothness is forced into that family, fixed positive
+this audit is support for the second half of the route: inviscid boundary or
+defect-boundary behavior can be outside fixed-positive-viscosity NS membership
+without being outside Euler membership, and if all possible Navier--Stokes
+nonsmoothness is forced into that fixed-`\nu` exit family, fixed positive
 viscosity is smooth by contrapositive.
 
 ## Prompted Train Of Thought, Preserved
@@ -115,27 +116,23 @@ Fix a still-live window `Q` and a finite depth `N`.
 Define the Euler comparison class by
 
 ```math
-CM^E_{N,r,Q}
+\mathrm{Member}_E(Q)
 :=
-Pack_Q
+\mathrm{EVol}_Q(u)
 \wedge
-Part^E_{N,Q}
-\wedge
-Field^E_{N,r,Q}.
+\mathrm{EMom}_Q(u,p).
 \tag{VECM.4}
 ```
 
 Here:
 
-1. `Pack_Q` is retained: Euler is still incompressible and still has the same
-   volume-preserving flow-map grammar while the solution is smooth.
-2. `Part^E` deletes the viscous carrier and keeps only transport, pressure, and
-   nonlinear cascade.
-3. `Field^E` is finite-difference coherence without the positive
-   `\nu|\nabla\delta_h U_k|^2` defect-dissipation term.
+1. `EVol` is the Eulerian flux-volume / incompressibility law.
+2. `EMom` is weak Euler momentum-pressure fidelity.
+3. Lagrangian carrier, admissibility, and one-field coherence are optional
+   layers above membership, not primitive class faces.
 
 This class is a comparison object only. It does not state that Euler is smooth,
-and it does not import Euler nonsmoothness as a theorem.
+and it does not import the Navier-Stokes `Pack/Part/Field` row into Euler.
 
 ### Fixed-viscosity Navier--Stokes object
 
@@ -225,7 +222,7 @@ equations in Eulerian coordinates:
 \tag{VECM.5f}
 ```
 
-Define the clean Euler boundary class by
+Define the Euler boundary class by
 
 ```math
 \partial_{\nu=0}\mathfrak O_{NS}^{work}
@@ -242,7 +239,7 @@ This is the precise sense in which the Euler mirror is a well-defined
 zero-viscosity comparison surface for the NS family.
 
 If `(VECM.5d)` fails and a nonzero viscous or energy-defect measure survives,
-the limit is **not** the clean Euler mirror class. It is a separate
+the limit is **not** the Euler boundary class. It is a separate
 defect-boundary object and must be named separately before it can be used in the
 class-membership route.
 
@@ -291,7 +288,7 @@ fixed `\nu>0`. Suppose the endpoint can be represented inside the Euler
 comparison class but not inside the fixed-viscosity NS class:
 
 ```math
-CM^E_{N,r,Q_s}\text{ remains comparison-admissible},
+\mathrm{Member}_E(Q_s)\text{ remains comparison-admissible},
 \qquad
 \neg CM^\nu_{N,r,Q_s}.
 \tag{VECM.6}
@@ -367,7 +364,7 @@ This is the edge set to which the prompted logic directly applies.
 | `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` | receiver readout chain | Downstream of `ACT.KX` | Available for NS only after the fixed-`nu` receiver budget is installed; unavailable to Euler until `ELCI.A` replaces it. |
 | `LCI.A` | lower-carrier interval integrability | Parent proof absorbs by `2nu D^{low}` | The Euler mirror identifies this as the first literal obstruction: no dissipative sink to absorb the centered/oscillation defect. |
 | `ELCI.A` | Euler mirror replacement | Transport/pressure only, no viscosity | This is the comparison class slot. If `ELCI.A` can hold while NS endpoint still fails, the failure must be a viscous class-separation edge. |
-| `\partial_{\nu=0}\mathfrak O_{NS}^{work}` / `VECM.C` | vanishing-viscosity boundary | Clean Euler boundary class | Defines the non-viscous Euler equations as a well-typed `\nu=0` boundary of the NS family and as fixed-`\nu_\ast` class-exit whenever `Visc^{fix}_{\nu_\ast}` fails. |
+| `\partial_{\nu=0}\mathfrak O_{NS}^{work}` / `VECM.C` | vanishing-viscosity boundary | Euler boundary class | Defines the non-viscous Euler equations as a well-typed `\nu=0` boundary of the NS family and as fixed-`\nu_\ast` class-exit whenever `Visc^{fix}_{\nu_\ast}` fails. |
 | `FCI.5f` | post-`LCI.A` source closure | Uses fixed route source estimates; may include viscous absorption upstream | It applies after `LCI.A`; the new logic checks whether source closure is genuinely fixed-`nu` or only transport-pressure. |
 | `CSP.A` | collar/source packet | Downstream bridge | Applies as a transfer point from receiver/source packets into one-field preservation. |
 | `OFP.A` | one-field forward preservation | Consumes defect-energy law and collar/lower-carrier packet | The new logic asks whether one-field coherence is fixed-`nu` parabolic or merely Euler transport-pressure. |
@@ -536,7 +533,7 @@ ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
 5. A vanishing-viscosity slogan is not enough. The route needs a theorem where
    the decisive constant is positive for every fixed `\nu>0` and may degenerate
    only as `\nu\downarrow 0`.
-6. A clean Euler boundary class requires the viscous term to vanish as a term.
+6. An Euler boundary class requires the viscous term to vanish as a term.
    If a defect measure remains, the limit is not the classical Euler mirror and
    must be routed as a separate defect-boundary object.
 7. TPS / `SG.4` remains downstream one-field readout and cannot be promoted
