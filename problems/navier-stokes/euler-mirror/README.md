@@ -33,6 +33,7 @@ Current branch-local mainline:
 - Euler flux-volume membership definition
 - pressure-nonparticipation vortex-sheet witness
 - smooth-data singular-limit bridge to that witness
+- Euler / Navier-Stokes viscosity scenario separation map
 - fixed-datum classical blowup split: boundary/axisymmetric known externally;
   no-boundary smooth finite-energy remains separate and open
 - source-locked contradiction/object note
@@ -52,8 +53,10 @@ Current live obstructions:
 - the base membership layer is now `EVol + EMom`; the open theorem work is a
   genuine Euler regularity upgrade over that base
 - `ELCI.A` now records the missing Euler replacement for the expanded parent
-  `ACT.KX` / `2\nu` absorption and top-viscous readout chain instead of leaving
-  the parent `LCI.A` wall implicit; the expanded comparison cell is
+  `ACT.KX` / `2\nu` absorption and top-viscous readout chain, and the May 21
+  scenario map sharpens the live target to `ELCI.CP.A-Separation`: split the
+  ledger into regularity-conditional cases where `L^1` can be proved and base
+  `Member_E` nonsmooth cases where it is not forced; the expanded comparison cell is
   `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX`, followed
   by `ACT.X-Scale + RWS.C_scale -> ACT.X-Readout`
 - the positive-control branch still carries explicit Euler gaps in the scale
