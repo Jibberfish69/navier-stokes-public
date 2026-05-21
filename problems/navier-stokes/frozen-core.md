@@ -5,7 +5,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Theorem Target
 
-- `theorem_target`: full-MPP periodic Clay closure via terminal promotion from the installed Theorem 2.1 class-membership warrant
+- `theorem_target`: current route target
 - `lowest_safe_claim`: The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3.
 - `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
 
@@ -20,14 +20,11 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - Define or prove: Completed the Hopf/shuffle line as a theorem-program refinement. The correct algebraic fit for the time tower is the divided-power Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle (`definition`; `marvin-upstream-409f183ee495`)
 - Define or prove: Formalized the refined direct Lagrangian route as a six-lemma mainline: differentiated Lagrangian decomposition, deformation-adapted energy, ellipticity window, coefficient-commutator absorption, no-loss pressure recovery,  (`definition`; `marvin-upstream-c8f7cb511776`)
 - Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md with a geometry-testing ladder for the elliptic test field W_test = A^T grad Phi solving -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1) ene (`definition`; `marvin-upstream-e2f5b0a915cf`)
-- Global energy or enstrophy control is necessary but not sufficient (`lemma`; `debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient`)
-- one-field forward-preservation wall (`lemma`; `debt-one-field-forward-preservation-wall`)
-- lower-carrier receiver wall (`lemma`; `debt-lower-carrier-receiver-wall`)
-- collar-to-jump converse pivot (`lemma`; `debt-collar-to-jump-converse-pivot`)
 
 ## Source Frontier
 
-- No unresolved frontier obligations remain.
+- `first_unresolved`: source-wall-root-after-reconcile (`live-theorem-frontier`; `source-wall-root-after-reconcile`)
+- source-wall-root-after-reconcile (`live-theorem-frontier`; `source-wall-root-after-reconcile`)
 
 ## Source Surfaces
 
@@ -68,6 +65,8 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - `problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-channel-reduction-note.md`
 - `problems/navier-stokes/theorem-construction/mpp-frozen-family-resonant-pressure-sufficient-reduction-note.md`
 - `problems/navier-stokes/theorem-construction/mpp-pressure-source-supplier-verification-ledger-note.md`
+- `problems/navier-stokes/theorem-construction/mpp-normalized-adjoint-amplitude-four-certificate-discharge-20260504.md`
+- `problems/navier-stokes/theorem-construction/mpp-source-drain-definition-alignment-and-discharge-20260504.md`
 - `problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md`
 - `problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md`
 - `problems/navier-stokes/theorem-construction/mcp-canonical-pctp-hard-bridge-from-averaged-terminal-tail-route-cfi-a-1500f83b37.md`
@@ -81,6 +80,8 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - `problems/navier-stokes/theorem-construction/psj-plus-1-overlap-terminal-closure.md`
 - `problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md`
 - `problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md`
+- `problems/navier-stokes/theorem-construction/mpp-euler-smooth-ns-smooth-contrapositive-route-note-20260506.md`
+- `problems/navier-stokes/theorem-construction/mpp-direct-fixed-nu-euler-smooth-ns-smooth-hierarchy-20260509.md`
 
 ## Boundary Rule
 
