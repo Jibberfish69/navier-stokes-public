@@ -1,50 +1,40 @@
 ---
-version: 3
+version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: circularity-audit-navier-stokes
-  created_by: release_surface_reconciler
-  purpose: circularity and hidden-dependency audit reconciled for release
-generated_at: '2026-05-01T16:36:50Z'
+  generated_at: '2026-05-07T00:51:03Z'
+  generator: system/runner/lib/release_surface_reconciler.rb
+  purpose: release circularity cannot be certified while the direct-live frontier
+    is open
 status:
-  audit_status: route-and-release-clear
-  pass: true
-  route_pass: true
+  audit_status: direct-live-frontier-open
+  pass: false
   release_eligible: false
-pass: true
+pass: false
+release_eligible: false
 source:
-  theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
-  review_verdict: problems/navier-stokes/review-verdict.yaml
+  live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
+  source_frontier: problems/navier-stokes/source-frontier.yaml
+  theorem_packet: problems/navier-stokes/theorem-packet.yaml
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
   release_decision: problems/navier-stokes/release-decision.yaml
-  auto_audit: problems/navier-stokes/auto-audit.yaml
-  consistency_audit: problems/navier-stokes/consistency-audit.yaml
-checks:
-- id: dependency-chain-circularity
-  label: closed matrix does not spend a downstream result upstream
-  status: passed
-  evidence: The proof-obligation matrix is closed and the release decision is terminal.
-- id: release-surface-consistency
-  label: release audit surfaces agree with accepted matrix/review/release truth
-  status: passed
-  evidence: Dependency, assumption, gap, consistency, and manifest surfaces were regenerated
-    from the same terminal inputs.
+summary:
+  total_obligations: 15
+  blocking_count: 1
+  frontier_count: 1
+  all_discharged: false
+  authority_mode: direct-live-surfaces
+  unresolved_count: 1
+  bridge_discharge_blocking_count: 1
+  theorem_warrant_blocking_count: 1
+  open_frontier_labels: &1
+  - source-wall-root-after-reconcile
 findings:
-- Route-local hidden-spending checks pass for the current local theorem-program closure.
-- Release-side review/export surfaces still need refresh, but no circularity blocker
-  remains in the theorem route.
+- Direct-live theorem authority reports open frontier obligations; stale terminal
+  release overlays are demoted.
 verdict:
-  circularity_clear_for_route: true
-  circularity_clear_for_release: true
-  clay_release_circularity_status: clear
-matrix_summary:
-  total_obligations: 25
-  blocking_count: 0
-  frontier_count: 0
-  all_discharged: true
-truth_alignment:
-  source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
-  status: local-theorem-program-closed
-  blockers: []
-  boundary: Local theorem-program closure is recorded; public/export/release posture
-    still requires review refresh and final release-decision artifacts.
+  dependency_graph_closed: false
+  release_eligible: false
+  all_discharged: false
+required_for_release: *1
