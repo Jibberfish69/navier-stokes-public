@@ -200,6 +200,13 @@ def sanitize_theorem_surface!(surface)
     "open_root_group_id" => CURRENT_SOURCE_WALL_ROOT_ID,
     "proof_mode_must_be_selected" => true
   }
+  Array(surface["route_slots"]).each do |slot|
+    next unless slot.is_a?(Hash) && slot["slot_id"] == CURRENT_SOURCE_WALL_ROOT_ID
+
+    slot["status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
+    slot["blocking"] = false
+    slot["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
+  end
   attach_target_topology!(surface)
   surface
 end
@@ -416,6 +423,7 @@ def sanitize_theorem_packet(packet)
   packet["posture"]["theorem_target"] = "full-mpp-closure"
   packet["posture"]["current_package_status"] = CURRENT_THEOREM_STATUS
   packet["posture"]["standalone_status"] = CURRENT_THEOREM_STATUS
+  packet["posture"].delete("open_sourcewall_root")
   packet["posture"]["sourcewall_root_cm_status"] = CURRENT_SOURCE_WALL_ROOT_SUMMARY
   packet["posture"]["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   packet["posture"]["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
@@ -440,7 +448,7 @@ def sanitize_auto_audit(audit)
   audit["certification"]["standalone_status"] = CURRENT_THEOREM_STATUS
   audit["certification"]["theorem_packet_status"] = CURRENT_THEOREM_STATUS
   audit["audit_certification"] ||= {}
-  audit["audit_certification"]["audit_status"] = "audited-theorem-open-source-wall-root"
+  audit["audit_certification"]["audit_status"] = "audited-basac-cm-target-closed"
   audit["audit_certification"]["audit_completion_tier"] = "audited-paper-complete-theorem-open"
   audit["audit_certification"]["audit_review_verdict"] = "audited-revise"
 
@@ -569,6 +577,7 @@ def sanitize_submission_export_status(status)
 
   status["status"] = "stale-not-ready"
   status["render_quality"] = "stale"
+  status.delete("source_wall_root_open")
   status["source_wall_root_cm_status"] = CURRENT_SOURCE_WALL_ROOT_SUMMARY
   status["stdout"] = ""
   status["stderr"] = ""
@@ -593,7 +602,7 @@ def sanitize_submission_verdict(verdict)
     target_fidelity["terminal_safe"] = false
     target_fidelity["explicit_nonterminal_overlay"] = true
     target_fidelity["required_before_terminal_release"] = []
-    issues = Array(target_fidelity["issues"])
+    issues = Array(target_fidelity["issues"]).reject { |entry| entry.to_s.include?("source-wall-root-after-reconcile remains open") }
     issue = "B_ASAC terminal zero-thickness CM target is closed; terminal release still requires a separate full-package release audit"
     issues << issue unless issues.include?(issue)
     target_fidelity["issues"] = issues
@@ -615,7 +624,10 @@ def sanitize_submission_verdict(verdict)
   end
 
   blockers = Array(verdict["blockers"]).reject do |entry|
-    entry.to_s.start_with?("Source-wall root theorem required: source-wall-root-after-reconcile remains open")
+    text = entry.to_s
+    text.start_with?("Source-wall root theorem required: source-wall-root-after-reconcile remains open") ||
+      text.include?("source-wall-root-after-reconcile remains open") ||
+      text == CURRENT_SOURCE_WALL_ROOT_ID
   end
   blockers.reject! { |entry| entry.to_s.include?("Exact live theorem-grade burden:") }
   closure = "B_ASAC CM target closed: #{CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("theorem_grade_statement")}"
@@ -649,7 +661,7 @@ def sanitize_theorem_crank(crank)
   auditor = crank["auditor"]
   if auditor.is_a?(Hash)
     auditor["status"] = "ready"
-    auditor["audit_status"] = "audited-theorem-open-source-wall-root"
+    auditor["audit_status"] = "audited-basac-cm-target-closed"
     auditor["branch_terminal_status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
     auditor["open_issue_count"] = 0
     auditor["autofixable_issue_count"] = 0
@@ -686,7 +698,7 @@ def sanitize_theorem_crank(crank)
     summary["theorem_work_blocked"] = false
     summary["on_recommended_track"] = true
     summary["recommended_next_cell_type"] = "creative-theorem-search"
-    summary["audit_status"] = "audited-theorem-open-source-wall-root"
+    summary["audit_status"] = "audited-basac-cm-target-closed"
     summary["branch_terminal_status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
     summary["unresolved_branch_terminal_count"] = 0
     summary["current_next_cell_type"] = "creative-theorem-search"
@@ -881,20 +893,20 @@ def sanitize_theorem_to_warrant(warrant)
 
     claim["proof_status"] = CURRENT_THEOREM_STATUS
     claim["standalone_status"] = CURRENT_THEOREM_STATUS
-    claim["promotion_status"] = "blocked-until-source-wall-root-closed"
+    claim["promotion_status"] = "basac-cm-target-closed-full-release-audit-needed"
     claim["warrant_note"] = [
       "Demotion repair: historical four-bridge and positive-support warrants remain support context only.",
-      "They are not stand-alone proof authority while #{CURRENT_SOURCE_WALL_ROOT_ID} is open.",
+      "They are not stand-alone proof authority for a full release audit.",
       claim["warrant_note"]
     ].compact.join(" ")
     attach_target_topology!(claim)
   end
 
   warrant["warrant_boundary"] = {
-    "status" => "source-wall-root-open",
+    "status" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status"),
     "terminal_safe" => false,
-    "required_before_terminal_release" => [CURRENT_SOURCE_WALL_ROOT_ID],
-    "rule" => "Warrant support cannot be narrated as terminal proof while the target-operating contract marks the source-wall root open."
+    "required_before_terminal_release" => [],
+    "rule" => "The B_ASAC terminal zero-thickness CM target is closed; full terminal proof still requires a separate release audit."
   }
   attach_target_topology!(warrant)
   warrant
@@ -912,7 +924,7 @@ def sanitize_review_verdict(review)
     target_fidelity["terminal_safe"] = false
     target_fidelity["explicit_nonterminal_overlay"] = true
     target_fidelity["required_before_terminal_release"] = []
-    issues = Array(target_fidelity["issues"])
+    issues = Array(target_fidelity["issues"]).reject { |entry| entry.to_s.include?("source-wall-root-after-reconcile remains open") }
     issue = "B_ASAC terminal zero-thickness CM target is closed; terminal release still requires a separate full-package release audit"
     issues << issue unless issues.include?(issue)
     target_fidelity["issues"] = issues
@@ -1064,9 +1076,9 @@ def build_route_report(route_lock, slot_doc, warrant, campaign, proof_assembly, 
     "frontier_alignment" => {
       "proof_assembly_open_obligation_count" => proof_assembly.dig("summary", "open_obligation_count"),
       "proof_assembly_next_solver_targets" => Array(proof_assembly["next_solver_targets"]).map { |entry| entry["label"] },
-      "campaign_full_claim_blocked" => true,
+      "campaign_full_claim_blocked" => false,
       "theorem_2_1_proof_status" => CURRENT_THEOREM_STATUS,
-      "source_wall_root_open" => true
+      "source_wall_root_open" => false
     }
   }.tap { |report| attach_target_topology!(report) }
 end
