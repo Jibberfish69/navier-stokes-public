@@ -1,59 +1,124 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
   branch_id: euler-mirror-chat20
   artifact_id: route-lock-navier-stokes-euler-mirror
-  updated_on: '2026-04-26'
-  generator: chat20-manual-route-lock
+  updated_on: '2026-05-19'
+  generator: codex-euler-ontology-repair
 governing_object_law:
   status: active
   summary: >-
-    The governing object is one smooth incompressible Euler evolution remaining
-    internal to a single coupled pressure field, with viscosity removed
-    altogether but the installed class-membership ontology preserved.
+    The governing Euler mirror object is not a smooth one-field Navier-Stokes
+    class with viscosity removed. It is an inviscid flux-volume and
+    momentum-pressure object: distributional incompressible Euler plus local
+    flux balance. Smoothness, Lagrangian carriers, and one-field coherence are
+    regularity upgrades, not base membership requirements. Pressure participation
+    means incompressibility/normal compatibility, not viscous entrainment or
+    one-carrier response. Energy/admissibility rules may be added as a separate
+    theorem layer, but they are not viscosity.
   primitive_laws:
-  - shared packing law
-  - shared participation law
-  - shared one-field law
-  stable_carriers:
-  - u
-  - p
-  - Phi
-  - F
+  - Eulerian flux-volume law
+  - distributional Euler momentum-pressure law
+  primitive_membership_surface:
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-class-membership-flux-volume-definition.md
+  pressure_nonparticipation_witness:
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-pressure-nonparticipation-vortex-sheet-witness-20260517.md
+  smooth_data_to_nonsmooth_bridge:
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md
+  endpoint_cover_taxonomy:
+  - problems/navier-stokes/theorem-construction/mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md
+  ns_attack_map:
+  - problems/navier-stokes/theorem-construction/mpp-euler-control-case-to-ns-attack-map-20260517.md
+  fixed_datum_classical_boundary_reference:
+  - Chen-Hou boundary/axisymmetric smooth-data blowup: https://arxiv.org/abs/2210.07191
+  - Chen-Hou rigorous numerics companion: https://arxiv.org/abs/2305.05660
+  ns_cm_dual_surface:
+  - problems/navier-stokes/theorem-construction/mpp-ns-cm-smoothness-euler-dual-regularity-map-20260516.md
+  ns_cm_dual_rule: >-
+    Shared flux-volume Pack failure is a class exit for both Euler and
+    Navier-Stokes. NS Part/Field smoothness mechanisms split from Euler
+    pressure participation: pressure/incompressibility compatibility may hold
+    while slip, jet-shear, dead-relative-to-carrier, or jump-like one-field
+    failure persists. NS mechanisms do not define weak Euler membership.
+  removed_as_primitives:
+  - NS pressure-viscosity participation law / Part
+  - NS one-field coherence law / Field
+  - Lagrangian Pack as a base membership condition
+  optional_regular_structures:
+  - admissibility or energy/circulation selection rules when explicitly chosen
+  - Euler pressure-participation vocabulary only as incompressibility/normal-flux compatibility
+  - Lagrangian carrier when velocity regularity supplies a flow map
+  - positive-scale field coherence when proved as an Euler regularity theorem
+  - continuation/compactness controls earned on the Euler equation itself
   endpoint_reading:
-    dead: legacy participation-side class-exit label only; not a proved primitive biconditional with failure of shared participation law
-    blown: legacy packing-side class-exit label only; not a proved primitive biconditional with failure of shared packing law
-    jump: legacy one-field-side class-exit label only; not a proved primitive biconditional with failure of shared one-field law
+    dead: legacy NS participation-side readout; on Euler it is a live stronger-carrier failure mode, not contradiction of pressure incompressibility
+    blown: legacy smooth-flow or Lagrangian-carrier failure readout; not base Euler membership failure
+    jump: legacy one-field regularity failure readout, including tangential slip / slip-sheet behavior; compatible with weak Euler membership unless an added Euler regularity theorem excludes it
 equation_fidelity:
   parent_surface: classical incompressible Navier-Stokes
-  mirrored_surface: classical incompressible Euler
+  mirrored_surface: incompressible Euler in weak/distributional flux-volume form
   parent_term_removed: nu Delta u
-  preserve_transport: true
   preserve_pressure: true
   preserve_incompressibility: true
-  preserve_bridge_order: true
-  preserve_closed_loop_feedback: true
+  preserve_flow_map: optional-regularity-only
+  preserve_bridge_order: comparison-only
+  preserve_closed_loop_feedback: false
   prohibit_silent_branch_switch: true
   explicit_holdout_rule: >-
     Any proof step whose current statement uses viscosity, dissipation,
-    diffusion, heat observability, or Stokes structure must either be rewritten
-    explicitly for Euler or left marked as a holdout.
+    diffusion, heat observability, Stokes structure, Lagrangian smooth-flow
+    charts, viscous participation, or one-field coherence must either be
+    retyped as an optional Euler regularity theorem or left marked as a holdout.
 object_law_route_lock_sentence: >-
-  The chat20 Euler mirror is governed by the same class-membership object law
-  as the installed Navier-Stokes route, but with the governing PDE changed to
-  incompressible Euler. The route must preserve the same Pack / Part / Field
-  witness burden, the same surviving endpoint-exclusion queue, and the same
-  source/receiver split discipline. No step may import Navier-Stokes viscosity
-  back in implicitly through a renamed coercive or parabolic package.
+  The Euler mirror is governed by Euler-native membership:
+  Member_E(Q)=EVol_Q(u) and EMom_Q(u,p). The mirror may compare itself to the
+  parent Pack / Part / Field route, but it must not preserve Part or Field as
+  primitive Euler membership faces, and it must not let pressure alone imply
+  one-field participation.
 mirror_theorem_queue:
-  - keep the source-locked contradiction and frontier packet written literally with the Euler PDE
-  - keep `CFI.A` as forward-invariance of lawful class membership on same-fluid Euler families
-  - keep `OFP.A` as one-field forward preservation through the transport / packet law without silent viscous terms
-  - classify the installed parent receiver chain `RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` before any Euler use
-  - classify the expanded `ACT.KX` cells `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX` as comparison authority, not Euler imports
-  - use branch-local `ELCI.A` as the receiver replacement for that full parent receiver chain and keep the missing `ACT.KX` / `2nu` absorption explicit
-  - only after the Euler mainline is honest may downstream exact-potential, Hodge, selector, or Euclidean export branches be mirrored
+  - keep the source-locked contradiction note written literally with the Euler weak equation and flux-volume membership
+  - use the smooth shear-layer bridge as a singular-limit route to the slip-sheet witness, not as fixed-datum blow-up
+  - keep fixed-datum classical blowup split by domain: boundary/axisymmetric known externally, no-boundary smooth finite-energy still open
+  - use Euler as a control case for the NS attack map: slip/vortex-sheet targets Field/Jump first, Dead and Blown only through their typed rows/cross-entries
+  - treat old `CFI.A` as a regularity-forward-invariance candidate, not base membership preservation
+  - treat old `OFP.A` as an optional one-field regularity theorem, not a membership theorem
+  - classify the parent receiver chain `RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` as comparison authority only
+  - classify the expanded `ACT.KX` cells `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX` as non-importable NS receiver machinery
+  - rebuild any Euler smoothness claim as a regularity upgrade from Member_E plus earned Euler controls
+  - only after the Euler membership layer is honest may downstream exact-potential, Hodge, selector, or Euclidean export branches be mirrored
+active_next_theorem_target:
+  target_id: ELCI.CP.A
+  authority_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+  attempt_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-a-direct-transport-pressure-attempt-20260519.md
+  comparison_source_chain: >-
+    RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A
+  expanded_parent_break: >-
+    NKF.Native + NKF.Ann + NKF.Quad => ACT.X-Press, then
+    ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX,
+    followed by ACT.KX + ACT.X-Scale + RWS.C_scale => ACT.X-Readout.
+  exact_burden: >-
+    Prove integrability of the branch-local Euler center/oscillation/pressure
+    ledger L_E_ctr = A_E_ctr + Omega_E_osc + Pi_E_ctr on the same finite
+    transported Euler cover. The May 19 direct attempt closed the packet
+    inequality and Gronwall step once this ledger is integrable; this supplier
+    is the remaining replacement for the parent ACT.KX / 2nu absorption
+    scheduler and top-viscous readout.
+  allowed_ingredients:
+  - fixed-cover transport geometry
+  - transported-center carrier and oscillation estimates
+  - Euler pressure Poisson response
+  - initial lower-collar packet finiteness
+  forbidden_imports:
+  - parent c_nu N absorption
+  - parent 2nu lower-collar dissipation
+  - ACT.X-TopVisc / top-viscous readout
+  - unchanged RSCB.NKF -> NKF.Native import
+  - downstream ACT.X-Readout, ACT.A, RCF.A, or LCI.A before ELCI.A
+  readback_sentence: >-
+    Chat20's next theorem target is ELCI.CP.A: prove the Euler
+    center/oscillation/pressure ledger L_E_ctr is L1 on the same finite
+    transported cover, without ACT.KX / ACT.X-TopVisc / 2nu absorption.
 current_receiver_and_holdout_surfaces:
   branch_local_receiver_slot:
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
@@ -65,13 +130,11 @@ current_receiver_and_holdout_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-act-kx-hidden-spending-audit-note.md
   expanded_receiver_break: >-
     The Euler mirror may preserve the order
-    `RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A`,
-    with the current internal split
-    `NKF.Native + NKF.Ann + NKF.Quad -> ACT.X-Press`, then
-    `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc -> ACT.KX`, then
-    `ACT.KX + ACT.X-Scale + RWS.C_scale -> ACT.X-Readout`; but it cannot import
-    the chain unchanged because `ACT.KX` spends the `c_nu N` / `2nu` absorption
-    budget and `ACT.X-TopVisc` / top-viscous readout.
+    `RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A`
+    only as comparison order. The chain cannot be an Euler membership proof
+    because `ACT.KX` spends the `c_nu N` / `2nu` absorption budget and
+    `ACT.X-TopVisc` / top-viscous readout, and because the whole row assumes the
+    NS-style one-field/participation package now demoted to regularity support.
   downstream_viscous_packets:
   - problems/navier-stokes/theorem-construction/mpp-lci-a-fixed-increment-top-viscous-readout-note.md
   viscous_center_supplier_packets:
