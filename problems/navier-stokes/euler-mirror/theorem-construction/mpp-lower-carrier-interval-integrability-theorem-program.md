@@ -389,16 +389,75 @@ Together with `(ELCI.8)`, this gives `\Gamma_{N,m,\rho,\psi}^{low}\in L^1(I)`.
 Insert `(ELCI.13)` and `(ELCI.14)` into `(ELCI.10)` and apply Gronwall. Then
 use `(ELCI.8)` to convert the packet bound into the lower-carrier bound. ∎
 
+## Direct Transport/Pressure Attempt Readback
+
+The May 19 direct attempt is recorded in
+[mpp-elci-a-direct-transport-pressure-attempt-20260519.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-a-direct-transport-pressure-attempt-20260519.md).
+
+It completes the Euler-only packet inequality:
+
+```math
+\frac{d}{dt}
+\mathcal G^{low,\delta}_{N,m,\rho,\psi}(t)
+\le
+C
+\big(
+1+\Gamma_\sharp(t)
++
+\mathfrak L^{E,ctr}_{N,m,\rho,\psi}(t)
+\big)
+\mathcal G^{low,\delta}_{N,m,\rho,\psi}(t),
+\tag{ELCI.16a}
+```
+
+where
+
+```math
+\mathfrak L^{E,ctr}_{N,m,\rho,\psi}
+=
+1+\mathfrak A^{E,ctr}_{N,m,\rho,\psi}
++
+\Omega^{E,osc}_{N,m,\rho,\psi}
++
+\Pi^{E,ctr}_{N,m,\rho,\psi}.
+\tag{ELCI.16b}
+```
+
+The nonpressure terms close by finite transported-cover geometry and local
+oscillation. The pressure term closes after affine center-cell subtraction
+through the centered pressure-return coefficient `Pi_E_ctr`.
+
+The attempt does not prove `L_E_ctr in L^1(I)` from weak Euler membership or
+from the current lower packet. The exact surviving target inside `ELCI.A` is
+
+```math
+\boxed{
+\mathrm{ELCI.CP.A}:
+\quad
+\mathfrak A^{E,ctr}
++
+\Omega^{E,osc}
++
+\Pi^{E,ctr}
+\in L^1(I)
+}
+\tag{ELCI.16c}
+```
+
+on the same finite transported Euler cover, without the parent `ACT.KX` /
+`2nu` absorption or `ACT.X-TopVisc` readout.
+
 ## Honest Remaining Theorem Debt
 
-The new Euler packet does **not** claim that `(ELCI.13)` and `(ELCI.14)` are
-already proved. It isolates the exact remaining theorem debt:
+The new Euler packet now proves the conditional packet inequality, but it does
+not claim that the coefficient ledger in `(ELCI.16b)` is already integrable. It
+isolates the exact remaining theorem debt:
 
 ```math
 \boxed{
 \begin{gathered}
 \text{replace the parent }ACT.KX\text{ viscous absorption and top-viscous readout}\\
-\text{by a direct transport/pressure theorem that makes }
+\text{by a direct Euler center/oscillation/pressure theorem that makes }
 \mathfrak L_{N,m,\rho,\psi}^{E,ctr}
 \text{ integrable on still-live Euler intervals.}
 \end{gathered}
@@ -406,7 +465,8 @@ already proved. It isolates the exact remaining theorem debt:
 \tag{ELCI.17}
 ```
 
-That debt splits into three Euler-facing supplier problems:
+That debt is now the single supplier target `ELCI.CP.A`, with three visible
+components:
 
 1. transported-center carrier integrability for the lower family;
 2. local oscillation integrability on transported balls of radius `2R_\delta`;
