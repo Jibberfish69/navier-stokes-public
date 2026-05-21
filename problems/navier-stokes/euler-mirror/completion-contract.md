@@ -9,7 +9,7 @@ Main objective:
 
 ```math
 \boxed{
-\text{prove global smoothness for the three-dimensional incompressible Euler equations.}
+\text{prove Euler regularity from the actual incompressible Euler object.}
 }
 ```
 
@@ -17,7 +17,7 @@ Execution doctrine:
 
 ```math
 \boxed{
-\text{mirror the serious Navier-Stokes theorem program already on disk, remove viscosity literally from every governing equation, and rerun the proof burden honestly on the Euler surface.}
+\text{define Euler membership natively, remove viscosity literally from every governing equation, and rebuild any smoothness burden honestly on the Euler surface.}
 }
 ```
 
@@ -26,15 +26,15 @@ Execution doctrine:
 1. Keep the governing PDE fixed to incompressible Euler:
 
 ```math
-\partial_t u + (u\cdot\nabla)u + \nabla p = 0,
+\partial_t u + \nabla\cdot(u\otimes u) + \nabla p = 0,
 \qquad
 \nabla\cdot u = 0.
 ```
 
-2. Preserve pressure, incompressibility, flow-map, transported-carrier, and
-   same-fluid language.
-3. Preserve the exact class-membership vocabulary:
-   `Pack / Part / Field / Dead / Blown / Jump`.
+2. Preserve pressure and incompressibility as primitive Euler structure.
+3. Define class membership as `Member_E = EVol + EMom`; treat flow-map,
+   transported-carrier, same-fluid, `Part`, and `Field` language as optional
+   regularity/support language only.
 4. Preserve theorem order whenever mirroring a parent proof family.
 5. Do not silently keep any step that spends viscosity, dissipation, diffusion,
    heat, Stokes, Carleman, or other parabolic structure.
@@ -59,21 +59,23 @@ This includes, at minimum:
 6. continuation / regularity / Route B authoring surfaces;
 7. integrated positive-route closure surfaces.
 
-### C2. Contradiction Stack Rewrite Complete
+### C2. Euler Membership / Regularity Stack Rewrite Complete
 
-The full
+The copied
 
 ```text
 L13 -> CFI -> OFP -> LCI
 ```
 
-stack has been rewritten end-to-end beyond the first-wave mirror, including:
+stack has been retyped end-to-end beyond the first-wave mirror, including:
 
-1. `L13` surviving endpoint-exclusion program in Euler form;
-2. `CFI` theorem-facing forward-invariance surface in Euler form;
-3. `OFP` theorem-facing one-field forward-preservation surface in Euler form;
-4. the reduction notes beneath those surfaces;
-5. an Euler-clean replacement for `LCI.A` and its downstream receiver package.
+1. Euler-native `Member_E = EVol + EMom` authority;
+2. `L13` endpoint vocabulary demotion in Euler form;
+3. `CFI` regularity-forward-invariance boundary in Euler form;
+4. `OFP` optional one-field regularity surface in Euler form;
+5. the reduction notes beneath those surfaces;
+6. an Euler-clean regularity-support replacement for `LCI.A` and its downstream
+   receiver package.
 
 ### C3. Route B / Four-Bridge Euler Authoring Complete
 
