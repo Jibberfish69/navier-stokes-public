@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   branch_id: euler-mirror-chat20
   artifact_id: execution-ledger-navier-stokes-euler-mirror
-  updated_on: '2026-05-19'
+  updated_on: '2026-05-21'
   generator: codex-euler-ontology-repair
 main_objective:
   theorem_target: regularity for the three-dimensional incompressible Euler equations
@@ -15,19 +15,28 @@ main_objective:
   - euler-membership-plus-regularity
   run_both: true
 active_next_theorem_target:
-  target_id: ELCI.CP.A
+  target_id: ELCI.CP.A-Separation
   authority_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
   attempt_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-a-direct-transport-pressure-attempt-20260519.md
+  scenario_map_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
   route_family: euler-membership-plus-regularity
   exact_burden: >-
-    Prove L1 integrability of the Euler center/oscillation/pressure ledger
-    L_E_ctr on the same finite transported cover; the direct ELCI.A packet
-    inequality and Gronwall step now reduce to this supplier.
+    Split the Euler center/oscillation/pressure ledger L_E_ctr on the same
+    finite transported cover into exact regularity-conditional cases where L1 is
+    provable and base Member_E nonsmooth cases where L1 is not forced.
   parent_comparison_order: RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A
   readback: >-
     Do not fan out into scattered comparison notes; the runnable theorem target
-    is ELCI.CP.A until that center/oscillation/pressure supplier is proved or
-    fails as stated.
+    is ELCI.CP.A-Separation until the ledger is either proved under explicit
+    Euler regularity hypotheses or shown not to follow from base Member_E.
+scenario_separation_map:
+  status: completed
+  surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
+  readback: >-
+    All repo-visible Euler/NS contact points are sorted into smooth or
+    regularity-conditional cases, nonsmooth or not-forced-smooth cases, and
+    explicit viscosity jobs. The branch now treats pressure-compatible slip/jump
+    as the clean Euler bad model and viscosity as the missing NS proof mechanism.
 route_families:
 - family_id: euler-membership-plus-regularity
   status: ontology-repaired
@@ -41,7 +50,7 @@ route_families:
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
-  next_frontier: prove ELCI.CP.A, the L1 center/oscillation/pressure supplier inside ELCI.A
+  next_frontier: split ELCI.CP.A into regularity-conditional L1 cases and base Member_E nonsmooth/non-forced cases
   first_holdout: no primitive Euler Part or Field theorem exists; pressure alone does not give one-field participation, so Dead/Jump-like behavior remains live for stronger carrier/coherence classes
 - family_id: positive-four-principle
   status: regularity-support-only
@@ -92,7 +101,10 @@ phases:
   goal: demote ECFI/EL13/EOFP/EOFR/ELCI to regularity support above Member_E
 - phase_id: phase-3-positive-route-rewrite
   status: open
-  goal: prove ELCI.CP.A before downstream integrated Euler closure
+  goal: split and then prove the admissible side of ELCI.CP.A before downstream integrated Euler closure
+- phase_id: phase-3a-euler-ns-scenario-separation
+  status: completed
+  goal: classify every repo-visible Euler/NS contact case by smooth/conditional, nonsmooth/not-forced, and viscosity mechanism
 automation_loop:
   mode: repo-internal-only
   safe_problem_local_surfaces:
@@ -102,6 +114,7 @@ automation_loop:
   - problems/navier-stokes/euler-mirror/viscosity-dependence-ledger.yaml
   - problems/navier-stokes/euler-mirror/campaign-map.md
   - problems/navier-stokes/euler-mirror/execution-ledger.yaml
+  - problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
   safe_commands:
   - ruby system/runner/bin/chat_coord.rb status
   - ruby system/runner/bin/chat_coord.rb check chat20 problems/navier-stokes/euler-mirror problems/navier-stokes/chat20-status.yaml
