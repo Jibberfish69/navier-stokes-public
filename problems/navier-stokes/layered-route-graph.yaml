@@ -16,12 +16,12 @@ graph_roles:
       - keep parallel structures visible for connection-building and contradiction spotting
       - include speculative or quarantined branches without letting them silently become theorem authority
     canonical_surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/ns-layered-route-graph.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/extension-branches.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/creative-theorem-search.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/debt-map.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/route-hypothesis.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/obstruction-capture.md
+      - problems/navier-stokes/theorem-construction/ns-layered-route-graph.md
+      - problems/navier-stokes/extension-branches.yaml
+      - problems/navier-stokes/creative-theorem-search.yaml
+      - problems/navier-stokes/debt-map.yaml
+      - problems/navier-stokes/route-hypothesis.yaml
+      - problems/navier-stokes/obstruction-capture.md
   authority_projection:
     role: narrow theorem-truth cut of the exploration graph
     job:
@@ -29,12 +29,12 @@ graph_roles:
       - preserve honesty for manuscript, release, and theorem claims
       - fence sidecars and synthesis feeds unless explicitly promoted
     canonical_surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/route-lock.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/formalization-ledger.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/release-decision.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/review-verdict.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/spine.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/claim-ladder.md
+      - problems/navier-stokes/route-lock.yaml
+      - problems/navier-stokes/formalization-ledger.md
+      - problems/navier-stokes/release-decision.yaml
+      - problems/navier-stokes/review-verdict.yaml
+      - problems/navier-stokes/spine.md
+      - problems/navier-stokes/claim-ladder.md
     rule: authority-projection-is-a-downstream-cut-not-a-replacement
 precedence_order:
   - theorem-target-and-route-lock
@@ -56,9 +56,9 @@ layers:
       treated as downstream discharge/export rather than the internal proving
       surface.
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/route-lock.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-packet.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/main-theorem-draft.md
+      - problems/navier-stokes/route-lock.yaml
+      - problems/navier-stokes/theorem-packet.yaml
+      - problems/navier-stokes/theorem-construction/main-theorem-draft.md
     overwrite_rules:
       may_overwrite: []
       may_be_overwritten_by: []
@@ -70,9 +70,9 @@ layers:
       branch, but the closed-loop warrant is still open on the declared theorem
       surface.
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/formalization-ledger.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/release-decision.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/review-verdict.yaml
+      - problems/navier-stokes/formalization-ledger.md
+      - problems/navier-stokes/release-decision.yaml
+      - problems/navier-stokes/review-verdict.yaml
     overwrite_rules:
       may_overwrite:
         - theorem-primary-current-route
@@ -92,9 +92,9 @@ layers:
       Euclidean branch, but the live route instantiates them first on the
       periodic torus surface and treats Euclidean closure as downstream export.
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-grounded-framework-map.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/spine.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/claim-ladder.md
+      - problems/navier-stokes/source-grounded-framework-map.md
+      - problems/navier-stokes/spine.md
+      - problems/navier-stokes/claim-ladder.md
     overwrite_rules:
       may_overwrite:
         - modernization-overlays
@@ -112,12 +112,12 @@ layers:
       correction -> Hopf/shuffle survivor program -> YM-heat / deformation
       bridge -> TPS strong/defect bridge with SG.4 as the exact live edge.
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/torus-projected-flow-extraction.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tower-to-shuffle-to-deformation-endgame-program.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/ym-heat-to-torus-heat-to-classical-shadow-bridge.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/live-theorem-edge.md
+      - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
+      - problems/navier-stokes/theorem-construction/torus-projected-flow-extraction.md
+      - problems/navier-stokes/theorem-construction/tower-to-shuffle-to-deformation-endgame-program.md
+      - problems/navier-stokes/theorem-construction/ym-heat-to-torus-heat-to-classical-shadow-bridge.md
+      - problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
+      - problems/navier-stokes/live-theorem-edge.md
     overwrite_rules:
       may_overwrite:
         - modernization-overlays
@@ -141,10 +141,10 @@ layers:
       - label: Body IV deformation-geometry commutator packet
       - label: SG.4 selector-good directional lower-envelope packet
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/lifted-remainder-feedback-into-body1-audit.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
+      - problems/navier-stokes/theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md
+      - problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
+      - problems/navier-stokes/theorem-construction/lifted-remainder-feedback-into-body1-audit.md
+      - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
     overwrite_rules:
       may_overwrite:
         - modernization-overlays
@@ -166,18 +166,18 @@ layers:
     sublayers:
       - sublayer_id: tower
         surfaces:
-          - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tower-rewrite-under-ym-heat-shadow-bridge.md
-          - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/cross-rung-matrix-under-ym-heat-shadow-bridge.md
+          - problems/navier-stokes/theorem-construction/tower-rewrite-under-ym-heat-shadow-bridge.md
+          - problems/navier-stokes/theorem-construction/cross-rung-matrix-under-ym-heat-shadow-bridge.md
       - sublayer_id: deformation-geometry
         surfaces:
-          - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/spatial-derivative-curvature-dissipation-theorem-target.md
-          - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
+          - problems/navier-stokes/theorem-construction/spatial-derivative-curvature-dissipation-theorem-target.md
+          - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
       - sublayer_id: ym-heat-torus-shadow
         surfaces:
-          - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/ym-heat-to-torus-heat-to-classical-shadow-bridge.md
+          - problems/navier-stokes/theorem-construction/ym-heat-to-torus-heat-to-classical-shadow-bridge.md
       - sublayer_id: euclidean-shadow-discharge
         surfaces:
-          - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/route-b-euclidean-closure-theorem.md
+          - problems/navier-stokes/theorem-construction/route-b-euclidean-closure-theorem.md
     overwrite_rules:
       may_overwrite:
         - cross-folder-sidecars
@@ -197,12 +197,12 @@ layers:
       grammar or the downstream discharge contract, but they do not become
       theorem authority unless a lane-local NS theorem surface promotes them.
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/projected-nc-flow-clay-frontier.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-nc-ns-ymg-hodge-program.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-flow-closure-proof-spine.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-clay-frontier-proof-pack.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/working-notes/refinement-commutator-estimate-and-scale-gap.md
-      - /Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/problems/yang-mills-gap/upstream-synthesis-feed.yaml
+      - problems/navier-stokes/projected-nc-flow-clay-frontier.md
+      - working-notes/ontic-nc-ns-ymg-hodge-program.md
+      - working-notes/ontic-flow-closure-proof-spine.md
+      - working-notes/ns-clay-frontier-proof-pack.md
+      - working-notes/refinement-commutator-estimate-and-scale-gap.md
+      - /Users/thomasbirnie/Workspace/ToE/monograph-V6/problems/yang-mills-gap/upstream-synthesis-feed.yaml
     overwrite_rules:
       may_overwrite:
         - generated-and-stale-surfaces
@@ -221,12 +221,12 @@ layers:
       generated optimism, stale route labels, and sidecar burdens back into the
       lane.
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/proof-assembly.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-frontier.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-packet.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-to-warrant.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/route-hypothesis.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/system/meta/collaboration/graph-impacts/navier-stokes.yaml
+      - problems/navier-stokes/proof-assembly.yaml
+      - problems/navier-stokes/source-frontier.yaml
+      - problems/navier-stokes/theorem-packet.yaml
+      - problems/navier-stokes/theorem-to-warrant.yaml
+      - problems/navier-stokes/route-hypothesis.yaml
+      - system/meta/collaboration/graph-impacts/navier-stokes.yaml
     overwrite_rules:
       may_overwrite: []
       may_be_overwritten_by:
@@ -240,11 +240,11 @@ layers:
 exploration_only_surfaces:
   status: visible-but-non-authoritative-unless-promoted
   surfaces:
-    - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/extension-branches.yaml
-    - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/creative-theorem-search.yaml
-    - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/debt-map.yaml
-    - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/route-hypothesis.yaml
-    - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/obstruction-capture.md
+    - problems/navier-stokes/extension-branches.yaml
+    - problems/navier-stokes/creative-theorem-search.yaml
+    - problems/navier-stokes/debt-map.yaml
+    - problems/navier-stokes/route-hypothesis.yaml
+    - problems/navier-stokes/obstruction-capture.md
   judgment: >
     These surfaces belong in the exploration graph because they preserve branch
     variants, objections, route pivots, and speculative search packets. They
@@ -279,4 +279,4 @@ current_leading_edge:
     live selector surface as the SG.4 lower-envelope face refined by the
     one-sided defect `[\lambda_J-\mathfrak s_J]_+`, the directional defect
     `\Xi_J`, and on the exact-potential branch the projective selector readout.
-  canonical_surface: /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/ns-layered-route-graph.md
+  canonical_surface: problems/navier-stokes/theorem-construction/ns-layered-route-graph.md
