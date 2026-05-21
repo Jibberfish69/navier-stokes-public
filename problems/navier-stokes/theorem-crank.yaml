@@ -22,8 +22,28 @@ shared_alignment:
     - slot_id: source-wall-root-after-reconcile
       label: source-wall-root-after-reconcile
       kind: live-theorem-frontier
-      status: frontier-open
+      status: cm-closed
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+      blocking: false
+      exact_live_theorem_grade_burden: &1
+        status: cm-closed
+        burden_id: basac-terminal-zero-thickness-cm-nonsurvival
+        proof_mode: cm_contrapositive_class_exit
+        target_object: B_ASAC terminal zero-thickness residue cannot survive retained
+          CM
+        theorem_grade_statement: 'Installed CM result: a B_ASAC terminal zero-thickness
+          native source residue cannot survive as a retained finite-CM object. The
+          shared-participation strip estimate forces incoming participation flux,
+          CM-envelope blowout, or paid exit, hence Pack/Part/Field exit.'
+        active_container: source-wall-root-after-reconcile
+        respawn_cell:
+        respawn_stage:
+        allowed_input_boundary: The proof may use the installed ASAC/B_ASAC classification
+          and source-wall supplier inputs. Retained H1-H6 replay, ACT.KX, DTC.Read,
+          Field.Read, READ.COVER, End_NS, OFP.A, and endpoint readout consequences
+          stay downstream or quarantined as support.
+        nearest_wrong_substitution: Recasting the closed CM non-survival result as
+          a new open bare positive-supplier deletion theorem.
     legacy_route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -609,25 +629,7 @@ shared_alignment:
       stop_condition: Stop only when a genuine new mathematical choice is needed,
         an out-of-scope write is required, the route has split and one bounded self-attempt
         has already failed, or verification cannot be repaired internally.
-    exact_live_theorem_grade_burden: &1
-      status: cm-closed
-      burden_id: basac-terminal-zero-thickness-cm-nonsurvival
-      proof_mode: cm_contrapositive_class_exit
-      target_object: B_ASAC terminal zero-thickness residue cannot survive retained
-        CM
-      theorem_grade_statement: 'Installed CM result: a B_ASAC terminal zero-thickness
-        native source residue cannot survive as a retained finite-CM object. The shared-participation
-        strip estimate forces incoming participation flux, CM-envelope blowout, or
-        paid exit, hence Pack/Part/Field exit.'
-      active_container: source-wall-root-after-reconcile
-      respawn_cell:
-      respawn_stage:
-      allowed_input_boundary: The proof may use the installed ASAC/B_ASAC classification
-        and source-wall supplier inputs. Retained H1-H6 replay, ACT.KX, DTC.Read,
-        Field.Read, READ.COVER, End_NS, OFP.A, and endpoint readout consequences stay
-        downstream or quarantined as support.
-      nearest_wrong_substitution: Recasting the closed CM non-survival result as a
-        new open bare positive-supplier deletion theorem.
+    exact_live_theorem_grade_burden: *1
     release_or_respawn_consequence: &9
       disposition: closed-no-respawn-for-basac
       next_cell_type:
