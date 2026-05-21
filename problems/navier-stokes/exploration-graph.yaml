@@ -22,8 +22,8 @@ operator_contract:
     - better memory of prior serious branches
     - clearer separation of proved, live, sidecar, and speculative material
     - less note-mashing and less latest-note-wins drift
-authority_projection_surface: /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/layered-route-graph.yaml
-human_surface: /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/ns-exploration-graph.md
+authority_projection_surface: problems/navier-stokes/layered-route-graph.yaml
+human_surface: problems/navier-stokes/theorem-construction/ns-exploration-graph.md
 clusters:
   - cluster_id: target-and-lock
     label: Target and Lock
@@ -50,232 +50,232 @@ nodes:
     state: authoritative
     kind: theorem-target
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/claim-ladder.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/route-lock.yaml
+      - problems/navier-stokes/claim-ladder.md
+      - problems/navier-stokes/route-lock.yaml
   - node_id: route_lock_four_bridge
     label: "Route lock: source-grounded four-bridge branch"
     cluster: target-and-lock
     state: authoritative
     kind: route-lock
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/route-lock.yaml
+      - problems/navier-stokes/route-lock.yaml
   - node_id: release_hold
     label: Release hold on closed-loop warrant
     cluster: target-and-lock
     state: authoritative
     kind: release-truth
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/formalization-ledger.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/release-decision.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/review-verdict.yaml
+      - problems/navier-stokes/formalization-ledger.md
+      - problems/navier-stokes/release-decision.yaml
+      - problems/navier-stokes/review-verdict.yaml
   - node_id: body1_scale_barrier
     label: Body I scale barrier / no escape
     cluster: source-four-body
     state: authoritative
     kind: body
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-grounded-framework-map.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/spine.md
+      - problems/navier-stokes/source-grounded-framework-map.md
+      - problems/navier-stokes/spine.md
   - node_id: body2_q_bridge
     label: Body II monotone functional Q(t)
     cluster: source-four-body
     state: authoritative
     kind: body
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/spine.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/claim-ladder.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/monotone-functional-package.md
+      - problems/navier-stokes/spine.md
+      - problems/navier-stokes/claim-ladder.md
+      - problems/navier-stokes/theorem-construction/monotone-functional-package.md
   - node_id: body3_compactness
     label: Body III non-Sobolev compactness
     cluster: source-four-body
     state: authoritative
     kind: body
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-grounded-framework-map.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/compactness-package.md
+      - problems/navier-stokes/source-grounded-framework-map.md
+      - problems/navier-stokes/theorem-construction/compactness-package.md
   - node_id: body4_curvature
     label: Body IV curvature-based regularity
     cluster: source-four-body
     state: authoritative
     kind: body
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-grounded-framework-map.md
+      - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+      - problems/navier-stokes/source-grounded-framework-map.md
   - node_id: closed_loop_warrant
     label: Closed-loop warrant
     cluster: source-four-body
     state: open-authority
     kind: warrant
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/route-lock.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/release-decision.yaml
+      - problems/navier-stokes/route-lock.yaml
+      - problems/navier-stokes/release-decision.yaml
   - node_id: route_b_c3
     label: Route B / C3 theorem-primary packet
     cluster: theorem-primary
     state: live-authority
     kind: theorem-route
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/main-theorem-draft.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/formalization-ledger.md
+      - problems/navier-stokes/theorem-construction/main-theorem-draft.md
+      - problems/navier-stokes/formalization-ledger.md
   - node_id: proposition_chain
     label: "P0 -> M1/M2 -> S1/S2 -> K1/K2/K3 -> G1/G2 -> C1/C2/C3"
     cluster: theorem-primary
     state: live-authority
     kind: proposition-chain
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/main-theorem-draft.md
+      - problems/navier-stokes/theorem-construction/main-theorem-draft.md
   - node_id: live_survivor
     label: Lifted high-side remainder on N+M<k<j-4
     cluster: live-frontier
     state: live-frontier
     kind: survivor
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/route-b-euclidean-closure-theorem.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
+      - problems/navier-stokes/theorem-construction/route-b-euclidean-closure-theorem.md
+      - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
   - node_id: recurrence_packet
     label: Four-body defect-reduction recurrence
     cluster: live-frontier
     state: live-frontier
     kind: recurrence
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/NS working note - four body problem and braided ontology.md
+      - problems/navier-stokes/theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md
+      - problems/navier-stokes/NS working note - four body problem and braided ontology.md
   - node_id: body1_stronger_lifted_band
     label: Stronger Body I lifted-band theorem
     cluster: live-frontier
     state: live-frontier
     kind: missing-theorem
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/lifted-remainder-feedback-into-body1-audit.md
+      - problems/navier-stokes/theorem-construction/lifted-remainder-feedback-into-body1-audit.md
   - node_id: repo_wide_convergence_synthesis
     label: Repo-wide convergence synthesis
     cluster: synthesis
     state: live-synthesis
     kind: synthesis-surface
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/repo-wide-ns-idea-consolidation-and-proof-convergence.md
+      - problems/navier-stokes/theorem-construction/repo-wide-ns-idea-consolidation-and-proof-convergence.md
   - node_id: jet_bicomplex_brst_classifier
     label: Infinite-jet / bicomplex / BRST-style survivor classifier
     cluster: modernization
     state: exploration-only
     kind: cohomological-classifier
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/infinite-jet-bicomplex-brst-survivor-route-note.md
+      - problems/navier-stokes/theorem-construction/infinite-jet-bicomplex-brst-survivor-route-note.md
   - node_id: exterior_algebra_branch_map
     label: Exterior algebra extraction branch map
     cluster: modernization
     state: exploration-only
     kind: branch-map
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/exterior-algebra-extraction-for-ns-route.md
+      - problems/navier-stokes/theorem-construction/exterior-algebra-extraction-for-ns-route.md
   - node_id: tail_face
     label: Tail leakage face
     cluster: live-frontier
     state: live-frontier
     kind: readout
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
+      - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
   - node_id: tower_flux_face
     label: Tower flux/debt face
     cluster: live-frontier
     state: live-frontier
     kind: readout
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tower-rewrite-under-ym-heat-shadow-bridge.md
+      - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
+      - problems/navier-stokes/theorem-construction/tower-rewrite-under-ym-heat-shadow-bridge.md
   - node_id: geometry_commutator_face
     label: Deformation-geometry commutator face
     cluster: live-frontier
     state: live-frontier
     kind: readout
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/spatial-derivative-curvature-dissipation-theorem-target.md
+      - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
+      - problems/navier-stokes/theorem-construction/spatial-derivative-curvature-dissipation-theorem-target.md
   - node_id: tower_language
     label: Derivative tower and cross-rung matrix
     cluster: modernization
     state: candidate-upgrade
     kind: modernization
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tower-rewrite-under-ym-heat-shadow-bridge.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/cross-rung-matrix-under-ym-heat-shadow-bridge.md
+      - problems/navier-stokes/theorem-construction/tower-rewrite-under-ym-heat-shadow-bridge.md
+      - problems/navier-stokes/theorem-construction/cross-rung-matrix-under-ym-heat-shadow-bridge.md
   - node_id: deformation_geometry
     label: Lagrangian deformation geometry G
     cluster: modernization
     state: candidate-upgrade
     kind: modernization
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/spatial-derivative-curvature-dissipation-theorem-target.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
+      - problems/navier-stokes/theorem-construction/spatial-derivative-curvature-dissipation-theorem-target.md
+      - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
   - node_id: ym_heat_bridge
     label: "YM heat -> torus heat -> classical shadow"
     cluster: modernization
     state: candidate-upgrade
     kind: modernization
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/ym-heat-to-torus-heat-to-classical-shadow-bridge.md
+      - problems/navier-stokes/theorem-construction/ym-heat-to-torus-heat-to-classical-shadow-bridge.md
   - node_id: projected_d_route
     label: D.1-D.5 projected-flow sidecar route
     cluster: projected-sidecar
     state: support-only
     kind: sidecar-route
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/projected-nc-flow-clay-frontier.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-to-warrant.yaml
+      - problems/navier-stokes/projected-nc-flow-clay-frontier.md
+      - problems/navier-stokes/theorem-to-warrant.yaml
   - node_id: d2_bilinear_hinge
     label: D.2 bilinear hinge / commutator burden
     cluster: projected-sidecar
     state: support-only
     kind: sidecar-burden
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/projected-nc-flow-clay-frontier.md
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/route-hypothesis.yaml
+      - problems/navier-stokes/projected-nc-flow-clay-frontier.md
+      - problems/navier-stokes/route-hypothesis.yaml
   - node_id: exploration_branches
     label: Machine extension branches
     cluster: exploration-only
     state: exploration-only
     kind: branch-pool
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/extension-branches.yaml
+      - problems/navier-stokes/extension-branches.yaml
   - node_id: creative_branch_pool
     label: Creative theorem search pool
     cluster: exploration-only
     state: exploration-only
     kind: branch-pool
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/creative-theorem-search.yaml
+      - problems/navier-stokes/creative-theorem-search.yaml
   - node_id: debt_pool
     label: Debt and burden pool
     cluster: exploration-only
     state: exploration-only
     kind: debt-pool
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/debt-map.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/obstruction-capture.md
+      - problems/navier-stokes/debt-map.yaml
+      - problems/navier-stokes/obstruction-capture.md
   - node_id: route_pivot_surface
     label: Route-hypothesis Marvin pivot surface
     cluster: exploration-only
     state: exploration-only
     kind: route-pivot
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/route-hypothesis.yaml
+      - problems/navier-stokes/route-hypothesis.yaml
   - node_id: generated_state
     label: Generated builder state surfaces
     cluster: generated-lagging
     state: lagging
     kind: generated-state
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-packet.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/proof-assembly.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-frontier.yaml
-      - /Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-to-warrant.yaml
+      - problems/navier-stokes/theorem-packet.yaml
+      - problems/navier-stokes/proof-assembly.yaml
+      - problems/navier-stokes/source-frontier.yaml
+      - problems/navier-stokes/theorem-to-warrant.yaml
   - node_id: system_graph_lag
     label: RC node-graph lag for NS
     cluster: generated-lagging
     state: lagging
     kind: stale-graph
     surfaces:
-      - /Users/thomasbirnie/Documents/Research-Consolidation/system/meta/collaboration/graph-impacts/navier-stokes.yaml
+      - system/meta/collaboration/graph-impacts/navier-stokes.yaml
 edges:
   - from: clay_target
     to: route_lock_four_bridge
