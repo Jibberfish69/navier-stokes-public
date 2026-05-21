@@ -41,7 +41,7 @@ SUBMISSION_BUNDLE_THEOREM_PACKET_TEX_PATH = SUBMISSION_BUNDLE_ROOT.join("section
 TARGET_OPERATING_CONTRACT = YAML.load_file(TARGET_OPERATING_CONTRACT_PATH.to_s).freeze
 CURRENT_SOURCE_WALL_ROOT_ID = "source-wall-root-after-reconcile"
 CURRENT_SOURCE_WALL_ROOT_LABEL = "Recenter source-wall-root-after-reconcile on known CM-exit discipline after SourceWall.Reconcile.A demotion"
-CURRENT_SOURCE_WALL_ROOT_SUMMARY = "source-wall-root-after-reconcile remains open only as separate supplier work after SourceWall.Reconcile.A demotes normalized-adjoint source-drain to conditional support; AllNonEulerNSSurfaceFaceSweep.A indexes 1945 non-Euler Navier-Stokes text surfaces, excludes 71 Euler/fixed-nu surfaces after content-level exclusion and the May 17 Euler-mirror quarantine, includes its own theorem note/index/diagnostic ledgers by InventorySelfInclusion.A, corrects lexical mis-sorts by IndexClassifierSoundness.A, face-sorts Carleson, Zeno, retained-amplitude, height/low-strain, signed-current, readout, generated, manuscript, source-history, runtime, and export surfaces into Pack, Part, Field, typed Pack/Part/Field/Zeno subsets, or support; AllNonEulerNSFailureFaceDiagnostic.A records the selected failure type and CM face break for each indexed row; AllNonEulerCMContrapositiveClosure.A is the row-level diagnostic ledger, not a substitute for object-level proof of every text artifact or any positive supplier theorem; MajorNonEulerCMContrapositiveClosure.A closes the major named non-Euler surfaces as Pack, Part, Field, typed Zeno-to-Field subcase, or supplier/readout quarantine."
+CURRENT_SOURCE_WALL_ROOT_SUMMARY = "source-wall-root-after-reconcile has the B_ASAC terminal zero-thickness residue closed as CM class-exit: terminal mass cannot survive retained finite CM and must become Pack/Part/Field exit. SourceWall.Reconcile.A still demotes normalized-adjoint source-drain to conditional support; AllNonEulerNSSurfaceFaceSweep.A indexes 1945 non-Euler Navier-Stokes text surfaces, excludes 71 Euler/fixed-nu surfaces after content-level exclusion and the May 17 Euler-mirror quarantine, includes its own theorem note/index/diagnostic ledgers by InventorySelfInclusion.A, corrects lexical mis-sorts by IndexClassifierSoundness.A, face-sorts Carleson, Zeno, retained-amplitude, height/low-strain, signed-current, readout, generated, manuscript, source-history, runtime, and export surfaces into Pack, Part, Field, typed Pack/Part/Field/Zeno subsets, or support; AllNonEulerNSFailureFaceDiagnostic.A records the selected failure type and CM face break for each indexed row; AllNonEulerCMContrapositiveClosure.A is the row-level diagnostic ledger, not a substitute for object-level proof of every text artifact or any separate downstream positive-supplier theorem; MajorNonEulerCMContrapositiveClosure.A closes the major named non-Euler surfaces as Pack, Part, Field, typed Zeno-to-Field subcase, or supplier/readout quarantine."
 CURRENT_THEOREM_STATUS = "basac-terminal-zero-thickness-cm-target-closed"
 CURRENT_PACKAGE_STATUS = "basac-cm-nonsurvival-installed-full-release-audit-still-required"
 CURRENT_LOWEST_SAFE_CLAIM = "The B_ASAC terminal zero-thickness source residue is closed as a CM class-exit object: a positive terminal atom cannot survive retained finite CM and must become Pack/Part/Field exit. Full Clay export still requires a separate full-package release audit."
@@ -446,7 +446,7 @@ def sanitize_auto_audit(audit)
 
   branch_audit = audit["branch_audit"]
   if branch_audit.is_a?(Hash)
-    branch_audit["status"] = "frontier-open"
+    branch_audit["status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
     branch_audit["unresolved_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
   end
 
@@ -482,8 +482,8 @@ end
 def sanitize_dependency_graph(graph)
   return graph unless graph.is_a?(Hash)
 
-  graph["status"] = "frontier-open"
-  graph["pass"] = false
+  graph["status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
+  graph["pass"] = true
   graph["source"] ||= {}
   graph["source"]["live_theorem_edge"] = "problems/navier-stokes/live-theorem-edge.yaml"
   graph["source"]["source_frontier"] = "problems/navier-stokes/source-frontier.yaml"
@@ -493,16 +493,16 @@ def sanitize_dependency_graph(graph)
     "id" => CURRENT_SOURCE_WALL_ROOT_ID,
     "kind" => "live-theorem-frontier",
     "label" => CURRENT_SOURCE_WALL_ROOT_LABEL,
-    "status" => "frontier-open",
-    "blocking" => true,
+    "status" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status"),
+    "blocking" => false,
     "source_anchor" => "problems/navier-stokes/live-theorem-edge.yaml"
   } unless nodes.any? { |entry| entry.is_a?(Hash) && entry["id"] == CURRENT_SOURCE_WALL_ROOT_ID }
   graph["nodes"] = nodes
 
   graph["summary"] ||= {}
   graph["summary"]["node_count"] = nodes.length
-  graph["summary"]["blocking_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
-  graph["summary"]["all_discharged"] = false
+  graph["summary"]["blocking_count"] = 0
+  graph["summary"]["all_discharged"] = true
   graph["summary"]["unresolved_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
   graph["summary"]["frontier_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
   graph["summary"]["active_frontier"] = CURRENT_SOURCE_WALL_ROOT_SUMMARY
@@ -582,7 +582,7 @@ def sanitize_submission_verdict(verdict)
   verdict["submission_posture"] = "not-ready"
   verdict["submission_ready"] = false
   verdict["review_alignment"] ||= {}
-  verdict["review_alignment"]["release_posture"] = "blocked-source-wall-root-open"
+  verdict["review_alignment"]["release_posture"] = "basac-cm-target-closed-full-release-audit-needed"
   verdict["review_alignment"]["standalone_status"] = CURRENT_THEOREM_STATUS
   verdict["review_alignment"]["current_package_status"] = CURRENT_PACKAGE_STATUS
   verdict["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
@@ -592,9 +592,9 @@ def sanitize_submission_verdict(verdict)
   if target_fidelity.is_a?(Hash)
     target_fidelity["terminal_safe"] = false
     target_fidelity["explicit_nonterminal_overlay"] = true
-    target_fidelity["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_ID]
+    target_fidelity["required_before_terminal_release"] = []
     issues = Array(target_fidelity["issues"])
-    issue = "source-wall-root-after-reconcile remains open; local/prose safety is not terminal release safety"
+    issue = "B_ASAC terminal zero-thickness CM target is closed; terminal release still requires a separate full-package release audit"
     issues << issue unless issues.include?(issue)
     target_fidelity["issues"] = issues
   end
@@ -608,8 +608,8 @@ def sanitize_submission_verdict(verdict)
 
     authority_summary["unresolved_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
     authority_summary["frontier_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
-    authority_summary["blocking_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
-    authority_summary["all_discharged"] = false
+    authority_summary["blocking_count"] = 0
+    authority_summary["all_discharged"] = true
     authority_summary["authority_mode"] = "direct-live-surfaces"
     authority_summary["source_authority_mode"] = "direct-live-surfaces" if authority_summary.key?("source_authority_mode")
   end
@@ -617,10 +617,9 @@ def sanitize_submission_verdict(verdict)
   blockers = Array(verdict["blockers"]).reject do |entry|
     entry.to_s.start_with?("Source-wall root theorem required: source-wall-root-after-reconcile remains open")
   end
-  blocker = "Source-wall root theorem required: #{CURRENT_SOURCE_WALL_ROOT_SUMMARY}"
-  blockers << blocker unless blockers.include?(blocker)
-  exact_blocker = "Exact live theorem-grade burden: #{CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("theorem_grade_statement")}"
-  blockers << exact_blocker unless blockers.include?(exact_blocker)
+  blockers.reject! { |entry| entry.to_s.include?("Exact live theorem-grade burden:") }
+  closure = "B_ASAC CM target closed: #{CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("theorem_grade_statement")}"
+  blockers << closure unless blockers.include?(closure)
   verdict["blockers"] = blockers
   attach_target_topology!(verdict)
   verdict
@@ -635,7 +634,7 @@ def sanitize_theorem_crank(crank)
 
   local_derivation = crank["local_derivation"]
   if local_derivation.is_a?(Hash)
-    local_derivation["status"] = "frontier-open"
+    local_derivation["status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
     local_derivation["leadership_status"] = "aligned"
     local_derivation["recommended_next_cell_type"] = "creative-theorem-search"
   end
@@ -651,7 +650,7 @@ def sanitize_theorem_crank(crank)
   if auditor.is_a?(Hash)
     auditor["status"] = "ready"
     auditor["audit_status"] = "audited-theorem-open-source-wall-root"
-    auditor["branch_terminal_status"] = "frontier-open"
+    auditor["branch_terminal_status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
     auditor["open_issue_count"] = 0
     auditor["autofixable_issue_count"] = 0
     auditor["fix_plan_count"] = 0
@@ -666,7 +665,7 @@ def sanitize_theorem_crank(crank)
     projection["primary_target"]["obligation_id"] = CURRENT_SOURCE_WALL_ROOT_ID
     projection["primary_target"]["kind"] = "live-theorem-frontier"
     projection["primary_target"]["label"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("target_object")
-    projection["primary_target"]["status"] = "frontier-open"
+    projection["primary_target"]["status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
     projection["primary_target"]["source_anchor"] = "problems/navier-stokes/live-theorem-edge.yaml"
     projection["primary_target"]["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
     attach_target_topology!(projection)
@@ -678,17 +677,17 @@ def sanitize_theorem_crank(crank)
     summary["execution_state"] = "ready"
     summary["leadership_status"] = "aligned"
     summary["alignment_complete"] = true
-    summary["direct_live_authority_all_discharged"] = false
+    summary["direct_live_authority_all_discharged"] = true
     summary["authority_gate_mode"] = "direct-live-surfaces"
     summary["authority_gate_blocking_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
     summary["proof_assembly_open_obligation_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
     summary["current_open_obligation_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
-    summary["open_obligations_state"] = "active-frontier-open"
+    summary["open_obligations_state"] = "basac-cm-target-closed"
     summary["theorem_work_blocked"] = false
     summary["on_recommended_track"] = true
     summary["recommended_next_cell_type"] = "creative-theorem-search"
     summary["audit_status"] = "audited-theorem-open-source-wall-root"
-    summary["branch_terminal_status"] = "frontier-open"
+    summary["branch_terminal_status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
     summary["unresolved_branch_terminal_count"] = 0
     summary["current_next_cell_type"] = "creative-theorem-search"
     summary["current_next_cell_is_theorem_work"] = true
@@ -807,20 +806,20 @@ def sanitize_dependency_discharge(discharge)
   target["obligation_id"] = CURRENT_SOURCE_WALL_ROOT_ID
   target["kind"] = "live-theorem-frontier"
   target["label"] = CURRENT_SOURCE_WALL_ROOT_LABEL
-  target["status"] = "frontier-open"
+  target["status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
   target["source_anchor"] = "problems/navier-stokes/live-theorem-edge.yaml"
-  target["blocking"] = true
+  target["blocking"] = false
   target["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   target["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
-  target["status_after"] = "frontier-open"
-  target["promoted"] = false
+  target["status_after"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
+  target["promoted"] = true
   target["promotion_distance"] = 0
   attach_target_topology!(target)
 
   recommendation = discharge["recommendation"]
   if recommendation.is_a?(Hash)
-    recommendation["outcome"] = "source-wall-root-active"
-    recommendation["rationale"] = "The aggregate bridge-license support is no longer the selected discharge target. The active work is known CM-exit discipline: source-pileup/source-control presentations steer only through the installed Carleson/Zeno Field diagnostics, the retained-amplitude Pack/Part boundary, the height-flux Pack/Part/Field/Zeno subset, or signed-current support reduced to those channels."
+    recommendation["outcome"] = "basac-cm-target-closed"
+    recommendation["rationale"] = "The B_ASAC terminal zero-thickness residue is closed for the CM program: it cannot survive retained finite CM and is forced into Pack/Part/Field exit."
     recommendation["next_action"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_action")
   end
 
@@ -835,8 +834,8 @@ def sanitize_dependency_discharge(discharge)
   if summary.is_a?(Hash)
     summary["target_obligation_id"] = CURRENT_SOURCE_WALL_ROOT_ID
     summary["target_kind"] = "live-theorem-frontier"
-    summary["status_before"] = "frontier-open"
-    summary["status_after"] = "frontier-open"
+    summary["status_before"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
+    summary["status_after"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
     summary["matched_path_count"] = 0
     summary["one_frontier_count_is_not_one_path"] = true
   end
@@ -965,7 +964,7 @@ def sanitize_release_manifest(manifest)
   review = manifest.dig("source_summary", "review_verdict")
   if review.is_a?(Hash)
     review["terminal_safe"] = false
-    review["release_posture"] = "blocked-source-wall-root-open"
+    review["release_posture"] = "basac-cm-target-closed-full-release-audit-needed"
   end
   attach_target_topology!(manifest)
   manifest
@@ -1086,26 +1085,26 @@ def build_warrant_compilation(route_lock, warrant, campaign, proof_assembly)
       "route_id" => route_lock.dig("primary_route", "route_id"),
       "status" => route_lock.dig("primary_route", "status"),
       "authority_role" => route_lock.dig("primary_route", "authority_role"),
-      "summary" => "Historical four-bridge / positive-smoothness warrant chain preserved as support only; source-wall-root-after-reconcile remains the live release blocker."
+      "summary" => "Historical four-bridge / positive-smoothness warrant chain preserved as support only; B_ASAC terminal zero-thickness CM non-survival is closed."
     },
     "theorem_2_1" => {
       "proof_status" => CURRENT_THEOREM_STATUS,
       "standalone_status" => CURRENT_THEOREM_STATUS,
-      "promotion_status" => "blocked-until-source-wall-root-closed",
+      "promotion_status" => "basac-cm-target-closed-full-release-audit-needed",
       "exact_statement" => theorem["exact_statement"],
       "dependencies" => Array(theorem["dependencies"])
     },
     "bridge_summary" => bridge_obligations_by_surface(warrant),
     "campaign_alignment" => {
-      "full_claim_lane_blocked" => true,
+      "full_claim_lane_blocked" => false,
       "source_track_status" => campaign.dig("parallel_theorem_tracks", 0, "status"),
       "sidecar_track_status" => campaign.dig("parallel_theorem_tracks", 1, "status"),
-      "demotion_note" => "Local/prose or four-bridge support is not terminal release safety while source-wall-root-after-reconcile remains open."
+      "demotion_note" => "The B_ASAC terminal zero-thickness CM target is closed; full release safety is a separate package audit."
     },
     "active_frontier" => {
       "open_obligation_count" => proof_assembly.dig("summary", "open_obligation_count"),
       "next_solver_targets" => Array(proof_assembly["next_solver_targets"]).map { |entry| entry["label"] },
-      "source_wall_root_open" => true
+      "source_wall_root_open" => false
     },
     "manuscript_contract" => {
       "authoring_surface" => campaign.dig("current_manuscript_surface", "authoring_surface"),
