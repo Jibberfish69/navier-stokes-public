@@ -91,6 +91,7 @@ conditions:
   W6:
     status: completed
     evidence:
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-class-membership-flux-volume-definition.md
       - problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md
       - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md
   W7:
@@ -114,10 +115,11 @@ conditions:
     evidence:
       - problems/navier-stokes/euler-mirror/completion-status.yaml
       - problems/navier-stokes/euler-mirror/derivation-audit-status.yaml
-overall_status: completed
+overall_status: completed-after-euler-membership-repair
 honest_verdict: >-
-  The methodology-and-aim route-walkdown contract is complete: each serious
-  Navier-Stokes proof road in scope now has a theorem-facing Euler route
-  surface that either walks the road to its first honest surviving bridge or
-  names the exact bridge where the parent Navier-Stokes method ceases to be an
-  Euler proof. The Euler global-smoothness theorem itself remains open.
+  The methodology-and-aim route-walkdown contract is complete after the Euler
+  membership ontology repair: the branch now starts from Member_E = EVol + EMom,
+  treats Part/Field/flow-map language as optional regularity support, and keeps
+  each serious Navier-Stokes proof road only as comparison authority unless it
+  has an Euler-native replacement. The Euler regularity theorem itself remains
+  open.
