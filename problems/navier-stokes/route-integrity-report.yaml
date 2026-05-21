@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: route-integrity-report-navier-stokes
-  generated_at: '2026-05-21T23:33:52Z'
+  generated_at: '2026-05-21T23:35:57Z'
   generator: tools/ns_pipeline_hardener.rb
 route_lock:
   path: problems/navier-stokes/route-lock.yaml
@@ -164,9 +164,11 @@ target_lock_schema:
     - ScaleCriticalTreeCarleson.A as diagnostic positive source-control language with
       selected failure sorted to Field by RawSCTCFailurePartition.A + SCTCFailureToFaceWitness.A
       + RetainedSCTCFailureFieldExit.A
-    - ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A as diagnostic/source-residue
-      language with selected terminal-atom failure sorted to Field by RawZenoFailurePartition.A
-      + ZenoAtomFailureToFaceWitness.A + RetainedZenoAtomFieldExit.A
+    - 'ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A as diagnostic/source-residue
+      language: finite Zeno ancestry is sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A,
+      while the terminal zero-radius residue is not Pack_Q and Field/Jump language
+      is post-exit readout unless a positive-scale retained carrier is separately
+      proved'
     - RetainedFaceAmplitudeGain.A as a PackGainLedger/PartEnvelopeAmplitudeConservation
       boundary, not a new face
     - ActiveHeightFluxTrichotomy.A as Pack/Part/legal-Field/Zeno face routing
@@ -492,9 +494,10 @@ open_root_group:
   - target_id: zeno-rigid-class-pair
     label: ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A
     proof_mode: zeno_rigidity_alternate
-    role: diagnostic source-residue presentation; selected terminal-atom failure is
-      sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A and retained
-      zero-heat-time source residue lands in Field by RetainedZenoAtomFieldExit.A;
+    role: diagnostic source-residue presentation; selected finite Zeno ancestry is
+      sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A, while
+      terminal zero-heat-time source residue is not Pack_Q. Field/Jump language is
+      post-exit readout unless a positive-scale retained carrier is separately proved;
       non-Carleson TemporalNonAtomicSource.A remains separate
   - target_id: sourcepulse-terminal-zeno-closing-package
     label: LocalPositiveSourceCarleson.A or ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A
