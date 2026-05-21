@@ -12,7 +12,7 @@ The survivor is
 B_{ASAC}^{closed},
 ```
 
-already landed as a selected terminal Zeno source atom in the `Field_{N,r,Q}` face.
+already identified as a selected zero-radius terminal Zeno residue, hence terminal `not Pack_Q` rather than a retained `Field_{N,r,Q}` packet.
 
 The pressure fork seeks a production theorem of one of two kinds:
 
@@ -121,4 +121,4 @@ or
 PurePressureSourceSingularLiouville.A.
 ```
 
-Absent one of these, `B_ASAC^closed` remains the canonical Field-face obstruction class.
+Absent one of these, `B_ASAC^closed` remains the canonical terminal Pack-failure / source-accounting obstruction.
