@@ -8,8 +8,9 @@ Claim level:
 
 1. proves the Euler-only moving-collar packet inequality once the
    center/oscillation/pressure coefficient ledger is available;
-2. identifies the exact remaining supplier theorem needed to make that ledger
-   integrable;
+2. identifies the exact remaining supplier theorem and, after the May 21
+   scenario map, the required split between regularity-conditional integrability
+   and base `Member_E` nonsmooth cases;
 3. does not import the parent `2nu` lower-collar sink, `c_nu N` absorption, or
    `ACT.X-TopVisc` readout.
 
@@ -299,11 +300,11 @@ dissipative sink. On the parent route, this is precisely where `ACT.KX` used
 `c_nu N`, the `eta_X` scheduler, and `ACT.X-TopVisc`. Euler has no replacement
 for those terms on the current surface.
 
-The exact next theorem target is therefore:
+The exact next theorem target is therefore the split form:
 
 ```math
 \boxed{
-\mathrm{ELCI.CP.A}:
+\mathrm{ELCI.CP.A\text{-}Separation}:
 \quad
 \mathfrak A^{E,ctr}_{N,m,\rho,\psi}
 +
@@ -315,13 +316,19 @@ The exact next theorem target is therefore:
 \tag{ETP.18}
 ```
 
-proved on the same finite transported Euler cover, from Euler-native transport,
-oscillation, admissibility, and pressure-Poisson structure alone.
+proved on the same finite transported Euler cover under exact additional
+Euler-native regularity hypotheses, together with explicit routing of base
+`Member_E` nonsmooth cases where the ledger is not forced.
+
+Scenario authority:
+[euler-ns-viscosity-scenario-separation-map-20260521.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md).
 
 ## Verdict
 
 The six-step `ELCI.A` completion route closes the packet inequality and the
 conditional Gronwall theorem. It does not close the full Euler regularity
 burden, because the missing independent supplier is exactly
-`ELCI.CP.A`: integrability of the transported-center, oscillation, and centered
-pressure-return ledger without the parent viscous absorption chain.
+`ELCI.CP.A-Separation`: integrability of the transported-center, oscillation,
+and centered pressure-return ledger under honest Euler regularity hypotheses, and
+non-integrability or non-forcing readback for base `Member_E` scenarios without
+the parent viscous absorption chain.
