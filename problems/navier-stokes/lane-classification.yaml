@@ -3,15 +3,15 @@ version: 1
 identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
-  generated_at: '2026-05-01T21:54:56Z'
+  generated_at: '2026-05-18T08:06:48Z'
   generator: system/runner/lib/lane_classification_builder.rb
-mode: proof-present-theorem-open-at-pctp5c
+mode: hybrid
 source_authority: authoritative-external
 proof_present: true
 theorem_search_required: true
-paperization_required: true
+paperization_required: false
 signals:
-  default_mode: theorem-open-at-pctp5c
+  default_mode: theorem-open
   proof_bearing_source: true
   manuscript_classification: proof-manuscript
   blocking_count: 1
