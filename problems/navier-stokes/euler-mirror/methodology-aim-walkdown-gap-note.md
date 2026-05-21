@@ -15,8 +15,11 @@ What remains open are theorem burdens, not contract-definition burdens:
 1. `Contradiction / class-membership`
    The route is honestly walked through `ECFI -> EL13 -> EOFR/EOFP -> ELCI`,
    but the receiver theorem still stops at the missing Euler replacement for
-   the parent `2\nu` absorption bridge and the packing-side no-blown branch is
-   not yet discharged.
+   the parent `2\nu` absorption bridge. The May 21 scenario map sharpens that
+   receiver work to `ELCI.CP.A-Separation`: prove the ledger only under exact
+   Euler regularity hypotheses or route the base `Member_E` nonsmooth cases
+   where it is not forced. The packing-side no-blown branch is not yet
+   discharged.
 2. `Positive-control four-bridge`
    The positive route is honestly walked through the scale / control /
    compactness / continuation slots, but the actual Euler dangerous-scale
