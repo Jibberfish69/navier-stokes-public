@@ -60,21 +60,24 @@ deliverable by themselves.
 
 The current serious roads to be walked on Euler are:
 
-1. `Contradiction / class-membership mainline`
-   Aim: treat blowup as exit from the Euler object and keep lawful class
-   membership forward-invariant on still-live windows.
-   Mechanism: `Pack / Part / Field` under the `Dead / Blown / Jump` ontology,
-   same-fluid transport, and object-law preservation.
-2. `Surviving endpoint-exclusion split`
-   Aim: after the no-dead line, close the remaining pack-side no-blown and
-   one-field no-jump exits.
-   Mechanism: split the surviving endpoint burden and hand the one-field side
-   forward to the receiver program.
-3. `One-field forward-preservation and receiver route`
-   Aim: keep the one-field regime coherent along Euler evolution so the jump
-   endpoint cannot materialize.
+1. `Euler membership / regularity mainline`
+   Aim: define the Euler object by flux-volume and weak momentum-pressure
+   fidelity, then prove any desired smoothness as a separate regularity upgrade.
+   Mechanism: `Member_E = EVol + EMom`; flow-map, one-field coherence, and
+   endpoint labels are optional regularity structures only. Pressure
+   participation means incompressibility / normal compatibility, not one-field
+   shear participation.
+2. `Endpoint vocabulary demotion`
+   Aim: keep `dead / blown / jump` from masquerading as primitive Euler class
+   exits.
+   Mechanism: use those labels only after a stronger regularity class has been
+   explicitly defined; `dead` and `jump` remain live Euler nonsmoothness
+   scenarios relative to those stronger classes.
+3. `One-field regularity and receiver route`
+   Aim: test whether one-field coherence can be preserved above Euler
+   membership by Euler-native estimates.
    Mechanism: transported defect packets, coherence modulus, receiver-side
-   lower-carrier control, and pressure recovery.
+   lower-carrier control, and pressure recovery, all without viscous absorption.
 4. `Positive-control four-bridge spine`
    Aim: force global regularity by control rather than contradiction.
    Mechanism: scale barrier, monotone functional, compactness/nonlinear
