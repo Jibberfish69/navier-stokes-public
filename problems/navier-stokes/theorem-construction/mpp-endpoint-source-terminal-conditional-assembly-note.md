@@ -2,6 +2,11 @@
 
 ## Status
 
+Supersession status (2026-05-04): historical / branch-local context. The endpoint
+and source terminal assembly remains useful provenance, but it is not an active
+MPP package blocker after the 20260504 source-drain and CM witness-face bridge
+surfaces unless a current live authority surface explicitly re-promotes it.
+
 Theorem-facing conditional assembly note.
 
 Role: record the formal endpoint/source terminal assembly after the retained-window receiver packet and the post-`LCI.A` source channels are supplied.

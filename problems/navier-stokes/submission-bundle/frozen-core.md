@@ -5,7 +5,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Theorem Target
 
-- `theorem_target`: full-MPP periodic Clay closure via terminal promotion from the installed Theorem 2.1 class-membership warrant
+- `theorem_target`: current route target
 - `lowest_safe_claim`: The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3.
 - `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
 
@@ -20,15 +20,11 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - Define or prove: Completed the Hopf/shuffle line as a theorem-program refinement. The correct algebraic fit for the time tower is the divided-power Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle (`definition`; `marvin-upstream-409f183ee495`)
 - Define or prove: Formalized the refined direct Lagrangian route as a six-lemma mainline: differentiated Lagrangian decomposition, deformation-adapted energy, ellipticity window, coefficient-commutator absorption, no-loss pressure recovery,  (`definition`; `marvin-upstream-c8f7cb511776`)
 - Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md with a geometry-testing ladder for the elliptic test field W_test = A^T grad Phi solving -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1) ene (`definition`; `marvin-upstream-e2f5b0a915cf`)
-- Global energy or enstrophy control is necessary but not sufficient (`lemma`; `debt-global-energy-or-enstrophy-control-is-necessary-but-not-sufficient`)
-- one-field forward-preservation wall (`lemma`; `debt-one-field-forward-preservation-wall`)
-- lower-carrier receiver wall (`lemma`; `debt-lower-carrier-receiver-wall`)
-- collar-to-jump converse pivot (`lemma`; `debt-collar-to-jump-converse-pivot`)
-- Periodic Clay terminal-promotion bridge (`lemma`; `debt-periodic-clay-terminal-promotion-bridge`)
 
 ## Source Frontier
 
-- No unresolved frontier obligations remain.
+- `first_unresolved`: cm-witness-face-bridge-required; PCTP.hard/SOURCE.NO-PULSE.A/AWG.A/TGC.A are typed as downstream or branch support, with no installed direct bridge into Pack/Part/Field witness-face landing (`live-theorem-frontier`; `cm-witness-face-bridge-required-pctp-hard-source-no-pulse-a-awg-a-tgc-a-are-typed-as-downstream-or-branch-support-with-no-installed-direct-bridge-into-pack-part-field`)
+- cm-witness-face-bridge-required; PCTP.hard/SOURCE.NO-PULSE.A/AWG.A/TGC.A are typed as downstream or branch support, with no installed direct bridge into Pack/Part/Field witness-face landing (`live-theorem-frontier`; `cm-witness-face-bridge-required-pctp-hard-source-no-pulse-a-awg-a-tgc-a-are-typed-as-downstream-or-branch-support-with-no-installed-direct-bridge-into-pack-part-field`)
 
 ## Source Surfaces
 

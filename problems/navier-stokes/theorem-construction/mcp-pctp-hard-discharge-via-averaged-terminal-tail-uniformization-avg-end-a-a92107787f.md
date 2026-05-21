@@ -2,7 +2,12 @@
 
 ## Status
 
-Theorem-facing discharge packet for the current live edge
+Terminal readout support packet. This is downstream support, not the current
+CM-exit live edge.
+
+CM-exit boundary: promotion requires a checked landing in `Pack`, `Part`, or
+`Field`. The readout chain may support endpoint compatibility, but it is not
+the governing primitive `Exit(Q):=not Member(Q)`.
 
 ```math
 PCTP.hard:
@@ -87,7 +92,11 @@ CFI.A_{avg}+AVG.END.Cert
 End_{NS,avg}.
 ```
 
-This removes `Jump_avg` and the other averaged endpoint faces downstream, after the averaged production branch has been built.
+This removes `Jump_avg` and the other averaged endpoint faces downstream only
+after the averaged production branch has built `CFI.A_avg` / `Field_avg`. It
+does not eliminate a branch that entered `Jump_avg` before that production
+branch. Such a branch needs a separate no-pulse/no-jump supplier or a licensed
+CM-exit consumption.
 
 Finally, terminal readout is used in the legal order:
 
@@ -145,7 +154,9 @@ End_{NS}.
 
 The bad-material and radius-collapse alternatives are routed through `Jump_avg`, which is removed by `AVG.END.A` downstream.
 
-Therefore `PCTP.hard` is discharged as an averaged terminal-tail uniformization theorem.
+Therefore `PCTP.hard` is discharged as an averaged terminal-tail
+uniformization theorem only after the `Jump_avg` branch is separately
+eliminated or consumed.
 
 ## Boundary
 

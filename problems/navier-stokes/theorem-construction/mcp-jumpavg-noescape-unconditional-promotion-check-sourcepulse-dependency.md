@@ -2,7 +2,8 @@
 
 ## Status
 
-Conditional promotion check.
+Superseded as the CM-retained source-pulse gate; still valid as the stronger
+no-pulse/PCTP supplier check.
 
 The branch-combination theorem is installed:
 
@@ -10,11 +11,25 @@ The branch-combination theorem is installed:
 Jump_{avg}+SourcePulseExclusion.A\Longrightarrow\bot.
 ```
 
-The attempted unconditional promotion requires the source-pulse theorem:
+The older no-pulse promotion requires the source-pulse theorem:
 
 ```math
 OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 ```
+
+The CM-retained branch split has since been promoted by
+`mcp-jumpavg-noescape-unconditional-promotion-via-sourcepulse-cmexit.md`:
+
+```math
+SourcePulseCMExit.A
+\Longrightarrow
+\text{no CM-retained }Jump_{avg}\text{ escape}.
+```
+
+Thus the dependency below is not needed for the retained CM source-pulse
+exit. It is only the stronger route that wants the literal
+no-pulse/source-control contradiction from original data without spending the
+class-exit witness.
 
 ## Promotion criterion
 
@@ -46,9 +61,12 @@ The installed surfaces provide reductions and conditional bridges. They do not p
 
 ## Result
 
-The unconditional promotion is pending on `SourcePulseExclusion.A` from original data. The conditional branch contradiction remains valid and ready for promotion when that source-control theorem is installed.
+The stronger no-pulse promotion is pending on `SourcePulseExclusion.A` from
+original data. The CM-retained no-escape route is already promoted by
+`SourcePulseCMExit.A`; the conditional branch contradiction below remains valid
+only as the stronger supplier path.
 
-## Next target
+## Next target for the stronger supplier route only
 
 ```math
 OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.

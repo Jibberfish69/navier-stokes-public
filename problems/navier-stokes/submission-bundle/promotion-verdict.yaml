@@ -4,14 +4,28 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   verdict_id: promotion-verdict-navier-stokes
-  generated_at: '2026-04-30T23:52:59Z'
-  generator: system/runner/lib/promotion_verdict_builder.rb
-  source_branch_set_id: extension-branches-navier-stokes
-  source_falsification_id: lemma-falsification-navier-stokes
-promotion_policy: Promotion only moves a machine branch into tentative proof assembly.
-  It does not merge the branch into the frozen core or discharge the originating obligation.
+  generated_at: '2026-05-04T20:44:00Z'
+  generator: codex/chat20-live-edge-reconciliation
+  source_frontier_id: source-frontier-navier-stokes
+promotion_policy: Promotion only records theorem-edge installation into the local proof assembly. It does not by itself claim public release or submission readiness.
 branches: []
+installed_theorem_edges:
+- edge_id: source-drain-supplier-route-20260504
+  promotion_status: installed
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-normalized-adjoint-amplitude-four-certificate-discharge-20260504.md
+  companion_anchor: problems/navier-stokes/theorem-construction/mpp-source-drain-definition-alignment-and-discharge-20260504.md
+  result: CoeffStop.A through LemmaB.SourceDrain, then SOURCE.NO-PULSE.A / AWG.A / no-Jump_avg / PCTP.hard as supplier-route support.
+- edge_id: cm-certificate-direction-correction-20260506
+  promotion_status: installed
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-cm-certificate-direction-correction-20260506.md
+  result: CM is a one-way analytic certificate for Member(Q); first class-exit has a Pack/Part/Field failure witness, but not-CM does not imply not-Member.
+retired_stale_branches:
+- origin_obligation_id: cm-witness-face-bridge-required-pctp-hard-source-no-pulse-a-awg-a-tgc-a-are-typed-as-downstream-or-branch-support-with-no-installed-direct-bridge-into-pack-part-field
+  previous_promotion_status: quarantined
+  current_status: superseded-by-installed-witnessface-bridge
 summary:
-  promoted_count: 0
+  promoted_count: 2
   quarantined_count: 0
   rejected_count: 0
+  stale_branch_count: 1
+  release_boundary: review/export/release refresh required before public submission readiness.

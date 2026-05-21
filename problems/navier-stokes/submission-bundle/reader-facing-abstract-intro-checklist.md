@@ -42,7 +42,7 @@ SCF_{base}
 6. Verify the endpoint matrix: every first endpoint enters one of `Dead`, `packing-detached`, `tower-blown`, or `Jump`, and each row is eliminated.
 7. Verify dependency order: averaged endpoint closure precedes `READ.COVER`; pointwise `Field` and `DTC.A` appear only after `Field.Read` and `DTC.Read`.
 8. Verify the final continuation step uses standard periodic `H^s` local theory with `s>5/2`.
-9. Verify reproducibility: release manifest, dependency graph, proof matrix, review verdict, release decision, and final snapshot hashes.
+9. Verify reproducibility: release manifest, dependency graph, live authority edge, source frontier, review verdict, release decision, and final snapshot hashes.
 10. Verify scope boundary: the `R^3` branch is excluded from the periodic release.
 
 ## R3 work queue

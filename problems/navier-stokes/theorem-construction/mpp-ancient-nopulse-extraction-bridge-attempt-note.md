@@ -2,270 +2,354 @@
 
 ## Status
 
-Bounded theorem attempt on the compactness route to `SOURCE.NO-PULSE.A`.
+Bounded theorem attempt on the compactness side of `MSC.BadAC`.
 
-This note tests the proposed route
+This note records the correct narrow proof shape for the compactness route:
+source-residue compactness, not a broad ancient-solution Liouville theorem.
+The broad target `Ancient.NoPulse^{strong}` is false, as recorded in
+`mpp-ancient-nopulse-rigidity-audit-note.md`.  The viable contradiction must
+instead preserve the positive source residue of a first terminal pulse, pass to
+a local suitable ancient limit, and then kill that residue by a first-pulse
+drain mechanism.
+
+## Correct Compactness Target
+
+The theorem to rule out is:
+
+```math
+\boxed{
+\text{Terminal source-balanced active pulses cannot occur for smooth
+finite-energy Navier-Stokes data.}
+}
+```
+
+On the compactness side this should not be phrased as
+
+```math
+\text{every ancient tangent packet vanishes}.
+```
+
+The correct sourced version is:
+
+```math
+\boxed{
+\text{no first-pulse ancient local suitable limit can carry a nonzero
+inherited source-residue measure.}
+}
+```
+
+Equivalently, once a localized same-fluid source packet exists, the route
+should be
 
 ```math
 \neg MSC.BadAC
 \Longrightarrow
-\text{nontrivial critical ancient pulse}
+\text{first same-fluid source pulse}
+\Longrightarrow
+\text{ancient local suitable source-residue limit}
 \Longrightarrow
 \bot.
 ```
 
-The second arrow was initially the desired `Ancient.NoPulse` rigidity theorem.
-The rigidity audit `mpp-ancient-nopulse-rigidity-audit-note.md` shows that the
-broad version is false; only a source-residue version remains viable.  The
-first arrow is not automatic either.  The current mixed-shell object is a
-global dyadic shell-time measure, not yet a spatially localized cylinder
-measure.  Therefore the compactness route needs a separate source-residue
-localization bridge before any ancient local-suitable limit can be extracted.
+## What Must Be Localized First
 
-## Starting Assumption
-
-Failure of `MSC.BadAC` means that for some fixed `\eta>0` and a sequence
-`N_n\to\infty`,
-
-```math
-\int_{Bad_{N_n}(\eta)}
-\mathfrak B_{N_n}^\sigma(t)\,dt
-\not\le
-o_{N_n}(1)
-\eta
-\int_0^{T_\ast}\mathfrak B_{N_n}^\sigma(t)\,dt.
-\tag{1}
-```
-
-Here
-
-```math
-Bad_N(\eta)
-=
-\{t:\sup_{j>N}\gamma_j(t)>\eta\},
-\qquad
-\gamma_j(t)=2^{-j}\sum_{m=j-M}^{j+M}E_m(t),
-```
-
-and
-
-```math
-\mathfrak B_N^\sigma(t)
-=
-\sum_{N<j\le\ell}
-\bigl(1+2^{-2(\ell-j)}\bigr)
-K_{j,\ell}^\sigma D_j(t)D_\ell(t).
-```
-
-This is only a measure in time after summing global shell norms.
-
-## What Compactness Would Need
-
-To rescale, one needs a sequence of physical cylinders
-
-```math
-Q_{r_n}(x_n,t_n),
-\qquad
-r_n\simeq2^{-j_n},
-\qquad
-t_n\uparrow T_\ast,
-```
-
-such that a scale-critical local packet has a nonzero lower bound:
-
-```math
-\mathcal P_{r_n}(u,p;Q_{r_n}(x_n,t_n))\ge c_0>0.
-\tag{2}
-```
-
-Then the Navier-Stokes scaling
-
-```math
-v_n(y,s)=r_n u(x_n+r_ny,t_n+r_n^2s),
-\qquad
-q_n(y,s)=r_n^2p(x_n+r_ny,t_n+r_n^2s)
-```
-
-can produce a local suitable ancient limit carrying a nonzero pulse residue.
-
-Thus the missing first bridge is at least the carrier-tether version sharpened
-in `mpp-msc-localize-carrier-tether-audit-note.md`.  For the actual no-pulse
-route it must be the stronger source-residue carrier:
+The compactness contradiction only starts after the global shell-time source
+object has been localized to a physical same-fluid cylinder.  That remains the
+first open bridge:
 
 ```math
 \textbf{MSC.Localize}^{src}:
 \quad
-\neg MSC.BadAC
+\text{global shell pulse}
 \Longrightarrow
-\text{a localized nonzero source-residue critical pulse packet }(2).
-\tag{3}
+\text{same-fluid cylinder with nonzero localized source residue.}
 ```
 
-## Why `MSC.Localize` Is Not Automatic
-
-The quantity in `(1)` is built from global shell norms:
+So the proof below should be read conditionally on the existence of scales
+`r_n\downarrow0`, centers `x_n`, times `t_n\uparrow T_*`, and same-fluid
+cylinders
 
 ```math
-D_j(t)D_\ell(t)
-=
-\bigl(2^{4j}\|\Delta_ju(t)\|_2^2\bigr)
-\bigl(2^{4\ell}\|\Delta_\ell u(t)\|_2^2\bigr).
+Q_n=Q_{r_n}(x_n,t_n)
 ```
 
-It is not a spatial integral of a positive local density already assigned to
-dyadic cells.  Therefore a large value of `\mathfrak B_N^\sigma(t)` does not
-by itself identify a physical center `x_n`.
-
-One can distribute a high-frequency shell almost uniformly over the torus.  A
-global shell coefficient can then be large while every single ball of radius
-`2^{-j}` carries a small local scale-critical packet.  The global quantity is
-large because it sums or multiplies shell norms over the whole torus, not
-because one physical cylinder is already large.
-
-This does not prove such a configuration solves Navier-Stokes.  It proves the
-logical insufficiency of the current global shell-time data for a local blow-up
-extraction.
-
-## Conditional Extraction Once `MSC.Localize^{src}` Is Supplied
-
-Assume `MSC.Localize^{src}`.  Then there are cylinders satisfying `(2)` and
-carrying the active source-residue packet.  Rescale as
-above.  The local energy inequality, pressure Poisson recovery, and uniform
-scale-critical bounds on fixed subcylinders give a local suitable subsequential
-limit
+carrying positive source residue
 
 ```math
-(v_n,q_n)\rightharpoonup(v_\ast,q_\ast)
+\mu_n(Q_n)\ge \eta>0.
 ```
 
-on every fixed backward cylinder.
+Here `\mu_n` denotes the localized positive part of the nonlinear shell source
+feeding the active high-frequency packet on the selected same-fluid window.
 
-The lower bound `(2)` and the source-residue tether pass to a nonzero defect
-measure or nonzero scale-critical packet in the limit.  Thus the limit is a
-source-residue critical pulse object:
+## First-Pulse Selection
+
+Once the same-fluid source residue has been localized, the right normalizing
+functional is the localized positive source density
 
 ```math
-\mathcal P_1(v_\ast,q_\ast;Q_1)\ge c_0.
-\tag{4}
+\mathcal P(r,x,t)
+:=
+r^{-1}
+\int_{t-r^2}^{t}
+\int_{B_r(x)}
+\bigl[F_{>1/r}^{src}\bigr]_+(y,s)\,dy\,ds.
 ```
 
-So the compactness part of the route becomes:
+Here `F_{>1/r}^{src}` is the positive active shell-source input at frequencies
+`>\!1/r`, localized before absolute values and shell products erase the
+same-fluid carrier.
+
+For each bad scale pick `(r_n,x_n,t_n)` so that
 
 ```math
-\neg MSC.BadAC
-+MSC.Localize^{src}
+\mathcal P(r_n,x_n,t_n)\ge \eta,
+```
+
+and choose it earliest at that scale.  Then earlier comparable windows satisfy
+the zero-incoming-pulse condition
+
+```math
+\mathcal P(\rho,y,s)\le \eta/2
+\qquad
+\text{for } s<t_n-c r_n^2,
+```
+
+for every competing same-fluid window at comparable heat scale.  The key point
+is not just nontriviality at time `t_n`, but that `t_n` is the first time at
+that scale where a terminal source pulse appears.
+
+## Rescaling
+
+Rescale by Navier-Stokes scaling:
+
+```math
+v_n(y,s)=r_n u(x_n+r_n y,t_n+r_n^2 s),
+```
+
+with the corresponding pressure rescaling understood.  The localized positive
+source measure rescales to
+
+```math
+\nu_n(A)
+:=
+r_n^{-1}
+\int_A
+\bigl[F_{>1/r_n}^{src}(u)\bigr]_+\,dx\,dt.
+```
+
+After rescaling, the chosen pulse satisfies
+
+```math
+\nu_n(Q_1(0,0))\ge \eta,
+```
+
+while the earliest-pulse choice gives vanishing incoming source on earlier
+times:
+
+```math
+\nu_n(Q_1(y,s))\le \eta/2
+\qquad
+\text{for } s<-c
+```
+
+on every unit-scale competitor in the rescaled same-fluid class.
+
+## Compactness Package
+
+The local energy inequality, local pressure decomposition, and standard
+scale-critical compactness on fixed backward cylinders should extract
+
+```math
+v_n\rightharpoonup v
+```
+
+as a local suitable ancient solution on `(-\infty,0]`, together with weak
+convergence of the positive source measures
+
+```math
+\nu_n\rightharpoonup \nu_*.
+```
+
+The pulse lower bound survives:
+
+```math
+\nu_*(Q_1(0,0))\ge \eta.
+```
+
+The first-pulse choice also survives as no-incoming-source for sufficiently
+negative times:
+
+```math
+\nu_*(Q_1(y,s))=0
+\qquad
+\text{for every } s<-c.
+```
+
+This is exactly the point at which the route must stay source-residue-typed.
+Nothing here proves that the entire ancient limit vanishes; it only produces an
+ancient local suitable limit with an inherited positive source-residue measure
+and a one-sided no-incoming condition from the far past.
+
+## Source-Residue Rigidity Shape
+
+The right rigidity theorem is therefore not a broad ancient no-packet theorem.
+It is the first-pulse source-residue statement:
+
+```math
+\boxed{
+\text{A local suitable ancient Navier-Stokes limit generated by a first
+terminal source pulse cannot carry a nonzero source-residue measure.}
+}
+```
+
+The intended mechanism is a sourced active-mass inequality.  Let
+`\mathcal A(s)` denote the active high-frequency mass in the limit and
+`\mathcal D(s)` the corresponding active dissipation.  The source residue should
+satisfy a forward propagation inequality of the form
+
+```math
+\frac{d}{ds}\mathcal A(s)+c\,\mathcal D(s)\le \nu_*(s).
+```
+
+Because the pulse was chosen first, there is no incoming active source from the
+remote past, so the active mass should vanish there:
+
+```math
+\mathcal A(s)=0
+\qquad
+\text{for all sufficiently negative } s.
+```
+
+Integrating forward then gives
+
+```math
+\mathcal A(0)
++
+c\int_{-\infty}^{0}\mathcal D(s)\,ds
+\le
+\nu_*((-\infty,0]).
+```
+
+To close the contradiction, one needs a source drain estimate
+
+```math
+\nu_*((-\infty,0])
+\le
+\theta
+\int_{-\infty}^{0}\mathcal D(s)\,ds
+```
+
+with `\theta<c`.  Then
+
+```math
+\mathcal A(0)
++
+(c-\theta)\int_{-\infty}^{0}\mathcal D(s)\,ds
+\le 0,
+```
+
+forcing
+
+```math
+\mathcal A(0)=0,
+\qquad
+\nu_*(Q_1)=0,
+```
+
+which contradicts `\nu_*(Q_1)\ge\eta`.
+
+This is the correct source-residue compactness contradiction.
+
+## Exact Remaining Lemmas
+
+The proof therefore reduces to two concrete remaining lemmas.
+
+First, the localization lemma:
+
+```math
+\boxed{
+\textbf{Lemma A:}\quad
+\text{global shell pulse}
 \Longrightarrow
-\text{nontrivial local suitable source-residue critical pulse limit}.
-\tag{5}
+\text{same-fluid cylinder with nonzero localized source residue.}
+}
 ```
 
-## Rigidity Target
+This is exactly `MSC.Localize^{src}` in the sourced form needed by the
+compactness route.
 
-The broad exclusion theorem is false as stated.  The needed source-residue
-exclusion theorem is:
+Second, the drain lemma:
 
 ```math
-\textbf{Ancient.NoPulse}^{src}:
+\boxed{
+\textbf{Lemma B:}\quad
+\nu_*
+\le
+\theta \mathcal D
+\quad
+\text{for first-pulse ancient limits.}
+}
 ```
 
-No local suitable ancient limit generated by a same-fluid terminal pulse and
-carrying the inherited pressure normalization and active source residue can
-satisfy `(4)`.
+This is the decisive new Navier-Stokes input.  Compactness alone will not
+produce it.
 
-Equivalently:
+## Route Consequence
 
-```math
-\text{every such limit has zero active source residue.}
-\tag{6}
-```
-
-Then
+After Lemma A and Lemma B, the contradiction yields
 
 ```math
-MSC.Localize^{src}+Ancient.NoPulse^{src}
+\text{terminal source pulse impossible}
 \Longrightarrow
-MSC.BadAC
+LocalSource.NoPulse.A
 \Longrightarrow
-SOURCE.NO\text{-}PULSE.A.
+SourcePulseExclusion.A.
 ```
 
-At the current route resolution this is not the sharpest surviving
-compactness-side package.  The diagonal/global-product repair has already been
-closed negatively, so the viable descendants beneath `MSC.BadAC` are:
+On the currently recorded downstream route this continues as
 
 ```math
-LocalSource.NoPulse.A,
-```
-
-or, on the localized ancestry side,
-
-```math
-ParentConcentrationOrDiffuseCharge.A+BackwardDrainFunctional.A
-```
-
-or
-
-```math
-ParentConcentrationOrDiffuseCharge.A
-+BoundedAncestryClass.A+SourceResidueLiouville.A.
+SourcePulseExclusion.A
+\Longrightarrow
+AWG.A
+\Longrightarrow
+Jump_{avg}\Rightarrow\bot
+\Longrightarrow
+PCTP.hard/TTU.A.
 ```
 
 ## Verdict
 
-The compactness route does not yet solve the no-pulse atom.  It splits into two
-precise theorem burdens:
+The compactness route is still not installed, but its correct remaining burden
+is now sharp.
+
+It is not:
+
+```math
+\text{prove a broad ancient-solution Liouville theorem}.
+```
+
+It is:
 
 ```math
 \boxed{
-MSC.Localize^{src}:
-\neg MSC.BadAC
-\Longrightarrow
-\text{localized nonzero source-residue critical pulse packet};
+MSC.Localize^{src}
+\quad+\quad
+\text{first-pulse source drain}
 }
 ```
 
-and
+or, in theorem-facing form,
 
 ```math
 \boxed{
-Ancient.NoPulse^{src}:
-\text{no terminal-generated source-residue critical pulse ancient limit exists.}
+\text{same-fluid source-residue localization}
+\quad+\quad
+\text{source-residue rigidity by drain.}
 }
 ```
 
-The current repo contains enough compactness machinery to pass to a local
-suitable limit after a localized source-residue critical packet is produced. It
-does not currently prove the source-residue localization bridge from the global
-mixed-shell time-measure, and it does not prove the source-residue ancient-pulse
-rigidity theorem.
-
-## Diagonal Carrier Refinement
-
-The later notes `mpp-msc-localize-diagonal-carrier-attempt-note.md` and
-`mpp-msc-diagtether-direct-attempt-note.md` refine the localization burden.  The
-global mixed-shell object expands as a double-space product `D_jD_\ell`; a local
-compactness extraction needs near-diagonal, same-fluid co-location before the
-source-residue ancient limit can even be formed.
-
-Thus the direct compactness route now reads:
-
-```math
-\boxed{
-(DiagDom.A+Ancient.NoPulse^{src})
-\quad\text{or}\quad
-LocalSource.NoPulse.A
-\Longrightarrow
-MSC.BadAC.
-}
-```
-
-Here `DiagDom.A` would recover a diagonal local carrier from the global product,
-which would still need `Ancient.NoPulse^{src}`.  `LocalSource.NoPulse.A`
-bypasses the global product and proves the branch-native no-pulse theorem
-directly on the pre-Cauchy same-fluid source packet.  The later
-localized-core/ancestry notes then sharpen the second branch further: once a
-source-residue pulse packet is kept physical, the remaining theorem-facing
-ancestor closures are
-`ParentConcentrationOrDiffuseCharge.A+BackwardDrainFunctional.A` or
-`ParentConcentrationOrDiffuseCharge.A+BoundedAncestryClass.A+SourceResidueLiouville.A`,
-not the older coarse `SourceParent.Measure` package.
+That is the correct compactness-side content beneath `MSC.BadAC`.  The broad
+ancient theorem stays closed negatively; only the sourced first-pulse version
+remains viable.

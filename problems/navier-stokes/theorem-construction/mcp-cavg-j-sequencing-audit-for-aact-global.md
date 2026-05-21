@@ -67,9 +67,10 @@ the tail avoids the bad material set and avoids terminal SCF-good radius degener
 DTC.A_{avg}.
 ```
 
-## Lemma 4: Jump_avg removal is downstream
+## Lemma 4: Jump_avg removal is not supplied by the good-branch production
 
-`Jump_avg` is removed only as an endpoint face inside the averaged endpoint theorem:
+`Jump_avg` can be removed as an endpoint face inside the averaged endpoint
+theorem only after the averaged field chain has produced `CFI.A_avg`:
 
 ```math
 CFI.A_{avg}+AVG.END.Cert
@@ -91,7 +92,13 @@ then the averaged consumer chain builds
 DTC.A_{avg}\Longrightarrow AVG.RCV.A\Longrightarrow LCI.A_{avg}\Longrightarrow CSP.A_{avg}\Longrightarrow OFP.A_{avg}\Longrightarrow CFI.A_{avg},
 ```
 
-and the endpoint theorem removes the averaged faces.
+and the endpoint theorem removes the averaged faces on that produced averaged
+endpoint package.
+
+This does not by itself eliminate a branch that has already entered `Jump_avg`
+before `CFI.A_avg` is produced. The CM source-pulse branch is consumed by
+`SourcePulseCMExit.A`. The downstream positive `PCTP.hard` route requires a
+no-pulse/AWG-style supplier for literal no-`Jump_avg` terminal-tail production.
 
 After that,
 
@@ -101,13 +108,16 @@ End_{NS,avg}\Longrightarrow READ.COVER\Longrightarrow READ.END\Longrightarrow En
 
 ## Sequencing verdict
 
-The role split is valid:
+The role split is valid with the following boundary:
 
 1. `SGC.A_{a.e.}` covers the good region.
 2. `CAVG.J` types the bad region as `Jump_avg`.
 3. `TGC.A` types terminal good-radius collapse as `Jump_avg`.
 4. `AACT.Global.noJump` proves `DTC.A_{avg}` on the complementary branch.
-5. `AVG.END.A` removes `Jump_avg` downstream.
+5. `AVG.END.A` removes `Jump_avg` only after `CFI.A_avg` exists on the averaged
+   endpoint package.
 6. `READ.COVER` appears only after `End_NS_avg`.
 
-Thus the averaged route avoids the previous circularity: the bad-set split is an endpoint-face split, while pointwise readout remains terminal.
+Thus the averaged route avoids the previous pointwise-readout circularity, but
+it does not by itself discharge the `Jump_avg` branch. That branch must be
+consumed by CM exit or killed by a separate no-pulse/no-jump supplier.

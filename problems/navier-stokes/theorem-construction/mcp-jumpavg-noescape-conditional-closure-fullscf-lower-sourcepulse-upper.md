@@ -2,7 +2,11 @@
 
 ## Status
 
-Conditional theorem closure.
+Conditional theorem closure for the stronger no-pulse/PCTP supplier route.
+
+The CM-retained source-pulse branch is already handled by `SourcePulseCMExit.A`;
+this note proves only the stronger shared-charge contradiction that uses
+`SourcePulseExclusion.A`.
 
 The lower side is installed for the equivalent shared full-SCF charge:
 
@@ -63,7 +67,8 @@ Jump_{avg}+SourcePulseExclusion.A\Longrightarrow\bot.
 
 ## Consequence
 
-The `Jump_avg` branch is eliminated once the exact source-control atom is installed:
+The stronger no-pulse route eliminates `Jump_avg` once the exact source-control
+atom is installed:
 
 ```math
 OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
@@ -71,4 +76,7 @@ OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 
 ## Boundary
 
-This note closes the branch-combination theorem only. The unconditional route still needs the original-data proof of `SourcePulseExclusion.A`.
+This note closes the branch-combination theorem only for the stronger
+no-pulse/PCTP route. The CM-retained branch split uses `SourcePulseCMExit.A`;
+the literal no-pulse contradiction still needs the original-data proof of
+`SourcePulseExclusion.A`.

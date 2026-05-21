@@ -72,6 +72,21 @@ branch readout packets may be identified only when their admissible maps
 preserve the same `Pack / Part / Field` endpoint cell on the same same-fluid
 family.
 
+The cover taxonomy for the endpoint words is collected in
+[mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md).
+In that map, tangential slip is a base-rung `Jump` reading: normal flux may stay
+compatible while one-field coherence fails. If the same slip is used as a
+participation-failure mechanism, it is a cross-entry and must reduce through
+`END.Cross`; the native visible readout remains Field/Jump.
+
+The matrix rows are not mutually exclusive physical doors. They are certificate
+rows. A single terminal behavior may have a native row and a cross-entry row.
+In particular, finite material-packet distortion is native to the Pack row as
+`packing-detached`, while the strain/tower mechanism producing it may also
+activate `tower-blown` or Field-side coherence pressure. The matrix keeps those
+readouts typed rather than pretending that one visible endpoint has only one
+cause.
+
 ### Conditional 21-Cell Endpoint Matrix
 
 For the terminal route theorem, the Pack/Part/Field endpoint matrix is the

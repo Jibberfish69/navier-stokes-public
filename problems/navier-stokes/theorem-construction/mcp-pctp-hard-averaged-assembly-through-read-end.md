@@ -40,7 +40,9 @@ SGC.A_{a.e.}+ATD_m^\varepsilon+\neg Jump_{avg}
 DTC.A_{avg}.
 ```
 
-The `Jump_avg` branch is not removed at this stage. It is carried as an averaged endpoint face.
+The `Jump_avg` branch is not removed at this stage. It is carried only as an
+averaged endpoint face label; removing it still requires either a later
+averaged endpoint package with `CFI.A_avg`, or a separate branch eliminator.
 
 ## Averaged receiver and class chain
 
@@ -84,9 +86,9 @@ Dead,
 \qquad Jump_{avg}.
 ```
 
-The `CAVG.J` audit ensures that bad-set and terminal scale-collapse alternatives enter only through the `Jump_avg` face. Hence after `AVG.END.A`, the averaged endpoint package removes the complementary branch as well as the no-`Jump_avg` branch.
+The `CAVG.J` audit ensures that bad-set and terminal scale-collapse alternatives enter only through the `Jump_avg` face. `AVG.END.A` removes that face only after `CFI.A_avg` / `Field_avg` has been produced. Therefore the positive downstream route still needs a lawful `Jump_avg` branch eliminator if the branch has entered `Jump_avg` before averaged production.
 
-Therefore the averaged route gives
+On the branch where averaged production reaches `CFI.A_avg`, the averaged route gives
 
 ```math
 End_{NS,avg}.
@@ -144,7 +146,10 @@ and standard local theory extends the solution past any alleged finite `T_*`.
 
 ## Conditional theorem
 
-Assuming the installed averaged production surfaces, `AACT.Global.noJump`, `CAVG.J` sequencing, averaged receiver/consumer chain, averaged endpoint theorem, terminal readout theorem, and `ECQ.A`, the averaged route proves the terminal-tail implication
+Assuming the installed averaged production surfaces, `AACT.Global.noJump`,
+`CAVG.J` sequencing, a lawful `Jump_avg` branch eliminator, the averaged
+receiver/consumer chain, averaged endpoint theorem, terminal readout theorem,
+and `ECQ.A`, the averaged route proves the terminal-tail implication
 
 ```math
 OriginalSmoothData
@@ -196,4 +201,8 @@ READ.COVER\text{ or }End_{NS}\text{ before }End_{NS,avg}.
 
 ## Boundary
 
-This assembly closes the current theorem-work loop conditionally. It does not by itself update the proof-obligation matrix, review verdict, release decision, or Clay-level promotion state. Those surfaces must be regenerated and audited before any release claim.
+This assembly closes the current theorem-work loop only after the `Jump_avg`
+branch is separately eliminated or consumed. It does not by itself update the
+proof-obligation matrix, review verdict, release decision, or Clay-level
+promotion state. Those surfaces must be regenerated and audited before any
+release claim.

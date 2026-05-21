@@ -2,7 +2,12 @@
 
 ## Target
 
-Rerun `Jump_avg` branch elimination with lower and upper estimates on one shared charge.
+Rerun the stronger no-pulse/PCTP `Jump_avg` branch elimination with lower and
+upper estimates on one shared charge.
+
+The CM-retained source-pulse branch is handled separately by
+`SourcePulseCMExit.A`; this note only records the stronger route that wants a
+literal no-pulse contradiction from original data.
 
 Use the full-SCF charge
 
@@ -49,15 +54,15 @@ Jump_{avg}+SourcePulseExclusion.A\Longrightarrow\bot.
 
 Therefore the `Jump_avg` branch is eliminated under the source-pulse theorem.
 
-## Promotion check
+## Promotion check for the stronger supplier route
 
-The unconditional promotion is exactly equivalent to proving
+The stronger no-pulse promotion is exactly equivalent to proving
 
 ```math
 OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 ```
 
-Then
+Then this stronger route gives
 
 ```math
 OriginalSmoothData+Jump_{avg}
@@ -69,7 +74,9 @@ SourcePulseExclusion.A+Jump_{avg}
 
 ## Verdict
 
-The rerun closes the shared-charge branch-combination theorem conditionally. The remaining open theorem is the source-control atom from original data:
+The rerun closes the shared-charge branch-combination theorem conditionally. The
+remaining open theorem for this stronger supplier route is the source-control
+atom from original data:
 
 ```math
 \boxed{OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.}

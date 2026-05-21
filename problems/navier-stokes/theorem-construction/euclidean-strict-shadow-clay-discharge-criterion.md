@@ -5,6 +5,10 @@
 This note records the downstream Clay discharge criterion on the Euclidean
 strict-shadow/export surface.
 
+CM-exit boundary: this is an export/consumer surface after a CM-to-Euclidean
+splice. It is not a CM child burden and cannot steer `Pack`, `Part`, or `Field`
+exit work by itself.
+
 It is not a branch root. Before `(A1a)`--`(A1c)` are even meaningful, the
 earlier CM-to-Euclidean export splice must already have supplied the actual
 Euclidean carrier/readout surface used for whole-space discharge. This note

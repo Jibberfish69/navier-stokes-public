@@ -2,6 +2,11 @@
 
 ## Status
 
+Supersession status (2026-05-04): historical / branch-local context. The selected
+source-pulse/no-`Jump_avg` supplier route is now discharged by `LemmaB.SourceDrain`
+and retained as downstream support for `PCTP.hard / TTU.A`; it is no longer the
+active math frontier.
+
 Conditional closure of the full terminal-tail production chain.
 
 The active averaged route has collapsed `PCTP.hard / TTU.A` to one remaining source-control primitive:
