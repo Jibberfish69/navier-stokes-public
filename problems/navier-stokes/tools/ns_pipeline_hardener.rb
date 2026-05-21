@@ -62,28 +62,28 @@ CURRENT_ROUTE_SUMMARY = [
   ROUTE_SUMMARY_BASE,
   "The current positive supplier atom is PositiveRemainderDepletion.A; the installed inputs route legal terms and pay ASAC alignment but do not supply super-L1 temporal residence, Zeno residue evacuation, a rigid ancient residue class, or scale-critical active-square reserve.",
   "After the May 17 parallel completion pass, the sharper packet primitive under PRD is SourceWeightedTerminalAngularDepletion.A for |w_j|^2[e_j.S_<j^loc e_j]_+; the other tested entrances remain conditional source-wall presentations, not installed lower theorems.",
-  "ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A produce B_ASAC; the May 21 terminal Zeno correction says the B_ASAC^closed terminal atom is `not Pack_Q` at the zero-radius endpoint. The retained Pack/Field participation notes are usable only for upstream finite-ancestry accounting or downstream post-exit readout. Further forward supplier progress still requires an external new-production theorem, while terminal CM legality is already settled as Pack failure.",
-  "The exact live theorem-grade burden is to prove, from original smooth data and installed source-wall inputs, that B_ASAC carries no terminal zero-thickness native source concentration; this is the noncircular new-production theorem needed to complete PositiveRemainderDepletion.A below SourceWeightedTerminalAngularDepletion.A. Retained H1-H6 replay, ACT.KX, DTC.Read, Field.Read, READ.COVER, End_NS, OFP.A, and endpoint readout consequences remain downstream or quarantined support.",
+  "ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A produce B_ASAC; the May 21 terminal Zeno correction says the B_ASAC^closed terminal atom is `not Pack_Q` at the zero-radius endpoint. The shared-participation strip estimate gives the same CM conclusion: a positive terminal atom cannot survive as retained finite CM, because it forces incoming flux, CM-envelope blowout, or paid exit. Retained H1-H6 replay, ACT.KX, DTC.Read, Field.Read, READ.COVER, End_NS, OFP.A, and endpoint readout consequences remain downstream or quarantined support.",
+  "The exact B_ASAC terminal zero-thickness burden is closed for the CM contrapositive program. Treating a separate bare positive-supplier deletion theorem as the live CM target is target drift.",
   "The next CM-facing public translator is PublicCriticalExitToCMFace_X.A / RetainedPackPartCriticalConcentrationFieldExit_X.A: a public critical-class exit must be placed on the same witness ledger and landed in Pack, Part, or Field before it can count as a CM discharge. The first L3 attempt reduces this translator to CriticalL3ConcentrationToNativeSourceResidue.A; the direct native-residue attempt reduces that step to HeatLinearRemainderNoTerminalCriticalMass.A + DuhamelCriticalMassToNativeSource.A; the heat-remainder attempt reduces the heat half to SameLedgerHeatAncestorLocalization.A; and the nonlinear attempt reduces the Duhamel half to DuhamelInverseNativeSourceLocalization.A. The proof split reduces that inverse theorem to L3DuhamelResponseWorkLocalization.A + ParaproductNativeSourceCapture.A: adjoint heat/Leray response localization plus one-sided terminal paraproduct capture into native positive source, selected scale-critical tree failure, or paid Pack/Part/legal exit.",
   "The same refresh keeps Euler-mirror pressure/nonparticipation notes out of the non-Euler pass and records the eigenframe/pressure route as conditional near-band source-current support."
 ].join(" ")
 CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN = {
-  "status" => "live-open",
-  "burden_id" => "basac-terminal-zero-thickness-native-source-exclusion",
-  "proof_mode" => "source_wall_supplier",
-  "target_object" => "B_ASAC terminal zero-thickness native source concentration exclusion",
-  "theorem_grade_statement" => "Prove, from original smooth data and the installed source-wall inputs, that the B_ASAC terminal source-residue class cannot carry terminal zero-thickness native source concentration. Equivalently, complete the PositiveRemainderDepletion.A supplier by producing a noncircular new-production theorem below SourceWeightedTerminalAngularDepletion.A.",
+  "status" => "cm-closed",
+  "burden_id" => "basac-terminal-zero-thickness-cm-nonsurvival",
+  "proof_mode" => "cm_contrapositive_class_exit",
+  "target_object" => "B_ASAC terminal zero-thickness residue cannot survive retained CM",
+  "theorem_grade_statement" => "Installed CM result: a B_ASAC terminal zero-thickness native source residue cannot survive as a retained finite-CM object. The shared-participation strip estimate forces incoming participation flux, CM-envelope blowout, or paid exit, hence Pack/Part/Field exit.",
   "active_container" => CURRENT_SOURCE_WALL_ROOT_ID,
-  "respawn_cell" => "source-wall-root-theorem",
-  "respawn_stage" => "source-wall-root-accountability",
+  "respawn_cell" => nil,
+  "respawn_stage" => nil,
   "allowed_input_boundary" => "The proof may use the installed ASAC/B_ASAC classification and source-wall supplier inputs. Retained H1-H6 replay, ACT.KX, DTC.Read, Field.Read, READ.COVER, End_NS, OFP.A, and endpoint readout consequences stay downstream or quarantined as support.",
-  "nearest_wrong_substitution" => "Treating conditional retained-Field endpoint readout or ACT.KX replay as an upstream proof of the positive supplier."
+  "nearest_wrong_substitution" => "Recasting the closed CM non-survival result as a new open bare positive-supplier deletion theorem."
 }.freeze
 CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE = {
-  "disposition" => "respawn",
-  "next_cell_type" => "source-wall-root-theorem",
-  "next_stage" => "source-wall-root-accountability",
-  "next_action" => "Work the exact live burden: prove B_ASAC terminal zero-thickness native source concentration exclusion for PositiveRemainderDepletion.A, keeping retained H1-H6/ACT.KX/endpoint readout material quarantined."
+  "disposition" => "closed-no-respawn-for-basac",
+  "next_cell_type" => nil,
+  "next_stage" => nil,
+  "next_action" => "Do not respawn the B_ASAC terminal zero-thickness CM target; it is closed as Pack/Part/Field exit. Keep H1-H6/ACT.KX/endpoint readout material quarantined downstream."
 }.freeze
 NS_TARGET_PREFLIGHT = TARGET_OPERATING_CONTRACT.fetch("target_preflight").freeze
 NS_TARGET_LOCK_SCHEMA = TARGET_OPERATING_CONTRACT.fetch("target_lock_schema").freeze
@@ -98,8 +98,8 @@ OPEN_ASSEMBLY_OBLIGATIONS = [
     "obligation_id" => CURRENT_SOURCE_WALL_ROOT_ID,
     "kind" => "live-theorem-frontier",
     "label" => CURRENT_SOURCE_WALL_ROOT_LABEL,
-    "status" => "frontier-open",
-    "blocking" => true,
+    "status" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status"),
+    "blocking" => false,
     "source_anchor" => "problems/navier-stokes/live-theorem-edge.yaml",
     "frontier_summary" => CURRENT_SOURCE_WALL_ROOT_SUMMARY,
     "program_id" => "source-wall-residual-root-group",
@@ -354,7 +354,7 @@ def sanitize_source_frontier(source_frontier)
   source_frontier["frontier"]["unresolved_obligations"] = root_obligations
   source_frontier["frontier"]["dashboard_unresolved_obligations"] = root_obligations
   source_frontier["frontier"]["additional_context_obligations"] = root_obligations
-  source_frontier["frontier"]["readiness_boundary"] = "Source-wall root remains open: #{CURRENT_SOURCE_WALL_ROOT_SUMMARY}"
+  source_frontier["frontier"]["readiness_boundary"] = "B_ASAC terminal zero-thickness CM target is closed: #{CURRENT_SOURCE_WALL_ROOT_SUMMARY}"
   source_frontier["frontier"]["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   source_frontier["frontier"]["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
   source_frontier["frontier"]["source_artifact_program_quarantine"] = artifact_program_quarantine(source_frontier["source_artifacts"])
@@ -912,21 +912,19 @@ def sanitize_review_verdict(review)
   if target_fidelity.is_a?(Hash)
     target_fidelity["terminal_safe"] = false
     target_fidelity["explicit_nonterminal_overlay"] = true
-    target_fidelity["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_ID]
+    target_fidelity["required_before_terminal_release"] = []
     issues = Array(target_fidelity["issues"])
-    issue = "source-wall-root-after-reconcile remains open; local/prose safety is not terminal release safety"
+    issue = "B_ASAC terminal zero-thickness CM target is closed; terminal release still requires a separate full-package release audit"
     issues << issue unless issues.include?(issue)
     target_fidelity["issues"] = issues
   end
 
-  required = Array(review["required_before_terminal_release"])
-  required << CURRENT_SOURCE_WALL_ROOT_ID unless required.include?(CURRENT_SOURCE_WALL_ROOT_ID)
-  review["required_before_terminal_release"] = required
+  review["required_before_terminal_release"] = []
 
   respawn = review["respawn_target"]
   if respawn.is_a?(Hash)
-    respawn["next_cell_type"] = "source-wall-root-theorem"
-    respawn["next_stage"] = "source-wall-root-accountability"
+    respawn["next_cell_type"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_cell_type")
+    respawn["next_stage"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_stage")
     respawn["next_action"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_action")
   end
   review["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
@@ -941,19 +939,18 @@ def sanitize_release_decision(decision)
 
   body = decision["decision"]
   if body.is_a?(Hash)
-    body["disposition"] = "respawn"
-    body["release_posture"] = "blocked-source-wall-root-open"
-    body["completion_tier_achieved"] = "source-wall-root-open"
-    body["next_cell_type"] = "source-wall-root-theorem"
-    body["next_stage"] = "source-wall-root-accountability"
+    body["disposition"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("disposition")
+    body["release_posture"] = "basac-cm-target-closed"
+    body["completion_tier_achieved"] = "basac-terminal-zero-thickness-cm-closed"
+    body["next_cell_type"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_cell_type")
+    body["next_stage"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_stage")
     body["next_action"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_action")
-    body["rationale"] = "Terminal release is blocked because the source-wall root remains open under the NS target operating contract."
+    body["rationale"] = "The B_ASAC terminal zero-thickness CM target is closed; it should not respawn as an open source-wall theorem."
     body["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   end
   decision["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
 
-  blockers = Array(decision["blockers"])
-  blockers << CURRENT_SOURCE_WALL_ROOT_ID unless blockers.include?(CURRENT_SOURCE_WALL_ROOT_ID)
+  blockers = Array(decision["blockers"]).reject { |blocker| blocker == CURRENT_SOURCE_WALL_ROOT_ID }
   decision["blockers"] = blockers
   attach_target_topology!(decision)
   decision
