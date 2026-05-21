@@ -42,9 +42,9 @@ TARGET_OPERATING_CONTRACT = YAML.load_file(TARGET_OPERATING_CONTRACT_PATH.to_s).
 CURRENT_SOURCE_WALL_ROOT_ID = "source-wall-root-after-reconcile"
 CURRENT_SOURCE_WALL_ROOT_LABEL = "Recenter source-wall-root-after-reconcile on known CM-exit discipline after SourceWall.Reconcile.A demotion"
 CURRENT_SOURCE_WALL_ROOT_SUMMARY = "source-wall-root-after-reconcile remains open only as separate supplier work after SourceWall.Reconcile.A demotes normalized-adjoint source-drain to conditional support; AllNonEulerNSSurfaceFaceSweep.A indexes 1945 non-Euler Navier-Stokes text surfaces, excludes 71 Euler/fixed-nu surfaces after content-level exclusion and the May 17 Euler-mirror quarantine, includes its own theorem note/index/diagnostic ledgers by InventorySelfInclusion.A, corrects lexical mis-sorts by IndexClassifierSoundness.A, face-sorts Carleson, Zeno, retained-amplitude, height/low-strain, signed-current, readout, generated, manuscript, source-history, runtime, and export surfaces into Pack, Part, Field, typed Pack/Part/Field/Zeno subsets, or support; AllNonEulerNSFailureFaceDiagnostic.A records the selected failure type and CM face break for each indexed row; AllNonEulerCMContrapositiveClosure.A is the row-level diagnostic ledger, not a substitute for object-level proof of every text artifact or any positive supplier theorem; MajorNonEulerCMContrapositiveClosure.A closes the major named non-Euler surfaces as Pack, Part, Field, typed Zeno-to-Field subcase, or supplier/readout quarantine."
-CURRENT_THEOREM_STATUS = "theorem-open-at-source-wall-root"
-CURRENT_PACKAGE_STATUS = "source-drain-and-cm-witness-face-bridge-installed-but-source-wall-root-open"
-CURRENT_LOWEST_SAFE_CLAIM = "Every smooth divergence-free zero-mean initial datum on T^3 with f=0 generates a global smooth classical three-dimensional incompressible Navier-Stokes solution only after the reopened source-wall root is proved; this theorem packet is not ready for export as a stand-alone closure."
+CURRENT_THEOREM_STATUS = "basac-terminal-zero-thickness-cm-target-closed"
+CURRENT_PACKAGE_STATUS = "basac-cm-nonsurvival-installed-full-release-audit-still-required"
+CURRENT_LOWEST_SAFE_CLAIM = "The B_ASAC terminal zero-thickness source residue is closed as a CM class-exit object: a positive terminal atom cannot survive retained finite CM and must become Pack/Part/Field exit. Full Clay export still requires a separate full-package release audit."
 CURRENT_ROUTE_SUMMARY = "The CM primitive remains `Exit(Q):=not Member(Q)`. The theorem-grade installed CM direction is only `forall N exists r_N: CM_{N,r_N,Q}=>Member(Q;O_NS^work)`, with `CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}` as the canonical route-relative witness envelope. First class-exit is witnessed by first failure of at least one of Pack/Part/Field, but the blunt converse `not CM_{N,r,Q}=>not Member(Q;O_NS^work)` is absent. The PCTP / SOURCE.NO-PULSE / AWG / TGC family remains supplier/readout support, with source-drain feeding the Field/readout side rather than replacing the CM primitive. SourceWall.Reconcile.A is resolved by demotion: normalized-adjoint source-drain is conditional support, not an unconditional proof of SOURCE.NO-PULSE.A. The active work is CM-exit discipline: a failure surface is live only when it is forced by first-exit analysis or lands in Pack, Part, or Field. ScaleCriticalTreeCarleson.A selected failure lands in Field by RawSCTCFailurePartition.A + SCTCFailureToFaceWitness.A + RetainedSCTCFailureFieldExit.A; finite Zeno ancestry is sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A, while the terminal zero-radius residue is `not Pack_Q` rather than a retained Field packet; AllNonEulerNSSurfaceFaceSweep.A indexes 1945 non-Euler Navier-Stokes text surfaces after self-inclusion, content-level Euler exclusion, May 17 Euler-mirror quarantine, and manual theorem-role correction; AllNonEulerNSFailureFaceDiagnostic.A gives each row a selected-failure diagnostic; AllNonEulerCMContrapositiveClosure.A is the row-level diagnostic ledger; MajorNonEulerCMContrapositiveClosure.A closes the major named surfaces. Retained amplitude is Pack/Part or source-wall return, height/low-strain is a Pack/Part/Field/Zeno subset, post-ASAC signed-current reduces to the Zeno branch, and generated/manuscript/source-history/runtime/export surfaces are support. Direct supplier theorems remain separate."
 CURRENT_WITNESS_FORM = "first class-exit witness: not Pack_Q or not Part_{N,Q} or not Field_{N,r,Q} on the same-fluid window; arbitrary not-CM is not an installed not-Member converse"
 SOURCE_WALL_ROOT_SUMMARY_BASE = CURRENT_SOURCE_WALL_ROOT_SUMMARY
@@ -416,7 +416,7 @@ def sanitize_theorem_packet(packet)
   packet["posture"]["theorem_target"] = "full-mpp-closure"
   packet["posture"]["current_package_status"] = CURRENT_THEOREM_STATUS
   packet["posture"]["standalone_status"] = CURRENT_THEOREM_STATUS
-  packet["posture"]["open_sourcewall_root"] = CURRENT_SOURCE_WALL_ROOT_SUMMARY
+  packet["posture"]["sourcewall_root_cm_status"] = CURRENT_SOURCE_WALL_ROOT_SUMMARY
   packet["posture"]["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   packet["posture"]["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
   packet["posture"]["one_frontier_language_boundary"] = NS_TARGET_PREFLIGHT.fetch("anti_flattening_rule")
@@ -569,7 +569,7 @@ def sanitize_submission_export_status(status)
 
   status["status"] = "stale-not-ready"
   status["render_quality"] = "stale"
-  status["source_wall_root_open"] = CURRENT_SOURCE_WALL_ROOT_SUMMARY
+  status["source_wall_root_cm_status"] = CURRENT_SOURCE_WALL_ROOT_SUMMARY
   status["stdout"] = ""
   status["stderr"] = ""
   status["fallback"] = nil
@@ -959,9 +959,9 @@ end
 def sanitize_release_manifest(manifest)
   return manifest unless manifest.is_a?(Hash)
 
-  manifest["release_gate"] = "blocked-source-wall-root-open"
+  manifest["release_gate"] = "basac-cm-target-closed-full-release-audit-needed"
   manifest["terminal_safe"] = false
-  manifest["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_ID]
+  manifest["required_before_terminal_release"] = []
   review = manifest.dig("source_summary", "review_verdict")
   if review.is_a?(Hash)
     review["terminal_safe"] = false
