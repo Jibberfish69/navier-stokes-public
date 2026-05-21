@@ -2,7 +2,7 @@
 
 ## Status
 
-Failed to find an additional installed production mechanism.  The branch is completed at current resolution by obstruction placement: `B_ASAC^closed` lands as a selected Zeno terminal atom Field-face diagnostic.
+Failed to find an additional installed production mechanism.  The branch is completed at current resolution by obstruction placement: `B_ASAC^closed` is a selected zero-radius terminal Zeno residue, hence terminal `not Pack_Q`; Field/Jump language is post-exit readout only unless a positive-scale retained carrier is separately proved.
 
 ## Starting point
 
@@ -109,4 +109,4 @@ ProductionIntoRigidBASACTimeFaceSubclass.A.
 
 ## Verdict
 
-No additional installed mechanism closes the source-wall supplier.  The run is completed as a hard obstruction placement: `B_ASAC^closed` is the canonical Field-face obstruction class for the current route, and all searched alternatives return to named production atoms.
+No additional installed mechanism closes the source-wall supplier.  The run is completed as a hard obstruction placement: `B_ASAC^closed` is the canonical terminal Pack-failure / source-accounting obstruction for the current route, and all searched alternatives return to named production atoms.
