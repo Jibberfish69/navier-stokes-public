@@ -1,0 +1,46 @@
+# MPP Terminal Zeno Pack Failure Correction
+
+Date: 2026-05-21
+
+Status: authority wording correction.
+
+## Correction
+
+Finite Zeno ancestry packets may be legal CM packets. For every finite stage
+`m`, the selected packet `P_m` has positive radius `r_m>0` and can still sit
+inside the ordinary retained packet grammar.
+
+The terminal Zeno limit is different:
+
+```math
+r_m\downarrow 0,\qquad t_m\uparrow T_*,
+```
+
+with terminal source residue
+
+```math
+\mu_*^{src}(B_R\times\{0\})>0.
+```
+
+That endpoint is not a retained positive-radius packet. It is a zero-radius,
+terminal-time residue. In the CM witness hierarchy the first endpoint failure is
+therefore `not Pack_Q`: the carrier/cover legality has collapsed before one can
+spend a retained `Field_{N,r,Q}` face.
+
+Endpoint source or jump language is allowed only as downstream readout after
+CM exit, or under an additional positive-scale retained-carrier theorem. It must
+not be used to treat the terminal residue itself as a legal retained CM packet.
+
+## Open Work
+
+The open Zeno work is upstream source-accounting only:
+
+```text
+legal finite ancestry must pay reserve, dissipate, receive flux,
+or hit CM exit before a terminal zero-radius residue appears.
+```
+
+The terminal zero-radius object is already illegal inside CM packet legality.
+The forward PRD supplier still needs a new-production theorem excluding this
+terminal concentration from original data, but that is not a retained terminal
+packet theorem and not a Field-face conversion of the zero-radius endpoint.
