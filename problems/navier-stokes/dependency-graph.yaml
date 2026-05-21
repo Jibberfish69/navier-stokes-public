@@ -5,8 +5,8 @@ identity:
   artifact_id: dependency-graph-navier-stokes
   generated_at: '2026-05-07T00:51:03Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: frontier-open
-pass: false
+status: cm-closed
+pass: true
 release_eligible: false
 source:
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
@@ -16,9 +16,9 @@ source:
   release_decision: problems/navier-stokes/release-decision.yaml
 summary:
   total_obligations: 15
-  blocking_count: 1
+  blocking_count: 0
   frontier_count: 1
-  all_discharged: false
+  all_discharged: true
   authority_mode: direct-live-surfaces
   unresolved_count: 1
   bridge_discharge_blocking_count: 1
@@ -26,18 +26,20 @@ summary:
   open_frontier_labels:
   - source-wall-root-after-reconcile
   node_count: 7
-  active_frontier: 'source-wall-root-after-reconcile remains open only as separate
-    supplier work after SourceWall.Reconcile.A demotes normalized-adjoint source-drain
-    to conditional support; AllNonEulerNSSurfaceFaceSweep.A indexes 1945 non-Euler
-    Navier-Stokes text surfaces, excludes 71 Euler/fixed-nu surfaces after content-level
-    exclusion and the May 17 Euler-mirror quarantine, includes its own theorem note/index/diagnostic
-    ledgers by InventorySelfInclusion.A, corrects lexical mis-sorts by IndexClassifierSoundness.A,
-    face-sorts Carleson, Zeno, retained-amplitude, height/low-strain, signed-current,
-    readout, generated, manuscript, source-history, runtime, and export surfaces into
-    Pack, Part, Field, typed Pack/Part/Field/Zeno subsets, or support; AllNonEulerNSFailureFaceDiagnostic.A
+  active_frontier: 'source-wall-root-after-reconcile has the B_ASAC terminal zero-thickness
+    residue closed as CM class-exit: terminal mass cannot survive retained finite
+    CM and must become Pack/Part/Field exit. SourceWall.Reconcile.A still demotes
+    normalized-adjoint source-drain to conditional support; AllNonEulerNSSurfaceFaceSweep.A
+    indexes 1945 non-Euler Navier-Stokes text surfaces, excludes 71 Euler/fixed-nu
+    surfaces after content-level exclusion and the May 17 Euler-mirror quarantine,
+    includes its own theorem note/index/diagnostic ledgers by InventorySelfInclusion.A,
+    corrects lexical mis-sorts by IndexClassifierSoundness.A, face-sorts Carleson,
+    Zeno, retained-amplitude, height/low-strain, signed-current, readout, generated,
+    manuscript, source-history, runtime, and export surfaces into Pack, Part, Field,
+    typed Pack/Part/Field/Zeno subsets, or support; AllNonEulerNSFailureFaceDiagnostic.A
     records the selected failure type and CM face break for each indexed row; AllNonEulerCMContrapositiveClosure.A
     is the row-level diagnostic ledger, not a substitute for object-level proof of
-    every text artifact or any positive supplier theorem; MajorNonEulerCMContrapositiveClosure.A
+    every text artifact or any separate downstream positive-supplier theorem; MajorNonEulerCMContrapositiveClosure.A
     closes the major named non-Euler surfaces as Pack, Part, Field, typed Zeno-to-Field
     subcase, or supplier/readout quarantine. The May 16 source-supplier handoff sharpens
     the remaining positive source-control atom to PositiveRemainderDepletion.A, with
