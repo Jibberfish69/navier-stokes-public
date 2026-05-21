@@ -2,89 +2,109 @@
 
 ## Identity
 
-This is the theorem-facing bootstrap note for `NS 20`.
+This is the theorem-facing frontier packet for the Euler mirror after the May 16
+ontology repair.
 
 Role:
-- mirror the installed Navier-Stokes class-membership route under
-  incompressible Euler
-- preserve the live theorem order and ontology
-- expose every exact place where the Navier-Stokes proof used viscosity
+
+1. keep the governing PDE literally Euler;
+2. define Euler membership by flux-volume and weak momentum-pressure fidelity;
+3. demote copied Navier-Stokes `Part` / `Field` faces to optional regularity
+   structures;
+4. expose every exact place where a smoothness proof needs a real Euler estimate.
 
 ## Equation Lock
 
-The parent route is written for the incompressible Navier-Stokes system
+The mirror branch replaces Navier-Stokes by incompressible Euler:
 
 ```math
-\partial_t u + (u\cdot\nabla)u = -\nabla p + \nu \Delta u,
+\partial_t u+\nabla\cdot(u\otimes u)+\nabla p=0,
 \qquad
-\nabla\cdot u = 0.
+\nabla\cdot u=0.
+\tag{EMF.0}
 ```
 
-The mirror branch replaces that equation by incompressible Euler
+The base object is the weak / distributional Euler equation with local
+flux-volume balance. It is not assumed smooth.
+
+## Membership Lock
+
+The authoritative membership predicate is:
 
 ```math
-\partial_t u + (u\cdot\nabla)u = -\nabla p,
-\qquad
-\nabla\cdot u = 0.
+\boxed{
+\mathrm{Member}_E(Q)
+=
+\mathrm{EVol}_Q(u)
+\wedge
+\mathrm{EMom}_Q(u,p).
+}
+\tag{EMF.1}
 ```
 
-## Vanishing-Viscosity Boundary Lock
+Authority:
+[mpp-euler-class-membership-flux-volume-definition.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-class-membership-flux-volume-definition.md).
 
-This mirror is also the clean `\nu=0` boundary class of the parameterized
-Navier-Stokes family. A sequence of fixed-viscosity NS windows
-`Q_j\in\mathfrak O_{NS}^{work,\nu_j}` with `\nu_j\downarrow0` lands on this
-mirror only when the nonlinear term, pressure gradient, and packing law pass to
-the limit and the viscous carrier vanishes:
+This means:
+
+1. incompressible flux-volume balance is primitive;
+2. the Euler momentum-pressure law is primitive;
+3. pressure/incompressibility participation is only volume and normal-force
+   compatibility;
+4. tangential no-slip / viscous shear participation is not primitive;
+5. one-field smooth coherence is not primitive;
+6. Lagrangian flow-map control is not primitive.
+
+The jet/slip diagnostic is now part of the frontier: a sharp injection can
+obey the weak pressure-volume laws while failing to entrain neighboring material
+into one smooth field. That behavior is an Euler regularity problem, not a base
+membership contradiction.
+
+## Vanishing-Viscosity Boundary
+
+A vanishing-viscosity sequence lands on this Euler membership surface only when the
+viscous carrier vanishes in the theorem-facing topology:
 
 ```math
-\nu_j\Delta u^{\nu_j}\longrightarrow0.
-\tag{EMF.0a}
+\nu_j\Delta u^{\nu_j}\longrightarrow 0.
+\tag{EMF.2}
 ```
 
-The boundary equation is then
+If a nonzero viscous, energy, Reynolds, or boundary-layer defect remains, the
+limit is a separate defect object, not the Euler member defined above.
+
+## Correct Frontier
+
+The live frontier is no longer "copy `Pack / Part / Field` and close
+dead/blown/jump." The live frontier is:
 
 ```math
-\partial_t u^0+(u^0\cdot\nabla)u^0+\nabla p^0=0,
-\qquad
-\nabla\cdot u^0=0.
-\tag{EMF.0b}
-```
-
-Relative to any fixed positive viscosity `\nu_\ast>0`, this boundary object is
-not an internal NS member unless it is separately lifted to the fixed
-`\nu_\ast\Delta u` carrier. The parent class-exit readout is therefore:
-
-```math
-\neg Visc^{fix}_{\nu_\ast}(Q^0)
+\boxed{
+\mathrm{Member}_E
++ \text{chosen admissibility layer}
++ \text{Euler-native controls}
 \Longrightarrow
-Exit(Q^0;\mathfrak O_{NS}^{work,\nu_\ast}).
-\tag{EMF.0c}
+\text{the desired smooth / coherent regularity class.}
+}
+\tag{EMF.3}
 ```
 
-If the vanishing-viscosity sequence leaves a nonzero viscous or energy-defect
-measure, the limit is not this clean Euler mirror surface. It must be recorded
-as a separate defect-boundary object.
+The admissibility layer may be energy equality/inequality, local energy balance,
+Kelvin circulation, or another explicitly named selection rule. It is optional
+theorem structure above weak membership, not hidden viscosity.
 
-Nothing else is allowed to drift silently:
+The old mirror files now have this status:
 
-1. keep the same `Pack / Part / Field / Dead / Blown / Jump` vocabulary;
-2. keep the same pressure field and incompressibility constraint;
-3. keep the same same-fluid / transported-carrier / flow-map language;
-4. remove viscosity literally rather than renaming it into generic coercivity.
+1. `ECFI`: boundary note for regularity forward-invariance above membership;
+2. `EL13`: endpoint vocabulary demotion note;
+3. `EOFP` / `EOFR`: optional one-field regularity program and supplier
+   reduction;
+4. `ELCI`: possible receiver-side support for a regularity theorem, not
+   membership.
 
-## Route Fidelity
+## Parent Receiver Chain Boundary
 
-The mirror does **not** invent a new theorem order. It follows the live
-Navier-Stokes class-membership spine:
-
-1. source-locked contradiction / governing-object note;
-2. surviving endpoint-exclusion frontier packet;
-3. `ECFI.A` forward-invariance of lawful class membership;
-4. `EL13.A` surviving-side split after the no-dead line;
-5. `EOFR.A` / `EOFP.A` one-field forward-preservation reduction;
-6. `ELCI.A` as the Euler receiver replacement inside the no-jump branch.
-
-The installed parent receiver side has now been sharpened before `LCI.A`:
+The parent chain remains useful only for locating non-Euler proof labor:
 
 ```math
 RSCB.NKF
@@ -100,88 +120,47 @@ ACT.A
 RCF.A
 \Longrightarrow
 LCI.A.
-\tag{EMF.1}
+\tag{EMF.4}
 ```
 
-The Euler mirror keeps this as the comparison order. It does not import the
-chain as an Euler proof, because the middle receiver packet still contains the
-viscous absorption and top-viscous readout mechanisms that were removed with
-`\nu\Delta u`.
+`ACT.KX` is still the sharp comparison break because it spends `c_\nu N`, a
+viscous absorption seed, and top-viscous readout. Replacing that step would
+support a smoothness/regularity theorem, not a primitive Euler membership
+theorem.
 
-The old temptation to jump directly to selector, exact-potential, Hodge, or
-Euclidean export branches stays forbidden here too. The Euler branch must first
-survive the same mainline queue.
+## Active Next Theorem Target
 
-## Installed Euler Bootstrap
-
-The initial Euler bootstrap was intentionally narrow and route-faithful:
-
-1. rewrite the source-locked object note so the governing PDE is Euler rather
-   than Navier-Stokes;
-2. rewrite the frontier packet so the surviving endpoint-exclusion burden is
-   posed on the Euler equation literally;
-3. mirror `ECFI.A` as forward-invariance of lawful class membership on same-fluid
-   Euler families;
-4. mirror `EOFP.A` as one-field forward preservation through the installed
-   transport / packet / coherence law, with every hidden `nu`-use audited.
-
-Those bootstrap notes are no longer the whole contradiction stack. The branch
-now also carries the surviving-side split `EL13.A`, the one-field reduction
-surface `EOFR.A`, and the Euler receiver replacement slot `ELCI.A`.
-
-## Honest Holdout
-
-The first exact wall is **not** vague “Euler is harder” rhetoric. In the parent
-route the old coarse description was the raw `LCI.A` package. In the current
-installed route, that wall has been factored through
-`RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A`.
-On the Euler branch, `ELCI.A` is therefore the receiver replacement for this
-whole factored chain, not just for a bare old label.
-
-Why this is the first hard holdout:
-
-1. `RSCB.NKF -> NKF.Native` keeps a useful retained-center pressure and
-   point-recovery pattern, but its installed native-forcing proof includes
-   viscous forcing/integration terms and cannot be cited unchanged.
-2. `ACT.KX` is the sharp Euler break: the installed simultaneous core/excess
-   budget spends `c_\nu N`, the `eta_X` absorption seed, and
-   `ACT.X-TopVisc` / top-viscous readout data. In the live packet the break is
-   cell-level: `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc`
-   feeds `ACT.KX`, followed only after scale transfer by `ACT.X-Readout`.
-3. `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` is downstream of that receiver
-   budget, so it is unavailable on Euler until the branch proves a direct
-   transport/pressure replacement.
-4. The exact-potential `V2` side packet is a heat-plus-perturbation /
-   static-diffusion program, so its present proof method is genuinely
-   parabolic.
-5. the current Euler replacement `ELCI.A` isolates the exact surviving defect:
-   the missing transport/oscillation absorption that the parent proof fed into
-   the `ACT.KX` / `2\nu\mathcal D` receiver budget.
-
-So the honest current stop line is:
+The branch-local target has now narrowed one step inside `ELCI.A`:
 
 ```math
-\boxed{
-\begin{gathered}
-\text{mirror the class-membership spine first, classify the parent}\\
-RSCB.NKF\to NKF.Native\to ACT.KX\text{ expanded receiver chain under viscosity removal,}\\
-\text{and keep the live receiver-side obstruction at the missing}\\
-\text{transport/pressure replacement for the }ACT.KX\text{ absorption budget.}
-\end{gathered}
-}
+\boxed{\mathrm{ELCI.CP.A}}
 ```
 
-## Source Map
+The May 19 direct attempt proved the Euler packet inequality and Gronwall
+closure once the center/oscillation/pressure ledger is integrable. The remaining
+target is to prove
 
-Primary parent surfaces:
+```math
+\mathfrak A^{E,ctr}
++
+\Omega^{E,osc}
++
+\Pi^{E,ctr}
+\in L^1(I)
+```
 
-1. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-source-locked-note.md`
-2. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md`
-3. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md`
-4. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md`
-5. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md`
-6. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-law13-surviving-endpoint-exclusion-program.md`
-7. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md`
-8. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-retained-window-native-forcing-theorem-program.md`
-9. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md`
-10. `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-act-kx-hidden-spending-audit-note.md`
+on the same finite transported Euler cover.
+
+This is still the local replacement for the parent
+`ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX` and
+`ACT.KX + ACT.X-Scale + RWS.C_scale => ACT.X-Readout` receiver chain. Until
+`ELCI.CP.A` is proved, `ACT.X-Readout`, `ACT.A`, `RCF.A`, and `LCI.A` remain
+comparison order rather than Euler inputs.
+
+## Current Stop Line
+
+The Euler mirror cannot prove smoothness by declaring non-smoothness outside the
+Euler object. Non-smooth weak Euler behavior can still satisfy `Member_E`, so
+the current theorem-facing stop line is the `ELCI.A` replacement for the parent
+`ACT.KX` / `2nu` absorption and top-viscous receiver chain, now sharpened to
+`ELCI.CP.A`.
