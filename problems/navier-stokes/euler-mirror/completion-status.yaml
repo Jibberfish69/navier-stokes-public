@@ -1,15 +1,23 @@
 ---
-version: 1
+version: 2
 branch_id: euler-mirror-chat20
 artifact_id: completion-status
-updated_on: '2026-04-22'
+updated_on: '2026-05-19'
 completion_meaning: >-
   Contract completion here means authoring and audit completion of the Euler
-  mirror branch surfaces under C1-C6. It does not mean that global smoothness
-  for Euler has been proved.
+  mirror branch surfaces under C1-C6 after the Euler membership ontology repair.
+  It does not mean that Euler regularity has been proved.
 theorem_claim_status: open
 open_burden_surfaces:
-  - problems/navier-stokes/euler-mirror/execution-ledger.yaml
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-a-direct-transport-pressure-attempt-20260519.md
+active_next_theorem_target:
+  target_id: ELCI.CP.A
+  status: open
+  exact_burden: >-
+    Prove L1 integrability of the Euler transported-center,
+    local-oscillation, and centered-pressure ledger on the same finite cover.
+  downstream_after_discharge:
   - problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md
 conditions:
   C1:
@@ -22,6 +30,7 @@ conditions:
   C2:
     status: completed
     evidence:
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-class-membership-flux-volume-definition.md
       - problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-contradiction-source-locked-note.md
       - problems/navier-stokes/euler-mirror/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
       - problems/navier-stokes/euler-mirror/theorem-construction/mpp-law13-surviving-endpoint-exclusion-program.md
@@ -56,4 +65,4 @@ conditions:
     status: completed
     evidence:
       - problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md
-overall_status: completed
+overall_status: completed-after-euler-membership-repair
