@@ -10,25 +10,25 @@ CM-facing bridge note; strengthened by the 2026-05-22 polarity correction
 The retained native source residue is not a request to prove
 `\mu_*^{sing}=0` inside the CM route. It is the witness of class exit.
 
-`TerminalSourceResidueCMExit.A` installs the Pack-first version:
+`TerminalSourceResidueCMExit.A` installs the Pack-first version for the raw
+terminal source residue:
 
 ```math
 \mu_*^{sing}\ne0
 \Longrightarrow
 \neg Pack_Q
 \vee
-\neg Part_{N,Q}
-\vee
-\forall r>0\,\neg Field_{N,r,Q}.
+\neg Part_{N,Q}.
 ```
 
-Under retained `Pack_Q+Part_{N,Q}`, the Field landing follows because
-`Field_{N,r,Q}` would make the native source carrier chargeable by the finite
-one-field tower ledger on the same family. A selected unpaid retained residue
-therefore proves `not Field`; it is not first deleted by a positive supplier
-estimate.
+The previous Field-row wording below is retained only as historical/sharper
+diagnostic language for a residue that has already been converted into a lawful
+participating tower object. A raw unpaid source residue cannot break Field
+without breaking Part first. For the live CM target, it lands at Pack if no
+carrier survives, and otherwise at Part.
 
-The purpose is to repair the source-wall posture by separating two targets:
+This note's original Field theorem is demoted for raw native source residue.
+The source-wall posture is now separated into two targets:
 
 ```math
 OriginalSmoothData\Longrightarrow \mu_{\ast}^{sing}=0
@@ -42,17 +42,21 @@ Pack_Q+Part_{N,Q}+\mu_{\ast}^{sing}\ne 0
 \forall r>0\,\neg Field_{N,r,Q}
 ```
 
-as the CM-facing retained Field landing.
+as an older retained-Field diagnostic for a residue already promoted past the
+participation gate. The live raw-source-residue landing is Part unless Pack has
+already failed.
 
 The older conditional lower-response language below is retained as a sharper
-quantitative readout. The qualitative CM landing is now supplied by
-`TerminalSourceResidueCMExit.A`.
+quantitative readout only after a separate theorem has licensed participation.
+The qualitative raw source-residue landing is now supplied by
+`TerminalSourceResidueCMExit.A` at Pack/Part.
 
-Object boundary: this note is about the retained residue branch after positive
-source depletion has failed. It does not classify the positive supplier theorem
-itself. `PositiveRemainderDepletion.A` remains the forward source-control
-burden; the Field landing below belongs only to the surviving residue under
-retained `Pack_Q+Part_{N,Q}`.
+Object boundary: this note is historical support for the retained-Field
+diagnostic. It does not classify the positive supplier theorem itself.
+`PositiveRemainderDepletion.A` remains the forward source-control burden. Raw
+native source residue is now seated by `TerminalSourceResidueCMExit.A` at
+Pack/Part; Field language below applies only after a separate participation
+license has already converted the object into a coherence/readout residue.
 
 ## Governing Inputs
 
@@ -106,7 +110,7 @@ Assume that the native positive source measure has a nonzero singular retained c
 \mu_{\ast}^{sing}(\mathcal F_N)>0.
 ```
 
-Then the CM-facing target is
+Then the older retained-Field diagnostic target was
 
 ```math
 \boxed{
@@ -118,7 +122,10 @@ Pack_Q+Part_{N,Q}+\mu_{\ast}^{sing}(\mathcal F_N)>0
 }
 ```
 
-Equivalently, a retained native positive source residue is a typed Field witness once the carrier geometry and pressure-viscosity participation rows have survived.
+This is no longer the live landing for raw native source residue. A raw unpaid
+source residue breaks Part before Field. The statement is usable only for a
+coherence/readout residue after a separate theorem has already licensed the
+source term as lawful participation.
 
 ## Why Pack And Part Survive In The Hypothesis
 
@@ -239,7 +246,11 @@ only after a retained residue remains.
 
 The architectural repair is precise.
 
-The retained native residue belongs on the Field row under `Pack_Q+Part_{N,Q}`. The only analytic item still requiring proof, beyond the installed scale-critical Carleson diagnostic, is the native source-to-field lower response theorem
+For raw native source residue, this note is superseded by
+`TerminalSourceResidueCMExit.A`: the retained-carrier branch lands in Part.
+The native source-to-field lower response theorem below is only a sharper
+diagnostic for a later coherence/readout residue after participation has been
+licensed:
 
 ```math
 \boxed{NativeResidueResponseLowerBound.A.}
