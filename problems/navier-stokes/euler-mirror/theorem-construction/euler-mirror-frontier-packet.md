@@ -73,18 +73,17 @@ viscous carrier vanishes in the theorem-facing topology:
 If a nonzero viscous, energy, Reynolds, or boundary-layer defect remains, the
 limit is a separate defect object, not the Euler member defined above.
 
-## Correct Frontier
+## Terminal Classification
 
-The live frontier is no longer "copy `Pack / Part / Field` and close
-dead/blown/jump." The live frontier is:
+The branch no longer has a live frontier. Its terminal classification is:
 
 ```math
 \boxed{
-\mathrm{Member}_E
-+ \text{chosen admissibility layer}
-+ \text{Euler-native controls}
+\text{explicit Euler controls}
 \Longrightarrow
-\text{the desired smooth / coherent regularity class.}
+\text{conditional regularity,}
+\qquad
+Member_E\not\Longrightarrow\text{smooth / coherent regularity.}
 }
 \tag{EMF.3}
 ```
