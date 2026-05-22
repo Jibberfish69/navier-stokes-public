@@ -9,7 +9,7 @@ Main objective:
 
 ```math
 \boxed{
-\text{prove Euler regularity from the actual incompressible Euler object.}
+\text{terminally classify Euler regularity routes from the actual incompressible Euler object.}
 }
 ```
 
@@ -17,7 +17,7 @@ Execution doctrine:
 
 ```math
 \boxed{
-\text{define Euler membership natively, remove viscosity literally from every governing equation, and rebuild any smoothness burden honestly on the Euler surface.}
+\text{define Euler membership natively, remove viscosity literally from every governing equation, and classify smoothness claims as conditional, false from base membership, or non-Euler.}
 }
 ```
 
@@ -120,8 +120,8 @@ This includes at minimum:
 ### C6. Integrated Euler Closure Surface Exists
 
 The branch contains at least one integrated theorem-facing Euler closure
-surface that honestly assembles the rewritten burdens into a single live
-closure program.
+surface that honestly assembles the rewritten routes into a terminal
+classification.
 
 ## Execution Rule
 
@@ -141,5 +141,5 @@ mapped, scaffolded, or partially mirrored.
 It is complete only when conditions `C1` through `C6` all hold.
 
 Contract completion under `C1-C6` is still not a proof that Euler global
-smoothness is solved; open mathematical burdens may remain explicitly recorded
-on the integrated Euler closure surface and the execution ledger.
+smoothness is solved. After terminal closure, any stronger theorem is outside
+this branch rather than a remaining Euler-mirror burden.
