@@ -76,21 +76,19 @@ Carleman road is no longer the same theorem road at all.
 
 This is the first exact non-Euler bridge on the exact-potential branch.
 
-## Strongest Honest Euler Replacement Burden
+## Terminal Non-Euler Classification
 
-The replacement burden is:
+The terminal classification is:
 
 ```math
 \boxed{
-\text{build a direct Euler witness-to-projector/readout theorem from
-transported deformation and pressure geometry, bypassing the parent
-static-diffusion packet entirely.}
+\text{the direct Euler witness-to-projector/readout theorem would be a new
+external route; the parent static-diffusion packet is non-Euler.}
 }
 \tag{EPW3}
 ```
 
-So the exact-potential road is not merely "incomplete." It is blocked at entry
-unless a new non-parabolic Euler readout route is written.
+So the exact-potential road is closed at entry for this branch.
 
 ## Status
 
