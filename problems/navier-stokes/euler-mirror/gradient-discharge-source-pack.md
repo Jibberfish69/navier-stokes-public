@@ -1,9 +1,9 @@
 # Euler Gradient / Continuation Source Pack
 
-## Target Obligation
+## Terminal Classification
 
-- `debt-frontier-euler-route-b-continuation-inequality`
-- `Frontier: Euler transport-pressure continuation inequality on the classical equation`
+- `conditional-interface-euler-route-b-continuation-inequality`
+- `Terminal: Euler transport-pressure continuation is an added hypothesis on the classical equation`
 
 ## Exact Continuation Claim
 
@@ -13,7 +13,7 @@ On the exact Euler limit object, define the high-frequency gradient tail
 E_N(t) := \sum_{j\ge N} 2^{2j}\|P_j u(t)\|_{L^2_x}^2.
 ```
 
-The mirror needs an inequality of the form
+The conditional mirror assumes an inequality of the form
 
 ```math
 \frac{d}{dt}E_N(t)
@@ -35,8 +35,9 @@ C\,\widetilde\Lambda_N^\sharp(t)E_N(t) + C_*2^{-2\delta N}.
 ```
 
 That statement is not Euler-clean because `(1-\eta)\nu D_N` performs essential
-proof work. The Euler route must replace that coercive term by a direct
-transport-pressure continuation mechanism.
+proof work. The Euler route closes here as conditional: a direct
+transport-pressure continuation mechanism is an added hypothesis, while the
+parent coercive term is a non-Euler import.
 
 ## Honest Boundary
 
@@ -48,4 +49,3 @@ it is proved on the same carrier.
 
 - [gradient-transfer-coercivity-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/gradient-transfer-coercivity-source-pack.md)
 - [theorem-construction/route-b-euler-closure-theorem.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md)
-
