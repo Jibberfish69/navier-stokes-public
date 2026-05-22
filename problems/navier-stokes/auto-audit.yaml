@@ -4,17 +4,17 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-22T20:59:58Z'
+  audited_at: '2026-05-22T21:01:36Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
-  standalone_status: basac-terminal-zero-thickness-cm-target-closed
-  completion_tier_achieved: paper-complete-theorem-open
+  standalone_status: theorem-open-at-source-wall-root
+  completion_tier_achieved: route-complete
   review_verdict: revise
-  theorem_packet_status: basac-terminal-zero-thickness-cm-target-closed
+  theorem_packet_status: incomplete
 audit_certification:
-  audit_status: audited-needs-fix
-  audit_completion_tier: audited-paper-complete-theorem-open
+  audit_status: audited-ok
+  audit_completion_tier: audited-route-complete
   audit_review_verdict: audited-revise
 branch_audit:
   status: all-terminal
@@ -49,13 +49,12 @@ downstream_overlay_drift:
     - theorem-upgrade
   - artifact: review_verdict
     path: problems/navier-stokes/review-verdict.yaml
-    sha1: 92ed9350f8c112ab48ac1c02989c18628d98eaf5
+    sha1: 44ca0c856802aebd70c1e5784c2c7969cb973ceb
     matched_terms:
     - theorem-upgrade
-    - 'explicit_nonterminal_overlay: true'
   - artifact: release_decision
     path: problems/navier-stokes/release-decision.yaml
-    sha1: 860af35bbc0b3f174d902d2174fa8bf7d760e17d
+    sha1: a5475533d24b2c9e60d6b2071cb3527137ca4e46
     matched_terms:
     - theorem-upgrade
   recommended_repair: regenerate-derived-theorem-chain
@@ -243,14 +242,7 @@ surface_snapshot:
     all_discharged: false
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
-issues:
-- issue_id: stale-review-verdict
-  severity: major
-  summary: Review verdict is stale relative to the current manuscript artifacts.
-  autofixable: false
-  recommended_action: Run honesty-review to refresh the review verdict.
-  details:
-  - Submission export status changed after the current review verdict was written.
+issues: []
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
