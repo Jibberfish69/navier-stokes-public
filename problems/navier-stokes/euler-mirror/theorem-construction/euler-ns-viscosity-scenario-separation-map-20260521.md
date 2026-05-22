@@ -90,18 +90,18 @@ at `Part`, `Field`, and the receiver chain; pressure alone is not doing that job
 | parabolic smoothing / compactness | can supply time regularity and strong convergence inputs | not automatic | compactness is conditional on one fixed Euler family with earned controls |
 | viscous low-mode scale | calibrates export consumer through `nu 2^(2j0)` | absent | export must feed an Euler continuation quantity instead |
 
-## Consequence For The Active Theorem Target
+## Consequence For The Receiver Target
 
-The previous target label `ELCI.CP.A` is still the receiver seat, but the honest
-next theorem is a split theorem:
+The previous target label `ELCI.CP.A` is still the receiver seat, and the May 22
+closure theorem has now fixed the split:
 
 ```math
 \boxed{
 ELCI.CP.A\text{-}Separation:
-\text{ decide the exact hypotheses under which }
+\text{ under explicit same-cover Euler controls, }
 A_E^{ctr}+\Omega_E^{osc}+\Pi_E^{ctr}\in L^1(I)
-\text{ holds, and exhibit or route the base-}Member_E
-\text{ scenarios where it does not.}
+\text{ holds, while base }Member_E
+\text{ alone does not force it.}
 }
 ```
 
