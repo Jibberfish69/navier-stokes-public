@@ -11,6 +11,16 @@
 
 PastWindowShadowCompleteness.A. Every uncharged terminal reserve contribution has a Past(W) shadow ancestor; any first uncovered contribution injects into Charge_N(W) or is absorbed by the declared loss ledger.
 
+## Promotion Boundary
+
+This is reserve-branch scaffolding only. It does not prove
+`ScaleCriticalTreeCarleson.A`, `SourcePulseExclusion.A`, Full Clay, global
+smoothness, or submission readiness. It cannot be spent downstream until
+`promotion_allowed: true` after dependency-discharge. The source-wall obstruction
+remains `NativeSourceAC.A` / `mu_*^sing=0`, equivalently
+`HeightFluxControl.A` on the direct reserve branch or
+`BASACTerminalSourceAntiConcentration.A` on the B_ASAC branch.
+
 ## Inventive Search
 
 - mode: inventive-recursive-theorem-solver
@@ -18,7 +28,7 @@ PastWindowShadowCompleteness.A. Every uncharged terminal reserve contribution ha
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
 - selected_mechanism: past_window_shadow_completeness_closure
 - candidate_count: 5
-- solver_chain_verdict: closed
+- solver_chain_verdict: closed inside the local recursive solver only; promotion verdict below remains conditional
 - selection_reason: This theorem is the right next move because it changes the proof economy: Close inherited reserve separation by proving every uncharged terminal reserve packet has a past-window shadow ancestor. It is source-backed by 8 local ingredient(s). The internal solver also discharged the residual chain through PastWindowShadowCompleteness.A.
 
 ### Candidate Theorems
@@ -40,7 +50,7 @@ PastWindowShadowCompleteness.A. Every uncharged terminal reserve contribution ha
 
 ### Recursive Solver Chain
 
-- terminal_verdict: closed
+- terminal_verdict: closed inside the local recursive solver only
 - reason: The recursive theorem solver reached a terminal mechanism with no remaining residual primitive.
 - depth 0: PastWindowShadowCompleteness.A via past_window_shadow_completeness_closure -> closed
 
