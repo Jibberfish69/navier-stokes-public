@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-22T21:20:39Z'
+  audited_at: '2026-05-22T21:22:27Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -44,7 +44,7 @@ downstream_overlay_drift:
   stale_overlays:
   - artifact: theorem_packet
     path: problems/navier-stokes/theorem-packet.yaml
-    sha1: 1b0f66f3ba5445d1f683f26d1a7ca1d59d8cd072
+    sha1: 40f9acef1c73183b20cae70c3d28e8eeda741340
     matched_terms:
     - theorem-upgrade
   - artifact: review_verdict
@@ -54,7 +54,7 @@ downstream_overlay_drift:
     - theorem-upgrade
   - artifact: release_decision
     path: problems/navier-stokes/release-decision.yaml
-    sha1: e617d5be3354ccaa7c6d04228c4e5edc76e05726
+    sha1: 74395e0767228cede201c6f81f598c3850f97138
     matched_terms:
     - theorem-upgrade
   recommended_repair: regenerate-derived-theorem-chain
