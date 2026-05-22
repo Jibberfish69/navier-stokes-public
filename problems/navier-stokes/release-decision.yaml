@@ -4,19 +4,19 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-05-22T20:59:58Z'
+  evaluated_at: '2026-05-22T21:01:36Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
-  disposition: blocked
+  disposition: respawn
   release_posture: revise-loop
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: paper-complete-theorem-open
-  next_cell_type:
-  next_stage: release-blocked
-  next_action: Hold the package blocked until the release blocker changes materially
-    or an internal reroute becomes available.
-  rationale: Honesty review did not define a safe upstream respawn path, so the package
-    is parked explicitly.
+  completion_tier_achieved: route-complete
+  next_cell_type: source-wall-root-theorem
+  next_stage: direct-source-wall-supplier
+  next_action: Prove the separate positive source-wall supplier theorem; do not reopen
+    already face-sorted support presentations as independent surfaces.
+  rationale: Honesty review did not clear the package for release, so work returns
+    upstream on the typed respawn target.
 artifacts:
   draft:
   draft_v6: problems/navier-stokes/draft-v6.md
@@ -31,8 +31,8 @@ artifacts:
   review_log: problems/navier-stokes/review-log.md
   review_verdict: problems/navier-stokes/review-verdict.yaml
 blockers:
-- The theorem packet localizes definitions, lemma surfaces, theorem statement, and
-  proof dependencies strongly enough to support export-facing review.
+- A theorem packet exists, but it is still incomplete, so prose alone cannot count
+  as real paper progress.
 - The local package is stable enough to review, and `draft-v8.md` now carries real
   prose, but it is still a revise-stage draft rather than an export-ready paper.
 - The `draft-v7.md` surface is now a prose artifact, so this pass can review a real
@@ -45,19 +45,18 @@ blockers:
   work until full closure is honestly cleared.
 - An active theorem-upgrade track is keeping this package above lowest-safe-claim
   release until the remaining theorem delta is localized into a full-MPP closure surface.
-- The current package is coherent enough to stand as a real paper, but the remaining
-  barrier is still an unresolved theorem burden rather than a manuscript defect.
+- The theorem route is coherent, but the package is not yet compressed into a safe
+  stand-alone paper surface.
+- 'Theorem-packet blocker: There are 1 unresolved lemma obligations.'
+- 'Theorem-packet blocker: There are 2 frontier or route-choice blockers still inside
+  the theorem packet.'
 - There are 1 unresolved lemma obligations.
 - There are 2 frontier or route-choice blockers still inside the theorem packet.
 - source-wall-root-after-reconcile
+- Completion tier is still `route-complete`, below a paper-complete or full-closure
+  submission surface.
 - Honesty review verdict is still `revise`.
-- Submission export status changed after the current review verdict was written.
-- B_ASAC terminal zero-thickness CM target is closed; terminal release still requires
-  a separate full-package release audit
-- ParaproductNativeSourceCapture.A is installed for the nonlinear Duhamel half after
-  terminal Zeno Pack-side closure, sign-selection, native edge anchoring, commutator
-  legality, and signed-partner no-free-defect
 - Submission export is not a clean typeset export yet.
 summary:
-  queue_effect: blocked
-  registry_note: problem is blocked at release gate
+  queue_effect: ready
+  registry_note: problem is re-queued on the upstream stage named by the review verdict
