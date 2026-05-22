@@ -23,8 +23,8 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Source Frontier
 
-- `first_unresolved`: source-wall-root-after-reconcile (`live-theorem-frontier`; `source-wall-root-after-reconcile`)
-- source-wall-root-after-reconcile (`live-theorem-frontier`; `source-wall-root-after-reconcile`)
+- `first_unresolved`: TerminalCMNoExit.A / NoGenuineCMExit.A (`live-theorem-frontier`; `terminalcmnoexit-a-nogenuinecmexit-a`)
+- TerminalCMNoExit.A / NoGenuineCMExit.A (`live-theorem-frontier`; `terminalcmnoexit-a-nogenuinecmexit-a`)
 
 ## Source Surfaces
 
