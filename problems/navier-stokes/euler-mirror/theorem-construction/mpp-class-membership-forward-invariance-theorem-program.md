@@ -140,6 +140,6 @@ separate regularity-forward-invariance theorem.}
 \tag{ECFI.6}
 ```
 
-The successor work is therefore to pick the exact regularity class needed for
+Any stronger result therefore has to pick the exact regularity class needed for
 smoothness and prove its Euler-native propagation from flux-volume membership
-plus genuine Euler controls.
+plus genuine Euler controls as an external regularity program.
