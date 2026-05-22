@@ -22,8 +22,8 @@ This note proves the first statement directly. The second statement is an
 external convex-integration route and must be marked as weak-branch /
 non-classical unless an admissibility layer is specified. The third statement
 splits by domain: it is known in a boundary/axisymmetric setting, and remains
-the hard open target in smooth finite-energy free space or periodic
-no-boundary settings.
+outside this mirror's terminal classification in smooth finite-energy free space
+or periodic no-boundary settings.
 
 ## Bridge A: Smooth Stationary Shear Layers To A Slip Sheet
 
@@ -225,5 +225,5 @@ The same-datum bridge exists only at the weak-branch level unless a separate
 admissibility and weak-strong boundary is handled.
 
 The fixed-datum classical blow-up bridge is available with boundary through the
-Chen-Hou route. The no-boundary smooth finite-energy bridge remains the hard
-Euler regularity problem.
+Chen-Hou route. The no-boundary smooth finite-energy bridge is outside this
+branch's terminal mirror classification.
