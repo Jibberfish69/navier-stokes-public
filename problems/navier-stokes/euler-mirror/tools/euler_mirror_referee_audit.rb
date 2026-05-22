@@ -104,6 +104,6 @@ else
   allowed.sort.each { |classification| puts "#{classification}=#{counts[classification]}" }
 end
 
-warnings.each { |warning| warn "WARN: #{warning}" }
+warnings.each { |warning| warn "ERROR: #{warning}" }
 errors.each { |error| warn "ERROR: #{error}" }
-exit(errors.empty? ? 0 : 1)
+exit(errors.empty? && warnings.empty? ? 0 : 1)
