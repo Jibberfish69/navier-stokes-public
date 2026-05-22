@@ -35,7 +35,7 @@ Current branch-local mainline:
 - smooth-data singular-limit bridge to that witness
 - Euler / Navier-Stokes viscosity scenario separation map
 - fixed-datum classical blowup split: boundary/axisymmetric known externally;
-  no-boundary smooth finite-energy remains separate and open
+  no-boundary smooth finite-energy is outside this terminal mirror branch
 - source-locked contradiction/object note
 - class-membership contradiction frontier packet
 - regularity-forward-invariance boundary formerly called `CFI.A`
@@ -45,13 +45,12 @@ Current branch-local mainline:
 - branch-local Euler receiver support `ELCI.A`
 
 Current theorem-facing order:
-- `Member_E -> chosen regularity class -> Euler-native propagation estimate`
-- `smooth data -> nonsmooth Euler` must stay typed as singular-limit,
-  weak-branch, boundary fixed-datum, or no-boundary fixed-datum before use
+- `Member_E -> terminal classification`
+- `smooth data -> nonsmooth Euler` stays typed as singular-limit, weak-branch,
+  boundary fixed-datum, or no-boundary fixed-datum; it is not a live mirror debt
 
-Current live obstructions:
-- the base membership layer is now `EVol + EMom`; the open theorem work is a
-  genuine Euler regularity upgrade over that base
+Terminal readback:
+- the base membership layer is `EVol + EMom`; smoothness does not follow from it
 - `ELCI.A` now records the Euler replacement for the expanded parent `ACT.KX` /
   `2\nu` absorption and top-viscous readout chain as the closed
   `ELCI.CP.A-Separation` split: the ledger is `L^1` under explicit Euler
@@ -59,7 +58,7 @@ Current live obstructions:
   expanded comparison cell is
   `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX`, followed
   by `ACT.X-Scale + RWS.C_scale -> ACT.X-Readout`
-- the positive-control branch still carries explicit Euler gaps in the scale
-  barrier, control-functional replacement, and continuation packet
-- exact-potential, top-viscous, and static-diffusion packets remain demoted or
-  quarantined unless a genuine Euler analogue is written
+- the positive-control branch is terminally conditional: extra Euler controls
+  would be assumptions or a new external theorem, not a live branch burden
+- exact-potential, top-viscous, static-diffusion, and other parabolic/viscous
+  packets are closed here as non-Euler imports
