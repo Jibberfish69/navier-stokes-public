@@ -106,6 +106,22 @@ stale_failure_patterns:
     pattern: '(live branch debt|live mirror debt|theorem debt|remaining burden)'
   - id: stale-unresolved-language
     pattern: '(unresolved|unfinished)'
+  - id: stale-generic-mirrored-status
+    pattern: 'mirror_status:\s*mirrored$'
+  - id: stale-partial-rewrite-required
+    pattern: classified-partial-euler-rewrite-required
+  - id: stale-receiver-burden-key
+    pattern: closed_literal_receiver_burden
+  - id: stale-theorem-queue
+    pattern: mirror_theorem_queue
+  - id: stale-rebuild-language
+    pattern: '(needs an Euler ledger theorem|must be rebuilt|missing Euler replacements)'
+  - id: stale-earned-language
+    pattern: '(must still be earned|earned controls)'
+  - id: stale-live-regularity-language
+    pattern: '(open target|live regularity question|live stronger-carrier)'
+  - id: stale-old-heading-language
+    pattern: '(Honest Current Burden|Source And Receiver Burdens|Exact Remaining Object|successor work|extra regularity burdens)'
 surface_rules:
   - id: branch_authority_status
     paths:
