@@ -1,6 +1,6 @@
 # Euler Target-Fidelity Discharge Source Pack
 
-## Target Obligation
+## Terminal Classification
 
 - `proof-dependency-1`
 - `The Euler target is the classical 3D incompressible Euler equation -> success for viscous, filtered, or regularized equations does not close the Euler problem`
