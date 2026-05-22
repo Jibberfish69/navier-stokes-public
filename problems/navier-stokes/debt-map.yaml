@@ -5,7 +5,7 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-05-22T21:13:02Z'
+  extracted_at: '2026-05-22T21:27:50Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
@@ -97,8 +97,8 @@ debt_items:
   - problems/navier-stokes/lemma-falsification.yaml
   source_sufficiency: sufficient
   source_checks: 1
-  requires_human_rfi: true
   exhausted_local_derivation: true
+  requires_human_rfi: true
   escalation_reason: dependency-discharge did not promote this obligation after localized
     support was found
 summary:
