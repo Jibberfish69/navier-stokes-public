@@ -38,6 +38,13 @@ The installed repo already distinguishes two readings.
 | Weak/formal witness table | `CM` is written as `Pack and Part and Field`, so one can formally name missing slots. |
 | Terminal ontology | A real finite endpoint may activate several witness axes at once; the endpoint labels are not disjoint physical doors. |
 
+Resolution for the retained-Field notes: a theorem of the form
+`Pack_Q + Part_{N,Q} + receiver escape => not Field_{N,r,Q}` is weak/formal
+branch bookkeeping.  It says Pack and Part have been retained as licenses, so
+the first unspent CM face is Field.  It does not make `Pack, Part, not-Field`
+a surviving terminal row; terminal same-fluid ontology collapses that realized
+coherence break to `Pack, not-Part, not-Field`.
+
 This matters most in three places.
 
 | Endpoint picture | Current ontological pressure |
