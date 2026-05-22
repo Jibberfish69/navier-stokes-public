@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-22T22:51:40Z'
+  generated_at: '2026-05-22T23:00:23Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-bcf5e31af8a8
-    route_signature: bcf5e31af8a8aa1b228e9b02828a7a35001e35b5
+    surface_id: theorem-surface-navier-stokes-43bdf8f77bd1
+    route_signature: 43bdf8f77bd132db8f588c6ca84a26d8d290d9c0
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -178,12 +178,12 @@ cross_lane_broadcast:
   - problems/navier-stokes/dependency-discharge.yaml
   - problems/navier-stokes/object-formalization.yaml
 auditor:
-  status: ok
-  audit_status: audited-ok
+  status: needs-attention
+  audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
-  open_issue_count: 0
+  open_issue_count: 1
   autofixable_issue_count: 0
-  fix_plan_count: 0
+  fix_plan_count: 1
   branch_count: 1
   live_import_count: 0
   route_equivalence_count: 1
@@ -204,7 +204,7 @@ frontier_projection:
   recommended_next_cell_type: theorem-creation
 summary:
   phase: frontier-projection
-  execution_state: needs-reroute
+  execution_state: actively-working
   leadership_status: leading
   alignment_complete: true
   theorem_authority_gate_all_discharged: false
@@ -217,13 +217,13 @@ summary:
   net_new_local_theorem_count: 8
   projected_frontier_count: 0
   current_open_obligation_count: 1
-  open_obligations_state: not-currently-worked
-  theorem_work_blocked: true
+  open_obligations_state: active-work
+  theorem_work_blocked: false
   blocked_queue_interpretation: none
-  on_recommended_track: false
+  on_recommended_track: true
   recommended_next_cell_type: theorem-creation
-  audit_status: audited-ok
+  audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: dependency-discharge
+  current_next_cell_type: theorem-creation
   current_next_cell_is_theorem_work: true

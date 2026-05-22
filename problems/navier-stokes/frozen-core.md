@@ -5,8 +5,8 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Theorem Target
 
-- `theorem_target`: current route target
-- `lowest_safe_claim`: The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3.
+- `theorem_target`: TerminalCMNoExit.A / NoGenuineCMExit.A
+- `lowest_safe_claim`: TerminalCMNoExit.A / NoGenuineCMExit.A
 - `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
 
 ## Grounded Core

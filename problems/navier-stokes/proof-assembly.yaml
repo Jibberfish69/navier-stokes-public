@@ -4,13 +4,12 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-05-22T22:49:02Z'
+  generated_at: '2026-05-22T22:58:55Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
-theorem_statement: The official Clay target allows either the whole-space branch on
-  R^3 or the periodic branch on T^3.
+theorem_statement: TerminalCMNoExit.A / NoGenuineCMExit.A
 source_grounded_chain:
 - The official Clay target allows either the whole-space branch on R^3 or the periodic
   branch on T^3.
@@ -65,11 +64,10 @@ next_solver_targets:
   kind: live-theorem-frontier
   status: frontier-open
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-bcf5e31af8a8
-  route_signature: bcf5e31af8a8aa1b228e9b02828a7a35001e35b5
-  theorem_target: current route target
-  theorem_statement: The official Clay target allows either the whole-space branch
-    on R^3 or the periodic branch on T^3.
+  surface_id: theorem-surface-navier-stokes-43bdf8f77bd1
+  route_signature: 43bdf8f77bd132db8f588c6ca84a26d8d290d9c0
+  theorem_target: TerminalCMNoExit.A / NoGenuineCMExit.A
+  theorem_statement: TerminalCMNoExit.A / NoGenuineCMExit.A
   route_chain:
   - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
     or `T^3`
@@ -201,4 +199,4 @@ summary:
   tracked_source_count: 125
   synthesis_import_surface_count: 0
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-bcf5e31af8a8
+  theorem_surface_id: theorem-surface-navier-stokes-43bdf8f77bd1
