@@ -2,7 +2,8 @@
 
 Date: 2026-05-21
 
-Status: proof skeleton with exact remaining supplier.
+Status: CM-relative proof installed after
+`mpp-no-persistent-unpaid-positive-radius-ancestry-20260521.md`.
 
 ## Claim
 
@@ -45,39 +46,38 @@ Then the selected same-fluid packet family has a positive-scale terminal
 subsequence. After passing to the terminal subsequence, the source residue is
 carried by an ordinary positive-radius packet, not by a Zeno endpoint.
 
-The proof here is a finite transported-ledger contradiction.
+The proof here is the retained finite-carrier participation contradiction from
+`NoPersistentUnpaidPositiveRadiusAncestry.A`.
 
-Choose a transported cutoff adapted to the positive-radius tail. Because
-`r_m>=r_0`, the cutoff constants, overlap constants, and same-fluid coordinate
-constants are uniform on the tail. Apply the finite packet source balance on
-each selected packet:
+The positive lower radius gives an ordinary terminal carrier. If `Pack_Q`,
+`Part_{N,Q}`, or `Field_{N,r,Q}` fails on that carrier, the branch has already
+hit a finite CM face. On the retained subcase,
 
-```text
-selected positive source charge
-  = reserve increment
-    + dissipation payment
-    + incoming flux
-    + legal/cutoff/boundary payment
-    + finite CM-face defect
-    + terminal error_m.
+```math
+CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
 ```
 
-The terminal errors vanish or are summable on the positive-radius tail by the
-same finite-packet compactness used to keep the tail inside ordinary CM packet
-grammar.
+the source-current participation balance gives
 
-The no-pay hypothesis kills every term on the right:
-
-```text
-reserve paid,
-dissipation paid,
-incoming flux,
-legal/boundary exit,
-finite Pack/Part/Field exit.
+```math
+\mu_m^{src}(Q_R\times[-\varepsilon,0])
+\le
+M_{CM}(N,r,Q)\varepsilon
++J_{in,m}
++Exit_m
++o_m(1).
 ```
 
-But the selected ancestry has positive terminal source residue, so the left
-side has a positive lower bound along a subsequence. Contradiction.
+The unpaid all-internal hypothesis removes `Exit_m`; a nonzero `J_in` is already
+incoming flux; and the no-incoming retained subcase has `J_{in,m}=o_m(1)` by
+`RetainedPackFieldNoIncomingParticipationFlux.A`. Passing to the selected
+terminal source residue yields
+
+```math
+c_0\le M_{CM}(N,r,Q)\varepsilon
+```
+
+for every `\varepsilon>0`, contradicting `c_0>0`.
 
 So an unpaid all-internal ancestry cannot keep a positive lower radius.
 
@@ -114,9 +114,9 @@ It is already CM exit. Any Field/Jump language applied to the terminal residue
 is post-exit readout unless a separate theorem produces a positive-scale retained
 carrier.
 
-## Exact Remaining Supplier
+## Installed Upstream Lemma
 
-The one theorem that has to be proved upstream is:
+The upstream positive-radius alternative is discharged by:
 
 ```text
 NoPersistentUnpaidPositiveRadiusAncestry.A
@@ -126,9 +126,13 @@ Statement:
 
 ```text
 If a selected same-fluid finite ancestry has a positive lower radius on a
-terminal tail, then finite packet source-accounting forces reserve payment,
+terminal tail, then retained finite-CM source-accounting forces reserve payment,
 dissipation, incoming flux, legal/boundary exit, or finite CM-face exit.
 ```
 
-Once that theorem is installed, every no-pay survivor is forced into the Zeno
-case, and the Zeno endpoint is `not Pack_Q`.
+Therefore every retained no-pay survivor is forced into the Zeno case, and the
+Zeno endpoint is `not Pack_Q`.
+
+The stronger forward supplier theorem `PositiveRemainderDepletion.A` remains a
+separate source-production problem. It is not needed for this CM-legality
+dichotomy.
