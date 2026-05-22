@@ -1,12 +1,12 @@
 # Euler Cascade-After-Control Source Pack
 
-## Target Obligation
+## Terminal Classification
 
-- `debt-localize-the-cascade-burden-after-the-control-functional-slot`
+- `conditional-interface-localize-the-cascade-boundary-after-the-control-functional-slot`
 
 ## Exact Claim
 
-After the Euler control-functional slot is installed, the unresolved mechanism
+After the Euler control-functional slot is installed, the terminal mechanism
 is not generic lack of energy control. It is still dangerous transfer into
 arbitrarily high frequencies.
 
@@ -27,9 +27,9 @@ together with the transport packet
 \right| ds.
 ```
 
-## Exact Burden
+## Conditional Interface
 
-The next theorem burden is:
+The conditional interface is:
 
 ```math
 \boxed{
@@ -44,4 +44,3 @@ That is the scale-barrier frontier on the Euler branch.
 
 - [monotone-functional-discharge-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/monotone-functional-discharge-source-pack.md)
 - [scale-barrier-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/scale-barrier-source-pack.md)
-
