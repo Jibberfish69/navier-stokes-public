@@ -11,7 +11,7 @@ audit scaffolding. Its objective is:
 \boxed{
 \text{isolate each serious Navier-Stokes proof road into its methodology and
 aim, then walk the incompressible Euler equations down that same road,
-preserving the proof burden honestly and recording the exact step where the
+preserving the proof role honestly and recording the exact step where the
 road survives, changes, or breaks.}
 }
 ```
@@ -29,7 +29,7 @@ real theorem-bearing methodology. Each such road must be recovered in terms of:
 2. its mechanism;
 3. its key propagated objects;
 4. its bridge order;
-5. its terminal contradiction, continuation, or closure burden.
+5. its terminal contradiction, continuation, or closure classification.
 
 Parent files are evidence for recovering that road. They are not the primary
 deliverable by themselves.
@@ -116,7 +116,7 @@ surface that states:
 2. its mechanism;
 3. its key propagated objects;
 4. its bridge order;
-5. its terminal burden.
+5. its terminal classification.
 
 ### W2. Euler Walkdown
 
@@ -146,7 +146,7 @@ mathematical break:
 1. the specific identity, estimate, coercive term, or continuation step that
    fails;
 2. the exact place in the proof packet where it fails;
-3. the strongest honest Euler replacement burden visible from that break.
+3. the strongest honest terminal classification visible from that break.
 
 ### W5. Route Classification
 
