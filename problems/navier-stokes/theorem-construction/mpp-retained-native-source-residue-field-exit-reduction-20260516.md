@@ -2,7 +2,31 @@
 
 ## Status
 
-Conditional CM-facing bridge note.
+CM-facing bridge note; strengthened by the 2026-05-22 polarity correction
+`TerminalSourceResidueCMExit.A`.
+
+## 2026-05-22 Polarity Correction
+
+The retained native source residue is not a request to prove
+`\mu_*^{sing}=0` inside the CM route. It is the witness of class exit.
+
+`TerminalSourceResidueCMExit.A` installs the Pack-first version:
+
+```math
+\mu_*^{sing}\ne0
+\Longrightarrow
+\neg Pack_Q
+\vee
+\neg Part_{N,Q}
+\vee
+\forall r>0\,\neg Field_{N,r,Q}.
+```
+
+Under retained `Pack_Q+Part_{N,Q}`, the Field landing follows because
+`Field_{N,r,Q}` would make the native source carrier chargeable by the finite
+one-field tower ledger on the same family. A selected unpaid retained residue
+therefore proves `not Field`; it is not first deleted by a positive supplier
+estimate.
 
 The purpose is to repair the source-wall posture by separating two targets:
 
@@ -20,7 +44,9 @@ Pack_Q+Part_{N,Q}+\mu_{\ast}^{sing}\ne 0
 
 as the CM-facing retained Field landing.
 
-The note records the exact bridge theorem and the single analytic sublemma still needed when the native residue is sharper than the installed scale-critical Carleson diagnostic.
+The older conditional lower-response language below is retained as a sharper
+quantitative readout. The qualitative CM landing is now supplied by
+`TerminalSourceResidueCMExit.A`.
 
 Object boundary: this note is about the retained residue branch after positive
 source depletion has failed. It does not classify the positive supplier theorem
