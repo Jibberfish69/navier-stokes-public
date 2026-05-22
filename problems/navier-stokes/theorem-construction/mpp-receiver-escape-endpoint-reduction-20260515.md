@@ -131,6 +131,13 @@ If `Pack_Q` is absent, receiver escape is a Pack exit.  If `Part_{N,Q}` is
 absent at the needed depth, receiver escape is a Part exit.  If both survive,
 receiver escape is exactly a Field endpoint.
 
+Here "both survive" is branch-local.  `Pack_Q` and `Part_{N,Q}` are retained as
+licenses that keep receiver escape from being classified earlier as carrier loss
+or dropped-law participation loss.  This does not assert that the terminal
+ontology row `Pack, Part, not-Field` survives.  Read as terminal ontology, a
+realized same-fluid `Jump` also defeats terminal participation and collapses to
+`Pack, not-Part, not-Field`.
+
 ### Proof
 
 With `Pack_Q`, Lemma `REE.A` reduces receiver escape to finite-depth tower
