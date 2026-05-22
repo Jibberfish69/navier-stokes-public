@@ -71,6 +71,10 @@ theorem_warrants:
     release audit. Demotion repair: historical four-bridge and positive-support warrants
     remain support context only. They are not stand-alone proof authority for a full
     release audit. Demotion repair: historical four-bridge and positive-support warrants
+    remain support context only. They are not stand-alone proof authority for a full
+    release audit. Demotion repair: historical four-bridge and positive-support warrants
+    remain support context only. They are not stand-alone proof authority for a full
+    release audit. Demotion repair: historical four-bridge and positive-support warrants
     remain support context only. They are not stand-alone proof authority while source-wall-root-after-reconcile
     is open. Demotion repair: historical four-bridge and positive-support warrants
     remain support context only. They are not stand-alone proof authority while source-wall-root-after-reconcile
@@ -258,9 +262,9 @@ theorem_warrants:
         + RetainedSCTCFailureFieldExit.A
       - 'ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A as diagnostic/source-residue
         language: finite Zeno ancestry is sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A,
-        while the terminal zero-radius residue is not Pack_Q and Field/Jump language
-        is post-exit readout unless a positive-scale retained carrier is separately
-        proved'
+        while the terminal zero-radius residue is not Pack_Q and endpoint readout
+        language is post-exit support unless a positive-scale retained carrier is
+        separately proved'
       - RetainedFaceAmplitudeGain.A as a PackGainLedger/PartEnvelopeAmplitudeConservation
         boundary, not a new face
       - ActiveHeightFluxTrichotomy.A as Pack/Part/legal-Field/Zeno face routing
@@ -512,14 +516,15 @@ theorem_warrants:
         fail from installed inputs or remain conditional production imports. The May
         21 terminal Zeno correction classifies the endpoint as `not Pack_Q`: finite
         Zeno ancestry packets may be legal, but the terminal zero-radius residue is
-        not a retained positive-radius packet. BASACTerminalAtomCMFaceLabeling.A,
-        RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
-        are upstream finite-ancestry accounting or downstream post-exit readout, not
-        a retained terminal Field packet. A general TerminalSourceReverseHolder.A
-        remains an external new theorem, not a consequence of the installed B_ASAC
-        bookkeeping. LocalPositiveSourceCarleson.A collapses to PositiveRemainderDepletion.A;
-        SquareSourceEstimate.A and ActiveShellAmplitudeGain.A collapse to ActiveShellSourceNormalize.A
-        / active-square reserve; the broader Zeno branch collapses to TerminalSourceReverseHolder.A
+        not a retained positive-radius packet. NoPersistentUnpaidPositiveRadiusAncestry.A
+        closes the positive-radius retained tail by the shared-participation strip
+        balance. BASACTerminalAtomCMFaceLabeling.A, RetainedPackFieldNoIncomingParticipationFlux.A,
+        and BASACLiouvilleCMParticipationBridge.A are finite-ancestry accounting and
+        post-exit readout support. A general TerminalSourceReverseHolder.A remains
+        an external new theorem, not a consequence of the installed B_ASAC bookkeeping.
+        LocalPositiveSourceCarleson.A collapses to PositiveRemainderDepletion.A; SquareSourceEstimate.A
+        and ActiveShellAmplitudeGain.A collapse to ActiveShellSourceNormalize.A /
+        active-square reserve; the broader Zeno branch collapses to TerminalSourceReverseHolder.A
         / UniformTemporalSourceIntegrability_p.A or a produced rigid Zeno residue
         class with Liouville. This supplier is required for downstream PCTP.hard literal
         no-Jump_avg terminal-tail production. It is separate from the already-closed
