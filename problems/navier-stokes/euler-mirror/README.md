@@ -57,6 +57,9 @@ Terminal readback:
 - [referee-audit-ledger.yaml](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml)
   is the branch-local readback authority for where Euler is smooth, where it is
   nonsmooth, and where Navier-Stokes viscosity is doing proof work
+- its `case_matrix` is the controlling split: `ESM.S*` smooth-by-hypothesis,
+  `ESM.C*` conditional Euler-control, `ESM.N*` nonsmooth or false-from-base,
+  and `ESM.V*` viscosity-import
 - the base membership layer is `EVol + EMom`; smoothness does not follow from it
 - `ELCI.A` now records the Euler replacement for the expanded parent `ACT.KX` /
   `2\nu` absorption and top-viscous readout chain as the closed
