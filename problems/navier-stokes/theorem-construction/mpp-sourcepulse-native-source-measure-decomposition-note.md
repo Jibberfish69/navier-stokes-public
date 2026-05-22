@@ -23,9 +23,7 @@ is used as a witness:
 \Longrightarrow
 \neg Pack_Q
 \vee
-\neg Part_{N,Q}
-\vee
-\forall r>0\,\neg Field_{N,r,Q}.
+\neg Part_{N,Q}.
 ```
 
 That CM-facing theorem is now installed as
