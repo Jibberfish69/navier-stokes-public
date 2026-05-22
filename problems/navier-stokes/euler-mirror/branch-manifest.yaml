@@ -15,18 +15,17 @@ role:
     Study the incompressible Euler regularity problem by removing viscosity
     literally, defining Euler-native flux-volume membership, and treating
     smoothness / one-field coherence / Lagrangian carriers as separate
-    regularity burdens rather than primitive membership.
+    conditional layers rather than primitive membership.
 objective:
-  primary_goal: regularity for the three-dimensional incompressible Euler equations
+  primary_goal: terminal classification of the Euler mirror of the Navier-Stokes regularity program
   execution_doctrine: >-
     Use the Navier-Stokes corpus only as comparison authority. Every copied
-    Navier-Stokes mechanism must either be rebuilt from Euler transport,
-    pressure, flux-volume, vorticity, or compactness structure, or remain a
-    named holdout.
+    Navier-Stokes mechanism must land as proved conditional, false from base
+    Euler membership, or non-Euler import.
   proof_modes:
   - positive-control
   - euler-membership-plus-regularity
-  proof_mode_policy: run both in parallel when useful; do not collapse Euler membership into smoothness
+  proof_mode_policy: both routes are terminally classified; do not collapse Euler membership into smoothness
 equation_lock:
   source_equation: incompressible Navier-Stokes
   mirrored_equation: incompressible Euler
@@ -59,8 +58,8 @@ fidelity_contract:
   - optional-receiver-support
   queue_rule: >-
     Do not use Pack / Part / Field as Euler membership. Start from Member_E,
-    then prove any desired smoothness, Lagrangian, or one-field property as a
-    separate Euler regularity upgrade.
+    then classify any desired smoothness, Lagrangian, or one-field property as
+    conditional or false from the base object.
 current_mirror_state:
   membership_route:
     status: ontology-repaired
@@ -97,16 +96,16 @@ current_mirror_state:
         The ledger is L1 under explicit same-cover Euler center, oscillation, and
         centered-pressure-return envelopes, while base Member_E does not force
         it.
-    live_obstruction: base membership cannot supply smoothness; remaining theorem work is the separate Euler regularity/control/continuation package
+    terminal_readback: base membership cannot supply smoothness or the receiver ledger; no live membership-route burden remains
   positive_control_route:
-    status: regularity-support-only
+    status: terminal-conditional-or-non-euler
     branch_local_surfaces:
     - problems/navier-stokes/euler-mirror/positive-control-file-ledger.yaml
     - problems/navier-stokes/euler-mirror/claim-ladder.md
     - problems/navier-stokes/euler-mirror/source-grounded-framework-map.md
     - problems/navier-stokes/euler-mirror/theorem-construction/positive-control-euler-program.md
     - problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md
-    live_obstruction: build an Euler-native control/compactness/continuation package strong enough to imply regularity
+    terminal_readback: extra Euler controls would make a conditional theorem, while the installed parent viscous mechanisms are non-Euler imports
 branch_surfaces:
   primary_working_contract: problems/navier-stokes/euler-mirror/methodology-aim-walkdown-contract.md
   primary_working_status: problems/navier-stokes/euler-mirror/methodology-aim-walkdown-status.yaml
@@ -117,6 +116,7 @@ branch_surfaces:
   frontier_packet: problems/navier-stokes/euler-mirror/theorem-construction/euler-mirror-frontier-packet.md
   scenario_separation_map: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
   receiver_closure: problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md
+  terminal_closure: problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
   campaign_map: problems/navier-stokes/euler-mirror/campaign-map.md
   execution_ledger: problems/navier-stokes/euler-mirror/execution-ledger.yaml
   completion_contract: problems/navier-stokes/euler-mirror/completion-contract.md
