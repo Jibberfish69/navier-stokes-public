@@ -94,6 +94,18 @@ stale_failure_patterns:
     pattern: remaining_global_regularity_burden
   - id: proved-global-smoothness-overclaim
     pattern: Euler global smoothness has been proved
+  - id: stale-rewrite-needed
+    pattern: rewrite-needed
+  - id: stale-blocked-by-label
+    pattern: blocked-by-non-Euler-dependence
+  - id: stale-holdout
+    pattern: holdout
+  - id: stale-open-continuation
+    pattern: open-continuation
+  - id: stale-debt-language
+    pattern: '(live branch debt|live mirror debt|theorem debt|remaining burden)'
+  - id: stale-unresolved-language
+    pattern: '(unresolved|unfinished)'
 surface_rules:
   - id: branch_authority_status
     paths:
@@ -115,7 +127,7 @@ surface_rules:
     referee_readback: >-
       These are authority/readback surfaces. Their job is to keep the Euler
       branch terminally classified by this ledger and not to advertise an
-      unfinished smoothness theorem.
+      unclassified smoothness theorem.
   - id: contracts_and_findings
     paths:
       - completion-contract.md
