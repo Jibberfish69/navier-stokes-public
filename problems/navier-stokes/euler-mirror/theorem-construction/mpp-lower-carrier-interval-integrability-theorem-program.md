@@ -453,31 +453,33 @@ routing on the negative side, without the parent `ACT.KX` / `2nu` absorption or
 Scenario authority:
 [euler-ns-viscosity-scenario-separation-map-20260521.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md).
 
-## Honest Remaining Theorem Debt
+## Receiver Split Closure
 
-The new Euler packet now proves the conditional packet inequality, but it does
-not claim that the coefficient ledger in `(ELCI.16b)` is already integrable. It
-isolates the exact remaining theorem debt:
+The new Euler packet proves the conditional packet inequality. The May 22
+separation theorem closes the exact receiver split for the coefficient ledger in
+`(ELCI.16b)`:
 
 ```math
 \boxed{
 \begin{gathered}
-\text{replace the parent }ACT.KX\text{ viscous absorption and top-viscous readout}\\
-\text{by a direct Euler center/oscillation/pressure theorem that makes }
-\mathfrak L_{N,m,\rho,\psi}^{E,ctr}
-\text{ integrable on still-live Euler intervals.}
+\text{the direct Euler center/oscillation/pressure theorem makes }
+\mathfrak L_{N,m,\rho,\psi}^{E,ctr}\in L^1
+\text{ under explicit same-cover Euler control,}\\
+\text{and base }Member_E\text{ does not force that control.}
 \end{gathered}
 }
 \tag{ELCI.17}
 ```
 
-That debt is now the split supplier target `ELCI.CP.A-Separation`, with three
-visible regularity-side components:
+The closed split has three visible regularity-side components:
 
 1. transported-center carrier integrability for the lower family;
 2. local oscillation integrability on transported balls of radius `2R_\delta`;
 3. centered pressure return strong enough to bound the lower-order pressure
    packet without any top-viscous export.
+
+Closure authority:
+[mpp-elci-cp-a-separation-closure-20260522.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md).
 
 ## Honest Conclusion
 
@@ -487,12 +489,14 @@ This note pushes the lower-carrier theorem as far as possible without cheating:
 \boxed{
 \begin{gathered}
 \text{the Euler mirror of the parent receiver chain is reduced to}\\
-\text{an explicit transport/pressure ledger, and the first unresolved point is}\\
-\text{the missing }ACT.KX\text{ / }2\nu\text{ absorption and top-viscous replacement.}
+\text{an explicit transport/pressure ledger, and that receiver ledger is}\\
+\text{closed exactly as a regularity-conditional theorem plus base-}Member_E
+\text{ failure witness.}
 \end{gathered}
 }
 \tag{ELCI.18}
 ```
 
-So the receiver side is no longer blocked by a vague slogan. Its honest open
-burden is the direct Euler split theorem `ELCI.CP.A-Separation`.
+So the receiver side is no longer blocked by a vague slogan or by the parent
+viscous chain. It is closed as a conditional Euler ledger theorem; global Euler
+regularity remains a separate control/continuation problem.
