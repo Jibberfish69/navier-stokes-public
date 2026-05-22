@@ -90,6 +90,7 @@ mirror_theorem_queue:
 holistic_scenario_separation_lock:
   status: terminal
   authority_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
+  referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
   governing_readback: >-
     The Euler mirror now separates every repo-visible Euler/NS contact point into
     smooth-or-regularity-conditional cases, nonsmooth-or-not-forced-smooth cases,
@@ -142,6 +143,7 @@ closed_receiver_theorem_target:
 terminal_branch_closure:
   status: closed-no-live-burdens
   closure_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
+  referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
   readback: >-
     The Euler mirror carries no remaining live branch burden. Conditional
     regularity surfaces are closed as conditional; base Member_E implications to
