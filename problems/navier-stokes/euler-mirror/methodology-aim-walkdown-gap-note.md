@@ -10,21 +10,21 @@ What is complete:
    blocked-at-an-exact-bridge, blocked-at-entry, or provenance-only;
 3. the branch is no longer measured by raw file parity.
 
-What remains open are theorem burdens, not contract-definition burdens:
+Terminal classifications:
 
 1. `Contradiction / class-membership`
    The route is honestly walked through `ECFI -> EL13 -> EOFR/EOFP -> ELCI`,
    and the receiver theorem now closes at `ELCI.CP.A-Separation`: exact Euler
    control assumptions prove the ledger, while base `Member_E` does not force it.
-   The packing-side no-blown branch is not yet discharged.
+   The packing-side no-blown branch is classified as a false base-membership
+   implication unless extra regularity is assumed.
 2. `Positive-control four-bridge`
    The positive route is honestly walked through the scale / control /
-   compactness / continuation slots, but the actual Euler dangerous-scale
-   barrier and continuation theorem remain open.
+   compactness / continuation slots and closes only conditionally under explicit
+   Euler control hypotheses.
 3. `Selector`
-   The road now reaches the Euler pair-defect packet honestly, but the
-   observability/coercivity-to-`SG.4` bridge remains blocked by the missing
-   Euler replacement for the parent parabolic budget.
+   The road reaches the Euler pair-defect packet honestly; the
+   observability/coercivity-to-`SG.4` bridge is a non-Euler parabolic import.
 4. `Export`
    The readout/export interfaces survive, but the parent viscous low-mode
    consumer is not an Euler consumer.
@@ -35,4 +35,4 @@ What remains open are theorem burdens, not contract-definition burdens:
    Its architectural role survives, but its installed PDE packet is not a live
    Euler theorem road.
 
-So the contract is complete, while the theorem program remains open.
+So the contract and the terminal branch classification are complete.
