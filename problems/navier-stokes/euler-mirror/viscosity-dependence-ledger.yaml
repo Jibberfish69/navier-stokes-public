@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   branch_id: euler-mirror-chat20
   artifact_id: viscosity-dependence-ledger-navier-stokes-euler-mirror
-  updated_on: '2026-05-21'
+  updated_on: '2026-05-22'
   generator: codex-euler-ontology-repair
 entries:
 - source_path: problems/navier-stokes/theorem-construction/mpp-euler-smooth-ns-smooth-contrapositive-route-note-20260506.md
@@ -248,8 +248,9 @@ cj_a_low_comparison:
       viscosity, not an Euler theorem-bearing input.
   euler_comparison_boundary:
   - >-
-    `ELCI.A` may aim for a direct transport/pressure theorem controlling the
-    Euler lower-carrier ledger, but that is an open Euler replacement slot.
+    `ELCI.A` now has a closed receiver split: the Euler lower-carrier ledger is
+    controlled under explicit same-cover regularity/control envelopes, and base
+    Member_E does not force that control.
   - >-
     The Euler mirror may reuse fixed-cover transport geometry, one-field
     increment coherence, local oscillation structure, and pressure Poisson
@@ -260,18 +261,19 @@ cj_a_low_comparison:
     top-two viscous center ledgers, or `2\nu\mathcal D^{low}` absorption as
     proved Euler analogues.
 scenario_separation_map:
-  status: installed
+  status: installed-and-receiver-split-closed
   surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
+  closure_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md
   classification: >-
     The May 21 map classifies every repo-visible Euler/NS contact point by
     smooth-or-regularity-conditional cases, nonsmooth-or-not-forced-smooth cases,
     and explicit viscosity proof jobs. It makes the slip/jump model the clean
     Euler bad case and prevents the branch from treating ELCI.CP.A as automatic
     from base Member_E.
-  active_receiver_consequence: >-
-    The receiver target is now ELCI.CP.A-Separation: split the L_E_ctr ledger
-    into exact regularity-conditional hypotheses where L1 can be proved and base
-    Member_E scenarios where L1 is not forced.
+  receiver_consequence: >-
+    ELCI.CP.A-Separation is closed. The L_E_ctr ledger is L1 under explicit
+    regularity-conditional hypotheses, and stationary unbounded shear shows base
+    Member_E does not force the ledger.
 summary:
   rewritten_mainline_count: 4
   replacement_or_demotion_count: 10
@@ -282,13 +284,10 @@ summary:
   cj_a_low_comparison_status: comparison-only-no-proved-euler-analogue
   first_literal_open_receiver_burden: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
   scenario_separation_map: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
-  active_next_theorem_target: ELCI.CP.A-Separation
-  active_next_theorem_target_burden: >-
-    Split L1 integrability of the Euler transported-center,
-    local-oscillation, and centered-pressure ledger after the May 19 direct
-    ELCI.A packet inequality attempt and the May 21 scenario separation map:
-    prove the regularity-conditional side and route the base Member_E nonsmooth
-    side without importing viscosity.
+  closed_receiver_theorem_target: ELCI.CP.A-Separation
+  closed_receiver_theorem_target_readback: >-
+    The regularity-conditional side is proved and the base Member_E implication
+    is refuted without importing viscosity.
   expanded_receiver_break: ACT.KX viscous absorption and internal `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc` cell order under `RSCB.NKF -> NKF.Native -> ACT.KX -> ... -> LCI.A`
   vanishing_viscosity_boundary_status: Euler is now typed as the `nu=0` boundary class and fixed-positive-viscosity class-exit surface when `Visc^{fix}_{nu_*}` fails
   note: >-
