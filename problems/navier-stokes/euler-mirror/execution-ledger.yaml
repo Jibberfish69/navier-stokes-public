@@ -37,7 +37,7 @@ scenario_separation_map:
   surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
   referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
   case_matrix_surface: "problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml#case_matrix"
-  case_matrix_rows: 14
+  case_matrix_rows: 17
   readback: >-
     All repo-visible Euler/NS contact points are sorted into smooth or
     regularity-conditional cases, nonsmooth or not-forced-smooth cases, and
