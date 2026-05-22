@@ -4,11 +4,11 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-22T22:46:02Z'
+  audited_at: '2026-05-22T22:51:04Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
-  standalone_status: theorem-open-at-source-wall-root
+  standalone_status: theorem-open-at-terminal-cm-no-exit
   completion_tier_achieved: route-complete
   review_verdict: revise
   theorem_packet_status: incomplete
@@ -25,15 +25,15 @@ branch_audit:
   unresolved_count: 0
   branches:
   - branch_id: branch-navier-stokes-1
-    origin_obligation_id: source-wall-root-after-reconcile
+    origin_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
     branch_type: route-branch
     terminal_status: route-equivalence
     exact_reason: This branch starts exactly at the first unresolved frontier for
-      `source-wall-root-after-reconcile`.
+      `terminalcmnoexit-a-nogenuinecmexit-a`.
     promotion_status: quarantined
     falsification_verdict: quarantine
     reasons:
-    - This branch starts exactly at the first unresolved frontier for `source-wall-root-after-reconcile`.
+    - This branch starts exactly at the first unresolved frontier for `terminalcmnoexit-a-nogenuinecmexit-a`.
     - This is a route branch rather than a local theorem bridge, so it stays quarantined.
   authority_frontier_open: true
   authority_frontier_count: 1
@@ -48,7 +48,7 @@ downstream_overlay_drift:
   stale_overlays:
   - artifact: review_verdict
     path: problems/navier-stokes/review-verdict.yaml
-    sha1: 17bc01839c7d4caadd3583e03b130a83268cb4e9
+    sha1: 686561089a0ca7e102726041af08147db850cb3c
     matched_terms:
     - theorem-upgrade
   - artifact: release_decision
