@@ -5,8 +5,9 @@
 Assemble the Euler positive-control road and the repaired Euler membership road
 without pretending that membership is already smoothness.
 
-This file does not claim Euler global regularity. It fixes the exact burdens
-whose discharge would upgrade an Euler member into the desired smooth class.
+This file does not claim Euler global regularity. It closes the integrated
+Euler mirror as a terminal classification: conditional routes are conditional,
+base membership implications are false, and viscous imports are non-Euler.
 
 ## Fixed Surface
 
@@ -41,7 +42,8 @@ Admissibility, when needed, is a separate layer:
 
 ## Route A: Positive-Control Package
 
-The positive route still asks for Euler-native controls:
+The positive route closes only after Euler-native controls are added as explicit
+hypotheses:
 
 1. [target-fidelity-discharge-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/target-fidelity-discharge-source-pack.md)
 2. [monotone-functional-discharge-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/monotone-functional-discharge-source-pack.md)
@@ -50,7 +52,7 @@ The positive route still asks for Euler-native controls:
 5. [gradient-discharge-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/gradient-discharge-source-pack.md)
 6. [route-b-euler-closure-theorem.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md)
 
-Its integrated shape is:
+Its terminal conditional shape is:
 
 ```math
 \boxed{
@@ -92,38 +94,39 @@ Its integrated shape is:
 \tag{IEC.B}
 ```
 
-## Shared Decisive Burdens
+## Shared Terminal Decisions
 
-The decisive burdens are:
+The decisive decisions are:
 
-1. an Euler scale or cascade barrier that does not use viscous damping;
-2. a control functional stronger than bare flux-volume membership wherever
-   continuation needs it;
-3. compactness / nonlinear closure without hidden parabolic smoothing;
-4. an Euler transport-pressure continuation theorem;
-5. an envelope implying the closed `ELCI.CP.A` hypotheses when the receiver
-   ledger is used;
-6. optional Lagrangian or one-field persistence only after the relevant
-   regularity class is explicitly chosen.
+1. an Euler scale or cascade barrier is an added control hypothesis unless
+   proved by a new external theorem;
+2. a control functional stronger than bare flux-volume membership is not supplied
+   by `Member_E`;
+3. compactness / nonlinear closure remains conditional on one fixed Euler family
+   with earned controls;
+4. an Euler transport-pressure continuation theorem is an added hypothesis, not a
+   live branch debt;
+5. the closed `ELCI.CP.A` hypotheses are supplied only by explicit envelopes;
+6. optional Lagrangian or one-field persistence is conditional on the chosen
+   regularity class.
 
-## Combined Closure Target
+## Combined Terminal Closure
 
-The honest closure target is:
+The installed branch closes as:
 
 ```math
 \boxed{
-\mathrm{Member}_E
-+ \mathrm{EAdm}\ \text{when selected}
-+ IEC.A
-+ IEC.B
+\text{conditional controls}
 \Longrightarrow
-\text{the desired classical Euler regularity.}
+\text{conditional regularity,}
+\qquad
+Member_E\not\Longrightarrow\text{regularity.}
 }
 \tag{IEC.C}
 ```
 
-This is a regularity theorem over Euler membership. It is not a proof that rough
-Euler behavior fails to be Euler.
+This is not a live target. It is the terminal distinction: added controls yield
+conditional regularity, while rough Euler behavior can still be Euler.
 
 ## Auxiliary Roads
 
@@ -137,7 +140,6 @@ the exact Euler surface:
 
 ## Honest Current Posture
 
-The base object is now correct, and the `ELCI.CP.A` receiver split is closed.
-The theorem remains open because the missing work is a real Euler
-scale/control/compactness/continuation upgrade, not a membership-definition
-trick and not an import of the Navier-Stokes viscous receiver chain.
+The base object is correct, the `ELCI.CP.A` receiver split is closed, and the
+integrated Euler mirror has no live branch burden. The terminal closure authority
+is [mpp-euler-mirror-terminal-closure-20260522.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md).
