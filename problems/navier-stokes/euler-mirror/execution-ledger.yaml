@@ -106,7 +106,7 @@ phases:
   goal: demote ECFI/EL13/EOFP/EOFR/ELCI to regularity support above Member_E
 - phase_id: phase-3-positive-route-rewrite
   status: completed-terminal
-  goal: classify the positive route as conditional or non-Euler rather than live burden
+  goal: classify the positive route as conditional or non-Euler
 - phase_id: phase-3a-euler-ns-scenario-separation
   status: completed
   goal: classify every repo-visible Euler/NS contact case by smooth/conditional, nonsmooth/not-forced, and viscosity mechanism
