@@ -5,13 +5,14 @@ artifact_id: derivation-audit-status
 updated_on: '2026-05-22'
 completion_meaning: >-
   This surface tracks completion of the branch-wide derivation-fidelity audit
-  contract. It terminally classifies the Euler mirror; it does not assert that
-  Euler global smoothness has been proved.
+  contract. It terminally classifies the Euler mirror; it does not assert a
+  proof of Euler global smoothness.
 theorem_claim_status: terminal-no-live-burdens
 terminal_classification_surfaces:
   - problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md
   - problems/navier-stokes/euler-mirror/execution-ledger.yaml
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
+  - problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
 conditions:
   A1:
     status: completed
