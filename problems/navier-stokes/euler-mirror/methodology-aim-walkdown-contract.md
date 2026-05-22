@@ -163,7 +163,8 @@ statuses:
 
 If one Euler route needs a supplier from another route, that dependency must be
 spelled out theorem-locally. A downstream closure file may not pretend to stand
-alone if it actually depends on an unresolved upstream route.
+alone if it depends on an upstream route that this branch has not terminally
+classified.
 
 ### W7. Theorem-Surface Standard
 
