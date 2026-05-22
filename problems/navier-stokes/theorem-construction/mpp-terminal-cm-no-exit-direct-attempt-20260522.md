@@ -138,7 +138,7 @@ scale and tower-amplitude/readout bounds. Therefore Part no-exit does not close
 as an independent direct route without importing the desired continuation-scale
 control.
 
-### 3. Field no-exit
+### 3. Field no-exit after Part is licensed
 
 Assume Pack and Part survive. The remaining failure is
 
@@ -146,46 +146,48 @@ Assume Pack and Part survive. The remaining failure is
 \forall r>0\,\neg Field_{N_s,r,Q}.
 ```
 
-This is the one-field coherence/source wall. The current route has already
-identified the exact surviving obstruction: after legal, pressure, cutoff,
-boundary, signed-current, and finite ledger terms are removed, a terminal
-native positive source component may remain singular to the installed route
-measure:
+This is a one-field coherence/readout wall, not a raw source-residue wall.
+`TerminalSourceResidueCMExit.A` now routes a terminal unpaid source residue
+first:
 
 ```math
-\mu_*^{sing}\ne0.
+\mu_*^{sing}\ne0
+\Longrightarrow
+\neg Pack_Q\vee\neg Part_{N_s,Q}.
 ```
 
-The needed domination theorem is the native source absolute-continuity theorem:
+So, once `Part_{N_s,Q}` is retained, the raw terminal source residue has already
+been paid, absorbed, or rejected. It cannot be the Field obstruction without
+first breaking Part.
+
+The Field no-exit burden is therefore the narrower retained-coherence theorem:
 
 ```math
-NativeSourceAC.A:
+Pack_Q\wedge Part_{N_s,Q}
+\Longrightarrow
+\exists r>0\,Field_{N_s,r,Q}
+```
+
+for objects that have already passed the participation ledger: receiver
+coherence, paraproduct readout, pressure readout, or another lawful same-field
+residue. Source-control theorems such as
+
+```math
+NativeSourceAC.A,
 \qquad
-\mu_{src,N}^+
-\le
-C\rho_{inst,N}+o_N(1)
-```
-
-on every bounded-overlap terminal same-fluid family. Equivalently, prove
-
-```math
-\mu_*^{sing}=0.
-```
-
-The repo records this same wall through the positive supplier language
-
-```math
 PositiveRemainderDepletion.A,
 \qquad
 NativeTrilinearDefectDomination.A,
 \qquad
-SourcePulseExclusion.A.
+SourcePulseExclusion.A
 ```
 
-Installed inputs route legal terms and pay ASAC alignment, but they do not
-currently supply super-`L^1_t` source residence, Zeno residue evacuation, a
-produced rigid residue class with Liouville, or a scale-critical active-square
-reserve. Thus Field no-exit is also not closed by the direct attempt.
+belong to the positive supplier/no-source-residue program, or to the Part
+no-exit problem. They do not make a raw source residue a Field face.
+
+Installed inputs give conditional retained-Field diagnostics, but they do not
+currently prove this positive Field no-exit theorem. Thus Field no-exit is also
+not closed by the direct attempt.
 
 ## Verdict
 
@@ -194,30 +196,30 @@ The direct no-exit proof fails. The failure is informative:
 ```math
 \boxed{
 TerminalCMNoExit.A
-\text{ is equivalent, at current route resolution, to closing the terminal
-native-source/carrier supplier wall.}
+\text{ is equivalent, at current route resolution, to closing all three
+positive no-exit faces.}
 }
 ```
 
-The cleanest live subprimitive is:
+The positive subprimitives are:
 
 ```math
 \boxed{
-NativeSourceAC.A
-\quad\text{or equivalently}\quad
-\mu_*^{sing}=0
+\text{Pack no-exit,}\qquad
+\text{Part no-exit,}\qquad
+\text{licensed Field no-exit.}
 }
 ```
 
-on bounded-overlap same-fluid terminal families, together with the Pack-side
-Carleson/zero-scale consequences it pays.
+Native source absolute continuity is a Part/supplier route in this list. It is
+not the Field landing for raw residue in the CM contrapositive tree.
 
 In plain route terms:
 
 ```text
 Capture is installed.
 No-fourth-residue is installed.
-Smoothness now needs no terminal native source/carrier residue.
+Smoothness now needs positive no-exit across Pack, Part, and licensed Field.
 ```
 
 ## Boundary
