@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-22T23:42:42Z'
+  audited_at: '2026-05-22T23:43:16Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -275,11 +275,11 @@ issues:
     - artifact: creative_theorem_search
       path: problems/navier-stokes/creative-theorem-search.yaml
       target_ids:
-      - CFI.A
+      - TerminalCMNoExit.A
       - NoGenuineCMExit.A
       - SOURCE.NO-PULSE.A
       - RawZenoFailurePartition.A
-      generated_at: '2026-05-22T23:25:52Z'
+      generated_at: '2026-05-22T23:42:47Z'
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
