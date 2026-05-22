@@ -1,14 +1,14 @@
 # Euler Scale-Barrier Source Pack
 
-## Target Obligation
+## Terminal Classification
 
-- `debt-frontier-euler-dyadic-tail-or-flux-estimate-suppressing-dangerous-high-frequency-transfer`
-- `Frontier: Euler dyadic tail or flux estimate suppressing dangerous high-frequency transfer`
+- `conditional-interface-euler-dyadic-tail-or-flux-estimate-suppressing-dangerous-high-frequency-transfer`
+- `Terminal: proved only under an added Euler dyadic tail or flux envelope`
 
 ## Exact Euler Statement
 
 Let `u^{(n)}` be a smooth Euler approximation family on `(0,T) x R^3`. The
-mirror needs an estimate of the form
+conditional mirror assumes an estimate of the form
 
 ```math
 \sup_n \int_0^T \|P_{\ge N}u^{(n)}(t)\|_{L^2_x}^2\,dt
@@ -26,11 +26,11 @@ decay on the Euler surface.
 - codomain: dangerous-scale tail size or cumulative flux
 - theorem role: feed the Euler compactness and continuation packets
 
-## Exact Missing Estimate
+## Terminal Boundary
 
-The unresolved burden is a uniform dyadic transport/pressure estimate strong
-enough to control cumulative transfer into `j >= N` *without* borrowing the
-parent viscous absorption step.
+The uniform dyadic transport/pressure estimate is an added hypothesis or new
+external theorem. It is not a live Euler-mirror branch burden, and the parent
+viscous absorption step is a non-Euler import.
 
 ## Local Anchors
 
@@ -38,4 +38,3 @@ parent viscous absorption step.
 - [scale-high-side-remainder-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/scale-high-side-remainder-source-pack.md)
 - [compactness-discharge-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/compactness-discharge-source-pack.md)
 - [gradient-discharge-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/gradient-discharge-source-pack.md)
-
