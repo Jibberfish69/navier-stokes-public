@@ -82,6 +82,7 @@ ledger.fetch('parent_comparison_anchors', []).each do |path|
 end
 
 case_classes = Hash.new(0)
+case_authorities = Set.new
 case_matrix.each do |row|
   id = row.fetch('id')
   classification = row.fetch('classification')
@@ -91,6 +92,7 @@ case_matrix.each do |row|
     errors << "empty case #{id} #{key}" if value.respond_to?(:empty?) && value.empty?
   end
   row.fetch('authority').each do |path|
+    case_authorities << path
     full_path = File.join(repo_root, path.sub(%r{\A/}, ''))
     errors << "missing case #{id} authority #{path}" unless File.file?(full_path)
   end
@@ -99,6 +101,10 @@ end
 
 %w[smooth_by_hypothesis nonsmooth_control proved_conditional_surface false_base_implication non_euler_import].each do |classification|
   errors << "case matrix missing #{classification}" if case_classes[classification].zero?
+end
+
+ledger.fetch('parent_comparison_anchors', []).each do |path|
+  errors << "parent comparison anchor missing from case_matrix authority: #{path}" unless case_authorities.include?(path)
 end
 
 stale_patterns = ledger.fetch('stale_failure_patterns', []).map do |entry|
