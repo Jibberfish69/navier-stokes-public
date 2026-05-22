@@ -182,8 +182,8 @@ The no-boundary version remains separate:
 \tag{SDB.6c}
 ```
 
-is not supplied by this bridge and remains an open target in the sources checked
-here.
+is not supplied by this bridge and sits outside this terminal mirror
+classification.
 
 ## Bridge B: Weak-Branch Route From The Same Smooth Datum
 
