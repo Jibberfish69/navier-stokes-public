@@ -128,18 +128,19 @@ viscous absorption seed, and top-viscous readout. Replacing that step would
 support a smoothness/regularity theorem, not a primitive Euler membership
 theorem.
 
-## Active Next Theorem Target
+## Closed Receiver Theorem Target
 
-The branch-local target has now narrowed one step inside `ELCI.A`, and the May
-21 scenario map prevents reading it as a full-general smoothness claim:
+The branch-local receiver target inside `ELCI.A` has now been closed by the May
+22 separation theorem, with the May 21 scenario map still governing the
+comparison boundary:
 
 ```math
 \boxed{\mathrm{ELCI.CP.A\text{-}Separation}}
 ```
 
 The May 19 direct attempt proved the Euler packet inequality and Gronwall
-closure once the center/oscillation/pressure ledger is integrable. The remaining
-target is to split
+closure once the center/oscillation/pressure ledger is integrable. The May 22
+closure note proves the exact split for
 
 ```math
 \mathfrak A^{E,ctr}
@@ -150,26 +151,29 @@ target is to split
 \in L^1(I)
 ```
 
-on the same finite transported Euler cover into:
+on the same finite transported Euler cover:
 
-1. exact regularity-conditional hypotheses under which the ledger is provably
-   `L^1`;
-2. base `Member_E` nonsmooth cases, such as pressure-compatible slip/jump or
-   defect-boundary scenarios, where that `L^1` control is not forced.
+1. explicit same-cover Euler center, oscillation, and pressure-return envelopes
+   give `L^1`;
+2. base `Member_E` alone does not force `L^1`, with stationary unbounded shear
+   as the clean ledger-failure witness.
 
 This is still the local replacement for the parent
 `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX` and
-`ACT.KX + ACT.X-Scale + RWS.C_scale => ACT.X-Readout` receiver chain. Until
-`ELCI.CP.A-Separation` is discharged, `ACT.X-Readout`, `ACT.A`, `RCF.A`, and
-`LCI.A` remain comparison order rather than Euler inputs.
+`ACT.KX + ACT.X-Scale + RWS.C_scale => ACT.X-Readout` receiver chain. Those
+parent cells remain comparison order rather than Euler inputs.
 
 Scenario authority:
 [euler-ns-viscosity-scenario-separation-map-20260521.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md).
 
+Closure authority:
+[mpp-elci-cp-a-separation-closure-20260522.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md).
+
 ## Current Stop Line
 
 The Euler mirror cannot prove smoothness by declaring non-smoothness outside the
-Euler object. Non-smooth weak Euler behavior can still satisfy `Member_E`, so
-the current theorem-facing stop line is the `ELCI.A` replacement for the parent
-`ACT.KX` / `2nu` absorption and top-viscous receiver chain, now sharpened to
-`ELCI.CP.A-Separation`.
+Euler object. Non-smooth base Euler equation behavior can still satisfy `Member_E`, so
+the theorem-facing stop line is the separate global regularity/control theorem:
+prove Euler-native scale, compactness, pressure, or continuation control strong
+enough to imply the closed `ELCI.CP.A` hypotheses. The receiver split itself no
+longer carries open debt.
