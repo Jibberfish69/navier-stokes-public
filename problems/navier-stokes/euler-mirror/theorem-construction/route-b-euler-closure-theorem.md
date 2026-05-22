@@ -8,8 +8,8 @@ removal of `\nu \Delta u`.
 
 This note mirrors the theorem order of
 [route-b-euclidean-closure-theorem.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/route-b-euclidean-closure-theorem.md)
-while exposing the exact places where the parent proof still needs an
-Euler-clean replacement.
+while terminally classifying the places where the parent proof used a non-Euler
+mechanism.
 
 ## Fixed Surface
 
@@ -23,8 +23,8 @@ Work on `[0,T) \times \mathbb R^3` with the incompressible Euler equation
 
 The route is still downstream of the torus-first internal branch, exactly as in
 the parent claim ladder: this note is the whole-space export / continuation
-packet one would need after the branch-local Euler control surfaces actually
-close.
+packet that closes only conditionally after branch-local Euler control surfaces
+are supplied as explicit hypotheses.
 
 ## Conditional Euler Packet
 
@@ -40,7 +40,7 @@ The Euler mirror keeps the same compressed Route B sequence:
 The point of the mirror is that each of these slots must now be justified on
 Euler terms rather than inherited from Navier-Stokes by name alone.
 
-## Theorem Target
+## Conditional Theorem
 
 Assume there exists an Euler approximation family `u^{(n)}` on `[0,T)\times
 \mathbb R^3` such that:
@@ -82,9 +82,9 @@ Then the mirrored Route B implication is:
 \tag{ERB.2}
 ```
 
-This is the correct Euler theorem target. It is a conditional mirror of the
-parent Route B closure packet, not a claim that the conditions have already
-been discharged.
+This is the correct conditional Euler implication. It is not a live target after
+terminal closure: the assumptions either are added explicitly or the parent route
+does not import.
 
 ## Step-By-Step Mirror
 
@@ -194,12 +194,13 @@ C\,\widetilde\Lambda_N^\sharp(t)E_N(t) + C_*2^{-2\delta N}.
 That exact inequality is **not** Euler-clean because the term
 `(1-\eta)\nu D_N(t)` is doing essential proof labor.
 
-So the live Euler burden at the Route B slot is precise:
+So the terminal Route B classification is precise:
 
 ```math
 \boxed{
-\text{replace the parent dissipation-backed coercive term by an honest Euler
-transport-pressure continuation mechanism on the same dyadic surface.}
+\text{the parent dissipation-backed coercive term is a non-Euler import;}\\
+\text{an Euler transport-pressure continuation mechanism would be an added
+hypothesis.}
 }
 \tag{ERB.9}
 ```
@@ -213,8 +214,8 @@ both:
 2. coercive damping strong enough to support the same-shape return arrow.
 
 Without the viscous damping term, bare Gronwall on `E_N` is not the parent
-theorem anymore. The Euler mirror therefore keeps this step open until an
-Euler-clean coercive replacement is written.
+theorem anymore. The Euler mirror closes this step as conditional/non-Euler:
+the coercive replacement is an added hypothesis, not a remaining branch burden.
 
 ### Step B.7. Continuation And Return Arrow
 
@@ -224,7 +225,7 @@ The parent route ended with:
 2. a same-shape barrier recertification theorem on the exact Euclidean
    Navier-Stokes dynamics.
 
-Both are non-Euler imports at present. So the Euler Route B packet still needs:
+Both are non-Euler imports. The Euler Route B packet closes only after adding:
 
 1. an exact Euler continuation theorem on the chosen carrier;
 2. an exact Euler recertification theorem that returns the continuation output
@@ -238,20 +239,17 @@ Both are non-Euler imports at present. So the Euler Route B packet still needs:
 - the dyadic bookkeeping objects `E_N`, `\mathcal L_N`, `\Lambda_N`,
   `\widetilde\Lambda_N^\sharp` as candidate control objects.
 
-## Exact Non-Euler Replacements Still Needed
+## Exact Non-Euler Imports That Terminate The Route
 
-1. A scale-barrier closure step that does not absorb nonlinear transfer through
-   viscous dissipation.
-2. A named Euler control functional strong enough to replace the parent `Q(t)`
-   bridge where needed.
-3. A transport-pressure continuation inequality replacing the parent
-   `\nu D_N`-driven Route B bridge.
-4. A final Euler continuation / recertification package on the same theorem
+1. parent absorption of nonlinear transfer through viscous dissipation;
+2. parent `Q(t)` behavior beyond the surviving Euler `L^2` layer;
+3. parent `\nu D_N`-driven Route B bridge;
+4. final Navier-Stokes continuation / recertification on the same theorem
    surface.
 
-## Honest Current Posture
+## Terminal Current Posture
 
-This file is theorem-facing because it fixes the exact Euler Route B burden. It
-is also explicitly incomplete: the parent Navier-Stokes closure packet does not
-survive literal viscosity removal without new Euler replacements at the
-coercive and continuation steps.
+This file is theorem-facing because it fixes the exact Euler Route B
+classification. The parent Navier-Stokes closure packet does not survive literal
+viscosity removal; the Euler version is proved only conditionally from added
+Euler controls. There is no live Route B branch burden after this classification.
