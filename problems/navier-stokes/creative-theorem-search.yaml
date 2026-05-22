@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-05-22T22:06:23Z'
+  generated_at: '2026-05-22T22:10:52Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -330,25 +330,14 @@ candidate_archive:
     source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
-- origin_obligation_id: PastWindowShadowCompleteness.A
+- origin_obligation_id: PastWindowReserveSeparation.A
   origin_kind: live-theorem-branch
-  label: PastWindowShadowCompleteness.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
-- origin_obligation_id: ChargeLedgerInjection.A
-  origin_kind: live-theorem-branch
-  label: ChargeLedgerInjection.A sharp branch target decomposed from source-wall-root-after-reconcile
+  label: PastWindowReserveSeparation.A sharp branch target decomposed from source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
 - origin_obligation_id: ParentSquareEmbed.A
   origin_kind: live-theorem-branch
   label: ParentSquareEmbed.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
-- origin_obligation_id: TerminalReserveFirstAppearanceCharge.A
-  origin_kind: live-theorem-branch
-  label: TerminalReserveFirstAppearanceCharge.A sharp branch target decomposed from
-    source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
 - origin_obligation_id: WeightedAdjRes.A
@@ -359,6 +348,27 @@ candidate_archive:
 - origin_obligation_id: SquareReserveEvolution.A
   origin_kind: live-theorem-branch
   label: SquareReserveEvolution.A sharp branch target decomposed from source-wall-root-after-reconcile
+  status: frontier-open
+  promoted_into_branch_pool: false
+- origin_obligation_id: PastWindowShadowCompleteness.A
+  origin_kind: live-theorem-branch
+  label: PastWindowShadowCompleteness.A sharp branch target decomposed from source-wall-root-after-reconcile
+  status: frontier-open
+  promoted_into_branch_pool: false
+- origin_obligation_id: ChargeLedgerInjection.A
+  origin_kind: live-theorem-branch
+  label: ChargeLedgerInjection.A sharp branch target decomposed from source-wall-root-after-reconcile
+  status: frontier-open
+  promoted_into_branch_pool: false
+- origin_obligation_id: FirstPulseKill.A
+  origin_kind: live-theorem-branch
+  label: FirstPulseKill.A sharp branch target decomposed from source-wall-root-after-reconcile
+  status: frontier-open
+  promoted_into_branch_pool: false
+- origin_obligation_id: TerminalReserveFirstAppearanceCharge.A
+  origin_kind: live-theorem-branch
+  label: TerminalReserveFirstAppearanceCharge.A sharp branch target decomposed from
+    source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
 - origin_obligation_id: AllNonEulerNSSurfaceFaceSweep.A
@@ -403,8 +413,8 @@ candidate_archive:
   promoted_into_branch_pool: false
 selected_branch: *1
 summary:
-  candidate_count: 32
-  candidate_archive_count: 32
+  candidate_count: 34
+  candidate_archive_count: 34
   sandbox_mode: multi-path-sandbox
   active_branch_ids:
   - creative-branch-navier-stokes-1
