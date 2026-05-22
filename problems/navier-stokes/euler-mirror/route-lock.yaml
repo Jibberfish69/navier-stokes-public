@@ -65,7 +65,7 @@ equation_fidelity:
   preserve_bridge_order: comparison-only
   preserve_closed_loop_feedback: false
   prohibit_silent_branch_switch: true
-  explicit_holdout_rule: >-
+  explicit_terminal_classification_rule: >-
     Any proof step whose current statement uses viscosity, dissipation,
     diffusion, heat observability, Stokes structure, Lagrangian smooth-flow
     charts, viscous participation, or one-field coherence must be terminally
@@ -147,7 +147,7 @@ terminal_branch_closure:
     regularity surfaces are closed as conditional; base Member_E implications to
     regularity or the receiver ledger are false; Navier-Stokes viscous imports are
     closed as non-Euler.
-current_receiver_and_holdout_surfaces:
+current_receiver_and_terminal_import_surfaces:
   branch_local_receiver_slot:
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
   parent_source_wall:
