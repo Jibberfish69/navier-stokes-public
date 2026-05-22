@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: route-integrity-report-navier-stokes
-  generated_at: '2026-05-22T00:12:57Z'
+  generated_at: '2026-05-22T20:38:40Z'
   generator: tools/ns_pipeline_hardener.rb
 route_lock:
   path: problems/navier-stokes/route-lock.yaml
@@ -161,9 +161,9 @@ target_lock_schema:
       have real terminal same-fluid realizations, or collapse into overlapping Dead/Jump/Blown
       readouts'
     - EulerSmooth(u_0,[0,T]) => NSSmooth_nu(u_0,[0,T]) for fixed nu>0
-    - ScaleCriticalTreeCarleson.A as diagnostic positive source-control language with
-      selected failure sorted to Field by RawSCTCFailurePartition.A + SCTCFailureToFaceWitness.A
-      + RetainedSCTCFailureFieldExit.A
+    - 'ScaleCriticalTreeCarleson.A as Pack-side CM exit theorem target: Pack_Q implies
+      the scale-critical donor-refill Carleson bound, and selected unpaid infinite
+      donor-refill ancestry is not Pack_Q / (Pack, packing-detached)'
     - 'ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A as diagnostic/source-residue
       language: finite Zeno ancestry is sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A,
       while the terminal zero-radius residue is not Pack_Q and endpoint readout language
@@ -490,9 +490,10 @@ open_root_group:
   - target_id: scalecriticaltreecarleson-a
     label: ScaleCriticalTreeCarleson.A
     proof_mode: direct_carleson_source_wall
-    role: diagnostic positive source-control presentation; selected failure is sorted
-      by RawSCTCFailurePartition.A + SCTCFailureToFaceWitness.A and retained terminal
-      failure lands in Field by RetainedSCTCFailureFieldExit.A; direct supplier theorem
+    role: Pack-side CM exit theorem target; donor-refill ancestry belongs to Pack,
+      so Pack_Q implies the scale-critical donor-refill Carleson bound and selected
+      unpaid infinite donor-refill failure is not Pack_Q / (Pack, packing-detached).
+      No Field/Jump conversion is needed for this landing; direct supplier theorem
       remains separate
   - target_id: zeno-rigid-class-pair
     label: ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A
