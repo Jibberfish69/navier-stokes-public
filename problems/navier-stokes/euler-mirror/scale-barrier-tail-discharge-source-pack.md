@@ -1,8 +1,8 @@
 # Euler Scale-Barrier Tail Discharge Source Pack
 
-## Target Obligation
+## Terminal Classification
 
-- `debt-frontier-euler-tail-discharge-on-one-fixed-family`
+- `conditional-interface-euler-tail-discharge-on-one-fixed-family`
 
 ## Euler Hypothesis Surface
 
@@ -23,9 +23,9 @@ The transport defect is
 \right| dt.
 ```
 
-## Exact Tail Target
+## Exact Tail Interface
 
-The Euler mirror needs a bound of one of the following shapes:
+The conditional Euler mirror assumes a bound of one of the following shapes:
 
 ```math
 \mathfrak S_N^E[u^{(n)}] \le C_0 2^{-2\delta N},
@@ -48,4 +48,3 @@ coefficients, but not viscous absorption.
 
 - [scale-barrier-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/scale-barrier-source-pack.md)
 - [scale-high-side-remainder-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/scale-high-side-remainder-source-pack.md)
-
