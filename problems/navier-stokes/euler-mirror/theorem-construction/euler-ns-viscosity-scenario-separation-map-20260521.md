@@ -47,16 +47,19 @@ a new Euler theorem proves a replacement.
 | `ESM.S2` fixed-thickness stationary shear layer | smooth by hypothesis | each positive-thickness layer is a smooth exact Euler solution | the zero-thickness limit is judged separately |
 | `ESM.C1` `ELCI.CP.A` envelopes | proved conditional | same-cover center, oscillation, and pressure-return envelopes give the L1 ledger | replaces `ACT.KX` / `ACT.X-TopVisc` / `2nu` only after those Euler envelopes are supplied |
 | `ESM.C2` positive-control / compactness / Route B | proved conditional | theorem order survives under explicit Euler controls | parent damping and parabolic pieces are not imported |
+| `ESM.C3` retained-window native forcing | proved conditional | retained local smooth center-ball and point-recovery inputs are assumed | `RSCB.NKF -> NKF.Native -> ACT.KX` is comparison authority only without those inputs |
 | `ESM.N1` tangential slip / vortex sheet | nonsmooth control | pressure-compatible weak Euler member; not a one-field classical solution | NS must attack this through participation/viscous smoothing, not pressure alone |
 | `ESM.N2` stationary unbounded shear | false base implication | base `Member_E` holds, smoothness and the ELCI ledger fail | parent receiver success depends on absorption/readout machinery absent from Euler |
 | `ESM.N3` zero-thickness smooth-layer limit | nonsmooth control | smooth layers converge to a nonsmooth Euler member | topology/limit closure does not preserve one-field smoothness |
 | `ESM.N4` same-datum nonclassical weak branch | nonsmooth control | nonclassical branch is separated from the classical smooth branch | fixed-`nu` transfer cannot identify weak-branch behavior with classical NS smoothness |
 | `ESM.N5` boundary/axisymmetric blowup comparison | nonsmooth control | domain-sensitive singularity evidence | not the no-boundary finite-energy Euler case |
+| `ESM.N6` shared Pack / non-one-field split | nonsmooth control | shared Pack is flux-volume only; Part/Field are extra regularity/coherence layers | NS Part/Field proofs become Euler nonsmoothness diagnostics, not Euler membership laws |
 | `ESM.V1` `ACT.KX` scheduler | non-Euler import | `c_nu N` and first-exit absorption do proof labor | no Euler term replaces that scheduler |
 | `ESM.V2` `2nu` / top-viscous receiver | non-Euler import | lower-collar sink and top-viscous ledgers do proof labor | Euler replacement is only the explicit conditional `ELCI.CP.A` split |
 | `ESM.V3` `nu D_N` dyadic damping | non-Euler import | high-frequency return comes from viscous coercivity | Euler keeps dyadic bookkeeping without damping |
 | `ESM.V4` heat/Stokes/static diffusion | non-Euler import | parabolic observability and semigroups do proof labor | removed at `nu=0` |
 | `ESM.V5` selector/export viscous consumers | non-Euler import | pair-defect diffusion and low-mode viscous scale do proof labor | transport/readout geometry survives only as conditional/provenance support |
+| `ESM.V6` first-rung viscous-center supplier | non-Euler import | the supplier is literally `nu` times a center Laplacian readout | it vanishes as an Euler mechanism at `nu=0` |
 
 ## Case Class A: Euler Meets NS And Is Smooth / Regularity-Conditional
 
@@ -69,6 +72,7 @@ a new Euler theorem proves a replacement.
 | A5. Positive-control Euler packet | conditional regularity program | scale/control/compactness/Route B scaffold | theorem order, compactness shape, dyadic bookkeeping | [positive-control program](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/positive-control-euler-program.md), [Route B mirror](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md) |
 | A6. Transport selector/readout interfaces | regularity support only | selector / export families | packet geometry, pair-defect transport, readout alignment | [selector walkdown](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/selector-geometry-euler-walkdown-program.md), [export walkdown](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/export-whole-space-euler-walkdown-program.md) |
 | A7. Compactness on one fixed Euler family | conditional on explicit Euler controls | parent compactness architecture | strong-enough convergence and tensor closure can survive in shape | [integrated Euler program](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md), [branch audit index](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/branch-audit-index.yaml) |
+| A8. Retained-window native forcing | conditional on local smooth center-ball bounds | `RSCB.NKF -> NKF.Native -> ACT.KX` | point forcing recovery survives only as retained-smoothness input, not from base Euler membership | [retained-window theorem](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-retained-window-native-forcing-theorem-program.md) |
 
 Readback: these rows are not automatic Euler smoothness. They are places where
 smoothness is assumed, conditional, or an explicitly chosen regularity layer.
@@ -103,6 +107,7 @@ at `Part`, `Field`, and the receiver chain; pressure alone is not doing that job
 | `2nu D_low` lower-collar sink | absorbs centered and oscillation Young terms in the lower-carrier identity | absent | `ELCI.A` is closed only by explicit `ELCI.CP.A` envelopes; base `Member_E` does not supply it |
 | `c_nu N` / `eta_X` scheduler | absorbs simultaneous core/excess growth in `ACT.KX` | absent | `ACT.KX` is comparison order only |
 | `ACT.X-TopVisc` and top-viscous readout | supplies top-rung and center ledgers | demoted | top-viscous files are provenance, not Euler inputs |
+| first-rung viscous-center supplier | supplies `nu Delta U_1` center readout under the lower-carrier route | absent | no Euler term remains when `nu=0` |
 | `nu D_N` dyadic damping | closes gradient, scale-tail, and Route B continuation inequalities | absent | dyadic bookkeeping survives without the parent closure |
 | heat/Stokes/static diffusion | gives semigroup and observability machinery | absent | exact-potential road is non-Euler/provenance unless rebuilt outside this terminal branch |
 | selector pair-defect diffusion | supports observability/coercivity to one-sided budgets | absent | selector road stops at transport pair-defect packet |
