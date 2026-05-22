@@ -52,11 +52,11 @@ Current theorem-facing order:
 Current live obstructions:
 - the base membership layer is now `EVol + EMom`; the open theorem work is a
   genuine Euler regularity upgrade over that base
-- `ELCI.A` now records the missing Euler replacement for the expanded parent
-  `ACT.KX` / `2\nu` absorption and top-viscous readout chain, and the May 21
-  scenario map sharpens the live target to `ELCI.CP.A-Separation`: split the
-  ledger into regularity-conditional cases where `L^1` can be proved and base
-  `Member_E` nonsmooth cases where it is not forced; the expanded comparison cell is
+- `ELCI.A` now records the Euler replacement for the expanded parent `ACT.KX` /
+  `2\nu` absorption and top-viscous readout chain as the closed
+  `ELCI.CP.A-Separation` split: the ledger is `L^1` under explicit Euler
+  regularity/control envelopes, and base `Member_E` does not force it; the
+  expanded comparison cell is
   `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX`, followed
   by `ACT.X-Scale + RWS.C_scale -> ACT.X-Readout`
 - the positive-control branch still carries explicit Euler gaps in the scale
