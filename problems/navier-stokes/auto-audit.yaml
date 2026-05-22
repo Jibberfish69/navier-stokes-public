@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-22T22:37:10Z'
+  audited_at: '2026-05-22T22:43:20Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -43,14 +43,9 @@ downstream_overlay_drift:
   status: ok
   issue_id: downstream-overlay-drift
   authority_surface_count: 0
-  stale_overlay_count: 3
+  stale_overlay_count: 2
   authority_surfaces: []
   stale_overlays:
-  - artifact: theorem_packet
-    path: problems/navier-stokes/theorem-packet.yaml
-    sha1: 23057892f0541d29acd4aad074e5bc682aa2995c
-    matched_terms:
-    - theorem-upgrade
   - artifact: review_verdict
     path: problems/navier-stokes/review-verdict.yaml
     sha1: c23f5f485c1a44ff4bb7beb7fe8f9dbf7f6db784
@@ -58,12 +53,12 @@ downstream_overlay_drift:
     - theorem-upgrade
   - artifact: release_decision
     path: problems/navier-stokes/release-decision.yaml
-    sha1: 8e01afb2733bfb928506b3d39c9f7281d088fcd2
+    sha1: d0d99d8af6a4ac788c5eb0baa7f55d0a506a77fb
     matched_terms:
     - theorem-upgrade
-  recommended_repair: regenerate-derived-theorem-chain
-  recommended_next_cell_type: submission-audit
-  recommended_command: submission-audit
+  recommended_repair: refresh-review-verdict
+  recommended_next_cell_type: honesty-review
+  recommended_command: refresh-review-freshness
 graph_snapshot:
   exploration_graph:
     present: true
@@ -75,8 +70,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-9cc82a85c329
-    route_signature: 9cc82a85c329bf4767f05ea8f47814a938a2d4b7
+    surface_id: theorem-surface-navier-stokes-d576344b6c16
+    route_signature: d576344b6c169ea98db6d2b7a56f7edaf8510be8
     theorem_target: current route target
     theorem_statement: The official Clay target allows either the whole-space branch
       on R^3 or the periodic branch on T^3.
@@ -103,48 +98,47 @@ surface_snapshot:
       = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
       not the internal branch itself
     route_slots:
-    - slot_id: marvin-upstream-eb3fabeeac46
-      label: 'Define or prove: Reduced the live Navier-Stokes route stack against
-        the Clay whole-space target into exact source-backed ingredients already present
-        on the lane. On the classical side, isolated the mixed-jet system, the exact
-        rung-level can'
-      kind: definition
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-      patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-    - slot_id: marvin-upstream-ada9835aa864
-      label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m
-        \partial_x^\alpha u and differentiated pressure \Pi_ m,alpha , fix s > 3/2.
-        Using the H^s algebra property and the order-1 Calderon-Zygmund bound for
-        the pressure operator,'
-      kind: definition
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-      patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-    - slot_id: marvin-upstream-6d929e8a052a
-      label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-        lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the
-        exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-        red'
-      kind: definition
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-      patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-    - slot_id: marvin-upstream-954339945793
-      label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-        under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-        and E_sh(X) vanish identically, so the exact Route '
-      kind: definition
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-      patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-    - slot_id: marvin-upstream-96892bab139f
-      label: 'Define or prove: Added two new theorem-facing reductions on the Clay
-        whole-space target.'
-      kind: definition
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
-      patch_surface: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+    - slot_id: claim-ladder-1
+      label: The Clay target is the official 3D incompressible Navier-Stokes problem
+        on `R^3` or `T^3`
+      kind: lemma
+      status: claim-ladder
+      source_anchor: "`obstruction-capture: One-Sentence Thesis`, `spine.1`"
+      patch_surface: problems/navier-stokes/object-formalization.yaml
+    - slot_id: claim-ladder-2
+      label: Success for regularized or morphic-regularized equations does not close
+        the original problem
+      kind: lemma
+      status: claim-ladder
+      source_anchor: "`obstruction-capture: Why Prior Attempts Fail`, `spine.2`, `target-fidelity-discharge-source-pack.md`,
+        `theorem-construction/target-fidelity-bridge-lemma.md`, `theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md`"
+      patch_surface: problems/navier-stokes/object-formalization.yaml
+    - slot_id: claim-ladder-3
+      label: The original framework names a monotone functional `Q(t)` as a bridge,
+        not just unnamed baseline energy
+      kind: lemma
+      status: claim-ladder
+      source_anchor: "`source-grounded-framework-map.md`, `source-forensics/master-program-analysis.md`,
+        `source-forensics/canonical-equation-ledger.md`, `spine.3`, `theorem-construction/monotone-functional-package.md`,
+        `theorem-construction/named-monotone-bridge-explanation.md`, `bridge-memos/monotone-functional.md`,
+        `theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md`"
+      patch_surface: problems/navier-stokes/object-formalization.yaml
+    - slot_id: claim-ladder-4
+      label: Global energy or enstrophy control is necessary but not sufficient
+      kind: lemma
+      status: claim-ladder
+      source_anchor: "`obstruction-capture: Core Mechanism`, `spine.4`, `theorem-construction/energy-baseline-bridge-lemma.md`,
+        `theorem-construction/monotone-functional-package.md`, `theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md`,
+        `theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md`"
+      patch_surface: problems/navier-stokes/object-formalization.yaml
+    - slot_id: claim-ladder-5
+      label: The live obstruction is the small-scale or high-frequency cascade that
+        feeds blow-up
+      kind: lemma
+      status: claim-ladder
+      source_anchor: "`obstruction-capture: The Real Obstruction`, `spine.5`, `theorem-construction/energy-baseline-bridge-lemma.md`,
+        `theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md`"
+      patch_surface: problems/navier-stokes/object-formalization.yaml
     authority_layers:
       authoritative_proof_surfaces:
       - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
