@@ -238,5 +238,6 @@ classification. The exact terminal readback is:
 }
 ```
 
-No positive-control live burden remains on this branch. A stronger unconditional
-Euler theorem would be a new external theorem program, not unfinished work here.
+The positive-control side is terminally classified on this branch. A stronger
+unconditional Euler theorem would be a new external theorem program, not
+work owned by this mirror.
