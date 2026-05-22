@@ -104,8 +104,7 @@ The decisive decisions are:
    by `Member_E`;
 3. compactness / nonlinear closure remains conditional on one fixed Euler family
    with earned controls;
-4. an Euler transport-pressure continuation theorem is an added hypothesis, not a
-   live branch debt;
+4. an Euler transport-pressure continuation theorem is an added hypothesis;
 5. the closed `ELCI.CP.A` hypotheses are supplied only by explicit envelopes;
 6. optional Lagrangian or one-field persistence is conditional on the chosen
    regularity class.
