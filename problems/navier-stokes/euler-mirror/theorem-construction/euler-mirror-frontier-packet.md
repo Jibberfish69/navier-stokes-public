@@ -2,7 +2,7 @@
 
 ## Identity
 
-This is the theorem-facing frontier packet for the Euler mirror after the May 16
+This is the theorem-facing classification packet for the Euler mirror after the May 16
 ontology repair and the May 21 Euler/NS viscosity scenario separation.
 
 Role:
@@ -11,7 +11,8 @@ Role:
 2. define Euler membership by flux-volume and weak momentum-pressure fidelity;
 3. demote copied Navier-Stokes `Part` / `Field` faces to optional regularity
    structures;
-4. expose every exact place where a smoothness proof needs a real Euler estimate.
+4. expose every exact place where a smoothness proof requires explicit Euler
+   control.
 
 ## Equation Lock
 
@@ -55,7 +56,7 @@ This means:
 5. one-field smooth coherence is not primitive;
 6. Lagrangian flow-map control is not primitive.
 
-The jet/slip diagnostic is now part of the frontier: a sharp injection can
+The jet/slip diagnostic is now part of the classification: a sharp injection can
 obey the weak pressure-volume laws while failing to entrain neighboring material
 into one smooth field. That behavior is an Euler regularity problem, not a base
 membership contradiction.
@@ -75,7 +76,7 @@ limit is a separate defect object, not the Euler member defined above.
 
 ## Terminal Classification
 
-The branch no longer has a live frontier. Its terminal classification is:
+The branch terminal classification is:
 
 ```math
 \boxed{
@@ -175,4 +176,4 @@ Euler object. Non-smooth base Euler equation behavior can still satisfy
 `Member_E`, so the terminal stop line is classification rather than target
 motion: conditional controls give conditional regularity, base membership does
 not give smoothness or the ledger, and viscous parent steps are non-Euler
-imports. No live frontier remains on this branch.
+imports. No unclassified live surface remains on this branch.
