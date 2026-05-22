@@ -15,6 +15,7 @@ main_objective:
   - euler-membership-plus-regularity
   run_both: false
   terminal_closure_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
+  referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
 closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
   status: closed
@@ -34,6 +35,7 @@ closed_receiver_theorem_target:
 scenario_separation_map:
   status: completed
   surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
+  referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
   readback: >-
     All repo-visible Euler/NS contact points are sorted into smooth or
     regularity-conditional cases, nonsmooth or not-forced-smooth cases, and
@@ -125,11 +127,13 @@ automation_loop:
   - problems/navier-stokes/euler-mirror/execution-ledger.yaml
   - problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md
+  - problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
   safe_commands:
   - ruby system/runner/bin/chat_coord.rb status
   - ruby system/runner/bin/chat_coord.rb check chat20 problems/navier-stokes/euler-mirror problems/navier-stokes/chat20-status.yaml
   - CODEX_CHAT_ID=chat20 ruby system/runner/bin/lane_daemon.rb status
   - CODEX_CHAT_ID=chat20 ruby system/runner/bin/lane_daemon.rb start
+  - ruby problems/navier-stokes/euler-mirror/tools/euler_mirror_referee_audit.rb
   unsafe_write_targets:
   - problems/navier-stokes/route-lock.yaml
   - problems/navier-stokes/live-theorem-edge.yaml
