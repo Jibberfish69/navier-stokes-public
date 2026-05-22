@@ -11,7 +11,28 @@ finite ledgers; the only surviving obstruction is a singular native positive
 source component on terminal active windows.
 
 This is not a proof of `SourcePulseExclusion.A`.  It identifies the exact
-measure-theoretic theorem still missing.
+measure-theoretic theorem still missing for the positive supplier route.
+
+## 2026-05-22 CM Polarity Correction
+
+For the CM contrapositive route, the singular component is not first erased. It
+is used as a witness:
+
+```math
+\mu_*^{sing}\ne0
+\Longrightarrow
+\neg Pack_Q
+\vee
+\neg Part_{N,Q}
+\vee
+\forall r>0\,\neg Field_{N,r,Q}.
+```
+
+That CM-facing theorem is now installed as
+`TerminalSourceResidueCMExit.A`. The positive statements
+`NativeSourceAC.A`, `\mu_*^{sing}=0`, and `SourcePulseExclusion.A` remain
+separate supplier targets only when the proof program explicitly asks to delete
+the source residue.
 
 ## Native Positive Source Measure
 
@@ -125,7 +146,7 @@ packet-level selection of this singular component: after all chargeable ledgers
 are removed, a source-pulse counterpacket can be chosen whose mass is carried
 by the native positive source carrier and is not paid by any installed reserve.
 
-Thus the source-pulse atom is equivalent at current route resolution to:
+Thus the source-pulse atom is equivalent, for the positive supplier program, to:
 
 ```math
 \boxed{
