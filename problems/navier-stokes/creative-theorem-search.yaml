@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-05-22T23:25:52Z'
+  generated_at: '2026-05-22T23:42:47Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -37,29 +37,29 @@ sandbox:
 branch_pool:
 - &1
   branch_id: creative-branch-navier-stokes-1
-  origin_obligation_id: CFI.A
+  origin_obligation_id: TerminalCMNoExit.A
   origin_kind: live-theorem-branch
   source_status: unresolved
   branch_type: local-lemma
   pursuit_mode: co-dependent
-  candidate_claim: Create the sharp CM branch theorem CFI.A from the live source-wall
-    authority, keeping supplier/readout material quarantined until it lands in Pack,
-    Part, or Field.
+  candidate_claim: Create the sharp CM branch theorem TerminalCMNoExit.A from the
+    live source-wall authority, keeping supplier/readout material quarantined until
+    it lands in Pack, Part, or Field.
   creative_move: Generate 2-3 bounded variants of the lemma and keep only the weakest
     one that advances the proof chain.
   invention_packet:
-    candidate_statement: Create the sharp CM branch theorem CFI.A from the live source-wall
-      authority, keeping supplier/readout material quarantined until it lands in Pack,
-      Part, or Field.
+    candidate_statement: Create the sharp CM branch theorem TerminalCMNoExit.A from
+      the live source-wall authority, keeping supplier/readout material quarantined
+      until it lands in Pack, Part, or Field.
     mediating_object: formal_local_object
     proof_sketch:
-    - State the weakest exact claim that would advance `CFI.A` without expanding the
-      theorem target.
+    - State the weakest exact claim that would advance `TerminalCMNoExit.A` without
+      expanding the theorem target.
     - Define or isolate the mediating object on the current carrier/window/sector
       only.
     - Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `CFI.A sharp branch target
-      decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile`.
+      ladder rather than a modified-equation detour for `TerminalCMNoExit.A sharp
+      branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile`.
     - Show how that object converts one already-grounded local statement into the
       next missing step.
     - Reject the move if it introduces new global scope, hidden imports, or a stronger
@@ -75,15 +75,15 @@ branch_pool:
   - marvin-upstream-409f183ee495
   - marvin-upstream-c8f7cb511776
   - marvin-upstream-e2f5b0a915cf
-  - CFI.A
+  - TerminalCMNoExit.A
   risk_level: medium
   notes:
   - This branch is machine-derived beyond the current frozen core.
   - Use the weakest sufficient move; do not inflate the theorem target.
   recommended_next_cell_type: theorem-creation
   recommended_next_action: Creative theorem search selected the sharp source-wall
-    branch `CFI.A`. Run theorem-creation on that CM branch target instead of replaying
-    the umbrella source-wall route.
+    branch `TerminalCMNoExit.A`. Run theorem-creation on that CM branch target instead
+    of replaying the umbrella source-wall route.
   merge_policy: quarantined-until-promoted
 - branch_id: creative-branch-navier-stokes-2
   origin_obligation_id: NoGenuineCMExit.A
@@ -236,9 +236,9 @@ branch_pool:
     instead of replaying the umbrella source-wall route.
   merge_policy: quarantined-until-promoted
 candidate_archive:
-- origin_obligation_id: CFI.A
+- origin_obligation_id: TerminalCMNoExit.A
   origin_kind: live-theorem-branch
-  label: CFI.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
+  label: TerminalCMNoExit.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
   status: unresolved
   promoted_into_branch_pool: true
 - origin_obligation_id: NoGenuineCMExit.A
@@ -428,11 +428,6 @@ candidate_archive:
   label: DonorHeightCreation.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
   status: unresolved
   promoted_into_branch_pool: false
-- origin_obligation_id: TerminalCMNoExit.A
-  origin_kind: live-theorem-branch
-  label: TerminalCMNoExit.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
 - origin_obligation_id: debt-theorem-upgrade-1-source-wall-root-after-reconcile
   origin_kind: blocked-frontier
   label: source-wall-root-after-reconcile
@@ -445,8 +440,8 @@ candidate_archive:
   promoted_into_branch_pool: false
 selected_branch: *1
 summary:
-  candidate_count: 40
-  candidate_archive_count: 40
+  candidate_count: 39
+  candidate_archive_count: 39
   sandbox_mode: multi-path-sandbox
   active_branch_ids:
   - creative-branch-navier-stokes-1
