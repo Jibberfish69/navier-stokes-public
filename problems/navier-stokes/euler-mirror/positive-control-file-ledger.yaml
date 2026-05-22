@@ -2,21 +2,22 @@
 version: 1
 branch_id: euler-mirror-chat20
 artifact_id: positive-control-file-ledger
-updated_on: '2026-04-22'
+updated_on: '2026-05-22'
 summary:
   parent_positive_control_file_count: 19
   mirrored_file_count: 19
   note: >-
     This ledger records the parent positive-control authoring surfaces that now
-    have explicit Euler-mirror counterparts on disk. "Mirrored" means rewritten
-    in Euler form, not mathematically closed.
+    have explicit Euler-mirror counterparts on disk. After terminal closure,
+    "mirrored" means classified as conditional, false from base membership, or
+    non-Euler import, with no live branch burden.
 entries:
   - parent_path: problems/navier-stokes/claim-ladder.md
     mirror_path: problems/navier-stokes/euler-mirror/claim-ladder.md
-    mirror_status: mirrored-with-explicit-euler-open-burdens
+    mirror_status: terminal-conditional-or-non-euler
   - parent_path: problems/navier-stokes/source-grounded-framework-map.md
     mirror_path: problems/navier-stokes/euler-mirror/source-grounded-framework-map.md
-    mirror_status: mirrored-with-explicit-euler-open-burdens
+    mirror_status: terminal-conditional-or-non-euler
   - parent_path: problems/navier-stokes/target-fidelity-discharge-source-pack.md
     mirror_path: problems/navier-stokes/euler-mirror/target-fidelity-discharge-source-pack.md
     mirror_status: mirrored
@@ -25,19 +26,19 @@ entries:
     mirror_status: mirrored
   - parent_path: problems/navier-stokes/monotone-functional-discharge-source-pack.md
     mirror_path: problems/navier-stokes/euler-mirror/monotone-functional-discharge-source-pack.md
-    mirror_status: mirrored-with-explicit-control-functional-gap
+    mirror_status: terminal-conditional-control-hypothesis
   - parent_path: problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
     mirror_path: problems/navier-stokes/euler-mirror/cascade-after-monotone-bridge-source-pack.md
     mirror_status: mirrored
   - parent_path: problems/navier-stokes/scale-barrier-source-pack.md
     mirror_path: problems/navier-stokes/euler-mirror/scale-barrier-source-pack.md
-    mirror_status: mirrored-with-explicit-euler-coercive-gap
+    mirror_status: terminal-non-euler-viscous-coercion
   - parent_path: problems/navier-stokes/scale-barrier-tail-discharge-source-pack.md
     mirror_path: problems/navier-stokes/euler-mirror/scale-barrier-tail-discharge-source-pack.md
-    mirror_status: mirrored-with-explicit-euler-coercive-gap
+    mirror_status: terminal-non-euler-viscous-coercion
   - parent_path: problems/navier-stokes/scale-high-side-remainder-source-pack.md
     mirror_path: problems/navier-stokes/euler-mirror/scale-high-side-remainder-source-pack.md
-    mirror_status: mirrored-with-explicit-euler-coercive-gap
+    mirror_status: terminal-non-euler-viscous-coercion
   - parent_path: problems/navier-stokes/compactness-discharge-source-pack.md
     mirror_path: problems/navier-stokes/euler-mirror/compactness-discharge-source-pack.md
     mirror_status: mirrored-conditionally-on-euler-family-control
@@ -46,10 +47,10 @@ entries:
     mirror_status: mirrored-conditionally-on-euler-compactness
   - parent_path: problems/navier-stokes/gradient-discharge-source-pack.md
     mirror_path: problems/navier-stokes/euler-mirror/gradient-discharge-source-pack.md
-    mirror_status: mirrored-with-explicit-euler-continuation-gap
+    mirror_status: terminal-conditional-continuation-hypothesis
   - parent_path: problems/navier-stokes/gradient-transfer-coercivity-source-pack.md
     mirror_path: problems/navier-stokes/euler-mirror/gradient-transfer-coercivity-source-pack.md
-    mirror_status: mirrored-with-explicit-euler-continuation-gap
+    mirror_status: terminal-conditional-continuation-hypothesis
   - parent_path: problems/navier-stokes/interdependencies-discharge-source-pack.md
     mirror_path: problems/navier-stokes/euler-mirror/interdependencies-discharge-source-pack.md
     mirror_status: mirrored
@@ -67,4 +68,4 @@ entries:
     mirror_status: mirrored
   - parent_path: problems/navier-stokes/theorem-construction/route-b-euclidean-closure-theorem.md
     mirror_path: problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md
-    mirror_status: mirrored-with-explicit-euler-continuation-gap
+    mirror_status: terminal-conditional-continuation-hypothesis
