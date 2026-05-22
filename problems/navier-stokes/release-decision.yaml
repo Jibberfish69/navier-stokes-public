@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-05-22T23:27:44Z'
+  evaluated_at: '2026-05-22T23:56:28Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: respawn
