@@ -80,14 +80,14 @@ at `Part`, `Field`, and the receiver chain; pressure alone is not doing that job
 | viscosity job | parent NS role | Euler status | theorem consequence |
 | --- | --- | --- | --- |
 | Shear participation | makes pressure-viscosity participation a stronger object than pressure compatibility | absent | Euler slip can satisfy base equation membership |
-| `2nu D_low` lower-collar sink | absorbs centered and oscillation Young terms in the lower-carrier identity | absent | `ELCI.A` needs an Euler ledger theorem |
+| `2nu D_low` lower-collar sink | absorbs centered and oscillation Young terms in the lower-carrier identity | absent | `ELCI.A` is closed only by explicit `ELCI.CP.A` envelopes; base `Member_E` does not supply it |
 | `c_nu N` / `eta_X` scheduler | absorbs simultaneous core/excess growth in `ACT.KX` | absent | `ACT.KX` is comparison order only |
 | `ACT.X-TopVisc` and top-viscous readout | supplies top-rung and center ledgers | demoted | top-viscous files are provenance, not Euler inputs |
 | `nu D_N` dyadic damping | closes gradient, scale-tail, and Route B continuation inequalities | absent | dyadic bookkeeping survives without the parent closure |
-| heat/Stokes/static diffusion | gives semigroup and observability machinery | absent | exact-potential road must be rebuilt or quarantined |
+| heat/Stokes/static diffusion | gives semigroup and observability machinery | absent | exact-potential road is non-Euler/provenance unless rebuilt outside this terminal branch |
 | selector pair-defect diffusion | supports observability/coercivity to one-sided budgets | absent | selector road stops at transport pair-defect packet |
 | fixed positive `nu` class | distinguishes NS internal objects from Euler boundary/defect objects | comparison only | vanishing-viscosity residuals are separate defect-boundary cases |
-| parabolic smoothing / compactness | can supply time regularity and strong convergence inputs | not automatic | compactness is conditional on one fixed Euler family with earned controls |
+| parabolic smoothing / compactness | can supply time regularity and strong convergence inputs | not automatic | compactness is conditional on one fixed Euler family with explicit controls |
 | viscous low-mode scale | calibrates export consumer through `nu 2^(2j0)` | absent | export must feed an Euler continuation quantity instead |
 
 ## Consequence For The Receiver Target
