@@ -36,12 +36,18 @@ scenario_separation_map:
   status: completed
   surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
   referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
+  case_matrix_surface: "problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml#case_matrix"
+  case_matrix_rows: 14
   readback: >-
     All repo-visible Euler/NS contact points are sorted into smooth or
     regularity-conditional cases, nonsmooth or not-forced-smooth cases, and
     explicit viscosity jobs. The branch now treats pressure-compatible slip/jump
     as the clean Euler bad model and viscosity as the NS proof mechanism absent
     from Euler.
+  case_matrix_readback: >-
+    ESM.S* are smooth only by stated hypotheses, ESM.C* are conditional Euler
+    control theorems, ESM.N* are nonsmooth or false-from-base membership cases,
+    and ESM.V* are the parent viscosity imports.
 route_families:
 - family_id: euler-membership-plus-regularity
   status: terminal
