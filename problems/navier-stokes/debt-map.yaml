@@ -5,7 +5,7 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-05-18T08:08:13Z'
+  extracted_at: '2026-05-22T21:13:02Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
@@ -74,7 +74,7 @@ debt_items:
   source_scope_status: new-support-found
   derivation_attempts: 1
   attempts_without_new_support: 0
-  recommended_stage: debt-derive
+  recommended_stage: human-rfi
   rationale: A matched object-formalization packet failed to promote this exact target,
     so the runner must split it into a sharper local derivation debt before trying
     another object or discharge pass.
@@ -97,17 +97,19 @@ debt_items:
   - problems/navier-stokes/lemma-falsification.yaml
   source_sufficiency: sufficient
   source_checks: 1
+  requires_human_rfi: true
+  exhausted_local_derivation: true
+  escalation_reason: dependency-discharge did not promote this obligation after localized
+    support was found
 summary:
   counts_by_class:
     packaging: 1
     local-derivable: 1
     branch-choice: 0
     blocked-frontier: 1
-  recommended_next_cell_type: backbone-build
-  recommended_next_action: Local derivation debt is cleared, but branch-choice or
-    frontier debt still remains, so rerun backbone-build to route that non-local debt
-    through recovery or escalation.
+  recommended_next_cell_type: human-rfi
+  recommended_next_action: Local derivation is exhausted for source-wall-root-after-reconcile,
+    and the remaining gap now requires one exact math idea or target decision rather
+    than more operational churn.
   recommended_debt_ids:
-  - debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  derivation_counts_by_state:
-    localized-support: 1
+  - source-wall-root-after-reconcile
