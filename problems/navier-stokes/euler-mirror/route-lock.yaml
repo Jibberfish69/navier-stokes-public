@@ -40,7 +40,7 @@ governing_object_law:
     Navier-Stokes. NS Part/Field smoothness mechanisms split from Euler
     pressure participation: pressure/incompressibility compatibility may hold
     while slip, jet-shear, dead-relative-to-carrier, or jump-like one-field
-    failure persists. NS mechanisms do not define weak Euler membership.
+    failure persists. NS mechanisms do not define base Euler membership.
   removed_as_primitives:
   - NS pressure-viscosity participation law / Part
   - NS one-field coherence law / Field
@@ -54,10 +54,10 @@ governing_object_law:
   endpoint_reading:
     dead: legacy NS participation-side readout; on Euler it is a live stronger-carrier failure mode, not contradiction of pressure incompressibility
     blown: legacy smooth-flow or Lagrangian-carrier failure readout; not base Euler membership failure
-    jump: legacy one-field regularity failure readout, including tangential slip / slip-sheet behavior; compatible with weak Euler membership unless an added Euler regularity theorem excludes it
+    jump: legacy one-field regularity failure readout, including tangential slip / slip-sheet behavior; compatible with base Euler membership unless an added Euler regularity theorem excludes it
 equation_fidelity:
   parent_surface: classical incompressible Navier-Stokes
-  mirrored_surface: incompressible Euler in weak/distributional flux-volume form
+  mirrored_surface: incompressible Euler in distributional flux-volume form
   parent_term_removed: nu Delta u
   preserve_pressure: true
   preserve_incompressibility: true
