@@ -13,13 +13,13 @@ AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing c
 
 ## Inventive Search
 
-- mode: inventive-right-theorem-selection
+- mode: inventive-recursive-theorem-solver
 - external_resources_used: false
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
 - selected_mechanism: adjoint_residual_dualization
 - candidate_count: 5
-- solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: Turn the reserve increment into a dual pairing controlled by weighted adjoint residual mass. It is source-backed by 7 local ingredient(s). It deliberately reduces the remaining work to AdjointTailSmallness.A rather than pretending the frontier is closed.
+- solver_chain_verdict: closed
+- selection_reason: This theorem is the right next move because it changes the proof economy: Turn the reserve increment into a dual pairing controlled by weighted adjoint residual mass. It is source-backed by 7 local ingredient(s). It deliberately reduces the remaining work to AdjointTailSmallness.A rather than pretending the frontier is closed. The internal solver also discharged the residual chain through AdjointReserveNoFreeCreation.A -> AdjointTailSmallness.A.
 
 ### Candidate Theorems
 
@@ -40,9 +40,10 @@ AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing c
 
 ### Recursive Solver Chain
 
-- terminal_verdict: open
-- reason: No internal solver mechanism is installed for AdjointTailSmallness.A.
+- terminal_verdict: closed
+- reason: The recursive theorem solver reached a terminal mechanism with no remaining residual primitive.
 - depth 0: AdjointReserveNoFreeCreation.A via adjoint_residual_dualization -> AdjointTailSmallness.A
+- depth 1: AdjointTailSmallness.A via adjoint_tail_smallness_closure -> closed
 
 ## Allowed Inputs
 
@@ -78,6 +79,11 @@ AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing c
 2. Move residual creation onto the weighted adjoint packet.
 3. Bound the unmatched tail by a small loss term.
 4. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
+5. Recursive solver step for AdjointTailSmallness.A: Decompose the weighted adjoint packet into Past(W)-shadowed and terminal-tail pieces.
+6. Recursive solver step for AdjointTailSmallness.A: Use PastWindowReserveSeparation.A to remove already-shadowed reserve contributions.
+7. Recursive solver step for AdjointTailSmallness.A: Pair the remaining terminal-tail residual with WeightedAdjRes.A.
+8. Recursive solver step for AdjointTailSmallness.A: Charge the unmatched tail to the declared loss ledger, contradicting an uncharged positive residual tail.
+9. Recursive solver step for AdjointTailSmallness.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
 ## Circularity Audit
 
@@ -86,12 +92,11 @@ AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing c
 
 ## Solver Verdict
 
-- verdict: new_subprimitive
-- certification_level: theorem-creation:new-subprimitive
-- rationale: The theorem has been reduced to a smaller noncircular primitive that is not currently installed.
-- next subprimitive: AdjointTailSmallness.A -- unmatched adjoint residual tails are small on terminal windows
+- verdict: conditional
+- certification_level: theorem-creation:conditional
+- rationale: The proof attempt is noncircular but still needs downstream audit before promotion.
 
 ## Promotion Plan
 
 - promotion_allowed: false
-- recommended_next_cell_type: theorem-creation
+- recommended_next_cell_type: dependency-discharge
