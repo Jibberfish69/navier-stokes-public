@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-05-22T21:12:04Z'
+  generated_at: '2026-05-22T22:49:02Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -39,15 +39,15 @@ source_grounded_chain:
   Z_alpha. The note now distinguishes three rungs: (1) ene'
 tentative_extension_chain: []
 remaining_open_obligations:
-- obligation_id: source-wall-root-after-reconcile
-  label: source-wall-root-after-reconcile
+- obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
+  label: TerminalCMNoExit.A / NoGenuineCMExit.A
   kind: live-theorem-frontier
   status: frontier-open
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
   math_frontier_obligations:
-  - obligation_id: source-wall-root-after-reconcile
-    label: source-wall-root-after-reconcile
+  - obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
+    label: TerminalCMNoExit.A / NoGenuineCMExit.A
     kind: live-theorem-frontier
     status: frontier-open
   theorem_warrant_obligations: []
@@ -55,18 +55,18 @@ frontier_context:
   route_container_obligations: []
   downstream_support_obligations: []
   additional_context_obligations:
-  - obligation_id: source-wall-root-after-reconcile
-    label: source-wall-root-after-reconcile
+  - obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
+    label: TerminalCMNoExit.A / NoGenuineCMExit.A
     kind: live-theorem-frontier
     status: frontier-open
 next_solver_targets:
-- obligation_id: source-wall-root-after-reconcile
-  label: source-wall-root-after-reconcile
+- obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
+  label: TerminalCMNoExit.A / NoGenuineCMExit.A
   kind: live-theorem-frontier
   status: frontier-open
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-0d30e9030a43
-  route_signature: 0d30e9030a43768ef7cc95bd011a64bcb30bc016
+  surface_id: theorem-surface-navier-stokes-bcf5e31af8a8
+  route_signature: bcf5e31af8a8aa1b228e9b02828a7a35001e35b5
   theorem_target: current route target
   theorem_statement: The official Clay target allows either the whole-space branch
     on R^3 or the periodic branch on T^3.
@@ -92,8 +92,8 @@ theorem_surface:
     = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
     not the internal branch itself
   route_slots:
-  - slot_id: source-wall-root-after-reconcile
-    label: source-wall-root-after-reconcile
+  - slot_id: terminalcmnoexit-a-nogenuinecmexit-a
+    label: TerminalCMNoExit.A / NoGenuineCMExit.A
     kind: live-theorem-frontier
     status: frontier-open
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
@@ -201,4 +201,4 @@ summary:
   tracked_source_count: 125
   synthesis_import_surface_count: 0
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-0d30e9030a43
+  theorem_surface_id: theorem-surface-navier-stokes-bcf5e31af8a8
