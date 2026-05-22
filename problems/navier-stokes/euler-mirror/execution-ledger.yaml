@@ -8,12 +8,13 @@ identity:
   generator: codex-euler-ontology-repair
 main_objective:
   theorem_target: regularity for the three-dimensional incompressible Euler equations
-  theorem_target_status: open
-  doctrine: define Euler membership natively, then prove smoothness as an extra regularity upgrade
+  theorem_target_status: terminally-classified-no-live-branch-burden
+  doctrine: define Euler membership natively, then close each mirror route as conditional, false from base membership, or non-Euler import
   proof_modes:
   - positive-control
   - euler-membership-plus-regularity
-  run_both: true
+  run_both: false
+  terminal_closure_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
 closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
   status: closed
@@ -29,8 +30,7 @@ closed_receiver_theorem_target:
   parent_comparison_order: RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A
   readback: >-
     The receiver split is closed without importing ACT.KX, ACT.X-TopVisc, or
-    2nu absorption. Further global regularity work is a separate Euler
-    scale/control/compactness or continuation burden.
+    2nu absorption. It leaves no downstream live branch burden.
 scenario_separation_map:
   status: completed
   surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
@@ -41,7 +41,7 @@ scenario_separation_map:
     as the clean Euler bad model and viscosity as the missing NS proof mechanism.
 route_families:
 - family_id: euler-membership-plus-regularity
-  status: ontology-repaired
+  status: terminal
   description: Member_E is flux-volume plus weak momentum-pressure; Euler pressure participation is only incompressibility/normal compatibility, while smoothness, Lagrangian carriers, and one-field coherence are regularity upgrades
   key_surfaces:
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-class-membership-flux-volume-definition.md
@@ -52,10 +52,10 @@ route_families:
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
-  next_frontier: prove a separate Euler control/continuation envelope strong enough to imply the closed ELCI.CP.A hypotheses
-  first_holdout: no primitive Euler Part or Field theorem exists; pressure alone does not give one-field participation, so Dead/Jump-like behavior remains live for stronger carrier/coherence classes
+  terminal_readback: base Member_E does not imply regularity, one-field participation, or the ELCI.CP.A ledger
+  terminal_class: false-from-base-membership
 - family_id: positive-four-principle
-  status: regularity-support-only
+  status: terminal-conditional
   description: scale-barrier, control functional, compactness, continuation/regularity
   key_surfaces:
   - problems/navier-stokes/euler-mirror/claim-ladder.md
@@ -66,8 +66,8 @@ route_families:
   - problems/navier-stokes/euler-mirror/gradient-discharge-source-pack.md
   - problems/navier-stokes/euler-mirror/theorem-construction/positive-control-euler-program.md
   - problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md
-  next_frontier: discharge an Euler scale/control/compactness/continuation package on one common surface
-  first_holdout: no viscous damping, no Stokes smoothing, no NS participation row
+  terminal_readback: the route closes only after extra Euler controls are assumed; parent viscous mechanisms are non-Euler imports
+  terminal_class: proved-conditional-or-non-euler-import
 - family_id: transport-geometry-selector
   status: mapped-template-only
   description: transport and selector scaffolding; not Euler membership
@@ -76,21 +76,21 @@ route_families:
   - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
   - problems/navier-stokes/theorem-construction/hopf-shuffle-endgame-program.md
   - problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
-  next_frontier: reuse as optional regularity support only after Euler-native rewriting
+  terminal_readback: optional regularity support only, with no live branch burden
 - family_id: exact-potential-parabolic
   status: explicitly-demoted-and-quarantined
   description: exact-potential, localized-projector, Stokes/heat/static-diffusion branch
   key_surfaces:
   - problems/navier-stokes/theorem-construction/exact-potential-v2-static-diffusion-wang-zhang-route.md
   - problems/navier-stokes/theorem-construction/exact-potential-v2-static-diffusion-heat-plus-perturbation-split.md
-  next_frontier: remain quarantined unless a genuine Euler analogue is written
+  terminal_readback: non-Euler parabolic import, closed for this branch
 - family_id: curvature-provenance
   status: explicitly-demoted-provenance
   description: curvature / geometry-evolving heat legacy branch
   key_surfaces:
   - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
   - problems/navier-stokes/theorem-construction/gradient-control-bridge-discharge.md
-  next_frontier: provenance only
+  terminal_readback: provenance only
 phases:
 - phase_id: phase-0-fidelity
   status: completed
@@ -102,14 +102,17 @@ phases:
   status: completed
   goal: demote ECFI/EL13/EOFP/EOFR/ELCI to regularity support above Member_E
 - phase_id: phase-3-positive-route-rewrite
-  status: open
-  goal: prove the Euler-native scale/control/compactness/continuation package needed for global regularity
+  status: completed-terminal
+  goal: classify the positive route as conditional or non-Euler rather than live burden
 - phase_id: phase-3a-euler-ns-scenario-separation
   status: completed
   goal: classify every repo-visible Euler/NS contact case by smooth/conditional, nonsmooth/not-forced, and viscosity mechanism
 - phase_id: phase-3b-elci-cp-a-separation
   status: completed
   goal: close the receiver ledger split under added Euler control and base Member_E failure
+- phase_id: phase-4-terminal-closure
+  status: completed
+  goal: close all Euler mirror routes with no live branch burdens
 automation_loop:
   mode: repo-internal-only
   safe_problem_local_surfaces:
