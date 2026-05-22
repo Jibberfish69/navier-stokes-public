@@ -34,6 +34,9 @@ Current branch-local mainline:
 - pressure-nonparticipation vortex-sheet witness
 - smooth-data singular-limit bridge to that witness
 - Euler / Navier-Stokes viscosity scenario separation map
+- referee audit ledger: `referee-audit-ledger.yaml` mechanically classifies every
+  branch surface as smooth-by-hypothesis, nonsmooth-control, proved-conditional,
+  false-base-implication, non-Euler-import, provenance/comparison, or machinery
 - fixed-datum classical blowup split: boundary/axisymmetric known externally;
   no-boundary smooth finite-energy is outside this terminal mirror branch
 - source-locked contradiction/object note
@@ -50,6 +53,9 @@ Current theorem-facing order:
   boundary fixed-datum, or no-boundary fixed-datum; it is not a live mirror debt
 
 Terminal readback:
+- [referee-audit-ledger.yaml](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml)
+  is the branch-local readback authority for where Euler is smooth, where it is
+  nonsmooth, and where Navier-Stokes viscosity is doing proof work
 - the base membership layer is `EVol + EMom`; smoothness does not follow from it
 - `ELCI.A` now records the Euler replacement for the expanded parent `ACT.KX` /
   `2\nu` absorption and top-viscous readout chain as the closed
