@@ -92,6 +92,13 @@ case_matrix:
       - problems/navier-stokes/euler-mirror/theorem-construction/positive-control-euler-program.md
       - problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md
       - problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md
+  - id: ESM.C3
+    classification: proved_conditional_surface
+    euler_scenario: retained-window native forcing after local smooth center-ball bounds
+    ns_control_readback: RSCB.NKF and NKF.Native are valid only after retained local smoothness and point-recovery inputs are assumed
+    authority:
+      - problems/navier-stokes/theorem-construction/mpp-retained-window-native-forcing-theorem-program.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
   - id: ESM.N1
     classification: nonsmooth_control
     euler_scenario: tangential slip / vortex-sheet weak Euler member
@@ -124,6 +131,13 @@ case_matrix:
     ns_control_readback: domain-sensitive Euler singularity evidence; not a no-boundary finite-energy Euler verdict
     authority:
       - problems/navier-stokes/euler-mirror/theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md
+  - id: ESM.N6
+    classification: nonsmooth_control
+    euler_scenario: shared Pack / Euler non-one-field participation split
+    ns_control_readback: Pack failure can be shared at flux-volume level, but NS Part/Field smoothness laws become Euler nonsmoothness diagnostics rather than Euler membership laws
+    authority:
+      - problems/navier-stokes/theorem-construction/mpp-ns-cm-smoothness-euler-dual-regularity-map-20260516.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-class-membership-flux-volume-definition.md
   - id: ESM.V1
     classification: non_euler_import
     euler_scenario: parent ACT.KX absorption scheduler
@@ -163,6 +177,13 @@ case_matrix:
     authority:
       - problems/navier-stokes/euler-mirror/theorem-construction/selector-geometry-euler-walkdown-program.md
       - problems/navier-stokes/euler-mirror/theorem-construction/export-whole-space-euler-walkdown-program.md
+  - id: ESM.V6
+    classification: non_euler_import
+    euler_scenario: first-rung viscous-center supplier
+    ns_control_readback: the supplier is literally nu times a center Laplacian readout and has no Euler analogue at nu=0
+    authority:
+      - problems/navier-stokes/theorem-construction/mpp-lci-a-first-rung-viscous-center-supplier-note.md
+      - problems/navier-stokes/euler-mirror/viscosity-dependence-ledger.yaml
 authority_surfaces_requiring_readback:
   - README.md
   - campaign-map.md
