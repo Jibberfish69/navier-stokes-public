@@ -2,7 +2,8 @@
 
 ## Status
 
-Active theorem-architecture audit.
+Field-to-Part collapse subcase resolved; broader Pack/blown ontology audit
+remains active.
 
 Purpose: preserve the May 17 inquiry into whether `Pack`, `Part`, and `Field`
 are genuinely separate terminal failure modes, or whether the current triad is a
@@ -44,6 +45,12 @@ branch bookkeeping.  It says Pack and Part have been retained as licenses, so
 the first unspent CM face is Field.  It does not make `Pack, Part, not-Field`
 a surviving terminal row; terminal same-fluid ontology collapses that realized
 coherence break to `Pack, not-Part, not-Field`.
+
+The proof note
+`mpp-field-failure-to-part-collapse-20260522.md` installs this in the requested
+order: first `RetainedFieldHit.A` proves the branch-local Field failure, then
+`TerminalFieldJumpPartCollapse.A` proves that a realized same-fluid `Jump`
+defeats terminal Part.
 
 This matters most in three places.
 
@@ -295,14 +302,15 @@ Use this order instead:
 
 ## Live Theorem Burden
 
-The next theorem-facing burden is an ontological collapse audit:
+The remaining theorem-facing burden is the Pack/blown side of the ontological
+collapse audit:
 
 ```text
-Classify which of the formal Pack/Part/Field rows have real terminal
-realizations, and which collapse into overlapping Dead/Jump/Blown readouts
-under the terminal same-fluid predicates.
+Classify whether finite carrier blowout can ever preserve terminal
+same-fluid Part and Field, or whether every realized Blown endpoint collapses
+to not-Pack, not-Part, not-Field.
 ```
 
 This is not a source-wall supplier theorem and not a positive smoothness proof.
 It is a CM architecture audit that may simplify the contrapositive search space
-before more Field/source-wall work is promoted.
+before more Pack/source-wall work is promoted.
