@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   branch_id: euler-mirror-chat20
   artifact_id: route-lock-navier-stokes-euler-mirror
-  updated_on: '2026-05-21'
+  updated_on: '2026-05-22'
   generator: codex-euler-ontology-repair
 governing_object_law:
   status: active
@@ -102,27 +102,27 @@ holistic_scenario_separation_lock:
     Euler meets NS smoothly only under stated classical or regularity hypotheses;
     Euler also meets NS through base Member_E nonsmooth slip/jump/defect scenarios.
     The branch must split those cases before using any comparison theorem.
-active_next_theorem_target:
+closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
+  status: closed
   authority_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
   attempt_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-a-direct-transport-pressure-attempt-20260519.md
   scenario_map_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
+  closure_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md
   comparison_source_chain: >-
     RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A
   expanded_parent_break: >-
     NKF.Native + NKF.Ann + NKF.Quad => ACT.X-Press, then
     ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX,
     followed by ACT.KX + ACT.X-Scale + RWS.C_scale => ACT.X-Readout.
-  exact_burden: >-
-    Split the branch-local Euler center/oscillation/pressure ledger statement
-    L_E_ctr = A_E_ctr + Omega_E_osc + Pi_E_ctr into its honest scenario classes:
-    prove L1 integrability on the same finite transported Euler cover under the
-    exact additional EReg / ELag / EAdm / pressure-control hypotheses needed, and
-    exhibit or route base Member_E slip, jump, or defect-boundary scenarios where
-    that integrability is not forced. The May 19 direct attempt closed the packet
-    inequality and Gronwall step once this ledger is integrable; the May 21
-    scenario map forbids treating that supplier as automatic from inviscid
-    membership.
+  closure_readback: >-
+    The branch-local Euler center/oscillation/pressure ledger is now split
+    exactly. On the same finite transported cover, explicit L1 center,
+    oscillation, and centered-pressure-return envelopes imply
+    L_E_ctr in L1 and close ELCI.A by the May 19 Gronwall packet. From base
+    Member_E alone the implication is false: a stationary unbounded shear is an
+    Euler equation member while the center/oscillation ledger fails on any collar
+    crossing the singular sheet.
   allowed_ingredients:
   - fixed-cover transport geometry
   - transported-center carrier and oscillation estimates
@@ -135,10 +135,17 @@ active_next_theorem_target:
   - unchanged RSCB.NKF -> NKF.Native import
   - downstream ACT.X-Readout, ACT.A, RCF.A, or LCI.A before ELCI.A
   readback_sentence: >-
-    Chat20's next theorem target is ELCI.CP.A-Separation: split the Euler
-    center/oscillation/pressure ledger into the regularity-conditional cases
-    where it is L1 and the base Member_E nonsmooth cases where L1 is not forced,
-    without ACT.KX / ACT.X-TopVisc / 2nu absorption.
+    ELCI.CP.A-Separation is closed: the receiver ledger is proved only under
+    explicit Euler regularity/control envelopes, and base Member_E is shown not
+    to force that ledger, without ACT.KX / ACT.X-TopVisc / 2nu absorption.
+remaining_global_regularity_burden:
+  status: open
+  target_id: Euler-Control-Continuation-Envelope
+  scope: >-
+    This is a separate global Euler regularity burden, not a receiver-ledger
+    debt. Any future route must prove an Euler-native scale/control/compactness
+    or continuation envelope strong enough to imply the conditions cited in the
+    closed ELCI.CP.A-Separation theorem.
 current_receiver_and_holdout_surfaces:
   branch_local_receiver_slot:
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
