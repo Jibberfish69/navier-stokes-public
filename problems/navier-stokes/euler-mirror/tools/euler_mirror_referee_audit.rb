@@ -15,6 +15,7 @@ abort "missing ledger: #{ledger_path}" unless File.file?(ledger_path)
 ledger = YAML.safe_load(File.read(ledger_path), aliases: true)
 allowed = ledger.fetch('classification_vocabulary').map { |row| row.fetch('id') }.to_set
 rules = ledger.fetch('surface_rules')
+case_matrix = ledger.fetch('case_matrix')
 
 def rel_files(root)
   Dir.chdir(root) do
@@ -68,6 +69,26 @@ ledger.fetch('parent_comparison_anchors', []).each do |path|
   errors << "missing parent comparison anchor #{path}" unless File.file?(full_path)
 end
 
+case_classes = Hash.new(0)
+case_matrix.each do |row|
+  id = row.fetch('id')
+  classification = row.fetch('classification')
+  errors << "unknown case classification #{classification.inspect} in #{id}" unless allowed.include?(classification)
+  %w[euler_scenario ns_control_readback authority].each do |key|
+    value = row.fetch(key)
+    errors << "empty case #{id} #{key}" if value.respond_to?(:empty?) && value.empty?
+  end
+  row.fetch('authority').each do |path|
+    full_path = File.join(repo_root, path.sub(%r{\A/}, ''))
+    errors << "missing case #{id} authority #{path}" unless File.file?(full_path)
+  end
+  case_classes[classification] += 1
+end
+
+%w[smooth_by_hypothesis nonsmooth_control proved_conditional_surface false_base_implication non_euler_import].each do |classification|
+  errors << "case matrix missing #{classification}" if case_classes[classification].zero?
+end
+
 stale_patterns = ledger.fetch('stale_failure_patterns', []).map do |entry|
   [entry.fetch('id'), Regexp.new(entry.fetch('pattern'), Regexp::IGNORECASE)]
 end
@@ -101,6 +122,7 @@ else
   puts "Euler mirror referee audit"
   puts "mirror_root=#{mirror_root}"
   puts "covered_surfaces=#{covered.length}/#{all_files.length}"
+  puts "case_matrix_rows=#{case_matrix.length}"
   allowed.sort.each { |classification| puts "#{classification}=#{counts[classification]}" }
 end
 
