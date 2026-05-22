@@ -62,22 +62,21 @@ execution ledger, dependence ledger, and family audits with the current
 on-disk mirror state. Completion language is now explicit that branch-contract
 completion does not equal proof of Euler global smoothness.
 
-## Residual Honest Mathematical Burdens
+## Terminal Mathematical Classifications
 
-The derivation audit is complete, but the theorem remains open. The current
-live mathematical burdens remain:
+The derivation audit is complete, and the branch is now terminally classified:
 
-1. an Euler-clean dangerous-scale barrier;
-2. an Euler control functional beyond bare `L^2` wherever genuinely needed;
-3. an Euler continuation mechanism replacing the parent dissipation-backed
-   Route B packet;
-4. pack-side no-blown closure and the exact missing `2\nu`-absorption
-   replacement inside `ELCI.A`.
+1. Euler-clean dangerous-scale barriers are conditional hypotheses unless
+   supplied by a new external theorem;
+2. Euler control beyond bare `L^2` is conditional support, not base membership;
+3. parent dissipation-backed Route B packets are non-Euler imports;
+4. `ELCI.A` is closed by the `ELCI.CP.A-Separation` split, while pack-side
+   smoothness from base membership is a false implication.
 
 ## Final Verdict
 
 The branch-wide derivation audit is complete. Every current file under
 `euler-mirror/**` is now listed in the corpus derivation ledger, the stale
 registry posture has been scrubbed, the positive-control and contradiction
-corpora have been refined for fidelity, and the branch continues to state
-plainly that its mathematical closure burdens remain open.
+corpora have been refined for fidelity, and the branch now states plainly that
+it has no live mathematical closure burden inside the Euler mirror.
