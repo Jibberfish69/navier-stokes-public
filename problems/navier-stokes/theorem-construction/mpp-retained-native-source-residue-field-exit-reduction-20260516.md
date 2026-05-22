@@ -127,7 +127,7 @@ source residue breaks Part before Field. The statement is usable only for a
 coherence/readout residue after a separate theorem has already licensed the
 source term as lawful participation.
 
-## Why Pack And Part Survive In The Hypothesis
+## How To Read The Pack And Part Hypothesis
 
 `Pack_Q` is the retained same-fluid carrier condition. If the selected residue cannot stay on a bounded same-fluid terminal carrier, the branch has already selected the Pack face.
 
@@ -139,9 +139,13 @@ D_tU_k=K_k+B_k,
 K_k=-\nabla^{k+1}p+\nu\Delta U_k.
 ```
 
-The positive trilinear source is an interior source carrier of this same differentiated Navier-Stokes tower. Its presence alone preserves compatibility with Part. A Part exit requires loss of participation in the same pressure-viscosity law, rather than mere concentration of a lawful nonlinear source.
+For the live CM route this hypothesis is not automatic for native source
+residue. A raw unpaid source residue is exactly a failure of lawful
+participation, so it exits through Part once Pack is retained.
 
-Therefore the retained native source residue, under Pack and Part, belongs to the one-field coherence row.
+The historical Field theorem below is read only after a separate theorem has
+already converted the object into a lawful participating source/readout term.
+Only then can the remaining residue belong to the one-field coherence row.
 
 ## Field Response Mechanism
 
