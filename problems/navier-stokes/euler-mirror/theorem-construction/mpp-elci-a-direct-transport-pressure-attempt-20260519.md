@@ -332,6 +332,6 @@ The six-step `ELCI.A` completion route closes the packet inequality and the
 conditional Gronwall theorem. The May 22 closure note closes the missing
 independent supplier as a split theorem: honest Euler control assumptions give
 the transported-center, oscillation, and centered pressure-return ledger, while
-base `Member_E` alone fails to give it. The full Euler regularity burden remains
-open because it would require a separate Euler-native control/continuation
-theorem, not a receiver-chain import.
+base `Member_E` alone fails to give it. The Euler mirror terminal closure treats
+any stronger global regularity claim as a new external theorem program, not a
+remaining burden of this branch.
