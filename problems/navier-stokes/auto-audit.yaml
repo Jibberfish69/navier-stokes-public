@@ -303,7 +303,7 @@ surface_snapshot:
         - 'ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A as diagnostic/source-residue
           language: finite Zeno ancestry is sorted by RawZenoFailurePartition.A +
           ZenoAtomFailureToFaceWitness.A, while the terminal zero-radius residue is
-          not Pack_Q and Field/Jump language is post-exit readout unless a positive-scale
+          not Pack_Q and endpoint readout language is post-exit support unless a positive-scale
           retained carrier is separately proved'
         - RetainedFaceAmplitudeGain.A as a PackGainLedger/PartEnvelopeAmplitudeConservation
           boundary, not a new face
