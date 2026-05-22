@@ -1,16 +1,19 @@
-# MPP Full Clay Source-Wall Full-Agency Pass
+# MPP Source-Wall Positive-Supplier Audit After CM Closure
 
 Date: 2026-05-22
 
-Status: full-agency theorem pass; does not close Full Clay. It records the
-current exact obstruction after the paraproduct public-critical translator was
+Status: positive-supplier audit, not a CM Full Clay blocker. It records what
+would still be needed only for the separate no-pulse/PCTP supplier route after
+the paraproduct public-critical translator and CM terminal-residue exit were
 closed.
 
 ## Target
 
-After the May 22 paraproduct/native-source capture closure, the remaining
-Full Clay burden is not the `L^3` paraproduct gate. The live promotion target
-is still the source-wall supplier:
+After the May 22 paraproduct/native-source capture closure, the terminal native
+source residue is already handled in the CM contrapositive program by
+`TerminalSourceResidueCMExit.A`: the residue is not erased; it is the witness
+landing in Pack/Part failure. The separate positive supplier route, when the
+proof program explicitly asks to delete the residue, still targets:
 
 ```math
 \boxed{
@@ -76,7 +79,7 @@ This identifies same-ledger nonlinear Duhamel work as native positive source
 work, or routes it to selected Pack-side/source-wall failure or paid
 Pack/Part/legal exit.
 
-## Direct Test: Can Paraproduct Capture Close The Source Wall?
+## Direct Test: Can Paraproduct Capture Close The Positive Supplier?
 
 No. The paraproduct theorem is a capture theorem:
 
@@ -86,7 +89,7 @@ No. The paraproduct theorem is a capture theorem:
 \text{native source measure or allowed CM exit}.
 ```
 
-The Full Clay supplier needs an exclusion theorem:
+The positive supplier route needs an exclusion theorem:
 
 ```math
 \text{original smooth data}
@@ -95,10 +98,9 @@ The Full Clay supplier needs an exclusion theorem:
 ```
 
 The new paraproduct closure tells us what a terminal source contribution is
-once it appears. It does not give temporal thickness, super-`L^1_t` residence,
-an active-square reserve, a no-positive-jump trace theorem, or a no-incoming
-boundary theorem. Thus it does not by itself prevent a zero-thickness terminal
-native source concentration.
+once it appears. In the CM route that is enough because the contribution lands
+as Pack/Part exit. It does not by itself prove the stronger positive statement
+that a zero-thickness terminal native source concentration cannot be produced.
 
 ## Direct Test: Promote `ReserveCreationCharge.A`?
 
@@ -210,9 +212,10 @@ vanishing do not imply the anti-atom modulus.
 
 ## Verdict
 
-Full Clay is not closed by the current installed inputs. The exact surviving
-mathematical burden is one new source-wall production theorem, in either of
-these equivalent forms:
+This note does not reopen the CM contrapositive closure. It only says the
+separate positive no-pulse/source-control supplier is not proved from installed
+inputs. The exact surviving positive-supplier burden is one new source-wall
+production theorem, in either of these equivalent forms:
 
 ```math
 \boxed{
@@ -230,20 +233,22 @@ BASACTerminalSourceAntiConcentration.A
 
 for the Zeno/equality-class branch.
 
-Both are the same underlying demand: prove that original smooth Navier-Stokes
-data cannot create a zero-thickness terminal native source pulse after all
-ASAC, legal, donor, non-Zeno, Pack/Part, and paraproduct-capture alternatives
-are removed.
+Both are the same underlying demand for the positive route: prove that original
+smooth Navier-Stokes data cannot create a zero-thickness terminal native source
+pulse after all ASAC, legal, donor, non-Zeno, Pack/Part, and
+paraproduct-capture alternatives are removed.
 
 ## Bridge Boundary
 
-The CM contrapositive machinery remains useful and installed: any surviving
-terminal zero-radius residue is a Pack-side CM exit, not a retained Field/jump
-object. That classifies the bad branch. It does not prove the positive supplier
-exclusion needed for Full Clay.
+The CM contrapositive machinery is the governing route for this terminal
+residue. Any surviving terminal zero-radius residue is a Pack/Part CM exit, not
+a retained Field/jump object, and the residue is used as the witness rather
+than deleted.
 
-Therefore the next theorem-facing work must not reopen supplier/readout or
-Euler-mirror material. It must prove one source-wall anti-pulse theorem:
+Therefore theorem-facing CM work must not reopen supplier/readout or
+Euler-mirror material, and it must not demand `NativeSourceAC.A` as a CM
+precondition. The anti-pulse theorem below belongs only to the separate
+positive supplier/PCTP route:
 
 ```math
 OriginalSmoothData\Longrightarrow
