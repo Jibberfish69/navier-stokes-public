@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-05-22T22:33:56Z'
+  generated_at: '2026-05-22T22:43:16Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -37,55 +37,6 @@ sandbox:
 branch_pool:
 - &1
   branch_id: creative-branch-navier-stokes-1
-  origin_obligation_id: ScaleCriticalTreeCarleson.A
-  origin_kind: live-theorem-branch
-  source_status: frontier-open
-  branch_type: local-lemma
-  pursuit_mode: co-dependent
-  candidate_claim: Create the sharp CM branch theorem ScaleCriticalTreeCarleson.A
-    from the live source-wall authority, keeping supplier/readout material quarantined
-    until it lands in Pack, Part, or Field.
-  creative_move: Generate 2-3 bounded variants of the lemma and keep only the weakest
-    one that advances the proof chain.
-  invention_packet:
-    candidate_statement: Create the sharp CM branch theorem ScaleCriticalTreeCarleson.A
-      from the live source-wall authority, keeping supplier/readout material quarantined
-      until it lands in Pack, Part, or Field.
-    mediating_object: pack_side_scale_critical_carleson_bound
-    proof_sketch:
-    - State the weakest exact claim that would advance `ScaleCriticalTreeCarleson.A`
-      without expanding the theorem target.
-    - Define or isolate the mediating object on the current carrier/window/sector
-      only.
-    - Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `ScaleCriticalTreeCarleson.A
-      sharp branch target decomposed from source-wall-root-after-reconcile`.
-    - Show how that object converts one already-grounded local statement into the
-      next missing step.
-    - Reject the move if it introduces new global scope, hidden imports, or a stronger
-      claim than the frozen frontier needs.
-    falsification_checks:
-    - Does the move preserve the frozen theorem target rather than redefining it?
-    - Can the candidate be stated on already-grounded objects without importing a
-      new theory chapter?
-    - Does it reduce at least one open obligation or turn a frontier statement into
-      a local discharge target?
-    scope_guard: Formalize only what the current theorem target needs next.
-  grounded_basis:
-  - marvin-upstream-409f183ee495
-  - marvin-upstream-c8f7cb511776
-  - marvin-upstream-e2f5b0a915cf
-  - ScaleCriticalTreeCarleson.A
-  risk_level: medium-low
-  notes:
-  - This branch is machine-derived beyond the current frozen core.
-  - Use the weakest sufficient move; do not inflate the theorem target.
-  recommended_next_cell_type: theorem-creation
-  recommended_next_action: Creative theorem search selected the sharp source-wall
-    branch `ScaleCriticalTreeCarleson.A`. Run theorem-creation on that CM branch target
-    instead of replaying the umbrella source-wall route.
-  merge_policy: quarantined-until-promoted
-- branch_id: creative-branch-navier-stokes-2
   origin_obligation_id: CFI.A
   origin_kind: live-theorem-branch
   source_status: frontier-open
@@ -134,7 +85,7 @@ branch_pool:
     branch `CFI.A`. Run theorem-creation on that CM branch target instead of replaying
     the umbrella source-wall route.
   merge_policy: quarantined-until-promoted
-- branch_id: creative-branch-navier-stokes-3
+- branch_id: creative-branch-navier-stokes-2
   origin_obligation_id: OFP.A
   origin_kind: live-theorem-branch
   source_status: frontier-open
@@ -183,7 +134,7 @@ branch_pool:
     branch `OFP.A`. Run theorem-creation on that CM branch target instead of replaying
     the umbrella source-wall route.
   merge_policy: quarantined-until-promoted
-- branch_id: creative-branch-navier-stokes-4
+- branch_id: creative-branch-navier-stokes-3
   origin_obligation_id: LCI.A
   origin_kind: live-theorem-branch
   source_status: frontier-open
@@ -232,12 +183,56 @@ branch_pool:
     branch `LCI.A`. Run theorem-creation on that CM branch target instead of replaying
     the umbrella source-wall route.
   merge_policy: quarantined-until-promoted
-candidate_archive:
-- origin_obligation_id: ScaleCriticalTreeCarleson.A
+- branch_id: creative-branch-navier-stokes-4
+  origin_obligation_id: CJ.A
   origin_kind: live-theorem-branch
-  label: ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: true
+  source_status: frontier-open
+  branch_type: local-lemma
+  pursuit_mode: co-dependent
+  candidate_claim: Create the sharp CM branch theorem CJ.A from the live source-wall
+    authority, keeping supplier/readout material quarantined until it lands in Pack,
+    Part, or Field.
+  creative_move: Generate 2-3 bounded variants of the lemma and keep only the weakest
+    one that advances the proof chain.
+  invention_packet:
+    candidate_statement: Create the sharp CM branch theorem CJ.A from the live source-wall
+      authority, keeping supplier/readout material quarantined until it lands in Pack,
+      Part, or Field.
+    mediating_object: formal_local_object
+    proof_sketch:
+    - State the weakest exact claim that would advance `CJ.A` without expanding the
+      theorem target.
+    - Define or isolate the mediating object on the current carrier/window/sector
+      only.
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `CJ.A sharp branch target
+      decomposed from source-wall-root-after-reconcile`.
+    - Show how that object converts one already-grounded local statement into the
+      next missing step.
+    - Reject the move if it introduces new global scope, hidden imports, or a stronger
+      claim than the frozen frontier needs.
+    falsification_checks:
+    - Does the move preserve the frozen theorem target rather than redefining it?
+    - Can the candidate be stated on already-grounded objects without importing a
+      new theory chapter?
+    - Does it reduce at least one open obligation or turn a frontier statement into
+      a local discharge target?
+    scope_guard: Formalize only what the current theorem target needs next.
+  grounded_basis:
+  - marvin-upstream-409f183ee495
+  - marvin-upstream-c8f7cb511776
+  - marvin-upstream-e2f5b0a915cf
+  - CJ.A
+  risk_level: medium-low
+  notes:
+  - This branch is machine-derived beyond the current frozen core.
+  - Use the weakest sufficient move; do not inflate the theorem target.
+  recommended_next_cell_type: theorem-creation
+  recommended_next_action: Creative theorem search selected the sharp source-wall
+    branch `CJ.A`. Run theorem-creation on that CM branch target instead of replaying
+    the umbrella source-wall route.
+  merge_policy: quarantined-until-promoted
+candidate_archive:
 - origin_obligation_id: CFI.A
   origin_kind: live-theorem-branch
   label: CFI.A sharp branch target decomposed from source-wall-root-after-reconcile
@@ -257,7 +252,7 @@ candidate_archive:
   origin_kind: live-theorem-branch
   label: CJ.A sharp branch target decomposed from source-wall-root-after-reconcile
   status: frontier-open
-  promoted_into_branch_pool: false
+  promoted_into_branch_pool: true
 - origin_obligation_id: ParaproductNativeSourceCapture.A
   origin_kind: live-theorem-branch
   label: ParaproductNativeSourceCapture.A sharp branch target decomposed from source-wall-root-after-reconcile
@@ -330,11 +325,6 @@ candidate_archive:
     source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
-- origin_obligation_id: WindowwiseReserveCarleson.A
-  origin_kind: live-theorem-branch
-  label: WindowwiseReserveCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
 - origin_obligation_id: ParentSquareEmbed.A
   origin_kind: live-theorem-branch
   label: ParentSquareEmbed.A sharp branch target decomposed from source-wall-root-after-reconcile
@@ -355,21 +345,6 @@ candidate_archive:
   label: WindowPackingLeakage.A sharp branch target decomposed from source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
-- origin_obligation_id: PastWindowReserveSeparation.A
-  origin_kind: live-theorem-branch
-  label: PastWindowReserveSeparation.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
-- origin_obligation_id: AdjointReserveNoFreeCreation.A
-  origin_kind: live-theorem-branch
-  label: AdjointReserveNoFreeCreation.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
-- origin_obligation_id: ReserveCreationCharge.A
-  origin_kind: live-theorem-branch
-  label: ReserveCreationCharge.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
 - origin_obligation_id: AdjointTailSmallness.A
   origin_kind: live-theorem-branch
   label: AdjointTailSmallness.A sharp branch target decomposed from source-wall-root-after-reconcile
@@ -380,22 +355,6 @@ candidate_archive:
   label: FirstPulseKill.A sharp branch target decomposed from source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
-- origin_obligation_id: PastWindowShadowCompleteness.A
-  origin_kind: live-theorem-branch
-  label: PastWindowShadowCompleteness.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
-- origin_obligation_id: ChargeLedgerInjection.A
-  origin_kind: live-theorem-branch
-  label: ChargeLedgerInjection.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
-- origin_obligation_id: TerminalReserveFirstAppearanceCharge.A
-  origin_kind: live-theorem-branch
-  label: TerminalReserveFirstAppearanceCharge.A sharp branch target decomposed from
-    source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
 - origin_obligation_id: AllNonEulerNSSurfaceFaceSweep.A
   origin_kind: live-theorem-branch
   label: AllNonEulerNSSurfaceFaceSweep.A sharp branch target decomposed from source-wall-root-after-reconcile
@@ -404,21 +363,6 @@ candidate_archive:
 - origin_obligation_id: DonorHeightCreation.A
   origin_kind: live-theorem-branch
   label: DonorHeightCreation.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
-- origin_obligation_id: ParabolicEdgeResistance.A
-  origin_kind: live-theorem-branch
-  label: ParabolicEdgeResistance.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
-- origin_obligation_id: RetainedFaceAmplitudeGain.A
-  origin_kind: live-theorem-branch
-  label: RetainedFaceAmplitudeGain.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
-- origin_obligation_id: TerminalResidueAtomExclusion.A
-  origin_kind: live-theorem-branch
-  label: TerminalResidueAtomExclusion.A sharp branch target decomposed from source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
 - origin_obligation_id: source-wall-root-after-reconcile
@@ -433,8 +377,8 @@ candidate_archive:
   promoted_into_branch_pool: false
 selected_branch: *1
 summary:
-  candidate_count: 38
-  candidate_archive_count: 38
+  candidate_count: 27
+  candidate_archive_count: 27
   sandbox_mode: multi-path-sandbox
   active_branch_ids:
   - creative-branch-navier-stokes-1
