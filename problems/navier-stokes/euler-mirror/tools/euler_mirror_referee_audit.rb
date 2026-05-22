@@ -74,7 +74,10 @@ end
 
 all_files.each do |path|
   File.readlines(File.join(mirror_root, path), chomp: true).each_with_index do |line, index|
-    next if path == 'referee-audit-ledger.yaml' && line.strip.start_with?('pattern:')
+    if path == 'referee-audit-ledger.yaml'
+      stripped = line.strip
+      next if stripped.start_with?('pattern:', '- id: stale')
+    end
 
     stale_patterns.each do |id, regex|
       next unless line.match?(regex)
