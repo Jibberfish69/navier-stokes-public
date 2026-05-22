@@ -1,6 +1,6 @@
 # Euler Control-Functional Source Pack
 
-## Target Obligation
+## Terminal Classification
 
 - `bridge-control-functional`
 - `proof-dependency-2`
