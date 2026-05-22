@@ -61,7 +61,7 @@ So every branch must answer one of two questions:
 
 ```text
 Which CM face does this branch serve?
-Which licensed bridge moves it into Pack, Part, or Field witness face, Member landing, or endpoint?
+Which licensed bridge moves it into Pack, Part, or Field witness face, class-membership direction, or endpoint?
 ```
 
 If it answers neither, it is context, not proof spine.
