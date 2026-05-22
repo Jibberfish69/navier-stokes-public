@@ -2,14 +2,14 @@
 
 ## Target
 
-- target obligation: terminalcmnoexit-a-nogenuinecmexit-a
-- target label: TerminalCMNoExit.A / NoGenuineCMExit.A
+- target obligation: TerminalCMNoExit.A
+- target label: Create the sharp CM branch theorem TerminalCMNoExit.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Pack, Part, or Field.
 - route role: Use CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A to reduce NoGenuineCMExit to three positive survivor faces: Pack positive-scale/strain-integrability no-exit, Part tower/readout closedness no-exit, and licensed Field coherence no-exit after Part.
 - theorem family: generic-bridge-theorem
 
 ## Created Theorem
 
-TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A reduce NoGenuineCMExit to exactly three positive survivor faces: Pack no-exit, Part no-exit, and licensed Field no-exit.
+TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A reduce NoGenuineCMExit to exactly three positive survivor faces: TerminalPackStrainIntegrabilityNoExit.A, TerminalPartClosednessInputNoExit.A, and TerminalLicensedFieldCoherenceNoExit.A.
 
 ## Inventive Search
 
@@ -19,29 +19,29 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 - selected_mechanism: terminal_cm_no_exit_face_reduction
 - candidate_count: 4
 - solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: Use CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A to reduce NoGenuineCMExit to three positive survivor faces: Pack positive-scale/strain-integrability no-exit, Part tower/readout closedness no-exit, and licensed Field coherence no-exit after Part. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to TerminalCMNoExit.PositiveNoExitFaces.A rather than pretending the frontier is closed.
+- selection_reason: This theorem is the right next move because it changes the proof economy: Use CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A to reduce NoGenuineCMExit to three positive survivor faces: Pack positive-scale/strain-integrability no-exit, Part tower/readout closedness no-exit, and licensed Field coherence no-exit after Part. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to TerminalPackStrainIntegrabilityNoExit.A rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
-- TerminalCMNoExit.FaceReduction.A (terminal_cm_no_exit_face_reduction; score=142)
-- TerminalcmnoexitNogenuinecmexitContrapositiveExit.A (contrapositive_exit; score=60)
-- TerminalcmnoexitNogenuinecmexitCompactnessDefectRigidity.A (compactness_defect_rigidity; score=63)
-- TerminalcmnoexitNogenuinecmexitMonotoneBudget.A (monotone_budget; score=58)
+- TerminalCMNoExit.FaceReduction.A (terminal_cm_no_exit_face_reduction; score=162)
+- TerminalCMNoExit.A (contrapositive_exit; score=76)
+- TerminalCMNoExit.A (compactness_defect_rigidity; score=79)
+- TerminalCMNoExit.A (monotone_budget; score=78)
 
 ### Retrieved Ingredients
 
-- problems/navier-stokes/agent-contract.yaml:53 -- source ingredient
-- problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:55 -- source ingredient
-- problems/navier-stokes/agent-contract.yaml:56 -- source ingredient
-- problems/navier-stokes/agent-contract.yaml:101 -- source ingredient
-- problems/navier-stokes/agent-contract.yaml:144 -- retained-face amplitude support
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- source ingredient
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- residual control
+- problems/navier-stokes/theorem-packet.yaml -- retained-face amplitude support
+- problems/navier-stokes/agent-contract.yaml:58 -- source ingredient
 
 ### Recursive Solver Chain
 
 - terminal_verdict: open
-- reason: No internal solver mechanism is installed for TerminalCMNoExit.PositiveNoExitFaces.A.
-- depth 0: TerminalCMNoExit.FaceReduction.A via terminal_cm_no_exit_face_reduction -> TerminalCMNoExit.PositiveNoExitFaces.A
+- reason: No internal solver mechanism is installed for TerminalPackStrainIntegrabilityNoExit.A.
+- depth 0: TerminalCMNoExit.FaceReduction.A via terminal_cm_no_exit_face_reduction -> TerminalPackStrainIntegrabilityNoExit.A
 
 ## Allowed Inputs
 
@@ -49,12 +49,12 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 - AnyFiniteFailureWitnessCMExit.A
 - GenuineCMExit.Equiv.A
 - TerminalSourceResidueCMExit.A
-- Pack no-exit
-- Part no-exit
-- licensed Field no-exit
-- - problems/navier-stokes/live-theorem-edge.yaml
-- theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
-- - problems/navier-stokes/theorem-packet.yaml
+- TerminalPackStrainIntegrabilityNoExit.A
+- TerminalPartClosednessInputNoExit.A
+- TerminalLicensedFieldCoherenceNoExit.A
+- ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
+- WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
+- PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional field-integrability package, while End_NS, Field readout, and Member remain downstream consequences.
 - OFP.A. The collar source-pressure package CSP.A propagates the retained one-field package on the same-fluid interval, with CFI.A, endpoint readout, Field, and Member kept downstream.
 - CSP.A. On the retained same-fluid collar, LCI.A together with the installed post-LCI source ledger FCI.5f supplies the collar source-pressure package; OFP.A, CFI.A, endpoint readout, Field, and Member remain downstream consumers.
@@ -63,8 +63,8 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 ## Forbidden Imports
 
 - TerminalCMNoExit.FaceReduction.A
-- TerminalCMNoExit.A / NoGenuineCMExit.A
-- terminalcmnoexit-a-nogenuinecmexit-a
+- Create the sharp CM branch theorem TerminalCMNoExit.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Pack, Part, or Field.
+- TerminalCMNoExit.A
 - full-MPP closure
 - submission readiness
 - global smoothness
@@ -76,8 +76,8 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 3. Use GenuineCMExit.Equiv.A to read genuine terminal non-continuation as loss of every continuation-complete Pack/Part/Field packet.
 4. Use TerminalSourceResidueCMExit.A only as source-residue sorting into Pack/Part; do not treat anti-atom deletion or source absolute continuity as the Field face.
 5. Conclude that TerminalCMNoExit.A is exactly the conjunction of Pack no-exit, Part no-exit, and licensed Field no-exit; leave those analytic faces as the residual theorem.
-6. Use problems/navier-stokes/agent-contract.yaml:53 as source support for source ingredient.
-7. Use problems/navier-stokes/agent-contract.yaml:145 as source support for installed dynamic support.
+6. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
+7. Use problems/navier-stokes/theorem-packet.yaml as source support for source ingredient.
 
 ## Circularity Audit
 
@@ -89,7 +89,7 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 - verdict: new_subprimitive
 - certification_level: theorem-creation:new-subprimitive
 - rationale: The theorem has been reduced to a smaller noncircular primitive that is not currently installed.
-- next subprimitive: TerminalCMNoExit.PositiveNoExitFaces.A -- positive no-exit across Pack strain-integrability/positive-scale carrier, Part tower/readout closedness, and licensed Field coherence
+- next subprimitive: TerminalPackStrainIntegrabilityNoExit.A -- positive terminal carrier/scale survival from original smooth data, equivalently OriginalSmoothData implies ScaleCriticalTreeCarleson.A or an equivalent no-zero-scale-ancestry theorem
 
 ## Promotion Plan
 
