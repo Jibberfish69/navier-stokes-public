@@ -2,8 +2,30 @@
 
 Date: 2026-05-22
 
-Status: direct smoothness attempt; blocked at the native source / carrier
-supplier wall.
+Status: direct positive smoothness attempt; superseded for the live CM
+contrapositive target by
+`mpp-terminal-source-residue-cm-exit-20260522.md`.
+
+## 2026-05-22 Polarity Correction
+
+This note is not the live CM next target. It is a positive no-exit attempt.
+
+For the CM contrapositive route, the terminal source residue should not be
+deleted first. The live CM move is:
+
+```math
+\text{terminal source residue}
+\Longrightarrow
+\neg Pack_Q
+\vee
+\neg Part_{N,Q}
+\vee
+\forall r>0\,\neg Field_{N,r,Q}.
+```
+
+That theorem is installed as `TerminalSourceResidueCMExit.A`. Use this note only
+when explicitly switching to the separate positive smoothness/no-residue
+program.
 
 Theorem target:
 
