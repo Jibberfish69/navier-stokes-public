@@ -1,0 +1,106 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'set'
+require 'yaml'
+
+args = ARGV.dup
+list = args.delete('--list')
+mirror_root = File.expand_path(args.shift || File.join(__dir__, '..'))
+repo_root = File.expand_path(File.join(mirror_root, '..', '..', '..'))
+ledger_path = File.join(mirror_root, 'referee-audit-ledger.yaml')
+
+abort "missing ledger: #{ledger_path}" unless File.file?(ledger_path)
+
+ledger = YAML.safe_load(File.read(ledger_path), aliases: true)
+allowed = ledger.fetch('classification_vocabulary').map { |row| row.fetch('id') }.to_set
+rules = ledger.fetch('surface_rules')
+
+def rel_files(root)
+  Dir.chdir(root) do
+    Dir.glob('**/*')
+       .select { |path| File.file?(path) && path.match?(/\.(md|ya?ml|rb)\z/) }
+       .sort
+  end
+end
+
+errors = []
+warnings = []
+all_files = rel_files(mirror_root)
+covered = Hash.new { |hash, key| hash[key] = [] }
+
+rules.each do |rule|
+  rule.fetch('classifications').each do |classification|
+    errors << "unknown classification #{classification.inspect} in #{rule.fetch('id')}" unless allowed.include?(classification)
+  end
+
+  paths = []
+  paths.concat(rule.fetch('paths', []))
+  rule.fetch('globs', []).each do |pattern|
+    paths.concat(Dir.chdir(mirror_root) { Dir.glob(pattern).select { |path| File.file?(path) } })
+  end
+  paths.uniq.sort.each do |path|
+    if all_files.include?(path)
+      covered[path] << rule
+    else
+      errors << "rule #{rule.fetch('id')} references missing mirror file #{path}"
+    end
+  end
+end
+
+missing = all_files.reject { |path| covered.key?(path) }
+missing.each { |path| errors << "uncovered Euler-mirror surface #{path}" }
+
+ledger.fetch('authority_surfaces_requiring_readback').each do |path|
+  full_path = File.join(mirror_root, path)
+  unless File.file?(full_path)
+    errors << "required authority surface is missing: #{path}"
+    next
+  end
+  contents = File.read(full_path)
+  unless contents.include?('referee-audit-ledger.yaml')
+    errors << "authority surface #{path} does not read back referee-audit-ledger.yaml"
+  end
+end
+
+ledger.fetch('parent_comparison_anchors', []).each do |path|
+  full_path = File.join(repo_root, path.sub(%r{\A/}, ''))
+  errors << "missing parent comparison anchor #{path}" unless File.file?(full_path)
+end
+
+stale_patterns = ledger.fetch('stale_failure_patterns', []).map do |entry|
+  [entry.fetch('id'), Regexp.new(entry.fetch('pattern'), Regexp::IGNORECASE)]
+end
+
+all_files.each do |path|
+  File.readlines(File.join(mirror_root, path), chomp: true).each_with_index do |line, index|
+    next if path == 'referee-audit-ledger.yaml' && line.strip.start_with?('pattern:')
+
+    stale_patterns.each do |id, regex|
+      next unless line.match?(regex)
+
+      warnings << "#{path}:#{index + 1}: stale pattern #{id}: #{line.strip}"
+    end
+  end
+end
+
+if list
+  all_files.each do |path|
+    classifications = covered[path].flat_map { |rule| rule.fetch('classifications') }.uniq.sort
+    rule_ids = covered[path].map { |rule| rule.fetch('id') }.uniq.sort
+    puts "#{path}: #{classifications.join(', ')} [#{rule_ids.join(', ')}]"
+  end
+else
+  counts = Hash.new(0)
+  covered.each_value do |file_rules|
+    file_rules.flat_map { |rule| rule.fetch('classifications') }.uniq.each { |classification| counts[classification] += 1 }
+  end
+  puts "Euler mirror referee audit"
+  puts "mirror_root=#{mirror_root}"
+  puts "covered_surfaces=#{covered.length}/#{all_files.length}"
+  allowed.sort.each { |classification| puts "#{classification}=#{counts[classification]}" }
+end
+
+warnings.each { |warning| warn "WARN: #{warning}" }
+errors.each { |error| warn "ERROR: #{error}" }
+exit(errors.empty? ? 0 : 1)
