@@ -123,4 +123,4 @@ All of this remains branch-supplier work:
 ASAC.A\Rightarrow SOURCE.NO\text{-}PULSE.A\Rightarrow AWG.A\Rightarrow no\ Jump_{avg}\Rightarrow PCTP.hard/TTU.A.
 ```
 
-It does not by itself bridge into `Pack/Part/Field face or Member landing`. The CM contrapositive program still needs the witness-face integration bridge after the source-pulse branch is eliminated.
+It does not by itself bridge into `licensed Pack/Part/Field face`. The CM contrapositive program still needs the witness-face integration bridge after the source-pulse branch is eliminated.
