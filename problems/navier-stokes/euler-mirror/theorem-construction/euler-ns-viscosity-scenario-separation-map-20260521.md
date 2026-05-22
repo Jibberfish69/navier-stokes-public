@@ -39,6 +39,25 @@ Euler keeps transport, pressure Poisson response, flux-volume structure, and
 some fixed-cover bookkeeping. It does not keep those seven viscosity jobs unless
 a new Euler theorem proves a replacement.
 
+## Referee Case Matrix
+
+| case | verdict | proof/readback | NS control use |
+| --- | --- | --- | --- |
+| `ESM.S1` fixed-interval classical Euler | smooth by hypothesis | smoothness is assumed on the interval | fixed-`nu` NS comparison can use the same datum/interval, but does not create Euler smoothness |
+| `ESM.S2` fixed-thickness stationary shear layer | smooth by hypothesis | each positive-thickness layer is a smooth exact Euler solution | the zero-thickness limit is judged separately |
+| `ESM.C1` `ELCI.CP.A` envelopes | proved conditional | same-cover center, oscillation, and pressure-return envelopes give the L1 ledger | replaces `ACT.KX` / `ACT.X-TopVisc` / `2nu` only after those Euler envelopes are supplied |
+| `ESM.C2` positive-control / compactness / Route B | proved conditional | theorem order survives under explicit Euler controls | parent damping and parabolic pieces are not imported |
+| `ESM.N1` tangential slip / vortex sheet | nonsmooth control | pressure-compatible weak Euler member; not a one-field classical solution | NS must attack this through participation/viscous smoothing, not pressure alone |
+| `ESM.N2` stationary unbounded shear | false base implication | base `Member_E` holds, smoothness and the ELCI ledger fail | parent receiver success depends on absorption/readout machinery absent from Euler |
+| `ESM.N3` zero-thickness smooth-layer limit | nonsmooth control | smooth layers converge to a nonsmooth Euler member | topology/limit closure does not preserve one-field smoothness |
+| `ESM.N4` same-datum nonclassical weak branch | nonsmooth control | nonclassical branch is separated from the classical smooth branch | fixed-`nu` transfer cannot identify weak-branch behavior with classical NS smoothness |
+| `ESM.N5` boundary/axisymmetric blowup comparison | nonsmooth control | domain-sensitive singularity evidence | not the no-boundary finite-energy Euler case |
+| `ESM.V1` `ACT.KX` scheduler | non-Euler import | `c_nu N` and first-exit absorption do proof labor | no Euler term replaces that scheduler |
+| `ESM.V2` `2nu` / top-viscous receiver | non-Euler import | lower-collar sink and top-viscous ledgers do proof labor | Euler replacement is only the explicit conditional `ELCI.CP.A` split |
+| `ESM.V3` `nu D_N` dyadic damping | non-Euler import | high-frequency return comes from viscous coercivity | Euler keeps dyadic bookkeeping without damping |
+| `ESM.V4` heat/Stokes/static diffusion | non-Euler import | parabolic observability and semigroups do proof labor | removed at `nu=0` |
+| `ESM.V5` selector/export viscous consumers | non-Euler import | pair-defect diffusion and low-mode viscous scale do proof labor | transport/readout geometry survives only as conditional/provenance support |
+
 ## Case Class A: Euler Meets NS And Is Smooth / Regularity-Conditional
 
 | case | Euler status | NS contact point | what survives | authority |
@@ -49,7 +68,7 @@ a new Euler theorem proves a replacement.
 | A4. `ELCI.A` after a ledger is supplied | closed conditional receiver theorem | parent `LCI.A` receiver shape | moving cover, transported centers, oscillation, pressure ledger under explicit Euler control envelopes | [ELCI.A](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md), [direct attempt](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-a-direct-transport-pressure-attempt-20260519.md), [ELCI.CP.A closure](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md) |
 | A5. Positive-control Euler packet | conditional regularity program | scale/control/compactness/Route B scaffold | theorem order, compactness shape, dyadic bookkeeping | [positive-control program](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/positive-control-euler-program.md), [Route B mirror](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md) |
 | A6. Transport selector/readout interfaces | regularity support only | selector / export families | packet geometry, pair-defect transport, readout alignment | [selector walkdown](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/selector-geometry-euler-walkdown-program.md), [export walkdown](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/export-whole-space-euler-walkdown-program.md) |
-| A7. Compactness on one fixed Euler family | conditional on earned Euler controls | parent compactness architecture | strong-enough convergence and tensor closure can survive in shape | [integrated Euler program](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md), [branch audit index](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/branch-audit-index.yaml) |
+| A7. Compactness on one fixed Euler family | conditional on explicit Euler controls | parent compactness architecture | strong-enough convergence and tensor closure can survive in shape | [integrated Euler program](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md), [branch audit index](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/branch-audit-index.yaml) |
 
 Readback: these rows are not automatic Euler smoothness. They are places where
 smoothness is assumed, conditional, or an explicitly chosen regularity layer.
