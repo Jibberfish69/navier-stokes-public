@@ -55,8 +55,8 @@ blockers:
 - Submission export status changed after the current review verdict was written.
 - B_ASAC terminal zero-thickness CM target is closed; terminal release still requires
   a separate full-package release audit
-- ParaproductNativeSourceCapture.A is the one exact remaining CM-facing public-critical
-  burden after terminal Zeno Pack-side closure
+- ParaproductNativeSourceCapture.A is installed for the nonlinear Duhamel half;
+  terminal release still needs the separate full-package/public-critical audit
 - Submission export is not a clean typeset export yet.
 summary:
   queue_effect: blocked
