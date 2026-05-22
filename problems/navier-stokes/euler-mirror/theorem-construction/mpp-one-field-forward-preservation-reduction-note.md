@@ -63,7 +63,7 @@ force neighboring packets into a single coherent field. The estimates must come
 from transport, pressure, vorticity structure, or a separate Euler control
 functional.
 
-## Source And Receiver Burdens
+## Source And Receiver Classification
 
 The old successor pair can survive only as a regularity-support pair:
 
@@ -76,9 +76,10 @@ ELCI.A.
 \tag{EOFR.3}
 ```
 
-The first term is a source-only transport/pressure ledger. The second is a
-candidate receiver theorem. Neither one is allowed to reintroduce viscous
-participation or call itself membership.
+The first term is a source-only transport/pressure ledger. The second is closed
+by the branch-local `ELCI.CP.A-Separation` split: conditional under explicit
+Euler envelopes and false from base `Member_E`. Neither one is allowed to
+reintroduce viscous participation or call itself membership.
 
 ## Parent Chain Boundary
 
