@@ -1,8 +1,8 @@
 # Euler Nonlinear Closure Source Pack
 
-## Target Obligation
+## Terminal Classification
 
-- `debt-frontier-nonlinear-tensor-closure-on-the-euler-equation`
+- `proved-conditional-nonlinear-tensor-closure-on-the-euler-equation`
 
 ## Exact Nonlinear Limit Statement
 
@@ -39,4 +39,3 @@ nonlinear closure job once that input is earned on the Euler surface.
 
 - [compactness-discharge-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/compactness-discharge-source-pack.md)
 - [theorem-construction/route-b-euler-closure-theorem.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md)
-
