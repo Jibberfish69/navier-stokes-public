@@ -1,9 +1,9 @@
 # Euler Closure Audit Source Pack
 
-## Target Obligations
+## Terminal Classifications
 
-- `debt-frontier-no-hidden-viscous-or-parabolic-work-is-doing-essential-labor`
-- `debt-frontier-euler-closure-under-same-surface-bridge-discharge-implies-global-smoothness`
+- `terminal-no-hidden-viscous-or-parabolic-work-is-doing-essential-labor`
+- `conditional-euler-closure-under-same-surface-bridge-discharge`
 
 ## Exact Audit Rule
 
@@ -25,7 +25,7 @@ may rely only on:
 4. hidden stronger data classes;
 5. heuristic decay or cascade language promoted to theorem status.
 
-## Closure Interface
+## Conditional Closure Interface
 
 The Euler closure interface is conditional on same-surface discharge of:
 
@@ -34,8 +34,9 @@ The Euler closure interface is conditional on same-surface discharge of:
 3. Euler compactness / nonlinear closure;
 4. Euler continuation bridge.
 
-Only after those are on one common Euler surface may the branch assert a
-theorem-facing closure statement.
+Under those added controls on one common Euler surface, the branch has a
+conditional closure statement. From base `Member_E` alone, the implication is
+false.
 
 ## Local Anchors
 
