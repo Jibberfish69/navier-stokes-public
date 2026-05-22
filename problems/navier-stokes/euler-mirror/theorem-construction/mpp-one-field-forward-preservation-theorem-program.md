@@ -64,7 +64,7 @@ The old packet/coherence spine may still be a useful regularity mechanism:
 3. localized defect propagation, without viscous absorption;
 4. conversion from defect control to a positive coherence modulus.
 
-At that level the live regularity question is:
+At that level the external regularity question is:
 
 ```math
 \boxed{
