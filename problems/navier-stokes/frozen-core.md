@@ -28,6 +28,8 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Source Surfaces
 
+- `problems/navier-stokes/exploration-graph.yaml`
+- `problems/navier-stokes/layered-route-graph.yaml`
 - `problems/navier-stokes/claim-ladder.md`
 - `problems/navier-stokes/formalization-ledger.md`
 - `problems/navier-stokes/debt-map.yaml`
