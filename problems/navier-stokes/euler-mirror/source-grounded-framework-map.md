@@ -109,8 +109,8 @@ Euler mirror reading:
 - forbid hidden theorem labor from viscous smoothing or modified-equation
   approximants.
 
-This is the cleanest part of the positive route to transplant, provided the
-Euler mirror earns its uniform control inputs on the same approximation family.
+This is the cleanest part of the positive route to transplant, provided explicit
+Euler control inputs are supplied on the same approximation family.
 
 ### 4. Continuation / Regularity Bridge
 
@@ -138,7 +138,8 @@ surface, while the parent dissipative bridge is a non-Euler import.
 
 These remain synthesis anchors only. They may sharpen the language around
 feedback, obstruction, carrier, and route posture, but they do not replace the
-direct source-grounded body jobs or erase the missing Euler replacements.
+direct source-grounded body jobs or erase the terminal conditional/non-Euler
+classifications.
 
 ## Correction Rule For The Branch
 
