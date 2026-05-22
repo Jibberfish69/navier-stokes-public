@@ -20,6 +20,18 @@ TerminalAdjointResponseNativeEdgeAnchoring_{L3}.A.
 This remains a CM witness-capture burden. It does not reopen the closed
 `B_ASAC^closed` terminal target.
 
+Follow-up direct testing in
+`mpp-l3-adjoint-native-orthogonal-no-carry-direct-attempt-20260522.md` shows the
+exact unproved component inside this anchoring gate:
+
+```math
+L3AdjointNativeOrthogonalNoCarry.A.
+```
+
+The heat-Leray response pairing splits into native edge, high-high/source-wall,
+legal loss, and a response-visible native-orthogonal carrier. The first three
+pieces are already classified. The orthogonal carrier is the remaining gap.
+
 ## Target
 
 `L3DuhamelResponseWorkLocalization.A` produces a lower bound of the form
