@@ -2,12 +2,12 @@
 version: 1
 branch_id: euler-mirror-chat20
 artifact_id: methodology-aim-walkdown-status
-updated_on: '2026-04-23'
+updated_on: '2026-05-22'
 completion_meaning: >-
   This surface tracks the primary Euler working contract: isolate each serious
   Navier-Stokes proof road into methodology and aim, then walk Euler down that
   same road honestly. Raw file counts are secondary evidence only.
-theorem_claim_status: open
+theorem_claim_status: terminal-no-live-burdens
 route_units:
   contradiction_class_membership:
     aim_extraction: completed
@@ -34,7 +34,7 @@ route_units:
       - problems/navier-stokes/live-theorem-edge.md
   exact_potential_parabolic:
     aim_extraction: completed
-    euler_walkdown: blocked_at_entry
+    euler_walkdown: terminal_non_euler_import
     exact_breakpoint_recording: completed
     evidence:
       - problems/navier-stokes/euler-mirror/theorem-construction/exact-potential-euler-entry-obstruction-note.md
@@ -121,5 +121,6 @@ honest_verdict: >-
   membership ontology repair: the branch now starts from Member_E = EVol + EMom,
   treats Part/Field/flow-map language as optional regularity support, and keeps
   each serious Navier-Stokes proof road only as comparison authority unless it
-  has an Euler-native replacement. The Euler regularity theorem itself remains
-  open.
+  has an Euler-native replacement. After terminal closure, no proof road remains
+  as a live Euler-mirror burden: it is proved conditional, false from base
+  membership, or a non-Euler import.
