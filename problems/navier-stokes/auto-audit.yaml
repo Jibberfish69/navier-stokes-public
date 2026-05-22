@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-22T20:44:21Z'
+  audited_at: '2026-05-22T20:55:44Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -44,18 +44,18 @@ downstream_overlay_drift:
   stale_overlays:
   - artifact: theorem_packet
     path: problems/navier-stokes/theorem-packet.yaml
-    sha1: 1c8ca4ce7a836c97fdfe3ed84f6ec76422e08597
+    sha1: 42fa0579c58826e3d4a3b83798de51100d56d41c
     matched_terms:
     - theorem-upgrade
   - artifact: review_verdict
     path: problems/navier-stokes/review-verdict.yaml
-    sha1: ca5dd323990d6494a0dcd97ad8ed7fc944c57623
+    sha1: 92ed9350f8c112ab48ac1c02989c18628d98eaf5
     matched_terms:
     - theorem-upgrade
     - 'explicit_nonterminal_overlay: true'
   - artifact: release_decision
     path: problems/navier-stokes/release-decision.yaml
-    sha1: c86485b1f7248a9883a8124a32240d0d6d5cc526
+    sha1: 9c86858216ab32fb3102e2cbddfad7caaf561e55
     matched_terms:
     - theorem-upgrade
   recommended_repair: regenerate-derived-theorem-chain
@@ -166,6 +166,8 @@ surface_snapshot:
         Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium
         Prize Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discrete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_Global_Smoothness.tex"
       local_theorem_construction_surfaces:
+      - problems/navier-stokes/exploration-graph.yaml
+      - problems/navier-stokes/layered-route-graph.yaml
       - problems/navier-stokes/claim-ladder.md
       - problems/navier-stokes/formalization-ledger.md
       - problems/navier-stokes/debt-map.yaml
