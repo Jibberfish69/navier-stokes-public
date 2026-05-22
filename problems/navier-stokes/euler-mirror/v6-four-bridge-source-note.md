@@ -28,4 +28,5 @@ V6 remains synthesis only.
 ## V6 Use Rule
 
 V6 may sharpen feedback or obstruction language, but it must not silently
-replace the direct theorem jobs or erase missing Euler replacements.
+replace the direct theorem jobs or erase terminal conditional/non-Euler
+classifications.
