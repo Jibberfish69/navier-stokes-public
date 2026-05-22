@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-05-22T20:44:06Z'
+  generated_at: '2026-05-22T21:12:04Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -122,6 +122,8 @@ theorem_surface:
       Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium
       Prize Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discrete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_Global_Smoothness.tex"
     local_theorem_construction_surfaces:
+    - problems/navier-stokes/exploration-graph.yaml
+    - problems/navier-stokes/layered-route-graph.yaml
     - problems/navier-stokes/claim-ladder.md
     - problems/navier-stokes/formalization-ledger.md
     - problems/navier-stokes/debt-map.yaml
