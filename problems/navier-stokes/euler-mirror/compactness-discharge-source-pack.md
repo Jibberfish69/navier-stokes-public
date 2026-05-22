@@ -1,9 +1,9 @@
 # Euler Compactness Discharge Source Pack
 
-## Frontier Target
+## Terminal Classification
 
-Discharge the compactness / nonlinear-closure bridge on one fixed Euler
-approximation family:
+The compactness / nonlinear-closure bridge is a proved conditional surface on
+one fixed Euler approximation family:
 
 1. strong local compactness of the approximation family;
 2. convergence of the nonlinear tensor to the exact Euler limit tensor.
