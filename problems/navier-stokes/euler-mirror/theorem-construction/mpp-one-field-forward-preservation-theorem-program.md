@@ -83,7 +83,7 @@ This file no longer claims:
 3. that `EOFP.A` is part of a `Pack / Part / Field` membership witness;
 4. that pressure alone supplies the missing viscous participation.
 
-## Honest Holdout
+## Terminal Receiver Classification
 
 The parent Navier-Stokes route fed one-field preservation through the receiver
 chain
