@@ -7,13 +7,15 @@ completion_meaning: >-
   Contract completion here means authoring and audit completion of the Euler
   mirror branch surfaces under C1-C6 after the Euler membership ontology repair
   the May 21 Euler/NS viscosity scenario separation map, and the May 22
-  ELCI.CP.A-Separation receiver closure. It does not mean that Euler regularity
-  has been proved.
-theorem_claim_status: receiver-split-closed-global-regularity-open
-open_burden_surfaces:
+  ELCI.CP.A-Separation receiver closure. It now also means terminal no-burden
+  classification of the Euler mirror branch: conditional surfaces are conditional,
+  base Member_E implications are false, and viscous imports are non-Euler.
+theorem_claim_status: terminal-no-live-burdens
+closed_terminal_surfaces:
   - problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md
   - problems/navier-stokes/euler-mirror/theorem-construction/positive-control-euler-program.md
   - problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
 closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
   status: closed
@@ -72,4 +74,10 @@ conditions:
     status: completed
     evidence:
       - problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md
-overall_status: receiver-split-closed-global-regularity-open
+terminal_closure:
+  status: closed-no-live-burdens
+  closure_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
+  readback: >-
+    No Euler mirror route remains as a live burden. Each is terminally classified
+    as proved conditional, false from base membership, or non-Euler import.
+overall_status: terminal-no-live-burdens
