@@ -54,7 +54,7 @@ ELCI.A.
 \tag{ECP.1}
 ```
 
-So the only remaining work is to decide when `(ECP.0)` is actually `L^1`.
+So the work in this note is to decide when `(ECP.0)` is actually `L^1`.
 
 ## Theorem 1: Regularity-Conditional Ledger Closure
 
