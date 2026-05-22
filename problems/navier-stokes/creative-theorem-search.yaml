@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-05-22T22:14:55Z'
+  generated_at: '2026-05-22T22:20:32Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -330,14 +330,9 @@ candidate_archive:
     source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
-- origin_obligation_id: PastWindowReserveSeparation.A
+- origin_obligation_id: AdjointReserveNoFreeCreation.A
   origin_kind: live-theorem-branch
-  label: PastWindowReserveSeparation.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
-- origin_obligation_id: ParentSquareEmbed.A
-  origin_kind: live-theorem-branch
-  label: ParentSquareEmbed.A sharp branch target decomposed from source-wall-root-after-reconcile
+  label: AdjointReserveNoFreeCreation.A sharp branch target decomposed from source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
 - origin_obligation_id: WeightedAdjRes.A
@@ -345,9 +340,34 @@ candidate_archive:
   label: WeightedAdjRes.A sharp branch target decomposed from source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
+- origin_obligation_id: ReserveCreationCharge.A
+  origin_kind: live-theorem-branch
+  label: ReserveCreationCharge.A sharp branch target decomposed from source-wall-root-after-reconcile
+  status: frontier-open
+  promoted_into_branch_pool: false
+- origin_obligation_id: ParentSquareEmbed.A
+  origin_kind: live-theorem-branch
+  label: ParentSquareEmbed.A sharp branch target decomposed from source-wall-root-after-reconcile
+  status: frontier-open
+  promoted_into_branch_pool: false
 - origin_obligation_id: SquareReserveEvolution.A
   origin_kind: live-theorem-branch
   label: SquareReserveEvolution.A sharp branch target decomposed from source-wall-root-after-reconcile
+  status: frontier-open
+  promoted_into_branch_pool: false
+- origin_obligation_id: AdjointTailSmallness.A
+  origin_kind: live-theorem-branch
+  label: AdjointTailSmallness.A sharp branch target decomposed from source-wall-root-after-reconcile
+  status: frontier-open
+  promoted_into_branch_pool: false
+- origin_obligation_id: PastWindowReserveSeparation.A
+  origin_kind: live-theorem-branch
+  label: PastWindowReserveSeparation.A sharp branch target decomposed from source-wall-root-after-reconcile
+  status: frontier-open
+  promoted_into_branch_pool: false
+- origin_obligation_id: FirstPulseKill.A
+  origin_kind: live-theorem-branch
+  label: FirstPulseKill.A sharp branch target decomposed from source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
 - origin_obligation_id: PastWindowShadowCompleteness.A
@@ -360,11 +380,6 @@ candidate_archive:
   label: ChargeLedgerInjection.A sharp branch target decomposed from source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
-- origin_obligation_id: FirstPulseKill.A
-  origin_kind: live-theorem-branch
-  label: FirstPulseKill.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
 - origin_obligation_id: TerminalReserveFirstAppearanceCharge.A
   origin_kind: live-theorem-branch
   label: TerminalReserveFirstAppearanceCharge.A sharp branch target decomposed from
@@ -374,11 +389,6 @@ candidate_archive:
 - origin_obligation_id: AllNonEulerNSSurfaceFaceSweep.A
   origin_kind: live-theorem-branch
   label: AllNonEulerNSSurfaceFaceSweep.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
-- origin_obligation_id: ReserveCreationCharge.A
-  origin_kind: live-theorem-branch
-  label: ReserveCreationCharge.A sharp branch target decomposed from source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
 - origin_obligation_id: DonorHeightCreation.A
@@ -413,8 +423,8 @@ candidate_archive:
   promoted_into_branch_pool: false
 selected_branch: *1
 summary:
-  candidate_count: 34
-  candidate_archive_count: 34
+  candidate_count: 36
+  candidate_archive_count: 36
   sandbox_mode: multi-path-sandbox
   active_branch_ids:
   - creative-branch-navier-stokes-1
