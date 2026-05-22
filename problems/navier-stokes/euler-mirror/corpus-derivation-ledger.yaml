@@ -148,13 +148,13 @@ entries:
   - path: gradient-discharge-source-pack.md
     family: positive-control
     role: continuation and gradient pack
-    derivation_class: parent-role-euler-mirror-with-open-continuation-gap
+    derivation_class: parent-role-euler-mirror-terminal-conditional-continuation
     audit_verdict: affirmed-no-change-needed
     refinement_verdict: retained-as-accurate
   - path: gradient-transfer-coercivity-source-pack.md
     family: positive-control
     role: local continuation packet pack
-    derivation_class: parent-role-euler-mirror-with-open-continuation-gap
+    derivation_class: parent-role-euler-mirror-terminal-conditional-continuation
     audit_verdict: affirmed-no-change-needed
     refinement_verdict: retained-as-accurate
   - path: interdependencies-discharge-source-pack.md
@@ -222,7 +222,7 @@ entries:
     role: class-membership frontier packet
     derivation_class: parent-role-euler-mirror
     audit_verdict: refined-this-pass
-    refinement_verdict: holdout-language-narrowed-to-elci
+    refinement_verdict: receiver-language-classified-to-elci
   - path: theorem-construction/integrated-euler-closure-program.md
     family: integrated
     role: branch-local integrated closure surface
@@ -286,7 +286,7 @@ entries:
   - path: theorem-construction/route-b-euler-closure-theorem.md
     family: positive-control
     role: Route B theorem-facing mirror
-    derivation_class: parent-role-euler-mirror-with-open-continuation-gap
+    derivation_class: parent-role-euler-mirror-terminal-conditional-continuation
     audit_verdict: affirmed-no-change-needed
     refinement_verdict: retained-as-accurate
   - path: v6-four-bridge-source-note.md
