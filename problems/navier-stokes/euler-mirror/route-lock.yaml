@@ -50,7 +50,7 @@ governing_object_law:
   - Euler pressure-participation vocabulary only as incompressibility/normal-flux compatibility
   - Lagrangian carrier when velocity regularity supplies a flow map
   - positive-scale field coherence when proved as an Euler regularity theorem
-  - continuation/compactness controls earned on the Euler equation itself
+  - continuation/compactness controls only as explicit added hypotheses or new external theorem programs
   endpoint_reading:
     dead: legacy NS participation-side readout; on Euler it is a live stronger-carrier failure mode, not contradiction of pressure incompressibility
     blown: legacy smooth-flow or Lagrangian-carrier failure readout; not base Euler membership failure
@@ -68,8 +68,8 @@ equation_fidelity:
   explicit_holdout_rule: >-
     Any proof step whose current statement uses viscosity, dissipation,
     diffusion, heat observability, Stokes structure, Lagrangian smooth-flow
-    charts, viscous participation, or one-field coherence must either be
-    retyped as an optional Euler regularity theorem or left marked as a holdout.
+    charts, viscous participation, or one-field coherence must be terminally
+    classified as proved conditional, false from base membership, or non-Euler import.
 object_law_route_lock_sentence: >-
   The Euler mirror is governed by Euler-native membership:
   Member_E(Q)=EVol_Q(u) and EMom_Q(u,p). The mirror may compare itself to the
@@ -79,16 +79,16 @@ object_law_route_lock_sentence: >-
 mirror_theorem_queue:
 - keep the source-locked contradiction note written literally with the Euler weak equation and flux-volume membership
 - use the smooth shear-layer bridge as a singular-limit route to the slip-sheet witness, not as fixed-datum blow-up
-- keep fixed-datum classical blowup split by domain: boundary/axisymmetric known externally, no-boundary smooth finite-energy still open
+- keep fixed-datum classical blowup split by domain: boundary/axisymmetric known externally, no-boundary smooth finite-energy outside this terminal mirror branch
 - use Euler as a control case for the NS attack map: slip/vortex-sheet targets Field/Jump first, Dead and Blown only through their typed rows/cross-entries
 - treat old `CFI.A` as a regularity-forward-invariance candidate, not base membership preservation
 - treat old `OFP.A` as an optional one-field regularity theorem, not a membership theorem
 - classify the parent receiver chain `RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` as comparison authority only
 - classify the expanded `ACT.KX` cells `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX` as non-importable NS receiver machinery
-- rebuild any Euler smoothness claim as a regularity upgrade from Member_E plus earned Euler controls
+- classify any Euler smoothness claim as conditional unless an independent external theorem proves the controls
 - only after the Euler membership layer is honest may downstream exact-potential, Hodge, selector, or Euclidean export branches be mirrored
 holistic_scenario_separation_lock:
-  status: active
+  status: terminal
   authority_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
   governing_readback: >-
     The Euler mirror now separates every repo-visible Euler/NS contact point into
@@ -101,7 +101,8 @@ holistic_scenario_separation_lock:
   readback_sentence: >-
     Euler meets NS smoothly only under stated classical or regularity hypotheses;
     Euler also meets NS through base Member_E nonsmooth slip/jump/defect scenarios.
-    The branch must split those cases before using any comparison theorem.
+    The branch has split those cases; comparison packets now classify as proved
+    conditional, false from base membership, or non-Euler imports.
 closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
   status: closed
@@ -138,14 +139,14 @@ closed_receiver_theorem_target:
     ELCI.CP.A-Separation is closed: the receiver ledger is proved only under
     explicit Euler regularity/control envelopes, and base Member_E is shown not
     to force that ledger, without ACT.KX / ACT.X-TopVisc / 2nu absorption.
-remaining_global_regularity_burden:
-  status: open
-  target_id: Euler-Control-Continuation-Envelope
-  scope: >-
-    This is a separate global Euler regularity burden, not a receiver-ledger
-    debt. Any future route must prove an Euler-native scale/control/compactness
-    or continuation envelope strong enough to imply the conditions cited in the
-    closed ELCI.CP.A-Separation theorem.
+terminal_branch_closure:
+  status: closed-no-live-burdens
+  closure_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
+  readback: >-
+    The Euler mirror carries no remaining live branch burden. Conditional
+    regularity surfaces are closed as conditional; base Member_E implications to
+    regularity or the receiver ledger are false; Navier-Stokes viscous imports are
+    closed as non-Euler.
 current_receiver_and_holdout_surfaces:
   branch_local_receiver_slot:
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
