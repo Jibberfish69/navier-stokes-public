@@ -1,12 +1,12 @@
 # Euler Scale High-Side Remainder Source Pack
 
-## Target Obligation
+## Terminal Classification
 
-- `debt-euler-genuine-high-side-transport-packet-after-low-mode-and-spill-reductions`
+- `conditional-interface-euler-genuine-high-side-transport-packet-after-low-mode-and-spill-reductions`
 
 ## Exact Packet
 
-After the strict low-mode and spill reductions, the unresolved scale-side
+After the strict low-mode and spill reductions, the conditional scale-side
 packet is
 
 ```math
@@ -21,9 +21,9 @@ packet is
 \right|.
 ```
 
-## Exact Bound Needed
+## Conditional Bound
 
-The Euler local packet is discharged once one proves
+The Euler local packet is discharged under the added assumption
 
 ```math
 \mathfrak H_N^{scale,E}[u](t)
