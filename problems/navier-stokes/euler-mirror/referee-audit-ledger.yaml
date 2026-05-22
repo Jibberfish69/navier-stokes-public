@@ -171,6 +171,11 @@ authority_surfaces_requiring_readback:
   - completion-status.yaml
   - branch-manifest.yaml
   - theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
+authority_surfaces_requiring_case_matrix_readback:
+  - README.md
+  - campaign-map.md
+  - route-lock.yaml
+  - execution-ledger.yaml
 parent_comparison_anchors:
   - problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
   - problems/navier-stokes/theorem-construction/mpp-retained-window-native-forcing-theorem-program.md
