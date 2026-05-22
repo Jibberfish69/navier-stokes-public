@@ -4,14 +4,14 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-22T20:37:47Z'
+  audited_at: '2026-05-22T20:39:11Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
-  current_package_status: basac-closed-public-critical-paraproduct-open
-  standalone_status: basac-closed-public-critical-paraproduct-open
+  current_package_status: basac-terminal-zero-thickness-cm-target-closed
+  standalone_status: basac-terminal-zero-thickness-cm-target-closed
   completion_tier_achieved: paper-complete-theorem-open
   review_verdict: revise
-  theorem_packet_status: basac-closed-public-critical-paraproduct-open
+  theorem_packet_status: basac-terminal-zero-thickness-cm-target-closed
 audit_certification:
   audit_status: audited-needs-fix
   audit_completion_tier: audited-paper-complete-theorem-open
@@ -43,7 +43,7 @@ downstream_overlay_drift: &1
   authority_surfaces:
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: 369bb8d9ac086b611bacd0b2228fa49444919d59
+    sha1: e5b3e54791b7d699f2dbc9a838457c405964d31a
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -56,7 +56,7 @@ downstream_overlay_drift: &1
     - 'all_discharged: true'
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
-    sha1: 4dd71dc9c3891f2704c49b92861fab3329dc4508
+    sha1: 877a328ab4523fd620d7fdd56fd6bbfdc7543921
     matched_terms:
     - direct-live-surfaces
     - authority_gate_mode
@@ -70,13 +70,13 @@ downstream_overlay_drift: &1
   stale_overlays:
   - artifact: review_verdict
     path: problems/navier-stokes/review-verdict.yaml
-    sha1: f8679085836ddd593090aa7a14fa883b40d6f0be
+    sha1: f6e7a3819332e102242351096ceffc593fd0f9a2
     matched_terms:
     - theorem-upgrade
     - 'explicit_nonterminal_overlay: true'
   - artifact: release_decision
     path: problems/navier-stokes/release-decision.yaml
-    sha1: 24b6b9b94340070ab6893e7273f7878f1cdd49d7
+    sha1: 44a87648bdf27085232f189339fb9832e35c374c
     matched_terms:
     - theorem-upgrade
   recommended_repair: refresh-review-verdict
