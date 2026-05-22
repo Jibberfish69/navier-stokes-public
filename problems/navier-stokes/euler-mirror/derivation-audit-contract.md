@@ -80,7 +80,7 @@ All contradiction / class-membership theorem surfaces are checked for:
 1. theorem-order fidelity;
 2. accurate current-branch posture;
 3. no stale first-wave language unless used historically and explicitly;
-4. honest statement of the remaining Euler burdens.
+4. honest terminal classification of Euler route claims.
 
 ### A5. Audit Families Revalidated
 
@@ -103,4 +103,3 @@ completion status.
 
 It is complete only when the entire Euler mirror corpus has been re-audited
 under the stricter derivation-fidelity standard above.
-
