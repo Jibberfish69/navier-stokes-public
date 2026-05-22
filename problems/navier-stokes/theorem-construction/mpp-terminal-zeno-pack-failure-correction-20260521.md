@@ -31,7 +31,7 @@ Endpoint source or jump language is allowed only as downstream readout after
 CM exit, or under an additional positive-scale retained-carrier theorem. It must
 not be used to treat the terminal residue itself as a legal retained CM packet.
 
-## Open Work
+## Upstream Work
 
 The open Zeno work is upstream source-accounting only:
 
@@ -39,6 +39,10 @@ The open Zeno work is upstream source-accounting only:
 legal finite ancestry must pay reserve, dissipate, receive flux,
 or hit CM exit before a terminal zero-radius residue appears.
 ```
+
+The positive-radius retained tail is handled by
+`NoPersistentUnpaidPositiveRadiusAncestry.A`: a positive terminal carrier must
+pay, receive flux, leave through a legal ledger, or hit a finite CM face.
 
 The terminal zero-radius object is already illegal inside CM packet legality.
 The forward PRD supplier still needs a new-production theorem excluding this
