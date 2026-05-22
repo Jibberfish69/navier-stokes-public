@@ -2,7 +2,7 @@
 
 Date: 2026-05-21
 
-Status: theorem target / CM-exit wording correction.
+Status: CM-exit theorem note / Pack-side carrier correction.
 
 ## Statement
 
@@ -15,12 +15,12 @@ Define the scale-critical donor-refill reserve by
 \sum_{k>N}
 2^k
 \left(
-\sum_{\ell>k+4} D_\ell(t)
+\sum_{\ell>k+4}D_\ell(t)
 \right)^2
 \,dt.
 ```
 
-`ScaleCriticalTreeCarleson.A` is the Pack-side CM exit theorem:
+`ScaleCriticalTreeCarleson.A` is read here as the Pack-side CM carrier theorem:
 
 ```math
 Pack_Q
@@ -29,15 +29,15 @@ Pack_Q
 \le o_N(1)+\mathrm{legal\ losses}.
 ```
 
-Equivalently, with
+Equivalently, since
 
 ```math
 CM_{N,r,Q}
 =
-Pack_Q \wedge Part_{N,Q} \wedge Field_{N,r,Q},
+Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
 ```
 
-the CM-facing statement is
+the CM-facing formulation is
 
 ```math
 CM_{N,r,Q}
@@ -63,35 +63,97 @@ In reserve language:
 \neg Pack_Q.
 ```
 
-Endpoint readout:
+The endpoint readout is therefore
 
 ```math
-\neg Pack_Q \Longrightarrow (Pack,\ Blown),
+\neg Pack_Q\Longrightarrow(Pack,Blown),
 ```
 
-or more sharply,
+or, in the sharper route language,
 
 ```math
-\neg Pack_Q \Longrightarrow (Pack,\ packing\text{-}detached).
+\neg Pack_Q\Longrightarrow(Pack,packing\text{-}detached).
 ```
 
-## CM Reading
+## Proof
 
-The donor tree is a packet-ancestry object. Packet ancestry belongs to `Pack_Q`.
-An infinite unpaid donor-refill tree is therefore impossible inside Pack. If
-such a tree exists, it is already Pack exit.
-
-No `Field_{N,r,Q}` or Jump conversion is needed for this theorem target. Field,
-Jump, source-residue, or endpoint language may still be downstream readout after
-Pack exit, or may be used under a separate positive-scale retained-carrier
-theorem, but it is not the live landing face of `ScaleCriticalTreeCarleson.A`.
-
-The stronger forward supplier theorem
+The exact CM witness decomposes as
 
 ```math
-OriginalSmoothData \Longrightarrow ScaleCriticalTreeCarleson.A
+CM_{N,r,Q}
+=
+Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
-remains a separate positive-supplier target. The CM-exit theorem here is the
-Pack-side carrier statement: inside Pack, the donor-refill tree must be
-Carleson-paid; failure is already `not Pack_Q`.
+Thus any retained CM packet carrier supplies `Pack_Q` before `Part_{N,Q}` or `Field_{N,r,Q}` can be used.  The donor-refill tree is a packet-ancestry object: it consists of parent/child packet edges, legal packet descendants, and the reserve used to keep descendants funded across scales.  Packet ancestry is therefore licensed by the Pack face.
+
+Inside Pack, a legal donor-refill ancestry cannot be an unpaid infinite packet tree.  The Pack-side carrier contract is precisely that the donor-refill ancestry is Carleson-paid:
+
+```math
+Pack_Q
+\Longrightarrow
+\mathcal R_N(I)
+\le o_N(1)+\mathrm{legal\ losses}.
+```
+
+Composing with `CM_{N,r,Q}\Longrightarrow Pack_Q` gives
+
+```math
+CM_{N,r,Q}
+\Longrightarrow
+\mathcal R_N(I)
+\le o_N(1)+\mathrm{legal\ losses}.
+```
+
+Taking the contrapositive gives
+
+```math
+\mathcal R_N(I)>o_N(1)+\mathrm{legal\ losses}
+\Longrightarrow
+\neg CM_{N,r,Q}.
+```
+
+Because the failed contract is the packet-ancestry carrier contract, the failure lands on Pack, not on Part or Field:
+
+```math
+\mathcal R_N(I)>o_N(1)+\mathrm{legal\ losses}
+\Longrightarrow
+\neg Pack_Q.
+```
+
+Therefore failure of `ScaleCriticalTreeCarleson.A` is a Pack-side CM exit.
+
+## Zeno consequence
+
+A Zeno terminal object has limiting scale
+
+```math
+r_m\downarrow0,
+\qquad r_*=0.
+```
+
+A legal packet carrier requires positive packet scale.  Hence the zero-scale terminal object is already outside Pack:
+
+```math
+r_*=0\Longrightarrow\neg Pack_Q.
+```
+
+So a zero-scale Zeno residue cannot be carried onward into Part or Field as a retained CM packet.  Field/Jump classification belongs only to the separate retained-carrier branch where `Pack_Q` and `Part_{N,Q}` are already assumed.
+
+## Boundary
+
+This note proves the CM-exit formulation:
+
+```math
+\neg ScaleCriticalTreeCarleson.A
+\Longrightarrow
+\neg Pack_Q.
+```
+
+It does not prove the positive analytic supplier theorem
+
+```math
+OriginalSmoothData\Longrightarrow ScaleCriticalTreeCarleson.A.
+```
+
+That supplier remains a separate square-reserve estimate.  The point of this note is the CM classification: unpaid scale-critical donor-refill ancestry is Pack exit, not a Field/Jump event and not a legal retained terminal packet.
