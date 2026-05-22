@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-05-22T21:52:19Z'
+  generated_at: '2026-05-22T21:55:50Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -330,14 +330,9 @@ candidate_archive:
     source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
-- origin_obligation_id: ReserveCreationCharge.A
+- origin_obligation_id: ChargeLedgerInjection.A
   origin_kind: live-theorem-branch
-  label: ReserveCreationCharge.A sharp branch target decomposed from source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
-- origin_obligation_id: ParentSquareEmbed.A
-  origin_kind: live-theorem-branch
-  label: ParentSquareEmbed.A sharp branch target decomposed from source-wall-root-after-reconcile
+  label: ChargeLedgerInjection.A sharp branch target decomposed from source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
 - origin_obligation_id: WeightedAdjRes.A
@@ -345,20 +340,25 @@ candidate_archive:
   label: WeightedAdjRes.A sharp branch target decomposed from source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
+- origin_obligation_id: ParentSquareEmbed.A
+  origin_kind: live-theorem-branch
+  label: ParentSquareEmbed.A sharp branch target decomposed from source-wall-root-after-reconcile
+  status: frontier-open
+  promoted_into_branch_pool: false
 - origin_obligation_id: SquareReserveEvolution.A
   origin_kind: live-theorem-branch
   label: SquareReserveEvolution.A sharp branch target decomposed from source-wall-root-after-reconcile
+  status: frontier-open
+  promoted_into_branch_pool: false
+- origin_obligation_id: ReserveCreationCharge.A
+  origin_kind: live-theorem-branch
+  label: ReserveCreationCharge.A sharp branch target decomposed from source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
 - origin_obligation_id: TerminalReserveFirstAppearanceCharge.A
   origin_kind: live-theorem-branch
   label: TerminalReserveFirstAppearanceCharge.A sharp branch target decomposed from
     source-wall-root-after-reconcile
-  status: frontier-open
-  promoted_into_branch_pool: false
-- origin_obligation_id: ChargeLedgerInjection.A
-  origin_kind: live-theorem-branch
-  label: ChargeLedgerInjection.A sharp branch target decomposed from source-wall-root-after-reconcile
   status: frontier-open
   promoted_into_branch_pool: false
 - origin_obligation_id: DonorHeightCreation.A
