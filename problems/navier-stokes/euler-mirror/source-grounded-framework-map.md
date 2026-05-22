@@ -7,9 +7,9 @@ Navier-Stokes source stack and to the exact mirror surfaces written inside
 ## Original Four-Part Framework
 
 The handed Navier-Stokes theory fixes a four-principle cycle. The Euler mirror
-keeps that same body-job order, but it must reopen every place where the parent
-proof used explicit viscosity, dissipation, heat, Stokes, or parabolic
-continuation structure:
+keeps that same body-job order, but it terminally classifies every place where
+the parent proof used explicit viscosity, dissipation, heat, Stokes, or
+parabolic continuation structure:
 
 1. `Scale-Barrier Principle`
 2. `Monotone Functional`
@@ -47,7 +47,8 @@ reproved on the Euler equation.
 - `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/source-grounded-framework-map.md`
 
 These remain the direct proof-bearing source family. The Euler mirror is a
-branch-local rewrite of their theorem burden, not a replacement source corpus.
+branch-local terminal classification of their theorem structure, not a
+replacement source corpus.
 
 ## Euler Mirror Authoring Surfaces
 
@@ -73,7 +74,8 @@ Euler mirror reading:
 - do **not** silently reuse the parent step where nonlinear transfer is
   absorbed by viscous dissipation.
 
-The theorem shape survives. The decisive absorption mechanism does not yet.
+The theorem shape survives conditionally. The decisive absorption mechanism is a
+non-Euler import.
 
 ### 2. Monotone Functional
 
@@ -123,11 +125,11 @@ Euler mirror reading:
 
 - preserve the same theorem slot and packet order;
 - preserve the dyadic objects and same-surface continuation ambition;
-- reopen the proof the moment the parent argument spends `\nu D_N`,
-  dissipation, or a Navier-Stokes-only continuation lemma.
+- terminally classify the proof the moment the parent argument spends
+  `\nu D_N`, dissipation, or a Navier-Stokes-only continuation lemma.
 
-So the fourth bridge remains theorem-facing in the mirror, but it is presently
-an explicit replacement burden rather than a discharged import.
+So the fourth bridge remains theorem-facing in the mirror as a conditional
+surface, while the parent dissipative bridge is a non-Euler import.
 
 ## Local Synthesis Anchors
 
