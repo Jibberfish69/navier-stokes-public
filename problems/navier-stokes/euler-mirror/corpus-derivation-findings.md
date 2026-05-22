@@ -45,15 +45,15 @@ The corpus was refined in three bounded passes.
 This pass removed overstated language, restored the explicit torus-first versus
 downstream whole-space geometry where it had become too implicit, and tightened
 several theorem-facing sentences so they describe the Euler mirror as a
-faithful rewrite with open burdens rather than as a softer transport paraphrase.
+faithful rewrite with terminal classifications rather than as a softer transport
+paraphrase.
 
 ### 2. Contradiction-stack pass
 
 This pass removed stale first-wave posture from the contradiction surfaces,
-restored the live theorem order `ECFI -> EL13 -> EOFR/EOFP -> ELCI`, and
-narrowed the active contradiction-side holdout from a raw inherited `LCI.A`
-wall to the exact missing `2\nu`-absorption step inside the branch-local
-receiver theorem `ELCI.A`.
+restored the route order `ECFI -> EL13 -> EOFR/EOFP -> ELCI`, and classified
+the inherited `LCI.A` wall by the exact `2\nu`-absorption step inside the
+branch-local receiver theorem `ELCI.A`.
 
 ### 3. Registry and audit pass
 
