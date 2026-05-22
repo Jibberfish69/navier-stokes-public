@@ -172,8 +172,8 @@ Closure authority:
 ## Current Stop Line
 
 The Euler mirror cannot prove smoothness by declaring non-smoothness outside the
-Euler object. Non-smooth base Euler equation behavior can still satisfy `Member_E`, so
-the theorem-facing stop line is the separate global regularity/control theorem:
-prove Euler-native scale, compactness, pressure, or continuation control strong
-enough to imply the closed `ELCI.CP.A` hypotheses. The receiver split itself no
-longer carries open debt.
+Euler object. Non-smooth base Euler equation behavior can still satisfy
+`Member_E`, so the terminal stop line is classification rather than target
+motion: conditional controls give conditional regularity, base membership does
+not give smoothness or the ledger, and viscous parent steps are non-Euler
+imports. No live frontier remains on this branch.
