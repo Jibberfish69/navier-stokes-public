@@ -560,12 +560,13 @@ surface_snapshot:
           conditional production imports. The May 21 terminal Zeno correction classifies
           the endpoint as `not Pack_Q`: finite Zeno ancestry packets may be legal,
           but the terminal zero-radius residue is not a retained positive-radius packet.
-          BASACTerminalAtomCMFaceLabeling.A, RetainedPackFieldNoIncomingParticipationFlux.A,
-          and BASACLiouvilleCMParticipationBridge.A are upstream finite-ancestry accounting
-          or downstream post-exit readout, not a retained terminal Field packet. A
-          general TerminalSourceReverseHolder.A remains an external new theorem, not
-          a consequence of the installed B_ASAC bookkeeping. LocalPositiveSourceCarleson.A
-          collapses to PositiveRemainderDepletion.A; SquareSourceEstimate.A and ActiveShellAmplitudeGain.A
+          NoPersistentUnpaidPositiveRadiusAncestry.A closes the positive-radius retained
+          tail by the shared-participation strip balance. BASACTerminalAtomCMFaceLabeling.A,
+          RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
+          are finite-ancestry accounting and post-exit readout support. A general
+          TerminalSourceReverseHolder.A remains an external new theorem, not a consequence
+          of the installed B_ASAC bookkeeping. LocalPositiveSourceCarleson.A collapses
+          to PositiveRemainderDepletion.A; SquareSourceEstimate.A and ActiveShellAmplitudeGain.A
           collapse to ActiveShellSourceNormalize.A / active-square reserve; the broader
           Zeno branch collapses to TerminalSourceReverseHolder.A / UniformTemporalSourceIntegrability_p.A
           or a produced rigid Zeno residue class with Liouville. This supplier is
