@@ -14,8 +14,13 @@ inputs. It reduces the burden to one sharper native localization gap:
 TerminalParaproductSignLocalization.A.
 ```
 
-This patch keeps the closed `B_ASAC` terminal zero-thickness CM target closed.
-The terminal zero-radius Zeno atom remains a Pack-side CM exit after the May 21
+This note is inside the CM contrapositive program. Its job is witness capture:
+place the public `L^3` Duhamel response on the same CM witness ledger as a
+native source witness, a selected Pack-side/source-wall exit, or a paid
+Pack/Part/legal exit. It is not a forward source-deletion theorem.
+
+The closed `B_ASAC` terminal zero-thickness CM target stays closed. The
+terminal zero-radius Zeno atom remains a Pack-side CM exit after the May 21
 correction, not a retained Field/jump target.
 
 ## Target
@@ -29,7 +34,8 @@ The current Duhamel split gives same-ledger nonlinear source work:
 \ge c_0.
 ```
 
-`ParaproductNativeSourceCapture.A` asks to convert that work into
+`ParaproductNativeSourceCapture.A` asks to capture that work as the native
+source witness measure
 
 ```math
 \nu_N^{src}(E_N)
@@ -42,8 +48,9 @@ The current Duhamel split gives same-ledger nonlinear source work:
 \ge c_1,
 ```
 
-or else into selected `ScaleCriticalTreeCarleson.A` failure or a paid
-Pack/Part/legal exit.
+or else into selected `ScaleCriticalTreeCarleson.A` failure, which is Pack-side
+source-wall exit language in the current CM grammar, or a paid Pack/Part/legal
+exit.
 
 ## Direct Attempt
 
@@ -66,9 +73,9 @@ The collar, cutoff, projection, and off-family pieces are legal only if they are
 charged to the installed pressure/cutoff/localization ledgers. If they are not
 chargeable, the branch has already left the retained Pack/Part/legal channel.
 
-High-high and donor-square refill is exactly the selected scale-critical source
-reserve channel. If this reserve cannot be charged on the same selected tree,
-the output is
+High-high and donor-square refill is exactly the selected scale-critical
+source-wall channel. If this reserve cannot be retained on the same selected
+tree, the output is a CM witness-face failure:
 
 ```math
 \neg_{sel}ScaleCriticalTreeCarleson.A.
@@ -100,9 +107,9 @@ Leray-adjoint response statement, while the native measure keeps only
 
 A signed lower bound for the response work can still be carried by oscillatory
 Leray recombination, pressure redistribution, or coefficient orientation that
-does not force the positive part of the native strain packet. Those alternatives
-are not new theorem branches: they are exactly legal/Part exits, selected
-scale-critical reserve failure, or the missing sign-localization step.
+does not force the selected native source witness. Those alternatives are not
+new theorem branches: they are exactly legal/Part exits, selected Pack-side
+source-wall failure, or the missing sign-localization step.
 
 ## Sharper Gap
 
@@ -114,7 +121,7 @@ TerminalParaproductSignLocalization.A:
 \quad
 \text{retained same-ledger paraproduct work}
 \Longrightarrow
-\nu_N^{src}(E_N)\ge c
+\text{same-ledger native source witness } \nu_N^{src}(E_N)\ge c
 \vee
 \neg_{sel}ScaleCriticalTreeCarleson.A
 \vee
@@ -131,7 +138,7 @@ routed to their witness faces.
 This is sharper than `ParaproductNativeSourceCapture.A`: the Bony split and
 ledger routing are no longer the unknown part. The only surviving unknown is
 the one-sided sign/orientation localization from the retained adjoint
-paraproduct coefficient to the repo-native positive source measure.
+paraproduct coefficient to the repo-native source witness measure.
 
 ## Reduction
 
@@ -158,11 +165,11 @@ CriticalL3ConcentrationToNativeSourceResidue.A.
 ```
 
 Once `TerminalParaproductSignLocalization.A` produces
-`\nu_N^{src}(E_N)\ge c`, the installed `RN.NativeDecision.A` spends it: vanishing
-installed ledger gives `\mu_*^{sing}>0`, and reserve-carried mass gives selected
+`\nu_N^{src}(E_N)\ge c`, the installed `RN.NativeDecision.A` spends it in the
+contrapositive direction: vanishing installed ledger gives the native singular
+source witness `\mu_*^{sing}>0`, and reserve-carried mass gives selected
 `ScaleCriticalTreeCarleson.A` failure. Under retained Pack and Part, those are
-the Field-facing native-source outputs already recorded by the May 21 public
-translator notes.
+CM witness outputs, not a claim that original data has proved source deletion.
 
 ## Boundary
 
@@ -170,4 +177,4 @@ This note does not reopen `B_ASAC`. The closed terminal zero-thickness
 `B_ASAC^closed` object is already consumed by the May 21 CM correction as a
 Pack/Part/Field exit, with zero-radius terminal Zeno residue landing first as
 `not Pack_Q`. The open work here is only the public `L^3` translator's
-same-ledger native source extraction step.
+same-ledger native source witness-capture step.
