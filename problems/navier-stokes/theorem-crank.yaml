@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-22T20:42:41Z'
+  generated_at: '2026-05-22T20:44:36Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -12,12 +12,33 @@ shared_alignment:
     surface_id: theorem-surface-navier-stokes-0d30e9030a43
     route_signature: 0d30e9030a43768ef7cc95bd011a64bcb30bc016
     route_chain:
-    - The historical four-bridge / positive-smoothness chain is preserved as support
-      context only.
-    - Direct live authority remains source-wall-root-after-reconcile until its theorem
-      role is accounted for against the governing CM program.
-    - Do not read this chain as current proof authority, terminal proof status, or
-      a singleton Navier-Stokes route.
+    - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
+      or `T^3`
+    - Success for regularized or morphic-regularized equations does not close the
+      original problem
+    - The original framework names a monotone functional `Q(t)` as a bridge, not just
+      unnamed baseline energy
+    - Global energy or enstrophy control is necessary but not sufficient
+    - The live obstruction is the small-scale or high-frequency cascade that feeds
+      blow-up
+    - A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
+      transfer on the chosen torus-first theorem surface
+    - The monotone functional must stabilize the global energy/enstrophy layer and
+      enable the compactness package on that same periodic classical surface
+    - The scale-barrier plus monotone-functional input must yield strong local compactness
+      and nonlinear tensor closure on the periodic/operator approximation family
+    - A heat-governed deformation or continuation bridge must force continuation control
+      on the same periodic theorem surface
+    - If the scale-barrier, monotone-functional, compactness, and continuation packages
+      all hold on the active periodic branch, then the periodic Clay branch with `f
+      = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
+      not the internal branch itself
+    route_slots:
+    - slot_id: source-wall-root-after-reconcile
+      label: source-wall-root-after-reconcile
+      kind: live-theorem-frontier
+      status: frontier-open
+      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
     route_label: source-wall-root-after-reconcile
@@ -153,9 +174,9 @@ auditor:
   status: needs-attention
   audit_status: audited-needs-fix
   branch_terminal_status: all-terminal
-  open_issue_count: 2
+  open_issue_count: 1
   autofixable_issue_count: 0
-  fix_plan_count: 1
+  fix_plan_count: 0
   branch_count: 1
   live_import_count: 0
   route_equivalence_count: 1
@@ -176,7 +197,7 @@ frontier_projection:
   recommended_next_cell_type: theorem-creation
 summary:
   phase: frontier-projection
-  execution_state: blocked
+  execution_state: needs-reroute
   leadership_status: aligned
   alignment_complete: true
   theorem_authority_gate_all_discharged: false
@@ -191,11 +212,11 @@ summary:
   current_open_obligation_count: 1
   open_obligations_state: not-currently-worked
   theorem_work_blocked: true
-  blocked_queue_interpretation: theorem-work blockage
+  blocked_queue_interpretation: none
   on_recommended_track: false
   recommended_next_cell_type: theorem-creation
   audit_status: audited-needs-fix
   branch_terminal_status: all-terminal
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: governance-escalation
-  current_next_cell_is_theorem_work: false
+  current_next_cell_type: debt-extract
+  current_next_cell_is_theorem_work: true
