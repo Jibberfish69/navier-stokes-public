@@ -2,14 +2,14 @@
 
 ## Target
 
-- target obligation: ScaleCriticalTreeCarleson.A
-- target label: ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile
+- target obligation: PastWindowShadowCompleteness.A
+- target label: the past-window shadow captures every uncharged reserve contribution
 - route role: Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances.
 - theorem family: reserve-creation-charge
 
 ## Created Theorem
 
-PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
+PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for the past-window shadow captures every uncharged reserve contribution.
 
 ## Inventive Search
 
@@ -23,21 +23,21 @@ PastWindowReserveSeparation.A. Force every uncharged reserve contribution to hav
 
 ### Candidate Theorems
 
-- PastWindowReserveSeparation.A (past_window_exclusion; score=76)
-- AdjointReserveNoFreeCreation.A (adjoint_residual_dualization; score=67)
-- WindowwiseReserveCarleson.A (windowwise_carleson_reserve; score=63)
-- ScaleCriticalTreeCarleson.A (contrapositive_exit; score=39)
-- ScaleCriticalTreeCarleson.A (compactness_defect_rigidity; score=38)
-- ScaleCriticalTreeCarleson.A (monotone_budget; score=41)
+- PastWindowReserveSeparation.A (past_window_exclusion; score=108)
+- AdjointReserveNoFreeCreation.A (adjoint_residual_dualization; score=71)
+- WindowwiseReserveCarleson.A (windowwise_carleson_reserve; score=71)
+- PastWindowShadowCompleteness.A (contrapositive_exit; score=72)
+- PastWindowShadowCompleteness.A (compactness_defect_rigidity; score=71)
+- PastWindowShadowCompleteness.A (monotone_budget; score=74)
 
 ### Retrieved Ingredients
 
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/agent-contract.yaml:60 -- Pack/Part bridge support
 - problems/navier-stokes/agent-contract.yaml:55 -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:53 -- source ingredient
 - problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:99 -- retained-face amplitude support
+- problems/navier-stokes/agent-contract.yaml:172 -- Pack/Part bridge support
+- problems/navier-stokes/agent-contract.yaml:165 -- Pack/Part bridge support
 
 ### Recursive Solver Chain
 
@@ -50,13 +50,13 @@ PastWindowReserveSeparation.A. Force every uncharged reserve contribution to hav
 - ParentSquareEmbed.A
 - Past(W) reserve shadow
 - ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
+- central_gate: Every promoted theorem result must land in Pack_Q, Part_{N,Q}, or
 - Define or prove: Added three theorem-facing reductions on the Navier-Stokes lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2, red
 - exhaust the exact local theorem packets it implies, publish the resulting local
-- central_gate: Every promoted theorem result must land in Pack_Q, Part_{N,Q}, or
-- - 'Read direct live surfaces first: live-theorem-edge.yaml, source-frontier.yaml,
-- mcp_response_rule: Every Navier-Stokes MCP frontier, leading-edge, or theorem-target
-- default_rewrite: 'Compile every Navier-Stokes theorem/frontier/next-action/promotion
+- TerminalReserveFirstAppearanceCharge.A. On every admissible terminal heat window W, every square-reserve contribution not already represented in Past(W) either injects into Charge_N(W) or is absorbed by the declared loss ledger.
 - ReserveCreationCharge.A. For every admissible terminal heat window W and scale N, the positive first-created square reserve increment is inherited from Past(W) up to declared loss or is paid by Charge_N(W), so [R_N(W) - (1 - delta)R_N(Past(W)) - Loss_N(W)]_+ <= Charge_N(W) + o_N(1).
+- default_rewrite: 'Compile every Navier-Stokes theorem/frontier/next-action/promotion
+- Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md: under the exact strict-shadow identities already present on the lane, ShadowDef(X) and E_sh(X) vanish identically, so the exact Route 
 - WeightedAdjRes.A
 - terminal heat-window decomposition
 - normalized child packet mass
@@ -65,11 +65,12 @@ PastWindowReserveSeparation.A. Force every uncharged reserve contribution to hav
 ## Forbidden Imports
 
 - PastWindowReserveSeparation.A
-- ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile
-- ScaleCriticalTreeCarleson.A
+- the past-window shadow captures every uncharged reserve contribution
+- PastWindowShadowCompleteness.A
 - full-MPP closure
 - submission readiness
 - global smoothness
+- ScaleCriticalTreeCarleson.A
 - SquareReserveEvolution.A
 - free terminal reserve creation
 
@@ -79,7 +80,7 @@ PastWindowReserveSeparation.A. Force every uncharged reserve contribution to hav
 2. Compare terminal packets to their past parent cloud.
 3. Show the unmatched terminal cloud is exactly the charge-bearing piece.
 4. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
-5. Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
+5. Use problems/navier-stokes/agent-contract.yaml:60 as source support for Pack/Part bridge support.
 
 ## Circularity Audit
 
@@ -88,11 +89,12 @@ PastWindowReserveSeparation.A. Force every uncharged reserve contribution to hav
 
 ## Solver Verdict
 
-- verdict: proved
-- certification_level: theorem-creation:installed-proof-found
-- rationale: A matching installed theorem-grade support entry already exists in the theorem packet.
+- verdict: new_subprimitive
+- certification_level: theorem-creation:new-subprimitive
+- rationale: The theorem has been reduced to a smaller noncircular primitive that is not currently installed.
+- next subprimitive: PastWindowShadowCompleteness.A -- the past-window shadow captures every uncharged reserve contribution
 
 ## Promotion Plan
 
-- promotion_allowed: true
-- recommended_next_cell_type: dependency-discharge
+- promotion_allowed: false
+- recommended_next_cell_type: theorem-creation
