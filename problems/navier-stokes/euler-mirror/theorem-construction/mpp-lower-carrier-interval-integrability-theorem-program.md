@@ -66,10 +66,10 @@ The classification is:
    `ACT.X-TopVisc` / top-viscous readout data; the live cell order also routes
    `ACT.X-Cut`, `ACT.X-Press`, and `ACT.X-MidRaw` into the simultaneous
    core/excess theorem before `ACT.X-Readout` can be spent;
-4. `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` remains downstream of that
-   missing Euler receiver budget.
+4. `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` remains downstream of the
+   branch-local `ELCI.CP.A-Separation` classification.
 
-## Exact Remaining Object
+## Closed Receiver Object
 
 Retain the same lower-carrier ledger on the moving collar:
 
