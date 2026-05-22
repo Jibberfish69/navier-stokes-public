@@ -169,7 +169,7 @@ Once `TerminalParaproductSignLocalization.A` produces
 contrapositive direction: vanishing installed ledger gives the native singular
 source witness `\mu_*^{sing}>0`, and reserve-carried mass gives selected
 `ScaleCriticalTreeCarleson.A` failure. Under retained Pack and Part, those are
-CM witness outputs, not a claim that original data has proved source deletion.
+CM witness outputs inside the contrapositive route.
 
 ## Boundary
 
