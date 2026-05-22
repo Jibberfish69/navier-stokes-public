@@ -117,10 +117,10 @@ The remaining integration target is the witness-face bridge:
 ```math
 PCTP.hard/TTU.A
 \Longrightarrow
-Field_{N,r,Q}\text{ or }Member(Q)\text{ witness-face closure.}
+\text{licensed Pack/Part/Field witness-face landing.}
 ```
 
-Equivalently, the source-pulse branch is now ready to be consumed by the CM witness grammar, but the bridge into `Pack/Part/Field face or Member landing` still has to be written explicitly.
+Equivalently, the source-pulse branch is now ready to be consumed by the CM witness grammar, but the bridge into a licensed `Pack/Part/Field` face still has to be written explicitly.
 
 ## Next target after this assembly
 
