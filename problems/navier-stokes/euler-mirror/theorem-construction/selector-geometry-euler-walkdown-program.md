@@ -163,15 +163,14 @@ one-sided budget by the same method.
 
 This is the first exact non-Euler bridge on the selector road.
 
-## Strongest Honest Euler Replacement Burden
+## Terminal Non-Euler Classification
 
-The replacement burden is not "prove `SG.4` anyway." It is:
+The terminal classification is:
 
 ```math
 \boxed{
-\text{derive the one-sided selector deficit budget directly from the Euler
-transport pair-defect packet and selector geometry, without the parent
-parabolic observability bridge.}
+\text{a direct one-sided selector deficit budget would be a new external route;}\\
+\text{the parent parabolic observability bridge is non-Euler.}
 }
 \tag{ES5}
 ```
