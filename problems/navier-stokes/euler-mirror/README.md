@@ -50,7 +50,8 @@ Current branch-local mainline:
 Current theorem-facing order:
 - `Member_E -> terminal classification`
 - `smooth data -> nonsmooth Euler` stays typed as singular-limit, weak-branch,
-  boundary fixed-datum, or no-boundary fixed-datum; it is not a live mirror debt
+  boundary fixed-datum, or no-boundary fixed-datum; it is terminally classified
+  on this mirror
 
 Terminal readback:
 - [referee-audit-ledger.yaml](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml)
