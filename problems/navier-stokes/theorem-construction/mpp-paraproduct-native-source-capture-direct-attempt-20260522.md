@@ -8,10 +8,12 @@ Bounded direct attempt on the current hard subburden inside
 `CriticalL3ConcentrationToNativeSourceResidue.A`.
 
 The attempt does not prove `ParaproductNativeSourceCapture.A` from the installed
-inputs. It reduces the burden to one sharper native localization gap:
+inputs. The follow-up sign-localization proof shows the positive-part step is
+algebraic once the retained coefficient is identified. The burden therefore
+reduces to one sharper native localization gap:
 
 ```math
-TerminalParaproductSignLocalization.A.
+TerminalLerayParaproductCoefficientIdentification.A.
 ```
 
 This note is inside the CM contrapositive program. Its job is witness capture:
@@ -93,7 +95,7 @@ a_P(x,t)\,|w_{j_P}|^2\,dxdt,
 where the active coefficient `a_P` is the same localized low-strain coefficient
 seen by the adjoint response packet.
 
-## Failure Point
+## Failure Point Sharpened
 
 The installed inputs do not identify the sign and orientation of this retained
 coefficient strongly enough. The source work lower bound is a signed
@@ -109,19 +111,22 @@ A signed lower bound for the response work can still be carried by oscillatory
 Leray recombination, pressure redistribution, or coefficient orientation that
 does not force the selected native source witness. Those alternatives are not
 new theorem branches: they are exactly legal/Part exits, selected Pack-side
-source-wall failure, or the missing sign-localization step.
+source-wall failure, or failure of the retained Leray/coefficient
+identification.
 
 ## Sharper Gap
 
-The narrow theorem-facing primitive is:
+The May 22 sign-localization proof closes the positive-part step after exact
+coefficient identification. The narrow theorem-facing primitive is therefore:
 
 ```math
 \boxed{
-TerminalParaproductSignLocalization.A:
+TerminalLerayParaproductCoefficientIdentification.A:
 \quad
-\text{retained same-ledger paraproduct work}
+\text{same-ledger Leray-adjoint nonlinear source work}
 \Longrightarrow
-\text{same-ledger native source witness } \nu_N^{src}(E_N)\ge c
+G_N:=\sum_P\int_{Q(P)}
+\langle S_{<j_P}^{loc}w_{j_P},w_{j_P}\rangle \ge c
 \vee
 \neg_{sel}ScaleCriticalTreeCarleson.A
 \vee
@@ -129,16 +134,15 @@ TerminalParaproductSignLocalization.A:
 }
 ```
 
-Here "retained same-ledger paraproduct work" means the output of
-`L3DuhamelResponseWorkLocalization.A` after strict low-mode commutators,
-threshold collar, pressure/Leray redistribution, cutoff/projection loss, and
-high-high donor refill have each been charged to their installed ledgers or
-routed to their witness faces.
+The closed algebraic sign lemma in
+`mpp-terminal-paraproduct-sign-localization-proof-20260522.md` then gives
+`\nu_N^{src}(E_N)\ge c`.
 
 This is sharper than `ParaproductNativeSourceCapture.A`: the Bony split and
-ledger routing are no longer the unknown part. The only surviving unknown is
-the one-sided sign/orientation localization from the retained adjoint
-paraproduct coefficient to the repo-native source witness measure.
+positive-part selection are no longer the unknown part. The only surviving
+unknown is the Leray/coefficient identification: orientation, commutator
+legality, and saturation of the retained adjoint packet on the repo-native
+source witness ledger.
 
 ## Reduction
 
@@ -146,7 +150,7 @@ The new reduction is:
 
 ```math
 \boxed{
-TerminalParaproductSignLocalization.A
+TerminalLerayParaproductCoefficientIdentification.A
 \Longrightarrow
 ParaproductNativeSourceCapture.A.
 }
@@ -157,14 +161,15 @@ Therefore the current native extraction chain is:
 ```math
 L3DuhamelResponseWorkLocalization.A
 +
-TerminalParaproductSignLocalization.A
+TerminalLerayParaproductCoefficientIdentification.A
 \Longrightarrow
 DuhamelInverseNativeSourceLocalization.A
 \Longrightarrow
 CriticalL3ConcentrationToNativeSourceResidue.A.
 ```
 
-Once `TerminalParaproductSignLocalization.A` produces
+Once `TerminalLerayParaproductCoefficientIdentification.A` produces the native
+contraction lower bound, `TerminalParaproductSignLocalization.A` produces
 `\nu_N^{src}(E_N)\ge c`, the installed `RN.NativeDecision.A` spends it in the
 contrapositive direction: vanishing installed ledger gives the native singular
 source witness `\mu_*^{sing}>0`, and reserve-carried mass gives selected
