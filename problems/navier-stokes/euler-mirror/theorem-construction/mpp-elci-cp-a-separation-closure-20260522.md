@@ -193,8 +193,9 @@ p(x,y,z,t)=0,
 \tag{ECP.12}
 ```
 
-with any smooth cutoff away from `|y|<1` if a bounded spatial window is desired.
-The value on `y=0` is irrelevant to the distributional equation.
+with any smooth cutoff depending only on `y,z` away from `|y|<1` if a bounded
+spatial window is desired. The value on `y=0` is irrelevant to the
+distributional equation.
 
 Because `2alpha<1`,
 
@@ -228,8 +229,9 @@ distributionally. Thus `(u,p)` is a base Euler member in the sense
 ### Ledger Failure
 
 Let the collar contain points on both sides of `y=0` and cross the sheet
-`{y=0}`. Any finite positive-radius cover of that collar has at least one ball
-`B_j^*(t)` intersecting `y=0`. On that ball,
+`{y=0}`. Even before asking for a transported flow map, any attempted finite
+positive-radius cover of that collar has at least one ball `B_j^*(t)`
+intersecting `y=0`. On that ball,
 
 ```math
 \|u(\cdot,t)-u(c_j(t),t)\|_{L^\infty(B_j^*(t))}
