@@ -5,7 +5,7 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-05-22T21:33:44Z'
+  extracted_at: '2026-05-22T21:40:53Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
@@ -58,56 +58,15 @@ debt_items:
     package, so it must stay on the theorem-upgrade path instead of being demoted
     to packaging debt.
   priority_rank: 2
-- debt_id: source-wall-root-after-reconcile
-  label: source-wall-root-after-reconcile
-  source_section: formalization-reentry
-  monograph_status: reopened from a stalled object-formalization/dependency-discharge
-    handoff
-  standalone_need: 'yes'
-  primary_anchors:
-  - problems/navier-stokes/creative-theorem-search.yaml
-  - problems/navier-stokes/dependency-discharge.yaml
-  - problems/navier-stokes/object-formalization.yaml
-  - problems/navier-stokes/proof-assembly.yaml
-  debt_class: blocked-frontier
-  derivation_state: source-wall-branch-packetization-required
-  source_scope_status: cm-source-wall-branch-target-active
-  derivation_attempts: 1
-  attempts_without_new_support: 0
-  recommended_stage: creative-theorem-search
-  rationale: The broad source-wall root is still active, but live authority has narrowed
-    it to CM-facing branch theorem work; reroute internally instead of escalating
-    the umbrella to the user.
-  priority_rank: 3
-  last_derivation_run_id: debt-derive-navier-stokes-20260518T080826Z
-  support_strength: strong
-  evidence_paths:
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/extension-branches.yaml
-  - problems/navier-stokes/lemma-falsification.yaml
-  new_evidence_paths:
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/extension-branches.yaml
-  - problems/navier-stokes/lemma-falsification.yaml
-  source_sufficiency: sufficient
-  source_checks: 1
-  reclassified_from: local-derivable
 summary:
   counts_by_class:
     packaging: 1
     local-derivable: 0
     branch-choice: 0
-    blocked-frontier: 2
+    blocked-frontier: 1
   recommended_next_cell_type: creative-theorem-search
   recommended_next_action: CM.CrossFaceSynthesis.A is installed; recenter source-wall-root-after-reconcile
     on known CM-exit discipline before treating any source-pileup or source-control
     presentation as a theorem target.
   recommended_debt_ids:
   - debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  - source-wall-root-after-reconcile
