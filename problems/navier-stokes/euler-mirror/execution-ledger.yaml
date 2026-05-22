@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   branch_id: euler-mirror-chat20
   artifact_id: execution-ledger-navier-stokes-euler-mirror
-  updated_on: '2026-05-21'
+  updated_on: '2026-05-22'
   generator: codex-euler-ontology-repair
 main_objective:
   theorem_target: regularity for the three-dimensional incompressible Euler equations
@@ -14,21 +14,23 @@ main_objective:
   - positive-control
   - euler-membership-plus-regularity
   run_both: true
-active_next_theorem_target:
+closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
+  status: closed
   authority_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
   attempt_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-a-direct-transport-pressure-attempt-20260519.md
   scenario_map_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
+  closure_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md
   route_family: euler-membership-plus-regularity
-  exact_burden: >-
-    Split the Euler center/oscillation/pressure ledger L_E_ctr on the same
-    finite transported cover into exact regularity-conditional cases where L1 is
-    provable and base Member_E nonsmooth cases where L1 is not forced.
+  closure_readback: >-
+    The Euler center/oscillation/pressure ledger L_E_ctr on the same finite
+    transported cover is proved L1 under explicit Euler regularity/control
+    envelopes, and it is not forced by base Member_E.
   parent_comparison_order: RSCB.NKF -> NKF.Native -> ACT.KX -> ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A
   readback: >-
-    Do not fan out into scattered comparison notes; the runnable theorem target
-    is ELCI.CP.A-Separation until the ledger is either proved under explicit
-    Euler regularity hypotheses or shown not to follow from base Member_E.
+    The receiver split is closed without importing ACT.KX, ACT.X-TopVisc, or
+    2nu absorption. Further global regularity work is a separate Euler
+    scale/control/compactness or continuation burden.
 scenario_separation_map:
   status: completed
   surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
@@ -50,7 +52,7 @@ route_families:
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
-  next_frontier: split ELCI.CP.A into regularity-conditional L1 cases and base Member_E nonsmooth/non-forced cases
+  next_frontier: prove a separate Euler control/continuation envelope strong enough to imply the closed ELCI.CP.A hypotheses
   first_holdout: no primitive Euler Part or Field theorem exists; pressure alone does not give one-field participation, so Dead/Jump-like behavior remains live for stronger carrier/coherence classes
 - family_id: positive-four-principle
   status: regularity-support-only
@@ -101,10 +103,13 @@ phases:
   goal: demote ECFI/EL13/EOFP/EOFR/ELCI to regularity support above Member_E
 - phase_id: phase-3-positive-route-rewrite
   status: open
-  goal: split and then prove the admissible side of ELCI.CP.A before downstream integrated Euler closure
+  goal: prove the Euler-native scale/control/compactness/continuation package needed for global regularity
 - phase_id: phase-3a-euler-ns-scenario-separation
   status: completed
   goal: classify every repo-visible Euler/NS contact case by smooth/conditional, nonsmooth/not-forced, and viscosity mechanism
+- phase_id: phase-3b-elci-cp-a-separation
+  status: completed
+  goal: close the receiver ledger split under added Euler control and base Member_E failure
 automation_loop:
   mode: repo-internal-only
   safe_problem_local_surfaces:
@@ -115,6 +120,7 @@ automation_loop:
   - problems/navier-stokes/euler-mirror/campaign-map.md
   - problems/navier-stokes/euler-mirror/execution-ledger.yaml
   - problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
+  - problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md
   safe_commands:
   - ruby system/runner/bin/chat_coord.rb status
   - ruby system/runner/bin/chat_coord.rb check chat20 problems/navier-stokes/euler-mirror problems/navier-stokes/chat20-status.yaml
