@@ -225,8 +225,9 @@ In particular:
 - zero-scale terminal residues land in Pack;
 - unpaid donor-refill ancestry lands in Pack;
 - tower participation loss lands in Part after Pack is retained;
-- retained source/readout residue lands in Field only after Pack and Part are
-  retained.
+- raw source residue lands in Part once Pack is retained;
+- retained coherence/readout residue can land in Field only after Pack and Part
+  are separately licensed.
 
 This is exactly the capture statement needed by
 `AnyFiniteFailureWitnessCMExit.A`.
@@ -271,9 +272,10 @@ attempts show the pressure points:
    preterminal smoothness.
 2. Part closure needs terminal closedness of the pressure-viscosity tower and
    its readout inputs.
-3. Field closure is the source-wall/coherence problem: native positive source,
-   scale-critical donor-refill, Zeno residue, or critical paraproduct mass must
-   either be paid, exit Pack/Part first, or be converted into `not Field`.
+3. Field closure is the coherence/readout problem after source participation is
+   already lawful. Native positive source residue exits through Pack/Part first;
+   critical paraproduct or receiver residue reaches `not Field` only after the
+   source/participation ledger has been separately licensed.
 
 So the route is now:
 
