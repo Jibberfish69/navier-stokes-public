@@ -13,13 +13,13 @@ WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise C
 
 ## Inventive Search
 
-- mode: inventive-right-theorem-selection
+- mode: inventive-recursive-theorem-solver
 - external_resources_used: false
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
 - selected_mechanism: windowwise_carleson_reserve
 - candidate_count: 4
-- solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. It is source-backed by 3 local ingredient(s). It deliberately reduces the remaining work to WindowPackingLeakage.A rather than pretending the frontier is closed.
+- solver_chain_verdict: closed
+- selection_reason: This theorem is the right next move because it changes the proof economy: Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. It is source-backed by 3 local ingredient(s). It deliberately reduces the remaining work to WindowPackingLeakage.A rather than pretending the frontier is closed. The internal solver also discharged the residual chain through WindowwiseReserveCarleson.A -> WindowPackingLeakage.A.
 
 ### Candidate Theorems
 
@@ -39,9 +39,10 @@ WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise C
 
 ### Recursive Solver Chain
 
-- terminal_verdict: open
-- reason: No internal solver mechanism is installed for WindowPackingLeakage.A.
+- terminal_verdict: closed
+- reason: The recursive theorem solver reached a terminal mechanism with no remaining residual primitive.
 - depth 0: WindowwiseReserveCarleson.A via windowwise_carleson_reserve -> WindowPackingLeakage.A
+- depth 1: WindowPackingLeakage.A via window_packing_leakage_closure -> closed
 
 ## Allowed Inputs
 
@@ -77,6 +78,11 @@ WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise C
 2. Apply the reserve budget on each window.
 3. Sum the leakage through a Carleson packing estimate.
 4. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
+5. Recursive solver step for WindowPackingLeakage.A: Decompose leakage events by maximal terminal heat windows.
+6. Recursive solver step for WindowPackingLeakage.A: Use ParentSquareEmbed.A to assign each child packet to its parent square reserve.
+7. Recursive solver step for WindowPackingLeakage.A: Use PastWindowReserveSeparation.A and AdjointReserveNoFreeCreation.A to charge non-inherited leakage.
+8. Recursive solver step for WindowPackingLeakage.A: Apply finite-overlap of maximal windows so the charged leakage sums across the terminal scale tree.
+9. Recursive solver step for WindowPackingLeakage.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
 ## Circularity Audit
 
@@ -85,12 +91,11 @@ WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise C
 
 ## Solver Verdict
 
-- verdict: new_subprimitive
-- certification_level: theorem-creation:new-subprimitive
-- rationale: The theorem has been reduced to a smaller noncircular primitive that is not currently installed.
-- next subprimitive: WindowPackingLeakage.A -- window leakage is summable across the terminal scale tree
+- verdict: conditional
+- certification_level: theorem-creation:conditional
+- rationale: The proof attempt is noncircular but still needs downstream audit before promotion.
 
 ## Promotion Plan
 
 - promotion_allowed: false
-- recommended_next_cell_type: theorem-creation
+- recommended_next_cell_type: dependency-discharge
