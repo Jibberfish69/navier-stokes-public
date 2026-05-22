@@ -51,7 +51,7 @@ NonSmooth(Q) or first class exit
 The repo should therefore be read as a class-exit atlas.  Every theorem note,
 branch, source-wall packet, receiver estimate, endpoint row, compactness
 argument, or signed-current idea must identify which of the three CM faces it
-serves and what licensed bridge moves it into Pack, Part, or Field witness face, Member landing, or an
+serves and what licensed bridge moves it into Pack, Part, or Field witness face, class-membership direction, or an
 endpoint row.
 
 If a branch does not do that, it is not proof spine.  It may be source recovery,
@@ -475,7 +475,7 @@ That is the nonsmoothness-as-class-exit architecture.
 Ask:
 
 ```text
-Does this theorem prove Pack, Part, or Field witness face, Member landing, or a first-exit face split?
+Does this theorem prove Pack, Part, or Field witness face, class-membership direction, or a first-exit face split?
 ```
 
 If not, it is not CM core.
@@ -527,7 +527,7 @@ Where did a generated surface advertise closure while the source wall stayed ope
 Ask:
 
 ```text
-Does an older note already prove a bridge into Pack, Part, or Field witness face, Member landing, or endpoint?
+Does an older note already prove a bridge into Pack, Part, or Field witness face, class-membership direction, or endpoint?
 ```
 
 If not, recover it as context, not proof.
