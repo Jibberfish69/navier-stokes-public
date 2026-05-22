@@ -64,6 +64,105 @@ global_readback:
     lower-collar absorption, ACT.KX scheduling, top-viscous readout, dyadic
     damping, parabolic observability, and fixed-nu class separation. Euler has
     transport and pressure, but no automatic replacement for those jobs.
+case_matrix:
+  - id: ESM.S1
+    classification: smooth_by_hypothesis
+    euler_scenario: fixed-interval classical Euler solution
+    ns_control_readback: fixed-positive-viscosity NS comparison may use the same smooth datum and interval, but the Euler smoothness is an input hypothesis
+    authority:
+      - problems/navier-stokes/theorem-construction/mpp-direct-fixed-nu-euler-smooth-ns-smooth-hierarchy-20260509.md
+  - id: ESM.S2
+    classification: smooth_by_hypothesis
+    euler_scenario: fixed-thickness smooth stationary shear layer
+    ns_control_readback: each positive thickness is a smooth Euler control case; the zero-thickness limit is separately nonsmooth
+    authority:
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md
+  - id: ESM.C1
+    classification: proved_conditional_surface
+    euler_scenario: ELCI.CP.A same-cover center oscillation pressure ledger under explicit envelopes
+    ns_control_readback: replaces the parent ACT.KX / ACT.X-TopVisc / 2nu receiver chain only after Euler envelopes are supplied
+    authority:
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+  - id: ESM.C2
+    classification: proved_conditional_surface
+    euler_scenario: positive-control / compactness / Route B program under explicit Euler controls
+    ns_control_readback: preserves theorem order and dyadic bookkeeping while classifying viscous damping as non-Euler
+    authority:
+      - problems/navier-stokes/euler-mirror/theorem-construction/positive-control-euler-program.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md
+  - id: ESM.N1
+    classification: nonsmooth_control
+    euler_scenario: tangential slip / vortex-sheet weak Euler member
+    ns_control_readback: pressure and normal compatibility do not force one-field participation; NS needs viscosity/participation machinery to attack this
+    authority:
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-pressure-nonparticipation-vortex-sheet-witness-20260517.md
+      - problems/navier-stokes/theorem-construction/mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md
+  - id: ESM.N2
+    classification: false_base_implication
+    euler_scenario: stationary unbounded shear satisfies base Member_E but fails smoothness and the ELCI receiver ledger
+    ns_control_readback: refutes the base-Euler-to-ledger move; parent NS closes the analogous receiver only by spending absorption/readout machinery
+    authority:
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md
+  - id: ESM.N3
+    classification: nonsmooth_control
+    euler_scenario: zero-thickness limit of smooth shear layers
+    ns_control_readback: smooth approximants can converge to a nonsmooth Euler member, so topology/limit closure is not one-field smoothness
+    authority:
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md
+  - id: ESM.N4
+    classification: nonsmooth_control
+    euler_scenario: same-datum nonclassical weak Euler branch
+    ns_control_readback: flags weak-branch/nonclassical behavior as a separate case from the classical smooth branch and from fixed-nu transfer
+    authority:
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md
+  - id: ESM.N5
+    classification: nonsmooth_control
+    euler_scenario: fixed-datum boundary/axisymmetric blowup comparison
+    ns_control_readback: domain-sensitive Euler singularity evidence; not a no-boundary finite-energy Euler verdict
+    authority:
+      - problems/navier-stokes/euler-mirror/theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md
+  - id: ESM.V1
+    classification: non_euler_import
+    euler_scenario: parent ACT.KX absorption scheduler
+    ns_control_readback: c_nu N and eta_X absorb simultaneous core/excess growth; Euler has no such term
+    authority:
+      - problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md
+      - problems/navier-stokes/theorem-construction/mpp-act-kx-hidden-spending-audit-note.md
+      - problems/navier-stokes/euler-mirror/viscosity-dependence-ledger.yaml
+  - id: ESM.V2
+    classification: non_euler_import
+    euler_scenario: parent 2nu lower-collar sink and top-viscous readout
+    ns_control_readback: 2nu D_low and ACT.X-TopVisc absorb or supply receiver ledgers; Euler replacement is only the explicit ELCI.CP.A envelope theorem
+    authority:
+      - problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+      - problems/navier-stokes/theorem-construction/mpp-lci-a-fixed-increment-top-viscous-readout-note.md
+      - problems/navier-stokes/euler-mirror/viscosity-dependence-ledger.yaml
+  - id: ESM.V3
+    classification: non_euler_import
+    euler_scenario: Route B / gradient / scale-tail dyadic damping
+    ns_control_readback: nu D_N supplies coercive high-frequency return; Euler keeps dyadic bookkeeping without damping
+    authority:
+      - problems/navier-stokes/theorem-construction/route-b-euclidean-closure-theorem.md
+      - problems/navier-stokes/gradient-discharge-source-pack.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md
+  - id: ESM.V4
+    classification: non_euler_import
+    euler_scenario: heat / Stokes / static-diffusion exact-potential road
+    ns_control_readback: parabolic observability and semigroup structure disappear at nu=0
+    authority:
+      - problems/navier-stokes/theorem-construction/exact-potential-v2-static-diffusion-heat-plus-perturbation-split.md
+      - problems/navier-stokes/theorem-construction/exact-potential-v2-static-diffusion-wang-zhang-route.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/exact-potential-euler-entry-obstruction-note.md
+  - id: ESM.V5
+    classification: non_euler_import
+    euler_scenario: selector/export consumers tied to parabolic or viscous scales
+    ns_control_readback: pair-defect diffusion, selector observability, and low-mode viscous scale are NS consumers, not Euler continuation
+    authority:
+      - problems/navier-stokes/euler-mirror/theorem-construction/selector-geometry-euler-walkdown-program.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/export-whole-space-euler-walkdown-program.md
 authority_surfaces_requiring_readback:
   - README.md
   - campaign-map.md
