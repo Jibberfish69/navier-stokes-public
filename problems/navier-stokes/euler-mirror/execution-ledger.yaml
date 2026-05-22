@@ -38,7 +38,8 @@ scenario_separation_map:
     All repo-visible Euler/NS contact points are sorted into smooth or
     regularity-conditional cases, nonsmooth or not-forced-smooth cases, and
     explicit viscosity jobs. The branch now treats pressure-compatible slip/jump
-    as the clean Euler bad model and viscosity as the missing NS proof mechanism.
+    as the clean Euler bad model and viscosity as the NS proof mechanism absent
+    from Euler.
 route_families:
 - family_id: euler-membership-plus-regularity
   status: terminal
