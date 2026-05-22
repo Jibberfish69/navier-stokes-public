@@ -10,8 +10,8 @@
 This pack pins down the Euler analogue of the parent baseline-control premise:
 
 1. smooth Euler solutions conserve `L^2` energy;
-2. any stronger route-level control object must still be earned on the Euler
-   surface;
+2. any stronger route-level control object is an explicit added Euler
+   hypothesis or external theorem;
 3. none of that baseline control alone suppresses the dangerous cascade or
    closes continuation.
 
