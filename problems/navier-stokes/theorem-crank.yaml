@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-22T23:04:59Z'
+  generated_at: '2026-05-22T23:31:36Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -99,9 +99,17 @@ shared_alignment:
     - selector-adapted defect-to-strain theorem
   alignment_reroute: solver-loop
 local_derivation:
-  status: locally-exhausted
-  required_packet_count: 0
-  required_packets: []
+  status: packetize-and-derive
+  required_packet_count: 1
+  required_packets:
+  - packet_id: terminalcmnoexit-a-nogenuinecmexit-a
+    label: TerminalCMNoExit.A / NoGenuineCMExit.A
+    packet_kind: live-theorem-frontier
+    source_kind: live-solver-target
+    recommended_stage: theorem-creation
+    target_patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    matched_route_slot_labels:
+    - TerminalCMNoExit.A / NoGenuineCMExit.A
   leadership_status: leading
   net_new_local_theorem_count: 8
   recommended_next_cell_type: theorem-creation
@@ -109,6 +117,36 @@ cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
   local_consequences:
+  - label: CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional
+      field-integrability package, while End_NS, Field readout, and Member remain
+      downstream consequences.
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/cfi-a-theorem-creation-20260522.md
+  - label: OFP.A. The collar source-pressure package CSP.A propagates the retained
+      one-field package on the same-fluid interval, with CFI.A, endpoint readout,
+      Field, and Member kept downstream.
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/ofp-a-theorem-creation-20260522.md
+  - label: CSP.A. On the retained same-fluid collar, LCI.A together with the installed
+      post-LCI source ledger FCI.5f supplies the collar source-pressure package; OFP.A,
+      CFI.A, endpoint readout, Field, and Member remain downstream consumers.
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
+  - label: LCI.A. On a retained same-fluid interval with bounded Pack gauge and the
+      ordered ACT.KX receiver package installed, ACT.X-Readout gives ACT.A, ACT.A
+      gives RCF.A through the transported-center residual package, and ULCI.A/DTC.C
+      yields lower-carrier interval integrability; FCI.5f, CSP.A, OFP.A, CFI.A, endpoint
+      readout, Field, and Member remain downstream consumers.
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/lci-a-theorem-creation-20260522.md
   - label: ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail,
       and windowwise leakage ledgers sum to the Pack_Q scale-critical donor-refill
       Carleson bound; an unpaid infinite donor-refill tree is therefore a Pack-face
@@ -141,36 +179,6 @@ cross_lane_broadcast:
     status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/theorem-construction/pastwindowreserveseparation-a-theorem-creation-20260522.md
-  - label: PastWindowShadowCompleteness.A. Every uncharged terminal reserve contribution
-      has a Past(W) shadow ancestor; any first uncovered contribution injects into
-      Charge_N(W) or is absorbed by the declared loss ledger.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/pastwindowshadowcompleteness-a-theorem-creation-20260522.md
-  - label: ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving
-      a genuinely new uncharged reserve birth creates a zero-cost packet-creation
-      contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A
-      sharp branch target decomposed from source-wall-root-after-reconcile.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/chargeledgerinjection-a-theorem-creation-20260522.md
-  - label: ReserveCreationCharge.A. For every admissible terminal heat window W and
-      scale N, the positive first-created square reserve increment is inherited from
-      Past(W) up to declared loss or is paid by Charge_N(W), so [R_N(W) - (1 - delta)R_N(Past(W))
-      - Loss_N(W)]_+ <= Charge_N(W) + o_N(1).
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/reservecreationcharge-a-theorem-creation-20260522.md
-  - label: TerminalReserveFirstAppearanceCharge.A. On every admissible terminal heat
-      window W, every square-reserve contribution not already represented in Past(W)
-      either injects into Charge_N(W) or is absorbed by the declared loss ledger.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/terminalreservefirstappearancecharge-a-theorem-creation-20260522.md
   broadcast_paths:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
@@ -183,7 +191,7 @@ auditor:
   branch_terminal_status: terminal-audit-open
   open_issue_count: 1
   autofixable_issue_count: 0
-  fix_plan_count: 1
+  fix_plan_count: 0
   branch_count: 1
   live_import_count: 0
   route_equivalence_count: 1
@@ -192,18 +200,16 @@ auditor:
 frontier_projection:
   status: ready
   primary_target:
-    obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
     kind: live-theorem-frontier
     label: TerminalCMNoExit.A / NoGenuineCMExit.A
-    status: frontier-open
     recommended_stage: theorem-creation
-    source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+    target_patch_surface: problems/navier-stokes/live-theorem-edge.yaml
   one_step_beyond: []
   two_steps_beyond: []
   route_pressure: []
   recommended_next_cell_type: theorem-creation
 summary:
-  phase: frontier-projection
+  phase: local-derivation
   execution_state: needs-reroute
   leadership_status: leading
   alignment_complete: true
@@ -213,7 +219,7 @@ summary:
   proof_assembly_open_obligation_count: 1
   authoritative_source_gap_count: 0
   export_readiness_hold_state: none
-  exact_local_packet_count: 0
+  exact_local_packet_count: 1
   net_new_local_theorem_count: 8
   projected_frontier_count: 0
   current_open_obligation_count: 1
