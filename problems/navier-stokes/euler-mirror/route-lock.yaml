@@ -91,6 +91,7 @@ holistic_scenario_separation_lock:
   status: terminal
   authority_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
   referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
+  case_matrix_surface: "problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml#case_matrix"
   governing_readback: >-
     The Euler mirror now separates every repo-visible Euler/NS contact point into
     smooth-or-regularity-conditional cases, nonsmooth-or-not-forced-smooth cases,
@@ -104,6 +105,11 @@ holistic_scenario_separation_lock:
     Euler also meets NS through base Member_E nonsmooth slip/jump/defect scenarios.
     The branch has split those cases; comparison packets now classify as proved
     conditional, false from base membership, or non-Euler imports.
+  case_matrix_readback: >-
+    The machine-checked ESM rows are the controlling split: ESM.S* are smooth
+    by explicit hypothesis, ESM.C* are proved conditional Euler control surfaces,
+    ESM.N* are nonsmooth or false-from-base scenarios, and ESM.V* are viscosity
+    imports from the Navier-Stokes parent route.
 closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
   status: closed
