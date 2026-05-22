@@ -52,7 +52,7 @@ governing_object_law:
   - positive-scale field coherence when proved as an Euler regularity theorem
   - continuation/compactness controls only as explicit added hypotheses or new external theorem programs
   endpoint_reading:
-    dead: legacy NS participation-side readout; on Euler it is a live stronger-carrier failure mode, not contradiction of pressure incompressibility
+    dead: legacy NS participation-side readout; on Euler it is a typed stronger-carrier failure mode, not contradiction of pressure incompressibility
     blown: legacy smooth-flow or Lagrangian-carrier failure readout; not base Euler membership failure
     jump: legacy one-field regularity failure readout, including tangential slip / slip-sheet behavior; compatible with base Euler membership unless an added Euler regularity theorem excludes it
 equation_fidelity:
@@ -76,7 +76,7 @@ object_law_route_lock_sentence: >-
   parent Pack / Part / Field route, but it must not preserve Part or Field as
   primitive Euler membership faces, and it must not let pressure alone imply
   one-field participation.
-mirror_theorem_queue:
+terminal_classification_rules:
 - keep the source-locked contradiction note written literally with the Euler weak equation and flux-volume membership
 - use the smooth shear-layer bridge as a singular-limit route to the slip-sheet witness, not as fixed-datum blow-up
 - keep fixed-datum classical blowup split by domain: boundary/axisymmetric known externally, no-boundary smooth finite-energy outside this terminal mirror branch
