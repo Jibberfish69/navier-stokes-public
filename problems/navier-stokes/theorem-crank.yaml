@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-22T22:43:49Z'
+  generated_at: '2026-05-22T22:49:29Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-0d30e9030a43
-    route_signature: 0d30e9030a43768ef7cc95bd011a64bcb30bc016
+    surface_id: theorem-surface-navier-stokes-bcf5e31af8a8
+    route_signature: bcf5e31af8a8aa1b228e9b02828a7a35001e35b5
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -34,15 +34,15 @@ shared_alignment:
       = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
       not the internal branch itself
     route_slots:
-    - slot_id: source-wall-root-after-reconcile
-      label: source-wall-root-after-reconcile
+    - slot_id: terminalcmnoexit-a-nogenuinecmexit-a
+      label: TerminalCMNoExit.A / NoGenuineCMExit.A
       kind: live-theorem-frontier
       status: frontier-open
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
-    route_label: source-wall-root-after-reconcile
-    current_route_name: source-wall-root-after-reconcile
+    route_label: TerminalCMNoExit.A / NoGenuineCMExit.A
+    current_route_name: TerminalCMNoExit.A / NoGenuineCMExit.A
     exact_cut_summary: 'The CM primitive remains `Exit(Q):=not Member(Q)`. The theorem-grade
       installed CM direction is only `forall N exists r_N: CM_{N,r_N,Q}=>Member(Q;O_NS^work)`,
       with `CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}` as the canonical route-relative
@@ -189,9 +189,9 @@ auditor:
 frontier_projection:
   status: ready
   primary_target:
-    obligation_id: source-wall-root-after-reconcile
+    obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
     kind: live-theorem-frontier
-    label: source-wall-root-after-reconcile
+    label: TerminalCMNoExit.A / NoGenuineCMExit.A
     status: frontier-open
     recommended_stage: theorem-creation
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
@@ -222,5 +222,5 @@ summary:
   audit_status: audited-ok
   branch_terminal_status: terminal-audit-open
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: creative-theorem-search
+  current_next_cell_type: dependency-discharge
   current_next_cell_is_theorem_work: true
