@@ -25,9 +25,10 @@ Everything else remains fidelity-locked:
 3. preserve the four-principle theorem order;
 4. preserve the live route geometry: torus-first internal branch, downstream
    whole-space Route B packet;
-5. preserve Route B as a theorem slot rather than silently discarding it;
-6. reopen every parent step that used explicit dissipation or parabolic
-   structure.
+5. preserve Route B as a conditional theorem slot rather than silently
+   discarding it;
+6. terminally classify every parent step that used explicit dissipation or
+   parabolic structure.
 
 ## The Four Positive-Control Slots
 
@@ -39,11 +40,12 @@ Parent job:
   family;
 - feed compactness and the fourth bridge.
 
-Euler mirror job:
+Euler mirror classification:
 
 - keep the same tail/cascade theorem target;
 - keep the same downstream role;
-- replace the parent viscous absorption mechanism by an Euler-clean argument.
+- close the installed route as conditional unless an Euler-clean argument is
+  supplied as an explicit new hypothesis.
 
 ### Slot M. Control Functional
 
@@ -52,12 +54,12 @@ Parent job:
 - supply the named `Q(t)` bridge rather than generic baseline energy;
 - tie the later packages to a same-surface control object.
 
-Euler mirror job:
+Euler mirror classification:
 
 - preserve the bridge slot;
 - retain `L^2` conservation as the exact surviving baseline control;
-- rewrite any stronger named control functional honestly if the route still
-  needs more than `L^2`.
+- classify any stronger named control functional as an added hypothesis or new
+  external theorem.
 
 ### Slot K. Compactness / Nonlinear Closure
 
@@ -66,7 +68,7 @@ Parent job:
 - upgrade weak control on one fixed family to strong enough local convergence
   for tensor closure.
 
-Euler mirror job:
+Euler mirror classification:
 
 - keep the fixed-family compactness architecture;
 - keep nonlinear tensor closure on the same Euler surface;
@@ -79,12 +81,12 @@ Parent job:
 - use the Route B dyadic continuation packet as the theorem-primary fourth
   bridge on the classical Navier-Stokes surface.
 
-Euler mirror job:
+Euler mirror classification:
 
 - preserve the dyadic Route B slot;
-- preserve the need for a same-surface continuation theorem;
-- replace the parent `\nu D_N`-driven coercive bridge and final
-  Navier-Stokes continuation lemma.
+- classify same-surface continuation as an added Euler hypothesis;
+- close the parent `\nu D_N`-driven coercive bridge and final Navier-Stokes
+  continuation lemma as non-Euler imports.
 
 ## Proposition Sequence For The Euler Mirror
 
@@ -111,10 +113,10 @@ C_*2^{-2\delta N}
 \tag{EP2}
 ```
 
-Status:
+Terminal status:
 
-- theorem target mirrored;
-- decisive proof step still open because the parent absorption mechanism spent
+- conditional theorem slot only;
+- not a live branch burden, because the parent absorption mechanism spent
   viscous dissipation.
 
 ### Proposition EP3. Euler named control functional
@@ -124,11 +126,12 @@ There exists a same-surface Euler control object playing the theorem role that
 feeds the compactness and continuation packages without silently reimporting
 Navier-Stokes monotonicity.
 
-Status:
+Terminal status:
 
 - bridge slot preserved;
 - only the `L^2` conservation sublayer is presently mirrored honestly on disk;
-- the full named replacement object is still open.
+- any full named replacement object is an added hypothesis or new external
+  theorem, not a live branch burden.
 
 ### Proposition EP4. Euler compactness and nonlinear closure
 
@@ -142,7 +145,7 @@ u^{(n)} \otimes u^{(n)} \to u \otimes u.
 \tag{EP4}
 ```
 
-Status:
+Terminal status:
 
 - mirrored conditionally;
 - architecture survives, but only after the Euler family and its control norms
@@ -154,11 +157,11 @@ The exact Euler limit object satisfies a same-surface continuation inequality
 strong enough to block the singularity channel targeted by Route B and to feed
 an Euler continuation theorem.
 
-Status:
+Terminal status:
 
-- explicit live holdout;
-- the parent `\nu D_N` bridge and final Navier-Stokes continuation step do not
-  survive verbatim.
+- conditional theorem slot only;
+- the parent `\nu D_N` bridge and final Navier-Stokes continuation step are
+  closed here as non-Euler imports.
 
 ### Proposition EP6. Integrated Euler closure
 
@@ -175,10 +178,10 @@ route closes:
 \tag{EP6}
 ```
 
-Status:
+Terminal status:
 
-- theorem-facing integrated target only;
-- not yet discharged.
+- proved only as a conditional implication from `EP2` through `EP5`;
+- no unconditional branch burden remains.
 
 ## What Survives From The Parent Route Without Drama
 
@@ -198,18 +201,18 @@ Status:
 4. The parent packet ends through a Navier-Stokes continuation lemma and a
    same-shape recertification theorem proved on the viscous dynamics.
 
-## Resulting Work Order
+## Resulting Terminal Classification
 
 1. Keep the claim ladder and framework map fixed to the four-principle source
    order.
-2. Treat the scale barrier as the first positive-control theorem target that
-   needs an Euler-clean coercive replacement.
-3. Separate the honest surviving `L^2` control from the still-open replacement
-   for the full named `Q(t)` bridge.
+2. Classify the scale barrier as conditional unless an Euler-clean coercive
+   estimate is externally supplied.
+3. Separate the honest surviving `L^2` control from any added hypothesis replacing
+   the full named `Q(t)` bridge.
 4. Preserve the compactness package as a downstream internal job rather than
    erasing it.
-5. Keep Route B theorem-facing, but mark its dissipative and continuation steps
-   as the exact non-Euler holdouts.
+5. Keep Route B theorem-facing as a conditional implication, and close its
+   dissipative and continuation imports as non-Euler.
 
 ## Cross-Route Coupling
 
@@ -217,22 +220,23 @@ The contradiction / class-membership mirror does not replace the positive route
 here. Its role is to help localize which positive-control replacement is
 actually decisive:
 
-- if the contradiction route needs a transport-pressure continuation supplier,
-  that pressure falls on `EP5`;
-- if it needs a same-surface global control object stronger than bare `L^2`,
-  that pressure falls on `EP3`;
-- if it needs a no-escape approximation limit on one fixed family, that
-  pressure falls on `EP4`.
+- a transport-pressure continuation supplier is an `EP5` hypothesis;
+- a same-surface global control object stronger than bare `L^2` is an `EP3`
+  hypothesis;
+- a no-escape approximation limit on one fixed family is an `EP4` hypothesis.
 
-## Honest Branch Posture
+## Terminal Branch Posture
 
-The positive-control side of the Euler mirror is now mapped in theorem order,
-but it is not closed. The exact honest stop-line is:
+The positive-control side of the Euler mirror is closed as a conditional/non-Euler
+classification. The exact terminal readback is:
 
 ```math
 \boxed{
-\text{keep the four-principle and Route B authoring surfaces in Euler form,
-and leave every dissipation-backed or Navier-Stokes-only step marked as an
-explicit replacement burden.}
+\text{keep the four-principle and Route B authoring surfaces in Euler form;}\\
+\text{conditional Euler hypotheses close conditional implications;}\\
+\text{dissipation-backed or Navier-Stokes-only steps are non-Euler imports.}
 }
 ```
+
+No positive-control live burden remains on this branch. A stronger unconditional
+Euler theorem would be a new external theorem program, not unfinished work here.
