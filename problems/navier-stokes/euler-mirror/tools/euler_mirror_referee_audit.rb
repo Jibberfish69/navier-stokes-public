@@ -64,6 +64,18 @@ ledger.fetch('authority_surfaces_requiring_readback').each do |path|
   end
 end
 
+ledger.fetch('authority_surfaces_requiring_case_matrix_readback', []).each do |path|
+  full_path = File.join(mirror_root, path)
+  unless File.file?(full_path)
+    errors << "required case-matrix authority surface is missing: #{path}"
+    next
+  end
+  contents = File.read(full_path)
+  unless contents.include?('case_matrix') || contents.include?('ESM.')
+    errors << "authority surface #{path} does not read back the ESM case_matrix"
+  end
+end
+
 ledger.fetch('parent_comparison_anchors', []).each do |path|
   full_path = File.join(repo_root, path.sub(%r{\A/}, ''))
   errors << "missing parent comparison anchor #{path}" unless File.file?(full_path)
