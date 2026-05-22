@@ -2,13 +2,13 @@
 
 Date: 2026-05-22
 
-Status: direct positive smoothness attempt; superseded for the live CM
-contrapositive target by
-`mpp-terminal-source-residue-cm-exit-20260522.md`.
+Status: direct positive packet-survival attempt; live Clay-facing no-exit
+target remains open.
 
 ## 2026-05-22 Polarity Correction
 
-This note is not the live CM next target. It is a positive no-exit attempt.
+This note is the direct attempt at the positive packet-survival theorem. It is
+not a raw source-residue classification note.
 
 For the CM contrapositive route, the terminal source residue should not be
 deleted first. The live CM move is:
@@ -21,9 +21,36 @@ deleted first. The live CM move is:
 \neg Part_{N,Q}.
 ```
 
-That theorem is installed as `TerminalSourceResidueCMExit.A`. Use this note only
-when explicitly switching to the separate positive smoothness/no-residue
-program.
+That theorem is installed as `TerminalSourceResidueCMExit.A`. Use the present
+note for the separate question: whether original smooth data prevents loss of
+all continuation-complete Pack/Part/Field packets.
+
+## Packet-Survival Formulation
+
+The Clay-facing theorem is the existential survivor statement:
+
+```math
+OriginalSmoothData
+\Longrightarrow
+\neg GenuineCMExit(T_*),
+```
+
+equivalently,
+
+```math
+OriginalSmoothData
+\Longrightarrow
+\exists Q,r>0:
+Pack_Q\wedge Part_{N_s,Q}\wedge Field_{N_s,r,Q}
+```
+
+on every alleged finite terminal tail.
+
+This is the precise meaning of "a finite-time maximal smooth solution cannot
+lose every continuation packet." The literal statement "no selected
+continuation packet can fail" is stronger than the route needs and is false as a
+criterion, because a bad selected cover, bad scale, or bad gauge can fail
+without preventing another lawful packet from surviving.
 
 Theorem target:
 
@@ -77,6 +104,26 @@ Pack-first tree:
 ```
 
 We try to rule out the three alternatives from original smooth data.
+
+## Readback Against Conditional Class-Membership Closure
+
+Older endpoint notes prove the conditional assembly
+
+```math
+CFI.A+End_{NS}
+\Longrightarrow
+\text{no finite-time class exit}.
+```
+
+Those notes explicitly assume retained-window inputs such as `RSCB.NKF`, bounded
+Pack gauge, the finite required parameter set, post-`LCI.A` source closure, and
+the accepted endpoint certificate maps. Those are packet-survival inputs. They
+do not prove, from original smooth data alone, that at least one
+continuation-complete terminal packet survives.
+
+Therefore the conditional class-membership closure is compatible with this
+direct attempt: it proves continuation after the packet survives; it does not
+prove the unconditional survival of the packet.
 
 ### 1. Pack no-exit
 
@@ -191,7 +238,8 @@ not closed by the direct attempt.
 
 ## Verdict
 
-The direct no-exit proof fails. The failure is informative:
+The direct no-exit proof fails at the current installed inputs. The failure is
+informative:
 
 ```math
 \boxed{
@@ -212,7 +260,8 @@ The positive subprimitives are:
 ```
 
 Native source absolute continuity is a Part/supplier route in this list. It is
-not the Field landing for raw residue in the CM contrapositive tree.
+not the Field landing for raw residue in the CM contrapositive tree, and it is
+not the same thing as the final packet-survival theorem.
 
 In plain route terms:
 
@@ -226,5 +275,5 @@ Smoothness now needs positive no-exit across Pack, Part, and licensed Field.
 
 This note does not prove smoothness. It prevents a false promotion: the
 Pack/Part/Field capture theorem is enough to classify terminal failure, while
-`TerminalCMNoExit.A` is the positive analytic theorem that must still be
-proved to eliminate terminal failure.
+`TerminalCMNoExit.A` / `NoGenuineCMExit.A` is the positive analytic theorem that
+must still be proved to eliminate terminal failure.
