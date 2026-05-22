@@ -158,6 +158,11 @@ branch-local targets.
 This table is the branch closure. Anything stronger than a row in the table is a
 new theorem program, not an unfinished branch task.
 
+The per-surface enforcement surface is
+[referee-audit-ledger.yaml](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml).
+It requires every Euler-mirror file to read back through the same classification
+vocabulary used in this table.
+
 ## Closed Readback
 
 The Euler mirror branch is terminal in this exact, non-aspirational sense:
