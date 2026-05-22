@@ -93,12 +93,12 @@ The valid Euler split is:
 \quad\text{first,}
 \qquad
 \mathrm{ELag},\ \mathrm{EReg},\ \text{one-field coherence}
-\quad\text{only as extra regularity burdens.}
+\quad\text{only as extra regularity layers.}
 }
 \tag{ECFP.2}
 ```
 
-## Live Frontier
+## Terminal Role Map
 
 The current contradiction-family files now have these roles:
 
@@ -109,10 +109,10 @@ The current contradiction-family files now have these roles:
 3. [mpp-one-field-forward-preservation-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md)
    is demoted to an optional one-field regularity theorem.
 4. [mpp-one-field-forward-preservation-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md)
-   records supplier burdens only after one-field coherence has been separately
+   records supplier ledgers only after one-field coherence has been separately
    selected as the regularity target.
 5. [mpp-lower-carrier-interval-integrability-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md)
-   remains a possible regularity-support program, not a membership theorem.
+   is closed as conditional regularity support, not a membership theorem.
 
 ## Parent Receiver Chain Boundary
 
@@ -140,8 +140,9 @@ non-importable point because its installed proof spends `c_\nu N`, the
 absorption seed, and top-viscous readout. Even if an Euler replacement is found,
 it would support a regularity upgrade, not primitive `Member_E`.
 
-## Honest Current Posture
+## Terminal Current Posture
 
 The Euler mirror no longer claims that roughness exits the Euler object. The
-honest task is to prove that the flux-volume Euler member gains or preserves the
-extra regularity needed for smoothness.
+branch-local classification is that any proof of a flux-volume Euler member
+gaining or preserving the extra regularity needed for smoothness is an external
+regularity program.
