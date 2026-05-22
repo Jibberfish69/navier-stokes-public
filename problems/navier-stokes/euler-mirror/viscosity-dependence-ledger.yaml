@@ -14,7 +14,7 @@ entries:
     The usable fixed-viscosity transfer idea is still: an Euler regularity
     theorem on the same datum and interval may support a fixed-positive-viscosity
     Navier-Stokes transfer. The prior zero-viscosity class-exit reading is
-    removed. Non-smooth weak Euler behavior can still satisfy Member_E; it exits
+    removed. Non-smooth base Euler equation behavior can still satisfy Member_E; it exits
     only a separately defined regularity/admissibility class.
   target_surface: problems/navier-stokes/theorem-construction/mpp-viscous-euler-class-membership-separation-edge-audit-20260506.md
 - source_path: problems/navier-stokes/theorem-construction/mpp-viscous-euler-class-membership-separation-edge-audit-20260506.md
@@ -282,7 +282,7 @@ summary:
   boundary_class_bridge_count: 1
   euler_smooth_route_thesis_count: 1
   cj_a_low_comparison_status: comparison-only-no-proved-euler-analogue
-  first_literal_open_receiver_burden: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+  closed_literal_receiver_burden: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
   scenario_separation_map: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
   closed_receiver_theorem_target: ELCI.CP.A-Separation
   closed_receiver_theorem_target_readback: >-
