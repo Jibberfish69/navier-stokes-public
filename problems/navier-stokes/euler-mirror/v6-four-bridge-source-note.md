@@ -4,7 +4,7 @@
 
 The authoritative proof-bearing source family remains the original
 Navier-Stokes corpus. The Euler mirror is a branch-local rewrite of that
-theorem burden with viscosity removed literally.
+theorem comparison program with viscosity removed literally.
 
 V6 remains synthesis only.
 
@@ -29,4 +29,3 @@ V6 remains synthesis only.
 
 V6 may sharpen feedback or obstruction language, but it must not silently
 replace the direct theorem jobs or erase missing Euler replacements.
-
