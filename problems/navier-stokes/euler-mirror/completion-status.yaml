@@ -80,6 +80,6 @@ terminal_closure:
   status: closed-no-live-burdens
   closure_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
   readback: >-
-    No Euler mirror route remains as a live burden. Each is terminally classified
-    as proved conditional, false from base membership, or non-Euler import.
+    Every Euler mirror route is terminally classified as proved conditional,
+    false from base membership, or non-Euler import.
 overall_status: terminal-no-live-burdens
