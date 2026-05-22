@@ -121,9 +121,9 @@ it still does not become base `Member_E` failure.
 So the honest Euler reading is that `dead` and `jump` are not primitive exit
 faces, but they remain meaningful nonsmoothness scenarios for stronger classes.
 
-## Honest Current Burden
+## Terminal Regularity Reading
 
-The Euler contradiction package now has one honest burden:
+The Euler contradiction package now has one terminal regularity reading:
 
 ```math
 \boxed{
@@ -135,5 +135,5 @@ The Euler contradiction package now has one honest burden:
 \tag{EL13.5}
 ```
 
-The old endpoint split is no longer allowed to stand in for the missing
+The old endpoint split is no longer allowed to stand in for an external
 regularity theorem.
