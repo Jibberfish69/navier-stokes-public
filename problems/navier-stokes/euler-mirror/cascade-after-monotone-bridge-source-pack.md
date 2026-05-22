@@ -38,7 +38,7 @@ into viscous dissipation.}
 }
 ```
 
-That is the scale-barrier frontier on the Euler branch.
+That is the scale-barrier conditional interface on the Euler branch.
 
 ## Local Anchors
 
