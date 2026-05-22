@@ -115,24 +115,24 @@ The strongest honest Euler target on this road is therefore:
 \tag{EE4}
 ```
 
-The missing step is not another low-pass identity. It is a new Euler consumer
-theorem replacing the viscous low-mode strain threshold.
+The missing parent step is not another low-pass identity. It is a viscous
+low-mode strain consumer, which is non-Euler on this branch.
 
-## Exact Replacement Burden
+## Terminal Non-Euler Classification
 
-The replacement burden is:
+The terminal classification is:
 
 ```math
 \boxed{
-\text{rewrite the export road so that it feeds an Euler continuation target,
-not the parent Navier-Stokes low-mode strain consumer.}
+\text{an export road feeding an Euler continuation target would be a new
+external route;}\\
+\text{the parent Navier-Stokes low-mode strain consumer is non-Euler.}
 }
 \tag{EE5}
 ```
 
-That Euler continuation target should then couple to the positive Route B slot
-or to the class-membership receiver burden, rather than to a Clay-facing
-viscous discharge theorem.
+The export road is therefore closed for this terminal branch unless a new
+external Euler continuation target is introduced.
 
 ## Status
 
