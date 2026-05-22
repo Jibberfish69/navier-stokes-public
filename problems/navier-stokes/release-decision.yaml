@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-05-22T22:37:10Z'
+  evaluated_at: '2026-05-22T22:42:08Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: respawn
@@ -51,7 +51,7 @@ blockers:
 - 'Theorem-packet blocker: There are 2 frontier or route-choice blockers still inside
   the theorem packet.'
 - There are 12 unresolved lemma obligations.
-- There are 2 frontier or route-choice blockers still inside the theorem packet.
+- There are 1 frontier or route-choice blockers still inside the theorem packet.
 - source-wall-root-after-reconcile
 - Completion tier is still `route-complete`, below a paper-complete or full-closure
   submission surface.
