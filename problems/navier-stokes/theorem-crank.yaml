@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-22T22:49:29Z'
+  generated_at: '2026-05-22T22:51:40Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -73,7 +73,10 @@ shared_alignment:
       `Field_avg` has been produced, so it is not an upstream eliminator for a branch
       already in `Jump_avg`. The remaining positive-supplier burden `OriginalSmoothData=>SourcePulseExclusion.A`
       is required for the downstream `PCTP.hard` route''s literal no-`Jump_avg` terminal-tail
-      production and is separate from the already-closed CM source-pulse exit.'
+      production and is separate from the already-closed CM source-pulse exit. The
+      Clay-facing CM frontier is now `TerminalCMNoExit.A` / `NoGenuineCMExit.A`: prove
+      original smooth data leaves at least one continuation-complete Pack/Part/Field
+      packet on every alleged finite terminal tail.'
     paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
