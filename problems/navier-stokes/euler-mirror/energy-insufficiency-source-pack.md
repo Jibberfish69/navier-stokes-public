@@ -1,8 +1,8 @@
 # Euler Energy Insufficiency Source Pack
 
-## Target Obligation
+## Terminal Classification
 
-- `debt-global-euler-control-is-necessary-but-not-sufficient`
+- `terminal-global-euler-control-is-necessary-but-not-sufficient`
 - `Global energy conservation or baseline control is necessary but not sufficient`
 
 ## Exact Role In The Route
@@ -53,4 +53,3 @@ mechanism.
 - [monotone-functional-discharge-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/monotone-functional-discharge-source-pack.md)
 - [scale-barrier-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/scale-barrier-source-pack.md)
 - [gradient-discharge-source-pack.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/gradient-discharge-source-pack.md)
-
