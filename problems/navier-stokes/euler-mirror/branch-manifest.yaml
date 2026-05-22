@@ -81,6 +81,7 @@ current_mirror_state:
       non-importable. Any Euler replacement supports regularity above Member_E,
       not membership itself.
     scenario_separation_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
+    referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
     scenario_separation_readback: >-
       Euler/NS contact points are now separated into smooth-or-conditional cases,
       nonsmooth-or-not-forced-smooth cases, and explicit viscosity proof jobs.
@@ -115,6 +116,8 @@ branch_surfaces:
   membership_authority: problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-class-membership-flux-volume-definition.md
   frontier_packet: problems/navier-stokes/euler-mirror/theorem-construction/euler-mirror-frontier-packet.md
   scenario_separation_map: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
+  referee_audit_ledger: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
+  referee_audit_tool: problems/navier-stokes/euler-mirror/tools/euler_mirror_referee_audit.rb
   receiver_closure: problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md
   terminal_closure: problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
   campaign_map: problems/navier-stokes/euler-mirror/campaign-map.md
