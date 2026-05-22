@@ -231,7 +231,7 @@ are route presentations of:
 NativePositiveSourceControl.A
 ```
 
-inside the `Field` face.  They are not direct Pack, Part, or Field witness face, Member landing, or
+inside the `Field` face.  They are not direct Pack, Part, or Field witness face, class-membership direction, or
 Smooth theorems.
 
 The legal source-wall branch is therefore:
