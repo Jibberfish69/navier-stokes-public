@@ -6,8 +6,7 @@ Theorem-facing terminal closure note for the Euler mirror branch.
 
 This file closes the branch without moving the burden. It does not prove global
 Euler regularity from smooth data. It proves the narrower, checkable statement
-that the installed Euler mirror has no live theorem debt left to chase inside
-this branch:
+that every installed Euler-mirror route has a terminal branch classification:
 
 1. base `Member_E` does not imply the desired regularity or the receiver ledger;
 2. the receiver ledger is closed only under explicit Euler control assumptions;
@@ -33,8 +32,7 @@ So the branch has only three possible honest outputs:
 3. classify a copied parent step as non-Euler because its proof uses a term that
    is absent when `nu=0`.
 
-The closure below is exactly those three outputs, with no fourth category called
-"remaining burden."
+The closure below is exactly those three outputs.
 
 ## Proposition A: Conditional Receiver Closure
 
@@ -156,7 +154,7 @@ branch-local targets.
 | selector/export consumers tied to viscous budgets | parent downstream readout closes Euler | `non_euler_import` | downstream consumer is calibrated to parabolic or viscous budgets |
 
 This table is the branch closure. Anything stronger than a row in the table is a
-new theorem program, not an unfinished branch task.
+new theorem program outside this branch classification.
 
 The per-surface enforcement surface is
 [referee-audit-ledger.yaml](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml).
@@ -179,5 +177,4 @@ The Euler mirror branch is terminal in this exact, non-aspirational sense:
 ```
 
 There is no live Euler-mirror burden after `(ETC.10)`. A future theorem stronger
-than these statements would be a new external theorem program, not a remaining
-debt of this branch.
+than these statements would be a new external theorem program.
