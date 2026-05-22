@@ -55,14 +55,15 @@ entries:
   reason: The installed statement uses explicit `2nu` dissipation; the Euler mirror now replaces it by the transport-pressure-only theorem slot `ELCI.A`.
   target_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
 - source_path: problems/navier-stokes/theorem-construction/mpp-retained-window-native-forcing-theorem-program.md
-  mirror_status: classified-partial-euler-rewrite-required
+  mirror_status: classified-comparison-pattern-only
   dependence_class: retained-center-native-forcing-with-viscous-component
   reason: >-
     `RSCB.NKF` supplies `NKF.Native` through retained smooth center balls,
     transported mollifiers, local pressure response, finite-energy far tails, and
     viscous forcing/integration terms. The Euler mirror may keep the
-    retained-center pressure and point-recovery pattern, but it must delete the
-    viscous forcing component and cannot import `NKF.Native` unchanged.
+    retained-center pressure and point-recovery pattern as proof-pattern
+    material, while the viscous forcing component and unchanged `NKF.Native`
+    import are non-Euler.
   target_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
 - source_path: problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md
   mirror_status: classified-as-euler-hard-break
@@ -282,7 +283,7 @@ summary:
   boundary_class_bridge_count: 1
   euler_smooth_route_thesis_count: 1
   cj_a_low_comparison_status: comparison-only-no-proved-euler-analogue
-  closed_literal_receiver_burden: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
+  closed_literal_receiver_classification: problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
   scenario_separation_map: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
   closed_receiver_theorem_target: ELCI.CP.A-Separation
   closed_receiver_theorem_target_readback: >-
@@ -292,5 +293,5 @@ summary:
   vanishing_viscosity_boundary_status: Euler is now typed as the `nu=0` boundary class and fixed-positive-viscosity class-exit surface when `Visc^{fix}_{nu_*}` fails
   note: >-
     Every active viscous or parabolic packet named by the branch now has either
-    an Euler replacement surface or an explicit demotion to provenance / audit
+    a terminal Euler classification or an explicit demotion to provenance / audit
     status.
