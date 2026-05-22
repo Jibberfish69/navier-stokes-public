@@ -52,8 +52,8 @@ What survives is the branch's role, not its installed PDE packet:
 
 ```math
 \boxed{
-\text{any Euler geometric control quantity must still feed back into the
-dangerous-scale and continuation burdens if it is to matter on this branch.}
+\text{any Euler geometric control quantity would be an added conditional
+interface if it is to matter on this branch.}
 }
 \tag{CP3}
 ```
@@ -65,15 +65,14 @@ architecture:
    supplier;
 2. it does **not** supply a live Euler theorem in its parent form.
 
-## Strongest Honest Euler Replacement Burden
+## Terminal Non-Euler Classification
 
-The replacement burden is:
+The terminal classification is:
 
 ```math
 \boxed{
-\text{build an Euler deformation/vorticity-to-scale feedback theorem on the
-actual Euclidean Euler surface, rather than importing the parent Ricci-damped
-parabolic packet.}
+\text{an Euler deformation/vorticity-to-scale feedback theorem would be a new
+external route; the parent Ricci-damped parabolic packet is non-Euler.}
 }
 \tag{CP4}
 ```
