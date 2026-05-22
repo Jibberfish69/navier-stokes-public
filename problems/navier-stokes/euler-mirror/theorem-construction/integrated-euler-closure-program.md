@@ -76,6 +76,7 @@ The repaired membership road is now:
 4. [mpp-one-field-forward-preservation-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md)
 5. [mpp-one-field-forward-preservation-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md)
 6. [mpp-lower-carrier-interval-integrability-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md)
+7. [mpp-elci-cp-a-separation-closure-20260522.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md)
 
 Its integrated shape is:
 
@@ -100,7 +101,9 @@ The decisive burdens are:
    continuation needs it;
 3. compactness / nonlinear closure without hidden parabolic smoothing;
 4. an Euler transport-pressure continuation theorem;
-5. optional Lagrangian or one-field persistence only after the relevant
+5. an envelope implying the closed `ELCI.CP.A` hypotheses when the receiver
+   ledger is used;
+6. optional Lagrangian or one-field persistence only after the relevant
    regularity class is explicitly chosen.
 
 ## Combined Closure Target
@@ -134,5 +137,7 @@ the exact Euler surface:
 
 ## Honest Current Posture
 
-The base object is now correct. The theorem remains open because the missing
-work is a real Euler regularity upgrade, not a membership-definition trick.
+The base object is now correct, and the `ELCI.CP.A` receiver split is closed.
+The theorem remains open because the missing work is a real Euler
+scale/control/compactness/continuation upgrade, not a membership-definition
+trick and not an import of the Navier-Stokes viscous receiver chain.
