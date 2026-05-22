@@ -30,12 +30,12 @@ TerminalcmnoexitNogenuinecmexitMinimalBridge.A. Find the missing local bridge th
 
 ### Retrieved Ingredients
 
-- problems/navier-stokes/agent-contract.yaml:55 -- Pack/Part bridge support
 - problems/navier-stokes/agent-contract.yaml:53 -- source ingredient
 - problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:165 -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:60 -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- residual control
+- problems/navier-stokes/agent-contract.yaml:55 -- source ingredient
+- problems/navier-stokes/agent-contract.yaml:56 -- source ingredient
+- problems/navier-stokes/agent-contract.yaml:101 -- source ingredient
+- problems/navier-stokes/agent-contract.yaml:144 -- retained-face amplitude support
 
 ### Recursive Solver Chain
 
@@ -45,20 +45,20 @@ TerminalcmnoexitNogenuinecmexitMinimalBridge.A. Find the missing local bridge th
 
 ## Allowed Inputs
 
+- CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional field-integrability package, while End_NS, Field readout, and Member remain downstream consequences.
+- OFP.A. The collar source-pressure package CSP.A propagates the retained one-field package on the same-fluid interval, with CFI.A, endpoint readout, Field, and Member kept downstream.
+- CSP.A. On the retained same-fluid collar, LCI.A together with the installed post-LCI source ledger FCI.5f supplies the collar source-pressure package; OFP.A, CFI.A, endpoint readout, Field, and Member remain downstream consumers.
+- LCI.A. On a retained same-fluid interval with bounded Pack gauge and the ordered ACT.KX receiver package installed, ACT.X-Readout gives ACT.A, ACT.A gives RCF.A through the transported-center residual package, and ULCI.A/DTC.C yields lower-carrier interval integrability; FCI.5f, CSP.A, OFP.A, CFI.A, endpoint readout, Field, and Member remain downstream consumers.
 - ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail, and windowwise leakage ledgers sum to the Pack_Q scale-critical donor-refill Carleson bound; an unpaid infinite donor-refill tree is therefore a Pack-face exit witness.
+- - problems/navier-stokes/live-theorem-edge.yaml
+- theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
+- - problems/navier-stokes/theorem-packet.yaml
+- - problems/navier-stokes/theorem-repair.yaml
+- mcp_response_rule: Every Navier-Stokes MCP frontier, leading-edge, or theorem-target
 - WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing controlled by weighted adjoint residual mass. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - PastWindowShadowCompleteness.A. Every uncharged terminal reserve contribution has a Past(W) shadow ancestor; any first uncovered contribution injects into Charge_N(W) or is absorbed by the declared loss ledger.
-- - problems/navier-stokes/theorem-packet.yaml
-- - problems/navier-stokes/live-theorem-edge.yaml
-- theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
-- - once a route packet or broad theorem burden is visible, the lane must immediately
-- central_gate: Every promoted theorem result must land in Pack_Q, Part_{N,Q}, or
-- ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
-- ReserveCreationCharge.A. For every admissible terminal heat window W and scale N, the positive first-created square reserve increment is inherited from Past(W) up to declared loss or is paid by Charge_N(W), so [R_N(W) - (1 - delta)R_N(Past(W)) - Loss_N(W)]_+ <= Charge_N(W) + o_N(1).
-- TerminalReserveFirstAppearanceCharge.A. On every admissible terminal heat window W, every square-reserve contribution not already represented in Past(W) either injects into Charge_N(W) or is absorbed by the declared loss ledger.
-- ParabolicEdgeResistance.A. After signed-current localization and boundary pricing, the cycle heat action controls the parabolic edge resistance required by the live frontier.
 
 ## Forbidden Imports
 
@@ -74,8 +74,8 @@ TerminalcmnoexitNogenuinecmexitMinimalBridge.A. Find the missing local bridge th
 1. Name the strongest installed inputs.
 2. State the weakest bridge they imply.
 3. Audit that the bridge does not import the target conclusion.
-4. Use problems/navier-stokes/agent-contract.yaml:55 as source support for Pack/Part bridge support.
-5. Use problems/navier-stokes/agent-contract.yaml:53 as source support for source ingredient.
+4. Use problems/navier-stokes/agent-contract.yaml:53 as source support for source ingredient.
+5. Use problems/navier-stokes/agent-contract.yaml:145 as source support for installed dynamic support.
 
 ## Circularity Audit
 

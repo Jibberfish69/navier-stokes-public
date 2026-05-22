@@ -6,9 +6,10 @@ This is the branch-local map for where the Euler mirror meets the parent
 Navier-Stokes program, where the meeting is smooth or regularity-conditional,
 where the meeting is nonsmooth, and what viscosity is doing in each case.
 
-This file is not a proof of global Euler smoothness. It is a route-control
-surface: every Euler/NS comparison in the branch must land in one of these
-scenario rows before it is used as theorem authority.
+This file is not a proof of global Euler smoothness and not a global verdict
+that Euler is nonsmooth. It is a route-control surface: every Euler/NS
+comparison in the branch must land in one of these scenario rows before it is
+used as theorem authority.
 
 ## Governing Separation
 

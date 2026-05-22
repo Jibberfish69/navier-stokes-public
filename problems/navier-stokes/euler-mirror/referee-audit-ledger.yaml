@@ -10,7 +10,10 @@ purpose: >-
   implication, non-Euler import, provenance/comparison only, or machinery status.
   This ledger is not a proof of global Euler smoothness; it is the authority that
   prevents copied Navier-Stokes viscosity labor from being treated as an Euler
-  theorem.
+  theorem. It is also not a global binary verdict on Euler. Its job is
+  scenario-by-scenario refereeing: record where Euler is smooth by hypothesis,
+  where Euler is nonsmooth or not forced smooth, and where Navier-Stokes crosses
+  a gap only because viscosity supplies proof labor.
 classification_vocabulary:
   - id: smooth_by_hypothesis
     meaning: >-
@@ -44,6 +47,9 @@ classification_vocabulary:
       The surface records branch state, contracts, audit status, or the checker
       that enforces this ledger.
 global_readback:
+  scenario_not_binary: >-
+    The branch does not classify Euler as globally smooth or globally nonsmooth.
+    It classifies each installed Euler/NS contact scenario separately.
   smooth_where: >-
     Euler is smooth in this branch only in explicit smooth cases: fixed-interval
     classical Euler, fixed-thickness smooth shear layers, or regularity/control

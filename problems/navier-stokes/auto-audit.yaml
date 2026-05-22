@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-22T22:59:23Z'
+  audited_at: '2026-05-22T23:31:36Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -39,7 +39,7 @@ branch_audit:
   authority_frontier_count: 1
   authority_blocking_count: 1
   authority_status: theorem-open-at-direct-live-frontier
-downstream_overlay_drift: &1
+downstream_overlay_drift:
   status: ok
   issue_id: downstream-overlay-drift
   authority_surface_count: 0
@@ -53,7 +53,7 @@ downstream_overlay_drift: &1
     - theorem-upgrade
   - artifact: release_decision
     path: problems/navier-stokes/release-decision.yaml
-    sha1: d0d99d8af6a4ac788c5eb0baa7f55d0a506a77fb
+    sha1: 94f3518d3603e07df445b0246313bf7502048d39
     matched_terms:
     - theorem-upgrade
   recommended_repair: refresh-review-verdict
@@ -240,18 +240,42 @@ surface_snapshot:
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
 issues:
-- issue_id: downstream-overlay-drift
+- issue_id: direct-live-generated-target-drift
   severity: major
-  summary: Generated theorem/review/release overlays still advertise stale blockers
-    after the direct live theorem edge advanced.
+  summary: One or more generated artifacts still target a non-live guardrail while
+    direct-live authority is on the Stage C frontier.
   autofixable: false
-  recommended_action: Regenerate the derived theorem chain, refresh honesty-review
-    if review-verdict is stale, and rerun release-or-respawn after review.
-  details: *1
-fix_plan:
-- fix_id: repair-downstream-overlay-drift
-  summary: Repair stale downstream overlays in a bounded promotion-preserving order.
-  autofixable: false
+  recommended_action: Regenerate or explicitly supersede the stale generated artifacts
+    so every live artifact target is one of the current direct-live frontier obligations.
+  details:
+    live_frontier_ids:
+    - terminalcmnoexit-a-nogenuinecmexit-a
+    drift_artifacts:
+    - artifact: dependency_discharge
+      path: problems/navier-stokes/dependency-discharge.yaml
+      target_ids:
+      - CFI.A
+      generated_at: '2026-05-22T23:27:12Z'
+    - artifact: object_formalization
+      path: problems/navier-stokes/object-formalization.yaml
+      target_ids:
+      - source-wall-root-after-reconcile
+      generated_at: '2026-05-04T19:59:00Z'
+    - artifact: debt_map
+      path: problems/navier-stokes/debt-map.yaml
+      target_ids:
+      - debt-keep-theorem-scope-below-the-first-unsafe-overclaim
+      - debt-theorem-upgrade-1-source-wall-root-after-reconcile
+      generated_at: ''
+    - artifact: creative_theorem_search
+      path: problems/navier-stokes/creative-theorem-search.yaml
+      target_ids:
+      - CFI.A
+      - NoGenuineCMExit.A
+      - SOURCE.NO-PULSE.A
+      - RawZenoFailurePartition.A
+      generated_at: '2026-05-22T23:25:52Z'
+fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
@@ -263,3 +287,6 @@ source_artifacts:
   promotion_verdict: problems/navier-stokes/promotion-verdict.yaml
   theorem_creation: problems/navier-stokes/theorem-creation.yaml
   dependency_discharge: problems/navier-stokes/dependency-discharge.yaml
+  object_formalization: problems/navier-stokes/object-formalization.yaml
+  debt_map: problems/navier-stokes/debt-map.yaml
+  creative_theorem_search: problems/navier-stokes/creative-theorem-search.yaml
