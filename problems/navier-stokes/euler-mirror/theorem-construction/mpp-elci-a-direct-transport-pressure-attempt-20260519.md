@@ -288,11 +288,11 @@ Together with `(ETP.7)` and `A+Omega in L^1(I)`, this gives
 So `ELCI.A` is conditionally closed once the Euler center/oscillation/pressure
 ledger is integrable.
 
-## Step 6: Exact Surviving Theorem Target
+## Step 6: Receiver Split Closure
 
-The attempted full completion does not prove
+The attempted full completion did not prove
 `\mathfrak L^{E,ctr}_{N,m,\rho,\psi}\in L^1(I)` from `Member_E` or from the
-current lower packet.
+current lower packet. The May 22 separation theorem closes that gap exactly.
 
 The obstruction is structural. Bounding `A`, `Omega`, or `Pi` only by the same
 lower packet feeds `(ETP.14)` back into itself as a growth inequality without a
@@ -300,7 +300,7 @@ dissipative sink. On the parent route, this is precisely where `ACT.KX` used
 `c_nu N`, the `eta_X` scheduler, and `ACT.X-TopVisc`. Euler has no replacement
 for those terms on the current surface.
 
-The exact next theorem target is therefore the split form:
+The closed split form is:
 
 ```math
 \boxed{
@@ -317,18 +317,21 @@ The exact next theorem target is therefore the split form:
 ```
 
 proved on the same finite transported Euler cover under exact additional
-Euler-native regularity hypotheses, together with explicit routing of base
-`Member_E` nonsmooth cases where the ledger is not forced.
+Euler-native regularity hypotheses, together with a base `Member_E` witness
+where the ledger is not forced.
 
 Scenario authority:
 [euler-ns-viscosity-scenario-separation-map-20260521.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md).
 
+Closure authority:
+[mpp-elci-cp-a-separation-closure-20260522.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md).
+
 ## Verdict
 
 The six-step `ELCI.A` completion route closes the packet inequality and the
-conditional Gronwall theorem. It does not close the full Euler regularity
-burden, because the missing independent supplier is exactly
-`ELCI.CP.A-Separation`: integrability of the transported-center, oscillation,
-and centered pressure-return ledger under honest Euler regularity hypotheses, and
-non-integrability or non-forcing readback for base `Member_E` scenarios without
-the parent viscous absorption chain.
+conditional Gronwall theorem. The May 22 closure note closes the missing
+independent supplier as a split theorem: honest Euler control assumptions give
+the transported-center, oscillation, and centered pressure-return ledger, while
+base `Member_E` alone fails to give it. The full Euler regularity burden remains
+open because it would require a separate Euler-native control/continuation
+theorem, not a receiver-chain import.
