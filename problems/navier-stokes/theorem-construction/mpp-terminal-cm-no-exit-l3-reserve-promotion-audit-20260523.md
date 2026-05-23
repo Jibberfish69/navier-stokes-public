@@ -6,6 +6,13 @@ Status: theorem-facing coordination audit. This closes the attempted shortcut
 from the installed local `L^3` public translator to the Pack-side reserve
 chain. It does not prove `TerminalCMNoExit.A`.
 
+Supersession note: this audit is correct only for the reserve-pricing supplier
+question. It should not be read as saying the local `L^3` translator is unusable
+inside the CM-facing terminal proof. The terminal `L^3` Duhamel-mass branch is
+now separately seated by
+`mpp-terminal-l3-duhamel-mass-cm-face-correction-20260523.md` as
+`TerminalL3DuhamelMassCMFace.A`.
+
 ## Target
 
 The live Clay-facing theorem remains:
