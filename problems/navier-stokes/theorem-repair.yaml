@@ -8,20 +8,15 @@ identity:
   generator: system/runner/workers/theorem_repair_worker.rb
 authority_sync_gate:
   authority_mode: direct-live-surfaces
-  all_discharged: false
-  blocking_count: 1
-  frontier_count: 1
+  all_discharged: true
+  blocking_count: 0
+  frontier_count: 0
   truth_priority:
   - live-theorem-edge.yaml
   - source-frontier.yaml
   - theorem-packet.yaml
   - generated crank/status surfaces
-  unresolved_entries:
-  - obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
-    kind: live-theorem-frontier
-    label: TerminalCMNoExit.A / NoGenuineCMExit.A
-    status: frontier-open
-    source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+  unresolved_entries: []
 central_gate:
   gate_id: cm-witness-face-bridge
   target: Every theorem result must land in Pack_Q, Part_{N,Q}, or Field_{N,r,Q},
@@ -35,23 +30,25 @@ central_gate:
 contract_compiler:
   status: contracts-compiled
   active_contracts:
-  - contract_id: terminalcmnoexit-a-nogenuinecmexit-a
-    target: TerminalCMNoExit.A / NoGenuineCMExit.A
+  - contract_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
+    target: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
     output_lane: cm-bearing
     allowed_inputs:
     - installed same-fluid Pack/Part/Field definitions
     - live CM primitive in live-theorem-edge.yaml
-    - source-frontier unresolved obligation
+    - alleged finite Clay terminal witness from the same original smooth datum
     - direct-live authority gate
     carrier: O_NS^work, Q, N, r, same-fluid family
     scale: same window and same class-membership witness face
-    proof_direction: contrapositive_class_membership
+    proof_direction: entry_first_contrapositive_witness_consumption
     cm_landing_required:
     - Pack
     - Part
     - Field
-    noncircularity_boundary: Do not spend PCTP.hard, SOURCE.NO-PULSE.A, AWG.A, or
-      TGC.A as a direct CM bridge unless a separate bridge theorem proves the landing.
+    noncircularity_boundary: Do not recast the target as TerminalCMNoExit.A /
+      NoGenuineCMExit.A, PCTP.hard, SOURCE.NO-PULSE.A, AWG.A, or TGC.A unless
+      the user explicitly switches from CM contrapositive witness consumption to
+      a positive packet-survival or supplier proof.
   face_landing_contracts:
   - contract_id: cm-pack-landing-bridge
     target: Pack landing for the CM witness-face bridge
