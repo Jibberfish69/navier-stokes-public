@@ -249,6 +249,7 @@ FaceRestrictionHeredity.A
 
 with the explicit analytic warning that any loss of positive Field scale during
 synchronization routes back to the live source-wall root rather than promoting
-supplier-only objects into `Pack`, `Part`, `Field`, or `Member`.
+supplier-only objects into `Pack`, `Part`, or `Field`; `Member` is downstream
+after the CM witness certificate.
 
 This note is a bounded refinement and not a promotion.
