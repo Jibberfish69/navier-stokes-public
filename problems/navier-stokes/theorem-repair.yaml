@@ -126,7 +126,7 @@ output_classifier:
     Jump_avg, pressure-strain, and compactness work remain branch-support unless separately
     licensed.
 bridge_license_auditor:
-  status: synthesis-installed
+  status: synthesis-grounded
   cross_face_synthesis_installed: true
   required_landing_faces:
   - Pack
@@ -167,12 +167,14 @@ bridge_license_auditor:
     - problems/navier-stokes/obstruction-capture.md
     - problems/navier-stokes/claim-ladder.md
   cross_face_synthesis_support:
-    status: localized-support
+    status: grounded
     support_strength: strong
     debt_id: CM.CrossFaceSynthesis.A
     label: CM.CrossFaceSynthesis.A
     last_derivation_run_id: ''
     source_scope_status: ''
+    dependency_discharge_status: grounded
+    spent_by_dependency_discharge: true
     evidence_paths:
     - problems/navier-stokes/theorem-construction/mpp-cm-cross-face-synthesis-bridge-license-audit-20260505.md
   all_required_faces_localized: true
