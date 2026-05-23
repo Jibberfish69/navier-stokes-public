@@ -246,7 +246,6 @@ witness.
 
 Source-frontier obligations such as mixed-jet, Hopf/shuffle, Lagrangian, Lemma
 4B, and energy-insufficiency claims remain support/export obligations until a
-named theorem lands them in `Pack`, `Part`, `Field`, or `Member`.
 named theorem lands them in `Pack`, `Part`, or `Field`.
 
 ### `ManuscriptDraftExportBoundary.A`
@@ -490,7 +489,6 @@ The only theorem-bearing categories capable of CM promotion are exactly the
 face categories and typed subset categories. The support categories are closed
 by quarantine: they may carry evidence, provenance, export text, or generated
 copies, but they cannot steer the CM program unless a named theorem promotes
-them into `Pack`, `Part`, `Field`, or `Member`.
 them into `Pack`, `Part`, or `Field`.
 
 Thus the earlier theorem-packet sweep is now genuinely global over the
