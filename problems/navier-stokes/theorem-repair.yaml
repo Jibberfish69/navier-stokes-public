@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   repair_id: theorem-repair-navier-stokes
-  generated_at: '2026-05-23T18:15:41Z'
+  generated_at: '2026-05-23T20:29:58Z'
   generator: system/runner/workers/theorem_repair_worker.rb
 authority_sync_gate:
   authority_mode: direct-live-surfaces
@@ -173,20 +173,12 @@ bridge_license_auditor:
     label: CM.CrossFaceSynthesis.A
     last_derivation_run_id: ''
     source_scope_status: ''
-    dependency_discharge_status: grounded
-    spent_by_dependency_discharge: true
     evidence_paths:
     - problems/navier-stokes/theorem-construction/mpp-cm-cross-face-synthesis-bridge-license-audit-20260505.md
-  same_ledger_concordance_support:
-    status: localized-support
-    support_strength: conditional
-    debt_id: SameLedgerConcordance.A
-    label: SameLedgerConcordance.A
-    residual_primitive_id: PositiveFieldScaleUnderSynchronization.A
-    evidence_paths:
-    - problems/navier-stokes/theorem-construction/mpp-cm-cross-face-ledger-synchronization-creative-step-20260513.md
-    - problems/navier-stokes/theorem-construction/mpp-face-restriction-heredity-audit-20260513.md
-    - problems/navier-stokes/theorem-construction/mpp-same-ledger-concordance-terminal-cm-insertion-20260523.md
+    dependency_discharge_status: grounded
+    spent_by_dependency_discharge: true
+    spent_at: '2026-05-23T20:30:21Z'
+    dependency_discharge_target_id: CM.CrossFaceSynthesis.A
   all_required_faces_localized: true
   last_discharge_audit:
     target_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
@@ -204,6 +196,4 @@ next_step:
   next_cell_type: solver-loop
   next_stage: theorem-repair-source-wall-frontier-active
   next_action: 'CM.CrossFaceSynthesis.A is installed as the aggregate bridge-license
-    theorem; SameLedgerConcordance.A is now the upstream same-packet synchronization
-    bridge with PositiveFieldScaleUnderSynchronization.A still open. Continue solver-loop
-    on the live frontier: terminalcmnoexit-a-nogenuinecmexit-a.'
+    theorem; continue solver-loop on the live frontier: terminalcmnoexit-a-nogenuinecmexit-a.'
