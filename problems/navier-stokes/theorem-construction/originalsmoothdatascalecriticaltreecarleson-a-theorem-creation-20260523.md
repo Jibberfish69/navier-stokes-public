@@ -85,11 +85,11 @@ OriginalSmoothDataScaleCriticalTreeCarleson.A. Original smooth data gives ScaleC
 ## Solver Verdict
 
 - verdict: new_subprimitive
-- certification_level: theorem-creation:new-subprimitive
+- certification_level: theorem-creation:supplier-quarantined
 - rationale: The theorem has been reduced to a smaller noncircular primitive that is not currently installed.
 - next subprimitive: PositiveRemainderDepletion.A -- packetwise positive source remainder depletion on the localized pre-Cauchy source carrier
 
 ## Promotion Plan
 
 - promotion_allowed: false
-- recommended_next_cell_type: theorem-creation
+- recommended_next_cell_type: theorem-repair
