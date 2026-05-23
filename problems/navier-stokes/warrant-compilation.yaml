@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: warrant-compilation-navier-stokes
-  generated_at: '2026-05-23T23:49:32Z'
+  generated_at: '2026-05-23T23:56:10Z'
   generator: tools/ns_pipeline_hardener.rb
 primary_track:
   route_id: source-grounded-four-bridge
@@ -281,9 +281,9 @@ active_frontier:
         terminal packet capture, terminal source-residue CM-exit sorting, and finite
         failure witness capture. TerminalCMNoExit.A / NoGenuineCMExit.A, bare positive-supplier
         deletion theorems, B_ASAC reverse-Holder production, PCTP/no-pulse supplier
-        targets, and endpoint readout consequences stay separate or quarantined as
-        support unless the user explicitly switches to a positive packet-survival
-        proof.
+        targets, and endpoint readout consequences, plus every surface indexed in
+        the forward-positive quarantine ledger, stay separate or quarantined as support
+        unless the user explicitly switches to a positive packet-survival proof.
       nearest_wrong_substitution: Recasting the CM contrapositive target as TerminalCMNoExit.A
         / NoGenuineCMExit.A, a bare positive-supplier deletion theorem, or a demand
         to prove that the Pack/Part/Field packet never exits.
@@ -527,9 +527,9 @@ active_frontier:
     allowed_input_boundary: The proof may use installed genuine-exit capture, canonical
       terminal packet capture, terminal source-residue CM-exit sorting, and finite
       failure witness capture. Bare positive-supplier deletion theorems, B_ASAC reverse-Holder
-      production, PCTP/no-pulse supplier targets, and endpoint readout consequences
-      remain separate or quarantined support unless a Pack/Part/Field bridge license
-      is proved.
+      production, PCTP/no-pulse supplier targets, endpoint readout consequences, and
+      every surface indexed in the forward-positive quarantine ledger remain separate
+      or quarantined support unless a Pack/Part/Field bridge license is proved.
     nearest_wrong_substitution: Treating B_ASAC supplier exhaustion or source-residue
       sorting as Clay-facing CM closure.
   release_or_respawn_consequence: &6
@@ -540,10 +540,45 @@ active_frontier:
       by classifying every alleged finite terminal tail through the Pack-first CM
       witness tree with Pack, then Part, then licensed Field; Member(Q) is downstream
       of that witness certificate.
-  non_merge_rules: &7
+  forward_positive_surface_quarantine: &7
+    status: active-global-demotion
+    index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
+    generator: problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb
+    scan_scope: problems/navier-stokes/** text surfaces
+    entry_count: 1853
+    summary_by_class:
+      already-demoted-positive-support-language: 66
+      downstream-export-or-legacy-engine-support: 567
+      quarantined-forward-positive-supplier-support: 625
+      receiver-readout-endpoint-support: 1143
+      separate-positive-smoothness-support: 378
+      separate-transfer-or-euler-comparison-support: 128
+    rule: Every indexed forward-positive, positive-supplier, continuation, transfer,
+      receiver/readout, export, or already-demoted positive surface is support only
+      for the CM contrapositive program. It cannot set the live CM frontier, close
+      TerminalCMNoExit.A / NoGenuineCMExit.A, replace the Pack-first witness tree,
+      count as publication readiness, or turn a bad source/residue object into a deletion
+      burden when that object is already a lawful class-exit witness.
+    promotion_gate: Only a named bridge-license theorem that lands the exact result
+      in Pack_Q, Part_{N,Q}, or Field_{N,r,Q} can promote an indexed surface for CM
+      use.
+    pre_answer_rule: If a Navier-Stokes answer, target packet, review surface, release
+      surface, or theorem-creation prompt cites any indexed surface while the active
+      program is CM contrapositive, it must state its quarantine class or route it
+      through the Pack/Part/Field bridge-license gate before using it.
+    positive_program_boundary: When the user explicitly switches to a positive smoothness,
+      positive supplier, fixed-nu transfer, or Euler comparison program, indexed surfaces
+      may be read only inside that separate program and still do not become CM authority.
+    index_path: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
+    index_status: active-global-demotion-index
+    summary_by_scope:
+      repo-surface: 201
+      theorem-construction: 1652
+  non_merge_rules: &8
   - rule_id: positive-vs-cm
-    statement: Positive smoothness control is not the CM contrapositive unless a named
-      bridge proves membership or witness-face landing.
+    statement: Positive smoothness control and every surface indexed in the forward-positive
+      quarantine ledger are not the CM contrapositive unless a named bridge proves
+      membership or witness-face landing in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
   - rule_id: fixed-nu-transfer-vs-ns-smoothness
     statement: Fixed-nu Euler-to-NS transfer compares two equations on the same datum
       and interval; it does not prove Euler smoothness or stand-alone NS smoothness.
@@ -575,7 +610,7 @@ active_frontier:
   - rule_id: runtime-repair-vs-math
     statement: Repairing generated surfaces or daemon behavior is not theorem progress
       unless it creates or promotes exact theorem-facing work.
-  authority_hierarchy: &8
+  authority_hierarchy: &9
     source_priority:
     - problems/navier-stokes/source-forensics/
     - problems/navier-stokes/live-theorem-edge.yaml
@@ -583,6 +618,7 @@ active_frontier:
     - problems/navier-stokes/theorem-packet.yaml
     - problems/navier-stokes/theorem-repair.yaml
     - problems/navier-stokes/dependency-discharge.yaml
+    - problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
     - problems/navier-stokes/theorem-construction/mpp-major-non-euler-cm-contrapositive-closures-20260514.md
     - problems/navier-stokes/non-euler-surface-face-sweep-index-20260514.yaml
     - problems/navier-stokes/non-euler-failure-face-diagnostic-map-20260514.yaml
@@ -599,13 +635,16 @@ active_frontier:
       terminal posture, or a singleton target that conflicts with the direct live
       surfaces and this contract, demote or repair that surface before using it in
       a user answer.
-  mode_selection_protocol: &9
+  mode_selection_protocol: &10
     before_answer:
     - lock target using target_lock_schema
     - inspect authority_source unless the user only asks for a purely conversational
       reflection
     - classify proof_mode before using words like route, frontier, wall, path, target,
       closure, or smoothness
+    - check the forward-positive quarantine index before using a positive, supplier,
+      transfer, receiver/readout, export, or continuation surface in a CM contrapositive
+      answer
     - classify action_type before choosing status, proof attempt, patch, inventory,
       or target-tail output
     - preserve paused targets instead of merging them into the active one
@@ -625,6 +664,7 @@ proof_program_topology: *3
 open_root_group: *4
 exact_live_theorem_grade_burden: *5
 release_or_respawn_consequence: *6
-non_merge_rules: *7
-authority_hierarchy: *8
-mode_selection_protocol: *9
+forward_positive_surface_quarantine: *7
+non_merge_rules: *8
+authority_hierarchy: *9
+mode_selection_protocol: *10
