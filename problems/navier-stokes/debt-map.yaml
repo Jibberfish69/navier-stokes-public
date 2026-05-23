@@ -5,7 +5,7 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-05-23T19:36:46Z'
+  extracted_at: '2026-05-23T19:43:45Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
@@ -20,6 +20,7 @@ supporting_sections:
     a revise-stage workboard.
   required_local_explanations: []
   post_release_theorem_upgrade_gaps:
+  - SameLedgerConcordance.A / PositiveFieldScaleUnderSynchronization.A residual
   - source-wall-root-after-reconcile
   promotion_rule:
   - Do not promote beyond `revise` until every row marked as a live theorem burden
@@ -199,8 +200,8 @@ debt_items:
   rationale: The ledger says the material already exists in some proved or discharged
     form, so the remaining work is localization, exposition, or packaging.
   priority_rank: 4
-- debt_id: debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  label: source-wall-root-after-reconcile
+- debt_id: debt-theorem-upgrade-1-sameledgerconcordance-a-positivefieldscaleundersynchronization-a-residual
+  label: SameLedgerConcordance.A / PositiveFieldScaleUnderSynchronization.A residual
   source_section: post-release-theorem-upgrade
   monograph_status: reopened from post-release theorem-upgrade plan
   standalone_need: 'yes'
@@ -212,12 +213,25 @@ debt_items:
     package, so it must stay on the theorem-upgrade path instead of being demoted
     to packaging debt.
   priority_rank: 5
+- debt_id: debt-theorem-upgrade-2-source-wall-root-after-reconcile
+  label: source-wall-root-after-reconcile
+  source_section: post-release-theorem-upgrade
+  monograph_status: reopened from post-release theorem-upgrade plan
+  standalone_need: 'yes'
+  primary_anchors:
+  - problems/navier-stokes/post-release-plan.yaml
+  debt_class: blocked-frontier
+  recommended_stage: creative-theorem-search
+  rationale: The post-release plan says this gap remains outside the accepted checkpoint
+    package, so it must stay on the theorem-upgrade path instead of being demoted
+    to packaging debt.
+  priority_rank: 6
 summary:
   counts_by_class:
     packaging: 1
     local-derivable: 3
     branch-choice: 0
-    blocked-frontier: 1
+    blocked-frontier: 2
   recommended_next_cell_type: theorem-creation
   recommended_next_action: Local support has been found for the CM authority gate,
     but the live Pack/Part/Field bridge is still open, so run theorem-creation before
