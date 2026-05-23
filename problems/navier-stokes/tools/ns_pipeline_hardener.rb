@@ -83,7 +83,7 @@ CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE = {
   "disposition" => "respawn",
   "next_cell_type" => "source-wall-root-theorem",
   "next_stage" => "direct-packet-survival",
-  "next_action" => "Prove TerminalCMNoExit.A / NoGenuineCMExit.A by ruling out Pack strain-integrability loss, Part closedness-input loss, and licensed Field coherence loss on every alleged finite terminal tail."
+  "next_action" => "Prove TerminalCMNoExit.A / NoGenuineCMExit.A as Exit(Q):=not Member(Q) by classifying every alleged finite terminal tail through the Pack-first CM witness tree with Pack, then Part, then licensed Field; Member(Q) is downstream of that witness certificate."
 }.freeze
 NS_TARGET_PREFLIGHT = TARGET_OPERATING_CONTRACT.fetch("target_preflight").freeze
 NS_TARGET_LOCK_SCHEMA = TARGET_OPERATING_CONTRACT.fetch("target_lock_schema").freeze
