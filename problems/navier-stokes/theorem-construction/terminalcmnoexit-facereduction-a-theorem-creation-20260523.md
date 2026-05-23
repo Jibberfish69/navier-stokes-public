@@ -27,12 +27,12 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 
 ### Retrieved Ingredients
 
+- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
 - problems/navier-stokes/agent-contract.yaml:53 -- source ingredient
+- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
 - problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:101 -- source ingredient
-- problems/navier-stokes/agent-contract.yaml:99 -- retained-face amplitude support
-- problems/navier-stokes/agent-contract.yaml:56 -- source ingredient
-- problems/navier-stokes/agent-contract.yaml:144 -- retained-face amplitude support
+- problems/navier-stokes/theorem-packet.yaml -- residual control
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 
 ### Recursive Solver Chain
 
@@ -49,13 +49,13 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 - TerminalPackStrainIntegrabilityNoExit.A
 - TerminalPartClosednessInputNoExit.A
 - TerminalLicensedFieldCoherenceNoExit.A
+- Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - - problems/navier-stokes/live-theorem-edge.yaml
-- theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
-- mcp_response_rule: Every Navier-Stokes MCP frontier, leading-edge, or theorem-target
+- Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+- Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is the exact remaining forward supplier theorem; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, so this production is not currently discharged and remains supplier-quarantined for the CM route.
 - CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional field-integrability package, while End_NS, Field readout, and Member remain downstream consequences.
 - TemporalNonAtomicSource.A. Every terminal source-residue measure produced by the accepted Zeno compactness extraction is non-atomic at the terminal time slice.
-- OFP.A. The collar source-pressure package CSP.A propagates the retained one-field package on the same-fluid interval, with CFI.A, endpoint readout, Field, and Member kept downstream.
 
 ## Forbidden Imports
 
@@ -73,8 +73,8 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 3. Use GenuineCMExit.Equiv.A to read genuine terminal non-continuation as loss of every continuation-complete Pack/Part/Field packet.
 4. Use TerminalSourceResidueCMExit.A only as source-residue sorting into Pack/Part; do not treat anti-atom deletion or source absolute continuity as the Field face.
 5. Conclude that TerminalCMNoExit.A is exactly the conjunction of Pack no-exit, Part no-exit, and licensed Field no-exit; leave those analytic faces as the residual theorem.
-6. Use problems/navier-stokes/agent-contract.yaml:53 as source support for source ingredient.
-7. Use problems/navier-stokes/agent-contract.yaml:145 as source support for installed dynamic support.
+6. Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
+7. Use problems/navier-stokes/agent-contract.yaml:53 as source support for source ingredient.
 
 ## Circularity Audit
 
