@@ -2,7 +2,7 @@
 
 ## Status
 
-Conditional pressure route and completed diagnostic placement.  The pressure/Leray tether remains a plausible production mechanism, and the all-doors-closed survivor lands as a CM Field-face diagnostic.
+Conditional pressure route and completed diagnostic placement.  The pressure/Leray tether remains a plausible production mechanism, and the all-doors-closed survivor is demoted to Pack-first `not Pack_Q` support unless a positive-scale retained-carrier bridge licenses later Field readout.
 
 ## Pressure/source absolute-continuity route
 
@@ -47,7 +47,7 @@ AnisotropicPressurePartnerCharge.A
 PressureSourceAC.A.
 ```
 
-## CM Field-face diagnostic route
+## CM Pack-first diagnostic route
 
 The all-doors-closed survivor is
 
@@ -57,7 +57,7 @@ B_{ASAC}^{closed}.
 
 It consists of a retained same-fluid terminal native source residue after ASAC defect, legal exits, finite donor trees, temporal anti-concentration, active reserve, transported no-incoming, pressure/Leray tether, and rigid-subclass production have been audited.
 
-This survivor is a selected terminal Zeno source atom.  It is not a Pack geometry failure or a Part scheduler failure in the current source-wall bookkeeping.  It is a retained source-wall Field defect.
+This survivor is a selected terminal Zeno source atom. It is Pack-first zero-radius residue support in the current source-wall bookkeeping; it is not a retained source-wall Field defect without an added positive-scale retained-carrier bridge.
 
 The CM witness envelope is
 
@@ -71,7 +71,7 @@ The installed Zeno landing discipline gives
 RawZenoFailurePartition.A
 +ZenoAtomFailureToFaceWitness.A
 \Longrightarrow
-\text{selected terminal Zeno atom lands in }Field_{N,r,Q}.
+\text{zero-radius selected terminal Zeno atom is not }Pack_Q.
 ```
 
 Therefore
@@ -79,7 +79,7 @@ Therefore
 ```math
 B_{ASAC}^{closed}
 \Longrightarrow
-Field_{N,r,Q}\text{-face diagnostic.}
+\neg Pack_Q\text{ support.}
 ```
 
 ## Verdict
@@ -89,8 +89,8 @@ The pressure/source tether route stays conditional at `PressureTimeFaceSpread.A`
 The time-face CM route is completed diagnostically:
 
 ```math
-BASACClosedAtomCMFieldFaceDiagnostic.A:
-B_{ASAC}^{closed}\Rightarrow Field_{N,r,Q}\text{-face selected Zeno terminal atom diagnostic.}
+BASACClosedAtomCMPackExitSupport.A:
+B_{ASAC}^{closed}\Rightarrow \neg Pack_Q\text{ zero-radius selected terminal source-residue support.}
 ```
 
 Forward source-wall theorem closure still requires a new production theorem.  The diagnostic completion records the survivor cleanly for CM-exit discipline.
