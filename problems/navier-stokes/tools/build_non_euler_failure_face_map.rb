@@ -74,7 +74,7 @@ FACE_RULES = {
     "diagnostic_status" => "support_quarantine",
     "selected_failure_type" => "history, audit, or context support",
     "cm_face_breaks" => [],
-    "retention_rule" => "Audit/context support stays quarantined unless promoted through Pack, Part, Field, or Member."
+    "retention_rule" => "Audit/context support stays quarantined unless promoted through Pack, Part, or Field."
   },
   "manuscript_export_not_face" => {
     "diagnostic_status" => "support_quarantine",
@@ -167,7 +167,7 @@ output = {
     "rule" => "For each non-Euler NS surface, keep the CM packet fixed, identify the selected failure type, and record which Pack/Part/Field face that failure can break.",
     "no_global_pack_part_retention" => "Pack and Part are not kept alive by default. They are retained only locally when the surface's own Pack/Part alternatives have been discharged or inherited from a selected branch.",
     "zeno_rule" => "Zeno is not a fourth face; a selected retained Zeno atom lands in Field.",
-    "support_rule" => "Supplier, readout, export, manuscript, generated, source-history, runtime, and governance surfaces are quarantined unless a named theorem promotes them into Pack, Part, Field, or Member."
+    "support_rule" => "Supplier, readout, export, manuscript, generated, source-history, runtime, and governance surfaces are quarantined unless a named theorem promotes them into Pack, Part, or Field; Member is reached only after the triadic CM witness."
   },
   "scope" => {
     "included_non_euler_text_surfaces" => index.dig("scope", "included_count"),
