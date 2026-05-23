@@ -18,6 +18,7 @@ tracks:
     target_tier: full-mpp-closure
     theorem_gap:
     - source-wall-root-after-reconcile
+    - SameLedgerConcordance.A / PositiveFieldScaleUnderSynchronization.A residual
     reviewer_risks:
     - Do not reopen cm-witness-face-bridge-required or source-drain unless a current live theorem surface retracts the 20260504 notes.
     recommended_next_cell_type: source-wall-root-theorem
