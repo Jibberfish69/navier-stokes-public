@@ -34,7 +34,7 @@ zero ASAC defect;
 paid legal exits;
 finite donor telescoping;
 positive native source residue at the terminal face;
-Field-face diagnostic landing.
+zero-radius `not Pack_Q` diagnostic placement.
 ```
 
 The pressure/Leray channel is the only candidate outside the six audited doors.
