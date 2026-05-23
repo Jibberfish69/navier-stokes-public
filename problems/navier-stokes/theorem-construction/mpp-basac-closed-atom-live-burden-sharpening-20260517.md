@@ -62,7 +62,7 @@ The first two items prevent pressure/Leray mass from drifting to an unrelated si
 
 ## Boundary
 
-Field-face diagnostic landing is already done. It gives a clean CM target, while it leaves the production problem open.
+Pack-first zero-radius diagnostic placement is already done. It gives `not Pack_Q` support, while it leaves the production problem open.
 
 Broad `PressureSourceAC.A` is too coarse. A proof of mere absolute continuity between pressure residue and source residue can still allow both residues to sit on the same terminal time face. The new burden needs a spread estimate.
 
