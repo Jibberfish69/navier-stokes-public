@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-23T20:04:17Z'
+  audited_at: '2026-05-23T20:07:48Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -250,44 +250,6 @@ issues:
     authority_frontier_count: 1
     authority_blocking_count: 1
     authority_status: theorem-open-at-direct-live-frontier
-- issue_id: generated-core-placeholder-survives
-  severity: major
-  summary: A generated CoreSubprimitive placeholder survived into a live solver handoff
-    instead of being sharpened to a source-backed residual.
-  autofixable: false
-  recommended_action: Rerun theorem invention with a target-specific mechanism, or
-    patch the residual handoff so solver_verdict and proof_object name the audited
-    subprimitive rather than a generated core placeholder.
-  details:
-    placeholder_entries:
-    - artifact: theorem_creation
-      path: problems/navier-stokes/theorem-creation.yaml
-      location: theorem_creation.solver_verdict.next_subprimitive
-      primitive_id: HeatDwellSampling.A.CoreSubprimitive
-      label: core noncircular subprimitive for heat-dwell sampling of a first positive
-        retained height-flux pulse
-      subprimitive_class: generated-core-subprimitive
-    - artifact: theorem_creation
-      path: problems/navier-stokes/theorem-creation.yaml
-      location: theorem_creation.proof_object.direct_residual_gap
-      primitive_id: HeatDwellSampling.A.CoreSubprimitive
-      label: core noncircular subprimitive for heat-dwell sampling of a first positive
-        retained height-flux pulse
-      subprimitive_class: generated-core-subprimitive
-    - artifact: theorem_creation
-      path: problems/navier-stokes/theorem-creation.yaml
-      location: theorem_creation.invention.selected_candidate.residual_gap
-      primitive_id: HeatDwellSampling.A.CoreSubprimitive
-      label: core noncircular subprimitive for heat-dwell sampling of a first positive
-        retained height-flux pulse
-      subprimitive_class: generated-core-subprimitive
-    - artifact: theorem_creation
-      path: problems/navier-stokes/theorem-creation.yaml
-      location: theorem_creation.invention.selected_candidate.direct_residual_gap
-      primitive_id: HeatDwellSampling.A.CoreSubprimitive
-      label: core noncircular subprimitive for heat-dwell sampling of a first positive
-        retained height-flux pulse
-      subprimitive_class: generated-core-subprimitive
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
