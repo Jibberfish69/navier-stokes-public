@@ -83,6 +83,8 @@ current_mirror_state:
       not membership itself.
     scenario_separation_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
     continuum_program_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-smoothness-continuum-program-20260523.md
+    continuum_closure_ledger: problems/navier-stokes/euler-mirror/euler-ns-continuum-closure-ledger.yaml
+    continuum_closure_theorem: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-continuum-closure-theorem-20260523.md
     referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
     scenario_separation_readback: >-
       Euler/NS contact points are now separated into smooth-or-conditional cases,
@@ -119,6 +121,8 @@ branch_surfaces:
   frontier_packet: problems/navier-stokes/euler-mirror/theorem-construction/euler-mirror-frontier-packet.md
   scenario_separation_map: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
   continuum_program: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-smoothness-continuum-program-20260523.md
+  continuum_closure_ledger: problems/navier-stokes/euler-mirror/euler-ns-continuum-closure-ledger.yaml
+  continuum_closure_theorem: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-continuum-closure-theorem-20260523.md
   referee_audit_ledger: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
   referee_audit_tool: problems/navier-stokes/euler-mirror/tools/euler_mirror_referee_audit.rb
   receiver_closure: problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md
