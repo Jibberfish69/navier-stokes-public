@@ -2,7 +2,8 @@
 
 Date: 2026-05-23
 
-Status: corrected CM-contrapositive theorem note.
+Status: corrected CM-contrapositive theorem note; proof thickened at the
+Pack/Part/Field case split.
 
 Theorem labels:
 
@@ -105,19 +106,42 @@ TerminalCMTree(W_*).
 
 Let `W_*` be a CM-lawful Clay terminal witness at `T_*<\infty`.
 
-On every compact preterminal interval `[0,T_*-\epsilon]`, the solution is
-classical. By `SLC.A`, every preterminal window carries the same-fluid
-Pack/Part/Field packet. These packets are not optional auxiliary structure;
-they are the analytic form of the same fluid object by `CMW.A`.
+Let `(u,p)` be the maximal classical solution from the original smooth datum on
+`[0,T_*)`. For every `\epsilon>0`, the restricted solution on
+`[0,T_*-\epsilon]` is classical. Hence every compact preterminal window carries
+the same-fluid data:
 
-Since `W_*` is CM-lawful, its terminal extraction is taken from this same
-preterminal family. Legal losses and readout artifacts are discarded by the
-witness definition. Therefore the surviving obstruction cannot be judged in a
-fourth grammar. By `CanonicalTerminalPacketCapture.A`, it is judged by the
+```math
+(\Omega,[0,T_*-\epsilon],\nu,u_0,u,p,\Phi;\mathscr L_{NS}).
+```
+
+By `SLC.A`, each such preterminal window carries Pack, Part, and Field at every
+finite depth after choosing a positive local scale. By `CMW.A`, those predicates
+are not decorative estimates; they are the analytic witness family for being
+inside the same local Navier-Stokes object.
+
+Now take the terminal extraction that produces `W_*`. Since `W_*` is CM-lawful,
+the extraction is from this preterminal family and keeps the same datum, same
+equation, same pressure/velocity pair, and same transported fluid carrier.
+Boundary/cutoff/collar losses, non-selected branches, readout-only artifacts,
+and paid finite ledger terms have already been removed by the witness
+definition.
+
+So the surviving object has only one possible terminal grammar. It must ask:
+
+```text
+does the same-fluid carrier survive?
+does the same pressure-viscosity/tower participation survive?
+does positive-scale one-field coherence survive?
+```
+
+These are exactly the Pack, Part, and Field services. Therefore `W_*` enters the
 Pack-first terminal CM tree:
 
 ```text
-Pack first, then Part if Pack survives, then Field if Pack and Part survive.
+Pack first;
+if Pack survives, Part second;
+if Pack and Part survive, Field third.
 ```
 
 So `W_*` enters `TerminalCMTree(W_*)`.
@@ -146,11 +170,104 @@ readout.
 
 ### Proof
 
-By `ClayTerminalWitnessCMEntry.A`, `W_*` enters the terminal CM packet tree.
-After legal losses and artifacts have been removed, it is a genuine finite-time
-same-solution failure witness.
+By `ClayTerminalWitnessCMEntry.A`, `W_*` enters the Pack-first terminal CM tree.
+We prove the face exhaustion directly.
 
-Apply `AnyFiniteFailureWitnessCMExit.A`. The witness must satisfy
+Fix a terminal window `Q` on the same terminal tail and fix the continuation
+depth `N_s` high enough for the installed `H^s`, `s>5/2`, readout.
+
+### Case 1: Pack fails
+
+Ask whether the terminal extraction leaves a positive legal same-fluid carrier
+on `Q`.
+
+If no such carrier survives, then the alleged terminal witness has lost the
+shared packing service:
+
+```math
+\neg Pack_Q.
+```
+
+This covers terminal zero-radius objects, detached donor ancestry, and any
+failure whose selected terminal object cannot be placed on a positive
+same-fluid transported carrier. The witness has been exhausted at the Pack face.
+
+### Case 2: Pack survives and Part fails
+
+Assume now that `Pack_Q` survives. Then the selected terminal object still has
+a legal carrier, so the next question is whether the same differentiated
+Navier-Stokes participation tower survives on that carrier:
+
+```math
+D_tU_k=K_k+B_k,\qquad
+K_k=-\nabla^{k+1}p+\nu\Delta U_k,
+\qquad 0\le k\le N_s.
+```
+
+If the terminal witness cannot be written inside this same pressure-viscosity
+tower with finite participation envelope through depth `N_s`, then the
+participation service has failed:
+
+```math
+\neg Part_{N_s,Q}.
+```
+
+This covers tower drop, pressure-viscosity participation failure, source
+residue that cannot remain in the shared participation ledger, and any retained
+carrier whose obstruction no longer belongs to the same Navier-Stokes law
+through the required depth. The witness has been exhausted at the Part face.
+
+### Case 3: Pack and Part survive, so Field must fail
+
+Assume finally that both earlier services survive:
+
+```math
+Pack_Q\wedge Part_{N_s,Q}.
+```
+
+Suppose, toward contradiction, that Field also survives at some positive scale
+`r>0`:
+
+```math
+Field_{N_s,r,Q}.
+```
+
+Then the terminal packet contains the full continuation-complete CM witness:
+
+```math
+CM_{N_s,r,Q}
+=
+Pack_Q\wedge Part_{N_s,Q}\wedge Field_{N_s,r,Q}.
+```
+
+The installed continuation readout for depth `N_s` gives
+
+```math
+\sup_{t<T_*}\|u(t)\|_{H^s}<\infty,
+\qquad s>5/2.
+```
+
+Classical local well-posedness at `s>5/2` then extends the same solution past
+`T_*`, contradicting that `W_*` is a finite terminal witness.
+
+Therefore no positive Field scale survives:
+
+```math
+Pack_Q\wedge Part_{N_s,Q}\wedge ClayWitness_{CM}(W_*)
+\Longrightarrow
+\forall r>0\,\neg Field_{N_s,r,Q}.
+```
+
+### Exhaustion
+
+The three cases cover all terminal possibilities because the witness has already
+entered the same-fluid CM tree. A fourth terminal residue would have to be a
+same-solution obstruction that is neither carrier loss, nor participation loss,
+nor one-field coherence loss. But after legal losses, readout artifacts,
+non-selected branches, and paid finite ledger terms are removed, the installed
+terminal packet has only those three services.
+
+Hence every CM-lawful finite Clay witness satisfies
 
 ```math
 \neg Pack_Q
@@ -160,17 +277,7 @@ Apply `AnyFiniteFailureWitnessCMExit.A`. The witness must satisfy
 \forall r>0\,\neg Field_{N_s,r,Q}.
 ```
 
-The three alternatives are exhaustive because `CanonicalTerminalPacketCapture.A`
-proves there is no fourth terminal residue:
-
-1. no legal positive same-fluid carrier means `not Pack_Q`;
-2. carrier survives but the pressure-viscosity/tower participation law drops
-   means `not Part_{N_s,Q}`;
-3. carrier and participation survive but no positive one-field coherence scale
-   survives means `forall r>0 not Field_{N_s,r,Q}`.
-
-Thus every finite failure type offered by `W_*` is classified as a CM witness
-face exit.
+This is the desired Pack/Part/Field exhaustion.
 
 ## Theorem `ClayCMContrapositiveEmbedding.A`
 
@@ -207,11 +314,16 @@ CM_{N_s,r,Q}
 Pack_Q\wedge Part_{N_s,Q}\wedge Field_{N_s,r,Q},
 ```
 
-this says that no continuation-complete same-fluid CM packet survives on the
-terminal tail in the required witness position. By `GenuineCMExit.Equiv.A`,
-this is the CM contrapositive conclusion: the alleged finite terminal witness
-is not a free-standing Clay object; it is a certified `Exit(Q)` witness for the
-same working Navier-Stokes object.
+the three alternatives are exactly the loss of the continuation-complete CM
+witness on the same terminal tail. The Pack case loses the same-fluid carrier;
+the Part case loses the same-law pressure-viscosity participation tower; the
+Field case loses positive-scale one-field coherence after carrier and
+participation survive.
+
+By `GenuineCMExit.Equiv.A`, loss of the continuation-complete same-fluid packet
+at the terminal tail is precisely genuine CM exit. The alleged finite terminal
+witness is therefore not a free-standing Clay object; it is a certified
+`Exit(Q)` witness for the same working Navier-Stokes object.
 
 Since
 
@@ -239,10 +351,20 @@ ClayWitness_{CM}(W_*)
 
 ### Proof
 
-This is immediate from `ClayCMContrapositiveEmbedding.A`. A CM-lawful Clay
-terminal witness must enter the same-fluid CM packet tree, and once it enters,
-`AnyFiniteFailureWitnessCMExit.A` forces its first failed service. Therefore it
-cannot remain as an unclassified or external Clay failure type.
+Let `W_*` be a CM-lawful finite Clay terminal witness. By
+`ClayTerminalWitnessCMEntry.A`, it enters the same-fluid CM tree. By the
+Pack/Part/Field case split in `ClayFiniteFailureTypeCMExhaustion.A`, it lands
+in exactly one first failed service:
+
+```text
+Pack fails first,
+or Pack survives and Part fails,
+or Pack and Part survive and Field fails.
+```
+
+By `ClayCMContrapositiveEmbedding.A`, each landing is an `Exit(Q)` witness.
+Therefore no CM-lawful finite Clay witness remains unclassified by the
+contrapositive program.
 
 The invalidation is exactly contrapositive: the alleged witness proves class
 exit instead of producing a surviving in-class counterexample object.
