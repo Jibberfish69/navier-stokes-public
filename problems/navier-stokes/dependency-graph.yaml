@@ -31,16 +31,16 @@ summary:
     Pack/Part/Field packet on every alleged finite terminal tail. Source-residue and
     B_ASAC terminal residue subcases are already sorted as Pack/Part witness or supplier-quarantined
     support; they are not bare anti-atom deletion burdens and do not close the no-exit
-    theorem. The May 16 source-supplier handoff sharpens the remaining positive source-control
-    atom to PositiveRemainderDepletion.A, with LocalPositiveSourceCarleson.A, SquareSourceEstimate.A,
-    ActiveShellAmplitudeGain.A, or non-Carleson Zeno temporal anti-concentration as
-    genuine supplier entrances. The May 17 parallel completion pass tests all five
-    entrances and proves none unconditionally from installed inputs: PRD needs SourceWeightedTerminalAngularDepletion.A,
-    LPSC returns to PRD, SquareSourceEstimate.A and ActiveShellAmplitudeGain.A return
-    to ActiveShellSourceNormalize.A / active-square reserve, and the non-Carleson
-    Zeno route needs TerminalSourceReverseHolder.A / UniformTemporalSourceIntegrability_p.A
-    or a produced rigid residue class with Liouville. The equality route under SourceWeightedTerminalAngularDepletion.A
-    now has ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A installed.
+    theorem. The historical PRD/LPSC/SquareSourceEstimate.A/ActiveShellAmplitudeGain.A/non-Carleson
+    Zeno source-control entrances are quarantined support for a downstream no-pulse
+    program. They are not terminal Zeno CM obligations. The May 17 parallel completion
+    pass remains evidence that those forward entrances are not installed CM inputs:
+    PRD needs SourceWeightedTerminalAngularDepletion.A, LPSC returns to PRD, SquareSourceEstimate.A
+    and ActiveShellAmplitudeGain.A return to ActiveShellSourceNormalize.A / active-square
+    reserve, and the non-Carleson Zeno route needs TerminalSourceReverseHolder.A /
+    UniformTemporalSourceIntegrability_p.A or a produced rigid residue class with
+    Liouville. The equality route under SourceWeightedTerminalAngularDepletion.A has
+    ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A installed.
     The May 21 terminal Zeno correction classifies any B_ASAC^closed terminal atom
     as endpoint Pack failure: finite Zeno ancestry packets may be legal, but the terminal
     zero-radius residue is not a retained positive-radius packet. NoPersistentUnpaidPositiveRadiusAncestry.A
@@ -48,11 +48,12 @@ summary:
     a positive terminal carrier must pay, receive incoming participation flux, leave
     through a legal ledger, or hit a finite CM face. BASACTerminalAtomCMFaceLabeling.A,
     RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
-    remain the finite-ancestry accounting and post-exit readout support. This closes
-    terminal CM-legality while leaving the stronger forward positive supplier open.
-    The May 17 eigenframe and pressure-Hessian attempts add OneSidedNearBandMaterialStrainBV.A
-    / TerminalPressureHessianNoSustain.A as a signed near-band source-current obstruction,
-    not a new CM face or an installed pressure-sustain theorem.'
+    remain finite-ancestry accounting and post-exit readout support. This settles
+    the terminal Zeno endpoint for CM Pack-legality without leaving a forward positive-supplier
+    burden attached to it. The May 17 eigenframe and pressure-Hessian attempts add
+    OneSidedNearBandMaterialStrainBV.A / TerminalPressureHessianNoSustain.A as a signed
+    near-band source-current obstruction, not a new CM face or an installed pressure-sustain
+    theorem.'
 nodes:
 - id: theorem-statement
   kind: theorem-statement
