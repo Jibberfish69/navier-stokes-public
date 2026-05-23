@@ -30,9 +30,9 @@ TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with E
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- source ingredient
-- problems/navier-stokes/theorem-packet.yaml -- residual control
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
 
 ### Recursive Solver Chain
 
