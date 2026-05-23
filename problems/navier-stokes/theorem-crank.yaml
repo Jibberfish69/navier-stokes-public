@@ -166,7 +166,7 @@ cross_lane_broadcast:
     source_anchor: problems/navier-stokes/theorem-construction/temporalnonatomicsource-a-theorem-creation-20260523.md
   - label: OFP.A. The collar source-pressure package CSP.A propagates the retained
       one-field package on the same-fluid interval, with CFI.A, endpoint readout,
-      Field, and Member kept downstream.
+      Field kept downstream, with Member following only after the CM witness certificate.
     kind: lemma
     status: localized-support
     origin: local
