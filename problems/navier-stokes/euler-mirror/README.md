@@ -35,6 +35,7 @@ Current branch-local mainline:
 - smooth-data singular-limit bridge to that witness
 - Euler / Navier-Stokes viscosity scenario separation map
 - Euler-NS smoothness continuum program
+- Euler-NS continuum closure ledger and closure theorem
 - referee audit ledger: `referee-audit-ledger.yaml` mechanically classifies every
   branch surface as smooth-by-hypothesis, nonsmooth-control, proved-conditional,
   false-base-implication, non-Euler-import, provenance/comparison, or machinery
@@ -78,3 +79,9 @@ Terminal readback:
   [euler-ns-smoothness-continuum-program-20260523.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-smoothness-continuum-program-20260523.md)
   now carries the Euler-only smoothness extraction and nonsmooth
   class-membership boundary program
+- [euler-ns-continuum-closure-ledger.yaml](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/euler-ns-continuum-closure-ledger.yaml)
+  and
+  [euler-ns-continuum-closure-theorem-20260523.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-continuum-closure-theorem-20260523.md)
+  close that continuum as route control: smooth-overlap rows, viscosity-divergence
+  rows, nonsmooth-boundary rows, and the local/global bridge boundary are all
+  explicitly typed
