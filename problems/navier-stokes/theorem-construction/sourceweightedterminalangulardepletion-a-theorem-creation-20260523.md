@@ -30,9 +30,9 @@ SourceWeightedTerminalAngularDepletion.A. The material-eigenframe split, ASAC/le
 
 ### Retrieved Ingredients
 
+- problems/navier-stokes/theorem-packet.yaml -- residual control
 - problems/navier-stokes/theorem-packet.yaml -- source ingredient
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- residual control
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
@@ -53,12 +53,12 @@ SourceWeightedTerminalAngularDepletion.A. The material-eigenframe split, ASAC/le
 - ASACDefectMeasure.A
 - TerminalNoFreeSinkEqualityClassProduction.A
 - TerminalWeightedNoFreeSink.A_ind
+- AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing controlled by weighted adjoint residual mass. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
-- ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional field-integrability package, while End_NS, Field readout, and Member remain downstream consequences.
+- TemporalNonAtomicSource.A. Every terminal source-residue measure produced by the accepted Zeno compactness extraction is non-atomic at the terminal time slice.
 - OFP.A. The collar source-pressure package CSP.A propagates the retained one-field package on the same-fluid interval, with CFI.A, endpoint readout, Field, and Member kept downstream.
 - CSP.A. On the retained same-fluid collar, LCI.A together with the installed post-LCI source ledger FCI.5f supplies the collar source-pressure package; OFP.A, CFI.A, endpoint readout, Field, and Member remain downstream consumers.
-- LCI.A. On a retained same-fluid interval with bounded Pack gauge and the ordered ACT.KX receiver package installed, ACT.X-Readout gives ACT.A, ACT.A gives RCF.A through the transported-center residual package, and ULCI.A/DTC.C yields lower-carrier interval integrability; FCI.5f, CSP.A, OFP.A, CFI.A, endpoint readout, Field, and Member remain downstream consumers.
 
 ## Forbidden Imports
 
@@ -75,8 +75,8 @@ SourceWeightedTerminalAngularDepletion.A. The material-eigenframe split, ASAC/le
 3. Reduce the unpaid selected source-current to TerminalWeightedNoFreeSink.A_ind and then to the terminal Zeno refill case.
 4. Use ASACDefectMeasure.A plus TerminalNoFreeSinkEqualityClassProduction.A to produce B_ASAC as the equality class for any surviving terminal Zeno refill.
 5. Keep the remaining forward supplier as B_ASAC terminal source anti-concentration / Zeno residue Liouville, while recording that the CM contrapositive route consumes the zero-radius residue as Pack/Part witness support.
-6. Use problems/navier-stokes/theorem-packet.yaml as source support for source ingredient.
-7. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
+6. Use problems/navier-stokes/theorem-packet.yaml as source support for residual control.
+7. Use problems/navier-stokes/theorem-packet.yaml as source support for source ingredient.
 
 ## Circularity Audit
 
