@@ -14,7 +14,7 @@ decision:
   next_cell_type: source-wall-root-theorem
   next_stage: direct-packet-survival-or-admissibility-bridge
   next_action: >-
-    Prove TerminalCMNoExit.A / NoGenuineCMExit.A, or prove the equivalent external
+    Prove ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A, or prove the equivalent external
     admissibility bridge that terminal Pack/Part/Field class-exit is inadmissible
     as a Clay breakdown counterexample witness.
   rationale: ClaySolutionCMExitInadmissibility.A proves only smooth-solution
@@ -28,7 +28,7 @@ manual_supersession_20260523:
     The generated respawn target is not superseded as the Clay-facing terminal
     closure burden. ClaySolutionCMExitInadmissibility.A independently proves that
     class-exit is inadmissible for a Clay smooth solution, but the stronger
-    breakdown-witness admissibility bridge remains open.
+    CM witness-face exhaustion bridge remains open.
 artifacts:
   draft:
   draft_v6: problems/navier-stokes/draft-v6.md
@@ -63,4 +63,4 @@ blockers:
 - Submission export is not a clean typeset export yet.
 summary:
   queue_effect: ready
-  registry_note: problem is re-queued on TerminalCMNoExit.A / NoGenuineCMExit.A or an equivalent breakdown-witness admissibility bridge
+  registry_note: problem is re-queued on ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A or an equivalent CM witness-face exhaustion bridge
