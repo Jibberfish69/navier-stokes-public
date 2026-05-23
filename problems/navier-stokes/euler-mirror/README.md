@@ -34,6 +34,7 @@ Current branch-local mainline:
 - pressure-nonparticipation vortex-sheet witness
 - smooth-data singular-limit bridge to that witness
 - Euler / Navier-Stokes viscosity scenario separation map
+- Euler-NS smoothness continuum program
 - referee audit ledger: `referee-audit-ledger.yaml` mechanically classifies every
   branch surface as smooth-by-hypothesis, nonsmooth-control, proved-conditional,
   false-base-implication, non-Euler-import, provenance/comparison, or machinery
@@ -48,7 +49,7 @@ Current branch-local mainline:
 - branch-local Euler receiver support `ELCI.A`
 
 Current theorem-facing order:
-- `Member_E -> terminal classification`
+- `Member_E -> ESM classification -> Euler-NS continuum program`
 - `smooth data -> nonsmooth Euler` stays typed as singular-limit, weak-branch,
   boundary fixed-datum, or no-boundary fixed-datum; it is terminally classified
   on this mirror
@@ -72,3 +73,8 @@ Terminal readback:
   would be assumptions or a new external theorem, not a live branch burden
 - exact-potential, top-viscous, static-diffusion, and other parabolic/viscous
   packets are closed here as non-Euler imports
+- terminal classification is audit closure, not Euler program shutdown; the
+  continuum surface
+  [euler-ns-smoothness-continuum-program-20260523.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-smoothness-continuum-program-20260523.md)
+  now carries the Euler-only smoothness extraction and nonsmooth
+  class-membership boundary program
