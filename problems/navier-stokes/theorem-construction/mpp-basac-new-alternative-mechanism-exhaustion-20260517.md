@@ -4,7 +4,7 @@ Date: 2026-05-17
 
 ## Status
 
-Bounded alternative search after the `B_ASAC^closed` branch landed as a selected Zeno terminal atom Field-face diagnostic and after the pressure/Leray tether route stayed open.
+Bounded alternative search after the `B_ASAC^closed` branch was corrected to zero-radius `not Pack_Q` source-residue support and after the pressure/Leray tether route stayed open.
 
 Outcome: no additional installed production mechanism found. The search surfaces candidate mechanisms, each returning to an already isolated atom.
 
