@@ -44,8 +44,9 @@ of:
 6. supplier/readout/export/manuscript/generated/source-history/runtime support.
 
 No indexed non-Euler surface has independent CM steering authority outside
-`Pack_Q`, `Part_{N,Q}`, `Field_{N,r,Q}`, `Member(Q)`, or one of the typed
-support categories above.
+`Pack_Q`, `Part_{N,Q}`, `Field_{N,r,Q}`, or one of the typed support
+categories above. `Member(Q)` is reached only after the triadic CM witness is
+installed.
 
 The inventory counts at installation are:
 
@@ -131,7 +132,7 @@ contrapositive program in one of two ways:
 
 1. its selected failure proves a `Pack`, `Part`, or `Field` exit; or
 2. the surface is proved unlicensed as a CM theorem source until a named bridge
-   promotes it into `Pack`, `Part`, `Field`, or `Member`.
+   promotes it into `Pack`, `Part`, or `Field`.
 
 The certificate counts are:
 
@@ -237,20 +238,22 @@ Manual corrections installed in the index are:
 
 Generated authority YAML, review/release state, submission manifests, and
 derived copies are carriers. Their theorem content inherits the
-`Pack/Part/Field/Member` gate from the theorem notes they cite; they do not
-create independent faces.
+`Pack/Part/Field` witness-face gate from the theorem notes they cite; they do
+not create independent faces, and `Member` is reached only after the triadic CM
+witness.
 
 ### `SourceFrontierGroundedObligationsBoundary.A`
 
 Source-frontier obligations such as mixed-jet, Hopf/shuffle, Lagrangian, Lemma
 4B, and energy-insufficiency claims remain support/export obligations until a
 named theorem lands them in `Pack`, `Part`, `Field`, or `Member`.
+named theorem lands them in `Pack`, `Part`, or `Field`.
 
 ### `ManuscriptDraftExportBoundary.A`
 
 Manuscript, draft, submission, whole-space/R3 export, strict-shadow, and
 generated TeX surfaces are consumers or presentation copies unless a named
-bridge promotes them into `Pack`, `Part`, `Field`, or `Member`.
+bridge promotes them into `Pack`, `Part`, or `Field`.
 
 ## Theorem `NonEulerCMSurfaceFaceSweep.A`
 
@@ -480,7 +483,7 @@ authority/generated surfaces  -> carry the installed sweep; no new face
 submission/manuscript surfaces -> export/copy support; no new face
 source/history surfaces       -> provenance; no new face without promotion
 runtime/governance surfaces   -> operational support; no theorem face
-authority carriers            -> inherit the Pack/Part/Field/Member gate
+authority carriers            -> inherit the Pack/Part/Field witness-face gate
 ```
 
 The only theorem-bearing categories capable of CM promotion are exactly the
@@ -488,6 +491,7 @@ face categories and typed subset categories. The support categories are closed
 by quarantine: they may carry evidence, provenance, export text, or generated
 copies, but they cannot steer the CM program unless a named theorem promotes
 them into `Pack`, `Part`, `Field`, or `Member`.
+them into `Pack`, `Part`, or `Field`.
 
 Thus the earlier theorem-packet sweep is now genuinely global over the
 non-Euler NS surface field.
