@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-05-23T02:15:29Z'
+  evaluated_at: '2026-05-23T23:41:36Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: respawn
@@ -12,23 +12,11 @@ decision:
   completion_tier_target: full-mpp-closure
   completion_tier_achieved: route-complete
   next_cell_type: source-wall-root-theorem
-  next_stage: direct-packet-survival-or-admissibility-bridge
-  next_action: >-
-    Prove ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A, or prove the equivalent external
-    admissibility bridge that terminal Pack/Part/Field class-exit is inadmissible
-    as a Clay breakdown counterexample witness.
-  rationale: ClaySolutionCMExitInadmissibility.A proves only smooth-solution
-    inadmissibility for CM class-exit. It does not close the Clay breakdown
-    counterexample route.
-manual_supersession_20260523:
-  status: truth-audited-not-installed
-  theorem: ClayTerminalWitnessInvalidation.A / ClayCMCounterexampleExclusion.A
-  source_note: problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
-  effect: >-
-    The generated respawn target is not superseded as the Clay-facing terminal
-    closure burden. ClaySolutionCMExitInadmissibility.A independently proves that
-    class-exit is inadmissible for a Clay smooth solution, but the stronger
-    CM witness-face exhaustion bridge remains open.
+  next_stage: direct-source-wall-supplier
+  next_action: Prove the separate positive source-wall supplier theorem; do not reopen
+    already face-sorted support presentations as independent surfaces.
+  rationale: Honesty review did not clear the package for release, so work returns
+    upstream on the typed respawn target.
 artifacts:
   draft:
   draft_v6: problems/navier-stokes/draft-v6.md
@@ -59,8 +47,12 @@ blockers:
   release until the remaining theorem delta is localized into a full-MPP closure surface.
 - The theorem route is coherent, but the package is not yet compressed into a safe
   stand-alone paper surface.
+- 'Theorem-packet blocker: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A'
+- ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
+- Completion tier is still `route-complete`, below a paper-complete or full-closure
+  submission surface.
 - Honesty review verdict is still `revise`.
 - Submission export is not a clean typeset export yet.
 summary:
   queue_effect: ready
-  registry_note: problem is re-queued on ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A or an equivalent CM witness-face exhaustion bridge
+  registry_note: problem is re-queued on the upstream stage named by the review verdict
