@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-22T23:56:28Z'
+  audited_at: '2026-05-23T00:01:41Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -240,40 +240,18 @@ surface_snapshot:
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
 issues:
-- issue_id: direct-live-generated-target-drift
+- issue_id: terminal-audit-open
   severity: major
-  summary: One or more generated artifacts still target a non-live guardrail while
-    direct-live authority is on the Stage C frontier.
+  summary: The branch audit is terminal-open because direct-live authority still has
+    an open frontier.
   autofixable: false
-  recommended_action: Regenerate or explicitly supersede the stale generated artifacts
-    so every live artifact target is one of the current direct-live frontier obligations.
+  recommended_action: Keep theorem-crank/theorem-creation running against the direct-live
+    frontier until the branch lands as live import, route equivalence with a discharged
+    authority edge, or death certificate.
   details:
-    live_frontier_ids:
-    - terminalcmnoexit-a-nogenuinecmexit-a
-    drift_artifacts:
-    - artifact: theorem_creation
-      path: problems/navier-stokes/theorem-creation.yaml
-      target_ids:
-      - TerminalCMNoExit.A
-      generated_at: '2026-05-22T23:51:06Z'
-    - artifact: dependency_discharge
-      path: problems/navier-stokes/dependency-discharge.yaml
-      target_ids:
-      - CFI.A
-      generated_at: '2026-05-22T23:27:12Z'
-    - artifact: object_formalization
-      path: problems/navier-stokes/object-formalization.yaml
-      target_ids:
-      - source-wall-root-after-reconcile
-      generated_at: '2026-05-04T19:59:00Z'
-    - artifact: creative_theorem_search
-      path: problems/navier-stokes/creative-theorem-search.yaml
-      target_ids:
-      - TerminalCMNoExit.A
-      - NoGenuineCMExit.A
-      - SOURCE.NO-PULSE.A
-      - RawZenoFailurePartition.A
-      generated_at: '2026-05-22T23:52:05Z'
+    authority_frontier_count: 1
+    authority_blocking_count: 1
+    authority_status: theorem-open-at-direct-live-frontier
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
