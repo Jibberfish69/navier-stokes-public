@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   repair_id: theorem-repair-navier-stokes
-  generated_at: '2026-05-23T02:14:23Z'
+  generated_at: '2026-05-23T17:37:04Z'
   generator: system/runner/workers/theorem_repair_worker.rb
 authority_sync_gate:
   authority_mode: direct-live-surfaces
@@ -191,10 +191,10 @@ bridge_license_auditor:
     - problems/navier-stokes/theorem-construction/mpp-cm-cross-face-synthesis-bridge-license-audit-20260505.md
   all_required_faces_localized: false
   last_discharge_audit:
-    target_obligation_id: BASACReverseHolderProduction.A
+    target_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
     promoted: false
-    status_before: structural-only
-    status_after: structural-only
+    status_before: frontier-open
+    status_after: frontier-open
     outcome: no-promotion
   checks:
   - source_program_id and target_program_id are both explicit
