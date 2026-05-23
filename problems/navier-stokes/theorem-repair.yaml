@@ -177,6 +177,16 @@ bridge_license_auditor:
     spent_by_dependency_discharge: true
     evidence_paths:
     - problems/navier-stokes/theorem-construction/mpp-cm-cross-face-synthesis-bridge-license-audit-20260505.md
+  same_ledger_concordance_support:
+    status: localized-support
+    support_strength: conditional
+    debt_id: SameLedgerConcordance.A
+    label: SameLedgerConcordance.A
+    residual_primitive_id: PositiveFieldScaleUnderSynchronization.A
+    evidence_paths:
+    - problems/navier-stokes/theorem-construction/mpp-cm-cross-face-ledger-synchronization-creative-step-20260513.md
+    - problems/navier-stokes/theorem-construction/mpp-face-restriction-heredity-audit-20260513.md
+    - problems/navier-stokes/theorem-construction/mpp-same-ledger-concordance-terminal-cm-insertion-20260523.md
   all_required_faces_localized: true
   last_discharge_audit:
     target_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
@@ -194,4 +204,6 @@ next_step:
   next_cell_type: solver-loop
   next_stage: theorem-repair-source-wall-frontier-active
   next_action: 'CM.CrossFaceSynthesis.A is installed as the aggregate bridge-license
-    theorem; continue solver-loop on the live frontier: terminalcmnoexit-a-nogenuinecmexit-a.'
+    theorem; SameLedgerConcordance.A is now the upstream same-packet synchronization
+    bridge with PositiveFieldScaleUnderSynchronization.A still open. Continue solver-loop
+    on the live frontier: terminalcmnoexit-a-nogenuinecmexit-a.'
