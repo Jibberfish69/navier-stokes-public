@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   repair_id: theorem-repair-navier-stokes
-  generated_at: '2026-05-23T17:37:04Z'
+  generated_at: '2026-05-23T18:07:53Z'
   generator: system/runner/workers/theorem_repair_worker.rb
 authority_sync_gate:
   authority_mode: direct-live-surfaces
@@ -50,7 +50,6 @@ contract_compiler:
     - Pack
     - Part
     - Field
-    - Member
     noncircularity_boundary: Do not spend PCTP.hard, SOURCE.NO-PULSE.A, AWG.A, or
       TGC.A as a direct CM bridge unless a separate bridge theorem proves the landing.
   face_landing_contracts:
@@ -73,13 +72,6 @@ contract_compiler:
     output_lane: cm-bearing
     current_support_status: localized-support
     support_strength: strong
-    promotion_boundary: Must be certified by bridge-license auditor before the aggregate
-      CM gate may close.
-  - contract_id: cm-member-landing-bridge
-    target: Member landing for the CM witness-face bridge
-    output_lane: cm-bearing
-    current_support_status: missing
-    support_strength: ''
     promotion_boundary: Must be certified by bridge-license auditor before the aggregate
       CM gate may close.
   supplier_contracts:
@@ -140,7 +132,6 @@ bridge_license_auditor:
   - Pack
   - Part
   - Field
-  - Member
   face_landing_support:
   - face: Pack
     status: localized-support
@@ -175,11 +166,6 @@ bridge_license_auditor:
     - problems/navier-stokes/theorem-packet.yaml
     - problems/navier-stokes/obstruction-capture.md
     - problems/navier-stokes/claim-ladder.md
-  - face: Member
-    status: missing
-    support_strength: ''
-    debt_id: ''
-    evidence_paths: []
   cross_face_synthesis_support:
     status: localized-support
     support_strength: strong
@@ -189,7 +175,7 @@ bridge_license_auditor:
     source_scope_status: ''
     evidence_paths:
     - problems/navier-stokes/theorem-construction/mpp-cm-cross-face-synthesis-bridge-license-audit-20260505.md
-  all_required_faces_localized: false
+  all_required_faces_localized: true
   last_discharge_audit:
     target_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
     promoted: false
