@@ -70,8 +70,9 @@ Terminal readback:
   expanded comparison cell is
   `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX`, followed
   by `ACT.X-Scale + RWS.C_scale -> ACT.X-Readout`
-- the positive-control branch is terminally conditional: extra Euler controls
-  would be assumptions or a new external theorem, not a live branch burden
+- the positive-control branch is terminally conditional at the audit layer:
+  extra Euler controls are assumptions or a named theorem surface, and the
+  continuum closure records how those rows feed smoothness-overlap work
 - exact-potential, top-viscous, static-diffusion, and other parabolic/viscous
   packets are closed here as non-Euler imports
 - terminal classification is audit closure, not Euler program shutdown; the
