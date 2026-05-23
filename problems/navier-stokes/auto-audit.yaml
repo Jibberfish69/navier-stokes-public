@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-23T00:44:08Z'
+  audited_at: '2026-05-23T00:45:02Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -252,23 +252,6 @@ issues:
     authority_frontier_count: 1
     authority_blocking_count: 1
     authority_status: theorem-open-at-direct-live-frontier
-- issue_id: direct-live-generated-target-drift
-  severity: major
-  summary: One or more generated artifacts still target a non-live guardrail while
-    direct-live authority is on the Stage C frontier.
-  autofixable: false
-  recommended_action: Regenerate or explicitly supersede the stale generated artifacts
-    so every live artifact target is one of the current direct-live frontier obligations.
-  details:
-    live_frontier_ids:
-    - terminalcmnoexit-a-nogenuinecmexit-a
-    drift_artifacts:
-    - artifact: dependency_discharge
-      path: problems/navier-stokes/dependency-discharge.yaml
-      target_ids:
-      - BASACReverseHolderProduction.A
-      lineage_ids: []
-      generated_at: '2026-05-23T00:43:52Z'
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
