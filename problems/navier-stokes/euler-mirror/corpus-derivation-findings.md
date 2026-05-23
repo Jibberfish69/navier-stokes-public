@@ -78,5 +78,7 @@ The derivation audit is complete, and the branch is now terminally classified:
 The branch-wide derivation audit is complete. Every current file under
 `euler-mirror/**` is now listed in the corpus derivation ledger, the stale
 registry posture has been scrubbed, the positive-control and contradiction
-corpora have been refined for fidelity, and the branch now states plainly that
-it has no live mathematical closure burden inside the Euler mirror.
+corpora have been refined for fidelity, and the comparison-audit layer now
+routes into the May 23 continuum closure. That closure keeps the Euler-only
+smoothness overlap, viscosity-divergence map, nonsmooth membership boundary,
+and local-to-global bridge rule inside the Euler mirror authority graph.
