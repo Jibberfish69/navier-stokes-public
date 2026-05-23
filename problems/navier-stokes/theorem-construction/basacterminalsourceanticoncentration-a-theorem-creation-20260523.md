@@ -17,25 +17,22 @@ BASACTerminalSourceAntiConcentration.A. The produced B_ASAC class still admits t
 - external_resources_used: false
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
 - selected_mechanism: basac_terminal_anticoncentration_to_uniform_temporal_integrability
-- candidate_count: 4
+- candidate_count: 1
 - solver_chain_verdict: open
 - selection_reason: This theorem is the right next move because it changes the proof economy: The B_ASAC direct attempts show that local L^1_t source mass, zero ASAC defect, no-earlier selected slices, and paid donor/legal exits do not themselves exclude terminal strip concentration. The source-backed next theorem is UniformTemporalSourceIntegrability_{p,B_ASAC}.A, or an equivalent TerminalSourceReverseHolder_{B_ASAC}.A. In the CM contrapositive route this remains forward positive-supplier support; the surviving zero-radius B_ASAC residue is quarantined as Pack/Part witness support unless a separate bridge license lands it in Pack, Part, or Field. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to UniformTemporalSourceIntegrability_p_BASAC.A rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
 - BASACTerminalSourceAntiConcentration.A (basac_terminal_anticoncentration_to_uniform_temporal_integrability; score=136)
-- BASACTerminalSourceAntiConcentration.A (contrapositive_exit; score=76)
-- BASACTerminalSourceAntiConcentration.A (compactness_defect_rigidity; score=79)
-- BASACTerminalSourceAntiConcentration.A (monotone_budget; score=74)
 
 ### Retrieved Ingredients
 
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- source ingredient
-- problems/navier-stokes/theorem-packet.yaml -- residual control
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- source ingredient
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- residual control
 - problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:148 -- source ingredient
 
 ### Recursive Solver Chain
 
@@ -50,11 +47,11 @@ BASACTerminalSourceAntiConcentration.A. The produced B_ASAC class still admits t
 - BASACTerminalSourceAntiConcentration.A direct attempt
 - UniformTemporalSourceIntegrability_{p,B_ASAC}.A
 - TerminalSourceReverseHolder_{B_ASAC}.A
+- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is the exact remaining forward supplier theorem; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, so this production is not currently discharged and remains supplier-quarantined for the CM route.
 - ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
-- AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing controlled by weighted adjoint residual mass. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
-- theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
+- AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing controlled by weighted adjoint residual mass. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional field-integrability package, while End_NS, Field readout, and Member remain downstream consequences.
 - TemporalNonAtomicSource.A. Every terminal source-residue measure produced by the accepted Zeno compactness extraction is non-atomic at the terminal time slice.
 - OFP.A. The collar source-pressure package CSP.A propagates the retained one-field package on the same-fluid interval, with CFI.A, endpoint readout, Field, and Member kept downstream.
@@ -75,7 +72,6 @@ BASACTerminalSourceAntiConcentration.A. The produced B_ASAC class still admits t
 3. Reduce the forward anti-concentration theorem to a super-L^1 terminal source-thickness estimate on B_ASAC.
 4. Keep the result supplier-quarantined in the CM route: a zero-radius B_ASAC residue is not a Field or Member promotion.
 5. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
-6. Use problems/navier-stokes/theorem-packet.yaml as source support for source ingredient.
 
 ## Circularity Audit
 
