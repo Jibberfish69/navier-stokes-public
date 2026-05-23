@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-23T20:21:25Z'
+  audited_at: '2026-05-23T20:22:22Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -71,8 +71,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-952da7575695
-    route_signature: 952da7575695b48d2858ef0db52a0780bc110855
+    surface_id: theorem-surface-navier-stokes-f39a270a5db8
+    route_signature: f39a270a5db86fc56729c24a4617991d162cf7b9
     theorem_target: TerminalCMNoExit.A / NoGenuineCMExit.A
     theorem_statement: TerminalCMNoExit.A / NoGenuineCMExit.A
     route_chain:
@@ -116,6 +116,18 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/live-theorem-edge.yaml
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    - slot_id: TerminalSignedSaturationCMFaceReduction.A
+      label: TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route
+        with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is
+        paid by retained signed partners, legal exits, ASAC pair-weight charge, finite
+        donor balance, or else becomes a terminal zero-radius source residue; that
+        residue is not Pack_Q, or it forces incoming flux, CM envelope blowout, paid
+        exit, and hence Pack/Part/Field witness-face exit. This is a CM face-reduction
+        theorem, not a forward no-free-sink supplier discharge.
+      kind: lemma
+      status: localized-support
+      source_anchor: problems/navier-stokes/theorem-construction/terminalsignedsaturationcmfacereduction-a-theorem-creation-20260523.md
+      patch_surface: problems/navier-stokes/theorem-construction/terminalsignedsaturationcmfacereduction-a-theorem-creation-20260523.md
     - slot_id: BASACReverseHolderProduction.A
       label: BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p)
         subclass is the exact remaining forward supplier theorem; the installed B_ASAC
@@ -126,14 +138,6 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/theorem-construction/basacreverseholderproduction-a-theorem-creation-20260523.md
       patch_surface: problems/navier-stokes/theorem-construction/basacreverseholderproduction-a-theorem-creation-20260523.md
-    - slot_id: CFI.A
-      label: CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional
-        field-integrability package, while End_NS, Field readout, and Member remain
-        downstream consequences.
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/cfi-a-theorem-creation-20260522.md
-      patch_surface: problems/navier-stokes/theorem-construction/cfi-a-theorem-creation-20260522.md
     authority_layers:
       authoritative_proof_surfaces:
       - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
@@ -248,6 +252,28 @@ issues:
     authority_frontier_count: 1
     authority_blocking_count: 1
     authority_status: theorem-open-at-direct-live-frontier
+- issue_id: generated-core-placeholder-survives
+  severity: major
+  summary: A generated CoreSubprimitive placeholder survived into a live solver handoff
+    instead of being sharpened to a source-backed residual.
+  autofixable: false
+  recommended_action: Rerun theorem invention with a target-specific mechanism, or
+    patch the residual handoff so solver_verdict and proof_object name the audited
+    subprimitive rather than a generated core placeholder.
+  details:
+    placeholder_entries:
+    - artifact: theorem_creation
+      path: problems/navier-stokes/theorem-creation.yaml
+      location: theorem_creation.solver_verdict.next_subprimitive
+      primitive_id: ScaleCriticalTreeCarleson.A.CoreSubprimitive
+      label: core noncircular subprimitive for TerminalCMNoExit.A / NoGenuineCMExit.A
+      subprimitive_class: generated-core-subprimitive
+    - artifact: theorem_creation
+      path: problems/navier-stokes/theorem-creation.yaml
+      location: theorem_creation.invention.selected_candidate.residual_gap
+      primitive_id: ScaleCriticalTreeCarleson.A.CoreSubprimitive
+      label: core noncircular subprimitive for TerminalCMNoExit.A / NoGenuineCMExit.A
+      subprimitive_class: generated-core-subprimitive
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
