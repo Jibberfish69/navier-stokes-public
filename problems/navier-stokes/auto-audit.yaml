@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-23T01:59:13Z'
+  audited_at: '2026-05-23T02:04:33Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -71,8 +71,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-a725b6869401
-    route_signature: a725b6869401316468ed6c8a3e4da2e2a3acc751
+    surface_id: theorem-surface-navier-stokes-952da7575695
+    route_signature: 952da7575695b48d2858ef0db52a0780bc110855
     theorem_target: TerminalCMNoExit.A / NoGenuineCMExit.A
     theorem_statement: TerminalCMNoExit.A / NoGenuineCMExit.A
     route_chain:
@@ -98,7 +98,25 @@ surface_snapshot:
       = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
       not the internal branch itself
     route_slots:
-    - slot_id: debt-hard-supplier-basacreverseholderproduction-a
+    - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-pack-landing
+      label: Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+      kind: lemma
+      status: localized-support
+      source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-part-landing
+      label: Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+      kind: lemma
+      status: localized-support
+      source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-field-landing
+      label: Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+      kind: lemma
+      status: localized-support
+      source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    - slot_id: BASACReverseHolderProduction.A
       label: BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p)
         subclass is the exact remaining forward supplier theorem; the installed B_ASAC
         equality-class clauses allow finite L^1_t terminal-layer concentration, so
@@ -116,30 +134,6 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/theorem-construction/cfi-a-theorem-creation-20260522.md
       patch_surface: problems/navier-stokes/theorem-construction/cfi-a-theorem-creation-20260522.md
-    - slot_id: TemporalNonAtomicSource.A
-      label: TemporalNonAtomicSource.A. Every terminal source-residue measure produced
-        by the accepted Zeno compactness extraction is non-atomic at the terminal
-        time slice.
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/temporalnonatomicsource-a-theorem-creation-20260523.md
-      patch_surface: problems/navier-stokes/theorem-construction/temporalnonatomicsource-a-theorem-creation-20260523.md
-    - slot_id: OFP.A
-      label: OFP.A. The collar source-pressure package CSP.A propagates the retained
-        one-field package on the same-fluid interval, with CFI.A, endpoint readout,
-        Field, and Member kept downstream.
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/ofp-a-theorem-creation-20260522.md
-      patch_surface: problems/navier-stokes/theorem-construction/ofp-a-theorem-creation-20260522.md
-    - slot_id: CSP.A
-      label: CSP.A. On the retained same-fluid collar, LCI.A together with the installed
-        post-LCI source ledger FCI.5f supplies the collar source-pressure package;
-        OFP.A, CFI.A, endpoint readout, Field, and Member remain downstream consumers.
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
-      patch_surface: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
     authority_layers:
       authoritative_proof_surfaces:
       - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
