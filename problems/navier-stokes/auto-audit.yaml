@@ -116,6 +116,14 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/live-theorem-edge.yaml
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    - slot_id: SameLedgerConcordance.A
+      label: SameLedgerConcordance.A. Localized Pack, Part, and Field support must
+        be synchronized onto one retained same-fluid terminal witness ledger before
+        CM.CrossFaceSynthesis.A consumes the triple.
+      kind: lemma
+      status: localized-support
+      source_anchor: problems/navier-stokes/theorem-construction/mpp-same-ledger-concordance-terminal-cm-insertion-20260523.md
+      patch_surface: problems/navier-stokes/theorem-construction/mpp-same-ledger-concordance-terminal-cm-insertion-20260523.md
     - slot_id: TerminalCMNoExit.FaceReduction.A
       label: 'TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPacketCapture.A,
         AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A
