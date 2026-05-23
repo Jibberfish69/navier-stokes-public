@@ -35,7 +35,7 @@ shared_alignment:
       not the internal branch itself
     route_slots:
     - slot_id: terminalcmnoexit-a-nogenuinecmexit-a
-      label: TerminalCMNoExit.A / NoGenuineCMExit.A
+      label: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
       kind: live-theorem-frontier
       status: frontier-open
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -74,7 +74,7 @@ shared_alignment:
       already in `Jump_avg`. The remaining positive-supplier burden `OriginalSmoothData=>SourcePulseExclusion.A`
       is required for the downstream `PCTP.hard` route''s literal no-`Jump_avg` terminal-tail
       production and is separate from the already-closed CM source-pulse exit. The
-      Clay-facing CM frontier is now `TerminalCMNoExit.A` / `NoGenuineCMExit.A`: prove
+      Clay-facing CM frontier is now `ClayCMContrapositiveEmbedding.A` / `ClayFiniteFailureTypeCMExhaustion.A`: prove
       original smooth data leaves at least one continuation-complete Pack/Part/Field
       packet on every alleged finite terminal tail.'
     paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md",
@@ -103,13 +103,13 @@ local_derivation:
   required_packet_count: 1
   required_packets:
   - packet_id: terminalcmnoexit-a-nogenuinecmexit-a
-    label: TerminalCMNoExit.A / NoGenuineCMExit.A
+    label: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
     packet_kind: live-theorem-frontier
     source_kind: live-solver-target
     recommended_stage: theorem-creation
     target_patch_surface: problems/navier-stokes/live-theorem-edge.yaml
     matched_route_slot_labels:
-    - TerminalCMNoExit.A / NoGenuineCMExit.A
+    - ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
   leadership_status: leading
   net_new_local_theorem_count: 8
   recommended_next_cell_type: theorem-creation
@@ -117,17 +117,17 @@ cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
   local_consequences:
-  - label: Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+  - label: Pack landing bridge for ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
     kind: lemma
     status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-  - label: Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+  - label: Part landing bridge for ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
     kind: lemma
     status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-  - label: Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+  - label: Field landing bridge for ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
     kind: lemma
     status: localized-support
     origin: local
@@ -202,7 +202,7 @@ frontier_projection:
   status: ready
   primary_target:
     kind: live-theorem-frontier
-    label: TerminalCMNoExit.A / NoGenuineCMExit.A
+    label: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
     recommended_stage: theorem-creation
     target_patch_surface: problems/navier-stokes/live-theorem-edge.yaml
   one_step_beyond: []
