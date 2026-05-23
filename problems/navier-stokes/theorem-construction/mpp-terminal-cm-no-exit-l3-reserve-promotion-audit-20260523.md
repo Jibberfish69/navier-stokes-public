@@ -168,6 +168,52 @@ as `ScaleCriticalTreeCarleson.A.CoreSubprimitive`: a noncircular proof of the
 scale-critical donor-refill Carleson bound from original smooth data, with the
 reserve/charge scaffolding kept conditional until that primitive is supplied.
 
+## PRD Subattempt Readback
+
+After the promotion shortcut failed, the deterministic next proof test is
+`PositiveRemainderDepletion.A` itself:
+
+```math
+\int_{Q(P)}[\mathcal R_P]_+
+\le
+\theta\int_{Q(P)}\mathcal D_P
++Drain_{parent}(P)
++Loss_{legal}(P),
+\qquad 0<\theta<1.
+```
+
+The installed-input nonderivability witness blocks a proof from the current
+ledger alone: a selected high packet can align with a positive lower-strain
+eigendirection, so the positive source term survives terminal positive
+selection while signed cancellation and first-moment ledgers remain compatible.
+
+The strongest independent route is the source-weighted angular route. Its
+direct pass pays the retained signed partner, boundary/cutoff/off-family legal
+exits, and finite donor trees by `ASAC.A`, the legal ledgers,
+`LocalDonorBalance.A`, and `EntranceLeafDecay.A`. The first unpaid subcase is
+
+```math
+\boxed{
+TerminalZenoRefillNoFreeSink.A_{\mathrm{ind}}.
+}
+```
+
+At current route resolution this is equivalent to producing one genuinely new
+terminal source-control theorem:
+
+```math
+TerminalSourceReverseHolder.A
+\quad\text{or}\quad
+UniformTemporalSourceIntegrability_p.A
+```
+
+for the selected native positive source measure, or producing an explicit rigid
+Zeno class with a matching residue Liouville theorem, or proving
+`PositiveActiveCarlesonReserve.A` on the same selected source-current packets.
+
+This is not a separate CM landing. It is the deepest executed proof obstruction
+inside the Pack no-exit supplier branch.
+
 On the direct reserve branch, the smallest visible source-control form remains
 
 ```math
