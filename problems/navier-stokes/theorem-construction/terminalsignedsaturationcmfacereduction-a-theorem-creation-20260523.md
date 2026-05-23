@@ -23,14 +23,14 @@ TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with E
 
 ### Candidate Theorems
 
-- TerminalSignedSaturationCMFaceReduction.A (terminal_signed_saturation_cm_face_reduction; score=158)
+- TerminalSignedSaturationCMFaceReduction.A (terminal_signed_saturation_cm_face_reduction; score=106)
 
 ### Retrieved Ingredients
 
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- source ingredient
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- source ingredient
 - problems/navier-stokes/theorem-packet.yaml -- residual control
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 
@@ -50,8 +50,8 @@ TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with E
 - Pack_Q
 - Part_{N,Q}
 - Field_{N,r,Q}
+- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is not Pack_Q, or it forces incoming flux, CM envelope blowout, paid exit, and hence Pack/Part/Field witness-face exit. This is a CM face-reduction theorem, not a forward no-free-sink supplier discharge.
 - ScaleCriticalTreeCarleson.A. The reserve, charge, adjoint-tail, and windowwise leakage ledgers would sum to the Pack_Q scale-critical donor-refill Carleson bound only after the noncircular Pack-side residual primitive is proved; until then an unpaid infinite donor-refill tree remains a Pack-face exit witness, not a closed no-exit theorem.
-- ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
