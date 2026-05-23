@@ -338,7 +338,7 @@ PCTP.hard / TTU.A as proof of CM.
 ```
 
 Reason: terminal-tail production is downstream unless bridged into Pack, Part,
-Field, or Member.
+or Field; Member is downstream of the CM witness certificate.
 
 ```text
 READ.COVER as upstream cover production.
