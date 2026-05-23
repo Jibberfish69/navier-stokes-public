@@ -39,12 +39,12 @@ SUBMISSION_BUNDLE_EXPORT_STATUS_PATH = SUBMISSION_BUNDLE_ROOT.join("submission-e
 SUBMISSION_BUNDLE_THEOREM_PACKET_TEX_PATH = SUBMISSION_BUNDLE_ROOT.join("sections/authoritative-theorem-packet.tex").freeze
 
 TARGET_OPERATING_CONTRACT = YAML.load_file(TARGET_OPERATING_CONTRACT_PATH.to_s).freeze
-CURRENT_SOURCE_WALL_ROOT_ID = "source-wall-root-after-reconcile"
-CURRENT_SOURCE_WALL_ROOT_LABEL = "Recenter source-wall-root-after-reconcile on known CM-exit discipline after SourceWall.Reconcile.A demotion"
-CURRENT_SOURCE_WALL_ROOT_SUMMARY = "source-wall-root-after-reconcile has the B_ASAC terminal zero-thickness residue closed as CM class-exit: terminal mass cannot survive retained finite CM and must become Pack/Part/Field exit. SourceWall.Reconcile.A still demotes normalized-adjoint source-drain to conditional support; AllNonEulerNSSurfaceFaceSweep.A indexes 1945 non-Euler Navier-Stokes text surfaces, excludes 71 Euler/fixed-nu surfaces after content-level exclusion and the May 17 Euler-mirror quarantine, includes its own theorem note/index/diagnostic ledgers by InventorySelfInclusion.A, corrects lexical mis-sorts by IndexClassifierSoundness.A, face-sorts Carleson, Zeno, retained-amplitude, height/low-strain, signed-current, readout, generated, manuscript, source-history, runtime, and export surfaces into Pack, Part, Field, typed Pack/Part/Field/Zeno subsets, or support; AllNonEulerNSFailureFaceDiagnostic.A records the selected failure type and CM face break for each indexed row; AllNonEulerCMContrapositiveClosure.A is the row-level diagnostic ledger, not a substitute for object-level proof of every text artifact or any separate downstream positive-supplier theorem; MajorNonEulerCMContrapositiveClosure.A closes the major named non-Euler surfaces as Pack, Part, Field, terminal-Zeno Pack correction, or supplier/readout quarantine."
-CURRENT_THEOREM_STATUS = "basac-terminal-zero-thickness-cm-target-closed"
-CURRENT_PACKAGE_STATUS = "basac-cm-nonsurvival-installed-full-release-audit-still-required"
-CURRENT_LOWEST_SAFE_CLAIM = "The B_ASAC terminal zero-thickness source residue is closed as a CM class-exit object: a positive terminal atom cannot survive retained finite CM and must become Pack/Part/Field exit. Full Clay export still requires a separate full-package release audit."
+CURRENT_SOURCE_WALL_ROOT_ID = "terminalcmnoexit-a-nogenuinecmexit-a"
+CURRENT_SOURCE_WALL_ROOT_LABEL = "TerminalCMNoExit.A / NoGenuineCMExit.A"
+CURRENT_SOURCE_WALL_ROOT_SUMMARY = "The Clay-facing CM frontier is TerminalCMNoExit.A / NoGenuineCMExit.A: prove original smooth Navier-Stokes data leaves at least one continuation-complete Pack/Part/Field packet on every alleged finite terminal tail. Source-residue and B_ASAC terminal residue subcases are already sorted as Pack/Part witness or supplier-quarantined support; they are not bare anti-atom deletion burdens and do not close the no-exit theorem."
+CURRENT_THEOREM_STATUS = "frontier-open"
+CURRENT_PACKAGE_STATUS = "terminal-cm-no-exit-respawn-required"
+CURRENT_LOWEST_SAFE_CLAIM = "The CM source-residue subcases are sorted as exit witnesses or supplier-quarantined support. Full Clay-facing CM closure still requires TerminalCMNoExit.A / NoGenuineCMExit.A: a surviving continuation-complete Pack/Part/Field packet on every alleged finite terminal tail."
 CURRENT_ROUTE_SUMMARY = "The CM primitive remains `Exit(Q):=not Member(Q)`. The theorem-grade installed CM direction is only `forall N exists r_N: CM_{N,r_N,Q}=>Member(Q;O_NS^work)`, with `CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}` as the canonical route-relative witness envelope. First class-exit is witnessed by first failure of at least one of Pack/Part/Field, but the blunt converse `not CM_{N,r,Q}=>not Member(Q;O_NS^work)` is absent. The PCTP / SOURCE.NO-PULSE / AWG / TGC family remains supplier/readout support, with source-drain feeding the Field/readout side rather than replacing the CM primitive. SourceWall.Reconcile.A is resolved by demotion: normalized-adjoint source-drain is conditional support, not an unconditional proof of SOURCE.NO-PULSE.A. The active work is CM-exit discipline: a failure surface is live only when it is forced by first-exit analysis or lands in Pack, Part, or Field. ScaleCriticalTreeCarleson.A is Pack-side: Pack_Q implies the scale-critical donor-refill Carleson bound, and a selected unpaid infinite donor-refill tree is not Pack_Q / (Pack, packing-detached) before Field or Jump readout; finite Zeno ancestry is sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A, with zero-radius terminal residue landing as `not Pack_Q`; AllNonEulerNSSurfaceFaceSweep.A indexes 1945 non-Euler Navier-Stokes text surfaces after self-inclusion, content-level Euler exclusion, May 17 Euler-mirror quarantine, and manual theorem-role correction; AllNonEulerNSFailureFaceDiagnostic.A gives each row a selected-failure diagnostic; AllNonEulerCMContrapositiveClosure.A is the row-level diagnostic ledger; MajorNonEulerCMContrapositiveClosure.A closes the major named surfaces. Retained amplitude is Pack/Part or source-wall return, height/low-strain is a Pack/Part/Field/Zeno subset, post-ASAC signed-current reduces to the Zeno branch, and generated/manuscript/source-history/runtime/export surfaces are support. Direct supplier theorems remain separate."
 CURRENT_WITNESS_FORM = "first class-exit witness: not Pack_Q or not Part_{N,Q} or not Field_{N,r,Q} on the same-fluid window; arbitrary not-CM is not an installed not-Member converse"
 SOURCE_WALL_ROOT_SUMMARY_BASE = CURRENT_SOURCE_WALL_ROOT_SUMMARY
@@ -63,27 +63,27 @@ CURRENT_ROUTE_SUMMARY = [
   "The current positive supplier atom is PositiveRemainderDepletion.A; the installed inputs route legal terms and pay ASAC alignment but do not supply super-L1 temporal residence, Zeno residue evacuation, a rigid ancient residue class, or scale-critical active-square reserve.",
   "After the May 17 parallel completion pass, the sharper packet primitive under PRD is SourceWeightedTerminalAngularDepletion.A for |w_j|^2[e_j.S_<j^loc e_j]_+; the other tested entrances remain conditional source-wall presentations, not installed lower theorems.",
   "ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A produce B_ASAC; the May 21 terminal Zeno correction says the B_ASAC^closed terminal atom is `not Pack_Q` at the zero-radius endpoint. NoPersistentUnpaidPositiveRadiusAncestry.A handles the positive-radius retained tail: the shared-participation strip estimate forces incoming flux, CM-envelope blowout, paid exit, or finite CM-face exit. Retained H1-H6 replay, ACT.KX, DTC.Read, Field.Read, READ.COVER, End_NS, OFP.A, and endpoint readout consequences remain downstream or quarantined support.",
-  "The exact B_ASAC terminal zero-thickness burden is closed for the CM contrapositive program. Treating a separate bare positive-supplier deletion theorem as the live CM target is target drift.",
-  "The next CM-facing public translator is PublicCriticalExitToCMFace_X.A / RetainedPackPartCriticalConcentrationFieldExit_X.A: a public critical-class exit must be placed on the same witness ledger and landed in Pack, Part, or Field before it can count as a CM discharge. The first L3 attempt reduces this translator to CriticalL3ConcentrationToNativeSourceResidue.A; the direct native-residue attempt reduces that step to HeatLinearRemainderNoTerminalCriticalMass.A + DuhamelCriticalMassToNativeSource.A; the heat-remainder attempt reduces the heat half to SameLedgerHeatAncestorLocalization.A; and the nonlinear attempt reduces the Duhamel half to DuhamelInverseNativeSourceLocalization.A. The proof split reduces that inverse theorem to L3DuhamelResponseWorkLocalization.A + ParaproductNativeSourceCapture.A: adjoint heat/Leray response localization plus one-sided terminal paraproduct capture into native positive source, selected scale-critical tree failure, or paid Pack/Part/legal exit.",
+  "The exact Clay-facing CM burden is TerminalCMNoExit.A / NoGenuineCMExit.A. Treating B_ASAC reverse-Holder production, NativeSourceAC.A, or a public-critical translator as the live CM closure theorem is target drift unless a separate Pack/Part/Field bridge license is proved.",
+  "PublicCriticalExitToCMFace_X.A / RetainedPackPartCriticalConcentrationFieldExit_X.A remains a CM-facing translator target, not a substitute for TerminalCMNoExit.A / NoGenuineCMExit.A. The L3/Duhamel/native-source split is support for landing public critical-class exit on the witness ledger.",
   "The same refresh keeps Euler-mirror pressure/nonparticipation notes out of the non-Euler pass and records the eigenframe/pressure route as conditional near-band source-current support."
 ].join(" ")
 CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN = {
-  "status" => "cm-closed",
-  "burden_id" => "basac-terminal-zero-thickness-cm-nonsurvival",
+  "status" => "frontier-open",
+  "burden_id" => "terminal-cm-no-exit-nogenuinecmexit",
   "proof_mode" => "cm_contrapositive_class_exit",
-  "target_object" => "B_ASAC terminal zero-thickness residue cannot survive retained CM",
-  "theorem_grade_statement" => "Installed CM result: a B_ASAC terminal zero-thickness native source residue cannot survive as a retained finite-CM object. The shared-participation strip estimate forces incoming participation flux, CM-envelope blowout, or paid exit, hence Pack/Part/Field exit.",
+  "target_object" => "TerminalCMNoExit.A / NoGenuineCMExit.A",
+  "theorem_grade_statement" => "Prove original smooth data leaves at least one continuation-complete Pack/Part/Field packet on every alleged finite terminal tail; the remaining open faces are Pack strain-integrability no-exit, Part closedness-input no-exit, and licensed Field coherence no-exit.",
   "active_container" => CURRENT_SOURCE_WALL_ROOT_ID,
-  "respawn_cell" => nil,
-  "respawn_stage" => nil,
-  "allowed_input_boundary" => "The proof may use the installed ASAC/B_ASAC classification and source-wall supplier inputs. Retained H1-H6 replay, ACT.KX, DTC.Read, Field.Read, READ.COVER, End_NS, OFP.A, and endpoint readout consequences stay downstream or quarantined as support.",
-  "nearest_wrong_substitution" => "Recasting the closed CM non-survival result as a new open bare positive-supplier deletion theorem."
+  "respawn_cell" => "terminal-cm-no-exit",
+  "respawn_stage" => "direct-packet-survival",
+  "allowed_input_boundary" => "The proof may use installed genuine-exit capture, canonical terminal packet capture, terminal source-residue CM-exit sorting, and finite failure witness capture. Bare positive-supplier deletion theorems, B_ASAC reverse-Holder production, PCTP/no-pulse supplier targets, and endpoint readout consequences remain separate or quarantined support unless a Pack/Part/Field bridge license is proved.",
+  "nearest_wrong_substitution" => "Treating B_ASAC supplier exhaustion or source-residue sorting as Clay-facing CM closure."
 }.freeze
 CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE = {
-  "disposition" => "closed-no-respawn-for-basac",
-  "next_cell_type" => nil,
-  "next_stage" => nil,
-  "next_action" => "Do not respawn the B_ASAC terminal zero-thickness CM target; it is closed as Pack/Part/Field exit. Keep H1-H6/ACT.KX/endpoint readout material quarantined downstream."
+  "disposition" => "respawn",
+  "next_cell_type" => "terminal-cm-no-exit",
+  "next_stage" => "direct-packet-survival",
+  "next_action" => "Prove TerminalCMNoExit.A / NoGenuineCMExit.A by ruling out Pack strain-integrability loss, Part closedness-input loss, and licensed Field coherence loss on every alleged finite terminal tail."
 }.freeze
 NS_TARGET_PREFLIGHT = TARGET_OPERATING_CONTRACT.fetch("target_preflight").freeze
 NS_TARGET_LOCK_SCHEMA = TARGET_OPERATING_CONTRACT.fetch("target_lock_schema").freeze
@@ -361,7 +361,7 @@ def sanitize_source_frontier(source_frontier)
   source_frontier["frontier"]["unresolved_obligations"] = root_obligations
   source_frontier["frontier"]["dashboard_unresolved_obligations"] = root_obligations
   source_frontier["frontier"]["additional_context_obligations"] = root_obligations
-  source_frontier["frontier"]["readiness_boundary"] = "B_ASAC terminal zero-thickness CM target is closed: #{CURRENT_SOURCE_WALL_ROOT_SUMMARY}"
+  source_frontier["frontier"]["readiness_boundary"] = "Terminal CM no-exit frontier remains open: #{CURRENT_SOURCE_WALL_ROOT_SUMMARY}"
   source_frontier["frontier"]["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   source_frontier["frontier"]["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
   source_frontier["frontier"]["source_artifact_program_quarantine"] = artifact_program_quarantine(source_frontier["source_artifacts"])
@@ -591,7 +591,7 @@ def sanitize_submission_verdict(verdict)
   verdict["submission_posture"] = "not-ready"
   verdict["submission_ready"] = false
   verdict["review_alignment"] ||= {}
-  verdict["review_alignment"]["release_posture"] = "basac-cm-target-closed-full-release-audit-needed"
+  verdict["review_alignment"]["release_posture"] = "terminal-cm-no-exit-open-respawn-required"
   verdict["review_alignment"]["standalone_status"] = CURRENT_THEOREM_STATUS
   verdict["review_alignment"]["current_package_status"] = CURRENT_PACKAGE_STATUS
   verdict["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
@@ -601,9 +601,9 @@ def sanitize_submission_verdict(verdict)
   if target_fidelity.is_a?(Hash)
     target_fidelity["terminal_safe"] = false
     target_fidelity["explicit_nonterminal_overlay"] = true
-    target_fidelity["required_before_terminal_release"] = []
+    target_fidelity["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_LABEL]
     issues = Array(target_fidelity["issues"]).reject { |entry| entry.to_s.include?("source-wall-root-after-reconcile remains open") }
-    issue = "B_ASAC terminal zero-thickness CM target is closed; terminal release still requires a separate full-package release audit"
+    issue = "TerminalCMNoExit.A / NoGenuineCMExit.A remains open; terminal release requires a surviving continuation-complete Pack/Part/Field packet on every alleged finite terminal tail."
     issues << issue unless issues.include?(issue)
     target_fidelity["issues"] = issues
   end
@@ -617,8 +617,8 @@ def sanitize_submission_verdict(verdict)
 
     authority_summary["unresolved_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
     authority_summary["frontier_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
-    authority_summary["blocking_count"] = 0
-    authority_summary["all_discharged"] = true
+    authority_summary["blocking_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
+    authority_summary["all_discharged"] = false
     authority_summary["authority_mode"] = "direct-live-surfaces"
     authority_summary["source_authority_mode"] = "direct-live-surfaces" if authority_summary.key?("source_authority_mode")
   end
@@ -630,8 +630,8 @@ def sanitize_submission_verdict(verdict)
       text == CURRENT_SOURCE_WALL_ROOT_ID
   end
   blockers.reject! { |entry| entry.to_s.include?("Exact live theorem-grade burden:") }
-  closure = "B_ASAC CM target closed: #{CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("theorem_grade_statement")}"
-  blockers << closure unless blockers.include?(closure)
+  open_burden = "Terminal CM no-exit open: #{CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("theorem_grade_statement")}"
+  blockers << open_burden unless blockers.include?(open_burden)
   verdict["blockers"] = blockers
   attach_target_topology!(verdict)
   verdict
@@ -820,18 +820,18 @@ def sanitize_dependency_discharge(discharge)
   target["label"] = CURRENT_SOURCE_WALL_ROOT_LABEL
   target["status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
   target["source_anchor"] = "problems/navier-stokes/live-theorem-edge.yaml"
-  target["blocking"] = false
+  target["blocking"] = true
   target["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   target["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
   target["status_after"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
-  target["promoted"] = true
-  target["promotion_distance"] = 0
+  target["promoted"] = false
+  target["promotion_distance"] = 1
   attach_target_topology!(target)
 
   recommendation = discharge["recommendation"]
   if recommendation.is_a?(Hash)
-    recommendation["outcome"] = "basac-cm-target-closed"
-    recommendation["rationale"] = "The B_ASAC terminal zero-thickness residue is closed for the CM program: it cannot survive retained finite CM and is forced into Pack/Part/Field exit."
+    recommendation["outcome"] = "terminal-cm-no-exit-open"
+    recommendation["rationale"] = "The Clay-facing CM no-exit theorem remains open; B_ASAC/source-residue sorting is support and cannot be promoted as full Pack/Part/Field packet survival."
     recommendation["next_action"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_action")
   end
 
@@ -906,7 +906,7 @@ def sanitize_theorem_to_warrant(warrant)
     "status" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status"),
     "terminal_safe" => false,
     "required_before_terminal_release" => [],
-    "rule" => "The B_ASAC terminal zero-thickness CM target is closed; full terminal proof still requires a separate release audit."
+    "rule" => "TerminalCMNoExit.A / NoGenuineCMExit.A remains open; full terminal proof requires Pack/Part/Field packet survival on every alleged finite terminal tail."
   }
   attach_target_topology!(warrant)
   warrant
@@ -923,14 +923,14 @@ def sanitize_review_verdict(review)
   if target_fidelity.is_a?(Hash)
     target_fidelity["terminal_safe"] = false
     target_fidelity["explicit_nonterminal_overlay"] = true
-    target_fidelity["required_before_terminal_release"] = []
+    target_fidelity["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_LABEL]
     issues = Array(target_fidelity["issues"]).reject { |entry| entry.to_s.include?("source-wall-root-after-reconcile remains open") }
-    issue = "B_ASAC terminal zero-thickness CM target is closed; terminal release still requires a separate full-package release audit"
+    issue = "TerminalCMNoExit.A / NoGenuineCMExit.A remains open; terminal release requires a surviving continuation-complete Pack/Part/Field packet on every alleged finite terminal tail."
     issues << issue unless issues.include?(issue)
     target_fidelity["issues"] = issues
   end
 
-  review["required_before_terminal_release"] = []
+  review["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_LABEL]
 
   respawn = review["respawn_target"]
   if respawn.is_a?(Hash)
@@ -951,12 +951,12 @@ def sanitize_release_decision(decision)
   body = decision["decision"]
   if body.is_a?(Hash)
     body["disposition"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("disposition")
-    body["release_posture"] = "basac-cm-target-closed"
-    body["completion_tier_achieved"] = "basac-terminal-zero-thickness-cm-closed"
+    body["release_posture"] = "revise-loop"
+    body["completion_tier_achieved"] = "route-complete"
     body["next_cell_type"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_cell_type")
     body["next_stage"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_stage")
     body["next_action"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_action")
-    body["rationale"] = "The B_ASAC terminal zero-thickness CM target is closed; it should not respawn as an open source-wall theorem."
+    body["rationale"] = "TerminalCMNoExit.A / NoGenuineCMExit.A remains open as the Clay-facing CM no-exit theorem."
     body["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   end
   decision["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
@@ -1097,12 +1097,12 @@ def build_warrant_compilation(route_lock, warrant, campaign, proof_assembly)
       "route_id" => route_lock.dig("primary_route", "route_id"),
       "status" => route_lock.dig("primary_route", "status"),
       "authority_role" => route_lock.dig("primary_route", "authority_role"),
-      "summary" => "Historical four-bridge / positive-smoothness warrant chain preserved as support only; B_ASAC terminal zero-thickness CM non-survival is closed."
+      "summary" => "Historical four-bridge / positive-smoothness warrant chain preserved as support only; TerminalCMNoExit.A / NoGenuineCMExit.A is the open Clay-facing CM no-exit frontier."
     },
     "theorem_2_1" => {
       "proof_status" => CURRENT_THEOREM_STATUS,
       "standalone_status" => CURRENT_THEOREM_STATUS,
-      "promotion_status" => "basac-cm-target-closed-full-release-audit-needed",
+      "promotion_status" => "terminal-cm-no-exit-open-respawn-required",
       "exact_statement" => theorem["exact_statement"],
       "dependencies" => Array(theorem["dependencies"])
     },
@@ -1111,12 +1111,12 @@ def build_warrant_compilation(route_lock, warrant, campaign, proof_assembly)
       "full_claim_lane_blocked" => false,
       "source_track_status" => campaign.dig("parallel_theorem_tracks", 0, "status"),
       "sidecar_track_status" => campaign.dig("parallel_theorem_tracks", 1, "status"),
-      "demotion_note" => "The B_ASAC terminal zero-thickness CM target is closed; full release safety is a separate package audit."
+      "demotion_note" => "B_ASAC/source-residue sorting is support; full release still requires TerminalCMNoExit.A / NoGenuineCMExit.A."
     },
     "active_frontier" => {
       "open_obligation_count" => proof_assembly.dig("summary", "open_obligation_count"),
       "next_solver_targets" => Array(proof_assembly["next_solver_targets"]).map { |entry| entry["label"] },
-      "source_wall_root_open" => false
+      "source_wall_root_open" => true
     },
     "manuscript_contract" => {
       "authoring_surface" => campaign.dig("current_manuscript_surface", "authoring_surface"),
