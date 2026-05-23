@@ -178,11 +178,11 @@ bridge_license_auditor:
     dependency_discharge_target_id: CM.CrossFaceSynthesis.A
   all_required_faces_localized: true
   last_discharge_audit:
-    target_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
-    promoted: false
-    status_before: frontier-open
-    status_after: frontier-open
-    outcome: no-promotion
+    target_obligation_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
+    promoted: true
+    status_before: stale-terminalcmnoexit-frontier
+    status_after: installed-entry-first-contrapositive
+    outcome: promote-contrapositive-witness-consumption
   checks:
   - source_program_id and target_program_id are both explicit
   - source controlled object is not silently substituted for Pack, Part, or Field
@@ -190,7 +190,8 @@ bridge_license_auditor:
   - endpoint or continuation compatibility is proved rather than narrated
   - supplier-only results stay quarantined until a CM landing theorem is installed
 next_step:
-  next_cell_type: solver-loop
-  next_stage: theorem-repair-source-wall-frontier-active
+  next_cell_type: none
+  next_stage: contrapositive-witness-consumption-installed
   next_action: 'CM.CrossFaceSynthesis.A is installed as the aggregate bridge-license
-    theorem; continue solver-loop on the live frontier: terminalcmnoexit-a-nogenuinecmexit-a.'
+    theorem; keep the Clay-facing target on witness entry/exhaustion and do not
+    respawn TerminalCMNoExit.A / NoGenuineCMExit.A as the live frontier.'
