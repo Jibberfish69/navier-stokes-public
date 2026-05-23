@@ -9,21 +9,13 @@ identity:
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
-theorem_statement: TerminalCMNoExit.A / NoGenuineCMExit.A
+theorem_statement: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
 source_grounded_chain: []
 tentative_extension_chain: []
-remaining_open_obligations:
-- obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
-  label: TerminalCMNoExit.A / NoGenuineCMExit.A
-  kind: live-theorem-frontier
-  status: frontier-open
+remaining_open_obligations: []
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
-  math_frontier_obligations:
-  - obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
-    label: TerminalCMNoExit.A / NoGenuineCMExit.A
-    kind: live-theorem-frontier
-    status: frontier-open
+  math_frontier_obligations: []
   theorem_warrant_obligations: []
 frontier_context:
   route_container_obligations: []
@@ -31,18 +23,14 @@ frontier_context:
   additional_context_obligations:
   - obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
     label: TerminalCMNoExit.A / NoGenuineCMExit.A
-    kind: live-theorem-frontier
-    status: frontier-open
-next_solver_targets:
-- obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
-  label: TerminalCMNoExit.A / NoGenuineCMExit.A
-  kind: live-theorem-frontier
-  status: frontier-open
+    kind: positive-packet-survival-support
+    status: demoted-not-live-clay-contrapositive-target
+next_solver_targets: []
 theorem_surface:
   surface_id: theorem-surface-navier-stokes-43bdf8f77bd1
   route_signature: 43bdf8f77bd132db8f588c6ca84a26d8d290d9c0
-  theorem_target: TerminalCMNoExit.A / NoGenuineCMExit.A
-  theorem_statement: TerminalCMNoExit.A / NoGenuineCMExit.A
+  theorem_target: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
+  theorem_statement: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
   route_chain:
   - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
     or `T^3`
@@ -65,10 +53,10 @@ theorem_surface:
     = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
     not the internal branch itself
   route_slots:
-  - slot_id: terminalcmnoexit-a-nogenuinecmexit-a
-    label: TerminalCMNoExit.A / NoGenuineCMExit.A
-    kind: live-theorem-frontier
-    status: frontier-open
+  - slot_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
+    label: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
+    kind: live-theorem-closure
+    status: installed-entry-first-contrapositive
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
     patch_surface: problems/navier-stokes/live-theorem-edge.yaml
   authority_layers:
