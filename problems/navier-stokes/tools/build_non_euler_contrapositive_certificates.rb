@@ -28,7 +28,7 @@ EXIT_RULES = {
   "support_quarantine" => {
     "contrapositive_status" => "proved_unlicensed_for_cm_contrapositive",
     "proof_rule" => "no_selected_cm_failure_without_bridge",
-    "statement_template" => "This surface has no licensed selected CM failure. It cannot be used in the contrapositive proof until a named theorem promotes its content into Pack, Part, Field, or Member."
+    "statement_template" => "This surface has no licensed selected CM failure. It cannot be used in the contrapositive proof until a named theorem promotes its content into Pack, Part, or Field; Member is reached only after the triadic CM witness."
   },
   "authority_carrier" => {
     "contrapositive_status" => "proved_inherited_no_new_face",
@@ -52,7 +52,7 @@ def certificate_for(entry)
     when "typed_subset_landing"
       "SelectedFailure(#{entry.fetch("path")}) => (not Pack_Q or not Part_{N,Q} or not Field_{N,r,Q})."
     when "support_quarantine"
-      "NoLicensedCMFailure(#{entry.fetch("path")}) until promoted by a named Pack/Part/Field/Member bridge."
+      "NoLicensedCMFailure(#{entry.fetch("path")}) until promoted by a named Pack/Part/Field bridge."
     when "authority_carrier"
       "NoNewFailure(#{entry.fetch("path")}); theorem content is inherited from cited authority."
     end
