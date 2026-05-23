@@ -153,6 +153,21 @@ ScaleCriticalTreeCarleson.A
 or an equivalent positive-scale carrier / zero-scale ancestry exclusion
 theorem.
 
+At the narrowest current supplier level, the installed
+`OriginalSmoothDataScaleCriticalTreeCarleson.A` theorem-creation packet reduces
+this Pack-side realization to
+
+```math
+\boxed{
+PositiveRemainderDepletion.A.
+}
+```
+
+The raw generated reserve chain names the same still-unproved promotion content
+as `ScaleCriticalTreeCarleson.A.CoreSubprimitive`: a noncircular proof of the
+scale-critical donor-refill Carleson bound from original smooth data, with the
+reserve/charge scaffolding kept conditional until that primitive is supplied.
+
 On the direct reserve branch, the smallest visible source-control form remains
 
 ```math
