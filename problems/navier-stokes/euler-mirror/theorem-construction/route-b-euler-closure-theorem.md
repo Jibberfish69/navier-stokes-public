@@ -82,9 +82,9 @@ Then the mirrored Route B implication is:
 \tag{ERB.2}
 ```
 
-This is the correct conditional Euler implication. It is not a live target after
-terminal closure: the assumptions either are added explicitly or the parent route
-does not import.
+This is the correct conditional Euler implication. After terminal comparison
+closure, this row feeds the continuum closure: the assumptions are added
+explicitly, or the parent route is marked as non-importable.
 
 ## Step-By-Step Mirror
 
@@ -252,4 +252,6 @@ Both are non-Euler imports. The Euler Route B packet closes only after adding:
 This file is theorem-facing because it fixes the exact Euler Route B
 classification. The parent Navier-Stokes closure packet does not survive literal
 viscosity removal; the Euler version is proved only conditionally from added
-Euler controls. There is no live Route B branch burden after this classification.
+Euler controls. The Route B row is closed as continuum route control:
+smoothness-overlap when the Euler controls are supplied, and viscosity
+divergence where the parent proof spends damping.
