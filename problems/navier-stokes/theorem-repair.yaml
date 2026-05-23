@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   repair_id: theorem-repair-navier-stokes
-  generated_at: '2026-05-23T18:07:53Z'
+  generated_at: '2026-05-23T18:15:41Z'
   generator: system/runner/workers/theorem_repair_worker.rb
 authority_sync_gate:
   authority_mode: direct-live-surfaces
