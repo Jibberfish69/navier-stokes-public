@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-23T19:03:49Z'
+  audited_at: '2026-05-23T19:34:05Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -48,7 +48,7 @@ downstream_overlay_drift:
   stale_overlays:
   - artifact: review_verdict
     path: problems/navier-stokes/review-verdict.yaml
-    sha1: f71d96c736cfc5674f6aac4f555e5e6f1733c77a
+    sha1: f29ef32cae1f07125b0ea9476917b30827b88344
     matched_terms:
     - theorem-upgrade
     - 'explicit_nonterminal_overlay: true'
@@ -71,8 +71,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-5e1d57255a96
-    route_signature: 5e1d57255a96c3b81bef2a4481b4192dad34e308
+    surface_id: theorem-surface-navier-stokes-f57bee2e3370
+    route_signature: f57bee2e3370292d00d7129936ed11b25a256c52
     theorem_target: TerminalCMNoExit.A / NoGenuineCMExit.A
     theorem_statement: TerminalCMNoExit.A / NoGenuineCMExit.A
     route_chain:
@@ -119,7 +119,9 @@ surface_snapshot:
     - slot_id: SameLedgerConcordance.A
       label: SameLedgerConcordance.A. Localized Pack, Part, and Field support must
         be synchronized onto one retained same-fluid terminal witness ledger before
-        CM.CrossFaceSynthesis.A consumes the triple.
+        CM.CrossFaceSynthesis.A can consume the triple; FaceRestrictionHeredity.A
+        supplies the restriction step, while PositiveFieldScaleUnderSynchronization.A
+        remains the positive-scale residue.
       kind: lemma
       status: localized-support
       source_anchor: problems/navier-stokes/theorem-construction/mpp-same-ledger-concordance-terminal-cm-insertion-20260523.md
@@ -134,16 +136,6 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/theorem-construction/terminalcmnoexit-facereduction-a-theorem-creation-20260523.md
       patch_surface: problems/navier-stokes/theorem-construction/terminalcmnoexit-facereduction-a-theorem-creation-20260523.md
-    - slot_id: BASACReverseHolderProduction.A
-      label: BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p)
-        subclass is the exact remaining forward supplier theorem; the installed B_ASAC
-        equality-class clauses allow finite L^1_t terminal-layer concentration, so
-        this production is not currently discharged and remains supplier-quarantined
-        for the CM route.
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/basacreverseholderproduction-a-theorem-creation-20260523.md
-      patch_surface: problems/navier-stokes/theorem-construction/basacreverseholderproduction-a-theorem-creation-20260523.md
     authority_layers:
       authoritative_proof_surfaces:
       - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
