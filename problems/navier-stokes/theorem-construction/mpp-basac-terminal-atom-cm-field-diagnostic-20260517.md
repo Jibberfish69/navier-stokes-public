@@ -116,8 +116,8 @@ The equality route now has two separate roles:
    transported no-incoming flux, or production into a rigid anti-atom subclass.
 
 2. CM diagnostic role:
-   closed locally only as Pack-first exit support; the surviving B_ASAC terminal atom
-   is not a Field diagnostic without a positive-scale retained-carrier bridge.
+   closed locally only as Pack-first exit support; later Field readout requires a
+   positive-scale retained-carrier bridge.
 ```
 
 Thus the terminal atom is no longer an untyped residue for the CM contrapositive ledger. It remains an obstruction for the forward positive supplier route.
