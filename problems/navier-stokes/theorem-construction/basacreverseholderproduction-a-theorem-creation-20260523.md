@@ -70,7 +70,7 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 1. Use the rigid-subclass Liouville note to keep the conditional closure separate from the production theorem.
 2. Use the scalar terminal layer model g_m(s)=m 1_{(-1/m,0]}(s) to record why finite L^1_t control does not imply any p>1 reverse-Holder bound.
 3. Mark BASACReverseHolderProduction.A as a new production theorem outside the installed B_ASAC equality-class clauses.
-4. Keep the obstruction supplier-quarantined in the CM route; it does not land in Pack, Part, or Field, and Member is downstream only.
+4. Keep the obstruction supplier-quarantined in the CM route; it does not land in Pack, Part, or Field. Member is downstream only.
 
 ## Circularity Audit
 
