@@ -116,7 +116,7 @@ C_*2^{-2\delta N}
 Terminal status:
 
 - conditional theorem slot only;
-- not a live branch burden, because the parent absorption mechanism spent
+- classified as viscosity divergence when the parent absorption mechanism spends
   viscous dissipation.
 
 ### Proposition EP3. Euler named control functional
@@ -131,7 +131,7 @@ Terminal status:
 - bridge slot preserved;
 - only the `L^2` conservation sublayer is presently mirrored honestly on disk;
 - any full named replacement object is an added hypothesis or new external
-  theorem, not a live branch burden.
+  theorem surface routed through the continuum closure.
 
 ### Proposition EP4. Euler compactness and nonlinear closure
 
