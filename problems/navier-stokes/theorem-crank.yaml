@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-23T01:26:54Z'
+  generated_at: '2026-05-23T01:31:20Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -20,8 +20,8 @@ shared_alignment:
       a singleton Navier-Stokes route.
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
-    route_label: TerminalCMNoExit.A / NoGenuineCMExit.A
-    current_route_name: TerminalCMNoExit.A / NoGenuineCMExit.A
+    route_label: terminalcmnoexit-a-nogenuinecmexit-a
+    current_route_name: terminalcmnoexit-a-nogenuinecmexit-a
     exact_cut_summary: 'The CM primitive remains `Exit(Q):=not Member(Q)`. The theorem-grade
       installed CM direction is only `forall N exists r_N: CM_{N,r_N,Q}=>Member(Q;O_NS^work)`,
       with `CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}` as the canonical route-relative
@@ -29,33 +29,45 @@ shared_alignment:
       one of Pack/Part/Field, but the blunt converse `not CM_{N,r,Q}=>not Member(Q;O_NS^work)`
       is absent. The PCTP / SOURCE.NO-PULSE / AWG / TGC family remains supplier/readout
       support, with source-drain feeding the Field/readout side rather than replacing
-      the CM primitive. `SourceWall.Reconcile.A` is resolved by demotion: the normalized-adjoint
-      package is conditional source-drain support, not an unconditional proof of `SOURCE.NO-PULSE.A`.
+      the CM primitive. SourceWall.Reconcile.A is resolved by demotion: normalized-adjoint
+      source-drain is conditional support, not an unconditional proof of SOURCE.NO-PULSE.A.
       The active work is CM-exit discipline: a failure surface is live only when it
-      is forced by first-exit analysis or lands in Pack, Part, or Field. `ScaleCriticalTreeCarleson.A`
-      is now the Pack-side CM exit target: `Pack_Q` implies the scale-critical donor-refill
-      Carleson bound, and an unpaid infinite donor-refill tree is `not Pack_Q` / `(Pack,
-      packing-detached)` before Field or Jump readout. The Zeno finite-ancestry diagnostic
-      is sorted by `RawZenoFailurePartition.A` and `ZenoAtomFailureToFaceWitness.A`,
-      while the terminal zero-radius residue is `not Pack_Q`; `RetainedZenoAtomFieldExit.A`
-      is demoted to post-exit readout unless a separate positive-scale retained carrier
-      is proved. `NonEulerCMSurfaceFaceSweep.A` closes the current non-Euler face
-      sorting: retained amplitude is Pack/Part or source-wall return, height/low-strain
-      is a Pack/Part/Field/Zeno subset, signed-current reduces to those cases, and
-      readout/export surfaces remain support. Direct supplier theorems remain separate.
-      The May 15 retained-Field audit adds one licensed receiver-escape Field-face
-      bridge and quarantines the three retained DTC/tower/ACT.KX notes as conditional
-      Field-row support. The CM-retained source-pulse branch is already discharged
-      by `SourcePulseCMExit.A`. The averaged route is the correct noncircular endpoint-production
-      spine; the direct pointwise terminal-tail route is not installed as an original-data
-      production theorem. `AVG.END.A` removes `Jump_avg` only after `CFI.A_avg` /
-      `Field_avg` has been produced, so it is not an upstream eliminator for a branch
-      already in `Jump_avg`. The remaining positive-supplier burden `OriginalSmoothData=>SourcePulseExclusion.A`
-      is required for the downstream `PCTP.hard` route''s literal no-`Jump_avg` terminal-tail
-      production and is separate from the already-closed CM source-pulse exit. The
-      Clay-facing CM frontier is now `TerminalCMNoExit.A` / `NoGenuineCMExit.A`: prove
-      original smooth data leaves at least one continuation-complete Pack/Part/Field
-      packet on every alleged finite terminal tail.'
+      is forced by first-exit analysis or lands in Pack, Part, or Field. ScaleCriticalTreeCarleson.A
+      is Pack-side: Pack_Q implies the scale-critical donor-refill Carleson bound,
+      and a selected unpaid infinite donor-refill tree is not Pack_Q / (Pack, packing-detached)
+      before Field or Jump readout; finite Zeno ancestry is sorted by RawZenoFailurePartition.A
+      + ZenoAtomFailureToFaceWitness.A, with zero-radius terminal residue landing
+      as `not Pack_Q`; AllNonEulerNSSurfaceFaceSweep.A indexes 1945 non-Euler Navier-Stokes
+      text surfaces after self-inclusion, content-level Euler exclusion, May 17 Euler-mirror
+      quarantine, and manual theorem-role correction; AllNonEulerNSFailureFaceDiagnostic.A
+      gives each row a selected-failure diagnostic; AllNonEulerCMContrapositiveClosure.A
+      is the row-level diagnostic ledger; MajorNonEulerCMContrapositiveClosure.A closes
+      the major named surfaces. Retained amplitude is Pack/Part or source-wall return,
+      height/low-strain is a Pack/Part/Field/Zeno subset, post-ASAC signed-current
+      reduces to the Zeno branch, and generated/manuscript/source-history/runtime/export
+      surfaces are support. Direct supplier theorems remain separate. The current
+      positive supplier atom is PositiveRemainderDepletion.A; the installed inputs
+      route legal terms and pay ASAC alignment but do not supply super-L1 temporal
+      residence, Zeno residue evacuation, a rigid ancient residue class, or scale-critical
+      active-square reserve. After the May 17 parallel completion pass, the sharper
+      packet primitive under PRD is SourceWeightedTerminalAngularDepletion.A for |w_j|^2[e_j.S_<j^loc
+      e_j]_+; the other tested entrances remain conditional source-wall presentations,
+      not installed lower theorems. ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A
+      produce B_ASAC; the May 21 terminal Zeno correction says the B_ASAC^closed terminal
+      atom is `not Pack_Q` at the zero-radius endpoint. NoPersistentUnpaidPositiveRadiusAncestry.A
+      handles the positive-radius retained tail: the shared-participation strip estimate
+      forces incoming flux, CM-envelope blowout, paid exit, or finite CM-face exit.
+      Retained H1-H6 replay, ACT.KX, DTC.Read, Field.Read, READ.COVER, End_NS, OFP.A,
+      and endpoint readout consequences remain downstream or quarantined support.
+      The exact Clay-facing CM burden is TerminalCMNoExit.A / NoGenuineCMExit.A. Treating
+      B_ASAC reverse-Holder production, NativeSourceAC.A, or a public-critical translator
+      as the live CM closure theorem is target drift unless a separate Pack/Part/Field
+      bridge license is proved. PublicCriticalExitToCMFace_X.A / RetainedPackPartCriticalConcentrationFieldExit_X.A
+      remains a CM-facing translator target, not a substitute for TerminalCMNoExit.A
+      / NoGenuineCMExit.A. The L3/Duhamel/native-source split is support for landing
+      public critical-class exit on the witness ledger. The same refresh keeps Euler-mirror
+      pressure/nonparticipation notes out of the non-Euler pass and records the eigenframe/pressure
+      route as conditional near-band source-current support.'
     paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
@@ -238,7 +250,7 @@ auditor:
   status: needs-attention
   audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
-  open_issue_count: 1
+  open_issue_count: 2
   autofixable_issue_count: 0
   fix_plan_count: 0
   branch_count: 1
