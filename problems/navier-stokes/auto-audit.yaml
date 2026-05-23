@@ -4,14 +4,14 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-23T22:52:54Z'
+  audited_at: '2026-05-23T23:39:57Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
-  standalone_status: clay-terminal-closure-installed-package-revise
+  standalone_status: frontier-open
   completion_tier_achieved: route-complete
   review_verdict: revise
-  theorem_packet_status: manual-supersession-installed
+  theorem_packet_status: frontier-open
 audit_certification:
   audit_status: audited-needs-fix
   audit_completion_tier: audited-route-complete
@@ -43,7 +43,7 @@ downstream_overlay_drift: &1
   authority_surfaces:
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: 0345fbab701cb7be9f78a86d8ce99a8fc80b4a8f
+    sha1: 01b535d269a8b6aee44e8e64fffcf42b232f01de
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -53,22 +53,24 @@ downstream_overlay_drift: &1
   stale_overlays:
   - artifact: review_verdict
     path: problems/navier-stokes/review-verdict.yaml
-    sha1: 5d3b30ffbe10b9e8c54570833615b14e26ee99cb
+    sha1: e3dbde00ca63a3939ed4ef9e517ecc667e35a9d5
     matched_terms:
     - theorem-upgrade
+    - bridge remains open
     - 'explicit_nonterminal_overlay: true'
   - artifact: release_decision
     path: problems/navier-stokes/release-decision.yaml
-    sha1: f55a368532a097236da1fc7c9844a1918f88b2af
+    sha1: 8d228cba694f31a055fed94bea66782bdb946409
     matched_terms:
     - theorem-upgrade
+    - bridge remains open
   recommended_repair: refresh-review-verdict
   recommended_next_cell_type: honesty-review
   recommended_command: refresh-review-freshness
   terminal_condition_failure: 'Downstream overlay drift: authoritative theorem edge/source
     surfaces carry a promoted direct-live posture, but generated overlays still advertise
-    stale blocker language in review_verdict, release_decision: theorem-upgrade, explicit_nonterminal_overlay:
-    true.'
+    stale blocker language in review_verdict, release_decision: theorem-upgrade, bridge
+    remains open, explicit_nonterminal_overlay: true.'
 graph_snapshot:
   exploration_graph:
     present: true
@@ -80,8 +82,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-444420592566
-    route_signature: 444420592566885136736fd3be467470ddf9dfc9
+    surface_id: theorem-surface-navier-stokes-77b537bd5a47
+    route_signature: 77b537bd5a47d667929627e5094388f9f1afe688
     theorem_target: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
     theorem_statement: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
     route_chain:
@@ -176,6 +178,7 @@ surface_snapshot:
       - problems/navier-stokes/marvin-watchlist.yaml
       - problems/navier-stokes/live-theorem-edge.yaml
       - problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
+      - problems/navier-stokes/theorem-construction/mpp-clay-solution-cm-exit-inadmissibility-20260523.md
       - problems/navier-stokes/route-lock.yaml
       - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
       - problems/navier-stokes/theorem-construction/live-frontier-honest-cut-reduction.md
