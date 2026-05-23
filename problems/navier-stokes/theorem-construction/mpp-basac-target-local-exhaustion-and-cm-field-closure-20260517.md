@@ -1,4 +1,4 @@
-# MPP B_ASAC Target-Local Exhaustion and CM Field Closure
+# MPP B_ASAC Target-Local Exhaustion and CM Pack-First Exit Support
 
 Date: 2026-05-17
 
@@ -12,7 +12,7 @@ The forward theorem
 ZenoResidueLiouville_{B_{ASAC}}.A
 ```
 
-is not proved from installed inputs. The local search is nevertheless closed at the current resolution: every installed `B_ASAC` continuation returns to the same terminal zero-thickness native source atom, and the surviving all-doors-closed atom has a CM Field-face diagnostic landing.
+is not proved from installed inputs. The local search is nevertheless closed at the current resolution: every installed `B_ASAC` continuation returns to the same terminal zero-thickness native source atom, and the surviving all-doors-closed atom has Pack-first `not Pack_Q` support, with Field readout requiring a separate positive-scale retained-carrier bridge.
 
 ## Starting point
 
@@ -67,10 +67,10 @@ B_{ASAC}^{closed}.
 It is not a forward positive-supplier discharge. It is a selected terminal Zeno source atom. Under the installed CM-exit discipline, that survivor lands as:
 
 ```math
-BASACClosedAtomCMFieldFaceDiagnostic.A:
+BASACClosedAtomCMPackExitSupport.A:
 B_{ASAC}^{closed}
 \Rightarrow
-Field_{N,r,Q}\text{-face selected Zeno terminal atom diagnostic.}
+\neg Pack_Q\text{ zero-radius selected terminal source-residue support.}
 ```
 
 This is the correct local closure state for the current branch.
@@ -101,4 +101,4 @@ None is installed by the current route inputs.
 
 Do not advertise `BASACSourceTreeCarleson.A` as the active next lower bookkeeping atom by itself. It is one expression of the missing new-production theorem, alongside temporal anti-concentration, pressure time-face spread, transported time-face anti-atom, and rigid subclass production.
 
-The target-local `B_ASAC` descent is complete at obstruction plus CM Field diagnostic. The forward supplier route remains open only at the external new-production theorem level.
+The target-local `B_ASAC` descent is complete at obstruction plus Pack-first CM exit support. The forward supplier route remains open only at the external new-production theorem level.
