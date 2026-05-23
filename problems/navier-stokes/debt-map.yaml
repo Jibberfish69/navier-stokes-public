@@ -5,7 +5,7 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-05-23T01:53:54Z'
+  extracted_at: '2026-05-23T01:57:21Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
@@ -30,6 +30,39 @@ supporting_sections:
   - Re-run honesty-review only after the local package has real prose and an explicit
     debt map.
 debt_items:
+- debt_id: debt-hard-supplier-basacreverseholderproduction-a
+  label: BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
+    is the exact remaining forward supplier theorem; the installed B_ASAC equality-class
+    clauses allow finite L^1_t terminal-layer concentration, so this production is
+    not currently discharged and remains supplier-quarantined for the CM route.
+  source_section: dependency-discharge-hard-obstruction
+  monograph_status: dependency-discharge isolated this as a hard supplier obstruction
+    below the direct-live CM no-exit root
+  standalone_need: 'yes'
+  primary_anchors:
+  - problems/navier-stokes/theorem-construction/basacreverseholderproduction-a-theorem-creation-20260523.md
+  - problems/navier-stokes/dependency-discharge.yaml
+  - problems/navier-stokes/theorem-creation.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/live-theorem-edge.yaml
+  debt_class: local-derivable
+  derivation_state: hard-supplier-obstruction
+  source_scope_status: basac-reverse-holder-production-required
+  derivation_attempts: 0
+  attempts_without_new_support: 0
+  support_strength: insufficient
+  cm_output_role: supplier-support
+  supplier_kind: supplier-support
+  bridge_license_required: true
+  parent_authority_gate_id: terminalcmnoexit-a-nogenuinecmexit-a
+  parent_authority_gate_label: TerminalCMNoExit.A / NoGenuineCMExit.A
+  supplier_quarantine: true
+  recommended_stage: debt-derive
+  rationale: The current failed discharge is not a generic source-wall branch. It
+    is the exact B_ASAC reverse-Holder production burden under the CM contrapositive
+    no-exit root; derive or refute that supplier theorem locally, and keep it quarantined
+    from Pack/Part/Field promotion until a real bridge is installed.
+  priority_rank: 1
 - debt_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   label: Keep theorem scope below the first unsafe overclaim
   source_section: proof-debt-ledger
@@ -44,29 +77,15 @@ debt_items:
   recommended_stage: prose-realization
   rationale: The ledger says the material already exists in some proved or discharged
     form, so the remaining work is localization, exposition, or packaging.
-  priority_rank: 1
-- debt_id: debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  label: source-wall-root-after-reconcile
-  source_section: post-release-theorem-upgrade
-  monograph_status: reopened from post-release theorem-upgrade plan
-  standalone_need: 'yes'
-  primary_anchors:
-  - problems/navier-stokes/post-release-plan.yaml
-  debt_class: blocked-frontier
-  recommended_stage: creative-theorem-search
-  rationale: The post-release plan says this gap remains outside the accepted checkpoint
-    package, so it must stay on the theorem-upgrade path instead of being demoted
-    to packaging debt.
   priority_rank: 2
 summary:
   counts_by_class:
     packaging: 1
-    local-derivable: 0
+    local-derivable: 1
     branch-choice: 0
-    blocked-frontier: 1
-  recommended_next_cell_type: creative-theorem-search
-  recommended_next_action: CM.CrossFaceSynthesis.A is installed; recenter source-wall-root-after-reconcile
-    on known CM-exit discipline before treating any source-pileup or source-control
-    presentation as a theorem target.
+    blocked-frontier: 0
+  recommended_next_cell_type: debt-derive
+  recommended_next_action: Run debt-derive on the highest-priority local-derivable
+    items from debt-map.yaml before another honesty-review pass.
   recommended_debt_ids:
-  - debt-theorem-upgrade-1-source-wall-root-after-reconcile
+  - debt-hard-supplier-basacreverseholderproduction-a
