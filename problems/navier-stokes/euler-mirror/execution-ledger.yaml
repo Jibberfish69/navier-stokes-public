@@ -8,7 +8,7 @@ identity:
   generator: codex-euler-ontology-repair
 main_objective:
   theorem_target: regularity for the three-dimensional incompressible Euler equations
-  theorem_target_status: audit-closed-continuum-program-active
+  theorem_target_status: closed-as-continuum-route-control
   doctrine: define Euler membership natively, classify each mirror route, then use the case graph for Euler-only smoothness extraction and nonsmooth class-membership exploration
   proof_modes:
   - positive-control
@@ -103,7 +103,7 @@ route_families:
   - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
   - problems/navier-stokes/theorem-construction/hopf-shuffle-endgame-program.md
   - problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
-  terminal_readback: optional regularity support only, with no live branch burden
+  terminal_readback: optional regularity support only; continuum closure treats it as support/provenance unless a named Euler theorem surface promotes it
 - family_id: exact-potential-parabolic
   status: explicitly-demoted-and-quarantined
   description: exact-potential, localized-projector, Stokes/heat/static-diffusion branch
