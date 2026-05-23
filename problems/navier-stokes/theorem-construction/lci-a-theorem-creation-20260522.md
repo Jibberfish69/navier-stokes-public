@@ -74,7 +74,7 @@ LCI.A. On a retained same-fluid interval with bounded Pack gauge and the ordered
 2. Use the ordered ACT.KX package and ACT.X-Readout to obtain ACT.A on the transported-center receiver packet.
 3. Use ACT.A and the transported-center residual package to obtain RCF.A.
 4. Apply the uniform lower-carrier closure ULCI.A/DTC.C package to conclude the required lower-carrier interval integrability.
-5. Keep FCI.5f, CSP.A, OFP.A, CFI.A, endpoint readout, Field, and Member as downstream consumers rather than proof inputs.
+5. Keep FCI.5f, CSP.A, OFP.A, CFI.A, endpoint readout, and Field as downstream consumers, with Member following only after the CM witness certificate rather than proof inputs.
 6. Use problems/navier-stokes/theorem-packet.yaml as source support for source ingredient.
 7. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
