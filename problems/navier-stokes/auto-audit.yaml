@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-23T00:59:51Z'
+  audited_at: '2026-05-23T01:02:14Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -269,6 +269,12 @@ issues:
       - BASACReverseHolderProduction.A
       lineage_ids: []
       generated_at: '2026-05-23T00:59:41Z'
+    - artifact: dependency_discharge
+      path: problems/navier-stokes/dependency-discharge.yaml
+      target_ids:
+      - BASACReverseHolderProduction.A
+      lineage_ids: []
+      generated_at: '2026-05-23T01:01:56Z'
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
