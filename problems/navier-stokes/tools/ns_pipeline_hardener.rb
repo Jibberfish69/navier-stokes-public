@@ -448,7 +448,7 @@ def sanitize_auto_audit(audit)
   audit["certification"]["standalone_status"] = CURRENT_THEOREM_STATUS
   audit["certification"]["theorem_packet_status"] = CURRENT_THEOREM_STATUS
   audit["audit_certification"] ||= {}
-  audit["audit_certification"]["audit_status"] = "audited-basac-cm-target-closed"
+  audit["audit_certification"]["audit_status"] = "audited-terminal-cm-no-exit-open"
   audit["audit_certification"]["audit_completion_tier"] = "audited-paper-complete-theorem-open"
   audit["audit_certification"]["audit_review_verdict"] = "audited-revise"
 
@@ -502,15 +502,15 @@ def sanitize_dependency_graph(graph)
     "kind" => "live-theorem-frontier",
     "label" => CURRENT_SOURCE_WALL_ROOT_LABEL,
     "status" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status"),
-    "blocking" => false,
+    "blocking" => true,
     "source_anchor" => "problems/navier-stokes/live-theorem-edge.yaml"
   } unless nodes.any? { |entry| entry.is_a?(Hash) && entry["id"] == CURRENT_SOURCE_WALL_ROOT_ID }
   graph["nodes"] = nodes
 
   graph["summary"] ||= {}
   graph["summary"]["node_count"] = nodes.length
-  graph["summary"]["blocking_count"] = 0
-  graph["summary"]["all_discharged"] = true
+  graph["summary"]["blocking_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
+  graph["summary"]["all_discharged"] = false
   graph["summary"]["unresolved_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
   graph["summary"]["frontier_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
   graph["summary"]["active_frontier"] = CURRENT_SOURCE_WALL_ROOT_SUMMARY
@@ -661,12 +661,12 @@ def sanitize_theorem_crank(crank)
   auditor = crank["auditor"]
   if auditor.is_a?(Hash)
     auditor["status"] = "ready"
-    auditor["audit_status"] = "audited-basac-cm-target-closed"
+    auditor["audit_status"] = "audited-terminal-cm-no-exit-open"
     auditor["branch_terminal_status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
-    auditor["open_issue_count"] = 0
+    auditor["open_issue_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
     auditor["autofixable_issue_count"] = 0
     auditor["fix_plan_count"] = 0
-    auditor["unresolved_branch_terminal_count"] = 0
+    auditor["unresolved_branch_terminal_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
   end
 
   projection = crank["frontier_projection"]
@@ -689,18 +689,18 @@ def sanitize_theorem_crank(crank)
     summary["execution_state"] = "ready"
     summary["leadership_status"] = "aligned"
     summary["alignment_complete"] = true
-    summary["direct_live_authority_all_discharged"] = true
+    summary["direct_live_authority_all_discharged"] = false
     summary["authority_gate_mode"] = "direct-live-surfaces"
     summary["authority_gate_blocking_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
     summary["proof_assembly_open_obligation_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
     summary["current_open_obligation_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
-    summary["open_obligations_state"] = "basac-cm-target-closed"
+    summary["open_obligations_state"] = "terminal-cm-no-exit-open"
     summary["theorem_work_blocked"] = false
     summary["on_recommended_track"] = true
     summary["recommended_next_cell_type"] = "creative-theorem-search"
-    summary["audit_status"] = "audited-basac-cm-target-closed"
+    summary["audit_status"] = "audited-terminal-cm-no-exit-open"
     summary["branch_terminal_status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
-    summary["unresolved_branch_terminal_count"] = 0
+    summary["unresolved_branch_terminal_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
     summary["current_next_cell_type"] = "creative-theorem-search"
     summary["current_next_cell_is_theorem_work"] = true
     summary["one_frontier_count_is_not_one_path"] = true
@@ -893,7 +893,7 @@ def sanitize_theorem_to_warrant(warrant)
 
     claim["proof_status"] = CURRENT_THEOREM_STATUS
     claim["standalone_status"] = CURRENT_THEOREM_STATUS
-    claim["promotion_status"] = "basac-cm-target-closed-full-release-audit-needed"
+    claim["promotion_status"] = "terminal-cm-no-exit-open-respawn-required"
     claim["warrant_note"] = [
       "Demotion repair: historical four-bridge and positive-support warrants remain support context only.",
       "They are not stand-alone proof authority for a full release audit.",
@@ -905,7 +905,7 @@ def sanitize_theorem_to_warrant(warrant)
   warrant["warrant_boundary"] = {
     "status" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status"),
     "terminal_safe" => false,
-    "required_before_terminal_release" => [],
+    "required_before_terminal_release" => [CURRENT_SOURCE_WALL_ROOT_LABEL],
     "rule" => "TerminalCMNoExit.A / NoGenuineCMExit.A remains open; full terminal proof requires Pack/Part/Field packet survival on every alleged finite terminal tail."
   }
   attach_target_topology!(warrant)
@@ -970,13 +970,13 @@ end
 def sanitize_release_manifest(manifest)
   return manifest unless manifest.is_a?(Hash)
 
-  manifest["release_gate"] = "basac-cm-target-closed-full-release-audit-needed"
+  manifest["release_gate"] = "terminal-cm-no-exit-open-respawn-required"
   manifest["terminal_safe"] = false
-  manifest["required_before_terminal_release"] = []
+  manifest["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_LABEL]
   review = manifest.dig("source_summary", "review_verdict")
   if review.is_a?(Hash)
     review["terminal_safe"] = false
-    review["release_posture"] = "basac-cm-target-closed-full-release-audit-needed"
+    review["release_posture"] = "terminal-cm-no-exit-open-respawn-required"
   end
   attach_target_topology!(manifest)
   manifest
@@ -1078,7 +1078,7 @@ def build_route_report(route_lock, slot_doc, warrant, campaign, proof_assembly, 
       "proof_assembly_next_solver_targets" => Array(proof_assembly["next_solver_targets"]).map { |entry| entry["label"] },
       "campaign_full_claim_blocked" => false,
       "theorem_2_1_proof_status" => CURRENT_THEOREM_STATUS,
-      "source_wall_root_open" => false
+      "source_wall_root_open" => true
     }
   }.tap { |report| attach_target_topology!(report) }
 end
