@@ -2,14 +2,14 @@
 
 ## Target
 
-- target obligation: NearBandBVToBurstOrSource.A+FrameBVCharge.A
-- target label: near-band BV burst/source control plus retained frame BV charge
+- target obligation: NearBandMaterialSourceCharge.A+FrameBVCharge.A
+- target label: near-band material-source charge plus retained frame BV charge
 - route role: Use the near-band BV direct attempt: subparabolic near-band heat variation is absorbable, while non-subparabolic near-band amplitude routes to parabolic-rate burst height; the remaining live pair is NearBandMaterialSourceCharge.A plus FrameBVCharge.A on the same retained packet.
 - theorem family: reserve-creation-charge
 
 ## Created Theorem
 
-NearBandBVToBurstOrSource.A+FrameBVCharge.A. Use the near-band BV direct attempt: subparabolic near-band heat variation is absorbable, while non-subparabolic near-band amplitude routes to parabolic-rate burst height; the remaining live pair is NearBandMaterialSourceCharge.A plus FrameBVCharge.A on the same retained packet. This supplies the exact noncircular bridge needed for near-band BV burst/source control plus retained frame BV charge.
+NearBandBVToBurstOrSource.A+FrameBVCharge.A. Use the near-band BV direct attempt: subparabolic near-band heat variation is absorbable, while non-subparabolic near-band amplitude routes to parabolic-rate burst height; the remaining live pair is NearBandMaterialSourceCharge.A plus FrameBVCharge.A on the same retained packet. This supplies the exact noncircular bridge needed for near-band material-source charge plus retained frame BV charge.
 
 ## Inventive Search
 
@@ -60,7 +60,8 @@ NearBandBVToBurstOrSource.A+FrameBVCharge.A. Use the near-band BV direct attempt
 ## Forbidden Imports
 
 - NearBandBVToBurstOrSource.A+FrameBVCharge.A
-- near-band BV burst/source control plus retained frame BV charge
+- near-band material-source charge plus retained frame BV charge
+- NearBandMaterialSourceCharge.A+FrameBVCharge.A
 - full-MPP closure
 - submission readiness
 - global smoothness
