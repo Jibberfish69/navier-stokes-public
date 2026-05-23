@@ -59,8 +59,8 @@ course_correction_protocol:
     - SourcePulsePartExit.A
     - SourcePulsePackExit.A
   pctp_source_tgc_direction_audit:
-    exact_burden: separate witness-face bridge into a Pack, Part, or Field face, or
-      into Member
+    exact_burden: separate witness-face bridge into Pack, Part, or Field; Member
+      is downstream after the CM witness certificate
     source_notes:
     - problems/navier-stokes/theorem-construction/mpp-cm-contrapositive-primitive-seat-repair-note-20260503.md
     - problems/navier-stokes/theorem-construction/mpp-cm-contrapositive-direction-alignment-audit-20260503.md
@@ -637,9 +637,9 @@ programs:
   propagated_object: Local class membership M_Q(u,p) witnessed by Pack / Part / Field
     on same-fluid still-live families, with stable carriers u, p, Phi, and F.
   current_burdens:
-  - 'cm-witness-face-bridge: prove a separate bridge into a Pack, Part, or Field face,
-    or into Member; PCTP.hard/SOURCE.NO-PULSE.A/AWG.A/TGC.A are downstream or branch
-    support only as installed.'
+  - 'cm-witness-face-bridge: prove a separate bridge into Pack, Part, or Field;
+    Member is downstream after the CM witness certificate; PCTP.hard/SOURCE.NO-PULSE.A/AWG.A/TGC.A
+    are downstream or branch support only as installed.'
   bridge_imports_allowed:
   - fixed-family source estimates only through OFP/LCI bridge theorems
   - selector/SG.4 only as downstream one-field readout after direct matrix work
@@ -891,8 +891,8 @@ proof_program_topology:
   proof_mode: forward_positive_support_and_endpoint_readout
   governing_primitive: retained/averaged receiver, source ledger, endpoint readout
   propagated_object: receiver/source/read-cover/end-point packets
-  promotion_gate: typed bridge into a Pack/Part/Field face or into Member, or explicit
-    downstream readout
+  promotion_gate: typed bridge into Pack/Part/Field witness faces, or explicit downstream
+    readout after the CM witness certificate
   current_role: support program, not interchangeable with the CM primitive
 - program_id: export-readout-branches
   proof_mode: downstream_readout_or_export
