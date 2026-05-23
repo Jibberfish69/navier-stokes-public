@@ -17,16 +17,13 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 - external_resources_used: false
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
 - selected_mechanism: terminal_cm_no_exit_face_reduction
-- candidate_count: 4
+- candidate_count: 1
 - solver_chain_verdict: open
 - selection_reason: This theorem is the right next move because it changes the proof economy: Use CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A to reduce NoGenuineCMExit to three positive survivor faces: Pack positive-scale/strain-integrability no-exit, Part tower/readout closedness no-exit, and licensed Field coherence no-exit after Part. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to TerminalPackStrainIntegrabilityNoExit.A rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
 - TerminalCMNoExit.FaceReduction.A (terminal_cm_no_exit_face_reduction; score=142)
-- TerminalcmnoexitNogenuinecmexitContrapositiveExit.A (contrapositive_exit; score=64)
-- TerminalcmnoexitNogenuinecmexitCompactnessDefectRigidity.A (compactness_defect_rigidity; score=63)
-- TerminalcmnoexitNogenuinecmexitMonotoneBudget.A (monotone_budget; score=62)
 
 ### Retrieved Ingredients
 
