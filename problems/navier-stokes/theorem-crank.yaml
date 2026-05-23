@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-23T22:52:54Z'
+  generated_at: '2026-05-23T23:39:57Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -34,15 +34,15 @@ shared_alignment:
       = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
       not the internal branch itself
     route_slots:
-    - slot_id: terminalcmnoexit-a-nogenuinecmexit-a
+    - slot_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
       label: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
-      kind: live-theorem-frontier
-      status: frontier-open
+      kind: live-theorem-closure
+      status: installed-entry-first-contrapositive
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
-    route_label: ClayTerminalWitnessInvalidation.A / ClayCMCounterexampleExclusion.A
-    current_route_name: ClayTerminalWitnessInvalidation.A / ClayCMCounterexampleExclusion.A
+    route_label: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
+    current_route_name: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
     exact_cut_summary: 'The CM primitive remains `Exit(Q):=not Member(Q)`. The theorem-grade
       installed CM direction is only `forall N exists r_N: CM_{N,r_N,Q}=>Member(Q;O_NS^work)`,
       with `CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}` as the canonical route-relative
@@ -74,9 +74,13 @@ shared_alignment:
       already in `Jump_avg`. The remaining positive-supplier burden `OriginalSmoothData=>SourcePulseExclusion.A`
       is required for the downstream `PCTP.hard` route''s literal no-`Jump_avg` terminal-tail
       production and is separate from the already-closed CM source-pulse exit. The
-      Clay-facing CM frontier is now `ClayCMContrapositiveEmbedding.A` / `ClayFiniteFailureTypeCMExhaustion.A`: prove
-      original smooth data leaves at least one continuation-complete Pack/Part/Field
-      packet on every alleged finite terminal tail.'
+      Clay-facing CM frontier is now `ClayCMContrapositiveEmbedding.A` / `ClayFiniteFailureTypeCMExhaustion.A`:
+      start with the alleged finite Clay terminal witness from original smooth data,
+      force it into the same-fluid canonical CM terminal packet tree, exhaust its
+      finite failure type through Pack/Part/Field, and read the failed service as
+      `Exit(Q):=not Member(Q)`. Positive packet-survival/no-exit formulations such
+      as `TerminalCMNoExit.A / NoGenuineCMExit.A` are support only, not the governing
+      contrapositive target.'
     paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
@@ -99,20 +103,12 @@ shared_alignment:
     - selector-adapted defect-to-strain theorem
   alignment_reroute: solver-loop
 local_derivation:
-  status: packetize-and-derive
-  required_packet_count: 1
-  required_packets:
-  - packet_id: terminalcmnoexit-a-nogenuinecmexit-a
-    label: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
-    packet_kind: live-theorem-frontier
-    source_kind: live-solver-target
-    recommended_stage: theorem-creation
-    target_patch_surface: problems/navier-stokes/live-theorem-edge.yaml
-    matched_route_slot_labels:
-    - ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
+  status: locally-exhausted
+  required_packet_count: 0
+  required_packets: []
   leadership_status: leading
   net_new_local_theorem_count: 8
-  recommended_next_cell_type: theorem-creation
+  recommended_next_cell_type: debt-extract
 cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
@@ -199,19 +195,15 @@ auditor:
   death_certificate_count: 0
   unresolved_branch_terminal_count: 0
 frontier_projection:
-  status: ready
+  status: not-ready
   primary_target:
-    kind: live-theorem-frontier
-    label: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
-    recommended_stage: theorem-creation
-    target_patch_surface: problems/navier-stokes/live-theorem-edge.yaml
   one_step_beyond: []
   two_steps_beyond: []
   route_pressure: []
-  recommended_next_cell_type: theorem-creation
+  recommended_next_cell_type: debt-extract
 summary:
-  phase: local-derivation
-  execution_state: needs-reroute
+  phase: steady-state
+  execution_state: steady-state
   leadership_status: leading
   alignment_complete: true
   theorem_authority_gate_all_discharged: false
@@ -220,15 +212,15 @@ summary:
   proof_assembly_open_obligation_count: 1
   authoritative_source_gap_count: 0
   export_readiness_hold_state: none
-  exact_local_packet_count: 1
+  exact_local_packet_count: 0
   net_new_local_theorem_count: 8
   projected_frontier_count: 0
   current_open_obligation_count: 1
   open_obligations_state: not-currently-worked
-  theorem_work_blocked: true
+  theorem_work_blocked: false
   blocked_queue_interpretation: none
-  on_recommended_track: false
-  recommended_next_cell_type: theorem-creation
+  on_recommended_track: true
+  recommended_next_cell_type: debt-extract
   audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
   unresolved_branch_terminal_count: 0
