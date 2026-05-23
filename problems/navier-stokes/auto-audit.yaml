@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-23T02:04:33Z'
+  audited_at: '2026-05-23T02:14:52Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -71,8 +71,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-952da7575695
-    route_signature: 952da7575695b48d2858ef0db52a0780bc110855
+    surface_id: theorem-surface-navier-stokes-07ec65c3df7d
+    route_signature: 07ec65c3df7d13610b4849e8db5b307b90189504
     theorem_target: TerminalCMNoExit.A / NoGenuineCMExit.A
     theorem_statement: TerminalCMNoExit.A / NoGenuineCMExit.A
     route_chain:
@@ -116,7 +116,7 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/live-theorem-edge.yaml
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
-    - slot_id: BASACReverseHolderProduction.A
+    - slot_id: debt-hard-supplier-basacreverseholderproduction-a
       label: BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p)
         subclass is the exact remaining forward supplier theorem; the installed B_ASAC
         equality-class clauses allow finite L^1_t terminal-layer concentration, so
