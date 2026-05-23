@@ -18,8 +18,8 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
 - selected_mechanism: terminal_cm_no_exit_face_reduction
 - candidate_count: 1
-- solver_chain_verdict: closed
-- selection_reason: This theorem is the right next move because it changes the proof economy: Use CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A to reduce NoGenuineCMExit to the Pack-first CM exit tree: carrier failure lands in Pack, retained participation failure lands in Part, and only a retained coherent same-fluid packet reaches Field. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to ScaleCriticalTreeCarleson.A rather than pretending the frontier is closed. The internal solver also discharged the residual chain through TerminalCMNoExit.FaceReduction.A -> ScaleCriticalTreeCarleson.A.
+- solver_chain_verdict: conditional-open
+- selection_reason: This theorem is the right next move because it changes the proof economy: Use CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A to reduce NoGenuineCMExit to the Pack-first CM exit tree: carrier failure lands in Pack, retained participation failure lands in Part, and only a retained coherent same-fluid packet reaches Field. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to ScaleCriticalTreeCarleson.A rather than pretending the frontier is closed. The residual chain remains open at the Pack-side no-exit primitive.
 
 ### Candidate Theorems
 
@@ -36,10 +36,10 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 
 ### Recursive Solver Chain
 
-- terminal_verdict: closed
-- reason: The recursive theorem solver reached a terminal mechanism with no remaining residual primitive.
+- terminal_verdict: conditional-open
+- reason: The recursive theorem solver reached a valid face reduction, but ScaleCriticalTreeCarleson.A remains a residual primitive and cannot be discharged by theorem-packet support alone.
 - depth 0: TerminalCMNoExit.FaceReduction.A via terminal_cm_no_exit_face_reduction -> ScaleCriticalTreeCarleson.A
-- depth 1: ScaleCriticalTreeCarleson.A via scale_critical_tree_carleson_pack_landing -> closed
+- depth 1: ScaleCriticalTreeCarleson.A via scale_critical_tree_carleson_pack_landing -> open residual primitive
 
 ## Allowed Inputs
 
@@ -83,14 +83,14 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 
 ## Circularity Audit
 
-- status: passed
-- violations: none
+- status: conditional-pass-with-overpromotion-risk
+- violations: prior recursive readback marked ScaleCriticalTreeCarleson.A closed even though promotion is blocked and the direct no-exit audit keeps it open.
 
 ## Solver Verdict
 
 - verdict: conditional
 - certification_level: theorem-creation:conditional
-- rationale: The proof attempt is noncircular but still needs downstream audit before promotion.
+- rationale: The proof attempt is a noncircular face reduction, but it does not prove TerminalCMNoExit.A / NoGenuineCMExit.A. Pack no-exit remains open at ScaleCriticalTreeCarleson.A, with Part and Field no-exit only conditionally organized behind retained tower/readout inputs.
 
 ## Promotion Plan
 
