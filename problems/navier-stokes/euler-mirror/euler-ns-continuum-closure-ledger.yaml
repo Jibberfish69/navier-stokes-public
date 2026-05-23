@@ -1,0 +1,127 @@
+---
+version: 1
+updated_on: '2026-05-23'
+branch_id: euler-mirror-chat20
+artifact_id: euler-ns-continuum-closure-ledger
+closure_status: closed-as-route-control
+purpose: >-
+  Close the Euler-NS smoothness continuum as a branch-local theorem-control
+  object. The ledger does not assert global Euler or global Navier-Stokes
+  regularity. It closes the graph: every installed Euler/NS contact row is
+  routed to smoothness overlap, viscosity divergence, or nonsmooth Euler
+  class-membership boundary.
+authority_surfaces:
+  referee_audit: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
+  continuum_program: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-smoothness-continuum-program-20260523.md
+  scenario_map: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
+  route_lock: problems/navier-stokes/euler-mirror/route-lock.yaml
+governing_closure:
+  status: closed
+  readback: >-
+    The continuum is complete as a route-control surface. Smooth and conditional
+    rows identify the viscosity-free Euler smoothness overlap; viscosity rows
+    identify exact NS proof labor with no Euler import; nonsmooth rows identify
+    local Euler membership or near-membership cases where smoothness, one-field
+    coherence, Lagrangian carriers, or receiver ledgers fail.
+closed_outputs:
+  - id: continuum.smoothness-overlap
+    status: closed-conditional
+    rows:
+      - ESM.S1
+      - ESM.S2
+      - ESM.C1
+      - ESM.C2
+      - ESM.C3
+    theorem_readback: >-
+      The Euler-only smoothness content currently installed is exact only under
+      stated smoothness, finite-thickness, same-cover envelope, compactness,
+      Route B, or retained-window smooth center-ball hypotheses. These are the
+      viscosity-free overlap rows. They are usable as Euler smoothness theorems
+      with their hypotheses included.
+    ns_readback: >-
+      Any fixed-positive-viscosity Navier-Stokes comparison using the same datum,
+      interval, cover, and hypotheses keeps the inviscid transport/pressure
+      structure and adds viscosity. The Euler proof therefore marks NS-smooth
+      overlap whenever the NS surface is genuinely the same fixed-hypothesis
+      comparison, not a hidden viscous receiver import.
+    forbidden_overclaim: >-
+      Do not read these rows as global Euler smoothness or global NS regularity.
+      They are exact overlap theorems only on the stated surfaces.
+  - id: continuum.viscosity-divergence
+    status: closed-non-euler-import
+    rows:
+      - ESM.V1
+      - ESM.V2
+      - ESM.V3
+      - ESM.V4
+      - ESM.V5
+      - ESM.V6
+    theorem_readback: >-
+      These rows locate the exact places where Navier-Stokes uses viscosity:
+      ACT.KX scheduling, 2nu lower-collar absorption, top-viscous readout,
+      nu D_N dyadic damping, heat/Stokes/static diffusion, selector/export
+      viscous consumers, and the first-rung viscous-center supplier. Each row is
+      closed as non-Euler import unless an explicitly named inviscid replacement
+      theorem is later added as a new surface.
+    euler_readback: >-
+      Euler does not inherit these mechanisms by pressure, incompressibility, or
+      transport alone. The correct Euler action is replacement or demotion, not
+      import.
+  - id: continuum.nonsmooth-boundary
+    status: closed-local-boundary
+    rows:
+      - ESM.N1
+      - ESM.N2
+      - ESM.N3
+      - ESM.N4
+      - ESM.N5
+      - ESM.N6
+    theorem_readback: >-
+      These rows show that base Euler membership or nearby Euler class grammar
+      can coexist with failure of classical smoothness, one-field coherence,
+      Lagrangian flow-map structure, or receiver ledgers. Locally, this refutes
+      any implication from base Member_E to classical smoothness.
+    global_consequence_readback: >-
+      A local nonsmooth Euler member does not by itself prove a global Euler
+      nonsmoothness theorem for a chosen datum, domain, and class. It becomes a
+      global theorem only after an explicit extension, embedding, or localization
+      bridge supplies those global requirements.
+  - id: continuum.local-to-global-boundary
+    status: closed-as-bridge-rule
+    theorem_readback: >-
+      The local/global distinction is now fixed: local nonsmooth membership is a
+      valid local Euler theorem and a valid counterexample to local
+      base-membership-implies-smoothness. A global claim requires a stated bridge
+      theorem. Absence of that bridge is not an open note inside this ledger; it
+      is the boundary of what the local theorem proves.
+route_closure_tests:
+  required_rows:
+    smoothness_overlap:
+      - ESM.S1
+      - ESM.S2
+      - ESM.C1
+      - ESM.C2
+      - ESM.C3
+    viscosity_divergence:
+      - ESM.V1
+      - ESM.V2
+      - ESM.V3
+      - ESM.V4
+      - ESM.V5
+      - ESM.V6
+    nonsmooth_boundary:
+      - ESM.N1
+      - ESM.N2
+      - ESM.N3
+      - ESM.N4
+      - ESM.N5
+      - ESM.N6
+  required_closed_output_ids:
+    - continuum.smoothness-overlap
+    - continuum.viscosity-divergence
+    - continuum.nonsmooth-boundary
+    - continuum.local-to-global-boundary
+final_readback: >-
+  The Euler surfaces now do what the continuum program needs: they identify the
+  viscosity-free smooth overlap, the exact viscosity divergence, and the local
+  nonsmooth Euler boundary, while keeping global consequences honest and typed.
