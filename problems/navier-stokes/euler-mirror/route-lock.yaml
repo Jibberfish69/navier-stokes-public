@@ -179,7 +179,7 @@ closed_receiver_theorem_target:
     explicit Euler regularity/control envelopes, and base Member_E is shown not
     to force that ledger, without ACT.KX / ACT.X-TopVisc / 2nu absorption.
 terminal_branch_closure:
-  status: audit-closed-continuum-program-active
+  status: closed-as-continuum-route-control
   closure_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
   referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
   continuum_program_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-smoothness-continuum-program-20260523.md
