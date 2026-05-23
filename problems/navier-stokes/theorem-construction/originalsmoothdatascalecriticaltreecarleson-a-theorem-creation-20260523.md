@@ -17,16 +17,13 @@ OriginalSmoothDataScaleCriticalTreeCarleson.A. Original smooth data gives ScaleC
 - external_resources_used: false
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
 - selected_mechanism: original_data_scale_carleson_via_prd
-- candidate_count: 4
+- candidate_count: 1
 - solver_chain_verdict: open
 - selection_reason: This theorem is the right next move because it changes the proof economy: Use the terminal Zeno source-refill playbook: PositiveRemainderDepletion.A on localized pre-Cauchy source packets, together with LocalDonorBalance.A, EntranceLeafDecay.A, bounded overlap, and Zeno summability, yields ScaleCriticalTreeCarleson.A from original smooth data. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to PositiveRemainderDepletion.A rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
 - OriginalSmoothDataScaleCriticalTreeCarleson.A (original_data_scale_carleson_via_prd; score=170)
-- TerminalPackStrainIntegrabilityNoExit.A (contrapositive_exit; score=68)
-- TerminalPackStrainIntegrabilityNoExit.A (compactness_defect_rigidity; score=71)
-- TerminalPackStrainIntegrabilityNoExit.A (monotone_budget; score=70)
 
 ### Retrieved Ingredients
 
