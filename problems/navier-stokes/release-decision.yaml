@@ -17,6 +17,16 @@ decision:
     Prove TerminalCMNoExit.A / NoGenuineCMExit.A as Exit(Q):=not Member(Q) by classifying every alleged finite terminal tail through the Pack-first CM witness tree with Pack, then Part, then licensed Field. Member(Q) is downstream of that witness certificate.
   rationale: Honesty review did not clear the package for release, so work returns
     upstream on the typed respawn target.
+manual_supersession_20260523:
+  status: theorem-installed-after-generated-decision
+  theorem: ClayTerminalWitnessInvalidation.A / ClayCMCounterexampleExclusion.A
+  source_note: problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
+  effect: >-
+    The generated respawn target is superseded as the Clay-facing terminal
+    closure burden. The live theorem now closes by witness invalidation: a Clay
+    finite-failure counterexample must present a lawful same-fluid terminal
+    witness, and the installed CM finite-failure theorem makes every such witness
+    a Pack/Part/Field class-exit witness.
 artifacts:
   draft:
   draft_v6: problems/navier-stokes/draft-v6.md
