@@ -32,7 +32,7 @@ BASACTerminalSourceAntiConcentration.A. The produced B_ASAC class still admits t
 - problems/navier-stokes/theorem-packet.yaml -- source ingredient
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- residual control
-- problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
 
 ### Recursive Solver Chain
 
@@ -52,10 +52,10 @@ BASACTerminalSourceAntiConcentration.A. The produced B_ASAC class still admits t
 - WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing controlled by weighted adjoint residual mass. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
+- Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+- Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+- Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional field-integrability package, while End_NS, Field readout, and Member remain downstream consequences.
-- TemporalNonAtomicSource.A. Every terminal source-residue measure produced by the accepted Zeno compactness extraction is non-atomic at the terminal time slice.
-- OFP.A. The collar source-pressure package CSP.A propagates the retained one-field package on the same-fluid interval, with CFI.A, endpoint readout, Field, and Member kept downstream.
-- CSP.A. On the retained same-fluid collar, LCI.A together with the installed post-LCI source ledger FCI.5f supplies the collar source-pressure package; OFP.A, CFI.A, endpoint readout, Field, and Member remain downstream consumers.
 
 ## Forbidden Imports
 
