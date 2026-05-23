@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-23T23:41:39Z'
+  audited_at: '2026-05-23T23:42:22Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -36,7 +36,7 @@ branch_audit:
     - This branch starts exactly at the first unresolved frontier for `terminalcmnoexit-a-nogenuinecmexit-a`.
     - This is a route branch rather than a local theorem bridge, so it stays quarantined.
   authority_frontier_open: true
-  authority_frontier_count: 0
+  authority_frontier_count: 1
   authority_blocking_count: 1
   authority_status: theorem-open-at-direct-live-frontier
 downstream_overlay_drift:
@@ -53,7 +53,7 @@ downstream_overlay_drift:
     - theorem-upgrade
   - artifact: release_decision
     path: problems/navier-stokes/release-decision.yaml
-    sha1: 71b4f9576236afdad74ccf9ac160343c4836acbe
+    sha1: 405c6fe43747fcd04419df1e644ce4d96587677a
     matched_terms:
     - theorem-upgrade
   recommended_repair: refresh-review-verdict
@@ -70,8 +70,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-77b537bd5a47
-    route_signature: 77b537bd5a47d667929627e5094388f9f1afe688
+    surface_id: theorem-surface-navier-stokes-353f88a21243
+    route_signature: 353f88a21243bc31258b182f4a9da7037253a35e
     theorem_target: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
     theorem_statement: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
     route_chain:
@@ -98,19 +98,19 @@ surface_snapshot:
       not the internal branch itself
     route_slots:
     - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-pack-landing
-      label: Pack landing bridge for ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
+      label: Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
       kind: lemma
       status: localized-support
       source_anchor: problems/navier-stokes/live-theorem-edge.yaml
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
     - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-part-landing
-      label: Part landing bridge for ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
+      label: Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
       kind: lemma
       status: localized-support
       source_anchor: problems/navier-stokes/live-theorem-edge.yaml
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
     - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-field-landing
-      label: Field landing bridge for ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
+      label: Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
       kind: lemma
       status: localized-support
       source_anchor: problems/navier-stokes/live-theorem-edge.yaml
@@ -165,8 +165,6 @@ surface_snapshot:
       - problems/navier-stokes/debt-map.yaml
       - problems/navier-stokes/marvin-watchlist.yaml
       - problems/navier-stokes/live-theorem-edge.yaml
-      - problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
-      - problems/navier-stokes/theorem-construction/mpp-clay-solution-cm-exit-inadmissibility-20260523.md
       - problems/navier-stokes/route-lock.yaml
       - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
       - problems/navier-stokes/theorem-construction/live-frontier-honest-cut-reduction.md
@@ -232,7 +230,7 @@ surface_snapshot:
     structurally_supported_count: 0
     bridge_pending_count: 0
     unresolved_count: 0
-    frontier_count: 0
+    frontier_count: 1
     blocking_count: 1
     all_discharged: false
     authority_mode: direct-live-surfaces
@@ -247,7 +245,7 @@ issues:
     frontier until the branch lands as live import, route equivalence with a discharged
     authority edge, or death certificate.
   details:
-    authority_frontier_count: 0
+    authority_frontier_count: 1
     authority_blocking_count: 1
     authority_status: theorem-open-at-direct-live-frontier
 fix_plan: []
