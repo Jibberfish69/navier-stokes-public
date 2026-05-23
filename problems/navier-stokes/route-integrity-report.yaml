@@ -243,8 +243,8 @@ proof_program_topology:
   proof_mode: forward_positive_support_and_endpoint_readout
   governing_primitive: retained/averaged receiver, source ledger, endpoint readout
   propagated_object: receiver/source/read-cover/end-point packets
-  promotion_gate: typed bridge into a Pack/Part/Field face or into Member, or explicit
-    downstream readout
+  promotion_gate: typed bridge into Pack/Part/Field witness faces, or explicit downstream
+    readout after the CM witness certificate
   current_role: support program, not interchangeable with the CM primitive
 - program_id: export-readout-branches
   proof_mode: downstream_readout_or_export
