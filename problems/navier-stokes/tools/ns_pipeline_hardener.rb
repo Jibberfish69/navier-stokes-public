@@ -28,6 +28,7 @@ THEOREM_REPAIR_PATH = PROBLEM_ROOT.join("theorem-repair.yaml").freeze
 NS_ROUTE_TABLE_PATH = PROBLEM_ROOT.join("ns-proof-program-route-table.yaml").freeze
 THEOREM_CRANK_PATH = PROBLEM_ROOT.join("theorem-crank.yaml").freeze
 TARGET_OPERATING_CONTRACT_PATH = PROBLEM_ROOT.join("target-operating-contract.yaml").freeze
+FORWARD_POSITIVE_QUARANTINE_INDEX_PATH = PROBLEM_ROOT.join("forward-positive-proof-surface-quarantine-20260523.yaml").freeze
 REVIEW_VERDICT_PATH = PROBLEM_ROOT.join("review-verdict.yaml").freeze
 RELEASE_DECISION_PATH = PROBLEM_ROOT.join("release-decision.yaml").freeze
 RELEASE_MANIFEST_PATH = PROBLEM_ROOT.join("release-manifest.yaml").freeze
@@ -39,6 +40,17 @@ SUBMISSION_BUNDLE_EXPORT_STATUS_PATH = SUBMISSION_BUNDLE_ROOT.join("submission-e
 SUBMISSION_BUNDLE_THEOREM_PACKET_TEX_PATH = SUBMISSION_BUNDLE_ROOT.join("sections/authoritative-theorem-packet.tex").freeze
 
 TARGET_OPERATING_CONTRACT = YAML.load_file(TARGET_OPERATING_CONTRACT_PATH.to_s).freeze
+FORWARD_POSITIVE_SURFACE_QUARANTINE = TARGET_OPERATING_CONTRACT.fetch("forward_positive_surface_quarantine").freeze
+FORWARD_POSITIVE_QUARANTINE_INDEX = (
+  FORWARD_POSITIVE_QUARANTINE_INDEX_PATH.exist? ? YAML.load_file(FORWARD_POSITIVE_QUARANTINE_INDEX_PATH.to_s) : {}
+).freeze
+FORWARD_POSITIVE_QUARANTINE_SUMMARY = FORWARD_POSITIVE_SURFACE_QUARANTINE.merge(
+  "index_path" => "problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml",
+  "index_status" => FORWARD_POSITIVE_QUARANTINE_INDEX.fetch("status", "missing"),
+  "entry_count" => FORWARD_POSITIVE_QUARANTINE_INDEX.fetch("entry_count", FORWARD_POSITIVE_SURFACE_QUARANTINE.fetch("entry_count")),
+  "summary_by_class" => FORWARD_POSITIVE_QUARANTINE_INDEX.fetch("summary_by_class", FORWARD_POSITIVE_SURFACE_QUARANTINE.fetch("summary_by_class")),
+  "summary_by_scope" => FORWARD_POSITIVE_QUARANTINE_INDEX.fetch("summary_by_scope", {})
+).freeze
 CURRENT_SOURCE_WALL_ROOT_ID = "terminalcmnoexit-a-nogenuinecmexit-a"
 CURRENT_SOURCE_WALL_ROOT_LABEL = "TerminalCMNoExit.A / NoGenuineCMExit.A"
 CURRENT_SOURCE_WALL_ROOT_SUMMARY = "The Clay-facing CM frontier is TerminalCMNoExit.A / NoGenuineCMExit.A: prove original smooth Navier-Stokes data leaves at least one continuation-complete Pack/Part/Field packet on every alleged finite terminal tail. Source-residue and B_ASAC terminal residue subcases are already sorted as Pack/Part witness or supplier-quarantined support; they are not bare anti-atom deletion burdens and do not close the no-exit theorem."
@@ -54,7 +66,8 @@ CURRENT_SOURCE_WALL_ROOT_SUMMARY = [
   "The historical PRD/LPSC/SquareSourceEstimate.A/ActiveShellAmplitudeGain.A/non-Carleson Zeno source-control entrances are quarantined support for a downstream no-pulse program. They are not terminal Zeno CM obligations.",
   "The May 17 parallel completion pass remains evidence that those forward entrances are not installed CM inputs: PRD needs SourceWeightedTerminalAngularDepletion.A, LPSC returns to PRD, SquareSourceEstimate.A and ActiveShellAmplitudeGain.A return to ActiveShellSourceNormalize.A / active-square reserve, and the non-Carleson Zeno route needs TerminalSourceReverseHolder.A / UniformTemporalSourceIntegrability_p.A or a produced rigid residue class with Liouville.",
   "The equality route under SourceWeightedTerminalAngularDepletion.A has ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A installed. The May 21 terminal Zeno correction classifies any B_ASAC^closed terminal atom as endpoint Pack failure: finite Zeno ancestry packets may be legal, but the terminal zero-radius residue is not a retained positive-radius packet. NoPersistentUnpaidPositiveRadiusAncestry.A closes the positive-radius retained tail by the shared-participation strip balance: a positive terminal carrier must pay, receive incoming participation flux, leave through a legal ledger, or hit a finite CM face. BASACTerminalAtomCMFaceLabeling.A, RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A remain finite-ancestry accounting and post-exit readout support. This settles the terminal Zeno endpoint for CM Pack-legality without leaving a forward positive-supplier burden attached to it.",
-  "The May 17 eigenframe and pressure-Hessian attempts add OneSidedNearBandMaterialStrainBV.A / TerminalPressureHessianNoSustain.A as a signed near-band source-current obstruction, not a new CM face or an installed pressure-sustain theorem."
+  "The May 17 eigenframe and pressure-Hessian attempts add OneSidedNearBandMaterialStrainBV.A / TerminalPressureHessianNoSustain.A as a signed near-band source-current obstruction, not a new CM face or an installed pressure-sustain theorem.",
+  "The forward-positive quarantine index demotes every scanned positive-smoothness, positive-supplier, transfer, receiver/readout, export, and already-demoted positive surface for CM use: #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} indexed surfaces remain support unless a named bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}."
 ].join(" ")
 ROUTE_SUMMARY_BASE = CURRENT_ROUTE_SUMMARY
 Object.send(:remove_const, :CURRENT_ROUTE_SUMMARY)
@@ -65,7 +78,8 @@ CURRENT_ROUTE_SUMMARY = [
   "ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A produce B_ASAC; the May 21 terminal Zeno correction says the B_ASAC^closed terminal atom is `not Pack_Q` at the zero-radius endpoint. NoPersistentUnpaidPositiveRadiusAncestry.A handles the positive-radius retained tail: the shared-participation strip estimate forces incoming flux, CM-envelope blowout, paid exit, or finite CM-face exit. Retained H1-H6 replay, ACT.KX, DTC.Read, Field.Read, READ.COVER, End_NS, OFP.A, and endpoint readout consequences remain downstream or quarantined support.",
   "The exact Clay-facing CM burden is TerminalCMNoExit.A / NoGenuineCMExit.A. Treating B_ASAC reverse-Holder production, NativeSourceAC.A, or a public-critical translator as the live CM closure theorem is target drift unless a separate Pack/Part/Field bridge license is proved.",
   "PublicCriticalExitToCMFace_X.A / RetainedPackPartCriticalConcentrationFieldExit_X.A remains a CM-facing translator target, not a substitute for TerminalCMNoExit.A / NoGenuineCMExit.A. The L3/Duhamel/native-source split is support for landing public critical-class exit on the witness ledger.",
-  "The same refresh keeps Euler-mirror pressure/nonparticipation notes out of the non-Euler pass and records the eigenframe/pressure route as conditional near-band source-current support."
+  "The same refresh keeps Euler-mirror pressure/nonparticipation notes out of the non-Euler pass and records the eigenframe/pressure route as conditional near-band source-current support.",
+  "The forward-positive quarantine index is now a hard demotion surface for #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} scanned repo surfaces: indexed material cannot set a CM frontier, close TerminalCMNoExit.A / NoGenuineCMExit.A, replace the Pack-first witness tree, count as release readiness, or convert a lawful class-exit witness into a deletion burden."
 ].join(" ")
 CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN = {
   "status" => "frontier-open",
@@ -76,7 +90,7 @@ CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN = {
   "active_container" => CURRENT_SOURCE_WALL_ROOT_ID,
   "respawn_cell" => "source-wall-root-theorem",
   "respawn_stage" => "direct-packet-survival",
-  "allowed_input_boundary" => "The proof may use installed genuine-exit capture, canonical terminal packet capture, terminal source-residue CM-exit sorting, and finite failure witness capture. Bare positive-supplier deletion theorems, B_ASAC reverse-Holder production, PCTP/no-pulse supplier targets, and endpoint readout consequences remain separate or quarantined support unless a Pack/Part/Field bridge license is proved.",
+  "allowed_input_boundary" => "The proof may use installed genuine-exit capture, canonical terminal packet capture, terminal source-residue CM-exit sorting, and finite failure witness capture. Bare positive-supplier deletion theorems, B_ASAC reverse-Holder production, PCTP/no-pulse supplier targets, endpoint readout consequences, and every surface indexed in the forward-positive quarantine ledger remain separate or quarantined support unless a Pack/Part/Field bridge license is proved.",
   "nearest_wrong_substitution" => "Treating B_ASAC supplier exhaustion or source-residue sorting as Clay-facing CM closure."
 }.freeze
 CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE = {
@@ -146,6 +160,7 @@ def target_topology_payload
     "open_root_group" => OPEN_ROOT_GROUP,
     "exact_live_theorem_grade_burden" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN,
     "release_or_respawn_consequence" => CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE,
+    "forward_positive_surface_quarantine" => FORWARD_POSITIVE_QUARANTINE_SUMMARY,
     "non_merge_rules" => NS_NON_MERGE_RULES,
     "authority_hierarchy" => NS_AUTHORITY_HIERARCHY,
     "mode_selection_protocol" => NS_MODE_SELECTION_PROTOCOL
@@ -364,6 +379,7 @@ def sanitize_source_frontier(source_frontier)
   source_frontier["frontier"]["readiness_boundary"] = "Terminal CM no-exit frontier remains open: #{CURRENT_SOURCE_WALL_ROOT_SUMMARY}"
   source_frontier["frontier"]["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   source_frontier["frontier"]["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
+  source_frontier["frontier"]["forward_positive_surface_quarantine"] = FORWARD_POSITIVE_QUARANTINE_SUMMARY
   source_frontier["frontier"]["source_artifact_program_quarantine"] = artifact_program_quarantine(source_frontier["source_artifacts"])
   attach_target_topology!(source_frontier["frontier"])
 
@@ -427,6 +443,7 @@ def sanitize_theorem_packet(packet)
   packet["posture"]["sourcewall_root_cm_status"] = CURRENT_SOURCE_WALL_ROOT_SUMMARY
   packet["posture"]["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   packet["posture"]["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
+  packet["posture"]["forward_positive_surface_quarantine"] = FORWARD_POSITIVE_QUARANTINE_SUMMARY
   packet["posture"]["one_frontier_language_boundary"] = NS_TARGET_PREFLIGHT.fetch("anti_flattening_rule")
   packet["source_artifact_program_quarantine"] = artifact_program_quarantine(packet["source_artifacts"])
   packet["frontiers"] ||= {}
