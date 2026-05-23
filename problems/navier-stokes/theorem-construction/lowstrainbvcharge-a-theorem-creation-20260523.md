@@ -3,13 +3,13 @@
 ## Target
 
 - target obligation: LowStrainBVCharge.A
-- target label: Create the recursive theorem subprimitive LowStrainBVCharge.A exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
+- target label: BV sampling charge for the low-strain part of a retained height-flux pulse
 - route role: Use the direct BV attempt: far-low temporal BV has a parabolic scale-separation gain, so the remaining subwall is the near-neighbor low-strain material/source variation together with retained packet frame rotation at the high heat rate.
 - theorem family: reserve-creation-charge
 
 ## Created Theorem
 
-LowStrainBVCharge.A. Use the direct BV attempt: far-low temporal BV has a parabolic scale-separation gain, so the remaining subwall is the near-neighbor low-strain material/source variation together with retained packet frame rotation at the high heat rate. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive LowStrainBVCharge.A exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
+LowStrainBVCharge.A. Use the direct BV attempt: far-low temporal BV has a parabolic scale-separation gain, so the remaining subwall is the near-neighbor low-strain material/source variation together with retained packet frame rotation at the high heat rate. This supplies the exact noncircular bridge needed for BV sampling charge for the low-strain part of a retained height-flux pulse.
 
 ## Inventive Search
 
@@ -23,16 +23,16 @@ LowStrainBVCharge.A. Use the direct BV attempt: far-low temporal BV has a parabo
 
 ### Candidate Theorems
 
-- LowStrainBVCharge.A (low_strain_bv_to_near_band_and_frame_bv; score=132)
+- LowStrainBVCharge.A (low_strain_bv_to_near_band_and_frame_bv; score=136)
 
 ### Retrieved Ingredients
 
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:58 -- source ingredient
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:55 -- source ingredient
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- retained-face amplitude support
+- problems/navier-stokes/theorem-packet.yaml -- residual control
 
 ### Recursive Solver Chain
 
@@ -46,12 +46,12 @@ LowStrainBVCharge.A. Use the direct BV attempt: far-low temporal BV has a parabo
 - parabolic scale separation
 - near-band material derivative
 - retained packet frame rotation
+- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is not Pack_Q, or it forces incoming flux, CM envelope blowout, paid exit, and hence Pack/Part/Field witness-face exit. This is a CM face-reduction theorem, not a forward no-free-sink supplier discharge.
 - ScaleCriticalTreeCarleson.A. The reserve, charge, adjoint-tail, and windowwise leakage ledgers would sum to the Pack_Q scale-critical donor-refill Carleson bound only after the noncircular Pack-side residual primitive is proved; until then an unpaid infinite donor-refill tree remains a Pack-face exit witness, not a closed no-exit theorem.
-- theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
-- ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
-- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is the exact remaining forward supplier theorem; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, so this production is not currently discharged and remains supplier-quarantined for the CM route.
-- - problems/navier-stokes/theorem-packet.yaml
 - PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
+- ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
+- RetainedFaceAmplitudeGain.A. Any retained field-face amplitude gain admissible for the CM contrapositive route is recorded first as a Pack_Q gain event and transported through Part_{N,Q} without importing Field_{N,r,Q} or Member(Q) as a premise.
+- AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing controlled by weighted adjoint residual mass. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - ParentSquareEmbed.A
 - WeightedAdjRes.A
 - terminal heat-window decomposition
@@ -60,7 +60,7 @@ LowStrainBVCharge.A. Use the direct BV attempt: far-low temporal BV has a parabo
 ## Forbidden Imports
 
 - LowStrainBVCharge.A
-- Create the recursive theorem subprimitive LowStrainBVCharge.A exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
+- BV sampling charge for the low-strain part of a retained height-flux pulse
 - full-MPP closure
 - submission readiness
 - global smoothness
@@ -75,7 +75,6 @@ LowStrainBVCharge.A. Use the direct BV attempt: far-low temporal BV has a parabo
 3. Route the surviving near-band material/source variation to NearBandBVToBurstOrSource.A.
 4. Route the moving retained-frame variation to FrameBVCharge.A.
 5. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
-6. Use problems/navier-stokes/agent-contract.yaml:145 as source support for installed dynamic support.
 
 ## Circularity Audit
 
