@@ -24,18 +24,18 @@ PositiveRemainderDepletion.A. On each localized pre-Cauchy source packet, the po
 ### Candidate Theorems
 
 - PositiveRemainderDepletion.A (positive_remainder_depletion_to_source_weighted_angular; score=140)
-- PositiveRemainderDepletion.A (contrapositive_exit; score=68)
-- PositiveRemainderDepletion.A (compactness_defect_rigidity; score=71)
-- PositiveRemainderDepletion.A (monotone_budget; score=70)
+- PositiveRemainderDepletion.A (contrapositive_exit; score=64)
+- PositiveRemainderDepletion.A (compactness_defect_rigidity; score=67)
+- PositiveRemainderDepletion.A (monotone_budget; score=66)
 
 ### Retrieved Ingredients
 
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- source ingredient
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- residual control
 - problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- retained-face amplitude support
 
 ### Recursive Solver Chain
 
@@ -50,15 +50,15 @@ PositiveRemainderDepletion.A. On each localized pre-Cauchy source packet, the po
 - drain
 - legal parent-edge loss
 - selected active packet
-- PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
+- PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing controlled by weighted adjoint residual mass. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
 - CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional field-integrability package, while End_NS, Field readout, and Member remain downstream consequences.
+- TemporalNonAtomicSource.A. Every terminal source-residue measure produced by the accepted Zeno compactness extraction is non-atomic at the terminal time slice.
 - OFP.A. The collar source-pressure package CSP.A propagates the retained one-field package on the same-fluid interval, with CFI.A, endpoint readout, Field, and Member kept downstream.
 - CSP.A. On the retained same-fluid collar, LCI.A together with the installed post-LCI source ledger FCI.5f supplies the collar source-pressure package; OFP.A, CFI.A, endpoint readout, Field, and Member remain downstream consumers.
-- LCI.A. On a retained same-fluid interval with bounded Pack gauge and the ordered ACT.KX receiver package installed, ACT.X-Readout gives ACT.A, ACT.A gives RCF.A through the transported-center residual package, and ULCI.A/DTC.C yields lower-carrier interval integrability; FCI.5f, CSP.A, OFP.A, CFI.A, endpoint readout, Field, and Member remain downstream consumers.
 
 ## Forbidden Imports
 
@@ -75,6 +75,7 @@ PositiveRemainderDepletion.A. On each localized pre-Cauchy source packet, the po
 3. Reduce the positive remainder to source-weighted terminal angular depletion on the selected active packet.
 4. Keep this as positive Pack/source-supplier work; do not promote it directly into Part, Field, or Member.
 5. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
+6. Use problems/navier-stokes/theorem-packet.yaml as source support for source ingredient.
 
 ## Circularity Audit
 
