@@ -87,6 +87,8 @@ theorem_warrants:
     release audit. Demotion repair: historical four-bridge and positive-support warrants
     remain support context only. They are not stand-alone proof authority for a full
     release audit. Demotion repair: historical four-bridge and positive-support warrants
+    remain support context only. They are not stand-alone proof authority for a full
+    release audit. Demotion repair: historical four-bridge and positive-support warrants
     remain support context only. They are not stand-alone proof authority while source-wall-root-after-reconcile
     is open. Demotion repair: historical four-bridge and positive-support warrants
     remain support context only. They are not stand-alone proof authority while source-wall-root-after-reconcile
@@ -414,9 +416,9 @@ theorem_warrants:
         terminal packet capture, terminal source-residue CM-exit sorting, and finite
         failure witness capture. TerminalCMNoExit.A / NoGenuineCMExit.A, bare positive-supplier
         deletion theorems, B_ASAC reverse-Holder production, PCTP/no-pulse supplier
-        targets, and endpoint readout consequences stay separate or quarantined as
-        support unless the user explicitly switches to a positive packet-survival
-        proof.
+        targets, and endpoint readout consequences, plus every surface indexed in
+        the forward-positive quarantine ledger, stay separate or quarantined as support
+        unless the user explicitly switches to a positive packet-survival proof.
       nearest_wrong_substitution: Recasting the CM contrapositive target as TerminalCMNoExit.A
         / NoGenuineCMExit.A, a bare positive-supplier deletion theorem, or a demand
         to prove that the Pack/Part/Field packet never exits.
@@ -647,8 +649,9 @@ theorem_warrants:
       role: readout presentation requiring direct accountability before use as a target
   non_merge_rules: &5
   - rule_id: positive-vs-cm
-    statement: Positive smoothness control is not the CM contrapositive unless a named
-      bridge proves membership or witness-face landing.
+    statement: Positive smoothness control and every surface indexed in the forward-positive
+      quarantine ledger are not the CM contrapositive unless a named bridge proves
+      membership or witness-face landing in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
   - rule_id: fixed-nu-transfer-vs-ns-smoothness
     statement: Fixed-nu Euler-to-NS transfer compares two equations on the same datum
       and interval; it does not prove Euler smoothness or stand-alone NS smoothness.
@@ -688,6 +691,7 @@ theorem_warrants:
     - problems/navier-stokes/theorem-packet.yaml
     - problems/navier-stokes/theorem-repair.yaml
     - problems/navier-stokes/dependency-discharge.yaml
+    - problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
     - problems/navier-stokes/theorem-construction/mpp-major-non-euler-cm-contrapositive-closures-20260514.md
     - problems/navier-stokes/non-euler-surface-face-sweep-index-20260514.yaml
     - problems/navier-stokes/non-euler-failure-face-diagnostic-map-20260514.yaml
@@ -711,6 +715,9 @@ theorem_warrants:
       reflection
     - classify proof_mode before using words like route, frontier, wall, path, target,
       closure, or smoothness
+    - check the forward-positive quarantine index before using a positive, supplier,
+      transfer, receiver/readout, export, or continuation surface in a CM contrapositive
+      answer
     - classify action_type before choosing status, proof attempt, patch, inventory,
       or target-tail output
     - preserve paused targets instead of merging them into the active one
@@ -732,9 +739,9 @@ theorem_warrants:
     allowed_input_boundary: The proof may use installed genuine-exit capture, canonical
       terminal packet capture, terminal source-residue CM-exit sorting, and finite
       failure witness capture. Bare positive-supplier deletion theorems, B_ASAC reverse-Holder
-      production, PCTP/no-pulse supplier targets, and endpoint readout consequences
-      remain separate or quarantined support unless a Pack/Part/Field bridge license
-      is proved.
+      production, PCTP/no-pulse supplier targets, endpoint readout consequences, and
+      every surface indexed in the forward-positive quarantine ledger remain separate
+      or quarantined support unless a Pack/Part/Field bridge license is proved.
     nearest_wrong_substitution: Treating B_ASAC supplier exhaustion or source-residue
       sorting as Clay-facing CM closure.
   release_or_respawn_consequence: &9
@@ -745,6 +752,40 @@ theorem_warrants:
       by classifying every alleged finite terminal tail through the Pack-first CM
       witness tree with Pack, then Part, then licensed Field; Member(Q) is downstream
       of that witness certificate.
+  forward_positive_surface_quarantine: &10
+    status: active-global-demotion
+    index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
+    generator: problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb
+    scan_scope: problems/navier-stokes/** text surfaces
+    entry_count: 1853
+    summary_by_class:
+      already-demoted-positive-support-language: 66
+      downstream-export-or-legacy-engine-support: 567
+      quarantined-forward-positive-supplier-support: 625
+      receiver-readout-endpoint-support: 1143
+      separate-positive-smoothness-support: 378
+      separate-transfer-or-euler-comparison-support: 128
+    rule: Every indexed forward-positive, positive-supplier, continuation, transfer,
+      receiver/readout, export, or already-demoted positive surface is support only
+      for the CM contrapositive program. It cannot set the live CM frontier, close
+      TerminalCMNoExit.A / NoGenuineCMExit.A, replace the Pack-first witness tree,
+      count as publication readiness, or turn a bad source/residue object into a deletion
+      burden when that object is already a lawful class-exit witness.
+    promotion_gate: Only a named bridge-license theorem that lands the exact result
+      in Pack_Q, Part_{N,Q}, or Field_{N,r,Q} can promote an indexed surface for CM
+      use.
+    pre_answer_rule: If a Navier-Stokes answer, target packet, review surface, release
+      surface, or theorem-creation prompt cites any indexed surface while the active
+      program is CM contrapositive, it must state its quarantine class or route it
+      through the Pack/Part/Field bridge-license gate before using it.
+    positive_program_boundary: When the user explicitly switches to a positive smoothness,
+      positive supplier, fixed-nu transfer, or Euler comparison program, indexed surfaces
+      may be read only inside that separate program and still do not become CM authority.
+    index_path: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
+    index_status: active-global-demotion-index
+    summary_by_scope:
+      repo-surface: 201
+      theorem-construction: 1652
 bridge_obligations:
 - bridge_id: scale-barrier
   verdict: discharged
@@ -857,3 +898,4 @@ authority_hierarchy: *6
 mode_selection_protocol: *7
 exact_live_theorem_grade_burden: *8
 release_or_respawn_consequence: *9
+forward_positive_surface_quarantine: *10
