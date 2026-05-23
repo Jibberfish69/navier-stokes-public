@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-05-23T00:16:23Z'
+  generated_at: '2026-05-23T00:18:08Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -76,9 +76,6 @@ branch_pool:
       a local discharge target?
     scope_guard: Formalize only what the current theorem target needs next.
   grounded_basis:
-  - marvin-upstream-409f183ee495
-  - marvin-upstream-c8f7cb511776
-  - marvin-upstream-e2f5b0a915cf
   - TerminalCMNoExit.A
   risk_level: medium
   notes:
@@ -129,9 +126,6 @@ branch_pool:
       a local discharge target?
     scope_guard: Formalize only what the current theorem target needs next.
   grounded_basis:
-  - marvin-upstream-409f183ee495
-  - marvin-upstream-c8f7cb511776
-  - marvin-upstream-e2f5b0a915cf
   - NoGenuineCMExit.A
   risk_level: medium
   notes:
@@ -182,9 +176,6 @@ branch_pool:
       a local discharge target?
     scope_guard: Formalize only what the current theorem target needs next.
   grounded_basis:
-  - marvin-upstream-409f183ee495
-  - marvin-upstream-c8f7cb511776
-  - marvin-upstream-e2f5b0a915cf
   - SOURCE.NO-PULSE.A
   risk_level: medium
   notes:
@@ -238,9 +229,6 @@ branch_pool:
       a local discharge target?
     scope_guard: Formalize only what the current theorem target needs next.
   grounded_basis:
-  - marvin-upstream-409f183ee495
-  - marvin-upstream-c8f7cb511776
-  - marvin-upstream-e2f5b0a915cf
   - RawZenoFailurePartition.A
   risk_level: medium
   notes:
