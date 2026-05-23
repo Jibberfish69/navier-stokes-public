@@ -3,7 +3,7 @@
 ## Target
 
 - target obligation: BASACReverseHolderProduction.A
-- target label: produce a reverse-Holder B_ASAC^RH(p) subclass from the current B_ASAC equality-class clauses
+- target label: Refine the stalled dependency-discharge target BASACReverseHolderProduction.A: BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is the exact remaining forward supplier theorem; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, so this production is not currently discharged and remains supplier-quarantined for the CM route.
 - route role: The B_ASAC reverse-holder production burden asks for B_ASAC => B_ASAC^RH(p) for some p>1. The local source corpus proves the conditional Liouville theorem once this subclass is produced, and also shows the current B_ASAC clauses do not produce it: finite L^1_t terminal source mass allows shrinking terminal-layer concentration. This is an honest forward positive-supplier obstruction, not a CM Pack/Part/Field promotion.
 - theorem family: generic-bridge-theorem
 
@@ -23,16 +23,16 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 
 ### Candidate Theorems
 
-- BASACReverseHolderProduction.A (basac_reverse_holder_production_hard_obstruction; score=88)
+- BASACReverseHolderProduction.A (basac_reverse_holder_production_hard_obstruction; score=124)
 
 ### Retrieved Ingredients
 
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- source ingredient
-- problems/navier-stokes/theorem-packet.yaml -- residual control
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- residual control
 
 ### Recursive Solver Chain
 
@@ -60,7 +60,7 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 ## Forbidden Imports
 
 - BASACReverseHolderProduction.A
-- produce a reverse-Holder B_ASAC^RH(p) subclass from the current B_ASAC equality-class clauses
+- Refine the stalled dependency-discharge target BASACReverseHolderProduction.A: BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is the exact remaining forward supplier theorem; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, so this production is not currently discharged and remains supplier-quarantined for the CM route.
 - full-MPP closure
 - submission readiness
 - global smoothness
