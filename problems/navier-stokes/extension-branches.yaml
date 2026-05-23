@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   branch_set_id: extension-branches-navier-stokes
-  generated_at: '2026-05-22T22:49:02Z'
+  generated_at: '2026-05-23T00:18:08Z'
   generator: system/runner/lib/lemma_synthesis_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -21,8 +21,6 @@ branches:
     / NoGenuineCMExit.A can be made explicit without crossing the current safe-claim
     boundary.
   depends_on:
-  - marvin-upstream-c8f7cb511776
-  - marvin-upstream-e2f5b0a915cf
   - terminalcmnoexit-a-nogenuinecmexit-a
   risk_level: high
   notes:
