@@ -7,28 +7,28 @@ identity:
   evaluated_at: '2026-05-23T02:15:29Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
-  disposition: review-sync
-  release_posture: revise-paperization-after-clay-closure
+  disposition: respawn
+  release_posture: revise-loop
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: clay-terminal-closure-installed
-  next_cell_type: honesty-review
-  next_stage: clay-witness-invalidation-review
+  completion_tier_achieved: route-complete
+  next_cell_type: source-wall-root-theorem
+  next_stage: direct-packet-survival-or-admissibility-bridge
   next_action: >-
-    Review and export ClayTerminalWitnessInvalidation.A / ClayCMCounterexampleExclusion.A
-    as the Clay-facing CM contrapositive terminal step.
-  rationale: The generated respawn target was superseded by the installed witness
-    invalidation theorem; remaining work is review/export synchronization, not
-    packet-survival theorem respawn.
+    Prove TerminalCMNoExit.A / NoGenuineCMExit.A, or prove the equivalent external
+    admissibility bridge that terminal Pack/Part/Field class-exit is inadmissible
+    as a Clay breakdown counterexample witness.
+  rationale: ClaySolutionCMExitInadmissibility.A proves only smooth-solution
+    inadmissibility for CM class-exit. It does not close the Clay breakdown
+    counterexample route.
 manual_supersession_20260523:
-  status: theorem-installed-after-generated-decision
+  status: truth-audited-not-installed
   theorem: ClayTerminalWitnessInvalidation.A / ClayCMCounterexampleExclusion.A
   source_note: problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
   effect: >-
-    The generated respawn target is superseded as the Clay-facing terminal
-    closure burden. The live theorem now closes by witness invalidation: a Clay
-    finite-failure counterexample must present a lawful same-fluid terminal
-    witness, and the installed CM finite-failure theorem makes every such witness
-    a Pack/Part/Field class-exit witness.
+    The generated respawn target is not superseded as the Clay-facing terminal
+    closure burden. ClaySolutionCMExitInadmissibility.A independently proves that
+    class-exit is inadmissible for a Clay smooth solution, but the stronger
+    breakdown-witness admissibility bridge remains open.
 artifacts:
   draft:
   draft_v6: problems/navier-stokes/draft-v6.md
@@ -63,4 +63,4 @@ blockers:
 - Submission export is not a clean typeset export yet.
 summary:
   queue_effect: ready
-  registry_note: problem is queued for review/export sync around ClayTerminalWitnessInvalidation.A
+  registry_note: problem is re-queued on TerminalCMNoExit.A / NoGenuineCMExit.A or an equivalent breakdown-witness admissibility bridge
