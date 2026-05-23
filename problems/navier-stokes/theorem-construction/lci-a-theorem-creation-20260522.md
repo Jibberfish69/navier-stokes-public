@@ -4,12 +4,12 @@
 
 - target obligation: LCI.A
 - target label: Create the sharp CM branch theorem LCI.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Pack, Part, or Field.
-- route role: Use the retained same-fluid receiver package: ordered ACT.KX and its readout feed ACT.A, then RCF.A, and the uniform lower-carrier/transported-center package supplies the LCI.A lower-carrier interval-integrability conclusion without spending CSP.A, OFP.A, Field, or Member.
+- route role: Use the retained same-fluid receiver package: ordered ACT.KX and its readout feed ACT.A, then RCF.A, and the uniform lower-carrier/transported-center package supplies the LCI.A lower-carrier interval-integrability conclusion without spending CSP.A, OFP.A, or Field; Member is downstream of the CM witness certificate.
 - theorem family: generic-bridge-theorem
 
 ## Created Theorem
 
-LCI.A. On a retained same-fluid interval with bounded Pack gauge and the ordered ACT.KX receiver package installed, ACT.X-Readout gives ACT.A, ACT.A gives RCF.A through the transported-center residual package, and ULCI.A/DTC.C yields lower-carrier interval integrability; FCI.5f, CSP.A, OFP.A, CFI.A, endpoint readout, Field, and Member remain downstream consumers.
+LCI.A. On a retained same-fluid interval with bounded Pack gauge and the ordered ACT.KX receiver package installed, ACT.X-Readout gives ACT.A, ACT.A gives RCF.A through the transported-center residual package, and ULCI.A/DTC.C yields lower-carrier interval integrability; FCI.5f, CSP.A, OFP.A, CFI.A, endpoint readout, and Field remain downstream consumers, with Member downstream of the CM witness certificate.
 
 ## Inventive Search
 
@@ -19,7 +19,7 @@ LCI.A. On a retained same-fluid interval with bounded Pack gauge and the ordered
 - selected_mechanism: lci_receiver_chain_closure
 - candidate_count: 4
 - solver_chain_verdict: closed
-- selection_reason: This theorem is the right next move because it changes the proof economy: Use the retained same-fluid receiver package: ordered ACT.KX and its readout feed ACT.A, then RCF.A, and the uniform lower-carrier/transported-center package supplies the LCI.A lower-carrier interval-integrability conclusion without spending CSP.A, OFP.A, Field, or Member. It is source-backed by 8 local ingredient(s). The internal solver also discharged the residual chain through LCI.A.
+- selection_reason: This theorem is the right next move because it changes the proof economy: Use the retained same-fluid receiver package: ordered ACT.KX and its readout feed ACT.A, then RCF.A, and the uniform lower-carrier/transported-center package supplies the LCI.A lower-carrier interval-integrability conclusion without spending CSP.A, OFP.A, or Field; Member is downstream of the CM witness certificate. It is source-backed by 8 local ingredient(s). The internal solver also discharged the residual chain through LCI.A.
 
 ### Candidate Theorems
 
