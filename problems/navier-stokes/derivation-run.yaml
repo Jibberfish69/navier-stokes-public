@@ -2,21 +2,25 @@
 version: 1
 identity:
   problem_id: navier-stokes
-  run_id: debt-derive-navier-stokes-20260518T080826Z
-  debt_id: source-wall-root-after-reconcile
+  run_id: debt-derive-navier-stokes-20260523T015743Z
+  debt_id: debt-hard-supplier-basacreverseholderproduction-a
 target_debt:
-  debt_id: source-wall-root-after-reconcile
-  label: source-wall-root-after-reconcile
-  priority_rank: 3
-  monograph_status: reopened from a stalled object-formalization/dependency-discharge
-    handoff
+  debt_id: debt-hard-supplier-basacreverseholderproduction-a
+  label: BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
+    is the exact remaining forward supplier theorem; the installed B_ASAC equality-class
+    clauses allow finite L^1_t terminal-layer concentration, so this production is
+    not currently discharged and remains supplier-quarantined for the CM route.
+  priority_rank: 1
+  monograph_status: dependency-discharge isolated this as a hard supplier obstruction
+    below the direct-live CM no-exit root
   primary_anchors:
-  - problems/navier-stokes/creative-theorem-search.yaml
+  - problems/navier-stokes/theorem-construction/basacreverseholderproduction-a-theorem-creation-20260523.md
   - problems/navier-stokes/dependency-discharge.yaml
-  - problems/navier-stokes/object-formalization.yaml
-  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/theorem-creation.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/live-theorem-edge.yaml
 search_scope:
-  generated_at: '2026-05-18T08:08:26Z'
+  generated_at: '2026-05-23T01:57:43Z'
   files_checked:
     workboard-local:
     - problems/navier-stokes/obstruction-capture.md
@@ -26,6 +30,8 @@ search_scope:
     - problems/navier-stokes/draft-v7.md
     - problems/navier-stokes/review-log.md
     - problems/navier-stokes/formalization-ledger.md
+    - problems/navier-stokes/exploration-graph.yaml
+    - problems/navier-stokes/layered-route-graph.yaml
     - problems/navier-stokes/theorem-packet.yaml
     - problems/navier-stokes/source-frontier.yaml
     - problems/navier-stokes/frozen-core.md
@@ -54,10 +60,9 @@ search_scope:
     - problems/navier-stokes/paper-quality-verdict.yaml
     - problems/navier-stokes/review-verdict.yaml
     canonical-problem-corpus:
-    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/proof-assembly.yaml
+    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-frontier.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/dependency-discharge.yaml
-    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/object-formalization.yaml
-    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/creative-theorem-search.yaml
+    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/submission-bundle/source-frontier.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/debt-map.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/gap-ticket.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/route-lock.yaml
@@ -70,13 +75,13 @@ search_scope:
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/agent-contract.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/derivation-run.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/pipeline-state.yaml
+    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/proof-assembly.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/review-verdict.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/theorem-packet.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/backfill-report.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/bridge-slot-map.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/campaign-status.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/continuum-stack.yaml
-    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-frontier.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/inbox-escalation.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/manuscript-depth.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/marvin-watchlist.yaml
@@ -94,6 +99,7 @@ search_scope:
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/lemma-falsification.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/marvin-ingest-notes.yaml
     - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/submission-metadata.yaml
+    - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/warrant-compilation.yaml
     conversation-direct: []
     conversation-indirect: []
     conversation-speculative: []
@@ -146,19 +152,15 @@ search_scope:
 source_scope:
   previous_evidence_paths: []
   current_evidence_paths:
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/extension-branches.yaml
-  - problems/navier-stokes/lemma-falsification.yaml
+  - problems/navier-stokes/review-verdict.yaml
+  - problems/navier-stokes/gradient-discharge-source-pack.md
+  - problems/navier-stokes/submission-verdict.yaml
   new_evidence_paths:
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/extension-branches.yaml
-  - problems/navier-stokes/lemma-falsification.yaml
+  - problems/navier-stokes/review-verdict.yaml
+  - problems/navier-stokes/gradient-discharge-source-pack.md
+  - problems/navier-stokes/submission-verdict.yaml
   novel_support_found: true
   source_sufficiency: sufficient
   fallback_used: false
@@ -188,10 +190,10 @@ authority_provenance:
     database_path: problems/navier-stokes/runtime/meta/runtime-hot-state.sqlite3
     authoritative_storage: sqlite
     compatibility_shadow_status: fresh
-    indexed_event_count: 32910
-    indexed_lease_count: 24912
+    indexed_event_count: 33171
+    indexed_lease_count: 25161
     active_lease_count: 1
-    latest_active_lease_id: debt-derive-navier-stokes-20260518T080826Z
+    latest_active_lease_id: debt-derive-navier-stokes-20260523T015743Z
     status: ok
     error_class:
   roots:
@@ -244,7 +246,7 @@ authority_provenance:
     compatibility_present: true
     archive_fallback_present: false
     selected_classification_counts:
-      lane-local: 6
+      lane-local: 4
     fallback_used: false
     fallback_reason:
     fallback_reasons: []
@@ -331,110 +333,39 @@ authority_provenance:
     legacy_runtime_root_policy: deprecated-ignored
   resolver_path: *6
 search_terms:
-- problems/navier-stokes/creative-theorem-search.yaml
+- problems/navier-stokes/theorem-construction/basacreverseholderproduction-a-theorem-creation-20260523.md
 - problems/navier-stokes/dependency-discharge.yaml
-- problems/navier-stokes/object-formalization.yaml
-- problems/navier-stokes/proof-assembly.yaml
-- source-wall-root-after-reconcile
-- problems/navier-stokes/post-release-plan.yaml
+- problems/navier-stokes/theorem-creation.yaml
+- problems/navier-stokes/source-frontier.yaml
+- problems/navier-stokes/live-theorem-edge.yaml
+- basacreverseholderproduction producing
+- producing reverse-holder
+- reverse-holder asac
+- asac subclass
+- subclass remaining
+- remaining forward
+- basacreverseholderproduction
+- producing
+- reverse-holder
+- asac
 evidence_hits:
-- source_path: problems/navier-stokes/frozen-core.md
-  source_group: workboard-local
-  matched_terms:
-  - source-wall-root-after-reconcile
-  matched_origins:
-  - target-label
-  hit_kind: phrase-match
-  excerpt_note: "(`definition`; `marvin-upstream-e2f5b0a915cf`) ## Source Frontier
-    - `first_unresolved`: source-wall-root-after-reconcile (`live-theorem-frontier`;
-    `source-wall-root-after-reconcile`) - source-wall-root-after-reconcile (`live-theorem-frontier`;
-    `source-wall-root-after-re"
-  authority_root: problems/navier-stokes
-  authority_classification: lane-local
-  authority_basis: split-lane-repo
-  fallback_used: false
-  fallback_reason:
-  resolver_path: *2
-  authority_provenance:
-    contract_version: 1
-    authority_root: problems/navier-stokes
-    authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
-    surface_plane: lane_repo
-    classification: lane-local
-    authority_basis: split-lane-repo
-    authoritative: true
-    fallback_used: false
-    fallback_reason:
-    resolver_path: *2
-    present: true
-- source_path: problems/navier-stokes/proof-assembly.yaml
-  source_group: workboard-local
-  matched_terms:
-  - source-wall-root-after-reconcile
-  matched_origins:
-  - target-label
-  hit_kind: phrase-match
-  excerpt_note: 'ungs: (1) ene'' tentative_extension_chain: [] remaining_open_obligations:
-    - obligation_id: source-wall-root-after-reconcile label: source-wall-root-after-reconcile
-    kind: live-theorem-frontier status: frontier-open remaining_open_obligation_groups:
-    bridge_discharge_'
-  authority_root: problems/navier-stokes
-  authority_classification: lane-local
-  authority_basis: split-lane-repo
-  fallback_used: false
-  fallback_reason:
-  resolver_path: *2
-  authority_provenance:
-    contract_version: 1
-    authority_root: problems/navier-stokes
-    authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
-    surface_plane: lane_repo
-    classification: lane-local
-    authority_basis: split-lane-repo
-    authoritative: true
-    fallback_used: false
-    fallback_reason:
-    resolver_path: *2
-    present: true
-- source_path: problems/navier-stokes/source-frontier.yaml
-  source_group: workboard-local
-  matched_terms:
-  - source-wall-root-after-reconcile
-  matched_origins:
-  - target-label
-  hit_kind: phrase-match
-  excerpt_note: 'ect-formalization-closure-note.md frontier: primary_math_obligation:
-    obligation_id: source-wall-root-after-reconcile kind: live-theorem-frontier label:
-    source-wall-root-after-reconcile status: frontier-open source_anchor: problems/navier-stokes/live-'
-  authority_root: problems/navier-stokes
-  authority_classification: lane-local
-  authority_basis: split-lane-repo
-  fallback_used: false
-  fallback_reason:
-  resolver_path: *2
-  authority_provenance:
-    contract_version: 1
-    authority_root: problems/navier-stokes
-    authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
-    surface_plane: lane_repo
-    classification: lane-local
-    authority_basis: split-lane-repo
-    authoritative: true
-    fallback_used: false
-    fallback_reason:
-    resolver_path: *2
-    present: true
 - source_path: problems/navier-stokes/theorem-packet.yaml
   source_group: workboard-local
   matched_terms:
-  - source-wall-root-after-reconcile
+  - problems/navier-stokes/theorem-construction/basacreverseholderproduction-a-theorem-creation-20260523.md
+  - remaining forward
+  - basacreverseholderproduction
+  - producing
+  - reverse-holder
+  - asac
   matched_origins:
+  - primary-anchor
   - target-label
-  hit_kind: phrase-match
-  excerpt_note: 'smooth-hierarchy-20260509.md live_theorem_edge: &1 status: active
-    current_route_name: source-wall-root-after-reconcile exact_cut_summary: ''The
-    CM primitive remains `Exit(Q):=not Member(Q)`. The theorem-grade installed CM
-    direction is only `forall N exists r_N: C'
+  hit_kind: primary-anchor-exact
+  excerpt_note: 'atus: localized-support support_strength: conditional priority_rank:
+    source_anchor: problems/navier-stokes/theorem-construction/basacreverseholderproduction-a-theorem-creation-20260523.md
+    source_class: theorem-creation-proof-object typed_proof_object: schema: research-os-typed-theorem-proof-object-v1
+    theorem_id: BASACRevers'
   authority_root: problems/navier-stokes
   authority_classification: lane-local
   authority_basis: split-lane-repo
@@ -453,16 +384,18 @@ evidence_hits:
     fallback_reason:
     resolver_path: *2
     present: true
-- source_path: problems/navier-stokes/extension-branches.yaml
+- source_path: problems/navier-stokes/review-verdict.yaml
   source_group: workboard-local
   matched_terms:
-  - source-wall-root-after-reconcile
+  - reverse-holder
+  - asac
   matched_origins:
   - target-label
   hit_kind: phrase-match
-  excerpt_note: 'and promotion. branches: - branch_id: branch-navier-stokes-1 origin_obligation_id:
-    source-wall-root-after-reconcile branch_type: route-branch provenance: machine-derived-beyond-source-frontier
-    hypothesis: Open a quarantined side branch that tests whether sour'
+  excerpt_note: and finite failure witness capture. Bare positive-supplier deletion
+    theorems, B_ASAC reverse-Holder production, PCTP/no-pulse supplier targets, and
+    endpoint readout consequences remain separate or quarantined support unless a
+    Pack/Part/Field
   authority_root: problems/navier-stokes
   authority_classification: lane-local
   authority_basis: split-lane-repo
@@ -481,17 +414,45 @@ evidence_hits:
     fallback_reason:
     resolver_path: *2
     present: true
-- source_path: problems/navier-stokes/lemma-falsification.yaml
+- source_path: problems/navier-stokes/gradient-discharge-source-pack.md
   source_group: workboard-local
   matched_terms:
-  - source-wall-root-after-reconcile
+  - producing
   matched_origins:
   - target-label
   hit_kind: phrase-match
-  excerpt_note: 'packet-navier-stokes results: - branch_id: branch-navier-stokes-1
-    origin_obligation_id: source-wall-root-after-reconcile verdict: quarantine reasons:
-    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
-    summary: survives_first_pa'
+  excerpt_note: ements, not a proof of the needed bound. - A closure would require
+    a same-surface theorem producing a critical-space control such as `\omega \in
+    L^1_t B^0_{\infty,1}` or an equivalent absorbable estimate from the classical
+    equation itself. - No
+  authority_root: problems/navier-stokes
+  authority_classification: lane-local
+  authority_basis: split-lane-repo
+  fallback_used: false
+  fallback_reason:
+  resolver_path: *2
+  authority_provenance:
+    contract_version: 1
+    authority_root: problems/navier-stokes
+    authority_root_absolute: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
+    surface_plane: lane_repo
+    classification: lane-local
+    authority_basis: split-lane-repo
+    authoritative: true
+    fallback_used: false
+    fallback_reason:
+    resolver_path: *2
+    present: true
+- source_path: problems/navier-stokes/submission-verdict.yaml
+  source_group: workboard-local
+  matched_terms:
+  - asac
+  matched_origins:
+  - target-label
+  hit_kind: phrase-match
+  excerpt_note: te Pack/Part/Field packet on every alleged finite terminal tail. Source-residue
+    and B_ASAC terminal residue subcases are already sorted as Pack/Part witness or
+    supplier-quarantined support; they are not bare anti-atom deletion burde
   authority_root: problems/navier-stokes
   authority_classification: lane-local
   authority_basis: split-lane-repo
