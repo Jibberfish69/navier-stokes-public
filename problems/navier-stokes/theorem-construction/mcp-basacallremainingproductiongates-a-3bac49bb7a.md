@@ -2,7 +2,7 @@
 
 ## Status
 
-Failed to discharge the remaining production gates from installed inputs.  The run is completed at hard obstruction placement: `B_ASAC^closed` remains the canonical `Field_{N,r,Q}`-face selected Zeno terminal atom obstruction.
+Failed to discharge the remaining production gates from installed inputs. The run is completed at hard obstruction placement: `B_ASAC^closed` remains the canonical zero-radius `not Pack_Q` selected terminal source-residue obstruction unless a positive-scale retained-carrier bridge licenses later Field readout.
 
 ## Gate 1: super-L1 temporal residence
 
@@ -106,7 +106,7 @@ The localized Leray identity recombines convection and pressure before terminal 
 All named remaining gates require new theorem content.  The installed surfaces complete the branch only diagnostically:
 
 ```math
-B_ASAC^{closed}\leadsto Field_{N,r,Q}\text{-face selected Zeno terminal atom diagnostic.}
+B_ASAC^{closed}\leadsto \neg Pack_Q\text{ zero-radius selected terminal source-residue support.}
 ```
 
 This is the current completed state of the route.  Further progress requires one genuinely new production theorem from the gates above.
