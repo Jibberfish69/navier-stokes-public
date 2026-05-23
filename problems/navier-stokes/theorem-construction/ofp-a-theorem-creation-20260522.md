@@ -55,8 +55,8 @@ OFP.A. The collar source-pressure package CSP.A propagates the retained one-fiel
 - WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - - 'Before promotion, run the bridge-license question: does this result enter Pack_Q,
 - - once a route packet or broad theorem burden is visible, the lane must immediately
-- CSP.A. On the retained same-fluid collar, LCI.A together with the installed post-LCI source ledger FCI.5f supplies the collar source-pressure package; OFP.A, CFI.A, endpoint readout, Field, and Member remain downstream consumers.
-- LCI.A. On a retained same-fluid interval with bounded Pack gauge and the ordered ACT.KX receiver package installed, ACT.X-Readout gives ACT.A, ACT.A gives RCF.A through the transported-center residual package, and ULCI.A/DTC.C yields lower-carrier interval integrability; FCI.5f, CSP.A, OFP.A, CFI.A, endpoint readout, Field, and Member remain downstream consumers.
+- CSP.A. On the retained same-fluid collar, LCI.A together with the installed post-LCI source ledger FCI.5f supplies the collar source-pressure package; OFP.A, CFI.A, endpoint readout, and Field remain downstream consumers, with Member following only after the CM witness certificate.
+- LCI.A. On a retained same-fluid interval with bounded Pack gauge and the ordered ACT.KX receiver package installed, ACT.X-Readout gives ACT.A, ACT.A gives RCF.A through the transported-center residual package, and ULCI.A/DTC.C yields lower-carrier interval integrability; FCI.5f, CSP.A, OFP.A, CFI.A, endpoint readout, and Field remain downstream consumers, with Member following only after the CM witness certificate.
 - ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail, and windowwise leakage ledgers sum to the Pack_Q scale-critical donor-refill Carleson bound; an unpaid infinite donor-refill tree is therefore a Pack-face exit witness.
 - PastWindowShadowCompleteness.A. Every uncharged terminal reserve contribution has a Past(W) shadow ancestor; any first uncovered contribution injects into Charge_N(W) or is absorbed by the declared loss ledger.
 
@@ -73,7 +73,7 @@ OFP.A. The collar source-pressure package CSP.A propagates the retained one-fiel
 1. Take CSP.A as the collar source-pressure package on the retained interval.
 2. Keep FCI.5f visible as the source spend already used to obtain CSP.A.
 3. Propagate the one-field package along the same-fluid collar.
-4. Leave CFI.A, endpoint readout, Field, and Member as downstream consumers.
+4. Leave CFI.A, endpoint readout, and Field as downstream consumers, with Member following only after the CM witness certificate.
 5. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 6. Use problems/navier-stokes/theorem-packet.yaml as source support for residual control.
 
