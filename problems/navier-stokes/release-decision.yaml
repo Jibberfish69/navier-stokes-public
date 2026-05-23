@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-05-23T01:26:28Z'
+  evaluated_at: '2026-05-23T01:30:59Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: respawn
@@ -12,9 +12,10 @@ decision:
   completion_tier_target: full-mpp-closure
   completion_tier_achieved: route-complete
   next_cell_type: source-wall-root-theorem
-  next_stage: direct-source-wall-supplier
-  next_action: Prove the separate positive source-wall supplier theorem; do not reopen
-    already face-sorted support presentations as independent surfaces.
+  next_stage: direct-packet-survival
+  next_action: Prove TerminalCMNoExit.A / NoGenuineCMExit.A by ruling out Pack strain-integrability
+    loss, Part closedness-input loss, and licensed Field coherence loss on every alleged
+    finite terminal tail.
   rationale: Honesty review did not clear the package for release, so work returns
     upstream on the typed respawn target.
 artifacts:
@@ -52,6 +53,9 @@ blockers:
 - Completion tier is still `route-complete`, below a paper-complete or full-closure
   submission surface.
 - Honesty review verdict is still `revise`.
+- TerminalCMNoExit.A / NoGenuineCMExit.A remains open; terminal release requires a
+  surviving continuation-complete Pack/Part/Field packet on every alleged finite terminal
+  tail.
 - Submission export is not a clean typeset export yet.
 summary:
   queue_effect: ready
