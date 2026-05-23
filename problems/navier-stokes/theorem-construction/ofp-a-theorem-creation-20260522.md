@@ -4,12 +4,12 @@
 
 - target obligation: OFP.A
 - target label: Create the sharp CM branch theorem OFP.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Pack, Part, or Field.
-- route role: Use CSP.A on the retained same-fluid collar, with the post-LCI source ledger kept explicit, to propagate the one-field package OFP.A without importing CFI.A, endpoint readout, Field, or Member.
+- route role: Use CSP.A on the retained same-fluid collar, with the post-LCI source ledger kept explicit, to propagate the one-field package OFP.A without importing CFI.A, endpoint readout, or Field; Member is downstream of the CM witness certificate.
 - theorem family: generic-bridge-theorem
 
 ## Created Theorem
 
-OFP.A. The collar source-pressure package CSP.A propagates the retained one-field package on the same-fluid interval, with CFI.A, endpoint readout, Field, and Member kept downstream.
+OFP.A. The collar source-pressure package CSP.A propagates the retained one-field package on the same-fluid interval, with CFI.A, endpoint readout, and Field kept downstream; Member is downstream of the CM witness certificate.
 
 ## Inventive Search
 
@@ -19,7 +19,7 @@ OFP.A. The collar source-pressure package CSP.A propagates the retained one-fiel
 - selected_mechanism: post_lci_ofp_bridge
 - candidate_count: 4
 - solver_chain_verdict: closed
-- selection_reason: This theorem is the right next move because it changes the proof economy: Use CSP.A on the retained same-fluid collar, with the post-LCI source ledger kept explicit, to propagate the one-field package OFP.A without importing CFI.A, endpoint readout, Field, or Member. It is source-backed by 8 local ingredient(s). The internal solver also discharged the residual chain through OFP.A.
+- selection_reason: This theorem is the right next move because it changes the proof economy: Use CSP.A on the retained same-fluid collar, with the post-LCI source ledger kept explicit, to propagate the one-field package OFP.A without importing CFI.A, endpoint readout, or Field; Member is downstream of the CM witness certificate. It is source-backed by 8 local ingredient(s). The internal solver also discharged the residual chain through OFP.A.
 
 ### Candidate Theorems
 
