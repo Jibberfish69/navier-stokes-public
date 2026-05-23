@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-05-22T23:52:05Z'
+  generated_at: '2026-05-23T00:01:59Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -39,6 +39,10 @@ branch_pool:
   branch_id: creative-branch-navier-stokes-1
   origin_obligation_id: TerminalCMNoExit.A
   origin_kind: live-theorem-branch
+  parent_obligation_id: debt-theorem-upgrade-1-source-wall-root-after-reconcile
+  parent_label: TerminalCMNoExit.A / NoGenuineCMExit.A
+  root_target_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
+  root_target_label: TerminalCMNoExit.A / NoGenuineCMExit.A
   source_status: unresolved
   branch_type: local-lemma
   pursuit_mode: co-dependent
@@ -88,6 +92,10 @@ branch_pool:
 - branch_id: creative-branch-navier-stokes-2
   origin_obligation_id: NoGenuineCMExit.A
   origin_kind: live-theorem-branch
+  parent_obligation_id: debt-theorem-upgrade-1-source-wall-root-after-reconcile
+  parent_label: TerminalCMNoExit.A / NoGenuineCMExit.A
+  root_target_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
+  root_target_label: TerminalCMNoExit.A / NoGenuineCMExit.A
   source_status: unresolved
   branch_type: local-lemma
   pursuit_mode: co-dependent
@@ -137,6 +145,10 @@ branch_pool:
 - branch_id: creative-branch-navier-stokes-3
   origin_obligation_id: SOURCE.NO-PULSE.A
   origin_kind: live-theorem-branch
+  parent_obligation_id: debt-theorem-upgrade-1-source-wall-root-after-reconcile
+  parent_label: TerminalCMNoExit.A / NoGenuineCMExit.A
+  root_target_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
+  root_target_label: TerminalCMNoExit.A / NoGenuineCMExit.A
   source_status: unresolved
   branch_type: local-lemma
   pursuit_mode: co-dependent
@@ -186,6 +198,10 @@ branch_pool:
 - branch_id: creative-branch-navier-stokes-4
   origin_obligation_id: RawZenoFailurePartition.A
   origin_kind: live-theorem-branch
+  parent_obligation_id: debt-theorem-upgrade-1-source-wall-root-after-reconcile
+  parent_label: TerminalCMNoExit.A / NoGenuineCMExit.A
+  root_target_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
+  root_target_label: TerminalCMNoExit.A / NoGenuineCMExit.A
   source_status: unresolved
   branch_type: local-lemma
   pursuit_mode: co-dependent
