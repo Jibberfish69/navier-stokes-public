@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-23T21:00:14Z'
+  audited_at: '2026-05-23T21:07:10Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -71,8 +71,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-35aa64a6d9c4
-    route_signature: 35aa64a6d9c4b5472067ba2caf16160c84475ce6
+    surface_id: theorem-surface-navier-stokes-e813977172b7
+    route_signature: e813977172b7531f38541875316e441ea64e136d
     theorem_target: TerminalCMNoExit.A / NoGenuineCMExit.A
     theorem_statement: TerminalCMNoExit.A / NoGenuineCMExit.A
     route_chain:
@@ -116,16 +116,15 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/live-theorem-edge.yaml
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
-    - slot_id: TerminalCMNoExit.FaceReduction.A
-      label: 'TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPacketCapture.A,
-        AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A
-        reduce NoGenuineCMExit to the Pack-first CM exit tree: ScaleCriticalTreeCarleson.A
-        is the Pack-side donor-refill landing, followed only by Part and licensed
-        Field if Pack survives.'
+    - slot_id: ScaleCriticalTreeCarleson.A
+      label: ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail,
+        and windowwise leakage ledgers sum to the Pack_Q scale-critical donor-refill
+        Carleson bound; an unpaid infinite donor-refill tree is therefore a Pack-face
+        exit witness.
       kind: lemma
       status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/terminalcmnoexit-facereduction-a-theorem-creation-20260523.md
-      patch_surface: problems/navier-stokes/theorem-construction/terminalcmnoexit-facereduction-a-theorem-creation-20260523.md
+      source_anchor: problems/navier-stokes/theorem-construction/scalecriticaltreecarleson-a-theorem-creation-20260523.md
+      patch_surface: problems/navier-stokes/theorem-construction/scalecriticaltreecarleson-a-theorem-creation-20260523.md
     - slot_id: HeightFluxControl.A
       label: 'HeightFluxControl.A. Turn the remaining positive source-reserve birth
         charge into the first proof-facing sampling theorem: a first large retained
