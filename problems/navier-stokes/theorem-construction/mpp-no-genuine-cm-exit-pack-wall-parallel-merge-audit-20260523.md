@@ -218,6 +218,21 @@ tail-square reserve work may support collar/product estimates,
 but it cannot be promoted into the CM Pack source-reserve wall.
 ```
 
+This matches the parallel full-agency proof audit:
+
+```text
+mpp-terminal-cm-no-exit-full-agency-proof-audit-20260523.md
+```
+
+That audit keeps `TerminalCMNoExit.FaceReduction.A` as a valid face reduction
+and keeps Pack, Part, and Field no-exit open from original smooth data.  Its
+fresh `ScaleCriticalTreeCarleson.A` creation readback also keeps the Pack-side
+reserve route open at:
+
+```text
+ScaleCriticalTreeCarleson.A.CoreSubprimitive
+```
+
 The coordinated live target is therefore not another tail-square absorption.
 It is the source-reserve birth theorem above, or a genuinely equivalent
 structural theorem that prices first creation of the scale-critical donor
