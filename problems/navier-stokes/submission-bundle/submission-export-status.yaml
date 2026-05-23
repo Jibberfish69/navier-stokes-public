@@ -52,4 +52,8 @@ source_wall_root_cm_status: 'The Clay-facing CM frontier is TerminalCMNoExit.A /
   terminal Zeno endpoint for CM Pack-legality without leaving a forward positive-supplier
   burden attached to it. The May 17 eigenframe and pressure-Hessian attempts add OneSidedNearBandMaterialStrainBV.A
   / TerminalPressureHessianNoSustain.A as a signed near-band source-current obstruction,
-  not a new CM face or an installed pressure-sustain theorem.'
+  not a new CM face or an installed pressure-sustain theorem. The forward-positive
+  quarantine index demotes every scanned positive-smoothness, positive-supplier, transfer,
+  receiver/readout, export, and already-demoted positive surface for CM use: 1853
+  indexed surfaces remain support unless a named bridge lands the exact result in
+  Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.'
