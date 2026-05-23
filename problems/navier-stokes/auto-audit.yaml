@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-23T19:35:07Z'
+  audited_at: '2026-05-23T19:44:47Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -250,6 +250,20 @@ issues:
     authority_frontier_count: 1
     authority_blocking_count: 1
     authority_status: theorem-open-at-direct-live-frontier
+- issue_id: proof-object-open-but-promotion-ready
+  severity: critical
+  summary: The theorem proof object is still open while theorem creation marks it
+    promotion-ready.
+  autofixable: false
+  recommended_action: Keep the theorem in creative-theorem-search/theorem-creation
+    until the recursive proof object is closed and circularity passes.
+  details:
+    target_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
+    target_label: TerminalCMNoExit.A / NoGenuineCMExit.A
+    solver_verdict: conditional
+    circularity_status: passed
+    recursive_solver_verdict: conditional-open
+    promotion_allowed: false
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
