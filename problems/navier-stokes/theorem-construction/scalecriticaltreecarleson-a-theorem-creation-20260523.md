@@ -9,7 +9,7 @@
 
 ## Created Theorem
 
-ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail, and windowwise leakage ledgers sum to the Pack_Q scale-critical donor-refill Carleson bound; an unpaid infinite donor-refill tree is therefore a Pack-face exit witness.
+ScaleCriticalTreeCarleson.A. The conditional reserve, charge, adjoint-tail, and windowwise leakage ledgers support the Pack_Q scale-critical donor-refill Carleson bound; an unpaid infinite donor-refill tree remains a Pack-face exit witness.
 
 ## Inventive Search
 
