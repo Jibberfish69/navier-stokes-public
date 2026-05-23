@@ -269,6 +269,8 @@ stale_failure_patterns:
     pattern: '(open target|live regularity question|live stronger-carrier)'
   - id: stale-old-heading-language
     pattern: '(Honest Current Burden|Source And Receiver Burdens|Exact Remaining Object|successor work|extra regularity burdens)'
+  - id: stale-no-live-burden-suppressor
+    pattern: '(no live|live branch burden|live Euler-mirror burden|not a live target|outside this branch|remaining Euler-mirror burden|no downstream live branch burden|no live mathematical closure burden)'
 surface_rules:
   - id: branch_authority_status
     paths:
