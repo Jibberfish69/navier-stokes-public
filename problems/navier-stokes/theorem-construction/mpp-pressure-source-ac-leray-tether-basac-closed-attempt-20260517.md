@@ -4,7 +4,7 @@ Date: 2026-05-17
 
 ## Status
 
-Route tested after `B_ASAC^closed` landed as a selected Zeno terminal atom Field-face diagnostic.
+Route tested after `B_ASAC^closed` was corrected to zero-radius `not Pack_Q` selected terminal source-residue support.
 
 Outcome: open. Pressure/Leray coupling gives conditional near-band signed-current support. Current installed surfaces supply no theorem converting that support into terminal source time-face anti-atom.
 
@@ -126,7 +126,7 @@ Search for mechanisms outside the audited list now points to one sharpened press
 \boxed{PressureTimeFaceSpread.A.}
 ```
 
-If that target stays open, the `B_ASAC^closed` Field-face diagnostic remains the completed placement of the branch, and forward positive-supplier closure awaits a genuinely new production theorem.## Exhaustive reduced-list audit: ChatGPT 2026-05-17
+If that target stays open, the `B_ASAC^closed` zero-radius `not Pack_Q` support remains the completed placement of the branch, and forward positive-supplier closure awaits a genuinely new production theorem.## Exhaustive reduced-list audit: ChatGPT 2026-05-17
 
 This all-routes pass rechecked `PressureSourceAC.A / LocalizedLeraySourceTether_ind.A`.
 
