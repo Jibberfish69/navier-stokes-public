@@ -147,11 +147,11 @@ debt_items:
   - problems/navier-stokes/creative-theorem-search.yaml
   - problems/navier-stokes/dependency-discharge.yaml
   debt_class: local-derivable
-  derivation_state: reopened-after-cm-bridge-license
-  source_scope_status: cm-field-landing-required
-  derivation_attempts: 0
+  derivation_state: localized-support
+  source_scope_status: new-support-found
+  derivation_attempts: 1
   attempts_without_new_support: 0
-  support_strength: insufficient
+  support_strength: strong
   cm_output_role: cm-bearing
   cm_faces:
   - Field
@@ -167,6 +167,23 @@ debt_items:
   cm_face: Field
   parent_authority_gate_id: terminalcmnoexit-a-nogenuinecmexit-a
   priority_rank: 3
+  last_derivation_run_id: debt-derive-navier-stokes-20260523T020334Z
+  evidence_paths:
+  - problems/navier-stokes/frozen-core.md
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/obstruction-capture.md
+  - problems/navier-stokes/claim-ladder.md
+  new_evidence_paths:
+  - problems/navier-stokes/frozen-core.md
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/obstruction-capture.md
+  - problems/navier-stokes/claim-ladder.md
+  source_sufficiency: sufficient
+  source_checks: 1
 - debt_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   label: Keep theorem scope below the first unsafe overclaim
   source_section: proof-debt-ledger
@@ -201,11 +218,13 @@ summary:
     local-derivable: 3
     branch-choice: 0
     blocked-frontier: 1
-  recommended_next_cell_type: debt-derive
-  recommended_next_action: Continue debt-derive on terminalcmnoexit-a-nogenuinecmexit-a-field-landing
-    before promoting the package.
+  recommended_next_cell_type: theorem-repair
+  recommended_next_action: Local support has been found for the CM authority gate,
+    but the live Pack/Part/Field bridge is still open, so run theorem-repair before
+    generic backbone churn or release-overlay cleanup.
   recommended_debt_ids:
+  - terminalcmnoexit-a-nogenuinecmexit-a-pack-landing
+  - terminalcmnoexit-a-nogenuinecmexit-a-part-landing
   - terminalcmnoexit-a-nogenuinecmexit-a-field-landing
   derivation_counts_by_state:
-    localized-support: 2
-    reopened-after-cm-bridge-license: 1
+    localized-support: 3
