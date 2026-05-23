@@ -131,7 +131,7 @@ current_authority:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/theorem-repair.yaml
   - problems/navier-stokes/dependency-discharge.yaml
-  open_root_group_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
+  open_root_group_id: terminalcmnoexit-a-nogenuinecmexit-a
   object_law_remains_governing: true
 authority_split_resolution:
   status: resolved-by-demotion
@@ -331,12 +331,14 @@ open_root_group:
     status: contrapositive-witness-consumption-installed
     burden_id: clay-cm-contrapositive-witness-consumption
     proof_mode: cm_contrapositive_class_exit
-    target_object: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
+    target_object: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
+      / ClayCMContrapositiveEmbedding.A
     theorem_grade_statement: Start with the alleged finite-time Clay terminal witness
-      from the same original smooth Navier-Stokes datum, force it into the same-fluid
-      canonical CM terminal packet tree, exhaust its finite failure type as not Pack_Q,
-      not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and read that first failed
-      service as Exit(Q):=not Member(Q).
+      from the same original smooth Navier-Stokes datum. Force that witness into the
+      same-fluid canonical CM terminal packet tree, exhaust its finite failure type
+      as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and read that
+      first failed service as Exit(Q):=not Member(Q) inside the CM contrapositive
+      program.
     active_container: source-wall-root-after-reconcile
     respawn_cell: source-wall-root-theorem
     respawn_stage: entry-first-witness-consumption
@@ -344,8 +346,8 @@ open_root_group:
       terminal packet capture, terminal source-residue CM-exit sorting, and finite
       failure witness capture. TerminalCMNoExit.A / NoGenuineCMExit.A, bare positive-supplier
       deletion theorems, B_ASAC reverse-Holder production, PCTP/no-pulse supplier
-      targets, and endpoint readout consequences stay separate or quarantined as
-      support unless the user explicitly switches to a positive packet-survival proof.
+      targets, and endpoint readout consequences stay separate or quarantined as support
+      unless the user explicitly switches to a positive packet-survival proof.
     nearest_wrong_substitution: Recasting the CM contrapositive target as TerminalCMNoExit.A
       / NoGenuineCMExit.A, a bare positive-supplier deletion theorem, or a demand
       to prove that the Pack/Part/Field packet never exits.
@@ -451,65 +453,27 @@ open_root_group:
     basac_target_local_exhaustion_and_cm_field_closure: problems/navier-stokes/theorem-construction/mpp-basac-target-local-exhaustion-and-cm-field-closure-20260517.md
     cm_contrapositive_sourcepulse_status: SourcePulseCMExit.A is locally discharged
       as a source-pulse branch theorem by retained-Field tower anchoring; the route-wide
-      CM primitive remains Exit(Q):=not Member(Q), and the positive supplier burden
-      below is not the proof root.
+      CM primitive remains Exit(Q):=not Member(Q), and positive supplier presentations
+      are quarantined support, not the proof root.
     sourcepulse_cm_retained_branch_status: SourcePulseCMExit.A already classifies
       the retained source-pulse survivor as a Pack/Part/Field exit; no stronger SourcePulseExclusion.A
       proof is required for that CM branch split.
-    honest_remaining_positive_supplier_burden: 'PositiveRemainderDepletion.A is the
-      current native source-reserve atom for the positive no-pulse/source-control
-      supplier. UniformLedgerAC.A, NativeTrilinearDefectDomination.A, and mu_*^sing=0
-      remain RN/native-trilinear presentations of the same positive carrier. The May
-      17 parallel completion pass tested PositiveRemainderDepletion.A, LocalPositiveSourceCarleson.A,
-      SquareSourceEstimate.A, ActiveShellAmplitudeGain.A, and non-Carleson Zeno temporal
-      anti-concentration; none closes unconditionally from installed inputs. PositiveRemainderDepletion.A
-      is conditional on SourceWeightedTerminalAngularDepletion.A for the native carrier
-      |w_j|^2[e_j.S_<j^loc e_j]_+. The equality route through SourceWeightedTerminalAngularDepletion.A
-      now has ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A
-      installed, but the target-local BASAC descent is now exhausted as a forward
-      supplier route: direct Liouville, temporal reverse-Holder, no-incoming source-drain,
-      source-ancestry compactness, branch-entropy/tree-Carleson, transported no-flux,
-      pressure/Leray, local-energy-trace, and rigid-subclass production doors all
-      fail from installed inputs or remain conditional production imports. The May
-      21 terminal Zeno correction classifies the endpoint as `not Pack_Q`: finite
-      Zeno ancestry packets may be legal, but the terminal zero-radius residue is
-      not a retained positive-radius packet. NoPersistentUnpaidPositiveRadiusAncestry.A
-      closes the positive-radius retained tail by the shared-participation strip balance.
-      BASACTerminalAtomCMFaceLabeling.A, RetainedPackFieldNoIncomingParticipationFlux.A,
-      and BASACLiouvilleCMParticipationBridge.A are finite-ancestry accounting and
-      post-exit readout support. A general TerminalSourceReverseHolder.A remains an
-      external new theorem, not a consequence of the installed B_ASAC bookkeeping.
-      LocalPositiveSourceCarleson.A collapses to PositiveRemainderDepletion.A; SquareSourceEstimate.A
-      and ActiveShellAmplitudeGain.A collapse to ActiveShellSourceNormalize.A / active-square
-      reserve; the broader Zeno branch collapses to TerminalSourceReverseHolder.A
-      / UniformTemporalSourceIntegrability_p.A or a produced rigid Zeno residue class
-      with Liouville. This supplier is required for downstream PCTP.hard literal no-Jump_avg
-      terminal-tail production. It is separate from the already-closed CM source-pulse
-      exit and cannot use Field, OFP.A, End_NS, READ.COVER, DTC.Read, Field.Read,
-      or endpoint closure upstream.'
-    selected_next_attack: 'The ancestry-side attack has been sharpened past TwoTowerDonorDepletion.A.
-      LocalDonorBalance.A and EntranceLeafDecay.A discharge the donor-balance and
-      non-Zeno refill halves. ASAC pays the active-alignment and one-sided pair-weight
-      defect, while legal ledgers pay projected-cutoff and boundary pieces. The named
-      rigid-class branch has no currently produced class, and temporal non-atomicity
-      is not supplied from installed inputs because the source ledger is only L1_t.
-      The operational positive-supplier burden is therefore PositiveRemainderDepletion.A,
-      with UniformLedgerAC.A / NativeTrilinearDefectDomination.A / mu_*^sing=0 kept
-      as RN/native-trilinear presentations of the same carrier. This is not the CM
-      contrapositive target itself: in the contrapositive program, the terminal zero-thickness
-      residue is already non-survival, because it cannot remain a retained finite-CM
-      object and is forced into Pack/Part/Field exit. The May 17 parallel completion
-      pass shows those entrances remain conditional. The equality route under SourceWeightedTerminalAngularDepletion.A
-      has installed ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A,
-      and the target-local BASAC descent is complete at CM-exit classification plus
-      face labeling rather than at a further bookkeeping lemma. BASACSourceTreeCarleson.A
-      is one expression of the missing new-production theorem, not the next installed
-      lower atom. LPSC returns to PRD, Square and ASAG return to ActiveShellSourceNormalize.A
-      / active-square reserve, and a general non-Carleson Zeno route would still need
-      a new TerminalSourceReverseHolder.A / UniformTemporalSourceIntegrability_p.A.
-      The exact B_ASAC terminal zero-thickness burden is closed for the CM contrapositive
-      program; H1-H6, ACT.KX, and endpoint readout material remain quarantined support
-      and are not upstream proof inputs.'
+    terminal_zeno_pack_legality_boundary: 'The May 21 terminal Zeno correction is
+      the governing CM boundary: finite Zeno ancestry packets may be legal, but the
+      terminal zero-radius residue is not a retained positive-radius packet and lands
+      first as `not Pack_Q`. NoPersistentUnpaidPositiveRadiusAncestry.A closes the
+      positive-radius retained tail by the shared-participation strip balance. BASACTerminalAtomCMFaceLabeling.A,
+      RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
+      are finite-ancestry accounting and post-exit readout support. PRD, LPSC, SquareSourceEstimate.A,
+      ActiveShellAmplitudeGain.A, TerminalSourceReverseHolder.A, UniformTemporalSourceIntegrability_p.A,
+      rigid-class production, and OriginalSmoothData=>SourcePulseExclusion.A are demoted
+      to historical downstream no-pulse/source-control support; they are not required
+      terminal Zeno CM burdens and may not respawn as the next CM target unless the
+      proof program is explicitly switched.'
+    cm_pack_legality_consequence: The terminal Zeno/B_ASAC zero-thickness endpoint
+      is settled for the CM contrapositive as Pack-side non-survival. H1-H6, ACT.KX,
+      endpoint readout, and positive source-control material remain quarantined support
+      rather than upstream proof inputs.
   continuation_packet_methodology:
     rule: Start from the sufficient packet for classical continuation, then negate
       that packet to obtain the admissible CM-exit failure calculus. Do not promote
@@ -559,13 +523,12 @@ open_root_group:
       terminal zero-heat-time source residue is not Pack_Q. Field/Jump language is
       post-exit readout unless a positive-scale retained carrier is separately proved;
       non-Carleson TemporalNonAtomicSource.A remains separate
-  - target_id: sourcepulse-terminal-zeno-closing-package
-    label: LocalPositiveSourceCarleson.A or ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A
-    proof_mode: terminal_zeno_source_refill_closing_package
-    role: narrowed ancestry-side supplier burden after LocalDonorBalance.A and EntranceLeafDecay.A
-      discharge finite and non-Zeno source-refill trees; this is the active sub-burden
-      beneath OriginalSmoothData=>SourcePulseExclusion.A, not a Pack/Part/Field face
-      by itself.
+  - target_id: terminal-zeno-pack-legality-boundary
+    label: Terminal zero-radius Zeno Pack failure
+    proof_mode: terminal_zeno_pack_legality_boundary
+    role: CM-facing boundary after finite Zeno ancestry accounting; the terminal zero-radius
+      residue is not Pack_Q, while LPSC/PRD/Zeno rigid-class language is downstream
+      no-pulse/source-control support outside this CM endpoint.
   - target_id: sourcepulse-terminal-zeno-operational-collapse
     label: LocalPositiveSourceCarleson.A
     proof_mode: operational_positive_source_carleson_attack
@@ -574,24 +537,13 @@ open_root_group:
       while the rigid-class branch remains only as a new-class escape hatch.
   - target_id: sourcepulse-native-positive-defect-frontier
     label: PositiveRemainderDepletion.A / NativeTrilinearDefectDomination.A / mu_*^sing=0
-    proof_mode: positive_supplier_boundary_under_cm_contrapositive
-    role: 'May 16 positive source-supplier sharpening after the terminal Zeno and
-      RN/native-defect attempts; PositiveRemainderDepletion.A is the current native
-      source-reserve atom, while NativeTrilinearDefectDomination.A, UniformLedgerAC.A,
-      and mu_*^sing=0 are equivalent or weaker measure presentations of the same positive
-      active carrier. The conditional chain TerminalAngularMixing.A / AlignmentDecorrel.A
-      => PositiveRemainderDepletion.A is valid, but ASAC leaves the terminal Zeno
-      atom, and installed inputs supply only L1_t source residence, no rigid ancient
-      residue class, and no scale-critical active-square reserve. The May 17 parallel
-      completion pass sharpens the failed entrances: PRD needs SourceWeightedTerminalAngularDepletion.A,
-      LPSC returns to PRD, Square and ASAG return to ActiveShellSourceNormalize.A
-      / active-square reserve, and non-Carleson Zeno needs TerminalSourceReverseHolder.A
-      / UniformTemporalSourceIntegrability_p.A or a produced rigid residue class with
-      Liouville. In the CM contrapositive program a surviving positive residue remains
-      a typed retained Field/source-residue witness after legal-loss/readout/non-selected/Pack/Part
-      alternatives are removed; it is not the CM primitive itself. Endpoint words
-      such as Field/Jump apply only to that routed retained residue, never to PositiveRemainderDepletion.A
-      itself.'
+    proof_mode: quarantined_positive_supplier_support
+    role: Historical downstream no-pulse/source-control support only. PRD, NativeTrilinearDefectDomination.A,
+      UniformLedgerAC.A, mu_*^sing=0, LPSC, SquareSourceEstimate.A, ActiveShellAmplitudeGain.A,
+      temporal anti-concentration, and rigid-class production may describe a separate
+      positive supplier program, but they are demoted for the CM contrapositive terminal
+      Zeno endpoint. They do not create a terminal CM burden after the zero-radius
+      residue has landed as not Pack_Q.
   - target_id: retained-face-amplitude-gain
     label: RetainedFaceAmplitudeGain.A
     proof_mode: retained_amplitude_face_boundary
@@ -689,27 +641,30 @@ mode_selection_protocol:
     write is required, the route has split and one bounded self-attempt has already
     failed, or verification cannot be repaired internally.
 exact_live_theorem_grade_burden:
-  status: contrapositive-witness-consumption-installed
-  burden_id: clay-cm-contrapositive-witness-consumption
+  status: frontier-open
+  burden_id: terminal-cm-no-exit-nogenuinecmexit
   proof_mode: cm_contrapositive_class_exit
-  target_object: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
-  theorem_grade_statement: Start with the alleged finite Clay terminal witness from
-    original smooth data, force it into the same-fluid canonical CM terminal packet
-    tree, exhaust its finite failure type through Pack/Part/Field, and read the failed
-    service as Exit(Q):=not Member(Q).
-  active_container: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
+  target_object: TerminalCMNoExit.A / NoGenuineCMExit.A
+  theorem_grade_statement: Prove original smooth data leaves at least one continuation-complete
+    Pack/Part/Field packet on every alleged finite terminal tail; the remaining open
+    faces are Pack strain-integrability no-exit, Part closedness-input no-exit, and
+    licensed Field coherence no-exit.
+  active_container: terminalcmnoexit-a-nogenuinecmexit-a
   respawn_cell: source-wall-root-theorem
-  respawn_stage: entry-first-witness-consumption
+  respawn_stage: direct-packet-survival
   allowed_input_boundary: The proof may use installed genuine-exit capture, canonical
     terminal packet capture, terminal source-residue CM-exit sorting, and finite failure
-    witness capture. TerminalCMNoExit.A / NoGenuineCMExit.A and positive supplier
-    deletion theorems remain support unless the user explicitly switches proof programs.
-  nearest_wrong_substitution: Treating TerminalCMNoExit.A / NoGenuineCMExit.A,
-    B_ASAC supplier exhaustion, or source-residue sorting as the live Clay-facing
-    CM contrapositive target.
+    witness capture. Bare positive-supplier deletion theorems, B_ASAC reverse-Holder
+    production, PCTP/no-pulse supplier targets, and endpoint readout consequences
+    remain separate or quarantined support unless a Pack/Part/Field bridge license
+    is proved.
+  nearest_wrong_substitution: Treating B_ASAC supplier exhaustion or source-residue
+    sorting as Clay-facing CM closure.
 release_or_respawn_consequence:
-  disposition: no-respawn-for-positive-no-exit-target
+  disposition: respawn
   next_cell_type: source-wall-root-theorem
-  next_stage: entry-first-witness-consumption
-  next_action: >-
-    Preserve the Clay-facing CM contrapositive as witness consumption: classify every alleged finite terminal tail through the Pack-first CM witness tree with Pack, then Part, then licensed Field, and read that failed service as Exit(Q):=not Member(Q). Do not respawn TerminalCMNoExit.A / NoGenuineCMExit.A as the active target.
+  next_stage: direct-packet-survival
+  next_action: Prove TerminalCMNoExit.A / NoGenuineCMExit.A as Exit(Q):=not Member(Q)
+    by classifying every alleged finite terminal tail through the Pack-first CM witness
+    tree with Pack, then Part, then licensed Field; Member(Q) is downstream of that
+    witness certificate.
