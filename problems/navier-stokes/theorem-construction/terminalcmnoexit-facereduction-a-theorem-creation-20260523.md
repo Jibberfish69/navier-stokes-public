@@ -23,16 +23,16 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 
 ### Candidate Theorems
 
-- TerminalCMNoExit.FaceReduction.A (terminal_cm_no_exit_face_reduction; score=90)
+- TerminalCMNoExit.FaceReduction.A (terminal_cm_no_exit_face_reduction; score=142)
 
 ### Retrieved Ingredients
 
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
 - problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
 - problems/navier-stokes/agent-contract.yaml:53 -- source ingredient
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
 - problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:56 -- source ingredient
 
 ### Recursive Solver Chain
 
@@ -50,13 +50,13 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 - ScaleCriticalTreeCarleson.A
 - not Pack_Q
 - Pack/Part/Field
+- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is not Pack_Q, or it forces incoming flux, CM envelope blowout, paid exit, and hence Pack/Part/Field witness-face exit. This is a CM face-reduction theorem, not a forward no-free-sink supplier discharge.
 - ScaleCriticalTreeCarleson.A. The reserve, charge, adjoint-tail, and windowwise leakage ledgers would sum to the Pack_Q scale-critical donor-refill Carleson bound only after the noncircular Pack-side residual primitive is proved; until then an unpaid infinite donor-refill tree remains a Pack-face exit witness, not a closed no-exit theorem.
-- Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-- - problems/navier-stokes/live-theorem-edge.yaml
 - Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+- Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-- TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A reduce NoGenuineCMExit to the Pack-first CM exit tree: ScaleCriticalTreeCarleson.A is the Pack-side donor-refill landing, followed only by Part and licensed Field if Pack survives.
 - BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is the exact remaining forward supplier theorem; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, so this production is not currently discharged and remains supplier-quarantined for the CM route.
+- CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional field-integrability package, while End_NS, Field readout, and Member remain downstream consequences.
 
 ## Forbidden Imports
 
@@ -75,13 +75,11 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 4. Use TerminalSourceResidueCMExit.A only as source-residue sorting into Pack/Part; do not treat anti-atom deletion or source absolute continuity as the Field face.
 5. Send the Pack branch to ScaleCriticalTreeCarleson.A as the donor-refill Pack-side exit theorem, not to an original-data positive survivor theorem.
 6. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
-7. Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
-8. Recursive solver step for ScaleCriticalTreeCarleson.A: Use WindowwiseReserveCarleson.A to localize reserve increments to terminal heat windows.
-9. Recursive solver step for ScaleCriticalTreeCarleson.A: Use ReserveCreationCharge.A and TerminalReserveFirstAppearanceCharge.A to split inherited reserve from first appearances.
-10. Recursive solver step for ScaleCriticalTreeCarleson.A: Use ChargeLedgerInjection.A, PastWindowReserveSeparation.A, and AdjointReserveNoFreeCreation.A to price inherited and ledger-visible contributions.
-11. Recursive solver step for ScaleCriticalTreeCarleson.A: Reduce the remaining positive source-reserve birth/height-flux contribution to a sharpened core subprimitive before any Pack_Q Carleson landing is promoted.
-12. Recursive solver step for ScaleCriticalTreeCarleson.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
-13. Recursive solver step for ScaleCriticalTreeCarleson.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
+7. Recursive solver step for ScaleCriticalTreeCarleson.A: Use WindowwiseReserveCarleson.A to localize reserve increments to terminal heat windows.
+8. Recursive solver step for ScaleCriticalTreeCarleson.A: Use ReserveCreationCharge.A and TerminalReserveFirstAppearanceCharge.A to split inherited reserve from first appearances.
+9. Recursive solver step for ScaleCriticalTreeCarleson.A: Use ChargeLedgerInjection.A, PastWindowReserveSeparation.A, and AdjointReserveNoFreeCreation.A to price inherited and ledger-visible contributions.
+10. Recursive solver step for ScaleCriticalTreeCarleson.A: Reduce the remaining positive source-reserve birth/height-flux contribution to a sharpened core subprimitive before any Pack_Q Carleson landing is promoted.
+11. Recursive solver step for ScaleCriticalTreeCarleson.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
 ## Circularity Audit
 
