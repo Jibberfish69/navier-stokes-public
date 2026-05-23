@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-23T20:53:10Z'
+  audited_at: '2026-05-23T20:53:54Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -71,8 +71,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-f39a270a5db8
-    route_signature: f39a270a5db86fc56729c24a4617991d162cf7b9
+    surface_id: theorem-surface-navier-stokes-7b1b6bfc85ee
+    route_signature: 7b1b6bfc85eef27d9eb3f66892b3ad7e1cf4d79a
     theorem_target: TerminalCMNoExit.A / NoGenuineCMExit.A
     theorem_statement: TerminalCMNoExit.A / NoGenuineCMExit.A
     route_chain:
@@ -116,6 +116,18 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/live-theorem-edge.yaml
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    - slot_id: HeightFluxControl.A
+      label: 'HeightFluxControl.A. Turn the remaining positive source-reserve birth
+        charge into the first proof-facing sampling theorem: a first large retained
+        height-flux event must create Pack gain, Part/dwell failure, legal Field source
+        charge, or a Zeno terminal residue atom. This supplies the exact noncircular
+        bridge needed for Create the recursive theorem subprimitive HeightFluxControl.A
+        exposed by the previous theorem-creation packet, instead of mutating a neighboring
+        route..'
+      kind: lemma
+      status: localized-support
+      source_anchor: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260523.md
+      patch_surface: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260523.md
     - slot_id: TerminalSignedSaturationCMFaceReduction.A
       label: TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route
         with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is
@@ -128,16 +140,6 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/theorem-construction/terminalsignedsaturationcmfacereduction-a-theorem-creation-20260523.md
       patch_surface: problems/navier-stokes/theorem-construction/terminalsignedsaturationcmfacereduction-a-theorem-creation-20260523.md
-    - slot_id: BASACReverseHolderProduction.A
-      label: BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p)
-        subclass is the exact remaining forward supplier theorem; the installed B_ASAC
-        equality-class clauses allow finite L^1_t terminal-layer concentration, so
-        this production is not currently discharged and remains supplier-quarantined
-        for the CM route.
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/basacreverseholderproduction-a-theorem-creation-20260523.md
-      patch_surface: problems/navier-stokes/theorem-construction/basacreverseholderproduction-a-theorem-creation-20260523.md
     authority_layers:
       authoritative_proof_surfaces:
       - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
