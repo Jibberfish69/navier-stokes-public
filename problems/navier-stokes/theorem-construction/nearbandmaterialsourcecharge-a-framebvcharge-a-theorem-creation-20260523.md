@@ -1,0 +1,94 @@
+# NearBandMaterialSourceCharge.A+FrameBVCharge.A theorem creation
+
+## Target
+
+- target obligation: NearBandMaterialSourceCharge.A+FrameBVCharge.A
+- target label: near-band material-source charge plus retained frame BV charge
+- route role: Use the source corpus convergence audit: the near-band material/source term and retained frame rotation meet the same signed positive-source balance gate. With native TPNI/ASAC parent-drain support quarantined as support, the remaining named obstruction is TerminalSignedSaturation.A.
+- theorem family: reserve-creation-charge
+
+## Created Theorem
+
+NearBandMaterialSourceCharge.A+FrameBVCharge.A. Use the source corpus convergence audit: the near-band material/source term and retained frame rotation meet the same signed positive-source balance gate. With native TPNI/ASAC parent-drain support quarantined as support, the remaining named obstruction is TerminalSignedSaturation.A. This supplies the exact noncircular bridge needed for near-band material-source charge plus retained frame BV charge.
+
+## Inventive Search
+
+- mode: inventive-right-theorem-selection
+- external_resources_used: false
+- external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
+- selected_mechanism: near_band_material_frame_to_terminal_signed_saturation
+- candidate_count: 1
+- solver_chain_verdict: open
+- selection_reason: This theorem is the right next move because it changes the proof economy: Use the source corpus convergence audit: the near-band material/source term and retained frame rotation meet the same signed positive-source balance gate. With native TPNI/ASAC parent-drain support quarantined as support, the remaining named obstruction is TerminalSignedSaturation.A. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to TerminalSignedSaturation.A rather than pretending the frontier is closed.
+
+### Candidate Theorems
+
+- NearBandMaterialSourceCharge.A+FrameBVCharge.A (near_band_material_frame_to_terminal_signed_saturation; score=120)
+
+### Retrieved Ingredients
+
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- source ingredient
+- problems/navier-stokes/theorem-packet.yaml -- residual control
+- problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
+
+### Recursive Solver Chain
+
+- terminal_verdict: open
+- reason: No internal solver mechanism is installed for TerminalSignedSaturation.A.
+- depth 0: NearBandMaterialSourceCharge.A+FrameBVCharge.A via near_band_material_frame_to_terminal_signed_saturation -> TerminalSignedSaturation.A
+
+## Allowed Inputs
+
+- NearBandMaterialSourceCharge.A
+- FrameBVCharge.A
+- TPNI.A
+- ASAC.A
+- same signed positive-source balance
+- ScaleCriticalTreeCarleson.A. The reserve, charge, adjoint-tail, and windowwise leakage ledgers would sum to the Pack_Q scale-critical donor-refill Carleson bound only after the noncircular Pack-side residual primitive is proved; until then an unpaid infinite donor-refill tree remains a Pack-face exit witness, not a closed no-exit theorem.
+- ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
+- PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
+- WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
+- AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing controlled by weighted adjoint residual mass. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
+- ParentSquareEmbed.A
+- WeightedAdjRes.A
+- terminal heat-window decomposition
+- normalized child packet mass
+
+## Forbidden Imports
+
+- NearBandMaterialSourceCharge.A+FrameBVCharge.A
+- near-band material-source charge plus retained frame BV charge
+- full-MPP closure
+- submission readiness
+- global smoothness
+- ScaleCriticalTreeCarleson.A
+- SquareReserveEvolution.A
+- free terminal reserve creation
+
+## Proof Attempt
+
+1. Keep the near-band source term and frame rotation on the same retained packet.
+2. Use the installed parent-drain/ASAC support only as support, not as a CM face promotion.
+3. Route the common signed positive-source balance to TerminalSignedSaturation.A.
+4. Do not reopen generic pressure/material-source bounds; the source audit marks those circular.
+5. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
+
+## Circularity Audit
+
+- status: passed
+- violations: none
+
+## Solver Verdict
+
+- verdict: new_subprimitive
+- certification_level: theorem-creation:new-subprimitive
+- rationale: The theorem has been reduced to a smaller noncircular primitive that is not currently installed.
+- next subprimitive: TerminalSignedSaturation.A -- terminal signed positive-source saturation / no-free-sink gate
+
+## Promotion Plan
+
+- promotion_allowed: false
+- recommended_next_cell_type: theorem-creation
