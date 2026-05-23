@@ -55,8 +55,11 @@ closes `DuhamelInverseNativeSourceLocalization.A`.
 
 Follow-up: `mpp-l3-duhamel-response-work-localization-proof-20260523.md`
 proves `L3DuhamelResponseWorkLocalization.A`, so
-`DuhamelInverseNativeSourceLocalization.A` is now installed. The current
-public `L^3` translator burden is `SameLedgerHeatAncestorLocalization.A`.
+`DuhamelInverseNativeSourceLocalization.A` is now installed.
+`mpp-same-ledger-heat-ancestor-localization-proof-20260523.md` then proves
+`SameLedgerHeatAncestorLocalization.A`, so the local `L^3` public translator
+is installed as `RetainedPackPartCriticalL3FieldExit.A`. This is only the
+local `L^3` case, not a generic all-critical-class bridge.
 
 ## Boundary
 
