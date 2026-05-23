@@ -18,8 +18,8 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
 - selected_mechanism: basac_reverse_holder_production_hard_obstruction
 - candidate_count: 1
-- solver_chain_verdict: closed
-- selection_reason: This theorem is the right next move because it changes the proof economy: The B_ASAC reverse-holder production burden asks for B_ASAC => B_ASAC^RH(p) for some p>1. The local source corpus proves the conditional Liouville theorem once this subclass is produced, and also shows the current B_ASAC clauses do not produce it: finite L^1_t terminal source mass allows shrinking terminal-layer concentration. This is an honest forward positive-supplier obstruction, not a CM Pack/Part/Field promotion. The internal solver reached a terminal hard-obstruction record with no promotable residual primitive.
+- solver_chain_verdict: hard_obstruction
+- selection_reason: This theorem is the right next move because it changes the proof economy: The B_ASAC reverse-holder production burden asks for B_ASAC => B_ASAC^RH(p) for some p>1. The local source corpus proves the conditional Liouville theorem once this subclass is produced, and also shows the current B_ASAC clauses do not produce it: finite L^1_t terminal source mass allows shrinking terminal-layer concentration. This is an honest forward positive-supplier obstruction, not a CM Pack/Part/Field promotion. The internal solver reached a terminal hard-obstruction record with no promotable residual primitive; that record is supplier-quarantined and open, not theorem closure.
 
 ### Candidate Theorems
 
@@ -36,9 +36,9 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 
 ### Recursive Solver Chain
 
-- terminal_verdict: closed
-- reason: The recursive theorem solver reached a terminal mechanism with no remaining residual primitive.
-- depth 0: BASACReverseHolderProduction.A via basac_reverse_holder_production_hard_obstruction -> closed
+- terminal_verdict: hard_obstruction
+- reason: The recursive theorem solver reached a terminal supplier obstruction with no promotable residual primitive; the production theorem remains open and quarantined outside CM promotion.
+- depth 0: BASACReverseHolderProduction.A via basac_reverse_holder_production_hard_obstruction -> hard_obstruction
 
 ## Allowed Inputs
 
@@ -70,7 +70,7 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 1. Use the rigid-subclass Liouville note to keep the conditional closure separate from the production theorem.
 2. Use the scalar terminal layer model g_m(s)=m 1_{(-1/m,0]}(s) to record why finite L^1_t control does not imply any p>1 reverse-Holder bound.
 3. Mark BASACReverseHolderProduction.A as a new production theorem outside the installed B_ASAC equality-class clauses.
-4. Keep the obstruction supplier-quarantined in the CM route; it does not land in Field or Member.
+4. Keep the obstruction supplier-quarantined in the CM route; it does not land in Pack, Part, or Field, and Member is downstream only.
 
 ## Circularity Audit
 
@@ -79,9 +79,9 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 
 ## Solver Verdict
 
-- verdict: conditional
-- certification_level: theorem-creation:conditional
-- rationale: The proof attempt is noncircular but still needs downstream audit before promotion.
+- verdict: supplier_quarantined
+- certification_level: theorem-creation:hard-obstruction-supplier-quarantined
+- rationale: The proof attempt records a real forward supplier obstruction; it is not discharged and cannot be promoted into the CM Pack/Part/Field route.
 
 ## Promotion Plan
 
