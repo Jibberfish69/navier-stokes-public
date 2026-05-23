@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-23T18:30:38Z'
+  generated_at: '2026-05-23T18:31:07Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -132,6 +132,15 @@ cross_lane_broadcast:
     status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+  - label: 'TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPacketCapture.A,
+      AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A
+      reduce NoGenuineCMExit to the Pack-first CM exit tree: ScaleCriticalTreeCarleson.A
+      is the Pack-side donor-refill landing, followed only by Part and licensed Field
+      if Pack survives.'
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/terminalcmnoexit-facereduction-a-theorem-creation-20260523.md
   - label: BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p)
       subclass is the exact remaining forward supplier theorem; the installed B_ASAC
       equality-class clauses allow finite L^1_t terminal-layer concentration, so this
@@ -162,13 +171,6 @@ cross_lane_broadcast:
     status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/theorem-construction/ofp-a-theorem-creation-20260522.md
-  - label: CSP.A. On the retained same-fluid collar, LCI.A together with the installed
-      post-LCI source ledger FCI.5f supplies the collar source-pressure package; OFP.A,
-      CFI.A, endpoint readout, Field, and Member remain downstream consumers.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
   broadcast_paths:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
