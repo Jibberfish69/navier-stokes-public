@@ -2,7 +2,7 @@
 
 Date: 2026-05-23
 
-Status: theorem-facing CM closure note.
+Status: truth-audited candidate note; not Clay-certified closure.
 
 Theorem labels:
 
@@ -11,15 +11,38 @@ ClayTerminalWitnessInvalidation.A
 ClayCMCounterexampleExclusion.A
 ```
 
+## Truth Audit
+
+This note records the witness-invalidation proof shape, but it is not a
+Clay-ready closure theorem as written.
+
+The reason is precise: the definition below includes "no class-exit status" as a
+Clay-admissible witness requirement. That requirement is valid inside the CM
+object language, but it is not by itself an external Clay requirement. A finite
+Clay singularity is allowed to be exactly a loss of smooth-class membership at
+the terminal time. Therefore class-exit cannot simply be declared
+Clay-inadmissible without an independent bridge theorem proving that every Clay
+counterexample witness must remain CM-admissible in the relevant terminal sense.
+
+So this note is a candidate closure schema conditional on the missing bridge:
+
+```text
+Clay terminal witness admissibility => no CM class-exit status.
+```
+
+That bridge is not proved in this note.
+
 ## Point
 
 The Clay-facing closure does not require a new forward theorem proving that an
 arbitrary selected packet survives past a terminal time.
 
-The counterexample itself has the burden of presenting a lawful same-fluid
-terminal witness of finite-time failure. The installed CM machinery proves that
-every genuine finite-failure witness is a Pack/Part/Field class-exit witness.
-Therefore the alleged Clay witness is not an admissible Clay witness.
+The intended counterexample-invalidation route is: the counterexample itself has
+the burden of presenting a lawful same-fluid terminal witness of finite-time
+failure. The installed CM machinery proves that every genuine finite-failure
+witness is a Pack/Part/Field class-exit witness. To turn that into Clay closure,
+one must additionally prove that such a class-exit witness is not admissible as a
+Clay terminal witness.
 
 In short:
 
@@ -30,7 +53,8 @@ finite Clay failure witness
 => not an admissible Clay terminal witness.
 ```
 
-That is witness invalidation, not packet rescue.
+That is the desired witness-invalidation shape, not packet rescue. The missing
+part is the external Clay-admissibility bridge named in the truth audit.
 
 ## Installed Inputs
 
@@ -67,8 +91,8 @@ A Clay finite-failure counterexample must supply more than a word such as
 "singularity." It must supply a terminal witness `W_*` attached to the same
 Navier-Stokes evolution from the original smooth datum.
 
-For this route, `W_*` is Clay-admissible only when it satisfies all four witness
-requirements:
+For the conditional route in this note, `W_*` is treated as CM-Clay-admissible
+only when it satisfies all four witness requirements:
 
 1. same-fluid provenance: it is extracted from the original smooth solution on
    the preterminal interval, not from a relabeled or external object;
@@ -80,14 +104,16 @@ requirements:
 4. no class-exit status: it is not already an `Exit(Q;\mathfrak O_{NS}^{work})`
    event.
 
-The fourth clause is not a smooth-continuation assumption. It is the witness
-validity condition: an object that has already exited the same-fluid CM class is
-not a lawful Clay terminal witness. It may be a diagnostic of why a selected
-packet failed, but it cannot serve as the counterexample object.
+The fourth clause is the unproved bridge point. It is a CM witness-validity
+condition. It becomes a Clay witness-validity condition only after an independent
+argument identifies Clay terminal admissibility with this same-fluid CM
+admissibility requirement.
 
-## Theorem `ClayTerminalWitnessInvalidation.A`
+## Conditional Theorem `ClayTerminalWitnessInvalidation.A`
 
-There is no Clay-admissible finite-time terminal witness for original smooth
+Assuming the external admissibility bridge that a Clay finite-failure terminal
+witness may not already be a CM class-exit witness, there is no
+CM-Clay-admissible finite-time terminal witness for original smooth
 Navier-Stokes data.
 
 Equivalently:
@@ -147,27 +173,29 @@ same-fluid terminal witness, a contradiction.
 
 Therefore no Clay-admissible finite-time terminal witness exists.
 
-## Corollary `ClayCMCounterexampleExclusion.A`
+## Conditional Corollary `ClayCMCounterexampleExclusion.A`
 
-No finite-time Clay counterexample exists on the CM route.
+Under the same external admissibility bridge, no finite-time Clay counterexample
+exists on the CM route.
 
 ### Proof
 
 A finite-time Clay counterexample must present a Clay-admissible terminal witness
-of finite-time failure. By `ClayTerminalWitnessInvalidation.A`, no such witness
-exists. Hence no finite-time Clay counterexample exists.
+of finite-time failure. The missing admissibility bridge identifies such a
+witness with the CM-Clay-admissible witness used above. Then
+`ClayTerminalWitnessInvalidation.A` rules it out.
 
 ## Readback
 
-This theorem supersedes the packet-survival framing as the Clay-facing terminal
-closure step. `TerminalCMNoExit.A / NoGenuineCMExit.A` remains a stronger
-positive continuation-packet formulation, but it is not required for the
-counterexample-invalidation closure.
+This note does not supersede the packet-survival framing as an installed
+Clay-facing closure step. It isolates a different possible closure route:
+counterexample-witness invalidation. That route still needs the external
+Clay-admissibility bridge identified above.
 
 The governing final sentence is:
 
 ```text
-Every alleged finite-time Clay failure witness exits the same-fluid CM class;
-therefore it is not an admissible Clay terminal witness.
+Every alleged finite-time failure witness exits the same-fluid CM class.
+To finish by witness invalidation, prove that such a class-exit witness is not
+an admissible Clay terminal witness.
 ```
-
