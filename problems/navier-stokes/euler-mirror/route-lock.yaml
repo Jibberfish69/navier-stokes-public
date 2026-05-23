@@ -1,10 +1,10 @@
 ---
-version: 2
+version: 3
 identity:
   problem_id: navier-stokes
   branch_id: euler-mirror-chat20
   artifact_id: route-lock-navier-stokes-euler-mirror
-  updated_on: '2026-05-22'
+  updated_on: '2026-05-23'
   generator: codex-euler-ontology-repair
 governing_object_law:
   status: active
@@ -87,6 +87,9 @@ terminal_classification_rules:
 - classify the expanded `ACT.KX` cells `ACT.X-Cut + ACT.X-Press + ACT.X-MidRaw + ACT.X-TopVisc => ACT.KX` as non-importable NS receiver machinery
 - classify any Euler smoothness claim as conditional unless an independent external theorem proves the controls
 - only after the Euler membership layer is honest may downstream exact-potential, Hodge, selector, or Euclidean export branches be mirrored
+- read terminal branch closure as audit cleanup only; the case matrix remains the
+  input graph for Euler-only smoothness extraction and nonsmooth class-membership
+  exploration
 holistic_scenario_separation_lock:
   status: terminal
   authority_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
@@ -110,6 +113,28 @@ holistic_scenario_separation_lock:
     by explicit hypothesis, ESM.C* are proved conditional Euler control surfaces,
     ESM.N* are nonsmooth or false-from-base scenarios, and ESM.V* are viscosity
     imports from the Navier-Stokes parent route.
+euler_ns_continuum_program_lock:
+  status: active-program-after-audit-closure
+  authority_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-smoothness-continuum-program-20260523.md
+  referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
+  case_matrix_surface: "problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml#case_matrix"
+  governing_readback: >-
+    The Euler mirror now has two jobs. First, it referees the Navier-Stokes
+    surfaces by marking which proof steps spend viscosity. Second, it graphs a
+    continuum from NS to Euler: viscosity-free overlap rows become Euler-only
+    smoothness extraction targets, viscosity-import rows become inviscid
+    replacement problems, and nonsmooth rows become Euler class-membership
+    boundary tests.
+  smoothness_overlap_rule: >-
+    A smoothness theorem proved on the Euler side without viscosity should
+    transfer as a smooth fixed-positive-viscosity NS comparison case, because
+    the NS equation retains the transport, pressure, and incompressibility
+    structure plus extra viscous regularization.
+  nonsmoothness_boundary_rule: >-
+    A local nonsmooth Euler member proves that base Member_E does not force
+    classical smoothness locally. Any claim about global Euler nonsmoothness
+    additionally needs a stated bridge from that local member to the chosen
+    global datum, domain, and class.
 closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
   status: closed
@@ -147,14 +172,16 @@ closed_receiver_theorem_target:
     explicit Euler regularity/control envelopes, and base Member_E is shown not
     to force that ledger, without ACT.KX / ACT.X-TopVisc / 2nu absorption.
 terminal_branch_closure:
-  status: closed-no-live-burdens
+  status: audit-closed-continuum-program-active
   closure_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
   referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
+  continuum_program_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-smoothness-continuum-program-20260523.md
   readback: >-
-    The Euler mirror carries no remaining live branch burden. Conditional
-    regularity surfaces are closed as conditional; base Member_E implications to
-    regularity or the receiver ledger are false; Navier-Stokes viscous imports are
-    closed as non-Euler.
+    The May 22 comparison audit carries no remaining branch-cleanup burden.
+    Conditional regularity surfaces are classified as conditional; base Member_E
+    implications to regularity or the receiver ledger are false; Navier-Stokes
+    viscous imports are classified as non-Euler. Those classifications now feed
+    the Euler-NS continuum program rather than ending Euler theorem work.
 current_receiver_and_terminal_import_surfaces:
   branch_local_receiver_slot:
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
