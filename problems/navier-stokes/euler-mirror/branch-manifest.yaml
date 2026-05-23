@@ -1,5 +1,5 @@
 ---
-version: 2
+version: 3
 identity:
   problem_id: navier-stokes
   branch_id: euler-mirror-chat20
@@ -7,7 +7,7 @@ identity:
   owner_chat_id: chat20
   human_name: NS 20
   created_on: '2026-04-22'
-  updated_on: '2026-05-22'
+  updated_on: '2026-05-23'
   branch_class: quarantined-parallel-equation-mirror
 role:
   title: Euler mirror lane
@@ -17,15 +17,16 @@ role:
     smoothness / one-field coherence / Lagrangian carriers as separate
     conditional layers rather than primitive membership.
 objective:
-  primary_goal: terminal classification of the Euler mirror of the Navier-Stokes regularity program
+  primary_goal: Euler-NS smoothness continuum from the terminal comparison audit
   execution_doctrine: >-
     Use the Navier-Stokes corpus only as comparison authority. Every copied
     Navier-Stokes mechanism must land as proved conditional, false from base
-    Euler membership, or non-Euler import.
+    Euler membership, or non-Euler import; then use that graph to extract
+    Euler-only smoothness overlap and nonsmooth class-membership boundary tests.
   proof_modes:
   - positive-control
   - euler-membership-plus-regularity
-  proof_mode_policy: both routes are terminally classified; do not collapse Euler membership into smoothness
+  proof_mode_policy: comparison routes are terminally classified; continuum work may extract Euler-only smoothness or nonsmooth membership witnesses without collapsing membership into smoothness
 equation_lock:
   source_equation: incompressible Navier-Stokes
   mirrored_equation: incompressible Euler
@@ -81,6 +82,7 @@ current_mirror_state:
       non-importable. Any Euler replacement supports regularity above Member_E,
       not membership itself.
     scenario_separation_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
+    continuum_program_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-smoothness-continuum-program-20260523.md
     referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
     scenario_separation_readback: >-
       Euler/NS contact points are now separated into smooth-or-conditional cases,
@@ -97,7 +99,7 @@ current_mirror_state:
         The ledger is L1 under explicit same-cover Euler center, oscillation, and
         centered-pressure-return envelopes, while base Member_E does not force
         it.
-    terminal_readback: base membership cannot supply smoothness or the receiver ledger; no live membership-route burden remains
+    terminal_readback: base membership cannot supply smoothness or the receiver ledger; the audit classification now feeds the continuum program
   positive_control_route:
     status: terminal-conditional-or-non-euler
     branch_local_surfaces:
@@ -116,6 +118,7 @@ branch_surfaces:
   membership_authority: problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-class-membership-flux-volume-definition.md
   frontier_packet: problems/navier-stokes/euler-mirror/theorem-construction/euler-mirror-frontier-packet.md
   scenario_separation_map: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
+  continuum_program: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-smoothness-continuum-program-20260523.md
   referee_audit_ledger: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
   referee_audit_tool: problems/navier-stokes/euler-mirror/tools/euler_mirror_referee_audit.rb
   receiver_closure: problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md
