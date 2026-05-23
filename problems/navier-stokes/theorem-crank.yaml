@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-23T01:31:20Z'
+  generated_at: '2026-05-23T01:34:00Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -12,16 +12,37 @@ shared_alignment:
     surface_id: theorem-surface-navier-stokes-43bdf8f77bd1
     route_signature: 43bdf8f77bd132db8f588c6ca84a26d8d290d9c0
     route_chain:
-    - The historical four-bridge / positive-smoothness chain is preserved as support
-      context only.
-    - Direct live authority remains source-wall-root-after-reconcile until its theorem
-      role is accounted for against the governing CM program.
-    - Do not read this chain as current proof authority, terminal proof status, or
-      a singleton Navier-Stokes route.
+    - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
+      or `T^3`
+    - Success for regularized or morphic-regularized equations does not close the
+      original problem
+    - The original framework names a monotone functional `Q(t)` as a bridge, not just
+      unnamed baseline energy
+    - Global energy or enstrophy control is necessary but not sufficient
+    - The live obstruction is the small-scale or high-frequency cascade that feeds
+      blow-up
+    - A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
+      transfer on the chosen torus-first theorem surface
+    - The monotone functional must stabilize the global energy/enstrophy layer and
+      enable the compactness package on that same periodic classical surface
+    - The scale-barrier plus monotone-functional input must yield strong local compactness
+      and nonlinear tensor closure on the periodic/operator approximation family
+    - A heat-governed deformation or continuation bridge must force continuation control
+      on the same periodic theorem surface
+    - If the scale-barrier, monotone-functional, compactness, and continuation packages
+      all hold on the active periodic branch, then the periodic Clay branch with `f
+      = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
+      not the internal branch itself
+    route_slots:
+    - slot_id: terminalcmnoexit-a-nogenuinecmexit-a
+      label: TerminalCMNoExit.A / NoGenuineCMExit.A
+      kind: live-theorem-frontier
+      status: frontier-open
+      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
-    route_label: terminalcmnoexit-a-nogenuinecmexit-a
-    current_route_name: terminalcmnoexit-a-nogenuinecmexit-a
+    route_label: TerminalCMNoExit.A / NoGenuineCMExit.A
+    current_route_name: TerminalCMNoExit.A / NoGenuineCMExit.A
     exact_cut_summary: 'The CM primitive remains `Exit(Q):=not Member(Q)`. The theorem-grade
       installed CM direction is only `forall N exists r_N: CM_{N,r_N,Q}=>Member(Q;O_NS^work)`,
       with `CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}` as the canonical route-relative
@@ -29,45 +50,33 @@ shared_alignment:
       one of Pack/Part/Field, but the blunt converse `not CM_{N,r,Q}=>not Member(Q;O_NS^work)`
       is absent. The PCTP / SOURCE.NO-PULSE / AWG / TGC family remains supplier/readout
       support, with source-drain feeding the Field/readout side rather than replacing
-      the CM primitive. SourceWall.Reconcile.A is resolved by demotion: normalized-adjoint
-      source-drain is conditional support, not an unconditional proof of SOURCE.NO-PULSE.A.
+      the CM primitive. `SourceWall.Reconcile.A` is resolved by demotion: the normalized-adjoint
+      package is conditional source-drain support, not an unconditional proof of `SOURCE.NO-PULSE.A`.
       The active work is CM-exit discipline: a failure surface is live only when it
-      is forced by first-exit analysis or lands in Pack, Part, or Field. ScaleCriticalTreeCarleson.A
-      is Pack-side: Pack_Q implies the scale-critical donor-refill Carleson bound,
-      and a selected unpaid infinite donor-refill tree is not Pack_Q / (Pack, packing-detached)
-      before Field or Jump readout; finite Zeno ancestry is sorted by RawZenoFailurePartition.A
-      + ZenoAtomFailureToFaceWitness.A, with zero-radius terminal residue landing
-      as `not Pack_Q`; AllNonEulerNSSurfaceFaceSweep.A indexes 1945 non-Euler Navier-Stokes
-      text surfaces after self-inclusion, content-level Euler exclusion, May 17 Euler-mirror
-      quarantine, and manual theorem-role correction; AllNonEulerNSFailureFaceDiagnostic.A
-      gives each row a selected-failure diagnostic; AllNonEulerCMContrapositiveClosure.A
-      is the row-level diagnostic ledger; MajorNonEulerCMContrapositiveClosure.A closes
-      the major named surfaces. Retained amplitude is Pack/Part or source-wall return,
-      height/low-strain is a Pack/Part/Field/Zeno subset, post-ASAC signed-current
-      reduces to the Zeno branch, and generated/manuscript/source-history/runtime/export
-      surfaces are support. Direct supplier theorems remain separate. The current
-      positive supplier atom is PositiveRemainderDepletion.A; the installed inputs
-      route legal terms and pay ASAC alignment but do not supply super-L1 temporal
-      residence, Zeno residue evacuation, a rigid ancient residue class, or scale-critical
-      active-square reserve. After the May 17 parallel completion pass, the sharper
-      packet primitive under PRD is SourceWeightedTerminalAngularDepletion.A for |w_j|^2[e_j.S_<j^loc
-      e_j]_+; the other tested entrances remain conditional source-wall presentations,
-      not installed lower theorems. ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A
-      produce B_ASAC; the May 21 terminal Zeno correction says the B_ASAC^closed terminal
-      atom is `not Pack_Q` at the zero-radius endpoint. NoPersistentUnpaidPositiveRadiusAncestry.A
-      handles the positive-radius retained tail: the shared-participation strip estimate
-      forces incoming flux, CM-envelope blowout, paid exit, or finite CM-face exit.
-      Retained H1-H6 replay, ACT.KX, DTC.Read, Field.Read, READ.COVER, End_NS, OFP.A,
-      and endpoint readout consequences remain downstream or quarantined support.
-      The exact Clay-facing CM burden is TerminalCMNoExit.A / NoGenuineCMExit.A. Treating
-      B_ASAC reverse-Holder production, NativeSourceAC.A, or a public-critical translator
-      as the live CM closure theorem is target drift unless a separate Pack/Part/Field
-      bridge license is proved. PublicCriticalExitToCMFace_X.A / RetainedPackPartCriticalConcentrationFieldExit_X.A
-      remains a CM-facing translator target, not a substitute for TerminalCMNoExit.A
-      / NoGenuineCMExit.A. The L3/Duhamel/native-source split is support for landing
-      public critical-class exit on the witness ledger. The same refresh keeps Euler-mirror
-      pressure/nonparticipation notes out of the non-Euler pass and records the eigenframe/pressure
-      route as conditional near-band source-current support.'
+      is forced by first-exit analysis or lands in Pack, Part, or Field. `ScaleCriticalTreeCarleson.A`
+      is now the Pack-side CM exit target: `Pack_Q` implies the scale-critical donor-refill
+      Carleson bound, and an unpaid infinite donor-refill tree is `not Pack_Q` / `(Pack,
+      packing-detached)` before Field or Jump readout. The Zeno finite-ancestry diagnostic
+      is sorted by `RawZenoFailurePartition.A` and `ZenoAtomFailureToFaceWitness.A`,
+      while the terminal zero-radius residue is `not Pack_Q`; `RetainedZenoAtomFieldExit.A`
+      is demoted to post-exit readout unless a separate positive-scale retained carrier
+      is proved. `NonEulerCMSurfaceFaceSweep.A` closes the current non-Euler face
+      sorting: retained amplitude is Pack/Part or source-wall return, height/low-strain
+      is a Pack/Part/Field/Zeno subset, signed-current reduces to those cases, and
+      readout/export surfaces remain support. Direct supplier theorems remain separate.
+      The May 15 retained-Field audit adds one licensed receiver-escape Field-face
+      bridge and quarantines the three retained DTC/tower/ACT.KX notes as conditional
+      Field-row support. The CM-retained source-pulse branch is already discharged
+      by `SourcePulseCMExit.A`. The averaged route is the correct noncircular endpoint-production
+      spine; the direct pointwise terminal-tail route is not installed as an original-data
+      production theorem. `AVG.END.A` removes `Jump_avg` only after `CFI.A_avg` /
+      `Field_avg` has been produced, so it is not an upstream eliminator for a branch
+      already in `Jump_avg`. The remaining positive-supplier burden `OriginalSmoothData=>SourcePulseExclusion.A`
+      is required for the downstream `PCTP.hard` route''s literal no-`Jump_avg` terminal-tail
+      production and is separate from the already-closed CM source-pulse exit. The
+      Clay-facing CM frontier is now `TerminalCMNoExit.A` / `NoGenuineCMExit.A`: prove
+      original smooth data leaves at least one continuation-complete Pack/Part/Field
+      packet on every alleged finite terminal tail.'
     paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
@@ -91,89 +100,19 @@ shared_alignment:
   alignment_reroute: solver-loop
 local_derivation:
   status: packetize-and-derive
-  required_packet_count: 9
+  required_packet_count: 1
   required_packets:
-  - packet_id: marvin-upstream-eb3fabeeac46
-    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-      Clay whole-space target into exact source-backed ingredients already present
-      on the lane. On the classical side, isolated the mixed-jet system, the exact
-      rung-level can'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T014725Z-6ece27230fc9.md
-  - packet_id: marvin-upstream-ada9835aa864
-    label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T015459Z-d5f90422800c.md
-  - packet_id: marvin-upstream-6d929e8a052a
-    label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T020719Z-04949830208e.md
-  - packet_id: marvin-upstream-954339945793
-    label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-      and E_sh(X) vanish identically, so the exact Route '
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    target_patch_surface: problems/navier-stokes/source-frontier.yaml
-    matched_route_slot_labels:
-    - Theorem 2.1 (Classical Closure)
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T020853Z-1ed78e356031.md
-  - packet_id: marvin-upstream-96892bab139f
-    label: 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
-      target.'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    target_patch_surface: problems/navier-stokes/source-frontier.yaml
-    matched_route_slot_labels:
-    - Theorem 2.1 (Classical Closure)
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T022825Z-ed5d2bb9bea4.md
-  - packet_id: marvin-upstream-409f183ee495
-    label: 'Define or prove: Completed the Hopf/shuffle line as a theorem-program
-      refinement. The correct algebraic fit for the time tower is the divided-power
-      Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260407T191622Z-e3045e4591c9.md
-  - packet_id: marvin-upstream-c8f7cb511776
-    label: 'Define or prove: Formalized the refined direct Lagrangian route as a six-lemma
-      mainline: differentiated Lagrangian decomposition, deformation-adapted energy,
-      ellipticity window, coefficient-commutator absorption, no-loss pressure recovery, '
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260407T194404Z-c14350fd2eb1.md
-  - packet_id: marvin-upstream-e2f5b0a915cf
-    label: 'Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md
-      with a geometry-testing ladder for the elliptic test field W_test = A^T grad
-      Phi solving -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three
-      rungs: (1) ene'
-    packet_kind: definition
-    source_kind: promoted-shared-obligation
-    recommended_stage: object-formalization
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260407T201618Z-94497e50e8c4.md
   - packet_id: terminalcmnoexit-a-nogenuinecmexit-a
     label: TerminalCMNoExit.A / NoGenuineCMExit.A
     packet_kind: live-theorem-frontier
     source_kind: live-solver-target
     recommended_stage: theorem-creation
-    target_patch_surface: problems/navier-stokes/theorem-packet.yaml
+    target_patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    matched_route_slot_labels:
+    - TerminalCMNoExit.A / NoGenuineCMExit.A
   leadership_status: leading
   net_new_local_theorem_count: 8
-  recommended_next_cell_type: object-formalization
+  recommended_next_cell_type: theorem-creation
 cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
@@ -250,7 +189,7 @@ auditor:
   status: needs-attention
   audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
-  open_issue_count: 2
+  open_issue_count: 1
   autofixable_issue_count: 0
   fix_plan_count: 0
   branch_count: 1
@@ -261,25 +200,14 @@ auditor:
 frontier_projection:
   status: ready
   primary_target:
-    kind: definition
-    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-      Clay whole-space target into exact source-backed ingredients already present
-      on the lane. On the classical side, isolated the mixed-jet system, the exact
-      rung-level can'
-    recommended_stage: object-formalization
-  one_step_beyond:
-  - label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    recommended_stage: object-formalization
-  two_steps_beyond:
-  - label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    recommended_stage: object-formalization
+    kind: live-theorem-frontier
+    label: TerminalCMNoExit.A / NoGenuineCMExit.A
+    recommended_stage: theorem-creation
+    target_patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+  one_step_beyond: []
+  two_steps_beyond: []
   route_pressure: []
-  recommended_next_cell_type: object-formalization
+  recommended_next_cell_type: theorem-creation
 summary:
   phase: local-derivation
   execution_state: needs-reroute
@@ -291,17 +219,17 @@ summary:
   proof_assembly_open_obligation_count: 1
   authoritative_source_gap_count: 0
   export_readiness_hold_state: none
-  exact_local_packet_count: 9
+  exact_local_packet_count: 1
   net_new_local_theorem_count: 8
-  projected_frontier_count: 2
+  projected_frontier_count: 0
   current_open_obligation_count: 1
   open_obligations_state: not-currently-worked
   theorem_work_blocked: true
   blocked_queue_interpretation: none
   on_recommended_track: false
-  recommended_next_cell_type: object-formalization
+  recommended_next_cell_type: theorem-creation
   audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: source-wall-root-theorem
-  current_next_cell_is_theorem_work: false
+  current_next_cell_type: dependency-discharge
+  current_next_cell_is_theorem_work: true
