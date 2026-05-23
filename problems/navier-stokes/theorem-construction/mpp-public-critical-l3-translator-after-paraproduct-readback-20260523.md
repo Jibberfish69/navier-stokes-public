@@ -7,9 +7,9 @@ Date: 2026-05-23
 Readback note for the CM-facing public translator after the May 21 CM-exit
 correction and the May 22 `L^3` paraproduct package.
 
-`ParaproductNativeSourceCapture.A` is installed. The remaining nonlinear
-native-extraction theorem is not the whole
-`DuhamelInverseNativeSourceLocalization.A`; it is the narrower adjoint
+`ParaproductNativeSourceCapture.A` is installed. At this readback stage, the
+remaining nonlinear native-extraction theorem was not the whole
+`DuhamelInverseNativeSourceLocalization.A`; it was the narrower adjoint
 localization sublemma
 
 ```math
@@ -34,7 +34,7 @@ The May 22 proof installs the second input:
 ParaproductNativeSourceCapture.A.
 ```
 
-Therefore the current Duhamel-side burden is exactly
+Therefore the Duhamel-side burden at this stage was exactly
 
 ```math
 L3DuhamelResponseWorkLocalization.A:
@@ -52,6 +52,11 @@ Legal.
 
 Once this localization theorem is proved, the installed paraproduct capture
 closes `DuhamelInverseNativeSourceLocalization.A`.
+
+Follow-up: `mpp-l3-duhamel-response-work-localization-proof-20260523.md`
+proves `L3DuhamelResponseWorkLocalization.A`, so
+`DuhamelInverseNativeSourceLocalization.A` is now installed. The current
+public `L^3` translator burden is `SameLedgerHeatAncestorLocalization.A`.
 
 ## Boundary
 
