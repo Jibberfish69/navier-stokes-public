@@ -13,13 +13,17 @@ completion_meaning: >-
   not close the Euler-only smoothness continuum program opened from that graph.
 referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
 continuum_program_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-smoothness-continuum-program-20260523.md
-theorem_claim_status: audit-closed-continuum-program-active
+continuum_closure_ledger: problems/navier-stokes/euler-mirror/euler-ns-continuum-closure-ledger.yaml
+continuum_closure_theorem: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-continuum-closure-theorem-20260523.md
+theorem_claim_status: closed-as-continuum-route-control
 closed_terminal_surfaces:
   - problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md
   - problems/navier-stokes/euler-mirror/theorem-construction/positive-control-euler-program.md
   - problems/navier-stokes/euler-mirror/theorem-construction/route-b-euler-closure-theorem.md
   - problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
   - problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
+  - problems/navier-stokes/euler-mirror/euler-ns-continuum-closure-ledger.yaml
+  - problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-continuum-closure-theorem-20260523.md
 closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
   status: closed
@@ -79,10 +83,10 @@ conditions:
     evidence:
       - problems/navier-stokes/euler-mirror/theorem-construction/integrated-euler-closure-program.md
 terminal_closure:
-  status: audit-closed-continuum-program-active
+  status: closed-as-continuum-route-control
   closure_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
   readback: >-
     Every Euler mirror route is terminally classified as proved conditional,
     false from base membership, or non-Euler import. Those classifications feed
     the Euler-NS smoothness continuum program.
-overall_status: audit-closed-continuum-program-active
+overall_status: closed-as-continuum-route-control
