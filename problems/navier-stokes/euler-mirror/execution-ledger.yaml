@@ -1,21 +1,22 @@
 ---
-version: 2
+version: 3
 identity:
   problem_id: navier-stokes
   branch_id: euler-mirror-chat20
   artifact_id: execution-ledger-navier-stokes-euler-mirror
-  updated_on: '2026-05-22'
+  updated_on: '2026-05-23'
   generator: codex-euler-ontology-repair
 main_objective:
   theorem_target: regularity for the three-dimensional incompressible Euler equations
-  theorem_target_status: terminally-classified-no-live-branch-burden
-  doctrine: define Euler membership natively, then close each mirror route as conditional, false from base membership, or non-Euler import
+  theorem_target_status: audit-closed-continuum-program-active
+  doctrine: define Euler membership natively, classify each mirror route, then use the case graph for Euler-only smoothness extraction and nonsmooth class-membership exploration
   proof_modes:
   - positive-control
   - euler-membership-plus-regularity
   run_both: false
   terminal_closure_surface: problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
   referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
+  continuum_program_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-smoothness-continuum-program-20260523.md
 closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
   status: closed
@@ -48,6 +49,18 @@ scenario_separation_map:
     ESM.S* are smooth only by stated hypotheses, ESM.C* are conditional Euler
     control theorems, ESM.N* are nonsmooth or false-from-base membership cases,
     and ESM.V* are the parent viscosity imports.
+continuum_program:
+  status: active-program-after-audit-closure
+  surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-smoothness-continuum-program-20260523.md
+  readback: >-
+    The case matrix is now the graph between NS and Euler surfaces. Smooth and
+    conditional rows mark viscosity-free overlap for Euler-only smoothness
+    extraction; viscosity rows mark exact inviscid replacement problems;
+    nonsmooth rows mark Euler class-membership boundary tests.
+  global_consequence_boundary: >-
+    A local nonsmooth Euler member refutes local base-membership-implies-smooth
+    claims. A global nonsmooth Euler claim still needs a bridge from the local
+    member to the chosen global datum, domain, and class.
 route_families:
 - family_id: euler-membership-plus-regularity
   status: terminal
@@ -121,7 +134,10 @@ phases:
   goal: close the receiver ledger split under added Euler control and base Member_E failure
 - phase_id: phase-4-terminal-closure
   status: completed
-  goal: close all Euler mirror routes with no live branch burdens
+  goal: close the comparison-audit routes and feed the resulting case graph into the continuum program
+- phase_id: phase-5-euler-ns-continuum
+  status: active-program-after-audit-closure
+  goal: extract viscosity-free Euler-only smoothness regions and test nonsmooth Euler class-membership boundaries
 automation_loop:
   mode: repo-internal-only
   safe_problem_local_surfaces:
