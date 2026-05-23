@@ -74,14 +74,14 @@ CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN = {
   "target_object" => "TerminalCMNoExit.A / NoGenuineCMExit.A",
   "theorem_grade_statement" => "Prove original smooth data leaves at least one continuation-complete Pack/Part/Field packet on every alleged finite terminal tail; the remaining open faces are Pack strain-integrability no-exit, Part closedness-input no-exit, and licensed Field coherence no-exit.",
   "active_container" => CURRENT_SOURCE_WALL_ROOT_ID,
-  "respawn_cell" => "terminal-cm-no-exit",
+  "respawn_cell" => "source-wall-root-theorem",
   "respawn_stage" => "direct-packet-survival",
   "allowed_input_boundary" => "The proof may use installed genuine-exit capture, canonical terminal packet capture, terminal source-residue CM-exit sorting, and finite failure witness capture. Bare positive-supplier deletion theorems, B_ASAC reverse-Holder production, PCTP/no-pulse supplier targets, and endpoint readout consequences remain separate or quarantined support unless a Pack/Part/Field bridge license is proved.",
   "nearest_wrong_substitution" => "Treating B_ASAC supplier exhaustion or source-residue sorting as Clay-facing CM closure."
 }.freeze
 CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE = {
   "disposition" => "respawn",
-  "next_cell_type" => "terminal-cm-no-exit",
+  "next_cell_type" => "source-wall-root-theorem",
   "next_stage" => "direct-packet-survival",
   "next_action" => "Prove TerminalCMNoExit.A / NoGenuineCMExit.A by ruling out Pack strain-integrability loss, Part closedness-input loss, and licensed Field coherence loss on every alleged finite terminal tail."
 }.freeze
