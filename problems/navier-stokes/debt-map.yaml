@@ -5,7 +5,7 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-05-23T20:22:05Z'
+  extracted_at: '2026-05-23T20:29:49Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
@@ -232,10 +232,10 @@ summary:
     local-derivable: 3
     branch-choice: 0
     blocked-frontier: 2
-  recommended_next_cell_type: theorem-creation
+  recommended_next_cell_type: theorem-repair
   recommended_next_action: Local support has been found for the CM authority gate,
-    but the live Pack/Part/Field bridge is still open, so run theorem-creation before
-    generic backbone churn or release-overlay cleanup.
+    but the live Pack/Part/Field bridge is still open, so run theorem-repair as the
+    bridge-license auditor before generic backbone churn or release-overlay cleanup.
   recommended_debt_ids:
   - terminalcmnoexit-a-nogenuinecmexit-a-pack-landing
   - terminalcmnoexit-a-nogenuinecmexit-a-part-landing
