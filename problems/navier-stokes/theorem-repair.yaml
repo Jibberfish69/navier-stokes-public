@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   repair_id: theorem-repair-navier-stokes
-  generated_at: '2026-05-23T01:58:38Z'
+  generated_at: '2026-05-23T02:04:07Z'
   generator: system/runner/workers/theorem_repair_worker.rb
 authority_sync_gate:
   authority_mode: direct-live-surfaces
@@ -57,22 +57,22 @@ contract_compiler:
   - contract_id: cm-pack-landing-bridge
     target: Pack landing for the CM witness-face bridge
     output_lane: cm-bearing
-    current_support_status: missing
-    support_strength: ''
+    current_support_status: localized-support
+    support_strength: strong
     promotion_boundary: Must be certified by bridge-license auditor before the aggregate
       CM gate may close.
   - contract_id: cm-part-landing-bridge
     target: Part landing for the CM witness-face bridge
     output_lane: cm-bearing
-    current_support_status: missing
-    support_strength: ''
+    current_support_status: localized-support
+    support_strength: strong
     promotion_boundary: Must be certified by bridge-license auditor before the aggregate
       CM gate may close.
   - contract_id: cm-field-landing-bridge
     target: Field landing for the CM witness-face bridge
     output_lane: cm-bearing
-    current_support_status: missing
-    support_strength: ''
+    current_support_status: localized-support
+    support_strength: strong
     promotion_boundary: Must be certified by bridge-license auditor before the aggregate
       CM gate may close.
   - contract_id: cm-member-landing-bridge
@@ -143,20 +143,38 @@ bridge_license_auditor:
   - Member
   face_landing_support:
   - face: Pack
-    status: missing
-    support_strength: ''
-    debt_id: ''
-    evidence_paths: []
+    status: localized-support
+    support_strength: strong
+    debt_id: terminalcmnoexit-a-nogenuinecmexit-a-pack-landing
+    evidence_paths:
+    - problems/navier-stokes/frozen-core.md
+    - problems/navier-stokes/proof-assembly.yaml
+    - problems/navier-stokes/source-frontier.yaml
+    - problems/navier-stokes/theorem-packet.yaml
+    - problems/navier-stokes/claim-ladder.md
+    - problems/navier-stokes/draft-v6.md
   - face: Part
-    status: missing
-    support_strength: ''
-    debt_id: ''
-    evidence_paths: []
+    status: localized-support
+    support_strength: strong
+    debt_id: terminalcmnoexit-a-nogenuinecmexit-a-part-landing
+    evidence_paths:
+    - problems/navier-stokes/source-frontier.yaml
+    - problems/navier-stokes/theorem-packet.yaml
+    - problems/navier-stokes/frozen-core.md
+    - problems/navier-stokes/proof-assembly.yaml
+    - problems/navier-stokes/claim-ladder.md
+    - problems/navier-stokes/draft-v6.md
   - face: Field
-    status: missing
-    support_strength: ''
-    debt_id: ''
-    evidence_paths: []
+    status: localized-support
+    support_strength: strong
+    debt_id: terminalcmnoexit-a-nogenuinecmexit-a-field-landing
+    evidence_paths:
+    - problems/navier-stokes/frozen-core.md
+    - problems/navier-stokes/proof-assembly.yaml
+    - problems/navier-stokes/source-frontier.yaml
+    - problems/navier-stokes/theorem-packet.yaml
+    - problems/navier-stokes/obstruction-capture.md
+    - problems/navier-stokes/claim-ladder.md
   - face: Member
     status: missing
     support_strength: ''
@@ -173,10 +191,10 @@ bridge_license_auditor:
     - problems/navier-stokes/theorem-construction/mpp-cm-cross-face-synthesis-bridge-license-audit-20260505.md
   all_required_faces_localized: false
   last_discharge_audit:
-    target_obligation_id: BASACReverseHolderProduction.A
+    target_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
     promoted: false
-    status_before: structural-only
-    status_after: structural-only
+    status_before: frontier-open
+    status_after: frontier-open
     outcome: no-promotion
   checks:
   - source_program_id and target_program_id are both explicit
