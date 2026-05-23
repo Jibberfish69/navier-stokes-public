@@ -4,20 +4,20 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-23T21:08:09Z'
+  audited_at: '2026-05-23T22:52:54Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
-  standalone_status: frontier-open
+  standalone_status: clay-terminal-closure-installed-package-revise
   completion_tier_achieved: route-complete
   review_verdict: revise
-  theorem_packet_status: frontier-open
+  theorem_packet_status: manual-supersession-installed
 audit_certification:
   audit_status: audited-needs-fix
   audit_completion_tier: audited-route-complete
   audit_review_verdict: audited-revise
 branch_audit:
-  status: terminal-audit-open
+  status: all-terminal
   branch_count: 1
   live_import_count: 0
   route_equivalence_count: 1
@@ -35,31 +35,40 @@ branch_audit:
     reasons:
     - This branch starts exactly at the first unresolved frontier for `terminalcmnoexit-a-nogenuinecmexit-a`.
     - This is a route branch rather than a local theorem bridge, so it stays quarantined.
-  authority_frontier_open: true
-  authority_frontier_count: 1
-  authority_blocking_count: 1
-  authority_status: theorem-open-at-direct-live-frontier
-downstream_overlay_drift:
-  status: ok
+downstream_overlay_drift: &1
+  status: stale
   issue_id: downstream-overlay-drift
-  authority_surface_count: 0
+  authority_surface_count: 1
   stale_overlay_count: 2
-  authority_surfaces: []
+  authority_surfaces:
+  - artifact: submission_verdict
+    path: problems/navier-stokes/submission-verdict.yaml
+    sha1: 0345fbab701cb7be9f78a86d8ce99a8fc80b4a8f
+    matched_terms:
+    - direct-live-surfaces
+    - source_authority_mode
+    - installed
+    - discharged
+    - 'all_discharged: true'
   stale_overlays:
   - artifact: review_verdict
     path: problems/navier-stokes/review-verdict.yaml
-    sha1: f29ef32cae1f07125b0ea9476917b30827b88344
+    sha1: 5d3b30ffbe10b9e8c54570833615b14e26ee99cb
     matched_terms:
     - theorem-upgrade
     - 'explicit_nonterminal_overlay: true'
   - artifact: release_decision
     path: problems/navier-stokes/release-decision.yaml
-    sha1: 4fe822c3c9f09aef0edc9f41347f60b103d3a88c
+    sha1: f55a368532a097236da1fc7c9844a1918f88b2af
     matched_terms:
     - theorem-upgrade
   recommended_repair: refresh-review-verdict
   recommended_next_cell_type: honesty-review
   recommended_command: refresh-review-freshness
+  terminal_condition_failure: 'Downstream overlay drift: authoritative theorem edge/source
+    surfaces carry a promoted direct-live posture, but generated overlays still advertise
+    stale blocker language in review_verdict, release_decision: theorem-upgrade, explicit_nonterminal_overlay:
+    true.'
 graph_snapshot:
   exploration_graph:
     present: true
@@ -166,6 +175,7 @@ surface_snapshot:
       - problems/navier-stokes/debt-map.yaml
       - problems/navier-stokes/marvin-watchlist.yaml
       - problems/navier-stokes/live-theorem-edge.yaml
+      - problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
       - problems/navier-stokes/route-lock.yaml
       - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
       - problems/navier-stokes/theorem-construction/live-frontier-honest-cut-reduction.md
@@ -226,30 +236,30 @@ surface_snapshot:
       sterilized_synthesis_import_count: 0
   theorem_authority_summary:
     total_obligations: 1
-    grounded_count: 0
+    grounded_count: 1
     structural_only_count: 0
     structurally_supported_count: 0
     bridge_pending_count: 0
     unresolved_count: 0
-    frontier_count: 1
-    blocking_count: 1
-    all_discharged: false
+    frontier_count: 0
+    blocking_count: 0
+    all_discharged: true
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
+    manual_supersession: ClayTerminalWitnessInvalidation.A / ClayCMCounterexampleExclusion.A
 issues:
-- issue_id: terminal-audit-open
+- issue_id: downstream-overlay-drift
   severity: major
-  summary: The branch audit is terminal-open because direct-live authority still has
-    an open frontier.
+  summary: Generated theorem/review/release overlays still advertise stale blockers
+    after the direct live theorem edge advanced.
   autofixable: false
-  recommended_action: Keep theorem-crank/theorem-creation running against the direct-live
-    frontier until the branch lands as live import, route equivalence with a discharged
-    authority edge, or death certificate.
-  details:
-    authority_frontier_count: 1
-    authority_blocking_count: 1
-    authority_status: theorem-open-at-direct-live-frontier
-fix_plan: []
+  recommended_action: Regenerate the derived theorem chain, refresh honesty-review
+    if review-verdict is stale, and rerun release-or-respawn after review.
+  details: *1
+fix_plan:
+- fix_id: repair-downstream-overlay-drift
+  summary: Repair stale downstream overlays in a bounded promotion-preserving order.
+  autofixable: false
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
