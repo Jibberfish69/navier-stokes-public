@@ -124,8 +124,9 @@ Member_E\not\Longrightarrow\text{regularity.}
 \tag{IEC.C}
 ```
 
-This is not a live target. It is the terminal distinction: added controls yield
-conditional regularity, while rough Euler behavior can still be Euler.
+This is not a loose comparison target. It is the audit distinction that feeds
+the May 23 continuum closure: added controls yield conditional regularity,
+while rough Euler behavior can still be Euler.
 
 ## Auxiliary Roads
 
@@ -140,5 +141,8 @@ the exact Euler surface:
 ## Honest Current Posture
 
 The base object is correct, the `ELCI.CP.A` receiver split is closed, and the
-integrated Euler mirror has no live branch burden. The terminal closure authority
-is [mpp-euler-mirror-terminal-closure-20260522.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md).
+integrated Euler mirror is now routed through the continuum closure. The May 22
+audit authority is
+[mpp-euler-mirror-terminal-closure-20260522.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md);
+the May 23 continuum authority is
+[euler-ns-continuum-closure-ledger.yaml](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/euler-ns-continuum-closure-ledger.yaml).
