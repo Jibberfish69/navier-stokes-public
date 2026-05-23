@@ -153,13 +153,21 @@ branch-local targets.
 | exact-potential / heat / Stokes packets | parabolic road supplies readout | `non_euler_import` | principal heat/static-diffusion operator is absent from Euler |
 | selector/export consumers tied to viscous budgets | parent downstream readout closes Euler | `non_euler_import` | downstream consumer is calibrated to parabolic or viscous budgets |
 
-This table is the branch closure. Anything stronger than a row in the table is a
-new theorem program outside this branch classification.
+This table is the May 22 comparison-audit closure. Anything stronger than a row
+in the table now routes through the May 23 Euler-NS continuum program rather
+than being suppressed as outside the branch.
 
 The per-surface enforcement surface is
 [referee-audit-ledger.yaml](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml).
 It requires every Euler-mirror file to read back through the same classification
 vocabulary used in this table.
+
+The continuum closure surfaces are
+[euler-ns-continuum-closure-ledger.yaml](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/euler-ns-continuum-closure-ledger.yaml)
+and
+[euler-ns-continuum-closure-theorem-20260523.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-continuum-closure-theorem-20260523.md).
+They turn this audit table into the smooth-overlap, viscosity-divergence, and
+nonsmooth-boundary continuum graph.
 
 ## Closed Readback
 
@@ -176,5 +184,7 @@ The Euler mirror branch is terminal in this exact, non-aspirational sense:
 \tag{ETC.10}
 ```
 
-There is no live Euler-mirror burden after `(ETC.10)`. A future theorem stronger
-than these statements would be a new external theorem program.
+After `(ETC.10)`, the comparison audit is closed. The May 23 continuum closure
+keeps the stronger Euler work inside route control as typed outputs:
+viscosity-free smoothness overlap, viscosity divergence, nonsmooth Euler
+boundary, and the local-to-global bridge rule.
