@@ -72,7 +72,8 @@ This is not automatically a primitive-production theorem.
 
 `RSCB.NKF`, `ACT.KX`, `ACT.A`, `RCF.A`, `LCI.A`, `FCI.5f`, `CSP.A`, and `OFP.A`
 are positive supplier or receiver directions.  They must bridge into `Pack`,
-`Part`, `Field`, or `Member` before they count as CM closure.
+`Part`, or `Field` before they count as CM witness closure. `Member` is the
+downstream class-membership landing.
 
 `D6` branch manifestation:
 
@@ -84,7 +85,8 @@ families only after those families are seated under the CM-exit grammar.
 `AWG.A`, `SOURCE.NO-PULSE.A`, `PCTP.hard / TTU.A`, `TGC.A`,
 `AACT.Global.noJump`, `AVG.END.A`, `READ.END`, and export/readout packets are
 consumer or alternate-supplier directions unless explicitly bridged into
-`Pack`, `Part`, `Field`, or `Member`.
+`Pack`, `Part`, or `Field`; `Member` follows only after that CM witness
+certificate is licensed.
 
 ## Rule
 
