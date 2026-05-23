@@ -4,38 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-05-22T22:58:55Z'
+  generated_at: '2026-05-23T00:18:08Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
 theorem_statement: TerminalCMNoExit.A / NoGenuineCMExit.A
-source_grounded_chain:
-- The official Clay target allows either the whole-space branch on R^3 or the periodic
-  branch on T^3.
-- 'Define or prove: Reduced the live Navier-Stokes route stack against the Clay whole-space
-  target into exact source-backed ingredients already present on the lane. On the
-  classical side, isolated the mixed-jet system, the exact rung-level can'
-- 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-  u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-  property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-- 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes lane.
-  First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact whole-tower
-  inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2, red'
-- 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-  under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-  and E_sh(X) vanish identically, so the exact Route '
-- 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
-  target.'
-- 'Define or prove: Completed the Hopf/shuffle line as a theorem-program refinement.
-  The correct algebraic fit for the time tower is the divided-power Hopf law on one
-  primitive generator, and for the mixed jet tower it is the shuffle/unshuffle'
-- 'Define or prove: Formalized the refined direct Lagrangian route as a six-lemma
-  mainline: differentiated Lagrangian decomposition, deformation-adapted energy, ellipticity
-  window, coefficient-commutator absorption, no-loss pressure recovery, '
-- 'Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md with a geometry-testing
-  ladder for the elliptic test field W_test = A^T grad Phi solving -div_a(G grad Phi)=div_a
-  Z_alpha. The note now distinguishes three rungs: (1) ene'
+source_grounded_chain: []
 tentative_extension_chain: []
 remaining_open_obligations:
 - obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
@@ -186,7 +161,7 @@ theorem_surface:
     cross_surface_splice: false
     sterilized_synthesis_import_count: 0
 summary:
-  grounded_step_count: 9
+  grounded_step_count: 0
   promoted_extension_count: 0
   bridge_discharge_blocking_count: 0
   bridge_discharge_only_count: 0
