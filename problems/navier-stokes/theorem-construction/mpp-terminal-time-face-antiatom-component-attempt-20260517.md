@@ -48,7 +48,7 @@ legal exits paid;
 finite donor trees telescoped;
 local Radon source measure;
 terminal Zeno support;
-Field-face diagnostic landing.
+zero-radius `not Pack_Q` diagnostic placement.
 ```
 
 ## Attempt 1: spatial transported no-flux removes the atom
