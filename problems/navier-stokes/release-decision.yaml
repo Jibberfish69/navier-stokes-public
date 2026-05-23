@@ -4,18 +4,17 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-05-23T01:25:07Z'
+  evaluated_at: '2026-05-23T01:26:28Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: respawn
   release_posture: revise-loop
   completion_tier_target: full-mpp-closure
   completion_tier_achieved: route-complete
-  next_cell_type: terminal-cm-no-exit
-  next_stage: direct-packet-survival
-  next_action: Prove TerminalCMNoExit.A / NoGenuineCMExit.A by ruling out Pack strain-integrability
-    loss, Part closedness-input loss, and licensed Field coherence loss on every alleged
-    finite terminal tail.
+  next_cell_type: source-wall-root-theorem
+  next_stage: direct-source-wall-supplier
+  next_action: Prove the separate positive source-wall supplier theorem; do not reopen
+    already face-sorted support presentations as independent surfaces.
   rationale: Honesty review did not clear the package for release, so work returns
     upstream on the typed respawn target.
 artifacts:
@@ -48,17 +47,11 @@ blockers:
   release until the remaining theorem delta is localized into a full-MPP closure surface.
 - The theorem route is coherent, but the package is not yet compressed into a safe
   stand-alone paper surface.
-- 'Theorem-packet blocker: There are 1 unresolved lemma obligations.'
-- 'Theorem-packet blocker: There are 2 frontier or route-choice blockers still inside
-  the theorem packet.'
+- 'Theorem-packet blocker: TerminalCMNoExit.A / NoGenuineCMExit.A'
 - TerminalCMNoExit.A / NoGenuineCMExit.A
 - Completion tier is still `route-complete`, below a paper-complete or full-closure
   submission surface.
 - Honesty review verdict is still `revise`.
-- Submission export status changed after the current review verdict was written.
-- TerminalCMNoExit.A / NoGenuineCMExit.A remains open; terminal release requires a
-  surviving continuation-complete Pack/Part/Field packet on every alleged finite terminal
-  tail.
 - Submission export is not a clean typeset export yet.
 summary:
   queue_effect: ready
