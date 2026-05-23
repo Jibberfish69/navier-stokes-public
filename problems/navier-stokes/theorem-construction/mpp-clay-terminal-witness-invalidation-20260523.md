@@ -24,7 +24,12 @@ the terminal time. Therefore class-exit cannot simply be declared
 Clay-inadmissible without an independent bridge theorem proving that every Clay
 counterexample witness must remain CM-admissible in the relevant terminal sense.
 
-So this note is a candidate closure schema conditional on the missing bridge:
+The independently proved admissibility bridge currently available is
+`ClaySolutionCMExitInadmissibility.A`: CM class-exit is inadmissible for a Clay
+smooth solution. That is weaker than counterexample invalidation.
+
+So this note is a candidate closure schema conditional on the stronger missing
+bridge:
 
 ```text
 Clay terminal witness admissibility => no CM class-exit status.
