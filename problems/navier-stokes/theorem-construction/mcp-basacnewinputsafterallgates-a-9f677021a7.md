@@ -2,7 +2,7 @@
 
 ## Status
 
-External new-input triage.  The current repo surfaces leave `B_ASAC^closed` as a Field-face obstruction.  New progress needs a theorem imported from, or inspired by, outside PDE literature.
+External new-input triage.  The current repo surfaces leave `B_ASAC^closed` as zero-radius `not Pack_Q` support.  New progress needs a theorem imported from, or inspired by, outside PDE literature.
 
 ## Best direct new input
 
