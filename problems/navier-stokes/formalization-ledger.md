@@ -26,4 +26,4 @@
 - Keep the lowest safe claim explicit and do not let recovered speculative material masquerade as a proved bridge.
 - Re-run honesty-review only after the local package has real prose and an explicit debt map.
 
-<!-- generated_at: 2026-05-23T19:33:55Z -->
+<!-- generated_at: 2026-05-23T19:35:08Z -->
