@@ -18,8 +18,8 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
 - selected_mechanism: terminal_cm_no_exit_face_reduction
 - candidate_count: 1
-- solver_chain_verdict: conditional-open
-- selection_reason: This theorem is the right next move because it changes the proof economy: Use CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A to reduce NoGenuineCMExit to the Pack-first CM exit tree: carrier failure lands in Pack, retained participation failure lands in Part, and only a retained coherent same-fluid packet reaches Field. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to ScaleCriticalTreeCarleson.A rather than pretending the frontier is closed. The residual chain remains open at the Pack-side no-exit primitive.
+- solver_chain_verdict: closed
+- selection_reason: This theorem is the right next move because it changes the proof economy: Use CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A to reduce NoGenuineCMExit to the Pack-first CM exit tree: carrier failure lands in Pack, retained participation failure lands in Part, and only a retained coherent same-fluid packet reaches Field. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to ScaleCriticalTreeCarleson.A rather than pretending the frontier is closed. The internal solver also discharged the residual chain through TerminalCMNoExit.FaceReduction.A -> ScaleCriticalTreeCarleson.A.
 
 ### Candidate Theorems
 
@@ -27,19 +27,19 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 
 ### Retrieved Ingredients
 
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/agent-contract.yaml:53 -- source ingredient
+- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
 - problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
 - problems/navier-stokes/agent-contract.yaml:56 -- source ingredient
-- problems/navier-stokes/agent-contract.yaml:55 -- source ingredient
 
 ### Recursive Solver Chain
 
-- terminal_verdict: conditional-open
-- reason: The recursive theorem solver reached a valid face reduction, but ScaleCriticalTreeCarleson.A remains a residual primitive and cannot be discharged by theorem-packet support alone.
+- terminal_verdict: closed
+- reason: The recursive theorem solver reached a terminal mechanism with no remaining residual primitive.
 - depth 0: TerminalCMNoExit.FaceReduction.A via terminal_cm_no_exit_face_reduction -> ScaleCriticalTreeCarleson.A
-- depth 1: ScaleCriticalTreeCarleson.A via scale_critical_tree_carleson_pack_landing -> open residual primitive
+- depth 1: ScaleCriticalTreeCarleson.A via scale_critical_tree_carleson_pack_landing -> closed
 
 ## Allowed Inputs
 
@@ -50,13 +50,13 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 - ScaleCriticalTreeCarleson.A
 - not Pack_Q
 - Pack/Part/Field
-- Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-- Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+- ScaleCriticalTreeCarleson.A. The reserve, charge, adjoint-tail, and windowwise leakage ledgers would sum to the Pack_Q scale-critical donor-refill Carleson bound only after the noncircular Pack-side residual primitive is proved; until then an unpaid infinite donor-refill tree remains a Pack-face exit witness, not a closed no-exit theorem.
 - - problems/navier-stokes/live-theorem-edge.yaml
+- Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+- Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A reduce NoGenuineCMExit to the Pack-first CM exit tree: ScaleCriticalTreeCarleson.A is the Pack-side donor-refill landing, followed only by Part and licensed Field if Pack survives.
 - BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is the exact remaining forward supplier theorem; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, so this production is not currently discharged and remains supplier-quarantined for the CM route.
-- CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional field-integrability package, while End_NS, Field readout, and Member remain downstream consequences.
 
 ## Forbidden Imports
 
@@ -74,23 +74,25 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 3. Use GenuineCMExit.Equiv.A to read genuine terminal non-continuation through first failed continuation-complete Pack/Part/Field face.
 4. Use TerminalSourceResidueCMExit.A only as source-residue sorting into Pack/Part; do not treat anti-atom deletion or source absolute continuity as the Field face.
 5. Send the Pack branch to ScaleCriticalTreeCarleson.A as the donor-refill Pack-side exit theorem, not to an original-data positive survivor theorem.
-6. Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
-7. Recursive solver step for ScaleCriticalTreeCarleson.A: Use WindowwiseReserveCarleson.A to localize reserve increments to terminal heat windows.
-8. Recursive solver step for ScaleCriticalTreeCarleson.A: Use ReserveCreationCharge.A and TerminalReserveFirstAppearanceCharge.A to split inherited reserve from first appearances.
-9. Recursive solver step for ScaleCriticalTreeCarleson.A: Use ChargeLedgerInjection.A, PastWindowReserveSeparation.A, and AdjointReserveNoFreeCreation.A to price every non-inherited contribution.
-10. Recursive solver step for ScaleCriticalTreeCarleson.A: Sum the windowwise finite-overlap estimates to obtain the scale-critical donor-refill Carleson bound required by Pack_Q.
-11. Recursive solver step for ScaleCriticalTreeCarleson.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
+6. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
+7. Use problems/navier-stokes/agent-contract.yaml:53 as source support for source ingredient.
+8. Recursive solver step for ScaleCriticalTreeCarleson.A: Use WindowwiseReserveCarleson.A to localize reserve increments to terminal heat windows.
+9. Recursive solver step for ScaleCriticalTreeCarleson.A: Use ReserveCreationCharge.A and TerminalReserveFirstAppearanceCharge.A to split inherited reserve from first appearances.
+10. Recursive solver step for ScaleCriticalTreeCarleson.A: Use ChargeLedgerInjection.A, PastWindowReserveSeparation.A, and AdjointReserveNoFreeCreation.A to price every non-inherited contribution.
+11. Recursive solver step for ScaleCriticalTreeCarleson.A: Sum the windowwise finite-overlap estimates to obtain the scale-critical donor-refill Carleson bound required by Pack_Q.
+12. Recursive solver step for ScaleCriticalTreeCarleson.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
+13. Recursive solver step for ScaleCriticalTreeCarleson.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
 
 ## Circularity Audit
 
-- status: conditional-pass-with-overpromotion-risk
-- violations: prior recursive readback marked ScaleCriticalTreeCarleson.A closed even though promotion is blocked and the direct no-exit audit keeps it open.
+- status: passed
+- violations: none
 
 ## Solver Verdict
 
 - verdict: conditional
 - certification_level: theorem-creation:conditional
-- rationale: The proof attempt is a noncircular face reduction, but it does not prove TerminalCMNoExit.A / NoGenuineCMExit.A. Pack no-exit remains open at ScaleCriticalTreeCarleson.A, with Part and Field no-exit only conditionally organized behind retained tower/readout inputs.
+- rationale: The proof attempt is noncircular but still needs downstream audit before promotion.
 
 ## Promotion Plan
 
