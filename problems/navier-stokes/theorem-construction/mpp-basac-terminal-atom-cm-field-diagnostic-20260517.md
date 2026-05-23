@@ -1,4 +1,4 @@
-# MPP B_ASAC Terminal Atom CM Field Diagnostic
+# MPP B_ASAC Terminal Atom CM Pack-First Exit Diagnostic
 
 Date: 2026-05-17
 
@@ -6,7 +6,7 @@ Date: 2026-05-17
 
 Bridge note after the four `B_ASAC` analytic closure attempts.
 
-Outcome: the surviving `B_ASAC` terminal source atom is consumable as a CM Field/Zeno diagnostic. This is a diagnostic continuation, not a forward positive-supplier discharge.
+Outcome: the surviving `B_ASAC` terminal source atom is consumable only as Pack-first CM exit support: a zero-radius source residue is `not Pack_Q` unless a positive-scale retained-carrier bridge licenses later Field readout. This is a diagnostic continuation, not a forward positive-supplier discharge.
 
 ## Input State
 
@@ -44,10 +44,10 @@ ZenoAtomFailureCMFaceDiagnostic.A.
 
 ```math
 \boxed{
-BASACTerminalAtomCMFieldDiagnostic.A:
+BASACTerminalAtomCMPackExitSupport.A:
 B_{ASAC}\text{ terminal source atom}
 \Longrightarrow
-\neg Pack_Q\vee\neg Part_{N,Q}\vee\forall r>0\,\neg Field_{N,r,Q}.
+\neg Pack_Q.
 }
 ```
 
@@ -55,10 +55,11 @@ Retained branch form:
 
 ```math
 \boxed{
-B_{ASAC}+Pack_Q+Part_{N,Q}
+B_{ASAC}
 +\mu_*^{src}(B_R\times\{0\})>0
 \Longrightarrow
-\forall r>0\,\neg Field_{N,r,Q}.
+\neg Pack_Q
+\quad\text{unless a positive-scale retained-carrier bridge is supplied.}
 }
 ```
 
@@ -87,21 +88,21 @@ Apply the installed selected Zeno sorting theorem:
 \neg_{sel} TemporalNonAtomicSource.A(Q)
 +NoEarlierSelectedSourceSlice.A
 \Longrightarrow
-\neg Pack_Q\vee\neg Part_{N,Q}\vee\forall r>0\,\neg Field_{N,r,Q}.
+\neg Pack_Q
+\quad\text{before any later Part or Field readout can be licensed.}
 ```
 
 This proves the CM diagnostic statement.
 
-For the retained branch form, assume `Pack_Q` and `Part_{N,Q}` survive. The atom remains on one retained same-fluid carrier and remains a source/readout term of the same differentiated pressure-viscosity law. The installed retained endpoint theorem applies:
+For the retained branch form, the atom must first be lifted to a positive-scale retained carrier before any Field readout can be used. Without that bridge, it is Pack failure support:
 
 ```math
-RetainedZenoAtomFieldExit.A:
-Pack_Q+Part_{N,Q}+ZeroHeatTimeSourceResidue.A
+ZeroHeatTimeSourceResidue.A
 \Longrightarrow
-\forall r>0\,\neg Field_{N,r,Q}.
+\neg Pack_Q.
 ```
 
-The terminal source atom with no fixed earlier selected source slice is exactly `ZeroHeatTimeSourceResidue.A`. Therefore every retained `B_ASAC` terminal atom breaks `Field`.
+The terminal source atom with no fixed earlier selected source slice is exactly `ZeroHeatTimeSourceResidue.A`. Therefore every retained `B_ASAC` terminal atom is Pack-first exit support until a positive-scale retained-carrier bridge is supplied.
 
 `\square`
 
@@ -115,8 +116,8 @@ The equality route now has two separate roles:
    transported no-incoming flux, or production into a rigid anti-atom subclass.
 
 2. CM diagnostic role:
-   closed locally; the surviving B_ASAC terminal atom lands in Pack/Part/Field sorting,
-   and on a retained Pack+Part branch it lands in Field.
+   closed locally only as Pack-first exit support; the surviving B_ASAC terminal atom
+   is not a Field diagnostic without a positive-scale retained-carrier bridge.
 ```
 
 Thus the terminal atom is no longer an untyped residue for the CM contrapositive ledger. It remains an obstruction for the forward positive supplier route.
