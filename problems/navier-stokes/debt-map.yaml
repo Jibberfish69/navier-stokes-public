@@ -5,7 +5,7 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-05-23T19:23:11Z'
+  extracted_at: '2026-05-23T19:24:00Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
