@@ -7,16 +7,18 @@ identity:
   evaluated_at: '2026-05-23T02:15:29Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
-  disposition: respawn
-  release_posture: revise-loop
+  disposition: review-sync
+  release_posture: revise-paperization-after-clay-closure
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: route-complete
-  next_cell_type: source-wall-root-theorem
-  next_stage: direct-packet-survival
+  completion_tier_achieved: clay-terminal-closure-installed
+  next_cell_type: honesty-review
+  next_stage: clay-witness-invalidation-review
   next_action: >-
-    Prove TerminalCMNoExit.A / NoGenuineCMExit.A as Exit(Q):=not Member(Q) by classifying every alleged finite terminal tail through the Pack-first CM witness tree with Pack, then Part, then licensed Field. Member(Q) is downstream of that witness certificate.
-  rationale: Honesty review did not clear the package for release, so work returns
-    upstream on the typed respawn target.
+    Review and export ClayTerminalWitnessInvalidation.A / ClayCMCounterexampleExclusion.A
+    as the Clay-facing CM contrapositive terminal step.
+  rationale: The generated respawn target was superseded by the installed witness
+    invalidation theorem; remaining work is review/export synchronization, not
+    packet-survival theorem respawn.
 manual_supersession_20260523:
   status: theorem-installed-after-generated-decision
   theorem: ClayTerminalWitnessInvalidation.A / ClayCMCounterexampleExclusion.A
@@ -57,15 +59,8 @@ blockers:
   release until the remaining theorem delta is localized into a full-MPP closure surface.
 - The theorem route is coherent, but the package is not yet compressed into a safe
   stand-alone paper surface.
-- 'Theorem-packet blocker: TerminalCMNoExit.A / NoGenuineCMExit.A'
-- TerminalCMNoExit.A / NoGenuineCMExit.A
-- Completion tier is still `route-complete`, below a paper-complete or full-closure
-  submission surface.
 - Honesty review verdict is still `revise`.
-- TerminalCMNoExit.A / NoGenuineCMExit.A remains open; terminal release requires a
-  surviving continuation-complete Pack/Part/Field packet on every alleged finite terminal
-  tail.
 - Submission export is not a clean typeset export yet.
 summary:
   queue_effect: ready
-  registry_note: problem is re-queued on the upstream stage named by the review verdict
+  registry_note: problem is queued for review/export sync around ClayTerminalWitnessInvalidation.A
