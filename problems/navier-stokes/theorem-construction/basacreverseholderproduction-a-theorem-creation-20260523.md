@@ -19,11 +19,11 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 - selected_mechanism: basac_reverse_holder_production_hard_obstruction
 - candidate_count: 1
 - solver_chain_verdict: closed
-- selection_reason: This theorem is the right next move because it changes the proof economy: The B_ASAC reverse-holder production burden asks for B_ASAC => B_ASAC^RH(p) for some p>1. The local source corpus proves the conditional Liouville theorem once this subclass is produced, and also shows the current B_ASAC clauses do not produce it: finite L^1_t terminal source mass allows shrinking terminal-layer concentration. This is an honest forward positive-supplier obstruction, not a CM Pack/Part/Field promotion. It is source-backed by 8 local ingredient(s). The internal solver reached a terminal hard-obstruction record with no promotable residual primitive.
+- selection_reason: This theorem is the right next move because it changes the proof economy: The B_ASAC reverse-holder production burden asks for B_ASAC => B_ASAC^RH(p) for some p>1. The local source corpus proves the conditional Liouville theorem once this subclass is produced, and also shows the current B_ASAC clauses do not produce it: finite L^1_t terminal source mass allows shrinking terminal-layer concentration. This is an honest forward positive-supplier obstruction, not a CM Pack/Part/Field promotion. The internal solver reached a terminal hard-obstruction record with no promotable residual primitive.
 
 ### Candidate Theorems
 
-- BASACReverseHolderProduction.A (basac_reverse_holder_production_hard_obstruction; score=154)
+- BASACReverseHolderProduction.A (basac_reverse_holder_production_hard_obstruction; score=124)
 
 ### Retrieved Ingredients
 
@@ -46,16 +46,16 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 - finite L^1_t terminal layer model
 - B_ASAC equality-class clauses
 - supplier quarantine
-- WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
-- ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
-- theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
-- PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
-- AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing controlled by weighted adjoint residual mass. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
-- - problems/navier-stokes/creative-theorem-search.yaml
 - BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is the exact remaining forward supplier theorem; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, so this production is not currently discharged and remains supplier-quarantined for the CM route.
 - CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional field-integrability package, while End_NS, Field readout, and Member remain downstream consequences.
 - TemporalNonAtomicSource.A. Every terminal source-residue measure produced by the accepted Zeno compactness extraction is non-atomic at the terminal time slice.
 - OFP.A. The collar source-pressure package CSP.A propagates the retained one-field package on the same-fluid interval, with CFI.A, endpoint readout, Field, and Member kept downstream.
+- CSP.A. On the retained same-fluid collar, LCI.A together with the installed post-LCI source ledger FCI.5f supplies the collar source-pressure package; OFP.A, CFI.A, endpoint readout, Field, and Member remain downstream consumers.
+- LCI.A. On a retained same-fluid interval with bounded Pack gauge and the ordered ACT.KX receiver package installed, ACT.X-Readout gives ACT.A, ACT.A gives RCF.A through the transported-center residual package, and ULCI.A/DTC.C yields lower-carrier interval integrability; FCI.5f, CSP.A, OFP.A, CFI.A, endpoint readout, Field, and Member remain downstream consumers.
+- ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail, and windowwise leakage ledgers sum to the Pack_Q scale-critical donor-refill Carleson bound; an unpaid infinite donor-refill tree is therefore a Pack-face exit witness.
+- WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
+- AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing controlled by weighted adjoint residual mass. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
+- PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 
 ## Forbidden Imports
 
@@ -71,8 +71,6 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 2. Use the scalar terminal layer model g_m(s)=m 1_{(-1/m,0]}(s) to record why finite L^1_t control does not imply any p>1 reverse-Holder bound.
 3. Mark BASACReverseHolderProduction.A as a new production theorem outside the installed B_ASAC equality-class clauses.
 4. Keep the obstruction supplier-quarantined in the CM route; it does not land in Field or Member.
-5. Use problems/navier-stokes/theorem-packet.yaml as source support for source ingredient.
-6. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
 ## Circularity Audit
 
