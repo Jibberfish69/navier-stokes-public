@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-23T02:01:56Z'
+  generated_at: '2026-05-23T02:04:33Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -117,6 +117,21 @@ cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
   local_consequences:
+  - label: Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+  - label: Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+  - label: Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/live-theorem-edge.yaml
   - label: BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p)
       subclass is the exact remaining forward supplier theorem; the installed B_ASAC
       equality-class clauses allow finite L^1_t terminal-layer concentration, so this
@@ -154,31 +169,6 @@ cross_lane_broadcast:
     status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
-  - label: LCI.A. On a retained same-fluid interval with bounded Pack gauge and the
-      ordered ACT.KX receiver package installed, ACT.X-Readout gives ACT.A, ACT.A
-      gives RCF.A through the transported-center residual package, and ULCI.A/DTC.C
-      yields lower-carrier interval integrability; FCI.5f, CSP.A, OFP.A, CFI.A, endpoint
-      readout, Field, and Member remain downstream consumers.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/lci-a-theorem-creation-20260522.md
-  - label: ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail,
-      and windowwise leakage ledgers sum to the Pack_Q scale-critical donor-refill
-      Carleson bound; an unpaid infinite donor-refill tree is therefore a Pack-face
-      exit witness.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/scalecriticaltreecarleson-a-theorem-creation-20260522.md
-  - label: WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise
-      Carleson budget that cannot jump at the terminal window. This supplies the exact
-      noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target
-      decomposed from source-wall-root-after-reconcile.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/windowwisereservecarleson-a-theorem-creation-20260522.md
   broadcast_paths:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
@@ -231,5 +221,5 @@ summary:
   audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: debt-derive
+  current_next_cell_type: dependency-discharge
   current_next_cell_is_theorem_work: true
