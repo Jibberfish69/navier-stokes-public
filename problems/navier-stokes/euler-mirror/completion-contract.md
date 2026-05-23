@@ -141,5 +141,7 @@ mapped, scaffolded, or partially mirrored.
 It is complete only when conditions `C1` through `C6` all hold.
 
 Contract completion under `C1-C6` is still not a proof that Euler global
-smoothness is solved. After terminal closure, any stronger theorem is outside
-this branch rather than a remaining Euler-mirror burden.
+smoothness is solved. After terminal comparison closure, stronger Euler theorem
+work stays inside route control through the May 23 continuum closure surfaces,
+which separate viscosity-free smoothness overlap, viscosity divergence,
+nonsmooth Euler boundary, and the local-to-global bridge rule.
