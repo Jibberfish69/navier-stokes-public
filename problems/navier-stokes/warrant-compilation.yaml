@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: warrant-compilation-navier-stokes
-  generated_at: '2026-05-23T01:24:16Z'
+  generated_at: '2026-05-23T01:30:09Z'
   generator: tools/ns_pipeline_hardener.rb
 primary_track:
   route_id: source-grounded-four-bridge
@@ -273,7 +273,7 @@ active_frontier:
         support; the open burden is no-exit across Pack strain-integrability loss,
         Part closedness-input loss, and licensed Field coherence loss.
       active_container: source-wall-root-after-reconcile
-      respawn_cell: terminal-cm-no-exit
+      respawn_cell: source-wall-root-theorem
       respawn_stage: direct-packet-survival
       allowed_input_boundary: The proof may use installed genuine-exit capture, canonical
         terminal packet capture, terminal source-residue CM-exit sorting, and finite
@@ -569,7 +569,7 @@ active_frontier:
       open faces are Pack strain-integrability no-exit, Part closedness-input no-exit,
       and licensed Field coherence no-exit.
     active_container: terminalcmnoexit-a-nogenuinecmexit-a
-    respawn_cell: terminal-cm-no-exit
+    respawn_cell: source-wall-root-theorem
     respawn_stage: direct-packet-survival
     allowed_input_boundary: The proof may use installed genuine-exit capture, canonical
       terminal packet capture, terminal source-residue CM-exit sorting, and finite
@@ -581,7 +581,7 @@ active_frontier:
       sorting as Clay-facing CM closure.
   release_or_respawn_consequence: &6
     disposition: respawn
-    next_cell_type: terminal-cm-no-exit
+    next_cell_type: source-wall-root-theorem
     next_stage: direct-packet-survival
     next_action: Prove TerminalCMNoExit.A / NoGenuineCMExit.A by ruling out Pack strain-integrability
       loss, Part closedness-input loss, and licensed Field coherence loss on every
