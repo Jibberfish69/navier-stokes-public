@@ -478,7 +478,8 @@ They are recorded here so absence from a headline is not read as omission.
 
 So no extra live-edge major bucket is missing.  These child surfaces are covered
 only through their parent bucket; promoting one of them independently still
-requires a named bridge into `Pack`, `Part`, `Field`, or `Member`.
+requires a named bridge into `Pack`, `Part`, or `Field`. `Member` is downstream
+after the CM witness certificate.
 
 ## 11. What Remains Open
 
