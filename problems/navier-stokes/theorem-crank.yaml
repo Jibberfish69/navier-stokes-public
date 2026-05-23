@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-23T21:08:33Z'
+  generated_at: '2026-05-23T22:52:54Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -41,8 +41,8 @@ shared_alignment:
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
-    route_label: TerminalCMNoExit.A / NoGenuineCMExit.A
-    current_route_name: TerminalCMNoExit.A / NoGenuineCMExit.A
+    route_label: ClayTerminalWitnessInvalidation.A / ClayCMCounterexampleExclusion.A
+    current_route_name: ClayTerminalWitnessInvalidation.A / ClayCMCounterexampleExclusion.A
     exact_cut_summary: 'The CM primitive remains `Exit(Q):=not Member(Q)`. The theorem-grade
       installed CM direction is only `forall N exists r_N: CM_{N,r_N,Q}=>Member(Q;O_NS^work)`,
       with `CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}` as the canonical route-relative
@@ -192,7 +192,7 @@ auditor:
   branch_terminal_status: terminal-audit-open
   open_issue_count: 1
   autofixable_issue_count: 0
-  fix_plan_count: 0
+  fix_plan_count: 1
   branch_count: 1
   live_import_count: 0
   route_equivalence_count: 1
