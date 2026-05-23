@@ -201,14 +201,18 @@ authority_surfaces_requiring_readback:
   - execution-ledger.yaml
   - completion-status.yaml
   - branch-manifest.yaml
+  - euler-ns-continuum-closure-ledger.yaml
   - theorem-construction/euler-ns-smoothness-continuum-program-20260523.md
+  - theorem-construction/euler-ns-continuum-closure-theorem-20260523.md
   - theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
 authority_surfaces_requiring_case_matrix_readback:
   - README.md
   - campaign-map.md
   - route-lock.yaml
   - execution-ledger.yaml
+  - euler-ns-continuum-closure-ledger.yaml
   - theorem-construction/euler-ns-smoothness-continuum-program-20260523.md
+  - theorem-construction/euler-ns-continuum-closure-theorem-20260523.md
 parent_comparison_anchors:
   - problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
   - problems/navier-stokes/theorem-construction/mpp-retained-window-native-forcing-theorem-program.md
@@ -408,6 +412,8 @@ surface_rules:
     paths:
       - theorem-construction/euler-ns-viscosity-scenario-separation-map-20260521.md
       - theorem-construction/euler-ns-smoothness-continuum-program-20260523.md
+      - theorem-construction/euler-ns-continuum-closure-theorem-20260523.md
+      - euler-ns-continuum-closure-ledger.yaml
       - theorem-construction/export-whole-space-euler-walkdown-program.md
       - theorem-construction/selector-geometry-euler-walkdown-program.md
       - theorem-construction/exact-potential-euler-entry-obstruction-note.md
