@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-05-23T01:13:12Z'
+  generated_at: '2026-05-23T01:17:51Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -379,6 +379,21 @@ candidate_archive:
     debt-theorem-upgrade-1-source-wall-root-after-reconcile
   status: unresolved
   promoted_into_branch_pool: false
+- origin_obligation_id: ACT.A
+  origin_kind: live-theorem-branch
+  label: ACT.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
+  status: unresolved
+  promoted_into_branch_pool: false
+- origin_obligation_id: RCF.A
+  origin_kind: live-theorem-branch
+  label: RCF.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
+  status: unresolved
+  promoted_into_branch_pool: false
+- origin_obligation_id: ULCI.A
+  origin_kind: live-theorem-branch
+  label: ULCI.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
+  status: unresolved
+  promoted_into_branch_pool: false
 - origin_obligation_id: ASACDefectMeasure.A
   origin_kind: live-theorem-branch
   label: ASACDefectMeasure.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
@@ -393,21 +408,6 @@ candidate_archive:
 - origin_obligation_id: SSC-EP.A
   origin_kind: live-theorem-branch
   label: SSC-EP.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: ACT.A
-  origin_kind: live-theorem-branch
-  label: ACT.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: RCF.A
-  origin_kind: live-theorem-branch
-  label: RCF.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: ULCI.A
-  origin_kind: live-theorem-branch
-  label: ULCI.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
   status: unresolved
   promoted_into_branch_pool: false
 - origin_obligation_id: AVG.RCV.A
