@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-05-23T01:48:11Z'
+  generated_at: '2026-05-23T19:56:26Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_proof_assembly_id: proof-assembly-navier-stokes
 intervention:
-  reason: multi-path-sandbox
+  reason: frontier-expansion
   review_posture: revise-loop
   boundary_rule: Everything beyond the grounded core is machine extension until it
     survives falsification and promotion.
@@ -19,58 +19,42 @@ intervention:
   coverage_rule: Keep all candidate branch ideas on record even when only the top
     bounded subset is actively pursued.
 sandbox:
-  mode: multi-path-sandbox
-  trigger: forked-frontier
+  mode: single-branch-sandbox
+  trigger: single-frontier
   survivor_writeback: Keep only branches that survive discharge, falsification, or
     refinement; demote the rest back into explicit debt.
-  independent_branch_ids: []
-  co_dependent_branch_ids:
+  independent_branch_ids:
   - creative-branch-navier-stokes-1
-  - creative-branch-navier-stokes-2
-  - creative-branch-navier-stokes-3
-  - creative-branch-navier-stokes-4
+  co_dependent_branch_ids: []
   branch_execution_order:
   - creative-branch-navier-stokes-1
-  - creative-branch-navier-stokes-2
-  - creative-branch-navier-stokes-3
-  - creative-branch-navier-stokes-4
 branch_pool:
 - &1
   branch_id: creative-branch-navier-stokes-1
-  origin_obligation_id: BASACReverseHolderProduction.A
-  origin_kind: lemma
+  origin_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
+  origin_kind: live-theorem-frontier
   parent_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
   parent_label: TerminalCMNoExit.A / NoGenuineCMExit.A
   root_target_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
   root_target_label: TerminalCMNoExit.A / NoGenuineCMExit.A
-  source_status: structural-only
-  branch_type: local-lemma
-  pursuit_mode: co-dependent
-  candidate_claim: 'Refine the stalled dependency-discharge target BASACReverseHolderProduction.A:
-    BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
-    is the exact remaining forward supplier theorem; the installed B_ASAC equality-class
-    clauses allow finite L^1_t terminal-layer concentration, so this production is
-    not currently discharged and remains supplier-quarantined for the CM route.'
-  creative_move: Generate 2-3 bounded variants of the lemma and keep only the weakest
-    one that advances the proof chain.
+  source_status: frontier-open
+  branch_type: route-mutation
+  pursuit_mode: independent
+  candidate_claim: 'Refine the stalled dependency-discharge target terminalcmnoexit-a-nogenuinecmexit-a:
+    TerminalCMNoExit.A / NoGenuineCMExit.A'
+  creative_move: Open a bounded side branch that changes representation but not the
+    theorem target, then compare whether it reduces proof obligations.
   invention_packet:
-    candidate_statement: 'Refine the stalled dependency-discharge target BASACReverseHolderProduction.A:
-      BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
-      is the exact remaining forward supplier theorem; the installed B_ASAC equality-class
-      clauses allow finite L^1_t terminal-layer concentration, so this production
-      is not currently discharged and remains supplier-quarantined for the CM route.'
-    mediating_object: formal_local_object
+    candidate_statement: 'Refine the stalled dependency-discharge target terminalcmnoexit-a-nogenuinecmexit-a:
+      TerminalCMNoExit.A / NoGenuineCMExit.A'
+    mediating_object: route_mutation_carrier
     proof_sketch:
-    - State the weakest exact claim that would advance `BASACReverseHolderProduction.A`
+    - State the weakest exact claim that would advance `terminalcmnoexit-a-nogenuinecmexit-a`
       without expanding the theorem target.
     - Define or isolate the mediating object on the current carrier/window/sector
       only.
     - Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `BASACReverseHolderProduction.A.
-      Producing a reverse-Holder B_ASAC^RH(p) subclass is the exact remaining forward
-      supplier theorem; the installed B_ASAC equality-class clauses allow finite L^1_t
-      terminal-layer concentration, so this production is not currently discharged
-      and remains supplier-quarantined for the CM route.`.
+      ladder rather than a modified-equation detour for `TerminalCMNoExit.A / NoGenuineCMExit.A`.
     - Show how that object converts one already-grounded local statement into the
       next missing step.
     - Reject the move if it introduces new global scope, hidden imports, or a stronger
@@ -81,421 +65,33 @@ branch_pool:
       new theory chapter?
     - Does it reduce at least one open obligation or turn a frontier statement into
       a local discharge target?
-    scope_guard: Formalize only what the current theorem target needs next.
+    - Reject if the branch only rephrases the existing gap without a new mediating
+      object or bounded inequality.
+    scope_guard: Representation may change, theorem target may not.
   grounded_basis:
-  - BASACReverseHolderProduction.A
-  risk_level: medium-low
+  - terminalcmnoexit-a-nogenuinecmexit-a
+  risk_level: high
   notes:
+  - This branch starts at the first unresolved frontier.
   - This branch is machine-derived beyond the current frozen core.
-  - Use the weakest sufficient move; do not inflate the theorem target.
   recommended_next_cell_type: theorem-creation
   recommended_next_action: Creative theorem search kept the stalled dependency target
-    `BASACReverseHolderProduction.A`. Run theorem-creation on that exact obstruction
+    `terminalcmnoexit-a-nogenuinecmexit-a`. Run theorem-creation on that exact obstruction
     instead of mining adjacent source-wall atoms.
   merge_policy: quarantined-until-promoted
-- branch_id: creative-branch-navier-stokes-2
-  origin_obligation_id: TerminalCMNoExit.A
-  origin_kind: live-theorem-branch
-  parent_obligation_id: debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  parent_label: TerminalCMNoExit.A / NoGenuineCMExit.A
-  root_target_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
-  root_target_label: TerminalCMNoExit.A / NoGenuineCMExit.A
-  source_status: unresolved
-  branch_type: local-lemma
-  pursuit_mode: co-dependent
-  candidate_claim: Create the sharp CM branch theorem TerminalCMNoExit.A from the
-    live source-wall authority, keeping supplier/readout material quarantined until
-    it lands in Pack, Part, or Field.
-  creative_move: Generate 2-3 bounded variants of the lemma and keep only the weakest
-    one that advances the proof chain.
-  invention_packet:
-    candidate_statement: Create the sharp CM branch theorem TerminalCMNoExit.A from
-      the live source-wall authority, keeping supplier/readout material quarantined
-      until it lands in Pack, Part, or Field.
-    mediating_object: formal_local_object
-    proof_sketch:
-    - State the weakest exact claim that would advance `TerminalCMNoExit.A` without
-      expanding the theorem target.
-    - Define or isolate the mediating object on the current carrier/window/sector
-      only.
-    - Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `TerminalCMNoExit.A sharp
-      branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile`.
-    - Show how that object converts one already-grounded local statement into the
-      next missing step.
-    - Reject the move if it introduces new global scope, hidden imports, or a stronger
-      claim than the frozen frontier needs.
-    falsification_checks:
-    - Does the move preserve the frozen theorem target rather than redefining it?
-    - Can the candidate be stated on already-grounded objects without importing a
-      new theory chapter?
-    - Does it reduce at least one open obligation or turn a frontier statement into
-      a local discharge target?
-    scope_guard: Formalize only what the current theorem target needs next.
-  grounded_basis:
-  - TerminalCMNoExit.A
-  risk_level: medium
-  notes:
-  - This branch is machine-derived beyond the current frozen core.
-  - Use the weakest sufficient move; do not inflate the theorem target.
-  recommended_next_cell_type: theorem-creation
-  recommended_next_action: Creative theorem search selected the sharp source-wall
-    branch `TerminalCMNoExit.A`. Run theorem-creation on that CM branch target instead
-    of replaying the umbrella source-wall route.
-  merge_policy: quarantined-until-promoted
-- branch_id: creative-branch-navier-stokes-3
-  origin_obligation_id: NoGenuineCMExit.A
-  origin_kind: live-theorem-branch
-  parent_obligation_id: debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  parent_label: TerminalCMNoExit.A / NoGenuineCMExit.A
-  root_target_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
-  root_target_label: TerminalCMNoExit.A / NoGenuineCMExit.A
-  source_status: unresolved
-  branch_type: local-lemma
-  pursuit_mode: co-dependent
-  candidate_claim: Create the sharp CM branch theorem NoGenuineCMExit.A from the live
-    source-wall authority, keeping supplier/readout material quarantined until it
-    lands in Pack, Part, or Field.
-  creative_move: Generate 2-3 bounded variants of the lemma and keep only the weakest
-    one that advances the proof chain.
-  invention_packet:
-    candidate_statement: Create the sharp CM branch theorem NoGenuineCMExit.A from
-      the live source-wall authority, keeping supplier/readout material quarantined
-      until it lands in Pack, Part, or Field.
-    mediating_object: formal_local_object
-    proof_sketch:
-    - State the weakest exact claim that would advance `NoGenuineCMExit.A` without
-      expanding the theorem target.
-    - Define or isolate the mediating object on the current carrier/window/sector
-      only.
-    - Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `NoGenuineCMExit.A sharp branch
-      target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile`.
-    - Show how that object converts one already-grounded local statement into the
-      next missing step.
-    - Reject the move if it introduces new global scope, hidden imports, or a stronger
-      claim than the frozen frontier needs.
-    falsification_checks:
-    - Does the move preserve the frozen theorem target rather than redefining it?
-    - Can the candidate be stated on already-grounded objects without importing a
-      new theory chapter?
-    - Does it reduce at least one open obligation or turn a frontier statement into
-      a local discharge target?
-    scope_guard: Formalize only what the current theorem target needs next.
-  grounded_basis:
-  - NoGenuineCMExit.A
-  risk_level: medium
-  notes:
-  - This branch is machine-derived beyond the current frozen core.
-  - Use the weakest sufficient move; do not inflate the theorem target.
-  recommended_next_cell_type: theorem-creation
-  recommended_next_action: Creative theorem search selected the sharp source-wall
-    branch `NoGenuineCMExit.A`. Run theorem-creation on that CM branch target instead
-    of replaying the umbrella source-wall route.
-  merge_policy: quarantined-until-promoted
-- branch_id: creative-branch-navier-stokes-4
-  origin_obligation_id: SOURCE.NO-PULSE.A
-  origin_kind: live-theorem-branch
-  parent_obligation_id: debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  parent_label: TerminalCMNoExit.A / NoGenuineCMExit.A
-  root_target_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
-  root_target_label: TerminalCMNoExit.A / NoGenuineCMExit.A
-  source_status: unresolved
-  branch_type: local-lemma
-  pursuit_mode: co-dependent
-  candidate_claim: Create the sharp CM branch theorem SOURCE.NO-PULSE.A from the live
-    source-wall authority, keeping supplier/readout material quarantined until it
-    lands in Pack, Part, or Field.
-  creative_move: Generate 2-3 bounded variants of the lemma and keep only the weakest
-    one that advances the proof chain.
-  invention_packet:
-    candidate_statement: Create the sharp CM branch theorem SOURCE.NO-PULSE.A from
-      the live source-wall authority, keeping supplier/readout material quarantined
-      until it lands in Pack, Part, or Field.
-    mediating_object: formal_local_object
-    proof_sketch:
-    - State the weakest exact claim that would advance `SOURCE.NO-PULSE.A` without
-      expanding the theorem target.
-    - Define or isolate the mediating object on the current carrier/window/sector
-      only.
-    - Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `SOURCE.NO-PULSE.A sharp branch
-      target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile`.
-    - Show how that object converts one already-grounded local statement into the
-      next missing step.
-    - Reject the move if it introduces new global scope, hidden imports, or a stronger
-      claim than the frozen frontier needs.
-    falsification_checks:
-    - Does the move preserve the frozen theorem target rather than redefining it?
-    - Can the candidate be stated on already-grounded objects without importing a
-      new theory chapter?
-    - Does it reduce at least one open obligation or turn a frontier statement into
-      a local discharge target?
-    scope_guard: Formalize only what the current theorem target needs next.
-  grounded_basis:
-  - SOURCE.NO-PULSE.A
-  risk_level: medium
-  notes:
-  - This branch is machine-derived beyond the current frozen core.
-  - Use the weakest sufficient move; do not inflate the theorem target.
-  recommended_next_cell_type: theorem-creation
-  recommended_next_action: Creative theorem search selected the sharp source-wall
-    branch `SOURCE.NO-PULSE.A`. Run theorem-creation on that CM branch target instead
-    of replaying the umbrella source-wall route.
-  merge_policy: quarantined-until-promoted
 candidate_archive:
-- origin_obligation_id: BASACReverseHolderProduction.A
-  origin_kind: lemma
-  label: BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
-    is the exact remaining forward supplier theorem; the installed B_ASAC equality-class
-    clauses allow finite L^1_t terminal-layer concentration, so this production is
-    not currently discharged and remains supplier-quarantined for the CM route.
-  status: structural-only
-  promoted_into_branch_pool: true
-- origin_obligation_id: TerminalCMNoExit.A
-  origin_kind: live-theorem-branch
-  label: TerminalCMNoExit.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: true
-- origin_obligation_id: NoGenuineCMExit.A
-  origin_kind: live-theorem-branch
-  label: NoGenuineCMExit.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: true
-- origin_obligation_id: SOURCE.NO-PULSE.A
-  origin_kind: live-theorem-branch
-  label: SOURCE.NO-PULSE.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: true
-- origin_obligation_id: RawZenoFailurePartition.A
-  origin_kind: live-theorem-branch
-  label: RawZenoFailurePartition.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: ZenoAtomFailureToFaceWitness.A
-  origin_kind: live-theorem-branch
-  label: ZenoAtomFailureToFaceWitness.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: RetainedZenoAtomFieldExit.A
-  origin_kind: live-theorem-branch
-  label: RetainedZenoAtomFieldExit.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: NonEulerCMSurfaceFaceSweep.A
-  origin_kind: live-theorem-branch
-  label: NonEulerCMSurfaceFaceSweep.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: SourcePulseCMExit.A
-  origin_kind: live-theorem-branch
-  label: SourcePulseCMExit.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: AVG.END.A
-  origin_kind: live-theorem-branch
-  label: AVG.END.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: SourcePulseExclusion.A
-  origin_kind: live-theorem-branch
-  label: SourcePulseExclusion.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: CJ.A
-  origin_kind: live-theorem-branch
-  label: CJ.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: ParaproductNativeSourceCapture.A
-  origin_kind: live-theorem-branch
-  label: ParaproductNativeSourceCapture.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: PublicCriticalExitToCMFace_X.A
-  origin_kind: live-theorem-branch
-  label: PublicCriticalExitToCMFace_X.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: CriticalL3ConcentrationToNativeSourceResidue.A
-  origin_kind: live-theorem-branch
-  label: CriticalL3ConcentrationToNativeSourceResidue.A sharp branch target decomposed
-    from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: SameLedgerHeatAncestorLocalization.A
-  origin_kind: live-theorem-branch
-  label: SameLedgerHeatAncestorLocalization.A sharp branch target decomposed from
-    debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: DuhamelInverseNativeSourceLocalization.A
-  origin_kind: live-theorem-branch
-  label: DuhamelInverseNativeSourceLocalization.A sharp branch target decomposed from
-    debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: L3DuhamelResponseWorkLocalization.A
-  origin_kind: live-theorem-branch
-  label: L3DuhamelResponseWorkLocalization.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: TerminalParaproductSignLocalization.A
-  origin_kind: live-theorem-branch
-  label: TerminalParaproductSignLocalization.A sharp branch target decomposed from
-    debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: TerminalLerayParaproductCoefficientIdentification.A
-  origin_kind: live-theorem-branch
-  label: TerminalLerayParaproductCoefficientIdentification.A sharp branch target decomposed
-    from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: TerminalAdjointResponseNativeEdgeAnchoring_L3.A
-  origin_kind: live-theorem-branch
-  label: TerminalAdjointResponseNativeEdgeAnchoring_L3.A sharp branch target decomposed
-    from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: L3AdjointNativeOrthogonalNoCarry.A
-  origin_kind: live-theorem-branch
-  label: L3AdjointNativeOrthogonalNoCarry.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: TerminalLerayCommutatorLegal_L3.A
-  origin_kind: live-theorem-branch
-  label: TerminalLerayCommutatorLegal_L3.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: TerminalLeraySaturation_L3.A
-  origin_kind: live-theorem-branch
-  label: TerminalLeraySaturation_L3.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: L3TerminalSignedPartnerNoFreeDefect.A
-  origin_kind: live-theorem-branch
-  label: L3TerminalSignedPartnerNoFreeDefect.A sharp branch target decomposed from
-    debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: ACT.A
-  origin_kind: live-theorem-branch
-  label: ACT.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: RCF.A
-  origin_kind: live-theorem-branch
-  label: RCF.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: ULCI.A
-  origin_kind: live-theorem-branch
-  label: ULCI.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: ASACDefectMeasure.A
-  origin_kind: live-theorem-branch
-  label: ASACDefectMeasure.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: TerminalNoFreeSinkEqualityClassProduction.A
-  origin_kind: live-theorem-branch
-  label: TerminalNoFreeSinkEqualityClassProduction.A sharp branch target decomposed
-    from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: SSC-EP.A
-  origin_kind: live-theorem-branch
-  label: SSC-EP.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: AVG.RCV.A
-  origin_kind: live-theorem-branch
-  label: AVG.RCV.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: DTC.A
-  origin_kind: live-theorem-branch
-  label: DTC.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: UniformTemporalSourceIntegrability_p_BASAC.A
-  origin_kind: live-theorem-branch
-  label: UniformTemporalSourceIntegrability_p_BASAC.A sharp branch target decomposed
-    from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: ZenoResidueLiouville_B.A
-  origin_kind: live-theorem-branch
-  label: ZenoResidueLiouville_B.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: NKF.A
-  origin_kind: live-theorem-branch
-  label: NKF.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: ParentSquareEmbed.A
-  origin_kind: live-theorem-branch
-  label: ParentSquareEmbed.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: WeightedAdjRes.A
-  origin_kind: live-theorem-branch
-  label: WeightedAdjRes.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: WindowPackingLeakage.A
-  origin_kind: live-theorem-branch
-  label: WindowPackingLeakage.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: AdjointTailSmallness.A
-  origin_kind: live-theorem-branch
-  label: AdjointTailSmallness.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: FirstPulseKill.A
-  origin_kind: live-theorem-branch
-  label: FirstPulseKill.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: AllNonEulerNSSurfaceFaceSweep.A
-  origin_kind: live-theorem-branch
-  label: AllNonEulerNSSurfaceFaceSweep.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: DonorHeightCreation.A
-  origin_kind: live-theorem-branch
-  label: DonorHeightCreation.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: ShrinkingWindowEvacuation.A
-  origin_kind: live-theorem-branch
-  label: ShrinkingWindowEvacuation.A sharp branch target decomposed from debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
-- origin_obligation_id: debt-theorem-upgrade-1-source-wall-root-after-reconcile
-  origin_kind: blocked-frontier
-  label: source-wall-root-after-reconcile
-  status: unresolved
-  promoted_into_branch_pool: false
 - origin_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
   origin_kind: live-theorem-frontier
   label: TerminalCMNoExit.A / NoGenuineCMExit.A
   status: frontier-open
-  promoted_into_branch_pool: false
+  promoted_into_branch_pool: true
 selected_branch: *1
 summary:
-  candidate_count: 46
-  candidate_archive_count: 46
-  sandbox_mode: multi-path-sandbox
+  candidate_count: 1
+  candidate_archive_count: 1
+  sandbox_mode: single-branch-sandbox
   active_branch_ids:
   - creative-branch-navier-stokes-1
-  - creative-branch-navier-stokes-2
-  - creative-branch-navier-stokes-3
-  - creative-branch-navier-stokes-4
   selected_branch_id: creative-branch-navier-stokes-1
   selected_next_cell_type: theorem-creation
   intervention_needed: true
