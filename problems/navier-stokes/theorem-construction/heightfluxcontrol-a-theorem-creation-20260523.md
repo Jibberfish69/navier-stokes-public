@@ -2,14 +2,14 @@
 
 ## Target
 
-- target obligation: HeatDwellSampling.A
-- target label: heat-dwell sampling of a first positive retained height-flux pulse
+- target obligation: HeightFluxControl.A
+- target label: Create the recursive theorem subprimitive HeightFluxControl.A exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
 - route role: Turn the remaining positive source-reserve birth charge into the first proof-facing sampling theorem: a first large retained height-flux event must create Pack gain, Part/dwell failure, legal Field source charge, or a Zeno terminal residue atom.
 - theorem family: generic-bridge-theorem
 
 ## Created Theorem
 
-HeightFluxControl.A. Turn the remaining positive source-reserve birth charge into the first proof-facing sampling theorem: a first large retained height-flux event must create Pack gain, Part/dwell failure, legal Field source charge, or a Zeno terminal residue atom. This supplies the exact noncircular bridge needed for heat-dwell sampling of a first positive retained height-flux pulse.
+HeightFluxControl.A. Turn the remaining positive source-reserve birth charge into the first proof-facing sampling theorem: a first large retained height-flux event must create Pack gain, Part/dwell failure, legal Field source charge, or a Zeno terminal residue atom. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive HeightFluxControl.A exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
 
 ## Inventive Search
 
@@ -23,16 +23,16 @@ HeightFluxControl.A. Turn the remaining positive source-reserve birth charge int
 
 ### Candidate Theorems
 
-- HeightFluxControl.A (height_flux_control_to_heat_dwell_sampling; score=160)
+- HeightFluxControl.A (height_flux_control_to_heat_dwell_sampling; score=140)
 
 ### Retrieved Ingredients
 
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/agent-contract.yaml:58 -- source ingredient
+- problems/navier-stokes/agent-contract.yaml:55 -- source ingredient
 
 ### Recursive Solver Chain
 
@@ -48,20 +48,19 @@ HeightFluxControl.A. Turn the remaining positive source-reserve birth charge int
 - same terminal ledger
 - retained height-flux pulse
 - source-reserve birth charge
+- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is not Pack_Q, or it forces incoming flux, CM envelope blowout, paid exit, and hence Pack/Part/Field witness-face exit. This is a CM face-reduction theorem, not a forward no-free-sink supplier discharge.
 - ScaleCriticalTreeCarleson.A. The reserve, charge, adjoint-tail, and windowwise leakage ledgers would sum to the Pack_Q scale-critical donor-refill Carleson bound only after the noncircular Pack-side residual primitive is proved; until then an unpaid infinite donor-refill tree remains a Pack-face exit witness, not a closed no-exit theorem.
-- PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
-- Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+- theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
+- ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+- Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-- TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A reduce NoGenuineCMExit to the Pack-first CM exit tree: ScaleCriticalTreeCarleson.A is the Pack-side donor-refill landing, followed only by Part and licensed Field if Pack survives.
 - BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is the exact remaining forward supplier theorem; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, so this production is not currently discharged and remains supplier-quarantined for the CM route.
-- CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional field-integrability package, while End_NS, Field readout, and Member remain downstream consequences.
 
 ## Forbidden Imports
 
 - HeightFluxControl.A
-- heat-dwell sampling of a first positive retained height-flux pulse
-- HeatDwellSampling.A
+- Create the recursive theorem subprimitive HeightFluxControl.A exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
 - full-MPP closure
 - submission readiness
 - global smoothness
