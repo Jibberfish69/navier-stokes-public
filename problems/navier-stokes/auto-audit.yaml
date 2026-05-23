@@ -82,8 +82,8 @@ surface_snapshot:
   theorem_surface:
     surface_id: theorem-surface-navier-stokes-444420592566
     route_signature: 444420592566885136736fd3be467470ddf9dfc9
-    theorem_target: TerminalCMNoExit.A / NoGenuineCMExit.A
-    theorem_statement: TerminalCMNoExit.A / NoGenuineCMExit.A
+    theorem_target: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
+    theorem_statement: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -108,19 +108,19 @@ surface_snapshot:
       not the internal branch itself
     route_slots:
     - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-pack-landing
-      label: Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+      label: Pack landing bridge for ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
       kind: lemma
       status: localized-support
       source_anchor: problems/navier-stokes/live-theorem-edge.yaml
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
     - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-part-landing
-      label: Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+      label: Part landing bridge for ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
       kind: lemma
       status: localized-support
       source_anchor: problems/navier-stokes/live-theorem-edge.yaml
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
     - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-field-landing
-      label: Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+      label: Field landing bridge for ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
       kind: lemma
       status: localized-support
       source_anchor: problems/navier-stokes/live-theorem-edge.yaml
