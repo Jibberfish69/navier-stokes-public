@@ -90,21 +90,21 @@ manual_role_corrections:
 generated_authority_inheritance:
   theorem: GeneratedAuthorityInheritance.A
   status: installed
-  rule: Generated authority YAML and submission copies inherit the Pack/Part/Field/Member
-    gate from the theorem notes they cite; they are carriers, not independent theorem
-    faces.
+  rule: Generated authority YAML and submission copies inherit the Pack/Part/Field
+    witness-face gate from the theorem notes they cite; Member is reached only after
+    the triadic CM witness. These surfaces are carriers, not independent theorem faces.
 source_frontier_grounded_obligations_boundary:
   theorem: SourceFrontierGroundedObligationsBoundary.A
   status: installed
   rule: Source-frontier obligations such as mixed-jet, Hopf/shuffle, Lagrangian, Lemma
     4B, and energy-insufficiency claims remain support/export obligations until a
-    named theorem lands them in Pack, Part, Field, or Member.
+    named theorem lands them in Pack, Part, or Field.
 manuscript_draft_export_boundary:
   theorem: ManuscriptDraftExportBoundary.A
   status: installed
   rule: Manuscript, draft, submission, R3/whole-space export, strict-shadow, and generated
     TeX surfaces are consumers or presentation copies unless a named bridge promotes
-    them into Pack, Part, Field, or Member.
+    them into Pack, Part, or Field.
 recent_update:
   date: "2026-05-17"
   scope: narrow non-Euler certificate refresh from the May 17 non-Euler supplier attempts
