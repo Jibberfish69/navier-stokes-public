@@ -13,13 +13,13 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 
 ## Inventive Search
 
-- mode: inventive-recursive-theorem-solver
+- mode: inventive-right-theorem-selection
 - external_resources_used: false
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
 - selected_mechanism: terminal_cm_no_exit_face_reduction
 - candidate_count: 1
-- solver_chain_verdict: closed
-- selection_reason: This theorem is the right next move because it changes the proof economy: Use CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A to reduce NoGenuineCMExit to the Pack-first CM exit tree: carrier failure lands in Pack, retained participation failure lands in Part, and only a retained coherent same-fluid packet reaches Field. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to ScaleCriticalTreeCarleson.A rather than pretending the frontier is closed. The internal solver also discharged the residual chain through TerminalCMNoExit.FaceReduction.A -> ScaleCriticalTreeCarleson.A.
+- solver_chain_verdict: open
+- selection_reason: This theorem is the right next move because it changes the proof economy: Use CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A to reduce NoGenuineCMExit to the Pack-first CM exit tree: carrier failure lands in Pack, retained participation failure lands in Part, and only a retained coherent same-fluid packet reaches Field. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to ScaleCriticalTreeCarleson.A rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
@@ -36,10 +36,10 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 
 ### Recursive Solver Chain
 
-- terminal_verdict: closed
-- reason: The recursive theorem solver reached a terminal mechanism with no remaining residual primitive.
+- terminal_verdict: open
+- reason: No internal solver mechanism is installed for ScaleCriticalTreeCarleson.A.CoreSubprimitive.
 - depth 0: TerminalCMNoExit.FaceReduction.A via terminal_cm_no_exit_face_reduction -> ScaleCriticalTreeCarleson.A
-- depth 1: ScaleCriticalTreeCarleson.A via scale_critical_tree_carleson_pack_landing -> closed
+- depth 1: ScaleCriticalTreeCarleson.A via scale_critical_tree_carleson_pack_landing -> ScaleCriticalTreeCarleson.A.CoreSubprimitive
 
 ## Allowed Inputs
 
@@ -78,8 +78,8 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 7. Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
 8. Recursive solver step for ScaleCriticalTreeCarleson.A: Use WindowwiseReserveCarleson.A to localize reserve increments to terminal heat windows.
 9. Recursive solver step for ScaleCriticalTreeCarleson.A: Use ReserveCreationCharge.A and TerminalReserveFirstAppearanceCharge.A to split inherited reserve from first appearances.
-10. Recursive solver step for ScaleCriticalTreeCarleson.A: Use ChargeLedgerInjection.A, PastWindowReserveSeparation.A, and AdjointReserveNoFreeCreation.A to price every non-inherited contribution.
-11. Recursive solver step for ScaleCriticalTreeCarleson.A: Sum the windowwise finite-overlap estimates to obtain the scale-critical donor-refill Carleson bound required by Pack_Q.
+10. Recursive solver step for ScaleCriticalTreeCarleson.A: Use ChargeLedgerInjection.A, PastWindowReserveSeparation.A, and AdjointReserveNoFreeCreation.A to price inherited and ledger-visible contributions.
+11. Recursive solver step for ScaleCriticalTreeCarleson.A: Reduce the remaining positive source-reserve birth/height-flux contribution to a sharpened core subprimitive before any Pack_Q Carleson landing is promoted.
 12. Recursive solver step for ScaleCriticalTreeCarleson.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 13. Recursive solver step for ScaleCriticalTreeCarleson.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
 
@@ -90,11 +90,12 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 
 ## Solver Verdict
 
-- verdict: conditional
-- certification_level: theorem-creation:conditional
-- rationale: The proof attempt is noncircular but still needs downstream audit before promotion.
+- verdict: new_subprimitive
+- certification_level: theorem-creation:generated-subprimitive-needs-sharpening
+- rationale: The theorem has been reduced to a smaller noncircular primitive that is not currently installed.
+- next subprimitive: ScaleCriticalTreeCarleson.A.CoreSubprimitive -- core noncircular subprimitive for TerminalCMNoExit.A / NoGenuineCMExit.A
 
 ## Promotion Plan
 
 - promotion_allowed: false
-- recommended_next_cell_type: dependency-discharge
+- recommended_next_cell_type: creative-theorem-search
