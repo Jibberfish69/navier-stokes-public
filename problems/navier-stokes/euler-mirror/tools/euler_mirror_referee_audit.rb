@@ -9,10 +9,13 @@ list = args.delete('--list')
 mirror_root = File.expand_path(args.shift || File.join(__dir__, '..'))
 repo_root = File.expand_path(File.join(mirror_root, '..', '..', '..'))
 ledger_path = File.join(mirror_root, 'referee-audit-ledger.yaml')
+continuum_closure_path = File.join(mirror_root, 'euler-ns-continuum-closure-ledger.yaml')
 
 abort "missing ledger: #{ledger_path}" unless File.file?(ledger_path)
+abort "missing continuum closure ledger: #{continuum_closure_path}" unless File.file?(continuum_closure_path)
 
 ledger = YAML.safe_load(File.read(ledger_path), aliases: true)
+continuum_closure = YAML.safe_load(File.read(continuum_closure_path), aliases: true)
 allowed = ledger.fetch('classification_vocabulary').map { |row| row.fetch('id') }.to_set
 rules = ledger.fetch('surface_rules')
 case_matrix = ledger.fetch('case_matrix')
@@ -105,6 +108,28 @@ end
 
 ledger.fetch('parent_comparison_anchors', []).each do |path|
   errors << "parent comparison anchor missing from case_matrix authority: #{path}" unless case_authorities.include?(path)
+end
+
+unless continuum_closure.fetch('closure_status') == 'closed-as-route-control'
+  errors << "continuum closure ledger is not closed-as-route-control"
+end
+
+closed_output_ids = continuum_closure.fetch('closed_outputs').map { |row| row.fetch('id') }.to_set
+continuum_closure.fetch('route_closure_tests').fetch('required_closed_output_ids').each do |id|
+  errors << "continuum closure missing closed output #{id}" unless closed_output_ids.include?(id)
+end
+
+matrix_ids = case_matrix.map { |row| row.fetch('id') }.to_set
+closure_rows = Set.new
+continuum_closure.fetch('route_closure_tests').fetch('required_rows').each do |group, rows|
+  rows.each do |id|
+    errors << "continuum closure #{group} references missing matrix row #{id}" unless matrix_ids.include?(id)
+    closure_rows << id
+  end
+end
+
+matrix_ids.each do |id|
+  errors << "case matrix row #{id} missing from continuum closure row groups" unless closure_rows.include?(id)
 end
 
 stale_patterns = ledger.fetch('stale_failure_patterns', []).map do |entry|
