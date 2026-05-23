@@ -2,14 +2,14 @@
 
 ## Target
 
-- target obligation: NearBandMaterialSourceCharge.A+FrameBVCharge.A
-- target label: near-band material-source charge plus retained frame BV charge
+- target obligation: NearBandBVToBurstOrSource.A+FrameBVCharge.A
+- target label: near-band BV burst/source control plus retained frame BV charge
 - route role: Use the near-band BV direct attempt: subparabolic near-band heat variation is absorbable, while non-subparabolic near-band amplitude routes to parabolic-rate burst height; the remaining live pair is NearBandMaterialSourceCharge.A plus FrameBVCharge.A on the same retained packet.
 - theorem family: reserve-creation-charge
 
 ## Created Theorem
 
-NearBandBVToBurstOrSource.A+FrameBVCharge.A. Use the near-band BV direct attempt: subparabolic near-band heat variation is absorbable, while non-subparabolic near-band amplitude routes to parabolic-rate burst height; the remaining live pair is NearBandMaterialSourceCharge.A plus FrameBVCharge.A on the same retained packet. This supplies the exact noncircular bridge needed for near-band material-source charge plus retained frame BV charge.
+NearBandBVToBurstOrSource.A+FrameBVCharge.A. Use the near-band BV direct attempt: subparabolic near-band heat variation is absorbable, while non-subparabolic near-band amplitude routes to parabolic-rate burst height; the remaining live pair is NearBandMaterialSourceCharge.A plus FrameBVCharge.A on the same retained packet. This supplies the exact noncircular bridge needed for near-band BV burst/source control plus retained frame BV charge.
 
 ## Inventive Search
 
@@ -30,9 +30,9 @@ NearBandBVToBurstOrSource.A+FrameBVCharge.A. Use the near-band BV direct attempt
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- source ingredient
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- residual control
-- problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- source ingredient
 
 ### Recursive Solver Chain
 
@@ -46,12 +46,12 @@ NearBandBVToBurstOrSource.A+FrameBVCharge.A. Use the near-band BV direct attempt
 - parabolic-rate burst height
 - retained packet frame rotation
 - same terminal ledger
+- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is not Pack_Q, or it forces incoming flux, CM envelope blowout, paid exit, and hence Pack/Part/Field witness-face exit. This is a CM face-reduction theorem, not a forward no-free-sink supplier discharge.
 - ScaleCriticalTreeCarleson.A. The reserve, charge, adjoint-tail, and windowwise leakage ledgers would sum to the Pack_Q scale-critical donor-refill Carleson bound only after the noncircular Pack-side residual primitive is proved; until then an unpaid infinite donor-refill tree remains a Pack-face exit witness, not a closed no-exit theorem.
-- ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
-- WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
+- ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing controlled by weighted adjoint residual mass. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
-- theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
+- WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - ParentSquareEmbed.A
 - WeightedAdjRes.A
 - terminal heat-window decomposition
@@ -60,8 +60,7 @@ NearBandBVToBurstOrSource.A+FrameBVCharge.A. Use the near-band BV direct attempt
 ## Forbidden Imports
 
 - NearBandBVToBurstOrSource.A+FrameBVCharge.A
-- near-band material-source charge plus retained frame BV charge
-- NearBandMaterialSourceCharge.A+FrameBVCharge.A
+- near-band BV burst/source control plus retained frame BV charge
 - full-MPP closure
 - submission readiness
 - global smoothness
