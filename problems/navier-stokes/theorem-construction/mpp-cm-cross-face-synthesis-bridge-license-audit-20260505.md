@@ -3,7 +3,9 @@
 ## Status
 
 Theorem-facing bridge-license note for the aggregate class-membership witness
-after Pack, Part, Field, and Member supports have been localized separately.
+after Pack, Part, and Field supports have been localized on the same witness
+ledger. Member is reached only by the installed membership implication after
+that triadic witness exists.
 
 This note installs only the cross-face synthesis rule.  It does not prove the
 post-reconcile source wall:
