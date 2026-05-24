@@ -8,7 +8,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - `theorem_target`: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
 - `lowest_safe_claim`: alleged finite Clay terminal object enters the same-fluid CM tree, produces a Pack/Part/Field face failure, and that derived face failure supports `Exit(Q):=not Member(Q)`
 - `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
-- `one_exact_theorem_facing_next_burden`: ClayBreakdownPreterminalReflection.A, currently reduced to CMFaceNoFirstTerminalLoss.A
+- `one_exact_theorem_facing_next_burden`: CMFaceNoFirstTerminalLoss.A inside ClayBreakdownPreterminalReflection.A
 
 ## Grounded Core
 
@@ -18,7 +18,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Source Frontier
 
-- `first_unresolved`: ClayBreakdownPreterminalReflection.A; next proof burden is CMFaceNoFirstTerminalLoss.A
+- `first_unresolved`: CMFaceNoFirstTerminalLoss.A inside ClayBreakdownPreterminalReflection.A
 - TerminalCMNoExit.A / NoGenuineCMExit.A is retained only as positive packet-survival support, not the live contrapositive target.
 
 ## Source Surfaces
