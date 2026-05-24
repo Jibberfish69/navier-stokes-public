@@ -89,6 +89,14 @@ theorem_warrants:
     release audit. Demotion repair: historical four-bridge and positive-support warrants
     remain support context only. They are not stand-alone proof authority for a full
     release audit. Demotion repair: historical four-bridge and positive-support warrants
+    remain support context only. They are not stand-alone proof authority for a full
+    release audit. Demotion repair: historical four-bridge and positive-support warrants
+    remain support context only. They are not stand-alone proof authority for a full
+    release audit. Demotion repair: historical four-bridge and positive-support warrants
+    remain support context only. They are not stand-alone proof authority for a full
+    release audit. Demotion repair: historical four-bridge and positive-support warrants
+    remain support context only. They are not stand-alone proof authority for a full
+    release audit. Demotion repair: historical four-bridge and positive-support warrants
     remain support context only. They are not stand-alone proof authority while source-wall-root-after-reconcile
     is open. Demotion repair: historical four-bridge and positive-support warrants
     remain support context only. They are not stand-alone proof authority while source-wall-root-after-reconcile
@@ -759,7 +767,7 @@ theorem_warrants:
     scan_scope: problems/navier-stokes/** text surfaces
     entry_count: 1853
     summary_by_class:
-      already-demoted-positive-support-language: 66
+      already-demoted-positive-support-language: 71
       downstream-export-or-legacy-engine-support: 567
       quarantined-forward-positive-supplier-support: 625
       receiver-readout-endpoint-support: 1143
