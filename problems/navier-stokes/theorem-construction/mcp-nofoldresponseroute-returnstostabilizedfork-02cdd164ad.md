@@ -76,4 +76,4 @@ ActiveShellAmplitudeGain.A.
 
 ## Verdict
 
-The no-fold route supplies a cleaner reduction and removes response-side clutter.  It does not create a lower positive-supplier theorem beneath the stabilized fork.  The live positive source supplier remains temporal anti-atom or active-shell amplitude gain.
+The no-fold route supplies a cleaner reduction and removes response-side clutter.  It does not create a lower positive-supplier theorem beneath the stabilized fork.  The temporal anti-atom / active-shell amplitude gain fork remains a separate downstream no-pulse/source-control support branch; it is not CM authority.
