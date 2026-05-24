@@ -7,9 +7,9 @@ manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submis
 manuscript_source_kind: tex
 manuscript_source_reason: ground-up CM contrapositive paper rebuild from direct-live authority
 source_metrics:
-  source_word_count: 2412
-  bundle_word_count: 2412
-  page_count: 7
+  source_word_count: 3383
+  bundle_word_count: 3383
+  page_count: 8
 outputs:
   tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
