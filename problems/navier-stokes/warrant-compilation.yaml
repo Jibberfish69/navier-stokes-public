@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: warrant-compilation-navier-stokes
-  generated_at: '2026-05-23T23:56:10Z'
+  generated_at: '2026-05-24T00:02:00Z'
   generator: tools/ns_pipeline_hardener.rb
 primary_track:
   route_id: source-grounded-four-bridge
@@ -547,7 +547,7 @@ active_frontier:
     scan_scope: problems/navier-stokes/** text surfaces
     entry_count: 1853
     summary_by_class:
-      already-demoted-positive-support-language: 66
+      already-demoted-positive-support-language: 71
       downstream-export-or-legacy-engine-support: 567
       quarantined-forward-positive-supplier-support: 625
       receiver-readout-endpoint-support: 1143
