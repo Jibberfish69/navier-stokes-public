@@ -10,7 +10,7 @@ scope:
   - ".tex"
   excluded_rule: exclude euler-mirror paths and filenames or content targeting Euler/fixed-nu/Euler-to-NS
     transfer, zero-viscosity, or Euler-class comparison routes
-  included_count: 1945
+  included_count: 1944
   excluded_euler_related_count: 71
 sorting_rule:
   Pack: carrier, cover, packing, Pack.TTU, PackGainLedger, or Pack bridge failure
@@ -136,7 +136,7 @@ category_counts:
   authority_or_generated_control_surface: 25
   generated_submission_copy: 19
   manuscript_or_export_surface: 24
-  root_support_surface: 69
+  root_support_surface: 68
   runtime_or_governance_surface: 31
   source_or_history_context: 39
   theorem_construction_surface: 1738
@@ -154,7 +154,7 @@ face_sort_counts:
   source_recovery_or_history_not_face: 39
   source_wall_Field_diagnostic_or_supplier: 402
   supplier_readout_support: 56
-  support_context_needs_no_face_promotion: 94
+  support_context_needs_no_face_promotion: 93
   typed_subset_Pack_Part_Field_Zeno: 96
 entries:
 - path: theorem-construction/mpp-major-non-euler-cm-contrapositive-closures-20260514.md
