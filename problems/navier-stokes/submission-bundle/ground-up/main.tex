@@ -5,6 +5,7 @@
 \usepackage[margin=1.05in]{geometry}
 \usepackage{amsmath,amssymb,amsthm,mathtools}
 \usepackage{enumitem}
+\usepackage{array}
 \usepackage{microtype}
 \usepackage[hidelinks]{hyperref}
 
@@ -25,6 +26,7 @@
 \newcommand{\CM}{\mathrm{CM}}
 \newcommand{\Owork}{O_{\NS}^{\mathrm{work}}}
 \newcommand{\WitnessLedger}{\mathcal W}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 
 \title{A Class-Membership Contrapositive Route for the Navier--Stokes Millennium Problem}
 \author{Thomas Birnie}
@@ -575,7 +577,7 @@ source wall.
 
 \begin{center}
 \small
-\begin{tabular}{p{0.28\linewidth}p{0.31\linewidth}p{0.31\linewidth}}
+\begin{tabular}{L{0.28\linewidth}L{0.31\linewidth}L{0.31\linewidth}}
 \textbf{Surface} & \textbf{Positive role} & \textbf{CM role}\\
 \hline
 Scale-critical tree Carleson &
@@ -717,9 +719,9 @@ finished Clay submission. Its honest remaining gaps are local and formal rather
 than architectural.
 
 \begin{enumerate}[leftmargin=2em]
-\item The class object \(\Owork\), the terminal tree \(TerminalCMTree\), and the
-predicate \(ClayWitness_{\CM}\) must be written with complete local definitions
-rather than lane shorthand.
+\item The class object \(\Owork\) must be defined locally. The terminal tree and
+the Clay-witness predicate must be defined locally too, rather than used as lane
+shorthand.
 \item The entry theorem must spell out the terminal extraction topology and the
 legal-loss quotient used before a candidate \(W_*\) is judged.
 \item The exhaustion theorem must state the continuation depth \(N_s\), the
