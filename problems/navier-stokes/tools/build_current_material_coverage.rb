@@ -93,6 +93,7 @@ FAMILIES = [
       theorem-construction/mpp-clay-solution-cm-exit-inadmissibility-20260523.md
       theorem-construction/mpp-clay-breakdown-preterminal-reflection-proof-attempt-20260524.md
       theorem-construction/mpp-clay-terminal-cm-completeness-hardening-20260524.md
+      theorem-construction/mpp-one-fell-swoop-closure-audit-20260524.md
       theorem-construction/sameledgerconcordance-a-theorem-creation-20260523.md
     ]
   },
@@ -258,5 +259,30 @@ payload = {
   }
 }
 
-OUTPUT_PATH.write(YAML.dump(payload).lines.map { |line| "#{line.rstrip}\n" }.join)
-puts "CURRENT_MATERIAL_COVERAGE #{uncovered.length}"
+def deep_copy(object)
+  Marshal.load(Marshal.dump(object))
+end
+
+existing_payload = OUTPUT_PATH.exist? ? load_yaml(OUTPUT_PATH) : nil
+content_matches_existing = false
+if existing_payload
+  comparable_existing = deep_copy(existing_payload)
+  comparable_existing["generated_at"] = payload.fetch("generated_at")
+  content_matches_existing = comparable_existing == payload
+end
+
+if ARGV.include?("--check")
+  unless content_matches_existing
+    abort "current-material coverage audit is stale; rerun #{__FILE__}"
+  end
+
+  puts "CURRENT_MATERIAL_COVERAGE_CHECK #{uncovered.length}"
+  exit 0
+end
+
+if content_matches_existing
+  puts "CURRENT_MATERIAL_COVERAGE #{uncovered.length} unchanged"
+else
+  OUTPUT_PATH.write(YAML.dump(payload).lines.map { |line| "#{line.rstrip}\n" }.join)
+  puts "CURRENT_MATERIAL_COVERAGE #{uncovered.length}"
+end
