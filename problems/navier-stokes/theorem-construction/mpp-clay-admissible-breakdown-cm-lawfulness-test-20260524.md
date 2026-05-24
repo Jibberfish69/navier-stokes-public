@@ -1,4 +1,4 @@
-# MPP Clay-Admissible Breakdown CM-Lawfulness Test
+# MPP Clay-Admissible Breakdown CM Test-Admissibility Check
 
 Date: 2026-05-24
 
@@ -6,8 +6,8 @@ Status: target-fidelity audit; no positive-forward estimate introduced.
 
 ## Test Question
 
-Does a Clay-admissible finite breakdown witness automatically satisfy the
-`CM-lawful` hypotheses used by
+Does a Clay-admissible finite breakdown witness automatically supply the
+same-solution terminal object needed for the CM test used by
 `ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A /
 ClayCMContrapositiveEmbedding.A`?
 
@@ -15,10 +15,11 @@ ClayCMContrapositiveEmbedding.A`?
 
 Yes for the finite same-surface breakdown branch.
 
-A finite Clay breakdown witness is not an external object. It is the maximal
+A finite Clay breakdown witness is not a class-member. It is the alleged
+bad object under test: the maximal
 classical Navier-Stokes solution from the original smooth datum, stopped at a
 finite terminal time where classical continuation is alleged to fail. Therefore
-it satisfies the five `CM-lawful` checks from
+it satisfies the five same-solution CM test-admissibility checks from
 `mpp-clay-terminal-witness-invalidation-20260523.md`.
 
 ## Five-Clause Test
@@ -71,14 +72,15 @@ it satisfies the five `CM-lawful` checks from
 
 ```text
 ClayAdmissibleFiniteBreakdown(W_*)
-=> ClayWitness_CM(W_*).
+=> CMTestAdmissibleTerminalObject(W_*).
 ```
 
 Composing with the installed Clay-facing CM theorem family gives:
 
 ```text
 ClayAdmissibleFiniteBreakdown(W_*)
-=> classified Pack/Part/Field Exit(Q):=not Member(Q).
+=> derived Pack/Part/Field face failure
+=> Exit(Q):=not Member(Q).
 ```
 
 This closes the outside-CM loophole for finite Clay breakdown witnesses.
@@ -103,7 +105,7 @@ The next target-fidelity test was:
 
 ```text
 ClayBreakdownClassExitInadmissibility.A:
-classified Pack/Part/Field Exit(Q)
+derived Pack/Part/Field face failure supporting Exit(Q)
 cannot be a valid Clay breakdown counterexample witness.
 ```
 
@@ -118,8 +120,9 @@ exit, not a new source-wall supplier estimate.
 ## Source Checks
 
 - `mpp-clay-terminal-witness-invalidation-20260523.md`: defines `CM-lawful`,
-  proves the Pack/Part/Field exhaustion, and says the alleged witness proves
-  class exit rather than a surviving in-class counterexample object.
+  in the narrow sense of test-admissibility, proves the Pack/Part/Field
+  exhaustion, and says the derived face failure supports class exit rather than
+  a surviving in-class counterexample object.
 - `mpp-canonical-terminal-packet-capture-20260522.md`: proves the no-fourth-residue
   capture for same-solution terminal obstructions.
 - `mpp-any-finite-failure-witness-cm-exit-20260521.md`: installs the universal
