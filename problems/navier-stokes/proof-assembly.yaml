@@ -9,41 +9,43 @@ identity:
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
-theorem_statement: ClayBreakdownPreterminalReflection.A
+theorem_statement: CMFaceNoFirstTerminalLoss.A
 source_grounded_chain: []
 tentative_extension_chain: []
 remaining_open_obligations:
-- obligation_id: claybreakdownpreterminalreflection-a
-  kind: clay-facing-cm-preterminal-reflection-target
-  label: ClayBreakdownPreterminalReflection.A
+- obligation_id: cmfacenofirstterminalloss-a
+  kind: clay-facing-cm-face-reflection-target
+  label: CMFaceNoFirstTerminalLoss.A
   status: theorem-facing-target
   blocking: true
   source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-  frontier_summary: 'The Clay-facing live target is ClayBreakdownPreterminalReflection.A:
+  frontier_summary: 'The Clay-facing live target is CMFaceNoFirstTerminalLoss.A:
     the finite same-surface Clay breakdown witness now enters the CM test and its
     terminal Pack/Part/Field face failure supports Exit(Q):=not Member(Q). The remaining
-    bridge must reflect that terminal Exit(Q) to a still-live preterminal Exit(Q_pre),
-    contradicting SLC.A / CMW.A. TerminalCMNoExit.A / NoGenuineCMExit.A remains positive
-    packet-survival support only.'
-  program_id: clay-breakdown-preterminal-reflection
+    facewise bridge must reflect that terminal face failure to a still-live preterminal
+    face failure, hence Exit(Q_pre), contradicting SLC.A / CMW.A. TerminalCMNoExit.A
+    / NoGenuineCMExit.A remains positive packet-survival support only.'
+  program_id: cm-face-no-first-terminal-loss
   proof_mode: cm_contrapositive_class_exit
   propagated_object: terminal Pack/Part/Field class-exit from a finite same-surface
     Clay breakdown witness
   cm_landing_role: terminal face failure already supports Exit(Q); remaining bridge
     must reflect it to a still-live preterminal Exit(Q_pre)
   promotion_gate: ClayAdmissibleFiniteBreakdown.A + ClayCMContrapositiveEmbedding.A
-    + ClayBreakdownPreterminalReflection.A
-  root_group_id: claybreakdownpreterminalreflection-a
+    + CMFaceNoFirstTerminalLoss.A
+  root_group_id: cmfacenofirstterminalloss-a
   exact_live_theorem_grade_burden: &1
     status: theorem-facing-target
-    burden_id: clay-breakdown-preterminal-reflection
+    burden_id: cm-face-no-first-terminal-loss
     proof_mode: cm_contrapositive_class_exit
-    target_object: ClayBreakdownPreterminalReflection.A
-    theorem_grade_statement: Prove that terminal Pack/Part/Field class-exit from
-      a finite same-surface Clay breakdown witness reflects to a still-live preterminal
-      Exit(Q_pre), so SLC.A / CMW.A gives the contradiction.
-    active_container: claybreakdownpreterminalreflection-a
-    respawn_cell: clay-breakdown-preterminal-reflection
+    target_object: CMFaceNoFirstTerminalLoss.A
+    parent_target: ClayBreakdownPreterminalReflection.A
+    theorem_grade_statement: Prove that any derived terminal Pack/Part/Field face
+      failure from a finite same-surface Clay breakdown object reflects to a still-live
+      preterminal face failure, hence to Exit(Q_pre), so SLC.A / CMW.A gives the
+      contradiction.
+    active_container: cmfacenofirstterminalloss-a
+    respawn_cell: cm-face-no-first-terminal-loss
     respawn_stage: terminal-exit-closedness
     allowed_input_boundary: The proof may use ClayAdmissibleFiniteBreakdown.A,
       ClayTerminalWitnessCMEntry.A, ClayFiniteFailureTypeCMExhaustion.A, ClayCMContrapositiveEmbedding.A,
@@ -65,7 +67,7 @@ remaining_open_obligations:
       NoGenuineCMExit.A as the Clay-facing target.
   release_or_respawn_consequence: &2
     disposition: continue-theorem-facing
-    next_cell_type: clay-breakdown-preterminal-reflection
+    next_cell_type: cm-face-no-first-terminal-loss
     next_stage: terminal-exit-closedness
     next_action: Prove CMFaceNoFirstTerminalLoss.A as the facewise bridge inside
       ClayBreakdownPreterminalReflection.A.
@@ -77,24 +79,24 @@ remaining_open_obligations:
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
   math_frontier_obligations:
-  - obligation_id: claybreakdownpreterminalreflection-a
-    kind: clay-facing-cm-preterminal-reflection-target
-    label: ClayBreakdownPreterminalReflection.A
+  - obligation_id: cmfacenofirstterminalloss-a
+    kind: clay-facing-cm-face-reflection-target
+    label: CMFaceNoFirstTerminalLoss.A
     status: theorem-facing-target
     blocking: true
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-    frontier_summary: 'The Clay-facing live target is ClayBreakdownPreterminalReflection.A:
-      terminal Exit(Q) from the finite breakdown witness must reflect to a still-live
-      preterminal Exit(Q_pre), contradicting SLC.A / CMW.A.'
-    program_id: clay-breakdown-preterminal-reflection
+    frontier_summary: 'The Clay-facing live target is CMFaceNoFirstTerminalLoss.A:
+      terminal face failure from the finite breakdown witness must reflect to a
+      still-live preterminal face failure, hence Exit(Q_pre), contradicting SLC.A / CMW.A.'
+    program_id: cm-face-no-first-terminal-loss
     proof_mode: cm_contrapositive_class_exit
     propagated_object: terminal Pack/Part/Field class-exit from a finite same-surface
       Clay breakdown witness
     cm_landing_role: terminal face failure already supports Exit(Q); remaining bridge
       reflects it to preterminal Exit(Q_pre)
     promotion_gate: ClayAdmissibleFiniteBreakdown.A + ClayCMContrapositiveEmbedding.A
-      + ClayBreakdownPreterminalReflection.A
-    root_group_id: claybreakdownpreterminalreflection-a
+      + CMFaceNoFirstTerminalLoss.A
+    root_group_id: cmfacenofirstterminalloss-a
     exact_live_theorem_grade_burden: *1
     release_or_respawn_consequence: *2
     not_single_path: true
@@ -104,24 +106,24 @@ frontier_context:
   route_container_obligations: []
   downstream_support_obligations: []
   additional_context_obligations:
-  - obligation_id: claybreakdownpreterminalreflection-a
-    label: ClayBreakdownPreterminalReflection.A
-    kind: clay-facing-cm-preterminal-reflection-target
+  - obligation_id: cmfacenofirstterminalloss-a
+    label: CMFaceNoFirstTerminalLoss.A
+    kind: clay-facing-cm-face-reflection-target
     status: theorem-facing-target
     blocking: true
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-    frontier_summary: 'The Clay-facing live target is ClayBreakdownPreterminalReflection.A:
-      terminal Exit(Q) from the finite breakdown witness must reflect to a still-live
-      preterminal Exit(Q_pre), contradicting SLC.A / CMW.A.'
-    program_id: clay-breakdown-preterminal-reflection
+    frontier_summary: 'The Clay-facing live target is CMFaceNoFirstTerminalLoss.A:
+      terminal face failure from the finite breakdown witness must reflect to a
+      still-live preterminal face failure, hence Exit(Q_pre), contradicting SLC.A / CMW.A.'
+    program_id: cm-face-no-first-terminal-loss
     proof_mode: cm_contrapositive_class_exit
     propagated_object: terminal Pack/Part/Field class-exit from a finite same-surface
       Clay breakdown witness
     cm_landing_role: terminal face failure already supports Exit(Q); remaining bridge
       reflects it to preterminal Exit(Q_pre)
     promotion_gate: ClayAdmissibleFiniteBreakdown.A + ClayCMContrapositiveEmbedding.A
-      + ClayBreakdownPreterminalReflection.A
-    root_group_id: claybreakdownpreterminalreflection-a
+      + CMFaceNoFirstTerminalLoss.A
+    root_group_id: cmfacenofirstterminalloss-a
     exact_live_theorem_grade_burden: *1
     release_or_respawn_consequence: *2
     not_single_path: true
@@ -319,14 +321,16 @@ frontier_context:
       not be narrated as one path, one method, one wall, or the whole NS target topology.
     exact_live_theorem_grade_burden:
       status: theorem-facing-target
-      burden_id: clay-breakdown-preterminal-reflection
+      burden_id: cm-face-no-first-terminal-loss
       proof_mode: cm_contrapositive_class_exit
-      target_object: ClayBreakdownPreterminalReflection.A
-      theorem_grade_statement: Prove that terminal Pack/Part/Field class-exit from
-        a finite same-surface Clay breakdown witness reflects to a still-live preterminal
-        Exit(Q_pre), so SLC.A / CMW.A gives the contradiction.
+      target_object: CMFaceNoFirstTerminalLoss.A
+      parent_target: ClayBreakdownPreterminalReflection.A
+      theorem_grade_statement: Prove that any derived terminal Pack/Part/Field face
+        failure from a finite same-surface Clay breakdown object reflects to a still-live
+        preterminal face failure, hence to Exit(Q_pre), so SLC.A / CMW.A gives the
+        contradiction.
       active_container: source-wall-root-after-reconcile
-      respawn_cell: clay-breakdown-preterminal-reflection
+      respawn_cell: cm-face-no-first-terminal-loss
       respawn_stage: terminal-exit-closedness
       allowed_input_boundary: Use the installed Clay admissibility, witness-entry,
         finite-failure exhaustion, and CM embedding notes; TerminalCMNoExit.A / NoGenuineCMExit.A
@@ -674,24 +678,24 @@ frontier_context:
       repo-surface: 201
       theorem-construction: 1652
 next_solver_targets:
-- obligation_id: claybreakdownpreterminalreflection-a
-  kind: clay-facing-cm-preterminal-reflection-target
-  label: ClayBreakdownPreterminalReflection.A
+- obligation_id: cmfacenofirstterminalloss-a
+  kind: clay-facing-cm-face-reflection-target
+  label: CMFaceNoFirstTerminalLoss.A
   status: theorem-facing-target
   blocking: true
   source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-  frontier_summary: 'The Clay-facing solver target is ClayBreakdownPreterminalReflection.A:
-    terminal Exit(Q) from the finite breakdown witness must reflect to a still-live
-    preterminal Exit(Q_pre), contradicting SLC.A / CMW.A.'
-  program_id: clay-breakdown-preterminal-reflection
+  frontier_summary: 'The Clay-facing solver target is CMFaceNoFirstTerminalLoss.A:
+    terminal face failure from the finite breakdown witness must reflect to a
+    still-live preterminal face failure, hence Exit(Q_pre), contradicting SLC.A / CMW.A.'
+  program_id: cm-face-no-first-terminal-loss
   proof_mode: cm_contrapositive_class_exit
   propagated_object: terminal Pack/Part/Field class-exit from a finite same-surface
     Clay breakdown witness
   cm_landing_role: terminal face failure already supports Exit(Q); remaining bridge
     reflects it to preterminal Exit(Q_pre)
   promotion_gate: ClayAdmissibleFiniteBreakdown.A + ClayCMContrapositiveEmbedding.A
-    + ClayBreakdownPreterminalReflection.A
-  root_group_id: claybreakdownpreterminalreflection-a
+    + CMFaceNoFirstTerminalLoss.A
+  root_group_id: cmfacenofirstterminalloss-a
   exact_live_theorem_grade_burden: *1
   release_or_respawn_consequence: *2
   not_single_path: true
@@ -700,7 +704,7 @@ theorem_surface:
   surface_id: theorem-surface-navier-stokes-43bdf8f77bd1
   route_signature: 43bdf8f77bd132db8f588c6ca84a26d8d290d9c0
   theorem_target: target must be locked by ns-target-operating-contract-v1
-  theorem_statement: ClayBreakdownPreterminalReflection.A
+  theorem_statement: CMFaceNoFirstTerminalLoss.A
   route_chain:
   - The historical four-bridge / positive-smoothness chain is preserved as support
     context only.
