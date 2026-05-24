@@ -92,6 +92,7 @@ FAMILIES = [
     "files" => %w[
       theorem-construction/mpp-clay-solution-cm-exit-inadmissibility-20260523.md
       theorem-construction/mpp-clay-breakdown-preterminal-reflection-proof-attempt-20260524.md
+      theorem-construction/mpp-clay-breakdown-canonical-terminal-obstruction-20260524.md
       theorem-construction/mpp-clay-terminal-cm-completeness-hardening-20260524.md
       theorem-construction/mpp-one-fell-swoop-closure-audit-20260524.md
       theorem-construction/sameledgerconcordance-a-theorem-creation-20260523.md
