@@ -117,36 +117,41 @@ This closes the outside-CM loophole for finite Clay breakdown witnesses.
 
 It does not close the finite-breakdown exclusion.
 
-## Corrected Non-Positive Burden
+## Corrected Burden After Preterminal-Reflection Demotion
 
-The viable non-positive-forward close is narrower:
+The later preterminal-reflection promotion was rejected. Terminal class-exit
+does not have to reflect backward to a still-live packet in order to serve the
+CM contrapositive classification.
+
+The valid terminal result is narrower:
 
 ```text
-ClayBreakdownPreterminalReflection.A:
 ClayAdmissibleFiniteBreakdown(W_*)
-=> exists still-live preterminal Q_pre with Exit(Q_pre).
+=> canonical same-solution terminal obstruction
+=> Pack/Part/Field face failure
+=> Exit(Q):=not Member(Q).
 ```
 
-That theorem would contradict `SLC.A`, because every still-live preterminal
-classical window is CM-member.
-
-The missing content is the reflection step from terminal Pack/Part/Field exit to
-a still-live preterminal exit. Without that reflection, the terminal exit is
-only the breakdown diagnosis, not a contradiction.
-
-Equivalently, one needs an installed terminal closedness theorem:
+This closes the outside-CM loophole for finite Clay breakdown witnesses. It
+does not by itself close the finite-breakdown exclusion. To get a contradiction
+from the classified terminal exit, one still needs the genuine no-exit theorem:
 
 ```text
-terminal Exit(Q) cannot be first realized only at T_* by the maximal classical
-Navier-Stokes solution from original smooth data.
+OriginalSmoothData
+=> no terminal Pack/Part/Field class exit
 ```
 
-This is the same mathematical burden named in
-`ClaySolutionCMExitInadmissibility.A` as the missing bridge for excluding Clay
-breakdown.
+equivalently
+
+```text
+NoGenuineCMExit.A / TerminalCMNoExit.A.
+```
+
+That theorem is not supplied by target fidelity alone. It is the remaining
+MPP-closing burden after the terminal CM classification is made canonical.
 
 ## Boundary
 
 This proof attempt does not revive `TerminalCMNoExit.A / NoGenuineCMExit.A` as
-the governing Clay-facing CM target. It records why the proposed target-fidelity
-shortcut does not replace the missing breakdown bridge.
+the terminal classification theorem. It records why the proposed target-fidelity
+shortcut does not replace the missing no-genuine-exit theorem.
