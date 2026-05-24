@@ -6,10 +6,11 @@ This is the branch-local map for where the Euler mirror meets the parent
 Navier-Stokes program, where the meeting is smooth or regularity-conditional,
 where the meeting is nonsmooth, and what viscosity is doing in each case.
 
-This file is not a proof of global Euler smoothness and not a global verdict
-that Euler is nonsmooth. It is a route-control surface: every Euler/NS
-comparison in the branch must land in one of these scenario rows before it is
-used as theorem authority.
+This file is not a proof of global Euler smoothness and not a binary verdict on
+Euler. It is a route-control surface: every Euler/NS comparison in the branch
+must land in one of these scenario rows before it is used as theorem authority.
+The `ESM.N1` row now has a separate global periodic base-`Member_E`
+nonsmoothness bridge.
 
 ## Governing Separation
 
@@ -48,7 +49,7 @@ a new Euler theorem proves a replacement.
 | `ESM.C1` `ELCI.CP.A` envelopes | proved conditional | same-cover center, oscillation, and pressure-return envelopes give the L1 ledger | replaces `ACT.KX` / `ACT.X-TopVisc` / `2nu` only after those Euler envelopes are supplied |
 | `ESM.C2` positive-control / compactness / Route B | proved conditional | theorem order survives under explicit Euler controls | parent damping and parabolic pieces are not imported |
 | `ESM.C3` retained-window native forcing | proved conditional | retained local smooth center-ball and point-recovery inputs are assumed | `RSCB.NKF -> NKF.Native -> ACT.KX` is comparison authority only without those inputs |
-| `ESM.N1` tangential slip / vortex sheet | nonsmooth control | pressure-compatible weak Euler member; not a one-field classical solution | NS must attack this through participation/viscous smoothing, not pressure alone |
+| `ESM.N1` tangential slip / vortex sheet | nonsmooth control | pressure-compatible weak Euler member; not a one-field classical solution; global periodic slab bridge installed | NS must attack this through participation/viscous smoothing, not pressure alone |
 | `ESM.N2` stationary unbounded shear | false base implication | base `Member_E` holds, smoothness and the ELCI ledger fail | parent receiver success depends on absorption/readout machinery absent from Euler |
 | `ESM.N3` zero-thickness smooth-layer limit | nonsmooth control | smooth layers converge to a nonsmooth Euler member | topology/limit closure does not preserve one-field smoothness |
 | `ESM.N4` same-datum nonclassical weak branch | nonsmooth control | nonclassical branch is separated from the classical smooth branch | fixed-`nu` transfer cannot identify weak-branch behavior with classical NS smoothness |
@@ -82,7 +83,7 @@ smoothness is assumed, conditional, or an explicitly chosen regularity layer.
 | case | Euler status | NS contact point | what fails or separates | authority |
 | --- | --- | --- | --- | --- |
 | B1. Base `Member_E` | equation member may be nonsmooth | shared Pack only at flux-volume level | `Part`, `Field`, flow map, and smoothness are extra | [Euler membership](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-class-membership-flux-volume-definition.md), [NS dual map](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-ns-cm-smoothness-euler-dual-regularity-map-20260516.md) |
-| B2. Tangential slip / vortex sheet | base equation member, not classical one-field | `Field` / `Jump`; possible `Dead` cross-entry only after routing | normal flux and pressure compatibility hold while tangential velocity jumps | [vortex-sheet witness](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-pressure-nonparticipation-vortex-sheet-witness-20260517.md), [endpoint taxonomy](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md) |
+| B2. Tangential slip / vortex sheet | base equation member, not classical one-field | `Field` / `Jump`; possible `Dead` cross-entry only after routing | normal flux and pressure compatibility hold while tangential velocity jumps; the periodic slab construction makes this a global base-`Member_E` nonsmoothness theorem with nonsmooth initial data | [vortex-sheet witness](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-pressure-nonparticipation-vortex-sheet-witness-20260517.md), [periodic bridge](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-slip-sheet-euler-nonsmoothness-bridge-20260524.md), [endpoint taxonomy](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md) |
 | B3. Smooth layers converging to slip | nonsmooth singular limit of smooth classical layers | positive-scale readout / topology warning | weak or local `L^p` closure does not preserve one-field coherence | [smooth-data bridge](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md) |
 | B4. Same-datum non-classical Euler branches | non-classical branch, admissibility-dependent | weak-branch warning for NS transfer | same datum may have nonunique weak branches; not the classical smooth branch | [smooth-data bridge](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md) |
 | B5. Fixed-datum boundary blowup | classical blowup in boundary/axisymmetric setting per recorded external route | domain-sensitive Euler singularity scenario | not the no-boundary finite-energy problem | [smooth-data bridge](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md) |
