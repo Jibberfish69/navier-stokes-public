@@ -3,7 +3,7 @@
 ## Target
 
 - target obligation: BASACTerminalSourceAntiConcentration.A
-- target label: forward positive-supplier theorem excluding terminal zero-thickness native source concentration in the produced B_ASAC equality class
+- target label: quarantined downstream no-pulse/source-control support theorem for terminal zero-thickness native source concentration in the produced B_ASAC equality class
 - route role: The B_ASAC direct attempts show that local L^1_t source mass, zero ASAC defect, no-earlier selected slices, and paid donor/legal exits do not themselves exclude terminal strip concentration. The source-backed next theorem is UniformTemporalSourceIntegrability_{p,B_ASAC}.A, or an equivalent TerminalSourceReverseHolder_{B_ASAC}.A. In the CM contrapositive route this remains forward positive-supplier support; the surviving zero-radius B_ASAC residue is quarantined as Pack/Part witness support unless a separate bridge license lands it in Pack, Part, or Field.
 - theorem family: generic-bridge-theorem
 
@@ -47,7 +47,7 @@ BASACTerminalSourceAntiConcentration.A. The produced B_ASAC class still admits t
 - BASACTerminalSourceAntiConcentration.A direct attempt
 - UniformTemporalSourceIntegrability_{p,B_ASAC}.A
 - TerminalSourceReverseHolder_{B_ASAC}.A
-- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is the exact remaining forward supplier theorem; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, so this production is not currently discharged and remains supplier-quarantined for the CM route.
+- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue lands as not Pack_Q.
 - ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
