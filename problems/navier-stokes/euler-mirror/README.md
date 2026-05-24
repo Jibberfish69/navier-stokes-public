@@ -32,6 +32,7 @@ Branch contract:
 Current branch-local mainline:
 - Euler flux-volume membership definition
 - pressure-nonparticipation vortex-sheet witness
+- global periodic slip-sheet nonsmoothness bridge for base `Member_E`
 - smooth-data singular-limit bridge to that witness
 - Euler / Navier-Stokes viscosity scenario separation map
 - Euler-NS smoothness continuum program
@@ -84,5 +85,6 @@ Terminal readback:
   and
   [euler-ns-continuum-closure-theorem-20260523.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-continuum-closure-theorem-20260523.md)
   close that continuum as route control: smooth-overlap rows, viscosity-divergence
-  rows, nonsmooth-boundary rows, and the local/global bridge boundary are all
-  explicitly typed
+  rows, nonsmooth-boundary rows, and the local/global bridge surfaces are all
+  explicitly typed; `ESM.N1` now has a global periodic weak-Euler nonsmoothness
+  theorem with nonsmooth initial data
