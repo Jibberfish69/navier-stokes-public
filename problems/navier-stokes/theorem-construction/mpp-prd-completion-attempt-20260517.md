@@ -28,7 +28,7 @@ membership predicate, not a witness face.
 
 ## Live Authority Read
 
-The direct live surfaces say the current positive supplier atom is
+The direct live surfaces say the separate positive-supplier support atom, quarantined outside CM, is
 `PositiveRemainderDepletion.A`, with `LocalPositiveSourceCarleson.A`,
 `SquareSourceEstimate.A`, `ActiveShellAmplitudeGain.A`, or non-Carleson Zeno
 temporal anti-concentration as genuine supplier entrances.
