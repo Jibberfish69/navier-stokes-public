@@ -82,10 +82,11 @@ Installed rows:
 Program consequence: these rows are Euler nonsmoothness candidates inside or
 near the class-membership grammar. A local nonsmooth Euler member is already a
 local counterexample to "base Euler membership forces classical smoothness."
-For `ESM.N1`, that bridge is now explicit: the local slip sheet globalizes to a
-stationary periodic slab weak Euler member, so base global `Member_E` does not
-imply global classical smoothness. The smooth-data finite-time question and the
-other nonsmooth rows keep their own stated hypotheses.
+For `ESM.N1` and `ESM.N2`, that bridge is now explicit: the local slip sheet and
+the local unbounded shear both globalize to stationary periodic weak Euler
+members, so base global `Member_E` does not imply global classical smoothness or
+the receiver ledger. The smooth-data finite-time question and the other
+nonsmooth rows keep their own stated hypotheses.
 
 ## Working Rule
 
