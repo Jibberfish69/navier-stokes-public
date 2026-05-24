@@ -384,8 +384,8 @@ central_gate:
       - one-field coherence slot -> Field or Field bridge
       readout_boundary: H^s readout bridge -> proof-licensing from CM to continuation,
         not a CM-exit failure face
-    live_surface_application: Apply this rule to the 1937 included non-Euler text
-      surfaces indexed in non-euler-surface-face-sweep-index-20260514.yaml, with 69
+    live_surface_application: Apply this rule to the 1944 included non-Euler text
+      surfaces indexed in non-euler-surface-face-sweep-index-20260514.yaml, with 71
       Euler/fixed-nu or Euler-class comparison surfaces excluded and the theorem-packet
       primary surfaces as a checked subcase, before using any surface as a steering
       target.
