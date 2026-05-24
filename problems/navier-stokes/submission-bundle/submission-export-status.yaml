@@ -1,7 +1,7 @@
 ---
 version: 2
 problem_id: navier-stokes
-generated_at: '2026-05-24T23:53:43Z'
+generated_at: '2026-05-24T23:57:41Z'
 status: exported-working-draft
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -9,11 +9,11 @@ bundle_dir: problems/navier-stokes/submission-bundle
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
-  source_word_count: 11157
-  bundle_word_count: 11157
+  source_word_count: 11182
+  bundle_word_count: 11182
   page_count: 29
-  source_bytes: 83605
-  pdf_bytes: 461110
+  source_bytes: 83959
+  pdf_bytes: 463239
 skeletal_source_detected: false
 authoritative_content_included: true
 ground_up_rebuild:
@@ -38,9 +38,9 @@ authority_sources:
 current_material_coverage:
   audit: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
   generator: problems/navier-stokes/tools/build_current_material_coverage.rb
-  total_files_under_problem: 2403
-  text_or_checkable_files: 2377
-  text_files_outside_existing_coverage_union: 60
+  total_files_under_problem: 2404
+  text_or_checkable_files: 2378
+  text_files_outside_existing_coverage_union: 61
 stdout: ''
 stderr: ''
 fallback:
