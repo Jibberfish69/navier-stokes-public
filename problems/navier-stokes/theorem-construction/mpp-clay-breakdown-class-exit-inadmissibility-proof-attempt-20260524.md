@@ -133,25 +133,20 @@ ClayAdmissibleFiniteBreakdown(W_*)
 ```
 
 This closes the outside-CM loophole for finite Clay breakdown witnesses. It
-does not by itself close the finite-breakdown exclusion. To get a contradiction
-from the classified terminal exit, one still needs the genuine no-exit theorem:
+is the correct CM contrapositive landing. The flip side is the smooth-branch
+class-boundary statement:
 
 ```text
-OriginalSmoothData
-=> no terminal Pack/Part/Field class exit
+smooth same-solution Navier-Stokes branch
+=> Member(Q).
 ```
 
-equivalently
-
-```text
-NoGenuineCMExit.A / TerminalCMNoExit.A.
-```
-
-That theorem is not supplied by target fidelity alone. It is the remaining
-MPP-closing burden after the terminal CM classification is made canonical.
+The precise Pack/Part/Field estimates are mechanisms for witnessing membership
+or typing exit. They are not the final target of the CM contrapositive program.
 
 ## Boundary
 
 This proof attempt does not revive `TerminalCMNoExit.A / NoGenuineCMExit.A` as
 the terminal classification theorem. It records why the proposed target-fidelity
-shortcut does not replace the missing no-genuine-exit theorem.
+shortcut should be replaced by the class-boundary reading:
+smooth branch in CM, non-smooth/failure branch outside CM.
