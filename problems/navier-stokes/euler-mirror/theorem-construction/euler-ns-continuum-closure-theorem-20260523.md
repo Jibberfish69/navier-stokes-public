@@ -64,12 +64,19 @@ base-membership-implies-classical-smoothness.
 The ESM.N1 global consequence is now closed by the periodic slip-sheet bridge:
 there is a global finite-energy weak Euler `Member_E` object on `I x T^d` whose
 restriction to a local chart is the tangential slip-sheet witness and whose
-velocity is discontinuous on global sheets. This proves that base global
-`Member_E` does not imply global classical smoothness.
+velocity is discontinuous on global sheets.
+
+The ESM.N2 global consequence is also closed by the periodic unbounded-shear
+bridge: there is a global finite-energy weak Euler `Member_E` object on
+`I x T^d` whose velocity is unbounded on a global sheet and whose receiver
+ledger fails on collars crossing that sheet.
+
+Together these prove that base global `Member_E` does not imply global
+classical smoothness or the ELCI receiver ledger.
 
 The smooth-data finite-time question remains separately typed. The periodic
-slip-sheet theorem uses nonsmooth initial data; it is a global weak-Euler
-nonsmoothness theorem, not a fixed smooth-datum blowup theorem.
+slip-sheet and unbounded-shear theorems use nonsmooth initial data; they are
+global weak-Euler nonsmoothness theorems, not fixed smooth-datum blowup theorems.
 
 ## Navier-Stokes Consequence
 
