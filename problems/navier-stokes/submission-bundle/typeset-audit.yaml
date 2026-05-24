@@ -1,12 +1,12 @@
 ---
 version: 2
 problem_id: navier-stokes
-generated_at: '2026-05-24T18:02:38Z'
+generated_at: '2026-05-24T18:28:04Z'
 status: exported
 render_quality: typeset
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-page_count: 8
+page_count: 13
 overfull_box_count: 0
 overfull_box_count_gt_20pt: 0
 max_overfull_box_pt: 0.0
