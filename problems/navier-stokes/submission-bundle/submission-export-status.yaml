@@ -1,59 +1,45 @@
 ---
-version: 1
+version: 2
 problem_id: navier-stokes
-generated_at: '2026-05-04T21:12:53Z'
-status: stale-not-ready
-render_quality: stale
-manuscript_source: problems/navier-stokes/external-paper/main.tex
+generated_at: '2026-05-24T18:02:38Z'
+status: exported-working-draft
+render_quality: typeset
+manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
-compiler: "/Library/TeX/texbin/xelatex"
+compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
-  source_word_count: 753
-  bundle_word_count: 2006
-  primary_surface_word_count: 838
-  theorem_packet_word_count: 3529
-skeletal_source_detected: true
+  source_word_count: 2412
+  bundle_word_count: 2412
+  page_count: 7
+  source_bytes: 15911
+  pdf_bytes: 277833
+skeletal_source_detected: false
 authoritative_content_included: true
-authoritative_supplements:
-- id: authoritative-authoring-surface
-  source_path: problems/navier-stokes/draft-v8.md
-  bundle_path: problems/navier-stokes/submission-bundle/sections/authoritative-authoring-surface.tex
-  kind: markdown
-- id: authoritative-theorem-packet
-  source_path: problems/navier-stokes/theorem-packet.yaml
-  bundle_path: problems/navier-stokes/submission-bundle/sections/authoritative-theorem-packet.tex
-  kind: yaml
+ground_up_rebuild:
+  status: active
+  target_reference: problems/navier-stokes/submission-bundle/ground-up/target-reference.md
+  source: problems/navier-stokes/submission-bundle/ground-up/main.tex
+  pdf: problems/navier-stokes/submission-bundle/ground-up/main.pdf
+  intent: plain explanatory CM contrapositive paper spine with light pre-facing paperwork
+authority_sources:
+- problems/navier-stokes/live-theorem-edge.yaml
+- problems/navier-stokes/source-frontier.yaml
+- problems/navier-stokes/theorem-packet.yaml
+- problems/navier-stokes/theorem-repair.yaml
+- problems/navier-stokes/dependency-discharge.yaml
+- problems/navier-stokes/submission-verdict.yaml
+- problems/navier-stokes/target-operating-contract.yaml
+- problems/navier-stokes/non-euler-cm-contrapositive-proof-certificates-20260514.yaml
+- problems/navier-stokes/non-euler-failure-face-diagnostic-map-20260514.yaml
+- problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
 stdout: ''
 stderr: ''
 fallback:
-source_wall_root_cm_status: 'The Clay-facing CM frontier is TerminalCMNoExit.A / NoGenuineCMExit.A:
-  prove original smooth Navier-Stokes data leaves at least one continuation-complete
-  Pack/Part/Field packet on every alleged finite terminal tail. Source-residue and
-  B_ASAC terminal residue subcases are already sorted as Pack/Part witness or supplier-quarantined
-  support; they are not bare anti-atom deletion burdens and do not close the no-exit
-  theorem. The historical PRD/LPSC/SquareSourceEstimate.A/ActiveShellAmplitudeGain.A/non-Carleson
-  Zeno source-control entrances are quarantined support for a downstream no-pulse
-  program. They are not terminal Zeno CM obligations. The May 17 parallel completion
-  pass remains evidence that those forward entrances are not installed CM inputs:
-  PRD needs SourceWeightedTerminalAngularDepletion.A, LPSC returns to PRD, SquareSourceEstimate.A
-  and ActiveShellAmplitudeGain.A return to ActiveShellSourceNormalize.A / active-square
-  reserve, and the non-Carleson Zeno route needs TerminalSourceReverseHolder.A / UniformTemporalSourceIntegrability_p.A
-  or a produced rigid residue class with Liouville. The equality route under SourceWeightedTerminalAngularDepletion.A
-  has ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A installed.
-  The May 21 terminal Zeno correction classifies any B_ASAC^closed terminal atom as
-  endpoint Pack failure: finite Zeno ancestry packets may be legal, but the terminal
-  zero-radius residue is not a retained positive-radius packet. NoPersistentUnpaidPositiveRadiusAncestry.A
-  closes the positive-radius retained tail by the shared-participation strip balance:
-  a positive terminal carrier must pay, receive incoming participation flux, leave
-  through a legal ledger, or hit a finite CM face. BASACTerminalAtomCMFaceLabeling.A,
-  RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
-  remain finite-ancestry accounting and post-exit readout support. This settles the
-  terminal Zeno endpoint for CM Pack-legality without leaving a forward positive-supplier
-  burden attached to it. The May 17 eigenframe and pressure-Hessian attempts add OneSidedNearBandMaterialStrainBV.A
-  / TerminalPressureHessianNoSustain.A as a signed near-band source-current obstruction,
-  not a new CM face or an installed pressure-sustain theorem. The forward-positive
-  quarantine index demotes every scanned positive-smoothness, positive-supplier, transfer,
-  receiver/readout, export, and already-demoted positive surface for CM use: 1853
-  indexed surfaces remain support unless a named bridge lands the exact result in
-  Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.'
+source_wall_root_cm_status: >-
+  Ground-up paper shape uses the direct-live Clay-facing CM contrapositive target:
+  ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A /
+  ClayCMContrapositiveEmbedding.A. The forward-positive proof program is treated
+  as motivation and support, not as the live proof spine. Positive supplier,
+  readout, no-pulse, endpoint, and export surfaces remain quarantined unless a
+  named bridge lands them in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
