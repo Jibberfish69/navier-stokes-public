@@ -66,9 +66,9 @@ The inventory counts at installation are:
 | `manuscript_export_not_face` | 24 |
 | `runtime_governance_not_face` | 31 |
 | `generated_submission_copy` | 19 |
-| `support_context_needs_no_face_promotion` | 94 |
+| `support_context_needs_no_face_promotion` | 93 |
 
-Total included text surfaces: `1945`. Euler-related exclusions: `71`.
+Total included text surfaces: `1944`. Euler-related exclusions: `71`.
 
 The May 17 narrow refresh adds the eight non-Euler supplier/diagnostic notes
 from the PRD, LPSC, square-source, ASAG, non-Carleson Zeno, eigenframe, and
@@ -99,7 +99,7 @@ The counts are:
 | direct face landing | 846 |
 | selected source/Zeno failure landing in Field | 417 |
 | typed subset landing | 96 |
-| support quarantine | 542 |
+| support quarantine | 541 |
 | authority/generated carrier | 44 |
 
 The face-break readout is:
@@ -109,7 +109,7 @@ The face-break readout is:
 | `Pack_Q` | 340 |
 | `Part_{N,Q}` | 346 |
 | `Field_{N,r,Q}` | 865 |
-| no independent face | 586 |
+| no independent face | 585 |
 
 These counts are not proof burdens. They are routing diagnostics. A row that
 breaks `Field` does not mean `Pack` and `Part` are globally assumed. It means
@@ -139,7 +139,7 @@ The certificate counts are:
 | Certificate type | Count |
 |---|---:|
 | proved CM exit | 1359 |
-| proved unlicensed for CM contrapositive | 542 |
+| proved unlicensed for CM contrapositive | 541 |
 | proved inherited/no new face | 44 |
 
 The proof-rule counts are:
@@ -149,7 +149,7 @@ The proof-rule counts are:
 | direct face failure | 846 |
 | selected retained Field failure | 417 |
 | finite face disjunction | 96 |
-| no selected CM failure without bridge | 542 |
+| no selected CM failure without bridge | 541 |
 | authority inheritance/no independent failure | 44 |
 
 Thus there is no non-Euler surface left in the installed inventory that can be
