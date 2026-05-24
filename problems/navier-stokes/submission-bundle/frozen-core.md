@@ -5,29 +5,25 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Theorem Target
 
-- `theorem_target`: current route target
-- `lowest_safe_claim`: The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3.
+- `theorem_target`: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
+- `lowest_safe_claim`: alleged finite Clay terminal witness enters the same-fluid CM tree, exhausts through Pack/Part/Field, and is read as `Exit(Q):=not Member(Q)`
 - `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
 
 ## Grounded Core
 
-- The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3. (`theorem-statement`; `theorem-statement`)
-- Define or prove: Reduced the live Navier-Stokes route stack against the Clay whole-space target into exact source-backed ingredients already present on the lane. On the classical side, isolated the mixed-jet system, the exact rung-level can (`definition`; `marvin-upstream-eb3fabeeac46`)
-- Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra property and the order-1 Calderon-Zygmund bound for the pressure operator, (`definition`; `marvin-upstream-ada9835aa864`)
-- Define or prove: Added three theorem-facing reductions on the Navier-Stokes lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2, red (`definition`; `marvin-upstream-6d929e8a052a`)
-- Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md: under the exact strict-shadow identities already present on the lane, ShadowDef(X) and E_sh(X) vanish identically, so the exact Route  (`definition`; `marvin-upstream-954339945793`)
-- Define or prove: Added two new theorem-facing reductions on the Clay whole-space target. (`definition`; `marvin-upstream-96892bab139f`)
-- Define or prove: Completed the Hopf/shuffle line as a theorem-program refinement. The correct algebraic fit for the time tower is the divided-power Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle (`definition`; `marvin-upstream-409f183ee495`)
-- Define or prove: Formalized the refined direct Lagrangian route as a six-lemma mainline: differentiated Lagrangian decomposition, deformation-adapted energy, ellipticity window, coefficient-commutator absorption, no-loss pressure recovery,  (`definition`; `marvin-upstream-c8f7cb511776`)
-- Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md with a geometry-testing ladder for the elliptic test field W_test = A^T grad Phi solving -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1) ene (`definition`; `marvin-upstream-e2f5b0a915cf`)
+- ClayTerminalWitnessCMEntry.A
+- ClayFiniteFailureTypeCMExhaustion.A
+- ClayCMContrapositiveEmbedding.A
 
 ## Source Frontier
 
-- `first_unresolved`: cm-witness-face-bridge-required; PCTP.hard/SOURCE.NO-PULSE.A/AWG.A/TGC.A are typed as downstream or branch support, with no installed direct bridge into Pack/Part/Field witness-face landing (`live-theorem-frontier`; `cm-witness-face-bridge-required-pctp-hard-source-no-pulse-a-awg-a-tgc-a-are-typed-as-downstream-or-branch-support-with-no-installed-direct-bridge-into-pack-part-field`)
-- cm-witness-face-bridge-required; PCTP.hard/SOURCE.NO-PULSE.A/AWG.A/TGC.A are typed as downstream or branch support, with no installed direct bridge into Pack/Part/Field witness-face landing (`live-theorem-frontier`; `cm-witness-face-bridge-required-pctp-hard-source-no-pulse-a-awg-a-tgc-a-are-typed-as-downstream-or-branch-support-with-no-installed-direct-bridge-into-pack-part-field`)
+- `first_unresolved`: none for the Clay-facing CM contrapositive witness-consumption target
+- TerminalCMNoExit.A / NoGenuineCMExit.A is retained only as positive packet-survival support, not the live contrapositive target.
 
 ## Source Surfaces
 
+- `problems/navier-stokes/exploration-graph.yaml`
+- `problems/navier-stokes/layered-route-graph.yaml`
 - `problems/navier-stokes/claim-ladder.md`
 - `problems/navier-stokes/formalization-ledger.md`
 - `problems/navier-stokes/debt-map.yaml`
@@ -65,6 +61,8 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - `problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-channel-reduction-note.md`
 - `problems/navier-stokes/theorem-construction/mpp-frozen-family-resonant-pressure-sufficient-reduction-note.md`
 - `problems/navier-stokes/theorem-construction/mpp-pressure-source-supplier-verification-ledger-note.md`
+- `problems/navier-stokes/theorem-construction/mpp-normalized-adjoint-amplitude-four-certificate-discharge-20260504.md`
+- `problems/navier-stokes/theorem-construction/mpp-source-drain-definition-alignment-and-discharge-20260504.md`
 - `problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md`
 - `problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md`
 - `problems/navier-stokes/theorem-construction/mcp-canonical-pctp-hard-bridge-from-averaged-terminal-tail-route-cfi-a-1500f83b37.md`
@@ -78,6 +76,8 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - `problems/navier-stokes/theorem-construction/psj-plus-1-overlap-terminal-closure.md`
 - `problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md`
 - `problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md`
+- `problems/navier-stokes/theorem-construction/mpp-euler-smooth-ns-smooth-contrapositive-route-note-20260506.md`
+- `problems/navier-stokes/theorem-construction/mpp-direct-fixed-nu-euler-smooth-ns-smooth-hierarchy-20260509.md`
 
 ## Boundary Rule
 
