@@ -25,6 +25,17 @@ breakdown cannot remain inside CM. If a required continuation estimate fails and
 a blow-up or non-smooth terminal event can occur, the event can only occur as
 `Exit(Q):=not Member(Q)` through Pack, Part, or Field.
 
+The flip side is the class-boundary statement:
+
+```text
+smooth same-solution Navier-Stokes branch
+=> Member(Q).
+```
+
+This does not depend on naming one final controlling estimate as the theorem
+target. The exact estimates are mechanisms for how membership is witnessed or
+how exit is typed; the CM statement is the class boundary itself.
+
 ## Program Boundary
 
 Do not add a final obstruction estimate to this CM argument. A theorem of the
