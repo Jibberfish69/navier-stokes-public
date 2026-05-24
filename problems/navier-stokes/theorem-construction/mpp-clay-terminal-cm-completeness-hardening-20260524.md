@@ -107,6 +107,14 @@ The existing admissibility note supplies the five-clause test. The next proof
 pass should verify that each clause is definition-level for a finite same-surface
 Clay breakdown object, not an extra analytic estimate.
 
+This extraction pass is recorded as:
+
+```text
+ClayBreakdownCanonicalTerminalObstruction.A
+```
+
+in `mpp-clay-breakdown-canonical-terminal-obstruction-20260524.md`.
+
 Once that extraction is certified, `AnyFiniteFailureWitnessCMExit.A` supplies the
 Pack-first landing, and `ClayCMContrapositiveEmbedding.A` supplies the readback
 to `Exit(Q):=not Member(Q)`.
