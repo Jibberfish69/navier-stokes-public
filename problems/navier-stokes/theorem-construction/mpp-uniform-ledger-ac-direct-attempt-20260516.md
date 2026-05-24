@@ -6,7 +6,7 @@ Bounded execution after
 `mpp-native-source-radon-nikodym-decision-criterion-20260516.md` and
 `mpp-vanishing-ledger-bad-packet-field-exit-20260516.md`.
 
-This note tries the positive supplier proof. It does not prove it. It isolates
+This note records a quarantined positive-supplier support attempt. It does not prove it. It isolates
 the exact packet inequality still missing.
 
 ## Target
