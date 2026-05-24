@@ -1,6 +1,6 @@
 ---
-version: 2
-updated_on: '2026-05-23'
+version: 3
+updated_on: '2026-05-24'
 branch_id: euler-mirror-chat20
 artifact_id: euler-mirror-referee-audit-ledger
 purpose: >-
@@ -61,7 +61,9 @@ global_readback:
     Euler is nonsmooth or not forced smooth at base Member_E, tangential
     slip/vortex-sheet witnesses, singular limits of smooth shear layers,
     same-datum non-classical weak branches, boundary blowup comparisons, and
-    base attempts to force the ELCI.CP.A receiver ledger.
+    base attempts to force the ELCI.CP.A receiver ledger. The tangential
+    slip/vortex-sheet witness also has a global periodic weak-Euler
+    globalization with nonsmooth initial data.
   viscosity_role: >-
     The parent Navier-Stokes route uses viscosity as shear participation,
     lower-collar absorption, ACT.KX scheduling, top-viscous readout, dyadic
@@ -112,9 +114,10 @@ case_matrix:
   - id: ESM.N1
     classification: nonsmooth_control
     euler_scenario: tangential slip / vortex-sheet weak Euler member
-    ns_control_readback: pressure and normal compatibility do not force one-field participation; NS needs viscosity/participation machinery to attack this
+    ns_control_readback: pressure and normal compatibility do not force one-field participation; NS needs viscosity/participation machinery to attack this; periodic slab globalization makes the local nonsmooth sheet a global base Member_E counterexample to smoothness
     authority:
       - problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-pressure-nonparticipation-vortex-sheet-witness-20260517.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-slip-sheet-euler-nonsmoothness-bridge-20260524.md
       - problems/navier-stokes/theorem-construction/mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md
   - id: ESM.N2
     classification: false_base_implication
@@ -372,6 +375,7 @@ surface_rules:
     paths:
       - theorem-construction/mpp-euler-pressure-nonparticipation-vortex-sheet-witness-20260517.md
       - theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md
+      - theorem-construction/global-periodic-slip-sheet-euler-nonsmoothness-bridge-20260524.md
     classifications:
       - smooth_by_hypothesis
       - nonsmooth_control
