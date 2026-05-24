@@ -156,7 +156,7 @@ local tangential slip-sheet Member_E witness
 
 Other `ESM.N*` rows keep their own typed status:
 
-- `ESM.N2` is a false-base-implication witness for ledger/smoothness promotion;
+- `ESM.N2` is also globalized by the periodic unbounded-shear bridge;
 - `ESM.N3` is a singular-limit bridge, not a fixed-datum singularity;
 - `ESM.N4` is a weak-branch same-datum route subject to its chosen admissibility
   layer;
