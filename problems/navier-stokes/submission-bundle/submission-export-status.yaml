@@ -1,7 +1,7 @@
 ---
 version: 2
 problem_id: navier-stokes
-generated_at: '2026-05-24T18:28:04Z'
+generated_at: '2026-05-24T19:03:58Z'
 status: exported-working-draft
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -9,11 +9,11 @@ bundle_dir: problems/navier-stokes/submission-bundle
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
-  source_word_count: 4114
-  bundle_word_count: 4114
-  page_count: 13
-  source_bytes: 33975
-  pdf_bytes: 349880
+  source_word_count: 10658
+  bundle_word_count: 10658
+  page_count: 28
+  source_bytes: 78247
+  pdf_bytes: 462609
 skeletal_source_detected: false
 authoritative_content_included: true
 ground_up_rebuild:
@@ -21,7 +21,7 @@ ground_up_rebuild:
   target_reference: problems/navier-stokes/submission-bundle/ground-up/target-reference.md
   source: problems/navier-stokes/submission-bundle/ground-up/main.tex
   pdf: problems/navier-stokes/submission-bundle/ground-up/main.pdf
-  intent: plain explanatory CM contrapositive paper spine with light pre-facing paperwork
+  intent: surface-complete forward-positive-to-CM-contrapositive explanatory paper with light pre-facing paperwork
 authority_sources:
 - problems/navier-stokes/live-theorem-edge.yaml
 - problems/navier-stokes/source-frontier.yaml
@@ -40,8 +40,9 @@ source_wall_root_cm_status: >-
   Expanded ground-up paper shape uses the direct-live Clay-facing CM contrapositive
   target: synchronized witness ledger, CanonicalTerminalPacketCapture.A,
   AnyFiniteFailureWitnessCMExit.A, ClayTerminalWitnessCMEntry.A /
-  ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A, and
-  the positive obstruction ledger. The forward-positive proof program is treated
-  as motivation and support, not as the live proof spine. Positive supplier,
-  readout, no-pulse, endpoint, transfer, and export surfaces remain quarantined
-  unless a named bridge lands them in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
+  ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A,
+  the materialized 1944-row non-Euler surface sweep, and the forward-positive
+  quarantine ledger. The forward-positive proof program is developed as the
+  gold-standard obstruction field, then each branch is landed in Pack_Q,
+  Part_{N,Q}, Field_{N,r,Q}, typed subset status, inherited authority, or support
+  quarantine.
