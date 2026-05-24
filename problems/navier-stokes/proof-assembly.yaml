@@ -52,6 +52,14 @@ remaining_open_obligations:
       donor-reserve/source-wall/no-pulse targets, endpoint readout consequences,
       and forward-positive quarantine surfaces remain support unless they prove
       this preterminal reflection bridge directly.
+    latest_attempt: problems/navier-stokes/theorem-construction/mpp-clay-breakdown-preterminal-reflection-proof-attempt-20260524.md
+    attempt_status: conditional reduction; full reflection proof not installed
+    reduced_to: CMFaceNoFirstTerminalLoss.A
+    face_obligations:
+    - PackNoFirstTerminalLoss.A
+    - PartNoFirstTerminalLoss.A
+    - FieldNoFirstTerminalLoss.A
+    reduction_summary: Terminal Pack/Part/Field face failure reflects to a still-live preterminal Exit(Q_pre) after first-terminal-loss is ruled out for the failing face.
     nearest_wrong_substitution: Treating terminal Exit(Q) as already excluding a
       Clay breakdown witness by definition, or respawning TerminalCMNoExit.A /
       NoGenuineCMExit.A as the Clay-facing target.
@@ -59,8 +67,8 @@ remaining_open_obligations:
     disposition: continue-theorem-facing
     next_cell_type: clay-breakdown-preterminal-reflection
     next_stage: terminal-exit-closedness
-    next_action: Prove ClayBreakdownPreterminalReflection.A, the bridge from terminal
-      Exit(Q) to a still-live preterminal Exit(Q_pre).
+    next_action: Prove CMFaceNoFirstTerminalLoss.A as the facewise bridge inside
+      ClayBreakdownPreterminalReflection.A.
   not_single_path: true
   support_presentations_not_remaining_burden: &3
   - TerminalCMNoExit.A / NoGenuineCMExit.A positive packet-survival support
