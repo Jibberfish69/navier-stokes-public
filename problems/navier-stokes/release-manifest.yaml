@@ -56,7 +56,7 @@ source_summary:
     blocked_frontier_count: 0
   review_verdict:
     verdict: revise
-    release_posture: cm-face-no-first-terminal-loss-required
+    release_posture: terminal-cm-classification-installed
     completion_tier_achieved: paper-complete-theorem-open
     terminal_safe: false
   submission_verdict:
@@ -160,10 +160,11 @@ written_paths:
 - problems/navier-stokes/dependency-graph.yaml
 - problems/navier-stokes/failure-mode-checks.yaml
 deleted_paths: []
-release_gate: cm-face-no-first-terminal-loss-required
+release_gate: terminal-cm-classification-installed
 terminal_safe: false
 required_before_terminal_release:
-- CMFaceNoFirstTerminalLoss.A inside ClayBreakdownPreterminalReflection.A
+- Keep the CM contrapositive authority on terminal Pack/Part/Field classification
+  supporting Exit(Q):=not Member(Q); do not respawn the preterminal-reflection route.
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight:
   rule_id: ns-target-topology-preflight-v2
