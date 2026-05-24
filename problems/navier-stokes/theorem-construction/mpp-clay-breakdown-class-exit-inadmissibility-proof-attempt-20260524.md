@@ -15,7 +15,7 @@ ClayBreakdownClassExitInadmissibility.A
 The attempted closing claim was:
 
 ```text
-classified Pack/Part/Field Exit(Q):=not Member(Q)
+derived Pack/Part/Field face failure supporting Exit(Q):=not Member(Q)
 cannot be a valid Clay breakdown counterexample witness.
 ```
 
@@ -30,15 +30,16 @@ to be imported.
 
 ```text
 ClayAdmissibleFiniteBreakdown(W_*)
-=> ClayWitness_CM(W_*).
+=> CMTestAdmissibleTerminalObject(W_*).
 ```
 
 2. `ClayFiniteFailureTypeCMExhaustion.A` and
    `ClayCMContrapositiveEmbedding.A`:
 
 ```text
-ClayWitness_CM(W_*)
-=> classified Pack/Part/Field Exit(Q):=not Member(Q).
+CMTestAdmissibleTerminalObject(W_*)
+=> derived Pack/Part/Field face failure
+=> Exit(Q):=not Member(Q).
 ```
 
 3. `ClaySolutionCMExitInadmissibility.A`:
@@ -61,14 +62,15 @@ for every smooth divergence-free rapidly decaying datum.
 Assume `W_*` is a finite same-surface Clay breakdown witness from original smooth
 data.
 
-By `ClayAdmissibleFiniteBreakdown.A`, `W_*` is CM-lawful. By the installed
-Pack-first exhaustion and embedding, `W_*` forces
+By `ClayAdmissibleFiniteBreakdown.A`, `W_*` is CM-test-admissible in the
+note's narrow `CM-lawful` sense. By the installed
+Pack-first exhaustion and embedding, the CM test applied to `W_*` forces
 
 ```text
 Exit(Q):=not Member(Q)
 ```
 
-through `not Pack_Q`, `not Part_{N_s,Q}`, or
+through a derived face failure: `not Pack_Q`, `not Part_{N_s,Q}`, or
 `forall r>0 not Field_{N_s,r,Q}`.
 
 To prove `ClayBreakdownClassExitInadmissibility.A` by target fidelity alone, one
@@ -106,8 +108,9 @@ What is proved remains:
 
 ```text
 ClayAdmissibleFiniteBreakdown(W_*)
-=> ClayWitness_CM(W_*)
-=> classified Pack/Part/Field Exit(Q):=not Member(Q).
+=> CMTestAdmissibleTerminalObject(W_*)
+=> derived Pack/Part/Field face failure
+=> Exit(Q):=not Member(Q).
 ```
 
 This closes the outside-CM loophole for finite Clay breakdown witnesses.
@@ -147,4 +150,3 @@ breakdown.
 This proof attempt does not revive `TerminalCMNoExit.A / NoGenuineCMExit.A` as
 the governing Clay-facing CM target. It records why the proposed target-fidelity
 shortcut does not replace the missing breakdown bridge.
-
