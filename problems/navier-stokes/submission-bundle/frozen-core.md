@@ -6,7 +6,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 ## Theorem Target
 
 - `theorem_target`: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
-- `lowest_safe_claim`: alleged finite Clay terminal witness enters the same-fluid CM tree, exhausts through Pack/Part/Field, and is read as `Exit(Q):=not Member(Q)`
+- `lowest_safe_claim`: alleged finite Clay terminal object enters the same-fluid CM tree, produces a Pack/Part/Field face failure, and that derived face failure supports `Exit(Q):=not Member(Q)`
 - `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
 
 ## Grounded Core
