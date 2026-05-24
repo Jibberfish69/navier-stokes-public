@@ -105,7 +105,7 @@ Field_{N,r,Q}\text{-face selected Zeno terminal atom diagnostic.}
 }
 ```
 
-The forward positive-supplier route remains open at the production-theorem level. Further progress requires a genuinely new theorem of one of these exact types:
+The separate downstream no-pulse/source-control support route remains open at the production-theorem level. Further progress requires a genuinely new theorem of one of these exact types:
 
 ```math
 PressureTimeFaceSpread.A,
