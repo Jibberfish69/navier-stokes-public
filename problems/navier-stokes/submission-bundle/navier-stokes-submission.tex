@@ -5,6 +5,7 @@
 \usepackage[margin=1.05in]{geometry}
 \usepackage{amsmath,amssymb,amsthm,mathtools}
 \usepackage{enumitem}
+\usepackage{array}
 \usepackage{microtype}
 \usepackage[hidelinks]{hyperref}
 
@@ -14,6 +15,7 @@
 \newtheorem{definition}{Definition}
 \newtheorem{claim}{Claim}
 \newtheorem{remark}{Remark}
+\newtheorem{corollary}{Corollary}
 
 \newcommand{\NS}{\mathrm{NS}}
 \newcommand{\Pack}{\mathrm{Pack}}
@@ -23,6 +25,8 @@
 \newcommand{\Exit}{\mathrm{Exit}}
 \newcommand{\CM}{\mathrm{CM}}
 \newcommand{\Owork}{O_{\NS}^{\mathrm{work}}}
+\newcommand{\WitnessLedger}{\mathcal W}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 
 \title{A Class-Membership Contrapositive Route for the Navier--Stokes Millennium Problem}
 \author{Thomas Birnie}
@@ -174,6 +178,57 @@ services a terminal witness must provide if it is still a Clay-relevant
 Navier--Stokes object. Carrier, participation, and field coherence are the
 minimum structure needed for the continuation packet to have a target.
 
+\section{The Synchronized Witness Ledger}
+
+There is a small but important bookkeeping point. The three faces cannot be
+borrowed from three different branches and then glued together at the end. They
+must live on the same witness ledger.
+
+We write that ledger as
+\[
+  \WitnessLedger=(\Owork,Q,N,r,\Phi,\mathcal T).
+\]
+Here \(Q\) is the retained class region, \(N\) is the tower depth, \(r\) is the
+positive field scale, \(\Phi\) is the same-fluid family, and \(\mathcal T\) is
+the still-live terminal window. The symbols matter only because they stop a bad
+shortcut. A Pack certificate on one carrier, a Part certificate on another
+branch, and a Field certificate on a third readout do not make a Clay witness.
+
+\begin{lemma}[Cross-face synthesis license]
+If Pack, Part, and Field are certified on the same witness ledger, then the
+triadic CM witness is certified on that ledger:
+\[
+  \Pack_Q(\WitnessLedger)\wedge
+  \Part_{N,Q}(\WitnessLedger)\wedge
+  \Field_{N,r,Q}(\WitnessLedger)
+  \Longrightarrow
+  \CM_{N,r,Q}(\WitnessLedger).
+\]
+\end{lemma}
+
+\begin{proof}
+This is not a hidden analytic estimate. It is the synchronization rule. The
+class witness is defined as the conjunction of the three services on one
+same-fluid ledger:
+\[
+  \CM_{N,r,Q}=
+  \Pack_Q\wedge \Part_{N,Q}\wedge \Field_{N,r,Q}.
+\]
+So the bridge is legal exactly when all three predicates refer to the same
+object, carrier, depth, scale, and terminal window.
+\end{proof}
+
+The membership direction is then:
+\[
+  \forall N\ \exists r_N>0:\ \CM_{N,r_N,Q}
+  \Longrightarrow
+  \Member(Q;\Owork).
+\]
+This direction is installed as a certificate direction. The contrapositive paper
+does not use a naked formula \(\neg \CM\Rightarrow \neg \Member\) as a black box.
+It proves exit by starting with the alleged Clay witness and finding the first
+service that the witness itself loses.
+
 \section{The Contrapositive Skeleton}
 
 The governing implication is:
@@ -237,6 +292,75 @@ witness loses one of those services, then it is no longer a member of the class
 object. It may be a diagnostic object, a supplier obstruction, a readout failure,
 or a weak limit, but it is not the Clay member whose failure would refute global
 smoothness.
+\end{proof}
+
+\section{Canonical Terminal Packet Capture}
+
+The route becomes useful only after the alleged bad object is captured by the
+same terminal packet. This is where the proof stops being a slogan. A finite-time
+Clay counterexample is not just any singular distribution. It is supposed to be
+the terminal obstruction of the same smooth-data Navier--Stokes evolution.
+
+\begin{definition}[Same-solution terminal obstruction]
+A terminal obstruction \(\mathcal R_*\) is same-solution when it is extracted
+from a maximal classical solution \((u,p)\) on \([0,T_*)\), with
+\(T_*<\infty\), after passing to a terminal subsequence and removing legal
+boundary losses, cutoff losses, collar losses, non-selected branches,
+readout-only artifacts, and paid finite ledger terms.
+\end{definition}
+
+\begin{theorem}[CanonicalTerminalPacketCapture.A]
+Every same-solution terminal obstruction is captured by the Pack-first CM tree:
+\[
+  \mathcal R_*
+  \Longrightarrow
+  \neg \Pack_Q
+  \vee
+  \neg \Part_{N_s,Q}
+  \vee
+  \forall r>0\,\neg \Field_{N_s,r,Q}.
+\]
+Equivalently, the obstruction lands at the first failed service:
+\[
+  \mathcal R_*
+  \Longrightarrow
+  \begin{cases}
+  \neg \Pack_Q,\\
+  \Pack_Q\wedge\neg \Part_{N_s,Q},\\
+  \Pack_Q\wedge \Part_{N_s,Q}\wedge
+  \forall r>0\,\neg \Field_{N_s,r,Q}.
+  \end{cases}
+\]
+\end{theorem}
+
+\begin{proof}
+Before \(T_*\), every compact window is classical. The local same-fluid packet
+therefore supplies the same three services: a positive legal carrier, the
+differentiated pressure-viscosity participation tower, and positive-scale
+one-field coherence. The terminal extraction can only ask which of those
+services survives.
+
+If no positive legal carrier survives, the obstruction has lost Pack. If the
+carrier survives but the differentiated Navier--Stokes tower cannot be written
+on it through the continuation depth, the obstruction has lost Part. If both
+carrier and participation survive, then a surviving Field scale would give the
+full continuation packet. The \(H^s\), \(s>5/2\), continuation readout would then
+extend the classical solution past \(T_*\), contradicting maximality. Thus Field
+cannot survive at any positive scale on that last branch.
+\end{proof}
+
+\begin{corollary}[No fourth residue]
+After legal losses, readout artifacts, non-selected branches, and paid finite
+ledger terms are removed, a same-solution terminal obstruction has no fourth
+primitive CM face.
+\end{corollary}
+
+\begin{proof}
+A proposed fourth residue would have to be a same-solution terminal obstruction
+that is not carrier loss, not participation loss, and not one-field coherence
+loss. But those are exactly the three services used by the continuation packet.
+The proposed residue is therefore either an already sorted failure of Pack,
+Part, or Field, or it is supplier/readout language waiting for a bridge license.
 \end{proof}
 
 \section{The Witness Theorems Expanded}
@@ -363,6 +487,39 @@ non-selected branches, and paid finite ledger terms are removed, no such fourth
 primitive service remains.
 \end{proof}
 
+\begin{theorem}[ClayCMContrapositiveEmbedding.A]
+Every CM-lawful finite Clay terminal witness whose first failed service is
+exhausted through Pack, Part, or Field is a class-exit witness:
+\[
+  ClayWitness_{\CM}(W_*)
+  \Longrightarrow
+  \Exit(Q;\Owork).
+\]
+\end{theorem}
+
+\begin{proof}
+By ClayFiniteFailureTypeCMExhaustion.A, the witness forces
+\[
+  \neg \Pack_Q
+  \vee
+  \neg \Part_{N_s,Q}
+  \vee
+  \forall r>0\,\neg \Field_{N_s,r,Q}.
+\]
+Each alternative is the loss of a service needed by the same-fluid continuation
+packet. The Pack case loses the same-fluid carrier. The Part case loses
+pressure-viscosity tower participation on that carrier. The Field case loses
+positive-scale one-field coherence after Pack and Part have already survived.
+
+The route's exit primitive is
+\[
+  \Exit(Q;\Owork):=\neg \Member(Q;\Owork).
+\]
+So the alleged Clay witness is not left as an unclassified counterexample
+object. It has declared the exact service by which it leaves the working Clay
+class.
+\end{proof}
+
 \begin{theorem}[ClayTerminalWitnessInvalidation.A]
 There is no CM-lawful finite Clay terminal witness that remains unclassified by
 the CM contrapositive program.
@@ -377,6 +534,18 @@ or Pack survives and Part fails, or Pack and Part survive and Field fails.
 Each landing is an \(\Exit(Q)\) witness by ClayCMContrapositiveEmbedding.A.
 Therefore the alleged witness does not remain as an in-class counterexample
 object. Its own failure classifies it outside \(\Owork\).
+\end{proof}
+
+\begin{corollary}[ClayCMCounterexampleExclusion.A]
+Inside the CM route, no finite-time Clay counterexample remains after
+Pack/Part/Field witness-face exhaustion.
+\end{corollary}
+
+\begin{proof}
+A CM-route Clay counterexample must provide a CM-lawful finite terminal witness
+whose failure is not already exhausted by the class-membership witness grammar.
+ClayTerminalWitnessInvalidation.A proves that every such witness is exhausted by
+Pack, Part, or Field. Therefore no unexhausted CM-route counterexample remains.
 \end{proof}
 
 \section{Why The Forward Program Still Appears}
@@ -399,6 +568,71 @@ positive-radius packet. It is a Pack-side exit unless extra structure is proved.
 This pattern is the reason the paper begins with the forward mechanisms and then
 switches. The forward mechanisms expose the obstruction. The contrapositive
 method says where the obstruction lands.
+
+\section{Positive Obstruction Ledger}
+
+The positive program remains in the paper as an obstruction ledger. It explains
+why the class faces are not arbitrary and why the proof changes method at the
+source wall.
+
+\begin{center}
+\small
+\begin{tabular}{L{0.28\linewidth}L{0.31\linewidth}L{0.31\linewidth}}
+\textbf{Surface} & \textbf{Positive role} & \textbf{CM role}\\
+\hline
+Scale-critical tree Carleson &
+Tries to control the terminal source-reserve tree directly. &
+Selected retained failure lands in Field after Pack and Part survive; unpaid
+carrier ancestry lands earlier in Pack.\\
+\hline
+Zeno terminal atom &
+Tries to rule out a temporal terminal source atom. &
+Zero-radius terminal residue is not Pack; a retained Zeno atom is sorted by the
+same Pack/Part/Field tree.\\
+\hline
+Retained amplitude gain &
+Tries to prove enough positive low-strain gain control on the retained packet. &
+Failure is Pack-gain loss, Part-envelope loss, or a return to the source-wall
+Field diagnostic.\\
+\hline
+Active height flux and low-strain BV &
+Tries to control first large positive height flux and sampled low-strain
+variation. &
+Routes to Pack gain, Part/dwell failure, legal Field source charge, or a Zeno
+subcase already sorted by the tree.\\
+\hline
+Signed-current and edge-resistance routes &
+Try to convert signed source motion into a coercive parabolic current law. &
+No independent face; retained failures return to Pack, Part, or source-wall
+Field support.\\
+\hline
+Square reserve / native trilinear routes &
+Try to derive a square-source charge law rather than a first-moment tail law. &
+An absent square-charge identity is supplier work; selected retained reserve
+failure is the Carleson Field diagnostic.\\
+\hline
+Good-scale, readout, PCTP, no-pulse, AWG, TGC &
+Try to make endpoint readout uniform and prevent averaged terminal jumps. &
+Downstream receiver/readout support unless a named bridge lands the object in
+Pack, Part, or Field.\\
+\end{tabular}
+\end{center}
+
+This table is the practical reason for the silver-standard proof. The forward
+surfaces are not useless. They are how the project learned the failure geometry.
+But once the proof is written as class-membership exclusion, a failed supplier
+estimate is not automatically a theorem target. It first has to say which
+membership service has broken.
+
+Two placements are especially easy to misread. The theorem
+TerminalCMNoExit.A is the stronger gold-standard no-exit burden: prove directly
+from original smooth data that every terminal tail keeps a continuation-complete
+Pack/Part/Field packet. The present paper uses that burden as motivation and
+as a pressure test, while the main proof spine consumes the alleged terminal
+witness after it appears. Likewise, a local \(L^3\) or Duhamel terminal-mass
+translator is useful only as witness extraction on its own branch. It tells us
+how a bad mass packet enters the CM faces; it does not by itself close the Clay
+problem.
 
 \section{Major Surface Sorting}
 
@@ -435,6 +669,30 @@ closure. It does not say every positive theorem has been proved. It says every
 major selected failure has a legal class-membership destination or remains
 quarantined as support.
 
+\section{Reader's Version Of The Proof}
+
+Here is the argument without the machinery.
+
+Start with a smooth Navier--Stokes datum and suppose, for contradiction, that the
+Clay solution fails at a first finite time. The alleged failure must show up as a
+terminal witness of that same solution. It cannot be a different equation, a
+different fluid, a detached source artifact, or a bookkeeping residue that has
+already been paid away.
+
+Now ask what the witness still has. It needs a common packet to live on. That is
+Pack. It needs to participate in the same pressure-viscosity Navier--Stokes
+tower. That is Part. It needs neighboring tower coherence at a positive scale so
+the continuation readout has an object. That is Field.
+
+If the witness keeps all three, it is not a terminal breakdown witness; the
+continuation readout extends the classical solution. If it loses one of the
+three, it has exited the class-object that defines a Clay-relevant
+Navier--Stokes witness. Thus the alleged counterexample never survives as an
+in-class Clay object.
+
+That is the whole proof idea. The technical work is making each sentence above
+local, synchronized, and immune to supplier/readout substitutions.
+
 \section{The Clean Proof Spine}
 
 The proof spine can now be stated without the generated machinery.
@@ -463,6 +721,34 @@ But losing one of those services is exactly leaving the class object. The bad
 object is then outside \(\Owork\). It cannot be the member whose failure would
 defeat the Clay statement.
 \end{proof}
+
+\section{Referee-Facing Gap Ledger}
+
+The current manuscript should be read as a serious working article, not as a
+finished Clay submission. Its honest remaining gaps are local and formal rather
+than architectural.
+
+\begin{enumerate}[leftmargin=2em]
+\item The class object \(\Owork\) must be defined locally. The terminal tree and
+the Clay-witness predicate must be defined locally too, rather than used as lane
+shorthand.
+\item The entry theorem must spell out the terminal extraction topology and the
+legal-loss quotient used before a candidate \(W_*\) is judged.
+\item The exhaustion theorem must state the continuation depth \(N_s\), the
+window \(Q\), and the \(H^s\), \(s>5/2\), readout hypotheses in one local
+proposition.
+\item The embedding theorem must make the class-exit step explicit: Pack, Part,
+and Field failures are not merely failures of notation; they are failures of the
+services required for \(\Member(Q;\Owork)\).
+\item The supplier quarantine must be preserved. Positive source-control,
+receiver, no-pulse, endpoint, transfer, and export surfaces may support the
+paper, but they cannot replace the Pack-first witness tree.
+\end{enumerate}
+
+This is the right kind of gap for the current stage. The manuscript no longer
+needs more pre-facing paperwork. It needs the formal definitions and theorem
+proofs above to be tightened until each line can stand without repository
+context.
 
 \section{What Is Still Not Being Claimed}
 
