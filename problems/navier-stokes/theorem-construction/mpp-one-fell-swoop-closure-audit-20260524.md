@@ -2,18 +2,16 @@
 
 Date: 2026-05-24
 
-Status: closure audit; no solved-MPP claim.
+Status: corrected CM-contrapositive polarity audit; no positive no-exit target.
 
 ## Question
 
-Can the current CM contrapositive chain close the whole Clay finite-breakdown
-exclusion in one step?
+What is the closing role of the current CM contrapositive chain?
 
 ## Answer
 
-No honest one-step closure is installed.
-
-The current chain can close the classification side:
+The CM contrapositive chain is a classification/extraction argument, not a
+positive no-exit argument. Its target is:
 
 ```text
 finite Clay breakdown object
@@ -23,32 +21,22 @@ finite Clay breakdown object
 ```
 
 That is the correct CM contrapositive witness. It proves that the alleged
-breakdown is not outside the CM grammar.
-
-It does not yet prove that such a terminal class exit is impossible from
-original smooth data.
+breakdown cannot remain inside CM. If a required continuation estimate fails and
+a blow-up or non-smooth terminal event can occur, the event can only occur as
+`Exit(Q):=not Member(Q)` through Pack, Part, or Field.
 
 ## Program Boundary
 
-The following theorem is the positive no-exit program:
+Do not add a final obstruction estimate to this CM argument. A theorem of the
+form
 
 ```text
 OriginalSmoothData
-=> no terminal Pack/Part/Field class exit.
+=> no terminal Pack/Part/Field class exit
 ```
 
-In repo labels, this is the no-genuine-exit theorem:
-
-```text
-NoGenuineCMExit.A / TerminalCMNoExit.A.
-```
-
-It is separate from the active CM contrapositive classification program. The
-classification theorem types the alleged bad object. The no-genuine-exit theorem
-rules out every typed exit from original smooth data.
-
-Do not pursue this as the next CM-contrapositive move unless the proof program is
-explicitly switched to positive no-exit / packet survival.
+belongs to the positive no-exit / packet-survival program. It is not the missing
+step in the CM contrapositive classification program.
 
 ## Why The Shortcut Fails
 
@@ -57,17 +45,19 @@ by definition disqualify a Clay breakdown counterexample witness, because the
 counterexample is exactly the allegation that the smooth solution cannot be
 continued as a member at the terminal time.
 
-So the closing contradiction cannot be:
+So the CM close is not:
 
 ```text
 breakdown => Exit(Q), and Exit(Q) is definitionally forbidden.
 ```
 
-The stronger contradiction would require:
+The CM close is:
 
 ```text
-breakdown => Exit(Q) through Pack/Part/Field,
-but OriginalSmoothData => no such Pack/Part/Field exit.
+breakdown or failed continuation estimate
+=> canonical terminal obstruction
+=> Pack/Part/Field face failure
+=> Exit(Q):=not Member(Q).
 ```
 
 ## Boundary
