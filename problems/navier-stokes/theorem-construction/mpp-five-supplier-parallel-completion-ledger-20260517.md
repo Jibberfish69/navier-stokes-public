@@ -22,8 +22,8 @@ missing.
 
 The governing source-wall handoff is
 `mpp-positive-remainder-source-supplier-handoff-20260516.md`. Its absorbed MCP
-packet sharpened the current positive supplier atom to
-`PositiveRemainderDepletion.A` and recorded the clean obstruction:
+packet sharpened the separate positive-supplier support atom, quarantined outside
+CM, to `PositiveRemainderDepletion.A` and recorded the clean obstruction:
 
 ```text
 current inputs route legal terms and pay ASAC alignment,
