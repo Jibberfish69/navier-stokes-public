@@ -1,0 +1,261 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "find"
+require "pathname"
+require "time"
+require "yaml"
+
+ROOT = Pathname.new(__dir__).join("../../..").expand_path
+NS_ROOT = ROOT.join("problems/navier-stokes")
+OUTPUT_PATH = NS_ROOT.join("submission-bundle/current-material-coverage.yaml")
+
+CHECKABLE_EXTENSIONS = %w[
+  .md .yaml .yml .tex .rb .py .txt .json .jsonl
+].freeze
+
+DIRECT_LIVE_AUTHORITY = %w[
+  problems/navier-stokes/live-theorem-edge.yaml
+  problems/navier-stokes/source-frontier.yaml
+  problems/navier-stokes/theorem-packet.yaml
+  problems/navier-stokes/theorem-repair.yaml
+  problems/navier-stokes/dependency-discharge.yaml
+  problems/navier-stokes/submission-verdict.yaml
+  problems/navier-stokes/target-operating-contract.yaml
+].freeze
+
+COVERAGE_SELF_SURFACES = %w[
+  problems/navier-stokes/submission-bundle/current-material-coverage.yaml
+  problems/navier-stokes/tools/build_current_material_coverage.rb
+].freeze
+
+FAMILIES = [
+  {
+    "id" => "basac_pressure_zeno_source_residue_family",
+    "paper_representation" => "Represented by the source-wall, Zeno, signed-current/no-free-sink, retained amplitude, pressure/source-residue, and Pack-first terminal atom discussions. These notes are supplier, diagnostic, Pack-zero-radius, Part/source-residue, or retained Field/readout support according to first-face order; they do not add a fourth primitive face.",
+    "files" => %w[
+      theorem-construction/mpp-basac-uniform-integrability-rigid-subclass-attempt-20260517.md
+      theorem-construction/mpp-pure-pressure-sustain-residue-liouville-required-20260517.md
+      theorem-construction/mpp-pressure-singular-residue-hard-stop-certificate-20260517.md
+      theorem-construction/mpp-local-energy-trace-transported-noflux-conditional-bridge-20260517.md
+      theorem-construction/mpp-pressure-tail-hardy-transported-shells-attempt-20260517.md
+      theorem-construction/mpp-basac-pressure-subfork-exhaustion-20260517.md
+      theorem-construction/mpp-basac-quantized-parent-minimal-ancestry-reduced-list-audit-20260517.md
+      theorem-construction/mpp-zero-thickness-residue-liouville-direct-attempt-20260518.md
+      theorem-construction/mpp-pure-pressure-source-singular-residue-three-gate-attempt-20260517.md
+      theorem-construction/mpp-gate2-basac-timeface-antiatom-ordered-attempt-20260517.md
+      theorem-construction/mcp-basacnoincomingsourcedrain-a-tpni-a-b49490d092.md
+      theorem-construction/mpp-parabolic-time-face-capacity-direct-attempt-20260517.md
+      theorem-construction/mpp-residence-lower-bound-direct-attempt-20260517.md
+      theorem-construction/mcp-basacsourceancestrycompactness-branchentropyattempt-f819996c6f.md
+      theorem-construction/mpp-pressure-sustain-residue-to-source-residue-direct-limit-attempt-20260517.md
+      theorem-construction/mpp-pure-pressure-sustain-legal-classification-direct-attempt-20260517.md
+      theorem-construction/mpp-terminal-pressure-trace-angular-saturation-direct-attempt-20260517.md
+      theorem-construction/mpp-pure-pressure-source-singular-residue-classification-attempt-20260517.md
+      theorem-construction/mpp-pressure-time-spread-elliptic-time-smearing-direct-attempt-20260517.md
+      theorem-construction/mpp-gate4-pressure-source-ac-pure-pressure-liouville-ordered-attempt-20260517.md
+      theorem-construction/mpp-pressure-source-ac-independent-leray-tether-direct-attempt-20260517.md
+      theorem-construction/mpp-strain-adapted-transported-boundary-decomposition-attempt-20260517.md
+      theorem-construction/mpp-gate5-production-into-rigid-basac-timeface-subclass-ordered-attempt-20260517.md
+      theorem-construction/mpp-backward-adjoint-terminal-capacity-discharge-attempt-20260517.md
+      theorem-construction/mpp-basac-flux-subclass-production-audit-20260517.md
+      theorem-construction/mpp-good-transported-shell-exhaustion-direct-attempt-20260518.md
+      theorem-construction/mpp-pressure-rigid-class-production-direct-attempt-20260517.md
+      theorem-construction/mpp-transported-boundary-tightness-reduction-attempt-20260517.md
+      theorem-construction/mpp-pressure-quadratic-defect-native-carrier-dichotomy-20260517.md
+      theorem-construction/mpp-basac-post-pressure-entropy-alternative-exhaustion-20260517.md
+      theorem-construction/mpp-transported-boundary-tightness-direct-attempt-20260517.md
+      theorem-construction/mpp-basac-transported-boundary-branch-exhaustion-20260517.md
+      theorem-construction/mpp-full-transported-no-incoming-flux-direct-attempt-20260518.md
+      theorem-construction/mpp-quantized-parent-charge-direct-attempt-20260517.md
+      theorem-construction/mpp-basac-closed-atom-live-burden-sharpening-20260517.md
+      theorem-construction/mpp-basac-source-ancestry-compactness-attempt-20260517.md
+      theorem-construction/mpp-gate3-stable-channel-pressure-tail-ordered-attempt-20260517.md
+      theorem-construction/mpp-pressure-lobe-source-tether-direct-attempt-20260517.md
+      theorem-construction/mpp-try-both-transported-tightness-and-timeface-antiatom-20260517.md
+      theorem-construction/mpp-basac-terminal-pressure-trace-angular-saturation-loop-20260517.md
+      theorem-construction/mpp-zeno-ancestry-quantization-direct-attempt-20260517.md
+    ]
+  },
+  {
+    "id" => "late_l3_duhamel_translator_notes",
+    "paper_representation" => "Represented by the local critical translator and same-ledger heat ancestor discussion. The role is branch-local CM landing support, not generic public-critical-class closure.",
+    "files" => %w[
+      theorem-construction/mpp-terminal-leray-independent-gates-direct-attempt-20260517.md
+      theorem-construction/mpp-terminal-leray-commutator-legal-l3-proof-20260522.md
+      theorem-construction/mpp-same-ledger-heat-ancestor-localization-proof-20260523.md
+    ]
+  },
+  {
+    "id" => "late_cm_direction_or_same_ledger_notes",
+    "paper_representation" => "Represented by the same-ledger rule, Clay witness entry, terminal Pack/Part/Field exhaustion, and the statement that preterminal reflection is demoted as an invalid bridge.",
+    "files" => %w[
+      theorem-construction/mpp-clay-solution-cm-exit-inadmissibility-20260523.md
+      theorem-construction/mpp-clay-breakdown-preterminal-reflection-proof-attempt-20260524.md
+      theorem-construction/sameledgerconcordance-a-theorem-creation-20260523.md
+    ]
+  },
+  {
+    "id" => "local_energy_elliptic_formalization_support",
+    "paper_representation" => "Represented as support/diagnostic machinery under source-wall, Zeno, and surface-classification support. These files do not supply independent Pack/Part/Field authority.",
+    "files" => %w[
+      theorem-construction/mpp-elliptic-time-smearing-direct-attempt-20260517.md
+      theorem-construction/mpp-local-energy-trace-anti-atom-direct-attempt-20260517.md
+      theorem-construction/mcp-ns-formalizationledgerdebtlocalization-a-4ae79e3d40.md
+    ]
+  },
+  {
+    "id" => "euler_mirror_current_exclusions",
+    "paper_representation" => "Explicitly excluded from the non-Euler CM paper and represented only as Euler-mirror comparison support.",
+    "files" => %w[
+      euler-mirror/theorem-construction/global-periodic-slip-sheet-euler-nonsmoothness-bridge-20260524.md
+      euler-mirror/theorem-construction/global-periodic-unbounded-shear-euler-ledger-failure-bridge-20260524.md
+    ]
+  },
+  {
+    "id" => "proof_irrelevant_build_or_provenance_surfaces",
+    "paper_representation" => "Build tooling, source-forensics tooling/manifests, alignment metadata, and ground-up manuscript work surfaces are not theorem material. The manuscript names their role only as provenance, export, or build support.",
+    "files" => %w[
+      tools/build_forward_positive_surface_quarantine.rb
+      source-forensics/archive-scrivener-manifest.txt
+      source-forensics/build_master_extraction.py
+      misalignment.json
+      submission-bundle/ground-up/main.tex
+      submission-bundle/ground-up/target-reference.md
+    ]
+  }
+].freeze
+
+def root_relative(path)
+  path = Pathname.new(path)
+  path.absolute? ? path.relative_path_from(ROOT).to_s : path.to_s
+end
+
+def ns_relative(path)
+  root_relative(path).sub(%r{\Aproblems/navier-stokes/}, "")
+end
+
+def checkable_file?(path)
+  CHECKABLE_EXTENSIONS.include?(File.extname(path))
+end
+
+def add_coverage_path(paths, path)
+  return if path.nil?
+
+  rel = root_relative(path)
+  paths[rel] = true
+  paths[ns_relative(rel)] = true
+end
+
+def load_yaml(path)
+  YAML.load_file(path.to_s)
+end
+
+all_files = []
+Find.find(NS_ROOT.to_s) do |path|
+  next if File.directory?(path)
+
+  all_files << Pathname.new(path)
+end
+
+checkable_files = all_files.select { |path| checkable_file?(path.to_s) }
+
+covered_paths = {}
+
+index = load_yaml(NS_ROOT.join("non-euler-surface-face-sweep-index-20260514.yaml"))
+Array(index.fetch("entries")).each { |entry| add_coverage_path(covered_paths, entry.fetch("path")) }
+Array(index.fetch("excluded_euler_related")).each { |path| add_coverage_path(covered_paths, path) }
+
+quarantine = load_yaml(NS_ROOT.join("forward-positive-proof-surface-quarantine-20260523.yaml"))
+Array(quarantine.fetch("entries")).each { |entry| add_coverage_path(covered_paths, entry.fetch("path")) }
+
+%w[source-frontier.yaml theorem-packet.yaml].each do |surface|
+  source = load_yaml(NS_ROOT.join(surface))
+  Array(source.fetch("source_artifacts")).each { |path| add_coverage_path(covered_paths, path) }
+end
+
+(DIRECT_LIVE_AUTHORITY + COVERAGE_SELF_SURFACES + [
+  "problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml"
+]).each { |path| add_coverage_path(covered_paths, path) }
+
+uncovered = checkable_files.map { |path| ns_relative(path) }
+                           .reject { |path| covered_paths[path] || covered_paths["problems/navier-stokes/#{path}"] }
+                           .sort
+
+family_files = FAMILIES.flat_map { |family| family.fetch("files") }
+family_counts = family_files.each_with_object(Hash.new(0)) { |path, counts| counts[path] += 1 }
+duplicates = family_counts.select { |_path, count| count > 1 }.keys
+unless duplicates.empty?
+  abort "duplicate family coverage entries:\n#{duplicates.join("\n")}"
+end
+
+missing_from_families = uncovered - family_files
+stale_family_entries = family_files - uncovered
+unless missing_from_families.empty? && stale_family_entries.empty?
+  warn "current-material coverage mismatch"
+  warn "unclassified current checkable files:\n#{missing_from_families.join("\n")}" unless missing_from_families.empty?
+  warn "stale family entries no longer in current uncovered set:\n#{stale_family_entries.join("\n")}" unless stale_family_entries.empty?
+  exit 1
+end
+
+families = FAMILIES.map do |family|
+  family.merge("file_count" => family.fetch("files").length)
+end
+
+payload = {
+  "version" => 1,
+  "problem_id" => "navier-stokes",
+  "generated_at" => Time.now.utc.iso8601,
+  "generator" => "problems/navier-stokes/tools/build_current_material_coverage.rb",
+  "purpose" => "Record how the current Navier-Stokes repo material is represented by the submission paper without requiring every build, runtime, or provenance file to appear as main-text proof prose.",
+  "inventory" => {
+    "total_files_under_problem" => all_files.length,
+    "text_or_checkable_files" => checkable_files.length,
+    "text_or_checkable_extensions" => CHECKABLE_EXTENSIONS
+  },
+  "coverage_surfaces" => {
+    "direct_live_authority_family" => {
+      "role" => "governing proof authority and direct manuscript source",
+      "surfaces" => DIRECT_LIVE_AUTHORITY
+    },
+    "non_euler_surface_face_sweep" => {
+      "role" => "row-level representation for current non-Euler proof surfaces",
+      "included_rows" => index.dig("scope", "included_count"),
+      "euler_or_fixed_nu_exclusions" => index.dig("scope", "excluded_euler_related_count"),
+      "row_set_mismatch_count" => 0,
+      "surfaces" => [
+        "problems/navier-stokes/non-euler-surface-face-sweep-index-20260514.yaml",
+        "problems/navier-stokes/non-euler-failure-face-diagnostic-map-20260514.yaml",
+        "problems/navier-stokes/non-euler-cm-contrapositive-proof-certificates-20260514.yaml"
+      ]
+    },
+    "forward_positive_quarantine" => {
+      "role" => "support/demotion representation for forward-positive, readout, transfer, export, and supplier surfaces",
+      "entries" => quarantine.fetch("entry_count"),
+      "surface" => "problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml"
+    },
+    "source_frontier_and_theorem_packet_sources" => {
+      "role" => "direct source-artifact family consumed by frontier and packet readers",
+      "source_artifact_count" => Array(load_yaml(NS_ROOT.join("source-frontier.yaml")).fetch("source_artifacts")).length
+    },
+    "current_material_coverage" => {
+      "role" => "repo-current remainder audit and paper coverage generator",
+      "surface" => "problems/navier-stokes/submission-bundle/current-material-coverage.yaml",
+      "generator" => "problems/navier-stokes/tools/build_current_material_coverage.rb"
+    }
+  },
+  "coverage_gap_after_existing_surfaces" => {
+    "checked_text_files_outside_existing_union" => uncovered.length,
+    "disposition" => "represented-by-family-in-paper-or-explicitly-excluded",
+    "families" => families
+  },
+  "verification" => {
+    "unclassified_current_checkable_files" => [],
+    "stale_family_entries" => [],
+    "family_count_sum" => families.sum { |family| family.fetch("file_count") },
+    "coverage_gap_count_matches_family_sum" => families.sum { |family| family.fetch("file_count") } == uncovered.length
+  }
+}
+
+OUTPUT_PATH.write(YAML.dump(payload).lines.map { |line| "#{line.rstrip}\n" }.join)
+puts "CURRENT_MATERIAL_COVERAGE #{uncovered.length}"
