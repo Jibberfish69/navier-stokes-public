@@ -4,7 +4,7 @@ artifact_id: non-euler-cm-contrapositive-proof-certificates-20260514
 based_on: non-euler-failure-face-diagnostic-map-20260514.yaml
 theorem: AllNonEulerCMContrapositiveClosure.A
 scope:
-  included_non_euler_text_surfaces: 1945
+  included_non_euler_text_surfaces: 1944
   excluded_euler_related_surfaces: 71
 claim:
   statement: 'Every indexed non-Euler Navier-Stokes row is certificate-classified
