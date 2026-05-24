@@ -11,25 +11,26 @@ decision:
   release_posture: revise-loop
   completion_tier_target: full-mpp-closure
   completion_tier_achieved: route-complete
-  next_cell_type: clay-breakdown-preterminal-reflection
+  next_cell_type: cm-face-no-first-terminal-loss
   next_stage: terminal-exit-closedness
   next_action: Prove CMFaceNoFirstTerminalLoss.A as the facewise bridge inside
     ClayBreakdownPreterminalReflection.A.
   rationale: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
     / ClayCMContrapositiveEmbedding.A is the installed Clay-facing CM target family;
-    ClayBreakdownPreterminalReflection.A, reduced to CMFaceNoFirstTerminalLoss.A,
-    is the one visible next theorem burden. TerminalCMNoExit.A / NoGenuineCMExit.A
+    CMFaceNoFirstTerminalLoss.A inside ClayBreakdownPreterminalReflection.A is the
+    one visible next theorem burden. TerminalCMNoExit.A / NoGenuineCMExit.A
     remains positive packet-survival support only.
   exact_live_theorem_grade_burden: &1
     status: theorem-facing-target
-    burden_id: clay-breakdown-preterminal-reflection
+    burden_id: cm-face-no-first-terminal-loss
     proof_mode: cm_contrapositive_class_exit
-    target_object: ClayBreakdownPreterminalReflection.A
+    target_object: CMFaceNoFirstTerminalLoss.A
+    parent_target: ClayBreakdownPreterminalReflection.A
     theorem_grade_statement: Prove that terminal Pack/Part/Field class-exit from
       a finite same-surface Clay breakdown witness reflects to a still-live preterminal
       Exit(Q_pre), now by discharging CMFaceNoFirstTerminalLoss.A.
-    active_container: claybreakdownpreterminalreflection-a
-    respawn_cell: clay-breakdown-preterminal-reflection
+    active_container: cmfacenofirstterminalloss-a
+    respawn_cell: cm-face-no-first-terminal-loss
     respawn_stage: terminal-exit-closedness
     allowed_input_boundary: The proof may use the installed Clay target family ClayTerminalWitnessCMEntry.A
       / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A plus
@@ -81,7 +82,7 @@ summary:
     proof as the Clay-facing CM target
 release_or_respawn_consequence:
   disposition: continue-theorem-facing
-  next_cell_type: clay-breakdown-preterminal-reflection
+  next_cell_type: cm-face-no-first-terminal-loss
   next_stage: terminal-exit-closedness
   next_action: Prove CMFaceNoFirstTerminalLoss.A as the facewise bridge inside
     ClayBreakdownPreterminalReflection.A.
@@ -276,14 +277,15 @@ open_root_group:
     not be narrated as one path, one method, one wall, or the whole NS target topology.
   exact_live_theorem_grade_burden:
     status: theorem-facing-target
-    burden_id: clay-breakdown-preterminal-reflection
+    burden_id: cm-face-no-first-terminal-loss
     proof_mode: cm_contrapositive_class_exit
-    target_object: ClayBreakdownPreterminalReflection.A
+    target_object: CMFaceNoFirstTerminalLoss.A
+    parent_target: ClayBreakdownPreterminalReflection.A
     theorem_grade_statement: Prove that terminal Pack/Part/Field class-exit from
       a finite same-surface Clay breakdown witness reflects to a still-live preterminal
       Exit(Q_pre), now by discharging CMFaceNoFirstTerminalLoss.A.
-    active_container: claybreakdownpreterminalreflection-a
-    respawn_cell: clay-breakdown-preterminal-reflection
+    active_container: cmfacenofirstterminalloss-a
+    respawn_cell: cm-face-no-first-terminal-loss
     respawn_stage: terminal-exit-closedness
     allowed_input_boundary: The proof may use the installed Clay target family ClayTerminalWitnessCMEntry.A
       / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A plus
