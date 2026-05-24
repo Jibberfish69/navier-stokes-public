@@ -144,6 +144,6 @@ Contract completion under `C1-C6` is still not a proof that Euler global
 smoothness is solved. After terminal comparison closure, stronger Euler theorem
 work stays inside route control through the May 23 continuum closure surfaces,
 which separate viscosity-free smoothness overlap, viscosity divergence,
-nonsmooth Euler boundary, and local-to-global bridge surfaces. The `ESM.N1`
-bridge now proves a global periodic base-`Member_E` nonsmoothness theorem with
-nonsmooth initial data.
+nonsmooth Euler boundary, and local-to-global bridge surfaces. The `ESM.N1` and
+`ESM.N2` bridges now prove global periodic base-`Member_E` nonsmoothness
+theorems with nonsmooth initial data.
