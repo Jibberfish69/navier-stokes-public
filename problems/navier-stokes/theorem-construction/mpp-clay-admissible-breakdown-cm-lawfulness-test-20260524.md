@@ -99,7 +99,7 @@ smooth solution, and explicitly marks the breakdown-counterexample version as a
 separate bridge. The class-membership endpoint note contains the right
 target-fidelity shape, but it marks itself as not yet proving global regularity.
 
-So the remaining non-positive-forward target is:
+The next target-fidelity test was:
 
 ```text
 ClayBreakdownClassExitInadmissibility.A:
@@ -107,8 +107,13 @@ classified Pack/Part/Field Exit(Q)
 cannot be a valid Clay breakdown counterexample witness.
 ```
 
-That is a target-fidelity/admissibility theorem, not a new source-wall supplier
-estimate.
+That test is recorded in
+`mpp-clay-breakdown-class-exit-inadmissibility-proof-attempt-20260524.md`.
+The target-fidelity-only proof fails: terminal class-exit contradicts a Clay
+smooth-solution witness, but a breakdown counterexample witness is allowed to be
+the allegation that no global smooth solution exists. The corrected burden is a
+preterminal-reflection or terminal-closedness theorem for the same Pack/Part/Field
+exit, not a new source-wall supplier estimate.
 
 ## Source Checks
 
