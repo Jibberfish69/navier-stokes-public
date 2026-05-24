@@ -1,6 +1,6 @@
 ---
-version: 1
-updated_on: '2026-05-23'
+version: 2
+updated_on: '2026-05-24'
 branch_id: euler-mirror-chat20
 artifact_id: euler-ns-continuum-closure-ledger
 closure_status: closed-as-route-control
@@ -82,18 +82,33 @@ closed_outputs:
       Lagrangian flow-map structure, or receiver ledgers. Locally, this refutes
       any implication from base Member_E to classical smoothness.
     global_consequence_readback: >-
-      A local nonsmooth Euler member does not by itself prove a global Euler
-      nonsmoothness theorem for a chosen datum, domain, and class. It becomes a
-      global theorem only after an explicit extension, embedding, or localization
-      bridge supplies those global requirements.
+      The ESM.N1 tangential slip-sheet member has now been globalized on
+      periodic domains by an explicit stationary slab construction, giving a
+      global finite-energy weak Euler Member_E object that is not classical.
+      Other local nonsmooth witnesses become global claims only when their own
+      extension, embedding, or localization bridge supplies the chosen global
+      datum, domain, and class.
   - id: continuum.local-to-global-boundary
-    status: closed-as-bridge-rule
+    status: closed-with-periodic-base-bridge
     theorem_readback: >-
       The local/global distinction is now fixed: local nonsmooth membership is a
       valid local Euler theorem and a valid counterexample to local
-      base-membership-implies-smoothness. A global claim requires a stated bridge
-      theorem. Absence of that bridge is not an open note inside this ledger; it
-      is the boundary of what the local theorem proves.
+      base-membership-implies-smoothness. The ESM.N1 bridge is installed as a
+      global periodic base-Member_E nonsmooth theorem with nonsmooth initial
+      data. Smooth-data finite-time blowup and the other nonsmooth rows remain
+      separately typed by their own hypotheses and bridge surfaces.
+  - id: continuum.global-periodic-base-nonsmoothness
+    status: closed-global-weak-member
+    rows:
+      - ESM.N1
+    theorem_readback: >-
+      The periodic slab theorem constructs a global finite-energy weak
+      incompressible Euler member on I x T^d whose local restriction is the
+      tangential slip-sheet witness and whose velocity is discontinuous on
+      global sheets. Thus base global Member_E does not imply global classical
+      smoothness.
+    authority:
+      - problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-slip-sheet-euler-nonsmoothness-bridge-20260524.md
 route_closure_tests:
   required_rows:
     smoothness_overlap:
@@ -121,7 +136,10 @@ route_closure_tests:
     - continuum.viscosity-divergence
     - continuum.nonsmooth-boundary
     - continuum.local-to-global-boundary
+    - continuum.global-periodic-base-nonsmoothness
 final_readback: >-
   The Euler surfaces now do what the continuum program needs: they identify the
-  viscosity-free smooth overlap, the exact viscosity divergence, and the local
-  nonsmooth Euler boundary, while keeping global consequences honest and typed.
+  viscosity-free smooth overlap, the exact viscosity divergence, the local
+  nonsmooth Euler boundary, and one exact global periodic base-Member_E
+  nonsmoothness theorem, while keeping smooth-data and other global consequences
+  separately typed.
