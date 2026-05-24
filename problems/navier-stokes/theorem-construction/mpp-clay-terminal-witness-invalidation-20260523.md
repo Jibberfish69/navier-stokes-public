@@ -66,11 +66,12 @@ Exit(Q;\mathfrak O_{NS}^{work})
 \neg Member(Q;\mathfrak O_{NS}^{work}).
 ```
 
-## Definition: CM-Lawful Clay Terminal Witness
+## Definition: CM-Test-Admissible Clay Terminal Object
 
-A finite-time Clay counterexample witness `W_*` is CM-lawful when it is offered
-as a witness for the same original Navier-Stokes solution, not as an external
-object.
+A finite-time Clay counterexample object `W_*` is CM-test-admissible when it is
+offered as a terminal object for the same original Navier-Stokes solution, not
+as an external object. Older notes call this `CM-lawful`; that phrase means
+admissible for the CM test, not `Member(Q)`.
 
 This means:
 
@@ -86,13 +87,13 @@ This means:
 5. same witness grammar: the only primitive terminal services available to that
    obstruction are `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`.
 
-This definition does not assume that `W_*` has no class-exit status. Class exit
-is the conclusion produced by the CM contrapositive.
+This definition does not assume that `W_*` is a class-member. Class exit is the
+conclusion produced only after a Pack/Part/Field face failure is derived.
 
 ## Theorem `ClayTerminalWitnessCMEntry.A`
 
-Every CM-lawful Clay terminal witness enters the same-fluid CM terminal packet
-tree.
+Every CM-test-admissible Clay terminal object enters the same-fluid CM terminal
+packet tree.
 
 ```math
 \boxed{
@@ -104,7 +105,7 @@ TerminalCMTree(W_*).
 
 ### Proof
 
-Let `W_*` be a CM-lawful Clay terminal witness at `T_*<\infty`.
+Let `W_*` be a CM-test-admissible Clay terminal object at `T_*<\infty`.
 
 Let `(u,p)` be the maximal classical solution from the original smooth datum on
 `[0,T_*)`. For every `\epsilon>0`, the restricted solution on
@@ -120,12 +121,12 @@ finite depth after choosing a positive local scale. By `CMW.A`, those predicates
 are not decorative estimates; they are the analytic witness family for being
 inside the same local Navier-Stokes object.
 
-Now take the terminal extraction that produces `W_*`. Since `W_*` is CM-lawful,
-the extraction is from this preterminal family and keeps the same datum, same
-equation, same pressure/velocity pair, and same transported fluid carrier.
-Boundary/cutoff/collar losses, non-selected branches, readout-only artifacts,
-and paid finite ledger terms have already been removed by the witness
-definition.
+Now take the terminal extraction that produces `W_*`. Since `W_*` is
+CM-test-admissible, the extraction is from this preterminal family and keeps the
+same datum, same equation, same pressure/velocity pair, and same transported
+fluid carrier. Boundary/cutoff/collar losses, non-selected branches,
+readout-only artifacts, and paid finite ledger terms have already been removed
+by the witness definition.
 
 So the surviving object has only one possible terminal grammar. It must ask:
 
@@ -148,8 +149,8 @@ So `W_*` enters `TerminalCMTree(W_*)`.
 
 ## Theorem `ClayFiniteFailureTypeCMExhaustion.A`
 
-Every CM-lawful finite Clay failure type is exhausted by a first failed CM
-witness face:
+Every CM-test-admissible finite Clay failure type is exhausted by a first failed
+CM witness face:
 
 ```math
 \boxed{
@@ -267,7 +268,7 @@ nor one-field coherence loss. But after legal losses, readout artifacts,
 non-selected branches, and paid finite ledger terms are removed, the installed
 terminal packet has only those three services.
 
-Hence every CM-lawful finite Clay witness satisfies
+Hence every CM-test-admissible finite Clay object produces one face failure:
 
 ```math
 \neg Pack_Q
@@ -322,8 +323,8 @@ participation survive.
 
 By `GenuineCMExit.Equiv.A`, loss of the continuation-complete same-fluid packet
 at the terminal tail is precisely genuine CM exit. The alleged finite terminal
-witness is therefore not a free-standing Clay object; it is a certified
-`Exit(Q)` witness for the same working Navier-Stokes object.
+object is therefore not a free-standing Clay object; the derived face failure is
+a certified `Exit(Q)` witness for the same working Navier-Stokes object.
 
 Since
 
@@ -333,13 +334,13 @@ Exit(Q;\mathfrak O_{NS}^{work})
 \neg Member(Q;\mathfrak O_{NS}^{work}),
 ```
 
-the Clay witness has been converted into the exact class-exit primitive used by
-the CM route.
+the derived face failure has been converted into the exact class-exit primitive
+used by the CM route.
 
 ## Theorem `ClayTerminalWitnessInvalidation.A`
 
-There is no CM-lawful finite Clay terminal witness that remains unclassified by
-the CM contrapositive program.
+There is no CM-test-admissible finite Clay terminal object whose face failure
+remains unclassified by the CM contrapositive program.
 
 ```math
 \boxed{
@@ -351,10 +352,10 @@ ClayWitness_{CM}(W_*)
 
 ### Proof
 
-Let `W_*` be a CM-lawful finite Clay terminal witness. By
+Let `W_*` be a CM-test-admissible finite Clay terminal object. By
 `ClayTerminalWitnessCMEntry.A`, it enters the same-fluid CM tree. By the
-Pack/Part/Field case split in `ClayFiniteFailureTypeCMExhaustion.A`, it lands
-in exactly one first failed service:
+Pack/Part/Field case split in `ClayFiniteFailureTypeCMExhaustion.A`, its finite
+failure type is classified by exactly one first failed service:
 
 ```text
 Pack fails first,
@@ -362,12 +363,13 @@ or Pack survives and Part fails,
 or Pack and Part survive and Field fails.
 ```
 
-By `ClayCMContrapositiveEmbedding.A`, each landing is an `Exit(Q)` witness.
-Therefore no CM-lawful finite Clay witness remains unclassified by the
-contrapositive program.
+By `ClayCMContrapositiveEmbedding.A`, each derived face failure supports
+`Exit(Q)`. Therefore no CM-test-admissible finite Clay object remains
+unclassified by the contrapositive program.
 
-The invalidation is exactly contrapositive: the alleged witness proves class
-exit instead of producing a surviving in-class counterexample object.
+The invalidation is exactly contrapositive: the alleged object produces a
+face-failure route to class exit instead of producing a surviving in-class
+counterexample object.
 
 ## Corollary `ClayCMCounterexampleExclusion.A`
 
@@ -376,11 +378,11 @@ Pack/Part/Field witness-face exhaustion.
 
 ### Proof
 
-A CM-route Clay counterexample must give a CM-lawful finite terminal witness
-whose failure is not already exhausted by the class-membership witness grammar.
-But `ClayTerminalWitnessInvalidation.A` proves that every such witness is
-exhausted by Pack, Part, or Field. Therefore no unexhausted CM-route finite-time
-Clay counterexample remains.
+A CM-route Clay counterexample must supply a CM-test-admissible finite terminal
+object whose failure is not already exhausted by the class-membership witness
+grammar. But `ClayTerminalWitnessInvalidation.A` proves that every such object
+has a derived Pack, Part, or Field face failure. Therefore no unexhausted
+CM-route finite-time Clay counterexample remains.
 
 ## Readback
 
