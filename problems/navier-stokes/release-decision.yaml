@@ -7,40 +7,40 @@ identity:
   evaluated_at: '2026-05-23T23:42:22Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
-  disposition: respawn
-  release_posture: revise-loop
+  disposition: revise
+  release_posture: terminal-cm-classification-installed
   completion_tier_target: full-mpp-closure
   completion_tier_achieved: route-complete
-  next_cell_type: cm-face-no-first-terminal-loss
-  next_stage: terminal-exit-closedness
-  next_action: Prove CMFaceNoFirstTerminalLoss.A as the facewise bridge inside
-    ClayBreakdownPreterminalReflection.A.
+  next_cell_type: surface-cleanup
+  next_stage: keep-terminal-cm-classification-authority
+  next_action: Do not respawn CMFaceNoFirstTerminalLoss.A or ClayBreakdownPreterminalReflection.A;
+    keep the Clay-facing CM authority on terminal Pack/Part/Field face classification
+    supporting Exit(Q):=not Member(Q).
   rationale: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
     / ClayCMContrapositiveEmbedding.A is the installed Clay-facing CM target family;
-    CMFaceNoFirstTerminalLoss.A inside ClayBreakdownPreterminalReflection.A is the
-    one visible next theorem burden. TerminalCMNoExit.A / NoGenuineCMExit.A
-    remains positive packet-survival support only.
+    the attempted CMFaceNoFirstTerminalLoss.A / ClayBreakdownPreterminalReflection.A
+    route is an invalid bridge promotion, not the next theorem burden. TerminalCMNoExit.A
+    / NoGenuineCMExit.A remains positive packet-survival support only.
   exact_live_theorem_grade_burden: &1
-    status: theorem-facing-target
-    burden_id: cm-face-no-first-terminal-loss
+    status: installed-terminal-cm-classification
+    burden_id: clay-terminal-cm-classification
     proof_mode: cm_contrapositive_class_exit
-    target_object: CMFaceNoFirstTerminalLoss.A
-    parent_target: ClayBreakdownPreterminalReflection.A
-    theorem_grade_statement: Prove that terminal Pack/Part/Field class-exit from
-      a finite same-surface Clay breakdown witness reflects to a still-live preterminal
-      Exit(Q_pre), now by discharging CMFaceNoFirstTerminalLoss.A.
-    active_container: cmfacenofirstterminalloss-a
-    respawn_cell: cm-face-no-first-terminal-loss
-    respawn_stage: terminal-exit-closedness
+    target_object: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
+    demoted_invalid_bridge: ClayBreakdownPreterminalReflection.A / CMFaceNoFirstTerminalLoss.A
+    theorem_grade_statement: Terminal Pack/Part/Field face failure from a finite
+      same-surface Clay breakdown object supports Exit(Q):=not Member(Q); no still-live
+      preterminal reflection burden is promoted.
+    active_container: clay-terminal-cm-classification
+    respawn_cell: none
+    respawn_stage: none
     allowed_input_boundary: The proof may use the installed Clay target family ClayTerminalWitnessCMEntry.A
       / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A plus
-      ClayAdmissibleFiniteBreakdown.A, CanonicalTerminalPacketCapture.A, SLC.A, CMW.A,
-      and ClaySolutionCMExitInadmissibility.A. TerminalCMNoExit.A / NoGenuineCMExit.A
-      and positive supplier surfaces remain support unless they prove preterminal
-      reflection directly.
-    nearest_wrong_substitution: Recasting the remaining burden as TerminalCMNoExit.A
-      / NoGenuineCMExit.A packet survival, a bare positive-supplier deletion theorem,
-      or a definition-level exclusion of Clay breakdown witnesses.
+      ClayAdmissibleFiniteBreakdown.A and AnyFiniteFailureWitnessCMExit.A. TerminalCMNoExit.A
+      / NoGenuineCMExit.A and positive supplier surfaces remain support unless they
+      prove typed Pack/Part/Field terminal classification support directly.
+    nearest_wrong_substitution: Recasting the terminal class-exit witness as a
+      positive packet-survival theorem, source-supplier deletion theorem, or backward
+      preterminal-reflection obligation.
 artifacts:
   draft:
   draft_v6: problems/navier-stokes/draft-v6.md
@@ -81,11 +81,11 @@ summary:
     reintroduce TerminalCMNoExit.A / NoGenuineCMExit.A or a positive source-wall supplier
     proof as the Clay-facing CM target
 release_or_respawn_consequence:
-  disposition: continue-theorem-facing
-  next_cell_type: cm-face-no-first-terminal-loss
-  next_stage: terminal-exit-closedness
-  next_action: Prove CMFaceNoFirstTerminalLoss.A as the facewise bridge inside
-    ClayBreakdownPreterminalReflection.A.
+  disposition: keep-terminal-cm-classification-authority
+  next_cell_type: surface-cleanup
+  next_stage: no-preterminal-reflection-respawn
+  next_action: Keep release and review surfaces on the installed terminal CM classification
+    chain; do not respawn CMFaceNoFirstTerminalLoss.A or ClayBreakdownPreterminalReflection.A.
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight:
   rule_id: ns-target-topology-preflight-v2
@@ -276,26 +276,25 @@ open_root_group:
   dashboard_boundary: This group may be counted as one release blocker, but it must
     not be narrated as one path, one method, one wall, or the whole NS target topology.
   exact_live_theorem_grade_burden:
-    status: theorem-facing-target
-    burden_id: cm-face-no-first-terminal-loss
+    status: installed-terminal-cm-classification
+    burden_id: clay-terminal-cm-classification
     proof_mode: cm_contrapositive_class_exit
-    target_object: CMFaceNoFirstTerminalLoss.A
-    parent_target: ClayBreakdownPreterminalReflection.A
-    theorem_grade_statement: Prove that terminal Pack/Part/Field class-exit from
-      a finite same-surface Clay breakdown witness reflects to a still-live preterminal
-      Exit(Q_pre), now by discharging CMFaceNoFirstTerminalLoss.A.
-    active_container: cmfacenofirstterminalloss-a
-    respawn_cell: cm-face-no-first-terminal-loss
-    respawn_stage: terminal-exit-closedness
+    target_object: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
+    demoted_invalid_bridge: ClayBreakdownPreterminalReflection.A / CMFaceNoFirstTerminalLoss.A
+    theorem_grade_statement: Terminal Pack/Part/Field face failure from a finite
+      same-surface Clay breakdown object supports Exit(Q):=not Member(Q); no still-live
+      preterminal reflection burden is promoted.
+    active_container: clay-terminal-cm-classification
+    respawn_cell: none
+    respawn_stage: none
     allowed_input_boundary: The proof may use the installed Clay target family ClayTerminalWitnessCMEntry.A
       / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A plus
-      ClayAdmissibleFiniteBreakdown.A, CanonicalTerminalPacketCapture.A, SLC.A, CMW.A,
-      and ClaySolutionCMExitInadmissibility.A. TerminalCMNoExit.A / NoGenuineCMExit.A
-      and positive supplier surfaces remain support unless they prove preterminal
-      reflection directly.
-    nearest_wrong_substitution: Recasting the remaining burden as TerminalCMNoExit.A
-      / NoGenuineCMExit.A packet survival, a bare positive-supplier deletion theorem,
-      or a definition-level exclusion of Clay breakdown witnesses.
+      ClayAdmissibleFiniteBreakdown.A and AnyFiniteFailureWitnessCMExit.A. TerminalCMNoExit.A
+      / NoGenuineCMExit.A and positive supplier surfaces remain support unless they
+      prove typed Pack/Part/Field terminal classification support directly.
+    nearest_wrong_substitution: Recasting the terminal class-exit witness as a
+      positive packet-survival theorem, source-supplier deletion theorem, or backward
+      preterminal-reflection obligation.
   cm_exit_discipline: A theorem surface is live for the CM program only when it is
     generated by negating the installed continuation packet, or when a checked bridge
     lands it in a typed Pack, Part, or Field obligation. The H^s readout bridge is
