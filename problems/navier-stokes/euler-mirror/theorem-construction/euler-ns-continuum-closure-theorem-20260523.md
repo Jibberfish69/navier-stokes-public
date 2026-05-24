@@ -61,10 +61,15 @@ rule is recorded.
 The local theorem is closed: a local nonsmooth Euler member refutes local
 base-membership-implies-classical-smoothness.
 
-The global consequence is typed: the same local witness becomes a global Euler
-nonsmoothness theorem only after an explicit bridge supplies the chosen global
-datum, domain, and class. This file closes the boundary; it does not silently
-promote a local witness into a global theorem.
+The ESM.N1 global consequence is now closed by the periodic slip-sheet bridge:
+there is a global finite-energy weak Euler `Member_E` object on `I x T^d` whose
+restriction to a local chart is the tangential slip-sheet witness and whose
+velocity is discontinuous on global sheets. This proves that base global
+`Member_E` does not imply global classical smoothness.
+
+The smooth-data finite-time question remains separately typed. The periodic
+slip-sheet theorem uses nonsmooth initial data; it is a global weak-Euler
+nonsmoothness theorem, not a fixed smooth-datum blowup theorem.
 
 ## Navier-Stokes Consequence
 
