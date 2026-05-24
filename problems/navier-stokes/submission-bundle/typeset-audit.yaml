@@ -1,18 +1,17 @@
 ---
 version: 2
 problem_id: navier-stokes
-generated_at: '2026-05-24T19:03:58Z'
+generated_at: '2026-05-24T19:10:51Z'
 status: exported
 render_quality: typeset
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 page_count: 28
-overfull_box_count: 1
+overfull_box_count: 0
 overfull_box_count_gt_20pt: 0
-max_overfull_box_pt: 0.11938
+max_overfull_box_pt: 0.0
 underfull_box_count: 0
 undefined_control_sequence_count: 0
 missing_dollar_count: 0
 latex_error_count: 0
-warnings:
-- one 0.11938pt overfull hbox remains from ordinary hyphenation; no rerun, undefined control sequence, missing dollar, emergency stop, or LaTeX error remains after repeated compile.
+warnings: []
