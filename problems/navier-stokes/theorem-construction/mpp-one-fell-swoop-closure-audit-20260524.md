@@ -28,9 +28,9 @@ breakdown is not outside the CM grammar.
 It does not yet prove that such a terminal class exit is impossible from
 original smooth data.
 
-## Exact Remaining MPP-Closing Burden
+## Program Boundary
 
-The remaining contradiction theorem is:
+The following theorem is the positive no-exit program:
 
 ```text
 OriginalSmoothData
@@ -43,9 +43,12 @@ In repo labels, this is the no-genuine-exit theorem:
 NoGenuineCMExit.A / TerminalCMNoExit.A.
 ```
 
-This theorem is separate from terminal classification. The classification theorem
-types the alleged bad object. The no-genuine-exit theorem rules out every typed
-exit from original smooth data.
+It is separate from the active CM contrapositive classification program. The
+classification theorem types the alleged bad object. The no-genuine-exit theorem
+rules out every typed exit from original smooth data.
+
+Do not pursue this as the next CM-contrapositive move unless the proof program is
+explicitly switched to positive no-exit / packet survival.
 
 ## Why The Shortcut Fails
 
@@ -60,7 +63,7 @@ So the closing contradiction cannot be:
 breakdown => Exit(Q), and Exit(Q) is definitionally forbidden.
 ```
 
-The honest contradiction must be:
+The stronger contradiction would require:
 
 ```text
 breakdown => Exit(Q) through Pack/Part/Field,
@@ -70,8 +73,13 @@ but OriginalSmoothData => no such Pack/Part/Field exit.
 ## Boundary
 
 This audit does not promote the invalid preterminal-reflection bridge. It also
-does not replace the CM contrapositive program with a generic forward proof.
+does not replace the CM contrapositive program with a positive no-exit proof.
 
-It marks the single remaining closure pressure: prove the no-genuine-exit theorem
-facewise, with the Pack branch first, while keeping supplier/readout material
-quarantined until it lands in Pack, Part, or Field.
+The next lawful CM-contrapositive move is terminal completeness/extraction:
+
+```text
+finite Clay breakdown object
+=> canonical same-solution terminal obstruction
+=> Pack/Part/Field face failure
+=> Exit(Q):=not Member(Q).
+```
