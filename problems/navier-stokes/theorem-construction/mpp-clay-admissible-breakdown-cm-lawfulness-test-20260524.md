@@ -113,9 +113,11 @@ That test is recorded in
 `mpp-clay-breakdown-class-exit-inadmissibility-proof-attempt-20260524.md`.
 The target-fidelity-only proof fails: terminal class-exit contradicts a Clay
 smooth-solution witness, but a breakdown counterexample witness is allowed to be
-the allegation that no global smooth solution exists. The corrected burden is a
-preterminal-reflection or terminal-closedness theorem for the same Pack/Part/Field
-exit, not a new source-wall supplier estimate.
+the allegation that no global smooth solution exists. The corrected burden is
+terminal CM completeness for the same Pack/Part/Field face classification: make
+the canonical terminal object precise enough that the failure has no fourth
+primitive service outside Pack, Part, and Field. The preterminal-reflection route
+is not promoted.
 
 ## Source Checks
 
