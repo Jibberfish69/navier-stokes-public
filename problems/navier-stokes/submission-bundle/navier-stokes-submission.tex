@@ -556,11 +556,11 @@ The paper also carries a current-material coverage audit:
 \end{array}
 \]
 That audit is generated from the present repository, not only the May 14 sweep.
-It records \(2403\) files under the Navier--Stokes lane, \(2377\) text or checkable files,
-and \(60\) text files outside the existing index/quarantine/source-artifact
-union. Those \(60\) files are not treated as silent omissions: they are sorted
+It records \(2404\) files under the Navier--Stokes lane, \(2378\) text or checkable files,
+and \(61\) text files outside the existing index/quarantine/source-artifact
+union. Those \(61\) files are not treated as silent omissions: they are sorted
 as BASAC/pressure/Zeno source-residue work, local \(L^3\)/Leray/heat translator
-work, same-ledger, terminal-completeness, closure-boundary, and CM-direction corrections, Euler-mirror comparison notes,
+work, same-ledger, canonical-obstruction, terminal-completeness, closure-boundary, and CM-direction corrections, Euler-mirror comparison notes,
 or proof-irrelevant build/provenance surfaces.
 
 The point of the sweep is not to say that every note proves smoothness. The point
@@ -1517,8 +1517,15 @@ The current terminal-completeness hardening note names this normal-form step:
 Its job is not to prove a positive no-exit theorem. Its job is to verify that a
 finite, same-surface Clay breakdown object satisfying the five CM-lawful clauses
 really does extract a same-solution terminal obstruction eligible for the
-Pack/Part/Field packet capture. Once that extraction is definition-level, the
-next theorem is exactly the first-face exhaustion below.
+Pack/Part/Field packet capture. The corresponding extraction theorem is:
+\[
+  \texttt{ClayBreakdownCanonicalTerminalObstruction.A}.
+\]
+That theorem supplies the bridge from
+\(ClayAdmissibleFiniteBreakdown(W_*)\) to a
+same-solution terminal obstruction eligible for
+CanonicalTerminalPacketCapture.A. The next theorem is exactly the first-face
+exhaustion below.
 
 \begin{theorem}[ClayFiniteFailureTypeCMExhaustion.A]
 Every CM-lawful finite Clay failure type is exhausted by a first failed CM
@@ -1698,6 +1705,7 @@ from the current materialized ledgers. The governing theorem-facing sources are:
 \item \texttt{mpp-cm-cross-face-synthesis-bridge-license-audit-20260505.md};
 \item \texttt{mpp-canonical-terminal-packet-capture-20260522.md};
 \item \texttt{mpp-any-finite-failure-witness-cm-exit-20260521.md};
+\item \texttt{mpp-clay-breakdown-canonical-terminal-obstruction-20260524.md};
 \item \texttt{mpp-clay-terminal-cm-completeness-hardening-20260524.md};
 \item \texttt{mpp-one-fell-swoop-closure-audit-20260524.md};
 \item \texttt{mpp-clay-terminal-witness-invalidation-20260523.md};
@@ -1732,15 +1740,15 @@ Euler/fixed-\(\nu\)/Euler-class exclusions & 71\\
 Index/diagnostic/certificate row-set mismatches & 0\\
 Duplicate indexed paths in materialized row lists & 0\\
 \hline
-Files under the current Navier--Stokes lane & 2403\\
-Text or checkable files under the current lane & 2377\\
-Text files outside the existing coverage union & 60\\
+Files under the current Navier--Stokes lane & 2404\\
+Text or checkable files under the current lane & 2378\\
+Text files outside the existing coverage union & 61\\
 \end{tabular}
 \end{center}
 
 \subsection{Current Material Outside The Existing Sweep}
 
-The \(60\) current text files outside the existing index/quarantine/source
+The \(61\) current text files outside the existing index/quarantine/source
 artifact union are covered by family rather than printed as a second manuscript.
 The coverage audit records the exact file list.
 
@@ -1750,12 +1758,12 @@ The coverage audit records the exact file list.
 \hline
 BASAC, pressure, Zeno, transported-boundary, and source-residue attempts & 41\\
 Local \(L^3\), Leray, and same-ledger heat translator notes & 3\\
-CM-direction, terminal-completeness, closure-boundary, same-ledger, and invalid preterminal-reflection notes & 5\\
+CM-direction, canonical-obstruction, terminal-completeness, closure-boundary, same-ledger, and invalid preterminal-reflection notes & 6\\
 Local-energy, elliptic-time-smearing, and formalization support & 3\\
 Euler-mirror comparison notes excluded from the non-Euler CM proof & 2\\
 Build, source-forensics, and provenance surfaces & 6\\
 \hline
-\textbf{Total current files outside existing coverage union} & \textbf{60}
+\textbf{Total current files outside existing coverage union} & \textbf{61}
 \end{tabular}
 \end{center}
 
@@ -1765,9 +1773,10 @@ retained-amplitude, pressure/source-residue, and Pack-first terminal-atom
 discussion. It remains supplier, diagnostic, zero-radius Pack, Part/source
 residue, or retained Field/readout material according to first-face order. The
 local \(L^3\) and heat notes are represented by the local critical translator
-and same-ledger heat ancestor. The CM-direction, terminal-completeness, and
-closure-boundary notes are represented by the same-ledger rule, the CM-lawful
-witness definition, the terminal-completeness hardening target, the
+and same-ledger heat ancestor. The CM-direction, canonical-obstruction,
+terminal-completeness, and closure-boundary notes are represented by the
+same-ledger rule, the CM-lawful witness definition, the canonical terminal
+obstruction extraction step, the terminal-completeness hardening target, the
 one-fell-swoop boundary paragraph, and the terminal witness argument, including
 the demotion of preterminal reflection. The Euler-mirror notes stay in the
 comparison branch. The build and provenance files are not theorem material.
