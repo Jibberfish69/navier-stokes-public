@@ -105,4 +105,4 @@ Equivalently:
 
 ## Verdict
 
-The branch remains open.  The loop has stabilized at the positive-supplier frontier: prove temporal anti-concentration of the native source residue, or prove active-shell amplitude gain / source normalization on moving terminal shells.
+The separate downstream branch remains open outside CM.  The loop has stabilized at the quarantined supplier frontier: prove temporal anti-concentration of the native source residue, or prove active-shell amplitude gain / source normalization on moving terminal shells.
