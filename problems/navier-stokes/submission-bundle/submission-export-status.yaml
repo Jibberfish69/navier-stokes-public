@@ -1,7 +1,7 @@
 ---
 version: 2
 problem_id: navier-stokes
-generated_at: '2026-05-24T22:48:18Z'
+generated_at: '2026-05-24T23:43:08Z'
 status: exported-working-draft
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -9,11 +9,11 @@ bundle_dir: problems/navier-stokes/submission-bundle
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
-  source_word_count: 10714
-  bundle_word_count: 10714
-  page_count: 27
-  source_bytes: 78966
-  pdf_bytes: 454314
+  source_word_count: 11015
+  bundle_word_count: 11015
+  page_count: 28
+  source_bytes: 82072
+  pdf_bytes: 457512
 skeletal_source_detected: false
 authoritative_content_included: true
 ground_up_rebuild:
@@ -33,6 +33,14 @@ authority_sources:
 - problems/navier-stokes/non-euler-cm-contrapositive-proof-certificates-20260514.yaml
 - problems/navier-stokes/non-euler-failure-face-diagnostic-map-20260514.yaml
 - problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
+- problems/navier-stokes/submission-bundle/current-material-coverage.yaml
+- problems/navier-stokes/tools/build_current_material_coverage.rb
+current_material_coverage:
+  audit: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
+  generator: problems/navier-stokes/tools/build_current_material_coverage.rb
+  total_files_under_problem: 2401
+  text_or_checkable_files: 2375
+  text_files_outside_existing_coverage_union: 58
 stdout: ''
 stderr: ''
 fallback:
@@ -41,8 +49,9 @@ source_wall_root_cm_status: >-
   target: synchronized witness ledger, CanonicalTerminalPacketCapture.A,
   AnyFiniteFailureWitnessCMExit.A, ClayTerminalWitnessCMEntry.A /
   ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A,
-  the materialized 1944-row non-Euler surface sweep, and the forward-positive
-  quarantine ledger. The forward-positive proof program is developed as the
+  the materialized 1944-row non-Euler surface sweep, the forward-positive
+  quarantine ledger, and the generated current-material coverage audit. The forward-positive proof program is developed as the
   gold-standard obstruction field, then each branch is landed in Pack_Q,
   Part_{N,Q}, Field_{N,r,Q}, typed subset status, inherited authority, or support
-  quarantine.
+  quarantine; current repo material outside the existing sweep is represented by
+  family in the appendix or excluded as proof-irrelevant provenance/comparison work.
