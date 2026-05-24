@@ -59,11 +59,11 @@ global_readback:
     layers assumed above Member_E.
   nonsmooth_where: >-
     Euler is nonsmooth or not forced smooth at base Member_E, tangential
-    slip/vortex-sheet witnesses, singular limits of smooth shear layers,
-    same-datum non-classical weak branches, boundary blowup comparisons, and
-    base attempts to force the ELCI.CP.A receiver ledger. The tangential
-    slip/vortex-sheet witness also has a global periodic weak-Euler
-    globalization with nonsmooth initial data.
+    slip/vortex-sheet witnesses, stationary unbounded shear, singular limits of
+    smooth shear layers, same-datum non-classical weak branches, boundary blowup
+    comparisons, and base attempts to force the ELCI.CP.A receiver ledger. The
+    tangential slip/vortex-sheet witness and stationary unbounded shear both
+    have global periodic weak-Euler globalizations with nonsmooth initial data.
   viscosity_role: >-
     The parent Navier-Stokes route uses viscosity as shear participation,
     lower-collar absorption, ACT.KX scheduling, top-viscous readout, dyadic
@@ -122,10 +122,11 @@ case_matrix:
   - id: ESM.N2
     classification: false_base_implication
     euler_scenario: stationary unbounded shear satisfies base Member_E but fails smoothness and the ELCI receiver ledger
-    ns_control_readback: refutes the base-Euler-to-ledger move; parent NS closes the analogous receiver only by spending absorption/readout machinery
+    ns_control_readback: refutes the base-Euler-to-ledger move; periodic singular-sheet globalization makes the same failure a global base Member_E theorem; parent NS closes the analogous receiver only by spending absorption/readout machinery
     authority:
       - problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-mirror-terminal-closure-20260522.md
       - problems/navier-stokes/euler-mirror/theorem-construction/mpp-elci-cp-a-separation-closure-20260522.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-unbounded-shear-euler-ledger-failure-bridge-20260524.md
   - id: ESM.N3
     classification: nonsmooth_control
     euler_scenario: zero-thickness limit of smooth shear layers
@@ -376,6 +377,7 @@ surface_rules:
       - theorem-construction/mpp-euler-pressure-nonparticipation-vortex-sheet-witness-20260517.md
       - theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md
       - theorem-construction/global-periodic-slip-sheet-euler-nonsmoothness-bridge-20260524.md
+      - theorem-construction/global-periodic-unbounded-shear-euler-ledger-failure-bridge-20260524.md
     classifications:
       - smooth_by_hypothesis
       - nonsmooth_control
