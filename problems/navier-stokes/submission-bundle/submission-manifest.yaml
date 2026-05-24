@@ -1,36 +1,36 @@
 ---
-version: 1
+version: 2
 problem_id: navier-stokes
 display_name: Navier-Stokes Global Regularity
-generated_at: '2026-05-04T21:12:53Z'
-manuscript_source: problems/navier-stokes/external-paper/main.tex
+generated_at: '2026-05-24T18:02:38Z'
+manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 manuscript_source_kind: tex
-manuscript_source_reason: campaign-status.current_manuscript_surface.external_surface
+manuscript_source_reason: ground-up CM contrapositive paper rebuild from direct-live authority
 source_metrics:
-  source_word_count: 753
-  bundle_word_count: 2006
-  primary_surface_word_count: 838
-  theorem_packet_word_count: 3529
-submission_metadata: problems/navier-stokes/submission-metadata.yaml
+  source_word_count: 2412
+  bundle_word_count: 2412
+  page_count: 7
 outputs:
   tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
-theorem_surface:
-  surface_id: theorem-surface-navier-stokes-2c70408d797b
-  route_signature: 2c70408d797b2ac65c6625876200ddcbe65a954f
-  slot_ids: []
+ground_up_rebuild:
+  target_reference: problems/navier-stokes/submission-bundle/ground-up/target-reference.md
+  source: problems/navier-stokes/submission-bundle/ground-up/main.tex
+  pdf: problems/navier-stokes/submission-bundle/ground-up/main.pdf
 copied_artifacts:
   theorem_packet: problems/navier-stokes/submission-bundle/theorem-packet.yaml
   submission_verdict: problems/navier-stokes/submission-bundle/submission-verdict.yaml
   frozen_core: problems/navier-stokes/submission-bundle/frozen-core.md
   source_frontier: problems/navier-stokes/submission-bundle/source-frontier.yaml
   promotion_verdict: problems/navier-stokes/submission-bundle/promotion-verdict.yaml
-authoritative_supplements:
-- id: authoritative-authoring-surface
-  source_path: problems/navier-stokes/draft-v8.md
-  bundle_path: problems/navier-stokes/submission-bundle/sections/authoritative-authoring-surface.tex
-  kind: markdown
-- id: authoritative-theorem-packet
-  source_path: problems/navier-stokes/theorem-packet.yaml
-  bundle_path: problems/navier-stokes/submission-bundle/sections/authoritative-theorem-packet.tex
-  kind: yaml
+authority_sources:
+- problems/navier-stokes/live-theorem-edge.yaml
+- problems/navier-stokes/source-frontier.yaml
+- problems/navier-stokes/theorem-packet.yaml
+- problems/navier-stokes/theorem-repair.yaml
+- problems/navier-stokes/dependency-discharge.yaml
+- problems/navier-stokes/submission-verdict.yaml
+- problems/navier-stokes/target-operating-contract.yaml
+- problems/navier-stokes/non-euler-cm-contrapositive-proof-certificates-20260514.yaml
+- problems/navier-stokes/non-euler-failure-face-diagnostic-map-20260514.yaml
+- problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
