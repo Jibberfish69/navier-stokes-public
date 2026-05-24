@@ -1,10 +1,10 @@
 ---
-version: 3
+version: 4
 identity:
   problem_id: navier-stokes
   branch_id: euler-mirror-chat20
   artifact_id: route-lock-navier-stokes-euler-mirror
-  updated_on: '2026-05-23'
+  updated_on: '2026-05-24'
   generator: codex-euler-ontology-repair
 governing_object_law:
   status: active
@@ -134,14 +134,16 @@ euler_ns_continuum_program_lock:
     structure plus extra viscous regularization.
   nonsmoothness_boundary_rule: >-
     A local nonsmooth Euler member proves that base Member_E does not force
-    classical smoothness locally. Any claim about global Euler nonsmoothness
-    additionally needs a stated bridge from that local member to the chosen
-    global datum, domain, and class.
+    classical smoothness locally. For ESM.N1, the periodic slip-sheet
+    globalization supplies the stated bridge to a global finite-energy weak
+    Euler Member_E object on I x T^d with nonsmooth initial data. Smooth-data
+    finite-time blowup and the other nonsmooth rows remain separately typed.
   closure_readback: >-
     The continuum program is closed as route control. It identifies the
     viscosity-free smoothness overlap, the exact viscosity divergence, and the
-    nonsmooth Euler boundary, and it fixes the local-to-global bridge as a typed
-    boundary rather than an assumed implication.
+    nonsmooth Euler boundary. The ESM.N1 local-to-global bridge is installed as
+    a global periodic weak-Euler nonsmoothness theorem; the other global
+    consequences stay typed by their own stated hypotheses.
 closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
   status: closed
