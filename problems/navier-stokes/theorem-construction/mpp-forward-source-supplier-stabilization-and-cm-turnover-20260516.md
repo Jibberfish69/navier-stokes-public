@@ -139,7 +139,7 @@ Therefore the forward supplier has no further installed lower target beneath the
 
 ## Stabilized frontier
 
-The honest positive-supplier frontier is exactly:
+The separate positive-supplier support frontier, quarantined outside CM, is exactly:
 
 ```math
 \boxed{
