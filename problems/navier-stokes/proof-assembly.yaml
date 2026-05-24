@@ -77,52 +77,25 @@ remaining_open_obligations:
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
   math_frontier_obligations:
-  - obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
-    kind: live-theorem-frontier
-    label: TerminalCMNoExit.A / NoGenuineCMExit.A
-    status: frontier-open
+  - obligation_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
+    kind: clay-facing-cm-contrapositive-target
+    label: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
+    status: theorem-facing-target
     blocking: false
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-    frontier_summary: 'The Clay-facing CM frontier is TerminalCMNoExit.A / NoGenuineCMExit.A:
-      prove original smooth Navier-Stokes data leaves at least one continuation-complete
-      Pack/Part/Field packet on every alleged finite terminal tail. Source-residue
-      and B_ASAC terminal residue subcases are already sorted as Pack/Part witness
-      or supplier-quarantined support; they are not bare anti-atom deletion burdens
-      and do not close the no-exit theorem. The historical PRD/LPSC/SquareSourceEstimate.A/ActiveShellAmplitudeGain.A/non-Carleson
-      Zeno source-control entrances are quarantined support for a downstream no-pulse
-      program. They are not terminal Zeno CM obligations. The May 17 parallel completion
-      pass remains evidence that those forward entrances are not installed CM inputs:
-      PRD needs SourceWeightedTerminalAngularDepletion.A, LPSC returns to PRD, SquareSourceEstimate.A
-      and ActiveShellAmplitudeGain.A return to ActiveShellSourceNormalize.A / active-square
-      reserve, and the non-Carleson Zeno route needs TerminalSourceReverseHolder.A
-      / UniformTemporalSourceIntegrability_p.A or a produced rigid residue class with
-      Liouville. The equality route under SourceWeightedTerminalAngularDepletion.A
-      has ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A installed.
-      The May 21 terminal Zeno correction classifies any B_ASAC^closed terminal atom
-      as endpoint Pack failure: finite Zeno ancestry packets may be legal, but the
-      terminal zero-radius residue is not a retained positive-radius packet. NoPersistentUnpaidPositiveRadiusAncestry.A
-      closes the positive-radius retained tail by the shared-participation strip balance:
-      a positive terminal carrier must pay, receive incoming participation flux, leave
-      through a legal ledger, or hit a finite CM face. BASACTerminalAtomCMFaceLabeling.A,
-      RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
-      remain finite-ancestry accounting and post-exit readout support. This settles
-      the terminal Zeno endpoint for CM Pack-legality without leaving a forward positive-supplier
-      burden attached to it. The May 17 eigenframe and pressure-Hessian attempts add
-      OneSidedNearBandMaterialStrainBV.A / TerminalPressureHessianNoSustain.A as a
-      signed near-band source-current obstruction, not a new CM face or an installed
-      pressure-sustain theorem. The forward-positive quarantine index demotes every
-      scanned positive-smoothness, positive-supplier, transfer, receiver/readout,
-      export, and already-demoted positive surface for CM use: 1853 indexed surfaces
-      remain support unless a named bridge lands the exact result in Pack_Q, Part_{N,Q},
-      or Field_{N,r,Q}.'
-    program_id: source-wall-residual-root-group
-    proof_mode: branch_native_supplier_or_cm_landing_support
-    propagated_object: source-reserve / Field-face residual support, not the whole
-      NS route
-    cm_landing_role: requires bridge-license landing in a Pack/Part/Field witness
-      face before promotion
-    promotion_gate: Pack_Q, Part_{N,Q}, or Field_{N,r,Q} witness-face landing
-    root_group_id: terminalcmnoexit-a-nogenuinecmexit-a
+    frontier_summary: 'The Clay-facing live target is ClayCMContrapositiveEmbedding.A
+      / ClayFiniteFailureTypeCMExhaustion.A: consume the alleged finite Clay terminal
+      witness through the same-fluid Pack/Part/Field CM tree. TerminalCMNoExit.A /
+      NoGenuineCMExit.A remains positive packet-survival support only.'
+    program_id: clay-cm-contrapositive-witness-consumption
+    proof_mode: cm_contrapositive_class_exit
+    propagated_object: alleged finite Clay terminal witness on the same-fluid CM packet
+      tree
+    cm_landing_role: finite witness type exhausts through Pack_Q, Part_{N,Q}, or
+      Field_{N,r,Q} and is read as Exit(Q):=not Member(Q)
+    promotion_gate: ClayTerminalWitnessCMEntry.A + ClayFiniteFailureTypeCMExhaustion.A
+      + ClayCMContrapositiveEmbedding.A
+    root_group_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
     exact_live_theorem_grade_burden: *1
     release_or_respawn_consequence: *2
     not_single_path: true
@@ -132,52 +105,25 @@ frontier_context:
   route_container_obligations: []
   downstream_support_obligations: []
   additional_context_obligations:
-  - obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
-    label: TerminalCMNoExit.A / NoGenuineCMExit.A
-    kind: live-theorem-frontier
-    status: frontier-open
+  - obligation_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
+    label: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
+    kind: clay-facing-cm-contrapositive-target
+    status: theorem-facing-target
     blocking: false
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-    frontier_summary: 'The Clay-facing CM frontier is TerminalCMNoExit.A / NoGenuineCMExit.A:
-      prove original smooth Navier-Stokes data leaves at least one continuation-complete
-      Pack/Part/Field packet on every alleged finite terminal tail. Source-residue
-      and B_ASAC terminal residue subcases are already sorted as Pack/Part witness
-      or supplier-quarantined support; they are not bare anti-atom deletion burdens
-      and do not close the no-exit theorem. The historical PRD/LPSC/SquareSourceEstimate.A/ActiveShellAmplitudeGain.A/non-Carleson
-      Zeno source-control entrances are quarantined support for a downstream no-pulse
-      program. They are not terminal Zeno CM obligations. The May 17 parallel completion
-      pass remains evidence that those forward entrances are not installed CM inputs:
-      PRD needs SourceWeightedTerminalAngularDepletion.A, LPSC returns to PRD, SquareSourceEstimate.A
-      and ActiveShellAmplitudeGain.A return to ActiveShellSourceNormalize.A / active-square
-      reserve, and the non-Carleson Zeno route needs TerminalSourceReverseHolder.A
-      / UniformTemporalSourceIntegrability_p.A or a produced rigid residue class with
-      Liouville. The equality route under SourceWeightedTerminalAngularDepletion.A
-      has ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A installed.
-      The May 21 terminal Zeno correction classifies any B_ASAC^closed terminal atom
-      as endpoint Pack failure: finite Zeno ancestry packets may be legal, but the
-      terminal zero-radius residue is not a retained positive-radius packet. NoPersistentUnpaidPositiveRadiusAncestry.A
-      closes the positive-radius retained tail by the shared-participation strip balance:
-      a positive terminal carrier must pay, receive incoming participation flux, leave
-      through a legal ledger, or hit a finite CM face. BASACTerminalAtomCMFaceLabeling.A,
-      RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
-      remain finite-ancestry accounting and post-exit readout support. This settles
-      the terminal Zeno endpoint for CM Pack-legality without leaving a forward positive-supplier
-      burden attached to it. The May 17 eigenframe and pressure-Hessian attempts add
-      OneSidedNearBandMaterialStrainBV.A / TerminalPressureHessianNoSustain.A as a
-      signed near-band source-current obstruction, not a new CM face or an installed
-      pressure-sustain theorem. The forward-positive quarantine index demotes every
-      scanned positive-smoothness, positive-supplier, transfer, receiver/readout,
-      export, and already-demoted positive surface for CM use: 1853 indexed surfaces
-      remain support unless a named bridge lands the exact result in Pack_Q, Part_{N,Q},
-      or Field_{N,r,Q}.'
-    program_id: source-wall-residual-root-group
-    proof_mode: branch_native_supplier_or_cm_landing_support
-    propagated_object: source-reserve / Field-face residual support, not the whole
-      NS route
-    cm_landing_role: requires bridge-license landing in a Pack/Part/Field witness
-      face before promotion
-    promotion_gate: Pack_Q, Part_{N,Q}, or Field_{N,r,Q} witness-face landing
-    root_group_id: terminalcmnoexit-a-nogenuinecmexit-a
+    frontier_summary: 'The Clay-facing live target is ClayCMContrapositiveEmbedding.A
+      / ClayFiniteFailureTypeCMExhaustion.A: consume the alleged finite Clay terminal
+      witness through the same-fluid Pack/Part/Field CM tree. TerminalCMNoExit.A /
+      NoGenuineCMExit.A remains positive packet-survival support only.'
+    program_id: clay-cm-contrapositive-witness-consumption
+    proof_mode: cm_contrapositive_class_exit
+    propagated_object: alleged finite Clay terminal witness on the same-fluid CM packet
+      tree
+    cm_landing_role: finite witness type exhausts through Pack_Q, Part_{N,Q}, or
+      Field_{N,r,Q} and is read as Exit(Q):=not Member(Q)
+    promotion_gate: ClayTerminalWitnessCMEntry.A + ClayFiniteFailureTypeCMExhaustion.A
+      + ClayCMContrapositiveEmbedding.A
+    root_group_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
     exact_live_theorem_grade_burden: *1
     release_or_respawn_consequence: *2
     not_single_path: true
