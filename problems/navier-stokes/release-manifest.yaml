@@ -56,7 +56,7 @@ source_summary:
     blocked_frontier_count: 0
   review_verdict:
     verdict: revise
-    release_posture: terminal-cm-no-exit-open-respawn-required
+    release_posture: clay-cm-contrapositive-witness-consumption-required
     completion_tier_achieved: paper-complete-theorem-open
     terminal_safe: false
   submission_verdict:
@@ -160,10 +160,10 @@ written_paths:
 - problems/navier-stokes/dependency-graph.yaml
 - problems/navier-stokes/failure-mode-checks.yaml
 deleted_paths: []
-release_gate: terminal-cm-no-exit-open-respawn-required
+release_gate: clay-cm-contrapositive-witness-consumption-required
 terminal_safe: false
 required_before_terminal_release:
-- TerminalCMNoExit.A / NoGenuineCMExit.A
+- ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight:
   rule_id: ns-target-topology-preflight-v2
@@ -365,8 +365,8 @@ open_root_group:
       as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and read that
       first failed service as Exit(Q):=not Member(Q) inside the CM contrapositive
       program.
-    active_container: source-wall-root-after-reconcile
-    respawn_cell: source-wall-root-theorem
+    active_container: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
+    respawn_cell: clay-cm-contrapositive-witness-consumption
     respawn_stage: entry-first-witness-consumption
     allowed_input_boundary: The proof may use installed genuine-exit capture, canonical
       terminal packet capture, terminal source-residue CM-exit sorting, and finite
@@ -673,33 +673,35 @@ mode_selection_protocol:
     write is required, the route has split and one bounded self-attempt has already
     failed, or verification cannot be repaired internally.
 exact_live_theorem_grade_burden:
-  status: frontier-open
-  burden_id: terminal-cm-no-exit-nogenuinecmexit
+  status: theorem-facing-target
+  burden_id: clay-cm-contrapositive-witness-consumption
   proof_mode: cm_contrapositive_class_exit
-  target_object: TerminalCMNoExit.A / NoGenuineCMExit.A
-  theorem_grade_statement: Prove original smooth data leaves at least one continuation-complete
-    Pack/Part/Field packet on every alleged finite terminal tail; the remaining open
-    faces are Pack strain-integrability no-exit, Part closedness-input no-exit, and
-    licensed Field coherence no-exit.
-  active_container: terminalcmnoexit-a-nogenuinecmexit-a
-  respawn_cell: source-wall-root-theorem
-  respawn_stage: direct-packet-survival
+  target_object: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
+    / ClayCMContrapositiveEmbedding.A
+  theorem_grade_statement: Prove the entry-first Clay CM contrapositive consumption
+    of any alleged finite terminal witness by placing it in the same-fluid CM tree,
+    exhausting its finite failure type through Pack/Part/Field, and reading the
+    exhausted face as Exit(Q):=not Member(Q).
+  active_container: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
+  respawn_cell: clay-cm-contrapositive-witness-consumption
+  respawn_stage: entry-first-finite-witness-exhaustion
   allowed_input_boundary: The proof may use installed genuine-exit capture, canonical
     terminal packet capture, terminal source-residue CM-exit sorting, and finite failure
     witness capture. Bare positive-supplier deletion theorems, B_ASAC reverse-Holder
     production, PCTP/no-pulse supplier targets, endpoint readout consequences, and
     every surface indexed in the forward-positive quarantine ledger remain separate
     or quarantined support unless a Pack/Part/Field bridge license is proved.
-  nearest_wrong_substitution: Treating B_ASAC supplier exhaustion or source-residue
-    sorting as Clay-facing CM closure.
+  nearest_wrong_substitution: Recasting the Clay-facing CM target as TerminalCMNoExit.A
+    / NoGenuineCMExit.A, a bare positive-supplier deletion theorem, or source-residue
+    sorting alone.
 release_or_respawn_consequence:
-  disposition: respawn
-  next_cell_type: source-wall-root-theorem
-  next_stage: direct-packet-survival
-  next_action: Prove TerminalCMNoExit.A / NoGenuineCMExit.A as Exit(Q):=not Member(Q)
-    by classifying every alleged finite terminal tail through the Pack-first CM witness
-    tree with Pack, then Part, then licensed Field; Member(Q) is downstream of that
-    witness certificate.
+  disposition: continue-theorem-facing
+  next_cell_type: clay-cm-contrapositive-witness-consumption
+  next_stage: entry-first-finite-witness-exhaustion
+  next_action: Keep the one visible theorem-facing burden on ClayTerminalWitnessCMEntry.A
+    / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A by consuming
+    the alleged finite Clay terminal witness through the same-fluid Pack/Part/Field
+    CM tree.
 forward_positive_surface_quarantine:
   status: active-global-demotion
   index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
