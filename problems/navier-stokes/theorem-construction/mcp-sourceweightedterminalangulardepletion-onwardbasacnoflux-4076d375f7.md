@@ -6,7 +6,7 @@ Local theorem-note artifact.  This continuation tests the ASAC/equality-class an
 
 ## Target
 
-The live positive supplier target is
+The separate downstream no-pulse/source-control support target is
 
 ```math
 SourceWeightedTerminalAngularDepletion.A:
@@ -101,4 +101,4 @@ SourcePulseExclusion.A.
 
 ## Verdict
 
-The ASAC/equality route sharpens the source-weighted angular depletion branch.  It does not discharge it.  The next useful theorem target is a no-incoming/no-flux theorem for the `B_ASAC` tangent class, or a terminal source reverse-Hölder theorem inside that class.
+The ASAC/equality route sharpens the source-weighted angular depletion branch.  It does not discharge it.  The next useful theorem target is a no-incoming/no-flux theorem for the `B_ASAC` tangent class, or a terminal source reverse-Hlder theorem inside that class.
