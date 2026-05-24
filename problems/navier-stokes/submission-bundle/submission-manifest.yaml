@@ -2,7 +2,7 @@
 version: 2
 problem_id: navier-stokes
 display_name: Navier-Stokes Global Regularity
-generated_at: '2026-05-24T19:03:58Z'
+generated_at: '2026-05-24T19:10:51Z'
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 manuscript_source_kind: tex
 manuscript_source_reason: ground-up CM contrapositive paper rebuild from direct-live authority
