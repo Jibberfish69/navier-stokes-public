@@ -9,125 +9,115 @@ identity:
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
-theorem_statement: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
+theorem_statement: ClayBreakdownPreterminalReflection.A
 source_grounded_chain: []
 tentative_extension_chain: []
 remaining_open_obligations:
-- obligation_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
-  kind: clay-facing-cm-contrapositive-target
-  label: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
+- obligation_id: claybreakdownpreterminalreflection-a
+  kind: clay-facing-cm-preterminal-reflection-target
+  label: ClayBreakdownPreterminalReflection.A
   status: theorem-facing-target
-  blocking: false
+  blocking: true
   source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-  frontier_summary: 'The Clay-facing live target is entry-first CM contrapositive
-    witness consumption: an alleged finite Clay terminal witness from original smooth
-    data enters the same-fluid canonical CM packet tree, its finite failure type exhausts
-    through Pack/Part/Field, and `ClayCMContrapositiveEmbedding.A` reads that exhausted
-    face as `Exit(Q):=not Member(Q)`. `TerminalCMNoExit.A / NoGenuineCMExit.A` is
-    retained only as positive packet-survival support and cannot steer this assembly.'
-  program_id: clay-cm-contrapositive-witness-consumption
+  frontier_summary: 'The Clay-facing live target is ClayBreakdownPreterminalReflection.A:
+    the finite same-surface Clay breakdown witness now enters the CM test and its
+    terminal Pack/Part/Field face failure supports Exit(Q):=not Member(Q). The remaining
+    bridge must reflect that terminal Exit(Q) to a still-live preterminal Exit(Q_pre),
+    contradicting SLC.A / CMW.A. TerminalCMNoExit.A / NoGenuineCMExit.A remains positive
+    packet-survival support only.'
+  program_id: clay-breakdown-preterminal-reflection
   proof_mode: cm_contrapositive_class_exit
-  propagated_object: alleged finite Clay terminal witness on the same-fluid CM packet
-    tree
-  cm_landing_role: finite witness type exhausts through Pack_Q, Part_{N,Q}, or Field_{N,r,Q}
-    and is read as Exit(Q):=not Member(Q)
-  promotion_gate: ClayTerminalWitnessCMEntry.A + ClayFiniteFailureTypeCMExhaustion.A
-    + ClayCMContrapositiveEmbedding.A
-  root_group_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
+  propagated_object: terminal Pack/Part/Field class-exit from a finite same-surface
+    Clay breakdown witness
+  cm_landing_role: terminal face failure already supports Exit(Q); remaining bridge
+    must reflect it to a still-live preterminal Exit(Q_pre)
+  promotion_gate: ClayAdmissibleFiniteBreakdown.A + ClayCMContrapositiveEmbedding.A
+    + ClayBreakdownPreterminalReflection.A
+  root_group_id: claybreakdownpreterminalreflection-a
   exact_live_theorem_grade_burden: &1
     status: theorem-facing-target
-    burden_id: clay-cm-contrapositive-witness-consumption
+    burden_id: clay-breakdown-preterminal-reflection
     proof_mode: cm_contrapositive_class_exit
-    target_object: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
-    theorem_grade_statement: Prove the entry-first Clay CM contrapositive consumption
-      of any alleged finite terminal witness by placing it in the same-fluid CM tree,
-      exhausting its finite failure type through Pack/Part/Field, and reading the
-      exhausted face as Exit(Q):=not Member(Q).
-    active_container: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
-    respawn_cell: clay-cm-contrapositive-witness-consumption
-    respawn_stage: entry-first-finite-witness-exhaustion
-    allowed_input_boundary: The proof may use installed genuine-exit capture, canonical
-      terminal packet capture, terminal source-residue CM-exit sorting, and finite
-      failure witness capture. TerminalCMNoExit.A / NoGenuineCMExit.A, bare positive-supplier
-      deletion theorems, B_ASAC reverse-Holder production, PCTP/no-pulse supplier
-      targets, endpoint readout consequences, and every surface indexed in the forward-positive
-      quarantine ledger remain separate support unless a Pack/Part/Field bridge license
-      is proved.
-    nearest_wrong_substitution: Respawning TerminalCMNoExit.A / NoGenuineCMExit.A
-      or another positive-support burden as the Clay-facing CM target.
+    target_object: ClayBreakdownPreterminalReflection.A
+    theorem_grade_statement: Prove that terminal Pack/Part/Field class-exit from
+      a finite same-surface Clay breakdown witness reflects to a still-live preterminal
+      Exit(Q_pre), so SLC.A / CMW.A gives the contradiction.
+    active_container: claybreakdownpreterminalreflection-a
+    respawn_cell: clay-breakdown-preterminal-reflection
+    respawn_stage: terminal-exit-closedness
+    allowed_input_boundary: The proof may use ClayAdmissibleFiniteBreakdown.A,
+      ClayTerminalWitnessCMEntry.A, ClayFiniteFailureTypeCMExhaustion.A, ClayCMContrapositiveEmbedding.A,
+      CanonicalTerminalPacketCapture.A, SLC.A, CMW.A, and ClaySolutionCMExitInadmissibility.A.
+      TerminalCMNoExit.A / NoGenuineCMExit.A, positive-supplier deletion theorems,
+      donor-reserve/source-wall/no-pulse targets, endpoint readout consequences,
+      and forward-positive quarantine surfaces remain support unless they prove
+      this preterminal reflection bridge directly.
+    nearest_wrong_substitution: Treating terminal Exit(Q) as already excluding a
+      Clay breakdown witness by definition, or respawning TerminalCMNoExit.A /
+      NoGenuineCMExit.A as the Clay-facing target.
   release_or_respawn_consequence: &2
     disposition: continue-theorem-facing
-    next_cell_type: clay-cm-contrapositive-witness-consumption
-    next_stage: entry-first-finite-witness-exhaustion
-    next_action: Keep the one visible theorem-facing burden on ClayCMContrapositiveEmbedding.A
-      / ClayFiniteFailureTypeCMExhaustion.A by consuming the alleged finite Clay terminal
-      witness through the same-fluid Pack/Part/Field CM tree.
+    next_cell_type: clay-breakdown-preterminal-reflection
+    next_stage: terminal-exit-closedness
+    next_action: Prove ClayBreakdownPreterminalReflection.A, the bridge from terminal
+      Exit(Q) to a still-live preterminal Exit(Q_pre).
   not_single_path: true
-  diagnostic_presentations_pending_cm_exit_landing: &3
-  - ScaleCriticalTreeCarleson.A
-  - ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A
-  - Terminal zero-radius Zeno Pack failure
-  - LocalPositiveSourceCarleson.A
-  - PositiveRemainderDepletion.A / NativeTrilinearDefectDomination.A / mu_*^sing=0
-  - RetainedFaceAmplitudeGain.A
-  - ActiveHeightFluxTrichotomy.A / LowStrainBVCharge.A
-  - Terminal signed-current / weighted lifted defect support after ASAC
-  - Native trilinear / square-reserve equivalent presentations
-  - PCTP / SOURCE.NO-PULSE / AWG / TGC / no-Jump_avg readout
+  support_presentations_not_remaining_burden: &3
+  - TerminalCMNoExit.A / NoGenuineCMExit.A positive packet-survival support
+  - donor-reserve, source-wall, no-pulse, and endpoint readout supplier surfaces
+    unless they prove preterminal reflection directly
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
   math_frontier_obligations:
-  - obligation_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
-    kind: clay-facing-cm-contrapositive-target
-    label: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
+  - obligation_id: claybreakdownpreterminalreflection-a
+    kind: clay-facing-cm-preterminal-reflection-target
+    label: ClayBreakdownPreterminalReflection.A
     status: theorem-facing-target
-    blocking: false
+    blocking: true
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-    frontier_summary: 'The Clay-facing live target is ClayCMContrapositiveEmbedding.A
-      / ClayFiniteFailureTypeCMExhaustion.A: consume the alleged finite Clay terminal
-      witness through the same-fluid Pack/Part/Field CM tree. TerminalCMNoExit.A /
-      NoGenuineCMExit.A remains positive packet-survival support only.'
-    program_id: clay-cm-contrapositive-witness-consumption
+    frontier_summary: 'The Clay-facing live target is ClayBreakdownPreterminalReflection.A:
+      terminal Exit(Q) from the finite breakdown witness must reflect to a still-live
+      preterminal Exit(Q_pre), contradicting SLC.A / CMW.A.'
+    program_id: clay-breakdown-preterminal-reflection
     proof_mode: cm_contrapositive_class_exit
-    propagated_object: alleged finite Clay terminal witness on the same-fluid CM packet
-      tree
-    cm_landing_role: finite witness type exhausts through Pack_Q, Part_{N,Q}, or
-      Field_{N,r,Q} and is read as Exit(Q):=not Member(Q)
-    promotion_gate: ClayTerminalWitnessCMEntry.A + ClayFiniteFailureTypeCMExhaustion.A
-      + ClayCMContrapositiveEmbedding.A
-    root_group_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
+    propagated_object: terminal Pack/Part/Field class-exit from a finite same-surface
+      Clay breakdown witness
+    cm_landing_role: terminal face failure already supports Exit(Q); remaining bridge
+      reflects it to preterminal Exit(Q_pre)
+    promotion_gate: ClayAdmissibleFiniteBreakdown.A + ClayCMContrapositiveEmbedding.A
+      + ClayBreakdownPreterminalReflection.A
+    root_group_id: claybreakdownpreterminalreflection-a
     exact_live_theorem_grade_burden: *1
     release_or_respawn_consequence: *2
     not_single_path: true
-    diagnostic_presentations_pending_cm_exit_landing: *3
+    support_presentations_not_remaining_burden: *3
   theorem_warrant_obligations: []
 frontier_context:
   route_container_obligations: []
   downstream_support_obligations: []
   additional_context_obligations:
-  - obligation_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
-    label: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
-    kind: clay-facing-cm-contrapositive-target
+  - obligation_id: claybreakdownpreterminalreflection-a
+    label: ClayBreakdownPreterminalReflection.A
+    kind: clay-facing-cm-preterminal-reflection-target
     status: theorem-facing-target
-    blocking: false
+    blocking: true
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-    frontier_summary: 'The Clay-facing live target is ClayCMContrapositiveEmbedding.A
-      / ClayFiniteFailureTypeCMExhaustion.A: consume the alleged finite Clay terminal
-      witness through the same-fluid Pack/Part/Field CM tree. TerminalCMNoExit.A /
-      NoGenuineCMExit.A remains positive packet-survival support only.'
-    program_id: clay-cm-contrapositive-witness-consumption
+    frontier_summary: 'The Clay-facing live target is ClayBreakdownPreterminalReflection.A:
+      terminal Exit(Q) from the finite breakdown witness must reflect to a still-live
+      preterminal Exit(Q_pre), contradicting SLC.A / CMW.A.'
+    program_id: clay-breakdown-preterminal-reflection
     proof_mode: cm_contrapositive_class_exit
-    propagated_object: alleged finite Clay terminal witness on the same-fluid CM packet
-      tree
-    cm_landing_role: finite witness type exhausts through Pack_Q, Part_{N,Q}, or
-      Field_{N,r,Q} and is read as Exit(Q):=not Member(Q)
-    promotion_gate: ClayTerminalWitnessCMEntry.A + ClayFiniteFailureTypeCMExhaustion.A
-      + ClayCMContrapositiveEmbedding.A
-    root_group_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
+    propagated_object: terminal Pack/Part/Field class-exit from a finite same-surface
+      Clay breakdown witness
+    cm_landing_role: terminal face failure already supports Exit(Q); remaining bridge
+      reflects it to preterminal Exit(Q_pre)
+    promotion_gate: ClayAdmissibleFiniteBreakdown.A + ClayCMContrapositiveEmbedding.A
+      + ClayBreakdownPreterminalReflection.A
+    root_group_id: claybreakdownpreterminalreflection-a
     exact_live_theorem_grade_burden: *1
     release_or_respawn_consequence: *2
     not_single_path: true
-    diagnostic_presentations_pending_cm_exit_landing: *3
+    support_presentations_not_remaining_burden: *3
   target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
   target_preflight: &4
     rule_id: ns-target-topology-preflight-v2
