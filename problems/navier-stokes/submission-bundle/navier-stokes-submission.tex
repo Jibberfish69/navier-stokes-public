@@ -142,6 +142,12 @@ services required to be a Clay terminal witness. Therefore it is outside the
 class-object that the Clay problem is asking about.
 \end{quote}
 
+Put plainly, smooth solutions to the Clay Navier--Stokes problem are witnessed as
+members of \(\Owork\). Nonsmooth same-equation terminal objects are witnessed
+outside that class once their first failed service is found. After that exit,
+they may still explain where the forward proof became hard, but they no longer
+function as in-class counterexamples to the Clay object.
+
 That is not a rhetorical dodge. It is a different proof economy. The positive
 program tries to delete bad behavior. The contrapositive program classifies bad
 behavior. Once the classification is exhaustive, every genuine bad behavior is
@@ -669,58 +675,54 @@ closure. It does not say every positive theorem has been proved. It says every
 major selected failure has a legal class-membership destination or remains
 quarantined as support.
 
-\section{Reader's Version Of The Proof}
+\section{The Proof As The Reader Should Feel It}
 
-Here is the argument without the machinery.
+All of the machinery above has one purpose: it makes the final proof short
+without making it empty. The short proof is not a trick. The hard work has been
+moved into the right definitions: what counts as the same solution, what counts
+as a lawful terminal witness, and what services that witness must keep in order
+to remain inside the Clay class-object.
 
-Start with a smooth Navier--Stokes datum and suppose, for contradiction, that the
-Clay solution fails at a first finite time. The alleged failure must show up as a
-terminal witness of that same solution. It cannot be a different equation, a
-different fluid, a detached source artifact, or a bookkeeping residue that has
-already been paid away.
+So the reader should feel the proof as a forced narrowing. Start with a smooth
+Navier--Stokes datum and suppose a first finite terminal failure is being offered
+against Clay smoothness. That object must be a witness of the same solution. It
+must enter the same-fluid terminal packet. Once it is there, it has only three
+primitive services to keep: Pack, Part, and Field. Keeping all three gives the
+continuation packet. Losing any one of them is class exit.
 
-Now ask what the witness still has. It needs a common packet to live on. That is
-Pack. It needs to participate in the same pressure-viscosity Navier--Stokes
-tower. That is Part. It needs neighboring tower coherence at a positive scale so
-the continuation readout has an object. That is Field.
+\section{The Proof Spine}
 
-If the witness keeps all three, it is not a terminal breakdown witness; the
-continuation readout extends the classical solution. If it loses one of the
-three, it has exited the class-object that defines a Clay-relevant
-Navier--Stokes witness. Thus the alleged counterexample never survives as an
-in-class Clay object.
-
-That is the whole proof idea. The technical work is making each sentence above
-local, synchronized, and immune to supplier/readout substitutions.
-
-\section{The Clean Proof Spine}
-
-The proof spine can now be stated without the generated machinery.
+The proof itself is the following four-move argument.
 
 \begin{claim}[Class-membership proof spine]
-Assume a finite-time Clay failure exists from smooth Navier--Stokes data. Then it
-has a terminal witness \(Q\). By terminal witness entry, \(Q\) must enter the
-same-fluid CM packet tree. By finite failure type exhaustion, \(Q\) fails Pack,
-Part, or Field. By the contrapositive embedding, that failure is
-\(\Exit(Q)\). Hence \(Q\) is not a member of \(\Owork\). Therefore the alleged
-Clay failure witness is not a Clay member.
+Let \(W_*\) be a CM-lawful finite terminal witness for the smooth-data
+Navier--Stokes problem, and let \(Q\) be its terminal packet. Then \(W_*\) is
+not a surviving in-class Clay counterexample.
 \end{claim}
 
 \begin{proof}
-The assumption supplies a terminal object that is supposed to count against the
-Clay problem. That object cannot be judged outside the Clay packet structure,
-because the problem begins with smooth data and the Navier--Stokes equations.
-The entry theorem places the object in the same-fluid packet tree.
-
-Inside that tree, the object must retain carrier geometry, participation in the
-Navier--Stokes packet, and field coherence. Those are the Pack, Part, and Field
-witness services. If the terminal object fails, the exhaustion theorem says that
-the first genuine finite failure appears in at least one of those services.
-
-But losing one of those services is exactly leaving the class object. The bad
-object is then outside \(\Owork\). It cannot be the member whose failure would
-defeat the Clay statement.
+By ClayTerminalWitnessCMEntry.A, \(W_*\) enters the same-fluid terminal CM tree.
+By CanonicalTerminalPacketCapture.A and ClayFiniteFailureTypeCMExhaustion.A, its
+first genuine terminal failure is one of
+\[
+  \neg \Pack_Q,\qquad
+  \neg \Part_{N_s,Q},\qquad
+  \forall r>0\,\neg \Field_{N_s,r,Q}.
+\]
+Each alternative is the loss of a service required for the class object
+\(\Owork\). By ClayCMContrapositiveEmbedding.A, that loss is exactly
+\[
+  \Exit(Q;\Owork):=\neg \Member(Q;\Owork).
+\]
+Thus the alleged terminal witness classifies itself outside the working Clay
+class. It may remain useful as a diagnostic or supplier object, but it is not a
+surviving member-counterexample to the class defined by the original
+smooth-data Navier--Stokes problem.
 \end{proof}
+
+This is the visible proof spine the rest of the paper is built to protect. The
+surrounding pages do not lengthen the proof for decoration; they make sure each
+phrase in this short proof has already been earned.
 
 \section{Referee-Facing Gap Ledger}
 
