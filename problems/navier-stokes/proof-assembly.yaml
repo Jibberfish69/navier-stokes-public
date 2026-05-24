@@ -323,8 +323,7 @@ frontier_context:
       status: contrapositive-witness-consumption-installed
       burden_id: clay-cm-contrapositive-witness-consumption
       proof_mode: cm_contrapositive_class_exit
-      target_object: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
-        / ClayCMContrapositiveEmbedding.A
+      target_object: ClayCMContrapositiveEmbedding.A / ClayFiniteFailureTypeCMExhaustion.A
       theorem_grade_statement: Start with the alleged finite-time Clay terminal witness
         from the same original smooth Navier-Stokes datum. Force that witness into
         the same-fluid canonical CM terminal packet tree, exhaust its finite failure
