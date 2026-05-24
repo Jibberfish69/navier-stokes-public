@@ -4,7 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[margin=1.02in]{geometry}
 \usepackage{amsmath,amssymb,amsthm,mathtools}
-\usepackage{array,longtable}
+\usepackage{array}
 \usepackage{enumitem}
 \usepackage{microtype}
 \usepackage[hidelinks]{hyperref}
@@ -697,123 +697,134 @@ This is the branch ledger the paper needs. Each row has the same shape: what the
 forward proof wants, where it hits obstruction, and how the branch is used by
 the class-membership proof.
 
-\small
-\begin{longtable}{L{0.19\linewidth}L{0.24\linewidth}L{0.25\linewidth}L{0.22\linewidth}}
-\textbf{Branch} & \textbf{Forward-positive target} & \textbf{Obstruction} & \textbf{CM landing or quarantine}\\
-\hline
-\endhead
+\begin{description}[leftmargin=2em,style=nextline]
+\item[Pack carrier and cover.]
+The forward target is a positive same-fluid carrier, cover, packing, or
+transport window. The obstruction is loss of common packing, detached donor
+ancestry, or no positive terminal carrier. The CM landing is
+\(\neg\Pack_Q\), and the proof stops at the first face for that witness.
 
-Pack carrier and cover &
-Keep a positive same-fluid carrier, cover, packing, or transport window alive. &
-The terminal object loses usable common packing, detaches donor ancestry, or has no positive terminal carrier. &
-\(\neg\Pack_Q\). This is the first face; the proof stops here for that witness.\\
-\hline
+\item[Part participation.]
+The forward target is the differentiated pressure-viscosity tower on the same
+carrier through the required depth. The obstruction is a retained carrier whose
+terminal object no longer belongs to the same Navier--Stokes participation law.
+The CM landing is \(\neg\Part_{N,Q}\) after Pack survives. Source residue with
+retained carrier lands here before Field.
 
-Part participation &
-Keep the differentiated pressure-viscosity tower on the same carrier through the required depth. &
-The carrier survives but the terminal object no longer belongs to the same Navier--Stokes participation law. &
-\(\neg\Part_{N,Q}\) after Pack survives. Source residue with retained carrier lands here before Field.\\
-\hline
+\item[Field coherence.]
+The forward target is positive-scale one-field coherence and endpoint readout
+after Pack and Part survive. The obstruction is loss of synchronization into a
+continuable positive-scale field. The CM landing is
+\(\forall r>0\,\neg\Field_{N,r,Q}\), licensed only after local Pack and Part
+alternatives are removed.
 
-Field coherence &
-Keep positive-scale one-field coherence and endpoint readout after Pack and Part survive. &
-The packet cannot synchronize into a positive-scale field, so the continuation readout cannot be made. &
-\(\forall r>0\,\neg\Field_{N,r,Q}\), licensed only after local Pack and Part alternatives are removed.\\
-\hline
+\item[Scale-critical tree Carleson.]
+The forward target is direct donor-refill/source-reserve Carleson control from
+original smooth data. The live CM correction is Pack-side for selected unpaid
+donor-refill ancestry: the branch is not a retained positive carrier. Older
+retained-Field wording applies only after Pack/Part alternatives have been
+removed.
 
-Scale-critical tree Carleson &
-Prove direct donor-refill/source-reserve Carleson control from original smooth data. &
-Unpaid infinite donor-refill ancestry is not a retained positive carrier. Older retained-Field wording applies only after Pack/Part alternatives have been removed. &
-Current live authority places the selected unpaid donor-refill branch at \(\neg\Pack_Q\); retained source-reserve diagnostics may be Field only under local Pack and Part retention.\\
-\hline
+\item[Local positive source Carleson and positive remainder depletion.]
+The forward target is deletion of the terminal positive source reserve by
+source-weighted depletion or angular decorrelation. The obstruction is that the
+route remains conditional on source-weighted terminal angular depletion or an
+equivalent positive source-control input. The CM status is quarantined positive
+supplier support unless the selected branch is landed by a Pack/Part/Field
+bridge.
 
-Local positive source Carleson / positive remainder depletion &
-Delete the terminal positive source reserve by source-weighted depletion or angular decorrelation. &
-The route remains conditional on source-weighted terminal angular depletion or equivalent positive source-control inputs. &
-Quarantined positive supplier support unless the selected branch is landed by a Pack/Part/Field bridge.\\
-\hline
+\item[Zeno and terminal atom.]
+The forward target is temporal non-atomicity, reverse Holder control, or a
+produced rigid residue class with Liouville. The obstruction is that a terminal
+zero-heat-time or zero-radius residue can survive the positive attempt. The CM
+landing is \(\neg\Pack_Q\) for terminal zero-radius residue; retained
+positive-scale Zeno atoms are typed diagnostics, not a fourth face.
 
-Zeno and terminal atom &
-Prove temporal non-atomicity, reverse Holder control, or produce a rigid residue class with Liouville. &
-Terminal zero-heat-time or zero-radius residue can survive the positive attempt. &
-Terminal zero-radius residue is \(\neg\Pack_Q\). Retained positive-scale Zeno atoms are typed diagnostics, not a fourth face.\\
-\hline
+\item[Retained amplitude.]
+The forward target is retained face amplitude gain from Pack/Part structure.
+The obstruction is that finite deformation gauge does not control accumulated
+positive low-strain action. The CM routing is Pack-gain failure, Part-envelope
+failure, or source-wall retained diagnostic. No independent face is created.
 
-Retained amplitude &
-Prove retained face amplitude gain from Pack/Part structure. &
-Finite deformation gauge does not control accumulated positive low-strain action. &
-Routes to Pack-gain failure, Part-envelope failure, or source-wall retained diagnostic. No independent face.\\
-\hline
+\item[Height and low strain.]
+The forward target is first positive height flux or low-strain BV control. The
+obstruction is that near-band material source charge and frame variation merge
+back into signed source balance. The CM status is a typed Pack/Part/Field/Zeno
+finite disjunction, sorted rather than independently closed as positive height
+control.
 
-Height and low-strain &
-Prove first positive height flux or low-strain BV control. &
-Near-band material source charge and frame variation merge into signed source balance. &
-Typed Pack/Part/Field/Zeno finite disjunction. The branch is sorted, not independently closed as positive height control.\\
-\hline
+\item[Signed current and no-free-sink.]
+The forward target is a parabolic no-free-sink or edge-resistance law for
+terminal source current. The obstruction is variable-sign strain production
+and scale-critical flux-amplitude remainder. The CM status is no independent
+face; failures return to Pack, Part, source-wall Field/Zeno, or supplier
+quarantine.
 
-Signed-current and no-free-sink &
-Rectify terminal source current into a parabolic no-free-sink or edge-resistance law. &
-Variable-sign strain production and scale-critical flux-amplitude remainders remain. &
-No independent CM face. Failures return to Pack, Part, source-wall Field/Zeno, or supplier quarantine.\\
-\hline
+\item[Square reserve and native trilinear.]
+The forward target is a square-source charge law or native trilinear defect
+domination. The obstruction is that first-moment control does not force square
+reserve control. The CM status is supplier work when the square-charge identity
+is absent; selected retained square-reserve failure reduces to the Carleson
+diagnostic.
 
-Square reserve and native trilinear &
-Prove a square-source charge law or native trilinear defect domination. &
-First-moment control does not force square reserve control; a square-charge identity is still hard. &
-Absent square-charge identity is supplier work. Selected retained square-reserve failure reduces to the Carleson diagnostic.\\
-\hline
+\item[Good scale and read cover.]
+The forward target is noncollapse of a good scale, a uniform read cover, and
+endpoint \(H^s\) readout. The obstruction is that upstream source-wall or Zeno
+production remains needed before readout can be spent. The CM status is
+downstream Field/readout support, not an upstream primitive.
 
-Good scale and read cover &
-Produce noncollapse of a good scale, a uniform read cover, and endpoint \(H^s\) readout. &
-The upstream source-wall or Zeno production remains needed before readout can be spent. &
-Downstream Field/readout support. It cannot become the upstream CM primitive.\\
-\hline
+\item[PCTP, no-pulse, and averaged route.]
+The forward target is exclusion of terminal pulses, averaged jumps, and
+terminal-tail escape. The obstruction is that source-drain remains conditional
+and diffuse legal ancestry is not fully priced. The CM status is
+supplier/readout quarantine; the family may support Field readout after a
+licensed bridge, but it is not Pack, Part, or Field itself.
 
-PCTP, no-pulse, averaged route &
-Rule out terminal pulses, averaged jumps, and terminal-tail escape. &
-Source-drain remains conditional; diffuse legal ancestry is not fully priced. &
-Supplier/readout quarantine. It may support Field readout after a licensed bridge, but it is not Pack, Part, or Field itself.\\
-\hline
+\item[Receiver escape and retained Field endpoint.]
+The forward target is to show that a receiver/coherence escape breaks the
+retained endpoint packet. The bridge is narrow and conditional on retained Pack
+and retained Part. The CM status is a licensed narrow Field bridge for that
+branch, while neighboring DTC, tower, and ACT.KX notes remain conditional
+support.
 
-Receiver escape / retained Field endpoint &
-Show that a receiver/coherence escape breaks the retained endpoint packet. &
-The bridge is narrow and conditional on retained Pack and retained Part. &
-Licensed narrow Field bridge for that branch; neighboring DTC, tower, and ACT.KX notes remain conditional support.\\
-\hline
+\item[Local \(L^3\) Duhamel translator.]
+The forward target is conversion of terminal local \(L^3\) response mass into
+native source work or exit. The obstruction is that the translator is local and
+does not prove every public critical-class bridge. The CM status is branch-local
+landing: terminal local \(L^3\) Duhamel mass lands in Pack/Part/legal CM face,
+and under retained Pack plus Part can feed the local Field readout.
 
-Local \(L^3\) Duhamel translator &
-Convert terminal local \(L^3\) response mass into native source work or exit. &
-The translator is local and does not prove every public critical-class bridge. &
-Terminal local \(L^3\) Duhamel mass lands in Pack/Part/legal CM face, and under retained Pack plus Part can feed the local Field readout.\\
-\hline
+\item[Fixed-\(\nu\) Euler transfer.]
+The forward target is same-datum comparison between Euler and Navier--Stokes on
+a fixed interval and viscosity. The obstruction is that this is a transfer
+program, not stand-alone Navier--Stokes smoothness or Euler smoothness. The CM
+status is separate program, quarantined unless an explicit transfer theorem
+lands the exact object.
 
-Fixed-\(\nu\) Euler transfer &
-Compare same-datum Euler and Navier--Stokes behavior on a fixed interval and viscosity. &
-This is a transfer program, not stand-alone Navier--Stokes smoothness or Euler smoothness. &
-Separate program. Quarantined from the non-Euler CM proof unless an explicit transfer theorem lands the exact object.\\
-\hline
+\item[Euler mirror.]
+The forward target is comparison by removing viscosity and studying overlap or
+divergence with the Euler theorem program. The obstruction is that the mirror is
+not the fixed-\(\nu\) transfer theorem and cannot steer the NS CM frontier. The
+CM status is excluded from the non-Euler sweep and retained as comparison
+support only.
 
-Euler mirror &
-Remove viscosity for comparison and study overlap/divergence with the Euler theorem program. &
-The mirror is not the same as fixed-\(\nu\) transfer and cannot steer the NS CM frontier. &
-Excluded from the non-Euler sweep. Comparison support only.\\
-\hline
+\item[Downstream export and legacy branches.]
+The forward temptation is to use TPS/SG.4, exact potential, Hodge,
+strict-shadow, mixed-jet, Lagrangian, or export surfaces as proof substitutes.
+The obstruction is that those surfaces consume or present theorem material
+rather than certify the Pack-first witness tree. The CM status is downstream
+export/readout support unless a named bridge lands the object in Pack, Part, or
+Field.
 
-Downstream export and legacy branches &
-Use TPS/SG.4, exact potential, Hodge, strict-shadow, mixed-jet, Lagrangian, or export surfaces as proof substitutes. &
-These surfaces consume or present theorem material rather than certify the Pack-first witness tree. &
-Downstream export/readout support unless a named bridge lands them in Pack, Part, or Field.\\
-\hline
+\item[Generated, runtime, and source-history surfaces.]
+The forward temptation is to let dashboards, manifests, generated copies,
+runtime status, or historical notes decide theorem truth. The obstruction is
+that generated and historical surfaces can lag or inherit stale closure
+language. The CM status is authority carrier or provenance only; such surfaces
+inherit the Pack/Part/Field gate and create no independent face.
+\end{description}
 
-Generated, runtime, and source-history surfaces &
-Let dashboards, manifests, generated copies, runtime status, or historical notes decide theorem truth. &
-Generated and historical surfaces can lag or inherit stale closure language. &
-Authority carriers or provenance only. They inherit the Pack/Part/Field gate and create no independent face.\\
-\hline
-\end{longtable}
-\normalsize
-
-The table is long because the promise is long. The proof spine is short; the
+The ledger is long because the promise is long. The proof spine is short; the
 branch field is not. A submission reader needs to see that the paper has not
 smuggled a positive supplier burden into the class-membership primitive, and has
 not smuggled a generated export surface into theorem authority.
