@@ -9,11 +9,11 @@ bundle_dir: problems/navier-stokes/submission-bundle
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
-  source_word_count: 2412
-  bundle_word_count: 2412
-  page_count: 7
-  source_bytes: 15911
-  pdf_bytes: 277833
+  source_word_count: 3383
+  bundle_word_count: 3383
+  page_count: 8
+  source_bytes: 22092
+  pdf_bytes: 319523
 skeletal_source_detected: false
 authoritative_content_included: true
 ground_up_rebuild:
