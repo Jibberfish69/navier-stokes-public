@@ -551,11 +551,12 @@ ledger.
 The paper also carries a current-material coverage audit:
 \[
 \begin{array}{ll}
-\text{coverage audit} & \texttt{current-material-coverage.yaml}.
+\text{coverage audit} & \texttt{current-material-coverage.yaml},\\
+\text{coverage builder} & \texttt{build\_current\_material\_coverage.rb}.
 \end{array}
 \]
-That audit checks the present repository, not only the May 14 sweep. It records
-\(2399\) files under the Navier--Stokes lane, \(2373\) text or checkable files,
+That audit is generated from the present repository, not only the May 14 sweep.
+It records \(2401\) files under the Navier--Stokes lane, \(2375\) text or checkable files,
 and \(58\) text files outside the existing index/quarantine/source-artifact
 union. Those \(58\) files are not treated as silent omissions: they are sorted
 as BASAC/pressure/Zeno source-residue work, local \(L^3\)/Leray/heat translator
@@ -1702,8 +1703,8 @@ Euler/fixed-\(\nu\)/Euler-class exclusions & 71\\
 Index/diagnostic/certificate row-set mismatches & 0\\
 Duplicate indexed paths in materialized row lists & 0\\
 \hline
-Files under the current Navier--Stokes lane & 2399\\
-Text or checkable files under the current lane & 2373\\
+Files under the current Navier--Stokes lane & 2401\\
+Text or checkable files under the current lane & 2375\\
 Text files outside the existing coverage union & 58\\
 \end{tabular}
 \end{center}
@@ -1723,7 +1724,7 @@ Local \(L^3\), Leray, and same-ledger heat translator notes & 3\\
 CM-direction, same-ledger, and invalid preterminal-reflection notes & 3\\
 Local-energy, elliptic-time-smearing, and formalization support & 3\\
 Euler-mirror comparison notes excluded from the non-Euler CM proof & 2\\
-Build, source-forensics, target-reference, and alignment/provenance surfaces & 6\\
+Build, source-forensics, and provenance surfaces & 6\\
 \hline
 \textbf{Total current files outside existing coverage union} & \textbf{58}
 \end{tabular}
