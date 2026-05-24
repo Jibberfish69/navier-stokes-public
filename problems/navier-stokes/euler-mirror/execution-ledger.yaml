@@ -20,6 +20,7 @@ main_objective:
   continuum_closure_ledger: problems/navier-stokes/euler-mirror/euler-ns-continuum-closure-ledger.yaml
   continuum_closure_theorem: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-continuum-closure-theorem-20260523.md
   global_periodic_nonsmooth_bridge: problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-slip-sheet-euler-nonsmoothness-bridge-20260524.md
+  global_periodic_unbounded_shear_bridge: problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-unbounded-shear-euler-ledger-failure-bridge-20260524.md
 closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
   status: closed
@@ -64,10 +65,11 @@ continuum_program:
     extraction; viscosity rows mark exact inviscid replacement problems;
     nonsmooth rows mark Euler class-membership boundary tests.
   global_consequence_boundary: >-
-    ESM.N1 now has the bridge: the tangential slip sheet globalizes to a
-    stationary periodic finite-energy weak Euler Member_E object with nonsmooth
-    initial data. Smooth-data finite-time blowup and the other nonsmooth rows
-    remain separately typed by their own hypotheses.
+    ESM.N1 and ESM.N2 now have the bridge: the tangential slip sheet and
+    stationary unbounded shear globalize to periodic finite-energy weak Euler
+    Member_E objects with nonsmooth initial data. Smooth-data finite-time blowup
+    and the other nonsmooth rows remain separately typed by their own
+    hypotheses.
 route_families:
 - family_id: euler-membership-plus-regularity
   status: terminal
