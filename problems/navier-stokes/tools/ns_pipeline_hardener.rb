@@ -201,6 +201,18 @@ def support_chain_boundary
   ]
 end
 
+def warrant_demotion_prefix
+  "Demotion repair: historical four-bridge and positive-support warrants remain support context only. They are not stand-alone proof authority for a full release audit."
+end
+
+def with_single_warrant_demotion_prefix(note)
+  prefix = warrant_demotion_prefix
+  body = note.to_s
+  escaped = Regexp.escape(prefix)
+  body = body.gsub(/(?:#{escaped}\s*)+/, "").strip
+  [prefix, body.empty? ? nil : body].compact.join(" ")
+end
+
 def sanitize_theorem_surface!(surface)
   return surface unless surface.is_a?(Hash)
 
@@ -911,11 +923,7 @@ def sanitize_theorem_to_warrant(warrant)
     claim["proof_status"] = CURRENT_THEOREM_STATUS
     claim["standalone_status"] = CURRENT_THEOREM_STATUS
     claim["promotion_status"] = "terminal-cm-no-exit-open-respawn-required"
-    claim["warrant_note"] = [
-      "Demotion repair: historical four-bridge and positive-support warrants remain support context only.",
-      "They are not stand-alone proof authority for a full release audit.",
-      claim["warrant_note"]
-    ].compact.join(" ")
+    claim["warrant_note"] = with_single_warrant_demotion_prefix(claim["warrant_note"])
     attach_target_topology!(claim)
   end
 
