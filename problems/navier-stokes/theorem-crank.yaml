@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-25T18:34:25Z'
+  generated_at: '2026-05-25T18:38:15Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -129,7 +129,7 @@ cross_lane_broadcast:
       for Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting
       positive square-reserve surplus into active height flux or Pack/Part/Field exit..'
     kind: lemma
-    status: localized-proof
+    status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
   - label: CSP.A. On the retained same-fluid collar, LCI.A together with the installed
