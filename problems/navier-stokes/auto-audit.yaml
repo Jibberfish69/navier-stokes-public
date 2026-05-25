@@ -4,10 +4,10 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-25T18:25:43Z'
+  audited_at: '2026-05-25T18:28:55Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
-  current_package_status: theorem-open-at-direct-live-frontier
+  current_package_status: full-mpp-closure-ready
   standalone_status: theorem-open-at-source-wall-root
   completion_tier_achieved: full-mpp-closure
   review_verdict: accept
@@ -27,23 +27,34 @@ branch_audit:
 downstream_overlay_drift: &1
   status: stale
   issue_id: downstream-overlay-drift
-  authority_surface_count: 1
+  authority_surface_count: 2
   stale_overlay_count: 1
   authority_surfaces:
-  - artifact: submission_verdict
-    path: problems/navier-stokes/submission-verdict.yaml
-    sha1: d8481793fb952917b21ef16cb1179b7da624d7b1
+  - artifact: source_frontier
+    path: problems/navier-stokes/source-frontier.yaml
+    sha1: 9b88f52b3cb69208aaebbb66d286410f976108d7
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
-    - cm-witness-face
-    - witness-face
+    - pctp.hard
+    - installed
+    - discharged
+    - 'unresolved_count: 0'
+    - 'dashboard_unresolved_count: 0'
+  - artifact: submission_verdict
+    path: problems/navier-stokes/submission-verdict.yaml
+    sha1: db09eb9767255bed2493284e8fe2c90c3a27bae7
+    matched_terms:
+    - direct-live-surfaces
+    - source_authority_mode
     - full-mpp
     - installed
     - discharged
     - full-mpp-closure
     - 'all_discharged: true'
+    - 'submission_ready: true'
     - 'completion_tier_achieved: full-mpp-closure'
+    - submission-candidate
     - 'release_posture: export-ready'
   stale_overlays:
   - artifact: review_verdict
@@ -191,14 +202,14 @@ surface_snapshot:
       sterilized_synthesis_import_count: 0
   theorem_authority_summary:
     total_obligations: 1
-    grounded_count: 0
+    grounded_count: 1
     structural_only_count: 0
     structurally_supported_count: 0
     bridge_pending_count: 0
     unresolved_count: 0
-    frontier_count: 1
-    blocking_count: 1
-    all_discharged: false
+    frontier_count: 0
+    blocking_count: 0
+    all_discharged: true
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
 issues:
@@ -210,24 +221,9 @@ issues:
   recommended_action: Regenerate the derived theorem chain, refresh honesty-review
     if review-verdict is stale, and rerun release-or-respawn after review.
   details: *1
-- issue_id: direct-live-package-overclaim
-  severity: major
-  summary: The theorem packet advertises an export/closure posture while direct-live
-    authority still has open frontier obligations.
-  autofixable: false
-  recommended_action: Refresh theorem-packet posture from live-theorem-edge.yaml and
-    source-frontier.yaml before any release or submission decision.
-  details:
-    authority_mode: direct-live-surfaces
-    frontier_count: 1
-    current_package_status: full-mpp-closure-ready
 fix_plan:
 - fix_id: repair-downstream-overlay-drift
   summary: Repair stale downstream overlays in a bounded promotion-preserving order.
-  autofixable: false
-- fix_id: refresh-theorem-packet-direct-live-posture
-  summary: Regenerate theorem-packet.yaml from direct-live authority so local export
-    posture cannot outrank the open frontier.
   autofixable: false
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
