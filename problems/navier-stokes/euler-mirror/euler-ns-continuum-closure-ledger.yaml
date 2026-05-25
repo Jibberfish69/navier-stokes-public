@@ -171,6 +171,16 @@ closed_outputs:
       and ESM.N2.
     authority:
       - problems/navier-stokes/euler-mirror/theorem-construction/shared-pack-non-one-field-grammar-closure-20260524.md
+  - id: continuum.no-boundary-smooth-data-class-boundary
+    status: accounted-separate-class
+    theorem_readback: >-
+      The no-boundary smooth finite-energy same-datum finite-time classical
+      Euler blowup statement is not supplied by the completed ESM rows. It is
+      recorded as a separate theorem class so weak periodic nonsmoothness,
+      singular limits, weak-branch nonuniqueness, and boundary/axisymmetric
+      blowup are not overread as that stronger no-boundary statement.
+    authority:
+      - problems/navier-stokes/euler-mirror/theorem-construction/no-boundary-smooth-data-euler-class-boundary-20260524.md
 route_closure_tests:
   required_rows:
     smoothness_overlap:
@@ -203,6 +213,7 @@ route_closure_tests:
     - continuum.global-same-datum-weak-branch
     - continuum.boundary-axisymmetric-smooth-data-blowup
     - continuum.shared-pack-grammar-closure
+    - continuum.no-boundary-smooth-data-class-boundary
 final_readback: >-
   The Euler surfaces now do what the continuum program needs: they identify the
   viscosity-free smooth overlap, the exact viscosity divergence, the local
@@ -210,4 +221,4 @@ final_readback: >-
   nonsmoothness theorems for ESM.N1 and ESM.N2 plus the ESM.N3 global periodic
   smooth-layer singular limit, the ESM.N4 global weak-branch import, and the
   ESM.N5 boundary/axisymmetric smooth-data blowup import, and the ESM.N6 grammar
-  closure, while keeping the no-boundary smooth-data question separately typed.
+  closure, while keeping the no-boundary smooth-data class separately accounted.
