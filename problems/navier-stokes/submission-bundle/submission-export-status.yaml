@@ -1,7 +1,7 @@
 ---
 version: 2
 problem_id: navier-stokes
-generated_at: '2026-05-25T16:35:10Z'
+generated_at: '2026-05-25T17:02:48Z'
 status: exported-working-draft
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -9,11 +9,11 @@ bundle_dir: problems/navier-stokes/submission-bundle
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
-  source_word_count: 11471
-  bundle_word_count: 11471
-  page_count: 31
-  source_bytes: 89354
-  pdf_bytes: 470112
+  source_word_count: 3397
+  bundle_word_count: 3397
+  page_count: 11
+  source_bytes: 29197
+  pdf_bytes: 360796
 skeletal_source_detected: false
 authoritative_content_included: true
 ground_up_rebuild:
