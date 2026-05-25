@@ -140,3 +140,26 @@ pass_branch: what in-class service remains, without requiring a named estimate
 
 If a surface skips the fail-branch CM landing and demands direct control of the
 positive obstruction, it has drifted out of the CM proof engine.
+
+## Clay-Closure Boundary
+
+The follow-up referee audit
+`mpp-no-third-branch-clay-closure-audit-20260525.md` proves the in-class
+no-third-branch theorem:
+
+```text
+pass => Member(Q) => smooth continuation,
+fail => Exit(Q)  => not an in-class continuation branch.
+```
+
+That is the correct branch law. The remaining Clay-level burden is not to
+control one favorite positive estimate. It is to prove that original smooth
+Navier-Stokes data cannot realize a genuine CM exit at finite time:
+
+```text
+OriginalSmoothData => not GenuineCMExit(T_*).
+```
+
+Classification of the fail branch as `Exit(Q)` is the CM contrapositive landing.
+The final Clay-ready force comes from ruling out genuine finite-time class exit
+from the original smooth-data evolution.
