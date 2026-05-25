@@ -207,7 +207,7 @@ installed `H^s` readout, survives.
 This is not the final Clay step by itself.  It installs the equivalence that
 makes the CM contrapositive program legitimate.
 
-The remaining theorem burden is now cleanly phrased:
+A possible positive no-exit formulation is:
 
 ```math
 \text{original smooth data}
@@ -216,8 +216,9 @@ The remaining theorem burden is now cleanly phrased:
 \quad\text{for every finite }T_*.
 ```
 
-Inside the current repo topology, that means proving the source-wall/supplier
-theorem that prevents every admissible terminal Pack/Part/Field continuation
-packet from failing on the same retained ledger.  Equivalence makes CM the
-right terminal criterion; it does not by itself prove that original data never
-exits it.
+This formulation names the whole no-exit problem and should not be promoted as
+a local CM branch-law burden. Inside the corrected pass/fail engine, the local
+work is instead obstruction-by-obstruction: prove CM-test entry, derive the
+first Pack/Part/Field face failure on the fail branch, and keep the pass branch
+as the in-class continuation branch. Equivalence makes CM the right terminal
+criterion; it does not by itself prove that original data never exits it.
