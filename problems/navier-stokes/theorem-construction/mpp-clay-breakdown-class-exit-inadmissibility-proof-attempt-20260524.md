@@ -115,8 +115,6 @@ ClayAdmissibleFiniteBreakdown(W_*)
 
 This closes the outside-CM loophole for finite Clay breakdown witnesses.
 
-It does not close the finite-breakdown exclusion.
-
 ## Corrected Burden After Preterminal-Reflection Demotion
 
 The later preterminal-reflection promotion was rejected. Terminal class-exit
@@ -132,21 +130,27 @@ ClayAdmissibleFiniteBreakdown(W_*)
 => Exit(Q):=not Member(Q).
 ```
 
-This closes the outside-CM loophole for finite Clay breakdown witnesses. It
-is the correct CM contrapositive landing. The flip side is the smooth-branch
-class-boundary statement:
+This is the CM contrapositive landing for the failure branch. The obstruction
+split is:
 
 ```text
-smooth same-solution Navier-Stokes branch
+failed obstruction capable of non-smoothness
+=> Exit(Q):=not Member(Q),
+```
+
+while the flip side is:
+
+```text
+smooth branch
 => Member(Q).
 ```
 
-The precise Pack/Part/Field estimates are mechanisms for witnessing membership
-or typing exit. They are not the final target of the CM contrapositive program.
+The precise Pack/Part/Field estimates are mechanisms for sorting the branch.
+They are not the final target of the CM contrapositive program.
 
 ## Boundary
 
 This proof attempt does not revive `TerminalCMNoExit.A / NoGenuineCMExit.A` as
 the terminal classification theorem. It records why the proposed target-fidelity
-shortcut should be replaced by the class-boundary reading:
-smooth branch in CM, non-smooth/failure branch outside CM.
+shortcut should be replaced by the obstruction split:
+failure/non-smooth branch outside CM, smooth branch inside CM.
