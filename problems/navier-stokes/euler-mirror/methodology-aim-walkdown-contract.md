@@ -205,4 +205,4 @@ If the branch instead contains only:
 3. audit scaffolding,
 4. or a limited representative-file rewrite,
 
-then this contract remains open.
+then this contract fails its completion check.
