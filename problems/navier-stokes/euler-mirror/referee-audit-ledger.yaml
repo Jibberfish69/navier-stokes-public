@@ -137,15 +137,17 @@ case_matrix:
   - id: ESM.N4
     classification: nonsmooth_control
     euler_scenario: same-datum nonclassical weak Euler branch
-    ns_control_readback: flags weak-branch/nonclassical behavior as a separate case from the classical smooth branch and from fixed-nu transfer
+    ns_control_readback: Wiedemann's periodic theorem supplies global same-datum weak branches with bounded energy; this is nonclassical weak membership, not classical blowup or admissible branch selection
     authority:
       - problems/navier-stokes/euler-mirror/theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-same-datum-weak-branch-euler-import-20260524.md
   - id: ESM.N5
     classification: nonsmooth_control
     euler_scenario: fixed-datum boundary/axisymmetric blowup comparison
-    ns_control_readback: domain-sensitive Euler singularity evidence; not a no-boundary finite-energy Euler verdict
+    ns_control_readback: Chen-Hou supplies the boundary/axisymmetric smooth-data blowup class; it is domain-sensitive and not a no-boundary finite-energy Euler verdict
     authority:
       - problems/navier-stokes/euler-mirror/theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/boundary-axisymmetric-smooth-data-euler-blowup-import-20260524.md
   - id: ESM.N6
     classification: nonsmooth_control
     euler_scenario: shared Pack / Euler non-one-field participation split
@@ -380,6 +382,8 @@ surface_rules:
       - theorem-construction/global-periodic-slip-sheet-euler-nonsmoothness-bridge-20260524.md
       - theorem-construction/global-periodic-unbounded-shear-euler-ledger-failure-bridge-20260524.md
       - theorem-construction/global-periodic-smooth-layer-to-slip-sheet-limit-20260524.md
+      - theorem-construction/global-periodic-same-datum-weak-branch-euler-import-20260524.md
+      - theorem-construction/boundary-axisymmetric-smooth-data-euler-blowup-import-20260524.md
     classifications:
       - smooth_by_hypothesis
       - nonsmooth_control
