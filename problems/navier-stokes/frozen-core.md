@@ -29,6 +29,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - `problems/navier-stokes/marvin-ingest-notes.yaml`
 - `problems/navier-stokes/live-theorem-edge.yaml`
 - `problems/navier-stokes/theorem-construction/mpp-source-reserve-birth-charge-direct-attempt-20260525.md`
+- `problems/navier-stokes/theorem-construction/mpp-active-height-flux-trichotomy-proof-audit-20260525.md`
 - `problems/navier-stokes/theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md`
 - `problems/navier-stokes/theorem-construction/mpp-pack-first-unpaid-donor-reserve-dichotomy-20260523.md`
 - `problems/navier-stokes/route-lock.yaml`
