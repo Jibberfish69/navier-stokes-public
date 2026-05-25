@@ -71,5 +71,7 @@ smooth finite-energy boundary/axisymmetric Euler datum
 -> boundary Euler nonsmoothness row closed.
 ```
 
-The no-boundary periodic/free-space smooth-data blowup question remains a
-separate open/global class and is not promoted by this import.
+The no-boundary periodic/free-space smooth-data blowup class is separately
+accounted by
+[no-boundary-smooth-data-euler-class-boundary-20260524.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/euler-mirror/theorem-construction/no-boundary-smooth-data-euler-class-boundary-20260524.md)
+and is not promoted by this import.
