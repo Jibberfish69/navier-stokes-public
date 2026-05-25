@@ -38,6 +38,7 @@ Current branch-local mainline:
 - global periodic same-datum weak-branch import
 - boundary/axisymmetric smooth-data blowup import
 - shared Pack / non-one-field grammar closure
+- no-boundary smooth-data Euler class boundary
 - smooth-data singular-limit bridge to that witness
 - Euler / Navier-Stokes viscosity scenario separation map
 - Euler-NS smoothness continuum program
