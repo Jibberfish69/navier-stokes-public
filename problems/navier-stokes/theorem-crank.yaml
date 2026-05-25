@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-25T17:49:21Z'
+  generated_at: '2026-05-25T17:57:33Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -121,6 +121,18 @@ cross_lane_broadcast:
     status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+  - label: 'SourceReserveBirthHeightFluxActivation.A. A retained positive-scale first-created
+      donor-square reserve surplus cannot remain a static square-reserve surplus after
+      Past(W) and legal loss are removed: it either creates a same-ledger retained
+      positive height-flux pulse controlled by HeightFluxControl.A, or the failure
+      to do so is already Pack gain, Part/dwell failure, legal Field source charge,
+      or terminal Zeno residue. This supplies the exact noncircular bridge needed
+      for Create the bridge theorem SourceReserveBirthHeightFluxActivation.A connecting
+      first-created source-reserve birth to the same-ledger HeightFluxControl.A route..'
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/sourcereservebirthheightfluxactivation-a-theorem-creation-20260525.md
   - label: 'HeightFluxControl.A. Turn the remaining positive source-reserve birth
       charge into the first proof-facing sampling theorem: a first large retained
       height-flux event must create Pack gain, Part/dwell failure, legal Field source
@@ -153,14 +165,6 @@ cross_lane_broadcast:
     status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/theorem-construction/ofp-a-theorem-creation-20260522.md
-  - label: CSP.A. On the retained same-fluid collar, LCI.A together with the installed
-      post-LCI source ledger FCI.5f supplies the collar source-pressure package; OFP.A,
-      CFI.A, endpoint readout, and Field remain downstream consumers, with Member
-      following only after the CM witness certificate.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
   broadcast_paths:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
