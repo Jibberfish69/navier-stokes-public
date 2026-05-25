@@ -4,14 +4,14 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-25T16:59:59Z'
+  audited_at: '2026-05-25T17:02:41Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
-  current_package_status: frontier-open
-  standalone_status: frontier-open
+  current_package_status: theorem-open-at-direct-live-frontier
+  standalone_status: theorem-open-at-source-wall-root
   completion_tier_achieved: route-complete
   review_verdict: revise
-  theorem_packet_status: frontier-open
+  theorem_packet_status: incomplete
 audit_certification:
   audit_status: audited-needs-fix
   audit_completion_tier: audited-route-complete
@@ -36,47 +36,29 @@ branch_audit:
     - This branch starts exactly at the first unresolved frontier for `terminalcmnoexit-a-nogenuinecmexit-a`.
     - This is a route branch rather than a local theorem bridge, so it stays quarantined.
   authority_frontier_open: true
-  authority_frontier_count: 0
+  authority_frontier_count: 1
   authority_blocking_count: 1
   authority_status: theorem-open-at-direct-live-frontier
-downstream_overlay_drift: &1
-  status: stale
+downstream_overlay_drift:
+  status: ok
   issue_id: downstream-overlay-drift
-  authority_surface_count: 1
+  authority_surface_count: 0
   stale_overlay_count: 2
-  authority_surfaces:
-  - artifact: theorem_crank
-    path: problems/navier-stokes/theorem-crank.yaml
-    sha1: 7ee33814f53be43932009d444f93111983746295
-    matched_terms:
-    - direct-live-surfaces
-    - authority_gate_mode
-    - cm witness-face
-    - witness-face
-    - cm witness
-    - pctp.hard
-    - installed
-    - discharged
-    - 'all_discharged: true'
+  authority_surfaces: []
   stale_overlays:
   - artifact: review_verdict
     path: problems/navier-stokes/review-verdict.yaml
-    sha1: a8388e55c82e6128f178501fe2410df57d4c1f1c
+    sha1: 1d21286791abbb94d462ab03dea100765f8150be
     matched_terms:
     - theorem-upgrade
-    - 'explicit_nonterminal_overlay: true'
   - artifact: release_decision
     path: problems/navier-stokes/release-decision.yaml
-    sha1: 25d34b0156bf5ed07d41fc6d35e3eddfd823fc1a
+    sha1: 20b0048b19220baba25159741ecd4ff66eee3072
     matched_terms:
     - theorem-upgrade
   recommended_repair: refresh-review-verdict
   recommended_next_cell_type: honesty-review
   recommended_command: refresh-review-freshness
-  terminal_condition_failure: 'Downstream overlay drift: authoritative theorem edge/source
-    surfaces carry a promoted direct-live posture, but generated overlays still advertise
-    stale blocker language in review_verdict, release_decision: theorem-upgrade, explicit_nonterminal_overlay:
-    true.'
 graph_snapshot:
   exploration_graph:
     present: true
@@ -88,9 +70,10 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-917b9016f486
-    route_signature: 917b9016f486232192f646b6a877c31f58cb9fc6
-    theorem_target: full-mpp-closure
+    surface_id: theorem-surface-navier-stokes-abe32e4790a0
+    route_signature: abe32e4790a0dab72288da1b16f6a25c78d59914
+    theorem_target: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
+      / ClayCMContrapositiveEmbedding.A
     theorem_statement: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
       / ClayCMContrapositiveEmbedding.A
     route_chain:
@@ -142,8 +125,8 @@ surface_snapshot:
         Field if Pack survives.'
       kind: lemma
       status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/basacreverseholderproduction-a-theorem-creation-20260523.md
-      patch_surface: problems/navier-stokes/theorem-construction/basacreverseholderproduction-a-theorem-creation-20260523.md
+      source_anchor: problems/navier-stokes/theorem-construction/terminalcmnoexit-facereduction-a-theorem-creation-20260523.md
+      patch_surface: problems/navier-stokes/theorem-construction/terminalcmnoexit-facereduction-a-theorem-creation-20260523.md
     - slot_id: CFI.A
       label: CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional
         field-integrability package, while End_NS, Field readout, and Member remain
@@ -231,8 +214,6 @@ surface_snapshot:
       - problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md
       - problems/navier-stokes/theorem-construction/mpp-euler-smooth-ns-smooth-contrapositive-route-note-20260506.md
       - problems/navier-stokes/theorem-construction/mpp-direct-fixed-nu-euler-smooth-ns-smooth-hierarchy-20260509.md
-      - problems/navier-stokes/theorem-construction/mpp-clay-admissible-breakdown-cm-lawfulness-test-20260524.md
-      - problems/navier-stokes/theorem-construction/mpp-clay-breakdown-class-exit-inadmissibility-proof-attempt-20260524.md
       - problems/navier-stokes/proof-assembly.yaml
       - problems/navier-stokes/source-frontier.yaml
       - problems/navier-stokes/object-formalization.yaml
@@ -250,7 +231,7 @@ surface_snapshot:
     structurally_supported_count: 0
     bridge_pending_count: 0
     unresolved_count: 0
-    frontier_count: 0
+    frontier_count: 1
     blocking_count: 1
     all_discharged: false
     authority_mode: direct-live-surfaces
@@ -265,29 +246,10 @@ issues:
     frontier until the branch lands as live import, route equivalence with a discharged
     authority edge, or death certificate.
   details:
-    authority_frontier_count: 0
+    authority_frontier_count: 1
     authority_blocking_count: 1
     authority_status: theorem-open-at-direct-live-frontier
-- issue_id: stale-review-verdict
-  severity: major
-  summary: Review verdict is stale relative to the current manuscript artifacts.
-  autofixable: false
-  recommended_action: Run honesty-review to refresh the review verdict.
-  details:
-  - Submission export status changed after the current review verdict was written.
-  - Typeset audit changed after the current review verdict was written.
-- issue_id: downstream-overlay-drift
-  severity: major
-  summary: Generated theorem/review/release overlays still advertise stale blockers
-    after the direct live theorem edge advanced.
-  autofixable: false
-  recommended_action: Regenerate the derived theorem chain, refresh honesty-review
-    if review-verdict is stale, and rerun release-or-respawn after review.
-  details: *1
-fix_plan:
-- fix_id: repair-downstream-overlay-drift
-  summary: Repair stale downstream overlays in a bounded promotion-preserving order.
-  autofixable: false
+fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
