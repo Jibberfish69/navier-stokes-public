@@ -71,12 +71,18 @@ bridge: there is a global finite-energy weak Euler `Member_E` object on
 `I x T^d` whose velocity is unbounded on a global sheet and whose receiver
 ledger fails on collars crossing that sheet.
 
+The ESM.N3 global consequence is closed as a singular-limit theorem: global
+smooth classical stationary periodic shears converge in every finite `L^p` and
+distributionally to the ESM.N1 global slip-sheet member.
+
 Together these prove that base global `Member_E` does not imply global
-classical smoothness or the ELCI receiver ledger.
+classical smoothness or the ELCI receiver ledger, and that finite-`p` closure of
+smooth global Euler shears does not preserve one-field smoothness.
 
 The smooth-data finite-time question remains separately typed. The periodic
-slip-sheet and unbounded-shear theorems use nonsmooth initial data; they are
-global weak-Euler nonsmoothness theorems, not fixed smooth-datum blowup theorems.
+slip-sheet and unbounded-shear theorems use nonsmooth initial data; the
+smooth-layer theorem uses a sequence of different smooth initial data. They are
+not fixed smooth-datum blowup theorems.
 
 ## Navier-Stokes Consequence
 
