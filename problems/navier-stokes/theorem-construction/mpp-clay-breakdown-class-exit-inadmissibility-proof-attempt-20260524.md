@@ -145,8 +145,9 @@ smooth branch
 => Member(Q).
 ```
 
-The precise Pack/Part/Field estimates are mechanisms for sorting the branch.
-They are not the final target of the CM contrapositive program.
+The estimate is only the stuck point that creates the fail/pass split. CM
+supplies the class decision: failure capable of non-smoothness is outside CM,
+and the smooth/pass branch is inside CM.
 
 ## Boundary
 
