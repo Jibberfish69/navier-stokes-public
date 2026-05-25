@@ -1,7 +1,7 @@
 ---
 version: 2
 problem_id: navier-stokes
-generated_at: '2026-05-25T17:51:47Z'
+generated_at: '2026-05-25T17:57:50Z'
 status: exported-working-draft
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -10,12 +10,12 @@ pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
   source_word_count: 7441
-  bundle_word_count: 273887
+  bundle_word_count: 273895
   page_count: 602
   source_bytes: 58622
-  appendix_bytes: 4924142
-  inventory_bytes: 2328285
-  pdf_bytes: 1398087
+  appendix_bytes: 4924369
+  inventory_bytes: 2328380
+  pdf_bytes: 1398084
 skeletal_source_detected: false
 authoritative_content_included: true
 ground_up_rebuild:
@@ -45,16 +45,16 @@ authority_sources:
 current_material_coverage:
   audit: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
   generator: problems/navier-stokes/tools/build_current_material_coverage.rb
-  total_files_under_problem: 2429
-  text_or_checkable_files: 2403
-  text_files_outside_existing_coverage_union: 86
-  family_count_sum: 86
+  total_files_under_problem: 2430
+  text_or_checkable_files: 2404
+  text_files_outside_existing_coverage_union: 87
+  family_count_sum: 87
 stdout: ''
 stderr: ''
 fallback:
 source_wall_root_cm_status: 'Expanded PDF now carries the direct-live Clay-facing
   CM contrapositive paper plus a generated full-detail derivation appendix: 1944 non-Euler
-  CM certificate rows, 1853 forward-positive quarantine rows, and 86 current-material
+  CM certificate rows, 1853 forward-positive quarantine rows, and 87 current-material
   family rows. The main body states the class-law proof spine; the appendix exposes
   row-level proof role, face status, demotion, support boundary, or current-material
   representation for every relevant surface currently admitted by the coverage ledger.
@@ -75,7 +75,7 @@ surface_derivation_appendix:
   quarantine_rows_by_scope:
     repo-surface: 201
     theorem-construction: 1652
-  current_material_family_rows: 86
+  current_material_family_rows: 87
   current_material_families:
   - id: basac_pressure_zeno_source_residue_family
     file_count: 41
@@ -94,4 +94,4 @@ surface_derivation_appendix:
   - id: submission_representation_standard
     file_count: 4
   - id: current_theorem_creation_candidate_notes
-    file_count: 8
+    file_count: 9
