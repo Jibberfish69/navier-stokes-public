@@ -87,10 +87,11 @@ closed_outputs:
       constructions. They give global finite-energy weak Euler Member_E objects
       that are not classical; the ESM.N2 object also fails the receiver ledger on
       collars crossing the singular sheet. ESM.N3 is globalized as a periodic
-      smooth-layer singular limit to the ESM.N1 slip sheet. Other local
-      nonsmooth witnesses become global claims only when their own extension,
-      embedding, or localization bridge supplies the chosen global datum,
-      domain, and class.
+      smooth-layer singular limit to the ESM.N1 slip sheet. ESM.N4 is closed by
+      the Wiedemann global periodic same-datum weak-branch theorem, and ESM.N5
+      is closed by the Chen-Hou boundary/axisymmetric smooth-data blowup theorem
+      class. The remaining nonsmooth grammar row is ESM.N6, which is a class
+      split rather than a concrete global witness.
   - id: continuum.local-to-global-boundary
     status: closed-with-periodic-base-bridge
     theorem_readback: >-
@@ -98,10 +99,11 @@ closed_outputs:
       valid local Euler theorem and a valid counterexample to local
       base-membership-implies-smoothness. The ESM.N1 and ESM.N2 bridges are
       installed as global periodic base-Member_E nonsmooth theorems with
-      nonsmooth initial data, and ESM.N3 is installed as their global periodic
-      smooth-layer singular-limit theorem. Smooth-data finite-time blowup and
-      the other nonsmooth rows remain separately typed by their own hypotheses
-      and bridge surfaces.
+      nonsmooth initial data, ESM.N3 is installed as their global periodic
+      smooth-layer singular-limit theorem, ESM.N4 is installed as a global
+      same-datum weak-branch import, and ESM.N5 is installed as the boundary
+      axisymmetric smooth-data blowup import. The no-boundary smooth-data
+      finite-time blowup question remains separately typed.
   - id: continuum.global-periodic-base-nonsmoothness
     status: closed-global-weak-member
     rows:
@@ -131,6 +133,29 @@ closed_outputs:
       is not one fixed smooth datum becoming singular in time.
     authority:
       - problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-smooth-layer-to-slip-sheet-limit-20260524.md
+  - id: continuum.global-same-datum-weak-branch
+    status: closed-external-weak-branch
+    rows:
+      - ESM.N4
+    theorem_readback: >-
+      Wiedemann's published periodic Euler theorem gives infinitely many global
+      weak bounded-energy solutions for any solenoidal L2 datum, hence for
+      smooth divergence-free data. This closes the same-datum weak-branch row as
+      nonclassical weak membership, not as classical finite-time blowup or
+      admissible branch selection.
+    authority:
+      - problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-same-datum-weak-branch-euler-import-20260524.md
+  - id: continuum.boundary-axisymmetric-smooth-data-blowup
+    status: closed-external-boundary-class
+    rows:
+      - ESM.N5
+    theorem_readback: >-
+      The Chen-Hou source class supplies fixed-datum smooth-data finite-time
+      blowup for three-dimensional axisymmetric Euler with boundary. This closes
+      the boundary/axisymmetric row while preserving that it is not a no-boundary
+      R3 or T3 finite-energy smooth-data theorem.
+    authority:
+      - problems/navier-stokes/euler-mirror/theorem-construction/boundary-axisymmetric-smooth-data-euler-blowup-import-20260524.md
 route_closure_tests:
   required_rows:
     smoothness_overlap:
@@ -160,10 +185,13 @@ route_closure_tests:
     - continuum.local-to-global-boundary
     - continuum.global-periodic-base-nonsmoothness
     - continuum.global-periodic-smooth-layer-limit
+    - continuum.global-same-datum-weak-branch
+    - continuum.boundary-axisymmetric-smooth-data-blowup
 final_readback: >-
   The Euler surfaces now do what the continuum program needs: they identify the
   viscosity-free smooth overlap, the exact viscosity divergence, the local
   nonsmooth Euler boundary, and exact global periodic base-Member_E
   nonsmoothness theorems for ESM.N1 and ESM.N2 plus the ESM.N3 global periodic
-  smooth-layer singular limit, while keeping smooth-data and other global
-  consequences separately typed.
+  smooth-layer singular limit, the ESM.N4 global weak-branch import, and the
+  ESM.N5 boundary/axisymmetric smooth-data blowup import, while keeping the
+  no-boundary smooth-data question separately typed.
