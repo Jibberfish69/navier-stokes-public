@@ -89,8 +89,10 @@ the receiver ledger. For `ESM.N3`, global smooth stationary periodic shears
 converge to the global slip sheet, so finite-`p` closure of smooth Euler does
 not preserve one-field smoothness. For `ESM.N4`, Wiedemann closes the global
 periodic same-datum weak-branch row. For `ESM.N5`, Chen-Hou closes the
-boundary/axisymmetric smooth-data blowup row. The no-boundary smooth-data
-finite-time question keeps its own stated hypotheses.
+boundary/axisymmetric smooth-data blowup row. For `ESM.N6`, the shared
+Pack/non-one-field split is closed as grammar: flux-volume is shared
+membership, while one-field coherence is an added regularity layer. The
+no-boundary smooth-data finite-time question keeps its own stated hypotheses.
 
 ## Working Rule
 
