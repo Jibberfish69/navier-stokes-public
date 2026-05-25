@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-25T17:48:48Z'
+  audited_at: '2026-05-25T17:56:55Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -70,8 +70,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-3d5d1198c2c6
-    route_signature: 3d5d1198c2c6df02824ee6aec2bfd9943edb0673
+    surface_id: theorem-surface-navier-stokes-5014f8022d2d
+    route_signature: 5014f8022d2d6c51401bc14712b0be8de0602213
     theorem_target: NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
     theorem_statement: 'NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
       Live theorem edge: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A.'
@@ -116,6 +116,20 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/live-theorem-edge.yaml
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    - slot_id: SourceReserveBirthHeightFluxActivation.A
+      label: 'SourceReserveBirthHeightFluxActivation.A. A retained positive-scale
+        first-created donor-square reserve surplus cannot remain a static square-reserve
+        surplus after Past(W) and legal loss are removed: it either creates a same-ledger
+        retained positive height-flux pulse controlled by HeightFluxControl.A, or
+        the failure to do so is already Pack gain, Part/dwell failure, legal Field
+        source charge, or terminal Zeno residue. This supplies the exact noncircular
+        bridge needed for Create the bridge theorem SourceReserveBirthHeightFluxActivation.A
+        connecting first-created source-reserve birth to the same-ledger HeightFluxControl.A
+        route..'
+      kind: lemma
+      status: localized-support
+      source_anchor: problems/navier-stokes/theorem-construction/sourcereservebirthheightfluxactivation-a-theorem-creation-20260525.md
+      patch_surface: problems/navier-stokes/theorem-construction/sourcereservebirthheightfluxactivation-a-theorem-creation-20260525.md
     - slot_id: HeightFluxControl.A
       label: 'HeightFluxControl.A. Turn the remaining positive source-reserve birth
         charge into the first proof-facing sampling theorem: a first large retained
@@ -128,14 +142,6 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260525.md
       patch_surface: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260525.md
-    - slot_id: CFI.A
-      label: CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional
-        field-integrability package, while End_NS, Field readout, and Member remain
-        downstream consequences.
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/cfi-a-theorem-creation-20260522.md
-      patch_surface: problems/navier-stokes/theorem-construction/cfi-a-theorem-creation-20260522.md
     authority_layers:
       authoritative_proof_surfaces:
       - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
