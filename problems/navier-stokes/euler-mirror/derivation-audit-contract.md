@@ -12,7 +12,8 @@ completion contract:
 \boxed{
 \text{audit and refine the entire Euler mirror corpus so every branch file is
 faithfully derived, accurately stated, internally consistent, and honest about
-what was rewritten, what was demoted, and what remains mathematically open.}
+what was rewritten, what was demoted, and what is only conditional or external
+to the branch.}
 }
 ```
 
