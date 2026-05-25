@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-05-25T17:02:32Z'
+  evaluated_at: '2026-05-25T17:10:17Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: respawn
@@ -53,6 +53,8 @@ blockers:
 - Completion tier is still `route-complete`, below a paper-complete or full-closure
   submission surface.
 - Honesty review verdict is still `revise`.
+- Submission export status changed after the current review verdict was written.
+- Typeset audit changed after the current review verdict was written.
 - Submission export is not a clean typeset export yet.
 summary:
   queue_effect: ready
