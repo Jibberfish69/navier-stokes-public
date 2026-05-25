@@ -1,0 +1,157 @@
+# MPP SourceReserveBirthCharge.A Direct Attempt
+
+Date: 2026-05-25
+
+Status: Pack-side direct proof attempt; sharpens the first unproved atom and
+does not certify Clay closure.
+
+## Target
+
+The Pack-side theorem needed for the Clay-closing route is:
+
+```text
+OriginalSmoothData => ScaleCriticalTreeCarleson.A.
+```
+
+After the no-genuine-exit reduction, this is the first concrete wall for
+preventing `GenuineCMExit(T_*)` from original smooth data.
+
+This note attacks that wall through the narrow source-reserve birth theorem:
+
+```text
+SourceReserveBirthCharge.A.
+```
+
+## Statement Tested
+
+Let `W` be a first terminal same-fluid window where the donor-refill reserve
+surplus is born, and write
+
+```text
+R_N(W) =
+int_W sum_{k>N} 2^k (sum_{ell>k+4} D_ell(t))^2 dt.
+```
+
+The theorem needed is:
+
+```text
+SourceReserveBirthCharge.A:
+
+[R_N(W) - (1-delta) R_N(Past(W)) - Loss_legal(W)]_+
+<= Charge_N^native(W) + o_N(1),
+```
+
+where the native charge must land on the same retained terminal ledger as one
+of:
+
+1. Pack gain / legal packing payment;
+2. Part participation failure;
+3. licensed Field source charge;
+4. terminal Zeno residue already sorted as Pack/Part exit.
+
+The charge cannot be a free new positive source budget.  It must either be
+paid by installed same-ledger structure or become a Pack/Part/Field exit
+witness.
+
+## Proof Attempt
+
+Assume a retained positive-scale Pack candidate and suppose
+`ScaleCriticalTreeCarleson.A` fails.  Choose a minimal terminal window `W`
+where the surplus first appears:
+
+```text
+R_N(W) > (1-delta)R_N(Past(W)) + Loss_legal(W) + eta.
+```
+
+Decompose the reserve into:
+
+```text
+inherited past reserve
++ first-created native reserve
++ child residual reserve
++ legal loss reserve.
+```
+
+The inherited term is not new at `W`, so minimality and
+`PastWindowReserveSeparation.A` can only leave the contracted piece
+`(1-delta)R_N(Past(W))` plus legal losses.  The child residual term is the
+normalized-adjoint / weighted residual already isolated by the reserve-chain
+audits.  Legal, boundary, cutoff, and non-selected terms belong to
+`Loss_legal(W)`.
+
+Thus every remaining surplus is first-created native reserve:
+
+```text
+first-created native reserve >= c eta.
+```
+
+At this point the proof needs a real source-charge theorem.  The installed
+ledgers do not prove that this first-created native reserve is automatically
+paid.  The scalar short-pulse obstruction from the earlier reserve audits still
+survives: first moment can go to zero while the scale-critical square reserve
+stays order one.
+
+Therefore the direct proof does not close `SourceReserveBirthCharge.A` from the
+current installed inputs.
+
+## What The Attempt Proves
+
+It proves the exact reduction:
+
+```text
+OriginalSmoothData=>ScaleCriticalTreeCarleson.A
+reduces, after installed parent/past/residual/legal ledgers, to proving that
+the first-created positive-scale native source-reserve surplus is paid or
+becomes a Pack/Part/Field exit witness.
+```
+
+Equivalently:
+
+```text
+Pack_Q
++ installed parent/past/residual/legal ledgers
++ SourceReserveBirthCharge.A
+=> ScaleCriticalTreeCarleson.A.
+```
+
+The zero-scale terminal residue case is already Pack exit:
+
+```text
+terminal zero-radius donor ancestry => not Pack_Q.
+```
+
+So the only surviving Pack no-exit subcase is retained positive-scale native
+source-reserve birth.
+
+## First Unproved Subclaim
+
+The first unproved mathematical subclaim is:
+
+```text
+RetainedPositiveScaleNativeReserveBirthCharge.A:
+every retained positive-scale first-created native donor-square reserve surplus
+is either paid by same-ledger source geometry or forces Pack/Part/Field exit.
+```
+
+Current equivalent entrances are:
+
+```text
+PositiveRemainderDepletion.A,
+SourceWeightedTerminalAngularDepletion.A,
+TerminalSourceReverseHolder.A,
+UniformTemporalSourceIntegrability_p.A,
+PositiveActiveCarlesonReserve.A,
+or a rigid Zeno residue class plus residue Liouville theorem.
+```
+
+None is installed unconditionally from original smooth data.
+
+## Referee Verdict
+
+This is real progress in the proof search because it removes the ambiguity
+around the Pack wall.  The open theorem is no longer "some source-wall thing."
+It is the retained positive-scale first-created native reserve surplus.
+
+It is not a Clay-ready proof.  Calling the MPP solved here would be circular:
+the missing charge theorem is exactly the analytic content needed to prevent
+the first Pack exit from original smooth data.
