@@ -109,6 +109,7 @@ FAMILIES = [
       theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
       theorem-construction/mpp-no-third-branch-clay-closure-audit-20260525.md
       theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md
+      theorem-construction/mpp-source-reserve-birth-charge-direct-attempt-20260525.md
       theorem-construction/mpp-cm-completion-claim-adversarial-audit-20260525.md
       theorem-construction/mcp-mpp-mpp-cmexitclassificationvsexclusionaudit-a-a6668e5c97.md
     ]
