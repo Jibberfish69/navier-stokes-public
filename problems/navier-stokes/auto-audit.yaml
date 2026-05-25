@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-25T18:40:39Z'
+  audited_at: '2026-05-25T18:55:28Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -70,8 +70,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-189b86d941f2
-    route_signature: 189b86d941f28339b9c667fc679c8703377c7c02
+    surface_id: theorem-surface-navier-stokes-1d8e32dfabe0
+    route_signature: 1d8e32dfabe0d36d46d502ee2d823669a3110ff0
     theorem_target: NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
     theorem_statement: 'NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
       Live theorem edge: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A.'
@@ -117,12 +117,12 @@ surface_snapshot:
       source_anchor: problems/navier-stokes/live-theorem-edge.yaml
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
     - slot_id: ActiveHeightFluxTrichotomy.A
-      label: 'ActiveHeightFluxTrichotomy.A. A positive first-created square-reserve
-        surplus on a minimal terminal window cannot hide as a zero-first-moment scalar
-        pulse: either a same-ledger active height-flux level set survives, or the
-        concentration/dwell collapse is already Pack gain, Part/dwell failure, legal
-        Field source charge, or terminal Zeno residue. This supplies the exact noncircular
-        bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A
+      label: 'ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve
+        surplus with zero first moment cannot remain hidden: the signed-pair normal
+        form either exposes same-ledger active height flux, pays by ASAC / positive
+        pair-weight charge, lands immediately in Pack/Part/Field, or reduces to TerminalSignedSaturation.A,
+        whose failure is already CM face-reduction support. This supplies the exact
+        noncircular bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A
         converting positive square-reserve surplus into active height flux or Pack/Part/Field
         exit..'
       kind: lemma
