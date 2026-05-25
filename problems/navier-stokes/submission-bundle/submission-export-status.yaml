@@ -1,7 +1,7 @@
 ---
 version: 2
 problem_id: navier-stokes
-generated_at: '2026-05-24T23:57:41Z'
+generated_at: '2026-05-25T00:16:48Z'
 status: exported-working-draft
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -9,11 +9,11 @@ bundle_dir: problems/navier-stokes/submission-bundle
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
-  source_word_count: 11182
-  bundle_word_count: 11182
+  source_word_count: 11377
+  bundle_word_count: 11377
   page_count: 29
-  source_bytes: 83959
-  pdf_bytes: 463239
+  source_bytes: 85465
+  pdf_bytes: 463361
 skeletal_source_detected: false
 authoritative_content_included: true
 ground_up_rebuild:
@@ -50,8 +50,12 @@ source_wall_root_cm_status: >-
   AnyFiniteFailureWitnessCMExit.A, ClayTerminalWitnessCMEntry.A /
   ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A,
   the materialized 1944-row non-Euler surface sweep, the forward-positive
-  quarantine ledger, and the generated current-material coverage audit. The forward-positive proof program is developed as the
-  gold-standard obstruction field, then each branch is landed in Pack_Q,
+  quarantine ledger, the one-fell-swoop CM dichotomy audit, and the generated
+  current-material coverage audit. The forward-positive proof program is developed
+  as the gold-standard obstruction field, then each branch is decided as smooth/pass
+  Member(Q;O_NS^work) or failure/nonsmooth Exit(Q;O_NS^work) through Pack_Q,
   Part_{N,Q}, Field_{N,r,Q}, typed subset status, inherited authority, or support
-  quarantine; current repo material outside the existing sweep is represented by
-  family in the appendix or excluded as proof-irrelevant provenance/comparison work.
+  quarantine. The CM paper no longer adds a final positive no-exit theorem to the
+  class-membership argument; current repo material outside the existing sweep is
+  represented by family in the appendix or excluded as proof-irrelevant
+  provenance/comparison work.
