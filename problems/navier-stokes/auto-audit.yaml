@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-25T17:31:38Z'
+  audited_at: '2026-05-25T17:48:48Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -70,8 +70,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-01396731634f
-    route_signature: '01396731634f8f985eff259b766cadfbc06ee83b'
+    surface_id: theorem-surface-navier-stokes-3d5d1198c2c6
+    route_signature: 3d5d1198c2c6df02824ee6aec2bfd9943edb0673
     theorem_target: NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
     theorem_statement: 'NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
       Live theorem edge: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A.'
@@ -116,6 +116,18 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/live-theorem-edge.yaml
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    - slot_id: HeightFluxControl.A
+      label: 'HeightFluxControl.A. Turn the remaining positive source-reserve birth
+        charge into the first proof-facing sampling theorem: a first large retained
+        height-flux event must create Pack gain, Part/dwell failure, legal Field source
+        charge, or a Zeno terminal residue atom. This supplies the exact noncircular
+        bridge needed for Create the native theorem route HeightFluxControl.A after
+        the supplier chain PositiveRemainderDepletion.A stopped serving the source-reserve
+        CM-exit target..'
+      kind: lemma
+      status: localized-support
+      source_anchor: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260525.md
+      patch_surface: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260525.md
     - slot_id: CFI.A
       label: CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional
         field-integrability package, while End_NS, Field readout, and Member remain
@@ -124,14 +136,6 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/theorem-construction/cfi-a-theorem-creation-20260522.md
       patch_surface: problems/navier-stokes/theorem-construction/cfi-a-theorem-creation-20260522.md
-    - slot_id: TemporalNonAtomicSource.A
-      label: TemporalNonAtomicSource.A. Every terminal source-residue measure produced
-        by the accepted Zeno compactness extraction is non-atomic at the terminal
-        time slice.
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/temporalnonatomicsource-a-theorem-creation-20260523.md
-      patch_surface: problems/navier-stokes/theorem-construction/temporalnonatomicsource-a-theorem-creation-20260523.md
     authority_layers:
       authoritative_proof_surfaces:
       - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
