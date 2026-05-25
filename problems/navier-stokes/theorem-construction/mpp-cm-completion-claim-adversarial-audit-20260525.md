@@ -24,6 +24,21 @@ finite same-surface Clay breakdown witness
 
 ## Direct-Live CM Merits
 
+The May 25 pass/exit correction is now governing:
+
+```text
+follow the positive proof program to an obstruction;
+split the obstruction into pass and fail;
+pass stays inside Member(Q) and gives smooth continuation;
+fail, when capable of nonsmoothness, is classified outside the class by
+Pack/Part/Field and supports Exit(Q):=not Member(Q).
+```
+
+That is the proof engine. The CM route does not need to know which particular
+estimate will be the unique pass-side control mechanism. It needs the fail side
+to be canonical enough to leave the class, leaving the pass side as the only
+legal in-class continuation branch.
+
 The direct-live family currently installs the Clay-facing CM classification
 chain:
 
