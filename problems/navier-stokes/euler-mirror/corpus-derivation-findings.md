@@ -7,7 +7,7 @@ entire current `euler-mirror/**` corpus.
 
 ## Initial Findings
 
-The opening branch-wide sweep found real stale-state drift that justified a new
+The initial branch-wide sweep found real stale-state drift that justified a new
 contract rather than a cosmetic pass.
 
 ### 1. Stale branch-state language
@@ -23,7 +23,7 @@ fully synchronized with the installed Euler mirror files.
 
 ### 3. Honest-math wording was mostly good but uneven
 
-The branch was generally honest about open Euler burdens, but some files were
+The branch was generally honest about Euler theorem boundaries, but some files were
 still phrased from the earlier transitional posture rather than from the
 current fully mirrored-on-disk posture.
 
