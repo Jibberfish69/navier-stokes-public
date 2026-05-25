@@ -34,6 +34,7 @@ Current branch-local mainline:
 - pressure-nonparticipation vortex-sheet witness
 - global periodic slip-sheet nonsmoothness bridge for base `Member_E`
 - global periodic unbounded-shear receiver-ledger failure bridge for base `Member_E`
+- global periodic smooth-layer singular-limit bridge to the slip sheet
 - smooth-data singular-limit bridge to that witness
 - Euler / Navier-Stokes viscosity scenario separation map
 - Euler-NS smoothness continuum program
@@ -88,4 +89,5 @@ Terminal readback:
   close that continuum as route control: smooth-overlap rows, viscosity-divergence
   rows, nonsmooth-boundary rows, and the local/global bridge surfaces are all
   explicitly typed; `ESM.N1` and `ESM.N2` now have global periodic weak-Euler
-  nonsmoothness theorems with nonsmooth initial data
+  nonsmoothness theorems with nonsmooth initial data, and `ESM.N3` has a global
+  smooth-layer singular-limit theorem
