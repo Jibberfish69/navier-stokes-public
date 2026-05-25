@@ -100,10 +100,11 @@ FAMILIES = [
   },
   {
     "id" => "cm_class_law_completion_and_adversarial_audits",
-    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, and the paper boundary that stale positive-bootstrap objections do not become CM-merited objections unless they attack the Pack/Part/Field class-exit chain itself.",
+    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, and the explicit referee-facing classification-versus-exclusion pressure point. Stale positive-bootstrap objections do not become CM-merited objections unless they attack the Pack/Part/Field class-exit chain itself; a direct objection that classification is not exclusion is preserved as a live logic-audit risk.",
     "files" => %w[
       theorem-construction/mcp-mpp-ttu-a-1ddd943b9d.md
       theorem-construction/mpp-cm-completion-claim-adversarial-audit-20260525.md
+      theorem-construction/mcp-mpp-mpp-cmexitclassificationvsexclusionaudit-a-a6668e5c97.md
     ]
   },
   {
@@ -117,9 +118,12 @@ FAMILIES = [
   },
   {
     "id" => "euler_mirror_current_exclusions",
-    "paper_representation" => "Explicitly excluded from the non-Euler CM paper and represented only as Euler-mirror comparison support.",
+    "paper_representation" => "Explicitly excluded from the non-Euler CM paper and represented only as Euler-mirror comparison support: periodic/global weak branch, smooth-layer-to-slip-sheet limits, and boundary/axisymmetric Chen-Hou blowup imports do not promote into the Navier-Stokes CM proof spine.",
     "files" => %w[
+      euler-mirror/theorem-construction/boundary-axisymmetric-smooth-data-euler-blowup-import-20260524.md
+      euler-mirror/theorem-construction/global-periodic-same-datum-weak-branch-euler-import-20260524.md
       euler-mirror/theorem-construction/global-periodic-slip-sheet-euler-nonsmoothness-bridge-20260524.md
+      euler-mirror/theorem-construction/global-periodic-smooth-layer-to-slip-sheet-limit-20260524.md
       euler-mirror/theorem-construction/global-periodic-unbounded-shear-euler-ledger-failure-bridge-20260524.md
     ]
   },
