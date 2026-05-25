@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-25T17:02:41Z'
+  audited_at: '2026-05-25T17:10:17Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -53,7 +53,7 @@ downstream_overlay_drift:
     - theorem-upgrade
   - artifact: release_decision
     path: problems/navier-stokes/release-decision.yaml
-    sha1: 20b0048b19220baba25159741ecd4ff66eee3072
+    sha1: 5b13765971fa709b6fd8f14719cf0e33fc3f6268
     matched_terms:
     - theorem-upgrade
   recommended_repair: refresh-review-verdict
@@ -70,12 +70,10 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-abe32e4790a0
-    route_signature: abe32e4790a0dab72288da1b16f6a25c78d59914
-    theorem_target: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
-      / ClayCMContrapositiveEmbedding.A
-    theorem_statement: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
-      / ClayCMContrapositiveEmbedding.A
+    surface_id: theorem-surface-navier-stokes-e399a6634ac6
+    route_signature: e399a6634ac6090ba73e9d7fafb5c96a05029762
+    theorem_target: NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
+    theorem_statement: NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -249,6 +247,14 @@ issues:
     authority_frontier_count: 1
     authority_blocking_count: 1
     authority_status: theorem-open-at-direct-live-frontier
+- issue_id: stale-review-verdict
+  severity: major
+  summary: Review verdict is stale relative to the current manuscript artifacts.
+  autofixable: false
+  recommended_action: Run honesty-review to refresh the review verdict.
+  details:
+  - Submission export status changed after the current review verdict was written.
+  - Typeset audit changed after the current review verdict was written.
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
