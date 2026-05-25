@@ -10,77 +10,47 @@ What is the closing role of the current CM contrapositive chain?
 
 ## Answer
 
-The CM contrapositive chain is a classification/extraction argument, not a
-positive no-exit argument. Its target is:
+The CM move is the obstruction split.
+
+Follow the ordinary positive proof program until it hits a possible failure
+scenario: some estimate, packet, reserve, source, or coherence condition may
+fail. At that point split the obstruction:
 
 ```text
-finite Clay breakdown object
+1. the obstruction fails and a blow-up / non-smooth event can happen;
+2. the obstruction passes and the branch remains smooth.
+```
+
+The CM contrapositive program does not try to prove branch 2 by controlling the
+estimate. It proves that branch 1, if it really happens, can only happen outside
+the CM class:
+
+```text
+failed obstruction capable of non-smoothness
 => canonical same-solution terminal obstruction
 => Pack/Part/Field face failure
 => Exit(Q):=not Member(Q).
 ```
 
-That is the correct CM contrapositive witness. It proves that the alleged
-breakdown cannot remain inside CM. If a required continuation estimate fails and
-a blow-up or non-smooth terminal event can occur, the event can only occur as
-`Exit(Q):=not Member(Q)` through Pack, Part, or Field.
-
-The flip side is the class-boundary statement:
+The flip side is:
 
 ```text
-smooth same-solution Navier-Stokes branch
-=> Member(Q).
+smooth branch
+=> Member(Q),
 ```
 
-This does not depend on naming one final controlling estimate as the theorem
-target. The exact estimates are mechanisms for how membership is witnessed or
-how exit is typed; the CM statement is the class boundary itself.
+regardless of which precise estimate, packet, or mechanism witnesses the
+control. The estimates are not the final authority. They are the local mechanism
+by which a branch is sorted into `Member(Q)` or `Exit(Q)`.
 
 ## Program Boundary
 
-Do not add a final obstruction estimate to this CM argument. A theorem of the
-form
+Do not add a final obstruction estimate to this CM argument. The CM target is
+the legal dichotomy:
 
 ```text
-OriginalSmoothData
-=> no terminal Pack/Part/Field class exit
+failure/non-smooth branch => Exit(Q),
+smooth branch => Member(Q).
 ```
 
-belongs to the positive no-exit / packet-survival program. It is not the missing
-step in the CM contrapositive classification program.
-
-## Why The Shortcut Fails
-
-`Exit(Q):=not Member(Q)` disqualifies a Clay smooth-solution witness. It does not
-by definition disqualify a Clay breakdown counterexample witness, because the
-counterexample is exactly the allegation that the smooth solution cannot be
-continued as a member at the terminal time.
-
-So the CM close is not:
-
-```text
-breakdown => Exit(Q), and Exit(Q) is definitionally forbidden.
-```
-
-The CM close is:
-
-```text
-breakdown or failed continuation estimate
-=> canonical terminal obstruction
-=> Pack/Part/Field face failure
-=> Exit(Q):=not Member(Q).
-```
-
-## Boundary
-
-This audit does not promote the invalid preterminal-reflection bridge. It also
-does not replace the CM contrapositive program with a positive no-exit proof.
-
-The next lawful CM-contrapositive move is terminal completeness/extraction:
-
-```text
-finite Clay breakdown object
-=> canonical same-solution terminal obstruction
-=> Pack/Part/Field face failure
-=> Exit(Q):=not Member(Q).
-```
+Pack, Part, and Field are the typed faces used to prove the first line.
