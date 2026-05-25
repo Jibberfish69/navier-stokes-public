@@ -151,6 +151,9 @@ FAMILIES = [
     "paper_representation" => "Governs how the large source field compresses into mathematical proof roles in the manuscript. This is an authoring standard, not theorem evidence.",
     "files" => %w[
       submission-bundle/source-field-representation-rubric.md
+      submission-bundle/surface-derivation-appendix.tex
+      submission-bundle/surface-derivation-inventory.yaml
+      tools/build_surface_derivation_appendix.rb
     ]
   }
 ].freeze
