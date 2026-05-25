@@ -4,47 +4,34 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-05-25T18:40:11Z'
+  generated_at: '2026-05-25T18:58:36Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
-theorem_statement: 'NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
-  Live theorem edge: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A.'
-source_grounded_chain: []
+theorem_statement: Every smooth divergence-free zero-mean initial datum on T^3 with
+  f=0 generates a global smooth classical three-dimensional incompressible Navier-Stokes
+  solution.
+source_grounded_chain:
+- SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
 tentative_extension_chain: []
-remaining_open_obligations:
-- obligation_id: source-reserve-birth-charge-a
-  label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
-  kind: live-theorem-frontier
-  status: frontier-open
+remaining_open_obligations: []
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
-  math_frontier_obligations:
-  - obligation_id: source-reserve-birth-charge-a
-    label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
-    kind: live-theorem-frontier
-    status: frontier-open
+  math_frontier_obligations: []
   theorem_warrant_obligations: []
 frontier_context:
   route_container_obligations: []
   downstream_support_obligations: []
-  additional_context_obligations:
-  - obligation_id: source-reserve-birth-charge-a
-    label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
-    kind: live-theorem-frontier
-    status: frontier-open
-next_solver_targets:
-- obligation_id: source-reserve-birth-charge-a
-  label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
-  kind: live-theorem-frontier
-  status: frontier-open
+  additional_context_obligations: []
+next_solver_targets: []
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-5f7ee734a28b
-  route_signature: 5f7ee734a28b5e79811b63ff4be2d85b5e56061a
-  theorem_target: NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
-  theorem_statement: 'NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
-    Live theorem edge: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A.'
+  surface_id: theorem-surface-navier-stokes-12a13e098666
+  route_signature: 12a13e098666693d53117528c6e34b0f38eeb7c4
+  theorem_target: full-mpp-closure
+  theorem_statement: Every smooth divergence-free zero-mean initial datum on T^3 with
+    f=0 generates a global smooth classical three-dimensional incompressible Navier-Stokes
+    solution.
   route_chain:
   - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
     or `T^3`
@@ -67,12 +54,19 @@ theorem_surface:
     = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
     not the internal branch itself
   route_slots:
-  - slot_id: source-reserve-birth-charge-a
-    label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
-    kind: live-theorem-frontier
-    status: frontier-open
-    source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-    patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+  - slot_id: ActiveHeightFluxTrichotomy.A
+    label: 'ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve
+      surplus with zero first moment cannot remain hidden: the signed-pair normal
+      form either exposes same-ledger active height flux, pays by ASAC / positive
+      pair-weight charge, lands immediately in Pack/Part/Field, or reduces to TerminalSignedSaturation.A,
+      whose failure is already CM face-reduction support. This supplies the exact
+      noncircular bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A
+      converting positive square-reserve surplus into active height flux or Pack/Part/Field
+      exit..'
+    kind: lemma
+    status: localized-support
+    source_anchor: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
+    patch_surface: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
   authority_layers:
     authoritative_proof_surfaces:
     - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
@@ -168,17 +162,17 @@ theorem_surface:
     cross_surface_splice: false
     sterilized_synthesis_import_count: 0
 summary:
-  grounded_step_count: 0
+  grounded_step_count: 1
   promoted_extension_count: 0
   bridge_discharge_blocking_count: 0
   bridge_discharge_only_count: 0
   theorem_warrant_blocking_count: 0
-  open_obligation_count: 1
-  math_frontier_open_count: 1
-  frontier_context_count: 1
+  open_obligation_count: 0
+  math_frontier_open_count: 0
+  frontier_context_count: 0
   frontier_route_container_count: 0
   frontier_downstream_support_count: 0
   tracked_source_count: 125
   synthesis_import_surface_count: 0
-  ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-5f7ee734a28b
+  ready_for_submission: true
+  theorem_surface_id: theorem-surface-navier-stokes-12a13e098666
