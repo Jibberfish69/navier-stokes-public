@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-05-25T17:35:58Z'
+  generated_at: '2026-05-25T17:41:52Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -33,33 +33,38 @@ sandbox:
 branch_pool:
 - &1
   branch_id: creative-branch-navier-stokes-1
-  origin_obligation_id: HeightFluxControl.A
+  origin_obligation_id: PositiveRemainderDepletion.A
   origin_kind: proof-dependency
   parent_obligation_id: source-reserve-birth-charge-a
   parent_label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
   root_target_obligation_id: source-reserve-birth-charge-a
   root_target_label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
+  source_class: theorem-creation-next-subprimitive
   source_status: needs-theorem-creation
   branch_type: bridge-lemma
   pursuit_mode: co-dependent
-  candidate_claim: Create the alternate theorem route HeightFluxControl.A after the
-    failed BASACReverseHolderProduction.A route, preserving the root target source-reserve-birth-charge-a.
+  candidate_claim: Create the recursive theorem subprimitive PositiveRemainderDepletion.A
+    exposed by the previous theorem-creation packet, instead of mutating a neighboring
+    route.
   creative_move: Search for the missing mediating object or bounded inequality that
     makes the implication local and testable.
   invention_packet:
-    candidate_statement: Create the alternate theorem route HeightFluxControl.A after
-      the failed BASACReverseHolderProduction.A route, preserving the root target
-      source-reserve-birth-charge-a.
-    mediating_object: active_height_flux_trichotomy_carrier
+    candidate_statement: Create the recursive theorem subprimitive PositiveRemainderDepletion.A
+      exposed by the previous theorem-creation packet, instead of mutating a neighboring
+      route.
+    mediating_object: local_bridge_object
     proof_sketch:
-    - Preserve the root target `source-reserve-birth-charge-a`.
-    - Do not reuse the failed `BASACReverseHolderProduction.A` production route.
-    - 'Use `HeightFluxControl.A` as the native source-reserve branch: first retained
-      height flux must become Pack gain, Part/dwell failure, legal Field charge, or
-      terminal Zeno residue.'
-    - Route any failure of the branch into Pack/Part/Field witness-face evidence or
-      into a named residual subprimitive; do not declare parent closure from a supplier-only
-      statement.
+    - State the weakest exact claim that would advance `PositiveRemainderDepletion.A`
+      without expanding the theorem target.
+    - Define or isolate the mediating object on the current carrier/window/sector
+      only.
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `same-ledger depletion/anti-concentration
+      for the minimal retained positive-scale first-created source carrier`.
+    - Show how that object converts one already-grounded local statement into the
+      next missing step.
+    - Reject the move if it introduces new global scope, hidden imports, or a stronger
+      claim than the frozen frontier needs.
     falsification_checks:
     - Does the move preserve the frozen theorem target rather than redefining it?
     - Can the candidate be stated on already-grounded objects without importing a
@@ -71,21 +76,18 @@ branch_pool:
     scope_guard: Insert only the weakest bridge sufficient to connect the current
       grounded chain.
   grounded_basis:
-  - HeightFluxControl.A
+  - PositiveRemainderDepletion.A
   risk_level: medium-low
   notes:
   - This branch is the live recursive subprimitive from theorem-creation; keep it
     on theorem-creation until it is discharged or sharpened.
-  - The previous theorem-creation route was a hard obstruction; this branch must change
-    route rather than resetting to the parent frontier.
-  - The installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer
-    concentration and do not produce a reverse-Holder subclass.
   - This branch is machine-derived beyond the current frozen core.
   - Use the weakest sufficient move; do not inflate the theorem target.
   recommended_next_cell_type: theorem-creation
-  recommended_next_action: Creative theorem search selected alternate theorem route
-    `HeightFluxControl.A` after hard obstruction in `BASACReverseHolderProduction.A`.
-    Run theorem-creation on the alternate route while preserving the root target source-reserve-birth-charge-a.
+  recommended_next_action: 'Creative theorem search selected the live theorem-creation
+    subprimitive `PositiveRemainderDepletion.A`. Run theorem-creation on that exact
+    recursive proof burden instead of replaying route mutation: same-ledger depletion/anti-concentration
+    for the minimal retained positive-scale first-created source carrier.'
   merge_policy: quarantined-until-promoted
 - branch_id: creative-branch-navier-stokes-2
   origin_obligation_id: source-reserve-birth-charge-a
@@ -94,6 +96,7 @@ branch_pool:
   parent_label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
   root_target_obligation_id: source-reserve-birth-charge-a
   root_target_label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
+  source_class: stalled-dependency-discharge-target
   source_status: frontier-open
   branch_type: route-mutation
   pursuit_mode: independent
@@ -138,10 +141,10 @@ branch_pool:
     instead of mining adjacent source-wall atoms.
   merge_policy: quarantined-until-promoted
 candidate_archive:
-- origin_obligation_id: HeightFluxControl.A
+- origin_obligation_id: PositiveRemainderDepletion.A
   origin_kind: proof-dependency
-  label: 'HeightFluxControl.A: native source-reserve route after the B_ASAC reverse-Holder
-    production obstruction'
+  label: same-ledger depletion/anti-concentration for the minimal retained positive-scale
+    first-created source carrier
   status: needs-theorem-creation
   promoted_into_branch_pool: true
 - origin_obligation_id: source-reserve-birth-charge-a
