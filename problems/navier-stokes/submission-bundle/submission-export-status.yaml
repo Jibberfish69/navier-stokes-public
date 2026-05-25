@@ -1,7 +1,7 @@
 ---
 version: 2
 problem_id: navier-stokes
-generated_at: '2026-05-25T00:16:48Z'
+generated_at: '2026-05-25T01:04:03Z'
 status: exported-working-draft
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -9,11 +9,11 @@ bundle_dir: problems/navier-stokes/submission-bundle
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
-  source_word_count: 11377
-  bundle_word_count: 11377
-  page_count: 29
-  source_bytes: 85465
-  pdf_bytes: 463361
+  source_word_count: 11713
+  bundle_word_count: 11713
+  page_count: 30
+  source_bytes: 88285
+  pdf_bytes: 467381
 skeletal_source_detected: false
 authoritative_content_included: true
 ground_up_rebuild:
@@ -52,10 +52,11 @@ source_wall_root_cm_status: >-
   the materialized 1944-row non-Euler surface sweep, the forward-positive
   quarantine ledger, the one-fell-swoop CM dichotomy audit, and the generated
   current-material coverage audit. The forward-positive proof program is developed
-  as the gold-standard obstruction field, then each branch is decided as smooth/pass
-  Member(Q;O_NS^work) or failure/nonsmooth Exit(Q;O_NS^work) through Pack_Q,
+  as the gold-standard obstruction field, then each obstruction O is split into
+  O_pass and O_fail: O_pass is the smooth continuation / Member(Q;O_NS^work) branch,
+  and O_fail is the breakdown-capable / Exit(Q;O_NS^work) branch through Pack_Q,
   Part_{N,Q}, Field_{N,r,Q}, typed subset status, inherited authority, or support
-  quarantine. The CM paper no longer adds a final positive no-exit theorem to the
-  class-membership argument; current repo material outside the existing sweep is
-  represented by family in the appendix or excluded as proof-irrelevant
+  quarantine. The CM paper states the closure as class law rather than as another
+  positive-estimate bootstrap theorem; current repo material outside the existing
+  sweep is represented by family in the appendix or excluded as proof-irrelevant
   provenance/comparison work.
