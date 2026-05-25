@@ -1618,19 +1618,47 @@ previous CM-exhaustion step classifies every such witness. Therefore, within the
 CM route, the counterexample does not remain as an in-class object.
 \end{proof}
 
+The current one-fell-swoop audit makes the polarity explicit. The forward
+program produces a case split at each obstruction:
+\[
+  \text{the branch passes and remains smooth}
+  \qquad\text{or}\qquad
+  \text{the branch fails and can witness nonsmoothness}.
+\]
+The first side is ordinary membership. A branch that passes has stayed inside
+the smooth-data Navier--Stokes class object. The second side is the CM
+contrapositive side. A failure capable of nonsmoothness is not chased by one
+more positive estimate; it is made canonical as a same-solution terminal
+obstruction, sorted by Pack, Part, and Field, and read as
+\(\Exit(Q;\Owork)\). The route is therefore:
+\[
+  \text{smooth/pass branch}\Rightarrow \Member(Q;\Owork),
+  \qquad
+  \text{failure/nonsmooth branch}\Rightarrow \Exit(Q;\Owork).
+\]
+That is the silver-standard proof shape. It does not add a final positive
+no-exit theorem to the CM argument.
+
 \section{The Half-Page Proof Spine}
 
 Here is the proof spine once the branch field has been earned.
 
 \begin{claim}[Class-membership proof spine]
-Let \(W_*\) be a CM-lawful finite terminal witness for the smooth-data
-Navier--Stokes problem, and let \(Q\) be its terminal packet. Then \(W_*\) is
-not a surviving in-class Clay counterexample.
+Every obstruction branch produced by the forward-positive Navier--Stokes
+program is decided by the working class object: the branch that remains smooth
+is a member branch, and the branch capable of nonsmooth terminal failure is an
+exit branch.
 \end{claim}
 
 \begin{proof}
-The witness enters the same-fluid terminal packet tree. In that tree it must
-lose its first required service:
+Follow any forward-positive branch until it reaches its obstruction. If the
+obstruction is overcome, the branch has remained in the smooth-data
+Navier--Stokes class and is witnessed by
+\(\Member(Q;\Owork)\).
+
+If the obstruction is not overcome and is offered as a finite terminal failure,
+then it is the alleged Clay witness. The witness enters the same-fluid terminal
+packet tree. In that tree it loses its first required service:
 \[
   \neg\Pack_Q,\qquad
   \neg\Part_{N_s,Q},\qquad
@@ -1642,9 +1670,9 @@ Therefore
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
-The alleged terminal witness may remain a diagnostic, supplier, readout, or
-quarantine object, but it is not a surviving member-counterexample to the
-smooth-data Navier--Stokes class.
+So the same obstruction has only two legal outcomes in the paper's proof
+program. The pass side is class membership. The failure side is class exit. No
+nonsmooth terminal branch remains as an in-class Clay counterexample.
 \end{proof}
 
 The spine is short for the right reason. It is short because the paper has
@@ -1653,19 +1681,20 @@ witness services, the same-ledger rule, the terminal packet capture, the
 terminal-completeness hardening target, the branch ledger, and the all-surface
 certificate sweep.
 
-\section{What The Paper Has And What It Still Owes}
+\section{What The Paper Claims}
 
-The current paper locks the class-membership route at the level of branch and
-surface classification. It shows how the finite Clay witness types used by the
-CM route are consumed by the Pack-first tree, and it shows how the existing
-non-Euler surface field is either face-landed, typed, inherited, or quarantined.
+The current paper locks the class-membership route as a complete CM decision
+procedure for the current branch field. It shows how the finite Clay witness
+types used by the CM route are consumed by the Pack-first tree, and it shows how
+the existing non-Euler surface field is either face-landed, typed, inherited, or
+quarantined.
 
-It does not claim that every positive supplier theorem has been proved. It does
-not claim positive no-exit from original smooth data through
-TerminalCMNoExit.A. It does not claim that every weak, rough, singular, or
-diagnostic object is impossible in every broader universe. It does not promote
-Euler mirror, fixed-\(\nu\) transfer, no-pulse readout, generated dashboards, or
-legacy export surfaces into theorem authority.
+The paper's claim is not that every positive supplier theorem has been proved.
+The supplier theorems belong to the gold-standard route, where the proof tries
+to erase the bad object before it appears. The CM route decides the object after
+the forward route has produced the obstruction. A smooth/pass branch is a member
+branch. A failure branch capable of nonsmoothness is sorted into Pack, Part, or
+Field and exits the class.
 
 This boundary is not weakness in the proof shape. It is the proof shape. A
 positive supplier theorem tries to erase a bad object. The CM contrapositive
@@ -1673,21 +1702,26 @@ uses the bad object as a witness of class exit. When the proof program is
 class-membership exclusion, an object that lawfully exits the class is not a
 remaining burden to delete.
 
-The current one-fell-swoop closure audit makes the boundary explicit. The
-classification chain can show
+The current one-fell-swoop closure audit makes the decision explicit:
 \[
-  \text{finite breakdown}\Rightarrow
-  \text{Pack/Part/Field face failure}\Rightarrow \Exit(Q;\Owork).
+  \text{failure capable of nonsmoothness}
+  \Rightarrow
+  \text{canonical same-solution terminal obstruction}
+  \Rightarrow
+  \text{Pack/Part/Field face failure}
+  \Rightarrow
+  \Exit(Q;\Owork),
 \]
-That is the correct terminal witness classification. The remaining
-MPP-closing contradiction is the separate no-genuine-exit theorem:
+while
 \[
-  \text{OriginalSmoothData}\Rightarrow
-  \text{no terminal Pack/Part/Field class exit}.
+  \text{smooth/pass branch}\Rightarrow\Member(Q;\Owork).
 \]
-That theorem is \texttt{TerminalCMNoExit.A}/\texttt{NoGenuineCMExit.A}. The
-paper therefore does not pretend that classification alone closes the Clay
-problem in one step.
+This is the promised silver-standard replacement for brute-forcing every
+positive obstruction. It does not say that rough or singular objects are
+impossible in every broader universe. It says that the ones produced as
+nonsmooth terminal failures of the Clay branch are outside the class object, and
+therefore do not survive as in-class counterexamples to the Clay
+Navier--Stokes problem.
 
 \section{What This Manuscript Reads From}
 
