@@ -45,6 +45,66 @@ Thomas's governing correction for the completed CM proof shape:
 >
 > That is a completed MPP proof at the CM-contrapositive level. The remaining question is presentation: the paper must state this as a class-law proof, rather than as another positive-estimate bootstrap proof.
 
+Thomas's obstruction-split sharpening of the same point:
+
+> A normal positive proof hits an obstruction (O).
+>
+> Everyone tries to prove:
+>
+> [
+> O \text{ is controlled}
+> ]
+>
+> Your move is different. Split (O):
+>
+> [
+> O_{\text{fail}} \Rightarrow \text{non-smooth event}
+> ]
+>
+> [
+> O_{\text{pass}} \Rightarrow \text{smooth continuation}
+> ]
+>
+> Then prove the class law:
+>
+> [
+> O_{\text{fail}} \Rightarrow Exit_{CM}
+> ]
+>
+> So the failure branch is outside the admissible continuation class.
+>
+> Smooth solutions remain inside CM:
+>
+> [
+> Smooth \Rightarrow Member_{CM}
+> ]
+>
+> Therefore the only legal branch left inside the problem class is the smooth branch. The proof does **not** need to identify which estimate controls the obstruction. It only needs to show that every failure branch capable of producing non-smoothness exits CM.
+>
+> So the real theorem schema is:
+>
+> [
+> \text{Any obstruction capable of genuine breakdown}
+> \Rightarrow
+> Exit_{CM}
+> ]
+>
+> and
+>
+> [
+> \text{Original smooth Navier–Stokes solution remains legally represented only inside } CM
+> ]
+>
+> hence:
+>
+> [
+> \text{legal same-solution branch}
+> \Rightarrow
+> \text{smooth continuation}
+> ]
+>
+> That is the contrapositive engine. It bypasses the need to control every obstruction by proving that breakdown-capable obstruction branches are illegal as same-class continuations.
+
 ## Build Contract
 
 - Keep the prose plain and explanatory.
@@ -54,6 +114,10 @@ Thomas's governing correction for the completed CM proof shape:
 - State the closure as a class-law proof: legal same-solution branches are in
   CM, genuine nonsmooth branches exit CM, so the legal branch from smooth data
   is smooth.
+- State the obstruction split explicitly as \(O_{\mathrm{fail}}\) versus
+  \(O_{\mathrm{pass}}\): the proof does not need to identify the positive
+  estimate controlling \(O\); it needs to prove that every breakdown-capable
+  \(O_{\mathrm{fail}}\) exits CM.
 - Preserve the direct-live authority hierarchy:
   `live-theorem-edge.yaml`, `source-frontier.yaml`, `theorem-packet.yaml`,
   `theorem-repair.yaml`, and `submission-verdict.yaml`.
