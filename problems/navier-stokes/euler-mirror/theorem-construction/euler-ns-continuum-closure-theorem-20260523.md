@@ -75,14 +75,27 @@ The ESM.N3 global consequence is closed as a singular-limit theorem: global
 smooth classical stationary periodic shears converge in every finite `L^p` and
 distributionally to the ESM.N1 global slip-sheet member.
 
+The ESM.N4 global consequence is closed as an external weak-branch theorem:
+Wiedemann gives infinitely many global bounded-energy weak periodic Euler
+solutions from any solenoidal `L^2` datum, hence from smooth divergence-free
+data. This is a same-datum weak/nonclassical branch result, not classical branch
+blowup.
+
+The ESM.N5 consequence is closed as an external boundary theorem class:
+Chen-Hou supplies smooth-data finite-time blowup for three-dimensional
+axisymmetric Euler with boundary. This is a boundary/axisymmetric result, not a
+no-boundary `R^3` or `T^3` theorem.
+
 Together these prove that base global `Member_E` does not imply global
 classical smoothness or the ELCI receiver ledger, and that finite-`p` closure of
 smooth global Euler shears does not preserve one-field smoothness.
 
 The smooth-data finite-time question remains separately typed. The periodic
 slip-sheet and unbounded-shear theorems use nonsmooth initial data; the
-smooth-layer theorem uses a sequence of different smooth initial data. They are
-not fixed smooth-datum blowup theorems.
+smooth-layer theorem uses a sequence of different smooth initial data; the weak
+branch theorem is nonclassical; the Chen-Hou theorem is boundary/axisymmetric.
+The no-boundary smooth finite-energy finite-time blowup question is not closed
+by these rows.
 
 ## Navier-Stokes Consequence
 
