@@ -386,6 +386,7 @@ surface_rules:
       - theorem-construction/global-periodic-same-datum-weak-branch-euler-import-20260524.md
       - theorem-construction/boundary-axisymmetric-smooth-data-euler-blowup-import-20260524.md
       - theorem-construction/shared-pack-non-one-field-grammar-closure-20260524.md
+      - theorem-construction/no-boundary-smooth-data-euler-class-boundary-20260524.md
     classifications:
       - smooth_by_hypothesis
       - nonsmooth_control
