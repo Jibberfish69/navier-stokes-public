@@ -356,6 +356,25 @@ has to show which estimate forced smoothness on a failing branch. It has to show
 that legal same-solution branches remain in the class, while genuine singular
 branches leave it.
 
+Equivalently, let \(O\) be any obstruction produced by the ordinary forward
+proof. A positive proof tries to prove
+\[
+  O\ \text{is controlled}.
+\]
+This paper splits the obstruction instead:
+\[
+  O_{\mathrm{pass}}\Rightarrow \text{smooth continuation},
+  \qquad
+  O_{\mathrm{fail}}\Rightarrow \text{genuine nonsmooth event}.
+\]
+Then it proves the class law
+\[
+  O_{\mathrm{fail}}\Rightarrow \Exit_{\CM}.
+\]
+So the failure branch is not a legal same-class continuation candidate. The
+smooth branch remains inside \(\CM\), and the breakdown-capable branch exits
+\(\CM\).
+
 \section{The Class Object}
 
 The working class object is denoted by \(\Owork\). It is the same-fluid
@@ -1653,21 +1672,30 @@ no-exit theorem to the CM argument.
 \begin{claim}[Class-law closure]
 The completed CM proof has the form
 \[
-  \text{genuine nonsmooth branch}\Rightarrow\Exit(Q;\Owork),
-  \qquad
-  \text{legal same-solution branch}\Rightarrow\Member(Q;\Owork).
+  \begin{aligned}
+  O_{\mathrm{fail}}
+  &\Rightarrow \text{genuine nonsmooth branch}
+  \Rightarrow \Exit(Q;\Owork),\\
+  O_{\mathrm{pass}}
+  &\Rightarrow \text{smooth continuation}
+  \Rightarrow \Member(Q;\Owork).
+  \end{aligned}
 \]
 Consequently the legal branch from smooth initial data is smooth.
 \end{claim}
 
 \begin{proof}
-Every genuine nonsmooth branch has already been routed through the same-solution
-terminal packet and classified as a Pack, Part, or Field exit. Every legal
-same-solution Navier--Stokes branch remains in the working class object. A branch
-outside the class is therefore not a legal continuation candidate for the Clay
-problem. The only branch left from the smooth initial datum is the legal
-same-solution branch inside \(\CM\), and inside this class it is the smooth
-branch.
+Start with an obstruction \(O\) in the normal forward proof. The pass branch
+\(O_{\mathrm{pass}}\) is the branch where the same-solution Navier--Stokes
+evolution continues smoothly, hence it remains represented inside \(\CM\). The
+failure branch \(O_{\mathrm{fail}}\) is the branch capable of genuine finite
+breakdown. By the terminal witness classification, that branch is routed through
+the same-solution terminal packet and classified as a Pack, Part, or Field exit.
+
+A branch outside \(\CM\) is not a legal same-class continuation candidate for the
+Clay problem. A branch inside \(\CM\) is a legal same-solution branch, and by the
+class law it is the smooth branch. Therefore the legal branch from smooth initial
+data is smooth.
 \end{proof}
 
 \section{The Half-Page Proof Spine}
@@ -1732,6 +1760,15 @@ is not to identify the estimate that wins on each forward branch. The burden is
 to prove that every legal same-solution branch stays inside \(\CM\), and every
 genuine singular branch exits \(\CM\). With those two laws in place, positive
 control is no longer the closing mechanism.
+
+In the paper's notation, every obstruction \(O\) is read through the split
+\[
+  O_{\mathrm{pass}}\Rightarrow\Member(Q;\Owork),
+  \qquad
+  O_{\mathrm{fail}}\Rightarrow\Exit(Q;\Owork).
+\]
+That is why the positive estimate controlling \(O\) is no longer the theorem
+spine. The class decision is the theorem spine.
 
 This boundary is not weakness in the proof shape. It is the proof shape. A
 positive supplier theorem tries to erase a bad object. The CM contrapositive
