@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-25T17:02:41Z'
+  generated_at: '2026-05-25T17:10:17Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -20,10 +20,8 @@ shared_alignment:
       a singleton Navier-Stokes route.
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
-    route_label: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
-      / ClayCMContrapositiveEmbedding.A
-    current_route_name: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
-      / ClayCMContrapositiveEmbedding.A
+    route_label: NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
+    current_route_name: NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
     exact_cut_summary: 'The CM primitive remains `Exit(Q):=not Member(Q)`. The theorem-grade
       installed CM direction is only `forall N exists r_N: CM_{N,r_N,Q}=>Member(Q;O_NS^work)`,
       with `CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}` as the canonical route-relative
@@ -231,7 +229,7 @@ auditor:
   status: needs-attention
   audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
-  open_issue_count: 1
+  open_issue_count: 2
   autofixable_issue_count: 0
   fix_plan_count: 0
   branch_count: 1
