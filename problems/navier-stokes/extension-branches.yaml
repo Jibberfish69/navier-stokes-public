@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   branch_set_id: extension-branches-navier-stokes
-  generated_at: '2026-05-23T00:18:08Z'
+  generated_at: '2026-05-25T17:12:29Z'
   generator: system/runner/lib/lemma_synthesis_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -14,17 +14,17 @@ provenance_policy:
     and promotion.
 branches:
 - branch_id: branch-navier-stokes-1
-  origin_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
+  origin_obligation_id: source-reserve-birth-charge-a
   branch_type: route-branch
   provenance: machine-derived-beyond-source-frontier
-  hypothesis: Open a quarantined side branch that tests whether terminalCMNoExit.A
-    / NoGenuineCMExit.A can be made explicit without crossing the current safe-claim
-    boundary.
+  hypothesis: Open a quarantined side branch that tests whether sourceReserveBirthCharge.A
+    / RetainedPositiveScaleNativeReserveBirthCharge.A can be made explicit without
+    crossing the current safe-claim boundary.
   depends_on:
-  - terminalcmnoexit-a-nogenuinecmexit-a
+  - source-reserve-birth-charge-a
   risk_level: high
   notes:
-  - This branch starts exactly at the first unresolved frontier for `terminalcmnoexit-a-nogenuinecmexit-a`.
+  - This branch starts exactly at the first unresolved frontier for `source-reserve-birth-charge-a`.
   merge_policy: quarantined-until-promoted
 summary:
   branch_count: 1
