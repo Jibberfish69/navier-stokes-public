@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-25T18:53:05Z'
+  generated_at: '2026-05-25T18:55:28Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -121,13 +121,14 @@ cross_lane_broadcast:
     status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-  - label: 'ActiveHeightFluxTrichotomy.A. A positive first-created square-reserve
-      surplus on a minimal terminal window cannot hide as a zero-first-moment scalar
-      pulse: either a same-ledger active height-flux level set survives, or the concentration/dwell
-      collapse is already Pack gain, Part/dwell failure, legal Field source charge,
-      or terminal Zeno residue. This supplies the exact noncircular bridge needed
-      for Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting
-      positive square-reserve surplus into active height flux or Pack/Part/Field exit..'
+  - label: 'ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve
+      surplus with zero first moment cannot remain hidden: the signed-pair normal
+      form either exposes same-ledger active height flux, pays by ASAC / positive
+      pair-weight charge, lands immediately in Pack/Part/Field, or reduces to TerminalSignedSaturation.A,
+      whose failure is already CM face-reduction support. This supplies the exact
+      noncircular bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A
+      converting positive square-reserve surplus into active height flux or Pack/Part/Field
+      exit..'
     kind: lemma
     status: localized-support
     origin: local
@@ -226,5 +227,5 @@ summary:
   audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: solver-loop
+  current_next_cell_type: dependency-discharge
   current_next_cell_is_theorem_work: true
