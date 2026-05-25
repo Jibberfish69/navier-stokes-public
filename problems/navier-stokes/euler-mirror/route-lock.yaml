@@ -140,8 +140,8 @@ euler_ns_continuum_program_lock:
     smooth periodic shears converge to the global slip sheet as a singular
     limit. For ESM.N4, the external Wiedemann theorem supplies same-datum weak
     branches. For ESM.N5, the external Chen-Hou theorem class supplies
-    boundary/axisymmetric smooth-data blowup. The no-boundary smooth-data
-    finite-time question remains separately typed.
+    boundary/axisymmetric smooth-data blowup. The no-boundary smooth-data class
+    is separately accounted by its boundary note.
   closure_readback: >-
     The continuum program is closed as route control. It identifies the
     viscosity-free smoothness overlap, the exact viscosity divergence, and the
@@ -151,7 +151,7 @@ euler_ns_continuum_program_lock:
     is installed as a same-datum weak-branch import, and ESM.N5 is installed as
     a boundary/axisymmetric smooth-data blowup import; ESM.N6 is installed as
     the shared-Pack/non-one-field grammar closure; the no-boundary smooth-data
-    consequence stays typed by its own hypotheses.
+    class is separately accounted by its boundary note.
 closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
   status: closed
