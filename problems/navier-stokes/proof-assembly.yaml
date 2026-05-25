@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-05-25T18:18:15Z'
+  generated_at: '2026-05-25T18:22:34Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -26,8 +26,8 @@ frontier_context:
   additional_context_obligations: []
 next_solver_targets: []
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-b240e77e4537
-  route_signature: b240e77e4537c09cb1d0624e539b327ba8ec1a13
+  surface_id: theorem-surface-navier-stokes-afca8b68a2f8
+  route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
   theorem_target: full-mpp-closure
   theorem_statement: Every smooth divergence-free zero-mean initial datum on T^3 with
     f=0 generates a global smooth classical three-dimensional incompressible Navier-Stokes
@@ -53,48 +53,7 @@ theorem_surface:
     all hold on the active periodic branch, then the periodic Clay branch with `f
     = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
     not the internal branch itself
-  route_slots:
-  - slot_id: marvin-upstream-eb3fabeeac46
-    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-      Clay whole-space target into exact source-backed ingredients already present
-      on the lane. On the classical side, isolated the mixed-jet system, the exact
-      rung-level can'
-    kind: definition
-    status: needs-localization
-    source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T014725Z-6ece27230fc9.md
-    patch_surface: problems/navier-stokes/object-formalization.yaml
-  - slot_id: marvin-upstream-ada9835aa864
-    label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    kind: definition
-    status: needs-localization
-    source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T015459Z-d5f90422800c.md
-    patch_surface: problems/navier-stokes/object-formalization.yaml
-  - slot_id: marvin-upstream-6d929e8a052a
-    label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    kind: definition
-    status: needs-localization
-    source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T020719Z-04949830208e.md
-    patch_surface: problems/navier-stokes/object-formalization.yaml
-  - slot_id: marvin-upstream-954339945793
-    label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-      and E_sh(X) vanish identically, so the exact Route '
-    kind: definition
-    status: needs-localization
-    source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T020853Z-1ed78e356031.md
-    patch_surface: problems/navier-stokes/object-formalization.yaml
-  - slot_id: marvin-upstream-96892bab139f
-    label: 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
-      target.'
-    kind: definition
-    status: needs-localization
-    source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T022825Z-ed5d2bb9bea4.md
-    patch_surface: problems/navier-stokes/object-formalization.yaml
+  route_slots: []
   authority_layers:
     authoritative_proof_surfaces:
     - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
@@ -201,4 +160,4 @@ summary:
   tracked_source_count: 125
   synthesis_import_surface_count: 0
   ready_for_submission: true
-  theorem_surface_id: theorem-surface-navier-stokes-b240e77e4537
+  theorem_surface_id: theorem-surface-navier-stokes-afca8b68a2f8
