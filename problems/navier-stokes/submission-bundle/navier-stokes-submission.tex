@@ -1621,9 +1621,10 @@ CM route, the counterexample does not remain as an in-class object.
 The current one-fell-swoop audit makes the polarity explicit. The forward
 program produces a case split at each obstruction:
 \[
-  \text{the branch passes and remains smooth}
-  \qquad\text{or}\qquad
-  \text{the branch fails and can witness nonsmoothness}.
+  \begin{aligned}
+  &\text{the branch passes and remains smooth},\\
+  &\text{or the branch fails and can witness nonsmoothness}.
+  \end{aligned}
 \]
 The first side is ordinary membership. A branch that passes has stayed inside
 the smooth-data Navier--Stokes class object. The second side is the CM
@@ -1704,13 +1705,15 @@ remaining burden to delete.
 
 The current one-fell-swoop closure audit makes the decision explicit:
 \[
-  \text{failure capable of nonsmoothness}
-  \Rightarrow
-  \text{canonical same-solution terminal obstruction}
-  \Rightarrow
-  \text{Pack/Part/Field face failure}
-  \Rightarrow
+  \begin{aligned}
+  &\text{failure capable of nonsmoothness}\\
+  &\quad\Rightarrow
+  \text{canonical same-solution terminal obstruction}\\
+  &\quad\Rightarrow
+  \text{Pack/Part/Field face failure}\\
+  &\quad\Rightarrow
   \Exit(Q;\Owork),
+  \end{aligned}
 \]
 while
 \[
