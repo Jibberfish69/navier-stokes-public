@@ -4,61 +4,76 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-25T18:55:28Z'
+  audited_at: '2026-05-25T19:01:41Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
-  current_package_status: theorem-open-at-direct-live-frontier
+  current_package_status: full-mpp-closure-ready
   standalone_status: theorem-open-at-source-wall-root
-  completion_tier_achieved: route-complete
+  completion_tier_achieved: paper-complete-theorem-open
   review_verdict: revise
-  theorem_packet_status: incomplete
+  theorem_packet_status: export-ready
 audit_certification:
   audit_status: audited-needs-fix
-  audit_completion_tier: audited-route-complete
+  audit_completion_tier: audited-paper-complete-theorem-open
   audit_review_verdict: audited-revise
 branch_audit:
-  status: terminal-audit-open
-  branch_count: 1
+  status: no-branches
+  branch_count: 0
   live_import_count: 0
-  route_equivalence_count: 1
+  route_equivalence_count: 0
   death_certificate_count: 0
   unresolved_count: 0
-  branches:
-  - branch_id: branch-navier-stokes-1
-    origin_obligation_id: source-reserve-birth-charge-a
-    branch_type: route-branch
-    terminal_status: route-equivalence
-    exact_reason: This branch starts exactly at the first unresolved frontier for
-      `source-reserve-birth-charge-a`.
-    promotion_status: quarantined
-    falsification_verdict: quarantine
-    reasons:
-    - This branch starts exactly at the first unresolved frontier for `source-reserve-birth-charge-a`.
-    - This is a route branch rather than a local theorem bridge, so it stays quarantined.
-  authority_frontier_open: true
-  authority_frontier_count: 1
-  authority_blocking_count: 1
-  authority_status: theorem-open-at-direct-live-frontier
-downstream_overlay_drift:
-  status: ok
+  branches: []
+downstream_overlay_drift: &1
+  status: stale
   issue_id: downstream-overlay-drift
-  authority_surface_count: 0
+  authority_surface_count: 2
   stale_overlay_count: 2
-  authority_surfaces: []
+  authority_surfaces:
+  - artifact: source_frontier
+    path: problems/navier-stokes/source-frontier.yaml
+    sha1: 6956530bf36e5cb098af02dd5b2ccffba8608b9d
+    matched_terms:
+    - direct-live-surfaces
+    - source_authority_mode
+    - pctp.hard
+    - installed
+    - discharged
+    - 'unresolved_count: 0'
+    - 'dashboard_unresolved_count: 0'
+  - artifact: submission_verdict
+    path: problems/navier-stokes/submission-verdict.yaml
+    sha1: b89e910f03eb6ded21d0d8927d2a5f3480940050
+    matched_terms:
+    - direct-live-surfaces
+    - source_authority_mode
+    - full-mpp
+    - installed
+    - discharged
+    - full-mpp-closure
+    - 'all_discharged: true'
   stale_overlays:
   - artifact: review_verdict
     path: problems/navier-stokes/review-verdict.yaml
-    sha1: 6d8f4bfd18d4e86e01535a40061327f9dbf24792
+    sha1: 2b1703379645d384b3596e6bf1227ed774020ebe
     matched_terms:
+    - target fidelity failure
     - theorem-upgrade
+    - target fidelity blocker
   - artifact: release_decision
     path: problems/navier-stokes/release-decision.yaml
-    sha1: 81f4621d039176aad4ad11428bfe6060026596d1
+    sha1: 802663107e1ded781b920dbc0386bac694d52ecc
     matched_terms:
+    - target fidelity failure
     - theorem-upgrade
+    - target fidelity blocker
   recommended_repair: refresh-review-verdict
   recommended_next_cell_type: honesty-review
   recommended_command: refresh-review-freshness
+  terminal_condition_failure: 'Downstream overlay drift: authoritative theorem edge/source
+    surfaces carry a promoted direct-live posture, but generated overlays still advertise
+    stale blocker language in review_verdict, release_decision: target fidelity failure,
+    theorem-upgrade, target fidelity blocker.'
 graph_snapshot:
   exploration_graph:
     present: true
@@ -70,11 +85,12 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-1d8e32dfabe0
-    route_signature: 1d8e32dfabe0d36d46d502ee2d823669a3110ff0
-    theorem_target: NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
-    theorem_statement: 'NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
-      Live theorem edge: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A.'
+    surface_id: theorem-surface-navier-stokes-12a13e098666
+    route_signature: 12a13e098666693d53117528c6e34b0f38eeb7c4
+    theorem_target: full-mpp-closure
+    theorem_statement: Every smooth divergence-free zero-mean initial datum on T^3
+      with f=0 generates a global smooth classical three-dimensional incompressible
+      Navier-Stokes solution.
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -98,24 +114,6 @@ surface_snapshot:
       = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
       not the internal branch itself
     route_slots:
-    - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-pack-landing
-      label: Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
-    - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-part-landing
-      label: Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
-    - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-field-landing
-      label: Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
     - slot_id: ActiveHeightFluxTrichotomy.A
       label: 'ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve
         surplus with zero first moment cannot remain hidden: the signed-pair normal
@@ -129,15 +127,6 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
       patch_surface: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
-    - slot_id: CSP.A
-      label: CSP.A. On the retained same-fluid collar, LCI.A together with the installed
-        post-LCI source ledger FCI.5f supplies the collar source-pressure package;
-        OFP.A, CFI.A, endpoint readout, and Field remain downstream consumers, with
-        Member following only after the CM witness certificate.
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
-      patch_surface: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
     authority_layers:
       authoritative_proof_surfaces:
       - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
@@ -234,30 +223,29 @@ surface_snapshot:
       sterilized_synthesis_import_count: 0
   theorem_authority_summary:
     total_obligations: 1
-    grounded_count: 0
+    grounded_count: 1
     structural_only_count: 0
     structurally_supported_count: 0
     bridge_pending_count: 0
     unresolved_count: 0
-    frontier_count: 1
-    blocking_count: 1
-    all_discharged: false
+    frontier_count: 0
+    blocking_count: 0
+    all_discharged: true
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
 issues:
-- issue_id: terminal-audit-open
+- issue_id: downstream-overlay-drift
   severity: major
-  summary: The branch audit is terminal-open because direct-live authority still has
-    an open frontier.
+  summary: Generated theorem/review/release overlays still advertise stale blockers
+    after the direct live theorem edge advanced.
   autofixable: false
-  recommended_action: Keep theorem-crank/theorem-creation running against the direct-live
-    frontier until the branch lands as live import, route equivalence with a discharged
-    authority edge, or death certificate.
-  details:
-    authority_frontier_count: 1
-    authority_blocking_count: 1
-    authority_status: theorem-open-at-direct-live-frontier
-fix_plan: []
+  recommended_action: Regenerate the derived theorem chain, refresh honesty-review
+    if review-verdict is stale, and rerun release-or-respawn after review.
+  details: *1
+fix_plan:
+- fix_id: repair-downstream-overlay-drift
+  summary: Repair stale downstream overlays in a bounded promotion-preserving order.
+  autofixable: false
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
