@@ -31,4 +31,4 @@ Authoring gates:
 3. Every branch-family paragraph must preserve the Pack-first witness order.
 4. Every support estimate must attach to a hinge rather than float as background.
 5. Every live blocker must be stated as a theorem obligation, not as process status.
-6. The current concrete blocker is the no-genuine-exit hinge for original smooth data. The active Pack-side support chain now includes retained positive-scale native source-reserve birth charge, ReserveCreationCharge.A, TerminalReserveFirstAppearanceCharge.A, PositiveRemainderDepletion.A, and the open SourceWeightedTerminalAngularDepletion.A subprimitive.
+6. The current concrete blocker is the no-genuine-exit hinge for original smooth data. The active Pack-side/source support chain is carried by the current theorem-creation candidate notes: source-reserve birth charge, reserve creation, terminal reserve first appearance, positive remainder depletion, source-weighted angular depletion, BASAC reverse Holder production, terminal source anti-concentration, and uniform temporal source integrability.
