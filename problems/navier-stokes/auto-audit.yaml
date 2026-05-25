@@ -4,18 +4,18 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-25T19:01:41Z'
+  audited_at: '2026-05-25T19:04:50Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: full-mpp-closure-ready
   standalone_status: theorem-open-at-source-wall-root
-  completion_tier_achieved: paper-complete-theorem-open
-  review_verdict: revise
+  completion_tier_achieved: full-mpp-closure
+  review_verdict: accept
   theorem_packet_status: export-ready
 audit_certification:
   audit_status: audited-needs-fix
-  audit_completion_tier: audited-paper-complete-theorem-open
-  audit_review_verdict: audited-revise
+  audit_completion_tier: audited-full-mpp-closure
+  audit_review_verdict: audited-accept
 branch_audit:
   status: no-branches
   branch_count: 0
@@ -27,8 +27,8 @@ branch_audit:
 downstream_overlay_drift: &1
   status: stale
   issue_id: downstream-overlay-drift
-  authority_surface_count: 2
-  stale_overlay_count: 2
+  authority_surface_count: 3
+  stale_overlay_count: 1
   authority_surfaces:
   - artifact: source_frontier
     path: problems/navier-stokes/source-frontier.yaml
@@ -43,7 +43,7 @@ downstream_overlay_drift: &1
     - 'dashboard_unresolved_count: 0'
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: b89e910f03eb6ded21d0d8927d2a5f3480940050
+    sha1: d56041a1269f0fc655913332bc340b71e1545c02
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -52,28 +52,32 @@ downstream_overlay_drift: &1
     - discharged
     - full-mpp-closure
     - 'all_discharged: true'
+    - 'submission_ready: true'
+    - 'completion_tier_achieved: full-mpp-closure'
+    - submission-candidate
+    - 'release_posture: export-ready'
+  - artifact: theorem_crank
+    path: problems/navier-stokes/theorem-crank.yaml
+    sha1: 78fcc60010c05ad6874c8c50de6691595b971462
+    matched_terms:
+    - direct-live-surfaces
+    - authority_gate_mode
+    - cm witness
+    - installed
+    - discharged
+    - submission-candidate
   stale_overlays:
   - artifact: review_verdict
     path: problems/navier-stokes/review-verdict.yaml
-    sha1: 2b1703379645d384b3596e6bf1227ed774020ebe
+    sha1: fb3843c78e0e9ba7156bb21eef070302c588f839
     matched_terms:
-    - target fidelity failure
     - theorem-upgrade
-    - target fidelity blocker
-  - artifact: release_decision
-    path: problems/navier-stokes/release-decision.yaml
-    sha1: 802663107e1ded781b920dbc0386bac694d52ecc
-    matched_terms:
-    - target fidelity failure
-    - theorem-upgrade
-    - target fidelity blocker
   recommended_repair: refresh-review-verdict
   recommended_next_cell_type: honesty-review
   recommended_command: refresh-review-freshness
   terminal_condition_failure: 'Downstream overlay drift: authoritative theorem edge/source
     surfaces carry a promoted direct-live posture, but generated overlays still advertise
-    stale blocker language in review_verdict, release_decision: target fidelity failure,
-    theorem-upgrade, target fidelity blocker.'
+    stale blocker language in review_verdict: theorem-upgrade.'
 graph_snapshot:
   exploration_graph:
     present: true
