@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-25T18:25:43Z'
+  generated_at: '2026-05-25T18:28:55Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -95,7 +95,7 @@ local_derivation:
   required_packets: []
   leadership_status: leading
   net_new_local_theorem_count: 8
-  recommended_next_cell_type: theorem-creation
+  recommended_next_cell_type:
 cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
@@ -162,9 +162,9 @@ auditor:
   status: needs-attention
   audit_status: audited-needs-fix
   branch_terminal_status: no-branches
-  open_issue_count: 2
+  open_issue_count: 1
   autofixable_issue_count: 0
-  fix_plan_count: 2
+  fix_plan_count: 1
   branch_count: 0
   live_import_count: 0
   route_equivalence_count: 0
@@ -182,10 +182,10 @@ frontier_projection:
   one_step_beyond: []
   two_steps_beyond: []
   route_pressure: []
-  recommended_next_cell_type: theorem-creation
+  recommended_next_cell_type:
 summary:
   phase: frontier-projection
-  execution_state: needs-reroute
+  execution_state: submission-candidate
   leadership_status: leading
   alignment_complete: true
   theorem_authority_gate_all_discharged: false
@@ -199,12 +199,12 @@ summary:
   projected_frontier_count: 0
   current_open_obligation_count: 1
   open_obligations_state: not-currently-worked
-  theorem_work_blocked: true
+  theorem_work_blocked: false
   blocked_queue_interpretation: none
-  on_recommended_track: false
-  recommended_next_cell_type: theorem-creation
+  on_recommended_track: true
+  recommended_next_cell_type:
   audit_status: audited-needs-fix
   branch_terminal_status: no-branches
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: surface-clean
+  current_next_cell_type: ''
   current_next_cell_is_theorem_work: false
