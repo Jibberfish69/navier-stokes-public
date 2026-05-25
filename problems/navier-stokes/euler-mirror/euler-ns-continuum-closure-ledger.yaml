@@ -86,9 +86,11 @@ closed_outputs:
       shear have now been globalized on periodic domains by explicit stationary
       constructions. They give global finite-energy weak Euler Member_E objects
       that are not classical; the ESM.N2 object also fails the receiver ledger on
-      collars crossing the singular sheet. Other local nonsmooth witnesses
-      become global claims only when their own extension, embedding, or
-      localization bridge supplies the chosen global datum, domain, and class.
+      collars crossing the singular sheet. ESM.N3 is globalized as a periodic
+      smooth-layer singular limit to the ESM.N1 slip sheet. Other local
+      nonsmooth witnesses become global claims only when their own extension,
+      embedding, or localization bridge supplies the chosen global datum,
+      domain, and class.
   - id: continuum.local-to-global-boundary
     status: closed-with-periodic-base-bridge
     theorem_readback: >-
@@ -96,9 +98,10 @@ closed_outputs:
       valid local Euler theorem and a valid counterexample to local
       base-membership-implies-smoothness. The ESM.N1 and ESM.N2 bridges are
       installed as global periodic base-Member_E nonsmooth theorems with
-      nonsmooth initial data. Smooth-data finite-time blowup and the other
-      nonsmooth rows remain separately typed by their own hypotheses and bridge
-      surfaces.
+      nonsmooth initial data, and ESM.N3 is installed as their global periodic
+      smooth-layer singular-limit theorem. Smooth-data finite-time blowup and
+      the other nonsmooth rows remain separately typed by their own hypotheses
+      and bridge surfaces.
   - id: continuum.global-periodic-base-nonsmoothness
     status: closed-global-weak-member
     rows:
@@ -116,6 +119,18 @@ closed_outputs:
     authority:
       - problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-slip-sheet-euler-nonsmoothness-bridge-20260524.md
       - problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-unbounded-shear-euler-ledger-failure-bridge-20260524.md
+  - id: continuum.global-periodic-smooth-layer-limit
+    status: closed-global-singular-limit
+    rows:
+      - ESM.N3
+    theorem_readback: >-
+      The periodic mollified shear theorem constructs global smooth classical
+      stationary Euler solutions on I x T^d that converge in every finite Lp
+      space and distributionally to the ESM.N1 global slip-sheet member. This
+      proves the global singular-limit row while preserving the boundary that it
+      is not one fixed smooth datum becoming singular in time.
+    authority:
+      - problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-smooth-layer-to-slip-sheet-limit-20260524.md
 route_closure_tests:
   required_rows:
     smoothness_overlap:
@@ -144,9 +159,11 @@ route_closure_tests:
     - continuum.nonsmooth-boundary
     - continuum.local-to-global-boundary
     - continuum.global-periodic-base-nonsmoothness
+    - continuum.global-periodic-smooth-layer-limit
 final_readback: >-
   The Euler surfaces now do what the continuum program needs: they identify the
   viscosity-free smooth overlap, the exact viscosity divergence, the local
   nonsmooth Euler boundary, and exact global periodic base-Member_E
-  nonsmoothness theorems for ESM.N1 and ESM.N2, while keeping smooth-data and
-  other global consequences separately typed.
+  nonsmoothness theorems for ESM.N1 and ESM.N2 plus the ESM.N3 global periodic
+  smooth-layer singular limit, while keeping smooth-data and other global
+  consequences separately typed.
