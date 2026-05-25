@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-05-25T17:10:17Z'
+  evaluated_at: '2026-05-25T17:11:27Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: respawn
@@ -49,7 +49,7 @@ blockers:
   stand-alone paper surface.
 - 'Theorem-packet blocker: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
   / ClayCMContrapositiveEmbedding.A'
-- ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
+- SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
 - Completion tier is still `route-complete`, below a paper-complete or full-closure
   submission surface.
 - Honesty review verdict is still `revise`.
