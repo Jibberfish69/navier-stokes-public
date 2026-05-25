@@ -11,12 +11,11 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Grounded Core
 
-- No grounded obligations were identified.
+- SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A (`live-theorem-frontier`; `source-reserve-birth-charge-a`)
 
 ## Source Frontier
 
-- `first_unresolved`: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A (`live-theorem-frontier`; `source-reserve-birth-charge-a`)
-- SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A (`live-theorem-frontier`; `source-reserve-birth-charge-a`)
+- No unresolved frontier obligations remain.
 
 ## Source Surfaces
 
