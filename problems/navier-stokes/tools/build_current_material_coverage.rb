@@ -102,14 +102,14 @@ FAMILIES = [
   },
   {
     "id" => "cm_class_law_completion_and_adversarial_audits",
-    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, the explicit referee-facing classification-versus-exclusion pressure point, and the direct NoGenuineExitFromSmoothData attempt. Stale positive-bootstrap objections do not become CM-merited objections unless they attack the Pack/Part/Field class-exit chain itself; a direct objection that classification is not exclusion is preserved as a live logic-audit risk. The Clay-closing proof remains at OriginalSmoothData preventing the first terminal Pack/Part/Field exit, with ScaleCriticalTreeCarleson.A as the first concrete Pack-side wall.",
+    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, the explicit referee-facing classification-versus-exclusion pressure point, and the no-genuine-exit hinge. Stale positive-bootstrap objections do not become CM-merited objections unless they attack the Pack/Part/Field class-exit chain itself; a direct objection that classification is not exclusion is preserved as a live logic-audit risk. The Clay-closing proof remains at OriginalSmoothData preventing the first terminal Pack/Part/Field exit, with the reserve-creation charge chain recorded as current conditional Pack-side support rather than closure.",
     "files" => %w[
       theorem-construction/mcp-mpp-ttu-a-1ddd943b9d.md
       theorem-construction/mpp-nightly-terminal-cm-witness-red-team-20260524.md
       theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
       theorem-construction/mpp-no-third-branch-clay-closure-audit-20260525.md
-      theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md
-      theorem-construction/mpp-source-reserve-birth-charge-direct-attempt-20260525.md
+      theorem-construction/reservecreationcharge-a-theorem-creation-20260525.md
+      theorem-construction/terminalreservefirstappearancecharge-a-theorem-creation-20260525.md
       theorem-construction/mpp-cm-completion-claim-adversarial-audit-20260525.md
       theorem-construction/mcp-mpp-mpp-cmexitclassificationvsexclusionaudit-a-a6668e5c97.md
     ]
@@ -146,6 +146,13 @@ FAMILIES = [
       misalignment.json
       submission-bundle/ground-up/main.tex
       submission-bundle/ground-up/target-reference.md
+    ]
+  },
+  {
+    "id" => "submission_representation_standard",
+    "paper_representation" => "Governs how the large source field compresses into mathematical proof roles in the manuscript. This is an authoring standard, not theorem evidence.",
+    "files" => %w[
+      submission-bundle/source-field-representation-rubric.md
     ]
   }
 ].freeze
