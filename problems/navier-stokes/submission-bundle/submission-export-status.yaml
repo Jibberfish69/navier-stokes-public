@@ -1,7 +1,7 @@
 ---
 version: 2
 problem_id: navier-stokes
-generated_at: '2026-05-25T01:19:48Z'
+generated_at: '2026-05-25T01:28:17Z'
 status: exported-working-draft
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -9,11 +9,11 @@ bundle_dir: problems/navier-stokes/submission-bundle
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
-  source_word_count: 11998
-  bundle_word_count: 11998
-  page_count: 31
-  source_bytes: 90905
-  pdf_bytes: 470876
+  source_word_count: 12312
+  bundle_word_count: 12312
+  page_count: 32
+  source_bytes: 93248
+  pdf_bytes: 474331
 skeletal_source_detected: false
 authoritative_content_included: true
 ground_up_rebuild:
@@ -38,9 +38,9 @@ authority_sources:
 current_material_coverage:
   audit: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
   generator: problems/navier-stokes/tools/build_current_material_coverage.rb
-  total_files_under_problem: 2406
-  text_or_checkable_files: 2380
-  text_files_outside_existing_coverage_union: 63
+  total_files_under_problem: 2410
+  text_or_checkable_files: 2384
+  text_files_outside_existing_coverage_union: 67
 stdout: ''
 stderr: ''
 fallback:
@@ -58,6 +58,7 @@ source_wall_root_cm_status: >-
   the breakdown-capable / Exit(Q;O_NS^work) branch through Pack_Q,
   Part_{N,Q}, Field_{N,r,Q}, typed subset status, inherited authority, or support
   quarantine. The CM paper states the closure as class law rather than as another
-  positive-estimate bootstrap theorem; current repo material outside the existing
-  sweep is represented by family in the appendix or excluded as proof-irrelevant
-  provenance/comparison work.
+  positive-estimate bootstrap theorem and now preserves the classification-versus-exclusion
+  audit as the live referee pressure on that class-law step; current repo material
+  outside the existing sweep is represented by family in the appendix or excluded
+  as proof-irrelevant provenance/comparison work.
