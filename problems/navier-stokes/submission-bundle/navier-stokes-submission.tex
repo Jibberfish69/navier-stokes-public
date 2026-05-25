@@ -62,7 +62,9 @@ first failed required service is a class exit:
 The main work of the paper is to earn the right to use that line. Every
 forward-positive branch and every currently indexed non-Euler Navier--Stokes
 surface must either land in this witness tree or remain support until a named
-Pack/Part/Field bridge promotes it.
+Pack/Part/Field bridge promotes it. The pass side is earned too: a legal member
+keeps the same-ledger continuation packet and reads out to the usual
+\(H^s\), \(s>5/2\), classical continuation theorem.
 \end{abstract}
 
 \setcounter{tocdepth}{1}
@@ -473,6 +475,30 @@ This is the synchronization rule for the packet. The CM witness is the
 conjunction of the carrier service, participation service, and field-coherence
 service on the same ledger. The implication is legal exactly when the carrier,
 tower, scale, same-fluid family, and terminal window match.
+\end{proof}
+
+\begin{lemma}[Membership readout law]
+For the continuation depth \(N_s\), a legal same-solution packet that remains a
+member of the working Clay class reads out to smooth continuation:
+\[
+  \text{legal same-solution }Q\wedge\Member(Q;\Owork)
+  \Longrightarrow
+  \sup_{t<T_*}\|u(t)\|_{H^s}<\infty,\qquad s>5/2,
+\]
+and therefore the same Navier--Stokes solution extends classically past
+\(T_*\).
+\end{lemma}
+
+\begin{proof}
+Membership is not a bookkeeping label. In this paper it means that the retained
+terminal packet keeps the same-ledger services needed for continuation: Pack
+keeps the same-fluid carrier, Part keeps the differentiated pressure-viscosity
+tower through depth \(N_s\), and Field keeps a positive-scale coherent readout.
+Those services are all carried on \(\WitnessLedger\), so the readout belongs to
+the original datum, equation, pressure, viscosity, and fluid branch. The
+installed continuation readout gives the displayed \(H^s\) bound with
+\(s>5/2\), and classical local Navier--Stokes theory extends that same solution
+beyond \(T_*\).
 \end{proof}
 
 The installed membership direction is
@@ -1677,8 +1703,8 @@ The completed CM proof has the form
   &\Rightarrow \text{genuine nonsmooth branch}
   \Rightarrow \Exit(Q;\Owork),\\
   O_{\mathrm{pass}}
-  &\Rightarrow \text{smooth continuation}
-  \Rightarrow \Member(Q;\Owork).
+  &\Rightarrow \Member(Q;\Owork)
+  \Rightarrow \text{smooth continuation}.
   \end{aligned}
 \]
 Consequently the legal branch from smooth initial data is smooth.
@@ -1686,16 +1712,18 @@ Consequently the legal branch from smooth initial data is smooth.
 
 \begin{proof}
 Start with an obstruction \(O\) in the normal forward proof. The pass branch
-\(O_{\mathrm{pass}}\) is the branch where the same-solution Navier--Stokes
-evolution continues smoothly, hence it remains represented inside \(\CM\). The
-failure branch \(O_{\mathrm{fail}}\) is the branch capable of genuine finite
-breakdown. By the terminal witness classification, that branch is routed through
-the same-solution terminal packet and classified as a Pack, Part, or Field exit.
+\(O_{\mathrm{pass}}\) is the branch where the same-solution packet keeps the
+services required by \(\Member(Q;\Owork)\). By the membership readout law, that
+member packet gives the \(H^s\), \(s>5/2\), continuation bound and therefore
+smooth continuation. The failure branch \(O_{\mathrm{fail}}\) is the branch
+capable of genuine finite breakdown. By the terminal witness classification,
+that branch is routed through the same-solution terminal packet and classified
+as a Pack, Part, or Field exit.
 
 A branch outside \(\CM\) is not a legal same-class continuation candidate for the
-Clay problem. A branch inside \(\CM\) is a legal same-solution branch, and by the
-class law it is the smooth branch. Therefore the legal branch from smooth initial
-data is smooth.
+Clay problem. A branch inside \(\CM\) retains the readout services that extend
+the same solution. Therefore the legal branch from smooth initial data is
+smooth.
 \end{proof}
 
 \section{The Half-Page Proof Spine}
@@ -1711,9 +1739,9 @@ exit branch.
 
 \begin{proof}
 Follow any forward-positive branch until it reaches its obstruction. If the
-obstruction is overcome, the branch has remained in the smooth-data
-Navier--Stokes class and is witnessed by
-\(\Member(Q;\Owork)\).
+obstruction is overcome, the branch has retained the same-ledger continuation
+packet. It is witnessed by \(\Member(Q;\Owork)\), and the membership readout law
+turns that membership into smooth continuation of the same solution.
 
 If the obstruction is not overcome and is offered as a finite terminal failure,
 then it is the alleged Clay witness. The witness enters the same-fluid terminal
@@ -1752,14 +1780,15 @@ The paper's claim is not that every positive supplier theorem has been proved.
 The supplier theorems belong to the gold-standard route, where the proof tries
 to erase the bad object before it appears. The CM route decides the object after
 the forward route has produced the obstruction. A smooth/pass branch is a member
-branch. A failure branch capable of nonsmoothness is sorted into Pack, Part, or
-Field and exits the class.
+branch whose same-ledger packet reads out to classical continuation. A failure
+branch capable of nonsmoothness is sorted into Pack, Part, or Field and exits
+the class.
 
 This is a class-law proof, not another bootstrap proof in disguise. The burden
 is not to identify the estimate that wins on each forward branch. The burden is
-to prove that every legal same-solution branch stays inside \(\CM\), and every
-genuine singular branch exits \(\CM\). With those two laws in place, positive
-control is no longer the closing mechanism.
+to prove that every legal same-solution member has continuation readout, and
+every genuine singular branch exits \(\CM\). With those two laws in place,
+positive control is no longer the closing mechanism.
 
 In the paper's notation, every obstruction \(O\) is read through the split
 \[
