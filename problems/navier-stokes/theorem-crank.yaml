@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-25T18:55:28Z'
+  generated_at: '2026-05-25T18:59:41Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-5f7ee734a28b
-    route_signature: 5f7ee734a28b5e79811b63ff4be2d85b5e56061a
+    surface_id: theorem-surface-navier-stokes-12a13e098666
+    route_signature: 12a13e098666693d53117528c6e34b0f38eeb7c4
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -34,11 +34,18 @@ shared_alignment:
       = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
       not the internal branch itself
     route_slots:
-    - slot_id: source-reserve-birth-charge-a
-      label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
-      kind: live-theorem-frontier
-      status: frontier-open
-      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    - slot_id: ActiveHeightFluxTrichotomy.A
+      label: 'ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve
+        surplus with zero first moment cannot remain hidden: the signed-pair normal
+        form either exposes same-ledger active height flux, pays by ASAC / positive
+        pair-weight charge, lands immediately in Pack/Part/Field, or reduces to TerminalSignedSaturation.A,
+        whose failure is already CM face-reduction support. This supplies the exact
+        noncircular bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A
+        converting positive square-reserve surplus into active height flux or Pack/Part/Field
+        exit..'
+      kind: lemma
+      status: localized-support
+      patch_surface: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
     route_label: NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
@@ -106,21 +113,42 @@ cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
   local_consequences:
-  - label: Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-    kind: lemma
-    status: localized-support
+  - label: Canonical same-fluid CM witness packet tree with Pack_Q, Part_{N,Q}, and
+      Field_{N,r,Q} faces.
+    kind: definition
+    status: localized-proof
     origin: local
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-  - label: Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+  - label: Member(Q) is the downstream class-membership predicate; Exit(Q):=not Member(Q)
+      is supported by Pack/Part/Field face failure.
+    kind: definition
+    status: localized-proof
+    origin: local
+    source_anchor: problems/navier-stokes/target-operating-contract.yaml
+  - label: A finite Clay breakdown witness from original smooth data is tested as
+      a CM-admissible terminal object, not assumed to be Member(Q).
+    kind: definition
+    status: localized-proof
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-to-warrant.yaml
+  - label: Every CM-test-admissible finite Clay terminal object from original smooth
+      data enters the same-fluid canonical CM packet tree.
     kind: lemma
-    status: localized-support
+    status: localized-proof
     origin: local
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-  - label: Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+  - label: Every finite failure type extracted from the canonical terminal witness
+      is exhausted by Pack_Q, Part_{N,Q}, or Field_{N,r,Q} face failure.
     kind: lemma
-    status: localized-support
+    status: localized-proof
     origin: local
-    source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+    source_anchor: problems/navier-stokes/theorem-repair.yaml
+  - label: The Pack/Part/Field face failure supports Exit(Q):=not Member(Q), while
+      the pass branch remains the only legal in-class continuation branch.
+    kind: lemma
+    status: localized-proof
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-to-warrant.yaml
   - label: 'ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve
       surplus with zero first moment cannot remain hidden: the signed-pair normal
       form either exposes same-ledger active height flux, pays by ASAC / positive
@@ -133,46 +161,11 @@ cross_lane_broadcast:
     status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
-  - label: CSP.A. On the retained same-fluid collar, LCI.A together with the installed
-      post-LCI source ledger FCI.5f supplies the collar source-pressure package; OFP.A,
-      CFI.A, endpoint readout, and Field remain downstream consumers, with Member
-      following only after the CM witness certificate.
-    kind: lemma
-    status: localized-support
+  - label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
+    kind: live-theorem-frontier
+    status: grounded
     origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
-  - label: 'HeightFluxControl.A. Turn the remaining positive source-reserve birth
-      charge into the first proof-facing sampling theorem: a first large retained
-      height-flux event must create Pack gain, Part/dwell failure, legal Field source
-      charge, or a Zeno terminal residue atom. This supplies the exact noncircular
-      bridge needed for Create the recursive theorem subprimitive HeightFluxControl.A
-      exposed by the previous theorem-creation packet, instead of mutating a neighboring
-      route..'
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260523.md
-  - label: 'HeightFluxControl.A. Turn the remaining positive source-reserve birth
-      charge into the first proof-facing sampling theorem: a first large retained
-      height-flux event must create Pack gain, Part/dwell failure, legal Field source
-      charge, or a Zeno terminal residue atom. This supplies the exact noncircular
-      bridge needed for Create the native theorem route HeightFluxControl.A after
-      the supplier chain PositiveRemainderDepletion.A stopped serving the source-reserve
-      CM-exit target..'
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260525.md
-  - label: LCI.A. On a retained same-fluid interval with bounded Pack gauge and the
-      ordered ACT.KX receiver package installed, ACT.X-Readout gives ACT.A, ACT.A
-      gives RCF.A through the transported-center residual package, and ULCI.A/DTC.C
-      yields lower-carrier interval integrability; FCI.5f, CSP.A, OFP.A, CFI.A, endpoint
-      readout, and Field remain downstream consumers, with Member downstream of the
-      CM witness certificate.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/lci-a-theorem-creation-20260522.md
+    source_anchor: problems/navier-stokes/dependency-discharge.yaml
   broadcast_paths:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
@@ -182,13 +175,13 @@ cross_lane_broadcast:
 auditor:
   status: needs-attention
   audit_status: audited-needs-fix
-  branch_terminal_status: terminal-audit-open
+  branch_terminal_status: no-branches
   open_issue_count: 1
   autofixable_issue_count: 0
-  fix_plan_count: 0
-  branch_count: 1
+  fix_plan_count: 1
+  branch_count: 0
   live_import_count: 0
-  route_equivalence_count: 1
+  route_equivalence_count: 0
   death_certificate_count: 0
   unresolved_branch_terminal_count: 0
 frontier_projection:
@@ -212,7 +205,7 @@ summary:
   theorem_authority_gate_all_discharged: false
   authority_gate_mode: direct-live-surfaces
   authority_gate_blocking_count: 1
-  proof_assembly_open_obligation_count: 1
+  proof_assembly_open_obligation_count: 0
   authoritative_source_gap_count: 0
   export_readiness_hold_state: none
   exact_local_packet_count: 0
@@ -225,7 +218,7 @@ summary:
   on_recommended_track: false
   recommended_next_cell_type: theorem-creation
   audit_status: audited-needs-fix
-  branch_terminal_status: terminal-audit-open
+  branch_terminal_status: no-branches
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: dependency-discharge
-  current_next_cell_is_theorem_work: true
+  current_next_cell_type: surface-clean
+  current_next_cell_is_theorem_work: false
