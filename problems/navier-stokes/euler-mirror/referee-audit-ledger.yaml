@@ -151,10 +151,11 @@ case_matrix:
   - id: ESM.N6
     classification: nonsmooth_control
     euler_scenario: shared Pack / Euler non-one-field participation split
-    ns_control_readback: Pack failure can be shared at flux-volume level, but NS Part/Field smoothness laws become Euler nonsmoothness diagnostics rather than Euler membership laws
+    ns_control_readback: Pack failure can be shared at flux-volume level, but NS Part/Field smoothness laws become Euler nonsmoothness diagnostics rather than Euler membership laws; this row is a grammar closure, with concrete witnesses supplied by ESM.N1 and ESM.N2
     authority:
       - problems/navier-stokes/theorem-construction/mpp-ns-cm-smoothness-euler-dual-regularity-map-20260516.md
       - problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-class-membership-flux-volume-definition.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/shared-pack-non-one-field-grammar-closure-20260524.md
   - id: ESM.V1
     classification: non_euler_import
     euler_scenario: parent ACT.KX absorption scheduler
@@ -384,6 +385,7 @@ surface_rules:
       - theorem-construction/global-periodic-smooth-layer-to-slip-sheet-limit-20260524.md
       - theorem-construction/global-periodic-same-datum-weak-branch-euler-import-20260524.md
       - theorem-construction/boundary-axisymmetric-smooth-data-euler-blowup-import-20260524.md
+      - theorem-construction/shared-pack-non-one-field-grammar-closure-20260524.md
     classifications:
       - smooth_by_hypothesis
       - nonsmooth_control
