@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-25T17:56:55Z'
+  audited_at: '2026-05-25T18:06:47Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -70,8 +70,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-5014f8022d2d
-    route_signature: 5014f8022d2d6c51401bc14712b0be8de0602213
+    surface_id: theorem-surface-navier-stokes-03874a207249
+    route_signature: '03874a207249b1cbe620f86fc1b62b4704c86fd3'
     theorem_target: NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
     theorem_statement: 'NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
       Live theorem edge: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A.'
@@ -116,6 +116,19 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/live-theorem-edge.yaml
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    - slot_id: ActiveHeightFluxTrichotomy.A
+      label: 'ActiveHeightFluxTrichotomy.A. A positive first-created square-reserve
+        surplus on a minimal terminal window cannot hide as a zero-first-moment scalar
+        pulse: either a same-ledger active height-flux level set survives, or the
+        concentration/dwell collapse is already Pack gain, Part/dwell failure, legal
+        Field source charge, or terminal Zeno residue. This supplies the exact noncircular
+        bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A
+        converting positive square-reserve surplus into active height flux or Pack/Part/Field
+        exit..'
+      kind: lemma
+      status: localized-support
+      source_anchor: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
+      patch_surface: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
     - slot_id: SourceReserveBirthHeightFluxActivation.A
       label: 'SourceReserveBirthHeightFluxActivation.A. A retained positive-scale
         first-created donor-square reserve surplus cannot remain a static square-reserve
@@ -130,18 +143,6 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/theorem-construction/sourcereservebirthheightfluxactivation-a-theorem-creation-20260525.md
       patch_surface: problems/navier-stokes/theorem-construction/sourcereservebirthheightfluxactivation-a-theorem-creation-20260525.md
-    - slot_id: HeightFluxControl.A
-      label: 'HeightFluxControl.A. Turn the remaining positive source-reserve birth
-        charge into the first proof-facing sampling theorem: a first large retained
-        height-flux event must create Pack gain, Part/dwell failure, legal Field source
-        charge, or a Zeno terminal residue atom. This supplies the exact noncircular
-        bridge needed for Create the native theorem route HeightFluxControl.A after
-        the supplier chain PositiveRemainderDepletion.A stopped serving the source-reserve
-        CM-exit target..'
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260525.md
-      patch_surface: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260525.md
     authority_layers:
       authoritative_proof_surfaces:
       - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
@@ -227,7 +228,7 @@ surface_snapshot:
       - problems/navier-stokes/proof-assembly.yaml
       - problems/navier-stokes/source-frontier.yaml
       - problems/navier-stokes/object-formalization.yaml
-      safe_output_surface: problems/navier-stokes/external-paper/main.tex
+      safe_output_surface: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
       synthesis_import_surfaces: []
     same_surface_guard:
       status: ok
@@ -265,6 +266,7 @@ issues:
   autofixable: false
   recommended_action: Run honesty-review to refresh the review verdict.
   details:
+  - Primary manuscript changed after the current review verdict was written.
   - Submission export status changed after the current review verdict was written.
   - Typeset audit changed after the current review verdict was written.
 fix_plan: []
