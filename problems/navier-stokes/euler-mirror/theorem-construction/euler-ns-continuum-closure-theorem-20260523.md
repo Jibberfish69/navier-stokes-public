@@ -99,8 +99,8 @@ The smooth-data finite-time question remains separately typed. The periodic
 slip-sheet and unbounded-shear theorems use nonsmooth initial data; the
 smooth-layer theorem uses a sequence of different smooth initial data; the weak
 branch theorem is nonclassical; the Chen-Hou theorem is boundary/axisymmetric.
-The no-boundary smooth finite-energy finite-time blowup question is not closed
-by these rows.
+The no-boundary smooth finite-energy finite-time blowup class is separately
+accounted by the May 24 boundary note and is not claimed by these rows.
 
 ## Navier-Stokes Consequence
 
