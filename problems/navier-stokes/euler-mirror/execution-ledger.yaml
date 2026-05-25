@@ -25,6 +25,7 @@ main_objective:
   global_periodic_same_datum_weak_branch_import: problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-same-datum-weak-branch-euler-import-20260524.md
   boundary_axisymmetric_blowup_import: problems/navier-stokes/euler-mirror/theorem-construction/boundary-axisymmetric-smooth-data-euler-blowup-import-20260524.md
   shared_pack_grammar_closure: problems/navier-stokes/euler-mirror/theorem-construction/shared-pack-non-one-field-grammar-closure-20260524.md
+  no_boundary_smooth_data_class_boundary: problems/navier-stokes/euler-mirror/theorem-construction/no-boundary-smooth-data-euler-class-boundary-20260524.md
 closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
   status: closed
@@ -76,7 +77,7 @@ continuum_program:
     a Wiedemann same-datum weak-branch import, and ESM.N5 is closed as a
     Chen-Hou boundary/axisymmetric smooth-data blowup import. ESM.N6 is closed
     as the shared-Pack/non-one-field grammar theorem. The no-boundary smooth-data
-    finite-time question remains separately typed by its own hypotheses.
+    class is separately accounted by its boundary note.
 route_families:
 - family_id: euler-membership-plus-regularity
   status: terminal
