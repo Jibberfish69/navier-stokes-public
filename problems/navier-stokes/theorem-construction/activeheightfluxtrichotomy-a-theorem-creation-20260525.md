@@ -13,13 +13,13 @@ ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve surplus wi
 
 ## Inventive Search
 
-- mode: inventive-right-theorem-selection
+- mode: inventive-recursive-theorem-solver
 - external_resources_used: false
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
 - selected_mechanism: zero_moment_signed_pair_visibility
 - candidate_count: 2
-- solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, forces TerminalWeightedNoFreeSink.A or TwoTowerDonorDepletion.A, or collapses to Zeno. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to SignedPairReserveVisibility.A rather than pretending the frontier is closed.
+- solver_chain_verdict: closed
+- selection_reason: This theorem is the right next move because it changes the proof economy: A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, forces TerminalWeightedNoFreeSink.A or TwoTowerDonorDepletion.A, or collapses to Zeno. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to SignedPairReserveVisibility.A rather than pretending the frontier is closed. The internal solver also discharged the residual chain through ActiveHeightFluxTrichotomy.A -> SignedPairReserveVisibility.A -> TerminalSignedSaturationCMFaceReduction.A.
 
 ### Candidate Theorems
 
@@ -37,9 +37,11 @@ ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve surplus wi
 
 ### Recursive Solver Chain
 
-- terminal_verdict: open
-- reason: No internal solver mechanism is installed for SignedPairReserveVisibility.A.
+- terminal_verdict: closed
+- reason: The recursive theorem solver reached a terminal mechanism with no remaining residual primitive.
 - depth 0: ActiveHeightFluxTrichotomy.A via zero_moment_signed_pair_visibility -> SignedPairReserveVisibility.A
+- depth 1: SignedPairReserveVisibility.A via signed_pair_reserve_visibility_cm_exit -> TerminalSignedSaturation.A
+- depth 2: TerminalSignedSaturationCMFaceReduction.A via terminal_signed_saturation_cm_face_reduction -> closed
 
 ## Allowed Inputs
 
@@ -77,6 +79,18 @@ ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve surplus wi
 4. Reduce the only retained positive-scale hidden branch to a same-ledger signed-pair no-free-sink/depletion theorem.
 5. Keep ActiveHeightFluxTrichotomy.A conditional until that signed-pair bridge is proved.
 6. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
+7. Recursive solver step for SignedPairReserveVisibility.A: Work in the first minimal terminal window selected below ZeroMomentReserveVisibility.A.
+8. Recursive solver step for SignedPairReserveVisibility.A: Keep the positive and negative packets on the same retained ledger; missing or incompatible partners land immediately in Pack, Part, or licensed Field.
+9. Recursive solver step for SignedPairReserveVisibility.A: Pay retained partners by ASAC.A / PositivePairWeightDefectCharge.A and legal exits by the declared boundary, projection, pressure, collar, and heat-action ledgers.
+10. Recursive solver step for SignedPairReserveVisibility.A: Route the only uncharged same-ledger donor-sink branch to TerminalSignedSaturation.A, then use its CM face-reduction theorem rather than a forward smoothness estimate.
+11. Recursive solver step for SignedPairReserveVisibility.A: Record the conclusion as Pack/Part/Field witness support for Exit(Q):=not Member(Q), not as a proof that the bad branch was positively erased.
+12. Recursive solver step for SignedPairReserveVisibility.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
+13. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Partition selected terminal source-current edges into retained signed partners, legal exits, finite donor sinks, and terminal Zeno refill.
+14. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Pay retained partners by ASAC pair-weight charge, legal exits by declared ledgers, and finite donor sinks by LocalDonorBalance.A plus EntranceLeafDecay.A.
+15. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Route the only unpaid terminal Zeno refill to the produced B_ASAC terminal residue class.
+16. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Apply the terminal Zeno Pack-failure correction: a zero-radius terminal source residue is not Pack_Q.
+17. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Use BASACTerminalAtomCMFaceLabeling.A to record any incoming flux, CM envelope blowout, or paid exit as Pack/Part/Field witness-face exit.
+18. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
 ## Circularity Audit
 
@@ -85,12 +99,11 @@ ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve surplus wi
 
 ## Solver Verdict
 
-- verdict: new_subprimitive
-- certification_level: theorem-creation:new-subprimitive
-- rationale: The theorem has been reduced to a smaller noncircular primitive that is not currently installed.
-- next subprimitive: SignedPairReserveVisibility.A -- positive-scale same-ledger signed-pair cancellation has no free terminal sink
+- verdict: conditional
+- certification_level: theorem-creation:conditional
+- rationale: The proof attempt is noncircular but still needs downstream audit before promotion.
 
 ## Promotion Plan
 
 - promotion_allowed: false
-- recommended_next_cell_type: theorem-creation
+- recommended_next_cell_type: dependency-discharge
