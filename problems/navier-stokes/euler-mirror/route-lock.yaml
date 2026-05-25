@@ -136,14 +136,17 @@ euler_ns_continuum_program_lock:
     A local nonsmooth Euler member proves that base Member_E does not force
     classical smoothness locally. For ESM.N1 and ESM.N2, the periodic
     globalizations supply stated bridges to global finite-energy weak Euler
-    Member_E objects on I x T^d with nonsmooth initial data. Smooth-data
-    finite-time blowup and the other nonsmooth rows remain separately typed.
+    Member_E objects on I x T^d with nonsmooth initial data. For ESM.N3, global
+    smooth periodic shears converge to the global slip sheet as a singular
+    limit. Smooth-data finite-time blowup and the other nonsmooth rows remain
+    separately typed.
   closure_readback: >-
     The continuum program is closed as route control. It identifies the
     viscosity-free smoothness overlap, the exact viscosity divergence, and the
     nonsmooth Euler boundary. The ESM.N1 and ESM.N2 local-to-global bridges are
-    installed as global periodic weak-Euler nonsmoothness theorems; the other
-    global consequences stay typed by their own stated hypotheses.
+    installed as global periodic weak-Euler nonsmoothness theorems, and ESM.N3
+    is installed as a global periodic smooth-layer singular-limit theorem; the
+    other global consequences stay typed by their own stated hypotheses.
 closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
   status: closed
