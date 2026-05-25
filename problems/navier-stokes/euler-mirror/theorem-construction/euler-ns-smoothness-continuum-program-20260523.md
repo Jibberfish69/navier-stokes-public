@@ -85,8 +85,10 @@ local counterexample to "base Euler membership forces classical smoothness."
 For `ESM.N1` and `ESM.N2`, that bridge is now explicit: the local slip sheet and
 the local unbounded shear both globalize to stationary periodic weak Euler
 members, so base global `Member_E` does not imply global classical smoothness or
-the receiver ledger. The smooth-data finite-time question and the other
-nonsmooth rows keep their own stated hypotheses.
+the receiver ledger. For `ESM.N3`, global smooth stationary periodic shears
+converge to the global slip sheet, so finite-`p` closure of smooth Euler does
+not preserve one-field smoothness. The smooth-data finite-time question and the
+other nonsmooth rows keep their own stated hypotheses.
 
 ## Working Rule
 
