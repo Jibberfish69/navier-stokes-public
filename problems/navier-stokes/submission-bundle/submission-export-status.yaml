@@ -1,7 +1,7 @@
 ---
 version: 2
 problem_id: navier-stokes
-generated_at: '2026-05-25T01:10:13Z'
+generated_at: '2026-05-25T01:19:48Z'
 status: exported-working-draft
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -9,11 +9,11 @@ bundle_dir: problems/navier-stokes/submission-bundle
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
-  source_word_count: 11818
-  bundle_word_count: 11818
+  source_word_count: 11998
+  bundle_word_count: 11998
   page_count: 31
-  source_bytes: 89424
-  pdf_bytes: 468316
+  source_bytes: 90905
+  pdf_bytes: 470876
 skeletal_source_detected: false
 authoritative_content_included: true
 ground_up_rebuild:
@@ -53,8 +53,9 @@ source_wall_root_cm_status: >-
   quarantine ledger, the one-fell-swoop CM dichotomy audit, and the generated
   current-material coverage audit. The forward-positive proof program is developed
   as the gold-standard obstruction field, then each obstruction O is split into
-  O_pass and O_fail: O_pass is the smooth continuation / Member(Q;O_NS^work) branch,
-  and O_fail is the breakdown-capable / Exit(Q;O_NS^work) branch through Pack_Q,
+  O_pass and O_fail: O_pass is the Member(Q;O_NS^work) branch whose same-ledger
+  membership readout gives H^s, s>5/2, classical continuation, and O_fail is
+  the breakdown-capable / Exit(Q;O_NS^work) branch through Pack_Q,
   Part_{N,Q}, Field_{N,r,Q}, typed subset status, inherited authority, or support
   quarantine. The CM paper states the closure as class law rather than as another
   positive-estimate bootstrap theorem; current repo material outside the existing
