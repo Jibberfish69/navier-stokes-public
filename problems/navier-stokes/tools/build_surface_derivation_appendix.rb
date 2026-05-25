@@ -37,9 +37,25 @@ def latex_escape(value)
        .gsub("^", "\\textasciicircum{}")
 end
 
+def latex_breakable(value)
+  escaped = latex_escape(value)
+  escaped = escaped.gsub(/([[:lower:]])([[:upper:]])/, "\\1\\\\allowbreak{}\\2")
+  escaped
+    .gsub("/", "/\\allowbreak{}")
+    .gsub("-", "-\\allowbreak{}")
+    .gsub("\\_", "\\_\\allowbreak{}")
+    .gsub(".", ".\\allowbreak{}")
+    .gsub("(", "(\\allowbreak{}")
+    .gsub(")", ")\\allowbreak{}")
+    .gsub(",", ",\\allowbreak{}")
+    .gsub(";", ";\\allowbreak{}")
+    .gsub(":", ":\\allowbreak{}")
+    .gsub("=", "=\\allowbreak{}")
+    .gsub("+", "+\\allowbreak{}")
+end
+
 def latex_path(path)
-  safe = path.to_s.tr("|", "/")
-  "\\path|#{safe}|"
+  "\\texttt{#{latex_breakable(path.to_s.tr("|", "/"))}}"
 end
 
 def sorted_hash(hash)
@@ -142,41 +158,55 @@ tex << "\\end{tabular}"
 tex << "\\end{center}"
 tex << ""
 tex << "\\subsection{Non-Euler CM Certificate Derivations}"
-tex << "{\\footnotesize"
+tex << "\\begingroup"
+tex << "\\scriptsize"
+tex << "\\raggedright"
+tex << "\\sloppy"
+tex << "\\emergencystretch=8em"
 certificate_entries.each_with_index do |entry, index|
-  tex << "\\par\\medskip\\noindent\\textbf{Certificate #{index + 1}.} #{latex_path(entry["path"])}"
-  tex << "\\par\\noindent\\emph{Proof rule.} #{latex_escape(entry["proof_rule"])}."
-  tex << "\\par\\noindent\\emph{Contrapositive status.} #{latex_escape(entry["contrapositive_status"])}."
-  tex << "\\par\\noindent\\emph{Face sort.} #{latex_escape(entry["face_sort"])}."
+  tex << "\\par\\medskip\\noindent\\textbf{Certificate #{index + 1}.}"
+  tex << "\\par\\noindent\\emph{Surface.} #{latex_path(entry["path"])}"
+  tex << "\\par\\noindent\\emph{Proof rule.} #{latex_breakable(entry["proof_rule"])}."
+  tex << "\\par\\noindent\\emph{Contrapositive status.} #{latex_breakable(entry["contrapositive_status"])}."
+  tex << "\\par\\noindent\\emph{Face sort.} #{latex_breakable(entry["face_sort"])}."
   face_breaks = Array(entry["cm_face_breaks"])
-  tex << "\\par\\noindent\\emph{CM face breaks.} #{latex_escape(face_breaks.empty? ? "none" : face_breaks.join(", "))}."
-  tex << "\\par\\noindent\\emph{Selected failure.} #{latex_escape(entry["selected_failure_type"])}."
-  tex << "\\par\\noindent\\emph{Proof statement.} #{latex_escape(entry["proof_statement"])}"
-  tex << "\\par\\noindent\\emph{Proof explanation.} #{latex_escape(entry["proof_explanation"])}"
+  tex << "\\par\\noindent\\emph{CM face breaks.} #{latex_breakable(face_breaks.empty? ? "none" : face_breaks.join(", "))}."
+  tex << "\\par\\noindent\\emph{Selected failure.} #{latex_breakable(entry["selected_failure_type"])}."
+  tex << "\\par\\noindent\\emph{Proof statement.} #{latex_breakable(entry["proof_statement"])}"
+  tex << "\\par\\noindent\\emph{Proof explanation.} #{latex_breakable(entry["proof_explanation"])}"
 end
-tex << "}"
+tex << "\\endgroup"
 tex << ""
 tex << "\\subsection{Forward-Positive Quarantine Derivations}"
-tex << "{\\footnotesize"
+tex << "\\begingroup"
+tex << "\\scriptsize"
+tex << "\\raggedright"
+tex << "\\sloppy"
+tex << "\\emergencystretch=8em"
 quarantine_entries.each_with_index do |entry, index|
-  tex << "\\par\\medskip\\noindent\\textbf{Quarantine row #{index + 1}.} #{latex_path(entry["path"])}"
-  tex << "\\par\\noindent\\emph{Scope.} #{latex_escape(entry["surface_scope"])}."
-  tex << "\\par\\noindent\\emph{Demotion classes.} #{latex_escape(demotion_summary(entry))}."
-  tex << "\\par\\noindent\\emph{CM authority.} #{latex_escape(entry["cm_authority"])}."
-  tex << "\\par\\noindent\\emph{Promotion gate.} #{latex_escape(entry["promotion_allowed_only_by"])}."
+  tex << "\\par\\medskip\\noindent\\textbf{Quarantine row #{index + 1}.}"
+  tex << "\\par\\noindent\\emph{Surface.} #{latex_path(entry["path"])}"
+  tex << "\\par\\noindent\\emph{Scope.} #{latex_breakable(entry["surface_scope"])}."
+  tex << "\\par\\noindent\\emph{Demotion classes.} #{latex_breakable(demotion_summary(entry))}."
+  tex << "\\par\\noindent\\emph{CM authority.} #{latex_breakable(entry["cm_authority"])}."
+  tex << "\\par\\noindent\\emph{Promotion gate.} #{latex_breakable(entry["promotion_allowed_only_by"])}."
   tex << "\\par\\noindent\\emph{CM-substitute rule.} #{entry["forbidden_as_cm_substitute"] ? "Forbidden as a direct CM substitute." : "No direct substitution ban recorded."}"
 end
-tex << "}"
+tex << "\\endgroup"
 tex << ""
 tex << "\\subsection{Current Material Family Derivations}"
 coverage_families.each do |family|
   tex << "\\subsubsection*{#{latex_escape(family["id"])} }"
-  tex << latex_escape(family["paper_representation"])
-  tex << "{\\footnotesize"
+  tex << latex_breakable(family["paper_representation"])
+  tex << "\\begingroup"
+  tex << "\\scriptsize"
+  tex << "\\raggedright"
+  tex << "\\sloppy"
+  tex << "\\emergencystretch=8em"
   Array(family["files"]).each_with_index do |file, index|
     tex << "\\par\\noindent\\textbf{Family row #{index + 1}.} #{latex_path(file)}"
   end
-  tex << "}"
+  tex << "\\endgroup"
 end
 
 APPENDIX_PATH.write(tex.join("\n") + "\n")
