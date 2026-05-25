@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-25T17:19:21Z'
+  generated_at: '2026-05-25T17:24:15Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -121,14 +121,13 @@ cross_lane_broadcast:
     status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-  - label: ReserveCreationCharge.A. For every admissible terminal heat window W and
-      scale N, the positive first-created square reserve increment is inherited from
-      Past(W) up to declared loss or is paid by Charge_N(W), so [R_N(W) - (1 - delta)R_N(Past(W))
-      - Loss_N(W)]_+ <= Charge_N(W) + o_N(1).
+  - label: TerminalReserveFirstAppearanceCharge.A. On every admissible terminal heat
+      window W, every square-reserve contribution not already represented in Past(W)
+      either injects into Charge_N(W) or is absorbed by the declared loss ledger.
     kind: lemma
     status: localized-support
     origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/reservecreationcharge-a-theorem-creation-20260525.md
+    source_anchor: problems/navier-stokes/theorem-construction/terminalreservefirstappearancecharge-a-theorem-creation-20260525.md
   - label: CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional
       field-integrability package, while End_NS, Field readout, and Member remain
       downstream consequences.
@@ -212,5 +211,5 @@ summary:
   audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: solver-loop
+  current_next_cell_type: theorem-repair
   current_next_cell_is_theorem_work: true
