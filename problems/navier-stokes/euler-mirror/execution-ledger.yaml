@@ -24,6 +24,7 @@ main_objective:
   global_periodic_smooth_layer_limit: problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-smooth-layer-to-slip-sheet-limit-20260524.md
   global_periodic_same_datum_weak_branch_import: problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-same-datum-weak-branch-euler-import-20260524.md
   boundary_axisymmetric_blowup_import: problems/navier-stokes/euler-mirror/theorem-construction/boundary-axisymmetric-smooth-data-euler-blowup-import-20260524.md
+  shared_pack_grammar_closure: problems/navier-stokes/euler-mirror/theorem-construction/shared-pack-non-one-field-grammar-closure-20260524.md
 closed_receiver_theorem_target:
   target_id: ELCI.CP.A-Separation
   status: closed
@@ -73,9 +74,9 @@ continuum_program:
     Member_E objects with nonsmooth initial data. ESM.N3 is closed as a global
     periodic smooth-layer singular limit to the slip sheet. ESM.N4 is closed as
     a Wiedemann same-datum weak-branch import, and ESM.N5 is closed as a
-    Chen-Hou boundary/axisymmetric smooth-data blowup import. The no-boundary
-    smooth-data finite-time question remains separately typed by its own
-    hypotheses.
+    Chen-Hou boundary/axisymmetric smooth-data blowup import. ESM.N6 is closed
+    as the shared-Pack/non-one-field grammar theorem. The no-boundary smooth-data
+    finite-time question remains separately typed by its own hypotheses.
 route_families:
 - family_id: euler-membership-plus-regularity
   status: terminal
