@@ -94,7 +94,7 @@ entries:
   - path: compactness-discharge-source-pack.md
     family: positive-control
     role: compactness and nonlinear-closure source pack
-    derivation_class: parent-role-euler-mirror-with-open-input-gap
+    derivation_class: parent-role-euler-mirror-with-conditional-input-boundary
     audit_verdict: refined-this-pass
     refinement_verdict: compactness-input-language-tightened
   - path: completion-contract.md
@@ -108,7 +108,7 @@ entries:
     role: first branch completion status
     derivation_class: branch-local-status-surface
     audit_verdict: refined-this-pass
-    refinement_verdict: theorem-claim-open-status-added
+    refinement_verdict: theorem-claim-boundary-status-added
   - path: corpus-derivation-findings.md
     family: audit
     role: branch-wide derivation findings note
@@ -166,13 +166,13 @@ entries:
   - path: monotone-functional-discharge-source-pack.md
     family: positive-control
     role: control-functional source pack
-    derivation_class: parent-role-euler-mirror-with-open-control-gap
+    derivation_class: parent-role-euler-mirror-with-conditional-control-boundary
     audit_verdict: refined-this-pass
     refinement_verdict: parent-Q-language-tightened
   - path: nonlinear-closure-discharge-source-pack.md
     family: positive-control
     role: nonlinear tensor closure pack
-    derivation_class: parent-role-euler-mirror-with-open-input-gap
+    derivation_class: parent-role-euler-mirror-with-conditional-input-boundary
     audit_verdict: affirmed-no-change-needed
     refinement_verdict: retained-as-accurate
   - path: positive-control-file-ledger.yaml
@@ -190,19 +190,19 @@ entries:
   - path: scale-barrier-source-pack.md
     family: positive-control
     role: scale-barrier source pack
-    derivation_class: parent-role-euler-mirror-with-open-coercive-gap
+    derivation_class: parent-role-euler-mirror-with-conditional-coercive-boundary
     audit_verdict: affirmed-no-change-needed
     refinement_verdict: retained-as-accurate
   - path: scale-barrier-tail-discharge-source-pack.md
     family: positive-control
     role: tail discharge pack
-    derivation_class: parent-role-euler-mirror-with-open-coercive-gap
+    derivation_class: parent-role-euler-mirror-with-conditional-coercive-boundary
     audit_verdict: affirmed-no-change-needed
     refinement_verdict: retained-as-accurate
   - path: scale-high-side-remainder-source-pack.md
     family: positive-control
     role: local scale packet pack
-    derivation_class: parent-role-euler-mirror-with-open-coercive-gap
+    derivation_class: parent-role-euler-mirror-with-conditional-coercive-boundary
     audit_verdict: refined-this-pass
     refinement_verdict: notation-and-coercive-language-cleaned
   - path: source-grounded-framework-map.md
