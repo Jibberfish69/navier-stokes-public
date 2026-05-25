@@ -118,13 +118,15 @@ FAMILIES = [
   },
   {
     "id" => "euler_mirror_current_exclusions",
-    "paper_representation" => "Explicitly excluded from the non-Euler CM paper and represented only as Euler-mirror comparison support: periodic/global weak branch, smooth-layer-to-slip-sheet limits, and boundary/axisymmetric Chen-Hou blowup imports do not promote into the Navier-Stokes CM proof spine.",
+    "paper_representation" => "Explicitly excluded from the non-Euler CM paper and represented only as Euler-mirror comparison support: periodic/global weak branch, smooth-layer-to-slip-sheet limits, boundary/axisymmetric Chen-Hou blowup imports, no-boundary Euler class boundaries, and shared Pack/non-one-field grammar notes do not promote into the Navier-Stokes CM proof spine.",
     "files" => %w[
       euler-mirror/theorem-construction/boundary-axisymmetric-smooth-data-euler-blowup-import-20260524.md
       euler-mirror/theorem-construction/global-periodic-same-datum-weak-branch-euler-import-20260524.md
       euler-mirror/theorem-construction/global-periodic-slip-sheet-euler-nonsmoothness-bridge-20260524.md
       euler-mirror/theorem-construction/global-periodic-smooth-layer-to-slip-sheet-limit-20260524.md
       euler-mirror/theorem-construction/global-periodic-unbounded-shear-euler-ledger-failure-bridge-20260524.md
+      euler-mirror/theorem-construction/no-boundary-smooth-data-euler-class-boundary-20260524.md
+      euler-mirror/theorem-construction/shared-pack-non-one-field-grammar-closure-20260524.md
     ]
   },
   {
