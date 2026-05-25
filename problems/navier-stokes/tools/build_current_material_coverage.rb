@@ -105,6 +105,7 @@ FAMILIES = [
       theorem-construction/mcp-mpp-ttu-a-1ddd943b9d.md
       theorem-construction/mpp-nightly-terminal-cm-witness-red-team-20260524.md
       theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
+      theorem-construction/mpp-no-third-branch-clay-closure-audit-20260525.md
       theorem-construction/mpp-cm-completion-claim-adversarial-audit-20260525.md
       theorem-construction/mcp-mpp-mpp-cmexitclassificationvsexclusionaudit-a-a6668e5c97.md
     ]
