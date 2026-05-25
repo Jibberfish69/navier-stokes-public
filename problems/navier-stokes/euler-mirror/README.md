@@ -37,6 +37,7 @@ Current branch-local mainline:
 - global periodic smooth-layer singular-limit bridge to the slip sheet
 - global periodic same-datum weak-branch import
 - boundary/axisymmetric smooth-data blowup import
+- shared Pack / non-one-field grammar closure
 - smooth-data singular-limit bridge to that witness
 - Euler / Navier-Stokes viscosity scenario separation map
 - Euler-NS smoothness continuum program
@@ -93,4 +94,6 @@ Terminal readback:
   explicitly typed; `ESM.N1` and `ESM.N2` now have global periodic weak-Euler
   nonsmoothness theorems with nonsmooth initial data, and `ESM.N3` has a global
   smooth-layer singular-limit theorem; `ESM.N4` and `ESM.N5` are closed as
-  source-typed external weak-branch and boundary-blowup imports
+  source-typed external weak-branch and boundary-blowup imports; `ESM.N6` is
+  closed as the grammar split between shared flux-volume membership and
+  one-field regularity
