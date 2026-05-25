@@ -103,6 +103,8 @@ FAMILIES = [
     "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, and the explicit referee-facing classification-versus-exclusion pressure point. Stale positive-bootstrap objections do not become CM-merited objections unless they attack the Pack/Part/Field class-exit chain itself; a direct objection that classification is not exclusion is preserved as a live logic-audit risk.",
     "files" => %w[
       theorem-construction/mcp-mpp-ttu-a-1ddd943b9d.md
+      theorem-construction/mpp-nightly-terminal-cm-witness-red-team-20260524.md
+      theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
       theorem-construction/mpp-cm-completion-claim-adversarial-audit-20260525.md
       theorem-construction/mcp-mpp-mpp-cmexitclassificationvsexclusionaudit-a-a6668e5c97.md
     ]
