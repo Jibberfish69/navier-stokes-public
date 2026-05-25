@@ -2,8 +2,8 @@
 
 ## Target
 
-- target obligation: ChargeLedgerInjection.A
-- target label: every genuinely new terminal reserve birth injects into the charge ledger
+- target obligation: source-reserve-birth-charge-a
+- target label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
 - route role: Convert static donor-square reserve into a dynamic law: new terminal reserve is either inherited from Past(W) or paid by Charge_N(W).
 - theorem family: reserve-creation-charge
 
@@ -23,21 +23,21 @@ ReserveCreationCharge.A. For every admissible terminal heat window W and scale N
 
 ### Candidate Theorems
 
-- ReserveCreationCharge.A (parent_or_charge_evolution; score=114)
-- AdjointReserveNoFreeCreation.A (adjoint_residual_dualization; score=79)
-- WindowwiseReserveCarleson.A (windowwise_carleson_reserve; score=75)
-- ChargeLedgerInjection.A (contrapositive_exit; score=88)
-- ChargeLedgerInjection.A (compactness_defect_rigidity; score=91)
-- ChargeLedgerInjection.A (monotone_budget; score=86)
+- ReserveCreationCharge.A (parent_or_charge_evolution; score=102)
+- AdjointReserveNoFreeCreation.A (adjoint_residual_dualization; score=71)
+- WindowwiseReserveCarleson.A (windowwise_carleson_reserve; score=67)
+- SourceReserveBirthChargeContrapositiveExit.A (contrapositive_exit; score=60)
+- SourceReserveBirthChargeCompactnessDefectRigidity.A (compactness_defect_rigidity; score=67)
+- SourceReserveBirthChargeMonotoneBudget.A (monotone_budget; score=62)
 
 ### Retrieved Ingredients
 
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/agent-contract.yaml:53 -- source ingredient
+- problems/navier-stokes/agent-contract.yaml:174 -- retained-face amplitude support
 - problems/navier-stokes/agent-contract.yaml:175 -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
+- problems/navier-stokes/agent-contract.yaml:121 -- retained-face amplitude support
 
 ### Recursive Solver Chain
 
@@ -54,11 +54,11 @@ ReserveCreationCharge.A. For every admissible terminal heat window W and scale N
 - terminal heat-window decomposition
 - HeightFluxControl.A. Turn the remaining positive source-reserve birth charge into the first proof-facing sampling theorem: a first large retained height-flux event must create Pack gain, Part/dwell failure, legal Field source charge, or a Zeno terminal residue atom. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive HeightFluxControl.A exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
 - TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is not Pack_Q, or it forces incoming flux, CM envelope blowout, paid exit, and hence Pack/Part/Field witness-face exit. This is a CM face-reduction theorem, not a forward no-free-sink supplier discharge.
-- TerminalReserveFirstAppearanceCharge.A. On every admissible terminal heat window W, every square-reserve contribution not already represented in Past(W) either injects into Charge_N(W) or is absorbed by the declared loss ledger.
+- - 'Read direct live surfaces first: live-theorem-edge.yaml, source-frontier.yaml,
 - ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail, and windowwise leakage ledgers sum to the Pack_Q scale-critical donor-refill Carleson bound; an unpaid infinite donor-refill tree is therefore a Pack-face exit witness.
 - Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-- - Before any answer to a CM contrapositive request, classify the bad object as Pack-first
 - RetainedFaceAmplitudeGain.A. Any retained field-face amplitude gain admissible for the CM contrapositive route is recorded first as a Pack_Q gain event and transported through Part_{N,Q} without importing Field_{N,r,Q} or Member(Q) as a premise.
+- - Before any answer to a CM contrapositive request, classify the bad object as Pack-first
 - normalized child packet mass
 - Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
@@ -67,8 +67,8 @@ ReserveCreationCharge.A. For every admissible terminal heat window W and scale N
 ## Forbidden Imports
 
 - ReserveCreationCharge.A
-- every genuinely new terminal reserve birth injects into the charge ledger
-- ChargeLedgerInjection.A
+- SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
+- source-reserve-birth-charge-a
 - full-MPP closure
 - submission readiness
 - global smoothness
