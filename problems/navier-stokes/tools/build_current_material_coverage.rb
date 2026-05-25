@@ -102,14 +102,12 @@ FAMILIES = [
   },
   {
     "id" => "cm_class_law_completion_and_adversarial_audits",
-    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, the explicit referee-facing classification-versus-exclusion pressure point, and the no-genuine-exit hinge. Stale positive-bootstrap objections do not become CM-merited objections unless they attack the Pack/Part/Field class-exit chain itself; a direct objection that classification is not exclusion is preserved as a live logic-audit risk. The Clay-closing proof remains at OriginalSmoothData preventing the first terminal Pack/Part/Field exit, with the reserve-creation charge chain recorded as current conditional Pack-side support rather than closure.",
+    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, the explicit referee-facing classification-versus-exclusion pressure point, and the no-genuine-exit hinge. Stale positive-bootstrap objections do not become CM-merited objections unless they attack the Pack/Part/Field class-exit chain itself; a direct objection that classification is not exclusion is preserved as a live logic-audit risk. The Clay-closing proof remains at OriginalSmoothData preventing the first terminal Pack/Part/Field exit.",
     "files" => %w[
       theorem-construction/mcp-mpp-ttu-a-1ddd943b9d.md
       theorem-construction/mpp-nightly-terminal-cm-witness-red-team-20260524.md
       theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
       theorem-construction/mpp-no-third-branch-clay-closure-audit-20260525.md
-      theorem-construction/reservecreationcharge-a-theorem-creation-20260525.md
-      theorem-construction/terminalreservefirstappearancecharge-a-theorem-creation-20260525.md
       theorem-construction/mpp-cm-completion-claim-adversarial-audit-20260525.md
       theorem-construction/mcp-mpp-mpp-cmexitclassificationvsexclusionaudit-a-a6668e5c97.md
     ]
@@ -213,7 +211,19 @@ uncovered = checkable_files.map { |path| ns_relative(path) }
                            .reject { |path| covered_paths[path] || covered_paths["problems/navier-stokes/#{path}"] }
                            .sort
 
-family_files = FAMILIES.flat_map { |family| family.fetch("files") }
+static_family_files = FAMILIES.flat_map { |family| family.fetch("files") }
+dynamic_theorem_creation_files = uncovered.grep(%r{\Atheorem-construction/.*-theorem-creation-\d{8}\.md\z}) - static_family_files
+dynamic_families = []
+unless dynamic_theorem_creation_files.empty?
+  dynamic_families << {
+    "id" => "current_theorem_creation_candidate_notes",
+    "paper_representation" => "Current theorem-creation candidate notes are represented by the representation standard as live candidate support, active blockers, or pressure tests. They are not promoted as theorem evidence unless a downstream audit lands them in Pack, Part, Field, membership readout, terminal packet capture, or the no-genuine-exit hinge.",
+    "files" => dynamic_theorem_creation_files.sort
+  }
+end
+
+families_source = FAMILIES + dynamic_families
+family_files = families_source.flat_map { |family| family.fetch("files") }
 family_counts = family_files.each_with_object(Hash.new(0)) { |path, counts| counts[path] += 1 }
 duplicates = family_counts.select { |_path, count| count > 1 }.keys
 unless duplicates.empty?
@@ -229,7 +239,7 @@ unless missing_from_families.empty? && stale_family_entries.empty?
   exit 1
 end
 
-families = FAMILIES.map do |family|
+families = families_source.map do |family|
   family.merge("file_count" => family.fetch("files").length)
 end
 
