@@ -2,7 +2,7 @@
 
 ## Abstract
 
-The handed source stack fixes the four body jobs, but the current live lane now routes them through a torus-first periodic internal branch: a scale-barrier principle, a monotone functional `Q(t)`, non-Sobolev compactness, and a heat-governed continuation bridge on the periodic/operator surface. Any whole-space Euclidean statement is downstream discharge/export rather than the internal proving surface. This draft isolates the live theorem spine preserved in the local workboard and keeps the claim boundary explicit. Current package status remains `CM.CrossFaceSynthesis.A and MemberSmooth.A / WitnessFace.A are installed; source-wall root remains open`. Lowest safe claim: The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3.
+The handed source stack fixes the four body jobs, but the current live lane now routes them through a torus-first periodic internal branch: a scale-barrier principle, a monotone functional `Q(t)`, non-Sobolev compactness, and a heat-governed continuation bridge on the periodic/operator surface. Any whole-space Euclidean statement is downstream discharge/export rather than the internal proving surface. This draft isolates the live theorem spine preserved in the local workboard and keeps the claim boundary explicit. Current package status remains `backbone grounded from recovered support`. Lowest safe claim: The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3.
 
 ## 1. Target And Scope
 
@@ -24,7 +24,7 @@ The recovered Navier-Stokes route is only serious if it closes the original equa
 
 ## 4. Formal Burden
 
-The package is still below stand-alone acceptance. Current package status is `CM.CrossFaceSynthesis.A and MemberSmooth.A / WitnessFace.A are installed; source-wall root remains open`. The next honest paper pass has to turn the remaining burden into local, reviewable statements instead of relying on invisible chapter context.
+The package is still below stand-alone acceptance. Current package status is `backbone grounded from recovered support`. The next honest paper pass has to turn the remaining burden into local, reviewable statements instead of relying on invisible chapter context.
 
 - No additional formal-burden items have been localized yet.
 
@@ -32,6 +32,6 @@ The package is still below stand-alone acceptance. Current package status is `CM
 
 Lowest safe claim: The official Clay target allows either the whole-space branch on R^3 or the periodic branch on T^3. First unsafe overclaim: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
 
-This draft is meant to stabilize the paper surface, not to pretend that the remaining debt has already disappeared. Current package status remains `CM.CrossFaceSynthesis.A and MemberSmooth.A / WitnessFace.A are installed; source-wall root remains open`. The next review pass should therefore judge whether the route is now readable and properly bounded, not whether unlocalized proof debt has been wished away.
+This draft is meant to stabilize the paper surface, not to pretend that the remaining debt has already disappeared. Current package status remains `backbone grounded from recovered support`. The next review pass should therefore judge whether the route is now readable and properly bounded, not whether unlocalized proof debt has been wished away.
 
 <!-- generated_by: system/runner/lib/prose_draft_builder.rb -->
