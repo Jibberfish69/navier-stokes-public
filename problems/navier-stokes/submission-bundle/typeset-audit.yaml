@@ -1,7 +1,7 @@
 ---
 version: 2
 problem_id: navier-stokes
-generated_at: '2026-05-25T17:57:50Z'
+generated_at: '2026-05-25T18:08:51Z'
 status: exported
 render_quality: typeset
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
