@@ -11,8 +11,8 @@ completion_meaning: >-
   the comparison-audit layer: conditional surfaces are conditional, base
   Member_E implications are false, and viscous imports are non-Euler. The
   Euler-only smoothness continuum is now closed as route control through the
-  May 24 nonsmooth-row promotion and import surfaces; no-boundary smooth-data
-  finite-time blowup remains separately typed outside those rows.
+  May 24 nonsmooth-row promotion and import surfaces; the no-boundary
+  smooth-data class is separately accounted by its boundary note.
 referee_audit_surface: problems/navier-stokes/euler-mirror/referee-audit-ledger.yaml
 continuum_program_surface: problems/navier-stokes/euler-mirror/theorem-construction/euler-ns-smoothness-continuum-program-20260523.md
 continuum_closure_ledger: problems/navier-stokes/euler-mirror/euler-ns-continuum-closure-ledger.yaml
