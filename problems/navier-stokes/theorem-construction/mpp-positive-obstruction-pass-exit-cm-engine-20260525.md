@@ -51,9 +51,8 @@ O_pass
 The failure branch is the exit branch:
 
 ```text
-O_fail capable of nonsmoothness
-=> canonical same-solution terminal obstruction
-=> CM-test-admissible terminal object
+O_fail offered as the finite nonsmooth terminal event
+=> CM-test-admissible same-solution terminal obstruction
 => first failed Pack/Part/Field service
 => Exit(Q; O_NS^work):=not Member(Q; O_NS^work).
 ```
@@ -62,7 +61,7 @@ Thus the obstruction has no legal third branch of the form:
 
 ```text
 the obstruction fails enough to witness nonsmoothness
-and still remains an in-class Clay continuation candidate.
+and still remains an in-class continuation branch.
 ```
 
 ## Theorem `PositiveObstructionPassExitCMEngine.A`
@@ -77,9 +76,10 @@ fail branch  => Exit(Q; O_NS^work)   => outside the in-class Clay branch.
 ```
 
 Equivalently, the CM route does not need to know which particular positive
-estimate ultimately supplies the pass-side control. It only needs to prove that
-every failure branch capable of nonsmoothness is canonical enough to be sorted
-by Pack, Part, or Field, and hence is not an in-class counterexample branch.
+estimate ultimately supplies the pass-side control. It does need the fail side
+to do real work: the failure branch must enter the CM terminal test and its
+first Pack/Part/Field face failure must be derived. "Capable of nonsmoothness"
+is a trigger for that test, not the proof of `Exit(Q)`.
 
 ## Installed Inputs
 
@@ -132,7 +132,7 @@ record these four fields before setting a target:
 
 ```text
 obstruction: what positive proof wall was reached?
-fail_branch: how would this wall be capable of nonsmoothness?
+fail_branch: what finite nonsmooth terminal event is this wall supposed to witness?
 cm_exit_landing: where does that fail branch land in Pack, Part, or Field?
 pass_branch: what in-class service remains, without requiring a named estimate
              to be the unique mechanism of control?
@@ -140,6 +140,10 @@ pass_branch: what in-class service remains, without requiring a named estimate
 
 If a surface skips the fail-branch CM landing and demands direct control of the
 positive obstruction, it has drifted out of the CM proof engine.
+
+If a surface skips the fail-branch CM landing and simply says "bad enough to be
+nonsmooth, therefore Exit(Q)", it has also drifted. The Pack/Part/Field face is
+the mechanism that earns the exit conclusion.
 
 ## Clay-Closure Boundary
 
@@ -153,13 +157,11 @@ fail => Exit(Q)  => not an in-class continuation branch.
 ```
 
 That is the correct branch law. The remaining Clay-level burden is not to
-control one favorite positive estimate. It is to prove that original smooth
-Navier-Stokes data cannot realize a genuine CM exit at finite time:
+control one favorite positive estimate. It is also not the theorem-sized slogan
+`OriginalSmoothData => not GenuineCMExit(T_*)` inserted as a local lemma.
 
-```text
-OriginalSmoothData => not GenuineCMExit(T_*).
-```
-
-Classification of the fail branch as `Exit(Q)` is the CM contrapositive landing.
-The final Clay-ready force comes from ruling out genuine finite-time class exit
-from the original smooth-data evolution.
+The noncircular continuation of this engine is obstruction-by-obstruction:
+prove CM-test entry, derive the first Pack/Part/Field face failure on the fail
+branch, and keep the pass branch as the only in-class continuation branch. That
+is the route that preserves Thomas's pass/fail idea without smuggling the whole
+MPP into a renamed "remaining burden."
