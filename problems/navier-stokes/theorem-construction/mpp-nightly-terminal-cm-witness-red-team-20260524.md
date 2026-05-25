@@ -75,24 +75,26 @@ native authority for the CM chain.
 Result: quarantine holds. External claims can sharpen the pressure test but do
 not change the proof state.
 
-## Theorem Delta
+## Corrected Delta
 
-This red-team pass strengthens the nightly continuation target:
+This red-team pass does not install a new missing theorem. The checked
+direct-live surfaces already install the Clay-facing CM chain:
 
 ```text
-ClayBreakdownCanonicalTerminalObstruction.A
+ClayTerminalWitnessCMEntry.A
++ ClayFiniteFailureTypeCMExhaustion.A
++ ClayCMContrapositiveEmbedding.A
 ```
 
-is the load-bearing extraction step. The next Clay-ready writing pass should
-state this extraction as the bridge from a finite same-surface Clay breakdown
-witness to the installed canonical terminal packet capture, then compose it with
-`AnyFiniteFailureWitnessCMExit.A` and `ClayCMContrapositiveEmbedding.A`.
+The useful correction is presentational and assembly-level: any phrase like
+`ClayBreakdownCanonicalTerminalObstruction.A` should be read only as a
+Clay-ready exposition label for the installed same-solution terminal witness
+entry, not as a fresh frontier, missing theorem, or new proof obligation.
 
 ## Remaining Honest Burden
 
-The remaining burden is proof-writing and acceptance-level integration of the
-installed terminal CM classification into the Clay-facing argument. The live
-work is to make the canonical terminal obstruction extraction explicit enough
-that no reader can mistake terminal class exit for a positive smoothness
-deletion target or a preterminal-reflection target.
-
+The remaining work is Clay-ready proof assembly and acceptance-level exposition
+of the installed terminal CM classification. The write-up must make clear that
+terminal Pack/Part/Field face failure is the CM contrapositive witness
+supporting `Exit(Q):=not Member(Q)`, without inventing a positive smoothness
+deletion target, a preterminal-reflection target, or a new obstruction label.
