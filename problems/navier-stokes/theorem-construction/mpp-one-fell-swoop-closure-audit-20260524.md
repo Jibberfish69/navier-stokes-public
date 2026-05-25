@@ -40,8 +40,13 @@ smooth branch
 ```
 
 regardless of which precise estimate, packet, or mechanism witnesses the
-control. The estimates are not the final authority. They are the local mechanism
-by which a branch is sorted into `Member(Q)` or `Exit(Q)`.
+control. The estimate is only the place where the ordinary route gets stuck and
+creates the case split. CM supplies the class decision:
+
+```text
+failure capable of non-smoothness => Exit(Q),
+smooth/pass branch => Member(Q).
+```
 
 ## Program Boundary
 
