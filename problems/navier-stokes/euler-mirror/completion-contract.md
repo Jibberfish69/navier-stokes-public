@@ -147,4 +147,6 @@ which separate viscosity-free smoothness overlap, viscosity divergence,
 nonsmooth Euler boundary, and local-to-global bridge surfaces. The `ESM.N1` and
 `ESM.N2` bridges now prove global periodic base-`Member_E` nonsmoothness
 theorems with nonsmooth initial data, and the `ESM.N3` bridge proves the global
-periodic smooth-layer singular-limit statement.
+periodic smooth-layer singular-limit statement. The `ESM.N4` and `ESM.N5`
+surfaces are closed as source-typed external weak-branch and boundary-blowup
+imports.
