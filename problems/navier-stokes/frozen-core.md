@@ -5,17 +5,18 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Theorem Target
 
-- `theorem_target`: full-mpp-closure
-- `lowest_safe_claim`: Every smooth divergence-free zero-mean initial datum on T^3 with f=0 generates a global smooth classical three-dimensional incompressible Navier-Stokes solution.
+- `theorem_target`: NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
+- `lowest_safe_claim`: NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
 - `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
 
 ## Grounded Core
 
-- SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A (`live-theorem-frontier`; `source-reserve-birth-charge-a`)
+- No grounded obligations were identified.
 
 ## Source Frontier
 
-- No unresolved frontier obligations remain.
+- `first_unresolved`: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A (`live-theorem-frontier`; `source-reserve-birth-charge-a`)
+- SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A (`live-theorem-frontier`; `source-reserve-birth-charge-a`)
 
 ## Source Surfaces
 
