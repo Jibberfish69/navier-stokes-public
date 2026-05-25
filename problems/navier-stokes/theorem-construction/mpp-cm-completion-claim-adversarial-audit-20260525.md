@@ -30,8 +30,8 @@ The May 25 pass/exit correction is now governing:
 follow the positive proof program to an obstruction;
 split the obstruction into pass and fail;
 pass stays inside Member(Q) and gives smooth continuation;
-fail, when capable of nonsmoothness, is classified outside the class by
-Pack/Part/Field and supports Exit(Q):=not Member(Q).
+fail enters the CM terminal test and is classified outside the class only after
+a Pack/Part/Field face failure is derived.
 ```
 
 That is the proof engine. The CM route does not need to know which particular
@@ -177,11 +177,11 @@ Most anti-completion repo surfaces are unearned as mathematical objections:
 they are stale generated blockers, release gates, paperization gates, or
 support-program surfaces outside the CM witness-face gate.
 
-The current CM contrapositive proof is genuinely installed as a terminal
-classification theorem. Inside that proof program, the completion claim is:
-every finite same-surface Clay breakdown object is forced into the canonical
-terminal CM tree and exhausted by Pack/Part/Field, so no unclassified lawful
-finite Clay counterexample remains inside the working CM object.
+The current CM contrapositive proof is installed only as a terminal
+classification theorem. Inside that proof program, the earned claim is:
+every finite same-surface Clay breakdown object that has entered the canonical
+terminal CM tree and passed Pack-first exhaustion is classified by Pack/Part/Field,
+so no unclassified terminal witness remains inside that typed CM test.
 
 The exact completion chain is:
 
@@ -197,3 +197,9 @@ ClayAdmissibleFiniteBreakdown(W_*)
 The remaining non-mathematical dissent surfaces should be treated as release,
 review, or stale-projection cleanup unless they produce a new CM-merited
 objection against that chain.
+
+This audit does not certify full Clay closure. It also does not allow the cheap
+shortcut "bad enough to be nonsmooth, therefore Exit(Q)" or the theorem-sized
+replacement target `OriginalSmoothData=>not GenuineCMExit(T_*)`. A local proof
+step must name the concrete obstruction, its CM-test entry, and the derived
+Pack/Part/Field face.
