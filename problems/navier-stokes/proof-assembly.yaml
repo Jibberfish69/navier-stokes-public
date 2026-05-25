@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-05-25T18:35:23Z'
+  generated_at: '2026-05-25T18:40:11Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
@@ -106,6 +106,7 @@ theorem_surface:
     - problems/navier-stokes/live-theorem-edge.yaml
     - problems/navier-stokes/theorem-construction/mpp-source-reserve-birth-charge-direct-attempt-20260525.md
     - problems/navier-stokes/theorem-construction/mpp-active-height-flux-trichotomy-proof-audit-20260525.md
+    - problems/navier-stokes/theorem-construction/mpp-zero-moment-reserve-visibility-direct-attempt-20260525.md
     - problems/navier-stokes/theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md
     - problems/navier-stokes/theorem-construction/mpp-pack-first-unpaid-donor-reserve-dichotomy-20260523.md
     - problems/navier-stokes/route-lock.yaml
