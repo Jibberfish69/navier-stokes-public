@@ -86,6 +86,11 @@ Chen-Hou supplies smooth-data finite-time blowup for three-dimensional
 axisymmetric Euler with boundary. This is a boundary/axisymmetric result, not a
 no-boundary `R^3` or `T^3` theorem.
 
+The ESM.N6 consequence is closed as a grammar theorem: Euler shares the
+flux-volume primitive with Navier-Stokes, but `Part`, `Field`, flow maps, and
+one-field coherence are extra Euler regularity layers rather than base
+membership.
+
 Together these prove that base global `Member_E` does not imply global
 classical smoothness or the ELCI receiver ledger, and that finite-`p` closure of
 smooth global Euler shears does not preserve one-field smoothness.
