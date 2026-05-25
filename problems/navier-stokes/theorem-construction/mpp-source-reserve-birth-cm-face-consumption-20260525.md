@@ -125,5 +125,5 @@ This is not a standalone positive proof that every terminal reserve pulse has a
 visible first-moment height flux.  It is the contrapositive proof step Thomas
 wanted: once the positive proof route reaches the reserve-surplus obstruction,
 the pass branch remains the legal in-class continuation branch, and the fail
-branch capable of nonsmoothness is forced out through the Pack/Part/Field
-witness tree.
+branch is forced out only after its reserve-surplus mechanism is typed as a
+Pack/Part/Field witness-face failure.
