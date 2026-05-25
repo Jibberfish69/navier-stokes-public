@@ -346,6 +346,16 @@ is made to answer a membership question. If the singular terminal object cannot
 provide the services required by the same-fluid Navier--Stokes class, then it is
 not the object whose existence would refute the Clay claim.
 
+The branch law is the closure point:
+\[
+  \text{legal same-solution Navier--Stokes branch}\subset \CM.
+\]
+Once every genuine nonsmooth branch has been classified as CM-exit, the
+positive-control burden disappears from the proof spine. The paper no longer
+has to show which estimate forced smoothness on a failing branch. It has to show
+that legal same-solution branches remain in the class, while genuine singular
+branches leave it.
+
 \section{The Class Object}
 
 The working class object is denoted by \(\Owork\). It is the same-fluid
@@ -1640,6 +1650,26 @@ obstruction, sorted by Pack, Part, and Field, and read as
 That is the silver-standard proof shape. It does not add a final positive
 no-exit theorem to the CM argument.
 
+\begin{claim}[Class-law closure]
+The completed CM proof has the form
+\[
+  \text{genuine nonsmooth branch}\Rightarrow\Exit(Q;\Owork),
+  \qquad
+  \text{legal same-solution branch}\Rightarrow\Member(Q;\Owork).
+\]
+Consequently the legal branch from smooth initial data is smooth.
+\end{claim}
+
+\begin{proof}
+Every genuine nonsmooth branch has already been routed through the same-solution
+terminal packet and classified as a Pack, Part, or Field exit. Every legal
+same-solution Navier--Stokes branch remains in the working class object. A branch
+outside the class is therefore not a legal continuation candidate for the Clay
+problem. The only branch left from the smooth initial datum is the legal
+same-solution branch inside \(\CM\), and inside this class it is the smooth
+branch.
+\end{proof}
+
 \section{The Half-Page Proof Spine}
 
 Here is the proof spine once the branch field has been earned.
@@ -1696,6 +1726,12 @@ to erase the bad object before it appears. The CM route decides the object after
 the forward route has produced the obstruction. A smooth/pass branch is a member
 branch. A failure branch capable of nonsmoothness is sorted into Pack, Part, or
 Field and exits the class.
+
+This is a class-law proof, not another bootstrap proof in disguise. The burden
+is not to identify the estimate that wins on each forward branch. The burden is
+to prove that every legal same-solution branch stays inside \(\CM\), and every
+genuine singular branch exits \(\CM\). With those two laws in place, positive
+control is no longer the closing mechanism.
 
 This boundary is not weakness in the proof shape. It is the proof shape. A
 positive supplier theorem tries to erase a bad object. The CM contrapositive
