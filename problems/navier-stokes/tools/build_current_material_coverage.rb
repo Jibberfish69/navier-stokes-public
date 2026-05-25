@@ -99,6 +99,14 @@ FAMILIES = [
     ]
   },
   {
+    "id" => "cm_class_law_completion_and_adversarial_audits",
+    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, and the paper boundary that stale positive-bootstrap objections do not become CM-merited objections unless they attack the Pack/Part/Field class-exit chain itself.",
+    "files" => %w[
+      theorem-construction/mcp-mpp-ttu-a-1ddd943b9d.md
+      theorem-construction/mpp-cm-completion-claim-adversarial-audit-20260525.md
+    ]
+  },
+  {
     "id" => "local_energy_elliptic_formalization_support",
     "paper_representation" => "Represented as support/diagnostic machinery under source-wall, Zeno, and surface-classification support. These files do not supply independent Pack/Part/Field authority.",
     "files" => %w[
