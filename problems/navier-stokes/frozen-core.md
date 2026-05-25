@@ -5,21 +5,18 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Theorem Target
 
-- `theorem_target`: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
-- `lowest_safe_claim`: alleged finite Clay terminal object enters the same-fluid CM tree, produces a Pack/Part/Field face failure, and that derived face failure supports `Exit(Q):=not Member(Q)`
+- `theorem_target`: NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
+- `lowest_safe_claim`: NoGenuineExitFromSmoothData.A via OriginalSmoothData=>ScaleCriticalTreeCarleson.A
 - `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
-- `demoted_invalid_bridge`: CMFaceNoFirstTerminalLoss.A / ClayBreakdownPreterminalReflection.A is not a live CM burden.
 
 ## Grounded Core
 
-- ClayTerminalWitnessCMEntry.A
-- ClayFiniteFailureTypeCMExhaustion.A
-- ClayCMContrapositiveEmbedding.A
+- No grounded obligations were identified.
 
 ## Source Frontier
 
-- `first_unresolved`: none inside the terminal CM classification chain; the preterminal-reflection bridge is quarantined as invalid.
-- TerminalCMNoExit.A / NoGenuineCMExit.A is retained only as positive packet-survival support, not the live contrapositive target.
+- `first_unresolved`: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A (`live-theorem-frontier`; `source-reserve-birth-charge-a`)
+- SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A (`live-theorem-frontier`; `source-reserve-birth-charge-a`)
 
 ## Source Surfaces
 
@@ -31,6 +28,9 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - `problems/navier-stokes/marvin-watchlist.yaml`
 - `problems/navier-stokes/marvin-ingest-notes.yaml`
 - `problems/navier-stokes/live-theorem-edge.yaml`
+- `problems/navier-stokes/theorem-construction/mpp-source-reserve-birth-charge-direct-attempt-20260525.md`
+- `problems/navier-stokes/theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md`
+- `problems/navier-stokes/theorem-construction/mpp-pack-first-unpaid-donor-reserve-dichotomy-20260523.md`
 - `problems/navier-stokes/route-lock.yaml`
 - `problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md`
 - `problems/navier-stokes/theorem-construction/live-frontier-honest-cut-reduction.md`
