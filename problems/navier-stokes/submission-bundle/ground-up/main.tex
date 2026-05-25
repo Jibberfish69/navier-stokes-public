@@ -26,12 +26,12 @@
 \newcommand{\CM}{\mathrm{CM}}
 \newcommand{\Legal}{\mathrm{Legal}}
 \newcommand{\Owork}{\mathfrak O_{\NS}^{\mathrm{work}}}
-\newcommand{\WitnessLedger}{\mathcal W}
+\newcommand{\WitnessRecord}{\mathcal W}
 \newcommand{\Rterm}{\mathcal R_*}
 \newcommand{\Ffail}{\mathcal F}
 \newcommand{\Pass}{\mathrm{Pass}}
 \newcommand{\Fail}{\mathrm{Fail}}
-\newcolumntype{L}[1]{>{\arraybackslash}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 \setlength{\emergencystretch}{1em}
 
 \title{A Class-Membership Contrapositive Route for the Navier--Stokes Millennium Problem}
@@ -47,7 +47,7 @@ It tries to prove enough a priori control to continue the smooth solution foreve
 That route remains the gold standard because it proves smoothness directly.
 It also produces a long list of hard terminal obstructions: source concentration, zero-radius residues, retained-amplitude growth, height flux, signed current, square reserve, endpoint readout, no-pulse failure, and comparison branches.
 
-This manuscript develops the class-membership contrapositive route.
+The route developed here is class-membership contrapositive.
 The same smooth-data Navier--Stokes evolution is organized as a working class object.
 A legal continuation branch is a member branch.
 A finite terminal branch capable of nonsmoothness is tested as a same-solution terminal witness.
@@ -60,7 +60,7 @@ The lost service is class exit:
 \]
 The pass branch remains a member branch and reads out to the usual \(H^s\), \(s>5/2\), continuation theorem.
 The fail branch exits the class of legal same-solution continuation candidates.
-This is the silver-standard route: it does not identify one positive estimate that controls every obstruction; it proves that every breakdown-capable obstruction leaves the class object whose members are the legal Clay continuation branches.
+This is the silver-standard route: the pass-side control mechanism may vary, while every breakdown-capable obstruction leaves the class object whose members are the legal Clay continuation branches.
 \end{abstract}
 
 \setcounter{tocdepth}{1}
@@ -87,7 +87,10 @@ One proves a bound strong enough for classical continuation, usually through a c
 The route here changes the question after the forward proof reaches a genuine obstruction.
 It asks:
 \[
-  \text{can a branch capable of nonsmooth terminal failure remain a legal branch of the same class object?}
+  \begin{gathered}
+  \text{can a branch capable of nonsmooth terminal failure}\\
+  \text{remain a legal branch of the same class object?}
+  \end{gathered}
 \]
 The two questions have different burdens.
 The forward question tries to erase the bad object.
@@ -108,8 +111,8 @@ Once it loses a required service, it exits the class:
 \[
   O_{\Fail}\Rightarrow \Exit(Q;\Owork).
 \]
-Thus the proof does not need to know in advance which positive estimate will save the pass side.
-It needs the fail side to leave the legal same-solution class.
+Thus the proof can close without naming in advance which positive estimate saves the pass side.
+The fail side must leave the legal same-solution class.
 
 \section{The Forward Obstructions}
 
@@ -137,7 +140,7 @@ The class-membership proof asks where the selected terminal object lives.
 A zero-radius terminal object has no positive terminal carrier.
 It fails \(\Pack_Q\).
 A retained positive-scale Zeno object stays inside the same Pack/Part/Field witness tree and is read by first failed service.
-Zeno is a presentation of terminal behaviour, not a fourth primitive service.
+Zeno is a presentation of terminal behaviour inside the three-service tree.
 
 \subsection{Retained Amplitude And Low Strain}
 
@@ -182,12 +185,12 @@ Neither replaces the primitive class test.
 
 \subsection{Local Critical Translators And Comparison Branches}
 
-Local \(L^3\) and Duhamel translators are useful when a public-critical-looking terminal mass must be brought back to the same witness ledger.
+Local \(L^3\) and Duhamel translators are useful when a public-critical-looking terminal mass must be brought back to the same witness record.
 They turn a local packet into native source work or a Pack/Part/Field exit.
 Their job is branch-local.
 
 Fixed-viscosity Euler-to-Navier--Stokes transfer and Euler mirror comparisons serve different theorem programs.
-They can illuminate which mechanisms use viscosity and which do not.
+They illuminate where viscosity enters and where inviscid comparison diverges.
 They enter this proof only through a theorem that lands the exact Navier--Stokes object in the same Pack/Part/Field class test.
 
 \section{The Working Class Object}
@@ -196,7 +199,7 @@ The proof needs a class object because the contrapositive is a class-law argumen
 The class is built from the same datum, same equation, same pressure, same viscosity, and same fluid branch.
 
 \begin{definition}[Working Clay class object]
-The working Clay class object \(\Owork\) is the class of same-solution Navier--Stokes continuation packets generated by the original smooth datum and read on one terminal witness ledger.
+The working Clay class object \(\Owork\) is the class of same-solution Navier--Stokes continuation packets generated by the original smooth datum and read on one terminal witness record.
 For a terminal packet \(Q\), the predicate
 \[
   \Member(Q;\Owork)
@@ -208,20 +211,20 @@ The class-exit predicate is
 \]
 \end{definition}
 
-\begin{definition}[Witness ledger]
-A witness ledger is the common record
+\begin{definition}[Witness record]
+A witness record is the common record
 \[
-  \WitnessLedger=(u_0,\nu,u,p,Q,N,r,\Phi,T_*),
+  \WitnessRecord=(u_0,\nu,u,p,Q,N,r,\Phi,T_*),
 \]
 where \(u_0\) is the original datum, \((u,p)\) is the same Navier--Stokes solution on \([0,T_*)\), \(Q\) is the terminal packet, \(N\) is the participation depth, \(r\) is the positive field scale, \(\Phi\) is the same-fluid carrier family, and \(T_*\) is the alleged terminal time.
 \end{definition}
 
-The same-ledger condition is important.
-A carrier from one branch, a participation tower from another branch, and a readout from a third branch do not synthesize into one continuation packet.
+The common-record condition is important.
+A carrier, participation tower, and readout synthesize into one continuation packet only when they belong to the same terminal object.
 The services must belong to the same terminal object.
 
 \begin{definition}[The three services]
-On a witness ledger \(\WitnessLedger\), the services are:
+On a witness record \(\WitnessRecord\), the services are:
 \[
   \Pack_Q,\qquad \Part_{N,Q},\qquad \Field_{N,r,Q}.
 \]
@@ -246,7 +249,7 @@ The class-membership packet at depth \(N\), scale \(r\), and terminal packet \(Q
   :=
   \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}
 \]
-on one witness ledger.
+on one witness record.
 \end{definition}
 
 \begin{lemma}[Membership readout]
@@ -261,7 +264,7 @@ for some \(s>5/2\), and the same Navier--Stokes solution extends classically bey
 \end{lemma}
 
 \begin{proof}
-Membership means that the terminal packet retains the services needed for a continuation readout on the same ledger.
+Membership means that the terminal packet retains the services needed for a continuation readout on the same witness record.
 \(\Pack_Q\) supplies the positive same-fluid carrier.
 \(\Part_{N_s,Q}\) supplies the same pressure-viscosity tower through the continuation depth.
 \(\Field_{N_s,r,Q}\) supplies positive-scale coherent field data for endpoint readout.
@@ -271,8 +274,7 @@ Classical local well-posedness then continues the same solution past \(T_*\).
 
 \section{Which Objects Are Tested}
 
-The class-membership proof does not test arbitrary rough objects.
-It tests a finite terminal object offered as the Clay breakdown witness for the same original Navier--Stokes solution.
+The class-membership proof tests finite terminal objects offered as Clay breakdown witnesses for the same original Navier--Stokes solution.
 
 \begin{definition}[CM-test-admissible Clay terminal object]
 A finite terminal object \(W_*\) is CM-test-admissible when it is offered as a breakdown witness for the same original smooth-data Navier--Stokes solution.
@@ -288,8 +290,8 @@ This means:
 
 \begin{remark}
 CM-test-admissible means admissible for the test.
-It does not mean member.
-Membership or exit is the conclusion.
+It means admissible for the test.
+Membership and exit are conclusions.
 \end{remark}
 
 \begin{lemma}[Finite Clay breakdown enters the test]
@@ -343,10 +345,10 @@ If no such carrier survives, \(\neg\Pack_Q\).
 
 Assume that \(\Pack_Q\) survives.
 The next question is whether the same differentiated Navier--Stokes pressure-viscosity tower survives on that carrier through depth \(N_s\).
-If the tower does not survive, \(\neg\Part_{N_s,Q}\).
+If the tower fails, \(\neg\Part_{N_s,Q}\).
 
 Assume that both \(\Pack_Q\) and \(\Part_{N_s,Q}\) survive.
-If there is a positive scale \(r>0\) with \(\Field_{N_s,r,Q}\), then the full packet \(\CM_{N_s,r,Q}\) survives on the same ledger.
+If there is a positive scale \(r>0\) with \(\Field_{N_s,r,Q}\), then the full packet \(\CM_{N_s,r,Q}\) survives on the same witness record.
 By the membership readout lemma, the same solution has a bounded \(H^s\), \(s>5/2\), continuation norm and extends classically past \(T_*\).
 That contradicts the terminal role of \(\Rterm\).
 Thus \(\Field_{N_s,r,Q}\) fails for every \(r>0\).
@@ -363,18 +365,20 @@ Any proposed residue either lacks the carrier, lacks participation after carrier
 
 \section{Branch-Family Exhaustion}
 
-The previous theorem explains the proof spine.
+The previous theorem explains the short proof.
 This section records how the current branch field is represented without turning the paper into an inventory.
 Each family enters through the same question: what terminal object is selected, and which service fails first?
 
 \begin{proposition}[Branch-family exhaustion]
 Every current non-Euler Navier--Stokes branch family in the working class-membership program has one of the following mathematical roles:
 \[
-  \Pack\text{-exit},\quad
-  \Part\text{-exit},\quad
-  \Field\text{-exit},\quad
-  \text{finite typed disjunction},\quad
-  \text{support until promoted by a named face theorem}.
+  \begin{gathered}
+  \Pack\text{-exit},\qquad
+  \Part\text{-exit},\qquad
+  \Field\text{-exit},\\
+  \text{finite typed disjunction},\qquad
+  \text{auxiliary until a named face theorem lands it}.
+  \end{gathered}
 \]
 \end{proposition}
 
@@ -397,7 +401,7 @@ Good-scale, endpoint-readout, no-pulse, averaged, and terminal-tail branches rea
 They support the Field and continuation consequences.
 They become proof material only when the exact packet has already entered Pack, Part, or Field.
 
-Local critical translators place local \(L^3\) or Duhamel mass back on the same witness ledger.
+Local critical translators place local \(L^3\) or Duhamel mass back on the same witness record.
 Their role is branch-local: native source work or Pack/Part/Field exit.
 
 Fixed-viscosity transfer and Euler mirror branches are comparison programs.
@@ -447,9 +451,9 @@ By terminal packet capture, \(W_*\) loses a first required service:
   \vee
   \forall r>0\,\neg\Field_{N_s,r,Q}.
 \]
-If \(\Pack_Q\) fails, the terminal object has no positive same-fluid carrier and cannot be a member packet.
-If \(\Part_{N_s,Q}\) fails after Pack survives, the terminal object no longer participates in the same pressure-viscosity Navier--Stokes tower and cannot be a member packet.
-If every positive \(\Field_{N_s,r,Q}\) fails after Pack and Part survive, the terminal object lacks the positive-scale coherence required for membership readout and cannot be a member packet.
+If \(\Pack_Q\) fails, the terminal object has no positive same-fluid carrier and is outside the member packets.
+If \(\Part_{N_s,Q}\) fails after Pack survives, the terminal object has left the same pressure-viscosity Navier--Stokes tower and is outside the member packets.
+If every positive \(\Field_{N_s,r,Q}\) fails after Pack and Part survive, the terminal object lacks the positive-scale coherence required for membership readout and is outside the member packets.
 
 Each case is the loss of a required service for \(\Member(Q;\Owork)\).
 Therefore
@@ -460,7 +464,7 @@ Therefore
 
 \section{The Class-Law Proof}
 
-Classification alone is not the whole argument.
+Classification supplies the exit witness.
 The proof closes at the class law: the legal same-solution continuation candidates are exactly the branches represented inside the working class object.
 
 \begin{proposition}[Legal branch law]
@@ -471,8 +475,7 @@ Every legal same-solution continuation branch for the Clay Navier--Stokes proble
 \end{proposition}
 
 \begin{proof}
-A legal same-solution continuation branch is not an arbitrary terminal distribution.
-It is the original smooth-data Navier--Stokes evolution continued as the same velocity-pressure solution with the same viscosity and same fluid participation.
+A legal same-solution continuation branch is the original smooth-data Navier--Stokes evolution continued as the same velocity-pressure solution with the same viscosity and same fluid participation.
 To be such a continuation branch, it must retain a positive same-fluid carrier, the same pressure-viscosity participation tower through the continuation depth, and positive-scale coherent field data for the \(H^s\), \(s>5/2\), readout.
 Those are exactly the services defining membership in \(\Owork\).
 \end{proof}
@@ -514,9 +517,10 @@ Once the definitions and branch law are in place, the proof is short.
 Let \(O\) be any obstruction reached by the forward-positive Navier--Stokes program.
 Split it into a pass branch and a fail branch:
 \[
-  O_{\Pass}:\text{ the same continuation services remain},
-\qquad
-  O_{\Fail}:\text{ the branch can witness finite nonsmoothness}.
+  \begin{aligned}
+  O_{\Pass}&:\text{ the same continuation services remain},\\
+  O_{\Fail}&:\text{ the branch can witness finite nonsmoothness}.
+  \end{aligned}
 \]
 Then
 \[
@@ -553,7 +557,7 @@ A demand to prove one particular source, reserve, no-pulse, or readout estimate 
 Such a theorem can strengthen the pass side and simplify the branch field.
 The class-membership contrapositive needs a different statement: every failure branch capable of finite nonsmoothness must be canonical enough to be tested, must lose a required service, and must exit the class.
 
-This is the paper's mathematical promise.
+This is the mathematical promise.
 The forward program shows where the real obstructions arise.
 The class object supplies the legal branch test.
 The terminal packet capture exhausts the fail side.
