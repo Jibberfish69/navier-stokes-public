@@ -130,9 +130,10 @@ case_matrix:
   - id: ESM.N3
     classification: nonsmooth_control
     euler_scenario: zero-thickness limit of smooth shear layers
-    ns_control_readback: smooth approximants can converge to a nonsmooth Euler member, so topology/limit closure is not one-field smoothness
+    ns_control_readback: global smooth periodic approximants can converge to a nonsmooth Euler member, so topology/limit closure is not one-field smoothness or fixed-datum blowup
     authority:
       - problems/navier-stokes/euler-mirror/theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md
+      - problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-smooth-layer-to-slip-sheet-limit-20260524.md
   - id: ESM.N4
     classification: nonsmooth_control
     euler_scenario: same-datum nonclassical weak Euler branch
@@ -378,6 +379,7 @@ surface_rules:
       - theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md
       - theorem-construction/global-periodic-slip-sheet-euler-nonsmoothness-bridge-20260524.md
       - theorem-construction/global-periodic-unbounded-shear-euler-ledger-failure-bridge-20260524.md
+      - theorem-construction/global-periodic-smooth-layer-to-slip-sheet-limit-20260524.md
     classifications:
       - smooth_by_hypothesis
       - nonsmooth_control
