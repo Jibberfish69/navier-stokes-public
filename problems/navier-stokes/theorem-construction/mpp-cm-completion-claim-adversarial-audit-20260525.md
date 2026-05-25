@@ -73,14 +73,20 @@ contrapositive does not need to turn terminal face failure into an earlier
 still-live-window contradiction. Terminal face failure is the class-exit
 witness.
 
-## The Surviving Merits Objection
+## The Objection I Over-Promoted
 
-The completed-MPP claim still has one real pressure point.
+The tempting objection is:
 
-The installed CM chain proves that every finite same-surface Clay breakdown
-object is exhausted by Pack/Part/Field and therefore becomes a classified
-`Exit(Q)` witness. That does not yet prove, by itself, that such a finite
-breakdown object cannot exist in the Clay sense.
+```text
+terminal Pack/Part/Field class exit has only classified the breakdown object;
+it has not yet proved that finite breakdown is impossible.
+```
+
+That objection is not a CM-contrapositive objection. It changes the proof target
+from class-exit classification to positive packet-survival / no-exit. The
+direct-live edge explicitly demotes `TerminalCMNoExit.A / NoGenuineCMExit.A` to
+positive support only, and it keeps the Clay-facing CM authority on terminal
+Pack/Part/Field classification.
 
 The distinction is exact:
 
@@ -93,55 +99,62 @@ Clay finite breakdown witness
 ```
 
 The first line is an inadmissibility theorem for a global smooth solution. The
-second line is the CM classification of the breakdown alternative. To turn the
-second line into full MPP closure, one more theorem has to rule out terminal CM
-class exit for the maximal smooth solution from original smooth data, or prove
-an equivalent no-exit bridge.
+second line is the CM classification of the breakdown alternative. The failed
+`ClayBreakdownClassExitInadmissibility.A` shortcut only proves that target
+fidelity alone does not turn terminal class-exit into a smooth-solution
+contradiction. It does not refute the CM completion chain.
 
-This is the objection that earns its merits. It is not a stale dashboard field
-and not a positive-supplier demand. It is the logical gap between
-
-```text
-finite breakdown implies classified Exit(Q)
-```
-
-and
+The CM chain is:
 
 ```text
-finite breakdown is impossible.
+finite same-surface Clay breakdown
+=> canonical same-solution terminal obstruction
+=> no fourth primitive service outside Pack/Part/Field
+=> first failed Pack/Part/Field face
+=> Exit(Q):=not Member(Q).
 ```
 
-## Bounded Proof Attempt Against The Objection
+Demanding a further theorem that deletes the terminal exit witness is a
+positive-smoothness substitution unless the user has explicitly switched proof
+programs.
 
-Try the minimal terminal counterexample route. Assume a finite same-surface Clay
-breakdown object `W_*`. The installed CM chain gives the Pack-first split.
+## Bounded Proof Against The Misstated Objection
+
+Assume a finite same-surface Clay breakdown object `W_*`.
+`ClayBreakdownCanonicalTerminalObstruction.A` puts it into the canonical
+same-solution terminal obstruction class eligible for
+`CanonicalTerminalPacketCapture.A`. Then `AnyFiniteFailureWitnessCMExit.A`
+supplies the Pack-first split.
 
 ### Pack face
 
 `not Pack_Q` means the terminal object has no legal positive same-fluid carrier.
 Every compact preterminal window has a Pack witness by still-live smoothness,
 but the available carrier scale may shrink to zero along the terminal approach.
-That is consistent with terminal Pack failure unless a same-packet persistence
-or terminal no-first-loss theorem is proved.
+Under the CM program, this is Pack-side class exit. It is not a demand to prove
+terminal Pack persistence.
 
 ### Part face
 
 `Pack_Q + not Part_{N,Q}` means a legal terminal carrier survives but the same
 pressure-viscosity participation tower through depth `N` does not. Existing
-closedness inputs cover retained positive-scale subcases; they do not by
-themselves force terminal tower participation from preterminal participation
-without the missing retained terminal control.
+closedness inputs cover retained positive-scale subcases. Under the CM program,
+terminal participation failure after Pack survival is Part-side class exit. It
+is not a demand to prove terminal tower persistence.
 
 ### Field face
 
 `Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}` means carrier and
 participation survive, but no positive coherence scale remains. Still-live
 windows provide a positive scale window-by-window, not a terminally uniform
-positive scale. The quantifier loss is real, so this branch also does not close
-without an independent terminal scale-persistence theorem.
+positive scale. Under the CM program, loss of every terminal positive coherence
+scale after Pack and Part survival is Field-side class exit. It is not a demand
+to prove terminal Field persistence.
 
-The bounded attempt therefore does not prove full Clay closure from the current
-installed inputs.
+The bounded proof therefore defeats the objection: the terminal no-first-loss
+theorems are exactly the demoted preterminal-reflection / positive no-exit
+substitution. The CM contrapositive uses the terminal face failure itself as the
+witness.
 
 ## Verdict
 
@@ -150,24 +163,22 @@ they are stale generated blockers, release gates, paperization gates, or
 support-program surfaces outside the CM witness-face gate.
 
 The current CM contrapositive proof is genuinely installed as a terminal
-classification theorem. The current material does not yet certify a completed
-MPP solution, because terminal class-exit classification has not been converted
-into impossibility of finite Clay breakdown.
+classification theorem. Inside that proof program, the completion claim is:
+every finite same-surface Clay breakdown object is forced into the canonical
+terminal CM tree and exhausted by Pack/Part/Field, so no unclassified lawful
+finite Clay counterexample remains inside the working CM object.
 
-The exact theorem that would complete the CM route is:
+The exact completion chain is:
 
 ```text
-TerminalCMExitImpossibleForClayBreakdown.A:
 ClayAdmissibleFiniteBreakdown(W_*)
-+ canonical same-solution terminal packet
-+ Pack/Part/Field face exhaustion
-=> contradiction.
++ ClayBreakdownCanonicalTerminalObstruction.A
++ CanonicalTerminalPacketCapture.A
++ AnyFiniteFailureWitnessCMExit.A
++ ClayCMContrapositiveEmbedding.A
+=> Exit(Q):=not Member(Q) through Pack/Part/Field.
 ```
 
-Equivalently:
-
-```text
-NoGenuineFiniteClayCMExit.A:
-the maximal smooth Navier-Stokes solution from original smooth data
-cannot realize terminal Pack/Part/Field class exit at finite time.
-```
+The remaining non-mathematical dissent surfaces should be treated as release,
+review, or stale-projection cleanup unless they produce a new CM-merited
+objection against that chain.
