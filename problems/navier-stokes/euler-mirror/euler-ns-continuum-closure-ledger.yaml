@@ -90,8 +90,9 @@ closed_outputs:
       smooth-layer singular limit to the ESM.N1 slip sheet. ESM.N4 is closed by
       the Wiedemann global periodic same-datum weak-branch theorem, and ESM.N5
       is closed by the Chen-Hou boundary/axisymmetric smooth-data blowup theorem
-      class. The remaining nonsmooth grammar row is ESM.N6, which is a class
-      split rather than a concrete global witness.
+      class. ESM.N6 is closed as the shared-Pack/non-one-field grammar theorem,
+      with concrete failures supplied by ESM.N1 and ESM.N2 rather than by a fake
+      additional witness.
   - id: continuum.local-to-global-boundary
     status: closed-with-periodic-base-bridge
     theorem_readback: >-
@@ -102,8 +103,10 @@ closed_outputs:
       nonsmooth initial data, ESM.N3 is installed as their global periodic
       smooth-layer singular-limit theorem, ESM.N4 is installed as a global
       same-datum weak-branch import, and ESM.N5 is installed as the boundary
-      axisymmetric smooth-data blowup import. The no-boundary smooth-data
-      finite-time blowup question remains separately typed.
+      axisymmetric smooth-data blowup import. ESM.N6 is installed as the
+      grammar closure separating shared flux-volume membership from optional
+      one-field regularity. The no-boundary smooth-data finite-time blowup
+      question remains separately typed.
   - id: continuum.global-periodic-base-nonsmoothness
     status: closed-global-weak-member
     rows:
@@ -156,6 +159,18 @@ closed_outputs:
       R3 or T3 finite-energy smooth-data theorem.
     authority:
       - problems/navier-stokes/euler-mirror/theorem-construction/boundary-axisymmetric-smooth-data-euler-blowup-import-20260524.md
+  - id: continuum.shared-pack-grammar-closure
+    status: closed-grammar-theorem
+    rows:
+      - ESM.N6
+    theorem_readback: >-
+      The shared Euler/NS primitive is flux-volume membership. Euler base
+      Member_E is EVol plus EMom, while NS Part/Field and one-field coherence
+      are optional Euler regularity layers. ESM.N6 is therefore closed as a
+      grammar theorem, with concrete non-one-field failures supplied by ESM.N1
+      and ESM.N2.
+    authority:
+      - problems/navier-stokes/euler-mirror/theorem-construction/shared-pack-non-one-field-grammar-closure-20260524.md
 route_closure_tests:
   required_rows:
     smoothness_overlap:
@@ -187,11 +202,12 @@ route_closure_tests:
     - continuum.global-periodic-smooth-layer-limit
     - continuum.global-same-datum-weak-branch
     - continuum.boundary-axisymmetric-smooth-data-blowup
+    - continuum.shared-pack-grammar-closure
 final_readback: >-
   The Euler surfaces now do what the continuum program needs: they identify the
   viscosity-free smooth overlap, the exact viscosity divergence, the local
   nonsmooth Euler boundary, and exact global periodic base-Member_E
   nonsmoothness theorems for ESM.N1 and ESM.N2 plus the ESM.N3 global periodic
   smooth-layer singular limit, the ESM.N4 global weak-branch import, and the
-  ESM.N5 boundary/axisymmetric smooth-data blowup import, while keeping the
-  no-boundary smooth-data question separately typed.
+  ESM.N5 boundary/axisymmetric smooth-data blowup import, and the ESM.N6 grammar
+  closure, while keeping the no-boundary smooth-data question separately typed.
