@@ -20,6 +20,7 @@ Every mathematical source object must be represented by proof role.
 | Auxiliary estimates and readouts | Support for a named hinge | The estimate names one hinge it supports: terminal packet capture, membership readout, or no genuine finite class exit. | Reject support material that strengthens intuition without moving a hinge. |
 | Transfer, mirror, and comparison material | Comparison pressure-test or exclusion | The exact Navier-Stokes object must be landed inside the same Pack/Part/Field witness tree before it can enter the proof spine. | Reject comparison evidence as proof evidence until the landing theorem exists. |
 | Failed attempts and adversarial audits | Live burden or pressure test | A failed attempt enters the manuscript only by attacking one of the three referee hinges. | Reject audit text as proof text when it does not change a hinge. |
+| Theorem-creation candidate notes | Live candidate support, active blocker, or pressure test | A candidate note must name the service face or referee hinge it affects before it is allowed into the manuscript. | Reject candidate output as theorem evidence until downstream audit lands it. |
 | Build, provenance, and automation records | Outside the mathematical manuscript | These records protect reproducibility and bundle integrity outside the proof. | Reject internal process language from the main proof. |
 | Active blockers | Named theorem obligation | The blocker must state its service face and its closing hinge. | Reject hidden burdens, status language, and vague "future work" phrasing. |
 
@@ -30,4 +31,4 @@ Authoring gates:
 3. Every branch-family paragraph must preserve the Pack-first witness order.
 4. Every support estimate must attach to a hinge rather than float as background.
 5. Every live blocker must be stated as a theorem obligation, not as process status.
-6. The current concrete blocker is the no-genuine-exit hinge for original smooth data, with retained positive-scale native source-reserve birth charge as the Pack-side wall that must be closed before Clay-level completion is certified.
+6. The current concrete blocker is the no-genuine-exit hinge for original smooth data. The active Pack-side support chain now includes retained positive-scale native source-reserve birth charge, ReserveCreationCharge.A, TerminalReserveFirstAppearanceCharge.A, PositiveRemainderDepletion.A, and the open SourceWeightedTerminalAngularDepletion.A subprimitive.
