@@ -1,5 +1,9 @@
 # MPP Terminal CM No-Exit Direct Attempt
 
+## Authority Cap - Positive No-Exit Attempt Only
+
+This file is retained as a positive no-exit / packet-survival proof attempt. Current CM proof-status authority is `mpp-cm-proof-completion-surface-field-audit-20260525.md` plus `mpp-completed-proof-surface-challenge-20260525.md`. The open Pack/Part/Field no-exit language here is not an active CM blocker. Reopening requires a proved legal in-class nonsmooth third branch or a proved failure of Clay terminal CM entry/exhaustion/embedding.
+
 Date: 2026-05-22
 
 Status: direct positive packet-survival attempt; live Clay-facing no-exit
