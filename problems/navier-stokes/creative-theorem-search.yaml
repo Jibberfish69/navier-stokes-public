@@ -169,3 +169,20 @@ summary:
   selected_branch_id: creative-branch-navier-stokes-1
   selected_next_cell_type: theorem-creation
   intervention_needed: true
+  current_live_blocking_count: 0
+  current_live_frontier_count: 0
+  stale_surface_status: historical-context-only
+current_authority_status:
+  status: superseded-by-direct-live-clearance
+  checked_at: '2026-05-26T01:42:41Z'
+  reason: Direct live authority reports no open theorem frontier; this artifact is
+    retained as historical theorem-work context and must not respawn a live blocker.
+  authority_summary:
+    authority_mode: direct-live-surfaces
+    blocking_count: 0
+    frontier_count: 0
+    all_discharged: true
+  controlling_surfaces:
+  - problems/navier-stokes/live-theorem-edge.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
