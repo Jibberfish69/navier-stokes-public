@@ -1,5 +1,9 @@
 # MPP CM-Exit Classification Versus Exclusion Audit
 
+## Authority Cap - Red-Team Objection Superseded
+
+This MCP audit is retained only as a red-team objection against the positive no-exit reading. It is not current CM proof-status authority. It does not exhibit a legal in-class nonsmooth third branch, and it does not show failure of Clay terminal CM entry, finite-failure type exhaustion, or CM contrapositive embedding. Its exclusion-language must not be read as an active CM proof blocker.
+
 ## Verdict
 
 The MPP solution claim fails under independent logic audit.
