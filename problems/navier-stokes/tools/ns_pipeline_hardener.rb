@@ -592,6 +592,9 @@ def sanitize_submission_verdict(verdict)
   verdict["review_alignment"]["current_package_status"] = CURRENT_PACKAGE_STATUS
   verdict["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   verdict["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
+  if verdict.dig("lane_classification", "signals").is_a?(Hash)
+    verdict["lane_classification"]["signals"]["default_mode"] = "proof-present"
+  end
 
   target_fidelity = verdict["target_fidelity"]
   if target_fidelity.is_a?(Hash)
