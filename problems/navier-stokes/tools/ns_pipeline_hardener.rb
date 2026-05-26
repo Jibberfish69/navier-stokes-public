@@ -686,6 +686,9 @@ def sanitize_auto_audit(audit)
   unless cm_referee_gate_clear?
     audit["certification"]["current_package_status"] = "referee-blocked-cm-contrapositive"
     audit["certification"]["standalone_status"] = "referee-blocked"
+    audit["certification"]["completion_tier_achieved"] = "theorem-open"
+    audit["certification"]["review_verdict"] = "block"
+    audit["certification"]["theorem_packet_status"] = "referee-blocked"
     audit["audit_certification"]["audit_status"] = "referee-blocked-cm-contrapositive"
     audit["audit_certification"]["audit_completion_tier"] = "theorem-open"
     audit["audit_certification"]["audit_review_verdict"] = "block"
