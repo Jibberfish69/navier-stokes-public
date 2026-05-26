@@ -4,20 +4,19 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-05-26T20:06:59Z'
+  evaluated_at: '2026-05-26T20:43:52Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
-  disposition: submission-candidate
-  release_posture: export-ready
+  disposition: blocked
+  release_posture: blocked
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: full-mpp-closure
-  next_cell_type: submission
-  next_stage: submission-candidate
-  next_action: Keep generated/status surfaces aligned with live-theorem-edge.yaml
-    and target-operating-contract.yaml; do not respawn positive packet-survival/no-exit
-    labels without a fresh CM-necessity audit.
-  rationale: Direct live CM authority and the accepted full-MPP review govern release;
-    stale no-exit respawn language is support only.
+  completion_tier_achieved: theorem-open
+  next_cell_type: solver-loop
+  next_stage: cm-contrapositive-referee-blocked
+  next_action: Discharge the CM contrapositive referee audit before treating this
+    package as Clay-ready.
+  rationale: A direct referee audit found unearned CM-contrapositive proof mass, so
+    generated readiness surfaces cannot promote this package.
   exact_live_theorem_grade_burden: &1
     status: contrapositive-witness-consumption-installed
     burden_id: clay-cm-contrapositive-witness-consumption
@@ -56,11 +55,62 @@ artifacts:
   typeset_audit: problems/navier-stokes/submission-bundle/typeset-audit.yaml
   review_log: problems/navier-stokes/review-log.md
   review_verdict: problems/navier-stokes/review-verdict.yaml
-blockers: []
+blockers:
+- The theorem packet localizes definitions, lemma surfaces, theorem statement, and
+  proof dependencies strongly enough to support export-facing review.
+- The local package is stable enough to review, and `draft-v8.md` now serves as the
+  export-ready paper source for this package.
+- The `draft-v7.md` surface is now a live manuscript artifact aligned with the current
+  export-ready bundle.
+- The current package is coherent enough to clear a full-MPP closure release if the
+  export bundle remains intact.
+- Terminal packet capture is asserted at the paper surface by passing to a terminal
+  subsequence and then treating Pack/Part/Field as exhaustive; this audit did not
+  find a referee-grade derivation of the compact terminal object and exhaustion from
+  Navier-Stokes estimates.
+- The branch-family exhaustion and non-Euler census state the right CM sorting rule,
+  but the current paper-facing surfaces do not provide the record-by-record derivation
+  needed to make every included branch family proof-bearing rather than diagnostic/support.
+- The completion criterion is conditional on the installed CM witness chain; the generated
+  readiness stack promotes that conditional chain to full-MPP/submission posture even
+  though this audit leaves the terminal capture and branch-exhaustion hinges unresolved.
+- Derive the same-fluid finite terminal CM packet object and prove that a Clay finite
+  breakdown witness has no primitive failure service outside Pack_Q, Part_{N,Q}, and
+  Field_{N,r,Q}.
+- For every proof-bearing branch family promoted into the paper, give a checkable
+  certificate of selected terminal object, CM-test admission, first Pack/Part/Field
+  face failure, and Exit(Q):=not Member(Q) readout.
+- Regenerate theorem-packet, review, submission, release, hardener, MCP, and bundle
+  surfaces so failed referee audit status outranks stale full-MPP/submission-ready
+  labels.
+- 'Target fidelity failure: direct theorem authority still has open theorem-packet
+  blockers, so terminal release is not safe.'
+- 'CM contrapositive referee audit blocks release: Terminal packet capture is asserted
+  at the paper surface by passing to a terminal subsequence and then treating Pack/Part/Field
+  as exhaustive; this audit did not find a referee-grade derivation of the compact
+  terminal object and exhaustion from Navier-Stokes estimates.'
+- 'CM contrapositive referee audit blocks release: The branch-family exhaustion and
+  non-Euler census state the right CM sorting rule, but the current paper-facing surfaces
+  do not provide the record-by-record derivation needed to make every included branch
+  family proof-bearing rather than diagnostic/support.'
+- 'CM contrapositive referee audit blocks release: The completion criterion is conditional
+  on the installed CM witness chain; the generated readiness stack promotes that conditional
+  chain to full-MPP/submission posture even though this audit leaves the terminal
+  capture and branch-exhaustion hinges unresolved.'
+- 'CM contrapositive referee audit blocks release: Derive the same-fluid finite terminal
+  CM packet object and prove that a Clay finite breakdown witness has no primitive
+  failure service outside Pack_Q, Part_{N,Q}, and Field_{N,r,Q}.'
+- 'CM contrapositive referee audit blocks release: For every proof-bearing branch
+  family promoted into the paper, give a checkable certificate of selected terminal
+  object, CM-test admission, first Pack/Part/Field face failure, and Exit(Q):=not
+  Member(Q) readout.'
+- 'CM contrapositive referee audit blocks release: Regenerate theorem-packet, review,
+  submission, release, hardener, MCP, and bundle surfaces so failed referee audit
+  status outranks stale full-MPP/submission-ready labels.'
 summary:
-  queue_effect: submission-candidate
-  registry_note: problem is terminal until internal export or submission handling
-    is scheduled
+  queue_effect: blocked
+  registry_note: problem is parked at an accepted nonterminal checkpoint until an
+    explicit theorem-upgrade or material theorem delta appears
 release_or_respawn_consequence:
   disposition: submission-candidate
   next_cell_type: submission
@@ -68,6 +118,32 @@ release_or_respawn_consequence:
   next_action: Keep generated/status surfaces aligned with live-theorem-edge.yaml
     and target-operating-contract.yaml; do not respawn positive packet-survival/no-exit
     labels without a fresh CM-necessity audit.
+cm_contrapositive_referee_gate:
+  audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+  status: blocked
+  pass: false
+  release_eligible: false
+  blockers:
+  - Terminal packet capture is asserted at the paper surface by passing to a terminal
+    subsequence and then treating Pack/Part/Field as exhaustive; this audit did not
+    find a referee-grade derivation of the compact terminal object and exhaustion
+    from Navier-Stokes estimates.
+  - The branch-family exhaustion and non-Euler census state the right CM sorting rule,
+    but the current paper-facing surfaces do not provide the record-by-record derivation
+    needed to make every included branch family proof-bearing rather than diagnostic/support.
+  - The completion criterion is conditional on the installed CM witness chain; the
+    generated readiness stack promotes that conditional chain to full-MPP/submission
+    posture even though this audit leaves the terminal capture and branch-exhaustion
+    hinges unresolved.
+  - Derive the same-fluid finite terminal CM packet object and prove that a Clay finite
+    breakdown witness has no primitive failure service outside Pack_Q, Part_{N,Q},
+    and Field_{N,r,Q}.
+  - For every proof-bearing branch family promoted into the paper, give a checkable
+    certificate of selected terminal object, CM-test admission, first Pack/Part/Field
+    face failure, and Exit(Q):=not Member(Q) readout.
+  - Regenerate theorem-packet, review, submission, release, hardener, MCP, and bundle
+    surfaces so failed referee audit status outranks stale full-MPP/submission-ready
+    labels.
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight:
   rule_id: ns-target-topology-preflight-v2
@@ -534,22 +610,6 @@ forward_positive_surface_quarantine:
     receiver-readout-endpoint-support: 1143
     separate-positive-smoothness-support: 378
     separate-transfer-or-euler-comparison-support: 128
-  rule: Every indexed forward-positive, positive-supplier, continuation, transfer,
-    receiver/readout, export, or already-demoted positive surface is support only
-    for the CM contrapositive program. It cannot set the live CM frontier, replace
-    the Pack-first witness tree, count as publication readiness, or turn a bad source/residue
-    object into a deletion burden when that object is already a lawful class-exit
-    witness.
-  promotion_gate: Only a named bridge-license theorem that lands the exact result
-    in Pack_Q, Part_{N,Q}, or Field_{N,r,Q} can promote an indexed surface for CM
-    use.
-  pre_answer_rule: If a Navier-Stokes answer, target packet, review surface, release
-    surface, or theorem-creation prompt cites any indexed surface while the active
-    program is CM contrapositive, it must state its quarantine class or route it through
-    the Pack/Part/Field bridge-license gate before using it.
-  positive_program_boundary: When the user explicitly switches to a positive smoothness,
-    positive supplier, fixed-nu transfer, or Euler comparison program, indexed surfaces
-    may be read only inside that separate program and still do not become CM authority.
   index_path: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
   index_status: active-global-demotion-index
   summary_by_scope:
