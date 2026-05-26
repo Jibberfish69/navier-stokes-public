@@ -87,28 +87,22 @@ assumptions:
 summary:
   total_direct_live_assumptions: 10
   discharged_direct_live_assumptions: 10
-  blocking_or_unresolved_authority_count: 4
+  blocking_or_unresolved_authority_count: 2
   hfg_side_primitives_open:
   - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
-  release_blocking_count: 4
+  release_blocking_count: 2
   all_discharged: false
   total_authority_assumptions: 0
   discharged_authority_assumptions: 0
   referee_blockers: &1
-  - The torus-first CM proof now has a global material-atlas terminal-capture object,
-    and the branch ledger demotes unresolved branch rows from proof-bearing status.
-    The paper-facing branch-family sections still use grouped branch prose as part
-    of the proof spine and need rewriting before submission.
   - The installed terminal-capture proof is for the active torus-first surface. A
     Clay-facing whole-space R^3 claim still needs a separate tightness/localization
     export theorem.
-  - Rewrite the paper proof spine so terminal capture is carried by TorusGlobalMaterialAtlasTerminalCapture.A,
-    with branch-family rows used only as certified face examples or demoted support.
   - If the submitted claim is the full R^3 Clay statement, prove an export theorem
     from the torus-first global-atlas CM proof to whole-space data.
 release_blockers: *1
 required_next_actions: *1
-generated_at: '2026-05-26T21:37:39Z'
+generated_at: '2026-05-26T21:41:37Z'
 pass: false
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
