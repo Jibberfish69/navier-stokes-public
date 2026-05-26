@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: cm-contrapositive-referee-audit-navier-stokes
-  generated_at: '2026-05-26T21:15:00Z'
+  generated_at: '2026-05-26T21:16:36Z'
   generator: codex/referee-sweep
   audit_scope: Navier-Stokes CM contrapositive proof inclusion and readiness gate
 status:
@@ -26,23 +26,33 @@ classification_summary:
   cheap_bad_branch_to_exit_forbidden: true
   support_quarantine_mostly_installed: true
   generated_readiness_conflict_detected: true
+  terminal_packet_exhaustion_worked: true
+  generated_readiness_demoted: true
   full_clay_submission_certified: false
-blocking_findings:
-  - id: terminal-packet-capture-exhaustion-not-referee-certified
-    severity: high
-    summary: >-
-      Terminal packet capture is asserted at the paper surface by passing to a
-      terminal subsequence and then treating Pack/Part/Field as exhaustive; this
-      audit did not find a referee-grade derivation of the compact terminal
-      object and exhaustion from Navier-Stokes estimates.
+working_pass_results:
+  - id: continuation-complete-terminal-face-exhaustion-working-pass
+    status: discharged-at-continuation-packet-level
     evidence:
-      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:339
-      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:369
-      - problems/navier-stokes/theorem-construction/mpp-cm-completion-claim-adversarial-audit-20260525.md:201
-    cm_program_effect: >-
-      The fail branch cannot be promoted to Exit(Q) for Clay readiness until the
-      same-fluid terminal object and Pack-first face exhaustion are derived at
-      referee standard.
+      - problems/navier-stokes/theorem-construction/mpp-continuation-complete-terminal-face-exhaustion-working-pass-20260526.md
+    result: >-
+      Finite terminal non-continuation negates the continuation-complete CM
+      packet. Since that packet is exactly Pack+Part+Field plus the H^s readout,
+      the negation yields a Pack-first first-face failure without relying on an
+      extra compact terminal-subsequence slogan.
+    remaining_boundary: >-
+      The branch-family census still has to prove that each promoted row really
+      supplies the selected terminal packet, or else demote it as support-only,
+      obsolete, moot, unreachable, or a genuine unresolved positive requirement.
+  - id: generated-readiness-demotion-sync
+    status: resolved-by-enforced-gate
+    evidence:
+      - system/runner/lib/release_surface_reconciler.rb
+      - problems/navier-stokes/tools/ns_pipeline_hardener.rb
+      - system/runner/test/release_surface_reconciler_test.rb
+    result: >-
+      Submission, release, MCP proof-promotion, and release-side audit surfaces
+      now stay blocked when the CM referee gate is blocked.
+blocking_findings:
   - id: branch-family-exhaustion-and-census-not-record-certified
     severity: high
     summary: >-
@@ -59,33 +69,7 @@ blocking_findings:
       Row-level diagnostic sorting cannot substitute for object-level proof that
       every promoted failure enters the CM test and lands at its first
       Pack/Part/Field face.
-  - id: conditional-completion-to-unconditional-clay-closure-gap
-    severity: high
-    summary: >-
-      The completion criterion is conditional on the installed CM witness chain;
-      the generated readiness stack promotes that conditional chain to
-      full-MPP/submission posture even though this audit leaves the terminal
-      capture and branch-exhaustion hinges unresolved.
-    evidence:
-      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1021
-      - problems/navier-stokes/review-verdict.yaml:8
-      - problems/navier-stokes/submission-verdict.yaml:11
-      - problems/navier-stokes/theorem-packet.yaml:389
-    cm_program_effect: >-
-      Generated readiness is demoted below this referee gate. The proof may
-      still be an internally useful CM route, but it is not Clay-ready while
-      this gate is blocked.
 open_logical_burdens:
-  - burden_id: clay-terminal-packet-capture-referee-proof
-    statement: >-
-      Derive the same-fluid finite terminal CM packet object and prove that a
-      Clay finite breakdown witness has no primitive failure service outside
-      Pack_Q, Part_{N,Q}, and Field_{N,r,Q}.
-    allowed_resolutions:
-      - prove positively at referee standard
-      - derive CM-test admission plus Pack/Part/Field first-face failure
-      - prove the surface obsolete, moot, irrelevant, or logically unreachable
-      - identify it as an authentic unresolved logical obstruction
   - burden_id: branch-family-record-by-record-face-certificate
     statement: >-
       For every proof-bearing branch family promoted into the paper, give a
@@ -95,15 +79,22 @@ open_logical_burdens:
       - prove the complete certificate ledger
       - demote unsupported rows to diagnostic/support-only
       - remove them from Clay-facing proof mass
-  - burden_id: generated-readiness-demotion-sync
-    statement: >-
-      Regenerate theorem-packet, review, submission, release, hardener, MCP, and
-      bundle surfaces so failed referee audit status outranks stale
-      full-MPP/submission-ready labels.
-    allowed_resolutions:
-      - enforce this audit as a blocking gate in code
-      - rerun submission/release surfaces until they report not-ready
 nonblocking_confirmations:
+  - id: terminal-packet-capture-exhaustion-discharged-at-packet-level
+    statement: >-
+      The working pass proves finite terminal non-continuation as failure of the
+      continuation-complete CM packet, then reads that failure Pack-first through
+      Pack_Q, Part_{N,Q}, and Field_{N,r,Q}.
+    evidence:
+      - problems/navier-stokes/theorem-construction/mpp-continuation-complete-terminal-face-exhaustion-working-pass-20260526.md
+  - id: generated-readiness-demotion-sync-complete
+    statement: >-
+      Release and proof-promotion surfaces now block on this referee gate instead
+      of promoting stale full-MPP/submission-ready labels.
+    evidence:
+      - system/runner/lib/release_surface_reconciler.rb
+      - problems/navier-stokes/tools/ns_pipeline_hardener.rb
+      - system/runner/test/release_surface_reconciler_test.rb
   - id: source-reserve-not-live-blocker
     statement: >-
       SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
@@ -120,6 +111,5 @@ nonblocking_confirmations:
       - problems/navier-stokes/theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md:14
       - problems/navier-stokes/theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md:26
 required_next_audit:
-  - Run the terminal packet capture proof as a referee proof, not as a label sync.
   - Build or demote the branch-family record certificate ledger.
   - Keep all generated readiness surfaces blocked until this audit passes.
