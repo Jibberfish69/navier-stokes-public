@@ -168,12 +168,15 @@ central_gate:
       lawful continuation mechanism, and a fail branch is useful exactly when it lands
       in Pack, Part, or Field and therefore supports `Exit(Q):=not Member(Q)`.
     source_reserve_birth_rule: 'The source-reserve/signed-pair surface family is audited
-      as support, not a current proof blocker. Its useful Pack-side reading is `SourceReserveBirthCharge.A
-      / RetainedPositiveScaleNativeReserveBirthCharge.A`: charge the first retained
-      positive-scale native donor-square reserve surplus or route that surplus to
-      Pack/Part/Field exit. It becomes live only after a fresh CM-necessity audit
-      proves an in-class nonsmooth third branch or a concrete face failure that is
-      not already consumed by the pass-or-exit law.'
+      as support, not a current proof blocker. The Pack-first source-reserve face
+      audit classifies paid same-ledger service as pass-side nonvacuity, admitted
+      finite terminal obstruction as CM-test admission only, zero-radius terminal
+      residue or selected unpaid infinite donor-refill as first-face not Pack_Q,
+      and retained positive-scale first-created native donor-square reserve surplus
+      as supplier quarantine. The honest next burden is `RetainedPositiveScaleNativeReserveBirthCharge.A
+      / TerminalReserveFirstAppearanceCharge.A` as supplier-quarantined positive
+      Pack support, promotable only by same-ledger payment or CM-test admission plus
+      first Pack/Part/Field face failure.'
   - program_id: positive-smoothness
     proof_mode: positive_smoothness
     governing_primitive: direct a priori regularity or continuation control for the
