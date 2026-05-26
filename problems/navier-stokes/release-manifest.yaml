@@ -1,152 +1,14 @@
 ---
-version: 2
+version: 3
 identity:
   problem_id: navier-stokes
   artifact_id: release-manifest-navier-stokes
-  generated_at: '2026-05-26T20:32:41Z'
+  generated_at: '2026-05-26T21:02:03Z'
   generator: system/runner/lib/release_surface_reconciler.rb
 status: blocked
 pass: false
 release_eligible: false
 bundle_status: cm-contrapositive-referee-blocked
-source_fingerprint: 0ef15a849bc46b02b7d554dd07f41df89f3dd051
-bundle_sha1: 41f0914882d54bc0ab3ec058b393c2a2df2f826d
-summary:
-  artifact_count: 14
-  missing_artifact_count: 0
-  all_required_artifacts_present: true
-  blocking_count: 2
-  all_discharged: false
-source_summary:
-  proof_artifact:
-    path: problems/navier-stokes/external-paper/main.tex
-    present: true
-    sha1: ed77cff806ce81c69d5d40c54aa336491df51993
-    bytes: 250
-    modified_at: '2026-05-01T16:01:05Z'
-  source_trace:
-    path: problems/navier-stokes/source-ledger.yaml
-    present: true
-    sha1: f59b3f56766101ac68d52b543337aded9cf1c7e0
-    bytes: 20907176
-    modified_at: '2026-05-23T19:01:09Z'
-  theorem_authority_gate:
-    total_obligations: 2
-    blocking_count: 2
-    frontier_count: 2
-    all_discharged: false
-    authority_mode: direct-live-surfaces
-  source_frontier:
-    unresolved_count: 0
-  live_theorem_edge:
-    blocked_frontier_count: 0
-  review_verdict:
-    verdict: accept
-    release_posture: export-ready
-    completion_tier_achieved: full-mpp-closure
-    terminal_safe: true
-  submission_verdict:
-    submission_ready: true
-  release_decision:
-    disposition: submission-candidate
-    release_posture: export-ready
-    completion_tier_achieved: full-mpp-closure
-  existing_assumption_ledger_status:
-    ledger_status: release-eligible
-    all_authority_assumptions_discharged: true
-    release_eligible: true
-    release_gate: proof-promotion-release-surface-reconciled
-  auto_audit_certification:
-    current_package_status: full-mpp-closure-ready
-    standalone_status: accept
-    completion_tier_achieved: full-mpp-closure
-    review_verdict: accept
-    theorem_packet_status: export-ready
-  source_fingerprint: 0ef15a849bc46b02b7d554dd07f41df89f3dd051
-artifacts:
-- path: problems/navier-stokes/theorem-packet.yaml
-  present: true
-  sha1: 3fea9bfca82baf89d6d011182abe7c28d58918a1
-  bytes: 49693
-  modified_at: '2026-05-26T20:16:59Z'
-- path: problems/navier-stokes/source-frontier.yaml
-  present: true
-  sha1: bf3ffb1d3f99d10588ceee1d0527f636337fcde4
-  bytes: 70689
-  modified_at: '2026-05-26T20:15:27Z'
-- path: problems/navier-stokes/live-theorem-edge.yaml
-  present: true
-  sha1: 5481d1e648952ed215cbfa0c581869d3d35a26a3
-  bytes: 179339
-  modified_at: '2026-05-26T19:21:20Z'
-- path: problems/navier-stokes/submission-verdict.yaml
-  present: true
-  sha1: 0d4ea78e176a7c8a491a6a403d0c9499b361e0b3
-  bytes: 11836
-  modified_at: '2026-05-26T20:17:46Z'
-- path: problems/navier-stokes/release-decision.yaml
-  present: true
-  sha1: 5c95fa8e18465acd0c78b1251009fedb8a0741da
-  bytes: 41731
-  modified_at: '2026-05-26T20:15:27Z'
-- path: problems/navier-stokes/dependency-audit.yaml
-  present: true
-  sha1: 8b9cc45bbe46865bd6a917c580c516cdce9c1e54
-  bytes: 1411
-  modified_at: '2026-05-26T20:32:42Z'
-- path: problems/navier-stokes/assumption-audit.yaml
-  present: true
-  sha1: 13a6736c6857383201e07f030a9f4f03ecd5b15e
-  bytes: 1414
-  modified_at: '2026-05-26T20:32:42Z'
-- path: problems/navier-stokes/circularity-audit.yaml
-  present: true
-  sha1: 5ba2220be976ca3ce4d2227f86aa3e04fee47d8d
-  bytes: 1437
-  modified_at: '2026-05-26T20:32:42Z'
-- path: problems/navier-stokes/gap-audit.yaml
-  present: true
-  sha1: 71debd661974008fe9f5fdd0c75a446a13cafd69
-  bytes: 1404
-  modified_at: '2026-05-26T20:32:42Z'
-- path: problems/navier-stokes/gap-ticket.yaml
-  present: true
-  sha1: 3d6ace50817c924032e798f363f585bd96934e76
-  bytes: 1459
-  modified_at: '2026-05-26T20:32:42Z'
-- path: problems/navier-stokes/consistency-audit.yaml
-  present: true
-  sha1: e7011970e5b03bd755c410975704812ffabb72eb
-  bytes: 1406
-  modified_at: '2026-05-26T20:32:42Z'
-- path: problems/navier-stokes/dependency-graph.yaml
-  present: true
-  sha1: 90838b340dd001f50d1632d1a3c6737b393bd61a
-  bytes: 1606
-  modified_at: '2026-05-26T20:32:42Z'
-- path: problems/navier-stokes/failure-mode-checks.yaml
-  present: true
-  sha1: a93e56adf667846a4a839c8f626b25bab30e5136
-  bytes: 1408
-  modified_at: '2026-05-26T20:32:42Z'
-- path: problems/navier-stokes/auto-audit.yaml
-  present: true
-  sha1: 74eb7cd88501213dee17a62e4f520722c528452b
-  bytes: 15274
-  modified_at: '2026-05-26T20:17:28Z'
-missing_artifacts: []
-written_paths:
-- problems/navier-stokes/dependency-audit.yaml
-- problems/navier-stokes/assumption-audit.yaml
-- problems/navier-stokes/gap-audit.yaml
-- problems/navier-stokes/gap-ticket.yaml
-- problems/navier-stokes/consistency-audit.yaml
-- problems/navier-stokes/circularity-audit.yaml
-- problems/navier-stokes/assumption-ledger.yaml
-- problems/navier-stokes/dependency-graph.yaml
-- problems/navier-stokes/failure-mode-checks.yaml
-legacy_artifacts_removed_count: 0
-release_gate: full-mpp-closure-ready
 terminal_safe: false
 required_before_terminal_release:
 - Terminal packet capture is asserted at the paper surface by passing to a terminal
@@ -168,6 +30,177 @@ required_before_terminal_release:
 - Regenerate theorem-packet, review, submission, release, hardener, MCP, and bundle
   surfaces so failed referee audit status outranks stale full-MPP/submission-ready
   labels.
+source_fingerprint: 22addea9cd29242567611e21e2f1435c14c5cc16
+bundle_sha1: 4c5eb2ad94db00050353356ac4e92882bb3ba860
+summary:
+  artifact_count: 15
+  missing_artifact_count: 0
+  all_required_artifacts_present: true
+  blocking_count: 6
+  all_discharged: false
+source_summary:
+  proof_artifact:
+    path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    present: true
+    sha1: e9d247df25d905a36f3abf204ba97ffe760ff92e
+    bytes: 60504
+    modified_at: '2026-05-26T20:16:26Z'
+  source_trace:
+    path: problems/navier-stokes/source-ledger.yaml
+    present: true
+    sha1: f59b3f56766101ac68d52b543337aded9cf1c7e0
+    bytes: 20907176
+    modified_at: '2026-05-23T19:01:09Z'
+  theorem_authority_gate:
+    total_obligations: 0
+    blocking_count: 0
+    frontier_count: 0
+    all_discharged: true
+    authority_mode: direct-live-surfaces
+  source_frontier:
+    unresolved_count: 0
+  live_theorem_edge:
+    blocked_frontier_count: 0
+  review_verdict:
+    verdict: block
+    release_posture: export-ready
+    completion_tier_achieved: theorem-open
+    terminal_safe: true
+  submission_verdict:
+    submission_ready: false
+  release_decision:
+    disposition: blocked
+    release_posture: blocked
+    completion_tier_achieved: theorem-open
+  existing_assumption_ledger_status:
+    ledger_status: blocked-cm-contrapositive-referee-audit
+    direct_live_authority_all_discharged: true
+    cm_contrapositive_referee_gate_clear: false
+    release_eligible: false
+    release_gate: cm-contrapositive-referee-blocked
+  auto_audit_certification:
+    current_package_status: referee-blocked-cm-contrapositive
+    standalone_status: referee-blocked
+    completion_tier_achieved: theorem-open
+    review_verdict: block
+    theorem_packet_status: referee-blocked
+  cm_contrapositive_referee_gate:
+    problem_id: navier-stokes
+    audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+    status: blocked-referee-audit
+    pass: false
+    release_eligible: false
+    blockers:
+    - Terminal packet capture is asserted at the paper surface by passing to a terminal
+      subsequence and then treating Pack/Part/Field as exhaustive; this audit did
+      not find a referee-grade derivation of the compact terminal object and exhaustion
+      from Navier-Stokes estimates.
+    - The branch-family exhaustion and non-Euler census state the right CM sorting
+      rule, but the current paper-facing surfaces do not provide the record-by-record
+      derivation needed to make every included branch family proof-bearing rather
+      than diagnostic/support.
+    - The completion criterion is conditional on the installed CM witness chain; the
+      generated readiness stack promotes that conditional chain to full-MPP/submission
+      posture even though this audit leaves the terminal capture and branch-exhaustion
+      hinges unresolved.
+    - Derive the same-fluid finite terminal CM packet object and prove that a Clay
+      finite breakdown witness has no primitive failure service outside Pack_Q, Part_{N,Q},
+      and Field_{N,r,Q}.
+    - For every proof-bearing branch family promoted into the paper, give a checkable
+      certificate of selected terminal object, CM-test admission, first Pack/Part/Field
+      face failure, and Exit(Q):=not Member(Q) readout.
+    - Regenerate theorem-packet, review, submission, release, hardener, MCP, and bundle
+      surfaces so failed referee audit status outranks stale full-MPP/submission-ready
+      labels.
+  source_fingerprint: 22addea9cd29242567611e21e2f1435c14c5cc16
+artifacts:
+- path: problems/navier-stokes/theorem-packet.yaml
+  present: true
+  sha1: fba4a54dee3e7737a1a624959d17335734a4ebcc
+  bytes: 114595
+  modified_at: '2026-05-26T21:00:54Z'
+- path: problems/navier-stokes/source-frontier.yaml
+  present: true
+  sha1: cc872578568ea7b78ba4c878d29af1fb592818c2
+  bytes: 69464
+  modified_at: '2026-05-26T21:00:54Z'
+- path: problems/navier-stokes/live-theorem-edge.yaml
+  present: true
+  sha1: 5481d1e648952ed215cbfa0c581869d3d35a26a3
+  bytes: 179339
+  modified_at: '2026-05-26T19:21:20Z'
+- path: problems/navier-stokes/submission-verdict.yaml
+  present: true
+  sha1: 661659f0d16a5a9810c18541d6aef04bad98df50
+  bytes: 58913
+  modified_at: '2026-05-26T21:00:54Z'
+- path: problems/navier-stokes/release-decision.yaml
+  present: true
+  sha1: 253acfa2a4d3543de2344e01a0d65d408b32f298
+  bytes: 45896
+  modified_at: '2026-05-26T21:00:54Z'
+- path: problems/navier-stokes/dependency-audit.yaml
+  present: true
+  sha1: 657a9d7e09f73b41cb78289fa402b576e009757c
+  bytes: 2981
+  modified_at: '2026-05-26T21:02:03Z'
+- path: problems/navier-stokes/assumption-audit.yaml
+  present: true
+  sha1: 20fbae5cb9e3a6012c14b67a38c5069a9ccf18d8
+  bytes: 2981
+  modified_at: '2026-05-26T21:02:03Z'
+- path: problems/navier-stokes/circularity-audit.yaml
+  present: true
+  sha1: 151c2fd2f5f790ff2efc29c34c51855831307dda
+  bytes: 2983
+  modified_at: '2026-05-26T21:02:04Z'
+- path: problems/navier-stokes/gap-audit.yaml
+  present: true
+  sha1: ef86d29ec17b9ed8ed9e7a04bbad946dcc625bcc
+  bytes: 2978
+  modified_at: '2026-05-26T21:02:04Z'
+- path: problems/navier-stokes/gap-ticket.yaml
+  present: true
+  sha1: 23d2e1312731ec7bd86b0610ea3435f905cc8c67
+  bytes: 3016
+  modified_at: '2026-05-26T21:02:04Z'
+- path: problems/navier-stokes/consistency-audit.yaml
+  present: true
+  sha1: de5426d2ecae591211bf2cb5c15a1484b9cd5202
+  bytes: 2983
+  modified_at: '2026-05-26T21:02:04Z'
+- path: problems/navier-stokes/dependency-graph.yaml
+  present: true
+  sha1: 8fc46d2d6927dc380bf95d5391a56f4b654d393f
+  bytes: 5155
+  modified_at: '2026-05-26T21:02:04Z'
+- path: problems/navier-stokes/failure-mode-checks.yaml
+  present: true
+  sha1: 36a44b79aac7847d8da72b60fb94778706d0f87d
+  bytes: 3033
+  modified_at: '2026-05-26T21:02:04Z'
+- path: problems/navier-stokes/auto-audit.yaml
+  present: true
+  sha1: 2fe6b2ea7b9455a6b26f3e42c0e22fc779445981
+  bytes: 62896
+  modified_at: '2026-05-26T21:00:54Z'
+- path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+  present: true
+  sha1: 359f08c8ab7de68c6f32a323200cc615e047fd64
+  bytes: 6518
+  modified_at: '2026-05-26T20:42:46Z'
+missing_artifacts: []
+written_paths:
+- problems/navier-stokes/dependency-audit.yaml
+- problems/navier-stokes/assumption-audit.yaml
+- problems/navier-stokes/gap-audit.yaml
+- problems/navier-stokes/gap-ticket.yaml
+- problems/navier-stokes/consistency-audit.yaml
+- problems/navier-stokes/circularity-audit.yaml
+- problems/navier-stokes/assumption-ledger.yaml
+- problems/navier-stokes/dependency-graph.yaml
+- problems/navier-stokes/failure-mode-checks.yaml
+legacy_artifacts_removed_count: 0
 cm_contrapositive_referee_gate:
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   status: blocked
@@ -194,6 +227,7 @@ cm_contrapositive_referee_gate:
   - Regenerate theorem-packet, review, submission, release, hardener, MCP, and bundle
     surfaces so failed referee audit status outranks stale full-MPP/submission-ready
     labels.
+release_gate: cm-contrapositive-referee-blocked
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight:
   rule_id: ns-target-topology-preflight-v2
