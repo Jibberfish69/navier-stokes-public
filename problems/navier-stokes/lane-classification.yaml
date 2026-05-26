@@ -11,7 +11,7 @@ proof_present: true
 theorem_search_required: false
 paperization_required: false
 signals:
-  default_mode: theorem-open
+  default_mode: proof-present
   proof_bearing_source: true
   manuscript_classification: proof-manuscript
   blocking_count: 0
