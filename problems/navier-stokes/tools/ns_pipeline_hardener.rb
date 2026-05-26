@@ -168,6 +168,27 @@ def cm_referee_gate_payload
   }
 end
 
+def cm_referee_blocked_consequence
+  {
+    "disposition" => "blocked",
+    "next_cell_type" => "solver-loop",
+    "next_stage" => "cm-contrapositive-referee-repair",
+    "next_action" => "Discharge the CM contrapositive referee audit by proving, demoting, or marking the flagged proof burdens as genuine unresolved logical blockers."
+  }
+end
+
+def normalize_cm_referee_blocker(text)
+  text.to_s.sub(/\ACM contrapositive referee audit blocks (?:packet readiness|submission):\s*/, "").strip
+end
+
+def dedupe_cm_referee_blockers(blockers)
+  raw = Array(blockers).map(&:to_s)
+  raw.reject do |entry|
+    normalized = normalize_cm_referee_blocker(entry)
+    entry != normalized && raw.any? { |other| other == normalized }
+  end.uniq
+end
+
 def apply_cm_referee_gate_to_packet!(packet)
   return packet unless packet.is_a?(Hash)
 
@@ -177,10 +198,18 @@ def apply_cm_referee_gate_to_packet!(packet)
   packet["posture"] ||= {}
   packet["posture"]["current_package_status"] = "referee-blocked-cm-contrapositive"
   packet["posture"]["standalone_status"] = "referee-blocked"
+  packet["posture"]["release_or_respawn_consequence"] = cm_referee_blocked_consequence
+  packet["release_or_respawn_consequence"] = cm_referee_blocked_consequence if packet.key?("release_or_respawn_consequence")
   packet["readiness"] ||= {}
   packet["readiness"]["packet_complete"] = false
   packet["readiness"]["export_ready"] = false
-  packet["readiness"]["blockers"] = (Array(packet["readiness"]["blockers"]) + cm_referee_blockers.map { |entry| "CM contrapositive referee audit blocks packet readiness: #{entry}" }).uniq
+  blockers = dedupe_cm_referee_blockers(packet["readiness"]["blockers"])
+  cm_referee_blockers.each do |entry|
+    next if blockers.any? { |blocker| normalize_cm_referee_blocker(blocker) == entry }
+
+    blockers << "CM contrapositive referee audit blocks packet readiness: #{entry}"
+  end
+  packet["readiness"]["blockers"] = dedupe_cm_referee_blockers(blockers)
   packet
 end
 
@@ -232,10 +261,12 @@ def apply_cm_referee_gate_to_release!(decision)
     body["disposition"] = "blocked"
     body["release_posture"] = "blocked"
     body["completion_tier_achieved"] = "theorem-open"
+    body["next_cell_type"] = "solver-loop"
     body["next_stage"] = "cm-contrapositive-referee-blocked"
     body["next_action"] = "Discharge the CM contrapositive referee audit before treating this package as Clay-ready."
     body["rationale"] = "A direct referee audit found unearned CM-contrapositive proof mass, so generated readiness surfaces cannot promote this package."
   end
+  decision["release_or_respawn_consequence"] = cm_referee_blocked_consequence
   decision["blockers"] = (Array(decision["blockers"]) + cm_referee_blockers).uniq
   decision
 end
