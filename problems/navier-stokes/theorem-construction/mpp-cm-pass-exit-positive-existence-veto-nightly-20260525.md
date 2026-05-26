@@ -56,6 +56,10 @@ Tonight's native theorem pressure must therefore do one of these jobs:
 4. quarantine the object as supplier/readout material when no bridge lands it
    inside the witness tree.
 
+The reusable lemma for this interface is
+`mpp-uniform-two-sided-obstruction-lemma-20260526.md`, labelled
+`UniformTwoSidedObstructionLemma.A`.
+
 If the pass-side non-vacuity check fails in the absolute sense, then the
 branch split has not proved smoothness. The result is a diagnostic problem:
 either the obstruction was not a valid obstruction for the Clay proof program,
