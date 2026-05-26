@@ -639,14 +639,13 @@ theorem_warrants:
       out-of-scope write is required, the route has split and one bounded self-attempt
       has already failed, or verification cannot be repaired internally.
   exact_live_theorem_grade_burden: *1
-  release_or_respawn_consequence: &9
-    disposition: submission-candidate
-    next_cell_type: submission
-    next_stage: submission-candidate
-    next_action: Keep generated/status surfaces aligned with live-theorem-edge.yaml
-      and target-operating-contract.yaml; do not respawn positive packet-survival/no-exit
-      labels without a fresh CM-necessity audit.
-  forward_positive_surface_quarantine: &10
+  release_or_respawn_consequence:
+    disposition: blocked
+    next_cell_type: solver-loop
+    next_stage: cm-contrapositive-referee-repair
+    next_action: Discharge the CM contrapositive referee audit by proving, demoting,
+      or marking the flagged proof burdens as genuine unresolved logical blockers.
+  forward_positive_surface_quarantine: &9
     status: active-global-demotion
     index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
     generator: problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb
@@ -777,8 +776,13 @@ non_merge_rules: *6
 authority_hierarchy: *7
 mode_selection_protocol: *8
 exact_live_theorem_grade_burden: *1
-release_or_respawn_consequence: *9
-forward_positive_surface_quarantine: *10
+release_or_respawn_consequence:
+  disposition: blocked
+  next_cell_type: solver-loop
+  next_stage: cm-contrapositive-referee-repair
+  next_action: Discharge the CM contrapositive referee audit by proving, demoting,
+    or marking the flagged proof burdens as genuine unresolved logical blockers.
+forward_positive_surface_quarantine: *9
 current_authority_status:
   status: superseded-by-direct-live-clearance
   checked_at: '2026-05-26T21:41:37Z'
