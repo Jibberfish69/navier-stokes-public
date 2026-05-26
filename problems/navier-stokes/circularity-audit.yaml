@@ -3,12 +3,11 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: circularity-audit-navier-stokes
-  generated_at: '2026-05-26T20:32:41Z'
+  generated_at: '2026-05-26T21:02:03Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-  purpose: release circularity cannot be certified while the direct-live frontier
-    is open
+  purpose: release circularity blocked by CM contrapositive referee audit
 status:
-  audit_status: direct-live-frontier-open
+  audit_status: cm-contrapositive-referee-blocked
   pass: false
   release_eligible: false
 pass: false
@@ -17,25 +16,48 @@ source:
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
+  review_verdict: problems/navier-stokes/review-verdict.yaml
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
   release_decision: problems/navier-stokes/release-decision.yaml
+  cm_contrapositive_referee_audit: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 summary:
-  total_obligations: 2
-  blocking_count: 2
-  frontier_count: 2
+  authority_mode: cm-contrapositive-referee-gate
+  audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+  audit_status: blocked-referee-audit
+  blocking_count: 6
+  frontier_count: 0
+  unresolved_count: 6
+  bridge_discharge_blocking_count: 0
+  theorem_warrant_blocking_count: 6
   all_discharged: false
-  authority_mode: direct-live-surfaces
-  unresolved_count: 2
-  bridge_discharge_blocking_count: 2
-  theorem_warrant_blocking_count: 2
-  open_frontier_labels: &1
-  - ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
-  - SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
+  referee_blockers: &1
+  - Terminal packet capture is asserted at the paper surface by passing to a terminal
+    subsequence and then treating Pack/Part/Field as exhaustive; this audit did not
+    find a referee-grade derivation of the compact terminal object and exhaustion
+    from Navier-Stokes estimates.
+  - The branch-family exhaustion and non-Euler census state the right CM sorting rule,
+    but the current paper-facing surfaces do not provide the record-by-record derivation
+    needed to make every included branch family proof-bearing rather than diagnostic/support.
+  - The completion criterion is conditional on the installed CM witness chain; the
+    generated readiness stack promotes that conditional chain to full-MPP/submission
+    posture even though this audit leaves the terminal capture and branch-exhaustion
+    hinges unresolved.
+  - Derive the same-fluid finite terminal CM packet object and prove that a Clay finite
+    breakdown witness has no primitive failure service outside Pack_Q, Part_{N,Q},
+    and Field_{N,r,Q}.
+  - For every proof-bearing branch family promoted into the paper, give a checkable
+    certificate of selected terminal object, CM-test admission, first Pack/Part/Field
+    face failure, and Exit(Q):=not Member(Q) readout.
+  - Regenerate theorem-packet, review, submission, release, hardener, MCP, and bundle
+    surfaces so failed referee audit status outranks stale full-MPP/submission-ready
+    labels.
+  open_frontier_labels: []
 findings:
-- Direct-live theorem authority reports open frontier obligations; stale terminal
-  release overlays are demoted.
+- The CM contrapositive referee audit reports unresolved proof-bearing burdens; stale
+  terminal release overlays are demoted.
 verdict:
   dependency_graph_closed: false
   release_eligible: false
   all_discharged: false
+  clay_ready: false
 required_for_release: *1
