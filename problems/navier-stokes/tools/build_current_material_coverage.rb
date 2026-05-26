@@ -102,7 +102,7 @@ FAMILIES = [
   },
   {
     "id" => "cm_class_law_completion_and_adversarial_audits",
-    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, source-reserve root CM face-consumption, surface-field completion audit, and the uniform two-sided obstruction lemma. The Clay-facing proof uses the pass-or-exit obstruction engine: the pass side supplies local non-vacuity by the simplest lawful smooth/Member(Q) witness, while the fail side closes only after CM-test entry and a concrete Pack/Part/Field face failure. Stale positive-bootstrap, no-genuine-exit, and forward no-free-sink objections do not become CM-merited objections unless they attack terminal CM entry, Pack/Part/Field exhaustion, or exhibit a genuine in-class nonsmooth third branch.",
+    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, source-reserve root CM face-consumption, surface-field completion audit, and the uniform two-sided obstruction lemma. The Clay-facing proof uses the pass-or-exit obstruction engine: the pass side supplies local non-vacuity by the simplest lawful smooth/Member(Q) witness, while the fail side closes only after CM-test entry and a concrete Pack/Part/Field face failure. Stale positive-bootstrap, positive no-exit, and forward no-free-sink objections do not become CM-merited objections unless they attack terminal CM entry, Pack/Part/Field exhaustion, or exhibit a genuine in-class nonsmooth third branch.",
     "files" => %w[
       theorem-construction/mcp-mpp-ttu-a-1ddd943b9d.md
       theorem-construction/mpp-nightly-terminal-cm-witness-red-team-20260524.md
@@ -145,6 +145,7 @@ FAMILIES = [
     "files" => %w[
       tools/build_forward_positive_surface_quarantine.rb
       source-forensics/archive-scrivener-manifest.txt
+      source-forensics/ns-historical-biography.md
       source-forensics/build_master_extraction.py
       misalignment.json
       submission-bundle/ground-up/main.tex
