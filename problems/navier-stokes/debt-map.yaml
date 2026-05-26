@@ -9,41 +9,42 @@ source:
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
-    theorem_target: current route target
-    current_package_status: backbone grounded from recovered support
-    support_basis: Recovered source support converged with the speculative branch,
-      so the next safe move is a grounded backbone rebuild.
-    standalone_status: revise
+    theorem_target: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
+      / ClayCMContrapositiveEmbedding.A
+    current_package_status: full-mpp-closure-ready
+    support_basis: Direct-live CM authority reports terminal witness entry, finite
+      Pack/Part/Field failure type exhaustion, and contrapositive embedding as installed.
+    standalone_status: accept
+    stale_surface_status: historical-context-only
 supporting_sections:
   reviewer_risks:
-  - Recovered support is still classified as strong, so the local package remains
-    a revise-stage workboard.
+  - Historical debt rows are retained as provenance only; direct-live authority,
+    review, submission, release, and audit surfaces currently clear full-MPP closure.
   required_local_explanations: []
-  post_release_theorem_upgrade_gaps:
-  - SameLedgerConcordance.A / PositiveFieldScaleUnderSynchronization.A residual
-  - source-wall-root-after-reconcile
+  post_release_theorem_upgrade_gaps: []
   promotion_rule:
-  - Do not promote beyond `revise` until every row marked as a live theorem burden
-    has either been localized into the local package or explicitly parked below the
-    theorem surface.
-  - Keep the lowest safe claim explicit and do not let recovered speculative material
-    masquerade as a proved bridge.
-  - Re-run honesty-review only after the local package has real prose and an explicit
-    debt map.
+  - Do not promote a historical debt row back into live theorem authority unless it
+    proves a genuine in-class nonsmooth third branch or failure of terminal CM entry,
+    Pack/Part/Field exhaustion, or contrapositive embedding.
+  - Read this file through current_authority_status first; direct-live surfaces outrank
+    all legacy workboard rows.
+  - Keep old source-wall, no-genuine-exit, and positive-forward rows as searchable
+    provenance rather than release blockers.
 debt_items:
 - debt_id: terminalcmnoexit-a-nogenuinecmexit-a-pack-landing
   label: Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
   source_section: direct-live-authority-face-gate
-  monograph_status: CM witness-face bridge stalled after object-formalization/dependency-discharge;
-    this is the Pack face of the required landing split
-  standalone_need: 'yes'
+  monograph_status: Historical Pack-face split superseded by the installed Clay
+    terminal witness entry, finite failure type exhaustion, and CM contrapositive
+    embedding family; retained as provenance only.
+  standalone_need: 'no'
   primary_anchors:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-repair.yaml
   - problems/navier-stokes/creative-theorem-search.yaml
   - problems/navier-stokes/dependency-discharge.yaml
-  debt_class: local-derivable
+  debt_class: historical-support
   derivation_state: localized-support
   source_scope_status: new-support-found
   derivation_attempts: 1
@@ -60,11 +61,10 @@ debt_items:
   - SOURCE.NO-PULSE.A
   - AWG.A
   - TGC.A
-  recommended_stage: debt-derive
-  rationale: Dependency-discharge did not license the aggregate CM bridge. This debt
-    isolates the Pack landing, so the next bounded derivation must either prove this
-    face, refute it, or leave it as branch-support-only without promoting supplier
-    aliases.
+  recommended_stage: none-historical-support
+  rationale: Current direct-live authority installs the Clay-facing terminal witness
+    entry/exhaustion/embedding chain; this row may not respawn a Pack blocker without
+    a fresh reopening proof.
   cm_face: Pack
   parent_authority_gate_id: terminalcmnoexit-a-nogenuinecmexit-a
   priority_rank: 1
@@ -88,16 +88,17 @@ debt_items:
 - debt_id: terminalcmnoexit-a-nogenuinecmexit-a-part-landing
   label: Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
   source_section: direct-live-authority-face-gate
-  monograph_status: CM witness-face bridge stalled after object-formalization/dependency-discharge;
-    this is the Part face of the required landing split
-  standalone_need: 'yes'
+  monograph_status: Historical Part-face split superseded by the installed Clay
+    terminal witness entry, finite failure type exhaustion, and CM contrapositive
+    embedding family; retained as provenance only.
+  standalone_need: 'no'
   primary_anchors:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-repair.yaml
   - problems/navier-stokes/creative-theorem-search.yaml
   - problems/navier-stokes/dependency-discharge.yaml
-  debt_class: local-derivable
+  debt_class: historical-support
   derivation_state: localized-support
   source_scope_status: new-support-found
   derivation_attempts: 1
@@ -110,11 +111,10 @@ debt_items:
   - Part
   bridge_license_required: true
   supplier_aliases_quarantined: *1
-  recommended_stage: debt-derive
-  rationale: Dependency-discharge did not license the aggregate CM bridge. This debt
-    isolates the Part landing, so the next bounded derivation must either prove this
-    face, refute it, or leave it as branch-support-only without promoting supplier
-    aliases.
+  recommended_stage: none-historical-support
+  rationale: Current direct-live authority installs the Clay-facing terminal witness
+    entry/exhaustion/embedding chain; this row may not respawn a Part blocker without
+    a fresh reopening proof.
   cm_face: Part
   parent_authority_gate_id: terminalcmnoexit-a-nogenuinecmexit-a
   priority_rank: 2
@@ -138,16 +138,17 @@ debt_items:
 - debt_id: terminalcmnoexit-a-nogenuinecmexit-a-field-landing
   label: Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
   source_section: direct-live-authority-face-gate
-  monograph_status: CM witness-face bridge stalled after object-formalization/dependency-discharge;
-    this is the Field face of the required landing split
-  standalone_need: 'yes'
+  monograph_status: Historical Field-face split superseded by the installed Clay
+    terminal witness entry, finite failure type exhaustion, and CM contrapositive
+    embedding family; retained as provenance only.
+  standalone_need: 'no'
   primary_anchors:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-repair.yaml
   - problems/navier-stokes/creative-theorem-search.yaml
   - problems/navier-stokes/dependency-discharge.yaml
-  debt_class: local-derivable
+  debt_class: historical-support
   derivation_state: localized-support
   source_scope_status: new-support-found
   derivation_attempts: 1
@@ -160,11 +161,10 @@ debt_items:
   - Field
   bridge_license_required: true
   supplier_aliases_quarantined: *1
-  recommended_stage: debt-derive
-  rationale: Dependency-discharge did not license the aggregate CM bridge. This debt
-    isolates the Field landing, so the next bounded derivation must either prove this
-    face, refute it, or leave it as branch-support-only without promoting supplier
-    aliases.
+  recommended_stage: none-historical-support
+  rationale: Current direct-live authority installs the Clay-facing terminal witness
+    entry/exhaustion/embedding chain; this row may not respawn a Field blocker without
+    a fresh reopening proof.
   cm_face: Field
   parent_authority_gate_id: terminalcmnoexit-a-nogenuinecmexit-a
   priority_rank: 3
@@ -203,35 +203,38 @@ debt_items:
 - debt_id: debt-theorem-upgrade-1-sameledgerconcordance-a-positivefieldscaleundersynchronization-a-residual
   label: SameLedgerConcordance.A / PositiveFieldScaleUnderSynchronization.A residual
   source_section: post-release-theorem-upgrade
-  monograph_status: reopened from post-release theorem-upgrade plan
-  standalone_need: 'yes'
+  monograph_status: Historical post-release theorem-upgrade row superseded for current
+    CM promotion by direct-live clearance; retained as provenance only.
+  standalone_need: 'no'
   primary_anchors:
   - problems/navier-stokes/post-release-plan.yaml
-  debt_class: blocked-frontier
-  recommended_stage: creative-theorem-search
-  rationale: The post-release plan says this gap remains outside the accepted checkpoint
-    package, so it must stay on the theorem-upgrade path instead of being demoted
-    to packaging debt.
+  debt_class: historical-support
+  recommended_stage: none-historical-support
+  rationale: SameLedgerConcordance / PositiveFieldScaleUnderSynchronization no longer
+    acts as a current CM blocker unless it proves a genuine in-class nonsmooth third
+    branch or failure of the terminal entry/exhaustion/embedding chain.
   priority_rank: 5
 - debt_id: debt-theorem-upgrade-2-source-wall-root-after-reconcile
   label: source-wall-root-after-reconcile
   source_section: post-release-theorem-upgrade
-  monograph_status: reopened from post-release theorem-upgrade plan
-  standalone_need: 'yes'
+  monograph_status: Historical post-release theorem-upgrade row superseded for current
+    CM promotion by direct-live clearance; retained as provenance only.
+  standalone_need: 'no'
   primary_anchors:
   - problems/navier-stokes/post-release-plan.yaml
-  debt_class: blocked-frontier
-  recommended_stage: creative-theorem-search
-  rationale: The post-release plan says this gap remains outside the accepted checkpoint
-    package, so it must stay on the theorem-upgrade path instead of being demoted
-    to packaging debt.
+  debt_class: historical-support
+  recommended_stage: none-historical-support
+  rationale: source-wall-root-after-reconcile no longer acts as a current CM blocker
+    unless it proves a genuine in-class nonsmooth third branch or failure of the terminal
+    entry/exhaustion/embedding chain.
   priority_rank: 6
 summary:
   counts_by_class:
     packaging: 1
-    local-derivable: 3
+    local-derivable: 0
     branch-choice: 0
-    blocked-frontier: 2
+    blocked-frontier: 0
+    historical-support: 5
   recommended_next_cell_type:
   recommended_next_action: Do not respawn theorem work from this historical artifact;
     defer to the direct-live authority surfaces.
