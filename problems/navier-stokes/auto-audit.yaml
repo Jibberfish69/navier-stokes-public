@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-26T02:09:49Z'
+  audited_at: '2026-05-26T02:16:42Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: full-mpp-closure-ready
@@ -32,7 +32,7 @@ downstream_overlay_drift:
   authority_surfaces:
   - artifact: source_frontier
     path: problems/navier-stokes/source-frontier.yaml
-    sha1: 539009dbf899ba112dd55798d4ec68f68341e05b
+    sha1: a25375ba2a98ff5be7f9bd3615d3b5faa71b308a
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -44,7 +44,7 @@ downstream_overlay_drift:
     - 'dashboard_unresolved_count: 0'
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: bce7efc886091e264dc74a38f5ea406423c0a8a7
+    sha1: eaf5629fe355c3ab54bd0ea904fbfe004f9a4b4e
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -59,7 +59,7 @@ downstream_overlay_drift:
     - 'release_posture: export-ready'
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
-    sha1: 80c819b2ed43a27b93f460cac0df0ca95fb024e5
+    sha1: ed3c51faaefb7a6c4378b1c6df090729c83dfecc
     matched_terms:
     - direct-live-surfaces
     - authority_gate_mode
@@ -71,7 +71,7 @@ downstream_overlay_drift:
     - submission-candidate
   - artifact: dependency_discharge
     path: problems/navier-stokes/dependency-discharge.yaml
-    sha1: 32f87ce4c6307d411f5c32111ee6452cf3d7c0e1
+    sha1: be03c586161e52bcbec17f7a39a540885cc35be3
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
