@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-05-26T01:17:52Z'
+  evaluated_at: '2026-05-26T01:26:36Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: respawn
@@ -40,8 +40,12 @@ blockers:
   export-ready bundle.
 - The current package is coherent enough to clear a full-MPP closure release if the
   export bundle remains intact.
-- There are 8 unresolved definition/object obligations.
-- There are 14 unresolved lemma obligations.
+- CM contrapositive surface-field proof completion audit; no accepted source-reserve
+  or signed-pair blocker remains after CM necessity testing
+- '{"obligation_id"=>"cm-contrapositive-surface-field-proof-completion-audit-no-accepted-source-reserve-or-signed-pair-blocker-remains-after-cm-necessity-testing",
+  "kind"=>"live-theorem-frontier", "label"=>"CM contrapositive surface-field proof
+  completion audit; no accepted source-reserve or signed-pair blocker remains after
+  CM necessity testing", "status"=>"frontier-open", "source_anchor"=>"problems/navier-stokes/live-theorem-edge.yaml"}'
 - Honesty review verdict is still `revise`.
 summary:
   queue_effect: ready
