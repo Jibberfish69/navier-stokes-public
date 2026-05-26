@@ -4,10 +4,10 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-26T01:26:36Z'
+  audited_at: '2026-05-26T01:28:54Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
-  current_package_status: theorem-open-at-direct-live-frontier
+  current_package_status: full-mpp-closure-ready
   standalone_status: accept
   completion_tier_achieved: full-mpp-closure
   review_verdict: accept
@@ -27,27 +27,39 @@ branch_audit:
 downstream_overlay_drift:
   status: ok
   issue_id: downstream-overlay-drift
-  authority_surface_count: 2
+  authority_surface_count: 3
   stale_overlay_count: 0
   authority_surfaces:
-  - artifact: submission_verdict
-    path: problems/navier-stokes/submission-verdict.yaml
-    sha1: 447912113eb63e4c70f0c497966121ae593ac1bc
+  - artifact: source_frontier
+    path: problems/navier-stokes/source-frontier.yaml
+    sha1: 2e97d9f9999f8c3a914a90190a8467dafd3255da
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
-    - cm-witness-face
-    - witness-face
+    - pctp.hard
+    - installed
+    - discharged
+    - accepted
+    - 'unresolved_count: 0'
+    - 'dashboard_unresolved_count: 0'
+  - artifact: submission_verdict
+    path: problems/navier-stokes/submission-verdict.yaml
+    sha1: b6854f7f9ed80c776e5b5bd3d3d7717fe17c8bbb
+    matched_terms:
+    - direct-live-surfaces
+    - source_authority_mode
     - full-mpp
     - installed
     - discharged
     - full-mpp-closure
-    - accepted
+    - 'all_discharged: true'
+    - 'submission_ready: true'
     - 'completion_tier_achieved: full-mpp-closure'
+    - submission-candidate
     - 'release_posture: export-ready'
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
-    sha1: 6ff84a367d13c97e2ae598a4dcbd3891d0d04840
+    sha1: a946f3964f27df8859cffafb52cc946dada74345
     matched_terms:
     - direct-live-surfaces
     - authority_gate_mode
@@ -71,13 +83,12 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-22e81d8b6f2a
-    route_signature: 22e81d8b6f2a69ae6bfb5f07e039454f018ba320
-    theorem_target: CM contrapositive surface-field proof completion audit; no accepted
-      source-reserve or signed-pair blocker remains after CM necessity testing
-    theorem_statement: 'CM contrapositive surface-field proof completion audit; no
-      accepted source-reserve or signed-pair blocker remains after CM necessity testing
-      Live theorem edge: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A.'
+    surface_id: theorem-surface-navier-stokes-12a13e098666
+    route_signature: 12a13e098666693d53117528c6e34b0f38eeb7c4
+    theorem_target: full-mpp-closure
+    theorem_statement: Every smooth divergence-free zero-mean initial datum on T^3
+      with f=0 generates a global smooth classical three-dimensional incompressible
+      Navier-Stokes solution.
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -101,24 +112,6 @@ surface_snapshot:
       = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
       not the internal branch itself
     route_slots:
-    - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-pack-landing
-      label: Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
-    - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-part-landing
-      label: Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
-    - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-field-landing
-      label: Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
     - slot_id: ActiveHeightFluxTrichotomy.A
       label: 'ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve
         surplus with zero first moment cannot remain hidden: the signed-pair normal
@@ -132,15 +125,6 @@ surface_snapshot:
       status: localized-support
       source_anchor: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
       patch_surface: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
-    - slot_id: CSP.A
-      label: CSP.A. On the retained same-fluid collar, LCI.A together with the installed
-        post-LCI source ledger FCI.5f supplies the collar source-pressure package;
-        OFP.A, CFI.A, endpoint readout, and Field remain downstream consumers, with
-        Member following only after the CM witness certificate.
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
-      patch_surface: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
     authority_layers:
       authoritative_proof_surfaces:
       - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
@@ -236,15 +220,15 @@ surface_snapshot:
       cross_surface_splice: false
       sterilized_synthesis_import_count: 0
   theorem_authority_summary:
-    total_obligations: 2
+    total_obligations: 0
     grounded_count: 0
     structural_only_count: 0
     structurally_supported_count: 0
     bridge_pending_count: 0
     unresolved_count: 0
-    frontier_count: 2
-    blocking_count: 2
-    all_discharged: false
+    frontier_count: 0
+    blocking_count: 0
+    all_discharged: true
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
 issues: []
