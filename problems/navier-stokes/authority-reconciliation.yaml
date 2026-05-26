@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   reconciliation_id: authority-reconciliation-navier-stokes
-  generated_at: '2026-05-26T01:42:41Z'
+  generated_at: '2026-05-26T01:56:15Z'
   generator: system/runner/lib/authority_reconciliation_builder.rb
 active: false
 inputs:
@@ -18,22 +18,22 @@ summary:
   proof_ready: true
   theorem_authority_blocking_count: 0
   bridge_discharge_blocking_count: 0
-  theorem_packet_export_ready: false
+  theorem_packet_export_ready: true
   target_fidelity_terminal_safe: false
-  target_fidelity_class: direct-target
+  target_fidelity_class: authority-conflict
   stale_blocker_count: 0
-  total_submission_blockers: 3
+  total_submission_blockers: 6
   stale_posture_lag: false
 target_fidelity:
-  class: direct-target
+  class: authority-conflict
   terminal_safe: false
   explicit_nonterminal_overlay: false
   issues:
-  - 'Target fidelity failure: direct theorem authority still has open theorem-packet
-    blockers, so terminal release is not safe.'
+  - 'Target fidelity failure: the submission bundle was exported from `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`
+    instead of the authoritative export surface `problems/navier-stokes/external-paper/main.tex`.'
   required_before_terminal_release:
-  - Discharge the theorem-packet blockers and refresh direct theorem authority before
-    terminal release.
+  - Regenerate the submission bundle from the authoritative export surface before
+    any terminal release or submission handling.
   signals:
     conditional_main_theorem: false
     overlay_block_risk: false
@@ -43,17 +43,16 @@ target_fidelity:
     regularization_markers: []
     transfer_markers:
     - bridge
-    - comparison
     - transfer
-    authoritative_export_surface: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    authoritative_export_surface: problems/navier-stokes/external-paper/main.tex
     bundle_manifest_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-    bundle_source_mismatch: false
+    bundle_source_mismatch: true
     current_theorem_surface_id: theorem-surface-navier-stokes-12a13e098666
     bundle_theorem_surface_id: ''
     current_route_signature: 12a13e098666693d53117528c6e34b0f38eeb7c4
     bundle_route_signature: ''
     bundle_surface_mismatch: false
-    open_theorem_authority: true
+    open_theorem_authority: false
     open_critical_referee_objections: []
 superseded_blockers: []
 effective_review_alignment: {}
