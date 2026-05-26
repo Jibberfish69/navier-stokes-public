@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-26T01:17:52Z'
+  audited_at: '2026-05-26T01:26:36Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: theorem-open-at-direct-live-frontier
@@ -13,7 +13,7 @@ certification:
   review_verdict: accept
   theorem_packet_status: export-ready
 audit_certification:
-  audit_status: audited-needs-fix
+  audit_status: audited-ok
   audit_completion_tier: audited-full-mpp-closure
   audit_review_verdict: audited-accept
 branch_audit:
@@ -27,24 +27,12 @@ branch_audit:
 downstream_overlay_drift:
   status: ok
   issue_id: downstream-overlay-drift
-  authority_surface_count: 3
+  authority_surface_count: 2
   stale_overlay_count: 0
   authority_surfaces:
-  - artifact: source_frontier
-    path: problems/navier-stokes/source-frontier.yaml
-    sha1: 8233256b8969b5f6581d1631ab0bbf247df563ff
-    matched_terms:
-    - direct-live-surfaces
-    - source_authority_mode
-    - pctp.hard
-    - installed
-    - discharged
-    - accepted
-    - 'unresolved_count: 0'
-    - 'dashboard_unresolved_count: 0'
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: 4dfbc7f322b6d80f1f8c2f8f1a2ddd3a8a4e5625
+    sha1: 447912113eb63e4c70f0c497966121ae593ac1bc
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -54,18 +42,19 @@ downstream_overlay_drift:
     - installed
     - discharged
     - full-mpp-closure
-    - 'all_discharged: true'
+    - accepted
     - 'completion_tier_achieved: full-mpp-closure'
     - 'release_posture: export-ready'
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
-    sha1: 69c3a9c5673410773f24eb6b5afcf4f3df95f8c8
+    sha1: 6ff84a367d13c97e2ae598a4dcbd3891d0d04840
     matched_terms:
     - direct-live-surfaces
     - authority_gate_mode
     - cm witness
     - installed
     - discharged
+    - accepted
     - submission-candidate
   stale_overlays: []
   recommended_repair: none
@@ -82,12 +71,13 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-b240e77e4537
-    route_signature: b240e77e4537c09cb1d0624e539b327ba8ec1a13
-    theorem_target: full-mpp-closure
-    theorem_statement: Every smooth divergence-free zero-mean initial datum on T^3
-      with f=0 generates a global smooth classical three-dimensional incompressible
-      Navier-Stokes solution.
+    surface_id: theorem-surface-navier-stokes-22e81d8b6f2a
+    route_signature: 22e81d8b6f2a69ae6bfb5f07e039454f018ba320
+    theorem_target: CM contrapositive surface-field proof completion audit; no accepted
+      source-reserve or signed-pair blocker remains after CM necessity testing
+    theorem_statement: 'CM contrapositive surface-field proof completion audit; no
+      accepted source-reserve or signed-pair blocker remains after CM necessity testing
+      Live theorem edge: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A.'
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
@@ -111,48 +101,46 @@ surface_snapshot:
       = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
       not the internal branch itself
     route_slots:
-    - slot_id: marvin-upstream-eb3fabeeac46
-      label: 'Define or prove: Reduced the live Navier-Stokes route stack against
-        the Clay whole-space target into exact source-backed ingredients already present
-        on the lane. On the classical side, isolated the mixed-jet system, the exact
-        rung-level can'
-      kind: definition
-      status: needs-localization
-      source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T014725Z-6ece27230fc9.md
-      patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: marvin-upstream-ada9835aa864
-      label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m
-        \partial_x^\alpha u and differentiated pressure \Pi_ m,alpha , fix s > 3/2.
-        Using the H^s algebra property and the order-1 Calderon-Zygmund bound for
-        the pressure operator,'
-      kind: definition
-      status: needs-localization
-      source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T015459Z-d5f90422800c.md
-      patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: marvin-upstream-6d929e8a052a
-      label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-        lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the
-        exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-        red'
-      kind: definition
-      status: needs-localization
-      source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T020719Z-04949830208e.md
-      patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: marvin-upstream-954339945793
-      label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-        under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-        and E_sh(X) vanish identically, so the exact Route '
-      kind: definition
-      status: needs-localization
-      source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T020853Z-1ed78e356031.md
-      patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: marvin-upstream-96892bab139f
-      label: 'Define or prove: Added two new theorem-facing reductions on the Clay
-        whole-space target.'
-      kind: definition
-      status: needs-localization
-      source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T022825Z-ed5d2bb9bea4.md
-      patch_surface: problems/navier-stokes/object-formalization.yaml
+    - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-pack-landing
+      label: Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+      kind: lemma
+      status: localized-support
+      source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-part-landing
+      label: Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+      kind: lemma
+      status: localized-support
+      source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    - slot_id: terminalcmnoexit-a-nogenuinecmexit-a-field-landing
+      label: Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+      kind: lemma
+      status: localized-support
+      source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    - slot_id: ActiveHeightFluxTrichotomy.A
+      label: 'ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve
+        surplus with zero first moment cannot remain hidden: the signed-pair normal
+        form either exposes same-ledger active height flux, pays by ASAC / positive
+        pair-weight charge, lands immediately in Pack/Part/Field, or reduces to TerminalSignedSaturation.A,
+        whose failure is already CM face-reduction support. This supplies the exact
+        noncircular bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A
+        converting positive square-reserve surplus into active height flux or Pack/Part/Field
+        exit..'
+      kind: lemma
+      status: localized-support
+      source_anchor: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
+      patch_surface: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
+    - slot_id: CSP.A
+      label: CSP.A. On the retained same-fluid collar, LCI.A together with the installed
+        post-LCI source ledger FCI.5f supplies the collar source-pressure package;
+        OFP.A, CFI.A, endpoint readout, and Field remain downstream consumers, with
+        Member following only after the CM witness certificate.
+      kind: lemma
+      status: localized-support
+      source_anchor: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
+      patch_surface: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
     authority_layers:
       authoritative_proof_surfaces:
       - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
@@ -249,33 +237,18 @@ surface_snapshot:
       sterilized_synthesis_import_count: 0
   theorem_authority_summary:
     total_obligations: 2
-    grounded_count: 1
+    grounded_count: 0
     structural_only_count: 0
     structurally_supported_count: 0
     bridge_pending_count: 0
     unresolved_count: 0
-    frontier_count: 1
-    blocking_count: 1
+    frontier_count: 2
+    blocking_count: 2
     all_discharged: false
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
-issues:
-- issue_id: direct-live-package-overclaim
-  severity: major
-  summary: The theorem packet advertises an export/closure posture while direct-live
-    authority still has open frontier obligations.
-  autofixable: false
-  recommended_action: Refresh theorem-packet posture from live-theorem-edge.yaml and
-    source-frontier.yaml before any release or submission decision.
-  details:
-    authority_mode: direct-live-surfaces
-    frontier_count: 1
-    current_package_status: local-packet-export-ready
-fix_plan:
-- fix_id: refresh-theorem-packet-direct-live-posture
-  summary: Regenerate theorem-packet.yaml from direct-live authority so local export
-    posture cannot outrank the open frontier.
-  autofixable: false
+issues: []
+fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
