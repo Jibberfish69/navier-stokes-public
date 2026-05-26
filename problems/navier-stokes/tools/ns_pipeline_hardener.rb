@@ -60,7 +60,7 @@ NS_NON_MERGE_RULES = TARGET_OPERATING_CONTRACT.fetch("non_merge_rules").freeze
 NS_AUTHORITY_HIERARCHY = TARGET_OPERATING_CONTRACT.fetch("authority_hierarchy").freeze
 NS_MODE_SELECTION_PROTOCOL = TARGET_OPERATING_CONTRACT.fetch("mode_selection_protocol").freeze
 CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN = OPEN_ROOT_GROUP.fetch("exact_live_theorem_grade_burden").freeze
-CURRENT_SOURCE_WALL_ROOT_ID = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("active_container", OPEN_ROOT_GROUP.fetch("group_id")).freeze
+CURRENT_SOURCE_WALL_ROOT_ID = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("burden_id", OPEN_ROOT_GROUP.fetch("group_id")).freeze
 CURRENT_SOURCE_WALL_ROOT_LABEL = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("target_object").freeze
 CURRENT_SOURCE_WALL_ROOT_SUMMARY = [
   CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("theorem_grade_statement"),
@@ -159,7 +159,7 @@ def support_chain_boundary
 end
 
 def warrant_demotion_prefix
-  "Demotion repair: historical four-bridge, positive-support, TerminalCMNoExit, and no-genuine-exit warrants remain support context only. They do not override the direct CM contrapositive proof state."
+  "Direct-live repair: historical four-bridge, positive-support, TerminalCMNoExit, no-genuine-exit, source-wall, and no-free-sink warrants remain support context only. Live authority stays with the CM pass-or-exit branch law, `Exit(Q):=not Member(Q)`, and the Pack/Part/Field witness-face route."
 end
 
 def with_single_warrant_demotion_prefix(note)
@@ -167,6 +167,7 @@ def with_single_warrant_demotion_prefix(note)
   body = note.to_s
   escaped = Regexp.escape(prefix)
   body = body.gsub(/(?:#{escaped}\s*)+/, "").strip
+  body = body.gsub(/Demotion repair: historical four-bridge.*?(?:direct CM contrapositive proof state\.|source-wall-root-after-reconcile is open\.)/m, "").strip
   [prefix, body.empty? ? nil : body].compact.join(" ")
 end
 
@@ -768,25 +769,26 @@ def sanitize_object_formalization(object_formalization)
 
   target = object_formalization["target"]
   return object_formalization unless target.is_a?(Hash)
-  return object_formalization unless starts_with_marvin_upstream?(target.fetch("obligation_id", ""))
+  stale_target = target.fetch("obligation_id", "").to_s == OPEN_ROOT_GROUP.fetch("group_id").to_s
+  return object_formalization unless starts_with_marvin_upstream?(target.fetch("obligation_id", "")) || stale_target
 
-  target["obligation_id"] = TERMINAL_PROMOTION_OBLIGATION_ID
-  target["label"] = TERMINAL_PROMOTION_LABEL
-  target["kind"] = "blocked-frontier"
+  target["obligation_id"] = CURRENT_SOURCE_WALL_ROOT_ID
+  target["label"] = CURRENT_SOURCE_WALL_ROOT_LABEL
+  target["kind"] = "current-authority-context"
 
   packet = object_formalization["formalization_packet"]
   if packet.is_a?(Hash)
-    packet["object_id"] = "formal-object-route_mutation_carrier"
-    packet["object_name"] = "route_mutation_carrier"
-    packet["object_role"] = "explicit theorem object"
-    packet["theorem_role"] = "Make the periodic Clay terminal-promotion bridge exact enough that later discharge can test it locally."
-    packet["problem_hint"] = "Keep the object classical. Do not smuggle in modified-equation structure."
+    packet["object_id"] = "formal-object-cm_pass_or_exit_witness_face_route"
+    packet["object_name"] = "cm_pass_or_exit_witness_face_route"
+    packet["object_role"] = "current direct-live CM authority context"
+    packet["theorem_role"] = CURRENT_ROUTE_SUMMARY
+    packet["problem_hint"] = "Do not respawn source-wall, no-genuine-exit, or positive packet-survival slogans as local theorem targets without a fresh CM-necessity audit."
   end
 
   summary = object_formalization["summary"]
   if summary.is_a?(Hash)
-    summary["recommended_next_cell_type"] = "dependency-discharge"
-    summary["recommended_next_action"] = "Use the terminal-promotion object packet and rerun dependency-discharge on the same obligation instead of reopening a stale sidecar theorem."
+    summary["recommended_next_cell_type"] = nil
+    summary["recommended_next_action"] = "Defer to live-theorem-edge.yaml and target-operating-contract.yaml; this object-formalization surface is context, not a respawn trigger."
   end
 
   object_formalization
