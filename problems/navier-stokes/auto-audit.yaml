@@ -768,14 +768,13 @@ surface_snapshot:
         role: readout presentation requiring direct accountability before use as a
           target
     exact_live_theorem_grade_burden: *1
-    release_or_respawn_consequence: &7
-      disposition: submission-candidate
-      next_cell_type: submission
-      next_stage: submission-candidate
-      next_action: Keep generated/status surfaces aligned with live-theorem-edge.yaml
-        and target-operating-contract.yaml; do not respawn positive packet-survival/no-exit
-        labels without a fresh CM-necessity audit.
-    forward_positive_surface_quarantine: &8
+    release_or_respawn_consequence:
+      disposition: blocked
+      next_cell_type: solver-loop
+      next_stage: cm-contrapositive-referee-repair
+      next_action: Discharge the CM contrapositive referee audit by proving, demoting,
+        or marking the flagged proof burdens as genuine unresolved logical blockers.
+    forward_positive_surface_quarantine: &7
       status: active-global-demotion
       index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
       generator: problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb
@@ -793,7 +792,7 @@ surface_snapshot:
       summary_by_scope:
         repo-surface: 201
         theorem-construction: 1652
-    non_merge_rules: &9
+    non_merge_rules: &8
     - rule_id: positive-vs-cm
       statement: Positive smoothness control and every surface indexed in the forward-positive
         quarantine ledger are not the CM contrapositive unless a named bridge proves
@@ -829,7 +828,7 @@ surface_snapshot:
     - rule_id: runtime-repair-vs-math
       statement: Repairing generated surfaces or daemon behavior is not theorem progress
         unless it creates or promotes exact theorem-facing work.
-    authority_hierarchy: &10
+    authority_hierarchy: &9
       source_priority:
       - problems/navier-stokes/source-forensics/
       - problems/navier-stokes/live-theorem-edge.yaml
@@ -854,7 +853,7 @@ surface_snapshot:
         terminal posture, or a singleton target that conflicts with the direct live
         surfaces and this contract, demote or repair that surface before using it
         in a user answer.
-    mode_selection_protocol: &11
+    mode_selection_protocol: &10
       before_answer:
       - lock target using target_lock_schema
       - inspect authority_source unless the user only asks for a purely conversational
@@ -915,11 +914,16 @@ target_lock_schema: *4
 proof_program_topology: *5
 open_root_group: *6
 exact_live_theorem_grade_burden: *1
-release_or_respawn_consequence: *7
-forward_positive_surface_quarantine: *8
-non_merge_rules: *9
-authority_hierarchy: *10
-mode_selection_protocol: *11
+release_or_respawn_consequence:
+  disposition: blocked
+  next_cell_type: solver-loop
+  next_stage: cm-contrapositive-referee-repair
+  next_action: Discharge the CM contrapositive referee audit by proving, demoting,
+    or marking the flagged proof burdens as genuine unresolved logical blockers.
+forward_positive_surface_quarantine: *7
+non_merge_rules: *8
+authority_hierarchy: *9
+mode_selection_protocol: *10
 cm_contrapositive_referee_gate:
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   status: blocked
