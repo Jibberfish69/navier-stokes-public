@@ -4,22 +4,19 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-05-26T01:42:41Z'
+  evaluated_at: '2026-05-26T01:56:15Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
-  disposition: blocked
-  release_posture: export-ready
+  disposition: respawn
+  release_posture: revise-loop
   completion_tier_target: full-mpp-closure
   completion_tier_achieved: full-mpp-closure
-  next_cell_type:
-  next_stage: accepted-nonterminal-hold
-  next_action: Hold the accepted checkpoint package as a stable nonterminal paper.
-    Do not rerun honesty-review or reopen theorem search automatically; only resume
-    after an explicit theorem-upgrade request, a real theorem-bearing source delta,
-    or a manuscript/export change.
-  rationale: The package is an accepted export-ready checkpoint, but the remaining
-    barrier is full-MPP closure or target fidelity on the original object rather than
-    a local paper repair. Prime parks it instead of relooping review/release.
+  next_cell_type: honesty-review
+  next_stage: review-refresh-required
+  next_action: Rerun honesty-review against the current primary manuscript and export
+    surfaces before attempting release again.
+  rationale: Release cannot promote this package because the review verdict is stale
+    relative to the current manuscript or export artifacts.
 artifacts:
   draft:
   draft_v6: problems/navier-stokes/draft-v6.md
@@ -42,11 +39,14 @@ blockers:
   export-ready bundle.
 - The current package is coherent enough to clear a full-MPP closure release if the
   export bundle remains intact.
-- There are 8 unresolved definition/object obligations.
-- There are 14 unresolved lemma obligations.
-- 'Target fidelity failure: direct theorem authority still has open theorem-packet
-  blockers, so terminal release is not safe.'
+- Primary manuscript changed after the current review verdict was written.
+- Review verdict does not record a current authoritative export surface hash.
+- Submission export status changed after the current review verdict was written.
+- 'Target fidelity failure: the submission bundle was exported from `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`
+  instead of the authoritative export surface `problems/navier-stokes/external-paper/main.tex`.'
+- Manuscript depth is only `summary-surface`; a full proof manuscript is required,
+  not a route summary or plan.
+- Submission export is not a clean typeset export yet.
 summary:
-  queue_effect: blocked
-  registry_note: problem is parked at an accepted nonterminal checkpoint until an
-    explicit theorem-upgrade or material theorem delta appears
+  queue_effect: ready
+  registry_note: problem is re-queued on the upstream stage named by the review verdict
