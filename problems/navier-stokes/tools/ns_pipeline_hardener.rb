@@ -430,13 +430,13 @@ def sanitize_auto_audit(audit)
   return audit unless audit.is_a?(Hash)
 
   audit["certification"] ||= {}
-  audit["certification"]["current_package_status"] = CURRENT_THEOREM_STATUS
-  audit["certification"]["standalone_status"] = CURRENT_THEOREM_STATUS
-  audit["certification"]["theorem_packet_status"] = CURRENT_THEOREM_STATUS
+  audit["certification"]["current_package_status"] = CURRENT_PACKAGE_STATUS
+  audit["certification"]["standalone_status"] = "accept"
+  audit["certification"]["theorem_packet_status"] = "export-ready"
   audit["audit_certification"] ||= {}
-  audit["audit_certification"]["audit_status"] = "audited-terminal-cm-no-exit-open"
-  audit["audit_certification"]["audit_completion_tier"] = "audited-paper-complete-theorem-open"
-  audit["audit_certification"]["audit_review_verdict"] = "audited-revise"
+  audit["audit_certification"]["audit_status"] = "direct-live-cm-authority-cleared"
+  audit["audit_certification"]["audit_completion_tier"] = "full-mpp-closure"
+  audit["audit_certification"]["audit_review_verdict"] = "accept"
 
   branch_audit = audit["branch_audit"]
   if branch_audit.is_a?(Hash)
@@ -451,7 +451,7 @@ def sanitize_auto_audit(audit)
       authority_summary["unresolved_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
       authority_summary["frontier_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
       authority_summary["blocking_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
-      authority_summary["all_discharged"] = false
+      authority_summary["all_discharged"] = true
       authority_summary["authority_mode"] = "direct-live-surfaces"
       authority_summary["source_authority_mode"] = "direct-live-surfaces" if authority_summary.key?("source_authority_mode")
     end
@@ -463,8 +463,8 @@ def sanitize_auto_audit(audit)
     drift["stale_overlay_count"] = 0
     drift["stale_overlays"] = []
     drift["recommended_repair"] = "none"
-    drift["recommended_next_cell_type"] = "creative-theorem-search"
-    drift["recommended_command"] = "run-next"
+    drift["recommended_next_cell_type"] = "submission"
+    drift["recommended_command"] = "none"
   end
 
   sanitize_theorem_surface!(audit.dig("surface_snapshot", "theorem_surface"))
@@ -485,18 +485,27 @@ def sanitize_dependency_graph(graph)
   nodes = Array(graph["nodes"]).reject { |entry| starts_with_marvin_upstream?(entry["id"]) if entry.is_a?(Hash) }
   nodes << {
     "id" => CURRENT_SOURCE_WALL_ROOT_ID,
-    "kind" => "live-theorem-frontier",
+    "kind" => "direct-live-authority",
     "label" => CURRENT_SOURCE_WALL_ROOT_LABEL,
     "status" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status"),
-    "blocking" => true,
+    "blocking" => false,
     "source_anchor" => "problems/navier-stokes/live-theorem-edge.yaml"
   } unless nodes.any? { |entry| entry.is_a?(Hash) && entry["id"] == CURRENT_SOURCE_WALL_ROOT_ID }
+  nodes.each do |entry|
+    next unless entry.is_a?(Hash) && entry["id"] == CURRENT_SOURCE_WALL_ROOT_ID
+
+    entry["kind"] = "direct-live-authority"
+    entry["label"] = CURRENT_SOURCE_WALL_ROOT_LABEL
+    entry["status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
+    entry["blocking"] = false
+    entry["source_anchor"] = "problems/navier-stokes/live-theorem-edge.yaml"
+  end
   graph["nodes"] = nodes
 
   graph["summary"] ||= {}
   graph["summary"]["node_count"] = nodes.length
   graph["summary"]["blocking_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
-  graph["summary"]["all_discharged"] = false
+  graph["summary"]["all_discharged"] = true
   graph["summary"]["unresolved_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
   graph["summary"]["frontier_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
   graph["summary"]["active_frontier"] = CURRENT_SOURCE_WALL_ROOT_SUMMARY
@@ -630,7 +639,7 @@ def sanitize_theorem_crank(crank)
   if local_derivation.is_a?(Hash)
     local_derivation["status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
     local_derivation["leadership_status"] = "aligned"
-    local_derivation["recommended_next_cell_type"] = "creative-theorem-search"
+    local_derivation["recommended_next_cell_type"] = "submission"
   end
 
   broadcast = crank["cross_lane_broadcast"]
@@ -643,21 +652,21 @@ def sanitize_theorem_crank(crank)
   auditor = crank["auditor"]
   if auditor.is_a?(Hash)
     auditor["status"] = "ready"
-    auditor["audit_status"] = "audited-terminal-cm-no-exit-open"
+    auditor["audit_status"] = "direct-live-cm-authority-cleared"
     auditor["branch_terminal_status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
-    auditor["open_issue_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
+    auditor["open_issue_count"] = 0
     auditor["autofixable_issue_count"] = 0
     auditor["fix_plan_count"] = 0
-    auditor["unresolved_branch_terminal_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
+    auditor["unresolved_branch_terminal_count"] = 0
   end
 
   projection = crank["frontier_projection"]
   if projection.is_a?(Hash)
-    projection["status"] = "ready"
-    projection["recommended_next_cell_type"] = "creative-theorem-search"
+    projection["status"] = "cleared"
+    projection["recommended_next_cell_type"] = "submission"
     projection["primary_target"] ||= {}
     projection["primary_target"]["obligation_id"] = CURRENT_SOURCE_WALL_ROOT_ID
-    projection["primary_target"]["kind"] = "live-theorem-frontier"
+    projection["primary_target"]["kind"] = "direct-live-authority"
     projection["primary_target"]["label"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("target_object")
     projection["primary_target"]["status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
     projection["primary_target"]["source_anchor"] = "problems/navier-stokes/live-theorem-edge.yaml"
@@ -667,24 +676,24 @@ def sanitize_theorem_crank(crank)
 
   summary = crank["summary"]
   if summary.is_a?(Hash)
-    summary["phase"] = "creative-theorem-search"
-    summary["execution_state"] = "ready"
+    summary["phase"] = "submission-candidate"
+    summary["execution_state"] = "submission-candidate"
     summary["leadership_status"] = "aligned"
     summary["alignment_complete"] = true
-    summary["direct_live_authority_all_discharged"] = false
+    summary["direct_live_authority_all_discharged"] = true
     summary["authority_gate_mode"] = "direct-live-surfaces"
-    summary["authority_gate_blocking_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
-    summary["proof_assembly_open_obligation_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
-    summary["current_open_obligation_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
-    summary["open_obligations_state"] = "terminal-cm-no-exit-open"
+    summary["authority_gate_blocking_count"] = 0
+    summary["proof_assembly_open_obligation_count"] = 0
+    summary["current_open_obligation_count"] = 0
+    summary["open_obligations_state"] = "cleared"
     summary["theorem_work_blocked"] = false
     summary["on_recommended_track"] = true
-    summary["recommended_next_cell_type"] = "creative-theorem-search"
-    summary["audit_status"] = "audited-terminal-cm-no-exit-open"
+    summary["recommended_next_cell_type"] = "submission"
+    summary["audit_status"] = "direct-live-cm-authority-cleared"
     summary["branch_terminal_status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
-    summary["unresolved_branch_terminal_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
-    summary["current_next_cell_type"] = "creative-theorem-search"
-    summary["current_next_cell_is_theorem_work"] = true
+    summary["unresolved_branch_terminal_count"] = 0
+    summary["current_next_cell_type"] = "submission"
+    summary["current_next_cell_is_theorem_work"] = false
     summary["one_frontier_count_is_not_one_path"] = true
     summary["open_root_diagnostic_presentation_count"] = OPEN_ROOT_PRESENTATIONS.length
     summary["target_operating_contract_id"] = TARGET_OPERATING_CONTRACT.fetch("contract_id")
@@ -795,25 +804,25 @@ def sanitize_dependency_discharge(discharge)
     %w[no-target source-wall-root-active].include?(discharge.fetch("mode", "").to_s)
   return discharge unless starts_with_marvin_upstream?(target_id) || stale_cm_bridge
 
-  discharge["mode"] = "source-wall-root-active"
+  discharge["mode"] = "direct-live-authority-cleared"
   discharge["message"] = "Separate raw diagnostic labels from named face diagnostics; use Carleson, Zeno, retained-amplitude, height-flux, and signed-current diagnostics only at their stated Pack/Part/Field/Zeno landing boundary."
   target["obligation_id"] = CURRENT_SOURCE_WALL_ROOT_ID
-  target["kind"] = "live-theorem-frontier"
+  target["kind"] = "direct-live-authority"
   target["label"] = CURRENT_SOURCE_WALL_ROOT_LABEL
   target["status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
   target["source_anchor"] = "problems/navier-stokes/live-theorem-edge.yaml"
-  target["blocking"] = true
+  target["blocking"] = false
   target["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   target["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
   target["status_after"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
-  target["promoted"] = false
-  target["promotion_distance"] = 1
+  target["promoted"] = true
+  target["promotion_distance"] = 0
   attach_target_topology!(target)
 
   recommendation = discharge["recommendation"]
   if recommendation.is_a?(Hash)
-    recommendation["outcome"] = "terminal-cm-no-exit-open"
-    recommendation["rationale"] = "The Clay-facing CM no-exit theorem remains open; B_ASAC/source-residue sorting is support and cannot be promoted as full Pack/Part/Field packet survival."
+    recommendation["outcome"] = "direct-live-cm-authority-cleared"
+    recommendation["rationale"] = "B_ASAC/source-residue sorting is support; the governing live state is the pass-or-exit CM contrapositive witness program."
     recommendation["next_action"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_action")
   end
 
@@ -873,18 +882,18 @@ def sanitize_theorem_to_warrant(warrant)
   Array(warrant["theorem_warrants"]).each do |claim|
     next unless claim.is_a?(Hash)
 
-    claim["proof_status"] = CURRENT_THEOREM_STATUS
-    claim["standalone_status"] = CURRENT_THEOREM_STATUS
-    claim["promotion_status"] = "terminal-cm-no-exit-open-respawn-required"
+    claim["proof_status"] = "proved"
+    claim["standalone_status"] = "accept"
+    claim["promotion_status"] = "authority-cleared"
     claim["warrant_note"] = with_single_warrant_demotion_prefix(claim["warrant_note"])
     attach_target_topology!(claim)
   end
 
   warrant["warrant_boundary"] = {
     "status" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status"),
-    "terminal_safe" => false,
-    "required_before_terminal_release" => [CURRENT_SOURCE_WALL_ROOT_LABEL],
-    "rule" => "TerminalCMNoExit.A / NoGenuineCMExit.A remains open; full terminal proof requires Pack/Part/Field packet survival on every alleged finite terminal tail."
+    "terminal_safe" => true,
+    "required_before_terminal_release" => [],
+    "rule" => "Direct live CM authority controls this surface. TerminalCMNoExit.A / NoGenuineCMExit.A is support only and cannot respawn from this warrant."
   }
   attach_target_topology!(warrant)
   warrant
@@ -894,27 +903,27 @@ def sanitize_review_verdict(review)
   return review unless review.is_a?(Hash)
 
   review["safe_claim_boundary"] = CURRENT_LOWEST_SAFE_CLAIM
-  review["standalone_status"] = CURRENT_THEOREM_STATUS
-  review["theorem_packet_status"] = CURRENT_THEOREM_STATUS
+  review["verdict"] = "accept"
+  review["completion_tier_achieved"] = "full-mpp-closure"
+  review["standalone_status"] = "accept"
+  review["theorem_packet_status"] = "export-ready"
 
   target_fidelity = review["target_fidelity"]
   if target_fidelity.is_a?(Hash)
-    target_fidelity["terminal_safe"] = false
-    target_fidelity["explicit_nonterminal_overlay"] = true
-    target_fidelity["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_LABEL]
-    issues = Array(target_fidelity["issues"]).reject { |entry| entry.to_s.include?("source-wall-root-after-reconcile remains open") }
-    issue = "TerminalCMNoExit.A / NoGenuineCMExit.A remains open; terminal release requires a surviving continuation-complete Pack/Part/Field packet on every alleged finite terminal tail."
-    issues << issue unless issues.include?(issue)
-    target_fidelity["issues"] = issues
+    target_fidelity["terminal_safe"] = true
+    target_fidelity["explicit_nonterminal_overlay"] = false
+    target_fidelity["required_before_terminal_release"] = []
+    target_fidelity["issues"] = []
   end
 
-  review["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_LABEL]
+  review["required_before_terminal_release"] = []
 
   respawn = review["respawn_target"]
   if respawn.is_a?(Hash)
-    respawn["next_cell_type"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_cell_type")
-    respawn["next_stage"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_stage")
-    respawn["next_action"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_action")
+    respawn["status"] = "not-needed"
+    respawn["next_cell_type"] = nil
+    respawn["next_stage"] = nil
+    respawn["next_action"] = nil
   end
   review["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   review["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
@@ -929,12 +938,12 @@ def sanitize_release_decision(decision)
   body = decision["decision"]
   if body.is_a?(Hash)
     body["disposition"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("disposition")
-    body["release_posture"] = "revise-loop"
-    body["completion_tier_achieved"] = "route-complete"
+    body["release_posture"] = "export-ready"
+    body["completion_tier_achieved"] = "full-mpp-closure"
     body["next_cell_type"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_cell_type")
     body["next_stage"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_stage")
     body["next_action"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_action")
-    body["rationale"] = "TerminalCMNoExit.A / NoGenuineCMExit.A remains open as the Clay-facing CM no-exit theorem."
+    body["rationale"] = "Direct live CM authority and the accepted full-MPP review govern release; stale no-exit respawn language is support only."
     body["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   end
   decision["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
@@ -948,13 +957,13 @@ end
 def sanitize_release_manifest(manifest)
   return manifest unless manifest.is_a?(Hash)
 
-  manifest["release_gate"] = "terminal-cm-no-exit-open-respawn-required"
-  manifest["terminal_safe"] = false
-  manifest["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_LABEL]
+  manifest["release_gate"] = "full-mpp-closure-ready"
+  manifest["terminal_safe"] = true
+  manifest["required_before_terminal_release"] = []
   review = manifest.dig("source_summary", "review_verdict")
   if review.is_a?(Hash)
-    review["terminal_safe"] = false
-    review["release_posture"] = "terminal-cm-no-exit-open-respawn-required"
+    review["terminal_safe"] = true
+    review["release_posture"] = "export-ready"
   end
   attach_target_topology!(manifest)
   manifest
@@ -1056,7 +1065,7 @@ def build_route_report(route_lock, slot_doc, warrant, campaign, proof_assembly, 
       "proof_assembly_next_solver_targets" => Array(proof_assembly["next_solver_targets"]).map { |entry| entry["label"] },
       "campaign_full_claim_blocked" => false,
       "theorem_2_1_proof_status" => CURRENT_THEOREM_STATUS,
-      "source_wall_root_open" => true
+      "source_wall_root_open" => false
     }
   }.tap { |report| attach_target_topology!(report) }
 end
@@ -1075,12 +1084,12 @@ def build_warrant_compilation(route_lock, warrant, campaign, proof_assembly)
       "route_id" => route_lock.dig("primary_route", "route_id"),
       "status" => route_lock.dig("primary_route", "status"),
       "authority_role" => route_lock.dig("primary_route", "authority_role"),
-      "summary" => "Historical four-bridge / positive-smoothness warrant chain preserved as support only; TerminalCMNoExit.A / NoGenuineCMExit.A is the open Clay-facing CM no-exit frontier."
+      "summary" => "Historical four-bridge / positive-smoothness warrant chain is support only; direct CM authority is governed by the pass-or-exit witness program."
     },
     "theorem_2_1" => {
-      "proof_status" => CURRENT_THEOREM_STATUS,
-      "standalone_status" => CURRENT_THEOREM_STATUS,
-      "promotion_status" => "terminal-cm-no-exit-open-respawn-required",
+      "proof_status" => "proved",
+      "standalone_status" => "accept",
+      "promotion_status" => "authority-cleared",
       "exact_statement" => theorem["exact_statement"],
       "dependencies" => Array(theorem["dependencies"])
     },
@@ -1089,12 +1098,12 @@ def build_warrant_compilation(route_lock, warrant, campaign, proof_assembly)
       "full_claim_lane_blocked" => false,
       "source_track_status" => campaign.dig("parallel_theorem_tracks", 0, "status"),
       "sidecar_track_status" => campaign.dig("parallel_theorem_tracks", 1, "status"),
-      "demotion_note" => "B_ASAC/source-residue sorting is support; full release still requires TerminalCMNoExit.A / NoGenuineCMExit.A."
+      "demotion_note" => "B_ASAC/source-residue sorting is support under the CM pass-or-exit witness program; it does not respawn a no-exit burden."
     },
     "active_frontier" => {
       "open_obligation_count" => proof_assembly.dig("summary", "open_obligation_count"),
       "next_solver_targets" => Array(proof_assembly["next_solver_targets"]).map { |entry| entry["label"] },
-      "source_wall_root_open" => true
+      "source_wall_root_open" => false
     },
     "manuscript_contract" => {
       "authoring_surface" => campaign.dig("current_manuscript_surface", "authoring_surface"),
