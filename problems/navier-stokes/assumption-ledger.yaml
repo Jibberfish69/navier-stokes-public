@@ -108,7 +108,7 @@ summary:
     from the torus-first global-atlas CM proof to whole-space data.
 release_blockers: *1
 required_next_actions: *1
-generated_at: '2026-05-26T21:29:33Z'
+generated_at: '2026-05-26T21:37:39Z'
 pass: false
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
