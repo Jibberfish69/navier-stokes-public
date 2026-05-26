@@ -1,5 +1,5 @@
 ---
-version: 4
+version: 5
 identity:
   problem_id: navier-stokes
   artifact_id: assumption-ledger-navier-stokes
@@ -7,10 +7,11 @@ identity:
   purpose: assumption and release-gate ledger after H1-H6 and Theorem 2.1 warrant
     alignment
 status:
-  ledger_status: blocked-direct-live-frontier-open
-  direct_live_authority_all_discharged: false
+  ledger_status: blocked-cm-contrapositive-referee-audit
+  direct_live_authority_all_discharged: true
+  cm_contrapositive_referee_gate_clear: false
   release_eligible: false
-  release_gate: direct-live-frontier-open
+  release_gate: cm-contrapositive-referee-blocked
 source_evidence:
   theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_warrant: problems/navier-stokes/theorem-to-warrant.yaml
@@ -86,18 +87,37 @@ assumptions:
 summary:
   total_direct_live_assumptions: 10
   discharged_direct_live_assumptions: 10
-  blocking_or_unresolved_authority_count: 2
+  blocking_or_unresolved_authority_count: 6
   hfg_side_primitives_open:
   - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
-  release_blocking_count: 2
+  release_blocking_count: 6
   all_discharged: false
   total_authority_assumptions: 0
   discharged_authority_assumptions: 0
-release_blockers: &1
-- ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
-- SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
+  referee_blockers: &1
+  - Terminal packet capture is asserted at the paper surface by passing to a terminal
+    subsequence and then treating Pack/Part/Field as exhaustive; this audit did not
+    find a referee-grade derivation of the compact terminal object and exhaustion
+    from Navier-Stokes estimates.
+  - The branch-family exhaustion and non-Euler census state the right CM sorting rule,
+    but the current paper-facing surfaces do not provide the record-by-record derivation
+    needed to make every included branch family proof-bearing rather than diagnostic/support.
+  - The completion criterion is conditional on the installed CM witness chain; the
+    generated readiness stack promotes that conditional chain to full-MPP/submission
+    posture even though this audit leaves the terminal capture and branch-exhaustion
+    hinges unresolved.
+  - Derive the same-fluid finite terminal CM packet object and prove that a Clay finite
+    breakdown witness has no primitive failure service outside Pack_Q, Part_{N,Q},
+    and Field_{N,r,Q}.
+  - For every proof-bearing branch family promoted into the paper, give a checkable
+    certificate of selected terminal object, CM-test admission, first Pack/Part/Field
+    face failure, and Exit(Q):=not Member(Q) readout.
+  - Regenerate theorem-packet, review, submission, release, hardener, MCP, and bundle
+    surfaces so failed referee audit status outranks stale full-MPP/submission-ready
+    labels.
+release_blockers: *1
 required_next_actions: *1
-generated_at: '2026-05-26T20:32:41Z'
+generated_at: '2026-05-26T21:02:03Z'
 pass: false
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
