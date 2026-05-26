@@ -6,12 +6,13 @@ Proof mode: Navier-Stokes CM contrapositive class exit
 
 ## Claim
 
-The CM pass-or-exit branch law is not a request to produce a smooth
-class-member solution. The pass branch is the already lawful smooth
-`Member(Q)` side, supplied by whichever valid mechanism witnesses smooth
-continuation. The CM work is on the fail branch: admit the obstruction to the
-CM terminal packet test and derive a concrete Pack/Part/Field face failure
-supporting
+The CM pass-or-exit branch law is not a request to replace the fail-branch work
+with a broad positive existence theorem. It still has a local non-vacuity
+requirement: for each obstruction being split, the pass side must be shown by
+the simplest lawful smooth / `Member(Q)` witness for that same obstruction.
+This is not the full forward bootstrap-estimate program. The CM work then acts
+on the fail branch: admit the obstruction to the CM terminal packet test and
+derive a concrete Pack/Part/Field face failure supporting
 
 ```text
 Exit(Q) := not Member(Q).
@@ -26,8 +27,10 @@ Exit(Q) := not Member(Q).
   `Pack_Q + not Part_{N,Q}`, or `Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}`.
 - `Exit(Q):=not Member(Q)`: downstream class-exit conclusion supported by the
   face failure.
-- Pass branch: legal smooth / `Member(Q)` side, not a new positive theorem
-  demanding construction of a class-member solution.
+- Pass branch: legal smooth / `Member(Q)` side for the same obstruction,
+  witnessed as simply as possible; it must be nonempty, because otherwise "all
+  bad cases exit CM" is vacuous and signals an invalid obstruction split or a
+  proof-model error.
 
 ## Consequence For Tonight's Work
 
@@ -43,12 +46,20 @@ but it is not the CM branch-law burden for the nightly theorem extension.
 
 Tonight's native theorem pressure must therefore do one of these jobs:
 
-1. prove CM terminal packet admission for an obstruction already selected by
+1. verify local pass-side non-vacuity for the selected obstruction by the
+   simplest lawful smooth / `Member(Q)` witness available, not by solving the
+   full positive forward bootstrap program;
+2. prove CM terminal packet admission for an obstruction already selected by
    the direct-live surfaces;
-2. derive the first failed witness face in `Pack_Q`, `Part_{N,Q}`, or
+3. derive the first failed witness face in `Pack_Q`, `Part_{N,Q}`, or
    `Field_{N,r,Q}`;
-3. quarantine the object as supplier/readout material when no bridge lands it
+4. quarantine the object as supplier/readout material when no bridge lands it
    inside the witness tree.
+
+If the pass-side non-vacuity check fails in the absolute sense, then the
+branch split has not proved smoothness. The result is a diagnostic problem:
+either the obstruction was not a valid obstruction for the Clay proof program,
+or the CM encoding / face derivation has made a mathematical error.
 
 ## Applied To The Source-Reserve Branch
 
@@ -69,7 +80,10 @@ Pack/Part/Field grammar.
 
 Reject any next theorem target that says or implies:
 
-- produce at least one smooth class-member solution;
+- produce a broad class-member solution as a substitute for fail-branch CM
+  work;
+- ignore the local requirement that each obstruction split has a genuine
+  smooth / `Member(Q)` pass side;
 - prove smooth data stays in CM as the branch-law burden;
 - treat `CM-lawful` as `Member(Q)`;
 - label a bad or nonsmooth-capable branch as `Exit(Q)` before deriving the
@@ -81,5 +95,6 @@ The live invariant for Navier-Stokes theorem work remains:
 
 ```text
 finite terminal breakdown -> CM terminal packet test
+same-obstruction pass side nonempty
 first failed Pack/Part/Field face -> Exit(Q):=not Member(Q).
 ```
