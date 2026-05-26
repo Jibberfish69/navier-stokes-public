@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-05-26T20:43:52Z'
+  evaluated_at: '2026-05-26T21:00:41Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: blocked
@@ -83,8 +83,12 @@ blockers:
 - Regenerate theorem-packet, review, submission, release, hardener, MCP, and bundle
   surfaces so failed referee audit status outranks stale full-MPP/submission-ready
   labels.
+- Completion tier is still `theorem-open`, below a paper-complete or full-closure
+  submission surface.
+- Honesty review verdict is still `block`.
 - 'Target fidelity failure: direct theorem authority still has open theorem-packet
   blockers, so terminal release is not safe.'
+- Stand-alone status remains `referee-blocked`.
 - 'CM contrapositive referee audit blocks release: Terminal packet capture is asserted
   at the paper surface by passing to a terminal subsequence and then treating Pack/Part/Field
   as exhaustive; this audit did not find a referee-grade derivation of the compact
@@ -109,8 +113,7 @@ blockers:
   status outranks stale full-MPP/submission-ready labels.'
 summary:
   queue_effect: blocked
-  registry_note: problem is parked at an accepted nonterminal checkpoint until an
-    explicit theorem-upgrade or material theorem delta appears
+  registry_note: problem is blocked at release gate
 release_or_respawn_consequence:
   disposition: submission-candidate
   next_cell_type: submission
