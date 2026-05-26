@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   reconciliation_id: authority-reconciliation-navier-stokes
-  generated_at: '2026-05-26T01:56:15Z'
+  generated_at: '2026-05-26T02:04:45Z'
   generator: system/runner/lib/authority_reconciliation_builder.rb
 active: false
 inputs:
@@ -19,21 +19,17 @@ summary:
   theorem_authority_blocking_count: 0
   bridge_discharge_blocking_count: 0
   theorem_packet_export_ready: true
-  target_fidelity_terminal_safe: false
-  target_fidelity_class: authority-conflict
+  target_fidelity_terminal_safe: true
+  target_fidelity_class: direct-target
   stale_blocker_count: 0
-  total_submission_blockers: 6
+  total_submission_blockers: 0
   stale_posture_lag: false
 target_fidelity:
-  class: authority-conflict
-  terminal_safe: false
+  class: direct-target
+  terminal_safe: true
   explicit_nonterminal_overlay: false
-  issues:
-  - 'Target fidelity failure: the submission bundle was exported from `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`
-    instead of the authoritative export surface `problems/navier-stokes/external-paper/main.tex`.'
-  required_before_terminal_release:
-  - Regenerate the submission bundle from the authoritative export surface before
-    any terminal release or submission handling.
+  issues: []
+  required_before_terminal_release: []
   signals:
     conditional_main_theorem: false
     overlay_block_risk: false
@@ -43,10 +39,11 @@ target_fidelity:
     regularization_markers: []
     transfer_markers:
     - bridge
+    - comparison
     - transfer
-    authoritative_export_surface: problems/navier-stokes/external-paper/main.tex
+    authoritative_export_surface: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
     bundle_manifest_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-    bundle_source_mismatch: true
+    bundle_source_mismatch: false
     current_theorem_surface_id: theorem-surface-navier-stokes-12a13e098666
     bundle_theorem_surface_id: ''
     current_route_signature: 12a13e098666693d53117528c6e34b0f38eeb7c4
@@ -56,6 +53,6 @@ target_fidelity:
     open_critical_referee_objections: []
 superseded_blockers: []
 effective_review_alignment: {}
-rationale: No authority override is active because the current package still fails
-  target fidelity for terminal MPP release, so proof-side readiness cannot outrank
-  claim-scope or model-scope truth.
+rationale: No authority override is active because either proof-side readiness is
+  not yet clear, some non-stale blockers remain, or there is no stale posture lag
+  to reconcile.
