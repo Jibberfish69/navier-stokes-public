@@ -40,8 +40,9 @@ positive-forward burden
 ```
 
 The rendered PDF carries mathematical arguments only.
+Every relevant surface that enters the proof program must be expanded into a mathematical branch obligation, support obligation, or family obligation, with its claim and proof role stated inside the manuscript.
 Internal paths, filenames, generated-surface labels, coverage ledgers, build records, status surfaces, audit rows, and provenance inventories stay outside the PDF.
-The PDF may mention a branch family only by its mathematical mechanism and proof role.
+The PDF may mention a branch family only by its mathematical mechanism, service face, and proof role.
 
 Required verification:
 
@@ -70,3 +71,4 @@ Authoring gates:
 5. Every live blocker must be stated as a theorem obligation with its service face and closing hinge.
 6. Dependency order is mandatory: definitions and operational need precede branch-family compression.
 7. There is no current concrete CM blocker after terminal witness consumption. The Pack-side/source support chain is retained as mathematical support and may enter the proof spine only through the terminal CM entry, Pack/Part/Field finite-failure exhaustion, or contrapositive embedding gates.
+8. The surface appendix must be long when the source field is long: compression is allowed only by proof role, never by removing relevant mathematical obligations from the manuscript.
