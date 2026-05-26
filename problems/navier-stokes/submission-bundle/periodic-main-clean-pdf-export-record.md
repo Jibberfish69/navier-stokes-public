@@ -2,7 +2,9 @@
 
 ## Status
 
-Typeset PDF export generated and render-verified in the ChatGPT sandbox.
+Legacy periodic PDF export record. It is retained as provenance only. Current
+Clay-facing authority is the CM terminal witness consumption bundle and its
+current `navier-stokes-submission.pdf` export.
 
 ## Artifact
 
@@ -15,7 +17,8 @@ pages=2
 
 ## Source scope
 
-The PDF covers the release-approved periodic `T^3` theorem surface and includes the theorem statement, proof spine, dependency spine, pressure readout appendix, source split appendix, endpoint matrix appendix, scope boundary, and release data.
+This PDF covered an older periodic `T^3` theorem surface and no longer controls
+the current submission claim.
 
 ## Verification
 
