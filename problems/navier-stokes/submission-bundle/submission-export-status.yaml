@@ -2,8 +2,8 @@
 version: 2
 problem_id: navier-stokes
 generated_at: '2026-05-25T18:08:51Z'
-status: export-ready
-render_quality: passed
+status: exported
+render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
