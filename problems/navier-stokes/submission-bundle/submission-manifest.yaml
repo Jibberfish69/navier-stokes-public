@@ -2,14 +2,14 @@
 version: 2
 problem_id: navier-stokes
 display_name: Navier-Stokes Global Regularity
-generated_at: '2026-05-26T19:42:27Z'
+generated_at: '2026-05-26T20:09:41Z'
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 manuscript_source_kind: tex
 manuscript_source_reason: ground-up CM contrapositive paper rebuild from direct-live
   authority
 source_metrics:
-  source_word_count: 8064
-  bundle_word_count: 383283
+  source_word_count: 8045
+  bundle_word_count: 383264
   page_count: 603
 outputs:
   tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
