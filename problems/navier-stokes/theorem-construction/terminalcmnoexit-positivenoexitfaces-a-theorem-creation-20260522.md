@@ -1,5 +1,9 @@
 # TerminalCMNoExit.PositiveNoExitFaces.A theorem creation
 
+## Authority Cap - Generated Surface
+
+This generated theorem-creation file is provenance, not current CM proof authority. Its `open`, `new_subprimitive`, `conditional`, and `remaining work` fields are capped by the May 25 CM completion audits. Treat it as support/history unless it proves a legal in-class nonsmooth third branch or failure of Clay terminal CM entry/exhaustion/embedding.
+
 ## Target
 
 - target obligation: TerminalCMNoExit.PositiveNoExitFaces.A
