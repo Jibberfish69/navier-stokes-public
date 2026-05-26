@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-26T01:28:54Z'
+  generated_at: '2026-05-26T01:34:28Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -92,7 +92,7 @@ shared_alignment:
       "problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md",
       "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md",
       "problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md"]'
-  promoted_obligation_count: 0
+  promoted_obligation_count: 8
   missing_promoted_obligation_count: 0
   missing_promoted_obligations: []
   route_authority_candidate_count: 0
@@ -101,8 +101,11 @@ shared_alignment:
   promoted_proof_packet_count: 0
   route_authority_candidates: []
   compiled_import_summary:
-    bucket_counts: {}
-    route_slot_labels: []
+    bucket_counts:
+      local-discharge-support: 125
+    route_slot_labels:
+    - Theorem 2.1 (Classical Closure)
+    - selector-adapted defect-to-strain theorem
   alignment_reroute: solver-loop
 local_derivation:
   status: locally-exhausted
@@ -187,34 +190,28 @@ auditor:
   death_certificate_count: 0
   unresolved_branch_terminal_count: 0
 frontier_projection:
-  status: ready
+  status: cleared
   primary_target:
-    obligation_id: live-authority-1
-    kind: live-theorem-frontier
-    label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
-    status: frontier-open
-    recommended_stage: theorem-creation
-    source_anchor: problems/navier-stokes/source-frontier.yaml
   one_step_beyond: []
   two_steps_beyond: []
   route_pressure: []
   recommended_next_cell_type:
 summary:
-  phase: frontier-projection
+  phase: steady-state
   execution_state: submission-candidate
   leadership_status: leading
   alignment_complete: true
-  theorem_authority_gate_all_discharged: false
+  theorem_authority_gate_all_discharged: true
   authority_gate_mode: direct-live-surfaces
-  authority_gate_blocking_count: 1
+  authority_gate_blocking_count: 0
   proof_assembly_open_obligation_count: 0
   authoritative_source_gap_count: 0
   export_readiness_hold_state: none
   exact_local_packet_count: 0
   net_new_local_theorem_count: 8
   projected_frontier_count: 0
-  current_open_obligation_count: 1
-  open_obligations_state: not-currently-worked
+  current_open_obligation_count: 0
+  open_obligations_state: cleared
   theorem_work_blocked: false
   blocked_queue_interpretation: none
   on_recommended_track: true
