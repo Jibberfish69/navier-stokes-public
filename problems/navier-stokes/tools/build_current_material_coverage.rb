@@ -118,7 +118,6 @@ FAMILIES = [
       theorem-construction/mpp-uniform-two-sided-obstruction-lemma-20260526.md
       theorem-construction/mpp-continuation-complete-terminal-face-exhaustion-working-pass-20260526.md
       theorem-construction/mpp-terminal-packet-capture-working-pass-20260526.md
-      theorem-construction/mpp-pack-first-source-reserve-face-audit-20260526.md
     ]
   },
   {
