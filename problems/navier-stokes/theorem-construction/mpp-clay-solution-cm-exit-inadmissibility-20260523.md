@@ -1,5 +1,9 @@
 # MPP Clay Smooth Solution CM Exit Inadmissibility
 
+## Authority Cap - Historical Route Audit
+
+This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
+
 Date: 2026-05-23
 
 Status: installed external-admissibility bridge, with exact scope.
