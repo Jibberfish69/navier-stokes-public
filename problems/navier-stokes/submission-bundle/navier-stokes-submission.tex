@@ -42,33 +42,30 @@
 \maketitle
 
 \begin{abstract}
-The usual route to the Navier--Stokes Millennium problem is forward-positive.
-It tries to prove enough a priori control to continue the smooth solution forever.
-That route is the gold standard because it proves smoothness directly.
-It also exposes the hard terminal field: source concentration, zero-radius residues, retained amplitude, height flux, signed current, square reserve, endpoint readout, no-pulse failure, and comparison branches.
+The forward-positive proof of the Navier--Stokes Millennium problem remains the clearest ideal: find a priori bounds strong enough to continue the smooth solution forever.
+The class-membership route begins where that ideal exposes its hardest obstruction.
+It follows a concrete positive attempt until a terminal branch claims to survive the estimates, then asks the branch a different mathematical question: does this same branch still have the services required of a legal continuation of the original solution?
 
-The forward field then supports a class-membership contrapositive proof.
-The direct estimates first show what can go wrong.
-Only then is the same evolution organized as a class object.
-A legal continuation branch is then a member of the same smooth-data Navier--Stokes class.
-A breakdown-capable terminal branch is admitted as a same-solution witness and tested for the services a legal continuation must retain: a positive same-fluid carrier, the same pressure-viscosity participation tower, and positive-scale one-field coherence.
+The paper introduces that question through one case study, the enstrophy source wall.
+The case study gives the reader the needed toolkit in order: the classical continuation norm, the energy and enstrophy identities, the pass branch where the source is absorbed, the fail branch where terminal source reserve survives, and the class test that decides whether the fail branch remains inside the same continuation class.
+After that example, every branch family is handled by the same rule.
+A legal continuation branch retains a positive same-fluid carrier, the same pressure-viscosity participation tower, and positive-scale coherent field data.
 These services are \(\Pack_Q\), \(\Part_{N,Q}\), and \(\Field_{N,r,Q}\).
-Every terminal witness is exhausted in that order.
+A breakdown-capable terminal branch is tested in that order.
 The first lost service gives
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
-The pass branch remains a member branch and reads out to the usual \(H^s\), \(s>5/2\), continuation theorem.
-The fail branch exits the legal same-solution class.
-The Clay-level closing law says that the original smooth-data evolution has no genuine finite class exit.
-This is the silver-standard route: the pass-side control mechanism may vary, while every breakdown-capable obstruction must declare the class service it has lost.
+The pass side reads out to the usual \(H^s\), \(s>5/2\), continuation theorem.
+The fail side exits the legal same-solution class.
+The proof is therefore a class-law proof: smooth same-solution branches remain member branches, and every finite nonsmooth branch capable of serving as a Clay breakdown witness is consumed by Pack, Part, or Field exit.
 \end{abstract}
 
 \setcounter{tocdepth}{1}
 \tableofcontents
 \clearpage
 
-\section{The Problem And The Change Of Question}
+\section{The Clay Target And The Reader's Toolkit}
 
 The incompressible three-dimensional Navier--Stokes equations are
 \[
@@ -78,26 +75,43 @@ The incompressible three-dimensional Navier--Stokes equations are
 with smooth divergence-free initial data \(u_0\).
 The Clay problem asks whether the corresponding smooth solution exists for all time.
 
-The direct proof question is:
+The direct proof question is
 \[
   \text{which estimate forces the smooth solution to continue?}
 \]
-That question is natural, and it is the forward-positive gold standard.
-One proves a bound strong enough for classical continuation, usually through a continuation norm such as \(H^s\), \(s>5/2\).
+That is the forward-positive gold standard.
+It proves a bound strong enough for classical continuation.
+The bound used throughout this manuscript is the standard Sobolev continuation norm.
 
-The route here changes the question after the forward proof reaches a genuine obstruction.
-The obstruction is kept in view, and the next question is:
+\begin{theorem}[Classical continuation criterion]
+Let \(s>5/2\).
+Let \((u,p)\) be a smooth Navier--Stokes solution on \([0,T_*)\) with smooth divergence-free datum \(u_0\).
+If
+\[
+  \sup_{0\le t<T_*}\|u(t)\|_{H^s}<\infty,
+\]
+then the same solution extends smoothly beyond \(T_*\).
+\end{theorem}
+
+\begin{proof}
+The local well-posedness theorem in \(H^s\), \(s>5/2\), gives a smooth continuation time depending only on \(\nu\), \(s\), and an upper bound for \(\|u(t)\|_{H^s}\).
+The displayed bound supplies the same upper bound along every sequence of times approaching \(T_*\).
+Restarting the local theory from such times gives a uniform positive continuation interval.
+Those restarted solutions agree with the original solution on the overlap by uniqueness, so they extend the same velocity-pressure solution past \(T_*\).
+\end{proof}
+
+The first dependency is now fixed.
+A branch that reaches the \(H^s\) bound continues.
+A branch that claims finite breakdown must explain which part of that continuation packet has failed.
+The class-membership proof keeps the positive attempt in view and asks
 \[
   \begin{gathered}
-  \text{can a branch capable of nonsmooth terminal failure}\\
-  \text{remain a legal branch of the same class object?}
+  \text{can a branch capable of finite nonsmooth terminal failure}\\
+  \text{still be a legal branch of the same continuation class?}
   \end{gathered}
 \]
-The two questions have different burdens.
-The forward question tries to erase the bad object.
-The class-membership question lets the bad object appear and asks whether it can still be the same kind of object the Clay problem asks us to continue.
 
-The basic split is this.
+The basic branch split is this.
 Let \(O\) be a same-solution obstruction reached by a forward Navier--Stokes proof.
 The obstruction has a pass side and a fail side:
 \[
@@ -117,83 +131,116 @@ A direct estimate names a terminal mechanism.
 That mechanism still claims to be the original Navier--Stokes branch.
 The proof therefore needs a test that decides whether the claimed terminal branch is still a legal same-solution continuation.
 
-\section{The Forward Obstructions}
+\section{A Case Study In Class Membership}
 
-The forward-positive program exposes the hard objects one by one.
-It asks each obstruction to be controlled directly.
-As the list grows, the same question keeps returning: when a terminal mechanism survives the estimates, is it still the original smooth-data branch?
-The class object enters because the obstruction field has produced that legal-branch question.
+The enstrophy source wall is the cleanest entry point because it shows the whole proof pattern in one familiar calculation.
+Let
+\[
+  Q_1(t)=\|u(t)\|_{L^2}^2+\|\nabla u(t)\|_{L^2}^2.
+\]
+The \(L^2\) energy has a signed identity:
+\[
+  \frac12\frac{d}{dt}\|u(t)\|_{L^2}^2
+  +\nu\|\nabla u(t)\|_{L^2}^2=0.
+\]
+The first derivative level has the source wall:
+\[
+  \frac12\frac{d}{dt}\|\nabla u(t)\|_{L^2}^2
+  +\nu\|\Delta u(t)\|_{L^2}^2
+  =
+  \int_{\mathbb R^3}(u\cdot\nabla)u\cdot\Delta u\,dx
+  =:\mathcal S(t).
+\]
+The source \(\mathcal S(t)\) has no fixed sign.
+It is the place where a direct positive proof tries to absorb nonlinear production into viscosity.
 
-\subsection{Source Control}
+\begin{proposition}[Positive source absorption gives the pass branch]
+Assume that on a terminal interval the source satisfies
+\[
+  |\mathcal S(t)|
+  \le
+  \frac{\nu}{2}\|\Delta u(t)\|_{L^2}^2
+  +F(Q_1(t)),
+\]
+where \(F\) is locally integrable along the branch.
+Then \(Q_1\) remains bounded on that interval, and the branch remains on the pass side of the class test up to the regularity depth supplied by the continuation bootstrap.
+\end{proposition}
 
-Source control tries to prevent terminal concentration of the nonlinear source tree.
-Its strongest form is a scale-critical Carleson-type control on donor refill, source reserve, and active ancestry.
-The obstruction is that first-moment or local-energy control can leave a square or scale-critical reserve unpaid.
+\begin{proof}
+The displayed inequality gives
+\[
+  \frac12\frac{d}{dt}\|\nabla u(t)\|_{L^2}^2
+  +\frac{\nu}{2}\|\Delta u(t)\|_{L^2}^2
+  \le
+  F(Q_1(t)).
+\]
+Together with the \(L^2\) energy identity, this is a closed differential control for the low-order packet on the interval where \(F(Q_1(t))\) is integrable.
+The usual parabolic smoothing and higher-order energy bootstrap then promote the bounded packet to a continuation norm at any fixed \(H^s\), \(s>5/2\), once the higher-order source terms obey the same absorption pattern.
+At that point the classical continuation criterion applies.
+\end{proof}
 
-The branch shape is already visible here.
-Unpaid donor ancestry has to remain attached to the same transported fluid family to claim same-solution status.
-A retained source residue also has to keep the same pressure-viscosity participation before endpoint readout can matter.
-Source control therefore produces the first need for a legal-branch test.
+This proposition is the gold-standard behaviour in miniature.
+The source is absorbed, the continuation services survive, and the branch remains a member branch.
+The hard case is the complementary behaviour.
+Suppose the source absorption attempt leaves a positive terminal reserve on shrinking heat windows after ordinary losses and inherited parent mass have been removed.
+Such a reserve is dangerous only while it claims to be part of the original same-solution branch.
+That claim forces the class test.
 
-\subsection{Zero-Radius And Zeno Objects}
+\begin{definition}[Source-reserve failure branch]
+A source-reserve failure branch is a same-solution terminal branch for which a positive source quantity \(R_N(W_j)\) survives on terminal heat windows \(W_j\to T_*\) after legal boundary losses, inherited parent mass, and paid finite terms have been separated.
+\end{definition}
 
-Zeno language describes terminal atoms, zero heat-time residues, temporal non-atomicity, and rigid residue classes.
-A forward proof tries to rule out those objects positively.
-A zero-radius terminal object has already lost the positive carrier needed to behave like the same fluid branch.
-A retained positive-scale Zeno object has more structure, so the proof must ask which same-solution requirement it keeps and which one it loses.
-Zeno sharpens the carrier question and leaves the proof inside the same branch test.
+\begin{proposition}[The source-reserve failure branch enters Pack first]
+Every source-reserve failure branch is tested first for a positive same-fluid carrier.
+Its first possible class outcomes are
+\[
+  \neg\Pack_Q,\qquad
+  \Pack_Q\wedge\neg\Part_{N,Q},\qquad
+  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+\]
+\end{proposition}
 
-\subsection{Retained Amplitude And Low Strain}
+\begin{proof}
+The reserve can affect the Clay solution only as a branch of the same preterminal velocity-pressure evolution.
+That branch first needs a positive transported carrier for the packet \(Q\).
+Failure at this level gives \(\neg\Pack_Q\).
+When the carrier survives, the reserve must still participate in the differentiated Navier--Stokes pressure-viscosity tower on that carrier.
+Failure at this level gives \(\Pack_Q\wedge\neg\Part_{N,Q}\).
+When carrier and participation both survive, the remaining question is positive-scale coherent field readout.
+Failure there gives \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\).
+These are exactly the three services required by the class object.
+\end{proof}
 
-Retained-amplitude arguments try to turn surviving carrier and participation structure into enough amplitude control for endpoint coherence.
-The obstruction is that bounded deformation data can coexist with accumulated positive low-strain action.
-Height-flux and low-strain routes sharpen the same source-balance problem: near-band source charge and frame variation return to the signed source balance.
+The case study gives the reader the pattern used everywhere else.
+The positive calculation is attempted first.
+When it closes, the branch reads out through the continuation criterion.
+When it leaves a terminal branch, the proof keeps that branch and asks for its first lost continuation service.
+That is class membership in operation.
 
-This family shows why a single direct estimate becomes expensive.
-Retained amplitude can keep enough structure to avoid immediate carrier loss while still threatening terminal field coherence.
-The proof needs a way to say where the same branch stops being a legal continuation.
+\subsection{The Remaining Forward Families}
 
-\subsection{Signed Current}
+The other forward families differ in mechanism and use the same dependency order.
+Each family first supplies the positive proof it wants, then exposes the terminal branch left by the failed positive attempt, then sends that branch through Pack, Part, and Field.
 
-Signed-current arguments try to rectify terminal source-current motion into a no-free-sink or parabolic edge-resistance law.
-The obstruction is the variable sign of the strain-production term and the scale-critical flux-amplitude remainder.
-Those terms prevent a free coercion theorem.
+Source control and donor refill generalize the case study from \(\mathcal S(t)\) to scale-critical donor ancestry, square reserve, and active source packets.
+The fail branch is unpaid reserve or detached ancestry.
+It enters Pack first, then Part, then Field.
 
-Signed current measures how the source economy moves.
-It does not supply a new terminal object by itself.
-Its value is diagnostic: it shows whether the surviving branch keeps the same carrier, equation participation, and field coherence needed for continuation.
+Zero-radius and Zeno objects arise when refinement toward \(T_*\) leaves a terminal atom or no positive heat-time scale.
+The fail branch has already pressed on the carrier service.
+A retained positive-scale Zeno branch has supplied Pack support and moves to Part and Field.
 
-\subsection{Square Reserve}
+Retained amplitude, height flux, and low strain arise when a branch keeps enough carrier structure to avoid immediate Pack failure while still threatening endpoint coherence.
+Their fail branch usually appears as dwell loss, participation loss, retained positive-window blowup, or a zero-scale subcase.
 
-Square-reserve arguments ask for a square-source charge law strong enough to control terminal reserve.
-They matter because a first-moment source tail can vanish while a square reserve remains active.
-The forward branch seeks a direct evolution or charge theorem.
+Signed-current and no-free-sink arguments track how terminal source charge moves through the branch.
+They become proof material by landing the current information on Pack, Part, Field, or readout.
 
-The selected reserve failure has to be read on the same branch.
-Detached reserve ancestry points to a carrier problem.
-Retained reserve with carrier and participation becomes an endpoint-coherence problem.
-An absent square-charge identity is supplier work until it selects the terminal branch it claims to control.
+Endpoint, no-pulse, good-scale, local critical translators, and comparison branches sit at the readout and translation end.
+They carry mathematical force after the branch has been placed on one witness record and one continuation service has been identified.
 
-\subsection{Endpoint Readout And No-Pulse}
-
-Endpoint readout asks for a good scale, a read cover, a coherent field, and an \(H^s\) continuation bound.
-No-pulse and averaged routes try to prevent terminal pulses, averaged jumps, and terminal-tail escape.
-These are close to classical continuation, so they can sound like the whole proof.
-
-They belong at the readout end of the argument.
-Readout explains why a branch with the required carrier, equation, and field services continues.
-No-pulse can support that retained branch or help rule out terminal pulses.
-The primitive question remains whether the branch being read is still the same legal continuation.
-
-\subsection{Local Critical Translators And Comparison Branches}
-
-Local \(L^3\) and Duhamel translators are useful when a public-critical-looking terminal mass must be brought back to the same witness record.
-They decide whether a local packet is native source work, a same-branch continuation packet, or a terminal branch that has lost one of the continuation services.
-Their job is branch-local.
-
-Fixed-viscosity Euler-to-Navier--Stokes transfer and Euler mirror comparisons serve different theorem programs.
-They illuminate where viscosity enters and where inviscid comparison diverges.
-They enter this proof only through a theorem that returns the exact Navier--Stokes object to the same legal-branch test.
+This is the dependency-forward order for the rest of the paper.
+The reader sees the continuation criterion, the positive attempt, the terminal branch produced by failure, the class services, and then the Pack-first exhaustion.
 
 \section{The Working Class Object}
 
