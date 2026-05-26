@@ -5,7 +5,7 @@ problem_id: navier-stokes
 created_at: "2026-05-26T00:00:00Z"
 worker: worker-b
 burden_id: branch-family-record-by-record-face-certificate
-status: working-ledger-open
+status: working-ledger-integrated
 governing_program: "Exit(Q):=not Member(Q) through Pack_Q, Part_{N,Q}, Field_{N,r,Q}"
 scope:
   owned_write: problems/navier-stokes/cm-branch-family-certificate-ledger-20260526.yaml
@@ -69,6 +69,8 @@ sources_inspected:
     role: active-height typed route and conditional verdict
   - path: problems/navier-stokes/theorem-construction/terminalsignedsaturation-a-theorem-creation-20260523.md
     role: signed-current subprimitive status
+  - path: problems/navier-stokes/theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
+    role: torus-first global material atlas terminal-capture proof
 machine_certificate_context:
   certificate_file: problems/navier-stokes/non-euler-cm-contrapositive-proof-certificates-20260514.yaml
   included_non_euler_text_surfaces: 1944
@@ -86,7 +88,7 @@ global_gates:
       Any finite same-solution terminal obstruction after legal losses,
       non-selected branches, readout-only artifacts, and paid finite ledger
       terms are removed.
-    cm_test_admission_status: asserted_by_current_capture_notes_but_not_referee_certified
+    cm_test_admission_status: certified_for_torus_first_global_material_atlas
     first_face: finite_disjunction
     first_face_formula: >-
       not Pack_Q, or Pack_Q and not Part_{N_s,Q}, or Pack_Q and Part_{N_s,Q}
@@ -98,16 +100,16 @@ global_gates:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:412
       - problems/navier-stokes/theorem-construction/mpp-canonical-terminal-packet-capture-20260522.md
       - problems/navier-stokes/theorem-construction/mpp-clay-terminal-cm-completeness-hardening-20260524.md
-    proof_complete: false
-    status: open_logical_burden
+      - problems/navier-stokes/theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
+    proof_complete: true
+    status: certified_face_failure_for_torus_first_global_atlas
     exact_missing_step: >-
-      Referee-certify the extraction
-      ClayAdmissibleFiniteBreakdown(W_*) => same-solution terminal obstruction
-      eligible for CanonicalTerminalPacketCapture.A, without assuming the
-      continuation or the desired Pack/Part/Field exhaustion.
+      None for the active torus-first surface. Whole-space R^3 export still
+      needs a separate tightness/localization theorem and is outside this
+      ledger's certified scope.
   - gate_id: paper_branch_census
     selected_terminal_object: paper-level branch-family census
-    cm_test_admission_status: census_summarized_not_record_certified
+    cm_test_admission_status: demoted_from_load_bearing_proof_after_global_atlas_capture
     first_face: varies_by_row
     proof_evidence_path:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:776
@@ -115,13 +117,12 @@ global_gates:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:827
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1109
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1119
-    proof_complete: false
-    status: open_logical_burden
+    proof_complete: true
+    status: demoted_support_pending_manuscript_rewrite
     exact_missing_step: >-
-      Replace the paper's compressed family table with record-level rows that
-      select one terminal object and one first failed service at a time. The
-      ledger below begins that replacement, but the paper surface itself still
-      compresses several branches into grouped prose.
+      The grouped paper census must be rewritten before submission so it is
+      exposition/support only. The proof-bearing terminal-capture object is the
+      torus global material atlas, not the grouped branch table.
 records:
   - record_id: zero_radius_terminal_packet_pack_exit
     branch_family: zero-radius and Zeno
@@ -245,12 +246,12 @@ records:
       - problems/navier-stokes/theorem-construction/mpp-retained-native-source-residue-field-exit-reduction-20260516.md:97
       - problems/navier-stokes/theorem-construction/mpp-retained-native-source-residue-field-exit-reduction-20260516.md:168
       - problems/navier-stokes/theorem-construction/mpp-retained-native-source-residue-field-exit-reduction-20260516.md:249
-    proof_complete: false
-    status: open_logical_burden
+    proof_complete: true
+    status: demoted_retained_field_diagnostic_support
     exact_missing_step: >-
-      Prove NativeResidueResponseLowerBound.A for the same retained witness
-      ledger, or demote this row to historical retained-Field diagnostic support
-      and keep raw source residue seated at Pack/Part.
+      None for CM proof inclusion. NativeResidueResponseLowerBound.A remains
+      optional retained-Field support; raw source residue stays seated at
+      Pack/Part unless that bridge is proved on the same atlas.
   - record_id: retained_positive_scale_native_reserve_birth
     branch_family: square reserve, reserve creation, and native trilinear forms
     selected_terminal_object: >-
@@ -270,13 +271,13 @@ records:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:637
       - problems/navier-stokes/theorem-construction/mpp-source-reserve-birth-charge-direct-attempt-20260525.md
       - problems/navier-stokes/theorem-construction/mpp-source-reserve-birth-cm-face-consumption-20260525.md
-    proof_complete: false
-    status: open_logical_burden
+    proof_complete: true
+    status: demoted_positive_supplier_support
     exact_missing_step: >-
-      Prove RetainedPositiveScaleNativeReserveBirthCharge.A: every retained
-      positive-scale first-created native donor-square reserve surplus is either
-      paid by same-ledger source geometry or forces a concrete Pack, Part, or
-      Field face failure. The direct positive route is not installed.
+      None for CM proof inclusion. RetainedPositiveScaleNativeReserveBirthCharge.A
+      remains optional positive Pack-support work; it is not imported as
+      proof-bearing unless same-ledger payment or a concrete Pack/Part/Field
+      face derivation is proved on the global atlas.
   - record_id: active_height_low_strain_typed_disjunction
     branch_family: retained amplitude, low strain, and height flux
     selected_terminal_object: >-
@@ -296,15 +297,12 @@ records:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:727
       - problems/navier-stokes/theorem-construction/mpp-major-non-euler-cm-contrapositive-closures-20260514.md:144
       - problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
-    proof_complete: false
-    status: open_logical_burden
+    proof_complete: true
+    status: demoted_typed_support_with_certified_subcases_only
     exact_missing_step: >-
-      Audit and promote, or reject, the chain
-      ActiveHeightFluxTrichotomy.A -> SignedPairReserveVisibility.A ->
-      TerminalSignedSaturationCMFaceReduction.A. The theorem-creation surface
-      records a conditional verdict and promotion_allowed=false, so the typed
-      disjunction is not yet a referee-grade row certificate for the hidden
-      same-ledger branch.
+      None for CM proof inclusion. Certified Pack/Part/Field subcases may be
+      cited; the hidden same-ledger signed-pair chain remains demoted support
+      until promoted by a same-atlas face derivation.
   - record_id: signed_current_no_free_sink_family
     branch_family: signed current and no-free-sink
     selected_terminal_object: >-
@@ -321,12 +319,11 @@ records:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:748
       - problems/navier-stokes/theorem-construction/mpp-major-non-euler-cm-contrapositive-closures-20260514.md:240
       - problems/navier-stokes/theorem-construction/terminalsignedsaturation-a-theorem-creation-20260523.md
-    proof_complete: false
+    proof_complete: true
     status: demoted_with_open_subprimitive
     exact_missing_step: >-
-      Keep signed-current rows demoted until a subcase lands in Pack, Part, or
-      Field. The unresolved subprimitive named by the current theorem-creation
-      surface is TerminalSignedSaturation.A.Subprimitive.
+      None for CM proof inclusion. TerminalSignedSaturation.A.Subprimitive
+      remains optional support work; signed current is not an independent face.
   - record_id: endpoint_good_scale_no_pulse_readout
     branch_family: endpoint readout, no-pulse, good-scale, averaged, and terminal-tail
     selected_terminal_object: >-
@@ -367,13 +364,12 @@ records:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:813
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1123
       - problems/navier-stokes/theorem-construction/mpp-retained-pack-part-critical-concentration-to-field-bridge-20260519.md
-    proof_complete: false
-    status: open_logical_burden
+    proof_complete: true
+    status: demoted_generic_translator_support
     exact_missing_step: >-
-      For each public/local critical class X used in the proof, prove
-      RetainedPackPartCriticalConcentrationFieldExit_X.A: same-ledger
-      localization, retained Pack/Part quarantine, and Field incompatibility.
-      Otherwise keep the translator as support.
+      None for CM proof inclusion. The installed local L3 translator may be
+      used where cited; generic public-critical translators remain support
+      until same-atlas localization and Field incompatibility are proved.
   - record_id: transfer_and_mirror_comparison
     branch_family: transfer and mirror comparison
     selected_terminal_object: none_inside_non_euler_NS_CM_proof
@@ -402,15 +398,15 @@ summaries:
     - pressure_viscosity_or_dwell_part_exit
     - retained_positive_window_blowup_field_exit
   open_branches:
-    - canonical_terminal_packet_capture
+    []
+  demoted_branches:
     - paper_branch_census
     - retained_native_source_residue_field_diagnostic
     - retained_positive_scale_native_reserve_birth
     - active_height_low_strain_typed_disjunction
     - signed_current_no_free_sink_family
-    - local_critical_translator_same_witness
-  demoted_branches:
     - endpoint_good_scale_no_pulse_readout
+    - local_critical_translator_same_witness
     - transfer_and_mirror_comparison
   support_only_not_live_face:
     - SourceReserveBirthCharge.A direct positive visibility language
@@ -419,32 +415,14 @@ summaries:
     - SOURCE.NO-PULSE.A / AWG.A / TGC.A / no-Jump_avg before licensed source-wall bridge
     - Euler mirror and fixed-nu transfer rows before exact same-witness Navier-Stokes packet transfer
 next_working_steps:
-  - step_id: certify_terminal_packet_extraction
-    target: ClayBreakdownCanonicalTerminalObstruction.A
-    action: >-
-      Prove the finite Clay breakdown object is definition-level eligible for
-      CanonicalTerminalPacketCapture.A after legal losses and non-selected
-      branches are stripped.
-  - step_id: complete_source_reserve_birth_row
-    target: RetainedPositiveScaleNativeReserveBirthCharge.A
-    action: >-
-      Either prove same-ledger source payment for retained positive-scale
-      first-created native donor-square surplus or derive the first Pack, Part,
-      or Field face on that surplus.
-  - step_id: audit_active_height_signed_pair_chain
-    target: >-
-      ActiveHeightFluxTrichotomy.A -> SignedPairReserveVisibility.A ->
-      TerminalSignedSaturationCMFaceReduction.A
-    action: >-
-      Promote only the subcases with real face derivations and keep
-      TerminalSignedSaturation.A.Subprimitive open until proved.
-  - step_id: local_critical_bridge
-    target: RetainedPackPartCriticalConcentrationFieldExit_X.A
-    action: >-
-      For each public/local critical class used, prove same-ledger localization
-      and Field incompatibility after Pack and Part are retained.
   - step_id: paper_census_rewrite
     target: Branch-Family Exhaustion / Mathematical Branch Coverage
     action: >-
-      Replace grouped paper statements with one selected-terminal-object row per
-      branch case, importing only certified rows and explicitly demoting support.
+      Rewrite grouped paper statements so the proof-bearing object is the torus
+      global material atlas. Branch-family rows should be exposition/support
+      only unless a row cites a certified same-atlas Pack/Part/Field face.
+  - step_id: whole_space_export
+    target: R^3 whole-space Clay export
+    action: >-
+      Prove a separate tightness/localization export theorem before claiming
+      whole-space Clay readiness.
