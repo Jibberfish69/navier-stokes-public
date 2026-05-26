@@ -48,9 +48,9 @@ source_summary:
     blocked_frontier_count: 0
   review_verdict:
     verdict: block
-    release_posture: export-ready
+    release_posture: blocked
     completion_tier_achieved: theorem-open
-    terminal_safe: true
+    terminal_safe: false
   submission_verdict:
     submission_ready: false
   release_decision:
@@ -68,7 +68,7 @@ source_summary:
     standalone_status: referee-blocked
     completion_tier_achieved: theorem-open
     review_verdict: block
-    theorem_packet_status: export-ready
+    theorem_packet_status: referee-blocked
   cm_contrapositive_referee_gate:
     problem_id: navier-stokes
     audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
@@ -660,12 +660,11 @@ open_root_group:
     role: readout presentation requiring direct accountability before use as a target
 exact_live_theorem_grade_burden: *1
 release_or_respawn_consequence:
-  disposition: submission-candidate
-  next_cell_type: submission
-  next_stage: submission-candidate
-  next_action: Keep generated/status surfaces aligned with live-theorem-edge.yaml
-    and target-operating-contract.yaml; do not respawn positive packet-survival/no-exit
-    labels without a fresh CM-necessity audit.
+  disposition: blocked
+  next_cell_type: solver-loop
+  next_stage: cm-contrapositive-referee-repair
+  next_action: Discharge the CM contrapositive referee audit by proving, demoting,
+    or marking the flagged proof burdens as genuine unresolved logical blockers.
 forward_positive_surface_quarantine:
   status: active-global-demotion
   index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
