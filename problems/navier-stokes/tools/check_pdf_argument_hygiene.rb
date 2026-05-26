@@ -23,7 +23,7 @@ ORDERED_ANCHORS = [
   "\\section{A Case Study In Class Membership}",
   "\\section{The Working Class Object}",
   "\\section{Terminal Packet Capture}",
-  "\\section{Forward Families In The Class Proof}",
+  "\\section{Forward Families As Support Examples}",
   "\\section{Class Exit}",
   "\\section{The Class-Law Proof}",
   "\\section{The Short Proof Spine}",
