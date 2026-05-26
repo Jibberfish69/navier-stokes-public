@@ -90,12 +90,12 @@ summary:
   hfg_side_primitives_open:
   - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
   release_blocking_count: 0
-  all_discharged: false
+  all_discharged: true
   total_authority_assumptions: 0
   discharged_authority_assumptions: 0
 release_blockers: []
 required_next_actions: []
-generated_at: '2026-05-26T02:04:45Z'
+generated_at: '2026-05-26T02:09:49Z'
 pass: true
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
