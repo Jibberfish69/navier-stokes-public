@@ -1,7 +1,7 @@
 ---
 version: 2
 problem_id: navier-stokes
-generated_at: '2026-05-26T19:42:27Z'
+generated_at: '2026-05-26T20:09:41Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -9,13 +9,13 @@ bundle_dir: problems/navier-stokes/submission-bundle
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
-  source_word_count: 8064
-  bundle_word_count: 383283
+  source_word_count: 8045
+  bundle_word_count: 383264
   page_count: 603
-  source_bytes: 60747
+  source_bytes: 60658
   appendix_bytes: 4926336
   inventory_bytes: 2329122
-  pdf_bytes: 1401416
+  pdf_bytes: 1402764
 skeletal_source_detected: false
 authoritative_content_included: true
 ground_up_rebuild:
@@ -51,7 +51,7 @@ current_material_coverage:
   family_count_sum: 94
 stdout: ''
 stderr: ''
-fallback:
+fallback: 
 source_wall_root_cm_status: Start with the alleged finite-time Clay terminal witness
   from the same original smooth Navier-Stokes datum. Force that witness into the same-fluid
   canonical CM terminal packet tree, exhaust its finite failure type as not Pack_Q,
