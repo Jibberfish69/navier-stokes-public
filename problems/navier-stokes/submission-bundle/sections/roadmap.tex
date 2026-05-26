@@ -1,13 +1,29 @@
 \section{Proof Roadmap}
 
-We prove global smoothness for the periodic three-dimensional incompressible Navier--Stokes equation on \(\mathbb T^3\).  The proof has four PDE steps.
+The proof follows the forward-positive Navier--Stokes program until a real
+same-solution obstruction appears, then changes the question. Instead of forcing
+one favorite positive estimate to control every obstruction, it asks whether the
+nonsmoothness-capable fail branch can remain a legal branch of the same CM class.
 
-First, a terminal same-fluid tail either admits a positive-scale family of scale-critical good parabolic cylinders or loses every uniform positive good scale.  The good-cylinder alternative gives a finite cover after a standard covering selection.
+First, each obstruction is split into a pass branch and a fail branch.
 
-Second, on each good moving cylinder, a Caffarelli--Kohn--Nirenberg type smallness condition gives finite-depth local regularity.  Testing the affine-subtracted equation against a transported cutoff gives a local affine-excess estimate.  A common scheduler and the finite cover globalize these local estimates into a terminal transported-tower bound.
+Second, the pass branch is represented by a lawful \(\Member(Q;\Owork)\) witness
+and reads out to smooth continuation.
 
-Third, any first finite terminal endpoint must be one of four primitive failures: participation failure, packing failure, averaged tower-amplitude escape, or loss of terminal good scale.  The terminal package eliminates all four alternatives, so a first finite endpoint cannot occur.
+Third, the fail branch is admitted to the same-fluid terminal CM tree and
+exhausted by the Pack/Part/Field witness faces:
+\[
+  \neg\Pack_Q,\qquad
+  \neg\Part_{N,Q},\qquad
+  \forall r>0\,\neg\Field_{N,r,Q}.
+\]
 
-Fourth, the averaged endpoint package yields a finite readout cover.  On that cover, averaged field and tower bounds recover the pointwise endpoint package.  The pointwise package gives a uniform \(H^s(\mathbb T^3)\) bound for some \(s>5/2\), and the standard periodic local theory extends the solution past any alleged finite endpoint.
+Fourth, the derived face failure is embedded as
+\[
+  \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+\]
+The no-third-branch law then excludes an in-class terminal nonsmooth branch.
 
-The theorem is stated and proved on \(\mathbb T^3\).  A whole-space result on \(\mathbb R^3\) is a separate export problem.
+Source-reserve, signed-pair, no-free-sink, no-pulse, periodic, whole-space, and
+comparison surfaces are support or context unless they land in this CM witness
+chain or satisfy one reopening test.
