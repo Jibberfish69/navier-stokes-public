@@ -3,7 +3,7 @@ version: 3
 identity:
   problem_id: navier-stokes
   artifact_id: release-manifest-navier-stokes
-  generated_at: '2026-05-26T21:02:03Z'
+  generated_at: '2026-05-26T21:31:55Z'
   generator: system/runner/lib/release_surface_reconciler.rb
 status: blocked
 pass: false
@@ -11,40 +11,31 @@ release_eligible: false
 bundle_status: cm-contrapositive-referee-blocked
 terminal_safe: false
 required_before_terminal_release:
-- Terminal packet capture is asserted at the paper surface by passing to a terminal
-  subsequence and then treating Pack/Part/Field as exhaustive; this audit did not
-  find a referee-grade derivation of the compact terminal object and exhaustion from
-  Navier-Stokes estimates.
-- The branch-family exhaustion and non-Euler census state the right CM sorting rule,
-  but the current paper-facing surfaces do not provide the record-by-record derivation
-  needed to make every included branch family proof-bearing rather than diagnostic/support.
-- The completion criterion is conditional on the installed CM witness chain; the generated
-  readiness stack promotes that conditional chain to full-MPP/submission posture even
-  though this audit leaves the terminal capture and branch-exhaustion hinges unresolved.
-- Derive the same-fluid finite terminal CM packet object and prove that a Clay finite
-  breakdown witness has no primitive failure service outside Pack_Q, Part_{N,Q}, and
-  Field_{N,r,Q}.
-- For every proof-bearing branch family promoted into the paper, give a checkable
-  certificate of selected terminal object, CM-test admission, first Pack/Part/Field
-  face failure, and Exit(Q):=not Member(Q) readout.
-- Regenerate theorem-packet, review, submission, release, hardener, MCP, and bundle
-  surfaces so failed referee audit status outranks stale full-MPP/submission-ready
-  labels.
-source_fingerprint: 22addea9cd29242567611e21e2f1435c14c5cc16
-bundle_sha1: 4c5eb2ad94db00050353356ac4e92882bb3ba860
+- The torus-first CM proof now has a global material-atlas terminal-capture object,
+  and the branch ledger demotes unresolved branch rows from proof-bearing status.
+  The paper-facing branch-family sections still use grouped branch prose as part of
+  the proof spine and need rewriting before submission.
+- The installed terminal-capture proof is for the active torus-first surface. A Clay-facing
+  whole-space R^3 claim still needs a separate tightness/localization export theorem.
+- Rewrite the paper proof spine so terminal capture is carried by TorusGlobalMaterialAtlasTerminalCapture.A,
+  with branch-family rows used only as certified face examples or demoted support.
+- If the submitted claim is the full R^3 Clay statement, prove an export theorem from
+  the torus-first global-atlas CM proof to whole-space data.
+source_fingerprint: 7c3fb3b07d3d18b5a191f40403e094be92655419
+bundle_sha1: 7149735f4ab11396f90030b1632139c0d36e34dc
 summary:
   artifact_count: 15
   missing_artifact_count: 0
   all_required_artifacts_present: true
-  blocking_count: 6
+  blocking_count: 4
   all_discharged: false
 source_summary:
   proof_artifact:
-    path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    path: problems/navier-stokes/external-paper/main.tex
     present: true
-    sha1: e9d247df25d905a36f3abf204ba97ffe760ff92e
-    bytes: 60504
-    modified_at: '2026-05-26T20:16:26Z'
+    sha1: ed77cff806ce81c69d5d40c54aa336491df51993
+    bytes: 250
+    modified_at: '2026-05-01T16:01:05Z'
   source_trace:
     path: problems/navier-stokes/source-ledger.yaml
     present: true
@@ -83,112 +74,102 @@ source_summary:
     standalone_status: referee-blocked
     completion_tier_achieved: theorem-open
     review_verdict: block
-    theorem_packet_status: referee-blocked
+    theorem_packet_status: export-ready
   cm_contrapositive_referee_gate:
     problem_id: navier-stokes
     audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
-    status: blocked-referee-audit
+    status: torus-first-cm-referee-passed-submission-surface-blocked
     pass: false
     release_eligible: false
     blockers:
-    - Terminal packet capture is asserted at the paper surface by passing to a terminal
-      subsequence and then treating Pack/Part/Field as exhaustive; this audit did
-      not find a referee-grade derivation of the compact terminal object and exhaustion
-      from Navier-Stokes estimates.
-    - The branch-family exhaustion and non-Euler census state the right CM sorting
-      rule, but the current paper-facing surfaces do not provide the record-by-record
-      derivation needed to make every included branch family proof-bearing rather
-      than diagnostic/support.
-    - The completion criterion is conditional on the installed CM witness chain; the
-      generated readiness stack promotes that conditional chain to full-MPP/submission
-      posture even though this audit leaves the terminal capture and branch-exhaustion
-      hinges unresolved.
-    - Derive the same-fluid finite terminal CM packet object and prove that a Clay
-      finite breakdown witness has no primitive failure service outside Pack_Q, Part_{N,Q},
-      and Field_{N,r,Q}.
-    - For every proof-bearing branch family promoted into the paper, give a checkable
-      certificate of selected terminal object, CM-test admission, first Pack/Part/Field
-      face failure, and Exit(Q):=not Member(Q) readout.
-    - Regenerate theorem-packet, review, submission, release, hardener, MCP, and bundle
-      surfaces so failed referee audit status outranks stale full-MPP/submission-ready
-      labels.
-  source_fingerprint: 22addea9cd29242567611e21e2f1435c14c5cc16
+    - The torus-first CM proof now has a global material-atlas terminal-capture object,
+      and the branch ledger demotes unresolved branch rows from proof-bearing status.
+      The paper-facing branch-family sections still use grouped branch prose as part
+      of the proof spine and need rewriting before submission.
+    - The installed terminal-capture proof is for the active torus-first surface.
+      A Clay-facing whole-space R^3 claim still needs a separate tightness/localization
+      export theorem.
+    - Rewrite the paper proof spine so terminal capture is carried by TorusGlobalMaterialAtlasTerminalCapture.A,
+      with branch-family rows used only as certified face examples or demoted support.
+    - If the submitted claim is the full R^3 Clay statement, prove an export theorem
+      from the torus-first global-atlas CM proof to whole-space data.
+  source_fingerprint: 7c3fb3b07d3d18b5a191f40403e094be92655419
 artifacts:
 - path: problems/navier-stokes/theorem-packet.yaml
   present: true
-  sha1: fba4a54dee3e7737a1a624959d17335734a4ebcc
-  bytes: 114595
-  modified_at: '2026-05-26T21:00:54Z'
+  sha1: 7ff448f5d9a21ed3c3cb705bdfe1775c8d930fbe
+  bytes: 77681
+  modified_at: '2026-05-26T21:31:43Z'
 - path: problems/navier-stokes/source-frontier.yaml
   present: true
-  sha1: cc872578568ea7b78ba4c878d29af1fb592818c2
-  bytes: 69464
-  modified_at: '2026-05-26T21:00:54Z'
+  sha1: 276369140d5a3f7ecdb5f98dfaab570f128ce340
+  bytes: 21734
+  modified_at: '2026-05-26T21:31:57Z'
 - path: problems/navier-stokes/live-theorem-edge.yaml
   present: true
-  sha1: 5481d1e648952ed215cbfa0c581869d3d35a26a3
-  bytes: 179339
-  modified_at: '2026-05-26T19:21:20Z'
+  sha1: ac77d154e7cb8eb1168f91af157da2c6968d6999
+  bytes: 182835
+  modified_at: '2026-05-26T21:31:15Z'
 - path: problems/navier-stokes/submission-verdict.yaml
   present: true
-  sha1: 661659f0d16a5a9810c18541d6aef04bad98df50
-  bytes: 58913
-  modified_at: '2026-05-26T21:00:54Z'
+  sha1: 581f6d13a11b798298490c30b4504cf8490a5660
+  bytes: 25105
+  modified_at: '2026-05-26T21:31:44Z'
 - path: problems/navier-stokes/release-decision.yaml
   present: true
-  sha1: 253acfa2a4d3543de2344e01a0d65d408b32f298
-  bytes: 45896
-  modified_at: '2026-05-26T21:00:54Z'
+  sha1: 06c577880620069fd9685cc0d4a3542b567f4d9e
+  bytes: 4192
+  modified_at: '2026-05-26T21:32:03Z'
 - path: problems/navier-stokes/dependency-audit.yaml
   present: true
-  sha1: 657a9d7e09f73b41cb78289fa402b576e009757c
-  bytes: 2981
-  modified_at: '2026-05-26T21:02:03Z'
+  sha1: 2240607d92764aa686159ae47655e7e5609ed0b6
+  bytes: 2430
+  modified_at: '2026-05-26T21:32:05Z'
 - path: problems/navier-stokes/assumption-audit.yaml
   present: true
-  sha1: 20fbae5cb9e3a6012c14b67a38c5069a9ccf18d8
-  bytes: 2981
-  modified_at: '2026-05-26T21:02:03Z'
+  sha1: 36d8838a3271647e6cb85bd9cd13f8508789e438
+  bytes: 2430
+  modified_at: '2026-05-26T21:32:05Z'
 - path: problems/navier-stokes/circularity-audit.yaml
   present: true
-  sha1: 151c2fd2f5f790ff2efc29c34c51855831307dda
-  bytes: 2983
-  modified_at: '2026-05-26T21:02:04Z'
+  sha1: fcc037c777988f1af3a727cd755eb8b35c13325a
+  bytes: 2432
+  modified_at: '2026-05-26T21:32:05Z'
 - path: problems/navier-stokes/gap-audit.yaml
   present: true
-  sha1: ef86d29ec17b9ed8ed9e7a04bbad946dcc625bcc
-  bytes: 2978
-  modified_at: '2026-05-26T21:02:04Z'
+  sha1: f8f3e662718aa0acd3d0392099918b4d4e0c9c22
+  bytes: 2427
+  modified_at: '2026-05-26T21:32:05Z'
 - path: problems/navier-stokes/gap-ticket.yaml
   present: true
-  sha1: 23d2e1312731ec7bd86b0610ea3435f905cc8c67
-  bytes: 3016
-  modified_at: '2026-05-26T21:02:04Z'
+  sha1: dcac0d033c077f38af2d92d038f953a5b95c198f
+  bytes: 2465
+  modified_at: '2026-05-26T21:32:05Z'
 - path: problems/navier-stokes/consistency-audit.yaml
   present: true
-  sha1: de5426d2ecae591211bf2cb5c15a1484b9cd5202
-  bytes: 2983
-  modified_at: '2026-05-26T21:02:04Z'
+  sha1: 757e991c84846a3c66be1d259830c0a3085e0a7e
+  bytes: 2432
+  modified_at: '2026-05-26T21:32:05Z'
 - path: problems/navier-stokes/dependency-graph.yaml
   present: true
-  sha1: 8fc46d2d6927dc380bf95d5391a56f4b654d393f
-  bytes: 5155
-  modified_at: '2026-05-26T21:02:04Z'
+  sha1: 7ebb130b5c9982768807018c5a7257650420f719
+  bytes: 3644
+  modified_at: '2026-05-26T21:32:05Z'
 - path: problems/navier-stokes/failure-mode-checks.yaml
   present: true
-  sha1: 36a44b79aac7847d8da72b60fb94778706d0f87d
-  bytes: 3033
-  modified_at: '2026-05-26T21:02:04Z'
+  sha1: 671011b694964820468124b441d8a075de3fb49a
+  bytes: 2479
+  modified_at: '2026-05-26T21:32:05Z'
 - path: problems/navier-stokes/auto-audit.yaml
   present: true
-  sha1: 2fe6b2ea7b9455a6b26f3e42c0e22fc779445981
-  bytes: 62896
-  modified_at: '2026-05-26T21:00:54Z'
+  sha1: e61a2f2b27ed92e0590dae5ab3e5511712ecef67
+  bytes: 18804
+  modified_at: '2026-05-26T21:32:04Z'
 - path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   present: true
-  sha1: 359f08c8ab7de68c6f32a323200cc615e047fd64
-  bytes: 6518
-  modified_at: '2026-05-26T20:42:46Z'
+  sha1: dc460cdbe9ab83fe0fef004d3b5a61e2de0c7494
+  bytes: 9431
+  modified_at: '2026-05-26T21:24:48Z'
 missing_artifacts: []
 written_paths:
 - problems/navier-stokes/dependency-audit.yaml
@@ -207,26 +188,17 @@ cm_contrapositive_referee_gate:
   pass: false
   release_eligible: false
   blockers:
-  - Terminal packet capture is asserted at the paper surface by passing to a terminal
-    subsequence and then treating Pack/Part/Field as exhaustive; this audit did not
-    find a referee-grade derivation of the compact terminal object and exhaustion
-    from Navier-Stokes estimates.
-  - The branch-family exhaustion and non-Euler census state the right CM sorting rule,
-    but the current paper-facing surfaces do not provide the record-by-record derivation
-    needed to make every included branch family proof-bearing rather than diagnostic/support.
-  - The completion criterion is conditional on the installed CM witness chain; the
-    generated readiness stack promotes that conditional chain to full-MPP/submission
-    posture even though this audit leaves the terminal capture and branch-exhaustion
-    hinges unresolved.
-  - Derive the same-fluid finite terminal CM packet object and prove that a Clay finite
-    breakdown witness has no primitive failure service outside Pack_Q, Part_{N,Q},
-    and Field_{N,r,Q}.
-  - For every proof-bearing branch family promoted into the paper, give a checkable
-    certificate of selected terminal object, CM-test admission, first Pack/Part/Field
-    face failure, and Exit(Q):=not Member(Q) readout.
-  - Regenerate theorem-packet, review, submission, release, hardener, MCP, and bundle
-    surfaces so failed referee audit status outranks stale full-MPP/submission-ready
-    labels.
+  - The torus-first CM proof now has a global material-atlas terminal-capture object,
+    and the branch ledger demotes unresolved branch rows from proof-bearing status.
+    The paper-facing branch-family sections still use grouped branch prose as part
+    of the proof spine and need rewriting before submission.
+  - The installed terminal-capture proof is for the active torus-first surface. A
+    Clay-facing whole-space R^3 claim still needs a separate tightness/localization
+    export theorem.
+  - Rewrite the paper proof spine so terminal capture is carried by TorusGlobalMaterialAtlasTerminalCapture.A,
+    with branch-family rows used only as certified face examples or demoted support.
+  - If the submitted claim is the full R^3 Clay statement, prove an export theorem
+    from the torus-first global-atlas CM proof to whole-space data.
 release_gate: cm-contrapositive-referee-blocked
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight:
