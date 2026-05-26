@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-26T21:29:33Z'
+  audited_at: '2026-05-26T21:37:39Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: referee-blocked-cm-contrapositive
@@ -32,7 +32,7 @@ downstream_overlay_drift: &2
   authority_surfaces:
   - artifact: source_frontier
     path: problems/navier-stokes/source-frontier.yaml
-    sha1: 3d253fefafea2c600362a68f8dc6286245dad6e7
+    sha1: 8d1d424675acb6790f8d682a58d459c08978b9e9
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -42,11 +42,10 @@ downstream_overlay_drift: &2
     - 'dashboard_unresolved_count: 0'
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: 4c577672c240168540568b19327182da168ae818
+    sha1: 7b273cfc027ac208850eb54d7000a1777577ec01
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
-    - cm witness
     - full-mpp
     - installed
     - discharged
@@ -54,7 +53,7 @@ downstream_overlay_drift: &2
     - 'all_discharged: true'
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
-    sha1: c8a8ea11b428c17a53281935266946ece1311ae1
+    sha1: 830c80a71f26519c1374122e7c3c52bd3e725e9b
     matched_terms:
     - direct-live-surfaces
     - authority_gate_mode
@@ -68,7 +67,7 @@ downstream_overlay_drift: &2
     - submission-candidate
   - artifact: dependency_discharge
     path: problems/navier-stokes/dependency-discharge.yaml
-    sha1: 2b566ec38f4af6e6b1cce43c7823b4b3d8ce0da3
+    sha1: 4526f6d51da0584731b6c95091dd397a9884774e
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -884,13 +883,6 @@ surface_snapshot:
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
 issues:
-- issue_id: stale-review-verdict
-  severity: major
-  summary: Review verdict is stale relative to the current manuscript artifacts.
-  autofixable: false
-  recommended_action: Run honesty-review to refresh the review verdict.
-  details:
-  - Primary manuscript changed after the current review verdict was written.
 - issue_id: downstream-overlay-drift
   severity: major
   summary: Generated theorem/review/release overlays still advertise stale blockers
@@ -934,14 +926,8 @@ cm_contrapositive_referee_gate:
   pass: false
   release_eligible: false
   blockers:
-  - The torus-first CM proof now has a global material-atlas terminal-capture object,
-    and the branch ledger demotes unresolved branch rows from proof-bearing status.
-    The paper-facing branch-family sections still use grouped branch prose as part
-    of the proof spine and need rewriting before submission.
   - The installed terminal-capture proof is for the active torus-first surface. A
     Clay-facing whole-space R^3 claim still needs a separate tightness/localization
     export theorem.
-  - Rewrite the paper proof spine so terminal capture is carried by TorusGlobalMaterialAtlasTerminalCapture.A,
-    with branch-family rows used only as certified face examples or demoted support.
   - If the submitted claim is the full R^3 Clay statement, prove an export theorem
     from the torus-first global-atlas CM proof to whole-space data.
