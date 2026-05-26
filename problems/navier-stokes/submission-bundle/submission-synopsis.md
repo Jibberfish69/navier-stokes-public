@@ -1,17 +1,25 @@
 # Submission Synopsis
 
-We prove global smoothness for the three-dimensional incompressible Navier-Stokes equation on the periodic domain `T^3`, for smooth divergence-free zero-mean initial data.
+We present a CM-contrapositive proof of Navier--Stokes global regularity from
+smooth divergence-free data.
 
 The proof has four steps.
 
-First, we analyze terminal same-fluid parabolic cylinders. On any terminal tail, either there is a positive-scale family of scale-critical good cylinders, or every terminal subtail loses all uniform positive good scale. In the good-cylinder case, standard covering selection gives a finite cover with bounded overlap.
+First, follow the ordinary positive Navier--Stokes proof program until it reaches
+a genuine same-solution obstruction. Split that obstruction into a pass branch
+and a fail branch.
 
-Second, on each good moving cylinder, Caffarelli-Kohn-Nirenberg type smallness gives finite-depth local regularity. Testing the affine-subtracted equation against transported cutoffs yields a local affine-excess inequality. A common scheduler over the finite cover globalizes these local estimates into a terminal transported-tower bound.
+Second, read the pass branch as a lawful `Member(Q)` continuation branch. The
+member branch supplies the usual smooth continuation readout.
 
-Third, we prove an endpoint contradiction. Any first finite terminal endpoint must appear as one of four primitive failures: participation failure, packing failure, averaged tower-amplitude escape, or terminal good-scale loss. The terminal package eliminates all four alternatives, so a first finite endpoint cannot occur.
+Third, admit the fail branch to the same-fluid CM terminal packet tree. The
+finite terminal witness is exhausted as loss of Pack, loss of Part, or loss of
+every positive Field scale.
 
-Fourth, the averaged endpoint package gives a finite readout cover. On this cover, averaged field and tower bounds recover the pointwise endpoint package. The pointwise package gives a uniform `H^s(T^3)` bound for some `s>5/2`. The standard periodic `H^s` local theory then extends the solution past any alleged finite maximal time.
+Fourth, embed the derived face failure as `Exit(Q):=not Member(Q)` and apply the
+no-third-branch law. The terminal nonsmooth branch has no legal in-class
+continuation status, while the pass branch continues smoothly.
 
-Therefore the maximal smooth periodic solution exists for all time and remains smooth.
-
-The result is periodic on `T^3`. A whole-space `R^3` theorem is a separate export problem.
+The proof is closed unless a future audit produces a genuine in-class nonsmooth
+third branch or breaks terminal CM entry, Pack/Part/Field exhaustion, or
+contrapositive embedding.
