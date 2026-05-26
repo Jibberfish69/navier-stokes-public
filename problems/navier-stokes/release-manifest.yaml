@@ -3,7 +3,7 @@ version: 3
 identity:
   problem_id: navier-stokes
   artifact_id: release-manifest-navier-stokes
-  generated_at: '2026-05-26T21:31:55Z'
+  generated_at: '2026-05-26T21:37:39Z'
   generator: system/runner/lib/release_surface_reconciler.rb
 status: blocked
 pass: false
@@ -11,18 +11,12 @@ release_eligible: false
 bundle_status: cm-contrapositive-referee-blocked
 terminal_safe: false
 required_before_terminal_release:
-- The torus-first CM proof now has a global material-atlas terminal-capture object,
-  and the branch ledger demotes unresolved branch rows from proof-bearing status.
-  The paper-facing branch-family sections still use grouped branch prose as part of
-  the proof spine and need rewriting before submission.
 - The installed terminal-capture proof is for the active torus-first surface. A Clay-facing
   whole-space R^3 claim still needs a separate tightness/localization export theorem.
-- Rewrite the paper proof spine so terminal capture is carried by TorusGlobalMaterialAtlasTerminalCapture.A,
-  with branch-family rows used only as certified face examples or demoted support.
 - If the submitted claim is the full R^3 Clay statement, prove an export theorem from
   the torus-first global-atlas CM proof to whole-space data.
-source_fingerprint: 7c3fb3b07d3d18b5a191f40403e094be92655419
-bundle_sha1: 7149735f4ab11396f90030b1632139c0d36e34dc
+source_fingerprint: 3e6d77199b048c585cd1794f757fba68ba65ee31
+bundle_sha1: e87b66c6dbddec838b108714dd032981f3533e08
 summary:
   artifact_count: 15
   missing_artifact_count: 0
@@ -93,18 +87,18 @@ source_summary:
       with branch-family rows used only as certified face examples or demoted support.
     - If the submitted claim is the full R^3 Clay statement, prove an export theorem
       from the torus-first global-atlas CM proof to whole-space data.
-  source_fingerprint: 7c3fb3b07d3d18b5a191f40403e094be92655419
+  source_fingerprint: 3e6d77199b048c585cd1794f757fba68ba65ee31
 artifacts:
 - path: problems/navier-stokes/theorem-packet.yaml
   present: true
-  sha1: 7ff448f5d9a21ed3c3cb705bdfe1775c8d930fbe
-  bytes: 77681
-  modified_at: '2026-05-26T21:31:43Z'
+  sha1: c8fa690b7ed0ec60949a61acabe3ae10be409169
+  bytes: 77674
+  modified_at: '2026-05-26T21:37:39Z'
 - path: problems/navier-stokes/source-frontier.yaml
   present: true
-  sha1: 276369140d5a3f7ecdb5f98dfaab570f128ce340
+  sha1: 8d1d424675acb6790f8d682a58d459c08978b9e9
   bytes: 21734
-  modified_at: '2026-05-26T21:31:57Z'
+  modified_at: '2026-05-26T21:37:39Z'
 - path: problems/navier-stokes/live-theorem-edge.yaml
   present: true
   sha1: ac77d154e7cb8eb1168f91af157da2c6968d6999
@@ -112,64 +106,64 @@ artifacts:
   modified_at: '2026-05-26T21:31:15Z'
 - path: problems/navier-stokes/submission-verdict.yaml
   present: true
-  sha1: 581f6d13a11b798298490c30b4504cf8490a5660
-  bytes: 25105
-  modified_at: '2026-05-26T21:31:44Z'
+  sha1: 7b273cfc027ac208850eb54d7000a1777577ec01
+  bytes: 25149
+  modified_at: '2026-05-26T21:37:40Z'
 - path: problems/navier-stokes/release-decision.yaml
   present: true
-  sha1: 06c577880620069fd9685cc0d4a3542b567f4d9e
+  sha1: 1687b79915da790df2817356856e0501a5189412
   bytes: 4192
-  modified_at: '2026-05-26T21:32:03Z'
+  modified_at: '2026-05-26T21:37:40Z'
 - path: problems/navier-stokes/dependency-audit.yaml
   present: true
-  sha1: 2240607d92764aa686159ae47655e7e5609ed0b6
+  sha1: '01900195d5469cd6f3fd77ecd5221879e5880637'
   bytes: 2430
-  modified_at: '2026-05-26T21:32:05Z'
+  modified_at: '2026-05-26T21:37:41Z'
 - path: problems/navier-stokes/assumption-audit.yaml
   present: true
-  sha1: 36d8838a3271647e6cb85bd9cd13f8508789e438
+  sha1: c2782b4ad49be25b302ab6cc8f0fb81e02761efe
   bytes: 2430
-  modified_at: '2026-05-26T21:32:05Z'
+  modified_at: '2026-05-26T21:37:41Z'
 - path: problems/navier-stokes/circularity-audit.yaml
   present: true
-  sha1: fcc037c777988f1af3a727cd755eb8b35c13325a
+  sha1: f9c3e6b6b79d67bd3a0da56a7db04c15fed3702b
   bytes: 2432
-  modified_at: '2026-05-26T21:32:05Z'
+  modified_at: '2026-05-26T21:37:41Z'
 - path: problems/navier-stokes/gap-audit.yaml
   present: true
-  sha1: f8f3e662718aa0acd3d0392099918b4d4e0c9c22
+  sha1: 98c7ca923e8b20d8794d9785668c67a4895d2da1
   bytes: 2427
-  modified_at: '2026-05-26T21:32:05Z'
+  modified_at: '2026-05-26T21:37:41Z'
 - path: problems/navier-stokes/gap-ticket.yaml
   present: true
-  sha1: dcac0d033c077f38af2d92d038f953a5b95c198f
+  sha1: 2212e2e9e4134552c6be6b3e6a03fef68c9ae3a1
   bytes: 2465
-  modified_at: '2026-05-26T21:32:05Z'
+  modified_at: '2026-05-26T21:37:41Z'
 - path: problems/navier-stokes/consistency-audit.yaml
   present: true
-  sha1: 757e991c84846a3c66be1d259830c0a3085e0a7e
+  sha1: cffa7c3de4193cfea9715d5e318caf84cd2d23de
   bytes: 2432
-  modified_at: '2026-05-26T21:32:05Z'
+  modified_at: '2026-05-26T21:37:41Z'
 - path: problems/navier-stokes/dependency-graph.yaml
   present: true
-  sha1: 7ebb130b5c9982768807018c5a7257650420f719
+  sha1: 1125d55daf819be80c72f938838513ca95e86a71
   bytes: 3644
-  modified_at: '2026-05-26T21:32:05Z'
+  modified_at: '2026-05-26T21:37:41Z'
 - path: problems/navier-stokes/failure-mode-checks.yaml
   present: true
-  sha1: 671011b694964820468124b441d8a075de3fb49a
+  sha1: 549db86a6e2757f34f8631286e24783a48fd2021
   bytes: 2479
-  modified_at: '2026-05-26T21:32:05Z'
+  modified_at: '2026-05-26T21:37:41Z'
 - path: problems/navier-stokes/auto-audit.yaml
   present: true
-  sha1: e61a2f2b27ed92e0590dae5ab3e5511712ecef67
+  sha1: 4b0e9fbd5e4c018199498ef7926ef530efa37e75
   bytes: 18804
-  modified_at: '2026-05-26T21:32:04Z'
+  modified_at: '2026-05-26T21:37:41Z'
 - path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   present: true
-  sha1: dc460cdbe9ab83fe0fef004d3b5a61e2de0c7494
-  bytes: 9431
-  modified_at: '2026-05-26T21:24:48Z'
+  sha1: f3f2c575cec25fb39b0acfa71a2d991a98bab685
+  bytes: 9424
+  modified_at: '2026-05-26T21:37:07Z'
 missing_artifacts: []
 written_paths:
 - problems/navier-stokes/dependency-audit.yaml
@@ -188,15 +182,9 @@ cm_contrapositive_referee_gate:
   pass: false
   release_eligible: false
   blockers:
-  - The torus-first CM proof now has a global material-atlas terminal-capture object,
-    and the branch ledger demotes unresolved branch rows from proof-bearing status.
-    The paper-facing branch-family sections still use grouped branch prose as part
-    of the proof spine and need rewriting before submission.
   - The installed terminal-capture proof is for the active torus-first surface. A
     Clay-facing whole-space R^3 claim still needs a separate tightness/localization
     export theorem.
-  - Rewrite the paper proof spine so terminal capture is carried by TorusGlobalMaterialAtlasTerminalCapture.A,
-    with branch-family rows used only as certified face examples or demoted support.
   - If the submitted claim is the full R^3 Clay statement, prove an export theorem
     from the torus-first global-atlas CM proof to whole-space data.
 release_gate: cm-contrapositive-referee-blocked
