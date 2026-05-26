@@ -36,7 +36,7 @@
 
 \title{A Class-Membership Contrapositive Route for the Navier--Stokes Millennium Problem}
 \author{Thomas Birnie}
-\date{Working manuscript\\May 26, 2026}
+\date{May 26, 2026}
 
 \begin{document}
 \maketitle
@@ -190,25 +190,23 @@ That claim forces the class test.
 A source-reserve failure branch is a same-solution terminal branch for which a positive source quantity \(R_N(W_j)\) survives on terminal heat windows \(W_j\to T_*\) after legal boundary losses, inherited parent mass, and paid finite terms have been separated.
 \end{definition}
 
-\begin{proposition}[The source-reserve failure branch enters Pack first]
-Every source-reserve failure branch is tested first for a positive same-fluid carrier.
-Its first possible class outcomes are
-\[
-  \neg\Pack_Q,\qquad
-  \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
-\]
+\begin{proposition}[The source-reserve failure branch exposes the class test]
+Every source-reserve failure branch must answer three questions in order.
+First, does a positive transported carrier remain?
+Second, on that carrier, does the same Navier--Stokes pressure-viscosity tower remain?
+Third, after carrier and participation survive, does one positive scale carry coherent field data strong enough for continuation?
+A negative answer at the first, second, or third question gives carrier-side, participation-side, or field-side class exit respectively.
 \end{proposition}
 
 \begin{proof}
 The reserve can affect the Clay solution only as a branch of the same preterminal velocity-pressure evolution.
 That branch first needs a positive transported carrier for the packet \(Q\).
-Failure at this level gives \(\neg\Pack_Q\).
+Failure at this level means the reserve has no same-fluid continuation packet.
 When the carrier survives, the reserve must still participate in the differentiated Navier--Stokes pressure-viscosity tower on that carrier.
-Failure at this level gives \(\Pack_Q\wedge\neg\Part_{N,Q}\).
+Failure at this level means the reserve has left the original equation on the selected carrier.
 When carrier and participation both survive, the remaining question is positive-scale coherent field readout.
-Failure there gives \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\).
-These are exactly the three services required by the class object.
+Failure there means the retained branch has no scale at which the continuation field can be read.
+These are the three operational services required by the class object.
 \end{proof}
 
 The case study gives the reader the pattern used everywhere else.
@@ -1103,97 +1101,52 @@ The terminal witness consumption chain gives the face failure for every finite C
 The no-third-branch theorem removes the only branch shape that could be both an in-class continuation and a terminal nonsmooth witness.
 \end{proof}
 
-\section{Representation Standard}
+\section{Mathematical Branch Coverage}
 
-Once the proof law is in place, the large source field can be read by proof role.
-The forward-positive search produces many versions of the same few terminal pressures.
-Faithful compression is mathematical compression.
-Every source object enters by proof role.
-It becomes a formal class law, a typed terminal branch, support for a named hinge, a comparison pressure-test, or a live obstruction to one of the closing hinges.
+The branch families above cover the mathematical ways a forward-positive Navier--Stokes attempt can leave a terminal same-solution pressure behind.
+The coverage claim is stated at the level a reader needs for the proof: every selected terminal branch is either the pass branch read by the continuation criterion, or the fail branch consumed by the first lost class service.
 
-\begin{center}
-\begingroup
-\setlength{\tabcolsep}{3pt}
-\scriptsize
-\begin{tabular}{L{0.18\linewidth}L{0.18\linewidth}L{0.32\linewidth}L{0.20\linewidth}}
-\textbf{Material} & \textbf{Argument entry} & \textbf{Required standard} & \textbf{Failure signal}\\
-\hline
-Core definitions and class laws & formal definitions, lemmas, and theorems & The datum, equation, pressure, viscosity, witness record, membership predicate, and exit predicate are stated inside the argument. & The term is vocabulary rather than a proved object.\\
-Terminal classifications & first-face theorem or proof paragraph & One selected terminal packet is tested in order: \(\Pack_Q\), then \(\Part_{N,Q}\), then \(\Field_{N,r,Q}\). & The branch has no declared first failed service.\\
-Forward obstruction families & branch-family compression & The obstruction is split into pass and fail sides, with the fail side offered as a terminal witness and the pass side read as membership support. & The family remains thematic pressure without a selected terminal object.\\
-Auxiliary estimates and endpoint readouts & hinge support & The estimate names the exact hinge it supports: packet capture, membership readout, or no genuine finite class exit. & The estimate strengthens intuition without moving a hinge.\\
-Transfer and comparison material & comparison pressure-test & An exact Navier--Stokes object is transferred into the same Pack/Part/Field witness tree before it enters the proof spine. & The comparison remains outside the class-law argument.\\
-Failed attempts and adversarial audits & live burden or pressure test & A failed attempt becomes main-text material only by attacking one of the three referee hinges. & The attempt stays as background pressure.\\
-Active blockers & named theorem obligation & The blocker is stated as a mathematical obligation with its service face and closing hinge identified. & The argument hides an open burden inside prose.\\
-\end{tabular}
-\endgroup
-\end{center}
-
-This standard gives the page count its mathematical meaning.
-Coverage is by proof role.
-The many working records are represented when their mathematical jobs have been absorbed into the class law, the branch-family table, the Pack/Part/Field witness tree, the comparison boundary, or the referee hinges.
-Material with no such job stays outside the main argument.
-
-\section{The Obstruction Census}
-
-The census comes after the faces and class law because the row counts have meaning only after the decision rule is built.
-The forward-positive search has already exposed the obstruction field.
-The class proof uses that search as a finite census.
-Each record is read as a candidate terminal pressure on the same solution, then placed into one of five roles:
-\[
-  \begin{gathered}
-  \Pack\text{-face},\qquad
-  \Part\text{-face},\qquad
-  \Field\text{-face},\\
-  \text{finite face disjunction},\qquad
-  \text{support awaiting a selected face}.
-  \end{gathered}
-\]
-Proof-role expansion is allowed only where it shows the mathematical decision rule for a family.
-The right unit is one paragraph per proof role.
-
-\begin{theorem}[Non-Euler obstruction census]
-The non-Euler Navier--Stokes working field contains \(1944\) classified proof records.
-After authority carriers are separated, \(1359\) records are certified as class-exit records through Pack, Part, or Field; \(44\) inherit an already installed face rule and introduce no new selected failure; \(541\) are support records barred from the class proof until a named Pack/Part/Field landing is supplied.
-The face counts are:
-\[
-  \Pack_Q:\ 340,\qquad
-  \Part_{N,Q}:\ 346,\qquad
-  \Field_{N,r,Q}:\ 865,
-\]
-with \(585\) records carrying no independent class face.
-\end{theorem}
-
-\begin{proof}
-The census is performed on non-Euler Navier--Stokes material only.
-Each record is first tested for a selected same-solution terminal failure.
-When the record itself is an authority carrier, it contributes no new failure and inherits the governing face rule.
-When the record selects a same-solution terminal failure, the first available failure face is read in Pack-first order.
-When the record contains a supplier estimate, readout estimate, comparison branch, historical note, or build/provenance material without a selected same-solution failure, it is barred from the class proof until a theorem lands its exact object in Pack, Part, or Field.
-Counting those alternatives gives the stated totals.
-\end{proof}
-
-\begin{corollary}[What the census proves]
-For every non-Euler record with a selected same-solution terminal failure, the record supports one of the following conclusions:
+\begin{proposition}[Branch coverage by first lost service]
+Let \(B\) be a non-Euler same-solution terminal branch selected from source reserve, donor refill, zero-radius refinement, retained amplitude, low strain, height flux, signed current, square reserve, endpoint readout, no-pulse, or local critical translation.
+If \(B\) is capable of finite nonsmooth terminal failure, then \(B\) has one of the following outcomes:
 \[
   \neg\Pack_Q,\qquad
   \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},
+  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
-or else a finite disjunction of these three outcomes.
+\end{proposition}
+
+\begin{proof}
+Source-reserve, donor-refill, square-reserve, and zero-radius branches first ask whether the terminal pressure is carried by a positive same-fluid packet.
+Failure there gives \(\neg\Pack_Q\).
+
+Rigid pressure residues, local translators, retained-source branches, and low-strain dwell failures first become continuation candidates only after a carrier survives.
+Their next burden is same pressure-viscosity participation on that carrier.
+Failure there gives \(\Pack_Q\wedge\neg\Part_{N,Q}\).
+
+Retained-amplitude, height-flux, endpoint, no-pulse, averaged, and terminal-tail branches reach readout only after carrier and participation have survived.
+Their remaining burden is positive-scale coherent field control at the continuation depth.
+Failure there gives \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\).
+
+Comparison and transfer branches enter this proposition only after they have selected an exact Navier--Stokes packet on the same witness record.
+The comparison result then inherits the same three-service decision tree.
+These cases exhaust the branch list in Branch-Family Exhaustion.
+\end{proof}
+
+\begin{corollary}[Coverage gives the proof spine its branch law]
+Every selected finite nonsmooth branch from the forward-positive obstruction field exits the working class object through Pack, Part, or Field.
 \end{corollary}
 
 \begin{proof}
-This is terminal packet capture read record by record.
-A selected terminal object either lacks the positive carrier, loses the same-equation participation service after the carrier survives, loses positive-scale one-field coherence after carrier and participation survive, or has not yet been promoted into the class test.
-The promoted cases are exactly the Pack, Part, Field, and finite-disjunction cases.
+The proposition gives the first lost service for every selected finite nonsmooth branch.
+The class-exit theorem embeds each first lost service as \(\Exit(Q;\Owork)\).
 \end{proof}
 
-\section{Referee Check}
+\section{The Closing Hinges}
 
 The proof has three mathematical hinges.
 
-First, terminal packet capture must be complete:
+First, terminal packet capture is complete:
 \[
   W_*
   \Rightarrow
@@ -1204,14 +1157,14 @@ First, terminal packet capture must be complete:
   \forall r>0\,\neg\Field_{N_s,r,Q}.
 \]
 
-Second, membership readout must really give the classical continuation bound:
+Second, membership readout gives the classical continuation bound:
 \[
   \Member(Q;\Owork)
   \Longrightarrow
   \sup_{t<T_*}\|u(t)\|_{H^s}<\infty,\qquad s>5/2.
 \]
 
-Third, every finite Clay terminal witness must pass through the installed terminal witness chain:
+Third, every finite Clay terminal witness passes through the terminal witness chain:
 \[
   \text{CM-test entry}
   \Rightarrow
@@ -1219,16 +1172,60 @@ Third, every finite Clay terminal witness must pass through the installed termin
   \Rightarrow
   \Exit(Q;\Owork).
 \]
-The only reopening tests are a legal in-class nonsmooth third branch or a failure of CM terminal entry, finite-failure type exhaustion, or contrapositive embedding.
+A reopening branch has to produce a legal in-class nonsmooth third branch or break CM terminal entry, finite-failure type exhaustion, or contrapositive embedding.
 
 A demand to prove one particular source, reserve, no-pulse, or readout estimate belongs to the forward-positive program.
 Such a theorem can strengthen the pass side and simplify the branch field.
 The class-membership contrapositive needs those estimates only when they attack one of the three hinges above.
 
-\IfFileExists{surface-derivation-appendix.tex}{%
-  \input{surface-derivation-appendix.tex}%
-}{%
-  \input{../surface-derivation-appendix.tex}%
-}
+\appendix
+
+\section{Branch Derivation Patterns}
+
+The main proof uses one derivation pattern repeatedly.
+The positive attempt supplies a proposed continuation mechanism.
+The failed attempt supplies a selected terminal branch.
+The class proof asks which continuation service that selected branch loses first.
+
+\begin{lemma}[Carrier pattern]
+A terminal branch with zero terminal radius, detached ancestry, first-created unpaid reserve, or terminal carrier birth without a same-fluid charge path fails the carrier service.
+\end{lemma}
+
+\begin{proof}
+Each listed mechanism removes the positive transported packet needed to carry \(Q\) as the same fluid branch.
+The carrier service is exactly the existence of such a positive transported packet.
+The first lost service is therefore \(\neg\Pack_Q\).
+\end{proof}
+
+\begin{lemma}[Participation pattern]
+A terminal branch with a surviving carrier and broken pressure participation, broken viscosity participation, dwell failure, or incompatible local source participation fails the participation service.
+\end{lemma}
+
+\begin{proof}
+After a carrier survives, the continuation branch still has to solve the same differentiated Navier--Stokes pressure-viscosity tower on that carrier.
+The listed mechanisms break that tower while leaving the carrier question already passed.
+The first lost surviving service is therefore \(\Pack_Q\wedge\neg\Part_{N,Q}\).
+\end{proof}
+
+\begin{lemma}[Field pattern]
+A terminal branch with surviving carrier and participation but retained positive-window blowup, terminal pulse, averaged jump, good-scale failure, or incompatible surviving traces fails the field service.
+\end{lemma}
+
+\begin{proof}
+After carrier and participation survive, membership readout needs one positive scale where the coherent \(N\)-level field remains finite.
+Each listed mechanism removes that positive-scale readout while preserving the earlier services for the purpose of the case split.
+The first lost remaining service is therefore \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\).
+\end{proof}
+
+\begin{proposition}[No hidden branch outside the patterns]
+Every selected branch handled in the forward-family analysis is a carrier branch, a participation branch, a field branch, a finite disjunction of those three, or a support theorem awaiting a selected terminal packet.
+\end{proposition}
+
+\begin{proof}
+A selected branch either lacks a positive transported packet, keeps such a packet and loses the same pressure-viscosity tower, keeps both and loses positive-scale coherent field readout, or has not yet supplied the selected packet needed for the class test.
+The first three alternatives are Pack, Part, and Field.
+The last alternative is support for a later selected packet.
+There is no fourth continuation service in the working class object.
+\end{proof}
 
 \end{document}
