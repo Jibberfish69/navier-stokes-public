@@ -870,21 +870,34 @@ proof_program_topology:
   no_third_branch_rule: The installed no-third-branch audit proves that no terminal
     branch is both an in-class `Member(Q)` continuation branch and a finite nonsmoothness
     branch once the obstruction has been admitted to the CM test and a concrete Pack/Part/Field
-    face failure has been derived. Do not respawn the rejected theorem-sized slogan
-    `OriginalSmoothData=>not GenuineCMExit(T_*)` as the local burden; the live proof
-    engine is obstruction-by-obstruction CM-test entry plus Pack/Part/Field face derivation.
+    face failure has been derived. Do not respawn the rejected positive no-exit slogan
+    as the local burden; the live proof engine is obstruction-by-obstruction CM-test
+    entry plus Pack/Part/Field face derivation.
   no_genuine_exit_rule: The direct first-exit/no-genuine-exit attempt is retained
     as a failed positive no-exit shortcut and may not control the local CM target.
     Under the current pass-or-exit engine, a pass branch may be supplied by any lawful
     continuation mechanism, and a fail branch is useful exactly when it lands in Pack,
     Part, or Field and therefore supports `Exit(Q):=not Member(Q)`.
-  source_reserve_birth_rule: 'The source-reserve/signed-pair surface family is audited
-    as support, not a current proof blocker. Its useful Pack-side reading is `SourceReserveBirthCharge.A
-    / RetainedPositiveScaleNativeReserveBirthCharge.A`: charge the first retained
-    positive-scale native donor-square reserve surplus or route that surplus to Pack/Part/Field
-    exit. It becomes live only after a fresh CM-necessity audit proves an in-class
-    nonsmooth third branch or a concrete face failure that is not already consumed
-    by the pass-or-exit law.'
+  positive_existence_translation_veto: Do not restate the live CM burden as proving
+    that at least one solution remains in the class, producing a smooth/class-member
+    solution, or showing smooth data stays in CM. That is a positive-existence/class-preservation
+    reading. The pass side is already the smooth/Member(Q) side under whatever lawful
+    continuation mechanism supplies it; the proof work is admitting each obstruction
+    to the CM test and deriving the fail side as a concrete Pack/Part/Field face failure
+    supporting Exit(Q):=not Member(Q).
+  source_reserve_birth_rule: 'The May 25 source-reserve burst is support, not live
+    frontier: `ReserveCreationCharge.A` remains a positive supplier / charge-ledger
+    subprimitive, `ActiveHeightFluxTrichotomy.A` remains conditional face-routing
+    support after the zero-first-moment visibility veto, and `SourceReserveBirthCharge.A
+    / RetainedPositiveScaleNativeReserveBirthCharge.A` is support-only after the Pack-first
+    source-reserve face audit. The exact classification is: paid same-ledger service
+    is pass-side nonvacuity; an admitted finite terminal obstruction is CM-test admission
+    only; zero-radius terminal residue or selected unpaid infinite donor-refill lands
+    first at `not Pack_Q`; retained positive-scale first-created native donor-square
+    reserve surplus remains supplier quarantine. Its honest next burden is `RetainedPositiveScaleNativeReserveBirthCharge.A
+    / TerminalReserveFirstAppearanceCharge.A` as supplier-quarantined positive Pack
+    support, promotable only by same-ledger payment or CM-test admission plus first
+    Pack/Part/Field face failure.'
 - program_id: positive-smoothness
   proof_mode: positive_smoothness
   governing_primitive: direct a priori regularity or continuation control for the
@@ -952,9 +965,9 @@ proof_program_topology:
   current_role: infrastructure repair; not mathematical progress unless it materializes
     theorem work
 open_root_group:
-  group_id: source-wall-root-after-reconcile
-  group_label: Recenter source-wall-root-after-reconcile on known CM-exit discipline
-    after SourceWall.Reconcile.A demotion.
+  group_id: clay-cm-contrapositive-witness-consumption
+  group_label: Installed Clay CM terminal-witness consumption authority; older source-wall-root-after-reconcile
+    material is historical/support topology.
   live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
   top_level_release_blocker: false
   not_single_path: true
