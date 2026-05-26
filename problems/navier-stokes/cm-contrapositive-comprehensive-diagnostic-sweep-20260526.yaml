@@ -30,7 +30,7 @@ local_machine_passes:
     result: yaml_ok 138
   ns_pipeline_hardener_refresh:
     command: ruby problems/navier-stokes/tools/ns_pipeline_hardener.rb refresh
-    result: REFRESH_OK_MATRIX_ABSENT
+    result: REFRESH_OK_DIRECT_LIVE
   keyword_surface_counts:
     total_files_scanned: 2447
     contrapositive_files: 271

@@ -13,7 +13,6 @@ SLOT_MAP_PATH = PROBLEM_ROOT.join("bridge-slot-map.yaml").freeze
 WARRANT_PATH = PROBLEM_ROOT.join("theorem-to-warrant.yaml").freeze
 CAMPAIGN_STATUS_PATH = PROBLEM_ROOT.join("campaign-status.yaml").freeze
 PROOF_ASSEMBLY_PATH = PROBLEM_ROOT.join("proof-assembly.yaml").freeze
-RETIRED_THEOREM_AUTHORITY_MATRIX_PATH = PROBLEM_ROOT.join("proof-obligation-matrix.yaml").freeze
 THEOREM_PACKET_PATH = PROBLEM_ROOT.join("theorem-packet.yaml").freeze
 SUBMISSION_VERDICT_PATH = PROBLEM_ROOT.join("submission-verdict.yaml").freeze
 SOURCE_FRONTIER_PATH = PROBLEM_ROOT.join("source-frontier.yaml").freeze
@@ -1462,7 +1461,7 @@ def refresh!
     build_warrant_compilation(route_lock, warrant, campaign, proof_assembly)
   )
 
-  RETIRED_THEOREM_AUTHORITY_MATRIX_PATH.exist? ? "refreshed" : "REFRESH_OK_MATRIX_ABSENT"
+  "REFRESH_OK_DIRECT_LIVE"
 end
 
 command = ARGV[0] || "refresh"

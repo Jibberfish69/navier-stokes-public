@@ -15,12 +15,15 @@ FORBIDDEN_VISIBLE_PATTERNS = {
   "repo/status vocabulary in rendered argument" => /\b(?:repo-surface|generated surface|surface-derivation|coverage ledger|build record|status surface|audit row|provenance inventory|Family row)\b/i,
   "authoring-meta section" => /\b(?:Representation Standard|Obstruction Census|proof records|working records|Working manuscript)\b/i,
   "visible code/provenance typewriter" => /\\texttt\{/,
+  "anonymous branch-boilerplate phrase" => /\bat this place in the exhaustion\b/i,
+  "anonymous selected-branch boilerplate" => /Let\s+\\\(B_\{\d+\}\\\)\s+be the selected terminal branch/i,
+  "anonymous support-boilerplate phrase" => /Let\s+\\\(S_\{\d+\}\\\)\s+be the support obligation/i,
   "not-but prose" => /\bnot\b[^.\n]{0,160}\bbut\b/i
 }.freeze
 
 ORDERED_ANCHORS = [
-  "\\section{The Clay Target And The Reader's Toolkit}",
-  "\\section{A Case Study In Class Membership}",
+  "\\section{The Clay Target And The Proof Contract}",
+  "\\section{A Guiding Example: Source Absorption And Source Reserve}",
   "\\section{The Working Class Object}",
   "\\section{Terminal Packet Capture}",
   "\\section{Forward Families As Support Examples}",

@@ -2,15 +2,15 @@
 version: 2
 problem_id: navier-stokes
 display_name: Navier-Stokes Global Regularity
-generated_at: '2026-05-26T20:09:41Z'
+generated_at: '2026-05-26T23:23:48Z'
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 manuscript_source_kind: tex
 manuscript_source_reason: ground-up CM contrapositive paper rebuild from direct-live
   authority
 source_metrics:
-  source_word_count: 8045
-  bundle_word_count: 383264
-  page_count: 603
+  source_word_count: 7927
+  bundle_word_count: 314279
+  page_count: 617
 outputs:
   tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
@@ -61,7 +61,7 @@ surface_derivation_appendix:
   quarantine_rows_by_scope:
     repo-surface: 201
     theorem-construction: 1652
-  current_material_family_rows: 94
+  current_material_family_rows: 102
   current_material_families:
   - id: basac_pressure_zeno_source_residue_family
     file_count: 41
@@ -70,14 +70,15 @@ surface_derivation_appendix:
   - id: late_cm_direction_or_same_ledger_notes
     file_count: 8
   - id: cm_class_law_completion_and_adversarial_audits
-    file_count: 6
+    file_count: 17
   - id: local_energy_elliptic_formalization_support
     file_count: 3
   - id: euler_mirror_current_exclusions
     file_count: 7
   - id: proof_irrelevant_build_or_provenance_surfaces
-    file_count: 6
+    file_count: 8
   - id: submission_representation_standard
-    file_count: 4
+    file_count: 5
   - id: current_theorem_creation_candidate_notes
     file_count: 10
+  mathematical_appendix_expansion_rows: 3804
