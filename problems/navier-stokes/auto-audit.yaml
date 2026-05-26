@@ -9,9 +9,9 @@ identity:
 certification:
   current_package_status: referee-blocked-cm-contrapositive
   standalone_status: referee-blocked
-  completion_tier_achieved: full-mpp-closure
-  review_verdict: accept
-  theorem_packet_status: export-ready
+  completion_tier_achieved: theorem-open
+  review_verdict: block
+  theorem_packet_status: referee-blocked
 audit_certification:
   audit_status: referee-blocked-cm-contrapositive
   audit_completion_tier: theorem-open
