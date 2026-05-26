@@ -22,6 +22,7 @@ DIRECT_LIVE_AUTHORITY = %w[
   problems/navier-stokes/dependency-discharge.yaml
   problems/navier-stokes/submission-verdict.yaml
   problems/navier-stokes/target-operating-contract.yaml
+  problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 ].freeze
 
 COVERAGE_SELF_SURFACES = %w[
@@ -146,6 +147,7 @@ FAMILIES = [
       tools/build_forward_positive_surface_quarantine.rb
       source-forensics/archive-scrivener-manifest.txt
       source-forensics/ns-historical-biography.md
+      source-forensics/ns-lived-sequence-history.md
       source-forensics/build_master_extraction.py
       misalignment.json
       submission-bundle/ground-up/main.tex
