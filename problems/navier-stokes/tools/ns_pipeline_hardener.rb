@@ -177,6 +177,15 @@ def cm_referee_blocked_consequence
   }
 end
 
+def current_release_or_respawn_consequence
+  cm_referee_gate_clear? ? CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE : cm_referee_blocked_consequence
+end
+
+def cm_referee_readiness_overclaim?(text)
+  value = text.to_s
+  value.match?(/clear a full-MPP closure release|submission-candidate|export-ready bundle|export-ready paper source|release-ready|submission ready/i)
+end
+
 def normalize_cm_referee_blocker(text)
   text.to_s.sub(/\ACM contrapositive referee audit blocks (?:packet readiness|submission):\s*/, "").strip
 end
@@ -221,6 +230,11 @@ def apply_cm_referee_gate_to_submission!(verdict)
 
   verdict["submission_posture"] = "not-ready"
   verdict["submission_ready"] = false
+  verdict["release_or_respawn_consequence"] = cm_referee_blocked_consequence
+  verdict["review_alignment"] ||= {}
+  verdict["review_alignment"]["release_posture"] = "blocked"
+  verdict["review_alignment"]["standalone_status"] = "referee-blocked"
+  verdict["review_alignment"]["current_package_status"] = "referee-blocked-cm-contrapositive"
   verdict["blockers"] = (Array(verdict["blockers"]) + cm_referee_blockers.map { |entry| "CM contrapositive referee audit blocks submission: #{entry}" }).uniq
   verdict["required_before_submission"] = (Array(verdict["required_before_submission"]) + ["Discharge the CM contrapositive referee audit before treating the package as Clay-ready."]).uniq
   target_fidelity = verdict["target_fidelity"]
@@ -241,6 +255,9 @@ def apply_cm_referee_gate_to_review!(review)
   review["release_posture"] = "blocked"
   review["completion_tier_achieved"] = "theorem-open"
   review["standalone_status"] = "referee-blocked"
+  review["theorem_packet_status"] = "referee-blocked"
+  review["release_or_respawn_consequence"] = cm_referee_blocked_consequence
+  review["findings"] = Array(review["findings"]).reject { |finding| cm_referee_readiness_overclaim?(finding) }
   review["required_before_terminal_release"] = (Array(review["required_before_terminal_release"]) + cm_referee_blockers).uniq
   target_fidelity = review["target_fidelity"]
   if target_fidelity.is_a?(Hash)
@@ -267,7 +284,7 @@ def apply_cm_referee_gate_to_release!(decision)
     body["rationale"] = "A direct referee audit found unearned CM-contrapositive proof mass, so generated readiness surfaces cannot promote this package."
   end
   decision["release_or_respawn_consequence"] = cm_referee_blocked_consequence
-  decision["blockers"] = (Array(decision["blockers"]) + cm_referee_blockers).uniq
+  decision["blockers"] = (Array(decision["blockers"]).reject { |blocker| cm_referee_readiness_overclaim?(blocker) } + cm_referee_blockers).uniq
   decision
 end
 
@@ -328,7 +345,7 @@ def target_topology_payload
     "proof_program_topology" => NS_PROOF_PROGRAM_TOPOLOGY,
     "open_root_group" => OPEN_ROOT_GROUP,
     "exact_live_theorem_grade_burden" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN,
-    "release_or_respawn_consequence" => CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE,
+    "release_or_respawn_consequence" => current_release_or_respawn_consequence,
     "forward_positive_surface_quarantine" => FORWARD_POSITIVE_QUARANTINE_SUMMARY,
     "non_merge_rules" => NS_NON_MERGE_RULES,
     "authority_hierarchy" => NS_AUTHORITY_HIERARCHY,
@@ -560,7 +577,7 @@ def sanitize_source_frontier(source_frontier)
   source_frontier["frontier"]["additional_context_obligations"] = root_obligations
   source_frontier["frontier"]["readiness_boundary"] = "Direct CM authority is cleared against the current live surface field: #{CURRENT_SOURCE_WALL_ROOT_SUMMARY}"
   source_frontier["frontier"]["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
-  source_frontier["frontier"]["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
+  source_frontier["frontier"]["release_or_respawn_consequence"] = current_release_or_respawn_consequence
   source_frontier["frontier"]["forward_positive_surface_quarantine"] = FORWARD_POSITIVE_QUARANTINE_SUMMARY
   source_frontier["frontier"]["source_artifact_program_quarantine"] = artifact_program_quarantine(source_frontier["source_artifacts"])
   attach_target_topology!(source_frontier["frontier"])
@@ -624,7 +641,7 @@ def sanitize_theorem_packet(packet)
   packet["posture"].delete("open_sourcewall_root")
   packet["posture"]["sourcewall_root_cm_status"] = CURRENT_SOURCE_WALL_ROOT_SUMMARY
   packet["posture"]["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
-  packet["posture"]["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
+  packet["posture"]["release_or_respawn_consequence"] = current_release_or_respawn_consequence
   packet["posture"]["forward_positive_surface_quarantine"] = FORWARD_POSITIVE_QUARANTINE_SUMMARY
   packet["posture"]["one_frontier_language_boundary"] = NS_TARGET_PREFLIGHT.fetch("anti_flattening_rule")
   packet["source_artifact_program_quarantine"] = artifact_program_quarantine(packet["source_artifacts"])
@@ -822,7 +839,7 @@ def sanitize_submission_verdict(verdict)
   verdict["review_alignment"]["standalone_status"] = "accept"
   verdict["review_alignment"]["current_package_status"] = CURRENT_PACKAGE_STATUS
   verdict["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
-  verdict["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
+  verdict["release_or_respawn_consequence"] = current_release_or_respawn_consequence
   if verdict.dig("lane_classification", "signals").is_a?(Hash)
     verdict["lane_classification"]["signals"]["default_mode"] = "proof-present"
   end
@@ -1050,7 +1067,7 @@ def sanitize_dependency_discharge(discharge)
   target["source_anchor"] = "problems/navier-stokes/live-theorem-edge.yaml"
   target["blocking"] = false
   target["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
-  target["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
+  target["release_or_respawn_consequence"] = current_release_or_respawn_consequence
   target["status_after"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
   target["promoted"] = true
   target["promotion_distance"] = 0
@@ -1060,7 +1077,7 @@ def sanitize_dependency_discharge(discharge)
   if recommendation.is_a?(Hash)
     recommendation["outcome"] = "direct-live-cm-authority-cleared"
     recommendation["rationale"] = "B_ASAC/source-residue sorting is support; the governing live state is the pass-or-exit CM contrapositive witness program."
-    recommendation["next_action"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_action")
+    recommendation["next_action"] = current_release_or_respawn_consequence.fetch("next_action")
   end
 
   bridge_packet = discharge["bridge_packet"]
@@ -1163,7 +1180,7 @@ def sanitize_review_verdict(review)
     respawn["next_action"] = nil
   end
   review["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
-  review["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
+  review["release_or_respawn_consequence"] = current_release_or_respawn_consequence
 
   apply_cm_referee_gate_to_review!(review)
   attach_target_topology!(review)
@@ -1175,16 +1192,16 @@ def sanitize_release_decision(decision)
 
   body = decision["decision"]
   if body.is_a?(Hash)
-    body["disposition"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("disposition")
+    body["disposition"] = current_release_or_respawn_consequence.fetch("disposition")
     body["release_posture"] = "export-ready"
     body["completion_tier_achieved"] = "full-mpp-closure"
-    body["next_cell_type"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_cell_type")
-    body["next_stage"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_stage")
-    body["next_action"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_action")
+    body["next_cell_type"] = current_release_or_respawn_consequence.fetch("next_cell_type")
+    body["next_stage"] = current_release_or_respawn_consequence.fetch("next_stage")
+    body["next_action"] = current_release_or_respawn_consequence.fetch("next_action")
     body["rationale"] = "Direct live CM authority and the accepted full-MPP review govern release; stale no-exit respawn language is support only."
     body["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   end
-  decision["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
+  decision["release_or_respawn_consequence"] = current_release_or_respawn_consequence
 
   blockers = Array(decision["blockers"]).reject { |blocker| blocker == CURRENT_SOURCE_WALL_ROOT_ID }
   decision["blockers"] = blockers
@@ -1215,6 +1232,17 @@ def sanitize_release_manifest(manifest)
     manifest["cm_contrapositive_referee_gate"] = cm_referee_gate_payload
     source_summary = manifest["source_summary"]
     if source_summary.is_a?(Hash)
+      review = source_summary["review_verdict"]
+      if review.is_a?(Hash)
+        review["release_posture"] = "blocked"
+        review["terminal_safe"] = false
+      end
+      auto_audit = source_summary["auto_audit_certification"]
+      if auto_audit.is_a?(Hash)
+        auto_audit["theorem_packet_status"] = "referee-blocked"
+        auto_audit["current_package_status"] = "referee-blocked-cm-contrapositive"
+        auto_audit["standalone_status"] = "referee-blocked"
+      end
       source_summary["existing_assumption_ledger_status"] = {
         "ledger_status" => "blocked-cm-contrapositive-referee-audit",
         "direct_live_authority_all_discharged" => true,
