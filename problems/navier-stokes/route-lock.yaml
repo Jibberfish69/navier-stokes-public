@@ -681,12 +681,11 @@ mode_selection_protocol:
     failed, or verification cannot be repaired internally.
 exact_live_theorem_grade_burden: *1
 release_or_respawn_consequence:
-  disposition: submission-candidate
-  next_cell_type: submission
-  next_stage: submission-candidate
-  next_action: Keep generated/status surfaces aligned with live-theorem-edge.yaml
-    and target-operating-contract.yaml; do not respawn positive packet-survival/no-exit
-    labels without a fresh CM-necessity audit.
+  disposition: blocked
+  next_cell_type: solver-loop
+  next_stage: cm-contrapositive-referee-repair
+  next_action: Discharge the CM contrapositive referee audit by proving, demoting,
+    or marking the flagged proof burdens as genuine unresolved logical blockers.
 forward_positive_surface_quarantine:
   status: active-global-demotion
   index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
