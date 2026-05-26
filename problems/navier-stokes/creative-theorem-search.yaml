@@ -40,7 +40,7 @@ branch_pool:
   root_target_obligation_id: source-reserve-birth-charge-a
   root_target_label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
   source_class: source-reserve-active-heightflux-trichotomy-bridge
-  source_status: needs-theorem-creation
+  source_status: historical-context-only
   branch_type: bridge-lemma
   pursuit_mode: co-dependent
   candidate_claim: Create the post-activation theorem ActiveHeightFluxTrichotomy.A
@@ -90,7 +90,7 @@ branch_pool:
     exit.
   - This branch is machine-derived beyond the current frozen core.
   - Use the weakest sufficient move; do not inflate the theorem target.
-  recommended_next_cell_type: theorem-creation
+  recommended_next_cell_type:
   recommended_next_action: Creative theorem search selected post-activation theorem
     `ActiveHeightFluxTrichotomy.A`. Run theorem-creation on the square-reserve to
     active-height-flux trichotomy before another parent source-reserve discharge.
@@ -103,7 +103,7 @@ branch_pool:
   root_target_obligation_id: source-reserve-birth-charge-a
   root_target_label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
   source_class: stalled-dependency-discharge-target
-  source_status: frontier-open
+  source_status: historical-context-only
   branch_type: route-mutation
   pursuit_mode: independent
   candidate_claim: 'Refine the stalled dependency-discharge target source-reserve-birth-charge-a:
@@ -141,7 +141,7 @@ branch_pool:
   notes:
   - This branch starts at the first unresolved frontier.
   - This branch is machine-derived beyond the current frozen core.
-  recommended_next_cell_type: theorem-creation
+  recommended_next_cell_type:
   recommended_next_action: Creative theorem search kept the stalled dependency target
     `source-reserve-birth-charge-a`. Run theorem-creation on that exact obstruction
     instead of mining adjacent source-wall atoms.
@@ -151,12 +151,12 @@ candidate_archive:
   origin_kind: proof-dependency
   label: 'ActiveHeightFluxTrichotomy.A: first-created positive square-reserve surplus
     either produces same-ledger active height flux or already exits Pack/Part/Field'
-  status: needs-theorem-creation
+  status: historical-context-only
   promoted_into_branch_pool: true
 - origin_obligation_id: source-reserve-birth-charge-a
   origin_kind: live-theorem-frontier
   label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
-  status: frontier-open
+  status: historical-context-only
   promoted_into_branch_pool: true
 selected_branch: *1
 summary:
@@ -167,14 +167,14 @@ summary:
   - creative-branch-navier-stokes-1
   - creative-branch-navier-stokes-2
   selected_branch_id: creative-branch-navier-stokes-1
-  selected_next_cell_type: theorem-creation
-  intervention_needed: true
+  selected_next_cell_type:
+  intervention_needed: false
   current_live_blocking_count: 0
   current_live_frontier_count: 0
   stale_surface_status: historical-context-only
 current_authority_status:
   status: superseded-by-direct-live-clearance
-  checked_at: '2026-05-26T01:56:15Z'
+  checked_at: '2026-05-26T02:04:45Z'
   reason: Direct live authority reports no open theorem frontier; this artifact is
     retained as historical theorem-work context and must not respawn a live blocker.
   authority_summary:
