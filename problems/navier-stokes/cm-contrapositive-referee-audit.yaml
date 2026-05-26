@@ -1,0 +1,125 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  artifact_id: cm-contrapositive-referee-audit-navier-stokes
+  generated_at: '2026-05-26T21:15:00Z'
+  generator: codex/referee-sweep
+  audit_scope: Navier-Stokes CM contrapositive proof inclusion and readiness gate
+status:
+  audit_status: blocked-referee-audit
+  pass: false
+  release_eligible: false
+  clay_ready: false
+audit_law:
+  governing_program: Exit(Q):=not Member(Q) through Pack/Part/Field witness faces.
+  positive_to_cm_ultimatum: >-
+    Any unfinished positive proof surface must either convert into CM-test
+    admission plus a concrete Pack/Part/Field face failure, be positively solved,
+    be demoted as support/quarantine/obsolete/moot/logically unreachable, or be
+    flagged as a genuine unresolved logical burden.
+  no_forcing_rule: >-
+    A surviving positive requirement may not be forced into CM language. If it is
+    an authentic logical problem, it blocks Clay readiness.
+classification_summary:
+  cm_route_typed_correctly: true
+  cheap_bad_branch_to_exit_forbidden: true
+  support_quarantine_mostly_installed: true
+  generated_readiness_conflict_detected: true
+  full_clay_submission_certified: false
+blocking_findings:
+  - id: terminal-packet-capture-exhaustion-not-referee-certified
+    severity: high
+    summary: >-
+      Terminal packet capture is asserted at the paper surface by passing to a
+      terminal subsequence and then treating Pack/Part/Field as exhaustive; this
+      audit did not find a referee-grade derivation of the compact terminal
+      object and exhaustion from Navier-Stokes estimates.
+    evidence:
+      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:339
+      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:369
+      - problems/navier-stokes/theorem-construction/mpp-cm-completion-claim-adversarial-audit-20260525.md:201
+    cm_program_effect: >-
+      The fail branch cannot be promoted to Exit(Q) for Clay readiness until the
+      same-fluid terminal object and Pack-first face exhaustion are derived at
+      referee standard.
+  - id: branch-family-exhaustion-and-census-not-record-certified
+    severity: high
+    summary: >-
+      The branch-family exhaustion and non-Euler census state the right CM
+      sorting rule, but the current paper-facing surfaces do not provide the
+      record-by-record derivation needed to make every included branch family
+      proof-bearing rather than diagnostic/support.
+    evidence:
+      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:736
+      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:750
+      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1108
+      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1120
+    cm_program_effect: >-
+      Row-level diagnostic sorting cannot substitute for object-level proof that
+      every promoted failure enters the CM test and lands at its first
+      Pack/Part/Field face.
+  - id: conditional-completion-to-unconditional-clay-closure-gap
+    severity: high
+    summary: >-
+      The completion criterion is conditional on the installed CM witness chain;
+      the generated readiness stack promotes that conditional chain to
+      full-MPP/submission posture even though this audit leaves the terminal
+      capture and branch-exhaustion hinges unresolved.
+    evidence:
+      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1021
+      - problems/navier-stokes/review-verdict.yaml:8
+      - problems/navier-stokes/submission-verdict.yaml:11
+      - problems/navier-stokes/theorem-packet.yaml:389
+    cm_program_effect: >-
+      Generated readiness is demoted below this referee gate. The proof may
+      still be an internally useful CM route, but it is not Clay-ready while
+      this gate is blocked.
+open_logical_burdens:
+  - burden_id: clay-terminal-packet-capture-referee-proof
+    statement: >-
+      Derive the same-fluid finite terminal CM packet object and prove that a
+      Clay finite breakdown witness has no primitive failure service outside
+      Pack_Q, Part_{N,Q}, and Field_{N,r,Q}.
+    allowed_resolutions:
+      - prove positively at referee standard
+      - derive CM-test admission plus Pack/Part/Field first-face failure
+      - prove the surface obsolete, moot, irrelevant, or logically unreachable
+      - identify it as an authentic unresolved logical obstruction
+  - burden_id: branch-family-record-by-record-face-certificate
+    statement: >-
+      For every proof-bearing branch family promoted into the paper, give a
+      checkable certificate of selected terminal object, CM-test admission, first
+      Pack/Part/Field face failure, and Exit(Q):=not Member(Q) readout.
+    allowed_resolutions:
+      - prove the complete certificate ledger
+      - demote unsupported rows to diagnostic/support-only
+      - remove them from Clay-facing proof mass
+  - burden_id: generated-readiness-demotion-sync
+    statement: >-
+      Regenerate theorem-packet, review, submission, release, hardener, MCP, and
+      bundle surfaces so failed referee audit status outranks stale
+      full-MPP/submission-ready labels.
+    allowed_resolutions:
+      - enforce this audit as a blocking gate in code
+      - rerun submission/release surfaces until they report not-ready
+nonblocking_confirmations:
+  - id: source-reserve-not-live-blocker
+    statement: >-
+      SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
+      is support-only after the Pack-first source-reserve audit unless same-ledger
+      payment or CM-test admission plus first-face landing is proved.
+    evidence:
+      - problems/navier-stokes/live-theorem-edge.yaml:24
+      - problems/navier-stokes/dependency-discharge.yaml:291
+  - id: positive-no-exit-not-active-burden
+    statement: >-
+      OriginalSmoothData=>not GenuineCMExit(T_*) is retained as a theorem-sized
+      positive no-exit attempt, not as the current local CM burden.
+    evidence:
+      - problems/navier-stokes/theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md:14
+      - problems/navier-stokes/theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md:26
+required_next_audit:
+  - Run the terminal packet capture proof as a referee proof, not as a label sync.
+  - Build or demote the branch-family record certificate ledger.
+  - Keep all generated readiness surfaces blocked until this audit passes.
