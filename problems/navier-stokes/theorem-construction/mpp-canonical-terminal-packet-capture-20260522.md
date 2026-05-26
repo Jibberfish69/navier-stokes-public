@@ -232,64 +232,40 @@ In particular:
 This is exactly the capture statement needed by
 `AnyFiniteFailureWitnessCMExit.A`.
 
-## Smoothness Burden After Capture
+## Supersession Of The Positive No-Exit Tail
 
-The capture theorem does not rule out finite-time blow-up. It reduces the
-remaining smoothness proof to a no-exit theorem:
+The section formerly named the remaining CM work as `TerminalCMNoExit.A`.
+That is now superseded for the CM contrapositive program.
+
+The live CM use of this note is the Pack-first terminal capture statement:
 
 ```math
-\boxed{
-OriginalSmoothData
+\text{finite terminal obstruction}
 \Longrightarrow
-\neg\Bigl(
 \neg Pack_Q
 \vee
 \neg Part_{N_s,Q}
 \vee
-\forall r>0\,\neg Field_{N_s,r,Q}
-\Bigr)
-}
-\tag{TerminalCMNoExit.A}
+\forall r>0\,\neg Field_{N_s,r,Q}.
 ```
 
-Equivalently:
+The positive no-exit formulation
 
 ```math
-\boxed{
 OriginalSmoothData
 \Longrightarrow
 \exists Q,r>0:
 Pack_Q\wedge Part_{N_s,Q}\wedge Field_{N_s,r,Q}
-}
 ```
 
-on every alleged terminal tail.
+is historical support for a separate positive packet-survival route.  It is not
+the governing CM burden and must not be used to respawn a demand to prove
+smooth data positively stays inside CM.
 
-The current repo does not yet prove this no-exit theorem. Existing direct
-attempts show the pressure points:
-
-1. Pack closure needs a genuine terminal strain/carrier ledger, not just finite
-   preterminal smoothness.
-2. Part closure needs terminal closedness of the pressure-viscosity tower and
-   its readout inputs.
-3. Field closure is the coherence/readout problem after source participation is
-   already lawful. Native positive source residue exits through Pack/Part first;
-   critical paraproduct or receiver residue reaches `not Field` only after the
-   source/participation ledger has been separately licensed.
-
-So the route is now:
-
-```math
-\boxed{
-\text{maximal solution}
-\Longrightarrow
-\text{canonical terminal packet capture}
-\Longrightarrow
-\text{Pack/Part/Field no-exit}
-\Longrightarrow
-\text{continuation}.
-}
-```
-
-The installed theorem here is the capture step. The live remaining theorem is
-`TerminalCMNoExit.A`.
+The active torus-first terminal-capture proof is now
+`mpp-torus-global-material-atlas-terminal-capture-20260526.md`.  It selects the
+whole transported material atlas on `T^3`, makes the selected packet
+readout-complete, and treats failure of atlas selection as `not Pack_Q` rather
+than a fourth service.  Branch-family estimates may support Pack, Part, Field,
+or readout, but they are not proof-bearing unless they land a same-atlas face
+failure.
