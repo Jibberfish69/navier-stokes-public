@@ -62,6 +62,14 @@ def visible_body(path)
   strip_comments(body)
 end
 
+def strip_surface_appendix_input(body)
+  body
+    .gsub("\\input{surface-derivation-appendix.tex}", "")
+    .gsub("\\input{../surface-derivation-appendix.tex}", "")
+    .gsub(/\\IfFileExists\{surface-derivation-appendix\.tex\}\{\}\{\}/, "")
+    .gsub(/\\IfFileExists\{surface-derivation-appendix\.tex\}\{\\input\{surface-derivation-appendix\.tex\}\}\{\\input\{\.\.\/surface-derivation-appendix\.tex\}\}/, "")
+end
+
 def scan_body(path, body, errors)
   FORBIDDEN_VISIBLE_PATTERNS.each do |label, pattern|
     if (match = body.match(pattern))
@@ -80,8 +88,8 @@ errors = []
   next unless path.exist?
 
   body = visible_body(path)
-  appendix_include_position = body.index("\\input{surface-derivation-appendix.tex}")
-  scan_body(path, body.gsub("\\input{surface-derivation-appendix.tex}", ""), errors)
+  appendix_include_position = body.index("surface-derivation-appendix.tex")
+  scan_body(path, strip_surface_appendix_input(body), errors)
 
   if path == MAIN_TEX && appendix_include_position.nil?
     errors << "#{path.relative_path_from(ROOT)}: missing mathematical surface expansion appendix input"
