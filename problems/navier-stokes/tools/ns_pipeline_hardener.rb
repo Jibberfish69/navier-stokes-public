@@ -65,7 +65,7 @@ CURRENT_SOURCE_WALL_ROOT_LABEL = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("
 CURRENT_SOURCE_WALL_ROOT_SUMMARY = [
   CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("theorem_grade_statement"),
   OPEN_ROOT_GROUP.fetch("cm_exit_discipline", nil),
-  "TerminalCMNoExit.A / NoGenuineCMExit.A and positive no-exit packet-survival language are support only; they may not respawn as the live CM burden unless a fresh CM-necessity audit proves a genuine in-class nonsmooth third branch.",
+  "Older positive no-exit / packet-survival language is support only and may not respawn as current CM authority unless a fresh CM-necessity audit proves a genuine in-class nonsmooth third branch.",
   "Generated, manuscript, source-history, runtime, export, and positive-supplier surfaces are support when they conflict with live-theorem-edge.yaml or target-operating-contract.yaml.",
   "The forward-positive quarantine index keeps #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} scanned surfaces out of CM authority unless a named bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}."
 ].compact.join(" ").freeze
@@ -75,14 +75,14 @@ CURRENT_LOWEST_SAFE_CLAIM = "Release only the CM contrapositive claim certified 
 CURRENT_ROUTE_SUMMARY = [
   "The active CM route is the pass-or-exit proof engine: follow the ordinary positive proof program until a real obstruction is reached, read the pass branch as the in-class Member(Q) continuation branch, and read the fail branch as Exit(Q):=not Member(Q) only after CM-test entry plus a concrete Pack/Part/Field face failure.",
   "ClayTerminalWitnessCMEntry.A, ClayFiniteFailureTypeCMExhaustion.A, and ClayCMContrapositiveEmbedding.A are the governing theorem family.",
-  "Older TerminalCMNoExit.A / NoGenuineCMExit.A, source-reserve, signed-pair, no-free-sink, source-wall, and positive-supplier presentations are support or historical diagnostics until they pass the same CM-necessity test."
+  "Older positive packet-survival/no-exit, source-reserve, signed-pair, no-free-sink, source-wall, and positive-supplier presentations are support or historical diagnostics until they pass the same CM-necessity test."
 ].join(" ").freeze
 CURRENT_WITNESS_FORM = "finite same-surface terminal CM witness: CM-test entry followed by not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, which supports Exit(Q):=not Member(Q)"
 CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE = {
   "disposition" => "submission-candidate",
   "next_cell_type" => "submission",
   "next_stage" => "submission-candidate",
-  "next_action" => "Keep generated/status surfaces aligned with live-theorem-edge.yaml and target-operating-contract.yaml; do not respawn TerminalCMNoExit.A / NoGenuineCMExit.A without a fresh CM-necessity audit."
+  "next_action" => "Keep generated/status surfaces aligned with live-theorem-edge.yaml and target-operating-contract.yaml; do not respawn positive packet-survival/no-exit labels without a fresh CM-necessity audit."
 }.freeze
 OPEN_ASSEMBLY_OBLIGATIONS = [].freeze
 OPEN_ASSEMBLY_OBLIGATION_IDS = OPEN_ASSEMBLY_OBLIGATIONS.map { |entry| entry.fetch("obligation_id") }.freeze
@@ -159,7 +159,7 @@ def support_chain_boundary
 end
 
 def warrant_demotion_prefix
-  "Direct-live repair: historical four-bridge, positive-support, TerminalCMNoExit, no-genuine-exit, source-wall, and no-free-sink warrants remain support context only. Live authority stays with the CM pass-or-exit branch law, `Exit(Q):=not Member(Q)`, and the Pack/Part/Field witness-face route."
+  "Direct-live repair: historical four-bridge, positive-support, packet-survival, source-wall, and no-free-sink warrants remain support context only. Current authority stays with the CM pass-or-exit branch law, `Exit(Q):=not Member(Q)`, and the Pack/Part/Field witness-face route."
 end
 
 def with_single_warrant_demotion_prefix(note)
@@ -182,7 +182,7 @@ def sanitize_theorem_surface!(surface)
   surface["current_authority"] = {
     "target_operating_contract_path" => "problems/navier-stokes/target-operating-contract.yaml",
     "direct_live_surfaces" => Array(NS_AUTHORITY_HIERARCHY["source_priority"]).first(6),
-    "open_root_group_id" => CURRENT_SOURCE_WALL_ROOT_ID,
+    "installed_root_group_id" => CURRENT_SOURCE_WALL_ROOT_ID,
     "proof_mode_must_be_selected" => true
   }
   Array(surface["route_slots"]).each do |slot|
@@ -782,7 +782,7 @@ def sanitize_object_formalization(object_formalization)
     packet["object_name"] = "cm_pass_or_exit_witness_face_route"
     packet["object_role"] = "current direct-live CM authority context"
     packet["theorem_role"] = CURRENT_ROUTE_SUMMARY
-    packet["problem_hint"] = "Do not respawn source-wall, no-genuine-exit, or positive packet-survival slogans as local theorem targets without a fresh CM-necessity audit."
+    packet["problem_hint"] = "Do not respawn source-wall or positive packet-survival/no-exit slogans as local theorem targets without a fresh CM-necessity audit."
   end
 
   summary = object_formalization["summary"]
@@ -857,7 +857,7 @@ def sanitize_route_lock(route_lock)
     "status" => "direct-live-target-topology-active",
     "target_operating_contract_path" => "problems/navier-stokes/target-operating-contract.yaml",
     "direct_live_surfaces" => Array(NS_AUTHORITY_HIERARCHY["source_priority"]).first(6),
-    "open_root_group_id" => CURRENT_SOURCE_WALL_ROOT_ID,
+    "installed_root_group_id" => CURRENT_SOURCE_WALL_ROOT_ID,
     "object_law_remains_governing" => true
   }
   route_lock["authority_split_resolution"] = {
@@ -895,7 +895,7 @@ def sanitize_theorem_to_warrant(warrant)
     "status" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status"),
     "terminal_safe" => true,
     "required_before_terminal_release" => [],
-    "rule" => "Direct live CM authority controls this surface. TerminalCMNoExit.A / NoGenuineCMExit.A is support only and cannot respawn from this warrant."
+    "rule" => "Direct live CM authority controls this surface. Positive packet-survival/no-exit language is support only and cannot respawn from this warrant."
   }
   attach_target_topology!(warrant)
   warrant
