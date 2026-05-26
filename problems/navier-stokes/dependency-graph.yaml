@@ -1,13 +1,12 @@
 ---
-version: 2
+version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: dependency-graph-navier-stokes
-  generated_at: '2026-05-07T00:51:03Z'
+  generated_at: '2026-05-26T01:35:46Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: frontier-open
+status: passed
 pass: true
-release_eligible: false
 source:
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
@@ -15,109 +14,8 @@ source:
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
   release_decision: problems/navier-stokes/release-decision.yaml
 summary:
-  total_obligations: 15
-  blocking_count: 1
-  frontier_count: 1
-  all_discharged: false
-  authority_mode: direct-live-surfaces
-  unresolved_count: 1
-  bridge_discharge_blocking_count: 1
-  theorem_warrant_blocking_count: 1
-  open_frontier_labels:
-  - source-wall-root-after-reconcile
-  node_count: 8
-  active_frontier: 'The Clay-facing CM frontier is TerminalCMNoExit.A / NoGenuineCMExit.A:
-    prove original smooth Navier-Stokes data leaves at least one continuation-complete
-    Pack/Part/Field packet on every alleged finite terminal tail. Source-residue and
-    B_ASAC terminal residue subcases are already sorted as Pack/Part witness or supplier-quarantined
-    support; they are not bare anti-atom deletion burdens and do not close the no-exit
-    theorem. The historical PRD/LPSC/SquareSourceEstimate.A/ActiveShellAmplitudeGain.A/non-Carleson
-    Zeno source-control entrances are quarantined support for a downstream no-pulse
-    program. They are not terminal Zeno CM obligations. The May 17 parallel completion
-    pass remains evidence that those forward entrances are not installed CM inputs:
-    PRD needs SourceWeightedTerminalAngularDepletion.A, LPSC returns to PRD, SquareSourceEstimate.A
-    and ActiveShellAmplitudeGain.A return to ActiveShellSourceNormalize.A / active-square
-    reserve, and the non-Carleson Zeno route needs TerminalSourceReverseHolder.A /
-    UniformTemporalSourceIntegrability_p.A or a produced rigid residue class with
-    Liouville. The equality route under SourceWeightedTerminalAngularDepletion.A has
-    ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A installed.
-    The May 21 terminal Zeno correction classifies any B_ASAC^closed terminal atom
-    as endpoint Pack failure: finite Zeno ancestry packets may be legal, but the terminal
-    zero-radius residue is not a retained positive-radius packet. NoPersistentUnpaidPositiveRadiusAncestry.A
-    closes the positive-radius retained tail by the shared-participation strip balance:
-    a positive terminal carrier must pay, receive incoming participation flux, leave
-    through a legal ledger, or hit a finite CM face. BASACTerminalAtomCMFaceLabeling.A,
-    RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
-    remain finite-ancestry accounting and post-exit readout support. This settles
-    the terminal Zeno endpoint for CM Pack-legality without leaving a forward positive-supplier
-    burden attached to it. The May 17 eigenframe and pressure-Hessian attempts add
-    OneSidedNearBandMaterialStrainBV.A / TerminalPressureHessianNoSustain.A as a signed
-    near-band source-current obstruction, not a new CM face or an installed pressure-sustain
-    theorem. The forward-positive quarantine index demotes every scanned positive-smoothness,
-    positive-supplier, transfer, receiver/readout, export, and already-demoted positive
-    surface for CM use: 1853 indexed surfaces remain support unless a named bridge
-    lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.'
-nodes:
-- id: theorem-statement
-  kind: theorem-statement
-  label: Every smooth divergence-free zero-mean initial datum on T^3 with f=0 generates
-    a global smooth classical three-dimensional incompressible Navier-Stokes solution.
-  status: grounded
-  blocking: false
-  source_anchor: problems/navier-stokes/debt-map.yaml
-- id: debt-heightfluxcontrol-a-via-terminalweightednofreesink-a
-  kind: lemma
-  label: HeightFluxControl.A via TerminalWeightedNoFreeSink.A
-  status: grounded
-  blocking: false
-  source_anchor: theorem-construction/mpp-viscosity-no-fold-current-reduction-20260506.md;
-    theorem-construction/mpp-active-height-flux-trichotomy-route-20260506.md; theorem-construction/mpp-asac-parent-drain-assembly-20260506.md;
-    theorem-construction/mpp-nearband-material-source-after-asac-reduction-20260506.md;
-    theorem-construction/mpp-one-sided-pair-weight-defect-after-asac-20260506.md;
-    theorem-construction/mpp-terminal-weighted-no-free-sink-after-asac-20260506.md;
-    theorem-construction/mpp-zeno-source-residue-frontier-after-asac-20260506.md;
-    theorem-construction/mpp-asap-closure-better-ideas-20260506.md
-- id: debt-temporalnonatomicsource-a-or-scalecriticaltreecarleson-a
-  kind: lemma
-  label: TemporalNonAtomicSource.A or ScaleCriticalTreeCarleson.A
-  status: grounded
-  blocking: false
-  source_anchor: theorem-construction/mpp-zeno-source-residue-frontier-after-asac-20260506.md;
-    theorem-construction/mpp-zeno-rigid-class-next-attempt-20260505.md; theorem-construction/mpp-temporal-nonatomic-source-theorem-test-20260505.md;
-    theorem-construction/mpp-uniform-temporal-integrability-next-attempt-20260505.md
-- id: debt-zeroheattimesourceresidue-a-classification
-  kind: lemma
-  label: ZeroHeatTimeSourceResidue.A classification
-  status: grounded
-  blocking: false
-  source_anchor: theorem-construction/mpp-temporal-atom-viscosity-participation-classification-20260506.md;
-    theorem-construction/mpp-zeno-source-residue-frontier-after-asac-20260506.md
-- id: debt-nozeroheattimeresidueinsidensclass-a-attempt
-  kind: lemma
-  label: NoZeroHeatTimeResidueInsideNSClass.A attempt
-  status: grounded
-  blocking: false
-  source_anchor: theorem-construction/mpp-no-zero-heat-time-residue-inside-nsclass-attempt-20260506.md;
-    theorem-construction/mpp-temporal-atom-viscosity-participation-classification-20260506.md
-- id: debt-fullcoefficientlinearizedadjointkernel-a
-  kind: lemma
-  label: FullCoefficientLinearizedAdjointKernel.A
-  status: grounded
-  blocking: false
-  source_anchor: theorem-construction/mpp-full-coefficient-response-drain-assembly-20260506.md;
-    theorem-construction/mpp-full-coefficient-linearized-adjoint-kernel-route-20260506.md;
-    theorem-construction/mpp-full-coefficient-good-packet-stop-attempt-20260506.md;
-    theorem-construction/mpp-full-coeff-stop-parent-gap-attempt-20260506.md
-- id: source-wall-root-after-reconcile
-  kind: live-theorem-frontier
-  label: source-wall-root-after-reconcile
-  status: frontier-open
-  blocking: true
-  source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-- id: terminalcmnoexit-a-nogenuinecmexit-a
-  kind: live-theorem-frontier
-  label: TerminalCMNoExit.A / NoGenuineCMExit.A
-  status: frontier-open
-  blocking: true
-  source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+  node_count: 0
+  blocking_count: 0
+  all_discharged: true
+nodes: []
 edges: []
