@@ -34,7 +34,28 @@ classification_summary:
   whole_space_export_certified: false
   full_clay_submission_certified: false
   manuscript_spine_rewrite_completed: true
+  comprehensive_switch_rescan_20260526_complete: true
+  readiness_overlay_hardener_refreshed: true
+  active_torus_first_unconverted_positive_switches_detected: false
+  surviving_full_submission_burden: whole-space-export-or-scope-alignment
 working_pass_results:
+- id: comprehensive-cm-switch-and-generated-overlay-sweep
+  status: completed
+  evidence:
+  - problems/navier-stokes/cm-contrapositive-comprehensive-diagnostic-sweep-20260526.yaml
+  - problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
+  - problems/navier-stokes/non-euler-cm-contrapositive-proof-certificates-20260514.yaml
+  - problems/navier-stokes/cm-branch-family-certificate-ledger-20260526.yaml
+  - problems/navier-stokes/tools/ns_pipeline_hardener.rb
+  result: >-
+    A fresh multi-pass diagnostic sweep found no active torus-first CM switch
+    accepted merely by label. Proof-bearing torus-first material is either solved
+    at the packet/readout level, lawfully converted to Pack/Part/Field face exit,
+    or demoted as support. Readiness overlays were hardened so the blocked CM
+    referee gate suppresses stale submission-candidate/export-ready tails on the
+    key generated surfaces.
+  remaining_boundary: Whole-space R^3 export or explicit periodic-scope alignment
+    remains the surviving full-submission burden.
 - id: torus-global-material-atlas-terminal-capture
   status: discharged-for-active-torus-first-surface
   evidence:
