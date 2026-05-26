@@ -58,12 +58,6 @@ artifacts:
 blockers:
 - The theorem packet localizes definitions, lemma surfaces, theorem statement, and
   proof dependencies strongly enough to support export-facing review.
-- The local package is stable enough to review, and `draft-v8.md` now serves as the
-  export-ready paper source for this package.
-- The `draft-v7.md` surface is now a live manuscript artifact aligned with the current
-  export-ready bundle.
-- The current package is coherent enough to clear a full-MPP closure release if the
-  export bundle remains intact.
 - The installed terminal-capture proof is for the active torus-first surface. A Clay-facing
   whole-space R^3 claim still needs a separate tightness/localization export theorem.
 - If the submitted claim is the full R^3 Clay statement, prove an export theorem from
@@ -84,12 +78,11 @@ summary:
   queue_effect: blocked
   registry_note: problem is blocked at release gate
 release_or_respawn_consequence:
-  disposition: submission-candidate
-  next_cell_type: submission
-  next_stage: submission-candidate
-  next_action: Keep generated/status surfaces aligned with live-theorem-edge.yaml
-    and target-operating-contract.yaml; do not respawn positive packet-survival/no-exit
-    labels without a fresh CM-necessity audit.
+  disposition: blocked
+  next_cell_type: solver-loop
+  next_stage: cm-contrapositive-referee-repair
+  next_action: Discharge the CM contrapositive referee audit by proving, demoting,
+    or marking the flagged proof burdens as genuine unresolved logical blockers.
 cm_contrapositive_referee_gate:
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   status: blocked
