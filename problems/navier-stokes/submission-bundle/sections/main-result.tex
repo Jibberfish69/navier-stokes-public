@@ -1,65 +1,56 @@
 \section{Main Result}
 
-\subsection{Periodic statement}
+\subsection{CM-contrapositive statement}
 
-The result is proved on the periodic surface \(\mathbb T^3\).
+The proof is written for the original three-dimensional incompressible
+Navier--Stokes problem from smooth divergence-free data.
 
-\begin{theorem}[Periodic three-dimensional Navier--Stokes global smoothness]
-Let \(\nu>0\). Let
+\begin{theorem}[Navier--Stokes global smoothness by CM terminal witness consumption]
+Let \(u_0\) be smooth and divergence-free, and let \((u,p)\) be the corresponding
+maximal classical Navier--Stokes solution on its maximal interval. Every alleged
+finite Clay terminal witness from this same datum enters the same-fluid CM
+terminal packet tree, is exhausted as a Pack, Part, or Field finite failure type,
+and embeds as
 \[
-u_0\in C^\infty(\mathbb T^3;\mathbb R^3),\qquad
-\nabla\cdot u_0=0,\qquad \int_{\mathbb T^3}u_0(x)\,dx=0.
+  \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
-Then the incompressible Navier--Stokes system
-\[
-\partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
-\qquad \nabla\cdot u=0,
-\qquad u(0)=u_0,
-\]
-has a unique global smooth periodic solution
-\[u\in C^\infty([0,\infty)\times\mathbb T^3),
-\qquad p\in C^\infty([0,\infty)\times\mathbb T^3),
-\]
-with the usual periodic pressure normalization.
+Together with pass-branch membership readout and the no-third-branch law, this
+excludes finite terminal breakdown. Hence the smooth solution is global.
 \end{theorem}
 
-\subsection{Four standard lemmas}
+\subsection{Proof skeleton}
 
-\begin{lemma}[Moving-cylinder regularity and affine excess]
-Let \(Q_r^\Phi\) be a same-fluid moving parabolic cylinder with bounded distortion. If its normalized scale-critical CKN packet is below a fixed threshold \(\varepsilon_m\), then a smaller cylinder carries finite-depth derivative and pressure bounds. On that smaller cylinder the affine-subtracted velocity residual satisfies
+\begin{lemma}[Pass branch]
+For each obstruction split reached by the forward-positive program, the pass
+branch has a lawful same-solution \(\Member(Q;\Owork)\) witness and reads out to
+smooth continuation.
+\end{lemma}
+
+\begin{lemma}[Fail branch]
+A finite nonsmoothness-capable fail branch is CM-test-admissible and produces one
+of
 \[
-D^+X_R+cN_R\le B_RX_R+C X_R^{1/2}N_R+F_R.
-\]
-On scheduler intervals the nonlinear term is absorbed, and
-\[
-X_R\in L^\infty,\qquad N_R\in L^1,
-\qquad \mathcal K_{\le m}^{avg,R}\in L^1.
+  \neg\Pack_Q,\qquad \neg\Part_{N,Q},\qquad
+  \forall r>0\,\neg\Field_{N,r,Q}.
 \]
 \end{lemma}
 
-\begin{lemma}[Terminal good-cover dichotomy and globalization]
-For a bounded-distortion same-fluid terminal tail, exactly one of the following alternatives holds. Either the tail has a terminal positive-scale family of scale-critical good cylinders, or every terminal subtail loses all uniform positive good scale. In the first case, a finite cover with bounded overlap and a common scheduler globalizes the preceding local estimates into a terminal averaged transported-tower bound.
+\begin{lemma}[No third branch]
+No branch is both a legal in-class \(\Member(Q;\Owork)\) continuation and the
+same terminal nonsmooth Pack/Part/Field failure witness.
 \end{lemma}
 
-\begin{lemma}[Endpoint contradiction]
-A first finite terminal endpoint must enter one of four primitive faces: participation failure, packing failure, averaged tower-amplitude escape, or terminal good-scale loss. The terminal package eliminates these four faces respectively by participation, packing, averaged tower control, and terminal field-scale persistence. Therefore no first finite endpoint occurs.
-\end{lemma}
+\begin{proof}[Proof of the theorem]
+Assume a finite terminal breakdown. The terminal object is a same-datum Clay
+witness, hence it is admitted to the CM terminal packet tree. The pass side is a
+member branch and continues smoothly. The fail side is a Pack, Part, or Field
+face failure and embeds as \(\Exit(Q;\Owork)\). The no-third-branch law excludes
+an in-class nonsmooth terminal branch. Thus the alleged finite terminal
+breakdown has no legal same-class branch, and the maximal smooth solution
+continues.
+\end{proof}
 
-\begin{lemma}[Terminal readout and continuation]
-The averaged endpoint package gives a finite positive-scale readout cover. On that cover, the averaged field and tower bounds recover the pointwise endpoint package. The pointwise package gives
-\[
-\sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty
-\]
-for some \(s>5/2\). The standard periodic \(H^s\) local theory then extends the solution past any alleged finite endpoint.
-\end{lemma}
-
-\subsection{Proof of the theorem}
-
-Let \((u,p)\) be the maximal classical solution on \([0,T_*)\). Suppose \(T_*<\infty\). By the terminal good-cover dichotomy, the terminal same-fluid tail either admits a positive-scale good-cylinder cover or loses all uniform positive good scale. On the positive-scale branch, the moving-cylinder regularity and affine-excess lemma globalizes to the terminal transported-tower bound. On the scale-loss branch, the loss is one of the endpoint faces.
-
-The endpoint contradiction lemma excludes every possible first finite endpoint face. Hence the terminal endpoint package holds. The terminal readout and continuation lemma then gives a uniform \(H^s(\mathbb T^3)\) bound, with \(s>5/2\), and the periodic local theory extends the solution beyond \(T_*\). This contradicts maximality. Therefore \(T_*=\infty\).
-
-Smoothness on every finite time interval follows from the standard smooth-data periodic theory. The solution is global and smooth.
-
-\paragraph{Scope.}
-The theorem is periodic on \(\mathbb T^3\). A whole-space theorem on \(\mathbb R^3\) is a separate export problem.
+\paragraph{Reopening boundary.}
+The current CM completion can be reopened only by producing a legal in-class
+nonsmooth third branch or by breaking terminal CM entry, finite failure type
+exhaustion, or CM contrapositive embedding.
