@@ -18,8 +18,8 @@ posture:
     stale_surface_status: historical-context-only
 supporting_sections:
   reviewer_risks:
-  - Historical debt rows are retained as provenance only; direct-live authority,
-    review, submission, release, and audit surfaces currently clear full-MPP closure.
+  - Historical debt rows are retained as provenance only; direct-live authority, review,
+    submission, release, and audit surfaces currently clear full-MPP closure.
   required_local_explanations: []
   post_release_theorem_upgrade_gaps: []
   promotion_rule:
@@ -34,9 +34,9 @@ debt_items:
 - debt_id: terminalcmnoexit-a-nogenuinecmexit-a-pack-landing
   label: Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
   source_section: direct-live-authority-face-gate
-  monograph_status: Historical Pack-face split superseded by the installed Clay
-    terminal witness entry, finite failure type exhaustion, and CM contrapositive
-    embedding family; retained as provenance only.
+  monograph_status: Historical Pack-face split superseded by the installed Clay terminal
+    witness entry, finite failure type exhaustion, and CM contrapositive embedding
+    family; retained as provenance only.
   standalone_need: 'no'
   primary_anchors:
   - problems/navier-stokes/live-theorem-edge.yaml
@@ -88,9 +88,9 @@ debt_items:
 - debt_id: terminalcmnoexit-a-nogenuinecmexit-a-part-landing
   label: Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
   source_section: direct-live-authority-face-gate
-  monograph_status: Historical Part-face split superseded by the installed Clay
-    terminal witness entry, finite failure type exhaustion, and CM contrapositive
-    embedding family; retained as provenance only.
+  monograph_status: Historical Part-face split superseded by the installed Clay terminal
+    witness entry, finite failure type exhaustion, and CM contrapositive embedding
+    family; retained as provenance only.
   standalone_need: 'no'
   primary_anchors:
   - problems/navier-stokes/live-theorem-edge.yaml
@@ -138,9 +138,9 @@ debt_items:
 - debt_id: terminalcmnoexit-a-nogenuinecmexit-a-field-landing
   label: Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
   source_section: direct-live-authority-face-gate
-  monograph_status: Historical Field-face split superseded by the installed Clay
-    terminal witness entry, finite failure type exhaustion, and CM contrapositive
-    embedding family; retained as provenance only.
+  monograph_status: Historical Field-face split superseded by the installed Clay terminal
+    witness entry, finite failure type exhaustion, and CM contrapositive embedding
+    family; retained as provenance only.
   standalone_need: 'no'
   primary_anchors:
   - problems/navier-stokes/live-theorem-edge.yaml
@@ -244,7 +244,7 @@ summary:
   stale_surface_status: historical-context-only
 current_authority_status:
   status: superseded-by-direct-live-clearance
-  checked_at: '2026-05-26T02:16:42Z'
+  checked_at: '2026-05-26T20:06:59Z'
   reason: Direct live authority reports no open theorem frontier; this artifact is
     retained as historical theorem-work context and must not respawn a live blocker.
   authority_summary:
