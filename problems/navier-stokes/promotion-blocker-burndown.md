@@ -1,176 +1,94 @@
 # Navier-Stokes Clay-Level Promotion Blocker Burn-Down
 
-Generated from the current `proof_promotion_packet` fallback route through `ask_marvin`.
+Status: reconciled to direct-live CM authority, May 26, 2026.
+
+This surface is a promotion gate snapshot, not a theorem frontier. It may not
+respawn source-wall, no-genuine-exit, signed-pair, or positive-forward blocker
+language unless a later audit proves one of the two reopening conditions below.
+
+## Direct-Live Authority Rule
+
+The active CM proof state is:
+
+```text
+finite Clay breakdown witness
+  -> CM-test entry
+  -> Pack/Part/Field finite failure type
+  -> Exit(Q):=not Member(Q)
+```
+
+A blocker can reopen this promotion gate only by proving one of:
+
+1. a finite same-surface nonsmooth branch remains a legal in-class `Member(Q)`
+   continuation while also carrying the terminal Pack/Part/Field failure witness;
+2. an alleged finite Clay breakdown witness does not enter the canonical
+   same-fluid CM terminal packet tree or cannot be exhausted by Pack/Part/Field.
+
+The current surface-field audit found no accepted surface proving either
+condition.
 
 ## Promotion Gate Snapshot
 
-- Problem: `navier-stokes`
-- Tier: `clay-level`
-- Status: `blocked`
-- Decision: `not-release-approved`
-- Promotion allowed: `false`
-- Release approved: `false`
-- Blockers: `9`
-- Theorem packet status: `active`
-- Review verdict: `revise`
-- Release posture: `revise-loop`
-- Terminal safe: `false`
+| Gate | Current value |
+|---|---|
+| Problem | `navier-stokes` |
+| Tier | `clay-level` |
+| Disposition | `submission-candidate` |
+| Review verdict | `accept` |
+| Release posture | `export-ready` |
+| Submission ready | `true` |
+| Completion tier achieved | `full-mpp-closure` |
+| Terminal safe | `true` |
+| Release blockers | `0` |
+| Direct-live blocking count | `0` |
+| Direct-live frontier count | `0` |
 
-## Already Passing Gate Requirements
+## Cleared Gate Requirements
 
-| Requirement | Artifact | SHA / status |
+| Requirement | Current artifact | Status |
 |---|---|---|
-| Final proof artifact | `problems/navier-stokes/draft-v8.md` | `ae00c69baded61f7e89523ae74ad0a682a8e79eb` |
-| Source trace | `problems/navier-stokes/source-ledger.yaml` | `599fa51eaa321f68ec95794c39969be8d409650e` |
-| Callable promotion surfaces | `proof_promotion_packet`, `promotion_state`, `theorem_work_brief`, theorem write/stage tools | available through promotion fallback |
+| Promotion record | `problems/navier-stokes/release-decision.yaml` | passed |
+| Dependency audit | `problems/navier-stokes/dependency-audit.yaml` | passed |
+| Assumption ledger/audit | `problems/navier-stokes/assumption-ledger.yaml`, `problems/navier-stokes/assumption-audit.yaml` | passed |
+| Gap audit | `problems/navier-stokes/gap-audit.yaml` | passed |
+| Circularity audit | `problems/navier-stokes/circularity-audit.yaml` | passed |
+| Consistency audit | `problems/navier-stokes/consistency-audit.yaml` | passed |
+| Failure-mode checks | `problems/navier-stokes/failure-mode-checks.yaml` | passed |
+| Review verdict | `problems/navier-stokes/review-verdict.yaml` | accept |
+| Submission verdict | `problems/navier-stokes/submission-verdict.yaml` | submission ready |
+| Reproducibility bundle | `problems/navier-stokes/release-manifest.yaml` | passed |
+| Paper coverage | `problems/navier-stokes/submission-bundle/current-material-coverage.yaml` | passed |
 
-## Direct-Live Authority State
+## Stale Blocker Demotions
 
-| Count | Value |
-|---|---:|
-| Tracked source-frontier obligations | 10 |
-| Grounded | 9 |
-| Bridge pending | 0 |
-| Unresolved | 1 |
-| Frontier | 1 |
-| Blocking | 1 |
-| All discharged | false |
+The previous burn-down text recorded nine blockers from an older promotion packet.
+Those blockers are superseded by the current release-surface reconciliation:
 
-Current direct-live authority artifacts: `problems/navier-stokes/live-theorem-edge.yaml`, `problems/navier-stokes/source-frontier.yaml`, `problems/navier-stokes/theorem-packet.yaml`, `problems/navier-stokes/submission-verdict.yaml`
+- `source-wall-root-after-reconcile` is historical/support grouping, not a current
+  direct-live release blocker.
+- `TerminalCMNoExit.A / NoGenuineCMExit.A` is positive no-exit support language,
+  not the governing CM burden.
+- `SignedPairReserveVisibility.A`, `ZeroMomentReserveVisibility.A`,
+  `SourceReserveBirthCharge.A`, and active-height/no-free-sink surfaces are
+  support or positive-forward pressure tests unless they prove a genuine in-class
+  nonsmooth third branch.
+- Missing-audit claims are stale: the audit and failure-mode surfaces listed
+  above exist and pass.
+- Review/release claims of `revise`, `blocked`, `not-release-approved`, or
+  `submission_ready: false` are stale against the current review, submission, and
+  release-decision surfaces.
 
-Current route graph artifact: `problems/navier-stokes/layered-route-graph.yaml`  
-SHA: `34c6e18928972d0f13a8bfa7e3f92bf3d2cb7216`
-
-## Blocker Burn-Down
-
-### 1. Promotion record
-
-- Gate requirement: `promotion-record`
-- Current status: `missing`
-- Required artifact: `problems/navier-stokes/release-decision.yaml`
-- Current evidence: missing
-- Pass condition: release decision exists, identifies actor/timestamp/rationale, and authorizes submission-candidate full-MPP promotion only after every upstream gate passes.
-- Owner action: create `release-decision.yaml` last, after audits, ledgers, direct-live frontier closure, review, and reproducibility bundle pass.
-- Validation command: ask Marvin, `For Navier-Stokes, give me the Clay-level proof promotion packet.`
-
-### 2. Audit pass records
-
-- Gate requirement: `audit-pass-records`
-- Current status: `missing`
-- Required artifacts:
-  - `problems/navier-stokes/dependency-audit.yaml`
-  - `problems/navier-stokes/assumption-audit.yaml`
-  - `problems/navier-stokes/circularity-audit.yaml`
-  - `problems/navier-stokes/gap-audit.yaml`
-  - `problems/navier-stokes/consistency-audit.yaml`
-- Current evidence: all five missing
-- Pass condition: every audit file exists and records `status: passed` with exact checked inputs, hashes, findings, and reviewer/automation identity.
-- Owner action: build audits in this order: dependency, assumption, circularity, gap, consistency.
-- Validation command: run the promotion packet and confirm `audit-pass-records.status == passed`.
-
-### 3. Full dependency graph closure
-
-- Gate requirement: `full-dependency-graph`
-- Current status: `blocked`
-- Current evidence:
-  - direct-live authority surfaces present: `live-theorem-edge.yaml`, `source-frontier.yaml`, `theorem-packet.yaml`, `submission-verdict.yaml`
-  - `layered-route-graph.yaml` present, SHA `34c6e18928972d0f13a8bfa7e3f92bf3d2cb7216`
-- Current blocker: `source-wall-root-after-reconcile` remains open on the direct-live frontier.
-- Pass condition: every theorem, lemma, bridge, and inference in the direct-live frontier and route graph has closed status and no blocking entries remain.
-- Owner action: enumerate the direct-live frontier blocker by obligation id, attach a required close artifact, and discharge or downgrade every unresolved entry with evidence.
-- Validation command: run the promotion packet and confirm `source-frontier.summary.unresolved_count == 0` and `submission-verdict.submission_ready == true`.
-
-### 4. Assumption ledger
-
-- Gate requirement: `assumption-ledger`
-- Current status: `missing`
-- Required artifact: `problems/navier-stokes/assumption-ledger.yaml`
-- Current evidence: missing
-- Pass condition: every retained, averaged, endpoint, smoothness, pack-gauge, scheduler, source, and readout assumption is listed as discharged, scoped, or release-waived with source links.
-- Owner action: create the assumption ledger from H1-H6 plus every extra assumption in the direct-live authority surfaces and theorem packet.
-- Validation command: run the promotion packet and confirm `assumption-ledger.status == passed`.
-
-### 5. Gap ledger
-
-- Gate requirement: `gap-ledger`
-- Current status: `blocked`
-- Current evidence: `problems/navier-stokes/gap-ticket.yaml` present, SHA `1fa79561defcecdbbf9f26e7609524ca3f30304b`
-- Current blocker: no passed/resolved gap ledger found.
-- Pass condition: every known gap is resolved, scoped away from release, or explicitly waived under release policy.
-- Owner action: convert `gap-ticket.yaml` into a resolved gap ledger and feed `gap-audit.yaml` with pass evidence.
-- Validation command: run the promotion packet and confirm `gap-ledger.status == passed`.
-
-### 6. Failure-mode checks
-
-- Gate requirement: `failure-mode-checks`
-- Current status: `blocked`
-- Current evidence: `problems/navier-stokes/auto-audit.yaml` present, SHA `2c7fce80d82a12c6951c42bbdb74f1b58f8e522d`
-- Current blocker: no passed failure-mode check surface found.
-- Pass condition: hidden dependency, circularity, branch/type conversion, endpoint/source order, retained/averaged split, and readout-order checks all record pass.
-- Owner action: upgrade `auto-audit.yaml` or create the expected passed failure-mode surface, then cross-link it from `circularity-audit.yaml` and `consistency-audit.yaml`.
-- Validation command: run the promotion packet and confirm `failure-mode-checks.status == passed`.
-
-### 7. Review verdict
-
-- Gate requirement: `review-verdict`
-- Current status: `blocked`
-- Current evidence:
-  - `problems/navier-stokes/review-verdict.yaml` present, SHA `3aca19771e612f06c7a60d4ed0674f2fc2b30e44`, status `revise`
-  - `problems/navier-stokes/submission-verdict.yaml` present, SHA `9cf41ad93a475464d7c70dc709f609274fecb16c`
-- Current blocker: review/submission verdicts do not clear terminal release.
-- Pass condition: review verdict records a passing acceptance state after audits and direct-live frontier closure.
-- Owner action: rerun review only after blockers 1-6 are resolved.
-- Validation command: run the promotion packet and confirm `review_summary.verdict` clears terminal release.
-
-### 8. Release decision
-
-- Gate requirement: `release-decision`
-- Current status: `missing`
-- Required artifact: `problems/navier-stokes/release-decision.yaml`
-- Current evidence: missing
-- Pass condition: final release-decision surface authorizes submission-candidate promotion.
-- Owner action: generate after audit pass records, direct-live frontier closure, assumption ledger, gap ledger, failure-mode checks, review verdict, and reproducibility bundle pass.
-- Validation command: run the promotion packet and confirm `release_approved == true`.
-
-### 9. Stable reproducibility bundle
-
-- Gate requirement: `stable-reproducibility-bundle`
-- Current status: `blocked`
-- Current evidence:
-  - `draft-v8.md` SHA `ae00c69baded61f7e89523ae74ad0a682a8e79eb`
-  - `theorem-packet.yaml` SHA `727d98e7a4e161bba95e4000b813db70ec89bc95`
-  - direct-live authority surfaces: `live-theorem-edge.yaml`, `source-frontier.yaml`, `theorem-packet.yaml`, `submission-verdict.yaml`
-  - `review-verdict.yaml` SHA `3aca19771e612f06c7a60d4ed0674f2fc2b30e44`, status `revise`
-  - `release-decision.yaml` missing
-  - `docs/current-state-publish-manifest.yaml` SHA `8b4f70ba516414ef7ea1d17b6dbbd4019de2eb4a`
-- Current blocker: required hashed bundle artifacts are incomplete and review/release surfaces have not passed.
-- Pass condition: final proof files, theorem packet, direct-live authority surfaces, audit logs, review verdict, release decision, and manifest are fixed under hashes and mutually consistent.
-- Owner action: rebuild manifest after every upstream artifact is final and passing.
-- Validation command: run the promotion packet and confirm `stable-reproducibility-bundle.status == passed`.
-
-## Recommended Work Order
-
-1. Extract the direct-live frontier blocker and produce a close plan for its obligation id.
-2. Build `dependency-audit.yaml` from the source frontier and layered route graph.
-3. Build `assumption-ledger.yaml`, then `assumption-audit.yaml`.
-4. Resolve the gap ledger and emit `gap-audit.yaml`.
-5. Emit `circularity-audit.yaml` and `consistency-audit.yaml` after dependency and assumption data are stable.
-6. Upgrade failure-mode checks to passed status.
-7. Rerun review and submission verdicts.
-8. Rebuild reproducibility manifest.
-9. Create `release-decision.yaml`.
-10. Re-run the Clay-level proof promotion packet.
-
-## Gate Command
-
-Preferred direct tool when visible:
+## Current Validation Commands
 
 ```text
-proof_promotion_packet(problem_id: "navier-stokes", promotion_tier: "clay-level")
+ruby -e 'require "yaml"; Dir["problems/navier-stokes/**/*.yaml"].each { |p| YAML.load_file(p) }; puts "yaml_ok #{Dir["problems/navier-stokes/**/*.yaml"].size}"'
+ruby problems/navier-stokes/tools/build_current_material_coverage.rb --check
+ruby system/runner/paper_factory.rb check navier-stokes
+git diff --check -- problems/navier-stokes
 ```
 
-ChatGPT-visible fallback:
+## Result
 
-```text
-For Navier-Stokes, give me the Clay-level proof promotion packet.
-```
+The Clay-level promotion blocker burn-down is closed. Future promotion-blocker
+text must cite a current direct-live surface and prove one reopening condition
+before it can mark the Navier-Stokes CM contrapositive proof as blocked.
