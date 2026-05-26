@@ -118,6 +118,9 @@ FAMILIES = [
       theorem-construction/mpp-uniform-two-sided-obstruction-lemma-20260526.md
       theorem-construction/mpp-continuation-complete-terminal-face-exhaustion-working-pass-20260526.md
       theorem-construction/mpp-terminal-packet-capture-working-pass-20260526.md
+      theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
+      cm-branch-family-certificate-ledger-20260526.yaml
+      cm-switch-working-sweep-20260526.yaml
     ]
   },
   {
