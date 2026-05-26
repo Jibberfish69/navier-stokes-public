@@ -23,15 +23,16 @@ central_gate:
   target: Every theorem result must land in Pack_Q, Part_{N,Q}, or Field_{N,r,Q},
     or remain branch-support only.
   governing_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
-  witness_form: 'first class-exit witness: not Pack_Q or not Part_{N,Q} or not Field_{N,r,Q}
-    on the same-fluid window; arbitrary not-CM is not an installed not-Member converse'
+  witness_form: 'finite same-surface terminal CM witness: CM-test entry followed by
+    not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, which supports Exit(Q):=not
+    Member(Q)'
   authority_surfaces:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/submission-verdict.yaml
   target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
-  target_preflight: &1
+  target_preflight: &2
     rule_id: ns-target-topology-preflight-v2
     status: required-before-answer-or-generated-summary
     required_fields:
@@ -65,7 +66,7 @@ central_gate:
     - source recovery
     - new-idea generation
     - automation/runtime repair
-  target_lock_schema: &2
+  target_lock_schema: &3
     proof_mode:
       meaning: The proof program or comparison mode being discussed.
       allowed_values:
@@ -137,7 +138,7 @@ central_gate:
       - review_findings
       - one_concrete_next_action
       - plain_explanation
-  proof_program_topology: &3
+  proof_program_topology: &4
   - program_id: cm-member-class-exit
     proof_mode: contrapositive_class_membership
     governing_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
@@ -145,6 +146,33 @@ central_gate:
       is the forward membership predicate
     promotion_gate: Pack_Q, Part_{N,Q}, or Field_{N,r,Q} witness-face landing
     current_role: governing proof grammar for CM-bearing promotion
+    governing_engine_note: problems/navier-stokes/theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
+    obstruction_pass_exit_rule: Follow the ordinary positive proof program until it
+      reaches a real obstruction, then split the obstruction into a pass branch and
+      a fail branch. The pass branch is the in-class `Member(Q)` branch and may be
+      supplied by any lawful continuation mechanism. The fail branch is lawful CM
+      contrapositive work only when the failure is capable of nonsmoothness and lands
+      as a Pack, Part, or Field face failure supporting `Exit(Q):=not Member(Q)`.
+      Do not replace this engine with a demand to prove one particular positive estimate
+      directly.
+    no_third_branch_rule: The installed no-third-branch audit proves that no terminal
+      branch is both an in-class `Member(Q)` continuation branch and a finite nonsmoothness
+      branch. This is not identical to Clay-level global regularity until the route
+      proves `OriginalSmoothData=>not GenuineCMExit(T_*)`; keep that as the exact
+      Clay-level closing burden and do not replace it with status language, a favorite
+      positive estimate, or the mere classification of failure as exit.
+    no_genuine_exit_rule: 'The direct first-exit attempt records the real Clay-closing
+      burden: original smooth data must prevent the first terminal Pack/Part/Field
+      exit. The first concrete Pack-side wall is `OriginalSmoothData=>ScaleCriticalTreeCarleson.A`;
+      Part terminal no-drop and Field terminal coherence remain the surviving same-ledger
+      services if Pack survives. Do not call the MPP solved from branch classification
+      alone.'
+    source_reserve_birth_rule: 'The active Pack-side subclaim is `SourceReserveBirthCharge.A
+      / RetainedPositiveScaleNativeReserveBirthCharge.A`: charge the first retained
+      positive-scale native donor-square reserve surplus or route that surplus to
+      Pack/Part/Field exit. This is the first proof atom under `OriginalSmoothData=>ScaleCriticalTreeCarleson.A`;
+      do not replace it with local L3 capture, endpoint readout, generic no-pulse
+      language, or a proof that already assumes `Member(Q)`.'
   - program_id: positive-smoothness
     proof_mode: positive_smoothness
     governing_primitive: direct a priori regularity or continuation control for the
@@ -211,7 +239,7 @@ central_gate:
     promotion_gate: verification commands and refreshed surfaces
     current_role: infrastructure repair; not mathematical progress unless it materializes
       theorem work
-  open_root_group: &4
+  open_root_group: &5
     group_id: source-wall-root-after-reconcile
     group_label: Recenter source-wall-root-after-reconcile on known CM-exit discipline
       after SourceWall.Reconcile.A demotion.
@@ -221,7 +249,7 @@ central_gate:
     not_single_proof_mode: true
     dashboard_boundary: This group may be counted as one release blocker, but it must
       not be narrated as one path, one method, one wall, or the whole NS target topology.
-    exact_live_theorem_grade_burden:
+    exact_live_theorem_grade_burden: &1
       status: contrapositive-witness-consumption-installed
       burden_id: clay-cm-contrapositive-witness-consumption
       proof_mode: cm_contrapositive_class_exit
@@ -384,8 +412,8 @@ central_gate:
       - one-field coherence slot -> Field or Field bridge
       readout_boundary: H^s readout bridge -> proof-licensing from CM to continuation,
         not a CM-exit failure face
-    live_surface_application: Apply this rule to the 1944 included non-Euler text
-      surfaces indexed in non-euler-surface-face-sweep-index-20260514.yaml, with 71
+    live_surface_application: Apply this rule to the 1937 included non-Euler text
+      surfaces indexed in non-euler-surface-face-sweep-index-20260514.yaml, with 69
       Euler/fixed-nu or Euler-class comparison surfaces excluded and the theorem-packet
       primary surfaces as a checked subcase, before using any surface as a steering
       target.
@@ -471,30 +499,14 @@ central_gate:
       label: PCTP / SOURCE.NO-PULSE / AWG / TGC / no-Jump_avg readout
       proof_mode: supplier_or_downstream_readout
       role: readout presentation requiring direct accountability before use as a target
-  exact_live_theorem_grade_burden: &5
-    status: no-accepted-cm-burden-from-signed-pair
-    burden_id: signed-pair-necessity-audit
-    proof_mode: cm_contrapositive_class_exit
-    target_object: SignedPairReserveVisibility.A as alleged blocker, not accepted live burden
-    theorem_grade_statement: A zero-moment same-ledger signed-pair branch blocks the
-      forward active-height visibility theorem, but it does not block the CM
-      contrapositive route unless it can remain both an in-class Member(Q)
-      continuation branch and a finite nonsmooth terminal witness.
-    active_container: source-reserve-birth-charge-a
-    respawn_cell: none
-    respawn_stage: none
-    allowed_input_boundary: The zero-moment direct-attempt note may block only the
-      positive forward visibility route. It may not become a CM burden without a
-      necessity proof showing a genuine third branch.
-    nearest_wrong_substitution: Treating lack of a forward no-free-sink theorem as
-      lack of CM contrapositive closure.
+  exact_live_theorem_grade_burden: *1
   release_or_respawn_consequence: &6
-    disposition: no-respawn-from-signed-pair
-    next_cell_type: cm-branch-law-referee-hardening
-    next_stage: proof-check
-    next_action: Keep the CM proof loyal to pass-or-exit branch classification;
-      do not respawn a forward no-free-sink theorem as the live burden unless it
-      proves a genuine in-class nonsmooth third branch.
+    disposition: submission-candidate
+    next_cell_type: submission
+    next_stage: submission-candidate
+    next_action: Keep generated/status surfaces aligned with live-theorem-edge.yaml
+      and target-operating-contract.yaml; do not respawn TerminalCMNoExit.A / NoGenuineCMExit.A
+      without a fresh CM-necessity audit.
   non_merge_rules: &7
   - rule_id: positive-vs-cm
     statement: Positive smoothness control and every surface indexed in the forward-positive
@@ -775,11 +787,11 @@ next_step:
     theorem; keep the Clay-facing target on witness entry/exhaustion and do not respawn
     TerminalCMNoExit.A / NoGenuineCMExit.A as the live frontier.
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
-target_preflight: *1
-target_lock_schema: *2
-proof_program_topology: *3
-open_root_group: *4
-exact_live_theorem_grade_burden: *5
+target_preflight: *2
+target_lock_schema: *3
+proof_program_topology: *4
+open_root_group: *5
+exact_live_theorem_grade_burden: *1
 release_or_respawn_consequence: *6
 non_merge_rules: *7
 authority_hierarchy: *8
