@@ -1,16 +1,29 @@
 \section{Notation and Internal Dependency Labels}
 
-The proof is written in standard PDE language.  The labels below identify project-internal dependency names.
+The proof uses the following project-internal names.
 
 \begin{description}
-\item[\(Field_{avg}\).] Terminal positive-scale same-fluid good-cylinder cover.
-\item[\(Jump_{avg}\).] Terminal loss of uniform positive good-cylinder scale.
-\item[AACT.] Local affine-excess energy estimate on a same-fluid moving cylinder.
-\item[DTC.] Transported-center control of velocity and forcing rungs.
-\item[\(End_{NS,avg}\).] Averaged endpoint exclusion package.
-\item[\(End_{NS}\).] Pointwise endpoint exclusion package.
-\item[READ.END.] Terminal averaged-to-pointwise readout on the finite readout cover.
-\item[Source branch.] The final proof uses \(FFSRC.A\Rightarrow FCI.5f\).
+\item[\(\Owork\).] The working same-solution Navier--Stokes class object.
+\item[\(\Member(Q;\Owork)\).] The downstream class-membership predicate; a member
+branch reads out to smooth continuation.
+\item[\(\Exit(Q;\Owork)\).] The class-exit conclusion, defined by
+\(\Exit(Q;\Owork):=\neg\Member(Q;\Owork)\).
+\item[\(\Pack_Q\).] The Pack witness face: positive same-fluid carrier / packing
+service.
+\item[\(\Part_{N,Q}\).] The Part witness face: pressure-viscosity participation
+service.
+\item[\(\Field_{N,r,Q}\).] The Field witness face: positive-scale one-field
+coherence service.
+\item[CM-test entry.] Admission of an alleged finite Clay terminal witness to the
+same-fluid terminal packet tree.
+\item[Finite failure type exhaustion.] The theorem that every admitted finite
+terminal failure produces loss of Pack, loss of Part, or loss of every positive
+Field scale.
+\item[CM contrapositive embedding.] The theorem that the derived face failure
+supports \(\Exit(Q;\Owork)\).
 \end{description}
 
-All theorem statements in the manuscript are periodic statements on \(\mathbb T^3\).  Whole-space export to \(\mathbb R^3\) is a separate theorem.
+Legacy periodic, whole-space, Euler-mirror, source-reserve, and positive
+packet-survival surfaces are provenance or support unless a current authority
+surface promotes them into Pack, Part, Field, membership readout, terminal CM
+entry, finite failure type exhaustion, or contrapositive embedding.
