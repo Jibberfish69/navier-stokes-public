@@ -1,5 +1,9 @@
 # MPP CM Contrapositive Route-Faithfulness Audit
 
+## Authority Cap - Historical Route Audit
+
+This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
+
 ## Status
 
 NS 25 route-correction audit after the proof-polarity correction.
