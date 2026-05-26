@@ -2,61 +2,49 @@
 
 ## Abstract
 
-We record the periodic branch of the three-dimensional incompressible Navier--Stokes theorem on the torus. For every smooth, divergence-free, zero-mean initial datum on `T^3`, the unforced equation admits a unique global smooth solution. The proof argues by contradiction from a first finite endpoint. A terminal-tail uniformization theorem supplies the finite readout cover, field coherence, and transported-center tower needed at the endpoint. An endpoint matrix then eliminates all possible endpoint faces, and the remaining finite tower bound gives a uniform `H^s` bound for some `s>5/2`. The standard periodic continuation criterion extends the solution past the alleged endpoint. The whole-space `R^3` extension is not part of this release and remains conditional on high-order spatial-infinity tail control.
+We present the Navier--Stokes proof as a class-membership contrapositive. The
+forward-positive program is followed until it reaches a genuine same-solution
+obstruction. At that obstruction the proof separates the pass branch from the
+fail branch. The pass branch gives a lawful `Member(Q)` continuation and reads
+out to the usual smooth continuation bound. The fail branch is admitted to the
+same-fluid CM terminal packet tree, exhausted as a Pack, Part, or Field finite
+failure type, and embedded as `Exit(Q):=not Member(Q)`.
+
+The Clay-facing chain is:
+
+```text
+finite Clay breakdown witness
+  -> CM-test entry
+  -> Pack/Part/Field finite failure type
+  -> Exit(Q):=not Member(Q).
+```
+
+The only current reopening tests are a genuine in-class nonsmooth third branch
+or a failure of terminal CM entry, finite-failure type exhaustion, or
+contrapositive embedding.
 
 ## Introduction
 
-The periodic problem avoids spatial-infinity complications and admits finite readout covers, periodic pressure normalization, and compact Sobolev patching. The proof uses these features to convert terminal local regularity and endpoint-grammar data into a standard continuation bound. The main line is written as a conventional contradiction proof, while the technical appendices record the terminal-tail uniformization theorem, elliptic pressure readout, frozen-family source theorem, and endpoint matrix.
+The proof does not rely on selecting one privileged positive estimate as the
+global smoothness mechanism. Positive estimates, source-reserve notes,
+signed-pair/no-free-sink attempts, no-pulse arguments, and terminal packet
+survival attempts serve as support or pressure tests. They become live CM proof
+authority only when they attack the terminal witness chain or produce a genuine
+third branch.
 
-The release scope is precisely:
-
-```math
-u_0\in C^\infty_\sigma(\mathbb T^3),
-\qquad
-\int_{\mathbb T^3}u_0\,dx=0
-\Longrightarrow
-u\in C^\infty([0,\infty)\times\mathbb T^3).
-```
-
-The proof route is:
-
-```math
-SCF_{base}
-\to ATD_m^\varepsilon
-\to AACT.KX
-\to DTC.A_{avg}
-\to End_{NS,avg}
-\to READ.COVER
-\to Field.Read+DTC.Read
-\to End_{NS}
-\to H^s\text{ continuation}.
-```
+The release scope is the CM contrapositive proof of global regularity for the
+three-dimensional incompressible Navier--Stokes problem from smooth
+divergence-free data.
 
 ## External-review checklist
 
-1. Verify theorem scope: periodic `T^3`, smooth divergence-free zero-mean data, zero forcing, viscosity `nu>0`.
-2. Verify the main contradiction structure from finite `T_*` to bounded `H^s` continuation norm.
-3. Verify terminal-tail uniformization supplies the finite readout cover and pointwise endpoint inputs.
-4. Verify the pressure readout: local Poisson split, harmonic tail control, and depth condition `m>=N+2`.
-5. Verify the source theorem: exact split `FPCR.C+FSCR.C+FCC.C1=>FCI.5f` and compatible sufficient branch `FFSRC.A=>FCI.5f`.
-6. Verify the endpoint matrix: every first endpoint enters one of `Dead`, `packing-detached`, `tower-blown`, or `Jump`, and each row is eliminated.
-7. Verify dependency order: averaged endpoint closure precedes `READ.COVER`; pointwise `Field` and `DTC.A` appear only after `Field.Read` and `DTC.Read`.
-8. Verify the final continuation step uses standard periodic `H^s` local theory with `s>5/2`.
-9. Verify reproducibility: release manifest, dependency graph, live authority edge, source frontier, review verdict, release decision, and final snapshot hashes.
-10. Verify scope boundary: the `R^3` branch is excluded from the periodic release.
-
-## R3 work queue
-
-The separated whole-space branch starts from the live target
-
-```math
-OriginalSmoothData_{\mathbb R^3}\Longrightarrow Tail.Hs_{\mathbb R^3}.
-```
-
-The candidate route is an exterior cascade theorem
-
-```math
-ExtCascade_s^{\mathbb R^3}\Longrightarrow Tail.Hs_{\mathbb R^3}.
-```
-
-At current resolution this theorem is open. The R3 matrix branch must keep `TailFace_R3^Hs` as a live row until `Tail.Hs_R3` or a noncircular elimination theorem is proved.
+1. Verify that the manuscript states the governing primitive as `Exit(Q):=not Member(Q)`.
+2. Verify that `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}` are witness faces, while `Member(Q)` is the downstream class-membership predicate.
+3. Verify finite Clay witness entry into the same-fluid CM terminal packet tree.
+4. Verify finite failure type exhaustion by Pack, Part, and Field.
+5. Verify that the derived face failure embeds as `Exit(Q):=not Member(Q)`.
+6. Verify pass-side non-vacuity by a lawful smooth / `Member(Q)` witness for each obstruction split.
+7. Verify the no-third-branch law: no branch is both an in-class continuation and the terminal nonsmooth failure witness.
+8. Verify that positive no-exit, source-reserve, no-free-sink, and no-pulse surfaces are treated as support unless they satisfy one reopening test.
+9. Verify reproducibility: release manifest, dependency graph, live authority edge, source frontier, review verdict, release decision, submission verdict, paper coverage, and typeset audit.
+10. Verify that no generated or legacy periodic-release sidecar overrides the current CM completion authority.
