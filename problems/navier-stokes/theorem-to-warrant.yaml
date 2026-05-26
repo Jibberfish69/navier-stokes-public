@@ -7,7 +7,7 @@ updated_at: '2026-05-04T20:44:00Z'
 route_lock:
   path: problems/navier-stokes/route-lock.yaml
   bridge_slot_map_path: problems/navier-stokes/bridge-slot-map.yaml
-  primary_route_id: terminalcmnoexit-a-nogenuinecmexit-a
+  primary_route_id: source-wall-root-after-reconcile
   theorem_surface: classical-periodic-navier-stokes
 marvin_ingest:
   enabled: true
@@ -60,12 +60,15 @@ theorem_warrants:
   - No-hidden-modified-equation-work condition
   proof_status: proved
   external_publication_risk: review-export-release-refresh-required
-  warrant_note: 'Demotion repair: historical four-bridge and positive-support warrants
-    remain support context only. They are not stand-alone proof authority for a full
-    release audit. Demotion repair: historical four-bridge and positive-support warrants
-    remain support context only. They are not stand-alone proof authority while source-wall-root-after-reconcile
-    is open. Demotion repair: historical four-bridge and positive-support warrants
-    remain support context only. They are not stand-alone proof authority while source-wall-root-after-reconcile
+  warrant_note: 'Demotion repair: historical four-bridge, positive-support, TerminalCMNoExit,
+    and no-genuine-exit warrants remain support context only. They do not override
+    the direct CM contrapositive proof state. Demotion repair: historical four-bridge
+    and positive-support warrants remain support context only. They are not stand-alone
+    proof authority for a full release audit. Demotion repair: historical four-bridge
+    and positive-support warrants remain support context only. They are not stand-alone
+    proof authority while source-wall-root-after-reconcile is open. Demotion repair:
+    historical four-bridge and positive-support warrants remain support context only.
+    They are not stand-alone proof authority while source-wall-root-after-reconcile
     is open. Demotion repair: historical four-bridge and positive-support warrants
     remain support context only. They are not stand-alone proof authority while source-wall-root-after-reconcile
     is open. Demotion repair: historical four-bridge and positive-support warrants
@@ -178,10 +181,10 @@ theorem_warrants:
     CM witness membership implies Smooth(Q), hence NonSmooth(Q) forces a Pack/Part/Field
     witness-face exit. Publication/release still requires refreshed theorem-packet,
     submission, and export artifacts against this current live edge.'
-  standalone_status: accepted
+  standalone_status: accept
   promotion_status: authority-cleared
   target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
-  target_preflight: &1
+  target_preflight: &2
     rule_id: ns-target-topology-preflight-v2
     status: required-before-answer-or-generated-summary
     required_fields:
@@ -215,7 +218,7 @@ theorem_warrants:
     - source recovery
     - new-idea generation
     - automation/runtime repair
-  target_lock_schema: &2
+  target_lock_schema: &3
     proof_mode:
       meaning: The proof program or comparison mode being discussed.
       allowed_values:
@@ -287,7 +290,7 @@ theorem_warrants:
       - review_findings
       - one_concrete_next_action
       - plain_explanation
-  proof_program_topology: &3
+  proof_program_topology: &4
   - program_id: cm-member-class-exit
     proof_mode: contrapositive_class_membership
     governing_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
@@ -295,6 +298,33 @@ theorem_warrants:
       is the forward membership predicate
     promotion_gate: Pack_Q, Part_{N,Q}, or Field_{N,r,Q} witness-face landing
     current_role: governing proof grammar for CM-bearing promotion
+    governing_engine_note: problems/navier-stokes/theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
+    obstruction_pass_exit_rule: Follow the ordinary positive proof program until it
+      reaches a real obstruction, then split the obstruction into a pass branch and
+      a fail branch. The pass branch is the in-class `Member(Q)` branch and may be
+      supplied by any lawful continuation mechanism. The fail branch is lawful CM
+      contrapositive work only when the failure is capable of nonsmoothness and lands
+      as a Pack, Part, or Field face failure supporting `Exit(Q):=not Member(Q)`.
+      Do not replace this engine with a demand to prove one particular positive estimate
+      directly.
+    no_third_branch_rule: The installed no-third-branch audit proves that no terminal
+      branch is both an in-class `Member(Q)` continuation branch and a finite nonsmoothness
+      branch. This is not identical to Clay-level global regularity until the route
+      proves `OriginalSmoothData=>not GenuineCMExit(T_*)`; keep that as the exact
+      Clay-level closing burden and do not replace it with status language, a favorite
+      positive estimate, or the mere classification of failure as exit.
+    no_genuine_exit_rule: 'The direct first-exit attempt records the real Clay-closing
+      burden: original smooth data must prevent the first terminal Pack/Part/Field
+      exit. The first concrete Pack-side wall is `OriginalSmoothData=>ScaleCriticalTreeCarleson.A`;
+      Part terminal no-drop and Field terminal coherence remain the surviving same-ledger
+      services if Pack survives. Do not call the MPP solved from branch classification
+      alone.'
+    source_reserve_birth_rule: 'The active Pack-side subclaim is `SourceReserveBirthCharge.A
+      / RetainedPositiveScaleNativeReserveBirthCharge.A`: charge the first retained
+      positive-scale native donor-square reserve surplus or route that surplus to
+      Pack/Part/Field exit. This is the first proof atom under `OriginalSmoothData=>ScaleCriticalTreeCarleson.A`;
+      do not replace it with local L3 capture, endpoint readout, generic no-pulse
+      language, or a proof that already assumes `Member(Q)`.'
   - program_id: positive-smoothness
     proof_mode: positive_smoothness
     governing_primitive: direct a priori regularity or continuation control for the
@@ -361,7 +391,7 @@ theorem_warrants:
     promotion_gate: verification commands and refreshed surfaces
     current_role: infrastructure repair; not mathematical progress unless it materializes
       theorem work
-  open_root_group: &4
+  open_root_group: &5
     group_id: source-wall-root-after-reconcile
     group_label: Recenter source-wall-root-after-reconcile on known CM-exit discipline
       after SourceWall.Reconcile.A demotion.
@@ -371,7 +401,7 @@ theorem_warrants:
     not_single_proof_mode: true
     dashboard_boundary: This group may be counted as one release blocker, but it must
       not be narrated as one path, one method, one wall, or the whole NS target topology.
-    exact_live_theorem_grade_burden:
+    exact_live_theorem_grade_burden: &1
       status: contrapositive-witness-consumption-installed
       burden_id: clay-cm-contrapositive-witness-consumption
       proof_mode: cm_contrapositive_class_exit
@@ -621,7 +651,7 @@ theorem_warrants:
       label: PCTP / SOURCE.NO-PULSE / AWG / TGC / no-Jump_avg readout
       proof_mode: supplier_or_downstream_readout
       role: readout presentation requiring direct accountability before use as a target
-  non_merge_rules: &5
+  non_merge_rules: &6
   - rule_id: positive-vs-cm
     statement: Positive smoothness control and every surface indexed in the forward-positive
       quarantine ledger are not the CM contrapositive unless a named bridge proves
@@ -657,7 +687,7 @@ theorem_warrants:
   - rule_id: runtime-repair-vs-math
     statement: Repairing generated surfaces or daemon behavior is not theorem progress
       unless it creates or promotes exact theorem-facing work.
-  authority_hierarchy: &6
+  authority_hierarchy: &7
     source_priority:
     - problems/navier-stokes/source-forensics/
     - problems/navier-stokes/live-theorem-edge.yaml
@@ -682,7 +712,7 @@ theorem_warrants:
       terminal posture, or a singleton target that conflicts with the direct live
       surfaces and this contract, demote or repair that surface before using it in
       a user answer.
-  mode_selection_protocol: &7
+  mode_selection_protocol: &8
     before_answer:
     - lock target using target_lock_schema
     - inspect authority_source unless the user only asks for a purely conversational
@@ -698,34 +728,14 @@ theorem_warrants:
     stop_condition: Stop only when a genuine new mathematical choice is needed, an
       out-of-scope write is required, the route has split and one bounded self-attempt
       has already failed, or verification cannot be repaired internally.
-  exact_live_theorem_grade_burden: &8
-    status: frontier-open
-    burden_id: terminal-cm-no-exit-nogenuinecmexit
-    proof_mode: cm_contrapositive_class_exit
-    target_object: TerminalCMNoExit.A / NoGenuineCMExit.A
-    theorem_grade_statement: Prove original smooth data leaves at least one continuation-complete
-      Pack/Part/Field packet on every alleged finite terminal tail; the remaining
-      open faces are Pack strain-integrability no-exit, Part closedness-input no-exit,
-      and licensed Field coherence no-exit.
-    active_container: terminalcmnoexit-a-nogenuinecmexit-a
-    respawn_cell: source-wall-root-theorem
-    respawn_stage: direct-packet-survival
-    allowed_input_boundary: The proof may use installed genuine-exit capture, canonical
-      terminal packet capture, terminal source-residue CM-exit sorting, and finite
-      failure witness capture. Bare positive-supplier deletion theorems, B_ASAC reverse-Holder
-      production, PCTP/no-pulse supplier targets, endpoint readout consequences, and
-      every surface indexed in the forward-positive quarantine ledger remain separate
-      or quarantined support unless a Pack/Part/Field bridge license is proved.
-    nearest_wrong_substitution: Treating B_ASAC supplier exhaustion or source-residue
-      sorting as Clay-facing CM closure.
+  exact_live_theorem_grade_burden: *1
   release_or_respawn_consequence: &9
-    disposition: respawn
-    next_cell_type: source-wall-root-theorem
-    next_stage: direct-packet-survival
-    next_action: Prove TerminalCMNoExit.A / NoGenuineCMExit.A as Exit(Q):=not Member(Q)
-      by classifying every alleged finite terminal tail through the Pack-first CM
-      witness tree with Pack, then Part, then licensed Field; Member(Q) is downstream
-      of that witness certificate.
+    disposition: submission-candidate
+    next_cell_type: submission
+    next_stage: submission-candidate
+    next_action: Keep generated/status surfaces aligned with live-theorem-edge.yaml
+      and target-operating-contract.yaml; do not respawn TerminalCMNoExit.A / NoGenuineCMExit.A
+      without a fresh CM-necessity audit.
   forward_positive_surface_quarantine: &10
     status: active-global-demotion
     index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
@@ -865,19 +875,19 @@ warrant_boundary:
   rule: Direct-live authority reports no current theorem blocker; this boundary is
     retained as historical context only.
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
-target_preflight: *1
-target_lock_schema: *2
-proof_program_topology: *3
-open_root_group: *4
-non_merge_rules: *5
-authority_hierarchy: *6
-mode_selection_protocol: *7
-exact_live_theorem_grade_burden: *8
+target_preflight: *2
+target_lock_schema: *3
+proof_program_topology: *4
+open_root_group: *5
+non_merge_rules: *6
+authority_hierarchy: *7
+mode_selection_protocol: *8
+exact_live_theorem_grade_burden: *1
 release_or_respawn_consequence: *9
 forward_positive_surface_quarantine: *10
 current_authority_status:
   status: superseded-by-direct-live-clearance
-  checked_at: '2026-05-26T01:42:41Z'
+  checked_at: '2026-05-26T01:56:15Z'
   reason: Direct live authority reports no open theorem frontier; this artifact is
     retained as historical theorem-work context and must not respawn a live blocker.
   authority_summary:
