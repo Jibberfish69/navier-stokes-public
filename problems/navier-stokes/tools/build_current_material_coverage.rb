@@ -102,7 +102,7 @@ FAMILIES = [
   },
   {
     "id" => "cm_class_law_completion_and_adversarial_audits",
-    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, the source-reserve root CM face-consumption note, the explicit referee-facing classification-versus-exclusion pressure point, and the no-genuine-exit hinge. Stale positive-bootstrap objections do not become CM-merited objections unless they attack the Pack/Part/Field class-exit chain itself; a direct objection that classification is not exclusion is preserved as a live logic-audit risk. The Clay-closing proof remains at OriginalSmoothData preventing the first terminal Pack/Part/Field exit.",
+    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, source-reserve root CM face-consumption, surface-field completion audit, and the uniform two-sided obstruction lemma. The Clay-facing proof uses the pass-or-exit obstruction engine: the pass side supplies local non-vacuity by the simplest lawful smooth/Member(Q) witness, while the fail side closes only after CM-test entry and a concrete Pack/Part/Field face failure. Stale positive-bootstrap, no-genuine-exit, and forward no-free-sink objections do not become CM-merited objections unless they attack terminal CM entry, Pack/Part/Field exhaustion, or exhibit a genuine in-class nonsmooth third branch.",
     "files" => %w[
       theorem-construction/mcp-mpp-ttu-a-1ddd943b9d.md
       theorem-construction/mpp-nightly-terminal-cm-witness-red-team-20260524.md
@@ -111,6 +111,10 @@ FAMILIES = [
       theorem-construction/mpp-cm-completion-claim-adversarial-audit-20260525.md
       theorem-construction/mpp-source-reserve-birth-cm-face-consumption-20260525.md
       theorem-construction/mcp-mpp-mpp-cmexitclassificationvsexclusionaudit-a-a6668e5c97.md
+      theorem-construction/mpp-cm-pass-exit-positive-existence-veto-nightly-20260525.md
+      theorem-construction/mpp-cm-proof-completion-surface-field-audit-20260525.md
+      theorem-construction/mpp-completed-proof-surface-challenge-20260525.md
+      theorem-construction/mpp-uniform-two-sided-obstruction-lemma-20260526.md
     ]
   },
   {
@@ -221,7 +225,7 @@ dynamic_families = []
 unless dynamic_theorem_creation_files.empty?
   dynamic_families << {
     "id" => "current_theorem_creation_candidate_notes",
-    "paper_representation" => "Current theorem-creation candidate notes are represented by the representation standard as live candidate support, active blockers, or pressure tests. They are not promoted as theorem evidence unless a downstream audit lands them in Pack, Part, Field, membership readout, terminal packet capture, or the no-genuine-exit hinge.",
+    "paper_representation" => "Current theorem-creation candidate notes are represented by the representation standard as candidate support, pressure tests, or demoted positive-forward attempts. They are not promoted as theorem evidence unless a downstream audit lands them in Pack, Part, Field, membership readout, terminal packet capture, or the terminal CM entry/exhaustion/embedding chain.",
     "files" => dynamic_theorem_creation_files.sort
   }
 end
