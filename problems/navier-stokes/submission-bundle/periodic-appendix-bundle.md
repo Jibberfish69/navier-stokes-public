@@ -2,7 +2,9 @@
 
 ## Status
 
-Appendix bundle for the closed periodic `T^3` theorem surface.
+Legacy appendix bundle for an older periodic `T^3` presentation. It is retained
+as provenance only. Current Clay-facing authority is the CM terminal witness
+consumption bundle, not this periodic release surface.
 
 ## Appendix A: Dependency graph
 
