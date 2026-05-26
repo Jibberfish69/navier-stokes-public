@@ -8,16 +8,19 @@ identity:
   generator: system/runner/workers/theorem_repair_worker.rb
 authority_sync_gate:
   authority_mode: direct-live-surfaces
-  all_discharged: true
-  blocking_count: 0
-  frontier_count: 0
+  all_discharged: false
+  blocking_count: 1
+  frontier_count: 1
   truth_priority:
   - live-theorem-edge.yaml
   - source-frontier.yaml
   - theorem-packet.yaml
   - submission-verdict.yaml
   - generated crank/status surfaces
-  unresolved_entries: []
+  unresolved_entries:
+  - obligation_id: signed-pair-reserve-visibility-a
+    label: SignedPairReserveVisibility.A / terminal no-free-sink face reduction
+    source_anchor: problems/navier-stokes/theorem-construction/mpp-zero-moment-reserve-visibility-direct-attempt-20260525.md
 central_gate:
   gate_id: cm-witness-face-bridge
   target: Every theorem result must land in Pack_Q, Part_{N,Q}, or Field_{N,r,Q},
@@ -759,7 +762,7 @@ bridge_license_auditor:
     spent_by_dependency_discharge: true
     spent_at: '2026-05-23T20:30:21Z'
     dependency_discharge_target_id: CM.CrossFaceSynthesis.A
-  all_required_faces_localized: true
+  all_required_faces_localized: false
   last_discharge_audit:
     target_obligation_id: claycmcontrapositiveembedding-a-clayfinitefailuretypecmexhaustion-a
     promoted: true
