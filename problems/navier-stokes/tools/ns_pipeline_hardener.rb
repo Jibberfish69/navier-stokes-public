@@ -570,8 +570,8 @@ end
 def sanitize_submission_export_status(status)
   return status unless status.is_a?(Hash)
 
-  status["status"] = "export-ready"
-  status["render_quality"] = "passed"
+  status["status"] = "exported"
+  status["render_quality"] = "typeset"
   status.delete("source_wall_root_open")
   status["source_wall_root_cm_status"] = CURRENT_SOURCE_WALL_ROOT_SUMMARY
   status["stdout"] = ""
