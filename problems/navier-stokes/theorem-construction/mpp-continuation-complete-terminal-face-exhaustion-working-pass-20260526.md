@@ -2,7 +2,7 @@
 
 Date: 2026-05-26
 
-Status: working proof pass for the CM contrapositive referee gate.
+Status: conditional working proof pass for the CM contrapositive referee gate.
 
 ## Target
 
@@ -134,7 +134,7 @@ fourth face.
 
 ## What This Discharges
 
-This working pass discharges the terminal packet capture burden at the
+This working pass proves the conditional face-exhaustion theorem at the
 continuation-complete packet level:
 
 ```text
@@ -142,6 +142,11 @@ finite terminal non-continuation
 => failure of the continuation-complete CM packet
 => first failed Pack/Part/Field face.
 ```
+
+It does not by itself prove that the selected terminal packet is canonical or
+readout-complete.  That gap is handled on the torus-first branch by
+`mpp-torus-global-material-atlas-terminal-capture-20260526.md`, where the
+selected packet is the whole transported material atlas.
 
 It does not discharge the branch-family census by itself.  Each branch family
 still has to show that the object it contributes is either:
