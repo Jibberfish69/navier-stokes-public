@@ -95,7 +95,7 @@ summary:
   discharged_authority_assumptions: 0
 release_blockers: []
 required_next_actions: []
-generated_at: '2026-05-26T02:09:49Z'
+generated_at: '2026-05-26T02:16:42Z'
 pass: true
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
