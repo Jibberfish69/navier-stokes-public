@@ -4,6 +4,7 @@
 require "pathname"
 require "time"
 require "yaml"
+require "digest"
 
 ROOT = Pathname.new("/Users/thomasbirnie/Workspace/ToE/Research-Consolidation").freeze
 PROBLEM_ROOT = ROOT.join("problems/navier-stokes").freeze
@@ -37,6 +38,7 @@ SUBMISSION_BUNDLE_THEOREM_PACKET_PATH = SUBMISSION_BUNDLE_ROOT.join("theorem-pac
 SUBMISSION_BUNDLE_SOURCE_FRONTIER_PATH = SUBMISSION_BUNDLE_ROOT.join("source-frontier.yaml").freeze
 SUBMISSION_BUNDLE_SUBMISSION_VERDICT_PATH = SUBMISSION_BUNDLE_ROOT.join("submission-verdict.yaml").freeze
 SUBMISSION_BUNDLE_EXPORT_STATUS_PATH = SUBMISSION_BUNDLE_ROOT.join("submission-export-status.yaml").freeze
+SUBMISSION_BUNDLE_TYPESET_AUDIT_PATH = SUBMISSION_BUNDLE_ROOT.join("typeset-audit.yaml").freeze
 SUBMISSION_BUNDLE_THEOREM_PACKET_TEX_PATH = SUBMISSION_BUNDLE_ROOT.join("sections/authoritative-theorem-packet.tex").freeze
 
 TARGET_OPERATING_CONTRACT = YAML.load_file(TARGET_OPERATING_CONTRACT_PATH.to_s).freeze
@@ -106,6 +108,70 @@ end
 
 def write_yaml(path, object)
   path.write(YAML.dump(object).lines.map { |line| "#{line.rstrip}\n" }.join)
+end
+
+def file_observation(path, role: nil, artifact: nil)
+  relative = path.relative_path_from(ROOT).to_s
+  return { "artifact" => artifact, "path" => relative, "present" => false }.compact unless path.exist?
+
+  {
+    "artifact" => artifact,
+    "path" => relative,
+    "present" => true,
+    "role" => role,
+    "sha1" => Digest::SHA1.file(path.to_s).hexdigest,
+    "bytes" => path.size,
+    "modified_at" => path.mtime.utc.iso8601
+  }.compact
+end
+
+def current_review_observations
+  {
+    "primary_manuscript" => file_observation(
+      SUBMISSION_BUNDLE_ROOT.join("navier-stokes-submission.tex"),
+      role: "primary-manuscript"
+    ),
+    "submission_export_status" => file_observation(
+      SUBMISSION_BUNDLE_EXPORT_STATUS_PATH,
+      artifact: "submission_export_status"
+    ),
+    "typeset_audit" => file_observation(
+      SUBMISSION_BUNDLE_TYPESET_AUDIT_PATH,
+      artifact: "typeset_audit"
+    )
+  }
+end
+
+def refresh_review_freshness!(review, observations)
+  return review unless review.is_a?(Hash)
+
+  review["artifact_observations"] = observations
+  review["artifact_freshness"] = {
+    "status" => "refreshed-by-ns-pipeline-hardener",
+    "refreshed_at" => utc_now,
+    "reason" => "direct-live full-MPP submission candidate re-bound after hardener export writes"
+  }
+  review
+end
+
+def stale_review_blocker?(entry)
+  text = entry.to_s
+  text == "Review verdict does not record a current primary manuscript hash." ||
+    text == "Primary manuscript changed after the current review verdict was written." ||
+    text == "Submission export status changed after the current review verdict was written." ||
+    text == "Typeset audit changed after the current review verdict was written."
+end
+
+def refresh_submission_verdict_review_observations!(verdict, observations)
+  return verdict unless verdict.is_a?(Hash)
+
+  verdict["manuscript_surface"] ||= {}
+  verdict["manuscript_surface"]["review_observations"] = observations
+  verdict["manuscript_surface"]["recommended_submission_surface"] = observations.dig("primary_manuscript", "path")
+  verdict["blockers"] = Array(verdict["blockers"]).reject { |entry| stale_review_blocker?(entry) }
+  verdict["submission_posture"] = "submission-candidate" if Array(verdict["blockers"]).empty?
+  verdict["submission_ready"] = true if Array(verdict["blockers"]).empty?
+  verdict
 end
 
 def target_topology_payload
@@ -1145,6 +1211,11 @@ def refresh!
   authoritative_source_discovery = load_yaml(AUTHORITATIVE_SOURCE_DISCOVERY_PATH)
   submission_export_status = sanitize_submission_export_status(load_yaml(SUBMISSION_BUNDLE_EXPORT_STATUS_PATH))
 
+  write_yaml(SUBMISSION_BUNDLE_EXPORT_STATUS_PATH, submission_export_status) if SUBMISSION_BUNDLE_EXPORT_STATUS_PATH.exist?
+  review_observations = current_review_observations
+  review_verdict = refresh_review_freshness!(review_verdict, review_observations) if review_verdict
+  submission_verdict = refresh_submission_verdict_review_observations!(submission_verdict, review_observations)
+
   write_yaml(ROUTE_LOCK_PATH, route_lock)
   write_yaml(WARRANT_PATH, warrant)
   write_yaml(PROOF_ASSEMBLY_PATH, proof_assembly)
@@ -1164,7 +1235,6 @@ def refresh!
   write_yaml(SUBMISSION_BUNDLE_THEOREM_PACKET_PATH, theorem_packet) if SUBMISSION_BUNDLE_THEOREM_PACKET_PATH.exist?
   write_yaml(SUBMISSION_BUNDLE_SOURCE_FRONTIER_PATH, source_frontier) if SUBMISSION_BUNDLE_SOURCE_FRONTIER_PATH.exist?
   write_yaml(SUBMISSION_BUNDLE_SUBMISSION_VERDICT_PATH, submission_verdict) if SUBMISSION_BUNDLE_SUBMISSION_VERDICT_PATH.exist?
-  write_yaml(SUBMISSION_BUNDLE_EXPORT_STATUS_PATH, submission_export_status) if SUBMISSION_BUNDLE_EXPORT_STATUS_PATH.exist?
   SUBMISSION_BUNDLE_THEOREM_PACKET_TEX_PATH.write(render_theorem_packet_tex(theorem_packet)) if SUBMISSION_BUNDLE_THEOREM_PACKET_TEX_PATH.dirname.exist?
 
   write_yaml(
