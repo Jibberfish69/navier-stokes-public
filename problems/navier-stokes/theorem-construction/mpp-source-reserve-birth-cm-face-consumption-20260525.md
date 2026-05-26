@@ -4,6 +4,12 @@ Date: 2026-05-25
 
 Status: theorem-facing CM consumption note for the source-reserve birth root.
 
+Authority cap: `mpp-pack-first-source-reserve-face-audit-20260526.md` is the
+current Pack-first classification. This note supplies CM-consumption support,
+but the retained positive-scale first-created native donor-square reserve
+surplus remains supplier-quarantined until same-ledger payment or CM-test
+admission plus a first Pack/Part/Field face failure is proved.
+
 ## Target
 
 The live Pack-side source-reserve root was:
@@ -119,11 +125,14 @@ Pack/Part/Field CM certificate.
 
 ## Verdict
 
-The source-reserve birth root is grounded as CM face support.
+The source-reserve birth root is support-only after the Pack-first audit.
+Zero-radius terminal residue or selected unpaid infinite donor-refill lands
+first at `not Pack_Q`; the retained positive-scale first-created native
+donor-square reserve surplus remains the supplier-quarantined burden.
 
 This is not a standalone positive proof that every terminal reserve pulse has a
 visible first-moment height flux.  It is the contrapositive proof step Thomas
 wanted: once the positive proof route reaches the reserve-surplus obstruction,
-the pass branch remains the legal in-class continuation branch, and the fail
-branch is forced out only after its reserve-surplus mechanism is typed as a
+the pass branch remains the legal in-class continuation branch, and any fail
+branch becomes CM authority only after CM-test admission and a first
 Pack/Part/Field witness-face failure.
