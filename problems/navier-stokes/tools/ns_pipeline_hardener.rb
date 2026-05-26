@@ -1208,10 +1208,21 @@ def sanitize_release_manifest(manifest)
     manifest["status"] = "blocked"
     manifest["pass"] = false
     manifest["release_eligible"] = false
+    manifest["release_gate"] = "cm-contrapositive-referee-blocked"
     manifest["bundle_status"] = "cm-contrapositive-referee-blocked"
     manifest["terminal_safe"] = false
     manifest["required_before_terminal_release"] = cm_referee_blockers
     manifest["cm_contrapositive_referee_gate"] = cm_referee_gate_payload
+    source_summary = manifest["source_summary"]
+    if source_summary.is_a?(Hash)
+      source_summary["existing_assumption_ledger_status"] = {
+        "ledger_status" => "blocked-cm-contrapositive-referee-audit",
+        "direct_live_authority_all_discharged" => true,
+        "cm_contrapositive_referee_gate_clear" => false,
+        "release_eligible" => false,
+        "release_gate" => "cm-contrapositive-referee-blocked"
+      }
+    end
   end
   attach_target_topology!(manifest)
   manifest
