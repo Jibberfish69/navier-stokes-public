@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-26T01:26:36Z'
+  generated_at: '2026-05-26T01:28:54Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -115,21 +115,42 @@ cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
   local_consequences:
-  - label: Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-    kind: lemma
-    status: localized-support
+  - label: Canonical same-fluid CM witness packet tree with Pack_Q, Part_{N,Q}, and
+      Field_{N,r,Q} faces.
+    kind: definition
+    status: localized-proof
     origin: local
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-  - label: Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+  - label: Member(Q) is the downstream class-membership predicate; Exit(Q):=not Member(Q)
+      is supported by Pack/Part/Field face failure.
+    kind: definition
+    status: localized-proof
+    origin: local
+    source_anchor: problems/navier-stokes/target-operating-contract.yaml
+  - label: A finite Clay breakdown witness from original smooth data is tested as
+      a CM-admissible terminal object, not assumed to be Member(Q).
+    kind: definition
+    status: localized-proof
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-to-warrant.yaml
+  - label: Every CM-test-admissible finite Clay terminal object from original smooth
+      data enters the same-fluid canonical CM packet tree.
     kind: lemma
-    status: localized-support
+    status: localized-proof
     origin: local
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-  - label: Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
+  - label: Every finite failure type extracted from the canonical terminal witness
+      is exhausted by Pack_Q, Part_{N,Q}, or Field_{N,r,Q} face failure.
     kind: lemma
-    status: localized-support
+    status: localized-proof
     origin: local
-    source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+    source_anchor: problems/navier-stokes/theorem-repair.yaml
+  - label: The Pack/Part/Field face failure supports Exit(Q):=not Member(Q), while
+      the pass branch remains the only legal in-class continuation branch.
+    kind: lemma
+    status: localized-proof
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-to-warrant.yaml
   - label: 'ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve
       surplus with zero first moment cannot remain hidden: the signed-pair normal
       form either exposes same-ledger active height flux, pays by ASAC / positive
@@ -142,46 +163,11 @@ cross_lane_broadcast:
     status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
-  - label: CSP.A. On the retained same-fluid collar, LCI.A together with the installed
-      post-LCI source ledger FCI.5f supplies the collar source-pressure package; OFP.A,
-      CFI.A, endpoint readout, and Field remain downstream consumers, with Member
-      following only after the CM witness certificate.
-    kind: lemma
-    status: localized-support
+  - label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
+    kind: live-theorem-frontier
+    status: grounded
     origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
-  - label: 'HeightFluxControl.A. Turn the remaining positive source-reserve birth
-      charge into the first proof-facing sampling theorem: a first large retained
-      height-flux event must create Pack gain, Part/dwell failure, legal Field source
-      charge, or a Zeno terminal residue atom. This supplies the exact noncircular
-      bridge needed for Create the recursive theorem subprimitive HeightFluxControl.A
-      exposed by the previous theorem-creation packet, instead of mutating a neighboring
-      route..'
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260523.md
-  - label: 'HeightFluxControl.A. Turn the remaining positive source-reserve birth
-      charge into the first proof-facing sampling theorem: a first large retained
-      height-flux event must create Pack gain, Part/dwell failure, legal Field source
-      charge, or a Zeno terminal residue atom. This supplies the exact noncircular
-      bridge needed for Create the native theorem route HeightFluxControl.A after
-      the supplier chain PositiveRemainderDepletion.A stopped serving the source-reserve
-      CM-exit target..'
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260525.md
-  - label: LCI.A. On a retained same-fluid interval with bounded Pack gauge and the
-      ordered ACT.KX receiver package installed, ACT.X-Readout gives ACT.A, ACT.A
-      gives RCF.A through the transported-center residual package, and ULCI.A/DTC.C
-      yields lower-carrier interval integrability; FCI.5f, CSP.A, OFP.A, CFI.A, endpoint
-      readout, and Field remain downstream consumers, with Member downstream of the
-      CM witness certificate.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/lci-a-theorem-creation-20260522.md
+    source_anchor: problems/navier-stokes/dependency-discharge.yaml
   broadcast_paths:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
@@ -207,7 +193,7 @@ frontier_projection:
     kind: live-theorem-frontier
     label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
     status: frontier-open
-    recommended_stage: route-synthesis
+    recommended_stage: theorem-creation
     source_anchor: problems/navier-stokes/source-frontier.yaml
   one_step_beyond: []
   two_steps_beyond: []
