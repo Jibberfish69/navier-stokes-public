@@ -33,6 +33,7 @@ FORWARD_POSITIVE_QUARANTINE_INDEX_PATH = PROBLEM_ROOT.join("forward-positive-pro
 REVIEW_VERDICT_PATH = PROBLEM_ROOT.join("review-verdict.yaml").freeze
 RELEASE_DECISION_PATH = PROBLEM_ROOT.join("release-decision.yaml").freeze
 RELEASE_MANIFEST_PATH = PROBLEM_ROOT.join("release-manifest.yaml").freeze
+CM_REFEREE_AUDIT_PATH = PROBLEM_ROOT.join("cm-contrapositive-referee-audit.yaml").freeze
 SUBMISSION_BUNDLE_ROOT = PROBLEM_ROOT.join("submission-bundle").freeze
 SUBMISSION_BUNDLE_THEOREM_PACKET_PATH = SUBMISSION_BUNDLE_ROOT.join("theorem-packet.yaml").freeze
 SUBMISSION_BUNDLE_SOURCE_FRONTIER_PATH = SUBMISSION_BUNDLE_ROOT.join("source-frontier.yaml").freeze
@@ -123,6 +124,120 @@ def file_observation(path, role: nil, artifact: nil)
     "bytes" => path.size,
     "modified_at" => path.mtime.utc.iso8601
   }.compact
+end
+
+def cm_referee_audit
+  @cm_referee_audit ||= (CM_REFEREE_AUDIT_PATH.exist? ? load_yaml(CM_REFEREE_AUDIT_PATH) : {})
+end
+
+def cm_referee_gate_clear?
+  audit = cm_referee_audit
+  return true unless audit.is_a?(Hash) && audit.any?
+
+  status = audit["status"].is_a?(Hash) ? audit["status"] : {}
+  (audit["pass"] == true || audit["passed"] == true || status["pass"] == true) &&
+    cm_referee_blockers.empty?
+end
+
+def cm_referee_blockers
+  audit = cm_referee_audit
+  return [] unless audit.is_a?(Hash) && audit.any?
+
+  messages = []
+  Array(audit["blockers"]).each { |entry| messages << entry.to_s }
+  Array(audit["blocking_findings"]).each do |entry|
+    next unless entry.is_a?(Hash)
+
+    messages << [entry["summary"], entry["finding"], entry["id"]].compact.map(&:to_s).find { |value| !value.strip.empty? }
+  end
+  Array(audit["open_logical_burdens"]).each do |entry|
+    next unless entry.is_a?(Hash)
+
+    messages << [entry["statement"], entry["required_resolution"], entry["burden_id"]].compact.map(&:to_s).find { |value| !value.strip.empty? }
+  end
+  messages.compact.map(&:strip).reject(&:empty?).uniq
+end
+
+def cm_referee_gate_payload
+  {
+    "audit_path" => "problems/navier-stokes/cm-contrapositive-referee-audit.yaml",
+    "status" => cm_referee_gate_clear? ? "passed" : "blocked",
+    "pass" => cm_referee_gate_clear?,
+    "release_eligible" => cm_referee_gate_clear?,
+    "blockers" => cm_referee_blockers
+  }
+end
+
+def apply_cm_referee_gate_to_packet!(packet)
+  return packet unless packet.is_a?(Hash)
+
+  packet["cm_contrapositive_referee_gate"] = cm_referee_gate_payload
+  return packet if cm_referee_gate_clear?
+
+  packet["posture"] ||= {}
+  packet["posture"]["current_package_status"] = "referee-blocked-cm-contrapositive"
+  packet["posture"]["standalone_status"] = "referee-blocked"
+  packet["readiness"] ||= {}
+  packet["readiness"]["packet_complete"] = false
+  packet["readiness"]["export_ready"] = false
+  packet["readiness"]["blockers"] = (Array(packet["readiness"]["blockers"]) + cm_referee_blockers.map { |entry| "CM contrapositive referee audit blocks packet readiness: #{entry}" }).uniq
+  packet
+end
+
+def apply_cm_referee_gate_to_submission!(verdict)
+  return verdict unless verdict.is_a?(Hash)
+
+  verdict["cm_contrapositive_referee_gate"] = cm_referee_gate_payload
+  return verdict if cm_referee_gate_clear?
+
+  verdict["submission_posture"] = "not-ready"
+  verdict["submission_ready"] = false
+  verdict["blockers"] = (Array(verdict["blockers"]) + cm_referee_blockers.map { |entry| "CM contrapositive referee audit blocks submission: #{entry}" }).uniq
+  verdict["required_before_submission"] = (Array(verdict["required_before_submission"]) + ["Discharge the CM contrapositive referee audit before treating the package as Clay-ready."]).uniq
+  target_fidelity = verdict["target_fidelity"]
+  if target_fidelity.is_a?(Hash)
+    target_fidelity["terminal_safe"] = false
+    target_fidelity["required_before_terminal_release"] = (Array(target_fidelity["required_before_terminal_release"]) + cm_referee_blockers).uniq
+  end
+  verdict
+end
+
+def apply_cm_referee_gate_to_review!(review)
+  return review unless review.is_a?(Hash)
+
+  review["cm_contrapositive_referee_gate"] = cm_referee_gate_payload
+  return review if cm_referee_gate_clear?
+
+  review["verdict"] = "block"
+  review["release_posture"] = "blocked"
+  review["completion_tier_achieved"] = "theorem-open"
+  review["standalone_status"] = "referee-blocked"
+  review["required_before_terminal_release"] = (Array(review["required_before_terminal_release"]) + cm_referee_blockers).uniq
+  target_fidelity = review["target_fidelity"]
+  if target_fidelity.is_a?(Hash)
+    target_fidelity["terminal_safe"] = false
+    target_fidelity["required_before_terminal_release"] = (Array(target_fidelity["required_before_terminal_release"]) + cm_referee_blockers).uniq
+  end
+  review
+end
+
+def apply_cm_referee_gate_to_release!(decision)
+  return decision unless decision.is_a?(Hash)
+
+  decision["cm_contrapositive_referee_gate"] = cm_referee_gate_payload
+  return decision if cm_referee_gate_clear?
+
+  body = decision["decision"]
+  if body.is_a?(Hash)
+    body["disposition"] = "blocked"
+    body["release_posture"] = "blocked"
+    body["completion_tier_achieved"] = "theorem-open"
+    body["next_stage"] = "cm-contrapositive-referee-blocked"
+    body["next_action"] = "Discharge the CM contrapositive referee audit before treating this package as Clay-ready."
+    body["rationale"] = "A direct referee audit found unearned CM-contrapositive proof mass, so generated readiness surfaces cannot promote this package."
+  end
+  decision["blockers"] = (Array(decision["blockers"]) + cm_referee_blockers).uniq
+  decision
 end
 
 def current_review_observations
@@ -490,6 +605,7 @@ def sanitize_theorem_packet(packet)
   packet["theorem_statement"]["lowest_safe_claim"] = CURRENT_LOWEST_SAFE_CLAIM
 
   sanitize_live_edge_fields!(packet)
+  apply_cm_referee_gate_to_packet!(packet)
   packet
 end
 
@@ -536,6 +652,14 @@ def sanitize_auto_audit(audit)
 
   sanitize_theorem_surface!(audit.dig("surface_snapshot", "theorem_surface"))
   attach_target_topology!(audit)
+  unless cm_referee_gate_clear?
+    audit["certification"]["current_package_status"] = "referee-blocked-cm-contrapositive"
+    audit["certification"]["standalone_status"] = "referee-blocked"
+    audit["audit_certification"]["audit_status"] = "referee-blocked-cm-contrapositive"
+    audit["audit_certification"]["audit_completion_tier"] = "theorem-open"
+    audit["audit_certification"]["audit_review_verdict"] = "block"
+    audit["cm_contrapositive_referee_gate"] = cm_referee_gate_payload
+  end
 
   audit
 end
@@ -576,6 +700,13 @@ def sanitize_dependency_graph(graph)
   graph["summary"]["unresolved_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
   graph["summary"]["frontier_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
   graph["summary"]["active_frontier"] = CURRENT_SOURCE_WALL_ROOT_SUMMARY
+  unless cm_referee_gate_clear?
+    graph["status"] = "referee-blocked-cm-contrapositive"
+    graph["pass"] = false
+    graph["summary"]["blocking_count"] = cm_referee_blockers.length
+    graph["summary"]["all_discharged"] = false
+    graph["summary"]["referee_blockers"] = cm_referee_blockers
+  end
   graph
 end
 
@@ -694,6 +825,7 @@ def sanitize_submission_verdict(verdict)
   blockers.reject! { |entry| entry.to_s.include?("Exact live theorem-grade burden:") }
   blockers.reject! { |entry| entry.to_s.include?("TerminalCMNoExit.A") || entry.to_s.include?("NoGenuineCMExit.A") }
   verdict["blockers"] = blockers
+  apply_cm_referee_gate_to_submission!(verdict)
   attach_target_topology!(verdict)
   verdict
 end
@@ -999,6 +1131,7 @@ def sanitize_review_verdict(review)
   review["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   review["release_or_respawn_consequence"] = CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
 
+  apply_cm_referee_gate_to_review!(review)
   attach_target_topology!(review)
   review
 end
@@ -1021,6 +1154,7 @@ def sanitize_release_decision(decision)
 
   blockers = Array(decision["blockers"]).reject { |blocker| blocker == CURRENT_SOURCE_WALL_ROOT_ID }
   decision["blockers"] = blockers
+  apply_cm_referee_gate_to_release!(decision)
   attach_target_topology!(decision)
   decision
 end
@@ -1035,6 +1169,15 @@ def sanitize_release_manifest(manifest)
   if review.is_a?(Hash)
     review["terminal_safe"] = true
     review["release_posture"] = "export-ready"
+  end
+  unless cm_referee_gate_clear?
+    manifest["status"] = "blocked"
+    manifest["pass"] = false
+    manifest["release_eligible"] = false
+    manifest["bundle_status"] = "cm-contrapositive-referee-blocked"
+    manifest["terminal_safe"] = false
+    manifest["required_before_terminal_release"] = cm_referee_blockers
+    manifest["cm_contrapositive_referee_gate"] = cm_referee_gate_payload
   end
   attach_target_topology!(manifest)
   manifest
