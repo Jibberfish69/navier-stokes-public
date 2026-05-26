@@ -473,32 +473,32 @@ central_gate:
       role: readout presentation requiring direct accountability before use as a target
   exact_live_theorem_grade_burden: &5
     status: frontier-open
-    burden_id: terminal-cm-no-exit-nogenuinecmexit
+    burden_id: signed-pair-reserve-visibility-a
     proof_mode: cm_contrapositive_class_exit
-    target_object: TerminalCMNoExit.A / NoGenuineCMExit.A
-    theorem_grade_statement: Prove original smooth data leaves at least one continuation-complete
-      Pack/Part/Field packet on every alleged finite terminal tail; the remaining
-      open faces are Pack strain-integrability no-exit, Part closedness-input no-exit,
-      and licensed Field coherence no-exit.
-    active_container: terminalcmnoexit-a-nogenuinecmexit-a
-    respawn_cell: source-wall-root-theorem
-    respawn_stage: direct-packet-survival
-    allowed_input_boundary: The proof may use installed genuine-exit capture, canonical
-      terminal packet capture, terminal source-residue CM-exit sorting, and finite
-      failure witness capture. Bare positive-supplier deletion theorems, B_ASAC reverse-Holder
-      production, PCTP/no-pulse supplier targets, endpoint readout consequences, and
-      every surface indexed in the forward-positive quarantine ledger remain separate
-      or quarantined support unless a Pack/Part/Field bridge license is proved.
-    nearest_wrong_substitution: Treating B_ASAC supplier exhaustion or source-residue
-      sorting as Clay-facing CM closure.
+    target_object: SignedPairReserveVisibility.A / TerminalWeightedNoFreeSink.A / TwoTowerDonorDepletion.A / TerminalSignedSaturationCMFaceReduction.A
+    theorem_grade_statement: Prove that a positive-scale same-ledger signed pair
+      with order-one donor-square reserve and zero first moment must either create
+      active height flux, pay by ASAC or positive pair-weight charge, force terminal
+      no-free-sink or two-tower donor depletion, or collapse to Pack/Part/Field/Zeno
+      witness-face exit.
+    active_container: source-reserve-birth-charge-a
+    respawn_cell: signed-pair-no-free-sink
+    respawn_stage: direct-proof-or-promotion-audit
+    allowed_input_boundary: The CM terminal witness entry and finite failure
+      exhaustion chain may be used. Theorem-creation conditional chains,
+      dependency-discharge support scores, export-ready verdicts, and failed
+      forward supplier attempts do not promote this bridge without a proof or a
+      successful audit of the signed-pair/no-free-sink step.
+    nearest_wrong_substitution: Treating a conditional theorem-creation solver chain
+      or generated dependency-discharge promotion as the actual proof of
+      SignedPairReserveVisibility.A.
   release_or_respawn_consequence: &6
     disposition: respawn
-    next_cell_type: source-wall-root-theorem
-    next_stage: direct-packet-survival
-    next_action: Prove TerminalCMNoExit.A / NoGenuineCMExit.A as Exit(Q):=not Member(Q)
-      by classifying every alleged finite terminal tail through the Pack-first CM
-      witness tree with Pack, then Part, then licensed Field; Member(Q) is downstream
-      of that witness certificate.
+    next_cell_type: signed-pair-no-free-sink
+    next_stage: direct-proof-or-promotion-audit
+    next_action: Prove SignedPairReserveVisibility.A or promote an equivalent
+      TerminalSignedSaturationCMFaceReduction.A bridge by a noncircular audit; keep
+      NoGenuineExitFromSmoothData.A demoted as a positive no-exit slogan.
   non_merge_rules: &7
   - rule_id: positive-vs-cm
     statement: Positive smoothness control and every surface indexed in the forward-positive
