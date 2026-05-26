@@ -1,7 +1,7 @@
 ---
 version: 2
 problem_id: navier-stokes
-generated_at: '2026-05-25T18:08:51Z'
+generated_at: '2026-05-26T19:26:20Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -9,13 +9,13 @@ bundle_dir: problems/navier-stokes/submission-bundle
 pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
-  source_word_count: 7441
-  bundle_word_count: 273895
-  page_count: 602
-  source_bytes: 58622
-  appendix_bytes: 4924585
-  inventory_bytes: 2328465
-  pdf_bytes: 1397992
+  source_word_count: 7907
+  bundle_word_count: 383126
+  page_count: 603
+  source_bytes: 59842
+  appendix_bytes: 4926336
+  inventory_bytes: 2329122
+  pdf_bytes: 1399550
 skeletal_source_detected: false
 authoritative_content_included: true
 ground_up_rebuild:
@@ -45,10 +45,10 @@ authority_sources:
 current_material_coverage:
   audit: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
   generator: problems/navier-stokes/tools/build_current_material_coverage.rb
-  total_files_under_problem: 2431
-  text_or_checkable_files: 2405
-  text_files_outside_existing_coverage_union: 88
-  family_count_sum: 88
+  total_files_under_problem: 2441
+  text_or_checkable_files: 2414
+  text_files_outside_existing_coverage_union: 94
+  family_count_sum: 94
 stdout: ''
 stderr: ''
 fallback:
@@ -83,7 +83,7 @@ surface_derivation_appendix:
   quarantine_rows_by_scope:
     repo-surface: 201
     theorem-construction: 1652
-  current_material_family_rows: 88
+  current_material_family_rows: 94
   current_material_families:
   - id: basac_pressure_zeno_source_residue_family
     file_count: 41
