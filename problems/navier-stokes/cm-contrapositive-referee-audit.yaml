@@ -3,11 +3,11 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: cm-contrapositive-referee-audit-navier-stokes
-  generated_at: '2026-05-26T21:16:36Z'
+  generated_at: '2026-05-26T21:54:00Z'
   generator: codex/referee-sweep
   audit_scope: Navier-Stokes CM contrapositive proof inclusion and readiness gate
 status:
-  audit_status: blocked-referee-audit
+  audit_status: torus-first-cm-referee-passed-submission-surface-blocked
   pass: false
   release_eligible: false
   clay_ready: false
@@ -28,21 +28,54 @@ classification_summary:
   generated_readiness_conflict_detected: true
   terminal_packet_exhaustion_worked: true
   generated_readiness_demoted: true
+  torus_first_global_material_atlas_capture_installed: true
+  branch_family_ledger_integrated: true
+  proof_bearing_branch_family_open_rows_demoted: true
+  torus_first_cm_referee_pass: true
+  manuscript_spine_rewrite_required: true
+  whole_space_export_certified: false
   full_clay_submission_certified: false
 working_pass_results:
+  - id: torus-global-material-atlas-terminal-capture
+    status: discharged-for-active-torus-first-surface
+    evidence:
+      - problems/navier-stokes/theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
+    result: >-
+      The active T^3 terminal witness is tested on one finite transported
+      material atlas covering the whole torus. This removes the undefined
+      terminal-subsequence selection step, makes the packet readout-complete,
+      and unifies Pack as the readout-compatible same-fluid material-atlas
+      service. Terminal non-continuation therefore lands in the first failed
+      Pack/Part/Field service for the global atlas.
+    remaining_boundary: >-
+      Whole-space R^3 export still needs a separate tightness/localization
+      theorem. The manuscript must also stop using grouped branch-family prose
+      as the load-bearing proof of terminal capture.
   - id: continuation-complete-terminal-face-exhaustion-working-pass
-    status: discharged-at-continuation-packet-level
+    status: conditional-face-exhaustion-proved
     evidence:
       - problems/navier-stokes/theorem-construction/mpp-continuation-complete-terminal-face-exhaustion-working-pass-20260526.md
     result: >-
-      Finite terminal non-continuation negates the continuation-complete CM
-      packet. Since that packet is exactly Pack+Part+Field plus the H^s readout,
-      the negation yields a Pack-first first-face failure without relying on an
-      extra compact terminal-subsequence slogan.
+      Once the selected packet is readout-complete, terminal non-continuation
+      negates the continuation-complete CM packet. Since that packet is exactly
+      Pack+Part+Field plus the H^s readout, the negation yields a Pack-first
+      first-face failure.
     remaining_boundary: >-
-      The branch-family census still has to prove that each promoted row really
-      supplies the selected terminal packet, or else demote it as support-only,
-      obsolete, moot, unreachable, or a genuine unresolved positive requirement.
+      The torus global material atlas note supplies the selected readout-complete
+      packet for the active periodic surface.
+  - id: branch-family-record-ledger-working-pass
+    status: integrated-demotion-and-certified-row-ledger
+    evidence:
+      - problems/navier-stokes/cm-branch-family-certificate-ledger-20260526.yaml
+    result: >-
+      Five rows are certified face failures. Endpoint/readout and transfer
+      rows are demoted. The remaining supplier or typed rows are demoted from
+      proof-bearing status unless a same-atlas Pack/Part/Field derivation is
+      proved. The branch-family census is no longer allowed to be the
+      load-bearing proof of terminal capture.
+    remaining_boundary: >-
+      The manuscript branch-family sections still need rewriting so they
+      present the rows as support/exposition rather than proof-spine closure.
   - id: generated-readiness-demotion-sync
     status: resolved-by-enforced-gate
     evidence:
@@ -53,40 +86,69 @@ working_pass_results:
       Submission, release, MCP proof-promotion, and release-side audit surfaces
       now stay blocked when the CM referee gate is blocked.
 blocking_findings:
-  - id: branch-family-exhaustion-and-census-not-record-certified
+  - id: manuscript-branch-census-still-load-bearing
     severity: high
     summary: >-
-      The branch-family exhaustion and non-Euler census state the right CM
-      sorting rule, but the current paper-facing surfaces do not provide the
-      record-by-record derivation needed to make every included branch family
-      proof-bearing rather than diagnostic/support.
+      The torus-first CM proof now has a global material-atlas terminal-capture
+      object, and the branch ledger demotes unresolved branch rows from
+      proof-bearing status. The paper-facing branch-family sections still use
+      grouped branch prose as part of the proof spine and need rewriting before
+      submission.
     evidence:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:736
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:750
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1108
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1120
     cm_program_effect: >-
-      Row-level diagnostic sorting cannot substitute for object-level proof that
-      every promoted failure enters the CM test and lands at its first
-      Pack/Part/Field face.
+      The mathematical CM proof object is the global material atlas. The
+      manuscript must align with that proof object instead of making Thomas
+      defend unresolved support rows as closure.
+  - id: whole-space-export-not-certified
+    severity: high
+    summary: >-
+      The installed terminal-capture proof is for the active torus-first
+      surface. A Clay-facing whole-space R^3 claim still needs a separate
+      tightness/localization export theorem.
+    evidence:
+      - problems/navier-stokes/source-frontier.yaml:75
+      - problems/navier-stokes/theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
+    cm_program_effect: >-
+      This does not reopen the torus-first CM contrapositive proof. It blocks a
+      broader whole-space Clay-ready submission claim.
 open_logical_burdens:
-  - burden_id: branch-family-record-by-record-face-certificate
+  - burden_id: manuscript-proof-spine-rewrite-to-global-atlas
     statement: >-
-      For every proof-bearing branch family promoted into the paper, give a
-      checkable certificate of selected terminal object, CM-test admission, first
-      Pack/Part/Field face failure, and Exit(Q):=not Member(Q) readout.
+      Rewrite the paper proof spine so terminal capture is carried by
+      TorusGlobalMaterialAtlasTerminalCapture.A, with branch-family rows used
+      only as certified face examples or demoted support.
     allowed_resolutions:
-      - prove the complete certificate ledger
-      - demote unsupported rows to diagnostic/support-only
-      - remove them from Clay-facing proof mass
+      - update the manuscript terminal-capture and branch-census sections
+      - remove unsupported branch rows from Clay-facing proof mass
+      - cite only certified same-atlas Pack/Part/Field row derivations
+  - burden_id: whole-space-export-tightness-localization-theorem
+    statement: >-
+      If the submitted claim is the full R^3 Clay statement, prove an export
+      theorem from the torus-first global-atlas CM proof to whole-space data.
+    allowed_resolutions:
+      - prove R^3 tightness/localization export
+      - explicitly scope the submission claim to the periodic T^3 Clay branch
 nonblocking_confirmations:
   - id: terminal-packet-capture-exhaustion-discharged-at-packet-level
     statement: >-
-      The working pass proves finite terminal non-continuation as failure of the
-      continuation-complete CM packet, then reads that failure Pack-first through
-      Pack_Q, Part_{N,Q}, and Field_{N,r,Q}.
+      The torus-first working pass proves finite terminal non-continuation as
+      failure of the readout-complete global material-atlas CM packet, then
+      reads that failure Pack-first through Pack_Q, Part_{N,Q}, and
+      Field_{N,r,Q}.
     evidence:
+      - problems/navier-stokes/theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
       - problems/navier-stokes/theorem-construction/mpp-continuation-complete-terminal-face-exhaustion-working-pass-20260526.md
+  - id: branch-family-proof-bearing-rows-resolved-by-certify-or-demote
+    statement: >-
+      The branch-family ledger now certifies the rows that have face proofs and
+      demotes unresolved supplier/readout/comparison rows from proof-bearing CM
+      status.
+    evidence:
+      - problems/navier-stokes/cm-branch-family-certificate-ledger-20260526.yaml
   - id: generated-readiness-demotion-sync-complete
     statement: >-
       Release and proof-promotion surfaces now block on this referee gate instead
@@ -111,5 +173,7 @@ nonblocking_confirmations:
       - problems/navier-stokes/theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md:14
       - problems/navier-stokes/theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md:26
 required_next_audit:
-  - Build or demote the branch-family record certificate ledger.
-  - Keep all generated readiness surfaces blocked until this audit passes.
+  - Rewrite the paper terminal-capture and branch-census sections around the
+    torus global material atlas proof object.
+  - Keep generated readiness surfaces blocked until manuscript scope and
+    whole-space/periodic claim scope are aligned.
