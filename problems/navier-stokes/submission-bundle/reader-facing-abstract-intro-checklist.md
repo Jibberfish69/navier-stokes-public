@@ -47,5 +47,6 @@ divergence-free data.
 6. Verify pass-side non-vacuity by a lawful smooth / `Member(Q)` witness for each obstruction split.
 7. Verify the no-third-branch law: no branch is both an in-class continuation and the terminal nonsmooth failure witness.
 8. Verify that positive no-exit, source-reserve, no-free-sink, and no-pulse surfaces are treated as support unless they satisfy one reopening test.
-9. Verify that the rendered PDF contains mathematical argument only: no internal paths, filenames, generated-surface labels, coverage ledgers, build records, status surfaces, audit rows, or provenance inventories.
-10. Verify the PDF hygiene command: `ruby problems/navier-stokes/tools/check_pdf_argument_hygiene.rb`.
+9. Verify that every relevant surface entering the proof program is expanded into mathematical branch/support/family obligations rather than cited as a filename or removed from the manuscript.
+10. Verify that the rendered PDF contains mathematical argument only: no internal paths, filenames, generated-surface labels, coverage ledgers, build records, status surfaces, audit rows, or provenance inventories.
+11. Verify the PDF hygiene command: `ruby problems/navier-stokes/tools/check_pdf_argument_hygiene.rb`.
