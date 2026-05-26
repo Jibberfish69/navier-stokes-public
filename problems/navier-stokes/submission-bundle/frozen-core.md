@@ -18,7 +18,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 ## Source Frontier
 
 - `first_unresolved`: none for the Clay-facing CM contrapositive witness-consumption target
-- TerminalCMNoExit.A / NoGenuineCMExit.A is retained only as positive packet-survival support, not the live contrapositive target.
+- Older positive packet-survival/no-exit language is retained only as support, not the live contrapositive target.
 
 ## Source Surfaces
 
