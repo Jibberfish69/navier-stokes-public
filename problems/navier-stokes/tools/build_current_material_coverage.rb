@@ -116,6 +116,9 @@ FAMILIES = [
       theorem-construction/mpp-cm-proof-completion-surface-field-audit-20260525.md
       theorem-construction/mpp-completed-proof-surface-challenge-20260525.md
       theorem-construction/mpp-uniform-two-sided-obstruction-lemma-20260526.md
+      theorem-construction/mpp-continuation-complete-terminal-face-exhaustion-working-pass-20260526.md
+      theorem-construction/mpp-terminal-packet-capture-working-pass-20260526.md
+      theorem-construction/mpp-pack-first-source-reserve-face-audit-20260526.md
     ]
   },
   {
@@ -162,6 +165,7 @@ FAMILIES = [
       submission-bundle/surface-derivation-appendix.tex
       submission-bundle/surface-derivation-inventory.yaml
       tools/build_surface_derivation_appendix.rb
+      tools/check_pdf_argument_hygiene.rb
     ]
   }
 ].freeze
