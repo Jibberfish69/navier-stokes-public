@@ -1388,22 +1388,6 @@ forward_positive_surface_quarantine:
     receiver-readout-endpoint-support: 1143
     separate-positive-smoothness-support: 378
     separate-transfer-or-euler-comparison-support: 128
-  rule: Every indexed forward-positive, positive-supplier, continuation, transfer,
-    receiver/readout, export, or already-demoted positive surface is support only
-    for the CM contrapositive program. It cannot set the live CM frontier, replace
-    the Pack-first witness tree, count as publication readiness, or turn a bad source/residue
-    object into a deletion burden when that object is already a lawful class-exit
-    witness.
-  promotion_gate: Only a named bridge-license theorem that lands the exact result
-    in Pack_Q, Part_{N,Q}, or Field_{N,r,Q} can promote an indexed surface for CM
-    use.
-  pre_answer_rule: If a Navier-Stokes answer, target packet, review surface, release
-    surface, or theorem-creation prompt cites any indexed surface while the active
-    program is CM contrapositive, it must state its quarantine class or route it through
-    the Pack/Part/Field bridge-license gate before using it.
-  positive_program_boundary: When the user explicitly switches to a positive smoothness,
-    positive supplier, fixed-nu transfer, or Euler comparison program, indexed surfaces
-    may be read only inside that separate program and still do not become CM authority.
   index_path: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
   index_status: active-global-demotion-index
   summary_by_scope:
