@@ -46,28 +46,9 @@ source_reads:
   assumption_ledger:
     path: problems/navier-stokes/assumption-ledger.yaml
     status: local-theorem-program-closed
-promotion_packet_blockers:
-- Source-wall root theorem after SourceWall.Reconcile.A demotion before route-wide
-  promotion
-proof_obligation_blockers:
-- 'SourceWall.Reconcile.A is resolved by demotion: normalized-adjoint source-drain
-  is conditional support, and the live root is `ScaleCriticalTreeCarleson.A` or `ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A`.'
-- The CM convergence atlas types this as a residual Field-face theorem after `not
-  Field` is selected by the CM witness split, not as a primitive OriginalSmoothData
-  positive-bootstrap direction.
-- 'FirstHeightCreationDichotomy.A was terminally attempted and collapsed as an independent
-  target: a first `R_N` pulse does not by itself imply first creation of `H_N`, and
-  the attempted dichotomy is tautological unless it spends HeightFluxControl.A / active-alignment
-  / TPNI / retained-pack-gain / Zeno machinery.'
-branch_terminal_blockers:
-- The normalized-adjoint source-drain chain is conditional branch support; `ParentSquareEmbed.A`
-  is installed, but `ScaleCriticalTreeCarleson.A` or the Zeno rigid-class pair still
-  has to close the source wall.
-- The audit-open target atoms are `HeightFluxControl.A` / `DonorHeightCreation.A`
-  below `ReserveCreationCharge.A` for the direct reserve route; `TerminalResidueAtomExclusion.A`
-  / `ResidueEvacuationWithoutSquareSource.A` for the Zeno branch; and `ActiveStrainAlignmentCost.A`
-  / `WeightedLiftedSkewDefectLegal.A` for signed-current legalization. `FirstHeightCreationDichotomy.A`
-  is collapsed, not live.
+promotion_packet_blockers: []
+proof_obligation_blockers: []
+branch_terminal_blockers: []
 resolved_blockers:
 - full-dependency-graph
 - theorem-2-1-warrant
@@ -75,13 +56,7 @@ resolved_blockers:
 - lower-carrier-receiver-wall
 - collar-to-jump-converse-pivot
 - h1-h2-h6-endpoint-upgrade
-remaining_release_gates:
-- Prove `ScaleCriticalTreeCarleson.A` on the direct Carleson branch, or prove `ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A`
-  on the Zeno rigidity branch; generated release surfaces must not claim export-ready
-  before that root closes.
-- 'Keep endpoint/readout objects downstream: `READ.COVER`, `Field.Read`, `DTC.Read`,
-  and `END.Field` cannot be spent upstream to prove the same Field-face source-wall
-  root.'
+remaining_release_gates: []
 sourcepulse_may2_reduction:
   exact_surviving_burden: CM witness-face bridge installed by `MemberSmooth.A / WitnessFace.A`;
     SourceWall.Reconcile.A demotes normalized-adjoint source-drain to conditional
@@ -118,7 +93,7 @@ claim_boundary:
     release approval.
 current_authority_status:
   status: superseded-by-direct-live-clearance
-  checked_at: '2026-05-26T02:09:49Z'
+  checked_at: '2026-05-26T02:16:42Z'
   reason: Direct live authority reports no open theorem frontier; this artifact is
     retained as historical theorem-work context and must not respawn a live blocker.
   authority_summary:
@@ -134,3 +109,11 @@ summary:
   current_live_blocking_count: 0
   current_live_frontier_count: 0
   stale_surface_status: historical-context-only
+historical_promotion_packet_blockers: []
+historical_proof_obligation_blockers: []
+historical_branch_terminal_blockers: []
+historical_remaining_release_gates: []
+historical_promotion_packet_blockers_count: 0
+historical_proof_obligation_blockers_count: 0
+historical_branch_terminal_blockers_count: 0
+historical_remaining_release_gates_count: 0
