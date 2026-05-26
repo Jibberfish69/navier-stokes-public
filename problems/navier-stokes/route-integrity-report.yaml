@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: route-integrity-report-navier-stokes
-  generated_at: '2026-05-26T02:03:22Z'
+  generated_at: '2026-05-26T02:14:50Z'
   generator: tools/ns_pipeline_hardener.rb
 route_lock:
   path: problems/navier-stokes/route-lock.yaml
@@ -219,22 +219,22 @@ proof_program_topology:
     engine with a demand to prove one particular positive estimate directly.
   no_third_branch_rule: The installed no-third-branch audit proves that no terminal
     branch is both an in-class `Member(Q)` continuation branch and a finite nonsmoothness
-    branch. This is not identical to Clay-level global regularity until the route
-    proves `OriginalSmoothData=>not GenuineCMExit(T_*)`; keep that as the exact Clay-level
-    closing burden and do not replace it with status language, a favorite positive
-    estimate, or the mere classification of failure as exit.
-  no_genuine_exit_rule: 'The direct first-exit attempt records the real Clay-closing
-    burden: original smooth data must prevent the first terminal Pack/Part/Field exit.
-    The first concrete Pack-side wall is `OriginalSmoothData=>ScaleCriticalTreeCarleson.A`;
-    Part terminal no-drop and Field terminal coherence remain the surviving same-ledger
-    services if Pack survives. Do not call the MPP solved from branch classification
-    alone.'
-  source_reserve_birth_rule: 'The active Pack-side subclaim is `SourceReserveBirthCharge.A
+    branch once the obstruction has been admitted to the CM test and a concrete Pack/Part/Field
+    face failure has been derived. Do not respawn the rejected theorem-sized slogan
+    `OriginalSmoothData=>not GenuineCMExit(T_*)` as the local burden; the live proof
+    engine is obstruction-by-obstruction CM-test entry plus Pack/Part/Field face derivation.
+  no_genuine_exit_rule: The direct first-exit/no-genuine-exit attempt is retained
+    as a failed positive no-exit shortcut and may not control the local CM target.
+    Under the current pass-or-exit engine, a pass branch may be supplied by any lawful
+    continuation mechanism, and a fail branch is useful exactly when it lands in Pack,
+    Part, or Field and therefore supports `Exit(Q):=not Member(Q)`.
+  source_reserve_birth_rule: 'The source-reserve/signed-pair surface family is audited
+    as support, not a current proof blocker. Its useful Pack-side reading is `SourceReserveBirthCharge.A
     / RetainedPositiveScaleNativeReserveBirthCharge.A`: charge the first retained
     positive-scale native donor-square reserve surplus or route that surplus to Pack/Part/Field
-    exit. This is the first proof atom under `OriginalSmoothData=>ScaleCriticalTreeCarleson.A`;
-    do not replace it with local L3 capture, endpoint readout, generic no-pulse language,
-    or a proof that already assumes `Member(Q)`.'
+    exit. It becomes live only after a fresh CM-necessity audit proves an in-class
+    nonsmooth third branch or a concrete face failure that is not already consumed
+    by the pass-or-exit law.'
 - program_id: positive-smoothness
   proof_mode: positive_smoothness
   governing_primitive: direct a priori regularity or continuation control for the
@@ -262,8 +262,10 @@ proof_program_topology:
   proof_mode: branch_native_supplier_or_cm_landing_support
   governing_primitive: source-wall-root-after-reconcile
   propagated_object: source-reserve or Field-face residual support, depending on branch
-  promotion_gate: must bridge into the CM witness envelope before closure
-  current_role: top-level release blocker containing multiple live presentations
+  promotion_gate: fresh CM-necessity audit plus typed bridge into Pack/Part/Field
+    before it can become live
+  current_role: historical/support grouping; not a current release blocker under direct-live
+    clearance
 - program_id: receiver-source-readout
   proof_mode: forward_positive_support_and_endpoint_readout
   governing_primitive: retained/averaged receiver, source ledger, endpoint readout
@@ -307,8 +309,9 @@ open_root_group:
   top_level_release_blocker: false
   not_single_path: true
   not_single_proof_mode: true
-  dashboard_boundary: This group may be counted as one release blocker, but it must
-    not be narrated as one path, one method, one wall, or the whole NS target topology.
+  dashboard_boundary: This group is retained as historical/support topology only under
+    the current direct-live clearance. It must not be counted or narrated as one current
+    release blocker, one path, one method, one wall, or the whole NS target topology.
   exact_live_theorem_grade_burden: &1
     status: contrapositive-witness-consumption-installed
     burden_id: clay-cm-contrapositive-witness-consumption
@@ -321,9 +324,9 @@ open_root_group:
       as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and read that
       first failed service as Exit(Q):=not Member(Q) inside the CM contrapositive
       program.
-    active_container: source-wall-root-after-reconcile
-    respawn_cell: source-wall-root-theorem
-    respawn_stage: entry-first-witness-consumption
+    active_container: clay-cm-contrapositive-witness-consumption
+    respawn_cell:
+    respawn_stage:
     allowed_input_boundary: The proof may use installed genuine-exit capture, canonical
       terminal packet capture, terminal source-residue CM-exit sorting, and finite
       failure witness capture. TerminalCMNoExit.A / NoGenuineCMExit.A, bare positive-supplier
@@ -672,7 +675,7 @@ mode_selection_protocol:
     failed, or verification cannot be repaired internally.
 current_authority_status:
   status: superseded-by-direct-live-clearance
-  checked_at: '2026-05-26T02:09:49Z'
+  checked_at: '2026-05-26T02:16:42Z'
   reason: Direct live authority reports no open theorem frontier; this artifact is
     retained as historical theorem-work context and must not respawn a live blocker.
   authority_summary:
