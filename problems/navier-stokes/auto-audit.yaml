@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-26T02:04:45Z'
+  audited_at: '2026-05-26T02:09:49Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: full-mpp-closure-ready
@@ -59,7 +59,7 @@ downstream_overlay_drift:
     - 'release_posture: export-ready'
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
-    sha1: 3bd48d69a2ea4dc0ec930fbd0be76147aa53b531
+    sha1: 80c819b2ed43a27b93f460cac0df0ca95fb024e5
     matched_terms:
     - direct-live-surfaces
     - authority_gate_mode
@@ -71,7 +71,7 @@ downstream_overlay_drift:
     - submission-candidate
   - artifact: dependency_discharge
     path: problems/navier-stokes/dependency-discharge.yaml
-    sha1: e39162140aac3416d85866f5dda229479d881c17
+    sha1: 32f87ce4c6307d411f5c32111ee6452cf3d7c0e1
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -93,8 +93,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-12a13e098666
-    route_signature: 12a13e098666693d53117528c6e34b0f38eeb7c4
+    surface_id: theorem-surface-navier-stokes-afca8b68a2f8
+    route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
     theorem_target: full-mpp-closure
     theorem_statement: Every smooth divergence-free zero-mean initial datum on T^3
       with f=0 generates a global smooth classical three-dimensional incompressible
@@ -121,20 +121,7 @@ surface_snapshot:
       all hold on the active periodic branch, then the periodic Clay branch with `f
       = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
       not the internal branch itself
-    route_slots:
-    - slot_id: ActiveHeightFluxTrichotomy.A
-      label: 'ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve
-        surplus with zero first moment cannot remain hidden: the signed-pair normal
-        form either exposes same-ledger active height flux, pays by ASAC / positive
-        pair-weight charge, lands immediately in Pack/Part/Field, or reduces to TerminalSignedSaturation.A,
-        whose failure is already CM face-reduction support. This supplies the exact
-        noncircular bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A
-        converting positive square-reserve surplus into active height flux or Pack/Part/Field
-        exit..'
-      kind: lemma
-      status: localized-support
-      source_anchor: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
-      patch_surface: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
+    route_slots: []
     authority_layers:
       authoritative_proof_surfaces:
       - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
