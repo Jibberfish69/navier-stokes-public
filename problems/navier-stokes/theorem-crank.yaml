@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-26T02:03:26Z'
+  generated_at: '2026-05-26T02:08:05Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: needs-sync
@@ -175,23 +175,16 @@ cross_lane_broadcast:
     status: localized-proof
     origin: local
     source_anchor: problems/navier-stokes/theorem-to-warrant.yaml
-  - label: 'ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve
-      surplus with zero first moment cannot remain hidden: the signed-pair normal
-      form either exposes same-ledger active height flux, pays by ASAC / positive
-      pair-weight charge, lands immediately in Pack/Part/Field, or reduces to TerminalSignedSaturation.A,
-      whose failure is already CM face-reduction support. This supplies the exact
-      noncircular bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A
-      converting positive square-reserve surplus into active height flux or Pack/Part/Field
-      exit..'
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
   - label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
     kind: live-theorem-frontier
     status: grounded
     origin: local
     source_anchor: problems/navier-stokes/dependency-discharge.yaml
+  - label: ActiveHeightFluxTrichotomy.A
+    kind: invented-bridge-lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-creation.yaml
   broadcast_paths:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
