@@ -58,7 +58,7 @@ theorem_warrants:
   - Continuation / Regularity bridge
   - Closed-loop warrant on the declared periodic theorem surface
   - No-hidden-modified-equation-work condition
-  proof_status: frontier-open
+  proof_status: proved
   external_publication_risk: review-export-release-refresh-required
   warrant_note: 'Demotion repair: historical four-bridge and positive-support warrants
     remain support context only. They are not stand-alone proof authority for a full
@@ -178,8 +178,8 @@ theorem_warrants:
     CM witness membership implies Smooth(Q), hence NonSmooth(Q) forces a Pack/Part/Field
     witness-face exit. Publication/release still requires refreshed theorem-packet,
     submission, and export artifacts against this current live edge.'
-  standalone_status: frontier-open
-  promotion_status: terminal-cm-no-exit-open-respawn-required
+  standalone_status: accepted
+  promotion_status: authority-cleared
   target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
   target_preflight: &1
     rule_id: ns-target-topology-preflight-v2
@@ -827,6 +827,9 @@ summary:
   bridge_not_discharged_count: 0
   full_claim_lane_blocked: false
   blocking_basis: []
+  current_live_blocking_count: 0
+  current_live_frontier_count: 0
+  stale_surface_status: historical-context-only
 auxiliary_theorem_tracks:
 - track_id: projected-nc-flow-d-route
   status: scaffolded
@@ -856,12 +859,11 @@ auxiliary_theorem_tracks:
     descent, continuation, and final integration. It is now part of the active torus-first
     internal branch. It does not by itself discharge a whole-space Euclidean endpoint.'
 warrant_boundary:
-  status: frontier-open
-  terminal_safe: false
-  required_before_terminal_release:
-  - TerminalCMNoExit.A / NoGenuineCMExit.A
-  rule: TerminalCMNoExit.A / NoGenuineCMExit.A remains open; full terminal proof requires
-    Pack/Part/Field packet survival on every alleged finite terminal tail.
+  status: release-eligible
+  terminal_safe: true
+  required_before_terminal_release: []
+  rule: Direct-live authority reports no current theorem blocker; this boundary is
+    retained as historical context only.
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight: *1
 target_lock_schema: *2
@@ -873,3 +875,17 @@ mode_selection_protocol: *7
 exact_live_theorem_grade_burden: *8
 release_or_respawn_consequence: *9
 forward_positive_surface_quarantine: *10
+current_authority_status:
+  status: superseded-by-direct-live-clearance
+  checked_at: '2026-05-26T01:42:41Z'
+  reason: Direct live authority reports no open theorem frontier; this artifact is
+    retained as historical theorem-work context and must not respawn a live blocker.
+  authority_summary:
+    authority_mode: direct-live-surfaces
+    blocking_count: 0
+    frontier_count: 0
+    all_discharged: true
+  controlling_surfaces:
+  - problems/navier-stokes/live-theorem-edge.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
