@@ -12,6 +12,43 @@ Exit(Q; O_NS^work) := not Member(Q; O_NS^work)
 
 Every mathematical source object must be represented by proof role.
 
+## Dependency-forward PDF law
+
+The Clay-facing PDF builds in the order a reader needs the proof:
+
+```text
+Clay target
+  -> classical continuation criterion
+  -> one concrete positive attempt
+  -> the terminal branch left by failure
+  -> working class object
+  -> Pack/Part/Field services
+  -> terminal packet capture
+  -> class exit
+  -> branch-family exhaustion
+  -> short proof spine.
+```
+
+Each branch-family section must move through this sequence:
+
+```text
+positive-forward burden
+  -> exact pressure or failure branch
+  -> selected terminal object
+  -> first class service tested
+  -> pass-side readout or fail-side class exit.
+```
+
+The rendered PDF carries mathematical arguments only.
+Internal paths, filenames, generated-surface labels, coverage ledgers, build records, status surfaces, audit rows, and provenance inventories stay outside the PDF.
+The PDF may mention a branch family only by its mathematical mechanism and proof role.
+
+Required verification:
+
+```sh
+ruby problems/navier-stokes/tools/check_pdf_argument_hygiene.rb
+```
+
 | Source object type | Manuscript representation | Required standard | Rejection rule |
 | --- | --- | --- | --- |
 | Core definitions and class laws | Formal definition, lemma, theorem, or proof | The same datum, equation, pressure, viscosity, witness record, `Member`, and `Exit` predicates are stated in the argument itself. | Reject prose-only vocabulary that does not define the object used by the proof. |
@@ -26,9 +63,10 @@ Every mathematical source object must be represented by proof role.
 
 Authoring gates:
 
-1. The main manuscript should not list internal filenames as proof content.
+1. The main manuscript must be free of internal filenames and path strings.
 2. Every included branch must name its mathematical job.
 3. Every branch-family paragraph must preserve the Pack-first witness order.
 4. Every support estimate must attach to a hinge rather than float as background.
-5. Every live blocker must be stated as a theorem obligation, not as process status.
-6. There is no current concrete CM blocker after terminal witness consumption. The Pack-side/source support chain is retained as historical support and may enter the proof spine only through the terminal CM entry, Pack/Part/Field finite-failure exhaustion, or contrapositive embedding gates.
+5. Every live blocker must be stated as a theorem obligation with its service face and closing hinge.
+6. Dependency order is mandatory: definitions and operational need precede branch-family compression.
+7. There is no current concrete CM blocker after terminal witness consumption. The Pack-side/source support chain is retained as mathematical support and may enter the proof spine only through the terminal CM entry, Pack/Part/Field finite-failure exhaustion, or contrapositive embedding gates.
