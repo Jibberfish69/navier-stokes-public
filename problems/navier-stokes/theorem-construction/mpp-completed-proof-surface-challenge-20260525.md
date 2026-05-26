@@ -1,20 +1,22 @@
 # MPP Completed Proof Surface Challenge
 
-Status: adversarial proof-state audit.
+Status: adversarial necessity audit for a surface-derived alleged blocker.
 Date: 2026-05-25.
 
 ## Verdict
 
-The completed-proof claim is not certified by the current theorem evidence.
+The signed-pair/no-free-sink item is not certified as a necessary remaining
+burden for the CM contrapositive proof.
 
-The direct-live promotion surfaces are challenged. They mark
-`SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A`
-as grounded, but the underlying proof audit and direct attempt still record the
-same-ledger signed-pair/no-free-sink step as unproved.
+It was introduced by the zero-moment direct-attempt note as a way to prove a
+forward visibility/no-free-sink theorem. That is useful as a warning against
+the wrong positive reading, but it is not automatically a blocker for Thomas's
+CM contrapositive route.
 
-This is not a refusal to use the CM contrapositive proof program. It is the
-honest mathematical boundary: a completion label cannot outrank an unproved
-bridge in its own dependency chain.
+The CM program asks a different question: if the same-ledger signed-pair branch
+is the fail branch offered as a finite nonsmooth event, does its mechanism land
+in Pack, Part, or Field as `Exit(Q):=not Member(Q)`? If yes, the route does not
+also need a positive theorem erasing that branch.
 
 ## Proof Object Under Test
 
@@ -31,8 +33,8 @@ ClayAdmissibleFiniteBreakdown.A
 => Exit(Q) := not Member(Q).
 ```
 
-The last live source-reserve/root obstruction is also grounded in the
-CM-contrapositive sense only if the following bridge is actually proved:
+The source-reserve/root obstruction is consumed in the CM-contrapositive sense
+by the branch law:
 
 ```text
 SourceReserveBirthCharge.A
@@ -42,44 +44,44 @@ SourceReserveBirthCharge.A
 => Pack_Q / Part_{N,Q} / Field_{N,r,Q} face-exit support.
 ```
 
-The current contradiction is that `mpp-source-reserve-birth-cm-face-consumption-20260525.md`
-uses that chain as installed, while `mpp-active-height-flux-trichotomy-proof-audit-20260525.md`
-and `mpp-zero-moment-reserve-visibility-direct-attempt-20260525.md` say the
-same bridge is not proved from installed inputs.
+The current tension is that `mpp-zero-moment-reserve-visibility-direct-attempt-20260525.md`
+phrases the survivor as an unproved forward bridge, while
+`mpp-source-reserve-birth-cm-face-consumption-20260525.md` reads the terminal
+survivor in the CM direction: pass branch remains legal, fail branch becomes
+face-exit support.
 
 ## Surfaces Saying Otherwise
 
-These surfaces are not allowed to overrule the direct-live proof state:
+These surfaces are not allowed to create a new burden merely by naming one:
 
-- `dependency-discharge.yaml` promotes the source-reserve obligation even though
-  its own `bridge_packet` says `matched_theorem_creation_proof_object: false`.
-- `source-frontier.yaml`, `review-verdict.yaml`, and `submission-verdict.yaml`
-  count the proof as grounded/export-ready from that promotion. Those are status
-  projections, not independent proofs.
-- `theorem-creation.yaml` and `scalecriticaltreecarleson-a-theorem-creation-20260523.md`
-  contain a recursive solver chain, but the referenced theorem-creation packets
-  themselves are conditional and have `promotion_allowed: false`.
-- `mpp-source-reserve-birth-cm-face-consumption-20260525.md` is valuable as the
-  intended CM reading, but it asserts the installed chain where the audit notes
-  still require proof.
+- `mpp-zero-moment-reserve-visibility-direct-attempt-20260525.md` says a forward
+  visibility/no-free-sink theorem is not proved. That blocks the positive
+  visibility route, not automatically the CM route.
+- `mpp-active-height-flux-trichotomy-proof-audit-20260525.md` vetoes promotion of
+  `ActiveHeightFluxTrichotomy.A` as a forward discharge. That does not by itself
+  prove the terminal signed branch remains an in-class nonsmooth branch.
+- `terminalsignedsaturationcmfacereduction-a-theorem-creation-20260523.md` is
+  conditional as a theorem-creation artifact, but its role is exactly CM
+  face-reduction, not forward source-control.
+- `mpp-source-reserve-birth-cm-face-consumption-20260525.md` is the surface that
+  states the Thomas-aligned reading: the scalar-pulse countermodel blocks the
+  wrong positive theorem while supplying the reason to phrase the route as face
+  consumption.
 
 ## Correction Rule
 
-When a generated, packet-era, export-bundle, or dashboard surface says
-`grounded`, `export-ready`, or `full-mpp-closure` after this audit, it must
-prove the same-ledger signed-pair/no-free-sink bridge has been promoted from
-conditional theorem-creation to theorem-grade proof.
+When a generated, packet-era, export-bundle, dashboard, or direct-attempt
+surface says `SignedPairReserveVisibility.A` is needed, it must prove why that
+is a CM necessity rather than a positive-forward visibility demand.
 
-The exact unresolved mathematical atom is:
+The exact legitimacy test is:
 
 ```text
-SignedPairReserveVisibility.A:
-on the first minimal terminal window, a positive-scale same-ledger signed pair
-with order-one donor-square reserve and zero first moment must either generate
-active height flux, pay by ASAC / positive pair-weight charge, force terminal
-weighted no-free-sink or two-tower donor depletion, or collapse to a
-Pack/Part/Field/Zeno witness-face exit.
+Does the same-ledger signed-pair branch remain both:
+1. a legal in-class Member(Q) continuation branch; and
+2. a finite nonsmooth terminal witness?
 ```
 
-Until that proof is written or the negative audit is overturned, the lane has a
-strong CM-contrapositive proof architecture, not a certified completed MPP proof.
+If no, it is not a third branch. It is either the pass branch or the exit branch.
+The mere absence of a positive no-free-sink estimate does not reopen the MPP
+under the CM contrapositive program.
