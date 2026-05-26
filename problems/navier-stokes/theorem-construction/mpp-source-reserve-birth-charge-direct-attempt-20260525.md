@@ -1,5 +1,9 @@
 # MPP SourceReserveBirthCharge.A Direct Attempt
 
+## Authority Cap - Superseded By CM Face Consumption
+
+This direct attempt is retained as positive visibility / source-reserve proof-search evidence. Current CM authority is `mpp-source-reserve-birth-cm-face-consumption-20260525.md`: the scalar-pulse or signed-pair fail branch is consumed as Pack/Part/Field witness-face support for `Exit(Q):=not Member(Q)`. The unproved no-free-sink or active-height language here blocks only the positive-forward route.
+
 Date: 2026-05-25
 
 Status: Pack-side direct proof attempt; sharpens the first unproved atom and
