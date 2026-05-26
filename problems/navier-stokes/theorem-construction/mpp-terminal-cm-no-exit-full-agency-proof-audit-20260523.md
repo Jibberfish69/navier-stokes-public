@@ -1,5 +1,9 @@
 # TerminalCMNoExit.A full-agency proof audit
 
+## Authority Cap - Positive No-Exit Attempt Only
+
+This file is retained as a positive no-exit / packet-survival proof attempt. Current CM proof-status authority is `mpp-cm-proof-completion-surface-field-audit-20260525.md` plus `mpp-completed-proof-surface-challenge-20260525.md`. The open Pack/Part/Field no-exit language here is not an active CM blocker. Reopening requires a proved legal in-class nonsmooth third branch or a proved failure of Clay terminal CM entry/exhaustion/embedding.
+
 ## Target
 
 `TerminalCMNoExit.A / NoGenuineCMExit.A` asks for original smooth Navier-Stokes data to leave at least one continuation-complete Pack/Part/Field packet on every alleged finite terminal tail.
