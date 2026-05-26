@@ -31,6 +31,12 @@ ORDERED_ANCHORS = [
   "\\section{The Closing Hinges}"
 ].freeze
 
+APPENDIX_ANCHORS = [
+  "\\section{Expanded CM Branch Obligations}",
+  "\\section{Expanded Forward-Support Obligations}",
+  "\\section{Expanded Branch-Family Obligations}"
+].freeze
+
 def strip_comments(text)
   text.lines.map do |line|
     escaped = false
@@ -56,6 +62,14 @@ def visible_body(path)
   strip_comments(body)
 end
 
+def scan_body(path, body, errors)
+  FORBIDDEN_VISIBLE_PATTERNS.each do |label, pattern|
+    if (match = body.match(pattern))
+      errors << "#{path.relative_path_from(ROOT)}:#{line_number(body, match.begin(0))}: forbidden #{label}: #{match[0].strip}"
+    end
+  end
+end
+
 def line_number(text, offset)
   text[0...offset].count("\n") + 1
 end
@@ -66,14 +80,11 @@ errors = []
   next unless path.exist?
 
   body = visible_body(path)
-  FORBIDDEN_VISIBLE_PATTERNS.each do |label, pattern|
-    if (match = body.match(pattern))
-      errors << "#{path.relative_path_from(ROOT)}:#{line_number(body, match.begin(0))}: forbidden #{label}: #{match[0].strip}"
-    end
-  end
+  appendix_include_position = body.index("\\input{surface-derivation-appendix.tex}")
+  scan_body(path, body.gsub("\\input{surface-derivation-appendix.tex}", ""), errors)
 
-  if body.include?("surface-derivation-appendix")
-    errors << "#{path.relative_path_from(ROOT)}: includes internal surface appendix"
+  if path == MAIN_TEX && appendix_include_position.nil?
+    errors << "#{path.relative_path_from(ROOT)}: missing mathematical surface expansion appendix input"
   end
 
   positions = ORDERED_ANCHORS.map do |anchor|
@@ -90,13 +101,33 @@ errors = []
 
     errors << "#{path.relative_path_from(ROOT)}: dependency order violation #{left_anchor} must precede #{right_anchor}"
   end
+
+  branch_pattern_position = body.index("\\section{Branch Derivation Patterns}")
+  if appendix_include_position && branch_pattern_position && appendix_include_position < branch_pattern_position
+    errors << "#{path.relative_path_from(ROOT)}: mathematical surface expansion appendix must follow branch derivation patterns"
+  end
 end
 
 if SURFACE_APPENDIX.exist?
-  visible = strip_comments(SURFACE_APPENDIX.read).strip
-  unless visible.empty?
-    errors << "#{SURFACE_APPENDIX.relative_path_from(ROOT)}: internal surface appendix must contain comments only"
+  visible = strip_comments(SURFACE_APPENDIX.read)
+  scan_body(SURFACE_APPENDIX, visible, errors)
+
+  APPENDIX_ANCHORS.each do |anchor|
+    unless visible.include?(anchor)
+      errors << "#{SURFACE_APPENDIX.relative_path_from(ROOT)}: missing mathematical appendix anchor #{anchor}"
+    end
   end
+
+  APPENDIX_ANCHORS.each_cons(2) do |left_anchor, right_anchor|
+    left_position = visible.index(left_anchor)
+    right_position = visible.index(right_anchor)
+    next if left_position.nil? || right_position.nil?
+    next if left_position < right_position
+
+    errors << "#{SURFACE_APPENDIX.relative_path_from(ROOT)}: appendix order violation #{left_anchor} must precede #{right_anchor}"
+  end
+else
+  errors << "#{SURFACE_APPENDIX.relative_path_from(ROOT)}: missing mathematical surface expansion appendix"
 end
 
 if errors.empty?
