@@ -290,7 +290,7 @@ Its direct burden is an exhaustive class test.
 For every claimed nonsmooth terminal object, the object either passes as the same smooth Navier--Stokes object or fails as an object outside the class.
 After the nonsmooth pictures have been classified, the class contains no nonsmooth terminal member.
 The smooth initial datum gives the class a starting member.
-The pass side is therefore the smooth side of the original problem.
+The pass side gives the smooth side of the original problem.
 
 This is the proof economy.
 A bad object can now be evidence that the alleged terminal branch has left the class.
@@ -483,36 +483,6 @@ It can carry a Zeno chain whose parent packets never leave a positive same-fluid
 It can point to a donor that does not ride with the same flow.
 Those are packet-side failures.
 
-The class-membership witness at depth \(N\), scale \(r\), and packet \(Q\) is
-\[
-  \CM_{N,r,Q}
-  :=
-  \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
-\]
-The three witness laws are read together on the same record.
-
-\begin{definition}[Class-membership packet]
-At depth \(N\), scale \(r\), and packet \(Q\), the class-membership witness is
-\[
-  \CM_{N,r,Q}
-  :=
-  \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
-\]
-The three laws are read together on one witness record.
-\end{definition}
-
-\begin{lemma}[Membership readout]
-Let \(N_*\) be a finite depth high enough to read the claimed terminal branch.
-If, on the terminal record, \(\CM_{N_*,r,Q}\) holds for some \(r>0\), then the packet stays on the smooth side of the split.
-\end{lemma}
-
-\begin{proof}
-\(\Pack_Q\) gives a positive finite carrier cover.
-\(\Part_{N_*,Q}\) identifies the derivative tower on that cover with the same Navier--Stokes equation, with pressure and viscosity included.
-\(\Field_{N_*,r,Q}\) keeps the local readings coherent on a positive scale.
-Those three facts say that the alleged terminal object is still the same smooth branch being read through the same equation.
-\end{proof}
-
 \section{Velocity Failure Types}
 
 The names dead, jump, and blown now have a job.
@@ -560,13 +530,36 @@ The proof keeps the mechanism tied to the witness tree.
 
 The logic can now be stated cleanly.
 A finite-time breakdown claim enters the proof by claiming to be about the original Navier--Stokes solution.
-It must supply a terminal object for that same solution.
+A breakdown claim supplies a terminal object for that same solution.
 The class test reads that object through
 \[
   \CM_{N,r,Q}
   :=
   \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
 \]
+The three witness laws are read together on the same record.
+
+\begin{definition}[Class-membership packet]
+At depth \(N\), scale \(r\), and packet \(Q\), the class-membership witness is
+\[
+  \CM_{N,r,Q}
+  :=
+  \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
+\]
+The three laws are read together on one witness record.
+\end{definition}
+
+\begin{lemma}[Membership readout]
+Let \(N_*\) be a finite depth high enough to read the claimed terminal branch.
+If, on the terminal record, \(\CM_{N_*,r,Q}\) holds for some \(r>0\), then the packet stays on the smooth side of the split.
+\end{lemma}
+
+\begin{proof}
+\(\Pack_Q\) gives a positive finite carrier cover.
+\(\Part_{N_*,Q}\) identifies the derivative tower on that cover with the same Navier--Stokes equation, with pressure and viscosity included.
+\(\Field_{N_*,r,Q}\) keeps the local readings coherent on a positive scale.
+Those three facts say that the alleged terminal object is still the same smooth branch being read through the same equation.
+\end{proof}
 
 For the working object, membership is the survival of the required witness through every finite continuation depth:
 \[
@@ -643,7 +636,7 @@ The class-law proof checks that the same terminal branch cannot be both a member
 
 \begin{definition}[Terminal face-failure witness]
 A terminal face-failure witness is a same-solution terminal packet \(Q\) that is CM-test-admissible and satisfies \(\Exit(Q;\Owork)\) by a derived Pack, Part, or Field face failure.
-It is the fail side of the obstruction split, not a legal member continuation branch.
+It belongs to the fail side of the obstruction split and carries no legal member-continuation status.
 \end{definition}
 
 \begin{proposition}[Legal branch law]
