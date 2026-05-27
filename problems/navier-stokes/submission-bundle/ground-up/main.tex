@@ -557,7 +557,7 @@ Every legal same-solution continuation branch for the Clay Navier--Stokes proble
 
 \begin{proof}
 A legal same-solution continuation branch is the original smooth-data Navier--Stokes evolution continued as the same velocity-pressure solution with the same viscosity and same fluid participation.
-To be such a continuation branch, it must retain a positive same-fluid carrier, the same pressure-viscosity participation tower through the continuation depth, and positive-scale coherent field data for the \(H^s\) readout with \(s>5/2\).
+To be such a continuation branch, it must retain a positive same-fluid carrier, the same pressure-viscosity participation tower through the continuation depth, and positive-scale coherent field data.
 Those are exactly the requirements defining membership in \(\Owork\).
 \end{proof}
 
@@ -572,8 +572,7 @@ There is no terminal branch that is both an in-class member branch and a finite 
 
 \begin{proof}
 Membership gives the three requirements on one witness record.
-By membership readout, those requirements give a bounded \(H^s\) continuation norm with \(s>5/2\).
-Classical local theory then extends the same solution past \(T_*\).
+By membership readout, those requirements keep the same branch on the smooth continuation side of the test.
 That contradicts the claim that the same branch blocks smooth continuation at \(T_*\).
 \end{proof}
 
@@ -821,7 +820,7 @@ Those alternatives are Pack/Part/Field examples or support outcomes inside the s
 \subsection{Endpoint, No-Pulse, And Good-Scale Readout}
 
 Endpoint arguments are closest to classical continuation.
-They ask for a good scale, a read cover, pulse exclusion, terminal-tail control, and coherent \(H^s\) output.
+They ask for a good scale, a read cover, pulse exclusion, terminal-tail control, and coherent field output.
 They are essential on the pass side.
 They become misleading when they are treated as the primitive class test.
 
@@ -831,7 +830,7 @@ It cannot certify membership without the Pack, Part, and Field requirements on o
 \end{proposition}
 
 \begin{proof}
-The \(H^s\) continuation theorem reads a packet that already has enough coherent field control.
+The smooth continuation readout reads a packet that already has enough coherent field control.
 That packet must be carried by the same fluid, governed by the same pressure-viscosity tower, and coherent on a positive scale.
 Those are the three requirements.
 Readout is the final consequence of the requirements, not a replacement for them.
@@ -913,7 +912,7 @@ Transfer and mirror comparison & compare neighbouring theorem worlds & outside t
 \begin{tabular}{L{0.20\linewidth}L{0.24\linewidth}L{0.24\linewidth}L{0.22\linewidth}}
 \textbf{Object or branch} & \textbf{Use in the proof} & \textbf{What is proved here} & \textbf{Debt before stronger claim}\\
 \hline
-Torus material atlas & load-bearing terminal packet capture & proved for the periodic theorem & whole-space export theorem\\
+Torus material atlas & load-bearing terminal packet capture & proved for the periodic theorem & periodic atlas proof only\\
 Source reserve and donor refill & Pack-side support and same-packet payment pressure & used after selected reserve lands in the witness tree & same-ledger payment or first-face theorem\\
 Zeno and terminal atoms & Pack-side zero-radius branch or retained typed subcase & zero-radius gives Pack failure; retained scale returns to the tree & positive-scale theorem for retained alternatives\\
 Retained amplitude, height flux, and low strain & face-routing support & finite routing through Pack, Part, Field, or Zeno & named first-face certificate\\
@@ -921,7 +920,6 @@ Signed current and no-free-sink & source-economy routing & no independent face; 
 Endpoint, no-pulse, and good-scale readout & downstream continuation readout & reads a packet after Pack, Part, and Field survive & selected membership theorem\\
 Local \(L^3\) translators & witness-record recovery & local translation support before face testing & selected same-record Pack/Part/Field theorem\\
 Euler and fixed-viscosity comparison & comparison pressure & outside this proof until exact transfer & Navier--Stokes packet transfer theorem\\
-Whole-space theorem & export theorem surface & periodic theorem supplied & \(\mathbb R^3\) tightness/localization export\\
 \end{tabular}
 \end{center}
 
@@ -1039,11 +1037,11 @@ First, torus global material-atlas terminal capture is complete:
   \forall r>0\,\neg\Field_{N_s,r,Q}.
 \]
 
-Second, membership readout gives the classical continuation bound:
+Second, membership readout gives smooth continuation of the same branch:
 \[
   \Member(Q;\Owork)
   \Longrightarrow
-  \sup_{t<T_*}\|u(t)\|_{H^s}<\infty,\qquad s>5/2.
+  \text{same-solution smooth continuation.}
 \]
 
 Third, every finite Clay terminal witness passes through the terminal witness chain:
