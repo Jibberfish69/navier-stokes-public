@@ -146,13 +146,16 @@ That means it has to rule out every way a terminal source could keep making new 
 
 \section{Where The Gold Method Reaches Its Wall}
 
-The work behind this paper began inside that gold-standard search.
-It tried the natural thing first: find a stable quantity, then find a better stable quantity, then find a better way to read the same source wall.
-Each attempt taught something real about the equation.
-The repeated lesson was that a positive proof could control one source picture, while a sharper terminal picture still remained.
+The work behind this paper did not begin with class membership.
+It began the way one normally begins this problem.
+First try to control energy.
+Then try to control the next derivative.
+When the derivative source refuses to have a sign, try to understand its shape: direction, concentration, packets, ancestry, reserves, and terminal sources.
+Those attempts were not wasted.
+They showed where the real wall sits.
 
-The obstruction is not that the source term is mysterious.
-The obstruction is that a direct proof has to explain how the original Navier--Stokes solution pays every possible terminal source bill.
+The wall is not that the source term is mysterious.
+The wall is that a direct proof has to explain how the original Navier--Stokes solution pays every possible terminal source bill.
 For example, a shrinking terminal heat window may carry a positive source reserve.
 One can try to say that the reserve came from its parent window.
 Then the parent has to be paid.
@@ -164,8 +167,8 @@ A terminal pulse may have no positive carrier.
 A donor may be named without belonging to the same transported fluid packet.
 A local \(L^3\) or critical endpoint trace may describe a concentration without proving that the trace is the same Navier--Stokes object.
 A field may keep a formal velocity value while losing the derivative tower needed for smooth continuation.
-The gold method keeps asking: how do we control this?
-The answer may require new estimates at every new shape of failure.
+The gold method keeps asking the same question: how do we control this?
+That question is honest, but it can make the proof chase a new estimate for every new shape of failure.
 
 The useful turn is to stop asking only how smoothness is controlled.
 For a claimed finite failure, there is an earlier question:
@@ -179,21 +182,21 @@ It needs to show that the object is outside.
 
 \section{Reframing The Problem}
 
-The reframing is small, but it changes the shape of the work.
+The reframing is small, and it changes the shape of the work.
 The gold question is:
 \[
   \text{how is smoothness controlled?}
 \]
 The silver question is:
 \[
-  \text{when a nonsmooth terminal object is claimed, is it still the same Navier--Stokes object?}
+  \text{if smoothness is claimed to fail, is the failed object still Navier--Stokes?}
 \]
 
 This is the class-membership question.
 A claimed terminal object has to remain the fluid defined by the problem: same datum, same equation, same pressure, same viscosity, same incompressibility law, same velocity field, same terminal witness record.
 If one of those requirements fails, the claimed object may still be a useful picture of why a proof attempt broke down, but it is not a breakdown of the Navier--Stokes class object.
 
-The working guess behind the method is simple.
+The guess behind the method is simple.
 The Navier--Stokes equations should be smooth for all time.
 Many imagined blowup pictures look like blowup only because they have quietly stopped being Navier--Stokes objects.
 They describe a packet with no carrier, a source with no ancestry, a slip between two fields that are no longer one field, or a tower that no longer participates in the same pressure-viscosity law.
@@ -210,8 +213,8 @@ The test below is designed to catch exactly that drift.
 \section{The Failure List}
 
 The proof has to face the failure pictures that the positive route leaves behind.
-Here is the working list used in this manuscript.
-The later sections do not treat these as folklore names; each one is forced into a Pack, Part, or Field witness law.
+Here is the working list.
+These names are only useful because each one tells us what can go wrong with the object itself.
 
 \begin{enumerate}[leftmargin=2em]
 \item \textbf{Source wall.}
@@ -256,7 +259,8 @@ The endpoint words dead, jump, and blown are saved for the moment when those pic
 The silver method is not weaker in its conclusion.
 It is more modest in what it tries to prove directly.
 It does not try to show, one by one, how every imagined nonsmooth picture is smoothed by an estimate.
-It asks whether each claimed nonsmooth picture is still a member of the Navier--Stokes class.
+It asks a yes-or-no question first.
+When smoothness is claimed to fail, does the failed object remain inside the Navier--Stokes class, or has it left the class?
 
 The split is:
 \[
@@ -270,7 +274,7 @@ Then it is on the smooth continuation side of the test.
 On the fail side, the object loses one of those same-object requirements.
 Then it is not a legal finite breakdown of the Navier--Stokes solution.
 
-So the proof can be read as a certification problem.
+So the proof becomes a certification problem.
 Take any claimed finite terminal object for the original solution.
 Ask whether it is still a member of the working Navier--Stokes class.
 If it is a member, the claimed terminal time is not a breakdown time for that object.
@@ -285,8 +289,9 @@ It needs to prove that each bad picture either carries the continuation witness 
 
 \section{The Class-Membership Question}
 
-Now we define the object being tested.
-The working class object \(\Owork\) is the Navier--Stokes class generated by the original data and read on one terminal witness record.
+Now we name the object being tested.
+Call it the working class object, \(\Owork\).
+It is the Navier--Stokes class generated by the original data and read on one terminal witness record.
 For a packet \(Q\),
 \[
   \Member(Q;\Owork)
@@ -304,6 +309,7 @@ After \(t=0\), the velocity evolves only by the equation.
 Pressure keeps the flow divergence-free, and viscosity spreads and damps velocity differences.
 
 Euler is the useful comparison picture because Euler removes viscosity.
+It keeps the transport-pressure skeleton and sets the viscous part to zero.
 In a simple Euler mental picture, imagine one plank sliding over a fixed plank.
 The picture stands for two finite incompressible flows in one fluid field, with a hard tangential slip between them.
 The velocities on both sides are finite, but they do not make one smooth velocity field.
@@ -315,6 +321,7 @@ Viscosity is often described as damping.
 That is true, and it is not the whole role it plays here.
 Viscosity also couples neighboring packets of the fluid through the Laplacian.
 It acts like a tether between nearby velocity values.
+It gives the fluid one information transport law instead of allowing nearby packets to keep private motions.
 A fast piece drags on a slow piece, and a slow piece drags on a fast piece.
 The smooth Couette-flow picture is the right contrast to the two-plank slip picture: instead of two separate speeds with a hard jump, the velocities are joined by one continuous gradient.
 A honey pour gives the same intuition in a rough way.
@@ -356,7 +363,10 @@ For a terminal packet \(Q\),
 \section{Packet, Participation, And Field}
 
 The class-membership test has three witness laws.
-They are the three things a claimed terminal object has to keep in order to remain the same Navier--Stokes object.
+In plain words, Pack asks whether there is still a body of the same fluid to talk about.
+Part asks whether that body is still obeying the same pressure-viscosity equation.
+Field asks whether neighboring pieces still fit together as one field on a positive scale.
+Those are the three things a claimed terminal object has to keep in order to remain the same Navier--Stokes object.
 
 \begin{definition}[Witness record]
 A witness record is the common record
