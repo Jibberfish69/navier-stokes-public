@@ -60,7 +60,7 @@ The split is checked in three places:
   \Pack_Q,\qquad \Part_{N,Q},\qquad \Field_{N,r,Q}.
 \]
 \(\Pack_Q\) asks for a positive material carrier.
-\(\Part_{N,Q}\) asks for participation in the same Navier--Stokes pressure-viscosity evolution.
+\(\Part_{N,Q}\) asks whether the same Navier--Stokes equation, with its pressure and viscosity, still acts on that packet.
 \(\Field_{N,r,Q}\) asks for positive-scale field control on one witness record.
 The first place where the terminal object fails gives the class exit
 \[
@@ -166,7 +166,7 @@ The same problem appears in different clothing.
 A terminal pulse may have no positive carrier.
 A donor may be named without belonging to the same transported fluid packet.
 A local \(L^3\) or critical endpoint trace may describe a concentration without proving that the trace is the same Navier--Stokes object.
-A field may keep a formal velocity value while losing the derivative tower needed for smooth continuation.
+A field may keep a formal velocity value while losing the derivative tower needed to read it as one smooth Navier--Stokes field.
 The gold method keeps asking the same question: how do we control this?
 That question is honest, but it can make the proof chase a new estimate for every new shape of failure.
 
@@ -175,7 +175,7 @@ For a claimed finite failure, there is an earlier question:
 \[
   \text{is the claimed failure still inside the Navier--Stokes class?}
 \]
-If it is still inside the class, it has the kind of packet a continuation argument can use.
+If it is still inside the class, it is on the pass side of the split.
 If it is outside the class, it cannot be the Clay breakdown of the original solution.
 The proof does not need to explain how an outside object becomes smooth.
 It needs to show that the object is outside.
@@ -199,7 +199,7 @@ If one of those requirements fails, the claimed object may still be a useful pic
 The guess behind the method is simple.
 The Navier--Stokes equations should be smooth for all time.
 Many imagined blowup pictures look like blowup only because they have quietly stopped being Navier--Stokes objects.
-They describe a packet with no carrier, a source with no ancestry, a slip between two fields that are no longer one field, or a tower that no longer participates in the same pressure-viscosity law.
+They describe a packet with no carrier, a source with no ancestry, a slip between two fields that are no longer one field, or a tower that no longer participates in the same Navier--Stokes law.
 Once the object has left the class, the proof no longer has to smooth it.
 The proof has to identify the exit.
 In other words, it does not matter how a thing is or is not smooth inside a made-up terminal picture.
@@ -238,7 +238,7 @@ Two neighboring velocity pieces may keep finite velocities while no longer fitti
 The simple mental picture is one plank sliding over another plank: two finite flows, one interface, no smooth bridge between them.
 
 \item \textbf{Dead participation.}
-A carrier may remain visible while the pressure-viscosity law no longer acts as the same law on that carrier.
+A carrier may remain visible while the Navier--Stokes law no longer acts as the same law on that carrier.
 The packet is still being pointed at, but it is no longer participating in the same equation.
 
 \item \textbf{Blown tower.}
@@ -269,10 +269,10 @@ The split is:
 \[
   \text{fail: the object leaves the class.}
 \]
-On the pass side, the object has the packet, the law, and the field coherence needed for smooth continuation.
-Then it is on the smooth continuation side of the test.
+On the pass side, the object still has the same packet, the same equation, and one coherent field.
+That is the smooth side of the split.
 On the fail side, the object loses one of those same-object requirements.
-Then it is not a legal finite breakdown of the Navier--Stokes solution.
+Then the claimed nonsmooth object has left the class, so it is not a legal finite breakdown of the Navier--Stokes solution.
 
 So the proof becomes a certification problem.
 Take any claimed finite terminal object for the original solution.
@@ -281,11 +281,11 @@ If it is a member, the claimed terminal time is not a breakdown time for that ob
 If it is not a member, it cannot be the claimed in-class breakdown.
 After every nonsmooth terminal picture has been sent to the fail side, the class contains no nonsmooth terminal member.
 The smooth initial datum already gives a smooth member at the start, so the class is not empty.
-The only class members left by the terminal test are smooth continuation members.
+What remains inside the class is the smooth side of the split.
 
 This is the proof's main economy.
 It does not need to discover the private smoothing mechanism for each bad picture.
-It needs to prove that each bad picture either carries the continuation witness or fails to be the same Navier--Stokes object.
+It needs to prove that each bad picture either stays on the smooth side of the split or fails to be the same Navier--Stokes object.
 
 \section{The Class-Membership Question}
 
@@ -350,10 +350,10 @@ Then each rung has the form
   D_tU_k=K_k+B_k,
 \]
 where \(B_k\) contains the lower-rung nonlinear commutator terms.
-The tower is the way the proof asks whether the same pressure-viscosity law is still acting through the derivatives needed for smooth continuation.
+The tower is the way the proof asks whether the same Navier--Stokes equation, with pressure and viscosity included, is still acting through the derivatives needed to read one smooth field.
 
 \begin{definition}[Working class object]
-The working Navier--Stokes class object \(\Owork\) is the original smooth-data incompressible Navier--Stokes evolution, together with its pressure, viscosity, transported material family, terminal packet, and continuation readout.
+The working Navier--Stokes class object \(\Owork\) is the original smooth-data incompressible Navier--Stokes evolution, together with its pressure, viscosity, transported material family, terminal packet, and terminal witness record.
 For a terminal packet \(Q\),
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
@@ -364,7 +364,7 @@ For a terminal packet \(Q\),
 
 The class-membership test has three witness laws.
 In plain words, Pack asks whether there is still a body of the same fluid to talk about.
-Part asks whether that body is still obeying the same pressure-viscosity equation.
+Part asks whether that body is still obeying the same Navier--Stokes equation, with pressure and viscosity included.
 Field asks whether neighboring pieces still fit together as one field on a positive scale.
 Those are the three things a claimed terminal object has to keep in order to remain the same Navier--Stokes object.
 
@@ -385,7 +385,7 @@ A trace with no positive carrier, or a donor history not carried by the same flo
 \end{definition}
 
 \begin{definition}[Participation witness law]
-\(\Part_{N,Q}\) means that, on the packet supplied by \(\Pack_Q\), the same pressure-viscosity tower still acts through depth \(N\):
+\(\Part_{N,Q}\) means that, on the packet supplied by \(\Pack_Q\), the same Navier--Stokes equation still acts through the velocity tower to depth \(N\):
 \[
   D_tU_k=K_k+B_k,
   \qquad
@@ -419,12 +419,12 @@ The three laws are read together on one witness record.
 
 \begin{lemma}[Membership readout]
 Let \(N_*\) be a finite depth high enough to read the claimed terminal branch.
-If, on the terminal record, \(\CM_{N_*,r,Q}\) holds for some \(r>0\), then the packet stays on the smooth continuation side of the test.
+If, on the terminal record, \(\CM_{N_*,r,Q}\) holds for some \(r>0\), then the packet stays on the smooth side of the split.
 \end{lemma}
 
 \begin{proof}
 \(\Pack_Q\) gives a positive finite carrier cover.
-\(\Part_{N_*,Q}\) identifies the derivative tower on that cover with the same pressure-viscosity Navier--Stokes tower.
+\(\Part_{N_*,Q}\) identifies the derivative tower on that cover with the same Navier--Stokes equation, with pressure and viscosity included.
 \(\Field_{N_*,r,Q}\) keeps the local readings coherent on a positive scale.
 Those three facts say that the alleged terminal object is still the same smooth branch being read through the same equation.
 \end{proof}
@@ -445,7 +445,7 @@ They are not primitive laws and they are not three disjoint physical doors.
 They are names for how a claimed terminal object fails the class-membership test.
 
 \textbf{Dead} is the participation failure word.
-A packet may remain visible, yet the same pressure-viscosity law no longer acts on it.
+A packet may remain visible, yet the same Navier--Stokes law no longer acts on it.
 Then the object is dead relative to the Navier--Stokes class.
 It is not dead because the velocity is zero at a point.
 It is dead because the packet no longer participates in the same law.
@@ -496,7 +496,7 @@ Class exit is the negation of membership:
 
 The pass/fail split is:
 \[
-  \text{pass: }\CM_{N_*,r,Q}\Longrightarrow\text{smooth continuation},
+  \text{pass: }\CM_{N_*,r,Q}\Longrightarrow\text{smooth side of the split},
 \]
 \[
   \text{fail: }\neg\Pack_Q\ \vee\ \neg\Part_{N_*,Q}\ \vee\ \forall r>0\,\neg\Field_{N_*,r,Q}
@@ -522,7 +522,7 @@ The reduced table used by the proof is shorter:
 \[
 \begin{array}{c|l}
 \text{row} & \text{meaning}\\ \hline
-\Pack\wedge\Part\wedge\Field & \text{pass: read out to smooth continuation}\\
+\Pack\wedge\Part\wedge\Field & \text{pass: smooth side of the split}\\
 \Pack\wedge\neg\Part\wedge\neg\Field & \text{carrier retained, same-law/one-field coherence fails}\\
 \neg\Pack\wedge\neg\Part\wedge\neg\Field & \text{same-fluid carrier fails, so the object exits.}
 \end{array}
@@ -553,7 +553,7 @@ Every legal same-solution continuation branch for the Clay Navier--Stokes proble
 
 \begin{proof}
 A legal same-solution continuation branch is the original smooth-data Navier--Stokes evolution continued as the same velocity-pressure solution with the same viscosity and same fluid participation.
-To be such a continuation branch, it must retain a positive same-fluid carrier, the same pressure-viscosity participation tower through the continuation depth, and positive-scale coherent field data.
+To be such a continuation branch, it must retain a positive same-fluid carrier, the same Navier--Stokes law through the velocity tower, and positive-scale coherent field data.
 Those are exactly the requirements defining membership in \(\Owork\).
 \end{proof}
 
@@ -783,7 +783,7 @@ A retained-amplitude branch either creates Pack gain, loses Part participation o
 \begin{proof}
 Retained amplitude must live somewhere.
 If it produces a positive same-fluid carrier, it is Pack support.
-If the carrier survives while the same pressure-viscosity tower fails to participate with the retained branch, it is Part-side.
+If the carrier survives while the same Navier--Stokes law fails to act through the retained branch, it is Part-side.
 If Pack and Part both survive, the remaining retained amplitude is read as Field pressure.
 If the retained object has no positive terminal scale, it is the Zeno/Pack subcase.
 \end{proof}
@@ -827,7 +827,7 @@ It cannot certify membership without the Pack, Part, and Field requirements on o
 
 \begin{proof}
 The smooth continuation readout reads a packet that already has enough coherent field control.
-That packet must be carried by the same fluid, governed by the same pressure-viscosity tower, and coherent on a positive scale.
+That packet must be carried by the same fluid, governed by the same Navier--Stokes law through the velocity tower, and coherent on a positive scale.
 Those are the three requirements.
 Readout is the final consequence of the requirements, not a replacement for them.
 \end{proof}
@@ -1078,8 +1078,8 @@ A terminal branch with a surviving carrier and broken pressure participation, br
 \end{lemma}
 
 \begin{proof}
-After a carrier survives, the continuation branch still has to solve the same differentiated Navier--Stokes pressure-viscosity tower on that carrier.
-The listed mechanisms break that tower while leaving the carrier question already passed.
+After a carrier survives, the continuation branch still has to solve the same differentiated Navier--Stokes equation on that carrier.
+The listed mechanisms break that same-equation participation while leaving the carrier question already passed.
 The first lost surviving requirement is therefore \(\Pack_Q\wedge\neg\Part_{N,Q}\).
 \end{proof}
 
@@ -1098,7 +1098,7 @@ Every selected branch handled in the forward-family analysis is a carrier branch
 \end{proposition}
 
 \begin{proof}
-A selected branch either lacks a positive transported packet, keeps such a packet and loses the same pressure-viscosity tower, keeps both and loses positive-scale coherent field readout, or has not yet supplied the selected packet needed for the class test.
+A selected branch either lacks a positive transported packet, keeps such a packet and loses the same Navier--Stokes law through the velocity tower, keeps both and loses positive-scale coherent field readout, or has not yet supplied the selected packet needed for the class test.
 The first three alternatives are Pack, Part, and Field.
 The last alternative is support for a later selected packet.
 There is no fourth continuation requirement in the working class object.
