@@ -4,7 +4,7 @@ problem_id: navier-stokes
 generated_at: '2026-05-27T00:34:58Z'
 status: exported
 render_quality: typeset
-pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
+pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
 source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 page_count: 617
 overfull_box_count: 0
@@ -15,7 +15,5 @@ undefined_control_sequence_count: 0
 missing_dollar_count: 0
 latex_error_count: 0
 warnings: []
-mirror_pdf: problems/navier-stokes/submission-bundle/ground-up/main.pdf
-mirror_page_count: 617
 tex_byte_parity: true
 pdf_byte_parity: false
