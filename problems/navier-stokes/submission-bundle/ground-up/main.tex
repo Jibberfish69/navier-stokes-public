@@ -155,8 +155,8 @@ The obstruction is not that the source term is mysterious.
 The obstruction is that a direct proof has to explain how the original Navier--Stokes solution pays every possible terminal source bill.
 For example, a shrinking terminal heat window may carry a positive source reserve.
 One can try to say that the reserve came from its parent window.
-Then one must pay the parent.
-If the parent was also born from a smaller terminal window, one must pay that one too.
+Then the parent has to be paid.
+If the parent was also born from a smaller terminal window, that one has to be paid too.
 The proof starts to look like a Zeno payment chain: each bill is pushed backward, but a first unpaid bit may still try to appear at the end.
 
 The same problem appears in different clothing.
@@ -172,7 +172,7 @@ For a claimed finite failure, there is an earlier question:
 \[
   \text{is the claimed failure still inside the Navier--Stokes class?}
 \]
-If it is still inside the class, the paper must read it as a continuation packet.
+If it is still inside the class, the paper reads it as a continuation packet.
 If it is outside the class, it cannot be the Clay breakdown of the original solution.
 The proof does not need to explain how an outside object becomes smooth.
 It needs to show that the object is outside.
@@ -190,7 +190,7 @@ The silver question is:
 \]
 
 This is the class-membership question.
-A claimed terminal object must still be the fluid defined by the problem: same datum, same equation, same pressure, same viscosity, same incompressibility law, same velocity field, same terminal witness record.
+A claimed terminal object has to still be the fluid defined by the problem: same datum, same equation, same pressure, same viscosity, same incompressibility law, same velocity field, same terminal witness record.
 If one of those requirements fails, the claimed object may still be a useful picture of why a proof attempt broke down, but it is not a breakdown of the Navier--Stokes class object.
 
 The working guess behind the method is simple.
@@ -204,7 +204,7 @@ It matters whether the thing is still the Navier--Stokes object defined by the p
 
 This is the same solution logic.
 A terminal picture is not allowed to win by changing the object under discussion.
-It must remain attached to the original smooth-data solution.
+It has to remain attached to the original smooth-data solution.
 The test below is designed to catch exactly that drift.
 
 \section{The Failure List}
@@ -266,14 +266,14 @@ The split is:
   \text{fail: the object leaves the class.}
 \]
 On the pass side, the object has the packet, the law, and the field coherence needed for smooth continuation.
-Then the same solution continues.
+Then it is on the smooth continuation side of the test.
 On the fail side, the object loses one of those same-object requirements.
 Then it is not a legal finite breakdown of the Navier--Stokes solution.
 
 So the proof can be read as a certification problem.
 Take any claimed finite terminal object for the original solution.
 Ask whether it is still a member of the working Navier--Stokes class.
-If it is a member, the same solution continues past the claimed terminal time.
+If it is a member, the claimed terminal time is not a breakdown time for that object.
 If it is not a member, it cannot be the claimed in-class breakdown.
 After every nonsmooth terminal picture has been sent to the fail side, the class contains no nonsmooth terminal member.
 The smooth initial datum already gives a smooth member at the start, so the class is not empty.
