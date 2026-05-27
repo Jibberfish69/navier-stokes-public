@@ -154,7 +154,6 @@ When the derivative source refuses to have a sign, try to understand its shape: 
 Those attempts were not wasted.
 They showed where the real wall sits.
 
-The wall is not that the source term is mysterious.
 The wall is that a direct proof has to explain how the original Navier--Stokes solution pays every possible terminal source bill.
 For example, a shrinking terminal heat window may carry a positive source reserve.
 One can try to say that the reserve came from its parent window.
@@ -177,8 +176,7 @@ For a claimed finite failure, there is an earlier question:
 \]
 If it is still inside the class, it is on the pass side of the split.
 If it is outside the class, it cannot be the Clay breakdown of the original solution.
-The proof does not need to explain how an outside object becomes smooth.
-It needs to show that the object is outside.
+For an outside object, the proof burden is to identify the exit.
 
 \section{Reframing The Problem}
 
@@ -194,7 +192,7 @@ The silver question is:
 
 This is the class-membership question.
 A claimed terminal object has to remain the fluid defined by the problem: same datum, same equation, same pressure, same viscosity, same incompressibility law, same velocity field, same terminal witness record.
-If one of those requirements fails, the claimed object may still be a useful picture of why a proof attempt broke down, but it is not a breakdown of the Navier--Stokes class object.
+Once one of those requirements fails, the claimed object may still picture a broken proof attempt while losing its status as a breakdown of the Navier--Stokes class object.
 
 The guess behind the method is simple.
 The Navier--Stokes equations should be smooth for all time.
@@ -202,12 +200,10 @@ Many imagined blowup pictures look like blowup only because they have quietly st
 They describe a packet with no carrier, a source with no ancestry, a slip between two fields that are no longer one field, or a tower that no longer participates in the same Navier--Stokes law.
 Once the object has left the class, the proof no longer has to smooth it.
 The proof has to identify the exit.
-In other words, it does not matter how a thing is or is not smooth inside a made-up terminal picture.
-It matters whether the thing is still the Navier--Stokes object defined by the problem.
+The class question is the live point: is the thing still the Navier--Stokes object defined by the problem?
 
 This is the same solution logic.
-A terminal picture is not allowed to win by changing the object under discussion.
-It has to remain attached to the original smooth-data solution.
+A terminal picture has to remain attached to the original smooth-data solution.
 The test is designed to catch exactly that drift.
 
 \section{The Failure List}
@@ -227,11 +223,11 @@ This is the ``something from nowhere'' version of the source wall.
 
 \item \textbf{Zero-radius packet.}
 A claimed terminal object may shrink until no positive transported packet remains.
-It can be named as a trace, but it no longer gives a same-fluid packet that can be continued.
+A trace name alone gives no same-fluid packet that can be continued.
 
 \item \textbf{Detached donor ancestry.}
 A source or reserve may be assigned to a donor that is not carried by the same transported fluid family.
-Then the ancestry may explain a failed estimate, but it does not explain the original Navier--Stokes object.
+Then the ancestry may explain a failed estimate while leaving the original Navier--Stokes object unexplained.
 
 \item \textbf{Slip or jump.}
 Two neighboring velocity pieces may keep finite velocities while no longer fitting together as one smooth velocity field.
@@ -243,7 +239,7 @@ The packet is still being pointed at, but it is no longer participating in the s
 
 \item \textbf{Blown tower.}
 A retained packet may keep a positive window while some velocity derivative, pressure readout, or tower amplitude becomes unbounded.
-This is the familiar blowup picture, read through the full velocity tower rather than through one scalar value.
+This is the familiar blowup picture, read through the full velocity tower.
 
 \item \textbf{Readout residue.}
 A local critical packet, endpoint trace, no-pulse statement, or comparison packet may survive as information without yet being the same witness record.
@@ -258,8 +254,7 @@ The endpoint words dead, jump, and blown are saved for the moment when those pic
 
 The silver method is not weaker in its conclusion.
 It is more modest in what it tries to prove directly.
-It does not try to show, one by one, how every imagined nonsmooth picture is smoothed by an estimate.
-It asks a yes-or-no question first.
+It asks a yes-or-no question before chasing an estimate for every imagined nonsmooth picture.
 When smoothness is claimed to fail, does the failed object remain inside the Navier--Stokes class, or has it left the class?
 
 The split is:
@@ -284,8 +279,7 @@ The smooth initial datum already gives a smooth member at the start, so the clas
 What remains inside the class is the smooth side of the split.
 
 This is the proof's main economy.
-It does not need to discover the private smoothing mechanism for each bad picture.
-It needs to prove that each bad picture either stays on the smooth side of the split or fails to be the same Navier--Stokes object.
+Each bad picture either stays on the smooth side of the split or fails to be the same Navier--Stokes object.
 
 \section{The Class-Membership Question}
 
@@ -299,11 +293,11 @@ For a packet \(Q\),
 means that \(Q\) is still part of that same class object.
 It is still the same fluid, with the same pressure, the same viscosity, the same incompressibility law, and the same velocity field.
 
-The fluid here is not water, honey, oil, or any real substance.
-Those pictures help, but the object is an ideal mathematical fluid.
+The fluid here is an ideal mathematical fluid.
+Pictures from water, honey, or oil can help, while the object itself is fixed by the equations.
 The viscosity \(\nu\) is fixed.
 The mass density is normalized by incompressibility.
-On \(\mathbb R^3\) the ideal field is unbounded in space; this manuscript works on the periodic box \(\mathbb T^3\), so the field is bounded by periodicity rather than by a wall.
+On \(\mathbb R^3\) the ideal field is unbounded in space; this manuscript works on the periodic box \(\mathbb T^3\), where periodicity supplies the spatial bound.
 There is no external force.
 After \(t=0\), the velocity evolves only by the equation.
 Pressure keeps the flow divergence-free, and viscosity spreads and damps velocity differences.
@@ -312,31 +306,29 @@ Euler is the useful comparison picture because Euler removes viscosity.
 It keeps the transport-pressure skeleton and sets the viscous part to zero.
 In a simple Euler mental picture, imagine one plank sliding over a fixed plank.
 The picture stands for two finite incompressible flows in one fluid field, with a hard tangential slip between them.
-The velocities on both sides are finite, but they do not make one smooth velocity field.
+The velocities on both sides are finite and fail to make one smooth velocity field.
 That is a smoothness failure.
 For an inviscid Euler class, such a slip picture can remain meaningful after the regularity requirement has changed.
-For a fixed-viscosity Navier--Stokes class, that same picture does not belong to the class.
+For a fixed-viscosity Navier--Stokes class, that same picture falls outside the class.
 
-Viscosity is often described as damping.
-That is true, and it is not the whole role it plays here.
+Damping is one role of viscosity here.
 Viscosity also couples neighboring packets of the fluid through the Laplacian.
 It acts like a tether between nearby velocity values.
-It gives the fluid one information transport law instead of allowing nearby packets to keep private motions.
+It gives the fluid one information transport law and rules out private motions for nearby packets.
 A fast piece drags on a slow piece, and a slow piece drags on a fast piece.
-The smooth Couette-flow picture is the right contrast to the two-plank slip picture: instead of two separate speeds with a hard jump, the velocities are joined by one continuous gradient.
+The smooth Couette-flow picture is the right contrast to the two-plank slip picture: the velocities are joined by one continuous gradient.
 A honey pour gives the same intuition in a rough way.
 The honey slows itself down as it folds and piles up, yet the falling stream also pulls neighboring honey along with it.
-Viscosity does not merely stop motion; it transmits motion through the field.
+Viscosity transmits motion through the field as well as slowing it.
 
-For Navier--Stokes, pressure, viscosity, and incompressibility are not three unrelated features.
+For Navier--Stokes, pressure, viscosity, and incompressibility work together.
 Pressure is the part of the equation that keeps the velocity divergence-free.
 Viscosity diffuses the velocity field by \(\nu\Delta u\).
 Together they make a participation law.
-A packet does not get to carry its own private equation while still claiming to be the same incompressible Navier--Stokes fluid.
+A packet has to carry the same equation in order to remain the same incompressible Navier--Stokes fluid.
 
 This is why the proof uses a velocity tower.
-Smoothness is not one velocity number at one point.
-It is a whole stack of derivative information moving under one law.
+Smoothness is a whole stack of derivative information moving under one law.
 Write
 \[
   U_k:=\nabla^k u,
@@ -392,7 +384,7 @@ A trace with no positive carrier, or a donor history not carried by the same flo
   K_k=-\nabla^{k+1}p+\nu\Delta U_k,
   \qquad 0\le k\le N.
 \]
-The packet is therefore not merely moving; it is participating in the same Navier--Stokes law.
+The packet is moving and participating in the same Navier--Stokes law.
 \end{definition}
 
 \begin{definition}[One-field witness law]
@@ -404,7 +396,7 @@ A convenient model is the finite-difference coherence bound
   \frac{|U_k(x+h,t)-U_k(x,t)|+|K_k(x+h,t)-K_k(x,t)|}{|h|}<\infty
 \]
 on the time slices under test.
-This law says that neighboring packet pieces still form one field rather than a collection of unrelated local fields.
+This law says that neighboring packet pieces still share one field on the positive scale.
 \end{definition}
 
 \begin{definition}[Class-membership packet]
@@ -441,8 +433,7 @@ They are the reason \(\Pack_Q\) comes first.
 \section{Dead, Jump, And Blown}
 
 The endpoint words come after the witness laws.
-They are not primitive laws and they are not three disjoint physical doors.
-They are names for how a claimed terminal object fails the class-membership test.
+They name how a claimed terminal object fails the class-membership test.
 
 \textbf{Dead} is the participation failure word.
 A packet may remain visible, yet the same Navier--Stokes law no longer acts on it.
@@ -458,8 +449,7 @@ The plank-slip picture is the base-rung version: finite velocities on both sides
 \textbf{Blown} is the unbounded-tower word.
 A retained positive window may carry a velocity, derivative, pressure, or viscous readout that becomes unbounded.
 In the terminal matrix this splits into two useful readings: packing-detached when the same-fluid carrier geometry fails, and tower-blown when the finite-depth tower amplitude fails.
-Either way, the blowup is not a fourth witness law.
-It is a way Pack, Part, or Field is lost.
+Either way, the blowup is a way Pack, Part, or Field is lost.
 
 The overlap matters.
 A Part failure usually shows up as a Field failure too, because a packet that no longer participates in the same law cannot cohere with its neighbors as one same-law field.
@@ -530,8 +520,7 @@ The reduced table used by the proof is shorter:
 
 Some failures have to be seen from the Field side first.
 A slip sheet, for example, may be easiest to see as a neighboring-field jump before the exact participation defect has been isolated.
-That does not make Field a separate story from Part.
-It means Field is the witness that exposes the failure cleanly.
+Field remains tied to Part, while exposing this failure cleanly.
 The proof keeps both readings typed so that a visible endpoint is not mistaken for a new primitive law.
 
 \section{The Class-Law Proof}
@@ -740,7 +729,6 @@ It is Pack-side when it lacks a positive carrier, Part-side when it loses pressu
 \begin{proof}
 The class object has three requirements.
 Rigidity, by itself, is a description of how a residue behaves.
-It is not a fourth requirement.
 The selected residue must still answer the Pack question, then the Part question, then the Field question.
 Those answers determine its class role.
 The proof spine spends the residue only after that role is certified on the same atlas.
@@ -799,14 +787,14 @@ The class proof uses signed current as a face-routing tool.
 
 \begin{lemma}[Signed current has no independent face]
 A signed-current branch returns to Pack, Part, retained Field, Zeno, or support.
-It cannot be used as a fourth witness requirement.
+It returns to the three witness requirements.
 \end{lemma}
 
 \begin{proof}
 Signed current measures how the source economy moves.
 The class object asks whether the selected terminal packet retains the carrier, participation tower, and coherent field.
 Current information can prove or support one of those requirement statements.
-It does not add another requirement to \(\CM_{N,r,Q}\).
+It supplies information for one of the requirements in \(\CM_{N,r,Q}\).
 \end{proof}
 
 The terminal signed-saturation reduction is valuable precisely because it makes this routing explicit.
@@ -822,7 +810,7 @@ They become misleading when they are treated as the primitive class test.
 
 \begin{proposition}[Readout role]
 Endpoint readout proves smooth continuation from a member packet.
-It cannot certify membership without the Pack, Part, and Field requirements on one witness record.
+It certifies membership only after the Pack, Part, and Field requirements hold on one witness record.
 \end{proposition}
 
 \begin{proof}
@@ -835,7 +823,7 @@ Readout is the final consequence of the requirements, not a replacement for them
 This is the point at which the silver-standard proof differs from a brute-force positive proof.
 The pass branch can use any endpoint mechanism strong enough to read a member packet.
 The fail branch is handled by class exit.
-The atlas proof supplies the terminal packet, so one universal endpoint estimate across every obstruction family is no longer the proof spine.
+The atlas proof supplies the terminal packet, so endpoint estimates become pass-side support rather than the proof spine.
 
 \section{Branch-Family Support Exhaustion}
 
@@ -921,7 +909,7 @@ Euler and fixed-viscosity comparison & comparison pressure & outside this proof 
 
 \section{The Support Boundary}
 
-Many strong estimates do real work without being class faces.
+Many strong estimates do real support work outside the class faces.
 A strong estimate enters the class proof by naming the requirement it protects.
 A source-control estimate, no-pulse estimate, signed-current estimate, or comparison estimate may be essential to a route.
 It still has to say which class requirement it protects.
