@@ -50,8 +50,8 @@ It takes any finite-time breakdown claim for the original solution and asks what
 
 At the alleged final time, such a claim has to point to a terminal object for the same solution.
 The proof then asks a narrow question about that object.
-Does it still keep enough of the original solution for the classical \(H^s\), \(s>5/2\), local theory to continue it?
-If yes, the same solution continues past the claimed terminal time.
+Does it still look like the same Navier--Stokes object: a positive packet, the same equation acting on that packet, and one coherent field on a positive scale?
+If yes, the claimed breakdown has not produced a terminal obstruction.
 If no, the object has lost something it needed in order to count as a valid terminal object for that solution.
 That is the whole split: pass and continue, or fail and leave the class.
 
@@ -70,7 +70,7 @@ In that case the object cannot serve as the Clay breakdown witness.
 
 The rest of the paper makes this test precise for the periodic problem.
 It builds the transported whole-torus material atlas, captures each alleged terminal branch on that atlas, and reads the branch through Pack, Part, and Field in that order.
-Sobolev, critical, local, and endpoint scenarios enter the proof by attaching to the selected terminal object and facing the same three checks.
+Familiar critical, local, and endpoint scenarios enter the proof by attaching to the selected terminal object and facing the same three checks.
 No finite nonsmooth terminal branch survives the split: it either gives continuation of the same solution, or it exits the class and cannot serve as a breakdown witness.
 \end{abstract}
 
@@ -90,44 +90,14 @@ The three-dimensional Navier--Stokes equations are
 \]
 The Clay question asks whether the smooth solution that starts from \(u_0\) stays smooth for all time.
 This manuscript proves the periodic zero-force case on \(\mathbb T^3\).
-The whole-space problem on \(\mathbb R^3\) is a separate export question: one must carry the terminal-packet result from the periodic atlas to a whole-space localization and tightness theorem.
-
-A smooth solution can be continued once a strong enough norm stays finite.
-The continuation norm used here is the standard supercritical Sobolev norm \(H^s\), with \(s>5/2\).
-That is the first fixed point in the paper: if the same solution keeps such a bound up to a finite time, then there is no finite-time breakdown there.
-
-\begin{theorem}[Classical continuation criterion]
-Let \(s>5/2\).
-Let \((u,p)\) be a smooth Navier--Stokes solution on \([0,T_*)\) with smooth divergence-free datum \(u_0\).
-If
-\[
-  \sup_{0\le t<T_*}\|u(t)\|_{H^s}<\infty,
-\]
-then the same solution extends smoothly beyond \(T_*\).
-\end{theorem}
-
-\begin{proof}
-The local well-posedness theorem in \(H^s\), \(s>5/2\), gives a smooth continuation time depending on \(\nu\), \(s\), and an upper bound for \(\|u(t)\|_{H^s}\).
-The displayed bound gives that upper bound along times tending to \(T_*\).
-Restarting the local theory from those times gives a uniform positive continuation interval.
-Uniqueness identifies the restarted solutions with the original solution on the overlap, so the same velocity-pressure solution extends past \(T_*\).
-\end{proof}
-
-The rest of the proof is built around one plain question.
-When a finite terminal failure is claimed, is the object being described still a member of the Navier--Stokes class, or has the claimed failure moved outside the problem?
-The class-exit notation is
-\[
-  \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
-\]
-This line should be read literally.
-\(\Member(Q;\Owork)\) means that the packet \(Q\) is still part of the same Navier--Stokes object started by \(u_0\).
-\(\Exit(Q;\Owork)\) means that it is not.
+The question is whether this ideal fluid can start smooth and later lose smoothness under its own motion.
+The next section begins with the most familiar way to try to answer it: find a quantity that cannot blow up.
 
 \section{The Gold Standard Method}
 
 The natural gold-standard proof is a forward positive proof.
 One tries to find a quantity that controls smoothness and then proves that the quantity stays bounded.
-If that works, the continuation theorem does the last step.
+If that works, smoothness has nowhere to break.
 
 The most familiar starting point is the energy identity.
 For a smooth divergence-free solution on \(\mathbb T^3\),
