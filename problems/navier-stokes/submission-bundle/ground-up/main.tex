@@ -51,8 +51,8 @@ It takes any finite-time breakdown claim for the original solution and asks what
 At the alleged final time, such a claim has to point to a terminal object for the same solution.
 The proof then asks a narrow question about that object.
 Does it still look like the same Navier--Stokes object: a positive packet, the same equation acting on that packet, and one coherent field on a positive scale?
-If yes, the claimed breakdown has not produced a terminal obstruction.
-If no, the object has lost something it needed in order to count as a valid terminal object for that solution.
+A yes answer keeps the branch on the smooth side of the split.
+A no answer means the object has lost something it needed in order to count as a valid terminal object for that solution.
 That is the whole split: pass as the same smooth object, or fail and leave the class.
 
 The split is checked in three places:
@@ -201,13 +201,11 @@ Many blowup pictures look dangerous because they picture a failure mode without 
 A packet with no carrier, a source with no same-fluid ancestry, a slip between two fields, or a broken derivative tower may describe a failed proof object.
 The class question asks whether it describes the original Navier--Stokes solution.
 
-So the proof does not try to smooth every picture that can be imagined.
-It first asks what the picture is.
+So the proof first asks what the picture is.
 Does it still have the same datum, the same equation, the same pressure, the same viscosity, the same incompressibility law, the same velocity field, and the same terminal witness record?
 A positive answer puts the object on the pass side of the split.
 A failed answer gives the exit that the breakdown claim owed us.
 
-The point is not to change the problem.
 The point is to hold the problem fixed.
 A finite-time breakdown claim must stay attached to the original smooth-data solution.
 The class-membership question is the test for that attachment.
@@ -298,9 +296,8 @@ That is the smooth side of the split.
 On the fail side, the object has lost a same-object requirement.
 Then the picture cannot serve as an in-class finite breakdown of the original solution.
 
-This method saves the proof from one impossible-looking burden.
-It does not need a separate direct estimate for every imagined nonsmooth picture.
-It needs an exhaustive class test.
+This method gives the proof a smaller terminal burden.
+Its direct burden is an exhaustive class test.
 For every claimed nonsmooth terminal object, the object either passes as the same smooth Navier--Stokes object or fails as an object outside the class.
 After the nonsmooth pictures have been classified, the class contains no nonsmooth terminal member.
 The smooth initial datum gives the class a starting member.
@@ -368,7 +365,8 @@ It looks like a velocity field, yet it has lost the viscous same-field law.
 \subsection{Viscosity}
 
 Viscosity is often described as damping.
-That is true, and it is not enough for the way this proof uses it.
+That is true.
+This proof also needs the tethering role of viscosity.
 Viscosity also transmits motion between nearby parts of the fluid.
 It acts like a tether between neighboring velocity values.
 A fast piece pulls on a slow piece, and a slow piece pulls back on a fast piece.
@@ -459,7 +457,7 @@ It asks whether nearby pieces of the packet still fit together as one field on a
 \(\Field_{N,r,Q}\) means that, after the packet and participation readings are fixed, one positive scale \(r>0\) carries coherent field data through depth \(N\).
 A convenient model is the finite-difference coherence bound
 \[
-  \sup_{\substack{x,x+h\in Q_t\0<|h|\le r}}
+  \sup_{\substack{x,x+h\in Q_t\\0<|h|\le r}}
   \sum_{k=0}^{N}
   \frac{|U_k(x+h,t)-U_k(x,t)|+|K_k(x+h,t)-K_k(x,t)|}{|h|}<\infty
 \]
@@ -475,7 +473,7 @@ These two laws are the Part and Field faces of the class test.
 \section{Packet Witness Law and Packet Failure Types}
 
 The packet law comes first in the terminal test because the proof needs a same-fluid body before it can read participation or field coherence.
-A terminal trace, source atom, or endpoint number is not enough by itself.
+A terminal trace, source atom, or endpoint number gives too little by itself.
 The object must still give a positive transported packet of the same fluid.
 
 \begin{definition}[Packet witness law]
@@ -525,15 +523,14 @@ Those three facts say that the alleged terminal object is still the same smooth 
 \section{Velocity Failure Types}
 
 The names dead, jump, and blown now have a job.
-They are not moods or metaphors.
-They name the way a terminal velocity-field picture fails the witness test.
+They are mechanism names for the way a terminal velocity-field picture fails the witness test.
 
 \subsection{Dead}
 
 Dead is the participation failure.
 A packet remains visible, yet the Navier--Stokes law no longer acts on it as the same law.
-The point is not that the velocity value equals zero.
-The point is that the packet has lost same-object dynamics.
+A zero velocity value is irrelevant here.
+The packet has lost same-object dynamics.
 It is present as a pictured packet and absent as a participating Navier--Stokes packet.
 
 A dead packet usually presses on Field as well.
@@ -562,7 +559,7 @@ It may destroy the same-fluid carrier geometry.
 It may destroy participation through the tower.
 It may destroy positive-scale field coherence.
 
-Blown is therefore read through Pack, Part, and Field, not beside them.
+Blown belongs inside Pack, Part, and Field.
 A tower blowup is a way one of the class faces fails.
 The proof keeps the mechanism tied to the witness tree.
 
@@ -600,8 +597,7 @@ The pass/fail split is the engine of the proof:
 Here \(N_*\) is a finite depth high enough to read the claimed terminal branch.
 
 This is a contrapositive class-membership proof.
-The proof does not begin by finding a master estimate that smooths every imagined terminal picture.
-It begins with the terminal picture supplied by a breakdown claim and asks whether that picture remains a member of the Navier--Stokes class.
+The proof begins with the terminal picture supplied by a breakdown claim and asks whether that picture remains a member of the Navier--Stokes class.
 The pass side stays smooth.
 The fail side supplies the class exit.
 
@@ -644,7 +640,7 @@ Some failures are easiest to see from Field first.
 A slip sheet is the clean example.
 The visible problem is neighboring-field jump, and the participation defect may be isolated after that.
 This is why Field remains in the table as its own witness face.
-It exposes failures that Part alone may not show first.
+It exposes failures that Part may show later.
 The final class-exit reading still stays tied to the same Pack/Part/Field record.
 
 \section{The Class-Law Proof}
