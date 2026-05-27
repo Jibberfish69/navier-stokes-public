@@ -18,7 +18,6 @@ EXCLUDED_PATH_PARTS = [
   "/.git/",
   "/runtime/leases/",
   "/runtime/events/",
-  "/submission-bundle/navier-stokes-submission.pdf",
   "/tools/build_forward_positive_surface_quarantine.rb",
   "/forward-positive-proof-surface-quarantine-20260523.yaml"
 ].freeze
