@@ -6,6 +6,7 @@ The YAML edge file is the controlling surface:
 
 ## Active Route
 
+- Live route: `clay-cm-contrapositive-witness-consumption`
 - Primary frontier: `conditional terminal class-membership lane closure packet`
 - Current route name: `Class-membership forward-invariance / endpoint-exclusion route`
 - Retained receiver spine:
