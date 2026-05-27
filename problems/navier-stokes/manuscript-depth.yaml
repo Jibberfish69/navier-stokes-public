@@ -3,15 +3,15 @@ version: 1
 identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
-  generated_at: '2026-05-27T20:19:45Z'
+  generated_at: '2026-05-27T20:20:34Z'
   generator: system/runner/lib/manuscript_depth_builder.rb
 surface_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 classification: proof-manuscript
 metrics:
-  word_count: 363516
+  word_count: 362975
   heading_count: 0
-  theorem_marker_count: 62
-  proof_heading_count: 41
+  theorem_marker_count: 37
+  proof_heading_count: 25
   summary_marker_count: 0
   source_realization_marker_count: 0
   source_anchor_count: 0
