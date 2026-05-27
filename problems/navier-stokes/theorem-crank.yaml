@@ -528,13 +528,14 @@ shared_alignment:
         role: readout presentation requiring direct accountability before use as a
           target
     exact_live_theorem_grade_burden: *1
-    release_or_respawn_consequence:
-      disposition: blocked
-      next_cell_type: solver-loop
-      next_stage: cm-contrapositive-referee-repair
-      next_action: Discharge the CM contrapositive referee audit by proving, demoting,
-        or marking the flagged proof burdens as genuine unresolved logical blockers.
-    forward_positive_surface_quarantine: &6
+    release_or_respawn_consequence: &6
+      disposition: submission-candidate
+      next_cell_type: submission
+      next_stage: periodic-statement-b-submission-candidate
+      next_action: Keep generated/status surfaces aligned with the periodic T^3 statement
+        (B) target; keep R^3 statement (A) export separate unless a tightness/localization
+        export theorem is installed.
+    forward_positive_surface_quarantine: &7
       status: active-global-demotion
       index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
       generator: problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb
@@ -552,7 +553,7 @@ shared_alignment:
       summary_by_scope:
         repo-surface: 201
         theorem-construction: 1652
-    non_merge_rules: &7
+    non_merge_rules: &8
     - rule_id: positive-vs-cm
       statement: Positive smoothness control and every surface indexed in the forward-positive
         quarantine ledger are not the CM contrapositive unless a named bridge proves
@@ -588,7 +589,7 @@ shared_alignment:
     - rule_id: runtime-repair-vs-math
       statement: Repairing generated surfaces or daemon behavior is not theorem progress
         unless it creates or promotes exact theorem-facing work.
-    authority_hierarchy: &8
+    authority_hierarchy: &9
       source_priority:
       - problems/navier-stokes/source-forensics/
       - problems/navier-stokes/live-theorem-edge.yaml
@@ -613,7 +614,7 @@ shared_alignment:
         terminal posture, or a singleton target that conflicts with the direct live
         surfaces and this contract, demote or repair that surface before using it
         in a user answer.
-    mode_selection_protocol: &9
+    mode_selection_protocol: &10
       before_answer:
       - lock target using target_lock_schema
       - inspect authority_source unless the user only asks for a purely conversational
@@ -723,16 +724,11 @@ frontier_projection:
   proof_program_topology: *4
   open_root_group: *5
   exact_live_theorem_grade_burden: *1
-  release_or_respawn_consequence:
-    disposition: blocked
-    next_cell_type: solver-loop
-    next_stage: cm-contrapositive-referee-repair
-    next_action: Discharge the CM contrapositive referee audit by proving, demoting,
-      or marking the flagged proof burdens as genuine unresolved logical blockers.
-  forward_positive_surface_quarantine: *6
-  non_merge_rules: *7
-  authority_hierarchy: *8
-  mode_selection_protocol: *9
+  release_or_respawn_consequence: *6
+  forward_positive_surface_quarantine: *7
+  non_merge_rules: *8
+  authority_hierarchy: *9
+  mode_selection_protocol: *10
 summary:
   phase: submission-candidate
   execution_state: submission-candidate
@@ -768,13 +764,8 @@ target_lock_schema: *3
 proof_program_topology: *4
 open_root_group: *5
 exact_live_theorem_grade_burden: *1
-release_or_respawn_consequence:
-  disposition: blocked
-  next_cell_type: solver-loop
-  next_stage: cm-contrapositive-referee-repair
-  next_action: Discharge the CM contrapositive referee audit by proving, demoting,
-    or marking the flagged proof burdens as genuine unresolved logical blockers.
-forward_positive_surface_quarantine: *6
-non_merge_rules: *7
-authority_hierarchy: *8
-mode_selection_protocol: *9
+release_or_respawn_consequence: *6
+forward_positive_surface_quarantine: *7
+non_merge_rules: *8
+authority_hierarchy: *9
+mode_selection_protocol: *10
