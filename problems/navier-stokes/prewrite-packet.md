@@ -70,4 +70,4 @@
 - `pass_if:` the packet and draft open from the CM contrapositive class-exit program, name Pack/Part/Field witness-face exhaustion, and treat periodic / `Q(t)` material only as non-opening support
 - `fail_if:` the draft opens with torus-first periodic scope, `Q(t)`, scale-barrier / compactness / heat-continuation bridge prose, or any wording that replaces `Exit(Q):=not Member(Q)` with the older periodic story
 
-<!-- generated_at: 2026-05-27T15:12:30Z -->
+<!-- generated_at: 2026-05-27T15:13:30Z -->
