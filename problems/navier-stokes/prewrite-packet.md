@@ -3,7 +3,7 @@
 - `span:` whole document
 - `mode:` Authorial Draft
 - `user_intent:` Turn the grounded Navier-Stokes Global Regularity workboard into honest prose that explains the live route without claiming theorem settlement that the package does not yet earn.
-- `fixed_constraints:` Keep the theorem target on the original problem rather than nearby surrogate systems. | Do not let dead-end or diagnostic branches masquerade as the live theorem route. | If an upstream estimate or budget theorem would make an endpoint diagnostic moot, keep the upstream theorem as the live route and leave the endpoint as fallback support. | Keep unresolved debt explicit instead of smoothing it away in expository prose. | Historical debt rows are retained as provenance only; direct-live authority, review, submission, release, and audit surfaces currently clear full-MPP closure.
+- `fixed_constraints:` Keep the theorem target on the original problem rather than nearby surrogate systems. | Do not let dead-end or diagnostic branches masquerade as the live theorem route. | If an upstream estimate or budget theorem would make an endpoint diagnostic moot, keep the upstream theorem as the live route and leave the endpoint as fallback support. | Keep unresolved debt explicit instead of smoothing it away in expository prose. | Avoid package, route, or pass narration; keep the pressure on the mathematical object itself. | Do not open or land with stage-announcement prose. | Historical debt rows are retained as provenance only; direct-live authority, review, submission, release, and audit surfaces currently clear full-MPP closure.
 
 ## Section Job
 - `job_statement:` Convert the grounded route into readable prose that states the target, the live obstruction, the closure loop, and the honest revise-stage boundary.
@@ -53,7 +53,7 @@
 - `must_use:` ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A | classical equation | scale-barrier principle | compactness | nonlinear term | gradient control | singularity pathways | lowest safe claim
 - `must_not_substitute:` regularized smoothness for classical regularity | heuristic decay for proved scale barrier | modified PDE success for Clay result
 - `deferred_terms:` stand-alone proof | theorem settlement | paper-ready export
-- `tone_keys:` direct | technical | scope-honest | reader-forward | non-triumphal
+- `tone_keys:` direct | technical | scope-honest | reader-forward | non-triumphal | object-specific
 
 ## Cadence Target
 - `anchor_choice:` governed fallback: direct technical exposition
@@ -77,4 +77,4 @@
 - `pass_if:` the draft fixes the theorem target, makes the cascade obstruction explicit, names the scale-barrier / compactness / gradient-control loop in readable prose, and lands below the first unsafe overclaim
 - `fail_if:` the draft treats regularized branches as theorem-bearing, loses the classical-equation target, or sounds as though global regularity has already been proved
 
-<!-- generated_at: 2026-05-27T15:22:27Z -->
+<!-- generated_at: 2026-05-27T15:22:57Z -->
