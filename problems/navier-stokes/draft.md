@@ -25,4 +25,4 @@ The terminal witness is CM-test-admissible before it is a class member. `ClayTer
 Periodic, `Q(t)`, source-wall, and positive-supplier material may still serve as provenance or checked support, but it cannot be the opening authority for this manuscript. The opening authority is the CM contrapositive class-exit chain recorded in the recent submission surfaces and live theorem edge.
 
 <!-- generated_by: system/runner/lib/prose_draft_builder.rb -->
-<!-- generated_at: 2026-05-27T15:12:30Z -->
+<!-- generated_at: 2026-05-27T15:13:30Z -->
