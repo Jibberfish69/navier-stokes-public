@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-27T17:25:22Z'
+  audited_at: '2026-05-27T17:26:18Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: full-mpp-closure-ready
@@ -59,7 +59,7 @@ downstream_overlay_drift:
     - 'release_posture: export-ready'
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
-    sha1: c7caff877249d571a0fa4cbb3758422d4bd121fb
+    sha1: 856a6cc048b1169cacdf134433f419bf32c42c15
     matched_terms:
     - direct-live-surfaces
     - authority_gate_mode
