@@ -2,42 +2,37 @@
 
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
-| 1 | The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3` or `T^3` | `obstruction-capture: One-Sentence Thesis`, `spine.1` | fixed target | prevents drift into nearby systems |
-| 2 | Success for regularized or morphic-regularized equations does not close the original problem | `obstruction-capture: Why Prior Attempts Fail`, `spine.2`, `target-fidelity-discharge-source-pack.md`, `theorem-construction/target-fidelity-bridge-lemma.md`, `theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md` | fixed diagnostic boundary; bridge discharged by `SYNC.2` | parks the dead-end branch |
-| 3 | The original framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy | `source-grounded-framework-map.md`, `source-forensics/master-program-analysis.md`, `source-forensics/canonical-equation-ledger.md`, `spine.3`, `theorem-construction/monotone-functional-package.md`, `theorem-construction/named-monotone-bridge-explanation.md`, `bridge-memos/monotone-functional.md`, `theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md` | discharged source-grounded bridge; bridge spine closed by `SYNC.2` | prevents silent collapse of the handed four-part cycle |
-| 4 | Global energy or enstrophy control is necessary but not sufficient | `obstruction-capture: Core Mechanism`, `spine.4`, `theorem-construction/energy-baseline-bridge-lemma.md`, `theorem-construction/monotone-functional-package.md`, `theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md`, `theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md` | localized route premise; bridge discharged by `SYNC.2` | shows why the monotone bridge is infrastructure, not closure by itself |
-| 5 | The live obstruction is the small-scale or high-frequency cascade that feeds blow-up | `obstruction-capture: The Real Obstruction`, `spine.5`, `theorem-construction/energy-baseline-bridge-lemma.md`, `theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md` | localized obstruction diagnosis; bridge discharged by `SYNC.2` | localizes the singularity mechanism |
-| 6 | A periodic shell or dyadic tail estimate must suppress dangerous high-frequency transfer on the chosen torus-first theorem surface | `source-forensics/canonical-equation-ledger.md`, `theorem-construction/scale-barrier-package.md`, `theorem-construction/torus-projected-flow-extraction.md`, `bridge-memos/scale-barrier.md`, `spine.6`, `theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md` | discharged classical bridge; bridge spine closed by `SYNC.2` | supplies the scale-barrier input on the active periodic route |
-| 7 | The monotone functional must stabilize the global energy/enstrophy layer and enable the compactness package on that same periodic classical surface | `source-forensics/canonical-equation-ledger.md`, `monotone-functional-discharge-source-pack.md`, `theorem-construction/monotone-functional-package.md`, `theorem-construction/monotone-functional-bridge-discharge.md`, `theorem-construction/torus-projected-flow-extraction.md`, `bridge-memos/monotone-functional.md`, `spine.7`, `theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md` | discharged same-surface bridge; bridge spine closed by `SYNC.2` | keeps compactness tied to the handed `Q(t)` control surface and marks the insufficiency handoff explicitly |
-| 8 | The scale-barrier plus monotone-functional input must yield strong local compactness and nonlinear tensor closure on the periodic/operator approximation family | `source-forensics/canonical-equation-ledger.md`, `theorem-construction/compactness-package.md`, `theorem-construction/torus-projected-flow-extraction.md`, `bridge-memos/compactness.md`, `spine.8`, `theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md` | discharged downstream bridge package; bridge spine closed by `SYNC.2` | records compactness on the active torus-first internal branch |
-| 9 | A heat-governed deformation or continuation bridge must force continuation control on the same periodic theorem surface | `source-forensics/master-program-analysis.md`, `theorem-construction/torus-projected-flow-extraction.md`, `theorem-construction/ym-heat-to-torus-heat-to-classical-shadow-bridge.md`, `theorem-construction/spatial-derivative-curvature-dissipation-theorem-target.md`, `bridge-memos/gradient-control.md`, `spine.9`, `theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md` | discharged same-surface torus-first bridge; bridge spine closed by `SYNC.2` | makes the continuation step theorem-primary on the fixed periodic route while leaving whole-space export downstream |
-| 10 | If the scale-barrier, monotone-functional, compactness, and continuation packages all hold on the active periodic branch, then the periodic Clay branch with `f = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem, not the internal branch itself | `theorem-construction/closure-package.md`, `theorem-construction/main-theorem-draft.md`, `spine.10`, `theorem-construction/mpp-status-sync-proof-dependency-and-route-authority-closure-note.md` | discharged integrated closure; bridge spine closed by `SYNC.2` | states the route-to-Clay implication on the chosen internal branch without erasing the separate whole-space export burden |
+| 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
+| 2 | The witness enters the canonical same-fluid CM terminal packet tree rather than being assumed to be a class member | `live-theorem-edge.yaml`, `theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md` | installed via `ClayTerminalWitnessCMEntry.A` | makes CM-test admissibility the first proof move |
+| 3 | The finite failure type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q} | `live-theorem-edge.yaml`, `theorem-repair.yaml`, `submission-bundle/submission-synopsis.md` | installed via `ClayFiniteFailureTypeCMExhaustion.A` | sorts the terminal witness through the three typed witness faces |
+| 4 | The derived face failure embeds as `Exit(Q):=not Member(Q)` inside the CM contrapositive program | `live-theorem-edge.yaml`, `target-operating-contract.yaml`, `submission-bundle/submission-synopsis.md` | installed via `ClayCMContrapositiveEmbedding.A` | lands the class-exit conclusion while preserving `Member(Q)` as downstream |
+| 5 | The pass branch remains the lawful smooth continuation branch, while the fail branch has no legal in-class nonsmooth continuation status | `submission-bundle/submission-synopsis.md`, `submission-verdict.yaml` | submission-facing proof boundary | blocks the stale positive-no-exit or periodic-opening rewrite |
 
 ## Lowest Safe Claim
 
-- The official Clay target allows either the whole-space branch on `R^3` or the periodic branch on `T^3`.
-- The active internal theorem branch in this repo is the periodic zero-force statement on `T^3`; any whole-space statement on `R^3` is downstream discharge/export, not the branch lock.
+- Navier-Stokes global regularity is presented through the CM contrapositive class-exit chain: terminal witness entry, Pack/Part/Field finite-failure exhaustion, and `Exit(Q):=not Member(Q)`.
+- Periodic, `Q(t)`, source-wall, positive-supplier, and export surfaces are support unless a checked bridge lands their exact claim in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
 
 ## Mechanism Option
 
-- The torus / projected-flow / deformation package is the active internal theorem route.
-- The Euclidean shadow/export package is downstream discharge only and must not silently retake the branch lock.
-- Cross-lane braid imports may sharpen bridge language, but they do not by themselves replace the fixed torus-first route.
+- The active manuscript mechanism is CM contrapositive class exit from an alleged finite Clay terminal witness.
+- The pass branch is the lawful smooth continuation branch; the fail branch is sorted by the same-fluid CM terminal packet tree.
+- Cross-lane braid, periodic, and source-history imports may sharpen support language, but they do not replace the Pack/Part/Field witness-face gate.
 
 ## Two-Part Route
 
-- `Part I`: torus-first internal route
-  - periodic scale barrier, monotone functional, compactness, heat-governed continuation, SG.4-facing live bundle control
-- `Part II`: downstream discharge and export
-  - Euclidean shadow/export, whole-space transfer, and any cross-lane explanatory bridges
-  - they do not override the internal branch lock
+- `Part I`: CM terminal witness route
+  - same-datum finite Clay terminal witness, CM packet entry, Pack/Part/Field exhaustion
+- `Part II`: contrapositive embedding and support quarantine
+  - derived face failure supports `Exit(Q):=not Member(Q)`
+  - periodic, source-wall, and export support does not override the manuscript opening
 
 ## Dynamic Sidecar Track
 
-- The strongest current local D-route package is part of the active torus-first internal branch.
-- The projected-flow package sharpens the periodic continuation mechanism and the shadow/export interface.
-- It does not by itself discharge a whole-space endpoint on `R^3`.
+- Sidecar route material is support only until it lands in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
+- The projected-flow and periodic packages do not set the manuscript opening.
+- The live paper surface starts from the CM terminal witness and class-exit embedding.
 
 ## First Unsafe Overclaim
 
-- Replacing the official Clay statement by a weaker route-local or data-class-local statement.
+- Replacing the CM contrapositive class-exit chain with the stale torus-first / `Q(t)` / periodic-opening story.
