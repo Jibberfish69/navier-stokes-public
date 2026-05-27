@@ -433,7 +433,7 @@ It still has to take part in the same pressure-viscosity law on the same incompr
 This is the participation requirement.
 
 This matters most for failure stories that appear as source residue, terminal atoms, or pressure response.
-An incompressible Navier--Stokes packet has no private density knob that can swell or shrink to pay for a terminal source.
+An incompressible Navier--Stokes packet has no separate density variable that can swell or shrink to pay for a terminal source.
 It has no separate pressure law that acts on one packet while the rest of the fluid follows another law.
 The packet either participates in the same law, or it has left the class object under test.
 
