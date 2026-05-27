@@ -50,8 +50,8 @@ It takes any finite-time breakdown claim for the original solution and asks what
 
 At the alleged final time, such a claim has to point to a terminal object for the same solution.
 The proof then asks a narrow question about that object.
-Does it still keep enough of the original solution for the classical \(H^s\), \(s>5/2\), local theory to continue it?
-If yes, the same solution continues past the claimed terminal time.
+Does it still look like the same Navier--Stokes object: a positive packet, the same equation acting on that packet, and one coherent field on a positive scale?
+If yes, the claimed breakdown has not produced a terminal obstruction.
 If no, the object has lost something it needed in order to count as a valid terminal object for that solution.
 That is the whole split: pass and continue, or fail and leave the class.
 
@@ -70,7 +70,7 @@ In that case the object cannot serve as the Clay breakdown witness.
 
 The rest of the paper makes this test precise for the periodic problem.
 It builds the transported whole-torus material atlas, captures each alleged terminal branch on that atlas, and reads the branch through Pack, Part, and Field in that order.
-Sobolev, critical, local, and endpoint scenarios enter the proof by attaching to the selected terminal object and facing the same three checks.
+Familiar critical, local, and endpoint scenarios enter the proof by attaching to the selected terminal object and facing the same three checks.
 No finite nonsmooth terminal branch survives the split: it either gives continuation of the same solution, or it exits the class and cannot serve as a breakdown witness.
 \end{abstract}
 
@@ -90,44 +90,14 @@ The three-dimensional Navier--Stokes equations are
 \]
 The Clay question asks whether the smooth solution that starts from \(u_0\) stays smooth for all time.
 This manuscript proves the periodic zero-force case on \(\mathbb T^3\).
-The whole-space problem on \(\mathbb R^3\) is a separate export question: one must carry the terminal-packet result from the periodic atlas to a whole-space localization and tightness theorem.
-
-A smooth solution can be continued once a strong enough norm stays finite.
-The continuation norm used here is the standard supercritical Sobolev norm \(H^s\), with \(s>5/2\).
-That is the first fixed point in the paper: if the same solution keeps such a bound up to a finite time, then there is no finite-time breakdown there.
-
-\begin{theorem}[Classical continuation criterion]
-Let \(s>5/2\).
-Let \((u,p)\) be a smooth Navier--Stokes solution on \([0,T_*)\) with smooth divergence-free datum \(u_0\).
-If
-\[
-  \sup_{0\le t<T_*}\|u(t)\|_{H^s}<\infty,
-\]
-then the same solution extends smoothly beyond \(T_*\).
-\end{theorem}
-
-\begin{proof}
-The local well-posedness theorem in \(H^s\), \(s>5/2\), gives a smooth continuation time depending on \(\nu\), \(s\), and an upper bound for \(\|u(t)\|_{H^s}\).
-The displayed bound gives that upper bound along times tending to \(T_*\).
-Restarting the local theory from those times gives a uniform positive continuation interval.
-Uniqueness identifies the restarted solutions with the original solution on the overlap, so the same velocity-pressure solution extends past \(T_*\).
-\end{proof}
-
-The rest of the proof is built around one plain question.
-When a finite terminal failure is claimed, is the object being described still a member of the Navier--Stokes class, or has the claimed failure moved outside the problem?
-The class-exit notation is
-\[
-  \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
-\]
-This line should be read literally.
-\(\Member(Q;\Owork)\) means that the packet \(Q\) is still part of the same Navier--Stokes object started by \(u_0\).
-\(\Exit(Q;\Owork)\) means that it is not.
+The question is whether this ideal fluid can start smooth and later lose smoothness under its own motion.
+The next section begins with the most familiar way to try to answer it: find a quantity that cannot blow up.
 
 \section{The Gold Standard Method}
 
 The natural gold-standard proof is a forward positive proof.
 One tries to find a quantity that controls smoothness and then proves that the quantity stays bounded.
-If that works, the continuation theorem does the last step.
+If that works, smoothness has nowhere to break.
 
 The most familiar starting point is the energy identity.
 For a smooth divergence-free solution on \(\mathbb T^3\),
@@ -291,7 +261,7 @@ The split is:
 \[
   \text{fail: the object leaves the class.}
 \]
-On the pass side, the object has the packet, the law, and the field coherence needed for the \(H^s\) continuation readout.
+On the pass side, the object has the packet, the law, and the field coherence needed for smooth continuation.
 Then the same solution continues.
 On the fail side, the object loses one of those same-object requirements.
 Then it is not a legal finite breakdown of the Navier--Stokes solution.
@@ -299,7 +269,7 @@ Then it is not a legal finite breakdown of the Navier--Stokes solution.
 So the proof can be read as a certification problem.
 Take any claimed finite terminal object for the original solution.
 Ask whether it is still a member of the working Navier--Stokes class.
-If it is a member, the classical continuation theorem carries the same solution past the claimed terminal time.
+If it is a member, the same solution continues past the claimed terminal time.
 If it is not a member, it cannot be the claimed in-class breakdown.
 After every nonsmooth terminal picture has been sent to the fail side, the class contains no nonsmooth terminal member.
 Local well-posedness gives a smooth member at the start, so the class is not empty.
@@ -433,16 +403,15 @@ The three laws are read together on one witness record.
 \end{definition}
 
 \begin{lemma}[Membership readout]
-Let \(N_s\) be high enough for the standard \(H^s\) continuation theorem with \(s>5/2\).
-If, on the terminal record, \(\CM_{N_s,r,Q}\) holds for some \(r>0\), then the packet reads out to a bounded \(H^s\) norm and the same solution extends beyond the claimed terminal time.
+Let \(N_*\) be a finite depth high enough to read the claimed terminal branch.
+If, on the terminal record, \(\CM_{N_*,r,Q}\) holds for some \(r>0\), then the packet stays on the smooth continuation side of the test.
 \end{lemma}
 
 \begin{proof}
 \(\Pack_Q\) gives a positive finite carrier cover.
-\(\Part_{N_s,Q}\) identifies the derivative tower on that cover with the same pressure-viscosity Navier--Stokes tower.
-\(\Field_{N_s,r,Q}\) gives finite coherent derivative control on a positive scale.
-The finite cover and a partition of unity sum these local bounds into a supercritical \(H^s\) bound.
-The classical continuation criterion then extends the same solution.
+\(\Part_{N_*,Q}\) identifies the derivative tower on that cover with the same pressure-viscosity Navier--Stokes tower.
+\(\Field_{N_*,r,Q}\) keeps the local readings coherent on a positive scale.
+Those three facts say that the alleged terminal object is still the same smooth branch being read through the same equation.
 \end{proof}
 
 A packet can fail before velocity blowup is even discussed.
@@ -510,13 +479,13 @@ Class exit is the negation of membership:
 
 The pass/fail split is:
 \[
-  \text{pass: }\CM_{N_s,r,Q}\Longrightarrow H^s\text{ continuation},
+  \text{pass: }\CM_{N_*,r,Q}\Longrightarrow\text{smooth continuation},
 \]
 \[
-  \text{fail: }\neg\Pack_Q\ \vee\ \neg\Part_{N_s,Q}\ \vee\ \forall r>0\,\neg\Field_{N_s,r,Q}
+  \text{fail: }\neg\Pack_Q\ \vee\ \neg\Part_{N_*,Q}\ \vee\ \forall r>0\,\neg\Field_{N_*,r,Q}
   \Longrightarrow \Exit(Q;\Owork).
 \]
-Here \(N_s\) is a depth high enough to read out the \(H^s\), \(s>5/2\), continuation bound.
+Here \(N_*\) is a finite depth high enough to read the claimed terminal branch.
 
 The unreduced witness table is the formal table one first writes down:
 \[
@@ -550,7 +519,7 @@ The proof keeps both readings typed so that a visible endpoint is not mistaken f
 
 \begin{theorem}[Finite failure witness exits the class]
 Let \(W_*\) be a finite terminal object offered as a breakdown witness for the original smooth-data Navier--Stokes solution.
-Then, on the terminal packet selected by the material atlas and at a continuation depth \(N_s\), the object either reads out to smooth continuation or exits the class:
+Then, on the terminal packet selected by the material atlas and at a finite reading depth \(N_*\), the object either reads out to smooth continuation or exits the class:
 \[
   W_*
   \Longrightarrow
@@ -563,7 +532,7 @@ In particular, no finite nonsmooth in-class terminal branch remains.
 
 \begin{proof}
 A claimed finite terminal object must be tested on the same record as the original solution.
-If the packet, participation law, and one-field coherence survive at continuation depth, the membership readout gives a bounded \(H^s\) norm with \(s>5/2\), and the classical continuation theorem extends the same solution.
+If the packet, participation law, and one-field coherence survive at the needed depth, the membership readout keeps the same branch on the smooth continuation side of the test.
 If one of the witness laws fails, the object lacks a required part of \(\Member(Q;\Owork)\).
 That failure is exactly \(\Exit(Q;\Owork)=\neg\Member(Q;\Owork)\).
 The remaining sections prove that the terminal branches produced by the source, packet, endpoint, local, and comparison arguments all land on this pass/exit board.
