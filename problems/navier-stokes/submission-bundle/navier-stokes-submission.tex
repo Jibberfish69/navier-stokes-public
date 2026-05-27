@@ -338,102 +338,111 @@ The terminal work is the pass-or-exit test on every alleged nonsmooth branch.
 
 \section{Defining Class Membership}
 
-Now we define the class object.
+The paper now gets organized around one question.
+When a terminal picture is placed in front of us, is it still the Navier--Stokes object named by the problem, or has it become some other imagined object?
+That is the class-membership question.
+
 Call the working Navier--Stokes class object \(\Owork\).
-It is the original smooth-data Navier--Stokes evolution, read together with its pressure, viscosity, transported material family, terminal packet, and terminal witness record.
-For a packet \(Q\),
+It is the original smooth-data incompressible Navier--Stokes evolution, with the same datum, the same equation, the same pressure, the same viscosity, the same incompressible transported material family, and the same terminal role.
+For a terminal packet \(Q\),
 \[
   \Member(Q;\Owork)
 \]
-means that \(Q\) is still part of that same object.
-It is still the same fluid, under the same equation, with the same pressure, viscosity, incompressibility law, and velocity field.
-Class exit is written
+means that \(Q\) is still part of that object.
+Class exit is the opposite landing:
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
 
-\begin{definition}[Working class object]
-The working Navier--Stokes class object \(\Owork\) is the original smooth-data incompressible Navier--Stokes evolution, together with its pressure, viscosity, transported material family, terminal packet, and terminal witness record.
-For a terminal packet \(Q\),
-\[
-  \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
-\]
-\end{definition}
+This definition is deliberately plain.
+A blowup story, a residue story, a slip story, or a source story can sound like a Navier--Stokes story.
+The paper asks the simpler question: does the object still belong to the class named by the Clay problem?
+The rest of the witness machinery exists to answer that question without guessing.
 
 \subsection{Properties of NS Fluid}
 
-The fluid in this problem is an ideal mathematical fluid.
-Water, honey, and oil can help the imagination.
-The real object is fixed by the equations.
-The viscosity \(\nu\) is fixed.
-The density is normalized through incompressibility.
-The velocity field has no external force acting on it.
-On \(\mathbb R^3\) one thinks of unbounded space.
-This paper works on the periodic three-torus \(\mathbb T^3\).
-After \(t=0\), the field moves under the Navier--Stokes law.
-Pressure keeps the flow divergence-free.
-Viscosity spreads and damps differences in velocity.
+The Navier--Stokes fluid here is an ideal mathematical fluid.
+Water, honey, and oil can help the imagination, yet the object is fixed by the equation.
+It has a velocity field \(u\), a pressure \(p\), fixed positive viscosity \(\nu>0\), normalized density through incompressibility, and smooth divergence-free initial data.
+The force term is absent.
+This paper works on the periodic three-torus \(\mathbb T^3\), so the fluid lives in a periodic box and the whole transported material atlas can be read on a compact domain.
 
-The fluid properties stay fixed.
-A terminal picture has no license to change the viscosity, drop pressure, split into private fluids, or forget incompressibility.
-That is why class membership is a real question.
-The object under test has to remain the fluid named in the problem.
+The defining properties do not change after \(t=0\).
+The viscosity does not become another viscosity.
+The pressure does not become an optional correction.
+The incompressibility law does not acquire a pressure-responsive density variable.
+The velocity field moves under the same equation:
+\[
+  \partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+  \qquad
+  \nabla\cdot u=0.
+\]
+Viscosity dissipates velocity differences over time, and pressure keeps the field inside the divergence-free constraint.
+A terminal object that changes these properties is no longer the same problem object.
 
 \subsection{Properties of Euler Fluid}
 
-Euler gives the useful comparison because Euler removes viscosity.
-It keeps transport and pressure and sets the viscous part to zero.
-This makes slip easier to picture.
-Imagine a plank sliding over a stationary plank.
-As a fluid picture, that is two finite incompressible flows with a hard tangential break between them.
-The velocities are finite on both sides, and the field fails to become one smooth velocity field across the interface.
+Euler is the useful comparison because it removes the viscous term.
+It keeps transport and pressure and sets the viscosity to zero.
+That makes slip easier to picture.
 
-For Euler, that kind of picture belongs to the natural inviscid imagination of the problem.
-The equation has no viscous tether forcing neighboring velocities to smooth into one another.
-For fixed-viscosity Navier--Stokes, the same plank-slip picture is a warning sign.
-It looks like a velocity field, yet it has lost the viscous same-field law.
+Imagine one plank sliding over another plank that stays still.
+As a fluid picture, this is two finite incompressible flows with a tangential break between them.
+Each side has a velocity.
+The normal volume relation can still make sense.
+The two sides do not form one smooth velocity field across the interface.
+This is the simple slip-sheet picture.
+
+In inviscid thinking, that picture is natural.
+The equation has no viscous tether forcing neighboring velocities into one continuous profile.
+For fixed-viscosity Navier--Stokes, the same picture points at the class-membership test.
+It may look like a velocity field, yet it has lost the same-field law supplied by viscosity.
 
 \subsection{Viscosity}
 
 Viscosity is often described as damping.
 That is true.
-This proof also needs the tethering role of viscosity.
-Viscosity also transmits motion between nearby parts of the fluid.
+The proof also needs the tethering role of viscosity.
+Viscosity transmits motion between nearby parts of the fluid.
 It acts like a tether between neighboring velocity values.
 A fast piece pulls on a slow piece, and a slow piece pulls back on a fast piece.
 
 The Couette-flow picture is the clean version.
-Two boundary plates can move at different speeds, and the viscous fluid between them forms a smooth velocity gradient.
-There are no two private planks inside the fluid.
-There is one continuous velocity field.
+Two boundary plates move at different speeds.
+The viscous fluid between them forms a smooth velocity gradient.
+The plank-slip picture has been replaced by one continuous velocity field.
 
 A honey pour gives the same intuition in ordinary life.
 The honey slows as it folds and piles up, yet the falling stream also pulls nearby honey along with it.
 The stream carries mass and momentum through a viscous body.
-The point for Navier--Stokes is that viscosity does more than stop motion.
-It also shares motion.
-It gives neighboring packets a common transport law.
+The point for Navier--Stokes is that viscosity damps motion and shares motion.
+It gives neighboring packets a common law of response.
 A siphon gives the same kind of picture: once the moving column is coupled, one part of the motion pulls the next part along.
 
 \subsection{Pressure, Viscosity, Incompressibility}
 
-Pressure, viscosity, and incompressibility work together in the Navier--Stokes class.
-Pressure enforces the divergence-free condition by making the field answer globally to the incompressibility constraint.
-Viscosity diffuses velocity through \(\nu\Delta u\) and couples nearby velocity readings.
-Incompressibility keeps the fluid from creating or destroying local volume.
-Together they tell a packet how it may move while remaining the same ideal fluid.
+Pressure, viscosity, and incompressibility form one law in the Navier--Stokes class.
+Incompressibility says that a transported material volume keeps its volume.
+Pressure is the global response that keeps the velocity field divergence-free.
+Viscosity diffuses velocity through \(\nu\Delta u\) and couples neighboring velocity readings.
 
-This is the participation idea in physical language.
-A packet can be visible as a region of space and still fail the problem if pressure, viscosity, and incompressibility no longer act on it as one Navier--Stokes law.
-The packet has to participate in that law.
-The class test records that requirement.
+These three features leave very little freedom for a terminal packet.
+A packet may be visible as a region of space.
+It may even carry finite velocity values.
+It still has to take part in the same pressure-viscosity law on the same incompressible carrier.
+This is the participation requirement.
+
+This matters most for the failure stories that try to hide as source residue, terminal atoms, or pressure response.
+An incompressible Navier--Stokes packet has no private density knob that can swell or shrink to pay for a terminal source.
+It has no separate pressure law that acts on one packet while the rest of the fluid follows another law.
+The packet either participates in the same law, or it has left the class object under test.
 
 \subsection{Velocity Tower}
 
-Smoothness is a tower of derivative information.
+Smoothness is read through a tower of derivative information.
 The base velocity \(u\) is the first reading.
-The derivatives \(\nabla u,\nabla^2u,\ldots\) are the higher readings.
-A smooth Navier--Stokes object has to carry the tower under the same equation.
+The higher readings are \(\nabla u,\nabla^2u,\ldots\).
+A smooth Navier--Stokes object carries these readings as one tower under one equation.
 
 Write
 \[
@@ -448,11 +457,17 @@ Then each rung has the schematic form
   D_tU_k=K_k+B_k,
 \]
 where \(B_k\) contains lower-rung commutator terms.
-The tower lets the proof ask a precise question: is the same Navier--Stokes pressure-viscosity law still acting through the derivatives needed to read one smooth field?
+The tower is needed because a terminal picture can fail above the base velocity.
+The velocity may still be finite while a derivative rung breaks, jumps, or becomes unbounded.
+The class test therefore asks whether the same Navier--Stokes pressure-viscosity law still acts through the finite tower depth needed to read one smooth field.
 
 \section{Participation and One-Field Coherence Witness Laws}
 
-The class test now becomes a witness test.
+The physical discussion now becomes a witness test.
+The packet first has to be a same-fluid body.
+Then it has to participate in the same law.
+Then nearby readings have to fit as one field on a positive scale.
+
 The terminal object is read on one common record
 \[
   \WitnessRecord=(u_0,\nu,u,p,Q,N,r,\Phi,T_*).
@@ -469,7 +484,7 @@ All witness laws are read on this one record.
 \end{definition}
 
 Participation is the same-law witness.
-It asks whether the packet still carries the Navier--Stokes pressure-viscosity tower.
+It asks whether the packet still carries the Navier--Stokes pressure-viscosity tower on the same transported carrier.
 
 \begin{definition}[Participation witness law]
 \(\Part_{N,Q}\) means that, on the packet under test, the same Navier--Stokes equation acts through the velocity tower to depth \(N\):
@@ -483,7 +498,7 @@ The packet is participating in the same Navier--Stokes law.
 \end{definition}
 
 One-field coherence is the neighboring-field witness.
-It asks whether nearby pieces of the packet still fit together as one field on a positive scale.
+It asks whether nearby packet readings still fit together as one field on a positive scale.
 
 \begin{definition}[One-field witness law]
 \(\Field_{N,r,Q}\) means that, after the packet and participation readings are fixed, one positive scale \(r>0\) carries coherent field data through depth \(N\).
@@ -504,7 +519,7 @@ These two laws are the Part and Field faces of the class test.
 
 \section{Packet Witness Law}
 
-The packet law comes first in the terminal test because the proof needs a same-fluid body before it can read participation or field coherence.
+The packet law comes first because the proof needs a same-fluid body before it can read participation or field coherence.
 A terminal trace, source atom, or endpoint number gives too little by itself.
 The object has to give a positive transported packet of the same fluid.
 
@@ -515,6 +530,11 @@ The packet is moved by the same velocity field \(u\).
 A trace with no positive carrier, or a donor history outside the same flow, fails this law.
 \end{definition}
 
+On the torus branch, the clean packet is the whole transported material atlas.
+It is a finite same-fluid cover of \(\mathbb T^3\), with finite overlap and positive carrier scale.
+This keeps packet selection from becoming a private diagnostic choice.
+The packet under test is the material object that carries the alleged terminal obstruction.
+
 \section{Packet Failure Types}
 
 A packet can fail before velocity blowup is discussed.
@@ -522,17 +542,27 @@ It can lose every positive terminal radius.
 It can name a source atom without a transported body.
 It can carry a Zeno chain whose parent packets never leave a positive same-fluid terminal packet behind.
 It can point to a donor that does not ride with the same flow.
-Those are packet-side failures.
+It can let the material atlas degenerate so that the terminal readout no longer has a positive same-fluid cover.
+These are packet-side failures.
+
+The Zeno cases belong here.
+A Zeno story can give an endless ancestry of smaller and smaller packet events near the terminal time.
+That ancestry may look rich, yet the class test asks for a positive terminal packet \(Q\).
+An unpaid infinite donor-refill chain, a zero-radius terminal source residue, or a detached donor history fails Pack before the proof asks whether the velocity tower is dead, jumped, or blown.
+Raw terminal source residue is also tested here first.
+Only after a positive same-fluid carrier and a participating tower are retained does a sharper Field reading become available.
 
 \section{Velocity Failure Types}
 
 The names dead, jump, and blown now have a job.
 They are mechanism names for the way a terminal velocity-field picture fails the witness test.
+They are not starting labels.
+They are read from the mechanism after the packet has been placed in the Pack/Part/Field tree.
 
 \subsection{Dead}
 
-Dead is the participation failure.
-A packet remains visible, yet the Navier--Stokes law no longer acts on it as the same law.
+Dead is the Part-first failure.
+A packet remains visible, yet the Navier--Stokes law no longer acts on it as the same law through the tower.
 A zero velocity value is irrelevant here.
 The packet has lost same-object dynamics.
 It is present as a pictured packet and absent as a participating Navier--Stokes packet.
@@ -543,15 +573,23 @@ The failure is seen first through Part, and its effect spreads to Field.
 
 \subsection{Jump}
 
-Jump is the one-field failure.
-A jump can happen inside one velocity tower when adjacent derivative readings no longer fit as derivatives of one smooth field.
-A jump can happen between neighboring packet towers when finite velocities survive on both sides while the positive-scale bridge fails.
+Jump is the Field-first failure.
+The defining feature is incompatible finite readings.
+
+A jump can appear inside one tower.
+Here the packet is not dead; it still has a carrier and a participating law at the level being tested.
+The break occurs because the readings inside the tower no longer fit as derivatives of one smooth field.
+A velocity value, a first derivative, and a higher derivative cannot be arbitrary independent numbers at one point and one time.
+They have to be one tower.
+
+A jump can also appear between neighboring packet towers.
+Finite velocities survive on both sides while the positive-scale bridge fails.
 The plank-slip picture is the base-level example.
 There are two finite readings and no smooth one-field relation between them.
 
-A jump can be exposed through Field first.
-Once the neighboring towers fail to make one field, participation is also under pressure, because the same Navier--Stokes law is no longer being read as one law across the packet family.
-Field and Part overlap in the terminal object.
+Jump is native to Field because the visible loss is one-field coherence.
+It may also expose a Part defect after the neighboring towers are included in one same-fluid record.
+The first readout is Field; the cross-pressure on Part is part of the same terminal story.
 
 \subsection{Blown}
 
@@ -559,19 +597,26 @@ Blown is the unbounded-tower failure.
 A positive packet remains visible, and some velocity derivative, pressure readout, or viscous readout becomes unbounded.
 The terminal object may look like the usual blowup picture.
 The witness test asks where that blowup lands.
-It may destroy the same-fluid carrier geometry.
-It may destroy participation through the tower.
-It may destroy positive-scale field coherence.
 
-Blown belongs inside Pack, Part, and Field.
-A tower blowup is a way one of the class faces fails.
-The proof keeps the mechanism tied to the witness tree.
+There are two main readings.
+One reading is Pack-side: the deformation or material atlas degenerates so badly that no positive same-fluid carrier remains.
+The other reading is tower-side: the carrier remains, yet the finite-depth tower or its pressure-viscosity readout becomes unbounded.
+The tower-side reading is Part-first.
+It also becomes Field-visible, because a neighboring packet cannot share one positive-scale field with an unbounded tower reading.
+
+From any packet in the same terminal family, the same event can be seen from the opposite side.
+One packet sees its own tower become unbounded.
+A neighboring packet sees the positive-scale field relation fail.
+That is why blown belongs inside the witness tree instead of becoming a fourth face.
 
 \section{The Contrapositive Logic}
 
-The logic can now be stated cleanly.
-A finite-time breakdown claim enters the proof by claiming to be about the original Navier--Stokes solution.
-A breakdown claim supplies a terminal object for that same solution.
+The logic board is now simple.
+A finite-time breakdown claim owes the paper a terminal object for the original Navier--Stokes solution.
+That terminal object is admitted to the class-membership test as the object under examination.
+It is not assumed to be a class member.
+It is tested.
+
 The class test reads that object through
 \[
   \CM_{N,r,Q}
@@ -580,27 +625,9 @@ The class test reads that object through
 \]
 The three witness laws are read together on the same record.
 
-\begin{definition}[Class-membership packet]
-At depth \(N\), scale \(r\), and packet \(Q\), the class-membership witness is
-\[
-  \CM_{N,r,Q}
-  :=
-  \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
-\]
-The three laws are read together on one witness record.
-\end{definition}
-
-\begin{lemma}[Membership readout]
-Let \(N_*\) be a finite depth high enough to read the claimed terminal branch.
-If, on the terminal record, \(\CM_{N_*,r,Q}\) holds for some \(r>0\), then the packet stays on the smooth side of the split.
-\end{lemma}
-
-\begin{proof}
-\(\Pack_Q\) gives a positive finite carrier cover.
-\(\Part_{N_*,Q}\) identifies the derivative tower on that cover with the same Navier--Stokes equation, with pressure and viscosity included.
-\(\Field_{N_*,r,Q}\) keeps the local readings coherent on a positive scale.
-Those three facts say that the alleged terminal object is still the same smooth branch being read through the same equation.
-\end{proof}
+\(\Pack_Q\) says that the same-fluid body is still there.
+\(\Part_{N,Q}\) says that the same pressure-viscosity tower still acts on that body.
+\(\Field_{N,r,Q}\) says that one positive scale still reads neighboring towers as one field.
 
 For the working object, membership is the survival of the required witness through every finite continuation depth:
 \[
@@ -615,7 +642,7 @@ Class exit is
 
 The pass/fail split is the engine of the proof:
 \[
-  \text{pass: }\CM_{N_*,r,Q}\Longrightarrow\text{smooth side of the split},
+  \text{pass: }\CM_{N_*,r,Q}\Longrightarrow\Member(Q;\Owork),
 \]
 \[
   \text{fail: }\neg\Pack_Q\ \vee\ \neg\Part_{N_*,Q}\ \vee\ \forall r>0\,\neg\Field_{N_*,r,Q}
@@ -623,14 +650,14 @@ The pass/fail split is the engine of the proof:
 \]
 Here \(N_*\) is a finite depth high enough to read the claimed terminal branch.
 
-This is a contrapositive class-membership proof.
-The proof begins with the terminal picture supplied by a breakdown claim and asks whether that picture remains a member of the Navier--Stokes class.
-The pass side stays smooth.
-The fail side supplies the class exit.
+This is the contrapositive class-membership route.
+For each obstruction picture, the pass branch keeps the object inside the Navier--Stokes class.
+The fail branch supplies a first Pack, Part, or Field face failure.
+Once that face failure is derived on the same terminal record, the object has landed at \(\Exit(Q;\Owork)\).
 
 \section{Simplifying The Witness Logic Table}
 
-The first witness table has eight formal rows:
+The full formal table has eight rows:
 \[
 \begin{array}{c|c|c|l}
 \Pack & \Part & \Field & \text{formal reading}\\ \hline
@@ -645,29 +672,31 @@ The first witness table has eight formal rows:
 \end{array}
 \]
 
-The table is a bookkeeping tool.
+That table is bookkeeping.
 The proof then asks which rows can be realized by an actual same-fluid terminal object.
 Pack, Part, and Field are overlapping witness faces.
 A real terminal story has implication pressure among them.
 A missing same-fluid packet strips meaning from the later readings.
-A realized participation failure presses on field coherence.
-A realized one-field jump presses back on participation.
+A realized participation failure also breaks one-field coherence.
+A realized one-field failure also pressures participation once the neighboring towers are read on the same record.
 
-The reduced table used by the proof is shorter:
+The useful table keeps the first face where the object fails:
 \[
 \begin{array}{c|l}
 \text{row} & \text{meaning}\\ \hline
 \Pack\wedge\Part\wedge\Field & \text{pass: smooth side of the split}\\
-\Pack\wedge\neg\Part\wedge\neg\Field & \text{carrier retained; same-law and one-field coherence fail}\\
-\neg\Pack\wedge\neg\Part\wedge\neg\Field & \text{same-fluid carrier fails; the terminal object exits.}
+\neg\Pack & \text{Pack-first: no positive same-fluid terminal body}\\
+\Pack\wedge\neg\Part & \text{Part-first: carrier remains; same pressure-viscosity participation fails}\\
+\Pack\wedge\Part\wedge\forall r>0\,\neg\Field_{N,r,Q} & \text{Field-first: carrier and participation remain; no positive one-field scale remains.}
 \end{array}
 \]
 
 Some failures are easiest to see from Field first.
 A slip sheet is the clean example.
-The visible problem is neighboring-field jump, and the participation defect may be isolated after that.
-This is why Field remains in the table as its own witness face.
-It exposes failures that Part may show later.
+The visible problem is neighboring-field jump.
+The Part defect may be isolated after the neighboring fields are placed in one record.
+This is why Field stays in the table as its own witness face.
+It catches terminal pictures that Part alone does not expose at first glance.
 The final class-exit reading still stays tied to the same Pack/Part/Field record.
 
 \section{The Class-Law Proof}
