@@ -13,11 +13,10 @@ source_metrics:
   page_count: 617
 outputs:
   tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-  pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
+  pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
 ground_up_rebuild:
   target_reference: problems/navier-stokes/submission-bundle/ground-up/target-reference.md
   source: problems/navier-stokes/submission-bundle/ground-up/main.tex
-  pdf: problems/navier-stokes/submission-bundle/ground-up/main.pdf
 copied_artifacts:
   theorem_packet: problems/navier-stokes/submission-bundle/theorem-packet.yaml
   submission_verdict: problems/navier-stokes/submission-bundle/submission-verdict.yaml
