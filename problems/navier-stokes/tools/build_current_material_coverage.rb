@@ -156,6 +156,7 @@ FAMILIES = [
       source-forensics/ns-lived-sequence-history.md
       source-forensics/build_master_extraction.py
       misalignment.json
+      submission-bundle/authorial-structure-pass-20260526.md
       submission-bundle/ground-up/main.tex
       submission-bundle/ground-up/target-reference.md
     ]
