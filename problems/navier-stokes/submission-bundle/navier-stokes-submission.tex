@@ -97,10 +97,9 @@ The question is whether the smooth solution determined by \(u_0\) can lose smoot
 
 \section{Gold Standard Approach (Explained) + Live Example}
 
-The gold standard is a forward positive proof.
-It tries to prove smoothness forward in time by finding quantities the equation keeps bounded.
-This is the first natural route because smoothness means control of a whole derivative stack.
-One begins with a quantity the equation itself already gives.
+The gold-standard approach is the direct estimate route.
+It starts with quantities the equation controls and tries to climb from those quantities to the derivative bounds required for smoothness.
+The first controlled quantity is kinetic energy.
 
 The simplest example is energy.
 For a smooth divergence-free solution on \(\mathbb T^3\),
@@ -138,7 +137,7 @@ The dream estimate has the shape
   \le
   \frac{\nu}{2}\|\Delta u\|_{L^2}^2+F(Y(t)),
 \]
-with \(F\) tame enough to integrate for all finite time.
+  with \(F\) tame enough to integrate for all finite time.
 Then viscosity absorbs the dangerous part, the remaining term stays under control, and the derivative stack stays finite.
 That is the clean proof picture: estimate the source, absorb the hard part, continue the solution.
 
@@ -155,12 +154,10 @@ Smoothness needs control of derivatives.
 At the derivative level, the fluid can stretch and bend itself in a way that produces new derivative mass.
 The gold route has to explain why that production is always paid for.
 
-The historical route into this paper followed that pressure.
-First came energy.
-Then came enstrophy.
-Then came the source term.
-Then came the effort to understand the source by its shape: direction, packets, ancestry, reserves, terminal windows, signed currents, and Zeno residue.
-That work matters because it shows what a direct estimate is really fighting.
+The pressure-source branch shows how long that fight can become.
+The branch starts with the same ordinary source term from the enstrophy identity.
+Then it asks where a terminal reserve of derivative mass came from.
+The answer is pushed into ancestry: a terminal window is paid for by a parent window, the parent is paid for by an earlier parent, and the same bill keeps moving backward.
 
 A terminal source picture can look like this.
 A small window near the alleged final time carries a positive reserve of derivative mass.
@@ -169,14 +166,18 @@ Then the parent window asks for payment.
 The parent may point to an earlier parent.
 The argument can become a Zeno chain of payments, with each bill pushed backward while the terminal reserve still tries to remain unpaid.
 
-The same wall appears in other forms.
+That is where the attempt gets dirty.
+The support stack contains pressure-sustain attempts, BASAC pressure subforks, time-face anti-atom attempts, no-incoming-source-drain attempts, transported-boundary tightness attempts, pure-pressure residue attempts, angular-saturation attempts, quantized-parent attempts, and Zeno-ancestry attempts.
+Each attempt tries to make the source payment real on the same fluid.
+Each one exposes another way the terminal picture can lose the same object it was meant to control.
+
+The same obstruction returns in other language.
 A terminal pulse may shrink until no positive packet remains.
 A donor may be named while failing to ride with the same transported fluid.
 An endpoint trace may record concentration while failing to identify the same Navier--Stokes object.
 A velocity value may survive while the derivative tower needed for smoothness breaks.
-The gold route sees each picture and asks: how is this controlled?
-That is an honest question.
-It is also a question that can make the proof chase one new estimate after another.
+The gold route keeps asking for a forward payment.
+The paper records the resulting failure field because those failed payment pictures are exactly the material that the class-membership test must read.
 
 \section{Reframing the Problem}
 
@@ -202,98 +203,138 @@ The class-membership question is the test for that attachment.
 
 \section{Exhaustive Failure List}
 
-Here is the working list of ways a terminal picture can fail.
-The names are useful because each name tells the reader what kind of object is being tested.
+The support stack behind this paper compresses into the following failure surfaces.
+This list is a surface inventory.
+It names the forward-support problem, the picture it leaves behind, and the first class-membership face that picture naturally threatens.
 
 \begin{enumerate}[leftmargin=2em]
-\item \textbf{Source wall.}
-The enstrophy source can produce derivative mass at the same level where viscosity is trying to remove it.
-The forward route reaches the wall when the source has no known global payment.
+\item \textbf{Energy/enstrophy insufficiency.}
+Energy controls the \(L^2\) size of the velocity and gives time-integrated dissipation.
+The enstrophy step exposes the nonlinear source term.
+The failure picture is a derivative bill that energy alone cannot pay.
+The CM threat is a tower or source object with no same-fluid payment.
 
-\item \textbf{First-created or Zeno reserve.}
-A terminal window may seem to carry reserve that is born at the end of the accounting chain.
-Every parent window points backward to another payment problem, while the final reserve still wants to remain.
+\item \textbf{Monotone functional \(Q(t)\).}
+The recovered positive route names \(Q(t)=\|u(t)\|_{L^2}^2+\|\nabla u(t)\|_{L^2}^2\) as a global energy/enstrophy budget.
+The failure picture is that a global budget can remain too coarse to stop dangerous transfer into smaller scales.
+The CM threat is retained readout without the packet or field control needed for membership.
 
-\item \textbf{Zero-radius packet.}
-A terminal object may shrink until there is no positive same-fluid packet left to test.
-A trace can still be named, yet the transported body of fluid has disappeared from the class test.
+\item \textbf{Scale barrier and dyadic tail.}
+The route asks for a same-surface estimate suppressing high-frequency transfer.
+The failed surface is the one-sided scale-memory or genuine high-high packet: activity keeps moving into the dangerous tail while the available budget sees too little of the transfer.
+The CM threat is a positive readout with no positive coherent field scale.
 
-\item \textbf{Detached donor ancestry.}
-A reserve may be assigned to a donor that does not travel with the same fluid packet.
-The donor story can explain a number while losing the original Navier--Stokes object.
+\item \textbf{Post-\(Q(t)\) cascade carrier.}
+After the monotone budget is named, the remaining burden is the exact carrier of the cascade.
+The failed picture is a localized remainder that keeps asking for a more precise parent.
+The CM threat is detached ancestry: the number has a donor story, while the donor fails to remain the same transported fluid.
 
-\item \textbf{Slip or jump.}
-Two neighboring velocity pieces may keep finite values and still fail to form one smooth velocity field.
-The mental picture is one plank sliding over another plank: two finite flows, one interface, and no smooth bridge across the interface.
+\item \textbf{Pressure-source, BASAC, Zeno, and residue attempts.}
+This is the long dirty branch.
+It contains pressure-sustain, pure-pressure residue, source-residue, no-incoming-source-drain, time-face anti-atom, angular-saturation, transported-boundary, quantized-parent, and Zeno-ancestry attempts.
+The failure picture is a terminal reserve whose payment is always pushed to another ancestor, another boundary, another time face, or another residue.
+The CM threat is either zero-radius Pack loss or detached Part ancestry.
 
-\item \textbf{Dead participation.}
-A packet may remain visible while the Navier--Stokes law no longer acts on it as the same law.
-The object has a location, yet it has lost participation in the original pressure-viscosity dynamics.
+\item \textbf{Compactness and nonlinear tensor closure.}
+The positive route needs one classical approximation family to converge strongly enough that \(u^{(n)}\otimes u^{(n)}\) becomes \(u\otimes u\).
+The failure picture is a weak limit or endpoint trace that records information while failing to produce the same classical field.
+The CM threat is Field loss: the local pieces no longer assemble into one velocity field.
 
-\item \textbf{Blown tower.}
-A positive packet may remain while velocity derivatives, pressure readouts, or viscous readouts become unbounded.
-This is the familiar blowup picture read through the whole derivative tower.
+\item \textbf{Gradient transfer and coercivity.}
+The route needs the high-frequency enstrophy tail to obey a coercive inequality with the nonlinear remainder absorbed into viscosity plus a summable tail.
+The failed surface is the spill collar, lifted high-side remainder, or genuine high-high gradient packet.
+The CM threat is a retained packet with an unbounded velocity tower.
 
-\item \textbf{Readout residue.}
-A local critical packet, endpoint trace, no-pulse statement, or comparison packet may survive as information.
-It becomes proof material only when it attaches to the same terminal object and enters the class test.
+\item \textbf{Curvature, regularity, and export support.}
+Older positive surfaces used geometric or curvature language to control gradient growth.
+The failure picture is a useful coercive story whose carrier may be a nearby problem, a stronger structure, or an export support surface.
+The CM threat is target loss: the object under proof is no longer the fixed Navier--Stokes class object.
+
+\item \textbf{Interdependencies and closed-loop support.}
+The recovered source framework links scale barrier, monotone functional, compactness, and gradient control in a feedback cycle.
+The failure picture is a loop whose arrows remain descriptive while one bridge still lacks a same-surface estimate.
+The CM threat is unsupported participation: the packet is named inside the loop, while the pressure-viscosity participation law is still unpaid.
+
+\item \textbf{Target-fidelity and closure audit.}
+Regularized equations, filtered dynamics, stronger hidden data classes, and heuristic decay laws can make a nearby proof look smooth.
+The failure picture is a successful argument for the wrong object.
+The CM threat is direct class exit because the object has changed the problem definition.
+
+\item \textbf{Local critical translator, heat-ancestor, and same-ledger notes.}
+The late \(L^3\), Duhamel, heat-ancestor, and same-ledger surfaces try to attach endpoint information to the same terminal ledger.
+The failure picture is a readout or ancestor that survives as information while failing to attach to the same Navier--Stokes object.
+The CM threat is detached ledger ancestry or Field readout loss.
+
+\item \textbf{Euler mirror and slip-sheet comparisons.}
+The Euler mirror makes slip, shear, weak branches, and smooth-layer-to-slip-sheet limits easy to picture.
+For fixed-viscosity Navier--Stokes those pictures become tests of the one-field viscous law.
+The CM threat is a jump or slip: two finite velocity pieces fail to form one smooth NS field.
+
+\item \textbf{Current theorem-creation support surfaces.}
+Reserve-creation, active-height, height-flux, terminal angular depletion, and source-weighted variants add candidate ways a terminal reserve could appear or be seen.
+The failure picture is a live candidate branch that supplies pressure on the failure field before a final witness face has been selected.
+The CM threat is whichever first face the candidate actually violates: Pack, Part, or Field.
 \end{enumerate}
 
-This list is meant to orient the reader before the formal witness laws appear.
-The pictures differ, yet they mostly concern the same broad thing: the velocity field as a same-fluid object.
-Either the packet is gone, the law on the packet is gone, or the one-field relation between neighboring packets is gone.
+This is the exhaustive positive-forward field as it matters to the class-membership argument.
+The later proof uses the full file-level inventory behind these surfaces.
+The introduction gives the reader the surface map first, so the class test does not appear out of nowhere.
 
 \section{Generally Classifying Failure Types From the List}
 
-The list groups into three natural questions.
-First, is there still a same-fluid packet?
-Second, is the packet still participating in the Navier--Stokes equation with pressure and viscosity?
-Third, do neighboring pieces still read as one field on a positive scale?
+Now put the list down as physical stories.
+A few shapes keep coming back.
 
-These questions are deliberately physical before they are formal.
-A packet question asks whether there is still a body of the same fluid to talk about.
-A participation question asks whether that body still obeys the same equation.
-A field question asks whether the local readings fit together as one velocity field.
+One shape is loss of body.
+The terminal picture points at a trace, a pulse, a residue, or a limiting record, yet the positive packet of the same transported fluid has disappeared.
 
-The endpoint words dead, jump, and blown come later.
-They become useful as outputs of the class test.
-Dead means the packet loses same-law participation.
-Jump means the field loses smooth one-field coherence.
-Blown means a retained positive window carries an unbounded tower reading.
-Those words become precise only after the witness laws have been stated.
+Another shape is unpaid ancestry.
+The terminal reserve is assigned to a donor, a parent window, a pressure channel, or a previous shell, yet the ancestry no longer rides with the same fluid object.
 
-This order matters.
-The paper first gives the failure pictures.
-Then it sorts the pictures by what the Navier--Stokes object must keep.
-Then it names the formal class test.
-That is the bridge from intuition to proof.
+Another shape is lost participation.
+The packet remains visible, while the pressure-viscosity-incompressibility law no longer acts on it as the same Navier--Stokes law.
+
+Another shape is broken neighbour relation.
+Two readings can be finite and locally meaningful while failing to join into one smooth velocity field.
+This is where the Euler slip picture helps the imagination.
+
+Another shape is tower blowup.
+The packet stays positive, yet the derivative readings, pressure readings, or viscous readings lose finite tower control.
+
+Another shape is wrong carrier.
+A proof may succeed on a regularized, filtered, geometric, exported, or strengthened object, while the Clay object stays untouched.
+
+These are still pictures.
+They are deliberately earlier than the formal witness laws.
+The reader should first see what the failed objects look like; only then do Pack, Part, and Field become natural names for the tests.
 
 \section{Silver Standard Approach}
 
-The silver-standard approach proves the same global conclusion by asking a smaller question at the terminal point.
-For each claimed finite nonsmooth terminal picture, it asks whether the picture is inside or outside the Navier--Stokes class.
+The silver-standard approach now has its material.
+The paper takes the full positive-forward failure field and asks the class-membership question for each picture.
 The split is
 \[
-  \text{pass: the object remains a class member,}
+  \text{pass: the object remains the same Navier--Stokes member,}
 \]
 \[
-  \text{fail: the object leaves the class.}
+  \text{fail: the object exits the Navier--Stokes class.}
 \]
 
-On the pass side, the object still has the same packet, the same equation, and one coherent field.
-That is the smooth side of the split.
-On the fail side, the object has lost a same-object requirement.
-Then the picture cannot serve as an in-class finite breakdown of the original solution.
+On the pass side, the object still has the same packet, the same equation, the same pressure-viscosity law, and one coherent velocity field.
+This is the smooth side of the split.
+On the fail side, the object has lost one requirement that belongs to the problem definition.
+The failed picture then cannot be an in-class finite breakdown of the original solution.
 
-This method gives the proof a smaller terminal burden.
-Its direct burden is an exhaustive class test.
-For every claimed nonsmooth terminal object, the object either passes as the same smooth Navier--Stokes object or fails as an object outside the class.
-After the nonsmooth pictures have been classified, the class contains no nonsmooth terminal member.
-The smooth initial datum gives the class a starting member.
-The pass side gives the smooth side of the original problem.
+The reduced burden has two parts.
+First, the failure list must cover the possible nonsmooth terminal pictures supplied by the forward-support field.
+Second, each nonsmooth picture must be run through the class test.
+When the picture loses the packet, it lands at Pack.
+When it keeps a packet while losing same-law participation, it lands at Part.
+When it keeps local readings while losing one positive-scale field, it lands at Field.
 
-This is the proof economy.
-A bad object can now be evidence that the alleged terminal branch has left the class.
+Once the nonsmooth field is exhausted this way, the Navier--Stokes class has no nonsmooth terminal member.
+The smooth datum and the local classical solution give the class its ordinary smooth branch.
+The terminal work is the pass-or-exit test on every alleged nonsmooth branch.
 
 \section{Defining Class Membership}
 
