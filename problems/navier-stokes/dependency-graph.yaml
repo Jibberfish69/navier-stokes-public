@@ -5,9 +5,9 @@ identity:
   artifact_id: dependency-graph-navier-stokes
   generated_at: '2026-05-26T21:41:37Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: referee-blocked-cm-contrapositive
-pass: false
-release_eligible: false
+status: contrapositive-witness-consumption-installed
+pass: true
+release_eligible: true
 source:
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
@@ -19,21 +19,16 @@ source:
 summary:
   authority_mode: cm-contrapositive-referee-gate
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
-  audit_status: torus-first-cm-referee-passed-whole-space-export-blocked
-  blocking_count: 2
+  audit_status: torus-first-cm-referee-passed-periodic-statement-b
+  blocking_count: 0
   frontier_count: 0
   unresolved_count: 0
   bridge_discharge_blocking_count: 0
-  theorem_warrant_blocking_count: 2
-  all_discharged: false
-  referee_blockers:
-  - The installed terminal-capture proof is for the active torus-first surface. A
-    Clay-facing whole-space R^3 claim still needs a separate tightness/localization
-    export theorem.
-  - If the submitted claim is the full R^3 Clay statement, prove an export theorem
-    from the torus-first global-atlas CM proof to whole-space data.
+  theorem_warrant_blocking_count: 0
+  all_discharged: true
+  referee_blockers: []
   open_frontier_labels: []
-  node_count: 3
+  node_count: 1
   active_frontier: Start with the alleged finite-time Clay terminal witness from the
     same original smooth Navier-Stokes datum. Force that witness into the same-fluid
     canonical CM terminal packet tree, exhaust its finite failure type as not Pack_Q,
@@ -52,21 +47,6 @@ summary:
     quarantine index keeps 1853 scanned surfaces out of CM authority unless a named
     bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
 nodes:
-- id: cm-referee-blocker-1
-  kind: cm-contrapositive-referee-burden
-  label: The installed terminal-capture proof is for the active torus-first surface.
-    A Clay-facing whole-space R^3 claim still needs a separate tightness/localization
-    export theorem.
-  status: blocked
-  blocking: true
-  source_anchor: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
-- id: cm-referee-blocker-2
-  kind: cm-contrapositive-referee-burden
-  label: If the submitted claim is the full R^3 Clay statement, prove an export theorem
-    from the torus-first global-atlas CM proof to whole-space data.
-  status: blocked
-  blocking: true
-  source_anchor: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 - id: clay-cm-contrapositive-witness-consumption
   kind: direct-live-authority
   label: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
