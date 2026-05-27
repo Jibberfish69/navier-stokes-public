@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-27T00:31:14Z'
+  audited_at: '2026-05-27T00:36:47Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: full-mpp-closure-ready
@@ -234,6 +234,8 @@ issues:
   recommended_action: Run honesty-review to refresh the review verdict.
   details:
   - Primary manuscript changed after the current review verdict was written.
+  - Submission export status changed after the current review verdict was written.
+  - Typeset audit changed after the current review verdict was written.
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
