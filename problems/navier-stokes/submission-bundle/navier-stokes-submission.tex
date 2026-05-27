@@ -53,7 +53,7 @@ The proof then asks a narrow question about that object.
 Does it still look like the same Navier--Stokes object: a positive packet, the same equation acting on that packet, and one coherent field on a positive scale?
 If yes, the claimed breakdown has not produced a terminal obstruction.
 If no, the object has lost something it needed in order to count as a valid terminal object for that solution.
-That is the whole split: pass and continue, or fail and leave the class.
+That is the whole split: pass as the same smooth object, or fail and leave the class.
 
 The split is checked in three places:
 \[
@@ -71,7 +71,7 @@ In that case the object cannot serve as the Clay breakdown witness.
 The rest of the paper makes this test precise for the periodic problem.
 It builds the transported whole-torus material atlas, captures each alleged terminal branch on that atlas, and reads the branch through Pack, Part, and Field in that order.
 Familiar critical, local, and endpoint scenarios enter the proof by attaching to the selected terminal object and facing the same three checks.
-No finite nonsmooth terminal branch survives the split: it either gives continuation of the same solution, or it exits the class and cannot serve as a breakdown witness.
+No finite nonsmooth terminal branch survives the split: it either stays on the smooth side of the same solution, or it exits the class and cannot serve as a breakdown witness.
 \end{abstract}
 
 \setcounter{tocdepth}{1}
@@ -277,7 +277,7 @@ Then the claimed nonsmooth object has left the class, so it is not a legal finit
 So the proof becomes a certification problem.
 Take any claimed finite terminal object for the original solution.
 Ask whether it is still a member of the working Navier--Stokes class.
-If it is a member, the claimed terminal time is not a breakdown time for that object.
+If it is a member, the terminal claim has not found a nonsmooth member.
 If it is not a member, it cannot be the claimed in-class breakdown.
 After every nonsmooth terminal picture has been sent to the fail side, the class contains no nonsmooth terminal member.
 The smooth initial datum already gives a smooth member at the start, so the class is not empty.
@@ -637,7 +637,7 @@ The Clay-facing completion records the exact terminal witness consumption chain:
 \]
 This is the same branch law used throughout the proof.
 The pass side supplies a lawful \(\Member(Q;\Owork)\) branch and reads out to smooth continuation.
-The fail side enters the CM terminal test and loses one required requirement.
+The fail side enters the CM terminal test and loses one required feature.
 
 \begin{definition}[Terminal witness consumption]
 A finite Clay terminal witness is consumed by the CM proof when it is first admitted to the same-fluid terminal packet tree, then exhausted as one of
