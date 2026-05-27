@@ -2,14 +2,14 @@
 version: 2
 problem_id: navier-stokes
 display_name: Navier-Stokes Global Regularity
-generated_at: '2026-05-26T23:23:48Z'
+generated_at: '2026-05-27T00:08:41Z'
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 manuscript_source_kind: tex
 manuscript_source_reason: ground-up CM contrapositive paper rebuild from direct-live
   authority
 source_metrics:
-  source_word_count: 7927
-  bundle_word_count: 314279
+  source_word_count: 8749
+  bundle_word_count: 321246
   page_count: 617
 outputs:
   tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -61,7 +61,7 @@ surface_derivation_appendix:
   quarantine_rows_by_scope:
     repo-surface: 201
     theorem-construction: 1652
-  current_material_family_rows: 102
+  current_material_family_rows: 103
   current_material_families:
   - id: basac_pressure_zeno_source_residue_family
     file_count: 41
