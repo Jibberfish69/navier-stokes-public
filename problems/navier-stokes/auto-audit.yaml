@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-27T15:12:58Z'
+  audited_at: '2026-05-27T15:13:31Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: full-mpp-closure-ready
@@ -59,7 +59,7 @@ downstream_overlay_drift:
     - 'release_posture: export-ready'
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
-    sha1: 0332bd348dafd9b13376535ace96dedb8a929904
+    sha1: bea339cd9359e0e8258edeeb25abd2205250cb5b
     matched_terms:
     - direct-live-surfaces
     - authority_gate_mode
@@ -90,8 +90,8 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-11dbb4b04e6e
-    route_signature: 11dbb4b04e6e3997fd097bb82821cbd211dd5b96
+    surface_id: theorem-surface-navier-stokes-59de635b7f1b
+    route_signature: 59de635b7f1b3be47c7f40c2579ed82296f9e952
     theorem_target: full-mpp-closure
     theorem_statement: 'Navier-Stokes global regularity is proved by CM contrapositive
       class exit: an alleged finite-time Clay terminal witness from the same original
@@ -100,27 +100,14 @@ surface_snapshot:
       and the derived face failure embeds as `Exit(Q):=not Member(Q)` while the pass
       branch remains the lawful smooth continuation branch.'
     route_chain:
-    - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
-      or `T^3`
-    - Success for regularized or morphic-regularized equations does not close the
-      original problem
-    - The original framework names a monotone functional `Q(t)` as a bridge, not just
-      unnamed baseline energy
-    - Global energy or enstrophy control is necessary but not sufficient
-    - The live obstruction is the small-scale or high-frequency cascade that feeds
-      blow-up
-    - A periodic shell or dyadic tail estimate must suppress dangerous high-frequency
-      transfer on the chosen torus-first theorem surface
-    - The monotone functional must stabilize the global energy/enstrophy layer and
-      enable the compactness package on that same periodic classical surface
-    - The scale-barrier plus monotone-functional input must yield strong local compactness
-      and nonlinear tensor closure on the periodic/operator approximation family
-    - A heat-governed deformation or continuation bridge must force continuation control
-      on the same periodic theorem surface
-    - If the scale-barrier, monotone-functional, compactness, and continuation packages
-      all hold on the active periodic branch, then the periodic Clay branch with `f
-      = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem,
-      not the internal branch itself
+    - Alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes
+      datum.
+    - ClayTerminalWitnessCMEntry.A places the witness in the same-fluid canonical
+      CM terminal packet tree.
+    - ClayFiniteFailureTypeCMExhaustion.A exhausts the finite failure type as not
+      Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}.
+    - ClayCMContrapositiveEmbedding.A embeds the derived face failure as `Exit(Q):=not
+      Member(Q)` while the pass branch remains the lawful smooth continuation branch.
     route_slots: []
     authority_layers:
       authoritative_proof_surfaces:
