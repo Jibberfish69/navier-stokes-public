@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-27T01:44:59Z'
+  audited_at: '2026-05-27T15:12:33Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: full-mpp-closure-ready
@@ -90,12 +90,15 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-afca8b68a2f8
-    route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
+    surface_id: theorem-surface-navier-stokes-11dbb4b04e6e
+    route_signature: 11dbb4b04e6e3997fd097bb82821cbd211dd5b96
     theorem_target: full-mpp-closure
-    theorem_statement: Every smooth divergence-free zero-mean initial datum on T^3
-      with f=0 generates a global smooth classical three-dimensional incompressible
-      Navier-Stokes solution.
+    theorem_statement: 'Navier-Stokes global regularity is proved by CM contrapositive
+      class exit: an alleged finite-time Clay terminal witness from the same original
+      smooth datum enters the same-fluid CM terminal packet tree, its finite failure
+      type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q},
+      and the derived face failure embeds as `Exit(Q):=not Member(Q)` while the pass
+      branch remains the lawful smooth continuation branch.'
     route_chain:
     - The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3`
       or `T^3`
