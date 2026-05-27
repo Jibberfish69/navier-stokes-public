@@ -43,30 +43,30 @@
 
 \begin{abstract}
 We prove global smooth existence for the incompressible three-dimensional Navier--Stokes equations on the periodic domain \(\mathbb T^3\), with smooth divergence-free initial data and zero external force.
-The proof is a contrapositive same-solution argument.
-A finite-time breakdown claim must identify a terminal object for the original solution.
-The argument shows that such an object either carries the services needed for classical continuation or loses one of those services and therefore cannot be the breakdown of that solution.
+A direct proof would prove estimates strong enough to keep the solution smooth for all time.
+This paper uses a contrapositive route instead.
+A finite-time breakdown claim has to identify a terminal object for the original solution, so the proof tests that object.
 
-A direct proof would keep the solution alive by estimates.
-The route here tests the terminal object left by a proposed breakdown.
-The test asks whether that object still has the mathematical services required to be the same Navier--Stokes solution at the alleged terminal time.
+The test asks a simple question: does the terminal object still carry enough of the original solution to continue it?
+If it does, the classical \(H^s\), \(s>5/2\), local theory extends the same solution past the claimed terminal time.
+If it does not, the object has lost the structure required to be a legal terminal object for that same solution.
 
-The test has three services.
-A legitimate same-solution terminal object must keep a positive material carrier, must still participate in the same Navier--Stokes pressure-viscosity tower, and must retain positive-scale field control on one witness record:
+The proof records that structure through three checks.
+They ask whether the terminal object keeps a positive material carrier, remains tied to the same Navier--Stokes pressure-viscosity evolution, and retains positive-scale field control on one witness record:
 \[
   \Pack_Q,\qquad \Part_{N,Q},\qquad \Field_{N,r,Q}.
 \]
-When these three services survive at sufficient depth, they give an ordinary supercritical continuation bound, \(H^s\) with \(s>5/2\), so the classical local theory extends the same solution beyond the alleged terminal time.
-When a terminal object is capable of finite nonsmooth breakdown, it is tested by the same three services.
-The first missing service gives the class exit
+These are the Pack, Part, and Field faces of the terminal packet.
+The first failed face gives the class exit
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
-Thus the selected terminal object has only two outcomes: the services survive and the solution continues, or a named service fails and the object is not a legal same-solution breakdown witness.
+Thus the claimed terminal object has only two outcomes: it remains a continuation packet for the same solution, or it fails one of the three checks and exits the class.
+In the second case it is not an available Clay breakdown witness.
 
 The rest of the manuscript makes this test precise for the periodic problem.
 It constructs the transported whole-torus material atlas, captures each alleged terminal branch on that atlas, and reads the branch through Pack, Part, and Field in that order.
-Sobolev, critical, local, and endpoint scenarios enter the proof by attaching to the selected terminal object and taking a job in the same service test.
+Sobolev, critical, local, and endpoint scenarios enter the proof by attaching to the selected terminal object and taking a job in the same terminal-packet test.
 The conclusion is that no finite nonsmooth terminal branch remains available as a Clay breakdown witness for the periodic smooth-data Navier--Stokes evolution.
 \end{abstract}
 
