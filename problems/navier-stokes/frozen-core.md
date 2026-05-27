@@ -11,7 +11,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Grounded Core
 
-- SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A (`live-theorem-frontier`; `source-reserve-birth-charge-a`)
+- No grounded obligations were identified.
 
 ## Source Frontier
 
@@ -28,6 +28,7 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 - `problems/navier-stokes/marvin-ingest-notes.yaml`
 - `problems/navier-stokes/live-theorem-edge.yaml`
 - `problems/navier-stokes/theorem-construction/mpp-source-reserve-birth-charge-direct-attempt-20260525.md`
+- `problems/navier-stokes/theorem-construction/mpp-pack-first-source-reserve-face-audit-20260526.md`
 - `problems/navier-stokes/theorem-construction/mpp-active-height-flux-trichotomy-proof-audit-20260525.md`
 - `problems/navier-stokes/theorem-construction/mpp-zero-moment-reserve-visibility-direct-attempt-20260525.md`
 - `problems/navier-stokes/theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md`
