@@ -42,6 +42,8 @@ classification_summary:
   readiness_overlay_hardener_refreshed: true
   active_torus_first_unconverted_positive_switches_detected: false
   surviving_full_submission_burden: none-for-periodic-statement-b
+  nightly_relational_transfer_consumed_20260527: true
+  support_repair_separated_from_theorem_progress_20260527: true
 working_pass_results:
 - id: comprehensive-cm-switch-and-generated-overlay-sweep
   status: completed
@@ -51,13 +53,12 @@ working_pass_results:
   - problems/navier-stokes/non-euler-cm-contrapositive-proof-certificates-20260514.yaml
   - problems/navier-stokes/cm-branch-family-certificate-ledger-20260526.yaml
   - problems/navier-stokes/tools/ns_pipeline_hardener.rb
-  result: >-
-    A fresh multi-pass diagnostic sweep found no active torus-first CM switch
+  result: A fresh multi-pass diagnostic sweep found no active torus-first CM switch
     accepted merely by label. Proof-bearing torus-first material is either solved
     at the packet/readout level, lawfully converted to Pack/Part/Field face exit,
-    or demoted as support. Readiness overlays were hardened so the blocked CM
-    referee gate suppresses stale whole-space submission-candidate/export-ready tails
-    on the key generated surfaces.
+    or demoted as support. Readiness overlays were hardened so the blocked CM referee
+    gate suppresses stale whole-space submission-candidate/export-ready tails on the
+    key generated surfaces.
   remaining_boundary: Periodic-scope alignment is installed. Whole-space R^3 export
     remains a separate statement (A) boundary and does not block periodic statement
     (B).
@@ -101,6 +102,20 @@ working_pass_results:
   result: Submission, release, MCP proof-promotion, and release-side audit surfaces
     now keep the periodic statement (B) gate separate from any whole-space statement
     (A) export claim.
+- id: nightly-relational-transfer-cm-completion-action-20260527
+  status: completed-proof-custody-transfer
+  evidence:
+  - problems/navier-stokes/theorem-construction/mpp-nightly-relational-transfer-cm-completion-action-20260527.md
+  - system/meta/research-os/nightly-six-mpp/runs/2026-05-27/theorem-depth-attempt.yaml
+  - system/meta/research-os/nightly-pdf-crank/runs/2026-05-26/clay-gap-ledger.yaml
+  - system/meta/research-os/nightly-pdf-crank/runs/2026-05-26/rewrite-queue.yaml
+  result: A bounded completion-facing pressure test verified that the May 26 PDF crank
+    gaps are authorial/scope/support-boundary obligations around the installed torus-first
+    CM chain, while the May 27 relational target-custody rule keeps the live theorem
+    target on Exit(Q):=not Member(Q) through Pack/Part/Field.
+  remaining_boundary: Whole-space R^3 export / tightness-localization or explicit
+    periodic-scope submission alignment remains separate from the installed periodic
+    CM contrapositive chain.
 nonblocking_scope_boundaries:
 - id: whole-space-export-not-certified
   severity: high
@@ -160,7 +175,18 @@ nonblocking_confirmations:
   evidence:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   - problems/navier-stokes/theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
+- id: may27-relational-and-pdf-crank-transfer-consumed
+  statement: 'The May 27 relational-cognition target-custody output and May 26 PDF
+    crank gaps were consumed into the live CM contrapositive target without reopening
+    the theorem burden: they sharpen the ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
+    / ClayCMContrapositiveEmbedding.A chain and keep scope, support, reader, and build
+    work separate from proof completion.'
+  evidence:
+  - problems/navier-stokes/theorem-construction/mpp-nightly-relational-transfer-cm-completion-action-20260527.md
+  - system/meta/research-os/nightly-six-mpp/runs/2026-05-27/theorem-depth-attempt.yaml
+  - system/meta/research-os/nightly-six-mpp/runs/2026-05-27/pdf-crank-intake.yaml
+  - system/meta/research-os/nightly-six-mpp/runs/2026-05-27/thomas-thinking-applied.yaml
 required_next_audit:
 - Keep any whole-space R^3 / statement (A) bundle blocked until an export theorem
-  is installed; keep the periodic T^3 / statement (B) bundle eligible under the
-  installed torus-first CM referee pass.
+  is installed; keep the periodic T^3 / statement (B) bundle eligible under the installed
+  torus-first CM referee pass.
