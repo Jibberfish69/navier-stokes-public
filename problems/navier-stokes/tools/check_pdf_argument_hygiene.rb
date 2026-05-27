@@ -22,14 +22,17 @@ FORBIDDEN_VISIBLE_PATTERNS = {
 }.freeze
 
 ORDERED_ANCHORS = [
-  "\\section{The Clay Target And The Proof Contract}",
-  "\\section{A Guiding Example: Source Absorption And Source Reserve}",
+  "\\section{The Navier--Stokes MPP And The Proof Contract}",
+  "\\section{The Proof Spine Before Details}",
+  "\\section{The Positive Route Meets The Source Wall}",
   "\\section{The Working Class Object}",
   "\\section{Terminal Packet Capture}",
-  "\\section{Forward Families As Support Examples}",
   "\\section{Class Exit}",
   "\\section{The Class-Law Proof}",
-  "\\section{The Short Proof Spine}",
+  "\\section{The Clay-Facing CM Completion}",
+  "\\section{Forward Families As Support Examples}",
+  "\\section{The Support Boundary}",
+  "\\section{Comparison And Transfer Boundary}",
   "\\section{Mathematical Branch Coverage}",
   "\\section{The Closing Hinges}"
 ].freeze
