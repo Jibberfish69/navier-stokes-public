@@ -78,58 +78,23 @@ No finite nonsmooth terminal branch survives the split: it either gives continua
 \tableofcontents
 \clearpage
 
-\section{The Navier--Stokes MPP And The Proof Contract}
+\section{The Original Problem}
 
-The incompressible three-dimensional Navier--Stokes equations are
+The problem is easy to say and hard to solve.
+We are given a smooth, divergence-free velocity field \(u_0\) for an incompressible fluid.
+The three-dimensional Navier--Stokes equations are
 \[
-  \partial_t u +(u\cdot\nabla)u+\nabla p=\nu\Delta u,\qquad
-  \nabla\cdot u=0,
+  \partial_t u +(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+  \qquad
+  \nabla\cdot u=0.
 \]
-with smooth divergence-free initial data \(u_0\).
-The Clay problem asks whether the corresponding smooth solution exists for all time.
-The proof program here is the Navier--Stokes class-membership contrapositive.
-It starts from an alleged finite terminal witness for the original smooth-data solution and proves that the witness is either a member continuation packet or a class-exit witness.
-The class-exit primitive is
-\[
-  \Exit(Q;\Owork):=\neg\Member(Q;\Owork),
-\]
-and the exit is derived through the first lost service in the Pack/Part/Field witness tree:
-\[
-  \Pack_Q,\qquad \Part_{N,Q},\qquad \Field_{N,r,Q}.
-\]
+The Clay question asks whether the smooth solution that starts from \(u_0\) stays smooth for all time.
+This manuscript proves the periodic zero-force case on \(\mathbb T^3\).
+The whole-space problem on \(\mathbb R^3\) is a separate export question: one must carry the terminal-packet result from the periodic atlas to a whole-space localization and tightness theorem.
 
-This manuscript proves that program on the periodic zero-force domain \(\mathbb T^3\).
-Its terminal packet, material atlas, and continuation readout all live on the torus.
-The whole-space statement on \(\mathbb R^3\) is a stronger export surface: it requires a tightness/localization theorem carrying this terminal-packet conclusion from the periodic atlas to whole-space data.
-
-The gold standard question is
-\[
-  \text{which estimate forces the smooth solution to continue?}
-\]
-It proves a bound strong enough for classical continuation.
-The contrapositive question used here is
-\[
-  \text{which service must an alleged finite-breakdown branch lose?}
-\]
-It proves that every branch capable of finite nonsmooth terminal failure exits the legal same-solution class after CM-test entry and a concrete Pack, Part, or Field face failure.
-This paper uses the standard supercritical Sobolev continuation theorem as the final readout from a member packet.
-The continuation readout used here is \(H^s\) with \(s>5/2\).
-Critical, endpoint, local \(L^3\), no-pulse, and comparison arguments matter by tying themselves to the same terminal witness record and taking a Pack, Part, Field, or readout job.
-
-\begin{proposition}[Periodic theorem and export path]
-The proof in this manuscript is the periodic zero-force CM contrapositive theorem.
-It proves that an alleged finite terminal breakdown witness on \(\mathbb T^3\) is consumed by the same-fluid Pack/Part/Field terminal packet tree.
-That is the periodic smooth-data Clay target.
-The whole-space statement (A) requires a theorem exporting that terminal-packet conclusion to \(\mathbb R^3\).
-\end{proposition}
-
-\begin{proof}
-The selected packet used below is the transported whole-torus material atlas.
-That atlas is a periodic object.
-All Pack, Part, Field, and \(H^s\) readout statements in the main proof are built on that selected periodic packet.
-The whole-space statement asks for the tightness/localization theorem that carries this packet conclusion to arbitrary whole-space data.
-Thus the periodic theorem and the whole-space export theorem are different mathematical surfaces.
-\end{proof}
+A smooth solution can be continued once a strong enough norm stays finite.
+The continuation norm used here is the standard supercritical Sobolev norm \(H^s\), with \(s>5/2\).
+That is the first fixed point in the paper: if the same solution keeps such a bound up to a finite time, then there is no finite-time breakdown there.
 
 \begin{theorem}[Classical continuation criterion]
 Let \(s>5/2\).
@@ -142,585 +107,466 @@ then the same solution extends smoothly beyond \(T_*\).
 \end{theorem}
 
 \begin{proof}
-The local well-posedness theorem in \(H^s\) with \(s>5/2\) gives a smooth continuation time depending only on \(\nu\), \(s\), and an upper bound for \(\|u(t)\|_{H^s}\).
-The displayed bound supplies the same upper bound along every sequence of times approaching \(T_*\).
-Restarting the local theory from such times gives a uniform positive continuation interval.
-Those restarted solutions agree with the original solution on the overlap by uniqueness, so they extend the same velocity-pressure solution past \(T_*\).
+The local well-posedness theorem in \(H^s\), \(s>5/2\), gives a smooth continuation time depending on \(\nu\), \(s\), and an upper bound for \(\|u(t)\|_{H^s}\).
+The displayed bound gives that upper bound along times tending to \(T_*\).
+Restarting the local theory from those times gives a uniform positive continuation interval.
+Uniqueness identifies the restarted solutions with the original solution on the overlap, so the same velocity-pressure solution extends past \(T_*\).
 \end{proof}
 
-The first dependency is now fixed.
-A branch that reaches one supercritical \(H^s\) continuation bound continues.
-A branch that claims finite breakdown must explain which service of the same-solution continuation packet has failed.
-The class-membership proof asks the finite terminal branch:
+The rest of the proof is built around one plain question.
+When a finite terminal failure is claimed, is the object being described still a member of the Navier--Stokes class, or has the claimed failure moved outside the problem?
+The class-exit notation is
 \[
-  \begin{gathered}
-  \text{can a branch capable of finite nonsmooth terminal failure}\\
-  \text{still be a legal branch of the same continuation class?}
-  \end{gathered}
+  \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
+This line should be read literally.
+\(\Member(Q;\Owork)\) means that the packet \(Q\) is still part of the same Navier--Stokes object started by \(u_0\).
+\(\Exit(Q;\Owork)\) means that it is not.
 
-The proof contract is this.
-Let \(O\) be a same-solution obstruction reached by a forward Navier--Stokes proof.
-The obstruction has a pass side and a fail side:
-\[
-  O_{\Pass}\Rightarrow \text{the same continuation services remain},
-\]
-\[
-  O_{\Fail}\Rightarrow \text{the branch is capable of finite terminal nonsmoothness}.
-\]
-The pass side is the member branch.
-The fail side is tested as a terminal witness and must lose one of the required services.
-Once it loses a required service, it exits the class:
-\[
-  O_{\Fail}\Rightarrow \Exit(Q;\Owork).
-\]
-Each obstruction family below repeats the same pattern.
-A direct estimate names a terminal mechanism.
-That mechanism still claims to be the original Navier--Stokes branch.
-The proof therefore needs a test that decides whether the claimed terminal branch is still a legal same-solution continuation.
+\section{The Gold Standard Method}
 
-\section{The Proof Spine Before Details}
+The natural gold-standard proof is a forward positive proof.
+One tries to find a quantity that controls smoothness and then proves that the quantity stays bounded.
+If that works, the continuation theorem does the last step.
 
-The proof can be read before the machinery is introduced.
-Start with a finite terminal witness for the same Navier--Stokes solution.
-The witness is not assumed to be a member of the class; it is admitted to the CM test because it claims to be the terminal branch of the original smooth-data evolution.
-
-The roadmap is:
-\[
-\begin{aligned}
-  \text{finite Clay terminal witness}
-  &\Longrightarrow \text{same-fluid CM terminal packet}\\
-  &\Longrightarrow \text{first Pack/Part/Field failure}\\
-  &\Longrightarrow \Exit(Q;\Owork).
-\end{aligned}
-\]
-The pass branch keeps all three services and reads out to smooth continuation.
-The fail branch loses the first required service and therefore cannot remain a legal in-class nonsmooth terminal branch.
-
-\begin{claim}[Class proof spine]
-For every obstruction \(O\) reached by the forward-positive Navier--Stokes program,
-\[
-  O_{\Pass}\Rightarrow\Member(Q;\Owork)\Rightarrow\text{smooth continuation},
-\]
-while
-\[
-  O_{\Fail}\Rightarrow\Exit(Q;\Owork).
-\]
-Finite terminal witnesses are consumed by the CM terminal chain, so no legal in-class nonsmooth terminal branch remains.
-\end{claim}
-
-\begin{proof}
-The first implication is membership readout.
-The second implication is terminal packet capture followed by class exit.
-The terminal witness consumption chain gives the face failure for every finite Clay breakdown witness.
-The no-third-branch theorem removes the only branch shape that could be both an in-class continuation and a terminal nonsmooth witness.
-\end{proof}
-
-\section{The Positive Route Meets The Source Wall}
-
-The enstrophy source wall is the first teaching example, not the proof spine.
-The proof spine is the terminal same-fluid packet test built below.
-This section is included because it shows how the positive-forward route naturally produces the pass/fail split that the CM contrapositive consumes.
-The example gives the reader a familiar calculation in which the same branch split is visible.
-Let
-\[
-  Q_1(t)=\|u(t)\|_{L^2}^2+\|\nabla u(t)\|_{L^2}^2.
-\]
-The \(L^2\) energy has a signed identity:
+The most familiar starting point is the energy identity.
+For a smooth divergence-free solution on \(\mathbb T^3\),
 \[
   \frac12\frac{d}{dt}\|u(t)\|_{L^2}^2
   +\nu\|\nabla u(t)\|_{L^2}^2=0.
 \]
-The first derivative level has the source wall:
+This is the pleasant part of the problem.
+The kinetic energy does not grow.
+Viscosity spends energy through \(\|\nabla u\|_{L^2}^2\).
+
+The next level is where the real problem shows up.
+If we set
+\[
+  Y(t)=\frac12\|\nabla u(t)\|_{L^2}^2,
+\]
+then the enstrophy calculation gives
 \[
   \frac12\frac{d}{dt}\|\nabla u(t)\|_{L^2}^2
   +\nu\|\Delta u(t)\|_{L^2}^2
   =
-  \int_{\mathbb T^3}(u\cdot\nabla)u\cdot\Delta u\,dx
-  =:\mathcal S(t).
+  \int_{\mathbb T^3}(u\cdot\nabla)u\cdot\Delta u\,dx.
 \]
-The source \(\mathcal S(t)\) has no fixed sign.
-It is the place where a direct positive proof tries to absorb nonlinear production into viscosity.
+The right side has no fixed sign.
+It is the source wall.
+It is where the nonlinear motion of the fluid can feed the very derivatives that viscosity is trying to damp.
 
-\begin{proposition}[Positive source absorption gives the pass branch]
-Assume that on a terminal interval the source satisfies
+A gold-standard proof tries to pay for this source.
+In the best case one proves an estimate of the form
 \[
-  |\mathcal S(t)|
+  \left|\int_{\mathbb T^3}(u\cdot\nabla)u\cdot\Delta u\,dx\right|
   \le
-  \frac{\nu}{2}\|\Delta u(t)\|_{L^2}^2
-  +F(Q_1(t)),
+  \frac{\nu}{2}\|\Delta u\|_{L^2}^2+F(Y(t)),
 \]
-where \(F\) is locally integrable along the branch.
-Then \(Q_1\) remains bounded on that interval, and the branch remains on the pass side of the class test up to the regularity depth supplied by the continuation bootstrap.
-\end{proposition}
+where \(F(Y(t))\) is tame enough to integrate.
+Then viscosity absorbs the hard half of the source, the remaining term is controlled, and the smoothness tower can be climbed.
+That is the cleanest proof shape: estimate, absorb, continue.
 
-\begin{proof}
-The displayed inequality gives
+This is also why the problem is hard.
+The energy identity is below the dangerous scale, while the source term lives at the derivative level where stretching, bending, and concentration can feed back into themselves.
+A forward proof has to show how the source is always paid for.
+That means it has to rule out every way a terminal source could keep making new derivative mass faster than viscosity can remove it.
+
+\section{Where The Gold Method Reaches Its Wall}
+
+The historical route in this repository began as that gold-standard search.
+It tried to find a stable quantity, then a better stable quantity, then a better way of reading the same source wall.
+The names changed: scale barriers, monotone quantities, compactness, curvature, morphic regularization, directionality, source-pulse deletion, donor ancestry, reserve accounting.
+The lived pattern was the same.
+A positive proof would control one source picture, and a sharper terminal picture would remain.
+
+The obstruction is not that the source term is mysterious.
+The obstruction is that a direct proof has to explain how the original Navier--Stokes solution pays every possible terminal source bill.
+For example, a shrinking terminal heat window may carry a positive source reserve.
+One can try to say that the reserve came from its parent window.
+Then one must pay the parent.
+If the parent was also born from a smaller terminal window, one must pay that one too.
+The proof starts to look like a Zeno payment chain: each bill is pushed backward, but a first unpaid bit may still try to appear at the end.
+
+The same problem appears in different clothing.
+A terminal pulse may have no positive carrier.
+A donor may be named without belonging to the same transported fluid packet.
+A local \(L^3\) or critical endpoint trace may describe a concentration without proving that the trace is the same Navier--Stokes object.
+A field may keep a formal velocity value while losing the derivative tower needed for smooth continuation.
+The gold method keeps asking: how do we control this?
+The answer may require new estimates at every new shape of failure.
+
+The useful turn is to stop asking only how smoothness is controlled.
+For a claimed finite failure, there is an earlier question:
 \[
-  \frac12\frac{d}{dt}\|\nabla u(t)\|_{L^2}^2
-  +\frac{\nu}{2}\|\Delta u(t)\|_{L^2}^2
-  \le
-  F(Q_1(t)).
+  \text{is the claimed failure still inside the Navier--Stokes class?}
 \]
-Together with the \(L^2\) energy identity, this is a closed differential control for the low-order packet on the interval where \(F(Q_1(t))\) is integrable.
-The usual parabolic smoothing and higher-order energy bootstrap then promote the bounded packet to a continuation norm at any fixed \(H^s\) with \(s>5/2\), once the higher-order source terms obey the same absorption pattern.
-At that point the classical continuation criterion applies.
-\end{proof}
+If it is still inside the class, the paper must read it as a continuation packet.
+If it is outside the class, it cannot be the Clay breakdown of the original solution.
+The proof does not need to explain how an outside object becomes smooth.
+It needs to show that the object is outside.
 
-This proposition is the gold-standard behaviour in miniature.
-The source is absorbed, the continuation services survive, and the branch remains a member branch.
-The hard case is the complementary behaviour.
-Suppose the source absorption attempt leaves a positive terminal reserve on shrinking heat windows after ordinary losses and inherited parent mass have been removed.
-Such a reserve is dangerous only while it claims to be part of the original same-solution branch.
-That claim forces the class test.
+\section{Reframing The Problem}
 
-\begin{definition}[Source-reserve failure branch]
-A source-reserve failure branch is a same-solution terminal branch for which a positive source quantity \(R_N(W_j)\) survives on terminal heat windows \(W_j\to T_*\) after legal boundary losses, inherited parent mass, and paid finite terms have been separated.
-\end{definition}
+The reframing is small, but it changes the shape of the work.
+The gold question is:
+\[
+  \text{how is smoothness controlled?}
+\]
+The silver question is:
+\[
+  \text{when a nonsmooth terminal object is claimed, is it still the same Navier--Stokes object?}
+\]
 
-\begin{proposition}[The source-reserve failure branch exposes the class test]
-Every source-reserve failure branch must answer three questions in order.
-First, does a positive transported carrier remain?
-Second, on that carrier, does the same Navier--Stokes pressure-viscosity tower remain?
-Third, after carrier and participation survive, does one positive scale carry coherent field data strong enough for continuation?
-A negative answer at the first, second, or third question gives carrier-side, participation-side, or field-side class exit respectively.
-\end{proposition}
+This is the class-membership question.
+A claimed terminal object must still be the fluid defined by the problem: same datum, same equation, same pressure, same viscosity, same incompressibility law, same velocity field, same terminal witness record.
+If one of those requirements fails, the claimed object may still be a useful picture of why a proof attempt broke down, but it is not a breakdown of the Navier--Stokes class object.
 
-\begin{proof}
-The reserve can affect the Clay solution only as a branch of the same preterminal velocity-pressure evolution.
-That branch first needs a positive transported carrier for the packet \(Q\).
-Failure at this level means the reserve has no same-fluid continuation packet.
-When the carrier survives, the reserve must still participate in the differentiated Navier--Stokes pressure-viscosity tower on that carrier.
-Failure at this level means the reserve has left the original equation on the selected carrier.
-When carrier and participation both survive, the remaining question is positive-scale coherent field readout.
-Failure there means the retained branch has no scale at which the continuation field can be read.
-These are the three operational services required by the class object.
-\end{proof}
+The working guess behind the method is simple.
+The Navier--Stokes equations should be smooth for all time.
+Many imagined blowup pictures look like blowup only because they have quietly stopped being Navier--Stokes objects.
+They describe a packet with no carrier, a source with no ancestry, a slip between two fields that are no longer one field, or a tower that no longer participates in the same pressure-viscosity law.
+Once the object has left the class, the proof no longer has to smooth it.
+The proof has to identify the exit.
 
-The case study gives the reader the pattern used everywhere else.
-The positive calculation is attempted first.
-When it closes, the branch reads out through the continuation criterion.
-When it leaves a terminal branch, the proof keeps that branch and asks for its first lost continuation service.
-That is class membership in operation.
+This is the same solution logic.
+A terminal picture is not allowed to win by changing the object under discussion.
+It must remain attached to the original smooth-data solution.
+The test below is designed to catch exactly that drift.
 
-That is the reason to introduce class membership before returning to the branch catalogue.
-The source-wall calculation has done its teaching job: a positive estimate tries to close, its failure leaves a retained terminal branch, and that branch has to answer whether it is still the same legal Navier--Stokes continuation.
-The next section defines that legality test.
+\section{The Failure List}
 
-\section{The Working Class Object}
+The proof has to face the failure pictures that the positive route leaves behind.
+Here is the working list used in this manuscript.
+The later sections do not treat these as folklore names; each one is forced into a Pack, Part, or Field witness law.
 
-The obstruction field has now produced the object the proof must test.
-A breakdown-capable branch is still attached to the original datum, equation, pressure, viscosity, and preterminal smooth flow.
-The class object records exactly those same-object requirements.
-It lets the proof ask whether the branch still has the services of a legal continuation.
+\begin{enumerate}[leftmargin=2em]
+\item \textbf{Source wall.}
+The enstrophy source has no fixed sign.
+A direct estimate may fail because nonlinear production keeps a positive reserve after ordinary viscous losses have been counted.
 
-\begin{definition}[Working Clay class object]
-The working Clay class object \(\Owork\) is the class of same-solution Navier--Stokes continuation packets generated by the original smooth datum and read on one terminal witness record.
-For a terminal packet \(Q\), the predicate
+\item \textbf{First-created or Zeno reserve.}
+A terminal window may seem to contain new positive derivative mass that is not inherited from a parent window and is not paid by a charge path.
+This is the ``something from nowhere'' version of the source wall.
+
+\item \textbf{Zero-radius packet.}
+A claimed terminal object may shrink until no positive transported packet remains.
+It can be named as a trace, but it no longer gives a same-fluid packet that can be continued.
+
+\item \textbf{Detached donor ancestry.}
+A source or reserve may be assigned to a donor that is not carried by the same transported fluid family.
+Then the ancestry may explain a failed estimate, but it does not explain the original Navier--Stokes object.
+
+\item \textbf{Slip or jump.}
+Two neighboring velocity pieces may keep finite velocities while no longer fitting together as one smooth velocity field.
+The simple mental picture is one plank sliding over another plank: two finite flows, one interface, no smooth bridge between them.
+
+\item \textbf{Dead participation.}
+A carrier may remain visible while the pressure-viscosity law no longer acts as the same law on that carrier.
+The packet is still being pointed at, but it is no longer participating in the same equation.
+
+\item \textbf{Blown tower.}
+A retained packet may keep a positive window while some velocity derivative, pressure readout, or tower amplitude becomes unbounded.
+This is the familiar blowup picture, read through the full velocity tower rather than through one scalar value.
+
+\item \textbf{Readout residue.}
+A local critical packet, endpoint trace, no-pulse statement, or comparison packet may survive as information without yet being the same witness record.
+Such a residue is support until it is attached to the class object and tested.
+\end{enumerate}
+
+These are the pictures to keep in mind.
+Most of them are velocity-field failures in the broad sense: either there is no same packet, no same law on the packet, or no one field across the packet.
+The endpoint words dead, jump, and blown are saved for the moment when those pictures have been passed through the witness laws.
+
+\section{The Silver Standard Method}
+
+The silver method is not weaker in its conclusion.
+It is more modest in what it tries to prove directly.
+It does not try to show, one by one, how every imagined nonsmooth picture is smoothed by an estimate.
+It asks whether each claimed nonsmooth picture is still a member of the Navier--Stokes class.
+
+The split is:
+\[
+  \text{pass: the object remains a class member,}
+\]
+\[
+  \text{fail: the object leaves the class.}
+\]
+On the pass side, the object has the packet, the law, and the field coherence needed for the \(H^s\) continuation readout.
+Then the same solution continues.
+On the fail side, the object loses one of those same-object requirements.
+Then it is not a legal finite breakdown of the Navier--Stokes solution.
+
+So the proof can be read as a certification problem.
+Take any claimed finite terminal object for the original solution.
+Ask whether it is still a member of the working Navier--Stokes class.
+If it is a member, continuation is automatic through the classical theorem above.
+If it is not a member, it cannot be the claimed in-class breakdown.
+After every nonsmooth terminal picture has been sent to the fail side, the class contains no nonsmooth terminal member.
+Local well-posedness gives a smooth member at the start, so the class is not empty.
+The only class members left by the terminal test are smooth continuation members.
+
+This is the proof's main economy.
+It does not need to discover the private smoothing mechanism for each bad picture.
+It needs to prove that each bad picture either carries the continuation witness or fails to be the same Navier--Stokes object.
+
+\section{The Class-Membership Question}
+
+Now we define the object being tested.
+The working class object \(\Owork\) is the Navier--Stokes class generated by the original data and read on one terminal witness record.
+For a packet \(Q\),
 \[
   \Member(Q;\Owork)
 \]
-means that \(Q\) retains the services needed to be a legal same-solution continuation candidate.
-The class-exit predicate is
+means that \(Q\) is still part of that same class object.
+It is still the same fluid, with the same pressure, the same viscosity, the same incompressibility law, and the same velocity field.
+
+The fluid here is not water, honey, oil, or any real substance.
+Those pictures help, but the object is an ideal mathematical fluid.
+The viscosity \(\nu\) is fixed.
+The density is normalized through incompressibility.
+The domain in this manuscript is the periodic box \(\mathbb T^3\), so the field has no boundary wall and no external force.
+After \(t=0\), the velocity evolves by the equation, pressure enforces the divergence-free constraint, and viscosity spreads and damps velocity differences.
+
+Euler is the useful comparison picture.
+Euler removes viscosity.
+In an Euler-type mental picture, one can imagine two finite incompressible flows sliding past each other like one plank moving over a fixed plank.
+The normal flow may be compatible, while the tangential velocity jumps across the interface.
+That is a smoothness failure: two finite velocity pieces do not form one smooth field.
+For Euler, such slip pictures can belong to a weaker class after the regularity requirement has been changed.
+For Navier--Stokes, viscosity is supposed to rule out that kind of slip inside the same smooth class.
+
+Viscosity is often described only as damping.
+That is true, but it is not the whole role it plays here.
+Viscosity also couples neighboring packets of the fluid through the Laplacian.
+It acts like a tether between nearby velocity values.
+A fast piece drags on a slow piece, and a slow piece drags on a fast piece.
+The smooth Couette-flow picture is the right contrast to the two-plank slip picture: instead of two separate speeds with a hard jump, the velocities are joined by one continuous gradient.
+A honey pour gives the same intuition in a rough way.
+The honey slows itself down as it folds and piles up, yet the falling stream also pulls neighboring honey along with it.
+Viscosity does not merely stop motion; it transmits motion through the field.
+
+For Navier--Stokes, pressure, viscosity, and incompressibility are not three unrelated features.
+Pressure is the part of the equation that restores the divergence-free constraint.
+Equivalently, after projecting onto divergence-free fields, the velocity evolves by the pressure-free projected equation; the pressure is the gradient needed to keep that projection true in physical variables.
+Viscosity diffuses the velocity field by \(\nu\Delta u\).
+Together, pressure and viscosity make a participation law: a packet does not get to carry its own private equation while still claiming to be the same incompressible Navier--Stokes fluid.
+
+This is why the proof uses a velocity tower.
+Smoothness is not one velocity number at one point.
+It is a whole stack of derivative information moving under one law.
+Write
+\[
+  U_k:=\nabla^k u,
+  \qquad
+  K_k:=-\nabla^{k+1}p+\nu\Delta U_k,
+  \qquad
+  D_t:=\partial_t+u\cdot\nabla.
+\]
+Then each rung has the form
+\[
+  D_tU_k=K_k+B_k,
+\]
+where \(B_k\) contains the lower-rung nonlinear commutator terms.
+The tower is the way the proof asks whether the same pressure-viscosity law is still acting through the derivatives needed for smooth continuation.
+
+\begin{definition}[Working class object]
+The working Navier--Stokes class object \(\Owork\) is the original smooth-data incompressible Navier--Stokes evolution, together with its pressure, viscosity, transported material family, terminal packet, and continuation readout.
+For a terminal packet \(Q\),
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
 \end{definition}
+
+\section{Packet, Participation, And Field}
+
+The class-membership test has three witness laws.
+They are not decorative names.
+They are the three things a claimed terminal object must keep in order to remain the same Navier--Stokes object.
 
 \begin{definition}[Witness record]
 A witness record is the common record
 \[
   \WitnessRecord=(u_0,\nu,u,p,Q,N,r,\Phi,T_*),
 \]
-where \(u_0\) is the original datum, \((u,p)\) is the same Navier--Stokes solution on \([0,T_*)\), \(Q\) is the terminal packet, \(N\) is the participation depth, \(r\) is the positive field scale, \(\Phi\) is the same-fluid carrier family, and \(T_*\) is the alleged terminal time.
+where \(u_0\) is the original datum, \((u,p)\) is the same preterminal Navier--Stokes solution, \(Q\) is the terminal packet, \(N\) is the tower depth, \(r\) is the positive field scale, \(\Phi\) is the transported same-fluid carrier, and \(T_*\) is the claimed terminal time.
+All three witness laws are read on this one record.
 \end{definition}
 
-The common-record condition is important.
-A carrier, participation tower, and readout synthesize into one continuation packet only when they belong to the same terminal object.
-The class test is a single-record test.
+\begin{definition}[Packet witness law]
+\(\Pack_Q\) means that the claimed terminal object still has a positive same-fluid packet.
+There is a transported carrier family for \(Q\), a finite cover with finite overlap, and a positive lower scale \(\rho_Q>0\).
+The packet is moved by the same velocity field \(u\).
+A trace with no positive carrier, or a donor history not carried by the same flow, fails this law.
+\end{definition}
 
-\begin{definition}[The three services]
-On a witness record \(\WitnessRecord\), the services are:
+\begin{definition}[Participation witness law]
+\(\Part_{N,Q}\) means that, on the packet supplied by \(\Pack_Q\), the same pressure-viscosity tower still acts through depth \(N\):
 \[
-  \Pack_Q,\qquad \Part_{N,Q},\qquad \Field_{N,r,Q}.
+  D_tU_k=K_k+B_k,
+  \qquad
+  K_k=-\nabla^{k+1}p+\nu\Delta U_k,
+  \qquad 0\le k\le N.
 \]
-\(\Pack_Q\) is the positive same-fluid carrier service.
-It means that there is a finite transported carrier family \(\{\Phi_a\}_{a=1}^m\), a finite-overlap cover \(\{C_a\}_{a=1}^m\), and a number \(\rho_Q>0\) such that the selected terminal packet \(Q\) is carried on sets of diameter at least \(\rho_Q\), all transported by the same velocity field \(u\).
+The packet is therefore not merely moving; it is participating in the same Navier--Stokes law.
+\end{definition}
 
-\(\Part_{N,Q}\) is the same-equation participation service.
-It means that on the carrier supplied by \(\Pack_Q\), the differentiated pressure-viscosity tower remains the same Navier--Stokes tower through depth \(N\):
+\begin{definition}[One-field witness law]
+\(\Field_{N,r,Q}\) means that, after packet and participation have survived, one positive scale \(r>0\) carries coherent field data through depth \(N\).
+A convenient model is the finite-difference coherence bound
 \[
-  D_tU_k=K_k+B_k,\qquad
-  K_k=-\nabla^{k+1}p+\nu\Delta U_k,\qquad 0\le k\le N.
-\]
-The tower has one finite participation envelope on the witness record:
-\[
-  \mathcal T_{N,Q}
-  :=
+  \sup_{\substack{x,x+h\in Q_t\\0<|h|\le r}}
   \sum_{k=0}^{N}
-  \sup_{t<T_*}
-  \sum_{a=1}^{m}
-  \|\chi_a(t)U_k(t)\|_{L^2}^2
-  <\infty,
+  \frac{|U_k(x+h,t)-U_k(x,t)|+|K_k(x+h,t)-K_k(x,t)|}{|h|}<\infty
 \]
-where \(\{\chi_a\}\) is a subordinate partition for the carrier cover.
-
-\(\Field_{N,r,Q}\) is the positive-scale one-field coherence service.
-It means that after carrier and participation survive, one positive scale \(0<r\le \rho_Q\) carries a finite coherent field energy:
-\[
-  \mathcal E_{N,r,Q}
-  :=
-  \sup_{t<T_*}
-  \sum_{a=1}^{m}
-  \sum_{|\alpha|\le N}
-  \|\chi_a(t)\nabla^\alpha u(t)\|_{L^2}^2
-  <\infty,
-\]
-with compatible pressure readout on the same cover.
+on the time slices under test.
+This law says that neighboring packet pieces still form one field rather than a collection of unrelated local fields.
 \end{definition}
 
-\begin{definition}[CM packet]
-The class-membership packet at depth \(N\), scale \(r\), and terminal packet \(Q\) is
+\begin{definition}[Class-membership packet]
+At depth \(N\), scale \(r\), and packet \(Q\), the class-membership witness is
 \[
   \CM_{N,r,Q}
   :=
-  \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}
+  \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
 \]
-on one witness record.
+The three laws are read together on one witness record.
 \end{definition}
 
 \begin{lemma}[Membership readout]
-Let \(N_s\) be a depth high enough for the standard \(H^s\) continuation criterion with \(s>5/2\).
-If a legal same-solution terminal packet remains a member of \(\Owork\), then
-\[
-  \Member(Q;\Owork)
-  \Longrightarrow
-  \sup_{t<T_*}\|u(t)\|_{H^s}<\infty
-\]
-for some \(s>5/2\), and the same Navier--Stokes solution extends classically beyond \(T_*\).
+Let \(N_s\) be high enough for the standard \(H^s\) continuation theorem with \(s>5/2\).
+If, on the terminal record, \(\CM_{N_s,r,Q}\) holds for some \(r>0\), then the packet reads out to a bounded \(H^s\) norm and the same solution extends beyond the claimed terminal time.
 \end{lemma}
 
 \begin{proof}
-Membership means that the terminal packet retains the three services on one witness record.
-\(\Pack_Q\) supplies a finite positive carrier cover with finite overlap.
-\(\Part_{N_s,Q}\) identifies the differentiated fields on that cover with the same pressure-viscosity Navier--Stokes tower through the continuation depth.
-\(\Field_{N_s,r,Q}\) supplies the finite local derivative energy on a positive scale.
-The partition of unity subordinate to the finite cover sums those local bounds into the displayed \(H^s\) bound at a supercritical continuation level \(s>5/2\).
-Classical local well-posedness then continues the same solution past \(T_*\).
+\(\Pack_Q\) gives a positive finite carrier cover.
+\(\Part_{N_s,Q}\) identifies the derivative tower on that cover with the same pressure-viscosity Navier--Stokes tower.
+\(\Field_{N_s,r,Q}\) gives finite coherent derivative control on a positive scale.
+The finite cover and a partition of unity sum these local bounds into a supercritical \(H^s\) bound.
+The classical continuation criterion then extends the same solution.
 \end{proof}
 
-\section{Which Objects Are Tested}
+A packet can fail before velocity blowup is even discussed.
+It can have no positive terminal radius.
+It can name a source atom with no transported body.
+It can try to create reserve at the terminal window without parent mass, loss accounting, or charge.
+These are packet-side failures.
+They are the reason \(\Pack_Q\) comes first.
 
-The class-membership proof tests finite terminal objects offered as Clay breakdown witnesses for the same original Navier--Stokes solution.
-The object enters the test as the alleged terminal branch of the same equation.
-The three services decide membership or exit.
+\section{Dead, Jump, And Blown}
 
-\begin{definition}[CM-test-admissible Clay terminal object]
-A finite terminal object \(W_*\) is CM-test-admissible when it is offered as a breakdown witness for the same original smooth-data Navier--Stokes solution.
-This means:
-\begin{enumerate}[leftmargin=2em]
-\item \(W_*\) is attached to the maximal classical solution generated by the original datum \(u_0\).
-\item On every preterminal window, the object solves the original incompressible Navier--Stokes system with the same velocity and pressure.
-\item The terminal extraction uses the same transported fluid family supplied by the preterminal smooth windows.
-\item After legal boundary losses, cutoff losses, non-selected branches, readout-only residues, and paid finite terms are removed, \(W_*\) is still the object claiming to be the finite terminal obstruction.
-\item The remaining terminal services available to the object are exactly \(\Pack_Q\), \(\Part_{N,Q}\), and \(\Field_{N,r,Q}\).
-\end{enumerate}
-\end{definition}
+The endpoint words come after the witness laws.
+They are not primitive laws and they are not three disjoint physical doors.
+They are names for how a claimed terminal object fails the class-membership test.
 
-\begin{remark}
-CM-test-admissible means admissible for the test.
-Membership and exit are conclusions.
-\end{remark}
+\textbf{Dead} is the participation failure word.
+A packet may remain visible, yet the same pressure-viscosity law no longer acts on it.
+Then the object is dead relative to the Navier--Stokes class.
+It is not dead because the velocity is zero at a point.
+It is dead because the packet no longer participates in the same law.
 
-\begin{lemma}[Finite Clay breakdown enters the test]
-Every finite same-solution Clay breakdown witness is CM-test-admissible.
-\end{lemma}
+\textbf{Jump} is the one-field failure word.
+A jump can appear inside a velocity tower, where two derivative rungs no longer fit together as the derivatives of one smooth field.
+It can also appear between neighboring towers, where two packet pieces no longer share one positive-scale field.
+The plank-slip picture is the base-rung version: finite velocities on both sides, no smooth bridge between them.
 
-\begin{proof}
-A finite same-solution Clay breakdown witness is, by definition, the original smooth-data Navier--Stokes solution stopped at a finite terminal time where classical continuation is alleged to fail.
-The datum, equation, pressure, velocity, viscosity, and preterminal fluid family are therefore the same ones used before the terminal time.
-Legal losses and irrelevant branches can be stripped away without changing the alleged obstruction.
-The remaining object is precisely the terminal object to be tested by the three services.
-\end{proof}
+\textbf{Blown} is the unbounded-tower word.
+A retained positive window may carry a velocity, derivative, pressure, or viscous readout that becomes unbounded.
+In the terminal matrix this splits into two useful readings: packing-detached when the same-fluid carrier geometry fails, and tower-blown when the finite-depth tower amplitude fails.
+Either way, the blowup is not a fourth witness law.
+It is a way Pack, Part, or Field is lost.
 
-\section{Terminal Packet Capture}
+The overlap matters.
+A Part failure usually shows up as a Field failure too, because a packet that no longer participates in the same law cannot cohere with its neighbors as one same-law field.
+A Field jump usually shows up as a Part failure too, because neighboring pieces that no longer form one same-law field cannot all be participating in the same way.
+A blown carrier puts pressure on the whole record: once the same-fluid carrier is gone, the participation and field readings cannot remain terminally meaningful as readings of that carrier.
 
-The capture theorem is the bridge from a hypothetical finite breakdown to the Pack-first decision tree.
-It is the first formal place where the proof stops naming obstruction families and starts deciding the terminal object itself.
+The reduced terminal picture is therefore simple.
+There is the intact witness \(\Pack\wedge\Part\wedge\Field\).
+There is the carrier-retained failure \(\Pack\wedge\neg\Part\wedge\neg\Field\), where the packet is still visible but the law/field coherence has broken.
+There is the total carrier failure \(\neg\Pack\wedge\neg\Part\wedge\neg\Field\), where the terminal object is no longer a same-fluid packet at all.
+The formal table can name other rows, but those rows are bookkeeping until a real terminal story realizes them.
 
-\begin{theorem}[Torus global material-atlas terminal capture]
-Let \((u,p)\) be the maximal smooth Navier--Stokes solution generated by \(u_0\) on \(\mathbb T^3\times[0,T_*)\), with \(T_*<\infty\) assumed.
-Choose a finite smooth material atlas and partition of unity on \(\mathbb T^3\) at time \(0\), and transport it by the same velocity field \(u\) on every preterminal interval.
-Let \(Q_{\mathrm{atlas}}\) be the terminal tail of this transported whole-torus atlas.
-Fix \(N_s\) high enough for \(H^s\) continuation readout with \(s>5/2\).
-Then
+\section{The Contrapositive Logic}
+
+The logic board is now ready.
+A claimed finite terminal object enters the test only because it claims to be the terminal branch of the original Navier--Stokes solution.
+The test asks whether that object is still a member of the working class.
+
 \[
-  T_*\text{ finite terminal non-continuation}
-  \Longrightarrow
-  \neg\Pack_{Q_{\mathrm{atlas}}}
-  \vee
-  \neg\Part_{N_s,Q_{\mathrm{atlas}}}
-  \vee
-  \forall r>0\,\neg\Field_{N_s,r,Q_{\mathrm{atlas}}}.
+  \CM_{N,r,Q}
+  :=
+  \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
 \]
-Equivalently,
+For the working object, membership means that the required witness survives through every finite continuation depth:
 \[
-  T_*\text{ finite terminal non-continuation}
-  \Longrightarrow
-  \begin{cases}
-  \neg\Pack_{Q_{\mathrm{atlas}}},\\
-  \Pack_{Q_{\mathrm{atlas}}}\wedge\neg\Part_{N_s,Q_{\mathrm{atlas}}},\\
-  \Pack_{Q_{\mathrm{atlas}}}\wedge\Part_{N_s,Q_{\mathrm{atlas}}}\wedge\forall r>0\,\neg\Field_{N_s,r,Q_{\mathrm{atlas}}}.
-  \end{cases}
+  \forall N\ \exists r_N>0:\ \CM_{N,r_N,Q}
+  \quad\Longrightarrow\quad
+  \Member(Q;\Owork).
 \]
-\end{theorem}
-
-\begin{proof}
-For every \(\varepsilon>0\), the restriction of \((u,p)\) to \([0,T_*-\varepsilon]\) is classical.
-The transported finite atlas therefore exists on every compact preterminal interval and covers the whole torus with finite overlap.
-This is the selected packet.
-It is not a local diagnostic subsequence.
-
-\(\Pack_{Q_{\mathrm{atlas}}}\) means that this whole transported atlas keeps positive carrier scale and the deformation comparability needed to read local packet bounds as Sobolev bounds on the fixed torus.
-If that material atlas service fails at the terminal tail, the first lost service is \(\neg\Pack_{Q_{\mathrm{atlas}}}\).
-
-Assume that \(\Pack_{Q_{\mathrm{atlas}}}\) survives.
-The next question is whether the same differentiated Navier--Stokes pressure-viscosity tower survives on that atlas through depth \(N_s\).
-If the tower fails, the first lost remaining service is \(\Pack_{Q_{\mathrm{atlas}}}\wedge\neg\Part_{N_s,Q_{\mathrm{atlas}}}\).
-
-Assume that both \(\Pack_{Q_{\mathrm{atlas}}}\) and \(\Part_{N_s,Q_{\mathrm{atlas}}}\) survive.
-If there is a positive scale \(r>0\) with \(\Field_{N_s,r,Q_{\mathrm{atlas}}}\), then the full packet \(\CM_{N_s,r,Q_{\mathrm{atlas}}}\) survives on the same whole-torus witness record.
-The finite atlas covers \(\mathbb T^3\), Pack supplies the material comparability, Part supplies the same pressure-viscosity tower, and Field supplies the positive-scale coherent derivative energy.
-The local finite-overlap packet bounds therefore sum to
-\[
-  \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty.
-\]
-The classical continuation criterion extends the same solution past \(T_*\), contradicting finite terminal non-continuation.
-Thus \(\Field_{N_s,r,Q_{\mathrm{atlas}}}\) fails for every \(r>0\) after Pack and Part survive.
-\end{proof}
-
-\begin{corollary}[No fourth primitive service]
-After legal losses, readout-only residues, non-selected branches, and paid finite terms are removed, a same-solution terminal obstruction has no primitive service outside Pack, Part, and Field.
-\end{corollary}
-
-\begin{proof}
-The preceding theorem tests exactly the services needed for the same-solution continuation packet.
-Any proposed residue either lacks the carrier, lacks participation after carrier survives, lacks positive-scale coherence after carrier and participation survive, or is a supplier/readout description waiting for one of those services to be tested.
-\end{proof}
-
-\section{The Pack Face}
-
-The Pack face asks the first physical question.
-Does the alleged terminal object retain a positive same-fluid carrier from the original smooth solution?
-A branch that cannot answer yes has already left the class.
-It does not matter how much formal source language remains around it.
-Without a positive carrier, there is no same-solution packet to continue.
-
-\begin{definition}[Pack-side terminal failure]
-A selected terminal object has Pack-side failure when no positive transported carrier family survives for the packet \(Q\):
-\[
-  \neg\Pack_Q.
-\]
-The typical Pack-side mechanisms are zero terminal radius, detached donor ancestry, terminal source atom without positive carrier, unsupported first-created square reserve, and terminal carrier birth with no charge path.
-\end{definition}
-
-\begin{lemma}[Zero-radius packets are Pack-side]
-Let \(Q\) be a selected terminal packet whose transported support has no positive terminal radius:
-\[
-  \rho_Q=0.
-\]
-Then \(Q\) fails \(\Pack_Q\) and hence exits \(\Owork\).
-\end{lemma}
-
-\begin{proof}
-\(\Pack_Q\) requires a finite transported carrier cover with a positive lower carrier scale.
-The condition \(\rho_Q=0\) removes that service.
-The object may still be visible as a terminal trace or residue, but it is not a same-fluid continuation packet.
-Thus \(\neg\Pack_Q\), and class exit follows by the definition of \(\Exit\).
-\end{proof}
-
-\begin{lemma}[Detached donor ancestry is Pack-side]
-Suppose a terminal source or reserve branch selects donor ancestry that is not represented on a positive same-fluid carrier for \(Q\).
-Then the selected branch is Pack-side:
-\[
-  \text{detached ancestry}(Q)\Longrightarrow\neg\Pack_Q.
-\]
-\end{lemma}
-
-\begin{proof}
-Donor ancestry can support a terminal obstruction only when the ancestry is still carried by the same transported fluid family.
-Detached ancestry has no such carrier.
-It may indicate where a forward-positive source estimate failed, but it does not supply a legal same-solution terminal packet.
-The first service fails at Pack.
-\end{proof}
-
-\begin{lemma}[First-created reserve must be paid or carried]
-Let \(R_N(W)\) be a positive square reserve on an admissible terminal heat window \(W\).
-If the positive first-created increment is neither inherited from the parent window nor paid by a charge on \(W\), then the selected reserve branch is not a member branch.
-It is either a Pack-side carrier birth failure or a live Pack-support burden.
-\end{lemma}
-
-\begin{proof}
-A member branch cannot acquire positive terminal reserve from nowhere.
-Positive reserve appearing at the terminal window must be represented by inherited mass, declared loss, or a charge path tied to the same transported packet.
-When no such representation is available, the candidate branch is not yet a member packet.
-At the class level the branch stays Pack-side until a later theorem supplies the missing positive carrier and charge path.
-\end{proof}
-
-The source-reserve birth chain is Pack-side support after terminal witness consumption.
-The useful form is not a global smoothness estimate.
-The useful form is a same-packet creation law:
-\[
-  R_N(W)
-  \le
-  (1-\delta)R_N(\mathrm{Past}(W))
-  +\mathrm{Loss}_N(W)
-  +\mathrm{Charge}_N(W)
-  +o_N(1).
-\]
-This law says that terminal reserve cannot be first-created for free.
-The latest reduction sharpens the historical positive source remainder into source-weighted angular depletion support on the selected positive source carrier.
-That support serves the terminal CM witness tree by paying or depleting the Pack-side reserve birth.
-
-\section{The Part Face}
-
-The Part face asks whether the selected carrier still participates in the same Navier--Stokes pressure-viscosity tower.
-Pack alone is only a carrier.
-The Clay solution is not a moving set; it is the same velocity-pressure solution of the same equation.
-The Part face protects that identity.
-
-\begin{definition}[Part-side terminal failure]
-Assume \(\Pack_Q\) survives.
-A selected terminal object has Part-side failure when the differentiated Navier--Stokes tower cannot be retained on the carrier through the continuation depth:
-\[
-  \Pack_Q\wedge\neg\Part_{N,Q}.
-\]
-The typical Part mechanisms are pressure participation loss, viscosity participation loss, dwell failure, same-object dynamic carrier failure, and incompatible local source participation.
-\end{definition}
-
-\begin{lemma}[Pressure-viscosity loss is Part-side]
-Let \(Q\) retain a positive carrier.
-If, on that carrier, the differentiated fields cannot be represented by the same pressure-viscosity tower
-\[
-  D_tU_k=-\nabla^{k+1}p+\nu\Delta U_k+B_k,\qquad 0\le k\le N,
-\]
-then \(Q\) fails \(\Part_{N,Q}\).
-\end{lemma}
-
-\begin{proof}
-The Part service is exactly the service that keeps the carrier tied to the original Navier--Stokes equation.
-When the pressure, viscosity, or nonlinear participation terms cease to be the same tower on the selected carrier, the object may still be a transported object, but it is no longer a legal same-solution continuation packet.
-The first surviving failure after Pack is \(\neg\Part_{N,Q}\).
-\end{proof}
-
-\begin{lemma}[Local translators are Part tests before they are readouts]
-A local critical packet, local \(L^3\) packet, or Duhamel packet enters the class proof only after it is placed on the same witness record.
-Before that placement it is support.
-After that placement it is tested first for Pack and then for Part.
-\end{lemma}
-
-\begin{proof}
-Local critical information can describe a terminal concentration without identifying the same witness record.
-The class proof needs the same datum, same pressure, same viscosity, same carrier family, and same terminal packet.
-The translator's job is to recover that common record.
-Once the record is recovered, the packet faces the ordinary Pack and Part tests.
-Only after those services survive can the packet become a Field or endpoint readout object.
-\end{proof}
-
-\begin{proposition}[Part is the same-equation guard]
-A branch with a carrier and a broken pressure-viscosity tower cannot be a legal continuation branch for the Clay problem.
-\end{proposition}
-
-\begin{proof}
-A legal continuation branch must solve the same incompressible Navier--Stokes equations with the same pressure and viscosity.
-The carrier alone does not supply that identity.
-When the pressure-viscosity tower breaks, the selected object is no longer the same equation on the same packet.
-Thus it exits before any endpoint readout is relevant.
-\end{proof}
-
-\section{The Field Face}
-
-The Field face is reached only after Pack and Part survive.
-At that point the selected object has a positive same-fluid carrier and the same pressure-viscosity participation tower.
-The remaining question is whether there is one positive scale carrying coherent field data strong enough for continuation.
-
-\begin{definition}[Field-side terminal failure]
-Assume \(\Pack_Q\) and \(\Part_{N,Q}\) survive.
-The packet has Field-side failure when every positive scale loses coherent field energy:
-\[
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
-\]
-The typical Field mechanisms are retained-amplitude blowup, terminal pulse, averaged jump, good-scale failure, and incompatible surviving traces.
-\end{definition}
-
-\begin{lemma}[Retained positive-window blowup is Field-side]
-Suppose \(\Pack_Q\) and \(\Part_{N,Q}\) survive.
-If a retained positive terminal window has no positive scale on which the \(N\)-level field energy remains finite, then the selected branch fails Field.
-\end{lemma}
-
-\begin{proof}
-After Pack and Part survive, the only service left for membership readout is the positive-scale coherent field service.
-Unbounded retained field energy on every positive scale removes that service.
-The branch is therefore Field-side.
-\end{proof}
-
-\begin{lemma}[Endpoint readout is downstream of Field]
-Good-scale, no-pulse, terminal-tail, averaged, and endpoint-cover arguments are continuation readout support.
-They prove membership only after the packet has already retained Pack, Part, and Field on one witness record.
-\end{lemma}
-
-\begin{proof}
-Endpoint readout uses the packet's existing services.
-It does not create the positive carrier, the same pressure-viscosity tower, or the coherent field service by itself.
-When those services survive, readout converts them into an \(H^s\) continuation bound with \(s>5/2\).
-When one service fails, readout is no substitute for the missing service.
-\end{proof}
-
-\begin{proposition}[Field is the last continuation gate]
-A same-solution terminal packet that retains Pack, Part, and Field at a continuation depth \(N_s\) cannot be a finite nonsmooth terminal obstruction.
-\end{proposition}
-
-\begin{proof}
-Pack gives the finite positive carrier cover.
-Part keeps the same pressure-viscosity tower on that cover.
-Field gives finite coherent derivative energy on a positive scale.
-The finite cover and partition of unity produce a bounded \(H^s\) norm with \(s>5/2\).
-The classical continuation theorem extends the same solution past the alleged terminal time.
-Thus a terminal obstruction must fail before or at Field.
-\end{proof}
-
-\section{Class Exit}
-
-The class-exit theorem turns first-face failure into the contrapositive conclusion.
-
-\begin{theorem}[Finite failure witness exits the class]
-Let \(W_*\) be a CM-test-admissible finite Clay terminal object.
-Then for a suitable terminal packet \(Q\) and continuation depth \(N_s\),
-\[
-  W_*
-  \Longrightarrow
-  \Exit(Q;\Owork).
-\]
-\end{theorem}
-
-\begin{proof}
-By terminal packet capture, \(W_*\) loses a first required service:
-\[
-  \neg\Pack_Q
-  \vee
-  \neg\Part_{N_s,Q}
-  \vee
-  \forall r>0\,\neg\Field_{N_s,r,Q}.
-\]
-If \(\Pack_Q\) fails, the terminal object has no positive same-fluid carrier and is outside the member packets.
-If \(\Part_{N_s,Q}\) fails after Pack survives, the terminal object has left the same pressure-viscosity Navier--Stokes tower and is outside the member packets.
-If every positive \(\Field_{N_s,r,Q}\) fails after Pack and Part survive, the terminal object lacks the positive-scale coherence required for membership readout and is outside the member packets.
-
-Each case is the loss of a required service for \(\Member(Q;\Owork)\).
-Thus
+Class exit is the negation of membership:
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
+
+The pass/fail split is:
+\[
+  \text{pass: }\CM_{N_s,r,Q}\Longrightarrow H^s\text{ continuation},
+\]
+\[
+  \text{fail: }\neg\Pack_Q\ \vee\ \neg\Part_{N_s,Q}\ \vee\ \forall r>0\,\neg\Field_{N_s,r,Q}
+  \Longrightarrow \Exit(Q;\Owork).
+\]
+Here \(N_s\) is a depth high enough to read out the \(H^s\), \(s>5/2\), continuation bound.
+
+The unreduced witness table is the formal table one first writes down:
+\[
+\begin{array}{c|c|c|l}
+\Pack & \Part & \Field & \text{formal reading}\\ \hline
+1&1&1& \text{class-member candidate}\\
+0&1&1& \text{carrier missing, later readings lose terminal meaning}\\
+1&0&1& \text{formal Part-only failure, collapses through coherence}\\
+1&1&0& \text{formal Field-only failure, collapses through participation}\\
+0&0&1& \text{field without same carrier is not terminally meaningful}\\
+0&1&0& \text{participation without same carrier is not terminally meaningful}\\
+1&0&0& \text{carrier retained, law/field failure}\\
+0&0&0& \text{carrier failure or total terminal failure.}
+\end{array}
+\]
+The reduced table used by the proof is shorter:
+\[
+\begin{array}{c|l}
+\text{row} & \text{meaning}\\ \hline
+\Pack\wedge\Part\wedge\Field & \text{pass: read out to smooth continuation}\\
+\Pack\wedge\neg\Part\wedge\neg\Field & \text{carrier retained, same-law/one-field coherence fails}\\
+\neg\Pack\wedge\neg\Part\wedge\neg\Field & \text{same-fluid carrier fails, so the object exits.}
+\end{array}
+\]
+
+Some failures have to be seen from the Field side first.
+A slip sheet, for example, may be easiest to see as a neighboring-field jump before the exact participation defect has been isolated.
+That does not make Field a separate story from Part.
+It means Field is the witness that exposes the failure cleanly.
+The proof keeps both readings typed so that a visible endpoint is not mistaken for a new primitive law.
+
+\begin{theorem}[Finite failure witness exits the class]
+Let \(W_*\) be a finite terminal object offered as a breakdown witness for the original smooth-data Navier--Stokes solution.
+Then, on the terminal packet selected by the material atlas and at a continuation depth \(N_s\), the object either reads out to smooth continuation or exits the class:
+\[
+  W_*
+  \Longrightarrow
+  \bigl(\Member(Q;\Owork)\text{ and continuation}\bigr)
+  \ \vee\
+  \Exit(Q;\Owork).
+\]
+In particular, no finite nonsmooth in-class terminal branch remains.
+\end{theorem}
+
+\begin{proof}
+A claimed finite terminal object must be tested on the same record as the original solution.
+If the packet, participation law, and one-field coherence survive at continuation depth, the membership readout gives a bounded \(H^s\) norm with \(s>5/2\), and the classical continuation theorem extends the same solution.
+If one of the witness laws fails, the object lacks a required part of \(\Member(Q;\Owork)\).
+That failure is exactly \(\Exit(Q;\Owork)=\neg\Member(Q;\Owork)\).
+The remaining sections prove that the terminal branches produced by the source, packet, endpoint, local, and comparison arguments all land on this pass/exit board.
 \end{proof}
 
 \section{The Class-Law Proof}
