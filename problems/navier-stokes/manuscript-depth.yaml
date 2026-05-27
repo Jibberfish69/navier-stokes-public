@@ -3,12 +3,12 @@ version: 1
 identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
-  generated_at: '2026-05-27T20:56:59Z'
+  generated_at: '2026-05-27T20:58:21Z'
   generator: system/runner/lib/manuscript_depth_builder.rb
 surface_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 classification: proof-manuscript
 metrics:
-  word_count: 362702
+  word_count: 362666
   heading_count: 0
   theorem_marker_count: 35
   proof_heading_count: 24
