@@ -97,6 +97,15 @@ SUPPORT_CLASS_PHRASES = {
   "already-demoted-positive-support-language" => "demoted positive-support language"
 }.freeze
 
+SUPPORT_CLASS_HEADINGS = {
+  "receiver-readout-endpoint-support" => "readout",
+  "quarantined-forward-positive-supplier-support" => "supplier",
+  "downstream-export-or-legacy-engine-support" => "export/legacy",
+  "separate-positive-smoothness-support" => "positive smoothness",
+  "separate-transfer-or-euler-comparison-support" => "transfer/Euler",
+  "already-demoted-positive-support-language" => "demoted positive"
+}.freeze
+
 def support_class_phrase(classes)
   phrases = Array(classes).map do |klass|
     SUPPORT_CLASS_PHRASES.fetch(klass.to_s, prose_label(klass))
@@ -104,6 +113,15 @@ def support_class_phrase(classes)
   return "support material with no independent CM authority" if phrases.empty?
 
   phrases.uniq.join("; ")
+end
+
+def support_class_heading(classes)
+  phrases = Array(classes).map do |klass|
+    SUPPORT_CLASS_HEADINGS.fetch(klass.to_s, prose_label(klass))
+  end
+  return "support material" if phrases.empty?
+
+  phrases.uniq.join(" / ")
 end
 
 def sorted_hash(hash)
@@ -372,7 +390,7 @@ end
 
 support_counter = 0
 support_groups.sort_by { |key, rows| [key[0].to_s, key[1].join(":"), rows.length] }.each_with_index do |((role, classes), rows), group_index|
-  tex << "\\subsection{Support family #{group_index + 1}: #{latex_escape(support_class_phrase(classes))}}"
+  tex << "\\subsection{Support family #{group_index + 1}: #{latex_escape(support_class_heading(classes))}}"
   tex << "This family accounts for #{rows.length} support obligation#{rows.length == 1 ? '' : 's'}. Its role is #{latex_escape(support_class_phrase(classes))}; it may support a CM hinge only through a Pack-first admission, a receiver/readout bridge, or a same-branch transfer license."
   tex << ""
   rows.each do |entry|
