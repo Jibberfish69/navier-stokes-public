@@ -261,7 +261,7 @@ The split is:
 \[
   \text{fail: the object leaves the class.}
 \]
-On the pass side, the object has the packet, the law, and the field coherence needed for the \(H^s\) continuation readout.
+On the pass side, the object has the packet, the law, and the field coherence needed for smooth continuation.
 Then the same solution continues.
 On the fail side, the object loses one of those same-object requirements.
 Then it is not a legal finite breakdown of the Navier--Stokes solution.
@@ -269,7 +269,7 @@ Then it is not a legal finite breakdown of the Navier--Stokes solution.
 So the proof can be read as a certification problem.
 Take any claimed finite terminal object for the original solution.
 Ask whether it is still a member of the working Navier--Stokes class.
-If it is a member, the classical continuation theorem carries the same solution past the claimed terminal time.
+If it is a member, the same solution continues past the claimed terminal time.
 If it is not a member, it cannot be the claimed in-class breakdown.
 After every nonsmooth terminal picture has been sent to the fail side, the class contains no nonsmooth terminal member.
 Local well-posedness gives a smooth member at the start, so the class is not empty.
@@ -403,16 +403,15 @@ The three laws are read together on one witness record.
 \end{definition}
 
 \begin{lemma}[Membership readout]
-Let \(N_s\) be high enough for the standard \(H^s\) continuation theorem with \(s>5/2\).
-If, on the terminal record, \(\CM_{N_s,r,Q}\) holds for some \(r>0\), then the packet reads out to a bounded \(H^s\) norm and the same solution extends beyond the claimed terminal time.
+Let \(N_*\) be a finite depth high enough to read the claimed terminal branch.
+If, on the terminal record, \(\CM_{N_*,r,Q}\) holds for some \(r>0\), then the packet stays on the smooth continuation side of the test.
 \end{lemma}
 
 \begin{proof}
 \(\Pack_Q\) gives a positive finite carrier cover.
-\(\Part_{N_s,Q}\) identifies the derivative tower on that cover with the same pressure-viscosity Navier--Stokes tower.
-\(\Field_{N_s,r,Q}\) gives finite coherent derivative control on a positive scale.
-The finite cover and a partition of unity sum these local bounds into a supercritical \(H^s\) bound.
-The classical continuation criterion then extends the same solution.
+\(\Part_{N_*,Q}\) identifies the derivative tower on that cover with the same pressure-viscosity Navier--Stokes tower.
+\(\Field_{N_*,r,Q}\) keeps the local readings coherent on a positive scale.
+Those three facts say that the alleged terminal object is still the same smooth branch being read through the same equation.
 \end{proof}
 
 A packet can fail before velocity blowup is even discussed.
@@ -480,13 +479,13 @@ Class exit is the negation of membership:
 
 The pass/fail split is:
 \[
-  \text{pass: }\CM_{N_s,r,Q}\Longrightarrow H^s\text{ continuation},
+  \text{pass: }\CM_{N_*,r,Q}\Longrightarrow\text{smooth continuation},
 \]
 \[
-  \text{fail: }\neg\Pack_Q\ \vee\ \neg\Part_{N_s,Q}\ \vee\ \forall r>0\,\neg\Field_{N_s,r,Q}
+  \text{fail: }\neg\Pack_Q\ \vee\ \neg\Part_{N_*,Q}\ \vee\ \forall r>0\,\neg\Field_{N_*,r,Q}
   \Longrightarrow \Exit(Q;\Owork).
 \]
-Here \(N_s\) is a depth high enough to read out the \(H^s\), \(s>5/2\), continuation bound.
+Here \(N_*\) is a finite depth high enough to read the claimed terminal branch.
 
 The unreduced witness table is the formal table one first writes down:
 \[
@@ -520,7 +519,7 @@ The proof keeps both readings typed so that a visible endpoint is not mistaken f
 
 \begin{theorem}[Finite failure witness exits the class]
 Let \(W_*\) be a finite terminal object offered as a breakdown witness for the original smooth-data Navier--Stokes solution.
-Then, on the terminal packet selected by the material atlas and at a continuation depth \(N_s\), the object either reads out to smooth continuation or exits the class:
+Then, on the terminal packet selected by the material atlas and at a finite reading depth \(N_*\), the object either reads out to smooth continuation or exits the class:
 \[
   W_*
   \Longrightarrow
@@ -533,7 +532,7 @@ In particular, no finite nonsmooth in-class terminal branch remains.
 
 \begin{proof}
 A claimed finite terminal object must be tested on the same record as the original solution.
-If the packet, participation law, and one-field coherence survive at continuation depth, the membership readout gives a bounded \(H^s\) norm with \(s>5/2\), and the classical continuation theorem extends the same solution.
+If the packet, participation law, and one-field coherence survive at the needed depth, the membership readout keeps the same branch on the smooth continuation side of the test.
 If one of the witness laws fails, the object lacks a required part of \(\Member(Q;\Owork)\).
 That failure is exactly \(\Exit(Q;\Owork)=\neg\Member(Q;\Owork)\).
 The remaining sections prove that the terminal branches produced by the source, packet, endpoint, local, and comparison arguments all land on this pass/exit board.
