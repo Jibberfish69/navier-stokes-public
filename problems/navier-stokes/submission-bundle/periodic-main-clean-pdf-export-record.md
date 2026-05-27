@@ -3,8 +3,8 @@
 ## Status
 
 Legacy periodic PDF export record. It is retained as provenance only. Current
-Clay-facing authority is the CM terminal witness consumption bundle and its
-current `navier-stokes-submission.pdf` export.
+Clay-facing authority is the CM terminal witness consumption bundle and the
+single current output at `papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf`.
 
 ## Artifact
 
