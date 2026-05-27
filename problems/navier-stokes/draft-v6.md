@@ -1,28 +1,37 @@
-# Navier-Stokes Global Regularity: CM Contrapositive Class-Exit Proof
+# Navier-Stokes Global Regularity: A Classical Closure Program
 
 ## Abstract
 
-We present the Navier-Stokes proof as a CM contrapositive class-exit argument. An alleged finite-time Clay terminal witness from the same original smooth datum is admitted to the same-fluid CM terminal packet tree; its finite failure type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; and the resulting face failure supports `Exit(Q):=not Member(Q)`. The pass branch remains the lawful smooth continuation branch, while the fail branch has no legal in-class nonsmooth continuation status.
+The current manuscript opens from the CM contrapositive class-exit program: an alleged finite-time Clay terminal witness from the same original smooth datum enters the same-fluid CM terminal packet tree, its finite failure type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and the derived face failure supports `Exit(Q):=not Member(Q)`. This draft isolates the live theorem spine preserved in the local workboard and keeps the claim boundary explicit. Current package status remains `backbone grounded from recovered support`. Lowest safe claim: Navier-Stokes global regularity is presented through the CM contrapositive class-exit chain: terminal witness entry, Pack/Part/Field finite-failure exhaustion, and Exit(Q):=not Member(Q).
 
 ## 1. Target And Scope
 
-The manuscript starts with the original three-dimensional incompressible Navier-Stokes problem and the alleged finite Clay breakdown witness. The proof object is not a periodic-opening story, a `Q(t)` monotone bridge, or a positive source-control supplier; those surfaces are support only after a checked bridge lands them in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
+The live target is the classical three-dimensional Navier-Stokes equation on arbitrary or minimally admissible data, not a regularized or morphic surrogate. Positive supplier, source-wall, periodic, and regularization branches fail as manuscript openings because they try to delete or reroute the bad terminal object before the CM test has used it. The current proof uses the fail branch as the class-exit witness rather than treating it as a positive no-exit burden.
 
-## 2. CM Terminal Entry
+Periodic and `Q(t)` material is support only after a checked bridge lands an exact claim in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}. That separation is necessary because theorem drift is the fastest way to turn a live route into a misleading paper.
 
-The terminal witness is CM-test-admissible before it is a class member. `ClayTerminalWitnessCMEntry.A` sends the same-fluid terminal object into the canonical CM packet tree, where `Member(Q)` is downstream of the packet certificate rather than assumed at the start.
+## 2. The Live Obstruction
 
-## 3. Pack/Part/Field Exhaustion
+The live obstruction is an alleged finite Clay terminal witness from the original smooth Navier-Stokes datum. The pressure point is whether that terminal witness can remain a lawful in-class nonsmooth continuation branch. The CM answer is to admit the witness to the same-fluid terminal packet tree and sort its first Pack/Part/Field face failure.
 
-`ClayFiniteFailureTypeCMExhaustion.A` sorts the finite terminal failure through the three witness faces. Loss of carrier or packing service is not Pack_Q; loss of the same pressure-viscosity participation law is not Part_{N,Q}; retained Pack and Part with no positive coherent scale is forall r>0 not Field_{N,r,Q}.
+## 3. The Recovered Closure Route
 
-## 4. Contrapositive Embedding
+Start with the alleged finite-time Clay terminal witness from the same original smooth datum. Enter that witness into the canonical same-fluid CM terminal packet tree. Exhaust the finite failure type as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}. Embed the derived face failure as `Exit(Q):=not Member(Q)` while preserving the pass branch as the lawful smooth continuation branch.
 
-`ClayCMContrapositiveEmbedding.A` embeds the derived face failure as `Exit(Q):=not Member(Q)`. The proof closes through the no-third-branch law: the pass branch is the smooth continuation branch, and the terminal nonsmooth fail branch is outside the class rather than an admissible in-class continuation.
+In stand-alone form, the route has to move through the following sequence: Fix the terminal witness first. The opening object is an alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum; Enter the CM packet tree. The witness is CM-test-admissible; it is not assumed to be `Member(Q)`; Exhaust the finite failure type. The terminal object lands as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; Embed the face failure. The derived face failure supports `Exit(Q):=not Member(Q)`; Preserve the pass/fail split. The pass branch remains lawful smooth continuation; the fail branch has no legal in-class nonsmooth continuation status; Quarantine old openings. Periodic, `Q(t)`, source-wall, and positive-supplier material may support the proof only after a checked bridge lands the exact claim in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
 
-## 5. Manuscript Boundary
+The recovered Navier-Stokes route is only serious if it closes the original equation itself. Energy tracking, scale-barrier control, compactness at the nonlinear level, and gradient control have to reinforce one another inside the classical PDE rather than borrowing essential work from regularized comparison systems.
 
-Periodic, `Q(t)`, source-wall, and positive-supplier material may still serve as provenance or checked support, but it cannot be the opening authority for this manuscript. The opening authority is the CM contrapositive class-exit chain recorded in the recent submission surfaces and live theorem edge.
+## 4. Formal Burden
+
+The package is still below stand-alone acceptance. Current package status is `backbone grounded from recovered support`. The next honest paper pass has to turn the remaining burden into local, reviewable statements instead of relying on invisible chapter context.
+
+- No additional formal-burden items have been localized yet.
+
+## 5. Safe Claim Boundary
+
+Lowest safe claim: Navier-Stokes global regularity is presented through the CM contrapositive class-exit chain: terminal witness entry, Pack/Part/Field finite-failure exhaustion, and Exit(Q):=not Member(Q). First unsafe overclaim: Replacing the CM contrapositive class-exit chain with the stale torus-first / Q(t) / periodic-opening story.
+
+This draft is meant to stabilize the paper surface, not to pretend that the remaining debt has already disappeared. Current package status remains `backbone grounded from recovered support`. The next review pass should therefore judge whether the route is now readable and properly bounded, not whether unlocalized proof debt has been wished away.
 
 <!-- generated_by: system/runner/lib/prose_draft_builder.rb -->
-<!-- generated_at: 2026-05-27T15:21:55Z -->
