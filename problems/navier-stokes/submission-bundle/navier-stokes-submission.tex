@@ -90,8 +90,9 @@ The three-dimensional Navier--Stokes equations are
 \]
 The Clay question asks whether the smooth solution that starts from \(u_0\) stays smooth for all time.
 This manuscript proves the periodic zero-force case on \(\mathbb T^3\).
+There are no walls and no external forces.
 The question is whether this ideal fluid can start smooth and later lose smoothness under its own motion.
-The next section begins with the most familiar way to try to answer it: find a quantity that cannot blow up.
+The next section begins with the most familiar way to try to answer it: find a quantity that cannot blow up, and then use that quantity to keep the solution smooth.
 
 \section{The Gold Standard Method}
 
@@ -99,7 +100,7 @@ The natural gold-standard proof is a forward positive proof.
 One tries to find a quantity that controls smoothness and then proves that the quantity stays bounded.
 If that works, smoothness has nowhere to break.
 
-The most familiar starting point is the energy identity.
+The most familiar live example is the energy identity.
 For a smooth divergence-free solution on \(\mathbb T^3\),
 \[
   \frac12\frac{d}{dt}\|u(t)\|_{L^2}^2
@@ -108,6 +109,8 @@ For a smooth divergence-free solution on \(\mathbb T^3\),
 This is the pleasant part of the problem.
 The kinetic energy does not grow.
 Viscosity spends energy through \(\|\nabla u\|_{L^2}^2\).
+A reader who has seen Navier--Stokes before knows this move: first try to find a quantity that the equation itself keeps under control.
+If enough such quantities stay controlled, smoothness follows.
 
 The next level is where the real problem shows up.
 If we set
@@ -133,7 +136,7 @@ In the best case one proves an estimate of the form
   \frac{\nu}{2}\|\Delta u\|_{L^2}^2+F(Y(t)),
 \]
 where \(F(Y(t))\) is tame enough to integrate.
-Then viscosity absorbs the hard half of the source, the remaining term is controlled, and the smoothness tower can be climbed.
+Then viscosity absorbs the hard half of the source, the remaining term is controlled, and the derivatives needed for smoothness can be kept finite.
 That is the cleanest proof shape: estimate, absorb, continue.
 
 This is also why the problem is hard.
@@ -143,11 +146,10 @@ That means it has to rule out every way a terminal source could keep making new 
 
 \section{Where The Gold Method Reaches Its Wall}
 
-The historical route in this repository began as that gold-standard search.
-It tried to find a stable quantity, then a better stable quantity, then a better way of reading the same source wall.
-The names changed: scale barriers, monotone quantities, compactness, curvature, morphic regularization, directionality, source-pulse deletion, donor ancestry, reserve accounting.
-The lived pattern was the same.
-A positive proof would control one source picture, and a sharper terminal picture would remain.
+The work behind this paper began inside that gold-standard search.
+It tried the natural thing first: find a stable quantity, then find a better stable quantity, then find a better way to read the same source wall.
+Each attempt taught something real about the equation.
+The repeated lesson was that a positive proof could control one source picture, while a sharper terminal picture still remained.
 
 The obstruction is not that the source term is mysterious.
 The obstruction is that a direct proof has to explain how the original Navier--Stokes solution pays every possible terminal source bill.
@@ -197,6 +199,8 @@ Many imagined blowup pictures look like blowup only because they have quietly st
 They describe a packet with no carrier, a source with no ancestry, a slip between two fields that are no longer one field, or a tower that no longer participates in the same pressure-viscosity law.
 Once the object has left the class, the proof no longer has to smooth it.
 The proof has to identify the exit.
+In other words, it does not matter how a thing is or is not smooth inside a made-up terminal picture.
+It matters whether the thing is still the Navier--Stokes object defined by the problem.
 
 This is the same solution logic.
 A terminal picture is not allowed to win by changing the object under discussion.
@@ -272,7 +276,7 @@ Ask whether it is still a member of the working Navier--Stokes class.
 If it is a member, the same solution continues past the claimed terminal time.
 If it is not a member, it cannot be the claimed in-class breakdown.
 After every nonsmooth terminal picture has been sent to the fail side, the class contains no nonsmooth terminal member.
-Local well-posedness gives a smooth member at the start, so the class is not empty.
+The smooth initial datum already gives a smooth member at the start, so the class is not empty.
 The only class members left by the terminal test are smooth continuation members.
 
 This is the proof's main economy.
@@ -293,20 +297,22 @@ It is still the same fluid, with the same pressure, the same viscosity, the same
 The fluid here is not water, honey, oil, or any real substance.
 Those pictures help, but the object is an ideal mathematical fluid.
 The viscosity \(\nu\) is fixed.
-The density is normalized through incompressibility.
-The domain in this manuscript is the periodic box \(\mathbb T^3\), so the field has no boundary wall and no external force.
-After \(t=0\), the velocity evolves by the equation, pressure enforces the divergence-free constraint, and viscosity spreads and damps velocity differences.
+The mass density is normalized by incompressibility.
+On \(\mathbb R^3\) the ideal field is unbounded in space; this manuscript works on the periodic box \(\mathbb T^3\), so the field is bounded by periodicity rather than by a wall.
+There is no external force.
+After \(t=0\), the velocity evolves only by the equation.
+Pressure keeps the flow divergence-free, and viscosity spreads and damps velocity differences.
 
-Euler is the useful comparison picture.
-Euler removes viscosity.
-In an Euler-type mental picture, one can imagine two finite incompressible flows sliding past each other like one plank moving over a fixed plank.
-The normal flow may be compatible, while the tangential velocity jumps across the interface.
-That is a smoothness failure: two finite velocity pieces do not form one smooth field.
-For Euler, such slip pictures can belong to a weaker class after the regularity requirement has been changed.
-For Navier--Stokes, viscosity is supposed to rule out that kind of slip inside the same smooth class.
+Euler is the useful comparison picture because Euler removes viscosity.
+In a simple Euler mental picture, imagine one plank sliding over a fixed plank.
+The picture stands for two finite incompressible flows in one fluid field, with a hard tangential slip between them.
+The velocities on both sides are finite, but they do not make one smooth velocity field.
+That is a smoothness failure.
+For an inviscid Euler class, such a slip picture can remain meaningful after the regularity requirement has changed.
+For a fixed-viscosity Navier--Stokes class, that same picture is supposed to leave the class.
 
-Viscosity is often described only as damping.
-That is true, but it is not the whole role it plays here.
+Viscosity is often described as damping.
+That is true, and it is not the whole role it plays here.
 Viscosity also couples neighboring packets of the fluid through the Laplacian.
 It acts like a tether between nearby velocity values.
 A fast piece drags on a slow piece, and a slow piece drags on a fast piece.
@@ -316,10 +322,10 @@ The honey slows itself down as it folds and piles up, yet the falling stream als
 Viscosity does not merely stop motion; it transmits motion through the field.
 
 For Navier--Stokes, pressure, viscosity, and incompressibility are not three unrelated features.
-Pressure is the part of the equation that restores the divergence-free constraint.
-Equivalently, after projecting onto divergence-free fields, the velocity evolves by the pressure-free projected equation; the pressure is the gradient needed to keep that projection true in physical variables.
+Pressure is the part of the equation that keeps the velocity divergence-free.
 Viscosity diffuses the velocity field by \(\nu\Delta u\).
-Together, pressure and viscosity make a participation law: a packet does not get to carry its own private equation while still claiming to be the same incompressible Navier--Stokes fluid.
+Together they make a participation law.
+A packet does not get to carry its own private equation while still claiming to be the same incompressible Navier--Stokes fluid.
 
 This is why the proof uses a velocity tower.
 Smoothness is not one velocity number at one point.
@@ -350,8 +356,7 @@ For a terminal packet \(Q\),
 \section{Packet, Participation, And Field}
 
 The class-membership test has three witness laws.
-They are not decorative names.
-They are the three things a claimed terminal object must keep in order to remain the same Navier--Stokes object.
+They are the three things a claimed terminal object has to keep in order to remain the same Navier--Stokes object.
 
 \begin{definition}[Witness record]
 A witness record is the common record
@@ -418,6 +423,8 @@ A packet can fail before velocity blowup is even discussed.
 It can have no positive terminal radius.
 It can name a source atom with no transported body.
 It can try to create reserve at the terminal window without parent mass, loss accounting, or charge.
+This is where the Zeno pictures belong: a chain of smaller and smaller packets may look like ancestry, but the terminal object still has to leave behind a positive same-fluid packet.
+Without that packet, the test stops at Pack.
 These are packet-side failures.
 They are the reason \(\Pack_Q\) comes first.
 
@@ -516,27 +523,6 @@ A slip sheet, for example, may be easiest to see as a neighboring-field jump bef
 That does not make Field a separate story from Part.
 It means Field is the witness that exposes the failure cleanly.
 The proof keeps both readings typed so that a visible endpoint is not mistaken for a new primitive law.
-
-\begin{theorem}[Finite failure witness exits the class]
-Let \(W_*\) be a finite terminal object offered as a breakdown witness for the original smooth-data Navier--Stokes solution.
-Then, on the terminal packet selected by the material atlas and at a finite reading depth \(N_*\), the object either reads out to smooth continuation or exits the class:
-\[
-  W_*
-  \Longrightarrow
-  \bigl(\Member(Q;\Owork)\text{ and continuation}\bigr)
-  \ \vee\
-  \Exit(Q;\Owork).
-\]
-In particular, no finite nonsmooth in-class terminal branch remains.
-\end{theorem}
-
-\begin{proof}
-A claimed finite terminal object must be tested on the same record as the original solution.
-If the packet, participation law, and one-field coherence survive at the needed depth, the membership readout keeps the same branch on the smooth continuation side of the test.
-If one of the witness laws fails, the object lacks a required part of \(\Member(Q;\Owork)\).
-That failure is exactly \(\Exit(Q;\Owork)=\neg\Member(Q;\Owork)\).
-The remaining sections prove that the terminal branches produced by the source, packet, endpoint, local, and comparison arguments all land on this pass/exit board.
-\end{proof}
 
 \section{The Class-Law Proof}
 
