@@ -92,4 +92,4 @@
 - `pass_if:` the draft fixes the theorem target, makes the cascade obstruction explicit, names the scale-barrier / compactness / gradient-control loop in readable prose, and lands below the first unsafe overclaim
 - `fail_if:` the draft treats regularized branches as theorem-bearing, loses the classical-equation target, or sounds as though global regularity has already been proved
 
-<!-- generated_at: 2026-05-27T15:07:30Z -->
+<!-- generated_at: 2026-05-27T15:08:05Z -->
