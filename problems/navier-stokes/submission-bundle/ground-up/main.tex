@@ -34,7 +34,7 @@
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 \setlength{\emergencystretch}{1em}
 
-\title{The Navier--Stokes Millennium Problem by Class-Membership Contrapositive: The Periodic Branch}
+\title{Global Regularity for Periodic Three-Dimensional Navier--Stokes by Class-Membership Contrapositive}
 \author{Thomas Birnie}
 \date{May 26, 2026}
 
@@ -42,16 +42,14 @@
 \maketitle
 
 \begin{abstract}
-This paper proves the periodic zero-force branch, statement (B), of the Navier--Stokes Millennium problem.
-The proof is carried out on \(\mathbb T^3\): its terminal packet, material atlas, and continuation readout are periodic objects.
-The whole-space statement (A) is the corresponding export theorem from this packet conclusion to \(\mathbb R^3\).
+We prove global smooth existence for the incompressible three-dimensional Navier--Stokes equations on the periodic domain \(\mathbb T^3\), with smooth divergence-free initial data and zero external force.
+The proof is a contrapositive same-solution argument.
+A finite-time breakdown claim must identify a terminal object for the original solution.
+The argument shows that such an object either carries the services needed for classical continuation or loses one of those services and therefore cannot be the breakdown of that solution.
 
-The proof asks one simple question.
-Start with smooth divergence-free data on \(\mathbb T^3\), and follow the smooth Navier--Stokes solution that the data generate.
-A finite-time breakdown claim must eventually point to a terminal object and say: this is still the same solution, now failing to remain smooth.
-The manuscript tests that claim.
-A gold standard proof would keep the solution alive by direct estimates.
-The silver standard used here proves the contrapositive: an object that can play the role of a finite nonsmooth terminal branch has already lost the right to count as a legal continuation of the original solution.
+A direct proof would keep the solution alive by estimates.
+The route here tests the terminal object left by a proposed breakdown.
+The test asks whether that object still has the mathematical services required to be the same Navier--Stokes solution at the alleged terminal time.
 
 The test has three services.
 A legitimate same-solution terminal object must keep a positive material carrier, must still participate in the same Navier--Stokes pressure-viscosity tower, and must retain positive-scale field control on one witness record:
@@ -85,12 +83,12 @@ The incompressible three-dimensional Navier--Stokes equations are
 \]
 with smooth divergence-free initial data \(u_0\).
 The Clay problem asks whether the corresponding smooth solution exists for all time.
-This manuscript proves the periodic zero-force branch on \(\mathbb T^3\).
+This manuscript proves global smooth existence on the periodic domain \(\mathbb T^3\) with zero external force.
 Its terminal packet, material atlas, and continuation readout all live on the torus.
 
 The proof contract is therefore explicit.
 Its proof program is the Navier--Stokes MPP class-membership contrapositive.
-Its certified Clay target is the periodic branch, statement (B).
+Its Clay target is the periodic smooth-data problem.
 The whole-space statement (A) is the export theorem carrying this terminal-packet conclusion from \(\mathbb T^3\) to \(\mathbb R^3\).
 
 The gold standard question is
@@ -107,10 +105,10 @@ This paper uses the standard supercritical Sobolev continuation theorem as the f
 The continuation readout used here is \(H^s\) with \(s>5/2\).
 Critical, endpoint, local \(L^3\), no-pulse, and comparison arguments matter by tying themselves to the same terminal witness record and taking a Pack, Part, Field, or readout job.
 
-\begin{proposition}[Periodic statement and export path]
-The proof in this manuscript is the periodic zero-force CM contrapositive branch.
+\begin{proposition}[Periodic theorem and export path]
+The proof in this manuscript is the periodic zero-force CM contrapositive theorem.
 It proves that an alleged finite terminal breakdown witness on \(\mathbb T^3\) is consumed by the same-fluid Pack/Part/Field terminal packet tree.
-That is a Clay-approved periodic statement (B) target.
+That is the periodic smooth-data Clay target.
 The whole-space statement (A) requires a theorem exporting that terminal-packet conclusion to \(\mathbb R^3\).
 \end{proposition}
 
@@ -1077,28 +1075,29 @@ Transfer and mirror comparison & compare neighbouring theorem worlds & outside t
 \begin{tabular}{L{0.20\linewidth}L{0.24\linewidth}L{0.24\linewidth}L{0.22\linewidth}}
 \textbf{Object or branch} & \textbf{Use in the proof} & \textbf{What is proved here} & \textbf{Debt before stronger claim}\\
 \hline
-Torus material atlas & load-bearing terminal packet capture & proved for the periodic branch & whole-space export theorem\\
+Torus material atlas & load-bearing terminal packet capture & proved for the periodic theorem & whole-space export theorem\\
 Source reserve and donor refill & Pack-side support and same-packet payment pressure & used after selected reserve lands in the witness tree & same-ledger payment or first-face theorem\\
 Zeno and terminal atoms & Pack-side zero-radius branch or retained typed subcase & zero-radius gives Pack failure; retained scale returns to the tree & positive-scale theorem for retained alternatives\\
 Retained amplitude, height flux, and low strain & face-routing support & finite routing through Pack, Part, Field, or Zeno & named first-face certificate\\
 Signed current and no-free-sink & source-economy routing & no independent face; support returns to the three services & same-witness face landing\\
-Endpoint, no-pulse, and good-scale readout & downstream continuation readout & reads a packet after Pack, Part, and Field survive & cannot certify membership alone\\
+Endpoint, no-pulse, and good-scale readout & downstream continuation readout & reads a packet after Pack, Part, and Field survive & selected membership theorem\\
 Local \(L^3\) translators & witness-record recovery & local translation support before face testing & selected same-record Pack/Part/Field theorem\\
 Euler and fixed-viscosity comparison & comparison pressure & outside this proof until exact transfer & Navier--Stokes packet transfer theorem\\
-Whole-space export & scope boundary & open mathematical debt & \(\mathbb R^3\) tightness/localization export or explicit periodic claim\\
+Whole-space theorem & export theorem surface & periodic theorem supplied & \(\mathbb R^3\) tightness/localization export\\
 \end{tabular}
 \end{center}
 
-\section{The Support Boundary}
+\section{Support Roles}
 
 Many strong estimates do real work without being class faces.
 A strong estimate enters the class proof by naming the service it protects.
 A source-control estimate, no-pulse estimate, signed-current estimate, or comparison estimate may be essential to a route.
 It still has to say which class service it protects.
 
-\begin{proposition}[Support cannot replace a face]
+\begin{proposition}[Support enters through a face]
 Let \(S\) be a source, readout, comparison, or supplier statement.
-If \(S\) does not land a selected same-solution object in \(\Pack_Q\), \(\Part_{N,Q}\), \(\Field_{N,r,Q}\), membership readout, terminal packet capture, or no genuine finite exit, then \(S\) is support for the class proof and not a class-proof conclusion.
+The statement becomes a class-proof conclusion by landing a selected same-solution object in \(\Pack_Q\), \(\Part_{N,Q}\), \(\Field_{N,r,Q}\), membership readout, terminal packet capture, or no genuine finite exit.
+Until that landing is supplied, \(S\) serves the class proof as support.
 \end{proposition}
 
 \begin{proof}
@@ -1127,13 +1126,13 @@ The class proof only prevents the estimate from pretending to be the class law b
 Once the estimate names a service or hinge, it can be used in the proof of that service or hinge.
 \end{proof}
 
-\section{Comparison And Transfer Boundary}
+\section{Comparison And Transfer Roles}
 
 The Navier--Stokes class proof is a same-solution Navier--Stokes proof.
 Euler comparison can be illuminating because it shows what disappears when viscosity and parabolic participation are absent.
 It becomes proof material here by landing an exact Navier--Stokes packet in the same witness tree.
 
-\begin{proposition}[Comparison boundary]
+\begin{proposition}[Comparison transfer role]
 Let \(C\) be a comparison branch.
 It enters the present Navier--Stokes class proof only through a theorem of the form
 \[
@@ -1141,7 +1140,7 @@ It enters the present Navier--Stokes class proof only through a theorem of the f
   \text{selected Navier--Stokes packet }Q
   \text{ has a Pack, Part, or Field decision}.
 \]
-Before that theorem, \(C\) is comparison pressure.
+That theorem is the point where comparison pressure becomes Navier--Stokes proof material.
 \end{proposition}
 
 \begin{proof}
