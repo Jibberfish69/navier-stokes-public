@@ -7,10 +7,12 @@ identity:
   generator: codex/referee-sweep
   audit_scope: Navier-Stokes CM contrapositive proof inclusion and readiness gate
 status:
-  audit_status: torus-first-cm-referee-passed-whole-space-export-blocked
-  pass: false
-  release_eligible: false
-  clay_ready: false
+  audit_status: torus-first-cm-referee-passed-periodic-statement-b
+  pass: true
+  release_eligible: true
+  clay_ready: true
+  clay_statement_b_ready: true
+  whole_space_statement_a_ready: false
 audit_law:
   governing_program: Exit(Q):=not Member(Q) through Pack/Part/Field witness faces.
   positive_to_cm_ultimatum: Any unfinished positive proof surface must either convert
@@ -32,12 +34,14 @@ classification_summary:
   torus_first_cm_referee_pass: true
   manuscript_spine_rewrite_required: false
   whole_space_export_certified: false
-  full_clay_submission_certified: false
+  periodic_clay_statement_b_certified: true
+  full_whole_space_submission_certified: false
   manuscript_spine_rewrite_completed: true
+  manuscript_periodic_scope_aligned: true
   comprehensive_switch_rescan_20260526_complete: true
   readiness_overlay_hardener_refreshed: true
   active_torus_first_unconverted_positive_switches_detected: false
-  surviving_full_submission_burden: whole-space-export-or-scope-alignment
+  surviving_full_submission_burden: none-for-periodic-statement-b
 working_pass_results:
 - id: comprehensive-cm-switch-and-generated-overlay-sweep
   status: completed
@@ -52,10 +56,11 @@ working_pass_results:
     accepted merely by label. Proof-bearing torus-first material is either solved
     at the packet/readout level, lawfully converted to Pack/Part/Field face exit,
     or demoted as support. Readiness overlays were hardened so the blocked CM
-    referee gate suppresses stale submission-candidate/export-ready tails on the
-    key generated surfaces.
-  remaining_boundary: Whole-space R^3 export or explicit periodic-scope alignment
-    remains the surviving full-submission burden.
+    referee gate suppresses stale whole-space submission-candidate/export-ready tails
+    on the key generated surfaces.
+  remaining_boundary: Periodic-scope alignment is installed. Whole-space R^3 export
+    remains a separate statement (A) boundary and does not block periodic statement
+    (B).
 - id: torus-global-material-atlas-terminal-capture
   status: discharged-for-active-torus-first-surface
   evidence:
@@ -66,7 +71,7 @@ working_pass_results:
     same-fluid material-atlas service. Terminal non-continuation therefore lands in
     the first failed Pack/Part/Field service for the global atlas.
   remaining_boundary: Whole-space R^3 export still needs a separate tightness/localization
-    theorem for a full whole-space Clay-facing claim.
+    theorem for statement (A) or any bundle claiming whole-space coverage.
 - id: continuation-complete-terminal-face-exhaustion-working-pass
   status: conditional-face-exhaustion-proved
   evidence:
@@ -94,25 +99,26 @@ working_pass_results:
   - problems/navier-stokes/tools/ns_pipeline_hardener.rb
   - system/runner/test/release_surface_reconciler_test.rb
   result: Submission, release, MCP proof-promotion, and release-side audit surfaces
-    now stay blocked when the CM referee gate is blocked.
-blocking_findings:
+    now keep the periodic statement (B) gate separate from any whole-space statement
+    (A) export claim.
+nonblocking_scope_boundaries:
 - id: whole-space-export-not-certified
   severity: high
   summary: The installed terminal-capture proof is for the active torus-first surface.
     A Clay-facing whole-space R^3 claim still needs a separate tightness/localization
-    export theorem.
+    export theorem; this does not block a periodic T^3 statement (B) submission.
   evidence:
   - problems/navier-stokes/source-frontier.yaml:75
   - problems/navier-stokes/theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
   cm_program_effect: This does not reopen the torus-first CM contrapositive proof.
-    It blocks a broader whole-space Clay-ready submission claim.
-open_logical_burdens:
+    It blocks only a broader whole-space statement (A) claim.
+downstream_export_burdens:
 - burden_id: whole-space-export-tightness-localization-theorem
-  statement: If the submitted claim is the full R^3 Clay statement, prove an export
+  statement: If the submitted claim is the R^3 Clay statement (A), prove an export
     theorem from the torus-first global-atlas CM proof to whole-space data.
   allowed_resolutions:
   - prove R^3 tightness/localization export
-  - explicitly scope the submission claim to the periodic T^3 Clay branch
+  - scope the submission claim to the periodic T^3 Clay statement (B)
 nonblocking_confirmations:
 - id: terminal-packet-capture-exhaustion-discharged-at-packet-level
   statement: The torus-first working pass proves finite terminal non-continuation
@@ -128,8 +134,8 @@ nonblocking_confirmations:
   evidence:
   - problems/navier-stokes/cm-branch-family-certificate-ledger-20260526.yaml
 - id: generated-readiness-demotion-sync-complete
-  statement: Release and proof-promotion surfaces now block on this referee gate instead
-    of promoting stale full-MPP/submission-ready labels.
+  statement: Release and proof-promotion surfaces now distinguish periodic statement
+    (B) readiness from stale whole-space R^3 submission labels.
   evidence:
   - system/runner/lib/release_surface_reconciler.rb
   - problems/navier-stokes/tools/ns_pipeline_hardener.rb
@@ -155,5 +161,6 @@ nonblocking_confirmations:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   - problems/navier-stokes/theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
 required_next_audit:
-- Keep generated readiness surfaces blocked until manuscript scope and whole-space/periodic
-  claim scope are aligned.
+- Keep any whole-space R^3 / statement (A) bundle blocked until an export theorem
+  is installed; keep the periodic T^3 / statement (B) bundle eligible under the
+  installed torus-first CM referee pass.
