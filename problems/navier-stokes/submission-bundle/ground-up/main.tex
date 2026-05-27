@@ -148,36 +148,74 @@ The trouble begins when the source term asks for a payment that the known energy
 
 \section{Reaching Obstruction}
 
-The obstruction is the nonlinear source payment.
-Energy controls the size of the velocity in \(L^2\).
-Smoothness needs control of derivatives.
-At the derivative level, the fluid can stretch and bend itself in a way that produces new derivative mass.
-The gold route has to explain why that production is always paid for.
+Now the obstruction has to be seen in the math.
+The enstrophy identity from the previous section leaves one term unpaid:
+\[
+  I(t)=\int_{\mathbb T^3}(u\cdot\nabla)u\cdot\Delta u\,dx .
+\]
+The direct route tries to make \(I(t)\) small enough for viscosity to absorb.
 
-The pressure-source branch shows how long that fight can become.
-The branch starts with the same ordinary source term from the enstrophy identity.
-Then it asks where a terminal reserve of derivative mass came from.
-The answer is pushed into ancestry: a terminal window is paid for by a parent window, the parent is paid for by an earlier parent, and the same bill keeps moving backward.
+The standard estimate begins with H\"older:
+\[
+  |I(t)|
+  \le
+  \|u\|_{L^6}\|\nabla u\|_{L^3}\|\Delta u\|_{L^2}.
+\]
+Sobolev gives \(\|u\|_{L^6}\lesssim \|\nabla u\|_{L^2}\).
+Interpolation gives
+\[
+  \|\nabla u\|_{L^3}
+  \lesssim
+  \|\nabla u\|_{L^2}^{1/2}\|\Delta u\|_{L^2}^{1/2}.
+\]
+So
+\[
+  |I(t)|\lesssim
+  \|\nabla u\|_{L^2}^{3/2}\|\Delta u\|_{L^2}^{3/2}.
+\]
+Young's inequality gives
+\[
+  |I(t)|
+  \le
+  \frac{\nu}{2}\|\Delta u\|_{L^2}^2
+  +C_\nu\|\nabla u\|_{L^2}^6.
+\]
 
-A terminal source picture can look like this.
-A small window near the alleged final time carries a positive reserve of derivative mass.
-One says the reserve came from a parent window.
-Then the parent window asks for payment.
-The parent may point to an earlier parent.
-The argument can become a Zeno chain of payments, with each bill pushed backward while the terminal reserve still tries to remain unpaid.
+Put this back into the enstrophy identity.
+With \(Y(t)=\frac12\|\nabla u(t)\|_{L^2}^2\), the estimate gives
+\[
+  Y'(t)\le C_\nu Y(t)^3.
+\]
+This is the wall.
+The comparison equation
+\[
+  Z'(t)=C_\nu Z(t)^3
+\]
+allows finite-time blowup.
+The estimate proves short-time control.
+It does not prove global control.
 
-That is where the attempt gets dirty.
-The support stack contains pressure-sustain attempts, BASAC pressure subforks, time-face anti-atom attempts, no-incoming-source-drain attempts, transported-boundary tightness attempts, pure-pressure residue attempts, angular-saturation attempts, quantized-parent attempts, and Zeno-ancestry attempts.
-Each attempt tries to make the source payment real on the same fluid.
-Each one exposes another way the terminal picture can lose the same object it was meant to control.
+One might try to climb to the next rung.
+Differentiating one more time gives a viscous term at the top and new nonlinear products below it:
+\[
+  \frac12\frac{d}{dt}\|\nabla^2u\|_{L^2}^2
+  +\nu\|\nabla^3u\|_{L^2}^2
+  \le
+  \text{products of } \nabla u,\nabla^2u,\nabla^3u .
+\]
+The same pattern returns.
+Viscosity offers the top derivative.
+The nonlinear term asks for enough lower-rung control to pay for it.
+Absorbing the top rung leaves a faster nonlinear dependence on the tower already under stress.
 
-The same obstruction returns in other language.
-A terminal pulse may shrink until no positive packet remains.
-A donor may be named while failing to ride with the same transported fluid.
-An endpoint trace may record concentration while failing to identify the same Navier--Stokes object.
-A velocity value may survive while the derivative tower needed for smoothness breaks.
-The gold route keeps asking for a forward payment.
-The paper records the resulting failure field because those failed payment pictures are exactly the material that the class-membership test must read.
+This is why the forward route becomes long.
+Every attempted payment asks where its own payment comes from.
+A terminal source may be assigned to a parent window; the parent may need an earlier parent; the chain may become a Zeno ancestry near the terminal time.
+Pressure-sustain, BASAC, transported-boundary, pure-pressure, angular-saturation, quantized-parent, and Zeno notes are branch names for this same mathematical problem: the direct estimate keeps finding a bill that the known energy law has not paid.
+
+This is the obstruction.
+The gold method reaches a real term, estimates it honestly, and the honest estimate still permits finite-time blowup.
+The next section changes the question because this calculation does not yet say whether a terminal picture produced by that failure is still a Navier--Stokes object.
 
 \section{Reframing the Problem}
 
