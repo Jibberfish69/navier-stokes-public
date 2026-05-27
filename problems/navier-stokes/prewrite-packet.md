@@ -3,71 +3,49 @@
 - `span:` whole document
 - `mode:` Authorial Draft
 - `user_intent:` Turn the grounded Navier-Stokes Global Regularity workboard into honest prose that explains the live route without claiming theorem settlement that the package does not yet earn.
-- `fixed_constraints:` Keep the theorem target on the original problem rather than nearby surrogate systems. | Do not let dead-end or diagnostic branches masquerade as the live theorem route. | If an upstream estimate or budget theorem would make an endpoint diagnostic moot, keep the upstream theorem as the live route and leave the endpoint as fallback support. | Keep unresolved debt explicit instead of smoothing it away in expository prose. | Avoid package, route, or pass narration; keep the pressure on the mathematical object itself. | Do not open or land with stage-announcement prose. | Historical debt rows are retained as provenance only; direct-live authority, review, submission, release, and audit surfaces currently clear full-MPP closure.
+- `fixed_constraints:` Open from the CM contrapositive class-exit proof program, not from the older torus-first periodic bridge story. | Keep `Member(Q)` as the downstream class-membership predicate and `Exit(Q):=not Member(Q)` as the class-exit conclusion supported by Pack/Part/Field face failure. | Treat periodic, `Q(t)`, scale-barrier, heat-continuation, source-wall, and positive-supplier language as support or history unless a checked bridge lands it in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}. | The pass branch is the lawful smooth continuation branch; the fail branch is admitted to the CM terminal packet tree and exhausted as a witness-face failure.
 
 ## Section Job
-- `job_statement:` Convert the grounded route into readable prose that states the target, the live obstruction, the closure loop, and the honest revise-stage boundary.
-- `why_here:` The local derivation sweep is complete, so the next bottleneck is legibility and scope honesty rather than more source localization.
-- `formal_boundary:` This pass can explain the route and its localized support in prose, but it must stop short of claiming a stand-alone theorem proof where the workboard still marks revise-stage debt.
+- `job_statement:` Open the Navier-Stokes manuscript from the CM contrapositive class-exit proof: finite Clay terminal witness, CM packet entry, Pack/Part/Field exhaustion, and `Exit(Q):=not Member(Q)`.
+- `why_here:` Recent submission surfaces identify the proof-bearing opening as the CM contrapositive class-exit program, so prose must no longer regenerate the older torus-first periodic four-bridge story.
+- `formal_boundary:` This pass may use periodic or source-history material only as quarantined support after the CM proof object is fixed; it must not make torus-first, `Q(t)`, or periodic-opening prose the manuscript entry.
 
 ## Claim Ladder
-- `claim:` The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3` or `T^3`
-  `warrant:` The claim ladder marks this rung as fixed target. Prevents drift into nearby systems
-  `handoff:` Once this rung is stated clearly, the draft can move to `Success for regularized or morphic-regularized equations does not close the original problem` without losing the route.
-- `claim:` Success for regularized or morphic-regularized equations does not close the original problem
-  `warrant:` The claim ladder marks this rung as fixed diagnostic boundary; bridge discharged by `SYNC.2`. Parks the dead-end branch
-  `handoff:` Once this rung is stated clearly, the draft can move to `The original framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy` without losing the route.
-- `claim:` The original framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy
-  `warrant:` The claim ladder marks this rung as discharged source-grounded bridge; bridge spine closed by `SYNC.2`. Prevents silent collapse of the handed four-part cycle
-  `handoff:` Once this rung is stated clearly, the draft can move to `Global energy or enstrophy control is necessary but not sufficient` without losing the route.
-- `claim:` Global energy or enstrophy control is necessary but not sufficient
-  `warrant:` The claim ladder marks this rung as localized route premise; bridge discharged by `SYNC.2`. Shows why the monotone bridge is infrastructure, not closure by itself
-  `handoff:` Once this rung is stated clearly, the draft can move to `The live obstruction is the small-scale or high-frequency cascade that feeds blow-up` without losing the route.
-- `claim:` The live obstruction is the small-scale or high-frequency cascade that feeds blow-up
-  `warrant:` The claim ladder marks this rung as localized obstruction diagnosis; bridge discharged by `SYNC.2`. Localizes the singularity mechanism
-  `handoff:` Once this rung is stated clearly, the draft can move to `A periodic shell or dyadic tail estimate must suppress dangerous high-frequency transfer on the chosen torus-first theorem surface` without losing the route.
-- `claim:` A periodic shell or dyadic tail estimate must suppress dangerous high-frequency transfer on the chosen torus-first theorem surface
-  `warrant:` The claim ladder marks this rung as discharged classical bridge; bridge spine closed by `SYNC.2`. Supplies the scale-barrier input on the active periodic route
-  `handoff:` Once this rung is stated clearly, the draft can move to `The monotone functional must stabilize the global energy/enstrophy layer and enable the compactness package on that same periodic classical surface` without losing the route.
-- `claim:` The monotone functional must stabilize the global energy/enstrophy layer and enable the compactness package on that same periodic classical surface
-  `warrant:` The claim ladder marks this rung as discharged same-surface bridge; bridge spine closed by `SYNC.2`. Keeps compactness tied to the handed `q(t)` control surface and marks the insufficiency handoff explicitly
-  `handoff:` Once this rung is stated clearly, the draft can move to `The scale-barrier plus monotone-functional input must yield strong local compactness and nonlinear tensor closure on the periodic/operator approximation family` without losing the route.
-- `claim:` The scale-barrier plus monotone-functional input must yield strong local compactness and nonlinear tensor closure on the periodic/operator approximation family
-  `warrant:` The claim ladder marks this rung as discharged downstream bridge package; bridge spine closed by `SYNC.2`. Records compactness on the active torus-first internal branch
-  `handoff:` Once this rung is stated clearly, the draft can move to `A heat-governed deformation or continuation bridge must force continuation control on the same periodic theorem surface` without losing the route.
-- `claim:` A heat-governed deformation or continuation bridge must force continuation control on the same periodic theorem surface
-  `warrant:` The claim ladder marks this rung as discharged same-surface torus-first bridge; bridge spine closed by `SYNC.2`. Makes the continuation step theorem-primary on the fixed periodic route while leaving whole-space export downstream
-  `handoff:` Once this rung is stated clearly, the draft can move to `If the scale-barrier, monotone-functional, compactness, and continuation packages all hold on the active periodic branch, then the periodic Clay branch with `f = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem, not the internal branch itself` without losing the route.
-- `claim:` If the scale-barrier, monotone-functional, compactness, and continuation packages all hold on the active periodic branch, then the periodic Clay branch with `f = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem, not the internal branch itself
-  `warrant:` The claim ladder marks this rung as discharged integrated closure; bridge spine closed by `SYNC.2`. States the route-to-clay implication on the chosen internal branch without erasing the separate whole-space export burden
-  `handoff:` This is the landing rung, so the draft has to convert it into an honest scope boundary.
+- `claim:` Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum.
+  `warrant:` The current submission synopsis opens the proof from a finite terminal witness, not from a torus-first route preface.
+  `handoff:` The witness is then tested in the same-fluid CM packet tree.
+- `claim:` The witness enters the canonical CM terminal packet tree rather than being assumed to be a class member.
+  `warrant:` Live authority names `ClayTerminalWitnessCMEntry.A` as the entry theorem.
+  `handoff:` Entry makes Pack/Part/Field the next typed failure analysis.
+- `claim:` The finite failure type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}.
+  `warrant:` Live authority names `ClayFiniteFailureTypeCMExhaustion.A` and the submission synopsis uses exactly this three-face exhaustion.
+  `handoff:` The exhausted face failure supports the class-exit conclusion.
+- `claim:` The derived face failure embeds as `Exit(Q):=not Member(Q)` inside the CM contrapositive program.
+  `warrant:` Live authority names `ClayCMContrapositiveEmbedding.A`; the submission surface states that the pass branch remains the lawful smooth continuation branch.
+  `handoff:` This is the manuscript opening and the safe claim boundary.
 
 ## Paragraph Movement Map
 - `role:` orient
-  `core_move:` Fix the theorem target and separate the live classical branch from the nearby regularized dead-end branch.
-  `must_keep:` ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A | The Clay target is the official 3D incompressible Navier-Stokes problem on `R^3` or `T^3` | Success for regularized or morphic-regularized equations does not close the original problem
-  `avoid:` opening with proof language | treating diagnostic regularized work as theorem-bearing
-- `role:` setup
-  `core_move:` Explain why energy control alone does not settle global regularity and localize the live obstruction at the dangerous cascade scales.
-  `must_keep:` The original framework names a monotone functional `Q(t)` as a bridge, not just unnamed baseline energy | Global energy or enstrophy control is necessary but not sufficient
-  `avoid:` abstract PDE boilerplate before the obstruction lands | claiming blow-up is already ruled out
-- `role:` mechanism
-  `core_move:` Lay out the route components that must work together: scale barrier, compactness at the nonlinear level, and gradient control from the classical dynamics.
-  `must_keep:` The live obstruction is the small-scale or high-frequency cascade that feeds blow-up | A periodic shell or dyadic tail estimate must suppress dangerous high-frequency transfer on the chosen torus-first theorem surface | The monotone functional must stabilize the global energy/enstrophy layer and enable the compactness package on that same periodic classical surface
-  `avoid:` component inventory without causal linkage | smoothing over which mechanism belongs to the original equation
-- `role:` consequence
-  `core_move:` State the closure logic as a loop rather than as isolated lemmas and say what would follow if that loop closed at the classical level.
-  `must_keep:` If the scale-barrier, monotone-functional, compactness, and continuation packages all hold on the active periodic branch, then the periodic Clay branch with `f = 0` follows; any whole-space statement on `R^3` is a downstream discharge theorem, not the internal branch itself | A heat-governed deformation or continuation bridge must force continuation control on the same periodic theorem surface
-  `avoid:` declaring closure as already proved | dropping the route back into heuristic language
-- `role:` landing
-  `core_move:` Land on the lowest safe claim and the current revise-stage status so the reader knows exactly what is live and what is still debt.
-  `must_keep:` The official Clay target allows either the whole-space branch on `R^3` or the periodic branch on `T^3`. - The active internal theorem branch in this repo is the periodic zero-force statement on `T^3`; any whole-space statement on `R^3` is downstream discharge/export, not the branch lock. | Replacing the official Clay statement by a weaker route-local or data-class-local statement. | full-mpp-closure-ready
-  `avoid:` paper-ready bravado | burying the remaining debt after the route summary
+  `core_move:` Name the proof program immediately as CM contrapositive class exit from an alleged finite Clay terminal witness.
+  `must_keep:` finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | CM contrapositive class-exit program | `Exit(Q):=not Member(Q)`
+  `avoid:` torus-first opening | `Q(t)` opening | periodic branch as first story
+- `role:` entry
+  `core_move:` Send the terminal witness into the same-fluid CM packet tree without calling it a class member.
+  `must_keep:` ClayTerminalWitnessCMEntry.A | canonical CM terminal packet tree | same-fluid witness
+  `avoid:` blunt not-CM converse | class-member assumption for the bad witness
+- `role:` exhaustion
+  `core_move:` Exhaust the finite failure type through Pack_Q, Part_{N,Q}, and Field_{N,r,Q}.
+  `must_keep:` not Pack_Q | not Part_{N,Q} | forall r>0 not Field_{N,r,Q}
+  `avoid:` fourth residue face | source-wall supplier promotion
+- `role:` embedding
+  `core_move:` Embed the derived face failure as class exit while preserving the pass branch as the lawful smooth continuation branch.
+  `must_keep:` ClayCMContrapositiveEmbedding.A | `Member(Q)` downstream | no legal in-class nonsmooth third branch
+  `avoid:` positive no-exit rewrite | periodic bridge as the conclusion
 
 ## Lexicon Lock
-- `must_use:` ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A | classical equation | scale-barrier principle | compactness | nonlinear term | gradient control | singularity pathways | lowest safe claim
-- `must_not_substitute:` regularized smoothness for classical regularity | heuristic decay for proved scale barrier | modified PDE success for Clay result
-- `deferred_terms:` stand-alone proof | theorem settlement | paper-ready export
+- `must_use:` CM contrapositive class-exit | finite Clay terminal witness | same-fluid CM terminal packet tree | Pack_Q | Part_{N,Q} | Field_{N,r,Q} | `Exit(Q):=not Member(Q)` | pass branch | fail branch
+- `must_not_substitute:` torus-first periodic route for CM class-exit proof | `Q(t)` bridge opening for terminal witness entry | positive smoothness supplier for Pack/Part/Field exhaustion | source-wall diagnostics for the governing CM primitive
+- `deferred_terms:` torus-first opening | `Q(t)` bridge opening | periodic story as manuscript entry
 - `tone_keys:` direct | technical | scope-honest | reader-forward | non-triumphal | object-specific
 
 ## Cadence Target
@@ -81,15 +59,15 @@
 - `crossref_plan:` keep section titles stable and preserve the lowest safe claim / first unsafe overclaim distinction in prose; no live `\cref` surface yet
 
 ## Risks and Countermoves
-- `risk:` The prose slides back into generic PDE overview before naming the live obstruction.
-  `countermove:` State the small-scale cascade and blow-up pressure directly in the second paragraph.
-- `risk:` The route components read like an inventory rather than a loop.
-  `countermove:` Make each mechanism carry an explicit job and then say how the jobs reinforce one another.
-- `risk:` The draft overclaims closure because the route sounds coherent.
-  `countermove:` End with the lowest safe claim, current package status, and first unsafe overclaim.
+- `risk:` The prose opens from the old periodic four-bridge story before the CM witness object exists.
+  `countermove:` Start the first paragraph with the alleged finite Clay terminal witness and `Exit(Q):=not Member(Q)`.
+- `risk:` The bad terminal object is accidentally called `Member(Q)` or treated as a smooth branch.
+  `countermove:` Say it is CM-test-admissible and then sort its first face failure.
+- `risk:` Source-wall, positive-supplier, periodic, or `Q(t)` material respawns as authority.
+  `countermove:` Keep it quarantined unless the sentence names a checked Pack/Part/Field landing.
 
 ## Draft Acceptance Test
-- `pass_if:` the draft fixes the theorem target, makes the cascade obstruction explicit, names the scale-barrier / compactness / gradient-control loop in readable prose, and lands below the first unsafe overclaim
-- `fail_if:` the draft treats regularized branches as theorem-bearing, loses the classical-equation target, or sounds as though global regularity has already been proved
+- `pass_if:` the packet and draft open from the CM contrapositive class-exit program, name Pack/Part/Field witness-face exhaustion, and treat periodic / `Q(t)` material only as non-opening support
+- `fail_if:` the draft opens with torus-first periodic scope, `Q(t)`, scale-barrier / compactness / heat-continuation bridge prose, or any wording that replaces `Exit(Q):=not Member(Q)` with the older periodic story
 
-<!-- generated_at: 2026-05-27T15:12:04Z -->
+<!-- generated_at: 2026-05-27T15:12:30Z -->
