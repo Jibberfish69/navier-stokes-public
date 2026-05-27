@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
-  generated_at: '2026-05-27T11:46:39Z'
+  generated_at: '2026-05-27T11:47:50Z'
   generator: system/runner/lib/manuscript_depth_builder.rb
 surface_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 classification: proof-manuscript
