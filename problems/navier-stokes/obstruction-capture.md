@@ -7,54 +7,51 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 - `problem_id`: `navier-stokes`
 - `display_name`: `Navier-Stokes Global Regularity`
 - `date_opened`: `2026-03-11`
-- `status`: `torus-first-internal-branch theorem-reopen-critical-packet-discharge`
+- `status`: `cm-contrapositive-class-exit manuscript-opening-authority`
 
 ## One-Sentence Thesis
 
-- The handed source stack fixes the four body jobs, but the current live lane now routes them through a torus-first periodic internal branch: a scale-barrier principle, a monotone functional `Q(t)`, non-Sobolev compactness, and a heat-governed continuation bridge on the periodic/operator surface. Any whole-space Euclidean statement is downstream discharge/export rather than the internal proving surface.
+- The current manuscript opens from the CM contrapositive class-exit program: an alleged finite-time Clay terminal witness from the same original smooth datum enters the same-fluid CM terminal packet tree, its finite failure type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and the derived face failure supports `Exit(Q):=not Member(Q)`.
 
 ## The Real Obstruction
 
-- The original obstruction was finite-time singularity through uncontrolled transfer of energy or enstrophy into arbitrarily small scales.
-- In corpus terms, the pressure point was the gap between global weak existence and global smooth regularity.
-- More sharply: the hard part was proving that the classical equation itself prevents runaway small-scale concentration strongly enough to block gradient blow-up.
+- The live obstruction is an alleged finite Clay terminal witness from the original smooth Navier-Stokes datum.
+- The pressure point is whether that terminal witness can remain a lawful in-class nonsmooth continuation branch.
+- The CM answer is to admit the witness to the same-fluid terminal packet tree and sort its first Pack/Part/Field face failure.
 
 ## Why Prior Attempts Fail
 
-- The regularization branch adds extra dissipation, hyper-viscosity, morphic smoothing terms, or other non-classical structure.
-- That branch may yield smooth solutions for the modified system, but it does not close the original Clay problem.
-- The retained lesson is negative but useful: the final theorem-bearing route had to remain on the classical equation.
+- Positive supplier, source-wall, periodic, and regularization branches fail as manuscript openings because they try to delete or reroute the bad terminal object before the CM test has used it.
+- The current proof uses the fail branch as the class-exit witness rather than treating it as a positive no-exit burden.
+- Periodic and `Q(t)` material is support only after a checked bridge lands an exact claim in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
 
 ## The Crossing Move
 
-- Reject equation-modification as a final answer.
-- Work on the classical equation directly.
-- Keep the four-part route explicit:
-  - a periodic scale-barrier principle,
-  - bounded global energy / enstrophy tracking through the monotone functional `Q(t)`,
-  - compactness strong enough to improve weak behavior into nonlinear closure,
-  - a theorem-primary periodic continuation bridge, with Euclidean discharge/export kept explicit and downstream.
+- Start with the alleged finite-time Clay terminal witness from the same original smooth datum.
+- Enter that witness into the canonical same-fluid CM terminal packet tree.
+- Exhaust the finite failure type as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}.
+- Embed the derived face failure as `Exit(Q):=not Member(Q)` while preserving the pass branch as the lawful smooth continuation branch.
 
 ## Core Mechanism
 
-- The theorem-bearing engine in the handed source family is the four-part closure loop:
-  1. the scale barrier suppresses dangerous high-frequency transfer,
-  2. the monotone functional `Q(t)` records bounded global energy / enstrophy on the same surface,
-  3. compactness upgrades approximate behavior into strong local convergence and nonlinear tensor closure,
-  4. the fourth bridge controls the gradient-growth channel that would otherwise reopen singularity.
+- The theorem-bearing engine is the CM terminal witness chain:
+  1. terminal witness entry,
+  2. finite Pack/Part/Field failure-type exhaustion,
+  3. contrapositive embedding as `Exit(Q):=not Member(Q)`,
+  4. no legal in-class nonsmooth third branch between pass and fail.
 
-- The live theorem burden was not to rediscover that architecture.
-- The live theorem burden is to discharge it honestly on one declared theorem surface, and the current lane now takes that surface to be the periodic torus branch before any downstream whole-space export is claimed.
+- The live manuscript burden is to keep that chain as the opening authority.
+- The live support burden is to quarantine periodic, `Q(t)`, source-wall, and positive-supplier surfaces unless they land in a typed witness face.
 
 ## Plain Path
 
-1. The live difficulty was never weak existence; it was blow-up prevention on the classical 3D equation.
-2. Standard regularization solves the wrong problem unless one can pass back to the classical equation with uniform control.
-3. The proof path therefore had to stay on the original equation.
-4. The main battlefield was small-scale behavior: turbulence, high-frequency cascade, and gradient growth.
-5. The original framework also made the `Q(t)` monotone-functional layer explicit rather than leaving it implicit as background energy bookkeeping.
-6. `Q(t)` is necessary but not sufficient, so the route must pass from that bridge to the cascade burden rather than pretending the monotone layer already closes the theorem.
-7. The original source family used curvature-based regularity, but the live theorem route now promotes a torus-first heat-governed continuation bridge and treats any Euclidean whole-space statement as downstream export rather than the active branch lock.
+1. Start with a same-datum finite Clay terminal witness.
+2. Treat it as CM-test-admissible, not as already `Member(Q)`.
+3. Run terminal witness entry into the same-fluid CM packet tree.
+4. Exhaust the failure through Pack_Q, Part_{N,Q}, and Field_{N,r,Q}.
+5. Read the derived face failure as `Exit(Q):=not Member(Q)`.
+6. Keep the pass branch as smooth continuation and the fail branch as outside-class.
+7. Reject any opening that begins with torus-first, `Q(t)`, or periodic route history before the CM witness object has landed.
 
 ## Live Branches
 
@@ -68,16 +65,15 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 Reason it is archived:
 - it does not by itself prove the original problem
 
-### Branch B: Source-Grounded Theorem Branch
+### Branch B: CM Contrapositive Theorem Branch
 
-- classical Navier-Stokes
-- scale-barrier control
-- monotone functional `Q(t)`
-- non-Sobolev compactness
-- torus-first heat-governed continuation as the theorem-primary fourth bridge
+- finite Clay terminal witness
+- same-fluid CM terminal packet entry
+- Pack/Part/Field finite failure-type exhaustion
+- `Exit(Q):=not Member(Q)` contrapositive embedding
 
 Reason it stays primary:
-- this is the chosen same-surface internal closure path on the declared theorem surface
+- this is the current submission-facing proof program and manuscript opening authority
 
 ### Branch C: Downstream discharge and provenance
 
@@ -92,9 +88,9 @@ Reason it is quarantined:
 
 - Export surfaces must stay on the exact Clay statement and must not silently replace the periodic internal branch by whole-space language.
 - Historical conditional checkpoints must remain archived rather than reintroduced as the primary theorem surface.
-- The monotone bridge cannot be omitted again.
-- The Euclidean discharge track cannot be silently reintroduced as theorem-primary.
-- Cross-lane notes must not be treated as theorem-primary unless explicitly promoted into the branch.
+- The CM witness entry cannot be replaced by periodic route history.
+- The Pack/Part/Field exhaustion cannot be replaced by source-wall supplier diagnostics.
+- Cross-lane notes must not be treated as theorem-primary unless explicitly promoted into a witness face.
 
 ## Existing Material
 
@@ -104,13 +100,13 @@ Reason it is quarantined:
 
 ## Output Target
 
-- For this phase, the output is a torus-first internal theorem package with any Euclidean whole-space statement fenced as downstream discharge/export.
-- The runner must preserve the reopened theorem-discharge posture and must not overclaim solved status while proof-critical packet reductions remain compressed.
+- For this phase, the output is a CM contrapositive class-exit manuscript surface.
+- The runner must open from terminal witness entry, Pack/Part/Field exhaustion, and `Exit(Q):=not Member(Q)`.
 
 ## Instructions to Codex
 
 - Keep the regularized branch archived as a diagnostic failure branch.
-- Keep `Q(t)` explicit.
-- Preserve the same-surface four-part architecture with the periodic branch as the internal route surface.
-- Keep Euclidean export explicitly downstream.
+- Keep `Q(t)` and periodic material quarantined as support unless a checked bridge lands it in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
+- Preserve the CM contrapositive class-exit architecture as the manuscript opening.
+- Keep export and source-history material explicitly downstream.
 - Do not promote archived provenance above theorem authority.
