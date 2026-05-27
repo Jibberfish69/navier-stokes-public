@@ -6,7 +6,7 @@ status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
-pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
+pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
 compiler: "/Library/TeX/texbin/xelatex"
 source_metrics:
   source_word_count: 8736
@@ -22,7 +22,6 @@ ground_up_rebuild:
   status: active
   target_reference: problems/navier-stokes/submission-bundle/ground-up/target-reference.md
   source: problems/navier-stokes/submission-bundle/ground-up/main.tex
-  pdf: problems/navier-stokes/submission-bundle/ground-up/main.pdf
   intent: current-materialized non-Euler surface-field paper with forward-positive-to-CM-contrapositive
     explanatory spine and light pre-facing paperwork
 authority_sources:
