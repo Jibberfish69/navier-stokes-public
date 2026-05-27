@@ -42,32 +42,33 @@
 \maketitle
 
 \begin{abstract}
-We prove global smooth existence for the incompressible three-dimensional Navier--Stokes equations on the periodic domain \(\mathbb T^3\), with smooth divergence-free initial data and zero external force.
-The proof is a contrapositive same-solution argument.
-A finite-time breakdown claim must identify a terminal object for the original solution.
-The argument shows that such an object either carries the services needed for classical continuation or loses one of those services and therefore cannot be the breakdown of that solution.
+We prove the periodic smooth-data Navier--Stokes theorem by a class-membership contrapositive.
+The proof begins with an alleged finite Clay breakdown witness for the original solution and tests whether that terminal object is still a legal same-solution continuation packet.
+The test is not a separate positive estimate and not a scale-barrier replacement.
+It is the class-exit chain
+\[
+  \text{finite terminal witness}
+  \Longrightarrow
+  \text{CM-test entry}
+  \Longrightarrow
+  \text{first Pack/Part/Field failure}
+  \Longrightarrow
+  \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+\]
 
-A direct proof would keep the solution alive by estimates.
-The route here tests the terminal object left by a proposed breakdown.
-The test asks whether that object still has the mathematical services required to be the same Navier--Stokes solution at the alleged terminal time.
-
-The test has three services.
-A legitimate same-solution terminal object must keep a positive material carrier, must still participate in the same Navier--Stokes pressure-viscosity tower, and must retain positive-scale field control on one witness record:
+A branch that remains in the class keeps the services needed for classical continuation.
+A branch capable of finite nonsmooth terminal failure is admitted to the same-fluid terminal packet tree and loses one of those services.
+The three services are a positive same-fluid carrier, the same Navier--Stokes pressure-viscosity participation tower, and positive-scale coherent field readout on one witness record:
 \[
   \Pack_Q,\qquad \Part_{N,Q},\qquad \Field_{N,r,Q}.
 \]
-When these three services survive at sufficient depth, they give an ordinary supercritical continuation bound, \(H^s\) with \(s>5/2\), so the classical local theory extends the same solution beyond the alleged terminal time.
-When a terminal object is capable of finite nonsmooth breakdown, it is tested by the same three services.
-The first missing service gives the class exit
-\[
-  \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
-\]
-Thus the selected terminal object has only two outcomes: the services survive and the solution continues, or a named service fails and the object is not a legal same-solution breakdown witness.
+Survival of all three services at continuation depth gives the ordinary \(H^s\), \(s>5/2\), continuation readout.
+Failure of the first missing service gives class exit.
 
-The rest of the manuscript makes this test precise for the periodic problem.
-It constructs the transported whole-torus material atlas, captures each alleged terminal branch on that atlas, and reads the branch through Pack, Part, and Field in that order.
-Sobolev, critical, local, and endpoint scenarios enter the proof by attaching to the selected terminal object and taking a job in the same service test.
-The conclusion is that no finite nonsmooth terminal branch remains available as a Clay breakdown witness for the periodic smooth-data Navier--Stokes evolution.
+The manuscript proves this chain on the periodic zero-force surface \(\mathbb T^3\).
+The transported whole-torus material atlas supplies the selected terminal packet; finite terminal non-continuation is then exhausted in Pack-first order as \(\neg\Pack_Q\), \(\Pack_Q\wedge\neg\Part_{N,Q}\), or \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\).
+Source-wall, no-pulse, endpoint, local critical, and comparison arguments enter only by attaching to that same witness record as face support or continuation readout.
+The whole-space \(\mathbb R^3\) Clay statement requires a separate tightness/localization export theorem; the theorem proved here is the periodic branch.
 \end{abstract}
 
 \setcounter{tocdepth}{1}
@@ -83,24 +84,31 @@ The incompressible three-dimensional Navier--Stokes equations are
 \]
 with smooth divergence-free initial data \(u_0\).
 The Clay problem asks whether the corresponding smooth solution exists for all time.
-This manuscript proves global smooth existence on the periodic domain \(\mathbb T^3\) with zero external force.
-Its terminal packet, material atlas, and continuation readout all live on the torus.
+The proof program here is the Navier--Stokes class-membership contrapositive.
+It starts from an alleged finite terminal witness for the original smooth-data solution and proves that the witness is either a member continuation packet or a class-exit witness.
+The class-exit primitive is
+\[
+  \Exit(Q;\Owork):=\neg\Member(Q;\Owork),
+\]
+and the exit is derived through the first lost service in the Pack/Part/Field witness tree:
+\[
+  \Pack_Q,\qquad \Part_{N,Q},\qquad \Field_{N,r,Q}.
+\]
 
-The proof contract is therefore explicit.
-Its proof program is the Navier--Stokes MPP class-membership contrapositive.
-Its Clay target is the periodic smooth-data problem.
-The whole-space statement (A) is the export theorem carrying this terminal-packet conclusion from \(\mathbb T^3\) to \(\mathbb R^3\).
+This manuscript proves that program on the periodic zero-force domain \(\mathbb T^3\).
+Its terminal packet, material atlas, and continuation readout all live on the torus.
+The whole-space statement on \(\mathbb R^3\) is a stronger export surface: it requires a tightness/localization theorem carrying this terminal-packet conclusion from the periodic atlas to whole-space data.
 
 The gold standard question is
 \[
   \text{which estimate forces the smooth solution to continue?}
 \]
 It proves a bound strong enough for classical continuation.
-The silver standard question is
+The contrapositive question used here is
 \[
   \text{which service must an alleged finite-breakdown branch lose?}
 \]
-It proves the contrapositive: every branch capable of finite nonsmooth terminal failure exits the legal same-solution class.
+It proves that every branch capable of finite nonsmooth terminal failure exits the legal same-solution class after CM-test entry and a concrete Pack, Part, or Field face failure.
 This paper uses the standard supercritical Sobolev continuation theorem as the final readout from a member packet.
 The continuation readout used here is \(H^s\) with \(s>5/2\).
 Critical, endpoint, local \(L^3\), no-pulse, and comparison arguments matter by tying themselves to the same terminal witness record and taking a Pack, Part, Field, or readout job.
@@ -171,8 +179,21 @@ The proof therefore needs a test that decides whether the claimed terminal branc
 \section{The Proof Spine Before Details}
 
 The proof can be read before the machinery is introduced.
-The direct positive route tries to keep every continuation service alive.
-The CM route keeps the terminal branch that the failed positive route leaves behind and asks whether that branch is still a legal same-solution continuation.
+Start with a finite terminal witness for the same Navier--Stokes solution.
+The witness is not assumed to be a member of the class; it is admitted to the CM test because it claims to be the terminal branch of the original smooth-data evolution.
+
+The roadmap is:
+\[
+  \text{finite Clay terminal witness}
+  \Longrightarrow
+  \text{same-fluid CM terminal packet}
+  \Longrightarrow
+  \text{first Pack/Part/Field failure}
+  \Longrightarrow
+  \Exit(Q;\Owork).
+\]
+The pass branch keeps all three services and reads out to smooth continuation.
+The fail branch loses the first required service and therefore cannot remain a legal in-class nonsmooth terminal branch.
 
 \begin{claim}[Class proof spine]
 For every obstruction \(O\) reached by the forward-positive Navier--Stokes program,
