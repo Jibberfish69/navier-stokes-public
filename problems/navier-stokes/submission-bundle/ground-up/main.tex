@@ -80,34 +80,27 @@ No finite nonsmooth terminal branch survives the split: it either stays on the s
 
 \section{Original Problem Statement}
 
-The problem is easy to say.
-We start with a smooth velocity field \(u_0\) for an incompressible fluid.
-The field is divergence-free, so the fluid has no local compression:
-\[
-  \nabla\cdot u_0=0.
-\]
-The three-dimensional Navier--Stokes equations are
+The problem is the incompressible three-dimensional Navier--Stokes existence and smoothness problem.
+On the domain under discussion, the velocity \(u(x,t)\) and pressure \(p(x,t)\) satisfy
 \[
   \partial_t u +(u\cdot\nabla)u+\nabla p=\nu\Delta u,
   \qquad
   \nabla\cdot u=0.
 \]
-Here \(u\) is velocity, \(p\) is pressure, and \(\nu>0\) is viscosity.
-The Clay problem asks whether the smooth solution that starts from \(u_0\) can lose smoothness at a finite time.
-This paper treats the periodic, zero-force problem on \(\mathbb T^3\).
-The box has periodic walls, the forcing term is absent, and the fluid moves under its own equation.
-
-The hard part is hidden in the word smooth.
-A smooth velocity field has a whole stack of derivatives.
-The equation must keep that stack finite for every finite time.
-The natural first attempt is therefore the gold-standard route: find quantities that control the derivative stack and prove that the equation keeps those quantities bounded.
+The datum is a smooth divergence-free velocity field \(u_0\), and the solution starts from
+\[
+  u(\cdot,0)=u_0.
+\]
+Here \(\nu>0\) is fixed.
+This paper treats the periodic zero-force problem on \(\mathbb T^3\).
+The question is whether the smooth solution determined by \(u_0\) can lose smoothness at a finite time.
 
 \section{Gold Standard Approach (Explained) + Live Example}
 
 The gold standard is a forward positive proof.
-It tries to show directly how smoothness is controlled.
-A reader who has seen Navier--Stokes before already knows the first move.
-One looks for a quantity that the equation itself keeps under control.
+It tries to prove smoothness forward in time by finding quantities the equation keeps bounded.
+This is the first natural route because smoothness means control of a whole derivative stack.
+One begins with a quantity the equation itself already gives.
 
 The simplest example is energy.
 For a smooth divergence-free solution on \(\mathbb T^3\),
@@ -120,7 +113,9 @@ The total kinetic energy cannot grow.
 Viscosity spends energy through the gradient term \(\|\nabla u\|_{L^2}^2\).
 At this level the equation behaves exactly the way one hopes: the fluid has a built-in damping law.
 
-The next natural step is to ask for the same kind of control one derivative higher.
+A smooth field asks for more than energy.
+It asks that the velocity, its first derivatives, its second derivatives, and so on all remain finite on every finite time interval.
+The next natural step is to ask for energy-style control one derivative higher.
 Set
 \[
   Y(t)=\frac12\|\nabla u(t)\|_{L^2}^2.
@@ -147,7 +142,7 @@ with \(F\) tame enough to integrate for all finite time.
 Then viscosity absorbs the dangerous part, the remaining term stays under control, and the derivative stack stays finite.
 That is the clean proof picture: estimate the source, absorb the hard part, continue the solution.
 
-This is the familiar way into the problem because it starts where the equation gives us something real.
+This route feels right because it starts where the equation gives us something real.
 Energy works.
 Viscosity really does spend motion.
 The trouble begins when the source term asks for a payment that the known energy identity does not supply.
@@ -183,17 +178,12 @@ The gold route sees each picture and asks: how is this controlled?
 That is an honest question.
 It is also a question that can make the proof chase one new estimate after another.
 
-This is the point where the paper changes the question.
-For a claimed finite breakdown, the first burden is membership.
-The claim has to identify a terminal object for the original Navier--Stokes solution.
-Then the proof asks whether that object still belongs to the class defined by the problem.
-
 \section{Reframing the Problem}
 
-The reframing is small.
-It changes the proof burden.
-The gold route asks how smoothness is controlled.
-The silver route asks whether a claimed failure of smoothness is still a Navier--Stokes object.
+This is the point where the paper changes the question.
+For a claimed finite breakdown, the first burden is membership.
+A breakdown claim owes the reader a terminal object for the original Navier--Stokes solution.
+The proof asks whether that object still belongs to the class defined by the problem.
 
 The guess behind the method is simple.
 The Navier--Stokes equations are expected to be smooth for all time.
@@ -206,7 +196,7 @@ Does it still have the same datum, the same equation, the same pressure, the sam
 A positive answer puts the object on the pass side of the split.
 A failed answer gives the exit that the breakdown claim owed us.
 
-The point is to hold the problem fixed.
+This reframing holds the problem fixed.
 A finite-time breakdown claim must stay attached to the original smooth-data solution.
 The class-membership question is the test for that attachment.
 
@@ -272,7 +262,7 @@ Jump means the field loses smooth one-field coherence.
 Blown means a retained positive window carries an unbounded tower reading.
 Those words become precise only after the witness laws have been stated.
 
-This order matters for the reader.
+This order matters.
 The paper first gives the failure pictures.
 Then it sorts the pictures by what the Navier--Stokes object must keep.
 Then it names the formal class test.
@@ -332,11 +322,13 @@ For a terminal packet \(Q\),
 \subsection{Properties of NS Fluid}
 
 The fluid in this problem is an ideal mathematical fluid.
-Pictures from water, honey, or oil can help, and the real object is fixed by the equations.
+Water, honey, and oil can help the imagination.
+The real object is fixed by the equations.
 The viscosity \(\nu\) is fixed.
 The density is normalized through incompressibility.
 The velocity field has no external force acting on it.
-On \(\mathbb R^3\) one thinks of an unbounded space; this paper works on the periodic box \(\mathbb T^3\).
+On \(\mathbb R^3\) one thinks of unbounded space.
+This paper works on the periodic three-torus \(\mathbb T^3\).
 After \(t=0\), the field moves under the Navier--Stokes law.
 Pressure keeps the flow divergence-free.
 Viscosity spreads and damps differences in velocity.
@@ -380,12 +372,13 @@ The stream carries mass and momentum through a viscous body.
 The point for Navier--Stokes is that viscosity does more than stop motion.
 It also shares motion.
 It gives neighboring packets a common transport law.
+A siphon gives the same kind of picture: once the moving column is coupled, one part of the motion pulls the next part along.
 
 \subsection{Pressure, Viscosity, Incompressibility}
 
 Pressure, viscosity, and incompressibility work together in the Navier--Stokes class.
-Pressure enforces the divergence-free condition.
-Viscosity diffuses velocity through \(\nu\Delta u\).
+Pressure enforces the divergence-free condition by making the field answer globally to the incompressibility constraint.
+Viscosity diffuses velocity through \(\nu\Delta u\) and couples nearby velocity readings.
 Incompressibility keeps the fluid from creating or destroying local volume.
 Together they tell a packet how it may move while remaining the same ideal fluid.
 
@@ -468,7 +461,7 @@ A packet that has lost the pressure-viscosity tower has lost same-law participat
 A packet whose neighboring towers no longer fit has lost one-field coherence.
 These two laws are the Part and Field faces of the class test.
 
-\section{Packet Witness Law and Packet Failure Types}
+\section{Packet Witness Law}
 
 The packet law comes first in the terminal test because the proof needs a same-fluid body before it can read participation or field coherence.
 A terminal trace, source atom, or endpoint number gives too little by itself.
@@ -480,6 +473,8 @@ There is a transported carrier family for \(Q\), a finite cover with finite over
 The packet is moved by the same velocity field \(u\).
 A trace with no positive carrier, or a donor history outside the same flow, fails this law.
 \end{definition}
+
+\section{Packet Failure Types}
 
 A packet can fail before velocity blowup is discussed.
 It can lose every positive terminal radius.
