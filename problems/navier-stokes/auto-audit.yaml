@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-27T15:12:33Z'
+  audited_at: '2026-05-27T15:12:58Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: full-mpp-closure-ready
@@ -13,7 +13,7 @@ certification:
   review_verdict: accept
   theorem_packet_status: export-ready
 audit_certification:
-  audit_status: audited-needs-fix
+  audit_status: audited-ok
   audit_completion_tier: audited-full-mpp-closure
   audit_review_verdict: audited-accept
 branch_audit:
@@ -229,16 +229,7 @@ surface_snapshot:
     all_discharged: true
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
-issues:
-- issue_id: stale-review-verdict
-  severity: major
-  summary: Review verdict is stale relative to the current manuscript artifacts.
-  autofixable: false
-  recommended_action: Run honesty-review to refresh the review verdict.
-  details:
-  - Primary manuscript changed after the current review verdict was written.
-  - Submission export status changed after the current review verdict was written.
-  - Typeset audit changed after the current review verdict was written.
+issues: []
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
