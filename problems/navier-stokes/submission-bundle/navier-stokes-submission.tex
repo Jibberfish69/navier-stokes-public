@@ -130,7 +130,7 @@ The left side still contains viscosity.
 The right side is the nonlinear source.
 It measures how the motion of the fluid can feed the same derivatives that viscosity is trying to damp.
 
-A successful gold-standard proof would pay for that source.
+A successful gold-standard proof would control that source.
 The dream estimate has the shape
 \[
   \left|\int_{\mathbb T^3}(u\cdot\nabla)u\cdot\Delta u\,dx\right|
@@ -144,16 +144,19 @@ That is the clean proof picture: estimate the source, absorb the hard part, cont
 This route feels right because it starts where the equation gives us something real.
 Energy works.
 Viscosity really does spend motion.
-The trouble begins when the source term asks for a payment that the known energy identity does not supply.
+The trouble begins when the source term requires a derivative bound that the known energy identity does not supply.
 
 \section{Reaching Obstruction}
 
-Now the obstruction has to be seen in the math.
-The enstrophy identity from the previous section leaves one term unpaid:
+The obstruction already appears in the enstrophy estimate.
+The nonlinear term is
 \[
   I(t)=\int_{\mathbb T^3}(u\cdot\nabla)u\cdot\Delta u\,dx .
 \]
-The direct route tries to make \(I(t)\) small enough for viscosity to absorb.
+A forward proof needs a bound on \(I(t)\) that gives a global upper bound for
+\[
+  Y(t)=\frac12\|\nabla u(t)\|_{L^2}^2.
+\]
 
 The standard estimate begins with H\"older:
 \[
@@ -182,11 +185,11 @@ Young's inequality gives
 \]
 
 Put this back into the enstrophy identity.
-With \(Y(t)=\frac12\|\nabla u(t)\|_{L^2}^2\), the estimate gives
+The estimate gives
 \[
   Y'(t)\le C_\nu Y(t)^3.
 \]
-This is the wall.
+This inequality is the wall.
 The comparison equation
 \[
   Z'(t)=C_\nu Z(t)^3
@@ -197,37 +200,49 @@ has the explicit solution
 \]
 The comparison bound becomes infinite at \(t=(2C_\nu Z(0)^2)^{-1}\).
 The estimate proves short-time control only.
-Global control remains unpaid.
+Global control requires more information.
 
-The next natural attempt climbs to the next rung.
-Differentiating one more time gives a viscous term at the top and new nonlinear products below it:
+Restart the comparison at a time \(t_0<T_*\).
+The same calculation gives
 \[
-  \frac12\frac{d}{dt}\|\nabla^2u\|_{L^2}^2
-  +\nu\|\nabla^3u\|_{L^2}^2
-  \le
-  \text{products of } \nabla u,\nabla^2u,\nabla^3u .
+  Y(t)\le
+  \frac{Y(t_0)}
+  {\sqrt{1-2C_\nu Y(t_0)^2(t-t_0)}}
 \]
-The same pattern returns.
-Viscosity offers the top derivative.
-The nonlinear term asks for enough lower-rung control to pay for it.
-Absorbing the top rung leaves a faster nonlinear dependence on the tower already under stress.
-
-The restart form shows the length of the failure.
-Fix any time \(t_0<T_*\) and run the same comparison from \(t_0\).
-It gives control while
+as long as
 \[
   t-t_0 < \frac{1}{2C_\nu Y(t_0)^2}.
 \]
-The guaranteed interval shrinks as \(Y(t_0)\) grows.
 Near an alleged terminal time, the direct estimate passes through \(T_*\) only when this interval stays longer than \(T_*-t_0\).
-That asks for a bound on \(Y(t_0)\) as \(t_0\to T_*\).
-That bound is exactly the missing information.
-At the next derivative level the same structure returns with a larger tower quantity.
-The route becomes a chain of estimates whose last step keeps asking for a prior bound of the same kind.
+That requires control of \(Y(t_0)\) as \(t_0\to T_*\).
+
+Energy gives
+\[
+  \sup_{0\le t<T_*}\|u(t)\|_{L^2}^2
+  +2\nu\int_0^{T_*}\|\nabla u(t)\|_{L^2}^2\,dt
+  \le
+  \|u_0\|_{L^2}^2.
+\]
+This is an \(L^2\) bound for velocity and a time-integral bound for \(Y\).
+The restart argument needs a pointwise bound for \(Y\) near \(T_*\).
+The energy law gives the first two quantities.
+The pointwise derivative ceiling is the missing quantity.
+
+The higher-rung estimate exposes the same missing quantity in a sharper form.
+For \(m\ge2\), a standard commutator estimate gives
+\[
+  \frac12\frac{d}{dt}\|\nabla^m u\|_{L^2}^2
+  +\nu\|\nabla^{m+1}u\|_{L^2}^2
+  \le
+  C_m\|\nabla u\|_{L^\infty}\|\nabla^m u\|_{L^2}^2.
+\]
+To integrate this inequality, the forward route needs a time-integrable bound on \(\|\nabla u\|_{L^\infty}\), or a Sobolev bound strong enough to imply it.
+That is already derivative-level control beyond the energy law.
+The estimate has named the missing control without producing it.
 
 This is the obstruction.
-The gold method reaches a real term, estimates it honestly, and the honest estimate still permits finite-time blowup.
-The next section changes the question because this calculation leaves open whether a terminal picture produced by that failure is still a Navier--Stokes object.
+The standard inequalities reach the exact nonlinear term, bound it honestly, and arrive at a differential inequality that permits finite-time blowup.
+The next section changes the question: when a terminal picture is suggested by such a failure, is that picture still the Navier--Stokes object defined by the problem?
 
 \section{Reframing the Problem}
 
