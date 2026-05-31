@@ -194,6 +194,30 @@ FAMILIES = [
     ]
   },
   {
+    "id" => "single_pdf_rebuilt_branch_material",
+    "paper_representation" => "Late-May branch rebuild notes, rebuilt section files, and R3/critical-carrier support notes now route through the single canonical submission manuscript. They are branch-support and CM-face material for `navier-stokes-submission.tex`, not a separate PDF root.",
+    "files" => %w[
+      submission-bundle/human-author-chronological-cm-exit-manuscript-architecture-20260530.md
+      submission-bundle/pdf-rebuild-branch-inventory-20260530.md
+      submission-bundle/pdf-rebuild-branch-section-workplan-20260530.md
+      submission-bundle/rebuilt-main-staging.tex
+      submission-bundle/sections/rebuilt-branch-status-ledger.tex
+      submission-bundle/sections/rebuilt-cm-exit-method.tex
+      submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex
+      submission-bundle/sections/rebuilt-energy-enstrophy-source-branch.tex
+      submission-bundle/sections/rebuilt-front-matter-and-scope.tex
+      submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex
+      submission-bundle/sections/rebuilt-lower-prefix-upper-tail-branch.tex
+      submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex
+      submission-bundle/sections/rebuilt-recovery-surface-fidelity-branch.tex
+      submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex
+      submission-bundle/sections/rebuilt-shell-gain-half-derivative-branch.tex
+      theorem-construction/mpp-besov-lorentz-admissible-critical-to-cm-face-20260529.md
+      theorem-construction/mpp-carrier-admissibility-point-probe-germ-pack-lemma-20260530.md
+      theorem-construction/r3-forward-positive-wall-exhaustion-20260530.md
+    ]
+  },
+  {
     "id" => "submission_representation_standard",
     "paper_representation" => "Governs how the large source field compresses into mathematical proof roles in the manuscript. This is an authoring standard, not theorem evidence.",
     "files" => %w[
