@@ -6,7 +6,7 @@ status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
-pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
   source_word_count: 446573
