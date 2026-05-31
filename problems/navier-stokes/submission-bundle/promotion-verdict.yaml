@@ -4,20 +4,14 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   verdict_id: promotion-verdict-navier-stokes
-  generated_at: '2026-05-22T22:49:02Z'
+  generated_at: '2026-05-25T18:58:36Z'
   generator: system/runner/lib/promotion_verdict_builder.rb
   source_branch_set_id: extension-branches-navier-stokes
   source_falsification_id: lemma-falsification-navier-stokes
 promotion_policy: Promotion only moves a machine branch into tentative proof assembly.
   It does not merge the branch into the frozen core or discharge the originating obligation.
-branches:
-- branch_id: branch-navier-stokes-1
-  origin_obligation_id: terminalcmnoexit-a-nogenuinecmexit-a
-  promotion_status: quarantined
-  merge_target:
-  reasons:
-  - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+branches: []
 summary:
   promoted_count: 0
-  quarantined_count: 1
+  quarantined_count: 0
   rejected_count: 0

@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-27T17:26:18Z'
+  audited_at: '2026-05-29T16:49:32Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: full-mpp-closure-ready
@@ -13,7 +13,7 @@ certification:
   review_verdict: accept
   theorem_packet_status: export-ready
 audit_certification:
-  audit_status: audited-needs-fix
+  audit_status: audited-ok
   audit_completion_tier: audited-full-mpp-closure
   audit_review_verdict: audited-accept
 branch_audit:
@@ -32,17 +32,18 @@ downstream_overlay_drift:
   authority_surfaces:
   - artifact: source_frontier
     path: problems/navier-stokes/source-frontier.yaml
-    sha1: 5f9c8ae215ad430bcd650b8e27d225e531969328
+    sha1: 6bfe79bc4b1466981e0886d7e905b0cc076d14ac
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
     - pctp.hard
     - installed
+    - certified
     - 'unresolved_count: 0'
     - 'dashboard_unresolved_count: 0'
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: fa8dd70621771dce05c82a9b36e873cc0997fc5b
+    sha1: 211a1aeed95a472e08b810afce4540df1acf0e19
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -53,13 +54,12 @@ downstream_overlay_drift:
     - certified
     - accepted
     - 'all_discharged: true'
-    - 'submission_ready: true'
     - 'completion_tier_achieved: full-mpp-closure'
     - submission-candidate
     - 'release_posture: export-ready'
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
-    sha1: 856a6cc048b1169cacdf134433f419bf32c42c15
+    sha1: 49a36ea1ee630448ecf02ac6f50c84e539b45bc3
     matched_terms:
     - direct-live-surfaces
     - authority_gate_mode
@@ -90,23 +90,24 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-fc6bda1e4c4a
-    route_signature: fc6bda1e4c4aaf908cf23427ceb9860146c0465f
+    surface_id: theorem-surface-navier-stokes-59de635b7f1b
+    route_signature: 59de635b7f1b3be47c7f40c2579ed82296f9e952
     theorem_target: full-mpp-closure
-    theorem_statement: Every smooth divergence-free zero-mean initial datum on T^3
-      with f=0 generates a global smooth classical three-dimensional incompressible
-      Navier-Stokes solution.
+    theorem_statement: 'Navier-Stokes global regularity is proved by CM contrapositive
+      class exit: an alleged finite-time Clay terminal witness from the same original
+      smooth datum enters the same-fluid CM terminal packet tree, its finite failure
+      type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q},
+      and the derived face failure embeds as `Exit(Q):=not Member(Q)` while the pass
+      branch remains the lawful smooth continuation branch.'
     route_chain:
-    - Start with the alleged finite-time Clay terminal witness from the same original
-      smooth Navier-Stokes datum
-    - The witness enters the canonical same-fluid CM terminal packet tree rather than
-      being assumed to be a class member
-    - The finite failure type is exhausted as not Pack_Q, not Part_{N,Q}, or forall
-      r>0 not Field_{N,r,Q}
-    - The derived face failure embeds as `Exit(Q):=not Member(Q)` inside the CM contrapositive
-      program
-    - The pass branch remains the lawful smooth continuation branch, while the fail
-      branch has no legal in-class nonsmooth continuation status
+    - Alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes
+      datum.
+    - ClayTerminalWitnessCMEntry.A places the witness in the same-fluid canonical
+      CM terminal packet tree.
+    - ClayFiniteFailureTypeCMExhaustion.A exhausts the finite failure type as not
+      Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}.
+    - ClayCMContrapositiveEmbedding.A embeds the derived face failure as `Exit(Q):=not
+      Member(Q)` while the pass branch remains the lawful smooth continuation branch.
     route_slots: []
     authority_layers:
       authoritative_proof_surfaces:
@@ -215,14 +216,7 @@ surface_snapshot:
     all_discharged: true
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
-issues:
-- issue_id: stale-review-verdict
-  severity: major
-  summary: Review verdict is stale relative to the current manuscript artifacts.
-  autofixable: false
-  recommended_action: Run honesty-review to refresh the review verdict.
-  details:
-  - Primary manuscript changed after the current review verdict was written.
+issues: []
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml

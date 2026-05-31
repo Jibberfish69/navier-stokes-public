@@ -6,6 +6,7 @@
 \usepackage{amsmath,amssymb,amsthm,mathtools}
 \usepackage{array}
 \usepackage{enumitem}
+\usepackage{listings}
 \usepackage{microtype}
 \usepackage[hidelinks]{hyperref}
 
@@ -1332,6 +1333,10 @@ The first three alternatives are Pack, Part, and Field.
 The last alternative is support for a later selected packet.
 There is no fourth continuation requirement in the working class object.
 \end{proof}
+
+\IfFileExists{proof-attempt-failure-appendix.tex}{\input{proof-attempt-failure-appendix.tex}}{\input{../proof-attempt-failure-appendix.tex}}
+
+\IfFileExists{source-field-reader-appendix.tex}{\input{source-field-reader-appendix.tex}}{\input{../source-field-reader-appendix.tex}}
 
 \IfFileExists{surface-derivation-appendix.tex}{\input{surface-derivation-appendix.tex}}{\input{../surface-derivation-appendix.tex}}
 
