@@ -5,10 +5,8 @@ require "open3"
 require "pathname"
 
 ROOT = Pathname.new(__dir__).join("../../..").expand_path
-OUTPUT_DIR = ROOT.join("papers/navier-stokes/build/output/authoritative-edge")
-AUTHORITATIVE_PDF = OUTPUT_DIR.join("navier-stokes.pdf")
-PAPER_REPO_ROOT = ROOT.join("papers/navier-stokes")
 BUNDLE_ROOT = ROOT.join("problems/navier-stokes/submission-bundle")
+AUTHORITATIVE_PDF = BUNDLE_ROOT.join("navier-stokes-submission.pdf")
 RUBRIC = ROOT.join("problems/navier-stokes/submission-bundle/source-field-representation-rubric.md")
 MIN_AUTHORITATIVE_PAGES = 1_000
 MAX_REPEATED_RENDERED_CLAIMS = 25
@@ -42,13 +40,6 @@ end
 def git_stdout(*argv)
   stdout, _stderr, status = Open3.capture3("git", *argv, chdir: ROOT.to_s)
   status.success? ? stdout : ""
-end
-
-def paper_repo_git_success?(*argv)
-  return false unless PAPER_REPO_ROOT.join(".git").directory?
-
-  _stdout, _stderr, status = Open3.capture3("git", *argv, chdir: PAPER_REPO_ROOT.to_s)
-  status.success?
 end
 
 def pdf_pages(path)
@@ -105,26 +96,14 @@ else
 end
 
 if git_success?("check-ignore", "-q", relative(AUTHORITATIVE_PDF))
-  paper_relative = AUTHORITATIVE_PDF.relative_path_from(PAPER_REPO_ROOT).to_s
-  if PAPER_REPO_ROOT.join(".git").directory?
-    if paper_repo_git_success?("check-ignore", "-q", paper_relative)
-      errors << "authoritative PDF is ignored by the paper workspace git repo: #{relative(AUTHORITATIVE_PDF)}"
-    end
-  else
-    errors << "authoritative PDF is ignored by git and no sovereign paper workspace git repo is present: #{relative(AUTHORITATIVE_PDF)}"
-  end
+  errors << "authoritative problem-local PDF is ignored by git: #{relative(AUTHORITATIVE_PDF)}"
 end
 
-bundle_pdfs = Dir.glob(BUNDLE_ROOT.join("**/*.pdf").to_s).sort
-unless bundle_pdfs.empty?
-  errors << "bundle-local PDF outputs remain: #{bundle_pdfs.map { |path| relative(path) }.join(', ')}"
-end
-
-extra_output_pdfs = Dir.glob(OUTPUT_DIR.join("*.pdf").to_s).sort.reject do |path|
+bundle_pdfs = Dir.glob(BUNDLE_ROOT.join("**/*.pdf").to_s).sort.reject do |path|
   Pathname.new(path).expand_path == AUTHORITATIVE_PDF.expand_path
 end
-unless extra_output_pdfs.empty?
-  errors << "rival authoritative-edge PDF outputs remain: #{extra_output_pdfs.map { |path| relative(path) }.join(', ')}"
+unless bundle_pdfs.empty?
+  errors << "rival problem-local PDF outputs remain: #{bundle_pdfs.map { |path| relative(path) }.join(', ')}"
 end
 
 if OUTPUT_DIR.join("navier-stokes-source-chronicle-manifest.json").exist?
@@ -137,13 +116,14 @@ end
 
 tracked_bundle_pdfs = git_stdout("ls-files", "--", "problems/navier-stokes/submission-bundle").lines.grep(/\.pdf\z/).map(&:strip)
 tracked_bundle_pdfs.each do |path|
+  next if path == relative(AUTHORITATIVE_PDF)
   next unless ROOT.join(path).exist?
 
   errors << "tracked bundle-local PDF exists as rival authority: #{path}"
 end
 
 if errors.empty?
-  puts "PDF_OUTPUT_TOPOLOGY OK: #{relative(AUTHORITATIVE_PDF)} is the only Navier-Stokes PDF output authority and satisfies the reader-facing proof-role expansion contract."
+  puts "PDF_OUTPUT_TOPOLOGY OK: #{relative(AUTHORITATIVE_PDF)} is the only problem-local Navier-Stokes PDF output authority and satisfies the reader-facing proof-role expansion contract."
   exit 0
 end
 
