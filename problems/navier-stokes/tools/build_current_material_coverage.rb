@@ -181,7 +181,7 @@ FAMILIES = [
   },
   {
     "id" => "proof_irrelevant_build_or_provenance_surfaces",
-    "paper_representation" => "Build tooling, source-forensics tooling/manifests, alignment metadata, and ground-up manuscript work surfaces are not theorem material. The manuscript names their role only as provenance, export, or build support.",
+    "paper_representation" => "Build tooling, source-forensics tooling/manifests, alignment metadata, and the retired ground-up target reference are not theorem material. The manuscript names their role only as provenance, export, target-custody, or build support.",
     "files" => %w[
       tools/build_forward_positive_surface_quarantine.rb
       source-forensics/archive-scrivener-manifest.txt
@@ -190,8 +190,7 @@ FAMILIES = [
       source-forensics/build_master_extraction.py
       misalignment.json
       submission-bundle/authorial-structure-pass-20260526.md
-      submission-bundle/ground-up/main.tex
-      submission-bundle/ground-up/target-reference.md
+      submission-bundle/ground-up-target-reference.md
     ]
   },
   {
