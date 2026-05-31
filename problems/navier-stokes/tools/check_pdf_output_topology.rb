@@ -6,7 +6,7 @@ require "pathname"
 
 ROOT = Pathname.new(__dir__).join("../../..").expand_path
 BUNDLE_ROOT = ROOT.join("problems/navier-stokes/submission-bundle")
-AUTHORITATIVE_PDF = BUNDLE_ROOT.join("navier-stokes-submission.pdf")
+AUTHORITATIVE_PDF = BUNDLE_ROOT.join("navier-stokes-human-submission.pdf")
 RUBRIC = ROOT.join("problems/navier-stokes/submission-bundle/source-field-representation-rubric.md")
 MIN_AUTHORITATIVE_PAGES = 1_000
 MAX_REPEATED_RENDERED_CLAIMS = 25
