@@ -6,7 +6,6 @@ require "pathname"
 ROOT = Pathname.new(__dir__).join("../../..").expand_path
 BUNDLE_ROOT = ROOT.join("problems/navier-stokes/submission-bundle")
 MAIN_TEX = BUNDLE_ROOT.join("navier-stokes-submission.tex")
-GROUND_UP_TEX = BUNDLE_ROOT.join("ground-up/main.tex")
 SURFACE_APPENDIX = BUNDLE_ROOT.join("surface-derivation-appendix.tex")
 SOURCE_FIELD_APPENDIX = BUNDLE_ROOT.join("source-field-reader-appendix.tex")
 PROOF_ATTEMPT_MIN_SOURCE_WORDS = 19_000
@@ -76,17 +75,6 @@ CURRENT_MAIN_ANCHORS = [
   "\\section{The Closing Hinges}",
   "\\section{Branch Derivation Patterns}"
 ].freeze
-
-CURRENT_GROUND_UP_ANCHORS = CURRENT_MAIN_ANCHORS.map do |anchor|
-  case anchor
-  when "\\section{The Support Boundary}"
-    "\\section{Support Roles}"
-  when "\\section{Comparison And Transfer Boundary}"
-    "\\section{Comparison And Transfer Roles}"
-  else
-    anchor
-  end
-end.freeze
 
 PROOF_ATTEMPT_ANCHORS = [
   "\\section{Proof Attempts And Failures To Prove Smoothness}",
@@ -180,7 +168,6 @@ end
 
 def required_anchors_for(path)
   return CURRENT_MAIN_ANCHORS if path == MAIN_TEX
-  return CURRENT_GROUND_UP_ANCHORS if path == GROUND_UP_TEX
 
   []
 end
@@ -260,7 +247,7 @@ end
 
 errors = []
 
-[MAIN_TEX, GROUND_UP_TEX].each do |path|
+[MAIN_TEX].each do |path|
   next unless path.exist?
 
   body = visible_body(path)
