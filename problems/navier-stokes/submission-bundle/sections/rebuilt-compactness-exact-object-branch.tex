@@ -1,0 +1,76 @@
+\section{Compactness And Exact-Object Capture}
+\label{sec:compactness-exact-object-branch}
+
+The compactness branch addresses a different part of the positive-forward proof
+program. Energy, enstrophy, and scale estimates try to produce control. The
+compactness branch asks what kind of object that control produces near an alleged
+terminal time. A finite-time breakdown claim needs more than a growing norm. It
+needs a terminal object that still belongs to the original Navier--Stokes
+problem.
+
+The positive-forward aim is exact-object capture. Start with a smooth solution
+on its maximal interval \([0,T_*)\), and suppose a terminal scenario is being
+formed as \(t\uparrow T_*\). One selects a sequence \(t_n\uparrow T_*\) and a
+family of localized or spectral objects derived from \(u(t_n)\). Compactness is
+then used to extract a limit. The useful limit must remain attached to the same
+datum, the same equation, the same pressure law, and the same preterminal
+solution.
+
+The standard compactness pattern has two parts. Low frequencies become compact
+once enough time regularity and spatial control are available. High frequencies
+are made small by a tail estimate. Schematically, write
+\[
+  u=P_{\leq N}u+P_{>N}u.
+\]
+The low-frequency term lives in a finite-dimensional or locally compact space
+after equicontinuity is obtained. The high-frequency term is controlled by a
+spectral tail quantity such as
+\[
+  \sum_{j>N}2^{2sj}\|P_j u(t)\|_{L^2}^2.
+\]
+The compactness plan is to choose \(N\) large, control the tail uniformly, pass to
+a limit in the low modes, and reconstruct the terminal object.
+
+The branch stalls at dependency order. Compactness consumes exactly the controls
+that the earlier branches were trying to prove. A low/high split can extract an
+object only after the tail, source, and participation bills have already been
+paid at the strength required by the topology. Thus compactness is a receiver of
+control rather than a free source of control.
+
+This creates the exact-object residue. A terminal limit can be too weak, too
+detached, too dependent on the chosen sequence, or too poorly connected to the
+pressure-viscosity law. Each defect matters because a breakdown witness has to be
+a same-solution witness. A detached compactness artifact cannot carry the full
+burden of finite-time breakdown for the original Navier--Stokes solution.
+
+The compactness branch therefore supplies one of the central motivations for the
+CM-exit method. A terminal object has to be tested before it is allowed to serve
+as a witness. The test is not merely whether some limiting distribution exists.
+The test asks whether the object carries the services required for membership in
+the working Navier--Stokes class.
+
+Three failure modes dominate this branch.
+
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Carrier failure.} The selected object lacks a positive material or
+      packet carrier at the terminal scale. This is a Pack-side obstruction.
+\item \textbf{Participation failure.} The selected object fails to carry the same
+      pressure-viscosity participation law. This is a Part-side obstruction.
+\item \textbf{Readout failure.} The selected object has no positive-scale field
+      readout strong enough to support continuation. This is a Field-side
+      obstruction.
+\end{enumerate}
+
+The positive-forward compactness branch tries to produce a terminal object that
+survives all three tests. The CM-exit method reverses the burden at the terminal
+claim. If a finite-time breakdown claim points to a compactness object, that
+object must pass the same-solution membership services. The first failed service
+turns the object into a class-exit witness rather than an in-class nonsmooth
+continuation.
+
+This branch also explains why the paper must track surface fidelity. A compact
+limit on the torus, a local blowup profile, and a whole-space export object are
+not interchangeable. Each lives on a specific surface with specific compactness
+and pressure rules. The rebuilt PDF therefore treats periodic packet capture,
+local profile capture, and whole-space export as related branch concerns with
+separate admission tests.

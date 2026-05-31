@@ -1,0 +1,90 @@
+\section{The Class-Membership Exit Method}
+\label{sec:cm-exit-method}
+
+The preceding branches share the same lesson. A positive-forward proof tries to
+pay every dangerous channel by a stronger estimate. When that effort stalls, the
+branch leaves a more precise terminal object: a source reserve, a high-frequency
+tail, a compactness artifact, a surface-fidelity defect, an endpoint remnant, or
+an export boundary. The class-membership exit method begins at that point.
+
+The method asks a direct question. Suppose a finite-time breakdown claim points
+to a terminal object \(Q\). What must \(Q\) carry in order to count as a terminal
+object for the same Navier--Stokes solution?
+
+We write the working class as
+\[
+  \mathfrak O_{\NS}^{\mathrm{work}}.
+\]
+Membership in this class means that the object under discussion is still a
+same-solution Navier--Stokes object. It has to remain attached to the original
+datum, the same equation, the same pressure-viscosity participation law, and a
+field readout capable of supporting continuation.
+
+The exit predicate is
+\[
+  \Exit(Q;\mathfrak O_{\NS}^{\mathrm{work}})
+  :=
+  \neg\Member(Q;\mathfrak O_{\NS}^{\mathrm{work}}).
+\]
+This formula is the organizing primitive of the proof. It does not assert that a
+bad-looking object is automatically an exit. The object first has to enter the
+same-solution terminal test. The exit is derived only after a required membership
+service fails.
+
+The services are recorded as three faces.
+
+\paragraph{Pack.}
+The Pack service asks whether the terminal object has a positive material carrier
+or selected packet. A proposed breakdown witness has to be carried by something
+with positive terminal presence. A zero-radius remnant, detached donor ancestry,
+or packet with no selected positive carrier fails at this face.
+
+\paragraph{Part.}
+The Part service asks whether the same Navier--Stokes equation still acts on the
+selected packet. The pressure law, viscosity, divergence-free constraint, and
+preterminal branch have to remain the same. A source object that survives only by
+leaving the original pressure-viscosity participation law fails at this face.
+
+\paragraph{Field.}
+The Field service asks whether the object admits a positive-scale coherent field
+readout. Once the object has a carrier and participates in the same equation, it
+still has to produce field information strong enough to belong to the
+continuation side. A terminal object with no positive-scale field readout fails
+at this face.
+
+The branch split is therefore:
+\[
+  \text{terminal witness candidate}
+  \quad\longrightarrow\quad
+  \begin{cases}
+  \text{membership side: continuation readout},\\
+  \text{exit side: first failed service}.
+  \end{cases}
+\]
+The pass side belongs to the classical continuation logic. The fail side gives a
+class exit and cannot serve as an in-class nonsmooth terminal continuation of the
+same solution.
+
+This is why the CM-exit method is a silver-standard proof route. It does not try
+to prove global smoothness by one monolithic estimate. It consumes the finite
+breakdown witness itself. Every branch that produces a terminal survivor must
+explain the survivor's status inside the same-solution membership test.
+
+The method also gives the rebuild structure of this paper. Each branch section
+has to end by placing its survivor into one of four bins:
+\[
+  \text{continuation readout},\qquad
+  \text{Pack failure},\qquad
+  \text{Part failure},\qquad
+  \text{Field failure}.
+\]
+A branch can also remain marked as support or scope boundary until its terminal
+object is admitted to the test. This prevents source-wall, no-pulse, endpoint,
+local-critical, compactness, or comparison material from being promoted before it
+lands on a same-solution face.
+
+The no-third-branch principle is the final class-law step. After the terminal
+object is admitted to the same-solution test, the branch cannot be both a lawful
+in-class continuation and the same finite nonsmooth terminal witness whose first
+membership service has failed. The pass branch and the exit branch have different
+class status. That distinction is the engine of the contrapositive proof.

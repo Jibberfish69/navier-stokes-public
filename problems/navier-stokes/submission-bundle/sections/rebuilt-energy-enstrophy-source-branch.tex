@@ -1,0 +1,103 @@
+\section{Energy, Enstrophy, And The Source-Reserve Branch}
+\label{sec:energy-enstrophy-source-branch}
+
+The first positive-forward branch starts from the strongest native control in the
+Navier--Stokes equation: kinetic energy. This branch is the natural starting
+point because it uses the equation on its own surface. There is no imported
+geometry, no auxiliary model, and no change of solution class. The original
+solution pays an exact bill:
+\[
+  \frac12\frac{d}{dt}\|u(t)\|_{L^2}^2
+  +\nu\|\nabla u(t)\|_{L^2}^2=0.
+\]
+After integration, this gives
+\[
+  \sup_{0\le t<T}\|u(t)\|_{L^2}^2
+  +2\nu\int_0^T\|\nabla u(t)\|_{L^2}^2\,dt
+  \le \|u_0\|_{L^2}^2.
+\]
+The estimate is exact, global on every finite time interval, and same-solution.
+It also shows the limitation of the branch. Smooth continuation needs control of
+derivatives beyond the energy level.
+
+The natural lift is enstrophy. Define
+\[
+  Y(t)=\frac12\|\nabla u(t)\|_{L^2}^2.
+\]
+For smooth solutions on the periodic surface, differentiating and integrating by
+parts gives
+\[
+  \frac12\frac{d}{dt}\|\nabla u(t)\|_{L^2}^2
+  +\nu\|\Delta u(t)\|_{L^2}^2
+  =
+  \int_{\mathbb T^3}(u\cdot\nabla)u\cdot\Delta u\,dx.
+\]
+The left side is the derivative-level viscous payment. The right side is the
+source term. It is the place where the motion of the fluid can feed the same
+derivatives that viscosity is trying to damp.
+
+The standard estimate is useful and sharp enough to explain the obstruction.
+H\"older gives
+\[
+  \left|\int_{\mathbb T^3}(u\cdot\nabla)u\cdot\Delta u\,dx\right|
+  \le
+  \|u\|_{L^6}\|\nabla u\|_{L^3}\|\Delta u\|_{L^2}.
+\]
+Sobolev and interpolation give
+\[
+  \|u\|_{L^6}\lesssim \|\nabla u\|_{L^2},
+  \qquad
+  \|\nabla u\|_{L^3}
+  \lesssim
+  \|\nabla u\|_{L^2}^{1/2}\|\Delta u\|_{L^2}^{1/2}.
+\]
+Therefore
+\[
+  |I(t)|
+  \lesssim
+  \|\nabla u\|_{L^2}^{3/2}\|\Delta u\|_{L^2}^{3/2}.
+\]
+Young's inequality yields
+\[
+  |I(t)|
+  \le
+  \frac{\nu}{2}\|\Delta u\|_{L^2}^2
+  +C_\nu\|\nabla u\|_{L^2}^6,
+\]
+and hence
+\[
+  Y'(t)\le C_\nu Y(t)^3.
+\]
+
+This is a continuation estimate, but it is not a global smoothness estimate. The
+comparison equation
+\[
+  Z'(t)=C_\nu Z(t)^3
+\]
+has finite-time growth. The branch therefore stops at a precise point. Energy
+pays the integrated first-derivative bill. Enstrophy exposes the nonlinear source
+bill. The known absorption gives local control and leaves a source channel that
+can still support terminal derivative growth.
+
+The survivor of this branch is the source reserve: the part of the nonlinear
+interaction that remains after the available viscous payment has been made. In a
+positive-forward proof, one tries to delete this reserve by a sharper estimate,
+a cancellation, a sign argument, a pressure decomposition, a localized criterion,
+or a scale separation. Each refinement may reduce the reserve. The branch remains
+open whenever a terminal source object can still be carried by the same solution.
+
+For the rebuilt paper, this is the branch's main lesson. The obstruction is not a
+failure of notation. It is a terminal object candidate. A finite-time breakdown
+claim that relies on this source channel has to say what the channel is at the
+terminal time. If it still participates in the same Navier--Stokes equation, it
+belongs to the same-solution witness test. If the source reserve breaks
+same-equation participation, loses the carrier required for the selected packet,
+or fails positive-scale field coherence, then the obstruction is read through the
+CM-exit method rather than treated as an in-class nonsmooth continuation.
+
+Thus the energy/enstrophy branch supplies one of the central motivating families
+for the class-membership proof. The pass side is the ordinary continuation side:
+the source is absorbed strongly enough to propagate the derivative control. The
+fail side is a terminal source-reserve object. Its final status is determined by
+the same-solution membership services, not by the mere fact that a positive
+estimate stalled.
