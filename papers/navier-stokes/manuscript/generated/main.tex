@@ -1,18 +1,297 @@
 \documentclass[11pt]{article}
 
-\title{Navier--Stokes Global Regularity: Machine Paper Factory Draft}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem{remark}{Remark}
+
+\newcommand{\NS}{\mathrm{NS}}
+\newcommand{\CM}{\mathrm{CM}}
+\newcommand{\Pack}{\mathrm{Pack}}
+\newcommand{\Part}{\mathrm{Part}}
+\newcommand{\Field}{\mathrm{Field}}
+\newcommand{\Member}{\mathrm{Member}}
+\newcommand{\Exit}{\mathrm{Exit}}
+\newcommand{\Pass}{\mathrm{Pass}}
+\newcommand{\Fail}{\mathrm{Fail}}
+\newcommand{\Owork}{\mathfrak O_{\NS}^{\mathrm{work}}}
+\newcommand{\Tthree}{\mathbb T^3}
+\newcommand{\Rthree}{\mathbb R^3}
+
+\setlength{\emergencystretch}{1em}
+
+\title{Periodic Three-Dimensional Navier--Stokes:\\
+       A Machine-Audited Class-Membership Draft}
 \author{Codex Machine Paper Factory}
-\date{2026-05-31}
+\date{May 31, 2026}
 
 \begin{document}
 \maketitle
 
-\section*{Factory Status}
-This is the machine-owned paper-factory source for the Navier--Stokes lane.
-It is not a Clay-ready submission and does not claim proof completion.
+\begin{abstract}
+This is the first non-seed machine source for the Navier--Stokes paper factory.
+It writes the current periodic \(\Tthree\) proof program as a paper draft, while keeping the audit boundary visible.
+The live program is the class-membership contrapositive:
+an alleged finite terminal witness from the original smooth Navier--Stokes evolution is admitted to the same-fluid terminal packet test, sorted through \(\Pack_Q\), \(\Part_{N,Q}\), and \(\Field_{N,r,Q}\), and the first failed face is read as
+\[
+  \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+\]
+The draft is scoped to the periodic statement.
+The whole-space \(\Rthree\) export is recorded as a separate downstream burden, not silently claimed here.
+\end{abstract}
 
-The paper factory may rewrite this file from scratch, replace its structure,
-and add audited mathematical content under the active `papers/**` machine
-contract.
+\tableofcontents
+\clearpage
+
+\section{Machine Audit Notice}
+
+This source is owned by the autonomous paper factory under \path{papers/navier-stokes/manuscript/generated/main.tex}.
+It replaces the seed TeX with a paper-shaped draft.
+The draft is machine-written and audit-bound: every promoted mathematical claim below is tied either to the current route lock, the CM referee audit, or the already built authoritative-edge TeX snapshot.
+
+The governing checked sources for this draft are:
+\begin{enumerate}[label=\textup{S\arabic*.},leftmargin=2.5em]
+  \item \path{problems/navier-stokes/route-lock.yaml}.
+  This locks the object law as terminal witness consumption through Pack, Part, and Field, with \(\Exit(Q):=\neg\Member(Q)\) as the class-exit conclusion.
+  \item \path{problems/navier-stokes/cm-contrapositive-referee-audit.yaml}.
+  This records the periodic-statement referee pass, separates the \(\Tthree\) result from any \(\Rthree\) export, and names the terminal packet capture / face-exhaustion chain as the proof-bearing periodic surface.
+  \item \path{papers/navier-stokes/build/output/authoritative-edge/navier-stokes.tex}.
+  This supplies the existing reader-facing CM exposition that this machine source now brings into the generated-source side.
+\end{enumerate}
+
+\subsection{Claim Boundary}
+
+The claim carried by this draft is the periodic class-membership proof program.
+It does not merge the periodic result with a whole-space export.
+It does not turn support material into a proof-bearing theorem unless that support lands in \(\Pack_Q\), \(\Part_{N,Q}\), or \(\Field_{N,r,Q}\) for the same terminal witness.
+It does not treat \(\Member(Q;\Owork)\) as a witness face.
+Membership is the pass-side class predicate.
+Pack, Part, and Field are the tested faces.
+
+\section{The Periodic Problem}
+
+Let \(u:\Tthree\times[0,T)\to\mathbb R^3\) and \(p:\Tthree\times[0,T)\to\mathbb R\) satisfy
+\[
+  \partial_t u+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+  \qquad
+  \nabla\cdot u=0,
+\]
+with fixed \(\nu>0\), zero external force, and smooth divergence-free initial datum
+\[
+  u(\cdot,0)=u_0.
+\]
+The periodic smoothness question asks whether the smooth solution determined by \(u_0\) can stop at a finite time because smoothness breaks down.
+
+The ordinary direct route tries to prove estimates strong enough to keep every derivative finite.
+The class-membership route begins from the opposite end.
+It takes a claimed finite terminal obstruction and asks whether that obstruction is still a legal terminal object for the same Navier--Stokes evolution.
+
+\section{Why the Direct Route Is Not the Load-Bearing Engine}
+
+Energy gives a real law.
+For smooth divergence-free periodic solutions,
+\[
+  \frac12\frac{d}{dt}\|u(t)\|_{L^2}^2
+  +\nu\|\nabla u(t)\|_{L^2}^2=0.
+\]
+This law controls kinetic energy and the time integral of the gradient.
+It does not by itself control all derivatives.
+
+One derivative higher, the enstrophy calculation exposes the familiar obstruction:
+\[
+  \frac12\frac{d}{dt}\|\nabla u(t)\|_{L^2}^2
+  +\nu\|\Delta u(t)\|_{L^2}^2
+  =
+  \int_{\Tthree}(u\cdot\nabla)u\cdot\Delta u\,dx.
+\]
+The left side contains viscous dissipation.
+The right side contains the nonlinear source.
+A direct global proof would need a closed estimate that absorbs the dangerous part of that source without asking for exactly the higher control the argument is trying to prove.
+
+The machine audit keeps this direct route as context.
+It is not the proof engine of this draft.
+The proof engine is the same-solution terminal test.
+
+\section{Contrapositive Reorientation}
+
+Assume a finite terminal obstruction is claimed for the original smooth datum.
+The claim has to point to something at the alleged terminal time.
+That something is the terminal witness under test.
+
+The class-membership question is narrower than a new positive estimate:
+\begin{quote}
+Does the alleged terminal witness remain a legal same-fluid Navier--Stokes object on a positive material packet, with the same equation participating, and with one coherent positive-scale field readout?
+\end{quote}
+
+The pass branch is the branch that remains a member of the working class.
+The fail branch is not a new nonsmooth solution inside the class.
+It is the first place where the alleged terminal object loses a required same-solution face.
+The proof therefore uses the split
+\[
+  \Pass\Longrightarrow \Member(Q;\Owork),
+  \qquad
+  \Fail\Longrightarrow \Exit(Q;\Owork).
+\]
+
+\section{The Working Class}
+
+\begin{definition}[Working same-fluid class]
+The working class \(\Owork\) is the paper's class-membership object for the periodic Navier--Stokes evolution from \(u_0\).
+A terminal record belongs to the class only when it remains attached to the same evolution and retains the required packet, participation, and field faces.
+\end{definition}
+
+\begin{definition}[Pack face]
+\(\Pack_Q\) means that the terminal object has a positive same-fluid material packet for the selected record \(Q\).
+Failure of \(\Pack_Q\) means the alleged terminal object has lost the material body needed to be tested as the same solution.
+\end{definition}
+
+\begin{definition}[Participation face]
+\(\Part_{N,Q}\) means that, through depth \(N\), the same Navier--Stokes equation acts on the selected packet.
+This includes the same pressure-viscosity participation, not a neighboring equation, filtered shadow, or exported surrogate.
+\end{definition}
+
+\begin{definition}[Field face]
+\(\Field_{N,r,Q}\) means that, after Pack and Part are fixed, one positive scale \(r>0\) still carries coherent field data through depth \(N\).
+Failure of every positive scale is a field-side class failure.
+\end{definition}
+
+\begin{definition}[Class exit]
+The class-exit conclusion is
+\[
+  \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+\]
+It is supported by a face failure.
+It is not identical to a face failure.
+\end{definition}
+
+\section{Terminal Witness Consumption}
+
+The audited route lock states the branch law in this order:
+\[
+\begin{aligned}
+&\text{finite Clay terminal witness}\\
+&\Longrightarrow \text{CM-test entry}\\
+&\Longrightarrow
+  \neg\Pack_Q\ \vee\ \neg\Part_{N,Q}\ \vee\
+  \forall r>0\,\neg\Field_{N,r,Q}\\
+&\Longrightarrow \Exit(Q;\Owork).
+\end{aligned}
+\]
+
+The order matters.
+Pack is tested first because the witness needs a positive same-fluid carrier.
+Part is tested after a carrier has survived because the same Navier--Stokes equation must act on that carrier.
+Field is tested after Pack and Part because positive-scale coherence is meaningful only on a participating same-fluid packet.
+
+\begin{lemma}[First failed face gives class exit]
+Let \(Q\) be a terminal record admitted to the CM test.
+When the first failed requirement in the ordered Pack/Part/Field test is
+\[
+  \neg\Pack_Q,
+  \qquad
+  \Pack_Q\wedge\neg\Part_{N,Q},
+  \qquad\text{or}\qquad
+  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},
+\]
+the record supports \(\Exit(Q;\Owork)\).
+\end{lemma}
+
+\begin{proof}
+Membership in \(\Owork\) requires the terminal record to keep the same-fluid packet, same-equation participation, and positive-scale field readout.
+The first failed face removes one required condition for membership while preserving the ordered information needed to say where the failure occurred.
+By definition of class exit, that loss supports \(\neg\Member(Q;\Owork)\), written as \(\Exit(Q;\Owork)\).
+\end{proof}
+
+\section{No Third Branch}
+
+The pass branch and fail branch are not two independent solution theories.
+They are the two outcomes of testing the same alleged terminal object.
+The pass branch remains a legal member branch.
+The fail branch carries a face failure and therefore exits the working class.
+
+\begin{proposition}[No in-class nonsmooth third branch]
+A terminal record cannot simultaneously be the same legal \(\Member(Q;\Owork)\) continuation branch and the same record carrying the derived terminal Pack/Part/Field face failure.
+\end{proposition}
+
+\begin{proof}
+The member branch retains the faces required by \(\Owork\).
+The failure branch loses at least one of those faces in the ordered terminal test.
+The same record cannot retain and lose the same required membership structure at once.
+\end{proof}
+
+\section{Periodic Completion Skeleton}
+
+\begin{theorem}[Audited periodic CM completion skeleton]
+For the periodic \(\Tthree\) Navier--Stokes statement, suppose the terminal witness is admitted to the same-fluid CM test, terminal non-continuation is exhausted by the ordered Pack/Part/Field face test, face failure embeds as \(\Exit(Q;\Owork)\), the pass branch reads out as \(\Member(Q;\Owork)\), and the no-third-branch proposition holds.
+Then the alleged finite terminal obstruction is not a legal in-class breakdown of the original smooth-data evolution.
+\end{theorem}
+
+\begin{proof}
+Let \(Q\) be the alleged finite terminal record.
+By terminal entry, \(Q\) is the object under the CM test.
+The ordered test has two possible outcomes.
+
+On the pass side, the record retains Pack, Part, and Field and is read as a member branch.
+That branch is the smooth same-solution continuation side of the split.
+
+On the fail side, the first failed face supports \(\Exit(Q;\Owork)\).
+That record has left the working class and cannot serve as an in-class finite terminal breakdown witness.
+
+The no-third-branch proposition removes the only remaining alternative: a record that is both the member continuation branch and the terminal failure witness.
+Thus the claimed finite terminal obstruction has no legal status as an in-class nonsmooth breakdown of the original periodic solution.
+\end{proof}
+
+\section{Support Families and Quarantine Rule}
+
+Older positive-forward material remains useful only after it is given the right proof role.
+Source-reserve estimates, selector arguments, terminal tail routes, pressure-source diagnostics, Euler comparisons, and whole-space export attempts may explain how a terminal record was found or pressure-tested.
+They become proof-bearing in this draft only when they land a same-record statement in \(\Pack_Q\), \(\Part_{N,Q}\), or \(\Field_{N,r,Q}\), or when they break terminal entry, finite-failure exhaustion, or CM embedding.
+
+This quarantine rule prevents a common overclaim.
+A support theorem can look powerful while proving a statement about a surrogate, a filtered object, a downstream export, or a different route.
+The periodic CM paper uses support only after the support has been translated onto the same terminal witness.
+
+\section{Whole-Space Boundary}
+
+The current machine audit separates two statements.
+The periodic \(\Tthree\) statement is the active proof-bearing surface of this draft.
+The whole-space \(\Rthree\) statement needs a separate tightness/localization or export theorem before it can be claimed from this source.
+
+That boundary is part of the proof hygiene.
+It keeps the paper from letting a periodic class-membership proof silently become a whole-space Clay submission.
+
+\section{Draft Audit Checklist}
+
+This machine draft currently satisfies the following internal paper-factory checks:
+\begin{enumerate}[label=\arabic*.,leftmargin=2em]
+  \item The seed source has been replaced by a non-seed paper draft.
+  \item The active theorem surface is named as periodic \(\Tthree\).
+  \item The whole-space \(\Rthree\) export is explicitly separated.
+  \item \(\Member(Q;\Owork)\) is kept as the pass-side class predicate.
+  \item Pack, Part, and Field are kept as witness faces.
+  \item \(\Exit(Q;\Owork)\) is stated as the class-exit conclusion supported by a face failure.
+  \item Positive-forward and support-family material is quarantined unless it lands on the same terminal witness.
+\end{enumerate}
+
+\section{Next Machine Expansion Targets}
+
+This draft is now paper-shaped, but it is still a first autonomous source pass.
+The next machine expansion inside \path{papers/navier-stokes} should replace the source-map placeholders with full paper proofs of the installed periodic packets:
+\begin{enumerate}[label=\textup{E\arabic*.},leftmargin=2.5em]
+  \item terminal witness entry for the selected periodic terminal object;
+  \item global material-atlas terminal capture on \(\Tthree\);
+  \item continuation-complete Pack/Part/Field face exhaustion;
+  \item pass-side membership readout;
+  \item no-third-branch exclusion in the same-record language.
+\end{enumerate}
 
 \end{document}
