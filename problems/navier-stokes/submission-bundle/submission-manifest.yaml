@@ -1,83 +1,28 @@
 ---
-version: 2
+version: 1
 problem_id: navier-stokes
 display_name: Navier-Stokes Global Regularity
-generated_at: '2026-05-27T00:34:58Z'
+generated_at: '2026-05-29T22:35:01Z'
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 manuscript_source_kind: tex
-manuscript_source_reason: ground-up CM contrapositive paper rebuild from direct-live
-  authority
+manuscript_source_reason: submission-export-status.manuscript_source
 source_metrics:
-  source_word_count: 8736
-  bundle_word_count: 321233
-  page_count: 617
+  source_word_count: 31099
+  bundle_word_count: 31099
+  primary_surface_word_count: 0
+  theorem_packet_word_count: 4408
+submission_metadata: problems/navier-stokes/submission-metadata.yaml
 outputs:
   tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-ground_up_rebuild:
-  target_reference: problems/navier-stokes/submission-bundle/ground-up/target-reference.md
-  source: problems/navier-stokes/submission-bundle/ground-up/main.tex
+theorem_surface:
+  surface_id: theorem-surface-navier-stokes-afca8b68a2f8
+  route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
+  slot_ids: []
 copied_artifacts:
   theorem_packet: problems/navier-stokes/submission-bundle/theorem-packet.yaml
   submission_verdict: problems/navier-stokes/submission-bundle/submission-verdict.yaml
   frozen_core: problems/navier-stokes/submission-bundle/frozen-core.md
   source_frontier: problems/navier-stokes/submission-bundle/source-frontier.yaml
   promotion_verdict: problems/navier-stokes/submission-bundle/promotion-verdict.yaml
-  current_material_coverage: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
-  representation_rubric: problems/navier-stokes/submission-bundle/source-field-representation-rubric.md
-  surface_derivation_appendix: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex
-  surface_derivation_inventory: problems/navier-stokes/submission-bundle/surface-derivation-inventory.yaml
-  surface_derivation_builder: problems/navier-stokes/tools/build_surface_derivation_appendix.rb
-authority_sources:
-- problems/navier-stokes/live-theorem-edge.yaml
-- problems/navier-stokes/source-frontier.yaml
-- problems/navier-stokes/theorem-packet.yaml
-- problems/navier-stokes/theorem-repair.yaml
-- problems/navier-stokes/dependency-discharge.yaml
-- problems/navier-stokes/submission-verdict.yaml
-- problems/navier-stokes/target-operating-contract.yaml
-- problems/navier-stokes/non-euler-cm-contrapositive-proof-certificates-20260514.yaml
-- problems/navier-stokes/non-euler-failure-face-diagnostic-map-20260514.yaml
-- problems/navier-stokes/non-euler-surface-face-sweep-index-20260514.yaml
-- problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
-- problems/navier-stokes/submission-bundle/current-material-coverage.yaml
-- problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex
-- problems/navier-stokes/submission-bundle/surface-derivation-inventory.yaml
-- problems/navier-stokes/tools/build_surface_derivation_appendix.rb
-- problems/navier-stokes/tools/build_current_material_coverage.rb
-surface_derivation_appendix:
-  appendix: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex
-  inventory: problems/navier-stokes/submission-bundle/surface-derivation-inventory.yaml
-  generator: problems/navier-stokes/tools/build_surface_derivation_appendix.rb
-  certificate_rows: 1944
-  certificate_rows_by_rule:
-    authority_inheritance_no_independent_failure: 44
-    direct_face_failure: 846
-    finite_face_disjunction: 96
-    no_selected_cm_failure_without_bridge: 541
-    selected_retained_field_failure: 417
-  quarantine_rows: 1853
-  quarantine_rows_by_scope:
-    repo-surface: 201
-    theorem-construction: 1652
-  current_material_family_rows: 103
-  current_material_families:
-  - id: basac_pressure_zeno_source_residue_family
-    file_count: 41
-  - id: late_l3_duhamel_translator_notes
-    file_count: 3
-  - id: late_cm_direction_or_same_ledger_notes
-    file_count: 8
-  - id: cm_class_law_completion_and_adversarial_audits
-    file_count: 17
-  - id: local_energy_elliptic_formalization_support
-    file_count: 3
-  - id: euler_mirror_current_exclusions
-    file_count: 7
-  - id: proof_irrelevant_build_or_provenance_surfaces
-    file_count: 8
-  - id: submission_representation_standard
-    file_count: 5
-  - id: current_theorem_creation_candidate_notes
-    file_count: 10
-  mathematical_appendix_expansion_rows: 3804
+authoritative_supplements: []

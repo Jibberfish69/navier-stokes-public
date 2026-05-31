@@ -22,7 +22,7 @@ Clay target
   -> one concrete positive attempt
   -> the terminal branch left by failure
   -> working class object
-  -> Pack/Part/Field services
+  -> Pack/Part/Field witness faces
   -> terminal packet capture
   -> class exit
   -> branch-family exhaustion
@@ -35,14 +35,15 @@ Each branch-family section must move through this sequence:
 positive-forward burden
   -> exact pressure or failure branch
   -> selected terminal object
-  -> first class service tested
+  -> first class witness face tested
   -> pass-side readout or fail-side class exit.
 ```
 
 The rendered PDF carries mathematical arguments only.
 Every relevant surface that enters the proof program must be expanded into a mathematical branch obligation, support obligation, or family obligation, with its claim and proof role stated inside the manuscript.
 Internal paths, filenames, generated-surface labels, coverage ledgers, build records, status surfaces, audit rows, and provenance inventories stay outside the PDF.
-The PDF may mention a branch family only by its mathematical mechanism, service face, and proof role.
+The PDF may mention a branch family only by its mathematical mechanism, witness face, and proof role.
+The PDF may not satisfy scale by repeating the same claim, proof, or reader-facing role with only an obligation number changed. That is padding, not representation. When many source rows collapse to one mathematical proof role, the reader-facing PDF must state the proof role once for that family and keep the row-level inventory outside the manuscript until there is real mathematical content to expand.
 
 Required verification:
 
@@ -68,7 +69,7 @@ Authoring gates:
 2. Every included branch must name its mathematical job.
 3. Every branch-family paragraph must preserve the Pack-first witness order.
 4. Every support estimate must attach to a hinge rather than float as background.
-5. Every live blocker must be stated as a theorem obligation with its service face and closing hinge.
+5. Every live blocker must be stated as a theorem obligation with its witness face and closing hinge.
 6. Dependency order is mandatory: definitions and operational need precede branch-family compression.
 7. There is no current concrete CM blocker after terminal witness consumption. The Pack-side/source support chain is retained as mathematical support and may enter the proof spine only through the terminal CM entry, Pack/Part/Field finite-failure exhaustion, or contrapositive embedding gates.
-8. The surface appendix must be long when the source field is long: compression is allowed only by proof role, never by removing relevant mathematical obligations from the manuscript.
+8. The surface appendix must be long when the source field is long and the mathematical roles are genuinely distinct. Compression is allowed only by proof role, never by removing relevant mathematical obligations from the manuscript. Repeating a proof-role template across row numbers is forbidden and must fail the PDF hygiene check.

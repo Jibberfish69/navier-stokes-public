@@ -99,11 +99,13 @@ FAMILIES = [
       theorem-construction/mpp-clay-terminal-cm-completeness-hardening-20260524.md
       theorem-construction/mpp-one-fell-swoop-closure-audit-20260524.md
       theorem-construction/sameledgerconcordance-a-theorem-creation-20260523.md
+      theorem-construction/chatgpt-terminal-zeno-vortex-ontology-verbatim-note-20260528.md
+      theorem-construction/mpp-terminal-zeno-vortex-ontology-unpacked-extraction-20260528.md
     ]
   },
   {
     "id" => "cm_class_law_completion_and_adversarial_audits",
-    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, source-reserve root CM face-consumption, surface-field completion audit, and the uniform two-sided obstruction lemma. The Clay-facing proof uses the pass-or-exit obstruction engine: the pass side supplies local non-vacuity by the simplest lawful smooth/Member(Q) witness, while the fail side closes only after CM-test entry and a concrete Pack/Part/Field face failure. Stale positive-bootstrap, positive no-exit, and forward no-free-sink objections do not become CM-merited objections unless they attack terminal CM entry, Pack/Part/Field exhaustion, or exhibit a genuine in-class nonsmooth third branch.",
+    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, source-reserve root CM face-consumption, surface-field completion audit, and the uniform two-sided obstruction lemma. The Clay-facing proof uses the pass-or-exit obstruction engine: the pass side supplies local non-vacuity by the simplest lawful smooth/Member(Q) witness, while the fail side closes only after CM-test entry and a concrete Pack/Part/Field face failure. The 2026-05-28 critical H^{1/2} route notes are represented here as conditional CM class-exit/Field landing support; they do not by themselves certify a new export theorem. Stale positive-bootstrap, positive no-exit, and forward no-free-sink objections do not become CM-merited objections unless they attack terminal CM entry, Pack/Part/Field exhaustion, or exhibit a genuine in-class nonsmooth third branch.",
     "files" => %w[
       theorem-construction/mcp-mpp-ttu-a-1ddd943b9d.md
       theorem-construction/mpp-nightly-terminal-cm-witness-red-team-20260524.md
@@ -120,6 +122,18 @@ FAMILIES = [
       theorem-construction/mpp-terminal-packet-capture-working-pass-20260526.md
       theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
       theorem-construction/mpp-nightly-relational-transfer-cm-completion-action-20260527.md
+      theorem-construction/mpp-critical-hhalf-concentration-to-cm-face-audit-20260528.md
+      theorem-construction/mpp-critical-norm-cm-exit-integration-audit-20260528.md
+      theorem-construction/mpp-critical-norm-cm-exit-unification-20260528.md
+      theorem-construction/mpp-field-coherence-controls-critical-shell-hhalf-20260528.md
+      theorem-construction/mpp-field-finite-difference-readout-hhalf-20260528.md
+      theorem-construction/mpp-goodscale-failure-to-field-exit-hhalf-20260528.md
+      theorem-construction/mpp-goodscale-ttu-status-audit-for-hhalf-route-20260528.md
+      theorem-construction/mpp-hhalf-oscillation-field-exit-reduction-20260528.md
+      theorem-construction/mpp-matched-field-finite-difference-bound-hhalf-20260528.md
+      theorem-construction/mpp-same-ledger-hhalf-extraction-attempt-20260528.md
+      theorem-construction/mpp-same-witness-atlas-selection-hhalf-20260528.md
+      theorem-construction/mpp-transported-partition-lp-commutator-hhalf-20260528.md
       cm-branch-family-certificate-ledger-20260526.yaml
       cm-contrapositive-comprehensive-diagnostic-sweep-20260526.yaml
       cm-switch-working-sweep-20260526.yaml
@@ -132,6 +146,24 @@ FAMILIES = [
       theorem-construction/mpp-elliptic-time-smearing-direct-attempt-20260517.md
       theorem-construction/mpp-local-energy-trace-anti-atom-direct-attempt-20260517.md
       theorem-construction/mcp-ns-formalizationledgerdebtlocalization-a-4ae79e3d40.md
+    ]
+  },
+  {
+    "id" => "r3_export_critical_wall_notes",
+    "paper_representation" => "Represented as whole-space export and critical-wall support. These notes classify R3 continuation criteria through the same Pack/Part/Field grammar, while the reader-facing periodic proof spine remains governed by the T3 terminal witness. A future R3 localization and tightness theorem is the required export bridge.",
+    "files" => %w[
+      theorem-construction/r3-cm-contrapositive-sobolev-hs-energy-20260528.md
+      theorem-construction/r3-cm-contrapositive-vorticity-bkm-strain-20260528.md
+      theorem-construction/r3-cm-contrapositive-prodi-serrin-20260528.md
+      theorem-construction/r3-cm-contrapositive-l3-critical-20260528.md
+      theorem-construction/r3-cm-contrapositive-hhalf-critical-20260528.md
+      theorem-construction/r3-cm-contrapositive-ckn-epsilon-regularity-20260528.md
+      theorem-construction/r3-cm-contrapositive-compactness-rigidity-20260528.md
+      theorem-construction/r3-cm-contrapositive-fourier-dyadic-20260528.md
+      theorem-construction/r3-cm-contrapositive-lagrangian-deformation-20260528.md
+      theorem-construction/r3-cm-contrapositive-pressure-route-20260528.md
+      theorem-construction/r3-cm-contrapositive-type-i-self-similar-20260528.md
+      theorem-construction/r3-cm-contrapositive-besov-lorentz-critical-20260528.md
     ]
   },
   {
@@ -167,10 +199,14 @@ FAMILIES = [
     "paper_representation" => "Governs how the large source field compresses into mathematical proof roles in the manuscript. This is an authoring standard, not theorem evidence.",
     "files" => %w[
       submission-bundle/source-field-representation-rubric.md
+      submission-bundle/proof-attempt-failure-appendix.tex
+      submission-bundle/source-field-reader-appendix.tex
       submission-bundle/surface-derivation-appendix.tex
       submission-bundle/surface-derivation-inventory.yaml
+      tools/build_source_field_reader_appendix.py
       tools/build_surface_derivation_appendix.rb
       tools/check_pdf_argument_hygiene.rb
+      tools/check_pdf_output_topology.rb
     ]
   }
 ].freeze

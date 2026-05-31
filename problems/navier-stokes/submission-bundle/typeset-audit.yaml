@@ -1,19 +1,11 @@
 ---
-version: 2
+version: 1
 problem_id: navier-stokes
-generated_at: '2026-05-27T00:34:58Z'
+generated_at: '2026-05-29T22:35:01Z'
 status: exported
 render_quality: typeset
-pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-page_count: 617
 overfull_box_count: 0
 overfull_box_count_gt_20pt: 0
 max_overfull_box_pt: 0.0
-underfull_box_count: 0
 undefined_control_sequence_count: 0
 missing_dollar_count: 0
-latex_error_count: 0
-warnings: []
-tex_byte_parity: true
-pdf_byte_parity: false
