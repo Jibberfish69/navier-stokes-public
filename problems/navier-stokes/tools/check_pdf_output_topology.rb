@@ -7,6 +7,7 @@ require "pathname"
 ROOT = Pathname.new(__dir__).join("../../..").expand_path
 OUTPUT_DIR = ROOT.join("papers/navier-stokes/build/output/authoritative-edge")
 AUTHORITATIVE_PDF = OUTPUT_DIR.join("navier-stokes.pdf")
+PAPER_REPO_ROOT = ROOT.join("papers/navier-stokes")
 BUNDLE_ROOT = ROOT.join("problems/navier-stokes/submission-bundle")
 RUBRIC = ROOT.join("problems/navier-stokes/submission-bundle/source-field-representation-rubric.md")
 MIN_AUTHORITATIVE_PAGES = 1_000
@@ -41,6 +42,13 @@ end
 def git_stdout(*argv)
   stdout, _stderr, status = Open3.capture3("git", *argv, chdir: ROOT.to_s)
   status.success? ? stdout : ""
+end
+
+def paper_repo_git_success?(*argv)
+  return false unless PAPER_REPO_ROOT.join(".git").directory?
+
+  _stdout, _stderr, status = Open3.capture3("git", *argv, chdir: PAPER_REPO_ROOT.to_s)
+  status.success?
 end
 
 def pdf_pages(path)
@@ -97,7 +105,14 @@ else
 end
 
 if git_success?("check-ignore", "-q", relative(AUTHORITATIVE_PDF))
-  errors << "authoritative PDF is ignored by git: #{relative(AUTHORITATIVE_PDF)}"
+  paper_relative = AUTHORITATIVE_PDF.relative_path_from(PAPER_REPO_ROOT).to_s
+  if PAPER_REPO_ROOT.join(".git").directory?
+    if paper_repo_git_success?("check-ignore", "-q", paper_relative)
+      errors << "authoritative PDF is ignored by the paper workspace git repo: #{relative(AUTHORITATIVE_PDF)}"
+    end
+  else
+    errors << "authoritative PDF is ignored by git and no sovereign paper workspace git repo is present: #{relative(AUTHORITATIVE_PDF)}"
+  end
 end
 
 bundle_pdfs = Dir.glob(BUNDLE_ROOT.join("**/*.pdf").to_s).sort
