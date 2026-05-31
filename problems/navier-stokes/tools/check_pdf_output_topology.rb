@@ -106,7 +106,7 @@ unless bundle_pdfs.empty?
   errors << "rival problem-local PDF outputs remain: #{bundle_pdfs.map { |path| relative(path) }.join(', ')}"
 end
 
-if OUTPUT_DIR.join("navier-stokes-source-chronicle-manifest.json").exist?
+if BUNDLE_ROOT.join("navier-stokes-source-chronicle-manifest.json").exist?
   errors << "source-chronicle manifest remains even though the contract requires reader-facing proof-role expansion"
 end
 
