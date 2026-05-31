@@ -14,7 +14,7 @@ source_metrics:
 submission_metadata: problems/navier-stokes/submission-metadata.yaml
 outputs:
   tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-  pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  pdf: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
 theorem_surface:
   surface_id: theorem-surface-navier-stokes-afca8b68a2f8
   route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
