@@ -1,8 +1,8 @@
 ---
-version: 5
+version: 6
 artifact_id: navier-stokes-current-route-dependency-graph-20260505
-generated_at: '2026-05-05T19:20:00Z'
-generated_by: codex-chat26
+generated_at: '2026-05-31T00:00:00Z'
+generated_by: codex
 status: current-lane-authority-overlay
 scope: problems/navier-stokes
 authority_mode: non_generated_theorem_facing_overlay
@@ -11,6 +11,11 @@ purpose: >-
   resolved by demoting normalized-adjoint source-drain to conditional support.
   The companion CM convergence atlas records the same graph as an audit-open
   target-refinement surface for automation and subagent theorem-crank passes.
+  Version 6 adds the missing visual-depth nodes for the periodic H^s endpoint,
+  PCTP/H^s audit pressure, L^3/L^n critical-space material, H^1/QDrain,
+  SCF/CKN readout, R^3 H^s tail export, and fixed-nu Euler transfer so the
+  viewer can show branch families without collapsing them into source-wall
+  cards.
 primary_frontier:
   obligation_id: source-wall-root-after-reconcile
   status: live
@@ -321,6 +326,136 @@ nodes:
       visible-jump / receiver / read-cover / legal-loss alternatives are routed.
       FieldSourceResidueJump.A classifies a native Field-face source residue as
       `(Field,Jump)`, but classification alone is not endpoint exclusion.
+  t3_periodic_hs_endpoint_layer:
+    status: installed-repo-declared-endpoint
+    theorem_ids:
+      - PeriodicGlobalSmoothness.T3
+      - PCTP.hard
+      - ECQ.A
+      - HsContinuation.T3
+    source:
+      - theorem-construction/mcp-final-theorem-statement-periodic-global-smoothness.md
+      - theorem-construction/mpp-scf-aact-elliptic-source-endpoint-branch-package.md
+      - theorem-construction/mpp-periodic-terminal-promotion-bridge.md
+      - theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md
+    role: >-
+      Periodic T^3 positive-forward endpoint layer. The repo-declared route is
+      smooth periodic data -> terminal-tail / Pack-Part-Field-tower readout ->
+      uniform H^s(T^3), s>5/2 -> standard H^s continuation. This node must stay
+      scoped to T^3 and must not absorb R^3 tail/export burdens.
+  t3_pctp_hs_audit_pressure:
+    status: audit-open-math-pressure
+    theorem_ids:
+      - PCTP.hard
+      - TTU.A
+      - TerminalTailUniformization
+    source:
+      - theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md
+      - theorem-construction/mcp-pctp-hard-terminal-tail-uniformization-read-cover-a6c643da31.md
+      - theorem-construction/mcp-pctp-hard-terminal-tail-production-read-end-0d58b126b6.md
+      - theorem-construction/mpp-pctp-hard-five-burden-frontier-audit-note.md
+    role: >-
+      Audit-pressure layer for the T^3 H^s endpoint. These surfaces say the hard
+      mathematical content is terminal-tail uniformization from original data to
+      a uniform H^s, s>5/2 continuation readout. They are not source-wall
+      replacement endpoints; they are displayed as pressure tied to the periodic
+      endpoint route.
+  t3_scf_ckn_aact_readout_layer:
+    status: installed-support-layer
+    theorem_ids:
+      - SCF.base
+      - CKN.MovingCylinder
+      - AACT.KX
+      - READ.END
+      - End_NS
+    source:
+      - theorem-construction/mpp-scf-aact-elliptic-source-endpoint-branch-package.md
+      - theorem-construction/mcp-moving-cylinder-ckn-admissibility-lemma-f2a546e26f.md
+      - theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
+    role: >-
+      Periodic readout/support layer: moving-cylinder CKN, SCF packets, AACT,
+      endpoint matrix, and tower/readout machinery feeding the T^3 H^s endpoint
+      and the CM terminal-witness endpoint.
+  h1_qdrain_enstrophy_wall:
+    status: equivalent-open-presentation
+    theorem_ids:
+      - QDrain.A
+      - QBound.A
+      - AWG.A
+      - Jump_avg=>bot
+    source:
+      - theorem-construction/mpp-qbound-to-awg-and-qdrain-wall-note.md
+      - theorem-construction/high-frequency-enstrophy-to-h1-lemma.md
+      - theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
+    role: >-
+      H^1/enstrophy presentation of the source-control wall. QBound.A would imply
+      AWG.A and no-Jump_avg, but QDrain.A is not proved from OriginalSmoothData.
+      This route is a genuine alternate language for the same source-control
+      burden, not a closed positive endpoint.
+  critical_ln_classical_criteria:
+    status: conditional-consumer
+    theorem_ids:
+      - BKM
+      - ProdiSerrin
+      - CriticalL3
+      - SourcePulseExclusion.A
+    source:
+      - theorem-construction/mpp-sourcepulse-classical-criteria-bkm-serrin-audit-note.md
+      - public-research-frontier.md
+    role: >-
+      BKM, Prodi-Serrin, L^3, and L^n critical criteria are valid consumers of a
+      terminal critical estimate. They do not themselves supply that estimate
+      from finite energy/original data; deriving the estimate is another
+      presentation of the source-control burden.
+  local_l3_cm_translator:
+    status: installed-local-cm-translator
+    theorem_ids:
+      - ParaproductNativeSourceCapture.A
+      - L3DuhamelResponseWorkLocalization.A
+      - SameLedgerHeatAncestorLocalization.A
+      - RetainedPackPartCriticalL3FieldExit.A
+    source:
+      - theorem-construction/mpp-public-critical-l3-translator-after-paraproduct-readback-20260523.md
+      - theorem-construction/mpp-l3-duhamel-response-work-localization-proof-20260523.md
+      - theorem-construction/mpp-retained-pack-part-critical-concentration-to-field-bridge-20260519.md
+      - live-theorem-edge.yaml
+    role: >-
+      Local L^3 same-witness translator installed as a CM-facing bridge where
+      cited. It is not a generic all-critical-class regularity theorem and does
+      not replace source-control or endpoint proof obligations.
+  r3_hs_tail_export_matrix:
+    status: open-export-branch
+    theorem_ids:
+      - Tail.Hs_R3
+      - TailFace_R3^Hs
+      - TTU.A_R3
+      - Tower.Cont_R3
+      - ExtCascade_s_R3
+    source:
+      - whole-space-r3-matrix-branch.md
+      - theorem-construction/r3-extcascade-s-theorem-attempt.md
+      - theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md
+      - theorem-construction/mpp-r3-tailface-hs-endpoint-theorem-attempt.md
+      - theorem-construction/r3-cm-contrapositive-sobolev-hs-energy-20260528.md
+    role: >-
+      Whole-space R^3 export matrix. The live R^3 burden is high-order exterior
+      H^s tail tightness or a noncircular theorem excluding TailFace_R3^Hs. This
+      branch is upstream-separated from the periodic T^3 endpoint.
+  fixed_nu_euler_transfer:
+    status: conditional-support
+    theorem_ids:
+      - DirectFixedNuEulerSmoothBridge.A
+      - EulerSmoothFixedNuRelativeBound.A
+      - EulerSmoothToNSTowerBound.A
+    source:
+      - theorem-construction/mpp-direct-fixed-nu-euler-smooth-ns-smooth-hierarchy-20260509.md
+      - euler-mirror/branch-manifest.yaml
+      - euler-mirror/completion-status.yaml
+    role: >-
+      Fixed-viscosity Euler-to-Navier-Stokes comparison lane in H^s, s>5/2. It
+      is a same-datum, same-interval transfer target and does not prove Euler
+      smoothness or stand-alone Navier-Stokes smoothness without the transfer
+      theorem.
   clay_target:
     status: target
     theorem_ids:
@@ -396,12 +531,46 @@ edges:
   - from: readout_scale_interface
     to: typed_cm_rows
     kind: supplies_read_cover_interface
+  - from: t3_scf_ckn_aact_readout_layer
+    to: t3_periodic_hs_endpoint_layer
+    kind: supplies_periodic_hs_readout
+  - from: t3_pctp_hs_audit_pressure
+    to: t3_periodic_hs_endpoint_layer
+    kind: audit_pressure_on_declared_endpoint
+    condition: terminal-tail uniformization / H^s continuation readout must stay visible as its own pressure layer
+  - from: typed_cm_rows
+    to: t3_periodic_hs_endpoint_layer
+    kind: supplies_cm_to_hs_readout_bridge
+  - from: h1_qdrain_enstrophy_wall
+    to: downstream_no_jump_readout
+    kind: alternate_source_control_language
+    condition: QDrain.A -> QBound.A -> AWG.A -> no Jump_avg
+  - from: critical_ln_classical_criteria
+    to: downstream_no_jump_readout
+    kind: terminal_critical_criteria_consumer
+    condition: critical norm estimate must first be proved on the terminal windows
+  - from: local_l3_cm_translator
+    to: typed_cm_rows
+    kind: installed_local_critical_cm_bridge
+    condition: local L3 same-witness translator only, not generic all-critical-class closure
   - from: typed_cm_rows
     to: cm_witness_face_bridge
     kind: supplies_cm_witness_rows
   - from: cm_witness_face_bridge
     to: clay_target
     kind: installed_smoothness_bridge
+  - from: t3_periodic_hs_endpoint_layer
+    to: clay_target
+    kind: scoped_t3_positive_endpoint
+    condition: scoped periodic T^3 endpoint only
+  - from: r3_hs_tail_export_matrix
+    to: clay_target
+    kind: separate_r3_export_branch
+    condition: requires Tail.Hs_R3 or TailFace_R3^Hs closure before whole-space claim
+  - from: fixed_nu_euler_transfer
+    to: clay_target
+    kind: comparison_support_not_closure
+    condition: requires exact same-datum fixed-nu transfer theorem before NS use
   - from: generated_surface_drift
     to: clay_target
     kind: release_blocker_not_math_blocker
@@ -412,3 +581,8 @@ boundary:
   - >-
     The graph intentionally keeps the reopened root source wall live until
     ScaleCriticalTreeCarleson.A or the Zeno rigid-class pair is proved.
+  - >-
+    The graph separates repo-declared T^3 endpoint closure from audit-pressure
+    surfaces. H^s/PCTP, L^3/L^n, QDrain/H^1, source-control, R^3 tail, and
+    fixed-nu comparison nodes are tied into the topology without being allowed
+    to overwrite one another.
