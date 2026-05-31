@@ -1,0 +1,99 @@
+---
+version: 1
+projection_type: shadow-reference-lane
+problem_id: navier-stokes
+display_name: Navier-Stokes Global Regularity
+plane: paper-export
+purpose: Read-only projection of paper-facing and export-facing surfaces without duplicating
+  theorem authority.
+live_root: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation"
+shadow_root: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation"
+pipeline_state_path: problems/navier-stokes/pipeline-state.yaml
+workflow_excerpt:
+  status: ready
+  current_stage: honesty-reviewed
+  highest_artifact: review-verdict
+  next_cell_type: release-or-respawn
+  next_action: Run release-or-respawn to convert this honesty verdict into either
+    promotion, upstream respawn, or an explicit blocked verdict.
+selection_rule: Read-only projection manifest. Do not treat this shadow plane as live
+  theorem authority.
+selected_surfaces:
+- artifact_key: draft_v7
+  problem_id: navier-stokes
+  relative_path: problems/navier-stokes/draft-v7.md
+  absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/draft-v7.md"
+  status: present
+  exists: true
+- artifact_key: draft_v8
+  problem_id: navier-stokes
+  relative_path: problems/navier-stokes/draft-v8.md
+  absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/draft-v8.md"
+  status: present
+  exists: true
+- artifact_key: main
+  problem_id: navier-stokes
+  relative_path: problems/navier-stokes/external-paper/main.tex
+  absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/external-paper/main.tex"
+  status: present
+  exists: true
+- artifact_key: main_result
+  problem_id: navier-stokes
+  relative_path: problems/navier-stokes/external-paper/sections/main-result.tex
+  absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/external-paper/sections/main-result.tex"
+  status: present
+  exists: true
+- artifact_key: manuscript_depth
+  problem_id: navier-stokes
+  relative_path: problems/navier-stokes/manuscript-depth.yaml
+  absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/manuscript-depth.yaml"
+  status: present
+  exists: true
+- artifact_key: monograph_v6_tandem_crosswalk
+  problem_id: navier-stokes
+  relative_path: problems/navier-stokes/monograph-v6-tandem-crosswalk.yaml
+  absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/monograph-v6-tandem-crosswalk.yaml"
+  status: present
+  exists: true
+- artifact_key: paper_architecture
+  problem_id: navier-stokes
+  relative_path: problems/navier-stokes/paper-architecture.yaml
+  absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/paper-architecture.yaml"
+  status: present
+  exists: true
+- artifact_key: paper_export_inputs
+  problem_id: navier-stokes
+  relative_path: problems/navier-stokes/paper-export-inputs.yaml
+  absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/paper-export-inputs.yaml"
+  status: present
+  exists: true
+- artifact_key: export_inputs
+  problem_id: navier-stokes
+  relative_path: problems/navier-stokes/paper/export-inputs.yaml
+  absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/paper/export-inputs.yaml"
+  status: missing
+  exists: false
+- artifact_key: review_log
+  problem_id: navier-stokes
+  relative_path: problems/navier-stokes/review-log.md
+  absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/review-log.md"
+  status: present
+  exists: true
+- artifact_key: submission_bundle_manifest
+  problem_id: navier-stokes
+  relative_path: problems/navier-stokes/submission-bundle/submission-manifest.yaml
+  absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/submission-bundle/submission-manifest.yaml"
+  status: present
+  exists: true
+- artifact_key: submission_metadata
+  problem_id: navier-stokes
+  relative_path: problems/navier-stokes/submission-metadata.yaml
+  absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/submission-metadata.yaml"
+  status: present
+  exists: true
+- artifact_key: submission_verdict
+  problem_id: navier-stokes
+  relative_path: problems/navier-stokes/submission-verdict.yaml
+  absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/submission-verdict.yaml"
+  status: present
+  exists: true
