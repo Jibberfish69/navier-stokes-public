@@ -1,0 +1,90 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.02in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem{claim}{Claim}
+\newtheorem{remark}{Remark}
+\newtheorem{corollary}{Corollary}
+
+\newcommand{\NS}{\mathrm{NS}}
+\newcommand{\Pack}{\mathrm{Pack}}
+\newcommand{\Part}{\mathrm{Part}}
+\newcommand{\Field}{\mathrm{Field}}
+\newcommand{\Member}{\mathrm{Member}}
+\newcommand{\Exit}{\mathrm{Exit}}
+\newcommand{\CM}{\mathrm{CM}}
+\newcommand{\Legal}{\mathrm{Legal}}
+\newcommand{\Owork}{\mathfrak O_{\NS}^{\mathrm{work}}}
+\newcommand{\WitnessRecord}{\mathcal W}
+\newcommand{\Rterm}{\mathcal R_*}
+\newcommand{\Ffail}{\mathcal F}
+\newcommand{\Pass}{\mathrm{Pass}}
+\newcommand{\Fail}{\mathrm{Fail}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\setlength{\emergencystretch}{1em}
+
+\title{Navier--Stokes Global Regularity: Branch Obstructions And The Class-Membership Exit Method}
+\author{Thomas Birnie}
+\date{Rebuilt staging draft, May 31, 2026}
+
+\begin{document}
+\maketitle
+
+\input{sections/rebuilt-front-matter-and-scope.tex}
+
+\setcounter{tocdepth}{1}
+\tableofcontents
+\clearpage
+
+\input{sections/rebuilt-branch-status-ledger.tex}
+\input{sections/rebuilt-positive-forward-and-four-body-diagnostic.tex}
+\input{sections/rebuilt-energy-enstrophy-source-branch.tex}
+\input{sections/rebuilt-scale-barrier-tail-branch.tex}
+\input{sections/rebuilt-compactness-exact-object-branch.tex}
+\input{sections/rebuilt-recovery-surface-fidelity-branch.tex}
+\input{sections/rebuilt-lower-prefix-upper-tail-branch.tex}
+\input{sections/rebuilt-kernelized-lifted-band-branch.tex}
+\input{sections/rebuilt-shell-gain-half-derivative-branch.tex}
+\input{sections/rebuilt-cm-exit-method.tex}
+
+\section{Next Branches To Rebuild}
+\label{sec:next-branches-to-rebuild}
+
+The next branch sections should be built from the same pattern used above:
+branch question, positive aim, formal setup, attempted payment, calculation,
+terminal stops, survivor object, positive-forward stall, CM-exit classification,
+and branch outcome.
+
+The next queue is:
+
+\begin{enumerate}[leftmargin=*]
+\item LPAS and cumulative tail stress branch;
+\item Volterra and lower-triangular memory branch;
+\item signed-pair and no-free-sink branch;
+\item pressure and vortex-sustain branch;
+\item no-pulse and source-wall branch;
+\item local-critical and endpoint branch;
+\item torus branch;
+\item whole-space export branch.
+\end{enumerate}
+
+\section{Staging Boundary}
+\label{sec:staging-boundary}
+
+This file is a rebuilt staging draft. It assembles new human-authored sections
+for the PDF rebuild while preserving the existing compiled submission manuscript
+as a separate surface. Promotion into the active submission source should happen
+after section review, branch inventory alignment, and TeX build checks.
+
+\end{document}
