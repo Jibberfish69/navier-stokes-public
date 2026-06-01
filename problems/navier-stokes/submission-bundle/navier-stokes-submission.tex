@@ -35,7 +35,7 @@
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 \setlength{\emergencystretch}{1em}
 
-\title{Global Regularity for Periodic Three-Dimensional Navier--Stokes: A Same-Solution Contrapositive Proof}
+\title{Periodic Three-Dimensional Navier--Stokes: A Same-Solution CM Contrapositive Classification}
 \author{Thomas Birnie}
 \date{May 26, 2026}
 
@@ -43,7 +43,7 @@
 \maketitle
 
 \begin{abstract}
-We prove global smooth existence for the incompressible three-dimensional Navier--Stokes equations on the periodic domain \(\mathbb T^3\), with smooth divergence-free initial data and zero external force.
+We analyze finite-time breakdown for the incompressible three-dimensional Navier--Stokes equations on the periodic domain \(\mathbb T^3\), with smooth divergence-free initial data and zero external force.
 A direct proof would give a priori estimates that keep the solution smooth for all time.
 That is the gold-standard route.
 This paper takes the contrapositive route.
@@ -63,16 +63,17 @@ The split is checked in three places:
 \(\Pack_Q\) asks for a positive material carrier.
 \(\Part_{N,Q}\) asks whether the same Navier--Stokes equation, with its pressure and viscosity, still acts on that packet.
 \(\Field_{N,r,Q}\) asks for positive-scale field control on one witness record.
-The first place where the terminal object fails gives the class exit
+The first place where the terminal object fails gives the class-exit classification
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
-In that case the object cannot serve as the Clay breakdown witness.
+The present manuscript proves that classification.
+It does not yet prove the final Clay counterexample-exclusion bridge saying that a classified terminal class exit cannot be the actual finite breakdown counterexample for the original smooth-data solution.
 
 The rest of the paper makes this test precise for the periodic problem.
 It builds the transported whole-torus material atlas, captures each alleged terminal branch on that atlas, and reads the branch through Pack, Part, and Field in that order.
 Familiar critical, local, and endpoint scenarios enter the proof by attaching to the selected terminal object and facing the same three checks.
-No finite nonsmooth terminal branch survives the split: it either stays on the smooth side of the same solution, or it exits the class and cannot serve as a breakdown witness.
+The live closing burden is therefore precise: convert classified Pack/Part/Field exit into exclusion of the alleged Clay finite-breakdown counterexample, without assuming the desired continuation.
 \end{abstract}
 
 \setcounter{tocdepth}{1}
@@ -826,8 +827,8 @@ By terminal packet capture, it loses Pack, or loses Part after Pack survives, or
 By finite failure witness class exit, that first failed requirement gives \(\Exit(Q;\Owork)\).
 \end{proof}
 
-\begin{theorem}[Clay closure by terminal witness consumption]
-Every finite terminal Clay witness from the same smooth initial datum is consumed by the CM terminal witness chain:
+\begin{theorem}[CM terminal witness classification]
+Every CM-test-admissible finite terminal Clay witness from the same smooth initial datum is classified by the CM terminal witness chain:
 \[
 \begin{aligned}
 &\text{finite breakdown witness}\\
@@ -838,24 +839,21 @@ Every finite terminal Clay witness from the same smooth initial datum is consume
 &\Longrightarrow \Exit(Q;\Owork).
 \end{aligned}
 \]
-Together with the pass-branch membership readout and the no-third-branch law, this excludes finite terminal breakdown.
+This is a classification theorem for the alleged terminal object.
 \end{theorem}
 
 \begin{proof}
-Assume, toward contradiction, that the maximal smooth solution from \(u_0\) stops at a finite time \(T_*\).
+Assume that the maximal smooth solution from \(u_0\) is alleged to stop at a finite time \(T_*\), and let the alleged terminal object be the object offered by that breakdown claim.
 The alleged finite terminal object is CM-test-admissible by finite-breakdown entry.
 Terminal packet capture and finite-failure type exhaustion force the terminal object into Pack, Part, or Field face failure.
 The CM embedding reads that face failure as \(\Exit(Q;\Owork)\).
-
-The same obstruction has its pass side represented by a lawful member witness, and membership readout extends a member branch smoothly past \(T_*\).
-The no-third-branch law excludes a terminal branch that is both that member continuation branch and the mechanism-derived face-failure branch.
-The terminal nonsmooth branch therefore has no legal in-class continuation status.
-The alleged finite terminal time is not a Clay-admissible breakdown of the original smooth-data evolution.
+This proves the CM classification of the terminal object.
+It does not by itself prove that a classified terminal class exit is inadmissible as a Clay breakdown counterexample.
 \end{proof}
 
 \section{The Clay-Facing CM Completion}
 
-The class law has now been proved in its working form.
+The class law has now been proved in its classification form.
 The Clay-facing completion records the exact terminal witness consumption chain:
 \[
 \begin{aligned}
@@ -865,8 +863,8 @@ The Clay-facing completion records the exact terminal witness consumption chain:
 &\Longrightarrow \Exit(Q;\Owork).
 \end{aligned}
 \]
-This is the same branch law used throughout the proof.
-The pass side supplies a lawful \(\Member(Q;\Owork)\) branch and reads out to smooth continuation.
+This is the same branch law used throughout the CM classification.
+The pass side supplies a lawful \(\Member(Q;\Owork)\) branch and reads out to smooth continuation when the pass branch is the same original solution branch.
 The fail side enters the CM terminal test and loses one required feature.
 
 \begin{definition}[Terminal witness consumption]
@@ -882,26 +880,28 @@ and the derived face failure is embedded as
 \]
 \end{definition}
 
-\begin{proposition}[Reopening test]
-The CM completion can be reopened only by producing a finite same-surface branch that remains a legal in-class \(\Member(Q;\Owork)\) continuation while carrying the terminal Pack/Part/Field failure witness, or by showing that a finite Clay breakdown witness fails CM terminal entry, finite-failure type exhaustion, or contrapositive embedding.
+\begin{proposition}[Clay-closing bridge still required]
+The CM classification becomes a global regularity proof only after one further bridge is proved: a CM-classified terminal exit cannot be the actual Clay finite-breakdown counterexample for the original smooth-data solution.
 \end{proposition}
 
 \begin{proof}
-Those are exactly the two ways to escape the pass-or-exit branch law.
-The first creates a genuine third branch.
-The second breaks the terminal witness consumption chain.
-Source-reserve, signed-pair, no-free-sink, no-pulse, and positive packet-survival estimates are support or pressure tests until they prove one of these two failures.
+The Clay breakdown alternative is not defined as a terminal class-member.
+It is the allegation that the original smooth solution has no classical continuation past \(T_*\).
+Thus deriving \(\Exit(Q;\Owork)\) classifies the alleged terminal object, but it does not yet contradict the breakdown alternative.
+To close the Clay problem, the argument must show that the same original solution has the pass-side member continuation, or else prove a different noncircular rule that makes the classified class exit inadmissible as a finite-breakdown counterexample.
 \end{proof}
 
-\begin{theorem}[Completion criterion]
-Assume the installed CM witness chain: finite Clay terminal witnesses are CM-test-admissible, terminal failure types are exhausted by Pack, Part, and Field, face failures embed as \(\Exit(Q;\Owork)\), pass branches have local \(\Member(Q;\Owork)\) witnesses, and no in-class terminal branch also carries the derived failure witness.
+\begin{theorem}[Conditional completion criterion]
+Assume the installed CM witness chain: finite Clay terminal witnesses are CM-test-admissible, terminal failure types are exhausted by Pack, Part, and Field, and face failures embed as \(\Exit(Q;\Owork)\).
+Assume in addition the Clay-closing bridge: the pass-side \(\Member(Q;\Owork)\) branch is the same original maximal solution continued past \(T_*\), or equivalently a CM-classified terminal exit is inadmissible as the actual Clay finite-breakdown counterexample.
 Then the smooth Navier--Stokes solution generated by smooth divergence-free data has no finite terminal breakdown.
 \end{theorem}
 
 \begin{proof}
 Let a finite terminal obstruction be reached by the same-solution Navier--Stokes proof program.
 The obstruction has a pass side and a fail side.
-The pass side is a member branch and gives the usual smooth continuation readout.
+By the additional Clay-closing bridge, the pass side is not a separate comparison branch; it is the same original solution continued through the alleged terminal time.
+It is a member branch and gives the usual smooth continuation readout.
 The fail side is admitted to the CM terminal packet tree and loses Pack, Part, or Field, hence gives \(\Exit(Q;\Owork)\).
 The no-third-branch law excludes a branch that is both a legal member continuation and the same terminal failure witness.
 Thus the terminal obstruction has no legal same-class nonsmooth branch.
@@ -1261,7 +1261,7 @@ Uncertified obligations remain outside the terminal proof mass.
 
 \section{The Closing Hinges}
 
-The proof has three mathematical hinges.
+The CM classification has three installed mathematical hinges and one open Clay-closing hinge.
 
 First, torus global material-atlas terminal capture is complete:
 \[
@@ -1289,7 +1289,14 @@ Third, every finite Clay terminal witness passes through the terminal witness ch
   \Rightarrow
   \Exit(Q;\Owork).
 \]
-A reopening branch has to produce a legal in-class nonsmooth third branch or break CM terminal entry, finite-failure type exhaustion, or contrapositive embedding.
+Fourth, the Clay-closing bridge must still be proved:
+\[
+  \text{classified }\Exit(Q;\Owork)
+  \Longrightarrow
+  \text{not a valid finite-breakdown counterexample for the original solution.}
+\]
+The current manuscript does not discharge this fourth hinge.
+A reopening branch can therefore be a legal in-class nonsmooth third branch, a failure of CM terminal entry, finite-failure type exhaustion, or contrapositive embedding, or the unresolved Clay-closing bridge above.
 
 A demand to prove one particular source, reserve, no-pulse, or readout estimate belongs to the forward-positive program.
 Such a theorem can strengthen the pass side and simplify the branch field.
