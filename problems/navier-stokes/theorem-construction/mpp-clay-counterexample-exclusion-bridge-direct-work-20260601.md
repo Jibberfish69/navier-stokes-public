@@ -87,7 +87,7 @@ all survive, then the readout-complete atlas gives
 
 ```text
 sup_{t<T_*} ||u(t)||_{H^s(T^3)} < infinity,
-qquad s>5/2.
+s>5/2.
 ```
 
 The standard periodic `H^s` continuation theorem extends the same solution past
@@ -222,4 +222,3 @@ direct theorem:
 OriginalSmoothData_T3
 => no Pack/Part/Field first face failure on Q_atlas.
 ```
-
