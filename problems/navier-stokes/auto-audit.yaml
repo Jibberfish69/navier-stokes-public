@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-05-29T16:49:32Z'
+  audited_at: '2026-06-01T01:52:58Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: full-mpp-closure-ready
@@ -43,10 +43,11 @@ downstream_overlay_drift:
     - 'dashboard_unresolved_count: 0'
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: 211a1aeed95a472e08b810afce4540df1acf0e19
+    sha1: 01511d46ae829abb8a0560fb1002731bdf4bc03c
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
+    - pctp.hard
     - full-mpp
     - installed
     - discharged
