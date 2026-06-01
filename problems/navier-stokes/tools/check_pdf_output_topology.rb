@@ -3,13 +3,16 @@
 
 require "open3"
 require "pathname"
+require "yaml"
 
 ROOT = Pathname.new(__dir__).join("../../..").expand_path
 BUNDLE_ROOT = ROOT.join("problems/navier-stokes/submission-bundle")
-AUTHORITATIVE_PDF = BUNDLE_ROOT.join("navier-stokes-human-submission.pdf")
-RUBRIC = ROOT.join("problems/navier-stokes/submission-bundle/source-field-representation-rubric.md")
+AUTHORITATIVE_PDF = ROOT.join("papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf")
+EXPORT_STATUS = BUNDLE_ROOT.join("submission-export-status.yaml")
+RUBRIC = BUNDLE_ROOT.join("source-field-representation-rubric.md")
 MIN_AUTHORITATIVE_PAGES = 1_000
 MAX_REPEATED_RENDERED_CLAIMS = 25
+
 FORBIDDEN_PDF_TEXT = {
   "raw source chronicle title" => /Navier-Stokes Chronological Source Chronicle/,
   "raw source catalog" => /CATALOG OF CHRONOLOGICAL SOURCES/,
@@ -22,10 +25,19 @@ FORBIDDEN_PDF_TEXT = {
   "escaped source math residue" => /\b(?:begin|end|substack|boxed|texttt)\(|\binL\^|\bSothe\b|\bimplies[A-Z]/,
   "glued sentence residue" => /\b(?:first-rungledger|viscousfirst|notapressure|isalgebraically)\b/i
 }.freeze
+
 RENDERED_BOILERPLATE_PATTERNS = {
   "repeated readout support claim" => /Support obligation \d+\s+has proof force through membership readout or through a\s+Field-face loss\./m,
   "repeated unselected support claim" => /CM obligation \d+\s+has no CM conclusion until it selects a same-fluid terminal packet\./m,
   "repeated endpoint reader role" => /This tells the reader how to read endpoint material without turning it into\s+a separate proof program\./m
+}.freeze
+
+REQUIRED_RENDERED_TEXT = {
+  "proof-attempt failure history" => /Proof Attempts And Failures To Prove Smoothness/i,
+  "source-field reader appendix" => /Source-Field Reader Appendix/i,
+  "source-field closure" => /The source field is long because the proof program is long/i,
+  "surface derivation appendix" => /Expanded Branch-Family Obligations/i,
+  "CM witness faces" => /Pack, Part, and Field/i
 }.freeze
 
 def relative(path)
@@ -44,9 +56,7 @@ end
 
 def pdf_pages(path)
   stdout, stderr, status = Open3.capture3("pdfinfo", path.to_s)
-  unless status.success?
-    raise "pdfinfo failed for #{relative(path)}: #{stderr.strip}"
-  end
+  raise "pdfinfo failed for #{relative(path)}: #{stderr.strip}" unless status.success?
 
   match = stdout.match(/^Pages:\s+(\d+)/)
   raise "pdfinfo did not report a page count for #{relative(path)}" unless match
@@ -56,11 +66,15 @@ end
 
 def pdf_text(path)
   stdout, stderr, status = Open3.capture3("pdftotext", path.to_s, "-")
-  unless status.success?
-    raise "pdftotext failed for #{relative(path)}: #{stderr.strip}"
-  end
+  raise "pdftotext failed for #{relative(path)}: #{stderr.strip}" unless status.success?
 
   stdout
+end
+
+def load_yaml(path)
+  return {} unless path.file?
+
+  YAML.load_file(path.to_s) || {}
 end
 
 errors = []
@@ -80,9 +94,10 @@ else
   begin
     text = pdf_text(AUTHORITATIVE_PDF)
     FORBIDDEN_PDF_TEXT.each do |label, pattern|
-      next unless text.match?(pattern)
-
-      errors << "authoritative PDF contains forbidden #{label}"
+      errors << "authoritative PDF contains forbidden #{label}" if text.match?(pattern)
+    end
+    REQUIRED_RENDERED_TEXT.each do |label, pattern|
+      errors << "authoritative PDF is missing rendered #{label}" unless text.match?(pattern)
     end
     RENDERED_BOILERPLATE_PATTERNS.each do |label, pattern|
       count = text.scan(pattern).length
@@ -96,34 +111,37 @@ else
 end
 
 if git_success?("check-ignore", "-q", relative(AUTHORITATIVE_PDF))
-  errors << "authoritative problem-local PDF is ignored by git: #{relative(AUTHORITATIVE_PDF)}"
+  errors << "authoritative PDF is ignored by git: #{relative(AUTHORITATIVE_PDF)}"
 end
 
-bundle_pdfs = Dir.glob(BUNDLE_ROOT.join("**/*.pdf").to_s).sort.reject do |path|
-  Pathname.new(path).expand_path == AUTHORITATIVE_PDF.expand_path
-end
-unless bundle_pdfs.empty?
-  errors << "rival problem-local PDF outputs remain: #{bundle_pdfs.map { |path| relative(path) }.join(', ')}"
+problem_pdfs = Dir.glob(ROOT.join("problems/navier-stokes/**/*.pdf").to_s).sort
+errors << "problem-local PDF outputs remain: #{problem_pdfs.map { |path| relative(path) }.join(', ')}" unless problem_pdfs.empty?
+
+paper_pdfs = Dir.glob(ROOT.join("papers/navier-stokes/**/*.pdf").to_s).sort
+extra_paper_pdfs = paper_pdfs.reject { |path| Pathname.new(path).expand_path == AUTHORITATIVE_PDF.expand_path }
+errors << "extra paper PDFs remain outside authoritative edge: #{extra_paper_pdfs.map { |path| relative(path) }.join(', ')}" unless extra_paper_pdfs.empty?
+
+export_status = load_yaml(EXPORT_STATUS)
+status_pdf = export_status["pdf"].to_s
+unless status_pdf == relative(AUTHORITATIVE_PDF)
+  errors << "submission export status points to #{status_pdf.empty? ? '(none)' : status_pdf}, expected #{relative(AUTHORITATIVE_PDF)}"
 end
 
 if BUNDLE_ROOT.join("navier-stokes-source-chronicle-manifest.json").exist?
   errors << "source-chronicle manifest remains even though the contract requires reader-facing proof-role expansion"
 end
 
-unless RUBRIC.file?
-  errors << "missing reader-facing source-field rubric #{relative(RUBRIC)}"
-end
+errors << "missing reader-facing source-field rubric #{relative(RUBRIC)}" unless RUBRIC.file?
 
-tracked_bundle_pdfs = git_stdout("ls-files", "--", "problems/navier-stokes/submission-bundle").lines.grep(/\.pdf\z/).map(&:strip)
-tracked_bundle_pdfs.each do |path|
-  next if path == relative(AUTHORITATIVE_PDF)
+tracked_problem_pdfs = git_stdout("ls-files", "--", "problems/navier-stokes").lines.grep(/\.pdf\z/).map(&:strip)
+tracked_problem_pdfs.each do |path|
   next unless ROOT.join(path).exist?
 
-  errors << "tracked bundle-local PDF exists as rival authority: #{path}"
+  errors << "tracked problem-local PDF exists as rival authority: #{path}"
 end
 
 if errors.empty?
-  puts "PDF_OUTPUT_TOPOLOGY OK: #{relative(AUTHORITATIVE_PDF)} is the only problem-local Navier-Stokes PDF output authority and satisfies the reader-facing proof-role expansion contract."
+  puts "PDF_OUTPUT_TOPOLOGY OK: #{relative(AUTHORITATIVE_PDF)} is the only Navier-Stokes PDF output authority and carries the required rendered depth anchors."
   exit 0
 end
 
