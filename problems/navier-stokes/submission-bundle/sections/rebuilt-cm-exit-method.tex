@@ -29,24 +29,24 @@ The exit predicate is
 This formula is the organizing primitive of the proof. It does not assert that a
 bad-looking object is automatically an exit. The object first has to enter the
 same-solution terminal test. The exit is derived only after a required membership
-service fails.
+requirement fails.
 
-The services are recorded as three faces.
+The requirements are recorded as three faces.
 
 \paragraph{Pack.}
-The Pack service asks whether the terminal object has a positive material carrier
+The Pack face asks whether the terminal object has a positive material carrier
 or selected packet. A proposed breakdown witness has to be carried by something
 with positive terminal presence. A zero-radius remnant, detached donor ancestry,
 or packet with no selected positive carrier fails at this face.
 
 \paragraph{Part.}
-The Part service asks whether the same Navier--Stokes equation still acts on the
+The Part face asks whether the same Navier--Stokes equation still acts on the
 selected packet. The pressure law, viscosity, divergence-free constraint, and
 preterminal branch have to remain the same. A source object that survives only by
 leaving the original pressure-viscosity participation law fails at this face.
 
 \paragraph{Field.}
-The Field service asks whether the object admits a positive-scale coherent field
+The Field face asks whether the object admits a positive-scale coherent field
 readout. Once the object has a carrier and participates in the same equation, it
 still has to produce field information strong enough to belong to the
 continuation side. A terminal object with no positive-scale field readout fails
@@ -58,7 +58,7 @@ The branch split is therefore:
   \quad\longrightarrow\quad
   \begin{cases}
   \text{membership side: continuation readout},\\
-  \text{exit side: first failed service}.
+  \text{exit side: first failed requirement}.
   \end{cases}
 \]
 The pass side belongs to the classical continuation logic. The fail side gives a
@@ -86,5 +86,5 @@ lands on a same-solution face.
 The no-third-branch principle is the final class-law step. After the terminal
 object is admitted to the same-solution test, the branch cannot be both a lawful
 in-class continuation and the same finite nonsmooth terminal witness whose first
-membership service has failed. The pass branch and the exit branch have different
+membership requirement has failed. The pass branch and the exit branch have different
 class status. That distinction is the engine of the contrapositive proof.
