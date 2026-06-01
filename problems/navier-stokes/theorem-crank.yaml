@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-05-28T20:25:29Z'
+  generated_at: '2026-06-01T01:52:58Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: needs-sync
@@ -112,7 +112,7 @@ shared_alignment:
   route_authority_candidate_count: 48
   missing_route_authority_candidate_count: 0
   missing_route_authority_candidates: []
-  promoted_proof_packet_count: 1
+  promoted_proof_packet_count: 0
   route_authority_candidates:
   - directive_id: marvin-route-authority-4
     headline: Research OS Theorem Packet
@@ -131,24 +131,8 @@ shared_alignment:
       or sy'
   compiled_import_summary:
     bucket_counts:
-      local-discharge-support: 129
-    route_slot_labels:
-    - 'Define or prove: Reduced the live Navier-Stokes route stack against the Clay
-      whole-space target into exact source-backed ingredients already present on the
-      lane. On the classical side, isolated the mixed-jet system, the exact rung-level
-      can'
-    - 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    - 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    - 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-      and E_sh(X) vanish identically, so the exact Route '
-    - 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
-      target.'
+      local-discharge-support: 130
+    route_slot_labels: []
   alignment_reroute: route-synthesis
 local_derivation:
   status: locally-exhausted
