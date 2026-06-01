@@ -7,12 +7,17 @@ identity:
   generator: codex/referee-sweep
   audit_scope: Navier-Stokes CM contrapositive proof inclusion and readiness gate
 status:
-  audit_status: torus-first-cm-referee-passed-periodic-statement-b
-  pass: true
-  release_eligible: true
-  clay_ready: true
-  clay_statement_b_ready: true
+  audit_status: blocked-on-clay-counterexample-exclusion-bridge
+  pass: false
+  release_eligible: false
+  clay_ready: false
+  clay_statement_b_ready: false
   whole_space_statement_a_ready: false
+  blocking_gap:
+    source: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
+    statement: The CM route classifies admitted finite terminal breakdown objects
+      as Pack/Part/Field Exit(Q), but does not yet prove that such classified exit
+      is inadmissible as the actual Clay finite-breakdown counterexample.
 audit_law:
   governing_program: Exit(Q):=not Member(Q) through Pack/Part/Field witness faces.
   positive_to_cm_ultimatum: Any unfinished positive proof surface must either convert
@@ -31,17 +36,17 @@ classification_summary:
   torus_first_global_material_atlas_capture_installed: true
   branch_family_ledger_integrated: true
   proof_bearing_branch_family_open_rows_demoted: true
-  torus_first_cm_referee_pass: true
+  torus_first_cm_referee_pass: false
   manuscript_spine_rewrite_required: false
   whole_space_export_certified: false
-  periodic_clay_statement_b_certified: true
+  periodic_clay_statement_b_certified: false
   full_whole_space_submission_certified: false
   manuscript_spine_rewrite_completed: true
   manuscript_periodic_scope_aligned: true
   comprehensive_switch_rescan_20260526_complete: true
   readiness_overlay_hardener_refreshed: true
   active_torus_first_unconverted_positive_switches_detected: false
-  surviving_full_submission_burden: none-for-periodic-statement-b
+  surviving_full_submission_burden: clay-counterexample-exclusion-bridge
   nightly_relational_transfer_consumed_20260527: true
   support_repair_separated_from_theorem_progress_20260527: true
 working_pass_results:
