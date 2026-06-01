@@ -884,16 +884,18 @@ and the derived face failure is embedded as
 On the periodic surface, the Clay-closing bridge is exactly the exclusion of a first Pack, Part, or Field failure on the whole transported terminal atlas \(Q_{\mathrm{atlas}}\).
 In formula form, the required bridge is
 \[
+\begin{aligned}
 \text{OriginalSmoothData}_{\mathbb T^3}
 \Longrightarrow
-\neg\Bigl(
-  \neg\Pack_{Q_{\mathrm{atlas}}}
-  \vee
-  (\Pack_{Q_{\mathrm{atlas}}}\wedge\neg\Part_{N_s,Q_{\mathrm{atlas}}})
-  \vee
-  (\Pack_{Q_{\mathrm{atlas}}}\wedge\Part_{N_s,Q_{\mathrm{atlas}}}\wedge
-    \forall r>0\,\neg\Field_{N_s,r,Q_{\mathrm{atlas}}})
+\neg\Bigl(&
+  \neg\Pack_{Q_{\mathrm{atlas}}}\\
+&\vee
+  \bigl(\Pack_{Q_{\mathrm{atlas}}}\wedge\neg\Part_{N_s,Q_{\mathrm{atlas}}}\bigr)\\
+&\vee
+  \bigl(\Pack_{Q_{\mathrm{atlas}}}\wedge\Part_{N_s,Q_{\mathrm{atlas}}}
+    \wedge\forall r>0\,\neg\Field_{N_s,r,Q_{\mathrm{atlas}}}\bigr)
 \Bigr).
+\end{aligned}
 \]
 \end{proposition}
 
