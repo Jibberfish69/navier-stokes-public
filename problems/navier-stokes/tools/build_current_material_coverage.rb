@@ -181,8 +181,9 @@ FAMILIES = [
   },
   {
     "id" => "proof_irrelevant_build_or_provenance_surfaces",
-    "paper_representation" => "Build tooling, source-forensics tooling/manifests, alignment metadata, and the retired ground-up target reference are not theorem material. The manuscript names their role only as provenance, export, target-custody, or build support.",
+    "paper_representation" => "Build tooling, source-forensics tooling/manifests, alignment and viewer-topology metadata, and the retired ground-up target reference are not theorem material. The manuscript names their role only as provenance, export, target-custody, navigation, or build support.",
     "files" => %w[
+      ns-visual-branch-depth-audit-20260531.yaml
       tools/build_forward_positive_surface_quarantine.rb
       source-forensics/archive-scrivener-manifest.txt
       source-forensics/ns-historical-biography.md
