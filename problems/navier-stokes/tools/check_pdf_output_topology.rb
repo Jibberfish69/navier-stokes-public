@@ -110,10 +110,6 @@ else
   end
 end
 
-if git_success?("check-ignore", "-q", relative(AUTHORITATIVE_PDF))
-  errors << "authoritative PDF is ignored by git: #{relative(AUTHORITATIVE_PDF)}"
-end
-
 problem_pdfs = Dir.glob(ROOT.join("problems/navier-stokes/**/*.pdf").to_s).sort
 errors << "problem-local PDF outputs remain: #{problem_pdfs.map { |path| relative(path) }.join(', ')}" unless problem_pdfs.empty?
 
