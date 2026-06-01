@@ -1,16 +1,16 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-05-31T21:09:03Z'
+generated_at: '2026-06-01T19:49:27Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
-pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
-  source_word_count: 446573
-  bundle_word_count: 446573
+  source_word_count: 448540
+  bundle_word_count: 448540
   primary_surface_word_count: 0
   theorem_packet_word_count: 4408
 skeletal_source_detected: false
@@ -26,29 +26,31 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   detected driver: pdftex\n(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty\n(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty\n(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def\n(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii\n[Loading
   MPS to PDF converter (version 2006.09.02).]\n)))\n(/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty\n(/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)))\n(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-euf.cfg)\nNo
   file navier-stokes-submission.toc.\n[1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l\nocal/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]\n[2]
-  [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]\n(./sections/rebuilt-branch-status-ledger.tex
-  [17]\nOverfull \\hbox (34.49055pt too wide) in paragraph at lines 15--15\n[]|\\T1/cmr/m/n/10.95
+  [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]\n(./sections/rebuilt-branch-status-ledger.tex\nOverfull
+  \\hbox (34.49055pt too wide) in paragraph at lines 15--15\n[]|\\T1/cmr/m/n/10.95
   (-20) Energy/enstrophy/source|  \n\nOverfull \\hbox (6.78465pt too wide) in paragraph
-  at lines 17--17\n[]|\\T1/cmr/m/n/10.95 (-20) Compactness/exact \n) (./sections/rebuilt-positive-forward-and-four-body-diagnostic.tex
-  [18]\n[19]) (./sections/rebuilt-energy-enstrophy-source-branch.tex [20])\n(./sections/rebuilt-scale-barrier-tail-branch.tex
-  [21]\nOverfull \\hbox (97.82205pt too wide) detected at line 69\n[]\\OML/cmm/m/it/10.95
-  ;  []:\n) (./sections/rebuilt-compactness-exact-object-branch.tex [22] [23])\n(./sections/rebuilt-recovery-surface-fidelity-branch.tex
-  [24])\n(./sections/rebuilt-lower-prefix-upper-tail-branch.tex [25])\n(./sections/rebuilt-kernelized-lifted-band-branch.tex
-  [26])\n(./sections/rebuilt-shell-gain-half-derivative-branch.tex [27])\n(./sections/rebuilt-cm-exit-method.tex
-  [28]) [29] [30] [31] [32] [33]\n(./proof-attempt-failure-appendix.tex [34] [35]
-  [36] [37] [38]\nOverfull \\hbox (11.96913pt too wide) detected at line 445\n[]  \\OT1/cmr/m/n/10.95
-  +  []  +  []  +  []\\OML/cmm/m/it/10.95 :\n[39] [40] [41] [42] [43] [44] [45] [46]
-  [47] [48] [49] [50] [51] [52] [53]\n[54] [55]\nOverfull \\hbox (173.69772pt too
-  wide) detected at line 1778\n[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) []
-  \\OT1/cmr/m/n/10.95 =[]\\OMS/cm\nsy/m/n/10.95 ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
+  at lines 17--17\n[]|\\T1/cmr/m/n/10.95 (-20) Compactness/exact \n[18]) (./sections/rebuilt-positive-forward-and-four-body-diagnostic.tex\n[19]
+  [20]) (./sections/rebuilt-energy-enstrophy-source-branch.tex [21])\n(./sections/rebuilt-scale-barrier-tail-branch.tex
+  [22]\nOverfull \\hbox (97.82205pt too wide) detected at line 69\n[]\\OML/cmm/m/it/10.95
+  ;  []:\n) (./sections/rebuilt-compactness-exact-object-branch.tex [23] [24])\n(./sections/rebuilt-recovery-surface-fidelity-branch.tex
+  [25])\n(./sections/rebuilt-lower-prefix-upper-tail-branch.tex [26])\n(./sections/rebuilt-kernelized-lifted-band-branch.tex
+  [27])\n(./sections/rebuilt-shell-gain-half-derivative-branch.tex [28])\n(./sections/rebuilt-cm-exit-method.tex
+  [29]) [30] [31] [32] [33]\nOverfull \\hbox (3.40234pt too wide) detected at line
+  1327\n[][]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 Q\\OT1/cmr/m/n/10.95 ; \\U/euf/m/n/10\n.95
+  O[]\\OT1/cmr/m/n/10.95 ) =[]\\OMS/cmsy/m/n/10.95 ) []\n[34] (./proof-attempt-failure-appendix.tex
+  [35] [36] [37] [38] [39]\nOverfull \\hbox (11.96913pt too wide) detected at line
+  445\n[]  \\OT1/cmr/m/n/10.95 +  []  +  []  +  []\\OML/cmm/m/it/10.95 :\n[40] [41]
+  [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54]\n[55] [56]\nOverfull
+  \\hbox (173.69772pt too wide) detected at line 1778\n[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
+  ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cm\nsy/m/n/10.95 ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
   ) []\\OT1/cmr/m/n/10\n.95 (\\OML/cmm/m/it/10.95 Q\\OT1/cmr/m/n/10.95 ; \\U/euf/m/n/10.95
-  O[]\\OT1/cmr/m/n\n/10.95 )\\OML/cmm/m/it/10.95 :\n[56] [57] [58] [59] [60] [61]
-  [62] [63] [64] [65] [66] [67] [68] [69] [70]\n[71] [72] [73] [74] [75] [76] [77]
-  [78] [79] [80] [81] [82] [83])\n(./source-field-reader-appendix.tex [84] [85]\n\nPackage
+  O[]\\OT1/cmr/m/n\n/10.95 )\\OML/cmm/m/it/10.95 :\n[57] [58] [59] [60] [61] [62]
+  [63] [64] [65] [66] [67] [68] [69] [70] [71]\n[72] [73] [74] [75] [76] [77] [78]
+  [79] [80] [81] [82] [83] [84])\n(./source-field-reader-appendix.tex [85] [86]\n\nPackage
   amsmath Warning: Foreign command \\over;\n(amsmath)                \\frac or \\genfrac
-  should be used instead\n(amsmath)                 on input line 98.\n\n[86] [87]
-  [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100]\n[101] [102] [103]
-  [104] [105]\nOverfull \\hbox (117.59627pt too wide) detected at line 1442\n\\OT1/cmr/m/n/10.95
+  should be used instead\n(amsmath)                 on input line 98.\n\n[87] [88]
+  [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101]\n[102] [103]
+  [104] [105] [106]\nOverfull \\hbox (117.59627pt too wide) detected at line 1442\n\\OT1/cmr/m/n/10.95
   (\\OML/cmm/m/it/10.95 S\\OT1/cmr/m/n/10.95 1 \\OMS/cmsy/m/n/10.\n95 ^ \\OML/cmm/m/it/10.95
   S\\OT1/cmr/m/n/10.95 2 \\OMS/cmsy/m/n/10.95 ^ \\OML/cmm/m\n/it/10.95 M\\OT1/cmr/m/n/10.95
   1 \\OMS/cmsy/m/n/10.95 ^ \\OML/cmm/m/it/10.95 M\\OT1\n/cmr/m/n/10.95 2 \\OMS/cmsy/m/n/10.95
@@ -57,117 +59,117 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   3 \\OMS/cmsy/m/n/10.95 ^ \\OML/c\nmm/m/it/10.95 G\\OT1/cmr/m/n/10.95 1 \\OMS/cmsy/m/n/10.95
   ^ \\OML/cmm/m/it/10.95 G\n\\OT1/cmr/m/n/10.95 2 \\OMS/cmsy/m/n/10.95 ^ \\OML/cmm/m/it/10.95
   C\\OT1/cmr/m/n/10\n.95 1 \\OMS/cmsy/m/n/10.95 ^ \\OML/cmm/m/it/10.95 C\\OT1/cmr/m/n/10.95
-  2) =[]\\OMS/\ncmsy/m/n/10.95 ) []\n[106] [107] [108] [109] [110] [111] [112] [113]
-  [114] [115] [116] [117]\n[118] [119] [120] [121] [122] [123] [124] [125] [126] [127]
-  [128] [129]\nOverfull \\hbox (6.15044pt too wide) detected at line 2840\n\\OMS/cmsy/m/n/10.95
-  E[] \\OT1/cmr/m/n/10.95 := []\n[130] [131] [132] [133] [134] [135] [136] [137] [138]
-  [139] [140] [141]\n[142] [143] [144] [145] [146] [147] [148] [149] [150] [151] [152]
-  [153]\n[154] [155] [156] [157] [158] [159] [160] [161] [162]\nOverfull \\hbox (441.28275pt
+  2) =[]\\OMS/\ncmsy/m/n/10.95 ) []\n[107] [108] [109] [110] [111] [112] [113] [114]
+  [115] [116] [117] [118]\n[119] [120] [121] [122] [123] [124] [125] [126] [127] [128]
+  [129] [130]\nOverfull \\hbox (6.15044pt too wide) detected at line 2840\n\\OMS/cmsy/m/n/10.95
+  E[] \\OT1/cmr/m/n/10.95 := []\n[131] [132] [133] [134] [135] [136] [137] [138] [139]
+  [140] [141] [142]\n[143] [144] [145] [146] [147] [148] [149] [150] [151] [152] [153]
+  [154]\n[155] [156] [157] [158] [159] [160] [161] [162] [163]\nOverfull \\hbox (441.28275pt
   too wide) detected at line 4946\n[]  \\OT1/cmr/m/n/10.95 +  []  +  [] \\OMS/cmsy/m/n/10.95
   jr\\OML/cmm/m/it/10.95 v\n[]\\OMS/cmsy/m/n/10.95 j[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
-  ) []\n[163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174]\n[175]
-  [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186]\n[187] [188] [189]
-  [190] [191] [192] [193] [194] [195] [196] [197] [198]\n[199] [200] [201]\nOverfull
+  ) []\n[164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175]\n[176]
+  [177] [178] [179] [180] [181] [182] [183] [184] [185] [186] [187]\n[188] [189] [190]
+  [191] [192] [193] [194] [195] [196] [197] [198] [199]\n[200] [201] [202]\nOverfull
   \\hbox (82.5348pt too wide) detected at line 7558\n[][][] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
   ) [][][] \\OT1/cmr/m/n/10.95 =[\n]\\OMS/cmsy/m/n/10.95 ) [][][] \\OT1/cmr/m/n/10.95
   =[]\\OMS/cmsy/m/n/10.95 ) [][][\n] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95 )
   [][][] \\OT1/cmr/m/n/10.95 =[]\\OMS\n/cmsy/m/n/10.95 ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
   ) []\\OT1/cmr/m/n\n/10.95 6\\OML/cmm/m/it/10.95 :\\OT1/cmr/m/n/10.95 1[]\\OML/cmm/m/it/10.95
-  :\n[202] [203] [204] [205] [206] [207] [208] [209] [210] [211] [212] [213]\n[214]
-  [215] [216] [217]\nOverfull \\hbox (59.93225pt too wide) detected at line 8588\n[][]
-  \ \\OT1/cmr/m/n/10.95 +  []\n[218] [219] [220] [221] [222] [223] [224] [225] [226]
-  [227] [228] [229]\n[230] [231] [232] [233] [234] [235]\nOverfull \\hbox (96.9117pt
+  :\n[203] [204] [205] [206] [207] [208] [209] [210] [211] [212] [213] [214]\n[215]
+  [216] [217] [218]\nOverfull \\hbox (59.93225pt too wide) detected at line 8588\n[][]
+  \ \\OT1/cmr/m/n/10.95 +  []\n[219] [220] [221] [222] [223] [224] [225] [226] [227]
+  [228] [229] [230]\n[231] [232] [233] [234] [235] [236]\nOverfull \\hbox (96.9117pt
   too wide) detected at line 9827\n\\OML/cmm/m/it/10.95 X[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95
   t\\OT1/cmr/m/n/10\n.95 ) = []\\OML/cmm/m/it/10.95 ;  N[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95
   t\\O\nT1/cmr/m/n/10.95 ) = []\\OML/cmm/m/it/10.95 ;  A[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m\n/it/10.95
-  t\\OT1/cmr/m/n/10.95 ) = []\\OML/cmm/m/it/10.95 :\n[236] [237] [238] [239] [240]
-  [241] [242] [243] [244] [245] [246] [247]\n[248] [249] [250] [251] [252] [253] [254]
-  [255] [256] [257] [258] [259]\n[260] [261] [262] [263] [264] [265] [266]\nOverfull
+  t\\OT1/cmr/m/n/10.95 ) = []\\OML/cmm/m/it/10.95 :\n[237] [238] [239] [240] [241]
+  [242] [243] [244] [245] [246] [247] [248]\n[249] [250] [251] [252] [253] [254] [255]
+  [256] [257] [258] [259] [260]\n[261] [262] [263] [264] [265] [266] [267]\nOverfull
   \\hbox (54.22108pt too wide) detected at line 11649\n\\OMS/cmsy/m/n/10.95 h\\OML/cmm/m/it/10.95
   ^^V[];  []\\OMS/cmsy/m/n/10.95 i \\OT1/c\nmr/m/n/10.95 = \\OML/cmm/m/it/10.95 Flux[]
   \\OT1/cmr/m/n/10.95 + \\OML/cmm/m/it/10\n.95 Residence[] \\OT1/cmr/m/n/10.95 + \\OML/cmm/m/it/10.95
   PressureEigenframeSust\nain[] \\OT1/cmr/m/n/10.95 + \\OML/cmm/m/it/10.95 LegalLoss[]
   \\OT1/cmr/m/n/10.95 +\n \\OML/cmm/m/it/10.95 AdjDefect[] \\OT1/cmr/m/n/10.95 + \\OML/cmm/m/it/10.95
-  o[]\\O\nT1/cmr/m/n/10.95 (1)\\OML/cmm/m/it/10.95 :\n[267] [268] [269] [270] [271]
-  [272] [273] [274] [275] [276] [277] [278]\n[279] [280] [281] [282] [283] [284] [285]
-  [286] [287] [288] [289] [290]\n[291] [292] [293] [294] [295] [296] [297] [298] [299]
-  [300] [301] [302]\n[303] [304] [305] [306] [307] [308] [309]\nOverfull \\hbox (12.9749pt
+  o[]\\O\nT1/cmr/m/n/10.95 (1)\\OML/cmm/m/it/10.95 :\n[268] [269] [270] [271] [272]
+  [273] [274] [275] [276] [277] [278] [279]\n[280] [281] [282] [283] [284] [285] [286]
+  [287] [288] [289] [290] [291]\n[292] [293] [294] [295] [296] [297] [298] [299] [300]
+  [301] [302] [303]\n[304] [305] [306] [307] [308] [309] [310]\nOverfull \\hbox (12.9749pt
   too wide) in paragraph at lines 14196--14197\n[]\\T1/cmr/m/n/10.95 (-20) The end-point
-  forc-ing rung uses the orig-i-nal pres-\nsure. On a fixed read-out cover, DTC.Read.Press.local\n[310]
-  [311] [312] [313] [314] [315] [316] [317] [318] [319] [320] [321]\n[322] [323] [324]
-  [325] [326] [327] [328] [329] [330] [331] [332] [333]\n[334] [335] [336] [337] [338]
-  [339] [340] [341] [342] [343] [344] [345]\n[346] [347] [348] [349] [350] [351]\nOverfull
+  forc-ing rung uses the orig-i-nal pres-\nsure. On a fixed read-out cover, DTC.Read.Press.local\n[311]
+  [312] [313] [314] [315] [316] [317] [318] [319] [320] [321] [322]\n[323] [324] [325]
+  [326] [327] [328] [329] [330] [331] [332] [333] [334]\n[335] [336] [337] [338] [339]
+  [340] [341] [342] [343] [344] [345] [346]\n[347] [348] [349] [350] [351] [352]\nOverfull
   \\hbox (3.17302pt too wide) in paragraph at lines 16788--16788\n[]\\T1/cmr/bx/n/12
-  (-20) Matrix Hand-off For Re-paired Cas-cade Sup-pres-sion In\nto proof-dependency-\n[352]
-  [353] [354] [355] [356] [357]\nOverfull \\hbox (64.54135pt too wide) detected at
+  (-20) Matrix Hand-off For Re-paired Cas-cade Sup-pres-sion In\nto proof-dependency-\n[353]
+  [354] [355] [356] [357] [358]\nOverfull \\hbox (64.54135pt too wide) detected at
   line 17163\n[] [][] \\OMS/cmsy/m/n/10.95 j\\OML/cmm/m/it/10.95 v\\OT1/cmr/m/n/10.95
   (\\OML/cmm/\nm/it/10.95 y; s\\OT1/cmr/m/n/10.95 )\\OMS/cmsy/m/n/10.95 j[]\\OML/cmm/m/it/10.95
-  d\ny \\OT1/cmr/m/n/10.95 = 0 []\n[358] [359] [360] [361] [362] [363] [364] [365]
-  [366] [367] [368] [369]\n[370] [371] [372] [373] [374] [375] [376] [377]\nOverfull
+  d\ny \\OT1/cmr/m/n/10.95 = 0 []\n[359] [360] [361] [362] [363] [364] [365] [366]
+  [367] [368] [369] [370]\n[371] [372] [373] [374] [375] [376] [377] [378]\nOverfull
   \\hbox (88.79541pt too wide) detected at line 18379\n\\OML/cmm/m/it/10.95 Field[]
   \\OT1/cmr/m/n/10.95 + \\U/euf/m/n/10.95 A[] \\OMS/cmsy\n/m/n/10.95 2 \\OML/cmm/m/it/10.95
   L[] \\OT1/cmr/m/n/10.95 + \\OML/cmm/m/it/10.95 P\nart[][] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
-  ) \\OML/cmm/m/it/10.95 Part[][\n]\n[378] [379] [380] [381] [382] [383] [384] [385]
-  [386] [387] [388] [389]\n[390] [391] [392] [393]\nOverfull \\hbox (3.55348pt too
+  ) \\OML/cmm/m/it/10.95 Part[][\n]\n[379] [380] [381] [382] [383] [384] [385] [386]
+  [387] [388] [389] [390]\n[391] [392] [393] [394]\nOverfull \\hbox (3.55348pt too
   wide) detected at line 19254\n[] [][] \\OML/cmm/m/it/10.95 ^^_[]\\OMS/cmsy/m/n/10.95
   j\\OML/cmm/m/it/10.95 w[]\\O\nMS/cmsy/m/n/10.95 j[] [][] ^^T \\OML/cmm/m/it/10.95
   ^^R[] [] [][] \\OMS/cmsy/m/n/\n10.95 D[] \\OT1/cmr/m/n/10.95 + [][](\\OMS/cmsy/m/n/10.95
   F[]\\OT1/cmr/m/n/10.95 )\n + [][](\\OMS/cmsy/m/n/10.95 F[]\\OT1/cmr/m/n/10.95 )
-  + \\OML/cmm/m/it/10.95 o[]\\O\nT1/cmr/m/n/10.95 (1)\n[394] [395] [396] [397] [398]
-  [399] [400] [401] [402] [403] [404] [405]\n[406] [407] [408] [409] [410] [411] [412]
-  [413] [414] [415] [416] [417]\n[418] [419] [420] [421] [422] [423]\nOverfull \\hbox
+  + \\OML/cmm/m/it/10.95 o[]\\O\nT1/cmr/m/n/10.95 (1)\n[395] [396] [397] [398] [399]
+  [400] [401] [402] [403] [404] [405] [406]\n[407] [408] [409] [410] [411] [412] [413]
+  [414] [415] [416] [417] [418]\n[419] [420] [421] [422] [423] [424]\nOverfull \\hbox
   (9.54622pt too wide) in paragraph at lines 21011--21012\n[]\\T1/cmr/m/n/10.95 (-20)
   The SCF-bad up-grade suc-ceeded con-di-tion-ally. The\n next lead-ing the-o-rem
   is Tower Bound.Upstream;\n\nOverfull \\hbox (40.4131pt too wide) detected at line
   21042\n[]\\OML/cmm/m/it/10.95 D[]=P[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
-  ) []\n[424] [425] [426] [427] [428] [429] [430] [431] [432] [433] [434] [435]\n[436]
-  [437] [438] [439] [440] [441] [442] [443] [444] [445] [446] [447]\n[448] [449] [450]
-  [451] [452]\nOverfull \\hbox (12.50453pt too wide) detected at line 22671\n\\OML/cmm/m/it/10.95
+  ) []\n[425] [426] [427] [428] [429] [430] [431] [432] [433] [434] [435] [436]\n[437]
+  [438] [439] [440] [441] [442] [443] [444] [445] [446] [447] [448]\n[449] [450] [451]
+  [452] [453]\nOverfull \\hbox (12.50453pt too wide) detected at line 22671\n\\OML/cmm/m/it/10.95
   Pack[] \\OMS/cmsy/m/n/10.95 ^ \\OML/cmm/m/it/10.95 Part[] \\OM\nS/cmsy/m/n/10.95
   ^ \\OML/cmm/m/it/10.95 Field[] \\OMS/cmsy/m/n/10.95 ^ []\\OML/cmm\n/m/it/10.95 ^^V[]
   > \\OT1/cmr/m/n/10.95 0[][] =[]\\OMS/cmsy/m/n/10.95 ) ?[]\\OML/c\nmm/m/it/10.95
-  :\n[453] [454] [455] [456] [457] [458] [459] [460] [461] [462] [463] [464]\n[465]
-  [466] [467] [468] [469] [470] [471] [472] [473] [474]\nOverfull \\hbox (11.52324pt
+  :\n[454] [455] [456] [457] [458] [459] [460] [461] [462] [463] [464] [465]\n[466]
+  [467] [468] [469] [470] [471] [472] [473] [474] [475]\nOverfull \\hbox (11.52324pt
   too wide) in paragraph at lines 23963--23964\n[]\\T1/cmr/m/n/10.95 (-20) The branch
-  re-duces to active-shell source nor-mal-iz\na-tion and then to a weighted commutator/residual-\n[475]
-  [476] [477] [478] [479] [480] [481] [482]\nOverfull \\hbox (8.79887pt too wide)
+  re-duces to active-shell source nor-mal-iz\na-tion and then to a weighted commutator/residual-\n[476]
+  [477] [478] [479] [480] [481] [482] [483]\nOverfull \\hbox (8.79887pt too wide)
   in paragraph at lines 24463--24464\n[]\\T1/cmr/m/n/10.95 (-20) Once Good Scale.TTU
-  is sup-plied, com-pact-ness plus \npack-stabilized ge-om-e-try gives READ.COVER,\n[483]
-  [484] [485] [486] [487] [488]\nOverfull \\hbox (8.0433pt too wide) in paragraph
+  is sup-plied, com-pact-ness plus \npack-stabilized ge-om-e-try gives READ.COVER,\n[484]
+  [485] [486] [487] [488] [489]\nOverfull \\hbox (8.0433pt too wide) in paragraph
   at lines 24811--24811\n[]\\T1/cmr/bx/n/12 (-20) Tangent-weight rigid-ity at-tack
-  for Orig-i-nal Smooth \nData => SOURCE.NO-\n[489] [490] [491] [492] [493] [494]
-  [495] [496] [497] [498] [499] [500]\n[501] [502]\nOverfull \\hbox (16.91269pt too
+  for Orig-i-nal Smooth \nData => SOURCE.NO-\n[490] [491] [492] [493] [494] [495]
+  [496] [497] [498] [499] [500] [501]\n[502] [503]\nOverfull \\hbox (16.91269pt too
   wide) detected at line 25657\n\\OML/cmm/m/it/10.95 T[];  [];  [];  \\OMS/cmsy/m/n/10.95
   k\\OML/cmm/m/it/10.95 u\\\nOT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 t\\OT1/cmr/m/n/10.95
-  )\\OMS/cmsy/m/n/10.95\n k[][]\\OML/cmm/m/it/10.95 :\n[503] [504] [505] [506] [507]
-  [508] [509] [510] [511] [512] [513]\nOverfull \\hbox (12.50453pt too wide) detected
+  )\\OMS/cmsy/m/n/10.95\n k[][]\\OML/cmm/m/it/10.95 :\n[504] [505] [506] [507] [508]
+  [509] [510] [511] [512] [513] [514]\nOverfull \\hbox (12.50453pt too wide) detected
   at line 26323\n\\OML/cmm/m/it/10.95 Pack[] \\OMS/cmsy/m/n/10.95 ^ \\OML/cmm/m/it/10.95
   Part[] \\OM\nS/cmsy/m/n/10.95 ^ \\OML/cmm/m/it/10.95 Field[] \\OMS/cmsy/m/n/10.95
   ^ []\\OML/cmm\n/m/it/10.95 ^^V[] > \\OT1/cmr/m/n/10.95 0[][] =[]\\OMS/cmsy/m/n/10.95
-  ) ?[]\\OML/c\nmm/m/it/10.95 :\n[514] [515] [516] [517] [518] [519] [520] [521] [522]
-  [523] [524] [525]\n[526] [527] [528] [529] [530] [531] [532] [533] [534] [535] [536]
-  [537]\n[538] [539] [540] [541]\nOverfull \\hbox (97.12482pt too wide) detected at
+  ) ?[]\\OML/c\nmm/m/it/10.95 :\n[515] [516] [517] [518] [519] [520] [521] [522] [523]
+  [524] [525] [526]\n[527] [528] [529] [530] [531] [532] [533] [534] [535] [536] [537]
+  [538]\n[539] [540] [541] [542]\nOverfull \\hbox (97.12482pt too wide) detected at
   line 28140\n\\OMS/cmsy/m/n/10.95 B \\OT1/cmr/m/n/10.95 = []\\OML/cmm/m/it/10.95
-  :\n[542] [543] [544] [545] [546] [547]\nOverfull \\hbox (204.60117pt too wide) detected
+  :\n[543] [544] [545] [546] [547] [548]\nOverfull \\hbox (204.60117pt too wide) detected
   at line 28504\n[]\\OML/cmm/m/it/10.95 ^^W \\OMS/cmsy/m/n/10.95 ! \\OT1/cmr/m/n/10.95
-  0[]\n[548] [549] [550] [551] [552] [553] [554] [555] [556] [557] [558] [559]\n[560]
-  [561] [562] [563] [564] [565] [566] [567] [568] [569] [570] [571]\n[572] [573] [574]
-  [575] [576] [577] [578] [579] [580] [581] [582]\nOverfull \\hbox (9.99799pt too
+  0[]\n[549] [550] [551] [552] [553] [554] [555] [556] [557] [558] [559] [560]\n[561]
+  [562] [563] [564] [565] [566] [567] [568] [569] [570] [571] [572]\n[573] [574] [575]
+  [576] [577] [578] [579] [580] [581] [582] [583]\nOverfull \\hbox (9.99799pt too
   wide) detected at line 30350\n\\OML/cmm/m/it/10.95 CM[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
-  ) []\\OML/cmm\n/m/it/10.95 Q:\n[583] [584] [585] [586] [587] [588] [589] [590] [591]\nOverfull
+  ) []\\OML/cmm\n/m/it/10.95 Q:\n[584] [585] [586] [587] [588] [589] [590] [591] [592]\nOverfull
   \\hbox (9.35838pt too wide) detected at line 30804\n\\OMS/cmsy/m/n/10.95 :\\OML/cmm/m/it/10.95
   Part[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy\n/m/n/10.95 ) \\OML/cmm/m/it/10.95 Dead;
   \ \\OMS/cmsy/m/n/10.95 :\\OML/cmm/m/it/10.9\n5 Pack[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
   ) \\OML/cmm/m/it/10.95 packin\ng[]detached \\OMS/cmsy/m/n/10.95 _ \\OML/cmm/m/it/10.95
   tower[]blown;  \\OMS/cmsy/\nm/n/10.95 :\\OML/cmm/m/it/10.95 Field[] \\OT1/cmr/m/n/10.95
-  =[]\\OMS/cmsy/m/n/10.9\n5 ) \\OML/cmm/m/it/10.95 Jump:\n[592] [593] [594] [595]
-  [596] [597] [598] [599] [600]\nOverfull \\hbox (115.40181pt too wide) detected at
+  =[]\\OMS/cmsy/m/n/10.9\n5 ) \\OML/cmm/m/it/10.95 Jump:\n[593] [594] [595] [596]
+  [597] [598] [599] [600] [601]\nOverfull \\hbox (115.40181pt too wide) detected at
   line 31447\n[][] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) [] \\OT1/cmr/m/n/10.95
   =[]\\OMS/\ncmsy/m/n/10.95 ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) []
-  \\OT1/cmr/m/n\n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) []\\OML/cmm/m/it/10.95 :\n[601]
-  [602] [603] [604] [605] [606] [607] [608] [609] [610] [611] [612]\n[613] [614] [615]
-  [616] [617] [618] [619] [620] [621] [622] [623] [624]\n[625] [626] [627] [628] [629]
-  [630]\nOverfull \\hbox (21.04236pt too wide) detected at line 33172\n[]\\OMS/cmsy/m/n/10.95
+  \\OT1/cmr/m/n\n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) []\\OML/cmm/m/it/10.95 :\n[602]
+  [603] [604] [605] [606] [607] [608] [609] [610] [611] [612] [613]\n[614] [615] [616]
+  [617] [618] [619] [620] [621] [622] [623] [624] [625]\n[626] [627] [628] [629] [630]
+  [631]\nOverfull \\hbox (21.04236pt too wide) detected at line 33172\n[]\\OMS/cmsy/m/n/10.95
   k\\OML/cmm/m/it/10.95 w\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/1\n0.95 t\\OT1/cmr/m/n/10.95
   )\\OMS/cmsy/m/n/10.95 k[] \\OT1/cmr/m/n/10.95 + \\OML/cmm\n/m/it/10.95 ^^W\\OMS/cmsy/m/n/10.95
   kr\\OML/cmm/m/it/10.95 w\\OT1/cmr/m/n/10.95 (\\\nOML/cmm/m/it/10.95 t\\OT1/cmr/m/n/10.95
@@ -180,9 +182,9 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   w\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 t\\OT1/cmr/m/n/10.95 )\\OMS\n/cmsy/m/n/10.95
   k[] \\OT1/cmr/m/n/10.95 + \\OML/cmm/m/it/10.95 C[]^^W[]\\OMS/cmsy/\nm/n/10.95 k\\OML/cmm/m/it/10.95
   u[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 t\\OT1\n/cmr/m/n/10.95 )\\OMS/cmsy/m/n/10.95
-  k[]\\OML/cmm/m/it/10.95 :\n[631] [632] [633] [634] [635] [636] [637] [638] [639]
-  [640] [641] [642]\n[643] [644] [645] [646] [647] [648] [649] [650] [651] [652] [653]
-  [654]\n[655] [656] [657] [658] [659] [660]\nOverfull \\hbox (2.92516pt too wide)
+  k[]\\OML/cmm/m/it/10.95 :\n[632] [633] [634] [635] [636] [637] [638] [639] [640]
+  [641] [642] [643]\n[644] [645] [646] [647] [648] [649] [650] [651] [652] [653] [654]
+  [655]\n[656] [657] [658] [659] [660] [661]\nOverfull \\hbox (2.92516pt too wide)
   detected at line 34997\n\\OMS/cmsy/m/n/10.95 N[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95
   t\\OT1/cmr/m/n/10\n.95 ; \\OML/cmm/m/it/10.95 I\\OT1/cmr/m/n/10.95 ) := [] []\\OMS/cmsy/m/n/10.95
   jP[\n]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 ^^Q[]; t\\OT1/cmr/m/n/10.95 ; \\OML/cmm/\nm/it/10.95
@@ -194,46 +196,46 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   jR[]\\OT1/cmr/m/n/10.95 (\\\nOML/cmm/m/it/10.95 ^^Q[]; t\\OT1/cmr/m/n/10.95 ; \\OML/cmm/m/it/10.95
   \ \\OT1/cmr/m\n/n/10.95 )\\OMS/cmsy/m/n/10.95 j \\OT1/cmr/m/n/10.95 + \\OMS/cmsy/m/n/10.95
   jC[]\\O\nT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 ^^Q[]; t\\OT1/cmr/m/n/10.95 ; \\OML/cmm/m/i\nt/10.95
-  \ \\OT1/cmr/m/n/10.95 )\\OMS/cmsy/m/n/10.95 j[]\\OML/cmm/m/it/10.95 :\n[661] [662]
-  [663] [664] [665] [666] [667] [668] [669] [670] [671]\nOverfull \\hbox (61.2252pt
+  \ \\OT1/cmr/m/n/10.95 )\\OMS/cmsy/m/n/10.95 j[]\\OML/cmm/m/it/10.95 :\n[662] [663]
+  [664] [665] [666] [667] [668] [669] [670] [671] [672]\nOverfull \\hbox (61.2252pt
   too wide) detected at line 35724\n[]  \\OT1/cmr/m/n/10.95 +  []  +  [] \\U/msa/m/n/10.95
   \  []\\OML/cmm/m/it/10.95 u;\n p; \\OT1/cmr/m/n/10.95 ^^H\\OML/cmm/m/it/10.95 ;
   F[] \\U/msa/m/n/10.95   []\\OT1/c\nmr/m/n/10.95 ^^@\\OML/cmm/m/it/10.95 ;  [];  \\U/euf/m/n/10.95
-  P[]\\OML/cmm/m/it/1\n0.95 ;  \\U/euf/m/n/10.95 Q[][]\\OML/cmm/m/it/10.95 :\n[672]
-  [673] [674] [675] [676] [677] [678]\nOverfull \\hbox (9.35838pt too wide) detected
+  P[]\\OML/cmm/m/it/1\n0.95 ;  \\U/euf/m/n/10.95 Q[][]\\OML/cmm/m/it/10.95 :\n[673]
+  [674] [675] [676] [677] [678] [679]\nOverfull \\hbox (9.35838pt too wide) detected
   at line 36120\n\\OMS/cmsy/m/n/10.95 :\\OML/cmm/m/it/10.95 Part[] \\OT1/cmr/m/n/10.95
   =[]\\OMS/cmsy\n/m/n/10.95 ) \\OML/cmm/m/it/10.95 Dead;  \\OMS/cmsy/m/n/10.95 :\\OML/cmm/m/it/10.9\n5
   Pack[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) \\OML/cmm/m/it/10.95 packin\ng[]detached
   \\OMS/cmsy/m/n/10.95 _ \\OML/cmm/m/it/10.95 tower[]blown;  \\OMS/cmsy/\nm/n/10.95
   :\\OML/cmm/m/it/10.95 Field[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.9\n5 ) \\OML/cmm/m/it/10.95
-  Jump:\n[679] [680] [681] [682] [683] [684] [685] [686] [687] [688] [689] [690]\n[691]
-  [692] [693] [694] [695] [696] [697]\nOverfull \\hbox (32.35828pt too wide) detected
+  Jump:\n[680] [681] [682] [683] [684] [685] [686] [687] [688] [689] [690] [691]\n[692]
+  [693] [694] [695] [696] [697] [698]\nOverfull \\hbox (32.35828pt too wide) detected
   at line 37375\n[]\\OML/cmm/m/it/10.95 L[][] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
   ) [] _ :\\\nOML/cmm/m/it/10.95 Pack[] \\OMS/cmsy/m/n/10.95 _ :\\OML/cmm/m/it/10.95
-  Part[] \\OM\nS/cmsy/m/n/10.95 _ \\OML/cmm/m/it/10.95 Legal:\n[698] [699] [700] [701]
-  [702] [703] [704] [705] [706] [707] [708] [709]\n[710] [711] [712] [713] [714] [715]
-  [716] [717] [718] [719] [720] [721]\n[722] [723] [724] [725] [726] [727] [728] [729]
-  [730] [731] [732] [733]\n[734]\nOverfull \\hbox (81.95354pt too wide) detected at
-  line 39873\n[]\n[735] [736] [737] [738] [739] [740] [741] [742] [743] [744] [745]
-  [746]\n[747] [748] [749] [750] [751] [752] [753] [754] [755] [756] [757] [758]\n[759]
-  [760] [761] [762] [763] [764] [765] [766] [767] [768] [769] [770]\n[771]\nOverfull
+  Part[] \\OM\nS/cmsy/m/n/10.95 _ \\OML/cmm/m/it/10.95 Legal:\n[699] [700] [701] [702]
+  [703] [704] [705] [706] [707] [708] [709] [710]\n[711] [712] [713] [714] [715] [716]
+  [717] [718] [719] [720] [721] [722]\n[723] [724] [725] [726] [727] [728] [729] [730]
+  [731] [732] [733] [734]\n[735]\nOverfull \\hbox (81.95354pt too wide) detected at
+  line 39873\n[]\n[736] [737] [738] [739] [740] [741] [742] [743] [744] [745] [746]
+  [747]\n[748] [749] [750] [751] [752] [753] [754] [755] [756] [757] [758] [759]\n[760]
+  [761] [762] [763] [764] [765] [766] [767] [768] [769] [770] [771]\n[772]\nOverfull
   \\hbox (14.3893pt too wide) in paragraph at lines 42082--42083\n\\T1/cmr/m/n/10.95
-  (-20) Pack.A pays the end-point term. Pro-jected Cut-off Ledg\ner.A pays the pressure/projection/cutoff/material-\n[772]
-  [773] [774] [775] [776]\nOverfull \\hbox (99.58202pt too wide) detected at line
-  42358\n[][]\n[777] [778] [779] [780] [781] [782] [783] [784] [785] [786] [787] [788]\n[789]
-  [790] [791] [792] [793] [794] [795] [796]\nOverfull \\hbox (151.3995pt too wide)
+  (-20) Pack.A pays the end-point term. Pro-jected Cut-off Ledg\ner.A pays the pressure/projection/cutoff/material-\n[773]
+  [774] [775] [776] [777]\nOverfull \\hbox (99.58202pt too wide) detected at line
+  42358\n[][]\n[778] [779] [780] [781] [782] [783] [784] [785] [786] [787] [788] [789]\n[790]
+  [791] [792] [793] [794] [795] [796] [797]\nOverfull \\hbox (151.3995pt too wide)
   detected at line 43547\n[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 u; p; \\OT1/cmr/m/n/10.95
-  ^^H\\OML/cmm/\nm/it/10.95 ; F\\OT1/cmr/m/n/10.95 )[]\n[797] [798] [799] [800] [801]
-  [802] [803] [804] [805] [806] [807] [808]\n[809] [810]\nUnderfull \\hbox (badness
+  ^^H\\OML/cmm/\nm/it/10.95 ; F\\OT1/cmr/m/n/10.95 )[]\n[798] [799] [800] [801] [802]
+  [803] [804] [805] [806] [807] [808] [809]\n[810] [811]\nUnderfull \\hbox (badness
   1990) in paragraph at lines 44465--44466\n[]\\T1/cmr/m/n/10.95 (+20) PCTP.CONSUMPTION.AUDIT.v2.
   M Q.LOCAL-MEMBERSHIP.EXPOR\nT. CLAS-SI-\n\nOverfull \\hbox (85.44629pt too wide)
   in paragraph at lines 44465--44466\n\\T1/cmr/m/n/10.95 (-20) CAL.CLOSURE.WARRANT.CONSUMPTION.
   RE-LEASE.CONSISTENCY.v\n2. TAR-GET.FIDELITY.NORMALIZE.\n\nOverfull \\hbox (169.44695pt
   too wide) in paragraph at lines 44513--44514\n[]\\T1/cmr/m/n/10.95 (-20) PCTP.CONSUMPTION.AUDIT.v2
-  M Q.LOCAL-MEMBERSHIP.EXPORT\n CLAS-SI-CAL.CLOSURE.WARRANT.CONSUMPTION\n[811]\nOverfull
+  M Q.LOCAL-MEMBERSHIP.EXPORT\n CLAS-SI-CAL.CLOSURE.WARRANT.CONSUMPTION\n[812]\nOverfull
   \\hbox (24.62831pt too wide) in paragraph at lines 44549--44550\n\\T1/cmr/m/n/10.95
-  (-20) PCTP.hard.CANONICAL.v2. AACT.Global.no Jump.FAILURE-MOD\nES. DTC.Read.Press.EXPORT.v2.\n[812]
-  [813] [814] [815] [816] [817]\nOverfull \\hbox (52.17256pt too wide) detected at
+  (-20) PCTP.hard.CANONICAL.v2. AACT.Global.no Jump.FAILURE-MOD\nES. DTC.Read.Press.EXPORT.v2.\n[813]
+  [814] [815] [816] [817] [818]\nOverfull \\hbox (52.17256pt too wide) detected at
   line 44913\n\\U/euf/m/n/10.95 A[] \\OMS/cmsy/m/n/10.95 2 \\OML/cmm/m/it/10.95 L[]
   \\OT1/cmr/m/n\n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) :\\OML/cmm/m/it/10.95 tower[]blown
   \\OT1/cmr/m/n/\n10.95 =[]\\OMS/cmsy/m/n/10.95 ) :\\OML/cmm/m/it/10.95 Dead \\OMS/cmsy/m/n/10.95
@@ -241,12 +243,12 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   Jump \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) [] k\\OML/cmm/m/it/10.95 u\\O\nT1/cmr/m/n/10.95
   (\\OML/cmm/m/it/10.95 t\\OT1/cmr/m/n/10.95 )\\OMS/cmsy/m/n/10.95 \nk[] \\OML/cmm/m/it/10.95
   < \\OMS/cmsy/m/n/10.95 1 \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy\n/m/n/10.95 ) \\OML/cmm/m/it/10.95
-  T[] \\OT1/cmr/m/n/10.95 = \\OMS/cmsy/m/n/10.95 1\n\\OML/cmm/m/it/10.95 :\n[818]
-  [819] [820] [821] [822] [823] [824] [825] [826] [827]\nOverfull \\hbox (14.52464pt
+  T[] \\OT1/cmr/m/n/10.95 = \\OMS/cmsy/m/n/10.95 1\n\\OML/cmm/m/it/10.95 :\n[819]
+  [820] [821] [822] [823] [824] [825] [826] [827] [828]\nOverfull \\hbox (14.52464pt
   too wide) in paragraph at lines 45453--45454\n\\T1/cmr/m/n/10.95 (-20) Li-ou-ville
-  the-o-rem is avail-able, for ex-am-ple a bo\nunded an-cient mild class, a two-dimensional/axisymmetric\n[828]
-  [829] [830] [831] [832] [833] [834] [835] [836] [837] [838] [839]\n[840] [841] [842]
-  [843] [844] [845] [846] [847] [848] [849] [850] [851]\n[852] [853] [854] [855] [856]\nOverfull
+  the-o-rem is avail-able, for ex-am-ple a bo\nunded an-cient mild class, a two-dimensional/axisymmetric\n[829]
+  [830] [831] [832] [833] [834] [835] [836] [837] [838] [839] [840]\n[841] [842] [843]
+  [844] [845] [846] [847] [848] [849] [850] [851] [852]\n[853] [854] [855] [856] [857]\nOverfull
   \\hbox (58.4857pt too wide) detected at line 47166\n[]\n\nOverfull \\hbox (34.99759pt
   too wide) detected at line 47180\n[]\n\nOverfull \\hbox (46.61632pt too wide) detected
   at line 47211\n\\OML/cmm/m/it/10.95 PublicCriticalExitToCMFace[]:A \\OT1/cmr/m/n/10.95
@@ -255,7 +257,7 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   W\\OT1/cmr/m/n/10.95 ) \\OMS/cmsy/m/n/10.95 _ :\\OML/cmm/m/it/\n10.95 Part[]\\OT1/cmr/m/n/10.95
   (\\OMS/cmsy/m/n/10.95 W\\OT1/cmr/m/n/10.95 ) \\OMS/\ncmsy/m/n/10.95 _ :\\OML/cmm/m/it/10.95
   Field[]\\OT1/cmr/m/n/10.95 (\\OMS/cmsy/m/n/\n10.95 W\\OT1/cmr/m/n/10.95 )\\OML/cmm/m/it/10.95
-  :\n[857] [858] [859] [860] [861] [862]\nOverfull \\hbox (4.31607pt too wide) detected
+  :\n[858] [859] [860] [861] [862] [863]\nOverfull \\hbox (4.31607pt too wide) detected
   at line 47564\n[]\\OML/cmm/m/it/10.95 E[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95
   h; t\\OT1/cmr/m\n/n/10.95 ; \\OML/cmm/m/it/10.95  \\OT1/cmr/m/n/10.95 ) + 2\\OML/cmm/m/it/10.95
   ^^W\nD[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 h; t\\OT1/cmr/m/n/10.95 ; \\OML/cmm/m/\nit/10.95
@@ -267,49 +269,49 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   R[]\\OT1/cmr/m/n/10.95 (\\O\nML/cmm/m/it/10.95 h; t\\OT1/cmr/m/n/10.95 ; \\OML/cmm/m/it/10.95
   \ \\OT1/cmr/m/n/10\n.95 ) + \\OMS/cmsy/m/n/10.95 C[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95
   h; t\\OT1\n/cmr/m/n/10.95 ; \\OML/cmm/m/it/10.95  \\OT1/cmr/m/n/10.95 )\\OML/cmm/m/it/10.95
-  :\n\n[863] [864] [865] [866] [867] [868] [869] [870] [871] [872] [873] [874]\n[875]
-  [876] [877] [878] [879] [880] [881] [882] [883] [884] [885] [886]\n[887] [888] [889]
-  [890] [891] [892]\nOverfull \\hbox (11.48816pt too wide) in paragraph at lines 49519--49520\n[]\\T1/cmr/m/n/10.95
+  :\n\n[864] [865] [866] [867] [868] [869] [870] [871] [872] [873] [874] [875]\n[876]
+  [877] [878] [879] [880] [881] [882] [883] [884] [885] [886] [887]\n[888] [889] [890]
+  [891] [892] [893]\nOverfull \\hbox (11.48816pt too wide) in paragraph at lines 49519--49520\n[]\\T1/cmr/m/n/10.95
   (-20) It re-mains only to han-dle the mixed tower-blown al-\nter-na-tive. On the
-  branch where Pack+Part+Field\n[893] [894] [895]\nOverfull \\hbox (148.21233pt too
-  wide) detected at line 49693\n[]\n[896] [897] [898] [899] [900] [901] [902] [903]
-  [904] [905] [906] [907]\n[908] [909] [910] [911] [912] [913] [914] [915] [916] [917]
-  [918] [919]\n[920] [921] [922] [923] [924] [925] [926] [927] [928] [929] [930] [931]\n[932]
-  [933] [934] [935] [936] [937] [938]\nOverfull \\hbox (35.56787pt too wide) in paragraph
+  branch where Pack+Part+Field\n[894] [895] [896]\nOverfull \\hbox (148.21233pt too
+  wide) detected at line 49693\n[]\n[897] [898] [899] [900] [901] [902] [903] [904]
+  [905] [906] [907] [908]\n[909] [910] [911] [912] [913] [914] [915] [916] [917] [918]
+  [919] [920]\n[921] [922] [923] [924] [925] [926] [927] [928] [929] [930] [931] [932]\n[933]
+  [934] [935] [936] [937] [938] [939]\nOverfull \\hbox (35.56787pt too wide) in paragraph
   at lines 52298--52299\n[]\\T1/cmr/m/n/10.95 (-20) Against that same source-pulse
-  branch the-o-rem, all \nlater PCTP.hard / TTU.A, TGC.A+AACT.Global.no\n[939] [940]
-  [941] [942] [943] [944] [945] [946] [947] [948] [949] [950]\n[951] [952] [953] [954]
-  [955] [956] [957] [958] [959] [960] [961] [962]\n[963] [964] [965] [966] [967] [968]
-  [969] [970] [971] [972] [973] [974]\nOverfull \\hbox (11.99487pt too wide) in paragraph
+  branch the-o-rem, all \nlater PCTP.hard / TTU.A, TGC.A+AACT.Global.no\n[940] [941]
+  [942] [943] [944] [945] [946] [947] [948] [949] [950] [951]\n[952] [953] [954] [955]
+  [956] [957] [958] [959] [960] [961] [962] [963]\n[964] [965] [966] [967] [968] [969]
+  [970] [971] [972] [973] [974] [975]\nOverfull \\hbox (11.99487pt too wide) in paragraph
   at lines 54272--54273\n[]\\T1/cmr/m/n/10.95 (-20) The con-tra-pos-i-tive proof pro-gram
-  still re-quires\n the ter-mi-nal class-exit gram-mar on Pack+Part+Field;\n[975]
-  [976]\nOverfull \\hbox (3.92165pt too wide) in paragraph at lines 54378--54379\n\\T1/cmr/m/n/10.95
+  still re-quires\n the ter-mi-nal class-exit gram-mar on Pack+Part+Field;\n[976]
+  [977]\nOverfull \\hbox (3.92165pt too wide) in paragraph at lines 54378--54379\n\\T1/cmr/m/n/10.95
   (-20) Theorem-facing au-dit for the bypass-local tem-po-ral a\nnti-atom tar-get
-  in-tro-duced by the READ.COVER\n[977] [978] [979] [980] [981] [982]\nOverfull \\hbox
+  in-tro-duced by the READ.COVER\n[978] [979] [980] [981] [982] [983]\nOverfull \\hbox
   (418.90709pt too wide) detected at line 54731\n[]\\OML/cmm/m/it/10.95 ;  [];  L[][];
-  \ [];  []:\n[983] [984] [985]\nOverfull \\hbox (52.65117pt too wide) detected at
+  \ [];  []:\n[984] [985] [986]\nOverfull \\hbox (52.65117pt too wide) detected at
   line 54911\n\\OML/cmm/m/it/10.95 TerminalLerayOrientation[]:A \\OT1/cmr/m/n/10.95
   + \\OML/cmm/\nm/it/10.95 TerminalLerayCommutatorLegal[]:A \\OT1/cmr/m/n/10.95 +
-  \\OML/cmm/m/it/\n10.95 TerminalLeraySaturation[]:A:\n[986] [987] [988] [989] [990]
-  [991] [992] [993] [994]\nOverfull \\hbox (64.75273pt too wide) detected at line
+  \\OML/cmm/m/it/\n10.95 TerminalLeraySaturation[]:A:\n[987] [988] [989] [990] [991]
+  [992] [993] [994] [995]\nOverfull \\hbox (64.75273pt too wide) detected at line
   55424\n[][]\\OT1/cmr/m/n/10.95 (\\OMS/cmsy/m/n/10.95 F[]\\OT1/cmr/m/n/10.95 ) =
   [][](\\OMS\n/cmsy/m/n/10.95 F[]\\OT1/cmr/m/n/10.95 ) \\OMS/cmsy/m/n/10.95 [ f[]
   [][]\\OT1/cmr/\nm/n/10.95 (\\OMS/cmsy/m/n/10.95 F[]\\OT1/cmr/m/n/10.95 )\\OMS/cmsy/m/n/10.95
-  g\\OML\n/cmm/m/it/10.95 :\n[995] [996] [997] [998] [999] [1000] [1001] [1002] [1003]
-  [1004] [1005]\n[1006] [1007] [1008] [1009] [1010] [1011] [1012] [1013] [1014] [1015]
-  [1016]\n[1017] [1018] [1019] [1020]\nOverfull \\hbox (160.88396pt too wide) detected
+  g\\OML\n/cmm/m/it/10.95 :\n[996] [997] [998] [999] [1000] [1001] [1002] [1003] [1004]
+  [1005] [1006]\n[1007] [1008] [1009] [1010] [1011] [1012] [1013] [1014] [1015] [1016]
+  [1017]\n[1018] [1019] [1020] [1021]\nOverfull \\hbox (160.88396pt too wide) detected
   at line 56963\n[]\\OML/cmm/m/it/10.95 ^^W \\OMS/cmsy/m/n/10.95 ! \\OT1/cmr/m/n/10.95
-  0[]\\OML/cmm/\nm/it/10.95 :\n[1021] [1022] [1023] [1024] [1025] [1026]\nOverfull
+  0[]\\OML/cmm/\nm/it/10.95 :\n[1022] [1023] [1024] [1025] [1026] [1027]\nOverfull
   \\hbox (88.6308pt too wide) detected at line 57331\n[] \\OMS/cmsy/m/n/10.95 ^^U
   \\OML/cmm/m/it/10.95 c[][]^^Q > \\OT1/cmr/m/n/10.95 0[\n]\\OMS/cmsy/m/n/10.95 Q\\OML/cmm/m/it/10.95
   :\n\nOverfull \\hbox (51.62527pt too wide) detected at line 57378\n\\OML/cmm/m/it/10.95
-  ZenoBoundedClass[]:A \\OT1/cmr/m/n/10.95 :  []\\OML/cmm/m/it/\n10.95 B;\n[1027]\nOverfull
+  ZenoBoundedClass[]:A \\OT1/cmr/m/n/10.95 :  []\\OML/cmm/m/it/\n10.95 B;\n[1028]\nOverfull
   \\hbox (13.38005pt too wide) detected at line 57384\n\\OML/cmm/m/it/10.95 ZenoResidueLiouville[]:A
-  \\OT1/cmr/m/n/10.95 :  []\\OML/cmm/m\n/it/10.95 B[]\n[1028]\nOverfull \\hbox (69.11766pt
+  \\OT1/cmr/m/n/10.95 :  []\\OML/cmm/m\n/it/10.95 B[]\n[1029]\nOverfull \\hbox (69.11766pt
   too wide) detected at line 57468\n\\OML/cmm/m/it/10.95 B \\OT1/cmr/m/n/10.95 :=
-  [] \\OML/cmm/m/it/10.95 :\n[1029] [1030] [1031] [1032] [1033] [1034] [1035] [1036]
-  [1037] [1038] [1039]\n[1040] [1041] [1042] [1043] [1044] [1045] [1046] [1047] [1048]
-  [1049] [1050]\n[1051] [1052] [1053] [1054] [1055] [1056] [1057] [1058] [1059]\nOverfull
+  [] \\OML/cmm/m/it/10.95 :\n[1030] [1031] [1032] [1033] [1034] [1035] [1036] [1037]
+  [1038] [1039] [1040]\n[1041] [1042] [1043] [1044] [1045] [1046] [1047] [1048] [1049]
+  [1050] [1051]\n[1052] [1053] [1054] [1055] [1056] [1057] [1058] [1059] [1060]\nOverfull
   \\hbox (89.1283pt too wide) detected at line 59468\n\\OML/cmm/m/it/10.95 ^^Q[]\\OT1/cmr/m/n/10.95
   (\\OML/cmm/m/it/10.95 t; a; b\\OT1/cm\nr/m/n/10.95 ) := \\OMS/cmsy/m/n/10.95 j\\OML/cmm/m/it/10.95
   m[]\\OT1/cmr/m/n/10.95\n (\\OML/cmm/m/it/10.95 t[]; a; b\\OT1/cmr/m/n/10.95 )\\OMS/cmsy/m/n/10.95
@@ -319,39 +321,40 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   s; a\\OT1/cmr/m/n/10.95 )\\OML/cmm/m/it/10.95 W[]\\OT1/cm\nr/m/n/10.95 (\\OML/cmm/m/it/10.95
   s; a\\OT1/cmr/m/n/10.95 ) \\OML/cmm/m/it/10.95 n\n[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95
   a; b; s\\OT1/cmr/m/n/10.95 )[] \\OML/cm\nm/m/it/10.95 ds \\OT1/cmr/m/n/10.95 + 3
-  [][] [] \\OML/cmm/m/it/10.95 ds:\n[1060] [1061] [1062] [1063] [1064] [1065] [1066]
-  [1067] [1068] [1069] [1070]\n[1071] [1072] [1073] [1074] [1075] [1076] [1077] [1078]
-  [1079] [1080] [1081]\n[1082] [1083]\nOverfull \\hbox (5.43962pt too wide) detected
+  [][] [] \\OML/cmm/m/it/10.95 ds:\n[1061] [1062] [1063] [1064] [1065] [1066] [1067]
+  [1068] [1069] [1070] [1071]\n[1072] [1073] [1074] [1075] [1076] [1077] [1078] [1079]
+  [1080] [1081] [1082]\n[1083] [1084]\nOverfull \\hbox (5.43962pt too wide) detected
   at line 60997\n[] \\U/msa/m/n/10.95 . [] [] \\OT1/cmr/m/n/10.95 2[]\\OMS/cmsy/m/n/10.95
   k\\OT1/cmr\n/m/n/10.95 ^^A[]\\OML/cmm/m/it/10.95 u[]\\OMS/cmsy/m/n/10.95 k[][]\\OT1/cmr/m/n/10\n.95
   2[]\\OMS/cmsy/m/n/10.95 k\\OT1/cmr/m/n/10.95 ^^A[]\\OML/cmm/m/it/10.95 u[]\\OMS\n/cmsy/m/n/10.95
-  k[]\\OML/cmm/m/it/10.95 :\n[1084] [1085] [1086] [1087] [1088] [1089] [1090] [1091]
-  [1092] [1093] [1094]\n[1095] [1096] [1097] [1098] [1099] [1100] [1101] [1102] [1103]
-  [1104] [1105]\n[1106] [1107] [1108] [1109] [1110] [1111] [1112] [1113] [1114] [1115]
-  [1116]\n[1117]\nOverfull \\hbox (520.08662pt too wide) detected at line 63486\n[]
+  k[]\\OML/cmm/m/it/10.95 :\n[1085] [1086] [1087] [1088] [1089] [1090] [1091] [1092]
+  [1093] [1094] [1095]\n[1096] [1097] [1098] [1099] [1100] [1101] [1102] [1103] [1104]
+  [1105] [1106]\n[1107] [1108] [1109] [1110] [1111] [1112] [1113] [1114] [1115] [1116]
+  [1117]\n[1118]\nOverfull \\hbox (520.08662pt too wide) detected at line 63486\n[]
   \ \\OT1/cmr/m/n/10.95 +  []  +  []  +  [] \\OMS/cmsy/m/n/10.95 jr\\OML/cmm/m/it/\n10.95
-  v[]\\OMS/cmsy/m/n/10.95 j[]\n[1118] [1119] [1120] [1121] [1122] [1123] [1124] [1125]
-  [1126] [1127] [1128]\n[1129] [1130] [1131] [1132] [1133]\nOverfull \\hbox (26.8252pt
+  v[]\\OMS/cmsy/m/n/10.95 j[]\n[1119] [1120] [1121] [1122] [1123] [1124] [1125] [1126]
+  [1127] [1128] [1129]\n[1130] [1131] [1132] [1133] [1134]\nOverfull \\hbox (26.8252pt
   too wide) detected at line 64602\n\\U/euf/m/n/10.95 C[] \\OT1/cmr/m/n/10.95 := []
   \\OMS/cmsy/m/n/10.95 \\ [] \\ []\\OML\n/cmm/m/it/10.95 :\n\nOverfull \\hbox (96.23767pt
   too wide) detected at line 64625\n\\OML/cmm/m/it/10.95 Q \\OMS/cmsy/m/n/10.95 ^^X
   \\OML/cmm/m/it/10.95 Q[]  \\OMS/cms\ny/m/n/10.95 ([])  []\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95
-  !; ![]\\OT1/cmr/m/n/\n10.95 ) \\OMS/cmsy/m/n/10.95 2 R[][]\n[1134] [1135] [1136]
-  [1137] [1138] [1139] [1140] [1141] [1142] [1143] [1144]\n[1145] [1146] [1147] [1148]
-  [1149] [1150] [1151] [1152] [1153] [1154] [1155]\n[1156] [1157] [1158] [1159] [1160]
-  [1161] [1162] [1163] [1164] [1165] [1166]\n[1167] [1168] [1169] [1170] [1171]\nOverfull
+  !; ![]\\OT1/cmr/m/n/\n10.95 ) \\OMS/cmsy/m/n/10.95 2 R[][]\n[1135] [1136] [1137]
+  [1138] [1139] [1140] [1141] [1142] [1143] [1144] [1145]\n[1146] [1147] [1148] [1149]
+  [1150] [1151] [1152] [1153] [1154] [1155] [1156]\n[1157] [1158] [1159] [1160] [1161]
+  [1162] [1163] [1164] [1165] [1166] [1167]\n[1168] [1169] [1170] [1171] [1172]\nOverfull
   \\hbox (127.28935pt too wide) in paragraph at lines 67166--67167\n\\T1/cmr/m/n/10.95
   (-20) /-Part/-Field-/Zeno sub-set route; a source-wall Field \ndi-ag-nos-tic or
-  sup-plier; supplier/readout/export/manuscript/generated/source\n-\n[1172] [1173]
-  [1174] [1175] [1176] [1177] [1178] [1179] [1180] [1181] [1182]\n[1183] [1184] [1185]
-  [1186] [1187] [1188] [1189] [1190] [1191] [1192] [1193]\n[1194] [1195] [1196] [1197]
-  [1198] [1199] [1200] [1201] [1202] [1203] [1204]\n[1205] [1206] [1207]) (./surface-derivation-appendix.tex
-  [1208] [1209] [1210]\n[1211] [1212] [1213] [1214]) [1215] (./navier-stokes-submission.aux)\n\nLaTeX
-  Warning: Label(s) may have changed. Rerun to get cross-references right.\n\n\nPackage
-  rerunfilecheck Warning: File `navier-stokes-submission.out' has changed\n.\n(rerunfilecheck)
-  \               Rerun to get outlines right\n(rerunfilecheck)                or
-  use package `bookmark'.\n\n )\n(see the transcript file for additional information)</usr/local/texlive/2025/te\nxmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/tex\nmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf\n-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-\ndist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-d\nist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-di\nst/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist\n/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/f\nonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fon\nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts\n/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/t\nype1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type\n1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p\nublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ\nic/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/\namsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/a\nmsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams\nfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfo\nnts/euler/eufm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams\nfonts/euler/eufm7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/am\nsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p\nublic/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub\nlic/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/\ncm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm\n-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-s\nuper/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-sup\ner/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super\n/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/s\nfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sft\ni1095.pfb>\nOutput
-  written on navier-stokes-human-submission.pdf (1215 pages, 4385068 bytes).\nTranscript
+  sup-plier; supplier/readout/export/manuscript/generated/source\n-\n[1173] [1174]
+  [1175] [1176] [1177] [1178] [1179] [1180] [1181] [1182] [1183]\n[1184] [1185] [1186]
+  [1187] [1188] [1189] [1190] [1191] [1192] [1193] [1194]\n[1195] [1196] [1197] [1198]
+  [1199] [1200] [1201] [1202] [1203] [1204] [1205]\n[1206] [1207] [1208] [1209] [1210]
+  [1211] [1212])\n(./surface-derivation-appendix.tex [1213] [1214] [1215] [1216] [1217]
+  [1218]\n[1219]) [1220] (./navier-stokes-submission.aux)\n\nLaTeX Warning: Label(s)
+  may have changed. Rerun to get cross-references right.\n\n\nPackage rerunfilecheck
+  Warning: File `navier-stokes-submission.out' has changed\n.\n(rerunfilecheck)                Rerun
+  to get outlines right\n(rerunfilecheck)                or use package `bookmark'.\n\n
+  )\n(see the transcript file for additional information)</usr/local/texlive/2025/te\nxmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/tex\nmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf\n-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-\ndist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-d\nist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-di\nst/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist\n/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/f\nonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fon\nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts\n/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/t\nype1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type\n1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p\nublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ\nic/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/\namsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/a\nmsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams\nfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfo\nnts/euler/eufm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams\nfonts/euler/eufm7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/am\nsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p\nublic/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub\nlic/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/\ncm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm\n-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-s\nuper/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-sup\ner/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super\n/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/s\nfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sft\ni1095.pfb>\nOutput
+  written on navier-stokes-submission.pdf (1220 pages, 4398907 bytes).\nTranscript
   written on navier-stokes-submission.log.\n\nThis is pdfTeX, Version 3.141592653-2.6-1.40.28
   (TeX Live 2025) (preloaded format=pdflatex)\n restricted \\write18 enabled.\nentering
   extended mode\n(./navier-stokes-submission.tex\nLaTeX2e <2025-11-01>\nL3 programming
@@ -363,29 +366,32 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   MPS to PDF converter (version 2006.09.02).]\n)))\n(/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty\n(/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)))\n(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg)\n(./navier-stokes-submission.out)
   (./navier-stokes-submission.out)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd)\n(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-euf.cfg)\n(./navier-stokes-submission.toc
   [1{/usr/local/texlive/2025/texmf-var/fonts/map/\npdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm\n-super/cm-super-t1.enc}]
-  [2]) [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]\n[13] [14] [15] [16] [17] [18] (./sections/rebuilt-branch-status-ledger.tex\n[19]\nOverfull
-  \\hbox (34.49055pt too wide) in paragraph at lines 15--15\n[]|\\T1/cmr/m/n/10.95
-  (-20) Energy/enstrophy/source|  \n\nOverfull \\hbox (6.78465pt too wide) in paragraph
-  at lines 17--17\n[]|\\T1/cmr/m/n/10.95 (-20) Compactness/exact \n) (./sections/rebuilt-positive-forward-and-four-body-diagnostic.tex
-  [20]\n[21]) (./sections/rebuilt-energy-enstrophy-source-branch.tex [22])\n(./sections/rebuilt-scale-barrier-tail-branch.tex
-  [23]\nOverfull \\hbox (97.82205pt too wide) detected at line 69\n[]\\OML/cmm/m/it/10.95
-  ;  []:\n) (./sections/rebuilt-compactness-exact-object-branch.tex [24] [25])\n(./sections/rebuilt-recovery-surface-fidelity-branch.tex
-  [26])\n(./sections/rebuilt-lower-prefix-upper-tail-branch.tex [27])\n(./sections/rebuilt-kernelized-lifted-band-branch.tex
-  [28])\n(./sections/rebuilt-shell-gain-half-derivative-branch.tex [29])\n(./sections/rebuilt-cm-exit-method.tex
-  [30]) [31] [32] [33] [34] [35]\n(./proof-attempt-failure-appendix.tex [36] [37]
-  [38] [39] [40]\nOverfull \\hbox (11.96913pt too wide) detected at line 445\n[]  \\OT1/cmr/m/n/10.95
-  +  []  +  []  +  []\\OML/cmm/m/it/10.95 :\n[41] [42] [43] [44] [45] [46] [47] [48]
-  [49] [50] [51] [52] [53] [54] [55]\n[56] [57]\nOverfull \\hbox (173.69772pt too
-  wide) detected at line 1778\n[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) []
-  \\OT1/cmr/m/n/10.95 =[]\\OMS/cm\nsy/m/n/10.95 ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
+  [2]) [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]\n[13] [14] [15] [16] [17] [18] [19]
+  (./sections/rebuilt-branch-status-ledger.tex\n\nOverfull \\hbox (34.49055pt too
+  wide) in paragraph at lines 15--15\n[]|\\T1/cmr/m/n/10.95 (-20) Energy/enstrophy/source|
+  \ \n\nOverfull \\hbox (6.78465pt too wide) in paragraph at lines 17--17\n[]|\\T1/cmr/m/n/10.95
+  (-20) Compactness/exact \n[20]) (./sections/rebuilt-positive-forward-and-four-body-diagnostic.tex\n[21]
+  [22]) (./sections/rebuilt-energy-enstrophy-source-branch.tex [23])\n(./sections/rebuilt-scale-barrier-tail-branch.tex
+  [24]\nOverfull \\hbox (97.82205pt too wide) detected at line 69\n[]\\OML/cmm/m/it/10.95
+  ;  []:\n) (./sections/rebuilt-compactness-exact-object-branch.tex [25] [26])\n(./sections/rebuilt-recovery-surface-fidelity-branch.tex
+  [27])\n(./sections/rebuilt-lower-prefix-upper-tail-branch.tex [28])\n(./sections/rebuilt-kernelized-lifted-band-branch.tex
+  [29])\n(./sections/rebuilt-shell-gain-half-derivative-branch.tex [30])\n(./sections/rebuilt-cm-exit-method.tex
+  [31]) [32] [33] [34] [35]\nOverfull \\hbox (3.40234pt too wide) detected at line
+  1327\n[][]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 Q\\OT1/cmr/m/n/10.95 ; \\U/euf/m/n/10\n.95
+  O[]\\OT1/cmr/m/n/10.95 ) =[]\\OMS/cmsy/m/n/10.95 ) []\n[36] (./proof-attempt-failure-appendix.tex
+  [37] [38] [39] [40] [41]\nOverfull \\hbox (11.96913pt too wide) detected at line
+  445\n[]  \\OT1/cmr/m/n/10.95 +  []  +  []  +  []\\OML/cmm/m/it/10.95 :\n[42] [43]
+  [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56]\n[57] [58]\nOverfull
+  \\hbox (173.69772pt too wide) detected at line 1778\n[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
+  ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cm\nsy/m/n/10.95 ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
   ) []\\OT1/cmr/m/n/10\n.95 (\\OML/cmm/m/it/10.95 Q\\OT1/cmr/m/n/10.95 ; \\U/euf/m/n/10.95
-  O[]\\OT1/cmr/m/n\n/10.95 )\\OML/cmm/m/it/10.95 :\n[58] [59] [60] [61] [62] [63]
-  [64] [65] [66] [67] [68] [69] [70] [71] [72]\n[73] [74] [75] [76] [77] [78] [79]
-  [80] [81] [82] [83] [84] [85])\n(./source-field-reader-appendix.tex [86] [87]\n\nPackage
+  O[]\\OT1/cmr/m/n\n/10.95 )\\OML/cmm/m/it/10.95 :\n[59] [60] [61] [62] [63] [64]
+  [65] [66] [67] [68] [69] [70] [71] [72] [73]\n[74] [75] [76] [77] [78] [79] [80]
+  [81] [82] [83] [84] [85] [86])\n(./source-field-reader-appendix.tex [87] [88]\n\nPackage
   amsmath Warning: Foreign command \\over;\n(amsmath)                \\frac or \\genfrac
-  should be used instead\n(amsmath)                 on input line 98.\n\n[88] [89]
-  [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101]\n[102] [103] [104]
-  [105] [106] [107]\nOverfull \\hbox (117.59627pt too wide) detected at line 1442\n\\OT1/cmr/m/n/10.95
+  should be used instead\n(amsmath)                 on input line 98.\n\n[89] [90]
+  [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102]\n[103] [104] [105]
+  [106] [107] [108]\nOverfull \\hbox (117.59627pt too wide) detected at line 1442\n\\OT1/cmr/m/n/10.95
   (\\OML/cmm/m/it/10.95 S\\OT1/cmr/m/n/10.95 1 \\OMS/cmsy/m/n/10.\n95 ^ \\OML/cmm/m/it/10.95
   S\\OT1/cmr/m/n/10.95 2 \\OMS/cmsy/m/n/10.95 ^ \\OML/cmm/m\n/it/10.95 M\\OT1/cmr/m/n/10.95
   1 \\OMS/cmsy/m/n/10.95 ^ \\OML/cmm/m/it/10.95 M\\OT1\n/cmr/m/n/10.95 2 \\OMS/cmsy/m/n/10.95
@@ -394,117 +400,117 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   3 \\OMS/cmsy/m/n/10.95 ^ \\OML/c\nmm/m/it/10.95 G\\OT1/cmr/m/n/10.95 1 \\OMS/cmsy/m/n/10.95
   ^ \\OML/cmm/m/it/10.95 G\n\\OT1/cmr/m/n/10.95 2 \\OMS/cmsy/m/n/10.95 ^ \\OML/cmm/m/it/10.95
   C\\OT1/cmr/m/n/10\n.95 1 \\OMS/cmsy/m/n/10.95 ^ \\OML/cmm/m/it/10.95 C\\OT1/cmr/m/n/10.95
-  2) =[]\\OMS/\ncmsy/m/n/10.95 ) []\n[108] [109] [110] [111] [112] [113] [114] [115]
-  [116] [117] [118] [119]\n[120] [121] [122] [123] [124] [125] [126] [127] [128] [129]
-  [130] [131]\nOverfull \\hbox (6.15044pt too wide) detected at line 2840\n\\OMS/cmsy/m/n/10.95
-  E[] \\OT1/cmr/m/n/10.95 := []\n[132] [133] [134] [135] [136] [137] [138] [139] [140]
-  [141] [142] [143]\n[144] [145] [146] [147] [148] [149] [150] [151] [152] [153] [154]
-  [155]\n[156] [157] [158] [159] [160] [161] [162] [163] [164]\nOverfull \\hbox (441.28275pt
+  2) =[]\\OMS/\ncmsy/m/n/10.95 ) []\n[109] [110] [111] [112] [113] [114] [115] [116]
+  [117] [118] [119] [120]\n[121] [122] [123] [124] [125] [126] [127] [128] [129] [130]
+  [131] [132]\nOverfull \\hbox (6.15044pt too wide) detected at line 2840\n\\OMS/cmsy/m/n/10.95
+  E[] \\OT1/cmr/m/n/10.95 := []\n[133] [134] [135] [136] [137] [138] [139] [140] [141]
+  [142] [143] [144]\n[145] [146] [147] [148] [149] [150] [151] [152] [153] [154] [155]
+  [156]\n[157] [158] [159] [160] [161] [162] [163] [164] [165]\nOverfull \\hbox (441.28275pt
   too wide) detected at line 4946\n[]  \\OT1/cmr/m/n/10.95 +  []  +  [] \\OMS/cmsy/m/n/10.95
   jr\\OML/cmm/m/it/10.95 v\n[]\\OMS/cmsy/m/n/10.95 j[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
-  ) []\n[165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176]\n[177]
-  [178] [179] [180] [181] [182] [183] [184] [185] [186] [187] [188]\n[189] [190] [191]
-  [192] [193] [194] [195] [196] [197] [198] [199] [200]\n[201] [202] [203]\nOverfull
+  ) []\n[166] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176] [177]\n[178]
+  [179] [180] [181] [182] [183] [184] [185] [186] [187] [188] [189]\n[190] [191] [192]
+  [193] [194] [195] [196] [197] [198] [199] [200] [201]\n[202] [203] [204]\nOverfull
   \\hbox (82.5348pt too wide) detected at line 7558\n[][][] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
   ) [][][] \\OT1/cmr/m/n/10.95 =[\n]\\OMS/cmsy/m/n/10.95 ) [][][] \\OT1/cmr/m/n/10.95
   =[]\\OMS/cmsy/m/n/10.95 ) [][][\n] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95 )
   [][][] \\OT1/cmr/m/n/10.95 =[]\\OMS\n/cmsy/m/n/10.95 ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
   ) []\\OT1/cmr/m/n\n/10.95 6\\OML/cmm/m/it/10.95 :\\OT1/cmr/m/n/10.95 1[]\\OML/cmm/m/it/10.95
-  :\n[204] [205] [206] [207] [208] [209] [210] [211] [212] [213] [214] [215]\n[216]
-  [217] [218] [219]\nOverfull \\hbox (59.93225pt too wide) detected at line 8588\n[][]
-  \ \\OT1/cmr/m/n/10.95 +  []\n[220] [221] [222] [223] [224] [225] [226] [227] [228]
-  [229] [230] [231]\n[232] [233] [234] [235] [236] [237]\nOverfull \\hbox (96.9117pt
+  :\n[205] [206] [207] [208] [209] [210] [211] [212] [213] [214] [215] [216]\n[217]
+  [218] [219] [220]\nOverfull \\hbox (59.93225pt too wide) detected at line 8588\n[][]
+  \ \\OT1/cmr/m/n/10.95 +  []\n[221] [222] [223] [224] [225] [226] [227] [228] [229]
+  [230] [231] [232]\n[233] [234] [235] [236] [237] [238]\nOverfull \\hbox (96.9117pt
   too wide) detected at line 9827\n\\OML/cmm/m/it/10.95 X[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95
   t\\OT1/cmr/m/n/10\n.95 ) = []\\OML/cmm/m/it/10.95 ;  N[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95
   t\\O\nT1/cmr/m/n/10.95 ) = []\\OML/cmm/m/it/10.95 ;  A[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m\n/it/10.95
-  t\\OT1/cmr/m/n/10.95 ) = []\\OML/cmm/m/it/10.95 :\n[238] [239] [240] [241] [242]
-  [243] [244] [245] [246] [247] [248] [249]\n[250] [251] [252] [253] [254] [255] [256]
-  [257] [258] [259] [260] [261]\n[262] [263] [264] [265] [266] [267] [268]\nOverfull
+  t\\OT1/cmr/m/n/10.95 ) = []\\OML/cmm/m/it/10.95 :\n[239] [240] [241] [242] [243]
+  [244] [245] [246] [247] [248] [249] [250]\n[251] [252] [253] [254] [255] [256] [257]
+  [258] [259] [260] [261] [262]\n[263] [264] [265] [266] [267] [268] [269]\nOverfull
   \\hbox (54.22108pt too wide) detected at line 11649\n\\OMS/cmsy/m/n/10.95 h\\OML/cmm/m/it/10.95
   ^^V[];  []\\OMS/cmsy/m/n/10.95 i \\OT1/c\nmr/m/n/10.95 = \\OML/cmm/m/it/10.95 Flux[]
   \\OT1/cmr/m/n/10.95 + \\OML/cmm/m/it/10\n.95 Residence[] \\OT1/cmr/m/n/10.95 + \\OML/cmm/m/it/10.95
   PressureEigenframeSust\nain[] \\OT1/cmr/m/n/10.95 + \\OML/cmm/m/it/10.95 LegalLoss[]
   \\OT1/cmr/m/n/10.95 +\n \\OML/cmm/m/it/10.95 AdjDefect[] \\OT1/cmr/m/n/10.95 + \\OML/cmm/m/it/10.95
-  o[]\\O\nT1/cmr/m/n/10.95 (1)\\OML/cmm/m/it/10.95 :\n[269] [270] [271] [272] [273]
-  [274] [275] [276] [277] [278] [279] [280]\n[281] [282] [283] [284] [285] [286] [287]
-  [288] [289] [290] [291] [292]\n[293] [294] [295] [296] [297] [298] [299] [300] [301]
-  [302] [303] [304]\n[305] [306] [307] [308] [309] [310] [311]\nOverfull \\hbox (12.9749pt
+  o[]\\O\nT1/cmr/m/n/10.95 (1)\\OML/cmm/m/it/10.95 :\n[270] [271] [272] [273] [274]
+  [275] [276] [277] [278] [279] [280] [281]\n[282] [283] [284] [285] [286] [287] [288]
+  [289] [290] [291] [292] [293]\n[294] [295] [296] [297] [298] [299] [300] [301] [302]
+  [303] [304] [305]\n[306] [307] [308] [309] [310] [311] [312]\nOverfull \\hbox (12.9749pt
   too wide) in paragraph at lines 14196--14197\n[]\\T1/cmr/m/n/10.95 (-20) The end-point
-  forc-ing rung uses the orig-i-nal pres-\nsure. On a fixed read-out cover, DTC.Read.Press.local\n[312]
-  [313] [314] [315] [316] [317] [318] [319] [320] [321] [322] [323]\n[324] [325] [326]
-  [327] [328] [329] [330] [331] [332] [333] [334] [335]\n[336] [337] [338] [339] [340]
-  [341] [342] [343] [344] [345] [346] [347]\n[348] [349] [350] [351] [352] [353]\nOverfull
+  forc-ing rung uses the orig-i-nal pres-\nsure. On a fixed read-out cover, DTC.Read.Press.local\n[313]
+  [314] [315] [316] [317] [318] [319] [320] [321] [322] [323] [324]\n[325] [326] [327]
+  [328] [329] [330] [331] [332] [333] [334] [335] [336]\n[337] [338] [339] [340] [341]
+  [342] [343] [344] [345] [346] [347] [348]\n[349] [350] [351] [352] [353] [354]\nOverfull
   \\hbox (3.17302pt too wide) in paragraph at lines 16788--16788\n[]\\T1/cmr/bx/n/12
-  (-20) Matrix Hand-off For Re-paired Cas-cade Sup-pres-sion In\nto proof-dependency-\n[354]
-  [355] [356] [357] [358] [359]\nOverfull \\hbox (64.54135pt too wide) detected at
+  (-20) Matrix Hand-off For Re-paired Cas-cade Sup-pres-sion In\nto proof-dependency-\n[355]
+  [356] [357] [358] [359] [360]\nOverfull \\hbox (64.54135pt too wide) detected at
   line 17163\n[] [][] \\OMS/cmsy/m/n/10.95 j\\OML/cmm/m/it/10.95 v\\OT1/cmr/m/n/10.95
   (\\OML/cmm/\nm/it/10.95 y; s\\OT1/cmr/m/n/10.95 )\\OMS/cmsy/m/n/10.95 j[]\\OML/cmm/m/it/10.95
-  d\ny \\OT1/cmr/m/n/10.95 = 0 []\n[360] [361] [362] [363] [364] [365] [366] [367]
-  [368] [369] [370] [371]\n[372] [373] [374] [375] [376] [377] [378] [379]\nOverfull
+  d\ny \\OT1/cmr/m/n/10.95 = 0 []\n[361] [362] [363] [364] [365] [366] [367] [368]
+  [369] [370] [371] [372]\n[373] [374] [375] [376] [377] [378] [379] [380]\nOverfull
   \\hbox (88.79541pt too wide) detected at line 18379\n\\OML/cmm/m/it/10.95 Field[]
   \\OT1/cmr/m/n/10.95 + \\U/euf/m/n/10.95 A[] \\OMS/cmsy\n/m/n/10.95 2 \\OML/cmm/m/it/10.95
   L[] \\OT1/cmr/m/n/10.95 + \\OML/cmm/m/it/10.95 P\nart[][] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
-  ) \\OML/cmm/m/it/10.95 Part[][\n]\n[380] [381] [382] [383] [384] [385] [386] [387]
-  [388] [389] [390] [391]\n[392] [393] [394] [395]\nOverfull \\hbox (3.55348pt too
+  ) \\OML/cmm/m/it/10.95 Part[][\n]\n[381] [382] [383] [384] [385] [386] [387] [388]
+  [389] [390] [391] [392]\n[393] [394] [395] [396]\nOverfull \\hbox (3.55348pt too
   wide) detected at line 19254\n[] [][] \\OML/cmm/m/it/10.95 ^^_[]\\OMS/cmsy/m/n/10.95
   j\\OML/cmm/m/it/10.95 w[]\\O\nMS/cmsy/m/n/10.95 j[] [][] ^^T \\OML/cmm/m/it/10.95
   ^^R[] [] [][] \\OMS/cmsy/m/n/\n10.95 D[] \\OT1/cmr/m/n/10.95 + [][](\\OMS/cmsy/m/n/10.95
   F[]\\OT1/cmr/m/n/10.95 )\n + [][](\\OMS/cmsy/m/n/10.95 F[]\\OT1/cmr/m/n/10.95 )
-  + \\OML/cmm/m/it/10.95 o[]\\O\nT1/cmr/m/n/10.95 (1)\n[396] [397] [398] [399] [400]
-  [401] [402] [403] [404] [405] [406] [407]\n[408] [409] [410] [411] [412] [413] [414]
-  [415] [416] [417] [418] [419]\n[420] [421] [422] [423] [424] [425]\nOverfull \\hbox
+  + \\OML/cmm/m/it/10.95 o[]\\O\nT1/cmr/m/n/10.95 (1)\n[397] [398] [399] [400] [401]
+  [402] [403] [404] [405] [406] [407] [408]\n[409] [410] [411] [412] [413] [414] [415]
+  [416] [417] [418] [419] [420]\n[421] [422] [423] [424] [425] [426]\nOverfull \\hbox
   (9.54622pt too wide) in paragraph at lines 21011--21012\n[]\\T1/cmr/m/n/10.95 (-20)
   The SCF-bad up-grade suc-ceeded con-di-tion-ally. The\n next lead-ing the-o-rem
   is Tower Bound.Upstream;\n\nOverfull \\hbox (40.4131pt too wide) detected at line
   21042\n[]\\OML/cmm/m/it/10.95 D[]=P[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
-  ) []\n[426] [427] [428] [429] [430] [431] [432] [433] [434] [435] [436] [437]\n[438]
-  [439] [440] [441] [442] [443] [444] [445] [446] [447] [448] [449]\n[450] [451] [452]
-  [453] [454]\nOverfull \\hbox (12.50453pt too wide) detected at line 22671\n\\OML/cmm/m/it/10.95
+  ) []\n[427] [428] [429] [430] [431] [432] [433] [434] [435] [436] [437] [438]\n[439]
+  [440] [441] [442] [443] [444] [445] [446] [447] [448] [449] [450]\n[451] [452] [453]
+  [454] [455]\nOverfull \\hbox (12.50453pt too wide) detected at line 22671\n\\OML/cmm/m/it/10.95
   Pack[] \\OMS/cmsy/m/n/10.95 ^ \\OML/cmm/m/it/10.95 Part[] \\OM\nS/cmsy/m/n/10.95
   ^ \\OML/cmm/m/it/10.95 Field[] \\OMS/cmsy/m/n/10.95 ^ []\\OML/cmm\n/m/it/10.95 ^^V[]
   > \\OT1/cmr/m/n/10.95 0[][] =[]\\OMS/cmsy/m/n/10.95 ) ?[]\\OML/c\nmm/m/it/10.95
-  :\n[455] [456] [457] [458] [459] [460] [461] [462] [463] [464] [465] [466]\n[467]
-  [468] [469] [470] [471] [472] [473] [474] [475] [476]\nOverfull \\hbox (11.52324pt
+  :\n[456] [457] [458] [459] [460] [461] [462] [463] [464] [465] [466] [467]\n[468]
+  [469] [470] [471] [472] [473] [474] [475] [476] [477]\nOverfull \\hbox (11.52324pt
   too wide) in paragraph at lines 23963--23964\n[]\\T1/cmr/m/n/10.95 (-20) The branch
-  re-duces to active-shell source nor-mal-iz\na-tion and then to a weighted commutator/residual-\n[477]
-  [478] [479] [480] [481] [482] [483] [484]\nOverfull \\hbox (8.79887pt too wide)
+  re-duces to active-shell source nor-mal-iz\na-tion and then to a weighted commutator/residual-\n[478]
+  [479] [480] [481] [482] [483] [484] [485]\nOverfull \\hbox (8.79887pt too wide)
   in paragraph at lines 24463--24464\n[]\\T1/cmr/m/n/10.95 (-20) Once Good Scale.TTU
-  is sup-plied, com-pact-ness plus \npack-stabilized ge-om-e-try gives READ.COVER,\n[485]
-  [486] [487] [488] [489] [490]\nOverfull \\hbox (8.0433pt too wide) in paragraph
+  is sup-plied, com-pact-ness plus \npack-stabilized ge-om-e-try gives READ.COVER,\n[486]
+  [487] [488] [489] [490] [491]\nOverfull \\hbox (8.0433pt too wide) in paragraph
   at lines 24811--24811\n[]\\T1/cmr/bx/n/12 (-20) Tangent-weight rigid-ity at-tack
-  for Orig-i-nal Smooth \nData => SOURCE.NO-\n[491] [492] [493] [494] [495] [496]
-  [497] [498] [499] [500] [501] [502]\n[503] [504]\nOverfull \\hbox (16.91269pt too
+  for Orig-i-nal Smooth \nData => SOURCE.NO-\n[492] [493] [494] [495] [496] [497]
+  [498] [499] [500] [501] [502] [503]\n[504] [505]\nOverfull \\hbox (16.91269pt too
   wide) detected at line 25657\n\\OML/cmm/m/it/10.95 T[];  [];  [];  \\OMS/cmsy/m/n/10.95
   k\\OML/cmm/m/it/10.95 u\\\nOT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 t\\OT1/cmr/m/n/10.95
-  )\\OMS/cmsy/m/n/10.95\n k[][]\\OML/cmm/m/it/10.95 :\n[505] [506] [507] [508] [509]
-  [510] [511] [512] [513] [514] [515]\nOverfull \\hbox (12.50453pt too wide) detected
+  )\\OMS/cmsy/m/n/10.95\n k[][]\\OML/cmm/m/it/10.95 :\n[506] [507] [508] [509] [510]
+  [511] [512] [513] [514] [515] [516]\nOverfull \\hbox (12.50453pt too wide) detected
   at line 26323\n\\OML/cmm/m/it/10.95 Pack[] \\OMS/cmsy/m/n/10.95 ^ \\OML/cmm/m/it/10.95
   Part[] \\OM\nS/cmsy/m/n/10.95 ^ \\OML/cmm/m/it/10.95 Field[] \\OMS/cmsy/m/n/10.95
   ^ []\\OML/cmm\n/m/it/10.95 ^^V[] > \\OT1/cmr/m/n/10.95 0[][] =[]\\OMS/cmsy/m/n/10.95
-  ) ?[]\\OML/c\nmm/m/it/10.95 :\n[516] [517] [518] [519] [520] [521] [522] [523] [524]
-  [525] [526] [527]\n[528] [529] [530] [531] [532] [533] [534] [535] [536] [537] [538]
-  [539]\n[540] [541] [542] [543]\nOverfull \\hbox (97.12482pt too wide) detected at
+  ) ?[]\\OML/c\nmm/m/it/10.95 :\n[517] [518] [519] [520] [521] [522] [523] [524] [525]
+  [526] [527] [528]\n[529] [530] [531] [532] [533] [534] [535] [536] [537] [538] [539]
+  [540]\n[541] [542] [543] [544]\nOverfull \\hbox (97.12482pt too wide) detected at
   line 28140\n\\OMS/cmsy/m/n/10.95 B \\OT1/cmr/m/n/10.95 = []\\OML/cmm/m/it/10.95
-  :\n[544] [545] [546] [547] [548] [549]\nOverfull \\hbox (204.60117pt too wide) detected
+  :\n[545] [546] [547] [548] [549] [550]\nOverfull \\hbox (204.60117pt too wide) detected
   at line 28504\n[]\\OML/cmm/m/it/10.95 ^^W \\OMS/cmsy/m/n/10.95 ! \\OT1/cmr/m/n/10.95
-  0[]\n[550] [551] [552] [553] [554] [555] [556] [557] [558] [559] [560] [561]\n[562]
-  [563] [564] [565] [566] [567] [568] [569] [570] [571] [572] [573]\n[574] [575] [576]
-  [577] [578] [579] [580] [581] [582] [583] [584]\nOverfull \\hbox (9.99799pt too
+  0[]\n[551] [552] [553] [554] [555] [556] [557] [558] [559] [560] [561] [562]\n[563]
+  [564] [565] [566] [567] [568] [569] [570] [571] [572] [573] [574]\n[575] [576] [577]
+  [578] [579] [580] [581] [582] [583] [584] [585]\nOverfull \\hbox (9.99799pt too
   wide) detected at line 30350\n\\OML/cmm/m/it/10.95 CM[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
-  ) []\\OML/cmm\n/m/it/10.95 Q:\n[585] [586] [587] [588] [589] [590] [591] [592] [593]\nOverfull
+  ) []\\OML/cmm\n/m/it/10.95 Q:\n[586] [587] [588] [589] [590] [591] [592] [593] [594]\nOverfull
   \\hbox (9.35838pt too wide) detected at line 30804\n\\OMS/cmsy/m/n/10.95 :\\OML/cmm/m/it/10.95
   Part[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy\n/m/n/10.95 ) \\OML/cmm/m/it/10.95 Dead;
   \ \\OMS/cmsy/m/n/10.95 :\\OML/cmm/m/it/10.9\n5 Pack[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
   ) \\OML/cmm/m/it/10.95 packin\ng[]detached \\OMS/cmsy/m/n/10.95 _ \\OML/cmm/m/it/10.95
   tower[]blown;  \\OMS/cmsy/\nm/n/10.95 :\\OML/cmm/m/it/10.95 Field[] \\OT1/cmr/m/n/10.95
-  =[]\\OMS/cmsy/m/n/10.9\n5 ) \\OML/cmm/m/it/10.95 Jump:\n[594] [595] [596] [597]
-  [598] [599] [600] [601] [602]\nOverfull \\hbox (115.40181pt too wide) detected at
+  =[]\\OMS/cmsy/m/n/10.9\n5 ) \\OML/cmm/m/it/10.95 Jump:\n[595] [596] [597] [598]
+  [599] [600] [601] [602] [603]\nOverfull \\hbox (115.40181pt too wide) detected at
   line 31447\n[][] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) [] \\OT1/cmr/m/n/10.95
   =[]\\OMS/\ncmsy/m/n/10.95 ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) []
-  \\OT1/cmr/m/n\n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) []\\OML/cmm/m/it/10.95 :\n[603]
-  [604] [605] [606] [607] [608] [609] [610] [611] [612] [613] [614]\n[615] [616] [617]
-  [618] [619] [620] [621] [622] [623] [624] [625] [626]\n[627] [628] [629] [630] [631]
-  [632]\nOverfull \\hbox (21.04236pt too wide) detected at line 33172\n[]\\OMS/cmsy/m/n/10.95
+  \\OT1/cmr/m/n\n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) []\\OML/cmm/m/it/10.95 :\n[604]
+  [605] [606] [607] [608] [609] [610] [611] [612] [613] [614] [615]\n[616] [617] [618]
+  [619] [620] [621] [622] [623] [624] [625] [626] [627]\n[628] [629] [630] [631] [632]
+  [633]\nOverfull \\hbox (21.04236pt too wide) detected at line 33172\n[]\\OMS/cmsy/m/n/10.95
   k\\OML/cmm/m/it/10.95 w\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/1\n0.95 t\\OT1/cmr/m/n/10.95
   )\\OMS/cmsy/m/n/10.95 k[] \\OT1/cmr/m/n/10.95 + \\OML/cmm\n/m/it/10.95 ^^W\\OMS/cmsy/m/n/10.95
   kr\\OML/cmm/m/it/10.95 w\\OT1/cmr/m/n/10.95 (\\\nOML/cmm/m/it/10.95 t\\OT1/cmr/m/n/10.95
@@ -517,9 +523,9 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   w\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 t\\OT1/cmr/m/n/10.95 )\\OMS\n/cmsy/m/n/10.95
   k[] \\OT1/cmr/m/n/10.95 + \\OML/cmm/m/it/10.95 C[]^^W[]\\OMS/cmsy/\nm/n/10.95 k\\OML/cmm/m/it/10.95
   u[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 t\\OT1\n/cmr/m/n/10.95 )\\OMS/cmsy/m/n/10.95
-  k[]\\OML/cmm/m/it/10.95 :\n[633] [634] [635] [636] [637] [638] [639] [640] [641]
-  [642] [643] [644]\n[645] [646] [647] [648] [649] [650] [651] [652] [653] [654] [655]
-  [656]\n[657] [658] [659] [660] [661] [662]\nOverfull \\hbox (2.92516pt too wide)
+  k[]\\OML/cmm/m/it/10.95 :\n[634] [635] [636] [637] [638] [639] [640] [641] [642]
+  [643] [644] [645]\n[646] [647] [648] [649] [650] [651] [652] [653] [654] [655] [656]
+  [657]\n[658] [659] [660] [661] [662] [663]\nOverfull \\hbox (2.92516pt too wide)
   detected at line 34997\n\\OMS/cmsy/m/n/10.95 N[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95
   t\\OT1/cmr/m/n/10\n.95 ; \\OML/cmm/m/it/10.95 I\\OT1/cmr/m/n/10.95 ) := [] []\\OMS/cmsy/m/n/10.95
   jP[\n]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 ^^Q[]; t\\OT1/cmr/m/n/10.95 ; \\OML/cmm/\nm/it/10.95
@@ -531,46 +537,46 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   jR[]\\OT1/cmr/m/n/10.95 (\\\nOML/cmm/m/it/10.95 ^^Q[]; t\\OT1/cmr/m/n/10.95 ; \\OML/cmm/m/it/10.95
   \ \\OT1/cmr/m\n/n/10.95 )\\OMS/cmsy/m/n/10.95 j \\OT1/cmr/m/n/10.95 + \\OMS/cmsy/m/n/10.95
   jC[]\\O\nT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 ^^Q[]; t\\OT1/cmr/m/n/10.95 ; \\OML/cmm/m/i\nt/10.95
-  \ \\OT1/cmr/m/n/10.95 )\\OMS/cmsy/m/n/10.95 j[]\\OML/cmm/m/it/10.95 :\n[663] [664]
-  [665] [666] [667] [668] [669] [670] [671] [672] [673]\nOverfull \\hbox (61.2252pt
+  \ \\OT1/cmr/m/n/10.95 )\\OMS/cmsy/m/n/10.95 j[]\\OML/cmm/m/it/10.95 :\n[664] [665]
+  [666] [667] [668] [669] [670] [671] [672] [673] [674]\nOverfull \\hbox (61.2252pt
   too wide) detected at line 35724\n[]  \\OT1/cmr/m/n/10.95 +  []  +  [] \\U/msa/m/n/10.95
   \  []\\OML/cmm/m/it/10.95 u;\n p; \\OT1/cmr/m/n/10.95 ^^H\\OML/cmm/m/it/10.95 ;
   F[] \\U/msa/m/n/10.95   []\\OT1/c\nmr/m/n/10.95 ^^@\\OML/cmm/m/it/10.95 ;  [];  \\U/euf/m/n/10.95
-  P[]\\OML/cmm/m/it/1\n0.95 ;  \\U/euf/m/n/10.95 Q[][]\\OML/cmm/m/it/10.95 :\n[674]
-  [675] [676] [677] [678] [679] [680]\nOverfull \\hbox (9.35838pt too wide) detected
+  P[]\\OML/cmm/m/it/1\n0.95 ;  \\U/euf/m/n/10.95 Q[][]\\OML/cmm/m/it/10.95 :\n[675]
+  [676] [677] [678] [679] [680] [681]\nOverfull \\hbox (9.35838pt too wide) detected
   at line 36120\n\\OMS/cmsy/m/n/10.95 :\\OML/cmm/m/it/10.95 Part[] \\OT1/cmr/m/n/10.95
   =[]\\OMS/cmsy\n/m/n/10.95 ) \\OML/cmm/m/it/10.95 Dead;  \\OMS/cmsy/m/n/10.95 :\\OML/cmm/m/it/10.9\n5
   Pack[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) \\OML/cmm/m/it/10.95 packin\ng[]detached
   \\OMS/cmsy/m/n/10.95 _ \\OML/cmm/m/it/10.95 tower[]blown;  \\OMS/cmsy/\nm/n/10.95
   :\\OML/cmm/m/it/10.95 Field[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.9\n5 ) \\OML/cmm/m/it/10.95
-  Jump:\n[681] [682] [683] [684] [685] [686] [687] [688] [689] [690] [691] [692]\n[693]
-  [694] [695] [696] [697] [698] [699]\nOverfull \\hbox (32.35828pt too wide) detected
+  Jump:\n[682] [683] [684] [685] [686] [687] [688] [689] [690] [691] [692] [693]\n[694]
+  [695] [696] [697] [698] [699] [700]\nOverfull \\hbox (32.35828pt too wide) detected
   at line 37375\n[]\\OML/cmm/m/it/10.95 L[][] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
   ) [] _ :\\\nOML/cmm/m/it/10.95 Pack[] \\OMS/cmsy/m/n/10.95 _ :\\OML/cmm/m/it/10.95
-  Part[] \\OM\nS/cmsy/m/n/10.95 _ \\OML/cmm/m/it/10.95 Legal:\n[700] [701] [702] [703]
-  [704] [705] [706] [707] [708] [709] [710] [711]\n[712] [713] [714] [715] [716] [717]
-  [718] [719] [720] [721] [722] [723]\n[724] [725] [726] [727] [728] [729] [730] [731]
-  [732] [733] [734] [735]\n[736]\nOverfull \\hbox (81.95354pt too wide) detected at
-  line 39873\n[]\n[737] [738] [739] [740] [741] [742] [743] [744] [745] [746] [747]
-  [748]\n[749] [750] [751] [752] [753] [754] [755] [756] [757] [758] [759] [760]\n[761]
-  [762] [763] [764] [765] [766] [767] [768] [769] [770] [771] [772]\n[773]\nOverfull
+  Part[] \\OM\nS/cmsy/m/n/10.95 _ \\OML/cmm/m/it/10.95 Legal:\n[701] [702] [703] [704]
+  [705] [706] [707] [708] [709] [710] [711] [712]\n[713] [714] [715] [716] [717] [718]
+  [719] [720] [721] [722] [723] [724]\n[725] [726] [727] [728] [729] [730] [731] [732]
+  [733] [734] [735] [736]\n[737]\nOverfull \\hbox (81.95354pt too wide) detected at
+  line 39873\n[]\n[738] [739] [740] [741] [742] [743] [744] [745] [746] [747] [748]
+  [749]\n[750] [751] [752] [753] [754] [755] [756] [757] [758] [759] [760] [761]\n[762]
+  [763] [764] [765] [766] [767] [768] [769] [770] [771] [772] [773]\n[774]\nOverfull
   \\hbox (14.3893pt too wide) in paragraph at lines 42082--42083\n\\T1/cmr/m/n/10.95
-  (-20) Pack.A pays the end-point term. Pro-jected Cut-off Ledg\ner.A pays the pressure/projection/cutoff/material-\n[774]
-  [775] [776] [777] [778]\nOverfull \\hbox (99.58202pt too wide) detected at line
-  42358\n[][]\n[779] [780] [781] [782] [783] [784] [785] [786] [787] [788] [789] [790]\n[791]
-  [792] [793] [794] [795] [796] [797] [798]\nOverfull \\hbox (151.3995pt too wide)
+  (-20) Pack.A pays the end-point term. Pro-jected Cut-off Ledg\ner.A pays the pressure/projection/cutoff/material-\n[775]
+  [776] [777] [778] [779]\nOverfull \\hbox (99.58202pt too wide) detected at line
+  42358\n[][]\n[780] [781] [782] [783] [784] [785] [786] [787] [788] [789] [790] [791]\n[792]
+  [793] [794] [795] [796] [797] [798] [799]\nOverfull \\hbox (151.3995pt too wide)
   detected at line 43547\n[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 u; p; \\OT1/cmr/m/n/10.95
-  ^^H\\OML/cmm/\nm/it/10.95 ; F\\OT1/cmr/m/n/10.95 )[]\n[799] [800] [801] [802] [803]
-  [804] [805] [806] [807] [808] [809] [810]\n[811] [812]\nUnderfull \\hbox (badness
+  ^^H\\OML/cmm/\nm/it/10.95 ; F\\OT1/cmr/m/n/10.95 )[]\n[800] [801] [802] [803] [804]
+  [805] [806] [807] [808] [809] [810] [811]\n[812] [813]\nUnderfull \\hbox (badness
   1990) in paragraph at lines 44465--44466\n[]\\T1/cmr/m/n/10.95 (+20) PCTP.CONSUMPTION.AUDIT.v2.
   M Q.LOCAL-MEMBERSHIP.EXPOR\nT. CLAS-SI-\n\nOverfull \\hbox (85.44629pt too wide)
   in paragraph at lines 44465--44466\n\\T1/cmr/m/n/10.95 (-20) CAL.CLOSURE.WARRANT.CONSUMPTION.
   RE-LEASE.CONSISTENCY.v\n2. TAR-GET.FIDELITY.NORMALIZE.\n\nOverfull \\hbox (169.44695pt
   too wide) in paragraph at lines 44513--44514\n[]\\T1/cmr/m/n/10.95 (-20) PCTP.CONSUMPTION.AUDIT.v2
-  M Q.LOCAL-MEMBERSHIP.EXPORT\n CLAS-SI-CAL.CLOSURE.WARRANT.CONSUMPTION\n[813]\nOverfull
+  M Q.LOCAL-MEMBERSHIP.EXPORT\n CLAS-SI-CAL.CLOSURE.WARRANT.CONSUMPTION\n[814]\nOverfull
   \\hbox (24.62831pt too wide) in paragraph at lines 44549--44550\n\\T1/cmr/m/n/10.95
-  (-20) PCTP.hard.CANONICAL.v2. AACT.Global.no Jump.FAILURE-MOD\nES. DTC.Read.Press.EXPORT.v2.\n[814]
-  [815] [816] [817] [818] [819]\nOverfull \\hbox (52.17256pt too wide) detected at
+  (-20) PCTP.hard.CANONICAL.v2. AACT.Global.no Jump.FAILURE-MOD\nES. DTC.Read.Press.EXPORT.v2.\n[815]
+  [816] [817] [818] [819] [820]\nOverfull \\hbox (52.17256pt too wide) detected at
   line 44913\n\\U/euf/m/n/10.95 A[] \\OMS/cmsy/m/n/10.95 2 \\OML/cmm/m/it/10.95 L[]
   \\OT1/cmr/m/n\n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) :\\OML/cmm/m/it/10.95 tower[]blown
   \\OT1/cmr/m/n/\n10.95 =[]\\OMS/cmsy/m/n/10.95 ) :\\OML/cmm/m/it/10.95 Dead \\OMS/cmsy/m/n/10.95
@@ -578,12 +584,12 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   Jump \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) [] k\\OML/cmm/m/it/10.95 u\\O\nT1/cmr/m/n/10.95
   (\\OML/cmm/m/it/10.95 t\\OT1/cmr/m/n/10.95 )\\OMS/cmsy/m/n/10.95 \nk[] \\OML/cmm/m/it/10.95
   < \\OMS/cmsy/m/n/10.95 1 \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy\n/m/n/10.95 ) \\OML/cmm/m/it/10.95
-  T[] \\OT1/cmr/m/n/10.95 = \\OMS/cmsy/m/n/10.95 1\n\\OML/cmm/m/it/10.95 :\n[820]
-  [821] [822] [823] [824] [825] [826] [827] [828] [829]\nOverfull \\hbox (14.52464pt
+  T[] \\OT1/cmr/m/n/10.95 = \\OMS/cmsy/m/n/10.95 1\n\\OML/cmm/m/it/10.95 :\n[821]
+  [822] [823] [824] [825] [826] [827] [828] [829] [830]\nOverfull \\hbox (14.52464pt
   too wide) in paragraph at lines 45453--45454\n\\T1/cmr/m/n/10.95 (-20) Li-ou-ville
-  the-o-rem is avail-able, for ex-am-ple a bo\nunded an-cient mild class, a two-dimensional/axisymmetric\n[830]
-  [831] [832] [833] [834] [835] [836] [837] [838] [839] [840] [841]\n[842] [843] [844]
-  [845] [846] [847] [848] [849] [850] [851] [852] [853]\n[854] [855] [856] [857] [858]\nOverfull
+  the-o-rem is avail-able, for ex-am-ple a bo\nunded an-cient mild class, a two-dimensional/axisymmetric\n[831]
+  [832] [833] [834] [835] [836] [837] [838] [839] [840] [841] [842]\n[843] [844] [845]
+  [846] [847] [848] [849] [850] [851] [852] [853] [854]\n[855] [856] [857] [858] [859]\nOverfull
   \\hbox (58.4857pt too wide) detected at line 47166\n[]\n\nOverfull \\hbox (34.99759pt
   too wide) detected at line 47180\n[]\n\nOverfull \\hbox (46.61632pt too wide) detected
   at line 47211\n\\OML/cmm/m/it/10.95 PublicCriticalExitToCMFace[]:A \\OT1/cmr/m/n/10.95
@@ -592,7 +598,7 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   W\\OT1/cmr/m/n/10.95 ) \\OMS/cmsy/m/n/10.95 _ :\\OML/cmm/m/it/\n10.95 Part[]\\OT1/cmr/m/n/10.95
   (\\OMS/cmsy/m/n/10.95 W\\OT1/cmr/m/n/10.95 ) \\OMS/\ncmsy/m/n/10.95 _ :\\OML/cmm/m/it/10.95
   Field[]\\OT1/cmr/m/n/10.95 (\\OMS/cmsy/m/n/\n10.95 W\\OT1/cmr/m/n/10.95 )\\OML/cmm/m/it/10.95
-  :\n[859] [860] [861] [862] [863] [864]\nOverfull \\hbox (4.31607pt too wide) detected
+  :\n[860] [861] [862] [863] [864] [865]\nOverfull \\hbox (4.31607pt too wide) detected
   at line 47564\n[]\\OML/cmm/m/it/10.95 E[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95
   h; t\\OT1/cmr/m\n/n/10.95 ; \\OML/cmm/m/it/10.95  \\OT1/cmr/m/n/10.95 ) + 2\\OML/cmm/m/it/10.95
   ^^W\nD[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 h; t\\OT1/cmr/m/n/10.95 ; \\OML/cmm/m/\nit/10.95
@@ -604,49 +610,49 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   R[]\\OT1/cmr/m/n/10.95 (\\O\nML/cmm/m/it/10.95 h; t\\OT1/cmr/m/n/10.95 ; \\OML/cmm/m/it/10.95
   \ \\OT1/cmr/m/n/10\n.95 ) + \\OMS/cmsy/m/n/10.95 C[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95
   h; t\\OT1\n/cmr/m/n/10.95 ; \\OML/cmm/m/it/10.95  \\OT1/cmr/m/n/10.95 )\\OML/cmm/m/it/10.95
-  :\n\n[865] [866] [867] [868] [869] [870] [871] [872] [873] [874] [875] [876]\n[877]
-  [878] [879] [880] [881] [882] [883] [884] [885] [886] [887] [888]\n[889] [890] [891]
-  [892] [893] [894]\nOverfull \\hbox (11.48816pt too wide) in paragraph at lines 49519--49520\n[]\\T1/cmr/m/n/10.95
+  :\n\n[866] [867] [868] [869] [870] [871] [872] [873] [874] [875] [876] [877]\n[878]
+  [879] [880] [881] [882] [883] [884] [885] [886] [887] [888] [889]\n[890] [891] [892]
+  [893] [894] [895]\nOverfull \\hbox (11.48816pt too wide) in paragraph at lines 49519--49520\n[]\\T1/cmr/m/n/10.95
   (-20) It re-mains only to han-dle the mixed tower-blown al-\nter-na-tive. On the
-  branch where Pack+Part+Field\n[895] [896] [897]\nOverfull \\hbox (148.21233pt too
-  wide) detected at line 49693\n[]\n[898] [899] [900] [901] [902] [903] [904] [905]
-  [906] [907] [908] [909]\n[910] [911] [912] [913] [914] [915] [916] [917] [918] [919]
-  [920] [921]\n[922] [923] [924] [925] [926] [927] [928] [929] [930] [931] [932] [933]\n[934]
-  [935] [936] [937] [938] [939] [940]\nOverfull \\hbox (35.56787pt too wide) in paragraph
+  branch where Pack+Part+Field\n[896] [897] [898]\nOverfull \\hbox (148.21233pt too
+  wide) detected at line 49693\n[]\n[899] [900] [901] [902] [903] [904] [905] [906]
+  [907] [908] [909] [910]\n[911] [912] [913] [914] [915] [916] [917] [918] [919] [920]
+  [921] [922]\n[923] [924] [925] [926] [927] [928] [929] [930] [931] [932] [933] [934]\n[935]
+  [936] [937] [938] [939] [940] [941]\nOverfull \\hbox (35.56787pt too wide) in paragraph
   at lines 52298--52299\n[]\\T1/cmr/m/n/10.95 (-20) Against that same source-pulse
-  branch the-o-rem, all \nlater PCTP.hard / TTU.A, TGC.A+AACT.Global.no\n[941] [942]
-  [943] [944] [945] [946] [947] [948] [949] [950] [951] [952]\n[953] [954] [955] [956]
-  [957] [958] [959] [960] [961] [962] [963] [964]\n[965] [966] [967] [968] [969] [970]
-  [971] [972] [973] [974] [975] [976]\nOverfull \\hbox (11.99487pt too wide) in paragraph
+  branch the-o-rem, all \nlater PCTP.hard / TTU.A, TGC.A+AACT.Global.no\n[942] [943]
+  [944] [945] [946] [947] [948] [949] [950] [951] [952] [953]\n[954] [955] [956] [957]
+  [958] [959] [960] [961] [962] [963] [964] [965]\n[966] [967] [968] [969] [970] [971]
+  [972] [973] [974] [975] [976] [977]\nOverfull \\hbox (11.99487pt too wide) in paragraph
   at lines 54272--54273\n[]\\T1/cmr/m/n/10.95 (-20) The con-tra-pos-i-tive proof pro-gram
-  still re-quires\n the ter-mi-nal class-exit gram-mar on Pack+Part+Field;\n[977]
-  [978]\nOverfull \\hbox (3.92165pt too wide) in paragraph at lines 54378--54379\n\\T1/cmr/m/n/10.95
+  still re-quires\n the ter-mi-nal class-exit gram-mar on Pack+Part+Field;\n[978]
+  [979]\nOverfull \\hbox (3.92165pt too wide) in paragraph at lines 54378--54379\n\\T1/cmr/m/n/10.95
   (-20) Theorem-facing au-dit for the bypass-local tem-po-ral a\nnti-atom tar-get
-  in-tro-duced by the READ.COVER\n[979] [980] [981] [982] [983] [984]\nOverfull \\hbox
+  in-tro-duced by the READ.COVER\n[980] [981] [982] [983] [984] [985]\nOverfull \\hbox
   (418.90709pt too wide) detected at line 54731\n[]\\OML/cmm/m/it/10.95 ;  [];  L[][];
-  \ [];  []:\n[985] [986] [987]\nOverfull \\hbox (52.65117pt too wide) detected at
+  \ [];  []:\n[986] [987] [988]\nOverfull \\hbox (52.65117pt too wide) detected at
   line 54911\n\\OML/cmm/m/it/10.95 TerminalLerayOrientation[]:A \\OT1/cmr/m/n/10.95
   + \\OML/cmm/\nm/it/10.95 TerminalLerayCommutatorLegal[]:A \\OT1/cmr/m/n/10.95 +
-  \\OML/cmm/m/it/\n10.95 TerminalLeraySaturation[]:A:\n[988] [989] [990] [991] [992]
-  [993] [994] [995] [996]\nOverfull \\hbox (64.75273pt too wide) detected at line
+  \\OML/cmm/m/it/\n10.95 TerminalLeraySaturation[]:A:\n[989] [990] [991] [992] [993]
+  [994] [995] [996] [997]\nOverfull \\hbox (64.75273pt too wide) detected at line
   55424\n[][]\\OT1/cmr/m/n/10.95 (\\OMS/cmsy/m/n/10.95 F[]\\OT1/cmr/m/n/10.95 ) =
   [][](\\OMS\n/cmsy/m/n/10.95 F[]\\OT1/cmr/m/n/10.95 ) \\OMS/cmsy/m/n/10.95 [ f[]
   [][]\\OT1/cmr/\nm/n/10.95 (\\OMS/cmsy/m/n/10.95 F[]\\OT1/cmr/m/n/10.95 )\\OMS/cmsy/m/n/10.95
-  g\\OML\n/cmm/m/it/10.95 :\n[997] [998] [999] [1000] [1001] [1002] [1003] [1004]
-  [1005] [1006] [1007]\n[1008] [1009] [1010] [1011] [1012] [1013] [1014] [1015] [1016]
-  [1017] [1018]\n[1019] [1020] [1021] [1022]\nOverfull \\hbox (160.88396pt too wide)
+  g\\OML\n/cmm/m/it/10.95 :\n[998] [999] [1000] [1001] [1002] [1003] [1004] [1005]
+  [1006] [1007] [1008]\n[1009] [1010] [1011] [1012] [1013] [1014] [1015] [1016] [1017]
+  [1018] [1019]\n[1020] [1021] [1022] [1023]\nOverfull \\hbox (160.88396pt too wide)
   detected at line 56963\n[]\\OML/cmm/m/it/10.95 ^^W \\OMS/cmsy/m/n/10.95 ! \\OT1/cmr/m/n/10.95
-  0[]\\OML/cmm/\nm/it/10.95 :\n[1023] [1024] [1025] [1026] [1027] [1028]\nOverfull
+  0[]\\OML/cmm/\nm/it/10.95 :\n[1024] [1025] [1026] [1027] [1028] [1029]\nOverfull
   \\hbox (88.6308pt too wide) detected at line 57331\n[] \\OMS/cmsy/m/n/10.95 ^^U
   \\OML/cmm/m/it/10.95 c[][]^^Q > \\OT1/cmr/m/n/10.95 0[\n]\\OMS/cmsy/m/n/10.95 Q\\OML/cmm/m/it/10.95
   :\n\nOverfull \\hbox (51.62527pt too wide) detected at line 57378\n\\OML/cmm/m/it/10.95
-  ZenoBoundedClass[]:A \\OT1/cmr/m/n/10.95 :  []\\OML/cmm/m/it/\n10.95 B;\n[1029]\nOverfull
+  ZenoBoundedClass[]:A \\OT1/cmr/m/n/10.95 :  []\\OML/cmm/m/it/\n10.95 B;\n[1030]\nOverfull
   \\hbox (13.38005pt too wide) detected at line 57384\n\\OML/cmm/m/it/10.95 ZenoResidueLiouville[]:A
-  \\OT1/cmr/m/n/10.95 :  []\\OML/cmm/m\n/it/10.95 B[]\n[1030]\nOverfull \\hbox (69.11766pt
+  \\OT1/cmr/m/n/10.95 :  []\\OML/cmm/m\n/it/10.95 B[]\n[1031]\nOverfull \\hbox (69.11766pt
   too wide) detected at line 57468\n\\OML/cmm/m/it/10.95 B \\OT1/cmr/m/n/10.95 :=
-  [] \\OML/cmm/m/it/10.95 :\n[1031] [1032] [1033] [1034] [1035] [1036] [1037] [1038]
-  [1039] [1040] [1041]\n[1042] [1043] [1044] [1045] [1046] [1047] [1048] [1049] [1050]
-  [1051] [1052]\n[1053] [1054] [1055] [1056] [1057] [1058] [1059] [1060] [1061]\nOverfull
+  [] \\OML/cmm/m/it/10.95 :\n[1032] [1033] [1034] [1035] [1036] [1037] [1038] [1039]
+  [1040] [1041] [1042]\n[1043] [1044] [1045] [1046] [1047] [1048] [1049] [1050] [1051]
+  [1052] [1053]\n[1054] [1055] [1056] [1057] [1058] [1059] [1060] [1061] [1062]\nOverfull
   \\hbox (89.1283pt too wide) detected at line 59468\n\\OML/cmm/m/it/10.95 ^^Q[]\\OT1/cmr/m/n/10.95
   (\\OML/cmm/m/it/10.95 t; a; b\\OT1/cm\nr/m/n/10.95 ) := \\OMS/cmsy/m/n/10.95 j\\OML/cmm/m/it/10.95
   m[]\\OT1/cmr/m/n/10.95\n (\\OML/cmm/m/it/10.95 t[]; a; b\\OT1/cmr/m/n/10.95 )\\OMS/cmsy/m/n/10.95
@@ -656,37 +662,38 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   s; a\\OT1/cmr/m/n/10.95 )\\OML/cmm/m/it/10.95 W[]\\OT1/cm\nr/m/n/10.95 (\\OML/cmm/m/it/10.95
   s; a\\OT1/cmr/m/n/10.95 ) \\OML/cmm/m/it/10.95 n\n[]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95
   a; b; s\\OT1/cmr/m/n/10.95 )[] \\OML/cm\nm/m/it/10.95 ds \\OT1/cmr/m/n/10.95 + 3
-  [][] [] \\OML/cmm/m/it/10.95 ds:\n[1062] [1063] [1064] [1065] [1066] [1067] [1068]
-  [1069] [1070] [1071] [1072]\n[1073] [1074] [1075] [1076] [1077] [1078] [1079] [1080]
-  [1081] [1082] [1083]\n[1084] [1085]\nOverfull \\hbox (5.43962pt too wide) detected
+  [][] [] \\OML/cmm/m/it/10.95 ds:\n[1063] [1064] [1065] [1066] [1067] [1068] [1069]
+  [1070] [1071] [1072] [1073]\n[1074] [1075] [1076] [1077] [1078] [1079] [1080] [1081]
+  [1082] [1083] [1084]\n[1085] [1086]\nOverfull \\hbox (5.43962pt too wide) detected
   at line 60997\n[] \\U/msa/m/n/10.95 . [] [] \\OT1/cmr/m/n/10.95 2[]\\OMS/cmsy/m/n/10.95
   k\\OT1/cmr\n/m/n/10.95 ^^A[]\\OML/cmm/m/it/10.95 u[]\\OMS/cmsy/m/n/10.95 k[][]\\OT1/cmr/m/n/10\n.95
   2[]\\OMS/cmsy/m/n/10.95 k\\OT1/cmr/m/n/10.95 ^^A[]\\OML/cmm/m/it/10.95 u[]\\OMS\n/cmsy/m/n/10.95
-  k[]\\OML/cmm/m/it/10.95 :\n[1086] [1087] [1088] [1089] [1090] [1091] [1092] [1093]
-  [1094] [1095] [1096]\n[1097] [1098] [1099] [1100] [1101] [1102] [1103] [1104] [1105]
-  [1106] [1107]\n[1108] [1109] [1110] [1111] [1112] [1113] [1114] [1115] [1116] [1117]
-  [1118]\n[1119]\nOverfull \\hbox (520.08662pt too wide) detected at line 63486\n[]
+  k[]\\OML/cmm/m/it/10.95 :\n[1087] [1088] [1089] [1090] [1091] [1092] [1093] [1094]
+  [1095] [1096] [1097]\n[1098] [1099] [1100] [1101] [1102] [1103] [1104] [1105] [1106]
+  [1107] [1108]\n[1109] [1110] [1111] [1112] [1113] [1114] [1115] [1116] [1117] [1118]
+  [1119]\n[1120]\nOverfull \\hbox (520.08662pt too wide) detected at line 63486\n[]
   \ \\OT1/cmr/m/n/10.95 +  []  +  []  +  [] \\OMS/cmsy/m/n/10.95 jr\\OML/cmm/m/it/\n10.95
-  v[]\\OMS/cmsy/m/n/10.95 j[]\n[1120] [1121] [1122] [1123] [1124] [1125] [1126] [1127]
-  [1128] [1129] [1130]\n[1131] [1132] [1133] [1134] [1135]\nOverfull \\hbox (26.8252pt
+  v[]\\OMS/cmsy/m/n/10.95 j[]\n[1121] [1122] [1123] [1124] [1125] [1126] [1127] [1128]
+  [1129] [1130] [1131]\n[1132] [1133] [1134] [1135] [1136]\nOverfull \\hbox (26.8252pt
   too wide) detected at line 64602\n\\U/euf/m/n/10.95 C[] \\OT1/cmr/m/n/10.95 := []
   \\OMS/cmsy/m/n/10.95 \\ [] \\ []\\OML\n/cmm/m/it/10.95 :\n\nOverfull \\hbox (96.23767pt
   too wide) detected at line 64625\n\\OML/cmm/m/it/10.95 Q \\OMS/cmsy/m/n/10.95 ^^X
   \\OML/cmm/m/it/10.95 Q[]  \\OMS/cms\ny/m/n/10.95 ([])  []\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95
-  !; ![]\\OT1/cmr/m/n/\n10.95 ) \\OMS/cmsy/m/n/10.95 2 R[][]\n[1136] [1137] [1138]
-  [1139] [1140] [1141] [1142] [1143] [1144] [1145] [1146]\n[1147] [1148] [1149] [1150]
-  [1151] [1152] [1153] [1154] [1155] [1156] [1157]\n[1158] [1159] [1160] [1161] [1162]
-  [1163] [1164] [1165] [1166] [1167] [1168]\n[1169] [1170] [1171] [1172] [1173]\nOverfull
+  !; ![]\\OT1/cmr/m/n/\n10.95 ) \\OMS/cmsy/m/n/10.95 2 R[][]\n[1137] [1138] [1139]
+  [1140] [1141] [1142] [1143] [1144] [1145] [1146] [1147]\n[1148] [1149] [1150] [1151]
+  [1152] [1153] [1154] [1155] [1156] [1157] [1158]\n[1159] [1160] [1161] [1162] [1163]
+  [1164] [1165] [1166] [1167] [1168] [1169]\n[1170] [1171] [1172] [1173] [1174]\nOverfull
   \\hbox (127.28935pt too wide) in paragraph at lines 67166--67167\n\\T1/cmr/m/n/10.95
   (-20) /-Part/-Field-/Zeno sub-set route; a source-wall Field \ndi-ag-nos-tic or
-  sup-plier; supplier/readout/export/manuscript/generated/source\n-\n[1174] [1175]
-  [1176] [1177] [1178] [1179] [1180] [1181] [1182] [1183] [1184]\n[1185] [1186] [1187]
-  [1188] [1189] [1190] [1191] [1192] [1193] [1194] [1195]\n[1196] [1197] [1198] [1199]
-  [1200] [1201] [1202] [1203] [1204] [1205] [1206]\n[1207] [1208] [1209]) (./surface-derivation-appendix.tex
-  [1210] [1211] [1212]\n[1213] [1214] [1215] [1216]) [1217] (./navier-stokes-submission.aux)\n\nLaTeX
-  Warning: Label(s) may have changed. Rerun to get cross-references right.\n\n )\n(see
-  the transcript file for additional information)</usr/local/texlive/2025/te\nxmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/tex\nmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf\n-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-\ndist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-d\nist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-di\nst/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist\n/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/f\nonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fon\nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts\n/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/t\nype1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type\n1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p\nublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ\nic/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/\namsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/a\nmsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams\nfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfo\nnts/euler/eufm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams\nfonts/euler/eufm7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/am\nsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p\nublic/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub\nlic/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/\ncm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm\n-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-s\nuper/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-sup\ner/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super\n/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/s\nfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sft\ni1095.pfb>\nOutput
-  written on navier-stokes-human-submission.pdf (1217 pages, 4392973 bytes).\nTranscript
+  sup-plier; supplier/readout/export/manuscript/generated/source\n-\n[1175] [1176]
+  [1177] [1178] [1179] [1180] [1181] [1182] [1183] [1184] [1185]\n[1186] [1187] [1188]
+  [1189] [1190] [1191] [1192] [1193] [1194] [1195] [1196]\n[1197] [1198] [1199] [1200]
+  [1201] [1202] [1203] [1204] [1205] [1206] [1207]\n[1208] [1209] [1210] [1211] [1212]
+  [1213] [1214])\n(./surface-derivation-appendix.tex [1215] [1216] [1217] [1218] [1219]
+  [1220]\n[1221]) [1222] (./navier-stokes-submission.aux)\n\nLaTeX Warning: Label(s)
+  may have changed. Rerun to get cross-references right.\n\n )\n(see the transcript
+  file for additional information)</usr/local/texlive/2025/te\nxmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/tex\nmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf\n-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-\ndist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-d\nist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-di\nst/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist\n/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/f\nonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fon\nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts\n/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/t\nype1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type\n1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p\nublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ\nic/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/\namsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/a\nmsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams\nfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfo\nnts/euler/eufm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams\nfonts/euler/eufm7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/am\nsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p\nublic/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub\nlic/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/\ncm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm\n-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-s\nuper/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-sup\ner/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super\n/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/s\nfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sft\ni1095.pfb>\nOutput
+  written on navier-stokes-submission.pdf (1222 pages, 4406660 bytes).\nTranscript
   written on navier-stokes-submission.log.\n"
 stderr: "\n"
 fallback:
