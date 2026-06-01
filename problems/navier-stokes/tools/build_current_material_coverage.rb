@@ -27,6 +27,7 @@ DIRECT_LIVE_AUTHORITY = %w[
 
 COVERAGE_SELF_SURFACES = %w[
   problems/navier-stokes/submission-bundle/current-material-coverage.yaml
+  problems/navier-stokes/submission-bundle/pdf-depth-promotion-run.yaml
   problems/navier-stokes/tools/build_current_material_coverage.rb
 ].freeze
 
@@ -134,6 +135,10 @@ FAMILIES = [
       theorem-construction/mpp-same-ledger-hhalf-extraction-attempt-20260528.md
       theorem-construction/mpp-same-witness-atlas-selection-hhalf-20260528.md
       theorem-construction/mpp-transported-partition-lp-commutator-hhalf-20260528.md
+      theorem-construction/mcp-sourcepulsecmexit-a-explanation-only-read-mbr-e-463b9bda50.md
+      theorem-construction/mpp-branch-native-jumpavg-noescape-direct-work-20260601.md
+      theorem-construction/mpp-clay-counterexample-exclusion-bridge-direct-work-20260601.md
+      theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
       cm-branch-family-certificate-ledger-20260526.yaml
       cm-contrapositive-comprehensive-diagnostic-sweep-20260526.yaml
       cm-switch-working-sweep-20260526.yaml
@@ -231,6 +236,7 @@ FAMILIES = [
       tools/build_surface_derivation_appendix.rb
       tools/check_pdf_argument_hygiene.rb
       tools/check_pdf_output_topology.rb
+      tools/promote_repo_depth_to_pdf.rb
     ]
   }
 ].freeze
