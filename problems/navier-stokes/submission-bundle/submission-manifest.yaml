@@ -2,19 +2,19 @@
 version: 1
 problem_id: navier-stokes
 display_name: Navier-Stokes Global Regularity
-generated_at: '2026-05-31T21:09:03Z'
+generated_at: '2026-06-01T19:49:27Z'
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 manuscript_source_kind: tex
 manuscript_source_reason: submission-export-status.manuscript_source
 source_metrics:
-  source_word_count: 446573
-  bundle_word_count: 446573
+  source_word_count: 448540
+  bundle_word_count: 448540
   primary_surface_word_count: 0
   theorem_packet_word_count: 4408
 submission_metadata: problems/navier-stokes/submission-metadata.yaml
 outputs:
   tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-  pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
 theorem_surface:
   surface_id: theorem-surface-navier-stokes-afca8b68a2f8
   route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
