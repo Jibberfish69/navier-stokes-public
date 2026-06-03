@@ -8,6 +8,7 @@ require "yaml"
 ROOT = Pathname.new(__dir__).join("../../..").expand_path
 BUNDLE_ROOT = ROOT.join("problems/navier-stokes/submission-bundle")
 AUTHORITATIVE_PDF = ROOT.join("papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf")
+HUMAN_SUBMISSION_PDF = BUNDLE_ROOT.join("navier-stokes-human-submission.pdf")
 EXPORT_STATUS = BUNDLE_ROOT.join("submission-export-status.yaml")
 RUBRIC = BUNDLE_ROOT.join("source-field-representation-rubric.md")
 MIN_AUTHORITATIVE_PAGES = 1_000
@@ -79,13 +80,17 @@ end
 
 errors = []
 
+unless HUMAN_SUBMISSION_PDF.file? && HUMAN_SUBMISSION_PDF.size.positive?
+  errors << "missing Thomas human submission PDF #{relative(HUMAN_SUBMISSION_PDF)}"
+end
+
 unless AUTHORITATIVE_PDF.file? && AUTHORITATIVE_PDF.size.positive?
-  errors << "missing authoritative PDF #{relative(AUTHORITATIVE_PDF)}"
+  errors << "missing Codex paper PDF #{relative(AUTHORITATIVE_PDF)}"
 else
   begin
     pages = pdf_pages(AUTHORITATIVE_PDF)
     if pages < MIN_AUTHORITATIVE_PAGES
-      errors << "authoritative PDF has #{pages} pages; minimum reader-facing proof-role expansion contract is #{MIN_AUTHORITATIVE_PAGES}"
+      errors << "Codex paper PDF has #{pages} pages; minimum reader-facing proof-role expansion contract is #{MIN_AUTHORITATIVE_PAGES}"
     end
   rescue StandardError => e
     errors << e.message
@@ -94,16 +99,16 @@ else
   begin
     text = pdf_text(AUTHORITATIVE_PDF)
     FORBIDDEN_PDF_TEXT.each do |label, pattern|
-      errors << "authoritative PDF contains forbidden #{label}" if text.match?(pattern)
+      errors << "Codex paper PDF contains forbidden #{label}" if text.match?(pattern)
     end
     REQUIRED_RENDERED_TEXT.each do |label, pattern|
-      errors << "authoritative PDF is missing rendered #{label}" unless text.match?(pattern)
+      errors << "Codex paper PDF is missing rendered #{label}" unless text.match?(pattern)
     end
     RENDERED_BOILERPLATE_PATTERNS.each do |label, pattern|
       count = text.scan(pattern).length
       next unless count > MAX_REPEATED_RENDERED_CLAIMS
 
-      errors << "authoritative PDF contains #{count} instances of #{label}; repeated template pages cannot satisfy the reader-facing proof-role expansion contract"
+      errors << "Codex paper PDF contains #{count} instances of #{label}; repeated template pages cannot satisfy the reader-facing proof-role expansion contract"
     end
   rescue StandardError => e
     errors << e.message
@@ -111,7 +116,11 @@ else
 end
 
 problem_pdfs = Dir.glob(ROOT.join("problems/navier-stokes/**/*.pdf").to_s).sort
-errors << "problem-local PDF outputs remain: #{problem_pdfs.map { |path| relative(path) }.join(', ')}" unless problem_pdfs.empty?
+allowed_problem_pdfs = [HUMAN_SUBMISSION_PDF.expand_path.to_s]
+unexpected_problem_pdfs = problem_pdfs.reject { |path| allowed_problem_pdfs.include?(Pathname.new(path).expand_path.to_s) }
+unless unexpected_problem_pdfs.empty?
+  errors << "unexpected problem-local PDF outputs remain: #{unexpected_problem_pdfs.map { |path| relative(path) }.join(', ')}"
+end
 
 paper_pdfs = Dir.glob(ROOT.join("papers/navier-stokes/**/*.pdf").to_s).sort
 extra_paper_pdfs = paper_pdfs.reject { |path| Pathname.new(path).expand_path == AUTHORITATIVE_PDF.expand_path }
@@ -132,12 +141,13 @@ errors << "missing reader-facing source-field rubric #{relative(RUBRIC)}" unless
 tracked_problem_pdfs = git_stdout("ls-files", "--", "problems/navier-stokes").lines.grep(/\.pdf\z/).map(&:strip)
 tracked_problem_pdfs.each do |path|
   next unless ROOT.join(path).exist?
+  next if ROOT.join(path).expand_path == HUMAN_SUBMISSION_PDF.expand_path
 
-  errors << "tracked problem-local PDF exists as rival authority: #{path}"
+  errors << "tracked unexpected problem-local PDF exists outside the Thomas human submission lane: #{path}"
 end
 
 if errors.empty?
-  puts "PDF_OUTPUT_TOPOLOGY OK: #{relative(AUTHORITATIVE_PDF)} is the only Navier-Stokes PDF output authority and carries the required rendered depth anchors."
+  puts "PDF_OUTPUT_TOPOLOGY OK: Thomas human PDF #{relative(HUMAN_SUBMISSION_PDF)} and Codex paper PDF #{relative(AUTHORITATIVE_PDF)} coexist as separate Navier-Stokes Clay paper tracks."
   exit 0
 end
 
