@@ -21,6 +21,7 @@ SURFACE_INVENTORY = BUNDLE_ROOT.join("surface-derivation-inventory.yaml")
 SOURCE_FIELD_APPENDIX = BUNDLE_ROOT.join("source-field-reader-appendix.tex")
 EXPORT_STATUS = BUNDLE_ROOT.join("submission-export-status.yaml")
 AUTHORITATIVE_PDF = ROOT.join("papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf")
+HUMAN_SUBMISSION_PDF = BUNDLE_ROOT.join("navier-stokes-human-submission.pdf")
 
 MIN_SOURCE_FIELD_WORDS = 300_000
 MIN_SURFACE_DERIVATION_ROWS = 3_000
@@ -181,8 +182,16 @@ def authoritative_pdf_gate
   actual_pdf = export_status["pdf"].to_s
   errors << "submission export status points to #{actual_pdf.empty? ? '(none)' : actual_pdf}, expected #{expected_pdf}" unless actual_pdf == expected_pdf
 
+  unless HUMAN_SUBMISSION_PDF.file? && HUMAN_SUBMISSION_PDF.size.positive?
+    errors << "Thomas human submission PDF missing: #{relative(HUMAN_SUBMISSION_PDF)}"
+  end
+
   problem_pdfs = Dir.glob(ROOT.join("problems/navier-stokes/**/*.pdf").to_s).sort
-  errors << "problem-local PDF outputs remain: #{problem_pdfs.map { |path| relative(path) }.join(', ')}" unless problem_pdfs.empty?
+  allowed_problem_pdfs = [HUMAN_SUBMISSION_PDF.expand_path.to_s]
+  unexpected_problem_pdfs = problem_pdfs.reject { |path| allowed_problem_pdfs.include?(Pathname.new(path).expand_path.to_s) }
+  unless unexpected_problem_pdfs.empty?
+    errors << "unexpected problem-local PDF outputs remain: #{unexpected_problem_pdfs.map { |path| relative(path) }.join(', ')}"
+  end
 
   {
     "gate_id" => "authoritative-pdf-rendered-depth-readback",
