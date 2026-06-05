@@ -280,6 +280,45 @@ Hence every CM-test-admissible finite Clay object produces one face failure:
 
 This is the desired Pack/Part/Field exhaustion.
 
+### Row Addendum: Terminal L3 Duhamel Mass
+
+The June 5 row audit adds one concrete finite-obstruction row that had been
+blurred with generic public-critical translator support.
+
+For a terminal `L^3` Duhamel response mass on the same Navier-Stokes witness
+record, the CM-test entry is supplied by
+`L3DuhamelResponseWorkLocalization.A`: the terminal mass is localized to
+same-ledger nonlinear source work, `not Pack_Q`, `not Part_{N_s,Q}`, or legal
+exit.
+
+With `ParaproductNativeSourceCapture.A` and `TerminalSourceResidueCMExit.A`,
+the first-face landing is:
+
+```text
+selected Pack-side source-wall failure
+=> not Pack_Q,
+
+unpaid terminal native source residue on a retained carrier
+=> not Part_{N_s,Q},
+
+paid Pack/Part/legal terms
+=> no terminal obstruction row remains.
+```
+
+If Pack and Part survive and the branch is a retained local `L^3` critical
+concentration on that same ledger, then
+`RetainedPackPartCriticalL3FieldExit.A` gives the Field landing:
+
+```math
+Pack_Q\wedge Part_{N_s,Q}\wedge L^3\text{-}CritConc(W_*)
+\Longrightarrow
+\forall r>0\,\neg Field_{N_s,r,Q}.
+```
+
+So the installed terminal `L^3` Duhamel-mass branch is exhausted by the same
+Pack-first tree. Generic public-critical classes remain support until their own
+same-atlas localization and Field incompatibility are proved.
+
 ## Theorem `ClayCMContrapositiveEmbedding.A`
 
 The Clay finite-time counterexample assumption embeds into the CM
