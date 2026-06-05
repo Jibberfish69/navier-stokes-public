@@ -11,7 +11,21 @@ reader is asked to understand `Part`, `Field`, or endpoint pointwise readout.
 
 ## Reader-facing explanation
 
-Because a single point cannot carry the Navier-Stokes object.
+Because a single point cannot certify smoothness.
+
+Smoothness is not a value at one point. Smoothness means the velocity,
+pressure, derivatives, viscosity action, and transport law fit together on a
+local open piece of the same fluid. The same point value can sit inside a
+smooth field or inside a field that fails immediately around that point, so the
+point itself is only a probe or readout site. The certificate has to be a
+neighborhood, germ, packet, or positive-radius window.
+
+That is why `Pack(Q)` is the first CM gate. It asks whether the terminal
+candidate still has the positive-radius same-fluid carrier needed before
+smoothness, participation, or field coherence can be certified.
+
+Equivalently: a point can report what an already-existing smooth field says at
+that point, but it cannot supply the smooth field.
 
 Navier-Stokes is not just "the velocity value at a point." It needs a little
 region where velocity, pressure, derivatives, viscosity, and transport all
@@ -33,9 +47,15 @@ values and derivatives inside an already-valid positive-radius fluid packet.
 In short:
 
 ```text
+point certification is impossible;
 pointwise first is fake;
 pointwise after recovered scale is a consequence.
 ```
+
+This is the plain reader version of `CarrierAdmissibility.A` in
+`mpp-carrier-admissibility-point-probe-germ-pack-lemma-20260530.md`: a point
+probe is diagnostic; the CM carrier content is the neighborhood germ; a
+positive-radius same-fluid germ member is what supplies `Pack(Q)`.
 
 ## Certification consequence
 
@@ -54,4 +74,3 @@ roles:
 zero-radius terminal pointwise start  -> not Pack_Q
 positive-radius packet readout        -> Field / endpoint consequence
 ```
-
