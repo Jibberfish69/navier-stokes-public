@@ -61,6 +61,10 @@ sources_inspected:
     role: historical retained-Field diagnostic and current response-lower-bound gap
   - path: problems/navier-stokes/theorem-construction/mpp-retained-pack-part-critical-concentration-to-field-bridge-20260519.md
     role: local critical translator to Field bridge target
+  - path: problems/navier-stokes/theorem-construction/mpp-terminal-l3-duhamel-mass-cm-face-correction-20260523.md
+    role: installed terminal L3 Duhamel-mass same-witness CM face correction
+  - path: problems/navier-stokes/theorem-construction/mpp-finite-terminal-obstruction-inventory-row-audit-20260605.md
+    role: June 5 row audit splitting installed local L3 face landing from generic public-critical translator support
   - path: problems/navier-stokes/theorem-construction/mpp-source-reserve-birth-cm-face-consumption-20260525.md
     role: source-reserve birth CM consumption and current quarantine
   - path: problems/navier-stokes/theorem-construction/mpp-source-reserve-birth-charge-direct-attempt-20260525.md
@@ -348,28 +352,56 @@ records:
       None for demotion. To use an endpoint/no-pulse row as proof material,
       first cite the exact selected packet and the Pack/Part/Field service it
       protects or breaks.
+  - record_id: terminal_l3_duhamel_mass_same_witness_cm_face
+    branch_family: local critical translators
+    selected_terminal_object: >-
+      Terminal L3 Duhamel response mass localized to the same Navier-Stokes
+      witness record by L3DuhamelResponseWorkLocalization.A.
+    cm_test_admission_status: >-
+      Certified for the installed local L3 branch. The mass is admitted as a
+      selected same-solution terminal obstruction under test, not as a positive
+      reserve-pricing supplier theorem.
+    first_face: Pack_Q_or_Part_N_Q_or_Field_N_r_Q_after_retained_Pack_Part
+    face_failure: >-
+      not Pack_Q, or Pack_Q and not Part_{N,Q}, or under retained Pack_Q and
+      Part_{N,Q}, for every r>0 not Field_{N,r,Q}.
+    proof_evidence_path:
+      - problems/navier-stokes/theorem-construction/mpp-terminal-l3-duhamel-mass-cm-face-correction-20260523.md
+      - problems/navier-stokes/theorem-construction/mpp-terminal-source-residue-cm-exit-20260522.md
+      - problems/navier-stokes/theorem-construction/mpp-retained-pack-part-critical-concentration-to-field-bridge-20260519.md
+      - problems/navier-stokes/theorem-construction/mpp-finite-terminal-obstruction-inventory-row-audit-20260605.md
+    proof_complete: true
+    status: certified_face_failure
+    exact_missing_step: >-
+      None for the installed local L3 Duhamel-mass branch. Generic
+      public-critical translators remain support until same-atlas localization
+      and Field incompatibility are proved for a named class X.
   - record_id: local_critical_translator_same_witness
     branch_family: local critical translators
     selected_terminal_object: >-
-      Local L3, Duhamel, public-critical, or related concentration packet that
-      is being translated back to the same Navier-Stokes witness record.
+      Generic public-critical or related concentration packet, excluding the
+      installed terminal L3 Duhamel-mass row above, that is proposed as
+      proof-bearing material on the same Navier-Stokes witness record.
     cm_test_admission_status: >-
-      Support until same-ledger localization is proved. After placement on the
-      same record, the packet is tested Pack-first, then Part; a retained
-      public critical concentration becomes Field only after a separate bridge.
-    first_face: unresolved_until_same_witness_record
-    face_failure: Pack_or_Part_or_conditional_Field
+      Support until same-atlas localization is proved for the named public
+      class. After placement on the same record, the packet is tested
+      Pack-first, then Part; a retained public critical concentration becomes
+      Field only after Field incompatibility is proved on that same atlas.
+    first_face: no_independent_face_until_same_atlas_localization
+    face_failure: none_until_same_atlas_localization_and_Field_incompatibility
     proof_evidence_path:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:543
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:813
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1123
       - problems/navier-stokes/theorem-construction/mpp-retained-pack-part-critical-concentration-to-field-bridge-20260519.md
+      - problems/navier-stokes/theorem-construction/mpp-finite-terminal-obstruction-inventory-row-audit-20260605.md
     proof_complete: true
     status: demoted_generic_translator_support
     exact_missing_step: >-
-      None for CM proof inclusion. The installed local L3 translator may be
-      used where cited; generic public-critical translators remain support
-      until same-atlas localization and Field incompatibility are proved.
+      None for CM proof inclusion. To promote a generic public-critical class
+      X, prove same-atlas localization of CritConc_X and Field incompatibility
+      after retained Pack and Part. The installed local L3 Duhamel-mass row is
+      already separately certified.
   - record_id: transfer_and_mirror_comparison
     branch_family: transfer and mirror comparison
     selected_terminal_object: none_inside_non_euler_NS_CM_proof
@@ -397,6 +429,7 @@ summaries:
     - raw_terminal_source_residue_pack_or_part_exit
     - pressure_viscosity_or_dwell_part_exit
     - retained_positive_window_blowup_field_exit
+    - terminal_l3_duhamel_mass_same_witness_cm_face
   open_branches:
     []
   demoted_branches:
