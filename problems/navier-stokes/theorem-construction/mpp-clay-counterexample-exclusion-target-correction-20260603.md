@@ -85,6 +85,44 @@ remaining work is manuscript/referee presentation. If one type is not covered,
 that type is the true blocker. A generic "Exit is inadmissible" bridge is not
 the true blocker.
 
+## 2026-06-05 Row-Audit Update
+
+The follow-up row audit is recorded in
+`mpp-finite-terminal-obstruction-inventory-row-audit-20260605.md`.
+
+It checked the branch-family ledger against
+`ClayFiniteFailureTypeCMExhaustion.A` and found one row that needed to be split:
+the local `L^3` Duhamel-mass translator was still grouped with generic
+public-critical translator support. The installed note
+`mpp-terminal-l3-duhamel-mass-cm-face-correction-20260523.md` already proves
+the local row:
+
+```text
+terminal L3 Duhamel response mass
+=> same-ledger nonlinear source work
+   or not Pack_Q
+   or not Part_{N,Q}
+   or Legal,
+```
+
+and with the source-residue and retained critical translator notes this yields:
+
+```text
+not Pack_Q,
+or Pack_Q and not Part_{N,Q},
+or, under retained Pack_Q and Part_{N,Q},
+   forall r>0 not Field_{N,r,Q}.
+```
+
+Thus the installed local `L^3` Duhamel-mass branch now has CM-test entry and a
+first Pack/Part/Field face derivation in the finite-obstruction inventory.
+
+Generic public-critical translators remain support-only until a named class `X`
+has same-atlas localization and Field incompatibility proved on the same
+witness record. The next row-level obstruction is therefore only that generic
+promotion question, not the installed local `L^3` branch and not the full
+finite-failure inventory.
+
 ## Non-Overclaim Boundary
 
 This note does not prove the Navier-Stokes MPP. It corrects the live target so
