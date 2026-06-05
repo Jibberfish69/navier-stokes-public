@@ -91,13 +91,28 @@ working_pass_results:
   status: integrated-demotion-and-certified-row-ledger
   evidence:
   - problems/navier-stokes/cm-branch-family-certificate-ledger-20260526.yaml
-  result: Five rows are certified face failures. Endpoint/readout and transfer rows
-    are demoted. The remaining supplier or typed rows are demoted from proof-bearing
-    status unless a same-atlas Pack/Part/Field derivation is proved. The branch-family
-    census is no longer allowed to be the load-bearing proof of terminal capture.
+  result: Six rows are certified face failures after the June 5 local L3 row split.
+    Endpoint/readout and transfer rows are demoted. The remaining supplier or typed
+    rows are demoted from proof-bearing status unless a same-atlas Pack/Part/Field
+    derivation is proved. The branch-family census is no longer allowed to be the
+    load-bearing proof of terminal capture.
   remaining_boundary: The manuscript branch-family sections have been rewritten as
     support/exposition; future branch rows still need same-atlas face certification
     before they carry proof mass.
+- id: finite-terminal-obstruction-inventory-row-audit-20260605
+  status: completed-row-narrowing-not-clay-closure
+  evidence:
+  - problems/navier-stokes/theorem-construction/mpp-finite-terminal-obstruction-inventory-row-audit-20260605.md
+  - problems/navier-stokes/cm-branch-family-certificate-ledger-20260526.yaml
+  result: The installed terminal L3 Duhamel-mass branch is now separated from
+    generic public-critical translator support. It has CM-test entry by same-ledger
+    localization and lands in Pack/Part/legal face alternatives, with retained
+    Pack+Part feeding the local L3 Field face. Generic public-critical classes
+    remain support-only until same-atlas localization and Field incompatibility
+    are proved for a named class.
+  remaining_boundary: This narrows the finite-obstruction inventory audit only.
+    The broader Clay counterexample-exclusion bridge remains outside this row
+    audit and is still not proved here.
 - id: generated-readiness-demotion-sync
   status: resolved-by-enforced-gate
   evidence:
