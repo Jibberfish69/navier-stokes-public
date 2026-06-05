@@ -23,6 +23,17 @@ So a point can be a test location. It can tell the reader what an already
 existing smooth field reads there. It cannot, by itself, provide the smooth
 field around it.
 
+The same rule applies to nonsmoothness. A suspicious point value, limit, or
+blow-up signal is not yet a certified nonsmooth Navier-Stokes object. The proof
+has to thicken that point to a little neighborhood and ask what exists there:
+a smooth local field, a nonsmooth local field, or no same-fluid object left at
+all.
+
+The vortex version says the same thing in physical language. A vortex is not a
+single point. It requires radius, circulation, shear, inner and outer structure,
+and neighboring fluid. A zero-radius "vortex" is no longer a vortex object; it
+is only a collapsed trace that has to be tested through the Pack gate.
+
 That is why `Pack(Q)` comes first. Before the proof asks any later question
 about the pressure law or the field values, it must first ask whether the
 terminal candidate still has a positive-radius same-fluid window. When the Zeno
@@ -40,7 +51,9 @@ In short:
 
 ```text
 a point cannot certify smoothness;
-a point can only read a smooth field that already exists.
+a point cannot certify nonsmoothness either;
+a vortex cannot be a single point;
+a point can only read a field object that already exists around it.
 ```
 
 This is the plain reader version of `CarrierAdmissibility.A` in
