@@ -13,43 +13,34 @@ reader is asked to understand `Part`, `Field`, or endpoint pointwise readout.
 
 Because a single point cannot certify smoothness.
 
-Smoothness is not a value at one point. Smoothness means the velocity,
-pressure, derivatives, viscosity action, and transport law fit together on a
-local open piece of the same fluid. The same point value can sit inside a
-smooth field or inside a field that fails immediately around that point, so the
-point itself is only a probe or readout site. The certificate has to be a
-neighborhood, germ, packet, or positive-radius window.
+A point gives one value, or one limiting value. Smoothness asks for more. It
+asks whether there is a little open piece around that point where the velocity
+and pressure live together, the derivatives exist, viscosity acts through those
+derivatives, and nearby fluid particles are still part of one transported
+fluid.
 
-That is why `Pack(Q)` is the first CM gate. It asks whether the terminal
-candidate still has the positive-radius same-fluid carrier needed before
-smoothness, participation, or field coherence can be certified.
+So a point can be a test location. It can tell the reader what an already
+existing smooth field reads there. It cannot, by itself, provide the smooth
+field around it.
 
-Equivalently: a point can report what an already-existing smooth field says at
-that point, but it cannot supply the smooth field.
-
-Navier-Stokes is not just "the velocity value at a point." It needs a little
-region where velocity, pressure, derivatives, viscosity, and transport all
-still belong to the same fluid. `Pack(Q)` is the CM certification slot that
-records that positive-radius carrier/cover.
-
-A zero-radius Zeno window has lost that little region, so it cannot be used as
-the starting object for CM certification. In the Pack-first order, it lands
-first as
+That is why `Pack(Q)` comes first. Before the proof asks any later question
+about the pressure law or the field values, it must first ask whether the
+terminal candidate still has a positive-radius same-fluid window. When the Zeno
+window has radius zero, that first answer is no:
 
 ```text
 not Pack_Q.
 ```
 
-`Field.Read` is allowed only after the little region has already been restored
-by `Pack(Q)` / `READ.COVER`. Then "pointwise" means the reader can read ordinary
-values and derivatives inside an already-valid positive-radius fluid packet.
+Pointwise PDE language is allowed later, after `Pack(Q)` or `READ.COVER` has
+restored that positive-radius window. Then "pointwise" means reading values and
+derivatives inside a smooth local field that already exists.
 
 In short:
 
 ```text
-point certification is impossible;
-pointwise first is fake;
-pointwise after recovered scale is a consequence.
+a point cannot certify smoothness;
+a point can only read a smooth field that already exists.
 ```
 
 This is the plain reader version of `CarrierAdmissibility.A` in
