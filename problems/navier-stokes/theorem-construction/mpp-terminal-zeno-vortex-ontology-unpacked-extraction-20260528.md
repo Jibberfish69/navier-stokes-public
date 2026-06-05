@@ -154,6 +154,15 @@ The user identified vorticity/vortex language as different from generic
 analytic mass. A vortex is not a singleton. It requires more than one point: a
 radius, circulation, shear profile, inner/outer structure, and a spatial shape.
 
+This has to be said in the same plain terms as the Pack gate. Smoothness cannot
+be certified at a bare point. Nonsmoothness cannot be certified at a bare point
+either. A point can show a suspicious value, limit, or blow-up signal, but the
+proof has to thicken the point to a neighborhood before it can decide what
+field object is really present.
+
+A vortex is one of those field objects. It requires more than a single point to
+even be called a vortex.
+
 Home:
 
 ```text
@@ -266,12 +275,13 @@ The argument is not a single summary sentence. It removes false Zeno ontologies
 one by one:
 
 1. point probe is not continuation packet;
-2. finite analytic mass is not one object;
-3. vortex is positive-radius structure;
-4. vortex center is not the vortex body;
-5. angular velocity at `r=0` is not ordinary orbital motion;
-6. intrinsic singleton spin is not a classical NS variable;
-7. field-encoded spin belongs to the existing CM tree.
+2. smoothness and nonsmoothness are not certified by a bare point;
+3. finite analytic mass is not one object;
+4. vortex is positive-radius structure;
+5. vortex center is not the vortex body;
+6. angular velocity at `r=0` is not ordinary orbital motion;
+7. intrinsic singleton spin is not a classical NS variable;
+8. field-encoded spin belongs to the existing CM tree.
 
 Home:
 
@@ -314,7 +324,7 @@ Then route:
 
 | Gate answer | CM result |
 | --- | --- |
-| diagnostic point probe | thicken to windows before using it |
+| diagnostic point probe | thicken to windows before using it; a bare point certifies neither smoothness nor nonsmoothness |
 | zero-radius residue, no retained carrier | `not Pack_Q` |
 | positive-radius vortex packet | test `Pack_Q`, `Part_{N,Q}`, `Field_{N,r,Q}` |
 | collapsed field-limit spin | `Field` only after carrier and law survive; otherwise earlier Pack/Part |
