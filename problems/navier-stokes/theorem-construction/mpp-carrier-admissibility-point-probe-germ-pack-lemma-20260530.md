@@ -12,6 +12,17 @@ This note closes the carrier-admissibility gap exposed by the terminal Zeno / vo
 
 The concern is real: `Pack(Q)` requires positive carrier scale, while a terminal singularity may be presented as a pointwise object. The CM program therefore needs an explicit lemma saying which objects can carry classical Navier-Stokes membership data and which objects function as diagnostic probes.
 
+Plainly: smoothness cannot be certified at a bare point, and nonsmoothness
+cannot be certified at a bare point either. A point can show a suspicious value
+or limiting signal. The CM test has to thicken that point to a positive-radius
+same-fluid neighborhood before it can decide whether there is a smooth field, a
+nonsmooth field, or no same-fluid object left to test.
+
+The vortex case has the same shape. A vortex is an object with radius,
+circulation, shear, and neighboring fluid structure. A single point is not a
+vortex. A zero-radius "vortex" is a collapsed trace, so it reaches the CM test
+as a point probe whose carrier content is the surrounding germ.
+
 ## Existing route context
 
 The installed CM witness family is
@@ -37,6 +48,11 @@ z_*=(x_*,T_*).
 ```
 
 A **point probe** at `z_*` is an admissible diagnostic question about values, limits, blow-up rates, tangent profiles, concentration, point-spin candidates, or other pointwise readouts associated with the classical fields.
+
+A point probe is not itself a smoothness certificate or a nonsmoothness
+certificate. It is a place where a field is read, or where a limiting signal is
+noticed. Certification begins only when the point is thickened to a
+positive-radius neighborhood.
 
 A **germ carrier** at `z_*` is the family of positive-radius neighbourhoods
 
@@ -103,6 +119,10 @@ The classical Navier-Stokes object contains the velocity field `u`, pressure `p`
 At a singleton `z_*`, the object supplies point-evaluation data when the field is regular there, and it supplies limiting/germ data when the field is approached through neighbourhoods. The singleton itself carries no independent material volume, no transported finite cover, no finite overlap relation, no pressure-recovery domain, no finite-difference scale, and no deformation comparison between neighbouring material points.
 
 Thus a point is a lawful diagnostic site, while the CM carrier associated with that point is the germ of neighbourhoods around it.
+
+That is why neither smoothness nor nonsmoothness is certified by the singleton
+alone. Both claims are local field claims. The singleton can trigger the
+question; the surrounding germ is where the question is answered.
 
 ### 2. Pack is the carrier slot of the continuation packet
 
@@ -178,6 +198,12 @@ A cascade with a positive terminal lower scale satisfies the carrier-admission r
 A classical Navier-Stokes point has field values and field limits. A point-intrinsic spin variable would require an additional state variable, for example `S(t)`, coupled or uncoupled to `u,p`. That produces a different object class, such as a spin-fluid or micropolar model.
 
 Inside classical Navier-Stokes, point-spin can enter only through field/germ data such as circulation density, vorticity, strain, or derivative limits. Those quantities are read through positive-radius neighbourhoods and therefore route through Pack admission first.
+
+The same is true for a vortex. A vortex is not a singleton with a label attached
+to it. It is a positive-radius field structure. If that radius survives, the
+object is tested through `Pack`, then `Part`, then `Field`. If the radius has
+collapsed to zero, the vortex object has disappeared and the remaining trace
+lands at the Pack gate.
 
 ## Corollary `ZenoGate1.A`
 
