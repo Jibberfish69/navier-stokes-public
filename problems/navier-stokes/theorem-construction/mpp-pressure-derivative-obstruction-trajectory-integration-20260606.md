@@ -1,3 +1,15 @@
+---
+ns_viewer:
+  theorem_id: pressure-derivative-obstruction-trajectory-integration
+  proof_role: support
+  logical_landing_node: nkf_point_recovery
+  edge_effect: records the route-authority cut between retained point-center forcing and averaged finite-energy receiver work.
+  upstream_origin: same-day finite-energy point-pressure derivative obstruction proof.
+  downstream_consequence: keep NKF.Point / NKF.Native on the retained smooth branch and route finite-energy receiver work through SCF_avg -> AACT.KX -> AVG.RCV.A.
+  status: installed
+  source_authority: problems/navier-stokes/theorem-construction/mpp-finite-energy-point-pressure-derivative-obstruction-20260606.md
+---
+
 # Pressure-Derivative Obstruction Trajectory Integration
 
 ## Status
