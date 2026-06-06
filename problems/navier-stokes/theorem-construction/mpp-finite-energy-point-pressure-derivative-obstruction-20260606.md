@@ -38,7 +38,7 @@ the point-center pressure derivatives required by `NKF.Point` / `NKF.Native`.
 
 ## Proof
 
-Work on `T^3=(R/2\pi Z)^3`. For each integer `N>=1`, set
+Work on `T^3=(\mathbb R/2\pi\mathbb Z)^3`. For each integer `N>=1`, set
 
 ```math
 u_N(x_1,x_2,x_3)
