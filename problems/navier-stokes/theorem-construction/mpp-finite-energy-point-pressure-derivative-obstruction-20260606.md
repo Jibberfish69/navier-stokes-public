@@ -1,3 +1,15 @@
+---
+ns_viewer:
+  theorem_id: finite-energy-point-pressure-derivative-obstruction
+  proof_role: obstruction
+  logical_landing_node: nkf_point_recovery
+  edge_effect: finite energy plus pressure Poisson does not supply the point-center pressure derivative bounds required by NKF.Point / NKF.Native.
+  upstream_origin: retained-window attempt to promote original finite-energy terminal data into retained center forcing.
+  downstream_consequence: consume a retained smooth center-ball certificate for NKF.Native, or use the averaged SCF route without importing point-center pressure derivatives.
+  status: installed
+  source_authority: problems/navier-stokes/theorem-construction/mpp-retained-window-native-forcing-theorem-program.md
+---
+
 # Finite Energy Point-Pressure Derivative Obstruction
 
 ## Status
