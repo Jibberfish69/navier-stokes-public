@@ -74,7 +74,9 @@ bridge.
 `RSCB.NKF` is a retained local smoothness / center-ball forcing certificate.
 It proves point-center forcing only after local smooth center-ball norms are
 available. It must not be cited as a theorem from finite energy, bounded pack
-gauge, same-fluid geometry, and pressure Poisson structure alone.
+gauge, same-fluid geometry, and pressure Poisson structure alone. The obstruction
+is proved in
+[mpp-finite-energy-point-pressure-derivative-obstruction-20260606.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-finite-energy-point-pressure-derivative-obstruction-20260606.md).
 
 The point-recovery step
 
@@ -120,7 +122,8 @@ NKF.Native.
 
 This is the deepest analytic frontier on the receiver side because finite
 energy and the pressure Poisson law alone do not control point pressure
-derivatives at the retained centers.
+derivatives at the retained centers; see
+[mpp-finite-energy-point-pressure-derivative-obstruction-20260606.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-finite-energy-point-pressure-derivative-obstruction-20260606.md).
 
 ## Route Statement
 
