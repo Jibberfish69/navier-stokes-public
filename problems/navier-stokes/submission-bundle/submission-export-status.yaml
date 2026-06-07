@@ -1,12 +1,12 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-01T19:53:01Z'
+generated_at: '2026-06-07T16:20:23Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
-pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
   source_word_count: 448540
@@ -696,4 +696,10 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   written on navier-stokes-submission.pdf (1222 pages, 4406690 bytes).\nTranscript
   written on navier-stokes-submission.log.\n"
 stderr: "\n"
-fallback:
+fallback: 
+human_pdf_sha1: b8ca576a1e3403bb3212e7b0099bf9857195e7be
+manuscript_tex_sha1: 5015c1a20b14879dd819b11c7e2cde9e45194c30
+submission_ready: false
+completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+readiness_blocker: Clay counterexample-exclusion bridge and reader-facing proof promotion
+  remain open; keep submission_ready=false.
