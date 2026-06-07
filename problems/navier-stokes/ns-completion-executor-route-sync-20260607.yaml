@@ -3,8 +3,10 @@ version: 1
 artifact_id: ns-completion-executor-route-sync-2026-06-07
 status: changed
 date: '2026-06-07'
+iteration_index: 1
 consumed_work_node_ids:
 - ns-route-graph-app-sync
+input_refs: []
 route_sync:
   proof_frontier_ref: problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260607.md
   graph_target: clay-cm-contrapositive-witness-consumption
