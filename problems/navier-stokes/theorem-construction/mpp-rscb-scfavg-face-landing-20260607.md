@@ -2,7 +2,7 @@
 ns_viewer:
   theorem_id: rscb-scfavg-face-landing
   proof_role: cm_class_exit
-  logical_landing_node: cm_face_generated_attempts
+  logical_landing_node: rscb_nkf
   edge_effect: after the June 6 route cut, retained point-center failure and averaged cover failure must be typed as pass route or first CM face, not revived as finite-energy NKF.Native.
   upstream_origin: finite-energy point-pressure derivative obstruction, retained RSCB.NKF route, and averaged SCF_avg route.
   downstream_consequence: Use this as the branch-law intake for terminal retained/averaged receiver failures before claiming Exit(Q):=not Member(Q).
