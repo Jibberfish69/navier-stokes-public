@@ -37,6 +37,19 @@ PROCESS_RESIDUE = re.compile(
     r"this run reached|requested equivalent form|requested sequence)\b",
     re.I,
 )
+CONTRACT_RESIDUE = re.compile(
+    r"\b(?:Source Ledger|Referee Checklist|authority cut|authority surfaces?|proof-obligation|proof obligation matrix)\b|"
+    r"\b(?:accepted proof records?|release gate|MCP loop status|write receipt|operation_id=|sha1=)\b|"
+    r"\b(?:current package status|paper quality verdict|submission verdict|lane packet)\b|"
+    r"\b[A-Z][A-Za-z0-9_-]*\s+lane\b|"
+    r"\b(?:theorem-packet|source-frontier|proof-assembly|proof-obligation-matrix|live-theorem-edge)\.(?:ya?ml|md)\b|"
+    r"\b(?:paper-quality-verdict|submission-verdict|submission-export-status)\.ya?ml\b|"
+    r"not\s+(?:a\s+)?(?:complete|full|terminal|ready|submission-ready).{0,100}\b(?:Clay|MPP|submission)\b|"
+    r"\b(?:full_clay_submission_ready|submission_ready|release_approved):\s*false\b|"
+    r"\bnot-release-approved\b|"
+    r"\bstatus:\s*blocked\b",
+    re.I,
+)
 EARLY_NON_NS = re.compile(
     r"\b(Movement\s+0|moral|ethical|ethics|black[- ]?hole|cosmolog|\bCMB\b)\b",
     re.I,
@@ -170,6 +183,60 @@ def latex_escape(text: str) -> str:
     return "".join(replacements.get(ch, ch) for ch in text)
 
 
+def reader_contract_language(text: str) -> str:
+    text = re.sub(
+        r"\bnot\s+(?:a\s+)?(?:complete|full|terminal|ready|submission-ready)[^.]{0,100}\b(?:Clay|MPP|submission)\b[^.]*\.?",
+        "This portion is a boundary result rather than the whole problem.",
+        text,
+        flags=re.I,
+    )
+    replacements = [
+        (r"\bNavier--Stokes lane\b", "Navier--Stokes argument"),
+        (r"\bNavier-Stokes lane\b", "Navier-Stokes argument"),
+        (r"\bNS lane\b", "Navier-Stokes argument"),
+        (r"\blive lane\b", "live argument"),
+        (r"\bcurrent lane\b", "current argument"),
+        (r"\bactive lane\b", "active argument"),
+        (r"\bfull-claim lane\b", "full-claim route"),
+        (r"\blane-local\b", "route-local"),
+        (r"\blane-wide\b", "route-wide"),
+        (r"\blane's\b", "route's"),
+        (r"\blanes'\b", "routes'"),
+        (r"\blanes\b", "routes"),
+        (r"\blane\b", "route"),
+        (r"\bsame-ledger\b", "same-witness"),
+        (r"\bsame ledger\b", "same witness"),
+        (r"\bwitness ledger\b", "witness record"),
+        (r"\bsource ledger\b", "source account"),
+        (r"\bSource Ledger\b", "Source Account"),
+        (r"\blegder\b", "record"),
+        (r"\bledgers\b", "records"),
+        (r"\bledger\b", "record"),
+        (r"\bproof-obligation matrix\b", "proof-burden table"),
+        (r"\bproof-obligation\b", "proof burden"),
+        (r"\bproof obligation matrix\b", "proof-burden table"),
+        (r"\btheorem-packet\b", "theorem packet"),
+        (r"\bsource-frontier\b", "source boundary"),
+        (r"\bproof-assembly\b", "proof assembly"),
+        (r"\blive-theorem-edge\b", "live theorem edge"),
+        (r"\bpaper quality verdict\b", "paper quality judgment"),
+        (r"\bsubmission verdict\b", "reader verdict"),
+        (r"\bcurrent package status\b", "current proof state"),
+        (r"\bcompletion status\b", "completion state"),
+        (r"\bsupersession status\b", "supersession state"),
+        (r"\bclaimed status\b", "claimed state"),
+        (r"\bstatus\b", "state"),
+        (r"\bfull-MPP\b", "complete problem"),
+        (r"\bMPP\b", "Clay problem"),
+        (r"\bsubmission readiness\b", "reader readiness"),
+        (r"\bsubmission-ready\b", "ready for the reader"),
+        (r"\bsubmission\b", "reader-facing paper"),
+    ]
+    for pattern, replacement in replacements:
+        text = re.sub(pattern, replacement, text, flags=re.I)
+    return text
+
+
 def clean_inline(text: str) -> str:
     text = normalize_ascii(text)
     text = re.sub(r"\[[^\]]*\]\([^)]*\)", lambda m: m.group(0).split("](")[0].strip("["), text)
@@ -193,6 +260,7 @@ def clean_inline(text: str) -> str:
     text = re.sub(r"\bSothe\b", "So the", text)
     text = re.sub(r"\b[Tt]his note\b", lambda m: "This section" if m.group(0)[0].isupper() else "this section", text)
     text = re.sub(r"([a-z])([A-Z][a-z])", r"\1 \2", text)
+    text = reader_contract_language(text)
     text = re.sub(r"\s+", " ", text).strip()
     text = re.sub(
         r"\s+(?:Both branches were closed in|The follow-up(?: note)?|The companion return note)\s*:?\s*$",
@@ -225,6 +293,8 @@ def keep_paragraph(text: str) -> bool:
     if len(text) < 80:
         return False
     if FORBIDDEN.search(text) or PROCESS_RESIDUE.search(text) or EARLY_NON_NS.search(text):
+        return False
+    if CONTRACT_RESIDUE.search(text):
         return False
     if too_formula_like(text):
         return False
@@ -423,6 +493,9 @@ def render_source(path: Path, master_mode: bool = False) -> str:
     title = "Canonical Source Stack And Original Framework" if master_mode else title_from_markdown(raw, path)
     if PROMPT_RESIDUE.search(title):
         return ""
+    title = reader_contract_language(title)
+    if CONTRACT_RESIDUE.search(title):
+        return ""
     blocks = blocks_from_markdown(raw)
     text_count = sum(1 for kind, _value in blocks if kind == "text")
     if text_count < 2:
@@ -451,9 +524,8 @@ def build() -> None:
         "\\section{Source-Field Reader Appendix}\n",
         latex_escape(
             "This appendix reconstructs recovered Navier-Stokes source work as reader-facing mathematical material. "
-            "It is not a source inventory, provenance manifest, or page-count ledger. Retained material is included "
-            "only when it explains a definition, reduction, estimate, obstruction, failed attempt that changes the "
-            "proof burden, or CM witness logic for Pack, Part, Field, and readout."
+            "It keeps the parts that explain a definition, reduction, estimate, obstruction, failed attempt that "
+            "changes the proof burden, or CM witness logic for Pack, Part, Field, and readout."
         )
         + "\n",
     ]
@@ -482,6 +554,7 @@ def build() -> None:
     )
     text = "\n".join(piece for piece in pieces if piece)
     text = normalize_ascii(text)
+    text = reader_contract_language(text)
     bad_lines = []
     in_display_math = False
     for line in text.splitlines():
@@ -494,6 +567,9 @@ def build() -> None:
         if line.startswith(("\\section{", "\\subsection{")):
             continue
         if FORBIDDEN.search(line) or PROCESS_RESIDUE.search(line):
+            bad_lines.append(line)
+            continue
+        if CONTRACT_RESIDUE.search(line):
             bad_lines.append(line)
             continue
         if in_display_math and MATH_LABEL_RESIDUE.search(line):
