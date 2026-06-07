@@ -1,3 +1,17 @@
+---
+ns_viewer:
+  theorem_id: averaged-terminal-cover-common-scheduler-reentry-20260607
+  status: narrowed-to-jumpavg-branch
+  proof_role: route_reentry
+  logical_landing_node: averaged_terminal_route
+  edge_effect: "Splits the averaged terminal cover/scheduler problem into the no-Jump_avg pass route and the Jump_avg branch that must be consumed before pointwise readout enters."
+  upstream_origin:
+    - problems/navier-stokes/theorem-construction/mpp-aact-global-finite-cover-scheduler-attempt.md
+    - problems/navier-stokes/theorem-construction/mpp-tgc-a-cover-positive-scale-terminal-cover-note.md
+    - problems/navier-stokes/theorem-construction/mcp-tgc-a-terminal-good-cover-scheduler-theorem.md
+  downstream_consequence: "Keeps READ.COVER, DTC.Read, Field.Read, READ.END, and End_NS downstream while the averaged endpoint route handles Jump_avg."
+---
+
 # Averaged Terminal Cover / Common Scheduler Reentry
 
 ## Status
