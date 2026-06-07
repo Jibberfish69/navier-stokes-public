@@ -1,7 +1,7 @@
 ---
 ns_viewer:
   theorem_id: averaged-receiver-no-upstream-readout
-  proof_role: missing_bridge
+  proof_role: support
   logical_landing_node: averaged_terminal_route
   edge_effect: blocks upstream use of READ.COVER, DTC.Read, Field.Read, READ.END, and pointwise DTC/Field objects before End_NS_avg.
   upstream_origin: finite-energy point-pressure derivative obstruction and averaged receiver route audit.
