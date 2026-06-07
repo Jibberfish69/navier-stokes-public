@@ -497,30 +497,14 @@ integration_chain:
 '
 - step_id: submission_package
   surface_class: review/submission
-  current_state: blocked
+  current_state: dual-pdf-promoted
   job: Review and submission verdicts agree no proof, reader, build, or package blocker
     remains.
-  current_gap: Theorem closure and PDF readiness remain open.
-open_blockers:
-- blocker_id: pdf-reader-proof-integration
-  branch: manuscript-and-submission
-  status: active-reader-integration
-  burden: 'Rebuild both required PDF tracks from the current theorem state and remove
-    stale reader-facing claims that still describe installed CM witness consumption,
-    Clay counterexample exclusion, or R3 dyadic-survivor Pack/Part/Field landing as
-    open. The direct positive theorem R3.ExteriorNonlinearSourceHsLedger.A remains
-    a stronger optional export estimate; the CM-facing survivor branch is now installed
-    and must be represented as Pack, Part, or Field face landing.
+  current_gap: 'The current source frontier reports no unresolved live theorem obligations,
+    and both required PDF tracks have been rebuilt from the current CM/R3 state.
 
 '
-  refs: &25
-  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-  - papers/navier-stokes/manuscript/generated/main.tex
-  - problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
-  - problems/navier-stokes/theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
-  - problems/navier-stokes/theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md
-  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md
-  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md
+open_blockers: []
 branch_rows:
 - row_id: graph:cm_convergence_atlas
   row_kind: route_node
@@ -823,24 +807,19 @@ branch_rows:
 - row_id: integration:submission_package
   row_kind: d8_integration_step
   label: review/submission
-  state: blocked
-  next_burden: Theorem closure and PDF readiness remain open.
+  state: dual-pdf-promoted
+  next_burden: 'The current source frontier reports no unresolved live theorem obligations,
+    and both required PDF tracks have been rebuilt from the current CM/R3 state.
+
+'
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
-  mcp_visibility_status: visible-in-route-state
-- row_id: blocker:pdf-reader-proof-integration
-  row_kind: open_blocker
-  label: pdf-reader-proof-integration
-  state: blocked
-  next_burden: ''
-  evidence_refs: *25
   mcp_visibility_status: visible-in-route-state
 sync_verdict:
   graph_nodes_count: 24
   graph_edges_count: 31
   d8_integration_rows_count: 5
-  open_blockers_count: 1
+  open_blockers_count: 0
   mcp_route_state_updated: true
-  status: changed-open
-  remaining_gap: 'Open D8 blockers remain visible in the route payload and MCP route-state:
-    pdf-reader-proof-integration.'
+  status: changed-complete
+  remaining_gap: Route payload, MCP route-state, and app-visible branch rows are synchronized.
