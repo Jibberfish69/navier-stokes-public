@@ -2,7 +2,7 @@
 version: 1
 problem_id: navier-stokes
 display_name: Navier-Stokes Global Regularity
-generated_at: '2026-06-07T17:17:40Z'
+generated_at: '2026-06-07T17:19:43Z'
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 manuscript_source_kind: tex
 manuscript_source_reason: submission-export-status.manuscript_source
