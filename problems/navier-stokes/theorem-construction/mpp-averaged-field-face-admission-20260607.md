@@ -4,7 +4,8 @@ ns_viewer:
   status: installed-conditional-depth
   proof_role: bridge_license_reduction
   target_blocker: averaged-jumpavg-branch-native-discharge
-  logical_landing_node: clay-cm-contrapositive-witness-consumption
+  logical_landing_node: cm_field_direct_rows
+  edge_effect: "Installs the direct Field-face admission used by the averaged Jump_avg branch: Field_{N,r,Q} on the same admitted averaged terminal tail implies Field_avg(T)."
   cm_face_landing: Field
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-averaged-jumpavg-field-face-reduction-20260607.md
