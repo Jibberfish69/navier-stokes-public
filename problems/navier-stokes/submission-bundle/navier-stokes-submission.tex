@@ -76,6 +76,11 @@ The rest of the paper makes this test precise for the periodic problem.
 It builds the transported whole-torus material atlas, captures each alleged terminal branch on that atlas, and reads the branch through Pack, Part, and Field in that order.
 Familiar critical, local, and endpoint scenarios enter the proof by attaching to the selected terminal object and facing the same three checks.
 The conclusion is a same-solution dichotomy: the branch remains a lawful smooth member, or the proposed finite terminal object loses one of the three features it needs in order to be the same Navier--Stokes object.
+
+The whole-space \(\mathbb R^3\) export is a separate boundary.
+The current reduction splits the exterior high-order tail by Duhamel's formula.
+Rapidly decaying initial ancestry and compact-core source contributions do not create the exterior \(H^s\), \(s>5/2\), tail.
+The remaining whole-space theorem is the genuinely exterior nonlinear-source estimate.
 \end{abstract}
 
 \setcounter{tocdepth}{1}
@@ -1240,6 +1245,59 @@ Comparison branches may share shapes with Navier--Stokes branches, but the class
 The transfer theorem supplies that exact packet.
 Without it, the comparison branch has no class face inside \(\Owork\).
 \end{proof}
+
+\section{Whole-Space Export Boundary}
+
+The periodic proof and the whole-space proof use the same CM discipline, but they do not have the same compactness boundary.
+On \(\mathbb T^3\), the transported whole-torus material atlas has no spatial escape.
+On \(\mathbb R^3\), a finite terminal claim can also try to hide mass or derivatives in the far field.
+The export problem is therefore not just a copy of the periodic proof.
+It must show that the original rapidly decaying datum cannot produce a terminal exterior \(H^s\) tail, for some \(s>5/2\), outside every large ball.
+
+Let \(u\) be a smooth finite-energy Navier--Stokes solution on \([0,T_*)\times\mathbb R^3\) from smooth rapidly decaying divergence-free data.
+Let \(\eta_R\) be an exterior cutoff supported outside \(R\) and equal to one outside \(2R\).
+The whole-space tail burden is
+\[
+  \lim_{R\to\infty}\sup_{t<T_*}\|\eta_Ru(t)\|_{H^s(\mathbb R^3)}=0.
+\]
+The false shortcut is to replace this by exterior \(L^2\) tightness.
+That loses derivatives and cannot prove the continuation norm.
+The correct split uses Duhamel's formula:
+\[
+  u(t)=e^{\nu t\Delta}u_0
+  -\int_0^t e^{\nu(t-\tau)\Delta}\mathbb P\nabla\cdot(u\otimes u)(\tau)\,d\tau.
+\]
+After splitting \(u\otimes u\) into a compact-core part and a genuinely exterior part, the exterior \(H^s\) tail has three sources.
+
+\begin{proposition}[Whole-space exterior tail reduction]
+For rapidly decaying smooth data, the heat evolution of \(u_0\) contributes no terminal exterior \(H^s\) tail.
+For a fixed compact core, the far-field effect of the compact-core nonlinear source also contributes no terminal exterior \(H^s\) tail, once the fixed-core readout is available.
+Thus the whole-space export reduces to the exterior nonlinear source estimate
+\[
+  \lim_{R\to\infty}\sup_{t<T_*}
+  \left\|
+  \eta_R\int_0^t e^{\nu(t-\tau)\Delta}
+  \mathbb P\nabla\cdot\bigl(\chi_{\ge R/4}u\otimes u\bigr)(\tau)\,d\tau
+  \right\|_{H^s(\mathbb R^3)}
+  =0.
+\]
+\end{proposition}
+
+\begin{proof}
+The heat part is controlled by rapid decay of the initial datum.
+Derivatives commute with the heat flow, and weighted heat estimates give a negative power of \(R\) for \(\eta_Re^{\nu t\Delta}u_0\) on every finite preterminal interval.
+
+For the compact-core source, the kernel of \(\Lambda^se^{\nu(t-\tau)\Delta}\mathbb P\nabla\cdot\) is smooth away from the diagonal.
+The compact source and the exterior cutoff are separated by distance comparable to \(R\).
+Off-diagonal heat-kernel decay then gives a negative power of \(R\), with the fixed-core local readout supplying the finite number of derivatives needed for the \(H^s\) norm.
+
+The only part not covered by those two mechanisms is the nonlinear source already living far out in space.
+That is the displayed exterior nonlinear-source estimate.
+\end{proof}
+
+This is the current noncircular whole-space target.
+It does not spend a global \(H^s\) bound, a Beale--Kato--Majda integral, or continuation-grade control of \(\int_0^{T_*}\|\nabla u(t)\|_{L^\infty}\,dt\).
+Any proof of the export branch has to obtain the exterior source estimate from original data, exterior energy tightness, pressure-tail control, and local readout already earned by the CM route.
 
 
 \section{Mathematical Branch Coverage}
