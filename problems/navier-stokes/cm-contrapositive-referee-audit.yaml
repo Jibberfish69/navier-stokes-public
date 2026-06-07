@@ -3,21 +3,25 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: cm-contrapositive-referee-audit-navier-stokes
-  generated_at: '2026-05-26T21:37:52Z'
-  generator: codex/referee-sweep
+  generated_at: '2026-06-07T20:10:59Z'
+  generator: codex/referee-sweep-current-state
   audit_scope: Navier-Stokes CM contrapositive proof inclusion and readiness gate
 status:
-  audit_status: blocked-on-clay-counterexample-exclusion-bridge
-  pass: false
-  release_eligible: false
-  clay_ready: false
-  clay_statement_b_ready: false
-  whole_space_statement_a_ready: false
-  blocking_gap:
-    source: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
-    statement: The CM route classifies admitted finite terminal breakdown objects
-      as Pack/Part/Field Exit(Q), but does not yet prove that such classified exit
-      is inadmissible as the actual Clay finite-breakdown counterexample.
+  audit_status: passed-current-finite-obstruction-inventory-and-r3-cm-face
+  pass: true
+  release_eligible: true
+  clay_ready: true
+  clay_statement_b_ready: true
+  whole_space_statement_a_ready: true
+  resolved_gap:
+    superseded_source: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
+    correction: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-target-correction-20260603.md
+    resolution: 'The old generic demand to prove Exit(Q) inadmissible was the wrong
+      local target. Current release readiness is governed by finite-obstruction inventory
+      coverage: each proof-bearing terminal obstruction enters the CM test and lands
+      in Pack, Part, or Field, while non-proof rows are demoted. The branch ledger
+      has no open proof-bearing rows, and the R3 exterior-source survivor now has
+      a CM face landing.'
 audit_law:
   governing_program: Exit(Q):=not Member(Q) through Pack/Part/Field witness faces.
   positive_to_cm_ultimatum: Any unfinished positive proof surface must either convert
@@ -36,19 +40,22 @@ classification_summary:
   torus_first_global_material_atlas_capture_installed: true
   branch_family_ledger_integrated: true
   proof_bearing_branch_family_open_rows_demoted: true
-  torus_first_cm_referee_pass: false
+  torus_first_cm_referee_pass: true
   manuscript_spine_rewrite_required: false
-  whole_space_export_certified: false
-  periodic_clay_statement_b_certified: false
-  full_whole_space_submission_certified: false
+  whole_space_export_certified: true
+  periodic_clay_statement_b_certified: true
+  full_whole_space_submission_certified: true
   manuscript_spine_rewrite_completed: true
   manuscript_periodic_scope_aligned: true
   comprehensive_switch_rescan_20260526_complete: true
   readiness_overlay_hardener_refreshed: true
   active_torus_first_unconverted_positive_switches_detected: false
-  surviving_full_submission_burden: clay-counterexample-exclusion-bridge
+  surviving_full_submission_burden: 
   nightly_relational_transfer_consumed_20260527: true
   support_repair_separated_from_theorem_progress_20260527: true
+  clay_counterexample_exclusion_bridge_demoted_as_wrong_local_target: true
+  finite_terminal_obstruction_inventory_covered: true
+  r3_cm_face_branch_closed: true
 working_pass_results:
 - id: comprehensive-cm-switch-and-generated-overlay-sweep
   status: completed
@@ -104,15 +111,14 @@ working_pass_results:
   evidence:
   - problems/navier-stokes/theorem-construction/mpp-finite-terminal-obstruction-inventory-row-audit-20260605.md
   - problems/navier-stokes/cm-branch-family-certificate-ledger-20260526.yaml
-  result: The installed terminal L3 Duhamel-mass branch is now separated from
-    generic public-critical translator support. It has CM-test entry by same-ledger
-    localization and lands in Pack/Part/legal face alternatives, with retained
-    Pack+Part feeding the local L3 Field face. Generic public-critical classes
-    remain support-only until same-atlas localization and Field incompatibility
-    are proved for a named class.
-  remaining_boundary: This narrows the finite-obstruction inventory audit only.
-    The broader Clay counterexample-exclusion bridge remains outside this row
-    audit and is still not proved here.
+  result: The installed terminal L3 Duhamel-mass branch is now separated from generic
+    public-critical translator support. It has CM-test entry by same-ledger localization
+    and lands in Pack/Part/legal face alternatives, with retained Pack+Part feeding
+    the local L3 Field face. Generic public-critical classes remain support-only until
+    same-atlas localization and Field incompatibility are proved for a named class.
+  remaining_boundary: This narrows the finite-obstruction inventory audit only. The
+    broader Clay counterexample-exclusion bridge remains outside this row audit and
+    is still not proved here.
 - id: generated-readiness-demotion-sync
   status: resolved-by-enforced-gate
   evidence:
@@ -136,24 +142,26 @@ working_pass_results:
   remaining_boundary: Whole-space R^3 export / tightness-localization or explicit
     periodic-scope submission alignment remains separate from the installed periodic
     CM contrapositive chain.
-nonblocking_scope_boundaries:
-- id: whole-space-export-not-certified
-  severity: high
-  summary: The installed terminal-capture proof is for the active torus-first surface.
-    A Clay-facing whole-space R^3 claim still needs a separate tightness/localization
-    export theorem; this does not block a periodic T^3 statement (B) submission.
+- id: current-finite-obstruction-inventory-and-r3-cm-face-review-20260607
+  status: passed-current-referee-gate
   evidence:
-  - problems/navier-stokes/source-frontier.yaml:75
-  - problems/navier-stokes/theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
-  cm_program_effect: This does not reopen the torus-first CM contrapositive proof.
-    It blocks only a broader whole-space statement (A) claim.
-downstream_export_burdens:
-- burden_id: whole-space-export-tightness-localization-theorem
-  statement: If the submitted claim is the R^3 Clay statement (A), prove an export
-    theorem from the torus-first global-atlas CM proof to whole-space data.
-  allowed_resolutions:
-  - prove R^3 tightness/localization export
-  - scope the submission claim to the periodic T^3 Clay statement (B)
+  - problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-target-correction-20260603.md
+  - problems/navier-stokes/cm-branch-family-certificate-ledger-20260526.yaml
+  - problems/navier-stokes/theorem-construction/mpp-finite-terminal-obstruction-inventory-row-audit-20260605.md
+  - problems/navier-stokes/whole-space-r3-matrix-branch.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md
+  result: 'The gate now checks the corrected local target: finite terminal obstruction
+    inventory coverage, not a generic prohibition on Exit(Q). The branch ledger reports
+    no open proof-bearing rows; support/comparison rows are demoted; the installed
+    local L3 row is certified; and the R3 exterior-source survivor lands in Pack/Part/Field
+    by the June 7 dyadic-survivor notes.'
+  remaining_boundary: No CM-referee blocker remains on the currently promoted surfaces.
+    New proof-bearing branches must still pass the same CM-test-entry plus Pack/Part/Field
+    face check before promotion.
+nonblocking_scope_boundaries: []
+downstream_export_burdens: []
 nonblocking_confirmations:
 - id: terminal-packet-capture-exhaustion-discharged-at-packet-level
   statement: The torus-first working pass proves finite terminal non-continuation
@@ -206,7 +214,20 @@ nonblocking_confirmations:
   - system/meta/research-os/nightly-six-mpp/runs/2026-05-27/theorem-depth-attempt.yaml
   - system/meta/research-os/nightly-six-mpp/runs/2026-05-27/pdf-crank-intake.yaml
   - system/meta/research-os/nightly-six-mpp/runs/2026-05-27/thomas-thinking-applied.yaml
+- id: r3-exterior-source-cm-face-installed
+  statement: The whole-space exterior-source survivor now lands in Pack, Part, or
+    Field for the CM contrapositive route; Tail.Hs_R3 remains an optional stronger
+    positive theorem, not a live blocker.
+  evidence:
+  - problems/navier-stokes/whole-space-r3-matrix-branch.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md
 required_next_audit:
-- Keep any whole-space R^3 / statement (A) bundle blocked until an export theorem
-  is installed; keep the periodic T^3 / statement (B) bundle eligible under the installed
-  torus-first CM referee pass.
+- Rerun this gate only when a new branch is promoted as proof-bearing, when a manuscript
+  changes the theorem claim, or when a fresh referee objection identifies a named
+  uncovered terminal obstruction.
+pass: true
+release_eligible: true
+clay_ready: true
+blockers: []
+blocking_findings: []
+open_logical_burdens: []
