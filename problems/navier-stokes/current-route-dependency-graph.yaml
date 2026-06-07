@@ -461,6 +461,7 @@ nodes:
       - Tail.Hs_R3
       - TailFace_R3^Hs
       - R3.ExteriorNonlinearSourceHsLedger.A
+      - R3.ExteriorSourceDyadicEscapeToCMFace.A
       - TTU.A_R3
       - Tower.Cont_R3
       - ExtCascade_s_R3
@@ -470,13 +471,16 @@ nodes:
       - theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md
       - theorem-construction/mpp-r3-tailface-hs-endpoint-theorem-attempt.md
       - theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md
+      - theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md
       - theorem-construction/r3-cm-contrapositive-sobolev-hs-energy-20260528.md
     role: >-
       Whole-space R^3 export matrix. The live R^3 burden has been sharpened:
       rapid-decay initial ancestry and compact-core far-kernel source do not
       carry the exterior H^s tail, so the next theorem is
       R3.ExteriorNonlinearSourceHsLedger.A for the genuinely exterior nonlinear
-      Duhamel source. This branch is upstream-separated from the periodic T^3 endpoint.
+      Duhamel source, or the survivor must be landed as dyadic scale escape in
+      Pack/Field by R3.ExteriorSourceDyadicEscapeToCMFace.A. This branch is
+      upstream-separated from the periodic T^3 endpoint.
   fixed_nu_euler_transfer:
     status: conditional-support
     theorem_ids:
