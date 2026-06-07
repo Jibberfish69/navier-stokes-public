@@ -4,7 +4,8 @@ ns_viewer:
   status: conditional-reduction-open
   proof_role: proof_attempt
   target_blocker: averaged-jumpavg-branch-native-discharge
-  logical_landing_node: clay-cm-contrapositive-witness-consumption
+  logical_landing_node: cm_field_face_attempts
+  edge_effect: "Reduces the averaged Jump_avg branch to the Field-face admission theorem, without importing pointwise readout upstream."
   cm_face_landing: Field
   upstream_origin:
     - problems/navier-stokes/d8-completion-route-map.yaml
