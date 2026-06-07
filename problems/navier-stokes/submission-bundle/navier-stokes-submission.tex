@@ -67,13 +67,15 @@ The first place where the terminal object fails gives the class-exit classificat
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
-The present manuscript proves that classification.
-It does not yet prove the final Clay counterexample-exclusion bridge saying that a classified terminal class exit cannot be the actual finite breakdown counterexample for the original smooth-data solution.
+The present manuscript makes that classification program explicit and records the current earned proof frontier.
+The latest proof frontier is not theorem closure.
+The remaining work is to take the current CM obstruction, test whether it is a legitimate terminal object for the CM program, and then either land its first real failure in Pack, Part, or Field, or reject it as outside the CM test.
+It also does not yet prove the final Clay counterexample-exclusion bridge saying that an earned terminal class exit cannot be the actual finite breakdown counterexample for the original smooth-data solution.
 
 The rest of the paper makes this test precise for the periodic problem.
 It builds the transported whole-torus material atlas, captures each alleged terminal branch on that atlas, and reads the branch through Pack, Part, and Field in that order.
 Familiar critical, local, and endpoint scenarios enter the proof by attaching to the selected terminal object and facing the same three checks.
-The live closing burden is therefore precise: convert classified Pack/Part/Field exit into exclusion of the alleged Clay finite-breakdown counterexample, without assuming the desired continuation.
+The live closing burden is therefore precise: finish the legitimacy-first Pack/Part/Field face landing, and then convert the earned class exit into exclusion of the alleged Clay finite-breakdown counterexample, without assuming the desired continuation.
 \end{abstract}
 
 \setcounter{tocdepth}{1}
@@ -827,8 +829,8 @@ By terminal packet capture, it loses Pack, or loses Part after Pack survives, or
 By finite failure witness class exit, that first failed requirement gives \(\Exit(Q;\Owork)\).
 \end{proof}
 
-\begin{theorem}[CM terminal witness classification]
-Every CM-test-admissible finite terminal Clay witness from the same smooth initial datum is classified by the CM terminal witness chain:
+\begin{theorem}[CM terminal witness classification target]
+Every CM-test-admissible finite terminal Clay witness from the same smooth initial datum must be classified by the CM terminal witness chain:
 \[
 \begin{aligned}
 &\text{finite breakdown witness}\\
@@ -839,33 +841,33 @@ Every CM-test-admissible finite terminal Clay witness from the same smooth initi
 &\Longrightarrow \Exit(Q;\Owork).
 \end{aligned}
 \]
-This is a classification theorem for the alleged terminal object.
+This is the classification target for the alleged terminal object.
 \end{theorem}
 
 \begin{proof}
+This is the proof target, not a closure claim.
 Assume that the maximal smooth solution from \(u_0\) is alleged to stop at a finite time \(T_*\), and let the alleged terminal object be the object offered by that breakdown claim.
-The alleged finite terminal object is CM-test-admissible by finite-breakdown entry.
-Terminal packet capture and finite-failure type exhaustion force the terminal object into Pack, Part, or Field face failure.
-The CM embedding reads that face failure as \(\Exit(Q;\Owork)\).
-This proves the CM classification of the terminal object.
-It does not by itself prove that a classified terminal class exit is inadmissible as a Clay breakdown counterexample.
+The first open proof task is legitimacy: the object must either be a legitimate CM-test terminal object, or it must be rejected as a scope error for the CM program.
+Once legitimacy is established, the next proof task is finite-failure type exhaustion: the same object must lose Pack, or lose Part after Pack survives, or lose every positive Field scale after Pack and Part survive.
+Only after that face is proved can the CM embedding read the face failure as \(\Exit(Q;\Owork)\).
+The current manuscript therefore records the exact target and the exact missing proof step; it does not claim the terminal consumption theorem as closed.
 \end{proof}
 
-\section{The Clay-Facing CM Completion}
+\section{Earned CM Frontier And Clay-Facing Completion Target}
 
-The class law has now been proved in its classification form.
-The Clay-facing completion records the exact terminal witness consumption chain:
+The class law is organized around the following terminal witness consumption chain:
 \[
 \begin{aligned}
 &\text{finite Clay breakdown witness}\\
-&\Longrightarrow \text{CM-test entry}\\
-&\Longrightarrow \text{Pack/Part/Field finite failure type}\\
+&\Longrightarrow \text{legitimate CM terminal object or scope rejection}\\
+&\Longrightarrow \text{first Pack/Part/Field finite failure type}\\
 &\Longrightarrow \Exit(Q;\Owork).
 \end{aligned}
 \]
-This is the same branch law used throughout the CM classification.
+This is the same branch law used throughout the CM program.
 The pass side supplies a lawful \(\Member(Q;\Owork)\) branch and reads out to smooth continuation when the pass branch is the same original solution branch.
-The fail side enters the CM terminal test and loses one required feature.
+The fail side must first enter the CM terminal test and then lose one required feature.
+That last sentence is the present frontier: the proof lane has not yet landed the current obstruction in Pack, Part, or Field, and has not yet closed it by legitimacy rejection.
 
 \begin{definition}[Terminal witness consumption]
 A finite Clay terminal witness is consumed by the CM proof when it is first admitted to the same-fluid terminal packet tree, then exhausted as one of
@@ -880,52 +882,41 @@ and the derived face failure is embedded as
 \]
 \end{definition}
 
-\begin{proposition}[Direct Clay bridge on the torus atlas]
-On the periodic surface, the Clay-closing bridge is exactly the exclusion of a first Pack, Part, or Field failure on the whole transported terminal atlas \(Q_{\mathrm{atlas}}\).
-In formula form, the required bridge is
+\begin{proposition}[Current earned frontier on the torus atlas]
+On the periodic surface, the current earned frontier is the legitimacy-first face decision for the whole transported terminal atlas \(Q_{\mathrm{atlas}}\).
+The proof must establish exactly one of the following outcomes:
 \[
 \begin{aligned}
-\text{OriginalSmoothData}_{\mathbb T^3}
-\Longrightarrow
-\neg\Bigl(&
-  \neg\Pack_{Q_{\mathrm{atlas}}}\\
-&\vee
-  \bigl(\Pack_{Q_{\mathrm{atlas}}}\wedge\neg\Part_{N_s,Q_{\mathrm{atlas}}}\bigr)\\
-&\vee
-  \bigl(\Pack_{Q_{\mathrm{atlas}}}\wedge\Part_{N_s,Q_{\mathrm{atlas}}}
-    \wedge\forall r>0\,\neg\Field_{N_s,r,Q_{\mathrm{atlas}}}\bigr)
-\Bigr).
+\text{scope rejection of the proposed obstruction for the CM test,}\\
+\text{or}\qquad
+\neg\Pack_{Q_{\mathrm{atlas}}},\\
+\text{or}\qquad
+\Pack_{Q_{\mathrm{atlas}}}\wedge\neg\Part_{N_s,Q_{\mathrm{atlas}}},\\
+\text{or}\qquad
+\Pack_{Q_{\mathrm{atlas}}}\wedge\Part_{N_s,Q_{\mathrm{atlas}}}
+    \wedge\forall r>0\,\neg\Field_{N_s,r,Q_{\mathrm{atlas}}}.
 \end{aligned}
 \]
 \end{proposition}
 
 \begin{proof}
-Assume \(T_*<\infty\).
 The torus material-atlas theorem supplies the correct terminal object: \(Q_{\mathrm{atlas}}\) is the whole transported finite atlas, not a selected diagnostic packet.
 It also fixes the readout-compatible Pack predicate, so failure of atlas selection is \(\neg\Pack_{Q_{\mathrm{atlas}}}\), not a fourth terminal requirement.
-
-The endpoint has two possibilities.
-If \(\Pack_{Q_{\mathrm{atlas}}}\), \(\Part_{N_s,Q_{\mathrm{atlas}}}\), and \(\Field_{N_s,r,Q_{\mathrm{atlas}}}\) survive for some \(r>0\), the readout-complete atlas gives
-\[
-  \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty,
-  \qquad s>5/2.
-\]
-The periodic \(H^s\) continuation theorem extends the same solution past \(T_*\), contradiction.
-
-If the endpoint is genuinely finite, the torus-atlas theorem forces one of the three displayed face failures.
-The original-data face-exclusion theorem eliminates that alternative.
-Therefore the readout-complete packet survives, and the same \(H^s\) continuation contradiction follows.
+The remaining proof work is to decide whether the proposed obstruction is legitimate for that test.
+After legitimacy, the first failed requirement must be Pack, Part, or Field because those are the three requirements defining membership in the working class object.
+This proves the form of the frontier.
+It does not prove that one of the displayed alternatives has been discharged.
 \end{proof}
 
-The bridge above is the exact place where the proof must do work.
-It is stronger than saying that a failed branch is classified as \(\Exit(Q;\Owork)\).
-Classification gives the CM landing of the bad branch.
-Clay closure requires the original-data theorem that the whole-torus terminal atlas cannot realize that first face failure.
+The proposition above is the exact place where the proof must do work.
+It is stronger than naming a failure family and weaker than Clay closure.
+It asks for the first legitimate same-atlas face mechanism.
+After that mechanism is proved, Clay closure still requires the original-data theorem that the earned class exit cannot be a valid finite-breakdown counterexample for the same smooth-data solution.
 In the current route this is the branch-native no-escape atom for the remaining Field/\(Jump_{\mathrm{avg}}\) failure, or an equivalent theorem proving no Pack/Part/Field first face on \(Q_{\mathrm{atlas}}\).
 
 \begin{theorem}[Conditional completion criterion]
-Assume the installed CM witness chain: finite Clay terminal witnesses are CM-test-admissible, terminal failure types are exhausted by Pack, Part, and Field, and face failures embed as \(\Exit(Q;\Owork)\).
-Assume in addition the original-data face-exclusion bridge on \(Q_{\mathrm{atlas}}\) stated above.
+Assume the missing terminal-consumption theorem has been proved: every legitimate finite Clay terminal witness on \(Q_{\mathrm{atlas}}\) has a first Pack, Part, or Field face decision, and every derived face failure embeds as \(\Exit(Q;\Owork)\).
+Assume in addition the original-data counterexample-exclusion bridge: an earned \(\Exit(Q;\Owork)\) on the same atlas is not a valid finite-breakdown counterexample for the original smooth-data solution.
 Then the smooth periodic Navier--Stokes solution generated by smooth divergence-free zero-mean data has no finite terminal breakdown.
 \end{theorem}
 
@@ -933,7 +924,7 @@ Then the smooth periodic Navier--Stokes solution generated by smooth divergence-
 Assume \(T_*<\infty\).
 The whole-torus terminal atlas is readout-complete.
 The finite endpoint either retains Pack, Part, and Field, or it has a first Pack, Part, or Field face failure.
-The face-exclusion bridge removes the second alternative.
+The terminal-consumption theorem and counterexample-exclusion bridge remove the second alternative.
 The retained alternative gives the \(H^s\), \(s>5/2\), continuation norm for the same original solution.
 Periodic local well-posedness extends that solution past \(T_*\), contradicting maximality.
 \end{proof}
