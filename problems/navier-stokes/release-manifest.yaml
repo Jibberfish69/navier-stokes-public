@@ -3,7 +3,7 @@ version: 3
 identity:
   problem_id: navier-stokes
   artifact_id: release-manifest-navier-stokes
-  generated_at: '2026-06-07T18:03:57Z'
+  generated_at: '2026-06-07T18:08:57Z'
   generator: system/runner/lib/release_surface_reconciler.rb
 status: blocked
 pass: false
@@ -11,8 +11,8 @@ release_eligible: false
 bundle_status: cm-contrapositive-referee-blocked
 terminal_safe: false
 required_before_terminal_release: []
-source_fingerprint: f04ba11f13272508a3003ab97162214f22149d1d
-bundle_sha1: b16ec5ccaf0e6715c71af08729d60096e17f6786
+source_fingerprint: ecea35a86f22969b7e3a1d7f155c99e157da5329
+bundle_sha1: 01f911cb348811b27d42f2625f1835b9caf3353f
 summary:
   artifact_count: 15
   missing_artifact_count: 0
@@ -77,7 +77,7 @@ source_summary:
     pass: false
     release_eligible: false
     blockers: []
-  source_fingerprint: f04ba11f13272508a3003ab97162214f22149d1d
+  source_fingerprint: ecea35a86f22969b7e3a1d7f155c99e157da5329
 artifacts:
 - path: problems/navier-stokes/theorem-packet.yaml
   present: true
@@ -96,59 +96,59 @@ artifacts:
   modified_at: '2026-06-06T17:32:04Z'
 - path: problems/navier-stokes/submission-verdict.yaml
   present: true
-  sha1: e0b4650245c53b7d3f8b51dc3ca5ff1c5a55d5b1
-  bytes: 103516
-  modified_at: '2026-06-07T18:04:13Z'
+  sha1: 7fe7fe3b576d421b31135aca052091eef8287909
+  bytes: 103297
+  modified_at: '2026-06-07T18:09:11Z'
 - path: problems/navier-stokes/release-decision.yaml
   present: true
-  sha1: c9b8e13f61c299716b2bc11a2b66a4f51e5dbb8d
-  bytes: 3316
-  modified_at: '2026-06-07T18:04:13Z'
+  sha1: a243b6bbb454e6ea2f461170b4717f973491669e
+  bytes: 3107
+  modified_at: '2026-06-07T18:09:11Z'
 - path: problems/navier-stokes/dependency-audit.yaml
   present: true
-  sha1: 173b329a1a06932a30a0587e3de597d0d382bd30
+  sha1: 400bfdb720b60fb42737a377ce080074895f6484
   bytes: 1577
-  modified_at: '2026-06-07T18:04:29Z'
+  modified_at: '2026-06-07T18:09:25Z'
 - path: problems/navier-stokes/assumption-audit.yaml
   present: true
-  sha1: 9770eefb2cd11dd474cf875c0fa5442aaa074a23
+  sha1: c45ef60081d9122ba108049c995cf80b7bf3edfa
   bytes: 1577
-  modified_at: '2026-06-07T18:04:29Z'
+  modified_at: '2026-06-07T18:09:25Z'
 - path: problems/navier-stokes/circularity-audit.yaml
   present: true
-  sha1: f7b6a01df128899ecdebdefdc81a80207baf17d6
+  sha1: ca1649ad78cf6a9dc7797d853619efc2b42bc11f
   bytes: 1579
-  modified_at: '2026-06-07T18:04:29Z'
+  modified_at: '2026-06-07T18:09:25Z'
 - path: problems/navier-stokes/gap-audit.yaml
   present: true
-  sha1: 7f22e6055d7055a8aae2c067fe34c89bcc43c0bb
+  sha1: df0404d4ab02d18f099464faffcea105f737d62c
   bytes: 1574
-  modified_at: '2026-06-07T18:04:29Z'
+  modified_at: '2026-06-07T18:09:25Z'
 - path: problems/navier-stokes/gap-ticket.yaml
   present: true
-  sha1: 4007545d3bf4de08227af6039669c085ef09cb8c
+  sha1: 962ce2921c0721c348fbd855c467c95df220a5f0
   bytes: 1612
-  modified_at: '2026-06-07T18:04:29Z'
+  modified_at: '2026-06-07T18:09:25Z'
 - path: problems/navier-stokes/consistency-audit.yaml
   present: true
-  sha1: 0271b94dd515d8c81634dd0d1b39faa1afde62dd
+  sha1: ba4da90f2dae96700bf8d3fd498efb35fe43ed27
   bytes: 1579
-  modified_at: '2026-06-07T18:04:29Z'
+  modified_at: '2026-06-07T18:09:25Z'
 - path: problems/navier-stokes/dependency-graph.yaml
   present: true
-  sha1: e3a17d28110357c9708a0ab5e3d2aa01640bf15b
+  sha1: 2e92af4a983b39c46f63bc7c12c109c365172c65
   bytes: 1207
-  modified_at: '2026-06-07T18:04:29Z'
+  modified_at: '2026-06-07T18:09:25Z'
 - path: problems/navier-stokes/failure-mode-checks.yaml
   present: true
-  sha1: c8112def733e858d15e61de1817e05ca27eed533
+  sha1: 3e66d5e394efd6542ce6197c5a0a07f209187475
   bytes: 1640
-  modified_at: '2026-06-07T18:04:29Z'
+  modified_at: '2026-06-07T18:09:25Z'
 - path: problems/navier-stokes/auto-audit.yaml
   present: true
-  sha1: 21d161e6b024719bba9806048fcbd2107cd3dff5
+  sha1: 7e135db9be0dec217bfef00fdbbe93a12ba415ff
   bytes: 18510
-  modified_at: '2026-06-07T18:04:28Z'
+  modified_at: '2026-06-07T18:09:25Z'
 - path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   present: true
   sha1: 5ac3a9efbd9ba6119fdb64d58caeb33cf1b449d8
