@@ -1,0 +1,23 @@
+---
+version: 1
+artifact_id: ns-completion-executor-submission-boundary-2026-06-07
+status: blocked
+date: '2026-06-07'
+iteration_index: 2
+consumed_work_node_ids:
+- ns-submission-readiness
+input_refs:
+- problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260607.md
+- problems/navier-stokes/ns-completion-executor-route-sync-20260607.yaml
+- problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607.md
+- problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607.yaml
+submission_ready: false
+boundary_reason: 'executor reentry reached an exact blocked state: proof closure and
+  reader-facing manuscript proof are still open'
+may_advance_when:
+- the proof lane lands the CM obstruction in Pack, Part, or Field or closes it by
+  legitimate scope rejection
+- the manuscript lane converts earned proof movement into human-facing proof prose
+- the route graph, app, and MCP readout agree with the proof and manuscript state
+state_delta: changed submission boundary by tying readiness to executor proof/manuscript
+  evidence
