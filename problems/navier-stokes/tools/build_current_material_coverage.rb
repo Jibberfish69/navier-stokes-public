@@ -251,6 +251,7 @@ FAMILIES = [
     "paper_representation" => "D8 route maps and executor sync payloads are represented as app/graph/PDF coordination material. They describe how the completion engine routes repo, node-graph, app, MCP, proof, and manuscript surfaces into work lanes; they are not theorem proof text and cannot replace branch-native proof closure.",
     "files" => %w[
       d8-completion-route-map.yaml
+      ns-logical-tree-bridge-reconciliation-20260607.yaml
       ns-completion-executor-route-sync-20260607-iteration-2.yaml
       ns-completion-executor-route-sync-20260607.yaml
       ns-completion-route-sync-payload-20260607-iteration-2.yaml
