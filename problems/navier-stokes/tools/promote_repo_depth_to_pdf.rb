@@ -64,6 +64,23 @@ def file_sha256(path)
   Digest::SHA256.file(path.to_s).hexdigest
 end
 
+def file_sha1(path)
+  return nil unless path.file?
+
+  Digest::SHA1.file(path.to_s).hexdigest
+end
+
+def pdf_track_payload(path, role, extra = {})
+  {
+    "path" => relative(path),
+    "role" => role,
+    "present" => path.file?,
+    "bytes" => path.file? ? path.size : 0,
+    "sha1" => file_sha1(path),
+    "required_for_clay_submission" => true
+  }.merge(extra)
+end
+
 def word_count(text)
   text.scan(/[A-Za-z0-9]+(?:[-'][A-Za-z0-9]+)*/).length
 end
@@ -142,6 +159,36 @@ def export_codex_paper_pdf
     "stdout_tail" => tail(stdout_chunks.join("\n")),
     "stderr_tail" => tail(stderr_chunks.join("\n"))
   }
+end
+
+def sync_submission_export_status!
+  current = load_yaml(EXPORT_STATUS)
+  tracks = {
+    "human_app_aligned" => pdf_track_payload(
+      HUMAN_SUBMISSION_PDF,
+      "preferred problems/** app-aligned human submission track"
+    ),
+    "codex_machine_paper" => pdf_track_payload(
+      CODEX_PAPER_PDF,
+      "papers/** Codex-owned machine paper track",
+      "manuscript_source" => relative(CODEX_MAIN_TEX)
+    )
+  }
+  write_yaml(
+    EXPORT_STATUS,
+    current.merge(
+      "generated_at" => Time.now.utc.iso8601,
+      "status" => current["status"] || "exported",
+      "render_quality" => "typeset",
+      "manuscript_source" => relative(MAIN_TEX),
+      "codex_machine_manuscript_source" => relative(CODEX_MAIN_TEX),
+      "preferred_pdf" => relative(HUMAN_SUBMISSION_PDF),
+      "pdf" => relative(CODEX_PAPER_PDF),
+      "pdf_tracks" => tracks,
+      "submission_ready" => false,
+      "readiness_blocker" => "Both PDF tracks are rendered, but theorem closure and review freshness remain open."
+    )
+  )
 end
 
 def current_material_gate
@@ -297,6 +344,7 @@ begin
     run_command!(commands, "surface derivation appendix rebuild", RbConfig.ruby, "problems/navier-stokes/tools/build_surface_derivation_appendix.rb")
     run_command!(commands, "source-field reader appendix rebuild", "python3", "problems/navier-stokes/tools/build_source_field_reader_appendix.py")
     export_result = export_codex_paper_pdf
+    sync_submission_export_status!
   end
 
   run_command!(commands, "PDF argument hygiene", RbConfig.ruby, "problems/navier-stokes/tools/check_pdf_argument_hygiene.rb")
