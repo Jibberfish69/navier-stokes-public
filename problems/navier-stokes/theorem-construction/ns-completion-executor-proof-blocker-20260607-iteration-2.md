@@ -20,5 +20,4 @@ Next executable proof tasks:
 - name the first open CM face from source-frontier.yaml and live-theorem-edge.yaml
 - run theorem-legitimacy and pass-side nonvacuity before estimates
 - write a proof or failed-attempt note with the exact face mechanism
-- retained-center-ball-native-forcing: Prove or consume the retained smooth center-ball certificate that licenses NKF.Native.
-- averaged-jumpavg-branch-native-discharge: The no-Jump_avg branch now has the scheduled terminal averaged cover via TGC.A.cover / TGC.A scheduler notes. The remaining averaged blocker is branch-native Jump_avg discharge: prove Jump_avg forces a nonzero terminal h/F survivor measure with separated positive scale-window mass, or consume Jump_avg through CFI.A_avg + AVG.END.Cert without importing READ.COVER, DTC.Read, Field.Read, READ.END, or pointwise terminal readout upstream.
+- pdf-reader-proof-integration
