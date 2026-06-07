@@ -1,3 +1,17 @@
+---
+ns_viewer:
+  theorem_id: ns-completion-executor-proof-frontier-20260607
+  status: work-order
+  proof_role: route_reentry
+  logical_landing_node: cm_terminal_entry_atlas_attempts
+  edge_effect: "Executor-created proof work order keeps the next theorem step inside the CM terminal-entry and Pack/Part/Field face discipline."
+  upstream_origin:
+    - problems/navier-stokes/source-frontier.yaml
+    - problems/navier-stokes/live-theorem-edge.yaml
+    - problems/navier-stokes/d8-completion-route-map.yaml
+  downstream_consequence: "A rerun must either find no open source-frontier obligation or name the exact CM face mechanism before writing proof prose."
+---
+
 # NS completion executor proof lane 2026-06-07
 
 This lane consumed ns-cm-proof-frontier from ns-completion-engine.yaml.
