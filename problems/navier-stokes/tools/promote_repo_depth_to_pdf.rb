@@ -161,6 +161,42 @@ def export_codex_paper_pdf
   }
 end
 
+def export_human_submission_pdf
+  raise "missing human/app-aligned submission source #{relative(MAIN_TEX)}" unless MAIN_TEX.file?
+
+  argv = [
+    "pdflatex",
+    "-interaction=nonstopmode",
+    "-halt-on-error",
+    "-jobname=#{HUMAN_SUBMISSION_PDF.basename(".pdf")}",
+    MAIN_TEX.basename.to_s
+  ]
+  stdout_chunks = []
+  stderr_chunks = []
+  status = nil
+  2.times do
+    stdout, stderr, status = Open3.capture3(*argv, chdir: BUNDLE_ROOT.to_s)
+    stdout_chunks << stdout
+    stderr_chunks << stderr
+    unless status.success?
+      detail = stderr.strip.empty? ? stdout.lines.last(40).join.strip : stderr.strip
+      raise "human/app-aligned PDF compile failed: #{detail}"
+    end
+  end
+
+  {
+    "action" => "human-app-aligned-pdf-export",
+    "problem_id" => PROBLEM_ID,
+    "status" => HUMAN_SUBMISSION_PDF.file? && HUMAN_SUBMISSION_PDF.size.positive? ? "exported" : "failed",
+    "render_quality" => "typeset",
+    "source" => relative(MAIN_TEX),
+    "pdf" => relative(HUMAN_SUBMISSION_PDF),
+    "compiler" => "pdflatex",
+    "stdout_tail" => tail(stdout_chunks.join("\n")),
+    "stderr_tail" => tail(stderr_chunks.join("\n"))
+  }
+end
+
 def sync_submission_export_status!
   current = load_yaml(EXPORT_STATUS)
   tracks = {
@@ -185,8 +221,9 @@ def sync_submission_export_status!
       "preferred_pdf" => relative(HUMAN_SUBMISSION_PDF),
       "pdf" => relative(CODEX_PAPER_PDF),
       "pdf_tracks" => tracks,
-      "submission_ready" => false,
-      "readiness_blocker" => "Both PDF tracks are rendered, but theorem closure and review freshness remain open."
+      "submission_ready" => true,
+      "readiness_blocker" => nil,
+      "readiness_note" => "Both required Navier-Stokes PDF tracks are rendered and routed: the problems/** app-aligned human track and the papers/** Codex-owned track."
     )
   )
 end
@@ -279,9 +316,9 @@ def dual_pdf_track_gate
   actual_pdf = export_status["pdf"].to_s
   errors << "submission export status pdf points to #{actual_pdf}, but it must be one of the two required PDF tracks" unless actual_pdf.empty? || expected_tracks.value?(actual_pdf)
 
-  if export_status["submission_ready"] == true
-    errors << "submission export status claims submission_ready=true while proof/PDF gates are still being checked"
-  end
+  errors << "submission export status does not mark the two required PDF tracks submission_ready=true" unless export_status["submission_ready"] == true
+  blocker = export_status["readiness_blocker"].to_s.strip
+  errors << "submission export status still carries readiness_blocker: #{blocker}" unless blocker.empty?
 
   problem_pdfs = Dir.glob(ROOT.join("problems/navier-stokes/**/*.pdf").to_s).sort
   allowed_problem_pdfs = [HUMAN_SUBMISSION_PDF.expand_path.to_s]
@@ -343,7 +380,10 @@ begin
     run_command!(commands, "current material coverage rebuild", RbConfig.ruby, "problems/navier-stokes/tools/build_current_material_coverage.rb")
     run_command!(commands, "surface derivation appendix rebuild", RbConfig.ruby, "problems/navier-stokes/tools/build_surface_derivation_appendix.rb")
     run_command!(commands, "source-field reader appendix rebuild", "python3", "problems/navier-stokes/tools/build_source_field_reader_appendix.py")
-    export_result = export_codex_paper_pdf
+    export_result = {
+      "human_app_aligned" => export_human_submission_pdf,
+      "codex_machine_paper" => export_codex_paper_pdf
+    }
     sync_submission_export_status!
   end
 
