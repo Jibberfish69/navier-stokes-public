@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-07T18:12:31Z'
+  evaluated_at: '2026-06-07T18:15:25Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: blocked
@@ -47,11 +47,8 @@ blockers:
 - Typeset audit changed after the current review verdict was written.
 - 'Target fidelity failure: direct theorem authority still has open theorem-packet
   blockers, so terminal release is not safe.'
-- 'Navier-Stokes PDF contract blocks export: current material coverage failed: current-material
-  coverage mismatch unclassified current checkable files: theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md'
-- 'Navier-Stokes PDF contract blocks export: reader-facing PDF argument hygiene failed:
-  problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:69091:
-  forbidden not-but prose: not only to define Pack(Q), but'
+- 'Navier-Stokes PDF contract blocks export: surface-derivation inventory failed:
+  surface-derivation inventory is stale; rerun /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/tools/build_surface_derivation_appendix.rb'
 summary:
   queue_effect: blocked
   registry_note: problem is blocked at release gate
