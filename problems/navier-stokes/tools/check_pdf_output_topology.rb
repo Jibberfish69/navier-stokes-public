@@ -148,6 +148,19 @@ expected_tracks.each do |track_id, expected_path|
   end
 end
 
+evidence_tracks = export_status.dig("readiness_evidence", "pdf_tracks").is_a?(Hash) ? export_status.dig("readiness_evidence", "pdf_tracks") : {}
+expected_tracks.each do |track_id, expected_path|
+  track = tracks[track_id] || {}
+  evidence_track = evidence_tracks[track_id] || {}
+  unless evidence_track["path"] == expected_path
+    errors << "submission readiness evidence #{track_id} track points to #{evidence_track["path"].to_s.empty? ? '(none)' : evidence_track["path"]}, expected #{expected_path}"
+  end
+  if evidence_track["sha1"].to_s.empty? || evidence_track["sha1"] != track["sha1"]
+    errors << "submission readiness evidence #{track_id} sha1 is stale or missing"
+  end
+  errors << "submission readiness evidence #{track_id} byte count is stale" unless evidence_track["bytes"] == track["bytes"]
+end
+
 preferred_pdf = export_status["preferred_pdf"].to_s
 unless preferred_pdf == relative(HUMAN_SUBMISSION_PDF)
   errors << "submission export status preferred_pdf points to #{preferred_pdf.empty? ? '(none)' : preferred_pdf}, expected #{relative(HUMAN_SUBMISSION_PDF)}"
