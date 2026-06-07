@@ -2,6 +2,7 @@
 # frozen_string_literal: true
 
 require "digest"
+require "fileutils"
 require "open3"
 require "pathname"
 require "rbconfig"
@@ -20,7 +21,9 @@ SURFACE_APPENDIX = BUNDLE_ROOT.join("surface-derivation-appendix.tex")
 SURFACE_INVENTORY = BUNDLE_ROOT.join("surface-derivation-inventory.yaml")
 SOURCE_FIELD_APPENDIX = BUNDLE_ROOT.join("source-field-reader-appendix.tex")
 EXPORT_STATUS = BUNDLE_ROOT.join("submission-export-status.yaml")
-AUTHORITATIVE_PDF = ROOT.join("papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf")
+CODEX_MAIN_TEX = ROOT.join("papers/navier-stokes/manuscript/generated/main.tex")
+CODEX_PAPER_PDF = ROOT.join("papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf")
+CODEX_PAPER_TEX = ROOT.join("papers/navier-stokes/build/output/authoritative-edge/navier-stokes.tex")
 HUMAN_SUBMISSION_PDF = BUNDLE_ROOT.join("navier-stokes-human-submission.pdf")
 
 MIN_SOURCE_FIELD_WORDS = 300_000
@@ -103,14 +106,42 @@ def pdf_text(path)
   stdout
 end
 
-def export_authoritative_pdf
-  require_relative "../../../system/runner/lib/paper_factory_workspace"
-  require_relative "../../../system/runner/lib/submission_bundle_exporter"
+def export_codex_paper_pdf
+  raise "missing Codex paper source #{relative(CODEX_MAIN_TEX)}" unless CODEX_MAIN_TEX.file?
 
-  workspace = PaperFactoryRuntime::Workspace.new(ROOT)
-  problem = workspace.problem(PROBLEM_ID)
-  state = YAML.safe_load(YAML.dump(workspace.state_for(problem)), permitted_classes: [Time], aliases: true)
-  PaperFactoryRuntime::SubmissionBundleExporter.new(workspace, problem, state).export(now: Time.now.utc)
+  FileUtils.mkdir_p(CODEX_PAPER_PDF.dirname)
+  output_dir = CODEX_PAPER_PDF.dirname.relative_path_from(CODEX_MAIN_TEX.dirname).to_s
+  argv = [
+    "pdflatex",
+    "-interaction=nonstopmode",
+    "-halt-on-error",
+    "-jobname=navier-stokes",
+    "-output-directory=#{output_dir}",
+    CODEX_MAIN_TEX.basename.to_s
+  ]
+  stdout_chunks = []
+  stderr_chunks = []
+  status = nil
+  2.times do
+    stdout, stderr, status = Open3.capture3(*argv, chdir: CODEX_MAIN_TEX.dirname.to_s)
+    stdout_chunks << stdout
+    stderr_chunks << stderr
+    raise "Codex paper PDF compile failed: #{stderr.strip.empty? ? stdout.lines.last(40).join.strip : stderr.strip}" unless status.success?
+  end
+
+  FileUtils.cp(CODEX_MAIN_TEX, CODEX_PAPER_TEX)
+  {
+    "action" => "codex-paper-pdf-export",
+    "problem_id" => PROBLEM_ID,
+    "status" => CODEX_PAPER_PDF.file? && CODEX_PAPER_PDF.size.positive? ? "exported" : "failed",
+    "render_quality" => "typeset",
+    "source" => relative(CODEX_MAIN_TEX),
+    "pdf" => relative(CODEX_PAPER_PDF),
+    "tex" => relative(CODEX_PAPER_TEX),
+    "compiler" => "pdflatex",
+    "stdout_tail" => tail(stdout_chunks.join("\n")),
+    "stderr_tail" => tail(stderr_chunks.join("\n"))
+  }
 end
 
 def current_material_gate
@@ -166,15 +197,15 @@ def dual_pdf_track_gate
   export_status = load_yaml(EXPORT_STATUS)
   expected_tracks = {
     "human_app_aligned" => relative(HUMAN_SUBMISSION_PDF),
-    "codex_machine_paper" => relative(AUTHORITATIVE_PDF)
+    "codex_machine_paper" => relative(CODEX_PAPER_PDF)
   }
 
-  unless AUTHORITATIVE_PDF.file? && AUTHORITATIVE_PDF.size.positive?
+  unless CODEX_PAPER_PDF.file? && CODEX_PAPER_PDF.size.positive?
     errors << "papers/Codex PDF missing"
   else
-    papers_pages = pdf_page_count(AUTHORITATIVE_PDF)
+    papers_pages = pdf_page_count(CODEX_PAPER_PDF)
     errors << "papers/Codex PDF has #{papers_pages} pages; minimum is #{MIN_AUTHORITATIVE_PAGES}" if papers_pages < MIN_AUTHORITATIVE_PAGES
-    text = pdf_text(AUTHORITATIVE_PDF)
+    text = pdf_text(CODEX_PAPER_PDF)
     REQUIRED_PDF_TEXT.each do |label, pattern|
       errors << "papers/Codex PDF missing rendered #{label}" unless text.match?(pattern)
     end
@@ -219,7 +250,7 @@ def dual_pdf_track_gate
     "pdf_tracks" => expected_tracks,
     "papers_pdf_pages" => papers_pages,
     "human_pdf_pages" => human_pages,
-    "sha256" => file_sha256(AUTHORITATIVE_PDF),
+    "sha256" => file_sha256(CODEX_PAPER_PDF),
     "errors" => errors
   }
 end
@@ -238,7 +269,8 @@ def build_result(commands, export_result, gates, started_at, status)
       "surface_derivation_inventory" => relative(SURFACE_INVENTORY),
       "main_tex" => relative(MAIN_TEX),
       "preferred_pdf" => relative(HUMAN_SUBMISSION_PDF),
-      "codex_machine_pdf" => relative(AUTHORITATIVE_PDF)
+      "codex_machine_pdf" => relative(CODEX_PAPER_PDF),
+      "codex_machine_tex" => relative(CODEX_MAIN_TEX)
     },
     "commands" => commands,
     "export_result" => export_result,
@@ -264,7 +296,7 @@ begin
     run_command!(commands, "current material coverage rebuild", RbConfig.ruby, "problems/navier-stokes/tools/build_current_material_coverage.rb")
     run_command!(commands, "surface derivation appendix rebuild", RbConfig.ruby, "problems/navier-stokes/tools/build_surface_derivation_appendix.rb")
     run_command!(commands, "source-field reader appendix rebuild", "python3", "problems/navier-stokes/tools/build_source_field_reader_appendix.py")
-    export_result = export_authoritative_pdf
+    export_result = export_codex_paper_pdf
   end
 
   run_command!(commands, "PDF argument hygiene", RbConfig.ruby, "problems/navier-stokes/tools/check_pdf_argument_hygiene.rb")
@@ -288,7 +320,7 @@ ensure
 end
 
 if status == "passed"
-  puts "PDF_DEPTH_PROMOTION OK: #{relative(HUMAN_SUBMISSION_PDF)} and #{relative(AUTHORITATIVE_PDF)}"
+  puts "PDF_DEPTH_PROMOTION OK: #{relative(HUMAN_SUBMISSION_PDF)} and #{relative(CODEX_PAPER_PDF)}"
   exit 0
 end
 
