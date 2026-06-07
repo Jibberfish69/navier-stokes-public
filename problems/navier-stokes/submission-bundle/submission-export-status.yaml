@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-07T22:26:50Z'
+generated_at: '2026-06-07T22:58:15Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -21,7 +21,7 @@ pdf_tracks:
     role: papers/** Codex-owned machine paper track
     present: true
     bytes: 3901785
-    sha1: e3433d033f582470fa99cc7302be700e7fc91b84
+    sha1: 1aeb20b5b2e25b493471d38d1bf50fe9e7c26605
     required_for_clay_submission: true
     manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
