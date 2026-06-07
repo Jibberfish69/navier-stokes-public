@@ -27,6 +27,7 @@ DIRECT_LIVE_AUTHORITY = %w[
 
 COVERAGE_SELF_SURFACES = %w[
   problems/navier-stokes/submission-bundle/current-material-coverage.yaml
+  problems/navier-stokes/submission-bundle/pdf-depth-promotion-check.yaml
   problems/navier-stokes/submission-bundle/pdf-depth-promotion-run.yaml
   problems/navier-stokes/tools/build_current_material_coverage.rb
 ].freeze
