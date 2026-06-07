@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-07T17:50:10Z'
+  evaluated_at: '2026-06-07T18:03:57Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: blocked
@@ -48,34 +48,13 @@ blockers:
 - 'Target fidelity failure: direct theorem authority still has open theorem-packet
   blockers, so terminal release is not safe.'
 - 'navier-stokes: MPP PDF contract blocks export: internal status or ledger language
-  appears in problems/navier-stokes/draft-v8.md'
-- 'navier-stokes: MPP PDF contract blocks export: internal status or ledger language
-  appears in problems/navier-stokes/draft-v7.md'
-- 'navier-stokes: MPP PDF contract blocks export: internal status or ledger language
-  appears in problems/navier-stokes/draft-v6.md'
-- 'navier-stokes: MPP PDF contract blocks export: internal status or ledger language
-  appears in problems/navier-stokes/draft.md'
-- 'navier-stokes: MPP PDF contract blocks export: surface problems/navier-stokes/paper-quality-verdict.yaml
-  declares the package is not submission-ready'
-- 'navier-stokes: MPP PDF contract blocks export: repo support-surface names leak
-  into problems/navier-stokes/submission-verdict.yaml'
-- 'navier-stokes: MPP PDF contract blocks export: surface problems/navier-stokes/submission-verdict.yaml
-  declares the package is not submission-ready'
-- 'navier-stokes: MPP PDF contract blocks export: repo support-surface names leak
-  into problems/navier-stokes/submission-bundle/submission-manifest.yaml'
-- 'navier-stokes: MPP PDF contract blocks export: internal status or ledger language
   appears in problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex'
 - 'navier-stokes: MPP PDF contract blocks export: internal status or ledger language
   appears in problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex'
 - 'navier-stokes: MPP PDF contract blocks export: surface problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   declares the package is not submission-ready'
-- 'navier-stokes: MPP PDF contract blocks export: problems/navier-stokes/draft-v8.md
-  is pamphlet-scale at 818 words; a Clay-facing proof manuscript must carry the argument
-  at reader scale'
-- 'navier-stokes: MPP PDF contract blocks export: problems/navier-stokes/draft-v8.md
-  is missing reader-facing proof structure'
-- 'navier-stokes: MPP PDF contract blocks export: problems/navier-stokes/draft-v8.md
-  does not state the original problem target for the reader'
+- 'Navier-Stokes PDF contract blocks export: current material coverage failed: current-material
+  coverage mismatch unclassified current checkable files: theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md'
 summary:
   queue_effect: blocked
   registry_note: problem is blocked at release gate
