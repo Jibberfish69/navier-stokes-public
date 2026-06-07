@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-07T17:29:01Z'
+generated_at: '2026-06-07T18:26:12Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -11,18 +11,19 @@ pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
 pdf_tracks:
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-    role: preferred problems/** app-aligned human submission track
     present: true
-    bytes: 4407886
-    sha1: c3993e94ef168c5ddc894573c9364c4ddf47babb
+    bytes: 4434920
+    sha1: 5ab07c2c299da7e80a3ed38954900d53238add1e
+    role: preferred problems/** app-aligned human submission track
     required_for_clay_submission: true
   codex_machine_paper:
     path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-    role: papers/** Codex-owned machine paper track
     present: true
-    bytes: 4428475
-    sha1: e2d55eb704e2d6a1523f0cd45476d0ed3b72f8a4
+    bytes: 4604926
+    sha1: '049b43eb9518ebff08d323042f978a97b1f450d0'
+    role: papers/** Codex-owned machine paper track
     required_for_clay_submission: true
+    manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
   source_word_count: 451782
@@ -709,3 +710,7 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   written on navier-stokes-submission.log.\n"
 stderr: "\n"
 fallback:
+codex_machine_manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
+submission_ready: false
+readiness_blocker: Both PDF tracks are rendered, but theorem closure and review freshness
+  remain open.
