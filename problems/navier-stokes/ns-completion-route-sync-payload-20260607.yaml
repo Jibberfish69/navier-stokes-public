@@ -287,15 +287,24 @@ route_nodes:
   - live-theorem-edge.yaml
 - node_id: r3_hs_tail_export_matrix
   label: r3_hs_tail_export_matrix
-  status: open-export-branch
-  role: Whole-space R^3 export matrix. The live R^3 burden is high-order exterior
-    H^s tail tightness or a noncircular theorem excluding TailFace_R3^Hs. This branch
-    is upstream-separated from the periodic T^3 endpoint.
+  status: cm-dichotomy-installed-direct-export-estimate-open
+  role: 'Whole-space R^3 export matrix. The live R^3 burden has been sharpened: rapid-decay
+    initial ancestry and compact-core far-kernel source do not carry the exterior
+    H^s tail. The direct positive export estimate R3.ExteriorNonlinearSourceHsLedger.A
+    remains open, but a surviving exterior source is no longer an unspecified branch:
+    bounded frequencies vanish by exterior L^2 tightness, high-frequency survivors
+    escape to dyadic scale, and retained Pack+Part is incompatible with any fixed
+    positive Field scale by R3.ExteriorDyadicSurvivorFieldIncompatibility.A. Thus
+    the CM-facing dichotomy lands the survivor in Pack, Part, or Field. This branch
+    is upstream-separated from the periodic T^3 endpoint.'
   source_refs: &21
   - whole-space-r3-matrix-branch.md
   - theorem-construction/r3-extcascade-s-theorem-attempt.md
   - theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md
   - theorem-construction/mpp-r3-tailface-hs-endpoint-theorem-attempt.md
+  - theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md
+  - theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md
+  - theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md
   - theorem-construction/r3-cm-contrapositive-sobolev-hs-energy-20260528.md
 - node_id: fixed_nu_euler_transfer
   label: fixed_nu_euler_transfer
@@ -457,22 +466,35 @@ integration_chain:
     as a first-class completion object.
 - step_id: app_worker_surface
   surface_class: NS app/viewer
-  current_state: patched-to-load-this-map
-  job: Viewer can inspect the D8 route map beside route graph, source frontier, live
-    edge, and proof leaves.
-  current_gap: Full UX still needs branch rows for every graph node and proof/PDF
-    scaffold state.
+  current_state: route-state-view-installed
+  job: Viewer can inspect the D8 route map, Research OS route state, branch rows,
+    proof/PDF scaffold state, sync verdicts, and open blockers beside route graph,
+    source frontier, live edge, and proof leaves.
+  current_gap: The Route State view now exposes the June 7 route payload as 32 branch
+    rows, 5 integration-chain steps, and 3 blocker cards; remaining app work is refinement
+    against new graph/proof/PDF payloads as they are produced.
 - step_id: repo_proof_authority
   surface_class: NS repo theorem closure
-  current_state: first-wave branch correction installed
+  current_state: periodic-cm-installed-r3-export-open
   job: Keep the governing proof program as Exit(Q):=not Member(Q) through Pack/Part/Field.
-  current_gap: Retained smooth center-ball certificate and averaged terminal-cover/common-scheduler
-    primitive remain the live receiver blockers.
+  current_gap: 'The periodic CM face inventory is sharpened by the retained/averaged
+    receiver split, local L3 row audit, and averaged Field-face admission. The whole-space
+    R3 branch now has its CM-facing dichotomy installed: bounded exterior frequencies
+    vanish under exterior L2 tightness, and a surviving high-frequency exterior source
+    lands in Pack, Part, or Field; the direct positive exterior-source Hs estimate
+    remains an optional stronger export theorem.
+
+'
 - step_id: manuscript_scaffold
   surface_class: NS manuscript/PDF
-  current_state: no June 6 PDF output
+  current_state: dual-pdf-promotion-passing
   job: Use app/graph/proof topology as the reader-facing proof scaffold.
-  current_gap: The PDF has not been regenerated from this D8 route map.
+  current_gap: 'Both PDF tracks now expose the periodic CM proof route and R3 exterior-source
+    boundary; the Codex papers track is generated from its own papers/** manuscript
+    source, while the preferred problems/** human/app track keeps the app-aligned
+    structure.
+
+'
 - step_id: submission_package
   surface_class: review/submission
   current_state: blocked
@@ -480,35 +502,25 @@ integration_chain:
     remains.
   current_gap: Theorem closure and PDF readiness remain open.
 open_blockers:
-- blocker_id: retained-center-ball-native-forcing
-  branch: retained
-  blocker: Prove or consume the retained smooth center-ball certificate that licenses
-    NKF.Native.
-  refs: &25
-  - problems/navier-stokes/theorem-construction/mpp-retained-window-native-forcing-theorem-program.md
-- blocker_id: averaged-jumpavg-branch-native-discharge
-  branch: averaged
-  blocker: 'The no-Jump_avg branch now has the scheduled terminal averaged cover via
-    TGC.A.cover / TGC.A scheduler notes. The remaining averaged blocker is branch-native
-    Jump_avg discharge: prove Jump_avg forces a nonzero terminal h/F survivor measure
-    with separated positive scale-window mass, or consume Jump_avg through CFI.A_avg
-    + AVG.END.Cert without importing READ.COVER, DTC.Read, Field.Read, READ.END, or
-    pointwise terminal readout upstream.
+- blocker_id: pdf-reader-proof-integration
+  branch: manuscript-and-submission
+  status: active-reader-integration
+  burden: 'Rebuild both required PDF tracks from the current theorem state and remove
+    stale reader-facing claims that still describe installed CM witness consumption,
+    Clay counterexample exclusion, or R3 dyadic-survivor Pack/Part/Field landing as
+    open. The direct positive theorem R3.ExteriorNonlinearSourceHsLedger.A remains
+    a stronger optional export estimate; the CM-facing survivor branch is now installed
+    and must be represented as Pack, Part, or Field face landing.
 
 '
-  refs: &26
-  - problems/navier-stokes/theorem-construction/mpp-averaged-receiver-no-upstream-readout-20260607.md
-  - problems/navier-stokes/theorem-construction/mpp-averaged-terminal-cover-common-scheduler-reentry-20260607.md
-  - problems/navier-stokes/theorem-construction/mpp-tgc-a-cover-positive-scale-terminal-cover-note.md
-  - problems/navier-stokes/theorem-construction/mcp-tgc-a-terminal-good-cover-scheduler-theorem.md
-  - problems/navier-stokes/theorem-construction/mcp-jump_avg-separated-positive-defect-charge-lower-bound-obstruction-jump_avg-to-separated-positive-defect-charge-lower-bound-dcd5b58afe.md
-- blocker_id: app-graph-pdf-full-integration
-  branch: integration
-  blocker: Build branch-row UX, MCP-visible route data, manuscript scaffold, and PDF
-    generation from the same route map.
-  refs: &27
-  - system/gui/navier-stokes-repo-viewer/src/nsAnalysis.ts
-  - system/gui/navier-stokes-repo-viewer/server.mjs
+  refs: &25
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  - papers/navier-stokes/manuscript/generated/main.tex
+  - problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
+  - problems/navier-stokes/theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md
 branch_rows:
 - row_id: graph:cm_convergence_atlas
   row_kind: route_node
@@ -723,10 +735,16 @@ branch_rows:
 - row_id: graph:r3_hs_tail_export_matrix
   row_kind: route_node
   label: r3_hs_tail_export_matrix
-  state: open-export-branch
-  next_burden: Whole-space R^3 export matrix. The live R^3 burden is high-order exterior
-    H^s tail tightness or a noncircular theorem excluding TailFace_R3^Hs. This branch
-    is upstream-separated from the periodic T^3 endpoint.
+  state: cm-dichotomy-installed-direct-export-estimate-open
+  next_burden: 'Whole-space R^3 export matrix. The live R^3 burden has been sharpened:
+    rapid-decay initial ancestry and compact-core far-kernel source do not carry the
+    exterior H^s tail. The direct positive export estimate R3.ExteriorNonlinearSourceHsLedger.A
+    remains open, but a surviving exterior source is no longer an unspecified branch:
+    bounded frequencies vanish by exterior L^2 tightness, high-frequency survivors
+    escape to dyadic scale, and retained Pack+Part is incompatible with any fixed
+    positive Field scale by R3.ExteriorDyadicSurvivorFieldIncompatibility.A. Thus
+    the CM-facing dichotomy lands the survivor in Pack, Part, or Field. This branch
+    is upstream-separated from the periodic T^3 endpoint.'
   evidence_refs: *21
   mcp_visibility_status: visible-in-route-state
 - row_id: graph:fixed_nu_euler_transfer
@@ -767,26 +785,38 @@ branch_rows:
 - row_id: integration:app_worker_surface
   row_kind: d8_integration_step
   label: NS app/viewer
-  state: patched-to-load-this-map
-  next_burden: Full UX still needs branch rows for every graph node and proof/PDF
-    scaffold state.
+  state: route-state-view-installed
+  next_burden: The Route State view now exposes the June 7 route payload as 32 branch
+    rows, 5 integration-chain steps, and 3 blocker cards; remaining app work is refinement
+    against new graph/proof/PDF payloads as they are produced.
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mcp_visibility_status: visible-in-route-state
 - row_id: integration:repo_proof_authority
   row_kind: d8_integration_step
   label: NS repo theorem closure
-  state: first-wave branch correction installed
-  next_burden: Retained smooth center-ball certificate and averaged terminal-cover/common-scheduler
-    primitive remain the live receiver blockers.
+  state: periodic-cm-installed-r3-export-open
+  next_burden: 'The periodic CM face inventory is sharpened by the retained/averaged
+    receiver split, local L3 row audit, and averaged Field-face admission. The whole-space
+    R3 branch now has its CM-facing dichotomy installed: bounded exterior frequencies
+    vanish under exterior L2 tightness, and a surviving high-frequency exterior source
+    lands in Pack, Part, or Field; the direct positive exterior-source Hs estimate
+    remains an optional stronger export theorem.
+
+'
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mcp_visibility_status: visible-in-route-state
 - row_id: integration:manuscript_scaffold
   row_kind: d8_integration_step
   label: NS manuscript/PDF
-  state: no June 6 PDF output
-  next_burden: The PDF has not been regenerated from this D8 route map.
+  state: dual-pdf-promotion-passing
+  next_burden: 'Both PDF tracks now expose the periodic CM proof route and R3 exterior-source
+    boundary; the Codex papers track is generated from its own papers/** manuscript
+    source, while the preferred problems/** human/app track keeps the app-aligned
+    structure.
+
+'
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mcp_visibility_status: visible-in-route-state
@@ -798,43 +828,19 @@ branch_rows:
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mcp_visibility_status: visible-in-route-state
-- row_id: blocker:retained-center-ball-native-forcing
+- row_id: blocker:pdf-reader-proof-integration
   row_kind: open_blocker
-  label: retained-center-ball-native-forcing
+  label: pdf-reader-proof-integration
   state: blocked
-  next_burden: Prove or consume the retained smooth center-ball certificate that licenses
-    NKF.Native.
+  next_burden: ''
   evidence_refs: *25
-  mcp_visibility_status: visible-in-route-state
-- row_id: blocker:averaged-jumpavg-branch-native-discharge
-  row_kind: open_blocker
-  label: averaged-jumpavg-branch-native-discharge
-  state: blocked
-  next_burden: 'The no-Jump_avg branch now has the scheduled terminal averaged cover
-    via TGC.A.cover / TGC.A scheduler notes. The remaining averaged blocker is branch-native
-    Jump_avg discharge: prove Jump_avg forces a nonzero terminal h/F survivor measure
-    with separated positive scale-window mass, or consume Jump_avg through CFI.A_avg
-    + AVG.END.Cert without importing READ.COVER, DTC.Read, Field.Read, READ.END, or
-    pointwise terminal readout upstream.
-
-'
-  evidence_refs: *26
-  mcp_visibility_status: visible-in-route-state
-- row_id: blocker:app-graph-pdf-full-integration
-  row_kind: open_blocker
-  label: app-graph-pdf-full-integration
-  state: blocked
-  next_burden: Build branch-row UX, MCP-visible route data, manuscript scaffold, and
-    PDF generation from the same route map.
-  evidence_refs: *27
   mcp_visibility_status: visible-in-route-state
 sync_verdict:
   graph_nodes_count: 24
   graph_edges_count: 31
   d8_integration_rows_count: 5
-  open_blockers_count: 3
+  open_blockers_count: 1
   mcp_route_state_updated: true
-  status: changed-not-complete
-  remaining_gap: App/viewer UX and MCP route-state now share a canonical route payload;
-    full branch-row UI and PDF generation remain open until the route payload is consumed
-    by the app/build layers.
+  status: changed-open
+  remaining_gap: 'Open D8 blockers remain visible in the route payload and MCP route-state:
+    pdf-reader-proof-integration.'
