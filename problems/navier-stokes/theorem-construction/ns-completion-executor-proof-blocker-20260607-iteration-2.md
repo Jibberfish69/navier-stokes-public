@@ -8,9 +8,11 @@ This pass re-entered changed refs from the first executor pass:
 
 Stop state: exact blocker, not theorem closure.
 
-The live CM program remains `Exit(Q):=not Member(Q)` through Pack/Part/Field. The executor has not proved the terminal witness theorem. The next proof work is therefore not another packet; it is a real theorem pass on the currently live face. The pass must name whether the obstruction lands in `Pack_Q`, `Part_{N,Q}`, or `Field_{N,r,Q}`, and it must reject scope errors such as zero-radius vortex objects before estimating them.
+ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A remains open at clay-cm-contrapositive-witness-consumption; the CM obstruction has not yet been landed in Pack/Part/Field (Pack_Q, Part_{N,Q}, Field_{N,r,Q}) or closed by legitimacy rejection.
 
 Next executable proof tasks:
-- Read `source-frontier.yaml` and `live-theorem-edge.yaml` together and identify the first still-open CM face.
-- Attempt that face with theorem legitimacy first: admissible object, pass-side nonvacuity, fail-side Pack/Part/Field landing.
-- Write either a proof note that narrows/closes the face or a failed-attempt note with the exact mathematical obstruction.
+- name the first open CM face from source-frontier.yaml and live-theorem-edge.yaml
+- run theorem-legitimacy and pass-side nonvacuity before estimates
+- write a proof or failed-attempt note with the exact face mechanism
+- retained-center-ball-native-forcing: Prove or consume the retained smooth center-ball certificate that licenses NKF.Native.
+- averaged-terminal-cover-common-scheduler: Prove uniform positive SCF-good terminal finite cover with a common AACT scheduler, or prove that failure lands as Jump_avg without using pointwise readout upstream.
