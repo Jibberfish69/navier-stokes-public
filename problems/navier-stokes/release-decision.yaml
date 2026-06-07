@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-07T18:03:57Z'
+  evaluated_at: '2026-06-07T18:08:57Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: blocked
@@ -47,12 +47,9 @@ blockers:
 - Typeset audit changed after the current review verdict was written.
 - 'Target fidelity failure: direct theorem authority still has open theorem-packet
   blockers, so terminal release is not safe.'
-- 'navier-stokes: MPP PDF contract blocks export: internal status or ledger language
-  appears in problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex'
-- 'navier-stokes: MPP PDF contract blocks export: internal status or ledger language
-  appears in problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex'
-- 'navier-stokes: MPP PDF contract blocks export: surface problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
-  declares the package is not submission-ready'
+- 'Navier-Stokes PDF contract blocks export: two-track Navier-Stokes PDF output topology
+  failed: Thomas human submission PDF has 95 pages; minimum reader-facing proof-role
+  expansion contract is 1000 unexpected problem-local PDF outputs remain: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf'
 - 'Navier-Stokes PDF contract blocks export: current material coverage failed: current-material
   coverage mismatch unclassified current checkable files: theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md'
 summary:
