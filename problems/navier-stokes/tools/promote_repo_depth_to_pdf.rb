@@ -13,6 +13,7 @@ ROOT = Pathname.new(__dir__).join("../../..").expand_path
 NS_ROOT = ROOT.join("problems/navier-stokes")
 BUNDLE_ROOT = NS_ROOT.join("submission-bundle")
 RUN_LEDGER = BUNDLE_ROOT.join("pdf-depth-promotion-run.yaml")
+CHECK_LEDGER = BUNDLE_ROOT.join("pdf-depth-promotion-check.yaml")
 PROBLEM_ID = "navier-stokes"
 
 MAIN_TEX = BUNDLE_ROOT.join("navier-stokes-submission.tex")
@@ -419,7 +420,7 @@ rescue StandardError => e
   }
 ensure
   result = build_result(commands, export_result, gates, started_at, status)
-  write_yaml(RUN_LEDGER, result)
+  write_yaml(verify_only? ? CHECK_LEDGER : RUN_LEDGER, result)
 end
 
 if status == "passed"
