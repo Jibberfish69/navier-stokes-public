@@ -3,7 +3,7 @@ version: 3
 identity:
   problem_id: navier-stokes
   artifact_id: release-manifest-navier-stokes
-  generated_at: '2026-06-07T18:19:26Z'
+  generated_at: '2026-06-07T18:26:26Z'
   generator: system/runner/lib/release_surface_reconciler.rb
 status: blocked
 pass: false
@@ -11,8 +11,8 @@ release_eligible: false
 bundle_status: cm-contrapositive-referee-blocked
 terminal_safe: false
 required_before_terminal_release: []
-source_fingerprint: 012afa963463aeccffe65c1e35b2e83c12587944
-bundle_sha1: 374712d1cb8da63022d120ceb2f8a51b960a36fd
+source_fingerprint: 10b03487d8e4013569cd8fddb444fcdbefb5fb77
+bundle_sha1: 99e2acd0b7fb7185df98473c43e8fc82ff340cd0
 summary:
   artifact_count: 15
   missing_artifact_count: 0
@@ -77,7 +77,7 @@ source_summary:
     pass: false
     release_eligible: false
     blockers: []
-  source_fingerprint: 012afa963463aeccffe65c1e35b2e83c12587944
+  source_fingerprint: 10b03487d8e4013569cd8fddb444fcdbefb5fb77
 artifacts:
 - path: problems/navier-stokes/theorem-packet.yaml
   present: true
@@ -96,59 +96,59 @@ artifacts:
   modified_at: '2026-06-06T17:32:04Z'
 - path: problems/navier-stokes/submission-verdict.yaml
   present: true
-  sha1: 936867e79cfdd4a5ccc1c77ddb83004db88c524e
-  bytes: 101360
-  modified_at: '2026-06-07T18:19:47Z'
+  sha1: 4f8315e90f7be7f6713cb325fac06343cbd689f1
+  bytes: 101659
+  modified_at: '2026-06-07T18:26:44Z'
 - path: problems/navier-stokes/release-decision.yaml
   present: true
-  sha1: fceae0fe98660cc24acf58b89aa094d508a94b60
+  sha1: ba2faa61a3ca62abce02a4d1ae267cde376d58d1
   bytes: 2560
-  modified_at: '2026-06-07T18:19:47Z'
+  modified_at: '2026-06-07T18:26:44Z'
 - path: problems/navier-stokes/dependency-audit.yaml
   present: true
-  sha1: 5a80bd1c7d64ce2ecf49d67e0dc35932d9b673ca
+  sha1: b916a60a19567e6bb3daef77b9fb83a4d0e9baaa
   bytes: 1577
-  modified_at: '2026-06-07T18:20:03Z'
+  modified_at: '2026-06-07T18:27:04Z'
 - path: problems/navier-stokes/assumption-audit.yaml
   present: true
-  sha1: 952caa6ae053b6b89eef7c177ab59864bf8c1c50
+  sha1: bf197549a5fa653c0b47c416c483660e0e44e364
   bytes: 1577
-  modified_at: '2026-06-07T18:20:03Z'
+  modified_at: '2026-06-07T18:27:04Z'
 - path: problems/navier-stokes/circularity-audit.yaml
   present: true
-  sha1: dd94e934937b0280119fb583e8a4a0432386a6a2
+  sha1: 7892e4023ba238e0b2d62063ef28c9403df072b9
   bytes: 1579
-  modified_at: '2026-06-07T18:20:03Z'
+  modified_at: '2026-06-07T18:27:04Z'
 - path: problems/navier-stokes/gap-audit.yaml
   present: true
-  sha1: 49474d9418b75d7b7d5947e68392f8a4d3465733
+  sha1: 21303efacc35d71aece9ea8bdfe6f16e8b041944
   bytes: 1574
-  modified_at: '2026-06-07T18:20:03Z'
+  modified_at: '2026-06-07T18:27:04Z'
 - path: problems/navier-stokes/gap-ticket.yaml
   present: true
-  sha1: 8b79d3e45f3848b3720e83a223a838288dbc538f
+  sha1: 7536a4aadd231cbb6bdd0651ff0cb9db91f2c8b1
   bytes: 1612
-  modified_at: '2026-06-07T18:20:03Z'
+  modified_at: '2026-06-07T18:27:04Z'
 - path: problems/navier-stokes/consistency-audit.yaml
   present: true
-  sha1: c21c8ca5d24d103aa05a02795ea75e34f34db57f
+  sha1: ebb0bdec62924b899fa249f5221bd7629230cadd
   bytes: 1579
-  modified_at: '2026-06-07T18:20:03Z'
+  modified_at: '2026-06-07T18:27:04Z'
 - path: problems/navier-stokes/dependency-graph.yaml
   present: true
-  sha1: 5f61fa4138d1de258d9b127e82987a8625848b8d
+  sha1: b5f1302b4923ec0c78732a79cac985e31456cc54
   bytes: 1207
-  modified_at: '2026-06-07T18:20:03Z'
+  modified_at: '2026-06-07T18:27:04Z'
 - path: problems/navier-stokes/failure-mode-checks.yaml
   present: true
-  sha1: efc39057885b70df361a5d476d090e239dc67082
+  sha1: c8168177a6bd528496b38a18726e3ff66bc869f7
   bytes: 1640
-  modified_at: '2026-06-07T18:20:03Z'
+  modified_at: '2026-06-07T18:27:04Z'
 - path: problems/navier-stokes/auto-audit.yaml
   present: true
-  sha1: 0ea84ef448e528b32989054627d47b3ff5f44d55
+  sha1: ee2b6a8468e9dad98415020c7a0944ea03308d22
   bytes: 18510
-  modified_at: '2026-06-07T18:20:02Z'
+  modified_at: '2026-06-07T18:27:04Z'
 - path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   present: true
   sha1: 5ac3a9efbd9ba6119fdb64d58caeb33cf1b449d8
