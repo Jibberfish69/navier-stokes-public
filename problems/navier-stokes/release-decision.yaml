@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-07T20:07:37Z'
+  evaluated_at: '2026-06-07T20:11:07Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: blocked
@@ -45,8 +45,6 @@ blockers:
 - Primary manuscript changed after the current review verdict was written.
 - Submission export status changed after the current review verdict was written.
 - Typeset audit changed after the current review verdict was written.
-- 'Target fidelity failure: direct theorem authority still has open theorem-packet
-  blockers, so terminal release is not safe.'
 summary:
   queue_effect: blocked
   registry_note: problem is blocked at release gate
