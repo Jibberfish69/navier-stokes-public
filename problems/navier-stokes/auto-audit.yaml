@@ -4,18 +4,18 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-07T20:11:07Z'
+  audited_at: '2026-06-07T20:15:31Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: full-mpp-closure-ready
-  standalone_status: gap-open
-  completion_tier_achieved: cm-terminal-classification-only
-  review_verdict: blocked
+  standalone_status: accept
+  completion_tier_achieved: full-mpp-closure
+  review_verdict: accept
   theorem_packet_status: export-ready
 audit_certification:
-  audit_status: audited-needs-fix
-  audit_completion_tier: audited-cm-terminal-classification-only
-  audit_review_verdict: audited-blocked
+  audit_status: audited-ok
+  audit_completion_tier: audited-full-mpp-closure
+  audit_review_verdict: audited-accept
 branch_audit:
   status: no-branches
   branch_count: 0
@@ -42,7 +42,7 @@ downstream_overlay_drift:
     - 'dashboard_unresolved_count: 0'
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: 3a9d27b238a601923c4beb4c7cb95b4c024519a8
+    sha1: 6d920e03d6a68b06a0a697ae0cc1e98e85a148a9
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -55,10 +55,12 @@ downstream_overlay_drift:
     - accepted
     - 'all_discharged: true'
     - 'submission_ready: true'
+    - 'completion_tier_achieved: full-mpp-closure'
     - submission-candidate
+    - 'release_posture: export-ready'
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
-    sha1: 14e4dab29fa889603362712675869e268a7df505
+    sha1: 8cc464352597706de648dc920175e0da511ce31e
     matched_terms:
     - direct-live-surfaces
     - authority_gate_mode
@@ -69,7 +71,7 @@ downstream_overlay_drift:
     - submission-candidate
   - artifact: dependency_discharge
     path: problems/navier-stokes/dependency-discharge.yaml
-    sha1: b7d25889e05b226a064162667c799d7f2e9609fe
+    sha1: 805b10299b13579a1dbd775cb2cf06cb0e6b201f
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -216,16 +218,7 @@ surface_snapshot:
     all_discharged: true
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
-issues:
-- issue_id: stale-review-verdict
-  severity: major
-  summary: Review verdict is stale relative to the current manuscript artifacts.
-  autofixable: false
-  recommended_action: Run honesty-review to refresh the review verdict.
-  details:
-  - Primary manuscript changed after the current review verdict was written.
-  - Submission export status changed after the current review verdict was written.
-  - Typeset audit changed after the current review verdict was written.
+issues: []
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
