@@ -1,8 +1,8 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-07T23:14:04Z'
-started_at: '2026-06-07T23:13:47Z'
+generated_at: '2026-06-07T23:21:35Z'
+started_at: '2026-06-07T23:21:18Z'
 status: passed
 purpose: Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into
   the submission TeX/PDF path, and fail unless both required PDF tracks visibly carry
@@ -74,5 +74,5 @@ gates:
     codex_machine_paper: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
   papers_pdf_pages: 1035
   human_pdf_pages: 1073
-  sha256: 4bc53f980c3eba99df75ab1500062b407b0826af6ef3ac2ec74c35b98f44dbc5
+  sha256: a22575c5ee9cb5ef1f7b60feda97c60ec23e608df0bc4e124a99bfcf6d3746e7
   errors: []
