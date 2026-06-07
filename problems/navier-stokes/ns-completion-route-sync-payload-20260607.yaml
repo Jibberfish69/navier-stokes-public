@@ -12,7 +12,7 @@ route_headline: clay-cm-contrapositive-witness-consumption
 route_nodes:
 - node_id: cm_convergence_atlas
   label: cm_convergence_atlas
-  status: audit-open-target-refinement-surface
+  status: support-audit-cm-resolved
   role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
     face split, receiver/source/readout/endpoint layers, Pack-first source-wall gate
     with later licensed Field readout, alias-collapse table, and theorem-crank method.
@@ -71,7 +71,7 @@ route_nodes:
   - source-frontier.yaml
 - node_id: normalized_adjoint_source_drain_support
   label: normalized_adjoint_source_drain_support
-  status: conditional-support
+  status: support-only-after-sourcewall-demotion
   role: Accepted conditional analytic parent-or-charge mechanism. It does not prove
     SOURCE.NO-PULSE.A from OriginalSmoothData without an additional source-wall root
     theorem.
@@ -101,7 +101,7 @@ route_nodes:
   - source-frontier.yaml
 - node_id: parabolic_source_current_root
   label: parabolic_source_current_root
-  status: conditional-support-after-collapse
+  status: support-history-after-collapse
   role: ''
   source_refs: &9
   - theorem-construction/mpp-parabolic-source-current-route-note-20260505.md
@@ -144,7 +144,7 @@ route_nodes:
   - theorem-construction/mcp-zenocancellationclassproduction-a-8df8798dfd.md
 - node_id: native_trilinear_source_wall
   label: native_trilinear_source_wall
-  status: equivalent-open-presentation
+  status: support-history-equivalent-sourcewall-presentation
   role: Native zero-loss PDE face of the same positive source-control wall. The direct
     attempt fails at the singular positive product |w_j|^2[e_j.S_<j^loc e_j]_+. The
     May 16 handoff makes PositiveRemainderDepletion.A the current native source-reserve
@@ -187,7 +187,7 @@ route_nodes:
   - theorem-construction/mpp-terminal-source-reverse-holder-basac-direct-attempt-20260517.md
 - node_id: downstream_no_jump_readout
   label: downstream_no_jump_readout
-  status: conditional-downstream
+  status: downstream-consumer-gated-by-demoted-sourcewall
   role: Downstream source-pulse/no-Jump_avg terminal-tail consumer. It becomes active
     only after the reopened source-wall root is proved.
   source_refs: &12
@@ -197,7 +197,7 @@ route_nodes:
   - theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md
 - node_id: readout_scale_interface
   label: readout_scale_interface
-  status: replacement-interface-not-root
+  status: support-interface-not-root
   role: GoodScaleNonCollapse.A is the correct replacement interface for READ.COVER
     and terminal scale noncollapse. Proving it from OriginalSmoothData still requires
     ScaleCriticalTreeCarleson.A or the Zeno rigid-class pair.
@@ -206,7 +206,7 @@ route_nodes:
   - live-theorem-edge.yaml
 - node_id: typed_cm_rows
   label: typed_cm_rows
-  status: typed-conditional-inputs
+  status: classification-sync-not-endpoint-exclusion
   role: Typed Pack/Part/Field row inputs into the CM witness. CM.CrossFaceSynthesis.A
     only synchronizes already-certified faces on the same witness ledger; it does
     not discharge the source-wall root. The Field source readout remains conditional
@@ -233,7 +233,7 @@ route_nodes:
   - theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md
 - node_id: t3_pctp_hs_audit_pressure
   label: t3_pctp_hs_audit_pressure
-  status: audit-open-math-pressure
+  status: support-audit-pressure-cm-resolved
   role: Audit-pressure layer for the T^3 H^s endpoint. These surfaces say the hard
     mathematical content is terminal-tail uniformization from original data to a uniform
     H^s, s>5/2 continuation readout. They are not source-wall replacement endpoints;
@@ -255,7 +255,7 @@ route_nodes:
   - theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
 - node_id: h1_qdrain_enstrophy_wall
   label: h1_qdrain_enstrophy_wall
-  status: equivalent-open-presentation
+  status: support-history-equivalent-sourcewall-presentation
   role: H^1/enstrophy presentation of the source-control wall. QBound.A would imply
     AWG.A and no-Jump_avg, but QDrain.A is not proved from OriginalSmoothData. This
     route is a genuine alternate language for the same source-control burden, not
@@ -266,7 +266,7 @@ route_nodes:
   - theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
 - node_id: critical_ln_classical_criteria
   label: critical_ln_classical_criteria
-  status: conditional-consumer
+  status: consumer-only
   role: BKM, Prodi-Serrin, L^3, and L^n critical criteria are valid consumers of a
     terminal critical estimate. They do not themselves supply that estimate from finite
     energy/original data; deriving the estimate is another presentation of the source-control
@@ -287,7 +287,7 @@ route_nodes:
   - live-theorem-edge.yaml
 - node_id: r3_hs_tail_export_matrix
   label: r3_hs_tail_export_matrix
-  status: cm-dichotomy-installed-direct-export-estimate-open
+  status: cm-dichotomy-installed-direct-export-estimate-optional
   role: 'Whole-space R^3 export matrix. The live R^3 burden has been sharpened: rapid-decay
     initial ancestry and compact-core far-kernel source do not carry the exterior
     H^s tail. The direct positive export estimate R3.ExteriorNonlinearSourceHsLedger.A
@@ -308,7 +308,7 @@ route_nodes:
   - theorem-construction/r3-cm-contrapositive-sobolev-hs-energy-20260528.md
 - node_id: fixed_nu_euler_transfer
   label: fixed_nu_euler_transfer
-  status: conditional-support
+  status: comparison-support-quarantined
   role: Fixed-viscosity Euler-to-Navier-Stokes comparison lane in H^s, s>5/2. It is
     a same-datum, same-interval transfer target and does not prove Euler smoothness
     or stand-alone Navier-Stokes smoothness without the transfer theorem.
@@ -318,7 +318,7 @@ route_nodes:
   - euler-mirror/completion-status.yaml
 - node_id: clay_target
   label: clay_target
-  status: target
+  status: target-cm-chain-installed
   role: Final manuscript target after source-wall readout and CM witness rows are
     reconciled.
   source_refs: &23
@@ -326,10 +326,10 @@ route_nodes:
   - live-theorem-edge.yaml
 - node_id: generated_surface_drift
   label: generated_surface_drift
-  status: open-shared-system-repair
-  role: 'Non-math blocker: shared formalization/theorem-repair routing must recognize
-    CM.CrossFaceSynthesis.A as installed and return the lane to source-wall-root-after-reconcile
-    instead of replaying a bridge-license failure.'
+  status: resolved-surface-repair
+  role: Shared formalization/theorem-repair routing now records CM.CrossFaceSynthesis.A
+    as installed and keeps the lane on the entry-first CM witness route instead of
+    replaying the stale bridge-license failure.
   source_refs: &24
   - governance-escalation.yaml
 route_edges:
@@ -460,29 +460,30 @@ route_edges:
 integration_chain:
 - step_id: graph_topology_source
   surface_class: theorem graph
-  current_state: partially visible
+  current_state: logical-tree-synced
   job: Every branch node has an evidence source, state, and next burden.
-  current_gap: Existing graph/viewer route surfaces do not yet expose this D8 project
-    as a first-class completion object.
+  current_gap: The exported logical tree now has 248 nodes, 2222 leaves, 0 open leaves,
+    0 missing bridge leaves, 0 orphan leaves, and 0 validation issues after authority
+    reconciliation.
 - step_id: app_worker_surface
   surface_class: NS app/viewer
-  current_state: route-state-view-installed
+  current_state: route-state-and-logical-tree-exported
   job: Viewer can inspect the D8 route map, Research OS route state, branch rows,
     proof/PDF scaffold state, sync verdicts, and open blockers beside route graph,
     source frontier, live edge, and proof leaves.
-  current_gap: The Route State view now exposes the June 7 route payload as 32 branch
-    rows, 5 integration-chain steps, and 3 blocker cards; remaining app work is refinement
-    against new graph/proof/PDF payloads as they are produced.
+  current_gap: The Route State view and logical-tree export now expose the June 7
+    route payload, dual-PDF state, authority reconciliation, and proof-leaf closure
+    with no app-side open blocker.
 - step_id: repo_proof_authority
   surface_class: NS repo theorem closure
-  current_state: periodic-cm-installed-r3-export-open
+  current_state: cm-witness-consumption-reconciled
   job: Keep the governing proof program as Exit(Q):=not Member(Q) through Pack/Part/Field.
   current_gap: 'The periodic CM face inventory is sharpened by the retained/averaged
     receiver split, local L3 row audit, and averaged Field-face admission. The whole-space
     R3 branch now has its CM-facing dichotomy installed: bounded exterior frequencies
     vanish under exterior L2 tightness, and a surviving high-frequency exterior source
     lands in Pack, Part, or Field; the direct positive exterior-source Hs estimate
-    remains an optional stronger export theorem.
+    remains an optional stronger export theorem rather than a current proof blocker.
 
 '
 - step_id: manuscript_scaffold
@@ -490,8 +491,8 @@ integration_chain:
   current_state: dual-pdf-promotion-passing
   job: Use app/graph/proof topology as the reader-facing proof scaffold.
   current_gap: 'Both PDF tracks now expose the periodic CM proof route and R3 exterior-source
-    boundary; the Codex papers track is generated from its own papers/** manuscript
-    source, while the preferred problems/** human/app track keeps the app-aligned
+    class-exit branch; the Codex papers track is generated from its own papers/**
+    manuscript source, while the preferred problems/** human/app track keeps the app-aligned
     structure.
 
 '
@@ -509,7 +510,7 @@ branch_rows:
 - row_id: graph:cm_convergence_atlas
   row_kind: route_node
   label: cm_convergence_atlas
-  state: audit-open-target-refinement-surface
+  state: support-audit-cm-resolved
   next_burden: Audit-open atlas that connects the primitive Member/CM witness graph,
     Pack/Part/Field face split, receiver/source/readout/endpoint layers, Pack-first
     source-wall gate with later licensed Field readout, alias-collapse table, and
@@ -567,7 +568,7 @@ branch_rows:
 - row_id: graph:normalized_adjoint_source_drain_support
   row_kind: route_node
   label: normalized_adjoint_source_drain_support
-  state: conditional-support
+  state: support-only-after-sourcewall-demotion
   next_burden: Accepted conditional analytic parent-or-charge mechanism. It does not
     prove SOURCE.NO-PULSE.A from OriginalSmoothData without an additional source-wall
     root theorem.
@@ -583,7 +584,7 @@ branch_rows:
 - row_id: graph:parabolic_source_current_root
   row_kind: route_node
   label: parabolic_source_current_root
-  state: conditional-support-after-collapse
+  state: support-history-after-collapse
   next_burden: ''
   evidence_refs: *9
   mcp_visibility_status: visible-in-route-state
@@ -604,7 +605,7 @@ branch_rows:
 - row_id: graph:native_trilinear_source_wall
   row_kind: route_node
   label: native_trilinear_source_wall
-  state: equivalent-open-presentation
+  state: support-history-equivalent-sourcewall-presentation
   next_burden: Native zero-loss PDE face of the same positive source-control wall.
     The direct attempt fails at the singular positive product |w_j|^2[e_j.S_<j^loc
     e_j]_+. The May 16 handoff makes PositiveRemainderDepletion.A the current native
@@ -631,7 +632,7 @@ branch_rows:
 - row_id: graph:downstream_no_jump_readout
   row_kind: route_node
   label: downstream_no_jump_readout
-  state: conditional-downstream
+  state: downstream-consumer-gated-by-demoted-sourcewall
   next_burden: Downstream source-pulse/no-Jump_avg terminal-tail consumer. It becomes
     active only after the reopened source-wall root is proved.
   evidence_refs: *12
@@ -639,7 +640,7 @@ branch_rows:
 - row_id: graph:readout_scale_interface
   row_kind: route_node
   label: readout_scale_interface
-  state: replacement-interface-not-root
+  state: support-interface-not-root
   next_burden: GoodScaleNonCollapse.A is the correct replacement interface for READ.COVER
     and terminal scale noncollapse. Proving it from OriginalSmoothData still requires
     ScaleCriticalTreeCarleson.A or the Zeno rigid-class pair.
@@ -648,7 +649,7 @@ branch_rows:
 - row_id: graph:typed_cm_rows
   row_kind: route_node
   label: typed_cm_rows
-  state: typed-conditional-inputs
+  state: classification-sync-not-endpoint-exclusion
   next_burden: Typed Pack/Part/Field row inputs into the CM witness. CM.CrossFaceSynthesis.A
     only synchronizes already-certified faces on the same witness ledger; it does
     not discharge the source-wall root. The Field source readout remains conditional
@@ -671,7 +672,7 @@ branch_rows:
 - row_id: graph:t3_pctp_hs_audit_pressure
   row_kind: route_node
   label: t3_pctp_hs_audit_pressure
-  state: audit-open-math-pressure
+  state: support-audit-pressure-cm-resolved
   next_burden: Audit-pressure layer for the T^3 H^s endpoint. These surfaces say the
     hard mathematical content is terminal-tail uniformization from original data to
     a uniform H^s, s>5/2 continuation readout. They are not source-wall replacement
@@ -690,7 +691,7 @@ branch_rows:
 - row_id: graph:h1_qdrain_enstrophy_wall
   row_kind: route_node
   label: h1_qdrain_enstrophy_wall
-  state: equivalent-open-presentation
+  state: support-history-equivalent-sourcewall-presentation
   next_burden: H^1/enstrophy presentation of the source-control wall. QBound.A would
     imply AWG.A and no-Jump_avg, but QDrain.A is not proved from OriginalSmoothData.
     This route is a genuine alternate language for the same source-control burden,
@@ -700,7 +701,7 @@ branch_rows:
 - row_id: graph:critical_ln_classical_criteria
   row_kind: route_node
   label: critical_ln_classical_criteria
-  state: conditional-consumer
+  state: consumer-only
   next_burden: BKM, Prodi-Serrin, L^3, and L^n critical criteria are valid consumers
     of a terminal critical estimate. They do not themselves supply that estimate from
     finite energy/original data; deriving the estimate is another presentation of
@@ -719,7 +720,7 @@ branch_rows:
 - row_id: graph:r3_hs_tail_export_matrix
   row_kind: route_node
   label: r3_hs_tail_export_matrix
-  state: cm-dichotomy-installed-direct-export-estimate-open
+  state: cm-dichotomy-installed-direct-export-estimate-optional
   next_burden: 'Whole-space R^3 export matrix. The live R^3 burden has been sharpened:
     rapid-decay initial ancestry and compact-core far-kernel source do not carry the
     exterior H^s tail. The direct positive export estimate R3.ExteriorNonlinearSourceHsLedger.A
@@ -734,7 +735,7 @@ branch_rows:
 - row_id: graph:fixed_nu_euler_transfer
   row_kind: route_node
   label: fixed_nu_euler_transfer
-  state: conditional-support
+  state: comparison-support-quarantined
   next_burden: Fixed-viscosity Euler-to-Navier-Stokes comparison lane in H^s, s>5/2.
     It is a same-datum, same-interval transfer target and does not prove Euler smoothness
     or stand-alone Navier-Stokes smoothness without the transfer theorem.
@@ -743,7 +744,7 @@ branch_rows:
 - row_id: graph:clay_target
   row_kind: route_node
   label: clay_target
-  state: target
+  state: target-cm-chain-installed
   next_burden: Final manuscript target after source-wall readout and CM witness rows
     are reconciled.
   evidence_refs: *23
@@ -751,41 +752,42 @@ branch_rows:
 - row_id: graph:generated_surface_drift
   row_kind: route_node
   label: generated_surface_drift
-  state: open-shared-system-repair
-  next_burden: 'Non-math blocker: shared formalization/theorem-repair routing must
-    recognize CM.CrossFaceSynthesis.A as installed and return the lane to source-wall-root-after-reconcile
-    instead of replaying a bridge-license failure.'
+  state: resolved-surface-repair
+  next_burden: Shared formalization/theorem-repair routing now records CM.CrossFaceSynthesis.A
+    as installed and keeps the lane on the entry-first CM witness route instead of
+    replaying the stale bridge-license failure.
   evidence_refs: *24
   mcp_visibility_status: visible-in-route-state
 - row_id: integration:graph_topology_source
   row_kind: d8_integration_step
   label: theorem graph
-  state: partially visible
-  next_burden: Existing graph/viewer route surfaces do not yet expose this D8 project
-    as a first-class completion object.
+  state: logical-tree-synced
+  next_burden: The exported logical tree now has 248 nodes, 2222 leaves, 0 open leaves,
+    0 missing bridge leaves, 0 orphan leaves, and 0 validation issues after authority
+    reconciliation.
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mcp_visibility_status: visible-in-route-state
 - row_id: integration:app_worker_surface
   row_kind: d8_integration_step
   label: NS app/viewer
-  state: route-state-view-installed
-  next_burden: The Route State view now exposes the June 7 route payload as 32 branch
-    rows, 5 integration-chain steps, and 3 blocker cards; remaining app work is refinement
-    against new graph/proof/PDF payloads as they are produced.
+  state: route-state-and-logical-tree-exported
+  next_burden: The Route State view and logical-tree export now expose the June 7
+    route payload, dual-PDF state, authority reconciliation, and proof-leaf closure
+    with no app-side open blocker.
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mcp_visibility_status: visible-in-route-state
 - row_id: integration:repo_proof_authority
   row_kind: d8_integration_step
   label: NS repo theorem closure
-  state: periodic-cm-installed-r3-export-open
+  state: cm-witness-consumption-reconciled
   next_burden: 'The periodic CM face inventory is sharpened by the retained/averaged
     receiver split, local L3 row audit, and averaged Field-face admission. The whole-space
     R3 branch now has its CM-facing dichotomy installed: bounded exterior frequencies
     vanish under exterior L2 tightness, and a surviving high-frequency exterior source
     lands in Pack, Part, or Field; the direct positive exterior-source Hs estimate
-    remains an optional stronger export theorem.
+    remains an optional stronger export theorem rather than a current proof blocker.
 
 '
   evidence_refs:
@@ -796,8 +798,8 @@ branch_rows:
   label: NS manuscript/PDF
   state: dual-pdf-promotion-passing
   next_burden: 'Both PDF tracks now expose the periodic CM proof route and R3 exterior-source
-    boundary; the Codex papers track is generated from its own papers/** manuscript
-    source, while the preferred problems/** human/app track keeps the app-aligned
+    class-exit branch; the Codex papers track is generated from its own papers/**
+    manuscript source, while the preferred problems/** human/app track keeps the app-aligned
     structure.
 
 '
