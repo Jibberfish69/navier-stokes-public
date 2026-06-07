@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: consistency-audit-navier-stokes
-  generated_at: '2026-06-07T18:12:31Z'
+  generated_at: '2026-06-07T18:15:25Z'
   generator: system/runner/lib/release_surface_reconciler.rb
   purpose: release consistency blocked by CM contrapositive referee audit
 status:
