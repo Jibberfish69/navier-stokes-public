@@ -1,10 +1,10 @@
 ---
 version: 1
 artifact_id: ns-completion-submission-sync-2026-06-07-iteration-1
-status: blocked
+status: ready
 date: '2026-06-07'
 iteration_index: 1
-submission_ready: false
+submission_ready: true
 source_refs:
 - problems/navier-stokes/submission-verdict.yaml
 - problems/navier-stokes/submission-bundle/submission-verdict.yaml
@@ -17,22 +17,22 @@ pdf_tracks:
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     present: true
-    sha1: 4aa7400324de6f79c0a286ee86c20689a7ba4497
-    bytes: 3898380
+    sha1: ef3c290faa29ca48c992429e05583ca2e82555fa
+    bytes: 3900897
     role: preferred problems/** app-aligned human submission track
     required_for_clay_submission: true
   codex_machine_paper:
     path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
     present: true
-    sha1: 6e35d711a4ad641d67a4abec47305bbb197469aa
-    bytes: 4048572
+    sha1: 997661e63c5007c75772b20a52f1bb8ca7567281
+    bytes: 3901972
     role: papers/** Codex-owned machine paper track
     required_for_clay_submission: true
 human_pdf:
   path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   present: true
-  sha1: 4aa7400324de6f79c0a286ee86c20689a7ba4497
-  bytes: 3898380
+  sha1: ef3c290faa29ca48c992429e05583ca2e82555fa
+  bytes: 3900897
 manuscript_tex:
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   present: true
@@ -42,14 +42,25 @@ verdict_alignment:
   root_verdict_synced: true
   bundle_verdict_synced: true
   export_status_synced: true
-  submission_ready: false
-  blocking_reason: Reader-facing proof promotion is still being rebuilt from the current
-    installed CM witness-consumption and R3 dyadic-survivor face-landing state; keep
-    submission_ready=false until both PDF tracks and route-state readbacks agree.
-open_blockers:
-- Reader-facing proof prose must be rebuilt from the current installed CM witness-consumption
-  and R3 dyadic-survivor face landing state.
-- Both required PDF tracks must pass reader-facing scans after stale open-hinge language
-  is removed.
-- Submission/export surfaces must keep readiness false until the rebuilt human/app-aligned
-  and Codex-structured papers are reviewed from the same current route payload.
+  submission_ready: true
+  blocking_reason: 
+  readiness_evidence:
+    source_frontier_clear: true
+    open_d8_proof_blockers: 0
+    pdf_tracks_present: true
+    pdf_tracks:
+      human_app_aligned:
+        path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+        present: true
+        sha1: ef3c290faa29ca48c992429e05583ca2e82555fa
+        bytes: 3900897
+        role: preferred problems/** app-aligned human submission track
+        required_for_clay_submission: true
+      codex_machine_paper:
+        path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+        present: true
+        sha1: 997661e63c5007c75772b20a52f1bb8ca7567281
+        bytes: 3901972
+        role: papers/** Codex-owned machine paper track
+        required_for_clay_submission: true
+open_blockers: []
