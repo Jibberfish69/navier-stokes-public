@@ -159,31 +159,50 @@ def appendix_gate
   }
 end
 
-def authoritative_pdf_gate
+def dual_pdf_track_gate
   errors = []
-  pages = 0
+  papers_pages = 0
+  human_pages = 0
   export_status = load_yaml(EXPORT_STATUS)
-  expected_pdf = relative(AUTHORITATIVE_PDF)
+  expected_tracks = {
+    "human_app_aligned" => relative(HUMAN_SUBMISSION_PDF),
+    "codex_machine_paper" => relative(AUTHORITATIVE_PDF)
+  }
 
   unless AUTHORITATIVE_PDF.file? && AUTHORITATIVE_PDF.size.positive?
-    errors << "authoritative PDF missing"
+    errors << "papers/Codex PDF missing"
   else
-    pages = pdf_page_count(AUTHORITATIVE_PDF)
-    errors << "authoritative PDF has #{pages} pages; minimum is #{MIN_AUTHORITATIVE_PAGES}" if pages < MIN_AUTHORITATIVE_PAGES
+    papers_pages = pdf_page_count(AUTHORITATIVE_PDF)
+    errors << "papers/Codex PDF has #{papers_pages} pages; minimum is #{MIN_AUTHORITATIVE_PAGES}" if papers_pages < MIN_AUTHORITATIVE_PAGES
     text = pdf_text(AUTHORITATIVE_PDF)
     REQUIRED_PDF_TEXT.each do |label, pattern|
-      errors << "authoritative PDF missing rendered #{label}" unless text.match?(pattern)
+      errors << "papers/Codex PDF missing rendered #{label}" unless text.match?(pattern)
     end
     if text.match?(%r{problems/navier-stokes|submission-bundle|source-forensics|theorem-construction|system/runner})
-      errors << "authoritative PDF exposes internal source path strings"
+      errors << "papers/Codex PDF exposes internal source path strings"
     end
   end
 
-  actual_pdf = export_status["pdf"].to_s
-  errors << "submission export status points to #{actual_pdf.empty? ? '(none)' : actual_pdf}, expected #{expected_pdf}" unless actual_pdf == expected_pdf
-
   unless HUMAN_SUBMISSION_PDF.file? && HUMAN_SUBMISSION_PDF.size.positive?
-    errors << "Thomas human submission PDF missing: #{relative(HUMAN_SUBMISSION_PDF)}"
+    errors << "human/app-aligned PDF missing: #{relative(HUMAN_SUBMISSION_PDF)}"
+  else
+    human_pages = pdf_page_count(HUMAN_SUBMISSION_PDF)
+    errors << "human/app-aligned PDF has #{human_pages} pages; minimum is #{MIN_AUTHORITATIVE_PAGES}" if human_pages < MIN_AUTHORITATIVE_PAGES
+  end
+
+  tracks = export_status["pdf_tracks"].is_a?(Hash) ? export_status["pdf_tracks"] : {}
+  expected_tracks.each do |track_id, expected_path|
+    actual_path = tracks.dig(track_id, "path").to_s
+    errors << "submission export status #{track_id} track points to #{actual_path.empty? ? '(none)' : actual_path}, expected #{expected_path}" unless actual_path == expected_path
+  end
+
+  preferred_pdf = export_status["preferred_pdf"].to_s
+  errors << "submission export status preferred_pdf points to #{preferred_pdf.empty? ? '(none)' : preferred_pdf}, expected #{relative(HUMAN_SUBMISSION_PDF)}" unless preferred_pdf == relative(HUMAN_SUBMISSION_PDF)
+  actual_pdf = export_status["pdf"].to_s
+  errors << "submission export status pdf points to #{actual_pdf}, but it must be one of the two required PDF tracks" unless actual_pdf.empty? || expected_tracks.value?(actual_pdf)
+
+  if export_status["submission_ready"] == true
+    errors << "submission export status claims submission_ready=true while proof/PDF gates are still being checked"
   end
 
   problem_pdfs = Dir.glob(ROOT.join("problems/navier-stokes/**/*.pdf").to_s).sort
@@ -194,10 +213,12 @@ def authoritative_pdf_gate
   end
 
   {
-    "gate_id" => "authoritative-pdf-rendered-depth-readback",
+    "gate_id" => "dual-pdf-track-rendered-depth-readback",
     "status" => errors.empty? ? "passed" : "failed",
-    "pdf" => expected_pdf,
-    "pages" => pages,
+    "preferred_pdf" => relative(HUMAN_SUBMISSION_PDF),
+    "pdf_tracks" => expected_tracks,
+    "papers_pdf_pages" => papers_pages,
+    "human_pdf_pages" => human_pages,
     "sha256" => file_sha256(AUTHORITATIVE_PDF),
     "errors" => errors
   }
@@ -210,13 +231,14 @@ def build_result(commands, export_result, gates, started_at, status)
     "generated_at" => Time.now.utc.iso8601,
     "started_at" => started_at.iso8601,
     "status" => status,
-    "purpose" => "Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into the submission TeX/PDF path, and fail unless the authoritative PDF visibly carries the proof-depth anchors.",
+    "purpose" => "Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into the submission TeX/PDF path, and fail unless both required PDF tracks visibly carry the proof-depth anchors.",
     "authority" => {
       "source_manifest" => relative(NS_ROOT.join("paper-export-inputs.yaml")),
       "current_material_coverage" => relative(CURRENT_MATERIAL),
       "surface_derivation_inventory" => relative(SURFACE_INVENTORY),
       "main_tex" => relative(MAIN_TEX),
-      "authoritative_pdf" => relative(AUTHORITATIVE_PDF)
+      "preferred_pdf" => relative(HUMAN_SUBMISSION_PDF),
+      "codex_machine_pdf" => relative(AUTHORITATIVE_PDF)
     },
     "commands" => commands,
     "export_result" => export_result,
@@ -252,7 +274,7 @@ begin
   gates = [
     current_material_gate,
     appendix_gate,
-    authoritative_pdf_gate
+    dual_pdf_track_gate
   ]
   status = gates.all? { |gate| gate.fetch("status") == "passed" } ? "passed" : "failed"
 rescue StandardError => e
@@ -267,7 +289,7 @@ ensure
 end
 
 if status == "passed"
-  puts "PDF_DEPTH_PROMOTION OK: #{relative(AUTHORITATIVE_PDF)}"
+  puts "PDF_DEPTH_PROMOTION OK: #{relative(HUMAN_SUBMISSION_PDF)} and #{relative(AUTHORITATIVE_PDF)}"
   exit 0
 end
 
