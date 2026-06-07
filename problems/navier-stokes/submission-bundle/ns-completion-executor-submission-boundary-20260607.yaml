@@ -3,8 +3,10 @@ version: 1
 artifact_id: ns-completion-executor-submission-boundary-2026-06-07
 status: blocked
 date: '2026-06-07'
+iteration_index: 1
 consumed_work_node_ids:
 - ns-submission-readiness
+input_refs: []
 submission_ready: false
 boundary_reason: changed executor outputs exist, but proof closure and reader-facing
   manuscript proof are still open
