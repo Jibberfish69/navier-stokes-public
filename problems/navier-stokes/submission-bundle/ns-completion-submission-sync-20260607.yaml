@@ -1,0 +1,37 @@
+---
+version: 1
+artifact_id: ns-completion-submission-sync-2026-06-07-iteration-1
+status: blocked
+date: '2026-06-07'
+iteration_index: 1
+submission_ready: false
+source_refs:
+- problems/navier-stokes/submission-verdict.yaml
+- problems/navier-stokes/submission-bundle/submission-verdict.yaml
+- problems/navier-stokes/submission-bundle/submission-export-status.yaml
+- problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+- problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+human_pdf:
+  path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  present: true
+  sha1: b8ca576a1e3403bb3212e7b0099bf9857195e7be
+  bytes: 4406699
+manuscript_tex:
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  present: true
+  sha1: 5015c1a20b14879dd819b11c7e2cde9e45194c30
+  bytes: 70553
+verdict_alignment:
+  root_verdict_synced: true
+  bundle_verdict_synced: true
+  export_status_synced: true
+  submission_ready: false
+  blocking_reason: Clay counterexample-exclusion bridge and reader-facing proof promotion
+    remain open; keep submission_ready=false.
+open_blockers:
+- CM terminal witness classification has not yet closed the Clay counterexample-exclusion
+  bridge.
+- Reader-facing proof prose cannot be promoted until the Pack/Part/Field face is narrowed
+  or closed.
+- Submission/export surfaces must keep readiness false while proof and manuscript
+  state are open.
