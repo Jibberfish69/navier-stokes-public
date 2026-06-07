@@ -4,14 +4,14 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   plan_id: post-release-plan-navier-stokes
-  generated_at: '2026-05-26T21:41:37Z'
+  generated_at: '2026-06-07T17:37:39Z'
   source_release_decision_id: release-decision-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
 current_release:
   disposition: blocked
-  release_posture: blocked
+  release_posture: not-ready
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: theorem-open
+  completion_tier_achieved: cm-terminal-classification-only
 tracks:
   theorem-upgrade:
     applicable: true
@@ -40,7 +40,7 @@ tracks:
       the lowest safe claim is the final proof.
   publication-finalize:
     applicable: true
-    target_tier: theorem-open
+    target_tier: cm-terminal-classification-only
     draft_surface_kinds:
       draft_v6: draft
       draft_v7: draft
