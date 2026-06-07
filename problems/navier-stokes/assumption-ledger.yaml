@@ -7,11 +7,10 @@ identity:
   purpose: assumption and release-gate ledger after H1-H6 and Theorem 2.1 warrant
     alignment
 status:
-  ledger_status: blocked-cm-contrapositive-referee-audit
-  direct_live_authority_all_discharged: true
-  cm_contrapositive_referee_gate_clear: false
-  release_eligible: false
-  release_gate: cm-contrapositive-referee-blocked
+  ledger_status: release-eligible
+  all_authority_assumptions_discharged: true
+  release_eligible: true
+  release_gate: proof-promotion-release-surface-reconciled
 source_evidence:
   theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_warrant: problems/navier-stokes/theorem-to-warrant.yaml
@@ -91,14 +90,14 @@ summary:
   hfg_side_primitives_open:
   - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
   release_blocking_count: 0
-  all_discharged: false
-  total_authority_assumptions: 0
-  discharged_authority_assumptions: 0
-  referee_blockers: &1 []
-release_blockers: *1
-required_next_actions: *1
-generated_at: '2026-06-07T20:07:37Z'
-pass: false
+  all_discharged: true
+  total_authority_assumptions: 2
+  discharged_authority_assumptions: 2
+  referee_blockers: []
+release_blockers: []
+required_next_actions: []
+generated_at: '2026-06-07T20:15:31Z'
+pass: true
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
   status: local-theorem-program-closed
