@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-07T18:19:26Z'
+  evaluated_at: '2026-06-07T18:26:26Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: blocked
