@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   reconciliation_id: authority-reconciliation-navier-stokes
-  generated_at: '2026-06-07T18:08:57Z'
+  generated_at: '2026-06-07T18:12:31Z'
   generator: system/runner/lib/authority_reconciliation_builder.rb
 active: false
 inputs:
