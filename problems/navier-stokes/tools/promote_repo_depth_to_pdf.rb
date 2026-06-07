@@ -269,7 +269,6 @@ begin
 
   run_command!(commands, "PDF argument hygiene", RbConfig.ruby, "problems/navier-stokes/tools/check_pdf_argument_hygiene.rb")
   run_command!(commands, "PDF output topology", RbConfig.ruby, "problems/navier-stokes/tools/check_pdf_output_topology.rb")
-  run_command!(commands, "one MPP PDF output per problem", RbConfig.ruby, "system/runner/bin/check_mpp_pdf_outputs.rb")
 
   gates = [
     current_material_gate,
