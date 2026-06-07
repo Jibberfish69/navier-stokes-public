@@ -57,8 +57,6 @@ blockers:
   appears in problems/navier-stokes/draft.md'
 - 'navier-stokes: MPP PDF contract blocks export: surface problems/navier-stokes/paper-quality-verdict.yaml
   declares the package is not submission-ready'
-- 'navier-stokes: MPP PDF contract blocks export: internal status or ledger language
-  appears in problems/navier-stokes/submission-verdict.yaml'
 - 'navier-stokes: MPP PDF contract blocks export: repo support-surface names leak
   into problems/navier-stokes/submission-verdict.yaml'
 - 'navier-stokes: MPP PDF contract blocks export: surface problems/navier-stokes/submission-verdict.yaml
