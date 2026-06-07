@@ -2,15 +2,15 @@
 version: 1
 problem_id: navier-stokes
 display_name: Navier-Stokes Global Regularity
-generated_at: '2026-06-01T19:53:01Z'
+generated_at: '2026-06-07T17:11:32Z'
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 manuscript_source_kind: tex
 manuscript_source_reason: submission-export-status.manuscript_source
 source_metrics:
-  source_word_count: 448540
-  bundle_word_count: 448540
+  source_word_count: 448741
+  bundle_word_count: 448741
   primary_surface_word_count: 0
-  theorem_packet_word_count: 4408
+  theorem_packet_word_count: 5665
 submission_metadata: problems/navier-stokes/submission-metadata.yaml
 outputs:
   tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
