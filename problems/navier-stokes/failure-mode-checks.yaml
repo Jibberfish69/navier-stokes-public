@@ -1,45 +1,42 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
   artifact_id: failure-mode-checks-navier-stokes
-  generated_at: '2026-05-27T18:20:55Z'
+  generated_at: '2026-06-07T17:37:39Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: passed
-pass: true
-release_eligible: true
+status: cm-contrapositive-referee-blocked
+pass: false
+release_eligible: false
 source:
-  auto_audit: problems/navier-stokes/auto-audit.yaml
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
-  circularity_audit: problems/navier-stokes/circularity-audit.yaml
-  consistency_audit: problems/navier-stokes/consistency-audit.yaml
+  review_verdict: problems/navier-stokes/review-verdict.yaml
+  submission_verdict: problems/navier-stokes/submission-verdict.yaml
+  release_decision: problems/navier-stokes/release-decision.yaml
+  auto_audit: problems/navier-stokes/auto-audit.yaml
+  cm_contrapositive_referee_audit: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 checks:
-- id: dependency-audit-pass
-  status: passed
-  surface: problems/navier-stokes/dependency-audit.yaml
-- id: assumption-audit-pass
-  status: passed
-  surface: problems/navier-stokes/assumption-audit.yaml
-- id: circularity-audit-pass
-  status: passed
-  surface: problems/navier-stokes/circularity-audit.yaml
-- id: gap-audit-pass
-  status: passed
-  surface: problems/navier-stokes/gap-audit.yaml
-- id: consistency-audit-pass
-  status: passed
-  surface: problems/navier-stokes/consistency-audit.yaml
+- id: cm-contrapositive-referee-audit-pass
+  status: blocked
+  surface: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 auto_audit_certification:
-  current_package_status: full-mpp-closure-ready
-  standalone_status: accept
-  completion_tier_achieved: full-mpp-closure
-  review_verdict: accept
+  current_package_status: referee-blocked-cm-contrapositive
+  standalone_status: gap-open
+  completion_tier_achieved: cm-terminal-classification-only
+  review_verdict: blocked
   theorem_packet_status: export-ready
 summary:
-  total_obligations: 0
+  authority_mode: cm-contrapositive-referee-gate
+  audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+  audit_status: blocked-on-clay-counterexample-exclusion-bridge
   blocking_count: 0
   frontier_count: 0
-  all_discharged: true
+  unresolved_count: 0
+  bridge_discharge_blocking_count: 0
+  theorem_warrant_blocking_count: 0
+  all_discharged: false
+  referee_blockers: []
+  open_frontier_labels: []
   failure_mode_blocking_count: 0
