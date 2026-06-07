@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-06-07T17:37:39Z'
+  generated_at: '2026-06-07T17:41:07Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -188,14 +188,8 @@ auditor:
   death_certificate_count: 0
   unresolved_branch_terminal_count: 0
 frontier_projection:
-  status: ready
+  status: cleared
   primary_target:
-    obligation_id: clay-cm-contrapositive-witness-consumption
-    kind: live-theorem-frontier
-    label: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
-    status: contrapositive-witness-consumption-installed
-    recommended_stage: theorem-creation
-    source_anchor: problems/navier-stokes/live-theorem-edge.yaml
   one_step_beyond: []
   two_steps_beyond: []
   route_pressure:
@@ -208,7 +202,7 @@ frontier_projection:
     requested_frontier: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
   recommended_next_cell_type:
 summary:
-  phase: frontier-projection
+  phase: steady-state
   execution_state: submission-candidate
   leadership_status: leading
   alignment_complete: true
