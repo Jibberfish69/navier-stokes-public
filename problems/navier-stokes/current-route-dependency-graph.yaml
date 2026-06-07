@@ -29,7 +29,7 @@ primary_frontier:
     they are necessary inside this same CM class-exit invariant.
 nodes:
   cm_convergence_atlas:
-    status: support-audit-not-cm-blocker
+    status: support-audit-cm-resolved
     theorem_ids:
       - CM.ConvergenceAtlas.TargetRefinement
     source:
@@ -376,7 +376,7 @@ nodes:
       uniform H^s(T^3), s>5/2 -> standard H^s continuation. This node must stay
       scoped to T^3 and must not absorb R^3 tail/export burdens.
   t3_pctp_hs_audit_pressure:
-    status: support-audit-pressure-not-cm-blocker
+    status: support-audit-pressure-cm-resolved
     theorem_ids:
       - PCTP.hard
       - TTU.A
@@ -425,7 +425,7 @@ nodes:
       This route is a genuine alternate language for the same source-control
       burden, not a closed positive endpoint.
   critical_ln_classical_criteria:
-    status: conditional-consumer
+    status: consumer-only
     theorem_ids:
       - BKM
       - ProdiSerrin
@@ -513,7 +513,7 @@ nodes:
       Final manuscript target after source-wall readout and CM witness rows are
       reconciled.
   generated_surface_drift:
-    status: resolved-stale-surface-repair
+    status: resolved-surface-repair
     source:
       - governance-escalation.yaml
     role: >-
