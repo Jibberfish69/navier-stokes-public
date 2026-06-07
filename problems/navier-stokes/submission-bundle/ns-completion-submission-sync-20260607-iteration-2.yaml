@@ -11,6 +11,7 @@ source_refs:
 - problems/navier-stokes/submission-bundle/submission-export-status.yaml
 - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+- papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
 - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260607.md
 - problems/navier-stokes/ns-completion-executor-route-sync-20260607.yaml
 - problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
@@ -18,27 +19,44 @@ source_refs:
 - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607.md
 - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607.yaml
 - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+pdf_tracks:
+  human_app_aligned:
+    path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    present: true
+    sha1: 4aa7400324de6f79c0a286ee86c20689a7ba4497
+    bytes: 3898380
+    role: preferred problems/** app-aligned human submission track
+    required_for_clay_submission: true
+  codex_machine_paper:
+    path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    present: true
+    sha1: 6e35d711a4ad641d67a4abec47305bbb197469aa
+    bytes: 4048572
+    role: papers/** Codex-owned machine paper track
+    required_for_clay_submission: true
 human_pdf:
   path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   present: true
-  sha1: b8ca576a1e3403bb3212e7b0099bf9857195e7be
-  bytes: 4406699
+  sha1: 4aa7400324de6f79c0a286ee86c20689a7ba4497
+  bytes: 3898380
 manuscript_tex:
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   present: true
-  sha1: 5015c1a20b14879dd819b11c7e2cde9e45194c30
-  bytes: 70553
+  sha1: 682d98ec1685467ad9eb24e83a882adf4648d622
+  bytes: 75523
 verdict_alignment:
   root_verdict_synced: true
   bundle_verdict_synced: true
   export_status_synced: true
   submission_ready: false
-  blocking_reason: Clay counterexample-exclusion bridge and reader-facing proof promotion
-    remain open; keep submission_ready=false.
+  blocking_reason: Reader-facing proof promotion is still being rebuilt from the current
+    installed CM witness-consumption and R3 dyadic-survivor face-landing state; keep
+    submission_ready=false until both PDF tracks and route-state readbacks agree.
 open_blockers:
-- CM terminal witness classification has not yet closed the Clay counterexample-exclusion
-  bridge.
-- Reader-facing proof prose cannot be promoted until the Pack/Part/Field face is narrowed
-  or closed.
-- Submission/export surfaces must keep readiness false while proof and manuscript
-  state are open.
+- Reader-facing proof prose must be rebuilt from the current installed CM witness-consumption
+  and R3 dyadic-survivor face landing state.
+- Both required PDF tracks must pass reader-facing scans after stale open-hinge language
+  is removed.
+- Submission/export surfaces must keep readiness false until the rebuilt human/app-aligned
+  and Codex-structured papers are reviewed from the same current route payload.
