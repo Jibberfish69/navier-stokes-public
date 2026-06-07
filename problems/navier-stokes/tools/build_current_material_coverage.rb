@@ -234,6 +234,7 @@ FAMILIES = [
       theorem-construction/mpp-retained-pressure-package-cm-face-placement-20260605.md
       theorem-construction/mpp-finite-energy-point-pressure-derivative-obstruction-20260606.md
       theorem-construction/mpp-pressure-derivative-obstruction-trajectory-integration-20260606.md
+      theorem-construction/mpp-averaged-field-face-admission-20260607.md
       theorem-construction/mpp-averaged-jumpavg-field-face-reduction-20260607.md
       theorem-construction/mpp-averaged-receiver-no-upstream-readout-20260607.md
       theorem-construction/mpp-averaged-terminal-cover-common-scheduler-reentry-20260607.md
