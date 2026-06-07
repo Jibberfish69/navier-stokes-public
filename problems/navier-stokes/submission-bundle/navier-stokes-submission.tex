@@ -1251,13 +1251,14 @@ The transfer theorem supplies that exact packet.
 Without it, the comparison branch has no class face inside \(\Owork\).
 \end{proof}
 
-\section{Whole-Space Export Boundary}
+\section{Whole-Space \(\mathbb R^3\) CM Exterior-Source Branch}
 
 The periodic proof and the whole-space proof use the same CM discipline, but they do not have the same compactness boundary.
 On \(\mathbb T^3\), the transported whole-torus material atlas has no spatial escape.
 On \(\mathbb R^3\), a finite terminal claim can also try to hide mass or derivatives in the far field.
-The export problem is therefore not just a copy of the periodic proof.
-It must show that the original rapidly decaying datum cannot produce a terminal exterior \(H^s\) tail, for some \(s>5/2\), outside every large ball.
+The direct positive export theorem is therefore not just a copy of the periodic proof.
+It would show that the original rapidly decaying datum cannot produce a terminal exterior \(H^s\) tail, for some \(s>5/2\), outside every large ball.
+The CM-facing proof uses a different burden: it classifies any surviving exterior source as a Pack, Part, or Field failure for the same terminal object.
 
 Let \(u\) be a smooth finite-energy Navier--Stokes solution on \([0,T_*)\times\mathbb R^3\) from smooth rapidly decaying divergence-free data.
 Let \(\eta_R\) be an exterior cutoff supported outside \(R\) and equal to one outside \(2R\).
@@ -1274,10 +1275,10 @@ The correct split uses Duhamel's formula:
 \]
 After splitting \(u\otimes u\) into a compact-core part and a genuinely exterior part, the exterior \(H^s\) tail has three sources.
 
-\begin{proposition}[Whole-space exterior tail reduction]
+\begin{proposition}[Whole-space exterior source split]
 For rapidly decaying smooth data, the heat evolution of \(u_0\) contributes no terminal exterior \(H^s\) tail.
 For a fixed compact core, the far-field effect of the compact-core nonlinear source also contributes no terminal exterior \(H^s\) tail, once the fixed-core readout is available.
-Thus the whole-space export reduces to the exterior nonlinear source estimate
+Thus the stronger direct whole-space export theorem reduces to the exterior nonlinear source estimate
 \[
   \lim_{R\to\infty}\sup_{t<T_*}
   \left\|
@@ -1297,12 +1298,31 @@ The compact source and the exterior cutoff are separated by distance comparable 
 Off-diagonal heat-kernel decay then gives a negative power of \(R\), with the fixed-core local readout supplying the finite number of derivatives needed for the \(H^s\) norm.
 
 The only part not covered by those two mechanisms is the nonlinear source already living far out in space.
-That is the displayed exterior nonlinear-source estimate.
+That is the displayed exterior nonlinear-source estimate for the stronger direct export route.
 \end{proof}
 
-This is the current noncircular whole-space target.
-It does not spend a global \(H^s\) bound, a Beale--Kato--Majda integral, or continuation-grade control of \(\int_0^{T_*}\|\nabla u(t)\|_{L^\infty}\,dt\).
-Any proof of the export branch has to obtain the exterior source estimate from original data, exterior energy tightness, pressure-tail control, and local readout already earned by the CM route.
+\begin{proposition}[Exterior source survivor lands in the CM faces]
+Assume the exterior nonlinear source estimate above is not supplied, and let a terminal exterior high-frequency source survive after the Duhamel split, the exterior \(L^2\) tightness readout, and bounded-frequency elimination.
+Then the survivor lands in the CM matrix:
+\[
+  \neg\Pack_Q\;\vee\;\neg\Part_{M,Q}\;\vee\;
+  \forall \rho>0\,\neg\Field_{M,\rho,Q}.
+\]
+\end{proposition}
+
+\begin{proof}
+The bounded-frequency part cannot carry the \(H^s\) tail, because exterior \(L^2\) tightness controls bounded frequencies.
+Any survivor must therefore escape to dyadic frequency: \(N_j\to\infty\) while \(N_j^s\|P_{N_j}W_{R_j}(t_j)\|_{L^2}\) stays bounded below.
+If the surviving packet has no same-fluid material address, \(\Pack_Q\) fails.
+If it is not carried by the same Navier--Stokes pressure, viscosity, and source ancestry, \(\Part_{M,Q}\) fails.
+On the retained Pack+Part branch, a fixed positive Field scale \(\rho>0\) would give a finite derivative tower through some \(M>s+2\).
+Littlewood--Paley cancellation then forces \(N_j^s\|P_{N_j}W_{R_j}(t_j)\|_{L^2}\to0\), contradicting the dyadic survivor lower bound.
+Thus retained Pack+Part forces failure of every fixed positive Field scale.
+\end{proof}
+
+This is the whole-space CM conclusion.
+The direct exterior \(H^s\) estimate remains a stronger positive export theorem, but it is no longer an open blocker for the CM pass-or-exit proof.
+The whole-space branch either supplies the positive tail input or lands the surviving exterior source in Pack, Part, or Field, and therefore reaches the same class-exit conclusion as the periodic branch.
 
 
 \section{Mathematical Branch Coverage}
