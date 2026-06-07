@@ -3,7 +3,7 @@ version: 3
 identity:
   problem_id: navier-stokes
   artifact_id: release-manifest-navier-stokes
-  generated_at: '2026-06-07T17:47:41Z'
+  generated_at: '2026-06-07T17:50:10Z'
   generator: system/runner/lib/release_surface_reconciler.rb
 status: blocked
 pass: false
@@ -11,8 +11,8 @@ release_eligible: false
 bundle_status: cm-contrapositive-referee-blocked
 terminal_safe: false
 required_before_terminal_release: []
-source_fingerprint: d4b968827f3bf82fe57f257018c2fe99444800fd
-bundle_sha1: e7b73fe46a9c0216956302777c06a0f478c46d68
+source_fingerprint: 70be45437a25c61be3b3376d94024f6e0b2c6f51
+bundle_sha1: 8829ffd4b9f6a8e02210267ffdcd9479c9c902ef
 summary:
   artifact_count: 15
   missing_artifact_count: 0
@@ -77,7 +77,7 @@ source_summary:
     pass: false
     release_eligible: false
     blockers: []
-  source_fingerprint: d4b968827f3bf82fe57f257018c2fe99444800fd
+  source_fingerprint: 70be45437a25c61be3b3376d94024f6e0b2c6f51
 artifacts:
 - path: problems/navier-stokes/theorem-packet.yaml
   present: true
@@ -96,59 +96,59 @@ artifacts:
   modified_at: '2026-06-06T17:32:04Z'
 - path: problems/navier-stokes/submission-verdict.yaml
   present: true
-  sha1: fbac4a9d00d07607dae45df14e08c527f85f4c4e
-  bytes: 106612
-  modified_at: '2026-06-07T17:48:17Z'
+  sha1: ecbb348cdddbca490ae686f11b00d7739f57b520
+  bytes: 106611
+  modified_at: '2026-06-07T17:50:24Z'
 - path: problems/navier-stokes/release-decision.yaml
   present: true
-  sha1: 6c8b13dc21b2412e9d220f55f54334e0360a4e62
+  sha1: fe979e3ef8209420d5abbbf146cd3c77d35910e1
   bytes: 4691
-  modified_at: '2026-06-07T17:48:17Z'
+  modified_at: '2026-06-07T17:50:24Z'
 - path: problems/navier-stokes/dependency-audit.yaml
   present: true
-  sha1: '05723683b0aebfa64bb7f50e7da858d1e63cc570'
+  sha1: 7179e8e4893908d0989a7acf50acb76795376d85
   bytes: 1577
-  modified_at: '2026-06-07T17:48:18Z'
+  modified_at: '2026-06-07T17:50:38Z'
 - path: problems/navier-stokes/assumption-audit.yaml
   present: true
-  sha1: '009333094868f9dfe850a0dc598b08f39073878c'
+  sha1: ce6485a48fa1e6d7fa7dbdb345e698d53e13f604
   bytes: 1577
-  modified_at: '2026-06-07T17:48:18Z'
+  modified_at: '2026-06-07T17:50:38Z'
 - path: problems/navier-stokes/circularity-audit.yaml
   present: true
-  sha1: 3c09252a54af00b5911e5b05d9bda46ab6db5218
+  sha1: dce4006282f6be591b9117a458749cd15488c756
   bytes: 1579
-  modified_at: '2026-06-07T17:48:18Z'
+  modified_at: '2026-06-07T17:50:38Z'
 - path: problems/navier-stokes/gap-audit.yaml
   present: true
-  sha1: 38bc0675f9f80dff7dfa59ec2c33aa4915727b0a
+  sha1: 3b825e6e23179a39e8351c8c4255dee3cb0027ea
   bytes: 1574
-  modified_at: '2026-06-07T17:48:18Z'
+  modified_at: '2026-06-07T17:50:38Z'
 - path: problems/navier-stokes/gap-ticket.yaml
   present: true
-  sha1: 93219744651548eca65df26c3dac7288c42e3220
+  sha1: 2022b0e50c662aca8724ef428aa1d79a7df97aaa
   bytes: 1612
-  modified_at: '2026-06-07T17:48:18Z'
+  modified_at: '2026-06-07T17:50:38Z'
 - path: problems/navier-stokes/consistency-audit.yaml
   present: true
-  sha1: b25c77315ecd9a5df20e9556b05527bbbe0601c9
+  sha1: 9291f496cd748bbe0f8293809db4d25297af5a1c
   bytes: 1579
-  modified_at: '2026-06-07T17:48:18Z'
+  modified_at: '2026-06-07T17:50:38Z'
 - path: problems/navier-stokes/dependency-graph.yaml
   present: true
-  sha1: 4e31ca07627223c4b210b6d552a3042b79a77679
+  sha1: c1928225ef595af06fd5aca6af2ca64b74a76dee
   bytes: 1207
-  modified_at: '2026-06-07T17:48:18Z'
+  modified_at: '2026-06-07T17:50:38Z'
 - path: problems/navier-stokes/failure-mode-checks.yaml
   present: true
-  sha1: d6bb62ed921a836bf7c45a649ac0c0ae82eb7908
+  sha1: 33ac909222629f623ec043649a14be92b3259989
   bytes: 1640
-  modified_at: '2026-06-07T17:48:18Z'
+  modified_at: '2026-06-07T17:50:38Z'
 - path: problems/navier-stokes/auto-audit.yaml
   present: true
-  sha1: 23535a0292a7ee2dc8bbde1ceb488fdd1625789b
-  bytes: 18482
-  modified_at: '2026-06-07T17:48:17Z'
+  sha1: a0eda6683bf042e83b1180252a6123b21b588c37
+  bytes: 18510
+  modified_at: '2026-06-07T17:50:38Z'
 - path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   present: true
   sha1: 5ac3a9efbd9ba6119fdb64d58caeb33cf1b449d8
