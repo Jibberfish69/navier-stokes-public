@@ -672,7 +672,7 @@ mode_selection_protocol:
     failed, or verification cannot be repaired internally.
 current_authority_status:
   status: superseded-by-direct-live-clearance
-  checked_at: '2026-06-07T17:50:10Z'
+  checked_at: '2026-06-07T18:03:57Z'
   reason: Direct live authority reports no open theorem frontier; this artifact is
     retained as historical theorem-work context and must not respawn a live blocker.
   authority_summary:
