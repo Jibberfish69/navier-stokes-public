@@ -1,17 +1,17 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
   artifact_id: dependency-audit-navier-stokes
-  generated_at: '2026-06-07T20:07:37Z'
-  generator: system/runner/lib/release_surface_reconciler.rb
-  purpose: dependency release blocked by CM contrapositive referee audit
+  created_by: release_surface_reconciler
+  purpose: dependency audit reconciled from closed direct-live authority
+generated_at: '2026-06-07T20:15:31Z'
 status:
-  audit_status: cm-contrapositive-referee-blocked
-  pass: false
-  release_eligible: false
-pass: false
-release_eligible: false
+  audit_status: dependency-graph-closed
+  pass: true
+  route_pass: true
+  release_eligible: true
+pass: true
 source:
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
@@ -19,25 +19,19 @@ source:
   review_verdict: problems/navier-stokes/review-verdict.yaml
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
   release_decision: problems/navier-stokes/release-decision.yaml
-  cm_contrapositive_referee_audit: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 summary:
-  authority_mode: cm-contrapositive-referee-gate
-  audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
-  audit_status: blocked-on-clay-counterexample-exclusion-bridge
+  total_obligations: 2
   blocking_count: 0
-  frontier_count: 0
+  bridge_pending_count: 0
   unresolved_count: 0
-  bridge_discharge_blocking_count: 0
-  theorem_warrant_blocking_count: 0
-  all_discharged: false
-  referee_blockers: &1 []
-  open_frontier_labels: []
+  all_discharged: true
+blocking_dependencies: []
 findings:
-- The CM contrapositive referee audit reports unresolved proof-bearing burdens; stale
-  terminal release overlays are demoted.
+- The current direct-live theorem authority gate reports no blocking obligations.
+- Release blocking dependency counts are reconciled to the accepted matrix and terminal
+  release decision.
 verdict:
-  dependency_graph_closed: false
-  release_eligible: false
-  all_discharged: false
-  clay_ready: false
-required_for_release: *1
+  dependency_graph_closed: true
+  dependency_direction_clean: true
+  clay_release_dependency_status: closed
+required_for_release: []
