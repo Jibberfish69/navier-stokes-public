@@ -29,7 +29,7 @@ primary_frontier:
     they are necessary inside this same CM class-exit invariant.
 nodes:
   cm_convergence_atlas:
-    status: audit-open-target-refinement-surface
+    status: support-audit-not-cm-blocker
     theorem_ids:
       - CM.ConvergenceAtlas.TargetRefinement
     source:
@@ -105,7 +105,7 @@ nodes:
       proof to conditional analytic support because FirstPulseKill.A lacks
       source-parent compactness / no-diffuse-ancestry.
   normalized_adjoint_source_drain_support:
-    status: conditional-support
+    status: support-only-after-sourcewall-demotion
     theorem_ids:
       - CoeffStop.A
       - WeightedAdjBessel.A
@@ -173,7 +173,7 @@ nodes:
       pays only first-moment tail unless a functional already contains the
       scale-critical active-square reserve.
   parabolic_source_current_root:
-    status: conditional-support-after-collapse
+    status: support-history-after-collapse
     theorem_ids:
       - ParabolicSourceCurrent.A
       - BareDyadicSkewCurrent.0
@@ -251,7 +251,7 @@ nodes:
       control is only L1_t; terminal atoms require super-L1 residence such as
       Lp_t, p>1, or an independently produced rigid residue class with Liouville.
   native_trilinear_source_wall:
-    status: equivalent-open-presentation
+    status: support-history-equivalent-sourcewall-presentation
     theorem_ids:
       - PositiveRemainderDepletion.A
       - NativeTrilinearDefectDomination.A
@@ -309,7 +309,7 @@ nodes:
       positive-scale retained-carrier bridge licenses later Field readout, and
       forward progress requires an external new-production theorem.
   downstream_no_jump_readout:
-    status: conditional-downstream
+    status: downstream-consumer-gated-by-demoted-sourcewall
     theorem_ids:
       - SOURCE.NO-PULSE.A
       - AWG.A
@@ -325,7 +325,7 @@ nodes:
       Downstream source-pulse/no-Jump_avg terminal-tail consumer. It becomes
       active only after the reopened source-wall root is proved.
   readout_scale_interface:
-    status: replacement-interface-not-root
+    status: support-interface-not-root
     theorem_ids:
       - GoodScaleNonCollapse.A
       - UniformReadCover.A
@@ -338,7 +338,7 @@ nodes:
       and terminal scale noncollapse. Proving it from OriginalSmoothData still
       requires ScaleCriticalTreeCarleson.A or the Zeno rigid-class pair.
   typed_cm_rows:
-    status: typed-conditional-inputs
+    status: classification-sync-not-endpoint-exclusion
     theorem_ids:
       - Pack.TTU=>Pack_Q
       - Part.NoDrop=>Part_N_Q
@@ -376,7 +376,7 @@ nodes:
       uniform H^s(T^3), s>5/2 -> standard H^s continuation. This node must stay
       scoped to T^3 and must not absorb R^3 tail/export burdens.
   t3_pctp_hs_audit_pressure:
-    status: audit-open-math-pressure
+    status: support-audit-pressure-not-cm-blocker
     theorem_ids:
       - PCTP.hard
       - TTU.A
@@ -409,7 +409,7 @@ nodes:
       endpoint matrix, and tower/readout machinery feeding the T^3 H^s endpoint
       and the CM terminal-witness endpoint.
   h1_qdrain_enstrophy_wall:
-    status: equivalent-open-presentation
+    status: support-history-equivalent-sourcewall-presentation
     theorem_ids:
       - QDrain.A
       - QBound.A
@@ -456,7 +456,7 @@ nodes:
       cited. It is not a generic all-critical-class regularity theorem and does
       not replace source-control or endpoint proof obligations.
   r3_hs_tail_export_matrix:
-    status: cm-dichotomy-installed-direct-export-estimate-open
+    status: cm-dichotomy-installed-direct-export-estimate-optional
     theorem_ids:
       - Tail.Hs_R3
       - TailFace_R3^Hs
@@ -487,7 +487,7 @@ nodes:
       dichotomy lands the survivor in Pack, Part, or Field. This branch is
       upstream-separated from the periodic T^3 endpoint.
   fixed_nu_euler_transfer:
-    status: conditional-support
+    status: comparison-support-quarantined
     theorem_ids:
       - DirectFixedNuEulerSmoothBridge.A
       - EulerSmoothFixedNuRelativeBound.A
@@ -502,7 +502,7 @@ nodes:
       smoothness or stand-alone Navier-Stokes smoothness without the transfer
       theorem.
   clay_target:
-    status: target
+    status: target-cm-chain-installed
     theorem_ids:
       - Smooth(Q)
       - Clay
@@ -513,14 +513,14 @@ nodes:
       Final manuscript target after source-wall readout and CM witness rows are
       reconciled.
   generated_surface_drift:
-    status: open-shared-system-repair
+    status: resolved-stale-surface-repair
     source:
       - governance-escalation.yaml
     role: >-
-      Non-math blocker: shared formalization/theorem-repair routing must
-      recognize CM.CrossFaceSynthesis.A as installed and return the lane to
-      source-wall-root-after-reconcile instead of replaying a bridge-license
-      failure.
+      Shared formalization/theorem-repair routing now records
+      CM.CrossFaceSynthesis.A as installed and keeps the lane on the
+      entry-first CM witness route instead of replaying the stale
+      bridge-license failure.
 edges:
   - from: torus_global_material_atlas_terminal_capture
     to: clay_cm_contrapositive_witness_consumption
