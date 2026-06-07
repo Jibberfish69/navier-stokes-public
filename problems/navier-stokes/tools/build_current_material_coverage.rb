@@ -200,8 +200,8 @@ FAMILIES = [
     ]
   },
   {
-    "id" => "single_pdf_rebuilt_branch_material",
-    "paper_representation" => "Late-May branch rebuild notes, rebuilt section files, and R3/critical-carrier support notes now route through the single canonical submission manuscript. They are branch-support and CM-face material for `navier-stokes-submission.tex`, not a separate PDF root.",
+    "id" => "human_app_aligned_branch_material",
+    "paper_representation" => "Late-May branch rebuild notes, rebuilt section files, and R3/critical-carrier support notes route through the human/app-aligned submission track as branch-support and CM-face material. The Codex-structured papers track may consume this material as source, but the two PDF tracks remain separate required Clay-facing edges.",
     "files" => %w[
       submission-bundle/human-author-chronological-cm-exit-manuscript-architecture-20260530.md
       submission-bundle/pdf-rebuild-branch-inventory-20260530.md
@@ -221,6 +221,48 @@ FAMILIES = [
       theorem-construction/mpp-besov-lorentz-admissible-critical-to-cm-face-20260529.md
       theorem-construction/mpp-carrier-admissibility-point-probe-germ-pack-lemma-20260530.md
       theorem-construction/r3-forward-positive-wall-exhaustion-20260530.md
+    ]
+  },
+  {
+    "id" => "june_2026_active_cm_completion_notes",
+    "paper_representation" => "June 2026 theorem notes are represented as active CM completion-frontier material. They sharpen Clay counterexample exclusion, Pack_Q reader certification, retained pressure/finite-energy obstruction placement, averaged Jump_avg and receiver readout issues, RSCB/SCF_avg face landing, and executor proof-frontier blockers. They do not by themselves close the MPP; the manuscript may use them only as proof-frontier material until a Pack/Part/Field mechanism is written as proof.",
+    "files" => %w[
+      theorem-construction/mpp-nightly-20260602-clay-counterexample-exclusion-pressure-note.md
+      theorem-construction/mpp-clay-counterexample-exclusion-target-correction-20260603.md
+      theorem-construction/mpp-finite-terminal-obstruction-inventory-row-audit-20260605.md
+      theorem-construction/mpp-pack-q-cm-certification-reader-explanation-20260605.md
+      theorem-construction/mpp-retained-pressure-package-cm-face-placement-20260605.md
+      theorem-construction/mpp-finite-energy-point-pressure-derivative-obstruction-20260606.md
+      theorem-construction/mpp-pressure-derivative-obstruction-trajectory-integration-20260606.md
+      theorem-construction/mpp-averaged-jumpavg-field-face-reduction-20260607.md
+      theorem-construction/mpp-averaged-receiver-no-upstream-readout-20260607.md
+      theorem-construction/mpp-averaged-terminal-cover-common-scheduler-reentry-20260607.md
+      theorem-construction/mpp-rscb-scfavg-face-landing-20260607.md
+      theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
+      theorem-construction/ns-completion-executor-proof-frontier-20260607.md
+    ]
+  },
+  {
+    "id" => "d8_route_app_graph_pdf_sync_surfaces",
+    "paper_representation" => "D8 route maps and executor sync payloads are represented as app/graph/PDF coordination material. They describe how the completion engine routes repo, node-graph, app, MCP, proof, and manuscript surfaces into work lanes; they are not theorem proof text and cannot replace branch-native proof closure.",
+    "files" => %w[
+      d8-completion-route-map.yaml
+      ns-completion-executor-route-sync-20260607-iteration-2.yaml
+      ns-completion-executor-route-sync-20260607.yaml
+      ns-completion-route-sync-payload-20260607-iteration-2.yaml
+      ns-completion-route-sync-payload-20260607.yaml
+    ]
+  },
+  {
+    "id" => "dual_pdf_submission_sync_surfaces",
+    "paper_representation" => "Submission executor scaffolds, boundary records, and submission-sync ledgers are represented as dual-PDF readiness and provenance material. They keep the preferred human/app-aligned PDF and the Codex-structured papers PDF synchronized as two required Clay-facing tracks; they do not count as proof closure.",
+    "files" => %w[
+      submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
+      submission-bundle/ns-completion-executor-proof-scaffold-20260607.md
+      submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
+      submission-bundle/ns-completion-executor-submission-boundary-20260607.yaml
+      submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+      submission-bundle/ns-completion-submission-sync-20260607.yaml
     ]
   },
   {
