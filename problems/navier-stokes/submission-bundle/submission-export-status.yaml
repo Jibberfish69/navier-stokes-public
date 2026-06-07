@@ -1,18 +1,34 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-07T16:20:23Z'
+generated_at: '2026-06-07T17:11:32Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
-pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+pdf_tracks:
+  human_app_aligned:
+    path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    role: preferred problems/** app-aligned human submission track
+    present: true
+    bytes: 4407886
+    sha1: c3993e94ef168c5ddc894573c9364c4ddf47babb
+    required_for_clay_submission: true
+  codex_machine_paper:
+    path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    role: papers/** Codex-owned machine paper track
+    present: true
+    bytes: 4407903
+    sha1: 450b5ae0e2715bc3252953632cc4b38b312854b1
+    required_for_clay_submission: true
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
-  source_word_count: 448540
-  bundle_word_count: 448540
+  source_word_count: 448741
+  bundle_word_count: 448741
   primary_surface_word_count: 0
-  theorem_packet_word_count: 4408
+  theorem_packet_word_count: 5665
 skeletal_source_detected: false
 authoritative_content_included: true
 authoritative_supplements: []
@@ -35,14 +51,12 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   ;  []:\n) (./sections/rebuilt-compactness-exact-object-branch.tex [23] [24])\n(./sections/rebuilt-recovery-surface-fidelity-branch.tex
   [25])\n(./sections/rebuilt-lower-prefix-upper-tail-branch.tex [26])\n(./sections/rebuilt-kernelized-lifted-band-branch.tex
   [27])\n(./sections/rebuilt-shell-gain-half-derivative-branch.tex [28])\n(./sections/rebuilt-cm-exit-method.tex
-  [29]) [30] [31] [32] [33]\nOverfull \\hbox (3.40234pt too wide) detected at line
-  1327\n[][]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 Q\\OT1/cmr/m/n/10.95 ; \\U/euf/m/n/10\n.95
-  O[]\\OT1/cmr/m/n/10.95 ) =[]\\OMS/cmsy/m/n/10.95 ) []\n[34] (./proof-attempt-failure-appendix.tex
-  [35] [36] [37] [38] [39]\nOverfull \\hbox (11.96913pt too wide) detected at line
-  445\n[]  \\OT1/cmr/m/n/10.95 +  []  +  []  +  []\\OML/cmm/m/it/10.95 :\n[40] [41]
-  [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54]\n[55] [56]\nOverfull
-  \\hbox (173.69772pt too wide) detected at line 1778\n[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
-  ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cm\nsy/m/n/10.95 ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
+  [29]) [30] [31] [32] [33] [34]\n(./proof-attempt-failure-appendix.tex [35] [36]
+  [37] [38] [39]\nOverfull \\hbox (11.96913pt too wide) detected at line 445\n[]  \\OT1/cmr/m/n/10.95
+  +  []  +  []  +  []\\OML/cmm/m/it/10.95 :\n[40] [41] [42] [43] [44] [45] [46] [47]
+  [48] [49] [50] [51] [52] [53] [54]\n[55] [56]\nOverfull \\hbox (173.69772pt too
+  wide) detected at line 1778\n[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) []
+  \\OT1/cmr/m/n/10.95 =[]\\OMS/cm\nsy/m/n/10.95 ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
   ) []\\OT1/cmr/m/n/10\n.95 (\\OML/cmm/m/it/10.95 Q\\OT1/cmr/m/n/10.95 ; \\U/euf/m/n/10.95
   O[]\\OT1/cmr/m/n\n/10.95 )\\OML/cmm/m/it/10.95 :\n[57] [58] [59] [60] [61] [62]
   [63] [64] [65] [66] [67] [68] [69] [70] [71]\n[72] [73] [74] [75] [76] [77] [78]
@@ -354,7 +368,7 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   Warning: File `navier-stokes-submission.out' has changed\n.\n(rerunfilecheck)                Rerun
   to get outlines right\n(rerunfilecheck)                or use package `bookmark'.\n\n
   )\n(see the transcript file for additional information)</usr/local/texlive/2025/te\nxmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/tex\nmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf\n-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-\ndist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-d\nist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-di\nst/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist\n/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/f\nonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fon\nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts\n/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/t\nype1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type\n1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p\nublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ\nic/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/\namsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/a\nmsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams\nfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfo\nnts/euler/eufm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams\nfonts/euler/eufm7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/am\nsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p\nublic/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub\nlic/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/\ncm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm\n-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-s\nuper/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-sup\ner/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super\n/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/s\nfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sft\ni1095.pfb>\nOutput
-  written on navier-stokes-submission.pdf (1220 pages, 4398904 bytes).\nTranscript
+  written on navier-stokes-submission.pdf (1220 pages, 4400336 bytes).\nTranscript
   written on navier-stokes-submission.log.\n\nThis is pdfTeX, Version 3.141592653-2.6-1.40.28
   (TeX Live 2025) (preloaded format=pdflatex)\n restricted \\write18 enabled.\nentering
   extended mode\n(./navier-stokes-submission.tex\nLaTeX2e <2025-11-01>\nL3 programming
@@ -376,14 +390,12 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   ;  []:\n) (./sections/rebuilt-compactness-exact-object-branch.tex [25] [26])\n(./sections/rebuilt-recovery-surface-fidelity-branch.tex
   [27])\n(./sections/rebuilt-lower-prefix-upper-tail-branch.tex [28])\n(./sections/rebuilt-kernelized-lifted-band-branch.tex
   [29])\n(./sections/rebuilt-shell-gain-half-derivative-branch.tex [30])\n(./sections/rebuilt-cm-exit-method.tex
-  [31]) [32] [33] [34] [35]\nOverfull \\hbox (3.40234pt too wide) detected at line
-  1327\n[][]\\OT1/cmr/m/n/10.95 (\\OML/cmm/m/it/10.95 Q\\OT1/cmr/m/n/10.95 ; \\U/euf/m/n/10\n.95
-  O[]\\OT1/cmr/m/n/10.95 ) =[]\\OMS/cmsy/m/n/10.95 ) []\n[36] (./proof-attempt-failure-appendix.tex
-  [37] [38] [39] [40] [41]\nOverfull \\hbox (11.96913pt too wide) detected at line
-  445\n[]  \\OT1/cmr/m/n/10.95 +  []  +  []  +  []\\OML/cmm/m/it/10.95 :\n[42] [43]
-  [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56]\n[57] [58]\nOverfull
-  \\hbox (173.69772pt too wide) detected at line 1778\n[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
-  ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cm\nsy/m/n/10.95 ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
+  [31]) [32] [33] [34] [35] [36]\n(./proof-attempt-failure-appendix.tex [37] [38]
+  [39] [40] [41]\nOverfull \\hbox (11.96913pt too wide) detected at line 445\n[]  \\OT1/cmr/m/n/10.95
+  +  []  +  []  +  []\\OML/cmm/m/it/10.95 :\n[42] [43] [44] [45] [46] [47] [48] [49]
+  [50] [51] [52] [53] [54] [55] [56]\n[57] [58]\nOverfull \\hbox (173.69772pt too
+  wide) detected at line 1778\n[] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95 ) []
+  \\OT1/cmr/m/n/10.95 =[]\\OMS/cm\nsy/m/n/10.95 ) [] \\OT1/cmr/m/n/10.95 =[]\\OMS/cmsy/m/n/10.95
   ) []\\OT1/cmr/m/n/10\n.95 (\\OML/cmm/m/it/10.95 Q\\OT1/cmr/m/n/10.95 ; \\U/euf/m/n/10.95
   O[]\\OT1/cmr/m/n\n/10.95 )\\OML/cmm/m/it/10.95 :\n[59] [60] [61] [62] [63] [64]
   [65] [66] [67] [68] [69] [70] [71] [72] [73]\n[74] [75] [76] [77] [78] [79] [80]
@@ -693,13 +705,7 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   [1220]\n[1221]) [1222] (./navier-stokes-submission.aux)\n\nLaTeX Warning: Label(s)
   may have changed. Rerun to get cross-references right.\n\n )\n(see the transcript
   file for additional information)</usr/local/texlive/2025/te\nxmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/tex\nmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf\n-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-\ndist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-d\nist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-di\nst/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist\n/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/f\nonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fon\nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts\n/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/t\nype1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type\n1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p\nublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ\nic/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/\namsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/a\nmsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams\nfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfo\nnts/euler/eufm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams\nfonts/euler/eufm7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/am\nsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p\nublic/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub\nlic/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi\nc/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/\ncm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm\n-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-s\nuper/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-sup\ner/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super\n/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/s\nfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sft\ni1095.pfb>\nOutput
-  written on navier-stokes-submission.pdf (1222 pages, 4406690 bytes).\nTranscript
+  written on navier-stokes-submission.pdf (1222 pages, 4407903 bytes).\nTranscript
   written on navier-stokes-submission.log.\n"
 stderr: "\n"
-fallback: 
-human_pdf_sha1: b8ca576a1e3403bb3212e7b0099bf9857195e7be
-manuscript_tex_sha1: 5015c1a20b14879dd819b11c7e2cde9e45194c30
-submission_ready: false
-completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-readiness_blocker: Clay counterexample-exclusion bridge and reader-facing proof promotion
-  remain open; keep submission_ready=false.
+fallback:
