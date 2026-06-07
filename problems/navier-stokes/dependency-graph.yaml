@@ -1,21 +1,33 @@
 ---
-version: 1
+version: 3
 identity:
   problem_id: navier-stokes
   artifact_id: dependency-graph-navier-stokes
-  generated_at: '2026-05-27T18:20:55Z'
+  generated_at: '2026-06-07T17:37:39Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: passed
-pass: true
+status: cm-contrapositive-referee-blocked
+pass: false
+release_eligible: false
 source:
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
+  review_verdict: problems/navier-stokes/review-verdict.yaml
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
   release_decision: problems/navier-stokes/release-decision.yaml
+  cm_contrapositive_referee_audit: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 summary:
-  node_count: 0
+  authority_mode: cm-contrapositive-referee-gate
+  audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+  audit_status: blocked-on-clay-counterexample-exclusion-bridge
   blocking_count: 0
-  all_discharged: true
+  frontier_count: 0
+  unresolved_count: 0
+  bridge_discharge_blocking_count: 0
+  theorem_warrant_blocking_count: 0
+  all_discharged: false
+  referee_blockers: []
+  open_frontier_labels: []
+  node_count: 0
 nodes: []
 edges: []
