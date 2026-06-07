@@ -1,0 +1,78 @@
+---
+version: 1
+problem_id: navier-stokes
+generated_at: '2026-06-07T23:10:24Z'
+started_at: '2026-06-07T23:10:05Z'
+status: passed
+purpose: Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into
+  the submission TeX/PDF path, and fail unless both required PDF tracks visibly carry
+  the proof-depth anchors.
+authority:
+  source_manifest: problems/navier-stokes/paper-export-inputs.yaml
+  current_material_coverage: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
+  surface_derivation_inventory: problems/navier-stokes/submission-bundle/surface-derivation-inventory.yaml
+  main_tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  codex_machine_pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  codex_machine_tex: papers/navier-stokes/manuscript/generated/main.tex
+commands:
+- label: current material coverage check
+  argv:
+  - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
+  - problems/navier-stokes/tools/build_current_material_coverage.rb
+  - "--check"
+  success: true
+  exitstatus: 0
+  stdout_tail: CURRENT_MATERIAL_COVERAGE_CHECK 186
+  stderr_tail: ''
+- label: surface derivation appendix check
+  argv:
+  - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
+  - problems/navier-stokes/tools/build_surface_derivation_appendix.rb
+  - "--check"
+  success: true
+  exitstatus: 0
+  stdout_tail: SURFACE_DERIVATION_APPENDIX_CHECK certificates=1944 quarantine=1853
+    current_material=186
+  stderr_tail: ''
+- label: PDF argument hygiene
+  argv:
+  - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
+  - problems/navier-stokes/tools/check_pdf_argument_hygiene.rb
+  success: true
+  exitstatus: 0
+  stdout_tail: PDF_ARGUMENT_HYGIENE OK
+  stderr_tail: ''
+- label: PDF output topology
+  argv:
+  - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
+  - problems/navier-stokes/tools/check_pdf_output_topology.rb
+  success: true
+  exitstatus: 0
+  stdout_tail: 'PDF_OUTPUT_TOPOLOGY OK: human/app-aligned PDF problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    and papers/Codex PDF papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    are both required Navier-Stokes Clay paper tracks.'
+  stderr_tail: ''
+export_result:
+gates:
+- gate_id: current-material-coverage-complete
+  status: passed
+  checked_text_files_outside_existing_union: 186
+  family_count_sum: 186
+  errors: []
+- gate_id: source-depth-appendices-materialized-in-tex
+  status: passed
+  source_field_word_count: 411594
+  surface_derivation_expansion_rows: 3804
+  main_tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  errors: []
+- gate_id: dual-pdf-track-rendered-depth-readback
+  status: passed
+  preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  pdf_tracks:
+    human_app_aligned: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    codex_machine_paper: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  papers_pdf_pages: 1035
+  human_pdf_pages: 1073
+  sha256: 659dc4a6b6e11ead5ec0c4608b861ef5a2b0c63db090b4032103adabb4d29186
+  errors: []
