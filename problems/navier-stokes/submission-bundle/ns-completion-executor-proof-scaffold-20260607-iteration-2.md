@@ -1,0 +1,16 @@
+# NS completion executor manuscript terminal pass 2026-06-07
+
+This pass re-entered changed refs from the first executor pass:
+- problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260607.md
+- problems/navier-stokes/ns-completion-executor-route-sync-20260607.yaml
+- problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607.md
+- problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607.yaml
+
+Stop state: exact blocker, not reader-facing proof prose.
+
+The manuscript cannot honestly promote this as a Clay-facing proof paragraph. The earned reader-facing sentence is only this: the current obstruction still needs a proof pass that either lands the failure in Pack, Part, or Field, or rejects the object as illegitimate for the CM test. Until that theorem pass exists, the PDF remains a scaffold target rather than a submission-ready proof.
+
+Next executable writing tasks:
+- Keep the proof paragraph out of final prose until the proof lane supplies a narrowed or closed face.
+- Draft only the explanatory setup for why legitimacy is checked before estimates.
+- Mark the exact missing proof sentence in the manuscript architecture instead of calling the section ready.
