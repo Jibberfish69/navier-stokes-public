@@ -47,6 +47,26 @@ topics:
       a fixed classical approximation family and dyadic tail input, so the discrete
       variant is not a separate matrix obligation.
     release_rule: demoted to provenance companion for compactness, not an export blocker.
+  - classification_id: ns-src-gap-compactness-general
+    topic: compactness
+    status: explicitly-covered
+    matrix_role: non-proof-obligation
+    source_paths:
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Strong Convergence in L2 Using Compactness__desktop_navier_stokes_zip__2025-01-12.tex
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Compactness Proof for Discrete Navier-Stokes Solutions__desktop_navier_stokes_zip__2025-01-10.tex
+      - RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Rigorous Mapping Between Discrete and Continuous Representations of the Navier-Stokes Equations and Proof of Global Smoothness__desktop_navier_stokes_zip__2025-01-10.tex
+    local_anchors:
+      - problems/navier-stokes/compactness-discharge-source-pack.md
+      - problems/navier-stokes/theorem-construction/compactness-upgrade-lemma.md
+      - problems/navier-stokes/theorem-construction/nonlinear-compactness-upgrade-operator.md
+      - problems/navier-stokes/submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex
+    rationale: The plain compactness topic is carried by the compactness discharge
+      source pack, the low/high compactness upgrade notes, and the human/app-aligned
+      compactness exact-object section. The current CM route treats compactness as
+      same-surface support/provenance for exact-object capture, not as an unidentified
+      export blocker or independent live proof obligation.
+    release_rule: explicitly covered by compactness source pack and manuscript section;
+      no source-gap blocker remains.
   - classification_id: ns-src-gap-curvature-based
     topic: curvature based
     status: localized
