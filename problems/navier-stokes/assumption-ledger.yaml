@@ -7,10 +7,11 @@ identity:
   purpose: assumption and release-gate ledger after H1-H6 and Theorem 2.1 warrant
     alignment
 status:
-  ledger_status: release-eligible
-  all_authority_assumptions_discharged: true
-  release_eligible: true
-  release_gate: proof-promotion-release-surface-reconciled
+  ledger_status: blocked-cm-contrapositive-referee-audit
+  direct_live_authority_all_discharged: true
+  cm_contrapositive_referee_gate_clear: false
+  release_eligible: false
+  release_gate: cm-contrapositive-referee-blocked
 source_evidence:
   theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_warrant: problems/navier-stokes/theorem-to-warrant.yaml
@@ -90,19 +91,14 @@ summary:
   hfg_side_primitives_open:
   - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
   release_blocking_count: 0
-  all_discharged: true
+  all_discharged: false
   total_authority_assumptions: 0
   discharged_authority_assumptions: 0
-  referee_blockers:
-  - The installed terminal-capture proof is for the active torus-first surface. A
-    Clay-facing whole-space R^3 claim still needs a separate tightness/localization
-    export theorem.
-  - If the submitted claim is the full R^3 Clay statement, prove an export theorem
-    from the torus-first global-atlas CM proof to whole-space data.
-release_blockers: []
-required_next_actions: []
-generated_at: '2026-05-27T18:20:55Z'
-pass: true
+  referee_blockers: &1 []
+release_blockers: *1
+required_next_actions: *1
+generated_at: '2026-06-07T17:37:39Z'
+pass: false
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
   status: local-theorem-program-closed
