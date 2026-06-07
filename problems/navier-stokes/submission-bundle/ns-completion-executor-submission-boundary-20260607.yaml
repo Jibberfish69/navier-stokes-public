@@ -1,0 +1,17 @@
+---
+version: 1
+artifact_id: ns-completion-executor-submission-boundary-2026-06-07
+status: blocked
+date: '2026-06-07'
+consumed_work_node_ids:
+- ns-submission-readiness
+submission_ready: false
+boundary_reason: changed executor outputs exist, but proof closure and reader-facing
+  manuscript proof are still open
+may_advance_when:
+- the proof lane lands the CM obstruction in Pack, Part, or Field or closes it by
+  legitimate scope rejection
+- the manuscript lane converts earned proof movement into human-facing proof prose
+- the route graph, app, and MCP readout agree with the proof and manuscript state
+state_delta: changed submission boundary by tying readiness to executor proof/manuscript
+  evidence
