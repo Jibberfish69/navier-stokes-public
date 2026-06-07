@@ -93,7 +93,7 @@ claim_boundary:
     release approval.
 current_authority_status:
   status: superseded-by-direct-live-clearance
-  checked_at: '2026-06-07T18:12:31Z'
+  checked_at: '2026-06-07T18:15:25Z'
   reason: Direct live authority reports no open theorem frontier; this artifact is
     retained as historical theorem-work context and must not respawn a live blocker.
   authority_summary:
