@@ -1,38 +1,32 @@
 ---
-version: 6
+version: 7
 artifact_id: navier-stokes-current-route-dependency-graph-20260505
-generated_at: '2026-05-31T00:00:00Z'
+generated_at: '2026-06-07T14:18:19Z'
 generated_by: codex
 status: current-lane-authority-overlay
 scope: problems/navier-stokes
 authority_mode: non_generated_theorem_facing_overlay
 purpose: >-
-  Record the current Navier-Stokes route graph after SourceWall.Reconcile.A was
-  resolved by demoting normalized-adjoint source-drain to conditional support.
-  The companion CM convergence atlas records the same graph as an audit-open
-  target-refinement surface for automation and subagent theorem-crank passes.
-  Version 6 adds the missing visual-depth nodes for the periodic H^s endpoint,
-  PCTP/H^s audit pressure, L^3/L^n critical-space material, H^1/QDrain,
-  SCF/CKN readout, R^3 H^s tail export, and fixed-nu Euler transfer so the
-  viewer can show branch families without collapsing them into source-wall
-  cards.
+  Record the current Navier-Stokes route graph after the June 6/7 trajectory
+  pass moved the live theorem edge back to the Clay CM contrapositive terminal
+  witness route. Source-wall, Carleson, Zeno, QDrain, critical-space, R^3 tail,
+  and fixed-nu comparison surfaces remain visible support or branch-history
+  pressure. They are no longer allowed to replace the primary target unless a
+  fresh CM-necessity audit proves a real in-class nonsmooth third branch.
 primary_frontier:
-  obligation_id: source-wall-root-after-reconcile
-  status: live
+  obligation_id: clay-cm-contrapositive-witness-consumption
+  status: live-direct-authority
   exact_choice:
-    - PositiveRemainderDepletion.A
-    - ScaleCriticalTreeCarleson.A
-    - ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+    - ClayTerminalWitnessCMEntry.A
+    - ClayFiniteFailureTypeCMExhaustion.A
+    - ClayCMContrapositiveEmbedding.A
   statement: >-
-    Prove the reopened source-wall root through the native positive-remainder
-    source-reserve atom, through the direct scale-critical Carleson reserve, or
-    through a genuinely produced Zeno temporal anti-concentration / rigid-class
-    residue route. The May 16 run proves the surrounding routes only
-    conditionally: ASAC pays alignment and one-sided pair-weight defects, while
-    the remaining branch is terminal Zeno source residence. This root is a
-    Pack-first source-residue branch under the CM contrapositive witness split
-    unless a positive-scale retained-carrier bridge licenses later Field readout;
-    it is not the primitive OriginalSmoothData positive-bootstrap direction.
+    Consume the finite Clay terminal witness by entering the canonical same-fluid
+    CM packet tree, exhausting the first failing Pack/Part/Field face, and
+    deriving Exit(Q):=not Member(Q). On the active T^3 surface the terminal
+    capture is carried by TorusGlobalMaterialAtlasTerminalCapture.A. Source-wall
+    and reserve branches are support history unless a later audit proves that
+    they are necessary inside this same CM class-exit invariant.
 nodes:
   cm_convergence_atlas:
     status: audit-open-target-refinement-surface
@@ -60,6 +54,44 @@ nodes:
     role: >-
       Governing CM bridge: all-depth CM witness membership implies Smooth(Q),
       and NonSmooth(Q) forces a Pack/Part/Field witness-face exit.
+  clay_cm_contrapositive_witness_consumption:
+    status: live-direct-authority
+    theorem_ids:
+      - ClayTerminalWitnessCMEntry.A
+      - ClayFiniteFailureTypeCMExhaustion.A
+      - ClayCMContrapositiveEmbedding.A
+    source:
+      - live-theorem-edge.yaml
+      - source-frontier.yaml
+      - theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
+    role: >-
+      Direct Clay-facing route: a finite terminal witness enters the same-fluid
+      CM packet tree, the first failing Pack/Part/Field face is recorded, and
+      that face failure supports Exit(Q):=not Member(Q).
+  torus_global_material_atlas_terminal_capture:
+    status: installed-terminal-capture
+    theorem_ids:
+      - TorusGlobalMaterialAtlasTerminalCapture.A
+    source:
+      - theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
+      - live-theorem-edge.yaml
+    role: >-
+      Tests finite terminal non-continuation on the transported whole-torus
+      material atlas and feeds the active T^3 terminal witness into the CM
+      class-exit route.
+  rscb_scfavg_receiver_face_landing:
+    status: installed-branch-law
+    theorem_ids:
+      - June6.RSCB.SCFavg.FaceLanding.A
+    source:
+      - theorem-construction/mpp-rscb-scfavg-face-landing-20260607.md
+      - theorem-construction/mpp-averaged-receiver-no-upstream-readout-20260607.md
+      - theorem-construction/mpp-finite-energy-point-pressure-derivative-obstruction-20260606.md
+    role: >-
+      Locks the June 6 retained/averaged receiver split: retained point-center
+      failure and averaged cover failure either pass through an installed route
+      or land in the first CM face. They may not be revived as finite-energy
+      NKF.Native or upstream pointwise readout.
   sourcewall_reconcile_resolution:
     status: resolved-by-demotion
     theorem_ids:
@@ -91,7 +123,7 @@ nodes:
       prove SOURCE.NO-PULSE.A from OriginalSmoothData without an additional
       source-wall root theorem.
   direct_carleson_root:
-    status: live-branch
+    status: support-history-branch
     theorem_ids:
       - ParentSquareEmbed.A
       - SquareReserveEvolution.A
@@ -190,7 +222,7 @@ nodes:
       ScaleCriticalTreeCarleson.A. Therefore this route is conditional support,
       not a lower installed root.
   zeno_root:
-    status: live-alternate-branch
+    status: support-history-branch
     theorem_ids:
       - ZenoBoundedClass_B.A
       - ZenoResidueLiouville_B.A
@@ -477,6 +509,19 @@ nodes:
       source-wall-root-after-reconcile instead of replaying a bridge-license
       failure.
 edges:
+  - from: torus_global_material_atlas_terminal_capture
+    to: clay_cm_contrapositive_witness_consumption
+    kind: terminal_capture_feeds_cm_entry
+  - from: rscb_scfavg_receiver_face_landing
+    to: clay_cm_contrapositive_witness_consumption
+    kind: receiver_branch_face_landing
+  - from: clay_cm_contrapositive_witness_consumption
+    to: clay_target
+    kind: direct_live_cm_clay_route
+  - from: sourcewall_reconcile_resolution
+    to: clay_cm_contrapositive_witness_consumption
+    kind: support_history_only
+    condition: fresh CM-necessity audit required before source-wall work can become primary again
   - from: sourcewall_reconcile_resolution
     to: direct_carleson_root
     kind: reopened_root_branch
@@ -579,8 +624,11 @@ boundary:
     This graph supersedes stale generated dependency-graph surfaces only as a
     lane-local authority overlay; it does not edit shared system builders.
   - >-
-    The graph intentionally keeps the reopened root source wall live until
-    ScaleCriticalTreeCarleson.A or the Zeno rigid-class pair is proved.
+    The live route is clay-cm-contrapositive-witness-consumption. Reopened
+    source-wall, Carleson, Zeno, QDrain, critical-space, R^3 tail, and transfer
+    surfaces stay visible as support history or separate branch pressure until a
+    fresh CM-necessity audit proves that one is required inside the same
+    Pack/Part/Field class-exit invariant.
   - >-
     The graph separates repo-declared T^3 endpoint closure from audit-pressure
     surfaces. H^s/PCTP, L^3/L^n, QDrain/H^1, source-control, R^3 tail, and
