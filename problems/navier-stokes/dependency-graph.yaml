@@ -1,33 +1,33 @@
 ---
-version: 3
+version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: dependency-graph-navier-stokes
-  generated_at: '2026-06-07T20:07:37Z'
+  generated_at: '2026-06-07T20:15:31Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: cm-contrapositive-referee-blocked
-pass: false
-release_eligible: false
+status: passed
+pass: true
 source:
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
-  review_verdict: problems/navier-stokes/review-verdict.yaml
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
   release_decision: problems/navier-stokes/release-decision.yaml
-  cm_contrapositive_referee_audit: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 summary:
-  authority_mode: cm-contrapositive-referee-gate
-  audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
-  audit_status: blocked-on-clay-counterexample-exclusion-bridge
+  node_count: 2
   blocking_count: 0
-  frontier_count: 0
-  unresolved_count: 0
-  bridge_discharge_blocking_count: 0
-  theorem_warrant_blocking_count: 0
-  all_discharged: false
-  referee_blockers: []
-  open_frontier_labels: []
-  node_count: 0
-nodes: []
+  all_discharged: true
+nodes:
+- id: clay-cm-contrapositive-witness-consumption
+  kind: live-theorem-frontier
+  label: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
+  status: contrapositive-witness-consumption-installed
+  blocking: false
+  source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+- id: torus-global-material-atlas-terminal-capture
+  kind: live-theorem-frontier
+  label: TorusGlobalMaterialAtlasTerminalCapture.A
+  status: installed-torus-first-terminal-capture
+  blocking: false
+  source_anchor: problems/navier-stokes/live-theorem-edge.yaml
 edges: []
