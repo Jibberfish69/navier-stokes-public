@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-06-07T20:15:31Z'
+  generated_at: '2026-06-07T22:23:22Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: needs-sync
@@ -232,8 +232,8 @@ summary:
   authority_gate_mode: direct-live-surfaces
   authority_gate_blocking_count: 0
   proof_assembly_open_obligation_count: 0
-  authoritative_source_gap_count: 1
-  export_readiness_hold_state: export-source-gap-hold
+  authoritative_source_gap_count: 0
+  export_readiness_hold_state: none
   exact_local_packet_count: 0
   net_new_local_theorem_count: 8
   projected_frontier_count: 0
