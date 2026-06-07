@@ -456,12 +456,13 @@ nodes:
       cited. It is not a generic all-critical-class regularity theorem and does
       not replace source-control or endpoint proof obligations.
   r3_hs_tail_export_matrix:
-    status: open-export-branch-sharpened
+    status: cm-dichotomy-installed-direct-export-estimate-open
     theorem_ids:
       - Tail.Hs_R3
       - TailFace_R3^Hs
       - R3.ExteriorNonlinearSourceHsLedger.A
       - R3.ExteriorSourceDyadicEscapeToCMFace.A
+      - R3.ExteriorDyadicSurvivorFieldIncompatibility.A
       - TTU.A_R3
       - Tower.Cont_R3
       - ExtCascade_s_R3
@@ -472,14 +473,18 @@ nodes:
       - theorem-construction/mpp-r3-tailface-hs-endpoint-theorem-attempt.md
       - theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md
       - theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md
+      - theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md
       - theorem-construction/r3-cm-contrapositive-sobolev-hs-energy-20260528.md
     role: >-
       Whole-space R^3 export matrix. The live R^3 burden has been sharpened:
       rapid-decay initial ancestry and compact-core far-kernel source do not
-      carry the exterior H^s tail, so the next theorem is
-      R3.ExteriorNonlinearSourceHsLedger.A for the genuinely exterior nonlinear
-      Duhamel source, or the survivor must be landed as dyadic scale escape in
-      Pack/Field by R3.ExteriorSourceDyadicEscapeToCMFace.A. This branch is
+      carry the exterior H^s tail. The direct positive export estimate
+      R3.ExteriorNonlinearSourceHsLedger.A remains open, but a surviving exterior
+      source is no longer an unspecified branch: bounded frequencies vanish by
+      exterior L^2 tightness, high-frequency survivors escape to dyadic scale,
+      and retained Pack+Part is incompatible with any fixed positive Field scale
+      by R3.ExteriorDyadicSurvivorFieldIncompatibility.A. Thus the CM-facing
+      dichotomy lands the survivor in Pack, Part, or Field. This branch is
       upstream-separated from the periodic T^3 endpoint.
   fixed_nu_euler_transfer:
     status: conditional-support
