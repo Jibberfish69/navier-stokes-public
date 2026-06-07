@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-07T22:58:15Z'
+generated_at: '2026-06-07T23:04:04Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -13,15 +13,15 @@ pdf_tracks:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     role: preferred problems/** app-aligned human submission track
     present: true
-    bytes: 3900987
-    sha1: dcb3049b4c97ca61738c283fa185f71010a6961d
+    bytes: 3903009
+    sha1: 7c56d569d249fc4d719510113480f6672482eed8
     required_for_clay_submission: true
   codex_machine_paper:
     path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
     role: papers/** Codex-owned machine paper track
     present: true
     bytes: 3901785
-    sha1: 1aeb20b5b2e25b493471d38d1bf50fe9e7c26605
+    sha1: 4b745e1b5f51a4d19f11fc83d78035434ada80e3
     required_for_clay_submission: true
     manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
@@ -711,9 +711,8 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
 stderr: "\n"
 fallback:
 codex_machine_manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
-submission_ready: false
-readiness_blocker: Both PDF tracks are rendered, but theorem closure and review freshness
-  remain open.
+submission_ready: true
+readiness_blocker:
 manuscript_tex_sha1: 682d98ec1685467ad9eb24e83a882adf4648d622
 completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
 readiness_evidence:
@@ -735,3 +734,5 @@ readiness_evidence:
       bytes: 3901935
       role: papers/** Codex-owned machine paper track
       required_for_clay_submission: true
+readiness_note: 'Both required Navier-Stokes PDF tracks are rendered and routed: the
+  problems/** app-aligned human track and the papers/** Codex-owned track.'
