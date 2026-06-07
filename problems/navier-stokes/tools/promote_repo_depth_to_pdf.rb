@@ -210,9 +210,15 @@ def sync_submission_export_status!
       "manuscript_source" => relative(CODEX_MAIN_TEX)
     )
   }
+  readiness_evidence = current["readiness_evidence"].is_a?(Hash) ? current["readiness_evidence"] : {}
+  readiness_evidence = readiness_evidence.merge(
+    "pdf_tracks_present" => tracks.values.all? { |track| track["present"] == true },
+    "pdf_tracks" => tracks
+  )
+  status_payload = current.reject { |key, _value| %w[stdout stderr fallback].include?(key) }
   write_yaml(
     EXPORT_STATUS,
-    current.merge(
+    status_payload.merge(
       "generated_at" => Time.now.utc.iso8601,
       "status" => current["status"] || "exported",
       "render_quality" => "typeset",
@@ -223,7 +229,8 @@ def sync_submission_export_status!
       "pdf_tracks" => tracks,
       "submission_ready" => true,
       "readiness_blocker" => nil,
-      "readiness_note" => "Both required Navier-Stokes PDF tracks are rendered and routed: the problems/** app-aligned human track and the papers/** Codex-owned track."
+      "readiness_note" => "Both required Navier-Stokes PDF tracks are rendered and routed: the problems/** app-aligned human track and the papers/** Codex-owned track.",
+      "readiness_evidence" => readiness_evidence
     )
   )
 end
@@ -319,6 +326,14 @@ def dual_pdf_track_gate
   errors << "submission export status does not mark the two required PDF tracks submission_ready=true" unless export_status["submission_ready"] == true
   blocker = export_status["readiness_blocker"].to_s.strip
   errors << "submission export status still carries readiness_blocker: #{blocker}" unless blocker.empty?
+  evidence_tracks = export_status.dig("readiness_evidence", "pdf_tracks").is_a?(Hash) ? export_status.dig("readiness_evidence", "pdf_tracks") : {}
+  expected_tracks.each do |track_id, expected_path|
+    track = tracks[track_id] || {}
+    evidence_track = evidence_tracks[track_id] || {}
+    errors << "readiness evidence #{track_id} path points to #{evidence_track["path"].to_s.empty? ? '(none)' : evidence_track["path"]}, expected #{expected_path}" unless evidence_track["path"] == expected_path
+    errors << "readiness evidence #{track_id} sha1 is stale or missing" unless evidence_track["sha1"] == track["sha1"] && !evidence_track["sha1"].to_s.empty?
+    errors << "readiness evidence #{track_id} byte count is stale" unless evidence_track["bytes"] == track["bytes"]
+  end
 
   problem_pdfs = Dir.glob(ROOT.join("problems/navier-stokes/**/*.pdf").to_s).sort
   allowed_problem_pdfs = [HUMAN_SUBMISSION_PDF.expand_path.to_s]
