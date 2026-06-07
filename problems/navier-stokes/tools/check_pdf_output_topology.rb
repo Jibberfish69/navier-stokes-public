@@ -82,6 +82,15 @@ errors = []
 
 unless HUMAN_SUBMISSION_PDF.file? && HUMAN_SUBMISSION_PDF.size.positive?
   errors << "missing Thomas human submission PDF #{relative(HUMAN_SUBMISSION_PDF)}"
+else
+  begin
+    pages = pdf_pages(HUMAN_SUBMISSION_PDF)
+    if pages < MIN_AUTHORITATIVE_PAGES
+      errors << "Thomas human submission PDF has #{pages} pages; minimum reader-facing proof-role expansion contract is #{MIN_AUTHORITATIVE_PAGES}"
+    end
+  rescue StandardError => e
+    errors << e.message
+  end
 end
 
 unless AUTHORITATIVE_PDF.file? && AUTHORITATIVE_PDF.size.positive?
@@ -127,9 +136,26 @@ extra_paper_pdfs = paper_pdfs.reject { |path| Pathname.new(path).expand_path == 
 errors << "extra paper PDFs remain outside authoritative edge: #{extra_paper_pdfs.map { |path| relative(path) }.join(', ')}" unless extra_paper_pdfs.empty?
 
 export_status = load_yaml(EXPORT_STATUS)
+expected_tracks = {
+  "human_app_aligned" => relative(HUMAN_SUBMISSION_PDF),
+  "codex_machine_paper" => relative(AUTHORITATIVE_PDF)
+}
+tracks = export_status["pdf_tracks"].is_a?(Hash) ? export_status["pdf_tracks"] : {}
+expected_tracks.each do |track_id, expected_path|
+  actual_path = tracks.dig(track_id, "path").to_s
+  unless actual_path == expected_path
+    errors << "submission export status #{track_id} track points to #{actual_path.empty? ? '(none)' : actual_path}, expected #{expected_path}"
+  end
+end
+
+preferred_pdf = export_status["preferred_pdf"].to_s
+unless preferred_pdf == relative(HUMAN_SUBMISSION_PDF)
+  errors << "submission export status preferred_pdf points to #{preferred_pdf.empty? ? '(none)' : preferred_pdf}, expected #{relative(HUMAN_SUBMISSION_PDF)}"
+end
+
 status_pdf = export_status["pdf"].to_s
-unless status_pdf == relative(AUTHORITATIVE_PDF)
-  errors << "submission export status points to #{status_pdf.empty? ? '(none)' : status_pdf}, expected #{relative(AUTHORITATIVE_PDF)}"
+unless status_pdf.empty? || expected_tracks.value?(status_pdf)
+  errors << "submission export status pdf points to #{status_pdf}, but it must be one of the two required PDF tracks"
 end
 
 if BUNDLE_ROOT.join("navier-stokes-source-chronicle-manifest.json").exist?
@@ -147,7 +173,7 @@ tracked_problem_pdfs.each do |path|
 end
 
 if errors.empty?
-  puts "PDF_OUTPUT_TOPOLOGY OK: Thomas human PDF #{relative(HUMAN_SUBMISSION_PDF)} and Codex paper PDF #{relative(AUTHORITATIVE_PDF)} coexist as separate Navier-Stokes Clay paper tracks."
+  puts "PDF_OUTPUT_TOPOLOGY OK: human/app-aligned PDF #{relative(HUMAN_SUBMISSION_PDF)} and papers/Codex PDF #{relative(AUTHORITATIVE_PDF)} are both required Navier-Stokes Clay paper tracks."
   exit 0
 end
 
