@@ -239,6 +239,7 @@ FAMILIES = [
       theorem-construction/mpp-averaged-receiver-no-upstream-readout-20260607.md
       theorem-construction/mpp-averaged-terminal-cover-common-scheduler-reentry-20260607.md
       theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md
+      theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md
       theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md
       theorem-construction/mpp-rscb-scfavg-face-landing-20260607.md
       theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
