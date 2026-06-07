@@ -23,7 +23,8 @@ TARGET_BYTES = 4_150_000
 
 FORBIDDEN = re.compile(
     r"(problems/navier-stokes|submission-bundle|source-forensics|theorem-construction|"
-    r"system/runner|sha256|\bbytes\b|\bmtime\b|\.(?:md|tex|ya?ml|rb|py|json|txt|pdf)\b|"
+    r"system/runner|manuscript/generated|supplier/readout/export|proof-dependency|"
+    r"sha256|\bbytes\b|\bmtime\b|\.(?:md|tex|ya?ml|rb|py|json|txt|pdf)\b|"
     r"SOURCE\s+\d{4}|CATALOG OF CHRONOLOGICAL SOURCES|Chronological Source Chronicle|"
     r"Source chronicle page|lines\s+[0-9])",
     re.I,
@@ -32,6 +33,8 @@ PROCESS_RESIDUE = re.compile(
     r"\b(repo|on disk|formalized on disk|promotion\w*|release surfaces?|matrix/review|"
     r"review surfaces?|audit records?|operational action|status file|status surface|"
     r"project machinery|generated summaries|generated surface|bundle bookkeeping|check performed|services?|"
+    r"theorem packet|packet refresh|audit/export|release graph|release consistency|"
+    r"appendix support note|consolidation note|source freshness|current authority edge|"
     r"define or prove|score=-?\d+|create the sharp|extract the residual defect|classify its invariant data|"
     r"full-MPP closure|submission readiness|theorem creation|companion return note|chatgpt|loop closure audit|"
     r"this run reached|requested equivalent form|requested sequence)\b",
@@ -49,6 +52,10 @@ CONTRACT_RESIDUE = re.compile(
     r"\bnot-release-approved\b|"
     r"\bstatus:\s*blocked\b",
     re.I,
+)
+LABEL_SOUP_RESIDUE = re.compile(
+    r"\b[A-Z]{2,}[A-Za-z0-9]*(?:\.[A-Za-z0-9_-]+){1,}\b|"
+    r"\b[A-Z][A-Za-z0-9]*(?:\.[A-Za-z0-9_-]+){2,}\b"
 )
 EARLY_NON_NS = re.compile(
     r"\b(Movement\s+0|moral|ethical|ethics|black[- ]?hole|cosmolog|\bCMB\b)\b",
@@ -296,6 +303,8 @@ def keep_paragraph(text: str) -> bool:
         return False
     if CONTRACT_RESIDUE.search(text):
         return False
+    if LABEL_SOUP_RESIDUE.search(text):
+        return False
     if too_formula_like(text):
         return False
     if TABLE_RESIDUE.search(text):
@@ -382,7 +391,13 @@ def title_from_markdown(raw: str, path: Path) -> str:
     for line in raw.splitlines()[:30]:
         if line.startswith("# "):
             title = clean_inline(line[2:])
-            if title and not FORBIDDEN.search(title) and not PROCESS_RESIDUE.search(title):
+            if (
+                title
+                and not FORBIDDEN.search(title)
+                and not PROCESS_RESIDUE.search(title)
+                and not LABEL_SOUP_RESIDUE.search(title)
+                and not CONTRACT_RESIDUE.search(title)
+            ):
                 return title[:96]
     return title_from_path(path)
 
@@ -494,7 +509,7 @@ def render_source(path: Path, master_mode: bool = False) -> str:
     if PROMPT_RESIDUE.search(title):
         return ""
     title = reader_contract_language(title)
-    if CONTRACT_RESIDUE.search(title):
+    if CONTRACT_RESIDUE.search(title) or LABEL_SOUP_RESIDUE.search(title):
         return ""
     blocks = blocks_from_markdown(raw)
     text_count = sum(1 for kind, _value in blocks if kind == "text")
@@ -554,7 +569,6 @@ def build() -> None:
     )
     text = "\n".join(piece for piece in pieces if piece)
     text = normalize_ascii(text)
-    text = reader_contract_language(text)
     bad_lines = []
     in_display_math = False
     for line in text.splitlines():
@@ -570,6 +584,9 @@ def build() -> None:
             bad_lines.append(line)
             continue
         if CONTRACT_RESIDUE.search(line):
+            bad_lines.append(line)
+            continue
+        if not in_display_math and LABEL_SOUP_RESIDUE.search(line):
             bad_lines.append(line)
             continue
         if in_display_math and MATH_LABEL_RESIDUE.search(line):
