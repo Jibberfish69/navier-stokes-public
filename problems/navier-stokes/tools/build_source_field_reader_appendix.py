@@ -33,7 +33,7 @@ PROCESS_RESIDUE = re.compile(
     r"\b(repo|on disk|formalized on disk|promotion\w*|release surfaces?|matrix/review|"
     r"review surfaces?|audit records?|operational action|status file|status surface|"
     r"project machinery|generated summaries|generated surface|bundle bookkeeping|check performed|services?|"
-    r"theorem packet|packet refresh|audit/export|release graph|release consistency|"
+    r"theorem packets?|packet refresh|audit/export|release graph|release consistency|"
     r"appendix support note|consolidation note|source freshness|current authority edge|"
     r"define or prove|score=-?\d+|create the sharp|extract the residual defect|classify its invariant data|"
     r"full-MPP closure|submission readiness|theorem creation|companion return note|chatgpt|loop closure audit|"
