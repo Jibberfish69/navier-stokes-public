@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-07T18:43:59Z'
+generated_at: '2026-06-07T18:56:47Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -11,19 +11,18 @@ pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
 pdf_tracks:
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-    role: preferred problems/** app-aligned human submission track
     present: true
-    bytes: 3898380
     sha1: 4aa7400324de6f79c0a286ee86c20689a7ba4497
+    bytes: 3898380
+    role: preferred problems/** app-aligned human submission track
     required_for_clay_submission: true
   codex_machine_paper:
     path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-    role: papers/** Codex-owned machine paper track
     present: true
-    bytes: 4048572
     sha1: 6e35d711a4ad641d67a4abec47305bbb197469aa
+    bytes: 4048572
+    role: papers/** Codex-owned machine paper track
     required_for_clay_submission: true
-    manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
   source_word_count: 451782
@@ -709,8 +708,11 @@ stdout: "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloa
   written on navier-stokes-submission.pdf (1228 pages, 4428475 bytes).\nTranscript
   written on navier-stokes-submission.log.\n"
 stderr: "\n"
-fallback:
+fallback: 
 codex_machine_manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 submission_ready: false
-readiness_blocker: Both PDF tracks are rendered, but theorem closure and review freshness
-  remain open.
+readiness_blocker: Reader-facing proof promotion is still being rebuilt from the current
+  installed CM witness-consumption and R3 dyadic-survivor face-landing state; keep
+  submission_ready=false until both PDF tracks and route-state readbacks agree.
+manuscript_tex_sha1: 682d98ec1685467ad9eb24e83a882adf4648d622
+completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
