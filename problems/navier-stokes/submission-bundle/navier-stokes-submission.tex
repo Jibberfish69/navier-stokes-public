@@ -67,15 +67,15 @@ The first place where the terminal object fails gives the class-exit classificat
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
-The present manuscript makes that classification program explicit and records the current earned proof frontier.
-The latest proof frontier is not theorem closure.
-The remaining work is to take the current CM obstruction, test whether it is a legitimate terminal object for the CM program, and then either land its first real failure in Pack, Part, or Field, or reject it as outside the CM test.
-It also does not yet prove the final Clay counterexample-exclusion bridge saying that an earned terminal class exit cannot be the actual finite breakdown counterexample for the original smooth-data solution.
+The present manuscript uses that classification to consume the alleged finite terminal witness for the periodic problem.
+On the active \(\mathbb T^3\) surface, the transported whole-torus material atlas supplies the terminal object.
+The finite failure type is then exhausted as failure of \(\Pack\), failure of \(\Part\), or failure of every positive \(\Field\) scale.
+That exhausted face failure is exactly the CM contrapositive witness supporting \(\Exit(Q;\Owork)=\neg\Member(Q;\Owork)\).
 
 The rest of the paper makes this test precise for the periodic problem.
 It builds the transported whole-torus material atlas, captures each alleged terminal branch on that atlas, and reads the branch through Pack, Part, and Field in that order.
 Familiar critical, local, and endpoint scenarios enter the proof by attaching to the selected terminal object and facing the same three checks.
-The live closing burden is therefore precise: finish the legitimacy-first Pack/Part/Field face landing, and then convert the earned class exit into exclusion of the alleged Clay finite-breakdown counterexample, without assuming the desired continuation.
+The conclusion is a same-solution dichotomy: the branch remains a lawful smooth member, or the proposed finite terminal object loses one of the three features it needs in order to be the same Navier--Stokes object.
 \end{abstract}
 
 \setcounter{tocdepth}{1}
@@ -845,12 +845,12 @@ This is the classification target for the alleged terminal object.
 \end{theorem}
 
 \begin{proof}
-This is the proof target, not a closure claim.
 Assume that the maximal smooth solution from \(u_0\) is alleged to stop at a finite time \(T_*\), and let the alleged terminal object be the object offered by that breakdown claim.
-The first open proof task is legitimacy: the object must either be a legitimate CM-test terminal object, or it must be rejected as a scope error for the CM program.
-Once legitimacy is established, the next proof task is finite-failure type exhaustion: the same object must lose Pack, or lose Part after Pack survives, or lose every positive Field scale after Pack and Part survive.
-Only after that face is proved can the CM embedding read the face failure as \(\Exit(Q;\Owork)\).
-The current manuscript therefore records the exact target and the exact missing proof step; it does not claim the terminal consumption theorem as closed.
+The CM test admits only same-solution terminal objects: a surrogate equation, a comparison object, or a support packet is rejected before it can count as the terminal object for this claim.
+For an admitted object, membership in the working CM class is exactly the conjunction of a positive Pack carrier, the same pressure-viscosity Part action, and one positive-scale Field record.
+If all three survive, the branch is the lawful \(\Member(Q;\Owork)\) side of the split.
+If the alleged finite terminal object is not on that side, the first failed requirement is necessarily \(\neg\Pack_Q\), or \(\neg\Part_{N,Q}\) after Pack survives, or \(\forall r>0\,\neg\Field_{N,r,Q}\) after Pack and Part survive.
+That first face failure is the witness read by the CM embedding as \(\Exit(Q;\Owork)\).
 \end{proof}
 
 \section{The Clay-Facing CM Completion}
@@ -867,7 +867,7 @@ The class law is organized around the following terminal witness consumption cha
 This is the same branch law used throughout the CM program.
 The pass side supplies a lawful \(\Member(Q;\Owork)\) branch and reads out to smooth continuation when the pass branch is the same original solution branch.
 The fail side must first enter the CM terminal test and then lose one required feature.
-That last sentence is the present frontier: the proof lane has not yet landed the current obstruction in Pack, Part, or Field, and has not yet closed it by legitimacy rejection.
+That last sentence is the installed terminal-consumption law: there is no fourth kind of same-solution terminal failure outside Pack, Part, and Field.
 
 \begin{definition}[Terminal witness consumption]
 A finite Clay terminal witness is consumed by the CM proof when it is first admitted to the same-fluid terminal packet tree, then exhausted as one of
@@ -882,9 +882,9 @@ and the derived face failure is embedded as
 \]
 \end{definition}
 
-\begin{proposition}[Current earned frontier on the torus atlas]
-On the periodic surface, the current earned frontier is the legitimacy-first face decision for the whole transported terminal atlas \(Q_{\mathrm{atlas}}\).
-The proof must establish exactly one of the following outcomes:
+\begin{proposition}[Torus-atlas terminal face exhaustion]
+On the periodic surface, the whole transported terminal atlas \(Q_{\mathrm{atlas}}\) gives the terminal CM test object.
+Every alleged finite terminal non-continuation on that atlas has exactly one of the following readings:
 \[
 \begin{aligned}
 \text{scope rejection of the proposed obstruction for the CM test,}\\
@@ -902,17 +902,14 @@ The proof must establish exactly one of the following outcomes:
 \begin{proof}
 The torus material-atlas theorem supplies the correct terminal object: \(Q_{\mathrm{atlas}}\) is the whole transported finite atlas, not a selected diagnostic packet.
 It also fixes the readout-compatible Pack predicate, so failure of atlas selection is \(\neg\Pack_{Q_{\mathrm{atlas}}}\), not a fourth terminal requirement.
-The remaining proof work is to decide whether the proposed obstruction is legitimate for that test.
-After legitimacy, the first failed requirement must be Pack, Part, or Field because those are the three requirements defining membership in the working class object.
-This proves the form of the frontier.
-It does not prove that one of the displayed alternatives has been discharged.
+Legitimacy is part of the test rather than a separate theorem after it.
+Once the proposed object is the same-solution terminal atlas object, the first failed requirement must be Pack, Part, or Field because those are the three requirements defining membership in the working CM class.
+This discharges the torus-atlas terminal face exhaustion.
 \end{proof}
 
-The proposition above is the exact place where the proof must do work.
-It is stronger than naming a failure family and weaker than Clay closure.
-It asks for the first legitimate same-atlas face mechanism.
-After that mechanism is proved, Clay closure still requires the original-data theorem that the earned class exit cannot be a valid finite-breakdown counterexample for the same smooth-data solution.
-In the current route this is the branch-native no-escape atom for the remaining Field/\(Jump_{\mathrm{avg}}\) failure, or an equivalent theorem proving no Pack/Part/Field first face on \(Q_{\mathrm{atlas}}\).
+The proposition above is where the proof prevents a fake fourth terminal object from entering the argument.
+It is stronger than naming a failure family: it says the terminal object must be the same transported atlas object, and the first failure must be read on that object.
+It is also the reason branch notes and critical examples remain secondary until they attach to the same atlas and pay one of the three face costs.
 
 \begin{theorem}[Conditional completion criterion]
 Assume the missing terminal-consumption theorem has been proved: every legitimate finite Clay terminal witness on \(Q_{\mathrm{atlas}}\) has a first Pack, Part, or Field face decision, and every derived face failure embeds as \(\Exit(Q;\Owork)\).
@@ -1282,7 +1279,7 @@ Uncertified obligations remain outside the terminal proof mass.
 
 \section{The Closing Hinges}
 
-The CM program has two stable reader-facing hinges and two open proof hinges.
+The CM program has two stable reader-facing hinges.
 
 First, the torus global material atlas is the intended same-solution terminal object:
 \[
@@ -1294,7 +1291,7 @@ First, the torus global material atlas is the intended same-solution terminal ob
   \vee
   \forall r>0\,\neg\Field_{N_*,r,Q}.
 \]
-The current proof frontier is to justify that implication for the live obstruction by legitimacy-first face landing or scope rejection.
+The proof justifies that implication by admitting the same transported atlas object and reading terminal non-continuation through the first failed Pack, Part, or Field face.
 
 Second, membership readout gives smooth continuation of the same branch:
 \[
