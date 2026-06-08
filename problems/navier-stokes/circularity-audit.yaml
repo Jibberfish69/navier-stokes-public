@@ -5,7 +5,7 @@ identity:
   artifact_id: circularity-audit-navier-stokes
   created_by: release_surface_reconciler
   purpose: circularity and hidden-dependency audit reconciled for release
-generated_at: '2026-06-08T04:21:44Z'
+generated_at: '2026-06-08T04:43:27Z'
 status:
   audit_status: route-and-release-clear
   pass: true
