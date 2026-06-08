@@ -1,95 +1,65 @@
 ---
-version: 1
+version: 2
 problem_id: navier-stokes
 export_id: navier-stokes-paper-export-inputs
-generated_at: '2026-04-09T21:00:00Z'
+generated_at: '2026-06-07T23:59:00Z'
 scope:
-  plane: brain
-  export_target: paper-workspace
+  plane: dual-pdf-clay-facing-export
+  export_target: problems-human-track-and-papers-machine-track
+  preferred_track: problems-human-app-aligned
 export_planes:
   theorem_edge_inputs:
-    - problems/navier-stokes/live-theorem-edge.md
+    - problems/navier-stokes/live-theorem-edge.yaml
+    - problems/navier-stokes/source-frontier.yaml
     - problems/navier-stokes/theorem-packet.yaml
     - problems/navier-stokes/proof-assembly.yaml
-    - problems/navier-stokes/source-frontier.yaml
-    - problems/navier-stokes/source-frontier.yaml
-    - problems/navier-stokes/authority-reconciliation.yaml
-    - problems/navier-stokes/route-hypothesis.yaml
-    - problems/navier-stokes/object-formalization.yaml
-  exploration_inputs:
-    - problems/navier-stokes/exploration-graph.yaml
-    - problems/navier-stokes/claim-ladder.md
-    - problems/navier-stokes/spine.md
-    - problems/navier-stokes/frozen-core.md
-    - problems/navier-stokes/obstruction-capture.md
-    - problems/navier-stokes/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md
-    - problems/navier-stokes/theorem-construction/lemma-4b-no-loss-pressure-recovery-attack.md
-    - problems/navier-stokes/theorem-construction/lagrangian-six-lemma-mainline.md
-    - problems/navier-stokes/theorem-construction/derivative-lp-compatibility-bridge-note.md
-  source_policy_inputs:
-    - problems/navier-stokes/source-ledger.yaml
-    - problems/navier-stokes/pipeline-state.yaml
+    - problems/navier-stokes/current-route-dependency-graph.yaml
+    - problems/navier-stokes/d8-completion-route-map.yaml
+  app_graph_inputs:
+    - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+    - system/meta/problems/navier-stokes/repo-viewer/latest-overview.json
+    - system/meta/problems/navier-stokes/repo-viewer/latest-logical-tree-summary.json
   manuscript_anchor_inputs:
+    - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    - papers/navier-stokes/manuscript/generated/main.tex
     - problems/navier-stokes/paper-architecture.yaml
-    - problems/navier-stokes/draft-v7.md
-    - problems/navier-stokes/draft-v8.md
-    - problems/navier-stokes/review-log.md
-    - problems/navier-stokes/manuscript-depth.yaml
-    - problems/navier-stokes/monograph-v6-tandem-crosswalk.yaml
     - problems/navier-stokes/submission-metadata.yaml
+  submission_readiness_inputs:
     - problems/navier-stokes/submission-verdict.yaml
+    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
+    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
+    - problems/navier-stokes/submission-bundle/submission-manifest.yaml
+  pdf_tracks:
+    - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
 inputs:
-  - path: problems/navier-stokes/live-theorem-edge.md
+  - path: problems/navier-stokes/live-theorem-edge.yaml
     role: live-theorem-edge
+  - path: problems/navier-stokes/source-frontier.yaml
+    role: source-frontier
   - path: problems/navier-stokes/theorem-packet.yaml
     role: theorem-packet
   - path: problems/navier-stokes/proof-assembly.yaml
     role: proof-assembly
-  - path: problems/navier-stokes/source-frontier.yaml
-    role: source-frontier
-  - path: problems/navier-stokes/source-frontier.yaml
-    role: source-frontier
-  - path: problems/navier-stokes/authority-reconciliation.yaml
-    role: authority-reconciliation
-  - path: problems/navier-stokes/route-hypothesis.yaml
-    role: route-hypothesis
-  - path: problems/navier-stokes/object-formalization.yaml
-    role: object-formalization
-  - path: problems/navier-stokes/exploration-graph.yaml
-    role: exploration-graph
-  - path: problems/navier-stokes/claim-ladder.md
-    role: claim-ladder
-  - path: problems/navier-stokes/spine.md
-    role: spine
-  - path: problems/navier-stokes/frozen-core.md
-    role: frozen-core
-  - path: problems/navier-stokes/obstruction-capture.md
-    role: obstruction-capture
-  - path: problems/navier-stokes/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md
-    role: capwise-route-note
-  - path: problems/navier-stokes/theorem-construction/lemma-4b-no-loss-pressure-recovery-attack.md
-    role: pressure-recovery-support
-  - path: problems/navier-stokes/theorem-construction/lagrangian-six-lemma-mainline.md
-    role: lagrangian-six-support
-  - path: problems/navier-stokes/theorem-construction/derivative-lp-compatibility-bridge-note.md
-    role: derivative-bridge-support
-  - path: problems/navier-stokes/paper-architecture.yaml
-    role: paper-architecture
-  - path: problems/navier-stokes/draft-v7.md
-    role: draft-v7
-  - path: problems/navier-stokes/draft-v8.md
-    role: draft-v8
-  - path: problems/navier-stokes/review-log.md
-    role: review-log
-  - path: problems/navier-stokes/manuscript-depth.yaml
-    role: manuscript-depth
-  - path: problems/navier-stokes/monograph-v6-tandem-crosswalk.yaml
-    role: monograph-v6-tandem-crosswalk
-  - path: problems/navier-stokes/submission-metadata.yaml
-    role: submission-metadata
-  - path: problems/navier-stokes/submission-verdict.yaml
-    role: submission-verdict
+  - path: problems/navier-stokes/current-route-dependency-graph.yaml
+    role: route-graph
+  - path: problems/navier-stokes/d8-completion-route-map.yaml
+    role: d8-completion-route-map
+  - path: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+    role: mcp-visible-route-state
+  - path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    role: preferred-problems-human-app-aligned-tex
+  - path: papers/navier-stokes/manuscript/generated/main.tex
+    role: codex-machine-paper-tex
+  - path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    role: preferred-problems-human-app-aligned-pdf
+  - path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    role: codex-machine-paper-pdf
+  - path: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+    role: dual-pdf-readiness-status
 preservation:
   preserve_exploration: true
   preserve_raw_notes: true
   do_not_flatten: true
+  both_pdf_tracks_required: true
+  papers_track_is_child_repo: true
