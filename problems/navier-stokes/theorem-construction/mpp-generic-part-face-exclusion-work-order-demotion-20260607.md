@@ -1,3 +1,14 @@
+---
+ns_viewer:
+  theorem_id: generic-part-face-exclusion-work-order-demotion-20260607
+  status: demoted-stale-work-order
+  proof_role: blocker_demotion
+  logical_landing_node: cm_part_face_attempts
+  edge_effect: "Demotes generic Part-face exclusion as a stale no-exit target while preserving Part as a lawful first-face landing for named rows."
+  upstream_origin: "June 7 Part-face exclusion working pass and current CM referee audit."
+  downstream_consequence: "Future retained-Pack participation rows require same-witness terminal participation proof or they land as Part failures instead of staying global blockers."
+---
+
 # MPP Generic Part-Face Exclusion Work Order Demotion
 
 Date: 2026-06-07
