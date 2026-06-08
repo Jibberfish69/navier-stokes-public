@@ -232,6 +232,24 @@ unless status_pdf.empty? || expected_tracks.value?(status_pdf)
   errors << "submission export status pdf points to #{status_pdf}, but it must be one of the two required PDF tracks"
 end
 
+unless export_status["pdf_tracks_rendered"] == true
+  errors << "submission export status does not mark pdf_tracks_rendered=true for the two required tracks"
+end
+render_status = export_status.dig("pdf_render_status", "status").to_s
+unless render_status == "rendered"
+  errors << "submission export status lacks separate rendered pdf_render_status"
+end
+completion_readiness = export_status.dig("readiness_evidence", "completion_readiness")
+unless completion_readiness.is_a?(Hash)
+  errors << "submission export status lacks completion readiness evidence"
+end
+if export_status["submission_ready"] == true && completion_readiness.is_a?(Hash)
+  completion_ready = completion_readiness["submission_ready"] == true && completion_readiness["candidate_count"].to_i.zero?
+  unless completion_ready
+    errors << "submission export status sets submission_ready=true while completion readiness evidence is blocked"
+  end
+end
+
 if BUNDLE_ROOT.join("navier-stokes-source-chronicle-manifest.json").exist?
   errors << "source-chronicle manifest remains even though the contract requires reader-facing proof-role expansion"
 end
