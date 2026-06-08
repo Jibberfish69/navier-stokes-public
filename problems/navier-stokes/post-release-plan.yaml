@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   plan_id: post-release-plan-navier-stokes
-  generated_at: '2026-06-08T05:33:22Z'
+  generated_at: '2026-06-08T05:41:36Z'
   source_release_decision_id: release-decision-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
 current_release:
@@ -24,12 +24,11 @@ tracks:
     - 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a direct
       noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing into
       an accepted whole-space endpoint exclusion.'
-    - 'codex-gap-attack-log:terminal-record-entry-referee-hardening: Tighten the entry
-      theorem so the Clay negation itself, stated in standard PDE language, supplies
-      the same-solution record without relying on internal CM terminology.'
     - 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the
       bridge is proved or the conclusion is otherwise closed, rerun the contract check
       and update provenance with the contract result.'
+    - 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional provenance
+      with a proved Clay-closing bridge before submission readiness.'
     reviewer_risks:
     - Recovered support is still classified as strong, so the local package remains
       a revise-stage workboard.
