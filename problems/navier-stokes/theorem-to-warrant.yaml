@@ -87,7 +87,7 @@ theorem_warrants:
   target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
   target_preflight: &2
     rule_id: ns-target-topology-preflight-v2
-    status: required-before-answer-or-generated-summary
+    status: historical-context-only
     required_fields:
     - user_question_or_action
     - action_type
@@ -775,11 +775,11 @@ auxiliary_theorem_tracks:
     descent, continuation, and final integration. It is now part of the active torus-first
     internal branch. It does not by itself discharge a whole-space Euclidean endpoint.'
 warrant_boundary:
-  status: contrapositive-witness-consumption-installed
+  status: release-eligible
   terminal_safe: true
   required_before_terminal_release: []
-  rule: Direct live CM authority controls this surface. Positive packet-survival/no-exit
-    language is support only and cannot respawn from this warrant.
+  rule: Direct-live authority reports no current theorem blocker; this boundary is
+    retained as historical context only.
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight: *2
 target_lock_schema: *3
@@ -793,7 +793,7 @@ release_or_respawn_consequence: *9
 forward_positive_surface_quarantine: *10
 current_authority_status:
   status: superseded-by-direct-live-clearance
-  checked_at: '2026-06-08T07:16:20Z'
+  checked_at: '2026-06-08T07:39:00Z'
   reason: Direct live authority reports no open theorem frontier; this artifact is
     retained as historical theorem-work context and must not respawn a live blocker.
   authority_summary:
