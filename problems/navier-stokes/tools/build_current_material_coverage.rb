@@ -275,8 +275,8 @@ FAMILIES = [
     ]
   },
   {
-    "id" => "dual_pdf_submission_sync_surfaces",
-    "paper_representation" => "Submission executor scaffolds, boundary records, and submission-sync ledgers are represented as dual-PDF readiness and provenance material. They keep the preferred human/app-aligned PDF and the Codex-structured papers PDF synchronized as two required Clay-facing tracks while proof authority remains in the finite-obstruction inventory gate and manuscript/PDF quality checks.",
+    "id" => "dual_pdf_submission_independent_surfaces",
+    "paper_representation" => "Submission executor scaffolds, boundary records, and submission-sync ledgers are represented as independent PDF manuscript surfaces and provenance material. They record the preferred human/app-aligned PDF and the Codex-structured papers PDF as separate required outputs; route-state data is source context for each paper separately while proof authority remains in the finite-obstruction inventory gate and manuscript/PDF quality checks.",
     "files" => %w[
       submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
       submission-bundle/ns-completion-executor-proof-scaffold-20260607.md
@@ -388,8 +388,8 @@ unless (dynamic_executor_route_sync_files + dynamic_executor_proof_lane_files).e
 end
 unless dynamic_executor_submission_sync_files.empty?
   dynamic_families << {
-    "id" => "current_executor_dual_pdf_submission_sync_surfaces",
-    "paper_representation" => "Current executor submission-boundary, proof-scaffold, and submission-sync files are represented as dual-PDF readiness and provenance material. They keep the preferred human/app-aligned PDF and the Codex-structured papers PDF synchronized as two required Clay-facing tracks while proof authority remains in the finite-obstruction inventory gate and manuscript/PDF quality checks.",
+    "id" => "current_executor_dual_pdf_submission_independent_surfaces",
+    "paper_representation" => "Current executor submission-boundary, proof-scaffold, and submission-sync files are represented as independent PDF manuscript surfaces and provenance material. They record the preferred human/app-aligned PDF and the Codex-structured papers PDF as separate required outputs; route-state data is source context for each paper separately while proof authority remains in the finite-obstruction inventory gate and manuscript/PDF quality checks.",
     "files" => dynamic_executor_submission_sync_files.sort
   }
 end
