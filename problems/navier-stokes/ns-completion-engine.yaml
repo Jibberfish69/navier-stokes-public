@@ -3,7 +3,7 @@ version: 1
 artifact_id: nightly-six-mpp-ns-completion-engine-2026-06-07
 status: active
 date: '2026-06-07'
-generated_at: '2026-06-08T06:05:16Z'
+generated_at: '2026-06-08T06:50:40Z'
 engine_goal: complete the NS repo/app/graph/PDF proof system
 governing_program:
   proof_program: CM contrapositive class exit
@@ -88,11 +88,11 @@ project_model:
     - problems/navier-stokes/submission-bundle/submission-verdict.yaml
     - problems/navier-stokes/submission-bundle/submission-export-status.yaml
     state_refs_missing: []
-    observed_state: 'Submission state: blocked; pdf_render_status=rendered; blockers=5'
+    observed_state: 'Submission state: blocked; pdf_render_status=rendered; blockers=4'
     readiness_assessment:
       status: blocked
       submission_ready: false
-      candidate_count: 5
+      candidate_count: 4
       candidates:
       - candidate_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
         kind: clay_closing_gap
@@ -101,13 +101,6 @@ project_model:
         required_action: Prove that an Exit(Q;O_work) record cannot be the actual
           finite terminal Clay obstruction, or replace the closing argument with a
           noncircular endpoint compactness/minimal-counterexample proof.
-      - candidate_id: codex-gap-attack-log:r3-exterior-high-order-tail-closure
-        kind: clay_closing_gap
-        surface: papers/navier-stokes/review/codex-gap-attack-log.yaml
-        evidence: R3 exterior high-order tail closure
-        required_action: Either prove a direct noncircular R3 H^s tail theorem or
-          strengthen dyadic survivor face landing into an accepted whole-space endpoint
-          exclusion.
       - candidate_id: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
         kind: clay_closing_gap
         surface: papers/navier-stokes/review/codex-gap-attack-log.yaml
@@ -140,7 +133,7 @@ project_model:
         submission_verdict_agreement_candidates: 0
         pdf_track_candidates: 0
         current_material_candidates: 0
-        clay_closing_gap_candidates: 5
+        clay_closing_gap_candidates: 4
         stale_readiness_ref_candidates: 0
       pdf_tracks_rendered: true
       pdf_render_status:
@@ -150,15 +143,15 @@ project_model:
           human_app_aligned:
             path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
             present: true
-            sha1: cc5374f24b95347640dc8c7dc904149d24c95f90
-            bytes: 3935044
+            sha1: f631ed211f17e4957cbf2c0a4180d63f30cb6e93
+            bytes: 3937748
             manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
             required_for_clay_submission: true
           codex_machine_paper:
             path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
             present: true
-            sha1: 4d64763fd1cd5ff91ecf6d7f64f9d2c40dfdbde9
-            bytes: 463096
+            sha1: 873f0c106b3d3cc2e0cc1afbee13c676afd1f7fe
+            bytes: 463237
             manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
             required_for_clay_submission: true
         preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
