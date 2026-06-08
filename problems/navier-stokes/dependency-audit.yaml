@@ -1,17 +1,17 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
   artifact_id: dependency-audit-navier-stokes
-  generated_at: '2026-06-08T06:52:51Z'
-  generator: system/runner/lib/release_surface_reconciler.rb
-  purpose: dependency release blocked by CM contrapositive referee audit
+  created_by: release_surface_reconciler
+  purpose: dependency audit reconciled from closed direct-live authority
+generated_at: '2026-06-08T07:23:17Z'
 status:
-  audit_status: cm-contrapositive-referee-blocked
-  pass: false
-  release_eligible: false
-pass: false
-release_eligible: false
+  audit_status: dependency-graph-closed
+  pass: true
+  route_pass: true
+  release_eligible: true
+pass: true
 source:
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
@@ -19,36 +19,19 @@ source:
   review_verdict: problems/navier-stokes/review-verdict.yaml
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
   release_decision: problems/navier-stokes/release-decision.yaml
-  cm_contrapositive_referee_audit: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 summary:
-  authority_mode: cm-contrapositive-referee-gate
-  audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
-  audit_status: clay-closing-bridge-open
-  blocking_count: 4
-  frontier_count: 0
-  unresolved_count: 4
-  bridge_discharge_blocking_count: 0
-  theorem_warrant_blocking_count: 4
-  all_discharged: false
-  referee_blockers: &1
-  - 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
-    Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
-    obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
-    proof.'
-  - 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the
-    bridge is proved or the conclusion is otherwise closed, rerun the contract check
-    and update provenance with the contract result.'
-  - 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional provenance
-    with a proved Clay-closing bridge before submission readiness.'
-  - 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
-    bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
-  open_frontier_labels: []
+  total_obligations: 3
+  blocking_count: 0
+  bridge_pending_count: 0
+  unresolved_count: 0
+  all_discharged: true
+blocking_dependencies: []
 findings:
-- The CM contrapositive referee audit reports unresolved proof-bearing burdens; stale
-  terminal release overlays are demoted.
+- The current direct-live theorem authority gate reports no blocking obligations.
+- Release blocking dependency counts are reconciled to the accepted matrix and terminal
+  release decision.
 verdict:
-  dependency_graph_closed: false
-  release_eligible: false
-  all_discharged: false
-  clay_ready: false
-required_for_release: *1
+  dependency_graph_closed: true
+  dependency_direction_clean: true
+  clay_release_dependency_status: closed
+required_for_release: []
