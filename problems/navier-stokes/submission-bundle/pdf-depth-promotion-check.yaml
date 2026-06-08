@@ -1,12 +1,12 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T00:25:18Z'
-started_at: '2026-06-08T00:24:50Z'
+generated_at: '2026-06-08T00:46:56Z'
+started_at: '2026-06-08T00:46:50Z'
 status: passed
 purpose: Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into
-  the submission TeX/PDF path, and fail unless both required PDF tracks visibly carry
-  the proof-depth anchors.
+  the human/app-aligned TeX/PDF path, export the separate Codex Clay-facing paper,
+  and fail unless both required PDF tracks visibly carry their distinct proof roles.
 authority:
   source_manifest: problems/navier-stokes/paper-export-inputs.yaml
   current_material_coverage: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
@@ -62,7 +62,7 @@ gates:
   errors: []
 - gate_id: source-depth-appendices-materialized-in-tex
   status: passed
-  source_field_word_count: 411594
+  source_field_word_count: 411500
   surface_derivation_expansion_rows: 3804
   main_tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   errors: []
@@ -72,7 +72,7 @@ gates:
   pdf_tracks:
     human_app_aligned: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     codex_machine_paper: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-  papers_pdf_pages: 1036
+  papers_pdf_pages: 20
   human_pdf_pages: 1073
-  sha256: 012442ecb0aa0af5c68d9fc30c5bcdb5bdf1f690d7d168619a1c2bb4203560cd
+  sha256: 9ed2e69d2455bcf2b691a076f3f86fb69bbaf955791fd86f933aaecfc122f649
   errors: []
