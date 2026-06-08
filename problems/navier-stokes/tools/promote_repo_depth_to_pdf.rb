@@ -316,6 +316,7 @@ def sync_submission_export_status!
     overrides: {
       PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement::EXPORT_STATUS_PATH => provisional_payload
     },
+    require_current_submission_ready_flags: false,
     ignore_export_submission_ready_flag: true,
     ignore_child_paper_repo_dirty: true
   )
