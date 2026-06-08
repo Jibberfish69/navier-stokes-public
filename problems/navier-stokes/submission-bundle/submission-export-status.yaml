@@ -1,20 +1,20 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T02:28:00Z'
+generated_at: '2026-06-08T02:30:05Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
 preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
 pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-pdf_tracks: &2
+pdf_tracks: &1
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     role: preferred problems/** app-aligned human submission track
     present: true
     bytes: 3931512
-    sha1: cdb1be79844a2b060da7e727edbf1394b3238b1b
+    sha1: 8939f8a4919e3c8cb9c5ebe216b1e307b22ea765
     required_for_clay_submission: true
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   codex_machine_paper:
@@ -22,7 +22,7 @@ pdf_tracks: &2
     role: papers/** Codex-owned Clay-facing submission paper track
     present: true
     bytes: 462897
-    sha1: 9ecac0d1d95435d767960baf40347c0f6fcc157e
+    sha1: b6bb4af2c2abd29f930a04a59b8ee27eb9b48197
     required_for_clay_submission: true
     manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
@@ -35,8 +35,8 @@ skeletal_source_detected: false
 authoritative_content_included: true
 authoritative_supplements: []
 codex_machine_manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
-submission_ready: false
-readiness_blocker: 'Completion readiness still has 1 candidate(s): papers-navier-stokes-child-repo-dirty.'
+submission_ready: true
+readiness_blocker:
 manuscript_tex_sha1: 1dfb9c979b2ccc7a7f04fd247f19432e82ef3f1d
 completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
 readiness_evidence:
@@ -45,23 +45,16 @@ readiness_evidence:
   completion_candidate_count: 0
   completion_candidates: []
   completion_readiness:
-    status: blocked
-    submission_ready: false
-    candidate_count: 1
-    candidates:
-    - &1
-      candidate_id: papers-navier-stokes-child-repo-dirty
-      kind: child_paper_repo
-      surface: papers/navier-stokes
-      evidence: M build/output/authoritative-edge/navier-stokes.pdf
-      required_action: The Codex-owned papers/** PDF track has uncommitted TeX/PDF
-        state outside the root repo.
+    status: ready
+    submission_ready: true
+    candidate_count: 0
+    candidates: []
     checks:
       route_candidates: 0
       d8_candidates: 0
       live_edge_candidates: 0
       verdict_conflicts: 0
-      child_paper_repo_candidates: 1
+      child_paper_repo_candidates: 0
       manuscript_unresolved_candidates: 0
       source_frontier_candidates: 0
       route_state_agreement_candidates: 0
@@ -70,37 +63,36 @@ readiness_evidence:
       current_material_candidates: 0
       stale_readiness_ref_candidates: 0
     pdf_tracks_rendered: true
-    pdf_render_status: &3
+    pdf_render_status: &2
       status: rendered
       rendered: true
       tracks:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: cdb1be79844a2b060da7e727edbf1394b3238b1b
+          sha1: 8939f8a4919e3c8cb9c5ebe216b1e307b22ea765
           bytes: 3931512
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
           path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
           present: true
-          sha1: 9ecac0d1d95435d767960baf40347c0f6fcc157e
+          sha1: b6bb4af2c2abd29f930a04a59b8ee27eb9b48197
           bytes: 462897
           manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
           required_for_clay_submission: true
       preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     base_completion_readiness:
-      status: blocked
-      submission_ready: false
-      candidate_count: 1
-      candidates:
-      - *1
+      status: ready
+      submission_ready: true
+      candidate_count: 0
+      candidates: []
       checks:
         route_candidates: 0
         d8_candidates: 0
         live_edge_candidates: 0
         verdict_conflicts: 0
-        child_paper_repo_candidates: 1
+        child_paper_repo_candidates: 0
         manuscript_unresolved_candidates: 0
   pdf_tracks_present: true
   pdf_tracks_rendered: true
@@ -123,9 +115,9 @@ readiness_evidence:
         manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
         required_for_clay_submission: true
     preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-  pdf_tracks: *2
+  pdf_tracks: *1
 readiness_note: PDF rendering is tracked separately from submission readiness; both
   required Navier-Stokes PDF tracks can be rendered while proof/manuscript/app agreement
   remains blocked.
 pdf_tracks_rendered: true
-pdf_render_status: *3
+pdf_render_status: *2
