@@ -510,13 +510,13 @@ frontier_context:
       proof_mode: supplier_or_downstream_readout
       role: readout presentation requiring direct accountability before use as a target
   exact_live_theorem_grade_burden: *1
-  release_or_respawn_consequence:
-    disposition: blocked
-    next_cell_type: proof-frontier
-    next_stage: clay-closing-bridge-open
-    next_action: Close the Clay counterexample-exclusion bridge before submission
-      promotion.
-  forward_positive_surface_quarantine: &6
+  release_or_respawn_consequence: &6
+    disposition: submission-candidate
+    next_cell_type: submission
+    next_stage: full-mpp-closure-submission-candidate
+    next_action: Keep proof, graph, viewer, manuscript, both PDF tracks, and submission
+      wrappers aligned with the full CM contrapositive closure state.
+  forward_positive_surface_quarantine: &7
     status: active-global-demotion
     index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
     generator: problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb
@@ -534,7 +534,7 @@ frontier_context:
     summary_by_scope:
       repo-surface: 201
       theorem-construction: 1652
-  non_merge_rules: &7
+  non_merge_rules: &8
   - rule_id: positive-vs-cm
     statement: Positive smoothness control and every surface indexed in the forward-positive
       quarantine ledger are not the CM contrapositive unless a named bridge proves
@@ -570,7 +570,7 @@ frontier_context:
   - rule_id: runtime-repair-vs-math
     statement: Repairing generated surfaces or daemon behavior is not theorem progress
       unless it creates or promotes exact theorem-facing work.
-  authority_hierarchy: &8
+  authority_hierarchy: &9
     source_priority:
     - problems/navier-stokes/source-forensics/
     - problems/navier-stokes/live-theorem-edge.yaml
@@ -595,7 +595,7 @@ frontier_context:
       terminal posture, or a singleton target that conflicts with the direct live
       surfaces and this contract, demote or repair that surface before using it in
       a user answer.
-  mode_selection_protocol: &9
+  mode_selection_protocol: &10
     before_answer:
     - lock target using target_lock_schema
     - inspect authority_source unless the user only asks for a purely conversational
@@ -760,16 +760,11 @@ theorem_surface:
   proof_program_topology: *4
   open_root_group: *5
   exact_live_theorem_grade_burden: *1
-  release_or_respawn_consequence:
-    disposition: blocked
-    next_cell_type: proof-frontier
-    next_stage: clay-closing-bridge-open
-    next_action: Close the Clay counterexample-exclusion bridge before submission
-      promotion.
-  forward_positive_surface_quarantine: *6
-  non_merge_rules: *7
-  authority_hierarchy: *8
-  mode_selection_protocol: *9
+  release_or_respawn_consequence: *6
+  forward_positive_surface_quarantine: *7
+  non_merge_rules: *8
+  authority_hierarchy: *9
+  mode_selection_protocol: *10
 summary:
   grounded_step_count: 0
   promoted_extension_count: 0
@@ -792,12 +787,8 @@ target_lock_schema: *3
 proof_program_topology: *4
 open_root_group: *5
 exact_live_theorem_grade_burden: *1
-release_or_respawn_consequence:
-  disposition: blocked
-  next_cell_type: proof-frontier
-  next_stage: clay-closing-bridge-open
-  next_action: Close the Clay counterexample-exclusion bridge before submission promotion.
-forward_positive_surface_quarantine: *6
-non_merge_rules: *7
-authority_hierarchy: *8
-mode_selection_protocol: *9
+release_or_respawn_consequence: *6
+forward_positive_surface_quarantine: *7
+non_merge_rules: *8
+authority_hierarchy: *9
+mode_selection_protocol: *10
