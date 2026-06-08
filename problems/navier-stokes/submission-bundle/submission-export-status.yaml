@@ -1,30 +1,30 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T05:34:09Z'
+generated_at: '2026-06-08T05:46:38Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
 preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
 pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-pdf_tracks:
+pdf_tracks: &2
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-    present: true
-    sha1: 5dc2ea248eaf831cfac7981fd9ded56ddbab8abe
-    bytes: 3933447
-    manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
     role: preferred problems/** app-aligned human submission track
+    present: true
+    bytes: 3935056
+    sha1: 9c9d2c7b91783739a336c51389e9244717abe792
     required_for_clay_submission: true
+    manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   codex_machine_paper:
     path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    role: papers/** Codex-owned Clay-facing submission paper track
     present: true
-    sha1: d4ec3c4f01805276cad830cee7e585d75fa750b9
     bytes: 462897
-    manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
-    role: papers/** Codex-owned machine paper track
+    sha1: 96e2c6210da0793b48cbfd750216598403db7237
     required_for_clay_submission: true
+    manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
   source_word_count: 451782
@@ -36,11 +36,9 @@ authoritative_content_included: true
 authoritative_supplements: []
 codex_machine_manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 submission_ready: false
-readiness_blocker: 'Navier-Stokes completion readiness is blocked by 6 unresolved
-  candidate(s): codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
-  codex-gap-attack-log:r3-exterior-high-order-tail-closure, codex-gap-attack-log:terminal-record-entry-referee-hardening,
-  codex-gap-attack-log:contract-readiness-after-manuscript-expansion, codex-pdf-provenance:clay-readiness-not-claimed,
-  clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
+readiness_blocker: 'Completion readiness still has 30 candidate(s): root_submission_verdict:not-ready,
+  root_submission_verdict:blockers, root_submission_verdict:required_before_submission,
+  root_submission_verdict:adversarial_findings, root_submission_verdict:posture, root_submission_verdict:nested-alignment-status.'
 manuscript_tex_sha1: 22410803acb2c39f64518fcec2432432cdd38a15
 completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
 readiness_evidence:
@@ -90,8 +88,184 @@ readiness_evidence:
   completion_readiness:
     status: blocked
     submission_ready: false
-    candidate_count: 5
+    candidate_count: 30
     candidates:
+    - candidate_id: root_submission_verdict:not-ready
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: submission_ready=false
+      required_action: Keep readiness blocked until this verdict surface is synchronized.
+    - candidate_id: root_submission_verdict:blockers
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: 'blockers=codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
+        Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
+        obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
+        proof.; codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove
+        a direct noncircular R3 H^s tail theorem or strengthen dyadic survivor face
+        landing into an accepted whole-space endpoint exclusion.; codex-gap-attack-log:contract-readiness-after-manuscript-expansion:
+        After the bridge is proved or the conclusion is otherwise closed, rerun the
+        contract check and update provenance with the contract result.; codex-pdf-provenance:clay-readiness-not-claimed:
+        Replace the conditional provenance with a proved Clay-closing bridge before
+        submission readiness.'
+      required_action: Resolve blockers before submission readiness.
+    - candidate_id: root_submission_verdict:required_before_submission
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: required_before_submission=Run the paperization stack until paper
+        architecture, prose quality, and submission-shape checks pass.; Run the reader-facing
+        PDF contract gates until coverage, surface-derivation inventory, and argument
+        hygiene all pass.; Clear the revise posture in the formalization and review
+        surfaces.; Re-derive the result on the original MPP target rather than on
+        a conditional or regularized surrogate package.
+      required_action: Resolve required_before_submission before submission readiness.
+    - candidate_id: root_submission_verdict:adversarial_findings
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: adversarial_findings=The theorem route may be closed, but the paper
+        itself still fails architecture or prose-quality standards.; The PDF contract
+        gates still reject the reader-facing paper or its support inventories; readiness
+        cannot be inferred from the export verdict alone.; The formal review surfaces
+        would still let a referee attack undefined or weakly grounded bridges.; The
+        paper still does not prove the original MPP target directly; it remains conditional,
+        surrogate-scoped, or transfer-only.
+      required_action: Resolve adversarial_findings before submission readiness.
+    - candidate_id: root_submission_verdict:posture
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: posture=not-ready
+      required_action: Regenerate the verdict posture from current proof/manuscript
+        state.
+    - candidate_id: root_submission_verdict:nested-alignment-status
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: proof_submission_alignment.status=blocked
+      required_action: Clear nested proof/submission alignment before readiness.
+    - candidate_id: root_submission_verdict:nested-alignment-allows_paper_quality_pass
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: allows_paper_quality_pass=false
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: root_submission_verdict:nested-alignment-submission_ready
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: submission_ready=false
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: root_submission_verdict:nested-alignment-downstream_submission_ready
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: downstream_submission_ready=false
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: root_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: manuscript_declares_bridge_open=true
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: root_submission_verdict:nested-open-blockers
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: open_blockers=papers-navier-stokes-child-repo-dirty (papers/navier-stokes);
+        codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
+        (papers/navier-stokes/review/codex-gap-attack-log.yaml); codex-gap-attack-log:r3-exterior-high-order-tail-closure
+        (papers/navier-stokes/review/codex-gap-attack-log.yaml); codex-gap-attack-log:contract-readiness-after-manuscript-expansion
+        (papers/navier-stokes/review/codex-gap-attack-log.yaml)
+      required_action: Resolve nested proof/submission blockers.
+    - candidate_id: root_submission_verdict:nested-completion-candidates
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: completion_candidate_count=6
+      required_action: Resolve nested completion candidates.
+    - candidate_id: bundle_submission_verdict:not-ready
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: submission_ready=false
+      required_action: Keep readiness blocked until this verdict surface is synchronized.
+    - candidate_id: bundle_submission_verdict:blockers
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: 'blockers=codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
+        Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
+        obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
+        proof.; codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove
+        a direct noncircular R3 H^s tail theorem or strengthen dyadic survivor face
+        landing into an accepted whole-space endpoint exclusion.; codex-gap-attack-log:contract-readiness-after-manuscript-expansion:
+        After the bridge is proved or the conclusion is otherwise closed, rerun the
+        contract check and update provenance with the contract result.; codex-pdf-provenance:clay-readiness-not-claimed:
+        Replace the conditional provenance with a proved Clay-closing bridge before
+        submission readiness.'
+      required_action: Resolve blockers before submission readiness.
+    - candidate_id: bundle_submission_verdict:required_before_submission
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: required_before_submission=Run the paperization stack until paper
+        architecture, prose quality, and submission-shape checks pass.; Run the reader-facing
+        PDF contract gates until coverage, surface-derivation inventory, and argument
+        hygiene all pass.; Clear the revise posture in the formalization and review
+        surfaces.; Re-derive the result on the original MPP target rather than on
+        a conditional or regularized surrogate package.
+      required_action: Resolve required_before_submission before submission readiness.
+    - candidate_id: bundle_submission_verdict:adversarial_findings
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: adversarial_findings=The theorem route may be closed, but the paper
+        itself still fails architecture or prose-quality standards.; The PDF contract
+        gates still reject the reader-facing paper or its support inventories; readiness
+        cannot be inferred from the export verdict alone.; The formal review surfaces
+        would still let a referee attack undefined or weakly grounded bridges.; The
+        paper still does not prove the original MPP target directly; it remains conditional,
+        surrogate-scoped, or transfer-only.
+      required_action: Resolve adversarial_findings before submission readiness.
+    - candidate_id: bundle_submission_verdict:posture
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: posture=not-ready
+      required_action: Regenerate the verdict posture from current proof/manuscript
+        state.
+    - candidate_id: bundle_submission_verdict:nested-alignment-status
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: proof_submission_alignment.status=blocked
+      required_action: Clear nested proof/submission alignment before readiness.
+    - candidate_id: bundle_submission_verdict:nested-alignment-allows_paper_quality_pass
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: allows_paper_quality_pass=false
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: bundle_submission_verdict:nested-alignment-submission_ready
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: submission_ready=false
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: bundle_submission_verdict:nested-alignment-downstream_submission_ready
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: downstream_submission_ready=false
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: bundle_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: manuscript_declares_bridge_open=true
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: bundle_submission_verdict:nested-open-blockers
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: open_blockers=papers-navier-stokes-child-repo-dirty (papers/navier-stokes);
+        codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
+        (papers/navier-stokes/review/codex-gap-attack-log.yaml); codex-gap-attack-log:r3-exterior-high-order-tail-closure
+        (papers/navier-stokes/review/codex-gap-attack-log.yaml); codex-gap-attack-log:contract-readiness-after-manuscript-expansion
+        (papers/navier-stokes/review/codex-gap-attack-log.yaml)
+      required_action: Resolve nested proof/submission blockers.
+    - candidate_id: bundle_submission_verdict:nested-completion-candidates
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: completion_candidate_count=6
+      required_action: Resolve nested completion candidates.
+    - candidate_id: submission_export_status:posture
+      kind: submission_export_status
+      surface: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+      evidence: posture=blocked
+      required_action: Regenerate the verdict posture from current proof/manuscript
+        state.
     - candidate_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
       kind: clay_closing_gap
       surface: papers/navier-stokes/review/codex-gap-attack-log.yaml
@@ -133,27 +307,27 @@ readiness_evidence:
       manuscript_unresolved_candidates: 0
       source_frontier_candidates: 0
       route_state_agreement_candidates: 0
-      submission_verdict_agreement_candidates: 0
+      submission_verdict_agreement_candidates: 25
       pdf_track_candidates: 0
       current_material_candidates: 0
       clay_closing_gap_candidates: 5
       stale_readiness_ref_candidates: 0
     pdf_tracks_rendered: true
-    pdf_render_status:
+    pdf_render_status: &1
       status: rendered
       rendered: true
       tracks:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: 5dc2ea248eaf831cfac7981fd9ded56ddbab8abe
-          bytes: 3933447
+          sha1: 9c9d2c7b91783739a336c51389e9244717abe792
+          bytes: 3935056
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
           path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
           present: true
-          sha1: d4ec3c4f01805276cad830cee7e585d75fa750b9
+          sha1: 96e2c6210da0793b48cbfd750216598403db7237
           bytes: 462897
           manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
           required_for_clay_submission: true
@@ -176,64 +350,13 @@ readiness_evidence:
         active Clay-closing proof blockers.
   pdf_tracks_present: true
   pdf_tracks_rendered: true
-  pdf_render_status:
-    status: rendered
-    rendered: true
-    tracks:
-      human_app_aligned:
-        path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-        present: true
-        sha1: 5dc2ea248eaf831cfac7981fd9ded56ddbab8abe
-        bytes: 3933447
-        manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-        required_for_clay_submission: true
-      codex_machine_paper:
-        path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-        present: true
-        sha1: d4ec3c4f01805276cad830cee7e585d75fa750b9
-        bytes: 462897
-        manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
-        required_for_clay_submission: true
-    preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-  pdf_tracks:
-    human_app_aligned:
-      path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-      present: true
-      sha1: 5dc2ea248eaf831cfac7981fd9ded56ddbab8abe
-      bytes: 3933447
-      manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-      role: preferred problems/** app-aligned human submission track
-      required_for_clay_submission: true
-    codex_machine_paper:
-      path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-      present: true
-      sha1: d4ec3c4f01805276cad830cee7e585d75fa750b9
-      bytes: 462897
-      manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
-      role: papers/** Codex-owned machine paper track
-      required_for_clay_submission: true
-readiness_note: 'Both required Navier-Stokes PDF tracks are separate Clay-facing outputs:
-  the problems/** app-aligned human track and the papers/** Codex-owned machine track.'
+  pdf_render_status: *1
+  pdf_tracks: *2
+readiness_note: PDF rendering is tracked separately from submission readiness; both
+  required Navier-Stokes PDF tracks can be rendered while proof/manuscript/app agreement
+  remains blocked.
 pdf_tracks_rendered: true
-pdf_render_status:
-  status: rendered
-  rendered: true
-  tracks:
-    human_app_aligned:
-      path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-      present: true
-      sha1: 5dc2ea248eaf831cfac7981fd9ded56ddbab8abe
-      bytes: 3933447
-      manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-      required_for_clay_submission: true
-    codex_machine_paper:
-      path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-      present: true
-      sha1: d4ec3c4f01805276cad830cee7e585d75fa750b9
-      bytes: 462897
-      manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
-      required_for_clay_submission: true
-  preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+pdf_render_status: *1
 source_wall_root_cm_status: Start with the alleged finite-time Clay terminal witness
   from the same original smooth Navier-Stokes datum. Force that witness into the same-fluid
   canonical CM terminal packet tree, exhaust its finite failure type as not Pack_Q,
@@ -250,8 +373,5 @@ source_wall_root_cm_status: Start with the alleged finite-time Clay terminal wit
   surfaces are support when they conflict with live-theorem-edge.yaml or target-operating-contract.yaml.
   The forward-positive quarantine index keeps 1853 scanned surfaces out of CM authority
   unless a named bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
-stdout: ''
-stderr: ''
-fallback:
 submission_posture: blocked
 readiness_status: clay-closing-bridge-open
