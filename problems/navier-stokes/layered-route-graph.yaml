@@ -2,12 +2,23 @@
 version: 1
 problem_id: navier-stokes
 artifact_id: layered-route-graph-navier-stokes
-updated_at: '2026-04-06T00:00:00Z'
+updated_at: '2026-06-08T04:13:38Z'
 purpose: >
   Folder-wide layer manifest for the Navier-Stokes lane. This artifact separates
   theorem authority, theorem-primary route, live frontier, modernization
   overlays, cross-folder sidecars, and stale generated surfaces so the lane is
   not read as one flat pile of notes.
+current_authority_status:
+  status: superseded-by-live-cm-submission-candidate
+  controlling_surfaces:
+    - problems/navier-stokes/live-theorem-edge.yaml
+    - problems/navier-stokes/source-frontier.yaml
+    - problems/navier-stokes/theorem-packet.yaml
+    - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  note: >
+    This April layer graph is retained as topology/history. Current theorem and
+    manuscript authority is the CM terminal-witness chain plus the
+    submission-bundle manuscript and two required PDF tracks.
 graph_roles:
   exploration_graph:
     role: topic-wide thinking surface
@@ -51,10 +62,11 @@ layers:
     status: authoritative
     judgment: >
       The official Clay target is the incompressible 3D problem on R^3 or T^3,
-      and the currently locked theorem-primary internal branch is now the
-      periodic torus-first four-packet route. Whole-space Euclidean closure is
-      treated as downstream discharge/export rather than the internal proving
-      surface.
+      and the currently locked theorem-primary branch is the CM terminal-witness
+      chain: finite Clay witness entry, Pack/Part/Field finite-failure
+      exhaustion, and `Exit(Q):=not Member(Q)`. Periodic, source-wall,
+      positive-supplier, and export surfaces are support unless they land a
+      named failure in the CM faces.
     surfaces:
       - problems/navier-stokes/route-lock.yaml
       - problems/navier-stokes/theorem-packet.yaml
@@ -66,9 +78,10 @@ layers:
     rank: 1
     status: authoritative
     judgment: >
-      The route remains not-ready. Route B / C3 is authoritative for the current
-      branch, but the closed-loop warrant is still open on the declared theorem
-      surface.
+      Release and review currently read the package as a submission candidate:
+      the theorem packet is export-ready, the source frontier has zero live
+      obligations, and the submission-bundle manuscript plus the Codex PDF track
+      are the current reader-facing outputs.
     surfaces:
       - problems/navier-stokes/formalization-ledger.md
       - problems/navier-stokes/release-decision.yaml
@@ -107,10 +120,11 @@ layers:
     rank: 3
     status: live
     judgment: >
-      The current theorem-primary packet is the torus-first internal spine:
-      periodic four-packet closure -> derivative tower -> material-derivative
-      correction -> Hopf/shuffle survivor program -> YM-heat / deformation
-      bridge -> TPS strong/defect bridge with SG.4 as the exact live edge.
+      The current theorem-primary packet is the CM pass-or-exit spine:
+      an alleged finite Clay terminal witness enters the same-fluid CM terminal
+      packet tree, its finite failure type is exhausted as not Pack_Q, not
+      Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and that face failure
+      supports `Exit(Q):=not Member(Q)`.
     surfaces:
       - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
       - problems/navier-stokes/theorem-construction/torus-projected-flow-extraction.md
