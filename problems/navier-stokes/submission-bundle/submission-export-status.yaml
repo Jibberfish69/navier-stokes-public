@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T02:53:22Z'
+generated_at: '2026-06-08T03:46:22Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -13,8 +13,8 @@ pdf_tracks: &1
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     role: preferred problems/** app-aligned human submission track
     present: true
-    bytes: 3931733
-    sha1: 5099ce6744e9a087b9fe9b78c7a9816a76a4e6d1
+    bytes: 3933469
+    sha1: c2d4378c4f5a45cb86673a155bd1a471ec8ec77c
     required_for_clay_submission: true
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   codex_machine_paper:
@@ -22,7 +22,7 @@ pdf_tracks: &1
     role: papers/** Codex-owned Clay-facing submission paper track
     present: true
     bytes: 462897
-    sha1: fbae2c0530e2be0d50b5fb5983929f648cd9970f
+    sha1: 3e179d8fa6f5ba9b3c0280092e735983e4438962
     required_for_clay_submission: true
     manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
@@ -70,14 +70,14 @@ readiness_evidence:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: 5099ce6744e9a087b9fe9b78c7a9816a76a4e6d1
-          bytes: 3931733
+          sha1: c2d4378c4f5a45cb86673a155bd1a471ec8ec77c
+          bytes: 3933469
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
           path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
           present: true
-          sha1: fbae2c0530e2be0d50b5fb5983929f648cd9970f
+          sha1: 3e179d8fa6f5ba9b3c0280092e735983e4438962
           bytes: 462897
           manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
           required_for_clay_submission: true
