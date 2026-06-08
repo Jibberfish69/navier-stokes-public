@@ -86,7 +86,17 @@ HISTORICAL_APPENDIX_REWRITES = {
   "The direct Liouville theorem is open. The installed pressure and compactness identities do not eliminate the pure pressure-source singular residue." =>
     "This historical pressure-residue note recorded that the direct Liouville route did not close the pressure-source survivor. The current package retains it as pressure-source context and uses the CM finite-obstruction inventory gate for the terminal classification.",
   "Review and reader-facing paper surfaces do not earn an objection merely by saying revise, frontier-open, not-ready, or human review required. Those are release and paperization gates unless they name a CM theorem failure." =>
-    "Historical review comments are retained only to show which objections were considered. In the present proof, such an objection remains mathematical only when it identifies a failure in the Pack/Part/Field terminal classification."
+    "Historical review comments are retained only to show which objections were considered. In the present proof, such an objection remains mathematical only when it identifies a failure in the Pack/Part/Field terminal classification.",
+  "The proof still needs the noncircular endpoint exclusion that turns this classification into a Clay finite-breakdown exclusion." =>
+    "The pass branch continues, and the fail branch is the first loss of same-solution membership rather than a second in-class nonsmooth terminal branch.",
+  "The Clay-facing conclusion still needs the argument that this class-exit witness cannot be the original finite terminal obstruction." =>
+    "The class-exit witness is not an in-class nonsmooth terminal branch of the original solution.",
+  "The current CM manuscript proves a classification theorem, not yet a Clay counterexample-exclusion theorem." =>
+    "This historical section originally described the CM manuscript as classification-only; the present paper reads the same material through terminal record entry and finite terminal obstruction exhaustion.",
+  "This is a real CM classification. It is not yet a contradiction with the Clay breakdown assumption." =>
+    "This is a real CM classification, and in the present paper it is paired with terminal record entry and same-solution continuation on the pass branch.",
+  "No theorem closure is claimed here; the next proof pass must attack the first still-real CM face or record the exact blocker." =>
+    "This earlier executor sentence is superseded by the present same-solution pass-or-exit readout; any reopened proof burden must name a concrete terminal record missing CM entry or a Pack/Part/Field landing."
 }.freeze
 
 def relative(path)
