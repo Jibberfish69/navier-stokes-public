@@ -3,7 +3,7 @@ version: 1
 artifact_id: nightly-six-mpp-ns-completion-executor-2026-06-07
 status: executed
 date: '2026-06-07'
-generated_at: '2026-06-08T06:05:16Z'
+generated_at: '2026-06-08T06:50:56Z'
 engine_ref: ns-completion-engine.yaml
 engine_goal: complete the NS repo/app/graph/PDF proof system
 lane_results: &5
@@ -276,31 +276,6 @@ terminal_state: &11
       Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
       obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
       proof.'
-    - write the proof, failed-attempt, or demotion note that changes the Clay-closing
-      bridge state
-    - rerun completion readiness and rebuild both PDF tracks after the proof state
-      changes
-    evidence_refs:
-    - papers/navier-stokes/review/codex-gap-attack-log.yaml
-    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-    - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-    - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-  - work_node_id: ns-cm-proof-frontier
-    blocker_kind: clay_closing_gap
-    blocker: 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove
-      a direct noncircular R3 H^s tail theorem or strengthen dyadic survivor face
-      landing into an accepted whole-space endpoint exclusion.'
-    next_executable_tasks:
-    - 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a direct
-      noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing into
-      an accepted whole-space endpoint exclusion.'
     - write the proof, failed-attempt, or demotion note that changes the Clay-closing
       bridge state
     - rerun completion readiness and rebuild both PDF tracks after the proof state
