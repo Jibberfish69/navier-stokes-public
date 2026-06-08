@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-08T05:41:36Z'
+  evaluated_at: '2026-06-08T05:57:53Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: blocked
@@ -48,18 +48,11 @@ blockers:
 - Completion tier is still `clay-closing-bridge-open`, below a paper-complete or full-closure
   submission surface.
 - Honesty review verdict is still `block`.
-- Submission export status changed after the current review verdict was written.
 - 'Target fidelity failure: direct theorem authority still has open theorem-packet
   blockers, so terminal release is not safe.'
 - Stand-alone status remains `blocked`.
 - Paper quality verdict did not pass; the manuscript still fails architecture, prose,
   or submission-shape checks.
-- 'Navier-Stokes PDF contract blocks export: two-track Navier-Stokes PDF output topology
-  failed: Codex paper PDF is missing rendered conditional Clay-closing bridge Codex
-  paper PDF is missing rendered conditional argument boundary'
-- 'Navier-Stokes PDF contract blocks export: current material coverage failed: current-material
-  coverage mismatch unclassified current checkable files: ns-completion-engine.yaml
-  ns-completion-executor.yaml theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md'
 - 'Navier-Stokes completion candidate remains: papers-navier-stokes-child-repo-dirty
   (papers/navier-stokes)'
 - 'Navier-Stokes completion candidate remains: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
