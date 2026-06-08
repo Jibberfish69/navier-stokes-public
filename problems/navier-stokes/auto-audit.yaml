@@ -4,10 +4,10 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-08T03:06:01Z'
+  audited_at: '2026-06-08T03:11:19Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
-  current_package_status: theorem-open-at-direct-live-frontier
+  current_package_status: full-mpp-closure-ready
   standalone_status: revise
   completion_tier_achieved: paper-complete-theorem-open
   review_verdict: revise
@@ -27,12 +27,22 @@ branch_audit:
 downstream_overlay_drift: &1
   status: stale
   issue_id: downstream-overlay-drift
-  authority_surface_count: 2
-  stale_overlay_count: 1
+  authority_surface_count: 3
+  stale_overlay_count: 2
   authority_surfaces:
+  - artifact: source_frontier
+    path: problems/navier-stokes/source-frontier.yaml
+    sha1: 4f715ffa5c2216439ec65392e96ae03d244a848f
+    matched_terms:
+    - direct-live-surfaces
+    - source_authority_mode
+    - pctp.hard
+    - installed
+    - 'unresolved_count: 0'
+    - 'dashboard_unresolved_count: 0'
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: ef3b4ee9d0661149f57909d69a78730ea5906191
+    sha1: 18294820c21b41796ef7a74f4abbf4d5e741bbeb
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -42,10 +52,9 @@ downstream_overlay_drift: &1
     - full-mpp-closure
     - certified
     - accepted
+    - 'all_discharged: true'
     - 'submission_ready: true'
-    - 'completion_tier_achieved: full-mpp-closure'
     - submission-candidate
-    - 'release_posture: export-ready'
   - artifact: dependency_discharge
     path: problems/navier-stokes/dependency-discharge.yaml
     sha1: ece10236a406f4d366d49a5ab29b8f0ccdac1f30
@@ -60,12 +69,17 @@ downstream_overlay_drift: &1
     sha1: 651be8faff977b4bb79886580a0298eb90d45cd2
     matched_terms:
     - theorem-upgrade
+  - artifact: release_decision
+    path: problems/navier-stokes/release-decision.yaml
+    sha1: b13e6f77f19082de0ed67038963fceaff3ff7968
+    matched_terms:
+    - theorem-upgrade
   recommended_repair: refresh-review-verdict
   recommended_next_cell_type: honesty-review
   recommended_command: refresh-review-freshness
   terminal_condition_failure: 'Downstream overlay drift: authoritative theorem edge/source
     surfaces carry a promoted direct-live posture, but generated overlays still advertise
-    stale blocker language in review_verdict: theorem-upgrade.'
+    stale blocker language in review_verdict, release_decision: theorem-upgrade.'
 graph_snapshot:
   exploration_graph:
     present: true
@@ -77,66 +91,25 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-f0e6480d5731
-    route_signature: f0e6480d5731c14b5a744a66e64dfedafb8ccb2d
-    theorem_target: TorusGlobalMaterialAtlasTerminalCapture.A feeding ClayTerminalWitnessCMEntry.A
-      / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A; reserve
-      and active-height notes are support-only after CM necessity testing
-    theorem_statement: 'TorusGlobalMaterialAtlasTerminalCapture.A feeding ClayTerminalWitnessCMEntry.A
-      / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A; reserve
-      and active-height notes are support-only after CM necessity testing Live theorem
-      edge: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A;
-      TorusGlobalMaterialAtlasTerminalCapture.A; R3.WholeSpaceCMCompletion.A; SourceReserveBirthCharge.A
-      / RetainedPositiveScaleNativeReserveBirthCharge.A.'
+    surface_id: theorem-surface-navier-stokes-59de635b7f1b
+    route_signature: 59de635b7f1b3be47c7f40c2579ed82296f9e952
+    theorem_target: full-mpp-closure
+    theorem_statement: 'Navier-Stokes global regularity is proved by CM contrapositive
+      class exit: an alleged finite-time Clay terminal witness from the same original
+      smooth datum enters the same-fluid CM terminal packet tree, its finite failure
+      type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q},
+      and the derived face failure embeds as `Exit(Q):=not Member(Q)` while the pass
+      branch remains the lawful smooth continuation branch.'
     route_chain:
-    - Start with the alleged finite-time Clay terminal witness from the same original
-      smooth Navier-Stokes datum
-    - The witness enters the canonical same-fluid CM terminal packet tree rather than
-      being assumed to be a class member
-    - The finite failure type is exhausted as not Pack_Q, not Part_{N,Q}, or forall
-      r>0 not Field_{N,r,Q}
-    - The derived face failure embeds as `Exit(Q):=not Member(Q)` inside the CM contrapositive
-      program
-    - The pass branch remains the lawful smooth continuation branch, while the fail
-      branch has no legal in-class nonsmooth continuation status
-    route_slots:
-    - slot_id: claim-ladder-1
-      label: Start with the alleged finite-time Clay terminal witness from the same
-        original smooth Navier-Stokes datum
-      kind: lemma
-      status: claim-ladder
-      source_anchor: "`submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`,
-        `target-operating-contract.yaml`"
-      patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: claim-ladder-2
-      label: The witness enters the canonical same-fluid CM terminal packet tree rather
-        than being assumed to be a class member
-      kind: lemma
-      status: claim-ladder
-      source_anchor: "`live-theorem-edge.yaml`, `theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md`"
-      patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: claim-ladder-3
-      label: The finite failure type is exhausted as not Pack_Q, not Part_{N,Q}, or
-        forall r>0 not Field_{N,r,Q}
-      kind: lemma
-      status: claim-ladder
-      source_anchor: "`live-theorem-edge.yaml`, `theorem-repair.yaml`, `submission-bundle/submission-synopsis.md`"
-      patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: claim-ladder-4
-      label: The derived face failure embeds as `Exit(Q):=not Member(Q)` inside the
-        CM contrapositive program
-      kind: lemma
-      status: claim-ladder
-      source_anchor: "`live-theorem-edge.yaml`, `target-operating-contract.yaml`,
-        `submission-bundle/submission-synopsis.md`"
-      patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: claim-ladder-5
-      label: The pass branch remains the lawful smooth continuation branch, while
-        the fail branch has no legal in-class nonsmooth continuation status
-      kind: lemma
-      status: claim-ladder
-      source_anchor: "`submission-bundle/submission-synopsis.md`, `submission-verdict.yaml`"
-      patch_surface: problems/navier-stokes/object-formalization.yaml
+    - Alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes
+      datum.
+    - ClayTerminalWitnessCMEntry.A places the witness in the same-fluid canonical
+      CM terminal packet tree.
+    - ClayFiniteFailureTypeCMExhaustion.A exhausts the finite failure type as not
+      Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}.
+    - ClayCMContrapositiveEmbedding.A embeds the derived face failure as `Exit(Q):=not
+      Member(Q)` while the pass branch remains the lawful smooth continuation branch.
+    route_slots: []
     authority_layers:
       authoritative_proof_surfaces:
       - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
@@ -234,14 +207,14 @@ surface_snapshot:
       sterilized_synthesis_import_count: 0
   theorem_authority_summary:
     total_obligations: 3
-    grounded_count: 2
+    grounded_count: 3
     structural_only_count: 0
     structurally_supported_count: 0
     bridge_pending_count: 0
     unresolved_count: 0
-    frontier_count: 1
-    blocking_count: 1
-    all_discharged: false
+    frontier_count: 0
+    blocking_count: 0
+    all_discharged: true
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
 issues:
