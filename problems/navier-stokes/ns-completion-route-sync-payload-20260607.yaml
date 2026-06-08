@@ -480,7 +480,8 @@ integration_chain:
     rows, not as generic global no-exit blockers.
 - step_id: repo_proof_authority
   surface_class: NS repo theorem closure
-  current_state: clay-closing-bridge-open
+  current_state: superseded-by-20260608-current-authority
+  previous_state_label: bridge_open_20260607
   mirror_of_completion_candidate: true
   job: Keep the governing proof program as Exit(Q):=not Member(Q) through Pack/Part/Field.
   current_gap: 'Direct proof authority is blocked by the active Clay-closing bridge:
@@ -501,7 +502,8 @@ integration_chain:
 '
 - step_id: submission_package
   surface_class: review/submission
-  current_state: blocked-clay-closing-bridge-open
+  current_state: superseded-by-20260608-current-authority
+  previous_state_label: blocked_bridge_open_20260607
   mirror_of_completion_candidate: true
   job: Review and submission verdicts must keep rendered PDFs separate from Clay-ready
     submission readiness.
@@ -792,7 +794,8 @@ branch_rows:
 - row_id: integration:repo_proof_authority
   row_kind: d8_integration_step
   label: NS repo theorem closure
-  state: clay-closing-bridge-open
+  state: superseded-by-20260608-current-authority
+  previous_state_label: bridge_open_20260607
   next_burden: 'Direct proof authority is blocked by the active Clay-closing bridge:
     the repo has classified terminal CM exits through Pack/Part/Field, but it has
     not yet proved that a classified Exit(Q;O_work) cannot be the actual finite terminal
@@ -819,7 +822,8 @@ branch_rows:
 - row_id: integration:submission_package
   row_kind: d8_integration_step
   label: review/submission
-  state: blocked-clay-closing-bridge-open
+  state: superseded-by-20260608-current-authority
+  previous_state_label: blocked_bridge_open_20260607
   next_burden: 'Review, submission verdicts, export status, route-state, and PDF topology
     must keep submission_ready false while the Clay-closing proof blockers remain
     active.
