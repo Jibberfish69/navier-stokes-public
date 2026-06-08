@@ -5,7 +5,7 @@ identity:
   artifact_id: assumption-audit-navier-stokes
   created_by: release_surface_reconciler
   purpose: assumption discharge audit reconciled from direct-live authority
-generated_at: '2026-06-08T04:10:52Z'
+generated_at: '2026-06-08T04:16:51Z'
 status:
   audit_status: assumption-discharge-closed
   pass: true
