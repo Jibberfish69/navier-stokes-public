@@ -965,6 +965,8 @@ def sanitize_submission_export_status(status)
     status["submission_posture"] = "blocked"
     status["readiness_status"] = "clay-closing-bridge-open"
     status["readiness_evidence"] = status["readiness_evidence"].is_a?(Hash) ? status["readiness_evidence"] : {}
+    status["readiness_evidence"]["completion_candidate_count"] = readiness["candidate_count"]
+    status["readiness_evidence"]["completion_candidates"] = readiness["candidates"]
     status["readiness_evidence"]["completion_readiness"] = readiness
   end
   status
