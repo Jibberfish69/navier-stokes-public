@@ -234,9 +234,6 @@ blockers:
   Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay obstruction,
   or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
   proof.'
-- 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a direct
-  noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing into
-  an accepted whole-space endpoint exclusion.'
 - 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the bridge
   is proved or the conclusion is otherwise closed, rerun the contract check and update
   provenance with the contract result.'
@@ -251,17 +248,13 @@ blocking_findings:
     obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
     proof.'
 - id: clay-closing-gap-2
-  summary: 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove
-    a direct noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing
-    into an accepted whole-space endpoint exclusion.'
-- id: clay-closing-gap-3
   summary: 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After
     the bridge is proved or the conclusion is otherwise closed, rerun the contract
     check and update provenance with the contract result.'
-- id: clay-closing-gap-4
+- id: clay-closing-gap-3
   summary: 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional
     provenance with a proved Clay-closing bridge before submission readiness.'
-- id: clay-closing-gap-5
+- id: clay-closing-gap-4
   summary: 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the
     Clay-closing bridge or replace the closing argument with a noncircular finite-breakdown
     exclusion.'
@@ -274,23 +267,17 @@ open_logical_burdens:
   required_resolution: Close the Clay counterexample-exclusion bridge before any Clay-ready
     submission claim.
 - burden_id: clay-closing-gap-2
-  statement: 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove
-    a direct noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing
-    into an accepted whole-space endpoint exclusion.'
-  required_resolution: Close the Clay counterexample-exclusion bridge before any Clay-ready
-    submission claim.
-- burden_id: clay-closing-gap-3
   statement: 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion:
     After the bridge is proved or the conclusion is otherwise closed, rerun the contract
     check and update provenance with the contract result.'
   required_resolution: Close the Clay counterexample-exclusion bridge before any Clay-ready
     submission claim.
-- burden_id: clay-closing-gap-4
+- burden_id: clay-closing-gap-3
   statement: 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional
     provenance with a proved Clay-closing bridge before submission readiness.'
   required_resolution: Close the Clay counterexample-exclusion bridge before any Clay-ready
     submission claim.
-- burden_id: clay-closing-gap-5
+- burden_id: clay-closing-gap-4
   statement: 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove
     the Clay-closing bridge or replace the closing argument with a noncircular finite-breakdown
     exclusion.'
