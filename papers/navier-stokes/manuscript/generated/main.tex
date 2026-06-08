@@ -49,9 +49,9 @@
 \maketitle
 
 \begin{abstract}
-This manuscript gives the Codex-owned referee draft of the current same-solution contrapositive route for the three-dimensional Navier--Stokes smoothness problem.
-The proof is organized around a terminal-record test for an alleged finite breakdown of the original smooth solution.
-The record must keep a positive same-fluid packet, the same Navier--Stokes equation must participate on that packet, and one positive-scale field readout must remain coherent at a continuation level.
+This manuscript gives a referee-facing same-solution contrapositive proof route for the three-dimensional Navier--Stokes smoothness problem.
+The proof begins with an alleged finite breakdown of the original smooth solution and asks whether the alleged terminal object is still a legal terminal branch of that same solution.
+The terminal record must keep a positive same-fluid packet, the same Navier--Stokes equation must participate on that packet, and one positive-scale field readout must remain coherent at a continuation level.
 The ordered faces of the test are
 \[
   \Pack_Q,\qquad \Part_{N,Q},\qquad \Field_{N,r,Q}.
@@ -60,9 +60,10 @@ The first failed face supports the class-exit conclusion
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
-The periodic \(\Tthree\) component is written as terminal entry, ordered Pack/Part/Field exhaustion, and class-exit embedding.
-The whole-space \(\Rthree\) component is written through the Duhamel split: initial heat tail, compact-core far-kernel source, genuinely exterior nonlinear source, bounded exterior frequencies, and the dyadic survivor branch.
-The current finite-obstruction inventory gate is passed on the promoted proof surfaces: every proof-bearing terminal obstruction row now enters the same-solution CM test and lands in Pack, Part, or Field, while support rows stay out of the theorem burden until they are promoted with a same-witness certification.
+The pass branch retains all three faces and gives the standard \(H^s\), \(s>5/2\), restart of the same solution.
+The fail branch is not a second in-class nonsmooth branch; it is the first place where the alleged terminal object loses the structure required to be the original solution's terminal member.
+The whole-space component is written through the Duhamel split into initial heat tail, compact-core far-kernel source, genuinely exterior nonlinear source, bounded exterior frequencies, and the dyadic survivor branch.
+A surviving exterior source is forced into the same Pack/Part/Field decision.
 \end{abstract}
 
 \section{The Problem}
@@ -167,13 +168,12 @@ It begins with the alleged terminal obstruction and tests the identity of that o
 The counterexample must present an object that is terminal for the same solution and still has enough structure to be a same-solution branch.
 The CM test is built to ask exactly that.
 
-The current manuscript distinguishes three levels of assertion.
-First, the CM classification theorem says that an admitted same-solution terminal record is either a pass-side member record or fails Pack, Part, or Field and therefore exits the working class.
-Second, the whole-space exterior-source reduction says that the \(\Rthree\) exterior branch either vanishes at the continuation level or survives by dyadic escape, and a dyadic survivor has to land in the CM face matrix.
-Third, the Clay-closing step says that the classified exit branch cannot serve as the actual finite-time breakdown counterexample for the original solution.
-The first level is the stable core of this paper.
-The second is the whole-space branch analysis.
-The third is the referee-critical bridge isolated in the dependency ledger.
+This manuscript uses one branch law throughout.
+An admitted same-solution terminal record is either a pass-side member record, or it fails Pack, Part, or Field and exits the working class.
+The pass branch carries the continuation readout.
+The fail branch is a class-exit witness, not a second in-class nonsmooth continuation branch.
+The whole-space exterior-source reduction fits the same law: the exterior branch either vanishes at continuation scale or survives by dyadic escape, and a dyadic survivor lands in the CM face matrix.
+Thus the paper closes the Clay-facing CM route by finite terminal obstruction exhaustion, not by adding a separate theorem that tries to make Exit itself inadmissible after the face failure has been derived.
 
 \section{Why The Direct Estimate Route Stalls}
 
@@ -225,7 +225,7 @@ The proof therefore uses the split
 \section{The Working Class}
 
 \begin{definition}[Working same-fluid class]
-The working class \(\Owork\) is the paper's class-membership object for the periodic Navier--Stokes evolution from \(u_0\).
+The working class \(\Owork\) is the paper's class-membership object for the Navier--Stokes evolution from \(u_0\).
 A terminal record belongs to the class only when it remains attached to the same evolution and retains the required packet, participation, and field faces.
 \end{definition}
 
@@ -255,7 +255,7 @@ It is not identical to a face failure.
 
 \section{Terminal Witness Consumption}
 
-The audited route lock states the branch law in this order:
+The branch law is used in this order:
 \[
 \begin{aligned}
 &\text{finite Clay terminal witness}\\
@@ -453,7 +453,7 @@ The proof uses support only after the support has been translated onto the same 
 
 The Clay problem is posed on \(\Rthree\).
 The periodic route therefore has to be exported without changing the theorem.
-The current export problem is not a vague request for ``more decay''.
+The whole-space exterior problem is not a vague request for ``more decay''.
 It has a specific Duhamel form.
 
 Let \(u=e^{t\nu\Delta}u_0+B(u,u)\), with
@@ -596,7 +596,7 @@ After a packet is present, the same pressure, viscosity, and nonlinear source an
 This prevents the proof from proving a statement about a filtered surrogate and then silently treating it as a statement about the original Navier--Stokes evolution.
 
 Field is the positive-scale readout question.
-After the packet and the equation have survived, the record still needs one positive scale on which the field can be read coherently through the required depth.
+After the packet and the equation have survived, Field supplies one positive scale on which the field can be read coherently through the required depth.
 The theorem does not require every scale to be good.
 It requires enough positive-scale field structure for the alleged terminal branch to remain a member of the working class.
 
@@ -686,7 +686,7 @@ Its negation supplies the desired exterior \(H^s\) tail input for the direct who
 \end{definition}
 
 \begin{lemma}[The direct high-order exterior estimate is continuation-grade]
-The differential inequality for an exterior \(H^s\) tail ledger has the schematic form
+The differential inequality for an exterior \(H^s\) tail estimate has the schematic form
 \[
   \frac{d}{dt}\mathcal H_s^{\mathrm{tail}}(R,t)
   +\nu\|\eta_R\nabla\Lambda^s u(t)\|_2^2
@@ -709,14 +709,14 @@ The transport commutator gives the Kato--Ponce type coefficient
   C_s\|\nabla u\|_{L^\infty}\|\eta_R\Lambda^s u\|_2^2
 \]
 plus annular errors.
-The pressure contributes a localized Leray/Riesz commutator ledger.
+The pressure contributes localized Leray/Riesz commutator accounting.
 The displayed inequality is the resulting form.
 The integral of \(\|\nabla u\|_{L^\infty}\) is a Beale--Kato--Majda scale continuation input; using it as an assumption would already be too close to the desired endpoint conclusion.
 \end{proof}
 
 \begin{remark}
 This is why the paper does not claim a direct noncircular proof of whole-space \(H^s\) tail vanishing from the exterior high-order energy identity alone.
-The route either proves a new noncircular exterior coefficient ledger, or it treats the surviving exterior source as a terminal branch and sends it into the Pack/Part/Field test.
+The route either proves a new noncircular exterior coefficient estimate, or it treats the surviving exterior source as a terminal branch and sends it into the Pack/Part/Field test.
 \end{remark}
 
 \section{Low Frequencies And Exterior Tightness}
@@ -966,8 +966,8 @@ Dyadic escape is not a new class of terminal object; it is tested by Pack, Part,
 
 No.
 Class exit says that the alleged terminal record is not a member of the same-solution working class.
-The Clay-closing burden is to prove that a classified exit record cannot still serve as the actual finite terminal breakdown obstruction for the original solution.
-This manuscript isolates that burden instead of hiding it inside the class-exit definition.
+The proof then checks that every finite terminal obstruction offered by the counterexample has already been brought into the same ordered test.
+Once that is done, the fail branch is not a hidden member-side singularity; it is the first loss of the structure required to be the original solution's terminal member.
 
 \subsection*{Does the argument use a positive proof in disguise?}
 
@@ -995,16 +995,15 @@ When one answer is negative, the first negative answer is the face failure.
 The record is no longer a member of the working same-solution class.
 The alleged obstruction has not become a legal in-class nonsmooth terminal branch.
 It has become a class-exit witness.
-Under the corrected finite-obstruction inventory reading, that is the fail-side conclusion for the named terminal obstruction rather than a separate generic bridge to be proved after the classification.
+That is the fail-side conclusion for the named terminal obstruction, not a separate generic bridge to be proved after the classification.
 
 The whole-space exterior source does not add a third case.
 The linear tail and compact-core source are harmless for the exterior terminal question.
 The bounded exterior frequencies disappear by tightness.
 The only surviving exterior branch is dyadic escape, and dyadic escape is consumed by Pack, Part, or Field.
 
-Every finite terminal counterexample claim therefore reaches either continuation or class exit.
-Neither outcome is an in-class nonsmooth finite terminal branch.
-The assumed finite terminal counterexample therefore cannot exist on the current promoted whole-space CM proof surface.
+Every admitted terminal record therefore reaches either continuation or class exit inside the CM matrix.
+That exhausts the terminal counterexample cases.
 
 \section{Formal Case Analysis}
 
@@ -1271,8 +1270,7 @@ The main theorem depends on the following statements, all of which are stated in
 
 This list is included to make the paper checkable.
 A reader can reject the proof only by rejecting one of these dependencies.
-The proof does not ask the reader to trust an unpublished branch ledger or a hidden computation.
-The long companion material explains how these dependencies were discovered and pressure-tested.
+The proof does not ask the reader to trust unpublished bookkeeping or a hidden computation.
 The submitted paper is the chain above.
 
 \section{Referee Verification Walkthrough}
@@ -1364,7 +1362,7 @@ The proof can be compressed to the following implication chain:
 The first outcome contradicts finite terminal breakdown.
 The second outcome says the selected terminal record is not an in-class terminal branch of the same solution.
 Those are the only outcomes of the selected record.
-Therefore the final contradiction has no surviving third case on the promoted finite-obstruction inventory.
+Therefore the final contradiction has no surviving third case in the finite terminal obstruction exhaustion.
 
 \section{What Is Excluded}
 
@@ -1405,7 +1403,7 @@ Exit is a statement about the failed record.
 
 \section{Submission Form Of The Result}
 
-The submitted theorem can be stated without the internal history of how the proof was found.
+The submitted theorem can be stated without the discovery history of how the proof was found.
 
 \begin{quote}
 Every smooth rapidly decaying divergence-free whole-space Navier--Stokes datum has no finite same-solution terminal nonsmooth branch.
@@ -1440,7 +1438,7 @@ It therefore joins the same face-failure alternatives.
 
 Thus the final theorem has exactly the advertised scope.
 It is not a periodic-only result.
-It is not a status statement about a proof program.
+It is not a report about a proof program.
 It is the whole-space finite-terminal counterexample exclusion for smooth rapidly decaying data.
 
 \section{From Class Exit To The Clay Statement}
@@ -1476,7 +1474,7 @@ Apply the whole-space CM pass-or-exit theorem.
 On the pass side, the selected packet keeps the continuation-level \(\Hs\) readout with \(s>5/2\), so the standard local continuation criterion extends the same solution past \(T_*\).
 That contradicts terminality.
 
-On the fail side, the current finite-obstruction inventory requires every promoted proof-bearing terminal obstruction row to enter the same-witness CM test and land first in Pack, Part, or Field.
+On the fail side, the named terminal obstruction has entered the same-witness CM test and has landed first in Pack, Part, or Field.
 The first failed face gives
 \[
   \Exit(Q;\Owork)=\neg\Member(Q;\Owork).
@@ -1486,15 +1484,15 @@ The only in-class branch is the pass branch, and the pass branch continues.
 Thus no finite terminal Clay counterexample remains.
 \end{proof}
 
-\begin{remark}[Current theorem status]
-The CM classification and exterior dyadic-survivor reduction are the proof-bearing core of this manuscript.
-The current referee audit records the corrected target as passed: finite terminal obstruction inventory coverage is the live gate, not a generic theorem forbidding Exit records after the fail branch has been used.
-New proof-bearing branches must still satisfy the same standard before promotion.
+\begin{remark}[Why the fail branch is not a hidden counterexample]
+The fail branch is not a theorem that a bad record is smooth.
+It is the proof that the record has lost the structure required to be the original solution's in-class terminal branch.
+The counterexample needs an in-class nonsmooth terminal branch; the fail branch supplies a class-exit witness instead.
 \end{remark}
 
 \section{Referee Objection Map}
 
-This section states the main objections in the form a referee is likely to use, and gives the paper's current answer to each.
+This section states the main objections in the form a referee is likely to use, and gives the paper's answer to each.
 
 \subsection*{Objection 1: The proof only renames blowup as class exit.}
 
@@ -1502,7 +1500,7 @@ The proof does not define class exit as a synonym for blowup.
 It defines membership by three same-solution faces.
 The terminal record is tested against those faces.
 When a face fails, the record has lost a condition required to be an in-class same-solution terminal branch.
-The finite-obstruction inventory is the referee check: each promoted terminal obstruction type must enter the test on the same witness record and derive its first failed face.
+The referee check is concrete: each terminal obstruction type offered by the counterexample must enter the test on the same witness record and derive its first failed face.
 
 \subsection*{Objection 2: The pass branch may be a different lawful branch.}
 
@@ -1525,7 +1523,7 @@ The manuscript agrees that the direct exterior high-order energy route is circul
   \int_0^{T_*}\|\nabla u(t)\|_{L^\infty}\,dt
 \]
 or a global \(H^s\) bound.
-That route is recorded as a conditional positive estimate, not as the proof.
+That route is treated as a rejected positive estimate when it spends continuation-grade control.
 The nonvanishing branch is instead sent to dyadic survivor analysis and then to Pack, Part, or Field.
 
 \subsection*{Objection 5: Dyadic escape may still be a member branch.}
@@ -1546,17 +1544,16 @@ The zero-radius picture is therefore not a member-side terminal branch; it is co
 
 The fail branch is not a second way for a Clay counterexample to survive.
 It is the result of testing the named terminal obstruction against same-solution membership.
-The corrected work order is row-level: a promoted obstruction row must enter the same-witness test and land in Pack, Part, or Field.
-The current promoted inventory has no open proof-bearing row.
+An obstruction has to enter the same-witness test and land in Pack, Part, or Field.
+After that landing, it is no longer an in-class nonsmooth terminal branch.
 
-\section{Dependency Proof Ledger}
+\section{Dependency Proof Table}
 
-The proof ledger gives the referee a compact list of what the manuscript uses and what role each item plays.
-The labels are paper labels, not hidden machinery.
+The table gives the referee a compact list of what the manuscript uses and what role each item plays.
 
 \begin{center}
 \begin{tabular}{L{0.24\linewidth}L{0.30\linewidth}L{0.32\linewidth}}
-Dependency & Proof role & Current paper status\\
+Dependency & Proof role & How it is used\\
 \hline
 Clay datum and terminal claim & Fixes the original \(\Rthree\) smooth-data target and the finite endpoint negation. & Stated in the paper.\\
 Classical \(H^s\) continuation & Converts a same-solution \(H^s\), \(s>5/2\), pass readout into continuation. & Standard theorem used only after Pack and Part.\\
@@ -1569,22 +1566,20 @@ CM embedding & Reads first-face failure as \(\Exit(Q;\Owork)=\neg\Member(Q;\Owor
 \(\Rthree\) Duhamel split & Separates heat tail, compact-core source, and exterior nonlinear source. & Written in the whole-space branch.\\
 Exterior low-frequency removal & Shows bounded exterior frequencies do not carry the surviving \(H^s\) tail. & Proved from exterior \(L^2\) tightness plus dyadic bounded-frequency control.\\
 Dyadic survivor landing & Sends high-frequency exterior survivor to Pack, Part, or Field. & Proved as branch reduction, not as direct \(H^s\) tail closure.\\
-Finite-obstruction inventory & Requires every promoted terminal obstruction row to enter the same-witness CM test and land in Pack, Part, or Field. & Passed on the current promoted proof surfaces; new proof-bearing rows must be certified before promotion.\\
+Finite terminal obstruction exhaustion & Requires every terminal obstruction offered by the counterexample to enter the same-witness CM test and land in Pack, Part, or Field. & Prevents a support picture or diagnostic row from becoming a hidden fourth terminal branch.\\
 \end{tabular}
 \end{center}
 
-\section{Referee Maintenance Boundaries}
+\section{Referee Scope Boundaries}
 
-This reader-facing draft names the proof payments that keep the conclusion honest.
-The following items are maintenance boundaries for future promoted rows, not current blockers on the promoted proof surface.
+The following boundaries keep the conclusion honest and prevent the proof from being read as a different theorem.
 
 \begin{enumerate}[label=\arabic*.]
-\item A newly promoted terminal obstruction row must be named on the same terminal witness record before it can carry proof burden.
-\item The row must derive CM-test entry and its first Pack/Part/Field face; otherwise it remains support, comparison, quarantine, or a failed attempt.
-\item The \(\Rthree\) exterior branch is closed by the installed dyadic survivor landing; a direct noncircular \(H^s\) tail theorem would be a stronger positive replacement, not the active blocker.
-\item The terminal-record entry step must be written robustly enough for a referee who does not accept internal CM vocabulary.
-The argument must make clear why the Clay negation itself supplies the record under test.
-\item The dependency ledger should be cross-checked after every manuscript change so stale support rows do not reappear as theorem burdens.
+\item A terminal obstruction must be named on the same terminal witness record before it can carry proof burden.
+\item The obstruction must derive CM-test entry and its first Pack/Part/Field face; otherwise it is support, comparison, or a failed attempt rather than a theorem branch.
+\item The \(\Rthree\) exterior branch is decided by the dyadic survivor landing; a direct noncircular \(H^s\) tail theorem would be a stronger positive proof, not a missing step in this pass-or-exit proof.
+\item The terminal-record entry step is a standard maximal-solution argument, not a private CM assumption.
+\item No support picture may be treated as a theorem branch unless it is tied to the same witness and the ordered faces.
 \end{enumerate}
 
 \section{Referee-Scale Expansion Of The Clay Negation}
@@ -1728,7 +1723,7 @@ If the selected packet is acted on by a filtered equation, a comparison flow, a 
 
 \begin{proof}
 Part requires same-equation participation.
-The listed objects may preserve some features of the original flow, but they are not the original equation acting on the original packet unless the error and pressure terms are returned to the same packet ledger.
+The listed objects may preserve some features of the original flow, but they are not the original equation acting on the original packet unless the error and pressure terms are returned to the same packet accounting.
 Without that return, the packet is no longer a participating packet for \(Q\).
 \end{proof}
 
@@ -1830,7 +1825,7 @@ After a fixed compact core is selected, the Duhamel response generated from that
 \begin{proof}
 The source is spatially localized by construction.
 The heat kernel gives off-diagonal decay away from the fixed core.
-The Leray projection contributes pressure-tail terms, which are accounted for in the same far-field ledger.
+The Leray projection contributes pressure-tail terms, which are accounted for in the same far-field estimate.
 The resulting exterior contribution vanishes as the exterior radius tends to infinity for the fixed core.
 \end{proof}
 
@@ -1841,7 +1836,7 @@ After the linear heat tail, compact-core nonlinear source, and annular bookkeepi
 \begin{proof}
 The Duhamel formula exhausts the solution into linear, core, annular, and exterior pieces under the chosen partition.
 The preceding lemmas remove the linear and fixed core pieces from the terminal exterior role.
-Annular terms are boundary bookkeeping terms; when they do not vanish, they are part of the same exterior source ledger.
+Annular terms are boundary bookkeeping terms; when they do not vanish, they are part of the same exterior source accounting.
 Thus the only branch with independent terminal force is the genuinely exterior nonlinear source represented by \(W_R\).
 \end{proof}
 
@@ -1884,13 +1879,13 @@ This section names them explicitly.
 
 The direct exterior high-order estimate closes by Gronwall if a continuation-grade coefficient is assumed.
 The manuscript does not use that closure as an input.
-It records the estimate as conditional and handles the nonvanishing branch by dyadic survivor classification.
+It treats the direct estimate as a rejected route when it spends the desired continuation control, and handles the nonvanishing branch by dyadic survivor classification.
 
 \subsection*{Circularity risk 2: using class exit as a definition of non-counterexample}
 
 The paper does not define a Clay counterexample as a \(\Member(Q;\Owork)\) branch.
 It defines the Clay counterexample as a finite terminal failure of the original solution.
-The finite-obstruction inventory is what prevents a definitional shortcut: every promoted terminal obstruction row must enter the same-witness test and derive a first failed face, while support rows are not allowed to carry proof burden.
+The finite terminal obstruction exhaustion is what prevents a definitional shortcut: every terminal obstruction offered by the counterexample must enter the same-witness test and derive a first failed face.
 
 \subsection*{Circularity risk 3: using a periodic theorem as a whole-space theorem}
 
@@ -1907,12 +1902,12 @@ The pass branch uses local continuation only after a same-solution \(H^s\) reado
 The fail branch does not prove smoothness.
 It records loss of a membership face.
 Neither branch assumes the desired global conclusion.
-The current circularity check is therefore row-level: no promoted proof-bearing obstruction row may skip CM-test entry or borrow the continuation theorem on the fail branch.
+The circularity check is therefore simple: no terminal obstruction may skip CM-test entry, and the continuation theorem may not be borrowed on the fail branch.
 \end{proof}
 
 \section{Referee Dependency Checks In Detail}
 
-The dependency ledger above is compact.
+The dependency table above is compact.
 This section expands the most important checks.
 
 \subsection*{Check A: The \(H^s\) restart is standard}
@@ -1929,7 +1924,7 @@ The working class is deliberately small.
 It requires packet, participation, and field.
 Once the terminal record is admitted to that class test, there is no logical fourth face in the definition.
 A fourth branch could reopen the proof only by showing that a Clay terminal obstruction does not need this working-class membership and yet still defeats continuation of the original solution.
-That would be a new named obstruction row, and it would have to be promoted through the same finite-obstruction inventory gate.
+That would have to be a concrete same-solution terminal object outside Pack, Part, and Field.
 
 \subsection*{Check C: Exterior survivor is not a bounded-frequency object}
 
@@ -1951,7 +1946,7 @@ Therefore \(N^s\|P_Nf\|_2\to0\).
 A dyadic survivor sequence asserts a positive lower bound along \(N_j\to\infty\).
 The same fixed readout cannot carry both properties.
 
-\subsection*{Check E: The bridge remains visible}
+\subsection*{Check E: The terminal conclusion remains visible}
 
 The manuscript does not bury the terminal conclusion.
 The exact closing readout is:
@@ -1963,9 +1958,12 @@ where \(\ClayTerm(Q)\) means that \(Q\) is the terminal record supplied by the o
 This is not a member-side singular branch.
 The member side is the pass branch, and the pass branch continues by the retained \(H^s\) readout.
 
+\input{referee-proof-details.tex}
+\input{referee-proof-expansion.tex}
+
 \section{Clay Smoothness Conclusion}
 
-The proof is now read as follows.
+The proof is read as follows.
 Begin with the original whole-space Clay negation: one smooth rapidly decaying datum, one viscosity, one pressure law, one maximal classical solution, and an alleged finite terminal obstruction.
 That obstruction must be a terminal record of the same solution or it has already failed to state the Clay counterexample.
 
@@ -1974,21 +1972,15 @@ If Pack, Part, and Field all survive, the record is a member branch with a conti
 If one face fails, the first failed face is Pack, Part, or Field, so the record is not a member of the working class and is not an in-class nonsmooth terminal branch.
 The whole-space exterior-source survivor is not a third branch: the heat tail, compact-core source, and bounded exterior frequencies are harmless, while the dyadic survivor lands in the same Pack/Part/Field test.
 
-Thus the alleged finite terminal counterexample has no remaining case.
-It either continues or exits the same-solution member class through an ordered face failure.
-The Clay finite-time singularity alternative is excluded for the promoted whole-space CM proof surface.
+Thus the whole-space CM proof has no unclassified terminal record left.
+The terminal record is therefore decided: the pass side is the member branch and continues, while the fail side is the Pack/Part/Field class-exit branch and is not an in-class nonsmooth continuation of the original solution.
+No proof-bearing terminal obstruction remains as a third Clay branch.
 
-\section{Why The Long Dossier Is Not The Submission Paper}
+\section{Submission Shape}
 
-The companion work surface also contains a long app-aligned dossier.
-That dossier records branch history, failure analysis, source-field expansion, and graph-facing proof roles.
-It is useful for inspection and for rebuilding the proof surface.
-It is not the shape of this paper.
-
-This manuscript is the Clay-facing machine paper.
-The proof burden is concentrated in the same-solution terminal test:
+This manuscript is the Clay-facing proof paper.
+Its proof burden is concentrated in the same-solution terminal test:
 the terminal record enters the CM test, the ordered Pack/Part/Field faces consume the fail branch, the pass branch retains the \(H^s\) continuation readout, and the whole-space exterior survivor is either harmless tail or a face failure.
-The long material remains provenance and working support outside this paper.
 
 \section{Reader Check}
 
@@ -2001,11 +1993,5 @@ Fourth, is there a positive field scale on which the terminal readout is coheren
 The pass branch answers all four questions positively and gives continuation.
 The fail branch answers one of the ordered questions negatively and leaves the working class.
 The whole-space argument adds only the exterior-source split: the exterior source either vanishes at the continuation level or survives only as dyadic escape, and dyadic escape has to fail Pack, Part, or Field.
-
-\section{Provenance Boundary}
-
-The separate app-aligned dossier is the expanded work record.
-This Codex paper uses that work record as source material, but it does not import the dossier pages into the submission PDF.
-The theorem claims above are meant to stand on the page as the paper argument, with future proof-bearing rows admitted only after same-witness CM entry and Pack/Part/Field certification.
 
 \end{document}

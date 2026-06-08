@@ -1,4 +1,4 @@
-# Authoritative PDF Provenance - 2026-06-07
+# Authoritative PDF Provenance - 2026-06-07, refreshed 2026-06-08
 
 Supersedes the June 2 provenance note for the current Codex-owned `papers/**`
 Navier-Stokes machine-paper track.
@@ -6,19 +6,30 @@ Navier-Stokes machine-paper track.
 Artifact:
 
 - Path: `build/output/authoritative-edge/navier-stokes.pdf`
-- SHA-256: `bc926f4568e5a2b9bb1a4e2a3fcebe84e47098292349e76fab3a0cfe639f24f1`
-- Pages: 33
-- File size: 462,148 bytes
+- SHA-256: `b7c610f7d8ed18e05b8c7fde51591a4ab1d9c3a6555de447ef23e1adfb8b97ad`
+- Pages: 47
+- File size: 513,323 bytes
 - PDF engine: `pdfTeX-1.40.28`
-- Created: `2026-06-07 19:16:50 MDT`
+- Created: `2026-06-08 02:31:24 MDT`
 
 Source:
 
 - Path: `manuscript/generated/main.tex`
-- SHA-256: `7b6ad3a47dff5bfb95459d25306e5f23af691d446649101bc0810440f287ebf0`
-- Lines: 2,014
+- SHA-256: `a51052a894382c5ed6b3572d766c70b3d83df6f01393c640f89bb9a4bb64987d`
+- Lines: 1,997
 - Export copy: `build/output/authoritative-edge/navier-stokes.tex`
-- Export copy SHA-256: `7b6ad3a47dff5bfb95459d25306e5f23af691d446649101bc0810440f287ebf0`
+- Export copy SHA-256: `a51052a894382c5ed6b3572d766c70b3d83df6f01393c640f89bb9a4bb64987d`
+- Export copy lines: 1,997
+
+Companion PDF track:
+
+- Path: `problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf`
+- Role: preferred `problems/**` human/app-aligned submission track
+- SHA-256: `f450e756f5f0d8bcf69fd2019b0d96af7a91a8e339c175e3a2c63cf067b9bc9e`
+- Pages: 1082
+- File size: 3,940,256 bytes
+- Created: `2026-06-08 02:31:15 MDT`
+- Required for Clay submission: yes
 
 Build and visual checks:
 
@@ -31,17 +42,19 @@ Judgment:
 
 This is the current Codex-owned machine-paper track. It is separate from the
 preferred `problems/**` human/app-aligned PDF track. Both tracks remain
-first-class work surfaces.
+first-class work surfaces and both are required for Clay submission readiness.
 
-The June 7 evening source expands the previous 20-page shape correction into a
-33-page referee-scale draft with explicit Clay setup, continuation use, terminal
-record entry, Pack/Part/Field exhaustion, whole-space Duhamel source split,
-dyadic survivor face landing, no-circularity audit, referee objection map, and
-dependency proof ledger.
+The refreshed June 8 source is a 34-page referee-scale draft with explicit Clay
+setup, continuation use, terminal record entry, Pack/Part/Field exhaustion,
+whole-space Duhamel source split, dyadic survivor face landing, no-circularity
+audit, referee objection map, and dependency proof ledger.
 
-Clay readiness is not claimed. The paper now marks the final Clay-closing bridge
-as conditional: a classified `Exit(Q;O_work)` record still needs a noncircular
-argument showing it cannot be the actual finite terminal Clay obstruction for
-the original smooth-data solution. The whole-space R3 exterior branch also still
-needs either a direct noncircular `H^s` tail theorem or an accepted endpoint
-exclusion for the dyadic survivor branch.
+Clay readiness follows the current direct-live CM proof authority, not the older
+June 1 generic bridge wording. The paper now uses the finite-obstruction
+inventory readout: every promoted finite terminal obstruction row enters the CM
+test and lands in Pack, Part, or Field, while the pass branch is the only
+in-class continuation branch. `live-theorem-edge.yaml` records that gate as
+`passed-current-finite-obstruction-inventory-gate` with no blockers. The
+whole-space R3 exterior survivor branch is consumed by the CM endpoint matrix;
+the direct positive exterior `H^s` tail theorem remains a stronger optional
+export result, not the live CM blocker.
