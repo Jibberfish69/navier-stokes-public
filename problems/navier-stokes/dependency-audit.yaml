@@ -1,39 +1,37 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
   artifact_id: dependency-audit-navier-stokes
-  generated_at: '2026-06-08T03:04:38Z'
-  generator: system/runner/lib/release_surface_reconciler.rb
-  purpose: dependency graph remains open under direct-live authority
+  created_by: release_surface_reconciler
+  purpose: dependency audit reconciled from closed direct-live authority
+generated_at: '2026-06-08T03:37:55Z'
 status:
-  audit_status: direct-live-frontier-open
-  pass: false
-  release_eligible: false
-pass: false
-release_eligible: false
+  audit_status: dependency-graph-closed
+  pass: true
+  route_pass: true
+  release_eligible: true
+pass: true
 source:
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
+  review_verdict: problems/navier-stokes/review-verdict.yaml
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
   release_decision: problems/navier-stokes/release-decision.yaml
 summary:
   total_obligations: 3
-  blocking_count: 1
-  frontier_count: 1
-  all_discharged: false
-  authority_mode: direct-live-surfaces
-  unresolved_count: 1
-  bridge_discharge_blocking_count: 1
-  theorem_warrant_blocking_count: 1
-  open_frontier_labels: &1
-  - ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
+  blocking_count: 0
+  bridge_pending_count: 0
+  unresolved_count: 0
+  all_discharged: true
+blocking_dependencies: []
 findings:
-- Direct-live theorem authority reports open frontier obligations; stale terminal
-  release overlays are demoted.
+- The current direct-live theorem authority gate reports no blocking obligations.
+- Release blocking dependency counts are reconciled to the accepted matrix and terminal
+  release decision.
 verdict:
-  dependency_graph_closed: false
-  release_eligible: false
-  all_discharged: false
-required_for_release: *1
+  dependency_graph_closed: true
+  dependency_direction_clean: true
+  clay_release_dependency_status: closed
+required_for_release: []
