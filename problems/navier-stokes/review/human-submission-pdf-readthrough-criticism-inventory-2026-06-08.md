@@ -1,305 +1,484 @@
 # Navier-Stokes Human Submission PDF Readthrough Criticism Inventory
 
-- PDF: `problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf`
-- SHA-256: `b71614f36db2dd25d043638fbcb6498e85bee910c557a40e039635ed9c0514ae`
-- Pages read from rendered PDF text: 1081
-- Render spot checks: pages 1, 14, 38, 39, 40, 1075-1081
-- Reader roles used: harsh CMI-level math referee; ordinary graduate-level reader
-
-## Harsh CMI Referee Criticisms
-- R1. The paper is not Clay-ready because page 38 names three live mathematical hinges: Pack retention, Part participation, and Field realization/good-scale noncollapse. Those are presented as remaining theorem work inside the main body.
-- R2. The proof replaces the original global-smoothness burden with a class-membership grammar. That grammar needs an equivalence theorem showing that every finite Clay breakdown claim is captured by the same-solution terminal packet test and that the pass side gives classical continuation.
-- R3. The no-third-branch argument is too close to a definition. It rules out a nonsmooth member by defining membership to include the smooth-side requirements, then calls the failure exit. A referee will ask where the PDE estimates prove those requirements for the original solution.
-- R4. The terminal object is assumed too easily. A finite-time breakdown claim does not automatically hand over a well-defined same-solution terminal packet Q with Pack/Part/Field faces. The paper must construct Q or prove that any alleged counterexample has such a terminal witness.
-- R5. The failure list is not proved exhaustive. It is built from prior positive attempts and branch families, which is useful research history, but it is not a theorem classifying all possible Navier-Stokes finite-time breakdown mechanisms.
-- R6. The periodic branch and whole-space branch are not separated with enough analytic force. The torus atlas story does not prove the R3 exterior-source estimate, and page 38 still leaves the exterior H^s tail/export hinge live.
-- R7. Many propositions and theorems are conceptual one-paragraph proofs. They name Pack, Part, Field, membership, readout, or class exit, but they often do not prove estimates, compactness, trace existence, pressure recovery, or continuation criteria.
-- R8. Appendix D contains many open, conditional, incomplete, or failed branches. The text tries to classify them as support, but the PDF does not turn that mass into a clean proof chain accepted on its own terms.
-- R9. Appendices E-G use count-based obligation rollups. Counts such as 541 support-boundary obligations or 1067 support obligations are not mathematical proof; each material branch needs a precise theorem or must be removed from the Clay-facing artifact.
-- R10. The pass branch relies on membership readout to smooth continuation. The reader needs a standard continuation criterion stated and proved from the Pack/Part/Field hypotheses, with exact regularity levels, domains, pressure normalization, and dependence on the original datum.
-- R11. The fail branch proves non-membership in the working class, then treats that as consumption of a Clay counterexample. The paper must prove why an outside-class terminal object cannot be the finite breakdown object demanded by the Clay problem, rather than simply being a singular endpoint.
-- R12. The manuscript contains authority language such as installed, support, route, readout, diagnostic, and obligation. Those words often stand where a referee expects hypotheses, lemmas, estimates, and standard PDE definitions.
-
-## Plain Reader Criticisms
-- P1. The paper is 1081 pages, but the main proof body ends around page 38. A normal reader will see the rest as a huge appendix dump unless the main proof is self-contained and the appendix is clearly optional.
-- P2. The abstract is too dense and front-loads the proof machinery. It names Pack, Part, Field, class exit, exterior-source branches, and terminal witnesses before the reader has a simple theorem statement and route.
-- P3. The table of contents signals imbalance: Appendix D alone spans about pages 90-1075. That tells the reader the paper has not been distilled into a submission paper.
-- P4. The prose still sounds like internal machinery. Terms such as support stack, surface inventory, route, diagnostic, readout, obligation, installed, and bookkeeping appear throughout and make the reader translate instead of follow.
-- P5. The banned word "merely" appears 81 times in the extracted PDF text. That violates the stated writing rule and contributes to a scolding/defensive voice.
-- P6. Contrast-pivot language remains heavy: "rather than" appears 220 times, "instead of" 28 times, "not only" 11 times, and at least one direct "not ... but" hit appears. The prose still often defines the path by rejecting neighboring paths first.
-- P7. Several headings sound like repo or automation artifacts: Dossier Appendices, Page-24 Failure-Record Contract, Expanded CM Branch Obligations, Expanded Forward-Support Obligations, Family proof role. Those are not natural Clay-paper headings.
-- P8. The paper frequently tells the reader how to read the paper. A finished submission should let the proof order carry that load.
-- P9. The reader cannot reliably tell what is proved, what is historical, what is support, what is conditional, and what is still open without constantly parsing status language.
-- P10. The end matter reads repetitive and generated: claim/proof/reader-facing role paragraphs repeat with broad categories and counts instead of concrete mathematical progress.
-- P11. The human-facing proof story is not yet Feynman-like. The reader does not get a simple inevitable chain from the Clay problem to the exact terminal object to the exact contradiction.
-- P12. The paper is still overbuilt around proof bureaucracy. It needs a normal theorem-proof spine first, with the app/branch history serving that spine only where it helps the reader.
-
-## Page-Range Evidence
-
-| Range | Pages | Count | Theorem | Prop. | Lemma | Def. | Proof | not proved | not discharged | does not close | open | conditional | remaining | missing | support | surface | route | readout | obligation |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| main body | 1-38 | 38 | 27 | 14 | 2 | 9 | 30 | 0 | 0 | 1 | 3 | 0 | 8 | 8 | 63 | 35 | 31 | 70 | 10 |
-| appendix A-C | 39-90 | 52 | 83 | 1 | 3 | 0 | 32 | 1 | 0 | 1 | 25 | 21 | 6 | 39 | 60 | 48 | 166 | 48 | 4 |
-| appendix D | 91-1074 | 984 | 1827 | 40 | 138 | 54 | 81 | 25 | 17 | 58 | 413 | 449 | 411 | 288 | 406 | 663 | 1906 | 607 | 28 |
-| appendix E-G | 1075-1081 | 7 | 0 | 0 | 1 | 0 | 19 | 0 | 0 | 0 | 3 | 0 | 2 | 0 | 142 | 4 | 21 | 51 | 38 |
-
-## Mechanical Language And Completion Markers
-
-| Marker | Total hits | Pages with hits | Page index |
-|---|---:|---:|---|
-| banned word "merely" | 81 | 72 | 26, 30, 45, 46, 47, 49, 51, 53, 60, 61, 65, 70, 110, 123, 126, 130, 136, 139, 180, 181, 183, 198, 459, 465, 466, 467, 468, 475, 524, 525(2), 527, 537, 544, 547(2), 570, 571, 618, 635, 637, 639, 641, 647, 648, 669, 679, 687, 725, 751(2), 790, 796, 843, 889, 895, 899(2), 903, 905, 908, 910, 912, 936, 941(2), 942, 977, 980, 981, 994, 1001, 1003(3), 1030(2), 1031, 1054, 1069(2) |
-| NBB contrast: not ... but | 1 | 1 | 53 |
-| contrast pivot: rather than | 220 | 199 | 17, 22(2), 24, 26, 27, 29, 30, 37, 38, 40, 47, 49, 53, 55, 58, 60, 70, 90, 100, 101(2), 105, 109(2), 113, 115, 118, 119, 122, 123, 124, 125, 126, 130(2), 133, 136, 137, 148, 153, 154, 159, 160, 163, 166, 170, 174, 176, 179(2), 182, 184(2), 186(2), 194, 200, 202, 213, 214, 215, 216(2), 222, 235, 250, 261, 264, 270, 277, 278, 303, 317, 325, 334, 351, 353, 357, 360, 364, 368, 372, 397, 398, 399, 402, 403, 424, 425, 439, 449(2), 452, 465, 466, 467(2), 475, 483, 488(2), 492, 493, 495, 497, 498, 499, 503, 506, 514, 515(2), 524, 526, 527, 532, 539(2), 543, 549, 557, 567, 579(2), 584, 597, 598, 617, 624(2), 625, 633, 634, 642 ... +79 more pages |
-| contrast pivot: instead of | 28 | 28 | 45, 67, 68, 123, 161, 178, 186, 190, 199, 353, 411, 464, 472, 535, 634, 661, 688, 732, 890, 915, 918, 920, 948, 995, 1015, 1035, 1062, 1080 |
-| contrast pivot: not only | 11 | 10 | 123, 127, 462(2), 475, 627, 743, 920, 978, 1003, 1004 |
-| open | 398 | 282 | 13, 20, 24, 52, 55(3), 58(3), 70, 72, 74, 75(2), 76, 77(2), 78, 80, 81(2), 82, 83, 87, 88, 100(2), 101, 106, 110, 118, 136, 137(2), 142, 144, 148, 150, 151(2), 154, 162, 163, 172, 177, 179, 193, 198, 199, 216, 217(2), 223, 224, 228, 229(3), 230, 236, 237, 239, 243, 245(7), 246, 247, 248(5), 249, 250, 252(2), 253, 261(3), 264, 267, 268, 270, 272, 273, 276, 278(2), 279, 285, 297(2), 302, 305(2), 306(3), 311(2), 313, 314, 320, 321, 323, 325, 326, 328, 330, 338, 340, 351(2), 352, 353, 354(2), 355, 357(2), 361, 364, 365, 367, 371(3), 373(3), 374(3), 375, 383(2), 384(2), 385, 387, 390, 391, 394, 396, 397(2), 400, 401(2), 402(2), 404, 405(2), 406, 410, 412, 414, 418, 419 ... +162 more pages |
-| conditional | 317 | 241 | 44(2), 52(3), 53, 54, 55(2), 57(2), 70, 82, 84, 87, 88(2), 89, 94, 99, 116(3), 118, 124, 130, 141, 178, 182, 196, 210, 213(2), 222, 223, 225(2), 226, 231(2), 235(2), 242, 245, 249, 250, 251(2), 253(2), 254, 255, 260, 261(6), 262, 264, 265, 275(2), 277, 279(2), 280, 282, 283, 284, 288(2), 289, 293(2), 295, 302, 304, 306(2), 307(3), 311, 313, 326, 328(2), 330, 331(2), 334, 335, 340, 341, 345(3), 346(2), 349, 352(2), 354, 357, 359(2), 360(2), 361, 362(2), 363, 367, 368(2), 369, 370, 376, 379, 380, 384(2), 385, 394, 398(2), 401, 402, 403, 405, 407(2), 412(5), 415(2), 416, 417, 418(2), 422, 434, 438, 440, 442, 443, 447(2), 453(2), 456, 471, 475, 477, 482, 496(2), 497, 499(2), 512, 513, 518(2), 520 ... +121 more pages |
-| missing | 335 | 266 | 6(3), 10, 14(2), 29, 30, 41(2), 42(2), 44, 45, 46, 47(2), 49, 50(3), 51(2), 52, 54(2), 55, 56, 57, 58, 59, 67, 68, 69, 70, 75, 76(2), 77, 80, 81, 82, 83, 84, 85, 86, 88, 95(2), 96, 99(2), 102, 104, 105, 106, 109, 122, 123, 126(2), 137, 139, 142(4), 143, 145, 148, 154, 158, 164(2), 169, 174(2), 184, 185, 190, 194, 195, 199, 224(2), 226, 237, 239, 245, 251, 253(2), 254, 266, 268(2), 278(2), 279(2), 291, 297, 304, 305(3), 312, 313, 314, 325, 326, 334, 343, 345, 346, 351, 361, 364, 370(2), 371, 376, 379, 380, 381, 384, 389, 399, 402, 404, 405, 407, 408(2), 413, 416, 422, 429(4), 434, 435(3), 440, 448, 453, 458, 471, 475(2), 478, 481 ... +146 more pages |
-| not proved | 26 | 26 | 58, 98, 152, 185, 211, 408, 435, 458, 459, 474, 476, 551, 666, 714, 765, 773, 786, 787, 833, 845, 847, 851, 898, 930, 1022, 1027 |
-| not discharged | 17 | 17 | 155, 212, 237, 265, 312, 367, 389, 478, 484, 550, 688, 740, 786, 803, 831, 927, 929 |
-| does not close | 60 | 59 | 27, 48, 92, 96, 100, 101, 124, 143, 144, 167, 179, 210, 213, 246, 252, 266, 309, 383, 417, 486, 502, 509, 535, 537, 548, 554, 569, 595, 596, 599, 633, 655, 664, 709, 732, 739, 745, 753, 775, 820, 827, 842, 855, 865, 878, 889, 913, 943, 951, 966, 969, 979, 1008, 1033, 1034, 1063(2), 1066, 1068, 1070 |
-| still need | 5 | 5 | 215, 517, 570, 965, 1004 |
-| blocked | 62 | 42 | 47, 94, 95(2), 106, 115(2), 117, 118(2), 142(3), 163, 181(3), 182(2), 213, 214(3), 227, 305, 321, 380, 381, 408, 413, 429, 577, 640, 647, 654, 657, 672, 743, 746, 827(2), 865, 887, 907, 958, 959, 966(3), 967(2), 986(2), 991(6), 997, 1005, 1040 |
-| unpaid | 68 | 53 | 7, 8, 12, 22, 25, 29, 30(2), 32, 39, 40, 41, 47, 48, 53(3), 59(2), 66, 67, 74, 76, 78, 86, 88, 89, 90, 292(2), 486(2), 546, 559, 573(2), 615, 661(4), 687, 764, 765(2), 779, 804, 812, 827(2), 834, 857, 858, 864, 865, 866, 867, 888, 1011(4), 1013, 1037, 1038, 1066, 1067, 1080 |
-| support | 528 | 223 | 2, 3(3), 6(2), 7(3), 8, 9, 16, 17(2), 18(3), 19(2), 20(3), 21(4), 22, 24, 26, 27, 29, 30, 32(5), 33(3), 34(13), 37(2), 39(2), 40, 41(2), 42(4), 43(4), 47(2), 48(2), 49, 50(3), 51(4), 52, 53(2), 54, 55(2), 56(6), 57(2), 58, 59(2), 61, 64(2), 68, 69(2), 81, 85(2), 89(4), 92, 93(5), 94(3), 96, 99, 105, 106(2), 107(10), 109(4), 118, 119(2), 126, 134, 145, 158, 161, 166(2), 172(3), 173(3), 174, 185, 187, 195, 196, 197(3), 201, 244, 245(4), 246, 250, 251(2), 262, 268, 269, 281, 283, 292, 303, 324(2), 325, 327(2), 342(3), 351(2), 357, 378, 389, 399, 401, 413, 423(2), 424(3), 450(2), 454(2), 456, 458, 477, 496(2), 499, 502, 506, 507, 510(2), 511(2), 513, 514, 517, 519(4), 541, 543(2), 557(3), 559, 560, 562 ... +103 more pages |
-| surface | 575 | 280 | 1(3), 2, 6, 7(5), 8, 16, 21(2), 22(2), 23(2), 27(9), 28, 29, 31, 39, 40, 41(5), 42, 44, 45(4), 47(4), 48(2), 53, 59, 60(2), 67(4), 71, 73, 74(6), 75, 76, 79, 89(3), 90(3), 91(4), 92(2), 95, 99, 100(2), 108(2), 109, 110(14), 111(5), 112(6), 113, 115(8), 116, 118, 119(2), 120, 121(3), 125, 126, 127(2), 128, 129, 130, 131(3), 134, 136, 137(3), 138(3), 139(5), 140(9), 141(2), 146, 152, 153(3), 154(4), 155, 162, 163, 165, 169(5), 170(3), 171, 172, 173(3), 174(5), 175(4), 176(2), 177(5), 178(6), 181(2), 183, 186, 190, 193, 197(2), 199, 212, 213, 215(3), 256, 262(2), 263, 267, 301(2), 305, 309(2), 321(2), 324, 326(3), 329, 337, 346, 348, 351, 359, 362, 367, 395, 397(2), 401, 412(2), 414, 415, 425, 438, 439, 445(3) ... +160 more pages |
-| route | 1965 | 798 | 1(3), 4(2), 6(2), 7(3), 14, 17, 18(2), 19(2), 21(2), 23, 27(3), 32, 33, 34, 36, 38(4), 39(2), 40(5), 44(4), 45(3), 46(4), 47(2), 48(3), 49(5), 50(2), 51, 52(2), 53(6), 54(3), 55(5), 57(3), 58(10), 59(7), 60, 62(4), 64(4), 66(3), 67(2), 68(3), 69(2), 70(3), 71, 72, 73(2), 75(2), 76(2), 77, 78(5), 79(3), 80(6), 81(2), 82(2), 83(2), 84(2), 86(2), 87(3), 88(2), 89(2), 90(8), 91, 92(3), 93, 94(3), 95, 96(4), 97(4), 98(3), 99(4), 100, 101(3), 102(3), 103(2), 104(3), 105(6), 106(3), 107, 109(6), 110(6), 111(4), 112(2), 113(5), 114(3), 115(11), 117(5), 119, 120, 123, 124(3), 125, 127(4), 128(2), 129(4), 130(10), 131(3), 133(4), 134(3), 135, 136(2), 137(3), 138(9), 139, 141(3), 142(6), 143(7), 144(2), 145(4), 147, 148(3), 149(4), 150(4), 151(5), 152, 153(2), 154(7), 155(4), 157, 158(8), 159(2), 160(3), 161(2) ... +678 more pages |
-| readout | 742 | 342 | 6, 7(3), 8, 12, 13(4), 15(2), 17(3), 18, 19(3), 20(6), 21(3), 25, 26(2), 27(5), 28(3), 29(2), 30, 31(4), 32(3), 33(3), 34(6), 35, 36(5), 37(3), 38(3), 39(2), 40, 41, 43, 48, 49, 50(2), 52(4), 53(2), 54(2), 55(2), 56(3), 57(5), 58(2), 61(5), 64(2), 65(2), 70(3), 75, 81, 87, 89, 90(2), 91(6), 92(2), 93, 94(2), 105(4), 106(8), 107(5), 113, 116, 117(2), 118(7), 125(2), 128(2), 140, 144, 146, 147, 150, 163, 180, 200(3), 201, 212, 213, 217(2), 219(3), 222(3), 234(5), 239, 242(4), 243(4), 245, 249, 250, 257, 262(3), 268, 271(3), 272, 274(3), 275, 278, 279, 281, 282(2), 283, 284, 286(4), 287(3), 289, 291, 299(2), 315(3), 316(5), 324(4), 341(2), 342(6), 343, 344, 345, 346(2), 350(2), 355(3), 360(3), 363, 364, 365(3), 370, 378(2), 381, 382, 387(3) ... +222 more pages |
-| obligation | 30 | 16 | 37(5), 190, 220, 281(2), 302, 550, 596, 628, 696, 699, 914, 1023(2), 1075, 1077(2), 1080(6), 1081(3) |
-| installed | 1006 | 511 | 16, 17, 38, 43(2), 48(2), 51(2), 52(3), 55(2), 58(2), 67, 68, 76, 78, 84, 85, 86, 87(3), 89, 95, 97, 102, 103, 112, 118, 141(2), 142, 143(4), 144(4), 145(3), 146, 148(2), 149(2), 154(2), 155, 157, 158, 160, 163, 164, 165, 167, 182, 183, 194, 195, 201(2), 203, 204(3), 206, 208, 209(2), 210, 211, 212(2), 213, 217, 225, 226(4), 228(2), 235, 236(2), 237, 244, 245(3), 246(4), 247(3), 248, 249(3), 250(2), 251(3), 252(3), 253, 254(3), 259(2), 261(2), 264, 266(2), 267, 268(2), 273, 274, 278(2), 279(4), 280, 282, 293, 302, 303, 305(2), 306, 307, 312, 321, 323, 325(2), 326(3), 327, 328, 329, 334, 338, 339(2), 340, 346(2), 349, 350, 354(2), 357(2), 358, 366, 367, 369, 372(5), 373, 381, 384(3), 388, 390(2), 391, 392 ... +391 more pages |
-| diagnostic | 90 | 66 | 2, 12, 17, 18, 19, 21(3), 23(2), 27, 32, 37, 42, 50, 69, 83, 89, 207, 215, 250(2), 251, 401(2), 404, 456(4), 465, 467, 495(2), 499(2), 503, 504, 509, 512(2), 514, 540, 568, 639, 650(3), 663, 668(2), 718, 719(3), 720(2), 764(2), 767, 774(2), 780, 786, 826, 834, 843, 860, 896(2), 915, 937, 967, 1004(2), 1005, 1006, 1007, 1019(2), 1027, 1039, 1052(2), 1056(2), 1057, 1058, 1068, 1074 |
-| bookkeeping | 111 | 91 | 14, 32, 57, 73, 82, 84, 90, 99, 105, 109, 121, 160, 161, 162, 190, 193, 200, 215, 219, 223, 239, 251, 253, 326, 358, 364, 368, 369, 402, 455, 479, 486, 495(2), 496, 498(2), 500(2), 503(3), 511(2), 530, 537(2), 541, 545(2), 554, 589(2), 596, 645, 654, 658, 670(2), 679(3), 693, 718, 720, 728, 729, 731, 739, 758, 767, 768(2), 772, 784, 794(2), 813, 816, 819, 825, 838, 849, 853, 855, 856, 857, 859(2), 860(2), 867(2), 883, 885, 890, 898, 906(2), 909, 937, 950, 954, 1004(2), 1007, 1011, 1040, 1053, 1067(2) |
-
-## Critical Page Notes
-
-### Page 1
-The abstract makes the central classification claim before the proof has earned the terminal-object construction, continuation readout, and whole-space export burden.
-
-Evidence: ve- scale field control on one witness record. The first place where the terminal object fails gives the class-exit classification Exit(Q; Owork work NS ) := ¬Member(Q; ONS ). The present manuscript uses that classification to consume the alleged finite terminal witness for the Navier–Stokes problem. On the T3 surface, the transported whole-torus material atlas supplies the terminal object. On the R3 surface, the exterior-source branch is read by the same class-membership test a
-
-### Page 6
-The paper changes the Clay problem into a class-membership test. A referee will ask for a theorem proving this test is equivalent to the original smoothness problem, not just a new vocabulary for terminal pictures.
-
-Evidence: pressure, the same viscosity, the same incompressibility law, the same velocity field, and the same terminal witness record? A positive answer puts the object on the pass side of the split. A failed answer gives the exit that the breakdown claim owed us. This reframing holds the problem fixed. A finite-time breakdown claim has to stay attached to the original smooth-data solution. The class-membership question is the test for that attachment. 5 Exhaustive Failure List The support stack behind this paper compresses into the f
-
-### Page 15
-The no-third-branch theorem is too definitional. It says membership keeps the branch on the smooth side, then uses that to rule out a nonsmooth member. The missing work is the analytic bridge from membership requirements to classical continuation.
-
-Evidence: participation. To be such a continuation branch, it must retain a positive same-fluid carrier, the same Navier– Stokes law through the velocity tower, and positive-scale coherent field data. Those are exactly the requirements defining membership in OworkNS . Theorem 1 (No third in-class terminal branch). There is no terminal branch that is both an in-class member branch and a finite nonsmooth obstruction branch: Member(Q; Owork NS ) and Q blocks smooth continuation at T∗ <
-
-### Page 16
-The terminal-consumption theorem claims the first failed requirement necessarily gives Pack, Part, or Field. That follows from the chosen grammar only after the terminal object has been constructed and the grammar has been proved exhaustive for all finite breakdown claims.
-
-Evidence: ion of a positive Pack carrier, the same pressure-viscosity Part action, and one positive-scale Field record. If all three survive, the branch is the lawful Member(Q; Owork NS ) side of the split. If the alleged finite terminal object is not on that side, the first failed requirement is necessarily ¬PackQ , or ¬PartN,Q after Pack survives, or ∀r > 0 ¬FieldN,r,Q after Pack and Part survive. That first face failure is the witness read by the CM embedding as Exit(Q; Owork NS ). 16 The Clay-Facing CM Completion The class law is organ
-
-### Page 17
-The periodic classification result still depends on retained-branch continuation readout. It cannot stand as Clay closure unless the H^s continuation norm is actually proved for the same original solution.
-
-Evidence: the same transported atlas, or it has a first Pack, Part, or Field face failure. The face-failure branch is consumed by the installed terminal witness theorem and embedded as class exit for the same working Navier–Stokes object. The retained branch gives the H s , s > 5/2, continuation norm for the same original solution. The failed branch is outside Member(Q; OworkNS ), so it cannot serve as an in-class finite Clay continuation branch. 17 Forward Families As Support Examples The requirements are now defined. T
-
-### Page 38
-The page names three live mathematical hinges and says they are the final Clay-facing burden. That is a direct non-completion marker inside the main body.
-
-Evidence: ailure as loss of every positive Field scale, or prove a stronger good-scale noncollapse theorem. That hinge is the last place where a retained branch can try to look like the same solution while losing the coherent field readout needed for continuation. These three hinges are the live mathematical work. The manuscript, graph, app, and exported paper can expose them and keep them in reader order, but they cannot pay them by naming them. A demand to prove one particular source, reserve, no-pulse, or readout estimate belongs to the forward-positive progra
-
-### Page 39
-The appendix introduction says the appendices are verification/history rather than extra gaps, while the preceding page says the live mathematical work remains. The reader receives two incompatible completion signals.
-
-Evidence: verification dossier for the app-aligned track. They preserve failed positive routes, source-field derivations, branch ledgers, and surface provenance because those records show why each survivor must be read by Pack, Part, Field, support, or scope boundary. They are not additional proof gaps after the main theorem. When an appendix sentence says that an older source-control theorem, no-pulse route, critical-norm route, or direct exterior H s estimate did not close, that sentence is historical branch evidence unless the main
-
-### Page 40
-The failure-record contract says every route marks the exact stopping point. That is useful history, but it reads as a catalog of failed attempts unless the main proof has already closed the three live hinges.
-
-Evidence: covery returns to tail control. The calculation is plausible because each body is a real mathematical tool: viscous high-frequency damping, the energy identity, compactness of controlled approximations, and derivative recovery on a geometric carrier. The stopping point is circular debt. Each body needs the hard theorem promised by the next body. The residue is the first complete obstruction packet: scale transfer, nonlinear source, exact-object capture, and same-surface derivative drain. Its CM role is architectura
-
-### Page 90
-The closure of the failure record says failed positive attempts leave terminal objects to be tested. That still does not prove every finite breakdown claim enters the selected packet test.
-
-Evidence: C.39 Closure Of The Failure Record The failed positive attempts above leave only a small number of mathematical survivors. Every route that tried to prove smoothness either asked for a direct estimate that would close the classical proof, or else exposed a terminal object that has to be tested as the same Navier–Stokes solution. The surviving object
-
-### Page 1075
-The expanded CM obligations convert many branch obligations into proof roles by counting and sorting them. A referee will treat this as bookkeeping unless each role is tied back to a proved theorem with hypotheses and a proof.
-
-Evidence: names the terminal mechanism, the CM requirement being tested, and the proof role it plays in the pass-or-exit engine. The full source inventory is kept outside the reader-facing paper. E.1 CM proof role 1: Field-face terminal obligations This proof role accounts for 769 branch obligations with one mathematical CM job. The proof rules represented here are retained field failure after the other faces have been removed (417); direct face failure (352). The tested requirements are Field {N,r,Q} (769). The terminal mechanisms
-
-### Page 1077
-The support-boundary role explicitly says 541 obligations have no CM conclusion until a bridge supplies a face. That is an admission that large parts of the appendix are support, not closure.
-
-Evidence: rce recovery or history context (22); Zeno or zero heat time source residue failure routed by the row’s face sort rule (2); participation, no drop, or Part envelope failure routed by the row’s face sort rule (1). Family proof role. Claim. CM proof role 6 has no CM conclusion until it selects a same-fluid terminal packet. Proof. A support branch can strengthen the positive pass side, sharpen a pressure test, or prepare a later terminal witness. It cannot assert Member(Q; Owork work
-
-### Page 1080
-The branch-family rollup repeats generic proof-role paragraphs. It tells the reader how cases should route, but it does not show the case-by-case mathematics needed for a Clay submission.
-
-Evidence: good readout supports the member branch; a failed readout, after carrier and participation have survived, identifies the Field face. The obligation is therefore placed where the paper decides between positive-scale readability and field exit. G Expanded Branch-Family Obligations The current-material coverage families are represented by mathematical proof roles rather than file names. Repetition is by branch family, so the visible appendix shows the obligation being carried instead of repeating the same anonymous sentence for every s
-
-## Correction: Criticism Inventory Only
-
-The earlier version of this file incorrectly promoted criticism into ten broad
-repair targets. That was a target-custody failure. The inventory is evidence
-for the next writing pass, not permission for Codex to rewrite the paper from a
-controller's agenda.
-
-Use these criticisms as local pressure only. Each edit must start from the exact
-page defect, preserve any working mathematical intent already on the page, and
-make the smallest honest improvement that helps the PDF carry the proof. Broad
-actions such as rewriting the opening, demoting hinges, quarantining appendices,
-replacing the class-membership grammar, separating branches, or imposing a new
-paper spine require a separate checked justification from the manuscript and
-Thomas's stated intent before they are allowed.
-
-The specific bad phrases in the earlier summary are now invalidated. “Rewrite
-the opening around a clean theorem/proof spine” was vague and stole authorship:
-it failed to name the exact object, and `spine` was undefined controller
-language. “Resolve or demote the page-38 hinges” was untrustworthy choice
-language: it failed to name the object and why, and it pretended demotion was a
-live option without earning that judgment. “Quarantine the appendix material
-that does not pay the proof” contradicted the app-aligned paper direction: the
-default job is to expand the mathematics so appendix material pays service to
-the MPP proof, not to delete, demote, or isolate it. The safe part was removing
-machinery voice, but only when that preserves the mathematics and the reader's
-route through the paper.
-
-The active next work is: choose the highest-value page defect from the criticism
-evidence, fix that defect without damaging the existing proof shape, reread the
-rendered page, and repeat.
-
-## Page-Defect List For The Next Writing Pass
-
-This list preserves the useful part of the readthrough: concrete defects the
-next pass can choose from. It is not a command list.
-
-1. Page 1, abstract: the reader is asked to accept the class-exit mechanism
-   before the paper has shown the terminal object, the continuation readout, or
-   the whole-space exterior-source handling.
-
-2. Page 1, abstract: the first page introduces Pack, Part, Field, class exit,
-   terminal witnesses, exterior-source branches, and finite failure exhaustion
-   all at once. A normal reader has to translate the machinery before seeing the
-   simple problem the paper is trying to solve.
-
-3. Page 1, abstract ending: the page cuts off mid-thought after “in order to”.
-   The opening page leaves the reader inside an unfinished sentence.
-
-4. Page 6, reframing: the paper changes from the direct Clay smoothness problem
-   to a class-membership question. The page does not yet make the reader feel
-   why that change is forced by the original finite-breakdown claim.
-
-5. Page 6, failure list entrance: the phrase “support stack” makes the reader
-   enter repo-language instead of ordinary mathematical exposition.
-
-6. Page 8, “Silver Standard Approach”: the paper says the nonsmooth field is
-   exhausted by Pack, Part, and Field. The reader has not yet been shown enough
-   to trust that this is an exhaustive mathematical split rather than the
-   paper's chosen vocabulary.
-
-7. Page 9, class membership: `Owork_NS`, `Member`, and `Exit` arrive before the
-   paper has made the ordinary object vivid enough. The notation starts carrying
-   thought that the prose has not fully earned.
-
-8. Pages 12-14, failure-type and witness table: Dead, Jump, Blown, Pack, Part,
-   and Field are introduced as a classification grid. The reader can follow the
-   labels, but the page does not yet make each label feel inevitable from the
-   Navier-Stokes equation itself.
-
-9. Page 15, no-third-branch theorem: the proof reads too definitional. It says
-   membership gives the smooth-side requirements and then rules out nonsmooth
-   membership. The reader still needs to see the analytic payment that turns
-   those requirements into continuation for the original solution.
-
-10. Page 16, terminal-consumption theorem: the proof says the first failed
-    requirement is necessarily Pack, Part, or Field. That feels true inside the
-    grammar, but the page still owes the reader the bridge from every finite
-    Clay breakdown claim to that grammar.
-
-11. Page 17, periodic classification: the retained branch is said to give the
-    `H^s`, `s > 5/2`, continuation norm for the same original solution. The
-    reader needs that readout to be shown as a real continuation step, not only
-    named.
-
-12. Pages 17-20, forward-family support examples: the prose repeatedly says a
-    family “supports,” “routes,” or “reads” a face. The repeated verb pattern
-    starts sounding like an internal sorting system instead of a proof written
-    for a referee.
-
-13. Page 21, four-body diagnostic: the word “diagnostic” weakens the reader's
-    sense of what is proof and what is explanatory history.
-
-14. Pages 23-30, positive-forward branches: several sections show why a
-    positive route fails or stops. Those pages are useful, but the reader can
-    lose track of which statements are current proof, which are failed attempts,
-    and which are only motivation.
-
-15. Page 38, closing hinges: the page states that Pack retention, Part
-    participation, and Field realization/good-scale noncollapse are live
-    mathematical work. That is the strongest evidence that the PDF itself still
-    contains an open proof burden.
-
-16. Page 39, appendix entrance: the appendix says failed routes are not extra
-    proof gaps after the main theorem. This sits too close to page 38 saying the
-    live mathematical work remains, so the reader receives conflicting signals.
-
-17. Pages 40-90, proof attempts appendix: the appendix records many stopping
-    points. A reader can use this history, but it also keeps re-opening the
-    feeling that the proof is a collection of failed routes unless the main body
-    has already paid the core burden.
-
-18. Pages 91-1074, Appendix D: the scale overwhelms the paper. The reader has to
-    process almost a thousand pages of source-field material before reaching the
-    final rollups.
-
-19. Pages 91-1074, Appendix D language: the extracted text contains many live
-    status words across this range: open, conditional, missing, remaining, not
-    proved, not discharged, and does not close. The reader cannot easily tell
-    which of those are harmless historical markers and which still threaten the
-    proof.
-
-20. Pages 1075-1081, expanded obligations: the count-based proof-role rollups
-    sound generated. Counts such as hundreds of Field, Pack, Part, support, or
-    readout obligations do not feel like ordinary mathematical proof on the
-    page.
-
-21. Page 1077, support-boundary obligations: the page explicitly says a support
-    branch has no CM conclusion until it selects a same-fluid terminal packet.
-    That is useful honesty, but it also tells the reader that large parts of the
-    appendix are support rather than closure.
-
-22. Page 1080, branch-family obligations: the final family list repeats generic
-    proof-role prose. The reader gets a map of how branches should be read, but
-    not enough local mathematics to feel that each branch has been paid.
-
-23. Whole PDF, language: `merely` appears 81 times. That violates the current
-    writing rule and often gives the prose a defensive or scolding feel.
-
-24. Whole PDF, language: contrast pivots remain heavy: `rather than` appears
-    220 times, `instead of` appears 28 times, and `not only` appears 11 times.
-    The prose often makes the reader process the rejected path before the real
-    thought.
-
-25. Whole PDF, language: `therefore` appears in the bad proof-adverb pattern in
-    multiple places. It often makes ordinary continuation sound like a proved
-    consequence.
-
-26. Whole PDF, language: internal words such as route, support, surface,
-    readout, installed, diagnostic, obligation, and bookkeeping appear so often
-    that the paper can sound like it is explaining its own machinery instead of
-    leading a reader through mathematics.
-
-27. Whole PDF, reader state: the paper frequently tells the reader how to read
-    the paper. A strong final manuscript should need less instruction because
-    the order of the proof itself carries the reader.
-
-28. Whole PDF, proof state: the reader cannot reliably separate proved theorem,
-    historical failed attempt, support material, conditional branch, and still
-    open burden without repeatedly parsing status language.
-
-29. Whole PDF, submission shape: the main proof body is short compared with the
-    enormous appendix. The paper may contain a lot of work, but the submission
-    experience feels under-distilled.
-
-30. Whole PDF, voice: the prose often sounds like Codex sorting evidence for
-    itself. The target voice should be one person calmly leading another through
-    the mathematical necessity of the argument.
+- PDF reviewed: `problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf`
+- PDF pages: 1082 by `pdfinfo`
+- PDF creation time: 2026-06-08 15:42:44 MDT
+- Main TeX source: `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`
+- Appendix sources:
+  - `problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex`
+  - `problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex`
+  - `problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex`
+- Reader roles used: harsh CMI-level mathematics referee; ordinary graduate-level reader
+
+This is a criticism inventory and repair targeting file. It is not permission to
+delete, demote, quarantine, or reorder the manuscript. Every repair below keeps
+the current paper direction: make the mathematics pay on the page, remove
+machinery voice, and preserve the app-aligned `problems/**` human PDF as the
+preferred submission track.
+
+## 1. Page 38 Still Names Live Clay-Facing Mathematics
+
+Original criticism restored: Page 38 admits live Clay-facing math remains:
+Pack retention, Part participation, Field realization, and good-scale
+noncollapse.
+
+Criticism:
+Page 38 is the strongest non-completion signal in the current PDF. It says the
+three live mathematical hinges remain and that the manuscript, graph, app, and
+exported paper can expose them but cannot pay them by naming them. A referee
+will read that as an admission that the main proof has not carried the final
+Clay-facing burden.
+
+Merged page defects:
+- Page 38, closing hinges: live mathematical work is named inside the main body.
+- Page 39, appendix entrance: the appendix then says the dossier is not extra
+  proof gaps, creating a conflict with page 38.
+- Whole PDF proof state: the reader cannot tell which named hinge is already
+  proved and which hinge is still an active theorem burden.
+
+Actionable repair target:
+- Objective: replace the page-38 open-hinge paragraph with an exact status line
+  for each hinge: proved in the main body, paid in a named theorem, paid in a
+  named appendix theorem, or still open. The page must not say "live
+  mathematical work" unless the PDF is being left explicitly non-final.
+- Filenames:
+  - `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`
+  - `problems/navier-stokes/submission-bundle/submission-verdict.yaml`
+  - `problems/navier-stokes/submission-bundle/source-frontier.yaml`
+- Source regions:
+  - Main body near the "Remaining Closing Burden" / final main-body transition.
+  - Appendix entrance immediately after `\appendix`.
+- Required result: the main body tells the referee exactly what mathematical
+  statement pays Pack retention, Part participation, and Field/good-scale
+  realization. The appendix entrance then matches that status instead of
+  contradicting it.
+- Safe repair mode: write the proof status for the hinge already present on the
+  page. Do not demote the hinge, rename it, or hide it in status language.
+
+## 2. Class-Membership Grammar Replaces Smoothness Without Paying Equivalence
+
+Original criticism restored: The proof replaces global smoothness with
+class-membership grammar; it needs an equivalence theorem capturing finite
+breakdown claims and pass-side classical continuation.
+
+Criticism:
+The paper asks the reader to accept `Member`, `Exit`, `Pack`, `Part`, and
+`Field` as the live form of the Navier-Stokes problem. That can work only after
+the manuscript proves that every alleged finite-time Clay breakdown object is
+captured by the same-solution terminal test, and that the pass side gives the
+ordinary continuation criterion for the original solution.
+
+Merged page defects:
+- Page 1, abstract: the class-exit mechanism appears before terminal-object
+  construction, continuation readout, or whole-space handling.
+- Page 6, reframing: the paper shifts from smoothness to class membership
+  before the reader feels why the finite-breakdown claim forces that shift.
+- Page 8, Silver Standard Approach: Pack/Part/Field exhaustion is asserted
+  before it feels mathematically forced.
+- Page 9, class membership: notation starts carrying thought that prose has not
+  earned.
+- Page 16, terminal-consumption theorem: Pack/Part/Field necessity is true
+  inside the grammar, while the reader still needs the bridge from Clay
+  breakdown to that grammar.
+
+Actionable repair target:
+- Objective: add a clean equivalence block in ordinary mathematical language:
+  an alleged finite-time breakdown must offer a same-solution terminal object;
+  a same-solution terminal object is tested by Pack, Part, Field; all three
+  retained requirements give the standard continuation readout; a first failed
+  requirement gives class exit for that same object.
+- Filenames:
+  - `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`
+  - `problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md`
+  - `problems/navier-stokes/theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md`
+- Source regions:
+  - Abstract and first two main-body sections.
+  - Sections titled "Reframing the Problem", "Defining Class Membership", and
+    "The Contrapositive Logic".
+- Required result: a reader can say, without translating repo vocabulary, why
+  the class test is the same finite-breakdown question and why the pass branch
+  is a classical continuation branch.
+- Safe repair mode: explain the equivalence from the Clay problem outward. Do
+  not introduce a new paper spine, new route name, or assistant-owned theorem
+  framing.
+
+## 3. The No-Third-Branch Argument Reads Too Definitional
+
+Original criticism restored: The no-third-branch argument is too definitional;
+it needs PDE estimates or a bridge proving the requirements for the original
+solution.
+
+Criticism:
+The current theorem says an object that is a member branch cannot also be a
+finite nonsmooth obstruction branch. That is formally clean, but a harsh reader
+will see it as close to tautological unless the membership requirements are
+shown to give real continuation for the same original Navier-Stokes solution.
+
+Merged page defects:
+- Page 15, no-third-branch theorem: the proof says membership keeps the branch
+  smooth, then rules out nonsmooth membership.
+- Page 16, terminal-consumption theorem: the first failed requirement is named
+  by grammar, not yet by analytic payment.
+- Page 17, periodic classification: the retained branch is said to give the
+  `H^s`, `s > 5/2`, continuation norm, but the continuation readout is named
+  more than shown.
+- Whole PDF language: proof-adverb transitions and internal proof-role wording
+  make ordinary steps sound more proved than they are.
+
+Actionable repair target:
+- Objective: make the no-third-branch theorem depend on a stated continuation
+  criterion: retained Pack plus retained Part plus one positive Field scale at
+  depth above `s > 5/2` gives the same-solution `H^s` control needed to continue
+  the classical solution past the alleged terminal time.
+- Filenames:
+  - `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`
+  - `problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex`
+  - `problems/navier-stokes/theorem-construction/mpp-clay-field-failure-realization-proof-20260607.md`
+  - `problems/navier-stokes/theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md`
+- Source regions:
+  - Main-body "No third in-class terminal branch" theorem.
+  - Main-body "Periodic CM classification state" theorem.
+  - Source-field appendix sections near retained Pack/Part/Field and terminal
+    record entry.
+- Required result: the no-third-branch theorem is no longer a definition wearing
+  a theorem label. It points to the exact analytic continuation consumer and the
+  exact retained witness data that feed it.
+- Safe repair mode: strengthen the proof by paying the continuation step. Do
+  not add a generic positive smoothness program or erase the fail branch.
+
+## 4. The Terminal Object Q Is Assumed Too Easily
+
+Original criticism restored: Terminal object `Q` is assumed too easily; the
+paper needs construction, or proof that any alleged counterexample has such a
+terminal witness.
+
+Criticism:
+A finite-time breakdown claim does not automatically hand the reader a clean
+same-solution terminal packet with Pack, Part, and Field faces. The manuscript
+has to show how the original solution, the alleged terminal time, the domain,
+and the selected terminal object are tied together before the witness test is
+allowed to start.
+
+Merged page defects:
+- Page 1, abstract: terminal witnesses appear before construction.
+- Page 16, terminal-consumption theorem: the proof assumes an alleged terminal
+  object is available for the first-face test.
+- Page 39, appendix entrance: "failed routes" become evidence only after a
+  selected same-solution terminal object exists.
+- Whole PDF reader state: the reader cannot separate selected terminal objects
+  from diagnostics, source residues, support branches, or historical failed
+  attempts.
+
+Actionable repair target:
+- Objective: install a terminal-object construction subsection before the first
+  heavy use of `Q`: what data are fixed, what terminal sequence is selected,
+  what makes the object same-solution, what is rejected as surrogate or
+  diagnostic only, and where Pack/Part/Field begin.
+- Filenames:
+  - `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`
+  - `problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md`
+  - `problems/navier-stokes/theorem-construction/mpp-any-finite-failure-witness-cm-exit-20260521.md`
+  - `problems/navier-stokes/theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md`
+- Source regions:
+  - Main-body "Reframing the Problem".
+  - Main-body "Participation and One-Field Coherence Witness Laws".
+  - Main-body "Packet Witness Law".
+- Required result: every later use of `Q` is anchored to a constructed or
+  admitted same-solution terminal witness, not to a free-floating proof token.
+- Safe repair mode: add the missing construction and rejection boundary. Do not
+  change the proof program into a positive deletion of terminal objects.
+
+## 5. The Failure List Is Research History, Not Yet an Exhaustiveness Theorem
+
+Original criticism restored: The failure list is not proved exhaustive; it is
+prior positive-attempt history, not classification of all finite-time breakdown
+mechanisms.
+
+Criticism:
+The current list is useful because it records how many positive-forward routes
+stop. That list does not by itself prove that every possible finite-time
+Navier-Stokes breakdown mechanism is one of those historical branches. A
+submission-grade proof needs a theorem that turns "these are the routes we
+found" into "every admissible finite terminal object enters this same
+Pack/Part/Field test."
+
+Merged page defects:
+- Page 6, failure list entrance: "support stack" sounds like repo history rather
+  than theorem statement.
+- Pages 12-14, failure-type and witness table: labels are understandable, but
+  their inevitability from the equation has not been shown.
+- Pages 17-20, forward-family support examples: repeated routing language reads
+  like sorting, not proof.
+- Pages 23-30, positive-forward branches: the reader loses track of current
+  proof versus failed attempts and motivation.
+- Page 90, closure of the failure record: failed positive attempts leave
+  terminal objects to be tested, but that does not yet classify every possible
+  finite breakdown claim.
+
+Actionable repair target:
+- Objective: write an exhaustiveness theorem for admitted terminal witnesses:
+  after same-solution entry, the first lost requirement is Pack, Part, Field, or
+  the material is support awaiting terminal selection. Historical branches then
+  become examples of this theorem, not the theorem itself.
+- Filenames:
+  - `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`
+  - `problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex`
+  - `problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex`
+  - `problems/navier-stokes/submission-bundle/surface-derivation-inventory.yaml`
+- Source regions:
+  - Main-body "Exhaustive Failure List".
+  - Main-body "Generally Classifying Failure Types From the List".
+  - Appendix "Page-24 Failure-Record Contract".
+  - Appendix "Expanded CM Branch Obligations".
+- Required result: the proof no longer depends on the reader trusting a catalog
+  of past attempts. The catalog becomes evidence under a theorem that names the
+  admissible alternatives and their face landings.
+- Safe repair mode: keep the history as mathematical provenance, but make the
+  proof theorem independent of the history count.
+
+## 6. Periodic and Whole-Space Branches Need Separate Analytic Force
+
+Original criticism restored: Periodic and whole-space branches lack enough
+analytic separation and force; the torus atlas does not prove the `R^3`
+exterior-source estimate, and page 38 leaves the exterior `H^s` tail/export
+hinge live.
+
+Criticism:
+The paper mixes the periodic `T^3` atlas, whole-space `R^3` exterior-source
+handling, and direct positive `H^s` tail export. A referee will require each
+domain to have its own hypotheses, terminal object, compactness/tightness
+structure, pressure normalization, and continuation readout.
+
+Merged page defects:
+- Page 1, abstract: both domains are named before their different burdens are
+  separated.
+- Page 17, periodic classification: retained-branch continuation is asserted
+  for the periodic surface.
+- Page 38, closing hinges: exterior `H^s` tail/export remains a live hinge.
+- Whole PDF proof state: whole-space support material can look like closure
+  before the domain-specific argument has paid it.
+
+Actionable repair target:
+- Objective: split the domain claims in the main body into exact theorem
+  surfaces: periodic `T^3` classification, whole-space `R^3` CM endpoint
+  consumption, and the stronger direct `R^3` exterior `H^s` export theorem.
+  Each surface needs its own status and proof payment.
+- Filenames:
+  - `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`
+  - `problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex`
+  - `problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md`
+  - `problems/navier-stokes/theorem-construction/mpp-scf-aact-elliptic-source-endpoint-branch-package.md`
+- Source regions:
+  - Abstract.
+  - Original problem statement.
+  - Periodic CM classification theorem.
+  - Whole-space / exterior-source paragraphs.
+  - Source-field appendix section "R3 Exterior Tail CM Endpoint Consumption".
+- Required result: a reader knows exactly which result is proved on `T^3`,
+  which result is proved or claimed on `R^3`, and which stronger export theorem
+  remains separate.
+- Safe repair mode: separate the claims without demoting either PDF target or
+  pretending the torus proof automatically exports to whole space.
+
+## 7. Many Theorems Are Conceptual One-Paragraph Proofs Without Analytic Payment
+
+Original criticism restored: Many propositions and theorems are conceptual
+one-paragraph proofs naming Pack, Part, Field, membership, readout, or class
+exit without estimates, compactness, traces, pressure recovery, or continuation
+criteria.
+
+Criticism:
+The paper often uses theorem/proposition labels for conceptual routing
+paragraphs. A referee expects each theorem to carry hypotheses, exact object,
+equation surface, proof mechanism, and conclusion. Several current proofs tell
+the reader what role the branch plays, then skip the analytic mechanism that
+would make the conclusion independent of the chosen language.
+
+Merged page defects:
+- Pages 17-20, forward-family support examples: repeated support/routing/readout
+  verbs sound like internal sorting.
+- Page 21, four-body diagnostic: "diagnostic" weakens proof status.
+- Pages 23-30, positive-forward branches: useful attempts blur with theorem
+  claims.
+- Whole PDF language: route, support, surface, readout, installed, diagnostic,
+  obligation, and bookkeeping appear so often that the paper sounds like
+  machinery.
+- Whole PDF voice: the prose often sounds like Codex sorting evidence for
+  itself.
+
+Actionable repair target:
+- Objective: audit every theorem, lemma, proposition, and claim in the main body
+  and appendices by proof type: proved theorem, definition, routing lemma,
+  historical attempt, support note, or open burden. Then upgrade proof-bearing
+  entries with the missing mathematical mechanism or relabel non-proof material
+  honestly inside the same current structure.
+- Filenames:
+  - `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`
+  - `problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex`
+  - `problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex`
+  - `problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex`
+- Source regions:
+  - Main-body theorem environments.
+  - Appendix proof-attempt entries.
+  - Source-field appendix subsections with proof labels.
+  - Surface-derivation "Family proof role" blocks.
+- Required result: theorem labels are reserved for statements with actual proof
+  force. Support and history remain visible, but they stop pretending to be
+  theorem closure.
+- Safe repair mode: preserve the mathematical intent, then pay the missing
+  proof or rename the local environment. Do not flatten the manuscript into a
+  checker report.
+
+## 8. Appendix D Contains Open, Conditional, Incomplete, or Failed Branches
+
+Original criticism restored: Appendix D has many open, conditional,
+incomplete, or failed branches; the text classifies them as support, but the PDF
+has not turned them into a clean proof chain.
+
+Criticism:
+Appendix D is nearly the entire PDF. It contains a huge amount of source-field
+material, status language, prior attempts, and branch history. The problem is
+not that the appendix is large. The problem is that the reader is not always
+shown how each large chunk pays service to the MPP proof in the present
+manuscript.
+
+Merged page defects:
+- Pages 40-90, proof attempts appendix: stopping points can read as a collection
+  of failed routes unless the main body has paid the core burden.
+- Pages 91-1074, Appendix D: the scale overwhelms the paper.
+- Pages 91-1074, Appendix D language: "open", "conditional", "missing",
+  "remaining", "not proved", "not discharged", and "does not close" appear
+  across this range.
+- Whole PDF reader state: the reader cannot reliably separate proof, history,
+  support, conditional branches, and live burdens.
+- Whole PDF submission shape: the main body is short beside the enormous
+  appendix, making the paper feel under-distilled.
+
+Actionable repair target:
+- Objective: expand Appendix D into explicit proof-payment blocks. Each block
+  must say the selected terminal object, the Pack/Part/Field face or membership
+  readout it pays, the theorem or estimate used, and how it returns to the main
+  proof. Historical material should be marked as historical only when it is not
+  being used for current proof payment.
+- Filenames:
+  - `problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex`
+  - `problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex`
+  - `problems/navier-stokes/source-forensics/master-source-extraction.md`
+  - `problems/navier-stokes/submission-bundle/current-material-coverage.yaml`
+- Source regions:
+  - Appendix D generated source-field reader sections.
+  - Appendix "Proof Attempts And Failures To Prove Smoothness".
+  - Any source-field subsection containing live status words.
+- Required result: Appendix D becomes readable as proof service to the MPP
+  argument, not as a thousand-page status dump. Large size is acceptable only
+  when the local mathematics is doing visible work.
+- Safe repair mode: expand and connect. Do not quarantine, delete, demote, or
+  hide appendix material as the default repair.
+
+## 9. Appendices E-G Use Count-Based Obligation Rollups Instead of Mathematical Payment
+
+Original criticism restored: Appendices E-G use count-based obligation rollups;
+counts are not proof, and each material branch needs a precise theorem or must
+be expanded into mathematical payment.
+
+Criticism:
+The final pages count hundreds of obligations and sort them into proof roles.
+This may help the app or coverage machinery, but it is not enough for a Clay
+submission. A count like 541 support-boundary obligations or 1067 support
+obligations tells the reader the system sorted a lot of material. It does not
+show the local theorem, estimate, witness entry, face failure, or readout.
+
+Merged page defects:
+- Page 1075, expanded CM obligations: counts are used to introduce proof roles.
+- Page 1077, support-boundary obligations: the page explicitly says support has
+  no CM conclusion until it selects a same-fluid terminal packet.
+- Page 1080, branch-family obligations: generic proof-role prose repeats instead
+  of showing local mathematics.
+- Whole PDF language: "obligation", "support", "route", "readout", and
+  "installed" dominate the final pages.
+- Whole PDF voice: final pages sound generated rather than written by one person
+  leading another through proof.
+
+Actionable repair target:
+- Objective: replace count-first rollups with theorem-first branch payments.
+  For each material family retained in the PDF, write the local mathematical
+  object, exact witness face or pass-side readout, proof mechanism, and result.
+  Counts may remain as provenance after the theorem has been paid, never as the
+  proof itself.
+- Filenames:
+  - `problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex`
+  - `problems/navier-stokes/submission-bundle/surface-derivation-inventory.yaml`
+  - `problems/navier-stokes/tools/build_surface_derivation_appendix.rb`
+- Source regions:
+  - `surface-derivation-appendix.tex` sections "Expanded CM Branch Obligations",
+    "Expanded Forward-Support Obligations", and "Expanded Branch-Family
+    Obligations".
+  - Generator logic in `build_surface_derivation_appendix.rb`.
+- Required result: the final appendix pages read like mathematical proof
+  expansion, not coverage reporting. A referee can inspect one family and see
+  exactly what theorem it pays.
+- Safe repair mode: change the generator and generated appendix toward
+  theorem-first prose. Do not use obligation counts as submission evidence.
+
+## Whole-PDF Writing Defects To Apply Inside Every Target
+
+These are not separate controlling targets. They are writing constraints that
+must be enforced while repairing the nine mathematical criticisms above.
+
+1. Remove `merely` from manuscript prose unless a quoted source requires it.
+   Current extracted count: 81.
+
+2. Break contrast-pivot habits. Current extracted counts include `rather than`
+   220 times, `instead of` 28 times, and `not only` 11 times. State the live
+   mathematical object directly.
+
+3. Break the filler-`therefore` pattern. Use that word only for a consequence
+   the reader has just seen earned. For ordinary flow, write the next sentence
+   directly.
+
+4. Remove machinery voice where it replaces mathematics: route, support,
+   surface, readout, installed, diagnostic, obligation, bookkeeping, proof role,
+   and similar internal words. Keep them only where the page defines them and
+   the reader needs them.
+
+5. Stop telling the reader how to read the paper when the proof order can carry
+   the same burden. The final manuscript should lead by mathematical order, not
+   by reader-instruction paragraphs.
+
+6. Preserve authorship and current structure. The repair is not "rewrite the
+   opening", "demote hinges", "quarantine appendices", or "impose a spine". The
+   repair is to make the current mathematical intent pay on the page, with exact
+   objects and exact proof results.
+
+## Immediate Work Queue From This Inventory
+
+1. Main-body proof payment: pages 1-38 in
+   `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`.
+   Result required: terminal object construction, class-equivalence bridge,
+   no-third-branch analytic continuation readout, domain split, and page-38
+   hinge status all become explicit mathematical statements.
+
+2. Appendix D proof-service pass:
+   `problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex`
+   and `problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex`.
+   Result required: open/conditional/history language is separated from current
+   proof payment, and every retained block states the exact Pack/Part/Field or
+   membership readout it serves.
+
+3. Generated rollup repair:
+   `problems/navier-stokes/tools/build_surface_derivation_appendix.rb`,
+   `problems/navier-stokes/submission-bundle/surface-derivation-inventory.yaml`,
+   and generated `surface-derivation-appendix.tex`.
+   Result required: theorem-first branch payments replace count-first proof-role
+   paragraphs.
+
+4. Whole-PDF language pass after mathematical edits. Result required: remove
+   banned and grating patterns, especially `merely`, contrast-pivot phrasing,
+   filler `therefore`, and machinery voice that makes the reader translate.
 
 ## Readthrough Status
 
-This inventory read all 1081 pages through extracted rendered text, with visual spot checks at the opening, main-body hinge page, appendix transition, and final obligation rollups. It is a criticism inventory, not a repair pass.
+This inventory read the rendered PDF text across the whole human submission PDF
+and used source inspection to bind the criticism to real files. It is a repair
+targeting inventory for the next writing/proof pass; it is not a completion
+claim for the PDF.
