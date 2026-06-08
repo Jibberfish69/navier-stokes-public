@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   reconciliation_id: authority-reconciliation-navier-stokes
-  generated_at: '2026-06-08T03:04:38Z'
+  generated_at: '2026-06-08T03:11:19Z'
   generator: system/runner/lib/authority_reconciliation_builder.rb
 active: false
 inputs:
@@ -16,14 +16,14 @@ inputs:
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
 summary:
   proof_ready: true
-  theorem_authority_blocking_count: 1
+  theorem_authority_blocking_count: 0
   bridge_discharge_blocking_count: 0
-  theorem_packet_export_ready: false
+  theorem_packet_export_ready: true
   target_fidelity_terminal_safe: true
   target_fidelity_class: direct-target
-  stale_blocker_count: 0
-  total_submission_blockers: 2
-  stale_posture_lag: false
+  stale_blocker_count: 2
+  total_submission_blockers: 3
+  stale_posture_lag: true
 target_fidelity:
   class: direct-target
   terminal_safe: true
@@ -31,10 +31,25 @@ target_fidelity:
   issues: []
   required_before_terminal_release: []
   signals:
-    local_release_scope: true
-    release_posture: export-ready
-    completion_tier_achieved: full-mpp-closure
-    full_mpp_closure_claimed: false
+    conditional_main_theorem: false
+    overlay_block_risk: false
+    objective_collapse_risk: false
+    conditional_markers: []
+    strong_regularization_markers: []
+    regularization_markers: []
+    transfer_markers:
+    - bridge
+    - comparison
+    authoritative_export_surface: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    bundle_manifest_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    bundle_source_mismatch: false
+    current_theorem_surface_id: theorem-surface-navier-stokes-afca8b68a2f8
+    bundle_theorem_surface_id: theorem-surface-navier-stokes-afca8b68a2f8
+    current_route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
+    bundle_route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
+    bundle_surface_mismatch: false
+    open_theorem_authority: false
+    open_critical_referee_objections: []
 superseded_blockers: []
 effective_review_alignment: {}
 rationale: No authority override is active because either proof-side readiness is
