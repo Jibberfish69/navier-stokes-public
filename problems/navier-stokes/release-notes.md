@@ -2,14 +2,15 @@
 
 ## Supersession
 
-These release notes are not current release authority. The current controlling
-release stack is blocked by the Clay-closing bridge:
+These release notes are historical periodic-branch context, not current release
+authority. The current controlling release stack is the regenerated
+submission-candidate state:
 
 ```text
-release-decision: blocked
-submission-verdict: not-ready
-release_eligible: false
-active blocker: Clay counterexample-exclusion bridge remains open
+release-decision: submission-candidate
+submission-verdict: ready
+release_eligible: true
+active blocker: none on the promoted proof-bearing rows
 human/app-aligned track: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 codex track: papers/navier-stokes/manuscript/generated/main.tex
 ```
