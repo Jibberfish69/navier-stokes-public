@@ -1,3 +1,14 @@
+---
+ns_viewer:
+  theorem_id: clay-part-face-exclusion-working-pass-20260607
+  status: failed-proof-demoted-from-current-blocker
+  proof_role: part_face_exclusion_attempt
+  logical_landing_node: cm_part_face_attempts
+  edge_effect: "Tests the generic retained-Pack Part-face exclusion theorem and records why same preterminal ancestry does not prove terminal Part participation."
+  upstream_origin: "June 7 generic Part-face exclusion work order."
+  downstream_consequence: "Demote generic Part-face exclusion as a global blocker; future named terminal obstruction rows must certify same-witness CM entry plus first-face landing."
+---
+
 # MPP Clay Part-Face Exclusion Working Pass
 
 Date: 2026-06-07
