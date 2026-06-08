@@ -253,6 +253,7 @@ FAMILIES = [
       theorem-construction/mpp-generic-part-face-exclusion-work-order-demotion-20260607.md
       theorem-construction/mpp-retained-pack-part-survival-proof-method-audit-20260607.md
       theorem-construction/mpp-terminal-collar-strain-integrability-proof-method-audit-20260607.md
+      theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md
       theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
       theorem-construction/ns-completion-executor-proof-frontier-20260607.md
     ]
@@ -263,6 +264,8 @@ FAMILIES = [
     "files" => %w[
       d8-completion-route-map.yaml
       ns-logical-tree-bridge-reconciliation-20260607.yaml
+      ns-completion-engine.yaml
+      ns-completion-executor.yaml
       ns-completion-executor-route-sync-20260607-iteration-2.yaml
       ns-completion-executor-route-sync-20260607.yaml
       ns-completion-route-sync-payload-20260607-iteration-2.yaml
