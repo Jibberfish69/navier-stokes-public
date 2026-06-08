@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-08T06:51:37Z'
+  audited_at: '2026-06-08T06:52:51Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: clay-closing-bridge-open
@@ -54,7 +54,7 @@ downstream_overlay_drift: &1
     - submission-candidate
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
-    sha1: 58282543b3564b1f8cb67ac9f3a084b7c734b211
+    sha1: e3c22d6317aec14cd3ccf845071080cd7aad59d1
     matched_terms:
     - direct-live-surfaces
     - authority_gate_mode
@@ -65,7 +65,7 @@ downstream_overlay_drift: &1
     - submission-candidate
   - artifact: dependency_discharge
     path: problems/navier-stokes/dependency-discharge.yaml
-    sha1: a9c071766a0e0ff5c87bf2ad3bb4ea3c4e296733
+    sha1: 45423a51ada7835acd0bcc638730c8a0fcf771a0
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -74,7 +74,7 @@ downstream_overlay_drift: &1
   stale_overlays:
   - artifact: release_decision
     path: problems/navier-stokes/release-decision.yaml
-    sha1: e47e5048a536e8d7dbd08e125e5964e5d8b1149b
+    sha1: c0c8843fabe88064c7e6e57bd3f977d1488f9e2b
     matched_terms:
     - target fidelity failure
     - target fidelity blocker
