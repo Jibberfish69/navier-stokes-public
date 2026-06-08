@@ -5,7 +5,7 @@ ns_viewer:
   logical_landing_node: rscb_nkf
   edge_effect: after the June 6 route cut, retained point-center failure and averaged cover failure must be typed as pass route or first CM face, not revived as finite-energy NKF.Native.
   upstream_origin: finite-energy point-pressure derivative obstruction, retained RSCB.NKF route, and averaged SCF_avg route.
-  downstream_consequence: Use this as the branch-law intake for terminal retained/averaged receiver failures before claiming Exit(Q):=not Member(Q).
+  downstream_consequence: Use this as the branch-law intake for terminal retained/averaged receiver failures before claiming Exit(Q):=not Member(Q); averaged Jump_avg now lands in the Field face by AveragedFieldFaceAdmission.A.
   status: installed
   source_authority: problems/navier-stokes/live-theorem-edge.yaml
 ---
@@ -79,9 +79,21 @@ after the retained/averaged split. The branch-law is:
    `forall r>0 not Field_{N,r,Q}`.
 4. If the averaged branch lacks a uniform positive SCF-good terminal cover with
    common AACT scheduler, the route may not import `READ.COVER`, `DTC.Read`, or
-   `Field.Read` upstream. The failure must either land as the averaged
-   `Jump_avg` face handled by the averaged endpoint grammar or remain an open
-   averaged-cover primitive until that face landing is proved.
+   `Field.Read` upstream. The checked landing is the averaged `Jump_avg` face.
+   On the same CM-test-admitted averaged terminal tail, if `Pack_Q` and
+   `Part_{N,Q}` are retained, `AveragedFieldFaceAdmission.A` proves
+
+   ```math
+   Field_{N,r,Q}\Longrightarrow Field_{avg}(T),
+   ```
+
+   so
+
+   ```math
+   Jump_{avg}(T):=\neg Field_{avg}(T)
+   \Longrightarrow
+   \forall r>0\,\neg Field_{N,r,Q}.
+   ```
 
 Only after one of those face failures is derived can this branch support:
 
@@ -91,8 +103,9 @@ Exit(Q):=\neg Member(Q).
 
 ## Proof Boundary
 
-This note does not assert that every terminal object has already been consumed
-by the above branch-law. It records the lawful receiver split and the required
-first-face typing. The remaining theorem burden is the canonical terminal
-witness entry and finite failure-type exhaustion step for the Clay-facing
-object.
+This note records the lawful receiver split and the required first-face typing.
+The averaged cover failure no longer points to the stronger unresolved `h/F`
+survivor-measure lower-bound theorem for CM landing; it lands in the Field face
+through `AveragedFieldFaceAdmission.A`. The Clay-facing object still uses the
+canonical terminal witness entry and finite failure-type exhaustion chain before
+the derived face failure supports `Exit(Q):=\neg Member(Q)`.
