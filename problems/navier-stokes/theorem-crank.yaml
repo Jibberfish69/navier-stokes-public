@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-06-08T07:39:00Z'
+  generated_at: '2026-06-08T07:42:16Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: needs-sync
@@ -19,12 +19,8 @@ shared_alignment:
       proof status, or a singleton Navier-Stokes route.
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
-    route_label: TorusGlobalMaterialAtlasTerminalCapture.A feeding ClayTerminalWitnessCMEntry.A
-      / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A; reserve
-      and active-height notes are support-only after CM necessity testing
-    current_route_name: TorusGlobalMaterialAtlasTerminalCapture.A feeding ClayTerminalWitnessCMEntry.A
-      / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A; reserve
-      and active-height notes are support-only after CM necessity testing
+    route_label: clay-cm-contrapositive-witness-consumption
+    current_route_name: clay-cm-contrapositive-witness-consumption
     exact_cut_summary: 'The Clay-facing CM chain is installed: an alleged finite Clay
       breakdown witness enters the canonical same-fluid terminal CM packet test, its
       finite failure type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0
