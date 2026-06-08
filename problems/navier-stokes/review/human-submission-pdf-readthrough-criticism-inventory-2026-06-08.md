@@ -147,6 +147,18 @@ replacing the class-membership grammar, separating branches, or imposing a new
 paper spine require a separate checked justification from the manuscript and
 Thomas's stated intent before they are allowed.
 
+The specific bad phrases in the earlier summary are now invalidated. “Rewrite
+the opening around a clean theorem/proof spine” was vague and stole authorship:
+it failed to name the exact object, and `spine` was undefined controller
+language. “Resolve or demote the page-38 hinges” was untrustworthy choice
+language: it failed to name the object and why, and it pretended demotion was a
+live option without earning that judgment. “Quarantine the appendix material
+that does not pay the proof” contradicted the app-aligned paper direction: the
+default job is to expand the mathematics so appendix material pays service to
+the MPP proof, not to delete, demote, or isolate it. The safe part was removing
+machinery voice, but only when that preserves the mathematics and the reader's
+route through the paper.
+
 The active next work is: choose the highest-value page defect from the criticism
 evidence, fix that defect without damaging the existing proof shape, reread the
 rendered page, and repeat.
