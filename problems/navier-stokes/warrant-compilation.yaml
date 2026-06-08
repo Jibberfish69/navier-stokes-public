@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: warrant-compilation-navier-stokes
-  generated_at: '2026-06-08T06:27:32Z'
+  generated_at: '2026-06-08T06:38:47Z'
   generator: tools/ns_pipeline_hardener.rb
 primary_track:
   route_id: source-grounded-four-bridge
@@ -683,7 +683,7 @@ authority_hierarchy: *8
 mode_selection_protocol: *9
 current_authority_status:
   status: superseded-by-direct-live-clearance
-  checked_at: '2026-06-08T06:33:08Z'
+  checked_at: '2026-06-08T06:39:10Z'
   reason: Direct live authority reports no open theorem frontier; this artifact is
     retained as historical theorem-work context and must not respawn a live blocker.
   authority_summary:
