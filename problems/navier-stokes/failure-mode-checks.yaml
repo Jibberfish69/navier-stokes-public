@@ -3,7 +3,7 @@ version: 2
 identity:
   problem_id: navier-stokes
   artifact_id: failure-mode-checks-navier-stokes
-  generated_at: '2026-06-08T05:57:53Z'
+  generated_at: '2026-06-08T06:02:20Z'
   generator: system/runner/lib/release_surface_reconciler.rb
 status: cm-contrapositive-referee-blocked
 pass: false
