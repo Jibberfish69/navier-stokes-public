@@ -1,0 +1,20 @@
+---
+version: 1
+artifact_id: ns-completion-executor-route-sync-2026-06-08
+status: changed
+date: '2026-06-08'
+iteration_index: 1
+consumed_work_node_ids:
+- ns-route-graph-app-sync
+input_refs: []
+route_sync:
+  proof_frontier_ref: problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260608.md
+  graph_target: clay-cm-contrapositive-witness-consumption
+  viewer_mcp_target: Expose the CM contrapositive proof frontier and the next Pack/Part/Field
+    face decision.
+  state_delta: changed route/app/MCP work order by binding it to the executor proof-lane
+    output
+reentry_refs:
+- problems/navier-stokes/current-route-dependency-graph.yaml
+- system/gui/navier-stokes-repo-viewer/src/nsAnalysis.ts
+- system/runner/lib/research_os_live_state_support.rb
