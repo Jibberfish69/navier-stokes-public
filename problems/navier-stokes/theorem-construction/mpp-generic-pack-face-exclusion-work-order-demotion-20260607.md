@@ -1,3 +1,14 @@
+---
+ns_viewer:
+  theorem_id: generic-pack-face-exclusion-work-order-demotion-20260607
+  status: demoted-stale-work-order
+  proof_role: blocker_demotion
+  logical_landing_node: cm_pack_face_attempts
+  edge_effect: "Demotes generic Pack-face exclusion as a stale global no-exit target while preserving not-Pack_Q as a lawful first-face landing for named rows."
+  upstream_origin: "June 7 Pack-face exclusion working pass and current CM referee audit."
+  downstream_consequence: "Future carrier rows require same-witness Pack certification or land as Pack failures instead of staying generic Clay blockers."
+---
+
 # MPP Generic Pack-Face Exclusion Work-Order Demotion
 
 Date: 2026-06-07
