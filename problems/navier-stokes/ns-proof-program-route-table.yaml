@@ -1369,10 +1369,11 @@ mode_selection_protocol:
     failed, or verification cannot be repaired internally.
 exact_live_theorem_grade_burden: *1
 release_or_respawn_consequence:
-  disposition: blocked
-  next_cell_type: proof-frontier
-  next_stage: clay-closing-bridge-open
-  next_action: Close the Clay counterexample-exclusion bridge before submission promotion.
+  disposition: submission-candidate
+  next_cell_type: submission
+  next_stage: full-mpp-closure-submission-candidate
+  next_action: Keep proof, graph, viewer, manuscript, both PDF tracks, and submission
+    wrappers aligned with the full CM contrapositive closure state.
 forward_positive_surface_quarantine:
   status: active-global-demotion
   index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
