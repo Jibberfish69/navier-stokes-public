@@ -4,14 +4,14 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   plan_id: post-release-plan-navier-stokes
-  generated_at: '2026-06-08T03:04:38Z'
+  generated_at: '2026-06-08T03:11:19Z'
   source_release_decision_id: release-decision-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
 current_release:
   disposition: respawn
   release_posture: revise-loop
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: full-mpp-closure
+  completion_tier_achieved: paper-complete-theorem-open
 tracks:
   theorem-upgrade:
     applicable: true
@@ -19,12 +19,13 @@ tracks:
     theorem_gap:
     - The theorem packet localizes definitions, lemma surfaces, theorem statement,
       and proof dependencies strongly enough to support export-facing review.
-    - The local package is stable enough to review, and `draft-v8.md` now serves as
-      the export-ready paper source for this package.
-    - The `draft-v7.md` surface is now a live manuscript artifact aligned with the
-      current export-ready bundle.
-    - The current package is coherent enough to clear a full-MPP closure release if
-      the export bundle remains intact.
+    - The local package is stable enough to review, and `draft-v8.md` now carries
+      real prose, but it is still a revise-stage draft rather than an export-ready
+      paper.
+    - The `draft-v7.md` surface is now a prose artifact, so this pass can review a
+      real package rather than only planning notes.
+    - The formalization ledger still marks stand-alone export as `revise`, which blocks
+      full-MPP closure until the remaining scope boundary is rewritten or discharged.
     reviewer_risks:
     - Recovered support is still classified as strong, so the local package remains
       a revise-stage workboard.
@@ -40,7 +41,7 @@ tracks:
       the lowest safe claim is the final proof.
   publication-finalize:
     applicable: true
-    target_tier: full-mpp-closure
+    target_tier: paper-complete-theorem-open
     draft_surface_kinds:
       draft_v6: draft
       draft_v7: draft
