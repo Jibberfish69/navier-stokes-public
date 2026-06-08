@@ -480,38 +480,25 @@ integration_chain:
     rows, not as generic global no-exit blockers.
 - step_id: repo_proof_authority
   surface_class: NS repo theorem closure
-  current_state: superseded-by-20260608-current-authority
-  previous_state_label: bridge_open_20260607
-  mirror_of_completion_candidate: true
+  current_state: finite-obstruction-inventory-reconciled
   job: Keep the governing proof program as Exit(Q):=not Member(Q) through Pack/Part/Field.
-  current_gap: 'Direct proof authority is blocked by the active Clay-closing bridge:
-    the repo has classified terminal CM exits through Pack/Part/Field, but it has
-    not yet proved that a classified Exit(Q;O_work) cannot be the actual finite terminal
-    Clay obstruction.
-
-'
+  current_gap: No active Clay-closing bridge gap remains on the promoted proof-bearing
+    terminal inventory. Future blockers must name a concrete terminal obstruction
+    row lacking CM-test entry or a derived Pack/Part/Field face.
 - step_id: manuscript_scaffold
   surface_class: NS manuscript/PDF
-  current_state: proof-prose-blocked
-  mirror_of_completion_candidate: true
+  current_state: dual-pdf-proof-surfaces-rendered
   job: Use app/graph/proof topology as the reader-facing proof scaffold.
-  current_gap: 'Both PDF tracks may render, but neither track may claim Clay-ready
-    submission proof until the Clay-closing bridge is actually proved in reader-facing
-    prose.
-
-'
+  current_gap: Both required PDF tracks are rendered from the current CM finite-obstruction
+    inventory proof package; the app-aligned human track and the Codex-structured
+    paper track remain distinct required outputs.
 - step_id: submission_package
   surface_class: review/submission
-  current_state: superseded-by-20260608-current-authority
-  previous_state_label: blocked_bridge_open_20260607
-  mirror_of_completion_candidate: true
+  current_state: submission-candidate
   job: Review and submission verdicts must keep rendered PDFs separate from Clay-ready
     submission readiness.
-  current_gap: 'Review, submission verdicts, export status, route-state, and PDF topology
-    must keep submission_ready false while the Clay-closing proof blockers remain
-    active.
-
-'
+  current_gap: Review, submission verdicts, export status, release decision, and release
+    manifest agree on submission-candidate readiness with zero completion candidates.
 open_blockers: []
 branch_rows:
 - row_id: graph:cm_convergence_atlas
@@ -794,44 +781,34 @@ branch_rows:
 - row_id: integration:repo_proof_authority
   row_kind: d8_integration_step
   label: NS repo theorem closure
-  state: superseded-by-20260608-current-authority
-  previous_state_label: bridge_open_20260607
-  next_burden: 'Direct proof authority is blocked by the active Clay-closing bridge:
-    the repo has classified terminal CM exits through Pack/Part/Field, but it has
-    not yet proved that a classified Exit(Q;O_work) cannot be the actual finite terminal
-    Clay obstruction.
-
-'
+  state: finite-obstruction-inventory-reconciled
+  next_burden: No active Clay-closing bridge gap remains on the promoted proof-bearing
+    terminal inventory. Future blockers must name a concrete terminal obstruction
+    row lacking CM-test entry or a derived Pack/Part/Field face.
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
-  mirror_of_completion_candidate: true
+  mirror_of_completion_candidate: false
   mcp_visibility_status: visible-in-route-state
 - row_id: integration:manuscript_scaffold
   row_kind: d8_integration_step
   label: NS manuscript/PDF
-  state: proof-prose-blocked
-  next_burden: 'Both PDF tracks may render, but neither track may claim Clay-ready
-    submission proof until the Clay-closing bridge is actually proved in reader-facing
-    prose.
-
-'
+  state: dual-pdf-proof-surfaces-rendered
+  next_burden: Both required PDF tracks are rendered from the current CM finite-obstruction
+    inventory proof package; the app-aligned human track and the Codex-structured
+    paper track remain distinct required outputs.
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
-  mirror_of_completion_candidate: true
+  mirror_of_completion_candidate: false
   mcp_visibility_status: visible-in-route-state
 - row_id: integration:submission_package
   row_kind: d8_integration_step
   label: review/submission
-  state: superseded-by-20260608-current-authority
-  previous_state_label: blocked_bridge_open_20260607
-  next_burden: 'Review, submission verdicts, export status, route-state, and PDF topology
-    must keep submission_ready false while the Clay-closing proof blockers remain
-    active.
-
-'
+  state: submission-candidate
+  next_burden: Review, submission verdicts, export status, release decision, and release
+    manifest agree on submission-candidate readiness with zero completion candidates.
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
-  mirror_of_completion_candidate: true
+  mirror_of_completion_candidate: false
   mcp_visibility_status: visible-in-route-state
 sync_verdict:
   graph_nodes_count: 24
