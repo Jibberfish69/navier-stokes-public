@@ -15,7 +15,7 @@ purpose: >-
   fresh CM-necessity audit proves a real in-class nonsmooth third branch.
 primary_frontier:
   obligation_id: clay-cm-contrapositive-witness-consumption
-  status: live-classification-authority-clay-bridge-blocked
+  status: current-cm-referee-inventory-gate-passed
   exact_choice:
     - ClayTerminalWitnessCMEntry.A
     - ClayFiniteFailureTypeCMExhaustion.A
@@ -24,23 +24,12 @@ primary_frontier:
     The installed chain classifies an alleged finite Clay terminal witness by
     entering the canonical same-fluid CM packet tree, exhausting the first
     failing Pack/Part/Field face, and deriving Exit(Q):=not Member(Q). The
-    Clay-ready contradiction is still blocked at Pack retention and Part
-    survival/target-fidelity; the Field row is now installed as an independent
-    collapse into Part through ClayFieldFailureRealization.A plus
-    TerminalFieldJumpPartCollapse.A.
-open_blockers:
-  - blocker_id: same-solution-terminal-pack-retention
-    branch: proof
-    status: open
-    blocker: SameSolutionTerminalPackRetention.A / noncircular Pack-retention mechanism or Pack-failure target-fidelity bridge
-    evidence_ref: problems/navier-stokes/theorem-construction/mpp-clay-pack-face-exclusion-working-pass-20260607.md
-    required_action: Prove Pack retention by a mechanism weaker than continuation, or prove that Pack failure is not a valid finite Clay breakdown witness.
-  - blocker_id: retained-pack-original-ancestry-part-survival
-    branch: proof
-    status: open
-    blocker: RetainedPackOriginalAncestryPartSurvival.A / terminal no-defect participation or Part-failure target-fidelity bridge
-    evidence_ref: problems/navier-stokes/theorem-construction/mpp-clay-part-face-exclusion-working-pass-20260607.md
-    required_action: Prove terminal no-defect pressure/source participation on the retained Pack carrier, or prove that the Part failure is not a valid finite Clay breakdown witness.
+    current referee audit has demoted the generic no-Pack/no-Part face-exclusion
+    work order. Current proof readiness is governed by finite-obstruction
+    inventory coverage: named proof-bearing rows must enter the CM test and
+    land in Pack, Part, or Field. The promoted surfaces currently have no open
+    proof-bearing row.
+open_blockers: []
 nodes:
   cm_convergence_atlas:
     status: support-audit-cm-resolved
@@ -82,10 +71,9 @@ nodes:
       Direct Clay-facing classification route: a finite terminal witness enters
       the same-fluid CM packet tree, the first failing Pack/Part/Field face is
       recorded, and that face failure supports Exit(Q):=not Member(Q). The
-      submission-grade contradiction still requires the open Pack retention and
-      Part survival/target-fidelity theorems; the Field row has been collapsed
-      into Part by ClayFieldFailureRealization.A plus
-      TerminalFieldJumpPartCollapse.A.
+      current referee audit checks finite-obstruction inventory coverage rather
+      than generic no-face exclusion. The promoted proof-bearing rows have CM
+      entry and first-face landing, while generic support rows remain demoted.
   torus_global_material_atlas_terminal_capture:
     status: installed-terminal-capture
     theorem_ids:
@@ -522,7 +510,7 @@ nodes:
       smoothness or stand-alone Navier-Stokes smoothness without the transfer
       theorem.
   clay_target:
-    status: target-proof-blocked
+    status: current-referee-gate-passed
     theorem_ids:
       - Smooth(Q)
       - Clay
@@ -530,10 +518,10 @@ nodes:
       - theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
       - live-theorem-edge.yaml
     role: >-
-      Final Clay target remains blocked until Pack retention and Part
-      survival/target-fidelity are proved or replaced by a noncircular
-      Clay-closing argument; the independent Field blocker is resolved as a
-      Part-collapse endpoint.
+      Current promoted CM surfaces pass the finite-obstruction inventory
+      referee gate. Future public-critical, source-wall, readout, transfer, or
+      comparison material becomes proof-bearing only after same-witness CM entry
+      and Pack/Part/Field face certification.
   generated_surface_drift:
     status: resolved-surface-repair
     source:
