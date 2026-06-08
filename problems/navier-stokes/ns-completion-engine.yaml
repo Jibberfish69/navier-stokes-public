@@ -1,9 +1,9 @@
 ---
 version: 1
-artifact_id: nightly-six-mpp-ns-completion-engine-2026-06-07
+artifact_id: nightly-six-mpp-ns-completion-engine-2026-06-08
 status: active
-date: '2026-06-07'
-generated_at: '2026-06-08T07:05:24Z'
+date: '2026-06-08'
+generated_at: '2026-06-08T07:29:11Z'
 engine_goal: complete the NS repo/app/graph/PDF proof system
 governing_program:
   proof_program: CM contrapositive class exit
@@ -116,14 +116,14 @@ project_model:
           human_app_aligned:
             path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
             present: true
-            sha1: 5977ccad2802aaf79e5b537e09878c615946be4a
-            bytes: 3939129
+            sha1: 2a4b7e60462092812d08bd8792a815829101df5c
+            bytes: 3939117
             manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
             required_for_clay_submission: true
           codex_machine_paper:
             path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
             present: true
-            sha1: c1a40b41a2dfe8e1278ec5ba106062c076e87563
+            sha1: 7d57c6a1ee185c1c09efe9faa3ff90f33cddaca2
             bytes: 462978
             manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
             required_for_clay_submission: true
@@ -401,37 +401,9 @@ reentry_loop:
     changed_state_refs:
     - problems/navier-stokes/current-route-dependency-graph.yaml
     - problems/navier-stokes/d8-completion-route-map.yaml
-    - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/ns-completion-executor-route-sync-20260607.yaml
-    - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-    - problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
-    - problems/navier-stokes/ns-logical-tree-bridge-reconciliation-20260607.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607.md
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
-    - problems/navier-stokes/theorem-construction/mpp-averaged-field-face-admission-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-averaged-jumpavg-field-face-reduction-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-averaged-receiver-no-upstream-readout-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-averaged-terminal-cover-common-scheduler-reentry-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-clay-field-face-exclusion-working-pass-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-clay-field-failure-realization-proof-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-clay-pack-face-exclusion-working-pass-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-clay-part-face-exclusion-working-pass-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-field-failure-realization-proof-method-audit-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-generic-pack-face-exclusion-work-order-demotion-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-generic-pack-part-face-exclusion-blocker-demotion-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-generic-part-face-exclusion-work-order-demotion-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-retained-pack-part-survival-proof-method-audit-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-rscb-scfavg-face-landing-20260607.md
-    - problems/navier-stokes/theorem-construction/mpp-terminal-collar-strain-integrability-proof-method-audit-20260607.md
-    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md
+    - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md
+    - problems/navier-stokes/theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md
     - system/gui/navier-stokes-repo-viewer/src/App.css
     - system/gui/navier-stokes-repo-viewer/src/App.tsx
     - system/gui/navier-stokes-repo-viewer/src/index.css
@@ -466,37 +438,9 @@ evidence_refs:
 - problems/navier-stokes/submission-verdict.yaml
 - problems/navier-stokes/submission-bundle/submission-verdict.yaml
 - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-- problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-- problems/navier-stokes/ns-completion-executor-route-sync-20260607.yaml
-- problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-- problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
-- problems/navier-stokes/ns-logical-tree-bridge-reconciliation-20260607.yaml
-- problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-- problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607.md
-- problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-- problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607.yaml
-- problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-- problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
-- problems/navier-stokes/theorem-construction/mpp-averaged-field-face-admission-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-averaged-jumpavg-field-face-reduction-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-averaged-receiver-no-upstream-readout-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-averaged-terminal-cover-common-scheduler-reentry-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-clay-field-face-exclusion-working-pass-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-clay-field-failure-realization-proof-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-clay-pack-face-exclusion-working-pass-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-clay-part-face-exclusion-working-pass-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-field-failure-realization-proof-method-audit-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-generic-pack-face-exclusion-work-order-demotion-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-generic-pack-part-face-exclusion-blocker-demotion-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-generic-part-face-exclusion-work-order-demotion-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-retained-pack-part-survival-proof-method-audit-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-rscb-scfavg-face-landing-20260607.md
-- problems/navier-stokes/theorem-construction/mpp-terminal-collar-strain-integrability-proof-method-audit-20260607.md
-- problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-- problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md
+- problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md
+- problems/navier-stokes/theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md
 - system/gui/navier-stokes-repo-viewer/src/App.css
 - system/gui/navier-stokes-repo-viewer/src/App.tsx
 - system/gui/navier-stokes-repo-viewer/src/index.css
