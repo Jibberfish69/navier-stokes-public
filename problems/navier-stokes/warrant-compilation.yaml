@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: warrant-compilation-navier-stokes
-  generated_at: '2026-06-08T06:02:07Z'
+  generated_at: '2026-06-08T06:27:32Z'
   generator: tools/ns_pipeline_hardener.rb
 primary_track:
   route_id: source-grounded-four-bridge
@@ -72,7 +72,7 @@ active_frontier:
   target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
   target_preflight: &2
     rule_id: ns-target-topology-preflight-v2
-    status: historical-context-only
+    status: required-before-answer-or-generated-summary
     required_fields:
     - user_question_or_action
     - action_type
@@ -557,11 +557,11 @@ active_frontier:
       role: readout presentation requiring direct accountability before use as a target
   exact_live_theorem_grade_burden: *1
   release_or_respawn_consequence:
-    disposition: submission-candidate
+    disposition: blocked
     next_cell_type: proof-frontier
     next_stage: clay-closing-bridge-open
-    next_action: Close the Clay counterexample-exclusion bridge and R3 endpoint blockers
-      before submission promotion.
+    next_action: Close the Clay counterexample-exclusion bridge before submission
+      promotion.
   forward_positive_surface_quarantine: &6
     status: active-global-demotion
     index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
@@ -673,30 +673,11 @@ proof_program_topology: *4
 open_root_group: *5
 exact_live_theorem_grade_burden: *1
 release_or_respawn_consequence:
-  disposition: submission-candidate
+  disposition: blocked
   next_cell_type: proof-frontier
   next_stage: clay-closing-bridge-open
-  next_action: Close the Clay counterexample-exclusion bridge and R3 endpoint blockers
-    before submission promotion.
+  next_action: Close the Clay counterexample-exclusion bridge before submission promotion.
 forward_positive_surface_quarantine: *6
 non_merge_rules: *7
 authority_hierarchy: *8
 mode_selection_protocol: *9
-current_authority_status:
-  status: superseded-by-direct-live-clearance
-  checked_at: '2026-06-08T06:16:31Z'
-  reason: Direct live authority reports no open theorem frontier; this artifact is
-    retained as historical theorem-work context and must not respawn a live blocker.
-  authority_summary:
-    authority_mode: direct-live-surfaces
-    blocking_count: 0
-    frontier_count: 0
-    all_discharged: true
-  controlling_surfaces:
-  - problems/navier-stokes/live-theorem-edge.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-summary:
-  current_live_blocking_count: 0
-  current_live_frontier_count: 0
-  stale_surface_status: historical-context-only
