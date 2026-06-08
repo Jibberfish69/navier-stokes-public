@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T02:26:21Z'
+generated_at: '2026-06-08T02:28:00Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -14,7 +14,7 @@ pdf_tracks: &2
     role: preferred problems/** app-aligned human submission track
     present: true
     bytes: 3931512
-    sha1: a18a9786e04483e07e479fd150bbd3898d30a96a
+    sha1: cdb1be79844a2b060da7e727edbf1394b3238b1b
     required_for_clay_submission: true
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   codex_machine_paper:
@@ -22,7 +22,7 @@ pdf_tracks: &2
     role: papers/** Codex-owned Clay-facing submission paper track
     present: true
     bytes: 462897
-    sha1: c706c6635f55992f8f627bb4cc66de943acd8e92
+    sha1: 9ecac0d1d95435d767960baf40347c0f6fcc157e
     required_for_clay_submission: true
     manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
@@ -53,7 +53,7 @@ readiness_evidence:
       candidate_id: papers-navier-stokes-child-repo-dirty
       kind: child_paper_repo
       surface: papers/navier-stokes
-      evidence: M build/output/authoritative-edge/navier-stokes.pdf; M manuscript/generated/main.tex
+      evidence: M build/output/authoritative-edge/navier-stokes.pdf
       required_action: The Codex-owned papers/** PDF track has uncommitted TeX/PDF
         state outside the root repo.
     checks:
@@ -77,14 +77,14 @@ readiness_evidence:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: a18a9786e04483e07e479fd150bbd3898d30a96a
+          sha1: cdb1be79844a2b060da7e727edbf1394b3238b1b
           bytes: 3931512
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
           path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
           present: true
-          sha1: c706c6635f55992f8f627bb4cc66de943acd8e92
+          sha1: 9ecac0d1d95435d767960baf40347c0f6fcc157e
           bytes: 462897
           manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
           required_for_clay_submission: true
