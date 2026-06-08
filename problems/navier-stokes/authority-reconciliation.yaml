@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   reconciliation_id: authority-reconciliation-navier-stokes
-  generated_at: '2026-06-08T05:57:53Z'
+  generated_at: '2026-06-08T06:02:20Z'
   generator: system/runner/lib/authority_reconciliation_builder.rb
 active: false
 inputs:
@@ -22,7 +22,7 @@ summary:
   target_fidelity_terminal_safe: false
   target_fidelity_class: direct-target
   stale_blocker_count: 2
-  total_submission_blockers: 16
+  total_submission_blockers: 15
   stale_posture_lag: true
 target_fidelity:
   class: direct-target
