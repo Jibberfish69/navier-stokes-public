@@ -151,6 +151,143 @@ The active next work is: choose the highest-value page defect from the criticism
 evidence, fix that defect without damaging the existing proof shape, reread the
 rendered page, and repeat.
 
+## Page-Defect List For The Next Writing Pass
+
+This list preserves the useful part of the readthrough: concrete defects the
+next pass can choose from. It is not a command list.
+
+1. Page 1, abstract: the reader is asked to accept the class-exit mechanism
+   before the paper has shown the terminal object, the continuation readout, or
+   the whole-space exterior-source handling.
+
+2. Page 1, abstract: the first page introduces Pack, Part, Field, class exit,
+   terminal witnesses, exterior-source branches, and finite failure exhaustion
+   all at once. A normal reader has to translate the machinery before seeing the
+   simple problem the paper is trying to solve.
+
+3. Page 1, abstract ending: the page cuts off mid-thought after “in order to”.
+   The opening page leaves the reader inside an unfinished sentence.
+
+4. Page 6, reframing: the paper changes from the direct Clay smoothness problem
+   to a class-membership question. The page does not yet make the reader feel
+   why that change is forced by the original finite-breakdown claim.
+
+5. Page 6, failure list entrance: the phrase “support stack” makes the reader
+   enter repo-language instead of ordinary mathematical exposition.
+
+6. Page 8, “Silver Standard Approach”: the paper says the nonsmooth field is
+   exhausted by Pack, Part, and Field. The reader has not yet been shown enough
+   to trust that this is an exhaustive mathematical split rather than the
+   paper's chosen vocabulary.
+
+7. Page 9, class membership: `Owork_NS`, `Member`, and `Exit` arrive before the
+   paper has made the ordinary object vivid enough. The notation starts carrying
+   thought that the prose has not fully earned.
+
+8. Pages 12-14, failure-type and witness table: Dead, Jump, Blown, Pack, Part,
+   and Field are introduced as a classification grid. The reader can follow the
+   labels, but the page does not yet make each label feel inevitable from the
+   Navier-Stokes equation itself.
+
+9. Page 15, no-third-branch theorem: the proof reads too definitional. It says
+   membership gives the smooth-side requirements and then rules out nonsmooth
+   membership. The reader still needs to see the analytic payment that turns
+   those requirements into continuation for the original solution.
+
+10. Page 16, terminal-consumption theorem: the proof says the first failed
+    requirement is necessarily Pack, Part, or Field. That feels true inside the
+    grammar, but the page still owes the reader the bridge from every finite
+    Clay breakdown claim to that grammar.
+
+11. Page 17, periodic classification: the retained branch is said to give the
+    `H^s`, `s > 5/2`, continuation norm for the same original solution. The
+    reader needs that readout to be shown as a real continuation step, not only
+    named.
+
+12. Pages 17-20, forward-family support examples: the prose repeatedly says a
+    family “supports,” “routes,” or “reads” a face. The repeated verb pattern
+    starts sounding like an internal sorting system instead of a proof written
+    for a referee.
+
+13. Page 21, four-body diagnostic: the word “diagnostic” weakens the reader's
+    sense of what is proof and what is explanatory history.
+
+14. Pages 23-30, positive-forward branches: several sections show why a
+    positive route fails or stops. Those pages are useful, but the reader can
+    lose track of which statements are current proof, which are failed attempts,
+    and which are only motivation.
+
+15. Page 38, closing hinges: the page states that Pack retention, Part
+    participation, and Field realization/good-scale noncollapse are live
+    mathematical work. That is the strongest evidence that the PDF itself still
+    contains an open proof burden.
+
+16. Page 39, appendix entrance: the appendix says failed routes are not extra
+    proof gaps after the main theorem. This sits too close to page 38 saying the
+    live mathematical work remains, so the reader receives conflicting signals.
+
+17. Pages 40-90, proof attempts appendix: the appendix records many stopping
+    points. A reader can use this history, but it also keeps re-opening the
+    feeling that the proof is a collection of failed routes unless the main body
+    has already paid the core burden.
+
+18. Pages 91-1074, Appendix D: the scale overwhelms the paper. The reader has to
+    process almost a thousand pages of source-field material before reaching the
+    final rollups.
+
+19. Pages 91-1074, Appendix D language: the extracted text contains many live
+    status words across this range: open, conditional, missing, remaining, not
+    proved, not discharged, and does not close. The reader cannot easily tell
+    which of those are harmless historical markers and which still threaten the
+    proof.
+
+20. Pages 1075-1081, expanded obligations: the count-based proof-role rollups
+    sound generated. Counts such as hundreds of Field, Pack, Part, support, or
+    readout obligations do not feel like ordinary mathematical proof on the
+    page.
+
+21. Page 1077, support-boundary obligations: the page explicitly says a support
+    branch has no CM conclusion until it selects a same-fluid terminal packet.
+    That is useful honesty, but it also tells the reader that large parts of the
+    appendix are support rather than closure.
+
+22. Page 1080, branch-family obligations: the final family list repeats generic
+    proof-role prose. The reader gets a map of how branches should be read, but
+    not enough local mathematics to feel that each branch has been paid.
+
+23. Whole PDF, language: `merely` appears 81 times. That violates the current
+    writing rule and often gives the prose a defensive or scolding feel.
+
+24. Whole PDF, language: contrast pivots remain heavy: `rather than` appears
+    220 times, `instead of` appears 28 times, and `not only` appears 11 times.
+    The prose often makes the reader process the rejected path before the real
+    thought.
+
+25. Whole PDF, language: `therefore` appears in the bad proof-adverb pattern in
+    multiple places. It often makes ordinary continuation sound like a proved
+    consequence.
+
+26. Whole PDF, language: internal words such as route, support, surface,
+    readout, installed, diagnostic, obligation, and bookkeeping appear so often
+    that the paper can sound like it is explaining its own machinery instead of
+    leading a reader through mathematics.
+
+27. Whole PDF, reader state: the paper frequently tells the reader how to read
+    the paper. A strong final manuscript should need less instruction because
+    the order of the proof itself carries the reader.
+
+28. Whole PDF, proof state: the reader cannot reliably separate proved theorem,
+    historical failed attempt, support material, conditional branch, and still
+    open burden without repeatedly parsing status language.
+
+29. Whole PDF, submission shape: the main proof body is short compared with the
+    enormous appendix. The paper may contain a lot of work, but the submission
+    experience feels under-distilled.
+
+30. Whole PDF, voice: the prose often sounds like Codex sorting evidence for
+    itself. The target voice should be one person calmly leading another through
+    the mathematical necessity of the argument.
+
 ## Readthrough Status
 
 This inventory read all 1081 pages through extracted rendered text, with visual spot checks at the opening, main-body hinge page, appendix transition, and final obligation rollups. It is a criticism inventory, not a repair pass.
