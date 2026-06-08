@@ -51,7 +51,7 @@ verdict_alignment:
   export_status_synced: true
   submission_ready: false
   blocking_reason: 'Navier-Stokes completion readiness is blocked by 1 unresolved
-    candidate(s): papers-navier-stokes-child-repo-dirty.'
+    candidate(s): submission-verdict-layer-conflict.'
   readiness_evidence: 
 open_blockers:
 - Reader-facing proof prose must be rebuilt from the current installed CM witness-consumption
