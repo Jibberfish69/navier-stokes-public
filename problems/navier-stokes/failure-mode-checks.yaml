@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: failure-mode-checks-navier-stokes
-  generated_at: '2026-06-08T04:10:52Z'
+  generated_at: '2026-06-08T04:17:54Z'
   generator: system/runner/lib/release_surface_reconciler.rb
 status: passed
 pass: true
