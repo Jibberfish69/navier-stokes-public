@@ -294,6 +294,60 @@ The remaining dyadic survivor has no positive material address, no same-fluid pa
 The same Pack/Part/Field face test therefore applies to the whole-space terminal object.
 \end{proof}
 
+\begin{lemma}[Exterior dyadic survivor face landing]
+Let \(W_R\) be the exterior nonlinear Duhamel contribution after the initial heat tail and fixed compact-core source have been removed.
+Assume a terminal exterior survivor remains: for some \(s>5/2\), some \(t_j\uparrow T_*\), some \(R_j\to\infty\), and dyadic \(N_j\to\infty\),
+\[
+  N_j^s\|P_{N_j}W_{R_j}(t_j)\|_{L^2}
+\]
+stays bounded below.
+Then the survivor supplies one of the CM face failures
+\[
+  \neg\Pack_Q,\qquad
+  \neg\Part_{N,Q},\qquad
+  \forall r>0\,\neg\Field_{N,r,Q}.
+\]
+\end{lemma}
+
+\begin{proof}
+Exterior \(L^2\) tightness removes the bounded-frequency part of an exterior tail.
+The survivor is therefore a genuine dyadic escape.
+
+First test Pack.
+A terminal exterior source with no positive same-fluid material address has no packet on which the original solution can be tested, so it is \(\neg\Pack_Q\).
+
+Assume Pack survives.
+Then test Part.
+If the packet is not carried by the same Navier--Stokes pressure, viscosity, and source ancestry, the survivor is \(\neg\Part_{N,Q}\).
+
+Assume Pack and Part survive.
+Then the survivor is on one same participating packet.
+A positive Field scale would give a fixed coherent field window and a finite derivative tower above the \(H^s\) continuation level.
+On that fixed witness record, Littlewood--Paley tails vanish at high dyadic frequency:
+\[
+  \lim_{N\to\infty} N^s\|P_N W_R(t)\|_{L^2}=0.
+\]
+That contradicts the lower bound along \(N_j\to\infty\).
+Hence no fixed positive Field scale survives, so \(\forall r>0\,\neg\Field_{N,r,Q}\).
+\end{proof}
+
+\begin{theorem}[Whole-space CM completion]
+For smooth rapidly decaying divergence-free data on \(\Rthree\), a finite terminal whole-space branch has the same CM pass-or-exit conclusion as the periodic branch.
+The branch either keeps the exterior \(H^s\), \(s>5/2\), continuation tail, or the surviving exterior source is consumed by Pack, Part, or Field and embedded as
+\[
+  \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+\]
+\end{theorem}
+
+\begin{proof}
+The Duhamel split leaves only the genuinely exterior nonlinear source after the harmless heat tail and fixed compact-core source have been removed.
+When the exterior \(H^s\) tail vanishes, the whole-space branch reads like the periodic branch on the selected terminal packet and continues by the standard \(H^s\) criterion.
+When it survives, the preceding lemma supplies the first failed face.
+The CM embedding reads that face failure as class exit.
+Thus a finite terminal whole-space claim is either the smooth member branch or a class-exit witness.
+It does not produce an in-class nonsmooth third branch.
+\end{proof}
+
 \begin{remark}
 The direct exterior nonlinear source estimate is a stronger positive route.
 The proof above does not use that positive tail estimate as an assumption.
