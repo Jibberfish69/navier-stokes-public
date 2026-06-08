@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: warrant-compilation-navier-stokes
-  generated_at: '2026-06-08T04:36:26Z'
+  generated_at: '2026-06-08T04:37:32Z'
   generator: tools/ns_pipeline_hardener.rb
 primary_track:
   route_id: source-grounded-four-bridge
@@ -53,7 +53,7 @@ bridge_summary:
   - Strong convergence in \(L^2_tL^2_x\)
   - Nonlinear tensor closure
 - bridge_id: gradient-control
-  primary_surface: problems/navier-stokes/external-paper/sections/bridge-gradient-control.tex
+  primary_surface: problems/navier-stokes/theorem-construction/gradient-control-bridge-discharge.md
   verdict: discharged
   dependencies:
   - Energy identity in the classical Navier--Stokes system
