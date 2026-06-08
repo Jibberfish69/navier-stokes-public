@@ -36,12 +36,20 @@ RENDERED_BOILERPLATE_PATTERNS = {
   "repeated endpoint reader role" => /This tells the reader how to read endpoint material without turning it into\s+a separate proof program\./m
 }.freeze
 
-REQUIRED_CODEX_RENDERED_TEXT = {
+BASE_REQUIRED_CODEX_RENDERED_TEXT = {
   "same-solution contrapositive title" => /Same-Solution Contrapositive/i,
   "whole-space CM completion" => /Whole-Space CM Completion/i,
-  "Clay smoothness conclusion" => /Clay Smoothness Conclusion/i,
   "reader check" => /Reader Check/i,
   "CM witness faces" => /Pack, Part, and Field/i
+}.freeze
+
+READY_CODEX_RENDERED_TEXT = {
+  "Clay smoothness conclusion" => /Clay Smoothness Conclusion/i
+}.freeze
+
+BLOCKED_CODEX_RENDERED_TEXT = {
+  "conditional Clay-closing bridge" => /conditional Clay-closing bridge/i,
+  "conditional argument boundary" => /argument remains conditional/i
 }.freeze
 
 FORBIDDEN_CODEX_DOSSIER_TEXT = {
@@ -82,6 +90,14 @@ def pdf_text(path)
   stdout
 end
 
+def required_codex_rendered_text(export_status)
+  readiness = export_status.dig("readiness_evidence", "completion_readiness")
+  ready = readiness.is_a?(Hash) &&
+          readiness["submission_ready"] == true &&
+          readiness["candidate_count"].to_i.zero?
+  BASE_REQUIRED_CODEX_RENDERED_TEXT.merge(ready ? READY_CODEX_RENDERED_TEXT : BLOCKED_CODEX_RENDERED_TEXT)
+end
+
 def file_sha1(path)
   return nil unless path.file?
 
@@ -95,6 +111,7 @@ def load_yaml(path)
 end
 
 errors = []
+export_status = load_yaml(EXPORT_STATUS)
 
 unless HUMAN_SUBMISSION_PDF.file? && HUMAN_SUBMISSION_PDF.size.positive?
   errors << "missing Thomas human submission PDF #{relative(HUMAN_SUBMISSION_PDF)}"
@@ -129,7 +146,7 @@ else
     FORBIDDEN_PDF_TEXT.each do |label, pattern|
       errors << "Codex paper PDF contains forbidden #{label}" if text.match?(pattern)
     end
-    REQUIRED_CODEX_RENDERED_TEXT.each do |label, pattern|
+    required_codex_rendered_text(export_status).each do |label, pattern|
       errors << "Codex paper PDF is missing rendered #{label}" unless text.match?(pattern)
     end
     FORBIDDEN_CODEX_DOSSIER_TEXT.each do |label, pattern|
@@ -157,7 +174,6 @@ paper_pdfs = Dir.glob(ROOT.join("papers/navier-stokes/**/*.pdf").to_s).sort
 extra_paper_pdfs = paper_pdfs.reject { |path| Pathname.new(path).expand_path == AUTHORITATIVE_PDF.expand_path }
 errors << "extra paper PDFs remain outside authoritative edge: #{extra_paper_pdfs.map { |path| relative(path) }.join(', ')}" unless extra_paper_pdfs.empty?
 
-export_status = load_yaml(EXPORT_STATUS)
 expected_tracks = {
   "human_app_aligned" => relative(HUMAN_SUBMISSION_PDF),
   "codex_machine_paper" => relative(AUTHORITATIVE_PDF)
