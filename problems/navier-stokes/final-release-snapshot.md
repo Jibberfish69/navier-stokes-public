@@ -2,12 +2,14 @@
 
 ## Supersession
 
-This snapshot is superseded.  Current live authority blocks full proof/release
-on:
+This snapshot is superseded. Current live authority is the dual-track
+submission-candidate package, not this blocked periodic snapshot:
 
 ```text
-OriginalSmoothData=>SourcePulseExclusion.A
-OriginalSmoothData=>mu_*^sing=0
+human/app-aligned track: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+codex track: papers/navier-stokes/manuscript/generated/main.tex
+release-decision: submission-candidate
+submission-verdict: submission-ready
 ```
 
 ## Promotion packet
@@ -15,11 +17,9 @@ OriginalSmoothData=>mu_*^sing=0
 ```text
 problem: navier-stokes
 tier: clay-level
-status: blocked
-decision: not-release-approved
-promotion_allowed: false
-release_approved: false
-blockers: OriginalSmoothData=>SourcePulseExclusion.A
+historical status: blocked
+historical decision: not-release-approved
+current status: superseded by the rendered dual-track submission-candidate package
 ```
 
 ## Core release artifacts
