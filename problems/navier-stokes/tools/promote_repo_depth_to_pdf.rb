@@ -27,7 +27,8 @@ SOURCE_FIELD_APPENDIX = BUNDLE_ROOT.join("source-field-reader-appendix.tex")
 EXPORT_STATUS = BUNDLE_ROOT.join("submission-export-status.yaml")
 CODEX_MAIN_TEX = ROOT.join("papers/navier-stokes/manuscript/generated/main.tex")
 CODEX_EXTRA_TEX_INPUTS = [
-  ROOT.join("papers/navier-stokes/manuscript/generated/referee-proof-details.tex")
+  ROOT.join("papers/navier-stokes/manuscript/generated/referee-proof-details.tex"),
+  ROOT.join("papers/navier-stokes/manuscript/generated/referee-proof-expansion.tex")
 ].freeze
 CODEX_PAPER_PDF = ROOT.join("papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf")
 CODEX_PAPER_TEX = ROOT.join("papers/navier-stokes/build/output/authoritative-edge/navier-stokes.tex")
