@@ -85,9 +85,9 @@ readiness_evidence:
   pdf_tracks_rendered: true
   pdf_render_status: *3
   pdf_tracks: *2
-readiness_note: Both required Navier-Stokes PDF tracks are rendered from the current
-  reader-facing CM proof scaffold and remain ready for the next same-witness theorem
-  primitive.
+readiness_note: The Navier-Stokes PDF outputs are rendered as independent manuscript
+  surfaces. Each paper must carry its own reader-facing proof burden; route-state
+  data is source context, not a shared scaffold binding the PDFs together.
 pdf_tracks_rendered: true
 pdf_render_status: *3
 source_wall_root_cm_status: Start with the alleged finite-time Clay terminal witness
@@ -108,8 +108,9 @@ source_wall_root_cm_status: Start with the alleged finite-time Clay terminal wit
   unless a named bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
 submission_posture: submission-candidate
 readiness_status: ready
-manuscript_scaffold_status: reader-facing CM proof scaffold installed in both PDF
-  tracks
+manuscript_scaffold_status: human/app submission scaffold repaired as a paper-local
+  CM proof surface; papers/** output remains an independent manuscript surface
 next_theorem_primitive_slot: A future primitive is proof-bearing only after it names
   the selected terminal record, proves CM-test entry, and pays either the member-side
-  H^s readout or the first failed Pack/Part/Field face.
+  readout chain up to the selected continuation consumer or the first failed Pack/Part/Field
+  face.
