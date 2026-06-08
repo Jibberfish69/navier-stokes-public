@@ -1,9 +1,9 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T00:21:19Z'
-started_at: '2026-06-08T00:20:56Z'
-status: failed
+generated_at: '2026-06-08T00:24:11Z'
+started_at: '2026-06-08T00:23:51Z'
+status: passed
 purpose: Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into
   the submission TeX/PDF path, and fail unless both required PDF tracks visibly carry
   the proof-depth anchors.
@@ -67,7 +67,7 @@ gates:
   main_tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   errors: []
 - gate_id: dual-pdf-track-rendered-depth-readback
-  status: failed
+  status: passed
   preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   pdf_tracks:
     human_app_aligned: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
@@ -75,5 +75,4 @@ gates:
   papers_pdf_pages: 1036
   human_pdf_pages: 1073
   sha256: 012442ecb0aa0af5c68d9fc30c5bcdb5bdf1f690d7d168619a1c2bb4203560cd
-  errors:
-  - submission export status lacks completion readiness evidence
+  errors: []
