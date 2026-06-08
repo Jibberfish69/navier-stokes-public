@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-08T06:25:04Z'
+  evaluated_at: '2026-06-08T06:33:08Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: blocked
@@ -51,8 +51,6 @@ blockers:
 - Stand-alone status remains `blocked`.
 - Paper quality verdict did not pass; the manuscript still fails architecture, prose,
   or submission-shape checks.
-- 'Navier-Stokes PDF contract blocks export: current material coverage failed: current-material
-  coverage mismatch unclassified current checkable files: theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md'
 - 'Navier-Stokes completion candidate remains: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
   (papers/navier-stokes/review/codex-gap-attack-log.yaml)'
 - 'Navier-Stokes completion candidate remains: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
