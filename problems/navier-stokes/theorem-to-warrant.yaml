@@ -17,9 +17,14 @@ marvin_ingest:
   current_role: Marvin/V6 sharpens bridge semantics, loop closure, and terminal-tail
     discharge evidence for the current periodic closure warrant.
 manuscript_source:
-  markdown_path: problems/navier-stokes/draft-v8.md
-  external_tex_path: problems/navier-stokes/external-paper/sections/main-result.tex
-  observed_state: class-membership-warrant-aligned
+  human_app_aligned_tex_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  human_app_aligned_pdf_path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  codex_machine_tex_path: papers/navier-stokes/manuscript/generated/main.tex
+  codex_machine_pdf_path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  observed_state: dual-track-submission-synchronized
+  historical_surfaces:
+  - problems/navier-stokes/draft-v8.md
+  - problems/navier-stokes/external-paper/main.tex
   truth_reset_basis:
   - problems/navier-stokes/source-forensics/master-program-analysis.md
   - problems/navier-stokes/source-forensics/canonical-equation-ledger.md
@@ -43,10 +48,14 @@ theorem_warrants:
   kind: theorem
   label: Theorem 2.1 (Classical Closure)
   location:
-    markdown_file: problems/navier-stokes/draft-v8.md
     markdown_section: Full-Claim Theorem
-    tex_file: problems/navier-stokes/external-paper/sections/main-result.tex
     tex_section: Main Result
+    human_app_aligned_tex_file: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    human_app_aligned_pdf_file: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    codex_machine_tex_file: papers/navier-stokes/manuscript/generated/main.tex
+    codex_machine_pdf_file: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    historical_markdown_file: problems/navier-stokes/draft-v8.md
+    historical_tex_file: problems/navier-stokes/external-paper/sections/main-result.tex
   exact_statement: Every smooth divergence-free zero-mean initial datum on T^3 with
     f=0 generates a global smooth classical three-dimensional incompressible Navier-Stokes
     solution.
