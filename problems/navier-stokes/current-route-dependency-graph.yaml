@@ -42,9 +42,9 @@ open_blockers:
   - blocker_id: clay-field-face-exclusion
     branch: proof
     status: open
-    blocker: ClayFieldFailureRealization.A / ClayRetainedPackPartGoodScaleNonCollapse.A
+    blocker: ClayFieldFailureRealization.A via retained-Pack/Part all-scale Field failure as realized Jump; stronger alternate ClayRetainedPackPartGoodScaleNonCollapse.A
     evidence_ref: problems/navier-stokes/theorem-construction/mpp-clay-field-face-exclusion-working-pass-20260607.md
-    required_action: Prove Field failure realization or stronger good-scale noncollapse for retained Pack+Part terminal records.
+    required_action: Prove that all-scales Field failure under retained Pack and terminal Part is a realized same-fluid terminal Jump, or supply a noncircular positive-scale noncollapse mechanism.
 nodes:
   cm_convergence_atlas:
     status: support-audit-cm-resolved
