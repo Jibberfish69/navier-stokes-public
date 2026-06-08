@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   reconciliation_id: authority-reconciliation-navier-stokes
-  generated_at: '2026-06-08T06:52:51Z'
+  generated_at: '2026-06-08T07:05:52Z'
   generator: system/runner/lib/authority_reconciliation_builder.rb
 active: false
 inputs:
@@ -18,22 +18,18 @@ summary:
   proof_ready: true
   theorem_authority_blocking_count: 0
   bridge_discharge_blocking_count: 0
-  theorem_packet_export_ready: false
-  target_fidelity_terminal_safe: false
+  theorem_packet_export_ready: true
+  target_fidelity_terminal_safe: true
   target_fidelity_class: direct-target
   stale_blocker_count: 2
-  total_submission_blockers: 14
+  total_submission_blockers: 4
   stale_posture_lag: true
 target_fidelity:
   class: direct-target
-  terminal_safe: false
+  terminal_safe: true
   explicit_nonterminal_overlay: false
-  issues:
-  - 'Target fidelity failure: direct theorem authority still has open theorem-packet
-    blockers, so terminal release is not safe.'
-  required_before_terminal_release:
-  - Discharge the theorem-packet blockers and refresh direct theorem authority before
-    terminal release.
+  issues: []
+  required_before_terminal_release: []
   signals:
     conditional_main_theorem: false
     overlay_block_risk: false
@@ -52,10 +48,10 @@ target_fidelity:
     current_route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
     bundle_route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
     bundle_surface_mismatch: false
-    open_theorem_authority: true
+    open_theorem_authority: false
     open_critical_referee_objections: []
 superseded_blockers: []
 effective_review_alignment: {}
-rationale: No authority override is active because the current package still fails
-  target fidelity for terminal MPP release, so proof-side readiness cannot outrank
-  claim-scope or model-scope truth.
+rationale: No authority override is active because either proof-side readiness is
+  not yet clear, some non-stale blockers remain, or there is no stale posture lag
+  to reconcile.
