@@ -11,7 +11,9 @@ AUTHORITATIVE_PDF = ROOT.join("papers/navier-stokes/build/output/authoritative-e
 HUMAN_SUBMISSION_PDF = BUNDLE_ROOT.join("navier-stokes-human-submission.pdf")
 EXPORT_STATUS = BUNDLE_ROOT.join("submission-export-status.yaml")
 RUBRIC = BUNDLE_ROOT.join("source-field-representation-rubric.md")
-MIN_AUTHORITATIVE_PAGES = 1_000
+MIN_HUMAN_APP_ALIGNED_PAGES = 1_000
+MIN_CODEX_SUBMISSION_PAGES = 10
+MAX_CODEX_SUBMISSION_PAGES = 120
 MAX_REPEATED_RENDERED_CLAIMS = 25
 
 FORBIDDEN_PDF_TEXT = {
@@ -33,12 +35,19 @@ RENDERED_BOILERPLATE_PATTERNS = {
   "repeated endpoint reader role" => /This tells the reader how to read endpoint material without turning it into\s+a separate proof program\./m
 }.freeze
 
-REQUIRED_RENDERED_TEXT = {
-  "proof-attempt failure history" => /Proof Attempts And Failures To Prove Smoothness/i,
-  "source-field reader appendix" => /Source-Field Reader Appendix/i,
-  "source-field closure" => /The source field is long because the proof program is long/i,
-  "surface derivation appendix" => /Expanded Branch-Family Obligations/i,
+REQUIRED_CODEX_RENDERED_TEXT = {
+  "same-solution contrapositive title" => /Same-Solution Contrapositive/i,
+  "whole-space CM completion" => /Whole-Space CM Completion/i,
+  "Clay smoothness conclusion" => /Clay Smoothness Conclusion/i,
+  "reader check" => /Reader Check/i,
   "CM witness faces" => /Pack, Part, and Field/i
+}.freeze
+
+FORBIDDEN_CODEX_DOSSIER_TEXT = {
+  "proof-attempt dossier appendix" => /Proof Attempts And Failures To Prove Smoothness/i,
+  "source-field reader appendix" => /Source-Field Reader Appendix/i,
+  "surface derivation appendix" => /Expanded Branch-Family Obligations/i,
+  "dossier-scale source-field closure" => /The source field is long because the proof program is long/i
 }.freeze
 
 def relative(path)
@@ -85,8 +94,8 @@ unless HUMAN_SUBMISSION_PDF.file? && HUMAN_SUBMISSION_PDF.size.positive?
 else
   begin
     pages = pdf_pages(HUMAN_SUBMISSION_PDF)
-    if pages < MIN_AUTHORITATIVE_PAGES
-      errors << "Thomas human submission PDF has #{pages} pages; minimum reader-facing proof-role expansion contract is #{MIN_AUTHORITATIVE_PAGES}"
+    if pages < MIN_HUMAN_APP_ALIGNED_PAGES
+      errors << "Thomas human/app-aligned submission PDF has #{pages} pages; minimum app-dossier proof-role expansion contract is #{MIN_HUMAN_APP_ALIGNED_PAGES}"
     end
   rescue StandardError => e
     errors << e.message
@@ -98,8 +107,11 @@ unless AUTHORITATIVE_PDF.file? && AUTHORITATIVE_PDF.size.positive?
 else
   begin
     pages = pdf_pages(AUTHORITATIVE_PDF)
-    if pages < MIN_AUTHORITATIVE_PAGES
-      errors << "Codex paper PDF has #{pages} pages; minimum reader-facing proof-role expansion contract is #{MIN_AUTHORITATIVE_PAGES}"
+    if pages < MIN_CODEX_SUBMISSION_PAGES
+      errors << "Codex paper PDF has #{pages} pages; minimum Clay-facing submission proof contract is #{MIN_CODEX_SUBMISSION_PAGES}"
+    end
+    if pages > MAX_CODEX_SUBMISSION_PAGES
+      errors << "Codex paper PDF has #{pages} pages; maximum Clay-facing submission paper scale is #{MAX_CODEX_SUBMISSION_PAGES}; keep the long dossier in the human/app-aligned track"
     end
   rescue StandardError => e
     errors << e.message
@@ -110,8 +122,11 @@ else
     FORBIDDEN_PDF_TEXT.each do |label, pattern|
       errors << "Codex paper PDF contains forbidden #{label}" if text.match?(pattern)
     end
-    REQUIRED_RENDERED_TEXT.each do |label, pattern|
+    REQUIRED_CODEX_RENDERED_TEXT.each do |label, pattern|
       errors << "Codex paper PDF is missing rendered #{label}" unless text.match?(pattern)
+    end
+    FORBIDDEN_CODEX_DOSSIER_TEXT.each do |label, pattern|
+      errors << "Codex paper PDF imports forbidden #{label}; long dossier material belongs in the human/app-aligned track" if text.match?(pattern)
     end
     RENDERED_BOILERPLATE_PATTERNS.each do |label, pattern|
       count = text.scan(pattern).length
