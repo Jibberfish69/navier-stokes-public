@@ -319,7 +319,12 @@ def sync_submission_export_status!
     ignore_export_submission_ready_flag: true,
     ignore_child_paper_repo_dirty: true
   )
+  d8 = load_yaml(NS_ROOT.join("d8-completion-route-map.yaml"))
   readiness_evidence = readiness_evidence.merge(
+    "source_frontier_clear" => readiness["checks"].to_h["source_frontier_candidates"].to_i.zero?,
+    "open_d8_proof_blockers" => Array(d8["open_blockers"]).length,
+    "completion_candidate_count" => readiness["candidate_count"],
+    "completion_candidates" => readiness["candidates"],
     "pdf_tracks_present" => tracks.values.all? { |track| track["present"] == true },
     "pdf_tracks_rendered" => readiness["pdf_tracks_rendered"],
     "pdf_tracks" => tracks,
