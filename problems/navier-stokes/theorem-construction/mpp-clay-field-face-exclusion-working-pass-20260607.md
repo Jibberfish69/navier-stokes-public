@@ -4,9 +4,11 @@ ns_viewer:
   status: failed-proof-reduced-to-missing-lemma
   proof_role: clay_field_face_exclusion_attempt
   target_blocker: ClayFieldFaceExclusion.A
-  logical_landing_node: clay_cm_contrapositive_field_face
+  logical_landing_node: cm_field_face_attempts
   cm_face_landing: Field
   edge_effect: "Tests whether retained Pack+Part excludes the all-scales Field failure for a finite Clay terminal obstruction; result: not proved from installed inputs."
+  upstream_origin: "June 7 retained-Pack/terminal-Part Field-face working pass."
+  downstream_consequence: "Route the missing Field realization lemma to the Field/Jump row rather than leaving a generic Clay bridge blocker."
   missing_lemma: ClayFieldFailureRealization.A
 ---
 
