@@ -8,9 +8,13 @@ identity:
 status:
   campaign_mode: stabilized
   campaign_target: classical-3d-navier-stokes-global-regularity
-  current_posture: full-claim-reconciled-pre-submission
-  checkpoint_surface: problems/navier-stokes/external-paper/main.tex
-  primary_manuscript_surface: problems/navier-stokes/draft-v8.md
+  current_posture: submission-candidate
+  checkpoint_surface: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  primary_manuscript_surface: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  codex_manuscript_surface: papers/navier-stokes/manuscript/generated/main.tex
+  required_pdf_tracks:
+  - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
   authoritative_lifecycle_source: problems/navier-stokes/theorem-to-warrant.yaml
 roles:
   orchestrator:
@@ -70,6 +74,13 @@ phases:
       - problems/navier-stokes/source-frontier.yaml
   - phase_id: external-release
     status: completed
+  - phase_id: dual-pdf-submission-promotion
+    status: completed
+    outputs:
+      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+      - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+      - papers/navier-stokes/manuscript/generated/main.tex
+      - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
 acceptance_gates:
   - 'The full-claim authoring surface must remain distinct from the conditional safe-output surface.'
   - 'No Navier-Stokes artifact may claim ready-for-submission while theorem-to-warrant still marks the main theorem conditional or any bridge unresolved.'
@@ -79,5 +90,5 @@ acceptance_gates:
   - 'If the fourth bridge is carried by a Euclidean replacement rather than curvature-based regularity, that replacement must be labeled as a fallback theorem upgrade rather than the original framework itself.'
 resolution:
   status: completed
-  completed_at: '2026-03-24T21:49:39Z'
-  note: The live package satisfied the full-claim gates and passed the external maximum-pre-submission adversarial audit.
+  completed_at: '2026-06-08T04:13:38Z'
+  note: The live package now routes through the submission-bundle manuscript and the separate Codex manuscript/PDF track; draft-v8 and external-paper/main.tex are retained as historical campaign surfaces, not current authoring or export targets.
