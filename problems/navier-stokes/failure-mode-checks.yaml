@@ -3,43 +3,37 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: failure-mode-checks-navier-stokes
-  generated_at: '2026-06-08T02:54:58Z'
+  generated_at: '2026-06-08T03:04:38Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: passed
-pass: true
-release_eligible: true
+  purpose: failure-mode checks blocked by direct-live frontier
+status:
+  audit_status: direct-live-frontier-open
+  pass: false
+  release_eligible: false
+pass: false
+release_eligible: false
 source:
-  auto_audit: problems/navier-stokes/auto-audit.yaml
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
-  circularity_audit: problems/navier-stokes/circularity-audit.yaml
-  consistency_audit: problems/navier-stokes/consistency-audit.yaml
-checks:
-- id: dependency-audit-pass
-  status: passed
-  surface: problems/navier-stokes/dependency-audit.yaml
-- id: assumption-audit-pass
-  status: passed
-  surface: problems/navier-stokes/assumption-audit.yaml
-- id: circularity-audit-pass
-  status: passed
-  surface: problems/navier-stokes/circularity-audit.yaml
-- id: gap-audit-pass
-  status: passed
-  surface: problems/navier-stokes/gap-audit.yaml
-- id: consistency-audit-pass
-  status: passed
-  surface: problems/navier-stokes/consistency-audit.yaml
-auto_audit_certification:
-  current_package_status: full-mpp-closure-ready
-  standalone_status: accept
-  completion_tier_achieved: full-mpp-closure
-  review_verdict: accept
-  theorem_packet_status: export-ready
+  submission_verdict: problems/navier-stokes/submission-verdict.yaml
+  release_decision: problems/navier-stokes/release-decision.yaml
 summary:
-  total_obligations: 2
-  blocking_count: 0
-  frontier_count: 0
-  all_discharged: true
-  failure_mode_blocking_count: 0
+  total_obligations: 3
+  blocking_count: 1
+  frontier_count: 1
+  all_discharged: false
+  authority_mode: direct-live-surfaces
+  unresolved_count: 1
+  bridge_discharge_blocking_count: 1
+  theorem_warrant_blocking_count: 1
+  open_frontier_labels: &1
+  - ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
+findings:
+- Direct-live theorem authority reports open frontier obligations; stale terminal
+  release overlays are demoted.
+verdict:
+  dependency_graph_closed: false
+  release_eligible: false
+  all_discharged: false
+required_for_release: *1
