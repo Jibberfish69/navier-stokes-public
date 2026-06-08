@@ -72,7 +72,7 @@ verdict_alignment:
     clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
   readiness_evidence:
     source_frontier_clear: true
-    open_d8_proof_blockers: 0
+    open_d8_proof_blockers: 6
     completion_candidate_count: 6
     completion_candidates:
     - candidate_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
