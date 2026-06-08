@@ -4,12 +4,12 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   plan_id: post-release-plan-navier-stokes
-  generated_at: '2026-06-08T04:53:37Z'
+  generated_at: '2026-06-08T04:57:36Z'
   source_release_decision_id: release-decision-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
 current_release:
   disposition: respawn
-  release_posture: revise-loop
+  release_posture: export-ready
   completion_tier_target: full-mpp-closure
   completion_tier_achieved: full-mpp-closure
 tracks:
