@@ -203,8 +203,8 @@ def cm_referee_blocked_consequence
   {
     "disposition" => "blocked",
     "next_cell_type" => "proof-frontier",
-    "next_stage" => "clay-closing-bridge-open",
-    "next_action" => "Close the Clay counterexample-exclusion bridge before submission promotion."
+    "next_stage" => "cm-referee-blocked",
+    "next_action" => "Resolve the named CM referee blockers before submission promotion."
   }
 end
 
@@ -213,7 +213,7 @@ def sanitize_cm_referee_audit(audit)
   return audit unless clay_closing_gap_open?
 
   audit["status"] = audit["status"].is_a?(Hash) ? audit["status"] : {}
-  audit["status"]["audit_status"] = "clay-closing-bridge-open"
+  audit["status"]["audit_status"] = "cm-referee-blocked"
   audit["status"]["pass"] = false
   audit["status"]["release_eligible"] = false
   audit["status"]["clay_ready"] = false
@@ -290,7 +290,7 @@ def apply_cm_referee_gate_to_packet!(packet)
   return packet if cm_referee_gate_clear?
 
   packet["posture"] ||= {}
-  packet["posture"]["current_package_status"] = "clay-closing-bridge-open"
+  packet["posture"]["current_package_status"] = "cm-referee-blocked"
   packet["posture"]["standalone_status"] = "blocked"
   packet["posture"]["release_or_respawn_consequence"] = cm_referee_blocked_consequence
   packet["release_or_respawn_consequence"] = cm_referee_blocked_consequence if packet.key?("release_or_respawn_consequence")
@@ -325,8 +325,8 @@ def apply_cm_referee_gate_to_submission!(verdict)
   verdict["review_alignment"] ||= {}
   verdict["review_alignment"]["release_posture"] = "blocked"
   verdict["review_alignment"]["standalone_status"] = "blocked"
-  verdict["review_alignment"]["completion_tier_achieved"] = "clay-closing-bridge-open"
-  verdict["review_alignment"]["current_package_status"] = "clay-closing-bridge-open"
+  verdict["review_alignment"]["completion_tier_achieved"] = "cm-referee-blocked"
+  verdict["review_alignment"]["current_package_status"] = "cm-referee-blocked"
   verdict["blockers"] = (Array(verdict["blockers"]) + cm_referee_blockers.map { |entry| "CM contrapositive referee audit blocks submission: #{entry}" }).uniq
   verdict["required_before_submission"] = (Array(verdict["required_before_submission"]) + ["Discharge the CM contrapositive referee audit before treating the package as Clay-ready."]).uniq
   target_fidelity = verdict["target_fidelity"]
@@ -350,7 +350,7 @@ def apply_cm_referee_gate_to_review!(review)
 
   review["verdict"] = "block"
   review["release_posture"] = "blocked"
-  review["completion_tier_achieved"] = "clay-closing-bridge-open"
+  review["completion_tier_achieved"] = "cm-referee-blocked"
   review["standalone_status"] = "blocked"
   review["theorem_packet_status"] = "blocked"
   review["release_or_respawn_consequence"] = cm_referee_blocked_consequence
@@ -378,7 +378,7 @@ def apply_cm_referee_gate_to_release!(decision)
   if body.is_a?(Hash)
     body["disposition"] = "blocked"
     body["release_posture"] = "blocked"
-    body["completion_tier_achieved"] = "clay-closing-bridge-open"
+    body["completion_tier_achieved"] = "cm-referee-blocked"
     body["next_cell_type"] = cm_referee_blocked_consequence.fetch("next_cell_type")
     body["next_stage"] = cm_referee_blocked_consequence.fetch("next_stage")
     body["next_action"] = cm_referee_blocked_consequence.fetch("next_action")
@@ -967,7 +967,7 @@ def sanitize_submission_export_status(status)
   if clay_closing_gap_open?
     status["submission_ready"] = false
     status["submission_posture"] = "blocked"
-    status["readiness_status"] = "clay-closing-bridge-open"
+    status["readiness_status"] = "cm-referee-blocked"
   else
     status["submission_ready"] = true
     status["submission_posture"] = "submission-candidate"
@@ -1458,8 +1458,8 @@ def sanitize_release_manifest(manifest)
     manifest["status"] = "blocked"
     manifest["pass"] = false
     manifest["release_eligible"] = false
-    manifest["release_gate"] = "clay-closing-bridge-open"
-    manifest["bundle_status"] = "clay-closing-bridge-open"
+    manifest["release_gate"] = "cm-referee-blocked"
+    manifest["bundle_status"] = "cm-referee-blocked"
     manifest["terminal_safe"] = false
     manifest["required_before_terminal_release"] = cm_referee_blockers
     manifest["cm_contrapositive_referee_gate"] = cm_referee_gate_payload
@@ -1473,15 +1473,15 @@ def sanitize_release_manifest(manifest)
       auto_audit = source_summary["auto_audit_certification"]
       if auto_audit.is_a?(Hash)
         auto_audit["theorem_packet_status"] = "blocked"
-        auto_audit["current_package_status"] = "clay-closing-bridge-open"
+        auto_audit["current_package_status"] = "cm-referee-blocked"
         auto_audit["standalone_status"] = "blocked"
       end
       source_summary["existing_assumption_ledger_status"] = {
-        "ledger_status" => "clay-closing-bridge-open",
+        "ledger_status" => "cm-referee-blocked",
         "direct_live_authority_all_discharged" => true,
         "cm_contrapositive_referee_gate_clear" => false,
         "release_eligible" => false,
-        "release_gate" => "clay-closing-bridge-open"
+        "release_gate" => "cm-referee-blocked"
       }
     end
   end
