@@ -4,20 +4,20 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-08T03:40:28Z'
+  evaluated_at: '2026-06-08T03:54:44Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
-  disposition: submission-candidate
+  disposition: respawn
   release_posture: export-ready
   completion_tier_target: full-mpp-closure
   completion_tier_achieved: full-mpp-closure
   next_cell_type:
   next_stage: submission-candidate
-  next_action: Hold the package as a submission candidate for a full-MPP closure paper
-    until internal export or submission handling is scheduled.
-  rationale: Honesty review returned a full-MPP closure completion tier, the live
-    theorem-authority gate is fully discharged, and the submission verdict cleared
-    the manuscript as a submission candidate.
+  next_action: No publication-finalize reopen is required; the submission bundle is
+    already the current referee-facing manuscript surface.
+  rationale: The package cleared export-facing review, but the submission gate is
+    still not clear, so Prime keeps the active post-release track alive instead of
+    parking the lane as blocked.
 artifacts:
   draft:
   draft_v6: problems/navier-stokes/draft-v6.md
@@ -31,8 +31,17 @@ artifacts:
   typeset_audit: problems/navier-stokes/submission-bundle/typeset-audit.yaml
   review_log: problems/navier-stokes/review-log.md
   review_verdict: problems/navier-stokes/review-verdict.yaml
-blockers: []
+blockers:
+- The theorem packet localizes definitions, lemma surfaces, theorem statement, and
+  proof dependencies strongly enough to support export-facing review.
+- The recorded primary manuscript surface is `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`,
+  and it is the export-ready paper source for this package.
+- Draft checkpoints are retained as support; the submission-bundle manuscript is the
+  live export surface.
+- The current package is coherent enough to clear a full-MPP closure release if the
+  export bundle remains intact.
+- 'navier-stokes: MPP PDF contract blocks export: internal status or ledger language
+  appears in problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex'
 summary:
-  queue_effect: submission-candidate
-  registry_note: problem is terminal until internal export or submission handling
-    is scheduled
+  queue_effect: ready
+  registry_note: problem is re-queued on the upstream stage named by the review verdict
