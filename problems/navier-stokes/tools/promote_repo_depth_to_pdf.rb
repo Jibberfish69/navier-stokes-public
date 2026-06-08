@@ -77,7 +77,7 @@ HISTORICAL_APPENDIX_REWRITES = {
   "The direct Liouville theorem is open. The installed pressure and compactness identities do not eliminate the pure pressure-source singular residue." =>
     "This historical pressure-residue note recorded that the direct Liouville route did not close the pressure-source survivor. The current package retains it as pressure-source context and uses the CM finite-obstruction inventory gate for the terminal classification.",
   "Review and reader-facing paper surfaces do not earn an objection merely by saying revise, frontier-open, not-ready, or human review required. Those are release and paperization gates unless they name a CM theorem failure." =>
-    "Historical review and paperization status words are retained only as readout context. In the current submission package, release readiness is governed by the live source frontier, route state, submission verdict, and PDF-track topology."
+    "Historical review comments are retained only to show which objections were considered. In the present proof, such an objection remains mathematical only when it identifies a failure in the Pack/Part/Field terminal classification."
 }.freeze
 
 def relative(path)
