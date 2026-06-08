@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T01:35:57Z'
+generated_at: '2026-06-08T01:38:12Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -13,8 +13,8 @@ pdf_tracks: &12
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     role: preferred problems/** app-aligned human submission track
     present: true
-    bytes: 3914699
-    sha1: 68c8d3540c65328f989ec0e9f4ffb3bbd3452cef
+    bytes: 3916993
+    sha1: '09dc2f4965a789571e5c5dfb1c6429b5417553df'
     required_for_clay_submission: true
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   codex_machine_paper:
@@ -22,7 +22,7 @@ pdf_tracks: &12
     role: papers/** Codex-owned Clay-facing submission paper track
     present: true
     bytes: 462148
-    sha1: f08b15bc05971ac2feaa7db5da4e947fda2e3dae
+    sha1: c75f95374bc9034a110276e5b865e56f7f8ca1c1
     required_for_clay_submission: true
     manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
@@ -36,7 +36,7 @@ authoritative_content_included: true
 authoritative_supplements: []
 codex_machine_manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 submission_ready: false
-readiness_blocker: 'Completion readiness still has 28 candidate(s): route-node:clay_cm_contrapositive_witness_consumption,
+readiness_blocker: 'Completion readiness still has 29 candidate(s): route-node:clay_cm_contrapositive_witness_consumption,
   route-node:clay_target, integration:graph_topology_source, integration:app_worker_surface,
   integration:repo_proof_authority, integration:manuscript_scaffold.'
 manuscript_tex_sha1: 5330c44d0caee015ad0a4f817b3b7d35ed52e3b2
@@ -49,7 +49,7 @@ readiness_evidence:
   completion_readiness:
     status: blocked
     submission_ready: false
-    candidate_count: 28
+    candidate_count: 29
     candidates:
     - &1
       candidate_id: route-node:clay_cm_contrapositive_witness_consumption
@@ -218,6 +218,12 @@ readiness_evidence:
       required_action: The current source frontier reports three unresolved live theorem
         obligations. Both required PDF tracks may be rendered, but Clay-ready submission
         remains false until those blockers close.
+    - candidate_id: submission-export-status:stale-completion-readiness-evidence
+      kind: submission_export_status
+      surface: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+      evidence: completion_readiness=blocked
+      required_action: Refresh export readiness evidence from current route, verdict,
+        PDF, and provenance state.
     - candidate_id: current-material:caveat:june_2026_active_cm_completion_notes
       kind: current_material
       surface: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
@@ -254,7 +260,7 @@ readiness_evidence:
       manuscript_unresolved_candidates: 0
       source_frontier_candidates: 6
       route_state_agreement_candidates: 15
-      submission_verdict_agreement_candidates: 0
+      submission_verdict_agreement_candidates: 1
       pdf_track_candidates: 0
       current_material_candidates: 3
       stale_readiness_ref_candidates: 0
@@ -266,14 +272,14 @@ readiness_evidence:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: 68c8d3540c65328f989ec0e9f4ffb3bbd3452cef
-          bytes: 3914699
+          sha1: '09dc2f4965a789571e5c5dfb1c6429b5417553df'
+          bytes: 3916993
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
           path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
           present: true
-          sha1: f08b15bc05971ac2feaa7db5da4e947fda2e3dae
+          sha1: c75f95374bc9034a110276e5b865e56f7f8ca1c1
           bytes: 462148
           manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
           required_for_clay_submission: true
