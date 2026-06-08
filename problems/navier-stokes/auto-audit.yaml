@@ -4,10 +4,10 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-08T06:52:51Z'
+  audited_at: '2026-06-08T07:05:52Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
-  current_package_status: clay-closing-bridge-open
+  current_package_status: full-mpp-closure-ready
   standalone_status: blocked
   completion_tier_achieved: clay-closing-bridge-open
   review_verdict: block
@@ -24,15 +24,15 @@ branch_audit:
   death_certificate_count: 0
   unresolved_count: 0
   branches: []
-downstream_overlay_drift: &1
-  status: stale
+downstream_overlay_drift:
+  status: ok
   issue_id: downstream-overlay-drift
   authority_surface_count: 4
-  stale_overlay_count: 1
+  stale_overlay_count: 0
   authority_surfaces:
   - artifact: source_frontier
     path: problems/navier-stokes/source-frontier.yaml
-    sha1: 7484a5ae13d7f7143e34f0436a97da4e33a45e1f
+    sha1: a32ded410732a3c82df0bce94965993a72d422ef
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -42,15 +42,18 @@ downstream_overlay_drift: &1
     - 'dashboard_unresolved_count: 0'
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: f6993fdc833344f5b69478be383629c626c59583
+    sha1: 58795e859620adc101d5938acc1d34d65fc26d25
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
+    - full-mpp
     - installed
     - discharged
+    - full-mpp-closure
     - certified
     - accepted
     - 'all_discharged: true'
+    - 'submission_ready: true'
     - submission-candidate
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
@@ -65,26 +68,16 @@ downstream_overlay_drift: &1
     - submission-candidate
   - artifact: dependency_discharge
     path: problems/navier-stokes/dependency-discharge.yaml
-    sha1: 45423a51ada7835acd0bcc638730c8a0fcf771a0
+    sha1: 92a67715a84fef739097fb328e7e90231ac390db
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
     - discharged
     - 'all_discharged: true'
-  stale_overlays:
-  - artifact: release_decision
-    path: problems/navier-stokes/release-decision.yaml
-    sha1: c0c8843fabe88064c7e6e57bd3f977d1488f9e2b
-    matched_terms:
-    - target fidelity failure
-    - target fidelity blocker
-  recommended_repair: rerun-release-decision
-  recommended_next_cell_type: release-or-respawn
-  recommended_command: queue-release-refresh
-  terminal_condition_failure: 'Downstream overlay drift: authoritative theorem edge/source
-    surfaces carry a promoted direct-live posture, but generated overlays still advertise
-    stale blocker language in release_decision: target fidelity failure, target fidelity
-    blocker.'
+  stale_overlays: []
+  recommended_repair: none
+  recommended_next_cell_type:
+  recommended_command:
 graph_snapshot:
   exploration_graph:
     present: true
@@ -96,68 +89,25 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-2ed1755c48a7
-    route_signature: 2ed1755c48a73c725260acb459db3a685b182d3e
-    theorem_target: clay-closing-bridge-open
-    theorem_statement: The current Navier-Stokes package installs CM terminal witness
-      classification through Pack/Part/Field, but Clay finite-breakdown exclusion
-      remains open until the Clay-closing bridge proves that the classified class
-      exit cannot be the actual finite terminal obstruction for the same original
-      smooth-data solution.
+    surface_id: theorem-surface-navier-stokes-59de635b7f1b
+    route_signature: 59de635b7f1b3be47c7f40c2579ed82296f9e952
+    theorem_target: full-mpp-closure
+    theorem_statement: 'Navier-Stokes global regularity is proved by CM contrapositive
+      class exit: an alleged finite-time Clay terminal witness from the same original
+      smooth datum enters the same-fluid CM terminal packet tree, its finite failure
+      type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q},
+      and the derived face failure embeds as `Exit(Q):=not Member(Q)` while the pass
+      branch remains the lawful smooth continuation branch.'
     route_chain:
-    - Start with the alleged finite-time Clay terminal witness from the same original
-      smooth Navier-Stokes datum
-    - The witness enters the canonical same-fluid CM terminal packet tree rather than
-      being assumed to be a class member
-    - The finite failure type is exhausted as not Pack_Q, not Part_{N,Q}, or forall
-      r>0 not Field_{N,r,Q}
-    - The derived face failure embeds as `Exit(Q):=not Member(Q)` inside the CM contrapositive
-      program
-    - The pass branch remains the lawful smooth continuation branch, while the fail
-      branch has no legal in-class nonsmooth continuation status
-    route_slots:
-    - slot_id: marvin-upstream-eb3fabeeac46
-      label: 'Define or prove: Reduced the live Navier-Stokes route stack against
-        the Clay whole-space target into exact source-backed ingredients already present
-        on the lane. On the classical side, isolated the mixed-jet system, the exact
-        rung-level can'
-      kind: definition
-      status: needs-localization
-      source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T014725Z-6ece27230fc9.md
-      patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: marvin-upstream-ada9835aa864
-      label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m
-        \partial_x^\alpha u and differentiated pressure \Pi_ m,alpha , fix s > 3/2.
-        Using the H^s algebra property and the order-1 Calderon-Zygmund bound for
-        the pressure operator,'
-      kind: definition
-      status: needs-localization
-      source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T015459Z-d5f90422800c.md
-      patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: marvin-upstream-6d929e8a052a
-      label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-        lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the
-        exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-        red'
-      kind: definition
-      status: needs-localization
-      source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T020719Z-04949830208e.md
-      patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: marvin-upstream-954339945793
-      label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-        under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-        and E_sh(X) vanish identically, so the exact Route '
-      kind: definition
-      status: needs-localization
-      source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T020853Z-1ed78e356031.md
-      patch_surface: problems/navier-stokes/object-formalization.yaml
-    - slot_id: marvin-upstream-96892bab139f
-      label: 'Define or prove: Added two new theorem-facing reductions on the Clay
-        whole-space target.'
-      kind: definition
-      status: needs-localization
-      source_anchor: system/meta/research-os/promotions/navier-stokes/capture-20260405T022825Z-ed5d2bb9bea4.md
-      patch_surface: problems/navier-stokes/object-formalization.yaml
+    - Alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes
+      datum.
+    - ClayTerminalWitnessCMEntry.A places the witness in the same-fluid canonical
+      CM terminal packet tree.
+    - ClayFiniteFailureTypeCMExhaustion.A exhausts the finite failure type as not
+      Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}.
+    - ClayCMContrapositiveEmbedding.A embeds the derived face failure as `Exit(Q):=not
+      Member(Q)` while the pass branch remains the lawful smooth continuation branch.
+    route_slots: []
     authority_layers:
       authoritative_proof_surfaces:
       - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
@@ -273,18 +223,7 @@ issues:
   recommended_action: Run honesty-review to refresh the review verdict.
   details:
   - Submission export status changed after the current review verdict was written.
-- issue_id: downstream-overlay-drift
-  severity: major
-  summary: Generated theorem/review/release overlays still advertise stale blockers
-    after the direct live theorem edge advanced.
-  autofixable: false
-  recommended_action: Regenerate the derived theorem chain, refresh honesty-review
-    if review-verdict is stale, and rerun release-or-respawn after review.
-  details: *1
-fix_plan:
-- fix_id: repair-downstream-overlay-drift
-  summary: Repair stale downstream overlays in a bounded promotion-preserving order.
-  autofixable: false
+fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
