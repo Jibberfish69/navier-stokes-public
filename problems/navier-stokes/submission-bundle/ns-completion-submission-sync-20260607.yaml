@@ -65,26 +65,15 @@ verdict_alignment:
   bundle_verdict_synced: true
   export_status_synced: true
   submission_ready: false
-  blocking_reason: 'Navier-Stokes completion readiness is blocked by 6 unresolved
-    candidate(s): papers-navier-stokes-child-repo-dirty, codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
+  blocking_reason: 'Navier-Stokes completion readiness is blocked by 5 unresolved
+    candidate(s): codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
     codex-gap-attack-log:r3-exterior-high-order-tail-closure, codex-gap-attack-log:contract-readiness-after-manuscript-expansion,
     codex-pdf-provenance:clay-readiness-not-claimed, clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
   readiness_evidence:
     source_frontier_clear: true
     open_d8_proof_blockers: 6
-    completion_candidate_count: 6
+    completion_candidate_count: 5
     completion_candidates:
-    - candidate_id: papers-navier-stokes-child-repo-dirty
-      kind: child_paper_repo
-      surface: papers/navier-stokes
-      evidence: M build/output/authoritative-edge/navier-stokes.pdf; M context/generated/snapshots/authority-cut/problems/navier-stokes/release-decision.yaml;
-        M context/generated/snapshots/authority-cut/problems/navier-stokes/review-verdict.yaml;
-        M context/generated/snapshots/authority-cut/problems/navier-stokes/theorem-packet.yaml;
-        M context/generated/snapshots/paper-export/problems/navier-stokes/review-log.md;
-        M context/generated/snapshots/paper-export/problems/navier-stokes/submission-verdict.yaml;
-        M manuscript/generated/main.tex; M review/codex-gap-attack-log.yaml
-      required_action: The Codex-owned papers/** PDF track has uncommitted TeX/PDF
-        state outside the root repo.
     - candidate_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
       kind: clay_closing_gap
       surface: papers/navier-stokes/review/codex-gap-attack-log.yaml
@@ -120,19 +109,8 @@ verdict_alignment:
     completion_readiness:
       status: blocked
       submission_ready: false
-      candidate_count: 6
+      candidate_count: 5
       candidates:
-      - candidate_id: papers-navier-stokes-child-repo-dirty
-        kind: child_paper_repo
-        surface: papers/navier-stokes
-        evidence: M build/output/authoritative-edge/navier-stokes.pdf; M context/generated/snapshots/authority-cut/problems/navier-stokes/release-decision.yaml;
-          M context/generated/snapshots/authority-cut/problems/navier-stokes/review-verdict.yaml;
-          M context/generated/snapshots/authority-cut/problems/navier-stokes/theorem-packet.yaml;
-          M context/generated/snapshots/paper-export/problems/navier-stokes/review-log.md;
-          M context/generated/snapshots/paper-export/problems/navier-stokes/submission-verdict.yaml;
-          M manuscript/generated/main.tex; M review/codex-gap-attack-log.yaml
-        required_action: The Codex-owned papers/** PDF track has uncommitted TeX/PDF
-          state outside the root repo.
       - candidate_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
         kind: clay_closing_gap
         surface: papers/navier-stokes/review/codex-gap-attack-log.yaml
@@ -172,7 +150,7 @@ verdict_alignment:
         d8_candidates: 0
         live_edge_candidates: 0
         verdict_conflicts: 0
-        child_paper_repo_candidates: 1
+        child_paper_repo_candidates: 0
         manuscript_unresolved_candidates: 0
         source_frontier_candidates: 0
         route_state_agreement_candidates: 0
@@ -202,28 +180,21 @@ verdict_alignment:
             required_for_clay_submission: true
         preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       base_completion_readiness:
-        status: blocked
+        status: blocked-by-completion-readiness-agreement
         submission_ready: false
-        candidate_count: 1
-        candidates:
-        - candidate_id: papers-navier-stokes-child-repo-dirty
-          kind: child_paper_repo
-          surface: papers/navier-stokes
-          evidence: M build/output/authoritative-edge/navier-stokes.pdf; M context/generated/snapshots/authority-cut/problems/navier-stokes/release-decision.yaml;
-            M context/generated/snapshots/authority-cut/problems/navier-stokes/review-verdict.yaml;
-            M context/generated/snapshots/authority-cut/problems/navier-stokes/theorem-packet.yaml;
-            M context/generated/snapshots/paper-export/problems/navier-stokes/review-log.md;
-            M context/generated/snapshots/paper-export/problems/navier-stokes/submission-verdict.yaml;
-            M manuscript/generated/main.tex; M review/codex-gap-attack-log.yaml
-          required_action: The Codex-owned papers/** PDF track has uncommitted TeX/PDF
-            state outside the root repo.
+        candidate_count: 0
+        candidates: []
         checks:
           route_candidates: 0
           d8_candidates: 0
           live_edge_candidates: 0
           verdict_conflicts: 0
-          child_paper_repo_candidates: 1
+          child_paper_repo_candidates: 0
           manuscript_unresolved_candidates: 0
+        status_without_clay_gap_check: ready
+        submission_ready_without_clay_gap_check: true
+        suppressed_reason: The base route/verdict checker is not allowed to override
+          active Clay-closing proof blockers.
     pdf_tracks_present: true
     pdf_tracks_rendered: true
     pdf_render_status:
