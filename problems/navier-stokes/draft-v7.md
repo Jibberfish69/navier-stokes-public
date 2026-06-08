@@ -1,6 +1,6 @@
 # Archived Conditional Classical-Closure Checkpoint for 3D Navier-Stokes
 
-Archived conditional checkpoint only. This file is not the authoritative theorem or export surface for the lane. The live full-claim authoring surface is `problems/navier-stokes/draft-v8.md`, and the authoritative export surface is `problems/navier-stokes/external-paper/main.tex`.
+Archived conditional checkpoint only. This file is not the authoritative theorem or export surface for the lane. The live human/app-aligned authoring surface is `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`, and the separate Codex Clay-facing paper source is `papers/navier-stokes/manuscript/generated/main.tex`.
 
 ## Abstract
 
