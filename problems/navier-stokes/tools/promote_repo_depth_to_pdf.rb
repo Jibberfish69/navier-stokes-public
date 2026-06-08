@@ -208,6 +208,16 @@ def export_codex_paper_pdf
   raise "missing Codex paper source #{relative(CODEX_MAIN_TEX)}" unless CODEX_MAIN_TEX.file?
 
   FileUtils.mkdir_p(CODEX_PAPER_PDF.dirname)
+  copied_inputs = CODEX_EXTRA_TEX_INPUTS.select(&:file?).map do |input_path|
+    target = CODEX_PAPER_PDF.dirname.join(input_path.basename)
+    FileUtils.cp(input_path, target)
+    {
+      "source" => relative(input_path),
+      "export_copy" => relative(target),
+      "sha1" => file_sha1(target),
+      "bytes" => target.size
+    }
+  end
   output_dir = CODEX_PAPER_PDF.dirname.relative_path_from(CODEX_MAIN_TEX.dirname).to_s
   argv = [
     "pdflatex",
@@ -228,16 +238,6 @@ def export_codex_paper_pdf
   end
 
   FileUtils.cp(CODEX_MAIN_TEX, CODEX_PAPER_TEX)
-  copied_inputs = CODEX_EXTRA_TEX_INPUTS.select(&:file?).map do |input_path|
-    target = CODEX_PAPER_PDF.dirname.join(input_path.basename)
-    FileUtils.cp(input_path, target)
-    {
-      "source" => relative(input_path),
-      "export_copy" => relative(target),
-      "sha1" => file_sha1(target),
-      "bytes" => target.size
-    }
-  end
   {
     "action" => "codex-paper-pdf-export",
     "problem_id" => PROBLEM_ID,
