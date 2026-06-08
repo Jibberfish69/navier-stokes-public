@@ -920,13 +920,13 @@ The proposition above is where the proof prevents a fake fourth terminal object 
 It is stronger than naming a failure family: it says the terminal object must be the same transported atlas object, and the first failure must be read on that object.
 It is also the reason branch notes and critical examples remain secondary until they attach to the same atlas and pay one of the three face costs.
 
-\begin{theorem}[Periodic CM completion]
-For smooth divergence-free zero-mean data on \(\mathbb T^3\), the same-solution CM route rules out finite terminal breakdown.
+\begin{theorem}[Periodic CM classification state]
+For smooth divergence-free zero-mean data on \(\mathbb T^3\), the same-solution CM route classifies any admitted finite terminal witness.
 Every legitimate finite terminal witness is admitted to the transported atlas \(Q_{\mathrm{atlas}}\), exhausted by its first failed Pack, Part, or Field face, and embedded as
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
-The pass branch reads out as same-solution smooth continuation, so neither branch supplies a finite in-class nonsmooth terminal object.
+This is a CM classification result.  The Clay-closing bridge still has to prove that the classified exit cannot be the actual finite terminal breakdown obstruction for the same original smooth-data solution.
 \end{theorem}
 
 \begin{proof}
@@ -934,8 +934,7 @@ Assume \(T_*<\infty\).
 The whole-torus terminal atlas is readout-complete.
 The finite endpoint either retains Pack, Part, and Field on the same transported atlas, or it has a first Pack, Part, or Field face failure.
 The face-failure branch is consumed by the installed terminal witness theorem and embedded as class exit for the same working Navier--Stokes object.
-The retained branch gives the \(H^s\), \(s>5/2\), continuation norm for the same original solution.
-Periodic local well-posedness extends that solution past \(T_*\), contradicting maximality.
+The retained branch gives the \(H^s\), \(s>5/2\), continuation norm for the same original solution.  The proof is still incomplete at the point where the class-exit branch must be shown not to be a valid Clay terminal obstruction for that same original solution.
 \end{proof}
 
 \section{Forward Families As Support Examples}
@@ -1328,7 +1327,7 @@ This contradicts the survivor lower bound along \(N_j\to\infty\).
 Thus retained Pack+Part forces failure of every fixed positive Field scale.
 \end{proof}
 
-\begin{theorem}[Whole-space CM completion]
+\begin{theorem}[Whole-space CM classification state]
 For smooth rapidly decaying divergence-free data on \(\mathbb R^3\), a finite terminal whole-space branch has the same CM pass-or-exit conclusion as the periodic branch.
 The branch either has the exterior \(H^s\), \(s>5/2\), tail needed for the usual continuation readout, or the surviving exterior source lands in
 \[
@@ -1337,6 +1336,7 @@ The branch either has the exterior \(H^s\), \(s>5/2\), tail needed for the usual
   \forall \rho>0\,\neg\Field_{M,\rho,Q},
 \]
 and therefore supports \(\Exit(Q;\Owork)\).
+This is not yet a Clay-ready whole-space exclusion theorem: the exterior \(H^s\) tail closure or an accepted endpoint exclusion for the dyadic survivor branch remains open.
 \end{theorem}
 
 \begin{proof}
@@ -1348,12 +1348,12 @@ When its \(H^s\) tail vanishes, the whole-space object has the continuation read
 When a terminal exterior source survives, bounded exterior frequencies are removed by \(L^2\) tightness, so the survivor is a dyadic high-frequency escape.
 The preceding proposition classifies exactly that survivor as Pack failure, Part failure, or Field failure after retained Pack and Part.
 The CM embedding reads that first failed face as \(\Exit(Q;\Owork)\).
-Thus the whole-space terminal claim has no in-class nonsmooth third branch.
+Thus the whole-space terminal claim has no in-class nonsmooth third branch inside the CM classification.  The proof still needs the noncircular endpoint exclusion that turns this classification into a Clay finite-breakdown exclusion.
 \end{proof}
 
-This is the whole-space CM conclusion.
-The direct exterior \(H^s\) estimate remains a stronger positive export theorem.
-The CM proof also closes the survivor branch: if the exterior source is still present at the terminal edge, its first failed Pack, Part, or Field face is the class-exit witness.
+This is the current whole-space CM classification state.
+The direct exterior \(H^s\) estimate remains open as a stronger positive export theorem.
+The CM proof classifies the survivor branch: if the exterior source is still present at the terminal edge, its first failed Pack, Part, or Field face is the class-exit witness.  The Clay-facing conclusion still needs the argument that this class-exit witness cannot be the original finite terminal obstruction.
 
 
 \section{Mathematical Branch Coverage}
