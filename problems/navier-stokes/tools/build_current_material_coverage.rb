@@ -226,7 +226,7 @@ FAMILIES = [
   },
   {
     "id" => "june_2026_active_cm_completion_notes",
-    "paper_representation" => "June 2026 theorem notes are represented as active CM completion-frontier material. They sharpen Clay counterexample exclusion, Pack_Q reader certification, retained pressure/finite-energy obstruction placement, averaged Jump_avg and receiver readout issues, RSCB/SCF_avg face landing, Pack/Part/Field face-exclusion blockers, and executor proof-frontier blockers. They do not by themselves close the MPP; the manuscript may use them only as proof-frontier material until a Pack/Part/Field mechanism is written as proof.",
+    "paper_representation" => "June 2026 theorem notes are represented as the current CM inventory-gate record. They sharpen Clay counterexample exclusion, Pack_Q reader certification, retained pressure/finite-energy obstruction placement, averaged Jump_avg and receiver readout issues, RSCB/SCF_avg face landing, Field-to-Part collapse, and the demotion of generic Pack/Part no-exit blockers. Current proof-facing use is the finite-obstruction inventory standard: named promoted rows need same-witness CM entry plus Pack/Part/Field face certification, while generic support rows stay demoted.",
     "files" => %w[
       theorem-construction/mpp-nightly-20260602-clay-counterexample-exclusion-pressure-note.md
       theorem-construction/mpp-clay-counterexample-exclusion-target-correction-20260603.md
@@ -259,7 +259,7 @@ FAMILIES = [
   },
   {
     "id" => "d8_route_app_graph_pdf_sync_surfaces",
-    "paper_representation" => "D8 route maps and executor sync payloads are represented as app/graph/PDF coordination material. They describe how the completion engine routes repo, node-graph, app, MCP, proof, and manuscript surfaces into work lanes; they are not theorem proof text and cannot replace branch-native proof closure.",
+    "paper_representation" => "D8 route maps and executor sync payloads are represented as app/graph/PDF coordination material. They expose the route, graph, MCP, manuscript, and submission surfaces from the finite-obstruction inventory gate; theorem authority remains in the referenced theorem notes and referee audit.",
     "files" => %w[
       d8-completion-route-map.yaml
       ns-logical-tree-bridge-reconciliation-20260607.yaml
@@ -271,7 +271,7 @@ FAMILIES = [
   },
   {
     "id" => "dual_pdf_submission_sync_surfaces",
-    "paper_representation" => "Submission executor scaffolds, boundary records, and submission-sync ledgers are represented as dual-PDF readiness and provenance material. They keep the preferred human/app-aligned PDF and the Codex-structured papers PDF synchronized as two required Clay-facing tracks; they do not count as proof closure.",
+    "paper_representation" => "Submission executor scaffolds, boundary records, and submission-sync ledgers are represented as dual-PDF readiness and provenance material. They keep the preferred human/app-aligned PDF and the Codex-structured papers PDF synchronized as two required Clay-facing tracks while proof authority remains in the finite-obstruction inventory gate and manuscript/PDF quality checks.",
     "files" => %w[
       submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
       submission-bundle/ns-completion-executor-proof-scaffold-20260607.md
