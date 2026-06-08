@@ -42,12 +42,20 @@ REQUIRED_TEX_INPUTS = %w[
   surface-derivation-appendix.tex
 ].freeze
 
-REQUIRED_CODEX_PDF_TEXT = {
+BASE_REQUIRED_CODEX_PDF_TEXT = {
   "same-solution contrapositive title" => /Same-Solution Contrapositive/i,
   "whole-space CM completion" => /Whole-Space CM Completion/i,
-  "Clay smoothness conclusion" => /Clay Smoothness Conclusion/i,
   "reader check" => /Reader Check/i,
   "CM face language" => /Pack, Part, and Field/i
+}.freeze
+
+READY_CODEX_PDF_TEXT = {
+  "Clay smoothness conclusion" => /Clay Smoothness Conclusion/i
+}.freeze
+
+BLOCKED_CODEX_PDF_TEXT = {
+  "conditional Clay-closing bridge" => /conditional Clay-closing bridge/i,
+  "conditional argument boundary" => /argument remains conditional/i
 }.freeze
 
 FORBIDDEN_CODEX_DOSSIER_TEXT = {
@@ -65,6 +73,14 @@ def load_yaml(path)
   return {} unless path.file?
 
   YAML.load_file(path.to_s) || {}
+end
+
+def required_codex_pdf_text(export_status)
+  readiness = export_status.dig("readiness_evidence", "completion_readiness")
+  ready = readiness.is_a?(Hash) &&
+          readiness["submission_ready"] == true &&
+          readiness["candidate_count"].to_i.zero?
+  BASE_REQUIRED_CODEX_PDF_TEXT.merge(ready ? READY_CODEX_PDF_TEXT : BLOCKED_CODEX_PDF_TEXT)
 end
 
 def write_yaml(path, payload)
@@ -343,7 +359,7 @@ def dual_pdf_track_gate
     errors << "papers/Codex PDF has #{papers_pages} pages; minimum Clay-facing submission proof contract is #{MIN_CODEX_SUBMISSION_PAGES}" if papers_pages < MIN_CODEX_SUBMISSION_PAGES
     errors << "papers/Codex PDF has #{papers_pages} pages; maximum Clay-facing submission paper scale is #{MAX_CODEX_SUBMISSION_PAGES}; keep the long dossier in the human/app-aligned track" if papers_pages > MAX_CODEX_SUBMISSION_PAGES
     text = pdf_text(CODEX_PAPER_PDF)
-    REQUIRED_CODEX_PDF_TEXT.each do |label, pattern|
+    required_codex_pdf_text(export_status).each do |label, pattern|
       errors << "papers/Codex PDF missing rendered #{label}" unless text.match?(pattern)
     end
     FORBIDDEN_CODEX_DOSSIER_TEXT.each do |label, pattern|
