@@ -18,12 +18,14 @@ input_refs:
 - problems/navier-stokes/submission-bundle/submission-verdict.yaml
 - problems/navier-stokes/submission-bundle/submission-export-status.yaml
 submission_ready: true
-boundary_reason: current frontier has no unresolved obligations, both required PDF
-  tracks are present, and route-state has no open D8 proof blockers
-may_advance_when:
-- the proof lane lands the CM obstruction in Pack, Part, or Field or closes it by
-  legitimate scope rejection
-- the manuscript lane converts earned proof movement into human-facing proof prose
+boundary_reason: current frontier has no unresolved obligations, the R3 exterior
+  survivor is landed in Pack/Part/Field, both required PDF tracks are present,
+  and route-state has no open D8 proof blockers
+readiness_conditions_satisfied:
+- the proof lane has landed the active CM obstruction in Pack, Part, or Field
+  through the R3 exterior-source survivor face note
+- the manuscript lane has converted earned proof movement into human-facing proof
+  prose in the main human/app-aligned manuscript
 - the route graph, app, and MCP readout agree with the proof and manuscript state
 state_delta: changed submission boundary by tying readiness to executor proof/manuscript
   evidence
