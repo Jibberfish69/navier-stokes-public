@@ -5,16 +5,15 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-06-08T06:16:19Z'
+  extracted_at: '2026-06-08T06:40:36Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
     theorem_target: Clay-closing bridge from classified class exit to contradiction
     current_package_status: clay-closing-bridge-open
     support_basis: Terminal witness entry and Pack/Part/Field classification remain
-      installed. The package is nonterminal until the Clay-closing bridge and R3 endpoint
-      blocker are discharged.
-    standalone_status: accepted
+      installed. The package is nonterminal until the Clay-closing bridge is discharged.
+    standalone_status: blocked
 supporting_sections:
   reviewer_risks:
   - Recovered support is still classified as strong, so the local package remains
@@ -27,14 +26,13 @@ supporting_sections:
     Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
     obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
     proof.'
-  - 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a direct
-    noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing into
-    an accepted whole-space endpoint exclusion.'
   - 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the
     bridge is proved or the conclusion is otherwise closed, rerun the contract check
     and update provenance with the contract result.'
   - 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional provenance
     with a proved Clay-closing bridge before submission readiness.'
+  - 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
+    bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
   promotion_rule:
   - Do not promote beyond `revise` until every row marked as a live theorem burden
     has either been localized into the local package or explicitly parked below the
@@ -75,22 +73,7 @@ debt_items:
     package, so it must stay on the theorem-upgrade path instead of being demoted
     to packaging debt.
   priority_rank: 2
-- debt_id: debt-theorem-upgrade-2-codex-gap-attack-log-r3-exterior-high-order-tail-closure-either-prove-a-direct-noncircular-r3-h-s-tail-theorem-or-strengthen-dyadic-survivor-face-landing-into-an-accepted-whole-space-endpoint-exclusion
-  label: 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a
-    direct noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing
-    into an accepted whole-space endpoint exclusion.'
-  source_section: post-release-theorem-upgrade
-  monograph_status: reopened from post-release theorem-upgrade plan
-  standalone_need: 'yes'
-  primary_anchors:
-  - problems/navier-stokes/post-release-plan.yaml
-  debt_class: blocked-frontier
-  recommended_stage: creative-theorem-search
-  rationale: The post-release plan says this gap remains outside the accepted checkpoint
-    package, so it must stay on the theorem-upgrade path instead of being demoted
-    to packaging debt.
-  priority_rank: 3
-- debt_id: debt-theorem-upgrade-3-codex-gap-attack-log-contract-readiness-after-manuscript-expansion-after-the-bridge-is-proved-or-the-conclusion-is-otherwise-closed-rerun-the-contract-check-and-update-provenance-with-the-contract-result
+- debt_id: debt-theorem-upgrade-2-codex-gap-attack-log-contract-readiness-after-manuscript-expansion-after-the-bridge-is-proved-or-the-conclusion-is-otherwise-closed-rerun-the-contract-check-and-update-provenance-with-the-contract-result
   label: 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After
     the bridge is proved or the conclusion is otherwise closed, rerun the contract
     check and update provenance with the contract result.'
@@ -104,10 +87,25 @@ debt_items:
   rationale: The post-release plan says this gap remains outside the accepted checkpoint
     package, so it must stay on the theorem-upgrade path instead of being demoted
     to packaging debt.
-  priority_rank: 4
-- debt_id: debt-theorem-upgrade-4-codex-pdf-provenance-clay-readiness-not-claimed-replace-the-conditional-provenance-with-a-proved-clay-closing-bridge-before-submission-readiness
+  priority_rank: 3
+- debt_id: debt-theorem-upgrade-3-codex-pdf-provenance-clay-readiness-not-claimed-replace-the-conditional-provenance-with-a-proved-clay-closing-bridge-before-submission-readiness
   label: 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional
     provenance with a proved Clay-closing bridge before submission readiness.'
+  source_section: post-release-theorem-upgrade
+  monograph_status: reopened from post-release theorem-upgrade plan
+  standalone_need: 'yes'
+  primary_anchors:
+  - problems/navier-stokes/post-release-plan.yaml
+  debt_class: blocked-frontier
+  recommended_stage: creative-theorem-search
+  rationale: The post-release plan says this gap remains outside the accepted checkpoint
+    package, so it must stay on the theorem-upgrade path instead of being demoted
+    to packaging debt.
+  priority_rank: 4
+- debt_id: debt-theorem-upgrade-4-clay-counterexample-gap-audit-finite-breakdown-exclusion-open-prove-the-clay-closing-bridge-or-replace-the-closing-argument-with-a-noncircular-finite-breakdown-exclusion
+  label: 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the
+    Clay-closing bridge or replace the closing argument with a noncircular finite-breakdown
+    exclusion.'
   source_section: post-release-theorem-upgrade
   monograph_status: reopened from post-release theorem-upgrade plan
   standalone_need: 'yes'
@@ -125,24 +123,12 @@ summary:
     local-derivable: 0
     branch-choice: 0
     blocked-frontier: 4
-  recommended_next_cell_type:
-  recommended_next_action: Do not respawn theorem work from this historical artifact;
-    defer to the direct-live authority surfaces.
-  recommended_debt_ids: []
-  current_live_blocking_count: 0
-  current_live_frontier_count: 0
-  stale_surface_status: historical-context-only
-current_authority_status:
-  status: superseded-by-direct-live-clearance
-  checked_at: '2026-06-08T06:33:08Z'
-  reason: Direct live authority reports no open theorem frontier; this artifact is
-    retained as historical theorem-work context and must not respawn a live blocker.
-  authority_summary:
-    authority_mode: direct-live-surfaces
-    blocking_count: 0
-    frontier_count: 0
-    all_discharged: true
-  controlling_surfaces:
-  - problems/navier-stokes/live-theorem-edge.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
+  recommended_next_cell_type: creative-theorem-search
+  recommended_next_action: The remaining debt is forked or frontier-level, so open
+    a bounded multi-path sandbox and pursue the competing burdens until only survivor
+    routes remain.
+  recommended_debt_ids:
+  - debt-theorem-upgrade-1-codex-gap-attack-log-clay-closing-bridge-from-classified-class-exit-to-contradiction-prove-that-an-exit-q-o-work-record-cannot-be-the-actual-finite-terminal-clay-obstruction-or-replace-the-closing-argument-with-a-noncircular-endpoint-compactness-minimal-counterexample-proof
+  - debt-theorem-upgrade-2-codex-gap-attack-log-contract-readiness-after-manuscript-expansion-after-the-bridge-is-proved-or-the-conclusion-is-otherwise-closed-rerun-the-contract-check-and-update-provenance-with-the-contract-result
+  - debt-theorem-upgrade-3-codex-pdf-provenance-clay-readiness-not-claimed-replace-the-conditional-provenance-with-a-proved-clay-closing-bridge-before-submission-readiness
+  - debt-theorem-upgrade-4-clay-counterexample-gap-audit-finite-breakdown-exclusion-open-prove-the-clay-closing-bridge-or-replace-the-closing-argument-with-a-noncircular-finite-breakdown-exclusion
