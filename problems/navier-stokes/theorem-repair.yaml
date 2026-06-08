@@ -522,8 +522,8 @@ central_gate:
     disposition: blocked
     next_cell_type: proof-frontier
     next_stage: clay-closing-bridge-open
-    next_action: Close the Clay counterexample-exclusion bridge and R3 endpoint blockers
-      before submission promotion.
+    next_action: Close the Clay counterexample-exclusion bridge before submission
+      promotion.
   non_merge_rules: &6
   - rule_id: positive-vs-cm
     statement: Positive smoothness control and every surface indexed in the forward-positive
@@ -797,8 +797,7 @@ release_or_respawn_consequence:
   disposition: blocked
   next_cell_type: proof-frontier
   next_stage: clay-closing-bridge-open
-  next_action: Close the Clay counterexample-exclusion bridge and R3 endpoint blockers
-    before submission promotion.
+  next_action: Close the Clay counterexample-exclusion bridge before submission promotion.
 non_merge_rules: *6
 authority_hierarchy: *7
 mode_selection_protocol: *8
