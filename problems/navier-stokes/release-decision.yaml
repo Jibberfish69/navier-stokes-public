@@ -4,19 +4,20 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-08T07:08:15Z'
+  evaluated_at: '2026-06-08T07:15:11Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
-  disposition: blocked
-  release_posture: local-release-pass
+  disposition: submission-candidate
+  release_posture: export-ready
   completion_tier_target: full-mpp-closure
   completion_tier_achieved: full-mpp-closure
   next_cell_type:
-  next_stage: release-blocked
-  next_action: Hold the package blocked until the release blocker changes materially
-    or an internal reroute becomes available.
-  rationale: Honesty review did not define a safe upstream respawn path, so the package
-    is parked explicitly.
+  next_stage: submission-candidate
+  next_action: Hold the package as a submission candidate for a full-MPP closure paper
+    until internal export or submission handling is scheduled.
+  rationale: Honesty review returned a full-MPP closure completion tier, the live
+    theorem-authority gate is fully discharged, and the submission verdict cleared
+    the manuscript as a submission candidate.
 artifacts:
   draft:
   draft_v6: problems/navier-stokes/draft-v6.md
@@ -32,5 +33,6 @@ artifacts:
   review_verdict: problems/navier-stokes/review-verdict.yaml
 blockers: []
 summary:
-  queue_effect: blocked
-  registry_note: problem is blocked at release gate
+  queue_effect: submission-candidate
+  registry_note: problem is terminal until internal export or submission handling
+    is scheduled
