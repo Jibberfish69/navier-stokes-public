@@ -311,6 +311,10 @@ def dual_pdf_track_gate
     "human_app_aligned" => relative(MAIN_TEX),
     "codex_machine_paper" => relative(CODEX_MAIN_TEX)
   }
+  expected_files = {
+    "human_app_aligned" => HUMAN_SUBMISSION_PDF,
+    "codex_machine_paper" => CODEX_PAPER_PDF
+  }
 
   unless CODEX_PAPER_PDF.file? && CODEX_PAPER_PDF.size.positive?
     errors << "papers/Codex PDF missing"
@@ -343,6 +347,10 @@ def dual_pdf_track_gate
     errors << "submission export status #{track_id} track points to #{actual_path.empty? ? '(none)' : actual_path}, expected #{expected_path}" unless actual_path == expected_path
     actual_source = tracks.dig(track_id, "manuscript_source").to_s
     errors << "submission export status #{track_id} source points to #{actual_source.empty? ? '(none)' : actual_source}, expected #{expected_sources.fetch(track_id)}" unless actual_source == expected_sources.fetch(track_id)
+    track = tracks[track_id] || {}
+    expected_file = expected_files.fetch(track_id)
+    errors << "submission export status #{track_id} sha1 is stale against live PDF" unless track["sha1"] == file_sha1(expected_file)
+    errors << "submission export status #{track_id} byte count is stale against live PDF" unless track["bytes"] == (expected_file.file? ? expected_file.size : 0)
   end
 
   if tracks.dig("human_app_aligned", "path") == tracks.dig("codex_machine_paper", "path")
@@ -371,6 +379,9 @@ def dual_pdf_track_gate
     errors << "readiness evidence #{track_id} source points to #{evidence_track["manuscript_source"].to_s.empty? ? '(none)' : evidence_track["manuscript_source"]}, expected #{expected_sources.fetch(track_id)}" unless evidence_track["manuscript_source"] == expected_sources.fetch(track_id)
     errors << "readiness evidence #{track_id} sha1 is stale or missing" unless evidence_track["sha1"] == track["sha1"] && !evidence_track["sha1"].to_s.empty?
     errors << "readiness evidence #{track_id} byte count is stale" unless evidence_track["bytes"] == track["bytes"]
+    expected_file = expected_files.fetch(track_id)
+    errors << "readiness evidence #{track_id} sha1 is stale against live PDF" unless evidence_track["sha1"] == file_sha1(expected_file)
+    errors << "readiness evidence #{track_id} byte count is stale against live PDF" unless evidence_track["bytes"] == (expected_file.file? ? expected_file.size : 0)
   end
 
   problem_pdfs = Dir.glob(ROOT.join("problems/navier-stokes/**/*.pdf").to_s).sort
