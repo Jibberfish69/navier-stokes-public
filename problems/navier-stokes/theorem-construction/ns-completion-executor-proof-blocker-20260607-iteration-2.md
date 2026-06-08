@@ -21,7 +21,6 @@ Next executable proof tasks:
 - run theorem-legitimacy and pass-side nonvacuity before estimates
 - write a proof or failed-attempt note with the exact face mechanism
 - clay-closing-bridge-from-classified-class-exit-to-contradiction: Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample proof.
-- r3-exterior-high-order-tail-closure: Prove a direct noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing into an accepted whole-space endpoint exclusion.
 - contract-readiness-after-manuscript-expansion: Rerun the contract check and update provenance only after the bridge conclusion closes.
 - clay-readiness-not-claimed: Replace the conditional provenance with a proved Clay-closing bridge before submission readiness.
 - finite-breakdown-exclusion-open: Prove the Clay-closing bridge or replace the closing argument with a noncircular finite-breakdown exclusion.
