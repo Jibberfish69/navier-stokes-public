@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T05:30:49Z'
+generated_at: '2026-06-08T05:34:09Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -166,8 +166,8 @@ readiness_evidence:
           required_for_clay_submission: true
       preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     base_completion_readiness:
-      status: ready
-      submission_ready: true
+      status: blocked-by-completion-readiness-agreement
+      submission_ready: false
       candidate_count: 0
       candidates: []
       checks:
@@ -177,6 +177,10 @@ readiness_evidence:
         verdict_conflicts: 0
         child_paper_repo_candidates: 0
         manuscript_unresolved_candidates: 0
+      status_without_clay_gap_check: ready
+      submission_ready_without_clay_gap_check: true
+      suppressed_reason: The base route/verdict checker is not allowed to override
+        active Clay-closing proof blockers.
   pdf_tracks_present: true
   pdf_tracks_rendered: true
   pdf_render_status:
