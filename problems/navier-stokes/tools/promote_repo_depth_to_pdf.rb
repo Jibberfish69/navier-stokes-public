@@ -237,24 +237,19 @@ def sync_submission_export_status!
     "pdf_tracks" => tracks,
     "pdf_tracks_rendered" => tracks.values.all? { |track| track["present"] == true },
     "pdf_render_status" => render_status,
-    "submission_ready" => true,
+    "submission_ready" => current["submission_ready"],
     "readiness_evidence" => readiness_evidence.merge(
       "pdf_tracks_present" => tracks.values.all? { |track| track["present"] == true },
       "pdf_tracks_rendered" => tracks.values.all? { |track| track["present"] == true },
-      "pdf_tracks" => tracks,
-      "completion_readiness" => {
-        "status" => "ready",
-        "submission_ready" => true,
-        "candidate_count" => 0,
-        "candidates" => []
-      }
+      "pdf_tracks" => tracks
     )
   )
   readiness = PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement.assessment(
     ROOT,
     overrides: {
       PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement::EXPORT_STATUS_PATH => provisional_payload
-    }
+    },
+    ignore_export_submission_ready_flag: true
   )
   readiness_evidence = readiness_evidence.merge(
     "pdf_tracks_present" => tracks.values.all? { |track| track["present"] == true },
