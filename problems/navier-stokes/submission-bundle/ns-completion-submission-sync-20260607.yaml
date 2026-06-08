@@ -17,61 +17,62 @@ pdf_tracks:
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     present: true
-    sha1: 25897b0b7c7458d1542e1b3ac7f1b3aaeb2f38fc
-    bytes: 3902979
+    sha1: 3a5f07e2d6953c4a65c7b2d42a0764bd167fae22
+    bytes: 3904915
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
     role: preferred problems/** app-aligned human submission track
     required_for_clay_submission: true
   codex_machine_paper:
     path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
     present: true
-    sha1: 8898bf280a6664718649143102b176e84b56cfc1
-    bytes: 3900623
+    sha1: 348264c79f7d4d8fdd46b2876d21a701f8f7f419
+    bytes: 3904462
     manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
     role: papers/** Codex-owned machine paper track
     required_for_clay_submission: true
 human_pdf:
   path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   present: true
-  sha1: 25897b0b7c7458d1542e1b3ac7f1b3aaeb2f38fc
-  bytes: 3902979
+  sha1: 3a5f07e2d6953c4a65c7b2d42a0764bd167fae22
+  bytes: 3904915
 manuscript_tex:
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   present: true
-  sha1: 91974a309b0ff5d4a9e0f8ac822a2b3e33e28c1a
-  bytes: 77866
+  sha1: 35dac7d5a969e773b37bcbe78699923d6be3b192
+  bytes: 79311
 verdict_alignment:
   root_verdict_synced: true
   bundle_verdict_synced: true
   export_status_synced: true
   submission_ready: false
   blocking_reason: 'Navier-Stokes completion readiness is blocked by 1 unresolved
-    candidate(s): submission-verdict-nested-readiness-conflict.'
+    candidate(s): papers-navier-stokes-child-repo-dirty.'
   readiness_evidence:
     source_frontier_clear: true
     open_d8_proof_blockers: 0
     completion_candidate_count: 1
     completion_candidates:
-    - candidate_id: submission-verdict-nested-readiness-conflict
-      kind: submission_verdict
-      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
-      evidence: top_ready=true nested_submission_ready=false
-      required_action: Nested paper-quality alignment still denies submission readiness.
+    - candidate_id: papers-navier-stokes-child-repo-dirty
+      kind: child_paper_repo
+      surface: papers/navier-stokes
+      evidence: M build/output/authoritative-edge/navier-stokes.pdf; M manuscript/generated/main.tex
+      required_action: The Codex-owned papers/** PDF track has uncommitted TeX/PDF
+        state outside the root repo.
     pdf_tracks_present: true
     pdf_tracks:
       human_app_aligned:
         path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
         present: true
-        sha1: 25897b0b7c7458d1542e1b3ac7f1b3aaeb2f38fc
-        bytes: 3902979
+        sha1: 3a5f07e2d6953c4a65c7b2d42a0764bd167fae22
+        bytes: 3904915
         manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
         role: preferred problems/** app-aligned human submission track
         required_for_clay_submission: true
       codex_machine_paper:
         path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
         present: true
-        sha1: 8898bf280a6664718649143102b176e84b56cfc1
-        bytes: 3900623
+        sha1: 348264c79f7d4d8fdd46b2876d21a701f8f7f419
+        bytes: 3904462
         manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
         role: papers/** Codex-owned machine paper track
         required_for_clay_submission: true
