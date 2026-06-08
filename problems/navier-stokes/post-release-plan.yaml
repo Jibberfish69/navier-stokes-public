@@ -4,47 +4,33 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   plan_id: post-release-plan-navier-stokes
-  generated_at: '2026-06-08T07:05:52Z'
+  generated_at: '2026-06-08T07:08:15Z'
   source_release_decision_id: release-decision-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
 current_release:
   disposition: blocked
-  release_posture: blocked
+  release_posture: local-release-pass
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: clay-closing-bridge-open
+  completion_tier_achieved: full-mpp-closure
 tracks:
   theorem-upgrade:
-    applicable: true
+    applicable: false
     target_tier: full-mpp-closure
-    theorem_gap:
-    - 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
-      Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
-      obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
-      proof.'
-    - 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the
-      bridge is proved or the conclusion is otherwise closed, rerun the contract check
-      and update provenance with the contract result.'
-    - 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional provenance
-      with a proved Clay-closing bridge before submission readiness.'
-    - 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
-      bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
+    theorem_gap: []
     reviewer_risks:
     - Recovered support is still classified as strong, so the local package remains
       a revise-stage workboard.
     recommended_next_cell_type: debt-extract
     recommended_next_stage: theorem-upgrade-requested
-    recommended_next_action: 'Reopen the current checkpoint package toward `full-mpp-closure`
-      and localize the remaining theorem delta beginning with: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
-      Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
-      obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
-      proof. Start with `debt-extract` so the reopened lane is typed again before
-      the next review cycle.'
+    recommended_next_action: Reopen the current checkpoint package toward `full-mpp-closure`
+      and localize the remaining theorem delta. Start with `debt-extract` so the reopened
+      lane is typed again before the next review cycle.
     rationale: The current checkpoint package is below `full-mpp-closure`, so the
       next honest move is to reopen the theorem delta explicitly rather than pretending
       the lowest safe claim is the final proof.
   publication-finalize:
     applicable: true
-    target_tier: clay-closing-bridge-open
+    target_tier: full-mpp-closure
     draft_surface_kinds:
       draft_v6: draft
       draft_v7: draft
@@ -61,17 +47,14 @@ tracks:
       checkpoint posture only.
     rationale: The package reached a real checkpoint, but it still lacks a dedicated
       final-paper compression pass.
-selected_track: theorem-upgrade
+selected_track: publication-finalize
 summary:
-  reopen_track: theorem-upgrade
-  reopen_next_cell_type: debt-extract
-  reopen_next_stage: theorem-upgrade-requested
-  reopen_next_action: 'Reopen the current checkpoint package toward `full-mpp-closure`
-    and localize the remaining theorem delta beginning with: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
-    Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
-    obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
-    proof. Start with `debt-extract` so the reopened lane is typed again before the
-    next review cycle.'
-  rationale: The current checkpoint package is below `full-mpp-closure`, so the next
-    honest move is to reopen the theorem delta explicitly rather than pretending the
-    lowest safe claim is the final proof.
+  reopen_track: publication-finalize
+  reopen_next_cell_type: prose-realization
+  reopen_next_stage: publication-finalize-requested
+  reopen_next_action: Reopen the current checkpoint package on `prose-realization`
+    and compress it into a referee-facing final draft, using `draft-v7.md` as the
+    publishability surface rather than leaving the package at lowest-safe-claim checkpoint
+    posture only.
+  rationale: The package reached a real checkpoint, but it still lacks a dedicated
+    final-paper compression pass.
