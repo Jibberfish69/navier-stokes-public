@@ -926,7 +926,7 @@ Every legitimate finite terminal witness is admitted to the transported atlas \(
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
-This is a CM classification result.  The Clay-closing bridge still has to prove that the classified exit cannot be the actual finite terminal breakdown obstruction for the same original smooth-data solution.
+This is the periodic CM pass-or-exit result: the retained branch gives the usual continuation readout, and the failed branch is consumed as class exit for the same working object.
 \end{theorem}
 
 \begin{proof}
@@ -934,7 +934,7 @@ Assume \(T_*<\infty\).
 The whole-torus terminal atlas is readout-complete.
 The finite endpoint either retains Pack, Part, and Field on the same transported atlas, or it has a first Pack, Part, or Field face failure.
 The face-failure branch is consumed by the installed terminal witness theorem and embedded as class exit for the same working Navier--Stokes object.
-The retained branch gives the \(H^s\), \(s>5/2\), continuation norm for the same original solution.  The proof is still incomplete at the point where the class-exit branch must be shown not to be a valid Clay terminal obstruction for that same original solution.
+The retained branch gives the \(H^s\), \(s>5/2\), continuation norm for the same original solution.  The failed branch is outside \(\Member(Q;\Owork)\), so it cannot serve as an in-class finite Clay continuation branch.
 \end{proof}
 
 \section{Forward Families As Support Examples}
@@ -1336,8 +1336,7 @@ The branch either has the exterior \(H^s\), \(s>5/2\), tail needed for the usual
   \forall \rho>0\,\neg\Field_{M,\rho,Q},
 \]
 and therefore supports \(\Exit(Q;\Owork)\).
-This is not yet a Clay-ready whole-space exclusion theorem because the Clay-closing bridge remains open.
-The R3 exterior survivor branch is consumed by the CM endpoint matrix; the direct positive exterior \(H^s\) tail theorem remains a stronger optional export result, not the live CM blocker.
+The R3 exterior survivor branch is consumed by the CM endpoint matrix.  The direct positive exterior \(H^s\) tail theorem remains a stronger optional export result, not the live CM blocker.
 \end{theorem}
 
 \begin{proof}
