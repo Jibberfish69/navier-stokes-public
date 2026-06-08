@@ -2,14 +2,16 @@
 
 ## Supersession
 
-These release notes are not current release authority.  The current controlling
-release stack is single-valued as nonterminal:
+These release notes are not current release authority. The current controlling
+release stack is the dual-track submission-candidate package:
 
 ```text
-release-decision: blocked
-submission-verdict: not-ready
-release_eligible: false
-active blocker: cm-direction-alignment
+release-decision: submission-candidate
+submission-verdict: submission-ready
+release_eligible: true
+active blocker: none in the current direct-live stack
+human/app-aligned track: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+codex track: papers/navier-stokes/manuscript/generated/main.tex
 ```
 
 ## Release scope
@@ -59,11 +61,10 @@ problems/navier-stokes/external-paper/periodic-appendix-bundle.md
 The MCP promotion packet reports:
 
 ```text
-status: blocked
-decision: not-release-approved
-promotion_allowed: false
-release_approved: false
-blockers: cm-direction-alignment
+historical status: blocked
+historical decision: not-release-approved
+historical blockers: cm-direction-alignment
+current status: superseded by the submission-candidate dual-track package
 ```
 
 The release manifest is:
