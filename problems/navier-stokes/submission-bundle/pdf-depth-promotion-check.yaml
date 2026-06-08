@@ -1,9 +1,9 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-07T23:21:35Z'
-started_at: '2026-06-07T23:21:18Z'
-status: passed
+generated_at: '2026-06-08T00:05:21Z'
+started_at: '2026-06-08T00:05:03Z'
+status: failed
 purpose: Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into
   the submission TeX/PDF path, and fail unless both required PDF tracks visibly carry
   the proof-depth anchors.
@@ -47,32 +47,25 @@ commands:
   argv:
   - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
   - problems/navier-stokes/tools/check_pdf_output_topology.rb
-  success: true
-  exitstatus: 0
-  stdout_tail: 'PDF_OUTPUT_TOPOLOGY OK: human/app-aligned PDF problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-    and papers/Codex PDF papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-    are both required Navier-Stokes Clay paper tracks.'
-  stderr_tail: ''
+  success: false
+  exitstatus: 1
+  stdout_tail: ''
+  stderr_tail: |-
+    submission readiness evidence human_app_aligned track points to (none), expected problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    submission readiness evidence human_app_aligned sha1 is stale or missing
+    submission readiness evidence human_app_aligned byte count is stale
+    submission readiness evidence codex_machine_paper track points to (none), expected papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    submission readiness evidence codex_machine_paper sha1 is stale or missing
+    submission readiness evidence codex_machine_paper byte count is stale
 export_result:
 gates:
-- gate_id: current-material-coverage-complete
-  status: passed
-  checked_text_files_outside_existing_union: 186
-  family_count_sum: 186
-  errors: []
-- gate_id: source-depth-appendices-materialized-in-tex
-  status: passed
-  source_field_word_count: 411594
-  surface_derivation_expansion_rows: 3804
-  main_tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-  errors: []
-- gate_id: dual-pdf-track-rendered-depth-readback
-  status: passed
-  preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-  pdf_tracks:
-    human_app_aligned: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-    codex_machine_paper: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-  papers_pdf_pages: 1035
-  human_pdf_pages: 1073
-  sha256: a22575c5ee9cb5ef1f7b60feda97c60ec23e608df0bc4e124a99bfcf6d3746e7
-  errors: []
+- gate_id: runner-exception
+  status: failed
+  errors:
+  - |-
+    PDF output topology failed: submission readiness evidence human_app_aligned track points to (none), expected problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    submission readiness evidence human_app_aligned sha1 is stale or missing
+    submission readiness evidence human_app_aligned byte count is stale
+    submission readiness evidence codex_machine_paper track points to (none), expected papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    submission readiness evidence codex_machine_paper sha1 is stale or missing
+    submission readiness evidence codex_machine_paper byte count is stale
