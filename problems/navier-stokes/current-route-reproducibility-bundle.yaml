@@ -3,11 +3,21 @@ version: 3
 artifact_id: navier-stokes-current-route-reproducibility-bundle-20260505
 generated_at: '2026-05-05T19:25:00Z'
 generated_by: codex-chat26
-status: lane-local-reproducibility-overlay
+status: historical-reproducibility-overlay
 scope: problems/navier-stokes
 purpose: >-
-  Index the current theorem-facing Navier-Stokes route artifacts, hashes, and
-  known release blocker after SourceWall.Reconcile.A was resolved by demotion.
+  Historical index of theorem-facing Navier-Stokes route artifacts and the May 5
+  source-wall/governance blocker state. It is retained as evidence, not as current
+  release authority.
+current_authority_status:
+  status: superseded-by-dual-track-submission-candidate
+  checked_at: '2026-06-08T04:35:02Z'
+  controlling_surfaces:
+    - problems/navier-stokes/release-decision.yaml
+    - problems/navier-stokes/submission-verdict.yaml
+    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
+  current_release_status: submission-candidate
+  current_blocker_count: 0
 theorem_posture:
   cm_bridge:
     status: installed
@@ -48,12 +58,11 @@ theorem_posture:
       they do not lower the source wall below ScaleCriticalTreeCarleson.A or
       the Zeno rigid-class pair.
   release:
-    status: blocked-by-shared-builder-drift
-    blocker: governance-escalation.yaml
+    status: superseded-by-dual-track-submission-candidate
+    historical_blocker: governance-escalation.yaml
     current_governance_issue: >-
-      Shared formalization/theorem-repair routing must recognize
-      CM.CrossFaceSynthesis.A as installed and route the lane back to
-      source-wall-root-after-reconcile.
+      Historical May 5 routing issue. Current release, submission, and export
+      surfaces agree on a rendered dual-track submission candidate.
 hashes:
   - path: live-theorem-edge.yaml
     sha256: b03dd32ec58a041174a683f0dbba287e4abc2b2df30ca28d3fd001ab855447ca
@@ -169,7 +178,8 @@ validation:
 boundary:
   - >-
     This bundle is lane-local and theorem-facing. It does not claim that
-    generated theorem-packet/review/submission/release surfaces have been fixed.
+    generated theorem-packet/review/submission/release surfaces are governed by
+    this May 5 snapshot.
   - >-
-    Release-ready status remains blocked until shared routing recognizes the
-    installed cross-face bridge and consumes the reopened source-wall root.
+    Release-ready status is now governed by the current direct-live stack and the
+    dual-track submission export status.
