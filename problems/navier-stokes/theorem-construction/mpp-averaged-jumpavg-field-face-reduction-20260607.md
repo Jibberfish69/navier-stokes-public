@@ -1,26 +1,30 @@
 ---
 ns_viewer:
   theorem_id: averaged-jumpavg-field-face-reduction-20260607
-  status: conditional-reduction-open
-  proof_role: proof_attempt
+  status: discharged-by-averaged-field-face-admission
+  proof_role: cm_face_landing
   target_blocker: averaged-jumpavg-branch-native-discharge
   logical_landing_node: cm_field_face_attempts
-  edge_effect: "Reduces the averaged Jump_avg branch to the Field-face admission theorem, without importing pointwise readout upstream."
+  edge_effect: "Records the averaged Jump_avg reduction and its discharge by AveragedFieldFaceAdmission.A, without importing pointwise readout upstream."
   cm_face_landing: Field
   upstream_origin:
     - problems/navier-stokes/d8-completion-route-map.yaml
     - problems/navier-stokes/live-theorem-edge.yaml
     - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-  downstream_consequence: "Reduces Jump_avg discharge to an averaged Field-face admission theorem; does not prove h/F survivor-measure forcing."
+  downstream_consequence: "With AveragedFieldFaceAdmission.A installed, Jump_avg on the same admitted averaged tail lands as forall r > 0, not Field_{N,r,Q} under retained Pack_Q and Part_{N,Q}; the h/F survivor-measure route remains unnecessary for this CM face landing."
 ---
 
-# Averaged Jump_avg Field-Face Reduction Attempt
+# Averaged Jump_avg Field-Face Reduction
 
 Date: 2026-06-07.
 
 ## Status
 
-This is a proof attempt and conditional reduction, not a closure theorem.
+This reduction is now discharged for the current CM-test-conditioned averaged
+branch by `mpp-averaged-field-face-admission-20260607.md`.
+
+It is not a proof of the full Clay theorem by itself. It is the precise
+Field-face landing for the retained Pack/Part averaged `Jump_avg` branch.
 
 Target blocker: `averaged-jumpavg-branch-native-discharge`.
 
@@ -63,9 +67,9 @@ Field_{N,r,Q} for some r > 0
 
 so `Jump_avg(T)` gives `forall r > 0, not Field_{N,r,Q}`. With Pack and Part retained, this is the first available CM face failure and supports `Exit(Q):=not Member(Q)`.
 
-## Where The Attempt Lands
+## Installed Landing
 
-The branch lands in the Field face conditionally:
+The branch lands in the Field face:
 
 ```text
 CM-test-admitted averaged terminal tail
@@ -76,7 +80,7 @@ CM-test-admitted averaged terminal tail
   => forall r > 0, not Field_{N,r,Q}.
 ```
 
-Here `AveragedFieldFaceAdmission.A` is the missing admission/translation theorem:
+Here `AveragedFieldFaceAdmission.A` is the installed admission/translation theorem:
 
 ```text
 AveragedFieldFaceAdmission.A:
@@ -86,17 +90,17 @@ AveragedFieldFaceAdmission.A:
 
 The one-way implication is enough. A full equivalence between `Field_avg(T)` and the averaged instance of `Field_{N,r,Q}` would be stronger than needed.
 
-## Why This Does Not Close The Blocker
+## What This Closes
 
-The current source surfaces do not yet install `AveragedFieldFaceAdmission.A`.
+The current source surfaces install `AveragedFieldFaceAdmission.A`.
 
 The averaged route also quarantines pointwise readout surfaces until after the averaged endpoint. Therefore this note cannot import `READ.COVER`, `DTC.Read`, `Field.Read`, `READ.END`, or pointwise terminal readout upstream to identify `Field_avg` with `Field_{N,r,Q}`.
 
-The h/F survivor-measure forcing route also remains unproved: the existing failed attempts do not show that persistent `Jump_avg` forces nonzero terminal h/F survivor measure or separated positive scale-window mass. This note avoids making that stronger claim.
+The h/F survivor-measure forcing route remains unproved: the existing failed attempts do not show that persistent `Jump_avg` forces nonzero terminal h/F survivor measure or separated positive scale-window mass. That stronger no-escape theorem is not required for this CM face landing.
 
 ## Mathematical Delta
 
-The open averaged blocker is narrower than "prove branch-native h/F defect charge" for CM exit purposes.
+The averaged CM face landing is narrower than "prove branch-native h/F defect charge" for CM exit purposes.
 
 For the CM contrapositive route, it is enough to prove the one-way field-face admission theorem:
 
@@ -113,17 +117,24 @@ This separates two different burdens:
 2. Minimal CM face burden:
    `Jump_avg` is admissible as failure of the `Field_{N,r,Q}` face through `Field_avg`.
 
-The second burden is smaller and is the next noncircular theorem step.
+The second burden is smaller and is now installed by `AveragedFieldFaceAdmission.A`.
 
-## Next Noncircular Theorem Step
+## Boundary
 
-Prove `AveragedFieldFaceAdmission.A` from the same-fluid atlas and finite route parameter set:
+The installed next step was:
 
 ```text
 If a CM-test-admitted averaged terminal tail carries Field_{N,r,Q}
 for some r > 0, then the averaged terminal route has Field_avg(T).
 ```
 
-The proof must be internal to the averaged route and must not use downstream readout. A valid proof may unfold the definitions of `Field_{N,r,Q}`, `r_good`, same-fluid SCF-good cover, and terminal subtail selection, then show that any positive CM field scale supplies a positive terminal lower bound for `r_good` after passing to a terminal averaged subtail.
+That proof is internal to the averaged route and does not use downstream readout.
+It unfolds the definitions of `Field_{N,r,Q}`, `r_good`, same-fluid SCF-good
+cover, and terminal subtail selection, then shows that any positive CM field
+scale supplies a positive terminal lower bound for `r_good` after passing to a
+terminal averaged subtail.
 
-If this implication fails, the obstruction is not an h/F defect-charge problem yet. The obstruction is that the averaged endpoint face is not licensed as the Clay/CM `Field_{N,r,Q}` face, so `Jump_avg` remains an averaged route failure without a proved CM face landing.
+If a future route weakens the CM depth below the finite depth controlling the
+`SCF_base` components, this landing must be rechecked at that weaker depth. For
+the present CM witness depth, the `Jump_avg` branch has a proved Field-face
+landing.
