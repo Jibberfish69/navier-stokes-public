@@ -187,7 +187,7 @@ FAMILIES = [
   },
   {
     "id" => "proof_irrelevant_build_or_provenance_surfaces",
-    "paper_representation" => "Build tooling, source-forensics tooling/manifests, alignment and viewer-topology metadata, and the retired ground-up target reference are not theorem material. The manuscript names their role only as provenance, export, target-custody, navigation, or build support.",
+    "paper_representation" => "Build tooling, source-forensics tooling/manifests, review/readthrough criticism inventories, alignment and viewer-topology metadata, and the retired ground-up target reference are not theorem material. The manuscript names their role only as provenance, export, target-custody, navigation, review, or build support.",
     "files" => %w[
       ns-visual-branch-depth-audit-20260531.yaml
       tools/build_forward_positive_surface_quarantine.rb
@@ -196,6 +196,7 @@ FAMILIES = [
       source-forensics/ns-lived-sequence-history.md
       source-forensics/build_master_extraction.py
       misalignment.json
+      review/human-submission-pdf-readthrough-criticism-inventory-2026-06-08.md
       submission-bundle/authorial-structure-pass-20260526.md
       submission-bundle/ground-up-target-reference.md
     ]
