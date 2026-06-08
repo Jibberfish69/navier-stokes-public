@@ -1,3 +1,14 @@
+---
+ns_viewer:
+  theorem_id: field-failure-realization-proof-method-audit-20260607
+  status: proof-route-sharpened
+  proof_role: proof_method_audit
+  logical_landing_node: cm_field_face_attempts
+  edge_effect: "Separates the continuation-strength good-scale noncollapse route from the smaller Field-specific realization-as-Jump route."
+  upstream_origin: "June 7 Field-face working pass and ClayFieldFailureRealization.A."
+  downstream_consequence: "Use the realization route for the current Field row; leave direct positive Field-scale noncollapse as a stronger optional theorem."
+---
+
 # MPP Field Failure Realization Proof-Method Audit
 
 Date: 2026-06-07
