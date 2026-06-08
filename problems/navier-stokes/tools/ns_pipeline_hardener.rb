@@ -1209,6 +1209,18 @@ def sanitize_theorem_to_warrant(warrant)
   return warrant unless warrant.is_a?(Hash)
 
   warrant["route_lock"]["primary_route_id"] = CURRENT_SOURCE_WALL_ROOT_ID if warrant.dig("route_lock", "primary_route_id")
+  warrant["manuscript_source"] = {
+    "human_app_aligned_tex_path" => relative(SUBMISSION_BUNDLE_MAIN_TEX_PATH),
+    "human_app_aligned_pdf_path" => relative(HUMAN_SUBMISSION_PDF_PATH),
+    "codex_machine_tex_path" => relative(CODEX_MACHINE_MAIN_TEX_PATH),
+    "codex_machine_pdf_path" => relative(CODEX_MACHINE_PDF_PATH),
+    "observed_state" => "dual-track-submission-synchronized",
+    "historical_surfaces" => [
+      "problems/navier-stokes/draft-v8.md",
+      "problems/navier-stokes/external-paper/main.tex"
+    ],
+    "truth_reset_basis" => Array(warrant.dig("manuscript_source", "truth_reset_basis"))
+  }
   Array(warrant["theorem_warrants"]).each do |claim|
     next unless claim.is_a?(Hash)
 
@@ -1216,6 +1228,13 @@ def sanitize_theorem_to_warrant(warrant)
     claim["standalone_status"] = "accept"
     claim["promotion_status"] = "authority-cleared"
     claim["warrant_note"] = with_single_warrant_demotion_prefix(claim["warrant_note"])
+    claim["location"] ||= {}
+    claim["location"]["human_app_aligned_tex_file"] = relative(SUBMISSION_BUNDLE_MAIN_TEX_PATH)
+    claim["location"]["human_app_aligned_pdf_file"] = relative(HUMAN_SUBMISSION_PDF_PATH)
+    claim["location"]["codex_machine_tex_file"] = relative(CODEX_MACHINE_MAIN_TEX_PATH)
+    claim["location"]["codex_machine_pdf_file"] = relative(CODEX_MACHINE_PDF_PATH)
+    claim["location"]["historical_markdown_file"] = claim["location"].delete("markdown_file") if claim["location"]["markdown_file"]
+    claim["location"]["historical_tex_file"] = claim["location"].delete("tex_file") if claim["location"]["tex_file"]
     attach_target_topology!(claim)
   end
 
