@@ -1,3 +1,14 @@
+---
+ns_viewer:
+  theorem_id: generic-pack-part-face-exclusion-blocker-demotion-20260607
+  status: installed-target-repair
+  proof_role: blocker_demotion
+  logical_landing_node: clay_cm_contrapositive_witness_consumption
+  edge_effect: "Demotes generic Pack/Part no-face-exclusion as the wrong local CM target and restores finite-obstruction inventory coverage as the current proof gate."
+  upstream_origin: "June 3 counterexample-exclusion target correction plus June 7 Pack/Part working passes."
+  downstream_consequence: "The current route remains on row-level same-witness CM entry and Pack/Part/Field certification, with no generic Pack/Part global blocker open."
+---
+
 # MPP Generic Pack/Part Face-Exclusion Blocker Demotion
 
 Date: 2026-06-07
