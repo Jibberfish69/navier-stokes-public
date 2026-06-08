@@ -8,9 +8,11 @@ BUNDLE_ROOT = ROOT.join("problems/navier-stokes/submission-bundle")
 MAIN_TEX = BUNDLE_ROOT.join("navier-stokes-submission.tex")
 SURFACE_APPENDIX = BUNDLE_ROOT.join("surface-derivation-appendix.tex")
 SOURCE_FIELD_APPENDIX = BUNDLE_ROOT.join("source-field-reader-appendix.tex")
+SOURCE_FORENSICS_ROOT = ROOT.join("problems/navier-stokes/source-forensics")
 PROOF_ATTEMPT_MIN_SOURCE_WORDS = 19_000
 SOURCE_FIELD_MIN_SOURCE_WORDS = 300_000
 MAX_REPEATED_APPENDIX_BLOCK = 25
+SECRET_TOKEN_PATTERN = /\b(?:sk-(?:proj-)?[A-Za-z0-9_-]{20,}|OPENAI_API_KEY=(?:"sk-[^"\s]+"|'sk-[^'\s]+'))\b/.freeze
 
 FORBIDDEN_VISIBLE_PATTERNS = {
   "internal path string" => %r{problems/navier-stokes|submission-bundle|source-forensics|theorem-construction|system/runner},
@@ -246,7 +248,23 @@ def scan_source_field_prose_residue(path, visible, errors)
   end
 end
 
+def scan_for_secret_literals(root, errors)
+  return unless root.exist?
+
+  root.find do |path|
+    next unless path.file?
+    next if path.extname.empty? || [".md", ".txt", ".yaml", ".yml", ".json", ".tex"].include?(path.extname)
+
+    path.read.each_line.with_index(1) do |line, line_no|
+      next unless line.match?(SECRET_TOKEN_PATTERN)
+
+      errors << "#{path.relative_path_from(ROOT)}:#{line_no}: source forensics contains an unredacted secret literal"
+    end
+  end
+end
+
 errors = []
+scan_for_secret_literals(SOURCE_FORENSICS_ROOT, errors)
 
 [MAIN_TEX].each do |path|
   next unless path.exist?
