@@ -1,0 +1,547 @@
+---
+version: 1
+artifact_id: nightly-six-mpp-ns-completion-engine-2026-06-07
+status: active
+date: '2026-06-07'
+generated_at: '2026-06-08T04:53:37Z'
+engine_goal: complete the NS repo/app/graph/PDF proof system
+governing_program:
+  proof_program: CM contrapositive class exit
+  primitive: Exit(Q):=not Member(Q)
+  witness_tree:
+  - Pack_Q
+  - Part_{N,Q}
+  - Field_{N,r,Q}
+  target_burden: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
+    / ClayCMContrapositiveEmbedding.A
+project_model:
+  model_id: ns-whole-project-completion-model
+  model_rule: The proof repo, theorem graph, app/MCP route, manuscript/PDF, and submission
+    state are one completion object; a local task only counts after its result re-enters
+    adjacent layers.
+  layers:
+  - layer_id: proof_repo
+    layer_name: repo proof state
+    state_refs:
+    - problems/navier-stokes/source-frontier.yaml
+    - problems/navier-stokes/live-theorem-edge.yaml
+    - problems/navier-stokes/ns-proof-program-route-table.yaml
+    state_refs_present:
+    - problems/navier-stokes/source-frontier.yaml
+    - problems/navier-stokes/live-theorem-edge.yaml
+    - problems/navier-stokes/ns-proof-program-route-table.yaml
+    state_refs_missing: []
+    observed_state: 'Proof frontier present: problems/navier-stokes/source-frontier.yaml,
+      problems/navier-stokes/live-theorem-edge.yaml, problems/navier-stokes/ns-proof-program-route-table.yaml'
+  - layer_id: theorem_graph
+    layer_name: theorem graph
+    state_refs:
+    - problems/navier-stokes/current-route-dependency-graph.yaml
+    - problems/navier-stokes/d8-completion-route-map.yaml
+    state_refs_present:
+    - problems/navier-stokes/current-route-dependency-graph.yaml
+    - problems/navier-stokes/d8-completion-route-map.yaml
+    state_refs_missing: []
+    observed_state: 'Route graph present: problems/navier-stokes/current-route-dependency-graph.yaml,
+      problems/navier-stokes/d8-completion-route-map.yaml'
+  - layer_id: app_viewer_mcp
+    layer_name: app, viewer, and MCP route state
+    state_refs:
+    - system/gui/navier-stokes-repo-viewer/src/nsAnalysis.ts
+    - system/gui/navier-stokes-repo-viewer/server.mjs
+    - system/runner/lib/research_os_live_state_support.rb
+    - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+    state_refs_present:
+    - system/gui/navier-stokes-repo-viewer/src/nsAnalysis.ts
+    - system/gui/navier-stokes-repo-viewer/server.mjs
+    - system/runner/lib/research_os_live_state_support.rb
+    - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+    state_refs_missing: []
+    observed_state: 'App/MCP route surfaces present: system/gui/navier-stokes-repo-viewer/src/nsAnalysis.ts,
+      system/gui/navier-stokes-repo-viewer/server.mjs, system/runner/lib/research_os_live_state_support.rb,
+      system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml'
+  - layer_id: manuscript_pdf
+    layer_name: manuscript and PDF
+    state_refs:
+    - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    - problems/navier-stokes/submission-bundle/reader-facing-abstract-intro-checklist.md
+    - problems/navier-stokes/paper-architecture.yaml
+    state_refs_present:
+    - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    - problems/navier-stokes/submission-bundle/reader-facing-abstract-intro-checklist.md
+    - problems/navier-stokes/paper-architecture.yaml
+    state_refs_missing: []
+    observed_state: 'Reader-facing manuscript/PDF surfaces present: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex,
+      problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf,
+      problems/navier-stokes/submission-bundle/reader-facing-abstract-intro-checklist.md,
+      problems/navier-stokes/paper-architecture.yaml'
+  - layer_id: submission_state
+    layer_name: submission state
+    state_refs:
+    - problems/navier-stokes/submission-verdict.yaml
+    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
+    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
+    state_refs_present:
+    - problems/navier-stokes/submission-verdict.yaml
+    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
+    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
+    state_refs_missing: []
+    observed_state: 'Submission state: blocked; pdf_render_status=rendered; blockers=6'
+    readiness_assessment:
+      status: blocked
+      submission_ready: false
+      candidate_count: 6
+      candidates:
+      - candidate_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
+        kind: clay_closing_gap
+        surface: papers/navier-stokes/review/codex-gap-attack-log.yaml
+        evidence: Clay-closing bridge from classified class exit to contradiction
+        required_action: Prove that an Exit(Q;O_work) record cannot be the actual
+          finite terminal Clay obstruction, or replace the closing argument with a
+          noncircular endpoint compactness/minimal-counterexample proof.
+      - candidate_id: codex-gap-attack-log:r3-exterior-high-order-tail-closure
+        kind: clay_closing_gap
+        surface: papers/navier-stokes/review/codex-gap-attack-log.yaml
+        evidence: R3 exterior high-order tail closure
+        required_action: Either prove a direct noncircular R3 H^s tail theorem or
+          strengthen dyadic survivor face landing into an accepted whole-space endpoint
+          exclusion.
+      - candidate_id: codex-gap-attack-log:terminal-record-entry-referee-hardening
+        kind: clay_closing_gap
+        surface: papers/navier-stokes/review/codex-gap-attack-log.yaml
+        evidence: terminal-record entry referee hardening
+        required_action: Tighten the entry theorem so the Clay negation itself, stated
+          in standard PDE language, supplies the same-solution record without relying
+          on internal CM terminology.
+      - candidate_id: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
+        kind: clay_closing_gap
+        surface: papers/navier-stokes/review/codex-gap-attack-log.yaml
+        evidence: contract readiness after manuscript expansion
+        required_action: After the bridge is proved or the conclusion is otherwise
+          closed, rerun the contract check and update provenance with the contract
+          result.
+      - candidate_id: codex-pdf-provenance:clay-readiness-not-claimed
+        kind: clay_closing_gap
+        surface: papers/navier-stokes/review/authoritative-pdf-provenance-2026-06-07.md
+        evidence: Clay readiness is not claimed; Clay-closing bridge remains conditional.
+        required_action: Replace the conditional provenance with a proved Clay-closing
+          bridge before submission readiness.
+      - candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
+        kind: clay_closing_gap
+        surface: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
+        evidence: Clay finite-breakdown exclusion is open; full Clay-ready proof is
+          not established.
+        required_action: Prove the Clay-closing bridge or replace the closing argument
+          with a noncircular finite-breakdown exclusion.
+      checks:
+        route_candidates: 0
+        d8_candidates: 0
+        live_edge_candidates: 0
+        verdict_conflicts: 0
+        child_paper_repo_candidates: 0
+        manuscript_unresolved_candidates: 0
+        source_frontier_candidates: 0
+        route_state_agreement_candidates: 0
+        submission_verdict_agreement_candidates: 0
+        pdf_track_candidates: 0
+        current_material_candidates: 0
+        clay_closing_gap_candidates: 6
+        stale_readiness_ref_candidates: 0
+      pdf_tracks_rendered: true
+      pdf_render_status:
+        status: rendered
+        rendered: true
+        tracks:
+          human_app_aligned:
+            path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+            present: true
+            sha1: 5dc2ea248eaf831cfac7981fd9ded56ddbab8abe
+            bytes: 3933447
+            manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+            required_for_clay_submission: true
+          codex_machine_paper:
+            path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+            present: true
+            sha1: d4ec3c4f01805276cad830cee7e585d75fa750b9
+            bytes: 462897
+            manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
+            required_for_clay_submission: true
+        preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+      base_completion_readiness:
+        status: ready
+        submission_ready: true
+        candidate_count: 0
+        candidates: []
+        checks:
+          route_candidates: 0
+          d8_candidates: 0
+          live_edge_candidates: 0
+          verdict_conflicts: 0
+          child_paper_repo_candidates: 0
+          manuscript_unresolved_candidates: 0
+work_graph:
+  graph_id: ns-completion-work-graph
+  graph_rule: Derive executable work from the whole project model, not from one selected
+    note or a green ledger.
+  nodes:
+  - node_id: ns-cm-proof-frontier
+    layer_id: proof_repo
+    action_type: theorem_legitimacy_then_proof
+    work_kind: theorem
+    target_state: The CM contrapositive frontier is smaller, closed, or blocked by
+      a named Pack/Part/Field face.
+    dependencies: []
+    parallel_lane_id: proof_lane
+    expected_state_delta: A proof note, failed-attempt note, or exact blocker changes
+      the Navier-Stokes proof frontier itself.
+    current_state: Open CM contrapositive frontier under Exit(Q):=not Member(Q).
+    evidence_refs:
+    - problems/navier-stokes/source-frontier.yaml
+    - problems/navier-stokes/live-theorem-edge.yaml
+    - problems/navier-stokes/ns-proof-program-route-table.yaml
+    ready_state: ready-or-dependent-on-known-node
+  - node_id: ns-route-graph-app-sync
+    layer_id: app_viewer_mcp
+    action_type: route_graph_and_app_sync
+    work_kind: graph_app_mcp
+    target_state: The route graph, viewer, and MCP route readout expose the same live
+      CM target and next obstruction.
+    dependencies:
+    - ns-cm-proof-frontier
+    parallel_lane_id: graph_app_mcp_lane
+    expected_state_delta: A changed proof frontier is re-entered into graph/app/MCP
+      state instead of remaining an isolated theorem note.
+    current_state: Route graph/app/MCP must track the current proof frontier and next
+      obstruction.
+    evidence_refs:
+    - problems/navier-stokes/current-route-dependency-graph.yaml
+    - problems/navier-stokes/d8-completion-route-map.yaml
+    - system/gui/navier-stokes-repo-viewer/src/nsAnalysis.ts
+    - system/runner/lib/research_os_live_state_support.rb
+    ready_state: ready-or-dependent-on-known-node
+  - node_id: ns-pdf-proof-scaffold
+    layer_id: manuscript_pdf
+    action_type: reader_facing_proof_scaffold
+    work_kind: manuscript_pdf
+    target_state: The manuscript/PDF receives only theorem movement that is true enough
+      to write for a human referee.
+    dependencies:
+    - ns-cm-proof-frontier
+    - ns-route-graph-app-sync
+    parallel_lane_id: manuscript_lane
+    expected_state_delta: Earned proof movement becomes reader-facing proof structure,
+      while open blockers stay out of polished claims.
+    current_state: PDF/manuscript writing waits for earned proof movement and honest
+      blocker language.
+    evidence_refs:
+    - problems/navier-stokes/paper-architecture.yaml
+    - problems/navier-stokes/submission-bundle/reader-facing-abstract-intro-checklist.md
+    - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    ready_state: ready-or-dependent-on-known-node
+  - node_id: ns-submission-readiness
+    layer_id: submission_state
+    action_type: submission_boundary_check
+    work_kind: submission
+    target_state: Submission state changes only after proof truth and reader-facing
+      manuscript state actually support it.
+    dependencies:
+    - ns-cm-proof-frontier
+    - ns-pdf-proof-scaffold
+    parallel_lane_id: submission_lane
+    expected_state_delta: Submission readiness remains blocked, or advances from proof/PDF
+      evidence rather than from green support ledgers.
+    current_state: Submission state remains blocked until proof and reader-facing
+      manuscript state support it.
+    evidence_refs:
+    - problems/navier-stokes/submission-verdict.yaml
+    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
+    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
+    ready_state: ready-or-dependent-on-known-node
+  edges:
+  - from_node_id: ns-cm-proof-frontier
+    to_node_id: ns-route-graph-app-sync
+    reason: The downstream layer may use the result only after the upstream state
+      changes or records an exact blocker.
+  - from_node_id: ns-cm-proof-frontier
+    to_node_id: ns-pdf-proof-scaffold
+    reason: The downstream layer may use the result only after the upstream state
+      changes or records an exact blocker.
+  - from_node_id: ns-route-graph-app-sync
+    to_node_id: ns-pdf-proof-scaffold
+    reason: The downstream layer may use the result only after the upstream state
+      changes or records an exact blocker.
+  - from_node_id: ns-cm-proof-frontier
+    to_node_id: ns-submission-readiness
+    reason: The downstream layer may use the result only after the upstream state
+      changes or records an exact blocker.
+  - from_node_id: ns-pdf-proof-scaffold
+    to_node_id: ns-submission-readiness
+    reason: The downstream layer may use the result only after the upstream state
+      changes or records an exact blocker.
+parallel_lanes:
+- lane_id: proof_lane
+  role: theorem work
+  work_node_ids: &1
+  - ns-cm-proof-frontier
+  can_run_parallel: true
+  reentry_targets:
+  - project_model
+  - work_graph
+  - thomas-facing report
+  custody_boundary: Parent thread keeps theorem judgment; helpers may inspect sources
+    or draft bounded attempts.
+  dispatch_packet:
+    packet_id: proof_lane-dispatch
+    inputs:
+    - problems/navier-stokes/source-frontier.yaml
+    - problems/navier-stokes/live-theorem-edge.yaml
+    - problems/navier-stokes/ns-proof-program-route-table.yaml
+    work_node_ids: *1
+    allowed_outputs:
+    - theorem note
+    - failed attempt with exact blocker
+    - Pack/Part/Field face landing
+    done_condition: complete when the theorem node changes proof state or is exactly
+      blocked by a named mathematical obstruction
+    handoff_back: Handoff back with a changed-state ref, exact blocker, and next work-node
+      recommendation for parent-thread reentry.
+    forbidden_outputs:
+    - status-only completion
+    - support-only success
+    - theorem closure claim without Pack/Part/Field mechanism
+    - PDF/submission promotion without proof-state movement
+- lane_id: graph_app_mcp_lane
+  role: graph/app/MCP sync
+  work_node_ids: &2
+  - ns-route-graph-app-sync
+  can_run_parallel: true
+  reentry_targets:
+  - project_model
+  - work_graph
+  - thomas-facing report
+  custody_boundary: Helpers may inspect app and graph state; parent integrates route
+    meaning.
+  dispatch_packet:
+    packet_id: graph_app_mcp_lane-dispatch
+    inputs:
+    - problems/navier-stokes/current-route-dependency-graph.yaml
+    - problems/navier-stokes/d8-completion-route-map.yaml
+    - system/gui/navier-stokes-repo-viewer/src/nsAnalysis.ts
+    - system/runner/lib/research_os_live_state_support.rb
+    work_node_ids: *2
+    allowed_outputs:
+    - route graph update
+    - viewer route update
+    - MCP/live-state route update
+    done_condition: complete when changed proof state is visible in graph/app/MCP
+      route state or the sync blocker is exact
+    handoff_back: Handoff back with a changed-state ref, exact blocker, and next work-node
+      recommendation for parent-thread reentry.
+    forbidden_outputs:
+    - status-only completion
+    - support-only success
+    - theorem closure claim without Pack/Part/Field mechanism
+    - PDF/submission promotion without proof-state movement
+- lane_id: manuscript_lane
+  role: human proof writing
+  work_node_ids: &3
+  - ns-pdf-proof-scaffold
+  can_run_parallel: true
+  reentry_targets:
+  - project_model
+  - work_graph
+  - thomas-facing report
+  custody_boundary: Parent keeps authorial judgment; writing starts only from earned
+    proof movement.
+  dispatch_packet:
+    packet_id: manuscript_lane-dispatch
+    inputs:
+    - problems/navier-stokes/paper-architecture.yaml
+    - problems/navier-stokes/submission-bundle/reader-facing-abstract-intro-checklist.md
+    - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    work_node_ids: *3
+    allowed_outputs:
+    - reader-facing proof scaffold
+    - manuscript blocker note
+    - prose section only from earned proof movement
+    done_condition: complete when earned proof state has a human-facing scaffold or
+      the writing is blocked by missing proof
+    handoff_back: Handoff back with a changed-state ref, exact blocker, and next work-node
+      recommendation for parent-thread reentry.
+    forbidden_outputs:
+    - status-only completion
+    - support-only success
+    - theorem closure claim without Pack/Part/Field mechanism
+    - PDF/submission promotion without proof-state movement
+- lane_id: submission_lane
+  role: submission boundary
+  work_node_ids: &4
+  - ns-submission-readiness
+  can_run_parallel: true
+  reentry_targets:
+  - project_model
+  - work_graph
+  - thomas-facing report
+  custody_boundary: Submission state follows proof and manuscript evidence.
+  dispatch_packet:
+    packet_id: submission_lane-dispatch
+    inputs:
+    - problems/navier-stokes/submission-verdict.yaml
+    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
+    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
+    work_node_ids: *4
+    allowed_outputs:
+    - submission boundary readback
+    - blocked readiness state
+    - readiness promotion only from proof/PDF evidence
+    done_condition: complete when submission state follows proof/PDF evidence as ready
+      or blocked
+    handoff_back: Handoff back with a changed-state ref, exact blocker, and next work-node
+      recommendation for parent-thread reentry.
+    forbidden_outputs:
+    - status-only completion
+    - support-only success
+    - theorem closure claim without Pack/Part/Field mechanism
+    - PDF/submission promotion without proof-state movement
+theorem_legitimacy_prechecks:
+- precheck_id: ns-cm-proof-frontier-legitimacy
+  target_node_id: ns-cm-proof-frontier
+  problem_legitimacy_question: Is the proposed obstruction a legitimate mathematical
+    obstruction inside the CM exit-witness program, or a scope/definition error that
+    should be rejected before proof work starts?
+  ontology_check: 'Type the object before estimating it: finite breakdown assumption,
+    admissible CM test object, class-member predicate, Pack/Part/Field face, face
+    failure, or class-exit conclusion.'
+  human_scenario_or_counter_scenario: For the zero-radius vortex pattern, a vortex
+    squeezed to radius zero has stopped being a vortex in the human picture; that
+    can be a definition failure rather than a harder vortex theorem.
+  pass_side_nonvacuity_check: For each obstruction split, verify that the pass branch
+    has a genuine smooth/Member(Q) possibility and that the fail branch lands in a
+    concrete face.
+  face_landing_policy: Valid fail branches must land in Pack, Part, or Field with
+    the exact face named; illegitimate objects close by definition or scope.
+  allowed_proof_methods:
+  - contrapositive
+  - cases
+  - minimal counterexample
+  - compactness
+  - finite exhaustion
+  - ontology rejection
+  evidence_refs:
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/live-theorem-edge.yaml
+  - problems/navier-stokes/theorem-construction/chatgpt-terminal-zeno-vortex-ontology-verbatim-note-20260528.md
+reentry_loop:
+  status: active
+  loop_policy: repeat-until-complete-or-exactly-blocked
+  state_delta_detection:
+    rule: After a proof/app/graph/PDF/submission file changes, feed that changed state
+      back into the project model and regenerate executable work.
+    changed_state_refs:
+    - problems/navier-stokes/current-route-dependency-graph.yaml
+    - problems/navier-stokes/d8-completion-route-map.yaml
+    - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
+    - problems/navier-stokes/ns-completion-executor-route-sync-20260607.yaml
+    - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+    - problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+    - problems/navier-stokes/ns-logical-tree-bridge-reconciliation-20260607.yaml
+    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
+    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607.md
+    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
+    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607.yaml
+    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+    - problems/navier-stokes/theorem-construction/mpp-averaged-field-face-admission-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-averaged-jumpavg-field-face-reduction-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-averaged-receiver-no-upstream-readout-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-averaged-terminal-cover-common-scheduler-reentry-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-clay-field-face-exclusion-working-pass-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-clay-field-failure-realization-proof-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-clay-pack-face-exclusion-working-pass-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-clay-part-face-exclusion-working-pass-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-field-failure-realization-proof-method-audit-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-generic-pack-face-exclusion-work-order-demotion-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-generic-pack-part-face-exclusion-blocker-demotion-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-generic-part-face-exclusion-work-order-demotion-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-retained-pack-part-survival-proof-method-audit-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-rscb-scfavg-face-landing-20260607.md
+    - problems/navier-stokes/theorem-construction/mpp-terminal-collar-strain-integrability-proof-method-audit-20260607.md
+    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
+    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260607.md
+    - system/gui/navier-stokes-repo-viewer/src/App.css
+    - system/gui/navier-stokes-repo-viewer/src/App.tsx
+    - system/gui/navier-stokes-repo-viewer/src/index.css
+    - system/gui/navier-stokes-repo-viewer/src/main.tsx
+    - system/gui/navier-stokes-repo-viewer/src/nsAnalysis.test.ts
+    - system/gui/navier-stokes-repo-viewer/src/nsAnalysis.ts
+    - system/gui/navier-stokes-repo-viewer/src/runAnalysis.ts
+    - system/gui/navier-stokes-repo-viewer/src/vite-env.d.ts
+    no_change_policy: If no object-level state moved, the next loop must execute a
+      smaller proof/app/graph/PDF task or record an exact blocker.
+  next_reentry_order:
+  - sync changed proof nodes back into graph/app/MCP route state
+  - decide which proof movement is mature enough for manuscript/PDF prose
+  - rerun submission boundary only after proof and manuscript state change
+  - derive the next executable lane set from the updated project model
+  completion_stop_condition: Stop only when every work node is complete or exactly
+    blocked with evidence.
+evidence_refs:
+- problems/navier-stokes/source-frontier.yaml
+- problems/navier-stokes/live-theorem-edge.yaml
+- problems/navier-stokes/ns-proof-program-route-table.yaml
+- problems/navier-stokes/current-route-dependency-graph.yaml
+- problems/navier-stokes/d8-completion-route-map.yaml
+- system/gui/navier-stokes-repo-viewer/src/nsAnalysis.ts
+- system/gui/navier-stokes-repo-viewer/server.mjs
+- system/runner/lib/research_os_live_state_support.rb
+- system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+- problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+- problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+- problems/navier-stokes/submission-bundle/reader-facing-abstract-intro-checklist.md
+- problems/navier-stokes/paper-architecture.yaml
+- problems/navier-stokes/submission-verdict.yaml
+- problems/navier-stokes/submission-bundle/submission-verdict.yaml
+- problems/navier-stokes/submission-bundle/submission-export-status.yaml
+- problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
+- problems/navier-stokes/ns-completion-executor-route-sync-20260607.yaml
+- problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+- problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+- problems/navier-stokes/ns-logical-tree-bridge-reconciliation-20260607.yaml
+- problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
+- problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607.md
+- problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
+- problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607.yaml
+- problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+- problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+- problems/navier-stokes/theorem-construction/mpp-averaged-field-face-admission-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-averaged-jumpavg-field-face-reduction-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-averaged-receiver-no-upstream-readout-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-averaged-terminal-cover-common-scheduler-reentry-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-clay-field-face-exclusion-working-pass-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-clay-field-failure-realization-proof-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-clay-pack-face-exclusion-working-pass-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-clay-part-face-exclusion-working-pass-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-field-failure-realization-proof-method-audit-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-generic-pack-face-exclusion-work-order-demotion-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-generic-pack-part-face-exclusion-blocker-demotion-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-generic-part-face-exclusion-work-order-demotion-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-retained-pack-part-survival-proof-method-audit-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-rscb-scfavg-face-landing-20260607.md
+- problems/navier-stokes/theorem-construction/mpp-terminal-collar-strain-integrability-proof-method-audit-20260607.md
+- problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
+- problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260607.md
+- system/gui/navier-stokes-repo-viewer/src/App.css
+- system/gui/navier-stokes-repo-viewer/src/App.tsx
+- system/gui/navier-stokes-repo-viewer/src/index.css
+- system/gui/navier-stokes-repo-viewer/src/main.tsx
+- system/gui/navier-stokes-repo-viewer/src/nsAnalysis.test.ts
+- system/gui/navier-stokes-repo-viewer/src/runAnalysis.ts
+- system/gui/navier-stokes-repo-viewer/src/vite-env.d.ts
