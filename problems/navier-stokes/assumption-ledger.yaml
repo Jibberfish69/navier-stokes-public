@@ -87,10 +87,10 @@ assumptions:
 summary:
   total_direct_live_assumptions: 10
   discharged_direct_live_assumptions: 10
-  blocking_or_unresolved_authority_count: 5
+  blocking_or_unresolved_authority_count: 4
   hfg_side_primitives_open:
   - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
-  release_blocking_count: 5
+  release_blocking_count: 4
   all_discharged: false
   total_authority_assumptions: 3
   discharged_authority_assumptions: 3
@@ -99,9 +99,6 @@ summary:
     Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
     obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
     proof.'
-  - 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a direct
-    noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing into
-    an accepted whole-space endpoint exclusion.'
   - 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the
     bridge is proved or the conclusion is otherwise closed, rerun the contract check
     and update provenance with the contract result.'
@@ -111,7 +108,7 @@ summary:
     bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
 release_blockers: *1
 required_next_actions: *1
-generated_at: '2026-06-08T06:16:31Z'
+generated_at: '2026-06-08T06:25:04Z'
 pass: false
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
