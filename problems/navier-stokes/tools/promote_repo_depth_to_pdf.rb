@@ -26,6 +26,9 @@ SURFACE_INVENTORY = BUNDLE_ROOT.join("surface-derivation-inventory.yaml")
 SOURCE_FIELD_APPENDIX = BUNDLE_ROOT.join("source-field-reader-appendix.tex")
 EXPORT_STATUS = BUNDLE_ROOT.join("submission-export-status.yaml")
 CODEX_MAIN_TEX = ROOT.join("papers/navier-stokes/manuscript/generated/main.tex")
+CODEX_EXTRA_TEX_INPUTS = [
+  ROOT.join("papers/navier-stokes/manuscript/generated/referee-proof-details.tex")
+].freeze
 CODEX_PAPER_PDF = ROOT.join("papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf")
 CODEX_PAPER_TEX = ROOT.join("papers/navier-stokes/build/output/authoritative-edge/navier-stokes.tex")
 HUMAN_SUBMISSION_PDF = BUNDLE_ROOT.join("navier-stokes-human-submission.pdf")
@@ -196,12 +199,23 @@ def export_codex_paper_pdf
   end
 
   FileUtils.cp(CODEX_MAIN_TEX, CODEX_PAPER_TEX)
+  copied_inputs = CODEX_EXTRA_TEX_INPUTS.select(&:file?).map do |input_path|
+    target = CODEX_PAPER_PDF.dirname.join(input_path.basename)
+    FileUtils.cp(input_path, target)
+    {
+      "source" => relative(input_path),
+      "export_copy" => relative(target),
+      "sha1" => file_sha1(target),
+      "bytes" => target.size
+    }
+  end
   {
     "action" => "codex-paper-pdf-export",
     "problem_id" => PROBLEM_ID,
     "status" => CODEX_PAPER_PDF.file? && CODEX_PAPER_PDF.size.positive? ? "exported" : "failed",
     "render_quality" => "typeset",
     "source" => relative(CODEX_MAIN_TEX),
+    "included_sources" => copied_inputs,
     "pdf" => relative(CODEX_PAPER_PDF),
     "tex" => relative(CODEX_PAPER_TEX),
     "compiler" => "pdflatex",
@@ -431,6 +445,14 @@ def dual_pdf_track_gate
     if text.match?(%r{problems/navier-stokes|submission-bundle|source-forensics|theorem-construction|system/runner})
       errors << "papers/Codex PDF exposes internal source path strings"
     end
+    main_source = CODEX_MAIN_TEX.file? ? CODEX_MAIN_TEX.read : ""
+    CODEX_EXTRA_TEX_INPUTS.each do |input_path|
+      next unless main_source.include?(input_path.basename(".tex").to_s)
+
+      export_copy = CODEX_PAPER_PDF.dirname.join(input_path.basename)
+      errors << "papers/Codex exported TeX bundle missing included source #{relative(export_copy)}" unless export_copy.file?
+      errors << "papers/Codex exported included source #{relative(export_copy)} is stale" if export_copy.file? && file_sha1(export_copy) != file_sha1(input_path)
+    end
   end
 
   unless HUMAN_SUBMISSION_PDF.file? && HUMAN_SUBMISSION_PDF.size.positive?
@@ -523,7 +545,8 @@ def build_result(commands, export_result, gates, started_at, status)
       "main_tex" => relative(MAIN_TEX),
       "preferred_pdf" => relative(HUMAN_SUBMISSION_PDF),
       "codex_machine_pdf" => relative(CODEX_PAPER_PDF),
-      "codex_machine_tex" => relative(CODEX_MAIN_TEX)
+      "codex_machine_tex" => relative(CODEX_MAIN_TEX),
+      "codex_machine_extra_tex_inputs" => CODEX_EXTRA_TEX_INPUTS.select(&:file?).map { |path| relative(path) }
     },
     "commands" => commands,
     "export_result" => export_result,
