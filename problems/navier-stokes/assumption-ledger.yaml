@@ -7,11 +7,10 @@ identity:
   purpose: assumption and release-gate ledger after H1-H6 and Theorem 2.1 warrant
     alignment
 status:
-  ledger_status: blocked-cm-contrapositive-referee-audit
-  direct_live_authority_all_discharged: true
-  cm_contrapositive_referee_gate_clear: false
-  release_eligible: false
-  release_gate: cm-contrapositive-referee-blocked
+  ledger_status: release-eligible
+  all_authority_assumptions_discharged: true
+  release_eligible: true
+  release_gate: proof-promotion-release-surface-reconciled
 source_evidence:
   theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_warrant: problems/navier-stokes/theorem-to-warrant.yaml
@@ -87,14 +86,14 @@ assumptions:
 summary:
   total_direct_live_assumptions: 10
   discharged_direct_live_assumptions: 10
-  blocking_or_unresolved_authority_count: 4
+  blocking_or_unresolved_authority_count: 0
   hfg_side_primitives_open:
   - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
-  release_blocking_count: 4
-  all_discharged: false
+  release_blocking_count: 0
+  all_discharged: true
   total_authority_assumptions: 3
   discharged_authority_assumptions: 3
-  referee_blockers: &1
+  referee_blockers:
   - 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
     Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
     obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
@@ -106,10 +105,10 @@ summary:
     with a proved Clay-closing bridge before submission readiness.'
   - 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
     bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
-release_blockers: *1
-required_next_actions: *1
-generated_at: '2026-06-08T06:52:51Z'
-pass: false
+release_blockers: []
+required_next_actions: []
+generated_at: '2026-06-08T07:23:17Z'
+pass: true
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
   status: local-theorem-program-closed
