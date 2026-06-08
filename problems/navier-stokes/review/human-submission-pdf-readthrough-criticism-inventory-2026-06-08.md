@@ -132,18 +132,24 @@ The branch-family rollup repeats generic proof-role paragraphs. It tells the rea
 
 Evidence: good readout supports the member branch; a failed readout, after carrier and participation have survived, identifies the Field face. The obligation is therefore placed where the paper decides between positive-scale readability and field exit. G Expanded Branch-Family Obligations The current-material coverage families are represented by mathematical proof roles rather than file names. Repetition is by branch family, so the visible appendix shows the obligation being carried instead of repeating the same anonymous sentence for every s
 
-## Initial Repair Targets From This Readthrough
+## Correction: Criticism Inventory Only
 
-- T1. Rewrite the first 10 pages around a clean theorem statement, exact claim, and proof route before any Pack/Part/Field machinery enters.
-- T2. Resolve or demote the three live closing hinges on page 38. A Clay-facing paper cannot claim completion while those hinges remain open.
-- T3. Replace the class-membership grammar with standard PDE definitions and lemmas, then introduce Pack/Part/Field only after the reader sees why those tests are forced.
-- T4. Build a self-contained main proof. The appendix can document branch history, but the main proof must stand without asking the reader to process 1000 pages of records.
-- T5. Remove or rewrite all banned/pretentious/helper prose: "merely", most contrast pivots, support stack, surface inventory, installed, proof force, diagnostic, obligation, route, readout, and bookkeeping unless a standard mathematical reason remains.
-- T6. Cut or quarantine Appendix D into a separate research dossier until each surviving item either pays a named theorem in the main proof or is explicitly historical.
-- T7. Replace count-based obligation rollups with actual theorem statements, exact hypotheses, and proofs, or remove them from the submission PDF.
-- T8. State and prove the continuation/readout theorem from the precise Pack/Part/Field hypotheses for the same original solution.
-- T9. State and prove the terminal-object construction/exhaustion theorem: every alleged finite Clay breakdown supplies the same kind of terminal witness consumed by the proof.
-- T10. Separate the T3 proof and the R3 proof cleanly. The R3 exterior-source/export theorem needs its own completed route or a plainly stated scope boundary.
+The earlier version of this file incorrectly promoted criticism into ten broad
+repair targets. That was a target-custody failure. The inventory is evidence
+for the next writing pass, not permission for Codex to rewrite the paper from a
+controller's agenda.
+
+Use these criticisms as local pressure only. Each edit must start from the exact
+page defect, preserve any working mathematical intent already on the page, and
+make the smallest honest improvement that helps the PDF carry the proof. Broad
+actions such as rewriting the opening, demoting hinges, quarantining appendices,
+replacing the class-membership grammar, separating branches, or imposing a new
+paper spine require a separate checked justification from the manuscript and
+Thomas's stated intent before they are allowed.
+
+The active next work is: choose the highest-value page defect from the criticism
+evidence, fix that defect without damaging the existing proof shape, reread the
+rendered page, and repeat.
 
 ## Readthrough Status
 
