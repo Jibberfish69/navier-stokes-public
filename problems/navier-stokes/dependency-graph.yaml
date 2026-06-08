@@ -1,39 +1,98 @@
 ---
-version: 1
+version: 3
 identity:
   problem_id: navier-stokes
   artifact_id: dependency-graph-navier-stokes
-  generated_at: '2026-06-08T04:43:27Z'
+  generated_at: '2026-06-08T05:18:28Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: passed
-pass: true
+status: cm-contrapositive-referee-blocked
+pass: false
+release_eligible: false
 source:
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
+  review_verdict: problems/navier-stokes/review-verdict.yaml
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
   release_decision: problems/navier-stokes/release-decision.yaml
+  cm_contrapositive_referee_audit: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 summary:
-  node_count: 3
-  blocking_count: 0
-  all_discharged: true
+  authority_mode: cm-contrapositive-referee-gate
+  audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+  audit_status: clay-closing-bridge-open
+  blocking_count: 6
+  frontier_count: 0
+  unresolved_count: 6
+  bridge_discharge_blocking_count: 0
+  theorem_warrant_blocking_count: 6
+  all_discharged: false
+  referee_blockers:
+  - 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
+    Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
+    obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
+    proof.'
+  - 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a direct
+    noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing into
+    an accepted whole-space endpoint exclusion.'
+  - 'codex-gap-attack-log:terminal-record-entry-referee-hardening: Tighten the entry
+    theorem so the Clay negation itself, stated in standard PDE language, supplies
+    the same-solution record without relying on internal CM terminology.'
+  - 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the
+    bridge is proved or the conclusion is otherwise closed, rerun the contract check
+    and update provenance with the contract result.'
+  - 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional provenance
+    with a proved Clay-closing bridge before submission readiness.'
+  - 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
+    bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
+  open_frontier_labels: []
+  node_count: 6
 nodes:
-- id: clay-cm-contrapositive-witness-consumption
-  kind: live-theorem-frontier
-  label: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
-  status: installed-clay-cm-contrapositive-chain
-  blocking: false
-  source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-- id: torus-global-material-atlas-terminal-capture
-  kind: live-theorem-frontier
-  label: TorusGlobalMaterialAtlasTerminalCapture.A
-  status: installed-torus-first-terminal-capture
-  blocking: false
-  source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-- id: r3-whole-space-cm-completion
-  kind: live-theorem-frontier
-  label: R3.WholeSpaceCMCompletion.A
-  status: installed-whole-space-cm-completion
-  blocking: false
-  source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+- id: cm-referee-blocker-1
+  kind: cm-contrapositive-referee-burden
+  label: 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
+    Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
+    obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
+    proof.'
+  status: blocked
+  blocking: true
+  source_anchor: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+- id: cm-referee-blocker-2
+  kind: cm-contrapositive-referee-burden
+  label: 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a
+    direct noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing
+    into an accepted whole-space endpoint exclusion.'
+  status: blocked
+  blocking: true
+  source_anchor: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+- id: cm-referee-blocker-3
+  kind: cm-contrapositive-referee-burden
+  label: 'codex-gap-attack-log:terminal-record-entry-referee-hardening: Tighten the
+    entry theorem so the Clay negation itself, stated in standard PDE language, supplies
+    the same-solution record without relying on internal CM terminology.'
+  status: blocked
+  blocking: true
+  source_anchor: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+- id: cm-referee-blocker-4
+  kind: cm-contrapositive-referee-burden
+  label: 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After
+    the bridge is proved or the conclusion is otherwise closed, rerun the contract
+    check and update provenance with the contract result.'
+  status: blocked
+  blocking: true
+  source_anchor: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+- id: cm-referee-blocker-5
+  kind: cm-contrapositive-referee-burden
+  label: 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional
+    provenance with a proved Clay-closing bridge before submission readiness.'
+  status: blocked
+  blocking: true
+  source_anchor: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+- id: cm-referee-blocker-6
+  kind: cm-contrapositive-referee-burden
+  label: 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the
+    Clay-closing bridge or replace the closing argument with a noncircular finite-breakdown
+    exclusion.'
+  status: blocked
+  blocking: true
+  source_anchor: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 edges: []
