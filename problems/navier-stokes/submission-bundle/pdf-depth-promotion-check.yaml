@@ -1,8 +1,8 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T08:36:05Z'
-started_at: '2026-06-08T08:35:57Z'
+generated_at: '2026-06-08T08:50:23Z'
+started_at: '2026-06-08T08:50:13Z'
 status: passed
 purpose: Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into
   the human/app-aligned TeX/PDF path, export the separate Codex Clay-facing paper,
@@ -65,7 +65,7 @@ gates:
   errors: []
 - gate_id: source-depth-appendices-materialized-in-tex
   status: passed
-  source_field_word_count: 416268
+  source_field_word_count: 416242
   surface_derivation_expansion_rows: 3804
   main_tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   errors: []
@@ -76,6 +76,6 @@ gates:
     human_app_aligned: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     codex_machine_paper: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
   papers_pdf_pages: 47
-  human_pdf_pages: 1082
-  sha256: 9c5e4daea410590cb15905250c3d2d89be88b283c7b10d96978bbd7be6b421cb
+  human_pdf_pages: 1081
+  sha256: e03744631107d41ee9cd93ddab0874d3a64f0794f7b2b37eb19c2822b5911711
   errors: []
