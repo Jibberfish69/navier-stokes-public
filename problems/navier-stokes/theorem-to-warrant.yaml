@@ -652,8 +652,8 @@ theorem_warrants:
     disposition: submission-candidate
     next_cell_type: proof-frontier
     next_stage: clay-closing-bridge-open
-    next_action: Close the Clay counterexample-exclusion bridge and R3 endpoint blockers
-      before submission promotion.
+    next_action: Close the Clay counterexample-exclusion bridge before submission
+      promotion.
   forward_positive_surface_quarantine: &9
     status: active-global-demotion
     index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
@@ -793,12 +793,11 @@ release_or_respawn_consequence:
   disposition: submission-candidate
   next_cell_type: proof-frontier
   next_stage: clay-closing-bridge-open
-  next_action: Close the Clay counterexample-exclusion bridge and R3 endpoint blockers
-    before submission promotion.
+  next_action: Close the Clay counterexample-exclusion bridge before submission promotion.
 forward_positive_surface_quarantine: *9
 current_authority_status:
   status: superseded-by-direct-live-clearance
-  checked_at: '2026-06-08T06:33:08Z'
+  checked_at: '2026-06-08T06:39:10Z'
   reason: Direct live authority reports no open theorem frontier; this artifact is
     retained as historical theorem-work context and must not respawn a live blocker.
   authority_summary:
