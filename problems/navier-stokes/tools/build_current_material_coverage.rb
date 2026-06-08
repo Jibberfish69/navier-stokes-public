@@ -248,6 +248,9 @@ FAMILIES = [
       theorem-construction/mpp-clay-field-face-exclusion-working-pass-20260607.md
       theorem-construction/mpp-clay-pack-face-exclusion-working-pass-20260607.md
       theorem-construction/mpp-clay-part-face-exclusion-working-pass-20260607.md
+      theorem-construction/mpp-generic-pack-part-face-exclusion-blocker-demotion-20260607.md
+      theorem-construction/mpp-generic-pack-face-exclusion-work-order-demotion-20260607.md
+      theorem-construction/mpp-generic-part-face-exclusion-work-order-demotion-20260607.md
       theorem-construction/mpp-retained-pack-part-survival-proof-method-audit-20260607.md
       theorem-construction/mpp-terminal-collar-strain-integrability-proof-method-audit-20260607.md
       theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
