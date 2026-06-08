@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: assumption-audit-navier-stokes
-  generated_at: '2026-06-08T06:39:10Z'
+  generated_at: '2026-06-08T06:51:37Z'
   generator: system/runner/lib/release_surface_reconciler.rb
   purpose: assumption release blocked by CM contrapositive referee audit
 status:
