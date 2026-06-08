@@ -92,12 +92,16 @@ nodes:
     source:
       - theorem-construction/mpp-rscb-scfavg-face-landing-20260607.md
       - theorem-construction/mpp-averaged-receiver-no-upstream-readout-20260607.md
+      - theorem-construction/mpp-averaged-jumpavg-field-face-reduction-20260607.md
+      - theorem-construction/mpp-averaged-field-face-admission-20260607.md
       - theorem-construction/mpp-finite-energy-point-pressure-derivative-obstruction-20260606.md
     role: >-
       Locks the June 6 retained/averaged receiver split: retained point-center
       failure and averaged cover failure either pass through an installed route
-      or land in the first CM face. They may not be revived as finite-energy
-      NKF.Native or upstream pointwise readout.
+      or land in the first CM face. The averaged `Jump_avg` branch now lands as
+      `forall r>0 not Field_{N,r,Q}` by `AveragedFieldFaceAdmission.A` under
+      retained `Pack_Q` and `Part_{N,Q}`. These failures may not be revived as
+      finite-energy NKF.Native or upstream pointwise readout.
   sourcewall_reconcile_resolution:
     status: resolved-by-demotion
     theorem_ids:
