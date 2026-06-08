@@ -4,11 +4,11 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   plan_id: post-release-plan-navier-stokes
-  generated_at: '2026-06-08T03:40:28Z'
+  generated_at: '2026-06-08T03:54:44Z'
   source_release_decision_id: release-decision-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
 current_release:
-  disposition: submission-candidate
+  disposition: respawn
   release_posture: export-ready
   completion_tier_target: full-mpp-closure
   completion_tier_achieved: full-mpp-closure
@@ -39,25 +39,32 @@ tracks:
       next honest move is to reopen the theorem delta explicitly rather than pretending
       the lowest safe claim is the final proof.
   publication-finalize:
-    applicable: false
+    applicable: true
     target_tier: full-mpp-closure
     draft_surface_kinds:
       draft_v6: draft
       draft_v7: draft
-      submission_bundle: referee-facing-manuscript
-    missing_publishability_surfaces: []
-    recommended_next_cell_type:
-    recommended_next_stage: submission-candidate
-    recommended_next_action: No publication-finalize reopen is required; the submission
-      bundle is already the current referee-facing manuscript surface.
-    rationale: The release decision, submission verdict, and export status agree on
-      a full-MPP closure submission candidate with rendered PDF tracks.
+    missing_publishability_surfaces:
+    - No dedicated publication-finalization pass has yet compressed the current checkpoint
+      package into a referee-facing final manuscript.
+    - There is still no typed publication checklist artifact for export/submission
+      handling.
+    recommended_next_cell_type: prose-realization
+    recommended_next_stage: publication-finalize-requested
+    recommended_next_action: Reopen the current checkpoint package on `prose-realization`
+      and compress it into a referee-facing final draft, using `draft-v7.md` as the
+      publishability surface rather than leaving the package at lowest-safe-claim
+      checkpoint posture only.
+    rationale: The package reached a real checkpoint, but it still lacks a dedicated
+      final-paper compression pass.
 selected_track: publication-finalize
 summary:
   reopen_track: publication-finalize
-  reopen_next_cell_type:
-  reopen_next_stage: submission-candidate
-  reopen_next_action: No publication-finalize reopen is required; the submission bundle
-    is already the current referee-facing manuscript surface.
-  rationale: The release decision, submission verdict, and export status agree on
-    a full-MPP closure submission candidate with rendered PDF tracks.
+  reopen_next_cell_type: prose-realization
+  reopen_next_stage: publication-finalize-requested
+  reopen_next_action: Reopen the current checkpoint package on `prose-realization`
+    and compress it into a referee-facing final draft, using `draft-v7.md` as the
+    publishability surface rather than leaving the package at lowest-safe-claim checkpoint
+    posture only.
+  rationale: The package reached a real checkpoint, but it still lacks a dedicated
+    final-paper compression pass.
