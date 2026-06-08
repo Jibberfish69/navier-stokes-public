@@ -1,23 +1,39 @@
 ---
-version: 2
+version: 1
 identity:
   problem_id: navier-stokes
-  audit_id: gap-audit-navier-stokes
-  generated_at: '2026-06-08T02:54:58Z'
+  artifact_id: gap-audit-navier-stokes
+  generated_at: '2026-06-08T03:04:38Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: passed
-pass: true
-release_eligible: true
-theorem_matrix:
-  total_obligations: 2
-  grounded_count: 2
-  blocking_count: 0
-  all_discharged: true
-release_gaps: []
-side_sandbox_gaps:
-- id: MEG
-  status: open-side-primitive
-  release_blocking: false
+  purpose: mathematical gap remains open under direct-live authority
+status:
+  audit_status: direct-live-frontier-open
+  pass: false
+  release_eligible: false
+pass: false
+release_eligible: false
+source:
+  live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
+  source_frontier: problems/navier-stokes/source-frontier.yaml
+  theorem_packet: problems/navier-stokes/theorem-packet.yaml
+  submission_verdict: problems/navier-stokes/submission-verdict.yaml
+  release_decision: problems/navier-stokes/release-decision.yaml
+summary:
+  total_obligations: 3
+  blocking_count: 1
+  frontier_count: 1
+  all_discharged: false
+  authority_mode: direct-live-surfaces
+  unresolved_count: 1
+  bridge_discharge_blocking_count: 1
+  theorem_warrant_blocking_count: 1
+  open_frontier_labels: &1
+  - ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
+findings:
+- Direct-live theorem authority reports open frontier obligations; stale terminal
+  release overlays are demoted.
 verdict:
-  gaps_resolved_for_current_release_scope: true
-  use_as_gap_ledger: true
+  dependency_graph_closed: false
+  release_eligible: false
+  all_discharged: false
+required_for_release: *1
