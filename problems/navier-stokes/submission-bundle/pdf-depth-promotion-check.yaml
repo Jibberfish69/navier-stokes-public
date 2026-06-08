@@ -1,8 +1,8 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T04:43:16Z'
-started_at: '2026-06-08T04:43:08Z'
+generated_at: '2026-06-08T08:31:56Z'
+started_at: '2026-06-08T08:31:48Z'
 status: passed
 purpose: Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into
   the human/app-aligned TeX/PDF path, export the separate Codex Clay-facing paper,
@@ -15,6 +15,9 @@ authority:
   preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   codex_machine_pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
   codex_machine_tex: papers/navier-stokes/manuscript/generated/main.tex
+  codex_machine_extra_tex_inputs:
+  - papers/navier-stokes/manuscript/generated/referee-proof-details.tex
+  - papers/navier-stokes/manuscript/generated/referee-proof-expansion.tex
 commands:
 - label: current material coverage check
   argv:
@@ -23,7 +26,7 @@ commands:
   - "--check"
   success: true
   exitstatus: 0
-  stdout_tail: CURRENT_MATERIAL_COVERAGE_CHECK 196
+  stdout_tail: CURRENT_MATERIAL_COVERAGE_CHECK 213
   stderr_tail: ''
 - label: surface derivation appendix check
   argv:
@@ -33,7 +36,7 @@ commands:
   success: true
   exitstatus: 0
   stdout_tail: SURFACE_DERIVATION_APPENDIX_CHECK certificates=1944 quarantine=1853
-    current_material=196
+    current_material=213
   stderr_tail: ''
 - label: PDF argument hygiene
   argv:
@@ -57,12 +60,12 @@ export_result:
 gates:
 - gate_id: current-material-coverage-complete
   status: passed
-  checked_text_files_outside_existing_union: 196
-  family_count_sum: 196
+  checked_text_files_outside_existing_union: 213
+  family_count_sum: 213
   errors: []
 - gate_id: source-depth-appendices-materialized-in-tex
   status: passed
-  source_field_word_count: 415278
+  source_field_word_count: 416270
   surface_derivation_expansion_rows: 3804
   main_tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   errors: []
@@ -72,7 +75,7 @@ gates:
   pdf_tracks:
     human_app_aligned: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     codex_machine_paper: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-  papers_pdf_pages: 34
-  human_pdf_pages: 1081
-  sha256: e5bdf7807beeb30f55e8fbf6821d91773fd1282f83852085c46e829232de29a2
+  papers_pdf_pages: 47
+  human_pdf_pages: 1082
+  sha256: b7c610f7d8ed18e05b8c7fde51591a4ab1d9c3a6555de447ef23e1adfb8b97ad
   errors: []
