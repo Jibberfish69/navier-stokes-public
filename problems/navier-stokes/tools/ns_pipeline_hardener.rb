@@ -81,8 +81,8 @@ CURRENT_SOURCE_WALL_ROOT_SUMMARY = [
   "The forward-positive quarantine index keeps #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} scanned surfaces out of CM authority unless a named bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}."
 ].compact.join(" ").freeze
 CURRENT_THEOREM_STATUS = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status").freeze
-CURRENT_PACKAGE_STATUS = "periodic-statement-b-ready"
-CURRENT_LOWEST_SAFE_CLAIM = "Release the periodic T^3 statement (B) CM contrapositive claim certified by Exit(Q):=not Member(Q) through Pack/Part/Field witness faces; R^3 statement (A) export remains a separate boundary."
+CURRENT_PACKAGE_STATUS = "full-mpp-closure-ready"
+CURRENT_LOWEST_SAFE_CLAIM = "Release the Navier-Stokes CM contrapositive proof package as a full-MPP closure candidate certified by Exit(Q):=not Member(Q) through Pack/Part/Field witness faces and the finite-obstruction inventory."
 CURRENT_ROUTE_SUMMARY = [
   "The active CM route is the pass-or-exit proof engine: follow the ordinary positive proof program until a real obstruction is reached, read the pass branch as the in-class Member(Q) continuation branch, and read the fail branch as Exit(Q):=not Member(Q) only after CM-test entry plus a concrete Pack/Part/Field face failure.",
   "ClayTerminalWitnessCMEntry.A, ClayFiniteFailureTypeCMExhaustion.A, and ClayCMContrapositiveEmbedding.A are the governing theorem family.",
@@ -92,8 +92,8 @@ CURRENT_WITNESS_FORM = "finite same-surface terminal CM witness: CM-test entry f
 CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE = {
   "disposition" => "submission-candidate",
   "next_cell_type" => "submission",
-  "next_stage" => "periodic-statement-b-submission-candidate",
-  "next_action" => "Keep generated/status surfaces aligned with the periodic T^3 statement (B) target; keep R^3 statement (A) export separate unless a tightness/localization export theorem is installed."
+  "next_stage" => "full-mpp-closure-submission-candidate",
+  "next_action" => "Keep proof, graph, viewer, manuscript, both PDF tracks, and submission wrappers aligned with the full CM contrapositive closure state."
 }.freeze
 OPEN_ASSEMBLY_OBLIGATIONS = [].freeze
 OPEN_ASSEMBLY_OBLIGATION_IDS = OPEN_ASSEMBLY_OBLIGATIONS.map { |entry| entry.fetch("obligation_id") }.freeze
@@ -954,20 +954,24 @@ def sanitize_submission_export_status(status)
   status["stdout"] = ""
   status["stderr"] = ""
   status["fallback"] = nil
+  readiness = PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement.assessment(
+    ROOT,
+    require_current_submission_ready_flags: false,
+    ignore_export_submission_ready_flag: true,
+    ignore_child_paper_repo_dirty: true
+  )
+  status["readiness_evidence"] = status["readiness_evidence"].is_a?(Hash) ? status["readiness_evidence"] : {}
+  status["readiness_evidence"]["completion_candidate_count"] = readiness["candidate_count"]
+  status["readiness_evidence"]["completion_candidates"] = readiness["candidates"]
+  status["readiness_evidence"]["completion_readiness"] = readiness
   if clay_closing_gap_open?
-    readiness = PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement.assessment(
-      ROOT,
-      require_current_submission_ready_flags: false,
-      ignore_export_submission_ready_flag: true,
-      ignore_child_paper_repo_dirty: true
-    )
     status["submission_ready"] = false
     status["submission_posture"] = "blocked"
     status["readiness_status"] = "clay-closing-bridge-open"
-    status["readiness_evidence"] = status["readiness_evidence"].is_a?(Hash) ? status["readiness_evidence"] : {}
-    status["readiness_evidence"]["completion_candidate_count"] = readiness["candidate_count"]
-    status["readiness_evidence"]["completion_candidates"] = readiness["candidates"]
-    status["readiness_evidence"]["completion_readiness"] = readiness
+  else
+    status["submission_ready"] = true
+    status["submission_posture"] = "submission-candidate"
+    status["readiness_status"] = "ready"
   end
   status
 end
