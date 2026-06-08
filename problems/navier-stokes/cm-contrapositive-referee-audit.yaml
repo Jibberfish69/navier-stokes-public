@@ -72,9 +72,9 @@ working_pass_results:
     or demoted as support. Readiness overlays were hardened so the blocked CM referee
     gate suppresses stale whole-space submission-candidate/export-ready tails on the
     key generated surfaces.
-  remaining_boundary: Periodic-scope alignment is installed. Whole-space R^3 export
-    remains a separate statement (A) boundary and does not block periodic statement
-    (B).
+  remaining_boundary: Periodic-scope alignment is installed and later synchronized
+    with the June 7 R3 CM branch; no separate active statement (A) boundary remains
+    in this referee gate.
 - id: torus-global-material-atlas-terminal-capture
   status: discharged-for-active-torus-first-surface
   evidence:
@@ -84,8 +84,8 @@ working_pass_results:
     selection step, makes the packet readout-complete, and unifies Pack as the readout-compatible
     same-fluid material-atlas service. Terminal non-continuation therefore lands in
     the first failed Pack/Part/Field service for the global atlas.
-  remaining_boundary: Whole-space R^3 export still needs a separate tightness/localization
-    theorem for statement (A) or any bundle claiming whole-space coverage.
+  remaining_boundary: The June 7 R3 whole-space CM completion supersedes this old
+    statement (A) boundary; this May 26 torus row is no longer a whole-space blocker.
 - id: continuation-complete-terminal-face-exhaustion-working-pass
   status: conditional-face-exhaustion-proved
   evidence:
@@ -140,9 +140,9 @@ working_pass_results:
     gaps are authorial/scope/support-boundary obligations around the installed torus-first
     CM chain, while the May 27 relational target-custody rule keeps the live theorem
     target on Exit(Q):=not Member(Q) through Pack/Part/Field.
-  remaining_boundary: Whole-space R^3 export / tightness-localization or explicit
-    periodic-scope submission alignment remains separate from the installed periodic
-    CM contrapositive chain.
+  remaining_boundary: June 7 R3 exterior-source notes close the whole-space CM pass-or-exit
+    branch; the May 27 boundary is historical scope context, not an active export
+    burden.
 - id: current-finite-obstruction-inventory-and-r3-cm-face-review-20260607
   status: passed-current-referee-gate
   evidence:
