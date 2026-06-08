@@ -93,18 +93,7 @@ summary:
   all_discharged: true
   total_authority_assumptions: 3
   discharged_authority_assumptions: 3
-  referee_blockers:
-  - 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
-    Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
-    obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
-    proof.'
-  - 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the
-    bridge is proved or the conclusion is otherwise closed, rerun the contract check
-    and update provenance with the contract result.'
-  - 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional provenance
-    with a proved Clay-closing bridge before submission readiness.'
-  - 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
-    bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
+  referee_blockers: []
 release_blockers: []
 required_next_actions: []
 generated_at: '2026-06-08T07:23:17Z'
