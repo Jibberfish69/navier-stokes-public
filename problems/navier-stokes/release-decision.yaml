@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-08T05:33:22Z'
+  evaluated_at: '2026-06-08T05:41:36Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: blocked
@@ -38,9 +38,6 @@ blockers:
 - 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a direct
   noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing into
   an accepted whole-space endpoint exclusion.'
-- 'codex-gap-attack-log:terminal-record-entry-referee-hardening: Tighten the entry
-  theorem so the Clay negation itself, stated in standard PDE language, supplies the
-  same-solution record without relying on internal CM terminology.'
 - 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the bridge
   is proved or the conclusion is otherwise closed, rerun the contract check and update
   provenance with the contract result.'
@@ -51,6 +48,7 @@ blockers:
 - Completion tier is still `clay-closing-bridge-open`, below a paper-complete or full-closure
   submission surface.
 - Honesty review verdict is still `block`.
+- Submission export status changed after the current review verdict was written.
 - 'Target fidelity failure: direct theorem authority still has open theorem-packet
   blockers, so terminal release is not safe.'
 - Stand-alone status remains `blocked`.
@@ -61,12 +59,12 @@ blockers:
   paper PDF is missing rendered conditional argument boundary'
 - 'Navier-Stokes PDF contract blocks export: current material coverage failed: current-material
   coverage mismatch unclassified current checkable files: ns-completion-engine.yaml
-  ns-completion-executor.yaml'
+  ns-completion-executor.yaml theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md'
+- 'Navier-Stokes completion candidate remains: papers-navier-stokes-child-repo-dirty
+  (papers/navier-stokes)'
 - 'Navier-Stokes completion candidate remains: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
   (papers/navier-stokes/review/codex-gap-attack-log.yaml)'
 - 'Navier-Stokes completion candidate remains: codex-gap-attack-log:r3-exterior-high-order-tail-closure
-  (papers/navier-stokes/review/codex-gap-attack-log.yaml)'
-- 'Navier-Stokes completion candidate remains: codex-gap-attack-log:terminal-record-entry-referee-hardening
   (papers/navier-stokes/review/codex-gap-attack-log.yaml)'
 - 'Navier-Stokes completion candidate remains: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
   (papers/navier-stokes/review/codex-gap-attack-log.yaml)'
@@ -81,9 +79,6 @@ blockers:
 - 'CM contrapositive referee audit blocks release: codex-gap-attack-log:r3-exterior-high-order-tail-closure:
   Either prove a direct noncircular R3 H^s tail theorem or strengthen dyadic survivor
   face landing into an accepted whole-space endpoint exclusion.'
-- 'CM contrapositive referee audit blocks release: codex-gap-attack-log:terminal-record-entry-referee-hardening:
-  Tighten the entry theorem so the Clay negation itself, stated in standard PDE language,
-  supplies the same-solution record without relying on internal CM terminology.'
 - 'CM contrapositive referee audit blocks release: codex-gap-attack-log:contract-readiness-after-manuscript-expansion:
   After the bridge is proved or the conclusion is otherwise closed, rerun the contract
   check and update provenance with the contract result.'
