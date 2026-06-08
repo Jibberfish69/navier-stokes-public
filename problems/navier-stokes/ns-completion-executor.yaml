@@ -3,7 +3,7 @@ version: 1
 artifact_id: nightly-six-mpp-ns-completion-executor-2026-06-07
 status: executed
 date: '2026-06-07'
-generated_at: '2026-06-08T05:09:04Z'
+generated_at: '2026-06-08T05:11:01Z'
 engine_ref: ns-completion-engine.yaml
 engine_goal: complete the NS repo/app/graph/PDF proof system
 lane_results: &5
@@ -265,44 +265,6 @@ terminal_state: &11
     manuscript readiness remain open
   completed_work_node_ids: []
   open_blockers:
-  - work_node_id: ns-route-graph-app-sync
-    blocker_kind: route_state
-    blocker: 'route-state:queue_state: Refresh live route-state from the current proof,
-      app, and submission posture.'
-    next_executable_tasks:
-    - prove, demote, or stale-repair the named route candidate
-    - regenerate route-state and viewer snapshots
-    - rerun completion readiness
-    evidence_refs:
-    - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-    - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-  - work_node_id: ns-route-graph-app-sync
-    blocker_kind: route_state
-    blocker: 'route-current:status: Refresh live route-state from the current proof,
-      app, and submission posture.'
-    next_executable_tasks:
-    - prove, demote, or stale-repair the named route candidate
-    - regenerate route-state and viewer snapshots
-    - rerun completion readiness
-    evidence_refs:
-    - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-    - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
   - work_node_id: ns-cm-proof-frontier
     blocker_kind: clay_closing_gap
     blocker: 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
@@ -442,84 +404,6 @@ terminal_state: &11
       changes
     evidence_refs:
     - problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
-    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-    - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-    - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-  - work_node_id: ns-route-graph-app-sync
-    blocker_kind: stale_readiness_ref
-    blocker: 'stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml:
-      Refresh stale route/submission sync references before readiness.'
-    next_executable_tasks:
-    - remove stale proof-blocker or route-sync readiness references
-    - refresh route-state and submission-sync from current proof state
-    - rerun completion readiness
-    evidence_refs:
-    - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-    - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-    - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-  - work_node_id: ns-route-graph-app-sync
-    blocker_kind: stale_readiness_ref
-    blocker: 'stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml:
-      Refresh stale route/submission sync references before readiness.'
-    next_executable_tasks:
-    - remove stale proof-blocker or route-sync readiness references
-    - refresh route-state and submission-sync from current proof state
-    - rerun completion readiness
-    evidence_refs:
-    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-    - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-    - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-  - work_node_id: ns-route-graph-app-sync
-    blocker_kind: stale_readiness_ref
-    blocker: 'stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml:
-      Refresh stale route/submission sync references before readiness.'
-    next_executable_tasks:
-    - remove stale proof-blocker or route-sync readiness references
-    - refresh route-state and submission-sync from current proof state
-    - rerun completion readiness
-    evidence_refs:
-    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
-    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-    - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-    - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-  - work_node_id: ns-route-graph-app-sync
-    blocker_kind: stale_readiness_ref
-    blocker: 'stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml:
-      Refresh stale route/submission sync references before readiness.'
-    next_executable_tasks:
-    - remove stale proof-blocker or route-sync readiness references
-    - refresh route-state and submission-sync from current proof state
-    - rerun completion readiness
-    evidence_refs:
-    - problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
     - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
     - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
     - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
