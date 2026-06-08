@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: route-integrity-report-navier-stokes
-  generated_at: '2026-06-08T04:36:26Z'
+  generated_at: '2026-06-08T04:37:32Z'
   generator: tools/ns_pipeline_hardener.rb
 route_lock:
   path: problems/navier-stokes/route-lock.yaml
@@ -67,7 +67,7 @@ bridge_slot_status:
   - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_5-_Curvature-Based_Regularity.tex"
   - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Gradient_Control_Through_Geometric_Arguments.tex"
   verdict: discharged
-  primary_surface: problems/navier-stokes/external-paper/sections/bridge-gradient-control.tex
+  primary_surface: problems/navier-stokes/theorem-construction/gradient-control-bridge-discharge.md
 - slot_id: closed-loop-warrant
   canonical_label: Closed-Loop Warrant
   direct_anchors:
