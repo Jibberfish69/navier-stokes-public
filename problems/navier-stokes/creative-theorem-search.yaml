@@ -11,7 +11,7 @@ identity:
   source_proof_assembly_id: proof-assembly-navier-stokes
 intervention:
   reason: frontier-expansion
-  review_posture: revise-loop
+  review_posture: historical-sandbox-superseded-by-submission-candidate
   boundary_rule: Everything beyond the grounded core is machine extension until it
     survives falsification and promotion.
   provenance_rule: Machine-generated branches remain speculative until they survive
