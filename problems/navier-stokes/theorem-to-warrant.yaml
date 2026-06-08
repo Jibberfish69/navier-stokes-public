@@ -21,7 +21,7 @@ manuscript_source:
   human_app_aligned_pdf_path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   codex_machine_tex_path: papers/navier-stokes/manuscript/generated/main.tex
   codex_machine_pdf_path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-  observed_state: dual-track-submission-synchronized
+  observed_state: dual-track-independent-manuscripts
   historical_surfaces:
   - problems/navier-stokes/draft-v8.md
   - problems/navier-stokes/external-paper/main.tex
