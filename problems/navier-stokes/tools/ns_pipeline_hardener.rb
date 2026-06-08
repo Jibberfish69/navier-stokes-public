@@ -47,6 +47,7 @@ SUBMISSION_BUNDLE_MAIN_TEX_PATH = SUBMISSION_BUNDLE_ROOT.join("navier-stokes-sub
 HUMAN_SUBMISSION_PDF_PATH = SUBMISSION_BUNDLE_ROOT.join("navier-stokes-human-submission.pdf").freeze
 CODEX_MACHINE_MAIN_TEX_PATH = ROOT.join("papers/navier-stokes/manuscript/generated/main.tex").freeze
 CODEX_MACHINE_PDF_PATH = ROOT.join("papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf").freeze
+CURRENT_GRADIENT_CONTROL_SURFACE = "problems/navier-stokes/theorem-construction/gradient-control-bridge-discharge.md"
 
 TARGET_OPERATING_CONTRACT = YAML.load_file(TARGET_OPERATING_CONTRACT_PATH.to_s).freeze
 FORWARD_POSITIVE_SURFACE_QUARANTINE = TARGET_OPERATING_CONTRACT.fetch("forward_positive_surface_quarantine").freeze
@@ -1237,6 +1238,16 @@ def sanitize_theorem_to_warrant(warrant)
     claim["location"]["historical_tex_file"] = claim["location"].delete("tex_file") if claim["location"]["tex_file"]
     attach_target_topology!(claim)
   end
+  Array(warrant["bridge_warrants"]).each do |bridge|
+    next unless bridge.is_a?(Hash)
+    next unless bridge["bridge_id"].to_s == "gradient-control"
+
+    bridge["primary_surface"] = CURRENT_GRADIENT_CONTROL_SURFACE
+    bridge["surface_supersession"] = {
+      "supersedes_absent_surface" => "problems/navier-stokes/external-paper/sections/bridge-gradient-control.tex",
+      "reason" => "The external-paper bridge file is absent in the current checkout; the theorem-construction discharge note is the existing bridge surface."
+    }
+  end
 
   warrant["warrant_boundary"] = {
     "status" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status"),
@@ -1552,6 +1563,21 @@ def current_manuscript_surface_payload
   }
 end
 
+def bundle_supplement_referenced?(relative_path)
+  return false unless SUBMISSION_BUNDLE_MAIN_TEX_PATH.file?
+
+  SUBMISSION_BUNDLE_MAIN_TEX_PATH.read.include?(relative_path)
+end
+
+def write_or_prune_bundle_theorem_packet_tex(theorem_packet)
+  relative_path = "sections/authoritative-theorem-packet.tex"
+  if bundle_supplement_referenced?(relative_path)
+    SUBMISSION_BUNDLE_THEOREM_PACKET_TEX_PATH.write(render_theorem_packet_tex(theorem_packet))
+  elsif SUBMISSION_BUNDLE_THEOREM_PACKET_TEX_PATH.file?
+    SUBMISSION_BUNDLE_THEOREM_PACKET_TEX_PATH.delete
+  end
+end
+
 def sanitize_campaign_status(campaign)
   campaign["external_publication_target"] ||= {}
   campaign["external_publication_target"]["current_safe_output"] =
@@ -1623,7 +1649,7 @@ def refresh!
   write_yaml(SUBMISSION_BUNDLE_THEOREM_PACKET_PATH, theorem_packet) if SUBMISSION_BUNDLE_THEOREM_PACKET_PATH.exist?
   write_yaml(SUBMISSION_BUNDLE_SOURCE_FRONTIER_PATH, source_frontier) if SUBMISSION_BUNDLE_SOURCE_FRONTIER_PATH.exist?
   write_yaml(SUBMISSION_BUNDLE_SUBMISSION_VERDICT_PATH, submission_verdict) if SUBMISSION_BUNDLE_SUBMISSION_VERDICT_PATH.exist?
-  SUBMISSION_BUNDLE_THEOREM_PACKET_TEX_PATH.write(render_theorem_packet_tex(theorem_packet)) if SUBMISSION_BUNDLE_THEOREM_PACKET_TEX_PATH.dirname.exist?
+  write_or_prune_bundle_theorem_packet_tex(theorem_packet)
 
   write_yaml(
     ROUTE_REPORT_PATH,
