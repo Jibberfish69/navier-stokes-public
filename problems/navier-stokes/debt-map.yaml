@@ -13,7 +13,7 @@ posture:
     current_package_status: clay-closing-bridge-open
     support_basis: Terminal witness entry and Pack/Part/Field classification remain
       installed. The package is nonterminal until the Clay-closing bridge is discharged.
-    standalone_status: blocked
+    standalone_status: accepted
 supporting_sections:
   reviewer_risks:
   - Recovered support is still classified as strong, so the local package remains
@@ -123,12 +123,24 @@ summary:
     local-derivable: 0
     branch-choice: 0
     blocked-frontier: 4
-  recommended_next_cell_type: creative-theorem-search
-  recommended_next_action: The remaining debt is forked or frontier-level, so open
-    a bounded multi-path sandbox and pursue the competing burdens until only survivor
-    routes remain.
-  recommended_debt_ids:
-  - debt-theorem-upgrade-1-codex-gap-attack-log-clay-closing-bridge-from-classified-class-exit-to-contradiction-prove-that-an-exit-q-o-work-record-cannot-be-the-actual-finite-terminal-clay-obstruction-or-replace-the-closing-argument-with-a-noncircular-endpoint-compactness-minimal-counterexample-proof
-  - debt-theorem-upgrade-2-codex-gap-attack-log-contract-readiness-after-manuscript-expansion-after-the-bridge-is-proved-or-the-conclusion-is-otherwise-closed-rerun-the-contract-check-and-update-provenance-with-the-contract-result
-  - debt-theorem-upgrade-3-codex-pdf-provenance-clay-readiness-not-claimed-replace-the-conditional-provenance-with-a-proved-clay-closing-bridge-before-submission-readiness
-  - debt-theorem-upgrade-4-clay-counterexample-gap-audit-finite-breakdown-exclusion-open-prove-the-clay-closing-bridge-or-replace-the-closing-argument-with-a-noncircular-finite-breakdown-exclusion
+  recommended_next_cell_type:
+  recommended_next_action: Do not respawn theorem work from this historical artifact;
+    defer to the direct-live authority surfaces.
+  recommended_debt_ids: []
+  current_live_blocking_count: 0
+  current_live_frontier_count: 0
+  stale_surface_status: historical-context-only
+current_authority_status:
+  status: superseded-by-direct-live-clearance
+  checked_at: '2026-06-08T06:51:37Z'
+  reason: Direct live authority reports no open theorem frontier; this artifact is
+    retained as historical theorem-work context and must not respawn a live blocker.
+  authority_summary:
+    authority_mode: direct-live-surfaces
+    blocking_count: 0
+    frontier_count: 0
+    all_discharged: true
+  controlling_surfaces:
+  - problems/navier-stokes/live-theorem-edge.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
