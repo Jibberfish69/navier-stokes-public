@@ -108,9 +108,10 @@ global_gates:
     proof_complete: true
     status: certified_face_failure_for_torus_first_global_atlas
     exact_missing_step: >-
-      None for the active torus-first surface. Whole-space R^3 export still
-      needs a separate tightness/localization theorem and is outside this
-      ledger's certified scope.
+      None for the active torus-first surface. The older whole-space
+      tightness/localization boundary is superseded by the June 7 R3
+      whole-space CM pass-or-exit branch; this ledger no longer records an
+      active R3 export blocker.
   - gate_id: paper_branch_census
     selected_terminal_object: paper-level branch-family census
     cm_test_admission_status: demoted_from_load_bearing_proof_after_global_atlas_capture
