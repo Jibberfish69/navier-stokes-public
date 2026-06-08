@@ -362,12 +362,35 @@ uncovered = checkable_files.map { |path| ns_relative(path) }
 
 static_family_files = FAMILIES.flat_map { |family| family.fetch("files") }
 dynamic_theorem_creation_files = uncovered.grep(%r{\Atheorem-construction/.*-theorem-creation-\d{8}\.md\z}) - static_family_files
+dynamic_executor_route_sync_files = uncovered.grep(
+  %r{\A(?:ns-completion-executor-route-sync|ns-completion-route-sync-payload)-\d{8}(?:-iteration-\d+)?\.yaml\z}
+) - static_family_files
+dynamic_executor_proof_lane_files = uncovered.grep(
+  %r{\Atheorem-construction/ns-completion-executor-proof-(?:blocker|frontier)-\d{8}(?:-iteration-\d+)?\.md\z}
+) - static_family_files
+dynamic_executor_submission_sync_files = uncovered.grep(
+  %r{\Asubmission-bundle/ns-completion-(?:executor-proof-scaffold|executor-submission-boundary|submission-sync)-\d{8}(?:-iteration-\d+)?\.(?:md|yaml)\z}
+) - static_family_files
 dynamic_families = []
 unless dynamic_theorem_creation_files.empty?
   dynamic_families << {
     "id" => "current_theorem_creation_candidate_notes",
     "paper_representation" => "Current theorem-creation candidate notes are represented by the representation standard as candidate support, pressure tests, or demoted positive-forward attempts. They are not promoted as theorem evidence unless a downstream audit lands them in Pack, Part, Field, membership readout, terminal packet capture, or the terminal CM entry/exhaustion/embedding chain.",
     "files" => dynamic_theorem_creation_files.sort
+  }
+end
+unless (dynamic_executor_route_sync_files + dynamic_executor_proof_lane_files).empty?
+  dynamic_families << {
+    "id" => "current_executor_route_app_graph_pdf_sync_surfaces",
+    "paper_representation" => "Current executor route-sync and proof-lane files are represented as app, graph, MCP, and theorem-frontier coordination material. They may name the next CM face to attack, but theorem authority remains in the cited proof notes, direct live edge, source frontier, and Pack/Part/Field referee audit.",
+    "files" => (dynamic_executor_route_sync_files + dynamic_executor_proof_lane_files).sort
+  }
+end
+unless dynamic_executor_submission_sync_files.empty?
+  dynamic_families << {
+    "id" => "current_executor_dual_pdf_submission_sync_surfaces",
+    "paper_representation" => "Current executor submission-boundary, proof-scaffold, and submission-sync files are represented as dual-PDF readiness and provenance material. They keep the preferred human/app-aligned PDF and the Codex-structured papers PDF synchronized as two required Clay-facing tracks while proof authority remains in the finite-obstruction inventory gate and manuscript/PDF quality checks.",
+    "files" => dynamic_executor_submission_sync_files.sort
   }
 end
 
