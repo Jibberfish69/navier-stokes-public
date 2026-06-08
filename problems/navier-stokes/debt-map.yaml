@@ -5,186 +5,45 @@ identity:
   display_name: Navier-Stokes Global Regularity
 source:
   extracted_from: problems/navier-stokes/formalization-ledger.md
-  extracted_at: '2026-05-23T21:07:29Z'
+  extracted_at: '2026-06-08T06:16:19Z'
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
-    theorem_target: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
-      / ClayCMContrapositiveEmbedding.A
-    current_package_status: full-mpp-closure-ready
-    support_basis: Direct-live CM authority reports terminal witness entry, finite
-      Pack/Part/Field failure type exhaustion, and contrapositive embedding as installed.
-    standalone_status: accept
-    stale_surface_status: historical-context-only
+    theorem_target: Clay-closing bridge from classified class exit to contradiction
+    current_package_status: clay-closing-bridge-open
+    support_basis: Terminal witness entry and Pack/Part/Field classification remain
+      installed. The package is nonterminal until the Clay-closing bridge and R3 endpoint
+      blocker are discharged.
+    standalone_status: accepted
 supporting_sections:
   reviewer_risks:
-  - Historical debt rows are retained as provenance only; direct-live authority, review,
-    submission, release, and audit surfaces currently clear full-MPP closure.
+  - Recovered support is still classified as strong, so the local package remains
+    a revise-stage workboard.
+  - Historical debt rows are provenance only; current review, release, submission,
+    and audit surfaces keep the package blocked at the Clay-closing bridge.
   required_local_explanations: []
-  post_release_theorem_upgrade_gaps: []
+  post_release_theorem_upgrade_gaps:
+  - 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
+    Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
+    obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
+    proof.'
+  - 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a direct
+    noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing into
+    an accepted whole-space endpoint exclusion.'
+  - 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the
+    bridge is proved or the conclusion is otherwise closed, rerun the contract check
+    and update provenance with the contract result.'
+  - 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional provenance
+    with a proved Clay-closing bridge before submission readiness.'
   promotion_rule:
-  - Do not promote a historical debt row back into live theorem authority unless it
-    proves a genuine in-class nonsmooth third branch or failure of terminal CM entry,
-    Pack/Part/Field exhaustion, or contrapositive embedding.
-  - Read this file through current_authority_status first; direct-live surfaces outrank
-    all legacy workboard rows.
-  - Keep old source-wall, no-genuine-exit, and positive-forward rows as searchable
-    provenance rather than release blockers.
+  - Do not promote beyond `revise` until every row marked as a live theorem burden
+    has either been localized into the local package or explicitly parked below the
+    theorem surface.
+  - Keep the lowest safe claim explicit and do not let recovered speculative material
+    masquerade as a proved bridge.
+  - Re-run honesty-review only after the local package has real prose and an explicit
+    debt map.
 debt_items:
-- debt_id: terminalcmnoexit-a-nogenuinecmexit-a-pack-landing
-  label: Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-  source_section: direct-live-authority-face-gate
-  monograph_status: Historical Pack-face split superseded by the installed Clay terminal
-    witness entry, finite failure type exhaustion, and CM contrapositive embedding
-    family; retained as provenance only.
-  standalone_need: 'no'
-  primary_anchors:
-  - problems/navier-stokes/live-theorem-edge.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-repair.yaml
-  - problems/navier-stokes/creative-theorem-search.yaml
-  - problems/navier-stokes/dependency-discharge.yaml
-  debt_class: historical-support
-  derivation_state: localized-support
-  source_scope_status: new-support-found
-  derivation_attempts: 1
-  attempts_without_new_support: 0
-  support_strength: strong
-  cm_output_role: cm-bearing
-  cm_faces:
-  - Pack
-  bridge_to:
-  - Pack
-  bridge_license_required: true
-  supplier_aliases_quarantined: &1
-  - PCTP.hard
-  - SOURCE.NO-PULSE.A
-  - AWG.A
-  - TGC.A
-  recommended_stage: none-historical-support
-  rationale: Current direct-live authority installs the Clay-facing terminal witness
-    entry/exhaustion/embedding chain; this row may not respawn a Pack blocker without
-    a fresh reopening proof.
-  cm_face: Pack
-  parent_authority_gate_id: terminalcmnoexit-a-nogenuinecmexit-a
-  priority_rank: 1
-  last_derivation_run_id: debt-derive-navier-stokes-20260523T020207Z
-  evidence_paths:
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/claim-ladder.md
-  - problems/navier-stokes/draft-v6.md
-  new_evidence_paths:
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/claim-ladder.md
-  - problems/navier-stokes/draft-v6.md
-  source_sufficiency: sufficient
-  source_checks: 1
-- debt_id: terminalcmnoexit-a-nogenuinecmexit-a-part-landing
-  label: Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-  source_section: direct-live-authority-face-gate
-  monograph_status: Historical Part-face split superseded by the installed Clay terminal
-    witness entry, finite failure type exhaustion, and CM contrapositive embedding
-    family; retained as provenance only.
-  standalone_need: 'no'
-  primary_anchors:
-  - problems/navier-stokes/live-theorem-edge.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-repair.yaml
-  - problems/navier-stokes/creative-theorem-search.yaml
-  - problems/navier-stokes/dependency-discharge.yaml
-  debt_class: historical-support
-  derivation_state: localized-support
-  source_scope_status: new-support-found
-  derivation_attempts: 1
-  attempts_without_new_support: 0
-  support_strength: strong
-  cm_output_role: cm-bearing
-  cm_faces:
-  - Part
-  bridge_to:
-  - Part
-  bridge_license_required: true
-  supplier_aliases_quarantined: *1
-  recommended_stage: none-historical-support
-  rationale: Current direct-live authority installs the Clay-facing terminal witness
-    entry/exhaustion/embedding chain; this row may not respawn a Part blocker without
-    a fresh reopening proof.
-  cm_face: Part
-  parent_authority_gate_id: terminalcmnoexit-a-nogenuinecmexit-a
-  priority_rank: 2
-  last_derivation_run_id: debt-derive-navier-stokes-20260523T020252Z
-  evidence_paths:
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/claim-ladder.md
-  - problems/navier-stokes/draft-v6.md
-  new_evidence_paths:
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/claim-ladder.md
-  - problems/navier-stokes/draft-v6.md
-  source_sufficiency: sufficient
-  source_checks: 1
-- debt_id: terminalcmnoexit-a-nogenuinecmexit-a-field-landing
-  label: Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-  source_section: direct-live-authority-face-gate
-  monograph_status: Historical Field-face split superseded by the installed Clay terminal
-    witness entry, finite failure type exhaustion, and CM contrapositive embedding
-    family; retained as provenance only.
-  standalone_need: 'no'
-  primary_anchors:
-  - problems/navier-stokes/live-theorem-edge.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-repair.yaml
-  - problems/navier-stokes/creative-theorem-search.yaml
-  - problems/navier-stokes/dependency-discharge.yaml
-  debt_class: historical-support
-  derivation_state: localized-support
-  source_scope_status: new-support-found
-  derivation_attempts: 1
-  attempts_without_new_support: 0
-  support_strength: strong
-  cm_output_role: cm-bearing
-  cm_faces:
-  - Field
-  bridge_to:
-  - Field
-  bridge_license_required: true
-  supplier_aliases_quarantined: *1
-  recommended_stage: none-historical-support
-  rationale: Current direct-live authority installs the Clay-facing terminal witness
-    entry/exhaustion/embedding chain; this row may not respawn a Field blocker without
-    a fresh reopening proof.
-  cm_face: Field
-  parent_authority_gate_id: terminalcmnoexit-a-nogenuinecmexit-a
-  priority_rank: 3
-  last_derivation_run_id: debt-derive-navier-stokes-20260523T020334Z
-  evidence_paths:
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/obstruction-capture.md
-  - problems/navier-stokes/claim-ladder.md
-  new_evidence_paths:
-  - problems/navier-stokes/frozen-core.md
-  - problems/navier-stokes/proof-assembly.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  - problems/navier-stokes/obstruction-capture.md
-  - problems/navier-stokes/claim-ladder.md
-  source_sufficiency: sufficient
-  source_checks: 1
 - debt_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   label: Keep theorem scope below the first unsafe overclaim
   source_section: proof-debt-ledger
@@ -199,42 +58,73 @@ debt_items:
   recommended_stage: prose-realization
   rationale: The ledger says the material already exists in some proved or discharged
     form, so the remaining work is localization, exposition, or packaging.
+  priority_rank: 1
+- debt_id: debt-theorem-upgrade-1-codex-gap-attack-log-clay-closing-bridge-from-classified-class-exit-to-contradiction-prove-that-an-exit-q-o-work-record-cannot-be-the-actual-finite-terminal-clay-obstruction-or-replace-the-closing-argument-with-a-noncircular-endpoint-compactness-minimal-counterexample-proof
+  label: 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
+    Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
+    obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
+    proof.'
+  source_section: post-release-theorem-upgrade
+  monograph_status: reopened from post-release theorem-upgrade plan
+  standalone_need: 'yes'
+  primary_anchors:
+  - problems/navier-stokes/post-release-plan.yaml
+  debt_class: blocked-frontier
+  recommended_stage: creative-theorem-search
+  rationale: The post-release plan says this gap remains outside the accepted checkpoint
+    package, so it must stay on the theorem-upgrade path instead of being demoted
+    to packaging debt.
+  priority_rank: 2
+- debt_id: debt-theorem-upgrade-2-codex-gap-attack-log-r3-exterior-high-order-tail-closure-either-prove-a-direct-noncircular-r3-h-s-tail-theorem-or-strengthen-dyadic-survivor-face-landing-into-an-accepted-whole-space-endpoint-exclusion
+  label: 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a
+    direct noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing
+    into an accepted whole-space endpoint exclusion.'
+  source_section: post-release-theorem-upgrade
+  monograph_status: reopened from post-release theorem-upgrade plan
+  standalone_need: 'yes'
+  primary_anchors:
+  - problems/navier-stokes/post-release-plan.yaml
+  debt_class: blocked-frontier
+  recommended_stage: creative-theorem-search
+  rationale: The post-release plan says this gap remains outside the accepted checkpoint
+    package, so it must stay on the theorem-upgrade path instead of being demoted
+    to packaging debt.
+  priority_rank: 3
+- debt_id: debt-theorem-upgrade-3-codex-gap-attack-log-contract-readiness-after-manuscript-expansion-after-the-bridge-is-proved-or-the-conclusion-is-otherwise-closed-rerun-the-contract-check-and-update-provenance-with-the-contract-result
+  label: 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After
+    the bridge is proved or the conclusion is otherwise closed, rerun the contract
+    check and update provenance with the contract result.'
+  source_section: post-release-theorem-upgrade
+  monograph_status: reopened from post-release theorem-upgrade plan
+  standalone_need: 'yes'
+  primary_anchors:
+  - problems/navier-stokes/post-release-plan.yaml
+  debt_class: blocked-frontier
+  recommended_stage: creative-theorem-search
+  rationale: The post-release plan says this gap remains outside the accepted checkpoint
+    package, so it must stay on the theorem-upgrade path instead of being demoted
+    to packaging debt.
   priority_rank: 4
-- debt_id: debt-theorem-upgrade-1-sameledgerconcordance-a-positivefieldscaleundersynchronization-a-residual
-  label: SameLedgerConcordance.A / PositiveFieldScaleUnderSynchronization.A residual
+- debt_id: debt-theorem-upgrade-4-codex-pdf-provenance-clay-readiness-not-claimed-replace-the-conditional-provenance-with-a-proved-clay-closing-bridge-before-submission-readiness
+  label: 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional
+    provenance with a proved Clay-closing bridge before submission readiness.'
   source_section: post-release-theorem-upgrade
-  monograph_status: Historical post-release theorem-upgrade row superseded for current
-    CM promotion by direct-live clearance; retained as provenance only.
-  standalone_need: 'no'
+  monograph_status: reopened from post-release theorem-upgrade plan
+  standalone_need: 'yes'
   primary_anchors:
   - problems/navier-stokes/post-release-plan.yaml
-  debt_class: historical-support
-  recommended_stage: none-historical-support
-  rationale: SameLedgerConcordance / PositiveFieldScaleUnderSynchronization no longer
-    acts as a current CM blocker unless it proves a genuine in-class nonsmooth third
-    branch or failure of the terminal entry/exhaustion/embedding chain.
+  debt_class: blocked-frontier
+  recommended_stage: creative-theorem-search
+  rationale: The post-release plan says this gap remains outside the accepted checkpoint
+    package, so it must stay on the theorem-upgrade path instead of being demoted
+    to packaging debt.
   priority_rank: 5
-- debt_id: debt-theorem-upgrade-2-source-wall-root-after-reconcile
-  label: source-wall-root-after-reconcile
-  source_section: post-release-theorem-upgrade
-  monograph_status: Historical post-release theorem-upgrade row superseded for current
-    CM promotion by direct-live clearance; retained as provenance only.
-  standalone_need: 'no'
-  primary_anchors:
-  - problems/navier-stokes/post-release-plan.yaml
-  debt_class: historical-support
-  recommended_stage: none-historical-support
-  rationale: source-wall-root-after-reconcile no longer acts as a current CM blocker
-    unless it proves a genuine in-class nonsmooth third branch or failure of the terminal
-    entry/exhaustion/embedding chain.
-  priority_rank: 6
 summary:
   counts_by_class:
     packaging: 1
     local-derivable: 0
     branch-choice: 0
-    blocked-frontier: 0
-    historical-support: 5
+    blocked-frontier: 4
   recommended_next_cell_type:
   recommended_next_action: Do not respawn theorem work from this historical artifact;
     defer to the direct-live authority surfaces.
@@ -244,7 +134,7 @@ summary:
   stale_surface_status: historical-context-only
 current_authority_status:
   status: superseded-by-direct-live-clearance
-  checked_at: '2026-06-08T06:07:57Z'
+  checked_at: '2026-06-08T06:16:31Z'
   reason: Direct live authority reports no open theorem frontier; this artifact is
     retained as historical theorem-work context and must not respawn a live blocker.
   authority_summary:
