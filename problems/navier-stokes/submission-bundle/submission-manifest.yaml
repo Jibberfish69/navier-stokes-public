@@ -14,7 +14,17 @@ source_metrics:
 submission_metadata: problems/navier-stokes/submission-metadata.yaml
 outputs:
   tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-  pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  pdf_tracks:
+    human_app_aligned:
+      path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+      role: preferred problems/** app-aligned human submission track
+      required_for_clay_submission: true
+    codex_machine_paper:
+      path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+      role: papers/** Codex-owned machine paper track
+      required_for_clay_submission: true
 theorem_surface:
   surface_id: theorem-surface-navier-stokes-afca8b68a2f8
   route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
