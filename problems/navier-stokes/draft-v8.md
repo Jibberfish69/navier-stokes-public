@@ -1,9 +1,13 @@
 # Navier-Stokes Full-Claim Upgrade Surface
 
-This file is the live full-claim authoring surface for the Navier-Stokes lane.
-It is distinct from the archived safe-output manuscript and now tracks the
-direct Euclidean four-bridge theorem attempt on the original Navier-Stokes
-surface under a reopened critical packet-discharge audit.
+This file is an archived full-claim checkpoint for the Navier-Stokes lane. It
+is retained as historical source evidence, not as the live authoring surface,
+export surface, or current submission target.
+
+The live human/app-aligned manuscript is
+`problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`, and the
+separate Codex-structured paper source is
+`papers/navier-stokes/manuscript/generated/main.tex`.
 
 ## Current Judgment
 
