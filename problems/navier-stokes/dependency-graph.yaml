@@ -1,12 +1,13 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
   artifact_id: dependency-graph-navier-stokes
-  generated_at: '2026-06-08T02:54:58Z'
+  generated_at: '2026-06-08T03:04:38Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: passed
-pass: true
+status: blocked
+pass: false
+release_eligible: false
 source:
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
@@ -14,20 +15,34 @@ source:
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
   release_decision: problems/navier-stokes/release-decision.yaml
 summary:
-  node_count: 2
-  blocking_count: 0
-  all_discharged: true
+  total_obligations: 3
+  blocking_count: 1
+  frontier_count: 1
+  all_discharged: false
+  authority_mode: direct-live-surfaces
+  unresolved_count: 1
+  bridge_discharge_blocking_count: 1
+  theorem_warrant_blocking_count: 1
+  open_frontier_labels:
+  - ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
+  node_count: 3
 nodes:
-- id: clay-cm-contrapositive-witness-consumption
-  kind: live-theorem-frontier
-  label: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
-  status: contrapositive-witness-consumption-installed
-  blocking: false
-  source_anchor: problems/navier-stokes/live-theorem-edge.yaml
 - id: torus-global-material-atlas-terminal-capture
   kind: live-theorem-frontier
   label: TorusGlobalMaterialAtlasTerminalCapture.A
   status: installed-torus-first-terminal-capture
-  blocking: false
+  blocking: true
+  source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+- id: r3-whole-space-cm-completion
+  kind: live-theorem-frontier
+  label: R3.WholeSpaceCMCompletion.A
+  status: installed-whole-space-cm-completion
+  blocking: true
+  source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+- id: clay-cm-contrapositive-witness-consumption
+  kind: live-theorem-frontier
+  label: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
+  status: frontier-open
+  blocking: true
   source_anchor: problems/navier-stokes/live-theorem-edge.yaml
 edges: []
