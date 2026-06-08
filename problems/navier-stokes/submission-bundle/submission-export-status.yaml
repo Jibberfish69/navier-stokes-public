@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T01:38:12Z'
+generated_at: '2026-06-08T01:43:26Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -13,8 +13,8 @@ pdf_tracks: &12
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     role: preferred problems/** app-aligned human submission track
     present: true
-    bytes: 3916993
-    sha1: '09dc2f4965a789571e5c5dfb1c6429b5417553df'
+    bytes: 3919427
+    sha1: 23bc802c7ebe6fe4b3ad3b8b1a5c512c996c8f65
     required_for_clay_submission: true
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   codex_machine_paper:
@@ -22,7 +22,7 @@ pdf_tracks: &12
     role: papers/** Codex-owned Clay-facing submission paper track
     present: true
     bytes: 462148
-    sha1: c75f95374bc9034a110276e5b865e56f7f8ca1c1
+    sha1: 86dcaf89ff27ec2c8863d9063f09513c9a1f7e14
     required_for_clay_submission: true
     manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
@@ -111,7 +111,8 @@ readiness_evidence:
       kind: d8_open_blocker
       surface: problems/navier-stokes/d8-completion-route-map.yaml
       evidence: open_blocker
-      required_action: SameSolutionTerminalPackRetention.A / TerminalCollarStrainIntegrability.A
+      required_action: SameSolutionTerminalPackRetention.A / noncircular Pack-retention
+        mechanism or Pack-failure target-fidelity bridge
     - &9
       candidate_id: retained-pack-original-ancestry-part-survival
       kind: d8_open_blocker
@@ -170,7 +171,8 @@ readiness_evidence:
       kind: route_state
       surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
       evidence: open_blocker
-      required_action: SameSolutionTerminalPackRetention.A / TerminalCollarStrainIntegrability.A
+      required_action: SameSolutionTerminalPackRetention.A / noncircular Pack-retention
+        mechanism or Pack-failure target-fidelity bridge
     - candidate_id: retained-pack-original-ancestry-part-survival
       kind: route_state
       surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
@@ -200,9 +202,11 @@ readiness_evidence:
       surface: problems/navier-stokes/d8-completion-route-map.yaml
       evidence: current_state=cm-classification-installed-clay-bridge-blocked
       required_action: The CM terminal-witness classification is installed, but the
-        Clay-ready contradiction is not. The Pack pass failed at SameSolutionTerminalPackRetention.A
-        / TerminalCollarStrainIntegrability.A; the Part pass failed at RetainedPackOriginalAncestryPartSurvival.A;
-        the Field pass failed at ClayFieldFailureRealization.A / ClayRetainedPackPartGoodScaleNonCollapse.A.
+        Clay-ready contradiction is not. The Pack pass failed at SameSolutionTerminalPackRetention.A,
+        with TerminalCollarStrainIntegrability.A demoted to a continuation-strength
+        sufficient condition unless a weaker Pack mechanism is supplied; the Part
+        pass failed at RetainedPackOriginalAncestryPartSurvival.A; the Field pass
+        failed at ClayFieldFailureRealization.A / ClayRetainedPackPartGoodScaleNonCollapse.A.
     - candidate_id: manuscript_scaffold
       kind: d8_route_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -272,14 +276,14 @@ readiness_evidence:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: '09dc2f4965a789571e5c5dfb1c6429b5417553df'
-          bytes: 3916993
+          sha1: 23bc802c7ebe6fe4b3ad3b8b1a5c512c996c8f65
+          bytes: 3919427
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
           path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
           present: true
-          sha1: c75f95374bc9034a110276e5b865e56f7f8ca1c1
+          sha1: 86dcaf89ff27ec2c8863d9063f09513c9a1f7e14
           bytes: 462148
           manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
           required_for_clay_submission: true
