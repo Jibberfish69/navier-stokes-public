@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-08T05:18:28Z'
+  evaluated_at: '2026-06-08T05:28:59Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: blocked
@@ -31,14 +31,6 @@ artifacts:
   review_log: problems/navier-stokes/review-log.md
   review_verdict: problems/navier-stokes/review-verdict.yaml
 blockers:
-- The theorem packet localizes definitions, lemma surfaces, theorem statement, and
-  proof dependencies strongly enough to support export-facing review.
-- The recorded primary manuscript surface is `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`,
-  and it is the export-ready paper source for this package.
-- Draft checkpoints are retained as support; the submission-bundle manuscript is the
-  live export surface.
-- The current package is coherent enough to clear a full-MPP closure release if the
-  export bundle remains intact.
 - 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
   Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay obstruction,
   or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
