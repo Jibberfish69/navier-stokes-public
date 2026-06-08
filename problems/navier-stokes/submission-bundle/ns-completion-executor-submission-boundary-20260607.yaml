@@ -16,14 +16,14 @@ pdf_render_status:
     human_app_aligned:
       path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       present: true
-      sha1: 8e5c6b2b6cfaeeefc30650f2e07966f3bdc1b1f2
-      bytes: 3935056
+      sha1: cc5374f24b95347640dc8c7dc904149d24c95f90
+      bytes: 3935044
       manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
       required_for_clay_submission: true
     codex_machine_paper:
       path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
       present: true
-      sha1: 5f1fd9f1bd2ed4ef59aa93ece8dfae4551666298
+      sha1: 4d64763fd1cd5ff91ecf6d7f64f9d2c40dfdbde9
       bytes: 463096
       manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
       required_for_clay_submission: true
