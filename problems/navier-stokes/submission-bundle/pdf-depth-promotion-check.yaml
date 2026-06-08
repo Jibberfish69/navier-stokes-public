@@ -1,8 +1,8 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T08:50:23Z'
-started_at: '2026-06-08T08:50:13Z'
+generated_at: '2026-06-08T09:04:21Z'
+started_at: '2026-06-08T09:04:12Z'
 status: passed
 purpose: Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into
   the human/app-aligned TeX/PDF path, export the separate Codex Clay-facing paper,
@@ -77,5 +77,5 @@ gates:
     codex_machine_paper: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
   papers_pdf_pages: 47
   human_pdf_pages: 1081
-  sha256: e03744631107d41ee9cd93ddab0874d3a64f0794f7b2b37eb19c2822b5911711
+  sha256: aad33d165b7155bc0d2d29a8e3fd0797e2f1ae994e2bf46381fb26d893ccf5d5
   errors: []
