@@ -255,6 +255,7 @@ FAMILIES = [
       theorem-construction/mpp-terminal-collar-strain-integrability-proof-method-audit-20260607.md
       theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md
       theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md
+      theorem-construction/mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md
       theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
       theorem-construction/ns-completion-executor-proof-frontier-20260607.md
     ]
