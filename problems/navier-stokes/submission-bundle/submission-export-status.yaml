@@ -150,3 +150,6 @@ source_wall_root_cm_status: Start with the alleged finite-time Clay terminal wit
   surfaces are support when they conflict with live-theorem-edge.yaml or target-operating-contract.yaml.
   The forward-positive quarantine index keeps 1853 scanned surfaces out of CM authority
   unless a named bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
+stdout: ''
+stderr: ''
+fallback:
