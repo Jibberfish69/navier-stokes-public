@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T06:18:05Z'
+generated_at: '2026-06-08T06:36:54Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -13,16 +13,16 @@ pdf_tracks: &2
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     role: preferred problems/** app-aligned human submission track
     present: true
-    bytes: 3935044
-    sha1: e8e28f537ea8dbe5b07581aae2d699fd354aeae3
+    bytes: 3937748
+    sha1: dc6b86b5d2bf7bae0a8392e43219d99c84447555
     required_for_clay_submission: true
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   codex_machine_paper:
     path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
     role: papers/** Codex-owned Clay-facing submission paper track
     present: true
-    bytes: 463096
-    sha1: 7e7ed375cc54983fbdcb28b327472f81fa0bdc5d
+    bytes: 463237
+    sha1: 766dcc7e908da0f40ce67c9443bbc02590582b5a
     required_for_clay_submission: true
     manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
@@ -36,7 +36,7 @@ authoritative_content_included: true
 authoritative_supplements: []
 codex_machine_manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 submission_ready: false
-readiness_blocker: 'Completion readiness still has 30 candidate(s): root_submission_verdict:not-ready,
+readiness_blocker: 'Completion readiness still has 29 candidate(s): root_submission_verdict:not-ready,
   root_submission_verdict:blockers, root_submission_verdict:required_before_submission,
   root_submission_verdict:adversarial_findings, root_submission_verdict:posture, root_submission_verdict:nested-alignment-status.'
 manuscript_tex_sha1: 22410803acb2c39f64518fcec2432432cdd38a15
@@ -81,7 +81,7 @@ readiness_evidence:
   completion_readiness:
     status: blocked
     submission_ready: false
-    candidate_count: 30
+    candidate_count: 29
     candidates:
     - candidate_id: root_submission_verdict:not-ready
       kind: submission_verdict
@@ -94,13 +94,13 @@ readiness_evidence:
       evidence: 'blockers=codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
         Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
         obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
-        proof.; codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove
-        a direct noncircular R3 H^s tail theorem or strengthen dyadic survivor face
-        landing into an accepted whole-space endpoint exclusion.; codex-gap-attack-log:contract-readiness-after-manuscript-expansion:
+        proof.; codex-gap-attack-log:contract-readiness-after-manuscript-expansion:
         After the bridge is proved or the conclusion is otherwise closed, rerun the
         contract check and update provenance with the contract result.; codex-pdf-provenance:clay-readiness-not-claimed:
         Replace the conditional provenance with a proved Clay-closing bridge before
-        submission readiness.'
+        submission readiness.; clay-counterexample-gap-audit:finite-breakdown-exclusion-open:
+        Prove the Clay-closing bridge or replace the closing argument with a noncircular
+        finite-breakdown exclusion.'
       required_action: Resolve blockers before submission readiness.
     - candidate_id: root_submission_verdict:required_before_submission
       kind: submission_verdict
@@ -158,15 +158,15 @@ readiness_evidence:
       kind: submission_verdict
       surface: problems/navier-stokes/submission-verdict.yaml
       evidence: open_blockers=codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
-        (papers/navier-stokes/review/codex-gap-attack-log.yaml); codex-gap-attack-log:r3-exterior-high-order-tail-closure
         (papers/navier-stokes/review/codex-gap-attack-log.yaml); codex-gap-attack-log:contract-readiness-after-manuscript-expansion
         (papers/navier-stokes/review/codex-gap-attack-log.yaml); codex-pdf-provenance:clay-readiness-not-claimed
-        (papers/navier-stokes/review/authoritative-pdf-provenance-2026-06-07.md)
+        (papers/navier-stokes/review/authoritative-pdf-provenance-2026-06-07.md);
+        clay-counterexample-gap-audit:finite-breakdown-exclusion-open (problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md)
       required_action: Resolve nested proof/submission blockers.
     - candidate_id: root_submission_verdict:nested-completion-candidates
       kind: submission_verdict
       surface: problems/navier-stokes/submission-verdict.yaml
-      evidence: completion_candidate_count=5
+      evidence: completion_candidate_count=4
       required_action: Resolve nested completion candidates.
     - candidate_id: bundle_submission_verdict:not-ready
       kind: submission_verdict
@@ -179,13 +179,13 @@ readiness_evidence:
       evidence: 'blockers=codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
         Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
         obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
-        proof.; codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove
-        a direct noncircular R3 H^s tail theorem or strengthen dyadic survivor face
-        landing into an accepted whole-space endpoint exclusion.; codex-gap-attack-log:contract-readiness-after-manuscript-expansion:
+        proof.; codex-gap-attack-log:contract-readiness-after-manuscript-expansion:
         After the bridge is proved or the conclusion is otherwise closed, rerun the
         contract check and update provenance with the contract result.; codex-pdf-provenance:clay-readiness-not-claimed:
         Replace the conditional provenance with a proved Clay-closing bridge before
-        submission readiness.'
+        submission readiness.; clay-counterexample-gap-audit:finite-breakdown-exclusion-open:
+        Prove the Clay-closing bridge or replace the closing argument with a noncircular
+        finite-breakdown exclusion.'
       required_action: Resolve blockers before submission readiness.
     - candidate_id: bundle_submission_verdict:required_before_submission
       kind: submission_verdict
@@ -243,15 +243,15 @@ readiness_evidence:
       kind: submission_verdict
       surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
       evidence: open_blockers=codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
-        (papers/navier-stokes/review/codex-gap-attack-log.yaml); codex-gap-attack-log:r3-exterior-high-order-tail-closure
         (papers/navier-stokes/review/codex-gap-attack-log.yaml); codex-gap-attack-log:contract-readiness-after-manuscript-expansion
         (papers/navier-stokes/review/codex-gap-attack-log.yaml); codex-pdf-provenance:clay-readiness-not-claimed
-        (papers/navier-stokes/review/authoritative-pdf-provenance-2026-06-07.md)
+        (papers/navier-stokes/review/authoritative-pdf-provenance-2026-06-07.md);
+        clay-counterexample-gap-audit:finite-breakdown-exclusion-open (problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md)
       required_action: Resolve nested proof/submission blockers.
     - candidate_id: bundle_submission_verdict:nested-completion-candidates
       kind: submission_verdict
       surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
-      evidence: completion_candidate_count=5
+      evidence: completion_candidate_count=4
       required_action: Resolve nested completion candidates.
     - candidate_id: submission_export_status:posture
       kind: submission_export_status
@@ -266,12 +266,6 @@ readiness_evidence:
       required_action: Prove that an Exit(Q;O_work) record cannot be the actual finite
         terminal Clay obstruction, or replace the closing argument with a noncircular
         endpoint compactness/minimal-counterexample proof.
-    - candidate_id: codex-gap-attack-log:r3-exterior-high-order-tail-closure
-      kind: clay_closing_gap
-      surface: papers/navier-stokes/review/codex-gap-attack-log.yaml
-      evidence: R3 exterior high-order tail closure
-      required_action: Either prove a direct noncircular R3 H^s tail theorem or strengthen
-        dyadic survivor face landing into an accepted whole-space endpoint exclusion.
     - candidate_id: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
       kind: clay_closing_gap
       surface: papers/navier-stokes/review/codex-gap-attack-log.yaml
@@ -303,7 +297,7 @@ readiness_evidence:
       submission_verdict_agreement_candidates: 25
       pdf_track_candidates: 0
       current_material_candidates: 0
-      clay_closing_gap_candidates: 5
+      clay_closing_gap_candidates: 4
       stale_readiness_ref_candidates: 0
     pdf_tracks_rendered: true
     pdf_render_status: &1
@@ -313,15 +307,15 @@ readiness_evidence:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: e8e28f537ea8dbe5b07581aae2d699fd354aeae3
-          bytes: 3935044
+          sha1: dc6b86b5d2bf7bae0a8392e43219d99c84447555
+          bytes: 3937748
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
           path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
           present: true
-          sha1: 7e7ed375cc54983fbdcb28b327472f81fa0bdc5d
-          bytes: 463096
+          sha1: 766dcc7e908da0f40ce67c9443bbc02590582b5a
+          bytes: 463237
           manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
           required_for_clay_submission: true
       preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
