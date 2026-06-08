@@ -244,3 +244,6 @@ source_wall_root_cm_status: Start with the alleged finite-time Clay terminal wit
   unless a named bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
 submission_posture: blocked
 readiness_status: clay-closing-bridge-open
+stdout: ''
+stderr: ''
+fallback:
