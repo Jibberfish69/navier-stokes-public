@@ -6,6 +6,9 @@ require "time"
 require "yaml"
 require "digest"
 
+require_relative "../../../system/runner/lib/paper_factory_workspace"
+require_relative "../../../system/runner/lib/mpp_pdf_contract_gate_support"
+
 ROOT = Pathname.new("/Users/thomasbirnie/Workspace/ToE/Research-Consolidation").freeze
 PROBLEM_ROOT = ROOT.join("problems/navier-stokes").freeze
 ROUTE_LOCK_PATH = PROBLEM_ROOT.join("route-lock.yaml").freeze
@@ -355,13 +358,24 @@ def stale_review_blocker?(entry)
     text == "Typeset audit changed after the current review verdict was written."
 end
 
+def mpp_pdf_contract_clear?
+  @mpp_pdf_contract_clear ||= begin
+    workspace = PaperFactoryRuntime::Workspace.new(ROOT)
+    PaperFactoryRuntime::MppPdfContractGateSupport.clear?(workspace, "navier-stokes")
+  end
+end
+
+def stale_mpp_pdf_contract_blocker?(entry)
+  mpp_pdf_contract_clear? && entry.to_s.include?("MPP PDF contract blocks export")
+end
+
 def refresh_submission_verdict_review_observations!(verdict, observations)
   return verdict unless verdict.is_a?(Hash)
 
   verdict["manuscript_surface"] ||= {}
   verdict["manuscript_surface"]["review_observations"] = observations
   verdict["manuscript_surface"]["recommended_submission_surface"] = observations.dig("primary_manuscript", "path")
-  verdict["blockers"] = Array(verdict["blockers"]).reject { |entry| stale_review_blocker?(entry) }
+  verdict["blockers"] = Array(verdict["blockers"]).reject { |entry| stale_review_blocker?(entry) || stale_mpp_pdf_contract_blocker?(entry) }
   verdict["submission_posture"] = "submission-candidate" if Array(verdict["blockers"]).empty?
   verdict["submission_ready"] = true if Array(verdict["blockers"]).empty?
   verdict
@@ -928,6 +942,7 @@ def sanitize_submission_verdict(verdict)
   end
   blockers.reject! { |entry| entry.to_s.include?("Exact live theorem-grade burden:") }
   blockers.reject! { |entry| entry.to_s.include?("TerminalCMNoExit.A") || entry.to_s.include?("NoGenuineCMExit.A") }
+  blockers.reject! { |entry| stale_mpp_pdf_contract_blocker?(entry) }
   verdict["blockers"] = blockers
   apply_cm_referee_gate_to_submission!(verdict)
   attach_target_topology!(verdict)
