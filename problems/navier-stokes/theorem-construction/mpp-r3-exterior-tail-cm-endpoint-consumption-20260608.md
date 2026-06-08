@@ -133,6 +133,7 @@ strengthen dyadic survivor face landing into an accepted whole-space endpoint
 exclusion.
 ```
 
-The remaining live theorem gap is still the Clay-closing bridge: the manuscript
-must prove that a classified Pack/Part/Field class exit cannot be the actual
-finite terminal Clay obstruction for the same original smooth-data solution.
+No active generic Clay-closing bridge remains after the finite-obstruction
+inventory reconciliation. A future R3 reopening has to name a concrete
+whole-space terminal obstruction row that lacks same-solution CM entry or a
+derived Pack, Part, or Field face.
