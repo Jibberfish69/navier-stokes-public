@@ -444,6 +444,8 @@ def refresh_submission_verdict_review_observations!(verdict, observations)
   verdict["manuscript_surface"]["review_observations"] = observations
   verdict["manuscript_surface"]["recommended_submission_surface"] = observations.dig("primary_manuscript", "path")
   verdict["blockers"] = Array(verdict["blockers"]).reject { |entry| stale_review_blocker?(entry) || stale_mpp_pdf_contract_blocker?(entry) }
+  return verdict if clay_closing_gap_open?
+
   verdict["submission_posture"] = "submission-candidate" if Array(verdict["blockers"]).empty?
   verdict["submission_ready"] = true if Array(verdict["blockers"]).empty?
   verdict
@@ -952,6 +954,19 @@ def sanitize_submission_export_status(status)
   status["stdout"] = ""
   status["stderr"] = ""
   status["fallback"] = nil
+  if clay_closing_gap_open?
+    readiness = PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement.assessment(
+      ROOT,
+      require_current_submission_ready_flags: false,
+      ignore_export_submission_ready_flag: true,
+      ignore_child_paper_repo_dirty: true
+    )
+    status["submission_ready"] = false
+    status["submission_posture"] = "blocked"
+    status["readiness_status"] = "clay-closing-bridge-open"
+    status["readiness_evidence"] = status["readiness_evidence"].is_a?(Hash) ? status["readiness_evidence"] : {}
+    status["readiness_evidence"]["completion_readiness"] = readiness
+  end
   status
 end
 
@@ -1437,8 +1452,8 @@ def sanitize_release_manifest(manifest)
     manifest["status"] = "blocked"
     manifest["pass"] = false
     manifest["release_eligible"] = false
-    manifest["release_gate"] = "cm-contrapositive-referee-blocked"
-    manifest["bundle_status"] = "cm-contrapositive-referee-blocked"
+    manifest["release_gate"] = "clay-closing-bridge-open"
+    manifest["bundle_status"] = "clay-closing-bridge-open"
     manifest["terminal_safe"] = false
     manifest["required_before_terminal_release"] = cm_referee_blockers
     manifest["cm_contrapositive_referee_gate"] = cm_referee_gate_payload
@@ -1451,16 +1466,16 @@ def sanitize_release_manifest(manifest)
       end
       auto_audit = source_summary["auto_audit_certification"]
       if auto_audit.is_a?(Hash)
-        auto_audit["theorem_packet_status"] = "referee-blocked"
-        auto_audit["current_package_status"] = "referee-blocked-cm-contrapositive"
-        auto_audit["standalone_status"] = "referee-blocked"
+        auto_audit["theorem_packet_status"] = "blocked"
+        auto_audit["current_package_status"] = "clay-closing-bridge-open"
+        auto_audit["standalone_status"] = "blocked"
       end
       source_summary["existing_assumption_ledger_status"] = {
-        "ledger_status" => "blocked-cm-contrapositive-referee-audit",
+        "ledger_status" => "clay-closing-bridge-open",
         "direct_live_authority_all_discharged" => true,
         "cm_contrapositive_referee_gate_clear" => false,
         "release_eligible" => false,
-        "release_gate" => "cm-contrapositive-referee-blocked"
+        "release_gate" => "clay-closing-bridge-open"
       }
     end
   end
