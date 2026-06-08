@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T05:11:01Z'
+generated_at: '2026-06-08T05:30:49Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -45,7 +45,7 @@ manuscript_tex_sha1: 22410803acb2c39f64518fcec2432432cdd38a15
 completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
 readiness_evidence:
   source_frontier_clear: true
-  open_d8_proof_blockers: 0
+  open_d8_proof_blockers: 6
   completion_candidate_count: 6
   completion_candidates:
   - candidate_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
@@ -255,6 +255,6 @@ source_wall_root_cm_status: Start with the alleged finite-time Clay terminal wit
   unless a named bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
 stdout: ''
 stderr: ''
-fallback:
+fallback: 
 submission_posture: blocked
 readiness_status: clay-closing-bridge-open
