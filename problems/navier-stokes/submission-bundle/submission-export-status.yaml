@@ -8,7 +8,7 @@ manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submis
 bundle_dir: problems/navier-stokes/submission-bundle
 preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
 pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-pdf_tracks: &3
+pdf_tracks: &2
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     role: preferred problems/** app-aligned human submission track
@@ -64,7 +64,7 @@ readiness_evidence:
       clay_closing_gap_candidates: 0
       stale_readiness_ref_candidates: 0
     pdf_tracks_rendered: true
-    pdf_render_status: &2
+    pdf_render_status:
       status: rendered
       rendered: true
       tracks:
@@ -97,12 +97,30 @@ readiness_evidence:
         manuscript_unresolved_candidates: 0
   pdf_tracks_present: true
   pdf_tracks_rendered: true
-  pdf_render_status: *2
-  pdf_tracks: *3
+  pdf_render_status: &3
+    status: rendered
+    rendered: true
+    tracks:
+      human_app_aligned:
+        path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+        present: true
+        sha1: 2a4b7e60462092812d08bd8792a815829101df5c
+        bytes: 3939117
+        manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+        required_for_clay_submission: true
+      codex_machine_paper:
+        path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+        present: true
+        sha1: 7d57c6a1ee185c1c09efe9faa3ff90f33cddaca2
+        bytes: 462978
+        manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
+        required_for_clay_submission: true
+    preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  pdf_tracks: *2
 readiness_note: Both required Navier-Stokes PDF tracks are rendered and proof/manuscript/app
   readiness evidence is clear.
 pdf_tracks_rendered: true
-pdf_render_status: *2
+pdf_render_status: *3
 source_wall_root_cm_status: Start with the alleged finite-time Clay terminal witness
   from the same original smooth Navier-Stokes datum. Force that witness into the same-fluid
   canonical CM terminal packet tree, exhaust its finite failure type as not Pack_Q,
@@ -121,3 +139,6 @@ source_wall_root_cm_status: Start with the alleged finite-time Clay terminal wit
   unless a named bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
 submission_posture: submission-candidate
 readiness_status: ready
+stdout: ''
+stderr: ''
+fallback:
