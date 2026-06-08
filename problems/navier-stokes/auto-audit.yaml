@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-08T06:39:10Z'
+  audited_at: '2026-06-08T06:51:37Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: clay-closing-bridge-open
@@ -42,7 +42,7 @@ downstream_overlay_drift: &1
     - 'dashboard_unresolved_count: 0'
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: e1b2af5b304d904cd066e77f2bcfb5de811b2849
+    sha1: f6993fdc833344f5b69478be383629c626c59583
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -54,21 +54,18 @@ downstream_overlay_drift: &1
     - submission-candidate
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
-    sha1: 4bc6fdb1815ca303a0a711f477b342930bc0364f
+    sha1: 58282543b3564b1f8cb67ac9f3a084b7c734b211
     matched_terms:
     - direct-live-surfaces
     - authority_gate_mode
-    - cm witness-face
-    - witness-face
     - cm witness
-    - pctp.hard
     - installed
     - discharged
     - 'all_discharged: true'
     - submission-candidate
   - artifact: dependency_discharge
     path: problems/navier-stokes/dependency-discharge.yaml
-    sha1: aeaf02f00065a35005e6e3d54aee40803af00bfa
+    sha1: a9c071766a0e0ff5c87bf2ad3bb4ea3c4e296733
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -77,7 +74,7 @@ downstream_overlay_drift: &1
   stale_overlays:
   - artifact: release_decision
     path: problems/navier-stokes/release-decision.yaml
-    sha1: b4d38a6972c5534f2c39ed183d12cb10ec654ed5
+    sha1: e47e5048a536e8d7dbd08e125e5964e5d8b1149b
     matched_terms:
     - target fidelity failure
     - target fidelity blocker
@@ -269,6 +266,13 @@ surface_snapshot:
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
 issues:
+- issue_id: stale-review-verdict
+  severity: major
+  summary: Review verdict is stale relative to the current manuscript artifacts.
+  autofixable: false
+  recommended_action: Run honesty-review to refresh the review verdict.
+  details:
+  - Submission export status changed after the current review verdict was written.
 - issue_id: downstream-overlay-drift
   severity: major
   summary: Generated theorem/review/release overlays still advertise stale blockers
