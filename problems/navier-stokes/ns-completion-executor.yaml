@@ -1,9 +1,9 @@
 ---
 version: 1
-artifact_id: nightly-six-mpp-ns-completion-executor-2026-06-07
+artifact_id: nightly-six-mpp-ns-completion-executor-2026-06-08
 status: executed
-date: '2026-06-07'
-generated_at: '2026-06-08T07:05:24Z'
+date: '2026-06-08'
+generated_at: '2026-06-08T07:29:11Z'
 engine_ref: ns-completion-engine.yaml
 engine_goal: complete the NS repo/app/graph/PDF proof system
 lane_results: &5
@@ -34,10 +34,10 @@ lane_results: &5
   consumed_work_node_ids: *1
   input_refs: []
   output_refs:
-  - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260607.md
+  - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260608.md
   state_delta: changed proof lane by applying theorem legitimacy first and preserving
     Pack/Part/Field face landing before proof execution
-  handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260607.md'
+  handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260608.md'
 - lane_id: graph_app_mcp_lane
   status: executed
   iteration_index: 1
@@ -66,13 +66,13 @@ lane_results: &5
   consumed_work_node_ids: *2
   input_refs: []
   output_refs:
-  - problems/navier-stokes/ns-completion-executor-route-sync-20260607.yaml
-  - problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+  - problems/navier-stokes/ns-completion-executor-route-sync-20260608.yaml
+  - problems/navier-stokes/ns-completion-route-sync-payload-20260608.yaml
   - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
   state_delta: changed graph/app/MCP lane by binding route sync to the proof-lane
     output
-  handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/ns-completion-executor-route-sync-20260607.yaml,
-    problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml, system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml'
+  handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/ns-completion-executor-route-sync-20260608.yaml,
+    problems/navier-stokes/ns-completion-route-sync-payload-20260608.yaml, system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml'
 - lane_id: manuscript_lane
   status: executed
   iteration_index: 1
@@ -100,10 +100,10 @@ lane_results: &5
   consumed_work_node_ids: *3
   input_refs: []
   output_refs:
-  - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607.md
+  - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260608.md
   state_delta: changed manuscript lane by creating reader-facing proof scaffold from
     earned proof movement only
-  handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607.md'
+  handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260608.md'
 - lane_id: submission_lane
   status: executed
   iteration_index: 1
@@ -131,15 +131,15 @@ lane_results: &5
   consumed_work_node_ids: *4
   input_refs: []
   output_refs:
-  - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607.yaml
-  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+  - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260608.yaml
+  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608.yaml
   - problems/navier-stokes/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-export-status.yaml
   state_delta: changed submission lane by keeping readiness blocked until proof/PDF
     evidence moves
-  handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607.yaml,
-    problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml,
+  handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260608.yaml,
+    problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608.yaml,
     problems/navier-stokes/submission-verdict.yaml, problems/navier-stokes/submission-bundle/submission-verdict.yaml,
     problems/navier-stokes/submission-bundle/submission-export-status.yaml'
 reentry_iterations:
@@ -147,13 +147,13 @@ reentry_iterations:
   status: executed
   lane_results: *5
   changed_state_refs: &7
-  - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260607.md
-  - problems/navier-stokes/ns-completion-executor-route-sync-20260607.yaml
-  - problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+  - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260608.md
+  - problems/navier-stokes/ns-completion-executor-route-sync-20260608.yaml
+  - problems/navier-stokes/ns-completion-route-sync-payload-20260608.yaml
   - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-  - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607.md
-  - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607.yaml
-  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+  - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260608.md
+  - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260608.yaml
+  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608.yaml
   - problems/navier-stokes/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-export-status.yaml
@@ -171,10 +171,10 @@ reentry_iterations:
     consumed_work_node_ids: *1
     input_refs: *7
     output_refs:
-    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-    state_delta: blocked proof lane exactly on the still-open Pack/Part/Field face;
-      theorem closure is not claimed
-    handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md'
+    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260608-iteration-2.md
+    state_delta: completed proof lane against the current source frontier with no
+      unresolved live theorem obligations
+    handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260608-iteration-2.md'
   - lane_id: graph_app_mcp_lane
     status: executed
     iteration_index: 2
@@ -182,13 +182,12 @@ reentry_iterations:
     consumed_work_node_ids: *2
     input_refs: *7
     output_refs:
-    - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+    - problems/navier-stokes/ns-completion-executor-route-sync-20260608-iteration-2.yaml
+    - problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
     - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-    state_delta: blocked graph/app/MCP promotion exactly until the proof blocker changes
-      or closes
-    handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml,
-      problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml,
+    state_delta: completed graph/app/MCP sync with no open D8 blockers
+    handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/ns-completion-executor-route-sync-20260608-iteration-2.yaml,
+      problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml,
       system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml'
   - lane_id: manuscript_lane
     status: executed
@@ -197,10 +196,10 @@ reentry_iterations:
     consumed_work_node_ids: *3
     input_refs: *7
     output_refs:
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-    state_delta: blocked manuscript promotion exactly until earned proof movement
-      exists
-    handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md'
+    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260608-iteration-2.md
+    state_delta: completed manuscript lane against the rebuilt human/app-aligned and
+      Codex-structured PDF tracks
+    handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260608-iteration-2.md'
   - lane_id: submission_lane
     status: executed
     iteration_index: 2
@@ -208,25 +207,25 @@ reentry_iterations:
     consumed_work_node_ids: *4
     input_refs: *7
     output_refs:
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260608-iteration-2.yaml
+    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608-iteration-2.yaml
     - problems/navier-stokes/submission-verdict.yaml
     - problems/navier-stokes/submission-bundle/submission-verdict.yaml
     - problems/navier-stokes/submission-bundle/submission-export-status.yaml
     state_delta: completed submission lane with both required PDF tracks present and
       route-state readbacks aligned
-    handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml,
-      problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml,
+    handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260608-iteration-2.yaml,
+      problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608-iteration-2.yaml,
       problems/navier-stokes/submission-verdict.yaml, problems/navier-stokes/submission-bundle/submission-verdict.yaml,
       problems/navier-stokes/submission-bundle/submission-export-status.yaml'
   changed_state_refs:
-  - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-  - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-  - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+  - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260608-iteration-2.md
+  - problems/navier-stokes/ns-completion-executor-route-sync-20260608-iteration-2.yaml
+  - problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
   - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-  - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-  - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+  - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260608-iteration-2.md
+  - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260608-iteration-2.yaml
+  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608-iteration-2.yaml
   - problems/navier-stokes/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-export-status.yaml
@@ -270,13 +269,13 @@ terminal_state: &11
   - ns-submission-readiness
   open_blockers: []
   evidence_refs:
-  - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-  - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-  - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+  - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260608-iteration-2.md
+  - problems/navier-stokes/ns-completion-executor-route-sync-20260608-iteration-2.yaml
+  - problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
   - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-  - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-  - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+  - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260608-iteration-2.md
+  - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260608-iteration-2.yaml
+  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608-iteration-2.yaml
   - problems/navier-stokes/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-export-status.yaml
@@ -285,34 +284,34 @@ reentry:
   loop_policy: feed executor outputs back until every work node is complete or exactly
     blocked
   changed_state_refs: &12
-  - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260607.md
-  - problems/navier-stokes/ns-completion-executor-route-sync-20260607.yaml
-  - problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+  - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260608.md
+  - problems/navier-stokes/ns-completion-executor-route-sync-20260608.yaml
+  - problems/navier-stokes/ns-completion-route-sync-payload-20260608.yaml
   - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-  - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607.md
-  - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607.yaml
-  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+  - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260608.md
+  - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260608.yaml
+  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608.yaml
   - problems/navier-stokes/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-  - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-  - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-  - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-  - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-  - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+  - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260608-iteration-2.md
+  - problems/navier-stokes/ns-completion-executor-route-sync-20260608-iteration-2.yaml
+  - problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
+  - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260608-iteration-2.md
+  - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260608-iteration-2.yaml
+  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608-iteration-2.yaml
   next_work_order_inputs:
   - ns-completion-engine.yaml
   - ns-completion-executor.yaml
   - strategic-work-selection.yaml
   - completion-depth-plan.yaml
-  - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-  - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-  - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+  - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260608-iteration-2.md
+  - problems/navier-stokes/ns-completion-executor-route-sync-20260608-iteration-2.yaml
+  - problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
   - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-  - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-  - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+  - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260608-iteration-2.md
+  - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260608-iteration-2.yaml
+  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608-iteration-2.yaml
   - problems/navier-stokes/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-export-status.yaml
