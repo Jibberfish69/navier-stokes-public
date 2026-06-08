@@ -31,7 +31,9 @@ HUMAN_SUBMISSION_PDF = BUNDLE_ROOT.join("navier-stokes-human-submission.pdf")
 
 MIN_SOURCE_FIELD_WORDS = 300_000
 MIN_SURFACE_DERIVATION_ROWS = 3_000
-MIN_AUTHORITATIVE_PAGES = 1_000
+MIN_HUMAN_APP_ALIGNED_PAGES = 1_000
+MIN_CODEX_SUBMISSION_PAGES = 10
+MAX_CODEX_SUBMISSION_PAGES = 120
 
 REQUIRED_TEX_INPUTS = %w[
   proof-attempt-failure-appendix.tex
@@ -39,12 +41,19 @@ REQUIRED_TEX_INPUTS = %w[
   surface-derivation-appendix.tex
 ].freeze
 
-REQUIRED_PDF_TEXT = {
-  "proof-attempt failure history" => /Proof Attempts And Failures To Prove Smoothness/i,
-  "source-field reader appendix" => /Source-Field Reader Appendix/i,
-  "source-field closure" => /The source field is long because the proof program is long/i,
-  "surface derivation branch obligations" => /Expanded Branch-Family Obligations/i,
+REQUIRED_CODEX_PDF_TEXT = {
+  "same-solution contrapositive title" => /Same-Solution Contrapositive/i,
+  "whole-space CM completion" => /Whole-Space CM Completion/i,
+  "Clay smoothness conclusion" => /Clay Smoothness Conclusion/i,
+  "reader check" => /Reader Check/i,
   "CM face language" => /Pack, Part, and Field/i
+}.freeze
+
+FORBIDDEN_CODEX_DOSSIER_TEXT = {
+  "proof-attempt dossier appendix" => /Proof Attempts And Failures To Prove Smoothness/i,
+  "source-field reader appendix" => /Source-Field Reader Appendix/i,
+  "surface derivation appendix" => /Expanded Branch-Family Obligations/i,
+  "dossier-scale source-field closure" => /The source field is long because the proof program is long/i
 }.freeze
 
 def relative(path)
@@ -211,7 +220,7 @@ def sync_submission_export_status!
     ),
     "codex_machine_paper" => pdf_track_payload(
       CODEX_PAPER_PDF,
-      "papers/** Codex-owned machine paper track",
+      "papers/** Codex-owned Clay-facing submission paper track",
       "manuscript_source" => relative(CODEX_MAIN_TEX)
     )
   }
@@ -237,7 +246,7 @@ def sync_submission_export_status!
       "pdf_tracks_rendered" => tracks.values.all? { |track| track["present"] == true },
       "submission_ready" => ready,
       "readiness_blocker" => (ready ? nil : "Completion readiness still has #{readiness['candidate_count']} candidate(s): #{Array(readiness['candidates']).first(6).map { |entry| entry['candidate_id'] }.join(', ')}."),
-      "readiness_note" => "Both required Navier-Stokes PDF tracks are rendered and routed; submission_ready is governed by proof, manuscript, route-state, verdict, and child-repo readiness.",
+      "readiness_note" => "Both required Navier-Stokes PDF tracks are rendered and routed: the problems/** track is the full app-aligned dossier, and the papers/** track is the concise Codex-owned Clay-facing submission paper.",
       "readiness_evidence" => readiness_evidence
     )
   )
@@ -307,10 +316,14 @@ def dual_pdf_track_gate
     errors << "papers/Codex PDF missing"
   else
     papers_pages = pdf_page_count(CODEX_PAPER_PDF)
-    errors << "papers/Codex PDF has #{papers_pages} pages; minimum is #{MIN_AUTHORITATIVE_PAGES}" if papers_pages < MIN_AUTHORITATIVE_PAGES
+    errors << "papers/Codex PDF has #{papers_pages} pages; minimum Clay-facing submission proof contract is #{MIN_CODEX_SUBMISSION_PAGES}" if papers_pages < MIN_CODEX_SUBMISSION_PAGES
+    errors << "papers/Codex PDF has #{papers_pages} pages; maximum Clay-facing submission paper scale is #{MAX_CODEX_SUBMISSION_PAGES}; keep the long dossier in the human/app-aligned track" if papers_pages > MAX_CODEX_SUBMISSION_PAGES
     text = pdf_text(CODEX_PAPER_PDF)
-    REQUIRED_PDF_TEXT.each do |label, pattern|
+    REQUIRED_CODEX_PDF_TEXT.each do |label, pattern|
       errors << "papers/Codex PDF missing rendered #{label}" unless text.match?(pattern)
+    end
+    FORBIDDEN_CODEX_DOSSIER_TEXT.each do |label, pattern|
+      errors << "papers/Codex PDF imports forbidden #{label}; long dossier material belongs in the human/app-aligned track" if text.match?(pattern)
     end
     if text.match?(%r{problems/navier-stokes|submission-bundle|source-forensics|theorem-construction|system/runner})
       errors << "papers/Codex PDF exposes internal source path strings"
@@ -321,7 +334,7 @@ def dual_pdf_track_gate
     errors << "human/app-aligned PDF missing: #{relative(HUMAN_SUBMISSION_PDF)}"
   else
     human_pages = pdf_page_count(HUMAN_SUBMISSION_PDF)
-    errors << "human/app-aligned PDF has #{human_pages} pages; minimum is #{MIN_AUTHORITATIVE_PAGES}" if human_pages < MIN_AUTHORITATIVE_PAGES
+    errors << "human/app-aligned PDF has #{human_pages} pages; minimum app-dossier proof-role expansion contract is #{MIN_HUMAN_APP_ALIGNED_PAGES}" if human_pages < MIN_HUMAN_APP_ALIGNED_PAGES
   end
 
   tracks = export_status["pdf_tracks"].is_a?(Hash) ? export_status["pdf_tracks"] : {}
@@ -386,7 +399,7 @@ def build_result(commands, export_result, gates, started_at, status)
     "generated_at" => Time.now.utc.iso8601,
     "started_at" => started_at.iso8601,
     "status" => status,
-    "purpose" => "Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into the submission TeX/PDF path, and fail unless both required PDF tracks visibly carry the proof-depth anchors.",
+    "purpose" => "Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into the human/app-aligned TeX/PDF path, export the separate Codex Clay-facing paper, and fail unless both required PDF tracks visibly carry their distinct proof roles.",
     "authority" => {
       "source_manifest" => relative(NS_ROOT.join("paper-export-inputs.yaml")),
       "current_material_coverage" => relative(CURRENT_MATERIAL),
