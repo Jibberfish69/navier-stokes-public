@@ -1,15 +1,16 @@
 ---
 ns_viewer:
   theorem_id: averaged-terminal-cover-common-scheduler-reentry-20260607
-  status: narrowed-to-jumpavg-branch
+  status: resolved-cm-test-conditioned-face-law
   proof_role: route_reentry
   logical_landing_node: averaged_terminal_route
-  edge_effect: "Splits the averaged terminal cover/scheduler problem into the no-Jump_avg pass route and the Jump_avg branch that must be consumed before pointwise readout enters."
+  edge_effect: "Splits the averaged terminal cover/scheduler problem into the no-Jump_avg pass route and the Jump_avg branch, now consumed as a Field-face landing before pointwise readout enters."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-aact-global-finite-cover-scheduler-attempt.md
     - problems/navier-stokes/theorem-construction/mpp-tgc-a-cover-positive-scale-terminal-cover-note.md
     - problems/navier-stokes/theorem-construction/mcp-tgc-a-terminal-good-cover-scheduler-theorem.md
-  downstream_consequence: "Keeps READ.COVER, DTC.Read, Field.Read, READ.END, and End_NS downstream while the averaged endpoint route handles Jump_avg."
+    - problems/navier-stokes/theorem-construction/mpp-averaged-field-face-admission-20260607.md
+  downstream_consequence: "Keeps READ.COVER, DTC.Read, Field.Read, READ.END, and End_NS downstream; no-Jump_avg gives the scheduled averaged cover, while Jump_avg lands as forall r > 0, not Field_{N,r,Q} under retained Pack_Q and Part_{N,Q}."
 ---
 
 # Averaged Terminal Cover / Common Scheduler Reentry
@@ -30,8 +31,11 @@ or else failure of that cover/scheduler must land as `Jump_avg` without using
 `READ.COVER`, `DTC.Read`, `Field.Read`, `READ.END`, or any pointwise terminal
 readout upstream.
 
-This note does not close the Clay theorem. It moves the blocker from a generic
-"prove the cover" demand to the exact averaged branch split.
+This note does not close the Clay theorem by itself. It moves the blocker from a
+generic "prove the cover" demand to the exact averaged branch split, and the
+current checked split is now discharged in the CM-test-conditioned sense:
+no-`Jump_avg` supplies the scheduled averaged cover, while `Jump_avg` lands in
+the Field face through `AveragedFieldFaceAdmission.A`.
 
 ## Source Read
 
@@ -83,52 +87,62 @@ handoff to `DTC.A_avg`.
 
 On the bad branch, the obstruction is exactly `Jump_avg`: persistent terminal
 loss of positive SCF-good same-fluid scale, or terminal radius degeneration to
-zero. That branch may not be erased by pointwise terminal readout. It must be
-eliminated or consumed inside the averaged endpoint route.
+zero. That branch may not be erased by pointwise terminal readout. For the same
+CM-test-admitted averaged terminal tail, retained `Pack_Q` and `Part_{N,Q}` plus
+`AveragedFieldFaceAdmission.A` consume it as
 
-## Remaining Exact Blocker
+```math
+Jump_{avg}(T):=\neg Field_{avg}(T)
+\Longrightarrow
+\forall r>0\,\neg Field_{N,r,Q}.
+```
 
-The sharp missing theorem is not another generic finite-cover theorem. It is a
+## Checked Result
+
+The sharp missing theorem was not another generic finite-cover theorem. It was a
 branch-native `Jump_avg` discharge/consumption theorem.
 
 The most direct failed attempt is recorded in
 `mcp-jump_avg-separated-positive-defect-charge-lower-bound-obstruction-jump_avg-to-separated-positive-defect-charge-lower-bound-dcd5b58afe.md`.
-That attempt explains the current hard point: `Jump_avg` classifies loss of
-positive SCF-good averaged coherence, but the repo has not proved that this
-forces a nonzero terminal `h/F` survivor measure with separated positive
-scale-window mass.
+That attempt explains why the stronger no-escape route did not close:
+`Jump_avg` classifies loss of positive SCF-good averaged coherence, but the repo
+has not proved that this forces a nonzero terminal `h/F` survivor measure with
+separated positive scale-window mass.
 
-So the next exact theorem is:
+The checked CM primitive uses the smaller face-landing theorem instead:
 
 ```math
-Jump_{avg}
-\Longrightarrow
-\text{nonzero terminal }h/F\text{ survivor measure with separated positive scale-window mass},
+AveragedFieldFaceAdmission.A:
+\qquad
+Field_{N,r,Q}\Longrightarrow Field_{avg}(T)
 ```
 
-or a different branch-native route proving that `Jump_avg` is consumed by
-`CFI.A_avg + AVG.END.Cert` before `READ.COVER` enters.
+on the same admitted averaged tail. Its contrapositive consumes `Jump_avg` as
+the first remaining CM face failure under retained `Pack_Q` and `Part_{N,Q}`.
+The positive all-branches cover theorem from `OriginalSmoothData` still fails as
+a standalone cover theorem; the CM branch split is now honest and typed.
 
 ## CM Face Effect
 
-This narrows the live CM work but does not finish it. The averaged cover problem
-now has a clean face law:
+The averaged cover problem now has a clean face law:
 
 1. no `Jump_avg` gives the scheduled averaged cover and may continue to
    `DTC.A_avg`;
 2. cover degeneration is `Jump_avg`;
-3. `Jump_avg` remains open until the averaged endpoint route eliminates it or
-   lands it as a concrete CM face.
+3. on a CM-test-admitted averaged terminal tail with retained `Pack_Q` and
+   `Part_{N,Q}`, `Jump_avg` lands as
+   `forall r>0 not Field_{N,r,Q}`.
 
-Only after that face is proved can this branch support:
+That proved face supports:
 
 ```math
 Exit(Q):=\neg Member(Q).
 ```
 
-## Next Executable Task
+## Boundary
 
-Attack the branch-native `Jump_avg` lower/nontriviality theorem. Do not spend
-readout objects upstream. The first admissible proof object is the terminal
-`h/F` survivor measure or an equivalent averaged endpoint witness that can be
-shown nonzero on a separated positive scale-window family.
+Do not spend readout objects upstream. `READ.COVER`, `DTC.Read`, `Field.Read`,
+`READ.END`, and `End_NS` remain downstream of `End_NS_avg`. The unresolved
+`h/F` lower/nontriviality theorem may still be useful as a stronger source or
+no-escape theorem, but it is not the next required CM face primitive for this
+averaged branch.
