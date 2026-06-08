@@ -67,12 +67,6 @@ selected_surfaces:
   absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/paper-export-inputs.yaml"
   status: present
   exists: true
-- artifact_key: export_inputs
-  problem_id: navier-stokes
-  relative_path: problems/navier-stokes/paper/export-inputs.yaml
-  absolute_path: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/paper/export-inputs.yaml"
-  status: missing
-  exists: false
 - artifact_key: review_log
   problem_id: navier-stokes
   relative_path: problems/navier-stokes/review-log.md
