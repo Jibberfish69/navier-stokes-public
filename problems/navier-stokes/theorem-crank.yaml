@@ -4,10 +4,10 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-06-08T06:51:37Z'
+  generated_at: '2026-06-08T07:05:52Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
-  status: aligned
+  status: needs-sync
   theorem_surface:
     surface_id: theorem-surface-navier-stokes-afca8b68a2f8
     route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
@@ -41,8 +41,58 @@ shared_alignment:
       "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md",
       "problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md"]'
   promoted_obligation_count: 8
-  missing_promoted_obligation_count: 0
-  missing_promoted_obligations: []
+  missing_promoted_obligation_count: 8
+  missing_promoted_obligations:
+  - obligation_id: marvin-upstream-eb3fabeeac46
+    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
+      Clay whole-space target into exact source-backed ingredients already present
+      on the lane. On the classical side, isolated the mixed-jet system, the exact
+      rung-level can'
+    recommended_stage: object-formalization
+    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T014725Z-6ece27230fc9.md
+  - obligation_id: marvin-upstream-ada9835aa864
+    label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
+      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
+      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
+    recommended_stage: object-formalization
+    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T015459Z-d5f90422800c.md
+  - obligation_id: marvin-upstream-6d929e8a052a
+    label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
+      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
+      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
+      red'
+    recommended_stage: object-formalization
+    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T020719Z-04949830208e.md
+  - obligation_id: marvin-upstream-954339945793
+    label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
+      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
+      and E_sh(X) vanish identically, so the exact Route '
+    recommended_stage: object-formalization
+    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T020853Z-1ed78e356031.md
+  - obligation_id: marvin-upstream-96892bab139f
+    label: 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
+      target.'
+    recommended_stage: object-formalization
+    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T022825Z-ed5d2bb9bea4.md
+  - obligation_id: marvin-upstream-409f183ee495
+    label: 'Define or prove: Completed the Hopf/shuffle line as a theorem-program
+      refinement. The correct algebraic fit for the time tower is the divided-power
+      Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle'
+    recommended_stage: object-formalization
+    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260407T191622Z-e3045e4591c9.md
+  - obligation_id: marvin-upstream-c8f7cb511776
+    label: 'Define or prove: Formalized the refined direct Lagrangian route as a six-lemma
+      mainline: differentiated Lagrangian decomposition, deformation-adapted energy,
+      ellipticity window, coefficient-commutator absorption, no-loss pressure recovery, '
+    recommended_stage: object-formalization
+    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260407T194404Z-c14350fd2eb1.md
+  - obligation_id: marvin-upstream-e2f5b0a915cf
+    label: 'Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md
+      with a geometry-testing ladder for the elliptic test field W_test = A^T grad
+      Phi solving -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three
+      rungs: (1) ene'
+    recommended_stage: object-formalization
+    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260407T201618Z-94497e50e8c4.md
   route_authority_candidate_count: 48
   missing_route_authority_candidate_count: 0
   missing_route_authority_candidates: []
@@ -79,80 +129,52 @@ cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
   local_consequences:
-  - label: 'ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve
-      surplus with zero first moment cannot remain hidden: the signed-pair normal
-      form either exposes same-ledger active height flux, pays by ASAC / positive
-      pair-weight charge, lands immediately in Pack/Part/Field, or reduces to TerminalSignedSaturation.A,
-      whose failure is already CM face-reduction support. This supplies the exact
-      noncircular bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A
-      converting positive square-reserve surplus into active height flux or Pack/Part/Field
-      exit..'
+  - label: Canonical same-fluid CM witness packet tree with Pack_Q, Part_{N,Q}, and
+      Field_{N,r,Q} faces.
+    kind: definition
+    status: localized-proof
+    origin: local
+    source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+  - label: Member(Q) is the downstream class-membership predicate; Exit(Q):=not Member(Q)
+      is supported by Pack/Part/Field face failure.
+    kind: definition
+    status: localized-proof
+    origin: local
+    source_anchor: problems/navier-stokes/target-operating-contract.yaml
+  - label: A finite Clay breakdown witness from original smooth data is tested as
+      a CM-admissible terminal object, not assumed to be Member(Q).
+    kind: definition
+    status: localized-proof
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-to-warrant.yaml
+  - label: Every CM-test-admissible finite Clay terminal object from original smooth
+      data enters the same-fluid canonical CM packet tree.
     kind: lemma
+    status: localized-proof
+    origin: local
+    source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+  - label: Every finite failure type extracted from the canonical terminal witness
+      is exhausted by Pack_Q, Part_{N,Q}, or Field_{N,r,Q} face failure.
+    kind: lemma
+    status: localized-proof
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-repair.yaml
+  - label: The Pack/Part/Field face failure supports Exit(Q):=not Member(Q), while
+      the pass branch remains the only legal in-class continuation branch.
+    kind: lemma
+    status: localized-proof
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-to-warrant.yaml
+  - label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
+    kind: support-only-audit-target
+    status: support-only
+    origin: local
+    source_anchor: problems/navier-stokes/dependency-discharge.yaml
+  - label: ActiveHeightFluxTrichotomy.A
+    kind: invented-bridge-lemma
     status: localized-support
     origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
-  - label: CSP.A. On the retained same-fluid collar, LCI.A together with the installed
-      post-LCI source ledger FCI.5f supplies the collar source-pressure package; OFP.A,
-      CFI.A, endpoint readout, and Field remain downstream consumers, with Member
-      following only after the CM witness certificate.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
-  - label: 'HeightFluxControl.A. Turn the remaining positive source-reserve birth
-      charge into the first proof-facing sampling theorem: a first large retained
-      height-flux event must create Pack gain, Part/dwell failure, legal Field source
-      charge, or a Zeno terminal residue atom. This supplies the exact noncircular
-      bridge needed for Create the recursive theorem subprimitive HeightFluxControl.A
-      exposed by the previous theorem-creation packet, instead of mutating a neighboring
-      route..'
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260523.md
-  - label: 'HeightFluxControl.A. Turn the remaining positive source-reserve birth
-      charge into the first proof-facing sampling theorem: a first large retained
-      height-flux event must create Pack gain, Part/dwell failure, legal Field source
-      charge, or a Zeno terminal residue atom. This supplies the exact noncircular
-      bridge needed for Create the native theorem route HeightFluxControl.A after
-      the supplier chain PositiveRemainderDepletion.A stopped serving the source-reserve
-      CM-exit target..'
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260525.md
-  - label: LCI.A. On a retained same-fluid interval with bounded Pack gauge and the
-      ordered ACT.KX receiver package installed, ACT.X-Readout gives ACT.A, ACT.A
-      gives RCF.A through the transported-center residual package, and ULCI.A/DTC.C
-      yields lower-carrier interval integrability; FCI.5f, CSP.A, OFP.A, CFI.A, endpoint
-      readout, and Field remain downstream consumers, with Member downstream of the
-      CM witness certificate.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/lci-a-theorem-creation-20260522.md
-  - label: OFP.A. The collar source-pressure package CSP.A propagates the retained
-      one-field package on the same-fluid interval, with CFI.A, endpoint readout,
-      and Field kept downstream; Member is downstream of the CM witness certificate.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/ofp-a-theorem-creation-20260522.md
-  - label: ParabolicEdgeResistance.A. After signed-current localization and boundary
-      pricing, the cycle heat action controls the parabolic edge resistance required
-      by the live frontier.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/parabolicedgeresistance-a-theorem-creation-20260506.md
-  - label: RetainedFaceAmplitudeGain.A. Any retained field-face amplitude gain admissible
-      for the CM contrapositive route is recorded first as a Pack_Q gain event and
-      transported through Part_{N,Q} without importing Field_{N,r,Q} or Member(Q)
-      as a premise.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/retainedfaceamplitudegain-a-theorem-creation-20260506.md
+    source_anchor: problems/navier-stokes/theorem-creation.yaml
   broadcast_paths:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
@@ -163,9 +185,9 @@ auditor:
   status: needs-attention
   audit_status: audited-needs-fix
   branch_terminal_status: no-branches
-  open_issue_count: 2
+  open_issue_count: 1
   autofixable_issue_count: 0
-  fix_plan_count: 1
+  fix_plan_count: 0
   branch_count: 0
   live_import_count: 0
   route_equivalence_count: 0
@@ -186,16 +208,16 @@ frontier_projection:
     requested_frontier: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
   recommended_next_cell_type:
 summary:
-  phase: steady-state
+  phase: shared-alignment
   execution_state: submission-candidate
   leadership_status: leading
-  alignment_complete: true
+  alignment_complete: false
   theorem_authority_gate_all_discharged: true
   authority_gate_mode: direct-live-surfaces
   authority_gate_blocking_count: 0
   proof_assembly_open_obligation_count: 0
   authoritative_source_gap_count: 0
-  export_readiness_hold_state: export-readiness-hold
+  export_readiness_hold_state: none
   exact_local_packet_count: 0
   net_new_local_theorem_count: 8
   projected_frontier_count: 0
