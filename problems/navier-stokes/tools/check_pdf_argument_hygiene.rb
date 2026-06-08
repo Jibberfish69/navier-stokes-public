@@ -19,6 +19,7 @@ FORBIDDEN_VISIBLE_PATTERNS = {
   "file extension in rendered argument" => /\.(?:md|ya?ml|rb|py)\b/i,
   "repo/status vocabulary in rendered argument" => /\b(?:repo-surface|generated surface|surface-derivation|coverage ledger|build record|status surface|audit row|provenance inventory|Family row|companion return note)\b/i,
   "stale open theorem claim" => /\b(?:proof still needs the noncircular endpoint exclusion|Clay-facing conclusion still needs|not yet a Clay counterexample-exclusion theorem|No theorem closure is claimed here|proof can be completed only by proving the missing bridge|stop presenting the classified class exit as a completed proof)\b/i,
+  "unfinished proof wording" => /\b(?:proof still needs|record still needs|live proof still needs|full CM-contrapositive proof still needs)\b/i,
   "authoring-meta section" => /\b(?:Representation Standard|Obstruction Census|proof records|working records|Working manuscript)\b/i,
   "visible code/provenance typewriter" => /\\texttt\{/,
   "escaped source math residue" => /\\textbackslash\{\}|\\textasciicircum\{\}|\b(?:begin|end|substack|boxed|texttt)\(|\binL\^|\bSothe\b|\bimplies[A-Z]/,
