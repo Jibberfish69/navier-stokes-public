@@ -1,3 +1,14 @@
+---
+ns_viewer:
+  theorem_id: clay-field-failure-realization-proof-20260607
+  status: installed-field-row
+  proof_role: cm_landing_theorem
+  logical_landing_node: cm_field_jump_rows
+  edge_effect: "Installs ClayFieldFailureRealization.A for the retained-Pack/terminal-Part Field row by realizing all-scales Field failure as a same-fluid terminal Jump."
+  upstream_origin: "June 7 Field-face working pass after retained Pack and terminal Part."
+  downstream_consequence: "Together with TerminalFieldJumpPartCollapse.A, collapses the retained-Pack/terminal-Part all-scales Field failure into the Part face and removes Field as an independent open blocker."
+---
+
 # MPP Clay Field Failure Realization Proof
 
 Date: 2026-06-07
