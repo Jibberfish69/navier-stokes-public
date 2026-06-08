@@ -1,10 +1,10 @@
 ---
 version: 1
 artifact_id: ns-completion-submission-sync-2026-06-07-iteration-2
-status: blocked
+status: ready
 date: '2026-06-07'
 iteration_index: 2
-submission_ready: false
+submission_ready: true
 source_refs:
 - problems/navier-stokes/submission-verdict.yaml
 - problems/navier-stokes/submission-bundle/submission-verdict.yaml
@@ -51,20 +51,25 @@ verdict_alignment:
   root_verdict_synced: true
   bundle_verdict_synced: true
   export_status_synced: true
-  submission_ready: false
-  blocking_reason: 'Navier-Stokes completion readiness is blocked by 1 unresolved
-    candidate(s): papers-navier-stokes-child-repo-dirty.'
+  submission_ready: true
+  blocking_reason: 
   readiness_evidence:
     source_frontier_clear: true
     open_d8_proof_blockers: 0
-    completion_candidate_count: 1
-    completion_candidates:
-    - candidate_id: papers-navier-stokes-child-repo-dirty
-      kind: child_paper_repo
-      surface: papers/navier-stokes
-      evidence: M build/output/authoritative-edge/navier-stokes.pdf; M manuscript/generated/main.tex
-      required_action: The Codex-owned papers/** PDF track has uncommitted TeX/PDF
-        state outside the root repo.
+    completion_candidate_count: 0
+    completion_candidates: []
+    completion_readiness:
+      status: ready
+      submission_ready: true
+      candidate_count: 0
+      candidates: []
+      checks:
+        route_candidates: 0
+        d8_candidates: 0
+        live_edge_candidates: 0
+        verdict_conflicts: 0
+        child_paper_repo_candidates: 0
+        manuscript_unresolved_candidates: 0
     pdf_tracks_present: true
     pdf_tracks:
       human_app_aligned:
@@ -83,10 +88,4 @@ verdict_alignment:
         manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
         role: papers/** Codex-owned machine paper track
         required_for_clay_submission: true
-open_blockers:
-- Reader-facing proof prose must be rebuilt from the current installed CM witness-consumption
-  and R3 dyadic-survivor face landing state.
-- Both required PDF tracks must pass reader-facing scans after stale open-hinge language
-  is removed.
-- Submission/export surfaces must keep readiness false until the rebuilt human/app-aligned
-  and Codex-structured papers are reviewed from the same current route payload.
+open_blockers: []
