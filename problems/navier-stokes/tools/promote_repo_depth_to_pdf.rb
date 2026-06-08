@@ -340,6 +340,8 @@ def sync_submission_export_status!
       "pdf_tracks_rendered" => readiness["pdf_tracks_rendered"],
       "pdf_render_status" => readiness["pdf_render_status"],
       "submission_ready" => ready,
+      "submission_posture" => ready ? "submission-candidate" : "blocked",
+      "readiness_status" => ready ? "ready" : "blocked",
       "readiness_blocker" => (ready ? nil : "Completion readiness still has #{readiness['candidate_count']} candidate(s): #{Array(readiness['candidates']).first(6).map { |entry| entry['candidate_id'] }.join(', ')}."),
       "readiness_note" => ready ?
         "Both required Navier-Stokes PDF tracks are rendered and proof/manuscript/app readiness evidence is clear." :
