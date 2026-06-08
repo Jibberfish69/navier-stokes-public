@@ -1,7 +1,7 @@
 ---
 version: 1
 artifact_id: ns-completion-executor-submission-boundary-2026-06-07
-status: blocked
+status: ready
 date: '2026-06-07'
 iteration_index: 2
 consumed_work_node_ids:
@@ -17,7 +17,7 @@ input_refs:
 - problems/navier-stokes/submission-verdict.yaml
 - problems/navier-stokes/submission-bundle/submission-verdict.yaml
 - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-submission_ready: false
+submission_ready: true
 pdf_tracks_rendered: true
 pdf_render_status:
   status: rendered
@@ -26,20 +26,20 @@ pdf_render_status:
     human_app_aligned:
       path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       present: true
-      sha1: 5977ccad2802aaf79e5b537e09878c615946be4a
-      bytes: 3939129
+      sha1: 236201a82c572f0657112063d798ac18f176cd34
+      bytes: 3939386
       manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
       required_for_clay_submission: true
     codex_machine_paper:
       path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
       present: true
-      sha1: c1a40b41a2dfe8e1278ec5ba106062c076e87563
-      bytes: 462978
+      sha1: 52186d6771ddd80b4eb0c270db3854ba15134083
+      bytes: 513358
       manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
       required_for_clay_submission: true
   preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-boundary_reason: 'executor reentry reached an exact blocked state: proof closure and
-  reader-facing manuscript proof are still open'
+boundary_reason: current frontier has no unresolved obligations, both required PDF
+  tracks are present, and route-state has no open D8 proof blockers
 may_advance_when:
 - the proof lane lands the CM obstruction in Pack, Part, or Field or closes it by
   legitimate scope rejection
