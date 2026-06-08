@@ -18,7 +18,7 @@ Authority anchors:
 
 - `target-operating-contract.yaml`: primary goal is to finish Navier-Stokes MPP, while keeping proof modes separate.
 - `live-theorem-edge.yaml`: active theorem-grade object is `ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A`, with `Exit(Q):=not Member(Q)` through `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`.
-- `cm-contrapositive-referee-audit.yaml`: torus-first CM referee pass is installed; full Clay-ready whole-space submission remains blocked by whole-space export or explicit periodic-scope alignment.
+- `cm-contrapositive-referee-audit.yaml`: historical torus-first referee checkpoint; the current paper authority is the rendered dual-track submission-candidate package, with the human/app-aligned manuscript in `problems/**` and the separate Codex paper in `papers/**`.
 - `review-verdict.yaml`: release only the CM contrapositive claim certified by Pack/Part/Field witness faces; supplier diagnostics stay quarantined; `Member(Q)` is downstream of the witness certificate.
 
 ## Scope Honesty
@@ -235,4 +235,3 @@ Blocked full-submission claim:
 4. Fix the duplicate proof ending after the no-fourth-service corollary.
 5. Add a visible "Scope and export boundary" theorem/remark near the beginning.
 6. Add a branch-family status ledger before or inside the branch coverage section.
-
