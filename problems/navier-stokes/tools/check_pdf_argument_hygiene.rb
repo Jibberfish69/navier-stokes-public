@@ -273,8 +273,71 @@ def scan_for_secret_literals(root, errors)
   end
 end
 
+def tex_section_blocks(body)
+  matches = body.enum_for(:scan, /\\(?:section|subsection)\*?\{([^}]*)\}/).map do
+    match = Regexp.last_match
+    {
+      title: match[1].gsub(/\\[a-zA-Z]+/, "").gsub(/[{}]/, "").strip,
+      start: match.begin(0),
+      body_start: match.end(0)
+    }
+  end
+  matches.each_with_index.map do |entry, index|
+    stop = matches[index + 1]&.fetch(:start) || body.length
+    entry.merge(text: body[entry.fetch(:body_start)...stop].to_s)
+  end
+end
+
+def first_sentences(text, count)
+  text
+    .gsub(/\\\[(.*?)\\\]/m, " ")
+    .gsub(/\\begin\{[^}]+\}.*?\\end\{[^}]+\}/m, " ")
+    .gsub(/\\[a-zA-Z]+\*?(?:\[[^\]]*\])?(?:\{[^{}]*\})?/, " ")
+    .gsub(/\\./, " ")
+    .split(/(?<=[.!?])\s+/)
+    .map { |sentence| sentence.gsub(/\s+/, " ").strip }
+    .reject(&:empty?)
+    .first(count)
+end
+
+def scan_codex_machine_paper_voice(path, errors)
+  return unless path.exist?
+
+  visible = strip_comments(path.read)
+  CODEX_ACCREDITED_APPENDIX_INPUTS.each do |input|
+    if visible.include?("\\input{#{input}}")
+      errors << "#{path.relative_path_from(ROOT)}: Codex machine paper imports accreted proof-detail appendix #{input}"
+    end
+  end
+
+  defensive_leads = []
+  tex_section_blocks(visible).each do |section|
+    if section.fetch(:title).match?(CODEX_DEFENSIVE_SECTION_TITLE)
+      errors << "#{path.relative_path_from(ROOT)}: defensive Codex section title remains visible: #{section.fetch(:title)}"
+    end
+
+    lead = first_sentences(section.fetch(:text), 2).join(" ")
+    next unless lead.match?(CODEX_DEFENSIVE_LEAD_PATTERN)
+
+    defensive_leads << "#{section.fetch(:title)}: #{lead.slice(0, 180)}"
+  end
+
+  if defensive_leads.length > CODEX_MAX_DEFENSIVE_LEADS
+    errors << "#{path.relative_path_from(ROOT)}: #{defensive_leads.length} Codex section leads open defensively; maximum #{CODEX_MAX_DEFENSIVE_LEADS}: #{defensive_leads.first(6).join(' | ')}"
+  end
+
+  prose = visible
+          .gsub(/\\\[(.*?)\\\]/m, " ")
+          .gsub(/\\begin\{[^}]+\}.*?\\end\{[^}]+\}/m, " ")
+  defensive_sentences = prose.split(/(?<=[.!?])\s+/).count { |sentence| sentence.match?(CODEX_DEFENSIVE_LEAD_PATTERN) }
+  if defensive_sentences > CODEX_MAX_DEFENSIVE_SENTENCES
+    errors << "#{path.relative_path_from(ROOT)}: #{defensive_sentences} defensive/contrast sentences in Codex machine paper; maximum #{CODEX_MAX_DEFENSIVE_SENTENCES}"
+  end
+end
+
 errors = []
 scan_for_secret_literals(SOURCE_FORENSICS_ROOT, errors)
+scan_codex_machine_paper_voice(CODEX_MAIN_TEX, errors)
 
 [MAIN_TEX].each do |path|
   next unless path.exist?
