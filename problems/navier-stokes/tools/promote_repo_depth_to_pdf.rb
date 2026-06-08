@@ -307,7 +307,8 @@ def sync_submission_export_status!
     "readiness_evidence" => readiness_evidence.merge(
       "pdf_tracks_present" => tracks.values.all? { |track| track["present"] == true },
       "pdf_tracks_rendered" => tracks.values.all? { |track| track["present"] == true },
-      "pdf_tracks" => tracks
+      "pdf_tracks" => tracks,
+      "pdf_render_status" => render_status
     )
   )
   readiness = PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement.assessment(
@@ -322,6 +323,7 @@ def sync_submission_export_status!
     "pdf_tracks_present" => tracks.values.all? { |track| track["present"] == true },
     "pdf_tracks_rendered" => readiness["pdf_tracks_rendered"],
     "pdf_tracks" => tracks,
+    "pdf_render_status" => readiness["pdf_render_status"],
     "completion_readiness" => readiness
   )
   ready = readiness["submission_ready"] == true
