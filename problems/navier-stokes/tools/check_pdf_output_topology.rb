@@ -140,12 +140,30 @@ expected_tracks = {
   "human_app_aligned" => relative(HUMAN_SUBMISSION_PDF),
   "codex_machine_paper" => relative(AUTHORITATIVE_PDF)
 }
+expected_sources = {
+  "human_app_aligned" => relative(BUNDLE_ROOT.join("navier-stokes-submission.tex")),
+  "codex_machine_paper" => relative(ROOT.join("papers/navier-stokes/manuscript/generated/main.tex"))
+}
 tracks = export_status["pdf_tracks"].is_a?(Hash) ? export_status["pdf_tracks"] : {}
 expected_tracks.each do |track_id, expected_path|
   actual_path = tracks.dig(track_id, "path").to_s
   unless actual_path == expected_path
     errors << "submission export status #{track_id} track points to #{actual_path.empty? ? '(none)' : actual_path}, expected #{expected_path}"
   end
+  actual_source = tracks.dig(track_id, "manuscript_source").to_s
+  unless actual_source == expected_sources.fetch(track_id)
+    errors << "submission export status #{track_id} source points to #{actual_source.empty? ? '(none)' : actual_source}, expected #{expected_sources.fetch(track_id)}"
+  end
+end
+
+if tracks.dig("human_app_aligned", "path") == tracks.dig("codex_machine_paper", "path")
+  errors << "required PDF tracks collapsed to the same output path"
+end
+if tracks.dig("human_app_aligned", "manuscript_source") == tracks.dig("codex_machine_paper", "manuscript_source")
+  errors << "required PDF tracks collapsed to the same manuscript source"
+end
+if tracks.dig("human_app_aligned", "sha1").to_s == tracks.dig("codex_machine_paper", "sha1").to_s
+  errors << "required PDF tracks rendered identical PDF hashes; the human/app-aligned and Codex machine papers must remain distinct outputs"
 end
 
 evidence_tracks = export_status.dig("readiness_evidence", "pdf_tracks").is_a?(Hash) ? export_status.dig("readiness_evidence", "pdf_tracks") : {}
@@ -154,6 +172,9 @@ expected_tracks.each do |track_id, expected_path|
   evidence_track = evidence_tracks[track_id] || {}
   unless evidence_track["path"] == expected_path
     errors << "submission readiness evidence #{track_id} track points to #{evidence_track["path"].to_s.empty? ? '(none)' : evidence_track["path"]}, expected #{expected_path}"
+  end
+  unless evidence_track["manuscript_source"] == expected_sources.fetch(track_id)
+    errors << "submission readiness evidence #{track_id} source points to #{evidence_track["manuscript_source"].to_s.empty? ? '(none)' : evidence_track["manuscript_source"]}, expected #{expected_sources.fetch(track_id)}"
   end
   if evidence_track["sha1"].to_s.empty? || evidence_track["sha1"] != track["sha1"]
     errors << "submission readiness evidence #{track_id} sha1 is stale or missing"
