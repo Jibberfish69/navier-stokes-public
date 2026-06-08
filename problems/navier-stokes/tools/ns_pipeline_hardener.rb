@@ -1295,7 +1295,7 @@ def sanitize_theorem_to_warrant(warrant)
     "human_app_aligned_pdf_path" => relative(HUMAN_SUBMISSION_PDF_PATH),
     "codex_machine_tex_path" => relative(CODEX_MACHINE_MAIN_TEX_PATH),
     "codex_machine_pdf_path" => relative(CODEX_MACHINE_PDF_PATH),
-    "observed_state" => "dual-track-submission-synchronized",
+    "observed_state" => "dual-track-independent-manuscripts",
     "historical_surfaces" => [
       "problems/navier-stokes/draft-v8.md",
       "problems/navier-stokes/external-paper/main.tex"
@@ -1639,7 +1639,7 @@ def current_manuscript_surface_payload
     "external_surface" => relative(CODEX_MACHINE_MAIN_TEX_PATH),
     "compiled_pdf" => relative(HUMAN_SUBMISSION_PDF_PATH),
     "codex_compiled_pdf" => relative(CODEX_MACHINE_PDF_PATH),
-    "note" => "The human/app-aligned submission TeX/PDF and the separate Codex paper TeX/PDF are both current required submission tracks; draft-v8 and external-paper/main.tex are historical surfaces only."
+    "note" => "The human/app-aligned submission TeX/PDF and the Codex machine-paper TeX/PDF are independent manuscript surfaces. Each paper carries its own reader-facing proof burden; route-state data is source context for each paper separately. draft-v8 and external-paper/main.tex are historical surfaces only."
   }
 end
 
@@ -1661,7 +1661,7 @@ end
 def sanitize_campaign_status(campaign)
   campaign["external_publication_target"] ||= {}
   campaign["external_publication_target"]["current_safe_output"] =
-    "synchronized dual-track submission package: the preferred problems/** human/app-aligned manuscript/PDF and the separate papers/** Codex manuscript/PDF both point at the current CM pass-or-exit package."
+    "independent manuscript surfaces: the preferred problems/** human/app-aligned manuscript/PDF and the separate papers/** Codex manuscript/PDF are distinct required outputs with separate reader burdens."
   campaign["external_publication_target"]["package_goal"] =
     "Clay-facing submission package with distinct human/app-aligned and Codex-structured PDF tracks"
 
@@ -1669,14 +1669,14 @@ def sanitize_campaign_status(campaign)
   campaign["full_claim_lane"]["blocked"] = false
   campaign["full_claim_lane"]["block_level"] = "none-active"
   campaign["full_claim_lane"]["block_summary"] =
-    "No current live theorem-construction surface reports an essential unsolved math burden after the CM pass-or-exit package and dual PDF submission tracks were synchronized."
+    "No current live theorem-construction surface reports an essential unsolved math burden after the CM pass-or-exit package and independent PDF output topology are present."
   campaign["top_blockers"] = []
   campaign["current_manuscript_surface"] = current_manuscript_surface_payload.reject { |key, _| key == "note" }.merge(
-    "consistency_note" => "The human/app-aligned submission TeX/PDF and the separate Codex paper TeX/PDF must remain distinct, rendered, and synchronized to the current CM pass-or-exit proof package."
+    "consistency_note" => "The human/app-aligned submission TeX/PDF and the Codex machine-paper TeX/PDF remain distinct rendered outputs. Route-state data is source context for each paper separately; manuscript authority is paper-local."
   )
   if campaign["bridge_audit"].is_a?(Hash)
     campaign["bridge_audit"]["closed_loop_warrant"] =
-      "discharged on the declared theorem-construction edge; export packaging is synchronized through the dual PDF submission tracks"
+      "discharged on the declared theorem-construction edge; export packaging records two independent PDF tracks without merging their manuscript burdens"
   end
   campaign
 end
