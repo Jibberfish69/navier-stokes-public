@@ -10,6 +10,7 @@ require "time"
 require "yaml"
 
 require_relative "../../../system/runner/lib/navier_stokes_completion_readiness_support"
+require_relative "../../../system/runner/lib/nightly_ns_completion_engine"
 
 ROOT = Pathname.new(__dir__).join("../../..").expand_path
 NS_ROOT = ROOT.join("problems/navier-stokes")
@@ -211,7 +212,6 @@ end
 
 def sync_submission_export_status!
   current = load_yaml(EXPORT_STATUS)
-  readiness = PaperFactoryRuntime::NavierStokesCompletionReadinessSupport.assessment(ROOT)
   tracks = {
     "human_app_aligned" => pdf_track_payload(
       HUMAN_SUBMISSION_PDF,
@@ -225,28 +225,53 @@ def sync_submission_export_status!
     )
   }
   readiness_evidence = current["readiness_evidence"].is_a?(Hash) ? current["readiness_evidence"] : {}
+  render_status = PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement.pdf_render_status(ROOT)
+  provisional_payload = current.reject { |key, _value| %w[stdout stderr fallback].include?(key) }.merge(
+    "generated_at" => Time.now.utc.iso8601,
+    "status" => current["status"] || "exported",
+    "render_quality" => "typeset",
+    "manuscript_source" => relative(MAIN_TEX),
+    "codex_machine_manuscript_source" => relative(CODEX_MAIN_TEX),
+    "preferred_pdf" => relative(HUMAN_SUBMISSION_PDF),
+    "pdf" => relative(CODEX_PAPER_PDF),
+    "pdf_tracks" => tracks,
+    "pdf_tracks_rendered" => tracks.values.all? { |track| track["present"] == true },
+    "pdf_render_status" => render_status,
+    "submission_ready" => true,
+    "readiness_evidence" => readiness_evidence.merge(
+      "pdf_tracks_present" => tracks.values.all? { |track| track["present"] == true },
+      "pdf_tracks_rendered" => tracks.values.all? { |track| track["present"] == true },
+      "pdf_tracks" => tracks,
+      "completion_readiness" => {
+        "status" => "ready",
+        "submission_ready" => true,
+        "candidate_count" => 0,
+        "candidates" => []
+      }
+    )
+  )
+  readiness = PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement.assessment(
+    ROOT,
+    overrides: {
+      PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement::EXPORT_STATUS_PATH => provisional_payload
+    }
+  )
   readiness_evidence = readiness_evidence.merge(
     "pdf_tracks_present" => tracks.values.all? { |track| track["present"] == true },
+    "pdf_tracks_rendered" => readiness["pdf_tracks_rendered"],
     "pdf_tracks" => tracks,
     "completion_readiness" => readiness
   )
   ready = readiness["submission_ready"] == true
-  status_payload = current.reject { |key, _value| %w[stdout stderr fallback].include?(key) }
   write_yaml(
     EXPORT_STATUS,
-    status_payload.merge(
+    provisional_payload.merge(
       "generated_at" => Time.now.utc.iso8601,
-      "status" => current["status"] || "exported",
-      "render_quality" => "typeset",
-      "manuscript_source" => relative(MAIN_TEX),
-      "codex_machine_manuscript_source" => relative(CODEX_MAIN_TEX),
-      "preferred_pdf" => relative(HUMAN_SUBMISSION_PDF),
-      "pdf" => relative(CODEX_PAPER_PDF),
-      "pdf_tracks" => tracks,
-      "pdf_tracks_rendered" => tracks.values.all? { |track| track["present"] == true },
+      "pdf_tracks_rendered" => readiness["pdf_tracks_rendered"],
+      "pdf_render_status" => readiness["pdf_render_status"],
       "submission_ready" => ready,
       "readiness_blocker" => (ready ? nil : "Completion readiness still has #{readiness['candidate_count']} candidate(s): #{Array(readiness['candidates']).first(6).map { |entry| entry['candidate_id'] }.join(', ')}."),
-      "readiness_note" => "Both required Navier-Stokes PDF tracks are rendered and routed: the problems/** track is the full app-aligned dossier, and the papers/** track is the concise Codex-owned Clay-facing submission paper.",
+      "readiness_note" => "PDF rendering is tracked separately from submission readiness; both required Navier-Stokes PDF tracks can be rendered while proof/manuscript/app agreement remains blocked.",
       "readiness_evidence" => readiness_evidence
     )
   )
@@ -369,8 +394,14 @@ def dual_pdf_track_gate
   errors << "submission export status pdf points to #{actual_pdf}, but it must be one of the two required PDF tracks" unless actual_pdf.empty? || expected_tracks.value?(actual_pdf)
 
   errors << "submission export status does not mark pdf_tracks_rendered=true" unless export_status["pdf_tracks_rendered"] == true
+  render_status = export_status.dig("pdf_render_status", "status").to_s
+  errors << "submission export status lacks rendered pdf_render_status" unless render_status == "rendered"
   readiness = export_status.dig("readiness_evidence", "completion_readiness")
   errors << "submission export status lacks completion readiness evidence" unless readiness.is_a?(Hash)
+  if export_status["submission_ready"] == true && readiness.is_a?(Hash)
+    readiness_ready = readiness["submission_ready"] == true && readiness["candidate_count"].to_i.zero?
+    errors << "submission export status sets submission_ready=true while completion readiness evidence is blocked" unless readiness_ready
+  end
   evidence_tracks = export_status.dig("readiness_evidence", "pdf_tracks").is_a?(Hash) ? export_status.dig("readiness_evidence", "pdf_tracks") : {}
   expected_tracks.each do |track_id, expected_path|
     track = tracks[track_id] || {}
