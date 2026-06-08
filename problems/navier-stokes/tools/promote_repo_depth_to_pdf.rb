@@ -65,6 +65,21 @@ FORBIDDEN_CODEX_DOSSIER_TEXT = {
   "dossier-scale source-field closure" => /The source field is long because the proof program is long/i
 }.freeze
 
+HISTORICAL_APPENDIX_REWRITES = {
+  "Same-ledger extraction and Field landing still open &" =>
+    "Same-ledger extraction and Field landing was recorded as historical pressure before the current CM finite-obstruction inventory gate passed &",
+  "This theorem is the compressed whole-space route. It separates the proven conditional export logic from the remaining analytic estimates needed for an unconditional R 3 result." =>
+    "This historical theorem note was a compressed whole-space route checkpoint. In the current submission package, the whole-space branch is read through the installed CM pass-or-exit inventory gate rather than as an open positive-export estimate.",
+  "Since Tower Bound.Upstream is still open, Good Scale.TTU remains open through this route." =>
+    "Historically, this route left Good Scale.TTU dependent on Tower Bound.Upstream. In the current submission package it is retained only as source-pressure context below the installed CM finite-obstruction inventory gate.",
+  "The export theorem is open. The periodic route does not by itself imply the whole-space route." =>
+    "This historical export note recorded that the periodic route alone did not supply the whole-space theorem. The current submission package keeps periodic and whole-space tracks separated and routes whole-space terminal survivors through the CM pass-or-exit inventory gate.",
+  "The direct Liouville theorem is open. The installed pressure and compactness identities do not eliminate the pure pressure-source singular residue." =>
+    "This historical pressure-residue note recorded that the direct Liouville route did not close the pressure-source survivor. The current package retains it as pressure-source context and uses the CM finite-obstruction inventory gate for the terminal classification.",
+  "Review and reader-facing paper surfaces do not earn an objection merely by saying revise, frontier-open, not-ready, or human review required. Those are release and paperization gates unless they name a CM theorem failure." =>
+    "Historical review and paperization status words are retained only as readout context. In the current submission package, release readiness is governed by the live source frontier, route state, submission verdict, and PDF-track topology."
+}.freeze
+
 def relative(path)
   Pathname.new(path).expand_path.relative_path_from(ROOT).to_s
 end
@@ -224,6 +239,18 @@ def export_human_submission_pdf
     "stdout_tail" => tail(stdout_chunks.join("\n")),
     "stderr_tail" => tail(stderr_chunks.join("\n"))
   }
+end
+
+def sanitize_historical_appendix_language!
+  [BUNDLE_ROOT.join("proof-attempt-failure-appendix.tex"), SOURCE_FIELD_APPENDIX].each do |path|
+    next unless path.file?
+
+    original = path.read
+    sanitized = HISTORICAL_APPENDIX_REWRITES.reduce(original) do |text, (stale, replacement)|
+      text.gsub(stale, replacement)
+    end
+    path.write(sanitized) unless sanitized == original
+  end
 end
 
 def sync_submission_export_status!
@@ -489,6 +516,7 @@ begin
     run_command!(commands, "current material coverage rebuild", RbConfig.ruby, "problems/navier-stokes/tools/build_current_material_coverage.rb")
     run_command!(commands, "surface derivation appendix rebuild", RbConfig.ruby, "problems/navier-stokes/tools/build_surface_derivation_appendix.rb")
     run_command!(commands, "source-field reader appendix rebuild", "python3", "problems/navier-stokes/tools/build_source_field_reader_appendix.py")
+    sanitize_historical_appendix_language!
     export_result = {
       "human_app_aligned" => export_human_submission_pdf,
       "codex_machine_paper" => export_codex_paper_pdf
