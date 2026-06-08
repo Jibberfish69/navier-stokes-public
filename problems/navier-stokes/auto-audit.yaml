@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-08T07:39:00Z'
+  audited_at: '2026-06-08T07:42:16Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: full-mpp-closure-ready
@@ -32,7 +32,7 @@ downstream_overlay_drift:
   authority_surfaces:
   - artifact: source_frontier
     path: problems/navier-stokes/source-frontier.yaml
-    sha1: 1e2e23f16b0c29dc2d1f388bea942af39c0a30a5
+    sha1: 828c11f470f125d52914ce41c40368bc93b9fe86
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -58,23 +58,18 @@ downstream_overlay_drift:
     - submission-candidate
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
-    sha1: 298020c87c797443dc69d5d2d07b450494963459
+    sha1: 8f1baeda4278b1366aff50b650d5596e646b83d4
     matched_terms:
     - direct-live-surfaces
     - authority_gate_mode
-    - cm witness-face
-    - witness-face
     - cm witness
-    - pctp.hard
-    - full-mpp
     - installed
     - discharged
-    - full-mpp-closure
     - 'all_discharged: true'
     - submission-candidate
   - artifact: dependency_discharge
     path: problems/navier-stokes/dependency-discharge.yaml
-    sha1: '0860cb7664f831bb3cd6b7528ec322beb16279c8'
+    sha1: '084e376d1264d0238f37350d3ca30301c6a43178'
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
