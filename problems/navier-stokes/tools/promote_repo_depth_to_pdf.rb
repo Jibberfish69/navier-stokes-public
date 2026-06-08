@@ -96,7 +96,11 @@ HISTORICAL_APPENDIX_REWRITES = {
   "This is a real CM classification. It is not yet a contradiction with the Clay breakdown assumption." =>
     "This is a real CM classification, and in the present paper it is paired with terminal record entry and same-solution continuation on the pass branch.",
   "No theorem closure is claimed here; the next proof pass must attack the first still-real CM face or record the exact blocker." =>
-    "This earlier executor sentence is superseded by the present same-solution pass-or-exit readout; any reopened proof burden must name a concrete terminal record missing CM entry or a Pack/Part/Field landing."
+    "This earlier executor sentence is superseded by the present same-solution pass-or-exit readout; any reopened proof burden must name a concrete terminal record missing CM entry or a Pack/Part/Field landing.",
+  "The proof can be completed only by proving the missing bridge, or by replacing the manuscript's closing argument with a different noncircular argument that excludes finite terminal breakdown for the original solution." =>
+    "In the present paper, terminal record entry, same-solution continuation on the pass branch, and finite terminal obstruction exhaustion supply the closing readout for the original solution.",
+  "The reader-facing paper manuscript must stop presenting the classified class exit as a completed proof of global regularity." =>
+    "The reader-facing paper now presents class exit as the fail side of the same-solution terminal test, while the pass side supplies continuation."
 }.freeze
 
 def relative(path)
