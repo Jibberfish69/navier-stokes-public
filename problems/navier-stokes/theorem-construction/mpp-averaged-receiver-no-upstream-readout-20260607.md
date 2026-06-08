@@ -5,7 +5,7 @@ ns_viewer:
   logical_landing_node: averaged_terminal_route
   edge_effect: blocks upstream use of READ.COVER, DTC.Read, Field.Read, READ.END, and pointwise DTC/Field objects before End_NS_avg.
   upstream_origin: finite-energy point-pressure derivative obstruction and averaged receiver route audit.
-  downstream_consequence: Continue the averaged branch through uniform SCF-good terminal cover plus common AACT scheduler, or route cover failure as Jump_avg.
+  downstream_consequence: Continue the averaged branch through the no-Jump_avg scheduled cover, or route cover failure as Jump_avg and then to the Field face by AveragedFieldFaceAdmission.A.
   status: installed
   source_authority: problems/navier-stokes/ns-proof-program-route-table.yaml
 ---
@@ -89,9 +89,9 @@ End_{NS,avg}\Longrightarrow READ.COVER\Longrightarrow READ.END\Longrightarrow En
 
 It explicitly does not authorize using `READ.COVER` upstream of `End_NS_avg`.
 
-## Exact Remaining Primitive
+## Checked Primitive Resolution
 
-The next averaged-route primitive is:
+The positive all-branches averaged-route primitive
 
 ```math
 OriginalSmoothData
@@ -101,17 +101,28 @@ OriginalSmoothData
 \text{common AACT scheduler}.
 ```
 
-Equivalently, prove that failure of such a uniform cover is exactly the
-`Jump_avg` face handled by the averaged endpoint matrix, without importing
-pointwise pressure recovery or terminal readout first.
+still fails as a standalone theorem from `OriginalSmoothData`. The checked CM
+primitive closes by the second route: failure of such a uniform cover is exactly
+the averaged `Jump_avg` face, and on the same CM-test-admitted averaged terminal
+tail `AveragedFieldFaceAdmission.A` gives
+
+```math
+Pack_Q+Part_{N,Q}+Jump_{avg}(T)
+\Longrightarrow
+\forall r>0\,\neg Field_{N,r,Q}.
+```
+
+This uses neither pointwise pressure recovery nor terminal readout upstream.
 
 ## Effect on the CM Program
 
 This note keeps the averaged route inside the CM contrapositive discipline. It
-does not label the averaged cover problem as `Exit(Q)` by itself. A fail branch
-must still enter the CM test and derive a concrete Pack, Part, or Field face
-failure before it supports:
+does not label the averaged cover problem as `Exit(Q)` by itself. The checked
+fail branch enters the CM test and, with `Pack_Q` and `Part_{N,Q}` retained,
+derives the concrete Field-face failure
 
 ```math
-Exit(Q):=\neg Member(Q).
+\forall r>0\,\neg Field_{N,r,Q}.
 ```
+
+That face failure supports `Exit(Q):=\neg Member(Q)`.
