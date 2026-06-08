@@ -1316,14 +1316,43 @@ The bounded-frequency part cannot carry the \(H^s\) tail, because exterior \(L^2
 Any survivor must therefore escape to dyadic frequency: \(N_j\to\infty\) while \(N_j^s\|P_{N_j}W_{R_j}(t_j)\|_{L^2}\) stays bounded below.
 If the surviving packet has no same-fluid material address, \(\Pack_Q\) fails.
 If it is not carried by the same Navier--Stokes pressure, viscosity, and source ancestry, \(\Part_{M,Q}\) fails.
-On the retained Pack+Part branch, a fixed positive Field scale \(\rho>0\) would give a finite derivative tower through some \(M>s+2\).
-Littlewood--Paley cancellation then forces \(N_j^s\|P_{N_j}W_{R_j}(t_j)\|_{L^2}\to0\), contradicting the dyadic survivor lower bound.
+On the retained Pack+Part branch, a fixed positive Field scale \(\rho>0\) supplies a single participating packet and a finite derivative tower through some \(M>s+2\).
+That tower is fixed on the witness record.
+Littlewood--Paley localization then makes the high dyadic tail vanish on that record:
+\[
+  \lim_{N\to\infty} N^s\|P_N W_R(t)\|_{L^2}=0
+\]
+uniformly on the retained positive Field window.
+This contradicts the survivor lower bound along \(N_j\to\infty\).
 Thus retained Pack+Part forces failure of every fixed positive Field scale.
 \end{proof}
 
+\begin{theorem}[Whole-space CM completion]
+For smooth rapidly decaying divergence-free data on \(\mathbb R^3\), a finite terminal whole-space branch has the same CM pass-or-exit conclusion as the periodic branch.
+The branch either has the exterior \(H^s\), \(s>5/2\), tail needed for the usual continuation readout, or the surviving exterior source lands in
+\[
+  \neg\Pack_Q,\qquad
+  \neg\Part_{M,Q},\qquad
+  \forall \rho>0\,\neg\Field_{M,\rho,Q},
+\]
+and therefore supports \(\Exit(Q;\Owork)\).
+\end{theorem}
+
+\begin{proof}
+Apply the Duhamel split above.
+The heat tail from the rapidly decaying initial datum is harmless.
+The fixed compact-core nonlinear source is harmless in the far field after the fixed-core readout.
+The remaining exterior nonlinear source has two outcomes.
+When its \(H^s\) tail vanishes, the whole-space object has the continuation readout on the same terminal packet.
+When a terminal exterior source survives, bounded exterior frequencies are removed by \(L^2\) tightness, so the survivor is a dyadic high-frequency escape.
+The preceding proposition classifies exactly that survivor as Pack failure, Part failure, or Field failure after retained Pack and Part.
+The CM embedding reads that first failed face as \(\Exit(Q;\Owork)\).
+Thus the whole-space terminal claim has no in-class nonsmooth third branch.
+\end{proof}
+
 This is the whole-space CM conclusion.
-The direct exterior \(H^s\) estimate remains a stronger positive export theorem, but it is no longer an open blocker for the CM pass-or-exit proof.
-The whole-space branch either supplies the positive tail input or lands the surviving exterior source in Pack, Part, or Field, and therefore reaches the same class-exit conclusion as the periodic branch.
+The direct exterior \(H^s\) estimate remains a stronger positive export theorem.
+The CM proof also closes the survivor branch: if the exterior source is still present at the terminal edge, its first failed Pack, Part, or Field face is the class-exit witness.
 
 
 \section{Mathematical Branch Coverage}
