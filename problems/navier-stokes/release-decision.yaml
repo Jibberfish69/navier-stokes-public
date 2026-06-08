@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-08T05:15:48Z'
+  evaluated_at: '2026-06-08T05:18:28Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: blocked
@@ -82,6 +82,25 @@ blockers:
   (papers/navier-stokes/review/authoritative-pdf-provenance-2026-06-07.md)'
 - 'Navier-Stokes completion candidate remains: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
   (problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md)'
+- 'CM contrapositive referee audit blocks release: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
+  Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay obstruction,
+  or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
+  proof.'
+- 'CM contrapositive referee audit blocks release: codex-gap-attack-log:r3-exterior-high-order-tail-closure:
+  Either prove a direct noncircular R3 H^s tail theorem or strengthen dyadic survivor
+  face landing into an accepted whole-space endpoint exclusion.'
+- 'CM contrapositive referee audit blocks release: codex-gap-attack-log:terminal-record-entry-referee-hardening:
+  Tighten the entry theorem so the Clay negation itself, stated in standard PDE language,
+  supplies the same-solution record without relying on internal CM terminology.'
+- 'CM contrapositive referee audit blocks release: codex-gap-attack-log:contract-readiness-after-manuscript-expansion:
+  After the bridge is proved or the conclusion is otherwise closed, rerun the contract
+  check and update provenance with the contract result.'
+- 'CM contrapositive referee audit blocks release: codex-pdf-provenance:clay-readiness-not-claimed:
+  Replace the conditional provenance with a proved Clay-closing bridge before submission
+  readiness.'
+- 'CM contrapositive referee audit blocks release: clay-counterexample-gap-audit:finite-breakdown-exclusion-open:
+  Prove the Clay-closing bridge or replace the closing argument with a noncircular
+  finite-breakdown exclusion.'
 summary:
   queue_effect: blocked
   registry_note: problem is blocked at release gate
