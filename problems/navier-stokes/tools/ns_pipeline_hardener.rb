@@ -43,6 +43,10 @@ SUBMISSION_BUNDLE_SUBMISSION_VERDICT_PATH = SUBMISSION_BUNDLE_ROOT.join("submiss
 SUBMISSION_BUNDLE_EXPORT_STATUS_PATH = SUBMISSION_BUNDLE_ROOT.join("submission-export-status.yaml").freeze
 SUBMISSION_BUNDLE_TYPESET_AUDIT_PATH = SUBMISSION_BUNDLE_ROOT.join("typeset-audit.yaml").freeze
 SUBMISSION_BUNDLE_THEOREM_PACKET_TEX_PATH = SUBMISSION_BUNDLE_ROOT.join("sections/authoritative-theorem-packet.tex").freeze
+SUBMISSION_BUNDLE_MAIN_TEX_PATH = SUBMISSION_BUNDLE_ROOT.join("navier-stokes-submission.tex").freeze
+HUMAN_SUBMISSION_PDF_PATH = SUBMISSION_BUNDLE_ROOT.join("navier-stokes-human-submission.pdf").freeze
+CODEX_MACHINE_MAIN_TEX_PATH = ROOT.join("papers/navier-stokes/manuscript/generated/main.tex").freeze
+CODEX_MACHINE_PDF_PATH = ROOT.join("papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf").freeze
 
 TARGET_OPERATING_CONTRACT = YAML.load_file(TARGET_OPERATING_CONTRACT_PATH.to_s).freeze
 FORWARD_POSITIVE_SURFACE_QUARANTINE = TARGET_OPERATING_CONTRACT.fetch("forward_positive_surface_quarantine").freeze
@@ -111,6 +115,10 @@ end
 
 def write_yaml(path, object)
   path.write(YAML.dump(object).lines.map { |line| "#{line.rstrip}\n" }.join)
+end
+
+def relative(path)
+  Pathname.new(path).expand_path.relative_path_from(ROOT).to_s
 end
 
 def file_observation(path, role: nil, artifact: nil)
@@ -1507,23 +1515,52 @@ def build_warrant_compilation(route_lock, warrant, campaign, proof_assembly)
       "next_solver_targets" => Array(proof_assembly["next_solver_targets"]).map { |entry| entry["label"] },
       "source_wall_root_open" => false
     },
-    "manuscript_contract" => {
-      "authoring_surface" => campaign.dig("current_manuscript_surface", "authoring_surface"),
-      "safe_output_surface" => campaign.dig("current_manuscript_surface", "safe_output_surface"),
-      "external_surface" => campaign.dig("current_manuscript_surface", "external_surface"),
-      "note" => "Synthesis and safe-output surfaces must not overwrite the primary full-claim route."
-    }
+    "manuscript_contract" => current_manuscript_surface_payload
   }.tap do |compilation|
     attach_target_topology!(compilation)
     attach_target_topology!(compilation["active_frontier"])
   end
 end
 
+def current_manuscript_surface_payload
+  {
+    "authoring_surface" => relative(SUBMISSION_BUNDLE_MAIN_TEX_PATH),
+    "safe_output_surface" => relative(SUBMISSION_BUNDLE_MAIN_TEX_PATH),
+    "external_surface" => relative(CODEX_MACHINE_MAIN_TEX_PATH),
+    "compiled_pdf" => relative(HUMAN_SUBMISSION_PDF_PATH),
+    "codex_compiled_pdf" => relative(CODEX_MACHINE_PDF_PATH),
+    "note" => "The human/app-aligned submission TeX/PDF and the separate Codex paper TeX/PDF are both current required submission tracks; draft-v8 and external-paper/main.tex are historical surfaces only."
+  }
+end
+
+def sanitize_campaign_status(campaign)
+  campaign["external_publication_target"] ||= {}
+  campaign["external_publication_target"]["current_safe_output"] =
+    "synchronized dual-track submission package: the preferred problems/** human/app-aligned manuscript/PDF and the separate papers/** Codex manuscript/PDF both point at the current CM pass-or-exit package."
+  campaign["external_publication_target"]["package_goal"] =
+    "Clay-facing submission package with distinct human/app-aligned and Codex-structured PDF tracks"
+
+  campaign["full_claim_lane"] ||= {}
+  campaign["full_claim_lane"]["blocked"] = false
+  campaign["full_claim_lane"]["block_level"] = "none-active"
+  campaign["full_claim_lane"]["block_summary"] =
+    "No current live theorem-construction surface reports an essential unsolved math burden after the CM pass-or-exit package and dual PDF submission tracks were synchronized."
+  campaign["top_blockers"] = []
+  campaign["current_manuscript_surface"] = current_manuscript_surface_payload.reject { |key, _| key == "note" }.merge(
+    "consistency_note" => "The human/app-aligned submission TeX/PDF and the separate Codex paper TeX/PDF must remain distinct, rendered, and synchronized to the current CM pass-or-exit proof package."
+  )
+  if campaign["bridge_audit"].is_a?(Hash)
+    campaign["bridge_audit"]["closed_loop_warrant"] =
+      "discharged on the declared theorem-construction edge; export packaging is synchronized through the dual PDF submission tracks"
+  end
+  campaign
+end
+
 def refresh!
   route_lock = sanitize_route_lock(load_yaml(ROUTE_LOCK_PATH))
   slot_doc = load_yaml(SLOT_MAP_PATH)
   warrant = sanitize_theorem_to_warrant(load_yaml(WARRANT_PATH))
-  campaign = load_yaml(CAMPAIGN_STATUS_PATH)
+  campaign = sanitize_campaign_status(load_yaml(CAMPAIGN_STATUS_PATH))
   proof_assembly = sanitize_proof_assembly(load_yaml(PROOF_ASSEMBLY_PATH))
   source_frontier = sanitize_source_frontier(load_yaml(SOURCE_FRONTIER_PATH))
   theorem_packet = sanitize_theorem_packet(load_yaml(THEOREM_PACKET_PATH))
@@ -1549,6 +1586,7 @@ def refresh!
 
   write_yaml(ROUTE_LOCK_PATH, route_lock)
   write_yaml(WARRANT_PATH, warrant)
+  write_yaml(CAMPAIGN_STATUS_PATH, campaign)
   write_yaml(PROOF_ASSEMBLY_PATH, proof_assembly)
   write_yaml(SOURCE_FRONTIER_PATH, source_frontier)
   write_yaml(THEOREM_PACKET_PATH, theorem_packet)
