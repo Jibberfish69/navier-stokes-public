@@ -4,6 +4,7 @@
 require "open3"
 require "pathname"
 require "yaml"
+require "digest"
 
 ROOT = Pathname.new(__dir__).join("../../..").expand_path
 BUNDLE_ROOT = ROOT.join("problems/navier-stokes/submission-bundle")
@@ -79,6 +80,12 @@ def pdf_text(path)
   raise "pdftotext failed for #{relative(path)}: #{stderr.strip}" unless status.success?
 
   stdout
+end
+
+def file_sha1(path)
+  return nil unless path.file?
+
+  Digest::SHA1.file(path.to_s).hexdigest
 end
 
 def load_yaml(path)
@@ -159,6 +166,10 @@ expected_sources = {
   "human_app_aligned" => relative(BUNDLE_ROOT.join("navier-stokes-submission.tex")),
   "codex_machine_paper" => relative(ROOT.join("papers/navier-stokes/manuscript/generated/main.tex"))
 }
+expected_files = {
+  "human_app_aligned" => HUMAN_SUBMISSION_PDF,
+  "codex_machine_paper" => AUTHORITATIVE_PDF
+}
 tracks = export_status["pdf_tracks"].is_a?(Hash) ? export_status["pdf_tracks"] : {}
 expected_tracks.each do |track_id, expected_path|
   actual_path = tracks.dig(track_id, "path").to_s
@@ -168,6 +179,14 @@ expected_tracks.each do |track_id, expected_path|
   actual_source = tracks.dig(track_id, "manuscript_source").to_s
   unless actual_source == expected_sources.fetch(track_id)
     errors << "submission export status #{track_id} source points to #{actual_source.empty? ? '(none)' : actual_source}, expected #{expected_sources.fetch(track_id)}"
+  end
+  track = tracks[track_id] || {}
+  expected_file = expected_files.fetch(track_id)
+  unless track["sha1"] == file_sha1(expected_file)
+    errors << "submission export status #{track_id} sha1 is stale or missing against live PDF"
+  end
+  unless track["bytes"] == (expected_file.file? ? expected_file.size : 0)
+    errors << "submission export status #{track_id} byte count is stale against live PDF"
   end
 end
 
@@ -195,6 +214,12 @@ expected_tracks.each do |track_id, expected_path|
     errors << "submission readiness evidence #{track_id} sha1 is stale or missing"
   end
   errors << "submission readiness evidence #{track_id} byte count is stale" unless evidence_track["bytes"] == track["bytes"]
+  unless evidence_track["sha1"] == file_sha1(expected_files.fetch(track_id))
+    errors << "submission readiness evidence #{track_id} sha1 is stale against live PDF"
+  end
+  unless evidence_track["bytes"] == (expected_files.fetch(track_id).file? ? expected_files.fetch(track_id).size : 0)
+    errors << "submission readiness evidence #{track_id} byte count is stale against live PDF"
+  end
 end
 
 preferred_pdf = export_status["preferred_pdf"].to_s
