@@ -58,7 +58,7 @@ nodes:
       Governing CM bridge: all-depth CM witness membership implies Smooth(Q),
       and NonSmooth(Q) forces a Pack/Part/Field witness-face exit.
   clay_cm_contrapositive_witness_consumption:
-    status: classification-installed-clay-bridge-blocked
+    status: current-cm-referee-inventory-gate-passed
     theorem_ids:
       - ClayTerminalWitnessCMEntry.A
       - ClayFiniteFailureTypeCMExhaustion.A
