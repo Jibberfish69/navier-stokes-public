@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-08T05:02:19Z'
+  evaluated_at: '2026-06-08T05:04:57Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: respawn
@@ -47,6 +47,124 @@ blockers:
 - 'Navier-Stokes PDF contract blocks export: current material coverage failed: current-material
   coverage mismatch unclassified current checkable files: ns-completion-engine.yaml
   ns-completion-executor.yaml'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:root_submission_verdict:blockers
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:root_submission_verdict:required_before_submission
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:root_submission_verdict:adversarial_findings
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:root_submission_verdict:nested-alignment-status
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:root_submission_verdict:nested-alignment-allows_paper_quality_pass
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:root_submission_verdict:nested-alignment-submission_ready
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:root_submission_verdict:nested-alignment-downstream_submission_ready
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:root_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:root_submission_verdict:nested-open-blockers
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:root_submission_verdict:nested-completion-candidates
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:bundle_submission_verdict:blockers
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:bundle_submission_verdict:required_before_submission
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:bundle_submission_verdict:adversarial_findings
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:bundle_submission_verdict:nested-alignment-status
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:bundle_submission_verdict:nested-alignment-allows_paper_quality_pass
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:bundle_submission_verdict:nested-alignment-submission_ready
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:bundle_submission_verdict:nested-alignment-downstream_submission_ready
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:bundle_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:bundle_submission_verdict:nested-open-blockers
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:bundle_submission_verdict:nested-completion-candidates
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:codex-gap-attack-log:r3-exterior-high-order-tail-closure
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:codex-gap-attack-log:terminal-record-entry-referee-hardening
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:codex-gap-attack-log:contract-readiness-after-manuscript-expansion
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:codex-pdf-provenance:clay-readiness-not-claimed
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:clay-counterexample-gap-audit:finite-breakdown-exclusion-open
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:blocker:stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:root_submission_verdict:blockers
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:root_submission_verdict:required_before_submission
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:root_submission_verdict:adversarial_findings
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:root_submission_verdict:nested-alignment-status
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:root_submission_verdict:nested-alignment-allows_paper_quality_pass
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:root_submission_verdict:nested-alignment-submission_ready
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:root_submission_verdict:nested-alignment-downstream_submission_ready
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:root_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:root_submission_verdict:nested-open-blockers
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:root_submission_verdict:nested-completion-candidates
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:bundle_submission_verdict:blockers
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:bundle_submission_verdict:required_before_submission
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:bundle_submission_verdict:adversarial_findings
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:bundle_submission_verdict:nested-alignment-status
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:bundle_submission_verdict:nested-alignment-allows_paper_quality_pass
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:bundle_submission_verdict:nested-alignment-submission_ready
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:bundle_submission_verdict:nested-alignment-downstream_submission_ready
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:bundle_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:bundle_submission_verdict:nested-open-blockers
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:bundle_submission_verdict:nested-completion-candidates
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:codex-gap-attack-log:r3-exterior-high-order-tail-closure
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:codex-gap-attack-log:terminal-record-entry-referee-hardening
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:codex-gap-attack-log:contract-readiness-after-manuscript-expansion
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:codex-pdf-provenance:clay-readiness-not-claimed
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:clay-counterexample-gap-audit:finite-breakdown-exclusion-open
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:route-state:queue_state
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:route-current:status
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:blocker:stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
 - 'Navier-Stokes completion candidate remains: blocker:blocker:root_submission_verdict:blockers
   (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
 - 'Navier-Stokes completion candidate remains: blocker:blocker:root_submission_verdict:required_before_submission
@@ -102,6 +220,14 @@ blockers:
 - 'Navier-Stokes completion candidate remains: blocker:blocker:stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
   (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
 - 'Navier-Stokes completion candidate remains: blocker:blocker:stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:route-state:queue_state
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:route-current:status
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:blocker:stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
   (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
 - 'Navier-Stokes completion candidate remains: blocker:root_submission_verdict:blockers
   (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
@@ -163,6 +289,8 @@ blockers:
 - 'Navier-Stokes completion candidate remains: blocker:route-current:status (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
 - 'Navier-Stokes completion candidate remains: blocker:stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
   (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: blocker:stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
 - 'Navier-Stokes completion candidate remains: root_submission_verdict:blockers (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
 - 'Navier-Stokes completion candidate remains: root_submission_verdict:required_before_submission
   (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
@@ -221,6 +349,8 @@ blockers:
 - 'Navier-Stokes completion candidate remains: route-state:queue_state (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
 - 'Navier-Stokes completion candidate remains: route-current:status (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
 - 'Navier-Stokes completion candidate remains: stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+  (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
+- 'Navier-Stokes completion candidate remains: stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
   (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
 - 'Navier-Stokes completion candidate remains: root_submission_verdict:blockers (problems/navier-stokes/submission-verdict.yaml)'
 - 'Navier-Stokes completion candidate remains: root_submission_verdict:required_before_submission
