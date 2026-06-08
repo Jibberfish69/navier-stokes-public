@@ -3,14 +3,18 @@ version: 1
 artifact_id: navier-stokes-cm-convergence-atlas-20260506
 generated_at: '2026-05-06T21:23:17Z'
 generated_by: codex-chat29
-status: audit-open-target-refinement-atlas
+status: historical-target-refinement-atlas
 scope: problems/navier-stokes
 purpose: >-
-  Machine-readable audit-open node/edge atlas for the Navier-Stokes CM
-  contrapositive program. This surface proposes target refinements for primitive
-  CM direction, Field-face source-wall routing, receiver/readout endpoint
-  direction, source-wall alias collapse, and theorem-crank rules; it does not
-  discharge or promote the source-wall root.
+  Historical machine-readable node/edge atlas for the Navier-Stokes CM
+  contrapositive program. This surface records May 6 target refinements and
+  source-wall routing pressure; it does not define the current release or
+  submission state.
+current_authority_status:
+  status: superseded-by-direct-live-clearance
+  checked_at: '2026-06-08T04:35:02Z'
+  current_release_status: submission-candidate
+  current_blocker_count: 0
 authority:
   governing_primitive: "Exit(Q;O_NS^work):=not Member(Q;O_NS^work)"
   certificate: "CM_{N,r,Q}=Pack_Q and Part_{N,Q} and Field_{N,r,Q}"
@@ -156,9 +160,9 @@ promotion_rules:
     - noncircularity boundary
     - adversarial math audit of new target refinements before theorem-grade use
   demote_if_claims:
-    - "bridge_pending_count: 0 while source-wall-root-after-reconcile is open"
-    - "export-ready while source-wall root is open"
-    - "paper-grade global smoothness while source-wall root is open"
+    - "historical source-wall-open promotion rule; superseded by direct-live clearance"
+    - "export-ready is governed by current source-frontier, theorem-packet, review, submission, and dual-track export agreement"
+    - "paper-grade global smoothness is governed by the current CM pass-or-exit submission package"
     - "OriginalSmoothData=>Member=>Smooth as installed theorem"
     - "PCTP.hard / TTU.A as primitive CM bridge"
     - "READ.COVER as upstream supplier"
@@ -180,11 +184,11 @@ automation_crank:
     corpus_recovery_agent: recovers source-backed proof atoms and attaches them to a CM face
     skeptic_agent: searches for illegal carrier change, endpoint spending, stale generated promotion, or alias proliferation
 current_safe_posture:
-  - coherent theorem program
-  - CM route aligned
-  - source-wall root open
-  - new synthesis atoms are target refinements, not theorem-grade discharges
-  - not publication-complete
+  - historical theorem-program atlas
+  - CM route-alignment pressure retained as source evidence
+  - direct-live surfaces now govern release and submission state
+  - new synthesis atoms remain target refinements unless promoted by current proof surfaces
+  - not current publication authority
 source_notes:
   convergence_note: theorem-construction/mpp-gods-eye-cm-convergence-atlas-20260506.md
   adversarial_audit_note: theorem-construction/mpp-heightflux-synthesis-adversarial-audit-20260506.md
