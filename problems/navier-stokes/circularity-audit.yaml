@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: circularity-audit-navier-stokes
-  generated_at: '2026-06-08T06:51:37Z'
+  generated_at: '2026-06-08T06:52:51Z'
   generator: system/runner/lib/release_surface_reconciler.rb
   purpose: release circularity blocked by CM contrapositive referee audit
 status:
