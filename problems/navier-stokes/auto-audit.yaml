@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-08T04:53:37Z'
+  audited_at: '2026-06-08T04:57:36Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: full-mpp-closure-ready
@@ -13,7 +13,7 @@ certification:
   review_verdict: accept
   theorem_packet_status: export-ready
 audit_certification:
-  audit_status: audited-needs-fix
+  audit_status: audited-ok
   audit_completion_tier: audited-full-mpp-closure
   audit_review_verdict: audited-accept
 branch_audit:
@@ -42,7 +42,7 @@ downstream_overlay_drift:
     - 'dashboard_unresolved_count: 0'
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: 5508ba3a3169a654873004b14393cd146502ec7e
+    sha1: 54963e34ef699d2695ab144fef28406c32423cb8
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -59,7 +59,7 @@ downstream_overlay_drift:
     - 'release_posture: export-ready'
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
-    sha1: 25ae97643a449109cc6330d2010244b1c5349362
+    sha1: 9bd06d1886d6a92af9c5eeb6bf17eb97d1f0ff8e
     matched_terms:
     - direct-live-surfaces
     - authority_gate_mode
@@ -70,7 +70,7 @@ downstream_overlay_drift:
     - submission-candidate
   - artifact: dependency_discharge
     path: problems/navier-stokes/dependency-discharge.yaml
-    sha1: 520091b5d8d2fe1b44e70b0b7bcafe3434b2e28b
+    sha1: 1a49597c1457f9a5eb8380960dfc8ccdec359f08
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -217,14 +217,7 @@ surface_snapshot:
     all_discharged: true
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
-issues:
-- issue_id: stale-review-verdict
-  severity: major
-  summary: Review verdict is stale relative to the current manuscript artifacts.
-  autofixable: false
-  recommended_action: Run honesty-review to refresh the review verdict.
-  details:
-  - Submission export status changed after the current review verdict was written.
+issues: []
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
