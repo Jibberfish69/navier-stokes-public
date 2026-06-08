@@ -204,7 +204,7 @@ def cm_referee_blocked_consequence
     "disposition" => "blocked",
     "next_cell_type" => "proof-frontier",
     "next_stage" => "clay-closing-bridge-open",
-    "next_action" => "Close the Clay counterexample-exclusion bridge and R3 endpoint blockers before submission promotion."
+    "next_action" => "Close the Clay counterexample-exclusion bridge before submission promotion."
   }
 end
 
