@@ -1,45 +1,59 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
   artifact_id: failure-mode-checks-navier-stokes
-  generated_at: '2026-06-08T04:43:27Z'
+  generated_at: '2026-06-08T05:18:28Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: passed
-pass: true
-release_eligible: true
+status: cm-contrapositive-referee-blocked
+pass: false
+release_eligible: false
 source:
-  auto_audit: problems/navier-stokes/auto-audit.yaml
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
-  circularity_audit: problems/navier-stokes/circularity-audit.yaml
-  consistency_audit: problems/navier-stokes/consistency-audit.yaml
+  review_verdict: problems/navier-stokes/review-verdict.yaml
+  submission_verdict: problems/navier-stokes/submission-verdict.yaml
+  release_decision: problems/navier-stokes/release-decision.yaml
+  auto_audit: problems/navier-stokes/auto-audit.yaml
+  cm_contrapositive_referee_audit: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 checks:
-- id: dependency-audit-pass
-  status: passed
-  surface: problems/navier-stokes/dependency-audit.yaml
-- id: assumption-audit-pass
-  status: passed
-  surface: problems/navier-stokes/assumption-audit.yaml
-- id: circularity-audit-pass
-  status: passed
-  surface: problems/navier-stokes/circularity-audit.yaml
-- id: gap-audit-pass
-  status: passed
-  surface: problems/navier-stokes/gap-audit.yaml
-- id: consistency-audit-pass
-  status: passed
-  surface: problems/navier-stokes/consistency-audit.yaml
+- id: cm-contrapositive-referee-audit-pass
+  status: blocked
+  surface: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 auto_audit_certification:
-  current_package_status: full-mpp-closure-ready
-  standalone_status: accept
-  completion_tier_achieved: full-mpp-closure
-  review_verdict: accept
-  theorem_packet_status: export-ready
+  current_package_status: clay-closing-bridge-open
+  standalone_status: blocked
+  completion_tier_achieved: clay-closing-bridge-open
+  review_verdict: block
+  theorem_packet_status: blocked
 summary:
-  total_obligations: 3
-  blocking_count: 0
+  authority_mode: cm-contrapositive-referee-gate
+  audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+  audit_status: clay-closing-bridge-open
+  blocking_count: 6
   frontier_count: 0
-  all_discharged: true
-  failure_mode_blocking_count: 0
+  unresolved_count: 6
+  bridge_discharge_blocking_count: 0
+  theorem_warrant_blocking_count: 6
+  all_discharged: false
+  referee_blockers:
+  - 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
+    Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
+    obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
+    proof.'
+  - 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a direct
+    noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing into
+    an accepted whole-space endpoint exclusion.'
+  - 'codex-gap-attack-log:terminal-record-entry-referee-hardening: Tighten the entry
+    theorem so the Clay negation itself, stated in standard PDE language, supplies
+    the same-solution record without relying on internal CM terminology.'
+  - 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the
+    bridge is proved or the conclusion is otherwise closed, rerun the contract check
+    and update provenance with the contract result.'
+  - 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional provenance
+    with a proved Clay-closing bridge before submission readiness.'
+  - 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
+    bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
+  open_frontier_labels: []
+  failure_mode_blocking_count: 6
