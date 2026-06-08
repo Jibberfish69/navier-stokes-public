@@ -1,3 +1,14 @@
+---
+ns_viewer:
+  theorem_id: terminal-collar-strain-integrability-proof-method-audit-20260607
+  status: failed-proof-method-audit
+  proof_role: proof_method_audit
+  logical_landing_node: cm_pack_face_attempts
+  edge_effect: "Shows TerminalCollarStrainIntegrability.A is continuation-strength and cannot honestly close Pack retention as a smaller bookkeeping lemma."
+  upstream_origin: "June 7 Pack-face exclusion working pass."
+  downstream_consequence: "Keep Pack retention as row-level CM certification unless a strictly weaker carrier mechanism is supplied."
+---
+
 # MPP Terminal Collar Strain Integrability Proof-Method Audit
 
 Date: 2026-06-07
