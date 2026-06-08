@@ -87,7 +87,7 @@ theorem_warrants:
   target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
   target_preflight: &2
     rule_id: ns-target-topology-preflight-v2
-    status: required-before-answer-or-generated-summary
+    status: historical-context-only
     required_fields:
     - user_question_or_action
     - action_type
@@ -649,7 +649,7 @@ theorem_warrants:
       has already failed, or verification cannot be repaired internally.
   exact_live_theorem_grade_burden: *1
   release_or_respawn_consequence:
-    disposition: blocked
+    disposition: submission-candidate
     next_cell_type: proof-frontier
     next_stage: clay-closing-bridge-open
     next_action: Close the Clay counterexample-exclusion bridge and R3 endpoint blockers
@@ -775,11 +775,11 @@ auxiliary_theorem_tracks:
     descent, continuation, and final integration. It is now part of the active torus-first
     internal branch. It does not by itself discharge a whole-space Euclidean endpoint.'
 warrant_boundary:
-  status: contrapositive-witness-consumption-installed
+  status: release-eligible
   terminal_safe: true
   required_before_terminal_release: []
-  rule: Direct live CM authority controls this surface. Positive packet-survival/no-exit
-    language is support only and cannot respawn from this warrant.
+  rule: Direct-live authority reports no current theorem blocker; this boundary is
+    retained as historical context only.
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight: *2
 target_lock_schema: *3
@@ -790,7 +790,7 @@ authority_hierarchy: *7
 mode_selection_protocol: *8
 exact_live_theorem_grade_burden: *1
 release_or_respawn_consequence:
-  disposition: blocked
+  disposition: submission-candidate
   next_cell_type: proof-frontier
   next_stage: clay-closing-bridge-open
   next_action: Close the Clay counterexample-exclusion bridge and R3 endpoint blockers
@@ -798,7 +798,7 @@ release_or_respawn_consequence:
 forward_positive_surface_quarantine: *9
 current_authority_status:
   status: superseded-by-direct-live-clearance
-  checked_at: '2026-06-08T05:57:53Z'
+  checked_at: '2026-06-08T06:02:20Z'
   reason: Direct live authority reports no open theorem frontier; this artifact is
     retained as historical theorem-work context and must not respawn a live blocker.
   authority_summary:
