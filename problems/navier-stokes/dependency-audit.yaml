@@ -5,7 +5,7 @@ identity:
   artifact_id: dependency-audit-navier-stokes
   created_by: release_surface_reconciler
   purpose: dependency audit reconciled from closed direct-live authority
-generated_at: '2026-06-08T03:40:28Z'
+generated_at: '2026-06-08T04:06:18Z'
 status:
   audit_status: dependency-graph-closed
   pass: true
