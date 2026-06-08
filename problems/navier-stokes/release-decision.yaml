@@ -4,22 +4,19 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-08T05:11:32Z'
+  evaluated_at: '2026-06-08T05:15:48Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
-  disposition: respawn
-  release_posture: export-ready
+  disposition: blocked
+  release_posture: blocked
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: full-mpp-closure
-  next_cell_type: prose-realization
-  next_stage: publication-finalize-requested
-  next_action: Reopen the current checkpoint package on `prose-realization` and compress
-    it into a referee-facing final draft, using `draft-v7.md` as the publishability
-    surface rather than leaving the package at lowest-safe-claim checkpoint posture
-    only.
-  rationale: The package cleared export-facing review, but the submission gate is
-    still not clear, so Prime keeps the active post-release track alive instead of
-    parking the lane as blocked.
+  completion_tier_achieved: clay-closing-bridge-open
+  next_cell_type:
+  next_stage: release-blocked
+  next_action: Hold the package blocked until the release blocker changes materially
+    or an internal reroute becomes available.
+  rationale: Honesty review did not define a safe upstream respawn path, so the package
+    is parked explicitly.
 artifacts:
   draft:
   draft_v6: problems/navier-stokes/draft-v6.md
@@ -42,6 +39,29 @@ blockers:
   live export surface.
 - The current package is coherent enough to clear a full-MPP closure release if the
   export bundle remains intact.
+- 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
+  Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay obstruction,
+  or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
+  proof.'
+- 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a direct
+  noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing into
+  an accepted whole-space endpoint exclusion.'
+- 'codex-gap-attack-log:terminal-record-entry-referee-hardening: Tighten the entry
+  theorem so the Clay negation itself, stated in standard PDE language, supplies the
+  same-solution record without relying on internal CM terminology.'
+- 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the bridge
+  is proved or the conclusion is otherwise closed, rerun the contract check and update
+  provenance with the contract result.'
+- 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional provenance
+  with a proved Clay-closing bridge before submission readiness.'
+- 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
+  bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
+- Completion tier is still `clay-closing-bridge-open`, below a paper-complete or full-closure
+  submission surface.
+- Honesty review verdict is still `block`.
+- 'Target fidelity failure: direct theorem authority still has open theorem-packet
+  blockers, so terminal release is not safe.'
+- Stand-alone status remains `blocked`.
 - Paper quality verdict did not pass; the manuscript still fails architecture, prose,
   or submission-shape checks.
 - 'Navier-Stokes PDF contract blocks export: two-track Navier-Stokes PDF output topology
@@ -63,5 +83,5 @@ blockers:
 - 'Navier-Stokes completion candidate remains: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
   (problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md)'
 summary:
-  queue_effect: ready
-  registry_note: problem is re-queued on the upstream stage named by the review verdict
+  queue_effect: blocked
+  registry_note: problem is blocked at release gate
