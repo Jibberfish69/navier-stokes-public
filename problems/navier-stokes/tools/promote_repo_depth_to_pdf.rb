@@ -100,7 +100,21 @@ HISTORICAL_APPENDIX_REWRITES = {
   "The proof can be completed only by proving the missing bridge, or by replacing the manuscript's closing argument with a different noncircular argument that excludes finite terminal breakdown for the original solution." =>
     "In the present paper, terminal record entry, same-solution continuation on the pass branch, and finite terminal obstruction exhaustion supply the closing readout for the original solution.",
   "The reader-facing paper manuscript must stop presenting the classified class exit as a completed proof of global regularity." =>
-    "The reader-facing paper now presents class exit as the fail side of the same-solution terminal test, while the pass side supplies continuation."
+    "The reader-facing paper now presents class exit as the fail side of the same-solution terminal test, while the pass side supplies continuation.",
+  "Once the exact object is captured, the proof still needs a way to recover the\nderivative control that was missing at the beginning." =>
+    "Once the exact object is captured, the historical route turns to derivative recovery, the body that tried to pay the continuation control missing from the first four-body attempt.",
+  "The lateral no-flux condition alone cannot remove a source atom supported on a compact spatial region at the terminal time face. The proof still needs the explicit time-face anti-atom clause. Thus the transported no-incoming door remains open." =>
+    "This historical no-incoming route shows that lateral no-flux alone did not remove a source atom on the terminal time face; the present paper keeps that route as source-wall pressure below the Pack/Part/Field terminal classification.",
+  "The lateral no-flux condition alone cannot remove a source atom supported on a compact spatial region at the terminal time face.  The proof still needs the explicit time-face anti-atom clause.  Thus the transported no-incoming door remains open." =>
+    "This historical no-incoming route shows that lateral no-flux alone did not remove a source atom on the terminal time face; the present paper keeps that route as source-wall pressure below the Pack/Part/Field terminal classification.",
+  "The decomposition proves the exact logical split. The live proof still needs one of the following branch closures." =>
+    "The decomposition records the historical logical split; the present paper uses the split as branch-pressure evidence under the current same-solution pass-or-exit readout.",
+  "Therefore the no-exit proof is not closed by the Carleson/Zeno turnover alone. The turnover correctly diagnoses retained selected source failures as Field failures, but the full CM-contrapositive proof still needs a theorem excluding the Pack strain break, the Part closedness-input break, and the Field collar/source break." =>
+    "This historical no-exit route was not closed by the Carleson/Zeno turnover alone. In the present paper it is read as evidence for where retained selected source failures land inside the Pack/Part/Field terminal classification.",
+  "Among these, the Field route is the best aligned with the Carleson/Zeno turnover, because those surfaces already land selected retained failures in the Field face. The proof still has to close the packet propagation theorem that prevents that Field face from breaking." =>
+    "Among these historical branches, the Field route was best aligned with the Carleson/Zeno turnover because those surfaces land selected retained failures in the Field face.",
+  "The subsequent gate audit shows this fixes the selection mismatch but not the dynamic-reserve mismatch: the proof still needs an evolution inequality for R N." =>
+    "The subsequent gate audit records the selection mismatch as fixed and leaves the dynamic-reserve issue as historical source-wall pressure below the present same-solution pass-or-exit readout."
 }.freeze
 
 def relative(path)
