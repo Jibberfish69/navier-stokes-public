@@ -226,7 +226,7 @@ FAMILIES = [
   },
   {
     "id" => "june_2026_active_cm_completion_notes",
-    "paper_representation" => "June 2026 theorem notes are represented as active CM completion-frontier material. They sharpen Clay counterexample exclusion, Pack_Q reader certification, retained pressure/finite-energy obstruction placement, averaged Jump_avg and receiver readout issues, RSCB/SCF_avg face landing, and executor proof-frontier blockers. They do not by themselves close the MPP; the manuscript may use them only as proof-frontier material until a Pack/Part/Field mechanism is written as proof.",
+    "paper_representation" => "June 2026 theorem notes are represented as active CM completion-frontier material. They sharpen Clay counterexample exclusion, Pack_Q reader certification, retained pressure/finite-energy obstruction placement, averaged Jump_avg and receiver readout issues, RSCB/SCF_avg face landing, Pack/Part/Field face-exclusion blockers, and executor proof-frontier blockers. They do not by themselves close the MPP; the manuscript may use them only as proof-frontier material until a Pack/Part/Field mechanism is written as proof.",
     "files" => %w[
       theorem-construction/mpp-nightly-20260602-clay-counterexample-exclusion-pressure-note.md
       theorem-construction/mpp-clay-counterexample-exclusion-target-correction-20260603.md
@@ -243,6 +243,9 @@ FAMILIES = [
       theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md
       theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md
       theorem-construction/mpp-rscb-scfavg-face-landing-20260607.md
+      theorem-construction/mpp-clay-field-face-exclusion-working-pass-20260607.md
+      theorem-construction/mpp-clay-pack-face-exclusion-working-pass-20260607.md
+      theorem-construction/mpp-clay-part-face-exclusion-working-pass-20260607.md
       theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
       theorem-construction/ns-completion-executor-proof-frontier-20260607.md
     ]
