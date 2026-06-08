@@ -288,15 +288,15 @@ route_nodes:
 - node_id: r3_hs_tail_export_matrix
   label: r3_hs_tail_export_matrix
   status: cm-dichotomy-installed-direct-export-estimate-optional
-  role: 'Whole-space R^3 export matrix. The live R^3 burden has been sharpened: rapid-decay
+  role: 'Whole-space R^3 export matrix. The live R^3 CM burden is installed: rapid-decay
     initial ancestry and compact-core far-kernel source do not carry the exterior
     H^s tail. The direct positive export estimate R3.ExteriorNonlinearSourceHsLedger.A
-    remains open, but a surviving exterior source is no longer an unspecified branch:
-    bounded frequencies vanish by exterior L^2 tightness, high-frequency survivors
-    escape to dyadic scale, and retained Pack+Part is incompatible with any fixed
-    positive Field scale by R3.ExteriorDyadicSurvivorFieldIncompatibility.A. Thus
-    the CM-facing dichotomy lands the survivor in Pack, Part, or Field. This branch
-    is upstream-separated from the periodic T^3 endpoint.'
+    remains a stronger optional export, while a surviving exterior source is no longer
+    an unspecified branch: bounded frequencies vanish by exterior L^2 tightness, high-frequency
+    survivors escape to dyadic scale, and retained Pack+Part is incompatible with
+    any fixed positive Field scale by R3.ExteriorDyadicSurvivorFieldIncompatibility.A.
+    Thus the CM-facing dichotomy lands the survivor in Pack, Part, or Field. This
+    branch is upstream-separated from the periodic T^3 endpoint.'
   source_refs: &21
   - whole-space-r3-matrix-branch.md
   - theorem-construction/r3-extcascade-s-theorem-attempt.md
@@ -721,15 +721,15 @@ branch_rows:
   row_kind: route_node
   label: r3_hs_tail_export_matrix
   state: cm-dichotomy-installed-direct-export-estimate-optional
-  next_burden: 'Whole-space R^3 export matrix. The live R^3 burden has been sharpened:
+  next_burden: 'Whole-space R^3 export matrix. The live R^3 CM burden is installed:
     rapid-decay initial ancestry and compact-core far-kernel source do not carry the
     exterior H^s tail. The direct positive export estimate R3.ExteriorNonlinearSourceHsLedger.A
-    remains open, but a surviving exterior source is no longer an unspecified branch:
-    bounded frequencies vanish by exterior L^2 tightness, high-frequency survivors
-    escape to dyadic scale, and retained Pack+Part is incompatible with any fixed
-    positive Field scale by R3.ExteriorDyadicSurvivorFieldIncompatibility.A. Thus
-    the CM-facing dichotomy lands the survivor in Pack, Part, or Field. This branch
-    is upstream-separated from the periodic T^3 endpoint.'
+    remains a stronger optional export, while a surviving exterior source is no longer
+    an unspecified branch: bounded frequencies vanish by exterior L^2 tightness, high-frequency
+    survivors escape to dyadic scale, and retained Pack+Part is incompatible with
+    any fixed positive Field scale by R3.ExteriorDyadicSurvivorFieldIncompatibility.A.
+    Thus the CM-facing dichotomy lands the survivor in Pack, Part, or Field. This
+    branch is upstream-separated from the periodic T^3 endpoint.'
   evidence_refs: *21
   mcp_visibility_status: visible-in-route-state
 - row_id: graph:fixed_nu_euler_transfer
