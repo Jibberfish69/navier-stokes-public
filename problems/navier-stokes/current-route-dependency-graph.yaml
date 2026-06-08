@@ -24,8 +24,10 @@ primary_frontier:
     The installed chain classifies an alleged finite Clay terminal witness by
     entering the canonical same-fluid CM packet tree, exhausting the first
     failing Pack/Part/Field face, and deriving Exit(Q):=not Member(Q). The
-    Clay-ready contradiction is still blocked: Pack, Part, and Field each have
-    an open face-exclusion/realization theorem recorded below.
+    Clay-ready contradiction is still blocked at Pack retention and Part
+    survival/target-fidelity; the Field row is now installed as an independent
+    collapse into Part through ClayFieldFailureRealization.A plus
+    TerminalFieldJumpPartCollapse.A.
 open_blockers:
   - blocker_id: same-solution-terminal-pack-retention
     branch: proof
@@ -39,12 +41,6 @@ open_blockers:
     blocker: RetainedPackOriginalAncestryPartSurvival.A / terminal no-defect participation or Part-failure target-fidelity bridge
     evidence_ref: problems/navier-stokes/theorem-construction/mpp-clay-part-face-exclusion-working-pass-20260607.md
     required_action: Prove terminal no-defect pressure/source participation on the retained Pack carrier, or prove that the Part failure is not a valid finite Clay breakdown witness.
-  - blocker_id: clay-field-face-exclusion
-    branch: proof
-    status: open
-    blocker: ClayFieldFailureRealization.A via retained-Pack/Part all-scale Field failure as realized Jump; stronger alternate ClayRetainedPackPartGoodScaleNonCollapse.A
-    evidence_ref: problems/navier-stokes/theorem-construction/mpp-clay-field-face-exclusion-working-pass-20260607.md
-    required_action: Prove that all-scales Field failure under retained Pack and terminal Part is a realized same-fluid terminal Jump, or supply a noncircular positive-scale noncollapse mechanism.
 nodes:
   cm_convergence_atlas:
     status: support-audit-cm-resolved
