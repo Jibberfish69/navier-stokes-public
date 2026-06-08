@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-08T06:39:10Z'
+  evaluated_at: '2026-06-08T06:52:51Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: blocked
@@ -45,6 +45,7 @@ blockers:
 - Completion tier is still `clay-closing-bridge-open`, below a paper-complete or full-closure
   submission surface.
 - Honesty review verdict is still `block`.
+- Submission export status changed after the current review verdict was written.
 - 'Target fidelity failure: direct theorem authority still has open theorem-packet
   blockers, so terminal release is not safe.'
 - Stand-alone status remains `blocked`.
