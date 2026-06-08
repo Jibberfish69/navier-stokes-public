@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: dependency-audit-navier-stokes
-  generated_at: '2026-06-08T05:33:22Z'
+  generated_at: '2026-06-08T05:41:36Z'
   generator: system/runner/lib/release_surface_reconciler.rb
   purpose: dependency release blocked by CM contrapositive referee audit
 status:
@@ -24,11 +24,11 @@ summary:
   authority_mode: cm-contrapositive-referee-gate
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   audit_status: clay-closing-bridge-open
-  blocking_count: 6
+  blocking_count: 5
   frontier_count: 0
-  unresolved_count: 6
+  unresolved_count: 5
   bridge_discharge_blocking_count: 0
-  theorem_warrant_blocking_count: 6
+  theorem_warrant_blocking_count: 5
   all_discharged: false
   referee_blockers: &1
   - 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
@@ -38,9 +38,6 @@ summary:
   - 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a direct
     noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing into
     an accepted whole-space endpoint exclusion.'
-  - 'codex-gap-attack-log:terminal-record-entry-referee-hardening: Tighten the entry
-    theorem so the Clay negation itself, stated in standard PDE language, supplies
-    the same-solution record without relying on internal CM terminology.'
   - 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the
     bridge is proved or the conclusion is otherwise closed, rerun the contract check
     and update provenance with the contract result.'
