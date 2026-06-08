@@ -13,6 +13,15 @@ PROOF_ATTEMPT_MIN_SOURCE_WORDS = 19_000
 SOURCE_FIELD_MIN_SOURCE_WORDS = 300_000
 MAX_REPEATED_APPENDIX_BLOCK = 25
 SECRET_TOKEN_PATTERN = /\b(?:sk-(?:proj-)?[A-Za-z0-9_-]{20,}|OPENAI_API_KEY=(?:"sk-[^"\s]+"|'sk-[^'\s]+'))\b/.freeze
+CODEX_MAIN_TEX = ROOT.join("papers/navier-stokes/manuscript/generated/main.tex")
+CODEX_ACCREDITED_APPENDIX_INPUTS = %w[
+  referee-proof-details.tex
+  referee-proof-expansion.tex
+].freeze
+CODEX_DEFENSIVE_SECTION_TITLE = /\A(?:What\b.*\bDoes\b|\bNo\b|\bCannot\b|\bWhy\b.*\bNot\b|\bObjection\b|\bReferee Proof Details\b|\bExpanded Logical Skeleton\b)/i.freeze
+CODEX_DEFENSIVE_LEAD_PATTERN = /\b(?:does not|cannot|should not|must not|not a|not an|not enough|rather than|instead of|is not|are not)\b/i.freeze
+CODEX_MAX_DEFENSIVE_LEADS = 3
+CODEX_MAX_DEFENSIVE_SENTENCES = 35
 
 FORBIDDEN_VISIBLE_PATTERNS = {
   "internal path string" => %r{problems/navier-stokes|submission-bundle|source-forensics|theorem-construction|system/runner},
