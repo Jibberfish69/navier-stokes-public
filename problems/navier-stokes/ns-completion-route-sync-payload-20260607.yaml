@@ -32,10 +32,13 @@ route_nodes:
   - theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
 - node_id: clay_cm_contrapositive_witness_consumption
   label: clay_cm_contrapositive_witness_consumption
-  status: live-direct-authority
-  role: 'Direct Clay-facing route: a finite terminal witness enters the same-fluid
-    CM packet tree, the first failing Pack/Part/Field face is recorded, and that face
-    failure supports Exit(Q):=not Member(Q).'
+  status: current-cm-referee-inventory-gate-passed
+  role: 'Direct Clay-facing classification route: a finite terminal witness enters
+    the same-fluid CM packet tree, the first failing Pack/Part/Field face is recorded,
+    and that face failure supports Exit(Q):=not Member(Q). The current referee audit
+    checks finite-obstruction inventory coverage rather than generic no-face exclusion.
+    The promoted proof-bearing rows have CM entry and first-face landing, while generic
+    support rows remain demoted.'
   source_refs: &3
   - live-theorem-edge.yaml
   - source-frontier.yaml
@@ -318,9 +321,11 @@ route_nodes:
   - euler-mirror/completion-status.yaml
 - node_id: clay_target
   label: clay_target
-  status: target-cm-chain-installed
-  role: Final manuscript target after source-wall readout and CM witness rows are
-    reconciled.
+  status: current-referee-gate-passed
+  role: Current promoted CM surfaces pass the finite-obstruction inventory referee
+    gate. Future public-critical, source-wall, readout, transfer, or comparison material
+    becomes proof-bearing only after same-witness CM entry and Pack/Part/Field face
+    certification.
   source_refs: &23
   - theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
   - live-theorem-edge.yaml
@@ -460,49 +465,49 @@ route_edges:
 integration_chain:
 - step_id: graph_topology_source
   surface_class: theorem graph
-  current_state: logical-tree-synced
+  current_state: finite-obstruction-inventory-synced
   job: Every branch node has an evidence source, state, and next burden.
-  current_gap: The exported logical tree now has 248 nodes, 2222 leaves, 0 open leaves,
-    0 missing bridge leaves, 0 orphan leaves, and 0 validation issues after authority
-    reconciliation.
+  current_gap: The generic Pack/Part face-exclusion work order is demoted. The graph
+    must show finite-obstruction inventory coverage and keep future named rows under
+    same-witness Pack/Part/Field certification.
 - step_id: app_worker_surface
   surface_class: NS app/viewer
-  current_state: route-state-and-logical-tree-exported
+  current_state: route-state-exported-with-inventory-gate
   job: Viewer can inspect the D8 route map, Research OS route state, branch rows,
     proof/PDF scaffold state, sync verdicts, and open blockers beside route graph,
     source frontier, live edge, and proof leaves.
-  current_gap: The Route State view and logical-tree export now expose the June 7
-    route payload, dual-PDF state, authority reconciliation, and proof-leaf closure
-    with no app-side open blocker.
+  current_gap: The viewer route truth must show Pack/Part as witness faces for named
+    rows, not as generic global no-exit blockers.
 - step_id: repo_proof_authority
   surface_class: NS repo theorem closure
-  current_state: cm-witness-consumption-reconciled
+  current_state: cm-referee-inventory-gate-passed
   job: Keep the governing proof program as Exit(Q):=not Member(Q) through Pack/Part/Field.
-  current_gap: 'The periodic CM face inventory is sharpened by the retained/averaged
-    receiver split, local L3 row audit, and averaged Field-face admission. The whole-space
-    R3 branch now has its CM-facing dichotomy installed: bounded exterior frequencies
-    vanish under exterior L2 tightness, and a surviving high-frequency exterior source
-    lands in Pack, Part, or Field; the direct positive exterior-source Hs estimate
-    remains an optional stronger export theorem rather than a current proof blocker.
+  current_gap: 'The June 7 referee audit checks the corrected target: finite-obstruction
+    inventory coverage, not a generic prohibition on Exit(Q) or generic Pack/Part
+    face-exclusion. The branch ledger reports no open proof-bearing rows on the promoted
+    surfaces. The failed Pack and Part face-exclusion passes remain evidence against
+    the stale no-exit work order, while Field is installed as a collapse into Part
+    for the retained-Pack / terminal-Part row.
 
 '
 - step_id: manuscript_scaffold
   surface_class: NS manuscript/PDF
-  current_state: dual-pdf-promotion-passing
+  current_state: dual-pdf-rendered-submission-ready
   job: Use app/graph/proof topology as the reader-facing proof scaffold.
-  current_gap: 'Both PDF tracks now expose the periodic CM proof route and R3 exterior-source
-    class-exit branch; the Codex papers track is generated from its own papers/**
-    manuscript source, while the preferred problems/** human/app track keeps the app-aligned
-    structure.
+  current_gap: 'Both PDF tracks render from the current finite-obstruction inventory
+    gate: the problems/** human/app-aligned track carries the long app/proof dossier,
+    and the papers/** Codex track carries the shorter Clay-facing proof paper.
 
 '
 - step_id: submission_package
   surface_class: review/submission
-  current_state: dual-pdf-promoted
-  job: Review and submission verdicts agree no proof, reader, build, or package blocker
-    remains.
-  current_gap: 'The current source frontier reports no unresolved live theorem obligations,
-    and both required PDF tracks have been rebuilt from the current CM/R3 state.
+  current_state: submission-candidate-synced
+  job: Review and submission verdicts must keep rendered PDFs separate from Clay-ready
+    submission readiness.
+  current_gap: 'Review, submission verdicts, export status, and PDF topology now agree:
+    no unresolved proof, reader, build, or package blocker remains on the current
+    submission-candidate state. Future theorem deltas must resync this package instead
+    of reopening stale generic Pack/Part no-exit work.
 
 '
 open_blockers: []
@@ -531,10 +536,13 @@ branch_rows:
 - row_id: graph:clay_cm_contrapositive_witness_consumption
   row_kind: route_node
   label: clay_cm_contrapositive_witness_consumption
-  state: live-direct-authority
-  next_burden: 'Direct Clay-facing route: a finite terminal witness enters the same-fluid
-    CM packet tree, the first failing Pack/Part/Field face is recorded, and that face
-    failure supports Exit(Q):=not Member(Q).'
+  state: current-cm-referee-inventory-gate-passed
+  next_burden: 'Direct Clay-facing classification route: a finite terminal witness
+    enters the same-fluid CM packet tree, the first failing Pack/Part/Field face is
+    recorded, and that face failure supports Exit(Q):=not Member(Q). The current referee
+    audit checks finite-obstruction inventory coverage rather than generic no-face
+    exclusion. The promoted proof-bearing rows have CM entry and first-face landing,
+    while generic support rows remain demoted.'
   evidence_refs: *3
   mcp_visibility_status: visible-in-route-state
 - row_id: graph:torus_global_material_atlas_terminal_capture
@@ -744,9 +752,11 @@ branch_rows:
 - row_id: graph:clay_target
   row_kind: route_node
   label: clay_target
-  state: target-cm-chain-installed
-  next_burden: Final manuscript target after source-wall readout and CM witness rows
-    are reconciled.
+  state: current-referee-gate-passed
+  next_burden: Current promoted CM surfaces pass the finite-obstruction inventory
+    referee gate. Future public-critical, source-wall, readout, transfer, or comparison
+    material becomes proof-bearing only after same-witness CM entry and Pack/Part/Field
+    face certification.
   evidence_refs: *23
   mcp_visibility_status: visible-in-route-state
 - row_id: graph:generated_surface_drift
@@ -761,33 +771,32 @@ branch_rows:
 - row_id: integration:graph_topology_source
   row_kind: d8_integration_step
   label: theorem graph
-  state: logical-tree-synced
-  next_burden: The exported logical tree now has 248 nodes, 2222 leaves, 0 open leaves,
-    0 missing bridge leaves, 0 orphan leaves, and 0 validation issues after authority
-    reconciliation.
+  state: finite-obstruction-inventory-synced
+  next_burden: The generic Pack/Part face-exclusion work order is demoted. The graph
+    must show finite-obstruction inventory coverage and keep future named rows under
+    same-witness Pack/Part/Field certification.
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mcp_visibility_status: visible-in-route-state
 - row_id: integration:app_worker_surface
   row_kind: d8_integration_step
   label: NS app/viewer
-  state: route-state-and-logical-tree-exported
-  next_burden: The Route State view and logical-tree export now expose the June 7
-    route payload, dual-PDF state, authority reconciliation, and proof-leaf closure
-    with no app-side open blocker.
+  state: route-state-exported-with-inventory-gate
+  next_burden: The viewer route truth must show Pack/Part as witness faces for named
+    rows, not as generic global no-exit blockers.
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mcp_visibility_status: visible-in-route-state
 - row_id: integration:repo_proof_authority
   row_kind: d8_integration_step
   label: NS repo theorem closure
-  state: cm-witness-consumption-reconciled
-  next_burden: 'The periodic CM face inventory is sharpened by the retained/averaged
-    receiver split, local L3 row audit, and averaged Field-face admission. The whole-space
-    R3 branch now has its CM-facing dichotomy installed: bounded exterior frequencies
-    vanish under exterior L2 tightness, and a surviving high-frequency exterior source
-    lands in Pack, Part, or Field; the direct positive exterior-source Hs estimate
-    remains an optional stronger export theorem rather than a current proof blocker.
+  state: cm-referee-inventory-gate-passed
+  next_burden: 'The June 7 referee audit checks the corrected target: finite-obstruction
+    inventory coverage, not a generic prohibition on Exit(Q) or generic Pack/Part
+    face-exclusion. The branch ledger reports no open proof-bearing rows on the promoted
+    surfaces. The failed Pack and Part face-exclusion passes remain evidence against
+    the stale no-exit work order, while Field is installed as a collapse into Part
+    for the retained-Pack / terminal-Part row.
 
 '
   evidence_refs:
@@ -796,11 +805,10 @@ branch_rows:
 - row_id: integration:manuscript_scaffold
   row_kind: d8_integration_step
   label: NS manuscript/PDF
-  state: dual-pdf-promotion-passing
-  next_burden: 'Both PDF tracks now expose the periodic CM proof route and R3 exterior-source
-    class-exit branch; the Codex papers track is generated from its own papers/**
-    manuscript source, while the preferred problems/** human/app track keeps the app-aligned
-    structure.
+  state: dual-pdf-rendered-submission-ready
+  next_burden: 'Both PDF tracks render from the current finite-obstruction inventory
+    gate: the problems/** human/app-aligned track carries the long app/proof dossier,
+    and the papers/** Codex track carries the shorter Clay-facing proof paper.
 
 '
   evidence_refs:
@@ -809,9 +817,11 @@ branch_rows:
 - row_id: integration:submission_package
   row_kind: d8_integration_step
   label: review/submission
-  state: dual-pdf-promoted
-  next_burden: 'The current source frontier reports no unresolved live theorem obligations,
-    and both required PDF tracks have been rebuilt from the current CM/R3 state.
+  state: submission-candidate-synced
+  next_burden: 'Review, submission verdicts, export status, and PDF topology now agree:
+    no unresolved proof, reader, build, or package blocker remains on the current
+    submission-candidate state. Future theorem deltas must resync this package instead
+    of reopening stale generic Pack/Part no-exit work.
 
 '
   evidence_refs:
