@@ -483,53 +483,34 @@ integration_chain:
   current_state: clay-closing-bridge-open
   mirror_of_completion_candidate: true
   job: Keep the governing proof program as Exit(Q):=not Member(Q) through Pack/Part/Field.
-  current_gap: 'Direct proof authority is blocked by active Clay-closing proof gaps:
-    codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
-    codex-gap-attack-log:contract-readiness-after-manuscript-expansion, codex-pdf-provenance:clay-readiness-not-claimed,
-    clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
+  current_gap: 'Direct proof authority is blocked by the active Clay-closing bridge:
+    the repo has classified terminal CM exits through Pack/Part/Field, but it has
+    not yet proved that a classified Exit(Q;O_work) cannot be the actual finite terminal
+    Clay obstruction.
+
+'
 - step_id: manuscript_scaffold
   surface_class: NS manuscript/PDF
   current_state: proof-prose-blocked
   mirror_of_completion_candidate: true
   job: Use app/graph/proof topology as the reader-facing proof scaffold.
-  current_gap: Both PDF tracks may render, but the reader-facing final proof paragraph
-    is blocked until the Clay-closing bridge is proved.
+  current_gap: 'Both PDF tracks may render, but neither track may claim Clay-ready
+    submission proof until the Clay-closing bridge is actually proved in reader-facing
+    prose.
+
+'
 - step_id: submission_package
   surface_class: review/submission
   current_state: blocked-clay-closing-bridge-open
   mirror_of_completion_candidate: true
   job: Review and submission verdicts must keep rendered PDFs separate from Clay-ready
     submission readiness.
-  current_gap: 'Review, submission verdicts, export status, and route-state must keep
-    submission_ready false while these proof blockers remain: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
-    codex-gap-attack-log:contract-readiness-after-manuscript-expansion, codex-pdf-provenance:clay-readiness-not-claimed,
-    clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
-open_blockers:
-- blocker_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
-  blocker: Prove that an Exit(Q;O_work) record cannot be the actual finite terminal
-    Clay obstruction, or replace the closing argument with a noncircular endpoint
-    compactness/minimal-counterexample proof.
-  refs: &25
-  - papers/navier-stokes/review/codex-gap-attack-log.yaml
-  mirror_of_completion_candidate: true
-- blocker_id: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
-  blocker: After the bridge is proved or the conclusion is otherwise closed, rerun
-    the contract check and update provenance with the contract result.
-  refs: &26
-  - papers/navier-stokes/review/codex-gap-attack-log.yaml
-  mirror_of_completion_candidate: true
-- blocker_id: codex-pdf-provenance:clay-readiness-not-claimed
-  blocker: Replace the conditional provenance with a proved Clay-closing bridge before
-    submission readiness.
-  refs: &27
-  - papers/navier-stokes/review/authoritative-pdf-provenance-2026-06-07.md
-  mirror_of_completion_candidate: true
-- blocker_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
-  blocker: Prove the Clay-closing bridge or replace the closing argument with a noncircular
-    finite-breakdown exclusion.
-  refs: &28
-  - problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
-  mirror_of_completion_candidate: true
+  current_gap: 'Review, submission verdicts, export status, route-state, and PDF topology
+    must keep submission_ready false while the Clay-closing proof blockers remain
+    active.
+
+'
+open_blockers: []
 branch_rows:
 - row_id: graph:cm_convergence_atlas
   row_kind: route_node
@@ -812,10 +793,12 @@ branch_rows:
   row_kind: d8_integration_step
   label: NS repo theorem closure
   state: clay-closing-bridge-open
-  next_burden: 'Direct proof authority is blocked by active Clay-closing proof gaps:
-    codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
-    codex-gap-attack-log:contract-readiness-after-manuscript-expansion, codex-pdf-provenance:clay-readiness-not-claimed,
-    clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
+  next_burden: 'Direct proof authority is blocked by the active Clay-closing bridge:
+    the repo has classified terminal CM exits through Pack/Part/Field, but it has
+    not yet proved that a classified Exit(Q;O_work) cannot be the actual finite terminal
+    Clay obstruction.
+
+'
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mirror_of_completion_candidate: true
@@ -824,8 +807,11 @@ branch_rows:
   row_kind: d8_integration_step
   label: NS manuscript/PDF
   state: proof-prose-blocked
-  next_burden: Both PDF tracks may render, but the reader-facing final proof paragraph
-    is blocked until the Clay-closing bridge is proved.
+  next_burden: 'Both PDF tracks may render, but neither track may claim Clay-ready
+    submission proof until the Clay-closing bridge is actually proved in reader-facing
+    prose.
+
+'
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mirror_of_completion_candidate: true
@@ -834,59 +820,20 @@ branch_rows:
   row_kind: d8_integration_step
   label: review/submission
   state: blocked-clay-closing-bridge-open
-  next_burden: 'Review, submission verdicts, export status, and route-state must keep
-    submission_ready false while these proof blockers remain: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
-    codex-gap-attack-log:contract-readiness-after-manuscript-expansion, codex-pdf-provenance:clay-readiness-not-claimed,
-    clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
+  next_burden: 'Review, submission verdicts, export status, route-state, and PDF topology
+    must keep submission_ready false while the Clay-closing proof blockers remain
+    active.
+
+'
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
-  mirror_of_completion_candidate: true
-  mcp_visibility_status: visible-in-route-state
-- row_id: blocker:codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
-  row_kind: open_blocker
-  label: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
-  state: blocked
-  next_burden: Prove that an Exit(Q;O_work) record cannot be the actual finite terminal
-    Clay obstruction, or replace the closing argument with a noncircular endpoint
-    compactness/minimal-counterexample proof.
-  evidence_refs: *25
-  mirror_of_completion_candidate: true
-  mcp_visibility_status: visible-in-route-state
-- row_id: blocker:codex-gap-attack-log:contract-readiness-after-manuscript-expansion
-  row_kind: open_blocker
-  label: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
-  state: blocked
-  next_burden: After the bridge is proved or the conclusion is otherwise closed, rerun
-    the contract check and update provenance with the contract result.
-  evidence_refs: *26
-  mirror_of_completion_candidate: true
-  mcp_visibility_status: visible-in-route-state
-- row_id: blocker:codex-pdf-provenance:clay-readiness-not-claimed
-  row_kind: open_blocker
-  label: codex-pdf-provenance:clay-readiness-not-claimed
-  state: blocked
-  next_burden: Replace the conditional provenance with a proved Clay-closing bridge
-    before submission readiness.
-  evidence_refs: *27
-  mirror_of_completion_candidate: true
-  mcp_visibility_status: visible-in-route-state
-- row_id: blocker:clay-counterexample-gap-audit:finite-breakdown-exclusion-open
-  row_kind: open_blocker
-  label: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
-  state: blocked
-  next_burden: Prove the Clay-closing bridge or replace the closing argument with
-    a noncircular finite-breakdown exclusion.
-  evidence_refs: *28
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
 sync_verdict:
   graph_nodes_count: 24
   graph_edges_count: 31
   d8_integration_rows_count: 5
-  open_blockers_count: 4
+  open_blockers_count: 0
   mcp_route_state_updated: true
-  status: changed-open
-  remaining_gap: 'Open proof/app/submission blockers remain visible in the route payload
-    and MCP route-state: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
-    codex-gap-attack-log:contract-readiness-after-manuscript-expansion, codex-pdf-provenance:clay-readiness-not-claimed,
-    clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
+  status: changed-complete
+  remaining_gap: Route payload, MCP route-state, and app-visible branch rows are synchronized.
