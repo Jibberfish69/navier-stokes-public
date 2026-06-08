@@ -7,10 +7,10 @@ identity:
   purpose: assumption and release-gate ledger after H1-H6 and Theorem 2.1 warrant
     alignment
 status:
-  ledger_status: release-eligible
-  all_authority_assumptions_discharged: true
-  release_eligible: true
-  release_gate: proof-promotion-release-surface-reconciled
+  ledger_status: blocked-direct-live-frontier-open
+  direct_live_authority_all_discharged: false
+  release_eligible: false
+  release_gate: direct-live-frontier-open
 source_evidence:
   theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
   theorem_warrant: problems/navier-stokes/theorem-to-warrant.yaml
@@ -86,18 +86,19 @@ assumptions:
 summary:
   total_direct_live_assumptions: 10
   discharged_direct_live_assumptions: 10
-  blocking_or_unresolved_authority_count: 0
+  blocking_or_unresolved_authority_count: 1
   hfg_side_primitives_open:
   - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
-  release_blocking_count: 0
-  all_discharged: true
+  release_blocking_count: 1
+  all_discharged: false
   total_authority_assumptions: 2
   discharged_authority_assumptions: 2
   referee_blockers: []
-release_blockers: []
-required_next_actions: []
-generated_at: '2026-06-08T02:54:58Z'
-pass: true
+release_blockers: &1
+- ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
+required_next_actions: *1
+generated_at: '2026-06-08T03:04:38Z'
+pass: false
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
   status: local-theorem-program-closed
