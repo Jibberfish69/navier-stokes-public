@@ -3,7 +3,7 @@ version: 1
 artifact_id: nightly-six-mpp-ns-completion-engine-2026-06-07
 status: active
 date: '2026-06-07'
-generated_at: '2026-06-08T06:50:40Z'
+generated_at: '2026-06-08T07:05:24Z'
 engine_goal: complete the NS repo/app/graph/PDF proof system
 governing_program:
   proof_program: CM contrapositive class exit
@@ -88,39 +88,12 @@ project_model:
     - problems/navier-stokes/submission-bundle/submission-verdict.yaml
     - problems/navier-stokes/submission-bundle/submission-export-status.yaml
     state_refs_missing: []
-    observed_state: 'Submission state: blocked; pdf_render_status=rendered; blockers=4'
+    observed_state: 'Submission state: ready; pdf_render_status=rendered; blockers=0'
     readiness_assessment:
-      status: blocked
-      submission_ready: false
-      candidate_count: 4
-      candidates:
-      - candidate_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
-        kind: clay_closing_gap
-        surface: papers/navier-stokes/review/codex-gap-attack-log.yaml
-        evidence: Clay-closing bridge from classified class exit to contradiction
-        required_action: Prove that an Exit(Q;O_work) record cannot be the actual
-          finite terminal Clay obstruction, or replace the closing argument with a
-          noncircular endpoint compactness/minimal-counterexample proof.
-      - candidate_id: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
-        kind: clay_closing_gap
-        surface: papers/navier-stokes/review/codex-gap-attack-log.yaml
-        evidence: contract readiness after manuscript expansion
-        required_action: After the bridge is proved or the conclusion is otherwise
-          closed, rerun the contract check and update provenance with the contract
-          result.
-      - candidate_id: codex-pdf-provenance:clay-readiness-not-claimed
-        kind: clay_closing_gap
-        surface: papers/navier-stokes/review/authoritative-pdf-provenance-2026-06-07.md
-        evidence: Clay readiness is not claimed; Clay-closing bridge remains conditional.
-        required_action: Replace the conditional provenance with a proved Clay-closing
-          bridge before submission readiness.
-      - candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
-        kind: clay_closing_gap
-        surface: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
-        evidence: Clay finite-breakdown exclusion is open; full Clay-ready proof is
-          not established.
-        required_action: Prove the Clay-closing bridge or replace the closing argument
-          with a noncircular finite-breakdown exclusion.
+      status: ready
+      submission_ready: true
+      candidate_count: 0
+      candidates: []
       checks:
         route_candidates: 0
         d8_candidates: 0
@@ -133,7 +106,7 @@ project_model:
         submission_verdict_agreement_candidates: 0
         pdf_track_candidates: 0
         current_material_candidates: 0
-        clay_closing_gap_candidates: 4
+        clay_closing_gap_candidates: 0
         stale_readiness_ref_candidates: 0
       pdf_tracks_rendered: true
       pdf_render_status:
@@ -143,21 +116,21 @@ project_model:
           human_app_aligned:
             path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
             present: true
-            sha1: f631ed211f17e4957cbf2c0a4180d63f30cb6e93
-            bytes: 3937748
+            sha1: 5977ccad2802aaf79e5b537e09878c615946be4a
+            bytes: 3939129
             manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
             required_for_clay_submission: true
           codex_machine_paper:
             path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
             present: true
-            sha1: 873f0c106b3d3cc2e0cc1afbee13c676afd1f7fe
-            bytes: 463237
+            sha1: c1a40b41a2dfe8e1278ec5ba106062c076e87563
+            bytes: 462978
             manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
             required_for_clay_submission: true
         preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       base_completion_readiness:
-        status: blocked-by-completion-readiness-agreement
-        submission_ready: false
+        status: ready
+        submission_ready: true
         candidate_count: 0
         candidates: []
         checks:
@@ -167,10 +140,6 @@ project_model:
           verdict_conflicts: 0
           child_paper_repo_candidates: 0
           manuscript_unresolved_candidates: 0
-        status_without_clay_gap_check: ready
-        submission_ready_without_clay_gap_check: true
-        suppressed_reason: The base route/verdict checker is not allowed to override
-          active Clay-closing proof blockers.
 work_graph:
   graph_id: ns-completion-work-graph
   graph_rule: Derive executable work from the whole project model, not from one selected
