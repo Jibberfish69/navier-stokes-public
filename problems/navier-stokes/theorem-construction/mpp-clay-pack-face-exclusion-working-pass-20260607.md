@@ -1,3 +1,14 @@
+---
+ns_viewer:
+  theorem_id: clay-pack-face-exclusion-working-pass-20260607
+  status: failed-proof-demoted-from-current-blocker
+  proof_role: pack_face_exclusion_attempt
+  logical_landing_node: cm_pack_face_attempts
+  edge_effect: "Tests the generic Pack-face exclusion theorem and records why same-solution terminal ancestry does not prove positive carrier scale plus finite deformation comparability."
+  upstream_origin: "June 7 generic Pack-face exclusion work order."
+  downstream_consequence: "Demote generic Pack-face exclusion as a global blocker; named terminal obstruction rows still certify Pack or land first at not Pack_Q."
+---
+
 # MPP Clay Pack-Face Exclusion Working Pass
 
 Date: 2026-06-07
