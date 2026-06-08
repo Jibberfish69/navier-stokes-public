@@ -720,7 +720,7 @@ bridge_obligations:
   source_grounded_name: Curvature-Based Regularity
   legacy_alias: gradient-control
   verdict: discharged
-  primary_surface: problems/navier-stokes/external-paper/sections/bridge-gradient-control.tex
+  primary_surface: problems/navier-stokes/theorem-construction/gradient-control-bridge-discharge.md
   dependencies:
   - Energy identity in the classical Navier--Stokes system
   - Divergence-free cancellation
@@ -729,6 +729,10 @@ bridge_obligations:
     deformation/continuation package. The torus-side projected flow, deformation geometry,
     and YM-heat shadow notes are the active surfaces here. Any Euclidean whole-space
     continuation theorem is a separate downstream export step.
+  surface_supersession:
+    supersedes_absent_surface: problems/navier-stokes/external-paper/sections/bridge-gradient-control.tex
+    reason: The external-paper bridge file is absent in the current checkout; the
+      theorem-construction discharge note is the existing bridge surface.
 summary:
   total_theorem_items: 1
   proved_count: 1
