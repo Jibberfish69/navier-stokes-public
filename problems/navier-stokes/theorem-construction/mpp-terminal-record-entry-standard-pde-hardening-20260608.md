@@ -2,7 +2,7 @@
 
 Date: 2026-06-08
 
-Status: terminal-record entry hardened in standard PDE language; Clay-closing bridge still open.
+Status: terminal-record entry hardened in standard PDE language; generic Clay-closing bridge superseded by the finite-obstruction inventory.
 
 ## Claim
 
@@ -48,17 +48,13 @@ A Clay finite-breakdown allegation can be fed into the CM terminal packet becaus
 
 That is enough to remove the referee objection that the CM terminal-entry step depends on internal terminology rather than on the PDE problem statement.
 
-## Remaining Clay-Closing Burden
+## Supersession Boundary
 
-This note does not prove the finite-breakdown exclusion.
+This note hardens terminal-record entry. The later finite-obstruction inventory
+reconciles the old generic bridge demand: a promoted finite terminal row must
+either pass as the same-solution `Member(Q)` branch or fail a named Pack, Part,
+or Field face and therefore support `Exit(Q):=not Member(Q)`.
 
-The remaining bridge is still:
-
-```text
-ClayAdmissibleFiniteBreakdown(W_*) and classified Exit(Q)
-=> contradiction with W_* being a valid finite Clay breakdown counterexample.
-```
-
-Equivalently, the proof still needs branch-native face exclusion or another noncircular argument showing that the terminal Pack/Part/Field face failure cannot occur for the original smooth-data solution.
-
-So this note closes the terminal-record entry hardening gap and leaves the Clay-closing bridge gap active.
+So this note closes the terminal-record entry hardening gap. A future reopening
+has to name a concrete promoted terminal obstruction row lacking CM-test entry,
+finite-failure exhaustion, or CM contrapositive embedding.
