@@ -1,8 +1,8 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T00:59:03Z'
-started_at: '2026-06-08T00:58:54Z'
+generated_at: '2026-06-08T04:43:16Z'
+started_at: '2026-06-08T04:43:08Z'
 status: passed
 purpose: Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into
   the human/app-aligned TeX/PDF path, export the separate Codex Clay-facing paper,
@@ -23,7 +23,7 @@ commands:
   - "--check"
   success: true
   exitstatus: 0
-  stdout_tail: CURRENT_MATERIAL_COVERAGE_CHECK 186
+  stdout_tail: CURRENT_MATERIAL_COVERAGE_CHECK 196
   stderr_tail: ''
 - label: surface derivation appendix check
   argv:
@@ -33,7 +33,7 @@ commands:
   success: true
   exitstatus: 0
   stdout_tail: SURFACE_DERIVATION_APPENDIX_CHECK certificates=1944 quarantine=1853
-    current_material=186
+    current_material=196
   stderr_tail: ''
 - label: PDF argument hygiene
   argv:
@@ -57,12 +57,12 @@ export_result:
 gates:
 - gate_id: current-material-coverage-complete
   status: passed
-  checked_text_files_outside_existing_union: 186
-  family_count_sum: 186
+  checked_text_files_outside_existing_union: 196
+  family_count_sum: 196
   errors: []
 - gate_id: source-depth-appendices-materialized-in-tex
   status: passed
-  source_field_word_count: 411594
+  source_field_word_count: 415278
   surface_derivation_expansion_rows: 3804
   main_tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   errors: []
@@ -72,7 +72,7 @@ gates:
   pdf_tracks:
     human_app_aligned: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     codex_machine_paper: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-  papers_pdf_pages: 20
-  human_pdf_pages: 1073
-  sha256: 1ffda13cccc6d79d9c3db54759f0870fd97d8cfe3c4887faca393113713e18f7
+  papers_pdf_pages: 34
+  human_pdf_pages: 1081
+  sha256: e5bdf7807beeb30f55e8fbf6821d91773fd1282f83852085c46e829232de29a2
   errors: []
