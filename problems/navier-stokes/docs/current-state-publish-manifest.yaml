@@ -4,7 +4,7 @@ publish_type: lane-repo-current-state
 problem_id: navier-stokes
 source_root: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
 repo_root: "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes"
-published_at: '2026-04-09T16:51:15Z'
+published_at: '2026-06-08T01:35:00Z'
 selection_rules:
   collision_policy: live-authority-overwrites-mirror
   include_extensions:
@@ -77,6 +77,7 @@ published_files:
 - compactness-discharge-source-pack.md
 - consistency-audit.yaml
 - continuum-stack.yaml
+- current-route-dependency-graph.yaml
 - corpus-audit-legacy-originals.md
 - creative-theorem-search.yaml
 - crosslane-extractor-contract.md
@@ -150,6 +151,7 @@ published_files:
 - euler-mirror/v6-four-bridge-source-note.md
 - euler-mirror/viscosity-dependence-ledger.yaml
 - exploration-graph.yaml
+- d8-completion-route-map.yaml
 - extension-branches.yaml
 - failure-mode-checks.yaml
 - final-release-snapshot.md
@@ -182,6 +184,9 @@ published_files:
 - nonlinear-closure-discharge-source-pack.md
 - ns-proof-program-route-table.md
 - ns-proof-program-route-table.yaml
+- ns-logical-tree-bridge-reconciliation-20260607.yaml
+- ns-completion-executor-route-sync-20260607-iteration-2.yaml
+- ns-completion-route-sync-payload-20260607-iteration-2.yaml
 - object-formalization.yaml
 - obstruction-capture.md
 - paper-architecture.yaml
