@@ -458,6 +458,7 @@ nodes:
   r3_hs_tail_export_matrix:
     status: cm-dichotomy-installed-direct-export-estimate-optional
     theorem_ids:
+      - R3.WholeSpaceCMCompletion.A
       - Tail.Hs_R3
       - TailFace_R3^Hs
       - R3.ExteriorNonlinearSourceHsLedger.A
@@ -476,10 +477,11 @@ nodes:
       - theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md
       - theorem-construction/r3-cm-contrapositive-sobolev-hs-energy-20260528.md
     role: >-
-      Whole-space R^3 export matrix. The live R^3 burden has been sharpened:
+      Whole-space R^3 export matrix. The live R^3 CM burden is installed:
       rapid-decay initial ancestry and compact-core far-kernel source do not
       carry the exterior H^s tail. The direct positive export estimate
-      R3.ExteriorNonlinearSourceHsLedger.A remains open, but a surviving exterior
+      R3.ExteriorNonlinearSourceHsLedger.A remains a stronger optional export,
+      while a surviving exterior
       source is no longer an unspecified branch: bounded frequencies vanish by
       exterior L^2 tightness, high-frequency survivors escape to dyadic scale,
       and retained Pack+Part is incompatible with any fixed positive Field scale
@@ -623,8 +625,8 @@ edges:
     condition: scoped periodic T^3 endpoint only
   - from: r3_hs_tail_export_matrix
     to: clay_target
-    kind: separate_r3_export_branch
-    condition: requires Tail.Hs_R3 or TailFace_R3^Hs closure before whole-space claim
+    kind: installed_whole_space_cm_branch
+    condition: R3.WholeSpaceCMCompletion.A supplies the CM claim; Tail.Hs_R3 remains only a stronger optional positive export theorem
   - from: fixed_nu_euler_transfer
     to: clay_target
     kind: comparison_support_not_closure
