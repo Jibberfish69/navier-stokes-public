@@ -3,13 +3,13 @@
 ## Supersession
 
 These release notes are not current release authority. The current controlling
-release stack is the dual-track submission-candidate package:
+release stack is blocked by the Clay-closing bridge:
 
 ```text
-release-decision: submission-candidate
-submission-verdict: submission-ready
-release_eligible: true
-active blocker: none in the current direct-live stack
+release-decision: blocked
+submission-verdict: not-ready
+release_eligible: false
+active blocker: Clay counterexample-exclusion bridge remains open
 human/app-aligned track: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 codex track: papers/navier-stokes/manuscript/generated/main.tex
 ```
