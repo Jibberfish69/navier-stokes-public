@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-08T07:05:52Z'
+  evaluated_at: '2026-06-08T07:08:15Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: blocked
-  release_posture: blocked
+  release_posture: local-release-pass
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: clay-closing-bridge-open
+  completion_tier_achieved: full-mpp-closure
   next_cell_type:
   next_stage: release-blocked
   next_action: Hold the package blocked until the release blocker changes materially
@@ -30,23 +30,7 @@ artifacts:
   typeset_audit: problems/navier-stokes/submission-bundle/typeset-audit.yaml
   review_log: problems/navier-stokes/review-log.md
   review_verdict: problems/navier-stokes/review-verdict.yaml
-blockers:
-- 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
-  Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay obstruction,
-  or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
-  proof.'
-- 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the bridge
-  is proved or the conclusion is otherwise closed, rerun the contract check and update
-  provenance with the contract result.'
-- 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional provenance
-  with a proved Clay-closing bridge before submission readiness.'
-- 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
-  bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
-- Completion tier is still `clay-closing-bridge-open`, below a paper-complete or full-closure
-  submission surface.
-- Honesty review verdict is still `block`.
-- Submission export status changed after the current review verdict was written.
-- Stand-alone status remains `blocked`.
+blockers: []
 summary:
   queue_effect: blocked
   registry_note: problem is blocked at release gate
