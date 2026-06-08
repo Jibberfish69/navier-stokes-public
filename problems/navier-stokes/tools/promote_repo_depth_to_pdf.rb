@@ -206,7 +206,8 @@ def sync_submission_export_status!
   tracks = {
     "human_app_aligned" => pdf_track_payload(
       HUMAN_SUBMISSION_PDF,
-      "preferred problems/** app-aligned human submission track"
+      "preferred problems/** app-aligned human submission track",
+      "manuscript_source" => relative(MAIN_TEX)
     ),
     "codex_machine_paper" => pdf_track_payload(
       CODEX_PAPER_PDF,
@@ -297,6 +298,10 @@ def dual_pdf_track_gate
     "human_app_aligned" => relative(HUMAN_SUBMISSION_PDF),
     "codex_machine_paper" => relative(CODEX_PAPER_PDF)
   }
+  expected_sources = {
+    "human_app_aligned" => relative(MAIN_TEX),
+    "codex_machine_paper" => relative(CODEX_MAIN_TEX)
+  }
 
   unless CODEX_PAPER_PDF.file? && CODEX_PAPER_PDF.size.positive?
     errors << "papers/Codex PDF missing"
@@ -323,6 +328,18 @@ def dual_pdf_track_gate
   expected_tracks.each do |track_id, expected_path|
     actual_path = tracks.dig(track_id, "path").to_s
     errors << "submission export status #{track_id} track points to #{actual_path.empty? ? '(none)' : actual_path}, expected #{expected_path}" unless actual_path == expected_path
+    actual_source = tracks.dig(track_id, "manuscript_source").to_s
+    errors << "submission export status #{track_id} source points to #{actual_source.empty? ? '(none)' : actual_source}, expected #{expected_sources.fetch(track_id)}" unless actual_source == expected_sources.fetch(track_id)
+  end
+
+  if tracks.dig("human_app_aligned", "path") == tracks.dig("codex_machine_paper", "path")
+    errors << "required PDF tracks collapsed to the same output path"
+  end
+  if tracks.dig("human_app_aligned", "manuscript_source") == tracks.dig("codex_machine_paper", "manuscript_source")
+    errors << "required PDF tracks collapsed to the same manuscript source"
+  end
+  if tracks.dig("human_app_aligned", "sha1").to_s == tracks.dig("codex_machine_paper", "sha1").to_s
+    errors << "required PDF tracks rendered identical PDF hashes; the human/app-aligned and Codex machine papers must remain distinct outputs"
   end
 
   preferred_pdf = export_status["preferred_pdf"].to_s
@@ -338,6 +355,7 @@ def dual_pdf_track_gate
     track = tracks[track_id] || {}
     evidence_track = evidence_tracks[track_id] || {}
     errors << "readiness evidence #{track_id} path points to #{evidence_track["path"].to_s.empty? ? '(none)' : evidence_track["path"]}, expected #{expected_path}" unless evidence_track["path"] == expected_path
+    errors << "readiness evidence #{track_id} source points to #{evidence_track["manuscript_source"].to_s.empty? ? '(none)' : evidence_track["manuscript_source"]}, expected #{expected_sources.fetch(track_id)}" unless evidence_track["manuscript_source"] == expected_sources.fetch(track_id)
     errors << "readiness evidence #{track_id} sha1 is stale or missing" unless evidence_track["sha1"] == track["sha1"] && !evidence_track["sha1"].to_s.empty?
     errors << "readiness evidence #{track_id} byte count is stale" unless evidence_track["bytes"] == track["bytes"]
   end
