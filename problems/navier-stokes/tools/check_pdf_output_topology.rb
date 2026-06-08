@@ -12,7 +12,7 @@ HUMAN_SUBMISSION_PDF = BUNDLE_ROOT.join("navier-stokes-human-submission.pdf")
 EXPORT_STATUS = BUNDLE_ROOT.join("submission-export-status.yaml")
 RUBRIC = BUNDLE_ROOT.join("source-field-representation-rubric.md")
 MIN_HUMAN_APP_ALIGNED_PAGES = 1_000
-MIN_CODEX_SUBMISSION_PAGES = 10
+MIN_CODEX_SUBMISSION_PAGES = 20
 MAX_CODEX_SUBMISSION_PAGES = 120
 MAX_REPEATED_RENDERED_CLAIMS = 25
 
