@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T17:33:24Z'
+generated_at: '2026-06-08T17:35:53Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -14,15 +14,15 @@ pdf_tracks: &3
     role: preferred problems/** app-aligned human submission track
     present: true
     bytes: 3939913
-    sha1: 62390edb956dd48d8d5afe70214d26c7239bb7c0
+    sha1: 168d9108993699b81a8188b2da1dc55728e83df3
     required_for_clay_submission: true
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   codex_machine_paper:
     path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
     role: papers/** Codex-owned Clay-facing submission paper track
     present: true
-    bytes: 356149
-    sha1: e73c9dea540e33061ef66ad2807ed0fb2c7c5abc
+    bytes: 380341
+    sha1: 3f2360ee52252d251223a269b7b5c8baadbaac32
     required_for_clay_submission: true
     manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
@@ -71,15 +71,15 @@ readiness_evidence:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: 62390edb956dd48d8d5afe70214d26c7239bb7c0
+          sha1: 168d9108993699b81a8188b2da1dc55728e83df3
           bytes: 3939913
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
           path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
           present: true
-          sha1: e73c9dea540e33061ef66ad2807ed0fb2c7c5abc
-          bytes: 356149
+          sha1: 3f2360ee52252d251223a269b7b5c8baadbaac32
+          bytes: 380341
           manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
           required_for_clay_submission: true
       preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
