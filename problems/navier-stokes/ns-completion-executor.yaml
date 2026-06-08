@@ -3,7 +3,7 @@ version: 1
 artifact_id: nightly-six-mpp-ns-completion-executor-2026-06-07
 status: executed
 date: '2026-06-07'
-generated_at: '2026-06-08T06:50:56Z'
+generated_at: '2026-06-08T07:05:24Z'
 engine_ref: ns-completion-engine.yaml
 engine_goal: complete the NS repo/app/graph/PDF proof system
 lane_results: &5
@@ -213,8 +213,8 @@ reentry_iterations:
     - problems/navier-stokes/submission-verdict.yaml
     - problems/navier-stokes/submission-bundle/submission-verdict.yaml
     - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-    state_delta: blocked submission exactly until proof/manuscript/route evidence
-      supports readiness
+    state_delta: completed submission lane with both required PDF tracks present and
+      route-state readbacks aligned
     handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml,
       problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml,
       problems/navier-stokes/submission-verdict.yaml, problems/navier-stokes/submission-bundle/submission-verdict.yaml,
@@ -232,8 +232,8 @@ reentry_iterations:
   - problems/navier-stokes/submission-bundle/submission-export-status.yaml
   stop_check:
     decision: stop
-    reason: exact blockers materialized after reentry; NS theorem closure and Clay-facing
-      manuscript readiness remain open
+    reason: current NS source frontier, D8 route state, app-visible route payload,
+      and both required PDF tracks agree with no open route blocker
 depth_progression:
   first_real_wave:
     depth: D8
@@ -260,110 +260,15 @@ depth_progression:
     stop_condition: completed proof/app/graph/PDF/submission object or exact terminal
       blockers with evidence
 terminal_state: &11
-  status: blocked
-  stop_reason: exact blockers materialized after reentry; NS theorem closure and Clay-facing
-    manuscript readiness remain open
-  completed_work_node_ids: []
-  open_blockers:
-  - work_node_id: ns-cm-proof-frontier
-    blocker_kind: clay_closing_gap
-    blocker: 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
-      Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
-      obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
-      proof.'
-    next_executable_tasks:
-    - 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
-      Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
-      obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
-      proof.'
-    - write the proof, failed-attempt, or demotion note that changes the Clay-closing
-      bridge state
-    - rerun completion readiness and rebuild both PDF tracks after the proof state
-      changes
-    evidence_refs:
-    - papers/navier-stokes/review/codex-gap-attack-log.yaml
-    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-    - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-    - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-  - work_node_id: ns-cm-proof-frontier
-    blocker_kind: clay_closing_gap
-    blocker: 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion:
-      After the bridge is proved or the conclusion is otherwise closed, rerun the
-      contract check and update provenance with the contract result.'
-    next_executable_tasks:
-    - 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the
-      bridge is proved or the conclusion is otherwise closed, rerun the contract check
-      and update provenance with the contract result.'
-    - write the proof, failed-attempt, or demotion note that changes the Clay-closing
-      bridge state
-    - rerun completion readiness and rebuild both PDF tracks after the proof state
-      changes
-    evidence_refs:
-    - papers/navier-stokes/review/codex-gap-attack-log.yaml
-    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-    - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-    - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-  - work_node_id: ns-cm-proof-frontier
-    blocker_kind: clay_closing_gap
-    blocker: 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional
-      provenance with a proved Clay-closing bridge before submission readiness.'
-    next_executable_tasks:
-    - 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional provenance
-      with a proved Clay-closing bridge before submission readiness.'
-    - write the proof, failed-attempt, or demotion note that changes the Clay-closing
-      bridge state
-    - rerun completion readiness and rebuild both PDF tracks after the proof state
-      changes
-    evidence_refs:
-    - papers/navier-stokes/review/authoritative-pdf-provenance-2026-06-07.md
-    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-    - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-    - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-  - work_node_id: ns-cm-proof-frontier
-    blocker_kind: clay_closing_gap
-    blocker: 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove
-      the Clay-closing bridge or replace the closing argument with a noncircular finite-breakdown
-      exclusion.'
-    next_executable_tasks:
-    - 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
-      bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
-    - write the proof, failed-attempt, or demotion note that changes the Clay-closing
-      bridge state
-    - rerun completion readiness and rebuild both PDF tracks after the proof state
-      changes
-    evidence_refs:
-    - problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
-    - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
-    - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-    - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
-    - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-    - problems/navier-stokes/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
+  status: completed
+  stop_reason: current NS source frontier, D8 route state, app-visible route payload,
+    and both required PDF tracks agree with no open route blocker
+  completed_work_node_ids:
+  - ns-cm-proof-frontier
+  - ns-route-graph-app-sync
+  - ns-pdf-proof-scaffold
+  - ns-submission-readiness
+  open_blockers: []
   evidence_refs:
   - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260607-iteration-2.md
   - problems/navier-stokes/ns-completion-executor-route-sync-20260607-iteration-2.yaml
@@ -376,7 +281,7 @@ terminal_state: &11
   - problems/navier-stokes/submission-bundle/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-export-status.yaml
 reentry:
-  status: terminal_blocked
+  status: terminal_completed
   loop_policy: feed executor outputs back until every work node is complete or exactly
     blocked
   changed_state_refs: &12
