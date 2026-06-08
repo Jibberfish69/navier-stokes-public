@@ -15,18 +15,36 @@ purpose: >-
   fresh CM-necessity audit proves a real in-class nonsmooth third branch.
 primary_frontier:
   obligation_id: clay-cm-contrapositive-witness-consumption
-  status: live-direct-authority
+  status: live-classification-authority-clay-bridge-blocked
   exact_choice:
     - ClayTerminalWitnessCMEntry.A
     - ClayFiniteFailureTypeCMExhaustion.A
     - ClayCMContrapositiveEmbedding.A
   statement: >-
-    Consume the finite Clay terminal witness by entering the canonical same-fluid
-    CM packet tree, exhausting the first failing Pack/Part/Field face, and
-    deriving Exit(Q):=not Member(Q). On the active T^3 surface the terminal
-    capture is carried by TorusGlobalMaterialAtlasTerminalCapture.A. Source-wall
-    and reserve branches are support history unless a later audit proves that
-    they are necessary inside this same CM class-exit invariant.
+    The installed chain classifies an alleged finite Clay terminal witness by
+    entering the canonical same-fluid CM packet tree, exhausting the first
+    failing Pack/Part/Field face, and deriving Exit(Q):=not Member(Q). The
+    Clay-ready contradiction is still blocked: Pack, Part, and Field each have
+    an open face-exclusion/realization theorem recorded below.
+open_blockers:
+  - blocker_id: same-solution-terminal-pack-retention
+    branch: proof
+    status: open
+    blocker: SameSolutionTerminalPackRetention.A / TerminalCollarStrainIntegrability.A
+    evidence_ref: problems/navier-stokes/theorem-construction/mpp-clay-pack-face-exclusion-working-pass-20260607.md
+    required_action: Prove Pack retention for the canonical same-solution terminal atlas or record Pack face as exact Clay blocker.
+  - blocker_id: retained-pack-original-ancestry-part-survival
+    branch: proof
+    status: open
+    blocker: RetainedPackOriginalAncestryPartSurvival.A
+    evidence_ref: problems/navier-stokes/theorem-construction/mpp-clay-part-face-exclusion-working-pass-20260607.md
+    required_action: Prove terminal pressure-viscosity/source tower participation under retained Pack, or record Part face as exact Clay blocker.
+  - blocker_id: clay-field-face-exclusion
+    branch: proof
+    status: open
+    blocker: ClayFieldFailureRealization.A / ClayRetainedPackPartGoodScaleNonCollapse.A
+    evidence_ref: problems/navier-stokes/theorem-construction/mpp-clay-field-face-exclusion-working-pass-20260607.md
+    required_action: Prove Field failure realization or stronger good-scale noncollapse for retained Pack+Part terminal records.
 nodes:
   cm_convergence_atlas:
     status: support-audit-cm-resolved
@@ -55,7 +73,7 @@ nodes:
       Governing CM bridge: all-depth CM witness membership implies Smooth(Q),
       and NonSmooth(Q) forces a Pack/Part/Field witness-face exit.
   clay_cm_contrapositive_witness_consumption:
-    status: live-direct-authority
+    status: classification-installed-clay-bridge-blocked
     theorem_ids:
       - ClayTerminalWitnessCMEntry.A
       - ClayFiniteFailureTypeCMExhaustion.A
@@ -65,9 +83,11 @@ nodes:
       - source-frontier.yaml
       - theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
     role: >-
-      Direct Clay-facing route: a finite terminal witness enters the same-fluid
-      CM packet tree, the first failing Pack/Part/Field face is recorded, and
-      that face failure supports Exit(Q):=not Member(Q).
+      Direct Clay-facing classification route: a finite terminal witness enters
+      the same-fluid CM packet tree, the first failing Pack/Part/Field face is
+      recorded, and that face failure supports Exit(Q):=not Member(Q). The
+      submission-grade contradiction still requires the open Pack, Part, and
+      Field face-exclusion/realization theorems.
   torus_global_material_atlas_terminal_capture:
     status: installed-terminal-capture
     theorem_ids:
@@ -504,7 +524,7 @@ nodes:
       smoothness or stand-alone Navier-Stokes smoothness without the transfer
       theorem.
   clay_target:
-    status: target-cm-chain-installed
+    status: target-proof-blocked
     theorem_ids:
       - Smooth(Q)
       - Clay
@@ -512,8 +532,9 @@ nodes:
       - theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
       - live-theorem-edge.yaml
     role: >-
-      Final manuscript target after source-wall readout and CM witness rows are
-      reconciled.
+      Final Clay target remains blocked until Pack retention, Part survival,
+      and Field failure realization/good-scale noncollapse are proved or
+      replaced by a noncircular Clay-closing argument.
   generated_surface_drift:
     status: resolved-surface-repair
     source:
