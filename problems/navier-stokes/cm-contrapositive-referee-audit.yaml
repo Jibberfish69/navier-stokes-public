@@ -7,12 +7,12 @@ identity:
   generator: codex/referee-sweep-current-state
   audit_scope: Navier-Stokes CM contrapositive proof inclusion and readiness gate
 status:
-  audit_status: passed-current-finite-obstruction-inventory-and-r3-cm-face
-  pass: true
-  release_eligible: true
-  clay_ready: true
-  clay_statement_b_ready: true
-  whole_space_statement_a_ready: true
+  audit_status: clay-closing-bridge-open
+  pass: false
+  release_eligible: false
+  clay_ready: false
+  clay_statement_b_ready: false
+  whole_space_statement_a_ready: false
   resolved_gap:
     superseded_source: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
     correction: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-target-correction-20260603.md
@@ -42,20 +42,21 @@ classification_summary:
   proof_bearing_branch_family_open_rows_demoted: true
   torus_first_cm_referee_pass: true
   manuscript_spine_rewrite_required: false
-  whole_space_export_certified: true
-  periodic_clay_statement_b_certified: true
-  full_whole_space_submission_certified: true
+  whole_space_export_certified: false
+  periodic_clay_statement_b_certified: false
+  full_whole_space_submission_certified: false
   manuscript_spine_rewrite_completed: true
   manuscript_periodic_scope_aligned: true
   comprehensive_switch_rescan_20260526_complete: true
   readiness_overlay_hardener_refreshed: true
   active_torus_first_unconverted_positive_switches_detected: false
-  surviving_full_submission_burden: 
+  surviving_full_submission_burden:
   nightly_relational_transfer_consumed_20260527: true
   support_repair_separated_from_theorem_progress_20260527: true
   clay_counterexample_exclusion_bridge_demoted_as_wrong_local_target: true
   finite_terminal_obstruction_inventory_covered: true
   r3_cm_face_branch_closed: true
+  clay_closing_bridge_open: true
 working_pass_results:
 - id: comprehensive-cm-switch-and-generated-overlay-sweep
   status: completed
@@ -225,9 +226,86 @@ required_next_audit:
 - Rerun this gate only when a new branch is promoted as proof-bearing, when a manuscript
   changes the theorem claim, or when a fresh referee objection identifies a named
   uncovered terminal obstruction.
-pass: true
-release_eligible: true
-clay_ready: true
-blockers: []
-blocking_findings: []
-open_logical_burdens: []
+pass: false
+release_eligible: false
+clay_ready: false
+blockers:
+- 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
+  Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay obstruction,
+  or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
+  proof.'
+- 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a direct
+  noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing into
+  an accepted whole-space endpoint exclusion.'
+- 'codex-gap-attack-log:terminal-record-entry-referee-hardening: Tighten the entry
+  theorem so the Clay negation itself, stated in standard PDE language, supplies the
+  same-solution record without relying on internal CM terminology.'
+- 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the bridge
+  is proved or the conclusion is otherwise closed, rerun the contract check and update
+  provenance with the contract result.'
+- 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional provenance
+  with a proved Clay-closing bridge before submission readiness.'
+- 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
+  bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
+blocking_findings:
+- id: clay-closing-gap-1
+  summary: 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
+    Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
+    obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
+    proof.'
+- id: clay-closing-gap-2
+  summary: 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove
+    a direct noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing
+    into an accepted whole-space endpoint exclusion.'
+- id: clay-closing-gap-3
+  summary: 'codex-gap-attack-log:terminal-record-entry-referee-hardening: Tighten
+    the entry theorem so the Clay negation itself, stated in standard PDE language,
+    supplies the same-solution record without relying on internal CM terminology.'
+- id: clay-closing-gap-4
+  summary: 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After
+    the bridge is proved or the conclusion is otherwise closed, rerun the contract
+    check and update provenance with the contract result.'
+- id: clay-closing-gap-5
+  summary: 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional
+    provenance with a proved Clay-closing bridge before submission readiness.'
+- id: clay-closing-gap-6
+  summary: 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the
+    Clay-closing bridge or replace the closing argument with a noncircular finite-breakdown
+    exclusion.'
+open_logical_burdens:
+- burden_id: clay-closing-gap-1
+  statement: 'codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction:
+    Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay
+    obstruction, or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
+    proof.'
+  required_resolution: Close the Clay counterexample-exclusion bridge before any Clay-ready
+    submission claim.
+- burden_id: clay-closing-gap-2
+  statement: 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove
+    a direct noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing
+    into an accepted whole-space endpoint exclusion.'
+  required_resolution: Close the Clay counterexample-exclusion bridge before any Clay-ready
+    submission claim.
+- burden_id: clay-closing-gap-3
+  statement: 'codex-gap-attack-log:terminal-record-entry-referee-hardening: Tighten
+    the entry theorem so the Clay negation itself, stated in standard PDE language,
+    supplies the same-solution record without relying on internal CM terminology.'
+  required_resolution: Close the Clay counterexample-exclusion bridge before any Clay-ready
+    submission claim.
+- burden_id: clay-closing-gap-4
+  statement: 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion:
+    After the bridge is proved or the conclusion is otherwise closed, rerun the contract
+    check and update provenance with the contract result.'
+  required_resolution: Close the Clay counterexample-exclusion bridge before any Clay-ready
+    submission claim.
+- burden_id: clay-closing-gap-5
+  statement: 'codex-pdf-provenance:clay-readiness-not-claimed: Replace the conditional
+    provenance with a proved Clay-closing bridge before submission readiness.'
+  required_resolution: Close the Clay counterexample-exclusion bridge before any Clay-ready
+    submission claim.
+- burden_id: clay-closing-gap-6
+  statement: 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove
+    the Clay-closing bridge or replace the closing argument with a noncircular finite-breakdown
+    exclusion.'
+  required_resolution: Close the Clay counterexample-exclusion bridge before any Clay-ready
+    submission claim.
