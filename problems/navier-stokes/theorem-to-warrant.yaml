@@ -648,14 +648,13 @@ theorem_warrants:
       out-of-scope write is required, the route has split and one bounded self-attempt
       has already failed, or verification cannot be repaired internally.
   exact_live_theorem_grade_burden: *1
-  release_or_respawn_consequence: &9
+  release_or_respawn_consequence:
     disposition: submission-candidate
-    next_cell_type: submission
-    next_stage: periodic-statement-b-submission-candidate
-    next_action: Keep generated/status surfaces aligned with the periodic T^3 statement
-      (B) target; keep R^3 statement (A) export separate unless a tightness/localization
-      export theorem is installed.
-  forward_positive_surface_quarantine: &10
+    next_cell_type: proof-frontier
+    next_stage: clay-closing-bridge-open
+    next_action: Close the Clay counterexample-exclusion bridge and R3 endpoint blockers
+      before submission promotion.
+  forward_positive_surface_quarantine: &9
     status: active-global-demotion
     index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
     generator: problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb
@@ -790,11 +789,16 @@ non_merge_rules: *6
 authority_hierarchy: *7
 mode_selection_protocol: *8
 exact_live_theorem_grade_burden: *1
-release_or_respawn_consequence: *9
-forward_positive_surface_quarantine: *10
+release_or_respawn_consequence:
+  disposition: submission-candidate
+  next_cell_type: proof-frontier
+  next_stage: clay-closing-bridge-open
+  next_action: Close the Clay counterexample-exclusion bridge and R3 endpoint blockers
+    before submission promotion.
+forward_positive_surface_quarantine: *9
 current_authority_status:
   status: superseded-by-direct-live-clearance
-  checked_at: '2026-06-08T05:18:28Z'
+  checked_at: '2026-06-08T05:28:59Z'
   reason: Direct live authority reports no open theorem frontier; this artifact is
     retained as historical theorem-work context and must not respawn a live blocker.
   authority_summary:
