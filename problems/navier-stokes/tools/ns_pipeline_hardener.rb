@@ -1676,6 +1676,7 @@ def sanitize_campaign_status(campaign)
 end
 
 def refresh!
+  @cm_referee_audit = sanitize_cm_referee_audit(load_yaml(CM_REFEREE_AUDIT_PATH))
   route_lock = sanitize_route_lock(load_yaml(ROUTE_LOCK_PATH))
   slot_doc = load_yaml(SLOT_MAP_PATH)
   warrant = sanitize_theorem_to_warrant(load_yaml(WARRANT_PATH))
@@ -1704,6 +1705,7 @@ def refresh!
   submission_verdict = refresh_submission_verdict_review_observations!(submission_verdict, review_observations)
 
   write_yaml(ROUTE_LOCK_PATH, route_lock)
+  write_yaml(CM_REFEREE_AUDIT_PATH, @cm_referee_audit) if CM_REFEREE_AUDIT_PATH.exist?
   write_yaml(WARRANT_PATH, warrant)
   write_yaml(CAMPAIGN_STATUS_PATH, campaign)
   write_yaml(PROOF_ASSEMBLY_PATH, proof_assembly)
