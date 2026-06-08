@@ -12,6 +12,9 @@ This pass re-entered changed refs from the first executor pass:
 - problems/navier-stokes/submission-bundle/submission-verdict.yaml
 - problems/navier-stokes/submission-bundle/submission-export-status.yaml
 
-Stop state: completed against the current source frontier.
+Stop state: exact blocker, not theorem closure.
 
-The source frontier has no unresolved live theorem obligations, no dashboard unresolved obligations, and no live-edge blocked items. The installed CM route remains `Exit(Q):=not Member(Q)` through Pack/Part/Field, with the current R3 exterior-source survivor represented as a CM face landing rather than an open third branch.
+No proof blocker is open in the current source frontier.
+
+Next executable proof tasks:
+
