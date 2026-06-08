@@ -510,7 +510,155 @@ integration_chain:
     of reopening stale generic Pack/Part no-exit work.
 
 '
-open_blockers: []
+open_blockers:
+- blocker_id: root_submission_verdict:blockers
+  blocker: Resolve blockers before submission readiness.
+  refs: &25
+  - problems/navier-stokes/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: root_submission_verdict:required_before_submission
+  blocker: Resolve required_before_submission before submission readiness.
+  refs: &26
+  - problems/navier-stokes/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: root_submission_verdict:adversarial_findings
+  blocker: Resolve adversarial_findings before submission readiness.
+  refs: &27
+  - problems/navier-stokes/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: root_submission_verdict:nested-alignment-status
+  blocker: Clear nested proof/submission alignment before readiness.
+  refs: &28
+  - problems/navier-stokes/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: root_submission_verdict:nested-alignment-allows_paper_quality_pass
+  blocker: Nested proof/submission alignment contradicts submission readiness.
+  refs: &29
+  - problems/navier-stokes/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: root_submission_verdict:nested-alignment-submission_ready
+  blocker: Nested proof/submission alignment contradicts submission readiness.
+  refs: &30
+  - problems/navier-stokes/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: root_submission_verdict:nested-alignment-downstream_submission_ready
+  blocker: Nested proof/submission alignment contradicts submission readiness.
+  refs: &31
+  - problems/navier-stokes/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: root_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+  blocker: Nested proof/submission alignment contradicts submission readiness.
+  refs: &32
+  - problems/navier-stokes/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: root_submission_verdict:nested-open-blockers
+  blocker: Resolve nested proof/submission blockers.
+  refs: &33
+  - problems/navier-stokes/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: root_submission_verdict:nested-completion-candidates
+  blocker: Resolve nested completion candidates.
+  refs: &34
+  - problems/navier-stokes/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: bundle_submission_verdict:blockers
+  blocker: Resolve blockers before submission readiness.
+  refs: &35
+  - problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: bundle_submission_verdict:required_before_submission
+  blocker: Resolve required_before_submission before submission readiness.
+  refs: &36
+  - problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: bundle_submission_verdict:adversarial_findings
+  blocker: Resolve adversarial_findings before submission readiness.
+  refs: &37
+  - problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: bundle_submission_verdict:nested-alignment-status
+  blocker: Clear nested proof/submission alignment before readiness.
+  refs: &38
+  - problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: bundle_submission_verdict:nested-alignment-allows_paper_quality_pass
+  blocker: Nested proof/submission alignment contradicts submission readiness.
+  refs: &39
+  - problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: bundle_submission_verdict:nested-alignment-submission_ready
+  blocker: Nested proof/submission alignment contradicts submission readiness.
+  refs: &40
+  - problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: bundle_submission_verdict:nested-alignment-downstream_submission_ready
+  blocker: Nested proof/submission alignment contradicts submission readiness.
+  refs: &41
+  - problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: bundle_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+  blocker: Nested proof/submission alignment contradicts submission readiness.
+  refs: &42
+  - problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: bundle_submission_verdict:nested-open-blockers
+  blocker: Resolve nested proof/submission blockers.
+  refs: &43
+  - problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: bundle_submission_verdict:nested-completion-candidates
+  blocker: Resolve nested completion candidates.
+  refs: &44
+  - problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
+  blocker: Prove that an Exit(Q;O_work) record cannot be the actual finite terminal
+    Clay obstruction, or replace the closing argument with a noncircular endpoint
+    compactness/minimal-counterexample proof.
+  refs: &45
+  - papers/navier-stokes/review/codex-gap-attack-log.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: codex-gap-attack-log:r3-exterior-high-order-tail-closure
+  blocker: Either prove a direct noncircular R3 H^s tail theorem or strengthen dyadic
+    survivor face landing into an accepted whole-space endpoint exclusion.
+  refs: &46
+  - papers/navier-stokes/review/codex-gap-attack-log.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: codex-gap-attack-log:terminal-record-entry-referee-hardening
+  blocker: Tighten the entry theorem so the Clay negation itself, stated in standard
+    PDE language, supplies the same-solution record without relying on internal CM
+    terminology.
+  refs: &47
+  - papers/navier-stokes/review/codex-gap-attack-log.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
+  blocker: After the bridge is proved or the conclusion is otherwise closed, rerun
+    the contract check and update provenance with the contract result.
+  refs: &48
+  - papers/navier-stokes/review/codex-gap-attack-log.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: codex-pdf-provenance:clay-readiness-not-claimed
+  blocker: Replace the conditional provenance with a proved Clay-closing bridge before
+    submission readiness.
+  refs: &49
+  - papers/navier-stokes/review/authoritative-pdf-provenance-2026-06-07.md
+  mirror_of_completion_candidate: true
+- blocker_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
+  blocker: Prove the Clay-closing bridge or replace the closing argument with a noncircular
+    finite-breakdown exclusion.
+  refs: &50
+  - problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
+  mirror_of_completion_candidate: true
+- blocker_id: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+  blocker: Refresh stale route/submission sync references before readiness.
+  refs: &51
+  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+  blocker: Refresh stale route/submission sync references before readiness.
+  refs: &52
+  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+  mirror_of_completion_candidate: true
 branch_rows:
 - row_id: graph:cm_convergence_atlas
   row_kind: route_node
@@ -827,11 +975,258 @@ branch_rows:
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mcp_visibility_status: visible-in-route-state
+- row_id: blocker:root_submission_verdict:blockers
+  row_kind: open_blocker
+  label: root_submission_verdict:blockers
+  state: blocked
+  next_burden: Resolve blockers before submission readiness.
+  evidence_refs: *25
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:root_submission_verdict:required_before_submission
+  row_kind: open_blocker
+  label: root_submission_verdict:required_before_submission
+  state: blocked
+  next_burden: Resolve required_before_submission before submission readiness.
+  evidence_refs: *26
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:root_submission_verdict:adversarial_findings
+  row_kind: open_blocker
+  label: root_submission_verdict:adversarial_findings
+  state: blocked
+  next_burden: Resolve adversarial_findings before submission readiness.
+  evidence_refs: *27
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:root_submission_verdict:nested-alignment-status
+  row_kind: open_blocker
+  label: root_submission_verdict:nested-alignment-status
+  state: blocked
+  next_burden: Clear nested proof/submission alignment before readiness.
+  evidence_refs: *28
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:root_submission_verdict:nested-alignment-allows_paper_quality_pass
+  row_kind: open_blocker
+  label: root_submission_verdict:nested-alignment-allows_paper_quality_pass
+  state: blocked
+  next_burden: Nested proof/submission alignment contradicts submission readiness.
+  evidence_refs: *29
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:root_submission_verdict:nested-alignment-submission_ready
+  row_kind: open_blocker
+  label: root_submission_verdict:nested-alignment-submission_ready
+  state: blocked
+  next_burden: Nested proof/submission alignment contradicts submission readiness.
+  evidence_refs: *30
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:root_submission_verdict:nested-alignment-downstream_submission_ready
+  row_kind: open_blocker
+  label: root_submission_verdict:nested-alignment-downstream_submission_ready
+  state: blocked
+  next_burden: Nested proof/submission alignment contradicts submission readiness.
+  evidence_refs: *31
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:root_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+  row_kind: open_blocker
+  label: root_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+  state: blocked
+  next_burden: Nested proof/submission alignment contradicts submission readiness.
+  evidence_refs: *32
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:root_submission_verdict:nested-open-blockers
+  row_kind: open_blocker
+  label: root_submission_verdict:nested-open-blockers
+  state: blocked
+  next_burden: Resolve nested proof/submission blockers.
+  evidence_refs: *33
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:root_submission_verdict:nested-completion-candidates
+  row_kind: open_blocker
+  label: root_submission_verdict:nested-completion-candidates
+  state: blocked
+  next_burden: Resolve nested completion candidates.
+  evidence_refs: *34
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:bundle_submission_verdict:blockers
+  row_kind: open_blocker
+  label: bundle_submission_verdict:blockers
+  state: blocked
+  next_burden: Resolve blockers before submission readiness.
+  evidence_refs: *35
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:bundle_submission_verdict:required_before_submission
+  row_kind: open_blocker
+  label: bundle_submission_verdict:required_before_submission
+  state: blocked
+  next_burden: Resolve required_before_submission before submission readiness.
+  evidence_refs: *36
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:bundle_submission_verdict:adversarial_findings
+  row_kind: open_blocker
+  label: bundle_submission_verdict:adversarial_findings
+  state: blocked
+  next_burden: Resolve adversarial_findings before submission readiness.
+  evidence_refs: *37
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:bundle_submission_verdict:nested-alignment-status
+  row_kind: open_blocker
+  label: bundle_submission_verdict:nested-alignment-status
+  state: blocked
+  next_burden: Clear nested proof/submission alignment before readiness.
+  evidence_refs: *38
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:bundle_submission_verdict:nested-alignment-allows_paper_quality_pass
+  row_kind: open_blocker
+  label: bundle_submission_verdict:nested-alignment-allows_paper_quality_pass
+  state: blocked
+  next_burden: Nested proof/submission alignment contradicts submission readiness.
+  evidence_refs: *39
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:bundle_submission_verdict:nested-alignment-submission_ready
+  row_kind: open_blocker
+  label: bundle_submission_verdict:nested-alignment-submission_ready
+  state: blocked
+  next_burden: Nested proof/submission alignment contradicts submission readiness.
+  evidence_refs: *40
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:bundle_submission_verdict:nested-alignment-downstream_submission_ready
+  row_kind: open_blocker
+  label: bundle_submission_verdict:nested-alignment-downstream_submission_ready
+  state: blocked
+  next_burden: Nested proof/submission alignment contradicts submission readiness.
+  evidence_refs: *41
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:bundle_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+  row_kind: open_blocker
+  label: bundle_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+  state: blocked
+  next_burden: Nested proof/submission alignment contradicts submission readiness.
+  evidence_refs: *42
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:bundle_submission_verdict:nested-open-blockers
+  row_kind: open_blocker
+  label: bundle_submission_verdict:nested-open-blockers
+  state: blocked
+  next_burden: Resolve nested proof/submission blockers.
+  evidence_refs: *43
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:bundle_submission_verdict:nested-completion-candidates
+  row_kind: open_blocker
+  label: bundle_submission_verdict:nested-completion-candidates
+  state: blocked
+  next_burden: Resolve nested completion candidates.
+  evidence_refs: *44
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
+  row_kind: open_blocker
+  label: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
+  state: blocked
+  next_burden: Prove that an Exit(Q;O_work) record cannot be the actual finite terminal
+    Clay obstruction, or replace the closing argument with a noncircular endpoint
+    compactness/minimal-counterexample proof.
+  evidence_refs: *45
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:codex-gap-attack-log:r3-exterior-high-order-tail-closure
+  row_kind: open_blocker
+  label: codex-gap-attack-log:r3-exterior-high-order-tail-closure
+  state: blocked
+  next_burden: Either prove a direct noncircular R3 H^s tail theorem or strengthen
+    dyadic survivor face landing into an accepted whole-space endpoint exclusion.
+  evidence_refs: *46
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:codex-gap-attack-log:terminal-record-entry-referee-hardening
+  row_kind: open_blocker
+  label: codex-gap-attack-log:terminal-record-entry-referee-hardening
+  state: blocked
+  next_burden: Tighten the entry theorem so the Clay negation itself, stated in standard
+    PDE language, supplies the same-solution record without relying on internal CM
+    terminology.
+  evidence_refs: *47
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:codex-gap-attack-log:contract-readiness-after-manuscript-expansion
+  row_kind: open_blocker
+  label: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
+  state: blocked
+  next_burden: After the bridge is proved or the conclusion is otherwise closed, rerun
+    the contract check and update provenance with the contract result.
+  evidence_refs: *48
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:codex-pdf-provenance:clay-readiness-not-claimed
+  row_kind: open_blocker
+  label: codex-pdf-provenance:clay-readiness-not-claimed
+  state: blocked
+  next_burden: Replace the conditional provenance with a proved Clay-closing bridge
+    before submission readiness.
+  evidence_refs: *49
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:clay-counterexample-gap-audit:finite-breakdown-exclusion-open
+  row_kind: open_blocker
+  label: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
+  state: blocked
+  next_burden: Prove the Clay-closing bridge or replace the closing argument with
+    a noncircular finite-breakdown exclusion.
+  evidence_refs: *50
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+  row_kind: open_blocker
+  label: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+  state: blocked
+  next_burden: Refresh stale route/submission sync references before readiness.
+  evidence_refs: *51
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+  row_kind: open_blocker
+  label: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+  state: blocked
+  next_burden: Refresh stale route/submission sync references before readiness.
+  evidence_refs: *52
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
 sync_verdict:
   graph_nodes_count: 24
   graph_edges_count: 31
   d8_integration_rows_count: 5
-  open_blockers_count: 0
+  open_blockers_count: 28
   mcp_route_state_updated: true
-  status: changed-complete
-  remaining_gap: Route payload, MCP route-state, and app-visible branch rows are synchronized.
+  status: changed-open
+  remaining_gap: 'Open proof/app/submission blockers remain visible in the route payload
+    and MCP route-state: root_submission_verdict:blockers, root_submission_verdict:required_before_submission,
+    root_submission_verdict:adversarial_findings, root_submission_verdict:nested-alignment-status,
+    root_submission_verdict:nested-alignment-allows_paper_quality_pass, root_submission_verdict:nested-alignment-submission_ready,
+    root_submission_verdict:nested-alignment-downstream_submission_ready, root_submission_verdict:nested-alignment-manuscript_declares_bridge_open,
+    root_submission_verdict:nested-open-blockers, root_submission_verdict:nested-completion-candidates,
+    bundle_submission_verdict:blockers, bundle_submission_verdict:required_before_submission,
+    bundle_submission_verdict:adversarial_findings, bundle_submission_verdict:nested-alignment-status,
+    bundle_submission_verdict:nested-alignment-allows_paper_quality_pass, bundle_submission_verdict:nested-alignment-submission_ready,
+    bundle_submission_verdict:nested-alignment-downstream_submission_ready, bundle_submission_verdict:nested-alignment-manuscript_declares_bridge_open,
+    bundle_submission_verdict:nested-open-blockers, bundle_submission_verdict:nested-completion-candidates,
+    codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
+    codex-gap-attack-log:r3-exterior-high-order-tail-closure, codex-gap-attack-log:terminal-record-entry-referee-hardening,
+    codex-gap-attack-log:contract-readiness-after-manuscript-expansion, codex-pdf-provenance:clay-readiness-not-claimed,
+    clay-counterexample-gap-audit:finite-breakdown-exclusion-open, stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml,
+    stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml.'
