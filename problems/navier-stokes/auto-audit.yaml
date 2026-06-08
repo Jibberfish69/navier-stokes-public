@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-08T06:33:08Z'
+  audited_at: '2026-06-08T06:39:10Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: clay-closing-bridge-open
@@ -32,7 +32,7 @@ downstream_overlay_drift: &1
   authority_surfaces:
   - artifact: source_frontier
     path: problems/navier-stokes/source-frontier.yaml
-    sha1: 87ae1a0999f9eb6904679429b4ba4f0fcb610b0f
+    sha1: 7484a5ae13d7f7143e34f0436a97da4e33a45e1f
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -42,7 +42,7 @@ downstream_overlay_drift: &1
     - 'dashboard_unresolved_count: 0'
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: e377bd81d59a5ea7baa04a26288521e848443efe
+    sha1: e1b2af5b304d904cd066e77f2bcfb5de811b2849
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -54,18 +54,21 @@ downstream_overlay_drift: &1
     - submission-candidate
   - artifact: theorem_crank
     path: problems/navier-stokes/theorem-crank.yaml
-    sha1: fd9e45a06e0db5c4e5414d0a1cae5abe93c7650f
+    sha1: 4bc6fdb1815ca303a0a711f477b342930bc0364f
     matched_terms:
     - direct-live-surfaces
     - authority_gate_mode
+    - cm witness-face
+    - witness-face
     - cm witness
+    - pctp.hard
     - installed
     - discharged
     - 'all_discharged: true'
     - submission-candidate
   - artifact: dependency_discharge
     path: problems/navier-stokes/dependency-discharge.yaml
-    sha1: '068704a0cc52c8112fade2395755f75deb58476c'
+    sha1: aeaf02f00065a35005e6e3d54aee40803af00bfa
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -74,7 +77,7 @@ downstream_overlay_drift: &1
   stale_overlays:
   - artifact: release_decision
     path: problems/navier-stokes/release-decision.yaml
-    sha1: 1c1f207d8a563d5cacca709b5df52e73f9b30ae2
+    sha1: b4d38a6972c5534f2c39ed183d12cb10ec654ed5
     matched_terms:
     - target fidelity failure
     - target fidelity blocker
@@ -266,13 +269,6 @@ surface_snapshot:
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
 issues:
-- issue_id: stale-review-verdict
-  severity: major
-  summary: Review verdict is stale relative to the current manuscript artifacts.
-  autofixable: false
-  recommended_action: Run honesty-review to refresh the review verdict.
-  details:
-  - Submission export status changed after the current review verdict was written.
 - issue_id: downstream-overlay-drift
   severity: major
   summary: Generated theorem/review/release overlays still advertise stale blockers
