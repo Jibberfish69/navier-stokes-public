@@ -1,3 +1,14 @@
+---
+ns_viewer:
+  theorem_id: clay-bridge-reconciled-by-finite-obstruction-inventory-20260608
+  status: installed-target-reconciliation
+  proof_role: blocker_demotion
+  logical_landing_node: cm_class_membership_program_attempts
+  edge_effect: "Supersedes the old generic Clay bridge demand and installs finite-obstruction inventory reconciliation as the current CM pass-or-exit proof gate."
+  upstream_origin: "June 1 counterexample-exclusion gap audit plus June 3 target correction and current live-theorem-edge finite inventory gate."
+  downstream_consequence: "Treat future Clay blockers as concrete terminal obstruction rows missing CM-test entry or Pack/Part/Field face landing, not as a generic demand to make Exit(Q) inadmissible."
+---
+
 # MPP Clay Bridge Reconciled By Finite-Obstruction Inventory
 
 Date: 2026-06-08
