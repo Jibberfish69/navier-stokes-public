@@ -260,10 +260,10 @@ end
 
 def prune_orphaned_bundle_supplements!
   manifest = load_yaml(BUNDLE_ROOT.join("submission-manifest.yaml"))
-  listed_paths = Array(manifest["authoritative_supplements"]).filter_map do |entry|
+  listed_paths = Array(manifest["authoritative_supplements"]).map do |entry|
     path = entry.to_h["bundle_path"].to_s
     path.empty? ? nil : BUNDLE_ROOT.join(path).expand_path.to_s
-  end
+  end.compact
   tex = MAIN_TEX.file? ? MAIN_TEX.read : ""
 
   ORPHANED_BUNDLE_SUPPLEMENTS.each do |relative_path|
