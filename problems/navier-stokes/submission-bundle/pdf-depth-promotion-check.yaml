@@ -1,8 +1,8 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T08:31:56Z'
-started_at: '2026-06-08T08:31:48Z'
+generated_at: '2026-06-08T08:32:21Z'
+started_at: '2026-06-08T08:32:12Z'
 status: passed
 purpose: Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into
   the human/app-aligned TeX/PDF path, export the separate Codex Clay-facing paper,
