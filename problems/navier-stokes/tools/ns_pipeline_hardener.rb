@@ -1238,7 +1238,7 @@ def sanitize_theorem_to_warrant(warrant)
     claim["location"]["historical_tex_file"] = claim["location"].delete("tex_file") if claim["location"]["tex_file"]
     attach_target_topology!(claim)
   end
-  Array(warrant["bridge_warrants"]).each do |bridge|
+  Array(warrant["bridge_obligations"]).each do |bridge|
     next unless bridge.is_a?(Hash)
     next unless bridge["bridge_id"].to_s == "gradient-control"
 
