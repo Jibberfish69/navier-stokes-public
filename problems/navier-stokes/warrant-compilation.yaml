@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: warrant-compilation-navier-stokes
-  generated_at: '2026-05-27T00:15:07Z'
+  generated_at: '2026-06-08T03:55:56Z'
   generator: tools/ns_pipeline_hardener.rb
 primary_track:
   route_id: source-grounded-four-bridge
@@ -72,7 +72,7 @@ active_frontier:
   target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
   target_preflight: &2
     rule_id: ns-target-topology-preflight-v2
-    status: historical-context-only
+    status: required-before-answer-or-generated-summary
     required_fields:
     - user_question_or_action
     - action_type
@@ -675,21 +675,3 @@ forward_positive_surface_quarantine: *7
 non_merge_rules: *8
 authority_hierarchy: *9
 mode_selection_protocol: *10
-current_authority_status:
-  status: superseded-by-direct-live-clearance
-  checked_at: '2026-06-08T03:54:44Z'
-  reason: Direct live authority reports no open theorem frontier; this artifact is
-    retained as historical theorem-work context and must not respawn a live blocker.
-  authority_summary:
-    authority_mode: direct-live-surfaces
-    blocking_count: 0
-    frontier_count: 0
-    all_discharged: true
-  controlling_surfaces:
-  - problems/navier-stokes/live-theorem-edge.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-summary:
-  current_live_blocking_count: 0
-  current_live_frontier_count: 0
-  stale_surface_status: historical-context-only
