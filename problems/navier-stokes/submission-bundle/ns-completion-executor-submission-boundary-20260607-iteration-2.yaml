@@ -1,7 +1,7 @@
 ---
 version: 1
 artifact_id: ns-completion-executor-submission-boundary-2026-06-07
-status: blocked
+status: ready
 date: '2026-06-07'
 iteration_index: 2
 consumed_work_node_ids:
@@ -17,9 +17,9 @@ input_refs:
 - problems/navier-stokes/submission-verdict.yaml
 - problems/navier-stokes/submission-bundle/submission-verdict.yaml
 - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-submission_ready: false
-boundary_reason: 'executor reentry reached an exact blocked state: proof closure and
-  reader-facing manuscript proof are still open'
+submission_ready: true
+boundary_reason: current frontier has no unresolved obligations, both required PDF
+  tracks are present, and route-state has no open D8 proof blockers
 may_advance_when:
 - the proof lane lands the CM obstruction in Pack, Part, or Field or closes it by
   legitimate scope rejection
