@@ -58,23 +58,464 @@ human_pdf:
 manuscript_tex:
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   present: true
-  sha1: 1dfb9c979b2ccc7a7f04fd247f19432e82ef3f1d
-  bytes: 82027
+  sha1: 22410803acb2c39f64518fcec2432432cdd38a15
+  bytes: 82692
 verdict_alignment:
   root_verdict_synced: true
   bundle_verdict_synced: true
   export_status_synced: true
   submission_ready: false
-  blocking_reason: 'Navier-Stokes completion readiness is blocked by 6 unresolved
-    candidate(s): codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
-    codex-gap-attack-log:r3-exterior-high-order-tail-closure, codex-gap-attack-log:terminal-record-entry-referee-hardening,
-    codex-gap-attack-log:contract-readiness-after-manuscript-expansion, codex-pdf-provenance:clay-readiness-not-claimed,
-    clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
+  blocking_reason: 'Navier-Stokes completion readiness is blocked by 87 unresolved
+    candidate(s): blocker:root_submission_verdict:blockers, blocker:root_submission_verdict:required_before_submission,
+    blocker:root_submission_verdict:adversarial_findings, blocker:root_submission_verdict:nested-alignment-status,
+    blocker:root_submission_verdict:nested-alignment-allows_paper_quality_pass, blocker:root_submission_verdict:nested-alignment-submission_ready.'
   readiness_evidence:
     source_frontier_clear: true
     open_d8_proof_blockers: 0
-    completion_candidate_count: 6
+    completion_candidate_count: 87
     completion_candidates:
+    - candidate_id: blocker:root_submission_verdict:blockers
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Resolve blockers before submission readiness.
+    - candidate_id: blocker:root_submission_verdict:required_before_submission
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Resolve required_before_submission before submission readiness.
+    - candidate_id: blocker:root_submission_verdict:adversarial_findings
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Resolve adversarial_findings before submission readiness.
+    - candidate_id: blocker:root_submission_verdict:nested-alignment-status
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Clear nested proof/submission alignment before readiness.
+    - candidate_id: blocker:root_submission_verdict:nested-alignment-allows_paper_quality_pass
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: blocker:root_submission_verdict:nested-alignment-submission_ready
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: blocker:root_submission_verdict:nested-alignment-downstream_submission_ready
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: blocker:root_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: blocker:root_submission_verdict:nested-open-blockers
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Resolve nested proof/submission blockers.
+    - candidate_id: blocker:root_submission_verdict:nested-completion-candidates
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Resolve nested completion candidates.
+    - candidate_id: blocker:bundle_submission_verdict:blockers
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Resolve blockers before submission readiness.
+    - candidate_id: blocker:bundle_submission_verdict:required_before_submission
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Resolve required_before_submission before submission readiness.
+    - candidate_id: blocker:bundle_submission_verdict:adversarial_findings
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Resolve adversarial_findings before submission readiness.
+    - candidate_id: blocker:bundle_submission_verdict:nested-alignment-status
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Clear nested proof/submission alignment before readiness.
+    - candidate_id: blocker:bundle_submission_verdict:nested-alignment-allows_paper_quality_pass
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: blocker:bundle_submission_verdict:nested-alignment-submission_ready
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: blocker:bundle_submission_verdict:nested-alignment-downstream_submission_ready
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: blocker:bundle_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: blocker:bundle_submission_verdict:nested-open-blockers
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Resolve nested proof/submission blockers.
+    - candidate_id: blocker:bundle_submission_verdict:nested-completion-candidates
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Resolve nested completion candidates.
+    - candidate_id: blocker:codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Prove that an Exit(Q;O_work) record cannot be the actual finite
+        terminal Clay obstruction, or replace the closing argument with a noncircular
+        endpoint compactness/minimal-counterexample proof.
+    - candidate_id: blocker:codex-gap-attack-log:r3-exterior-high-order-tail-closure
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Either prove a direct noncircular R3 H^s tail theorem or strengthen
+        dyadic survivor face landing into an accepted whole-space endpoint exclusion.
+    - candidate_id: blocker:codex-gap-attack-log:terminal-record-entry-referee-hardening
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Tighten the entry theorem so the Clay negation itself, stated
+        in standard PDE language, supplies the same-solution record without relying
+        on internal CM terminology.
+    - candidate_id: blocker:codex-gap-attack-log:contract-readiness-after-manuscript-expansion
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: After the bridge is proved or the conclusion is otherwise closed,
+        rerun the contract check and update provenance with the contract result.
+    - candidate_id: blocker:codex-pdf-provenance:clay-readiness-not-claimed
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Replace the conditional provenance with a proved Clay-closing
+        bridge before submission readiness.
+    - candidate_id: blocker:clay-counterexample-gap-audit:finite-breakdown-exclusion-open
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Prove the Clay-closing bridge or replace the closing argument
+        with a noncircular finite-breakdown exclusion.
+    - candidate_id: blocker:stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Refresh stale route/submission sync references before readiness.
+    - candidate_id: blocker:stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: Refresh stale route/submission sync references before readiness.
+    - candidate_id: root_submission_verdict:blockers
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Resolve blockers before submission readiness.
+    - candidate_id: root_submission_verdict:required_before_submission
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Resolve required_before_submission before submission readiness.
+    - candidate_id: root_submission_verdict:adversarial_findings
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Resolve adversarial_findings before submission readiness.
+    - candidate_id: root_submission_verdict:nested-alignment-status
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Clear nested proof/submission alignment before readiness.
+    - candidate_id: root_submission_verdict:nested-alignment-allows_paper_quality_pass
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: root_submission_verdict:nested-alignment-submission_ready
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: root_submission_verdict:nested-alignment-downstream_submission_ready
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: root_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: root_submission_verdict:nested-open-blockers
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Resolve nested proof/submission blockers.
+    - candidate_id: root_submission_verdict:nested-completion-candidates
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Resolve nested completion candidates.
+    - candidate_id: bundle_submission_verdict:blockers
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Resolve blockers before submission readiness.
+    - candidate_id: bundle_submission_verdict:required_before_submission
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Resolve required_before_submission before submission readiness.
+    - candidate_id: bundle_submission_verdict:adversarial_findings
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Resolve adversarial_findings before submission readiness.
+    - candidate_id: bundle_submission_verdict:nested-alignment-status
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Clear nested proof/submission alignment before readiness.
+    - candidate_id: bundle_submission_verdict:nested-alignment-allows_paper_quality_pass
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: bundle_submission_verdict:nested-alignment-submission_ready
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: bundle_submission_verdict:nested-alignment-downstream_submission_ready
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: bundle_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: bundle_submission_verdict:nested-open-blockers
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Resolve nested proof/submission blockers.
+    - candidate_id: bundle_submission_verdict:nested-completion-candidates
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Resolve nested completion candidates.
+    - candidate_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Prove that an Exit(Q;O_work) record cannot be the actual finite
+        terminal Clay obstruction, or replace the closing argument with a noncircular
+        endpoint compactness/minimal-counterexample proof.
+    - candidate_id: codex-gap-attack-log:r3-exterior-high-order-tail-closure
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Either prove a direct noncircular R3 H^s tail theorem or strengthen
+        dyadic survivor face landing into an accepted whole-space endpoint exclusion.
+    - candidate_id: codex-gap-attack-log:terminal-record-entry-referee-hardening
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Tighten the entry theorem so the Clay negation itself, stated
+        in standard PDE language, supplies the same-solution record without relying
+        on internal CM terminology.
+    - candidate_id: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: After the bridge is proved or the conclusion is otherwise closed,
+        rerun the contract check and update provenance with the contract result.
+    - candidate_id: codex-pdf-provenance:clay-readiness-not-claimed
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Replace the conditional provenance with a proved Clay-closing
+        bridge before submission readiness.
+    - candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Prove the Clay-closing bridge or replace the closing argument
+        with a noncircular finite-breakdown exclusion.
+    - candidate_id: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Refresh stale route/submission sync references before readiness.
+    - candidate_id: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: Refresh stale route/submission sync references before readiness.
+    - candidate_id: route-state:queue_state
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=active-open
+      required_action: Refresh live route-state from the current proof, app, and submission
+        posture.
+    - candidate_id: route-current:status
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=active-open
+      required_action: Refresh live route-state from the current proof, app, and submission
+        posture.
+    - candidate_id: root_submission_verdict:blockers
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: 'blockers=Paper quality verdict did not pass; the manuscript still
+        fails architecture, prose, or submission-shape checks.; Navier-Stokes PDF
+        contract blocks export: two-track Navier-Stokes PDF output topology failed:
+        Codex paper PDF is missing rendered conditional Clay-closing bridge Codex
+        paper PDF is missing rendered conditional argument boundary; Navier-Stokes
+        PDF contract blocks export: current material coverage failed: current-material
+        coverage mismatch unclassified current checkable files: ns-completion-engine.yaml
+        ns-completion-executor.yaml; Navier-Stokes completion candidate remains: root_submission_verdict:blockers
+        (problems/navier-stokes/submission-verdict.yaml)'
+      required_action: Resolve blockers before submission readiness.
+    - candidate_id: root_submission_verdict:required_before_submission
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: required_before_submission=Run the paperization stack until paper
+        architecture, prose quality, and submission-shape checks pass.; Run the reader-facing
+        PDF contract gates until coverage, surface-derivation inventory, and argument
+        hygiene all pass.
+      required_action: Resolve required_before_submission before submission readiness.
+    - candidate_id: root_submission_verdict:adversarial_findings
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: adversarial_findings=The theorem route may be closed, but the paper
+        itself still fails architecture or prose-quality standards.; The PDF contract
+        gates still reject the reader-facing paper or its support inventories; readiness
+        cannot be inferred from the export verdict alone.
+      required_action: Resolve adversarial_findings before submission readiness.
+    - candidate_id: root_submission_verdict:nested-alignment-status
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: proof_submission_alignment.status=blocked
+      required_action: Clear nested proof/submission alignment before readiness.
+    - candidate_id: root_submission_verdict:nested-alignment-allows_paper_quality_pass
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: allows_paper_quality_pass=false
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: root_submission_verdict:nested-alignment-submission_ready
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: submission_ready=false
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: root_submission_verdict:nested-alignment-downstream_submission_ready
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: downstream_submission_ready=false
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: root_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: manuscript_declares_bridge_open=true
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: root_submission_verdict:nested-open-blockers
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: open_blockers=root_submission_verdict:blockers (problems/navier-stokes/submission-verdict.yaml);
+        root_submission_verdict:required_before_submission (problems/navier-stokes/submission-verdict.yaml);
+        root_submission_verdict:adversarial_findings (problems/navier-stokes/submission-verdict.yaml);
+        root_submission_verdict:posture (problems/navier-stokes/submission-verdict.yaml)
+      required_action: Resolve nested proof/submission blockers.
+    - candidate_id: root_submission_verdict:nested-completion-candidates
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-verdict.yaml
+      evidence: completion_candidate_count=30
+      required_action: Resolve nested completion candidates.
+    - candidate_id: bundle_submission_verdict:blockers
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: 'blockers=Paper quality verdict did not pass; the manuscript still
+        fails architecture, prose, or submission-shape checks.; Navier-Stokes PDF
+        contract blocks export: two-track Navier-Stokes PDF output topology failed:
+        Codex paper PDF is missing rendered conditional Clay-closing bridge Codex
+        paper PDF is missing rendered conditional argument boundary; Navier-Stokes
+        PDF contract blocks export: current material coverage failed: current-material
+        coverage mismatch unclassified current checkable files: ns-completion-engine.yaml
+        ns-completion-executor.yaml; Navier-Stokes completion candidate remains: root_submission_verdict:blockers
+        (problems/navier-stokes/submission-verdict.yaml)'
+      required_action: Resolve blockers before submission readiness.
+    - candidate_id: bundle_submission_verdict:required_before_submission
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: required_before_submission=Run the paperization stack until paper
+        architecture, prose quality, and submission-shape checks pass.; Run the reader-facing
+        PDF contract gates until coverage, surface-derivation inventory, and argument
+        hygiene all pass.
+      required_action: Resolve required_before_submission before submission readiness.
+    - candidate_id: bundle_submission_verdict:adversarial_findings
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: adversarial_findings=The theorem route may be closed, but the paper
+        itself still fails architecture or prose-quality standards.; The PDF contract
+        gates still reject the reader-facing paper or its support inventories; readiness
+        cannot be inferred from the export verdict alone.
+      required_action: Resolve adversarial_findings before submission readiness.
+    - candidate_id: bundle_submission_verdict:nested-alignment-status
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: proof_submission_alignment.status=blocked
+      required_action: Clear nested proof/submission alignment before readiness.
+    - candidate_id: bundle_submission_verdict:nested-alignment-allows_paper_quality_pass
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: allows_paper_quality_pass=false
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: bundle_submission_verdict:nested-alignment-submission_ready
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: submission_ready=false
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: bundle_submission_verdict:nested-alignment-downstream_submission_ready
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: downstream_submission_ready=false
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: bundle_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: manuscript_declares_bridge_open=true
+      required_action: Nested proof/submission alignment contradicts submission readiness.
+    - candidate_id: bundle_submission_verdict:nested-open-blockers
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: open_blockers=root_submission_verdict:blockers (problems/navier-stokes/submission-verdict.yaml);
+        root_submission_verdict:required_before_submission (problems/navier-stokes/submission-verdict.yaml);
+        root_submission_verdict:adversarial_findings (problems/navier-stokes/submission-verdict.yaml);
+        root_submission_verdict:posture (problems/navier-stokes/submission-verdict.yaml)
+      required_action: Resolve nested proof/submission blockers.
+    - candidate_id: bundle_submission_verdict:nested-completion-candidates
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: completion_candidate_count=30
+      required_action: Resolve nested completion candidates.
     - candidate_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
       kind: clay_closing_gap
       surface: papers/navier-stokes/review/codex-gap-attack-log.yaml
@@ -114,11 +555,552 @@ verdict_alignment:
         not established.
       required_action: Prove the Clay-closing bridge or replace the closing argument
         with a noncircular finite-breakdown exclusion.
+    - candidate_id: stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+      kind: stale_readiness_ref
+      surface: problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+      evidence: status=changed/changed-open
+      required_action: Refresh stale route/submission sync references before readiness.
+    - candidate_id: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+      kind: stale_readiness_ref
+      surface: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+      evidence: status=blocked
+      required_action: Refresh stale route/submission sync references before readiness.
+    - candidate_id: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+      kind: stale_readiness_ref
+      surface: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+      evidence: status=blocked
+      required_action: Refresh stale route/submission sync references before readiness.
     completion_readiness:
       status: blocked
       submission_ready: false
-      candidate_count: 6
+      candidate_count: 87
       candidates:
+      - &1
+        candidate_id: blocker:root_submission_verdict:blockers
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Resolve blockers before submission readiness.
+      - &2
+        candidate_id: blocker:root_submission_verdict:required_before_submission
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Resolve required_before_submission before submission readiness.
+      - &3
+        candidate_id: blocker:root_submission_verdict:adversarial_findings
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Resolve adversarial_findings before submission readiness.
+      - &4
+        candidate_id: blocker:root_submission_verdict:nested-alignment-status
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Clear nested proof/submission alignment before readiness.
+      - &5
+        candidate_id: blocker:root_submission_verdict:nested-alignment-allows_paper_quality_pass
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &6
+        candidate_id: blocker:root_submission_verdict:nested-alignment-submission_ready
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &7
+        candidate_id: blocker:root_submission_verdict:nested-alignment-downstream_submission_ready
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &8
+        candidate_id: blocker:root_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &9
+        candidate_id: blocker:root_submission_verdict:nested-open-blockers
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Resolve nested proof/submission blockers.
+      - &10
+        candidate_id: blocker:root_submission_verdict:nested-completion-candidates
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Resolve nested completion candidates.
+      - &11
+        candidate_id: blocker:bundle_submission_verdict:blockers
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Resolve blockers before submission readiness.
+      - &12
+        candidate_id: blocker:bundle_submission_verdict:required_before_submission
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Resolve required_before_submission before submission readiness.
+      - &13
+        candidate_id: blocker:bundle_submission_verdict:adversarial_findings
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Resolve adversarial_findings before submission readiness.
+      - &14
+        candidate_id: blocker:bundle_submission_verdict:nested-alignment-status
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Clear nested proof/submission alignment before readiness.
+      - &15
+        candidate_id: blocker:bundle_submission_verdict:nested-alignment-allows_paper_quality_pass
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &16
+        candidate_id: blocker:bundle_submission_verdict:nested-alignment-submission_ready
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &17
+        candidate_id: blocker:bundle_submission_verdict:nested-alignment-downstream_submission_ready
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &18
+        candidate_id: blocker:bundle_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &19
+        candidate_id: blocker:bundle_submission_verdict:nested-open-blockers
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Resolve nested proof/submission blockers.
+      - &20
+        candidate_id: blocker:bundle_submission_verdict:nested-completion-candidates
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Resolve nested completion candidates.
+      - &21
+        candidate_id: blocker:codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Prove that an Exit(Q;O_work) record cannot be the actual
+          finite terminal Clay obstruction, or replace the closing argument with a
+          noncircular endpoint compactness/minimal-counterexample proof.
+      - &22
+        candidate_id: blocker:codex-gap-attack-log:r3-exterior-high-order-tail-closure
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Either prove a direct noncircular R3 H^s tail theorem or
+          strengthen dyadic survivor face landing into an accepted whole-space endpoint
+          exclusion.
+      - &23
+        candidate_id: blocker:codex-gap-attack-log:terminal-record-entry-referee-hardening
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Tighten the entry theorem so the Clay negation itself, stated
+          in standard PDE language, supplies the same-solution record without relying
+          on internal CM terminology.
+      - &24
+        candidate_id: blocker:codex-gap-attack-log:contract-readiness-after-manuscript-expansion
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: After the bridge is proved or the conclusion is otherwise
+          closed, rerun the contract check and update provenance with the contract
+          result.
+      - &25
+        candidate_id: blocker:codex-pdf-provenance:clay-readiness-not-claimed
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Replace the conditional provenance with a proved Clay-closing
+          bridge before submission readiness.
+      - &26
+        candidate_id: blocker:clay-counterexample-gap-audit:finite-breakdown-exclusion-open
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Prove the Clay-closing bridge or replace the closing argument
+          with a noncircular finite-breakdown exclusion.
+      - &27
+        candidate_id: blocker:stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Refresh stale route/submission sync references before readiness.
+      - &28
+        candidate_id: blocker:stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=blocked
+        required_action: Refresh stale route/submission sync references before readiness.
+      - &29
+        candidate_id: root_submission_verdict:blockers
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Resolve blockers before submission readiness.
+      - &30
+        candidate_id: root_submission_verdict:required_before_submission
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Resolve required_before_submission before submission readiness.
+      - &31
+        candidate_id: root_submission_verdict:adversarial_findings
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Resolve adversarial_findings before submission readiness.
+      - &32
+        candidate_id: root_submission_verdict:nested-alignment-status
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Clear nested proof/submission alignment before readiness.
+      - &33
+        candidate_id: root_submission_verdict:nested-alignment-allows_paper_quality_pass
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &34
+        candidate_id: root_submission_verdict:nested-alignment-submission_ready
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &35
+        candidate_id: root_submission_verdict:nested-alignment-downstream_submission_ready
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &36
+        candidate_id: root_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &37
+        candidate_id: root_submission_verdict:nested-open-blockers
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Resolve nested proof/submission blockers.
+      - &38
+        candidate_id: root_submission_verdict:nested-completion-candidates
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Resolve nested completion candidates.
+      - &39
+        candidate_id: bundle_submission_verdict:blockers
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Resolve blockers before submission readiness.
+      - &40
+        candidate_id: bundle_submission_verdict:required_before_submission
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Resolve required_before_submission before submission readiness.
+      - &41
+        candidate_id: bundle_submission_verdict:adversarial_findings
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Resolve adversarial_findings before submission readiness.
+      - &42
+        candidate_id: bundle_submission_verdict:nested-alignment-status
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Clear nested proof/submission alignment before readiness.
+      - &43
+        candidate_id: bundle_submission_verdict:nested-alignment-allows_paper_quality_pass
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &44
+        candidate_id: bundle_submission_verdict:nested-alignment-submission_ready
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &45
+        candidate_id: bundle_submission_verdict:nested-alignment-downstream_submission_ready
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &46
+        candidate_id: bundle_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - &47
+        candidate_id: bundle_submission_verdict:nested-open-blockers
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Resolve nested proof/submission blockers.
+      - &48
+        candidate_id: bundle_submission_verdict:nested-completion-candidates
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Resolve nested completion candidates.
+      - &49
+        candidate_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Prove that an Exit(Q;O_work) record cannot be the actual
+          finite terminal Clay obstruction, or replace the closing argument with a
+          noncircular endpoint compactness/minimal-counterexample proof.
+      - &50
+        candidate_id: codex-gap-attack-log:r3-exterior-high-order-tail-closure
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Either prove a direct noncircular R3 H^s tail theorem or
+          strengthen dyadic survivor face landing into an accepted whole-space endpoint
+          exclusion.
+      - &51
+        candidate_id: codex-gap-attack-log:terminal-record-entry-referee-hardening
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Tighten the entry theorem so the Clay negation itself, stated
+          in standard PDE language, supplies the same-solution record without relying
+          on internal CM terminology.
+      - &52
+        candidate_id: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: After the bridge is proved or the conclusion is otherwise
+          closed, rerun the contract check and update provenance with the contract
+          result.
+      - &53
+        candidate_id: codex-pdf-provenance:clay-readiness-not-claimed
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Replace the conditional provenance with a proved Clay-closing
+          bridge before submission readiness.
+      - &54
+        candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Prove the Clay-closing bridge or replace the closing argument
+          with a noncircular finite-breakdown exclusion.
+      - &55
+        candidate_id: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Refresh stale route/submission sync references before readiness.
+      - &56
+        candidate_id: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: open_blocker
+        required_action: Refresh stale route/submission sync references before readiness.
+      - candidate_id: route-state:queue_state
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=active-open
+        required_action: Refresh live route-state from the current proof, app, and
+          submission posture.
+      - candidate_id: route-current:status
+        kind: route_state
+        surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+        evidence: state=active-open
+        required_action: Refresh live route-state from the current proof, app, and
+          submission posture.
+      - candidate_id: root_submission_verdict:blockers
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-verdict.yaml
+        evidence: 'blockers=Paper quality verdict did not pass; the manuscript still
+          fails architecture, prose, or submission-shape checks.; Navier-Stokes PDF
+          contract blocks export: two-track Navier-Stokes PDF output topology failed:
+          Codex paper PDF is missing rendered conditional Clay-closing bridge Codex
+          paper PDF is missing rendered conditional argument boundary; Navier-Stokes
+          PDF contract blocks export: current material coverage failed: current-material
+          coverage mismatch unclassified current checkable files: ns-completion-engine.yaml
+          ns-completion-executor.yaml; Navier-Stokes completion candidate remains:
+          root_submission_verdict:blockers (problems/navier-stokes/submission-verdict.yaml)'
+        required_action: Resolve blockers before submission readiness.
+      - candidate_id: root_submission_verdict:required_before_submission
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-verdict.yaml
+        evidence: required_before_submission=Run the paperization stack until paper
+          architecture, prose quality, and submission-shape checks pass.; Run the
+          reader-facing PDF contract gates until coverage, surface-derivation inventory,
+          and argument hygiene all pass.
+        required_action: Resolve required_before_submission before submission readiness.
+      - candidate_id: root_submission_verdict:adversarial_findings
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-verdict.yaml
+        evidence: adversarial_findings=The theorem route may be closed, but the paper
+          itself still fails architecture or prose-quality standards.; The PDF contract
+          gates still reject the reader-facing paper or its support inventories; readiness
+          cannot be inferred from the export verdict alone.
+        required_action: Resolve adversarial_findings before submission readiness.
+      - candidate_id: root_submission_verdict:nested-alignment-status
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-verdict.yaml
+        evidence: proof_submission_alignment.status=blocked
+        required_action: Clear nested proof/submission alignment before readiness.
+      - candidate_id: root_submission_verdict:nested-alignment-allows_paper_quality_pass
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-verdict.yaml
+        evidence: allows_paper_quality_pass=false
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - candidate_id: root_submission_verdict:nested-alignment-submission_ready
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-verdict.yaml
+        evidence: submission_ready=false
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - candidate_id: root_submission_verdict:nested-alignment-downstream_submission_ready
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-verdict.yaml
+        evidence: downstream_submission_ready=false
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - candidate_id: root_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-verdict.yaml
+        evidence: manuscript_declares_bridge_open=true
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - candidate_id: root_submission_verdict:nested-open-blockers
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-verdict.yaml
+        evidence: open_blockers=root_submission_verdict:blockers (problems/navier-stokes/submission-verdict.yaml);
+          root_submission_verdict:required_before_submission (problems/navier-stokes/submission-verdict.yaml);
+          root_submission_verdict:adversarial_findings (problems/navier-stokes/submission-verdict.yaml);
+          root_submission_verdict:posture (problems/navier-stokes/submission-verdict.yaml)
+        required_action: Resolve nested proof/submission blockers.
+      - candidate_id: root_submission_verdict:nested-completion-candidates
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-verdict.yaml
+        evidence: completion_candidate_count=30
+        required_action: Resolve nested completion candidates.
+      - candidate_id: bundle_submission_verdict:blockers
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+        evidence: 'blockers=Paper quality verdict did not pass; the manuscript still
+          fails architecture, prose, or submission-shape checks.; Navier-Stokes PDF
+          contract blocks export: two-track Navier-Stokes PDF output topology failed:
+          Codex paper PDF is missing rendered conditional Clay-closing bridge Codex
+          paper PDF is missing rendered conditional argument boundary; Navier-Stokes
+          PDF contract blocks export: current material coverage failed: current-material
+          coverage mismatch unclassified current checkable files: ns-completion-engine.yaml
+          ns-completion-executor.yaml; Navier-Stokes completion candidate remains:
+          root_submission_verdict:blockers (problems/navier-stokes/submission-verdict.yaml)'
+        required_action: Resolve blockers before submission readiness.
+      - candidate_id: bundle_submission_verdict:required_before_submission
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+        evidence: required_before_submission=Run the paperization stack until paper
+          architecture, prose quality, and submission-shape checks pass.; Run the
+          reader-facing PDF contract gates until coverage, surface-derivation inventory,
+          and argument hygiene all pass.
+        required_action: Resolve required_before_submission before submission readiness.
+      - candidate_id: bundle_submission_verdict:adversarial_findings
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+        evidence: adversarial_findings=The theorem route may be closed, but the paper
+          itself still fails architecture or prose-quality standards.; The PDF contract
+          gates still reject the reader-facing paper or its support inventories; readiness
+          cannot be inferred from the export verdict alone.
+        required_action: Resolve adversarial_findings before submission readiness.
+      - candidate_id: bundle_submission_verdict:nested-alignment-status
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+        evidence: proof_submission_alignment.status=blocked
+        required_action: Clear nested proof/submission alignment before readiness.
+      - candidate_id: bundle_submission_verdict:nested-alignment-allows_paper_quality_pass
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+        evidence: allows_paper_quality_pass=false
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - candidate_id: bundle_submission_verdict:nested-alignment-submission_ready
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+        evidence: submission_ready=false
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - candidate_id: bundle_submission_verdict:nested-alignment-downstream_submission_ready
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+        evidence: downstream_submission_ready=false
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - candidate_id: bundle_submission_verdict:nested-alignment-manuscript_declares_bridge_open
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+        evidence: manuscript_declares_bridge_open=true
+        required_action: Nested proof/submission alignment contradicts submission
+          readiness.
+      - candidate_id: bundle_submission_verdict:nested-open-blockers
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+        evidence: open_blockers=root_submission_verdict:blockers (problems/navier-stokes/submission-verdict.yaml);
+          root_submission_verdict:required_before_submission (problems/navier-stokes/submission-verdict.yaml);
+          root_submission_verdict:adversarial_findings (problems/navier-stokes/submission-verdict.yaml);
+          root_submission_verdict:posture (problems/navier-stokes/submission-verdict.yaml)
+        required_action: Resolve nested proof/submission blockers.
+      - candidate_id: bundle_submission_verdict:nested-completion-candidates
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+        evidence: completion_candidate_count=30
+        required_action: Resolve nested completion candidates.
       - candidate_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
         kind: clay_closing_gap
         surface: papers/navier-stokes/review/codex-gap-attack-log.yaml
@@ -160,20 +1142,35 @@ verdict_alignment:
           not established.
         required_action: Prove the Clay-closing bridge or replace the closing argument
           with a noncircular finite-breakdown exclusion.
+      - candidate_id: stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+        kind: stale_readiness_ref
+        surface: problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+        evidence: status=changed/changed-open
+        required_action: Refresh stale route/submission sync references before readiness.
+      - candidate_id: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+        kind: stale_readiness_ref
+        surface: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
+        evidence: status=blocked
+        required_action: Refresh stale route/submission sync references before readiness.
+      - candidate_id: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+        kind: stale_readiness_ref
+        surface: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
+        evidence: status=blocked
+        required_action: Refresh stale route/submission sync references before readiness.
       checks:
-        route_candidates: 0
+        route_candidates: 56
         d8_candidates: 0
         live_edge_candidates: 0
         verdict_conflicts: 0
         child_paper_repo_candidates: 0
         manuscript_unresolved_candidates: 0
         source_frontier_candidates: 0
-        route_state_agreement_candidates: 0
-        submission_verdict_agreement_candidates: 0
+        route_state_agreement_candidates: 58
+        submission_verdict_agreement_candidates: 20
         pdf_track_candidates: 0
         current_material_candidates: 0
         clay_closing_gap_candidates: 6
-        stale_readiness_ref_candidates: 0
+        stale_readiness_ref_candidates: 3
       pdf_tracks_rendered: true
       pdf_render_status:
         status: rendered
@@ -195,12 +1192,68 @@ verdict_alignment:
             required_for_clay_submission: true
         preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       base_completion_readiness:
-        status: ready
-        submission_ready: true
-        candidate_count: 0
-        candidates: []
+        status: blocked
+        submission_ready: false
+        candidate_count: 56
+        candidates:
+        - *1
+        - *2
+        - *3
+        - *4
+        - *5
+        - *6
+        - *7
+        - *8
+        - *9
+        - *10
+        - *11
+        - *12
+        - *13
+        - *14
+        - *15
+        - *16
+        - *17
+        - *18
+        - *19
+        - *20
+        - *21
+        - *22
+        - *23
+        - *24
+        - *25
+        - *26
+        - *27
+        - *28
+        - *29
+        - *30
+        - *31
+        - *32
+        - *33
+        - *34
+        - *35
+        - *36
+        - *37
+        - *38
+        - *39
+        - *40
+        - *41
+        - *42
+        - *43
+        - *44
+        - *45
+        - *46
+        - *47
+        - *48
+        - *49
+        - *50
+        - *51
+        - *52
+        - *53
+        - *54
+        - *55
+        - *56
         checks:
-          route_candidates: 0
+          route_candidates: 56
           d8_candidates: 0
           live_edge_candidates: 0
           verdict_conflicts: 0
