@@ -72,7 +72,7 @@ active_frontier:
   target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
   target_preflight: &2
     rule_id: ns-target-topology-preflight-v2
-    status: required-before-answer-or-generated-summary
+    status: historical-context-only
     required_fields:
     - user_question_or_action
     - action_type
@@ -675,3 +675,21 @@ forward_positive_surface_quarantine: *7
 non_merge_rules: *8
 authority_hierarchy: *9
 mode_selection_protocol: *10
+current_authority_status:
+  status: superseded-by-direct-live-clearance
+  checked_at: '2026-06-08T04:10:52Z'
+  reason: Direct live authority reports no open theorem frontier; this artifact is
+    retained as historical theorem-work context and must not respawn a live blocker.
+  authority_summary:
+    authority_mode: direct-live-surfaces
+    blocking_count: 0
+    frontier_count: 0
+    all_discharged: true
+  controlling_surfaces:
+  - problems/navier-stokes/live-theorem-edge.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+summary:
+  current_live_blocking_count: 0
+  current_live_frontier_count: 0
+  stale_surface_status: historical-context-only
