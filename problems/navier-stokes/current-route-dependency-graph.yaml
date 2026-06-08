@@ -82,8 +82,10 @@ nodes:
       Direct Clay-facing classification route: a finite terminal witness enters
       the same-fluid CM packet tree, the first failing Pack/Part/Field face is
       recorded, and that face failure supports Exit(Q):=not Member(Q). The
-      submission-grade contradiction still requires the open Pack, Part, and
-      Field face-exclusion/realization theorems.
+      submission-grade contradiction still requires the open Pack retention and
+      Part survival/target-fidelity theorems; the Field row has been collapsed
+      into Part by ClayFieldFailureRealization.A plus
+      TerminalFieldJumpPartCollapse.A.
   torus_global_material_atlas_terminal_capture:
     status: installed-terminal-capture
     theorem_ids:
@@ -528,9 +530,10 @@ nodes:
       - theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
       - live-theorem-edge.yaml
     role: >-
-      Final Clay target remains blocked until Pack retention, Part survival,
-      and Field failure realization/good-scale noncollapse are proved or
-      replaced by a noncircular Clay-closing argument.
+      Final Clay target remains blocked until Pack retention and Part
+      survival/target-fidelity are proved or replaced by a noncircular
+      Clay-closing argument; the independent Field blocker is resolved as a
+      Part-collapse endpoint.
   generated_surface_drift:
     status: resolved-surface-repair
     source:
