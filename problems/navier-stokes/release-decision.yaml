@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-08T06:16:31Z'
+  evaluated_at: '2026-06-08T06:25:04Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
   disposition: blocked
@@ -35,9 +35,6 @@ blockers:
   Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay obstruction,
   or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
   proof.'
-- 'codex-gap-attack-log:r3-exterior-high-order-tail-closure: Either prove a direct
-  noncircular R3 H^s tail theorem or strengthen dyadic survivor face landing into
-  an accepted whole-space endpoint exclusion.'
 - 'codex-gap-attack-log:contract-readiness-after-manuscript-expansion: After the bridge
   is proved or the conclusion is otherwise closed, rerun the contract check and update
   provenance with the contract result.'
@@ -54,9 +51,9 @@ blockers:
 - Stand-alone status remains `blocked`.
 - Paper quality verdict did not pass; the manuscript still fails architecture, prose,
   or submission-shape checks.
+- 'Navier-Stokes PDF contract blocks export: current material coverage failed: current-material
+  coverage mismatch unclassified current checkable files: theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md'
 - 'Navier-Stokes completion candidate remains: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
-  (papers/navier-stokes/review/codex-gap-attack-log.yaml)'
-- 'Navier-Stokes completion candidate remains: codex-gap-attack-log:r3-exterior-high-order-tail-closure
   (papers/navier-stokes/review/codex-gap-attack-log.yaml)'
 - 'Navier-Stokes completion candidate remains: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
   (papers/navier-stokes/review/codex-gap-attack-log.yaml)'
@@ -68,9 +65,6 @@ blockers:
   Prove that an Exit(Q;O_work) record cannot be the actual finite terminal Clay obstruction,
   or replace the closing argument with a noncircular endpoint compactness/minimal-counterexample
   proof.'
-- 'CM contrapositive referee audit blocks release: codex-gap-attack-log:r3-exterior-high-order-tail-closure:
-  Either prove a direct noncircular R3 H^s tail theorem or strengthen dyadic survivor
-  face landing into an accepted whole-space endpoint exclusion.'
 - 'CM contrapositive referee audit blocks release: codex-gap-attack-log:contract-readiness-after-manuscript-expansion:
   After the bridge is proved or the conclusion is otherwise closed, rerun the contract
   check and update provenance with the contract result.'
