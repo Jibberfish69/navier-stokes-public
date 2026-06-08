@@ -8,6 +8,7 @@ require "digest"
 
 require_relative "../../../system/runner/lib/paper_factory_workspace"
 require_relative "../../../system/runner/lib/mpp_pdf_contract_gate_support"
+require_relative "../../../system/runner/lib/nightly_ns_completion_engine"
 
 ROOT = Pathname.new("/Users/thomasbirnie/Workspace/ToE/Research-Consolidation").freeze
 PROBLEM_ROOT = ROOT.join("problems/navier-stokes").freeze
@@ -118,6 +119,23 @@ def write_yaml(path, object)
   path.write(YAML.dump(object).lines.map { |line| "#{line.rstrip}\n" }.join)
 end
 
+def clay_closing_gap_blockers
+  @clay_closing_gap_blockers ||= begin
+    readiness = PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement.assessment(
+      ROOT,
+      require_current_submission_ready_flags: false,
+      ignore_child_paper_repo_dirty: true
+    )
+    Array(readiness["candidates"]).select { |entry| entry["kind"].to_s == "clay_closing_gap" }.map do |entry|
+      "#{entry['candidate_id']}: #{entry['required_action']}"
+    end
+  end
+end
+
+def clay_closing_gap_open?
+  !clay_closing_gap_blockers.empty?
+end
+
 def relative(path)
   Pathname.new(path).expand_path.relative_path_from(ROOT).to_s
 end
@@ -142,6 +160,8 @@ def cm_referee_audit
 end
 
 def cm_referee_gate_clear?
+  return false if clay_closing_gap_open?
+
   audit = cm_referee_audit
   return true unless audit.is_a?(Hash) && audit.any?
 
@@ -166,7 +186,7 @@ def cm_referee_blockers
 
     messages << [entry["statement"], entry["required_resolution"], entry["burden_id"]].compact.map(&:to_s).find { |value| !value.strip.empty? }
   end
-  messages.compact.map(&:strip).reject(&:empty?).uniq
+  (messages.compact.map(&:strip).reject(&:empty?) + clay_closing_gap_blockers).uniq
 end
 
 def cm_referee_gate_payload
@@ -182,10 +202,47 @@ end
 def cm_referee_blocked_consequence
   {
     "disposition" => "blocked",
-    "next_cell_type" => "solver-loop",
-    "next_stage" => "cm-contrapositive-referee-repair",
-    "next_action" => "Discharge the CM contrapositive referee audit by proving, demoting, or marking the flagged proof burdens as genuine unresolved logical blockers."
+    "next_cell_type" => "proof-frontier",
+    "next_stage" => "clay-closing-bridge-open",
+    "next_action" => "Close the Clay counterexample-exclusion bridge and R3 endpoint blockers before submission promotion."
   }
+end
+
+def sanitize_cm_referee_audit(audit)
+  return audit unless audit.is_a?(Hash)
+  return audit unless clay_closing_gap_open?
+
+  audit["status"] = audit["status"].is_a?(Hash) ? audit["status"] : {}
+  audit["status"]["audit_status"] = "clay-closing-bridge-open"
+  audit["status"]["pass"] = false
+  audit["status"]["release_eligible"] = false
+  audit["status"]["clay_ready"] = false
+  audit["status"]["clay_statement_b_ready"] = false
+  audit["status"]["whole_space_statement_a_ready"] = false
+  audit["classification_summary"] = audit["classification_summary"].is_a?(Hash) ? audit["classification_summary"] : {}
+  audit["classification_summary"]["whole_space_export_certified"] = false
+  audit["classification_summary"]["periodic_clay_statement_b_certified"] = false
+  audit["classification_summary"]["full_whole_space_submission_certified"] = false
+  audit["classification_summary"]["clay_closing_bridge_open"] = true
+  audit["pass"] = false
+  audit["passed"] = false if audit.key?("passed")
+  audit["release_eligible"] = false
+  audit["clay_ready"] = false
+  audit["blockers"] = clay_closing_gap_blockers
+  audit["blocking_findings"] = clay_closing_gap_blockers.map.with_index do |entry, index|
+    {
+      "id" => "clay-closing-gap-#{index + 1}",
+      "summary" => entry
+    }
+  end
+  audit["open_logical_burdens"] = clay_closing_gap_blockers.map.with_index do |entry, index|
+    {
+      "burden_id" => "clay-closing-gap-#{index + 1}",
+      "statement" => entry,
+      "required_resolution" => "Close the Clay counterexample-exclusion bridge before any Clay-ready submission claim."
+    }
+  end
+  audit
 end
 
 def current_release_or_respawn_consequence
@@ -233,8 +290,8 @@ def apply_cm_referee_gate_to_packet!(packet)
   return packet if cm_referee_gate_clear?
 
   packet["posture"] ||= {}
-  packet["posture"]["current_package_status"] = "referee-blocked-cm-contrapositive"
-  packet["posture"]["standalone_status"] = "referee-blocked"
+  packet["posture"]["current_package_status"] = "clay-closing-bridge-open"
+  packet["posture"]["standalone_status"] = "blocked"
   packet["posture"]["release_or_respawn_consequence"] = cm_referee_blocked_consequence
   packet["release_or_respawn_consequence"] = cm_referee_blocked_consequence if packet.key?("release_or_respawn_consequence")
   packet["readiness"] ||= {}
@@ -267,8 +324,9 @@ def apply_cm_referee_gate_to_submission!(verdict)
   verdict["release_or_respawn_consequence"] = cm_referee_blocked_consequence
   verdict["review_alignment"] ||= {}
   verdict["review_alignment"]["release_posture"] = "blocked"
-  verdict["review_alignment"]["standalone_status"] = "referee-blocked"
-  verdict["review_alignment"]["current_package_status"] = "referee-blocked-cm-contrapositive"
+  verdict["review_alignment"]["standalone_status"] = "blocked"
+  verdict["review_alignment"]["completion_tier_achieved"] = "clay-closing-bridge-open"
+  verdict["review_alignment"]["current_package_status"] = "clay-closing-bridge-open"
   verdict["blockers"] = (Array(verdict["blockers"]) + cm_referee_blockers.map { |entry| "CM contrapositive referee audit blocks submission: #{entry}" }).uniq
   verdict["required_before_submission"] = (Array(verdict["required_before_submission"]) + ["Discharge the CM contrapositive referee audit before treating the package as Clay-ready."]).uniq
   target_fidelity = verdict["target_fidelity"]
@@ -292,11 +350,12 @@ def apply_cm_referee_gate_to_review!(review)
 
   review["verdict"] = "block"
   review["release_posture"] = "blocked"
-  review["completion_tier_achieved"] = "theorem-open"
-  review["standalone_status"] = "referee-blocked"
-  review["theorem_packet_status"] = "referee-blocked"
+  review["completion_tier_achieved"] = "clay-closing-bridge-open"
+  review["standalone_status"] = "blocked"
+  review["theorem_packet_status"] = "blocked"
   review["release_or_respawn_consequence"] = cm_referee_blocked_consequence
   review["findings"] = Array(review["findings"]).reject { |finding| cm_referee_readiness_overclaim?(finding) }
+  review["findings"] = (Array(review["findings"]) + cm_referee_blockers).uniq
   review["required_before_terminal_release"] = (Array(review["required_before_terminal_release"]) + cm_referee_blockers).uniq
   target_fidelity = review["target_fidelity"]
   if target_fidelity.is_a?(Hash)
@@ -319,11 +378,11 @@ def apply_cm_referee_gate_to_release!(decision)
   if body.is_a?(Hash)
     body["disposition"] = "blocked"
     body["release_posture"] = "blocked"
-    body["completion_tier_achieved"] = "theorem-open"
-    body["next_cell_type"] = "solver-loop"
-    body["next_stage"] = "cm-contrapositive-referee-blocked"
-    body["next_action"] = "Discharge the CM contrapositive referee audit before treating this package as Clay-ready."
-    body["rationale"] = "A direct referee audit found unearned CM-contrapositive proof mass, so generated readiness surfaces cannot promote this package."
+    body["completion_tier_achieved"] = "clay-closing-bridge-open"
+    body["next_cell_type"] = cm_referee_blocked_consequence.fetch("next_cell_type")
+    body["next_stage"] = cm_referee_blocked_consequence.fetch("next_stage")
+    body["next_action"] = cm_referee_blocked_consequence.fetch("next_action")
+    body["rationale"] = "Active Clay-closing proof blockers prevent submission promotion."
   end
   decision["release_or_respawn_consequence"] = cm_referee_blocked_consequence
   decision["blockers"] = (Array(decision["blockers"]).reject { |blocker| cm_referee_readiness_overclaim?(blocker) } + cm_referee_blockers).uniq
