@@ -255,6 +255,12 @@ render_status = export_status.dig("pdf_render_status", "status").to_s
 unless render_status == "rendered"
   errors << "submission export status lacks separate rendered pdf_render_status"
 end
+readiness_evidence_pdf_render_status = export_status.dig("readiness_evidence", "pdf_render_status")
+unless readiness_evidence_pdf_render_status.is_a?(Hash) &&
+       readiness_evidence_pdf_render_status["status"] == "rendered" &&
+       readiness_evidence_pdf_render_status == export_status["pdf_render_status"]
+  errors << "submission export status has stale or missing nested readiness evidence pdf_render_status"
+end
 completion_readiness = export_status.dig("readiness_evidence", "completion_readiness")
 unless completion_readiness.is_a?(Hash)
   errors << "submission export status lacks completion readiness evidence"
