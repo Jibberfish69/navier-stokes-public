@@ -65,6 +65,11 @@ FORBIDDEN_CODEX_DOSSIER_TEXT = {
   "dossier-scale source-field closure" => /The source field is long because the proof program is long/i
 }.freeze
 
+ORPHANED_BUNDLE_SUPPLEMENTS = %w[
+  sections/authoritative-authoring-surface.tex
+  sections/authoritative-theorem-packet.tex
+].freeze
+
 HISTORICAL_APPENDIX_REWRITES = {
   "Same-ledger extraction and Field landing still open &" =>
     "Same-ledger extraction and Field landing was recorded as historical pressure before the current CM finite-obstruction inventory gate passed &",
@@ -250,6 +255,24 @@ def sanitize_historical_appendix_language!
       text.gsub(stale, replacement)
     end
     path.write(sanitized) unless sanitized == original
+  end
+end
+
+def prune_orphaned_bundle_supplements!
+  manifest = load_yaml(BUNDLE_ROOT.join("submission-manifest.yaml"))
+  listed_paths = Array(manifest["authoritative_supplements"]).filter_map do |entry|
+    path = entry.to_h["bundle_path"].to_s
+    path.empty? ? nil : BUNDLE_ROOT.join(path).expand_path.to_s
+  end
+  tex = MAIN_TEX.file? ? MAIN_TEX.read : ""
+
+  ORPHANED_BUNDLE_SUPPLEMENTS.each do |relative_path|
+    path = BUNDLE_ROOT.join(relative_path)
+    next unless path.file?
+    next if listed_paths.include?(path.expand_path.to_s)
+    next if tex.include?(relative_path)
+
+    path.delete
   end
 end
 
@@ -517,6 +540,7 @@ begin
     run_command!(commands, "surface derivation appendix rebuild", RbConfig.ruby, "problems/navier-stokes/tools/build_surface_derivation_appendix.rb")
     run_command!(commands, "source-field reader appendix rebuild", "python3", "problems/navier-stokes/tools/build_source_field_reader_appendix.py")
     sanitize_historical_appendix_language!
+    prune_orphaned_bundle_supplements!
     export_result = {
       "human_app_aligned" => export_human_submission_pdf,
       "codex_machine_paper" => export_codex_paper_pdf
