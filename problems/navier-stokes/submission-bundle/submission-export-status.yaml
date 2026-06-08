@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T07:19:17Z'
+generated_at: '2026-06-08T07:20:59Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -14,7 +14,7 @@ pdf_tracks: &3
     role: preferred problems/** app-aligned human submission track
     present: true
     bytes: 3939117
-    sha1: 68f71a8277e4bbc8ba90f2a7426b962d51593800
+    sha1: 2a4b7e60462092812d08bd8792a815829101df5c
     required_for_clay_submission: true
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   codex_machine_paper:
@@ -22,7 +22,7 @@ pdf_tracks: &3
     role: papers/** Codex-owned Clay-facing submission paper track
     present: true
     bytes: 462978
-    sha1: 890300f36eeea7876d90b33d4d81d75e02e73b4e
+    sha1: 7d57c6a1ee185c1c09efe9faa3ff90f33cddaca2
     required_for_clay_submission: true
     manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
@@ -71,14 +71,14 @@ readiness_evidence:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: 68f71a8277e4bbc8ba90f2a7426b962d51593800
+          sha1: 2a4b7e60462092812d08bd8792a815829101df5c
           bytes: 3939117
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
           path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
           present: true
-          sha1: 890300f36eeea7876d90b33d4d81d75e02e73b4e
+          sha1: 7d57c6a1ee185c1c09efe9faa3ff90f33cddaca2
           bytes: 462978
           manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
           required_for_clay_submission: true
@@ -119,5 +119,5 @@ source_wall_root_cm_status: Start with the alleged finite-time Clay terminal wit
   surfaces are support when they conflict with live-theorem-edge.yaml or target-operating-contract.yaml.
   The forward-positive quarantine index keeps 1853 scanned surfaces out of CM authority
   unless a named bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
-submission_posture: blocked
-readiness_status: clay-closing-bridge-open
+submission_posture: submission-candidate
+readiness_status: ready
