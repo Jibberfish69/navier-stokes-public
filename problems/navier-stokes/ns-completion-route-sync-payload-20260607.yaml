@@ -511,73 +511,43 @@ integration_chain:
 
 '
 open_blockers:
-- blocker_id: route-state:queue_state
-  blocker: Refresh live route-state from the current proof, app, and submission posture.
-  refs: &25
-  - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-  mirror_of_completion_candidate: true
-- blocker_id: route-current:status
-  blocker: Refresh live route-state from the current proof, app, and submission posture.
-  refs: &26
-  - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-  mirror_of_completion_candidate: true
 - blocker_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
   blocker: Prove that an Exit(Q;O_work) record cannot be the actual finite terminal
     Clay obstruction, or replace the closing argument with a noncircular endpoint
     compactness/minimal-counterexample proof.
-  refs: &27
+  refs: &25
   - papers/navier-stokes/review/codex-gap-attack-log.yaml
   mirror_of_completion_candidate: true
 - blocker_id: codex-gap-attack-log:r3-exterior-high-order-tail-closure
   blocker: Either prove a direct noncircular R3 H^s tail theorem or strengthen dyadic
     survivor face landing into an accepted whole-space endpoint exclusion.
-  refs: &28
+  refs: &26
   - papers/navier-stokes/review/codex-gap-attack-log.yaml
   mirror_of_completion_candidate: true
 - blocker_id: codex-gap-attack-log:terminal-record-entry-referee-hardening
   blocker: Tighten the entry theorem so the Clay negation itself, stated in standard
     PDE language, supplies the same-solution record without relying on internal CM
     terminology.
-  refs: &29
+  refs: &27
   - papers/navier-stokes/review/codex-gap-attack-log.yaml
   mirror_of_completion_candidate: true
 - blocker_id: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
   blocker: After the bridge is proved or the conclusion is otherwise closed, rerun
     the contract check and update provenance with the contract result.
-  refs: &30
+  refs: &28
   - papers/navier-stokes/review/codex-gap-attack-log.yaml
   mirror_of_completion_candidate: true
 - blocker_id: codex-pdf-provenance:clay-readiness-not-claimed
   blocker: Replace the conditional provenance with a proved Clay-closing bridge before
     submission readiness.
-  refs: &31
+  refs: &29
   - papers/navier-stokes/review/authoritative-pdf-provenance-2026-06-07.md
   mirror_of_completion_candidate: true
 - blocker_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
   blocker: Prove the Clay-closing bridge or replace the closing argument with a noncircular
     finite-breakdown exclusion.
-  refs: &32
+  refs: &30
   - problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
-  mirror_of_completion_candidate: true
-- blocker_id: stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-  blocker: Refresh stale route/submission sync references before readiness.
-  refs: &33
-  - problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-  mirror_of_completion_candidate: true
-- blocker_id: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-  blocker: Refresh stale route/submission sync references before readiness.
-  refs: &34
-  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-  mirror_of_completion_candidate: true
-- blocker_id: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
-  blocker: Refresh stale route/submission sync references before readiness.
-  refs: &35
-  - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
-  mirror_of_completion_candidate: true
-- blocker_id: stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
-  blocker: Refresh stale route/submission sync references before readiness.
-  refs: &36
-  - problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
   mirror_of_completion_candidate: true
 branch_rows:
 - row_id: graph:cm_convergence_atlas
@@ -895,24 +865,6 @@ branch_rows:
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mcp_visibility_status: visible-in-route-state
-- row_id: blocker:route-state:queue_state
-  row_kind: open_blocker
-  label: route-state:queue_state
-  state: blocked
-  next_burden: Refresh live route-state from the current proof, app, and submission
-    posture.
-  evidence_refs: *25
-  mirror_of_completion_candidate: true
-  mcp_visibility_status: visible-in-route-state
-- row_id: blocker:route-current:status
-  row_kind: open_blocker
-  label: route-current:status
-  state: blocked
-  next_burden: Refresh live route-state from the current proof, app, and submission
-    posture.
-  evidence_refs: *26
-  mirror_of_completion_candidate: true
-  mcp_visibility_status: visible-in-route-state
 - row_id: blocker:codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
   row_kind: open_blocker
   label: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
@@ -920,7 +872,7 @@ branch_rows:
   next_burden: Prove that an Exit(Q;O_work) record cannot be the actual finite terminal
     Clay obstruction, or replace the closing argument with a noncircular endpoint
     compactness/minimal-counterexample proof.
-  evidence_refs: *27
+  evidence_refs: *25
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
 - row_id: blocker:codex-gap-attack-log:r3-exterior-high-order-tail-closure
@@ -929,7 +881,7 @@ branch_rows:
   state: blocked
   next_burden: Either prove a direct noncircular R3 H^s tail theorem or strengthen
     dyadic survivor face landing into an accepted whole-space endpoint exclusion.
-  evidence_refs: *28
+  evidence_refs: *26
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
 - row_id: blocker:codex-gap-attack-log:terminal-record-entry-referee-hardening
@@ -939,7 +891,7 @@ branch_rows:
   next_burden: Tighten the entry theorem so the Clay negation itself, stated in standard
     PDE language, supplies the same-solution record without relying on internal CM
     terminology.
-  evidence_refs: *29
+  evidence_refs: *27
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
 - row_id: blocker:codex-gap-attack-log:contract-readiness-after-manuscript-expansion
@@ -948,7 +900,7 @@ branch_rows:
   state: blocked
   next_burden: After the bridge is proved or the conclusion is otherwise closed, rerun
     the contract check and update provenance with the contract result.
-  evidence_refs: *30
+  evidence_refs: *28
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
 - row_id: blocker:codex-pdf-provenance:clay-readiness-not-claimed
@@ -957,7 +909,7 @@ branch_rows:
   state: blocked
   next_burden: Replace the conditional provenance with a proved Clay-closing bridge
     before submission readiness.
-  evidence_refs: *31
+  evidence_refs: *29
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
 - row_id: blocker:clay-counterexample-gap-audit:finite-breakdown-exclusion-open
@@ -966,53 +918,18 @@ branch_rows:
   state: blocked
   next_burden: Prove the Clay-closing bridge or replace the closing argument with
     a noncircular finite-breakdown exclusion.
-  evidence_refs: *32
-  mirror_of_completion_candidate: true
-  mcp_visibility_status: visible-in-route-state
-- row_id: blocker:stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-  row_kind: open_blocker
-  label: stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
-  state: blocked
-  next_burden: Refresh stale route/submission sync references before readiness.
-  evidence_refs: *33
-  mirror_of_completion_candidate: true
-  mcp_visibility_status: visible-in-route-state
-- row_id: blocker:stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-  row_kind: open_blocker
-  label: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
-  state: blocked
-  next_burden: Refresh stale route/submission sync references before readiness.
-  evidence_refs: *34
-  mirror_of_completion_candidate: true
-  mcp_visibility_status: visible-in-route-state
-- row_id: blocker:stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
-  row_kind: open_blocker
-  label: stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml
-  state: blocked
-  next_burden: Refresh stale route/submission sync references before readiness.
-  evidence_refs: *35
-  mirror_of_completion_candidate: true
-  mcp_visibility_status: visible-in-route-state
-- row_id: blocker:stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
-  row_kind: open_blocker
-  label: stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
-  state: blocked
-  next_burden: Refresh stale route/submission sync references before readiness.
-  evidence_refs: *36
+  evidence_refs: *30
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
 sync_verdict:
   graph_nodes_count: 24
   graph_edges_count: 31
   d8_integration_rows_count: 5
-  open_blockers_count: 12
+  open_blockers_count: 6
   mcp_route_state_updated: true
   status: changed-open
   remaining_gap: 'Open proof/app/submission blockers remain visible in the route payload
-    and MCP route-state: route-state:queue_state, route-current:status, codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
+    and MCP route-state: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
     codex-gap-attack-log:r3-exterior-high-order-tail-closure, codex-gap-attack-log:terminal-record-entry-referee-hardening,
     codex-gap-attack-log:contract-readiness-after-manuscript-expansion, codex-pdf-provenance:clay-readiness-not-claimed,
-    clay-counterexample-gap-audit:finite-breakdown-exclusion-open, stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml,
-    stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml,
-    stale-ref:problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607.yaml,
-    stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml.'
+    clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
