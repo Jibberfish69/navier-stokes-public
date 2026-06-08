@@ -1,20 +1,20 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T01:51:57Z'
+generated_at: '2026-06-08T02:02:10Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
 preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
 pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-pdf_tracks: &12
+pdf_tracks: &15
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     role: preferred problems/** app-aligned human submission track
     present: true
-    bytes: 3923136
-    sha1: 6c682d39f9a8e37aa63485c2d67c27abc157f98d
+    bytes: 3924977
+    sha1: 362a7fbdb51aca65d909b37733e6b162b1ebbf7e
     required_for_clay_submission: true
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   codex_machine_paper:
@@ -22,7 +22,7 @@ pdf_tracks: &12
     role: papers/** Codex-owned Clay-facing submission paper track
     present: true
     bytes: 462148
-    sha1: 73dc962be78448be2a106da31272001c744fb1f4
+    sha1: b48e72faf284a9454b8a6ca957b093d5d7ccb2e9
     required_for_clay_submission: true
     manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
@@ -36,18 +36,17 @@ authoritative_content_included: true
 authoritative_supplements: []
 codex_machine_manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 submission_ready: false
-readiness_blocker: 'Completion readiness still has 28 candidate(s): route-node:clay_cm_contrapositive_witness_consumption,
-  route-node:clay_target, integration:graph_topology_source, integration:app_worker_surface,
-  integration:repo_proof_authority, integration:manuscript_scaffold.'
+readiness_blocker: 'Completion readiness still has 31 candidate(s): route-node:clay_cm_contrapositive_witness_consumption,
+  route-node:clay_target, graph:clay_cm_contrapositive_witness_consumption, graph:clay_target,
+  integration:graph_topology_source, integration:app_worker_surface.'
 manuscript_tex_sha1: 5330c44d0caee015ad0a4f817b3b7d35ed52e3b2
 completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260607-iteration-2.yaml
 readiness_evidence:
   source_frontier_clear: false
   open_d8_proof_blockers: 3
   completion_candidate_count: 28
-  completion_candidates: &1
-  - &2
-    candidate_id: route-node:clay_cm_contrapositive_witness_consumption
+  completion_candidates:
+  - candidate_id: route-node:clay_cm_contrapositive_witness_consumption
     kind: route_graph
     surface: problems/navier-stokes/current-route-dependency-graph.yaml
     evidence: state=classification-installed-clay-bridge-blocked
@@ -56,67 +55,58 @@ readiness_evidence:
       is recorded, and that face failure supports Exit(Q):=not Member(Q). The submission-grade
       contradiction still requires the open Pack, Part, and Field face-exclusion/realization
       theorems.'
-  - &3
-    candidate_id: route-node:clay_target
+  - candidate_id: route-node:clay_target
     kind: route_graph
     surface: problems/navier-stokes/current-route-dependency-graph.yaml
     evidence: state=target-proof-blocked
     required_action: Final Clay target remains blocked until Pack retention, Part
       survival, and Field failure realization/good-scale noncollapse are proved or
       replaced by a noncircular Clay-closing argument.
-  - &4
-    candidate_id: integration:graph_topology_source
+  - candidate_id: integration:graph_topology_source
     kind: route_state
     surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
     evidence: state=logical-tree-needs-face-blocker-sync
     required_action: The exported logical tree must expose the Pack, Part, and Field
       face-exclusion blockers found by the June 7 proof passes.
-  - &5
-    candidate_id: integration:app_worker_surface
+  - candidate_id: integration:app_worker_surface
     kind: route_state
     surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
     evidence: state=route-state-exported-with-open-face-blockers
     required_action: The Route State view must show SameSolutionTerminalPackRetention.A,
       RetainedPackOriginalAncestryPartSurvival.A, and ClayFieldFaceExclusion.A as
       open.
-  - &6
-    candidate_id: integration:repo_proof_authority
+  - candidate_id: integration:repo_proof_authority
     kind: route_state
     surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
     evidence: state=cm-classification-installed-clay-bridge-blocked
     required_action: 'The next proof work is exact: prove Pack retention, Part survival,
       and Field failure realization/good-scale noncollapse, or replace the Clay-closing
       argument with a noncircular proof.'
-  - &7
-    candidate_id: integration:manuscript_scaffold
+  - candidate_id: integration:manuscript_scaffold
     kind: route_state
     surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
     evidence: state=dual-pdf-rendered-proof-conditional
     required_action: Keep the machine paper conditional and the human/app dossier
       non-submission-ready until the three face-exclusion blockers close.
-  - &8
-    candidate_id: integration:submission_package
+  - candidate_id: integration:submission_package
     kind: route_state
     surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
     evidence: state=proof-blocked-not-clay-ready
     required_action: Submission readiness remains false while the source frontier
       reports open Pack, Part, and Field face-exclusion obligations.
-  - &9
-    candidate_id: same-solution-terminal-pack-retention
+  - candidate_id: same-solution-terminal-pack-retention
     kind: d8_open_blocker
     surface: problems/navier-stokes/d8-completion-route-map.yaml
     evidence: open_blocker
     required_action: SameSolutionTerminalPackRetention.A / noncircular Pack-retention
       mechanism or Pack-failure target-fidelity bridge
-  - &10
-    candidate_id: retained-pack-original-ancestry-part-survival
+  - candidate_id: retained-pack-original-ancestry-part-survival
     kind: d8_open_blocker
     surface: problems/navier-stokes/d8-completion-route-map.yaml
     evidence: open_blocker
     required_action: RetainedPackOriginalAncestryPartSurvival.A / terminal no-defect
       participation or Part-failure target-fidelity bridge
-  - &11
-    candidate_id: clay-field-face-exclusion
+  - candidate_id: clay-field-face-exclusion
     kind: d8_open_blocker
     surface: problems/navier-stokes/d8-completion-route-map.yaml
     evidence: open_blocker
@@ -252,37 +242,283 @@ readiness_evidence:
   completion_readiness:
     status: blocked
     submission_ready: false
-    candidate_count: 28
-    candidates: *1
+    candidate_count: 31
+    candidates:
+    - &1
+      candidate_id: route-node:clay_cm_contrapositive_witness_consumption
+      kind: route_graph
+      surface: problems/navier-stokes/current-route-dependency-graph.yaml
+      evidence: state=classification-installed-clay-bridge-blocked
+      required_action: 'Direct Clay-facing classification route: a finite terminal
+        witness enters the same-fluid CM packet tree, the first failing Pack/Part/Field
+        face is recorded, and that face failure supports Exit(Q):=not Member(Q). The
+        submission-grade contradiction still requires the open Pack retention and
+        Part survival/target-fidelity theorems; the Field row has been collapsed into
+        Part by ClayFieldFailureRealization.A plus TerminalFieldJumpPartCollapse.A.'
+    - &2
+      candidate_id: route-node:clay_target
+      kind: route_graph
+      surface: problems/navier-stokes/current-route-dependency-graph.yaml
+      evidence: state=target-proof-blocked
+      required_action: Final Clay target remains blocked until Pack retention and
+        Part survival/target-fidelity are proved or replaced by a noncircular Clay-closing
+        argument; the independent Field blocker is resolved as a Part-collapse endpoint.
+    - &3
+      candidate_id: graph:clay_cm_contrapositive_witness_consumption
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=classification-installed-clay-bridge-blocked
+      required_action: 'Direct Clay-facing classification route: a finite terminal
+        witness enters the same-fluid CM packet tree, the first failing Pack/Part/Field
+        face is recorded, and that face failure supports Exit(Q):=not Member(Q). The
+        submission-grade contradiction still requires the open Pack retention and
+        Part survival/target-fidelity theorems; the Field row has been collapsed into
+        Part by ClayFieldFailureRealization.A plus TerminalFieldJumpPartCollapse.A.'
+    - &4
+      candidate_id: graph:clay_target
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=target-proof-blocked
+      required_action: Final Clay target remains blocked until Pack retention and
+        Part survival/target-fidelity are proved or replaced by a noncircular Clay-closing
+        argument; the independent Field blocker is resolved as a Part-collapse endpoint.
+    - &5
+      candidate_id: integration:graph_topology_source
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=logical-tree-needs-face-blocker-sync
+      required_action: The exported logical tree previously reported 0 open leaves;
+        the June 7 face-exclusion passes reopened Pack and Part theorem blockers,
+        while the Field blocker is now collapsed into Part by ClayFieldFailureRealization.A
+        plus TerminalFieldJumpPartCollapse.A.
+    - &6
+      candidate_id: integration:app_worker_surface
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=route-state-exported-with-open-face-blockers
+      required_action: The viewer route truth must expose the open Pack and Part face-exclusion
+        blockers, and show the Field row as resolved into the Part blocker instead
+        of reporting a separate Field open item.
+    - &7
+      candidate_id: integration:repo_proof_authority
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=cm-classification-installed-clay-bridge-blocked
+      required_action: 'The CM terminal-witness classification is installed, but the
+        Clay-ready contradiction is not. The Pack pass failed at SameSolutionTerminalPackRetention.A,
+        with TerminalCollarStrainIntegrability.A demoted to a continuation-strength
+        sufficient condition unless a weaker Pack mechanism is supplied; the Part
+        pass failed at RetainedPackOriginalAncestryPartSurvival.A, now sharpened to
+        terminal no-defect participation on the retained Pack carrier or a Part-failure
+        target-fidelity bridge. The Field branch is no longer an independent open
+        row: ClayFieldFailureRealization.A is installed for retained Pack plus terminal
+        Part, and TerminalFieldJumpPartCollapse.A sends the realized Field/Jump endpoint
+        back to not Part.'
+    - &8
+      candidate_id: integration:manuscript_scaffold
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=dual-pdf-rendered-proof-conditional
+      required_action: Both PDF tracks render, but the papers/** machine paper now
+        correctly records the Clay-closing bridge as conditional. The problems/**
+        human/app track remains the long app-aligned dossier and must not be treated
+        as submission-ready while the face-exclusion blockers are open.
+    - &9
+      candidate_id: integration:submission_package
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=proof-blocked-not-clay-ready
+      required_action: The current source frontier reports two unresolved live theorem
+        obligations. Both required PDF tracks may be rendered, but Clay-ready submission
+        remains false until those blockers close.
+    - &10
+      candidate_id: blocker:same-solution-terminal-pack-retention
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: SameSolutionTerminalPackRetention.A / noncircular Pack-retention
+        mechanism or Pack-failure target-fidelity bridge
+    - &11
+      candidate_id: blocker:retained-pack-original-ancestry-part-survival
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: state=blocked
+      required_action: RetainedPackOriginalAncestryPartSurvival.A / terminal no-defect
+        participation or Part-failure target-fidelity bridge
+    - &12
+      candidate_id: same-solution-terminal-pack-retention
+      kind: d8_open_blocker
+      surface: problems/navier-stokes/d8-completion-route-map.yaml
+      evidence: open_blocker
+      required_action: SameSolutionTerminalPackRetention.A / noncircular Pack-retention
+        mechanism or Pack-failure target-fidelity bridge
+    - &13
+      candidate_id: retained-pack-original-ancestry-part-survival
+      kind: d8_open_blocker
+      surface: problems/navier-stokes/d8-completion-route-map.yaml
+      evidence: open_blocker
+      required_action: RetainedPackOriginalAncestryPartSurvival.A / terminal no-defect
+        participation or Part-failure target-fidelity bridge
+    - &14
+      candidate_id: papers-navier-stokes-child-repo-dirty
+      kind: child_paper_repo
+      surface: papers/navier-stokes
+      evidence: M build/output/authoritative-edge/navier-stokes.pdf
+      required_action: The Codex-owned papers/** PDF track has uncommitted TeX/PDF
+        state outside the root repo.
+    - candidate_id: source-frontier:primary_math_obligation
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: nonempty primary_math_obligation
+      required_action: Clear or demote the source-frontier primary_math_obligation
+        before submission readiness.
+    - candidate_id: source-frontier:first_unresolved_obligation
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: nonempty first_unresolved_obligation
+      required_action: Clear or demote the source-frontier first_unresolved_obligation
+        before submission readiness.
+    - candidate_id: source-frontier:unresolved_obligations
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: nonempty unresolved_obligations
+      required_action: Clear or demote the source-frontier unresolved_obligations
+        before submission readiness.
+    - candidate_id: source-frontier:active_frontier_labels
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: nonempty active_frontier_labels
+      required_action: Clear or demote the source-frontier active_frontier_labels
+        before submission readiness.
+    - candidate_id: source-frontier:live-edge-blocked-count
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: live_theorem_edge_blocked_count=2
+      required_action: Resolve live theorem edge blockers.
+    - candidate_id: live-theorem-edge:clay_closure_status
+      kind: source_frontier
+      surface: problems/navier-stokes/live-theorem-edge.yaml
+      evidence: status=blocked-open-face-exclusion-theorems
+      required_action: CM terminal-witness classification is installed, but Clay closure
+        is blocked by open Pack and Part face-exclusion theorems; the Field row is
+        collapsed into Part.
+    - candidate_id: same-solution-terminal-pack-retention
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: SameSolutionTerminalPackRetention.A / noncircular Pack-retention
+        mechanism or Pack-failure target-fidelity bridge
+    - candidate_id: retained-pack-original-ancestry-part-survival
+      kind: route_state
+      surface: system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+      evidence: open_blocker
+      required_action: RetainedPackOriginalAncestryPartSurvival.A / terminal no-defect
+        participation or Part-failure target-fidelity bridge
+    - candidate_id: graph_topology_source
+      kind: d8_route_state
+      surface: problems/navier-stokes/d8-completion-route-map.yaml
+      evidence: current_state=logical-tree-needs-face-blocker-sync
+      required_action: The exported logical tree previously reported 0 open leaves;
+        the June 7 face-exclusion passes reopened Pack and Part theorem blockers,
+        while the Field blocker is now collapsed into Part by ClayFieldFailureRealization.A
+        plus TerminalFieldJumpPartCollapse.A.
+    - candidate_id: app_worker_surface
+      kind: d8_route_state
+      surface: problems/navier-stokes/d8-completion-route-map.yaml
+      evidence: current_state=route-state-exported-with-open-face-blockers
+      required_action: The viewer route truth must expose the open Pack and Part face-exclusion
+        blockers, and show the Field row as resolved into the Part blocker instead
+        of reporting a separate Field open item.
+    - candidate_id: repo_proof_authority
+      kind: d8_route_state
+      surface: problems/navier-stokes/d8-completion-route-map.yaml
+      evidence: current_state=cm-classification-installed-clay-bridge-blocked
+      required_action: 'The CM terminal-witness classification is installed, but the
+        Clay-ready contradiction is not. The Pack pass failed at SameSolutionTerminalPackRetention.A,
+        with TerminalCollarStrainIntegrability.A demoted to a continuation-strength
+        sufficient condition unless a weaker Pack mechanism is supplied; the Part
+        pass failed at RetainedPackOriginalAncestryPartSurvival.A, now sharpened to
+        terminal no-defect participation on the retained Pack carrier or a Part-failure
+        target-fidelity bridge. The Field branch is no longer an independent open
+        row: ClayFieldFailureRealization.A is installed for retained Pack plus terminal
+        Part, and TerminalFieldJumpPartCollapse.A sends the realized Field/Jump endpoint
+        back to not Part.'
+    - candidate_id: manuscript_scaffold
+      kind: d8_route_state
+      surface: problems/navier-stokes/d8-completion-route-map.yaml
+      evidence: current_state=dual-pdf-rendered-proof-conditional
+      required_action: Both PDF tracks render, but the papers/** machine paper now
+        correctly records the Clay-closing bridge as conditional. The problems/**
+        human/app track remains the long app-aligned dossier and must not be treated
+        as submission-ready while the face-exclusion blockers are open.
+    - candidate_id: submission_package
+      kind: d8_route_state
+      surface: problems/navier-stokes/d8-completion-route-map.yaml
+      evidence: current_state=proof-blocked-not-clay-ready
+      required_action: The current source frontier reports two unresolved live theorem
+        obligations. Both required PDF tracks may be rendered, but Clay-ready submission
+        remains false until those blockers close.
+    - candidate_id: current-material:caveat:june_2026_active_cm_completion_notes
+      kind: current_material
+      surface: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
+      evidence: June 2026 theorem notes are represented as active CM completion-frontier
+        material. They sharpen Clay counterexample exclusion, Pack_Q reader certification,
+        retained pressure/finite-energy obstruction placement, averaged Jump_avg and
+        receive
+      required_action: Resolve the current-material caveat or keep submission readiness
+        blocked.
+    - candidate_id: current-material:caveat:d8_route_app_graph_pdf_sync_surfaces
+      kind: current_material
+      surface: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
+      evidence: D8 route maps and executor sync payloads are represented as app/graph/PDF
+        coordination material. They describe how the completion engine routes repo,
+        node-graph, app, MCP, proof, and manuscript surfaces into work lanes; they
+        are not theorem
+      required_action: Resolve the current-material caveat or keep submission readiness
+        blocked.
+    - candidate_id: current-material:caveat:dual_pdf_submission_sync_surfaces
+      kind: current_material
+      surface: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
+      evidence: Submission executor scaffolds, boundary records, and submission-sync
+        ledgers are represented as dual-PDF readiness and provenance material. They
+        keep the preferred human/app-aligned PDF and the Codex-structured papers PDF
+        synchronized as tw
+      required_action: Resolve the current-material caveat or keep submission readiness
+        blocked.
+    - candidate_id: stale-ref:problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+      kind: stale_readiness_ref
+      surface: problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+      evidence: status=changed/changed-open
+      required_action: Refresh stale route/submission sync references before readiness.
     checks:
-      route_candidates: 7
-      d8_candidates: 3
+      route_candidates: 11
+      d8_candidates: 2
       live_edge_candidates: 0
       verdict_conflicts: 0
-      child_paper_repo_candidates: 0
+      child_paper_repo_candidates: 1
       manuscript_unresolved_candidates: 0
       source_frontier_candidates: 6
-      route_state_agreement_candidates: 15
-      submission_verdict_agreement_candidates: 1
+      route_state_agreement_candidates: 18
+      submission_verdict_agreement_candidates: 0
       pdf_track_candidates: 0
       current_material_candidates: 3
-      stale_readiness_ref_candidates: 0
+      stale_readiness_ref_candidates: 1
     pdf_tracks_rendered: true
-    pdf_render_status: &13
+    pdf_render_status: &16
       status: rendered
       rendered: true
       tracks:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: 6c682d39f9a8e37aa63485c2d67c27abc157f98d
-          bytes: 3923136
+          sha1: 362a7fbdb51aca65d909b37733e6b162b1ebbf7e
+          bytes: 3924977
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
           path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
           present: true
-          sha1: 73dc962be78448be2a106da31272001c744fb1f4
+          sha1: b48e72faf284a9454b8a6ca957b093d5d7ccb2e9
           bytes: 462148
           manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
           required_for_clay_submission: true
@@ -290,8 +526,9 @@ readiness_evidence:
     base_completion_readiness:
       status: blocked
       submission_ready: false
-      candidate_count: 10
+      candidate_count: 14
       candidates:
+      - *1
       - *2
       - *3
       - *4
@@ -302,19 +539,40 @@ readiness_evidence:
       - *9
       - *10
       - *11
+      - *12
+      - *13
+      - *14
       checks:
-        route_candidates: 7
-        d8_candidates: 3
+        route_candidates: 11
+        d8_candidates: 2
         live_edge_candidates: 0
         verdict_conflicts: 0
-        child_paper_repo_candidates: 0
+        child_paper_repo_candidates: 1
         manuscript_unresolved_candidates: 0
   pdf_tracks_present: true
-  pdf_tracks: *12
+  pdf_tracks: *15
   pdf_tracks_rendered: true
-  pdf_render_status: *13
+  pdf_render_status:
+    status: rendered
+    rendered: true
+    tracks:
+      human_app_aligned:
+        path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+        present: true
+        sha1: 6c682d39f9a8e37aa63485c2d67c27abc157f98d
+        bytes: 3923136
+        manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+        required_for_clay_submission: true
+      codex_machine_paper:
+        path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+        present: true
+        sha1: 73dc962be78448be2a106da31272001c744fb1f4
+        bytes: 462148
+        manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
+        required_for_clay_submission: true
+    preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
 readiness_note: PDF rendering is tracked separately from submission readiness; both
   required Navier-Stokes PDF tracks can be rendered while proof/manuscript/app agreement
   remains blocked.
 pdf_tracks_rendered: true
-pdf_render_status: *13
+pdf_render_status: *16
