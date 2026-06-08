@@ -4,22 +4,20 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-06-08T03:11:19Z'
+  evaluated_at: '2026-06-08T03:13:14Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
-  disposition: respawn
-  release_posture: revise-loop
+  disposition: submission-candidate
+  release_posture: export-ready
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: paper-complete-theorem-open
-  next_cell_type: debt-extract
-  next_stage: theorem-upgrade-requested
-  next_action: 'Reopen the current checkpoint package toward `full-mpp-closure` and
-    localize the remaining theorem delta beginning with: The theorem packet localizes
-    definitions, lemma surfaces, theorem statement, and proof dependencies strongly
-    enough to support export-facing review. Start with `debt-extract` so the reopened
-    lane is typed again before the next review cycle.'
-  rationale: Honesty review did not clear the package for release, so work returns
-    upstream on the typed respawn target.
+  completion_tier_achieved: full-mpp-closure
+  next_cell_type:
+  next_stage: submission-candidate
+  next_action: Hold the package as a submission candidate for a full-MPP closure paper
+    until internal export or submission handling is scheduled.
+  rationale: Honesty review returned a full-MPP closure completion tier, the live
+    theorem-authority gate is fully discharged, and the submission verdict cleared
+    the manuscript as a submission candidate.
 artifacts:
   draft:
   draft_v6: problems/navier-stokes/draft-v6.md
@@ -33,27 +31,8 @@ artifacts:
   typeset_audit: problems/navier-stokes/submission-bundle/typeset-audit.yaml
   review_log: problems/navier-stokes/review-log.md
   review_verdict: problems/navier-stokes/review-verdict.yaml
-blockers:
-- The theorem packet localizes definitions, lemma surfaces, theorem statement, and
-  proof dependencies strongly enough to support export-facing review.
-- The local package is stable enough to review, and `draft-v8.md` now carries real
-  prose, but it is still a revise-stage draft rather than an export-ready paper.
-- The `draft-v7.md` surface is now a prose artifact, so this pass can review a real
-  package rather than only planning notes.
-- The formalization ledger still marks stand-alone export as `revise`, which blocks
-  full-MPP closure until the remaining scope boundary is rewritten or discharged.
-- 'This matches the previous review posture: the route is viable locally, but stand-alone
-  export is still premature.'
-- The promotion rule in the formalization ledger still keeps this package below stand-alone
-  acceptance.
-- An active theorem-upgrade track is keeping this package above lowest-safe-claim
-  release until the remaining theorem delta is localized into a full-MPP closure surface.
-- The current package is coherent enough to stand as a real paper, but the remaining
-  barrier is still an unresolved theorem burden rather than a manuscript defect.
-- 'Completion tier is `paper-complete-theorem-open`: the manuscript/export stack is
-  paper-complete, but unresolved theorem burdens still block terminal submission.'
-- Honesty review verdict is still `revise`.
-- Stand-alone status remains `revise`.
+blockers: []
 summary:
-  queue_effect: ready
-  registry_note: problem is re-queued on the upstream stage named by the review verdict
+  queue_effect: submission-candidate
+  registry_note: problem is terminal until internal export or submission handling
+    is scheduled
