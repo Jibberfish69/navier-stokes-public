@@ -485,8 +485,8 @@ integration_chain:
   job: Keep the governing proof program as Exit(Q):=not Member(Q) through Pack/Part/Field.
   current_gap: 'Direct proof authority is blocked by active Clay-closing proof gaps:
     codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
-    codex-gap-attack-log:r3-exterior-high-order-tail-closure, codex-gap-attack-log:contract-readiness-after-manuscript-expansion,
-    codex-pdf-provenance:clay-readiness-not-claimed, clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
+    codex-gap-attack-log:contract-readiness-after-manuscript-expansion, codex-pdf-provenance:clay-readiness-not-claimed,
+    clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
 - step_id: manuscript_scaffold
   surface_class: NS manuscript/PDF
   current_state: proof-prose-blocked
@@ -502,8 +502,8 @@ integration_chain:
     submission readiness.
   current_gap: 'Review, submission verdicts, export status, and route-state must keep
     submission_ready false while these proof blockers remain: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
-    codex-gap-attack-log:r3-exterior-high-order-tail-closure, codex-gap-attack-log:contract-readiness-after-manuscript-expansion,
-    codex-pdf-provenance:clay-readiness-not-claimed, clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
+    codex-gap-attack-log:contract-readiness-after-manuscript-expansion, codex-pdf-provenance:clay-readiness-not-claimed,
+    clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
 open_blockers:
 - blocker_id: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction
   blocker: Prove that an Exit(Q;O_work) record cannot be the actual finite terminal
@@ -512,28 +512,22 @@ open_blockers:
   refs: &25
   - papers/navier-stokes/review/codex-gap-attack-log.yaml
   mirror_of_completion_candidate: true
-- blocker_id: codex-gap-attack-log:r3-exterior-high-order-tail-closure
-  blocker: Either prove a direct noncircular R3 H^s tail theorem or strengthen dyadic
-    survivor face landing into an accepted whole-space endpoint exclusion.
-  refs: &26
-  - papers/navier-stokes/review/codex-gap-attack-log.yaml
-  mirror_of_completion_candidate: true
 - blocker_id: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
   blocker: After the bridge is proved or the conclusion is otherwise closed, rerun
     the contract check and update provenance with the contract result.
-  refs: &27
+  refs: &26
   - papers/navier-stokes/review/codex-gap-attack-log.yaml
   mirror_of_completion_candidate: true
 - blocker_id: codex-pdf-provenance:clay-readiness-not-claimed
   blocker: Replace the conditional provenance with a proved Clay-closing bridge before
     submission readiness.
-  refs: &28
+  refs: &27
   - papers/navier-stokes/review/authoritative-pdf-provenance-2026-06-07.md
   mirror_of_completion_candidate: true
 - blocker_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
   blocker: Prove the Clay-closing bridge or replace the closing argument with a noncircular
     finite-breakdown exclusion.
-  refs: &29
+  refs: &28
   - problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
   mirror_of_completion_candidate: true
 branch_rows:
@@ -820,8 +814,8 @@ branch_rows:
   state: clay-closing-bridge-open
   next_burden: 'Direct proof authority is blocked by active Clay-closing proof gaps:
     codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
-    codex-gap-attack-log:r3-exterior-high-order-tail-closure, codex-gap-attack-log:contract-readiness-after-manuscript-expansion,
-    codex-pdf-provenance:clay-readiness-not-claimed, clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
+    codex-gap-attack-log:contract-readiness-after-manuscript-expansion, codex-pdf-provenance:clay-readiness-not-claimed,
+    clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mirror_of_completion_candidate: true
@@ -842,8 +836,8 @@ branch_rows:
   state: blocked-clay-closing-bridge-open
   next_burden: 'Review, submission verdicts, export status, and route-state must keep
     submission_ready false while these proof blockers remain: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
-    codex-gap-attack-log:r3-exterior-high-order-tail-closure, codex-gap-attack-log:contract-readiness-after-manuscript-expansion,
-    codex-pdf-provenance:clay-readiness-not-claimed, clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
+    codex-gap-attack-log:contract-readiness-after-manuscript-expansion, codex-pdf-provenance:clay-readiness-not-claimed,
+    clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mirror_of_completion_candidate: true
@@ -858,22 +852,13 @@ branch_rows:
   evidence_refs: *25
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
-- row_id: blocker:codex-gap-attack-log:r3-exterior-high-order-tail-closure
-  row_kind: open_blocker
-  label: codex-gap-attack-log:r3-exterior-high-order-tail-closure
-  state: blocked
-  next_burden: Either prove a direct noncircular R3 H^s tail theorem or strengthen
-    dyadic survivor face landing into an accepted whole-space endpoint exclusion.
-  evidence_refs: *26
-  mirror_of_completion_candidate: true
-  mcp_visibility_status: visible-in-route-state
 - row_id: blocker:codex-gap-attack-log:contract-readiness-after-manuscript-expansion
   row_kind: open_blocker
   label: codex-gap-attack-log:contract-readiness-after-manuscript-expansion
   state: blocked
   next_burden: After the bridge is proved or the conclusion is otherwise closed, rerun
     the contract check and update provenance with the contract result.
-  evidence_refs: *27
+  evidence_refs: *26
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
 - row_id: blocker:codex-pdf-provenance:clay-readiness-not-claimed
@@ -882,7 +867,7 @@ branch_rows:
   state: blocked
   next_burden: Replace the conditional provenance with a proved Clay-closing bridge
     before submission readiness.
-  evidence_refs: *28
+  evidence_refs: *27
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
 - row_id: blocker:clay-counterexample-gap-audit:finite-breakdown-exclusion-open
@@ -891,17 +876,17 @@ branch_rows:
   state: blocked
   next_burden: Prove the Clay-closing bridge or replace the closing argument with
     a noncircular finite-breakdown exclusion.
-  evidence_refs: *29
+  evidence_refs: *28
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
 sync_verdict:
   graph_nodes_count: 24
   graph_edges_count: 31
   d8_integration_rows_count: 5
-  open_blockers_count: 5
+  open_blockers_count: 4
   mcp_route_state_updated: true
   status: changed-open
   remaining_gap: 'Open proof/app/submission blockers remain visible in the route payload
     and MCP route-state: codex-gap-attack-log:clay-closing-bridge-from-classified-class-exit-to-contradiction,
-    codex-gap-attack-log:r3-exterior-high-order-tail-closure, codex-gap-attack-log:contract-readiness-after-manuscript-expansion,
-    codex-pdf-provenance:clay-readiness-not-claimed, clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
+    codex-gap-attack-log:contract-readiness-after-manuscript-expansion, codex-pdf-provenance:clay-readiness-not-claimed,
+    clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
