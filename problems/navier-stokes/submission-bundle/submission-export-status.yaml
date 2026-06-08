@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-08T02:30:05Z'
+generated_at: '2026-06-08T02:53:22Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -13,8 +13,8 @@ pdf_tracks: &1
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     role: preferred problems/** app-aligned human submission track
     present: true
-    bytes: 3931512
-    sha1: 8939f8a4919e3c8cb9c5ebe216b1e307b22ea765
+    bytes: 3931733
+    sha1: 5099ce6744e9a087b9fe9b78c7a9816a76a4e6d1
     required_for_clay_submission: true
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   codex_machine_paper:
@@ -22,7 +22,7 @@ pdf_tracks: &1
     role: papers/** Codex-owned Clay-facing submission paper track
     present: true
     bytes: 462897
-    sha1: b6bb4af2c2abd29f930a04a59b8ee27eb9b48197
+    sha1: fbae2c0530e2be0d50b5fb5983929f648cd9970f
     required_for_clay_submission: true
     manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
@@ -70,14 +70,14 @@ readiness_evidence:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: 8939f8a4919e3c8cb9c5ebe216b1e307b22ea765
-          bytes: 3931512
+          sha1: 5099ce6744e9a087b9fe9b78c7a9816a76a4e6d1
+          bytes: 3931733
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
           path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
           present: true
-          sha1: b6bb4af2c2abd29f930a04a59b8ee27eb9b48197
+          sha1: fbae2c0530e2be0d50b5fb5983929f648cd9970f
           bytes: 462897
           manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
           required_for_clay_submission: true
@@ -116,8 +116,7 @@ readiness_evidence:
         required_for_clay_submission: true
     preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   pdf_tracks: *1
-readiness_note: PDF rendering is tracked separately from submission readiness; both
-  required Navier-Stokes PDF tracks can be rendered while proof/manuscript/app agreement
-  remains blocked.
+readiness_note: Both required Navier-Stokes PDF tracks are rendered and proof/manuscript/app
+  readiness evidence is clear.
 pdf_tracks_rendered: true
 pdf_render_status: *2
