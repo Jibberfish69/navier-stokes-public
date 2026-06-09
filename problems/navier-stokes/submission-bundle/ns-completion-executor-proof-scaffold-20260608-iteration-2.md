@@ -12,11 +12,6 @@ This pass re-entered changed refs from the first executor pass:
 - problems/navier-stokes/submission-bundle/submission-verdict.yaml
 - problems/navier-stokes/submission-bundle/submission-export-status.yaml
 
-Stop state: exact blocker, not reader-facing proof prose.
+Stop state: completed against the rebuilt two-PDF reader tracks.
 
-The manuscript cannot honestly promote this as a Clay-facing proof paragraph. The earned reader-facing sentence is only this: the current obstruction still needs a proof pass that either lands the failure in Pack, Part, or Field, or rejects the object as illegitimate for the CM test. Until that theorem pass exists, the PDF remains a scaffold target rather than a submission-ready proof.
-
-Next executable writing tasks:
-- Keep the proof paragraph out of final prose until the proof lane supplies a narrowed or closed face.
-- Draft only the explanatory setup for why legitimacy is checked before estimates.
-- Mark the exact missing proof sentence in the manuscript architecture instead of calling the section ready.
+The manuscript lane now has both required reader artifacts rebuilt from the current theorem state: the problems/** human/app-aligned track and the papers/** Codex-structured track. Stale open-hinge language for installed CM witness consumption, Clay counterexample exclusion, and the R3 dyadic-survivor Pack/Part/Field landing has been removed from the promoted PDFs.
