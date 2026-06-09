@@ -10,15 +10,15 @@ decision:
   disposition: blocked
   release_posture: not-export-ready
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: terminal-positive-source-atom-open
+  completion_tier_achieved: original-smooth-data-pack-survival-open
   next_cell_type: theorem-work
   next_stage: active-public-clay-finality-blocked
-  next_action: Prove TerminalPositiveSourceAtomEscape.A / BASACTerminalSourceAntiConcentration.A
-    or an equivalent terminal time-face anti-atom / source-weighted reserve /
-    rigid-class production theorem before any submission-candidate claim.
-  rationale: Public Clay finality is blocked at the native positive source atom
-    leaf exposed by the active completion loop; release-ready surfaces are stale
-    unless they carry this blocker.
+  next_action: Prove NoGenuineExitFromSmoothData.A through
+    OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A, or an
+    equivalent terminal Pack-survival theorem, before any submission-candidate claim.
+  rationale: Public Clay finality is blocked at the first-exit Pack survival wall
+    exposed by the active completion loop; terminal source anti-atom work is a
+    child supplier route for that wall.
   exact_live_theorem_grade_burden: &1
     status: contrapositive-witness-consumption-installed
     burden_id: clay-cm-contrapositive-witness-consumption
@@ -58,10 +58,11 @@ artifacts:
   review_log: problems/navier-stokes/review-log.md
   review_verdict: problems/navier-stokes/review-verdict.yaml
 blockers:
-- blocker_id: terminal-positive-source-atom-escape
+- blocker_id: original-smooth-data-pack-survival
   status: open
   refs:
-  - problems/navier-stokes/theorem-construction/mpp-terminal-positive-source-atom-frontier-reentry-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-public-finality-first-exit-pack-wall-reentry-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/d8-completion-route-map.yaml
 summary:
@@ -73,14 +74,14 @@ release_or_respawn_consequence:
   next_cell_type: theorem-work
   next_stage: active-public-clay-finality-blocked
   next_action: Keep proof, graph, viewer, manuscript, both PDF tracks, and submission
-    wrappers aligned with the open terminal-positive-source-atom frontier.
+    wrappers aligned with the open original-smooth-data Pack-survival frontier.
 cm_contrapositive_referee_gate:
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   status: blocked-public-clay-finality-open
   pass: false
   release_eligible: false
   blockers:
-  - terminal-positive-source-atom-escape
+  - original-smooth-data-pack-survival
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight:
   rule_id: ns-target-topology-preflight-v2
