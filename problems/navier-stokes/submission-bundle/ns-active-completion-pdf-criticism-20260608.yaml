@@ -1,0 +1,329 @@
+version: 1
+artifact_id: ns-active-completion-pdf-criticism-20260608
+created_for_run: system/meta/research-os/nightly-six-mpp/runs/2026-06-08
+created_at_local: "2026-06-08T21:46:00-06:00"
+status: active-open-criticism
+scope: >
+  Rendered-read criticism custody for the two Navier-Stokes PDF tracks. This
+  artifact is not a PDF edit and is not a finality claim. It records the
+  criticisms that must drive the next theorem, app-structure, and paper-writing
+  reentry passes.
+pdf_targets:
+  - path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    track: human-app-aligned-submission
+    pages: 1082
+    sha256: ed71bc3bd0ae7976def993f34053774d5faef9bc61fc934f8efe9b7180bb06af
+    rendered_build_time: "2026-06-08 18:03:39 MDT"
+    source_refs:
+      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:39
+      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:55
+      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1379
+      - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61278
+      - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61358
+      - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61396
+      - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61401
+      - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61994
+  - path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    track: codex-machine-authoritative-edge
+    pages: 47
+    sha256: 0fc0cf6da4bec7d3953ae288fb0b7b24dab1c92dbe724f51d4b58cfcc6b35e15
+    rendered_build_time: "2026-06-08 15:42:44 MDT"
+    source_refs:
+      - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.tex:47
+      - papers/navier-stokes/manuscript/generated/main.tex:1411
+      - papers/navier-stokes/manuscript/generated/main.tex:1418
+      - papers/navier-stokes/manuscript/generated/main.tex:1444
+      - papers/navier-stokes/manuscript/generated/main.tex:1465
+      - papers/navier-stokes/manuscript/generated/main.tex:1884
+      - papers/navier-stokes/manuscript/generated/main.tex:1908
+readthroughs:
+  - role_id: harsh-cmi-referee
+    verdict: not-final
+    summary: >
+      The proof route is visible, but both tracks still expose referee-facing
+      risks around the class-exit-to-Clay bridge, stale/open appendix language,
+      and citation/referee adequacy. These are live criticisms, not final
+      publication defects to ignore.
+    collected_criticism_ids:
+      - NSPDF-20260608-001
+      - NSPDF-20260608-003
+      - NSPDF-20260608-004
+      - NSPDF-20260608-006
+  - role_id: plain-grad-student-reader
+    verdict: not-final
+    summary: >
+      The reader can follow the Pack/Part/Field idea in the short paper, but the
+      human bundle still reads like a main proof followed by a large historical
+      dossier whose relationship to final proof status is not clean enough on
+      the page. The opening also risks sounding definitional unless the
+      same-solution target is made blunt.
+    collected_criticism_ids:
+      - NSPDF-20260608-002
+      - NSPDF-20260608-005
+      - NSPDF-20260608-006
+criticism_inventory:
+  - criticism_id: NSPDF-20260608-001
+    pdf_target: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    rubric_id: problems-human-app-aligned-thomas-rules
+    reader_role: harsh-cmi-referee
+    location_or_scope: source-field-reader appendix around historical Clay counterexample-exclusion notes
+    problem: >
+      The main body presents the CM scaffold as the closing reader-facing proof,
+      while late appendix material still says that sections do not prove the
+      Clay problem or that Clay readiness still requires a verified inventory or
+      a named uncovered obstruction.
+    why_it_blocks_clay_ready_submission: >
+      A referee can read those appendix statements as live admissions that the
+      paper is not actually closed. The artifact cannot be CMI-final while its
+      own dossier preserves unresolved Clay-closure language without a clear
+      proof-status demotion or reconciliation.
+    required_change: >
+      Reconcile the appendix with the current main proof: either rewrite the
+      stale historical notes as explicitly historical/non-governing evidence, or
+      promote the named inventory/obstruction burden back into the main proof as
+      a live blocker. The page must leave no ambiguity about which statements
+      govern the final proof.
+    routed_surface: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    status: live
+    evidence_refs:
+      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1379
+      - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61278
+      - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61358
+      - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61396
+      - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61994
+  - criticism_id: NSPDF-20260608-002
+    pdf_target: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    rubric_id: problems-human-app-aligned-thomas-rules
+    reader_role: plain-grad-student-reader
+    location_or_scope: abstract and first-page proof promise
+    problem: >
+      The opening says that a failed check means the candidate state has exited
+      the class specified by the problem definition. To a normal reader this can
+      sound like the proof defines the singular endpoint out of Navier-Stokes
+      rather than deriving a same-solution terminal-member failure.
+    why_it_blocks_clay_ready_submission: >
+      The core idea is legitimate only when the reader understands that a Clay
+      counterexample is a same-solution terminal object claim, and that Pack,
+      Part, or Field failure removes exactly that terminal-member status. The
+      current opening makes the hinge easier to misunderstand than it should be.
+    required_change: >
+      Rewrite the first-page promise in Thomas's actual sequence: finite Clay
+      negation, same-solution terminal record, Pack/Part/Field test, pass gives
+      continuation, fail is not an in-class nonsmooth terminal branch. Avoid
+      any sentence that sounds like a definitional shortcut.
+    routed_surface: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    status: live
+    evidence_refs:
+      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:47
+      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:55
+      - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61401
+  - criticism_id: NSPDF-20260608-003
+    pdf_target: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    rubric_id: papers-codex-derived-clay-referee-rubric
+    reader_role: harsh-cmi-referee
+    location_or_scope: submission-form statement before the final Clay bridge
+    problem: >
+      The short paper states the submitted result conditionally: if the
+      classified exit branch is proved inadmissible as the actual Clay terminal
+      obstruction, finite-time loss is excluded. The final sections try to pay
+      that bridge, but the reader meets the theorem as a conditional before the
+      proof has made the bridge feel settled.
+    why_it_blocks_clay_ready_submission: >
+      A CMI-facing paper cannot let its headline theorem sound conditional at
+      the point where it states the submission result. The conditional belongs
+      in a dependency audit or historical explanation unless it is immediately
+      discharged as the theorem being proved.
+    required_change: >
+      Reorder or rewrite the machine-paper theorem statement so the final
+      result is stated as the proved same-solution terminal exclusion, while the
+      class-exit-to-Clay bridge appears as a named lemma that is proved before
+      the final theorem.
+    routed_surface: papers/navier-stokes/manuscript/generated/main.tex
+    status: live
+    evidence_refs:
+      - papers/navier-stokes/manuscript/generated/main.tex:1411
+      - papers/navier-stokes/manuscript/generated/main.tex:1418
+      - papers/navier-stokes/manuscript/generated/main.tex:1444
+      - papers/navier-stokes/manuscript/generated/main.tex:1465
+  - criticism_id: NSPDF-20260608-004
+    pdf_target: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    rubric_id: papers-codex-derived-clay-referee-rubric
+    reader_role: harsh-cmi-referee
+    location_or_scope: whole machine-paper source
+    problem: >
+      The rendered 47-page paper has no visible references or bibliography for
+      the Clay problem statement, the classical local H^s continuation theorem,
+      Leray projection/localization, heat-kernel estimates, or standard
+      comparison criteria mentioned in the proof.
+    why_it_blocks_clay_ready_submission: >
+      A Clay-facing submission needs ordinary mathematical citation hygiene.
+      Uncited standard theorems can be acceptable in exposition, but a final
+      proof paper must give a referee enough bibliographic anchors to audit the
+      exact continuation and PDE facts being invoked.
+    required_change: >
+      Add a compact references section and in-text citations for the official
+      Clay problem statement, local Navier-Stokes continuation in H^s, Leray
+      projection/pressure treatment, and the standard exterior/heat estimates
+      the manuscript uses.
+    routed_surface: papers/navier-stokes/manuscript/generated/main.tex
+    status: live
+    evidence_refs:
+      - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+      - papers/navier-stokes/manuscript/generated/main.tex:1908
+  - criticism_id: NSPDF-20260608-005
+    pdf_target: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    rubric_id: papers-codex-derived-clay-referee-rubric
+    reader_role: plain-grad-student-reader
+    location_or_scope: relationship between the two rendered PDF tracks
+    problem: >
+      The 47-page machine paper and 1082-page human bundle do not yet give a
+      reader an obvious package-level explanation of how the compact submission
+      track, the human app-aligned track, and the large dossier track relate.
+    why_it_blocks_clay_ready_submission: >
+      Two live PDFs can be useful only when the reader knows which one is the
+      submission paper, which one is the expanded human/app-aligned artifact,
+      and how the appendix dossier is supposed to support rather than contradict
+      the final proof.
+    required_change: >
+      Add package-level front matter or a manifest-facing note that states the
+      role of each PDF track, the authority relationship between them, and the
+      status of the large historical appendices.
+    routed_surface: papers/navier-stokes/review/codex-paper-architecture.yaml
+    status: live
+    evidence_refs:
+      - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+      - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  - criticism_id: NSPDF-20260608-006
+    pdf_target: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    rubric_id: problems-human-app-aligned-thomas-rules
+    reader_role: plain-grad-student-reader
+    location_or_scope: appendices E-G and late source-field dossier
+    problem: >
+      The 1082-page bundle keeps enormous appendix/dossier material on the same
+      rendered surface as the proof. The main body says historical notes are not
+      additional proof gaps, but the page still requires the reader to trust that
+      status across hundreds of pages of old attempt language.
+    why_it_blocks_clay_ready_submission: >
+      A normal mathematical reader needs a clean route through the proof and a
+      reliable map of what is proof-bearing, historical, support-only, or
+      demoted. Without that map, scale becomes confusion rather than payment.
+    required_change: >
+      Add a rendered appendix control table and rewrite the dossier preface so
+      every late appendix family is explicitly marked proof-bearing,
+      support-only, historical, or demoted, with the governing main-proof hinge
+      named beside it.
+    routed_surface: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    status: live
+    evidence_refs:
+      - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1963
+      - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61278
+      - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61994
+discovery_passes:
+  - pass_id: initial-rendered-readthrough-20260608
+    trigger: initial rendered harsh-referee and plain-reader pass
+    live_criticism_ids:
+      - NSPDF-20260608-001
+      - NSPDF-20260608-002
+      - NSPDF-20260608-003
+      - NSPDF-20260608-004
+      - NSPDF-20260608-005
+      - NSPDF-20260608-006
+  - pass_id: after-custody-reentry-reread-20260608
+    trigger: post-change reread after criticism-custody artifact and reentry routing
+    live_criticism_ids:
+      - NSPDF-20260608-001
+      - NSPDF-20260608-002
+      - NSPDF-20260608-003
+      - NSPDF-20260608-004
+      - NSPDF-20260608-005
+      - NSPDF-20260608-006
+    carried_forward_criticism_ids:
+      - NSPDF-20260608-001
+      - NSPDF-20260608-002
+      - NSPDF-20260608-003
+      - NSPDF-20260608-004
+      - NSPDF-20260608-005
+      - NSPDF-20260608-006
+    resolved_criticism_ids: []
+    new_criticism_ids: []
+repair_graph:
+  status: active
+  source_inventory_pass_id: initial-rendered-readthrough-20260608
+  nodes:
+    - node_id: repair-human-appendix-status
+      governing_criticism_id: NSPDF-20260608-001
+      criticism_ids:
+        - NSPDF-20260608-001
+        - NSPDF-20260608-006
+      objective: Reconcile large historical dossier language with the current main proof claim.
+      target_files:
+        - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+        - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+      expected_result: Human PDF has a clear proof-bearing/support-only/historical map and no stale Clay-readiness contradiction.
+      repair_status: routed-open
+    - node_id: repair-opening-class-exit-language
+      governing_criticism_id: NSPDF-20260608-002
+      criticism_ids:
+        - NSPDF-20260608-002
+      objective: Make the opening state the same-solution terminal-record argument without definitional shortcut sound.
+      target_files:
+        - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+      expected_result: First page says finite Clay negation, same-solution terminal record, Pack/Part/Field, pass continuation, fail no in-class nonsmooth branch.
+      repair_status: routed-open
+    - node_id: repair-machine-final-theorem-sequence
+      governing_criticism_id: NSPDF-20260608-003
+      criticism_ids:
+        - NSPDF-20260608-003
+        - NSPDF-20260608-004
+        - NSPDF-20260608-005
+      objective: Make the compact paper state the final theorem as proved, cite standard inputs, and explain package authority.
+      target_files:
+        - papers/navier-stokes/manuscript/generated/main.tex
+        - papers/navier-stokes/review/codex-paper-architecture.yaml
+      expected_result: Machine paper has a clean final theorem sequence, citations, and package-role explanation.
+      repair_status: routed-open
+  edges:
+    - from: repair-human-appendix-status
+      to: repair-opening-class-exit-language
+      reason: The opening can be final only after the appendix no longer contradicts final status.
+    - from: repair-machine-final-theorem-sequence
+      to: repair-human-appendix-status
+      reason: The compact theorem sequence supplies the control language for the larger human bundle.
+reentry_iteration:
+  iteration_id: pdf-criticism-custody-reentry-20260608
+  input_inventory_pass_id: initial-rendered-readthrough-20260608
+  selected_criticism_ids:
+    - NSPDF-20260608-001
+    - NSPDF-20260608-002
+    - NSPDF-20260608-003
+    - NSPDF-20260608-004
+    - NSPDF-20260608-005
+    - NSPDF-20260608-006
+  work_performed:
+    - Rendered both PDF targets to text and inspected front matter, closing sections, theorem bridge sections, and late appendix conflict surfaces.
+    - Created this criticism-custody and reentry artifact so the trajectory loop cannot report PDF finality while live criticism remains.
+    - Routed the next reentry to the exact paper/source surfaces rather than editing concurrently touched PDF sources inside the parent governance lane.
+  files_touched:
+    - problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
+  result: >
+    Active PDF completion loop progressed by preserving six live criticisms and
+    routing exact reentry surfaces; no rendered PDF source was changed and no
+    CMI-final claim is made.
+  changed_state_refs:
+    - problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
+  reread_inventory_pass_id: after-custody-reentry-reread-20260608
+  new_criticism_ids: []
+  remaining_live_criticism_ids:
+    - NSPDF-20260608-001
+    - NSPDF-20260608-002
+    - NSPDF-20260608-003
+    - NSPDF-20260608-004
+    - NSPDF-20260608-005
+    - NSPDF-20260608-006
+  stop_decision: continue
+  evidence_refs:
+    - problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
+pdfs_final: false
+next_reentry_target: >
+  Re-enter the paper-writing lane on the human-bundle appendix status map and
+  the machine-paper final theorem sequence before any run may claim PDF finality.
