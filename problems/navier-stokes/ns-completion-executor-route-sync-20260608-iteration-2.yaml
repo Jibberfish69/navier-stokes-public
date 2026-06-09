@@ -1,7 +1,7 @@
 ---
 version: 1
 artifact_id: ns-completion-executor-route-sync-2026-06-08
-status: terminal-complete-sync
+status: terminal-blocked-sync
 date: '2026-06-08'
 iteration_index: 2
 consumed_work_node_ids:
