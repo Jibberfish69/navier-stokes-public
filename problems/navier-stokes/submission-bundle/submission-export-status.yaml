@@ -2,7 +2,7 @@
 version: 1
 problem_id: navier-stokes
 generated_at: '2026-06-09T06:14:04Z'
-status: exported
+status: blocked-by-live-pdf-criticism
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
@@ -35,7 +35,7 @@ skeletal_source_detected: false
 authoritative_content_included: true
 authoritative_supplements: []
 codex_machine_manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
-submission_ready: true
+submission_ready: false
 readiness_blocker: 
 manuscript_tex_sha1: ef537cf74f58a69a143c8ab9bd894999664c4663
 completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608-iteration-2.yaml
@@ -172,7 +172,7 @@ source_wall_root_cm_status: Start with the alleged finite-time Clay terminal wit
   support when they conflict with live-theorem-edge.yaml or target-operating-contract.yaml.
   The forward-positive quarantine index keeps 1853 scanned surfaces out of CM authority
   unless a named bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
-submission_posture: submission-candidate
+submission_posture: blocked-by-live-pdf-criticism
 readiness_status: blocked-paper-hygiene
 manuscript_scaffold_status: human/app submission scaffold repaired as a paper-local
   CM proof surface; papers/** generated main.tex remains an independent manuscript
@@ -182,3 +182,13 @@ next_theorem_primitive_slot: A future primitive is proof-bearing only after it n
   the selected terminal record, proves CM-test entry, and pays either the member-side
   readout chain up to the selected continuation consumer or the first failed Pack/Part/Field
   face.
+blockers:
+- 'NSPDF-20260609-001: human PDF page 1 still contains submission-package/status-map
+  language instead of a normal CMI-facing opening.'
+- 'NSPDF-20260609-002: terminal-record bridge from finite Clay breakdown to Pack/Part/Field
+  exhaustion remains underpaid.'
+required_before_submission:
+- resolve NSPDF-20260609-001
+- resolve NSPDF-20260609-002
+- rebuild both PDF tracks
+- rerun rendered CMI/human reread
