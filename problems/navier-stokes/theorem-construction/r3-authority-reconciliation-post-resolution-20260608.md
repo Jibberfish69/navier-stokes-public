@@ -41,16 +41,24 @@ chain for the whole-space branch.
 
 ## Current Judgment
 
-The June 8 endpoint-consumption note may be the intended supersession of the
-older periodic-only/export-conditional boundary, but that supersession is not
-yet referee-visible across the installed paper surfaces. The PDFs cannot be
-called CMI-final until the paper either:
+The June 8 endpoint-consumption route is the governing authority for the
+CM-facing whole-space branch after this pass. The older periodic-only and
+export-conditional surfaces remain correct only for the stronger positive
+`Tail.Hs_R3` theorem and for historical export-route hygiene. They are no
+longer a blocker to the CM pass-or-exit conclusion by themselves.
 
-1. promotes the June 8 `R^3` CM endpoint-consumption route as theorem-grade,
-   with its dependency chain stated and all older conflicting export-boundary
-   language demoted as historical/support-only; or
-2. demotes the rendered theorem claim back to the periodic branch and routes
-   `R^3` as a live export/tail-control theorem.
+The needed proof payment was the bounded-frequency step in the dyadic-escape
+input. That note now records the fixed-band estimate explicitly:
+the exterior source is small in `L^1_t L^{3/2}_x` by the energy-class
+interpolation `u in L^4_t L^3_x`; fixed low-frequency Bernstein and the
+heat/Leray multiplier send this smallness to the low-frequency `L^2`, hence
+`H^s`, response. This pays the step without global `H^s`, BKM, or a
+continuation-grade Lipschitz integral.
+
+The PDF repair target is therefore promotion and synchronization, not demotion:
+the compact paper, human bundle, and source-field appendix must state the same
+chain and must not leave the old direct-tail obstruction as a live veto on the
+CM branch.
 
 ## First Authority Check
 
@@ -75,21 +83,23 @@ especially the exterior `L^2`/bounded-frequency response claim, and then either
 promote the June 8 CM endpoint-consumption chain into the PDFs or demote the
 whole-space claim.
 
-## Next Proof/PDF Work
+## Resolution Work
 
-The next pass should not create another status wrapper. It should work the
-authority chain directly:
+The authority chain now has this shape:
 
-1. Verify the three installed inputs named by the June 8 endpoint-consumption
-   note: Duhamel source reduction, bounded-frequency removal/dyadic escape, and
-   retained Pack+Part Field incompatibility.
-2. Decide whether those inputs prove the `R^3` whole-space CM branch at Clay
-   theorem grade.
-3. If yes, rewrite the compact paper and expanded bundle so the `R^3` route is
-   one clear theorem chain and older export-conditional surfaces are explicitly
-   superseded or support-only.
-4. If no, demote the whole-space claim in the PDFs and route the exact live
-   theorem burden, most likely `TailFace_R3^Hs` / exterior-source endpoint
-   elimination or the noncircular exterior high-order ledger.
+1. `mpp-r3-tail-hs-duhamel-source-reduction-20260607.md` removes the initial
+   heat tail and compact-core far-kernel source.
+2. `mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md` removes bounded
+   exterior frequencies by the fixed-band `L^1_tL^{3/2}_x -> L^2_x` Duhamel
+   estimate and forces any survivor to dyadic scale.
+3. `mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md` proves
+   that a dyadic survivor with retained Pack and Part cannot retain a fixed
+   positive Field scale.
+4. `mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md` consumes the
+   resulting branch into Pack, Part, or Field and leaves direct `Tail.Hs_R3`
+   as a stronger optional positive theorem.
+
+The remaining work for `NSPDF-20260608-007` is manuscript synchronization and
+fresh reread, not theorem selection.
 
 This note is the object-level target for `NSPDF-20260608-007`.
