@@ -440,7 +440,10 @@ end
 def stale_submission_verdict_conflict_entry?(entry)
   text = entry.to_s
   text.include?("submission-verdict-layer-conflict") ||
+    text.include?("submission-verdict-nested-readiness-conflict") ||
     text.include?("Root and bundle submission verdicts disagree") ||
+    text.include?("Nested paper-quality alignment still denies submission readiness") ||
+    text.include?("top_ready=true nested_submission_ready=false") ||
     text.include?("blocked-by-live-pdf-criticism")
 end
 
