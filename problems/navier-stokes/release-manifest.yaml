@@ -5,18 +5,18 @@ identity:
   artifact_id: release-manifest-navier-stokes
   generated_at: '2026-06-08T07:23:17Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: release-ready
-pass: true
-release_eligible: true
-bundle_status: full-mpp-closure-ready
+status: release-blocked-public-clay-finality-open
+pass: false
+release_eligible: false
+bundle_status: active-not-final
 source_fingerprint: 50ac388ad044964b14ac7be8c3980d87d710166d
 bundle_sha1: 17d742861f711852b5226843a0bdf78cccee2969
 summary:
   artifact_count: 18
   missing_artifact_count: 0
   all_required_artifacts_present: true
-  blocking_count: 0
-  all_discharged: true
+  blocking_count: 1
+  all_discharged: false
 source_summary:
   proof_artifact:
     path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -32,30 +32,30 @@ source_summary:
     modified_at: '2026-05-23T19:01:09Z'
   theorem_authority_gate:
     total_obligations: 3
-    blocking_count: 0
-    frontier_count: 0
-    all_discharged: true
+    blocking_count: 1
+    frontier_count: 1
+    all_discharged: false
     authority_mode: direct-live-surfaces
   source_frontier:
-    unresolved_count: 0
+    unresolved_count: 1
   live_theorem_edge:
     path: problems/navier-stokes/live-theorem-edge.yaml
     present: true
     sha1: 182ef1ce3eb6894374ecdde8f3abe17f0e3ab620
     bytes: 192203
     modified_at: '2026-06-08T03:11:09Z'
-    blocked_frontier_count: 0
+    blocked_frontier_count: 1
   review_verdict:
-    verdict: accept
-    release_posture: export-ready
-    completion_tier_achieved: full-mpp-closure
-    terminal_safe: true
+    verdict: blocked
+    release_posture: not-export-ready
+    completion_tier_achieved: terminal-positive-source-atom-open
+    terminal_safe: false
   submission_verdict:
-    submission_ready: true
+    submission_ready: false
   release_decision:
-    disposition: submission-candidate
-    release_posture: export-ready
-    completion_tier_achieved: full-mpp-closure
+    disposition: blocked
+    release_posture: not-export-ready
+    completion_tier_achieved: terminal-positive-source-atom-open
   existing_assumption_ledger_status:
     ledger_status: release-ready
     all_authority_assumptions_discharged: true
@@ -70,10 +70,11 @@ source_summary:
     theorem_packet_status: export-ready
   cm_contrapositive_referee_gate:
     audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
-    status: passed
-    pass: true
-    release_eligible: true
-    blockers: []
+    status: blocked-public-clay-finality-open
+    pass: false
+    release_eligible: false
+    blockers:
+    - terminal-positive-source-atom-escape
   source_fingerprint: 50ac388ad044964b14ac7be8c3980d87d710166d
 artifacts:
 - path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
