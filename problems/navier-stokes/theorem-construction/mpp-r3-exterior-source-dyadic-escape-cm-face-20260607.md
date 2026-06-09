@@ -58,13 +58,60 @@ On bounded frequency,
 ||P_{<=N_0} f||_{H^s} <= C_s N_0^s ||f||_{L^2}.
 ```
 
-For the Duhamel piece \(W_R\), the low-frequency \(L^2\) exterior contribution
-is controlled by the same exterior energy/pressure flux mechanism used in
-`Tail.L2_R3`, plus the heat-kernel off-diagonal estimate for the part of the
-source entering from inside the cutoff wall. The compact-core part was already
-removed by the Duhamel source reduction. The remaining exterior source lives
-where \(\eta_R u\) is energy-tight, so its bounded-frequency response is
-energy-tight as \(R\to\infty\).
+It remains to prove the corresponding \(L^2\) claim for the low-frequency
+Duhamel response. Let
+
+```text
+F_R = chi_{>=R/4}(u tensor u).
+```
+
+After the compact-core source has been removed, \(F_R\) is the only source
+seen by \(W_R\). On a fixed frequency band, Bernstein and boundedness of the
+heat semigroup give
+
+```text
+||P_{<=N_0} e^{nu(t-tau)Delta} P div F_R(tau)||_2
+  <= C_{N_0} ||F_R(tau)||_{L^{3/2}}.
+```
+
+Hence
+
+```text
+sup_{t<T_*} ||P_{<=N_0} W_R(t)||_2
+  <= C_{N_0} ||F_R||_{L^1_t L^{3/2}_x([0,T_*) x R^3)}.
+```
+
+The energy class supplies
+
+```text
+u in L^\infty_t L^2_x cap L^2_t dot H^1_x,
+```
+
+and therefore \(u\in L^4_tL^3_x\) on every finite interval by interpolation.
+For the exterior source,
+
+```text
+||F_R(t)||_{L^{3/2}}
+  <= ||chi_{>=R/4}u(t)||_{L^3} ||u(t)||_{L^3}.
+```
+
+The second factor is in \(L^2_t\). The first factor tends to zero in
+\(L^2_t\) as \(R\to\infty\), by dominated convergence applied to the
+finite \(L^4_tL^3_x\) energy-class norm. Therefore
+
+```text
+||F_R||_{L^1_t L^{3/2}_x} -> 0.
+```
+
+Combining this with the fixed-band estimate gives
+
+```text
+lim_{R -> infinity} sup_{t<T_*}
+||P_{<=N_0}W_R(t)||_2 = 0,
+```
+
+and the bounded-frequency \(H^s\) bound follows from the first displayed
+estimate.
 
 Thus bounded frequencies cannot produce the positive \(H^s\) limsup.
 
@@ -127,8 +174,8 @@ new noncircular estimate.
 
 ## Noncircularity Boundary
 
-The proof uses the installed exterior `L^2` tightness, bounded-frequency
-Littlewood-Paley control, and the Duhamel split that already removed initial
-tail and compact-core far-kernel tail. It does not use global `H^s`, BKM, or
+The proof uses the energy-class interpolation
+`L^\infty_t L^2_x cap L^2_t dot H^1_x -> L^4_t L^3_x`, fixed-frequency
+Bernstein control, and the Duhamel split that already removed initial tail and
+compact-core far-kernel tail. It does not use global `H^s`, BKM, or
 continuation-grade Lipschitz integrability.
-
