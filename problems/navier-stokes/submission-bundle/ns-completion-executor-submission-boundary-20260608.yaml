@@ -1,13 +1,13 @@
 ---
 version: 1
 artifact_id: ns-completion-executor-submission-boundary-2026-06-08
-status: blocked
+status: ready
 date: '2026-06-08'
 iteration_index: 1
 consumed_work_node_ids:
 - ns-submission-readiness
 input_refs: []
-submission_ready: false
+submission_ready: true
 pdf_tracks_rendered: true
 pdf_render_status:
   status: rendered
@@ -16,20 +16,20 @@ pdf_render_status:
     human_app_aligned:
       path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       present: true
-      sha1: 7cade40c5b24196d1dd1abd07697eeed5adba3e7
-      bytes: 3987609
+      sha1: 84a0410a823c3245d7c1b91ef8f5597cf8f87e67
+      bytes: 3960641
       manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
       required_for_clay_submission: true
     codex_machine_paper:
       path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
       present: true
-      sha1: 24c8751c40e31ab0645ce23674e7b9007fc39489
-      bytes: 519762
+      sha1: c17689a09a2867b4017812f8736a0401b5ec7944
+      bytes: 523248
       manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
       required_for_clay_submission: true
   preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-boundary_reason: changed executor outputs exist, but proof closure and reader-facing
-  manuscript proof are still open
+boundary_reason: current frontier has no unresolved obligations, both required PDF
+  tracks are present, and route-state has no open D8 proof blockers
 may_advance_when:
 - the proof lane lands the CM obstruction in Pack, Part, or Field or closes it by
   legitimate scope rejection
