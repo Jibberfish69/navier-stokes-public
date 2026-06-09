@@ -48,14 +48,14 @@ source_summary:
   review_verdict:
     verdict: blocked
     release_posture: not-export-ready
-    completion_tier_achieved: terminal-positive-source-atom-open
+    completion_tier_achieved: original-smooth-data-pack-survival-open
     terminal_safe: false
   submission_verdict:
     submission_ready: false
   release_decision:
     disposition: blocked
     release_posture: not-export-ready
-    completion_tier_achieved: terminal-positive-source-atom-open
+    completion_tier_achieved: original-smooth-data-pack-survival-open
   existing_assumption_ledger_status:
     ledger_status: blocked-public-clay-finality-open
     all_authority_assumptions_discharged: false
