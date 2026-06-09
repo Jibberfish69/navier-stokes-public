@@ -2,9 +2,14 @@
 
 ## Status
 
-Failed unconditional discharge / conditional branch package.
+Historical direct-tail obstruction package, superseded for the CM-facing branch
+by `mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md`.
 
-This note handles the seven requested whole-space items. The outcome is sharp: the `R^3` branch is conditionally organized, while the unconditional theorem remains blocked by exterior high-order tail control.
+This note remains authority for the stronger direct positive theorem
+`Tail.Hs_R3`. It no longer states the live CM-facing whole-space completion
+boundary. After the June 8 endpoint-consumption theorem, a surviving exterior
+high-order source is treated as an endpoint face and lands in Pack, Part, or
+Field after bounded-frequency removal and dyadic survivor extraction.
 
 ## 1. Exterior high-order coefficient ledger
 
@@ -86,7 +91,15 @@ TailFace_{R^3}^{Hs}:
 \|eta_R u(t)\|_{H^s}>0.
 ```
 
-Exterior `L^2` tightness eliminates mass escape, but high-frequency packets can have small `L^2` mass and large `H^s` norm. Therefore `TailFace_R3^Hs` is not eliminated by the current inputs.
+Exterior `L^2` tightness eliminates mass escape, but high-frequency packets can
+have small `L^2` mass and large `H^s` norm. Therefore `TailFace_R3^Hs` is not
+eliminated as a direct positive `Tail.Hs_R3` theorem by these inputs alone.
+
+For the CM-facing branch, this direct-tail obstruction is consumed by the
+June 8 endpoint theorem: after the Duhamel split, fixed bounded frequencies are
+removed by the exterior source estimate
+`L^1_t L^{3/2}_x -> L^\infty_t L^2_x`; any surviving tail must be dyadic
+escape, and the dyadic survivor fails Pack, Part, or Field.
 
 Conditional elimination holds under `Tail.Hs_R3`:
 
