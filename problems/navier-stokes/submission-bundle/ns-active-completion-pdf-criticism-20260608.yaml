@@ -3,7 +3,7 @@ version: 1
 artifact_id: ns-active-completion-pdf-criticism-20260608
 created_for_run: system/meta/research-os/nightly-six-mpp/runs/2026-06-08
 created_at_local: '2026-06-08T21:46:00-06:00'
-status: completed-zero-live-criticism
+status: active-live-criticism-after-false-finality-audit
 scope: Rendered-read criticism custody for the two Navier-Stokes PDF tracks. This
   artifact preserves the resolved initial criticisms and the resolved R3 authority/payment
   repair, followed by a zero-new-live post-resolution CMI criteria generation pass.
@@ -49,10 +49,12 @@ pdf_targets:
   - papers/navier-stokes/manuscript/generated/main.tex:1254
 readthroughs:
 - role_id: harsh-cmi-referee
-  verdict: final-no-live-criticism-after-r3-payment
-  summary: Fresh rendered reread after R3 authority/payment repair found all known
-    criticisms resolved and generated no new live CMI-referee or normal-reader criticism.
-  collected_criticism_ids: []
+  verdict: live-criticism-after-false-finality-audit
+  summary: Fresh honest rendered reread found live page-one submission-form criticism
+    and an underpaid terminal-record bridge; prior zero-live verdict is invalid.
+  collected_criticism_ids:
+  - NSPDF-20260609-001
+  - NSPDF-20260609-002
   resolved_criticism_ids: &1
   - NSPDF-20260608-001
   - NSPDF-20260608-002
@@ -120,12 +122,16 @@ readthroughs:
   - 'final fingerprints: human sha256=7ff4a47d2feb21ba0d4718b02c45a50bb6bd7bddc84231eb864ce85acc56f5c8
     pages=1084 bytes=3987609; compact sha256=e302cdca9b0df821b949f4a2eb91d35a2e3b1185c6280c545608eb91b6dce146
     pages=47 bytes=519762'
-  live_criticism_ids: []
+  live_criticism_ids:
+  - NSPDF-20260609-001
+  - NSPDF-20260609-002
 - role_id: plain-grad-student-reader
-  verdict: final-no-live-criticism-after-r3-payment
-  summary: Fresh rendered reread after R3 authority/payment repair found all known
-    criticisms resolved and generated no new live CMI-referee or normal-reader criticism.
-  collected_criticism_ids: []
+  verdict: live-criticism-after-false-finality-audit
+  summary: Fresh honest rendered reread found live page-one submission-form criticism
+    and an underpaid terminal-record bridge; prior zero-live verdict is invalid.
+  collected_criticism_ids:
+  - NSPDF-20260609-001
+  - NSPDF-20260609-002
   resolved_criticism_ids: *1
   evidence_refs:
   - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
@@ -186,7 +192,9 @@ readthroughs:
   - 'final fingerprints: human sha256=7ff4a47d2feb21ba0d4718b02c45a50bb6bd7bddc84231eb864ce85acc56f5c8
     pages=1084 bytes=3987609; compact sha256=e302cdca9b0df821b949f4a2eb91d35a2e3b1185c6280c545608eb91b6dce146
     pages=47 bytes=519762'
-  live_criticism_ids: []
+  live_criticism_ids:
+  - NSPDF-20260609-001
+  - NSPDF-20260609-002
 criticism_inventory:
 - criticism_id: NSPDF-20260608-001
   pdf_target: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
@@ -546,6 +554,51 @@ criticism_inventory:
     and Tail.Hs_R3 surfaces to historical or stronger direct-positive context, rebuilding
     the human PDF, and running a fresh zero-new-live post-resolution CMI generation
     pass.
+- criticism_id: NSPDF-20260609-001
+  pdf_target: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  rubric_id: problems-human-app-aligned-thomas-rules
+  reader_role: plain-grad-student-reader
+  location_or_scope: rendered human PDF page 1, after the abstract
+  problem: The rendered human/app-aligned bundle starts like a paper and then turns
+    into a submission-package instruction block, including How To Read This Submission
+    Package, a compact-PDF path, and appendix status-map language.
+  why_it_blocks_clay_ready_submission: A CMI-facing reader is pulled out of the proof
+    into repo/package bookkeeping before the argument has earned trust. This is a
+    live reader-experience and submission-form defect, not a harmless appendix note.
+  required_change: Remove or relocate the package-instruction block from the first-viewport
+    paper experience. The first pages must read as a normal mathematical paper, with
+    any dossier/navigation material placed where it cannot masquerade as the opening
+    proof.
+  routed_surface: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  status: live
+  evidence_refs:
+  - tmp/pdfs/ns-reread/human-page-0001.png
+  - tmp/pdfs/ns-reread/human-p1-8.txt:44
+  - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+- criticism_id: NSPDF-20260609-002
+  pdf_target: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  rubric_id: papers-codex-derived-clay-referee-rubric
+  reader_role: harsh-cmi-referee
+  location_or_scope: compact paper final Clay bridge, terminal-record entry and Clay
+    conclusion
+  problem: 'The compact paper is mathematically rich, but its decisive bridge is still
+    underpaid: every finite-time Clay counterexample is required to supply a same-solution
+    terminal record eligible for the CM test, and failure of Pack/Part/Field is then
+    used to exclude the Clay counterexample.'
+  why_it_blocks_clay_ready_submission: A referee can reject the final theorem if this
+    terminal-record equivalence is treated as a definitional move rather than a hard
+    mathematical reduction from the classical finite-time breakdown statement.
+  required_change: 'Pay the terminal-record bridge as a theorem: derive the same-solution
+    terminal record and its Pack/Part/Field exhaustion from the classical maximal-solution
+    negation without changing the Clay problem or hiding the true breakdown alternative
+    inside the class definition.'
+  routed_surface: papers/navier-stokes/manuscript/generated/main.tex
+  status: live
+  evidence_refs:
+  - papers/navier-stokes/manuscript/generated/main.tex:1477
+  - papers/navier-stokes/manuscript/generated/main.tex:1490
+  - tmp/pdfs/ns-reread/compact-all.txt:1218
+  - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
 discovery_passes:
 - pass_id: initial-rendered-readthrough-20260608
   trigger: initial rendered harsh-referee and plain-reader pass
@@ -921,17 +974,21 @@ reentry_iteration:
   - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
   - problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
   - system/meta/research-os/nightly-six-mpp/runs/2026-06-08/ns-active-completion-loop.yaml
-  result: NSPDF-20260608-007 resolved; post-resolution CMI criteria generation found
-    zero new/live criticism, so the active completion loop can stop only because pdfs_final
-    is true.
+  result: 'False-finality audit reopened the active completion loop: page-one package
+    language and terminal-record bridge payment remain live.'
   changed_state_refs: *3
   reread_inventory_pass_id: post-r3-authority-payment-rendered-cmi-generation-20260608
-  new_criticism_ids: []
-  remaining_live_criticism_ids: []
-  stop_decision: complete
+  new_criticism_ids:
+  - NSPDF-20260609-001
+  - NSPDF-20260609-002
+  remaining_live_criticism_ids:
+  - NSPDF-20260609-001
+  - NSPDF-20260609-002
+  stop_decision: continue
   evidence_refs: *3
-pdfs_final: true
-next_reentry_target: none - pdfs final after zero-new-live post-resolution CMI generation
+pdfs_final: false
+next_reentry_target: resolve NSPDF-20260609-001 and NSPDF-20260609-002, rebuild both
+  PDFs, and rerun rendered CMI/human reread
 evidence_refs:
 - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
 - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md:100
