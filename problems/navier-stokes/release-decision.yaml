@@ -77,9 +77,9 @@ blockers:
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/d8-completion-route-map.yaml
 summary:
-  queue_effect: submission-candidate
-  registry_note: periodic statement (B) package is release-ready; R^3 export is separate
-    statement (A) scope.
+  queue_effect: theorem-work
+  registry_note: Public Clay finality remains blocked at the original-smooth-data
+    Pack-survival frontier; no submission-candidate registry effect is licensed.
 release_or_respawn_consequence:
   disposition: blocked
   next_cell_type: theorem-work
