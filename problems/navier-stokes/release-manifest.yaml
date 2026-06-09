@@ -60,12 +60,12 @@ source_summary:
     ledger_status: blocked-public-clay-finality-open
     all_authority_assumptions_discharged: false
     release_eligible: false
-    release_gate: terminal-positive-source-atom-open
+    release_gate: original-smooth-data-pack-survival-open
     cm_contrapositive_referee_gate_clear: false
   auto_audit_certification:
     current_package_status: active-not-final
     standalone_status: blocked
-    completion_tier_achieved: terminal-positive-source-atom-open
+    completion_tier_achieved: original-smooth-data-pack-survival-open
     review_verdict: blocked
     theorem_packet_status: blocked-public-clay-finality-open
   cm_contrapositive_referee_gate:
@@ -74,7 +74,7 @@ source_summary:
     pass: false
     release_eligible: false
     blockers:
-    - terminal-positive-source-atom-escape
+    - original-smooth-data-pack-survival
   source_fingerprint: 50ac388ad044964b14ac7be8c3980d87d710166d
 artifacts:
 - path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -168,19 +168,18 @@ artifacts:
   bytes: 57290
   modified_at: '2026-06-08T07:21:54Z'
 missing_artifacts: []
-release_gate: terminal-positive-source-atom-open
+release_gate: original-smooth-data-pack-survival-open
 terminal_safe: false
 required_before_terminal_release:
-- Prove TerminalPositiveSourceAtomEscape.A / BASACTerminalSourceAntiConcentration.A
-  or an equivalent terminal time-face anti-atom / source-weighted reserve /
-  rigid-class production theorem.
+- Prove NoGenuineExitFromSmoothData.A through OriginalSmoothDataPackSurvival.A
+  / ScaleCriticalTreeCarleson.A, or an equivalent terminal Pack-survival theorem.
 cm_contrapositive_referee_gate:
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   status: blocked-public-clay-finality-open
   pass: false
   release_eligible: false
   blockers:
-  - terminal-positive-source-atom-escape
+  - original-smooth-data-pack-survival
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight:
   rule_id: ns-target-topology-preflight-v2
