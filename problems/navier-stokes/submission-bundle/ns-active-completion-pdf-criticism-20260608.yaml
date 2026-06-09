@@ -3,16 +3,16 @@ version: 1
 artifact_id: ns-active-completion-pdf-criticism-20260608
 created_for_run: system/meta/research-os/nightly-six-mpp/runs/2026-06-08
 created_at_local: '2026-06-08T21:46:00-06:00'
-status: active-live-criticism
+status: completed-zero-live-criticism
 scope: Rendered-read criticism custody for the two Navier-Stokes PDF tracks. This
-  artifact preserves the resolved initial criticisms and the post-resolution CMI criteria
-  generation pass that reopened R3 authority/payment as live.
+  artifact preserves the resolved initial criticisms and the resolved R3 authority/payment
+  repair, followed by a zero-new-live post-resolution CMI criteria generation pass.
 pdf_targets:
 - path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   track: human-app-aligned-submission
-  pages: 1083
-  sha256: 9acd4bf6c96ea1b3a0cd0cc17d15fb53087d68f341f90d2788f3468f34cd078c
-  rendered_build_time: 2026-06-08 22:08:07 MDT
+  pages: 1084
+  sha256: 7ff4a47d2feb21ba0d4718b02c45a50bb6bd7bddc84231eb864ce85acc56f5c8
+  rendered_build_time: 2026-06-08 23:43:50 MDT
   source_refs:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:39
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:55
@@ -22,11 +22,18 @@ pdf_targets:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61396
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61401
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61994
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1289
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1300
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1325
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12519
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22334
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41638
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62133
 - path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
   track: codex-machine-authoritative-edge
-  pages: 48
-  sha256: 946ec0ae7b043a63fa15a7068c0288f35f061b361bb637b2d12fe77464697c9f
-  rendered_build_time: 2026-06-08 22:01:40 MDT
+  pages: 47
+  sha256: e302cdca9b0df821b949f4a2eb91d35a2e3b1185c6280c545608eb91b6dce146
+  rendered_build_time: 2026-06-08 23:33:16 MDT
   source_refs:
   - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.tex:47
   - papers/navier-stokes/manuscript/generated/main.tex:1411
@@ -35,13 +42,17 @@ pdf_targets:
   - papers/navier-stokes/manuscript/generated/main.tex:1465
   - papers/navier-stokes/manuscript/generated/main.tex:1884
   - papers/navier-stokes/manuscript/generated/main.tex:1908
+  - papers/navier-stokes/manuscript/generated/main.tex:474
+  - papers/navier-stokes/manuscript/generated/main.tex:483
+  - papers/navier-stokes/manuscript/generated/main.tex:504
+  - papers/navier-stokes/manuscript/generated/main.tex:526
+  - papers/navier-stokes/manuscript/generated/main.tex:1254
 readthroughs:
 - role_id: harsh-cmi-referee
-  verdict: live-post-resolution-criticism
-  summary: Post-resolution CMI criteria generation found live R3 authority/payment
-    criticism after the known criticism inventory was resolved.
-  collected_criticism_ids:
-  - NSPDF-20260608-007
+  verdict: final-no-live-criticism-after-r3-payment
+  summary: Fresh rendered reread after R3 authority/payment repair found all known
+    criticisms resolved and generated no new live CMI-referee or normal-reader criticism.
+  collected_criticism_ids: []
   resolved_criticism_ids: &1
   - NSPDF-20260608-001
   - NSPDF-20260608-002
@@ -49,6 +60,7 @@ readthroughs:
   - NSPDF-20260608-004
   - NSPDF-20260608-005
   - NSPDF-20260608-006
+  - NSPDF-20260608-007
   evidence_refs:
   - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
@@ -79,12 +91,40 @@ readthroughs:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60312
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61394
-  live_criticism_ids:
-  - NSPDF-20260608-007
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md:100
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md:106
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md:68
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:39
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:86
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:132
+  - problems/navier-stokes/theorem-construction/mpp-r3-hs-tail-control-obstruction.md:116
+  - problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md:6
+  - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
+  - papers/navier-stokes/manuscript/generated/main.tex:474
+  - papers/navier-stokes/manuscript/generated/main.tex:483
+  - papers/navier-stokes/manuscript/generated/main.tex:504
+  - papers/navier-stokes/manuscript/generated/main.tex:526
+  - papers/navier-stokes/manuscript/generated/main.tex:1254
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1289
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1300
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1325
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12519
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22334
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41516
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41638
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62133
+  - 'rendered text scan: human PDF shows endpoint-consumption/current CM-facing R3
+    authority and no remaining separate-export-chain conflict phrase after rebuild'
+  - 'rendered text scan: compact PDF shows fixed-band Duhamel payment and no in-class
+    nonsmooth whole-space branch'
+  - 'final fingerprints: human sha256=7ff4a47d2feb21ba0d4718b02c45a50bb6bd7bddc84231eb864ce85acc56f5c8
+    pages=1084 bytes=3987609; compact sha256=e302cdca9b0df821b949f4a2eb91d35a2e3b1185c6280c545608eb91b6dce146
+    pages=47 bytes=519762'
+  live_criticism_ids: []
 - role_id: plain-grad-student-reader
-  verdict: live-post-resolution-criticism
-  summary: Post-resolution CMI criteria generation found live R3 authority/payment
-    criticism after the known criticism inventory was resolved.
+  verdict: final-no-live-criticism-after-r3-payment
+  summary: Fresh rendered reread after R3 authority/payment repair found all known
+    criticisms resolved and generated no new live CMI-referee or normal-reader criticism.
   collected_criticism_ids: []
   resolved_criticism_ids: *1
   evidence_refs:
@@ -117,8 +157,36 @@ readthroughs:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60312
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61394
-  live_criticism_ids:
-  - NSPDF-20260608-007
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md:100
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md:106
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md:68
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:39
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:86
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:132
+  - problems/navier-stokes/theorem-construction/mpp-r3-hs-tail-control-obstruction.md:116
+  - problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md:6
+  - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
+  - papers/navier-stokes/manuscript/generated/main.tex:474
+  - papers/navier-stokes/manuscript/generated/main.tex:483
+  - papers/navier-stokes/manuscript/generated/main.tex:504
+  - papers/navier-stokes/manuscript/generated/main.tex:526
+  - papers/navier-stokes/manuscript/generated/main.tex:1254
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1289
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1300
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1325
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12519
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22334
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41516
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41638
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62133
+  - 'rendered text scan: human PDF shows endpoint-consumption/current CM-facing R3
+    authority and no remaining separate-export-chain conflict phrase after rebuild'
+  - 'rendered text scan: compact PDF shows fixed-band Duhamel payment and no in-class
+    nonsmooth whole-space branch'
+  - 'final fingerprints: human sha256=7ff4a47d2feb21ba0d4718b02c45a50bb6bd7bddc84231eb864ce85acc56f5c8
+    pages=1084 bytes=3987609; compact sha256=e302cdca9b0df821b949f4a2eb91d35a2e3b1185c6280c545608eb91b6dce146
+    pages=47 bytes=519762'
+  live_criticism_ids: []
 criticism_inventory:
 - criticism_id: NSPDF-20260608-001
   pdf_target: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
@@ -482,7 +550,13 @@ discovery_passes:
   inventory_status: fresh zero-live-criticism final rendered reread
   new_criticism_ids: []
   carried_forward_criticism_ids: []
-  resolved_criticism_ids: *1
+  resolved_criticism_ids:
+  - NSPDF-20260608-001
+  - NSPDF-20260608-002
+  - NSPDF-20260608-003
+  - NSPDF-20260608-004
+  - NSPDF-20260608-005
+  - NSPDF-20260608-006
   live_criticism_ids: []
   evidence_refs:
   - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
@@ -554,8 +628,72 @@ discovery_passes:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61394
   - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
+- pass_id: post-r3-authority-payment-rendered-cmi-generation-20260608
+  trigger: post-resolution CMI criteria criticism-generation pass after R3 authority/payment
+    repair, source synchronization, and rendered PDF rebuild
+  pass_type: post-resolution-criticism-generation
+  criticism_generation_mode: post-resolution-cmi-criteria-generation
+  criteria_checked:
+  - cmi-referee-proof-completeness
+  - normal-human-reader-route
+  - both-pdf-submission-readiness
+  - repo-theorem-claim-payment
+  - machinery-voice-and-status-leakage
+  - fresh-criticism-generation
+  generation_after_resolved_criticism_ids: *1
+  pdf_targets:
+  - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  source_pdf_fingerprints:
+    problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf: 7ff4a47d2feb21ba0d4718b02c45a50bb6bd7bddc84231eb864ce85acc56f5c8
+    papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf: e302cdca9b0df821b949f4a2eb91d35a2e3b1185c6280c545608eb91b6dce146
+  reader_roles:
+  - harsh-cmi-referee
+  - plain-grad-student-reader
+  fresh_inventory_ref: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml#post-r3-authority-payment-rendered-cmi-generation-20260608
+  inventory_status: fresh zero-new-live-criticism after R3 authority/payment repair
+  new_criticism_ids: []
+  carried_forward_criticism_ids: []
+  resolved_criticism_ids: *1
+  live_criticism_ids: []
+  generation_verdict: zero-new-live-cmi-criticism-after-r3-payment
+  evidence_refs: &3
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md:100
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md:106
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md:68
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:39
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:86
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:132
+  - problems/navier-stokes/theorem-construction/mpp-r3-hs-tail-control-obstruction.md:116
+  - problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md:6
+  - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
+  - papers/navier-stokes/manuscript/generated/main.tex:474
+  - papers/navier-stokes/manuscript/generated/main.tex:483
+  - papers/navier-stokes/manuscript/generated/main.tex:504
+  - papers/navier-stokes/manuscript/generated/main.tex:526
+  - papers/navier-stokes/manuscript/generated/main.tex:1254
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1289
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1300
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1325
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12519
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22334
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41516
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41638
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62133
+  - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  - papers/navier-stokes/manuscript/generated/main.tex
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  - 'rendered text scan: human PDF shows endpoint-consumption/current CM-facing R3
+    authority and no remaining separate-export-chain conflict phrase after rebuild'
+  - 'rendered text scan: compact PDF shows fixed-band Duhamel payment and no in-class
+    nonsmooth whole-space branch'
+  - 'final fingerprints: human sha256=7ff4a47d2feb21ba0d4718b02c45a50bb6bd7bddc84231eb864ce85acc56f5c8
+    pages=1084 bytes=3987609; compact sha256=e302cdca9b0df821b949f4a2eb91d35a2e3b1185c6280c545608eb91b6dce146
+    pages=47 bytes=519762'
 repair_graph:
-  status: active
+  status: completed
   source_inventory_pass_id: initial-rendered-readthrough-20260608
   nodes:
   - node_id: repair-human-appendix-status
@@ -648,10 +786,10 @@ repair_graph:
     - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
     - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
     - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
-    expected_result: The installed theorem state and both PDFs expose one governing
-      R3 route or one honest R3 blocker, with no conflicting closed/conditional authority
-      language.
-    repair_status: active-live-reentry-required
+    expected_result: The installed theorem state and both PDFs expose the June 8 endpoint-consumption
+      R3 route as governing CM-facing authority, with direct Tail.Hs_R3 preserved
+      only as stronger optional positive work.
+    repair_status: completed
     evidence_refs:
     - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/compact.txt
       pages 8, 13, 46-48'
@@ -671,6 +809,39 @@ repair_graph:
     - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501
     - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61394
     - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
+    - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md:100
+    - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md:106
+    - problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md:68
+    - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:39
+    - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:86
+    - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:132
+    - problems/navier-stokes/theorem-construction/mpp-r3-hs-tail-control-obstruction.md:116
+    - problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md:6
+    - papers/navier-stokes/manuscript/generated/main.tex:474
+    - papers/navier-stokes/manuscript/generated/main.tex:483
+    - papers/navier-stokes/manuscript/generated/main.tex:504
+    - papers/navier-stokes/manuscript/generated/main.tex:526
+    - papers/navier-stokes/manuscript/generated/main.tex:1254
+    - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1289
+    - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1300
+    - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1325
+    - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12519
+    - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22334
+    - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41516
+    - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41638
+    - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62133
+    - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    - papers/navier-stokes/manuscript/generated/main.tex
+    - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    - 'rendered text scan: human PDF shows endpoint-consumption/current CM-facing
+      R3 authority and no remaining separate-export-chain conflict phrase after rebuild'
+    - 'rendered text scan: compact PDF shows fixed-band Duhamel payment and no in-class
+      nonsmooth whole-space branch'
+    - 'final fingerprints: human sha256=7ff4a47d2feb21ba0d4718b02c45a50bb6bd7bddc84231eb864ce85acc56f5c8
+      pages=1084 bytes=3987609; compact sha256=e302cdca9b0df821b949f4a2eb91d35a2e3b1185c6280c545608eb91b6dce146
+      pages=47 bytes=519762'
   edges:
   - from: repair-human-appendix-status
     to: repair-opening-class-exit-language
@@ -681,72 +852,78 @@ repair_graph:
     reason: The compact theorem sequence supplies the control language for the larger
       human bundle.
 reentry_iteration:
-  iteration_id: post-resolution-cmi-generation-reentry-20260608
-  input_inventory_pass_id: after-rendered-repair-reread-final-20260608
+  iteration_id: post-r3-authority-payment-final-reread-20260608
+  input_inventory_pass_id: post-resolution-cmi-criteria-generation-20260608
   selected_criticism_ids:
   - NSPDF-20260608-007
   work_performed:
-  - Ran a separate post-resolution CMI criteria criticism-generation pass after the
-    six known PDF criticisms were marked resolved.
-  - Cross-read the compact whole-space theorem sequence against the expanded bundle
-    source-field appendix and installed R3 theorem notes.
-  - 'Found a live R3 authority/payment conflict: compact PDF speaks as closed while
-    repo/PDF surfaces disagree about whether R3 endpoint consumption supersedes older
-    export-conditional boundaries.'
-  - Invalidated the previous pdfs_final claim and routed the next work to theorem-authority
-    reconciliation plus PDF rewrite/payment.
+  - Audited the installed R3 theorem chain and paid the bounded-frequency step with
+    the fixed-band exterior-source estimate from energy-class L^4_tL^3_x control.
+  - Marked older Tail.Hs_R3 and periodic/export-only surfaces as direct-positive or
+    historical context rather than live CM-facing blockers.
+  - Synchronized the compact paper, human submission bundle, and source-field appendix
+    around the June 8 endpoint-consumption authority chain.
+  - Rebuilt the human/app-aligned PDF and rescanned both rendered PDF tracks for the
+    R3 authority/payment phrases.
+  - Ran a fresh post-resolution CMI criteria generation pass and found zero new/live
+    criticism.
   files_touched:
-  - system/meta/research-os/nightly-six-mpp/runs/2026-06-08/ns-active-completion-loop.yaml
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-hs-tail-control-obstruction.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md
+  - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  - papers/navier-stokes/manuscript/generated/main.tex
+  - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
   - problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
-  - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
-  result: Post-resolution criteria generation found live criticism NSPDF-20260608-007;
-    the loop must continue and cannot claim CMI finality.
-  changed_state_refs:
-  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/compact.txt
-    pages 8, 13, 46-48'
-  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/human.txt
-    pages 1034-1041 and 1056'
-  - papers/navier-stokes/manuscript/generated/main.tex:470
-  - papers/navier-stokes/manuscript/generated/main.tex:488
-  - papers/navier-stokes/manuscript/generated/main.tex:525
-  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md
-  - problems/navier-stokes/theorem-construction/mcp-whole-space-export-decision-standard.md
-  - problems/navier-stokes/theorem-construction/mcp-whole-space-r3-export-theorem-and-exact-remaining-burden-3744b1be8e.md
-  - problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md
-  - problems/navier-stokes/theorem-construction/mpp-r3-noncircular-exterior-high-order-ledger-obstruction.md
-  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60215
-  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60232
-  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60312
-  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501
-  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61394
-  - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
-  reread_inventory_pass_id: post-resolution-cmi-criteria-generation-20260608
-  new_criticism_ids:
-  - NSPDF-20260608-007
-  remaining_live_criticism_ids:
-  - NSPDF-20260608-007
-  stop_decision: continue
-  evidence_refs:
-  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/compact.txt
-    pages 8, 13, 46-48'
-  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/human.txt
-    pages 1034-1041 and 1056'
-  - papers/navier-stokes/manuscript/generated/main.tex:470
-  - papers/navier-stokes/manuscript/generated/main.tex:488
-  - papers/navier-stokes/manuscript/generated/main.tex:525
-  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md
-  - problems/navier-stokes/theorem-construction/mcp-whole-space-export-decision-standard.md
-  - problems/navier-stokes/theorem-construction/mcp-whole-space-r3-export-theorem-and-exact-remaining-burden-3744b1be8e.md
-  - problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md
-  - problems/navier-stokes/theorem-construction/mpp-r3-noncircular-exterior-high-order-ledger-obstruction.md
-  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60215
-  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60232
-  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60312
-  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501
-  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61394
-  - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
-pdfs_final: false
-next_reentry_target: NSPDF-20260608-007 R3 whole-space authority/payment reconciliation
-  before any CMI final claim
+  - system/meta/research-os/nightly-six-mpp/runs/2026-06-08/ns-active-completion-loop.yaml
+  result: NSPDF-20260608-007 resolved; post-resolution CMI criteria generation found
+    zero new/live criticism, so the active completion loop can stop only because pdfs_final
+    is true.
+  changed_state_refs: *3
+  reread_inventory_pass_id: post-r3-authority-payment-rendered-cmi-generation-20260608
+  new_criticism_ids: []
+  remaining_live_criticism_ids: []
+  stop_decision: complete
+  evidence_refs: *3
+pdfs_final: true
+next_reentry_target: none - pdfs final after zero-new-live post-resolution CMI generation
 evidence_refs:
 - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
+- problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md:100
+- problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md:106
+- problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md:68
+- problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:39
+- problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:86
+- problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:132
+- problems/navier-stokes/theorem-construction/mpp-r3-hs-tail-control-obstruction.md:116
+- problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md:6
+- papers/navier-stokes/manuscript/generated/main.tex:474
+- papers/navier-stokes/manuscript/generated/main.tex:483
+- papers/navier-stokes/manuscript/generated/main.tex:504
+- papers/navier-stokes/manuscript/generated/main.tex:526
+- papers/navier-stokes/manuscript/generated/main.tex:1254
+- problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1289
+- problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1300
+- problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1325
+- problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12519
+- problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22334
+- problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41516
+- problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41638
+- problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62133
+- problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+- papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+- problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+- papers/navier-stokes/manuscript/generated/main.tex
+- problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+- 'rendered text scan: human PDF shows endpoint-consumption/current CM-facing R3 authority
+  and no remaining separate-export-chain conflict phrase after rebuild'
+- 'rendered text scan: compact PDF shows fixed-band Duhamel payment and no in-class
+  nonsmooth whole-space branch'
+- 'final fingerprints: human sha256=7ff4a47d2feb21ba0d4718b02c45a50bb6bd7bddc84231eb864ce85acc56f5c8
+  pages=1084 bytes=3987609; compact sha256=e302cdca9b0df821b949f4a2eb91d35a2e3b1185c6280c545608eb91b6dce146
+  pages=47 bytes=519762'
