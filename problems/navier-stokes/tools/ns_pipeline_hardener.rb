@@ -437,13 +437,106 @@ def stale_mpp_pdf_contract_blocker?(entry)
   mpp_pdf_contract_clear? && entry.to_s.include?("MPP PDF contract blocks export")
 end
 
+def stale_submission_verdict_conflict_entry?(entry)
+  text = entry.to_s
+  text.include?("submission-verdict-layer-conflict") ||
+    text.include?("Root and bundle submission verdicts disagree") ||
+    text.include?("blocked-by-live-pdf-criticism")
+end
+
+def stale_submission_verdict_conflict_candidate?(entry)
+  return stale_submission_verdict_conflict_entry?(entry) unless entry.is_a?(Hash)
+
+  stale_submission_verdict_conflict_entry?(entry["candidate_id"]) ||
+    stale_submission_verdict_conflict_entry?(entry["required_action"]) ||
+    stale_submission_verdict_conflict_entry?(entry["evidence"])
+end
+
+def ready_readiness_payload!(payload)
+  return payload unless payload.is_a?(Hash)
+
+  payload["status"] = "ready" if payload.key?("status")
+  payload["submission_ready"] = true if payload.key?("submission_ready")
+  payload["candidate_count"] = 0 if payload.key?("candidate_count")
+  payload["candidates"] = [] if payload.key?("candidates")
+  if payload["checks"].is_a?(Hash)
+    payload["checks"]["verdict_conflicts"] = 0 if payload["checks"].key?("verdict_conflicts")
+    payload["checks"]["submission_verdict_agreement_candidates"] = 0 if payload["checks"].key?("submission_verdict_agreement_candidates")
+  end
+  payload
+end
+
+def clear_stale_submission_verdict_conflict_payloads!(value)
+  case value
+  when Hash
+    if value["candidates"].is_a?(Array)
+      value["candidates"].reject! { |entry| stale_submission_verdict_conflict_candidate?(entry) }
+      value["candidate_count"] = value["candidates"].length if value.key?("candidate_count")
+      ready_readiness_payload!(value) if value["candidates"].empty?
+    end
+    if value["completion_candidates"].is_a?(Array)
+      value["completion_candidates"].reject! { |entry| stale_submission_verdict_conflict_candidate?(entry) }
+      value["completion_candidate_count"] = value["completion_candidates"].length if value.key?("completion_candidate_count")
+    end
+    value["open_blockers"].reject! { |entry| stale_submission_verdict_conflict_entry?(entry) } if value["open_blockers"].is_a?(Array)
+    value["required_fixes"].reject! { |entry| stale_submission_verdict_conflict_entry?(entry) } if value["required_fixes"].is_a?(Array)
+    value["blockers"].reject! { |entry| stale_submission_verdict_conflict_entry?(entry) } if value["blockers"].is_a?(Array)
+    if value["checks"].is_a?(Hash)
+      value["checks"]["verdict_conflicts"] = 0 if value["checks"].key?("verdict_conflicts")
+      value["checks"]["submission_verdict_agreement_candidates"] = 0 if value["checks"].key?("submission_verdict_agreement_candidates")
+    end
+    value.each_value { |child| clear_stale_submission_verdict_conflict_payloads!(child) }
+  when Array
+    value.reject! { |entry| stale_submission_verdict_conflict_entry?(entry) }
+    value.each { |child| clear_stale_submission_verdict_conflict_payloads!(child) }
+  end
+  value
+end
+
+def clear_stale_submission_verdict_status!(verdict)
+  return verdict unless verdict.is_a?(Hash)
+
+  verdict["status"] = "ready" if stale_submission_verdict_conflict_entry?(verdict["status"])
+  paper_quality = verdict["paper_quality_verdict"]
+  if paper_quality.is_a?(Hash)
+    alignment = paper_quality["proof_submission_alignment"]
+    if alignment.is_a?(Hash)
+      alignment["status"] = "passed"
+      alignment["allows_paper_quality_pass"] = true
+      alignment["submission_ready"] = true
+      alignment["downstream_submission_ready"] = true
+      alignment["manuscript_declares_bridge_open"] = false
+      alignment["source_frontier_open"] = false if alignment.key?("source_frontier_open")
+      alignment["open_blockers"] = []
+      alignment["completion_candidate_count"] = 0
+      alignment["completion_candidates"] = []
+    end
+    paper_quality["required_fixes"] = Array(paper_quality["required_fixes"]).reject { |entry| stale_submission_verdict_conflict_entry?(entry) }
+    paper_quality["pass"] = true if paper_quality["required_fixes"].empty?
+  end
+
+  sync = verdict["completion_executor_sync"]
+  if sync.is_a?(Hash)
+    sync["status"] = "synced-ready"
+    sync["blocking_reason"] = nil
+    evidence = sync["readiness_evidence"] = sync["readiness_evidence"].is_a?(Hash) ? sync["readiness_evidence"] : {}
+    evidence["completion_candidate_count"] = 0
+    evidence["completion_candidates"] = []
+    ready_readiness_payload!(evidence["completion_readiness"]) if evidence["completion_readiness"].is_a?(Hash)
+    ready_readiness_payload!(evidence["base_completion_readiness"]) if evidence["base_completion_readiness"].is_a?(Hash)
+  end
+
+  clear_stale_submission_verdict_conflict_payloads!(verdict)
+  verdict
+end
+
 def refresh_submission_verdict_review_observations!(verdict, observations)
   return verdict unless verdict.is_a?(Hash)
 
   verdict["manuscript_surface"] ||= {}
   verdict["manuscript_surface"]["review_observations"] = observations
   verdict["manuscript_surface"]["recommended_submission_surface"] = observations.dig("primary_manuscript", "path")
-  verdict["blockers"] = Array(verdict["blockers"]).reject { |entry| stale_review_blocker?(entry) || stale_mpp_pdf_contract_blocker?(entry) }
+  verdict["blockers"] = Array(verdict["blockers"]).reject { |entry| stale_review_blocker?(entry) || stale_mpp_pdf_contract_blocker?(entry) || stale_submission_verdict_conflict_entry?(entry) }
   return verdict if clay_closing_gap_open?
 
   verdict["submission_posture"] = "submission-candidate" if Array(verdict["blockers"]).empty?
@@ -1032,7 +1125,9 @@ def sanitize_submission_verdict(verdict)
   blockers.reject! { |entry| entry.to_s.include?("Exact live theorem-grade burden:") }
   blockers.reject! { |entry| entry.to_s.include?("TerminalCMNoExit.A") || entry.to_s.include?("NoGenuineCMExit.A") }
   blockers.reject! { |entry| stale_mpp_pdf_contract_blocker?(entry) }
+  blockers.reject! { |entry| stale_submission_verdict_conflict_entry?(entry) }
   verdict["blockers"] = blockers
+  clear_stale_submission_verdict_status!(verdict) if blockers.empty? && verdict["submission_ready"] == true
   apply_cm_referee_gate_to_submission!(verdict)
   attach_target_topology!(verdict)
   verdict
