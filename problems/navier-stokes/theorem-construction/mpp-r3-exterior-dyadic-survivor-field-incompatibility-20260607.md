@@ -65,7 +65,7 @@ N^s\|P_N f\|_{L^2}\le C_{\rho,M,Q}N^{s-M}\to0
 
 because \(M>s\). The finite number of retained \(\rho\)-scale field windows gives the same limit for the whole selected packet.
 
-The exterior \(L^2\) tightness and the bounded-frequency lemma have already removed mass that is not attached to the selected high-frequency packet. If a surviving piece is outside the retained material address, \(\Pack_Q\) has failed. If it is detached from the same Navier--Stokes equation, pressure, viscosity, and source ancestry, \(\Part_{M,Q}\) has failed. On the branch currently under consideration, Pack and Part are retained, so the survivor must be seen inside the finite \(\rho\)-scale Field windows.
+The bounded-frequency lemma has already removed the fixed-band response, so the branch under consideration is the selected high-frequency packet. If a surviving piece is outside the retained material address, \(\Pack_Q\) has failed. If it is detached from the same Navier--Stokes equation, pressure, viscosity, and source ancestry, \(\Part_{M,Q}\) has failed. On the branch currently under consideration, Pack and Part are retained, so the survivor must be seen inside the finite \(\rho\)-scale Field windows.
 
 That contradicts the dyadic survivor lower bound
 
