@@ -2,7 +2,7 @@
 
 Date: 2026-06-08
 
-Status: active PDF/referee blocker, not CMI-final.
+Status: resolved by theorem payment, manuscript synchronization, rendered PDF rebuild, and post-resolution reread evidence.
 
 ## Trigger
 
@@ -35,9 +35,11 @@ chain for the whole-space branch.
   records the conditional export theorem and exact remaining `R^3` burden.
 - `problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md`
   keeps `Tail.Hs_R3` as the open noncircular whole-space tail theorem.
-- `problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501`
-  still says a torus-first section does not prove the whole-space `R^3` export
-  branch.
+- `problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex`
+  previously preserved torus-first/export-only language as if it still governed
+  the whole-space branch; the current appendix now marks those passages as
+  historical or direct-positive-route context and names the June 8
+  endpoint-consumption chain as the CM-facing `R^3` authority.
 
 ## Current Judgment
 
@@ -77,11 +79,11 @@ The three inputs named by the June 8 endpoint-consumption note do exist:
   against the dyadic survivor. This is the strongest theorem-grade link in the
   chain.
 
-So the next work is not to silently restore the old `Tail.Hs_R3` positive
-theorem as the only target. The next work is to audit the dyadic-escape input,
-especially the exterior `L^2`/bounded-frequency response claim, and then either
-promote the June 8 CM endpoint-consumption chain into the PDFs or demote the
-whole-space claim.
+The audit of the dyadic-escape input is complete. The exterior
+bounded-frequency response claim is paid by the fixed-band
+`L^1_tL^{3/2}_x -> L^\infty_tL^2_x` estimate from the energy class, and the
+June 8 CM endpoint-consumption chain has been promoted into both PDF tracks and
+the source-field appendix.
 
 ## Resolution Work
 
@@ -99,7 +101,12 @@ The authority chain now has this shape:
    resulting branch into Pack, Part, or Field and leaves direct `Tail.Hs_R3`
    as a stronger optional positive theorem.
 
-The remaining work for `NSPDF-20260608-007` is manuscript synchronization and
-fresh reread, not theorem selection.
+The manuscript synchronization and fresh rendered reread for
+`NSPDF-20260608-007` are complete. The compact paper states the fixed-band
+Duhamel payment and whole-space CM completion route; the human bundle states
+the exterior-source survivor proposition; the appendix demotes the old
+direct-positive export obstruction and repeats that direct `Tail.Hs_R3` is
+stronger optional work, not a CM-facing blocker.
 
-This note is the object-level target for `NSPDF-20260608-007`.
+This note is the resolved object-level authority record for
+`NSPDF-20260608-007`.
