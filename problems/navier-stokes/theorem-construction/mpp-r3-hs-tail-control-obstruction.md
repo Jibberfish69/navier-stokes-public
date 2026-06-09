@@ -2,9 +2,18 @@
 
 ## Status
 
-Failed discharge / obstruction note for the whole-space branch.
+Failed discharge / obstruction note for the direct positive whole-space tail
+theorem.
 
-The exterior L2 tightness theorem closes the finite-energy mass-escape face. The whole-space continuation theorem still needs uniform exterior Hs tail control.
+The exterior L2 tightness theorem closes the finite-energy mass-escape face.
+The direct positive export route still needs uniform exterior Hs tail control.
+The CM-facing whole-space branch is no longer governed by this note alone: the
+June 8 endpoint-consumption theorem
+`mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md` treats a surviving
+exterior Hs source as a terminal Pack/Part/Field face after the Duhamel split,
+bounded-frequency removal, and dyadic survivor landing. Thus this note remains
+authority for the stronger optional theorem `Tail.Hs_R3`; it is not a live
+blocker to the CM pass-or-exit branch.
 
 ## Target
 
@@ -100,4 +109,13 @@ Compact-core tower bounds give Hs control on B_R, and Tail.Hs_R3 controls the ex
 
 ## Verdict
 
-The R3 branch remains open at Tail.Hs_R3. Uniform exterior L2 tightness is discharged, while the high-order exterior tail needed for global Hs continuation is still unsupported by the current branch inputs.
+The direct positive `Tail.Hs_R3` theorem remains open. Uniform exterior L2
+tightness is discharged, while exterior L2 alone still cannot imply exterior
+Hs tightness.
+
+This verdict does not reopen the CM-facing whole-space branch after the June 8
+endpoint-consumption theorem. In the CM route, the surviving high-order exterior
+source is tested as the same alleged terminal object; after bounded-frequency
+removal it must be dyadic escape, and that dyadic survivor lands in Pack, Part,
+or Field. A future R3 reopening must now attack one of those paid steps, not
+cite the absence of the stronger positive tail theorem alone.
