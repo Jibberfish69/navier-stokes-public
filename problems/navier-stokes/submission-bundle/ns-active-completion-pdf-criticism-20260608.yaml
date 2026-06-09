@@ -486,7 +486,7 @@ criticism_inventory:
     obstruction as live theorem work.'
   routed_surface: problems/navier-stokes/theorem-construction/**; papers/navier-stokes/manuscript/generated/main.tex;
     problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex; problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-  status: live-post-resolution-cmi-criticism
+  status: resolved
   evidence_refs:
   - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/compact.txt
     pages 8, 13, 46-48'
@@ -506,6 +506,46 @@ criticism_inventory:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61394
   - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md:100
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md:106
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md:68
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:39
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:86
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md:132
+  - problems/navier-stokes/theorem-construction/mpp-r3-hs-tail-control-obstruction.md:116
+  - problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md:6
+  - papers/navier-stokes/manuscript/generated/main.tex:474
+  - papers/navier-stokes/manuscript/generated/main.tex:483
+  - papers/navier-stokes/manuscript/generated/main.tex:504
+  - papers/navier-stokes/manuscript/generated/main.tex:526
+  - papers/navier-stokes/manuscript/generated/main.tex:1254
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1289
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1300
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1325
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12519
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22334
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41516
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41638
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62133
+  - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  - papers/navier-stokes/manuscript/generated/main.tex
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  - 'rendered text scan: human PDF shows endpoint-consumption/current CM-facing R3
+    authority and no remaining separate-export-chain conflict phrase after rebuild'
+  - 'rendered text scan: compact PDF shows fixed-band Duhamel payment and no in-class
+    nonsmooth whole-space branch'
+  - 'final fingerprints: human sha256=7ff4a47d2feb21ba0d4718b02c45a50bb6bd7bddc84231eb864ce85acc56f5c8
+    pages=1084 bytes=3987609; compact sha256=e302cdca9b0df821b949f4a2eb91d35a2e3b1185c6280c545608eb91b6dce146
+    pages=47 bytes=519762'
+  resolved_at_local: '2026-06-08T23:44:10-06:00'
+  resolution_summary: Resolved by paying the R3 bounded-frequency step through the
+    fixed-band exterior-source estimate, promoting the June 8 endpoint-consumption
+    route as the governing CM-facing whole-space authority, demoting older periodic/export
+    and Tail.Hs_R3 surfaces to historical or stronger direct-positive context, rebuilding
+    the human PDF, and running a fresh zero-new-live post-resolution CMI generation
+    pass.
 discovery_passes:
 - pass_id: initial-rendered-readthrough-20260608
   trigger: initial rendered harsh-referee and plain-reader pass
