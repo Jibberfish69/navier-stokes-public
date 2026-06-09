@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-09T19:16:13Z'
+generated_at: '2026-06-09T19:18:22Z'
 status: blocked-by-live-pdf-criticism
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -39,7 +39,7 @@ submission_ready: false
 readiness_blocker: 'Navier-Stokes completion readiness is blocked by 2 unresolved
   candidate(s): NSPDF-20260609-001, NSPDF-20260609-002.'
 manuscript_tex_sha1: ef537cf74f58a69a143c8ab9bd894999664c4663
-completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608-iteration-2.yaml
+completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608.yaml
 readiness_evidence:
   source_frontier_clear: true
   open_d8_proof_blockers: 0
