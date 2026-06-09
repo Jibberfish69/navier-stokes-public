@@ -172,9 +172,11 @@ release_gate: original-smooth-data-pack-survival-open
 terminal_safe: false
 required_before_terminal_release:
 - Prove NoGenuineExitFromSmoothData.A through OriginalSmoothDataPackSurvival.A
-  / ScaleCriticalTreeCarleson.A by proving the active
-  NativeSourceTemporalThicknessFromFirstExit.A supplier leaf, or supply an
-  equivalent terminal Pack-survival theorem.
+  / ScaleCriticalTreeCarleson.A by proving ScaleCriticalTreeCarleson.A /
+  LocalPositiveSourceCarleson.A in its native positive pre-Cauchy source form,
+  or by proving ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A for the terminal
+  Zeno source-refill branch, or supply an equivalent terminal Pack-survival
+  theorem.
 cm_contrapositive_referee_gate:
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   status: blocked-public-clay-finality-open
@@ -660,11 +662,13 @@ open_root_group:
     role: readout presentation requiring direct accountability before use as a target
 exact_live_theorem_grade_burden: *1
 release_or_respawn_consequence:
-  disposition: submission-candidate
-  next_cell_type: submission
-  next_stage: full-mpp-closure-submission-candidate
+  disposition: blocked
+  next_cell_type: theorem-work
+  next_stage: active-public-clay-finality-blocked
   next_action: Keep proof, graph, viewer, manuscript, both PDF tracks, and submission
-    wrappers aligned with the full CM contrapositive closure state.
+    wrappers aligned with the open original-smooth-data Pack-survival frontier
+    and its active terminal Zeno source-refill carleson-or-rigidity supplier
+    leaf.
 forward_positive_surface_quarantine:
   status: active-global-demotion
   index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
