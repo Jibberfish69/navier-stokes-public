@@ -7,16 +7,18 @@ identity:
   evaluated_at: '2026-06-08T07:57:59Z'
   source_verdict_id: review-verdict-navier-stokes
 decision:
-  disposition: submission-candidate
-  release_posture: export-ready
+  disposition: blocked
+  release_posture: not-export-ready
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: full-mpp-closure
-  next_cell_type: submission
-  next_stage: full-mpp-closure-submission-candidate
-  next_action: Keep proof, graph, viewer, manuscript, both PDF tracks, and submission
-    wrappers aligned with the full CM contrapositive closure state.
-  rationale: Direct live CM authority and the accepted full-MPP review govern release;
-    stale no-exit respawn language is support only.
+  completion_tier_achieved: terminal-positive-source-atom-open
+  next_cell_type: theorem-work
+  next_stage: active-public-clay-finality-blocked
+  next_action: Prove TerminalPositiveSourceAtomEscape.A / BASACTerminalSourceAntiConcentration.A
+    or an equivalent terminal time-face anti-atom / source-weighted reserve /
+    rigid-class production theorem before any submission-candidate claim.
+  rationale: Public Clay finality is blocked at the native positive source atom
+    leaf exposed by the active completion loop; release-ready surfaces are stale
+    unless they carry this blocker.
   exact_live_theorem_grade_burden: &1
     status: contrapositive-witness-consumption-installed
     burden_id: clay-cm-contrapositive-witness-consumption
@@ -55,23 +57,30 @@ artifacts:
   typeset_audit: problems/navier-stokes/submission-bundle/typeset-audit.yaml
   review_log: problems/navier-stokes/review-log.md
   review_verdict: problems/navier-stokes/review-verdict.yaml
-blockers: []
+blockers:
+- blocker_id: terminal-positive-source-atom-escape
+  status: open
+  refs:
+  - problems/navier-stokes/theorem-construction/mpp-terminal-positive-source-atom-frontier-reentry-20260609.md
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/d8-completion-route-map.yaml
 summary:
   queue_effect: submission-candidate
   registry_note: periodic statement (B) package is release-ready; R^3 export is separate
     statement (A) scope.
 release_or_respawn_consequence:
-  disposition: submission-candidate
-  next_cell_type: submission
-  next_stage: full-mpp-closure-submission-candidate
+  disposition: blocked
+  next_cell_type: theorem-work
+  next_stage: active-public-clay-finality-blocked
   next_action: Keep proof, graph, viewer, manuscript, both PDF tracks, and submission
-    wrappers aligned with the full CM contrapositive closure state.
+    wrappers aligned with the open terminal-positive-source-atom frontier.
 cm_contrapositive_referee_gate:
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
-  status: passed
-  pass: true
-  release_eligible: true
-  blockers: []
+  status: blocked-public-clay-finality-open
+  pass: false
+  release_eligible: false
+  blockers:
+  - terminal-positive-source-atom-escape
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight:
   rule_id: ns-target-topology-preflight-v2
