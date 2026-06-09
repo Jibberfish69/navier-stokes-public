@@ -172,7 +172,9 @@ release_gate: original-smooth-data-pack-survival-open
 terminal_safe: false
 required_before_terminal_release:
 - Prove NoGenuineExitFromSmoothData.A through OriginalSmoothDataPackSurvival.A
-  / ScaleCriticalTreeCarleson.A, or an equivalent terminal Pack-survival theorem.
+  / ScaleCriticalTreeCarleson.A by paying the active B_ASAC terminal
+  source-residue Liouville / time-face anti-atom supplier leaf, or supply an
+  equivalent terminal Pack-survival theorem.
 cm_contrapositive_referee_gate:
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   status: blocked-public-clay-finality-open
