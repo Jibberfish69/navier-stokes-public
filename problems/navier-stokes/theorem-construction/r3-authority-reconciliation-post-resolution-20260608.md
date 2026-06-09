@@ -52,6 +52,29 @@ called CMI-final until the paper either:
 2. demotes the rendered theorem claim back to the periodic branch and routes
    `R^3` as a live export/tail-control theorem.
 
+## First Authority Check
+
+The three inputs named by the June 8 endpoint-consumption note do exist:
+
+- `mpp-r3-tail-hs-duhamel-source-reduction-20260607.md` reduces the exterior
+  high-order tail to initial ancestry, compact-core far-kernel source, and the
+  genuinely exterior nonlinear source. It explicitly says this is not
+  whole-space closure.
+- `mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md` turns a surviving
+  exterior nonlinear source into high-frequency dyadic escape. Its weak point
+  for referee promotion is the bounded-frequency step, which depends on the
+  installed exterior `L^2` tightness and low-frequency Duhamel response.
+- `mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md` proves
+  the retained Pack+Part branch cannot also retain a fixed positive Field scale
+  against the dyadic survivor. This is the strongest theorem-grade link in the
+  chain.
+
+So the next work is not to silently restore the old `Tail.Hs_R3` positive
+theorem as the only target. The next work is to audit the dyadic-escape input,
+especially the exterior `L^2`/bounded-frequency response claim, and then either
+promote the June 8 CM endpoint-consumption chain into the PDFs or demote the
+whole-space claim.
+
 ## Next Proof/PDF Work
 
 The next pass should not create another status wrapper. It should work the
