@@ -419,7 +419,7 @@ criticism_inventory:
   routed_surface: problems/navier-stokes/theorem-construction/**; papers/navier-stokes/manuscript/generated/main.tex;
     problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex; problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   status: live-post-resolution-cmi-criticism
-  evidence_refs: &3
+  evidence_refs:
   - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/compact.txt
     pages 8, 13, 46-48'
   - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/human.txt
@@ -437,6 +437,7 @@ criticism_inventory:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60312
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61394
+  - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
 discovery_passes:
 - pass_id: initial-rendered-readthrough-20260608
   trigger: initial rendered harsh-referee and plain-reader pass
@@ -534,7 +535,25 @@ discovery_passes:
   live_criticism_ids:
   - NSPDF-20260608-007
   generation_verdict: new-live-cmi-referee-criticism-found
-  evidence_refs: *3
+  evidence_refs:
+  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/compact.txt
+    pages 8, 13, 46-48'
+  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/human.txt
+    pages 1034-1041 and 1056'
+  - papers/navier-stokes/manuscript/generated/main.tex:470
+  - papers/navier-stokes/manuscript/generated/main.tex:488
+  - papers/navier-stokes/manuscript/generated/main.tex:525
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md
+  - problems/navier-stokes/theorem-construction/mcp-whole-space-export-decision-standard.md
+  - problems/navier-stokes/theorem-construction/mcp-whole-space-r3-export-theorem-and-exact-remaining-burden-3744b1be8e.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-noncircular-exterior-high-order-ledger-obstruction.md
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60215
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60232
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60312
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61394
+  - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
 repair_graph:
   status: active
   source_inventory_pass_id: initial-rendered-readthrough-20260608
@@ -628,11 +647,30 @@ repair_graph:
     - papers/navier-stokes/manuscript/generated/main.tex
     - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
     - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
     expected_result: The installed theorem state and both PDFs expose one governing
       R3 route or one honest R3 blocker, with no conflicting closed/conditional authority
       language.
     repair_status: active-live-reentry-required
-    evidence_refs: *3
+    evidence_refs:
+    - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/compact.txt
+      pages 8, 13, 46-48'
+    - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/human.txt
+      pages 1034-1041 and 1056'
+    - papers/navier-stokes/manuscript/generated/main.tex:470
+    - papers/navier-stokes/manuscript/generated/main.tex:488
+    - papers/navier-stokes/manuscript/generated/main.tex:525
+    - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md
+    - problems/navier-stokes/theorem-construction/mcp-whole-space-export-decision-standard.md
+    - problems/navier-stokes/theorem-construction/mcp-whole-space-r3-export-theorem-and-exact-remaining-burden-3744b1be8e.md
+    - problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md
+    - problems/navier-stokes/theorem-construction/mpp-r3-noncircular-exterior-high-order-ledger-obstruction.md
+    - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60215
+    - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60232
+    - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60312
+    - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501
+    - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61394
+    - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
   edges:
   - from: repair-human-appendix-status
     to: repair-opening-class-exit-language
@@ -660,16 +698,55 @@ reentry_iteration:
   files_touched:
   - system/meta/research-os/nightly-six-mpp/runs/2026-06-08/ns-active-completion-loop.yaml
   - problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
+  - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
   result: Post-resolution criteria generation found live criticism NSPDF-20260608-007;
     the loop must continue and cannot claim CMI finality.
-  changed_state_refs: *3
+  changed_state_refs:
+  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/compact.txt
+    pages 8, 13, 46-48'
+  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/human.txt
+    pages 1034-1041 and 1056'
+  - papers/navier-stokes/manuscript/generated/main.tex:470
+  - papers/navier-stokes/manuscript/generated/main.tex:488
+  - papers/navier-stokes/manuscript/generated/main.tex:525
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md
+  - problems/navier-stokes/theorem-construction/mcp-whole-space-export-decision-standard.md
+  - problems/navier-stokes/theorem-construction/mcp-whole-space-r3-export-theorem-and-exact-remaining-burden-3744b1be8e.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-noncircular-exterior-high-order-ledger-obstruction.md
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60215
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60232
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60312
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61394
+  - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
   reread_inventory_pass_id: post-resolution-cmi-criteria-generation-20260608
   new_criticism_ids:
   - NSPDF-20260608-007
   remaining_live_criticism_ids:
   - NSPDF-20260608-007
   stop_decision: continue
-  evidence_refs: *3
+  evidence_refs:
+  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/compact.txt
+    pages 8, 13, 46-48'
+  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/human.txt
+    pages 1034-1041 and 1056'
+  - papers/navier-stokes/manuscript/generated/main.tex:470
+  - papers/navier-stokes/manuscript/generated/main.tex:488
+  - papers/navier-stokes/manuscript/generated/main.tex:525
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md
+  - problems/navier-stokes/theorem-construction/mcp-whole-space-export-decision-standard.md
+  - problems/navier-stokes/theorem-construction/mcp-whole-space-r3-export-theorem-and-exact-remaining-burden-3744b1be8e.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-noncircular-exterior-high-order-ledger-obstruction.md
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60215
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60232
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60312
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61394
+  - problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
 pdfs_final: false
 next_reentry_target: NSPDF-20260608-007 R3 whole-space authority/payment reconciliation
   before any CMI final claim
+evidence_refs:
+- problems/navier-stokes/theorem-construction/r3-authority-reconciliation-post-resolution-20260608.md
