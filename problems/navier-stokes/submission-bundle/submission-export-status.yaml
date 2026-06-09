@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-09T18:53:42Z'
+generated_at: '2026-06-09T18:54:51Z'
 status: blocked-by-live-pdf-criticism
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
