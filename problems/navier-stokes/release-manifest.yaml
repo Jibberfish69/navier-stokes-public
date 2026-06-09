@@ -57,17 +57,17 @@ source_summary:
     release_posture: not-export-ready
     completion_tier_achieved: terminal-positive-source-atom-open
   existing_assumption_ledger_status:
-    ledger_status: release-ready
-    all_authority_assumptions_discharged: true
-    release_eligible: true
-    release_gate: full-mpp-closure-ready
-    cm_contrapositive_referee_gate_clear: true
+    ledger_status: blocked-public-clay-finality-open
+    all_authority_assumptions_discharged: false
+    release_eligible: false
+    release_gate: terminal-positive-source-atom-open
+    cm_contrapositive_referee_gate_clear: false
   auto_audit_certification:
-    current_package_status: full-mpp-closure-ready
-    standalone_status: accept
-    completion_tier_achieved: full-mpp-closure
-    review_verdict: accept
-    theorem_packet_status: export-ready
+    current_package_status: active-not-final
+    standalone_status: blocked
+    completion_tier_achieved: terminal-positive-source-atom-open
+    review_verdict: blocked
+    theorem_packet_status: blocked-public-clay-finality-open
   cm_contrapositive_referee_gate:
     audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
     status: blocked-public-clay-finality-open
@@ -168,15 +168,19 @@ artifacts:
   bytes: 57290
   modified_at: '2026-06-08T07:21:54Z'
 missing_artifacts: []
-release_gate: full-mpp-closure-ready
-terminal_safe: true
-required_before_terminal_release: []
+release_gate: terminal-positive-source-atom-open
+terminal_safe: false
+required_before_terminal_release:
+- Prove TerminalPositiveSourceAtomEscape.A / BASACTerminalSourceAntiConcentration.A
+  or an equivalent terminal time-face anti-atom / source-weighted reserve /
+  rigid-class production theorem.
 cm_contrapositive_referee_gate:
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
-  status: passed
-  pass: true
-  release_eligible: true
-  blockers: []
+  status: blocked-public-clay-finality-open
+  pass: false
+  release_eligible: false
+  blockers:
+  - terminal-positive-source-atom-escape
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight:
   rule_id: ns-target-topology-preflight-v2
