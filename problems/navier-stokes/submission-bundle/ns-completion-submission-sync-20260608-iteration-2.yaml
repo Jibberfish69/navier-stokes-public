@@ -24,16 +24,16 @@ pdf_tracks:
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     present: true
-    sha1: 7cade40c5b24196d1dd1abd07697eeed5adba3e7
-    bytes: 3987609
+    sha1: 84a0410a823c3245d7c1b91ef8f5597cf8f87e67
+    bytes: 3960641
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
     role: preferred problems/** app-aligned human submission track
     required_for_clay_submission: true
   codex_machine_paper:
     path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
     present: true
-    sha1: 24c8751c40e31ab0645ce23674e7b9007fc39489
-    bytes: 519762
+    sha1: c17689a09a2867b4017812f8736a0401b5ec7944
+    bytes: 523248
     manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
     role: papers/** Codex-owned machine paper track
     required_for_clay_submission: true
@@ -45,98 +45,66 @@ pdf_render_status:
     human_app_aligned:
       path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       present: true
-      sha1: 7cade40c5b24196d1dd1abd07697eeed5adba3e7
-      bytes: 3987609
+      sha1: 84a0410a823c3245d7c1b91ef8f5597cf8f87e67
+      bytes: 3960641
       manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
       required_for_clay_submission: true
     codex_machine_paper:
       path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
       present: true
-      sha1: 24c8751c40e31ab0645ce23674e7b9007fc39489
-      bytes: 519762
+      sha1: c17689a09a2867b4017812f8736a0401b5ec7944
+      bytes: 523248
       manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
       required_for_clay_submission: true
   preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
 human_pdf:
   path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   present: true
-  sha1: 7cade40c5b24196d1dd1abd07697eeed5adba3e7
-  bytes: 3987609
+  sha1: 84a0410a823c3245d7c1b91ef8f5597cf8f87e67
+  bytes: 3960641
 manuscript_tex:
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   present: true
-  sha1: ef537cf74f58a69a143c8ab9bd894999664c4663
-  bytes: 85362
+  sha1: 7b5f18e0208b668d121ed2ba8826720e2efc2407
+  bytes: 85783
 verdict_alignment:
   root_verdict_synced: true
   bundle_verdict_synced: true
   export_status_synced: true
   submission_ready: false
-  blocking_reason: 'Navier-Stokes completion readiness is blocked by 2 unresolved
-    candidate(s): NSPDF-20260609-001, NSPDF-20260609-002.'
+  blocking_reason: 'Navier-Stokes completion readiness is blocked by 1 unresolved
+    candidate(s): submission-verdict-layer-conflict.'
   readiness_evidence:
     source_frontier_clear: true
     open_d8_proof_blockers: 0
-    completion_candidate_count: 2
+    completion_candidate_count: 1
     completion_candidates:
-    - candidate_id: NSPDF-20260609-001
-      kind: active_pdf_criticism
-      surface: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
-      evidence: The rendered human/app-aligned bundle starts like a paper and then
-        turns into a submission-package instruction block, including How To Read This
-        Submission Package, a compact-PDF path, and appendix status-map language.
-      required_action: Remove or relocate the package-instruction block from the first-viewport
-        paper experience. The first pages must read as a normal mathematical paper,
-        with any dossier/navigation material placed where it cannot masquerade as
-        the opening proof.
-    - candidate_id: NSPDF-20260609-002
-      kind: active_pdf_criticism
-      surface: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
-      evidence: 'The compact paper is mathematically rich, but its decisive bridge
-        is still underpaid: every finite-time Clay counterexample is required to supply
-        a same-solution terminal record eligible for the CM test, and failure of Pack/Part/Field
-        is then used to exclude the Clay counterexample.'
-      required_action: 'Pay the terminal-record bridge as a theorem: derive the same-solution
-        terminal record and its Pack/Part/Field exhaustion from the classical maximal-solution
-        negation without changing the Clay problem or hiding the true breakdown alternative
-        inside the class definition.'
+    - candidate_id: submission-verdict-layer-conflict
+      kind: submission_verdict
+      surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+      evidence: root_ready=true bundle_ready=false
+      required_action: Root and bundle submission verdicts disagree.
     completion_readiness:
       status: blocked
       submission_ready: false
-      candidate_count: 2
+      candidate_count: 1
       candidates:
-      - candidate_id: NSPDF-20260609-001
-        kind: active_pdf_criticism
-        surface: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
-        evidence: The rendered human/app-aligned bundle starts like a paper and then
-          turns into a submission-package instruction block, including How To Read
-          This Submission Package, a compact-PDF path, and appendix status-map language.
-        required_action: Remove or relocate the package-instruction block from the
-          first-viewport paper experience. The first pages must read as a normal mathematical
-          paper, with any dossier/navigation material placed where it cannot masquerade
-          as the opening proof.
-      - candidate_id: NSPDF-20260609-002
-        kind: active_pdf_criticism
-        surface: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
-        evidence: 'The compact paper is mathematically rich, but its decisive bridge
-          is still underpaid: every finite-time Clay counterexample is required to
-          supply a same-solution terminal record eligible for the CM test, and failure
-          of Pack/Part/Field is then used to exclude the Clay counterexample.'
-        required_action: 'Pay the terminal-record bridge as a theorem: derive the
-          same-solution terminal record and its Pack/Part/Field exhaustion from the
-          classical maximal-solution negation without changing the Clay problem or
-          hiding the true breakdown alternative inside the class definition.'
+      - candidate_id: submission-verdict-layer-conflict
+        kind: submission_verdict
+        surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+        evidence: root_ready=true bundle_ready=false
+        required_action: Root and bundle submission verdicts disagree.
       checks:
         route_candidates: 0
         d8_candidates: 0
         live_edge_candidates: 0
-        verdict_conflicts: 0
+        verdict_conflicts: 1
         child_paper_repo_candidates: 0
         manuscript_unresolved_candidates: 0
-        active_pdf_criticism_candidates: 2
+        active_pdf_criticism_candidates: 0
         source_frontier_candidates: 0
         route_state_agreement_candidates: 0
-        submission_verdict_agreement_candidates: 0
+        submission_verdict_agreement_candidates: 1
         pdf_track_candidates: 0
         current_material_candidates: 0
         clay_closing_gap_candidates: 0
@@ -149,53 +117,36 @@ verdict_alignment:
           human_app_aligned:
             path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
             present: true
-            sha1: 7cade40c5b24196d1dd1abd07697eeed5adba3e7
-            bytes: 3987609
+            sha1: 84a0410a823c3245d7c1b91ef8f5597cf8f87e67
+            bytes: 3960641
             manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
             required_for_clay_submission: true
           codex_machine_paper:
             path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
             present: true
-            sha1: 24c8751c40e31ab0645ce23674e7b9007fc39489
-            bytes: 519762
+            sha1: c17689a09a2867b4017812f8736a0401b5ec7944
+            bytes: 523248
             manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
             required_for_clay_submission: true
         preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       base_completion_readiness:
         status: blocked
         submission_ready: false
-        candidate_count: 2
+        candidate_count: 1
         candidates:
-        - candidate_id: NSPDF-20260609-001
-          kind: active_pdf_criticism
-          surface: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
-          evidence: The rendered human/app-aligned bundle starts like a paper and
-            then turns into a submission-package instruction block, including How
-            To Read This Submission Package, a compact-PDF path, and appendix status-map
-            language.
-          required_action: Remove or relocate the package-instruction block from the
-            first-viewport paper experience. The first pages must read as a normal
-            mathematical paper, with any dossier/navigation material placed where
-            it cannot masquerade as the opening proof.
-        - candidate_id: NSPDF-20260609-002
-          kind: active_pdf_criticism
-          surface: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
-          evidence: 'The compact paper is mathematically rich, but its decisive bridge
-            is still underpaid: every finite-time Clay counterexample is required
-            to supply a same-solution terminal record eligible for the CM test, and
-            failure of Pack/Part/Field is then used to exclude the Clay counterexample.'
-          required_action: 'Pay the terminal-record bridge as a theorem: derive the
-            same-solution terminal record and its Pack/Part/Field exhaustion from
-            the classical maximal-solution negation without changing the Clay problem
-            or hiding the true breakdown alternative inside the class definition.'
+        - candidate_id: submission-verdict-layer-conflict
+          kind: submission_verdict
+          surface: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+          evidence: root_ready=true bundle_ready=false
+          required_action: Root and bundle submission verdicts disagree.
         checks:
           route_candidates: 0
           d8_candidates: 0
           live_edge_candidates: 0
-          verdict_conflicts: 0
+          verdict_conflicts: 1
           child_paper_repo_candidates: 0
           manuscript_unresolved_candidates: 0
-          active_pdf_criticism_candidates: 2
+          active_pdf_criticism_candidates: 0
     pdf_tracks_present: true
     pdf_tracks_rendered: true
     pdf_render_status:
@@ -205,15 +156,15 @@ verdict_alignment:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: 7cade40c5b24196d1dd1abd07697eeed5adba3e7
-          bytes: 3987609
+          sha1: 84a0410a823c3245d7c1b91ef8f5597cf8f87e67
+          bytes: 3960641
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
           path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
           present: true
-          sha1: 24c8751c40e31ab0645ce23674e7b9007fc39489
-          bytes: 519762
+          sha1: c17689a09a2867b4017812f8736a0401b5ec7944
+          bytes: 523248
           manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
           required_for_clay_submission: true
       preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
@@ -221,16 +172,16 @@ verdict_alignment:
       human_app_aligned:
         path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
         present: true
-        sha1: 7cade40c5b24196d1dd1abd07697eeed5adba3e7
-        bytes: 3987609
+        sha1: 84a0410a823c3245d7c1b91ef8f5597cf8f87e67
+        bytes: 3960641
         manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
         role: preferred problems/** app-aligned human submission track
         required_for_clay_submission: true
       codex_machine_paper:
         path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
         present: true
-        sha1: 24c8751c40e31ab0645ce23674e7b9007fc39489
-        bytes: 519762
+        sha1: c17689a09a2867b4017812f8736a0401b5ec7944
+        bytes: 523248
         manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
         role: papers/** Codex-owned machine paper track
         required_for_clay_submission: true
