@@ -3,10 +3,10 @@ version: 1
 artifact_id: ns-active-completion-pdf-criticism-20260608
 created_for_run: system/meta/research-os/nightly-six-mpp/runs/2026-06-08
 created_at_local: '2026-06-08T21:46:00-06:00'
-status: completed-zero-live-criticism
+status: active-live-criticism
 scope: Rendered-read criticism custody for the two Navier-Stokes PDF tracks. This
-  artifact preserves the initial criticisms, the repairs, and the final rendered reread
-  that resolved all known live criticism for this run.
+  artifact preserves the resolved initial criticisms and the post-resolution CMI criteria
+  generation pass that reopened R3 authority/payment as live.
 pdf_targets:
 - path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   track: human-app-aligned-submission
@@ -37,10 +37,11 @@ pdf_targets:
   - papers/navier-stokes/manuscript/generated/main.tex:1908
 readthroughs:
 - role_id: harsh-cmi-referee
-  verdict: final-no-live-criticism
-  summary: Fresh rendered reread after repair found the known criticisms resolved
-    with no new live criticism from the harsh-referee and plain-reader passes.
-  collected_criticism_ids: []
+  verdict: live-post-resolution-criticism
+  summary: Post-resolution CMI criteria generation found live R3 authority/payment
+    criticism after the known criticism inventory was resolved.
+  collected_criticism_ids:
+  - NSPDF-20260608-007
   resolved_criticism_ids: &1
   - NSPDF-20260608-001
   - NSPDF-20260608-002
@@ -48,7 +49,7 @@ readthroughs:
   - NSPDF-20260608-004
   - NSPDF-20260608-005
   - NSPDF-20260608-006
-  evidence_refs: &2
+  evidence_refs:
   - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -61,13 +62,63 @@ readthroughs:
   - 'visual check: /tmp/ns-pdf-reread/human-page-91.png'
   - 'visual check: /tmp/ns-pdf-reread/human-page-1070b.png'
   - 'visual check: /tmp/ns-pdf-reread/compact-page-47.png'
+  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/compact.txt
+    pages 8, 13, 46-48'
+  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/human.txt
+    pages 1034-1041 and 1056'
+  - papers/navier-stokes/manuscript/generated/main.tex:470
+  - papers/navier-stokes/manuscript/generated/main.tex:488
+  - papers/navier-stokes/manuscript/generated/main.tex:525
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md
+  - problems/navier-stokes/theorem-construction/mcp-whole-space-export-decision-standard.md
+  - problems/navier-stokes/theorem-construction/mcp-whole-space-r3-export-theorem-and-exact-remaining-burden-3744b1be8e.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-noncircular-exterior-high-order-ledger-obstruction.md
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60215
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60232
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60312
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61394
+  live_criticism_ids:
+  - NSPDF-20260608-007
 - role_id: plain-grad-student-reader
-  verdict: final-no-live-criticism
-  summary: Fresh rendered reread after repair found the known criticisms resolved
-    with no new live criticism from the harsh-referee and plain-reader passes.
+  verdict: live-post-resolution-criticism
+  summary: Post-resolution CMI criteria generation found live R3 authority/payment
+    criticism after the known criticism inventory was resolved.
   collected_criticism_ids: []
   resolved_criticism_ids: *1
-  evidence_refs: *2
+  evidence_refs:
+  - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  - papers/navier-stokes/manuscript/generated/main.tex
+  - papers/navier-stokes/review/codex-paper-architecture.yaml
+  - 'rendered text scan: no high-risk stale finality / conditional theorem / open-closure
+    phrases matched after final rebuild'
+  - 'visual check: /tmp/ns-pdf-reread/human-page-1.png'
+  - 'visual check: /tmp/ns-pdf-reread/human-page-91.png'
+  - 'visual check: /tmp/ns-pdf-reread/human-page-1070b.png'
+  - 'visual check: /tmp/ns-pdf-reread/compact-page-47.png'
+  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/compact.txt
+    pages 8, 13, 46-48'
+  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/human.txt
+    pages 1034-1041 and 1056'
+  - papers/navier-stokes/manuscript/generated/main.tex:470
+  - papers/navier-stokes/manuscript/generated/main.tex:488
+  - papers/navier-stokes/manuscript/generated/main.tex:525
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md
+  - problems/navier-stokes/theorem-construction/mcp-whole-space-export-decision-standard.md
+  - problems/navier-stokes/theorem-construction/mcp-whole-space-r3-export-theorem-and-exact-remaining-burden-3744b1be8e.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-noncircular-exterior-high-order-ledger-obstruction.md
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60215
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60232
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60312
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61394
+  live_criticism_ids:
+  - NSPDF-20260608-007
 criticism_inventory:
 - criticism_id: NSPDF-20260608-001
   pdf_target: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
@@ -338,6 +389,54 @@ criticism_inventory:
   resolution_summary: Resolved by adding the rendered appendix status map, demoting
     old work-order passages to historical/support-only status, and visually checking
     the status map plus late appendix page after rebuild.
+- criticism_id: NSPDF-20260608-007
+  pdf_target: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  rubric_id: papers-codex-derived-clay-referee-rubric
+  reader_role: harsh-cmi-referee
+  location_or_scope: compact PDF whole-space export/completion theorem sequence, cross-read
+    against expanded bundle source-field appendix and installed R3 theorem notes
+  problem: 'The compact paper states a whole-space CM completion route for R^3, while
+    installed repo surfaces still disagree about whether R^3 is closed: the newer
+    endpoint-consumption note promotes a CM tail-face consumption route, but older
+    scope/export notes and expanded appendix material still say whole-space export
+    or Tail.Hs_R3-style localization/tail control remains conditional or separately
+    required. A CMI referee cannot tell from the rendered papers which authority governs
+    the Clay whole-space claim.'
+  why_it_blocks_clay_ready_submission: The Clay statement includes the whole-space
+    rapidly decaying branch. A submission cannot be CMI-final while the compact paper
+    claims R^3 completion and the supporting repo/PDF surfaces preserve unresolved
+    or conflicting R^3 authority. The next pass must either make the June 8 R3 CM
+    endpoint-consumption chain referee-complete in both PDFs and demote superseded
+    periodic-scope/export warnings, or keep the theorem claim scoped away from R^3.
+  required_change: 'Reconcile and pay the R3 authority chain at theorem and manuscript
+    level: decide from installed theorem notes whether the June 8 exterior-tail CM
+    endpoint-consumption route genuinely supersedes the older periodic-only/export-conditional
+    boundary, then update the compact paper, expanded human bundle, and source-field
+    appendix so the reader sees one governing R3 route with exact hypotheses, inputs,
+    and no conflicting open-export language. If the chain is not theorem-grade, demote
+    the whole-space claim and route the exact Tail.Hs_R3 / exterior-source endpoint
+    obstruction as live theorem work.'
+  routed_surface: problems/navier-stokes/theorem-construction/**; papers/navier-stokes/manuscript/generated/main.tex;
+    problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex; problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  status: live-post-resolution-cmi-criticism
+  evidence_refs: &3
+  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/compact.txt
+    pages 8, 13, 46-48'
+  - 'post-resolution CMI criteria pass: /tmp/ns-post-resolution-cmi-20260608/human.txt
+    pages 1034-1041 and 1056'
+  - papers/navier-stokes/manuscript/generated/main.tex:470
+  - papers/navier-stokes/manuscript/generated/main.tex:488
+  - papers/navier-stokes/manuscript/generated/main.tex:525
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md
+  - problems/navier-stokes/theorem-construction/mcp-whole-space-export-decision-standard.md
+  - problems/navier-stokes/theorem-construction/mcp-whole-space-r3-export-theorem-and-exact-remaining-burden-3744b1be8e.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-noncircular-exterior-high-order-ledger-obstruction.md
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60215
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60232
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60312
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60501
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61394
 discovery_passes:
 - pass_id: initial-rendered-readthrough-20260608
   trigger: initial rendered harsh-referee and plain-reader pass
@@ -384,9 +483,60 @@ discovery_passes:
   carried_forward_criticism_ids: []
   resolved_criticism_ids: *1
   live_criticism_ids: []
-  evidence_refs: *2
+  evidence_refs:
+  - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  - papers/navier-stokes/manuscript/generated/main.tex
+  - papers/navier-stokes/review/codex-paper-architecture.yaml
+  - 'rendered text scan: no high-risk stale finality / conditional theorem / open-closure
+    phrases matched after final rebuild'
+  - 'visual check: /tmp/ns-pdf-reread/human-page-1.png'
+  - 'visual check: /tmp/ns-pdf-reread/human-page-91.png'
+  - 'visual check: /tmp/ns-pdf-reread/human-page-1070b.png'
+  - 'visual check: /tmp/ns-pdf-reread/compact-page-47.png'
+- pass_id: post-resolution-cmi-criteria-generation-20260608
+  trigger: post-resolution CMI criteria criticism-generation pass after all known
+    criticism ids NSPDF-20260608-001 through NSPDF-20260608-006 were marked resolved
+  pass_type: post-resolution-criticism-generation
+  criticism_generation_mode: post-resolution-cmi-criteria-generation
+  criteria_checked:
+  - cmi-referee-proof-completeness
+  - normal-human-reader-route
+  - both-pdf-submission-readiness
+  - repo-theorem-claim-payment
+  - machinery-voice-and-status-leakage
+  - fresh-criticism-generation
+  generation_after_resolved_criticism_ids: &2
+  - NSPDF-20260608-001
+  - NSPDF-20260608-002
+  - NSPDF-20260608-003
+  - NSPDF-20260608-004
+  - NSPDF-20260608-005
+  - NSPDF-20260608-006
+  pdf_targets:
+  - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  source_pdf_fingerprints:
+    problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf: 9acd4bf6c96ea1b3a0cd0cc17d15fb53087d68f341f90d2788f3468f34cd078c
+    papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf: 946ec0ae7b043a63fa15a7068c0288f35f061b361bb637b2d12fe77464697c9f
+  reader_roles:
+  - harsh-cmi-referee
+  - plain-grad-student-reader
+  fresh_inventory_ref: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml#post-resolution-cmi-criteria-generation-20260608
+  inventory_status: fresh post-resolution criteria generation found live R3 authority/payment
+    criticism
+  new_criticism_ids:
+  - NSPDF-20260608-007
+  carried_forward_criticism_ids: []
+  resolved_criticism_ids: *2
+  live_criticism_ids:
+  - NSPDF-20260608-007
+  generation_verdict: new-live-cmi-referee-criticism-found
+  evidence_refs: *3
 repair_graph:
-  status: completed
+  status: active
   source_inventory_pass_id: initial-rendered-readthrough-20260608
   nodes:
   - node_id: repair-human-appendix-status
@@ -466,6 +616,23 @@ repair_graph:
     - 'visual check: /tmp/ns-pdf-reread/human-page-91.png'
     - 'visual check: /tmp/ns-pdf-reread/human-page-1070b.png'
     - 'visual check: /tmp/ns-pdf-reread/compact-page-47.png'
+  - node_id: repair-r3-authority-payment-chain
+    governing_criticism_id: NSPDF-20260608-007
+    criticism_ids:
+    - NSPDF-20260608-007
+    objective: Reconcile and pay the R3 whole-space authority chain so the PDFs no
+      longer claim more than the installed theorem state supports.
+    target_files:
+    - problems/navier-stokes/theorem-construction/mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md
+    - problems/navier-stokes/theorem-construction/mcp-whole-space-export-decision-standard.md
+    - papers/navier-stokes/manuscript/generated/main.tex
+    - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    expected_result: The installed theorem state and both PDFs expose one governing
+      R3 route or one honest R3 blocker, with no conflicting closed/conditional authority
+      language.
+    repair_status: active-live-reentry-required
+    evidence_refs: *3
   edges:
   - from: repair-human-appendix-status
     to: repair-opening-class-exit-language
@@ -476,71 +643,33 @@ repair_graph:
     reason: The compact theorem sequence supplies the control language for the larger
       human bundle.
 reentry_iteration:
-  iteration_id: pdf-criticism-custody-reentry-20260608
-  input_inventory_pass_id: initial-rendered-readthrough-20260608
+  iteration_id: post-resolution-cmi-generation-reentry-20260608
+  input_inventory_pass_id: after-rendered-repair-reread-final-20260608
   selected_criticism_ids:
-  - NSPDF-20260608-001
-  - NSPDF-20260608-002
-  - NSPDF-20260608-003
-  - NSPDF-20260608-004
-  - NSPDF-20260608-005
-  - NSPDF-20260608-006
+  - NSPDF-20260608-007
   work_performed:
-  - Rendered both PDF targets to text and inspected front matter, closing sections,
-    theorem bridge sections, and late appendix conflict surfaces.
-  - Created this criticism-custody and reentry artifact so the trajectory loop cannot
-    report PDF finality while live criticism remains.
-  - Routed the next reentry to the exact paper/source surfaces rather than editing
-    concurrently touched PDF sources inside the parent governance lane.
-  - Edited the human bundle opening and package front matter so the same-solution
-    terminal-record proof route is explicit.
-  - Added the appendix status map and rewrote stale no-closure/work-order passages
-    as historical or support-only under current proof authority.
-  - Rewrote the compact paper final theorem sequence, added citations/references,
-    and made the two-track package role visible.
-  - Rebuilt both PDFs, captured final fingerprints, performed rendered text scans,
-    and visually checked representative pages.
+  - Ran a separate post-resolution CMI criteria criticism-generation pass after the
+    six known PDF criticisms were marked resolved.
+  - Cross-read the compact whole-space theorem sequence against the expanded bundle
+    source-field appendix and installed R3 theorem notes.
+  - 'Found a live R3 authority/payment conflict: compact PDF speaks as closed while
+    repo/PDF surfaces disagree about whether R3 endpoint consumption supersedes older
+    export-conditional boundaries.'
+  - Invalidated the previous pdfs_final claim and routed the next work to theorem-authority
+    reconciliation plus PDF rewrite/payment.
   files_touched:
+  - system/meta/research-os/nightly-six-mpp/runs/2026-06-08/ns-active-completion-loop.yaml
   - problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
-  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
-  - papers/navier-stokes/manuscript/generated/main.tex
-  - papers/navier-stokes/review/codex-paper-architecture.yaml
-  result: All six known PDF criticisms were resolved in source, both PDFs were rebuilt,
-    fresh rendered reread found zero live criticism, and CMI-final can be claimed
-    for this run state.
-  changed_state_refs:
-  - problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
-  - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-  - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
-  - papers/navier-stokes/manuscript/generated/main.tex
-  - papers/navier-stokes/review/codex-paper-architecture.yaml
-  - 'rendered text scan: no high-risk stale finality / conditional theorem / open-closure
-    phrases matched after final rebuild'
-  - 'visual check: /tmp/ns-pdf-reread/human-page-1.png'
-  - 'visual check: /tmp/ns-pdf-reread/human-page-91.png'
-  - 'visual check: /tmp/ns-pdf-reread/human-page-1070b.png'
-  - 'visual check: /tmp/ns-pdf-reread/compact-page-47.png'
-  reread_inventory_pass_id: after-rendered-repair-reread-final-20260608
-  new_criticism_ids: []
-  remaining_live_criticism_ids: []
-  stop_decision: complete
-  evidence_refs:
-  - problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
-  - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-  - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
-  - papers/navier-stokes/manuscript/generated/main.tex
-  - papers/navier-stokes/review/codex-paper-architecture.yaml
-  - 'rendered text scan: no high-risk stale finality / conditional theorem / open-closure
-    phrases matched after final rebuild'
-  - 'visual check: /tmp/ns-pdf-reread/human-page-1.png'
-  - 'visual check: /tmp/ns-pdf-reread/human-page-91.png'
-  - 'visual check: /tmp/ns-pdf-reread/human-page-1070b.png'
-  - 'visual check: /tmp/ns-pdf-reread/compact-page-47.png'
-pdfs_final: true
-next_reentry_target: none - PDFs final by fresh rendered reread with zero live criticism
-  for this run state
+  result: Post-resolution criteria generation found live criticism NSPDF-20260608-007;
+    the loop must continue and cannot claim CMI finality.
+  changed_state_refs: *3
+  reread_inventory_pass_id: post-resolution-cmi-criteria-generation-20260608
+  new_criticism_ids:
+  - NSPDF-20260608-007
+  remaining_live_criticism_ids:
+  - NSPDF-20260608-007
+  stop_decision: continue
+  evidence_refs: *3
+pdfs_final: false
+next_reentry_target: NSPDF-20260608-007 R3 whole-space authority/payment reconciliation
+  before any CMI final claim
