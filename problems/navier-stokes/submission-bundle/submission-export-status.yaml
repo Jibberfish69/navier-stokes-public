@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-09T19:04:13Z'
+generated_at: '2026-06-09T19:07:34Z'
 status: blocked-by-live-pdf-criticism
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -35,20 +35,63 @@ skeletal_source_detected: false
 authoritative_content_included: true
 authoritative_supplements: []
 codex_machine_manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
-submission_ready: true
-readiness_blocker: 
+submission_ready: false
+readiness_blocker: 'Navier-Stokes completion readiness is blocked by 2 unresolved
+  candidate(s): NSPDF-20260609-001, NSPDF-20260609-002.'
 manuscript_tex_sha1: ef537cf74f58a69a143c8ab9bd894999664c4663
 completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608-iteration-2.yaml
 readiness_evidence:
   source_frontier_clear: true
   open_d8_proof_blockers: 0
-  completion_candidate_count: 0
-  completion_candidates: []
+  completion_candidate_count: 2
+  completion_candidates:
+  - candidate_id: NSPDF-20260609-001
+    kind: active_pdf_criticism
+    surface: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
+    evidence: The rendered human/app-aligned bundle starts like a paper and then turns
+      into a submission-package instruction block, including How To Read This Submission
+      Package, a compact-PDF path, and appendix status-map language.
+    required_action: Remove or relocate the package-instruction block from the first-viewport
+      paper experience. The first pages must read as a normal mathematical paper,
+      with any dossier/navigation material placed where it cannot masquerade as the
+      opening proof.
+  - candidate_id: NSPDF-20260609-002
+    kind: active_pdf_criticism
+    surface: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
+    evidence: 'The compact paper is mathematically rich, but its decisive bridge is
+      still underpaid: every finite-time Clay counterexample is required to supply
+      a same-solution terminal record eligible for the CM test, and failure of Pack/Part/Field
+      is then used to exclude the Clay counterexample.'
+    required_action: 'Pay the terminal-record bridge as a theorem: derive the same-solution
+      terminal record and its Pack/Part/Field exhaustion from the classical maximal-solution
+      negation without changing the Clay problem or hiding the true breakdown alternative
+      inside the class definition.'
   completion_readiness:
-    status: ready
-    submission_ready: true
-    candidate_count: 0
-    candidates: []
+    status: blocked
+    submission_ready: false
+    candidate_count: 2
+    candidates:
+    - candidate_id: NSPDF-20260609-001
+      kind: active_pdf_criticism
+      surface: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
+      evidence: The rendered human/app-aligned bundle starts like a paper and then
+        turns into a submission-package instruction block, including How To Read This
+        Submission Package, a compact-PDF path, and appendix status-map language.
+      required_action: Remove or relocate the package-instruction block from the first-viewport
+        paper experience. The first pages must read as a normal mathematical paper,
+        with any dossier/navigation material placed where it cannot masquerade as
+        the opening proof.
+    - candidate_id: NSPDF-20260609-002
+      kind: active_pdf_criticism
+      surface: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
+      evidence: 'The compact paper is mathematically rich, but its decisive bridge
+        is still underpaid: every finite-time Clay counterexample is required to supply
+        a same-solution terminal record eligible for the CM test, and failure of Pack/Part/Field
+        is then used to exclude the Clay counterexample.'
+      required_action: 'Pay the terminal-record bridge as a theorem: derive the same-solution
+        terminal record and its Pack/Part/Field exhaustion from the classical maximal-solution
+        negation without changing the Clay problem or hiding the true breakdown alternative
+        inside the class definition.'
     checks:
       route_candidates: 0
       d8_candidates: 0
@@ -56,6 +99,7 @@ readiness_evidence:
       verdict_conflicts: 0
       child_paper_repo_candidates: 0
       manuscript_unresolved_candidates: 0
+      active_pdf_criticism_candidates: 2
       source_frontier_candidates: 0
       route_state_agreement_candidates: 0
       submission_verdict_agreement_candidates: 0
@@ -84,10 +128,31 @@ readiness_evidence:
           required_for_clay_submission: true
       preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     base_completion_readiness:
-      status: ready
-      submission_ready: true
-      candidate_count: 0
-      candidates: []
+      status: blocked
+      submission_ready: false
+      candidate_count: 2
+      candidates:
+      - candidate_id: NSPDF-20260609-001
+        kind: active_pdf_criticism
+        surface: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
+        evidence: The rendered human/app-aligned bundle starts like a paper and then
+          turns into a submission-package instruction block, including How To Read
+          This Submission Package, a compact-PDF path, and appendix status-map language.
+        required_action: Remove or relocate the package-instruction block from the
+          first-viewport paper experience. The first pages must read as a normal mathematical
+          paper, with any dossier/navigation material placed where it cannot masquerade
+          as the opening proof.
+      - candidate_id: NSPDF-20260609-002
+        kind: active_pdf_criticism
+        surface: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
+        evidence: 'The compact paper is mathematically rich, but its decisive bridge
+          is still underpaid: every finite-time Clay counterexample is required to
+          supply a same-solution terminal record eligible for the CM test, and failure
+          of Pack/Part/Field is then used to exclude the Clay counterexample.'
+        required_action: 'Pay the terminal-record bridge as a theorem: derive the
+          same-solution terminal record and its Pack/Part/Field exhaustion from the
+          classical maximal-solution negation without changing the Clay problem or
+          hiding the true breakdown alternative inside the class definition.'
       checks:
         route_candidates: 0
         d8_candidates: 0
@@ -95,6 +160,7 @@ readiness_evidence:
         verdict_conflicts: 0
         child_paper_repo_candidates: 0
         manuscript_unresolved_candidates: 0
+        active_pdf_criticism_candidates: 2
   pdf_tracks_present: true
   pdf_tracks_rendered: true
   pdf_render_status:
