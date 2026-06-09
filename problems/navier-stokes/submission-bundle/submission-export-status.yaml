@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-09T04:12:47Z'
+generated_at: '2026-06-09T04:33:36Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -38,7 +38,7 @@ codex_machine_manuscript_source: papers/navier-stokes/manuscript/generated/main.
 submission_ready: true
 readiness_blocker: 
 manuscript_tex_sha1: a23a3c9568ce7cdb9757fdf866aa647aca8ec457
-completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608-iteration-2.yaml
+completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608.yaml
 readiness_evidence:
   source_frontier_clear: true
   open_d8_proof_blockers: 0
