@@ -36,7 +36,11 @@ The installed R3 notes provide the following chain.
 
 2. `mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md` proves that a
    nonzero exterior nonlinear-source tail cannot be carried by bounded
-   frequency. A surviving source selects radii \(R_j\to\infty\), times
+   frequency. The bounded-frequency step is paid by the fixed-band estimate
+   from \(L^1_tL^{3/2}_x\) exterior source smallness to \(L^2_x\) response
+   smallness, with the source smallness coming from the energy-class
+   interpolation \(u\in L^4_tL^3_x\). A surviving source selects radii
+   \(R_j\to\infty\), times
    \(t_j<T_*\), and dyadic frequencies \(N_j\to\infty\) with
 
    ```text
@@ -79,9 +83,13 @@ the Duhamel reduction. If the genuinely exterior nonlinear source also vanishes
 in exterior \(H^s\), then the positive tail input `Tail.Hs_R3` is supplied.
 
 Assume instead that the exterior nonlinear source does not vanish in exterior
-\(H^s\). The bounded-frequency lemma removes every fixed frequency window using
-the installed exterior \(L^2\) tightness and the same off-diagonal source
-separation. Therefore the surviving source has a dyadic high-frequency packet:
+\(H^s\). The bounded-frequency lemma removes every fixed frequency window:
+on a fixed dyadic band, the heat/Leray multiplier maps the exterior nonlinear
+source from \(L^1_tL^{3/2}_x\) into \(L^\infty_tL^2_x\), and the exterior
+source tends to zero in \(L^1_tL^{3/2}_x\) because
+\(u\in L^4_tL^3_x\) in the energy class and the source is localized outside
+radii \(R\to\infty\). Therefore the surviving source has a dyadic
+high-frequency packet:
 
 ```text
 N_j^s || P_{N_j} W_{R_j}(t_j) ||_2 >= c > 0,
