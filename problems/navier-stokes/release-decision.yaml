@@ -15,8 +15,8 @@ decision:
   next_stage: active-public-clay-finality-blocked
   next_action: Prove NoGenuineExitFromSmoothData.A through
     OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A by paying the
-    active B_ASAC terminal source-residue Liouville / time-face anti-atom supplier,
-    or supply an equivalent terminal Pack-survival theorem, before any
+    active NativeSourceTemporalThicknessFromFirstExit.A supplier, or supply an
+    equivalent terminal Pack-survival theorem, before any
     submission-candidate claim.
   rationale: Public Clay finality is blocked at the first-exit Pack survival wall
     exposed by the active completion loop; terminal source anti-atom work is a
@@ -65,6 +65,7 @@ blockers:
   refs:
   - problems/navier-stokes/theorem-construction/mpp-public-finality-first-exit-pack-wall-reentry-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-retained-positive-scale-reserve-birth-charge-reentry-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-basac-timeface-antiatom-original-smooth-data-reentry-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/d8-completion-route-map.yaml
@@ -78,7 +79,7 @@ release_or_respawn_consequence:
   next_stage: active-public-clay-finality-blocked
   next_action: Keep proof, graph, viewer, manuscript, both PDF tracks, and submission
     wrappers aligned with the open original-smooth-data Pack-survival frontier
-    and its active B_ASAC terminal time-face supplier leaf.
+    and its active native-source temporal-thickness supplier leaf.
 cm_contrapositive_referee_gate:
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   status: blocked-public-clay-finality-open
