@@ -266,18 +266,19 @@ terminal_state: &11
     A face-derived Exit(Q):=not Member(Q) is terminal obstruction classification,
     not by itself a contradiction to finite Clay breakdown. No theorem yet proves
     OriginalSmoothData => ScaleCriticalTreeCarleson.A or Pack_{Q_atlas} fixed readout.
-    The current narrowed theorem leaf is SecondOrderScaleExactness.A under the
-    retained far-corona endpoint route: the B_ASAC source-density, source-time,
-    CKN/source-tether, first-exit Pack, retained-carrier compactness, lifted-band
-    flux, affine quotient, mu_N endpoint, endpoint threading, direct (8j11), retained
-    finite-collar amplitude, seed-to-interval, `nu_N` synchronization, and endpoint
-    mass/commutator, signed-to-positive transfer, and endpoint observability routes
-    have reduced the live branch to second-order scale exactness / measure estimates.
-    RetainedMuNCarleson.A, retained positive-stress decorrelation / Carleson, and uniform
-    `nu_N` synchronization remain open alternatives.
-    Keep pdfs_final false until an endpoint-threading theorem feeds `(EP)`, `(L-Flux)`,
-    retained tail input, Part-row compactness,
-    NoGenuineExitFromSmoothData.A, and both PDF final rereads are paid.'
+    The endpoint exactness branch has been audited as consumed at current resolution:
+    retained affine second-order, mu_N endpoint threading, terminal `nu_N` synchronization,
+    endpoint mass/commutator, signed-to-positive transfer, endpoint observability,
+    and positive-stress decorrelation / Carleson all return to live criticisms already
+    in this run. The rejoined B_ASAC quantitative source-density family was also
+    tested directly: NativePositiveSourceUniformIntegrability_{B_ASAC}.A, Orlicz
+    residence, Morrey residence, and local positive source Carleson are not produced
+    by finite L^1_s source mass, local-energy BV traces, weak linear trace compactness,
+    zero ASAC, paid exits, or no fixed earlier selected source slice.
+    Keep pdfs_final false until a non-alias FirstExitPackSurvivalMechanismSearch.A
+    / OriginalSmoothDataPackSurvival.A bridge, or a genuinely new source-residence
+    theorem stronger than finite L^1_s source mass, propagates through
+    NoGenuineExitFromSmoothData.A and both PDF final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
