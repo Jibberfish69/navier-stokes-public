@@ -37,7 +37,7 @@ authoritative_supplements: []
 codex_machine_manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 submission_ready: false
 readiness_blocker: original-smooth-data-pack-survival
-active_supplier_blocker: basac-reverse-holder-production
+active_supplier_blocker: new-terminal-source-residence-mechanism
 manuscript_tex_sha1: 7b5f18e0208b668d121ed2ba8826720e2efc2407
 completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608-iteration-2.yaml
 readiness_evidence:
@@ -46,14 +46,14 @@ readiness_evidence:
   completion_candidate_count: 2
   completion_candidates:
   - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A
-  - BASACReverseHolderProduction.A as active supplier leaf
+  - NewTerminalSourceResidenceMechanism.A as active supplier leaf
   completion_readiness:
     status: blocked-public-clay-finality-open
     submission_ready: false
     candidate_count: 2
     candidates:
     - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A
-    - BASACReverseHolderProduction.A as active supplier leaf
+    - NewTerminalSourceResidenceMechanism.A as active supplier leaf
     checks:
       route_candidates: 0
       d8_candidates: 0
@@ -95,7 +95,7 @@ readiness_evidence:
       candidate_count: 2
       candidates:
       - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A
-      - BASACReverseHolderProduction.A as active supplier leaf
+      - NewTerminalSourceResidenceMechanism.A as active supplier leaf
       checks:
         route_candidates: 0
         d8_candidates: 0
