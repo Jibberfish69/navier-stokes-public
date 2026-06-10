@@ -94,7 +94,7 @@ project_model:
       submission_ready: false
       candidate_count: 1
       candidates:
-      - SourceTimeConcentrationCost.A for zero-thickness concentration of the produced B_ASAC native positive source atom
+      - TerminalPressureHessianNoSustain.A / OneSidedNearBandMaterialStrainBV.A for native defect domination
       checks:
         route_candidates: 0
         d8_candidates: 0
@@ -134,7 +134,7 @@ project_model:
         submission_ready: false
         candidate_count: 1
         candidates:
-        - SourceTimeConcentrationCost.A for zero-thickness concentration of the produced B_ASAC native positive source atom
+        - TerminalPressureHessianNoSustain.A / OneSidedNearBandMaterialStrainBV.A for native defect domination
         checks:
           route_candidates: 0
           d8_candidates: 0
