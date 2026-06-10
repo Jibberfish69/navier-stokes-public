@@ -2,118 +2,116 @@
 
 ## Status
 
-Active-completion reentry. This note does not close the public Clay bridge.
-
-The checked question is whether the current `B_ASAC` equality class produces
-the super-`L^1_s` temporal source residence needed by the native-source
-time-face route.
-
-## Current chain
-
-The source-pulse leaf still needs a theorem that removes the terminal native
-positive source measure
+This reentry attacks the active target:
 
 ```math
-\left[\left\langle S_{<j}^{loc}w_j,w_j\right\rangle\right]_+\,dx\,dt.
+BASACReverseHolderProduction.A.
 ```
 
-The valid conditional chain is:
+The target is to produce a subclass
 
 ```math
-B_{ASAC}^{RH}(p)
-\Longrightarrow
-UniformTemporalSourceIntegrability_{p,B_{ASAC}}.A
-\Longrightarrow
-BASACTimeFaceAntiAtom.A
-\Longrightarrow
-ZenoResidueLiouville_{B_{ASAC}}.A.
+B_{ASAC}^{RH(p)}
 ```
 
-The missing production theorem is:
+from the already produced `B_ASAC` equality class, for some `p>1`, so that the
+native positive source marginal has a super-`L^1_s` residence bound:
 
 ```math
-BASACReverseHolderProduction.A:
-\quad
-B_{ASAC}\Longrightarrow B_{ASAC}^{RH}(p)
-\quad\text{for some }p>1.
+\left\|
+\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}
+\right\|_{L_s^p((-1,0))}
+\le C_R.
 ```
 
-## Checked route inputs
+Holder would then give the terminal strip modulus needed by
+`BASACTimeFaceAntiAtom.A`.
+
+## Installed Production Data
 
 The produced `B_ASAC` class supplies:
 
-```text
-same-fluid retained terminal carrier,
-nonzero inherited native positive source residue,
-no earlier selected source slice,
-zero ASAC defect measure,
-no legal/projected/cutoff/boundary exit,
-no finite or non-Zeno donor-refill exit,
-terminal Zeno source support.
-```
+- same-fluid retained terminal carrier;
+- nonzero inherited native positive source residue;
+- no earlier selected source slice;
+- zero ASAC defect measure;
+- no legal/projected/cutoff/boundary exit;
+- no finite or non-Zeno donor-refill exit;
+- finite local `L_s^1` positive source mass.
 
-The source-size input is local finite `L^1_s` mass. The terminal-layer witness
+These clauses produce a terminal Zeno equality class. They do not produce
+temporal integrability gain.
+
+## Obstruction
+
+The scalar terminal layer model
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s)
 ```
 
-has unit `L^1_s` mass and divergent `L^p_s` norm for every `p>1`.
-
-This witness is compatible with the listed `B_ASAC` clauses. It also survives
-the lateral no-flux reading, because a spatially compact terminal source atom
-can have zero large-radius lateral flux while keeping nonzero mass at the
-terminal time face.
-
-## No-flux check
-
-`NoIncomingFlux_{B_ASAC}.A` and `TransportedCylinderNoFlux_{B_ASAC}.A` are not
-lower consequences of `B_ASAC`. In the useful lateral or global-boundary
-reading, they require additional transported-boundary tightness. In the reading
-that includes the terminal time face, they simply detect the atom and restate
-the anti-atom theorem.
-
-So no-flux does not produce temporal thickness from the present equality class.
-
-## Rigid-subclass check
-
-The rigid subclass Liouville theorem is valid:
+has unit `L_s^1` mass and violates every uniform `L_s^p`, `p>1`, bound:
 
 ```math
-B_{ASAC}^{RH}(p)\Longrightarrow \mu_*^{src}=0.
+\|g_m\|_{L^p(-1,0)}=m^{1-1/p}\to\infty.
 ```
 
-The production theorem is not installed:
+It is compatible with the currently produced class data: all mass is in a
+shrinking terminal layer, fixed earlier source slices vanish, paid exits are
+absent, and the terminal source residue remains positive.
+
+Thus
 
 ```math
-B_{ASAC}\nRightarrow B_{ASAC}^{RH}(p)
+B_{ASAC}\nRightarrow B_{ASAC}^{RH(p)}
 ```
 
-from the current finite `L^1_s`, ASAC, same-fluid, first-pulse, and donor-exit
-data.
+from current installed inputs.
 
-## Verdict
+## Checked Alternatives
 
-The loop must not treat `UniformTemporalSourceIntegrability_{p,B_ASAC}.A`,
-`TerminalSourceReverseHolder_{B_ASAC}.A`, lateral no-flux, or rigid-subclass
-Liouville as a closed source-pulse supplier.
+`PositiveSourceTraceAC.A` is a clean sufficient theorem, but the direct attempt
+shows that bounded variation trace structure allows positive jumps, and weak
+linear velocity trace continuity does not control the one-sided quadratic
+selected source trace.
 
-The exact reduced theorem is:
+`TerminalAntiAtomModulus.A` is the sharp minimal theorem, but finite local
+source mass supplies no terminal slab modulus.
+
+`BackwardAdjointTerminalCapacity.A` and `ParabolicTimeFaceCapacityZero.A` also
+do not close: a terminal source atom is visible to a terminal trace, and the
+full terminal time face has positive parabolic boundary capacity for this
+measure class.
+
+`LocalPositiveSourceCarleson.A`, `ScaleCriticalTreeCarleson.A`, and
+`HeatScaleSquareSource.A` would be sufficient, but importing any of them here
+would reuse the unproved source-reserve theorem this branch is trying to
+replace.
+
+## Reentry Verdict
+
+`BASACReverseHolderProduction.A` remains open and cannot be obtained from the
+current `B_ASAC` equality-class clauses.
+
+The next honest target is not another name for the same `L_s^1` gap. It is a
+new terminal source-residence mechanism:
 
 ```math
-\boxed{BASACReverseHolderProduction.A}
+\boxed{
+NewTerminalSourceResidenceMechanism.A
+}
 ```
 
-or an equivalent new production theorem that forces the native positive source
-atom to pay through one of:
+meaning one of:
 
-```text
-temporal thickness,
-source-weighted active reserve,
-pressure/Leray time-face spread,
-transported-boundary tightness plus terminal anti-atom,
-or a genuine rigid Zeno subclass.
-```
+- super-`L^1` / Orlicz / Morrey source residence for the native positive source
+  marginal;
+- positive-source trace absolute continuity stronger than bounded variation;
+- a source Carleson or active-square reserve with independent scale-critical
+  content;
+- pressure/Leray time-face spread that controls the positive native source
+  marginal itself;
+- production of a genuinely rigid Zeno class carrying one of these moduli.
 
-Until that production theorem is proved, `SourcePulseExclusion.A`,
-`NoGenuineExitFromSmoothData.A`, and all CMI/PDF finality claims remain open.
+Without such a new mechanism, the loop has only classified the terminal atom;
+it has not removed the source-pulse branch or earned PDF finality.
