@@ -298,8 +298,12 @@ terminal_state: &11
     not produce that clause. The same-solution preterminal Pack persistence attempt
     and terminal Pack uniformity from original smooth data attempt then showed compact-preterminal
     smoothness and original smooth data do not provide the terminal Pack modulus.
-    The executable child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A:
-    EarlierPackFailureReflection.A, TerminalPackCompactnessModulus.A, or another
+    The earlier Pack reflection and terminal compactness-modulus attempts then showed
+    reflection is an unlicensed bridge and compactness extracts the terminal Pack
+    defect without excluding zero-thickness terminal positive Pack atoms. The executable
+    child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A: UniformTerminalPackTightnessFromFirstExitMinimality.A,
+    NoZeroThicknessTerminalPackAtomFromOriginalSmoothData.A, SelectedPositivePackSourceUniformIntegrability.A,
+    PackProfileSelectorStability.A, PackCriticalElementStability.A, or an equivalent
     non-circular first-Pack survival theorem.
     Keep pdfs_final false until that bridge is paid into NoGenuineExitFromSmoothData.A
     and propagated through both PDF final rereads.'
