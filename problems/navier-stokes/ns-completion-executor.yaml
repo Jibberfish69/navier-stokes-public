@@ -260,18 +260,16 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at SourceNativeSelectorAngularEquidistribution.A:
-    prove that the selected pair/shape direction measure on the same selector-good
-    strip is quantitatively nonconcentrated across the fixed finite QSP cap/shell
-    bump family, without using the finite-frame branch or the cap-floor loop; then
-    propagate through SourceNativeFiniteCapBumpComparability.A, SourceNativeFiniteCapBumpLowerBound.A,
+  stop_reason: 'public Clay finality remains open at AngularConcentrationFieldFaceEntry.A:
+    prove that a same-terminal-packet failure of finite QSP cap/shell bump nonconcentration
+    lands as a Pack/Part/Field face failure, specifically Field under retained Pack+Part,
+    instead of remaining an endless positive equidistribution supplier demand; then
+    propagate through SourceNativeSelectorAngularEquidistribution.A or the CM fail
+    branch, SourceNativeFiniteCapBumpComparability.A, SourceNativeFiniteCapBumpLowerBound.A,
     SourceNativeCapFamilyDensityFloor.A, CapFamilyCompatibleRegularCoreSelection.A,
     UniformRelativeHolderScaleBudget.A, SourceNativeDiagonalDensityOscillation.A,
-    QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A, InitialQSPCoreCapMassFloor.A,
-    CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A, DensityGoodSetFiniteFrameCoverage.A,
-    PTCShapeNormalization.A, D.7mq, DGCalPairDefectChannelRealization.A, DGCalExactLinearFrameCondition.A,
-    CN.13j or an alternate support/weight route, PD.70z, SG.4B, h/F terminal mass
-    vanishing, Pack restoration, OriginalSmoothDataPackSurvival.A, and NoGenuineExitFromSmoothData.A;
+    QSP.11p/QSP.11r, finite-frame / D.7mq pass branch or Field-face fail branch, Pack
+    restoration, OriginalSmoothDataPackSurvival.A, and NoGenuineExitFromSmoothData.A;
     keep pdfs_final false until paid.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
@@ -279,6 +277,7 @@ terminal_state: &11
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - angular-concentration-field-face-entry
   - source-native-selector-angular-equidistribution
   - source-native-finite-cap-bump-comparability
   - source-native-finite-cap-bump-lower-bound
@@ -319,6 +318,7 @@ terminal_state: &11
   - problems/navier-stokes/theorem-construction/mpp-source-native-cap-family-density-floor-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-source-native-finite-cap-bump-lower-bound-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-source-native-finite-cap-bump-comparability-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-source-native-selector-angular-equidistribution-direct-attempt-20260609.md
 reentry:
   status: terminal_completed
   loop_policy: feed executor outputs back until every work node is complete or exactly
@@ -345,6 +345,7 @@ reentry:
   - problems/navier-stokes/theorem-construction/mpp-source-native-cap-family-density-floor-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-source-native-finite-cap-bump-lower-bound-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-source-native-finite-cap-bump-comparability-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-source-native-selector-angular-equidistribution-direct-attempt-20260609.md
   next_work_order_inputs:
   - ns-completion-engine.yaml
   - ns-completion-executor.yaml
