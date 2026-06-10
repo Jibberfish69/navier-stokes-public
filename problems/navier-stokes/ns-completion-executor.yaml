@@ -260,19 +260,21 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: public Clay finality remains open at FirstExitPackSurvivalMechanismSearch.A
-    / OriginalSmoothDataPackSurvival.A, the non-alias first-exit Pack-survival
-    theorem needed after the checked source-time production routes cycled around
-    the all-doors-closed B_ASAC terminal native positive source atom
+  stop_reason: public Clay finality remains open at HFTerminalDefectMassVanishing.A
+    / USCP.A2-PackRestoration.A, the non-source-time Pack-survival child needed
+    after the checked source-time production routes cycled around the all-doors-closed
+    B_ASAC terminal native positive source atom
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
-  - first-exit-pack-survival-mechanism-search
+  - hf-terminal-defect-mass-vanishing
+  - uscp-a2-pack-restoration
   evidence_refs:
   - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260608-iteration-2.md
+  - problems/navier-stokes/theorem-construction/mpp-hf-unified-survivor-pack-survival-direct-attempt-20260609.md
   - problems/navier-stokes/ns-completion-executor-route-sync-20260608-iteration-2.yaml
   - problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
   - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
