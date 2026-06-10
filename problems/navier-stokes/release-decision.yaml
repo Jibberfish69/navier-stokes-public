@@ -14,10 +14,10 @@ decision:
   next_cell_type: theorem-work
   next_stage: active-public-clay-finality-blocked
   next_action: Prove NoGenuineExitFromSmoothData.A through
-    OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A by paying the
-    active MinimalBadResidueRigidity.A / EntropyChargeLowerBound.A supplier for
-    the produced B_ASAC native positive source residue, or supply an equivalent terminal
-    Pack-survival theorem, before any submission-candidate claim.
+    OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A by installing
+    TerminalNewProductionTheorem_{B_ASAC}.A for the produced B_ASAC^closed,min
+    native positive source residue, or supply an equivalent terminal Pack-survival
+    theorem, before any submission-candidate claim.
   rationale: Public Clay finality is blocked at the first-exit Pack survival wall
     exposed by the active completion loop; terminal source anti-atom work is a
     child supplier route for that wall.
@@ -88,8 +88,7 @@ release_or_respawn_consequence:
   next_stage: active-public-clay-finality-blocked
   next_action: Keep proof, graph, viewer, manuscript, both PDF tracks, and submission
     wrappers aligned with the open original-smooth-data Pack-survival frontier
-    and its active MinimalBadResidueRigidity.A / EntropyChargeLowerBound.A
-    supplier leaf.
+    and its active TerminalNewProductionTheorem_{B_ASAC}.A supplier state.
 cm_contrapositive_referee_gate:
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   status: blocked-public-clay-finality-open
