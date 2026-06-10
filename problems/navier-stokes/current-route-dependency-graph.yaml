@@ -14,7 +14,7 @@ purpose: >-
   pressure. They are no longer allowed to replace the primary target unless a
   fresh CM-necessity audit proves a real in-class nonsmooth third branch.
 primary_frontier:
-  obligation_id: new-terminal-source-time-production-mechanism
+  obligation_id: first-exit-pack-survival-mechanism-search
   status: active-public-clay-finality-blocked
   exact_choice:
     - ClayTerminalWitnessCMEntry.A
@@ -26,12 +26,12 @@ primary_frontier:
     failing Pack/Part/Field face, and deriving Exit(Q):=not Member(Q). Public
     Clay finality remains open because classification alone does not prove that
     original smooth data cannot produce a first terminal Pack/Part/Field exit.
-    The current leaf is NewTerminalSourceTimeProductionMechanism.A, the
-    non-pressure/non-alias production theorem needed after the pressure subroute
-    exhausted and the proof search returned to the all-doors-closed B_ASAC
-    terminal native positive source atom.
+    The current leaf is FirstExitPackSurvivalMechanismSearch.A /
+    OriginalSmoothDataPackSurvival.A, after the source-time production routes
+    formed a checked alias cycle around the all-doors-closed B_ASAC terminal
+    native positive source atom.
 open_blockers:
-- new-terminal-source-time-production-mechanism
+- first-exit-pack-survival-mechanism-search
 nodes:
   cm_convergence_atlas:
     status: support-audit-cm-resolved
