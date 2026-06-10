@@ -260,20 +260,21 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at CrossProfilePressureSourceTimeFaceSpread.A:
-    the pressure/source tether pass installs only CrossProfilePressureCarrierLebesgueSplit.A.
-    The source-absolutely-continuous pressure branch still lacks a terminal strip
-    modulus, and the source-singular pressure branch still lacks pure-pressure legal
-    classification, pressure Liouville, directional trace saturation, or independent
-    terminal Leray gates. Keep pdfs_final false until source-time spread and pure-pressure
-    singular elimination, or a stronger theorem removing the pressure split itself,
-    are paid and both PDFs pass fresh final rereads.'
+  stop_reason: 'public Clay finality remains open at CrossProfileTerminalPositiveSourceAtomEscape.A:
+    the source-AC pressure time-face pass leaves the terminal L1 source-layer model
+    compatible with current pressure, minimality, donor, ASAC, and local-energy inputs.
+    No theorem yet proves that a terminal native positive source atom cannot be
+    simultaneously diffuse in parents, zero-thickness in time, pressure/eigenframe
+    sustained, and free of same-ledger Pack/Part/Field face failure. Keep pdfs_final
+    false until atom escape, or a stronger theorem removing this atom, is paid and
+    both PDFs pass fresh final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - cross-profile-terminal-positive-source-atom-escape
   - cross-profile-pressure-source-timeface-spread
   - cross-profile-pure-pressure-singular-residue-elimination
   - cross-profile-pressure-source-ac
