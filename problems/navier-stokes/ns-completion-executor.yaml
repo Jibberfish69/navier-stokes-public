@@ -342,8 +342,10 @@ terminal_state: &11
     positive low strain on shrinking terminal windows. DynamicLowHighEigenpacketNoFreeze.A
     has now been tested and reduced to the pressure/source-current and active-alignment
     wall: the material-eigenframe split pays far-low/subparabolic support and routes
-    parabolic-rate amplitude, but the frozen aligned cases remain unpaid. The executable
-    child is now TerminalPressureHessianNoSustain_lowhigh.A, OneSidedNearBandMaterialSourceCurrentLegal.A,
+    parabolic-rate amplitude, but the frozen aligned cases remain unpaid. TerminalPressureHessianNoSustain_lowhigh.A
+    has now been tested and reduced to the source-current or pure-pressure carrier
+    dichotomy. The executable child is now OneSidedNearBandMaterialSourceCurrentLegal.A,
+    TerminalPressurePureStrainLegal_lowhigh.A, PurePressureSustainResidueLiouville_lowhigh.A,
     ActiveStrainAlignmentCost_lowhigh.A, TPNILowHighNoIncoming.A, LowHighSourceResidenceEvacuation.A,
     LowHighTerminalStripModulus.A, ScaleNestedPackMoleculeLiouville.A, or an equivalent
     first-Pack survival mechanism.
@@ -399,6 +401,8 @@ terminal_state: &11
   - multi-direction-participation-tether
   - terminal-pressure-hessian-no-sustain-lowhigh
   - one-sided-near-band-material-source-current-legal
+  - terminal-pressure-pure-strain-legal-lowhigh
+  - pure-pressure-sustain-residue-liouville-lowhigh
   - active-strain-alignment-cost-lowhigh
   - tpni-low-high-no-incoming
   - low-high-source-residence-evacuation
