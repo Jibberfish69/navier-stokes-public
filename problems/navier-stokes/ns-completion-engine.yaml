@@ -88,12 +88,13 @@ project_model:
     - problems/navier-stokes/submission-bundle/submission-verdict.yaml
     - problems/navier-stokes/submission-bundle/submission-export-status.yaml
     state_refs_missing: []
-    observed_state: 'Submission state: ready; pdf_render_status=rendered; blockers=0'
+    observed_state: 'Submission state: blocked; pdf_render_status=rendered; blockers=1'
     readiness_assessment:
-      status: ready
-      submission_ready: true
-      candidate_count: 0
-      candidates: []
+      status: blocked-public-clay-finality-open
+      submission_ready: false
+      candidate_count: 1
+      candidates:
+      - ExternalTerminalTimeThicknessMechanism.A for the produced B_ASAC closed-min native positive source atom
       checks:
         route_candidates: 0
         d8_candidates: 0
