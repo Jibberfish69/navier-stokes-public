@@ -25,7 +25,7 @@ summary:
   frontier_count: 1
   all_discharged: false
 blockers:
-- pressure-time-spread-elliptic-time-smearing
+- new-terminal-source-time-production-mechanism
 superseded_by:
 - problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
 - problems/navier-stokes/theorem-construction/mpp-external-terminal-time-thickness-mechanism-search-reentry-20260609.md
