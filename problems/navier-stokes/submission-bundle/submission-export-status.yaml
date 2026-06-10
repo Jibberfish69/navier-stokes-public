@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T16:50:21Z'
+generated_at: '2026-06-10T16:57:13Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -96,10 +96,11 @@ readiness_evidence:
       or an equivalent theorem; the current executable child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A
       / OriginalSmoothDataPackSurvival.A. Same-witness terminal time-face capacity,
       trace no-positive-jump, super-L1/source-Carleson residence, rigid anti-atom
-      production, and same-solution preterminal Pack persistence have been tested
-      and do not pay the current finite Radon source class; the next executable child
-      must be TerminalPackUniformityFromOriginalSmoothData.A, EarlierPackFailureReflection.A,
-      or another non-alias first-Pack survival theorem before any TPS good-family
+      production, same-solution preterminal Pack persistence, and terminal Pack uniformity
+      from original smooth data have been tested and do not pay the current finite
+      Radon source class or terminal uniform Pack modulus; the next executable child
+      must be EarlierPackFailureReflection.A, TerminalPackCompactnessModulus.A, or
+      another non-circular first-Pack survival theorem before any TPS good-family
       or selected-pair expansion can be used.'
   - candidate_id: contract-readiness-after-manuscript-expansion
     kind: d8_resolved_blocker_state
@@ -239,11 +240,12 @@ readiness_evidence:
         / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
         child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A / OriginalSmoothDataPackSurvival.A.
         Same-witness terminal time-face capacity, trace no-positive-jump, super-L1/source-Carleson
-        residence, rigid anti-atom production, and same-solution preterminal Pack
-        persistence have been tested and do not pay the current finite Radon source
-        class; the next executable child must be TerminalPackUniformityFromOriginalSmoothData.A,
-        EarlierPackFailureReflection.A, or another non-alias first-Pack survival theorem
-        before any TPS good-family or selected-pair expansion can be used.'
+        residence, rigid anti-atom production, same-solution preterminal Pack persistence,
+        and terminal Pack uniformity from original smooth data have been tested and
+        do not pay the current finite Radon source class or terminal uniform Pack
+        modulus; the next executable child must be EarlierPackFailureReflection.A,
+        TerminalPackCompactnessModulus.A, or another non-circular first-Pack survival
+        theorem before any TPS good-family or selected-pair expansion can be used.'
     - candidate_id: contract-readiness-after-manuscript-expansion
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -419,10 +421,11 @@ readiness_evidence:
           / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
           child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A / OriginalSmoothDataPackSurvival.A.
           Same-witness terminal time-face capacity, trace no-positive-jump, super-L1/source-Carleson
-          residence, rigid anti-atom production, and same-solution preterminal Pack
-          persistence have been tested and do not pay the current finite Radon source
-          class; the next executable child must be TerminalPackUniformityFromOriginalSmoothData.A,
-          EarlierPackFailureReflection.A, or another non-alias first-Pack survival
+          residence, rigid anti-atom production, same-solution preterminal Pack persistence,
+          and terminal Pack uniformity from original smooth data have been tested
+          and do not pay the current finite Radon source class or terminal uniform
+          Pack modulus; the next executable child must be EarlierPackFailureReflection.A,
+          TerminalPackCompactnessModulus.A, or another non-circular first-Pack survival
           theorem before any TPS good-family or selected-pair expansion can be used.'
       - candidate_id: contract-readiness-after-manuscript-expansion
         kind: d8_resolved_blocker_state
