@@ -14,7 +14,7 @@ purpose: >-
   pressure. They are no longer allowed to replace the primary target unless a
   fresh CM-necessity audit proves a real in-class nonsmooth third branch.
 primary_frontier:
-  obligation_id: external-terminal-time-thickness-mechanism
+  obligation_id: source-time-concentration-cost
   status: active-public-clay-finality-blocked
   exact_choice:
     - ClayTerminalWitnessCMEntry.A
@@ -26,10 +26,11 @@ primary_frontier:
     failing Pack/Part/Field face, and deriving Exit(Q):=not Member(Q). Public
     Clay finality remains open because classification alone does not prove that
     original smooth data cannot produce a first terminal Pack/Part/Field exit.
-    The current leaf is a genuinely new terminal time-thickness theorem for the
-    produced B_ASAC closed-min native positive source atom.
+    The current leaf is SourceTimeConcentrationCost.A, a same-ledger cost theorem
+    for zero-thickness concentration of the produced B_ASAC closed-min native
+    positive source atom.
 open_blockers:
-- external-terminal-time-thickness-mechanism
+- source-time-concentration-cost
 nodes:
   cm_convergence_atlas:
     status: support-audit-cm-resolved
