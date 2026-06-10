@@ -314,7 +314,13 @@ terminal_state: &11
     first-exit minimality, and conditional no-incoming/BU support still allow zero-thickness
     terminal concentration. The executable child is now PackProfileSelectorStability.A,
     PackCriticalElementStability.A, SelectedPositivePackSourceNoAtom.A, or ProducedMinimalFirstPackBubbleRigidity.A
-    with a real selected-source input.
+    with a real selected-source input. PackProfileSelectorStability.A and SelectedPositivePackSourceNoAtom.A
+    are also not proved; the terminal strip model survives the current source-residence,
+    reflection, compactness, tightness, thickness, selector-stability, and no-atom
+    formulations. The executable child is now a genuinely new selected-source input,
+    CrossProfilePackAtomBelongsToRigidProfile.A, PackCriticalElementStability.A with
+    real selected-source control, ProducedMinimalFirstPackBubbleRigidity.A with rigid
+    one-profile capture, or a genuinely new first-Pack survival mechanism.
     Keep pdfs_final false until that bridge is paid into NoGenuineExitFromSmoothData.A
     and propagated through both PDF final rereads.'
   completed_work_node_ids:
