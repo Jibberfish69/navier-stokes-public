@@ -260,22 +260,24 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: public Clay finality remains open at PD70zQuadraticNormalUpgrade.A,
-    the selector-normal directional upgrade child under HFTerminalDefectMassVanishing.A
-    / USCP.A2-PackRestoration.A after the checked source-time production routes
-    cycled around the all-doors-closed B_ASAC terminal native positive source atom
+  stop_reason: public Clay finality remains open at CN13jQuadraticSelectorNormalCalibration.A,
+    the shortest selector-normal upgrade child under PD70zQuadraticNormalUpgrade.A
+    and HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A after the
+    checked source-time production routes cycled around the all-doors-closed B_ASAC
+    terminal native positive source atom
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
-  - pd70z-quadratic-normal-upgrade
-  - cn13j-or-cn13q-or-cn13ab-cn13ad
+  - cn13j-quadratic-selector-normal-calibration
+  - cn13q-support-smallness-or-cn13ab-cn13ad-weight-control-alternates
   evidence_refs:
   - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260608-iteration-2.md
   - problems/navier-stokes/theorem-construction/mpp-hf-unified-survivor-pack-survival-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-hf-terminal-defect-mass-vanishing-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-pd70z-quadratic-normal-upgrade-direct-attempt-20260609.md
   - problems/navier-stokes/ns-completion-executor-route-sync-20260608-iteration-2.yaml
   - problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
   - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
