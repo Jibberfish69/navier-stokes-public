@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T14:00:08Z'
+generated_at: '2026-06-10T14:04:57Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -62,13 +62,14 @@ readiness_evidence:
       has been repaired to stop claiming public Clay finality from terminal classification
       alone. The human/app-aligned track and remaining submission surfaces must stay
       nonfinal until NoGenuineExitFromSmoothData.A is proved. Current narrowed theorem
-      leaf: BASACTimeFaceAntiAtom.A / UniformTemporalSourceIntegrability_{p,B_ASAC},
-      because the post-affine Pack-survival pass sharpened broad deformation comparability
-      to the produced B_ASAC terminal source-residue wall, after the retained positive-scale
-      reserve-birth / B_ASAC terminal source atom routes exhausted into a source-time
-      alias cycle, the h/F terminal mass route reduced to the selector-normal quadratic
-      upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad remain alternate unproved
-      upgrade routes, the CN.13j pass reduced the exact missing lower link to polarity/amplitude-floor
+      leaf: TerminalSourceResidenceMechanism.A for B_ASAC, because the no-incoming
+      / backward uniqueness attempt failed as an independent anti-atom mechanism and
+      reduced the produced B_ASAC terminal source-residue wall to source residence
+      or trace absolute continuity, after the retained positive-scale reserve-birth
+      / B_ASAC terminal source atom routes exhausted into a source-time alias cycle,
+      the h/F terminal mass route reduced to the selector-normal quadratic upgrade,
+      the PD.70z pass showed CN.13q/CN.13ab-CN.13ad remain alternate unproved upgrade
+      routes, the CN.13j pass reduced the exact missing lower link to polarity/amplitude-floor
       or small-moment absorption, the lower-link pass reduced polarity to tangent
       linearization/coercivity of the exact anchored observable, and the DG-Cal pass
       reduced that condition to a local exact packet formula plus readout Gram lower
@@ -87,8 +88,8 @@ readiness_evidence:
     required_action: 'Reopened by rendered referee reread: finite-obstruction inventory
       coverage is installed as classification, but it does not prove public Clay counterexample
       exclusion. The live result must be ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A
-      or an equivalent theorem; the current executable child is BASACTimeFaceAntiAtom.A
-      / UniformTemporalSourceIntegrability_{p,B_ASAC} under Pack_{Q_atlas} / OriginalSmoothDataPackSurvival.A.'
+      or an equivalent theorem; the current executable child is TerminalSourceResidenceMechanism.A
+      for B_ASAC, such as UniformTemporalSourceIntegrability_{p,B_ASAC}.A or PositiveSourceTraceAC_{B_ASAC}.A.'
   - candidate_id: contract-readiness-after-manuscript-expansion
     kind: d8_resolved_blocker_state
     surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -110,7 +111,7 @@ readiness_evidence:
     required_action: 'Open: terminal obstruction classification is installed, but
       public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
       / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed theorem
-      leaf is BASACTimeFaceAntiAtom.A / UniformTemporalSourceIntegrability_{p,B_ASAC}.A.'
+      leaf is TerminalSourceResidenceMechanism.A for B_ASAC.'
   - candidate_id: live-theorem-edge:clay_closure_status
     kind: live_theorem_edge
     surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -187,25 +188,26 @@ readiness_evidence:
         paper has been repaired to stop claiming public Clay finality from terminal
         classification alone. The human/app-aligned track and remaining submission
         surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: BASACTimeFaceAntiAtom.A / UniformTemporalSourceIntegrability_{p,B_ASAC},
-        because the post-affine Pack-survival pass sharpened broad deformation comparability
-        to the produced B_ASAC terminal source-residue wall, after the retained positive-scale
-        reserve-birth / B_ASAC terminal source atom routes exhausted into a source-time
-        alias cycle, the h/F terminal mass route reduced to the selector-normal quadratic
-        upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad remain alternate unproved
-        upgrade routes, the CN.13j pass reduced the exact missing lower link to polarity/amplitude-floor
-        or small-moment absorption, the lower-link pass reduced polarity to tangent
-        linearization/coercivity of the exact anchored observable, and the DG-Cal
-        pass reduced that condition to a local exact packet formula plus readout Gram
-        lower bound, the formula pass installed the canonical local projective channels
-        while leaving actual pair-defect realization open, and the realization pass
-        reduced the unpaid side to selector-shape normalization, and the PTC-shape
-        pass reduced selector-shape normalization to diagonal-density source oscillation,
-        then the diagonal-density pass showed center lower-density is supplied by
-        density-selected centers, and the Holder/stopping retained-mass follow-up
-        paid the finite retained-intersection lemma, and the density-stopping loss-budget
-        pass showed retained measure does not yet prove entrance-sector/core-cap coverage
-        for the finite-frame route.'
+        Current narrowed theorem leaf: TerminalSourceResidenceMechanism.A for B_ASAC,
+        because the no-incoming / backward uniqueness attempt failed as an independent
+        anti-atom mechanism and reduced the produced B_ASAC terminal source-residue
+        wall to source residence or trace absolute continuity, after the retained
+        positive-scale reserve-birth / B_ASAC terminal source atom routes exhausted
+        into a source-time alias cycle, the h/F terminal mass route reduced to the
+        selector-normal quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad
+        remain alternate unproved upgrade routes, the CN.13j pass reduced the exact
+        missing lower link to polarity/amplitude-floor or small-moment absorption,
+        the lower-link pass reduced polarity to tangent linearization/coercivity of
+        the exact anchored observable, and the DG-Cal pass reduced that condition
+        to a local exact packet formula plus readout Gram lower bound, the formula
+        pass installed the canonical local projective channels while leaving actual
+        pair-defect realization open, and the realization pass reduced the unpaid
+        side to selector-shape normalization, and the PTC-shape pass reduced selector-shape
+        normalization to diagonal-density source oscillation, then the diagonal-density
+        pass showed center lower-density is supplied by density-selected centers,
+        and the Holder/stopping retained-mass follow-up paid the finite retained-intersection
+        lemma, and the density-stopping loss-budget pass showed retained measure does
+        not yet prove entrance-sector/core-cap coverage for the finite-frame route.'
     - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -214,8 +216,8 @@ readiness_evidence:
         coverage is installed as classification, but it does not prove public Clay
         counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
         / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
-        child is BASACTimeFaceAntiAtom.A / UniformTemporalSourceIntegrability_{p,B_ASAC}
-        under Pack_{Q_atlas} / OriginalSmoothDataPackSurvival.A.'
+        child is TerminalSourceResidenceMechanism.A for B_ASAC, such as UniformTemporalSourceIntegrability_{p,B_ASAC}.A
+        or PositiveSourceTraceAC_{B_ASAC}.A.'
     - candidate_id: contract-readiness-after-manuscript-expansion
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -237,7 +239,7 @@ readiness_evidence:
       required_action: 'Open: terminal obstruction classification is installed, but
         public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
         / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
-        theorem leaf is BASACTimeFaceAntiAtom.A / UniformTemporalSourceIntegrability_{p,B_ASAC}.A.'
+        theorem leaf is TerminalSourceResidenceMechanism.A for B_ASAC.'
     - candidate_id: live-theorem-edge:clay_closure_status
       kind: live_theorem_edge
       surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -349,9 +351,10 @@ readiness_evidence:
           paper has been repaired to stop claiming public Clay finality from terminal
           classification alone. The human/app-aligned track and remaining submission
           surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-          Current narrowed theorem leaf: BASACTimeFaceAntiAtom.A / UniformTemporalSourceIntegrability_{p,B_ASAC},
-          because the post-affine Pack-survival pass sharpened broad deformation comparability
-          to the produced B_ASAC terminal source-residue wall, after the retained
+          Current narrowed theorem leaf: TerminalSourceResidenceMechanism.A for B_ASAC,
+          because the no-incoming / backward uniqueness attempt failed as an independent
+          anti-atom mechanism and reduced the produced B_ASAC terminal source-residue
+          wall to source residence or trace absolute continuity, after the retained
           positive-scale reserve-birth / B_ASAC terminal source atom routes exhausted
           into a source-time alias cycle, the h/F terminal mass route reduced to the
           selector-normal quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad
@@ -377,8 +380,8 @@ readiness_evidence:
           inventory coverage is installed as classification, but it does not prove
           public Clay counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
           / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
-          child is BASACTimeFaceAntiAtom.A / UniformTemporalSourceIntegrability_{p,B_ASAC}
-          under Pack_{Q_atlas} / OriginalSmoothDataPackSurvival.A.'
+          child is TerminalSourceResidenceMechanism.A for B_ASAC, such as UniformTemporalSourceIntegrability_{p,B_ASAC}.A
+          or PositiveSourceTraceAC_{B_ASAC}.A.'
       - candidate_id: contract-readiness-after-manuscript-expansion
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -401,7 +404,7 @@ readiness_evidence:
         required_action: 'Open: terminal obstruction classification is installed,
           but public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
           / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
-          theorem leaf is BASACTimeFaceAntiAtom.A / UniformTemporalSourceIntegrability_{p,B_ASAC}.A.'
+          theorem leaf is TerminalSourceResidenceMechanism.A for B_ASAC.'
       - candidate_id: live-theorem-edge:clay_closure_status
         kind: live_theorem_edge
         surface: problems/navier-stokes/live-theorem-edge.yaml
