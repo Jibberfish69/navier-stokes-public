@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T15:34:04Z'
+generated_at: '2026-06-10T15:49:46Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -42,7 +42,7 @@ readiness_blocker: 'Navier-Stokes completion readiness is blocked by 15 unresolv
   clay-readiness-not-claimed, finite-breakdown-exclusion-open.'
 active_supplier_blocker: first-exit-pack-survival-mechanism-search
 manuscript_tex_sha1: '05903ee71d062e9393b264d239f2c2f38df843e1'
-completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260609-iteration-2.yaml
+completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260609.yaml
 readiness_evidence:
   source_frontier_clear: false
   open_d8_proof_blockers: 1
@@ -93,9 +93,9 @@ readiness_evidence:
     required_action: 'Reopened by rendered referee reread: finite-obstruction inventory
       coverage is installed as classification, but it does not prove public Clay counterexample
       exclusion. The live result must be ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A
-      or an equivalent theorem; the current executable child is FirstExitPackSurvivalMechanismSearch.A
-      / OriginalSmoothDataPackSurvival.A through a non-alias bridge, or a genuinely
-      new source-residence theorem stronger than finite L^1_s source mass.'
+      or an equivalent theorem; the current executable child is NewFirstPackSurvivalMechanismInventionPacket.A
+      / OriginalSmoothDataPackSurvival.A with a concrete theorem statement, new mathematical
+      input, proof-method class, falsification model, and propagation path into NoGenuineExitFromSmoothData.A.'
   - candidate_id: contract-readiness-after-manuscript-expansion
     kind: d8_resolved_blocker_state
     surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -117,10 +117,12 @@ readiness_evidence:
     required_action: 'Open: terminal obstruction classification is installed, but
       public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
       / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed theorem
-      leaf is FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A.
-      The known non-alias route families are consumed at current resolution, so the
-      next executable work is construction and testing of a new quantitative first-Pack-survival
-      mechanism or a source-residence theorem stronger than finite L^1_s source mass.'
+      leaf is NewFirstPackSurvivalMechanismInventionPacket.A / OriginalSmoothDataPackSurvival.A.
+      The known non-alias route families are consumed at current resolution, and the
+      repo-local theorem-invention surfaces are superseded or support-only for the
+      live CM target. The next executable work is creation and direct testing of a
+      new mechanism packet with a new mathematical input, proof-method class, falsification
+      model, and propagation path into NoGenuineExitFromSmoothData.A.'
   - candidate_id: live-theorem-edge:clay_closure_status
     kind: live_theorem_edge
     surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -229,9 +231,9 @@ readiness_evidence:
         coverage is installed as classification, but it does not prove public Clay
         counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
         / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
-        child is FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A
-        through a non-alias bridge, or a genuinely new source-residence theorem stronger
-        than finite L^1_s source mass.'
+        child is NewFirstPackSurvivalMechanismInventionPacket.A / OriginalSmoothDataPackSurvival.A
+        with a concrete theorem statement, new mathematical input, proof-method class,
+        falsification model, and propagation path into NoGenuineExitFromSmoothData.A.'
     - candidate_id: contract-readiness-after-manuscript-expansion
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -253,11 +255,12 @@ readiness_evidence:
       required_action: 'Open: terminal obstruction classification is installed, but
         public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
         / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
-        theorem leaf is FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A.
-        The known non-alias route families are consumed at current resolution, so
-        the next executable work is construction and testing of a new quantitative
-        first-Pack-survival mechanism or a source-residence theorem stronger than
-        finite L^1_s source mass.'
+        theorem leaf is NewFirstPackSurvivalMechanismInventionPacket.A / OriginalSmoothDataPackSurvival.A.
+        The known non-alias route families are consumed at current resolution, and
+        the repo-local theorem-invention surfaces are superseded or support-only for
+        the live CM target. The next executable work is creation and direct testing
+        of a new mechanism packet with a new mathematical input, proof-method class,
+        falsification model, and propagation path into NoGenuineExitFromSmoothData.A.'
     - candidate_id: live-theorem-edge:clay_closure_status
       kind: live_theorem_edge
       surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -403,9 +406,9 @@ readiness_evidence:
           inventory coverage is installed as classification, but it does not prove
           public Clay counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
           / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
-          child is FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A
-          through a non-alias bridge, or a genuinely new source-residence theorem
-          stronger than finite L^1_s source mass.'
+          child is NewFirstPackSurvivalMechanismInventionPacket.A / OriginalSmoothDataPackSurvival.A
+          with a concrete theorem statement, new mathematical input, proof-method
+          class, falsification model, and propagation path into NoGenuineExitFromSmoothData.A.'
       - candidate_id: contract-readiness-after-manuscript-expansion
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -428,11 +431,12 @@ readiness_evidence:
         required_action: 'Open: terminal obstruction classification is installed,
           but public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
           / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
-          theorem leaf is FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A.
-          The known non-alias route families are consumed at current resolution, so
-          the next executable work is construction and testing of a new quantitative
-          first-Pack-survival mechanism or a source-residence theorem stronger than
-          finite L^1_s source mass.'
+          theorem leaf is NewFirstPackSurvivalMechanismInventionPacket.A / OriginalSmoothDataPackSurvival.A.
+          The known non-alias route families are consumed at current resolution, and
+          the repo-local theorem-invention surfaces are superseded or support-only
+          for the live CM target. The next executable work is creation and direct
+          testing of a new mechanism packet with a new mathematical input, proof-method
+          class, falsification model, and propagation path into NoGenuineExitFromSmoothData.A.'
       - candidate_id: live-theorem-edge:clay_closure_status
         kind: live_theorem_edge
         surface: problems/navier-stokes/live-theorem-edge.yaml
