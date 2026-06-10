@@ -287,11 +287,13 @@ terminal_state: &11
     selected-good-pair structure starts after the positive active-time fact Pack
     survival must prove. The terminal strip modulus attempt then showed current
     finite-L1/local-energy/BV/weak-trace inputs still allow g_m(s)=m 1_{(-1/m,0]}.
-    The executable child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A:
-    a same-witness super-L1/source-Carleson/trace-no-jump/time-face-capacity/rigid-anti-atom
-    theorem, or a genuinely non-source Pack-survival theorem. Keep pdfs_final false
-    until that bridge is paid into NoGenuineExitFromSmoothData.A and propagated through
-    both PDF final rereads.'
+    The terminal time-face capacity attempt then showed capacity does not remove
+    this atom for the current finite Radon source measure class. The executable
+    child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A: a same-witness
+    super-L1/source-Carleson/trace-no-jump/rigid-anti-atom theorem, or a genuinely
+    non-source Pack-survival theorem. Keep pdfs_final false until that bridge is
+    paid into NoGenuineExitFromSmoothData.A and propagated through both PDF final
+    rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
