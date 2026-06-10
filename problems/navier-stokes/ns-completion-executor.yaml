@@ -260,8 +260,8 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: public Clay finality remains open at PTCShapeNormalization.A,
-    the unpaid selector-shape side under DGCalPairDefectChannelRealization.A,
+  stop_reason: public Clay finality remains open at DiagonalDensitySourceOscillation.A,
+    the unpaid source-level selector side beneath PTCShapeNormalization.A and DGCalPairDefectChannelRealization.A,
     DGCalLocalExactPacketReadoutFormula.A,
     DGCalExactLinearFrameCondition.A,
     CN13jSelectorNormalAmplitudeFloorOrSmallMomentAbsorption.A,
@@ -275,13 +275,17 @@ terminal_state: &11
     pass reduced that condition to a local exact packet formula plus readout
     Gram lower bound, the formula pass installed the canonical local projective
     channels while leaving actual pair-defect realization open, and the
-    realization pass reduced the unpaid side to selector-shape normalization.
+    realization pass reduced the unpaid side to selector-shape normalization,
+    and the PTC-shape pass reduced selector-shape normalization to diagonal-density
+    source oscillation with finite shell comparability and segment-gradient/C2
+    transport still paired on the same selector-good family.
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - diagonal-density-source-oscillation
   - ptc-shape-normalization
   - dgcal-pair-defect-channel-realization
   - dgcal-local-exact-packet-readout-formula
@@ -299,6 +303,7 @@ terminal_state: &11
   - problems/navier-stokes/theorem-construction/mpp-dgcal-exact-linear-frame-condition-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-dgcal-local-exact-packet-readout-formula-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-dgcal-pair-defect-channel-realization-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-ptc-shape-normalization-direct-attempt-20260609.md
   - problems/navier-stokes/ns-completion-executor-route-sync-20260608-iteration-2.yaml
   - problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
   - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
