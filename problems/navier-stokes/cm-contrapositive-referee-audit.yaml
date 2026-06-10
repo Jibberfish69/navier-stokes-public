@@ -240,11 +240,11 @@ release_eligible: false
 clay_ready: false
 blockers:
 - public-clay-finality-from-classification
-- source-time-concentration-cost
+- terminal-pressure-hessian-no-sustain
 blocking_findings: []
 open_logical_burdens:
 - ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A
 - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A
-- SourceTimeConcentrationCost.A for the B_ASAC closed-min native positive source atom
+- TerminalPressureHessianNoSustain.A / OneSidedNearBandMaterialStrainBV.A
 passed: false
 reconciled_by: problems/navier-stokes/theorem-construction/mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md
