@@ -260,16 +260,16 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: public Clay finality remains open at SourceTimeConcentrationCost.A,
-    the same-ledger cost theorem needed for terminal time-thickness of the produced
-    B_ASAC closed-min native positive source atom
+  stop_reason: public Clay finality remains open at TerminalPressureHessianNoSustain.A
+    / OneSidedNearBandMaterialStrainBV.A, the native-face subterm needed for
+    SourceTimeConcentrationCost.A and terminal time-thickness
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
-  - source-time-concentration-cost
+  - terminal-pressure-hessian-no-sustain
   evidence_refs:
   - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260608-iteration-2.md
   - problems/navier-stokes/ns-completion-executor-route-sync-20260608-iteration-2.yaml
