@@ -326,7 +326,13 @@ terminal_state: &11
     assign the terminal atom to one rigid profile. The executable child is now TwoProfilePackMoleculeRigidity.A,
     SelectedStrainSelfDomination.A, NearResonantTwoProfilePackAtomExclusion.A,
     TwoProfilePackMoleculeAntiAtom.A, PackPositiveDefectMeasurePolarity.A, or an
-    equivalent first-Pack survival mechanism.
+    equivalent first-Pack survival mechanism. TwoProfilePackMoleculeRigidity.A has
+    now been tested and reduced to the scale-nested low-high same-window Pack molecule:
+    profile-parameter orthogonality removes separated pairs and duplicate profiles,
+    but does not control the selected low-high positive Pack paraproduct. The executable
+    child is now ScaleNestedLowHighPackMoleculeRigidity.A, SelectedLowHighPackParaproductAntiAtom.A,
+    SameWindowLowHighPositivePartCancellation.A, LowHighPackSourceCarlesonReserve.A,
+    ScaleNestedPackMoleculeLiouville.A, or an equivalent first-Pack survival mechanism.
     Keep pdfs_final false until that bridge is paid into NoGenuineExitFromSmoothData.A
     and propagated through both PDF final rereads.'
   completed_work_node_ids:
@@ -370,6 +376,11 @@ terminal_state: &11
   - near-resonant-two-profile-pack-atom-exclusion
   - two-profile-pack-molecule-antiatom
   - pack-positive-defect-measure-polarity
+  - scale-nested-low-high-pack-molecule-rigidity
+  - selected-low-high-pack-paraproduct-antiatom
+  - same-window-low-high-positive-part-cancellation
+  - low-high-pack-source-carleson-reserve
+  - scale-nested-pack-molecule-liouville
   - terminal-positive-cross-profile-source-control
   - uniform-pack-cross-term-integrability
   - selected-positive-pack-cross-term-noatom
