@@ -38,7 +38,7 @@ summary:
     bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
   audit_status: superseded-by-20260609-public-clay-finality-reentry
   referee_blockers:
-  - pressure-time-spread-elliptic-time-smearing
+  - new-terminal-source-time-production-mechanism
 nodes:
 - id: clay-cm-contrapositive-witness-consumption
   kind: direct-live-authority
@@ -61,6 +61,6 @@ nodes:
 edges: []
 release_eligible: false
 blocking_frontier:
-  id: pressure-time-spread-elliptic-time-smearing
+  id: new-terminal-source-time-production-mechanism
   status: open
-  source_anchor: problems/navier-stokes/theorem-construction/mpp-quadratic-defect-source-domination-reentry-20260609.md
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-pressure-time-spread-elliptic-time-smearing-reentry-20260609.md
