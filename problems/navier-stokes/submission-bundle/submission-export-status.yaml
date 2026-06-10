@@ -37,7 +37,7 @@ authoritative_supplements: []
 codex_machine_manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 submission_ready: false
 readiness_blocker: original-smooth-data-pack-survival
-active_supplier_blocker: one-sided-pressure-source-tether
+active_supplier_blocker: zero-asac-equality-rigidity
 manuscript_tex_sha1: 7b5f18e0208b668d121ed2ba8826720e2efc2407
 completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608-iteration-2.yaml
 readiness_evidence:
@@ -46,14 +46,14 @@ readiness_evidence:
   completion_candidate_count: 2
   completion_candidates:
   - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A
-  - TerminalNewProductionTheorem_{B_ASAC}.A as active supplier state; current subtarget OneSidedPressureSourceTether.A / PressureQuadraticDefectNativeCarrier.A
+  - TerminalNewProductionTheorem_{B_ASAC}.A as active supplier state; current subtarget ZeroASACEqualityRigidity.A / BASACZeroThicknessExclusion.A
   completion_readiness:
     status: blocked-public-clay-finality-open
     submission_ready: false
     candidate_count: 2
     candidates:
     - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A
-    - TerminalNewProductionTheorem_{B_ASAC}.A as active supplier state; current subtarget OneSidedPressureSourceTether.A / PressureQuadraticDefectNativeCarrier.A
+    - TerminalNewProductionTheorem_{B_ASAC}.A as active supplier state; current subtarget ZeroASACEqualityRigidity.A / BASACZeroThicknessExclusion.A
     checks:
       route_candidates: 0
       d8_candidates: 0
@@ -95,7 +95,7 @@ readiness_evidence:
       candidate_count: 2
       candidates:
       - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A
-      - TerminalNewProductionTheorem_{B_ASAC}.A as active supplier state; current subtarget OneSidedPressureSourceTether.A / PressureQuadraticDefectNativeCarrier.A
+      - TerminalNewProductionTheorem_{B_ASAC}.A as active supplier state; current subtarget ZeroASACEqualityRigidity.A / BASACZeroThicknessExclusion.A
       checks:
         route_candidates: 0
         d8_candidates: 0
