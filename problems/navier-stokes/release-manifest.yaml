@@ -172,9 +172,9 @@ release_gate: original-smooth-data-pack-survival-open
 terminal_safe: false
 required_before_terminal_release:
 - Prove NoGenuineExitFromSmoothData.A through OriginalSmoothDataPackSurvival.A
-  / ScaleCriticalTreeCarleson.A by proving TerminalReserveFirstAppearanceCharge.A
-  / ChargeLedgerInjection.A for the produced B_ASAC native positive source residue,
-  or supply an
+  / ScaleCriticalTreeCarleson.A by proving TerminalLerayOrientation_ind.A +
+  TerminalLerayCommutatorLegal_ind.A + TerminalLeraySaturation_ind.A for the
+  produced B_ASAC native positive source residue, or supply an
   equivalent terminal Pack-survival theorem.
 cm_contrapositive_referee_gate:
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
@@ -666,8 +666,8 @@ release_or_respawn_consequence:
   next_stage: active-public-clay-finality-blocked
   next_action: Keep proof, graph, viewer, manuscript, both PDF tracks, and submission
     wrappers aligned with the open original-smooth-data Pack-survival frontier
-    and its active TerminalReserveFirstAppearanceCharge.A / ChargeLedgerInjection.A
-    supplier leaf.
+    and its active TerminalLerayOrientation_ind.A +
+    TerminalLerayCommutatorLegal_ind.A + TerminalLeraySaturation_ind.A supplier leaf.
 forward_positive_surface_quarantine:
   status: active-global-demotion
   index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
