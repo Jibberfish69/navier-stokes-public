@@ -260,20 +260,22 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at CrossProfileZenoSourceResidueRigidity.A
-    / CrossProfileMonotoneAncestryRank.A: the Zeno compactness half is installed,
-    but broad ancient Liouville, weak cancellation, the automatically produced minimal
-    class, and temporal anti-atom routes do not close the branch without cycling to
-    the source-Carleson reserve. No theorem yet gives a well-founded ancestry rank
-    for uncharged terminal refill edges or excludes terminal-time support of the
-    extracted positive source-residue measure. Keep pdfs_final false until this rank/support-exclusion
-    theorem is paid and both PDFs pass fresh final rereads.'
+  stop_reason: 'public Clay finality remains open at CrossProfileMonotoneAncestryRank.A
+    / CrossProfileMinimalBadAncestryRigidity.A: scale rank, heat-time depth, raw energy,
+    donor balance, zero ASAC defect, same-fluid label entropy, and terminal-support
+    exclusion do not close the terminal Zeno branch from installed inputs. Minimal-bad
+    compactness places the canonical obstruction but gives no contradiction. No theorem
+    yet proves a rigidity property of the minimal bad cross-profile ancestry object
+    strong enough to forbid the native positive terminal source-residue atom. Keep
+    pdfs_final false until this rigidity or equivalent production theorem is paid
+    and both PDFs pass fresh final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - cross-profile-minimal-bad-ancestry-rigidity
   - cross-profile-monotone-ancestry-rank
   - cross-profile-terminal-support-exclusion
   - cross-profile-zeno-source-residue-rigidity
