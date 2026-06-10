@@ -560,17 +560,11 @@ open_blockers:
   refs: &32
   - problems/navier-stokes/live-theorem-edge.yaml
   mirror_of_completion_candidate: true
-- blocker_id: route-current:status
-  blocker: 'route-current:status: Refresh live route-state from the current proof,
-    app, and submission posture.'
-  refs: &33
-  - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
-  mirror_of_completion_candidate: true
 - blocker_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
   blocker: 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the
     Clay-closing bridge or replace the closing argument with a noncircular finite-breakdown
     exclusion.'
-  refs: &34
+  refs: &33
   - problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
   mirror_of_completion_candidate: true
 branch_rows:
@@ -962,15 +956,6 @@ branch_rows:
   evidence_refs: *32
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
-- row_id: blocker:route-current:status
-  row_kind: open_blocker
-  label: route-current:status
-  state: blocked
-  next_burden: 'route-current:status: Refresh live route-state from the current proof,
-    app, and submission posture.'
-  evidence_refs: *33
-  mirror_of_completion_candidate: true
-  mcp_visibility_status: visible-in-route-state
 - row_id: blocker:clay-counterexample-gap-audit:finite-breakdown-exclusion-open
   row_kind: open_blocker
   label: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
@@ -978,14 +963,14 @@ branch_rows:
   next_burden: 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove
     the Clay-closing bridge or replace the closing argument with a noncircular finite-breakdown
     exclusion.'
-  evidence_refs: *34
+  evidence_refs: *33
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
 sync_verdict:
   graph_nodes_count: 24
   graph_edges_count: 31
   d8_integration_rows_count: 5
-  open_blockers_count: 10
+  open_blockers_count: 9
   mcp_route_state_updated: true
   status: changed-open
   remaining_gap: 'Open proof/app/submission blockers remain visible in the route payload
@@ -993,4 +978,4 @@ sync_verdict:
     source-frontier:first_unresolved_obligation, source-frontier:unresolved_obligations,
     source-frontier:dashboard_unresolved_obligations, source-frontier:additional_context_obligations,
     source-frontier:active_frontier_labels, live-theorem-edge:clay_closure_status,
-    route-current:status, clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
+    clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
