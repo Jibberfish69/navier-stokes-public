@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T17:21:11Z'
+generated_at: '2026-06-10T17:32:05Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -111,11 +111,14 @@ readiness_evidence:
       terminal concentration. Pack selector stability and selected-source no-atom
       have also been tested and do not pay the bridge: the terminal strip model survives
       the current source-residence, reflection, compactness, tightness, thickness,
-      selector-stability, and no-atom formulations. The next executable child must
-      be a genuinely new selected-source input, CrossProfilePackAtomBelongsToRigidProfile.A,
-      PackCriticalElementStability.A with real selected-source control, ProducedMinimalFirstPackBubbleRigidity.A
-      with rigid one-profile capture, or a genuinely new first-Pack survival mechanism
-      before any TPS good-family or selected-pair expansion can be used.'
+      selector-stability, and no-atom formulations. CrossProfilePackAtomBelongsToRigidProfile.A
+      has now been tested and does not pay the bridge: Cauchy-Schwarz gives only two-profile
+      domination, and the terminal atom can remain a near-resonant two-profile Pack
+      molecule. The next executable child must be TwoProfilePackMoleculeRigidity.A,
+      SelectedStrainSelfDomination.A, NearResonantTwoProfilePackAtomExclusion.A, TwoProfilePackMoleculeAntiAtom.A,
+      PackPositiveDefectMeasurePolarity.A, or an equivalent first-Pack survival mechanism
+      before any TPS good-family, selected-pair expansion, one-profile capture, or
+      Pack-critical-element route can be used.'
   - candidate_id: contract-readiness-after-manuscript-expansion
     kind: d8_resolved_blocker_state
     surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -270,11 +273,14 @@ readiness_evidence:
         Pack selector stability and selected-source no-atom have also been tested
         and do not pay the bridge: the terminal strip model survives the current source-residence,
         reflection, compactness, tightness, thickness, selector-stability, and no-atom
-        formulations. The next executable child must be a genuinely new selected-source
-        input, CrossProfilePackAtomBelongsToRigidProfile.A, PackCriticalElementStability.A
-        with real selected-source control, ProducedMinimalFirstPackBubbleRigidity.A
-        with rigid one-profile capture, or a genuinely new first-Pack survival mechanism
-        before any TPS good-family or selected-pair expansion can be used.'
+        formulations. CrossProfilePackAtomBelongsToRigidProfile.A has now been tested
+        and does not pay the bridge: Cauchy-Schwarz gives only two-profile domination,
+        and the terminal atom can remain a near-resonant two-profile Pack molecule.
+        The next executable child must be TwoProfilePackMoleculeRigidity.A, SelectedStrainSelfDomination.A,
+        NearResonantTwoProfilePackAtomExclusion.A, TwoProfilePackMoleculeAntiAtom.A,
+        PackPositiveDefectMeasurePolarity.A, or an equivalent first-Pack survival
+        mechanism before any TPS good-family, selected-pair expansion, one-profile
+        capture, or Pack-critical-element route can be used.'
     - candidate_id: contract-readiness-after-manuscript-expansion
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -466,11 +472,15 @@ readiness_evidence:
           concentration. Pack selector stability and selected-source no-atom have
           also been tested and do not pay the bridge: the terminal strip model survives
           the current source-residence, reflection, compactness, tightness, thickness,
-          selector-stability, and no-atom formulations. The next executable child
-          must be a genuinely new selected-source input, CrossProfilePackAtomBelongsToRigidProfile.A,
-          PackCriticalElementStability.A with real selected-source control, ProducedMinimalFirstPackBubbleRigidity.A
-          with rigid one-profile capture, or a genuinely new first-Pack survival mechanism
-          before any TPS good-family or selected-pair expansion can be used.'
+          selector-stability, and no-atom formulations. CrossProfilePackAtomBelongsToRigidProfile.A
+          has now been tested and does not pay the bridge: Cauchy-Schwarz gives only
+          two-profile domination, and the terminal atom can remain a near-resonant
+          two-profile Pack molecule. The next executable child must be TwoProfilePackMoleculeRigidity.A,
+          SelectedStrainSelfDomination.A, NearResonantTwoProfilePackAtomExclusion.A,
+          TwoProfilePackMoleculeAntiAtom.A, PackPositiveDefectMeasurePolarity.A, or
+          an equivalent first-Pack survival mechanism before any TPS good-family,
+          selected-pair expansion, one-profile capture, or Pack-critical-element route
+          can be used.'
       - candidate_id: contract-readiness-after-manuscript-expansion
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
