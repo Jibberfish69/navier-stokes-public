@@ -135,10 +135,14 @@ verdict_alignment:
         integrability and active-time thickness have also been tested and do not pay
         the bridge: finite mass, same-solution custody, first-exit minimality, and
         conditional no-incoming/BU support still allow zero-thickness terminal concentration.
-        The next executable child must be PackProfileSelectorStability.A, PackCriticalElementStability.A,
-        SelectedPositivePackSourceNoAtom.A, or ProducedMinimalFirstPackBubbleRigidity.A
-        with a real selected-source input before any TPS good-family or selected-pair
-        expansion can be used.'
+        Pack selector stability and selected-source no-atom have also been tested
+        and do not pay the bridge: the terminal strip model survives the current source-residence,
+        reflection, compactness, tightness, thickness, selector-stability, and no-atom
+        formulations. The next executable child must be a genuinely new selected-source
+        input, CrossProfilePackAtomBelongsToRigidProfile.A, PackCriticalElementStability.A
+        with real selected-source control, ProducedMinimalFirstPackBubbleRigidity.A
+        with rigid one-profile capture, or a genuinely new first-Pack survival mechanism
+        before any TPS good-family or selected-pair expansion can be used.'
     - candidate_id: contract-readiness-after-manuscript-expansion
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -292,10 +296,14 @@ verdict_alignment:
           uniform integrability and active-time thickness have also been tested and
           do not pay the bridge: finite mass, same-solution custody, first-exit minimality,
           and conditional no-incoming/BU support still allow zero-thickness terminal
-          concentration. The next executable child must be PackProfileSelectorStability.A,
-          PackCriticalElementStability.A, SelectedPositivePackSourceNoAtom.A, or ProducedMinimalFirstPackBubbleRigidity.A
-          with a real selected-source input before any TPS good-family or selected-pair
-          expansion can be used.'
+          concentration. Pack selector stability and selected-source no-atom have
+          also been tested and do not pay the bridge: the terminal strip model survives
+          the current source-residence, reflection, compactness, tightness, thickness,
+          selector-stability, and no-atom formulations. The next executable child
+          must be a genuinely new selected-source input, CrossProfilePackAtomBelongsToRigidProfile.A,
+          PackCriticalElementStability.A with real selected-source control, ProducedMinimalFirstPackBubbleRigidity.A
+          with rigid one-profile capture, or a genuinely new first-Pack survival mechanism
+          before any TPS good-family or selected-pair expansion can be used.'
       - candidate_id: contract-readiness-after-manuscript-expansion
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -487,10 +495,15 @@ verdict_alignment:
             Selected-source uniform integrability and active-time thickness have also
             been tested and do not pay the bridge: finite mass, same-solution custody,
             first-exit minimality, and conditional no-incoming/BU support still allow
-            zero-thickness terminal concentration. The next executable child must
-            be PackProfileSelectorStability.A, PackCriticalElementStability.A, SelectedPositivePackSourceNoAtom.A,
-            or ProducedMinimalFirstPackBubbleRigidity.A with a real selected-source
-            input before any TPS good-family or selected-pair expansion can be used.'
+            zero-thickness terminal concentration. Pack selector stability and selected-source
+            no-atom have also been tested and do not pay the bridge: the terminal
+            strip model survives the current source-residence, reflection, compactness,
+            tightness, thickness, selector-stability, and no-atom formulations. The
+            next executable child must be a genuinely new selected-source input, CrossProfilePackAtomBelongsToRigidProfile.A,
+            PackCriticalElementStability.A with real selected-source control, ProducedMinimalFirstPackBubbleRigidity.A
+            with rigid one-profile capture, or a genuinely new first-Pack survival
+            mechanism before any TPS good-family or selected-pair expansion can be
+            used.'
         - candidate_id: contract-readiness-after-manuscript-expansion
           kind: d8_resolved_blocker_state
           surface: problems/navier-stokes/d8-completion-route-map.yaml
