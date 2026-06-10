@@ -95,7 +95,7 @@ verdict_alignment:
         paper has been repaired to stop claiming public Clay finality from terminal
         classification alone. The human/app-aligned track and remaining submission
         surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: QSPAngularFailureFieldNecessityBridge.A beneath
+        Current narrowed theorem leaf: SelectorReadoutToFieldBridge.A beneath QSPAngularFailureFieldNecessityBridge.A,
         AngularConcentrationFieldFaceEntry.A, SourceNativeSelectorAngularEquidistribution.A,
         SourceNativeFiniteCapBumpComparability.A, SourceNativeFiniteCapBumpLowerBound.A,
         SourceNativeCapFamilyDensityFloor.A, CapFamilyCompatibleRegularCoreSelection.A,
@@ -225,7 +225,7 @@ verdict_alignment:
           paper has been repaired to stop claiming public Clay finality from terminal
           classification alone. The human/app-aligned track and remaining submission
           surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-          Current narrowed theorem leaf: QSPAngularFailureFieldNecessityBridge.A beneath
+          Current narrowed theorem leaf: SelectorReadoutToFieldBridge.A beneath QSPAngularFailureFieldNecessityBridge.A,
           AngularConcentrationFieldFaceEntry.A, SourceNativeSelectorAngularEquidistribution.A,
           SourceNativeFiniteCapBumpComparability.A, SourceNativeFiniteCapBumpLowerBound.A,
           SourceNativeCapFamilyDensityFloor.A, CapFamilyCompatibleRegularCoreSelection.A,
@@ -392,13 +392,13 @@ verdict_alignment:
             The compact paper has been repaired to stop claiming public Clay finality
             from terminal classification alone. The human/app-aligned track and remaining
             submission surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A
-            is proved. Current narrowed theorem leaf: QSPAngularFailureFieldNecessityBridge.A
-            beneath AngularConcentrationFieldFaceEntry.A, SourceNativeSelectorAngularEquidistribution.A,
-            SourceNativeFiniteCapBumpComparability.A, SourceNativeFiniteCapBumpLowerBound.A,
-            SourceNativeCapFamilyDensityFloor.A, CapFamilyCompatibleRegularCoreSelection.A,
-            UniformRelativeHolderScaleBudget.A, SourceNativeDiagonalDensityOscillation.A,
-            QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A, InitialQSPCoreCapMassFloor.A,
-            CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
+            is proved. Current narrowed theorem leaf: SelectorReadoutToFieldBridge.A
+            beneath QSPAngularFailureFieldNecessityBridge.A, AngularConcentrationFieldFaceEntry.A,
+            SourceNativeSelectorAngularEquidistribution.A, SourceNativeFiniteCapBumpComparability.A,
+            SourceNativeFiniteCapBumpLowerBound.A, SourceNativeCapFamilyDensityFloor.A,
+            CapFamilyCompatibleRegularCoreSelection.A, UniformRelativeHolderScaleBudget.A,
+            SourceNativeDiagonalDensityOscillation.A, QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A,
+            InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
             DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A,
             DiagonalDensityHolderStoppingRetainedMass.A, DiagonalDensitySourceOscillation.A
             and PTCShapeNormalization.A, after the retained positive-scale reserve-birth
