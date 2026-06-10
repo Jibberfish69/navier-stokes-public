@@ -5,8 +5,8 @@ identity:
   artifact_id: dependency-graph-navier-stokes
   generated_at: '2026-06-08T07:23:17Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: contrapositive-witness-consumption-installed
-pass: true
+status: blocked-public-clay-finality-open
+pass: false
 source:
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
@@ -15,10 +15,10 @@ source:
   release_decision: problems/navier-stokes/release-decision.yaml
 summary:
   node_count: 3
-  blocking_count: 0
-  all_discharged: true
-  unresolved_count: 0
-  frontier_count: 0
+  blocking_count: 1
+  all_discharged: false
+  unresolved_count: 1
+  frontier_count: 1
   active_frontier: Start with the alleged finite-time Clay terminal witness from the
     same original smooth Navier-Stokes datum. Force that witness into the same-fluid
     canonical CM terminal packet tree, exhaust its finite failure type as not Pack_Q,
@@ -36,8 +36,9 @@ summary:
     with live-theorem-edge.yaml or target-operating-contract.yaml. The forward-positive
     quarantine index keeps 1853 scanned surfaces out of CM authority unless a named
     bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
-  audit_status: passed-current-finite-obstruction-inventory-gate
-  referee_blockers: []
+  audit_status: superseded-by-20260609-public-clay-finality-reentry
+  referee_blockers:
+  - external-terminal-time-thickness-mechanism
 nodes:
 - id: clay-cm-contrapositive-witness-consumption
   kind: direct-live-authority
@@ -58,4 +59,8 @@ nodes:
   blocking: false
   source_anchor: problems/navier-stokes/live-theorem-edge.yaml
 edges: []
-release_eligible: true
+release_eligible: false
+blocking_frontier:
+  id: external-terminal-time-thickness-mechanism
+  status: open
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-external-terminal-time-thickness-mechanism-search-reentry-20260609.md
