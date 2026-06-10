@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T14:47:15Z'
+generated_at: '2026-06-10T14:53:06Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -62,13 +62,14 @@ readiness_evidence:
       has been repaired to stop claiming public Clay finality from terminal classification
       alone. The human/app-aligned track and remaining submission surfaces must stay
       nonfinal until NoGenuineExitFromSmoothData.A is proved. Current narrowed theorem
-      leaf: EndpointMassFromShellPairCommutator.A, after TerminalNuNWindowSeedSynchronization.A,
-      TerminalFiniteCollarSeedToIntervalControl.A, RetainedFiniteBandAmplitudeSmallness.A,
-      DirectFiniteBandBilinear8j11.A, RetainedEndpointMassShellPairThreading.A, no-incoming
-      / backward uniqueness, PositiveSourceTraceAC_{B_ASAC}.A, source-density/CKN/source-time
+      leaf: PositiveStressSignedExactnessTransfer.A / PositiveEndpointStressObservability.A
+      / SecondOrderScaleExactness.A, after EndpointMassFromShellPairCommutator.A,
+      TerminalNuNWindowSeedSynchronization.A, TerminalFiniteCollarSeedToIntervalControl.A,
+      RetainedFiniteBandAmplitudeSmallness.A, DirectFiniteBandBilinear8j11.A, RetainedEndpointMassShellPairThreading.A,
+      no-incoming / backward uniqueness, PositiveSourceTraceAC_{B_ASAC}.A, source-density/CKN/source-time
       aliases, retained carrier compactness, lifted-band flux, affine quotient, and
       mu_N endpoint routes reduced the live non-alias burden to endpoint threading
-      and then endpoint mass / commutator comparison, after the retained positive-scale
+      and then positive stress sign/exactness transfer, after the retained positive-scale
       reserve-birth / B_ASAC terminal source atom routes exhausted into a source-time
       alias cycle, the h/F terminal mass route reduced to the selector-normal quadratic
       upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad remain alternate unproved
@@ -91,9 +92,10 @@ readiness_evidence:
     required_action: 'Reopened by rendered referee reread: finite-obstruction inventory
       coverage is installed as classification, but it does not prove public Clay counterexample
       exclusion. The live result must be ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A
-      or an equivalent theorem; the current executable child is EndpointMassFromShellPairCommutator.A
-      under the retained far-corona endpoint route, with RetainedMuNCarleson.A and
-      uniform `nu_N` synchronization still open as alternatives.'
+      or an equivalent theorem; the current executable child is PositiveStressSignedExactnessTransfer.A
+      / PositiveEndpointStressObservability.A / SecondOrderScaleExactness.A under
+      the retained far-corona endpoint route, with RetainedMuNCarleson.A and uniform
+      `nu_N` synchronization still open as alternatives.'
   - candidate_id: contract-readiness-after-manuscript-expansion
     kind: d8_resolved_blocker_state
     surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -115,9 +117,10 @@ readiness_evidence:
     required_action: 'Open: terminal obstruction classification is installed, but
       public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
       / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed theorem
-      leaf is EndpointMassFromShellPairCommutator.A under the retained far-corona
-      endpoint route, with RetainedMuNCarleson.A and uniform `nu_N` synchronization
-      still open as alternatives.'
+      leaf is PositiveStressSignedExactnessTransfer.A / PositiveEndpointStressObservability.A
+      / SecondOrderScaleExactness.A under the retained far-corona endpoint route,
+      with RetainedMuNCarleson.A and uniform `nu_N` synchronization still open as
+      alternatives.'
   - candidate_id: live-theorem-edge:clay_closure_status
     kind: live_theorem_edge
     surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -194,13 +197,14 @@ readiness_evidence:
         paper has been repaired to stop claiming public Clay finality from terminal
         classification alone. The human/app-aligned track and remaining submission
         surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: EndpointMassFromShellPairCommutator.A, after
+        Current narrowed theorem leaf: PositiveStressSignedExactnessTransfer.A / PositiveEndpointStressObservability.A
+        / SecondOrderScaleExactness.A, after EndpointMassFromShellPairCommutator.A,
         TerminalNuNWindowSeedSynchronization.A, TerminalFiniteCollarSeedToIntervalControl.A,
         RetainedFiniteBandAmplitudeSmallness.A, DirectFiniteBandBilinear8j11.A, RetainedEndpointMassShellPairThreading.A,
         no-incoming / backward uniqueness, PositiveSourceTraceAC_{B_ASAC}.A, source-density/CKN/source-time
         aliases, retained carrier compactness, lifted-band flux, affine quotient,
         and mu_N endpoint routes reduced the live non-alias burden to endpoint threading
-        and then endpoint mass / commutator comparison, after the retained positive-scale
+        and then positive stress sign/exactness transfer, after the retained positive-scale
         reserve-birth / B_ASAC terminal source atom routes exhausted into a source-time
         alias cycle, the h/F terminal mass route reduced to the selector-normal quadratic
         upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad remain alternate unproved
@@ -225,9 +229,10 @@ readiness_evidence:
         coverage is installed as classification, but it does not prove public Clay
         counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
         / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
-        child is EndpointMassFromShellPairCommutator.A under the retained far-corona
-        endpoint route, with RetainedMuNCarleson.A and uniform `nu_N` synchronization
-        still open as alternatives.'
+        child is PositiveStressSignedExactnessTransfer.A / PositiveEndpointStressObservability.A
+        / SecondOrderScaleExactness.A under the retained far-corona endpoint route,
+        with RetainedMuNCarleson.A and uniform `nu_N` synchronization still open as
+        alternatives.'
     - candidate_id: contract-readiness-after-manuscript-expansion
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -249,9 +254,10 @@ readiness_evidence:
       required_action: 'Open: terminal obstruction classification is installed, but
         public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
         / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
-        theorem leaf is EndpointMassFromShellPairCommutator.A under the retained far-corona
-        endpoint route, with RetainedMuNCarleson.A and uniform `nu_N` synchronization
-        still open as alternatives.'
+        theorem leaf is PositiveStressSignedExactnessTransfer.A / PositiveEndpointStressObservability.A
+        / SecondOrderScaleExactness.A under the retained far-corona endpoint route,
+        with RetainedMuNCarleson.A and uniform `nu_N` synchronization still open as
+        alternatives.'
     - candidate_id: live-theorem-edge:clay_closure_status
       kind: live_theorem_edge
       surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -363,14 +369,15 @@ readiness_evidence:
           paper has been repaired to stop claiming public Clay finality from terminal
           classification alone. The human/app-aligned track and remaining submission
           surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-          Current narrowed theorem leaf: EndpointMassFromShellPairCommutator.A, after
-          TerminalNuNWindowSeedSynchronization.A, TerminalFiniteCollarSeedToIntervalControl.A,
-          RetainedFiniteBandAmplitudeSmallness.A, DirectFiniteBandBilinear8j11.A,
-          RetainedEndpointMassShellPairThreading.A, no-incoming / backward uniqueness,
-          PositiveSourceTraceAC_{B_ASAC}.A, source-density/CKN/source-time aliases,
-          retained carrier compactness, lifted-band flux, affine quotient, and mu_N
-          endpoint routes reduced the live non-alias burden to endpoint threading
-          and then endpoint mass / commutator comparison, after the retained positive-scale
+          Current narrowed theorem leaf: PositiveStressSignedExactnessTransfer.A /
+          PositiveEndpointStressObservability.A / SecondOrderScaleExactness.A, after
+          EndpointMassFromShellPairCommutator.A, TerminalNuNWindowSeedSynchronization.A,
+          TerminalFiniteCollarSeedToIntervalControl.A, RetainedFiniteBandAmplitudeSmallness.A,
+          DirectFiniteBandBilinear8j11.A, RetainedEndpointMassShellPairThreading.A,
+          no-incoming / backward uniqueness, PositiveSourceTraceAC_{B_ASAC}.A, source-density/CKN/source-time
+          aliases, retained carrier compactness, lifted-band flux, affine quotient,
+          and mu_N endpoint routes reduced the live non-alias burden to endpoint threading
+          and then positive stress sign/exactness transfer, after the retained positive-scale
           reserve-birth / B_ASAC terminal source atom routes exhausted into a source-time
           alias cycle, the h/F terminal mass route reduced to the selector-normal
           quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad remain
@@ -395,9 +402,10 @@ readiness_evidence:
           inventory coverage is installed as classification, but it does not prove
           public Clay counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
           / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
-          child is EndpointMassFromShellPairCommutator.A under the retained far-corona
-          endpoint route, with RetainedMuNCarleson.A and uniform `nu_N` synchronization
-          still open as alternatives.'
+          child is PositiveStressSignedExactnessTransfer.A / PositiveEndpointStressObservability.A
+          / SecondOrderScaleExactness.A under the retained far-corona endpoint route,
+          with RetainedMuNCarleson.A and uniform `nu_N` synchronization still open
+          as alternatives.'
       - candidate_id: contract-readiness-after-manuscript-expansion
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -420,9 +428,10 @@ readiness_evidence:
         required_action: 'Open: terminal obstruction classification is installed,
           but public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
           / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
-          theorem leaf is EndpointMassFromShellPairCommutator.A under the retained
-          far-corona endpoint route, with RetainedMuNCarleson.A and uniform `nu_N`
-          synchronization still open as alternatives.'
+          theorem leaf is PositiveStressSignedExactnessTransfer.A / PositiveEndpointStressObservability.A
+          / SecondOrderScaleExactness.A under the retained far-corona endpoint route,
+          with RetainedMuNCarleson.A and uniform `nu_N` synchronization still open
+          as alternatives.'
       - candidate_id: live-theorem-edge:clay_closure_status
         kind: live_theorem_edge
         surface: problems/navier-stokes/live-theorem-edge.yaml
