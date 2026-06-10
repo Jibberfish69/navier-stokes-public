@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T08:08:38Z'
+generated_at: '2026-06-10T08:13:52Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -62,11 +62,12 @@ readiness_evidence:
       has been repaired to stop claiming public Clay finality from terminal classification
       alone. The human/app-aligned track and remaining submission surfaces must stay
       nonfinal until NoGenuineExitFromSmoothData.A is proved. Current narrowed theorem
-      leaf: CN13jQuadraticSelectorNormalCalibration.A, after the retained positive-scale
-      reserve-birth / B_ASAC terminal source atom routes exhausted into a source-time
-      alias cycle, the h/F terminal mass route reduced to the selector-normal quadratic
-      upgrade, and the PD.70z pass showed CN.13q/CN.13ab-CN.13ad remain alternate
-      unproved upgrade routes.'
+      leaf: CN13jSelectorNormalAmplitudeFloorOrSmallMomentAbsorption.A, after the
+      retained positive-scale reserve-birth / B_ASAC terminal source atom routes exhausted
+      into a source-time alias cycle, the h/F terminal mass route reduced to the selector-normal
+      quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad remain alternate
+      unproved upgrade routes, and the CN.13j pass reduced the exact missing lower
+      link to polarity/amplitude-floor or small-moment absorption.'
   - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
     kind: d8_resolved_blocker_state
     surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -172,11 +173,12 @@ readiness_evidence:
         paper has been repaired to stop claiming public Clay finality from terminal
         classification alone. The human/app-aligned track and remaining submission
         surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: CN13jQuadraticSelectorNormalCalibration.A,
+        Current narrowed theorem leaf: CN13jSelectorNormalAmplitudeFloorOrSmallMomentAbsorption.A,
         after the retained positive-scale reserve-birth / B_ASAC terminal source atom
         routes exhausted into a source-time alias cycle, the h/F terminal mass route
-        reduced to the selector-normal quadratic upgrade, and the PD.70z pass showed
-        CN.13q/CN.13ab-CN.13ad remain alternate unproved upgrade routes.'
+        reduced to the selector-normal quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad
+        remain alternate unproved upgrade routes, and the CN.13j pass reduced the
+        exact missing lower link to polarity/amplitude-floor or small-moment absorption.'
     - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -317,11 +319,13 @@ readiness_evidence:
           paper has been repaired to stop claiming public Clay finality from terminal
           classification alone. The human/app-aligned track and remaining submission
           surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-          Current narrowed theorem leaf: CN13jQuadraticSelectorNormalCalibration.A,
+          Current narrowed theorem leaf: CN13jSelectorNormalAmplitudeFloorOrSmallMomentAbsorption.A,
           after the retained positive-scale reserve-birth / B_ASAC terminal source
           atom routes exhausted into a source-time alias cycle, the h/F terminal mass
-          route reduced to the selector-normal quadratic upgrade, and the PD.70z pass
-          showed CN.13q/CN.13ab-CN.13ad remain alternate unproved upgrade routes.'
+          route reduced to the selector-normal quadratic upgrade, the PD.70z pass
+          showed CN.13q/CN.13ab-CN.13ad remain alternate unproved upgrade routes,
+          and the CN.13j pass reduced the exact missing lower link to polarity/amplitude-floor
+          or small-moment absorption.'
       - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
