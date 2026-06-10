@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T07:58:44Z'
+generated_at: '2026-06-10T08:03:24Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -62,9 +62,9 @@ readiness_evidence:
       has been repaired to stop claiming public Clay finality from terminal classification
       alone. The human/app-aligned track and remaining submission surfaces must stay
       nonfinal until NoGenuineExitFromSmoothData.A is proved. Current narrowed theorem
-      leaf: HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A, after the
-      retained positive-scale reserve-birth / B_ASAC terminal source atom routes exhausted
-      into a source-time alias cycle.'
+      leaf: PD70zQuadraticNormalUpgrade.A, after the retained positive-scale reserve-birth
+      / B_ASAC terminal source atom routes exhausted into a source-time alias cycle
+      and the h/F terminal mass route reduced to the selector-normal quadratic upgrade.'
   - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
     kind: d8_resolved_blocker_state
     surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -170,9 +170,10 @@ readiness_evidence:
         paper has been repaired to stop claiming public Clay finality from terminal
         classification alone. The human/app-aligned track and remaining submission
         surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A,
-        after the retained positive-scale reserve-birth / B_ASAC terminal source atom
-        routes exhausted into a source-time alias cycle.'
+        Current narrowed theorem leaf: PD70zQuadraticNormalUpgrade.A, after the retained
+        positive-scale reserve-birth / B_ASAC terminal source atom routes exhausted
+        into a source-time alias cycle and the h/F terminal mass route reduced to
+        the selector-normal quadratic upgrade.'
     - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -313,9 +314,10 @@ readiness_evidence:
           paper has been repaired to stop claiming public Clay finality from terminal
           classification alone. The human/app-aligned track and remaining submission
           surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-          Current narrowed theorem leaf: HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A,
-          after the retained positive-scale reserve-birth / B_ASAC terminal source
-          atom routes exhausted into a source-time alias cycle.'
+          Current narrowed theorem leaf: PD70zQuadraticNormalUpgrade.A, after the
+          retained positive-scale reserve-birth / B_ASAC terminal source atom routes
+          exhausted into a source-time alias cycle and the h/F terminal mass route
+          reduced to the selector-normal quadratic upgrade.'
       - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
