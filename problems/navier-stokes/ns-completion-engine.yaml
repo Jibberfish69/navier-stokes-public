@@ -94,7 +94,7 @@ project_model:
       submission_ready: false
       candidate_count: 1
       candidates:
-      - PressureTimeSpread.A / EllipticTimeSmearing.A for the pure pressure-source singular residue
+      - NewTerminalSourceTimeProductionMechanism.A for the all-doors-closed B_ASAC terminal native positive source atom
       checks:
         route_candidates: 0
         d8_candidates: 0
@@ -134,7 +134,7 @@ project_model:
         submission_ready: false
         candidate_count: 1
         candidates:
-        - PressureTimeSpread.A / EllipticTimeSmearing.A for the pure pressure-source singular residue
+        - NewTerminalSourceTimeProductionMechanism.A for the all-doors-closed B_ASAC terminal native positive source atom
         checks:
           route_candidates: 0
           d8_candidates: 0
