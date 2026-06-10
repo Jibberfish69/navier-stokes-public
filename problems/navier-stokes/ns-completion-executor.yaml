@@ -266,14 +266,14 @@ terminal_state: &11
     A face-derived Exit(Q):=not Member(Q) is terminal obstruction classification,
     not by itself a contradiction to finite Clay breakdown. No theorem yet proves
     OriginalSmoothData => ScaleCriticalTreeCarleson.A or Pack_{Q_atlas} fixed readout.
-    The current narrowed theorem leaf is TerminalNuNWindowSeedSynchronization.A under
+    The current narrowed theorem leaf is EndpointMassFromShellPairCommutator.A under
     the retained far-corona endpoint route: the B_ASAC source-density, source-time,
     CKN/source-tether, first-exit Pack, retained-carrier compactness, lifted-band
     flux, affine quotient, mu_N endpoint, endpoint threading, direct (8j11), retained
-    finite-collar amplitude, and seed-to-interval routes have reduced the direct
-    finite-band branch to synchronizing small `nu_N` terminal-window mass with the
-    smooth high-frequency entrance seed. Sibling endpoint routes through EndpointMassFromShellPairCommutator.A
-    and RetainedMuNCarleson.A remain open.
+    finite-collar amplitude, seed-to-interval, and `nu_N` synchronization routes
+    have reduced the live branch to whether the nonnegative endpoint mass is controlled
+    by the absorbed shell-pair commutator family. RetainedMuNCarleson.A and uniform
+    `nu_N` synchronization remain open alternatives.
     Keep pdfs_final false until an endpoint-threading theorem feeds `(EP)`, `(L-Flux)`,
     retained tail input, Part-row compactness,
     NoGenuineExitFromSmoothData.A, and both PDF final rereads are paid.'
@@ -403,6 +403,7 @@ terminal_state: &11
   - problems/navier-stokes/theorem-construction/mpp-direct-finite-band-bilinear-8j11-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-retained-finite-band-amplitude-smallness-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-terminal-finite-collar-seed-to-interval-control-proof-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-terminal-nun-window-seed-synchronization-direct-attempt-20260609.md
 reentry:
   status: terminal_completed
   loop_policy: feed executor outputs back until every work node is complete or exactly
