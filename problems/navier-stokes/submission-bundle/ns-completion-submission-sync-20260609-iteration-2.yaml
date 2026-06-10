@@ -165,14 +165,16 @@ verdict_alignment:
         been tested and does not pay the bridge: the material-eigenframe split pays
         far-low/subparabolic support and routes parabolic-rate amplitude, but the
         frozen aligned pressure/source-current and active-alignment/no-incoming cases
-        remain unpaid. The next executable child must be TerminalPressureHessianNoSustain_lowhigh.A,
-        OneSidedNearBandMaterialSourceCurrentLegal.A, ActiveStrainAlignmentCost_lowhigh.A,
-        TPNILowHighNoIncoming.A, LowHighSourceResidenceEvacuation.A, LowHighTerminalStripModulus.A,
-        ScaleNestedPackMoleculeLiouville.A, or an equivalent first-Pack survival mechanism
-        before any TPS good-family, selected-pair expansion, one-profile capture,
-        two-profile molecule, low-high paraproduct capture, low-high Carleson reserve,
-        low-high decorrelation, dynamic no-freeze, or Pack-critical-element route
-        can be used.'
+        remain unpaid. TerminalPressureHessianNoSustain_lowhigh.A has now been tested
+        and does not pay the bridge: pressure structure gives only the source-current
+        or pure-pressure carrier dichotomy. The next executable child must be OneSidedNearBandMaterialSourceCurrentLegal.A,
+        TerminalPressurePureStrainLegal_lowhigh.A, PurePressureSustainResidueLiouville_lowhigh.A,
+        ActiveStrainAlignmentCost_lowhigh.A, TPNILowHighNoIncoming.A, LowHighSourceResidenceEvacuation.A,
+        LowHighTerminalStripModulus.A, ScaleNestedPackMoleculeLiouville.A, or an equivalent
+        first-Pack survival mechanism before any TPS good-family, selected-pair expansion,
+        one-profile capture, two-profile molecule, low-high paraproduct capture, low-high
+        Carleson reserve, low-high decorrelation, dynamic no-freeze, pressure no-sustain,
+        or Pack-critical-element route can be used.'
     - candidate_id: contract-readiness-after-manuscript-expansion
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -349,14 +351,17 @@ verdict_alignment:
           been tested and does not pay the bridge: the material-eigenframe split pays
           far-low/subparabolic support and routes parabolic-rate amplitude, but the
           frozen aligned pressure/source-current and active-alignment/no-incoming
-          cases remain unpaid. The next executable child must be TerminalPressureHessianNoSustain_lowhigh.A,
-          OneSidedNearBandMaterialSourceCurrentLegal.A, ActiveStrainAlignmentCost_lowhigh.A,
+          cases remain unpaid. TerminalPressureHessianNoSustain_lowhigh.A has now
+          been tested and does not pay the bridge: pressure structure gives only the
+          source-current or pure-pressure carrier dichotomy. The next executable child
+          must be OneSidedNearBandMaterialSourceCurrentLegal.A, TerminalPressurePureStrainLegal_lowhigh.A,
+          PurePressureSustainResidueLiouville_lowhigh.A, ActiveStrainAlignmentCost_lowhigh.A,
           TPNILowHighNoIncoming.A, LowHighSourceResidenceEvacuation.A, LowHighTerminalStripModulus.A,
           ScaleNestedPackMoleculeLiouville.A, or an equivalent first-Pack survival
           mechanism before any TPS good-family, selected-pair expansion, one-profile
           capture, two-profile molecule, low-high paraproduct capture, low-high Carleson
-          reserve, low-high decorrelation, dynamic no-freeze, or Pack-critical-element
-          route can be used.'
+          reserve, low-high decorrelation, dynamic no-freeze, pressure no-sustain,
+          or Pack-critical-element route can be used.'
       - candidate_id: contract-readiness-after-manuscript-expansion
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -571,14 +576,17 @@ verdict_alignment:
             has now been tested and does not pay the bridge: the material-eigenframe
             split pays far-low/subparabolic support and routes parabolic-rate amplitude,
             but the frozen aligned pressure/source-current and active-alignment/no-incoming
-            cases remain unpaid. The next executable child must be TerminalPressureHessianNoSustain_lowhigh.A,
-            OneSidedNearBandMaterialSourceCurrentLegal.A, ActiveStrainAlignmentCost_lowhigh.A,
+            cases remain unpaid. TerminalPressureHessianNoSustain_lowhigh.A has now
+            been tested and does not pay the bridge: pressure structure gives only
+            the source-current or pure-pressure carrier dichotomy. The next executable
+            child must be OneSidedNearBandMaterialSourceCurrentLegal.A, TerminalPressurePureStrainLegal_lowhigh.A,
+            PurePressureSustainResidueLiouville_lowhigh.A, ActiveStrainAlignmentCost_lowhigh.A,
             TPNILowHighNoIncoming.A, LowHighSourceResidenceEvacuation.A, LowHighTerminalStripModulus.A,
             ScaleNestedPackMoleculeLiouville.A, or an equivalent first-Pack survival
             mechanism before any TPS good-family, selected-pair expansion, one-profile
             capture, two-profile molecule, low-high paraproduct capture, low-high
-            Carleson reserve, low-high decorrelation, dynamic no-freeze, or Pack-critical-element
-            route can be used.'
+            Carleson reserve, low-high decorrelation, dynamic no-freeze, pressure
+            no-sustain, or Pack-critical-element route can be used.'
         - candidate_id: contract-readiness-after-manuscript-expansion
           kind: d8_resolved_blocker_state
           surface: problems/navier-stokes/d8-completion-route-map.yaml
