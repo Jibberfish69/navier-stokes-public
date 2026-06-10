@@ -266,11 +266,12 @@ terminal_state: &11
     A face-derived Exit(Q):=not Member(Q) is terminal obstruction classification,
     not by itself a contradiction to finite Clay breakdown. No theorem yet proves
     OriginalSmoothData => ScaleCriticalTreeCarleson.A or Pack_{Q_atlas} fixed readout.
-    The current narrowed theorem leaf is AffineReadoutConditionNumberBudget.A /
-    UniformAffineMetricEllipticity.A, because AffineMaterialReadoutToFixedHs.A failed
-    without a uniform condition-number/deformation budget converting affine packet
-    control into fixed-coordinate H^s(T^3). Keep pdfs_final false until this readout
-    bridge, NoGenuineExitFromSmoothData.A, and both PDF final rereads are paid.'
+    The current narrowed theorem leaf is Pack_{Q_atlas} / OriginalSmoothDataPackSurvival.A
+    after affine bypass exhaustion: AffineMaterialReadoutToFixedHs.A failed without
+    fixed-coordinate metric comparability, and AffineReadoutConditionNumberBudget.A
+    reduced to terminal strain-tail control. Keep pdfs_final false until Pack deformation
+    comparability or a genuinely different fixed H^s(T^3) readout theorem, NoGenuineExitFromSmoothData.A,
+    and both PDF final rereads are paid.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
@@ -329,6 +330,8 @@ terminal_state: &11
   - affine-material-readout-to-fixed-hs
   - affine-readout-condition-number-budget
   - uniform-affine-metric-ellipticity
+  - terminal-collar-strain-integrability
+  - pack-atlas-deformation-comparability
   - retained-positive-scale-native-reserve-birth-charge
   - clay-counterexample-exclusion-bridge-propagation
   - no-genuine-exit-from-smooth-data-propagation
