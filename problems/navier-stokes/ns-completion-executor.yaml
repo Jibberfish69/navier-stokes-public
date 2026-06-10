@@ -260,18 +260,24 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at OriginalSmoothDataPackSurvival.A
-    / ScaleCriticalTreeCarleson.A: same-witness Clay propagation failed because
-    retained tower consumption cannot exclude a first Pack failure whose root fact
-    is not Pack_Q. The active non-alias child is RetainedPositiveScaleNativeReserveBirthCharge.A
-    or an equivalent first-Pack-survival theorem; keep pdfs_final false until paid
-    and both PDFs pass fresh final rereads.'
+  stop_reason: 'public Clay finality remains open at NoGenuineExitFromSmoothData.A
+    / ProducedMinimalFirstPackBubbleRigidity.A: minimal-bubble compactness extracts
+    a local suitable terminal bubble with nonzero Pack defect or source residue,
+    but the current proof package does not yet place that bubble in a proved Liouville,
+    critical ancient, time-face anti-atom, source-Carleson, or active-square rigidity
+    class. Keep pdfs_final false until this first-Pack-survival theorem is paid and
+    both PDFs pass fresh final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - produced-minimal-first-pack-bubble-rigidity
+  - minimal-first-pack-bubble-liouville
+  - produced-critical-ancient-class
+  - terminal-source-atom-to-rigid-profile
+  - minimal-bubble-time-face-antiatom
   - original-smooth-data-pack-survival
   - scale-critical-tree-carleson
   - retained-positive-scale-native-reserve-birth-charge
