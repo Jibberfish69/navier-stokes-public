@@ -25,7 +25,7 @@ summary:
   frontier_count: 1
   all_discharged: false
 blockers:
-- external-terminal-time-thickness-mechanism
+- source-time-concentration-cost
 superseded_by:
 - problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
 - problems/navier-stokes/theorem-construction/mpp-external-terminal-time-thickness-mechanism-search-reentry-20260609.md
