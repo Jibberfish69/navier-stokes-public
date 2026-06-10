@@ -260,20 +260,23 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at CrossProfileTerminalPositiveSourceAtomEscape.A:
-    the source-AC pressure time-face pass leaves the terminal L1 source-layer model
-    compatible with current pressure, minimality, donor, ASAC, and local-energy inputs.
-    No theorem yet proves that a terminal native positive source atom cannot be
-    simultaneously diffuse in parents, zero-thickness in time, pressure/eigenframe
-    sustained, and free of same-ledger Pack/Part/Field face failure. Keep pdfs_final
-    false until atom escape, or a stronger theorem removing this atom, is paid and
-    both PDFs pass fresh final rereads.'
+  stop_reason: 'public Clay finality remains open at FirstExitPackSurvivalMechanismSearch.A
+    / OriginalSmoothDataPackSurvival.A: terminal source residue is already classified
+    by TerminalSourceResidueCMExit.A once admitted to the CM tree, so atom escape
+    is not the parent target. No theorem yet proves OriginalSmoothData => ScaleCriticalTreeCarleson.A
+    by same-ledger payment for retained positive-scale reserve birth, material-collar
+    or fixed-coordinate Pack survival, direct exclusion of the produced source atom
+    as the first Pack exit, or another non-alias first-Pack-survival mechanism. Keep
+    pdfs_final false until the first-exit Pack-survival bridge is paid and both PDFs
+    pass fresh final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - first-exit-pack-survival-mechanism-search
+  - original-smooth-data-pack-survival
   - cross-profile-terminal-positive-source-atom-escape
   - cross-profile-pressure-source-timeface-spread
   - cross-profile-pure-pressure-singular-residue-elimination
