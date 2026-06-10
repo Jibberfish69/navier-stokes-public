@@ -95,12 +95,14 @@ verdict_alignment:
         paper has been repaired to stop claiming public Clay finality from terminal
         classification alone. The human/app-aligned track and remaining submission
         surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: CN13jSelectorNormalAmplitudeFloorOrSmallMomentAbsorption.A,
-        after the retained positive-scale reserve-birth / B_ASAC terminal source atom
-        routes exhausted into a source-time alias cycle, the h/F terminal mass route
-        reduced to the selector-normal quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad
-        remain alternate unproved upgrade routes, and the CN.13j pass reduced the
-        exact missing lower link to polarity/amplitude-floor or small-moment absorption.'
+        Current narrowed theorem leaf: DGCalExactLinearFrameCondition.A, after the
+        retained positive-scale reserve-birth / B_ASAC terminal source atom routes
+        exhausted into a source-time alias cycle, the h/F terminal mass route reduced
+        to the selector-normal quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad
+        remain alternate unproved upgrade routes, the CN.13j pass reduced the exact
+        missing lower link to polarity/amplitude-floor or small-moment absorption,
+        and the lower-link pass reduced polarity to tangent linearization/coercivity
+        of the exact anchored observable.'
     - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -206,13 +208,14 @@ verdict_alignment:
           paper has been repaired to stop claiming public Clay finality from terminal
           classification alone. The human/app-aligned track and remaining submission
           surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-          Current narrowed theorem leaf: CN13jSelectorNormalAmplitudeFloorOrSmallMomentAbsorption.A,
-          after the retained positive-scale reserve-birth / B_ASAC terminal source
-          atom routes exhausted into a source-time alias cycle, the h/F terminal mass
-          route reduced to the selector-normal quadratic upgrade, the PD.70z pass
-          showed CN.13q/CN.13ab-CN.13ad remain alternate unproved upgrade routes,
-          and the CN.13j pass reduced the exact missing lower link to polarity/amplitude-floor
-          or small-moment absorption.'
+          Current narrowed theorem leaf: DGCalExactLinearFrameCondition.A, after the
+          retained positive-scale reserve-birth / B_ASAC terminal source atom routes
+          exhausted into a source-time alias cycle, the h/F terminal mass route reduced
+          to the selector-normal quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad
+          remain alternate unproved upgrade routes, the CN.13j pass reduced the exact
+          missing lower link to polarity/amplitude-floor or small-moment absorption,
+          and the lower-link pass reduced polarity to tangent linearization/coercivity
+          of the exact anchored observable.'
       - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -354,13 +357,14 @@ verdict_alignment:
             The compact paper has been repaired to stop claiming public Clay finality
             from terminal classification alone. The human/app-aligned track and remaining
             submission surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A
-            is proved. Current narrowed theorem leaf: CN13jSelectorNormalAmplitudeFloorOrSmallMomentAbsorption.A,
+            is proved. Current narrowed theorem leaf: DGCalExactLinearFrameCondition.A,
             after the retained positive-scale reserve-birth / B_ASAC terminal source
             atom routes exhausted into a source-time alias cycle, the h/F terminal
             mass route reduced to the selector-normal quadratic upgrade, the PD.70z
             pass showed CN.13q/CN.13ab-CN.13ad remain alternate unproved upgrade routes,
-            and the CN.13j pass reduced the exact missing lower link to polarity/amplitude-floor
-            or small-moment absorption.'
+            the CN.13j pass reduced the exact missing lower link to polarity/amplitude-floor
+            or small-moment absorption, and the lower-link pass reduced polarity to
+            tangent linearization/coercivity of the exact anchored observable.'
         - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
           kind: d8_resolved_blocker_state
           surface: problems/navier-stokes/d8-completion-route-map.yaml
