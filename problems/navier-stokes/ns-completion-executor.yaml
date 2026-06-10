@@ -260,19 +260,20 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at HFTerminalDefectMassVanishing.A
-    / USCP.A2-PackRestoration.A: prove terminal h/F defect mass vanishes on every
-    licensed same-fluid Pack scale window, rule out nonzero same-carrier h/F terminal
-    survivor mass for original smooth NS data, or restore Pack_Q directly from USCP.A2-Pack
-    plus a terminal budget; then propagate through OriginalSmoothDataPackSurvival.A,
-    NoGenuineExitFromSmoothData.A, and PDF final rereads; keep pdfs_final false until
-    paid.'
+  stop_reason: 'public Clay finality remains open at LicensedHFTaylorScaleBudget.A:
+    prove that on every licensed terminal same-fluid Pack scale window, the window
+    radius times ||D_a F|| tends to zero in the native Pack norm, or prove an equivalent
+    observability/source estimate forcing the h/F terminal survivor measure to vanish;
+    then propagate through HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A,
+    OriginalSmoothDataPackSurvival.A, NoGenuineExitFromSmoothData.A, and PDF final
+    rereads; keep pdfs_final false until paid.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - licensed-hf-taylor-scale-budget
   - hf-terminal-defect-mass-vanishing
   - uscp-a2-pack-restoration
   - scfbase-good-cover-from-exact-potential-readout
