@@ -95,7 +95,7 @@ readiness_evidence:
       candidate_count: 2
       candidates:
       - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A
-      - TerminalNewProductionTheorem_{B_ASAC}.A as active supplier state; current subtarget WeightedCommutatorResidualTail.A
+      - TerminalNewProductionTheorem_{B_ASAC}.A as active supplier state; current subtarget NativeTimeFaceAtomToTransferActiveBurst.A / TimeFaceAtomInFinalDefect.A
       checks:
         route_candidates: 0
         d8_candidates: 0
