@@ -296,7 +296,9 @@ terminal_state: &11
     rigid anti-atom production attempt then showed the rigid-subclass Liouville theorem
     is conditional on terminal anti-atom production, and same-witness custody does
     not produce that clause. The executable child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A:
-    a genuinely non-source Pack-survival theorem.
+    TerminalPackUniformityFromOriginalSmoothData.A, EarlierPackFailureReflection.A,
+    or another non-alias first-Pack survival theorem; compact preterminal smoothness
+    alone does not provide the terminal Pack modulus.
     Keep pdfs_final false until that bridge is paid into NoGenuineExitFromSmoothData.A
     and propagated through both PDF final rereads.'
   completed_work_node_ids:
