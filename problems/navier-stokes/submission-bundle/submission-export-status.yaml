@@ -46,14 +46,14 @@ readiness_evidence:
   completion_candidate_count: 2
   completion_candidates:
   - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A
-  - TerminalNewProductionTheorem_{B_ASAC}.A as active supplier state; current subtarget BASACTimeFaceAntiAtom.A / ProductionIntoRigidBASACTimeFaceSubclass.A
+  - TerminalNewProductionTheorem_{B_ASAC}.A as active supplier state; current subtarget ExternalTerminalTimeThicknessMechanism.A
   completion_readiness:
     status: blocked-public-clay-finality-open
     submission_ready: false
     candidate_count: 2
     candidates:
     - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A
-    - TerminalNewProductionTheorem_{B_ASAC}.A as active supplier state; current subtarget BASACTimeFaceAntiAtom.A / ProductionIntoRigidBASACTimeFaceSubclass.A
+    - TerminalNewProductionTheorem_{B_ASAC}.A as active supplier state; current subtarget ExternalTerminalTimeThicknessMechanism.A
     checks:
       route_candidates: 0
       d8_candidates: 0
@@ -95,7 +95,7 @@ readiness_evidence:
       candidate_count: 2
       candidates:
       - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A
-      - TerminalNewProductionTheorem_{B_ASAC}.A as active supplier state; current subtarget BASACTimeFaceAntiAtom.A / ProductionIntoRigidBASACTimeFaceSubclass.A
+      - TerminalNewProductionTheorem_{B_ASAC}.A as active supplier state; current subtarget ExternalTerminalTimeThicknessMechanism.A
       checks:
         route_candidates: 0
         d8_candidates: 0
