@@ -266,13 +266,17 @@ terminal_state: &11
     A face-derived Exit(Q):=not Member(Q) is terminal obstruction classification,
     not by itself a contradiction to finite Clay breakdown. No theorem yet proves
     OriginalSmoothData => ScaleCriticalTreeCarleson.A or Pack_{Q_atlas} fixed readout.
-    The current narrowed theorem leaf is TerminalSourceResidenceMechanism.A for
-    the produced B_ASAC class: the affine readout bypass failed, the condition-number
+    The current narrowed theorem leaf is B_ASAC quantitative source-density production:
+    the affine readout bypass failed, the condition-number
     budget reduced to Pack deformation comparability, the reserve-birth reductions
     sharpened the non-alias target to the produced B_ASAC terminal source-residue
     wall, and the no-incoming / backward-uniqueness route failed as an independent
-    anti-atom mechanism. Keep pdfs_final false until UniformTemporalSourceIntegrability_{p,B_ASAC}.A,
-    PositiveSourceTraceAC_{B_ASAC}.A, or an equivalent source-residence theorem,
+    anti-atom mechanism; PositiveSourceTraceAC_{B_ASAC}.A also failed from local
+    energy, weak trace compactness, zero ASAC, paid exits, and finite L^1_s source
+    mass. Keep pdfs_final false until a source-density theorem such as
+    NativePositiveSourceUniformIntegrability_{B_ASAC}.A, TerminalSourceOrliczResidence_{B_ASAC}.A,
+    TerminalSourceMorreyResidence_{B_ASAC}.A, LocalPositiveSourceCarleson_{B_ASAC}.A,
+    or an equivalent source-residence theorem,
     NoGenuineExitFromSmoothData.A, and both PDF final rereads are paid.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
