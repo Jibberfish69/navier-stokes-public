@@ -1,186 +1,146 @@
 ---
 ns_viewer:
   theorem_id: hf-terminal-defect-mass-vanishing-direct-attempt-20260609
-  status: failed-pack-survival-discharge
-  proof_role: h_f_terminal_mass_vanishing_attempt
-  logical_landing_node: pd70z_quadratic_normal_upgrade
-  edge_effect: "Reduces HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A to the selector-normal quadratic upgrade needed for PD.70z."
+  status: failed-licensed-hf-taylor-scale-budget-missing
+  proof_role: pack_restoration_direct_attempt
+  logical_landing_node: licensed-hf-taylor-scale-budget
+  edge_effect: "Tests HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A. Preterminal smoothness gives the Taylor identity h-Fr = O(|r|^2 sup |D_a F|), so D_{h/F}/|r| vanishes on fixed preterminal windows as |r| -> 0. The missing theorem is terminal uniformity on the licensed same-fluid Pack scale windows: the window radius times the material Hessian of the flow must tend to zero in the native Pack norm while F and F^{-1} stay bounded. The next atom is LicensedHFTaylorScaleBudget.A."
   upstream_origin:
+    - problems/navier-stokes/theorem-construction/mpp-scfbase-good-cover-from-exact-potential-readout-direct-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-hf-unified-survivor-pack-survival-direct-attempt-20260609.md
-    - problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md
-    - problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md
-    - problems/navier-stokes/theorem-construction/pd70z-cycle-exact-normal-covector-route.md
-  downstream_consequence: "The next theorem atom is PD70zQuadraticNormalUpgrade.A: prove CN.13j, CN.13q, or CN.13ab-CN.13ad on the cycle-exact selector-normal branch."
+    - problems/navier-stokes/theorem-construction/mpp-unified-survivor-conditional-theorem-packet-audit-note.md
+    - problems/navier-stokes/theorem-construction/mcp-scfbase-modulus-original-pack-test.md
+    - problems/navier-stokes/theorem-construction/mcp-pack-from-finite-physical-cover-20260504.md
+  downstream_consequence: "The next theorem atom is LicensedHFTaylorScaleBudget.A: prove that on every licensed terminal same-fluid Pack scale window, rho_window * ||D_a F|| tends to zero in the native pack norm, or prove an equivalent observability/source estimate that rules out nonzero h/F terminal survivor mass."
 ---
 
 # MPP h/F Terminal Defect Mass Vanishing Direct Attempt
 
 Date: 2026-06-09
 
-Status: active-completion proof attempt. This note does not prove Pack survival
-or CMI finality.
+Status: direct Pack-restoration proof attempt. This note does not close
+`HFTerminalDefectMassVanishing.A`, `USCP.A2-PackRestoration.A`,
+`OriginalSmoothDataPackSurvival.A`, `NoGenuineExitFromSmoothData.A`, or CMI
+finality.
 
 ## Target
 
-The previous pass reduced the first non-source-time Pack-survival target to:
+The active target is:
 
 ```text
 HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A.
 ```
 
-This pass tests whether the installed pair-defect and selector-observability
-packets already force the enhanced h/F terminal survivor mass to vanish on the
-licensed same-fluid Pack windows.
-
-## Direct Route Tested
-
-The route would need the following implication:
+It must prove that the finite-to-infinitesimal material defect
 
 ```text
-pair-defect PDE + selector observability
-=> h/F terminal defect mass vanishes
-=> Pack_Q survives
-=> OriginalSmoothDataPackSurvival.A.
+D_{h/F}(a,r,t) = h(a,r,t) - F(a,t)r
 ```
 
-The installed two-point defect equation is strong enough to produce signless
-energy control:
+vanishes in the native Pack norm on every licensed terminal same-fluid Pack
+scale window, or directly restore `Pack_Q`.
+
+## Method Pass
+
+Proof program: Navier-Stokes CM contrapositive class exit.
+
+Target object: Pack restoration from terminal material Taylor compatibility.
+
+Object role: first-face Pack survival for original smooth data.
+
+Logical skeleton: compute the exact h/F Taylor remainder, then test whether
+the terminal scale schedule makes it vanish in the Pack norm.
+
+Mechanism: flow-map differentiability, material Hessian of the flow, licensed
+terminal scale windows, native pack norm, and bounded `F`, `F^{-1}`.
+
+## Direct Taylor Calculation
+
+On every preterminal smooth time slice, the flow map is smooth in the material
+label. For a material increment `r`,
 
 ```text
-W_J solves a coarse two-point parabolic equation
-with explicit high-frequency divergence forcing.
+h(a,r,t) = Phi(a+r,t) - Phi(a,t),
+F(a,t) = D_a Phi(a,t).
 ```
 
-It also has an exact energy identity:
+Using the fundamental theorem of calculus in label space,
 
 ```text
-||W_J(t)||_2^2 + nu int ||grad W_J||_2^2
-is controlled by W_J(t0) and the high-frequency source product.
+h(a,r,t)-F(a,t)r
+= integral_0^1 (F(a+s r,t)-F(a,t)) r ds.
 ```
 
-That pays the signless pair-defect side, not the one-sided direction side.
-
-## Where h/F Vanishing Would Have To Enter
-
-The h/F survivor packet needs terminal finite-to-infinitesimal separation
-defect to disappear on every licensed Pack scale window:
+A second application gives the bound
 
 ```text
-D_{h/F}/|r| -> 0
-on the same-fluid terminal scale windows.
+|D_{h/F}(a,r,t)| / |r|
+<= |r| sup_{a' in [a,a+r]} |D_a F(a',t)|.
 ```
 
-In the selector route, this can only be obtained after converting signless
-pair-defect control into a one-sided directional deficit bound:
+So on any fixed preterminal compact window,
 
 ```text
-pair-defect observation
-=> [lambda_J - s_J]_+ is controlled.
+|r| sup |D_a F| -> 0
 ```
 
-That is the `PD.70` splice. The installed downstream part is formal:
+implies
 
 ```text
-one-sided defect budget
-=> SG.4B
-=> the selector-good strip gain.
+D_{h/F}/|r| -> 0.
 ```
 
-The missing step is upstream:
+Together with bounded `F` and `F^{-1}`, `USCP.A2-Pack` would restore `Pack_Q`.
+
+## Where The Proof Still Fails
+
+The terminal theorem needs more than fixed-time smoothness. The licensed Pack
+windows approach the alleged terminal time, and `D_a F` may grow along that
+approach. The Taylor estimate only closes if the licensed scale radii satisfy
 
 ```text
-signless pair-defect energy
-=> one-sided directional selector deficit.
+rho_window * ||D_a F||_{native pack window} -> 0.
 ```
 
-## Checked Reduction To `PD.70z`
+That terminal scale budget is not installed.
 
-The cycle-exact branch removes the loop ledger:
+The existing `SCFBase.Modulus` test shows the same obstruction in a different
+language: original smoothness plus Pack geometry gives smoothness on compact
+subintervals below the terminal time, but it does not give a terminal
+label-time-scale modulus strong enough to control moving bad packets.
+
+The finite physical cover theorem proves:
 
 ```text
-E_loop(I)=0.
+READ.COVER + ATD_m^epsilon => Pack_Q.
 ```
 
-So the residual closure reduces to the directional estimate:
-
-```text
-E_dir(I) <= C E_obs(I).
-```
-
-The normal-covector route makes that directional defect concrete. A measurable
-normal covector to the rank-two expanding bundle exists, and the normal leakage
-
-```text
-Xi_J^perp = |n_J(a) . e_ab(t)|^2
-```
-
-is the relevant directional ledger.
-
-The route then proves a weighted closure:
-
-```text
-selector-normal calibration + pair-averaged parabolic domination
-=> weighted L4 normal-defect closure.
-```
-
-This still does not give the full quadratic `PD.70z` budget. The exact upgrade
-needed is one of:
-
-```text
-CN.13j: strengthened quadratic selector-normal calibration;
-CN.13q: support-smallness of the active normal-defect set;
-CN.13ab-CN.13ad: two-sided weight control for the quadratic normal ledger.
-```
-
-Those are not installed.
-
-## Why The Attempt Does Not Close
-
-The affine survivor route does not close h/F mass either. The stripped-down
-affine note proves that the positive-carrier quotient reduces to an endpoint
-moment theorem for `M_0`, and that first-order signed scale exactness is one
-scale derivative short. The exact moment law for `(M_0,M_1)` is real, but it is
-not closed on those moments because the dissipation and nonlinear source terms
-still live in the full scale profile.
-
-Thus neither side currently proves h/F terminal mass vanishing:
-
-```text
-Family A / affine route:
-  exact reductions, no closed moment contraction.
-
-Family B / pair-defect route:
-  signless energy control, no quadratic directional upgrade to PD.70z.
-```
-
-The h/F packet remains a serious representation and reduction mechanism, but
-not an elimination theorem.
+That is useful on the positive cover branch. It does not prove Pack survival on
+the branch where the first Pack failure is exactly what is under test.
 
 ## Result
 
-`HFTerminalDefectMassVanishing.A` is not proved from the installed inputs.
+`HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A` is not proved by
+preterminal smoothness alone.
 
-The next exact theorem atom is:
+The exact missing atom is:
 
 ```text
-PD70zQuadraticNormalUpgrade.A:
-prove CN.13j, CN.13q, or CN.13ab-CN.13ad
-on the cycle-exact selector-normal branch,
-then propagate that result to PD.70z, SG.4B,
-h/F terminal mass vanishing, Pack survival,
-OriginalSmoothDataPackSurvival.A,
-and NoGenuineExitFromSmoothData.A.
+LicensedHFTaylorScaleBudget.A:
+on every licensed terminal same-fluid Pack scale window,
+rho_window * ||D_a F|| -> 0 in the native pack norm.
 ```
 
-Until that atom or an equivalent Pack-restoration theorem is proved and paid
-inside the reader-facing manuscripts, the PDFs remain nonfinal.
+Equivalently, prove an observability/source estimate that forces the h/F
+terminal survivor measure to vanish. Without that budget, a nonzero h/F
+terminal survivor remains a genuine Pack-side obstruction.
 
 ## New Live Criticism
 
-`NS-LIVE-20260609-129`: the h/F terminal defect mass vanishing route does not
-close from the installed pair-defect packet. The pair-defect PDE gives
-signless energy and a conditional selector bridge, but the proof still needs a
-quadratic normal-covector upgrade to `PD.70z`: `CN.13j`, `CN.13q`, or
-`CN.13ab-CN.13ad`. Without that one-sided directional upgrade, the paper cannot
-honestly claim h/F mass vanishing, Pack survival, or CMI-final Navier-Stokes
-closure.
+`NS-LIVE-20260609-158`: `HFTerminalDefectMassVanishing.A /
+USCP.A2-PackRestoration.A` is not proved. Taylor expansion gives
+`|D_{h/F}|/|r| <= |r| sup |D_a F|` on preterminal smooth windows, but the proof
+still lacks `LicensedHFTaylorScaleBudget.A`: terminal uniform control showing
+the licensed Pack window radius times the material Hessian of the flow tends to
+zero in the native Pack norm, or an equivalent observability/source estimate
+forcing the h/F terminal survivor measure to vanish.
