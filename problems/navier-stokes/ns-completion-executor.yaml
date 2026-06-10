@@ -260,18 +260,21 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at PositivePackDefectOrthogonality.A
-    / TerminalPositiveCrossProfileSourceControl.A: installed paraproduct and local
-    L3 packages capture named terminal branches, but arbitrary terminal selected
-    positive cross-profile Pack source atoms remain uncontrolled. Keep pdfs_final
-    false until this cross-profile source-control or uniform-integrability theorem
-    is paid and both PDFs pass fresh final rereads.'
+  stop_reason: 'public Clay finality remains open at TerminalPositiveCrossProfileSourceControl.A
+    / UniformPackCrossTermIntegrability.A: Pack/Part/Field face landing only names
+    the current first Pack obstruction, and no non-diagnostic theorem yet forbids
+    terminal zero-thickness concentration of selected positive cross-profile Pack
+    source terms or produces a one-profile rigid replacement. Keep pdfs_final false
+    until this theorem is paid and both PDFs pass fresh final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - uniform-pack-cross-term-integrability
+  - selected-positive-pack-cross-term-noatom
+  - cross-profile-pack-atom-rigid-profile-production
   - terminal-positive-cross-profile-source-control
   - uniform-pack-cross-term-integrability
   - selected-positive-pack-cross-term-noatom
