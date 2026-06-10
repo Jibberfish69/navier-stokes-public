@@ -278,10 +278,11 @@ terminal_state: &11
     The non-alias route inventory was also audited after the B_ASAC density failure:
     endpoint exactness, B_ASAC source-density, h/F Pack restoration, Pack.TTU branch
     split, material/fixed-coordinate readout, minimal-bubble/cross-profile, and direct
-    Clay bridge labels are consumed at current resolution. Keep pdfs_final false
-    until a new quantitative first-Pack-survival mechanism, or a genuinely new source-residence
-    theorem stronger than finite L^1_s source mass, propagates through
-    NoGenuineExitFromSmoothData.A and both PDF final rereads.'
+    Clay bridge labels are consumed at current resolution. The repo-local theorem-invention
+    surfaces were then checked: creative-theorem-search.yaml is superseded, and theorem-creation.yaml
+    is support-only for the live CM target. Keep pdfs_final false until
+    NewFirstPackSurvivalMechanismInventionPacket.A is created, direct-tested, paid
+    into NoGenuineExitFromSmoothData.A, and propagated through both PDF final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
