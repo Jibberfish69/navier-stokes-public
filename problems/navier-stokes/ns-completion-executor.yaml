@@ -260,21 +260,22 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at CrossProfilePressureSourceAC.A
-    / CrossProfileLocalizedLeraySourceTether_ind.A: minimality and compactness place
-    the canonical zero-radius terminal source-residue obstruction but supply no Type
-    I, finite ancient energy, critical smallness, bounded vorticity/strain, self-similarity,
-    symmetry, source cancellation, temporal spread, spatial exhaustion, or Liouville
-    class strong enough to contradict it. No theorem yet proves that pressure/Leray
-    structure binds back to the native positive terminal source residue or forces
-    terminal time-face spread. Keep pdfs_final false until this tether or equivalent
-    production theorem is paid and both PDFs pass fresh final rereads.'
+  stop_reason: 'public Clay finality remains open at CrossProfilePressureSourceTimeFaceSpread.A:
+    the pressure/source tether pass installs only CrossProfilePressureCarrierLebesgueSplit.A.
+    The source-absolutely-continuous pressure branch still lacks a terminal strip
+    modulus, and the source-singular pressure branch still lacks pure-pressure legal
+    classification, pressure Liouville, directional trace saturation, or independent
+    terminal Leray gates. Keep pdfs_final false until source-time spread and pure-pressure
+    singular elimination, or a stronger theorem removing the pressure split itself,
+    are paid and both PDFs pass fresh final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - cross-profile-pressure-source-timeface-spread
+  - cross-profile-pure-pressure-singular-residue-elimination
   - cross-profile-pressure-source-ac
   - cross-profile-localized-leray-source-tether
   - cross-profile-minimal-bad-ancestry-rigidity
