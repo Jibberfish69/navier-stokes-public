@@ -260,21 +260,20 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at UniformStrainTail.TTU /
-    EndpointSelector.TTU: prove a fixed finite active-label reduction, or prove an
-    integrable terminal label-modulus / finite-complexity theorem that converts
-    labelwise finite strain tails into the supremal Pack.TTU strain ledger; then
-    propagate through Pack.TTU, Pack_Q, OriginalSmoothDataPackSurvival.A,
-    NoGenuineExitFromSmoothData.A, and PDF final rereads; keep pdfs_final false until
-    paid.'
+  stop_reason: 'public Clay finality remains open at TowerBound.Upstream /
+    END.TowerAmp: the Pack.TTU uniformity branch is paid because no-tower-blown gives
+    Pack.TTU and Pack_Q, but the complementary tower-blown branch still needs terminal
+    tower-amplitude control/readout, typically through READ.COVER + ATD_m^epsilon
+    + DTC.Read, or a licensed endpoint-matrix consumption without promoting tower-blown
+    to a pure Pack, Part, or Field row; keep pdfs_final false until paid.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
-  - uniform-strain-tail-or-endpoint-selector
-  - pack-ttu-continuum-active-label-uniformity
+  - towerbound-upstream-end-toweramp
+  - tower-blown-endpoint-matrix-consumption
   - licensed-hf-taylor-scale-budget
   - hf-terminal-defect-mass-vanishing
   - uscp-a2-pack-restoration
@@ -302,6 +301,7 @@ terminal_state: &11
   - problems/navier-stokes/theorem-construction/mpp-hf-unified-survivor-pack-survival-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-hf-terminal-defect-mass-vanishing-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-pack-licensed-scale-hessian-budget-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-pack-ttu-supremal-strain-tower-dichotomy-proof-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-pd70z-quadratic-normal-upgrade-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-cn13j-quadratic-selector-normal-calibration-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-cn13j-lower-link-small-moment-absorption-direct-attempt-20260609.md
