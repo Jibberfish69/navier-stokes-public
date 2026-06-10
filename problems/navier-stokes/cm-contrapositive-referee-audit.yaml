@@ -240,11 +240,11 @@ release_eligible: false
 clay_ready: false
 blockers:
 - public-clay-finality-from-classification
-- external-terminal-time-thickness-mechanism
+- source-time-concentration-cost
 blocking_findings: []
 open_logical_burdens:
 - ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A
 - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A
-- ExternalTerminalTimeThicknessMechanism.A for B_ASAC closed-min native positive source atom
+- SourceTimeConcentrationCost.A for the B_ASAC closed-min native positive source atom
 passed: false
 reconciled_by: problems/navier-stokes/theorem-construction/mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md
