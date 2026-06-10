@@ -275,8 +275,11 @@ terminal_state: &11
     residence, Morrey residence, and local positive source Carleson are not produced
     by finite L^1_s source mass, local-energy BV traces, weak linear trace compactness,
     zero ASAC, paid exits, or no fixed earlier selected source slice.
-    Keep pdfs_final false until a non-alias FirstExitPackSurvivalMechanismSearch.A
-    / OriginalSmoothDataPackSurvival.A bridge, or a genuinely new source-residence
+    The non-alias route inventory was also audited after the B_ASAC density failure:
+    endpoint exactness, B_ASAC source-density, h/F Pack restoration, Pack.TTU branch
+    split, material/fixed-coordinate readout, minimal-bubble/cross-profile, and direct
+    Clay bridge labels are consumed at current resolution. Keep pdfs_final false
+    until a new quantitative first-Pack-survival mechanism, or a genuinely new source-residence
     theorem stronger than finite L^1_s source mass, propagates through
     NoGenuineExitFromSmoothData.A and both PDF final rereads.'
   completed_work_node_ids:
