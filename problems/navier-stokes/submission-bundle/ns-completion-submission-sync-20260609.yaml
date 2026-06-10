@@ -127,9 +127,12 @@ verdict_alignment:
         do not pay the current finite Radon source class or terminal uniform Pack
         modulus. Earlier Pack reflection and terminal Pack compactness have also been
         tested and do not pay the bridge: reflection is unlicensed, and compactness
-        extracts the zero-thickness terminal Pack atom rather than excluding it. The
-        next executable child must be UniformTerminalPackTightnessFromFirstExitMinimality.A,
-        NoZeroThicknessTerminalPackAtomFromOriginalSmoothData.A, SelectedPositivePackSourceUniformIntegrability.A,
+        extracts the zero-thickness terminal Pack atom rather than excluding it. Uniform
+        terminal Pack tightness from first-exit minimality and no zero-thickness terminal
+        Pack atom from original smooth data have also been tested and do not pay the
+        bridge: first-exit minimality and original smooth data do not exclude terminal
+        selected positive Pack source strip concentration. The next executable child
+        must be SelectedPositivePackSourceUniformIntegrability.A, TerminalPositivePackActiveTimeThickness.A,
         PackProfileSelectorStability.A, PackCriticalElementStability.A, or an equivalent
         non-circular first-Pack survival theorem before any TPS good-family or selected-pair
         expansion can be used.'
@@ -279,11 +282,15 @@ verdict_alignment:
           Pack modulus. Earlier Pack reflection and terminal Pack compactness have
           also been tested and do not pay the bridge: reflection is unlicensed, and
           compactness extracts the zero-thickness terminal Pack atom rather than excluding
-          it. The next executable child must be UniformTerminalPackTightnessFromFirstExitMinimality.A,
-          NoZeroThicknessTerminalPackAtomFromOriginalSmoothData.A, SelectedPositivePackSourceUniformIntegrability.A,
-          PackProfileSelectorStability.A, PackCriticalElementStability.A, or an equivalent
-          non-circular first-Pack survival theorem before any TPS good-family or selected-pair
-          expansion can be used.'
+          it. Uniform terminal Pack tightness from first-exit minimality and no zero-thickness
+          terminal Pack atom from original smooth data have also been tested and do
+          not pay the bridge: first-exit minimality and original smooth data do not
+          exclude terminal selected positive Pack source strip concentration. The
+          next executable child must be SelectedPositivePackSourceUniformIntegrability.A,
+          TerminalPositivePackActiveTimeThickness.A, PackProfileSelectorStability.A,
+          PackCriticalElementStability.A, or an equivalent non-circular first-Pack
+          survival theorem before any TPS good-family or selected-pair expansion can
+          be used.'
       - candidate_id: contract-readiness-after-manuscript-expansion
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -467,12 +474,16 @@ verdict_alignment:
             current finite Radon source class or terminal uniform Pack modulus. Earlier
             Pack reflection and terminal Pack compactness have also been tested and
             do not pay the bridge: reflection is unlicensed, and compactness extracts
-            the zero-thickness terminal Pack atom rather than excluding it. The next
-            executable child must be UniformTerminalPackTightnessFromFirstExitMinimality.A,
-            NoZeroThicknessTerminalPackAtomFromOriginalSmoothData.A, SelectedPositivePackSourceUniformIntegrability.A,
-            PackProfileSelectorStability.A, PackCriticalElementStability.A, or an
-            equivalent non-circular first-Pack survival theorem before any TPS good-family
-            or selected-pair expansion can be used.'
+            the zero-thickness terminal Pack atom rather than excluding it. Uniform
+            terminal Pack tightness from first-exit minimality and no zero-thickness
+            terminal Pack atom from original smooth data have also been tested and
+            do not pay the bridge: first-exit minimality and original smooth data
+            do not exclude terminal selected positive Pack source strip concentration.
+            The next executable child must be SelectedPositivePackSourceUniformIntegrability.A,
+            TerminalPositivePackActiveTimeThickness.A, PackProfileSelectorStability.A,
+            PackCriticalElementStability.A, or an equivalent non-circular first-Pack
+            survival theorem before any TPS good-family or selected-pair expansion
+            can be used.'
         - candidate_id: contract-readiness-after-manuscript-expansion
           kind: d8_resolved_blocker_state
           surface: problems/navier-stokes/d8-completion-route-map.yaml
