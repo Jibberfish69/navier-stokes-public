@@ -344,7 +344,11 @@ terminal_state: &11
     wall: the material-eigenframe split pays far-low/subparabolic support and routes
     parabolic-rate amplitude, but the frozen aligned cases remain unpaid. TerminalPressureHessianNoSustain_lowhigh.A
     has now been tested and reduced to the source-current or pure-pressure carrier
-    dichotomy. The executable child is now OneSidedNearBandMaterialSourceCurrentLegal.A,
+    dichotomy. OneSidedNearBandMaterialSourceCurrentLegal.A has now been tested and
+    reduced to the forward no-free-sink or pure-pressure branch: post-ASAC source-current
+    support is conditional on forward no-free-sink or Zeno source-residue rigidity,
+    and TerminalSignedSaturationCMFaceReduction.A is CM witness-face support only.
+    The executable child is now LowHighTerminalSignedSaturationForwardNoFreeSink.A,
     TerminalPressurePureStrainLegal_lowhigh.A, PurePressureSustainResidueLiouville_lowhigh.A,
     ActiveStrainAlignmentCost_lowhigh.A, TPNILowHighNoIncoming.A, LowHighSourceResidenceEvacuation.A,
     LowHighTerminalStripModulus.A, ScaleNestedPackMoleculeLiouville.A, or an equivalent
