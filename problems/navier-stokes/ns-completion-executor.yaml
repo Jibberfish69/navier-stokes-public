@@ -320,7 +320,13 @@ terminal_state: &11
     formulations. The executable child is now a genuinely new selected-source input,
     CrossProfilePackAtomBelongsToRigidProfile.A, PackCriticalElementStability.A with
     real selected-source control, ProducedMinimalFirstPackBubbleRigidity.A with rigid
-    one-profile capture, or a genuinely new first-Pack survival mechanism.
+    one-profile capture, or a genuinely new first-Pack survival mechanism. CrossProfilePackAtomBelongsToRigidProfile.A
+    has now been tested and reduced to the near-resonant two-profile Pack molecule:
+    Cauchy-Schwarz supplies CrossProfilePackAtomTwoProfileDomination.A but does not
+    assign the terminal atom to one rigid profile. The executable child is now TwoProfilePackMoleculeRigidity.A,
+    SelectedStrainSelfDomination.A, NearResonantTwoProfilePackAtomExclusion.A,
+    TwoProfilePackMoleculeAntiAtom.A, PackPositiveDefectMeasurePolarity.A, or an
+    equivalent first-Pack survival mechanism.
     Keep pdfs_final false until that bridge is paid into NoGenuineExitFromSmoothData.A
     and propagated through both PDF final rereads.'
   completed_work_node_ids:
@@ -359,6 +365,11 @@ terminal_state: &11
   - uniform-pack-cross-term-integrability
   - selected-positive-pack-cross-term-noatom
   - cross-profile-pack-atom-rigid-profile-production
+  - two-profile-pack-molecule-rigidity
+  - selected-strain-self-domination
+  - near-resonant-two-profile-pack-atom-exclusion
+  - two-profile-pack-molecule-antiatom
+  - pack-positive-defect-measure-polarity
   - terminal-positive-cross-profile-source-control
   - uniform-pack-cross-term-integrability
   - selected-positive-pack-cross-term-noatom
