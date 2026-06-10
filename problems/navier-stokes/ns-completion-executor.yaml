@@ -266,15 +266,14 @@ terminal_state: &11
     A face-derived Exit(Q):=not Member(Q) is terminal obstruction classification,
     not by itself a contradiction to finite Clay breakdown. No theorem yet proves
     OriginalSmoothData => ScaleCriticalTreeCarleson.A or Pack_{Q_atlas} fixed readout.
-    The current narrowed theorem leaf is PositiveStressSignedExactnessTransfer.A
-    / PositiveEndpointStressObservability.A / SecondOrderScaleExactness.A under the
+    The current narrowed theorem leaf is PositiveEndpointStressObservability.A
+    / SecondOrderScaleExactness.A under the
     retained far-corona endpoint route: the B_ASAC source-density, source-time,
     CKN/source-tether, first-exit Pack, retained-carrier compactness, lifted-band
     flux, affine quotient, mu_N endpoint, endpoint threading, direct (8j11), retained
     finite-collar amplitude, seed-to-interval, `nu_N` synchronization, and endpoint
-    mass/commutator routes have reduced the live branch to transferring signed commutator
-    exactness to the positive endpoint stress source or replacing it with endpoint
-    observability/second-order scale exactness. RetainedMuNCarleson.A and uniform
+    mass/commutator and signed-to-positive transfer routes have reduced the live branch
+    to endpoint observability/second-order scale exactness. RetainedMuNCarleson.A and uniform
     `nu_N` synchronization remain open alternatives.
     Keep pdfs_final false until an endpoint-threading theorem feeds `(EP)`, `(L-Flux)`,
     retained tail input, Part-row compactness,
