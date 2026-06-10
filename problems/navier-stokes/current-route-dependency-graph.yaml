@@ -14,7 +14,7 @@ purpose: >-
   pressure. They are no longer allowed to replace the primary target unless a
   fresh CM-necessity audit proves a real in-class nonsmooth third branch.
 primary_frontier:
-  obligation_id: terminal-pressure-hessian-no-sustain
+  obligation_id: quadratic-defect-source-domination
   status: active-public-clay-finality-blocked
   exact_choice:
     - ClayTerminalWitnessCMEntry.A
@@ -26,12 +26,13 @@ primary_frontier:
     failing Pack/Part/Field face, and deriving Exit(Q):=not Member(Q). Public
     Clay finality remains open because classification alone does not prove that
     original smooth data cannot produce a first terminal Pack/Part/Field exit.
-    The current leaf is TerminalPressureHessianNoSustain.A /
-    OneSidedNearBandMaterialStrainBV.A, the native-face subterm that could
-    yield UniformLedgerAC.A / NativeTrilinearDefectDomination.A and then the
-    source-time concentration cost.
+    The current leaf is QuadraticDefectSourceDomination.A, the pressure endpoint
+    exposed after TerminalPressureHessianNoSustain.A /
+    OneSidedNearBandMaterialStrainBV.A reduced through terminal CZ cancellation,
+    pressure partner saturation, pressure lobe tether, and PressureSourceAC.A /
+    LocalizedLeraySourceTether.A_ind.
 open_blockers:
-- terminal-pressure-hessian-no-sustain
+- quadratic-defect-source-domination
 nodes:
   cm_convergence_atlas:
     status: support-audit-cm-resolved
