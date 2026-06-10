@@ -14,7 +14,7 @@ purpose: >-
   pressure. They are no longer allowed to replace the primary target unless a
   fresh CM-necessity audit proves a real in-class nonsmooth third branch.
 primary_frontier:
-  obligation_id: source-time-concentration-cost
+  obligation_id: terminal-pressure-hessian-no-sustain
   status: active-public-clay-finality-blocked
   exact_choice:
     - ClayTerminalWitnessCMEntry.A
@@ -26,11 +26,12 @@ primary_frontier:
     failing Pack/Part/Field face, and deriving Exit(Q):=not Member(Q). Public
     Clay finality remains open because classification alone does not prove that
     original smooth data cannot produce a first terminal Pack/Part/Field exit.
-    The current leaf is SourceTimeConcentrationCost.A, a same-ledger cost theorem
-    for zero-thickness concentration of the produced B_ASAC closed-min native
-    positive source atom.
+    The current leaf is TerminalPressureHessianNoSustain.A /
+    OneSidedNearBandMaterialStrainBV.A, the native-face subterm that could
+    yield UniformLedgerAC.A / NativeTrilinearDefectDomination.A and then the
+    source-time concentration cost.
 open_blockers:
-- source-time-concentration-cost
+- terminal-pressure-hessian-no-sustain
 nodes:
   cm_convergence_atlas:
     status: support-audit-cm-resolved
