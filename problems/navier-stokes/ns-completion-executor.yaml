@@ -260,8 +260,8 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: public Clay finality remains open at SourceNativeDiagonalDensityOscillation.A,
-    the narrow non-circular source primitive needed to prove QSP.11p or the QSP.11r parent-center/Holder sufficient packet on the same selector-good strip, without using the cap-floor / density-retention / shell-bump loop as a premise. This sits beneath QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A, InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A, DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A,
+  stop_reason: public Clay finality remains open at UniformRelativeHolderScaleBudget.A,
+    the source-native same-strip finite entrance-sector selection needed to turn local diagonal-density regularity and density-selected centers into QSP.11p/QSP.11r without losing retained mass, finite shell/core-cap geometry, transport, exact-potential comparison, CG gap, or selector-strain synchronization. This sits beneath SourceNativeDiagonalDensityOscillation.A, QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A, InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A, DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A,
     DiagonalDensityHolderStoppingRetainedMass.A,
     DiagonalDensitySourceOscillation.A,
     PTCShapeNormalization.A and DGCalPairDefectChannelRealization.A,
