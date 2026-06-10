@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T16:17:52Z'
+generated_at: '2026-06-10T16:27:18Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -94,9 +94,12 @@ readiness_evidence:
       coverage is installed as classification, but it does not prove public Clay counterexample
       exclusion. The live result must be ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A
       or an equivalent theorem; the current executable child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A
-      / OriginalSmoothDataPackSurvival.A, a same-witness theorem family strong enough
-      to rule out g_m(s)=m 1_{(-1/m,0]} for the original-data first Pack witness before
-      any TPS good-family or selected-pair expansion can be used.'
+      / OriginalSmoothDataPackSurvival.A. Same-witness terminal time-face capacity
+      has been tested and does not pay the current finite Radon source class; the
+      next executable child must be trace no-positive-jump with stronger regularity,
+      super-L1/source-Carleson residence, rigid anti-atom production, or a genuinely
+      non-source Pack-survival theorem before any TPS good-family or selected-pair
+      expansion can be used.'
   - candidate_id: contract-readiness-after-manuscript-expansion
     kind: d8_resolved_blocker_state
     surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -233,10 +236,12 @@ readiness_evidence:
         coverage is installed as classification, but it does not prove public Clay
         counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
         / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
-        child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A / OriginalSmoothDataPackSurvival.A,
-        a same-witness theorem family strong enough to rule out g_m(s)=m 1_{(-1/m,0]}
-        for the original-data first Pack witness before any TPS good-family or selected-pair
-        expansion can be used.'
+        child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A / OriginalSmoothDataPackSurvival.A.
+        Same-witness terminal time-face capacity has been tested and does not pay
+        the current finite Radon source class; the next executable child must be trace
+        no-positive-jump with stronger regularity, super-L1/source-Carleson residence,
+        rigid anti-atom production, or a genuinely non-source Pack-survival theorem
+        before any TPS good-family or selected-pair expansion can be used.'
     - candidate_id: contract-readiness-after-manuscript-expansion
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -410,10 +415,12 @@ readiness_evidence:
           inventory coverage is installed as classification, but it does not prove
           public Clay counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
           / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
-          child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A / OriginalSmoothDataPackSurvival.A,
-          a same-witness theorem family strong enough to rule out g_m(s)=m 1_{(-1/m,0]}
-          for the original-data first Pack witness before any TPS good-family or selected-pair
-          expansion can be used.'
+          child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A / OriginalSmoothDataPackSurvival.A.
+          Same-witness terminal time-face capacity has been tested and does not pay
+          the current finite Radon source class; the next executable child must be
+          trace no-positive-jump with stronger regularity, super-L1/source-Carleson
+          residence, rigid anti-atom production, or a genuinely non-source Pack-survival
+          theorem before any TPS good-family or selected-pair expansion can be used.'
       - candidate_id: contract-readiness-after-manuscript-expansion
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
