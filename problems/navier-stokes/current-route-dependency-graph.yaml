@@ -14,8 +14,8 @@ purpose: >-
   pressure. They are no longer allowed to replace the primary target unless a
   fresh CM-necessity audit proves a real in-class nonsmooth third branch.
 primary_frontier:
-  obligation_id: clay-cm-contrapositive-witness-consumption
-  status: current-cm-referee-inventory-gate-passed
+  obligation_id: external-terminal-time-thickness-mechanism
+  status: active-public-clay-finality-blocked
   exact_choice:
     - ClayTerminalWitnessCMEntry.A
     - ClayFiniteFailureTypeCMExhaustion.A
@@ -23,13 +23,13 @@ primary_frontier:
   statement: >-
     The installed chain classifies an alleged finite Clay terminal witness by
     entering the canonical same-fluid CM packet tree, exhausting the first
-    failing Pack/Part/Field face, and deriving Exit(Q):=not Member(Q). The
-    current referee audit has demoted the generic no-Pack/no-Part face-exclusion
-    work order. Current proof readiness is governed by finite-obstruction
-    inventory coverage: named proof-bearing rows must enter the CM test and
-    land in Pack, Part, or Field. The promoted surfaces currently have no open
-    proof-bearing row.
-open_blockers: []
+    failing Pack/Part/Field face, and deriving Exit(Q):=not Member(Q). Public
+    Clay finality remains open because classification alone does not prove that
+    original smooth data cannot produce a first terminal Pack/Part/Field exit.
+    The current leaf is a genuinely new terminal time-thickness theorem for the
+    produced B_ASAC closed-min native positive source atom.
+open_blockers:
+- external-terminal-time-thickness-mechanism
 nodes:
   cm_convergence_atlas:
     status: support-audit-cm-resolved
