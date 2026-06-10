@@ -88,11 +88,11 @@ verdict_alignment:
         paper has been repaired to stop claiming public Clay finality from terminal
         classification alone. The human/app-aligned track and remaining submission
         surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: SourceNativeFiniteCapBumpLowerBound.A beneath
-        SourceNativeCapFamilyDensityFloor.A, CapFamilyCompatibleRegularCoreSelection.A,
-        UniformRelativeHolderScaleBudget.A, SourceNativeDiagonalDensityOscillation.A,
-        QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A, InitialQSPCoreCapMassFloor.A,
-        CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
+        Current narrowed theorem leaf: SourceNativeFiniteCapBumpComparability.A beneath
+        SourceNativeFiniteCapBumpLowerBound.A, SourceNativeCapFamilyDensityFloor.A,
+        CapFamilyCompatibleRegularCoreSelection.A, UniformRelativeHolderScaleBudget.A,
+        SourceNativeDiagonalDensityOscillation.A, QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A,
+        InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
         DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A, DiagonalDensityHolderStoppingRetainedMass.A,
         DiagonalDensitySourceOscillation.A and PTCShapeNormalization.A, after the
         retained positive-scale reserve-birth / B_ASAC terminal source atom routes
@@ -216,11 +216,11 @@ verdict_alignment:
           paper has been repaired to stop claiming public Clay finality from terminal
           classification alone. The human/app-aligned track and remaining submission
           surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-          Current narrowed theorem leaf: SourceNativeFiniteCapBumpLowerBound.A beneath
-          SourceNativeCapFamilyDensityFloor.A, CapFamilyCompatibleRegularCoreSelection.A,
-          UniformRelativeHolderScaleBudget.A, SourceNativeDiagonalDensityOscillation.A,
-          QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A, InitialQSPCoreCapMassFloor.A,
-          CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
+          Current narrowed theorem leaf: SourceNativeFiniteCapBumpComparability.A
+          beneath SourceNativeFiniteCapBumpLowerBound.A, SourceNativeCapFamilyDensityFloor.A,
+          CapFamilyCompatibleRegularCoreSelection.A, UniformRelativeHolderScaleBudget.A,
+          SourceNativeDiagonalDensityOscillation.A, QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A,
+          InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
           DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A,
           DiagonalDensityHolderStoppingRetainedMass.A, DiagonalDensitySourceOscillation.A
           and PTCShapeNormalization.A, after the retained positive-scale reserve-birth
@@ -381,11 +381,11 @@ verdict_alignment:
             The compact paper has been repaired to stop claiming public Clay finality
             from terminal classification alone. The human/app-aligned track and remaining
             submission surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A
-            is proved. Current narrowed theorem leaf: SourceNativeFiniteCapBumpLowerBound.A
-            beneath SourceNativeCapFamilyDensityFloor.A, CapFamilyCompatibleRegularCoreSelection.A,
-            UniformRelativeHolderScaleBudget.A, SourceNativeDiagonalDensityOscillation.A,
-            QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A, InitialQSPCoreCapMassFloor.A,
-            CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
+            is proved. Current narrowed theorem leaf: SourceNativeFiniteCapBumpComparability.A
+            beneath SourceNativeFiniteCapBumpLowerBound.A, SourceNativeCapFamilyDensityFloor.A,
+            CapFamilyCompatibleRegularCoreSelection.A, UniformRelativeHolderScaleBudget.A,
+            SourceNativeDiagonalDensityOscillation.A, QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A,
+            InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
             DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A,
             DiagonalDensityHolderStoppingRetainedMass.A, DiagonalDensitySourceOscillation.A
             and PTCShapeNormalization.A, after the retained positive-scale reserve-birth
