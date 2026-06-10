@@ -7,12 +7,21 @@ identity:
   generator: codex/referee-sweep-current-state
   audit_scope: Navier-Stokes CM contrapositive proof inclusion and readiness gate
 status:
-  audit_status: passed-current-finite-obstruction-inventory-gate
-  pass: true
-  release_eligible: true
-  clay_ready: true
-  clay_statement_b_ready: true
-  whole_space_statement_a_ready: true
+  audit_status: superseded-by-20260609-public-clay-finality-reentry
+  pass: false
+  release_eligible: false
+  clay_ready: false
+  clay_statement_b_ready: false
+  whole_space_statement_a_ready: false
+  superseded_by:
+    - problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
+    - problems/navier-stokes/theorem-construction/mpp-public-finality-first-exit-pack-wall-reentry-20260609.md
+    - problems/navier-stokes/theorem-construction/mpp-external-terminal-time-thickness-mechanism-search-reentry-20260609.md
+  current_blocker: >-
+    Terminal obstruction classification is installed for admitted records, but
+    public Clay finality is still open. The active first-exit Pack-survival
+    chain reduces to a genuinely new terminal time-thickness / anti-atom
+    theorem for the produced B_ASAC native positive source atom.
   resolved_gap:
     superseded_source: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
     correction: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-target-correction-20260603.md
@@ -42,9 +51,9 @@ classification_summary:
   proof_bearing_branch_family_open_rows_demoted: true
   torus_first_cm_referee_pass: true
   manuscript_spine_rewrite_required: false
-  whole_space_export_certified: true
-  periodic_clay_statement_b_certified: true
-  full_whole_space_submission_certified: true
+  whole_space_export_certified: false
+  periodic_clay_statement_b_certified: false
+  full_whole_space_submission_certified: false
   manuscript_spine_rewrite_completed: true
   manuscript_periodic_scope_aligned: true
   comprehensive_switch_rescan_20260526_complete: true
@@ -56,7 +65,7 @@ classification_summary:
   clay_counterexample_exclusion_bridge_demoted_as_wrong_local_target: true
   finite_terminal_obstruction_inventory_covered: true
   r3_cm_face_branch_closed: true
-  clay_closing_bridge_open: false
+  clay_closing_bridge_open: true
 working_pass_results:
 - id: comprehensive-cm-switch-and-generated-overlay-sweep
   status: completed
@@ -226,11 +235,16 @@ required_next_audit:
 - Rerun this gate only when a new branch is promoted as proof-bearing, when a manuscript
   changes the theorem claim, or when a fresh referee objection identifies a named
   uncovered terminal obstruction.
-pass: true
-release_eligible: true
-clay_ready: true
-blockers: []
+pass: false
+release_eligible: false
+clay_ready: false
+blockers:
+- public-clay-finality-from-classification
+- external-terminal-time-thickness-mechanism
 blocking_findings: []
-open_logical_burdens: []
-passed: true
+open_logical_burdens:
+- ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A
+- OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A
+- ExternalTerminalTimeThicknessMechanism.A for B_ASAC closed-min native positive source atom
+passed: false
 reconciled_by: problems/navier-stokes/theorem-construction/mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md
