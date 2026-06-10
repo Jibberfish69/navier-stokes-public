@@ -260,18 +260,20 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at CrossProfileReverseHolderProduction.A
-    / ScaleNormalizedCrossProfileSquareReserve.A: selected positive cross-profile
-    Pack source can still concentrate as a terminal heat-scale pulse, and current
-    inputs do not produce the scale-normalized square/source reserve needed for
-    reverse-Holder or source-Carleson control. Keep pdfs_final false until this
-    reserve theorem is paid and both PDFs pass fresh final rereads.'
+  stop_reason: 'public Clay finality remains open at ScaleNormalizedCrossProfileSquareReserve.A
+    / CrossProfileParentDensityFloor.A: selected positive cross-profile Pack child
+    source can be fed by diffuse positive parentage, and existing parent-square/Bessel
+    machinery does not force a bounded parent subfamily or finite scale-normalized
+    reserve. Keep pdfs_final false until this anti-diffuse-parent theorem is paid
+    and both PDFs pass fresh final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - cross-profile-parent-density-floor
+  - cross-profile-positive-source-antidiffusion
   - scale-normalized-cross-profile-square-reserve
   - cross-profile-reverse-holder-production
   - cross-profile-pack-orlicz-gain
