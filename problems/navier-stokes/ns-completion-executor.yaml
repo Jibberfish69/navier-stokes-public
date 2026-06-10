@@ -260,8 +260,8 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: public Clay finality remains open at CapwiseDensityStoppingLossBudget.A,
-    the unpaid per-cap density-stopping loss theorem beneath RetainedDensityGoodCoreCapOccupancy.A, DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A,
+  stop_reason: public Clay finality remains open at InitialQSPCoreCapMassFloor.A,
+    the unpaid pre-stopping finite QSP cap-mass theorem beneath CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A, DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A,
     DiagonalDensityHolderStoppingRetainedMass.A,
     DiagonalDensitySourceOscillation.A,
     PTCShapeNormalization.A and DGCalPairDefectChannelRealization.A,
