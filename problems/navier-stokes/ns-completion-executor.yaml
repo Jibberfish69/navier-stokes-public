@@ -260,16 +260,17 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: public Clay finality remains open at NewTerminalSourceTimeProductionMechanism.A,
-    the genuinely new production theorem needed for the all-doors-closed B_ASAC
-    terminal native positive source atom and for SourceTimeConcentrationCost.A
+  stop_reason: public Clay finality remains open at FirstExitPackSurvivalMechanismSearch.A
+    / OriginalSmoothDataPackSurvival.A, the non-alias first-exit Pack-survival
+    theorem needed after the checked source-time production routes cycled around
+    the all-doors-closed B_ASAC terminal native positive source atom
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
-  - new-terminal-source-time-production-mechanism
+  - first-exit-pack-survival-mechanism-search
   evidence_refs:
   - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260608-iteration-2.md
   - problems/navier-stokes/ns-completion-executor-route-sync-20260608-iteration-2.yaml
