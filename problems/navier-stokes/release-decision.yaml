@@ -73,6 +73,7 @@ blockers:
   - problems/navier-stokes/theorem-construction/mpp-active-square-residual-tail-reentry-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-source-balanced-active-pulse-exclusion-reentry-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-parent-concentration-or-diffuse-charge-reentry-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-terminal-zeno-source-refill-carleson-or-rigidity-reentry-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/d8-completion-route-map.yaml
