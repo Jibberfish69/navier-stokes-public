@@ -304,6 +304,11 @@ terminal_state: &11
     child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A: UniformTerminalPackTightnessFromFirstExitMinimality.A,
     NoZeroThicknessTerminalPackAtomFromOriginalSmoothData.A, SelectedPositivePackSourceUniformIntegrability.A,
     PackProfileSelectorStability.A, PackCriticalElementStability.A, or an equivalent
+    non-circular first-Pack survival theorem. The uniform-tightness and no-zero-thickness
+    atom attempts then showed first-exit minimality and original smooth data do not
+    exclude terminal selected positive Pack source strip concentration. The executable
+    child is now SelectedPositivePackSourceUniformIntegrability.A, TerminalPositivePackActiveTimeThickness.A,
+    PackProfileSelectorStability.A, PackCriticalElementStability.A, or an equivalent
     non-circular first-Pack survival theorem.
     Keep pdfs_final false until that bridge is paid into NoGenuineExitFromSmoothData.A
     and propagated through both PDF final rereads.'
