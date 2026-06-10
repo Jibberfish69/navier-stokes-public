@@ -132,9 +132,14 @@ verdict_alignment:
         residence, rigid anti-atom production, same-solution preterminal Pack persistence,
         and terminal Pack uniformity from original smooth data have been tested and
         do not pay the current finite Radon source class or terminal uniform Pack
-        modulus; the next executable child must be EarlierPackFailureReflection.A,
-        TerminalPackCompactnessModulus.A, or another non-circular first-Pack survival
-        theorem before any TPS good-family or selected-pair expansion can be used.'
+        modulus. Earlier Pack reflection and terminal Pack compactness have also been
+        tested and do not pay the bridge: reflection is unlicensed, and compactness
+        extracts the zero-thickness terminal Pack atom rather than excluding it. The
+        next executable child must be UniformTerminalPackTightnessFromFirstExitMinimality.A,
+        NoZeroThicknessTerminalPackAtomFromOriginalSmoothData.A, SelectedPositivePackSourceUniformIntegrability.A,
+        PackProfileSelectorStability.A, PackCriticalElementStability.A, or an equivalent
+        non-circular first-Pack survival theorem before any TPS good-family or selected-pair
+        expansion can be used.'
     - candidate_id: contract-readiness-after-manuscript-expansion
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -278,9 +283,14 @@ verdict_alignment:
           residence, rigid anti-atom production, same-solution preterminal Pack persistence,
           and terminal Pack uniformity from original smooth data have been tested
           and do not pay the current finite Radon source class or terminal uniform
-          Pack modulus; the next executable child must be EarlierPackFailureReflection.A,
-          TerminalPackCompactnessModulus.A, or another non-circular first-Pack survival
-          theorem before any TPS good-family or selected-pair expansion can be used.'
+          Pack modulus. Earlier Pack reflection and terminal Pack compactness have
+          also been tested and do not pay the bridge: reflection is unlicensed, and
+          compactness extracts the zero-thickness terminal Pack atom rather than excluding
+          it. The next executable child must be UniformTerminalPackTightnessFromFirstExitMinimality.A,
+          NoZeroThicknessTerminalPackAtomFromOriginalSmoothData.A, SelectedPositivePackSourceUniformIntegrability.A,
+          PackProfileSelectorStability.A, PackCriticalElementStability.A, or an equivalent
+          non-circular first-Pack survival theorem before any TPS good-family or selected-pair
+          expansion can be used.'
       - candidate_id: contract-readiness-after-manuscript-expansion
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -461,9 +471,14 @@ verdict_alignment:
             trace no-positive-jump, super-L1/source-Carleson residence, rigid anti-atom
             production, same-solution preterminal Pack persistence, and terminal Pack
             uniformity from original smooth data have been tested and do not pay the
-            current finite Radon source class or terminal uniform Pack modulus; the
-            next executable child must be EarlierPackFailureReflection.A, TerminalPackCompactnessModulus.A,
-            or another non-circular first-Pack survival theorem before any TPS good-family
+            current finite Radon source class or terminal uniform Pack modulus. Earlier
+            Pack reflection and terminal Pack compactness have also been tested and
+            do not pay the bridge: reflection is unlicensed, and compactness extracts
+            the zero-thickness terminal Pack atom rather than excluding it. The next
+            executable child must be UniformTerminalPackTightnessFromFirstExitMinimality.A,
+            NoZeroThicknessTerminalPackAtomFromOriginalSmoothData.A, SelectedPositivePackSourceUniformIntegrability.A,
+            PackProfileSelectorStability.A, PackCriticalElementStability.A, or an
+            equivalent non-circular first-Pack survival theorem before any TPS good-family
             or selected-pair expansion can be used.'
         - candidate_id: contract-readiness-after-manuscript-expansion
           kind: d8_resolved_blocker_state
