@@ -260,8 +260,8 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: public Clay finality remains open at NonCircularQSPSourcePrimitive.A,
-    the source-native payment needed after FinitePositiveReferenceShellBumpPacket.A was shown to loop back through QSP.11p/QSP.11r, InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A, DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A,
+  stop_reason: public Clay finality remains open at SourceNativeDiagonalDensityOscillation.A,
+    the narrow non-circular source primitive needed to prove QSP.11p or the QSP.11r parent-center/Holder sufficient packet on the same selector-good strip, without using the cap-floor / density-retention / shell-bump loop as a premise. This sits beneath QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A, InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A, DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A,
     DiagonalDensityHolderStoppingRetainedMass.A,
     DiagonalDensitySourceOscillation.A,
     PTCShapeNormalization.A and DGCalPairDefectChannelRealization.A,
