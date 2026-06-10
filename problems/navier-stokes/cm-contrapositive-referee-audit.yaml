@@ -240,11 +240,11 @@ release_eligible: false
 clay_ready: false
 blockers:
 - public-clay-finality-from-classification
-- new-terminal-source-time-production-mechanism
+- first-exit-pack-survival-mechanism-search
 blocking_findings: []
 open_logical_burdens:
 - ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A
 - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A
-- NewTerminalSourceTimeProductionMechanism.A
+- FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A
 passed: false
 reconciled_by: problems/navier-stokes/theorem-construction/mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md
