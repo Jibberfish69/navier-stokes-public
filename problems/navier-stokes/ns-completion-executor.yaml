@@ -260,23 +260,21 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at AngularConcentrationFieldFaceEntry.A:
-    prove that a same-terminal-packet failure of finite QSP cap/shell bump nonconcentration
-    lands as a Pack/Part/Field face failure, specifically Field under retained Pack+Part,
-    instead of remaining an endless positive equidistribution supplier demand; then
-    propagate through SourceNativeSelectorAngularEquidistribution.A or the CM fail
-    branch, SourceNativeFiniteCapBumpComparability.A, SourceNativeFiniteCapBumpLowerBound.A,
-    SourceNativeCapFamilyDensityFloor.A, CapFamilyCompatibleRegularCoreSelection.A,
-    UniformRelativeHolderScaleBudget.A, SourceNativeDiagonalDensityOscillation.A,
-    QSP.11p/QSP.11r, finite-frame / D.7mq pass branch or Field-face fail branch, Pack
-    restoration, OriginalSmoothDataPackSurvival.A, and NoGenuineExitFromSmoothData.A;
-    keep pdfs_final false until paid.'
+  stop_reason: 'public Clay finality remains open at QSPAngularFailureFieldNecessityBridge.A:
+    prove that, for the same terminal packet and under retained Pack+Part, failure
+    of the finite QSP cap/shell bump nonconcentration packet is failure of the Field
+    coherence/readout requirement itself; otherwise route QSP failure as support-only
+    and choose another Field certificate; then propagate through AngularConcentrationFieldFaceEntry.A,
+    the SourceNativeSelectorAngularEquidistribution.A pass/fail split, finite-frame
+    / D.7mq pass branch or Field-face fail branch, Pack restoration, OriginalSmoothDataPackSurvival.A,
+    and NoGenuineExitFromSmoothData.A; keep pdfs_final false until paid.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - qsp-angular-failure-field-necessity-bridge
   - angular-concentration-field-face-entry
   - source-native-selector-angular-equidistribution
   - source-native-finite-cap-bump-comparability
@@ -319,6 +317,7 @@ terminal_state: &11
   - problems/navier-stokes/theorem-construction/mpp-source-native-finite-cap-bump-lower-bound-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-source-native-finite-cap-bump-comparability-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-source-native-selector-angular-equidistribution-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-angular-concentration-field-face-entry-direct-attempt-20260609.md
 reentry:
   status: terminal_completed
   loop_policy: feed executor outputs back until every work node is complete or exactly
@@ -346,6 +345,7 @@ reentry:
   - problems/navier-stokes/theorem-construction/mpp-source-native-finite-cap-bump-lower-bound-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-source-native-finite-cap-bump-comparability-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-source-native-selector-angular-equidistribution-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-angular-concentration-field-face-entry-direct-attempt-20260609.md
   next_work_order_inputs:
   - ns-completion-engine.yaml
   - ns-completion-executor.yaml
