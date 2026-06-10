@@ -120,10 +120,10 @@ verdict_alignment:
         coverage is installed as classification, but it does not prove public Clay
         counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
         / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
-        child is SameWitnessTPSCaptureForFirstPackExit.A plus SG4ProductionFirstPackWitness.A
-        / OriginalSmoothDataPackSurvival.A, a same-witness bridge proving the original-data
-        first Pack witness is selected by the TPS good active family and receives
-        the selector-local lower envelope needed for positive active-time thickness.'
+        child is SameWitnessTerminalStripModulusForFirstPackExit.A / OriginalSmoothDataPackSurvival.A,
+        a same-witness theorem proving the original-data first Pack witness carries
+        positive preterminal active-time thickness before any TPS good-family or selected-pair
+        expansion can be used.'
     - candidate_id: contract-readiness-after-manuscript-expansion
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -145,13 +145,13 @@ verdict_alignment:
       required_action: 'Open: terminal obstruction classification is installed, but
         public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
         / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
-        theorem leaf is SameWitnessTPSCaptureForFirstPackExit.A plus SG4ProductionFirstPackWitness.A
-        / OriginalSmoothDataPackSurvival.A. The known non-alias route families are
-        consumed at current resolution, the repo-local theorem-invention surfaces
-        are superseded or support-only for the live CM target, and the TPS good-set
-        bundle / CF-bundle mechanism attempts are not installed as same-witness Pack
-        survival. The next executable work is proving same-witness TPS capture and
-        first-witness lower-envelope production, then NoGenuineExitFromSmoothData.A.'
+        theorem leaf is SameWitnessTerminalStripModulusForFirstPackExit.A / OriginalSmoothDataPackSurvival.A.
+        The known non-alias route families are consumed at current resolution, the
+        repo-local theorem-invention surfaces are superseded or support-only for the
+        live CM target, and the TPS good-set bundle / CF-bundle / same-witness capture
+        mechanism attempts are not installed as same-witness Pack survival. The next
+        executable work is proving a same-witness terminal strip modulus for the original-data
+        first Pack witness, then NoGenuineExitFromSmoothData.A.'
     - candidate_id: live-theorem-edge:clay_closure_status
       kind: live_theorem_edge
       surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -262,10 +262,10 @@ verdict_alignment:
           inventory coverage is installed as classification, but it does not prove
           public Clay counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
           / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
-          child is SameWitnessTPSCaptureForFirstPackExit.A plus SG4ProductionFirstPackWitness.A
-          / OriginalSmoothDataPackSurvival.A, a same-witness bridge proving the original-data
-          first Pack witness is selected by the TPS good active family and receives
-          the selector-local lower envelope needed for positive active-time thickness.'
+          child is SameWitnessTerminalStripModulusForFirstPackExit.A / OriginalSmoothDataPackSurvival.A,
+          a same-witness theorem proving the original-data first Pack witness carries
+          positive preterminal active-time thickness before any TPS good-family or
+          selected-pair expansion can be used.'
       - candidate_id: contract-readiness-after-manuscript-expansion
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -288,13 +288,13 @@ verdict_alignment:
         required_action: 'Open: terminal obstruction classification is installed,
           but public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
           / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
-          theorem leaf is SameWitnessTPSCaptureForFirstPackExit.A plus SG4ProductionFirstPackWitness.A
-          / OriginalSmoothDataPackSurvival.A. The known non-alias route families are
-          consumed at current resolution, the repo-local theorem-invention surfaces
-          are superseded or support-only for the live CM target, and the TPS good-set
-          bundle / CF-bundle mechanism attempts are not installed as same-witness
-          Pack survival. The next executable work is proving same-witness TPS capture
-          and first-witness lower-envelope production, then NoGenuineExitFromSmoothData.A.'
+          theorem leaf is SameWitnessTerminalStripModulusForFirstPackExit.A / OriginalSmoothDataPackSurvival.A.
+          The known non-alias route families are consumed at current resolution, the
+          repo-local theorem-invention surfaces are superseded or support-only for
+          the live CM target, and the TPS good-set bundle / CF-bundle / same-witness
+          capture mechanism attempts are not installed as same-witness Pack survival.
+          The next executable work is proving a same-witness terminal strip modulus
+          for the original-data first Pack witness, then NoGenuineExitFromSmoothData.A.'
       - candidate_id: live-theorem-edge:clay_closure_status
         kind: live_theorem_edge
         surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -440,11 +440,11 @@ verdict_alignment:
             inventory coverage is installed as classification, but it does not prove
             public Clay counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
             / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current
-            executable child is SameWitnessTPSCaptureForFirstPackExit.A plus SG4ProductionFirstPackWitness.A
-            / OriginalSmoothDataPackSurvival.A, a same-witness bridge proving the
-            original-data first Pack witness is selected by the TPS good active family
-            and receives the selector-local lower envelope needed for positive active-time
-            thickness.'
+            executable child is SameWitnessTerminalStripModulusForFirstPackExit.A
+            / OriginalSmoothDataPackSurvival.A, a same-witness theorem proving the
+            original-data first Pack witness carries positive preterminal active-time
+            thickness before any TPS good-family or selected-pair expansion can be
+            used.'
         - candidate_id: contract-readiness-after-manuscript-expansion
           kind: d8_resolved_blocker_state
           surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -467,13 +467,13 @@ verdict_alignment:
           required_action: 'Open: terminal obstruction classification is installed,
             but public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
             / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
-            theorem leaf is SameWitnessTPSCaptureForFirstPackExit.A plus SG4ProductionFirstPackWitness.A
-            / OriginalSmoothDataPackSurvival.A. The known non-alias route families
-            are consumed at current resolution, the repo-local theorem-invention surfaces
-            are superseded or support-only for the live CM target, and the TPS good-set
-            bundle / CF-bundle mechanism attempts are not installed as same-witness
-            Pack survival. The next executable work is proving same-witness TPS capture
-            and first-witness lower-envelope production, then NoGenuineExitFromSmoothData.A.'
+            theorem leaf is SameWitnessTerminalStripModulusForFirstPackExit.A / OriginalSmoothDataPackSurvival.A.
+            The known non-alias route families are consumed at current resolution,
+            the repo-local theorem-invention surfaces are superseded or support-only
+            for the live CM target, and the TPS good-set bundle / CF-bundle / same-witness
+            capture mechanism attempts are not installed as same-witness Pack survival.
+            The next executable work is proving a same-witness terminal strip modulus
+            for the original-data first Pack witness, then NoGenuineExitFromSmoothData.A.'
         - candidate_id: live-theorem-edge:clay_closure_status
           kind: live_theorem_edge
           surface: problems/navier-stokes/live-theorem-edge.yaml
