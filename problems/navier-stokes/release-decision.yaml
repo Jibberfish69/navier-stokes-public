@@ -15,8 +15,8 @@ decision:
   next_stage: active-public-clay-finality-blocked
   next_action: Prove NoGenuineExitFromSmoothData.A through
     OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A by paying the
-    active TerminalPressurePureStrainLegal.A pressure/legal supplier for the produced
-    B_ASAC native positive source residue, or supply an equivalent terminal
+    active MinimalBadResidueRigidity.A / EntropyChargeLowerBound.A supplier for
+    the produced B_ASAC native positive source residue, or supply an equivalent terminal
     Pack-survival theorem, before any submission-candidate claim.
   rationale: Public Clay finality is blocked at the first-exit Pack survival wall
     exposed by the active completion loop; terminal source anti-atom work is a
@@ -88,7 +88,8 @@ release_or_respawn_consequence:
   next_stage: active-public-clay-finality-blocked
   next_action: Keep proof, graph, viewer, manuscript, both PDF tracks, and submission
     wrappers aligned with the open original-smooth-data Pack-survival frontier
-    and its active TerminalPressurePureStrainLegal.A supplier leaf.
+    and its active MinimalBadResidueRigidity.A / EntropyChargeLowerBound.A
+    supplier leaf.
 cm_contrapositive_referee_gate:
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
   status: blocked-public-clay-finality-open
