@@ -41,7 +41,7 @@ The affine quotient functional is
 
 It kills exact second derivatives, not first derivatives.
 
-The bridge target is therefore:
+The bridge target is then:
 
 ```math
 \text{first-order gap-kernel structure}
