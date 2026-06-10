@@ -260,21 +260,21 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at SCFBaseGoodCoverFromExactPotentialReadout.A:
-    prove that the exact-potential D.7mq / SSC-EP readout plus CM-exported pack and
-    tower ledgers yields a terminal finite positive-scale SCF_base good cover paying
-    velocity fluctuation, local gradient energy, pressure normalization, and same-fluid
-    frame terms; then propagate through ExactPotentialReadoutToFieldAvgBridge.A, SelectorReadoutToFieldBridge.A,
-    QSPAngularFailureFieldNecessityBridge.A or demote QSP to support-only, AngularConcentrationFieldFaceEntry.A,
-    the SourceNativeSelectorAngularEquidistribution.A pass/fail split, finite-frame
-    / D.7mq pass branch or Field-face fail branch, Pack restoration, OriginalSmoothDataPackSurvival.A,
-    and NoGenuineExitFromSmoothData.A; keep pdfs_final false until paid.'
+  stop_reason: 'public Clay finality remains open at HFTerminalDefectMassVanishing.A
+    / USCP.A2-PackRestoration.A: prove terminal h/F defect mass vanishes on every
+    licensed same-fluid Pack scale window, rule out nonzero same-carrier h/F terminal
+    survivor mass for original smooth NS data, or restore Pack_Q directly from USCP.A2-Pack
+    plus a terminal budget; then propagate through OriginalSmoothDataPackSurvival.A,
+    NoGenuineExitFromSmoothData.A, and PDF final rereads; keep pdfs_final false until
+    paid.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - hf-terminal-defect-mass-vanishing
+  - uscp-a2-pack-restoration
   - scfbase-good-cover-from-exact-potential-readout
   - exact-potential-readout-to-fieldavg-bridge
   - selector-readout-to-field-bridge
