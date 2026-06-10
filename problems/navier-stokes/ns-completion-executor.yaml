@@ -260,37 +260,24 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: public Clay finality remains open at UniformRelativeHolderScaleBudget.A,
-    the source-native same-strip finite entrance-sector selection needed to turn local diagonal-density regularity and density-selected centers into QSP.11p/QSP.11r without losing retained mass, finite shell/core-cap geometry, transport, exact-potential comparison, CG gap, or selector-strain synchronization. This sits beneath SourceNativeDiagonalDensityOscillation.A, QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A, InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A, DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A,
-    DiagonalDensityHolderStoppingRetainedMass.A,
-    DiagonalDensitySourceOscillation.A,
-    PTCShapeNormalization.A and DGCalPairDefectChannelRealization.A,
-    DGCalLocalExactPacketReadoutFormula.A,
-    DGCalExactLinearFrameCondition.A,
-    CN13jSelectorNormalAmplitudeFloorOrSmallMomentAbsorption.A,
-    CN13jQuadraticSelectorNormalCalibration.A, PD70zQuadraticNormalUpgrade.A,
-    and HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A after the
-    checked source-time production routes cycled around the all-doors-closed
-    B_ASAC terminal native positive source atom, the CN.13j pass showed that the
-    installed linear selector-normal calibration only gives weighted L4 closure,
-    the lower-link pass reduced polarity to tangent-frame
-    linearization/coercivity of the exact anchored observable, and the DG-Cal
-    pass reduced that condition to a local exact packet formula plus readout
-    Gram lower bound, the formula pass installed the canonical local projective
-    channels while leaving actual pair-defect realization open, and the
-    realization pass reduced the unpaid side to selector-shape normalization,
-    and the PTC-shape pass reduced selector-shape normalization to diagonal-density
-    source oscillation, then the diagonal-density pass showed center lower-density
-    is supplied by density-selected centers, and the Holder/stopping retained-mass
-    follow-up paid the finite retained-intersection lemma, and the density-stopping
-    loss-budget pass showed retained measure does not yet prove entrance-sector/core-cap
-    coverage for the finite-frame route.
+  stop_reason: 'public Clay finality remains open at CapFamilyCompatibleRegularCoreSelection.A:
+    refine the positive regular density core into the predetermined finite entrance-sector
+    / shell-core-cap family while retaining positive mass in every required sector/cap
+    and preserving transport, exact-potential comparison, CG gap, and selector-strain
+    synchronization on the same strip; then propagate through UniformRelativeHolderScaleBudget.A,
+    SourceNativeDiagonalDensityOscillation.A, QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A,
+    InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
+    DensityGoodSetFiniteFrameCoverage.A, PTCShapeNormalization.A, D.7mq, DGCalPairDefectChannelRealization.A,
+    DGCalExactLinearFrameCondition.A, CN.13j or an alternate support/weight route,
+    PD.70z, SG.4B, h/F terminal mass vanishing, Pack restoration, OriginalSmoothDataPackSurvival.A,
+    and NoGenuineExitFromSmoothData.A; keep pdfs_final false until paid.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - cap-family-compatible-regular-core-selection
   - diagonal-density-holder-stopping-retained-mass
   - diagonal-density-source-oscillation
   - ptc-shape-normalization
@@ -321,6 +308,7 @@ terminal_state: &11
   - problems/navier-stokes/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-export-status.yaml
+  - problems/navier-stokes/theorem-construction/mpp-uniform-relative-holder-scale-budget-direct-attempt-20260609.md
 reentry:
   status: terminal_completed
   loop_policy: feed executor outputs back until every work node is complete or exactly
@@ -342,6 +330,7 @@ reentry:
   - problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260608-iteration-2.md
   - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260608-iteration-2.yaml
   - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608-iteration-2.yaml
+  - problems/navier-stokes/theorem-construction/mpp-uniform-relative-holder-scale-budget-direct-attempt-20260609.md
   next_work_order_inputs:
   - ns-completion-engine.yaml
   - ns-completion-executor.yaml
