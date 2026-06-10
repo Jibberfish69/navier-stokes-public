@@ -88,7 +88,7 @@ verdict_alignment:
         paper has been repaired to stop claiming public Clay finality from terminal
         classification alone. The human/app-aligned track and remaining submission
         surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: DGCalLocalExactPacketReadoutFormula.A, after
+        Current narrowed theorem leaf: DGCalPairDefectChannelRealization.A, after
         the retained positive-scale reserve-birth / B_ASAC terminal source atom routes
         exhausted into a source-time alias cycle, the h/F terminal mass route reduced
         to the selector-normal quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad
@@ -96,7 +96,9 @@ verdict_alignment:
         missing lower link to polarity/amplitude-floor or small-moment absorption,
         the lower-link pass reduced polarity to tangent linearization/coercivity of
         the exact anchored observable, and the DG-Cal pass reduced that condition
-        to a local exact packet formula plus readout Gram lower bound.'
+        to a local exact packet formula plus readout Gram lower bound, and the formula
+        pass installed the canonical local projective channels while leaving actual
+        pair-defect realization open.'
     - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -202,7 +204,7 @@ verdict_alignment:
           paper has been repaired to stop claiming public Clay finality from terminal
           classification alone. The human/app-aligned track and remaining submission
           surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-          Current narrowed theorem leaf: DGCalLocalExactPacketReadoutFormula.A, after
+          Current narrowed theorem leaf: DGCalPairDefectChannelRealization.A, after
           the retained positive-scale reserve-birth / B_ASAC terminal source atom
           routes exhausted into a source-time alias cycle, the h/F terminal mass route
           reduced to the selector-normal quadratic upgrade, the PD.70z pass showed
@@ -211,7 +213,8 @@ verdict_alignment:
           small-moment absorption, the lower-link pass reduced polarity to tangent
           linearization/coercivity of the exact anchored observable, and the DG-Cal
           pass reduced that condition to a local exact packet formula plus readout
-          Gram lower bound.'
+          Gram lower bound, and the formula pass installed the canonical local projective
+          channels while leaving actual pair-defect realization open.'
       - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -353,7 +356,7 @@ verdict_alignment:
             The compact paper has been repaired to stop claiming public Clay finality
             from terminal classification alone. The human/app-aligned track and remaining
             submission surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A
-            is proved. Current narrowed theorem leaf: DGCalLocalExactPacketReadoutFormula.A,
+            is proved. Current narrowed theorem leaf: DGCalPairDefectChannelRealization.A,
             after the retained positive-scale reserve-birth / B_ASAC terminal source
             atom routes exhausted into a source-time alias cycle, the h/F terminal
             mass route reduced to the selector-normal quadratic upgrade, the PD.70z
@@ -362,7 +365,8 @@ verdict_alignment:
             or small-moment absorption, the lower-link pass reduced polarity to tangent
             linearization/coercivity of the exact anchored observable, and the DG-Cal
             pass reduced that condition to a local exact packet formula plus readout
-            Gram lower bound.'
+            Gram lower bound, and the formula pass installed the canonical local projective
+            channels while leaving actual pair-defect realization open.'
         - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
           kind: d8_resolved_blocker_state
           surface: problems/navier-stokes/d8-completion-route-map.yaml
