@@ -1,0 +1,436 @@
+---
+version: 1
+artifact_id: ns-completion-submission-sync-2026-06-09-iteration-1
+status: blocked
+date: '2026-06-09'
+iteration_index: 1
+submission_ready: false
+source_refs:
+- problems/navier-stokes/submission-verdict.yaml
+- problems/navier-stokes/submission-bundle/submission-verdict.yaml
+- problems/navier-stokes/submission-bundle/submission-export-status.yaml
+- problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+- problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+- papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+pdf_tracks:
+  human_app_aligned:
+    path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    present: true
+    sha1: 6a55ae05fbe555ee9fcd073c77abfa90fd86153c
+    bytes: 3962347
+    manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    role: preferred problems/** app-aligned human submission track
+    required_for_clay_submission: true
+  codex_machine_paper:
+    path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    present: true
+    sha1: 605679714cf2060c0621de73ba3c1c64b1465934
+    bytes: 532063
+    manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
+    role: papers/** Codex-owned machine paper track
+    required_for_clay_submission: true
+pdf_tracks_rendered: true
+pdf_render_status:
+  status: rendered
+  rendered: true
+  tracks:
+    human_app_aligned:
+      path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+      present: true
+      sha1: 6a55ae05fbe555ee9fcd073c77abfa90fd86153c
+      bytes: 3962347
+      manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+      required_for_clay_submission: true
+    codex_machine_paper:
+      path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+      present: true
+      sha1: 605679714cf2060c0621de73ba3c1c64b1465934
+      bytes: 532063
+      manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
+      required_for_clay_submission: true
+  preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+human_pdf:
+  path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  present: true
+  sha1: 6a55ae05fbe555ee9fcd073c77abfa90fd86153c
+  bytes: 3962347
+manuscript_tex:
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  present: true
+  sha1: '05903ee71d062e9393b264d239f2c2f38df843e1'
+  bytes: 85720
+verdict_alignment:
+  root_verdict_synced: true
+  bundle_verdict_synced: true
+  export_status_synced: true
+  submission_ready: false
+  blocking_reason: 'Navier-Stokes completion readiness is blocked by 15 unresolved
+    candidate(s): public-clay-finality-from-classification, pdf-reader-proof-integration,
+    clay-closing-bridge-from-classified-class-exit-to-contradiction, contract-readiness-after-manuscript-expansion,
+    clay-readiness-not-claimed, finite-breakdown-exclusion-open.'
+  readiness_evidence:
+    source_frontier_clear: false
+    open_d8_proof_blockers: 1
+    completion_candidate_count: 15
+    completion_candidates:
+    - candidate_id: public-clay-finality-from-classification
+      kind: d8_open_blocker
+      surface: problems/navier-stokes/d8-completion-route-map.yaml
+      evidence: open_blocker
+      required_action: ''
+    - candidate_id: pdf-reader-proof-integration
+      kind: d8_resolved_blocker_state
+      surface: problems/navier-stokes/d8-completion-route-map.yaml
+      evidence: state=reopened-public-clay-finality-open
+      required_action: 'Both required PDF tracks have rendered artifacts, but rendered
+        existence and proof-surface integration are not CMI finality. The compact
+        paper has been repaired to stop claiming public Clay finality from terminal
+        classification alone. The human/app-aligned track and remaining submission
+        surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
+        Current narrowed theorem leaf: FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A,
+        with the retained positive-scale reserve-birth / B_ASAC terminal source atom
+        as the unpaid subcase.'
+    - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
+      kind: d8_resolved_blocker_state
+      surface: problems/navier-stokes/d8-completion-route-map.yaml
+      evidence: state=reopened-public-clay-finality-open
+      required_action: 'Reopened by rendered referee reread: finite-obstruction inventory
+        coverage is installed as classification, but it does not prove public Clay
+        counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
+        / NoGenuineExitFromSmoothData.A or an equivalent theorem.'
+    - candidate_id: contract-readiness-after-manuscript-expansion
+      kind: d8_resolved_blocker_state
+      surface: problems/navier-stokes/d8-completion-route-map.yaml
+      evidence: state=reopened-public-clay-finality-open
+      required_action: 'Blocked by public Clay finality: the compact manuscript now
+        states terminal obstruction classification and an open bridge. Contract readiness
+        cannot close until both PDF tracks carry a proved final bridge or remain explicitly
+        nonfinal.'
+    - candidate_id: clay-readiness-not-claimed
+      kind: d8_resolved_blocker_state
+      surface: problems/navier-stokes/d8-completion-route-map.yaml
+      evidence: state=reopened-public-clay-finality-open
+      required_action: Readiness must not be claimed while public Clay finality remains
+        open from finite-obstruction classification to finite-breakdown exclusion.
+    - candidate_id: finite-breakdown-exclusion-open
+      kind: d8_resolved_blocker_state
+      surface: problems/navier-stokes/d8-completion-route-map.yaml
+      evidence: state=open
+      required_action: 'Open: terminal obstruction classification is installed, but
+        public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
+        / NoGenuineExitFromSmoothData.A or an equivalent theorem.'
+    - candidate_id: live-theorem-edge:clay_closure_status
+      kind: live_theorem_edge
+      surface: problems/navier-stokes/live-theorem-edge.yaml
+      evidence: status=active-public-clay-finality-blocked
+      required_action: CM terminal-witness classification and finite-obstruction inventory
+        coverage are installed for currently promoted surfaces, but public Clay counterexample
+        exclusion is not proved by inventory coverage alone.
+    - candidate_id: source-frontier:primary_math_obligation
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: nonempty primary_math_obligation
+      required_action: Clear or demote the source-frontier primary_math_obligation
+        before submission readiness.
+    - candidate_id: source-frontier:first_unresolved_obligation
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: nonempty first_unresolved_obligation
+      required_action: Clear or demote the source-frontier first_unresolved_obligation
+        before submission readiness.
+    - candidate_id: source-frontier:unresolved_obligations
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: nonempty unresolved_obligations
+      required_action: Clear or demote the source-frontier unresolved_obligations
+        before submission readiness.
+    - candidate_id: source-frontier:dashboard_unresolved_obligations
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: nonempty dashboard_unresolved_obligations
+      required_action: Clear or demote the source-frontier dashboard_unresolved_obligations
+        before submission readiness.
+    - candidate_id: source-frontier:additional_context_obligations
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: nonempty additional_context_obligations
+      required_action: Clear or demote the source-frontier additional_context_obligations
+        before submission readiness.
+    - candidate_id: source-frontier:active_frontier_labels
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: nonempty active_frontier_labels
+      required_action: Clear or demote the source-frontier active_frontier_labels
+        before submission readiness.
+    - candidate_id: live-theorem-edge:clay_closure_status
+      kind: source_frontier
+      surface: problems/navier-stokes/live-theorem-edge.yaml
+      evidence: status=active-public-clay-finality-blocked
+      required_action: CM terminal-witness classification and finite-obstruction inventory
+        coverage are installed for currently promoted surfaces, but public Clay counterexample
+        exclusion is not proved by inventory coverage alone.
+    - candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
+      kind: clay_closing_gap
+      surface: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
+      evidence: Clay finite-breakdown exclusion is open; full Clay-ready proof is
+        not established.
+      required_action: Prove the Clay-closing bridge or replace the closing argument
+        with a noncircular finite-breakdown exclusion.
+    completion_readiness:
+      status: blocked
+      submission_ready: false
+      candidate_count: 15
+      candidates:
+      - candidate_id: public-clay-finality-from-classification
+        kind: d8_open_blocker
+        surface: problems/navier-stokes/d8-completion-route-map.yaml
+        evidence: open_blocker
+        required_action: ''
+      - candidate_id: pdf-reader-proof-integration
+        kind: d8_resolved_blocker_state
+        surface: problems/navier-stokes/d8-completion-route-map.yaml
+        evidence: state=reopened-public-clay-finality-open
+        required_action: 'Both required PDF tracks have rendered artifacts, but rendered
+          existence and proof-surface integration are not CMI finality. The compact
+          paper has been repaired to stop claiming public Clay finality from terminal
+          classification alone. The human/app-aligned track and remaining submission
+          surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
+          Current narrowed theorem leaf: FirstExitPackSurvivalMechanismSearch.A /
+          OriginalSmoothDataPackSurvival.A, with the retained positive-scale reserve-birth
+          / B_ASAC terminal source atom as the unpaid subcase.'
+      - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
+        kind: d8_resolved_blocker_state
+        surface: problems/navier-stokes/d8-completion-route-map.yaml
+        evidence: state=reopened-public-clay-finality-open
+        required_action: 'Reopened by rendered referee reread: finite-obstruction
+          inventory coverage is installed as classification, but it does not prove
+          public Clay counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
+          / NoGenuineExitFromSmoothData.A or an equivalent theorem.'
+      - candidate_id: contract-readiness-after-manuscript-expansion
+        kind: d8_resolved_blocker_state
+        surface: problems/navier-stokes/d8-completion-route-map.yaml
+        evidence: state=reopened-public-clay-finality-open
+        required_action: 'Blocked by public Clay finality: the compact manuscript
+          now states terminal obstruction classification and an open bridge. Contract
+          readiness cannot close until both PDF tracks carry a proved final bridge
+          or remain explicitly nonfinal.'
+      - candidate_id: clay-readiness-not-claimed
+        kind: d8_resolved_blocker_state
+        surface: problems/navier-stokes/d8-completion-route-map.yaml
+        evidence: state=reopened-public-clay-finality-open
+        required_action: Readiness must not be claimed while public Clay finality
+          remains open from finite-obstruction classification to finite-breakdown
+          exclusion.
+      - candidate_id: finite-breakdown-exclusion-open
+        kind: d8_resolved_blocker_state
+        surface: problems/navier-stokes/d8-completion-route-map.yaml
+        evidence: state=open
+        required_action: 'Open: terminal obstruction classification is installed,
+          but public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
+          / NoGenuineExitFromSmoothData.A or an equivalent theorem.'
+      - candidate_id: live-theorem-edge:clay_closure_status
+        kind: live_theorem_edge
+        surface: problems/navier-stokes/live-theorem-edge.yaml
+        evidence: status=active-public-clay-finality-blocked
+        required_action: CM terminal-witness classification and finite-obstruction
+          inventory coverage are installed for currently promoted surfaces, but public
+          Clay counterexample exclusion is not proved by inventory coverage alone.
+      - candidate_id: source-frontier:primary_math_obligation
+        kind: source_frontier
+        surface: problems/navier-stokes/source-frontier.yaml
+        evidence: nonempty primary_math_obligation
+        required_action: Clear or demote the source-frontier primary_math_obligation
+          before submission readiness.
+      - candidate_id: source-frontier:first_unresolved_obligation
+        kind: source_frontier
+        surface: problems/navier-stokes/source-frontier.yaml
+        evidence: nonempty first_unresolved_obligation
+        required_action: Clear or demote the source-frontier first_unresolved_obligation
+          before submission readiness.
+      - candidate_id: source-frontier:unresolved_obligations
+        kind: source_frontier
+        surface: problems/navier-stokes/source-frontier.yaml
+        evidence: nonempty unresolved_obligations
+        required_action: Clear or demote the source-frontier unresolved_obligations
+          before submission readiness.
+      - candidate_id: source-frontier:dashboard_unresolved_obligations
+        kind: source_frontier
+        surface: problems/navier-stokes/source-frontier.yaml
+        evidence: nonempty dashboard_unresolved_obligations
+        required_action: Clear or demote the source-frontier dashboard_unresolved_obligations
+          before submission readiness.
+      - candidate_id: source-frontier:additional_context_obligations
+        kind: source_frontier
+        surface: problems/navier-stokes/source-frontier.yaml
+        evidence: nonempty additional_context_obligations
+        required_action: Clear or demote the source-frontier additional_context_obligations
+          before submission readiness.
+      - candidate_id: source-frontier:active_frontier_labels
+        kind: source_frontier
+        surface: problems/navier-stokes/source-frontier.yaml
+        evidence: nonempty active_frontier_labels
+        required_action: Clear or demote the source-frontier active_frontier_labels
+          before submission readiness.
+      - candidate_id: live-theorem-edge:clay_closure_status
+        kind: source_frontier
+        surface: problems/navier-stokes/live-theorem-edge.yaml
+        evidence: status=active-public-clay-finality-blocked
+        required_action: CM terminal-witness classification and finite-obstruction
+          inventory coverage are installed for currently promoted surfaces, but public
+          Clay counterexample exclusion is not proved by inventory coverage alone.
+      - candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
+        kind: clay_closing_gap
+        surface: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
+        evidence: Clay finite-breakdown exclusion is open; full Clay-ready proof is
+          not established.
+        required_action: Prove the Clay-closing bridge or replace the closing argument
+          with a noncircular finite-breakdown exclusion.
+      checks:
+        route_candidates: 0
+        d8_candidates: 6
+        live_edge_candidates: 1
+        verdict_conflicts: 0
+        child_paper_repo_candidates: 0
+        manuscript_unresolved_candidates: 0
+        active_pdf_criticism_candidates: 0
+        source_frontier_candidates: 7
+        route_state_agreement_candidates: 0
+        submission_verdict_agreement_candidates: 0
+        pdf_track_candidates: 0
+        current_material_candidates: 0
+        clay_closing_gap_candidates: 1
+        stale_readiness_ref_candidates: 0
+      pdf_tracks_rendered: true
+      pdf_render_status:
+        status: rendered
+        rendered: true
+        tracks:
+          human_app_aligned:
+            path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+            present: true
+            sha1: 6a55ae05fbe555ee9fcd073c77abfa90fd86153c
+            bytes: 3962347
+            manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+            required_for_clay_submission: true
+          codex_machine_paper:
+            path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+            present: true
+            sha1: 605679714cf2060c0621de73ba3c1c64b1465934
+            bytes: 532063
+            manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
+            required_for_clay_submission: true
+        preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+      base_completion_readiness:
+        status: blocked
+        submission_ready: false
+        candidate_count: 7
+        candidates:
+        - candidate_id: public-clay-finality-from-classification
+          kind: d8_open_blocker
+          surface: problems/navier-stokes/d8-completion-route-map.yaml
+          evidence: open_blocker
+          required_action: ''
+        - candidate_id: pdf-reader-proof-integration
+          kind: d8_resolved_blocker_state
+          surface: problems/navier-stokes/d8-completion-route-map.yaml
+          evidence: state=reopened-public-clay-finality-open
+          required_action: 'Both required PDF tracks have rendered artifacts, but
+            rendered existence and proof-surface integration are not CMI finality.
+            The compact paper has been repaired to stop claiming public Clay finality
+            from terminal classification alone. The human/app-aligned track and remaining
+            submission surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A
+            is proved. Current narrowed theorem leaf: FirstExitPackSurvivalMechanismSearch.A
+            / OriginalSmoothDataPackSurvival.A, with the retained positive-scale reserve-birth
+            / B_ASAC terminal source atom as the unpaid subcase.'
+        - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
+          kind: d8_resolved_blocker_state
+          surface: problems/navier-stokes/d8-completion-route-map.yaml
+          evidence: state=reopened-public-clay-finality-open
+          required_action: 'Reopened by rendered referee reread: finite-obstruction
+            inventory coverage is installed as classification, but it does not prove
+            public Clay counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
+            / NoGenuineExitFromSmoothData.A or an equivalent theorem.'
+        - candidate_id: contract-readiness-after-manuscript-expansion
+          kind: d8_resolved_blocker_state
+          surface: problems/navier-stokes/d8-completion-route-map.yaml
+          evidence: state=reopened-public-clay-finality-open
+          required_action: 'Blocked by public Clay finality: the compact manuscript
+            now states terminal obstruction classification and an open bridge. Contract
+            readiness cannot close until both PDF tracks carry a proved final bridge
+            or remain explicitly nonfinal.'
+        - candidate_id: clay-readiness-not-claimed
+          kind: d8_resolved_blocker_state
+          surface: problems/navier-stokes/d8-completion-route-map.yaml
+          evidence: state=reopened-public-clay-finality-open
+          required_action: Readiness must not be claimed while public Clay finality
+            remains open from finite-obstruction classification to finite-breakdown
+            exclusion.
+        - candidate_id: finite-breakdown-exclusion-open
+          kind: d8_resolved_blocker_state
+          surface: problems/navier-stokes/d8-completion-route-map.yaml
+          evidence: state=open
+          required_action: 'Open: terminal obstruction classification is installed,
+            but public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
+            / NoGenuineExitFromSmoothData.A or an equivalent theorem.'
+        - candidate_id: live-theorem-edge:clay_closure_status
+          kind: live_theorem_edge
+          surface: problems/navier-stokes/live-theorem-edge.yaml
+          evidence: status=active-public-clay-finality-blocked
+          required_action: CM terminal-witness classification and finite-obstruction
+            inventory coverage are installed for currently promoted surfaces, but
+            public Clay counterexample exclusion is not proved by inventory coverage
+            alone.
+        checks:
+          route_candidates: 0
+          d8_candidates: 6
+          live_edge_candidates: 1
+          verdict_conflicts: 0
+          child_paper_repo_candidates: 0
+          manuscript_unresolved_candidates: 0
+          active_pdf_criticism_candidates: 0
+    pdf_tracks_present: true
+    pdf_tracks_rendered: true
+    pdf_render_status:
+      status: rendered
+      rendered: true
+      tracks:
+        human_app_aligned:
+          path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+          present: true
+          sha1: 6a55ae05fbe555ee9fcd073c77abfa90fd86153c
+          bytes: 3962347
+          manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+          required_for_clay_submission: true
+        codex_machine_paper:
+          path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+          present: true
+          sha1: 605679714cf2060c0621de73ba3c1c64b1465934
+          bytes: 532063
+          manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
+          required_for_clay_submission: true
+      preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    pdf_tracks:
+      human_app_aligned:
+        path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+        present: true
+        sha1: 6a55ae05fbe555ee9fcd073c77abfa90fd86153c
+        bytes: 3962347
+        manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+        role: preferred problems/** app-aligned human submission track
+        required_for_clay_submission: true
+      codex_machine_paper:
+        path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+        present: true
+        sha1: 605679714cf2060c0621de73ba3c1c64b1465934
+        bytes: 532063
+        manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
+        role: papers/** Codex-owned machine paper track
+        required_for_clay_submission: true
+open_blockers:
+- Reader-facing proof prose must stay aligned with the current CM endpoint matrix
+  and Clay-closing bridge state.
+- Both required PDF tracks must pass reader-facing scans after stale open-hinge language
+  is removed.
+- Submission/export surfaces must keep readiness false until the rebuilt human/app-aligned
+  and Codex-structured papers are reviewed from the same current route payload.
