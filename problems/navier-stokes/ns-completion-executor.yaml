@@ -266,13 +266,14 @@ terminal_state: &11
     A face-derived Exit(Q):=not Member(Q) is terminal obstruction classification,
     not by itself a contradiction to finite Clay breakdown. No theorem yet proves
     OriginalSmoothData => ScaleCriticalTreeCarleson.A or Pack_{Q_atlas} fixed readout.
-    The current narrowed theorem leaf is BASACTimeFaceAntiAtom.A /
-    UniformTemporalSourceIntegrability_{p,B_ASAC}.A under Pack_{Q_atlas} /
-    OriginalSmoothDataPackSurvival.A: the affine readout bypass failed, the condition-number
-    budget reduced to Pack deformation comparability, and the installed reserve-birth
-    reductions sharpened the non-alias target to the produced B_ASAC terminal source-residue
-    wall. Keep pdfs_final false until this theorem, NoGenuineExitFromSmoothData.A,
-    and both PDF final rereads are paid.'
+    The current narrowed theorem leaf is TerminalSourceResidenceMechanism.A for
+    the produced B_ASAC class: the affine readout bypass failed, the condition-number
+    budget reduced to Pack deformation comparability, the reserve-birth reductions
+    sharpened the non-alias target to the produced B_ASAC terminal source-residue
+    wall, and the no-incoming / backward-uniqueness route failed as an independent
+    anti-atom mechanism. Keep pdfs_final false until UniformTemporalSourceIntegrability_{p,B_ASAC}.A,
+    PositiveSourceTraceAC_{B_ASAC}.A, or an equivalent source-residence theorem,
+    NoGenuineExitFromSmoothData.A, and both PDF final rereads are paid.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
@@ -335,6 +336,8 @@ terminal_state: &11
   - pack-atlas-deformation-comparability
   - basac-timeface-antiatom
   - uniform-temporal-source-integrability-basac
+  - terminal-source-residence-mechanism-basac
+  - positive-source-trace-ac-basac
   - retained-positive-scale-native-reserve-birth-charge
   - clay-counterexample-exclusion-bridge-propagation
   - no-genuine-exit-from-smooth-data-propagation
