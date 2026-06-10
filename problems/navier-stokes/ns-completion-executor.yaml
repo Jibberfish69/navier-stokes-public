@@ -260,19 +260,21 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at LicensedHFTaylorScaleBudget.A:
-    prove that on every licensed terminal same-fluid Pack scale window, the window
-    radius times ||D_a F|| tends to zero in the native Pack norm, or prove an equivalent
-    observability/source estimate forcing the h/F terminal survivor measure to vanish;
-    then propagate through HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A,
-    OriginalSmoothDataPackSurvival.A, NoGenuineExitFromSmoothData.A, and PDF final
-    rereads; keep pdfs_final false until paid.'
+  stop_reason: 'public Clay finality remains open at PackLicensedScaleHessianBudget.A:
+    prove that the actual licensed Pack scale schedule has admissible shrink freedom,
+    or prove a terminal material-Hessian scale bound strong enough to make rho_window
+    * ||D_a F|| vanish in the native Pack norm; equivalently force the h/F terminal
+    survivor measure to vanish on the same windows; then propagate through LicensedHFTaylorScaleBudget.A,
+    HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A, OriginalSmoothDataPackSurvival.A,
+    NoGenuineExitFromSmoothData.A, and PDF final rereads; keep pdfs_final false until
+    paid.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - pack-licensed-scale-hessian-budget
   - licensed-hf-taylor-scale-budget
   - hf-terminal-defect-mass-vanishing
   - uscp-a2-pack-restoration
