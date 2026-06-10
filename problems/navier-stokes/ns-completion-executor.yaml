@@ -266,14 +266,14 @@ terminal_state: &11
     A face-derived Exit(Q):=not Member(Q) is terminal obstruction classification,
     not by itself a contradiction to finite Clay breakdown. No theorem yet proves
     OriginalSmoothData => ScaleCriticalTreeCarleson.A or Pack_{Q_atlas} fixed readout.
-    The current narrowed theorem leaf is RetainedFiniteBandAmplitudeSmallness.A
-    / TerminalFiniteCollarSeedToIntervalControl.A under the retained far-corona endpoint
-    route: the B_ASAC source-density, source-time, CKN/source-tether, first-exit
-    Pack, retained-carrier compactness, lifted-band flux, affine quotient, mu_N endpoint,
-    endpoint threading, and direct (8j11) routes have reduced the direct finite-band
-    branch to controlling the finite-collar coefficient `2^{-j}E_m` on the retained
-    terminal interval. Sibling endpoint routes through EndpointMassFromShellPairCommutator.A,
-    RetainedMuNCarleson.A, and TerminalNuNWindowSeedSynchronization.A remain open.
+    The current narrowed theorem leaf is TerminalFiniteCollarSeedToIntervalControl.A
+    under the retained far-corona endpoint route: the B_ASAC source-density, source-time,
+    CKN/source-tether, first-exit Pack, retained-carrier compactness, lifted-band
+    flux, affine quotient, mu_N endpoint, endpoint threading, direct (8j11), and
+    retained finite-collar amplitude routes have reduced the direct finite-band branch
+    to propagating a smooth finite-collar seed through the retained terminal interval.
+    Sibling endpoint routes through EndpointMassFromShellPairCommutator.A, RetainedMuNCarleson.A,
+    and TerminalNuNWindowSeedSynchronization.A remain open.
     Keep pdfs_final false until an endpoint-threading theorem feeds `(EP)`, `(L-Flux)`,
     retained tail input, Part-row compactness,
     NoGenuineExitFromSmoothData.A, and both PDF final rereads are paid.'
@@ -401,6 +401,7 @@ terminal_state: &11
   - problems/navier-stokes/theorem-construction/mpp-angular-concentration-field-face-entry-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-qsp-angular-failure-field-necessity-bridge-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-direct-finite-band-bilinear-8j11-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-retained-finite-band-amplitude-smallness-direct-attempt-20260609.md
 reentry:
   status: terminal_completed
   loop_policy: feed executor outputs back until every work node is complete or exactly
