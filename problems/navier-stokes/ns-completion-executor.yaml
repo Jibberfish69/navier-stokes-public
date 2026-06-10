@@ -260,19 +260,24 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at NoGenuineExitFromSmoothData.A
-    / ProducedMinimalFirstPackBubbleRigidity.A: minimal-bubble compactness extracts
-    a local suitable terminal bubble with nonzero Pack defect or source residue,
-    but the current proof package does not yet place that bubble in a proved Liouville,
-    critical ancient, time-face anti-atom, source-Carleson, or active-square rigidity
-    class. Keep pdfs_final false until this first-Pack-survival theorem is paid and
-    both PDFs pass fresh final rereads.'
+  stop_reason: 'public Clay finality remains open at ProducedMinimalFirstPackBubbleRigidity.A
+    / PackCriticalElementStability.A: minimal-bubble compactness extracts a local
+    suitable terminal bubble with nonzero Pack defect or source residue, and first-exit
+    minimality alone does not produce endpoint L3, Type-I, finite-energy ancient,
+    source-cancellation, time-face anti-atom, source-Carleson, active-square, or
+    other rigid-class control. Keep pdfs_final false until this Pack-functional
+    stability or critical-norm-production theorem is paid and both PDFs pass fresh
+    final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - pack-critical-element-stability
+  - first-pack-bubble-critical-norm-production
+  - first-pack-profile-decomposition-no-positive-atom
+  - minimal-pack-terminal-antiatom
   - produced-minimal-first-pack-bubble-rigidity
   - minimal-first-pack-bubble-liouville
   - produced-critical-ancient-class
