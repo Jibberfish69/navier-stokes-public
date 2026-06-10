@@ -329,9 +329,12 @@ terminal_state: &11
     equivalent first-Pack survival mechanism. TwoProfilePackMoleculeRigidity.A has
     now been tested and reduced to the scale-nested low-high same-window Pack molecule:
     profile-parameter orthogonality removes separated pairs and duplicate profiles,
-    but does not control the selected low-high positive Pack paraproduct. The executable
-    child is now ScaleNestedLowHighPackMoleculeRigidity.A, SelectedLowHighPackParaproductAntiAtom.A,
-    SameWindowLowHighPositivePartCancellation.A, LowHighPackSourceCarlesonReserve.A,
+    but does not control the selected low-high positive Pack paraproduct. ScaleNestedLowHighPackMoleculeRigidity.A
+    has now been tested and reduced past ParaproductNativeSourceCapture.A: the installed
+    paraproduct package gives CM witness-grammar face support for low-high source
+    work, but it does not exclude the first Pack failure from original smooth data.
+    The executable child is now LowHighPackSourceCarlesonReserve.A, SelectedLowHighPositiveStrainDecorrelation.A,
+    SameWindowLowHighPositivePartCancellation.A, LowHighTerminalStripModulus.A,
     ScaleNestedPackMoleculeLiouville.A, or an equivalent first-Pack survival mechanism.
     Keep pdfs_final false until that bridge is paid into NoGenuineExitFromSmoothData.A
     and propagated through both PDF final rereads.'
@@ -378,8 +381,10 @@ terminal_state: &11
   - pack-positive-defect-measure-polarity
   - scale-nested-low-high-pack-molecule-rigidity
   - selected-low-high-pack-paraproduct-antiatom
+  - selected-low-high-positive-strain-decorrelation
   - same-window-low-high-positive-part-cancellation
   - low-high-pack-source-carleson-reserve
+  - low-high-terminal-strip-modulus
   - scale-nested-pack-molecule-liouville
   - terminal-positive-cross-profile-source-control
   - uniform-pack-cross-term-integrability
