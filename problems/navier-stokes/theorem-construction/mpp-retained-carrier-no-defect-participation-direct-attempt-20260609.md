@@ -126,7 +126,7 @@ Part requires the differentiated tower through depth `N`:
 
 ```text
 D_t U_k = -nabla^{k+1}p + nu Delta U_k + B_k,
-qquad k <= N,
+\qquad k <= N,
 ```
 
 with pressure, viscosity, nonlinear source, and commutators paid on the same
