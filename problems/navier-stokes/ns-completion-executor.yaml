@@ -260,18 +260,19 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at UniformPackCrossTermIntegrability.A
-    / CrossProfileReverseHolderProduction.A: the reverse-Holder/Orlicz anti-atom
-    route is valid conditionally, but current inputs do not produce super-L1, source-Carleson,
-    active-square, or terminal-layer Morrey control for selected positive cross-profile
-    Pack terms. Keep pdfs_final false until this production theorem is paid and both
-    PDFs pass fresh final rereads.'
+  stop_reason: 'public Clay finality remains open at CrossProfileReverseHolderProduction.A
+    / ScaleNormalizedCrossProfileSquareReserve.A: selected positive cross-profile
+    Pack source can still concentrate as a terminal heat-scale pulse, and current
+    inputs do not produce the scale-normalized square/source reserve needed for
+    reverse-Holder or source-Carleson control. Keep pdfs_final false until this
+    reserve theorem is paid and both PDFs pass fresh final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - scale-normalized-cross-profile-square-reserve
   - cross-profile-reverse-holder-production
   - cross-profile-pack-orlicz-gain
   - cross-profile-source-carleson-reserve
