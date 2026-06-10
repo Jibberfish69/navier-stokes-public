@@ -260,18 +260,22 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at CrossProfileParentDensityFloor.A
-    / CrossProfileTwoTowerDonorDepletion.A: the parent-density target cycles to the
-    known anti-diffuse parent wall, and no theorem yet forces every legal positive
-    cross-profile source-parent edge to spend a finite scale-normalized donor reserve
-    or quantized parent charge. Keep pdfs_final false until this donor-depletion
-    theorem is paid and both PDFs pass fresh final rereads.'
+  stop_reason: 'public Clay finality remains open at CrossProfileTwoTowerDonorDepletion.A
+    / CrossProfileZenoSourceResidueRigidity.A: the local donor-balance half pays finite
+    cross-profile refill trees, but no theorem yet forces an uncharged cross-profile
+    Zeno refill branch into a rigid ancient source-residue class with vanishing inherited
+    residue, nor supplies an equivalent scale-critical donor reserve. Keep pdfs_final
+    false until this Zeno rigidity or reserve theorem is paid and both PDFs pass fresh
+    final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - cross-profile-zeno-source-residue-rigidity
+  - cross-profile-rigid-ancient-residue-class
+  - cross-profile-residue-liouville
   - cross-profile-two-tower-donor-depletion
   - cross-profile-quantized-parent-charge
   - cross-profile-diffuse-parent-charge
