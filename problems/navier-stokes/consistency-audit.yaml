@@ -5,23 +5,27 @@ identity:
   audit_id: consistency-audit-navier-stokes
   generated_at: '2026-06-08T07:23:17Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: passed
-pass: true
-release_eligible: true
-submission_ready: true
+status: superseded-by-20260609-public-clay-finality-reentry
+pass: false
+release_eligible: false
+submission_ready: false
 release_decision_present: true
 export_bundle_verified: true
 promotion_packet_blocked: false
 checks:
   theorem_warrant_aligned: true
-  theorem_authority_gate_closed: true
-  review_verdict_accept: true
-  submission_verdict_ready: true
-  paper_quality_pass: true
+  theorem_authority_gate_closed: false
+  review_verdict_accept: false
+  submission_verdict_ready: false
+  paper_quality_pass: false
   hfg_side_sandbox_quarantined: true
 summary:
   total_obligations: 3
-  blocking_count: 0
-  frontier_count: 0
-  all_discharged: true
-blockers: []
+  blocking_count: 1
+  frontier_count: 1
+  all_discharged: false
+blockers:
+- external-terminal-time-thickness-mechanism
+superseded_by:
+- problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
+- problems/navier-stokes/theorem-construction/mpp-external-terminal-time-thickness-mechanism-search-reentry-20260609.md
