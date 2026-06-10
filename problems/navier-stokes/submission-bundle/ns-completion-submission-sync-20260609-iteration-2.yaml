@@ -158,13 +158,16 @@ verdict_alignment:
         has now been tested and does not pay the bridge: the high-packet square measure
         gives only a conditional Carleson decomposition, while the selected positive
         low-strain multiplier can still co-locate with high-packet occupancy in a
-        vanishing terminal strip. The next executable child must be SelectedLowHighPositiveStrainDecorrelation.A,
-        LowHighPositiveStrainResidence.A, LowHighPacketOccupancyAntiSynchronization.A,
-        SameWindowLowHighPositivePartCancellation.A, LowHighTerminalStripModulus.A,
-        ScaleNestedPackMoleculeLiouville.A, or an equivalent first-Pack survival mechanism
-        before any TPS good-family, selected-pair expansion, one-profile capture,
-        two-profile molecule, low-high paraproduct capture, low-high Carleson reserve,
-        or Pack-critical-element route can be used.'
+        vanishing terminal strip. SelectedLowHighPositiveStrainDecorrelation.A has
+        now been tested and does not pay the bridge: the frozen trace-free expanding-eigenpacket
+        model still lets the selected high packet co-locate with positive low strain
+        on shrinking terminal windows. The next executable child must be DynamicLowHighEigenpacketNoFreeze.A,
+        PressureLerayEigenframeRotationCost.A, LowHighFrameBVCharge.A, MultiDirectionParticipationTether.A,
+        LowHighPositiveStrainResidence.A, LowHighTerminalStripModulus.A, ScaleNestedPackMoleculeLiouville.A,
+        or an equivalent first-Pack survival mechanism before any TPS good-family,
+        selected-pair expansion, one-profile capture, two-profile molecule, low-high
+        paraproduct capture, low-high Carleson reserve, low-high decorrelation, or
+        Pack-critical-element route can be used.'
     - candidate_id: contract-readiness-after-manuscript-expansion
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -334,13 +337,16 @@ verdict_alignment:
           has now been tested and does not pay the bridge: the high-packet square
           measure gives only a conditional Carleson decomposition, while the selected
           positive low-strain multiplier can still co-locate with high-packet occupancy
-          in a vanishing terminal strip. The next executable child must be SelectedLowHighPositiveStrainDecorrelation.A,
-          LowHighPositiveStrainResidence.A, LowHighPacketOccupancyAntiSynchronization.A,
-          SameWindowLowHighPositivePartCancellation.A, LowHighTerminalStripModulus.A,
-          ScaleNestedPackMoleculeLiouville.A, or an equivalent first-Pack survival
-          mechanism before any TPS good-family, selected-pair expansion, one-profile
-          capture, two-profile molecule, low-high paraproduct capture, low-high Carleson
-          reserve, or Pack-critical-element route can be used.'
+          in a vanishing terminal strip. SelectedLowHighPositiveStrainDecorrelation.A
+          has now been tested and does not pay the bridge: the frozen trace-free expanding-eigenpacket
+          model still lets the selected high packet co-locate with positive low strain
+          on shrinking terminal windows. The next executable child must be DynamicLowHighEigenpacketNoFreeze.A,
+          PressureLerayEigenframeRotationCost.A, LowHighFrameBVCharge.A, MultiDirectionParticipationTether.A,
+          LowHighPositiveStrainResidence.A, LowHighTerminalStripModulus.A, ScaleNestedPackMoleculeLiouville.A,
+          or an equivalent first-Pack survival mechanism before any TPS good-family,
+          selected-pair expansion, one-profile capture, two-profile molecule, low-high
+          paraproduct capture, low-high Carleson reserve, low-high decorrelation,
+          or Pack-critical-element route can be used.'
       - candidate_id: contract-readiness-after-manuscript-expansion
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -548,14 +554,17 @@ verdict_alignment:
             LowHighPackSourceCarlesonReserve.A has now been tested and does not pay
             the bridge: the high-packet square measure gives only a conditional Carleson
             decomposition, while the selected positive low-strain multiplier can still
-            co-locate with high-packet occupancy in a vanishing terminal strip. The
-            next executable child must be SelectedLowHighPositiveStrainDecorrelation.A,
-            LowHighPositiveStrainResidence.A, LowHighPacketOccupancyAntiSynchronization.A,
-            SameWindowLowHighPositivePartCancellation.A, LowHighTerminalStripModulus.A,
-            ScaleNestedPackMoleculeLiouville.A, or an equivalent first-Pack survival
-            mechanism before any TPS good-family, selected-pair expansion, one-profile
-            capture, two-profile molecule, low-high paraproduct capture, low-high
-            Carleson reserve, or Pack-critical-element route can be used.'
+            co-locate with high-packet occupancy in a vanishing terminal strip. SelectedLowHighPositiveStrainDecorrelation.A
+            has now been tested and does not pay the bridge: the frozen trace-free
+            expanding-eigenpacket model still lets the selected high packet co-locate
+            with positive low strain on shrinking terminal windows. The next executable
+            child must be DynamicLowHighEigenpacketNoFreeze.A, PressureLerayEigenframeRotationCost.A,
+            LowHighFrameBVCharge.A, MultiDirectionParticipationTether.A, LowHighPositiveStrainResidence.A,
+            LowHighTerminalStripModulus.A, ScaleNestedPackMoleculeLiouville.A, or
+            an equivalent first-Pack survival mechanism before any TPS good-family,
+            selected-pair expansion, one-profile capture, two-profile molecule, low-high
+            paraproduct capture, low-high Carleson reserve, low-high decorrelation,
+            or Pack-critical-element route can be used.'
         - candidate_id: contract-readiness-after-manuscript-expansion
           kind: d8_resolved_blocker_state
           surface: problems/navier-stokes/d8-completion-route-map.yaml
