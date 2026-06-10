@@ -260,8 +260,9 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: public Clay finality remains open at DiagonalDensityHolderStoppingRetainedMass.A,
-    the unpaid density-oscillation / adapted-stopping theorem beneath DiagonalDensitySourceOscillation.A,
+  stop_reason: public Clay finality remains open at DensityAdaptedStoppingLossBudget.A,
+    the unpaid density-stopping loss-budget theorem beneath DiagonalDensityHolderStoppingRetainedMass.A,
+    DiagonalDensitySourceOscillation.A,
     PTCShapeNormalization.A and DGCalPairDefectChannelRealization.A,
     DGCalLocalExactPacketReadoutFormula.A,
     DGCalExactLinearFrameCondition.A,
@@ -279,8 +280,9 @@ terminal_state: &11
     realization pass reduced the unpaid side to selector-shape normalization,
     and the PTC-shape pass reduced selector-shape normalization to diagonal-density
     source oscillation, then the diagonal-density pass showed center lower-density
-    is supplied by density-selected centers while Holder/adapted stopping with
-    retained mass and same-strip synchronization remains unpaid.
+    is supplied by density-selected centers, and the Holder/stopping retained-mass
+    follow-up paid the finite retained-intersection lemma while leaving the actual
+    density-stopping loss budget unpaid.
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
