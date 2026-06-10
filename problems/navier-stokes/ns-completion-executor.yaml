@@ -260,19 +260,22 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at CrossProfileTwoTowerDonorDepletion.A
-    / CrossProfileZenoSourceResidueRigidity.A: the local donor-balance half pays finite
-    cross-profile refill trees, but no theorem yet forces an uncharged cross-profile
-    Zeno refill branch into a rigid ancient source-residue class with vanishing inherited
-    residue, nor supplies an equivalent scale-critical donor reserve. Keep pdfs_final
-    false until this Zeno rigidity or reserve theorem is paid and both PDFs pass fresh
-    final rereads.'
+  stop_reason: 'public Clay finality remains open at CrossProfileZenoSourceResidueRigidity.A
+    / CrossProfileMonotoneAncestryRank.A: the Zeno compactness half is installed,
+    but broad ancient Liouville, weak cancellation, the automatically produced minimal
+    class, and temporal anti-atom routes do not close the branch without cycling to
+    the source-Carleson reserve. No theorem yet gives a well-founded ancestry rank
+    for uncharged terminal refill edges or excludes terminal-time support of the
+    extracted positive source-residue measure. Keep pdfs_final false until this rank/support-exclusion
+    theorem is paid and both PDFs pass fresh final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - cross-profile-monotone-ancestry-rank
+  - cross-profile-terminal-support-exclusion
   - cross-profile-zeno-source-residue-rigidity
   - cross-profile-rigid-ancient-residue-class
   - cross-profile-residue-liouville
