@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T10:33:04Z'
+generated_at: '2026-06-10T10:37:46Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -62,13 +62,14 @@ readiness_evidence:
       has been repaired to stop claiming public Clay finality from terminal classification
       alone. The human/app-aligned track and remaining submission surfaces must stay
       nonfinal until NoGenuineExitFromSmoothData.A is proved. Current narrowed theorem
-      leaf: QSPAngularFailureFieldNecessityBridge.A beneath AngularConcentrationFieldFaceEntry.A,
-      SourceNativeSelectorAngularEquidistribution.A, SourceNativeFiniteCapBumpComparability.A,
-      SourceNativeFiniteCapBumpLowerBound.A, SourceNativeCapFamilyDensityFloor.A,
-      CapFamilyCompatibleRegularCoreSelection.A, UniformRelativeHolderScaleBudget.A,
-      SourceNativeDiagonalDensityOscillation.A, QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A,
-      InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
-      DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A, DiagonalDensityHolderStoppingRetainedMass.A,
+      leaf: SelectorReadoutToFieldBridge.A beneath QSPAngularFailureFieldNecessityBridge.A,
+      AngularConcentrationFieldFaceEntry.A, SourceNativeSelectorAngularEquidistribution.A,
+      SourceNativeFiniteCapBumpComparability.A, SourceNativeFiniteCapBumpLowerBound.A,
+      SourceNativeCapFamilyDensityFloor.A, CapFamilyCompatibleRegularCoreSelection.A,
+      UniformRelativeHolderScaleBudget.A, SourceNativeDiagonalDensityOscillation.A,
+      QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A, InitialQSPCoreCapMassFloor.A,
+      CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A, DensityGoodSetFiniteFrameCoverage.A,
+      DensityAdaptedStoppingLossBudget.A, DiagonalDensityHolderStoppingRetainedMass.A,
       DiagonalDensitySourceOscillation.A and PTCShapeNormalization.A, after the retained
       positive-scale reserve-birth / B_ASAC terminal source atom routes exhausted
       into a source-time alias cycle, the h/F terminal mass route reduced to the selector-normal
@@ -190,7 +191,7 @@ readiness_evidence:
         paper has been repaired to stop claiming public Clay finality from terminal
         classification alone. The human/app-aligned track and remaining submission
         surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: QSPAngularFailureFieldNecessityBridge.A beneath
+        Current narrowed theorem leaf: SelectorReadoutToFieldBridge.A beneath QSPAngularFailureFieldNecessityBridge.A,
         AngularConcentrationFieldFaceEntry.A, SourceNativeSelectorAngularEquidistribution.A,
         SourceNativeFiniteCapBumpComparability.A, SourceNativeFiniteCapBumpLowerBound.A,
         SourceNativeCapFamilyDensityFloor.A, CapFamilyCompatibleRegularCoreSelection.A,
@@ -355,7 +356,7 @@ readiness_evidence:
           paper has been repaired to stop claiming public Clay finality from terminal
           classification alone. The human/app-aligned track and remaining submission
           surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-          Current narrowed theorem leaf: QSPAngularFailureFieldNecessityBridge.A beneath
+          Current narrowed theorem leaf: SelectorReadoutToFieldBridge.A beneath QSPAngularFailureFieldNecessityBridge.A,
           AngularConcentrationFieldFaceEntry.A, SourceNativeSelectorAngularEquidistribution.A,
           SourceNativeFiniteCapBumpComparability.A, SourceNativeFiniteCapBumpLowerBound.A,
           SourceNativeCapFamilyDensityFloor.A, CapFamilyCompatibleRegularCoreSelection.A,
