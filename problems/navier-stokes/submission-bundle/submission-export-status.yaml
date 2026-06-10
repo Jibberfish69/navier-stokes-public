@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T10:43:48Z'
+generated_at: '2026-06-10T10:47:30Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -42,7 +42,7 @@ readiness_blocker: 'Navier-Stokes completion readiness is blocked by 15 unresolv
   clay-readiness-not-claimed, finite-breakdown-exclusion-open.'
 active_supplier_blocker: first-exit-pack-survival-mechanism-search
 manuscript_tex_sha1: '05903ee71d062e9393b264d239f2c2f38df843e1'
-completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260609-iteration-2.yaml
+completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260609.yaml
 readiness_evidence:
   source_frontier_clear: false
   open_d8_proof_blockers: 1
@@ -62,8 +62,8 @@ readiness_evidence:
       has been repaired to stop claiming public Clay finality from terminal classification
       alone. The human/app-aligned track and remaining submission surfaces must stay
       nonfinal until NoGenuineExitFromSmoothData.A is proved. Current narrowed theorem
-      leaf: ExactPotentialReadoutToFieldAvgBridge.A beneath SelectorReadoutToFieldBridge.A,
-      QSPAngularFailureFieldNecessityBridge.A, AngularConcentrationFieldFaceEntry.A,
+      leaf: SCFBaseGoodCoverFromExactPotentialReadout.A beneath ExactPotentialReadoutToFieldAvgBridge.A,
+      SelectorReadoutToFieldBridge.A, QSPAngularFailureFieldNecessityBridge.A, AngularConcentrationFieldFaceEntry.A,
       SourceNativeSelectorAngularEquidistribution.A, SourceNativeFiniteCapBumpComparability.A,
       SourceNativeFiniteCapBumpLowerBound.A, SourceNativeCapFamilyDensityFloor.A,
       CapFamilyCompatibleRegularCoreSelection.A, UniformRelativeHolderScaleBudget.A,
@@ -191,8 +191,9 @@ readiness_evidence:
         paper has been repaired to stop claiming public Clay finality from terminal
         classification alone. The human/app-aligned track and remaining submission
         surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: ExactPotentialReadoutToFieldAvgBridge.A beneath
-        SelectorReadoutToFieldBridge.A, QSPAngularFailureFieldNecessityBridge.A, AngularConcentrationFieldFaceEntry.A,
+        Current narrowed theorem leaf: SCFBaseGoodCoverFromExactPotentialReadout.A
+        beneath ExactPotentialReadoutToFieldAvgBridge.A, SelectorReadoutToFieldBridge.A,
+        QSPAngularFailureFieldNecessityBridge.A, AngularConcentrationFieldFaceEntry.A,
         SourceNativeSelectorAngularEquidistribution.A, SourceNativeFiniteCapBumpComparability.A,
         SourceNativeFiniteCapBumpLowerBound.A, SourceNativeCapFamilyDensityFloor.A,
         CapFamilyCompatibleRegularCoreSelection.A, UniformRelativeHolderScaleBudget.A,
@@ -356,14 +357,14 @@ readiness_evidence:
           paper has been repaired to stop claiming public Clay finality from terminal
           classification alone. The human/app-aligned track and remaining submission
           surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-          Current narrowed theorem leaf: ExactPotentialReadoutToFieldAvgBridge.A beneath
-          SelectorReadoutToFieldBridge.A, QSPAngularFailureFieldNecessityBridge.A,
-          AngularConcentrationFieldFaceEntry.A, SourceNativeSelectorAngularEquidistribution.A,
-          SourceNativeFiniteCapBumpComparability.A, SourceNativeFiniteCapBumpLowerBound.A,
-          SourceNativeCapFamilyDensityFloor.A, CapFamilyCompatibleRegularCoreSelection.A,
-          UniformRelativeHolderScaleBudget.A, SourceNativeDiagonalDensityOscillation.A,
-          QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A, InitialQSPCoreCapMassFloor.A,
-          CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
+          Current narrowed theorem leaf: SCFBaseGoodCoverFromExactPotentialReadout.A
+          beneath ExactPotentialReadoutToFieldAvgBridge.A, SelectorReadoutToFieldBridge.A,
+          QSPAngularFailureFieldNecessityBridge.A, AngularConcentrationFieldFaceEntry.A,
+          SourceNativeSelectorAngularEquidistribution.A, SourceNativeFiniteCapBumpComparability.A,
+          SourceNativeFiniteCapBumpLowerBound.A, SourceNativeCapFamilyDensityFloor.A,
+          CapFamilyCompatibleRegularCoreSelection.A, UniformRelativeHolderScaleBudget.A,
+          SourceNativeDiagonalDensityOscillation.A, QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A,
+          InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
           DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A,
           DiagonalDensityHolderStoppingRetainedMass.A, DiagonalDensitySourceOscillation.A
           and PTCShapeNormalization.A, after the retained positive-scale reserve-birth
