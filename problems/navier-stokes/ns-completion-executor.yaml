@@ -339,9 +339,12 @@ terminal_state: &11
     terminal strip modulus, or rigidity on the same terminal window. SelectedLowHighPositiveStrainDecorrelation.A
     has now been tested and reduced to the dynamic no-freeze wall: the frozen trace-free
     expanding-eigenpacket model still lets the selected high packet co-locate with
-    positive low strain on shrinking terminal windows. The executable child is now
-    DynamicLowHighEigenpacketNoFreeze.A, PressureLerayEigenframeRotationCost.A,
-    LowHighFrameBVCharge.A, MultiDirectionParticipationTether.A, LowHighPositiveStrainResidence.A,
+    positive low strain on shrinking terminal windows. DynamicLowHighEigenpacketNoFreeze.A
+    has now been tested and reduced to the pressure/source-current and active-alignment
+    wall: the material-eigenframe split pays far-low/subparabolic support and routes
+    parabolic-rate amplitude, but the frozen aligned cases remain unpaid. The executable
+    child is now TerminalPressureHessianNoSustain_lowhigh.A, OneSidedNearBandMaterialSourceCurrentLegal.A,
+    ActiveStrainAlignmentCost_lowhigh.A, TPNILowHighNoIncoming.A, LowHighSourceResidenceEvacuation.A,
     LowHighTerminalStripModulus.A, ScaleNestedPackMoleculeLiouville.A, or an equivalent
     first-Pack survival mechanism.
     Keep pdfs_final false until that bridge is paid into NoGenuineExitFromSmoothData.A
@@ -394,6 +397,11 @@ terminal_state: &11
   - pressure-leray-eigenframe-rotation-cost
   - low-high-frame-bv-charge
   - multi-direction-participation-tether
+  - terminal-pressure-hessian-no-sustain-lowhigh
+  - one-sided-near-band-material-source-current-legal
+  - active-strain-alignment-cost-lowhigh
+  - tpni-low-high-no-incoming
+  - low-high-source-residence-evacuation
   - low-high-positive-strain-residence
   - low-high-packet-occupancy-anti-synchronization
   - same-window-low-high-positive-part-cancellation
