@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T15:00:50Z'
+generated_at: '2026-06-10T15:06:05Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -62,8 +62,8 @@ readiness_evidence:
       has been repaired to stop claiming public Clay finality from terminal classification
       alone. The human/app-aligned track and remaining submission surfaces must stay
       nonfinal until NoGenuineExitFromSmoothData.A is proved. Current narrowed theorem
-      leaf: PositiveEndpointStressObservability.A / SecondOrderScaleExactness.A, after
-      PositiveStressSignedExactnessTransfer.A and EndpointMassFromShellPairCommutator.A,
+      leaf: SecondOrderScaleExactness.A, after PositiveEndpointStressObservability.A,
+      PositiveStressSignedExactnessTransfer.A, and EndpointMassFromShellPairCommutator.A,
       TerminalNuNWindowSeedSynchronization.A, TerminalFiniteCollarSeedToIntervalControl.A,
       RetainedFiniteBandAmplitudeSmallness.A, DirectFiniteBandBilinear8j11.A, RetainedEndpointMassShellPairThreading.A,
       no-incoming / backward uniqueness, PositiveSourceTraceAC_{B_ASAC}.A, source-density/CKN/source-time
@@ -92,10 +92,9 @@ readiness_evidence:
     required_action: 'Reopened by rendered referee reread: finite-obstruction inventory
       coverage is installed as classification, but it does not prove public Clay counterexample
       exclusion. The live result must be ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A
-      or an equivalent theorem; the current executable child is PositiveEndpointStressObservability.A
-      / SecondOrderScaleExactness.A under the retained far-corona endpoint route,
-      with RetainedMuNCarleson.A and uniform `nu_N` synchronization still open as
-      alternatives.'
+      or an equivalent theorem; the current executable child is SecondOrderScaleExactness.A
+      under the retained far-corona endpoint route, with RetainedMuNCarleson.A and
+      uniform `nu_N` synchronization still open as alternatives.'
   - candidate_id: contract-readiness-after-manuscript-expansion
     kind: d8_resolved_blocker_state
     surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -117,9 +116,9 @@ readiness_evidence:
     required_action: 'Open: terminal obstruction classification is installed, but
       public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
       / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed theorem
-      leaf is PositiveEndpointStressObservability.A / SecondOrderScaleExactness.A
-      under the retained far-corona endpoint route, with RetainedMuNCarleson.A and
-      uniform `nu_N` synchronization still open as alternatives.'
+      leaf is SecondOrderScaleExactness.A under the retained far-corona endpoint route,
+      with RetainedMuNCarleson.A and uniform `nu_N` synchronization still open as
+      alternatives.'
   - candidate_id: live-theorem-edge:clay_closure_status
     kind: live_theorem_edge
     surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -196,8 +195,8 @@ readiness_evidence:
         paper has been repaired to stop claiming public Clay finality from terminal
         classification alone. The human/app-aligned track and remaining submission
         surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: PositiveEndpointStressObservability.A / SecondOrderScaleExactness.A,
-        after PositiveStressSignedExactnessTransfer.A and EndpointMassFromShellPairCommutator.A,
+        Current narrowed theorem leaf: SecondOrderScaleExactness.A, after PositiveEndpointStressObservability.A,
+        PositiveStressSignedExactnessTransfer.A, and EndpointMassFromShellPairCommutator.A,
         TerminalNuNWindowSeedSynchronization.A, TerminalFiniteCollarSeedToIntervalControl.A,
         RetainedFiniteBandAmplitudeSmallness.A, DirectFiniteBandBilinear8j11.A, RetainedEndpointMassShellPairThreading.A,
         no-incoming / backward uniqueness, PositiveSourceTraceAC_{B_ASAC}.A, source-density/CKN/source-time
@@ -228,9 +227,9 @@ readiness_evidence:
         coverage is installed as classification, but it does not prove public Clay
         counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
         / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
-        child is PositiveEndpointStressObservability.A / SecondOrderScaleExactness.A
-        under the retained far-corona endpoint route, with RetainedMuNCarleson.A and
-        uniform `nu_N` synchronization still open as alternatives.'
+        child is SecondOrderScaleExactness.A under the retained far-corona endpoint
+        route, with RetainedMuNCarleson.A and uniform `nu_N` synchronization still
+        open as alternatives.'
     - candidate_id: contract-readiness-after-manuscript-expansion
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -252,9 +251,9 @@ readiness_evidence:
       required_action: 'Open: terminal obstruction classification is installed, but
         public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
         / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
-        theorem leaf is PositiveEndpointStressObservability.A / SecondOrderScaleExactness.A
-        under the retained far-corona endpoint route, with RetainedMuNCarleson.A and
-        uniform `nu_N` synchronization still open as alternatives.'
+        theorem leaf is SecondOrderScaleExactness.A under the retained far-corona
+        endpoint route, with RetainedMuNCarleson.A and uniform `nu_N` synchronization
+        still open as alternatives.'
     - candidate_id: live-theorem-edge:clay_closure_status
       kind: live_theorem_edge
       surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -366,8 +365,8 @@ readiness_evidence:
           paper has been repaired to stop claiming public Clay finality from terminal
           classification alone. The human/app-aligned track and remaining submission
           surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-          Current narrowed theorem leaf: PositiveEndpointStressObservability.A / SecondOrderScaleExactness.A,
-          after PositiveStressSignedExactnessTransfer.A and EndpointMassFromShellPairCommutator.A,
+          Current narrowed theorem leaf: SecondOrderScaleExactness.A, after PositiveEndpointStressObservability.A,
+          PositiveStressSignedExactnessTransfer.A, and EndpointMassFromShellPairCommutator.A,
           TerminalNuNWindowSeedSynchronization.A, TerminalFiniteCollarSeedToIntervalControl.A,
           RetainedFiniteBandAmplitudeSmallness.A, DirectFiniteBandBilinear8j11.A,
           RetainedEndpointMassShellPairThreading.A, no-incoming / backward uniqueness,
@@ -399,9 +398,9 @@ readiness_evidence:
           inventory coverage is installed as classification, but it does not prove
           public Clay counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
           / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
-          child is PositiveEndpointStressObservability.A / SecondOrderScaleExactness.A
-          under the retained far-corona endpoint route, with RetainedMuNCarleson.A
-          and uniform `nu_N` synchronization still open as alternatives.'
+          child is SecondOrderScaleExactness.A under the retained far-corona endpoint
+          route, with RetainedMuNCarleson.A and uniform `nu_N` synchronization still
+          open as alternatives.'
       - candidate_id: contract-readiness-after-manuscript-expansion
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -424,9 +423,9 @@ readiness_evidence:
         required_action: 'Open: terminal obstruction classification is installed,
           but public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
           / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
-          theorem leaf is PositiveEndpointStressObservability.A / SecondOrderScaleExactness.A
-          under the retained far-corona endpoint route, with RetainedMuNCarleson.A
-          and uniform `nu_N` synchronization still open as alternatives.'
+          theorem leaf is SecondOrderScaleExactness.A under the retained far-corona
+          endpoint route, with RetainedMuNCarleson.A and uniform `nu_N` synchronization
+          still open as alternatives.'
       - candidate_id: live-theorem-edge:clay_closure_status
         kind: live_theorem_edge
         surface: problems/navier-stokes/live-theorem-edge.yaml
