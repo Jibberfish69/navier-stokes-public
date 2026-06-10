@@ -94,7 +94,7 @@ project_model:
       submission_ready: false
       candidate_count: 1
       candidates:
-      - TerminalPressureHessianNoSustain.A / OneSidedNearBandMaterialStrainBV.A for native defect domination
+      - QuadraticDefectSourceDomination.A for pressure-source carrier domination
       checks:
         route_candidates: 0
         d8_candidates: 0
@@ -134,7 +134,7 @@ project_model:
         submission_ready: false
         candidate_count: 1
         candidates:
-        - TerminalPressureHessianNoSustain.A / OneSidedNearBandMaterialStrainBV.A for native defect domination
+        - QuadraticDefectSourceDomination.A for pressure-source carrier domination
         checks:
           route_candidates: 0
           d8_candidates: 0
