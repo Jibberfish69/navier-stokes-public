@@ -285,10 +285,12 @@ terminal_state: &11
     TPS surfaces stop at selected good-pair expansion / open lower-envelope production,
     not same-witness Pack survival. The same-witness capture attempt then showed
     selected-good-pair structure starts after the positive active-time fact Pack
-    survival must prove. The executable child is SameWitnessTerminalStripModulusForFirstPackExit.A,
-    or an equivalent theorem proving the original-data first Pack witness has positive
-    preterminal active-time thickness on the same ledger. Keep pdfs_final false until
-    that bridge is paid into NoGenuineExitFromSmoothData.A and propagated through
+    survival must prove. The terminal strip modulus attempt then showed current
+    finite-L1/local-energy/BV/weak-trace inputs still allow g_m(s)=m 1_{(-1/m,0]}.
+    The executable child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A:
+    a same-witness super-L1/source-Carleson/trace-no-jump/time-face-capacity/rigid-anti-atom
+    theorem, or a genuinely non-source Pack-survival theorem. Keep pdfs_final false
+    until that bridge is paid into NoGenuineExitFromSmoothData.A and propagated through
     both PDF final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
@@ -409,6 +411,7 @@ terminal_state: &11
   - problems/navier-stokes/theorem-construction/mpp-cap-family-compatible-regular-core-selection-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-cfbundle-coercive-first-pack-survival-bridge-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-same-witness-tps-capture-first-pack-exit-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-same-witness-terminal-strip-modulus-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-source-native-cap-family-density-floor-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-source-native-finite-cap-bump-lower-bound-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-source-native-finite-cap-bump-comparability-direct-attempt-20260609.md
