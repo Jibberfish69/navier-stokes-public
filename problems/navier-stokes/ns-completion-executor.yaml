@@ -333,9 +333,14 @@ terminal_state: &11
     has now been tested and reduced past ParaproductNativeSourceCapture.A: the installed
     paraproduct package gives CM witness-grammar face support for low-high source
     work, but it does not exclude the first Pack failure from original smooth data.
-    The executable child is now LowHighPackSourceCarlesonReserve.A, SelectedLowHighPositiveStrainDecorrelation.A,
-    SameWindowLowHighPositivePartCancellation.A, LowHighTerminalStripModulus.A,
-    ScaleNestedPackMoleculeLiouville.A, or an equivalent first-Pack survival mechanism.
+    LowHighPackSourceCarlesonReserve.A has now been tested and reduced to a conditional
+    Carleson decomposition: the high packets supply the square measure, and the missing
+    payment is selected positive low-strain residence, decorrelation, cancellation,
+    terminal strip modulus, or rigidity on the same terminal window. The executable
+    child is now SelectedLowHighPositiveStrainDecorrelation.A, LowHighPositiveStrainResidence.A,
+    LowHighPacketOccupancyAntiSynchronization.A, SameWindowLowHighPositivePartCancellation.A,
+    LowHighTerminalStripModulus.A, ScaleNestedPackMoleculeLiouville.A, or an equivalent
+    first-Pack survival mechanism.
     Keep pdfs_final false until that bridge is paid into NoGenuineExitFromSmoothData.A
     and propagated through both PDF final rereads.'
   completed_work_node_ids:
@@ -382,6 +387,8 @@ terminal_state: &11
   - scale-nested-low-high-pack-molecule-rigidity
   - selected-low-high-pack-paraproduct-antiatom
   - selected-low-high-positive-strain-decorrelation
+  - low-high-positive-strain-residence
+  - low-high-packet-occupancy-anti-synchronization
   - same-window-low-high-positive-part-cancellation
   - low-high-pack-source-carleson-reserve
   - low-high-terminal-strip-modulus
