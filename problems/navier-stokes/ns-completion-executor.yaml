@@ -260,8 +260,9 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: public Clay finality remains open at DGCalLocalExactPacketReadoutFormula.A,
-    the formula-level child under DGCalExactLinearFrameCondition.A,
+  stop_reason: public Clay finality remains open at DGCalPairDefectChannelRealization.A,
+    the observed-packet realization child under DGCalLocalExactPacketReadoutFormula.A,
+    DGCalExactLinearFrameCondition.A,
     CN13jSelectorNormalAmplitudeFloorOrSmallMomentAbsorption.A,
     CN13jQuadraticSelectorNormalCalibration.A, PD70zQuadraticNormalUpgrade.A,
     and HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A after the
@@ -271,13 +272,15 @@ terminal_state: &11
     the lower-link pass reduced polarity to tangent-frame
     linearization/coercivity of the exact anchored observable, and the DG-Cal
     pass reduced that condition to a local exact packet formula plus readout
-    Gram lower bound.
+    Gram lower bound, and the formula pass installed the canonical local
+    projective channels while leaving actual pair-defect realization open.
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - dgcal-pair-defect-channel-realization
   - dgcal-local-exact-packet-readout-formula
   - dgcal-exact-linear-frame-condition
   - cn13j-selector-normal-amplitude-floor-or-small-moment-absorption
@@ -291,6 +294,7 @@ terminal_state: &11
   - problems/navier-stokes/theorem-construction/mpp-cn13j-quadratic-selector-normal-calibration-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-cn13j-lower-link-small-moment-absorption-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-dgcal-exact-linear-frame-condition-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-dgcal-local-exact-packet-readout-formula-direct-attempt-20260609.md
   - problems/navier-stokes/ns-completion-executor-route-sync-20260608-iteration-2.yaml
   - problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
   - system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
