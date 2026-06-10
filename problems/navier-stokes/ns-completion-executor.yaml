@@ -309,7 +309,12 @@ terminal_state: &11
     exclude terminal selected positive Pack source strip concentration. The executable
     child is now SelectedPositivePackSourceUniformIntegrability.A, TerminalPositivePackActiveTimeThickness.A,
     PackProfileSelectorStability.A, PackCriticalElementStability.A, or an equivalent
-    non-circular first-Pack survival theorem.
+    non-circular first-Pack survival theorem. The selected-source uniform-integrability
+    and active-time-thickness attempts then showed finite mass, same-solution custody,
+    first-exit minimality, and conditional no-incoming/BU support still allow zero-thickness
+    terminal concentration. The executable child is now PackProfileSelectorStability.A,
+    PackCriticalElementStability.A, SelectedPositivePackSourceNoAtom.A, or ProducedMinimalFirstPackBubbleRigidity.A
+    with a real selected-source input.
     Keep pdfs_final false until that bridge is paid into NoGenuineExitFromSmoothData.A
     and propagated through both PDF final rereads.'
   completed_work_node_ids:
