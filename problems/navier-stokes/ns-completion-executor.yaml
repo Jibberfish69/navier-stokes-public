@@ -336,9 +336,12 @@ terminal_state: &11
     LowHighPackSourceCarlesonReserve.A has now been tested and reduced to a conditional
     Carleson decomposition; the high packets supply the square measure, and the missing
     payment is selected positive low-strain residence, decorrelation, cancellation,
-    terminal strip modulus, or rigidity on the same terminal window. The executable
-    child is now SelectedLowHighPositiveStrainDecorrelation.A, LowHighPositiveStrainResidence.A,
-    LowHighPacketOccupancyAntiSynchronization.A, SameWindowLowHighPositivePartCancellation.A,
+    terminal strip modulus, or rigidity on the same terminal window. SelectedLowHighPositiveStrainDecorrelation.A
+    has now been tested and reduced to the dynamic no-freeze wall: the frozen trace-free
+    expanding-eigenpacket model still lets the selected high packet co-locate with
+    positive low strain on shrinking terminal windows. The executable child is now
+    DynamicLowHighEigenpacketNoFreeze.A, PressureLerayEigenframeRotationCost.A,
+    LowHighFrameBVCharge.A, MultiDirectionParticipationTether.A, LowHighPositiveStrainResidence.A,
     LowHighTerminalStripModulus.A, ScaleNestedPackMoleculeLiouville.A, or an equivalent
     first-Pack survival mechanism.
     Keep pdfs_final false until that bridge is paid into NoGenuineExitFromSmoothData.A
@@ -387,6 +390,10 @@ terminal_state: &11
   - scale-nested-low-high-pack-molecule-rigidity
   - selected-low-high-pack-paraproduct-antiatom
   - selected-low-high-positive-strain-decorrelation
+  - dynamic-low-high-eigenpacket-no-freeze
+  - pressure-leray-eigenframe-rotation-cost
+  - low-high-frame-bv-charge
+  - multi-direction-participation-tether
   - low-high-positive-strain-residence
   - low-high-packet-occupancy-anti-synchronization
   - same-window-low-high-positive-part-cancellation
