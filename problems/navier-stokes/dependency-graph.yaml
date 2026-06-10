@@ -38,7 +38,7 @@ summary:
     bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
   audit_status: superseded-by-20260609-public-clay-finality-reentry
   referee_blockers:
-  - external-terminal-time-thickness-mechanism
+  - source-time-concentration-cost
 nodes:
 - id: clay-cm-contrapositive-witness-consumption
   kind: direct-live-authority
@@ -61,6 +61,6 @@ nodes:
 edges: []
 release_eligible: false
 blocking_frontier:
-  id: external-terminal-time-thickness-mechanism
+  id: source-time-concentration-cost
   status: open
-  source_anchor: problems/navier-stokes/theorem-construction/mpp-external-terminal-time-thickness-mechanism-search-reentry-20260609.md
+  source_anchor: problems/navier-stokes/theorem-construction/mpp-terminal-time-thickness-minimal-atom-morrey-orlicz-reentry-20260609.md
