@@ -9,7 +9,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-public-finality-first-exit-pack-wall-reentry-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-same-witness-clay-exclusion-propagation-direct-attempt-20260609.md
-    - problems/navier-stokes/theorem-construction/mpp-terminal-positive-source-atom-frontier-reentry.md
+    - problems/navier-stokes/theorem-construction/mpp-terminal-positive-source-atom-frontier-reentry-20260609.md
   downstream_consequence: "The public finality route needs a produced minimal-bubble Liouville class or an equivalent theorem excluding the first Pack face from original smooth data; pdfs_final remains false."
 ---
 
