@@ -260,18 +260,21 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at ClayCounterexampleExclusionBridge.A
-    / NoGenuineExitFromSmoothData.A propagation: the Pack.TTU uniformity branch and
-    retained tower-blown complement are paid in branch form, but those results still
-    have to be applied to the same finite Clay terminal witness with support-only
-    aliases excluded; keep pdfs_final false until paid and both PDFs pass fresh final
-    rereads.'
+  stop_reason: 'public Clay finality remains open at OriginalSmoothDataPackSurvival.A
+    / ScaleCriticalTreeCarleson.A: same-witness Clay propagation failed because
+    retained tower consumption cannot exclude a first Pack failure whose root fact
+    is not Pack_Q. The active non-alias child is RetainedPositiveScaleNativeReserveBirthCharge.A
+    or an equivalent first-Pack-survival theorem; keep pdfs_final false until paid
+    and both PDFs pass fresh final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - original-smooth-data-pack-survival
+  - scale-critical-tree-carleson
+  - retained-positive-scale-native-reserve-birth-charge
   - clay-counterexample-exclusion-bridge-propagation
   - no-genuine-exit-from-smooth-data-propagation
   - same-finite-clay-terminal-witness-custody
@@ -304,6 +307,7 @@ terminal_state: &11
   - problems/navier-stokes/theorem-construction/mpp-pack-licensed-scale-hessian-budget-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-pack-ttu-supremal-strain-tower-dichotomy-proof-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-retained-cm-towerbound-bridge-proof-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-same-witness-clay-exclusion-propagation-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-pd70z-quadratic-normal-upgrade-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-cn13j-quadratic-selector-normal-calibration-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-cn13j-lower-link-small-moment-absorption-direct-attempt-20260609.md
