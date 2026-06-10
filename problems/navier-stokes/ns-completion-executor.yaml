@@ -348,11 +348,14 @@ terminal_state: &11
     reduced to the forward no-free-sink or pure-pressure branch: post-ASAC source-current
     support is conditional on forward no-free-sink or Zeno source-residue rigidity,
     and TerminalSignedSaturationCMFaceReduction.A is CM witness-face support only.
-    The executable child is now LowHighTerminalSignedSaturationForwardNoFreeSink.A,
-    TerminalPressurePureStrainLegal_lowhigh.A, PurePressureSustainResidueLiouville_lowhigh.A,
-    ActiveStrainAlignmentCost_lowhigh.A, TPNILowHighNoIncoming.A, LowHighSourceResidenceEvacuation.A,
-    LowHighTerminalStripModulus.A, ScaleNestedPackMoleculeLiouville.A, or an equivalent
-    first-Pack survival mechanism.
+    LowHighTerminalSignedSaturationForwardNoFreeSink.A has now been tested and reduced
+    to the terminal source-time anti-atom branch: retained partners, legal exits,
+    ASAC pair-weight defects, and finite donor trees are paid, but the shrinking
+    terminal source strip survives. The executable child is now LowHighTerminalSourceTimeAntiAtom.A,
+    UniformTemporalSourceIntegrability_{p,lowhigh}.A, LowHighPositiveActiveCarlesonReserve.A,
+    LowHighSameWitnessSuperL1TerminalResidence.A, LowHighTerminalSourceCarleson.A,
+    LowHighRigidAntiAtomLiouvilleProduction.A, or a genuinely non-source Pack-survival
+    theorem.
     Keep pdfs_final false until that bridge is paid into NoGenuineExitFromSmoothData.A
     and propagated through both PDF final rereads.'
   completed_work_node_ids:
