@@ -95,8 +95,8 @@ verdict_alignment:
         paper has been repaired to stop claiming public Clay finality from terminal
         classification alone. The human/app-aligned track and remaining submission
         surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A
-        beneath OriginalSmoothDataPackSurvival.A / NoGenuineExitFromSmoothData.A,
+        Current narrowed theorem leaf: AffineReadoutConditionNumberBudget.A / UniformAffineMetricEllipticity.A
+        beneath Pack_{Q_atlas}, OriginalSmoothDataPackSurvival.A, and NoGenuineExitFromSmoothData.A,
         after the retained positive-scale reserve-birth / B_ASAC terminal source atom
         routes exhausted into a source-time alias cycle, the h/F terminal mass route
         reduced to the selector-normal quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad
@@ -120,7 +120,10 @@ verdict_alignment:
       required_action: 'Reopened by rendered referee reread: finite-obstruction inventory
         coverage is installed as classification, but it does not prove public Clay
         counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
-        / NoGenuineExitFromSmoothData.A or an equivalent theorem.'
+        / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
+        child is AffineReadoutConditionNumberBudget.A / UniformAffineMetricEllipticity.A
+        because AffineMaterialReadoutToFixedHs.A failed without a fixed-coordinate
+        condition-number budget.'
     - candidate_id: contract-readiness-after-manuscript-expansion
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -141,7 +144,8 @@ verdict_alignment:
       evidence: state=open
       required_action: 'Open: terminal obstruction classification is installed, but
         public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
-        / NoGenuineExitFromSmoothData.A or an equivalent theorem.'
+        / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
+        theorem leaf is AffineReadoutConditionNumberBudget.A / UniformAffineMetricEllipticity.A.'
     - candidate_id: live-theorem-edge:clay_closure_status
       kind: live_theorem_edge
       surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -218,8 +222,8 @@ verdict_alignment:
           paper has been repaired to stop claiming public Clay finality from terminal
           classification alone. The human/app-aligned track and remaining submission
           surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-          Current narrowed theorem leaf: HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A
-          beneath OriginalSmoothDataPackSurvival.A / NoGenuineExitFromSmoothData.A,
+          Current narrowed theorem leaf: AffineReadoutConditionNumberBudget.A / UniformAffineMetricEllipticity.A
+          beneath Pack_{Q_atlas}, OriginalSmoothDataPackSurvival.A, and NoGenuineExitFromSmoothData.A,
           after the retained positive-scale reserve-birth / B_ASAC terminal source
           atom routes exhausted into a source-time alias cycle, the h/F terminal mass
           route reduced to the selector-normal quadratic upgrade, the PD.70z pass
@@ -244,7 +248,10 @@ verdict_alignment:
         required_action: 'Reopened by rendered referee reread: finite-obstruction
           inventory coverage is installed as classification, but it does not prove
           public Clay counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
-          / NoGenuineExitFromSmoothData.A or an equivalent theorem.'
+          / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
+          child is AffineReadoutConditionNumberBudget.A / UniformAffineMetricEllipticity.A
+          because AffineMaterialReadoutToFixedHs.A failed without a fixed-coordinate
+          condition-number budget.'
       - candidate_id: contract-readiness-after-manuscript-expansion
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -266,7 +273,8 @@ verdict_alignment:
         evidence: state=open
         required_action: 'Open: terminal obstruction classification is installed,
           but public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
-          / NoGenuineExitFromSmoothData.A or an equivalent theorem.'
+          / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
+          theorem leaf is AffineReadoutConditionNumberBudget.A / UniformAffineMetricEllipticity.A.'
       - candidate_id: live-theorem-edge:clay_closure_status
         kind: live_theorem_edge
         surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -378,9 +386,9 @@ verdict_alignment:
             The compact paper has been repaired to stop claiming public Clay finality
             from terminal classification alone. The human/app-aligned track and remaining
             submission surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A
-            is proved. Current narrowed theorem leaf: HFTerminalDefectMassVanishing.A
-            / USCP.A2-PackRestoration.A beneath OriginalSmoothDataPackSurvival.A /
-            NoGenuineExitFromSmoothData.A, after the retained positive-scale reserve-birth
+            is proved. Current narrowed theorem leaf: AffineReadoutConditionNumberBudget.A
+            / UniformAffineMetricEllipticity.A beneath Pack_{Q_atlas}, OriginalSmoothDataPackSurvival.A,
+            and NoGenuineExitFromSmoothData.A, after the retained positive-scale reserve-birth
             / B_ASAC terminal source atom routes exhausted into a source-time alias
             cycle, the h/F terminal mass route reduced to the selector-normal quadratic
             upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad remain alternate
@@ -405,7 +413,10 @@ verdict_alignment:
           required_action: 'Reopened by rendered referee reread: finite-obstruction
             inventory coverage is installed as classification, but it does not prove
             public Clay counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
-            / NoGenuineExitFromSmoothData.A or an equivalent theorem.'
+            / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current
+            executable child is AffineReadoutConditionNumberBudget.A / UniformAffineMetricEllipticity.A
+            because AffineMaterialReadoutToFixedHs.A failed without a fixed-coordinate
+            condition-number budget.'
         - candidate_id: contract-readiness-after-manuscript-expansion
           kind: d8_resolved_blocker_state
           surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -427,7 +438,8 @@ verdict_alignment:
           evidence: state=open
           required_action: 'Open: terminal obstruction classification is installed,
             but public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
-            / NoGenuineExitFromSmoothData.A or an equivalent theorem.'
+            / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
+            theorem leaf is AffineReadoutConditionNumberBudget.A / UniformAffineMetricEllipticity.A.'
         - candidate_id: live-theorem-edge:clay_closure_status
           kind: live_theorem_edge
           surface: problems/navier-stokes/live-theorem-edge.yaml
