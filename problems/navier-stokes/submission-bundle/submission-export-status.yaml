@@ -36,8 +36,8 @@ authoritative_content_included: true
 authoritative_supplements: []
 codex_machine_manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 submission_ready: false
-readiness_blocker: pressure-time-spread-elliptic-time-smearing
-active_supplier_blocker: pressure-time-spread-elliptic-time-smearing
+readiness_blocker: new-terminal-source-time-production-mechanism
+active_supplier_blocker: new-terminal-source-time-production-mechanism
 manuscript_tex_sha1: 7b5f18e0208b668d121ed2ba8826720e2efc2407
 completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608-iteration-2.yaml
 readiness_evidence:
@@ -49,7 +49,7 @@ readiness_evidence:
   - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A as a child no-genuine-exit route only after the finality bridge requires a positive first-exit theorem
   - ExternalTerminalTimeThicknessMechanism.A for the produced B_ASAC closed-min native positive source atom
   - SourceTimeConcentrationCost.A as the concrete same-ledger cost production needed for terminal time-thickness
-  - PressureTimeSpread.A / EllipticTimeSmearing.A for the pure pressure-source singular residue
+  - NewTerminalSourceTimeProductionMechanism.A for the all-doors-closed B_ASAC terminal native positive source atom
   completion_readiness:
     status: blocked-public-clay-finality-open
     submission_ready: false
@@ -59,7 +59,7 @@ readiness_evidence:
     - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A as a child no-genuine-exit route only after the finality bridge requires a positive first-exit theorem
     - ExternalTerminalTimeThicknessMechanism.A for the produced B_ASAC closed-min native positive source atom
     - SourceTimeConcentrationCost.A as the concrete same-ledger cost production needed for terminal time-thickness
-    - PressureTimeSpread.A / EllipticTimeSmearing.A for the pure pressure-source singular residue
+    - NewTerminalSourceTimeProductionMechanism.A for the all-doors-closed B_ASAC terminal native positive source atom
     checks:
       route_candidates: 0
       d8_candidates: 0
@@ -104,7 +104,7 @@ readiness_evidence:
       - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A as a child no-genuine-exit route only after the finality bridge requires a positive first-exit theorem
       - ExternalTerminalTimeThicknessMechanism.A for the produced B_ASAC closed-min native positive source atom
       - SourceTimeConcentrationCost.A as the concrete same-ledger cost production needed for terminal time-thickness
-      - PressureTimeSpread.A / EllipticTimeSmearing.A for the pure pressure-source singular residue
+      - NewTerminalSourceTimeProductionMechanism.A for the all-doors-closed B_ASAC terminal native positive source atom
       checks:
         route_candidates: 0
         d8_candidates: 0
