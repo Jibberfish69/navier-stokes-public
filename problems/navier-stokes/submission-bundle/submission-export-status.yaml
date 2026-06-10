@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T09:20:08Z'
+generated_at: '2026-06-10T09:29:50Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -42,7 +42,7 @@ readiness_blocker: 'Navier-Stokes completion readiness is blocked by 15 unresolv
   clay-readiness-not-claimed, finite-breakdown-exclusion-open.'
 active_supplier_blocker: first-exit-pack-survival-mechanism-search
 manuscript_tex_sha1: '05903ee71d062e9393b264d239f2c2f38df843e1'
-completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260609-iteration-2.yaml
+completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260609.yaml
 readiness_evidence:
   source_frontier_clear: false
   open_d8_proof_blockers: 1
@@ -62,21 +62,21 @@ readiness_evidence:
       has been repaired to stop claiming public Clay finality from terminal classification
       alone. The human/app-aligned track and remaining submission surfaces must stay
       nonfinal until NoGenuineExitFromSmoothData.A is proved. Current narrowed theorem
-      leaf: DensityGoodSetFiniteFrameCoverage.A beneath DensityAdaptedStoppingLossBudget.A,
-      DiagonalDensityHolderStoppingRetainedMass.A, DiagonalDensitySourceOscillation.A
-      and PTCShapeNormalization.A, after the retained positive-scale reserve-birth
-      / B_ASAC terminal source atom routes exhausted into a source-time alias cycle,
-      the h/F terminal mass route reduced to the selector-normal quadratic upgrade,
-      the PD.70z pass showed CN.13q/CN.13ab-CN.13ad remain alternate unproved upgrade
-      routes, the CN.13j pass reduced the exact missing lower link to polarity/amplitude-floor
-      or small-moment absorption, the lower-link pass reduced polarity to tangent
-      linearization/coercivity of the exact anchored observable, and the DG-Cal pass
-      reduced that condition to a local exact packet formula plus readout Gram lower
-      bound, the formula pass installed the canonical local projective channels while
-      leaving actual pair-defect realization open, and the realization pass reduced
-      the unpaid side to selector-shape normalization, and the PTC-shape pass reduced
-      selector-shape normalization to diagonal-density source oscillation, then the
-      diagonal-density pass showed center lower-density is supplied by density-selected
+      leaf: RetainedDensityGoodCoreCapOccupancy.A beneath DensityGoodSetFiniteFrameCoverage.A,
+      DensityAdaptedStoppingLossBudget.A, DiagonalDensityHolderStoppingRetainedMass.A,
+      DiagonalDensitySourceOscillation.A and PTCShapeNormalization.A, after the retained
+      positive-scale reserve-birth / B_ASAC terminal source atom routes exhausted
+      into a source-time alias cycle, the h/F terminal mass route reduced to the selector-normal
+      quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad remain alternate
+      unproved upgrade routes, the CN.13j pass reduced the exact missing lower link
+      to polarity/amplitude-floor or small-moment absorption, the lower-link pass
+      reduced polarity to tangent linearization/coercivity of the exact anchored observable,
+      and the DG-Cal pass reduced that condition to a local exact packet formula plus
+      readout Gram lower bound, the formula pass installed the canonical local projective
+      channels while leaving actual pair-defect realization open, and the realization
+      pass reduced the unpaid side to selector-shape normalization, and the PTC-shape
+      pass reduced selector-shape normalization to diagonal-density source oscillation,
+      then the diagonal-density pass showed center lower-density is supplied by density-selected
       centers, and the Holder/stopping retained-mass follow-up paid the finite retained-intersection
       lemma, and the density-stopping loss-budget pass showed retained measure does
       not yet prove entrance-sector/core-cap coverage for the finite-frame route.'
@@ -185,8 +185,8 @@ readiness_evidence:
         paper has been repaired to stop claiming public Clay finality from terminal
         classification alone. The human/app-aligned track and remaining submission
         surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: DensityGoodSetFiniteFrameCoverage.A beneath
-        DensityAdaptedStoppingLossBudget.A, DiagonalDensityHolderStoppingRetainedMass.A,
+        Current narrowed theorem leaf: RetainedDensityGoodCoreCapOccupancy.A beneath
+        DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A, DiagonalDensityHolderStoppingRetainedMass.A,
         DiagonalDensitySourceOscillation.A and PTCShapeNormalization.A, after the
         retained positive-scale reserve-birth / B_ASAC terminal source atom routes
         exhausted into a source-time alias cycle, the h/F terminal mass route reduced
@@ -344,26 +344,26 @@ readiness_evidence:
           paper has been repaired to stop claiming public Clay finality from terminal
           classification alone. The human/app-aligned track and remaining submission
           surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-          Current narrowed theorem leaf: DensityGoodSetFiniteFrameCoverage.A beneath
-          DensityAdaptedStoppingLossBudget.A, DiagonalDensityHolderStoppingRetainedMass.A,
-          DiagonalDensitySourceOscillation.A and PTCShapeNormalization.A, after the
-          retained positive-scale reserve-birth / B_ASAC terminal source atom routes
-          exhausted into a source-time alias cycle, the h/F terminal mass route reduced
-          to the selector-normal quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad
-          remain alternate unproved upgrade routes, the CN.13j pass reduced the exact
-          missing lower link to polarity/amplitude-floor or small-moment absorption,
-          the lower-link pass reduced polarity to tangent linearization/coercivity
-          of the exact anchored observable, and the DG-Cal pass reduced that condition
-          to a local exact packet formula plus readout Gram lower bound, the formula
-          pass installed the canonical local projective channels while leaving actual
-          pair-defect realization open, and the realization pass reduced the unpaid
-          side to selector-shape normalization, and the PTC-shape pass reduced selector-shape
-          normalization to diagonal-density source oscillation, then the diagonal-density
-          pass showed center lower-density is supplied by density-selected centers,
-          and the Holder/stopping retained-mass follow-up paid the finite retained-intersection
-          lemma, and the density-stopping loss-budget pass showed retained measure
-          does not yet prove entrance-sector/core-cap coverage for the finite-frame
-          route.'
+          Current narrowed theorem leaf: RetainedDensityGoodCoreCapOccupancy.A beneath
+          DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A,
+          DiagonalDensityHolderStoppingRetainedMass.A, DiagonalDensitySourceOscillation.A
+          and PTCShapeNormalization.A, after the retained positive-scale reserve-birth
+          / B_ASAC terminal source atom routes exhausted into a source-time alias
+          cycle, the h/F terminal mass route reduced to the selector-normal quadratic
+          upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad remain alternate
+          unproved upgrade routes, the CN.13j pass reduced the exact missing lower
+          link to polarity/amplitude-floor or small-moment absorption, the lower-link
+          pass reduced polarity to tangent linearization/coercivity of the exact anchored
+          observable, and the DG-Cal pass reduced that condition to a local exact
+          packet formula plus readout Gram lower bound, the formula pass installed
+          the canonical local projective channels while leaving actual pair-defect
+          realization open, and the realization pass reduced the unpaid side to selector-shape
+          normalization, and the PTC-shape pass reduced selector-shape normalization
+          to diagonal-density source oscillation, then the diagonal-density pass showed
+          center lower-density is supplied by density-selected centers, and the Holder/stopping
+          retained-mass follow-up paid the finite retained-intersection lemma, and
+          the density-stopping loss-budget pass showed retained measure does not yet
+          prove entrance-sector/core-cap coverage for the finite-frame route.'
       - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
