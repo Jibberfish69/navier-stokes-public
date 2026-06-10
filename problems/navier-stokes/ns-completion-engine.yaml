@@ -94,7 +94,7 @@ project_model:
       submission_ready: false
       candidate_count: 1
       candidates:
-      - QuadraticDefectSourceDomination.A for pressure-source carrier domination
+      - PressureTimeSpread.A / EllipticTimeSmearing.A for the pure pressure-source singular residue
       checks:
         route_candidates: 0
         d8_candidates: 0
@@ -134,7 +134,7 @@ project_model:
         submission_ready: false
         candidate_count: 1
         candidates:
-        - QuadraticDefectSourceDomination.A for pressure-source carrier domination
+        - PressureTimeSpread.A / EllipticTimeSmearing.A for the pure pressure-source singular residue
         checks:
           route_candidates: 0
           d8_candidates: 0
