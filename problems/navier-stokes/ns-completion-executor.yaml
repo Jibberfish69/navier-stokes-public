@@ -265,12 +265,12 @@ terminal_state: &11
     bridge failed from classification, inventory, and no-third-branch inputs alone.
     A face-derived Exit(Q):=not Member(Q) is terminal obstruction classification,
     not by itself a contradiction to finite Clay breakdown. No theorem yet proves
-    OriginalSmoothData => ScaleCriticalTreeCarleson.A by same-ledger payment for
-    retained positive-scale reserve birth, material-collar or fixed-coordinate Pack
-    survival, direct exclusion of the produced source atom as the first Pack exit,
-    or another non-alias first-Pack-survival mechanism. Keep pdfs_final false until
-    the no-genuine-exit / first-exit Pack-survival bridge is paid and both PDFs pass
-    fresh final rereads.'
+    OriginalSmoothData => ScaleCriticalTreeCarleson.A or Pack_{Q_atlas} fixed readout.
+    The current narrowed theorem leaf is AffineReadoutConditionNumberBudget.A /
+    UniformAffineMetricEllipticity.A, because AffineMaterialReadoutToFixedHs.A failed
+    without a uniform condition-number/deformation budget converting affine packet
+    control into fixed-coordinate H^s(T^3). Keep pdfs_final false until this readout
+    bridge, NoGenuineExitFromSmoothData.A, and both PDF final rereads are paid.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
@@ -326,6 +326,9 @@ terminal_state: &11
   - minimal-bubble-time-face-antiatom
   - original-smooth-data-pack-survival
   - scale-critical-tree-carleson
+  - affine-material-readout-to-fixed-hs
+  - affine-readout-condition-number-budget
+  - uniform-affine-metric-ellipticity
   - retained-positive-scale-native-reserve-birth-charge
   - clay-counterexample-exclusion-bridge-propagation
   - no-genuine-exit-from-smooth-data-propagation
