@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T15:25:01Z'
+generated_at: '2026-06-10T15:34:04Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -117,9 +117,10 @@ readiness_evidence:
     required_action: 'Open: terminal obstruction classification is installed, but
       public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
       / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed theorem
-      leaf is FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A
-      through a non-alias bridge, after the endpoint exactness and B_ASAC source-density
-      families were tested and failed at current resolution.'
+      leaf is FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A.
+      The known non-alias route families are consumed at current resolution, so the
+      next executable work is construction and testing of a new quantitative first-Pack-survival
+      mechanism or a source-residence theorem stronger than finite L^1_s source mass.'
   - candidate_id: live-theorem-edge:clay_closure_status
     kind: live_theorem_edge
     surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -252,9 +253,11 @@ readiness_evidence:
       required_action: 'Open: terminal obstruction classification is installed, but
         public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
         / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
-        theorem leaf is FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A
-        through a non-alias bridge, after the endpoint exactness and B_ASAC source-density
-        families were tested and failed at current resolution.'
+        theorem leaf is FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A.
+        The known non-alias route families are consumed at current resolution, so
+        the next executable work is construction and testing of a new quantitative
+        first-Pack-survival mechanism or a source-residence theorem stronger than
+        finite L^1_s source mass.'
     - candidate_id: live-theorem-edge:clay_closure_status
       kind: live_theorem_edge
       surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -425,9 +428,11 @@ readiness_evidence:
         required_action: 'Open: terminal obstruction classification is installed,
           but public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
           / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
-          theorem leaf is FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A
-          through a non-alias bridge, after the endpoint exactness and B_ASAC source-density
-          families were tested and failed at current resolution.'
+          theorem leaf is FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A.
+          The known non-alias route families are consumed at current resolution, so
+          the next executable work is construction and testing of a new quantitative
+          first-Pack-survival mechanism or a source-residence theorem stronger than
+          finite L^1_s source mass.'
       - candidate_id: live-theorem-edge:clay_closure_status
         kind: live_theorem_edge
         surface: problems/navier-stokes/live-theorem-edge.yaml
