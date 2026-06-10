@@ -260,23 +260,25 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at CapFamilyCompatibleRegularCoreSelection.A:
-    refine the positive regular density core into the predetermined finite entrance-sector
-    / shell-core-cap family while retaining positive mass in every required sector/cap
-    and preserving transport, exact-potential comparison, CG gap, and selector-strain
-    synchronization on the same strip; then propagate through UniformRelativeHolderScaleBudget.A,
-    SourceNativeDiagonalDensityOscillation.A, QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A,
-    InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
-    DensityGoodSetFiniteFrameCoverage.A, PTCShapeNormalization.A, D.7mq, DGCalPairDefectChannelRealization.A,
-    DGCalExactLinearFrameCondition.A, CN.13j or an alternate support/weight route,
-    PD.70z, SG.4B, h/F terminal mass vanishing, Pack restoration, OriginalSmoothDataPackSurvival.A,
-    and NoGenuineExitFromSmoothData.A; keep pdfs_final false until paid.'
+  stop_reason: 'public Clay finality remains open at SourceNativeCapFamilyDensityFloor.A:
+    prove, from source-native estimates on the same selector-good strip and without
+    using the cap-floor / shell-bump / finite-frame loop, that every predetermined
+    finite entrance-sector / shell-core-cap cell has positive diagonal-density mass
+    before regularization; then propagate through CapFamilyCompatibleRegularCoreSelection.A,
+    UniformRelativeHolderScaleBudget.A, SourceNativeDiagonalDensityOscillation.A,
+    QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A, InitialQSPCoreCapMassFloor.A,
+    CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A, DensityGoodSetFiniteFrameCoverage.A,
+    PTCShapeNormalization.A, D.7mq, DGCalPairDefectChannelRealization.A, DGCalExactLinearFrameCondition.A,
+    CN.13j or an alternate support/weight route, PD.70z, SG.4B, h/F terminal mass
+    vanishing, Pack restoration, OriginalSmoothDataPackSurvival.A, and NoGenuineExitFromSmoothData.A;
+    keep pdfs_final false until paid.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - source-native-cap-family-density-floor
   - cap-family-compatible-regular-core-selection
   - diagonal-density-holder-stopping-retained-mass
   - diagonal-density-source-oscillation
@@ -309,6 +311,7 @@ terminal_state: &11
   - problems/navier-stokes/submission-bundle/submission-verdict.yaml
   - problems/navier-stokes/submission-bundle/submission-export-status.yaml
   - problems/navier-stokes/theorem-construction/mpp-uniform-relative-holder-scale-budget-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-cap-family-compatible-regular-core-selection-direct-attempt-20260609.md
 reentry:
   status: terminal_completed
   loop_policy: feed executor outputs back until every work node is complete or exactly
@@ -331,6 +334,7 @@ reentry:
   - problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260608-iteration-2.yaml
   - problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260608-iteration-2.yaml
   - problems/navier-stokes/theorem-construction/mpp-uniform-relative-holder-scale-budget-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-cap-family-compatible-regular-core-selection-direct-attempt-20260609.md
   next_work_order_inputs:
   - ns-completion-engine.yaml
   - ns-completion-executor.yaml
