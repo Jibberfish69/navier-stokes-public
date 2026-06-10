@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T08:29:49Z'
+generated_at: '2026-06-10T08:37:31Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -62,16 +62,17 @@ readiness_evidence:
       has been repaired to stop claiming public Clay finality from terminal classification
       alone. The human/app-aligned track and remaining submission surfaces must stay
       nonfinal until NoGenuineExitFromSmoothData.A is proved. Current narrowed theorem
-      leaf: DGCalPairDefectChannelRealization.A, after the retained positive-scale
-      reserve-birth / B_ASAC terminal source atom routes exhausted into a source-time
-      alias cycle, the h/F terminal mass route reduced to the selector-normal quadratic
-      upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad remain alternate unproved
-      upgrade routes, the CN.13j pass reduced the exact missing lower link to polarity/amplitude-floor
+      leaf: PTCShapeNormalization.A, after the retained positive-scale reserve-birth
+      / B_ASAC terminal source atom routes exhausted into a source-time alias cycle,
+      the h/F terminal mass route reduced to the selector-normal quadratic upgrade,
+      the PD.70z pass showed CN.13q/CN.13ab-CN.13ad remain alternate unproved upgrade
+      routes, the CN.13j pass reduced the exact missing lower link to polarity/amplitude-floor
       or small-moment absorption, the lower-link pass reduced polarity to tangent
       linearization/coercivity of the exact anchored observable, and the DG-Cal pass
       reduced that condition to a local exact packet formula plus readout Gram lower
-      bound, and the formula pass installed the canonical local projective channels
-      while leaving actual pair-defect realization open.'
+      bound, the formula pass installed the canonical local projective channels while
+      leaving actual pair-defect realization open, and the realization pass reduced
+      the unpaid side to selector-shape normalization.'
   - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
     kind: d8_resolved_blocker_state
     surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -177,17 +178,18 @@ readiness_evidence:
         paper has been repaired to stop claiming public Clay finality from terminal
         classification alone. The human/app-aligned track and remaining submission
         surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: DGCalPairDefectChannelRealization.A, after
-        the retained positive-scale reserve-birth / B_ASAC terminal source atom routes
-        exhausted into a source-time alias cycle, the h/F terminal mass route reduced
-        to the selector-normal quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad
+        Current narrowed theorem leaf: PTCShapeNormalization.A, after the retained
+        positive-scale reserve-birth / B_ASAC terminal source atom routes exhausted
+        into a source-time alias cycle, the h/F terminal mass route reduced to the
+        selector-normal quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad
         remain alternate unproved upgrade routes, the CN.13j pass reduced the exact
         missing lower link to polarity/amplitude-floor or small-moment absorption,
         the lower-link pass reduced polarity to tangent linearization/coercivity of
         the exact anchored observable, and the DG-Cal pass reduced that condition
-        to a local exact packet formula plus readout Gram lower bound, and the formula
+        to a local exact packet formula plus readout Gram lower bound, the formula
         pass installed the canonical local projective channels while leaving actual
-        pair-defect realization open.'
+        pair-defect realization open, and the realization pass reduced the unpaid
+        side to selector-shape normalization.'
     - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
       kind: d8_resolved_blocker_state
       surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -328,17 +330,18 @@ readiness_evidence:
           paper has been repaired to stop claiming public Clay finality from terminal
           classification alone. The human/app-aligned track and remaining submission
           surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-          Current narrowed theorem leaf: DGCalPairDefectChannelRealization.A, after
-          the retained positive-scale reserve-birth / B_ASAC terminal source atom
-          routes exhausted into a source-time alias cycle, the h/F terminal mass route
-          reduced to the selector-normal quadratic upgrade, the PD.70z pass showed
-          CN.13q/CN.13ab-CN.13ad remain alternate unproved upgrade routes, the CN.13j
-          pass reduced the exact missing lower link to polarity/amplitude-floor or
-          small-moment absorption, the lower-link pass reduced polarity to tangent
-          linearization/coercivity of the exact anchored observable, and the DG-Cal
-          pass reduced that condition to a local exact packet formula plus readout
-          Gram lower bound, and the formula pass installed the canonical local projective
-          channels while leaving actual pair-defect realization open.'
+          Current narrowed theorem leaf: PTCShapeNormalization.A, after the retained
+          positive-scale reserve-birth / B_ASAC terminal source atom routes exhausted
+          into a source-time alias cycle, the h/F terminal mass route reduced to the
+          selector-normal quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad
+          remain alternate unproved upgrade routes, the CN.13j pass reduced the exact
+          missing lower link to polarity/amplitude-floor or small-moment absorption,
+          the lower-link pass reduced polarity to tangent linearization/coercivity
+          of the exact anchored observable, and the DG-Cal pass reduced that condition
+          to a local exact packet formula plus readout Gram lower bound, the formula
+          pass installed the canonical local projective channels while leaving actual
+          pair-defect realization open, and the realization pass reduced the unpaid
+          side to selector-shape normalization.'
       - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
         kind: d8_resolved_blocker_state
         surface: problems/navier-stokes/d8-completion-route-map.yaml
