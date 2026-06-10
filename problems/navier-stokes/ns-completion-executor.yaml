@@ -259,15 +259,16 @@ depth_progression:
     stop_condition: completed proof/app/graph/PDF/submission object or exact terminal
       blockers with evidence
 terminal_state: &11
-  status: completed
-  stop_reason: current NS source frontier, D8 route state, app-visible route payload,
-    and both required PDF tracks agree with no open route blocker
+  status: active_not_final
+  stop_reason: public Clay finality remains open at the external terminal time-thickness
+    theorem for the produced B_ASAC closed-min native positive source atom
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
-  open_blockers: []
+  open_blockers:
+  - external-terminal-time-thickness-mechanism
   evidence_refs:
   - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260608-iteration-2.md
   - problems/navier-stokes/ns-completion-executor-route-sync-20260608-iteration-2.yaml
