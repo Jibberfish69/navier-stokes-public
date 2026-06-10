@@ -260,20 +260,22 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'public Clay finality remains open at ProducedMinimalFirstPackBubbleRigidity.A
-    / PackCriticalElementStability.A: minimal-bubble compactness extracts a local
-    suitable terminal bubble with nonzero Pack defect or source residue, and first-exit
-    minimality alone does not produce endpoint L3, Type-I, finite-energy ancient,
-    source-cancellation, time-face anti-atom, source-Carleson, active-square, or
-    other rigid-class control. Keep pdfs_final false until this Pack-functional
-    stability or critical-norm-production theorem is paid and both PDFs pass fresh
-    final rereads.'
+  stop_reason: 'public Clay finality remains open at PackCriticalElementStability.A
+    / PositivePackDefectOrthogonality.A: ordinary profile and packet orthogonality
+    do not yet decouple the terminal selected positive, scale-normalized Pack defect,
+    and cross-profile positive source atoms remain compatible with the installed
+    inputs. Keep pdfs_final false until this Pack-functional decoupling theorem is
+    paid and both PDFs pass fresh final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
   open_blockers:
+  - positive-pack-defect-orthogonality
+  - pack-functional-stability-under-profile-decomposition
+  - selected-pack-positive-part-decoupling
+  - cross-profile-terminal-source-atom-exclusion
   - pack-critical-element-stability
   - first-pack-bubble-critical-norm-production
   - first-pack-profile-decomposition-no-positive-atom
