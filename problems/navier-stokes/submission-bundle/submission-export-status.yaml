@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T09:55:55Z'
+generated_at: '2026-06-10T10:00:36Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -62,7 +62,7 @@ readiness_evidence:
       has been repaired to stop claiming public Clay finality from terminal classification
       alone. The human/app-aligned track and remaining submission surfaces must stay
       nonfinal until NoGenuineExitFromSmoothData.A is proved. Current narrowed theorem
-      leaf: NonCircularQSPSourcePrimitive.A beneath FinitePositiveReferenceShellBumpPacket.A,
+      leaf: SourceNativeDiagonalDensityOscillation.A beneath QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A,
       InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
       DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A, DiagonalDensityHolderStoppingRetainedMass.A,
       DiagonalDensitySourceOscillation.A and PTCShapeNormalization.A, after the retained
@@ -186,8 +186,9 @@ readiness_evidence:
         paper has been repaired to stop claiming public Clay finality from terminal
         classification alone. The human/app-aligned track and remaining submission
         surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: NonCircularQSPSourcePrimitive.A beneath FinitePositiveReferenceShellBumpPacket.A,
-        InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
+        Current narrowed theorem leaf: SourceNativeDiagonalDensityOscillation.A beneath
+        QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A, InitialQSPCoreCapMassFloor.A,
+        CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
         DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A, DiagonalDensityHolderStoppingRetainedMass.A,
         DiagonalDensitySourceOscillation.A and PTCShapeNormalization.A, after the
         retained positive-scale reserve-birth / B_ASAC terminal source atom routes
@@ -346,8 +347,9 @@ readiness_evidence:
           paper has been repaired to stop claiming public Clay finality from terminal
           classification alone. The human/app-aligned track and remaining submission
           surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-          Current narrowed theorem leaf: NonCircularQSPSourcePrimitive.A beneath FinitePositiveReferenceShellBumpPacket.A,
-          InitialQSPCoreCapMassFloor.A, CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
+          Current narrowed theorem leaf: SourceNativeDiagonalDensityOscillation.A
+          beneath QSP.11p/QSP.11r, FinitePositiveReferenceShellBumpPacket.A, InitialQSPCoreCapMassFloor.A,
+          CapwiseDensityStoppingLossBudget.A, RetainedDensityGoodCoreCapOccupancy.A,
           DensityGoodSetFiniteFrameCoverage.A, DensityAdaptedStoppingLossBudget.A,
           DiagonalDensityHolderStoppingRetainedMass.A, DiagonalDensitySourceOscillation.A
           and PTCShapeNormalization.A, after the retained positive-scale reserve-birth
