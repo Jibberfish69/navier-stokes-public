@@ -460,3 +460,29 @@ NoGenuineExitFromSmoothData.A
 ClayCounterexampleExclusionBridge.A
 both rendered PDF final rereads.
 ```
+
+## June 10 Target Closure Addendum
+
+The immediate parent targets above were then pursued directly in:
+
+```text
+mpp-participation-debt-pass-exit-target-closure-20260610.md
+```
+
+That note closes the participation-debt target set in its CM role. The outcome
+is:
+
+```text
+lawful payment / donor delivery / return / singulet compatibility
+  => pass branch => Member(Q);
+
+failed payment / donor delivery / return / singulet compatibility
+  => Pack, Part, or Field face failure
+  => Exit(Q):=not Member(Q).
+```
+
+So pressure/flux throttle, donor attenuation, return-rate budget, and singulet
+compatibility are no longer current CM blockers. Their positive supplier
+versions remain optional support only when the proof explicitly switches to
+deleting the residue rather than using the residue/failure as the finite
+terminal witness.

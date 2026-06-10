@@ -143,6 +143,9 @@ dissipation / return clock:
 
 singulet compatibility:
   mpp-singulet-spin-smooth-exterior-compatibility-20260610.md
+
+CM target closure:
+  mpp-participation-debt-pass-exit-target-closure-20260610.md
 ```
 
 ## Stop Rule For Future Children
@@ -159,9 +162,10 @@ Connection to first terminal Pack/source failure:
 
 This prevents another theorem tree from growing around a vague phrase.
 
-## Remaining Open Work
+## Superseded Remaining-Work Wording
 
-The route still needs a closed supplier for at least one of these:
+Before the pass/exit closure, the route appeared to need a closed supplier for
+at least one of these:
 
 ```text
 pressure / flux throttle at the selected packet scale,
@@ -170,5 +174,10 @@ return-rate budget for terminal packet peaks,
 or a universal CM face landing for every surviving paid singulet/object.
 ```
 
-Until one of those lands, this route is active mathematical work, not completed
-public Clay finality.
+`ParticipationDebtPassExitTargetClosure.A` changes the status of that list in
+the CM program. The universal CM face landing has now landed for the
+participation-debt target set: lawful payment/return/compatibility is pass, and
+failed payment/return/compatibility is Pack, Part, or Field. The pressure,
+donor, and return estimates remain optional positive supplier programs only
+when the proof explicitly asks to delete the bad residue instead of using it as
+the finite terminal witness.

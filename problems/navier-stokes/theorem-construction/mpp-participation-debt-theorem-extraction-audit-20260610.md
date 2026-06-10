@@ -177,7 +177,8 @@ mpp-participation-transfer-donor-drain-audit-20260610.md
 
 ### ParticipationTransferThrottle.A
 
-Verdict: keep as an open supplier target with a proved accounting identity.
+Verdict: closed as a CM blocker by pass-or-face routing; kept as an optional
+positive supplier target with a proved accounting identity.
 
 Refined statement:
 
@@ -187,12 +188,16 @@ transport, viscous boundary, and dissipation terms are estimated at the same
 scale.
 ```
 
-The repo can currently prove the accounting identity. It cannot yet claim the
-closed maximum delivery rate needed to finish the public supplier.
+The repo proves the accounting identity and now closes the target in its CM
+role by `ParticipationDebtPassExitTargetClosure.A`: lawful delivery is pass,
+and failed lawful delivery lands in Pack, Part, or Field. The repo still does
+not claim the closed maximum delivery rate needed for the separate positive
+supplier program.
 
 ### DonorDrainCompetition.A
 
-Verdict: keep as an open donor attenuation target with proved shell accounting.
+Verdict: closed as a CM blocker by pass-or-face routing; kept as an optional
+positive donor-attenuation supplier with proved shell accounting.
 
 Refined statement:
 
@@ -203,11 +208,14 @@ on the source regions and annular transfer shells.
 ```
 
 The redshift idea survives as attenuation along accounting shells. It must not
-be stated as literal signal propagation speed.
+be stated as literal signal propagation speed. In the CM role, the branch is now
+closed: lawful delivery is pass, while unpaid or detached donor ancestry lands
+in Pack/Part/Field by the closure note.
 
 ### TerminalPeakBackoff.A
 
-Verdict: keep and refine.
+Verdict: closed as a CM blocker by pass-or-face routing; kept as a refined
+return-rate supplier target only for the separate positive program.
 
 Unsafe notation:
 
@@ -228,6 +236,12 @@ The theorem is now:
 
 ```text
 mpp-terminal-peak-backoff-and-vortex-return-dichotomy-20260610.md
+```
+
+The CM closure is now:
+
+```text
+mpp-participation-debt-pass-exit-target-closure-20260610.md
 ```
 
 ### MinimumSingularityCostFunctional.A
@@ -254,7 +268,8 @@ singularity model.
 
 ### PayableSingularityOntology.A
 
-Verdict: keep; open ontology lane.
+Verdict: kept as ontology language, with the current participation-debt CM
+branches closed by pass-or-face routing.
 
 Refined statement:
 
@@ -265,11 +280,15 @@ singularity, pressure-work object, Part failure, Field failure, or Pack failure.
 ```
 
 This lane must remain separate from `SingularityDebtPayability.A`. The two
-lanes share the same cost figure but answer different questions.
+lanes share the same cost figure but answer different questions. The current
+participation-debt ontology branches are now classified by
+`ParticipationDebtPassExitTargetClosure.A`; broader positive deletion versions
+remain support.
 
 ### SingularityDebtPayability.A
 
-Verdict: keep; open payability lane.
+Verdict: closed as a CM blocker for the current participation-debt target set;
+kept as an optional positive payability lane.
 
 Refined statement:
 
@@ -280,8 +299,9 @@ remaining dissipation budget.
 ```
 
 The current low-high notes prove the infinite-cost branch when the payment is
-compressed into a zero-thickness terminal window. They do not yet prove the
-full payability theorem for all packet readouts.
+compressed into a zero-thickness terminal window. The closure note proves the
+CM pass-or-face result for the current target set. The repo does not yet prove
+the separate positive payability theorem for all packet readouts.
 
 ### SingularityFailureModeClassification.A
 
@@ -438,8 +458,11 @@ mpp-terminal-peak-backoff-and-vortex-return-dichotomy-20260610.md
 mpp-participation-transfer-donor-drain-audit-20260610.md
 mpp-singulet-spin-smooth-exterior-compatibility-20260610.md
 mpp-nearmiss-estimate-fork-audit-20260610.md
+mpp-participation-debt-pass-exit-target-closure-20260610.md
 ```
 
-This set does not claim PDF finality. It gives the repo a typed theorem
-surface for every object in the prompt and blocks the wrong informal claims
-from being counted as proof.
+This set does not claim PDF finality by itself. It gives the repo a typed
+theorem surface for every object in the prompt, blocks the wrong informal
+claims from being counted as proof, and closes the four participation-debt
+targets in their CM role as pass-or-face branches rather than positive supplier
+requirements.
