@@ -283,11 +283,13 @@ terminal_state: &11
     is support-only for the live CM target. The first fresh TPS good-set bundle
     mechanism was direct-tested, and the CF-bundle bridge was direct-tested. Current
     TPS surfaces stop at selected good-pair expansion / open lower-envelope production,
-    not same-witness Pack survival. The executable child is SameWitnessTPSCaptureForFirstPackExit.A
-    plus SG4ProductionFirstPackWitness.A, or an equivalent theorem proving the original-data
-    first Pack witness is selected by the TPS good active family and receives positive
-    active-time thickness. Keep pdfs_final false until that bridge is paid into
-    NoGenuineExitFromSmoothData.A and propagated through both PDF final rereads.'
+    not same-witness Pack survival. The same-witness capture attempt then showed
+    selected-good-pair structure starts after the positive active-time fact Pack
+    survival must prove. The executable child is SameWitnessTerminalStripModulusForFirstPackExit.A,
+    or an equivalent theorem proving the original-data first Pack witness has positive
+    preterminal active-time thickness on the same ledger. Keep pdfs_final false until
+    that bridge is paid into NoGenuineExitFromSmoothData.A and propagated through
+    both PDF final rereads.'
   completed_work_node_ids:
   - ns-cm-proof-frontier
   - ns-route-graph-app-sync
@@ -406,6 +408,7 @@ terminal_state: &11
   - problems/navier-stokes/theorem-construction/mpp-uniform-relative-holder-scale-budget-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-cap-family-compatible-regular-core-selection-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-cfbundle-coercive-first-pack-survival-bridge-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-same-witness-tps-capture-first-pack-exit-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-source-native-cap-family-density-floor-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-source-native-finite-cap-bump-lower-bound-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-source-native-finite-cap-bump-comparability-direct-attempt-20260609.md
