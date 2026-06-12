@@ -44,17 +44,39 @@
 \maketitle
 
 \begin{abstract}
-This paper studies finite-time breakdown for the incompressible three-dimensional Navier--Stokes equations with smooth divergence-free initial data and zero external force, on both the periodic and whole-space branches. The gold-standard route seeks a priori estimates strong enough to propagate smoothness for all time; at derivative level, this route encounters the familiar obstructions from vortex stretching, scale concentration, loss of compactness, packet localization, and endpoint behaviour. The paper takes a complementary same-solution contrapositive route using the Navier--Stokes problem definition as a class-membership witness and smoothness-certification test.
+This paper is a current-state, CMI-facing account of a same-solution
+contrapositive program for finite-time breakdown in the three-dimensional
+incompressible Navier--Stokes equations. The gold route is the usual
+forward-positive route: prove estimates strong enough to carry smoothness
+through every finite time. The live gold boundary in this manuscript is the
+scale-uniform annular supplier: the residual scale-critical annular refill has
+to be controlled on every shrinking schedule, or the discounted cone accounting
+has to be upgraded to an undiscounted scale-critical cone budget.
 
-The proof begins with the finite Clay negation itself: one smooth datum, one pressure law, one viscosity, one original solution, and an alleged terminal record for that same solution. The question is then whether the alleged terminal record can still be read as a terminal member of the original Navier--Stokes solution class.
+The silver route is the class-membership exit contrapositive. It starts with the
+alleged finite terminal record for the same original solution and tests whether
+that record still has a positive material carrier, same-equation participation,
+and a positive-scale coherent field readout. When all three survive, the record
+belongs to the continuation side. When a first requirement fails, the failed
+Pack, Part, or Field face is the class-exit witness for that same terminal
+object.
 
-The argument proceeds by an exhaustive same-solution contrapositive analysis of finite-time singularity claims. Each proposed terminal record is tested against a sequence of class-membership checks that formalize the requirements of the MPP problem statement without replacing the original solution by a detached diagnostic.
+Two current silver payments are installed on the page. On the periodic branch,
+the transported whole-torus material atlas \(Q_{\mathrm{atlas}}\) pays terminal
+selection and readout: the terminal object is the whole transported atlas, not a
+private annular packet, and retained Pack, Part, and Field read out to the
+global \(H^s\), \(s>5/2\), continuation norm. On the whole-space branch, the
+exterior Duhamel split removes the initial heat tail and the fixed compact-core
+far-field source. A vanishing exterior nonlinear source supplies the usual
+whole-space continuation readout; a surviving exterior nonlinear source becomes
+a dyadic high-frequency escape and lands in Pack, Part, or Field.
 
-The first check, Packet, asks whether the proposed terminal state still has a positive same-fluid carrier: a transported material window whose deformation remains finite, volume-preserving, and attached to the original flow. The second check, Participation, asks whether that carrier is still acted on by the same Navier--Stokes law: the velocity tower remains governed by the original transport, pressure, viscosity, and incompressibility relations through the required finite depth. The third check, Field, asks whether neighbouring velocity and pressure readouts still fit together as one field on a positive scale, giving the coherent regularity data needed for continuation.
-
-If all three checks are passed, the same terminal record remains on the member side and the standard continuation theorem restarts the same solution past the alleged terminal time. If any check fails, the first failed Pack, Part, or Field face records that the alleged terminal object is not an in-class nonsmooth terminal member of the original solution. The fail side is not a definitional shortcut; it is the result of testing the same terminal record and finding the first membership requirement it cannot carry.
-
-The gold-standard approach of bootstrapping estimates to control smoothness before a finite-time blow-up scenario is stronger than the original Millennium Prize Problem asks for: a complete forward-positive proof would also explain \emph{how} solutions remain smooth for all time. This paper isolates the narrower question: whether the solutions are globally smooth.
+The manuscript keeps the endpoint annular witness explicit. The radius-zero
+point is not enough by itself; the surrounding positive-radius fields remain the
+live singularity witness until they are controlled by the gold route or landed
+by the silver Pack/Part/Field analysis. Branch-family estimates, examples, and
+failed positive-forward attempts are used as support only after they attach to a
+selected same-solution object and pay one of those proof jobs.
 \end{abstract}
 
 \setcounter{tocdepth}{1}
@@ -230,25 +252,22 @@ The next section changes the question: when a terminal picture is suggested by s
 
 \section{Reframing the Problem}
 
-This is the point where the paper changes the question.
-For a claimed finite breakdown, the first burden is membership.
-A breakdown claim owes the reader a terminal object for the original Navier--Stokes solution.
-The proof asks whether that object still belongs to the class defined by the problem.
+This is the point where the paper adds a second question to the direct estimate route.
+The forward estimates have named a possible terminal picture: derivative growth, scale transfer, residue, slip, or endpoint readout.
+The paper then asks whether that picture is still a terminal record for the same original Navier--Stokes solution.
 
-The guess behind the method is simple.
-The Navier--Stokes equations are expected to be smooth for all time.
-Many blowup pictures look dangerous because they picture a failure mode without checking whether the picture is still inside the problem.
-A packet with no carrier, a source with no same-fluid ancestry, a slip between two fields, or a broken derivative tower may describe a failed proof object.
-The class question asks whether it describes the original Navier--Stokes solution.
+A class-test record must carry the same datum, the same equation, the same pressure, the same fixed viscosity, the same incompressibility law, the same velocity field, and the same terminal role.
+A picture with no positive material carrier, no same-fluid ancestry, no pressure-viscosity participation, or no positive-scale coherent field readout is a different object from the Clay object.
+The class question is the attachment test: does the alleged terminal record still describe the original smooth-data solution, or has the breakdown story changed the object under test?
 
-So the proof first asks what the picture is.
-Does it still have the same datum, the same equation, the same pressure, the same viscosity, the same incompressibility law, the same velocity field, and the same terminal witness record?
-A positive answer puts the object on the pass side of the split.
-A failed answer gives the exit that the breakdown claim owed us.
+The pass side is conservative.
+When the same-solution record retains its carrier, participation, and field readout, it remains on the continuation side and still owes whatever positive estimate or readout the paper has named.
+The fail side is equally concrete.
+The proof records the first failed face of the same terminal object: Pack for lost carrier, Part for lost same-law participation, and Field for lost positive-scale coherent field readout.
 
-This reframing holds the problem fixed.
-A finite-time breakdown claim has to stay attached to the original smooth-data solution.
-The class-membership question is the test for that attachment.
+This reframing keeps the problem fixed.
+The silver route only receives terminal pictures supplied by the forward-support field, and only after the paper has selected the same-solution record being tested.
+At the current state of the manuscript, the annular endpoint witness remains visible because its surrounding positive-radius fields are still the live witness until the gold route controls them or the silver route lands their first failed face.
 
 \section{Exhaustive Failure List}
 
@@ -282,7 +301,9 @@ The CM threat is detached ancestry: the number has a donor story, while the dono
 This is the longest pressure-source branch.
 It contains pressure-sustain, pure-pressure residue, source-residue, no-incoming-source-drain, time-face anti-atom, angular-saturation, transported-boundary, quantized-parent, and Zeno-ancestry attempts.
 The failure picture is a terminal reserve whose payment is always pushed to another ancestor, another boundary, another time face, or another residue.
-The CM threat is either zero-radius Pack loss or detached Part ancestry.
+The CM threat is annular Pack loss after the surrounding positive-radius fields
+lose carrier, detached Part ancestry, or retained annular field pressure that
+still has to be tested at Field.
 
 \item \textbf{Compactness and nonlinear tensor closure.}
 The positive route needs one classical approximation family to converge strongly enough that \(u^{(n)}\otimes u^{(n)}\) becomes \(u\otimes u\).
@@ -314,10 +335,10 @@ The late \(L^3\), Duhamel, heat-ancestor, and same-record surfaces try to attach
 The failure picture is a readout or ancestor that survives as information while failing to attach to the same Navier--Stokes object.
 The CM threat is detached terminal ancestry or Field readout loss.
 
-\item \textbf{Euler mirror and slip-sheet comparisons.}
-The Euler mirror makes slip, shear, weak branches, and smooth-layer-to-slip-sheet limits easy to picture.
-For fixed-viscosity Navier--Stokes those pictures become tests of the one-field viscous law.
-The CM threat is a jump or slip: two finite velocity pieces fail to form one smooth NS field.
+\item \textbf{Euler class-entrance boundary.}
+Euler appears here only at the boundary where the same selected terminal picture has left the fixed-viscosity Navier--Stokes class while the inviscid transport-pressure law is still readable.
+In the clean Part/Field cases, the event is no longer the Navier--Stokes fluid object; it is a base Euler object, \(\mathrm{EVol}+\mathrm{EMom}\), possibly with failed one-field regularity.
+Slip sheets and weak shear examples give a concrete model of that boundary.
 
 \item \textbf{Current theorem-creation support surfaces.}
 Reserve-creation, active-height, height-flux, terminal angular depletion, and source-weighted variants add candidate ways a terminal reserve could appear or be seen.
@@ -345,7 +366,7 @@ The packet remains visible, while the pressure-viscosity-incompressibility law h
 
 Another shape is broken neighbour relation.
 Two readings can be finite and locally meaningful while failing to join into one smooth velocity field.
-This is where the Euler slip picture helps the imagination.
+This is where the Euler boundary picture gives the escaped object a name: the same terminal picture can still satisfy inviscid flux and momentum balance while it has lost the fixed-viscosity participation law.
 
 Another shape is tower blowup.
 The packet stays positive, yet the derivative readings, pressure readings, or viscous readings lose finite tower control.
@@ -359,8 +380,10 @@ The reader should first see what the failed objects look like; only then do Pack
 
 \section{Silver Standard Approach}
 
-The silver-standard approach now has its material.
-The paper takes the full positive-forward failure field and asks the class-membership question for each picture.
+The silver-standard approach is the class-membership audit of the same-solution terminal records left by the positive-forward field.
+Its input is narrower than the whole failure inventory.
+Branch-family estimates, examples, and failed positive-forward attempts become silver material only when they attach to a selected terminal record for the original solution.
+
 The split is
 \[
   \text{pass: the object remains the same Navier--Stokes member,}
@@ -369,21 +392,24 @@ The split is
   \text{fail: the object exits the Navier--Stokes class.}
 \]
 
-On the pass side, the object still has the same packet, the same equation, the same pressure-viscosity law, and one coherent velocity field.
-This is the smooth side of the split.
-On the fail side, the object has lost one requirement that belongs to the problem definition.
-The failed picture then cannot be an in-class finite breakdown of the original solution.
+On the pass side, the record keeps a positive material carrier, the same pressure-viscosity-incompressibility participation law, and one coherent positive-scale velocity field.
+That record belongs to the continuation/readout side and has to be paired with the relevant positive supplier.
+On the fail side, the record loses a requirement that belongs to the problem definition.
+That loss is the class-exit witness for the alleged breakdown branch.
 
-The reduced burden has two parts.
-First, the failure list must cover the possible nonsmooth terminal pictures supplied by the forward-support field.
-Second, each nonsmooth picture must be run through the class test.
-When the picture loses the packet, it lands at Pack.
-When it keeps a packet while losing same-law participation, it lands at Part.
-When it keeps local readings while losing one positive-scale field, it lands at Field.
+The reduced burden has three parts.
+First, the failure list has to cover the possible nonsmooth terminal pictures supplied by the forward-support field.
+Second, the paper has to select the same-solution object being tested.
+Third, each selected object has to land at a first face.
+Lost carrier lands at Pack.
+Lost same-law participation lands at Part.
+Lost positive-scale coherent field readout lands at Field.
 
-Once the nonsmooth field is exhausted this way, the Navier--Stokes class has no nonsmooth terminal member.
-The smooth datum and the local classical solution give the class its ordinary smooth branch.
-The terminal work is the pass-or-exit test on every alleged nonsmooth branch.
+This is the present certification boundary.
+The periodic branch now has a selected whole-torus material atlas, and the whole-space branch now has an exterior-source CM dichotomy.
+The annular endpoint branch remains explicitly open in the manuscript: the radius-zero point is insufficient by itself, and the surrounding positive-radius fields still need gold control or a silver first-face landing.
+The paper can claim only the payments written on the page.
+Full CMI finality requires every live terminal record to pass this gold-or-silver accounting with rendered evidence.
 
 \section{Defining Class Membership}
 
@@ -429,23 +455,22 @@ The velocity field moves under the same equation:
 Viscosity dissipates velocity differences over time, and pressure keeps the field inside the divergence-free constraint.
 A terminal object that changes these properties has left the problem object.
 
-\subsection{Properties of Euler Fluid}
+\subsection{Euler Boundary Object}
 
-Euler is the useful comparison because it removes the viscous term.
-It keeps transport and pressure and sets the viscosity to zero.
-That makes slip easier to picture.
+Euler enters the manuscript as a boundary object for class exit.
+Its base membership test is the inviscid transport-pressure law: incompressible flux-volume balance and weak momentum-pressure fidelity.
+In the notation used by the source audits, that base object is \(\mathrm{EVol}+\mathrm{EMom}\).
+Regularity, Lagrangian carrier quality, and one-field coherence are extra layers above that base Euler membership test.
 
-Imagine one plank sliding over another plank that stays still.
-As a fluid picture, this is two finite incompressible flows with a tangential break between them.
-Each side has a velocity.
-The normal volume relation can still make sense.
-The two sides do not form one smooth velocity field across the interface.
-This is the simple slip-sheet picture.
+A slip sheet is the simplest picture.
+Two incompressible flows can meet with matching normal flux while their tangential velocities jump.
+For Euler, that picture can still carry the flux and momentum balance.
+For fixed positive viscosity, the same picture has lost the pressure-viscosity participation and one-field regularity demanded by Navier--Stokes.
 
-In inviscid thinking, that picture is natural.
-The equation has no viscous tether forcing neighboring velocities into one continuous profile.
-For fixed-viscosity Navier--Stokes, the same picture points at the class-membership test.
-It may look like a velocity field, and the class-membership test sees the missing viscous same-field law.
+This is the class-exit/class-entrance line used here.
+When the selected nonsmooth Navier--Stokes branch loses Part or Field only through loss of viscous participation while retaining the inviscid flux-momentum law, the escaped object is read as an Euler boundary object.
+The paper does not use this to solve Euler.
+It uses it to say what the escaped object is in that clean special case.
 
 \subsection{Viscosity}
 
@@ -508,7 +533,7 @@ Then each rung has the schematic form
 where \(B_k\) contains lower-rung commutator terms.
 The tower is needed because a terminal picture can fail above the base velocity.
 The velocity may still be finite while a derivative rung breaks, jumps, or becomes unbounded.
-The class test therefore asks whether the same Navier--Stokes pressure-viscosity law still acts through the finite tower depth needed to read one smooth field.
+The class test asks whether the same Navier--Stokes pressure-viscosity law still acts through the finite tower depth needed to read one smooth field.
 
 \section{Participation and One-Field Coherence Witness Laws}
 
@@ -597,7 +622,11 @@ These are packet-side failures.
 The Zeno cases belong here.
 A Zeno story can give an endless ancestry of smaller and smaller packet events near the terminal time.
 That ancestry supplies a long history, yet the class test asks for a positive terminal packet \(Q\).
-An unpaid infinite donor-refill chain, a zero-radius terminal source residue, or a detached donor history fails Pack before the proof asks whether the velocity tower is dead, jumped, or blown.
+An unpaid infinite donor-refill chain, a point-object source residue, or a detached donor history fails Pack before the proof asks whether the velocity tower is dead, jumped, or blown.
+That point-object statement does not finish the singularity question.  A
+finite-time singularity is witnessed by the surrounding positive-radius fields,
+so a shrinking annular witness must still be followed until it is controlled or
+lands on Pack, Part, or Field.
 Raw terminal source residue is also tested here first.
 Only after a positive same-fluid carrier and a participating tower are retained does a sharper Field reading become available.
 
@@ -688,9 +717,11 @@ Class exit is
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
 
-The pass/fail split is the engine of the proof:
+The pass/fail split is the engine of the proof.
+The pass side used in this manuscript has two pieces: the selected same-solution record retains the required Pack, Part, and Field witnesses, and the relevant continuation/readout supplier named by the branch is available.
 \[
-  \text{pass: }\CM_{N_*,r,Q}\Longrightarrow\Member(Q;\Owork),
+  \text{pass: }\CM_{N_*,r,Q}\text{ on the selected record plus branch readout}
+  \Longrightarrow\Member(Q;\Owork),
 \]
 \[
   \text{fail: }\neg\Pack_Q\ \vee\ \neg\Part_{N_*,Q}\ \vee\ \forall r>0\,\neg\Field_{N_*,r,Q}
@@ -699,8 +730,8 @@ The pass/fail split is the engine of the proof:
 Here \(N_*\) is a finite depth high enough to read the claimed terminal branch.
 
 This is the contrapositive class-membership route.
-For each obstruction picture, the pass branch keeps the object inside the Navier--Stokes class.
-The fail branch supplies a first Pack, Part, or Field face failure.
+For each obstruction picture, the pass branch keeps the selected object inside the Navier--Stokes class only with its branch readout attached.
+The fail branch supplies a first Pack, Part, or Field face failure on the same selected record.
 Once that face failure is derived on the same terminal record, the object has landed at \(\Exit(Q;\Owork)\).
 
 \section{Simplifying The Witness Logic Table}
@@ -771,17 +802,18 @@ Those are exactly the requirements defining membership in \(\Owork\).
 \end{proof}
 
 \begin{theorem}[No third in-class terminal branch]
-There is no terminal branch that is both an in-class member branch and a finite nonsmooth obstruction branch:
+There is no terminal branch that is both a verified member-continuation branch and a finite nonsmooth obstruction branch:
 \[
-  \Member(Q;\Owork)
-  \quad\text{and}\quad
-  Q\text{ blocks smooth continuation at }T_*<\infty.
+  \begin{aligned}
+  &\Member(Q;\Owork)\text{ with the required branch readout}\\
+  &\qquad\text{and }Q\text{ blocks smooth continuation at }T_*<\infty .
+  \end{aligned}
 \]
 \end{theorem}
 
 \begin{proof}
-Membership gives the three requirements on one witness record.
-By membership readout, those requirements keep the same branch on the smooth side of the split.
+Membership gives the three requirements on one witness record, and the pass branch also carries the continuation/readout supplier for that branch.
+By that readout, the same selected branch is on the smooth side of the split.
 That contradicts the claim that the same branch blocks smooth continuation at \(T_*\).
 \end{proof}
 
@@ -789,7 +821,18 @@ That contradicts the claim that the same branch blocks smooth continuation at \(
 Let \(O\) be a same-solution obstruction reached by the forward-positive Navier--Stokes program.
 The pass/fail split to be proved is decided by the working class object:
 \[
-  O_{\Pass}\Longrightarrow \Member(Q;\Owork)\Longrightarrow\text{smooth continuation},
+  \begin{aligned}
+  O_{\Pass}
+  &\Longrightarrow
+  \left[
+    \CM_{N_*,r,Q}\text{ on the selected record}
+  \right]\\
+  &\Longrightarrow
+  \left[
+    \text{branch readout attached}
+  \right]
+  \Longrightarrow\text{member-continuation readout},
+  \end{aligned}
 \]
 and
 \[
@@ -802,28 +845,230 @@ and
 \begin{proof}
 This local branch paragraph is only the orientation for the pass/fail split.
 The terminal-consumption proof is the classification theorem that follows.
-The pass branch retains the carrier, participation, and field requirements on one witness record.
-It is a member branch and continues smoothly by membership readout.
+The pass branch retains the carrier, participation, and field requirements on one witness record and carries the branch readout named by the proof.
+It is a member-continuation branch by that attached readout.
 
 The fail branch is offered as a finite same-solution terminal obstruction.
 The classification theorem admits that offered obstruction to the CM test, or rejects it by scope, and then exhausts any admitted terminal object by the first face it loses: Pack, Part, or Field.
 That derived face failure is the finite-failure witness read as \(\Exit(Q;\Owork)\).
 \end{proof}
 
-\begin{theorem}[CM terminal witness classification target]
-Every CM-test-admissible finite terminal Clay witness from the same smooth initial datum must be classified by the CM terminal witness chain:
+\begin{theorem}[CM terminal witness classification target, with annular boundary]
+Every CM-test-admissible finite terminal Clay witness from the same smooth initial datum whose positive-radius terminal witness has been paid must be classified by the CM terminal witness chain:
 \[
 \begin{aligned}
 &\text{finite breakdown witness}\\
 &\Longrightarrow \text{CM-test entry}\\
 &\Longrightarrow
-  \bigl(\neg\Pack_Q\vee\neg\Part_{N,Q}\\
-&\qquad\vee\forall r>0\,\neg\Field_{N,r,Q}\bigr)\\
+  \left[
+  \begin{array}{c}
+    \neg\Pack_Q\\
+    \text{or }\neg\Part_{N,Q}\\
+    \text{or }\forall r>0\,\neg\Field_{N,r,Q}
+  \end{array}
+  \right]\\
 &\Longrightarrow \Exit(Q;\Owork).
 \end{aligned}
 \]
 This is the classification target for the alleged terminal object.
 \end{theorem}
+
+\paragraph{Current annular boundary.}
+The current theorem notes have reopened one boundary for this theorem. A radius-zero
+endpoint is not a continuation packet, but a finite-time singularity is
+witnessed by the fields around that endpoint. The present paper must follow
+shrinking positive-radius annular windows around \((x_*,T_*)\) before it can
+claim a final Pack, Part, or Field landing for the terminal witness.
+
+The gold certification layer is the forward-positive annular control route: it
+tries to control the residual scale-critical load on those annuli. The silver
+certification layer is the CM counterpart: any surviving annular residue is
+followed to the first failed membership requirement. This manuscript does not
+claim CMI finality until that annular witness is paid by one of those layers.
+
+\paragraph{Annular payment ledger.}
+The annular witness is measured on positive-radius windows before the terminal
+time. A typical window has the form
+\[
+  A_m
+  =
+  \{(x,t):\alpha r_m<|x-x_*|<\beta r_m,\quad
+  |t-t_m|\lesssim r_m^2\},
+  \qquad
+  r_m\downarrow 0,\quad t_m\uparrow T_*.
+\]
+On each \(A_m\), the velocity and pressure are still those of the original
+preterminal Navier--Stokes solution. The unpaid quantity is not raw energy in
+the window. The current notes use a residual scale-critical load
+\[
+  D_m^{\mathrm{res}}
+\]
+after heat descendants, through-flow, legal losses, finite payments, and paid
+dissipation have been removed. This is the load that can still try to refill a
+terminal singular profile.
+
+A concrete way to read this load is through the dyadic shell ledger at the
+annular scale. Let \(j_m\) be chosen so that \(2^{-j_m}\simeq r_m\), and write
+\[
+  u_j=\Delta_j u,\qquad
+  E_j(t)=2^{2j}\|u_j(t)\|_2^2,\qquad
+  D_j(t)=2^{4j}\|u_j(t)\|_2^2 .
+\]
+The shell energy inequality has the form
+\[
+  \frac12\frac{d}{dt}E_j(t)+c_0\nu D_j(t)\le \Phi_j^+(t),
+\]
+where \(\Phi_j^+\) is the positive part of the nonlinear source into the
+\(j\)-th shell. Solving this inequality from an entrance time \(t_0\) gives
+\[
+  E_j(t)\le e^{-c_0\nu2^{2j}(t-t_0)}E_j(t_0)
+  +C\int_{t_0}^{t}e^{-c_0\nu2^{2j}(t-s)}\Phi_j^+(s)\,ds .
+\]
+The first term is the heat descendant. The residual refill is the second term,
+placed in the same scale-critical currency:
+\[
+  D_j^{\mathrm{res}}(t;t_0)
+  :=
+  2^{2j}\int_{t_0}^{t}e^{-c_0\nu2^{2j}(t-s)}\Phi_j^+(s)\,ds .
+\]
+The annular load \(D_m^{\mathrm{res}}\) is this residual refill read on the
+shells and time windows that see \(A_m\). It vanishes for pure heat descendants
+and counts only positive same-solution nonlinear refill still able to feed the
+annular profile.
+
+Written as a gold target, the missing supplier is the scale-uniform smallness
+statement
+\[
+  \forall \varepsilon>0\ \exists r_\varepsilon>0
+  \quad\text{such that}\quad
+  r_m<r_\varepsilon \Longrightarrow D_m^{\mathrm{res}}\le \varepsilon
+\]
+for every same-solution terminal annular schedule \(A_m\). A stronger summable
+form would be
+\[
+  \sup_{\mathcal A}\ \sum_{m\ge M}D_m^{\mathrm{res}}
+  \longrightarrow 0
+  \qquad(M\to\infty),
+\]
+where the supremum is over admissible disjoint terminal annular schedules. The
+manuscript does not have this estimate as a completed theorem. This display is
+the exact forward-positive bill still owed before the gold layer can close the
+annular witness.
+
+The gold route pays the witness by showing that this residual load cannot stay
+non-small on infinitely many terminal annuli. In reader terms, the annular
+fields become calm enough on late slabs for the usual local regularity and
+\(H^s\) continuation readout to apply. The silver route pays the remaining
+obstruction by following the same annular residue to its first lost requirement:
+loss of coherent same-fluid carrier is Pack, loss of the same
+pressure-viscosity-incompressibility participation tower is Part, and loss of
+positive-scale one-field readout after Pack and Part survive is Field. This is
+the current mathematical payment still owed by the paper.
+
+\paragraph{Gold status ledger.}
+The current forward-positive notes have paid several organizing pieces, and the
+paper records them as support rather than final closure. First, the moving-cone
+local energy identity accounts for stored energy, interior dissipation, moving
+wall loss, transport flux, pressure work, and viscous wall exchange on the
+shrinking receiver. Second, a finite undiscounted scale-critical cone budget
+would make late cone slabs small and trigger the usual CKN/\(H^s\) regularity
+readout. Third, raw active-square size and raw LPAS are not acceptable closure
+currencies: a heat-decaying shear can make the raw bill large while the
+nonlinear refill is zero. The live currency is the residual positive refill
+\(D_m^{\mathrm{res}}\). Fourth, the dangerous scale is a rate problem: at scale
+\(r\), the critical velocity \(U_c(r)\sim\nu/r\) has stored energy
+\(O(\nu^2 r)\), but its payment demand over the viscous clock is
+\(O(\nu^3/r)\).
+
+These points narrow the gold route without closing it. The open supplier is the
+scale-uniform theorem saying that same-fluid participation removes the
+discounted physical-energy gap or beats the critical payment rate on every
+shrinking annular schedule. Until that supplier is proved, the gold layer is an
+open theorem target, and the paper may use the silver CM route only for the
+residual obstruction that survives this forward-positive accounting.
+
+The current gold obstruction is a specific theorem target. The estimates proved
+so far do not supply the target from finite energy, the local energy identity,
+raw wall or cone-volume ledgers, raw LPAS, direct active-square Carleson,
+structural shell cancellation, or donor balance alone. After those false
+subtargets are removed, the surviving positive-forward branch is terminal Zeno
+source-refill:
+\[
+  \cdots\to P^{-2}\to P^{-1}\to P^0,\qquad
+  r_m\downarrow0,\qquad
+  \sum_m r_m^2<\infty,
+\]
+with inherited positive same-solution source mass on shrinking heat-time
+windows. The gold theorem still needed here is
+\[
+  \mathrm{TerminalTimeFaceAntiAtom.A},
+\]
+or an equivalent production theorem giving temporal thickness, scale-critical
+source Carleson charge, diffuse-parent charge, no-incoming-flux control, or a
+rigid ancient source-residue Liouville class. At the present proof state that
+production theorem is not proved. The object passed to silver is exactly the
+surviving residual source-balanced pulse, not another broad forward-smoothness
+branch.
+
+\paragraph{Silver status ledger.}
+The silver counterpart is the annular specialization
+\[
+  \mathrm{AnnularLimitCMFaceLanding.A}.
+\]
+It does not reuse the bare endpoint shortcut. It says that a surviving residual
+annular obstruction, once admitted as the same-solution terminal witness and
+readout-complete for the claimed breakdown, is exhausted by the first failed CM
+face:
+\[
+  \neg\Pack_Q
+  \quad\text{or}\quad
+  \neg\Part_{N,Q}
+  \quad\text{or}\quad
+  \forall r>0\,\neg\Field_{N,r,Q}.
+\]
+That gives the CM counterpart for the surviving annular obstruction. Its
+admission boundary is explicit: the paper has to keep the annular selection and
+readout-completeness premises visible, rather than hiding them inside the word
+``witness.''
+
+Here selection means that the paper must follow the annular tail actually
+produced by the alleged finite-time breakdown of the original solution. It is
+not allowed to choose a convenient packet after the fact. Readout completeness
+means that the selected tail must still carry enough same-solution information
+to test the claimed breakdown: the carrier, the pressure-viscosity-incompressible
+participation law, the derivative tower depth being used, and a positive-scale
+field record. Once those data are present, the CM tree can decide the first
+failed requirement. Without such a payment, the silver route would remain only a
+conditional counterpart, not a final proof claim.
+
+For the periodic branch, those selection and readout premises are paid by the
+transported whole-torus atlas. This is a branch-specific payment, not a proof
+that the open terminal Zeno source-refill theorem has been supplied in general.
+The object under test is \(Q_{\mathrm{atlas}}\), the whole finite material atlas
+carried by the original flow, not a private annular packet. This pays selection:
+the terminal test object is fixed before any branch example is read. It also
+pays readout completeness: finite overlap and the readout-compatible Pack
+predicate let retained Pack, Part, and Field on \(Q_{\mathrm{atlas}}\) sum to the
+global \(H^s\), \(s>5/2\), continuation norm. The same theorem unifies the Pack
+predicate, so loss of atlas selection, carrier scale, or material comparability
+is \(\neg\Pack_{Q_{\mathrm{atlas}}}\), not a fourth terminal requirement. Thus the
+annular objection is not hidden by the endpoint; on the periodic silver route it
+is read inside the whole-atlas Pack-first test. The general annular gold route
+still has the stronger open task of proving scale-uniform annular control.
+
+The whole-space branch is separate. It is not paid by \(Q_{\mathrm{atlas}}\).
+For rapidly decaying data on \(\mathbb R^3\), the paper uses the exterior
+Duhamel split. The initial heat tail and the far-field effect of any fixed
+compact-core source vanish at spatial infinity. The only remaining source is the
+nonlinear source already living far out in space. If that exterior source
+vanishes in \(H^s\), the usual whole-space continuation readout is supplied. If
+it survives, the fixed-band estimate removes bounded frequencies, so the
+survivor is a dyadic high-frequency escape. That survivor has to enter the same
+CM packet test: no retained material address is Pack failure, detachment from
+the same equation, pressure, viscosity, or source ancestry is Part failure, and
+retained Pack plus Part with no fixed positive Field scale is Field failure. The
+direct exterior \(H^s\) tail theorem remains a stronger gold/export theorem, not
+a hidden premise of the silver whole-space CM branch.
 
 \begin{proof}
 Assume that the maximal smooth solution from \(u_0\) is alleged to stop at a finite time \(T_*\), and let the alleged terminal object be the object offered by that breakdown claim.
@@ -832,6 +1077,10 @@ For an admitted object, membership in the working CM class is exactly the conjun
 If all three survive, the branch is the lawful \(\Member(Q;\Owork)\) side of the split.
 If the alleged finite terminal object is not on that side, the first failed requirement is necessarily \(\neg\Pack_Q\), or \(\neg\Part_{N,Q}\) after Pack survives, or \(\forall r>0\,\neg\Field_{N,r,Q}\) after Pack and Part survive.
 That first face failure is the witness read by the CM embedding as \(\Exit(Q;\Owork)\).
+For the annular-limit case, the object still being paid is the surrounding
+positive-radius annular witness. The point \(r_*=0\) can fail Pack as a
+point-object, while the surrounding fields remain the live witness that must be
+controlled or classified.
 \end{proof}
 
 \section{The Clay-Facing CM Completion}
@@ -848,7 +1097,10 @@ The class law is organized around the following terminal witness consumption cha
 This is the same branch law used throughout the CM program.
 The pass side supplies a lawful \(\Member(Q;\Owork)\) branch and reads out to smooth continuation when the pass branch is the same original solution branch.
 The fail side must first enter the CM terminal test and then lose one required feature.
-That last sentence is the installed terminal-consumption law: there is no fourth kind of same-solution terminal failure outside Pack, Part, and Field.
+This is the installed terminal-consumption law: there is no fourth kind of same-solution terminal failure outside Pack, Part, and Field.
+The current paper records the annular-limit witness as the live place where the
+positive-radius terminal witness still has to be paid before that law can be
+read as a final Clay closure.
 
 \begin{definition}[Terminal witness consumption]
 A finite Clay terminal witness is consumed by the CM proof when it is first admitted to the same-fluid terminal packet tree, then exhausted as one of
@@ -905,17 +1157,36 @@ This is the periodic CM pass-or-exit result: the retained branch gives the usual
 Assume \(T_*<\infty\).
 The whole-torus terminal atlas is readout-complete.
 The finite endpoint either retains Pack, Part, and Field on the same transported atlas, or it has a first Pack, Part, or Field face failure.
+An annular residue surrounding the endpoint is tested through this same atlas rather than as a private diagnostic packet.
 The face-failure branch is consumed by the installed terminal witness theorem and embedded as class exit for the same working Navier--Stokes object.
 The retained branch gives the \(H^s\), \(s>5/2\), continuation norm for the same original solution.  The failed branch is outside \(\Member(Q;\Owork)\), so it cannot serve as an in-class finite Clay continuation branch.
 \end{proof}
 
 \section{Forward Families As Support Examples}
 
-The requirements are now defined.
-The terminal-capture proof is already carried by the whole-torus material atlas.
-The forward families below have a different job.
-They show how familiar positive-proof mechanisms are read when a same-atlas face certificate has been supplied.
-Each family is support or exposition until it names the selected terminal object and the first Pack, Part, or Field requirement lost by that object.
+The requirements are now defined, so the branch families can no longer be read
+as independent proof attempts.
+Each family below has to pass through the same filter.
+It either helps choose the terminal record, supplies a continuation readout for a
+record that has retained Pack, Part, and Field, proves the first failed face of a
+selected record, or stays support.
+
+This is why the current repo work belongs in the paper.
+The branch notes are not included because they are a large inventory of attempts.
+They are included because they show the reader where a proposed terminal
+mechanism pays one of the actual proof costs.
+On the periodic surface, the selected record is the whole transported torus
+atlas \(Q_{\mathrm{atlas}}\).
+On the whole-space surface, the selected record is governed by the exterior
+Duhamel split and the dyadic survivor test.
+At the annular endpoint, the surrounding positive-radius fields are still live:
+they either need the gold annular-control supplier, or they need a silver
+Pack/Part/Field face landing on the selected same-solution record.
+
+Read every branch paragraph in that order.
+A forward estimate may explain why a mechanism is dangerous.
+It becomes proof material only when it attaches to the same original solution
+and pays one of the pass-or-face jobs just named.
 
 \subsection{Source Reserve And Donor Refill}
 
@@ -983,22 +1254,40 @@ The narrowed residue becomes proof material when it declares the first same-atla
 
 Zeno arguments describe terminal objects that appear only through infinite refinement toward \(T_*\).
 They are tempting because a zero-radius object can look like an especially dangerous singularity.
-For the class proof, zero radius is already decisive.
+For the point-object alone, zero radius is decisive.
+For the singularity claim, the proof still has to test the shrinking
+positive-radius fields around that point.
 
 \begin{proposition}[Zeno routing]
 A Zeno terminal branch with no positive terminal carrier is Pack-side.
 A retained positive-scale Zeno branch is a finite typed subcase in the ordinary Pack/Part/Field tree.
+A Zeno or annular-limit branch witnessed by positive-radius fields remains live
+until those fields are controlled or land on Pack, Part, or Field.
 \end{proposition}
 
 \begin{proof}
 A zero-radius terminal atom has no positive same-fluid carrier, so it fails Pack.
+This statement handles the atom itself.
+It does not by itself handle the annular witness surrounding the atom.
 When a Zeno branch retains positive scale, the branch has supplied the carrier requirement and must be tested for same-equation participation and coherent field readout.
 Thus Zeno names a terminal mode whose class role is decided by the ordinary first failed requirement.
 \end{proof}
 
 The temporal non-atomicity, residence lower-bound, time-face capacity, and terminal atom exclusion arguments live here.
 Their class role is direct.
-They either prevent the zero-radius object from being the original branch, or they show that the selected terminal object has already failed Pack on the atlas witness.
+They either prevent the point-object from being the original branch, show that
+the selected point-object has failed Pack on the atlas witness, or send the
+surrounding positive-radius annuli back into the live annular witness payment.
+In the current proof state this is exactly the terminal Zeno source-refill case
+named in the gold ledger. The forward side has not proved the theorem that turns
+positive same-solution source mass on shrinking heat-time windows into time
+thickness, scale-critical source Carleson charge, diffuse-parent charge,
+no-incoming-flux control, or rigid source-residue Liouville. Thus the point
+atom's Pack failure is only the first reading of the endpoint. The remaining
+source-balanced pulse is the surrounding annular witness: gold still owes
+\(\mathrm{TerminalTimeFaceAntiAtom.A}\) or an equivalent production theorem, and
+silver receives the pulse only with the selection and readout premises stated
+above.
 
 \subsection{Retained Amplitude, Low Strain, And Height Flux}
 
@@ -1105,9 +1394,10 @@ Detached or unpaid ancestry without a positive same-fluid carrier is Pack-exit.
 Retained source residue with carrier and broken pressure-viscosity participation is Part-exit.
 Retained source residue that has passed Pack and Part becomes a Field/readout diagnostic.
 
-Zero-radius and terminal-atom branches select an object with no positive terminal carrier unless a retained positive-scale packet has first been supplied.
-The zero-radius branch is Pack-exit.
-Retained Zeno alternatives are finite typed subcases within the same witness tree.
+Zero-radius and terminal-atom branches select a point-object with no positive
+terminal carrier unless a retained positive-scale packet has first been
+supplied. The point-object branch is Pack-exit. Retained Zeno and annular
+alternatives are finite typed subcases within the same witness tree.
 
 Retained-amplitude, height-flux, low-strain, signed-current, and square-reserve branches select failures of gain, dwell, participation, source balance, or retained coherence.
 Each such failure either breaks the carrier, breaks the same pressure-viscosity participation tower after the carrier survives, breaks positive-scale coherence after Pack and Part survive, or remains a positive supplier theorem outside the class primitive.
@@ -1119,8 +1409,9 @@ They become proof material only when the exact packet has already entered Pack, 
 Local critical translators place local \(L^3\) or Duhamel mass back on the same witness record.
 Their role is branch-local: native source work or Pack/Part/Field exit.
 
-Fixed-viscosity transfer and Euler mirror branches are comparison programs.
-They remain outside the non-Euler class-membership proof until a theorem transfers the exact Navier--Stokes object into the same witness tree.
+Broad fixed-viscosity transfer and broad Euler mirror branches are comparison programs.
+The Euler material admitted into this manuscript is narrower: the same selected Navier--Stokes packet has retained the shared flux-momentum reading, has lost fixed-viscosity Part or Field participation, and is thereby readable as the base Euler boundary object.
+Everything else remains support outside the proof body.
 
 These alternatives exhaust the branch families because every branch either supplies a selected same-solution terminal object or supplies context for such an object.
 Selected terminal objects are exhausted by the atlas terminal-capture theorem.
@@ -1133,13 +1424,13 @@ Context without a selected face remains support outside the proof spine.
 \textbf{Branch family} & \textbf{Forward-positive burden} & \textbf{CM role}\\
 \hline
 Source control and donor refill & prove scale-critical source reserve control & Pack first; Part after carrier survives; retained Field only after Pack and Part\\
-Zero-radius and Zeno & prove temporal non-atomicity or rigid residue exclusion & zero-radius Pack exit; retained positive-scale typed subcases\\
+Zero-radius, Zeno, and annular limit & prove temporal non-atomicity, rigid residue exclusion, or annular control & point-object Pack exit; retained positive-scale typed subcases\\
 Retained amplitude and low strain & prove gain, BV, or height-flux control & Pack/Part/Field/Zeno finite routing\\
 Signed current & prove no-free-sink or edge resistance & auxiliary route returning to Pack, Part, retained Field, or Zeno\\
 Square reserve & prove square-source charge or native trilinear control & auxiliary theorem unless selected reserve lands in first-face order\\
 Endpoint readout and no-pulse & prove good scale, read cover, and pulse exclusion & downstream support for membership readout and Field\\
 Local critical translators & localize public-critical terminal mass & branch-local native source work or class exit\\
-Transfer and mirror comparison & compare neighbouring theorem worlds & outside this proof until an exact transfer lands\\
+Euler boundary comparison & identify the escaped object in clean viscous-participation failures & admitted only on the selected same packet after the Pack/Part/Field face is typed\\
 \end{tabular}
 \end{center}
 
@@ -1152,12 +1443,12 @@ Transfer and mirror comparison & compare neighbouring theorem worlds & outside t
 \hline
 Torus material atlas & load-bearing terminal packet capture & proved for the periodic theorem & periodic atlas proof only\\
 Source reserve and donor refill & Pack-side support and same-packet payment pressure & used after selected reserve lands in the witness tree & same-record payment or first-face theorem\\
-Zeno and terminal atoms & Pack-side zero-radius branch or retained typed subcase & zero-radius gives Pack failure; retained scale returns to the tree & positive-scale theorem for retained alternatives\\
+Zeno, terminal atoms, and annular limit & Pack-side point-object branch or retained typed subcase & point-object gives Pack failure; retained scale returns to the tree & positive-scale annular theorem for retained alternatives\\
 Retained amplitude, height flux, and low strain & face-routing support & finite routing through Pack, Part, Field, or Zeno & named first-face certificate\\
 Signed current and no-free-sink & source-economy routing & no independent face; support returns to the three requirements & same-witness face landing\\
 Endpoint, no-pulse, and good-scale readout & downstream continuation readout & reads a packet after Pack, Part, and Field survive & selected membership theorem\\
 Local \(L^3\) translators & witness-record recovery & local translation support before face testing & selected same-record Pack/Part/Field theorem\\
-Euler and fixed-viscosity comparison & comparison pressure & outside this proof until exact transfer & Navier--Stokes packet transfer theorem\\
+Euler class-entrance boundary & comparison pressure with a typed object & only the base \(\mathrm{EVol}+\mathrm{EMom}\) readout after selected Part/Field loss & no broad Euler theorem branch\\
 \end{tabular}
 \end{center}
 
@@ -1203,25 +1494,31 @@ Once the estimate names a requirement or hinge, it can be used in the proof of t
 \section{Comparison And Transfer Boundary}
 
 The Navier--Stokes class proof is a same-solution Navier--Stokes proof.
-Euler comparison can be illuminating because it shows what disappears when viscosity and parabolic participation are absent.
-It becomes proof material here by landing an exact Navier--Stokes packet in the same witness tree.
+Euler comparison enters only through a typed boundary use.
+For the same selected packet, Pack has to remain readable in the shared flux-volume sense, the fixed-viscosity Part or Field requirement has to fail through loss of viscous participation or one-field coherence, and the inviscid momentum-pressure law has to remain readable.
+Then the fail branch has not merely left Navier--Stokes; it has a concrete Euler boundary reading.
 
-\begin{proposition}[Comparison transfer role]
+\begin{proposition}[Euler boundary comparison role]
 Let \(C\) be a comparison branch.
 It enters the present Navier--Stokes class proof only through a theorem of the form
 \[
   C\Longrightarrow
-  \text{selected Navier--Stokes packet }Q
+  \text{selected packet }Q
   \text{ has a Pack, Part, or Field decision}.
 \]
+In the clean loss-of-viscosity case, the same theorem also reads the escaped packet as
+\[
+  \mathrm{EVol}_Q+\mathrm{EMom}_Q .
+\]
 That theorem is the point where comparison pressure becomes Navier--Stokes proof material.
+Smooth Euler to smooth Navier--Stokes remains a separate support bridge: it can reassure the smooth side of the boundary, but it is not the mechanism that proves class exit.
 \end{proposition}
 
 \begin{proof}
 The working class object \(\Owork\) is built from the original Navier--Stokes datum, pressure, viscosity, and same-fluid participation.
-Comparison branches may share shapes with Navier--Stokes branches, but the class proof needs the exact same-solution packet.
-The transfer theorem supplies that exact packet.
-Without it, the comparison branch has no class face inside \(\Owork\).
+Comparison branches may share shapes with Navier--Stokes branches, but the class proof first needs the exact same-solution packet and its first failed face.
+The Euler reading is added only after that packet has kept the shared inviscid flux-momentum law while losing the fixed-viscosity participation or one-field requirement.
+Without that selected packet and typed face, comparison remains support outside \(\Owork\).
 \end{proof}
 
 \section{Whole-Space \(\mathbb R^3\) CM Exterior-Source Branch}
@@ -1311,6 +1608,8 @@ Thus retained Pack+Part forces failure of every fixed positive Field scale.
 
 \begin{theorem}[Whole-space CM classification state]
 For smooth rapidly decaying divergence-free data on \(\mathbb R^3\), a finite terminal whole-space branch has the same CM pass-or-exit conclusion as the periodic branch.
+This conclusion is not imported from the torus atlas; it is paid by the
+exterior-source Duhamel split and the dyadic survivor face landing.
 The branch either has the exterior \(H^s\), \(s>5/2\), tail needed for the usual continuation readout, or the surviving exterior source lands in
 \[
   \neg\Pack_Q,\qquad
@@ -1460,6 +1759,14 @@ When the record loses one requirement, the first lost requirement is a Pack, Par
 No additional same-solution terminal class exists between these two outcomes.
 \end{proof}
 
+This theorem is the class-consumption theorem.
+It does not replace the surface payments that make a terminal record legitimate.
+The paper must still say, for each surface, which object \(Q\) is selected, what
+readout is available on the member side, and which first face is lost on the
+exit side.
+That is the proof obligation that prevents the CM grammar from becoming a
+labeling device.
+
 The periodic branch is the compact model of this argument.
 The transported whole-torus atlas supplies the selected terminal object, and terminal non-continuation is read through the first failed Pack, Part, or Field face on that atlas.
 The whole-space branch uses the same argument after the Duhamel split.
@@ -1469,6 +1776,10 @@ After Pack and Part are retained, dyadic scale escape is incompatible with any f
   \neg\Pack_Q\vee\neg\Part_{N,Q}\vee\forall r>0\,\neg\Field_{N,r,Q}.
 \]
 This is why a direct positive exterior \(H^s\) estimate is stronger than the argument needs.
+The annular endpoint witness remains the live boundary around this closeout:
+the surrounding positive-radius fields must be controlled by the gold annular
+supplier or followed by the silver branch to a selected same-solution
+Pack/Part/Field face before the paper can claim CMI finality.
 
 \section{How Auxiliary Estimates Enter}
 
@@ -1497,7 +1808,12 @@ They are included so that a reader can see why the proposed terminal scenarios a
 They do not add assumptions to the theorem proved above.
 When an appendix calculation says that an older source-control theorem, no-pulse route, critical-norm route, or direct exterior \(H^s\) estimate did not close, the sentence records the failure of that direct estimate.
 It is a live hypothesis only when the main proof explicitly cites it as an input.
-The proof of the theorem is the same-solution CM dichotomy in the main body: a member branch gives continuation, and the first failed Pack, Part, or Field face gives class exit.
+The main-body theorem is the same-solution CM dichotomy together with the named
+surface payments.
+A member branch gives continuation only through its selected readout, and the
+failed branch gives class exit only through the first failed Pack, Part, or
+Field face on the selected record.
+Appendix material remains support until it supplies one of those payments.
 
 \begingroup
 \sloppy
@@ -1549,6 +1865,8 @@ The first three alternatives are Pack, Part, and Field.
 The last alternative is support for a later selected packet.
 There is no fourth continuation requirement in the working class object.
 \end{proof}
+
+\IfFileExists{euler-boundary-theorem-appendix.tex}{\input{euler-boundary-theorem-appendix.tex}}{\input{../euler-boundary-theorem-appendix.tex}}
 
 \IfFileExists{proof-attempt-failure-appendix.tex}{\input{proof-attempt-failure-appendix.tex}}{\input{../proof-attempt-failure-appendix.tex}}
 

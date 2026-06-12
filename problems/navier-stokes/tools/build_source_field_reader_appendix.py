@@ -104,6 +104,24 @@ DANGLING_SENTENCE_TAIL = re.compile(
     re.I,
 )
 SKIP_NAME = re.compile(r"(^ym-|yang|riemann|hodge|bsd|birch|p-vs-np|pnp|pvnp|theorem-creation)", re.I)
+PRIORITY_SOURCE_STEMS = [
+    "mpp-selected-packet-euler-boundary-theorem-packet-20260612",
+    "mpp-euler-boundary-clean-applicability-to-cm-exits-20260612",
+    "mpp-nonsmooth-class-exit-to-euler-class-entrance-audit-20260612",
+    "mpp-euler-ns-boundary-line-theorem-program-20260612",
+    "mpp-direct-fixed-nu-euler-smooth-ns-smooth-hierarchy-20260509",
+]
+ALLOWED_EULER_SOURCE_STEMS = set(PRIORITY_SOURCE_STEMS)
+EULER_EQUATION_SOURCE = re.compile(
+    r"(^|-)euler($|-)|viscous-euler|fixed-nu-euler|euler-smooth|ns-smooth",
+    re.I,
+)
+BROAD_EULER_RESIDUE = re.compile(
+    r"Euler/non-viscous|(?:all|every)\s+NS\s+nonsmooth(?:ness| candidate)|"
+    r"forced\s+into.{0,80}\bnu\s*(?:->|to|\\to)\s*0|"
+    r"nonsmooth\s+boundary.{0,80}\bEuler\b|(?:all|every)\s+Navier[- ]Stokes\s+nonsmooth",
+    re.I,
+)
 
 REPLACEMENTS = {
     "∎": ".",
@@ -311,6 +329,8 @@ def keep_paragraph(text: str) -> bool:
         return False
     if NOTE_STATUS_RESIDUE.search(text) or PROMPT_RESIDUE.search(text):
         return False
+    if BROAD_EULER_RESIDUE.search(text):
+        return False
     if NOT_BUT.search(text):
         return False
     if DANGLING_REFERENCE.search(text):
@@ -403,7 +423,19 @@ def title_from_markdown(raw: str, path: Path) -> str:
 
 
 def source_paths() -> list[Path]:
-    paths = [p for p in THEOREM_DIR.glob("*.md") if not SKIP_NAME.search(p.stem)]
+    candidates = [p for p in THEOREM_DIR.glob("*.md") if not SKIP_NAME.search(p.stem)]
+    def is_euler_equation_source(path: Path) -> bool:
+        stem = path.stem.lower()
+        if "non-euler" in stem or "eulerian" in stem:
+            return False
+        return bool(EULER_EQUATION_SOURCE.search(stem))
+
+    paths = [
+        p
+        for p in candidates
+        if p.stem in ALLOWED_EULER_SOURCE_STEMS
+        or not is_euler_equation_source(p)
+    ]
     order: dict[Path, int] = {}
     try:
         proc = subprocess.run(
@@ -428,7 +460,14 @@ def source_paths() -> list[Path]:
                     order[p] = ts
     except Exception:
         pass
-    return sorted(paths, key=lambda p: (order.get(p, int(p.stat().st_mtime)), p.name))
+    ordered = sorted(paths, key=lambda p: (order.get(p, int(p.stat().st_mtime)), p.name))
+    priority = [
+        THEOREM_DIR / f"{stem}.md"
+        for stem in PRIORITY_SOURCE_STEMS
+        if (THEOREM_DIR / f"{stem}.md").exists()
+    ]
+    seen = set(priority)
+    return priority + [p for p in ordered if p not in seen]
 
 
 def blocks_from_markdown(raw: str) -> list[tuple[str, str]]:
@@ -584,6 +623,9 @@ def build() -> None:
             bad_lines.append(line)
             continue
         if CONTRACT_RESIDUE.search(line):
+            bad_lines.append(line)
+            continue
+        if BROAD_EULER_RESIDUE.search(line):
             bad_lines.append(line)
             continue
         if not in_display_math and LABEL_SOUP_RESIDUE.search(line):

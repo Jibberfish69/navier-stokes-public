@@ -1,0 +1,126 @@
+\section{Selected-Packet Euler Boundary Theorem}
+
+This appendix records the exact Euler material allowed in the Navier--Stokes proof.
+Euler is used only after the same selected terminal packet has already been typed inside the Pack/Part/Field class test.
+It is not a separate proof route.
+
+\begin{definition}[Base Euler boundary membership]
+For a selected terminal packet \(Q\), write
+\[
+  \Member_E(Q):=\mathrm{EVol}_Q(u)\wedge \mathrm{EMom}_Q(u,p).
+\]
+Here \(\mathrm{EVol}_Q\) means incompressible flux-volume readability and \(\mathrm{EMom}_Q\) means weak inviscid momentum-pressure readability on the same packet.
+This base Euler test contains no Navier--Stokes participation predicate, no fixed viscosity, no positive-scale one-field predicate, and no smoothness requirement.
+\end{definition}
+
+\begin{definition}[Clean selected-packet Euler boundary]
+A terminal packet \(Q\) is in the clean Euler boundary case at depth \(N\) when all of the following hold:
+\begin{enumerate}
+\item \(Q\) is the same selected Navier--Stokes terminal packet, not a neighboring comparison example.
+\item \(\Pack_Q\) survives at least in the shared flux-volume sense needed for \(\mathrm{EVol}_Q\).
+\item \(\mathrm{EVol}_Q(u)\wedge\mathrm{EMom}_Q(u,p)\) holds on \(Q\).
+\item The first Navier--Stokes failure is only loss of fixed-viscosity participation or loss of positive-scale one-field coherence, with no Reynolds stress, source measure, pressure-source residue, concentration residue, oscillation defect, or same-packet compactness gap left over.
+\end{enumerate}
+\end{definition}
+
+\begin{theorem}[Clean Part exit becomes base Euler entrance]
+Assume \(Q\) is in the clean Euler boundary case and the first Navier--Stokes face lost after Pack is
+\[
+  \Pack_Q\wedge\neg\Part_{N,Q}.
+\]
+Then \(Q\) exits the fixed-positive-viscosity Navier--Stokes class through Part and is a base Euler member:
+\[
+  \Exit_{NS}(Q)
+  \qquad\hbox{and}\qquad
+  \Member_E(Q).
+\]
+\end{theorem}
+
+\begin{proof}
+The Navier--Stokes side is the installed Pack-first CM conclusion.
+After \(\Pack_Q\) has survived, failure of \(\Part_{N,Q}\) says that the selected packet no longer carries the same differentiated pressure-viscosity tower through depth \(N\).
+That tower includes the fixed positive-viscosity term \(\nu\Delta U_k\), so its failure is a Navier--Stokes class exit through Part.
+
+The Euler side is exactly the base membership definition.
+The clean boundary hypotheses say that the same packet still carries \(\mathrm{EVol}_Q(u)\) and \(\mathrm{EMom}_Q(u,p)\), and that no extra defect measure or source residue is being smuggled into the comparison.
+Thus the escaped packet is not a fixed-viscosity Navier--Stokes member, but it is a base Euler member.
+\end{proof}
+
+\begin{theorem}[Clean Field exit becomes base Euler entrance]
+Assume \(Q\) is in the clean Euler boundary case, \(\Pack_Q\) and \(\Part_{N,Q}\) survive for the branch split, and the first remaining Navier--Stokes face lost is
+\[
+  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+\]
+Then \(Q\) exits the fixed-positive-viscosity Navier--Stokes class through Field and is a base Euler member:
+\[
+  \Exit_{NS}(Q)
+  \qquad\hbox{and}\qquad
+  \Member_E(Q).
+\]
+The same object may still fail stronger Euler regularity or one-field coherence.
+\end{theorem}
+
+\begin{proof}
+Once Pack and Part survive, the remaining CM continuation service is positive-scale one-field coherence.
+If every positive scale fails \(\Field_{N,r,Q}\), the selected packet exits the fixed-viscosity Navier--Stokes class through Field.
+The clean boundary hypotheses separately give \(\mathrm{EVol}_Q(u)\wedge\mathrm{EMom}_Q(u,p)\) on the same packet.
+That conjunction is \(\Member_E(Q)\).
+The all-scales Field failure is therefore a failure of a stronger coherence layer, not a failure of base Euler membership.
+\end{proof}
+
+\begin{center}
+\small
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{1.16}
+\begin{tabular}{L{0.25\linewidth}L{0.22\linewidth}L{0.21\linewidth}L{0.23\linewidth}}
+\textbf{CM ledger record} & \textbf{NS face} & \textbf{Euler boundary status} & \textbf{Reason}\\
+\hline
+zero-radius terminal packet & \(\neg\Pack_Q\) & does not apply & no retained selected positive packet\\
+unpaid donor refill or detached ancestry & \(\neg\Pack_Q\) & does not apply & carrier failure, not viscous-only loss\\
+raw terminal source residue & Pack fails, or Part fails after Pack & clean subcase only & source or pressure residue must be removed first\\
+pressure-viscosity or dwell exit & Part fails after Pack & applies to clean Part subcase & lost same-law viscous participation\\
+retained positive-window blowup & Pack and Part retained; all Field scales fail & applies to clean Field subcase & lost positive-scale one-field coherence\\
+retained native source residue diagnostic & retained Field diagnostic & underdeveloped potential & raw residue is Pack/Part first until licensed away\\
+retained positive-scale reserve birth & unresolved support & does not apply & no selected face and no Euler member\\
+active height / low strain split & finite typed split & clean subcases only & only certified Part or retained-Field subcases qualify\\
+signed current / no-free-sink & no independent face & does not apply & support, not a class face\\
+endpoint / no-pulse / good-scale readout & support or Field after Pack+Part & underdeveloped potential & needs same-packet Field restatement\\
+terminal \(L^3\) Duhamel mass & Pack/Part or retained Field & clean retained-Field subcase only & generic source alternatives do not qualify\\
+local critical translator & none until same-atlas localization & underdeveloped potential & needs localization plus Field incompatibility\\
+transfer and mirror comparison & no independent face & stale/excess for NS proof & broad comparison is outside the CM proof\\
+\end{tabular}
+\end{center}
+
+This table is the endpoint boundary for the current manuscript.
+Rows in the clean Part or clean Field status are the only nonsmooth Euler class-entrance rows.
+Pack exits, raw residues, source measures, pressure-source residues, Reynolds-stress limits, readout support, and broad mirror/transfer branches stay outside the Euler boundary theorem until a later proof retypes them on the same selected packet.
+
+\begin{center}
+\small
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{1.16}
+\begin{tabular}{L{0.28\linewidth}L{0.30\linewidth}L{0.33\linewidth}}
+\textbf{Endpoint surface} & \textbf{Face behavior} & \textbf{Euler boundary status}\\
+\hline
+live CM core and torus atlas & Pack/Part/Field framework & framework only; clean subcases use the two theorems above\\
+whole-space exterior completion & exterior source vanishes or lands in Pack/Part/Field & mostly excluded; retained Field subcase needs no-residue Euler readability\\
+endpoint matrix and cover taxonomy & Dead, Jump, tower-blown, and packing labels reduce to native faces & taxonomy only\\
+terminal source residue & Pack or Part & excluded while raw source residue remains\\
+terminal \(L^3\) Duhamel mass & Pack/Part or retained Field & clean retained-Field subcase only\\
+\(\mathrm{Jump}_{avg}\) and averaged Field admission & retained Pack+Part gives Field & clean Field subcase after same admitted packet and no defect leak\\
+retained pressure package and receiver escape & Part, pass-side support, or retained Field & clean Part/Field subcases only\\
+low-high endpoint source and active-square residue & Pack & does not apply\\
+annular limit witness & first Pack/Part/Field face & clean subcases only\\
+CKN, GoodScale, \(H^{1/2}\), and exterior dyadic survivor & retained Pack+Part versions land in Field & underdeveloped potential until same-packet no-residue Euler readability is proved\\
+\end{tabular}
+\end{center}
+
+The cross-check prevents endpoint names from becoming hidden Euler doors.
+Dead, Jump, tower-blown, receiver escape, GoodScale failure, CKN wall, annular witness, and exterior survivor are used only after they have been reduced to a first Pack, Part, or Field face.
+
+\begin{corollary}[PDF retention rule]
+The manuscript may keep Euler in two roles only.
+The first role is the selected-packet boundary theorem above.
+The second role is the smooth-side support bridge from smooth Euler behavior to fixed-viscosity Navier--Stokes smooth-side comparison.
+Neither role creates a broad Euler branch inside the Navier--Stokes proof.
+\end{corollary}
