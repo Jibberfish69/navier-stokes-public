@@ -185,10 +185,14 @@ with seed
 \tag{10}
 ```
 
-such that
+and constants `0<c_{Lag}\le C_{Lag}<\infty` such that
 
 ```math
-\mathcal K_r^{Lag}\asymp \Psi_r^{Lag},
+c_{Lag}\Psi_r^{Lag}
+\le
+\mathcal K_r^{Lag}
+\le
+C_{Lag}\Psi_r^{Lag},
 \tag{11}
 ```
 
@@ -424,7 +428,7 @@ The mainline now needs only one theorem-grade top-order estimate:
 
 ```math
 \mathcal C_{r,\mathrm{top}}^{Lag}
-\lesssim
+\le C_{Lag}
 \mathcal D_r^{Lag}+\mathcal K_r^{Lag},
 \tag{15f}
 ```
@@ -439,7 +443,7 @@ Assume `r>\frac52` and that the active bootstrap window carries
 \|\nabla_a v\|_{L_a^\infty}\le \Lambda_*,
 \qquad
 \sum_{1\le |\beta|\le r}\|\partial_a^\beta G\|_{L_a^2}^2
-\lesssim
+\le C_G
 \mathcal K_r^{Lag}.
 \tag{15g}
 ```
@@ -661,8 +665,8 @@ That first globalization theorem is now frozen separately in
 [capwise-signed-defect-positivity-theorem-candidate.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/capwise-signed-defect-positivity-theorem-candidate.md).
 That signed packet is now stabilized first with an abstract shell-local
 coercive coefficient `\kappa_j` and a cap-adjacency matrix reduction; only
-after a positivity mechanism is fixed should one try to identify
-`\kappa_j\simeq 2^j\rho_j`.
+after a positivity mechanism is fixed should one try to prove
+`c_K2^j\rho_j\le \kappa_j\le C_K2^j\rho_j`.
 Its current theorem-grade sufficient route is the block-Gershgorin positivity
 criterion through the net cap-graph margin `\kappa_j^{net}`.
 The abstract theorem `(CSD-net)` is now discharged there; the live reserve sign
@@ -824,9 +828,9 @@ are equivalent, so
 
 ```math
 \|\nabla_x u(t)\|_{L_x^2}^2
-\asymp_{\Lambda_*}
+\le C_{\Lambda_*}
 \|\nabla_a v(t)\|_{L_a^2}^2
-\lesssim
+\le C_K
 \mathcal K_r^{Lag}(t),
 \tag{19f}
 ```
@@ -1195,7 +1199,7 @@ uniform cardinality. So the alternate endpoint route is no longer a
 lower-prefix / scale-memory theorem. It has become a local fixed-width band
 theorem. That is strictly smaller than `(CTS)` / `(LPAS)`.
 
-Equivalently, since the collar sets have `O(1)` cardinality, the endpoint route
+Equivalently, since the collar sets have cardinality at most `C_{\mathrm{collar}}`, the endpoint route
 may be discharged by a uniform finite family of shell-pair estimates
 
 ```math

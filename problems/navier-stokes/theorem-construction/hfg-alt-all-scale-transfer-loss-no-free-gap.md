@@ -88,14 +88,14 @@ A_{j-1}(t)\le c\nu2^{2j}.
 By `HFG.low`, that inequality holds only above the dynamic threshold
 
 ```math
-2^{j/2}\gtrsim \nu^{-1}\|\omega(t)\|_2.
+2^{j/2}\ge C_{HFG}\nu^{-1}\|\omega(t)\|_2.
 ```
 
 The shells below that threshold contribute the residual law
 
 ```math
 \sum_{j<J(t)}2^{3j/2}\|\Delta_j\omega(t)\|_2
-\lesssim
+\le C_{res}
 \nu^{-1}\|\omega(t)\|_2\|\nabla\omega(t)\|_2.
 ```
 

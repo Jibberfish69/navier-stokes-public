@@ -643,9 +643,9 @@ Show that:
 
 ```math
 \text{tail leakage}
-\sim
+\leftrightarrow_{\mathrm{same\ readout}}
 \text{tower flux/debt}
-\sim
+\leftrightarrow_{\mathrm{same\ readout}}
 \text{deformation commutator}
 ```
 

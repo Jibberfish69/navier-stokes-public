@@ -60,7 +60,7 @@ The desired no-loss estimate is
 \|\partial_t v\|_{L_t^2 H^{s-1}}
 +
 \|\nabla_a q\|_{L_t^2 H^{s-1}}
-\lesssim
+\le C_s
 \|v_0\|_{H^s}
 +
 \|f\|_{L_t^2 H^{s-1}}
@@ -400,7 +400,7 @@ So the first truly actionable estimate is the patchwise bound
 \|v\|_{L_t^2 H^{s+1}(B)}
 +
 \|\nabla_a q\|_{L_t^2 H^{s-1}(B)}
-\lesssim
+\le C_{s,B}
 \|v_0\|_{H^s(B')}
 +
 \|f\|_{L_t^2 H^{s-1}(B')}
@@ -586,7 +586,7 @@ commutators satisfy
 
 ```math
 \text{differentiated commutators}
-\lesssim
+\le C_{\mathrm{comm}}
 \varepsilon\big(\|v\|_{H^{s+1}}^2+\|\nabla_a q\|_{H^{s-1}}^2\big)
 +
 C_\varepsilon\,\text{same-depth ledger terms}.
@@ -742,7 +742,7 @@ on `H^s` and `H^{s+1}`:
 \|v\|_{L_t^2H_a^{s+1}(I_j)}
 +
 \sup_{t\in I_j}\|v(t)\|_{H_a^s}
-\lesssim_{\Lambda_*}
+\le C_{\Lambda_*}
 X_s^{\mathrm{corr}}[I_j;w,\pi].
 \tag{10d}
 ```
@@ -1010,7 +1010,7 @@ the dynamic term
 
 ```math
 \delta_{t_0,\tau}
-\lesssim
+\le C_\delta
 \tau^{1/2}P_s(K_{t_0,\tau})
 +
 P_s(K_{t_0,\tau})\,D_{t_0,\tau},
@@ -1275,7 +1275,7 @@ while the dynamic/static defect law becomes
 ```
 
 The key improvement over `(10td)` is that the zero-initial-data equations for
-`z,\Xi_1,\Xi_2` yield a restart inequality of the schematic form
+`z,\Xi_1,\Xi_2` yield the restart inequality
 
 ```math
 \boxed{
@@ -1706,12 +1706,12 @@ estimate to `\Xi_1,\Xi_2`, then using `(11ijb)` to transfer between
 `\widehat z` and `z`, gives exactly `(10tp)`.
 
 So the Stokes-recentered increment inequality is no longer just a target
-schematic. On the current theorem surface it follows from the corrected Stokes
+formula. On the current theorem surface it follows from the corrected Stokes
 equation, the frozen-coordinate frame propagation formulas, and one tame Taylor
 expansion around the refrozen zero-defect base state.
 
 So the Stokes recentering idea does materially sharpen the last wall. It does
-**not** prove `\delta_I=O(\tau^{1/2})` by itself, but it converts the restart
+**not** prove `\delta_I\le C\tau^{1/2}` by itself, but it converts the restart
 step into a small-increment bootstrap whose linear and source terms vanish as
 `\tau\downarrow0`.
 
@@ -1857,7 +1857,7 @@ Its role is to provide the missing same-depth derivatives of `v` and `q`:
 \|\partial_t v\|_{L_t^2 H^{s-1}}
 +
 \|\nabla_a q\|_{L_t^2 H^{s-1}}
-\lesssim
+\le C_s
 \|v_0\|_{H^s}
 +
 \|f\|_{L_t^2 H^{s-1}}
@@ -1896,7 +1896,7 @@ The right closure tool is same-depth Moser/Kato--Ponce calculus, for example
 
 ```math
 \|uv\|_{H^s}
-\lesssim
+\le C_s
 \|u\|_{L^\infty}\|v\|_{H^s}
 +
 \|u\|_{H^s}\|v\|_{L^\infty}.

@@ -6060,10 +6060,17 @@ So the pointwise anchor packet `(EP.10bo1)` is reduced exactly to one averaged
 anchor-velocity packet.
 
 **Proof.**
-Choose `\tau_k^v\in I_k^{gap}` at which the function `t\mapsto |v_J(x_k,t)|`
-attains or approximately attains its minimum. Then
-`|v_J(x_k,\tau_k^v)|` is no larger than the average value of `|v_J(x_k,t)|`
-over `I_k^{gap}`, which is exactly `(EP.10bs2)`. ∎
+For each `\eta>0`, choose `\tau_{k,\eta}^v\in I_k^{gap}` so that
+
+```math
+|v_J(x_k,\tau_{k,\eta}^v)|
+\le
+\inf_{t\in I_k^{gap}}|v_J(x_k,t)|+\eta.
+```
+
+Since the infimum is bounded above by the average value of
+`|v_J(x_k,t)|` on `I_k^{gap}`, let `\eta\downarrow0` to obtain
+`(EP.10bs2)`. ∎
 
 ### Corollary EP.10bt (the conservative velocity-side realization reduces to averaged anchor velocity)
 
@@ -7053,7 +7060,7 @@ Holder continuity gives
 \tag{EP.10cf8}
 ```
 
-so the kernel estimate `|H(x_k-y)|\lesssim |x_k-y|^{-3}` yields an integrand
+so the kernel estimate `|H(x_k-y)|\le C_H |x_k-y|^{-3}` yields an integrand
 bounded by `|x_k-y|^{-3+\alpha}`, which is locally integrable for `\alpha>0`.
 This gives
 

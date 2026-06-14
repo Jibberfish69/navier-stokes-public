@@ -63,26 +63,26 @@ N-M\le m\le N+M.
 A representative term has the form
 
 ```math
-\left\langle\Delta_j(\Delta_m u\cdot\nabla u_{\sim j}),-\Delta\Delta_j u\right\rangle.
+\left\langle\Delta_j(\Delta_m u\cdot\nabla u_{[j]}),-\Delta\Delta_j u\right\rangle.
 ```
 
 Since dyadic velocity blocks are divergence-free,
 
 ```math
-\Delta_m u\cdot\nabla u_{\sim j}=\nabla\cdot(\Delta_m u\otimes u_{\sim j}).
+\Delta_m u\cdot\nabla u_{[j]}=\nabla\cdot(\Delta_m u\otimes u_{[j]}).
 ```
 
 After integration by parts, the derivative is placed on the high output side. Bernstein gives
 
 ```math
-\|\Delta_m u\|_\infty\lesssim 2^{\frac32m}\|\Delta_m u\|_2.
+\|\Delta_m u\|_\infty\le C_B2^{\frac32m}\|\Delta_m u\|_2.
 ```
 
 Thus each shell satisfies
 
 ```math
 |SP_j|
-\lesssim
+\le C_{SP}
 \Theta_N(t)E_j(t)^{1/2}D_j(t)^{1/2},
 ```
 
@@ -98,7 +98,7 @@ Summing over `j\ge N` and using Cauchy-Schwarz,
 
 ```math
 \sum_{j\ge N}|SP_j|
-\lesssim
+\le C_{SP}
 \Theta_N(t)E_N(t)^{1/2}D_N(t)^{1/2}.
 ```
 

@@ -89,8 +89,9 @@ So the tail-energy surface remains locally unchanged:
 
 - `T_N`, `Q_N`, `\Pi_{\ge N}(T)` stay the same;
 - the local tail spill lemma still uses the exact-solution gradient bound;
-- the local high-high packet and coercive damping `Q_N\gtrsim 2^{2N}T_N` stay
-  the same.
+- the local high-high packet and coercive damping stay the same: for the fixed
+  dyadic projector there is a constant `c_Q>0` with
+  `Q_N\ge c_Q 2^{2N}T_N`.
 
 In particular, upgrading the Proposition `6.1` coefficient to
 `\widetilde\Lambda_N^\sharp` does not by itself force a rewrite of the local

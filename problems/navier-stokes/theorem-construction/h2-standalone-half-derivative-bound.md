@@ -59,8 +59,8 @@ Equivalent admissible inputs are:
 
 - a dyadic coherence defect at every shell;
 - an alignment-defect inequality suppressing stretching;
-- a shellwise half-derivative gain that converts the high-frequency cascade
-  into a summable defect;
+- a shellwise payment of the residual high-frequency square factor that
+  converts the cascade into a summable defect;
 - a transport-mixing mechanism that yields the same coercive inequality after
   time integration.
 
@@ -133,7 +133,7 @@ C A_j^2
 If this barrier inequality is proved, then the threshold
 
 ```math
-A_j(t)\lesssim \nu 2^{2j}
+A_j(t)\le K\nu 2^{2j}
 ```
 
 becomes forward invariant, which is exactly the quantified strain suppression
@@ -162,7 +162,7 @@ The proposed elimination of `\|\omega\|_{\dot H^{1/2}_x}` through the estimate
 
 ```math
 \sum_{k\le j} 2^{k}\|\Delta_k\omega\|_2^2
-\lesssim
+\le C_{FE}
 A_j\cdot 2^{-3j/2}\|\omega\|_2
 ```
 
@@ -242,9 +242,9 @@ On the low-frequency band, Bernstein gives the exact dyadic control
 
 ```math
 \big|\nabla u_{<j_0}(t)\big|_{L^\infty_x}
-\lesssim
+\le C_B
 \sum_{k\le j_0-1} 2^{\frac52 k}\|\Delta_k\omega(t)\|_{L^2_x}
-=A_{j_0-1}(t).
+=C_B A_{j_0-1}(t).
 ```
 
 So the remaining endpoint object is equivalently
@@ -262,7 +262,7 @@ The valid Bernstein-level estimate is
 
 ```math
 \|\omega_{\le j}(t)\|_{L^\infty_x}
-\lesssim
+\le C_B
 2^{\frac32 j}\|\omega(t)\|_{L^2_x},
 ```
 
@@ -270,7 +270,7 @@ and, more sharply,
 
 ```math
 \|\omega_{\le j}(t)\|_{L^\infty_x}
-\lesssim
+\le C_B
 2^{\frac32 j}
 \Big(\sum_{k\le j}2^{-3(j-k)}\|\Delta_k\omega(t)\|_{L^2_x}^2\Big)^{1/2}.
 ```

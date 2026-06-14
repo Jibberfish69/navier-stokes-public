@@ -275,11 +275,11 @@ For NS right now, the most important same-burden equivalence is:
 
 ```math
 \text{lifted high-side remainder}
-\sim
+\leftrightarrow_{\mathrm{same\ burden}}
 \text{stronger Body I lifted-band theorem burden}
-\sim
+\leftrightarrow_{\mathrm{same\ burden}}
 \text{tower flux/debt face}
-\sim
+\leftrightarrow_{\mathrm{same\ burden}}
 \text{geometry commutator face}.
 ```
 

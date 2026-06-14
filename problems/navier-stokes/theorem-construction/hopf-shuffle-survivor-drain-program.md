@@ -302,7 +302,7 @@ The far-corona piece carries an explicit scale-ratio kernel:
 
 ```math
 \Sigma_\ell^{far,L}(x,t)
-\lesssim_L
+\le C_L
 \int_{e^L\ell}^{\ell_{bot}}
 \frac{\ell}{r}\,
 \widetilde\Sigma_r(x,t)\,
@@ -382,9 +382,9 @@ three forms:
 
 ```math
 \text{lifted high-side remainder}
-\sim
+\leftrightarrow_{\mathrm{same\ readout}}
 \text{tower flux/debt packet}
-\sim
+\leftrightarrow_{\mathrm{same\ readout}}
 \text{deformation-geometry commutator packet}.
 \tag{30}
 ```
